@@ -1,0 +1,38 @@
+name: Apply the 0.7 iteration bundle
+
+on:
+  push:
+    branches: ["big-iteration-0.7"]
+    paths:
+      - ".github/workflows/apply-iteration-bundle.yml"
+      - ".iteration-bundle/**"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: apply-iteration-bundle
+  cancel-in-progress: false
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out branch
+        uses: actions/checkout@v7
+        with:
+          ref: big-iteration-0.7
+      - name: Reconstruct and apply iteration
+        run: |
+          cat .iteration-bundle/part-* | base64 --decode > /tmp/tangle-iteration.tar.gz
+          tar -xzf /tmp/tangle-iteration.tar.gz -C .
+          chmod +x scripts/apply_research_iteration.py scripts/patch_iteration_site.py scripts/validate_iteration.py
+          make validate
+      - name: Commit the applied release
+        run: |
+          rm -rf .iteration-bundle .github/workflows/apply-iteration-bundle.yml
+          git config user.name "Benjamin P Taylor"
+          git config user.email "ben.taylor@redquadrant.com"
+          git add -A
+          git commit -m "Build the 0.7 constellations iteration" -m "Itemise the 89-paper corpus, add Principia Cybernetica and canonical sources, publish observed neighbourhoods, enrich the map, and add curator-approved participation and agent protocols."
+          git push origin HEAD:big-iteration-0.7
