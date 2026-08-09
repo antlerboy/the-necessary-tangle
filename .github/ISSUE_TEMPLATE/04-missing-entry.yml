@@ -1,0 +1,51 @@
+name: Propose a missing entry
+description: Suggest an idea, person, method, publication, institution or event not yet represented.
+title: "[Missing entry] "
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Proposed maintained name
+    validations:
+      required: true
+  - type: input
+    id: aliases
+    attributes:
+      label: Aliases, acronyms or alternate spellings
+    validations:
+      required: false
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type
+      options:
+        - Concept
+        - Person
+        - Law or principle
+        - Method or methodology
+        - Practice
+        - Publication
+        - Organisation or institution
+        - Event or project
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: reason
+    attributes:
+      label: Why is it necessary to understand the core field?
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Public source URL or complete citation
+    validations:
+      required: true
+  - type: textarea
+    id: connections
+    attributes:
+      label: Proposed precise connections
+      description: Avoid generic ‘related to’ statements.
+    validations:
+      required: false

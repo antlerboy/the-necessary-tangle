@@ -1,0 +1,38 @@
+name: Correct an entry
+description: Propose a precise correction to an existing public entry.
+title: "[Correction] "
+body:
+  - type: input
+    id: entry
+    attributes:
+      label: Entry
+      description: Give the public entry name and link.
+      placeholder: Viability — https://…
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: Proposed correction
+      description: State the smallest precise change the evidence supports.
+    validations:
+      required: true
+  - type: textarea
+    id: reason
+    attributes:
+      label: Why it matters
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Public source URL or full citation
+    validations:
+      required: true
+  - type: textarea
+    id: locator
+    attributes:
+      label: Exact evidence or locator
+      description: Page, section, timestamp, archive reference or concise summary.
+    validations:
+      required: false

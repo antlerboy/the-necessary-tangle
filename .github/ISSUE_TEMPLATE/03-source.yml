@@ -1,0 +1,29 @@
+name: Suggest a source
+description: Add a better public source or a complete citation with no public link.
+title: "[Source] "
+body:
+  - type: input
+    id: entry
+    attributes:
+      label: Entry or connection
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Public URL or complete citation
+    validations:
+      required: true
+  - type: textarea
+    id: support
+    attributes:
+      label: What does it support, correct or complicate?
+    validations:
+      required: true
+  - type: input
+    id: locator
+    attributes:
+      label: Exact locator
+      placeholder: Page 47; section 3; 14:20–16:05; archive reference
+    validations:
+      required: false

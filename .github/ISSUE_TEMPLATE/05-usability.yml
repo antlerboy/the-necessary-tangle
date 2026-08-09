@@ -1,0 +1,34 @@
+name: Report a website problem
+description: Report broken search, maps, journeys, links, accessibility or confusing wording.
+title: "[Usability] "
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+    validations:
+      required: true
+  - type: input
+    id: page
+    attributes:
+      label: Page or public link
+    validations:
+      required: false
+  - type: input
+    id: browser
+    attributes:
+      label: Browser and device
+    validations:
+      required: false
+  - type: textarea
+    id: extra
+    attributes:
+      label: Screenshot or further detail
+    validations:
+      required: false

@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+title: The Necessary Tangle
+message: Please cite the release you used.
+type: software
+authors:
+  - family-names: Taylor
+    given-names: Benjamin P
+repository-code: https://github.com/antlerboy-benjamintaylor/the-necessary-tangle
+url: https://antlerboy-benjamintaylor.github.io/the-necessary-tangle/
+abstract: A living evidence atlas of systems, complexity and cybernetics.
+version: 0.5-github-alpha
+date-released: 2026-08-09
