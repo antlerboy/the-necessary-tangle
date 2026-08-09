@@ -1,24 +1,43 @@
 # Publishing on GitHub Pages
 
-The repository includes a deployment workflow in `.github/workflows/pages.yml`.
+The Necessary Tangle is published from the canonical repository:
 
-## One-time repository settings
+https://github.com/antlerboy/the-necessary-tangle
 
-1. Open the repository’s **Settings**.
-2. Open **Pages**.
-3. Under **Build and deployment**, set **Source** to **GitHub Actions**.
-4. Open **General** under repository settings and enable **Discussions**.
+The live public site is:
 
-After the files are on `main`, the Pages workflow validates the public build and deploys the `docs/` folder.
+https://antlerboy.github.io/the-necessary-tangle/
 
-The intended public address is:
+## Repository settings
 
-https://antlerboy-benjamintaylor.github.io/the-necessary-tangle/
+GitHub Pages uses **GitHub Actions** as its build source. Repository Issues and Discussions should remain enabled because they provide the public correction and dialogue routes.
 
-## Future updates
+## Normal publication
 
-A push to `main` runs validation and publishes the current `docs/` folder. Pull requests run the validation workflow without publishing.
+A push to `main` runs `.github/workflows/pages.yml`. The workflow:
+
+1. builds and enriches the public dataset;
+2. applies the current public-site wording and release metadata;
+3. generates the public conversational knowledge file;
+4. validates names, URLs, source safety, data references and required interface elements;
+5. checks JavaScript syntax;
+6. deploys the `docs/` folder to GitHub Pages.
+
+Pull requests run the validation workflow without publishing.
+
+## After publication
+
+Check at least:
+
+- search and autocomplete, including a close misspelling such as `viabilty`;
+- an entry page and its sources;
+- a guided journey;
+- node and line selection on the map;
+- a question in the Ask view;
+- the correction and discussion routes;
+- the About page, licence and acknowledgements;
+- phone and desktop layouts.
 
 ## Custom domain
 
-A custom domain can be added later without changing the site architecture. Keep the GitHub Pages address working as the fallback and verify any custom domain through GitHub before use.
+A custom domain can be added later without changing the site architecture. Keep the GitHub Pages address working as the fallback and verify a custom domain through the canonical `antlerboy` account before changing DNS.

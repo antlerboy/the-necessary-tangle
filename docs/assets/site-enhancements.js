@@ -10,6 +10,19 @@
     });
   }
 
+  function refinePublicLanguage(root = document) {
+    root.querySelectorAll?.("h2").forEach((heading) => {
+      if (heading.textContent.trim() === "Claims and disputes") {
+        heading.textContent = "Statements and disputes";
+      }
+    });
+  }
+
+  function refine(root = document) {
+    markClickableCards(root);
+    refinePublicLanguage(root);
+  }
+
   document.addEventListener("click", (event) => {
     if (event.target.closest(interactiveSelector)) return;
     const card = event.target.closest(".card.is-clickable");
@@ -22,14 +35,13 @@
     for (const record of records) {
       for (const node of record.addedNodes) {
         if (!(node instanceof Element)) continue;
-        if (node.matches(".card")) markClickableCards(node.parentElement || document);
-        else markClickableCards(node);
+        refine(node.matches(".card") ? node.parentElement || document : node);
       }
     }
   });
 
   function init() {
-    markClickableCards();
+    refine();
     observer.observe(document.body, { childList: true, subtree: true });
   }
 

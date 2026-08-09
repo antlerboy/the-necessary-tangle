@@ -29,6 +29,7 @@ def label(value: str) -> str:
 
 def main() -> None:
     data = json.loads(DATA_PATH.read_text(encoding="utf-8"))
+    meta = data.get("meta", {})
     redirects = data.get("canonical_redirects", {})
     canonical = lambda node_id: redirects.get(node_id, node_id)
     sources = {source["id"]: source for source in data.get("sources", [])}
@@ -39,16 +40,20 @@ def main() -> None:
     ]
     nodes.sort(key=lambda node: node["label"].casefold())
 
+    author = meta.get("author", "Benjamin P Taylor")
+    author_url = meta.get("author_url", "https://www.antlerboy.com/")
+    subtitle = meta.get("subtitle", "A living evidence atlas of systems | cybernetics | complexity")
+
     lines = [
         "# The Necessary Tangle: public knowledge file",
         "",
-        "Created and edited by Benjamin P Taylor.",
-        f"Generated from public release {data['meta']['release']}.",
+        f"Curated by {author} — {author_url}",
+        f"Generated from public release {meta.get('release', 'not stated')}.",
         "",
-        "The Necessary Tangle is a living evidence atlas of systems, complexity and cybernetics.",
+        subtitle + ".",
         "Every connection must say what it means. Historical sequence, logical dependence, influence, teaching, collaboration, practical use, comparison and dispute are not interchangeable.",
         "",
-        "Use this file as orientation and public source context, not as final scholarly consensus. Preserve the stated status and uncertainty of claims. Do not infer influence, mentorship or priority from resemblance alone.",
+        "Use this file as orientation and public source context, not as final scholarly consensus. Preserve the stated status and uncertainty of statements. Do not infer influence, mentorship or priority from resemblance alone.",
         "",
         "## Public source policy",
         "",
@@ -112,6 +117,24 @@ def main() -> None:
                 target = source.get("url") or "No public link"
                 lines.append(f"- {source['title']} — {target}")
             lines.append("")
+
+    corpus_register = data.get("corpus_register", [])
+    if corpus_register:
+        lines.extend([
+            "# Registered coverage programmes",
+            "",
+            "These are explicit next-work programmes, not claims that the corpora have already been fully reviewed or ingested.",
+            "",
+        ])
+        for corpus in corpus_register:
+            lines.extend([
+                f"## {corpus.get('label', corpus.get('id', 'Coverage programme'))}",
+                "",
+                f"Status: {corpus.get('status', 'not stated').replace('_', ' ')}",
+                f"Tracking issue: {corpus.get('issue_url', 'not stated')}",
+                f"Completion test: {corpus.get('completion_test', 'not stated')}",
+                "",
+            ])
 
     OUTPUT_PATH.write_text("\n".join(lines).rstrip() + "\n", encoding="utf-8")
     print(f"Wrote {OUTPUT_PATH.relative_to(ROOT)} with {len(nodes)} public entries.")
