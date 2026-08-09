@@ -39,9 +39,9 @@ jobs:
           make validate
       - name: Commit the applied release
         run: |
-          rm -rf .iteration-bundle .github/workflows/apply-iteration-bundle.yml
+          rm -rf .iteration-bundle
           git config user.name "Benjamin P Taylor"
           git config user.email "ben.taylor@redquadrant.com"
           git add -A
-          git commit -m "Build the 0.7 constellations iteration" -m "Itemise the 89-paper corpus, add Principia Cybernetica and canonical sources, publish observed neighbourhoods, enrich the map, and add curator-approved participation and agent protocols."
+          git commit -m "Build the 0.7 network iteration" -m "Add Principia Cybernetica, canonical sources, provisional network neighbourhoods, richer map controls, and curator-approved participation and agent protocols."
           git push origin HEAD:release-0.7-constellation-alpha
