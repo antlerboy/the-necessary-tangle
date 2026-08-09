@@ -1,0 +1,59 @@
+name: Apply for a project role
+description: Propose a contribution and request a curator-approved role. This form grants no automatic access.
+title: "[Membership] "
+labels: ["governance"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Read `documentation/participation-and-access.md` and `AGENTS.md` where relevant. The curator decides roles and repository access after review.
+  - type: input
+    id: name
+    attributes:
+      label: Your name
+    validations:
+      required: true
+  - type: input
+    id: github
+    attributes:
+      label: GitHub username
+    validations:
+      required: true
+  - type: dropdown
+    id: role
+    attributes:
+      label: Role requested
+      options:
+        - Proposer
+        - Research contributor
+        - Reviewer
+        - Maintainer
+    validations:
+      required: true
+  - type: textarea
+    id: contribution
+    attributes:
+      label: Proposed contribution
+      description: Name the corpus, concept, lineage, technical work or review capacity.
+    validations:
+      required: true
+  - type: textarea
+    id: checks
+    attributes:
+      label: Evidence, scope and uncertainty checks
+    validations:
+      required: true
+  - type: textarea
+    id: automation
+    attributes:
+      label: LLM or agent assistance
+      description: State the tool, task and named human sponsor, or write ‘None’.
+    validations:
+      required: true
+  - type: checkboxes
+    id: agreement
+    attributes:
+      label: Agreement
+      options:
+        - label: I understand that this application grants no automatic repository access and that public work remains subject to curator approval.
+          required: true

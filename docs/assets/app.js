@@ -30,7 +30,13 @@
     historical: 'History and sequence',
     influence: 'Influence and lineage',
     practice: 'Practice and application',
-    contestation: 'Confusion and disagreement'
+    human: 'People, teaching and collaboration',
+    identity: 'Espoused identity and lineage',
+    classification: 'Membership and containment',
+    documentary: 'Authorship and documents',
+    evidence: 'Sources and evidential support',
+    contestation: 'Confusion and disagreement',
+    legacy: 'Unresolved inherited links'
   };
   const QUESTION_STOPWORDS = new Set([
     'a', 'about', 'an', 'and', 'are', 'as', 'at', 'be', 'been', 'between', 'by',
@@ -53,6 +59,13 @@
   const sourceById = new Map((DATA.sources || []).map((source) => [source.id, source]));
   const evidenceById = new Map((DATA.evidence || []).map((evidence) => [evidence.id, evidence]));
   const relationByType = new Map((DATA.relation_types || []).map((relation) => [relation.relation_type, relation]));
+  const observedNeighbourhoods = DATA.emergent_neighbourhoods?.neighbourhoods || [];
+  const neighbourhoodById = new Map(observedNeighbourhoods.map((item) => [item.id, item]));
+  const neighbourhoodByNode = new Map();
+  observedNeighbourhoods.forEach((item, index) => {
+    item.node_ids.forEach((nodeId) => neighbourhoodByNode.set(nodeId, { ...item, colourIndex: index }));
+  });
+  const neighbourhoodPalette = ['#9f161b', '#246a86', '#347255', '#e97014', '#6f4b7e', '#8b6a24', '#4f5b6c', '#b0444a'];
 
   const canonicalEdges = [];
   const edgeSeen = new Set();
@@ -248,6 +261,9 @@
       technology: 'Technology',
       publication: 'Publication',
       organisation: 'Organisation',
+      corpus: 'Corpus',
+      comparator_corpus: 'Comparator corpus',
+      source: 'Source',
       event: 'Event'
     })[type] || titleCase(type);
   }
@@ -280,6 +296,21 @@
     return !['classification', 'evidence', 'documentary', 'legacy'].includes(edge.relation_family)
       && edge.relation_type !== 'legacy_association_unspecified'
       && edge.claim_status !== 'legacy_unresolved';
+  }
+
+  function currentMapLayer() {
+    return $('mapLayer')?.value || 'reader';
+  }
+
+  function mapEdgeAllowed(edge) {
+    const layer = currentMapLayer();
+    if (layer === 'reader') return substantiveEdge(edge);
+    if (layer === 'provenance') {
+      return edge.relation_type !== 'legacy_association_unspecified'
+        && edge.claim_status !== 'legacy_unresolved'
+        && edge.relation_family !== 'legacy';
+    }
+    return true;
   }
 
   function linkifyKnownText(value, excludedIds = []) {
@@ -331,6 +362,8 @@
   let mapSelectedEdge = null;
   let mapPath = [];
   let lastMapPositions = new Map();
+  let lastMapEdges = [];
+  const validViews = ['home', 'browse', 'journeys', 'collections', 'map', 'ask', 'contribute', 'membership', 'about'];
 
   function setHash(params) {
     const sp = new URLSearchParams(params);
@@ -339,15 +372,14 @@
   }
 
   function showView(view, push = true) {
-    const safe = ['home', 'browse', 'journeys', 'map', 'ask', 'contribute', 'about'].includes(view)
-      ? view
-      : 'home';
+    const safe = validViews.includes(view) ? view : 'home';
     baseView = safe;
     $$('.view').forEach((element) => element.classList.toggle('active', element.id === `view-${safe}`));
     $$('.main-nav [data-view]').forEach((button) => button.classList.toggle('active', button.dataset.view === safe));
     if (push) setHash({ view: safe });
     if (safe === 'browse') renderBrowse();
     if (safe === 'journeys') renderJourneys();
+    if (safe === 'collections') renderCollections();
     if (safe === 'map') renderMap({ fit: true });
     if (safe === 'contribute') updateContributionHint();
     window.scrollTo({ top: 0, behavior: 'instant' });
@@ -360,9 +392,7 @@
       const id = canonicalId(sp.get('id') || '');
       const returnView = sp.get('from') || baseView || 'browse';
       showView(
-        ['home', 'browse', 'journeys', 'map', 'ask', 'contribute', 'about'].includes(returnView)
-          ? returnView
-          : 'browse',
+        validViews.includes(returnView) ? returnView : 'browse',
         false
       );
       renderEntry(id);
@@ -515,7 +545,7 @@
     </article>
     ${sections.join('')}
     ${relations.length ? `<section class="entry-section"><h2>Connections</h2><p>Each line below is a specific statement. Open it to see its meaning, limits and evidence.</p><table class="relations-table"><tbody>${relationRows}</tbody></table></section>` : ''}
-    ${claims.length ? `<section class="entry-section"><h2>Claims and disputes</h2>${claimBlocks}</section>` : ''}
+    ${claims.length ? `<section class="entry-section"><h2>Statements and disputes</h2>${claimBlocks}</section>` : ''}
     <section class="entry-section"><h2>Sources</h2>${sourceLinks}</section>
     ${evidenceIds.length ? `<section class="entry-section"><h2>Evidence records</h2>${evidenceIds.map(evidenceBlock).join('')}</section>` : ''}`;
 
@@ -615,14 +645,14 @@
     $('releaseBadge').textContent = `Release ${DATA.meta.release}`;
     const metrics = [
       [DATA.meta.described_entry_count, 'readable public entries'],
-      [DATA.meta.profile_count, 'developed entries'],
-      [DATA.meta.journey_count, 'guided journeys'],
+      [DATA.meta.foundational_paper_count || 0, 'foundational papers itemised'],
+      [DATA.meta.observed_neighbourhood_count || 0, 'observed neighbourhoods'],
       [DATA.meta.public_link_source_count, 'sources with public links']
     ];
     $('homeMetrics').innerHTML = metrics
       .map(([number, label]) => `<div class="metric"><strong>${esc(number)}</strong><span>${esc(label)}</span></div>`)
       .join('');
-    $('quickLinks').innerHTML = ['Viability', 'Boundary', 'Feedback', 'Emergence', 'Requisite variety', 'Viable System Model']
+    $('quickLinks').innerHTML = ['Viability', 'Boundary', 'Feedback', 'Emergence', 'Metasystem transition', 'Principia Cybernetica Project']
       .map((label) => {
         const node = bestNode(label);
         return node ? `<button class="chip open-card" data-id="${esc(node.id)}">${esc(label)}</button>` : '';
@@ -676,7 +706,7 @@
     $('browseTag').innerHTML = '<option value="all">All fields</option>'
       + tags.map((tag) => `<option value="${esc(tag)}">${esc(titleCase(tag))}</option>`).join('');
 
-    const families = unique(canonicalEdges.filter(substantiveEdge).map((edge) => edge.relation_family).filter(Boolean)).sort();
+    const families = unique(canonicalEdges.map((edge) => edge.relation_family).filter(Boolean)).sort();
     $('mapFamily').innerHTML = '<option value="all">All connection types</option>'
       + families.map((family) => `<option value="${esc(family)}">${esc(relationFamilyLabel(family))}</option>`).join('');
   }
@@ -754,6 +784,142 @@
     });
   }
 
+  function renderPapers() {
+    const volume = $('paperVolume')?.value || 'all';
+    const query = normalise($('paperSearch')?.value || '');
+    const papers = (DATA.foundational_papers || []).filter((paper) => {
+      if (volume !== 'all' && String(paper.volume) !== volume) return false;
+      const haystack = normalise(`${paper.number} ${paper.authors} ${paper.title} ${paper.year}`);
+      return !query || haystack.includes(query);
+    });
+    if ($('paperCount')) $('paperCount').textContent = `${papers.length} of ${(DATA.foundational_papers || []).length} papers`;
+    if (!$('paperCards')) return;
+    $('paperCards').innerHTML = papers.map((paper) => `<article class="paper-row">
+      <span class="paper-number">V${esc(paper.volume)} · ${esc(paper.number)}</span>
+      <div><h3>${esc(paper.title)}</h3><p>${esc(paper.authors)}${paper.year ? ` · ${esc(paper.year)}` : ' · year not stated in the official contents'}</p></div>
+      <button class="text-button open-card" data-id="${esc(paper.node_id)}">Open</button>
+    </article>`).join('') || '<div class="empty-card"><h2>No papers match</h2><p>Clear the search or choose another volume.</p></div>';
+    bindCards($('paperCards'));
+  }
+
+  function renderCollections() {
+    if (!$('view-collections')) return;
+    const diagnostic = DATA.emergent_neighbourhoods || {};
+    $('neighbourhoodSummary').innerHTML = [
+      [diagnostic.analytic_population_count || 0, 'entries analysed'],
+      [diagnostic.substantive_edge_weight || 0, 'typed connection weight'],
+      [diagnostic.named_neighbourhood_count || 0, 'named neighbourhoods'],
+      [diagnostic.isolated_entry_count || 0, 'isolated entries']
+    ].map(([number, label]) => `<div class="metric"><strong>${esc(number)}</strong><span>${esc(label)}</span></div>`).join('');
+
+    $('neighbourhoodCards').innerHTML = observedNeighbourhoods.map((item, index) => {
+      const central = item.central_node_ids.map((id) => nodeById.get(id)?.label).filter(Boolean);
+      return `<article class="card neighbourhood-card" style="--neighbourhood-colour:${neighbourhoodPalette[index % neighbourhoodPalette.length]}">
+        <p class="eyebrow">Observed, provisional</p>
+        <h3>${esc(item.label)}</h3>
+        <p>${esc(item.size)} entries · ${esc(item.edge_count)} internal connections.</p>
+        <ul class="central-list">${central.slice(0, 4).map((label) => `<li>${esc(label)}</li>`).join('')}</ul>
+        <footer><span class="meta">Generated from current typed relations</span><button class="text-button open-neighbourhood" data-neighbourhood="${esc(item.id)}">Map it</button></footer>
+      </article>`;
+    }).join('');
+    $$('.open-neighbourhood', $('neighbourhoodCards')).forEach((button) => button.addEventListener('click', () => {
+      const item = neighbourhoodById.get(button.dataset.neighbourhood);
+      if (!item) return;
+      $('mapLayer').value = 'reader';
+      $('mapDepth').value = 'neighbourhoods';
+      $('mapColour').value = 'neighbourhood';
+      mapFocus = item.central_node_ids[0] || item.node_ids[0];
+      $('mapSearch').value = nodeById.get(mapFocus)?.label || '';
+      showView('map');
+    }));
+
+    const principiaIds = [
+      'organisation_principia_cybernetica_project',
+      'publication_principia_cybernetica_web',
+      'comparator_corpus_principia_cybernetica_web_dictionary',
+      'concept_evolutionary_cybernetics',
+      'concept_metasystem_transition',
+      'approach_family_metasystem_transition_theory',
+      'concept_global_brain',
+      'person_francis_heylighen',
+      'person_valentin_turchin',
+      'person_cliff_joslyn'
+    ];
+    $('principiaCards').innerHTML = principiaIds.map((id) => nodeById.get(id)).filter(Boolean).map(card).join('');
+    bindCards($('principiaCards'));
+
+    $('canonicalSourceCards').innerHTML = (DATA.canonical_source_register || []).map((item) => {
+      const source = sourceById.get(item.source_id);
+      if (!source) return '';
+      return `<article class="register-card">
+        <p class="eyebrow">${esc(titleCase(item.category))}</p>
+        <h3>${source.url ? `<a href="${esc(source.url)}" target="_blank" rel="noopener">${esc(source.title)}</a>` : esc(source.title)}</h3>
+        <p>${esc(item.scope)}</p>
+        <dl><dt>Good for</dt><dd>${esc(item.good_for)}</dd><dt>Not enough for</dt><dd>${esc(item.not_enough_for)}</dd></dl>
+      </article>`;
+    }).join('');
+
+    if (!$('paperVolume').dataset.bound) {
+      $('paperVolume').dataset.bound = 'true';
+      $('paperVolume').addEventListener('change', renderPapers);
+      $('paperSearch').addEventListener('input', renderPapers);
+    }
+    renderPapers();
+  }
+
+  function membershipIssueUrl(form) {
+    const values = Object.fromEntries(new FormData(form).entries());
+    const usesAgent = $('membershipUsesAgent').checked;
+    const body = [
+      '## Applicant',
+      values.name || '',
+      '',
+      '## GitHub account',
+      `@${String(values.github || '').replace(/^@/, '')}`,
+      '',
+      '## Role requested',
+      values.role || '',
+      '',
+      '## Proposed contribution',
+      values.contribution || '',
+      '',
+      '## Evidence, scope and uncertainty checks',
+      values.checks || '',
+      '',
+      '## Public examples',
+      values.examples || 'Not supplied.',
+      '',
+      '## Agent or LLM assistance',
+      usesAgent ? `Yes — ${values.agent_tool || 'tool not stated'}` : 'No.',
+      usesAgent ? `Named human sponsor: ${values.sponsor || values.name || 'not stated'}` : '',
+      '',
+      '## Agreement',
+      'I understand that this application grants no automatic access. Contributions remain subject to source checks, public review and curator approval.',
+      '',
+      '---',
+      `Prepared from The Necessary Tangle ${DATA.meta.release}.`
+    ].filter((line) => line !== '').join('\n');
+    const title = `[Membership] @${String(values.github || '').replace(/^@/, '')} — ${values.role || 'application'}`;
+    const repository = CONFIG.repositoryUrl || DATA.meta.repository_url;
+    return `${repository}/issues/new?${new URLSearchParams({ title, body, labels: 'governance' }).toString()}`;
+  }
+
+  function initMembership() {
+    if (!$('membershipForm')) return;
+    $('membershipUsesAgent').addEventListener('change', () => {
+      const open = $('membershipUsesAgent').checked;
+      $('agentFields').hidden = !open;
+      $('membershipAgentTool').required = open;
+      $('membershipSponsor').required = open;
+    });
+    $('membershipForm').addEventListener('submit', (event) => {
+      event.preventDefault();
+      const url = membershipIssueUrl(event.currentTarget);
+      $('membershipStatus').textContent = 'A public GitHub application has opened in a new tab. Review it before submitting; no access is granted by this form.';
+      window.open(url, '_blank', 'noopener');
+    });
+  }
+
   const colours = {
     concept: '#9f161b',
     person: '#246a86',
@@ -767,23 +933,57 @@
     technology: '#6d625b',
     publication: '#6d625b',
     organisation: '#246a86',
+    corpus: '#8b6a24',
+    comparator_corpus: '#8b6a24',
+    source: '#6d625b',
     event: '#8b6a24'
   };
 
+  function mapNodeAllowed(node) {
+    if (!node || canonicalId(node.id) !== node.id) return false;
+    const layer = currentMapLayer();
+    const visibility = node.public_visibility;
+    if (layer === 'reader') {
+      if (visibility !== 'public') return false;
+      const readerExcluded = ['publication', 'corpus', 'comparator_corpus'].includes(node.entity_type);
+      if (readerExcluded && node.id !== mapFocus) return false;
+      return $('mapIncludeStubs').checked || node.publication_level !== 'research_stub';
+    }
+    if (layer === 'provenance') {
+      if (!['public', 'metadata'].includes(visibility)) return false;
+      return $('mapIncludeStubs').checked || node.publication_level !== 'research_stub' || node.id === mapFocus;
+    }
+    return ['public', 'metadata'].includes(visibility);
+  }
+
+  function currentMapAllowedSet() {
+    const allowed = new Set(allNodes.filter(mapNodeAllowed).map((node) => node.id));
+    const focusNode = nodeById.get(mapFocus);
+    if (focusNode && ['public', 'metadata'].includes(focusNode.public_visibility)) allowed.add(mapFocus);
+    return allowed;
+  }
+
+  function edgeMatchesCurrentFilters(edge) {
+    const family = $('mapFamily').value;
+    return mapEdgeAllowed(edge) && (family === 'all' || edge.relation_family === family);
+  }
+
   function graphSelection() {
     const mode = $('mapDepth').value;
-    const family = $('mapFamily').value;
-    const includeOutline = $('mapIncludeStubs').checked;
-    const allowed = new Set(publicNodes
-      .filter((node) => includeOutline || node.publication_level !== 'research_stub')
-      .map((node) => node.id));
+    const allowed = currentMapAllowedSet();
 
+    if (mode === 'neighbourhoods') {
+      const selected = new Set();
+      observedNeighbourhoods.forEach((item) => item.node_ids.forEach((id) => {
+        if (allowed.has(id)) selected.add(id);
+      }));
+      return selected;
+    }
     if (mode === 'path' && mapPath.length) {
       const selected = new Set(mapPath.filter((id) => allowed.has(id)));
       for (const id of mapPath) {
         for (const edge of (edgesByNode.get(id) || [])) {
-          if (!substantiveEdge(edge)) continue;
-          if (family !== 'all' && edge.relation_family !== family) continue;
+          if (!edgeMatchesCurrentFilters(edge)) continue;
           const other = edge.source === id ? edge.target : edge.source;
           if (allowed.has(other)) selected.add(other);
         }
@@ -798,6 +998,7 @@
     const depth = Number(mode);
     const fallback = allowed.has('concept_viability') ? 'concept_viability' : [...allowed][0];
     const focus = allowed.has(mapFocus) ? mapFocus : fallback;
+    if (!focus) return new Set();
     const visited = new Map([[focus, 0]]);
     const queue = [focus];
     while (queue.length) {
@@ -805,8 +1006,7 @@
       const distance = visited.get(id);
       if (distance >= depth) continue;
       for (const edge of (edgesByNode.get(id) || [])) {
-        if (!substantiveEdge(edge)) continue;
-        if (family !== 'all' && edge.relation_family !== family) continue;
+        if (!edgeMatchesCurrentFilters(edge)) continue;
         const other = edge.source === id ? edge.target : edge.source;
         if (!allowed.has(other) || visited.has(other)) continue;
         visited.set(other, distance + 1);
@@ -814,18 +1014,33 @@
       }
     }
     const ids = [...visited.keys()];
-    return new Set(ids.length > 80 ? ids.slice(0, 80) : ids);
+    const limit = currentMapLayer() === 'reader' ? 100 : 180;
+    return new Set(ids.length > limit ? ids.slice(0, limit) : ids);
+  }
+
+  function deterministicPosition(node, index, count) {
+    let hash = 2166136261;
+    for (const character of node.id) {
+      hash ^= character.charCodeAt(0);
+      hash = Math.imul(hash, 16777619);
+    }
+    const angle = ((hash >>> 0) / 4294967296) * Math.PI * 2;
+    const ring = 230 + ((hash >>> 8) % 4) * 85 + (index % 3) * 10;
+    return { x: 600 + Math.cos(angle) * ring, y: 380 + Math.sin(angle) * Math.min(ring, 330) };
   }
 
   function mapPositions(ids) {
     const mode = $('mapDepth').value;
     const nodes = [...ids].map((id) => nodeById.get(id)).filter(Boolean);
     const positions = new Map();
-    if (mode === 'all' || mode === 'profiles') {
-      nodes.forEach((node) => positions.set(node.id, {
-        x: 600 + Number(node.x || 0) * 500,
-        y: 380 + Number(node.y || 0) * 300
-      }));
+    if (['all', 'profiles', 'neighbourhoods'].includes(mode)) {
+      nodes.forEach((node, index) => {
+        const x = Number(node.x);
+        const y = Number(node.y);
+        positions.set(node.id, Number.isFinite(x) && Number.isFinite(y)
+          ? { x: 600 + x * 510, y: 380 + y * 315 }
+          : deterministicPosition(node, index, nodes.length));
+      });
       return positions;
     }
 
@@ -834,7 +1049,7 @@
     while (queue.length) {
       const id = queue.shift();
       for (const edge of (edgesByNode.get(id) || [])) {
-        if (!substantiveEdge(edge)) continue;
+        if (!edgeMatchesCurrentFilters(edge)) continue;
         const other = edge.source === id ? edge.target : edge.source;
         if (!ids.has(other) || distance.has(other)) continue;
         distance.set(other, distance.get(id) + 1);
@@ -845,26 +1060,14 @@
     if (ids.has(mapFocus)) positions.set(mapFocus, { x: 600, y: 380 });
     const rings = unique([...distance.values()].filter((value) => value > 0)).sort((a, b) => a - b);
     for (const distanceValue of rings) {
-      const ring = nodes
-        .filter((node) => distance.get(node.id) === distanceValue)
-        .sort((a, b) => a.label.localeCompare(b.label));
-      const radius = distanceValue === 1 ? 215 : 335 + (distanceValue - 2) * 80;
+      const ring = nodes.filter((node) => distance.get(node.id) === distanceValue).sort((a, b) => a.label.localeCompare(b.label));
+      const radius = distanceValue === 1 ? 215 : 345 + (distanceValue - 2) * 90;
       ring.forEach((node, index) => {
         const angle = -Math.PI / 2 + (2 * Math.PI * index / Math.max(ring.length, 1));
-        positions.set(node.id, {
-          x: 600 + Math.cos(angle) * radius,
-          y: 380 + Math.sin(angle) * radius
-        });
+        positions.set(node.id, { x: 600 + Math.cos(angle) * radius, y: 380 + Math.sin(angle) * radius });
       });
     }
-
-    nodes.filter((node) => !positions.has(node.id)).forEach((node, index, remaining) => {
-      const angle = 2 * Math.PI * index / Math.max(remaining.length, 1);
-      positions.set(node.id, {
-        x: 600 + Math.cos(angle) * 340,
-        y: 380 + Math.sin(angle) * 300
-      });
-    });
+    nodes.filter((node) => !positions.has(node.id)).forEach((node, index, remaining) => positions.set(node.id, deterministicPosition(node, index, remaining.length)));
     return positions;
   }
 
@@ -879,33 +1082,54 @@
     setHash({ view: 'map', focus: mapFocus });
   }
 
+  function nodeColour(node) {
+    if ($('mapColour').value === 'neighbourhood') {
+      const neighbourhood = neighbourhoodByNode.get(node.id);
+      return neighbourhood ? neighbourhoodPalette[neighbourhood.colourIndex % neighbourhoodPalette.length] : '#8b817b';
+    }
+    return colours[node.entity_type] || '#6d625b';
+  }
+
+  function shouldShowMapLabel(node, count, inPath) {
+    const mode = $('mapLabels').value;
+    if (mode === 'all') return true;
+    if (node.id === mapFocus || inPath) return true;
+    if (mode === 'developed') return node.publication_level === 'profile' || node.publication_level === 'described';
+    const neighbourhood = neighbourhoodByNode.get(node.id);
+    return node.publication_level === 'profile' || Boolean(neighbourhood?.central_node_ids.includes(node.id)) || count < 42;
+  }
+
+  function renderMapLegend(nodes, edges) {
+    if (!$('mapLegend')) return;
+    if ($('mapColour').value === 'neighbourhood') {
+      const present = new Set(nodes.map((node) => neighbourhoodByNode.get(node.id)?.id).filter(Boolean));
+      $('mapLegend').innerHTML = observedNeighbourhoods.filter((item) => present.has(item.id)).map((item, index) => `<div class="legend-row"><span class="legend-swatch" style="--swatch:${neighbourhoodPalette[index % neighbourhoodPalette.length]}"></span><span>${esc(item.label)}</span></div>`).join('')
+        + '<div class="legend-row"><span class="legend-swatch" style="--swatch:#8b817b"></span><span>Not in a named neighbourhood</span></div>';
+      return;
+    }
+    const types = unique(nodes.map((node) => node.entity_type)).slice(0, 10);
+    const families = unique(edges.map((edge) => edge.relation_family)).slice(0, 8);
+    $('mapLegend').innerHTML = types.map((type) => `<div class="legend-row"><span class="legend-swatch" style="--swatch:${colours[type] || '#6d625b'}"></span><span>${esc(entityLabel(type))}</span></div>`).join('')
+      + families.map((family) => `<div class="legend-row"><span class="legend-line"></span><span>${esc(relationFamilyLabel(family))}</span></div>`).join('');
+  }
+
   function renderMap(options = {}) {
     const ids = graphSelection();
     if (!ids.has(mapFocus) && ids.size) mapFocus = [...ids][0];
     const positions = mapPositions(ids);
     lastMapPositions = positions;
-    const family = $('mapFamily').value;
-    const edges = canonicalEdges.filter((edge) =>
-      ids.has(edge.source)
-      && ids.has(edge.target)
-      && substantiveEdge(edge)
-      && (family === 'all' || edge.relation_family === family)
-    );
-    const pathPairs = new Set(mapPath.slice(0, -1).flatMap((id, index) => [
-      `${id}|${mapPath[index + 1]}`,
-      `${mapPath[index + 1]}|${id}`
-    ]));
+    const edges = canonicalEdges.filter((edge) => ids.has(edge.source) && ids.has(edge.target) && edgeMatchesCurrentFilters(edge));
+    lastMapEdges = edges;
+    const pathPairs = new Set(mapPath.slice(0, -1).flatMap((id, index) => [`${id}|${mapPath[index + 1]}`, `${mapPath[index + 1]}|${id}`]));
 
     $('graphEdges').innerHTML = edges.map((edge) => {
       const source = positions.get(edge.source);
       const target = positions.get(edge.target);
+      if (!source || !target) return '';
       const selected = edge.id === mapSelectedEdge;
       const inPath = pathPairs.has(`${edge.source}|${edge.target}`);
-      const classes = [
-        'graph-edge',
-        ['accepted', 'corroborated'].includes(edge.claim_status) ? '' : 'provisional',
-        selected || inPath ? 'selected' : ''
-      ].filter(Boolean).join(' ');
+      const familyClass = `family-${normalise(edge.relation_family).replace(/ /g, '-')}`;
+      const classes = ['graph-edge', familyClass, ['accepted', 'corroborated'].includes(edge.claim_status) ? '' : 'provisional', selected || inPath ? 'selected' : ''].filter(Boolean).join(' ');
       const title = `${nodeById.get(edge.source)?.label || edge.source} ${edge.plain_phrase || edge.relation_type} ${nodeById.get(edge.target)?.label || edge.target}`;
       return `<g class="graph-edge-group" data-edge="${esc(edge.id)}" tabindex="0" role="button" aria-label="${esc(title)}">
         <line class="graph-edge-hit" x1="${source.x}" y1="${source.y}" x2="${target.x}" y2="${target.y}"></line>
@@ -914,35 +1138,30 @@
     }).join('');
 
     const nodes = [...ids].map((id) => nodeById.get(id)).filter(Boolean);
-    const dense = nodes.length > 48;
     $('graphNodes').innerHTML = nodes.map((node) => {
       const position = positions.get(node.id);
-      const radius = node.id === mapFocus ? 13 : node.publication_level === 'profile' ? 10 : 7;
+      const radius = node.id === mapFocus ? 13 : node.publication_level === 'profile' ? 10 : ['corpus', 'comparator_corpus'].includes(node.entity_type) ? 9 : 7;
       const inPath = mapPath.includes(node.id);
-      const showLabel = !dense || node.id === mapFocus || node.publication_level === 'profile' || inPath;
-      return `<g class="graph-node-group ${node.id === mapFocus ? 'selected' : ''} ${inPath ? 'path-node' : ''}" data-id="${esc(node.id)}" tabindex="0" role="button" aria-label="Open ${esc(node.label)}">
-        <circle class="graph-node" cx="${position.x}" cy="${position.y}" r="${radius}" fill="${colours[node.entity_type] || '#6d625b'}"><title>${esc(node.label)}</title></circle>
+      const showLabel = shouldShowMapLabel(node, nodes.length, inPath);
+      const nodeClasses = ['graph-node-group', node.id === mapFocus ? 'selected' : '', inPath ? 'path-node' : '', node.entity_type === 'publication' ? 'publication-node' : '', ['corpus', 'comparator_corpus'].includes(node.entity_type) ? 'corpus-node' : ''].filter(Boolean).join(' ');
+      return `<g class="${nodeClasses}" data-id="${esc(node.id)}" tabindex="0" role="button" aria-label="Inspect ${esc(node.label)}">
+        <circle class="graph-node" cx="${position.x}" cy="${position.y}" r="${radius}" fill="${nodeColour(node)}"><title>${esc(node.label)}</title></circle>
         <text class="graph-label ${showLabel ? '' : 'dense-hidden'}" x="${position.x + radius + 4}" y="${position.y - radius - 2}">${esc(node.label)}</text>
       </g>`;
     }).join('');
 
     $('mapCount').textContent = nodes.length;
+    $('mapEdgeCount').textContent = edges.length;
+    renderMapLegend(nodes, edges);
     applyMapTransform();
 
     $$('.graph-node-group', $('graphNodes')).forEach((group) => {
-      const open = (event) => {
-        event.stopPropagation();
-        activateMapNode(group.dataset.id);
-      };
+      const open = (event) => { event.stopPropagation(); activateMapNode(group.dataset.id); };
       group.addEventListener('click', open);
       group.addEventListener('keydown', (event) => {
-        if (event.key === 'Enter' || event.key === ' ') {
-          event.preventDefault();
-          open(event);
-        }
+        if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); open(event); }
       });
     });
-
     $$('.graph-edge-group', $('graphEdges')).forEach((group) => {
       const open = (event) => {
         event.stopPropagation();
@@ -952,13 +1171,9 @@
       };
       group.addEventListener('click', open);
       group.addEventListener('keydown', (event) => {
-        if (event.key === 'Enter' || event.key === ' ') {
-          event.preventDefault();
-          open(event);
-        }
+        if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); open(event); }
       });
     });
-
     if (!mapSelectedEdge) inspectNode(mapFocus);
     if (options.fit) requestAnimationFrame(fitMapToSelection);
   }
@@ -966,13 +1181,21 @@
   function inspectNode(id) {
     const node = nodeById.get(id);
     if (!node) return;
-    const relations = (edgesByNode.get(id) || []).filter(substantiveEdge).slice(0, 14);
+    const family = $('mapFamily').value;
+    const relations = (edgesByNode.get(id) || []).filter((edge) => mapEdgeAllowed(edge) && (family === 'all' || edge.relation_family === family)).slice(0, 18);
+    const neighbourhood = neighbourhoodByNode.get(id);
+    const sources = parse(node.source_ids, []).map((sourceId) => sourceById.get(sourceId)).filter(Boolean);
+    const openAction = node.public_visibility === 'public'
+      ? `<button class="primary open-card" data-id="${esc(node.id)}">Open full entry</button>`
+      : '';
     $('mapInspector').innerHTML = `<p class="eyebrow">${esc(entityLabel(node.entity_type))}</p>
       <h2>${esc(node.label)}</h2>
       <p>${linkifyKnownText(displayDefinition(node), [node.id])}</p>
-      <div class="entry-actions"><button class="primary open-card" data-id="${esc(node.id)}">Open full entry</button></div>
-      <h3>${relations.length} selected connection${relations.length === 1 ? '' : 's'}</h3>
-      ${relations.map((edge) => `<div class="relation-statement">${relationStatement(edge)}<br><button class="text-button inspect-edge" data-edge="${esc(edge.id)}">Inspect this connection</button></div>`).join('')}`;
+      ${neighbourhood ? `<div class="neighbourhood-note"><strong>${esc(neighbourhood.label)}</strong><br><span class="small">Observed neighbourhood, provisional. Current coverage and relation choices shape this result.</span></div>` : ''}
+      <div class="entry-actions">${openAction}</div>
+      ${sources.length ? `<p class="small">${sources.length} registered source${sources.length === 1 ? '' : 's'}.</p>` : ''}
+      <h3>${relations.length} visible connection${relations.length === 1 ? '' : 's'}</h3>
+      ${relations.map((edge) => `<div class="relation-statement">${relationStatement(edge)}<br><button class="text-button inspect-edge" data-edge="${esc(edge.id)}">Inspect this connection</button></div>`).join('') || '<p>No connection is visible in the current layer and filter.</p>'}`;
     bindCards($('mapInspector'));
     $$('.entry-link', $('mapInspector')).forEach((button) => button.addEventListener('click', () => activateMapNode(button.dataset.id)));
     $$('.inspect-edge', $('mapInspector')).forEach((button) => button.addEventListener('click', () => inspectEdge(button.dataset.edge, false)));
@@ -1019,6 +1242,22 @@
 
   function applyMapTransform() {
     $('graphRoot').setAttribute('transform', `translate(${mapTransform.x} ${mapTransform.y}) scale(${mapTransform.scale})`);
+    if ($('mapZoomLabel')) $('mapZoomLabel').textContent = `${Math.round(mapTransform.scale * 100)}%`;
+  }
+
+  function zoomMapAt(factor, clientX = null, clientY = null) {
+    const svg = $('graphSvg');
+    const rect = svg.getBoundingClientRect();
+    const pointX = clientX == null ? 600 : (clientX - rect.left) * 1200 / Math.max(rect.width, 1);
+    const pointY = clientY == null ? 380 : (clientY - rect.top) * 760 / Math.max(rect.height, 1);
+    const oldScale = mapTransform.scale;
+    const newScale = Math.min(5, Math.max(0.18, oldScale * factor));
+    const worldX = (pointX - mapTransform.x) / oldScale;
+    const worldY = (pointY - mapTransform.y) / oldScale;
+    mapTransform.scale = newScale;
+    mapTransform.x = pointX - worldX * newScale;
+    mapTransform.y = pointY - worldY * newScale;
+    applyMapTransform();
   }
 
   function resetMapTransform() {
@@ -1059,7 +1298,7 @@
       const id = queue.shift();
       if (id === goal) break;
       for (const edge of (edgesByNode.get(id) || [])) {
-        if (!substantiveEdge(edge)) continue;
+        if (!mapEdgeAllowed(edge)) continue;
         const other = edge.source === id ? edge.target : edge.source;
         const otherNode = nodeById.get(other);
         if (!otherNode || otherNode.public_visibility !== 'public' || previous.has(other)) continue;
@@ -1370,9 +1609,7 @@
 
     svg.addEventListener('wheel', (event) => {
       event.preventDefault();
-      const factor = event.deltaY < 0 ? 1.12 : 0.89;
-      mapTransform.scale = Math.min(4, Math.max(0.22, mapTransform.scale * factor));
-      applyMapTransform();
+      zoomMapAt(event.deltaY < 0 ? 1.14 : 0.88, event.clientX, event.clientY);
     }, { passive: false });
 
     svg.addEventListener('pointerdown', (event) => {
@@ -1384,8 +1621,8 @@
     });
     svg.addEventListener('pointermove', (event) => {
       if (!dragging) return;
-      mapTransform.x += event.clientX - last.x;
-      mapTransform.y += event.clientY - last.y;
+      mapTransform.x += (event.clientX - last.x) * 1200 / Math.max(svg.getBoundingClientRect().width, 1);
+      mapTransform.y += (event.clientY - last.y) * 760 / Math.max(svg.getBoundingClientRect().height, 1);
       last = { x: event.clientX, y: event.clientY };
       applyMapTransform();
     });
@@ -1395,22 +1632,28 @@
       try { svg.releasePointerCapture(event.pointerId); } catch (_) { /* no-op */ }
     });
 
+    $('mapZoomOut').addEventListener('click', () => zoomMapAt(0.82));
+    $('mapZoomIn').addEventListener('click', () => zoomMapAt(1.22));
+    $('mapZoomReset').addEventListener('click', resetMapTransform);
     $('mapFit').addEventListener('click', fitMapToSelection);
     $('mapReset').addEventListener('click', () => {
       mapFocus = 'concept_viability';
       mapPath = [];
       mapSelectedEdge = null;
       $('mapSearch').value = 'Viability';
+      $('mapLayer').value = 'reader';
       $('mapDepth').value = '1';
       $('mapFamily').value = 'all';
+      $('mapLabels').value = 'focus';
+      $('mapColour').value = 'type';
       $('mapIncludeStubs').checked = false;
       resetMapTransform();
       renderMap({ fit: true });
     });
-    ['mapDepth', 'mapFamily', 'mapIncludeStubs'].forEach((id) => $(id).addEventListener('change', () => {
+    ['mapLayer', 'mapDepth', 'mapFamily', 'mapLabels', 'mapColour', 'mapIncludeStubs'].forEach((id) => $(id).addEventListener('change', () => {
       if (id !== 'mapDepth' || $('mapDepth').value !== 'path') mapPath = [];
       mapSelectedEdge = null;
-      renderMap({ fit: true });
+      renderMap({ fit: ['mapLayer', 'mapDepth', 'mapIncludeStubs'].includes(id) });
     }));
 
     $('findPath').addEventListener('click', () => {
@@ -1422,7 +1665,7 @@
       }
       mapPath = shortestPath(from.id, to.id);
       if (!mapPath.length) {
-        $('pathResult').textContent = 'No path was found in the current public evidence graph.';
+        $('pathResult').textContent = 'No path was found in the selected graph layer.';
         return;
       }
       $('pathResult').innerHTML = mapPath.map((id, index) => `${index ? '<span>→</span>' : ''}<button class="chip path-chip" data-id="${esc(id)}">${esc(nodeById.get(id)?.label || id)}</button>`).join(' ');
@@ -1439,6 +1682,8 @@
     populateFilters();
     renderBrowse();
     renderJourneys();
+    renderCollections();
+    initMembership();
 
     $$('.main-nav [data-view]').forEach((button) => button.addEventListener('click', () => showView(button.dataset.view)));
     $$('[data-view-link]').forEach((button) => button.addEventListener('click', () => showView(button.dataset.viewLink)));

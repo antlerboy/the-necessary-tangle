@@ -6,34 +6,39 @@
   <meta name="color-scheme" content="light dark">
   <meta name="theme-color" content="#9f161b">
   <meta name="author" content="Benjamin P Taylor">
-  <meta name="description" content="The Necessary Tangle is a living evidence atlas of systems, complexity and cybernetics: what the ideas mean, where they came from, how they connect and how they are used.">
+  <meta name="description" content="The Necessary Tangle is a living evidence atlas of systems | cybernetics | complexity: ideas, people, methods, practices, lineages and the evidence behind their connections.">
   <meta property="og:type" content="website">
   <meta property="og:title" content="The Necessary Tangle">
-  <meta property="og:description" content="A living evidence atlas of systems, complexity and cybernetics. Every connection must say what it means.">
-  <meta property="og:url" content="https://antlerboy-benjamintaylor.github.io/the-necessary-tangle/">
+  <meta property="og:description" content="A living evidence atlas of systems | cybernetics | complexity. Every connection must say what it means.">
+  <meta property="og:url" content="https://antlerboy.github.io/the-necessary-tangle/">
   <meta name="twitter:card" content="summary">
-  <link rel="canonical" href="https://antlerboy-benjamintaylor.github.io/the-necessary-tangle/">
+  <link rel="canonical" href="https://antlerboy.github.io/the-necessary-tangle/">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <title>The Necessary Tangle</title>
   <link rel="stylesheet" href="assets/styles.css">
+  <link rel="stylesheet" href="assets/site-enhancements.css">
+  <link rel="stylesheet" href="assets/iteration.css">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header">
+    <a class="curator-notebook-link" href="https://github.com/antlerboy/the-necessary-tangle/issues/2" target="_blank" rel="noopener" aria-label="Open the curator's running notebook" title="Curator's notebook"><span></span></a>
     <a class="brand" href="#view=home" aria-label="The Necessary Tangle home">
       <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>
-      <span><strong>The Necessary Tangle</strong><small>A living evidence atlas of systems, complexity and cybernetics</small></span>
+      <span><strong>The Necessary Tangle</strong><small>A living evidence atlas of systems | cybernetics | complexity</small></span>
     </a>
-    <div class="header-meta"><span id="releaseBadge">Public alpha</span><span>Created and edited by Benjamin P Taylor</span></div>
+    <div class="header-meta"><span id="releaseBadge">Public alpha</span><span>Curated by <a href="https://www.antlerboy.com/">Benjamin P Taylor</a></span></div>
   </header>
 
   <nav class="main-nav" aria-label="Main navigation">
     <button data-view="home" class="active">Home</button>
     <button data-view="browse">Explore</button>
     <button data-view="journeys">Guided journeys</button>
+    <button data-view="collections">Collections</button>
     <button data-view="map">Map</button>
     <button data-view="ask">Ask</button>
     <button data-view="contribute">Contribute</button>
+    <button data-view="membership">Membership</button>
     <button data-view="about">About</button>
   </nav>
 
@@ -41,9 +46,9 @@
     <section id="view-home" class="view active">
       <div class="hero">
         <div class="hero-copy">
-          <p class="eyebrow">A public route into systems, complexity and cybernetics</p>
+          <p class="eyebrow">Systems | cybernetics | complexity</p>
           <h1>Start with a question. Follow the connections.</h1>
-          <p class="lede">The Necessary Tangle shows what ideas mean, where they came from, what they depend on, how they developed, and how people use them in practice.</p>
+          <p class="lede">The Necessary Tangle maps ideas, people, methods, publications, institutions, practices and lineages: what they mean, where they came from, what they depend on and how they are used.</p>
           <p class="principle"><strong>Every connection must say what it means.</strong> A historical precursor is not automatically a logical prerequisite. Citation is not mentorship. Resemblance is not evidence of influence.</p>
           <div class="smart-search large" data-search-role="open">
             <label for="heroSearch">Search for an idea, person, method or law</label>
@@ -51,13 +56,14 @@
             <div class="suggestions" role="listbox" hidden></div>
           </div>
           <div class="quick-links" id="quickLinks"></div>
-          <div class="hero-actions"><button class="primary" data-view-link="browse">Explore the atlas</button><button data-view-link="journeys">Follow a guided journey</button><button data-view-link="map">Open the map</button></div>
+          <div class="hero-actions"><button class="primary" data-view-link="browse">Explore the atlas</button><button data-view-link="collections">Browse collections</button><button data-view-link="map">Open the map</button></div>
         </div>
-        <aside class="hero-panel">
+        <a class="hero-panel release-panel" href="#view=about" aria-label="Read what this public alpha contains and what remains unfinished">
           <p class="eyebrow">This release</p>
           <div class="metrics" id="homeMetrics"></div>
-          <p class="small">The atlas distinguishes developed entries from brief orientation entries. Coverage is never presented as completeness.</p>
-        </aside>
+          <p class="small">The 89-paper collection is itemised, Principia Cybernetica has a connected first pass, and the graph now reports its own provisional neighbourhoods and large periphery.</p>
+          <span class="panel-link">Read what is covered, missing and next →</span>
+        </a>
       </div>
 
       <div class="section-head"><div><p class="eyebrow">Begin here</p><h2>Guided questions</h2></div><button class="text-button" data-view-link="journeys">See all journeys</button></div>
@@ -67,13 +73,13 @@
       <div id="homeEntries" class="card-grid four"></div>
 
       <section class="author-strip">
-        <div><p class="eyebrow">Creator and editor</p><h2>Benjamin P Taylor</h2><p>The Necessary Tangle is an independent public project. It develops the connected-body-of-knowledge idea behind SCiO’s earlier SysBoK and brings together systems theory, cybernetics, complexity, methods, practice and intellectual lineage. It is not an official canon of SCiO or any other organisation.</p></div>
-        <div class="button-stack"><a class="button" href="https://chosen-path.org/" target="_blank" rel="noopener">Benjamin’s writing</a><a class="button" href="https://stream.syscoi.com/" target="_blank" rel="noopener">Systems Community of Inquiry</a><a class="button" href="https://github.com/antlerboy-benjamintaylor/the-necessary-tangle" target="_blank" rel="noopener">Project on GitHub</a></div>
+        <div><p class="eyebrow">Curator</p><h2><a href="https://www.antlerboy.com/">Benjamin P Taylor</a></h2><p>The Necessary Tangle is an independent public project. Its immediate provocation was David Ing's formulation, as Benjamin records it: ‘we need to map the constellation of influences around practitioners’. It develops the connected-body-of-knowledge idea behind SCiO's earlier SysBoK while treating systems | cybernetics | complexity as a necessary tangle of theory, practice, people and institutions.</p></div>
+        <div class="button-stack"><a class="button" href="https://www.antlerboy.com/">About Benjamin</a><a class="button" href="https://stream.syscoi.com/" target="_blank" rel="noopener">Systems Community of Inquiry</a><a class="button" href="https://github.com/antlerboy/the-necessary-tangle" target="_blank" rel="noopener">Project on GitHub</a></div>
       </section>
     </section>
 
     <section id="view-browse" class="view">
-      <header class="page-head"><p class="eyebrow">Find and follow</p><h1>Explore the atlas</h1><p>Search recognises standard names, abbreviations, alternate spellings and close matches. Similar wording is directed to one maintained entry rather than becoming a duplicate.</p></header>
+      <header class="page-head"><p class="eyebrow">Find and follow</p><h1>Explore the atlas</h1><p>Search recognises maintained names, abbreviations, alternate spellings and close matches. Similar wording is directed to one maintained entry rather than becoming a duplicate.</p></header>
       <div class="filter-panel">
         <div class="smart-search" data-search-role="filter"><label for="browseSearch">Search</label><input id="browseSearch" autocomplete="off" placeholder="A name, phrase, acronym or half-remembered term"><div class="suggestions" role="listbox" hidden></div></div>
         <label>Type<select id="browseType"><option value="all">All entry types</option></select></label>
@@ -86,20 +92,55 @@
     </section>
 
     <section id="view-journeys" class="view">
-      <header class="page-head"><p class="eyebrow">Curated paths</p><h1>Guided journeys</h1><p>Each journey develops an argument through a sequence of connected entries. Every named idea opens its full entry.</p></header>
+      <header class="page-head"><p class="eyebrow">Curated paths</p><h1>Guided journeys</h1><p>Each journey develops an argument through connected entries. Named concepts in the steps open their full entries.</p></header>
       <div class="journey-layout"><aside id="journeyList" class="journey-list"></aside><article id="journeyRunner" class="journey-runner empty"><h2>Choose a journey</h2><p>The steps will appear here.</p></article></div>
     </section>
 
+    <section id="view-collections" class="view">
+      <header class="page-head"><p class="eyebrow">Corpora, sources and observed structure</p><h1>Collections and neighbourhoods</h1><p>Browse the full first-pass paper inventory, the Principia Cybernetica constellation, high-value public sources and provisional groupings produced from the current graph.</p></header>
+
+      <section class="collection-block">
+        <div class="section-head"><div><p class="eyebrow">Current graph</p><h2>Observed neighbourhoods</h2></div><button class="text-button" data-view-link="map">See them on the map</button></div>
+        <p>The names below describe modular clusters in the current evidence graph. They are not timeless schools. Change the coverage or the relation rules and the pattern may change.</p>
+        <div id="neighbourhoodSummary" class="diagnostic-strip"></div>
+        <div id="neighbourhoodCards" class="card-grid three"></div>
+      </section>
+
+      <section class="collection-block">
+        <div class="section-head"><div><p class="eyebrow">Complete bibliographic first pass</p><h2>Foundational Papers in Complexity Science</h2></div><a class="text-button" href="https://www.foundationalpapersincomplexityscience.org/tables-of-contents" target="_blank" rel="noopener">Official contents</a></div>
+        <p>All 89 historical papers in the four-volume 2024 collection are now itemised. These are bibliographic entries. Most still need a substantive summary, original-publication locator and reviewed connections.</p>
+        <div class="collection-controls"><label>Volume<select id="paperVolume"><option value="all">All four volumes</option><option value="1">Volume 1</option><option value="2">Volume 2</option><option value="3">Volume 3</option><option value="4">Volume 4</option></select></label><label>Find a paper<input id="paperSearch" autocomplete="off" placeholder="Author, title or year"></label><span id="paperCount" class="results-line"></span></div>
+        <div id="paperCards" class="paper-list"></div>
+      </section>
+
+      <section class="collection-block">
+        <div class="section-head"><div><p class="eyebrow">Connected first pass</p><h2>Principia Cybernetica</h2></div><a class="text-button" href="https://pespmc1.vub.ac.be/" target="_blank" rel="noopener">Official project site</a></div>
+        <p>The project, website, dictionary, people and key concepts are represented separately. The wording records Principia's own programme without turning its self-description into independent proof.</p>
+        <div id="principiaCards" class="card-grid three"></div>
+      </section>
+
+      <section class="collection-block">
+        <div class="section-head"><div><p class="eyebrow">Research infrastructure</p><h2>Canonical public source register</h2></div><a class="text-button" href="https://github.com/antlerboy/the-necessary-tangle/issues/12" target="_blank" rel="noopener">Extend the register</a></div>
+        <p>'Canonical' here means high-value for a stated task: archive, bibliography, dictionary, institutional corpus or comparator. It does not mean neutral, complete or true by inclusion.</p>
+        <div id="canonicalSourceCards" class="source-register"></div>
+      </section>
+    </section>
+
     <section id="view-map" class="view map-view">
-      <header class="page-head"><p class="eyebrow">Interactive neighbourhoods</p><h1>Map</h1><p>Search for an entry to centre the map on it. Select any item to refocus. Select any line to inspect the claim and its sources.</p></header>
+      <header class="page-head"><p class="eyebrow">Reader map, provenance graph and research backlog</p><h1>Map</h1><p>Choose what kind of graph to see. The reader layer privileges substantive public connections; provenance adds corpora and documentary links; everything mapped exposes the untidy research edge.</p></header>
       <div class="map-layout">
         <aside class="map-controls">
           <div class="smart-search" data-search-role="map"><label for="mapSearch">Centre on</label><input id="mapSearch" autocomplete="off" placeholder="Viability"><div class="suggestions" role="listbox" hidden></div></div>
-          <label>View<select id="mapDepth"><option value="1">Immediate connections</option><option value="2">Two steps</option><option value="path">Path and immediate neighbours</option><option value="profiles">All developed entries</option><option value="all">Full public map</option></select></label>
+          <label>Layer<select id="mapLayer"><option value="reader">Reader map — substantive public connections</option><option value="provenance">Provenance map — include corpora and documentary links</option><option value="everything">Everything mapped — including outline material</option></select></label>
+          <label>View<select id="mapDepth"><option value="1">Immediate connections</option><option value="2">Two steps</option><option value="path">Path and immediate neighbours</option><option value="profiles">All developed entries</option><option value="neighbourhoods">Observed neighbourhoods</option><option value="all">Full selected layer</option></select></label>
           <label>Show connections about<select id="mapFamily"><option value="all">All connection types</option></select></label>
-          <input type="checkbox" id="mapIncludeStubs" hidden>
-          <div class="button-row"><button id="mapFit" type="button" class="primary">Fit view</button><button id="mapReset" type="button">Reset</button></div>
-          <p class="small"><strong id="mapCount">0</strong> items visible. Wheel or pinch to zoom; drag the background to pan.</p>
+          <label>Labels<select id="mapLabels"><option value="focus">Focus and central entries</option><option value="developed">Developed entries</option><option value="all">Every visible item</option></select></label>
+          <label>Colour<select id="mapColour"><option value="type">Entry type</option><option value="neighbourhood">Observed neighbourhood</option></select></label>
+          <label class="checkbox-row"><input type="checkbox" id="mapIncludeStubs"> Include outline entries</label>
+          <div class="zoom-row" aria-label="Map zoom controls"><button id="mapZoomOut" type="button" aria-label="Zoom out">−</button><button id="mapZoomReset" type="button" aria-label="Reset zoom"><span id="mapZoomLabel">100%</span></button><button id="mapZoomIn" type="button" aria-label="Zoom in">+</button></div>
+          <div class="button-row"><button id="mapFit" type="button" class="primary">Fit view</button><button id="mapReset" type="button">Reset map</button></div>
+          <p class="small"><strong id="mapCount">0</strong> items and <strong id="mapEdgeCount">0</strong> connections visible. Roll the mouse wheel over the point you want to keep under the pointer; drag the background to pan.</p>
+          <div id="mapLegend" class="map-legend"></div>
           <hr>
           <h3>Find a path</h3>
           <div class="smart-search compact" data-search-role="path-from"><label for="pathFrom">From</label><input id="pathFrom" autocomplete="off" placeholder="Boundary"><div class="suggestions" role="listbox" hidden></div></div>
@@ -140,34 +181,92 @@
           <button type="submit" class="primary">Prepare GitHub issue</button>
           <div id="formStatus" role="status" class="form-status"></div>
         </form>
-        <aside class="plain-panel"><h2>What happens next</h2><ol><li>The proposal becomes a visible GitHub issue.</li><li>Existing entries and duplicates are checked.</li><li>The precise claim and sources are examined.</li><li>The proposal may be accepted, revised, held as disputed or declined.</li><li>Accepted changes appear in a numbered release with a public history.</li></ol><p>Questions and disagreement are part of the work. You do not need to arrive with a finished answer.</p><div class="button-stack"><a class="button" href="https://github.com/antlerboy-benjamintaylor/the-necessary-tangle/issues/new/choose" target="_blank" rel="noopener">Use a structured issue form</a><a class="button" href="https://github.com/antlerboy-benjamintaylor/the-necessary-tangle/discussions" target="_blank" rel="noopener">Join a discussion</a><a class="button" href="https://github.com/antlerboy-benjamintaylor/the-necessary-tangle" target="_blank" rel="noopener">View the repository</a></div></aside>
+        <aside class="plain-panel"><h2>What happens next</h2><ol><li>The proposal becomes a visible GitHub issue.</li><li>Existing entries and duplicates are checked.</li><li>The precise statement and sources are examined.</li><li>The proposal may be accepted, revised, held as disputed or declined.</li><li>Accepted changes appear in a numbered release with a public history.</li></ol><p>Questions and disagreement are part of the work. You do not need to arrive with a finished answer.</p><div class="button-stack"><a class="button" href="https://github.com/antlerboy/the-necessary-tangle/issues/new/choose" target="_blank" rel="noopener">Use a structured issue form</a><a class="button" href="https://github.com/antlerboy/the-necessary-tangle/discussions" target="_blank" rel="noopener">Join a discussion</a><a class="button" href="https://github.com/antlerboy/the-necessary-tangle" target="_blank" rel="noopener">View the repository</a></div></aside>
+      </div>
+    </section>
+
+    <section id="view-membership" class="view">
+      <header class="page-head"><p class="eyebrow">Participation by agreement</p><h1>Membership and access</h1><p>Apply for a role in the work. No form grants repository access automatically. The curator decides roles and GitHub permissions after reviewing the person, purpose and proposed contribution.</p></header>
+
+      <div class="role-grid">
+        <article class="role-card"><p class="eyebrow">Open</p><h2>Reader</h2><p>Use, question and discuss the atlas. No application or repository access is needed.</p></article>
+        <article class="role-card"><p class="eyebrow">Open</p><h2>Proposer</h2><p>Submit corrections, sources, missing entries and challenges through public Issues.</p></article>
+        <article class="role-card"><p class="eyebrow">By agreement</p><h2>Research contributor</h2><p>Work through a fork and pull request. Direct write access is not required.</p></article>
+        <article class="role-card"><p class="eyebrow">By invitation</p><h2>Reviewer</h2><p>Examine source support, wording, boundaries and uncertainty, then advise the curator.</p></article>
+        <article class="role-card"><p class="eyebrow">Exceptional</p><h2>Maintainer</h2><p>Trusted technical or data maintenance with limited repository write access.</p></article>
+        <article class="role-card curator"><p class="eyebrow">Accountable role</p><h2>Curator</h2><p>Benjamin P Taylor holds final responsibility for roles, merges, releases and the public account.</p></article>
+      </div>
+
+      <div class="membership-layout">
+        <form id="membershipForm" class="membership-form">
+          <h2>Apply</h2>
+          <label>Your name<input name="name" id="membershipName" required></label>
+          <label>GitHub username<input name="github" id="membershipGithub" required placeholder="without @"></label>
+          <label>Role requested<select name="role" id="membershipRole" required><option value="">Choose one</option><option>Proposer</option><option>Research contributor</option><option>Reviewer</option><option>Maintainer</option></select></label>
+          <label>What do you want to contribute?<textarea name="contribution" id="membershipContribution" rows="5" required placeholder="Name the corpus, concept, lineage, technical work or review capacity."></textarea></label>
+          <label>How will you check evidence, scope and uncertainty?<textarea name="checks" id="membershipChecks" rows="4" required></textarea></label>
+          <label>Public examples or relevant links<input name="examples" id="membershipExamples" type="url" placeholder="https://"></label>
+          <label class="checkbox-row"><input type="checkbox" id="membershipUsesAgent" name="uses_agent"> I expect to use an LLM or other automated agent</label>
+          <div id="agentFields" class="agent-fields" hidden>
+            <label>Tool or model, and what it will do<input name="agent_tool" id="membershipAgentTool"></label>
+            <label>Named human sponsor responsible for checking and submitting the work<input name="sponsor" id="membershipSponsor"></label>
+          </div>
+          <label class="checkbox-row"><input type="checkbox" name="agreement" id="membershipAgreement" required> I accept that public contributions need inspectable sources, disclosed automation, no private material and curator approval.</label>
+          <button type="submit" class="primary">Prepare membership application</button>
+          <div id="membershipStatus" class="form-status" role="status"></div>
+        </form>
+        <aside class="plain-panel membership-policy"><h2>What the roles can really do</h2><p>This repository is owned by a personal GitHub account. GitHub supplies only owner and collaborator permissions here; the finer roles above are project roles enforced by process.</p><p>Proposers use Issues. Research contributors normally use forks and pull requests. Maintainer write access is exceptional. Moving the repository to a GitHub organisation would allow enforceable Read, Triage, Write, Maintain and Admin levels.</p><h3>Agents do not become members</h3><p>An LLM or automated tool acts under a named human sponsor. The sponsor discloses the tool, checks the source support and diff, and remains answerable for the submission. No agent receives direct push or auto-merge rights.</p><div class="button-stack"><a class="button" href="https://github.com/antlerboy/the-necessary-tangle/blob/main/documentation/participation-and-access.md" target="_blank" rel="noopener">Participation and access policy</a><a class="button" href="https://github.com/antlerboy/the-necessary-tangle/blob/main/AGENTS.md" target="_blank" rel="noopener">Agent contribution protocol</a><a class="button" href="https://github.com/antlerboy/the-necessary-tangle/issues/10" target="_blank" rel="noopener">Governance issue</a></div></aside>
       </div>
     </section>
 
     <section id="view-about" class="view">
-      <header class="page-head"><p class="eyebrow">Purpose, method and limits</p><h1>About The Necessary Tangle</h1><p>A reference work should explain its judgements without forcing readers to learn its database vocabulary.</p></header>
+      <header class="page-head"><p class="eyebrow">Purpose, method, coverage and limits</p><h1>About The Necessary Tangle</h1><p>A reference work should explain its choices without forcing readers to learn its database vocabulary.</p></header>
       <div class="about-grid">
-        <article class="plain-panel wide"><h2>What it is</h2><p>The Necessary Tangle is a navigable, evidence-backed account of systems, complexity and cybernetics: concepts, people, methods, publications, institutions and traditions, and the different ways they are connected.</p><p>It is an atlas for readers and a revisable argument about the field. A graph is selective and interpretive; drawing it does not make it neutral.</p></article>
-        <article class="plain-panel"><h2>Why ‘necessary’?</h2><p>The project asks which earlier ideas are genuinely needed to understand a later one, which adjacent material is needed to explain the field, and what evidence is needed before a connection is treated as established.</p></article>
-        <article class="plain-panel"><h2>Every line makes a claim</h2><p>A line may represent logical dependence, historical sequence, influence, teaching, collaboration, practical use, comparison or dispute. Select it to see the wording, limits, status and sources. ‘Related to’ is not enough.</p></article>
-        <article class="plain-panel"><h2>Scope</h2><p>The core is systems, complexity and cybernetics. Adjacent material is included when it materially explains a central idea, practice, lineage or dispute. The aim is not to map all human thought.</p></article>
-        <article class="plain-panel"><h2>Sources and openness</h2><p>Every link on this website is public. Some books, archive items and published materials have no open web copy; these are cited as ‘No public link’. Private email, company systems and internal working documents are not linked or quoted in the public release.</p></article>
+        <article class="plain-panel wide"><h2>What it is</h2><p>The Necessary Tangle is a navigable, evidence-backed account of systems | cybernetics | complexity. It maps concepts, people, methods, publications, institutions, practices and traditions, and distinguishes the different ways they connect.</p><p>It is both a reference atlas and a revisable argument. Any map is selective and interpretive; drawing it does not make it neutral.</p></article>
+
+        <article class="plain-panel"><h2>Current state</h2><p>This is a public alpha. Release 0.7 itemises all 89 papers in the named Santa Fe Institute collection, gives Principia Cybernetica a connected first pass, publishes a canonical-source register and exposes provisional graph neighbourhoods.</p></article>
+        <article class="plain-panel"><h2>What the graph currently groups</h2><p>The strongest observed neighbourhoods concern feedback, control and learning; recursion, computation and self-reference; viability, variety and organisation; boundaries, information and systemic intervention; and observation, emergence and self-organisation. These groupings are provisional products of the current graph.</p></article>
+        <article class="plain-panel"><h2>What the graph exposes</h2><p>Most non-publication entries remain isolated or weakly connected. That is not a discovery of hundreds of separate schools. It is a visible research backlog: missing evidence, missing relation typing and uneven corpus coverage.</p></article>
+
+        <article class="plain-panel"><h2>Why ‘necessary’?</h2><p>The project asks which earlier ideas are needed to understand a later one, which adjacent material is needed to explain the field, and what evidence is needed before a connection is treated as established.</p></article>
+        <article class="plain-panel"><h2>Every line makes a statement</h2><p>A line may represent logical dependence, historical sequence, influence, teaching, collaboration, practical use, comparison or dispute. Select it to see the wording, limits, status and sources. ‘Related to’ is not enough.</p></article>
+        <article class="plain-panel"><h2>Scope</h2><p>The core is systems | cybernetics | complexity. Adjacent material is included when it materially explains a central idea, practice, lineage or dispute. The aim is not to map all human thought.</p></article>
+        <article class="plain-panel"><h2>Sources</h2><p>Public links are used where they exist. A published book or archive item without an open copy is marked ‘No public link’. Private research may identify a lead, but private URLs and extracts are not published.</p></article>
+
+        <article class="plain-panel wide"><h2>A practitioner-centred origin</h2><blockquote>‘We need to map the constellation of influences around practitioners.’</blockquote><p>This formulation from David Ing, as recorded by Benjamin P Taylor, is the immediate provocation for the human-lineage layer. It shifts attention from a tidy history of schools to the actual routes through which practitioners encounter, combine, teach and use ideas.</p></article>
+
+        <article class="plain-panel wide"><h2>Coverage programme</h2><p>The following are now explicit pieces of work, not vague aspirations. Each card opens the issue containing scope and completion tests.</p><div class="coverage-grid">
+          <a class="coverage-card" href="https://github.com/antlerboy/the-necessary-tangle/issues/3" target="_blank" rel="noopener"><strong>Foundational Papers in Complexity Science</strong><span>Inventory, summarise and map every item in the named collection.</span></a>
+          <a class="coverage-card" href="https://github.com/antlerboy/the-necessary-tangle/issues/4" target="_blank" rel="noopener"><strong>Monoskop</strong><span>Review relevant public pages and bibliographies without treating the whole site as automatically in scope.</span></a>
+          <a class="coverage-card" href="https://github.com/antlerboy/the-necessary-tangle/issues/5" target="_blank" rel="noopener"><strong>SysCoI and model.report</strong><span>Use the public archives as evidence of circulation, discussion and discovery.</span></a>
+          <a class="coverage-card" href="https://github.com/antlerboy/the-necessary-tangle/issues/6" target="_blank" rel="noopener"><strong>Prior maps and bodies of knowledge</strong><span>Compare purposes, categories, boundaries, lines and evidence, including Castellani's map and Benjamin's critique.</span></a>
+          <a class="coverage-card" href="https://github.com/antlerboy/the-necessary-tangle/issues/7" target="_blank" rel="noopener"><strong>Practitioner influence constellations</strong><span>Deepen teaching, mentoring, collaboration, institutions and practice transmission.</span></a>
+          <a class="coverage-card" href="https://github.com/antlerboy/the-necessary-tangle/issues/8" target="_blank" rel="noopener"><strong>Company knowledge discovery</strong><span>Use private knowledge only to find leads; replace it with public evidence or a proper ‘No public link’ citation.</span></a>
+          <a class="coverage-card" href="https://github.com/antlerboy/the-necessary-tangle/issues/10" target="_blank" rel="noopener"><strong>Membership and agent contributions</strong><span>Curator-approved roles, named human responsibility and no automatic rights.</span></a>
+          <a class="coverage-card" href="https://github.com/antlerboy/the-necessary-tangle/issues/11" target="_blank" rel="noopener"><strong>Map and observed neighbourhoods</strong><span>Richer layers, usable zoom and a public account of graph structure and isolation.</span></a>
+          <a class="coverage-card" href="https://github.com/antlerboy/the-necessary-tangle/issues/12" target="_blank" rel="noopener"><strong>Principia and canonical sources</strong><span>Connected project mapping and a maintained source register with stated limits.</span></a>
+        </div><p><a href="https://github.com/antlerboy/the-necessary-tangle/blob/main/documentation/coverage-programme.md" target="_blank" rel="noopener">Read the full coverage programme →</a></p></article>
+
         <article class="plain-panel"><h2>How to read status</h2><p>‘Developed entry’ means a fuller research pass, not final consensus. ‘Brief entry’ offers responsible orientation and sources. Disputed connections can remain visible as disputed.</p></article>
-        <article class="plain-panel"><h2>Corrections and dialogue</h2><p>Corrections are proposed through GitHub Issues. Open questions and wider interpretations belong in GitHub Discussions. Accepted changes are versioned; disagreement is recorded rather than erased when the evidence remains contested.</p></article>
-        <article class="plain-panel wide"><h2>Authorship and acknowledgements</h2><p><strong>Created and edited by Benjamin P Taylor.</strong> The project develops the connected approach of the original SCiO Systems Thinking Body of Knowledge and later SCiO competency work. It also draws on the Grammar of Systems corpus, public archives and scholarship, professional bodies, teaching traditions and practitioner knowledge.</p><p>Particular acknowledgement is due to Tony Korycki and other contributors to the earlier SysBoK work; Patrick Hoverstadt and colleagues who developed and published the Grammar of Systems; Igor Perko for a major researchers-network comparator; and the many authors, teachers, practitioners and archivists whose work is cited throughout the atlas.</p><p>OpenAI tools have assisted research organisation, data processing and software prototyping. Benjamin P Taylor remains responsible for the editorial decisions and published content.</p></article>
-        <article class="plain-panel wide"><h2>Disclaimer and rights</h2><p>This is a developing scholarly and practitioner resource, not an official position of SCiO or any other named organisation. It contains provisional and disputed interpretations and will contain errors and omissions. External works remain the responsibility of their authors, publishers and rights holders.</p><p>Copyright © 2026 Benjamin P Taylor. The repository’s original software is available under the MIT licence. The atlas text, data and editorial structure remain all rights reserved until a public content and data licence is chosen.</p></article>
-        <article class="plain-panel wide"><h2>Documentation</h2><p>The public method, source policy, data model, maintenance process, governance and current limitations are documented in the GitHub repository.</p><div class="button-row wrap"><a class="button" href="https://github.com/antlerboy-benjamintaylor/the-necessary-tangle/blob/main/documentation/reading-the-atlas.md" target="_blank" rel="noopener">How to read the atlas</a><a class="button" href="https://github.com/antlerboy-benjamintaylor/the-necessary-tangle/blob/main/documentation/editorial-model.md" target="_blank" rel="noopener">Editorial model</a><a class="button" href="https://github.com/antlerboy-benjamintaylor/the-necessary-tangle/blob/main/documentation/source-policy.md" target="_blank" rel="noopener">Source policy</a><a class="button" href="https://github.com/antlerboy-benjamintaylor/the-necessary-tangle/blob/main/documentation/roadmap.md" target="_blank" rel="noopener">Roadmap</a></div></article>
+        <article class="plain-panel"><h2>Corrections and dialogue</h2><p>Definite corrections belong in GitHub Issues. Open questions and wider interpretations belong in GitHub Discussions. Accepted changes are versioned; unresolved disagreement is recorded.</p></article>
+
+        <article class="plain-panel wide"><h2>Curatorship and acknowledgements</h2><p><strong>Curated by <a href="https://www.antlerboy.com/">Benjamin P Taylor</a>.</strong> Benjamin is responsible for the current editorial choices; ‘curator’ does not imply sole creation of the knowledge represented here.</p><p>The project develops the connected approach of the original SCiO Systems Thinking Body of Knowledge and later competency work. Particular acknowledgement is due to David Ing for the practitioner-influence provocation and for preserving and supporting the SysCoI/model.report lineage; Tony Korycki and other SysBoK contributors; Patrick Hoverstadt, Lucy Loh and colleagues associated with the Grammar of Systems; Igor Perko for a substantial researchers-network comparator; Brian Castellani and other map makers whose work provides both material and challenge; the SCiO community; and the authors, teachers, practitioners and archivists cited throughout.</p><p>OpenAI tools have assisted research organisation, data processing and software prototyping. Benjamin P Taylor remains responsible for what is accepted and published.</p><p><a href="https://github.com/antlerboy/the-necessary-tangle/blob/main/ACKNOWLEDGEMENTS.md" target="_blank" rel="noopener">Read the fuller acknowledgements →</a></p></article>
+
+        <article class="plain-panel wide"><h2>Rights, reuse and responsibility</h2><p>Original atlas text, public data and editorial material are licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="license noopener">Creative Commons Attribution-ShareAlike 4.0 International</a>, unless otherwise marked. Original software is available under the MIT licence. Third-party works remain under their own terms and are not relicensed here.</p><p>This is a developing scholarly and practitioner resource, not an official position of SCiO or any other named organisation. It contains provisional and disputed interpretations and will contain errors and omissions.</p><p><a href="https://github.com/antlerboy/the-necessary-tangle/blob/main/RIGHTS.md" target="_blank" rel="noopener">Read the rights and licensing statement →</a></p></article>
+
+        <article class="plain-panel wide"><h2>Documentation</h2><p>The method, source policy, data model, maintenance process, governance, coverage programme and current limitations live with the project rather than in detached files.</p><div class="button-row wrap"><a class="button" href="https://github.com/antlerboy/the-necessary-tangle/blob/main/documentation/reading-the-atlas.md" target="_blank" rel="noopener">How to read the atlas</a><a class="button" href="https://github.com/antlerboy/the-necessary-tangle/blob/main/documentation/editorial-model.md" target="_blank" rel="noopener">Editorial model</a><a class="button" href="https://github.com/antlerboy/the-necessary-tangle/blob/main/documentation/source-policy.md" target="_blank" rel="noopener">Source policy</a><a class="button" href="https://github.com/antlerboy/the-necessary-tangle/blob/main/documentation/coverage-programme.md" target="_blank" rel="noopener">Coverage programme</a><a class="button" href="https://github.com/antlerboy/the-necessary-tangle/blob/main/documentation/roadmap.md" target="_blank" rel="noopener">Roadmap</a></div></article>
       </div>
-      <details class="technical-details"><summary>Editorial and technical detail</summary><div><h3>Different connections answer different questions</h3><p>Historical sequence, logical dependence, explicit influence, teaching, collaboration, citation and practical use are represented separately. Treating them all as ‘related to’ produces false family trees.</p><h3>Claims remain inspectable</h3><p>Each proposed connection has a direction, wording, scope, status and sources. Competing accounts can coexist. Editorial acceptance means that the evidence currently supports the stated claim; it does not make the field finally settled.</p><h3>What the website publishes</h3><p>The GitHub Pages build contains only the public dataset and public website. Private research leads and internal working material are excluded from the repository.</p></div></details>
+      <details class="technical-details"><summary>Editorial and technical detail</summary><div><h3>Different connections answer different questions</h3><p>Historical sequence, logical dependence, explicit influence, teaching, collaboration, citation and practical use are represented separately. Treating them all as ‘related to’ produces false family trees.</p><h3>Statements remain inspectable</h3><p>Each proposed connection has a direction, wording, scope, status and sources. Competing accounts can coexist. Editorial acceptance means that the current evidence supports the stated wording; it does not make the field finally settled.</p><h3>What the website publishes</h3><p>The GitHub Pages build contains only public data and public website files. Private research leads and internal working material are excluded.</p></div></details>
     </section>
   </main>
 
   <aside id="entryDrawer" class="drawer" aria-hidden="true"><button id="drawerClose" class="drawer-close" aria-label="Close entry">Close</button><div id="drawerBody"></div></aside><div id="drawerScrim" class="scrim"></div>
 
-  <footer class="site-footer"><div><strong>The Necessary Tangle</strong><br><span>Created and edited by Benjamin P Taylor</span></div><div><button data-view-link="contribute" class="text-button">Submit a correction</button><button data-view-link="about" class="text-button">Method, sources and disclaimer</button><a class="text-button" href="https://github.com/antlerboy-benjamintaylor/the-necessary-tangle" target="_blank" rel="noopener">GitHub</a></div></footer>
+  <footer class="site-footer"><div><strong>The Necessary Tangle</strong><br><span>Curated by <a href="https://www.antlerboy.com/">Benjamin P Taylor</a></span></div><div><button data-view-link="contribute" class="text-button">Submit a correction</button><button data-view-link="membership" class="text-button">Membership</button><button data-view-link="about" class="text-button">Coverage, method and rights</button><a class="text-button" href="https://github.com/antlerboy/the-necessary-tangle" target="_blank" rel="noopener">GitHub</a></div></footer>
 
   <script src="assets/site-config.js"></script>
   <script src="assets/public-data.js"></script>
   <script src="assets/app.js"></script>
+  <script src="assets/site-enhancements.js"></script>
 </body>
 </html>

@@ -2,36 +2,32 @@
 
 ## Current public alpha
 
-- publish a reliable GitHub Pages site under the canonical `antlerboy` account;
-- use the exact name **The Necessary Tangle** throughout;
-- use **systems | cybernetics | complexity** consistently in public framing;
-- make search, map, journeys, questions and contributions work;
-- make things which look clickable behave as clickable things;
-- keep public text left aligned and readable;
-- keep all public URLs safe;
-- expose current coverage, limitations, licence and editorial responsibility;
-- learn from real reader questions and corrections.
+Release `0.7-constellations-alpha` provides:
 
-## Next editorial release
+- the canonical public site and exact project name;
+- search, entries, journeys, questions and contribution routes;
+- collections for the 89-paper complexity corpus, Principia Cybernetica and public research sources;
+- a richer multi-layer map with pointer-centred zoom;
+- preliminary observed neighbourhoods and visible isolation;
+- project roles, membership applications and an agent-assistance protocol;
+- public-safe sources, licensing, curatorship and reproducible validation.
 
-The detailed work and completion tests are in [coverage-programme.md](coverage-programme.md).
+## Next curatorial release
 
-- inventory and map the full *Foundational Papers in Complexity Science* collection;
-- compare prior maps and bodies of knowledge, including the Castellani map and Benjamin P Taylor's critique;
-- recover and ingest relevant SysCoI and model.report archival material with typed provenance;
-- deepen the main systems | cybernetics | complexity concepts beyond brief orientation;
-- add separate entries and a guided journey distinguishing systems leadership, systems change, systems theory, systems practice, systems convening and systems weaving;
-- add stronger primary-source locators;
-- improve the history of teaching, supervision, collaboration, laboratories, conferences and institutional lineages;
-- build several practitioner influence constellations;
-- distinguish espoused lineage from observed conceptual and practice clustering;
-- document areas where traditions give incompatible accounts of the same term;
-- run bounded Monoskop and company-knowledge discovery passes.
+- write and review substantive summaries for the 89 papers and add original-publication locators;
+- compare prior maps and bodies of knowledge;
+- ingest relevant SysCoI and model.report records with typed provenance;
+- deepen the main concepts beyond brief orientation;
+- add a guided journey distinguishing systems leadership, systems change, systems theory, systems practice, systems convening and systems weaving;
+- strengthen teaching, supervision, collaboration, laboratory, conference and institutional lineages;
+- build practitioner influence constellations;
+- run bounded Monoskop and company-knowledge discovery passes;
+- test observed neighbourhoods against alternative relation weights and clustering methods;
+- reduce the isolated periphery by research, not by adding generic ‘related to’ lines.
 
 ## Later
 
-- add a dedicated conversational companion grounded in the public release;
-- consider a structured collaborative backend when real editorial load justifies it;
-- introduce reproducible emergent clustering only when the graph is sufficiently evidence-rich that results do not merely reproduce the seed lists;
-- establish a wider editorial group with named review responsibilities;
-- publish stable releases with archived data, change summaries and reproducible builds.
+- add a dedicated conversational companion grounded in a numbered public release;
+- consider a GitHub organisation and granular permissions when real contribution load justifies it;
+- establish a wider curatorial and review group with named responsibilities;
+- publish stable archived releases and longitudinal graph comparisons.

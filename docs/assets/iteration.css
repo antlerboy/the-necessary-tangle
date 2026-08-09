@@ -1,0 +1,345 @@
+/* 0.7-constellations-alpha: research collections, richer map and membership. */
+
+.site-header {
+  position: relative;
+}
+
+.curator-notebook-link {
+  position: absolute;
+  z-index: 4;
+  left: 2.72rem;
+  top: 2.34rem;
+  width: 12px;
+  height: 12px;
+  border-radius: 999px;
+  text-decoration: none;
+}
+
+.curator-notebook-link span {
+  display: block;
+  width: 8px;
+  height: 8px;
+  margin: 2px;
+  border-radius: 999px;
+  background: var(--orange);
+  opacity: 0.08;
+  transition: opacity 120ms ease, transform 120ms ease, box-shadow 120ms ease;
+}
+
+.curator-notebook-link:hover span,
+.curator-notebook-link:focus-visible span {
+  opacity: 1;
+  transform: scale(1.4);
+  box-shadow: 0 0 0 5px color-mix(in srgb, var(--orange) 22%, transparent);
+}
+
+.curator-notebook-link:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 4px;
+}
+
+.collection-block {
+  margin: 0 0 2.4rem;
+}
+
+.collection-controls {
+  display: grid;
+  grid-template-columns: minmax(10rem, 14rem) minmax(16rem, 1fr) auto;
+  gap: 0.8rem;
+  align-items: end;
+  margin: 1rem 0;
+}
+
+.collection-controls label,
+.membership-form label,
+.map-controls label {
+  display: grid;
+  gap: 0.35rem;
+}
+
+.diagnostic-strip {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.7rem;
+  margin: 1rem 0;
+}
+
+.diagnostic-strip .metric {
+  min-height: 5.5rem;
+}
+
+.neighbourhood-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.neighbourhood-card::before {
+  content: '';
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: 0.35rem;
+  background: var(--neighbourhood-colour, var(--accent));
+}
+
+.neighbourhood-card .central-list {
+  margin: 0.6rem 0 0;
+  padding-left: 1.1rem;
+}
+
+.paper-list {
+  display: grid;
+  gap: 0.55rem;
+}
+
+.paper-row {
+  display: grid;
+  grid-template-columns: 4.3rem minmax(0, 1fr) auto;
+  gap: 0.85rem;
+  align-items: start;
+  padding: 0.85rem 0.95rem;
+  border: 1px solid var(--line);
+  border-radius: 0.8rem;
+  background: var(--panel);
+}
+
+.paper-row:hover,
+.paper-row:focus-within {
+  border-color: color-mix(in srgb, var(--accent) 55%, var(--line));
+  box-shadow: 0 7px 18px rgba(62, 9, 8, 0.08);
+}
+
+.paper-number {
+  font-family: Arial, sans-serif;
+  font-weight: 800;
+  color: var(--accent);
+}
+
+.paper-row h3,
+.paper-row p {
+  margin: 0;
+}
+
+.paper-row h3 {
+  font-size: 1.05rem;
+}
+
+.paper-row p {
+  margin-top: 0.25rem;
+}
+
+.source-register {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.9rem;
+}
+
+.register-card {
+  padding: 1rem;
+  border: 1px solid var(--line);
+  border-radius: 0.85rem;
+  background: var(--panel);
+}
+
+.register-card h3 {
+  margin: 0.2rem 0 0.45rem;
+}
+
+.register-card dl {
+  margin: 0.7rem 0 0;
+}
+
+.register-card dt {
+  margin-top: 0.55rem;
+  font-weight: 750;
+  color: var(--accent);
+}
+
+.register-card dd {
+  margin: 0.15rem 0 0;
+}
+
+.role-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.9rem;
+  margin-bottom: 1.4rem;
+}
+
+.role-card {
+  min-height: 11rem;
+  padding: 1rem;
+  border: 1px solid var(--line);
+  border-radius: 0.85rem;
+  background: var(--panel);
+}
+
+.role-card h2,
+.role-card p {
+  margin-top: 0;
+}
+
+.role-card.curator {
+  border-width: 2px;
+  border-color: color-mix(in srgb, var(--accent) 65%, var(--line));
+}
+
+.membership-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.4fr) minmax(18rem, 0.8fr);
+  gap: 1rem;
+  align-items: start;
+}
+
+.membership-form {
+  display: grid;
+  gap: 0.9rem;
+  padding: 1rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--panel);
+  box-shadow: var(--shadow);
+}
+
+.membership-form h2 {
+  margin: 0;
+}
+
+.membership-policy {
+  position: sticky;
+  top: 4.4rem;
+}
+
+.agent-fields {
+  display: grid;
+  gap: 0.9rem;
+  padding: 0.85rem;
+  border: 1px dashed var(--line);
+  border-radius: 0.75rem;
+  background: var(--panel-2);
+}
+
+.checkbox-row {
+  display: flex !important;
+  grid-template-columns: none !important;
+  gap: 0.55rem !important;
+  align-items: flex-start;
+}
+
+.checkbox-row input {
+  width: auto;
+  margin-top: 0.25rem;
+}
+
+.zoom-row {
+  display: grid;
+  grid-template-columns: 2.7rem minmax(4.5rem, 1fr) 2.7rem;
+  gap: 0.4rem;
+}
+
+.zoom-row button {
+  min-height: 2.5rem;
+  font-size: 1.05rem;
+}
+
+#mapZoomLabel {
+  font-variant-numeric: tabular-nums;
+}
+
+.map-legend {
+  display: grid;
+  gap: 0.35rem;
+  padding: 0.6rem;
+  border: 1px solid var(--line);
+  border-radius: 0.7rem;
+  background: var(--panel-2);
+  font-size: 0.8rem;
+}
+
+.legend-row {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+}
+
+.legend-swatch {
+  width: 0.75rem;
+  height: 0.75rem;
+  border-radius: 999px;
+  flex: 0 0 auto;
+  background: var(--swatch, var(--accent));
+}
+
+.legend-line {
+  width: 1.4rem;
+  height: 0;
+  border-top: 2px solid var(--swatch, currentColor);
+  flex: 0 0 auto;
+}
+
+.graph-edge.family-conceptual { stroke: var(--accent); }
+.graph-edge.family-historical { stroke: var(--orange); }
+.graph-edge.family-influence { stroke: var(--blue); }
+.graph-edge.family-practice { stroke: var(--green, #347255); }
+.graph-edge.family-human { stroke: var(--purple, #6f4b7e); }
+.graph-edge.family-classification,
+.graph-edge.family-documentary,
+.graph-edge.family-evidence { opacity: 0.42; }
+.graph-edge.family-legacy { stroke-dasharray: 3 5; opacity: 0.26; }
+
+.graph-node-group.corpus-node .graph-node,
+.graph-node-group.publication-node .graph-node {
+  stroke-width: 1.5;
+  stroke: color-mix(in srgb, currentColor 60%, white);
+}
+
+.map-inspector .neighbourhood-note {
+  margin: 0.7rem 0;
+  padding: 0.65rem;
+  border-left: 0.28rem solid var(--accent);
+  background: var(--panel-2);
+}
+
+@media (max-width: 980px) {
+  .diagnostic-strip,
+  .role-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .source-register,
+  .membership-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .membership-policy {
+    position: static;
+  }
+}
+
+@media (max-width: 680px) {
+  .collection-controls,
+  .diagnostic-strip,
+  .role-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .paper-row {
+    grid-template-columns: 3.5rem minmax(0, 1fr);
+  }
+
+  .paper-row .open-card {
+    grid-column: 2;
+    justify-self: start;
+  }
+
+  .curator-notebook-link {
+    left: 2.55rem;
+    top: 2.2rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .curator-notebook-link span,
+  .paper-row {
+    transition: none;
+  }
+}

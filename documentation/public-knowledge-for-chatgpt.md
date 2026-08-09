@@ -1,16 +1,93 @@
 # The Necessary Tangle: public knowledge file
 
-Created and edited by Benjamin P Taylor.
-Generated from public release 0.5-github-alpha.
+Curated by Benjamin P Taylor — https://www.antlerboy.com/
+Generated from public release 0.7-constellations-alpha.
 
-The Necessary Tangle is a living evidence atlas of systems, complexity and cybernetics.
+A living evidence atlas of systems | cybernetics | complexity.
 Every connection must say what it means. Historical sequence, logical dependence, influence, teaching, collaboration, practical use, comparison and dispute are not interchangeable.
 
-Use this file as orientation and public source context, not as final scholarly consensus. Preserve the stated status and uncertainty of claims. Do not infer influence, mentorship or priority from resemblance alone.
+Use this file as orientation and public source context, not as final scholarly consensus. Preserve the stated status and uncertainty of statements. Do not infer influence, mentorship or priority from resemblance alone.
 
 ## Public source policy
 
 Every URL in this file is public. Published books and archive items without an open web copy are marked ‘No public link’. Private email, internal documents and company-system URLs are not included.
+
+## A Formal Theory of Inductive Inference, Part 1
+
+Type: Publication
+Public depth: described
+
+R. J. Solomonoff, ‘A Formal Theory of Inductive Inference, Part 1’ (1964); item 25 in volume 2 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## A General Model for the Origin of Allometric Scaling Laws in Biology
+
+Type: Publication
+Public depth: described
+
+G. B. West, J. H. Brown, and B. J. Enquist, ‘A General Model for the Origin of Allometric Scaling Laws in Biology’ (1997); item 83 in volume 4 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## A Logical Calculus of the Ideas Immanent in Nervous Activity
+
+Type: Publication
+Public depth: described
+
+W. S. McCulloch and W. Pitts, ‘A Logical Calculus of the Ideas Immanent in Nervous Activity’ (1943); item 5 in volume 1 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## A Mathematical Theory of Communication
+
+Type: Publication
+Public depth: described
+
+C. E. Shannon, ‘A Mathematical Theory of Communication’ (1948); item 9 in volume 1 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## A Model for the Origin of Life
+
+Type: Publication
+Public depth: described
+
+F. J. Dyson, ‘A Model for the Origin of Life’ (1982); item 56 in volume 3 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## A Rosetta Stone for Connectionism
+
+Type: Publication
+Public depth: described
+
+J. D. Farmer, ‘A Rosetta Stone for Connectionism’ (1990); item 69 in volume 4 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## A System–Theoretic Model of Biogenesis (Ein systemtheoretisches Modell zur Biogenese)
+
+Type: Publication
+Public depth: described
+
+O. E. Rössler, ‘A System–Theoretic Model of Biogenesis (Ein systemtheoretisches Modell zur Biogenese)’ (1971); item 36 in volume 2 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
 
 ## Action learning
 
@@ -178,6 +255,17 @@ Ancient Greek mathematician whose work included iterative and self-referential c
 
 - SCiO SysBoK - Recursion v1 — No public link
 
+## Artificial Adaptive Agents in Economic Theory
+
+Type: Publication
+Public depth: described
+
+J. H. Holland and J. H. Miller, ‘Artificial Adaptive Agents in Economic Theory’ (1991); item 72 in volume 4 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
 ## Arturo Rosenblueth
 
 Type: Person
@@ -259,6 +347,28 @@ Local variety usually outruns central knowledge. Suppressing autonomy can make t
 
 - Viable System Model - Metaphorum — https://metaphorum.org/staffords-work/viable-system-model
 - Benjamin Taylor VSM lecture — No public link
+
+## Autopoiesis: The Organization of Living Systems, Its Characterization, and a Model
+
+Type: Publication
+Public depth: described
+
+F. G. Varela, H. R. Maturana, and R. Uribe, ‘Autopoiesis: The Organization of Living Systems, Its Characterization, and a Model’ (1974); item 48 in volume 3 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## Behavior, Purpose, and Teleology
+
+Type: Publication
+Public depth: described
+
+A. Rosenblueth, N. Wiener, and J. Bigelow, ‘Behavior, Purpose, and Teleology’ (1943); item 6 in volume 1 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
 
 ## Behaviour over time graphs
 
@@ -355,6 +465,28 @@ The Bubble Strategy is an approach to organisational change in which protected, 
 - SCiO CF Resources v9 draft — No public link
 - The bubble strategy: A case study of dynamic, defensible processes of change in Salford — https://www.systemspractice.org/resources/bubble-strategy-case-study-dynamic-defensible-processes-change-salford
 
+## Canalization of Development and the Inheritance of Acquired Characters
+
+Type: Publication
+Public depth: described
+
+C. H. Waddington, ‘Canalization of Development and the Inheritance of Acquired Characters’ (1942); item 4 in volume 1 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## Carrying Capacity and Dynamic Equilibrium in the Prehistoric Southwest
+
+Type: Publication
+Public depth: described
+
+E. B. W. Zubrow, ‘Carrying Capacity and Dynamic Equilibrium in the Prehistoric Southwest’ (1971); item 38 in volume 2 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
 ## Chaos
 
 Type: Concept
@@ -399,6 +531,19 @@ Mathematician and electrical engineer whose 1948 paper established mathematical 
 ### Sources
 
 - A Mathematical Theory of Communication — https://doi.org/10.1002/j.1538-7305.1948.tb01338.x
+
+## Cliff Joslyn
+
+Type: Person
+Public depth: described
+
+A cybernetics researcher and Principia Cybernetica editor associated with metasystem-transition theory and the project's semantic-network implementation.
+
+### Sources
+
+- Introduction to Principia Cybernetica — https://pespmc1.vub.ac.be/INTRO.html
+- Principia Cybernetica: Systems Concepts — https://pespmc1.vub.ac.be/SYSCONC.html
+- Principia Cybernetica: Metasystem Transition Theory — https://pespmc1.vub.ac.be/MSTT.html
 
 ## Coaching
 
@@ -483,6 +628,39 @@ Organisations commonly oscillate between silos and centralisation. Cohesion offe
 - Benjamin Taylor VSM lecture — No public link
 - Systems convening and boundaries core slides — No public link
 
+## Collective Action and the Evolution of Social Norms
+
+Type: Publication
+Public depth: described
+
+E. Ostrom, ‘Collective Action and the Evolution of Social Norms’ (2000); item 89 in volume 4 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## Collective Dynamics of ‘Small-World’ Networks
+
+Type: Publication
+Public depth: described
+
+D. Watts and S. Strogatz, ‘Collective Dynamics of ‘Small-World’ Networks’ (1998); item 87 in volume 4 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## Competing Technologies, Increasing Returns, and Lock-In by Historical Events
+
+Type: Publication
+Public depth: described
+
+W. B. Arthur, ‘Competing Technologies, Increasing Returns, and Lock-In by Historical Events’ (1989); item 67 in volume 4 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
 ## Complexity
 
 Type: Concept
@@ -507,6 +685,17 @@ The Complexity Instability Principle says that systems with too many active or c
 - The Grammar of Systems - SCiO presentation — https://www.systemspractice.org/resources/grammar-systems
 - The Grammar of Systems II: From Order to Chaos and Back Again, 2nd edition — https://www.systemspractice.org/resources/grammar-systems-ii-order-chaos-back-again-2nd-ed
 - Cybersecurity Lessons from The Grammar of Systems, part 2 — https://www.linkedin.com/pulse/cybersecurity-lessons-from-grammar-systems-order-chaos-osama-salah-1f
+
+## Computing Machinery and Intelligence
+
+Type: Publication
+Public depth: described
+
+A. M. Turing, ‘Computing Machinery and Intelligence’ (1950); item 11 in volume 1 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
 
 ## Conant-Ashby Theorem
 
@@ -568,6 +757,28 @@ A context diagram shows a system of interest and selected exchanges with its env
 ### Sources
 
 - An introductory systems thinking toolkit for civil servants — https://www.gov.uk/government/publications/systems-thinking-for-civil-servants/toolkit
+
+## Contribution to the Energetics of Evolution
+
+Type: Publication
+Public depth: described
+
+A. J. Lotka, ‘Contribution to the Energetics of Evolution’ (1922); item 1 in volume 1 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## Contributions to the Theory of Optimal Control
+
+Type: Publication
+Public depth: described
+
+R. E. Kálmán, ‘Contributions to the Theory of Optimal Control’ (1960); item 15 in volume 1 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
 
 ## Control theory
 
@@ -726,6 +937,17 @@ Work on undiscussables identifies issues people cannot safely raise and the defe
 - SCiO CF Resources v9 draft — No public link
 - SCiO Professional Accreditation and Competency Framework — https://www.systemspractice.org/professional-accreditation
 
+## Deterministic Nonperiodic Flow
+
+Type: Publication
+Public depth: described
+
+E. N. Lorenz, ‘Deterministic Nonperiodic Flow’ (1963); item 23 in volume 2 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
 ## Difference
 
 Type: Concept
@@ -828,6 +1050,17 @@ Double-loop learning changes not only an action but the governing assumptions, v
 ### Sources
 
 - SCiO SysBoK - Feedback v1 — No public link
+
+## Dynamic Models of Segregation
+
+Type: Publication
+Public depth: described
+
+T. C. Schelling, ‘Dynamic Models of Segregation’ (1971); item 37 in volume 2 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
 
 ## Dynamics
 
@@ -935,6 +1168,17 @@ Complex outcomes cannot usually be attributed to one actor or intervention. Emer
 - Emergence, (Self)Organization, and Complexity — https://web-prod.santafe.edu/events/emergence-selforganization-and-complexity
 - Introduction to Complexity (Santa Fe Institute Complexity Explorer) — https://www.complexityexplorer.org/courses/185-introduction-to-
 
+## Emergent Properties of Balinese Water Temple Networks: Coadaptation on a Rugged Fitness Landscape
+
+Type: Publication
+Public depth: described
+
+J. S. Lansing and J. M. Kremer, ‘Emergent Properties of Balinese Water Temple Networks: Coadaptation on a Rugged Fitness Landscape’ (1993); item 75 in volume 4 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
 ## Enablers and inhibitors
 
 Type: Tool
@@ -945,6 +1189,61 @@ An enablers-and-inhibitors analysis identifies conditions that support or obstru
 ### Sources
 
 - An introductory systems thinking toolkit for civil servants — https://www.gov.uk/government/publications/systems-thinking-for-civil-servants/toolkit
+
+## Endogenous Preferences: The Cultural Consequences of Markets and Other Economic Institutions
+
+Type: Publication
+Public depth: described
+
+S. Bowles, ‘Endogenous Preferences: The Cultural Consequences of Markets and Other Economic Institutions’ (1998); item 86 in volume 4 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## Every Good Regulator of a System Must Be a Model of That System
+
+Type: Publication
+Public depth: described
+
+R. C. Conant and W. R. Ashby, ‘Every Good Regulator of a System Must Be a Model of That System’ (1970); item 34 in volume 2 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## Evolutionary cybernetics
+
+Type: Concept
+Public depth: described
+
+Principia Cybernetica's programme for interpreting evolution as continuing self-organisation and the emergence of higher levels of control.
+
+### Sources
+
+- Introduction to Principia Cybernetica — https://pespmc1.vub.ac.be/INTRO.html
+
+## Evolutionary Phenomena in Simple Dynamics
+
+Type: Publication
+Public depth: described
+
+K. Lindgren, ‘Evolutionary Phenomena in Simple Dynamics’ (1991); item 73 in volume 4 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## Evolutionary Rate at the Molecular Level
+
+Type: Publication
+Public depth: described
+
+M. Kimura, ‘Evolutionary Rate at the Molecular Level’ (1968); item 30 in volume 2 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
 
 ## Facilitation
 
@@ -1154,6 +1453,29 @@ Flawless Consulting is Peter Block's approach to contracting, diagnosis, feedbac
 - SCiO CF Resources v9 draft — No public link
 - SCiO Professional Accreditation and Competency Framework — https://www.systemspractice.org/professional-accreditation
 
+## Flocks, Herds, and Schools: A Distributed Behavioral Model
+
+Type: Publication
+Public depth: described
+
+C. Reynolds, ‘Flocks, Herds, and Schools: A Distributed Behavioral Model’ (1987); item 65 in volume 3 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## Foundational Papers in Complexity Science
+
+Type: Corpus
+Public depth: described
+
+A four-volume 2024 Santa Fe Institute Press collection of 89 historical papers selected to represent important foundations of complexity science.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+- Foundational Papers in Complexity Science — official citation — https://www.foundationalpapersincomplexityscience.org/how-to-cite
+
 ## Fractal Enterprise Model and Capabilities
 
 Type: Intervention skill
@@ -1190,6 +1512,19 @@ Fractals are mathematical or spatial structures showing patterned detail across 
 
 - Introduction to Complexity (Santa Fe Institute Complexity Explorer) — https://www.complexityexplorer.org/courses/185-introduction-to-
 
+## Francis Heylighen
+
+Type: Person
+Public depth: described
+
+A cybernetics researcher and Principia Cybernetica editor associated with its evolutionary-cybernetics, semantic-network and global-brain programmes.
+
+### Sources
+
+- Introduction to Principia Cybernetica — https://pespmc1.vub.ac.be/INTRO.html
+- Web Dictionary of Cybernetics and Systems — https://pespmc1.vub.ac.be/ASC/INDEXASC.html
+- The Global Brain Group — https://pespmc1.vub.ac.be/GBRAIN-L.html
+
 ## Francisco Varela
 
 Type: Person
@@ -1200,6 +1535,28 @@ Chilean biologist and cybernetician who developed work on autopoiesis, cognition
 ### Sources
 
 - SCiO SysBoK - Recursion v1 — No public link
+
+## From Sequences to Shapes and Back: A Case Study in RNA Secondary Structures
+
+Type: Publication
+Public depth: described
+
+P. Schuster, W. Fontana, P. F. Stadler, and I. L. Hofacker, ‘From Sequences to Shapes and Back: A Case Study in RNA Secondary Structures’ (1994); item 80 in volume 4 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## Fusion, Propagation, and Structuring in Belief Networks
+
+Type: Publication
+Public depth: described
+
+J. Pearl, ‘Fusion, Propagation, and Structuring in Belief Networks’ (1986); item 62 in volume 3 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
 
 ## Game theory
 
@@ -1212,6 +1569,28 @@ Game theory studies situations in which each participant's outcome depends partl
 
 - SCiO SysBoK - Feedback v1 — No public link
 - Game Theory — https://plato.stanford.edu/archives/fall2023/entries/game-theory/
+
+## Geometric Analysis of Shell Coiling; General Problems
+
+Type: Publication
+Public depth: described
+
+D. M. Raup, ‘Geometric Analysis of Shell Coiling; General Problems’ (1966); item 27 in volume 2 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## Geometry from a Time Series
+
+Type: Publication
+Public depth: described
+
+N. H. Packard, J. P. Crutchfield, J. D. Farmer, and R. S. Shaw, ‘Geometry from a Time Series’ (1980); item 54 in volume 3 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
 
 ## Gerald Midgley
 
@@ -1234,6 +1613,18 @@ Italian mathematician and logician known for axiomatic work on arithmetic and fo
 ### Sources
 
 - SCiO SysBoK - Recursion v1 — No public link
+
+## Global brain
+
+Type: Concept
+Public depth: described
+
+A metaphor and research programme treating worldwide communication networks as a potentially self-organising system with distributed collective intelligence.
+
+### Sources
+
+- Principia Cybernetica Web — https://pespmc1.vub.ac.be/
+- The Global Brain Group — https://pespmc1.vub.ac.be/GBRAIN-L.html
 
 ## Graphic facilitation and visualisation
 
@@ -1385,6 +1776,17 @@ The Homeostasis Principle says that a system remains stable only while its essen
 - The Grammar of Systems II: From Order to Chaos and Back Again, 2nd edition — https://www.systemspractice.org/resources/grammar-systems-ii-order-chaos-back-again-2nd-ed
 - Cybersecurity Lessons from The Grammar of Systems, part 1 — https://www.linkedin.com/pulse/cybersecurity-lessons-from-grammar-systems-order-chaos-osama-salah/
 
+## How Long is the Coast of Britain? Statistical Self-Similarity and Fractional Dimension
+
+Type: Publication
+Public depth: described
+
+B. B. Mandelbrot, ‘How Long is the Coast of Britain? Statistical Self-Similarity and Fractional Dimension’ (1967); item 29 in volume 2 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
 ## Humberto Maturana
 
 Type: Person
@@ -1500,6 +1902,39 @@ Systems and cybernetics researcher whose 2026 community map is retained as a com
 
 - Systems researchers network — No public link
 
+## Immune Network Theory
+
+Type: Publication
+Public depth: described
+
+A. S. Perelson, ‘Immune Network Theory’ (1989); item 68 in volume 4 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## Inductive Reasoning and Bounded Rationality
+
+Type: Publication
+Public depth: described
+
+W. B. Arthur, ‘Inductive Reasoning and Bounded Rationality’ (1994); item 77 in volume 4 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## Infinite Number of Order Parameters for Spin-Glasses
+
+Type: Publication
+Public depth: described
+
+G. Parisi, ‘Infinite Number of Order Parameters for Spin-Glasses’ (1979); item 53 in volume 3 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
 ## Influence mapping
 
 Type: Intervention skill
@@ -1597,6 +2032,17 @@ Public and organisational systems routinely confuse data volume with understandi
 - Transduction - a powerful and important concept that few have heard of — https://chosen-path.org/2021/10/06/transduction-a-powerful-and-important-concept-that-few-have-heard-of/
 - Core Thinking Integration — No public link
 
+## Information Measures, Effective Complexity, and Total Information
+
+Type: Publication
+Public depth: described
+
+M. Gell-Mann and S. Lloyd, ‘Information Measures, Effective Complexity, and Total Information’ (1996); item 81 in volume 4 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
 ## Information theory
 
 Type: Concept
@@ -1668,6 +2114,28 @@ Systems and cybernetics use information in several senses. Confusing Shannon inf
 - Cybernetics or Control and Communication in the Animal and the Machine — https://mitpress.mit.edu/9780262537841/cybernetics-or-control-and-communication-in-the-animal-and-the-machine/
 - An Introduction to Cybernetics — https://ashby.info/bibliography.html
 
+## Information Theory and Statistical Mechanics
+
+Type: Publication
+Public depth: described
+
+E. T. Jaynes, ‘Information Theory and Statistical Mechanics’ (1957); item 14 in volume 1 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## Information, Physics, Quantum: The Search for Links
+
+Type: Publication
+Public depth: described
+
+J. A. Wheeler, ‘Information, Physics, Quantum: The Search for Links’ (1990); item 70 in volume 4 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
 ## INFORMED Group Dynamics
 
 Type: Method or methodology
@@ -1723,6 +2191,17 @@ Interview technique covers the design and conduct of conversations that elicit e
 
 - SCiO CF Resources v9 draft — No public link
 - SCiO Professional Accreditation and Competency Framework — https://www.systemspractice.org/professional-accreditation
+
+## Irreversibility and Heat Generation in the Computing Process
+
+Type: Publication
+Public depth: described
+
+R. Landauer, ‘Irreversibility and Heat Generation in the Computing Process’ (1961); item 16 in volume 1 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
 
 ## James Clerk Maxwell
 
@@ -1935,6 +2414,17 @@ Listening for multiple perspectives seeks not only different opinions but the di
 - SCiO CF Resources v9 draft — No public link
 - SCiO Professional Accreditation and Competency Framework — https://www.systemspractice.org/professional-accreditation
 
+## Logical Reversibility of Computation
+
+Type: Publication
+Public depth: described
+
+C. H. Bennett, ‘Logical Reversibility of Computation’ (1973); item 43 in volume 2 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
 ## Machine governors
 
 Type: Technology
@@ -1971,6 +2461,17 @@ Map analysis and narrative uses a visual systems map together with a written exp
 
 - An introductory systems thinking toolkit for civil servants — https://www.gov.uk/government/publications/systems-thinking-for-civil-servants/toolkit
 
+## Metabolic Stability and Epigenesis in Randomly Constructed Genetic Nets
+
+Type: Publication
+Public depth: described
+
+S. Kauffman, ‘Metabolic Stability and Epigenesis in Randomly Constructed Genetic Nets’ (1969); item 33 in volume 2 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
 ## Metaphors
 
 Type: Intervention skill
@@ -1982,6 +2483,29 @@ Metaphors organise attention by making one domain intelligible through another. 
 
 - SCiO CF Resources v9 draft — No public link
 - SCiO Professional Accreditation and Competency Framework — https://www.systemspractice.org/professional-accreditation
+
+## Metasystem transition
+
+Type: Concept
+Public depth: described
+
+In Principia Cybernetica, the emergence of a new level of control that coordinates previously separate systems into a higher-order system.
+
+### Sources
+
+- Introduction to Principia Cybernetica — https://pespmc1.vub.ac.be/INTRO.html
+- Principia Cybernetica: Metasystem Transition Theory — https://pespmc1.vub.ac.be/MSTT.html
+
+## Metasystem Transition Theory
+
+Type: Approach family
+Public depth: described
+
+A theoretical programme developed within Principia Cybernetica around the repeated emergence of higher levels of control and organisation.
+
+### Sources
+
+- Principia Cybernetica: Metasystem Transition Theory — https://pespmc1.vub.ac.be/MSTT.html
 
 ## Modelling
 
@@ -1995,6 +2519,17 @@ Modelling is the purposeful construction and use of a selective representation. 
 - The Grammar of Systems - SCiO presentation — https://www.systemspractice.org/resources/grammar-systems
 - The Grammar of Systems II: From Order to Chaos and Back Again, 2nd edition — https://www.systemspractice.org/resources/grammar-systems-ii-order-chaos-back-again-2nd-ed
 
+## Molecular Quasi-Species
+
+Type: Publication
+Public depth: described
+
+M. Eigen, J. McCaskill, and P. Schuster, ‘Molecular Quasi-Species’ (1988); item 66 in volume 3 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
 ## Monitoring and evaluation strategy
 
 Type: Tool
@@ -2005,6 +2540,17 @@ A monitoring and evaluation strategy specifies what will be observed, by whom, f
 ### Sources
 
 - An introductory systems thinking toolkit for civil servants — https://www.gov.uk/government/publications/systems-thinking-for-civil-servants/toolkit
+
+## More Is Different
+
+Type: Publication
+Public depth: described
+
+P. W. Anderson, ‘More Is Different’ (1972); item 39 in volume 2 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
 
 ## Mosaic Transformation
 
@@ -2039,6 +2585,17 @@ Multiple perspectives work compares how different participants or observers defi
 ### Sources
 
 - Systems Thinking Practitioner apprenticeship standard ST0787 v1.2 — https://skillsengland.education.gov.uk/apprenticeships/st0787-v1-2
+
+## Natural Gradient Works Efficiently in Learning
+
+Type: Publication
+Public depth: described
+
+S. Amari, ‘Natural Gradient Works Efficiently in Learning’ (1998); item 85 in volume 4 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
 
 ## Negative feedback
 
@@ -2131,6 +2688,17 @@ A network represents entities as nodes and relationships as links. Network analy
 
 - Introduction to Complexity (Santa Fe Institute Complexity Explorer) — https://www.complexityexplorer.org/courses/185-introduction-to-
 
+## Neural Networks and Physical Systems with Emergent Collective Computational Abilities
+
+Type: Publication
+Public depth: described
+
+J. J. Hopfield, ‘Neural Networks and Physical Systems with Emergent Collective Computational Abilities’ (1982); item 57 in volume 3 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
 ## Neuro-Linguistic Programming (NLP)
 
 Type: Intervention skill
@@ -2143,6 +2711,28 @@ Neuro-Linguistic Programming is a collection of communication and change techniq
 - SCiO CF Resources v9 draft — No public link
 - SCiO Professional Accreditation and Competency Framework — https://www.systemspractice.org/professional-accreditation
 
+## Niche Construction
+
+Type: Publication
+Public depth: described
+
+F. J. Odling-Smee, K. N. Laland, and M. W. Feldman, ‘Niche Construction’ (1996); item 82 in volume 4 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## No Free Lunch Theorems for Optimization
+
+Type: Publication
+Public depth: described
+
+D. H. Wolpert and W. G. Macready, ‘No Free Lunch Theorems for Optimization’ (1997); item 84 in volume 4 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
 ## Noam Chomsky
 
 Type: Person
@@ -2154,6 +2744,17 @@ Linguist whose generative-syntax work is part of the linguistic-recursion resear
 
 - SCiO SysBoK - Recursion v1 — No public link
 - Aspects of the Theory of Syntax — https://mitpress.mit.edu/9780262030113/aspects-of-the-theory-of-syntax/
+
+## Non-Cooperative Games
+
+Type: Publication
+Public depth: described
+
+J. Nash, ‘Non-Cooperative Games’ (1951); item 12 in volume 1 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
 
 ## Non-linearity
 
@@ -2177,6 +2778,17 @@ Mathematician and co-author of the 1943 teleology paper; later named and develop
 
 - SCiO SysBoK - Feedback v1 — No public link
 - Behavior, Purpose and Teleology — https://doi.org/10.1086/286788
+
+## Notes on an Epistemology for Living Things
+
+Type: Publication
+Public depth: described
+
+H. von Foerster, ‘Notes on an Epistemology for Living Things’ (1972); item 42 in volume 2 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
 
 ## Observer
 
@@ -2248,6 +2860,39 @@ Systems work that excludes the observer often turns a local view into an apparen
 - Computing a Reality: Heinz von Foerster's 1973 lecture — https://constructivist.info/4/1/062.foerster
 - Core Thinking Integration — No public link
 - Systems complexity cybernetics operating manual — No public link
+
+## On Some Mathematical Problems Connected with Patterns of Growth in Figures
+
+Type: Publication
+Public depth: described
+
+S. Ulam, ‘On Some Mathematical Problems Connected with Patterns of Growth in Figures’ (1962); item 22 in volume 2 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## On the Decrease of Entropy in a Thermodynamic System by the Intervention of Intelligent Beings
+
+Type: Publication
+Public depth: described
+
+L. Szilárd, ‘On the Decrease of Entropy in a Thermodynamic System by the Intervention of Intelligent Beings’ (1929); item 2 in volume 1 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## On the Length of Programs for Computing Finite Binary Sequences
+
+Type: Publication
+Public depth: described
+
+G. J. Chaitin, ‘On the Length of Programs for Computing Finite Binary Sequences’ (1966); item 26 in volume 2 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
 
 ## Order Osmosis Principle
 
@@ -2330,6 +2975,28 @@ Organisations often centralise decisions that require local variety or mistake r
 
 - Diagnosing the System for Organizations — https://www.wiley-vch.de/en/areas-interest/finance-economics-law/diagnosing-the-system-for-organizations-978-0-471-95136-0
 - Viable System Model - The VSM in 1000 words — https://metaphorum.org/staffords-work/viable-system-model
+
+## Organizations and Markets
+
+Type: Publication
+Public depth: described
+
+H. A. Simon, ‘Organizations and Markets’ (1991); item 74 in volume 4 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## Outline for a Logical Theory of Adaptive Systems
+
+Type: Publication
+Public depth: described
+
+J. H. Holland, ‘Outline for a Logical Theory of Adaptive Systems’ (1962); item 20 in volume 1 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
 
 ## Panini
 
@@ -2478,6 +3145,30 @@ Presentation design selects and arranges words, images, sequence and interaction
 - SCiO CF Resources v9 draft — No public link
 - SCiO Professional Accreditation and Competency Framework — https://www.systemspractice.org/professional-accreditation
 
+## Principia Cybernetica Project
+
+Type: Organisation
+Public depth: described
+
+An international project begun in 1989 to develop a collaborative philosophical world-view grounded in the project's account of evolutionary cybernetics.
+
+### Sources
+
+- Principia Cybernetica Web — https://pespmc1.vub.ac.be/
+- Introduction to Principia Cybernetica — https://pespmc1.vub.ac.be/INTRO.html
+
+## Principia Cybernetica Web
+
+Type: Publication
+Public depth: described
+
+The public hypertext and semantic-network website of the Principia Cybernetica Project, first implemented on the web in 1993.
+
+### Sources
+
+- Principia Cybernetica Web — https://pespmc1.vub.ac.be/
+- Introduction to Principia Cybernetica — https://pespmc1.vub.ac.be/INTRO.html
+
 ## Principle of Emergence
 
 Type: Law or principle
@@ -2514,6 +3205,17 @@ Public speaking is the design and delivery of spoken communication for an audien
 
 - SCiO CF Resources v9 draft — No public link
 - SCiO Professional Accreditation and Competency Framework — https://www.systemspractice.org/professional-accreditation
+
+## Punctuated Equilibria: The Tempo and Mode of Evolution Reconsidered
+
+Type: Publication
+Public depth: described
+
+S. J. Gould and N. Eldredge, ‘Punctuated Equilibria: The Tempo and Mode of Evolution Reconsidered’ (1977); item 52 in volume 3 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
 
 ## Purpose
 
@@ -2633,6 +3335,17 @@ Randomness describes outcomes treated as not deterministically predictable withi
 
 - Systems Thinking Practitioner apprenticeship standard ST0787 v1.2 — https://skillsengland.education.gov.uk/apprenticeships/st0787-v1-2
 
+## Reading a Neural Code
+
+Type: Publication
+Public depth: described
+
+W. Bialek, F. Rieke, R. R. de Ruyter van Steveninck, and D. Warland, ‘Reading a Neural Code’ (1991); item 71 in volume 4 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
 ## Recursion
 
 Type: Concept
@@ -2734,6 +3447,17 @@ A definition in which instances of a function or structure are specified in term
 ### Sources
 
 - Recursive Functions — https://plato.stanford.edu/entries/recursive-functions/
+
+## Reducibility Among Combinatorial Problems
+
+Type: Publication
+Public depth: described
+
+R. M. Karp, ‘Reducibility Among Combinatorial Problems’ (1972); item 40 in volume 2 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
 
 ## Redundancy of Potential Command Principle
 
@@ -2916,6 +3640,28 @@ The slogan is often used to justify more choice, more management or decentralisa
 - Every Good Regulator of a System Must Be a Model of That System — https://doi.org/10.1080/00207727008920220
 - Viable System Model - The VSM in 1000 words — https://metaphorum.org/staffords-work/viable-system-model
 
+## Resilience and Stability of Ecological Systems
+
+Type: Publication
+Public depth: described
+
+C. S. Holling, ‘Resilience and Stability of Ecological Systems’ (1973); item 45 in volume 3 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## Revisiting the Edge of Chaos: Evolving Cellular Automata to Perform Computations
+
+Type: Publication
+Public depth: described
+
+M. Mitchell, P. T. Hraber, and J. P. Crutchfield, ‘Revisiting the Edge of Chaos: Evolving Cellular Automata to Perform Computations’ (1993); item 76 in volume 4 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
 ## Rich picture
 
 Type: Tool
@@ -2975,6 +3721,17 @@ The Scaling Stasis Principle says that growth usually adds environmental exposur
 - The Grammar of Systems II: From Order to Chaos and Back Again, 2nd edition — https://www.systemspractice.org/resources/grammar-systems-ii-order-chaos-back-again-2nd-ed
 - Cybersecurity Lessons from The Grammar of Systems, part 3 — https://www.linkedin.com/pulse/cybersecurity-lessons-from-grammar-systems-order-chaos-osama-salah-2f
 
+## Science and Complexity
+
+Type: Publication
+Public depth: described
+
+W. Weaver, ‘Science and Complexity’ (1948); item 10 in volume 1 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
 ## Scientific theory and evidence
 
 Type: Intervention skill
@@ -3012,6 +3769,17 @@ The Second Circular Causality Principle concerns negative feedback. Mutual corre
 - The Grammar of Systems - SCiO presentation — https://www.systemspractice.org/resources/grammar-systems
 - The Grammar of Systems II: From Order to Chaos and Back Again, 2nd edition — https://www.systemspractice.org/resources/grammar-systems-ii-order-chaos-back-again-2nd-ed
 - Cybersecurity Lessons from The Grammar of Systems, part 1 — https://www.linkedin.com/pulse/cybersecurity-lessons-from-grammar-systems-order-chaos-osama-salah/
+
+## Selection and Covariance
+
+Type: Publication
+Public depth: described
+
+G. R. Price, ‘Selection and Covariance’; item 35 in volume 2 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
 
 ## Self-organisation
 
@@ -3085,6 +3853,17 @@ The phrase is often instrumentalised as if leaders can order emergence or simply
 - On Self-Organizing Systems and Their Environments — https://www.organism.earth/library/document/on-self-organizing-systems
 - Emergence, (Self)Organization, and Complexity — https://web-prod.santafe.edu/events/emergence-selforganization-and-complexity
 
+## Self-Organisation in Nonequilibrium Systems: Towards a Dynamics of Complexity
+
+Type: Publication
+Public depth: described
+
+I. Prigogine and G. Nicolis, ‘Self-Organisation in Nonequilibrium Systems: Towards a Dynamics of Complexity’ (1985); item 60 in volume 3 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
 ## Self-Organised Criticality
 
 Type: Law or principle
@@ -3110,6 +3889,28 @@ The Self-Organising Principle concerns the generation of higher-level order thro
 - The Grammar of Systems - SCiO presentation — https://www.systemspractice.org/resources/grammar-systems
 - The Grammar of Systems II: From Order to Chaos and Back Again, 2nd edition — https://www.systemspractice.org/resources/grammar-systems-ii-order-chaos-back-again-2nd-ed
 - Cybersecurity Lessons from The Grammar of Systems, part 2 — https://www.linkedin.com/pulse/cybersecurity-lessons-from-grammar-systems-order-chaos-osama-salah-1f
+
+## Self-Organized Criticality: An Explanation of the 1/f Noise
+
+Type: Publication
+Public depth: described
+
+P. Bak, C. Tang, and K. Wiesenfeld, ‘Self-Organized Criticality: An Explanation of the 1/f Noise’ (1987); item 63 in volume 3 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## Self–Nonself Discrimination in a Computer
+
+Type: Publication
+Public depth: described
+
+S. Forrest, A. S. Perelson, L. Allen, and R. Cherukuri, ‘Self–Nonself Discrimination in a Computer’ (1994); item 79 in volume 4 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
 
 ## Selling systems approaches
 
@@ -3167,6 +3968,17 @@ Soft Systems Methodology is a participative learning process for messy, conteste
 
 - SCiO CF Resources v9 draft — No public link
 
+## Solvable Model of a Spin-Glass
+
+Type: Publication
+Public depth: described
+
+D. Sherrington and S. Kirkpatrick, ‘Solvable Model of a Spin-Glass’ (1975); item 49 in volume 3 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
 ## Stafford Beer
 
 Type: Person
@@ -3205,6 +4017,28 @@ The Steady State Principle links the equilibrium of a system to the equilibria o
 - The Grammar of Systems II: From Order to Chaos and Back Again, 2nd edition — https://www.systemspractice.org/resources/grammar-systems-ii-order-chaos-back-again-2nd-ed
 - Cybersecurity Lessons from The Grammar of Systems, part 3 — https://www.linkedin.com/pulse/cybersecurity-lessons-from-grammar-systems-order-chaos-osama-salah-2f
 
+## Steps Toward Artificial Intelligence
+
+Type: Publication
+Public depth: described
+
+M. Minsky, ‘Steps Toward Artificial Intelligence’ (1961); item 17 in volume 1 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## Stochastic Climate Models Part I. Theory
+
+Type: Publication
+Public depth: described
+
+K. Hasselmann, ‘Stochastic Climate Models Part I. Theory’ (1976); item 51 in volume 3 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
 ## Stock and flow diagrams
 
 Type: Tool
@@ -3239,6 +4073,28 @@ The Structural Viability Theorem says that a system and its constituent sub-syst
 - The Grammar of Systems - SCiO presentation — https://www.systemspractice.org/resources/grammar-systems
 - The Grammar of Systems II: From Order to Chaos and Back Again, 2nd edition — https://www.systemspractice.org/resources/grammar-systems-ii-order-chaos-back-again-2nd-ed
 - Cybersecurity Lessons from The Grammar of Systems, part 3 — https://www.linkedin.com/pulse/cybersecurity-lessons-from-grammar-systems-order-chaos-osama-salah-2f
+
+## Studying Artificial Life with Cellular Automata
+
+Type: Publication
+Public depth: described
+
+C. G. Langton, ‘Studying Artificial Life with Cellular Automata’ (1986); item 61 in volume 3 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## Synergetics
+
+Type: Publication
+Public depth: described
+
+H. Haken, ‘Synergetics’ (1976); item 50 in volume 3 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
 
 ## Syntegration / Team Syntegrity
 
@@ -3380,6 +4236,171 @@ Systems mapping is a family of practices for making selected elements, relations
 
 - An introductory systems thinking toolkit for civil servants — https://www.gov.uk/government/publications/systems-thinking-for-civil-servants/toolkit
 
+## The Architecture of Complexity
+
+Type: Publication
+Public depth: described
+
+H. A. Simon, ‘The Architecture of Complexity’ (1962); item 21 in volume 2 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## The Calculi of Emergence: Computation, Dynamics, and Induction
+
+Type: Publication
+Public depth: described
+
+J. P. Crutchfield, ‘The Calculi of Emergence: Computation, Dynamics, and Induction’ (1994); item 78 in volume 4 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## The Chemical Basis of Morphogenesis
+
+Type: Publication
+Public depth: described
+
+A. M. Turing, ‘The Chemical Basis of Morphogenesis’ (1952); item 13 in volume 1 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## The Complexity of Simplicity
+
+Type: Publication
+Public depth: described
+
+M. Bunge, ‘The Complexity of Simplicity’ (1962); item 19 in volume 1 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## The Economic Implications of Learning by Doing
+
+Type: Publication
+Public depth: described
+
+K. J. Arrow, ‘The Economic Implications of Learning by Doing’ (1962); item 18 in volume 1 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## The Effect of Solar Radiation Variations on the Climate of the Earth
+
+Type: Publication
+Public depth: described
+
+M. I. Budyko, ‘The Effect of Solar Radiation Variations on the Climate of the Earth’ (1969); item 32 in volume 2 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## The Evolution of Cooperation
+
+Type: Publication
+Public depth: described
+
+R. Axelrod and W. D. Hamilton, ‘The Evolution of Cooperation’ (1981); item 55 in volume 3 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## The Intrinsic Computational Difficulty of Functions
+
+Type: Publication
+Public depth: described
+
+A. Cobham, ‘The Intrinsic Computational Difficulty of Functions’ (1964); item 24 in volume 2 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## The Middle Way
+
+Type: Publication
+Public depth: described
+
+R. B. Laughlin, D. Pines, J. Schmalian, B. P. Stojkovic, and P. Wolynes, ‘The Middle Way’ (1999); item 88 in volume 4 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## The Organization of Complex Systems
+
+Type: Publication
+Public depth: described
+
+H. A. Simon, ‘The Organization of Complex Systems’ (1973); item 46 in volume 3 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## The Role of Models in Science
+
+Type: Publication
+Public depth: described
+
+A. Rosenblueth and N. Wiener, ‘The Role of Models in Science’ (1945); item 8 in volume 1 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## The Roles of Mutation, Inbreeding, Crossbreeding, and Selection in Evolution
+
+Type: Publication
+Public depth: described
+
+S. Wright, ‘The Roles of Mutation, Inbreeding, Crossbreeding, and Selection in Evolution’ (1932); item 3 in volume 1 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## The Strength of Weak Ties
+
+Type: Publication
+Public depth: described
+
+M. S. Granovetter, ‘The Strength of Weak Ties’ (1973); item 44 in volume 2 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## The Theory of Games and the Evolution of Animal Conflicts
+
+Type: Publication
+Public depth: described
+
+J. Maynard Smith, ‘The Theory of Games and the Evolution of Animal Conflicts’ (1974); item 47 in volume 3 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## The Use of Knowledge in Society
+
+Type: Publication
+Public depth: described
+
+F. A. Hayek, ‘The Use of Knowledge in Society’ (1945); item 7 in volume 1 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
 ## Theory of Change maps
 
 Type: Tool
@@ -3391,6 +4412,17 @@ A theory-of-change map sets out how activities are expected to contribute to int
 
 - An introductory systems thinking toolkit for civil servants — https://www.gov.uk/government/publications/systems-thinking-for-civil-servants/toolkit
 
+## Theory of Self-Reproducing Automata
+
+Type: Publication
+Public depth: described
+
+J. von Neumann, ‘Theory of Self-Reproducing Automata’ (1966); item 28 in volume 2 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
 ## Thoralf Skolem
 
 Type: Person
@@ -3401,6 +4433,28 @@ Logician whose 1923 work linked recursive definability with effective computabil
 ### Sources
 
 - Recursive Functions — https://plato.stanford.edu/entries/recursive-functions/
+
+## Three Approaches to the Quantitative Definition of Information
+
+Type: Publication
+Public depth: described
+
+A. N. Kolmogorov, ‘Three Approaches to the Quantitative Definition of Information’ (1968); item 31 in volume 2 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## Towards a General Theory of Adaptive Walks on Rugged Landscapes
+
+Type: Publication
+Public depth: described
+
+S. Kauffman and S. Levin, ‘Towards a General Theory of Adaptive Walks on Rugged Landscapes’ (1987); item 64 in volume 3 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
 
 ## Training design
 
@@ -3521,6 +4575,28 @@ Uncertainty is the limited ability to know which state, explanation or outcome a
 - The Grammar of Systems - SCiO presentation — https://www.systemspractice.org/resources/grammar-systems
 - The Grammar of Systems II: From Order to Chaos and Back Again, 2nd edition — https://www.systemspractice.org/resources/grammar-systems-ii-order-chaos-back-again-2nd-ed
 
+## Universal Behavior in Nonlinear Systems
+
+Type: Publication
+Public depth: described
+
+M. J. Feigenbaum, ‘Universal Behavior in Nonlinear Systems’ (1983); item 58 in volume 3 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## Universality and Complexity in Cellular Automata
+
+Type: Publication
+Public depth: described
+
+S. Wolfram, ‘Universality and Complexity in Cellular Automata’ (1984); item 59 in volume 3 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
 ## Unpredictability
 
 Type: Concept
@@ -3531,6 +4607,18 @@ Unpredictability is the inability to make a sufficiently reliable forecast at a 
 ### Sources
 
 - Systems Thinking Practitioner apprenticeship standard ST0787 v1.2 — https://skillsengland.education.gov.uk/apprenticeships/st0787-v1-2
+
+## Valentin Turchin
+
+Type: Person
+Public depth: described
+
+A cybernetician and Principia Cybernetica editor whose work introduced and developed the project's metasystem-transition framework.
+
+### Sources
+
+- Introduction to Principia Cybernetica — https://pespmc1.vub.ac.be/INTRO.html
+- Principia Cybernetica: Metasystem Transition Theory — https://pespmc1.vub.ac.be/MSTT.html
 
 ## Values mapping and integration
 
@@ -3973,6 +5061,28 @@ American neurophysiologist, philosopher and cybernetician whose work on neural n
 
 - Sean Manion: cybernetics, meaning, teleology and phenomenology — https://www.linkedin.com/posts/sean-manionphd_cybernetics-meaning-teleology-activity-7394125204354129921-eCiB
 
+## Web Dictionary of Cybernetics and Systems
+
+Type: Comparator corpus
+Public depth: described
+
+A hypertext dictionary combining the ASC Glossary, Klaus Krippendorff's dictionary and Bernd Hornung's glossary, compiled and converted by Francis Heylighen with help from An Vranckx.
+
+### Sources
+
+- Web Dictionary of Cybernetics and Systems — https://pespmc1.vub.ac.be/ASC/INDEXASC.html
+
+## Will a Large Complex System Be Stable?
+
+Type: Publication
+Public depth: described
+
+R. M. May, ‘Will a Large Complex System Be Stable?’ (1972); item 41 in volume 2 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
 ## Workshop design
 
 Type: Intervention skill
@@ -3984,3 +5094,55 @@ Workshop design creates a bounded social process with a clear purpose, participa
 
 - SCiO CF Resources v9 draft — No public link
 - SCiO Professional Accreditation and Competency Framework — https://www.systemspractice.org/professional-accreditation
+
+# Registered coverage programmes
+
+These are explicit next-work programmes, not claims that the corpora have already been fully reviewed or ingested.
+
+## Foundational Papers in Complexity Science
+
+Status: first pass itemised 89 publication entries
+Tracking issue: https://github.com/antlerboy/the-necessary-tangle/issues/3
+Completion test: All 89 historical papers are inventoried and browsable. Substantive summaries, original-publication locators and connection review remain explicit next work.
+
+## Relevant Monoskop material
+
+Status: registered not yet systematically reviewed
+Tracking issue: https://github.com/antlerboy/the-necessary-tangle/issues/4
+Completion test: Documented search scope, admissions, exclusions, original-source replacements and remaining work.
+
+## SysCoI and model.report archives
+
+Status: registered not yet systematically ingested
+Tracking issue: https://github.com/antlerboy/the-necessary-tangle/issues/5
+Completion test: Repeatable archival ingestion with typed provenance and no confusion of circulation with influence.
+
+## Prior maps and bodies of knowledge
+
+Status: registered comparator pass pending
+Tracking issue: https://github.com/antlerboy/the-necessary-tangle/issues/6
+Completion test: Public comparison of purpose, boundary, categories, lines, evidence, strengths and failures.
+
+## Practitioner influence constellations
+
+Status: relation model and pilots pending
+Tracking issue: https://github.com/antlerboy/the-necessary-tangle/issues/7
+Completion test: Gold-standard practitioner constellations with separately evidenced teaching, collaboration, citation and influence.
+
+## Company-knowledge discovery
+
+Status: private discovery pass pending
+Tracking issue: https://github.com/antlerboy/the-necessary-tangle/issues/8
+Completion test: No private material published; useful leads replaced by public evidence or proper No-public-link citations.
+
+## Principia Cybernetica
+
+Status: first pass project people concepts and corpora mapped
+Tracking issue: https://github.com/antlerboy/the-necessary-tangle/issues/12
+Completion test: The first project structure is public; systematic page-level corpus review and independent contextualisation remain pending.
+
+## Canonical public source register
+
+Status: first register published and open for extension
+Tracking issue: https://github.com/antlerboy/the-necessary-tangle/issues/12
+Completion test: Each registered source states its type, scope, use and limit; additional traditions and non-English corpora remain to be added.

@@ -1,64 +1,70 @@
 # Coverage programme
 
-The public alpha is broad but uneven. A mapped item may have a responsible orientation paragraph without yet having a full concept genealogy, primary-source trail, practice account or reviewed human lineage. The work below turns the largest known gaps into bounded, inspectable programmes.
+The public alpha is broad but uneven. A mapped item may have orientation text without a full genealogy, primary-source trail, practice account or reviewed human lineage. The programmes below have explicit status and completion tests.
 
 ## 1. Foundational Papers in Complexity Science
 
 Issue: https://github.com/antlerboy/the-necessary-tangle/issues/3
 
-The collection must be treated item by item. The work is to inventory every included paper and editorial introduction, record publication details and public links, summarise each item, map the concepts and people it supports, and distinguish the collection editors' framing from the claims in the originals.
+Release 0.7 completes the bibliographic first pass: all 89 historical papers across four volumes are itemised and browsable from the official 2024 contents. The obsolete PDF registration has been removed.
 
-Completion means a readable contents guide, item-level summaries and links, mapped relationships, and an explicit account of omissions and inaccessible originals. The collection is a major corpus, not a neutral or exhaustive canon.
+Next work is substantive: summarise each paper, locate the original publication where possible, distinguish the collection’s framing from the original argument, review topic and authorship connections, and map the editor essays separately.
 
 ## 2. Relevant Monoskop material
 
 Issue: https://github.com/antlerboy/the-necessary-tangle/issues/4
 
-Monoskop contains substantial material around people, publications, media theory, systems art, cybernetics and adjacent traditions. The project will identify materially relevant pages and bibliographies, use Monoskop as a public discovery source, follow links to stronger originals where possible, and record admissions, exclusions and deferrals.
-
-Completion means a public corpus guide explaining what was searched, what entered the atlas, what did not, and why. It does not mean copying Monoskop or importing every page containing the word ‘system’.
+Use Monoskop as a substantial discovery and reference corpus, then follow links to stronger originals. Record scope, admissions, exclusions and deferrals. Do not import every page containing ‘system’ or republish hosted files.
 
 ## 3. SysCoI and model.report archives
 
 Issue: https://github.com/antlerboy/the-necessary-tangle/issues/5
 
-The Systems Community of Inquiry and preserved model.report archive are evidence of circulation, curation, interpretation, discussion and community participation. They are not automatic proof of priority, teaching or intellectual influence.
-
-The work will inventory relevant public posts, tags, authors, comments and outbound sources; recover chronology where possible; and create repeatable ingestion and de-duplication rules. Stronger primary and scholarly sources will replace discovery links where available.
+Treat these archives as evidence of circulation, curation, interpretation, discussion and participation, not automatic proof of priority, teaching or influence. Build repeatable ingestion and de-duplication rules.
 
 ## 4. Prior maps and bodies of knowledge
 
 Issue: https://github.com/antlerboy/the-necessary-tangle/issues/6
 
-The project will compare earlier maps, bodies of knowledge, genealogies and reading lists, including Brian Castellani's map of the complexity sciences and Benjamin P Taylor's public critique.
-
-Each comparator will be assessed for purpose, audience, boundary, categories, meaning of lines, evidence, strengths, omissions and reifications. The result must include where The Necessary Tangle performs worse, not just where it claims to improve on predecessors.
+Compare purpose, audience, boundaries, categories, meaning of lines, evidence, strengths, omissions and reifications. Include where The Necessary Tangle performs worse.
 
 ## 5. Practitioner influence constellations
 
 Issue: https://github.com/antlerboy/the-necessary-tangle/issues/7
 
-This develops David Ing's practitioner-centred provocation. Teaching, mentoring, supervision, collaboration, correspondence, shared institutions, event participation, citation, practical adoption and self-declared influence require separate relationships and evidence thresholds.
-
-Completion means several gold-standard practitioner constellations and a readable ‘rock family tree’ view generated from the same evidence graph, including uncertainty, competing accounts and independent convergence.
+Separate teaching, mentoring, supervision, collaboration, correspondence, shared institutions, event participation, citation, adoption and self-declared influence. Build public gold-standard constellations.
 
 ## 6. Company-knowledge discovery
 
 Issue: https://github.com/antlerboy/the-necessary-tangle/issues/8
 
-Relevant SharePoint and company knowledge can reveal prior SysBoK material, presentations, bibliographies, comparators and project decisions. It is a private discovery source, not public evidence by default.
+Use private knowledge only to discover leads. Replace it with public evidence or a complete ‘No public link’ citation before publication. Exclude confidential, personal, contractual and operational material.
 
-Useful discoveries must be replaced by legitimate public evidence wherever possible. Where no open copy exists, the public atlas may carry a full bibliographic or archive citation marked ‘No public link’. Client-confidential, personal, contractual and operational material is excluded.
+## 7. Participation and agent-assisted contribution
+
+Issue: https://github.com/antlerboy/the-necessary-tangle/issues/10
+
+Release 0.7 publishes roles, a membership form and a named-human protocol for automation. Next work is to test the process with real contributors and decide whether an organisation repository is justified.
+
+## 8. Map and observed neighbourhoods
+
+Issue: https://github.com/antlerboy/the-necessary-tangle/issues/11
+
+Release 0.7 adds reader, provenance and fuller layers, usable zoom and a first reproducible neighbourhood diagnostic. Next work is sensitivity analysis, relation weighting, alternative algorithms and tracking changes between releases.
+
+## 9. Principia Cybernetica and canonical sources
+
+Issue: https://github.com/antlerboy/the-necessary-tangle/issues/12
+
+Release 0.7 maps the Principia project, site, dictionary, editors and central programmes, and publishes a first canonical public source register. Next work is systematic page-level review, independent contextual sources, non-English material and wider traditions.
 
 ## Ordering
 
-The first practical sequence is:
-
-1. finish the public presentation, contribution and licensing foundations;
-2. complete the Foundational Papers inventory and comparator pass;
-3. build the SysCoI/model.report ingestion rules;
-4. use those results to deepen complexity and human-lineage neighbourhoods;
-5. run the Monoskop and company-knowledge discovery passes against explicit scope rules;
-6. publish a reviewed release with a visible account of what changed and what remains absent.
+1. deepen the 89-paper inventory rather than confusing itemisation with understanding;
+2. connect the isolated periphery through reviewed sources and typed relations;
+3. run the comparator and archive passes;
+4. build practitioner constellations;
+5. widen the source register across traditions, languages and regions;
+6. rerun and compare neighbourhood analysis after each substantial corpus pass.
 
 New breadth should not outrun the ability to explain and source the connections already published.
