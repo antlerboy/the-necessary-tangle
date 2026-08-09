@@ -5,7 +5,6 @@ on:
     branches: ["release-0.7-constellation-alpha"]
     paths:
       - ".github/workflows/apply-iteration-bundle.yml"
-      - ".iteration-bundle/**"
 
 permissions:
   contents: write
@@ -37,11 +36,12 @@ jobs:
         run: |
           chmod +x scripts/apply_research_iteration.py scripts/patch_iteration_site.py scripts/validate_iteration.py
           make validate
-      - name: Commit the applied release
+      - name: Commit the applied release without workflow changes
         run: |
           rm -rf .iteration-bundle
           git config user.name "Benjamin P Taylor"
           git config user.email "ben.taylor@redquadrant.com"
           git add -A
+          git reset -- .github/workflows/pages.yml .github/workflows/validate.yml .github/workflows/apply-iteration-bundle.yml
           git commit -m "Build the 0.7 network iteration" -m "Add Principia Cybernetica, canonical sources, provisional network neighbourhoods, richer map controls, and curator-approved participation and agent protocols."
           git push origin HEAD:release-0.7-constellation-alpha
