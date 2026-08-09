@@ -1,11 +1,11 @@
-name: Challenge a connection or claim
+name: Challenge a connection or statement
 description: Question the wording, direction, scope, status or evidence of a published statement.
 title: "[Challenge] "
 body:
   - type: input
     id: statement
     attributes:
-      label: Connection or claim
+      label: Connection or statement
       description: Copy the exact wording and provide its public link.
     validations:
       required: true

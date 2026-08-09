@@ -7,7 +7,7 @@ Corrections, challenges and additions are part of the project. They do not alter
 Use a GitHub Issue to:
 
 - correct an entry;
-- challenge a connection or claim;
+- challenge a connection or statement;
 - suggest a better source;
 - propose a missing idea, person, publication, institution or method;
 - report a problem with the website.
@@ -41,7 +41,7 @@ A proposal may be:
 - held for more evidence;
 - declined with a reason.
 
-Disagreement is not removed merely because an editor makes a current judgement.
+Disagreement is not removed merely because the curator makes a current judgement.
 
 ## Do not submit
 
@@ -57,6 +57,6 @@ Summarise the evidential point and cite the source instead.
 
 ## Pull requests
 
-Small code and documentation pull requests are welcome. Changes to atlas data should normally begin as an Issue so that the claim, scope and evidence can be reviewed before data files are edited.
+Small code and documentation pull requests are welcome. Changes to atlas data should normally begin as an Issue so that the statement, scope and evidence can be reviewed before data files are edited.
 
-By contributing code, you agree that it may be distributed under the software licence in `LICENSE-SOFTWARE.md`. No public licence is yet granted for contributed atlas text or data beyond the permissions required to review and publish the accepted contribution in The Necessary Tangle; this will be clarified before a broader content licence is adopted.
+By contributing original atlas text or public data for acceptance, you agree that the accepted contribution may be edited and published under [CC BY-SA 4.0](LICENSE-CONTENT.md), with attribution through the project history where reasonably practicable. Code contributions may be published under the MIT licence in [LICENSE-SOFTWARE.md](LICENSE-SOFTWARE.md).

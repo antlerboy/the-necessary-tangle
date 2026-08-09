@@ -3,7 +3,7 @@
 ## Normal edit cycle
 
 1. Review the Issue or Discussion.
-2. Identify the maintained entry and the exact claim at stake.
+2. Identify the maintained entry and the exact statement at stake.
 3. Check the source and locator.
 4. Edit `data/public-data.json` or the generating source used for that release.
 5. Run `make validate`.
@@ -19,6 +19,8 @@ make build
 make validate
 make serve
 ```
+
+The build applies the base public-data enrichment, release-specific public metadata and corpus registrations, public-site wording, and the generated conversational knowledge file before validation.
 
 ## Public/private boundary
 

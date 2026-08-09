@@ -21,8 +21,8 @@ This status describes accessibility, not evidential weakness. A primary book wit
 
 ## Discovery leads
 
-Private material may alert the editor to a public source or a claim requiring investigation. It is not itself published as evidence. The public record must be replaced with an appropriate public or bibliographic source before release.
+Private material may alert the curator to a public source or a statement requiring investigation. It is not itself published as evidence. The public record must be replaced with an appropriate public or bibliographic source before release.
 
 ## Exact support
 
-A source record identifies a work. An evidence record identifies the page, section, timestamp, archive reference or concise passage that supports a specific statement. Merely attaching a reputable source does not prove every claim made nearby.
+A source record identifies a work. An evidence record identifies the page, section, timestamp, archive reference or concise passage that supports a specific statement. Merely attaching a reputable source does not prove every statement made nearby.

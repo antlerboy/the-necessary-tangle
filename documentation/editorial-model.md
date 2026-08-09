@@ -7,7 +7,7 @@ The Necessary Tangle is a public atlas backed by a structured evidence graph. It
 The core editorial unit is a precise statement:
 
 - a concept definition;
-- a historical or intellectual claim;
+- a historical or intellectual statement;
 - a typed connection between two entries;
 - a source record;
 - an evidence locator;
@@ -15,11 +15,13 @@ The core editorial unit is a precise statement:
 
 Each can be reviewed without treating the rest of an entry as indivisible.
 
-## Public proposal, editorial decision
+## Public proposal, curatorial decision
 
 Visitors propose corrections and challenges through GitHub Issues. Wider questions belong in Discussions. Accepted changes are made through versioned commits and releases.
 
-The editor may reword a proposal so that it carries no more than the evidence supports. For example, ‘A influenced B’ may need to become ‘B cited A’, ‘A and B participated in the same event’, or ‘a later author compares A with B’.
+The curator may reword a proposal so that it carries no more than the evidence supports. For example, ‘A influenced B’ may need to become ‘B cited A’, ‘A and B participated in the same event’, or ‘a later author compares A with B’.
+
+A curatorial decision is not a declaration that the field is settled. Competing accounts can remain visible, with their scope, evidence and status.
 
 ## Why this is not simply a wiki
 
