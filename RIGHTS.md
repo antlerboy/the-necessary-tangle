@@ -1,17 +1,36 @@
 # Rights and licensing
 
-Copyright © 2026 Benjamin P Taylor.
+Copyright © 2026 Benjamin P Taylor and contributors.
+
+## Atlas text, public data and editorial material
+
+Except where otherwise marked, original text, public data, diagrams and editorial material in The Necessary Tangle are licensed under the [Creative Commons Attribution-ShareAlike 4.0 International licence](https://creativecommons.org/licenses/by-sa/4.0/).
+
+You may share and adapt that material, including commercially, provided that you:
+
+- give appropriate credit to The Necessary Tangle and the named contributors;
+- link to the licence;
+- indicate whether changes were made; and
+- distribute adaptations under the same or a compatible licence.
+
+A suggested attribution is:
+
+> The Necessary Tangle, curated by Benjamin P Taylor, https://antlerboy.github.io/the-necessary-tangle/, CC BY-SA 4.0.
+
+The human-readable licence notice is in [LICENSE-CONTENT.md](LICENSE-CONTENT.md). The legal code is maintained by Creative Commons.
 
 ## Software
 
 Original software in this repository is licensed under the MIT licence in [LICENSE-SOFTWARE.md](LICENSE-SOFTWARE.md).
 
-## Atlas text, data and editorial structure
+## Third-party material
 
-The atlas text, data and editorial structure remain all rights reserved while an appropriate public content and data licence is considered. Publication in this repository does not place those materials in the public domain.
+External publications, quotations, images, names, marks, datasets and other works remain the property of their respective authors, publishers and rights holders and retain their own licences or restrictions. A link, citation or concise evidential summary does not relicense the underlying work and does not imply endorsement.
 
-External publications, quotations, names, marks and other works remain the property of their respective authors, publishers and rights holders. Links and concise evidential summaries do not imply endorsement.
+Do not assume that a source linked from the atlas is open for redistribution merely because the atlas itself is open.
 
 ## Contributions
 
-Contributors retain rights in their original material while granting the project permission to review, edit and publish accepted contributions as part of The Necessary Tangle. A clearer contributor and public content licence will be adopted before the project moves beyond public alpha.
+By submitting original atlas text or public data for acceptance, a contributor agrees that the accepted contribution may be edited and published under CC BY-SA 4.0, with attribution through the public project history where reasonably practicable. Code contributions may be published under the MIT licence.
+
+Contributors should not submit private material, personal data without a legitimate public basis, confidential documents or large copyrighted extracts.

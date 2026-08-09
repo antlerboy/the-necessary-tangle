@@ -13,6 +13,9 @@ DATA_PATH = ROOT / "data" / "public-data.json"
 DOCS = ROOT / "docs"
 
 PROJECT = "The Necessary Tangle"
+REPOSITORY_URL = "https://github.com/antlerboy/the-necessary-tangle"
+PROJECT_URL = "https://antlerboy.github.io/the-necessary-tangle/"
+AUTHOR_URL = "https://www.antlerboy.com/"
 BAD_NAME_RE = re.compile(r"(?<!Necessary )\bThe Tangle\b")
 PRIVATE_PATTERNS = (
     "sharepoint", "graph.microsoft", "mail.google", "gmail", "sandbox:/",
@@ -45,13 +48,24 @@ def norm(value: str) -> str:
 def main() -> int:
     errors: list[str] = []
     data = json.loads(DATA_PATH.read_text(encoding="utf-8"))
+    meta = data.get("meta", {})
     redirects = data.get("canonical_redirects", {})
     canonical = lambda node_id: redirects.get(node_id, node_id)
 
-    if data.get("meta", {}).get("project") != PROJECT:
+    if meta.get("project") != PROJECT:
         errors.append(f"meta.project must be exactly {PROJECT!r}")
-    if data.get("meta", {}).get("repository_url") != "https://github.com/antlerboy-benjamintaylor/the-necessary-tangle":
-        errors.append("meta.repository_url is not the public repository")
+    if meta.get("repository_url") != REPOSITORY_URL:
+        errors.append("meta.repository_url is not the canonical public repository")
+    if meta.get("project_url") != PROJECT_URL:
+        errors.append("meta.project_url is not the canonical public site")
+    if meta.get("author_role") != "curator":
+        errors.append("meta.author_role must be curator")
+    if meta.get("author_url") != AUTHOR_URL:
+        errors.append("meta.author_url must point to antlerboy.com")
+    if meta.get("content_licence") != "CC BY-SA 4.0":
+        errors.append("meta.content_licence must be CC BY-SA 4.0")
+    if "systems | cybernetics | complexity" not in meta.get("subtitle", ""):
+        errors.append("meta.subtitle must use systems | cybernetics | complexity")
 
     nodes = data.get("nodes", [])
     node_ids = {node["id"] for node in nodes}
@@ -64,17 +78,13 @@ def main() -> int:
     evidence_ids = {item["id"] for item in data.get("evidence", [])}
     relation_types = {item["relation_type"] for item in data.get("relation_types", [])}
 
-    if len(public_nodes) != data["meta"].get("public_entry_count"):
+    if len(public_nodes) != meta.get("public_entry_count"):
         errors.append("meta.public_entry_count does not match canonical public nodes")
 
     labels: defaultdict[str, list[str]] = defaultdict(list)
     aliases: defaultdict[str, set[str]] = defaultdict(set)
     for node in public_nodes:
-        definition = (
-            node.get("canonical_definition")
-            or node.get("description")
-            or node.get("public_stub_text")
-        )
+        definition = node.get("canonical_definition") or node.get("description") or node.get("public_stub_text")
         if not definition or len(str(definition).split()) < 12:
             errors.append(f"Public entry lacks a usable description: {node['id']}")
         labels[norm(node["label"])].append(node["id"])
@@ -129,7 +139,16 @@ def main() -> int:
             if step_id not in public_ids:
                 errors.append(f"Journey {journey['id']} refers to non-public entry {step.get('node_id')}")
 
-    # Browser copy must match the canonical JSON exactly.
+    corpus_register = data.get("corpus_register", [])
+    if len(corpus_register) < 6:
+        errors.append("Expected at least six named corpus or coverage programmes")
+    for corpus in corpus_register:
+        if not corpus.get("label") or not corpus.get("status") or not corpus.get("issue_url"):
+            errors.append(f"Incomplete corpus register item: {corpus.get('id')}")
+        for source_id in corpus.get("source_ids", []):
+            if source_id not in sources:
+                errors.append(f"Unknown corpus source {source_id}: {corpus.get('id')}")
+
     docs_json = json.loads((DOCS / "assets" / "public-data.json").read_text(encoding="utf-8"))
     if docs_json != data:
         errors.append("docs/assets/public-data.json does not match data/public-data.json")
@@ -153,6 +172,9 @@ def main() -> int:
         ROOT / "README.md",
         ROOT / "CONTRIBUTING.md",
         ROOT / "GOVERNANCE.md",
+        ROOT / "RIGHTS.md",
+        ROOT / "ACKNOWLEDGEMENTS.md",
+        ROOT / "LICENSE-CONTENT.md",
         *list((ROOT / "documentation").glob("*.md")),
     ]
     for path in public_text_files:
@@ -161,9 +183,8 @@ def main() -> int:
         text = path.read_text(encoding="utf-8")
         if BAD_NAME_RE.search(text):
             errors.append(f"Shortened public name found in {path.relative_to(ROOT)}")
-        # Public runtime files must not retain obsolete hosting code or private
-        # locations. Documentation may name those systems while explaining the
-        # exclusion policy and the migration history.
+        if "antlerboy-benjamintaylor" in text:
+            errors.append(f"Obsolete GitHub owner found in {path.relative_to(ROOT)}")
         if path.is_relative_to(DOCS):
             if "Netlify" in text:
                 errors.append(f"Obsolete Netlify reference found in {path.relative_to(ROOT)}")
@@ -181,6 +202,21 @@ def main() -> int:
             errors.append(f"Public page is missing required element #{element_id}")
     if '<title>The Necessary Tangle</title>' not in index:
         errors.append("HTML title does not use the exact public name")
+    if "Curated by" not in index or AUTHOR_URL not in index:
+        errors.append("Public page does not identify and link the curator")
+    if "systems | cybernetics | complexity" not in index:
+        errors.append("Public page does not use the agreed field framing")
+    if "Creative Commons Attribution-ShareAlike 4.0" not in index:
+        errors.append("Public page does not expose the content licence")
+    if 'class="hero-panel release-panel"' not in index:
+        errors.append("This release panel is not an explicit link")
+
+    enhancements_css = (DOCS / "assets" / "site-enhancements.css").read_text(encoding="utf-8")
+    if "text-align: left" not in enhancements_css:
+        errors.append("Left-aligned public text override is missing")
+    enhancements_js = (DOCS / "assets" / "site-enhancements.js").read_text(encoding="utf-8")
+    if "card.is-clickable" not in enhancements_js:
+        errors.append("Whole-card click enhancement is missing")
 
     law_entries = [node for node in public_nodes if node.get("entity_type") == "law_or_principle"]
     if len(law_entries) < 33:
@@ -201,6 +237,7 @@ def main() -> int:
         f"- canonical public entries: {len(public_nodes)}\n"
         f"- developed profiles: {len(data.get('profiles', []))}\n"
         f"- sources: {len(sources)} ({sum(bool(s.get('url')) for s in sources.values())} with public links)\n"
+        f"- named coverage programmes: {len(corpus_register)}\n"
         f"- edges checked: {len(data.get('edges', []))}\n"
         f"- guided journeys checked: {len(data.get('journeys', []))}"
     )
