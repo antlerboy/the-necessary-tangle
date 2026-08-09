@@ -17,9 +17,14 @@ jobs:
         run: |
           python3 scripts/build_public_data.py
           python3 scripts/apply_release_overrides.py
+          python3 scripts/apply_network_iteration.py
+          python3 scripts/build_network_docs.py
           python3 scripts/patch_public_site.py
+          python3 scripts/enhance_public_site_0_7.py
           python3 scripts/build_public_knowledge.py
+          python3 scripts/patch_public_knowledge_0_7.py
       - name: Validate public release
         run: |
           python3 scripts/validate_public.py
+          python3 scripts/validate_network_iteration.py
           ./scripts/check_javascript.sh
