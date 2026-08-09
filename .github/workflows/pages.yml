@@ -30,6 +30,8 @@ jobs:
           ./scripts/check_javascript.sh
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v6
+        with:
+          enablement: true
       - name: Upload public site
         uses: actions/upload-pages-artifact@v5
         with:
