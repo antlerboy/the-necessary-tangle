@@ -1,0 +1,23 @@
+name: Validate public atlas
+
+on:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v7
+      - name: Build public data and knowledge file
+        run: |
+          python3 scripts/build_public_data.py
+          python3 scripts/build_public_knowledge.py
+      - name: Validate public release
+        run: |
+          python3 scripts/validate_public.py
+          ./scripts/check_javascript.sh
