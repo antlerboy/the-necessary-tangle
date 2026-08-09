@@ -2,7 +2,7 @@ name: Apply the 0.7 iteration bundle
 
 on:
   push:
-    branches: ["big-iteration-0.7"]
+    branches: ["release-0.7-constellation-alpha"]
     paths:
       - ".github/workflows/apply-iteration-bundle.yml"
       - ".iteration-bundle/**"
@@ -11,7 +11,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: apply-iteration-bundle
+  group: apply-iteration-bundle-release-0-7
   cancel-in-progress: false
 
 jobs:
@@ -21,11 +21,20 @@ jobs:
       - name: Check out branch
         uses: actions/checkout@v7
         with:
-          ref: big-iteration-0.7
-      - name: Reconstruct and apply iteration
+          ref: release-0.7-constellation-alpha
+      - name: Reconstruct iteration bundle
         run: |
+          set -euxo pipefail
           cat .iteration-bundle/part-* | base64 --decode > /tmp/tangle-iteration.tar.gz
+          tar -tzf /tmp/tangle-iteration.tar.gz >/dev/null
           tar -xzf /tmp/tangle-iteration.tar.gz -C .
+      - name: Install analysis dependencies
+        run: |
+          if [ -f requirements-analysis.txt ]; then
+            python3 -m pip install --disable-pip-version-check -r requirements-analysis.txt
+          fi
+      - name: Build and validate iteration
+        run: |
           chmod +x scripts/apply_research_iteration.py scripts/patch_iteration_site.py scripts/validate_iteration.py
           make validate
       - name: Commit the applied release
@@ -35,4 +44,4 @@ jobs:
           git config user.email "ben.taylor@redquadrant.com"
           git add -A
           git commit -m "Build the 0.7 constellations iteration" -m "Itemise the 89-paper corpus, add Principia Cybernetica and canonical sources, publish observed neighbourhoods, enrich the map, and add curator-approved participation and agent protocols."
-          git push origin HEAD:big-iteration-0.7
+          git push origin HEAD:release-0.7-constellation-alpha
