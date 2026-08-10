@@ -56,6 +56,16 @@ def main() -> None:
 ''',
         "0.7 notebook compatibility guard",
     )
+    replace_once(
+        constellation,
+        '''    if "function zoomMapAt" not in app:
+        app = app.rstrip() + "\n" + APPEND_JS.strip() + "\n"
+''',
+        '''    if "function zoomMapAt" not in app and "semanticZoomBand" not in app:
+        app = app.rstrip() + "\n" + APPEND_JS.strip() + "\n"
+''',
+        "0.7 legacy zoom compatibility guard",
+    )
 
     expansion = ROOT / "scripts" / "patch_expansion_08.py"
     replace_once(
