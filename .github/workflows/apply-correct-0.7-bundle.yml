@@ -13,46 +13,48 @@ jobs:
         with:
           ref: release-0.7-constellation-alpha-final
           fetch-depth: 0
-      - name: Test main data against corrected 0.7 snapshot
+      - name: Extract recoverable corrected release specification
         run: |
-          git show origin/main:data/public-data.json > /tmp/main.json
+          cat .correct-0.7-bundle/part-* | base64 --decode > /tmp/correct.tar.gz
+          set +e
+          gzip -dc /tmp/correct.tar.gz > /tmp/correct.tar
+          mkdir -p /tmp/correct
+          tar -xf /tmp/correct.tar -C /tmp/correct
+          set -e
+          git show origin/main:documentation/public-knowledge-for-chatgpt.md > /tmp/main-public.md
           python3 - <<'PY'
-          import json
-          from collections import defaultdict, deque
-          d=json.load(open('/tmp/main.json'))
-          redirects=d.get('canonical_redirects',{})
-          canon=lambda x: redirects.get(x,x)
-          nodes={n['id']:n for n in d['nodes'] if n.get('public_visibility')=='public' and canon(n['id'])==n['id']}
-          excluded={'classification','evidence','documentary','legacy'}
-          pairs=set(); edge_records=0; adj=defaultdict(set)
-          for e in d['edges']:
-              s,t=canon(e.get('source')),canon(e.get('target'))
-              substantive=(e.get('relation_family') not in excluded and e.get('relation_type')!='legacy_association_unspecified' and e.get('claim_status')!='legacy_unresolved')
-              if s not in nodes or t not in nodes or s==t or not substantive: continue
-              edge_records+=1
-              pair=tuple(sorted((s,t))); pairs.add(pair)
-              adj[s].add(t); adj[t].add(s)
-          connected={n for n in nodes if adj[n]}
-          seen=set(); comps=[]
-          for n in nodes:
-              if n in seen: continue
-              q=[n]; seen.add(n); c=[]
-              while q:
-                  x=q.pop(); c.append(x)
-                  for y in adj[x]:
-                      if y not in seen: seen.add(y); q.append(y)
-              comps.append(c)
-          actual={
-              'public_nodes':len(nodes),'substantive_edge_records':edge_records,'unique_undirected_pairs':len(pairs),
-              'connected_nodes':len(connected),'isolated_nodes':len(nodes)-len(connected),'components':len(comps),
-              'largest_component_nodes':max(map(len,comps),default=0)}
-          expected={'public_nodes':204,'substantive_edge_records':96,'unique_undirected_pairs':94,'connected_nodes':77,'isolated_nodes':127,'components':129,'largest_component_nodes':75}
-          print('main meta:', json.dumps(d.get('meta',{}), indent=2, sort_keys=True))
-          print('actual:', json.dumps(actual, indent=2, sort_keys=True))
-          print('expected corrected 0.7:', json.dumps(expected, indent=2, sort_keys=True))
-          print('exact snapshot match:', actual==expected)
-          print('main has graph_snapshot:', 'graph_snapshot' in d)
-          print('main has emergent_categories:', 'emergent_categories' in d)
-          print('main has canonical_source_register:', 'canonical_source_register' in d)
-          print('main has principia nodes:', [n['id'] for n in d['nodes'] if 'principia' in n.get('id','').lower() or 'principia' in n.get('label','').lower()][:20])
+          from pathlib import Path
+          def sections(path):
+              lines=Path(path).read_text().splitlines()
+              try: start=lines.index('# Public entries')+1
+              except ValueError: start=0
+              out={}; cur=None; buf=[]
+              for line in lines[start:]:
+                  if line.startswith('## '):
+                      if cur is not None: out[cur]='\n'.join(buf).rstrip()+'\n'
+                      cur=line[3:]; buf=[line]
+                  elif cur is not None: buf.append(line)
+              if cur is not None: out[cur]='\n'.join(buf).rstrip()+'\n'
+              return out
+          main=sections('/tmp/main-public.md')
+          corrected=sections('/tmp/correct/documentation/public-knowledge-for-chatgpt.md')
+          added=sorted(set(corrected)-set(main), key=str.casefold)
+          removed=sorted(set(main)-set(corrected), key=str.casefold)
+          changed=sorted(k for k in set(main)&set(corrected) if main[k]!=corrected[k], key=str.casefold)
+          print('ADDED PUBLIC ENTRY HEADINGS:', len(added))
+          for k in added: print('-',k)
+          print('REMOVED PUBLIC ENTRY HEADINGS:', len(removed), removed)
+          print('CHANGED EXISTING PUBLIC ENTRY SECTIONS:', len(changed))
+          for k in changed: print('-',k)
+          print('\n===== FULL ADDED ENTRY SECTIONS =====')
+          for k in added:
+              print(corrected[k])
           PY
+          echo "===== RECOVERED VALIDATOR PREFIX ====="
+          cat /tmp/correct/scripts/validate_constellation.py
+          echo "===== PRINCIPIA FIRST PASS ====="
+          cat /tmp/correct/documentation/principia-cybernetica-first-pass.md
+          echo "===== CANONICAL SOURCE REGISTER ====="
+          cat /tmp/correct/documentation/canonical-source-register.md
+          echo "===== EMERGENT CATEGORIES ====="
+          cat /tmp/correct/documentation/emergent-categories.md
