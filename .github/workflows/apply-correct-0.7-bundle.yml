@@ -1,0 +1,66 @@
+name: Apply corrected 0.7 constellation bundle
+
+on:
+  push:
+    branches: ["release-0.7-constellation-alpha-final"]
+    paths:
+      - ".github/workflows/apply-correct-0.7-bundle.yml"
+      - ".correct-0.7-bundle/**"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: apply-correct-0.7-bundle
+  cancel-in-progress: false
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out staged release branch
+        uses: actions/checkout@v7
+        with:
+          ref: release-0.7-constellation-alpha-final
+          fetch-depth: 0
+
+      - name: Reconstruct and inspect release payload
+        run: |
+          cat .correct-0.7-bundle/part-* | base64 --decode > /tmp/tangle-correct-0.7.tar.gz
+          python3 - <<'PY'
+          import pathlib, tarfile
+          archive = '/tmp/tangle-correct-0.7.tar.gz'
+          with tarfile.open(archive, 'r:gz') as tf:
+              members = tf.getmembers()
+              if not members:
+                  raise SystemExit('Release payload is empty')
+              for member in members:
+                  p = pathlib.PurePosixPath(member.name)
+                  if p.is_absolute() or '..' in p.parts:
+                      raise SystemExit(f'Unsafe archive path: {member.name}')
+              print(f'Validated archive paths for {len(members)} members')
+              for member in members[:200]:
+                  print(member.name)
+          PY
+
+      - name: Apply release payload
+        run: |
+          tar -xzf /tmp/tangle-correct-0.7.tar.gz -C .
+          rm -rf .correct-0.7-bundle
+
+      - name: Validate corrected 0.7 release
+        run: |
+          make validate
+
+      - name: Commit validated release branch
+        run: |
+          rm -f .github/workflows/apply-correct-0.7-bundle.yml
+          git config user.name "Benjamin P Taylor"
+          git config user.email "ben.taylor@redquadrant.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes produced by corrected bundle"
+            exit 1
+          fi
+          git commit -m "Apply corrected 0.7 constellation alpha release" -m "Reconstruct the staged final release payload, validate the public atlas, and replace the superseded 295-entry build with the corrected constellation release."
+          git push origin HEAD:release-0.7-constellation-alpha-final
