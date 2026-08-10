@@ -1,0 +1,31 @@
+name: Clean iteration 0.12 temporary files
+on:
+  push:
+    branches: ["agent/iteration-12-practitioner-intake"]
+    paths: [".github/workflows/cleanup-iteration12-temporary.yml"]
+permissions:
+  contents: write
+jobs:
+  clean:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: agent/iteration-12-practitioner-intake
+          fetch-depth: 0
+      - run: |
+          make validate
+          rm -rf .iteration12-bundle
+          rm -f .iteration12-marker
+          rm -f .github/iteration12-pr-body.md
+          rm -f .github/ISSUE_TEMPLATE/config-iteration12-note.txt
+          rm -f documentation/iteration12-progress.md
+          find .github/workflows -maxdepth 1 -type f \( -name '*iteration-12*.yml' -o -name 'iteration12-*.yml' \) -delete
+          git config user.name "Benjamin P Taylor"
+          git config user.email "ben.taylor@redquadrant.com"
+          git add -A
+          git diff --cached --check
+          if ! git diff --cached --quiet; then
+            git commit -m "Clean iteration 0.12 release branch"
+            git push origin HEAD:agent/iteration-12-practitioner-intake
+          fi
