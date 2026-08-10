@@ -1,0 +1,196 @@
+name: Recover and publish the actual iteration 0.12 release
+
+on:
+  push:
+    branches: ["agent/publish-iteration-12-real"]
+    paths:
+      - ".github/workflows/recover-and-publish-iteration-12.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: recover-publish-iteration-12-real
+  cancel-in-progress: false
+
+jobs:
+  recover-build-validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out clean branch from current main
+        uses: actions/checkout@v7
+        with:
+          ref: agent/publish-iteration-12-real
+          fetch-depth: 0
+
+      - name: Recover the intended source archives from the closed PR commit
+        shell: bash
+        run: |
+          set -euo pipefail
+          git fetch origin refs/pull/22/head:refs/remotes/origin/pr22
+          python3 - <<'PY'
+          import base64
+          import hashlib
+          import pathlib
+          import re
+          import subprocess
+          import tarfile
+
+          COMMIT = '8ab7912a36a8e42fcd24c3145a0f6def0d27f285'
+          EXPECTED_SOURCE_SIZE = 54715
+          EXPECTED_SOURCE_SHA = 'b30071976cb536ad9c1c4a5023e2ca6828d179ace8fac185e2085095e5c7bc1a'
+          EXPECTED_VALIDATOR_SIZE = 9628
+          EXPECTED_VALIDATOR_SHA = '7162d7ad5c32e40d06a6ec9a4ec46d7c7a387e680b3c59ca2c5bacbf3a38fc8e'
+
+          def git_text(path: str) -> str:
+              return subprocess.check_output(
+                  ['git', 'show', f'{COMMIT}:{path}'],
+                  text=True,
+                  encoding='utf-8',
+              )
+
+          def decode(paths):
+              text = ''.join(git_text(path) for path in paths)
+              text = re.sub(r'[^A-Za-z0-9+/=]', '', text)
+              text += '=' * ((4 - len(text) % 4) % 4)
+              return base64.b64decode(text, validate=False)
+
+          source_paths = [
+              *[f'.iteration12-bundle/piece-{index:02d}' for index in range(6)],
+              *[f'.iteration12-bundle/part-{index:02d}' for index in range(1, 5)],
+          ]
+          source = decode(source_paths)
+          source_sha = hashlib.sha256(source).hexdigest()
+          print('source size', len(source))
+          print('source sha256', source_sha)
+          if len(source) != EXPECTED_SOURCE_SIZE or source_sha != EXPECTED_SOURCE_SHA:
+              raise SystemExit('Recovered source archive does not match its recorded contract')
+
+          validator_paths = [
+              '.iteration12-bundle/validator-piece-00',
+              '.iteration12-bundle/validator-piece-01',
+          ]
+          validator = decode(validator_paths)
+          validator_sha = hashlib.sha256(validator).hexdigest()
+          print('validator size', len(validator))
+          print('validator sha256', validator_sha)
+          if len(validator) != EXPECTED_VALIDATOR_SIZE or validator_sha != EXPECTED_VALIDATOR_SHA:
+              raise SystemExit('Recovered validator archive does not match its recorded contract')
+
+          archives = [
+              ('/tmp/iteration-12-source.tar.gz', source),
+              ('/tmp/iteration-12-validator-fixes.tar.gz', validator),
+          ]
+          required = {
+              'scripts/apply_iteration_12.py',
+              'scripts/patch_iteration_12.py',
+              'scripts/validate_iteration_12.py',
+              'documentation/explicit-semantics.md',
+              'documentation/reading-list-coverage.md',
+              'documentation/scio-coverage.md',
+          }
+          source_names = set()
+          for filename, payload in archives:
+              path = pathlib.Path(filename)
+              path.write_bytes(payload)
+              with tarfile.open(path, 'r:gz') as archive:
+                  members = archive.getmembers()
+                  names = {member.name for member in members}
+                  for member in members:
+                      candidate = pathlib.PurePosixPath(member.name)
+                      if candidate.is_absolute() or '..' in candidate.parts:
+                          raise SystemExit(f'Unsafe archive path: {member.name}')
+                  archive.extractall('.')
+                  print(filename, len(members), 'members')
+                  if filename.endswith('source.tar.gz'):
+                      source_names = names
+          missing = sorted(required - source_names)
+          if missing:
+              raise SystemExit(f'Recovered source archive is missing: {missing}')
+          PY
+
+      - name: Build and validate from durable source files twice
+        shell: bash
+        run: |
+          set -euo pipefail
+          make validate
+          make validate
+          git diff --check
+
+      - name: Verify the public release contract
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+
+          data = json.loads(Path('data/public-data.json').read_text(encoding='utf-8'))
+          index = Path('docs/index.html').read_text(encoding='utf-8')
+          app = Path('docs/assets/app.js').read_text(encoding='utf-8')
+          labels = {node.get('label') for node in data.get('nodes', [])}
+          node_ids = {node.get('id') for node in data.get('nodes', [])}
+          meta = data.get('meta', {})
+
+          assert meta.get('release') == '0.12-practitioner-intake-alpha', meta
+          assert meta.get('public_entry_count') == 442, meta
+          assert meta.get('profile_count') == 58, meta
+          assert meta.get('source_count') == 114, meta
+          assert meta.get('journey_count') == 14, meta
+          assert len(data.get('edges', [])) == 917
+
+          assert {'Ivo Velitchkov', 'Patrick Hoverstadt'} <= labels
+          required_ids = {
+              'person_ivo_velitchkov',
+              'person_patrick_hoverstadt',
+              'publication_essential_balances',
+              'concept_requisite_inefficiency',
+              'concept_natural_drift',
+              'publication_the_grammar_of_systems_ii',
+              'publication_the_fractal_organization_manual',
+              'concept_explicit_semantics',
+              'tool_nodica',
+          }
+          assert required_ids <= node_ids, sorted(required_ids - node_ids)
+
+          accepted = data.get('accepted_contributions', [])
+          assert len(accepted) == 1
+          assert accepted[0].get('issue_number') == 21
+          assert accepted[0].get('status') == 'incorporated_with_independent_sources'
+          assert data.get('semantic_contract', {}).get('uses_explicit_semantics') is True
+          assert data.get('reading_list_coverage', {}).get('headline_recommendations_developed') == 4
+          assert data.get('scio_coverage', {}).get('approach_family_count') == 13
+          assert data.get('scio_coverage', {}).get('intervention_skill_count') == 47
+
+          assert 'Ivo Velitchkov' in index
+          assert 'Patrick Hoverstadt' in index
+          assert 'Start somewhere smaller' in index
+          assert index.count('https://github.com/antlerboy/the-necessary-tangle/issues/2') == 1
+          assert 'site-submission,awaiting-curator-review' in app
+          assert Path('documentation/explicit-semantics.md').is_file()
+          assert Path('documentation/reading-list-coverage.md').is_file()
+
+          print(json.dumps({
+              'release': meta.get('release'),
+              'entries': meta.get('public_entry_count'),
+              'profiles': meta.get('profile_count'),
+              'sources': meta.get('source_count'),
+              'journeys': meta.get('journey_count'),
+              'edges': len(data.get('edges', [])),
+              'accepted_contributions': len(accepted),
+          }, indent=2, sort_keys=True))
+          PY
+
+      - name: Remove the one-shot workflow and commit the validated release
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm -f .github/workflows/recover-and-publish-iteration-12.yml
+          rm -rf .iteration12-bundle
+          git config user.name "Benjamin P Taylor"
+          git config user.email "benjamin.taylor@redquadrant.com"
+          git add -A
+          git diff --cached --check
+          git commit -m "Publish the actual iteration 0.12 release" -m "Recover the validated practitioner-intake source set, add developed Ivo Velitchkov and Patrick Hoverstadt coverage, incorporate contribution 21, publish explicit semantics and honest reading-list and SCiO coverage reports, and retain the calmer route into the atlas."
+          git push origin HEAD:agent/publish-iteration-12-real
