@@ -13,29 +13,105 @@ jobs:
         with:
           ref: release-0.7-constellation-alpha-final
           fetch-depth: 0
-      - name: Inspect current graph neighbourhood and relation vocabulary
+      - name: Search plausible topology against recovered snapshot
+        shell: bash
         run: |
+          cat .correct-0.7-bundle/part-* | base64 --decode > /tmp/correct.tar.gz
+          set +e
+          gzip -dc /tmp/correct.tar.gz > /tmp/correct.tar
+          mkdir -p /tmp/correct
+          tar -xf /tmp/correct.tar -C /tmp/correct
+          set -e
           git show origin/main:data/public-data.json > /tmp/main.json
+          python3 -m pip install --quiet 'networkx==3.6.1'
           python3 - <<'PY'
-          import json
+          import itertools, json
+          import networkx as nx
           from collections import defaultdict
+
           d=json.load(open('/tmp/main.json'))
+          target=json.load(open('/tmp/correct/documentation/emergent-categories-analysis.json'))
+          target_sets={frozenset(c['member_node_ids']) for c in target['communities']}
           redirects=d.get('canonical_redirects',{})
           canon=lambda x: redirects.get(x,x)
-          nodes={n['id']:n for n in d['nodes'] if n.get('public_visibility')=='public' and canon(n['id'])==n['id']}
+          public={n['id'] for n in d['nodes'] if n.get('public_visibility')=='public' and canon(n['id'])==n['id']}
           excluded={'classification','evidence','documentary','legacy'}
-          adj=defaultdict(list)
+          base_pairs=set()
           for e in d['edges']:
               s,t=canon(e.get('source')),canon(e.get('target'))
               substantive=(e.get('relation_family') not in excluded and e.get('relation_type')!='legacy_association_unspecified' and e.get('claim_status')!='legacy_unresolved')
-              if s not in nodes or t not in nodes or s==t or not substantive: continue
-              adj[s].append((t,e)); adj[t].append((s,e))
-          focus=['concept_emergence','concept_observer','concept_self_organisation','person_heinz_von_foerster','tradition_cybernetics','concept_feedback']
-          for nid in focus:
-              print('\n###',nid, nodes.get(nid,{}).get('label'), 'degree',len({x[0] for x in adj[nid]}),'edge_records',len(adj[nid]))
-              for other,e in sorted(adj[nid], key=lambda z:(nodes.get(z[0],{}).get('label',''),z[1].get('id',''))):
-                  print(' ',e.get('id'), '::',nid,'--',other,'::',nodes.get(other,{}).get('label'), '::',e.get('relation_family'),e.get('relation_type'),e.get('plain_phrase'),'::',e.get('claim_status'))
-          print('\n===== ALL RELATION TYPES =====')
-          for r in sorted(d.get('relation_types',[]), key=lambda r:r.get('relation_type','')):
-              print(json.dumps(r,ensure_ascii=False,sort_keys=True))
+              if s in public and t in public and s!=t and substantive:
+                  base_pairs.add(tuple(sorted((s,t))))
+          base=nx.Graph(); base.add_nodes_from(public); base.add_edges_from(base_pairs)
+
+          P='organisation_principia_cybernetica_project'; W='publication_principia_cybernetica_web'
+          H='person_francis_heylighen'; J='person_cliff_joslyn'; T='person_valentin_turchin'
+          G='concept_global_brain'; M='concept_metasystem_transition'; S='concept_semantic_network'
+          E='tradition_evolutionary_cybernetics'; C='tradition_cybernetics'
+          SO='concept_self_organisation'; EM='concept_emergence'; O='concept_observer'
+          new=[P,W,H,J,T,G,M,S,E]
+          fixed={
+              tuple(sorted(x)) for x in [
+                  (P,W),(P,E),(P,M),(M,T),(W,S),(E,C)
+              ]
+          }
+          # The recovered release prose makes these the plausible remaining roles:
+          # project/web collaboration, contributor collaboration, and links to self-organisation/emergence.
+          p_opts=[H,J,T,G,S,SO,EM]
+          w_opts=[H,J,T,G,M,SO,EM]
+          rest=[H,J,T,G,M,S]
+          internal=[tuple(sorted(x)) for x in itertools.combinations(rest,2)]
+          self_edges=[tuple(sorted((x,SO))) for x in rest]
+          emerg_edges=[tuple(sorted((x,EM))) for x in rest]
+
+          expected_degrees={P:6,W:5,SO:5,O:4,EM:3,H:3,E:2,C:2}
+          solutions=[]; tested=0; louvain_tested=0
+          for ps in itertools.combinations(p_opts,3):
+              p_edges={tuple(sorted((P,x))) for x in ps}
+              for ws in itertools.combinations(w_opts,3):
+                  w_edges={tuple(sorted((W,x))) for x in ws}
+                  chosen0=fixed|p_edges|w_edges
+                  # prevent accidental duplicate pair reducing the required 16 unique pairs
+                  if len(chosen0)!=12: continue
+                  deg0=defaultdict(int)
+                  for a,b in chosen0: deg0[a]+=1; deg0[b]+=1
+                  if deg0[H]>3 or deg0[SO]>2 or deg0[EM]>1: continue
+                  self_need=2-deg0[SO]
+                  emerg_need=1-deg0[EM]
+                  if self_need<0 or emerg_need<0: continue
+                  remaining_count=16-len(chosen0)-self_need-emerg_need
+                  if remaining_count<0: continue
+                  for ses in itertools.combinations([e for e in self_edges if e not in chosen0],self_need):
+                      chosen1=chosen0|set(ses)
+                      for ees in itertools.combinations([e for e in emerg_edges if e not in chosen1],emerg_need):
+                          chosen2=chosen1|set(ees)
+                          pool=[e for e in internal if e not in chosen2]
+                          for ins in itertools.combinations(pool,remaining_count):
+                              edges=chosen2|set(ins)
+                              if len(edges)!=16: continue
+                              tested+=1
+                              deg=defaultdict(int)
+                              for a,b in edges: deg[a]+=1; deg[b]+=1
+                              if deg[P]!=3+3 or deg[W]!=2+3 or deg[H]!=3 or deg[E]!=2 or deg[SO]!=2 or deg[EM]!=1:
+                                  continue
+                              # all new nodes must join the connected release graph
+                              if any(deg[x]==0 for x in new): continue
+                              g=base.copy(); g.add_nodes_from(new); g.add_edges_from(edges)
+                              if g.degree(P)!=6 or g.degree(W)!=5 or g.degree(SO)!=5 or g.degree(O)!=4 or g.degree(EM)!=3 or g.degree(H)!=3 or g.degree(E)!=2 or g.degree(C)!=2:
+                                  continue
+                              comps=list(nx.connected_components(g))
+                              if len(comps)!=129 or max(map(len,comps))!=75: continue
+                              louvain_tested+=1
+                              comms=nx.community.louvain_communities(g,seed=1,resolution=1.0,weight=None)
+                              non_single={frozenset(c) for c in comms if len(c)>1}
+                              if non_single==target_sets:
+                                  solutions.append(sorted(edges))
+                                  print('\nMATCH',len(solutions))
+                                  for a,b in sorted(edges): print(a,'--',b)
+                                  print('new degrees:', {x:g.degree(x) for x in new})
+                                  if len(solutions)>=40:
+                                      raise SystemExit
+          print('\nsearched combinations:',tested)
+          print('louvain-tested:',louvain_tested)
+          print('exact matches:',len(solutions))
           PY
