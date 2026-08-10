@@ -1,21 +1,21 @@
 # AI observations
 
-Generated for release `0.9-observations-alpha` on 2026-08-10.
+Generated for release `0.10-practice-safety-alpha` on 2026-08-10.
 
-These observations combine reproducible counts from the public graph with model-assisted interpretation. Measurements, interpretations and proposed tests are kept separate. They are not autonomous editorial decisions and should be challenged against the data and sources.
+These observations combine reproducible counts from the public graph with model-assisted interpretation. Measurements, interpretations and proposed tests are kept separate. Detailed risk working notes are kept outside the public release; the public record shows the controls which govern publication.
 
 ## Measured state
 
-- 411 public entries; 32 developed profiles.
-- 542 typed public edges; 174 substantive edges.
-- 141 substantively connected entries and 270 substantive isolates.
-- 93 sources, of which 80 have public links.
+- 417 public entries; 38 developed profiles.
+- 557 typed public edges; 189 substantive edges.
+- 148 substantively connected entries and 269 substantive isolates.
+- 100 sources, of which 87 have public links.
 
 ## Breadth has outrun depth
 
 **Basis:** measurement plus interpretation.
 
-**Measured:** The atlas has 411 public entries and 32 developed profiles. Only 7.8% of entries have the fuller profile structure.
+**Measured:** The atlas has 417 public entries and 38 developed profiles. Only 9.1% of entries have the fuller profile structure.
 
 **Interpretation:** It is now better at showing that something belongs in the territory than at explaining what the thing means, why it matters, where it is contested and how it enters practice.
 
@@ -27,7 +27,7 @@ These observations combine reproducible counts from the public graph with model-
 
 **Basis:** measurement plus design inference.
 
-**Measured:** There are 542 typed public edges, but 174 are conceptual, historical, human, practice or contestation relations. The substantive share is 32.1%.
+**Measured:** There are 557 typed public edges, but 189 are conceptual, historical, human, practice or contestation relations. The substantive share is 33.9%.
 
 **Interpretation:** Authorship, collection membership and other provenance lines answer different questions from influence, dependence or use. Combining them without visible layers makes bibliographic density look like intellectual agreement.
 
@@ -75,7 +75,7 @@ These observations combine reproducible counts from the public graph with model-
 
 **Basis:** measurement plus model warning.
 
-**Measured:** Six published neighbourhoods contain 77 unique nodes, while 141 nodes are now connected; 64 connected nodes sit outside the old grouping pass.
+**Measured:** Six published neighbourhoods contain 77 unique nodes, while 148 nodes are now connected; 71 connected nodes sit outside the old grouping pass.
 
 **Interpretation:** An algorithmic cluster is produced by the current edges, exclusions, resolution setting and seed. It is not a natural school waiting to be discovered.
 
@@ -99,7 +99,7 @@ These observations combine reproducible counts from the public graph with model-
 
 **Basis:** second-order observation.
 
-**Measured:** 270 entries are isolated in the substantive graph, while the largest substantive component contains 84 entries.
+**Measured:** 269 entries are isolated in the substantive graph, while the largest substantive component contains 91 entries.
 
 **Interpretation:** Isolation does not mean an idea is naturally peripheral. It often means the current source set, relation vocabulary or research history has not yet made its connections visible.
 
@@ -119,64 +119,8 @@ These observations combine reproducible counts from the public graph with model-
 
 **Test:** A useful AI answer should become less fluent, not more, when the evidence is thin or contradictory.
 
-# Risks of publishing the atlas
+## Publication controls
 
-## False authority and reputational overclaim
+The detailed working risk register is kept outside the public release. The public site exposes the controls which shape publication, not a catalogue of exploitable operational weaknesses.
 
-A polished interface can make brief, provisional or collection-derived entries look settled.
-
-Controls: Visible depth and status labels; source locators; explicit rival accounts; release notes that state what was not done.
-
-## False genealogy
-
-Citation, co-presence, chronology, teaching, collaboration and influence can be collapsed into one implied family tree.
-
-Controls: Typed relations; minimum evidence by relation; disputed and unresolved states; no inferred influence from co-occurrence alone.
-
-## Privacy and confidential-source leakage
-
-Private SharePoint, email or client material can enter public data through research notes, URLs, excerpts or generated summaries.
-
-Controls: Separate private lead logs; public-source replacement; automated private-URL scanning; human review before merge; complete deletion from history when secrets appear.
-
-## Copyright and licence error
-
-Open access, public availability and permission to republish are not the same thing.
-
-Controls: Link and summarise; store bibliographic facts and short evidence summaries; record source terms; do not relicense third-party works.
-
-## Identity collision
-
-Initials, alternate names and shared names can merge different people or split one person into several records.
-
-Controls: Authority identifiers, affiliation and publication checks, canonical redirects, and no interpretive edges before resolution.
-
-## Source monoculture and boundary capture
-
-A few corpora define what the atlas notices, making their omissions look like properties of the field.
-
-Controls: Source-mining register; comparator programme; coverage reporting by tradition and domain; deliberate rival and critical sources.
-
-## Automated feedback loops
-
-AI-generated descriptions may be re-ingested, cited or paraphrased until an unsupported statement acquires the appearance of independent repetition.
-
-Controls: Named human sponsor; provenance to non-generated sources; mark AI assistance; never treat generated text as corroboration.
-
-## Vandalism or premature contributor access
-
-A public collaboration request can be mistaken for direct editorial authority.
-
-Controls: Issues and pull requests by default; branch protection; required validation; curator approval; granular roles only in an organisation account.
-
-## Security and operational disclosure
-
-Workflow files, logs, repository history or backups can reveal tokens, internal hostnames and infrastructure detail.
-
-Controls: Least-privilege tokens; secret scanning; protected environments; encrypted off-platform backups; routine restore tests; no credentials in repository data.
-
-## Public permanence
-
-Deletion from the current branch does not guarantee removal from forks, caches, clones or repository history.
-
-Controls: Assume publication is durable; minimise personal data; use GitHub's sensitive-data removal process promptly when required.
+See [publication safety and controls](publication-safety.md).

@@ -16,6 +16,14 @@
 - expose current coverage, limitations, licence and curatorial responsibility;
 - learn from real reader questions and corrections.
 
+## Release 0.10 public alpha
+
+- distinguish systems theory, systems practice, systems leadership, systems change, systems convening and systems weaving as separate developed entries;
+- publish a guided route through the six terms and the typed relations among them;
+- make SysCoI, SCiO capability, SCiO training and Benjamin P Taylor's reading list visible from the home page;
+- implement publication controls, remove the detailed risk working register from the public release and retire the public curator-notebook route;
+- add release scanning, CODEOWNERS, contribution checks and security-reporting guidance.
+
 ## Next curatorial release
 
 The detailed work and completion tests are in [coverage-programme.md](coverage-programme.md).
@@ -26,7 +34,6 @@ The detailed work and completion tests are in [coverage-programme.md](coverage-p
 - deepen the Principia Cybernetica corpus pass and compare its knowledge architecture with this project;
 - turn the canonical-source register into item-level locators and evidence records;
 - reduce isolated practice, method, tool and law entries through typed bridges rather than vague associations;
-- add separate entries and a guided journey distinguishing systems leadership, systems change, systems theory, systems practice, systems convening and systems weaving;
 - improve the history of teaching, supervision, collaboration, laboratories, conferences and institutional lineages;
 - build several practitioner influence constellations;
 - distinguish espoused lineage from observed conceptual and practice clustering;

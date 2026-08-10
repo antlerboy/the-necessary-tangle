@@ -34,6 +34,8 @@ The [coverage programme](documentation/coverage-programme.md) now makes the next
 
 Readers: open the [public site](https://antlerboy.github.io/the-necessary-tangle/).
 
+Continue into the living field through the [Systems Community of Inquiry](https://www.syscoi.com/), [SCiO capability and accreditation](https://www.systemspractice.org/professional-accreditation), [SCiO professional development](https://www.systemspractice.org/professional-development), and [Benjamin P Taylor's reading list](https://www.antlerboy.com/reading-list).
+
 Contributors: read [CONTRIBUTING.md](CONTRIBUTING.md), then use the repository's Issues or Discussions.
 
 Maintainers: read [documentation/maintenance.md](documentation/maintenance.md) and [documentation/publishing.md](documentation/publishing.md).

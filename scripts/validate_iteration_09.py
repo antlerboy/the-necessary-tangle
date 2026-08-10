@@ -11,7 +11,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 DATA_PATH = ROOT / "data" / "public-data.json"
 DOCS = ROOT / "docs"
-EXPECTED_RELEASE = "0.9-observations-alpha"
+ALLOWED_RELEASES = {"0.9-observations-alpha", "0.10-practice-safety-alpha"}
 EXPECTED_PUBLIC_COUNT = 411
 EXPECTED_MIN_PROFILES = 32
 EXPECTED_JOURNEYS = 12
@@ -74,16 +74,16 @@ def main() -> int:
     journeys = {journey.get("id"): journey for journey in data.get("journeys", []) if journey.get("id")}
     edges = data.get("edges", [])
 
-    if meta.get("release") != EXPECTED_RELEASE:
-        errors.append(f"meta.release must be {EXPECTED_RELEASE}")
-    if len(public_nodes) != EXPECTED_PUBLIC_COUNT:
-        errors.append(f"expected {EXPECTED_PUBLIC_COUNT} canonical public entries, found {len(public_nodes)}")
+    if meta.get("release") not in ALLOWED_RELEASES:
+        errors.append(f"meta.release must be one of {sorted(ALLOWED_RELEASES)}")
+    if len(public_nodes) < EXPECTED_PUBLIC_COUNT:
+        errors.append(f"expected at least {EXPECTED_PUBLIC_COUNT} canonical public entries, found {len(public_nodes)}")
     if meta.get("public_entry_count") != len(public_nodes):
         errors.append("meta.public_entry_count does not match canonical public entries")
     if meta.get("profile_count", 0) < EXPECTED_MIN_PROFILES:
         errors.append(f"expected at least {EXPECTED_MIN_PROFILES} developed profiles")
-    if len(journeys) != EXPECTED_JOURNEYS or meta.get("journey_count") != EXPECTED_JOURNEYS:
-        errors.append(f"expected {EXPECTED_JOURNEYS} guided journeys")
+    if len(journeys) < EXPECTED_JOURNEYS or meta.get("journey_count", 0) < EXPECTED_JOURNEYS:
+        errors.append(f"expected at least {EXPECTED_JOURNEYS} guided journeys")
     if len(sources) < EXPECTED_MIN_SOURCES:
         errors.append(f"expected at least {EXPECTED_MIN_SOURCES} sources, found {len(sources)}")
 
@@ -152,12 +152,14 @@ def main() -> int:
 
     report = data.get("ai_observations", {})
     metrics = report.get("metrics", {})
-    if report.get("release") != EXPECTED_RELEASE:
+    if report.get("release") not in ALLOWED_RELEASES:
         errors.append("ai_observations.release is wrong")
     if len(report.get("observations", [])) < 9:
         errors.append("AI observations page needs at least nine distinct observations")
-    if len(report.get("public_risks", [])) < 10:
-        errors.append("publication risk register needs at least ten risks")
+    if meta.get("release") == "0.9-observations-alpha" and len(report.get("public_risks", [])) < 10:
+        errors.append("0.9 publication risk register needs at least ten risks")
+    if meta.get("release") == "0.10-practice-safety-alpha" and "public_risks" in report:
+        errors.append("0.10 must not publish the detailed working risk register")
     if metrics.get("public_entries") != len(public_nodes):
         errors.append("AI metrics public-entry count is stale")
     if metrics.get("developed_profiles") != len(set(profiles) & public_ids):
@@ -196,17 +198,23 @@ def main() -> int:
 
     for marker in [
         'id="view-ai-observations"', 'id="aiObservationMetrics"', 'id="aiObservationsList"',
-        'id="aiRiskList"', 'id="sourceMiningList"', 'href="#view=ai-observations"',
+        'id="sourceMiningList"', 'href="#view=ai-observations"',
         'id="mapLayer"', 'value="human"', 'value="conceptual"', 'class="layer-grid"',
     ]:
         if marker not in index:
             errors.append(f"public interface is missing: {marker}")
+    if meta.get("release") == "0.9-observations-alpha" and 'id="aiRiskList"' not in index:
+        errors.append("0.9 risk list interface is missing")
+    if meta.get("release") == "0.10-practice-safety-alpha" and 'id="aiRiskList"' in index:
+        errors.append("0.10 still publishes the detailed risk-list interface")
     if re.search(r'<button[^>]+\bdata-view(?:-link)?=', index):
         errors.append("static view navigation still uses buttons rather than right-clickable anchors")
     if "Curator's running notebook and feedback issue" in index:
         errors.append("the running notebook has become prominent again")
-    if 'class="discreet-note-link"' not in index:
+    if meta.get("release") == "0.9-observations-alpha" and 'class="discreet-note-link"' not in index:
         errors.append("the discreet running-notebook affordance is missing")
+    if meta.get("release") == "0.10-practice-safety-alpha" and ('/issues/2' in index or '/issues/2' in app):
+        errors.append("the retired public running-notebook route remains")
 
     for marker in [
         "function renderAIObservations()", "function edgeInLayer(edge)", "function followInternalAnchor",
@@ -224,11 +232,15 @@ def main() -> int:
         if marker not in css:
             errors.append(f"iteration 0.9 CSS is missing: {marker}")
 
-    for path in [
+    documentation_paths = [
         ROOT / "documentation" / "ai-observations.md",
         ROOT / "documentation" / "sources-to-mine.md",
-        ROOT / "documentation" / "publication-risks.md",
-    ]:
+    ]
+    if meta.get("release") == "0.9-observations-alpha":
+        documentation_paths.append(ROOT / "documentation" / "publication-risks.md")
+    else:
+        documentation_paths.append(ROOT / "documentation" / "publication-safety.md")
+    for path in documentation_paths:
         if not path.exists() or path.stat().st_size < 500:
             errors.append(f"missing or implausibly small documentation file: {path.relative_to(ROOT)}")
 
@@ -250,7 +262,7 @@ def main() -> int:
     print(f"- sources: {len(sources)}")
     print(f"- journeys: {len(journeys)}")
     print(f"- AI observations: {len(report.get('observations', []))}")
-    print(f"- public risks: {len(report.get('public_risks', []))}")
+    print(f"- public risks: {len(report.get('public_risks', [])) if "public_risks" in report else "retired from public release"}")
     print(f"- source-mining programmes: {len(register)}")
     print(f"- entry types: {dict(sorted(type_counts.items()))}")
     return 0
