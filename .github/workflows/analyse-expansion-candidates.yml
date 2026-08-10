@@ -19,31 +19,13 @@ jobs:
           ref: agent/expand-tangle-400
           fetch-depth: 0
 
-      - name: Reconstruct the superseded iteration as a candidate ledger
+      - name: Mount the superseded 295-entry branch as a candidate ledger
         shell: bash
         run: |
           set -euo pipefail
-          git fetch origin big-iteration-0.7:refs/remotes/origin/big-iteration-0.7
-          : > /tmp/iteration.b64
-          while IFS= read -r f; do
-            git show "origin/big-iteration-0.7:$f" >> /tmp/iteration.b64
-          done < <(git ls-tree -r --name-only origin/big-iteration-0.7 .iteration-bundle | sort)
-          base64 --decode /tmp/iteration.b64 > /tmp/iteration.tar.gz
-          mkdir -p /tmp/iteration
-          tar -xzf /tmp/iteration.tar.gz -C /tmp/iteration
-          echo "Recovered files:"
-          find /tmp/iteration -type f -printf '%P\n' | sort
-
-      - name: Apply the old iteration in an isolated worktree
-        shell: bash
-        run: |
-          set -euo pipefail
-          git worktree add --detach /tmp/oldwork HEAD
-          cp -a /tmp/iteration/. /tmp/oldwork/
+          git fetch origin release-0.7-constellation-alpha:refs/remotes/origin/release-0.7-constellation-alpha
+          git worktree add --detach /tmp/oldwork origin/release-0.7-constellation-alpha
           cd /tmp/oldwork
-          if test -f requirements-analysis.txt; then
-            python3 -m pip install --quiet -r requirements-analysis.txt || true
-          fi
           set +e
           make validate > /tmp/old-validate.log 2>&1
           echo $? > /tmp/old-validate.status
@@ -55,13 +37,14 @@ jobs:
           mkdir -p analysis
           python3 - <<'PY'
           import json
+          import subprocess
           from collections import Counter
           from pathlib import Path
 
           current = json.loads(Path('data/public-data.json').read_text())
           old_path = Path('/tmp/oldwork/data/public-data.json')
           if not old_path.exists():
-              raise SystemExit('Old iteration did not produce data/public-data.json')
+              raise SystemExit('Superseded branch has no data/public-data.json')
           old = json.loads(old_path.read_text())
 
           def canonical_public(data):
@@ -83,14 +66,8 @@ jobs:
               if e.get('source') in new_id_set or e.get('target') in new_id_set
           ]
           source_ids = set()
-          for n in new_nodes:
-              raw = n.get('source_ids', [])
-              if isinstance(raw, str):
-                  try: raw = json.loads(raw)
-                  except Exception: raw = []
-              source_ids.update(raw or [])
-          for e in edge_candidates:
-              raw = e.get('source_ids', [])
+          for item in [*new_nodes, *edge_candidates]:
+              raw = item.get('source_ids', [])
               if isinstance(raw, str):
                   try: raw = json.loads(raw)
                   except Exception: raw = []
@@ -98,7 +75,7 @@ jobs:
           sources = [s for s in old.get('sources', []) if s.get('id') in source_ids]
 
           ledger = {
-              'source_branch': 'big-iteration-0.7',
+              'source_branch': 'release-0.7-constellation-alpha',
               'warning': 'Candidate ledger only; the branch is superseded and is not to be merged wholesale.',
               'current_public_count': len(cur_nodes),
               'old_public_count': len(old_nodes),
@@ -127,10 +104,9 @@ jobs:
               if len(str(text).split()) < 12:
                   short_descriptions.append(n['id'])
 
-          recovered_files = sorted(
-              str(p.relative_to('/tmp/iteration'))
-              for p in Path('/tmp/iteration').rglob('*') if p.is_file()
-          )
+          recovered_files = subprocess.check_output(
+              ['git', '-C', '/tmp/oldwork', 'ls-tree', '-r', '--name-only', 'HEAD'], text=True
+          ).splitlines()
           interesting = [f for f in recovered_files if any(k in f.casefold() for k in ('foundational', 'corpus', 'inventory', 'research_iteration', 'principia'))]
           validate_status = Path('/tmp/old-validate.status').read_text().strip()
 
