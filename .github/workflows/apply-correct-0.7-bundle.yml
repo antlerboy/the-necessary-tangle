@@ -22,8 +22,9 @@ jobs:
         uses: actions/checkout@v7
         with:
           ref: release-0.7-constellation-alpha-final
+          fetch-depth: 0
 
-      - name: Inspect incomplete staged payload
+      - name: Recover and compare staged payload prefix
         shell: bash
         run: |
           set -u
@@ -38,13 +39,6 @@ jobs:
           echo "gzip status: ${gzip_status}"
           echo "recoverable tar bytes: $(wc -c < /tmp/tangle-correct-0.7.tar)"
 
-          echo "--- recoverable tar members ---"
-          set +e
-          tar -tvf /tmp/tangle-correct-0.7.tar
-          tar_status=$?
-          set -e
-          echo "tar list status: ${tar_status}"
-
           mkdir -p /tmp/tangle-partial
           set +e
           tar -xf /tmp/tangle-correct-0.7.tar -C /tmp/tangle-partial
@@ -52,19 +46,57 @@ jobs:
           set -e
           echo "tar extract status: ${extract_status}"
 
-          echo "--- recovered files ---"
-          find /tmp/tangle-partial -type f -printf '%P\t%s bytes\n' | sort | head -300
+          echo "--- recovered files and comparison ---"
+          while IFS= read -r f; do
+            size=$(wc -c < "/tmp/tangle-partial/$f")
+            main_state=absent
+            old_state=absent
+            if git cat-file -e "origin/main:$f" 2>/dev/null; then
+              if cmp -s "/tmp/tangle-partial/$f" <(git show "origin/main:$f"); then main_state=same; else main_state=different; fi
+            fi
+            if git cat-file -e "origin/release-0.7-constellation-alpha:$f" 2>/dev/null; then
+              if cmp -s "/tmp/tangle-partial/$f" <(git show "origin/release-0.7-constellation-alpha:$f"); then old_state=same; else old_state=different; fi
+            fi
+            printf '%s\t%s bytes\tmain:%s\trejected:%s\n' "$f" "$size" "$main_state" "$old_state"
+          done < <(cd /tmp/tangle-partial && find . -type f -printf '%P\n' | sort)
 
-          echo "--- likely release metadata ---"
-          for f in README.md CHANGELOG.md CITATION.cff manifest.json release-manifest.json documentation/roadmap.md documentation/coverage-programme.md; do
-            if [ -f "/tmp/tangle-partial/$f" ]; then
-              echo "===== $f ====="
-              sed -n '1,220p' "/tmp/tangle-partial/$f"
+          pk=/tmp/tangle-partial/documentation/public-knowledge-for-chatgpt.md
+          if [ -f "$pk" ]; then
+            echo "--- public knowledge release clues ---"
+            sed -n '1,100p' "$pk"
+            echo "heading count: $(grep -c '^## ' "$pk" || true)"
+            echo "entry-ish heading count: $(grep -Ec '^## (Person|Concept|Method|Practice|Publication|Institution|Tradition|Tool|Law|Event|Project|School|Framework|Approach|Model|Organisation|Organization):' "$pk" || true)"
+            grep -Ein '295|[0-9]+ (readable )?(public )?entries|entry count|release 0\.7|constellation|neighbourhood|categor' "$pk" | head -120 || true
+          fi
+
+          ec=/tmp/tangle-partial/documentation/emergent-categories-analysis.json
+          if [ -f "$ec" ]; then
+            echo "--- emergent category analysis summary ---"
+            python3 - <<'PY'
+          import json
+          p='/tmp/tangle-partial/documentation/emergent-categories-analysis.json'
+          d=json.load(open(p))
+          print('top-level keys:', sorted(d) if isinstance(d, dict) else type(d).__name__)
+          if isinstance(d, dict):
+              for k,v in d.items():
+                  if isinstance(v,(list,dict)):
+                      print(k, 'count=', len(v))
+                  elif isinstance(v,(str,int,float,bool)) or v is None:
+                      print(k, '=', v)
+          PY
+          fi
+
+          echo "--- diffstats from main for fully recovered files ---"
+          for f in $(cd /tmp/tangle-partial && find . -type f -printf '%P\n' | sort); do
+            if git cat-file -e "origin/main:$f" 2>/dev/null; then
+              git diff --no-index --stat <(git show "origin/main:$f") "/tmp/tangle-partial/$f" || true
+            else
+              echo "NEW: $f ($(wc -c < "/tmp/tangle-partial/$f") bytes)"
             fi
           done
 
-          if [ "$gzip_status" -eq 0 ] && [ "$tar_status" -eq 0 ] && [ "$extract_status" -eq 0 ]; then
+          if [ "$gzip_status" -eq 0 ] && [ "$extract_status" -eq 0 ]; then
             echo "Payload is complete after all."
           else
-            echo "Payload is incomplete; diagnostic completed without modifying the branch."
+            echo "Payload is incomplete; diagnostic completed without modifying release content."
           fi
