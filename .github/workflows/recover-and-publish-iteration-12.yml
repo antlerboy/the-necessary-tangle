@@ -201,6 +201,7 @@ jobs:
       - name: Commit the validated durable release
         run: |
           rm -f .github/workflows/recover-and-publish-iteration-12.yml
+          rm -f .github/workflows/triage-site-submissions.yml
           rm -rf .iteration12-bundle
           git config user.name "Benjamin P Taylor"
           git config user.email "benjamin.taylor@redquadrant.com"
