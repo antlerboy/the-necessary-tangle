@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Make retained interface patches stop once the 0.11 map is already present."""
+"""Make retained interface patches stop or adapt once the 0.11 map is present."""
 from __future__ import annotations
 
 from pathlib import Path
@@ -35,6 +35,18 @@ def add_semantic_zoom_guard(filename: str, message: str) -> None:
 
 
 def main() -> None:
+    constellation = ROOT / "scripts" / "patch_constellation_07.py"
+    replace_once(
+        constellation,
+        '''    if 'class="curator-notebook-link"' not in text:
+        text = text.replace('</footer>', '<p><a class="curator-notebook-link" href="https://github.com/antlerboy/the-necessary-tangle/issues/2">Curator notebook</a></p></footer>', 1)
+''',
+        '''    if 'class="curator-notebook-link"' not in text and 'data-curator-dot="comments"' not in text:
+        text = text.replace('</footer>', '<p><a class="curator-notebook-link" href="https://github.com/antlerboy/the-necessary-tangle/issues/2">Curator notebook</a></p></footer>', 1)
+''',
+        "0.7 notebook compatibility guard",
+    )
+
     expansion = ROOT / "scripts" / "patch_expansion_08.py"
     replace_once(
         expansion,
