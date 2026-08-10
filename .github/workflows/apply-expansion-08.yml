@@ -6,6 +6,7 @@ on:
     paths:
       - ".github/workflows/apply-expansion-08.yml"
       - "scripts/prepare_expansion_08.py"
+      - "scripts/fix_expansion_validator.py"
       - "scripts/apply_expansion_08.py"
       - "scripts/patch_expansion_08.py"
       - "scripts/validate_expansion_08.py"
@@ -34,7 +35,9 @@ jobs:
           git worktree add --detach /tmp/oldwork origin/release-0.7-constellation-alpha
 
       - name: Prepare the durable release seed and build wiring
-        run: python3 scripts/prepare_expansion_08.py /tmp/oldwork
+        run: |
+          python3 scripts/fix_expansion_validator.py
+          python3 scripts/prepare_expansion_08.py /tmp/oldwork
 
       - name: Build and validate the expansion twice
         run: |
@@ -52,6 +55,7 @@ jobs:
           rm -f .github/workflows/analyse-fpcs-authors.yml
           rm -f .github/workflows/apply-expansion-08.yml
           rm -f scripts/prepare_expansion_08.py
+          rm -f scripts/fix_expansion_validator.py
 
       - name: Commit the validated release branch
         run: |
