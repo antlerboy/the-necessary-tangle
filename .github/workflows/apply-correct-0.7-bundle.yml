@@ -1,4 +1,4 @@
-name: Diagnose corrected 0.7 constellation bundle
+name: Inspect corrected 0.7 data model
 on:
   push:
     branches: ["release-0.7-constellation-alpha-final"]
@@ -6,32 +6,21 @@ on:
 permissions:
   contents: read
 jobs:
-  diagnose:
+  inspect:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
         with:
           ref: release-0.7-constellation-alpha-final
-          fetch-depth: 0
-      - name: Print canonical data shapes needed for 0.7 overlay
+      - name: Print representative records
         run: |
-          git show origin/main:data/public-data.json > /tmp/main.json
           python3 - <<'PY'
           import json
-          d=json.load(open('/tmp/main.json'))
-          for typ in ['Person','Concept','Organisation','Publication','Tradition']:
-              n=next((x for x in d['nodes'] if x.get('entity_type')==typ and x.get('public_visibility')=='public'),None)
-              print('\nNODE',typ); print(json.dumps(n,ensure_ascii=False,indent=2))
-          print('\nSOURCE'); print(json.dumps(next(x for x in d['sources'] if x.get('url')),ensure_ascii=False,indent=2))
-          wanted=['developed_or_extended','formulated_by','instantiates','self_identifies_with','collaborated_with','member_of','specialises','uses','historical_precursor']
-          by={x.get('relation_type'):x for x in d.get('relation_types',[])}
-          print('\nRELATION TYPES')
-          for k in wanted:
-              print(json.dumps(by.get(k),ensure_ascii=False,indent=2))
-          print('\nEDGE EXAMPLES')
-          for typ in wanted:
-              e=next((x for x in d['edges'] if x.get('relation_type')==typ),None)
-              print(typ, json.dumps(e,ensure_ascii=False,indent=2))
-          print('\nTOP LEVEL KEYS',sorted(d.keys()))
-          print('\nMETA'); print(json.dumps(d['meta'],ensure_ascii=False,indent=2))
+          d=json.load(open('data/public-data.json'))
+          for nid in ['person_heinz_von_foerster','concept_emergence','tradition_cybernetics']:
+              n=next(x for x in d['nodes'] if x['id']==nid)
+              print('\nNODE',nid, json.dumps(n,ensure_ascii=False,indent=2))
+          print('\nNODE KEYS',sorted(d['nodes'][0]))
+          print('\nEDGE KEYS',sorted(d['edges'][0]))
+          print('\nSOURCE KEYS',sorted(d['sources'][0]))
           PY
