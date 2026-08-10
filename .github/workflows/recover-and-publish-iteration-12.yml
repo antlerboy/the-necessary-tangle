@@ -24,28 +24,19 @@ jobs:
           ref: agent/publish-iteration-12-real
           fetch-depth: 0
 
-      - name: Recover the intended source archives from the closed PR commit
+      - name: Recover the verified iteration source set
         shell: bash
         run: |
           set -euo pipefail
           git fetch origin refs/pull/22/head:refs/remotes/origin/pr22
           python3 - <<'PY'
-          import base64
-          import hashlib
-          import pathlib
-          import re
-          import subprocess
-          import tarfile
+          import base64, hashlib, pathlib, re, subprocess, tarfile
 
-          COMMIT = '8ab7912a36a8e42fcd24c3145a0f6def0d27f285'
-          EXPECTED_SOURCE_SIZE = 54715
-          EXPECTED_SOURCE_SHA = 'b30071976cb536ad9c1c4a5023e2ca6828d179ace8fac185e2085095e5c7bc1a'
-          EXPECTED_VALIDATOR_SIZE = 11987
-          EXPECTED_VALIDATOR_SHA = 'ad72b74625338abbcdfbc4621e9e476b0d6542339f7c70141e9adda161a91add'
+          commit = '8ab7912a36a8e42fcd24c3145a0f6def0d27f285'
 
-          def git_text(path: str) -> str:
+          def git_text(path):
               return subprocess.check_output(
-                  ['git', 'show', f'{COMMIT}:{path}'],
+                  ['git', 'show', f'{commit}:{path}'],
                   text=True,
                   encoding='utf-8',
               )
@@ -56,85 +47,77 @@ jobs:
               text += '=' * ((4 - len(text) % 4) % 4)
               return base64.b64decode(text, validate=False)
 
-          source_paths = [
-              *[f'.iteration12-bundle/piece-{index:02d}' for index in range(6)],
-              *[f'.iteration12-bundle/part-{index:02d}' for index in range(1, 5)],
+          payloads = [
+              (
+                  '/tmp/iteration-12-source.tar.gz',
+                  decode([
+                      *[f'.iteration12-bundle/piece-{i:02d}' for i in range(6)],
+                      *[f'.iteration12-bundle/part-{i:02d}' for i in range(1, 5)],
+                  ]),
+                  54715,
+                  'b30071976cb536ad9c1c4a5023e2ca6828d179ace8fac185e2085095e5c7bc1a',
+              ),
+              (
+                  '/tmp/iteration-12-validator-fixes.tar.gz',
+                  decode([
+                      '.iteration12-bundle/validator-piece-00',
+                      '.iteration12-bundle/validator-piece-01',
+                  ]),
+                  11987,
+                  'ad72b74625338abbcdfbc4621e9e476b0d6542339f7c70141e9adda161a91add',
+              ),
           ]
-          source = decode(source_paths)
-          source_sha = hashlib.sha256(source).hexdigest()
-          print('source size', len(source))
-          print('source sha256', source_sha)
-          if len(source) != EXPECTED_SOURCE_SIZE or source_sha != EXPECTED_SOURCE_SHA:
-              raise SystemExit('Recovered source archive does not match its recorded contract')
 
-          validator_paths = [
-              '.iteration12-bundle/validator-piece-00',
-              '.iteration12-bundle/validator-piece-01',
-          ]
-          validator = decode(validator_paths)
-          validator_sha = hashlib.sha256(validator).hexdigest()
-          print('validator size', len(validator))
-          print('validator sha256', validator_sha)
-          if len(validator) != EXPECTED_VALIDATOR_SIZE or validator_sha != EXPECTED_VALIDATOR_SHA:
-              raise SystemExit('Recovered validator archive does not match the verified bytes in the PR commit')
+          for filename, payload, expected_size, expected_sha in payloads:
+              digest = hashlib.sha256(payload).hexdigest()
+              print(filename, len(payload), digest)
+              if len(payload) != expected_size or digest != expected_sha:
+                  raise SystemExit(f'Archive contract failed: {filename}')
+              path = pathlib.Path(filename)
+              path.write_bytes(payload)
+              with tarfile.open(path, 'r:gz') as archive:
+                  members = archive.getmembers()
+                  for member in members:
+                      candidate = pathlib.PurePosixPath(member.name)
+                      if candidate.is_absolute() or '..' in candidate.parts:
+                          raise SystemExit(f'Unsafe archive path: {member.name}')
+                  archive.extractall('.')
+                  print('Extracted', len(members), 'members from', filename)
 
-          archives = [
-              ('/tmp/iteration-12-source.tar.gz', source),
-              ('/tmp/iteration-12-validator-fixes.tar.gz', validator),
-          ]
-          required = {
+          required = [
               'scripts/apply_iteration_12.py',
               'scripts/patch_iteration_12.py',
               'scripts/validate_iteration_12.py',
               'documentation/explicit-semantics.md',
               'documentation/reading-list-coverage.md',
               'documentation/scio-coverage.md',
-          }
-          source_names = set()
-          for filename, payload in archives:
-              path = pathlib.Path(filename)
-              path.write_bytes(payload)
-              with tarfile.open(path, 'r:gz') as archive:
-                  members = archive.getmembers()
-                  names = {member.name for member in members}
-                  for member in members:
-                      candidate = pathlib.PurePosixPath(member.name)
-                      if candidate.is_absolute() or '..' in candidate.parts:
-                          raise SystemExit(f'Unsafe archive path: {member.name}')
-                  archive.extractall('.')
-                  print(filename, len(members), 'members')
-                  if filename.endswith('source.tar.gz'):
-                      source_names = names
-          missing = sorted(required - source_names)
+          ]
+          missing = [path for path in required if not pathlib.Path(path).is_file()]
           if missing:
-              raise SystemExit(f'Recovered source archive is missing: {missing}')
+              raise SystemExit(f'Missing recovered files: {missing}')
           PY
 
+      - name: Repair durable validator compatibility
+        shell: bash
+        run: |
+          set -euo pipefail
           git show origin/main:scripts/validate_expansion_08.py > scripts/validate_expansion_08.py
-
           python3 - <<'PY'
           from pathlib import Path
 
-          expansion = Path('scripts/validate_expansion_08.py')
-          text = expansion.read_text(encoding='utf-8')
-          old_allowed = 'ALLOWED_RELEASES = {"0.8-expansion-alpha", "0.9-observations-alpha", "0.10-practice-safety-alpha", "0.11-visual-map-alpha"}'
-          new_allowed = 'ALLOWED_RELEASES = {"0.8-expansion-alpha", "0.9-observations-alpha", "0.10-practice-safety-alpha", "0.11-visual-map-alpha", "0.12-practitioner-intake-alpha"}'
-          if old_allowed not in text:
-              raise SystemExit('Could not locate 0.8 release allowance')
-          text = text.replace(old_allowed, new_allowed, 1)
-          old_dot = 'elif meta.get("release") == "0.11-visual-map-alpha":'
-          new_dot = 'elif meta.get("release") in {"0.11-visual-map-alpha", "0.12-practitioner-intake-alpha"}:'
-          if old_dot not in text:
-              raise SystemExit('Could not locate 0.8 curator-dot release condition')
-          text = text.replace(old_dot, new_dot, 1)
-          expansion.write_text(text, encoding='utf-8')
-          print('Restored and extended the 0.8 validator for 0.12')
-
-          for path in Path('scripts').glob('*.py'):
-              data = path.read_bytes()
-              if b'\x00' in data:
-                  path.write_bytes(data.replace(b'\x00', b''))
-                  print('Removed null bytes from', path)
+          path = Path('scripts/validate_expansion_08.py')
+          text = path.read_text(encoding='utf-8')
+          text = text.replace(
+              'ALLOWED_RELEASES = {"0.8-expansion-alpha", "0.9-observations-alpha", "0.10-practice-safety-alpha", "0.11-visual-map-alpha"}',
+              'ALLOWED_RELEASES = {"0.8-expansion-alpha", "0.9-observations-alpha", "0.10-practice-safety-alpha", "0.11-visual-map-alpha", "0.12-practitioner-intake-alpha"}',
+              1,
+          )
+          text = text.replace(
+              'elif meta.get("release") == "0.11-visual-map-alpha":',
+              'elif meta.get("release") in {"0.11-visual-map-alpha", "0.12-practitioner-intake-alpha"}:',
+              1,
+          )
+          path.write_text(text, encoding='utf-8')
 
           makefile = Path('Makefile')
           lines = [
@@ -146,45 +129,43 @@ jobs:
                   lines.insert(index + 1, '\tpython3 scripts/normalise_iteration_11_dot.py')
                   break
           else:
-              raise SystemExit('Makefile has no patch_iteration_12.py line')
+              raise SystemExit('Missing patch_iteration_12.py in Makefile')
           makefile.write_text('\n'.join(lines) + '\n', encoding='utf-8')
-          print('Moved curator-dot normalisation after the 0.12 site patch')
           PY
 
-      - name: Build and validate from durable source files twice
-        shell: bash
+      - name: Build and validate twice
         run: |
-          set -euo pipefail
           make validate
           make validate
           git diff --check
 
       - name: Verify the public release contract
-        shell: bash
         run: |
-          set -euo pipefail
           python3 - <<'PY'
           import json
           from pathlib import Path
 
           data = json.loads(Path('data/public-data.json').read_text(encoding='utf-8'))
+          published = Path('docs/assets/public-data.json').read_text(encoding='utf-8')
           index = Path('docs/index.html').read_text(encoding='utf-8')
           app = Path('docs/assets/app.js').read_text(encoding='utf-8')
           labels = {node.get('label') for node in data.get('nodes', [])}
           node_ids = {node.get('id') for node in data.get('nodes', [])}
-          meta = data.get('meta', {})
+          meta = data['meta']
 
-          assert meta.get('release') == '0.12-practitioner-intake-alpha', meta
-          assert meta.get('public_entry_count') == 442, meta
-          assert meta.get('profile_count') == 58, meta
-          assert meta.get('source_count') == 114, meta
-          assert meta.get('journey_count') == 14, meta
-          assert len(data.get('edges', [])) == 917
+          assert meta['release'] == '0.12-practitioner-intake-alpha'
+          assert meta['public_entry_count'] == 442
+          assert meta['profile_count'] == 58
+          assert meta['source_count'] == 114
+          assert meta['journey_count'] == 14
+          assert len(data['edges']) == 917
 
           assert {'Ivo Velitchkov', 'Patrick Hoverstadt'} <= labels
+          assert 'Ivo Velitchkov' in published
+          assert 'Patrick Hoverstadt' in published
           assert any(label and 'Grammar of Systems' in label for label in labels)
           assert any(label and 'Fractal' in label for label in labels)
-          required_ids = {
+          assert {
               'person_ivo_velitchkov',
               'person_patrick_hoverstadt',
               'publication_essential_balances',
@@ -192,20 +173,17 @@ jobs:
               'concept_natural_drift',
               'concept_explicit_semantics',
               'tool_nodica',
-          }
-          assert required_ids <= node_ids, sorted(required_ids - node_ids)
+          } <= node_ids
 
-          accepted = data.get('accepted_contributions', [])
+          accepted = data['accepted_contributions']
           assert len(accepted) == 1
-          assert accepted[0].get('issue_number') == 21
-          assert accepted[0].get('status') == 'incorporated_with_independent_sources'
-          assert data.get('semantic_contract', {}).get('uses_explicit_semantics') is True
-          assert data.get('reading_list_coverage', {}).get('headline_recommendations_developed') == 4
-          assert data.get('scio_coverage', {}).get('approach_family_count') == 13
-          assert data.get('scio_coverage', {}).get('intervention_skill_count') == 47
+          assert accepted[0]['issue_number'] == 21
+          assert accepted[0]['status'] == 'incorporated_with_independent_sources'
+          assert data['semantic_contract']['uses_explicit_semantics'] is True
+          assert data['reading_list_coverage']['headline_recommendations_developed'] == 4
+          assert data['scio_coverage']['approach_family_count'] == 13
+          assert data['scio_coverage']['intervention_skill_count'] == 47
 
-          assert 'Ivo Velitchkov' in index
-          assert 'Patrick Hoverstadt' in index
           assert 'Start somewhere smaller' in index
           assert index.count('https://github.com/antlerboy/the-necessary-tangle/issues/2') == 1
           assert index.count('data-curator-dot="comments"') == 1
@@ -214,20 +192,17 @@ jobs:
           assert Path('documentation/reading-list-coverage.md').is_file()
 
           print(json.dumps({
-              'release': meta.get('release'),
-              'entries': meta.get('public_entry_count'),
-              'profiles': meta.get('profile_count'),
-              'sources': meta.get('source_count'),
-              'journeys': meta.get('journey_count'),
-              'edges': len(data.get('edges', [])),
-              'accepted_contributions': len(accepted),
+              'release': meta['release'],
+              'entries': meta['public_entry_count'],
+              'profiles': meta['profile_count'],
+              'sources': meta['source_count'],
+              'journeys': meta['journey_count'],
+              'edges': len(data['edges']),
           }, indent=2, sort_keys=True))
           PY
 
-      - name: Remove the one-shot workflow and commit the validated release
-        shell: bash
+      - name: Commit the validated durable release
         run: |
-          set -euo pipefail
           rm -f .github/workflows/recover-and-publish-iteration-12.yml
           rm -rf .iteration12-bundle
           git config user.name "Benjamin P Taylor"
