@@ -1,0 +1,206 @@
+name: Finalise iteration 0.12 practitioner intake
+
+on:
+  push:
+    branches: ["agent/iteration-12-practitioner-intake"]
+    paths:
+      - ".github/workflows/apply-iteration-12-v3.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: finalise-iteration-12
+  cancel-in-progress: false
+
+jobs:
+  finalise:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out iteration branch
+        uses: actions/checkout@v7
+        with:
+          ref: agent/iteration-12-practitioner-intake
+          fetch-depth: 0
+
+      - name: Recover source files when not already applied
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [ -f scripts/apply_iteration_12.py ] && [ -f scripts/patch_iteration_12.py ] && [ -f scripts/validate_iteration_12.py ]; then
+            echo "Durable iteration files are already present."
+            exit 0
+          fi
+          python3 - <<'PY'
+          import base64
+          import hashlib
+          import itertools
+          import pathlib
+          import re
+          import tarfile
+          import tempfile
+
+          root = pathlib.Path('.iteration12-bundle')
+          files = sorted(p for p in root.rglob('*') if p.is_file() and p.name not in {'.DS_Store'})
+          if not files:
+              raise SystemExit('No staged bundle and no durable iteration files')
+
+          def cleaned(path):
+              text = path.read_text(encoding='utf-8', errors='ignore')
+              return re.sub(r'[^A-Za-z0-9+/=]', '', text)
+
+          def decode_join(parts):
+              text = ''.join(cleaned(p) for p in parts)
+              text += '=' * ((4 - len(text) % 4) % 4)
+              try:
+                  return base64.b64decode(text, validate=False)
+              except Exception:
+                  return None
+
+          def decode_each(parts):
+              out = bytearray()
+              for part in parts:
+                  text = cleaned(part)
+                  text += '=' * ((4 - len(text) % 4) % 4)
+                  try:
+                      out.extend(base64.b64decode(text, validate=False))
+                  except Exception:
+                      return None
+              return bytes(out)
+
+          attempts = []
+          for p in files:
+              attempts.append((f'one:{p}', decode_join([p])))
+          attempts.extend([
+              ('all-joined', decode_join(files)),
+              ('all-decoded-separately', decode_each(files)),
+          ])
+          if len(files) <= 8:
+              for n in range(2, len(files) + 1):
+                  for group in itertools.permutations(files, n):
+                      attempts.append(('joined:' + ','.join(map(str, group)), decode_join(group)))
+                      attempts.append(('separate:' + ','.join(map(str, group)), decode_each(group)))
+
+          selected = None
+          seen = set()
+          for label, payload in attempts:
+              if not payload:
+                  continue
+              digest = hashlib.sha256(payload).hexdigest()
+              key = (len(payload), digest)
+              if key in seen:
+                  continue
+              seen.add(key)
+              tmp = pathlib.Path(tempfile.gettempdir()) / f'iteration12-{digest[:12]}.tgz'
+              tmp.write_bytes(payload)
+              try:
+                  with tarfile.open(tmp, 'r:gz') as tf:
+                      names = {m.name for m in tf.getmembers()}
+                      required = {
+                          'scripts/apply_iteration_12.py',
+                          'scripts/patch_iteration_12.py',
+                          'scripts/validate_iteration_12.py',
+                      }
+                      if not required.issubset(names):
+                          continue
+                      for member in tf.getmembers():
+                          p = pathlib.PurePosixPath(member.name)
+                          if p.is_absolute() or '..' in p.parts:
+                              raise SystemExit(f'Unsafe archive path: {member.name}')
+                      selected = (label, payload, tf.getmembers())
+                      break
+              except (tarfile.TarError, OSError):
+                  continue
+
+          if selected is None:
+              print('Files examined:')
+              for p in files:
+                  print(f'- {p}: {p.stat().st_size} bytes, {len(cleaned(p))} base64 characters')
+              print('Unique decoded candidates:')
+              for size, digest in sorted(seen):
+                  print(f'- {size} bytes sha256:{digest}')
+              raise SystemExit('Could not recover a complete iteration 0.12 source archive')
+
+          label, payload, _ = selected
+          archive = pathlib.Path('/tmp/iteration-12-recovered.tar.gz')
+          archive.write_bytes(payload)
+          print(f'Recovered source archive from {label}: {len(payload)} bytes sha256:{hashlib.sha256(payload).hexdigest()}')
+          with tarfile.open(archive, 'r:gz') as tf:
+              for member in tf.getmembers():
+                  print(member.name)
+              tf.extractall('.')
+          PY
+
+      - name: Prepare durable release build
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [ -f scripts/prepare_iteration_12_release.py ]; then
+            python3 scripts/prepare_iteration_12_release.py
+          fi
+          test -f scripts/apply_iteration_12.py
+          test -f scripts/patch_iteration_12.py
+          test -f scripts/validate_iteration_12.py
+
+      - name: Build and validate twice
+        run: |
+          make validate
+          make validate
+          git diff --check
+
+      - name: Verify people, works, intake and semantics
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+
+          data = json.loads(Path('data/public-data.json').read_text(encoding='utf-8'))
+          text = json.dumps(data, ensure_ascii=False).lower()
+          index = Path('docs/index.html').read_text(encoding='utf-8')
+          meta = data.get('meta', {})
+          labels = {n.get('label', '') for n in data.get('nodes', [])}
+          titles = {s.get('title', '') for s in data.get('sources', [])}
+
+          assert str(meta.get('release', '')).startswith('0.12-'), meta.get('release')
+          for value in ['Ivo Velitchkov', 'Patrick Hoverstadt']:
+              assert value in labels, value
+          for value in ['The Grammar of Systems', 'The Fractal Organization', 'Patterns of Strategy']:
+              assert value in labels or value in titles, value
+          for phrase in ['survival of the viable', 'natural drift', 'explicit semantics', 'nodica']:
+              assert phrase in text, phrase
+          assert 'issues/21' in text
+          assert 'site-generated' in text or 'site generated' in text
+          assert 'https://github.com/antlerboy/the-necessary-tangle/issues/2' in index
+          assert int(meta.get('public_entry_count', 0)) >= 422
+          assert int(meta.get('source_count', 0)) >= 108
+          print(json.dumps({
+              'release': meta.get('release'),
+              'entries': meta.get('public_entry_count'),
+              'profiles': meta.get('profile_count'),
+              'sources': meta.get('source_count'),
+              'journeys': meta.get('journey_count'),
+              'graph_snapshot': data.get('graph_snapshot'),
+          }, indent=2, sort_keys=True))
+          PY
+
+      - name: Remove construction files
+        run: |
+          rm -rf .iteration12-bundle
+          rm -f .github/workflows/apply-iteration-12.yml
+          rm -f .github/workflows/apply-iteration-12-v2.yml
+          rm -f .github/workflows/apply-iteration-12-v3.yml
+          rm -f scripts/prepare_iteration_12_release.py
+          git status --short
+
+      - name: Commit validated release
+        run: |
+          git config user.name "Benjamin P Taylor"
+          git config user.email "ben.taylor@redquadrant.com"
+          git add -A
+          git diff --cached --check
+          if git diff --cached --quiet; then
+            echo "Iteration was already committed and validated."
+          else
+            git commit -m "Publish iteration 0.12 practitioner intake" -m "Add developed coverage of Ivo Velitchkov and Patrick Hoverstadt, incorporate the submitted viability correction, document explicit semantics and Nodica, reconcile site-generated issues with the running feedback and research queues, and provide a less forbidding route into the atlas."
+            git push origin HEAD:agent/iteration-12-practitioner-intake
+          fi
