@@ -171,7 +171,10 @@ def patch_css() -> None:
 
 def main() -> None:
     patch_index()
-    patch_app()
+    if APP.exists() and "semanticZoomBand" in APP.read_text(encoding="utf-8"):
+        print("Preserved the 0.11 map application while refreshing the 0.10 page and styles")
+    else:
+        patch_app()
     patch_css()
     print("Applied 0.10 systems distinctions, public pathways and publication-safety interface changes")
 

@@ -133,7 +133,7 @@
     </section>
 
     <section id="view-map" class="view map-view">
-      <header class="page-head"><p class="eyebrow">Interactive neighbourhoods</p><h1>Map</h1><p>Open the full public map or centre on one entry. The layout keeps its bearings and moves with your selection; select a line to inspect the statement, status and sources.</p></header>
+      <header class="page-head"><p class="eyebrow">Interactive neighbourhoods</p><h1>Map</h1><p>Move between the whole graph, a neighbourhood and a selected entry without losing your bearings. Zoom changes the level of visible detail; the minimap shows where you are. Select a line to inspect its statement, status and sources.</p></header>
       <div class="map-layout">
         <aside class="map-controls">
           <div class="smart-search" data-search-role="map"><label for="mapSearch">Centre on</label><input id="mapSearch" autocomplete="off" placeholder="Viability"><div class="suggestions" role="listbox" hidden></div></div>
@@ -171,11 +171,26 @@
           <button id="findPath" type="button" class="primary full">Find path</button>
           <div id="pathResult" class="path-result"></div>
         </aside>
-        <div class="graph-wrap">
+        <div class="graph-wrap" id="graphWrap" tabindex="0" aria-label="Map canvas. Use the wheel or zoom slider to change scale; drag to pan.">
+          <div class="map-canvas-toolbar" aria-label="Map navigation">
+            <div class="map-history-controls">
+              <button type="button" id="mapBack" aria-label="Previous map focus" title="Previous map focus" disabled>←</button>
+              <button type="button" id="mapForward" aria-label="Next map focus" title="Next map focus" disabled>→</button>
+            </div>
+            <label class="map-zoom-slider" for="mapZoomRange"><span>Zoom</span><input id="mapZoomRange" type="range" min="22" max="400" value="100" step="1"></label>
+            <span id="mapScaleMode" class="map-scale-mode" aria-live="polite">Neighbourhood</span>
+            <button type="button" id="mapFullscreen" aria-label="Open map full screen" title="Open map full screen">Full screen</button>
+          </div>
           <svg id="graphSvg" viewBox="0 0 1200 760" aria-label="Interactive map of selected entries and connections">
             <defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="8" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z"></path></marker></defs>
             <g id="graphRoot"><g id="graphEdges"></g><g id="graphNodes"></g></g>
           </svg>
+          <div class="map-minimap-shell" aria-label="Map overview. Click or drag to move the main view.">
+            <svg id="mapMiniMap" viewBox="0 0 1200 760" role="img" aria-label="Overview of the current map selection">
+              <g id="miniEdges"></g><g id="miniNodes"></g><rect id="miniViewport" x="0" y="0" width="1200" height="760"></rect>
+            </svg>
+          </div>
+          <p class="map-canvas-help">Wheel or pinch to zoom around the pointer. Drag to pan. Double-click to zoom in; Shift-double-click to zoom out. Keys: +, −, 0 and F.</p>
         </div>
         <aside id="mapInspector" class="map-inspector"><p class="eyebrow">Inspector</p><h2>Choose an item or line</h2><p>Definitions, connection wording, status and sources will appear here.</p></aside>
       </div>
@@ -340,9 +355,13 @@
 
   <footer class="site-footer"><div><strong>The Necessary Tangle</strong><br><span>Curated by <a href="https://www.antlerboy.com/">Benjamin P Taylor</a></span></div><div><a href="#view=contribute" data-view-link="contribute" class="text-button">Submit a correction</a><a href="#view=about" data-view-link="about" class="text-button">Coverage, method and rights</a><a class="text-button" href="https://github.com/antlerboy/the-necessary-tangle" target="_blank" rel="noopener">GitHub</a></div></footer>
 
+
+
   <script src="assets/site-config.js"></script>
   <script src="assets/public-data.js"></script>
   <script src="assets/app.js"></script>
   <script src="assets/site-enhancements.js"></script>
+
+<a class="curator-secret-dot" data-curator-dot="comments" href="https://github.com/antlerboy/the-necessary-tangle/issues/2" target="_blank" rel="noopener" aria-label="Open the curator's running comments" title="Curator comments"><span aria-hidden="true"></span></a>
 </body>
 </html>

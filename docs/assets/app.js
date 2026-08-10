@@ -369,6 +369,8 @@
   let mapSelectedEdge = null;
   let mapPath = [];
   let lastMapPositions = new Map();
+  let mapFocusHistory = [mapFocus];
+  let mapFocusHistoryIndex = 0;
 
   function internalHref(view, params = {}) {
     return `#${new URLSearchParams({ view, ...params }).toString()}`;
@@ -440,6 +442,7 @@
         mapFocus = canonicalId(sp.get('focus'));
         const focus = nodeById.get(mapFocus);
         if (focus) $('mapSearch').value = focus.label;
+        recordMapFocus(mapFocus);
       }
       updateMapLayerNote();
       renderMap({ fit: true });
@@ -618,6 +621,7 @@
     $$('.map-entry', root).forEach((button) => button.addEventListener('click', () => {
       closeDrawer(false);
       mapFocus = button.dataset.id;
+      recordMapFocus(mapFocus);
       mapPath = [];
       $('mapSearch').value = nodeById.get(mapFocus)?.label || '';
       showView('map');
@@ -1064,8 +1068,43 @@
     requestAnimationFrame(step);
   }
 
-  function activateMapNode(id) {
+  function updateMapHistoryButtons() {
+    const back = $('mapBack');
+    const forward = $('mapForward');
+    if (back) back.disabled = mapFocusHistoryIndex <= 0;
+    if (forward) forward.disabled = mapFocusHistoryIndex >= mapFocusHistory.length - 1;
+  }
+
+  function recordMapFocus(id) {
+    if (!id || mapFocusHistory[mapFocusHistoryIndex] === id) {
+      updateMapHistoryButtons();
+      return;
+    }
+    mapFocusHistory = mapFocusHistory.slice(0, mapFocusHistoryIndex + 1);
+    mapFocusHistory.push(id);
+    mapFocusHistoryIndex = mapFocusHistory.length - 1;
+    updateMapHistoryButtons();
+  }
+
+  function navigateMapHistory(delta) {
+    const next = Math.max(0, Math.min(mapFocusHistory.length - 1, mapFocusHistoryIndex + delta));
+    if (next === mapFocusHistoryIndex) return;
+    mapFocusHistoryIndex = next;
+    mapFocus = mapFocusHistory[mapFocusHistoryIndex];
+    mapSelectedEdge = null;
+    mapPath = [];
+    $('mapSearch').value = nodeById.get(mapFocus)?.label || '';
+    const keepsWholeMap = ['all', 'profiles'].includes($('mapDepth').value);
+    renderMap({ fit: !keepsWholeMap, focus: keepsWholeMap });
+    inspectNode(mapFocus);
+    setHash({ view: 'map', focus: mapFocus, layer: $('mapLayer').value, depth: $('mapDepth').value });
+    updateMapHistoryButtons();
+  }
+
+  function activateMapNode(id, options = {}) {
+    if (!nodeById.has(id)) return;
     mapFocus = id;
+    if (options.history !== false) recordMapFocus(id);
     mapSelectedEdge = null;
     if (!$('mapDepth').value || $('mapDepth').value === 'path') $('mapDepth').value = '1';
     mapPath = [];
@@ -1073,7 +1112,7 @@
     const keepsWholeMap = ['all', 'profiles'].includes($('mapDepth').value);
     renderMap({ fit: !keepsWholeMap, focus: keepsWholeMap });
     inspectNode(mapFocus);
-    setHash({ view: 'map', focus: mapFocus });
+    setHash({ view: 'map', focus: mapFocus, layer: $('mapLayer').value, depth: $('mapDepth').value });
   }
 
   function renderMap(options = {}) {
@@ -1106,9 +1145,13 @@
         selected || inPath ? 'selected' : ''
       ].filter(Boolean).join(' ');
       const title = `${nodeById.get(edge.source)?.label || edge.source} ${edge.plain_phrase || edge.relation_type} ${nodeById.get(edge.target)?.label || edge.target}`;
+      const midpointX = (source.x + target.x) / 2;
+      const midpointY = (source.y + target.y) / 2;
+      const labelClass = selected || inPath ? 'visible' : '';
       return `<g class="graph-edge-group" data-edge="${esc(edge.id)}" tabindex="0" role="button" aria-label="${esc(title)}">
         <line class="graph-edge-hit" x1="${source.x}" y1="${source.y}" x2="${target.x}" y2="${target.y}"></line>
         <line class="${classes}" x1="${source.x}" y1="${source.y}" x2="${target.x}" y2="${target.y}"><title>${esc(title)}</title></line>
+        <text class="graph-edge-label ${labelClass}" x="${midpointX}" y="${midpointY - 7}">${esc(edge.plain_phrase || titleCase(edge.relation_type))}</text>
       </g>`;
     }).join('');
 
@@ -1118,15 +1161,19 @@
       const position = positions.get(node.id);
       const radius = node.id === mapFocus ? 13 : node.publication_level === 'profile' ? 10 : 7;
       const inPath = mapPath.includes(node.id);
-      const showLabel = !dense || node.id === mapFocus || node.publication_level === 'profile' || inPath;
-      return `<g class="graph-node-group ${node.id === mapFocus ? 'selected' : ''} ${inPath ? 'path-node' : ''}" data-id="${esc(node.id)}" tabindex="0" role="button" aria-label="Open ${esc(node.label)}">
+      const degree = (edgesByNode.get(node.id) || []).filter(mapVisibleEdge).length;
+      const labelPriority = node.id === mapFocus || inPath ? 3 : node.publication_level === 'profile' || degree >= 7 ? 2 : 1;
+      const showLabel = !dense || labelPriority >= 2;
+      return `<g class="graph-node-group ${node.id === mapFocus ? 'selected' : ''} ${inPath ? 'path-node' : ''}" data-id="${esc(node.id)}" data-label-priority="${labelPriority}" tabindex="0" role="button" aria-label="Open ${esc(node.label)}">
         <circle class="graph-node" cx="${position.x}" cy="${position.y}" r="${radius}" fill="${colours[node.entity_type] || '#6d625b'}"><title>${esc(node.label)}</title></circle>
-        <text class="graph-label ${showLabel ? '' : 'dense-hidden'}" x="${position.x + radius + 4}" y="${position.y - radius - 2}">${esc(node.label)}</text>
+        <text class="graph-label ${showLabel ? '' : 'dense-hidden'}" data-priority="${labelPriority}" x="${position.x + radius + 4}" y="${position.y - radius - 2}">${esc(node.label)}</text>
       </g>`;
     }).join('');
 
     $('mapCount').textContent = nodes.length;
+    renderMapMiniMap(positions, edges);
     applyMapTransform();
+    updateMapHistoryButtons();
 
     $$('.graph-node-group', $('graphNodes')).forEach((group) => {
       const open = (event) => {
@@ -1162,6 +1209,54 @@
     animateMapTransition(previousPositions, positions);
     if (options.fit) requestAnimationFrame(fitMapToSelection);
     else if (options.focus) requestAnimationFrame(() => moveMapToFocus(mapFocus));
+  }
+
+  function semanticZoomBand(scale = mapTransform.scale) {
+    if (scale < 0.58) return 'overview';
+    if (scale < 1.22) return 'neighbourhood';
+    return 'detail';
+  }
+
+  function updateMapSemanticZoom() {
+    const svg = $('graphSvg');
+    if (!svg) return;
+    const band = semanticZoomBand();
+    svg.classList.remove('map-zoom-overview', 'map-zoom-neighbourhood', 'map-zoom-detail');
+    svg.classList.add(`map-zoom-${band}`);
+    const label = $('mapScaleMode');
+    if (label) label.textContent = band === 'overview' ? 'Whole map' : band === 'detail' ? 'Detail' : 'Neighbourhood';
+  }
+
+  function renderMapMiniMap(positions, edges) {
+    const miniEdges = $('miniEdges');
+    const miniNodes = $('miniNodes');
+    if (!miniEdges || !miniNodes) return;
+    miniEdges.innerHTML = edges.slice(0, 900).map((edge) => {
+      const source = positions.get(edge.source);
+      const target = positions.get(edge.target);
+      if (!source || !target) return '';
+      return `<line x1="${source.x}" y1="${source.y}" x2="${target.x}" y2="${target.y}"></line>`;
+    }).join('');
+    miniNodes.innerHTML = [...positions.entries()].map(([id, position]) =>
+      `<circle class="${id === mapFocus ? 'focus' : ''}" cx="${position.x}" cy="${position.y}" r="${id === mapFocus ? 11 : 5}"></circle>`
+    ).join('');
+    updateMiniViewport();
+  }
+
+  function updateMiniViewport() {
+    const viewport = $('miniViewport');
+    if (!viewport) return;
+    const scale = Math.max(mapTransform.scale, 0.001);
+    const width = Math.min(1200, 1200 / scale);
+    const height = Math.min(760, 760 / scale);
+    const rawX = -mapTransform.x / scale;
+    const rawY = -mapTransform.y / scale;
+    const x = Math.max(0, Math.min(1200 - width, rawX));
+    const y = Math.max(0, Math.min(760 - height, rawY));
+    viewport.setAttribute('x', String(x));
+    viewport.setAttribute('y', String(y));
+    viewport.setAttribute('width', String(width));
+    viewport.setAttribute('height', String(height));
   }
 
   function inspectNode(id) {
@@ -1223,8 +1318,13 @@
 
   function applyMapTransform() {
     $('graphRoot').setAttribute('transform', `translate(${mapTransform.x} ${mapTransform.y}) scale(${mapTransform.scale})`);
+    const percentage = Math.round(mapTransform.scale * 100);
     const status = $('mapZoomStatus');
-    if (status) status.textContent = `${Math.round(mapTransform.scale * 100)}%`;
+    if (status) status.textContent = `${percentage}%`;
+    const range = $('mapZoomRange');
+    if (range && document.activeElement !== range) range.value = String(Math.max(22, Math.min(400, percentage)));
+    updateMapSemanticZoom();
+    updateMiniViewport();
   }
 
   function resetMapTransform() {
@@ -1266,6 +1366,7 @@
       if (id === goal) break;
       for (const edge of (edgesByNode.get(id) || [])) {
         if (!edgeInLayer(edge)) continue;
+        if ($('mapFamily').value !== 'all' && edge.relation_family !== $('mapFamily').value) continue;
         if ($('mapFamily').value !== 'all' && edge.relation_family !== $('mapFamily').value) continue;
         if ($('mapFamily').value !== 'all' && edge.relation_family !== $('mapFamily').value) continue;
         if ($('mapFamily').value !== 'all' && edge.relation_family !== $('mapFamily').value) continue;
@@ -1501,12 +1602,8 @@
       if (role === 'open') renderEntry(node.id);
       if (role === 'filter') renderBrowse();
       if (role === 'map') {
-        mapFocus = node.id;
-        mapPath = [];
-        mapSelectedEdge = null;
         $('mapDepth').value = '1';
-        renderMap({ fit: true });
-        setHash({ view: 'map', focus: node.id });
+        activateMapNode(node.id);
       }
       if (role === 'contribution') {
         $('contributionItemId').value = node.id;
@@ -1599,6 +1696,15 @@
     }, { passive: false });
     $('mapZoomIn')?.addEventListener('click', () => zoomAt(1.16));
     $('mapZoomOut')?.addEventListener('click', () => zoomAt(1 / 1.16));
+    $('mapZoomRange')?.addEventListener('input', (event) => {
+      const targetScale = Number(event.target.value) / 100;
+      zoomAt(targetScale / Math.max(mapTransform.scale, 0.001));
+    });
+    svg.addEventListener('dblclick', (event) => {
+      if (event.target.closest?.('.graph-node-group, .graph-edge-group')) return;
+      event.preventDefault();
+      zoomAt(event.shiftKey ? 1 / 1.55 : 1.55, event.clientX, event.clientY);
+    });
 
     svg.addEventListener('pointerdown', (event) => {
       if (event.target.closest?.('.graph-node-group, .graph-edge-group')) return;
@@ -1620,9 +1726,68 @@
       try { svg.releasePointerCapture(event.pointerId); } catch (_) { /* no-op */ }
     });
 
+    const mini = $('mapMiniMap');
+    let miniDragging = false;
+    const centreFromMini = (event) => {
+      if (!mini) return;
+      const rect = mini.getBoundingClientRect();
+      const worldX = (event.clientX - rect.left) * 1200 / Math.max(rect.width, 1);
+      const worldY = (event.clientY - rect.top) * 760 / Math.max(rect.height, 1);
+      mapTransform.x = 600 - worldX * mapTransform.scale;
+      mapTransform.y = 380 - worldY * mapTransform.scale;
+      applyMapTransform();
+    };
+    mini?.addEventListener('pointerdown', (event) => {
+      miniDragging = true;
+      mini.setPointerCapture(event.pointerId);
+      centreFromMini(event);
+    });
+    mini?.addEventListener('pointermove', (event) => {
+      if (miniDragging) centreFromMini(event);
+    });
+    mini?.addEventListener('pointerup', (event) => {
+      miniDragging = false;
+      try { mini.releasePointerCapture(event.pointerId); } catch (_) { /* no-op */ }
+    });
+
+    $('mapBack')?.addEventListener('click', () => navigateMapHistory(-1));
+    $('mapForward')?.addEventListener('click', () => navigateMapHistory(1));
+    $('mapFullscreen')?.addEventListener('click', async () => {
+      try {
+        if (document.fullscreenElement === wrap) await document.exitFullscreen();
+        else await wrap.requestFullscreen();
+      } catch (_) { /* Fullscreen may be blocked by the browser. */ }
+    });
+    document.addEventListener('fullscreenchange', () => {
+      const button = $('mapFullscreen');
+      if (!button) return;
+      const active = document.fullscreenElement === wrap;
+      button.textContent = active ? 'Exit full screen' : 'Full screen';
+      button.setAttribute('aria-label', active ? 'Exit map full screen' : 'Open map full screen');
+      requestAnimationFrame(() => {
+        applyMapTransform();
+        updateMiniViewport();
+      });
+    });
+
+    wrap.addEventListener('keydown', (event) => {
+      if (event.target.matches?.('input, select, textarea, button')) return;
+      if (event.key === '+' || event.key === '=') { event.preventDefault(); zoomAt(1.16); }
+      else if (event.key === '-' || event.key === '_') { event.preventDefault(); zoomAt(1 / 1.16); }
+      else if (event.key === '0') { event.preventDefault(); resetMapTransform(); }
+      else if (event.key.toLowerCase() === 'f') { event.preventDefault(); fitMapToSelection(); }
+      else if (event.key === 'ArrowLeft') { event.preventDefault(); mapTransform.x += 45; applyMapTransform(); }
+      else if (event.key === 'ArrowRight') { event.preventDefault(); mapTransform.x -= 45; applyMapTransform(); }
+      else if (event.key === 'ArrowUp') { event.preventDefault(); mapTransform.y += 45; applyMapTransform(); }
+      else if (event.key === 'ArrowDown') { event.preventDefault(); mapTransform.y -= 45; applyMapTransform(); }
+    });
+
     $('mapFit').addEventListener('click', fitMapToSelection);
     $('mapReset').addEventListener('click', () => {
       mapFocus = 'concept_viability';
+      mapFocusHistory = [mapFocus];
+      mapFocusHistoryIndex = 0;
+      updateMapHistoryButtons();
       mapPath = [];
       mapSelectedEdge = null;
       $('mapSearch').value = 'Viability';
@@ -1713,18 +1878,6 @@
 /* 0.7 constellation controls: provisional neighbourhoods, zoom and participation. */
 (() => {
   const emergentCategories = () => window.TANGLE_DATA?.emergent_categories || [];
-  let tangleZoom = 1;
-
-  function zoomMapAt(factor, originX = 50, originY = 50) {
-    const svg = document.getElementById('graphSvg');
-    if (!svg) return;
-    tangleZoom = Math.max(0.55, Math.min(2.5, tangleZoom * factor));
-    svg.style.transformOrigin = `${originX}% ${originY}%`;
-    svg.style.transform = `scale(${tangleZoom})`;
-    const status = document.getElementById('mapZoomStatus');
-    if (status) status.textContent = `${Math.round(tangleZoom * 100)}%`;
-  }
-
   function categoryMembers(category) {
     return new Set(category?.member_node_ids || category?.members || []);
   }
