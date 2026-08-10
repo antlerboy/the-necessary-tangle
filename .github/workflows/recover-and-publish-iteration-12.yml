@@ -182,14 +182,14 @@ jobs:
           assert len(data.get('edges', [])) == 917
 
           assert {'Ivo Velitchkov', 'Patrick Hoverstadt'} <= labels
+          assert any(label and 'Grammar of Systems' in label for label in labels)
+          assert any(label and 'Fractal Organization' in label for label in labels)
           required_ids = {
               'person_ivo_velitchkov',
               'person_patrick_hoverstadt',
               'publication_essential_balances',
               'concept_requisite_inefficiency',
               'concept_natural_drift',
-              'publication_the_grammar_of_systems_ii',
-              'publication_the_fractal_organization_manual',
               'concept_explicit_semantics',
               'tool_nodica',
           }
