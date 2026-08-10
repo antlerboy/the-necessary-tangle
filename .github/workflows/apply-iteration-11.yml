@@ -10,6 +10,7 @@ on:
       - "scripts/fix_iteration_11_regression_gates.py"
       - "scripts/fix_iteration_11_legacy_zoom.py"
       - "scripts/fix_iteration_11_zoom_marker.py"
+      - "scripts/fix_iteration_11_build_idempotency.py"
 
 permissions:
   contents: write
@@ -41,10 +42,11 @@ jobs:
       - name: Prepare the durable release build
         run: python3 scripts/prepare_iteration_11_release.py
 
-      - name: Update retained regression gates
+      - name: Update retained regression and build gates
         run: |
           python3 scripts/fix_iteration_11_regression_gates.py
           python3 scripts/fix_iteration_11_zoom_marker.py
+          python3 scripts/fix_iteration_11_build_idempotency.py
 
       - name: Remove the obsolete whole-SVG zoom implementation
         run: python3 scripts/fix_iteration_11_legacy_zoom.py
@@ -94,6 +96,7 @@ jobs:
           rm -f scripts/fix_iteration_11_regression_gates.py
           rm -f scripts/fix_iteration_11_legacy_zoom.py
           rm -f scripts/fix_iteration_11_zoom_marker.py
+          rm -f scripts/fix_iteration_11_build_idempotency.py
           git status --short
 
       - name: Commit the validated iteration
