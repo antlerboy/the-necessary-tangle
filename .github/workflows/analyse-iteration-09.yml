@@ -1,0 +1,500 @@
+name: Analyse iteration 0.9 evidence
+
+on:
+  push:
+    branches: ["agent/iteration-09-ai-observations"]
+    paths:
+      - ".github/workflows/analyse-iteration-09.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  analyse:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out iteration branch
+        uses: actions/checkout@v7
+        with:
+          ref: agent/iteration-09-ai-observations
+          fetch-depth: 0
+
+      - name: Analyse the published graph and interface
+        run: |
+          mkdir -p analysis
+          python3 - <<'PY'
+          from __future__ import annotations
+
+          import json
+          import math
+          import re
+          from collections import Counter, defaultdict, deque
+          from pathlib import Path
+          from urllib.parse import urlparse
+
+          ROOT = Path('.')
+          data = json.loads((ROOT / 'data/public-data.json').read_text(encoding='utf-8'))
+          index = (ROOT / 'docs/index.html').read_text(encoding='utf-8')
+          app = (ROOT / 'docs/assets/app.js').read_text(encoding='utf-8')
+
+          def parse(value, fallback=None):
+              if fallback is None:
+                  fallback = []
+              if isinstance(value, (list, dict)):
+                  return value
+              if not value:
+                  return fallback
+              try:
+                  return json.loads(value)
+              except Exception:
+                  return fallback
+
+          redirects = data.get('canonical_redirects', {})
+          canonical = lambda value: redirects.get(value, value)
+          public_nodes = {
+              node['id']: node for node in data.get('nodes', [])
+              if node.get('public_visibility') == 'public'
+              and canonical(node['id']) == node['id']
+          }
+          node_ids = set(public_nodes)
+
+          canonical_edges = []
+          for edge in data.get('edges', []):
+              source = canonical(edge.get('source'))
+              target = canonical(edge.get('target'))
+              if source not in node_ids or target not in node_ids or source == target:
+                  continue
+              canonical_edges.append({**edge, 'source': source, 'target': target})
+
+          def substantive(edge):
+              return (
+                  edge.get('relation_family') not in {'classification', 'evidence', 'documentary', 'legacy'}
+                  and edge.get('relation_type') != 'legacy_association_unspecified'
+                  and edge.get('claim_status') != 'legacy_unresolved'
+              )
+
+          substantive_edges = [edge for edge in canonical_edges if substantive(edge)]
+          provenance_edges = [edge for edge in canonical_edges if not substantive(edge)]
+
+          def graph(edges):
+              adjacency = {node_id: set() for node_id in node_ids}
+              for edge in edges:
+                  adjacency[edge['source']].add(edge['target'])
+                  adjacency[edge['target']].add(edge['source'])
+              return adjacency
+
+          substantive_adj = graph(substantive_edges)
+          all_adj = graph(canonical_edges)
+
+          def components(adjacency):
+              remaining = set(adjacency)
+              result = []
+              while remaining:
+                  start = min(remaining)
+                  remaining.remove(start)
+                  queue = [start]
+                  component = []
+                  while queue:
+                      current = queue.pop()
+                      component.append(current)
+                      for other in adjacency[current]:
+                          if other in remaining:
+                              remaining.remove(other)
+                              queue.append(other)
+                  result.append(component)
+              return sorted(result, key=lambda item: (-len(item), item[0] if item else ''))
+
+          substantive_components = components(substantive_adj)
+          all_components = components(all_adj)
+
+          def articulation_points(adjacency, allowed):
+              timer = 0
+              tin = {}
+              low = {}
+              visited = set()
+              result = set()
+
+              def dfs(node, parent=None):
+                  nonlocal timer
+                  visited.add(node)
+                  tin[node] = low[node] = timer
+                  timer += 1
+                  children = 0
+                  for other in adjacency[node]:
+                      if other not in allowed:
+                          continue
+                      if other == parent:
+                          continue
+                      if other in visited:
+                          low[node] = min(low[node], tin[other])
+                      else:
+                          dfs(other, node)
+                          low[node] = min(low[node], low[other])
+                          if parent is not None and low[other] >= tin[node]:
+                              result.add(node)
+                          children += 1
+                  if parent is None and children > 1:
+                      result.add(node)
+
+              for node in sorted(allowed):
+                  if node not in visited:
+                      dfs(node)
+              return result
+
+          largest_component = set(substantive_components[0]) if substantive_components else set()
+          articulation = articulation_points(substantive_adj, largest_component)
+
+          entity_counts = Counter(node.get('entity_type', 'unknown') for node in public_nodes.values())
+          level_counts = Counter(node.get('publication_level', 'unknown') for node in public_nodes.values())
+          review_counts = Counter(node.get('review_status') or node.get('status') or 'unknown' for node in public_nodes.values())
+          boundary_counts = Counter(str(node.get('boundary_ring', 'unknown')) for node in public_nodes.values())
+          tag_counts = Counter(tag for node in public_nodes.values() for tag in parse(node.get('set_tags')))
+
+          relation_family_counts = Counter(edge.get('relation_family', 'unknown') for edge in canonical_edges)
+          relation_type_counts = Counter(edge.get('relation_type', 'unknown') for edge in canonical_edges)
+          relation_status_counts = Counter(edge.get('claim_status', 'unknown') for edge in canonical_edges)
+
+          source_by_id = {source['id']: source for source in data.get('sources', [])}
+          node_source_usage = Counter()
+          edge_source_usage = Counter()
+          node_source_distribution = Counter()
+          edge_source_distribution = Counter()
+          nodes_without_sources = []
+          edges_without_sources = []
+          for node_id, node in public_nodes.items():
+              source_ids = [sid for sid in parse(node.get('source_ids')) if sid]
+              node_source_distribution[len(set(source_ids))] += 1
+              if not source_ids:
+                  nodes_without_sources.append(node_id)
+              node_source_usage.update(set(source_ids))
+          for edge in canonical_edges:
+              source_ids = [sid for sid in parse(edge.get('source_ids')) if sid]
+              edge_source_distribution[len(set(source_ids))] += 1
+              if not source_ids:
+                  edges_without_sources.append(edge.get('id'))
+              edge_source_usage.update(set(source_ids))
+
+          source_type_counts = Counter(source.get('source_type', 'unknown') for source in source_by_id.values())
+          quality_counts = Counter(source.get('quality_tier', 'unknown') for source in source_by_id.values())
+          domain_counts = Counter()
+          public_link_count = 0
+          for source in source_by_id.values():
+              url = source.get('url') or ''
+              if url:
+                  public_link_count += 1
+                  domain = urlparse(url).netloc.lower().removeprefix('www.')
+                  if domain:
+                      domain_counts[domain] += 1
+
+          top_source_usage = []
+          for source_id in set(node_source_usage) | set(edge_source_usage):
+              source = source_by_id.get(source_id, {})
+              top_source_usage.append({
+                  'id': source_id,
+                  'title': source.get('title', source_id),
+                  'node_uses': node_source_usage[source_id],
+                  'edge_uses': edge_source_usage[source_id],
+                  'total_uses': node_source_usage[source_id] + edge_source_usage[source_id],
+                  'url': source.get('url', ''),
+                  'source_type': source.get('source_type', ''),
+              })
+          top_source_usage.sort(key=lambda item: (-item['total_uses'], item['title'].casefold()))
+
+          layers = {
+              'conceptual': lambda edge: edge.get('relation_family') == 'conceptual',
+              'human_lineage': lambda edge: edge.get('relation_family') in {'human', 'influence', 'historical'},
+              'practice': lambda edge: edge.get('relation_family') == 'practice',
+              'contestation': lambda edge: edge.get('relation_family') == 'contestation',
+              'provenance': lambda edge: edge.get('relation_family') in {'classification', 'evidence', 'documentary'},
+              'legacy': lambda edge: edge.get('relation_family') == 'legacy' or edge.get('claim_status') == 'legacy_unresolved',
+          }
+          layer_report = {}
+          for name, predicate in layers.items():
+              selected = [edge for edge in canonical_edges if predicate(edge)]
+              incident = {edge['source'] for edge in selected} | {edge['target'] for edge in selected}
+              layer_report[name] = {'edges': len(selected), 'nodes': len(incident)}
+
+          degree_report = []
+          for node_id, neighbours in substantive_adj.items():
+              degree_report.append({
+                  'id': node_id,
+                  'label': public_nodes[node_id].get('label', node_id),
+                  'entity_type': public_nodes[node_id].get('entity_type', 'unknown'),
+                  'substantive_degree': len(neighbours),
+                  'all_edge_degree': len(all_adj[node_id]),
+                  'articulation_point': node_id in articulation,
+              })
+          degree_report.sort(key=lambda item: (-item['substantive_degree'], -item['all_edge_degree'], item['label'].casefold()))
+
+          isolation_by_type = Counter(
+              public_nodes[node_id].get('entity_type', 'unknown')
+              for node_id, neighbours in substantive_adj.items() if not neighbours
+          )
+          connected_by_type = Counter(
+              public_nodes[node_id].get('entity_type', 'unknown')
+              for node_id, neighbours in substantive_adj.items() if neighbours
+          )
+
+          categories = data.get('emergent_categories', [])
+          category_members = []
+          for category in categories:
+              category_members.extend(category.get('member_node_ids') or category.get('members') or [])
+          category_counter = Counter(category_members)
+          category_member_set = set(category_members)
+          substantive_connected = {node_id for node_id, neighbours in substantive_adj.items() if neighbours}
+
+          expansion_nodes = [
+              node for node in public_nodes.values()
+              if 'release_0_8_expansion' in parse(node.get('set_tags'))
+          ]
+          expansion_type_counts = Counter(node.get('entity_type', 'unknown') for node in expansion_nodes)
+          expansion_source_distribution = Counter(len(set(parse(node.get('source_ids')))) for node in expansion_nodes)
+          initial_form_people = [
+              node for node in public_nodes.values()
+              if node.get('entity_type') == 'person'
+              and re.match(r'^(?:[A-Z]\.(?:\s*|$)){1,4}', node.get('label', ''))
+          ]
+          all_people = [node for node in public_nodes.values() if node.get('entity_type') == 'person']
+
+          profile_ids = {profile.get('node_id') for profile in data.get('profiles', [])}
+          developed_by_type = Counter(
+              node.get('entity_type', 'unknown') for node_id, node in public_nodes.items()
+              if node.get('publication_level') == 'profile' or node_id in profile_ids
+          )
+
+          journeys = data.get('journeys', [])
+          journey_steps = [len(journey.get('steps', [])) for journey in journeys]
+
+          # Approximate navigation semantics: anchors are right-clickable; buttons are not.
+          button_view_links = len(re.findall(r'<button[^>]+data-view-link=', index))
+          anchor_view_links = len(re.findall(r'<a[^>]+(?:href="#view=|data-view-link=)', index))
+          generated_button_links = app.count('class="text-button entry-link') + app.count('class="entry-link')
+          generated_anchor_links = app.count('<a ') + app.count('href="#view=')
+          text_align_centre_hits = len(re.findall(r'text-align\s*:\s*center', (ROOT / 'docs/assets/styles.css').read_text(encoding='utf-8') + (ROOT / 'docs/assets/site-enhancements.css').read_text(encoding='utf-8')))
+
+          private_url_patterns = ('sharepoint.com', 'redquadrant', 'publicservicetransformation.org', 'localhost', '127.0.0.1')
+          potentially_private_urls = []
+          for source in source_by_id.values():
+              url = (source.get('url') or '').lower()
+              if any(pattern in url for pattern in private_url_patterns):
+                  potentially_private_urls.append({'id': source.get('id'), 'url': source.get('url')})
+
+          facts = {
+              'release': data.get('meta', {}).get('release'),
+              'public_entries': len(public_nodes),
+              'entity_types': dict(sorted(entity_counts.items())),
+              'publication_levels': dict(sorted(level_counts.items())),
+              'developed_profiles': len(profile_ids & node_ids),
+              'developed_profiles_by_type': dict(sorted(developed_by_type.items())),
+              'review_statuses': dict(review_counts.most_common()),
+              'boundary_rings': dict(sorted(boundary_counts.items())),
+              'sources': len(source_by_id),
+              'sources_with_public_links': public_link_count,
+              'source_types': dict(source_type_counts.most_common()),
+              'source_quality_tiers': dict(quality_counts.most_common()),
+              'source_domains': dict(domain_counts.most_common()),
+              'top_source_usage': top_source_usage[:20],
+              'node_source_count_distribution': {str(k): v for k, v in sorted(node_source_distribution.items())},
+              'edge_source_count_distribution': {str(k): v for k, v in sorted(edge_source_distribution.items())},
+              'nodes_without_sources': len(nodes_without_sources),
+              'edges_without_sources': len(edges_without_sources),
+              'edges_total': len(canonical_edges),
+              'edges_substantive': len(substantive_edges),
+              'edges_provenance_or_legacy': len(provenance_edges),
+              'relation_families': dict(relation_family_counts.most_common()),
+              'relation_types_top': dict(relation_type_counts.most_common(30)),
+              'relation_statuses': dict(relation_status_counts.most_common()),
+              'layers': layer_report,
+              'substantive_components': len(substantive_components),
+              'substantive_largest_component': len(substantive_components[0]) if substantive_components else 0,
+              'substantive_connected_nodes': len(substantive_connected),
+              'substantive_isolated_nodes': len(node_ids - substantive_connected),
+              'all_edge_components': len(all_components),
+              'all_edge_largest_component': len(all_components[0]) if all_components else 0,
+              'substantive_isolates_by_type': dict(sorted(isolation_by_type.items())),
+              'substantive_connected_by_type': dict(sorted(connected_by_type.items())),
+              'top_substantive_degree': degree_report[:30],
+              'largest_component_articulation_points': [
+                  item for item in degree_report if item['articulation_point']
+              ],
+              'emergent_categories': len(categories),
+              'category_memberships': len(category_members),
+              'category_unique_members': len(category_member_set),
+              'category_overlaps': sum(1 for count in category_counter.values() if count > 1),
+              'category_coverage_of_substantive_connected': len(category_member_set & substantive_connected),
+              'substantive_connected_not_in_categories': len(substantive_connected - category_member_set),
+              'category_members_now_isolated': len(category_member_set - substantive_connected),
+              'expansion_08_nodes': len(expansion_nodes),
+              'expansion_08_types': dict(sorted(expansion_type_counts.items())),
+              'expansion_08_source_count_distribution': {str(k): v for k, v in sorted(expansion_source_distribution.items())},
+              'people_total': len(all_people),
+              'people_with_initial_form_labels': len(initial_form_people),
+              'initial_form_examples': [node.get('label') for node in sorted(initial_form_people, key=lambda item: item.get('label', ''))[:30]],
+              'journeys': len(journeys),
+              'journey_steps': journey_steps,
+              'navigation': {
+                  'button_view_links': button_view_links,
+                  'anchor_view_links': anchor_view_links,
+                  'generated_button_link_markers': generated_button_links,
+                  'generated_anchor_markers': generated_anchor_links,
+                  'text_align_center_rules': text_align_centre_hits,
+              },
+              'potentially_private_source_urls': potentially_private_urls,
+              'top_tags': dict(tag_counts.most_common(40)),
+          }
+
+          def pct(part, whole):
+              return 0.0 if not whole else round(100 * part / whole, 1)
+
+          observations = [
+              {
+                  'id': 'breadth_depth_asymmetry',
+                  'kind': 'measurement_and_inference',
+                  'title': 'The atlas has become broad much faster than it has become deep',
+                  'evidence': {
+                      'public_entries': len(public_nodes),
+                      'developed_profiles': len(profile_ids & node_ids),
+                      'developed_share_pct': pct(len(profile_ids & node_ids), len(public_nodes)),
+                      'expansion_entries': len(expansion_nodes),
+                  },
+              },
+              {
+                  'id': 'two_graphs',
+                  'kind': 'measurement_and_inference',
+                  'title': 'There are now two materially different maps: a provenance graph and a substantive ideas-and-practice graph',
+                  'evidence': {
+                      'all_edges': len(canonical_edges),
+                      'substantive_edges': len(substantive_edges),
+                      'non_substantive_edges': len(provenance_edges),
+                      'substantive_share_pct': pct(len(substantive_edges), len(canonical_edges)),
+                      'substantive_connected_nodes': len(substantive_connected),
+                      'all_edge_largest_component': len(all_components[0]) if all_components else 0,
+                  },
+              },
+              {
+                  'id': 'practice_periphery',
+                  'kind': 'measurement_and_inference',
+                  'title': 'The conceptual core is substantially more connected than methods, tools, practices and laws',
+                  'evidence': {
+                      'isolates_by_type': dict(sorted(isolation_by_type.items())),
+                      'entity_types': dict(sorted(entity_counts.items())),
+                  },
+              },
+              {
+                  'id': 'source_concentration',
+                  'kind': 'measurement_and_inference',
+                  'title': 'The 0.8 breadth is auditable but heavily concentrated in a small number of discovery sources',
+                  'evidence': {
+                      'sources': len(source_by_id),
+                      'top_sources': top_source_usage[:8],
+                      'expansion_source_distribution': {str(k): v for k, v in sorted(expansion_source_distribution.items())},
+                  },
+              },
+              {
+                  'id': 'entity_resolution_risk',
+                  'kind': 'measurement_and_risk',
+                  'title': 'Initial-only author records create a predictable identity-resolution problem',
+                  'evidence': {
+                      'people_total': len(all_people),
+                      'initial_form_people': len(initial_form_people),
+                      'share_pct': pct(len(initial_form_people), len(all_people)),
+                  },
+              },
+              {
+                  'id': 'stale_neighbourhoods',
+                  'kind': 'measurement_and_risk',
+                  'title': 'The published emergent neighbourhoods no longer cover the whole connected substantive graph',
+                  'evidence': {
+                      'connected_nodes': len(substantive_connected),
+                      'category_unique_members': len(category_member_set),
+                      'connected_not_in_categories': len(substantive_connected - category_member_set),
+                  },
+              },
+              {
+                  'id': 'single_points_of_interpretive_failure',
+                  'kind': 'measurement_and_inference',
+                  'title': 'A small set of bridge concepts carries a disproportionate amount of interpretive traffic',
+                  'evidence': {
+                      'articulation_points': [
+                          {'id': item['id'], 'label': item['label'], 'degree': item['substantive_degree']}
+                          for item in degree_report if item['articulation_point']
+                      ],
+                  },
+              },
+              {
+                  'id': 'interface_semantics',
+                  'kind': 'measurement_and_design_inference',
+                  'title': 'The interface still treats many navigational affordances as actions rather than links',
+                  'evidence': facts['navigation'],
+              },
+          ]
+
+          report = {'facts': facts, 'observations': observations}
+          (ROOT / 'analysis/iteration-09-observations.json').write_text(
+              json.dumps(report, ensure_ascii=False, indent=2) + '\n', encoding='utf-8'
+          )
+
+          lines = [
+              '# Iteration 0.9 data observations', '',
+              f"Release analysed: `{facts['release']}`", '',
+              '## Scale and depth', '',
+              f"- Public entries: {facts['public_entries']}",
+              f"- Developed profiles: {facts['developed_profiles']} ({pct(facts['developed_profiles'], facts['public_entries'])}%)",
+              f"- Sources: {facts['sources']} ({facts['sources_with_public_links']} with public links)",
+              f"- Typed public edges: {facts['edges_total']}",
+              f"- Substantive edges: {facts['edges_substantive']} ({pct(facts['edges_substantive'], facts['edges_total'])}%)", '',
+              '### Entry types', '',
+          ]
+          lines += [f'- {key}: {value}' for key, value in sorted(entity_counts.items(), key=lambda item: (-item[1], item[0]))]
+          lines += ['', '## Connectivity', '',
+                    f"- Substantively connected nodes: {facts['substantive_connected_nodes']}",
+                    f"- Substantively isolated nodes: {facts['substantive_isolated_nodes']}",
+                    f"- Substantive components: {facts['substantive_components']}",
+                    f"- Largest substantive component: {facts['substantive_largest_component']}",
+                    f"- Largest component using every typed edge: {facts['all_edge_largest_component']}", '',
+                    '### Substantive isolates by type', '']
+          lines += [f'- {key}: {value} of {entity_counts[key]}' for key, value in sorted(isolation_by_type.items(), key=lambda item: (-item[1], item[0]))]
+          lines += ['', '### Highest substantive degree', '']
+          for item in degree_report[:20]:
+              marker = ' — articulation point' if item['articulation_point'] else ''
+              lines.append(f"- {item['label']} [{item['entity_type']}]: {item['substantive_degree']}{marker}")
+          lines += ['', '## Layers', '']
+          for name, values in layer_report.items():
+              lines.append(f"- {name}: {values['edges']} edges touching {values['nodes']} nodes")
+          lines += ['', '## Source concentration', '']
+          for source in top_source_usage[:15]:
+              lines.append(f"- {source['title']}: {source['node_uses']} node uses; {source['edge_uses']} edge uses")
+          lines += ['', '## Emergent neighbourhoods', '',
+                    f"- Published neighbourhoods: {len(categories)}",
+                    f"- Unique published neighbourhood members: {len(category_member_set)}",
+                    f"- Substantively connected nodes now: {len(substantive_connected)}",
+                    f"- Connected nodes outside published neighbourhoods: {len(substantive_connected - category_member_set)}", '',
+                    '## Expansion and entity-resolution risk', '',
+                    f"- 0.8 expansion entries: {len(expansion_nodes)}",
+                    f"- People represented by initial-form labels: {len(initial_form_people)} of {len(all_people)}", '',
+                    '## Interface checks', '',
+                    f"- Static view buttons: {button_view_links}",
+                    f"- Static view anchors: {anchor_view_links}",
+                    f"- Generated button-link markers: {generated_button_links}",
+                    f"- Generated anchor markers: {generated_anchor_links}",
+                    f"- CSS centre-alignment rules: {text_align_centre_hits}", '',
+                    '## Candidate observations for the public AI page', '']
+          for observation in observations:
+              lines.append(f"### {observation['title']}")
+              lines.append('')
+              lines.append(f"Type: `{observation['kind']}`")
+              lines.append('')
+              lines.append('```json')
+              lines.append(json.dumps(observation['evidence'], ensure_ascii=False, indent=2))
+              lines.append('```')
+              lines.append('')
+          (ROOT / 'analysis/iteration-09-observations.md').write_text('\n'.join(lines), encoding='utf-8')
+          PY
+
+      - name: Commit the analysis
+        run: |
+          git config user.name "Benjamin P Taylor"
+          git config user.email "ben.taylor@redquadrant.com"
+          git add analysis/
+          git commit -m "Analyse the graph for iteration 0.9"
+          git push origin HEAD:agent/iteration-09-ai-observations
