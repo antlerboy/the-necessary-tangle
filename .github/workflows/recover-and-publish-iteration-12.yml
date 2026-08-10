@@ -110,8 +110,25 @@ jobs:
               raise SystemExit(f'Recovered source archive is missing: {missing}')
           PY
 
+          git show origin/main:scripts/validate_expansion_08.py > scripts/validate_expansion_08.py
+
           python3 - <<'PY'
           from pathlib import Path
+
+          expansion = Path('scripts/validate_expansion_08.py')
+          text = expansion.read_text(encoding='utf-8')
+          old_allowed = 'ALLOWED_RELEASES = {"0.8-expansion-alpha", "0.9-observations-alpha", "0.10-practice-safety-alpha", "0.11-visual-map-alpha"}'
+          new_allowed = 'ALLOWED_RELEASES = {"0.8-expansion-alpha", "0.9-observations-alpha", "0.10-practice-safety-alpha", "0.11-visual-map-alpha", "0.12-practitioner-intake-alpha"}'
+          if old_allowed not in text:
+              raise SystemExit('Could not locate 0.8 release allowance')
+          text = text.replace(old_allowed, new_allowed, 1)
+          old_dot = 'elif meta.get("release") == "0.11-visual-map-alpha":'
+          new_dot = 'elif meta.get("release") in {"0.11-visual-map-alpha", "0.12-practitioner-intake-alpha"}:'
+          if old_dot not in text:
+              raise SystemExit('Could not locate 0.8 curator-dot release condition')
+          text = text.replace(old_dot, new_dot, 1)
+          expansion.write_text(text, encoding='utf-8')
+          print('Restored and extended the 0.8 validator for 0.12')
 
           for path in Path('scripts').glob('*.py'):
               data = path.read_bytes()
@@ -119,9 +136,9 @@ jobs:
                   path.write_bytes(data.replace(b'\x00', b''))
                   print('Removed null bytes from', path)
 
-          path = Path('Makefile')
+          makefile = Path('Makefile')
           lines = [
-              line for line in path.read_text(encoding='utf-8').splitlines()
+              line for line in makefile.read_text(encoding='utf-8').splitlines()
               if 'scripts/normalise_iteration_11_dot.py' not in line
           ]
           for index, line in enumerate(lines):
@@ -130,7 +147,7 @@ jobs:
                   break
           else:
               raise SystemExit('Makefile has no patch_iteration_12.py line')
-          path.write_text('\n'.join(lines) + '\n', encoding='utf-8')
+          makefile.write_text('\n'.join(lines) + '\n', encoding='utf-8')
           print('Moved curator-dot normalisation after the 0.12 site patch')
           PY
 
