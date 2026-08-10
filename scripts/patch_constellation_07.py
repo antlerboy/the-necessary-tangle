@@ -146,6 +146,11 @@ CSS_APPEND = r'''
 '''
 
 
+def clean(text: str) -> str:
+    """Strip trailing whitespace and leave exactly one final newline."""
+    return "\n".join(line.rstrip() for line in text.rstrip().splitlines()) + "\n"
+
+
 def main() -> None:
     text = INDEX.read_text(encoding="utf-8")
     text = text.replace("antlerboy-benjamintaylor.github.io/the-necessary-tangle", "antlerboy.github.io/the-necessary-tangle")
@@ -173,15 +178,17 @@ def main() -> None:
     if 'class="curator-notebook-link"' not in text:
         text = text.replace('</footer>', '<p><a class="curator-notebook-link" href="https://github.com/antlerboy/the-necessary-tangle/issues/2">Curator notebook</a></p></footer>', 1)
 
-    INDEX.write_text(text, encoding="utf-8")
+    INDEX.write_text(clean(text), encoding="utf-8")
 
     app = APP.read_text(encoding="utf-8")
     if "function zoomMapAt" not in app:
-        APP.write_text(app.rstrip() + APPEND_JS + "\n", encoding="utf-8")
+        app = app.rstrip() + "\n" + APPEND_JS.strip() + "\n"
+    APP.write_text(clean(app), encoding="utf-8")
 
     css = CSS.read_text(encoding="utf-8") if CSS.exists() else ""
     if ".category-halo" not in css:
-        CSS.write_text(css.rstrip() + CSS_APPEND + "\n", encoding="utf-8")
+        css = css.rstrip() + "\n" + CSS_APPEND.strip() + "\n"
+    CSS.write_text(clean(css), encoding="utf-8")
 
     print("Applied 0.7 constellation interface controls and participation route")
 
