@@ -1,0 +1,1423 @@
+{
+  "official_paper_count": 89,
+  "unique_author_forms": 119,
+  "matched_existing_people": 12,
+  "ambiguous_author_forms": 0,
+  "new_author_candidates": 107,
+  "existing": [
+    {
+      "label": "A. M. Turing",
+      "papers": [
+        {
+          "number": 11,
+          "title": "Computing Machinery and Intelligence",
+          "year": "1950",
+          "publication_id": "publication_fpcs_011"
+        },
+        {
+          "number": 13,
+          "title": "The Chemical Basis of Morphogenesis",
+          "year": "1952",
+          "publication_id": "publication_fpcs_013"
+        }
+      ],
+      "existing_id": "person_alan_turing",
+      "existing_label": "Alan Turing"
+    },
+    {
+      "label": "A. Rosenblueth",
+      "papers": [
+        {
+          "number": 6,
+          "title": "Behavior, Purpose, and Teleology",
+          "year": "1943",
+          "publication_id": "publication_fpcs_006"
+        },
+        {
+          "number": 8,
+          "title": "The Role of Models in Science",
+          "year": "1945",
+          "publication_id": "publication_fpcs_008"
+        }
+      ],
+      "existing_id": "person_arturo_rosenblueth",
+      "existing_label": "Arturo Rosenblueth"
+    },
+    {
+      "label": "C. E. Shannon",
+      "papers": [
+        {
+          "number": 9,
+          "title": "A Mathematical Theory of Communication",
+          "year": "1948",
+          "publication_id": "publication_fpcs_009"
+        }
+      ],
+      "existing_id": "person_claude_e_shannon",
+      "existing_label": "Claude E. Shannon"
+    },
+    {
+      "label": "F. G. Varela",
+      "papers": [
+        {
+          "number": 48,
+          "title": "Autopoiesis: The Organization of Living Systems, Its Characterization, and a Model",
+          "year": "1974",
+          "publication_id": "publication_fpcs_048"
+        }
+      ],
+      "existing_id": "person_francisco_varela",
+      "existing_label": "Francisco Varela"
+    },
+    {
+      "label": "H. A. Simon",
+      "papers": [
+        {
+          "number": 21,
+          "title": "The Architecture of Complexity",
+          "year": "1962",
+          "publication_id": "publication_fpcs_021"
+        },
+        {
+          "number": 46,
+          "title": "The Organization of Complex Systems",
+          "year": "1973",
+          "publication_id": "publication_fpcs_046"
+        },
+        {
+          "number": 74,
+          "title": "Organizations and Markets",
+          "year": "1991",
+          "publication_id": "publication_fpcs_074"
+        }
+      ],
+      "existing_id": "person_herbert_simon",
+      "existing_label": "Herbert Simon"
+    },
+    {
+      "label": "H. R. Maturana",
+      "papers": [
+        {
+          "number": 48,
+          "title": "Autopoiesis: The Organization of Living Systems, Its Characterization, and a Model",
+          "year": "1974",
+          "publication_id": "publication_fpcs_048"
+        }
+      ],
+      "existing_id": "person_humberto_maturana",
+      "existing_label": "Humberto Maturana"
+    },
+    {
+      "label": "H. von Foerster",
+      "papers": [
+        {
+          "number": 42,
+          "title": "Notes on an Epistemology for Living Things",
+          "year": "1972",
+          "publication_id": "publication_fpcs_042"
+        }
+      ],
+      "existing_id": "person_heinz_von_foerster",
+      "existing_label": "Heinz von Foerster"
+    },
+    {
+      "label": "J. Bigelow",
+      "papers": [
+        {
+          "number": 6,
+          "title": "Behavior, Purpose, and Teleology",
+          "year": "1943",
+          "publication_id": "publication_fpcs_006"
+        }
+      ],
+      "existing_id": "person_julian_bigelow",
+      "existing_label": "Julian Bigelow"
+    },
+    {
+      "label": "N. Wiener",
+      "papers": [
+        {
+          "number": 6,
+          "title": "Behavior, Purpose, and Teleology",
+          "year": "1943",
+          "publication_id": "publication_fpcs_006"
+        },
+        {
+          "number": 8,
+          "title": "The Role of Models in Science",
+          "year": "1945",
+          "publication_id": "publication_fpcs_008"
+        }
+      ],
+      "existing_id": "person_norbert_wiener",
+      "existing_label": "Norbert Wiener"
+    },
+    {
+      "label": "R. C. Conant",
+      "papers": [
+        {
+          "number": 34,
+          "title": "Every Good Regulator of a System Must Be a Model of That System",
+          "year": "1970",
+          "publication_id": "publication_fpcs_034"
+        }
+      ],
+      "existing_id": "person_roger_c_conant",
+      "existing_label": "Roger C. Conant"
+    },
+    {
+      "label": "W. R. Ashby",
+      "papers": [
+        {
+          "number": 34,
+          "title": "Every Good Regulator of a System Must Be a Model of That System",
+          "year": "1970",
+          "publication_id": "publication_fpcs_034"
+        }
+      ],
+      "existing_id": "person_w_ross_ashby",
+      "existing_label": "W. Ross Ashby"
+    },
+    {
+      "label": "W. S. McCulloch",
+      "papers": [
+        {
+          "number": 5,
+          "title": "A Logical Calculus of the Ideas Immanent in Nervous Activity",
+          "year": "1943",
+          "publication_id": "publication_fpcs_005"
+        }
+      ],
+      "existing_id": "person_warren_mcculloch",
+      "existing_label": "Warren McCulloch"
+    }
+  ],
+  "ambiguous": [],
+  "candidates": [
+    {
+      "label": "A. Cobham",
+      "papers": [
+        {
+          "number": 24,
+          "title": "The Intrinsic Computational Difficulty of Functions",
+          "year": "1964",
+          "publication_id": "publication_fpcs_024"
+        }
+      ]
+    },
+    {
+      "label": "A. J. Lotka",
+      "papers": [
+        {
+          "number": 1,
+          "title": "Contribution to the Energetics of Evolution",
+          "year": "1922",
+          "publication_id": "publication_fpcs_001"
+        }
+      ]
+    },
+    {
+      "label": "A. N. Kolmogorov",
+      "papers": [
+        {
+          "number": 31,
+          "title": "Three Approaches to the Quantitative Definition of Information",
+          "year": "1968",
+          "publication_id": "publication_fpcs_031"
+        }
+      ]
+    },
+    {
+      "label": "A. S. Perelson",
+      "papers": [
+        {
+          "number": 68,
+          "title": "Immune Network Theory",
+          "year": "1989",
+          "publication_id": "publication_fpcs_068"
+        },
+        {
+          "number": 79,
+          "title": "Self–Nonself Discrimination in a Computer",
+          "year": "1994",
+          "publication_id": "publication_fpcs_079"
+        }
+      ]
+    },
+    {
+      "label": "B. B. Mandelbrot",
+      "papers": [
+        {
+          "number": 29,
+          "title": "How Long is the Coast of Britain? Statistical Self-Similarity and Fractional Dimension",
+          "year": "1967",
+          "publication_id": "publication_fpcs_029"
+        }
+      ]
+    },
+    {
+      "label": "B. J. Enquist",
+      "papers": [
+        {
+          "number": 83,
+          "title": "A General Model for the Origin of Allometric Scaling Laws in Biology",
+          "year": "1997",
+          "publication_id": "publication_fpcs_083"
+        }
+      ]
+    },
+    {
+      "label": "B. P. Stojkovic",
+      "papers": [
+        {
+          "number": 88,
+          "title": "The Middle Way",
+          "year": "1999",
+          "publication_id": "publication_fpcs_088"
+        }
+      ]
+    },
+    {
+      "label": "C. G. Langton",
+      "papers": [
+        {
+          "number": 61,
+          "title": "Studying Artificial Life with Cellular Automata",
+          "year": "1986",
+          "publication_id": "publication_fpcs_061"
+        }
+      ]
+    },
+    {
+      "label": "C. H. Bennett",
+      "papers": [
+        {
+          "number": 43,
+          "title": "Logical Reversibility of Computation",
+          "year": "1973",
+          "publication_id": "publication_fpcs_043"
+        }
+      ]
+    },
+    {
+      "label": "C. H. Waddington",
+      "papers": [
+        {
+          "number": 4,
+          "title": "Canalization of Development and the Inheritance of Acquired Characters",
+          "year": "1942",
+          "publication_id": "publication_fpcs_004"
+        }
+      ]
+    },
+    {
+      "label": "C. Reynolds",
+      "papers": [
+        {
+          "number": 65,
+          "title": "Flocks, Herds, and Schools: A Distributed Behavioral Model",
+          "year": "1987",
+          "publication_id": "publication_fpcs_065"
+        }
+      ]
+    },
+    {
+      "label": "C. S. Holling",
+      "papers": [
+        {
+          "number": 45,
+          "title": "Resilience and Stability of Ecological Systems",
+          "year": "1973",
+          "publication_id": "publication_fpcs_045"
+        }
+      ]
+    },
+    {
+      "label": "C. Tang",
+      "papers": [
+        {
+          "number": 63,
+          "title": "Self-Organized Criticality: An Explanation of the 1/f Noise",
+          "year": "1987",
+          "publication_id": "publication_fpcs_063"
+        }
+      ]
+    },
+    {
+      "label": "D. H. Wolpert",
+      "papers": [
+        {
+          "number": 84,
+          "title": "No Free Lunch Theorems for Optimization",
+          "year": "1997",
+          "publication_id": "publication_fpcs_084"
+        }
+      ]
+    },
+    {
+      "label": "D. M. Raup",
+      "papers": [
+        {
+          "number": 27,
+          "title": "Geometric Analysis of Shell Coiling; General Problems",
+          "year": "1966",
+          "publication_id": "publication_fpcs_027"
+        }
+      ]
+    },
+    {
+      "label": "D. Pines",
+      "papers": [
+        {
+          "number": 88,
+          "title": "The Middle Way",
+          "year": "1999",
+          "publication_id": "publication_fpcs_088"
+        }
+      ]
+    },
+    {
+      "label": "D. Sherrington",
+      "papers": [
+        {
+          "number": 49,
+          "title": "Solvable Model of a Spin-Glass",
+          "year": "1975",
+          "publication_id": "publication_fpcs_049"
+        }
+      ]
+    },
+    {
+      "label": "D. Warland",
+      "papers": [
+        {
+          "number": 71,
+          "title": "Reading a Neural Code",
+          "year": "1991",
+          "publication_id": "publication_fpcs_071"
+        }
+      ]
+    },
+    {
+      "label": "D. Watts",
+      "papers": [
+        {
+          "number": 87,
+          "title": "Collective Dynamics of ‘Small-World’ Networks",
+          "year": "1998",
+          "publication_id": "publication_fpcs_087"
+        }
+      ]
+    },
+    {
+      "label": "E. B. W. Zubrow",
+      "papers": [
+        {
+          "number": 38,
+          "title": "Carrying Capacity and Dynamic Equilibrium in the Prehistoric Southwest",
+          "year": "1971",
+          "publication_id": "publication_fpcs_038"
+        }
+      ]
+    },
+    {
+      "label": "E. N. Lorenz",
+      "papers": [
+        {
+          "number": 23,
+          "title": "Deterministic Nonperiodic Flow",
+          "year": "1963",
+          "publication_id": "publication_fpcs_023"
+        }
+      ]
+    },
+    {
+      "label": "E. Ostrom",
+      "papers": [
+        {
+          "number": 89,
+          "title": "Collective Action and the Evolution of Social Norms",
+          "year": "2000",
+          "publication_id": "publication_fpcs_089"
+        }
+      ]
+    },
+    {
+      "label": "E. T. Jaynes",
+      "papers": [
+        {
+          "number": 14,
+          "title": "Information Theory and Statistical Mechanics",
+          "year": "1957",
+          "publication_id": "publication_fpcs_014"
+        }
+      ]
+    },
+    {
+      "label": "F. A. Hayek",
+      "papers": [
+        {
+          "number": 7,
+          "title": "The Use of Knowledge in Society",
+          "year": "1945",
+          "publication_id": "publication_fpcs_007"
+        }
+      ]
+    },
+    {
+      "label": "F. J. Dyson",
+      "papers": [
+        {
+          "number": 56,
+          "title": "A Model for the Origin of Life",
+          "year": "1982",
+          "publication_id": "publication_fpcs_056"
+        }
+      ]
+    },
+    {
+      "label": "F. J. Odling-Smee",
+      "papers": [
+        {
+          "number": 82,
+          "title": "Niche Construction",
+          "year": "1996",
+          "publication_id": "publication_fpcs_082"
+        }
+      ]
+    },
+    {
+      "label": "F. Rieke",
+      "papers": [
+        {
+          "number": 71,
+          "title": "Reading a Neural Code",
+          "year": "1991",
+          "publication_id": "publication_fpcs_071"
+        }
+      ]
+    },
+    {
+      "label": "G. B. West",
+      "papers": [
+        {
+          "number": 83,
+          "title": "A General Model for the Origin of Allometric Scaling Laws in Biology",
+          "year": "1997",
+          "publication_id": "publication_fpcs_083"
+        }
+      ]
+    },
+    {
+      "label": "G. J. Chaitin",
+      "papers": [
+        {
+          "number": 26,
+          "title": "On the Length of Programs for Computing Finite Binary Sequences",
+          "year": "1966",
+          "publication_id": "publication_fpcs_026"
+        }
+      ]
+    },
+    {
+      "label": "G. Nicolis",
+      "papers": [
+        {
+          "number": 60,
+          "title": "Self-Organisation in Nonequilibrium Systems: Towards a Dynamics of Complexity",
+          "year": "1985",
+          "publication_id": "publication_fpcs_060"
+        }
+      ]
+    },
+    {
+      "label": "G. Parisi",
+      "papers": [
+        {
+          "number": 53,
+          "title": "Infinite Number of Order Parameters for Spin-Glasses",
+          "year": "1979",
+          "publication_id": "publication_fpcs_053"
+        }
+      ]
+    },
+    {
+      "label": "G. R. Price",
+      "papers": [
+        {
+          "number": 35,
+          "title": "Selection and Covariance",
+          "year": "",
+          "publication_id": "publication_fpcs_035"
+        }
+      ]
+    },
+    {
+      "label": "H. Haken",
+      "papers": [
+        {
+          "number": 50,
+          "title": "Synergetics",
+          "year": "1976",
+          "publication_id": "publication_fpcs_050"
+        }
+      ]
+    },
+    {
+      "label": "I. L. Hofacker",
+      "papers": [
+        {
+          "number": 80,
+          "title": "From Sequences to Shapes and Back: A Case Study in RNA Secondary Structures",
+          "year": "1994",
+          "publication_id": "publication_fpcs_080"
+        }
+      ]
+    },
+    {
+      "label": "I. Prigogine",
+      "papers": [
+        {
+          "number": 60,
+          "title": "Self-Organisation in Nonequilibrium Systems: Towards a Dynamics of Complexity",
+          "year": "1985",
+          "publication_id": "publication_fpcs_060"
+        }
+      ]
+    },
+    {
+      "label": "J. A. Wheeler",
+      "papers": [
+        {
+          "number": 70,
+          "title": "Information, Physics, Quantum: The Search for Links",
+          "year": "1990",
+          "publication_id": "publication_fpcs_070"
+        }
+      ]
+    },
+    {
+      "label": "J. D. Farmer",
+      "papers": [
+        {
+          "number": 54,
+          "title": "Geometry from a Time Series",
+          "year": "1980",
+          "publication_id": "publication_fpcs_054"
+        },
+        {
+          "number": 69,
+          "title": "A Rosetta Stone for Connectionism",
+          "year": "1990",
+          "publication_id": "publication_fpcs_069"
+        }
+      ]
+    },
+    {
+      "label": "J. H. Brown",
+      "papers": [
+        {
+          "number": 83,
+          "title": "A General Model for the Origin of Allometric Scaling Laws in Biology",
+          "year": "1997",
+          "publication_id": "publication_fpcs_083"
+        }
+      ]
+    },
+    {
+      "label": "J. H. Holland",
+      "papers": [
+        {
+          "number": 20,
+          "title": "Outline for a Logical Theory of Adaptive Systems",
+          "year": "1962",
+          "publication_id": "publication_fpcs_020"
+        },
+        {
+          "number": 72,
+          "title": "Artificial Adaptive Agents in Economic Theory",
+          "year": "1991",
+          "publication_id": "publication_fpcs_072"
+        }
+      ]
+    },
+    {
+      "label": "J. H. Miller",
+      "papers": [
+        {
+          "number": 72,
+          "title": "Artificial Adaptive Agents in Economic Theory",
+          "year": "1991",
+          "publication_id": "publication_fpcs_072"
+        }
+      ]
+    },
+    {
+      "label": "J. J. Hopfield",
+      "papers": [
+        {
+          "number": 57,
+          "title": "Neural Networks and Physical Systems with Emergent Collective Computational Abilities",
+          "year": "1982",
+          "publication_id": "publication_fpcs_057"
+        }
+      ]
+    },
+    {
+      "label": "J. M. Kremer",
+      "papers": [
+        {
+          "number": 75,
+          "title": "Emergent Properties of Balinese Water Temple Networks: Coadaptation on a Rugged Fitness Landscape",
+          "year": "1993",
+          "publication_id": "publication_fpcs_075"
+        }
+      ]
+    },
+    {
+      "label": "J. Maynard Smith",
+      "papers": [
+        {
+          "number": 47,
+          "title": "The Theory of Games and the Evolution of Animal Conflicts",
+          "year": "1974",
+          "publication_id": "publication_fpcs_047"
+        }
+      ]
+    },
+    {
+      "label": "J. McCaskill",
+      "papers": [
+        {
+          "number": 66,
+          "title": "Molecular Quasi-Species",
+          "year": "1988",
+          "publication_id": "publication_fpcs_066"
+        }
+      ]
+    },
+    {
+      "label": "J. Nash",
+      "papers": [
+        {
+          "number": 12,
+          "title": "Non-Cooperative Games",
+          "year": "1951",
+          "publication_id": "publication_fpcs_012"
+        }
+      ]
+    },
+    {
+      "label": "J. P. Crutchfield",
+      "papers": [
+        {
+          "number": 54,
+          "title": "Geometry from a Time Series",
+          "year": "1980",
+          "publication_id": "publication_fpcs_054"
+        },
+        {
+          "number": 76,
+          "title": "Revisiting the Edge of Chaos: Evolving Cellular Automata to Perform Computations",
+          "year": "1993",
+          "publication_id": "publication_fpcs_076"
+        },
+        {
+          "number": 78,
+          "title": "The Calculi of Emergence: Computation, Dynamics, and Induction",
+          "year": "1994",
+          "publication_id": "publication_fpcs_078"
+        }
+      ]
+    },
+    {
+      "label": "J. Pearl",
+      "papers": [
+        {
+          "number": 62,
+          "title": "Fusion, Propagation, and Structuring in Belief Networks",
+          "year": "1986",
+          "publication_id": "publication_fpcs_062"
+        }
+      ]
+    },
+    {
+      "label": "J. S. Lansing",
+      "papers": [
+        {
+          "number": 75,
+          "title": "Emergent Properties of Balinese Water Temple Networks: Coadaptation on a Rugged Fitness Landscape",
+          "year": "1993",
+          "publication_id": "publication_fpcs_075"
+        }
+      ]
+    },
+    {
+      "label": "J. Schmalian",
+      "papers": [
+        {
+          "number": 88,
+          "title": "The Middle Way",
+          "year": "1999",
+          "publication_id": "publication_fpcs_088"
+        }
+      ]
+    },
+    {
+      "label": "J. von Neumann",
+      "papers": [
+        {
+          "number": 28,
+          "title": "Theory of Self-Reproducing Automata",
+          "year": "1966",
+          "publication_id": "publication_fpcs_028"
+        }
+      ]
+    },
+    {
+      "label": "K. Hasselmann",
+      "papers": [
+        {
+          "number": 51,
+          "title": "Stochastic Climate Models Part I. Theory",
+          "year": "1976",
+          "publication_id": "publication_fpcs_051"
+        }
+      ]
+    },
+    {
+      "label": "K. J. Arrow",
+      "papers": [
+        {
+          "number": 18,
+          "title": "The Economic Implications of Learning by Doing",
+          "year": "1962",
+          "publication_id": "publication_fpcs_018"
+        }
+      ]
+    },
+    {
+      "label": "K. Lindgren",
+      "papers": [
+        {
+          "number": 73,
+          "title": "Evolutionary Phenomena in Simple Dynamics",
+          "year": "1991",
+          "publication_id": "publication_fpcs_073"
+        }
+      ]
+    },
+    {
+      "label": "K. N. Laland",
+      "papers": [
+        {
+          "number": 82,
+          "title": "Niche Construction",
+          "year": "1996",
+          "publication_id": "publication_fpcs_082"
+        }
+      ]
+    },
+    {
+      "label": "K. Wiesenfeld",
+      "papers": [
+        {
+          "number": 63,
+          "title": "Self-Organized Criticality: An Explanation of the 1/f Noise",
+          "year": "1987",
+          "publication_id": "publication_fpcs_063"
+        }
+      ]
+    },
+    {
+      "label": "L. Allen",
+      "papers": [
+        {
+          "number": 79,
+          "title": "Self–Nonself Discrimination in a Computer",
+          "year": "1994",
+          "publication_id": "publication_fpcs_079"
+        }
+      ]
+    },
+    {
+      "label": "L. Szilárd",
+      "papers": [
+        {
+          "number": 2,
+          "title": "On the Decrease of Entropy in a Thermodynamic System by the Intervention of Intelligent Beings",
+          "year": "1929",
+          "publication_id": "publication_fpcs_002"
+        }
+      ]
+    },
+    {
+      "label": "M. Bunge",
+      "papers": [
+        {
+          "number": 19,
+          "title": "The Complexity of Simplicity",
+          "year": "1962",
+          "publication_id": "publication_fpcs_019"
+        }
+      ]
+    },
+    {
+      "label": "M. Eigen",
+      "papers": [
+        {
+          "number": 66,
+          "title": "Molecular Quasi-Species",
+          "year": "1988",
+          "publication_id": "publication_fpcs_066"
+        }
+      ]
+    },
+    {
+      "label": "M. Gell-Mann",
+      "papers": [
+        {
+          "number": 81,
+          "title": "Information Measures, Effective Complexity, and Total Information",
+          "year": "1996",
+          "publication_id": "publication_fpcs_081"
+        }
+      ]
+    },
+    {
+      "label": "M. I. Budyko",
+      "papers": [
+        {
+          "number": 32,
+          "title": "The Effect of Solar Radiation Variations on the Climate of the Earth",
+          "year": "1969",
+          "publication_id": "publication_fpcs_032"
+        }
+      ]
+    },
+    {
+      "label": "M. J. Feigenbaum",
+      "papers": [
+        {
+          "number": 58,
+          "title": "Universal Behavior in Nonlinear Systems",
+          "year": "1983",
+          "publication_id": "publication_fpcs_058"
+        }
+      ]
+    },
+    {
+      "label": "M. Kimura",
+      "papers": [
+        {
+          "number": 30,
+          "title": "Evolutionary Rate at the Molecular Level",
+          "year": "1968",
+          "publication_id": "publication_fpcs_030"
+        }
+      ]
+    },
+    {
+      "label": "M. Minsky",
+      "papers": [
+        {
+          "number": 17,
+          "title": "Steps Toward Artificial Intelligence",
+          "year": "1961",
+          "publication_id": "publication_fpcs_017"
+        }
+      ]
+    },
+    {
+      "label": "M. Mitchell",
+      "papers": [
+        {
+          "number": 76,
+          "title": "Revisiting the Edge of Chaos: Evolving Cellular Automata to Perform Computations",
+          "year": "1993",
+          "publication_id": "publication_fpcs_076"
+        }
+      ]
+    },
+    {
+      "label": "M. S. Granovetter",
+      "papers": [
+        {
+          "number": 44,
+          "title": "The Strength of Weak Ties",
+          "year": "1973",
+          "publication_id": "publication_fpcs_044"
+        }
+      ]
+    },
+    {
+      "label": "M. W. Feldman",
+      "papers": [
+        {
+          "number": 82,
+          "title": "Niche Construction",
+          "year": "1996",
+          "publication_id": "publication_fpcs_082"
+        }
+      ]
+    },
+    {
+      "label": "N. Eldredge",
+      "papers": [
+        {
+          "number": 52,
+          "title": "Punctuated Equilibria: The Tempo and Mode of Evolution Reconsidered",
+          "year": "1977",
+          "publication_id": "publication_fpcs_052"
+        }
+      ]
+    },
+    {
+      "label": "N. H. Packard",
+      "papers": [
+        {
+          "number": 54,
+          "title": "Geometry from a Time Series",
+          "year": "1980",
+          "publication_id": "publication_fpcs_054"
+        }
+      ]
+    },
+    {
+      "label": "O. E. Rössler",
+      "papers": [
+        {
+          "number": 36,
+          "title": "A System–Theoretic Model of Biogenesis (Ein systemtheoretisches Modell zur Biogenese)",
+          "year": "1971",
+          "publication_id": "publication_fpcs_036"
+        }
+      ]
+    },
+    {
+      "label": "P. Bak",
+      "papers": [
+        {
+          "number": 63,
+          "title": "Self-Organized Criticality: An Explanation of the 1/f Noise",
+          "year": "1987",
+          "publication_id": "publication_fpcs_063"
+        }
+      ]
+    },
+    {
+      "label": "P. F. Stadler",
+      "papers": [
+        {
+          "number": 80,
+          "title": "From Sequences to Shapes and Back: A Case Study in RNA Secondary Structures",
+          "year": "1994",
+          "publication_id": "publication_fpcs_080"
+        }
+      ]
+    },
+    {
+      "label": "P. Schuster",
+      "papers": [
+        {
+          "number": 66,
+          "title": "Molecular Quasi-Species",
+          "year": "1988",
+          "publication_id": "publication_fpcs_066"
+        },
+        {
+          "number": 80,
+          "title": "From Sequences to Shapes and Back: A Case Study in RNA Secondary Structures",
+          "year": "1994",
+          "publication_id": "publication_fpcs_080"
+        }
+      ]
+    },
+    {
+      "label": "P. T. Hraber",
+      "papers": [
+        {
+          "number": 76,
+          "title": "Revisiting the Edge of Chaos: Evolving Cellular Automata to Perform Computations",
+          "year": "1993",
+          "publication_id": "publication_fpcs_076"
+        }
+      ]
+    },
+    {
+      "label": "P. W. Anderson",
+      "papers": [
+        {
+          "number": 39,
+          "title": "More Is Different",
+          "year": "1972",
+          "publication_id": "publication_fpcs_039"
+        }
+      ]
+    },
+    {
+      "label": "P. Wolynes",
+      "papers": [
+        {
+          "number": 88,
+          "title": "The Middle Way",
+          "year": "1999",
+          "publication_id": "publication_fpcs_088"
+        }
+      ]
+    },
+    {
+      "label": "R. Axelrod",
+      "papers": [
+        {
+          "number": 55,
+          "title": "The Evolution of Cooperation",
+          "year": "1981",
+          "publication_id": "publication_fpcs_055"
+        }
+      ]
+    },
+    {
+      "label": "R. B. Laughlin",
+      "papers": [
+        {
+          "number": 88,
+          "title": "The Middle Way",
+          "year": "1999",
+          "publication_id": "publication_fpcs_088"
+        }
+      ]
+    },
+    {
+      "label": "R. Cherukuri",
+      "papers": [
+        {
+          "number": 79,
+          "title": "Self–Nonself Discrimination in a Computer",
+          "year": "1994",
+          "publication_id": "publication_fpcs_079"
+        }
+      ]
+    },
+    {
+      "label": "R. E. Kálmán",
+      "papers": [
+        {
+          "number": 15,
+          "title": "Contributions to the Theory of Optimal Control",
+          "year": "1960",
+          "publication_id": "publication_fpcs_015"
+        }
+      ]
+    },
+    {
+      "label": "R. J. Solomonoff",
+      "papers": [
+        {
+          "number": 25,
+          "title": "A Formal Theory of Inductive Inference, Part 1",
+          "year": "1964",
+          "publication_id": "publication_fpcs_025"
+        }
+      ]
+    },
+    {
+      "label": "R. Landauer",
+      "papers": [
+        {
+          "number": 16,
+          "title": "Irreversibility and Heat Generation in the Computing Process",
+          "year": "1961",
+          "publication_id": "publication_fpcs_016"
+        }
+      ]
+    },
+    {
+      "label": "R. M. Karp",
+      "papers": [
+        {
+          "number": 40,
+          "title": "Reducibility Among Combinatorial Problems",
+          "year": "1972",
+          "publication_id": "publication_fpcs_040"
+        }
+      ]
+    },
+    {
+      "label": "R. M. May",
+      "papers": [
+        {
+          "number": 41,
+          "title": "Will a Large Complex System Be Stable?",
+          "year": "1972",
+          "publication_id": "publication_fpcs_041"
+        }
+      ]
+    },
+    {
+      "label": "R. R. de Ruyter van Steveninck",
+      "papers": [
+        {
+          "number": 71,
+          "title": "Reading a Neural Code",
+          "year": "1991",
+          "publication_id": "publication_fpcs_071"
+        }
+      ]
+    },
+    {
+      "label": "R. S. Shaw",
+      "papers": [
+        {
+          "number": 54,
+          "title": "Geometry from a Time Series",
+          "year": "1980",
+          "publication_id": "publication_fpcs_054"
+        }
+      ]
+    },
+    {
+      "label": "R. Uribe",
+      "papers": [
+        {
+          "number": 48,
+          "title": "Autopoiesis: The Organization of Living Systems, Its Characterization, and a Model",
+          "year": "1974",
+          "publication_id": "publication_fpcs_048"
+        }
+      ]
+    },
+    {
+      "label": "S. Amari",
+      "papers": [
+        {
+          "number": 85,
+          "title": "Natural Gradient Works Efficiently in Learning",
+          "year": "1998",
+          "publication_id": "publication_fpcs_085"
+        }
+      ]
+    },
+    {
+      "label": "S. Bowles",
+      "papers": [
+        {
+          "number": 86,
+          "title": "Endogenous Preferences: The Cultural Consequences of Markets and Other Economic Institutions",
+          "year": "1998",
+          "publication_id": "publication_fpcs_086"
+        }
+      ]
+    },
+    {
+      "label": "S. Forrest",
+      "papers": [
+        {
+          "number": 79,
+          "title": "Self–Nonself Discrimination in a Computer",
+          "year": "1994",
+          "publication_id": "publication_fpcs_079"
+        }
+      ]
+    },
+    {
+      "label": "S. J. Gould",
+      "papers": [
+        {
+          "number": 52,
+          "title": "Punctuated Equilibria: The Tempo and Mode of Evolution Reconsidered",
+          "year": "1977",
+          "publication_id": "publication_fpcs_052"
+        }
+      ]
+    },
+    {
+      "label": "S. Kauffman",
+      "papers": [
+        {
+          "number": 33,
+          "title": "Metabolic Stability and Epigenesis in Randomly Constructed Genetic Nets",
+          "year": "1969",
+          "publication_id": "publication_fpcs_033"
+        },
+        {
+          "number": 64,
+          "title": "Towards a General Theory of Adaptive Walks on Rugged Landscapes",
+          "year": "1987",
+          "publication_id": "publication_fpcs_064"
+        }
+      ]
+    },
+    {
+      "label": "S. Kirkpatrick",
+      "papers": [
+        {
+          "number": 49,
+          "title": "Solvable Model of a Spin-Glass",
+          "year": "1975",
+          "publication_id": "publication_fpcs_049"
+        }
+      ]
+    },
+    {
+      "label": "S. Levin",
+      "papers": [
+        {
+          "number": 64,
+          "title": "Towards a General Theory of Adaptive Walks on Rugged Landscapes",
+          "year": "1987",
+          "publication_id": "publication_fpcs_064"
+        }
+      ]
+    },
+    {
+      "label": "S. Lloyd",
+      "papers": [
+        {
+          "number": 81,
+          "title": "Information Measures, Effective Complexity, and Total Information",
+          "year": "1996",
+          "publication_id": "publication_fpcs_081"
+        }
+      ]
+    },
+    {
+      "label": "S. Strogatz",
+      "papers": [
+        {
+          "number": 87,
+          "title": "Collective Dynamics of ‘Small-World’ Networks",
+          "year": "1998",
+          "publication_id": "publication_fpcs_087"
+        }
+      ]
+    },
+    {
+      "label": "S. Ulam",
+      "papers": [
+        {
+          "number": 22,
+          "title": "On Some Mathematical Problems Connected with Patterns of Growth in Figures",
+          "year": "1962",
+          "publication_id": "publication_fpcs_022"
+        }
+      ]
+    },
+    {
+      "label": "S. Wolfram",
+      "papers": [
+        {
+          "number": 59,
+          "title": "Universality and Complexity in Cellular Automata",
+          "year": "1984",
+          "publication_id": "publication_fpcs_059"
+        }
+      ]
+    },
+    {
+      "label": "S. Wright",
+      "papers": [
+        {
+          "number": 3,
+          "title": "The Roles of Mutation, Inbreeding, Crossbreeding, and Selection in Evolution",
+          "year": "1932",
+          "publication_id": "publication_fpcs_003"
+        }
+      ]
+    },
+    {
+      "label": "T. C. Schelling",
+      "papers": [
+        {
+          "number": 37,
+          "title": "Dynamic Models of Segregation",
+          "year": "1971",
+          "publication_id": "publication_fpcs_037"
+        }
+      ]
+    },
+    {
+      "label": "W. B. Arthur",
+      "papers": [
+        {
+          "number": 67,
+          "title": "Competing Technologies, Increasing Returns, and Lock-In by Historical Events",
+          "year": "1989",
+          "publication_id": "publication_fpcs_067"
+        },
+        {
+          "number": 77,
+          "title": "Inductive Reasoning and Bounded Rationality",
+          "year": "1994",
+          "publication_id": "publication_fpcs_077"
+        }
+      ]
+    },
+    {
+      "label": "W. Bialek",
+      "papers": [
+        {
+          "number": 71,
+          "title": "Reading a Neural Code",
+          "year": "1991",
+          "publication_id": "publication_fpcs_071"
+        }
+      ]
+    },
+    {
+      "label": "W. D. Hamilton",
+      "papers": [
+        {
+          "number": 55,
+          "title": "The Evolution of Cooperation",
+          "year": "1981",
+          "publication_id": "publication_fpcs_055"
+        }
+      ]
+    },
+    {
+      "label": "W. Fontana",
+      "papers": [
+        {
+          "number": 80,
+          "title": "From Sequences to Shapes and Back: A Case Study in RNA Secondary Structures",
+          "year": "1994",
+          "publication_id": "publication_fpcs_080"
+        }
+      ]
+    },
+    {
+      "label": "W. G. Macready",
+      "papers": [
+        {
+          "number": 84,
+          "title": "No Free Lunch Theorems for Optimization",
+          "year": "1997",
+          "publication_id": "publication_fpcs_084"
+        }
+      ]
+    },
+    {
+      "label": "W. Pitts",
+      "papers": [
+        {
+          "number": 5,
+          "title": "A Logical Calculus of the Ideas Immanent in Nervous Activity",
+          "year": "1943",
+          "publication_id": "publication_fpcs_005"
+        }
+      ]
+    },
+    {
+      "label": "W. Weaver",
+      "papers": [
+        {
+          "number": 10,
+          "title": "Science and Complexity",
+          "year": "1948",
+          "publication_id": "publication_fpcs_010"
+        }
+      ]
+    }
+  ]
+}

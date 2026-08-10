@@ -1,0 +1,135 @@
+# Foundational Papers author analysis
+
+- Official papers: 89
+- Unique author forms in the official inventory: 119
+- Matched to existing public people: 12
+- Ambiguous matches needing caution: 0
+- New bibliographic person candidates: 107
+
+## New author candidates
+
+- A. Cobham — The Intrinsic Computational Difficulty of Functions
+- A. J. Lotka — Contribution to the Energetics of Evolution
+- A. N. Kolmogorov — Three Approaches to the Quantitative Definition of Information
+- A. S. Perelson — Immune Network Theory; Self–Nonself Discrimination in a Computer
+- B. B. Mandelbrot — How Long is the Coast of Britain? Statistical Self-Similarity and Fractional Dimension
+- B. J. Enquist — A General Model for the Origin of Allometric Scaling Laws in Biology
+- B. P. Stojkovic — The Middle Way
+- C. G. Langton — Studying Artificial Life with Cellular Automata
+- C. H. Bennett — Logical Reversibility of Computation
+- C. H. Waddington — Canalization of Development and the Inheritance of Acquired Characters
+- C. Reynolds — Flocks, Herds, and Schools: A Distributed Behavioral Model
+- C. S. Holling — Resilience and Stability of Ecological Systems
+- C. Tang — Self-Organized Criticality: An Explanation of the 1/f Noise
+- D. H. Wolpert — No Free Lunch Theorems for Optimization
+- D. M. Raup — Geometric Analysis of Shell Coiling; General Problems
+- D. Pines — The Middle Way
+- D. Sherrington — Solvable Model of a Spin-Glass
+- D. Warland — Reading a Neural Code
+- D. Watts — Collective Dynamics of ‘Small-World’ Networks
+- E. B. W. Zubrow — Carrying Capacity and Dynamic Equilibrium in the Prehistoric Southwest
+- E. N. Lorenz — Deterministic Nonperiodic Flow
+- E. Ostrom — Collective Action and the Evolution of Social Norms
+- E. T. Jaynes — Information Theory and Statistical Mechanics
+- F. A. Hayek — The Use of Knowledge in Society
+- F. J. Dyson — A Model for the Origin of Life
+- F. J. Odling-Smee — Niche Construction
+- F. Rieke — Reading a Neural Code
+- G. B. West — A General Model for the Origin of Allometric Scaling Laws in Biology
+- G. J. Chaitin — On the Length of Programs for Computing Finite Binary Sequences
+- G. Nicolis — Self-Organisation in Nonequilibrium Systems: Towards a Dynamics of Complexity
+- G. Parisi — Infinite Number of Order Parameters for Spin-Glasses
+- G. R. Price — Selection and Covariance
+- H. Haken — Synergetics
+- I. L. Hofacker — From Sequences to Shapes and Back: A Case Study in RNA Secondary Structures
+- I. Prigogine — Self-Organisation in Nonequilibrium Systems: Towards a Dynamics of Complexity
+- J. A. Wheeler — Information, Physics, Quantum: The Search for Links
+- J. D. Farmer — Geometry from a Time Series; A Rosetta Stone for Connectionism
+- J. H. Brown — A General Model for the Origin of Allometric Scaling Laws in Biology
+- J. H. Holland — Outline for a Logical Theory of Adaptive Systems; Artificial Adaptive Agents in Economic Theory
+- J. H. Miller — Artificial Adaptive Agents in Economic Theory
+- J. J. Hopfield — Neural Networks and Physical Systems with Emergent Collective Computational Abilities
+- J. M. Kremer — Emergent Properties of Balinese Water Temple Networks: Coadaptation on a Rugged Fitness Landscape
+- J. Maynard Smith — The Theory of Games and the Evolution of Animal Conflicts
+- J. McCaskill — Molecular Quasi-Species
+- J. Nash — Non-Cooperative Games
+- J. P. Crutchfield — Geometry from a Time Series; Revisiting the Edge of Chaos: Evolving Cellular Automata to Perform Computations; The Calculi of Emergence: Computation, Dynamics, and Induction
+- J. Pearl — Fusion, Propagation, and Structuring in Belief Networks
+- J. S. Lansing — Emergent Properties of Balinese Water Temple Networks: Coadaptation on a Rugged Fitness Landscape
+- J. Schmalian — The Middle Way
+- J. von Neumann — Theory of Self-Reproducing Automata
+- K. Hasselmann — Stochastic Climate Models Part I. Theory
+- K. J. Arrow — The Economic Implications of Learning by Doing
+- K. Lindgren — Evolutionary Phenomena in Simple Dynamics
+- K. N. Laland — Niche Construction
+- K. Wiesenfeld — Self-Organized Criticality: An Explanation of the 1/f Noise
+- L. Allen — Self–Nonself Discrimination in a Computer
+- L. Szilárd — On the Decrease of Entropy in a Thermodynamic System by the Intervention of Intelligent Beings
+- M. Bunge — The Complexity of Simplicity
+- M. Eigen — Molecular Quasi-Species
+- M. Gell-Mann — Information Measures, Effective Complexity, and Total Information
+- M. I. Budyko — The Effect of Solar Radiation Variations on the Climate of the Earth
+- M. J. Feigenbaum — Universal Behavior in Nonlinear Systems
+- M. Kimura — Evolutionary Rate at the Molecular Level
+- M. Minsky — Steps Toward Artificial Intelligence
+- M. Mitchell — Revisiting the Edge of Chaos: Evolving Cellular Automata to Perform Computations
+- M. S. Granovetter — The Strength of Weak Ties
+- M. W. Feldman — Niche Construction
+- N. Eldredge — Punctuated Equilibria: The Tempo and Mode of Evolution Reconsidered
+- N. H. Packard — Geometry from a Time Series
+- O. E. Rössler — A System–Theoretic Model of Biogenesis (Ein systemtheoretisches Modell zur Biogenese)
+- P. Bak — Self-Organized Criticality: An Explanation of the 1/f Noise
+- P. F. Stadler — From Sequences to Shapes and Back: A Case Study in RNA Secondary Structures
+- P. Schuster — Molecular Quasi-Species; From Sequences to Shapes and Back: A Case Study in RNA Secondary Structures
+- P. T. Hraber — Revisiting the Edge of Chaos: Evolving Cellular Automata to Perform Computations
+- P. W. Anderson — More Is Different
+- P. Wolynes — The Middle Way
+- R. Axelrod — The Evolution of Cooperation
+- R. B. Laughlin — The Middle Way
+- R. Cherukuri — Self–Nonself Discrimination in a Computer
+- R. E. Kálmán — Contributions to the Theory of Optimal Control
+- R. J. Solomonoff — A Formal Theory of Inductive Inference, Part 1
+- R. Landauer — Irreversibility and Heat Generation in the Computing Process
+- R. M. Karp — Reducibility Among Combinatorial Problems
+- R. M. May — Will a Large Complex System Be Stable?
+- R. R. de Ruyter van Steveninck — Reading a Neural Code
+- R. S. Shaw — Geometry from a Time Series
+- R. Uribe — Autopoiesis: The Organization of Living Systems, Its Characterization, and a Model
+- S. Amari — Natural Gradient Works Efficiently in Learning
+- S. Bowles — Endogenous Preferences: The Cultural Consequences of Markets and Other Economic Institutions
+- S. Forrest — Self–Nonself Discrimination in a Computer
+- S. J. Gould — Punctuated Equilibria: The Tempo and Mode of Evolution Reconsidered
+- S. Kauffman — Metabolic Stability and Epigenesis in Randomly Constructed Genetic Nets; Towards a General Theory of Adaptive Walks on Rugged Landscapes
+- S. Kirkpatrick — Solvable Model of a Spin-Glass
+- S. Levin — Towards a General Theory of Adaptive Walks on Rugged Landscapes
+- S. Lloyd — Information Measures, Effective Complexity, and Total Information
+- S. Strogatz — Collective Dynamics of ‘Small-World’ Networks
+- S. Ulam — On Some Mathematical Problems Connected with Patterns of Growth in Figures
+- S. Wolfram — Universality and Complexity in Cellular Automata
+- S. Wright — The Roles of Mutation, Inbreeding, Crossbreeding, and Selection in Evolution
+- T. C. Schelling — Dynamic Models of Segregation
+- W. B. Arthur — Competing Technologies, Increasing Returns, and Lock-In by Historical Events; Inductive Reasoning and Bounded Rationality
+- W. Bialek — Reading a Neural Code
+- W. D. Hamilton — The Evolution of Cooperation
+- W. Fontana — From Sequences to Shapes and Back: A Case Study in RNA Secondary Structures
+- W. G. Macready — No Free Lunch Theorems for Optimization
+- W. Pitts — A Logical Calculus of the Ideas Immanent in Nervous Activity
+- W. Weaver — Science and Complexity
+
+## Existing matches
+
+- A. M. Turing → Alan Turing (`person_alan_turing`)
+- A. Rosenblueth → Arturo Rosenblueth (`person_arturo_rosenblueth`)
+- C. E. Shannon → Claude E. Shannon (`person_claude_e_shannon`)
+- F. G. Varela → Francisco Varela (`person_francisco_varela`)
+- H. A. Simon → Herbert Simon (`person_herbert_simon`)
+- H. R. Maturana → Humberto Maturana (`person_humberto_maturana`)
+- H. von Foerster → Heinz von Foerster (`person_heinz_von_foerster`)
+- J. Bigelow → Julian Bigelow (`person_julian_bigelow`)
+- N. Wiener → Norbert Wiener (`person_norbert_wiener`)
+- R. C. Conant → Roger C. Conant (`person_roger_c_conant`)
+- W. R. Ashby → W. Ross Ashby (`person_w_ross_ashby`)
+- W. S. McCulloch → Warren McCulloch (`person_warren_mcculloch`)
+
+## Ambiguous matches
+
