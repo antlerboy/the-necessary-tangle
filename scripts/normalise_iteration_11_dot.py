@@ -11,7 +11,7 @@ ISSUE_URL = "https://github.com/antlerboy/the-necessary-tangle/issues/2"
 DOT = (
     '<a class="curator-secret-dot" data-curator-dot="comments" '
     f'href="{ISSUE_URL}" target="_blank" rel="noopener" '
-    'aria-label="Open the curator comment thread" title="Curator comments">'
+    'aria-label="Open the curator\'s running comments" title="Curator comments">'
     '<span aria-hidden="true"></span></a>'
 )
 
@@ -41,6 +41,8 @@ def main() -> None:
     rendered = INDEX.read_text(encoding="utf-8")
     if rendered.count('data-curator-dot="comments"') != 1 or rendered.count(ISSUE_URL) != 1:
         raise RuntimeError("Could not normalise the curator comment dot to one link")
+    if 'aria-label="Open the curator\'s running comments"' not in rendered:
+        raise RuntimeError("The curator comment dot lacks its accessible name")
     print("Normalised the curator comment thread to one discreet bottom-right dot")
 
 
