@@ -1,0 +1,140 @@
+name: Apply iteration 0.9 feedback and AI observations
+
+on:
+  push:
+    branches: ["agent/iteration-09-ai-observations"]
+    paths:
+      - ".github/workflows/apply-iteration-09.yml"
+      - "scripts/apply_iteration_09.py"
+      - "scripts/patch_iteration_09.py"
+      - "scripts/validate_iteration_09.py"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: apply-iteration-09
+  cancel-in-progress: false
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out iteration branch
+        uses: actions/checkout@v7
+        with:
+          ref: agent/iteration-09-ai-observations
+          fetch-depth: 0
+
+      - name: Wire iteration 0.9 into the durable build
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+
+          makefile = Path('Makefile')
+          text = makefile.read_text()
+          if '\tpython3 scripts/apply_iteration_09.py\n' not in text:
+              text = text.replace(
+                  '\tpython3 scripts/apply_expansion_08.py\n',
+                  '\tpython3 scripts/apply_expansion_08.py\n\tpython3 scripts/apply_iteration_09.py\n',
+                  1,
+              )
+          if '\tpython3 scripts/patch_iteration_09.py\n' not in text:
+              text = text.replace(
+                  '\tpython3 scripts/patch_expansion_08.py\n',
+                  '\tpython3 scripts/patch_expansion_08.py\n\tpython3 scripts/patch_iteration_09.py\n',
+                  1,
+              )
+          if '\tpython3 scripts/validate_iteration_09.py\n' not in text:
+              text = text.replace(
+                  '\tpython3 scripts/validate_expansion_08.py\n',
+                  '\tpython3 scripts/validate_expansion_08.py\n\tpython3 scripts/validate_iteration_09.py\n',
+                  1,
+              )
+          makefile.write_text(text)
+
+          path = Path('scripts/validate_constellation.py')
+          text = path.read_text()
+          text = text.replace(
+              'ALLOWED_RELEASES = {"0.7-constellation-alpha", "0.8-expansion-alpha"}',
+              'ALLOWED_RELEASES = {"0.7-constellation-alpha", "0.8-expansion-alpha", "0.9-observations-alpha"}',
+          )
+          path.write_text(text)
+
+          path = Path('scripts/validate_expansion_08.py')
+          text = path.read_text()
+          text = text.replace(
+              'EXPECTED_RELEASE = "0.8-expansion-alpha"',
+              'ALLOWED_RELEASES = {"0.8-expansion-alpha", "0.9-observations-alpha"}',
+          )
+          text = text.replace(
+              'if meta.get("release") != EXPECTED_RELEASE:\n        errors.append(f"meta.release must be {EXPECTED_RELEASE}")',
+              'if meta.get("release") not in ALLOWED_RELEASES:\n        errors.append(f"meta.release must be one of {sorted(ALLOWED_RELEASES)}")',
+          )
+          path.write_text(text)
+
+          changelog = Path('CHANGELOG.md')
+          text = changelog.read_text()
+          entry = '''## 0.9-observations-alpha — 10 August 2026
+
+- Added a public AI observations page separating reproducible measurements, interpretation, implications and tests.
+- Added a publication-risk register and a maintained source-mining queue.
+- Added developed entries for Chris Mowles, complex responsive processes, Murmurations and *Complexity: A Key Idea for Business and Society*.
+- Added seven public source records and four guided journeys.
+- Exposed conceptual, human-lineage, practice, contestation and provenance layers directly from About and the map.
+- Converted internal navigation affordances to real links so they can be opened in new tabs.
+- Made mouse-wheel zoom follow the pointer and removed the older double-zoom behaviour.
+- Enforced left alignment across content panels and expanded compressed About statements.
+
+'''
+          if '## 0.9-observations-alpha' not in text:
+              first_break = text.find('\n\n')
+              text = text[:first_break + 2] + entry + text[first_break + 2:]
+          changelog.write_text(text)
+          PY
+
+      - name: Build and validate twice
+        run: |
+          make validate
+          make validate
+          git diff --check
+
+      - name: Verify the release contract
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          data = json.loads(Path('data/public-data.json').read_text())
+          assert data['meta']['release'] == '0.9-observations-alpha'
+          assert data['meta']['public_entry_count'] == 411
+          assert data['meta']['profile_count'] >= 32
+          assert data['meta']['journey_count'] == 12
+          assert len(data['ai_observations']['observations']) >= 9
+          assert len(data['ai_observations']['public_risks']) >= 10
+          assert len(data['source_mining_register']) >= 14
+          print(json.dumps({
+              'release': data['meta']['release'],
+              'entries': data['meta']['public_entry_count'],
+              'profiles': data['meta']['profile_count'],
+              'journeys': data['meta']['journey_count'],
+              'sources': data['meta']['source_count'],
+              'observations': len(data['ai_observations']['observations']),
+              'risks': len(data['ai_observations']['public_risks']),
+          }, indent=2))
+          PY
+
+      - name: Remove analysis and one-shot construction workflows
+        run: |
+          rm -rf analysis
+          rm -f .github/workflows/analyse-iteration-09.yml
+          rm -f .github/workflows/dump-iteration-09-schema.yml
+          rm -f .github/workflows/apply-iteration-09.yml
+
+      - name: Commit the validated iteration
+        run: |
+          git config user.name "Benjamin P Taylor"
+          git config user.email "ben.taylor@redquadrant.com"
+          git add -A
+          git diff --cached --check
+          git commit -m "Publish iteration 0.9 AI observations" -m "Apply the running feedback: public AI observations, explicit graph layers, publication risks, source-mining register, four developed social-complexity entries, four guided journeys, real internal links, pointer-centred zoom and left-aligned panels."
+          git push origin HEAD:agent/iteration-09-ai-observations
