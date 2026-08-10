@@ -1,0 +1,288 @@
+name: Apply 0.8 breadth expansion
+
+on:
+  push:
+    branches: ["agent/expand-tangle-400"]
+    paths:
+      - ".github/workflows/apply-expansion-08.yml"
+      - "scripts/apply_expansion_08.py"
+      - "scripts/patch_expansion_08.py"
+      - "scripts/validate_expansion_08.py"
+      - "scripts/validate_constellation.py"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: apply-expansion-08
+  cancel-in-progress: false
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out expansion branch
+        uses: actions/checkout@v7
+        with:
+          ref: agent/expand-tangle-400
+          fetch-depth: 0
+
+      - name: Mount the superseded branch as a read-only candidate source
+        run: |
+          git fetch origin release-0.7-constellation-alpha:refs/remotes/origin/release-0.7-constellation-alpha
+          git worktree add --detach /tmp/oldwork origin/release-0.7-constellation-alpha
+
+      - name: Generate the reviewed expansion seed
+        run: |
+          python3 - <<'PY'
+          import json
+          import runpy
+          from pathlib import Path
+
+          ledger = json.loads(Path('analysis/old-branch-candidate-ledger.json').read_text())
+          authors = json.loads(Path('analysis/fpcs-author-candidates.json').read_text())
+          old_data = json.loads(Path('/tmp/oldwork/data/public-data.json').read_text())
+          papers = runpy.run_path('/tmp/oldwork/scripts/apply_research_iteration.py')['FPCS_PAPERS']
+
+          relation_types_by_id = {
+              item['relation_type']: item for item in old_data.get('relation_types', [])
+          }
+          used_relation_types = sorted({
+              edge.get('relation_type') for edge in ledger.get('edges', [])
+              if edge.get('relation_type')
+          })
+          missing = [relation_type for relation_type in used_relation_types if relation_type not in relation_types_by_id]
+          if missing:
+              raise SystemExit(f'Missing relation type records in candidate source: {missing}')
+
+          existing_author_ids = {
+              item['label']: item['existing_id'] for item in authors.get('existing', [])
+          }
+          if len(papers) != 89:
+              raise SystemExit(f'Expected 89 official papers, found {len(papers)}')
+          if len(authors.get('candidates', [])) != 107:
+              raise SystemExit(f"Expected 107 new author candidates, found {len(authors.get('candidates', []))}")
+          if len(existing_author_ids) != 12:
+              raise SystemExit(f'Expected 12 existing-author matches, found {len(existing_author_ids)}')
+
+          seed = {
+              'source_branch': 'release-0.7-constellation-alpha',
+              'warning': 'Evidence-gated candidate seed only; the superseded branch itself is not merged.',
+              'candidate_nodes': ledger.get('nodes', []),
+              'candidate_edges': ledger.get('edges', []),
+              'sources': ledger.get('sources', []),
+              'relation_types': [relation_types_by_id[relation_type] for relation_type in used_relation_types],
+              'fpcs_papers': papers,
+              'existing_author_ids': existing_author_ids,
+              'expected_new_author_forms': [item['label'] for item in authors.get('candidates', [])],
+          }
+          Path('data/expansion-08-seed.json').write_text(
+              json.dumps(seed, ensure_ascii=False, indent=2) + '\n'
+          )
+          print(
+              f"Seeded {len(seed['candidate_nodes'])} old-branch candidates, "
+              f"{len(seed['candidate_edges'])} candidate edges, {len(papers)} papers and "
+              f"{len(seed['expected_new_author_forms'])} new author forms."
+          )
+          PY
+
+      - name: Wire the expansion into the reproducible build
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+
+          makefile = Path('Makefile')
+          text = makefile.read_text()
+          if '\tpython3 scripts/apply_expansion_08.py\n' not in text:
+              text = text.replace(
+                  '\tpython3 scripts/apply_constellation_07.py\n',
+                  '\tpython3 scripts/apply_constellation_07.py\n\tpython3 scripts/apply_expansion_08.py\n',
+                  1,
+              )
+          if '\tpython3 scripts/patch_expansion_08.py\n' not in text:
+              text = text.replace(
+                  '\tpython3 scripts/patch_constellation_07.py\n',
+                  '\tpython3 scripts/patch_constellation_07.py\n\tpython3 scripts/patch_expansion_08.py\n',
+                  1,
+              )
+          if '\tpython3 scripts/validate_expansion_08.py\n' not in text:
+              text = text.replace(
+                  '\tpython3 scripts/validate_constellation.py\n',
+                  '\tpython3 scripts/validate_constellation.py\n\tpython3 scripts/validate_expansion_08.py\n',
+                  1,
+              )
+          makefile.write_text(text)
+
+          release_path = Path('scripts/apply_release_overrides.py')
+          release = release_path.read_text()
+          release = release.replace('RELEASE = "0.7-constellation-alpha"', 'RELEASE = "0.8-expansion-alpha"')
+          release = release.replace('GENERATED = "2026-08-09"', 'GENERATED = "2026-08-10"', 1)
+          release_path.write_text(release)
+
+          constellation_path = Path('scripts/apply_constellation_07.py')
+          constellation = constellation_path.read_text()
+          old = '''    expected = {
+        "public_node_count": 204, "substantive_edge_count": 96, "substantive_pair_count": 94,
+        "connected_node_count": 77, "isolated_node_count": 127, "component_count": 129,
+        "largest_component_node_count": 75,
+    }
+    for k, v in expected.items():
+        if data["graph_snapshot"].get(k) != v:
+            raise SystemExit(f"Reconstructed 0.7 graph mismatch: {k}={data['graph_snapshot'].get(k)!r}, expected {v!r}")
+'''
+          new = '''    core_minimums = {
+        "public_node_count": 204, "substantive_edge_count": 96,
+        "substantive_pair_count": 94, "connected_node_count": 77,
+        "largest_component_node_count": 75,
+    }
+    for key, minimum in core_minimums.items():
+        if data["graph_snapshot"].get(key, 0) < minimum:
+            raise SystemExit(
+                f"Reconstructed 0.7 core regression: {key}={data['graph_snapshot'].get(key)!r}, minimum {minimum!r}"
+            )
+'''
+          if old in constellation:
+              constellation = constellation.replace(old, new, 1)
+          elif 'core_minimums = {' not in constellation:
+              raise SystemExit('Could not patch apply_constellation_07.py for later growth')
+          constellation_path.write_text(constellation)
+
+          expansion_path = Path('scripts/apply_expansion_08.py')
+          expansion = expansion_path.read_text()
+          expansion = expansion.replace(
+              '    author_ids: dict[str, str] = {}\n    new_author_ids: set[str] = set()\n',
+              '    author_ids: dict[str, str] = {}\n    new_author_ids: set[str] = set()\n    expansion_author_ids: set[str] = set()\n',
+              1,
+          )
+          expansion = expansion.replace(
+              '        author_ids[author] = author_id\n\n    # Place new author entries near the papers with which the official inventory associates them.\n    new_author_labels = sorted(\n        (node_id, nodes[node_id]["label"]) for node_id in new_author_ids\n    )',
+              '        author_ids[author] = author_id\n        if nodes.get(author_id, {}).get("inclusion_reason") == "official_collection_author_inventory":\n            expansion_author_ids.add(author_id)\n\n    # Place expansion author entries near the papers with which the official inventory associates them.\n    new_author_labels = sorted(\n        (node_id, nodes[node_id]["label"]) for node_id in expansion_author_ids\n    )',
+              1,
+          )
+          expansion = expansion.replace(
+              '        "new_bibliographic_people": len(new_author_ids),\n        "existing_people_reused": len(set(author_ids.values()) - new_author_ids),\n        "collection_volumes": 4,\n        "reviewed_branch_candidates": len(imported_public_ids) - len(new_author_ids) - 4,',
+              '        "new_bibliographic_people": len(expansion_author_ids),\n        "existing_people_reused": len(set(author_ids.values()) - expansion_author_ids),\n        "collection_volumes": 4,\n        "reviewed_branch_candidates": sum(\n            1 for candidate in candidate_nodes\n            if candidate.get("id") != REDIRECTED_EVOLUTIONARY_ID\n        ),',
+              1,
+          )
+          expansion = expansion.replace(
+              'f"{len(papers)} papers and {len(new_author_ids)} new author records."',
+              'f"{len(papers)} papers and {len(expansion_author_ids)} expansion author records."',
+              1,
+          )
+          required = ['expansion_author_ids: set[str] = set()', '"new_bibliographic_people": len(expansion_author_ids)']
+          if not all(marker in expansion for marker in required):
+              raise SystemExit('Could not make apply_expansion_08.py idempotent')
+          expansion_path.write_text(expansion)
+          PY
+
+      - name: Write release documentation
+        run: |
+          cat > documentation/expansion-08.md <<'EOF'
+          # Release 0.8: bibliographic breadth and a map that moves
+
+          Release `0.8-expansion-alpha` adds 203 canonical public entries to the 204-entry 0.7 baseline, taking The Necessary Tangle to 407 entries.
+
+          The breadth comes from one bounded and inspectable source programme:
+
+          - 89 publications listed in the official *Foundational Papers in Complexity Science* table of contents;
+          - 107 authors not previously represented as public people in the atlas;
+          - four collection-volume records;
+          - three reviewed framing records recovered from the superseded 295-entry working branch.
+
+          The superseded branch was used as a candidate ledger, not merged. One duplicate evolutionary-cybernetics entry was redirected to the maintained tradition entry. Existing people were reused rather than duplicated.
+
+          ## Depth and limits
+
+          These are bibliographic first-pass entries. A paper entry records its title, authors, year and collection placement. A newly added person entry records that the official collection lists that author for one or more papers. Neither is a finished intellectual profile. Collection inclusion is an editorial selection, not proof of correctness, importance or influence.
+
+          The new typed records include authorship, co-authorship and collection structure. They make the breadth navigable and give later concept, practice and lineage research named objects to connect. They do not manufacture conceptual relations from mere co-occurrence.
+
+          ## Map behaviour
+
+          The home-page map action now opens the full public map. In that view, documentary authorship and collection-structure lines appear faintly alongside the substantive conceptual graph. Selecting an entry moves the map smoothly to it without discarding the whole-map context. Focused neighbourhood views retain their previous bearings as they re-form around a new selection.
+
+          ## Curator notes
+
+          The running curator notebook remains reachable as a deliberately discreet dot link. It is an operational feedback surface, not part of the public site's main navigational hierarchy.
+          EOF
+          sed -i 's/^          //' documentation/expansion-08.md
+
+          python3 - <<'PY'
+          from pathlib import Path
+
+          changelog = Path('CHANGELOG.md')
+          text = changelog.read_text()
+          entry = '''## 0.8-expansion-alpha — 10 August 2026
+
+- Added 203 canonical public entries: 89 Foundational Papers publications, 107 new bibliographic people, four collection volumes and three reviewed framing records.
+- Reused 12 existing people and redirected the duplicate evolutionary-cybernetics candidate rather than inflating the count.
+- Added typed authorship, co-authorship and collection-structure records.
+- Made the home-page map action open the full public map and added adaptive movement on selection.
+- Moved the curator running notebook to a discreet operational link.
+- Added idempotent expansion and regression validation to the normal build.
+
+'''
+          if '## 0.8-expansion-alpha' not in text:
+              first_break = text.find('\n\n')
+              text = text[:first_break + 2] + entry + text[first_break + 2:]
+          changelog.write_text(text)
+
+          coverage = Path('documentation/coverage-programme.md')
+          text = coverage.read_text()
+          old = '''The collection must be treated item by item. The work is to inventory every included paper and editorial introduction, record publication details and public links, summarise each item, map the concepts and people it supports, and distinguish the collection editors' framing from the statements in the originals.
+
+Completion means a readable contents guide, item-level summaries and links, mapped relationships, and an explicit account of omissions and inaccessible originals. The collection is a major corpus, not a neutral or exhaustive canon.'''
+          new = '''Release 0.8 completes the first official-table-of-contents inventory: all 89 historical papers, 119 author forms (107 newly represented people and 12 reused existing entries), four collection volumes, and typed authorship and collection-structure records are now public.
+
+This is bibliographic breadth, not completion. The next work is to trace each paper to an original or authoritative public record where possible, distinguish the collection editors' framing from the originals, summarise each paper, map the concepts and arguments it supports, and record serious counter-accounts. The collection is a major corpus, not a neutral or exhaustive canon.'''
+          if old in text:
+              text = text.replace(old, new, 1)
+          coverage.write_text(text)
+          PY
+
+      - name: Build and validate the expansion twice
+        run: |
+          make validate
+          make validate
+          git diff --check
+
+      - name: Verify the release contract
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+
+          data = json.loads(Path('data/public-data.json').read_text())
+          redirects = data.get('canonical_redirects', {})
+          public = [
+              node for node in data['nodes']
+              if node.get('public_visibility') == 'public'
+              and redirects.get(node['id'], node['id']) == node['id']
+          ]
+          assert data['meta']['release'] == '0.8-expansion-alpha'
+          assert len(public) == 407, len(public)
+          assert data['expansion_08']['net_new_public_entries'] == 203
+          assert data['expansion_08']['official_papers'] == 89
+          assert data['expansion_08']['new_bibliographic_people'] == 107
+          assert data['expansion_08']['existing_people_reused'] == 12
+          assert data['expansion_08']['collection_volumes'] == 4
+          assert data['canonical_redirects']['concept_evolutionary_cybernetics'] == 'tradition_evolutionary_cybernetics'
+          print(json.dumps(data['expansion_08'], indent=2, sort_keys=True))
+          print(json.dumps(data['graph_snapshot'], indent=2, sort_keys=True))
+          PY
+
+      - name: Remove diagnostic scaffolding
+        run: |
+          rm -rf analysis
+          rm -f .github/workflows/analyse-expansion-candidates.yml
+          rm -f .github/workflows/analyse-fpcs-authors.yml
+          rm -f .github/workflows/apply-expansion-08.yml
+
+      - name: Commit the validated release branch
+        run: |
+          git config user.name "Benjamin P Taylor"
+          git config user.email "ben.taylor@redquadrant.com"
+          git add -A
+          git diff --cached --check
+          git commit -m "Expand The Necessary Tangle to 407 public entries" -m "Add 203 evidence-gated bibliographic entries from the official Foundational Papers inventory, typed authorship and collection structure, adaptive map movement, full-map entry from the home page and a subtler curator-note link. Preserve the 0.7 core while making the build idempotent for later growth."
+          git push origin HEAD:agent/expand-tangle-400
