@@ -1,0 +1,58 @@
+name: Dump iteration 0.9 schema
+
+on:
+  push:
+    branches: ["agent/iteration-09-ai-observations"]
+    paths:
+      - ".github/workflows/dump-iteration-09-schema.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  dump:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: agent/iteration-09-ai-observations
+      - name: Write focused schema extracts
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+
+          data = json.loads(Path('data/public-data.json').read_text())
+          wanted_labels = {
+              'Boundary', 'Observer', 'Power', 'Purpose', 'Feedback', 'Recursion',
+              'Viability', 'Law of Requisite Variety', 'Viable System Model (VSM)',
+              'Emergence', 'Complex adaptive system', 'Self-organisation',
+              'Systemic Intervention', 'Soft Systems Methodology (SSM)',
+              'Critical Systems Heuristics (CSH)', 'Systems thinking', 'Cybernetics',
+              'Complexity science', 'Gregory Bateson', 'Stafford Beer', 'W. Ross Ashby',
+              'Heinz von Foerster', 'Chris Mowles'
+          }
+          nodes = [
+              {'id': n.get('id'), 'label': n.get('label'), 'entity_type': n.get('entity_type'),
+               'publication_level': n.get('publication_level'), 'source_ids': n.get('source_ids')}
+              for n in data.get('nodes', []) if n.get('label') in wanted_labels
+          ]
+          extract = {
+              'journeys': data.get('journeys', []),
+              'relation_types': data.get('relation_types', []),
+              'selected_nodes': nodes,
+              'corpus_register': data.get('corpus_register', []),
+              'source_mining_register': data.get('source_mining_register', []),
+              'meta': data.get('meta', {}),
+          }
+          Path('analysis/iteration-09-schema.json').write_text(
+              json.dumps(extract, ensure_ascii=False, indent=2) + '\n'
+          )
+          PY
+      - name: Commit extract
+        run: |
+          git config user.name "Benjamin P Taylor"
+          git config user.email "ben.taylor@redquadrant.com"
+          git add analysis/iteration-09-schema.json
+          git commit -m "Inspect journey and layer schema for iteration 0.9"
+          git push origin HEAD:agent/iteration-09-ai-observations
