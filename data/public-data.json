@@ -42500,16 +42500,16 @@
     "component_count": 291,
     "largest_component_node_count": 79,
     "isolates_by_entity_type": {
-      "concept": 16,
       "publication": 93,
-      "person": 55,
-      "method_or_methodology": 14,
-      "tool": 11,
       "intervention_skill": 47,
+      "method_or_methodology": 14,
       "law_or_principle": 31,
-      "comparator_corpus": 1,
+      "person": 55,
+      "concept": 16,
+      "tool": 11,
+      "tradition": 2,
       "corpus": 1,
-      "tradition": 2
+      "comparator_corpus": 1
     }
   },
   "expansion_08": {

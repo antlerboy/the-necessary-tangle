@@ -163,12 +163,14 @@ def main() -> int:
     index = (DOCS / "index.html").read_text(encoding="utf-8")
     if 'data-view-link="map" data-map-mode="all">Full public map</button>' not in index:
         errors.append("the home page does not open the full public map explicitly")
-    if "Curator's running notebook and feedback issue" in index:
+    if '<option value="all" selected>Full public map</option>' not in index:
+        errors.append("the map itself does not default to the full public map")
+    if "Curator's running notebook and feedback issue" in index or ">Curator notebook</a>" in index:
         errors.append("the curator running notebook remains too prominent")
     if 'class="discreet-note-link"' not in index:
         errors.append("the discreet curator-note wrapper is missing")
-    if 'class="curator-notebook-link"' not in index or '/issues/2' not in index:
-        errors.append("the curator notebook is no longer reachable")
+    if index.count('class="curator-notebook-link"') != 1 or '/issues/2' not in index:
+        errors.append("the curator notebook must be reachable through exactly one discreet link")
 
     app = (DOCS / "assets" / "app.js").read_text(encoding="utf-8")
     for marker in [

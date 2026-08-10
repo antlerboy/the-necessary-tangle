@@ -118,11 +118,14 @@ def patch_index() -> None:
         'Search for an entry to centre the map. Select an item to refocus. Select a line to inspect the statement, its status and its sources.',
         'Open the full public map or centre on one entry. The layout keeps its bearings and moves with your selection; select a line to inspect the statement, status and sources.',
     )
+    text = text.replace(
+        '<option value="all">Full public map</option>',
+        '<option value="all" selected>Full public map</option>',
+    )
     text = re.sub(
-        r'\s*<p><a href="https://github\.com/antlerboy/the-necessary-tangle/issues/2" class="curator-notebook-link"[^>]*>.*?</a></p>',
+        r'\s*<p>\s*<a[^>]*class="curator-notebook-link"[^>]*>.*?</a>\s*</p>',
         '',
         text,
-        count=1,
         flags=re.S,
     )
     if 'class="discreet-note-link"' not in text:
