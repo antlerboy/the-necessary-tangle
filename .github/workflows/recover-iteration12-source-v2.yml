@@ -1,0 +1,49 @@
+name: Recover iteration 0.12 source bundle v2
+
+on:
+  push:
+    branches: ["agent/recover-iteration-12-source-v2"]
+    paths:
+      - ".github/workflows/recover-iteration12-source-v2.yml"
+      - ".iteration12-bundle/**"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  recover:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out recovery branch
+        uses: actions/checkout@v7
+        with:
+          ref: agent/recover-iteration-12-source-v2
+
+      - name: Reconstruct and verify the intended source bundle
+        shell: bash
+        run: |
+          set -euo pipefail
+          ls -la .iteration12-bundle
+          cat \
+            .iteration12-bundle/part-00 \
+            .iteration12-bundle/part-01 \
+            .iteration12-bundle/part-02 \
+            .iteration12-bundle/part-03 \
+            .iteration12-bundle/part-04 \
+            | base64 --decode > /tmp/iteration-12-source.tar.gz
+          test "$(wc -c < /tmp/iteration-12-source.tar.gz)" -eq 54715
+          echo "b30071976cb536ad9c1c4a5023e2ca6828d179ace8fac185e2085095e5c7bc1a  /tmp/iteration-12-source.tar.gz" | sha256sum -c -
+          mkdir -p recovered
+          tar -tzf /tmp/iteration-12-source.tar.gz | tee recovered/member-list.txt
+          tar -xzf /tmp/iteration-12-source.tar.gz -C recovered
+          cp /tmp/iteration-12-source.tar.gz recovered/
+          sha256sum recovered/iteration-12-source.tar.gz > recovered/iteration-12-source.tar.gz.sha256
+
+      - name: Upload recovered bundle
+        uses: actions/upload-artifact@v6
+        with:
+          name: iteration-12-recovered-source
+          path: recovered
+          if-no-files-found: error
+          retention-days: 7
