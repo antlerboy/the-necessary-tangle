@@ -58,12 +58,8 @@ def main() -> None:
     )
     replace_once(
         constellation,
-        '''    if "function zoomMapAt" not in app:
-        app = app.rstrip() + "\n" + APPEND_JS.strip() + "\n"
-''',
-        '''    if "function zoomMapAt" not in app and "semanticZoomBand" not in app:
-        app = app.rstrip() + "\n" + APPEND_JS.strip() + "\n"
-''',
+        '    if "function zoomMapAt" not in app:\n',
+        '    if "function zoomMapAt" not in app and "semanticZoomBand" not in app:\n',
         "0.7 legacy zoom compatibility guard",
     )
 
