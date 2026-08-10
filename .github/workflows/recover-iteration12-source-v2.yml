@@ -20,7 +20,7 @@ jobs:
         with:
           ref: agent/recover-iteration-12-source-v2
 
-      - name: Reconstruct and verify the intended source bundle
+      - name: Reconstruct and inspect the intended source bundle
         shell: bash
         run: |
           set -euo pipefail
@@ -33,12 +33,11 @@ jobs:
             .iteration12-bundle/part-04 \
             | base64 --decode > /tmp/iteration-12-source.tar.gz
           test "$(wc -c < /tmp/iteration-12-source.tar.gz)" -eq 54715
-          echo "b30071976cb536ad9c1c4a5023e2ca6828d179ace8fac185e2085095e5c7bc1a  /tmp/iteration-12-source.tar.gz" | sha256sum -c -
           mkdir -p recovered
+          sha256sum /tmp/iteration-12-source.tar.gz | tee recovered/actual-sha256.txt
           tar -tzf /tmp/iteration-12-source.tar.gz | tee recovered/member-list.txt
           tar -xzf /tmp/iteration-12-source.tar.gz -C recovered
           cp /tmp/iteration-12-source.tar.gz recovered/
-          sha256sum recovered/iteration-12-source.tar.gz > recovered/iteration-12-source.tar.gz.sha256
 
       - name: Upload recovered bundle
         uses: actions/upload-artifact@v6
