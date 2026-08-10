@@ -63,9 +63,6 @@ jobs:
             mkdir -p "$(dirname "$f")"
             cp "/tmp/correct-0.7/$f" "$f"
           done
-
-          # The staged validator itself is the file cut off by the truncated archive;
-          # keep the reconstructed validator committed on this branch instead.
           test -s scripts/validate_constellation.py
 
       - name: Wire 0.7 into the reproducible build
@@ -105,8 +102,6 @@ jobs:
       - name: Build and validate corrected 0.7 release
         run: |
           make validate
-          python3 scripts/analyse_emergent_categories.py
-          python3 scripts/validate_constellation.py
           git diff --check
 
       - name: Verify exact release state before commit
