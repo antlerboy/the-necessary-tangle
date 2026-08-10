@@ -13,47 +13,29 @@ jobs:
         with:
           ref: release-0.7-constellation-alpha-final
           fetch-depth: 0
-      - name: Extract exact corrected 0.7 connection clues
+      - name: Inspect current graph neighbourhood and relation vocabulary
         run: |
-          cat .correct-0.7-bundle/part-* | base64 --decode > /tmp/correct.tar.gz
-          set +e
-          gzip -dc /tmp/correct.tar.gz > /tmp/correct.tar
-          mkdir -p /tmp/correct
-          tar -xf /tmp/correct.tar -C /tmp/correct
-          set -e
-          python3 - <<'PY'
-          from pathlib import Path
-          p=Path('/tmp/correct/documentation/public-knowledge-for-chatgpt.md')
-          lines=p.read_text().splitlines()
-          names=['Cliff Joslyn','Evolutionary cybernetics','Francis Heylighen','Global brain','Metasystem transition','Principia Cybernetica Project','Principia Cybernetica Web','Semantic network','Valentin Turchin']
-          print('===== HEADINGS =====')
-          for i,line in enumerate(lines,1):
-              if line.startswith('#'):
-                  print(f'{i}: {line}')
-          print('===== OCCURRENCES OUTSIDE ENTRY DESCRIPTIONS =====')
-          for name in names:
-              print('\n###',name)
-              hits=[i for i,line in enumerate(lines) if name.casefold() in line.casefold()]
-              for i in hits:
-                  lo=max(0,i-3); hi=min(len(lines),i+4)
-                  print(f'-- lines {lo+1}-{hi} --')
-                  for j in range(lo,hi): print(f'{j+1}: {lines[j]}')
-          print('\n===== EMERGENT CATEGORY JSON =====')
-          print(Path('/tmp/correct/documentation/emergent-categories-analysis.json').read_text())
-          PY
-          echo "===== MAIN RELATION TYPES LIKELY RELEVANT ====="
           git show origin/main:data/public-data.json > /tmp/main.json
           python3 - <<'PY'
           import json
+          from collections import defaultdict
           d=json.load(open('/tmp/main.json'))
-          terms=('member','collab','develop','formulat','semantic','emerg','self-organ','associated','contribut','influenc','created','authored','part_of','instantiate','special')
-          for r in d.get('relation_types',[]):
-              text=' '.join(str(v) for v in r.values()).lower()
-              if any(t in text for t in terms):
-                  print(json.dumps(r,ensure_ascii=False,sort_keys=True))
-          print('===== RELEVANT EXISTING EDGE EXAMPLES =====')
-          for e in d.get('edges',[]):
-              text=' '.join(str(v) for v in e.values()).lower()
-              if any(t in text for t in ('collaborat','developed','formulated','member','semantic network','self-organisation','emergence')):
-                  print(json.dumps(e,ensure_ascii=False,sort_keys=True))
+          redirects=d.get('canonical_redirects',{})
+          canon=lambda x: redirects.get(x,x)
+          nodes={n['id']:n for n in d['nodes'] if n.get('public_visibility')=='public' and canon(n['id'])==n['id']}
+          excluded={'classification','evidence','documentary','legacy'}
+          adj=defaultdict(list)
+          for e in d['edges']:
+              s,t=canon(e.get('source')),canon(e.get('target'))
+              substantive=(e.get('relation_family') not in excluded and e.get('relation_type')!='legacy_association_unspecified' and e.get('claim_status')!='legacy_unresolved')
+              if s not in nodes or t not in nodes or s==t or not substantive: continue
+              adj[s].append((t,e)); adj[t].append((s,e))
+          focus=['concept_emergence','concept_observer','concept_self_organisation','person_heinz_von_foerster','tradition_cybernetics','concept_feedback']
+          for nid in focus:
+              print('\n###',nid, nodes.get(nid,{}).get('label'), 'degree',len({x[0] for x in adj[nid]}),'edge_records',len(adj[nid]))
+              for other,e in sorted(adj[nid], key=lambda z:(nodes.get(z[0],{}).get('label',''),z[1].get('id',''))):
+                  print(' ',e.get('id'), '::',nid,'--',other,'::',nodes.get(other,{}).get('label'), '::',e.get('relation_family'),e.get('relation_type'),e.get('plain_phrase'),'::',e.get('claim_status'))
+          print('\n===== ALL RELATION TYPES =====')
+          for r in sorted(d.get('relation_types',[]), key=lambda r:r.get('relation_type','')):
+              print(json.dumps(r,ensure_ascii=False,sort_keys=True))
           PY
