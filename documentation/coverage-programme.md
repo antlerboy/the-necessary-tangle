@@ -8,9 +8,9 @@ Release 0.7 adds a first grouping pass. Its main result is not a tidy taxonomy b
 
 Issue: https://github.com/antlerboy/the-necessary-tangle/issues/3
 
-The collection must be treated item by item. The work is to inventory every included paper and editorial introduction, record publication details and public links, summarise each item, map the concepts and people it supports, and distinguish the collection editors' framing from the statements in the originals.
+Release 0.8 completes the first official-table-of-contents inventory: all 89 historical papers, 119 author forms (107 newly represented people and 12 reused existing entries), four collection volumes, and typed authorship and collection-structure records are now public.
 
-Completion means a readable contents guide, item-level summaries and links, mapped relationships, and an explicit account of omissions and inaccessible originals. The collection is a major corpus, not a neutral or exhaustive canon.
+This is bibliographic breadth, not completion. The next work is to trace each paper to an original or authoritative public record where possible, distinguish the collection editors' framing from the originals, summarise each paper, map the concepts and arguments it supports, and record serious counter-accounts. The collection is a major corpus, not a neutral or exhaustive canon.
 
 ## 2. Relevant Monoskop material
 

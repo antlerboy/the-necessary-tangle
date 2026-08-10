@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.8-expansion-alpha — 10 August 2026
+
+- Added 203 canonical public entries: 89 Foundational Papers publications, 107 new bibliographic people, four collection volumes and three reviewed framing records.
+- Reused 12 existing people and redirected the duplicate evolutionary-cybernetics candidate rather than inflating the count.
+- Added typed authorship, co-authorship and collection-structure records.
+- Made the home-page map action open the full public map and added adaptive movement on selection.
+- Moved the curator running notebook to a discreet operational link.
+- Added idempotent expansion and regression validation to the normal build.
+
 ## 0.6-feedback-alpha — 9 August 2026
 
 - moved the public framing and repository links to the canonical `antlerboy` account;

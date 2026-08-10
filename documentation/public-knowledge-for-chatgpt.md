@@ -1,7 +1,7 @@
 # The Necessary Tangle: public knowledge file
 
 Curated by Benjamin P Taylor — https://www.antlerboy.com/
-Generated from public release 0.7-constellation-alpha.
+Generated from public release 0.8-expansion-alpha.
 
 A living evidence atlas of systems | cybernetics | complexity.
 Every connection must say what it means. Historical sequence, logical dependence, influence, teaching, collaboration, practical use, comparison and dispute are not interchangeable.
@@ -11,6 +11,127 @@ Use this file as orientation and public source context, not as final scholarly c
 ## Public source policy
 
 Every URL in this file is public. Published books and archive items without an open web copy are marked ‘No public link’. Private email, internal documents and company-system URLs are not included.
+
+## A Formal Theory of Inductive Inference, Part 1
+
+Type: Publication
+Public depth: described
+
+R. J. Solomonoff, ‘A Formal Theory of Inductive Inference, Part 1’ (1964); item 25 in volume 2 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## A General Model for the Origin of Allometric Scaling Laws in Biology
+
+Type: Publication
+Public depth: described
+
+G. B. West, J. H. Brown, and B. J. Enquist, ‘A General Model for the Origin of Allometric Scaling Laws in Biology’ (1997); item 83 in volume 4 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## A Logical Calculus of the Ideas Immanent in Nervous Activity
+
+Type: Publication
+Public depth: described
+
+W. S. McCulloch and W. Pitts, ‘A Logical Calculus of the Ideas Immanent in Nervous Activity’ (1943); item 5 in volume 1 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## A Mathematical Theory of Communication
+
+Type: Publication
+Public depth: described
+
+C. E. Shannon, ‘A Mathematical Theory of Communication’ (1948); item 9 in volume 1 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## A Model for the Origin of Life
+
+Type: Publication
+Public depth: described
+
+F. J. Dyson, ‘A Model for the Origin of Life’ (1982); item 56 in volume 3 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## A Rosetta Stone for Connectionism
+
+Type: Publication
+Public depth: described
+
+J. D. Farmer, ‘A Rosetta Stone for Connectionism’ (1990); item 69 in volume 4 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## A System–Theoretic Model of Biogenesis (Ein systemtheoretisches Modell zur Biogenese)
+
+Type: Publication
+Public depth: described
+
+O. E. Rössler, ‘A System–Theoretic Model of Biogenesis (Ein systemtheoretisches Modell zur Biogenese)’ (1971); item 36 in volume 2 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## A. Cobham
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for A. Cobham, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘The Intrinsic Computational Difficulty of Functions’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## A. J. Lotka
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for A. J. Lotka, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘Contribution to the Energetics of Evolution’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## A. N. Kolmogorov
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for A. N. Kolmogorov, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘Three Approaches to the Quantitative Definition of Information’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## A. S. Perelson
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for A. S. Perelson, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘Immune Network Theory’ and ‘Self–Nonself Discrimination in a Computer’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
 
 ## Action learning
 
@@ -178,6 +299,17 @@ Ancient Greek mathematician whose work included iterative and self-referential c
 
 - SCiO SysBoK - Recursion v1 — No public link
 
+## Artificial Adaptive Agents in Economic Theory
+
+Type: Publication
+Public depth: described
+
+J. H. Holland and J. H. Miller, ‘Artificial Adaptive Agents in Economic Theory’ (1991); item 72 in volume 4 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
 ## Arturo Rosenblueth
 
 Type: Person
@@ -259,6 +391,61 @@ Local variety usually outruns central knowledge. Suppressing autonomy can make t
 
 - Viable System Model - Metaphorum — https://metaphorum.org/staffords-work/viable-system-model
 - Benjamin Taylor VSM lecture — No public link
+
+## Autopoiesis: The Organization of Living Systems, Its Characterization, and a Model
+
+Type: Publication
+Public depth: described
+
+F. G. Varela, H. R. Maturana, and R. Uribe, ‘Autopoiesis: The Organization of Living Systems, Its Characterization, and a Model’ (1974); item 48 in volume 3 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## B. B. Mandelbrot
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for B. B. Mandelbrot, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘How Long is the Coast of Britain? Statistical Self-Similarity and Fractional Dimension’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## B. J. Enquist
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for B. J. Enquist, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘A General Model for the Origin of Allometric Scaling Laws in Biology’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## B. P. Stojkovic
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for B. P. Stojkovic, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘The Middle Way’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## Behavior, Purpose, and Teleology
+
+Type: Publication
+Public depth: described
+
+A. Rosenblueth, N. Wiener, and J. Bigelow, ‘Behavior, Purpose, and Teleology’ (1943); item 6 in volume 1 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
 
 ## Behaviour over time graphs
 
@@ -355,6 +542,94 @@ The Bubble Strategy is an approach to organisational change in which protected, 
 - SCiO CF Resources v9 draft — No public link
 - The bubble strategy: A case study of dynamic, defensible processes of change in Salford — https://www.systemspractice.org/resources/bubble-strategy-case-study-dynamic-defensible-processes-change-salford
 
+## C. G. Langton
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for C. G. Langton, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘Studying Artificial Life with Cellular Automata’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## C. H. Bennett
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for C. H. Bennett, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘Logical Reversibility of Computation’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## C. H. Waddington
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for C. H. Waddington, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘Canalization of Development and the Inheritance of Acquired Characters’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## C. Reynolds
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for C. Reynolds, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘Flocks, Herds, and Schools: A Distributed Behavioral Model’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## C. S. Holling
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for C. S. Holling, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘Resilience and Stability of Ecological Systems’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## C. Tang
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for C. Tang, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘Self-Organized Criticality: An Explanation of the 1/f Noise’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## Canalization of Development and the Inheritance of Acquired Characters
+
+Type: Publication
+Public depth: described
+
+C. H. Waddington, ‘Canalization of Development and the Inheritance of Acquired Characters’ (1942); item 4 in volume 1 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## Carrying Capacity and Dynamic Equilibrium in the Prehistoric Southwest
+
+Type: Publication
+Public depth: described
+
+E. B. W. Zubrow, ‘Carrying Capacity and Dynamic Equilibrium in the Prehistoric Southwest’ (1971); item 38 in volume 2 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
 ## Chaos
 
 Type: Concept
@@ -410,7 +685,7 @@ A systems scientist and cybernetician who co-developed Principia Cybernetica and
 ### Sources
 
 - The Cybernetic Manifesto — https://pespmc1.vub.ac.be/MANIFESTO.html
-- Metasystem Transition Theory — https://pespmc1.vub.ac.be/MSTT.html
+- Principia Cybernetica: Metasystem Transition Theory — https://pespmc1.vub.ac.be/MSTT.html
 - The Global Brain Group — https://pespmc1.vub.ac.be/GBRAIN-L.html
 
 ## Coaching
@@ -496,6 +771,39 @@ Organisations commonly oscillate between silos and centralisation. Cohesion offe
 - Benjamin Taylor VSM lecture — No public link
 - Systems convening and boundaries core slides — No public link
 
+## Collective Action and the Evolution of Social Norms
+
+Type: Publication
+Public depth: described
+
+E. Ostrom, ‘Collective Action and the Evolution of Social Norms’ (2000); item 89 in volume 4 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## Collective Dynamics of ‘Small-World’ Networks
+
+Type: Publication
+Public depth: described
+
+D. Watts and S. Strogatz, ‘Collective Dynamics of ‘Small-World’ Networks’ (1998); item 87 in volume 4 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## Competing Technologies, Increasing Returns, and Lock-In by Historical Events
+
+Type: Publication
+Public depth: described
+
+W. B. Arthur, ‘Competing Technologies, Increasing Returns, and Lock-In by Historical Events’ (1989); item 67 in volume 4 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
 ## Complexity
 
 Type: Concept
@@ -520,6 +828,17 @@ The Complexity Instability Principle says that systems with too many active or c
 - The Grammar of Systems - SCiO presentation — https://www.systemspractice.org/resources/grammar-systems
 - The Grammar of Systems II: From Order to Chaos and Back Again, 2nd edition — https://www.systemspractice.org/resources/grammar-systems-ii-order-chaos-back-again-2nd-ed
 - Cybersecurity Lessons from The Grammar of Systems, part 2 — https://www.linkedin.com/pulse/cybersecurity-lessons-from-grammar-systems-order-chaos-osama-salah-1f
+
+## Computing Machinery and Intelligence
+
+Type: Publication
+Public depth: described
+
+A. M. Turing, ‘Computing Machinery and Intelligence’ (1950); item 11 in volume 1 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
 
 ## Conant-Ashby Theorem
 
@@ -581,6 +900,28 @@ A context diagram shows a system of interest and selected exchanges with its env
 ### Sources
 
 - An introductory systems thinking toolkit for civil servants — https://www.gov.uk/government/publications/systems-thinking-for-civil-servants/toolkit
+
+## Contribution to the Energetics of Evolution
+
+Type: Publication
+Public depth: described
+
+A. J. Lotka, ‘Contribution to the Energetics of Evolution’ (1922); item 1 in volume 1 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## Contributions to the Theory of Optimal Control
+
+Type: Publication
+Public depth: described
+
+R. E. Kálmán, ‘Contributions to the Theory of Optimal Control’ (1960); item 15 in volume 1 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
 
 ## Control theory
 
@@ -666,6 +1007,72 @@ Cybernetics studies regulation, communication, circular causality, learning and 
 - SCiO SysBoK - Feedback v1 — No public link
 - Cybernetics or Control and Communication in the Animal and the Machine — https://mitpress.mit.edu/9780262537841/cybernetics-or-control-and-communication-in-the-animal-and-the-machine/
 
+## D. H. Wolpert
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for D. H. Wolpert, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘No Free Lunch Theorems for Optimization’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## D. M. Raup
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for D. M. Raup, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘Geometric Analysis of Shell Coiling; General Problems’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## D. Pines
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for D. Pines, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘The Middle Way’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## D. Sherrington
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for D. Sherrington, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘Solvable Model of a Spin-Glass’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## D. Warland
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for D. Warland, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘Reading a Neural Code’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## D. Watts
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for D. Watts, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘Collective Dynamics of ‘Small-World’ Networks’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
 ## Darkness Principle
 
 Type: Law or principle
@@ -738,6 +1145,17 @@ Work on undiscussables identifies issues people cannot safely raise and the defe
 
 - SCiO CF Resources v9 draft — No public link
 - SCiO Professional Accreditation and Competency Framework — https://www.systemspractice.org/professional-accreditation
+
+## Deterministic Nonperiodic Flow
+
+Type: Publication
+Public depth: described
+
+E. N. Lorenz, ‘Deterministic Nonperiodic Flow’ (1963); item 23 in volume 2 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
 
 ## Difference
 
@@ -842,6 +1260,17 @@ Double-loop learning changes not only an action but the governing assumptions, v
 
 - SCiO SysBoK - Feedback v1 — No public link
 
+## Dynamic Models of Segregation
+
+Type: Publication
+Public depth: described
+
+T. C. Schelling, ‘Dynamic Models of Segregation’ (1971); item 37 in volume 2 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
 ## Dynamics
 
 Type: Concept
@@ -864,6 +1293,50 @@ The dynamics of loops concerns how interacting reinforcing and balancing feedbac
 
 - The Grammar of Systems - SCiO presentation — https://www.systemspractice.org/resources/grammar-systems
 - The Grammar of Systems II: From Order to Chaos and Back Again, 2nd edition — https://www.systemspractice.org/resources/grammar-systems-ii-order-chaos-back-again-2nd-ed
+
+## E. B. W. Zubrow
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for E. B. W. Zubrow, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘Carrying Capacity and Dynamic Equilibrium in the Prehistoric Southwest’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## E. N. Lorenz
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for E. N. Lorenz, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘Deterministic Nonperiodic Flow’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## E. Ostrom
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for E. Ostrom, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘Collective Action and the Evolution of Social Norms’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## E. T. Jaynes
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for E. T. Jaynes, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘Information Theory and Statistical Mechanics’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
 
 ## Eilhard von Domarus
 
@@ -948,6 +1421,17 @@ Complex outcomes cannot usually be attributed to one actor or intervention. Emer
 - Emergence, (Self)Organization, and Complexity — https://web-prod.santafe.edu/events/emergence-selforganization-and-complexity
 - Introduction to Complexity (Santa Fe Institute Complexity Explorer) — https://www.complexityexplorer.org/courses/185-introduction-to-
 
+## Emergent Properties of Balinese Water Temple Networks: Coadaptation on a Rugged Fitness Landscape
+
+Type: Publication
+Public depth: described
+
+J. S. Lansing and J. M. Kremer, ‘Emergent Properties of Balinese Water Temple Networks: Coadaptation on a Rugged Fitness Landscape’ (1993); item 75 in volume 4 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
 ## Enablers and inhibitors
 
 Type: Tool
@@ -958,6 +1442,28 @@ An enablers-and-inhibitors analysis identifies conditions that support or obstru
 ### Sources
 
 - An introductory systems thinking toolkit for civil servants — https://www.gov.uk/government/publications/systems-thinking-for-civil-servants/toolkit
+
+## Endogenous Preferences: The Cultural Consequences of Markets and Other Economic Institutions
+
+Type: Publication
+Public depth: described
+
+S. Bowles, ‘Endogenous Preferences: The Cultural Consequences of Markets and Other Economic Institutions’ (1998); item 86 in volume 4 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## Every Good Regulator of a System Must Be a Model of That System
+
+Type: Publication
+Public depth: described
+
+R. C. Conant and W. R. Ashby, ‘Every Good Regulator of a System Must Be a Model of That System’ (1970); item 34 in volume 2 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
 
 ## Evolutionary cybernetics
 
@@ -970,6 +1476,73 @@ An evolutionary approach to cybernetics concerned with how new levels of control
 
 - Introduction to Principia Cybernetica — https://pespmc1.vub.ac.be/INTRO.html
 - The Cybernetic Manifesto — https://pespmc1.vub.ac.be/MANIFESTO.html
+- Introduction to Principia Cybernetica — https://pespmc1.vub.ac.be/INTRO.html
+
+## Evolutionary Phenomena in Simple Dynamics
+
+Type: Publication
+Public depth: described
+
+K. Lindgren, ‘Evolutionary Phenomena in Simple Dynamics’ (1991); item 73 in volume 4 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## Evolutionary Rate at the Molecular Level
+
+Type: Publication
+Public depth: described
+
+M. Kimura, ‘Evolutionary Rate at the Molecular Level’ (1968); item 30 in volume 2 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## F. A. Hayek
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for F. A. Hayek, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘The Use of Knowledge in Society’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## F. J. Dyson
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for F. J. Dyson, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘A Model for the Origin of Life’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## F. J. Odling-Smee
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for F. J. Odling-Smee, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘Niche Construction’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## F. Rieke
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for F. Rieke, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘Reading a Neural Code’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
 
 ## Facilitation
 
@@ -1179,6 +1752,73 @@ Flawless Consulting is Peter Block's approach to contracting, diagnosis, feedbac
 - SCiO CF Resources v9 draft — No public link
 - SCiO Professional Accreditation and Competency Framework — https://www.systemspractice.org/professional-accreditation
 
+## Flocks, Herds, and Schools: A Distributed Behavioral Model
+
+Type: Publication
+Public depth: described
+
+C. Reynolds, ‘Flocks, Herds, and Schools: A Distributed Behavioral Model’ (1987); item 65 in volume 3 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## Foundational Papers in Complexity Science
+
+Type: Corpus
+Public depth: described
+
+A four-volume 2024 Santa Fe Institute Press collection of 89 historical papers selected to represent important foundations of complexity science.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+- Foundational Papers in Complexity Science — official citation — https://www.foundationalpapersincomplexityscience.org/how-to-cite
+
+## Foundational Papers in Complexity Science, volume 1
+
+Type: Publication
+Public depth: described
+
+Volume 1 of the Foundational Papers in Complexity Science collection, represented as a bibliographic container for the historical papers listed in the official table of contents.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## Foundational Papers in Complexity Science, volume 2
+
+Type: Publication
+Public depth: described
+
+Volume 2 of the Foundational Papers in Complexity Science collection, represented as a bibliographic container for the historical papers listed in the official table of contents.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## Foundational Papers in Complexity Science, volume 3
+
+Type: Publication
+Public depth: described
+
+Volume 3 of the Foundational Papers in Complexity Science collection, represented as a bibliographic container for the historical papers listed in the official table of contents.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## Foundational Papers in Complexity Science, volume 4
+
+Type: Publication
+Public depth: described
+
+Volume 4 of the Foundational Papers in Complexity Science collection, represented as a bibliographic container for the historical papers listed in the official table of contents.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
 ## Fractal Enterprise Model and Capabilities
 
 Type: Intervention skill
@@ -1225,7 +1865,7 @@ A cybernetician and complexity researcher closely associated with the developmen
 ### Sources
 
 - Introduction to Principia Cybernetica — https://pespmc1.vub.ac.be/INTRO.html
-- Metasystem Transition Theory — https://pespmc1.vub.ac.be/MSTT.html
+- Principia Cybernetica: Metasystem Transition Theory — https://pespmc1.vub.ac.be/MSTT.html
 - The Global Brain Group — https://pespmc1.vub.ac.be/GBRAIN-L.html
 
 ## Francisco Varela
@@ -1239,6 +1879,83 @@ Chilean biologist and cybernetician who developed work on autopoiesis, cognition
 
 - SCiO SysBoK - Recursion v1 — No public link
 
+## From Sequences to Shapes and Back: A Case Study in RNA Secondary Structures
+
+Type: Publication
+Public depth: described
+
+P. Schuster, W. Fontana, P. F. Stadler, and I. L. Hofacker, ‘From Sequences to Shapes and Back: A Case Study in RNA Secondary Structures’ (1994); item 80 in volume 4 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## Fusion, Propagation, and Structuring in Belief Networks
+
+Type: Publication
+Public depth: described
+
+J. Pearl, ‘Fusion, Propagation, and Structuring in Belief Networks’ (1986); item 62 in volume 3 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## G. B. West
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for G. B. West, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘A General Model for the Origin of Allometric Scaling Laws in Biology’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## G. J. Chaitin
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for G. J. Chaitin, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘On the Length of Programs for Computing Finite Binary Sequences’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## G. Nicolis
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for G. Nicolis, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘Self-Organisation in Nonequilibrium Systems: Towards a Dynamics of Complexity’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## G. Parisi
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for G. Parisi, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘Infinite Number of Order Parameters for Spin-Glasses’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## G. R. Price
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for G. R. Price, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘Selection and Covariance’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
 ## Game theory
 
 Type: Tradition
@@ -1250,6 +1967,28 @@ Game theory studies situations in which each participant's outcome depends partl
 
 - SCiO SysBoK - Feedback v1 — No public link
 - Game Theory — https://plato.stanford.edu/archives/fall2023/entries/game-theory/
+
+## Geometric Analysis of Shell Coiling; General Problems
+
+Type: Publication
+Public depth: described
+
+D. M. Raup, ‘Geometric Analysis of Shell Coiling; General Problems’ (1966); item 27 in volume 2 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## Geometry from a Time Series
+
+Type: Publication
+Public depth: described
+
+N. H. Packard, J. P. Crutchfield, J. D. Farmer, and R. S. Shaw, ‘Geometry from a Time Series’ (1980); item 54 in volume 3 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
 
 ## Gerald Midgley
 
@@ -1307,6 +2046,17 @@ Anthropologist and cybernetic thinker whose work connected communication, learni
 ### Sources
 
 - Steps to an Ecology of Mind — https://press.uchicago.edu/ucp/books/book/chicago/S/bo3620295.html
+
+## H. Haken
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for H. Haken, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘Synergetics’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
 
 ## Harold Stephen Black
 
@@ -1435,6 +2185,17 @@ The Homeostasis Principle says that a system remains stable only while its essen
 - The Grammar of Systems II: From Order to Chaos and Back Again, 2nd edition — https://www.systemspractice.org/resources/grammar-systems-ii-order-chaos-back-again-2nd-ed
 - Cybersecurity Lessons from The Grammar of Systems, part 1 — https://www.linkedin.com/pulse/cybersecurity-lessons-from-grammar-systems-order-chaos-osama-salah/
 
+## How Long is the Coast of Britain? Statistical Self-Similarity and Fractional Dimension
+
+Type: Publication
+Public depth: described
+
+B. B. Mandelbrot, ‘How Long is the Coast of Britain? Statistical Self-Similarity and Fractional Dimension’ (1967); item 29 in volume 2 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
 ## Humberto Maturana
 
 Type: Person
@@ -1445,6 +2206,28 @@ Chilean biologist and cybernetician whose work on autopoiesis, cognition, langua
 ### Sources
 
 - SCiO SysBoK - Recursion v1 — No public link
+
+## I. L. Hofacker
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for I. L. Hofacker, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘From Sequences to Shapes and Back: A Case Study in RNA Secondary Structures’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## I. Prigogine
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for I. Prigogine, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘Self-Organisation in Nonequilibrium Systems: Towards a Dynamics of Complexity’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
 
 ## Iceberg model
 
@@ -1550,6 +2333,39 @@ Systems and cybernetics researcher whose 2026 community map is retained as a com
 
 - Systems researchers network — No public link
 
+## Immune Network Theory
+
+Type: Publication
+Public depth: described
+
+A. S. Perelson, ‘Immune Network Theory’ (1989); item 68 in volume 4 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## Inductive Reasoning and Bounded Rationality
+
+Type: Publication
+Public depth: described
+
+W. B. Arthur, ‘Inductive Reasoning and Bounded Rationality’ (1994); item 77 in volume 4 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## Infinite Number of Order Parameters for Spin-Glasses
+
+Type: Publication
+Public depth: described
+
+G. Parisi, ‘Infinite Number of Order Parameters for Spin-Glasses’ (1979); item 53 in volume 3 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
 ## Influence mapping
 
 Type: Intervention skill
@@ -1647,6 +2463,17 @@ Public and organisational systems routinely confuse data volume with understandi
 - Transduction - a powerful and important concept that few have heard of — https://chosen-path.org/2021/10/06/transduction-a-powerful-and-important-concept-that-few-have-heard-of/
 - Core Thinking Integration — No public link
 
+## Information Measures, Effective Complexity, and Total Information
+
+Type: Publication
+Public depth: described
+
+M. Gell-Mann and S. Lloyd, ‘Information Measures, Effective Complexity, and Total Information’ (1996); item 81 in volume 4 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
 ## Information theory
 
 Type: Concept
@@ -1718,6 +2545,28 @@ Systems and cybernetics use information in several senses. Confusing Shannon inf
 - Cybernetics or Control and Communication in the Animal and the Machine — https://mitpress.mit.edu/9780262537841/cybernetics-or-control-and-communication-in-the-animal-and-the-machine/
 - An Introduction to Cybernetics — https://ashby.info/bibliography.html
 
+## Information Theory and Statistical Mechanics
+
+Type: Publication
+Public depth: described
+
+E. T. Jaynes, ‘Information Theory and Statistical Mechanics’ (1957); item 14 in volume 1 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## Information, Physics, Quantum: The Search for Links
+
+Type: Publication
+Public depth: described
+
+J. A. Wheeler, ‘Information, Physics, Quantum: The Search for Links’ (1990); item 70 in volume 4 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
 ## INFORMED Group Dynamics
 
 Type: Method or methodology
@@ -1774,6 +2623,182 @@ Interview technique covers the design and conduct of conversations that elicit e
 - SCiO CF Resources v9 draft — No public link
 - SCiO Professional Accreditation and Competency Framework — https://www.systemspractice.org/professional-accreditation
 
+## Irreversibility and Heat Generation in the Computing Process
+
+Type: Publication
+Public depth: described
+
+R. Landauer, ‘Irreversibility and Heat Generation in the Computing Process’ (1961); item 16 in volume 1 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## J. A. Wheeler
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for J. A. Wheeler, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘Information, Physics, Quantum: The Search for Links’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## J. D. Farmer
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for J. D. Farmer, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘Geometry from a Time Series’ and ‘A Rosetta Stone for Connectionism’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## J. H. Brown
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for J. H. Brown, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘A General Model for the Origin of Allometric Scaling Laws in Biology’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## J. H. Holland
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for J. H. Holland, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘Outline for a Logical Theory of Adaptive Systems’ and ‘Artificial Adaptive Agents in Economic Theory’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## J. H. Miller
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for J. H. Miller, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘Artificial Adaptive Agents in Economic Theory’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## J. J. Hopfield
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for J. J. Hopfield, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘Neural Networks and Physical Systems with Emergent Collective Computational Abilities’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## J. M. Kremer
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for J. M. Kremer, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘Emergent Properties of Balinese Water Temple Networks: Coadaptation on a Rugged Fitness Landscape’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## J. Maynard Smith
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for J. Maynard Smith, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘The Theory of Games and the Evolution of Animal Conflicts’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## J. McCaskill
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for J. McCaskill, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘Molecular Quasi-Species’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## J. Nash
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for J. Nash, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘Non-Cooperative Games’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## J. P. Crutchfield
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for J. P. Crutchfield, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘Geometry from a Time Series’, ‘Revisiting the Edge of Chaos: Evolving Cellular Automata to Perform Computations’, and ‘The Calculi of Emergence: Computation, Dynamics, and Induction’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## J. Pearl
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for J. Pearl, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘Fusion, Propagation, and Structuring in Belief Networks’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## J. S. Lansing
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for J. S. Lansing, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘Emergent Properties of Balinese Water Temple Networks: Coadaptation on a Rugged Fitness Landscape’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## J. Schmalian
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for J. Schmalian, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘The Middle Way’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## J. von Neumann
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for J. von Neumann, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘Theory of Self-Reproducing Automata’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
 ## James Clerk Maxwell
 
 Type: Person
@@ -1797,6 +2822,61 @@ Julian Bigelow was an engineer and mathematician who co-authored the 1943 paper 
 
 - Behavior, Purpose and Teleology — https://doi.org/10.1086/286788
 
+## K. Hasselmann
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for K. Hasselmann, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘Stochastic Climate Models Part I. Theory’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## K. J. Arrow
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for K. J. Arrow, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘The Economic Implications of Learning by Doing’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## K. Lindgren
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for K. Lindgren, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘Evolutionary Phenomena in Simple Dynamics’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## K. N. Laland
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for K. N. Laland, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘Niche Construction’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## K. Wiesenfeld
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for K. Wiesenfeld, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘Self-Organized Criticality: An Explanation of the 1/f Noise’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
 ## Kurt Gödel
 
 Type: Person
@@ -1808,6 +2888,28 @@ Kurt Gödel was a logician whose work on completeness, incompleteness and set th
 
 - SCiO SysBoK - Recursion v1 — No public link
 - Kurt Gödel — https://plato.stanford.edu/entries/goedel/
+
+## L. Allen
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for L. Allen, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘Self–Nonself Discrimination in a Computer’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## L. Szilárd
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for L. Szilárd, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘On the Decrease of Entropy in a Thermodynamic System by the Intervention of Intelligent Beings’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
 
 ## Ladder of abstraction
 
@@ -1985,6 +3087,127 @@ Listening for multiple perspectives seeks not only different opinions but the di
 - SCiO CF Resources v9 draft — No public link
 - SCiO Professional Accreditation and Competency Framework — https://www.systemspractice.org/professional-accreditation
 
+## Logical Reversibility of Computation
+
+Type: Publication
+Public depth: described
+
+C. H. Bennett, ‘Logical Reversibility of Computation’ (1973); item 43 in volume 2 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## M. Bunge
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for M. Bunge, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘The Complexity of Simplicity’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## M. Eigen
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for M. Eigen, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘Molecular Quasi-Species’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## M. Gell-Mann
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for M. Gell-Mann, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘Information Measures, Effective Complexity, and Total Information’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## M. I. Budyko
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for M. I. Budyko, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘The Effect of Solar Radiation Variations on the Climate of the Earth’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## M. J. Feigenbaum
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for M. J. Feigenbaum, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘Universal Behavior in Nonlinear Systems’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## M. Kimura
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for M. Kimura, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘Evolutionary Rate at the Molecular Level’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## M. Minsky
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for M. Minsky, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘Steps Toward Artificial Intelligence’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## M. Mitchell
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for M. Mitchell, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘Revisiting the Edge of Chaos: Evolving Cellular Automata to Perform Computations’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## M. S. Granovetter
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for M. S. Granovetter, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘The Strength of Weak Ties’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## M. W. Feldman
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for M. W. Feldman, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘Niche Construction’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
 ## Machine governors
 
 Type: Technology
@@ -2021,6 +3244,17 @@ Map analysis and narrative uses a visual systems map together with a written exp
 
 - An introductory systems thinking toolkit for civil servants — https://www.gov.uk/government/publications/systems-thinking-for-civil-servants/toolkit
 
+## Metabolic Stability and Epigenesis in Randomly Constructed Genetic Nets
+
+Type: Publication
+Public depth: described
+
+S. Kauffman, ‘Metabolic Stability and Epigenesis in Randomly Constructed Genetic Nets’ (1969); item 33 in volume 2 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
 ## Metaphors
 
 Type: Intervention skill
@@ -2042,8 +3276,19 @@ A transition in which a new control level forms over lower-level components, pro
 
 ### Sources
 
-- Metasystem Transition Theory — https://pespmc1.vub.ac.be/MSTT.html
+- Principia Cybernetica: Metasystem Transition Theory — https://pespmc1.vub.ac.be/MSTT.html
 - Introduction to Principia Cybernetica — https://pespmc1.vub.ac.be/INTRO.html
+
+## Metasystem Transition Theory
+
+Type: Approach family
+Public depth: described
+
+A theoretical programme developed within Principia Cybernetica around the repeated emergence of higher levels of control and organisation.
+
+### Sources
+
+- Principia Cybernetica: Metasystem Transition Theory — https://pespmc1.vub.ac.be/MSTT.html
 
 ## Modelling
 
@@ -2057,6 +3302,17 @@ Modelling is the purposeful construction and use of a selective representation. 
 - The Grammar of Systems - SCiO presentation — https://www.systemspractice.org/resources/grammar-systems
 - The Grammar of Systems II: From Order to Chaos and Back Again, 2nd edition — https://www.systemspractice.org/resources/grammar-systems-ii-order-chaos-back-again-2nd-ed
 
+## Molecular Quasi-Species
+
+Type: Publication
+Public depth: described
+
+M. Eigen, J. McCaskill, and P. Schuster, ‘Molecular Quasi-Species’ (1988); item 66 in volume 3 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
 ## Monitoring and evaluation strategy
 
 Type: Tool
@@ -2067,6 +3323,17 @@ A monitoring and evaluation strategy specifies what will be observed, by whom, f
 ### Sources
 
 - An introductory systems thinking toolkit for civil servants — https://www.gov.uk/government/publications/systems-thinking-for-civil-servants/toolkit
+
+## More Is Different
+
+Type: Publication
+Public depth: described
+
+P. W. Anderson, ‘More Is Different’ (1972); item 39 in volume 2 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
 
 ## Mosaic Transformation
 
@@ -2101,6 +3368,39 @@ Multiple perspectives work compares how different participants or observers defi
 ### Sources
 
 - Systems Thinking Practitioner apprenticeship standard ST0787 v1.2 — https://skillsengland.education.gov.uk/apprenticeships/st0787-v1-2
+
+## N. Eldredge
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for N. Eldredge, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘Punctuated Equilibria: The Tempo and Mode of Evolution Reconsidered’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## N. H. Packard
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for N. H. Packard, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘Geometry from a Time Series’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## Natural Gradient Works Efficiently in Learning
+
+Type: Publication
+Public depth: described
+
+S. Amari, ‘Natural Gradient Works Efficiently in Learning’ (1998); item 85 in volume 4 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
 
 ## Negative feedback
 
@@ -2193,6 +3493,17 @@ A network represents entities as nodes and relationships as links. Network analy
 
 - Introduction to Complexity (Santa Fe Institute Complexity Explorer) — https://www.complexityexplorer.org/courses/185-introduction-to-
 
+## Neural Networks and Physical Systems with Emergent Collective Computational Abilities
+
+Type: Publication
+Public depth: described
+
+J. J. Hopfield, ‘Neural Networks and Physical Systems with Emergent Collective Computational Abilities’ (1982); item 57 in volume 3 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
 ## Neuro-Linguistic Programming (NLP)
 
 Type: Intervention skill
@@ -2205,6 +3516,28 @@ Neuro-Linguistic Programming is a collection of communication and change techniq
 - SCiO CF Resources v9 draft — No public link
 - SCiO Professional Accreditation and Competency Framework — https://www.systemspractice.org/professional-accreditation
 
+## Niche Construction
+
+Type: Publication
+Public depth: described
+
+F. J. Odling-Smee, K. N. Laland, and M. W. Feldman, ‘Niche Construction’ (1996); item 82 in volume 4 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## No Free Lunch Theorems for Optimization
+
+Type: Publication
+Public depth: described
+
+D. H. Wolpert and W. G. Macready, ‘No Free Lunch Theorems for Optimization’ (1997); item 84 in volume 4 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
 ## Noam Chomsky
 
 Type: Person
@@ -2216,6 +3549,17 @@ Linguist whose generative-syntax work is part of the linguistic-recursion resear
 
 - SCiO SysBoK - Recursion v1 — No public link
 - Aspects of the Theory of Syntax — https://mitpress.mit.edu/9780262030113/aspects-of-the-theory-of-syntax/
+
+## Non-Cooperative Games
+
+Type: Publication
+Public depth: described
+
+J. Nash, ‘Non-Cooperative Games’ (1951); item 12 in volume 1 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
 
 ## Non-linearity
 
@@ -2239,6 +3583,28 @@ Mathematician and co-author of the 1943 teleology paper; later named and develop
 
 - SCiO SysBoK - Feedback v1 — No public link
 - Behavior, Purpose and Teleology — https://doi.org/10.1086/286788
+
+## Notes on an Epistemology for Living Things
+
+Type: Publication
+Public depth: described
+
+H. von Foerster, ‘Notes on an Epistemology for Living Things’ (1972); item 42 in volume 2 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## O. E. Rössler
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for O. E. Rössler, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘A System–Theoretic Model of Biogenesis (Ein systemtheoretisches Modell zur Biogenese)’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
 
 ## Observer
 
@@ -2310,6 +3676,39 @@ Systems work that excludes the observer often turns a local view into an apparen
 - Computing a Reality: Heinz von Foerster's 1973 lecture — https://constructivist.info/4/1/062.foerster
 - Core Thinking Integration — No public link
 - Systems complexity cybernetics operating manual — No public link
+
+## On Some Mathematical Problems Connected with Patterns of Growth in Figures
+
+Type: Publication
+Public depth: described
+
+S. Ulam, ‘On Some Mathematical Problems Connected with Patterns of Growth in Figures’ (1962); item 22 in volume 2 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## On the Decrease of Entropy in a Thermodynamic System by the Intervention of Intelligent Beings
+
+Type: Publication
+Public depth: described
+
+L. Szilárd, ‘On the Decrease of Entropy in a Thermodynamic System by the Intervention of Intelligent Beings’ (1929); item 2 in volume 1 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## On the Length of Programs for Computing Finite Binary Sequences
+
+Type: Publication
+Public depth: described
+
+G. J. Chaitin, ‘On the Length of Programs for Computing Finite Binary Sequences’ (1966); item 26 in volume 2 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
 
 ## Order Osmosis Principle
 
@@ -2392,6 +3791,94 @@ Organisations often centralise decisions that require local variety or mistake r
 
 - Diagnosing the System for Organizations — https://www.wiley-vch.de/en/areas-interest/finance-economics-law/diagnosing-the-system-for-organizations-978-0-471-95136-0
 - Viable System Model - The VSM in 1000 words — https://metaphorum.org/staffords-work/viable-system-model
+
+## Organizations and Markets
+
+Type: Publication
+Public depth: described
+
+H. A. Simon, ‘Organizations and Markets’ (1991); item 74 in volume 4 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## Outline for a Logical Theory of Adaptive Systems
+
+Type: Publication
+Public depth: described
+
+J. H. Holland, ‘Outline for a Logical Theory of Adaptive Systems’ (1962); item 20 in volume 1 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## P. Bak
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for P. Bak, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘Self-Organized Criticality: An Explanation of the 1/f Noise’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## P. F. Stadler
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for P. F. Stadler, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘From Sequences to Shapes and Back: A Case Study in RNA Secondary Structures’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## P. Schuster
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for P. Schuster, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘Molecular Quasi-Species’ and ‘From Sequences to Shapes and Back: A Case Study in RNA Secondary Structures’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## P. T. Hraber
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for P. T. Hraber, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘Revisiting the Edge of Chaos: Evolving Cellular Automata to Perform Computations’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## P. W. Anderson
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for P. W. Anderson, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘More Is Different’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## P. Wolynes
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for P. Wolynes, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘The Middle Way’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
 
 ## Panini
 
@@ -2551,7 +4038,7 @@ A collaborative research and publishing project that developed evolutionary cybe
 
 - Introduction to Principia Cybernetica — https://pespmc1.vub.ac.be/INTRO.html
 - The Cybernetic Manifesto — https://pespmc1.vub.ac.be/MANIFESTO.html
-- Metasystem Transition Theory — https://pespmc1.vub.ac.be/MSTT.html
+- Principia Cybernetica: Metasystem Transition Theory — https://pespmc1.vub.ac.be/MSTT.html
 
 ## Principia Cybernetica Web
 
@@ -2601,6 +4088,17 @@ Public speaking is the design and delivery of spoken communication for an audien
 
 - SCiO CF Resources v9 draft — No public link
 - SCiO Professional Accreditation and Competency Framework — https://www.systemspractice.org/professional-accreditation
+
+## Punctuated Equilibria: The Tempo and Mode of Evolution Reconsidered
+
+Type: Publication
+Public depth: described
+
+S. J. Gould and N. Eldredge, ‘Punctuated Equilibria: The Tempo and Mode of Evolution Reconsidered’ (1977); item 52 in volume 3 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
 
 ## Purpose
 
@@ -2709,6 +4207,127 @@ Questionnaire design turns an inquiry into answerable questions and response for
 - SCiO CF Resources v9 draft — No public link
 - SCiO Professional Accreditation and Competency Framework — https://www.systemspractice.org/professional-accreditation
 
+## R. Axelrod
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for R. Axelrod, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘The Evolution of Cooperation’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## R. B. Laughlin
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for R. B. Laughlin, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘The Middle Way’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## R. Cherukuri
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for R. Cherukuri, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘Self–Nonself Discrimination in a Computer’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## R. E. Kálmán
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for R. E. Kálmán, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘Contributions to the Theory of Optimal Control’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## R. J. Solomonoff
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for R. J. Solomonoff, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘A Formal Theory of Inductive Inference, Part 1’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## R. Landauer
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for R. Landauer, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘Irreversibility and Heat Generation in the Computing Process’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## R. M. Karp
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for R. M. Karp, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘Reducibility Among Combinatorial Problems’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## R. M. May
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for R. M. May, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘Will a Large Complex System Be Stable?’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## R. R. de Ruyter van Steveninck
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for R. R. de Ruyter van Steveninck, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘Reading a Neural Code’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## R. S. Shaw
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for R. S. Shaw, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘Geometry from a Time Series’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## R. Uribe
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for R. Uribe, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘Autopoiesis: The Organization of Living Systems, Its Characterization, and a Model’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
 ## Randomness
 
 Type: Concept
@@ -2719,6 +4338,17 @@ Randomness describes outcomes treated as not deterministically predictable withi
 ### Sources
 
 - Systems Thinking Practitioner apprenticeship standard ST0787 v1.2 — https://skillsengland.education.gov.uk/apprenticeships/st0787-v1-2
+
+## Reading a Neural Code
+
+Type: Publication
+Public depth: described
+
+W. Bialek, F. Rieke, R. R. de Ruyter van Steveninck, and D. Warland, ‘Reading a Neural Code’ (1991); item 71 in volume 4 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
 
 ## Recursion
 
@@ -2821,6 +4451,17 @@ A definition in which instances of a function or structure are specified in term
 ### Sources
 
 - Recursive Functions — https://plato.stanford.edu/entries/recursive-functions/
+
+## Reducibility Among Combinatorial Problems
+
+Type: Publication
+Public depth: described
+
+R. M. Karp, ‘Reducibility Among Combinatorial Problems’ (1972); item 40 in volume 2 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
 
 ## Redundancy of Potential Command Principle
 
@@ -3003,6 +4644,28 @@ The slogan is often used to justify more choice, more management or decentralisa
 - Every Good Regulator of a System Must Be a Model of That System — https://doi.org/10.1080/00207727008920220
 - Viable System Model - The VSM in 1000 words — https://metaphorum.org/staffords-work/viable-system-model
 
+## Resilience and Stability of Ecological Systems
+
+Type: Publication
+Public depth: described
+
+C. S. Holling, ‘Resilience and Stability of Ecological Systems’ (1973); item 45 in volume 3 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## Revisiting the Edge of Chaos: Evolving Cellular Automata to Perform Computations
+
+Type: Publication
+Public depth: described
+
+M. Mitchell, P. T. Hraber, and J. P. Crutchfield, ‘Revisiting the Edge of Chaos: Evolving Cellular Automata to Perform Computations’ (1993); item 76 in volume 4 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
 ## Rich picture
 
 Type: Tool
@@ -3049,6 +4712,138 @@ The Root Structuring Theorem proposes that structural complexity can be reduced 
 - The Grammar of Systems II: From Order to Chaos and Back Again, 2nd edition — https://www.systemspractice.org/resources/grammar-systems-ii-order-chaos-back-again-2nd-ed
 - Cybersecurity Lessons from The Grammar of Systems, part 3 — https://www.linkedin.com/pulse/cybersecurity-lessons-from-grammar-systems-order-chaos-osama-salah-2f
 
+## S. Amari
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for S. Amari, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘Natural Gradient Works Efficiently in Learning’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## S. Bowles
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for S. Bowles, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘Endogenous Preferences: The Cultural Consequences of Markets and Other Economic Institutions’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## S. Forrest
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for S. Forrest, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘Self–Nonself Discrimination in a Computer’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## S. J. Gould
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for S. J. Gould, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘Punctuated Equilibria: The Tempo and Mode of Evolution Reconsidered’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## S. Kauffman
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for S. Kauffman, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘Metabolic Stability and Epigenesis in Randomly Constructed Genetic Nets’ and ‘Towards a General Theory of Adaptive Walks on Rugged Landscapes’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## S. Kirkpatrick
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for S. Kirkpatrick, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘Solvable Model of a Spin-Glass’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## S. Levin
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for S. Levin, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘Towards a General Theory of Adaptive Walks on Rugged Landscapes’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## S. Lloyd
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for S. Lloyd, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘Information Measures, Effective Complexity, and Total Information’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## S. Strogatz
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for S. Strogatz, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘Collective Dynamics of ‘Small-World’ Networks’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## S. Ulam
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for S. Ulam, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘On Some Mathematical Problems Connected with Patterns of Growth in Figures’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## S. Wolfram
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for S. Wolfram, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘Universality and Complexity in Cellular Automata’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## S. Wright
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for S. Wright, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘The Roles of Mutation, Inbreeding, Crossbreeding, and Selection in Evolution’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
 ## Scaling Stasis Principle
 
 Type: Law or principle
@@ -3061,6 +4856,17 @@ The Scaling Stasis Principle says that growth usually adds environmental exposur
 - The Grammar of Systems - SCiO presentation — https://www.systemspractice.org/resources/grammar-systems
 - The Grammar of Systems II: From Order to Chaos and Back Again, 2nd edition — https://www.systemspractice.org/resources/grammar-systems-ii-order-chaos-back-again-2nd-ed
 - Cybersecurity Lessons from The Grammar of Systems, part 3 — https://www.linkedin.com/pulse/cybersecurity-lessons-from-grammar-systems-order-chaos-osama-salah-2f
+
+## Science and Complexity
+
+Type: Publication
+Public depth: described
+
+W. Weaver, ‘Science and Complexity’ (1948); item 10 in volume 1 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
 
 ## Scientific theory and evidence
 
@@ -3099,6 +4905,17 @@ The Second Circular Causality Principle concerns negative feedback. Mutual corre
 - The Grammar of Systems - SCiO presentation — https://www.systemspractice.org/resources/grammar-systems
 - The Grammar of Systems II: From Order to Chaos and Back Again, 2nd edition — https://www.systemspractice.org/resources/grammar-systems-ii-order-chaos-back-again-2nd-ed
 - Cybersecurity Lessons from The Grammar of Systems, part 1 — https://www.linkedin.com/pulse/cybersecurity-lessons-from-grammar-systems-order-chaos-osama-salah/
+
+## Selection and Covariance
+
+Type: Publication
+Public depth: described
+
+G. R. Price, ‘Selection and Covariance’; item 35 in volume 2 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
 
 ## Self-organisation
 
@@ -3172,6 +4989,17 @@ The phrase is often instrumentalised as if leaders can order emergence or simply
 - On Self-Organizing Systems and Their Environments — https://www.organism.earth/library/document/on-self-organizing-systems
 - Emergence, (Self)Organization, and Complexity — https://web-prod.santafe.edu/events/emergence-selforganization-and-complexity
 
+## Self-Organisation in Nonequilibrium Systems: Towards a Dynamics of Complexity
+
+Type: Publication
+Public depth: described
+
+I. Prigogine and G. Nicolis, ‘Self-Organisation in Nonequilibrium Systems: Towards a Dynamics of Complexity’ (1985); item 60 in volume 3 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
 ## Self-Organised Criticality
 
 Type: Law or principle
@@ -3197,6 +5025,28 @@ The Self-Organising Principle concerns the generation of higher-level order thro
 - The Grammar of Systems - SCiO presentation — https://www.systemspractice.org/resources/grammar-systems
 - The Grammar of Systems II: From Order to Chaos and Back Again, 2nd edition — https://www.systemspractice.org/resources/grammar-systems-ii-order-chaos-back-again-2nd-ed
 - Cybersecurity Lessons from The Grammar of Systems, part 2 — https://www.linkedin.com/pulse/cybersecurity-lessons-from-grammar-systems-order-chaos-osama-salah-1f
+
+## Self-Organized Criticality: An Explanation of the 1/f Noise
+
+Type: Publication
+Public depth: described
+
+P. Bak, C. Tang, and K. Wiesenfeld, ‘Self-Organized Criticality: An Explanation of the 1/f Noise’ (1987); item 63 in volume 3 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## Self–Nonself Discrimination in a Computer
+
+Type: Publication
+Public depth: described
+
+S. Forrest, A. S. Perelson, L. Allen, and R. Cherukuri, ‘Self–Nonself Discrimination in a Computer’ (1994); item 79 in volume 4 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
 
 ## Selling systems approaches
 
@@ -3265,6 +5115,17 @@ Soft Systems Methodology is a participative learning process for messy, conteste
 
 - SCiO CF Resources v9 draft — No public link
 
+## Solvable Model of a Spin-Glass
+
+Type: Publication
+Public depth: described
+
+D. Sherrington and S. Kirkpatrick, ‘Solvable Model of a Spin-Glass’ (1975); item 49 in volume 3 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
 ## Stafford Beer
 
 Type: Person
@@ -3303,6 +5164,28 @@ The Steady State Principle links the equilibrium of a system to the equilibria o
 - The Grammar of Systems II: From Order to Chaos and Back Again, 2nd edition — https://www.systemspractice.org/resources/grammar-systems-ii-order-chaos-back-again-2nd-ed
 - Cybersecurity Lessons from The Grammar of Systems, part 3 — https://www.linkedin.com/pulse/cybersecurity-lessons-from-grammar-systems-order-chaos-osama-salah-2f
 
+## Steps Toward Artificial Intelligence
+
+Type: Publication
+Public depth: described
+
+M. Minsky, ‘Steps Toward Artificial Intelligence’ (1961); item 17 in volume 1 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## Stochastic Climate Models Part I. Theory
+
+Type: Publication
+Public depth: described
+
+K. Hasselmann, ‘Stochastic Climate Models Part I. Theory’ (1976); item 51 in volume 3 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
 ## Stock and flow diagrams
 
 Type: Tool
@@ -3337,6 +5220,28 @@ The Structural Viability Theorem says that a system and its constituent sub-syst
 - The Grammar of Systems - SCiO presentation — https://www.systemspractice.org/resources/grammar-systems
 - The Grammar of Systems II: From Order to Chaos and Back Again, 2nd edition — https://www.systemspractice.org/resources/grammar-systems-ii-order-chaos-back-again-2nd-ed
 - Cybersecurity Lessons from The Grammar of Systems, part 3 — https://www.linkedin.com/pulse/cybersecurity-lessons-from-grammar-systems-order-chaos-osama-salah-2f
+
+## Studying Artificial Life with Cellular Automata
+
+Type: Publication
+Public depth: described
+
+C. G. Langton, ‘Studying Artificial Life with Cellular Automata’ (1986); item 61 in volume 3 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## Synergetics
+
+Type: Publication
+Public depth: described
+
+H. Haken, ‘Synergetics’ (1976); item 50 in volume 3 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
 
 ## Syntegration / Team Syntegrity
 
@@ -3478,6 +5383,182 @@ Systems mapping is a family of practices for making selected elements, relations
 
 - An introductory systems thinking toolkit for civil servants — https://www.gov.uk/government/publications/systems-thinking-for-civil-servants/toolkit
 
+## T. C. Schelling
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for T. C. Schelling, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘Dynamic Models of Segregation’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## The Architecture of Complexity
+
+Type: Publication
+Public depth: described
+
+H. A. Simon, ‘The Architecture of Complexity’ (1962); item 21 in volume 2 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## The Calculi of Emergence: Computation, Dynamics, and Induction
+
+Type: Publication
+Public depth: described
+
+J. P. Crutchfield, ‘The Calculi of Emergence: Computation, Dynamics, and Induction’ (1994); item 78 in volume 4 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## The Chemical Basis of Morphogenesis
+
+Type: Publication
+Public depth: described
+
+A. M. Turing, ‘The Chemical Basis of Morphogenesis’ (1952); item 13 in volume 1 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## The Complexity of Simplicity
+
+Type: Publication
+Public depth: described
+
+M. Bunge, ‘The Complexity of Simplicity’ (1962); item 19 in volume 1 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## The Economic Implications of Learning by Doing
+
+Type: Publication
+Public depth: described
+
+K. J. Arrow, ‘The Economic Implications of Learning by Doing’ (1962); item 18 in volume 1 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## The Effect of Solar Radiation Variations on the Climate of the Earth
+
+Type: Publication
+Public depth: described
+
+M. I. Budyko, ‘The Effect of Solar Radiation Variations on the Climate of the Earth’ (1969); item 32 in volume 2 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## The Evolution of Cooperation
+
+Type: Publication
+Public depth: described
+
+R. Axelrod and W. D. Hamilton, ‘The Evolution of Cooperation’ (1981); item 55 in volume 3 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## The Intrinsic Computational Difficulty of Functions
+
+Type: Publication
+Public depth: described
+
+A. Cobham, ‘The Intrinsic Computational Difficulty of Functions’ (1964); item 24 in volume 2 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## The Middle Way
+
+Type: Publication
+Public depth: described
+
+R. B. Laughlin, D. Pines, J. Schmalian, B. P. Stojkovic, and P. Wolynes, ‘The Middle Way’ (1999); item 88 in volume 4 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## The Organization of Complex Systems
+
+Type: Publication
+Public depth: described
+
+H. A. Simon, ‘The Organization of Complex Systems’ (1973); item 46 in volume 3 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## The Role of Models in Science
+
+Type: Publication
+Public depth: described
+
+A. Rosenblueth and N. Wiener, ‘The Role of Models in Science’ (1945); item 8 in volume 1 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## The Roles of Mutation, Inbreeding, Crossbreeding, and Selection in Evolution
+
+Type: Publication
+Public depth: described
+
+S. Wright, ‘The Roles of Mutation, Inbreeding, Crossbreeding, and Selection in Evolution’ (1932); item 3 in volume 1 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## The Strength of Weak Ties
+
+Type: Publication
+Public depth: described
+
+M. S. Granovetter, ‘The Strength of Weak Ties’ (1973); item 44 in volume 2 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## The Theory of Games and the Evolution of Animal Conflicts
+
+Type: Publication
+Public depth: described
+
+J. Maynard Smith, ‘The Theory of Games and the Evolution of Animal Conflicts’ (1974); item 47 in volume 3 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## The Use of Knowledge in Society
+
+Type: Publication
+Public depth: described
+
+F. A. Hayek, ‘The Use of Knowledge in Society’ (1945); item 7 in volume 1 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
 ## Theory of Change maps
 
 Type: Tool
@@ -3489,6 +5570,17 @@ A theory-of-change map sets out how activities are expected to contribute to int
 
 - An introductory systems thinking toolkit for civil servants — https://www.gov.uk/government/publications/systems-thinking-for-civil-servants/toolkit
 
+## Theory of Self-Reproducing Automata
+
+Type: Publication
+Public depth: described
+
+J. von Neumann, ‘Theory of Self-Reproducing Automata’ (1966); item 28 in volume 2 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
 ## Thoralf Skolem
 
 Type: Person
@@ -3499,6 +5591,28 @@ Logician whose 1923 work linked recursive definability with effective computabil
 ### Sources
 
 - Recursive Functions — https://plato.stanford.edu/entries/recursive-functions/
+
+## Three Approaches to the Quantitative Definition of Information
+
+Type: Publication
+Public depth: described
+
+A. N. Kolmogorov, ‘Three Approaches to the Quantitative Definition of Information’ (1968); item 31 in volume 2 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## Towards a General Theory of Adaptive Walks on Rugged Landscapes
+
+Type: Publication
+Public depth: described
+
+S. Kauffman and S. Levin, ‘Towards a General Theory of Adaptive Walks on Rugged Landscapes’ (1987); item 64 in volume 3 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
 
 ## Training design
 
@@ -3619,6 +5733,28 @@ Uncertainty is the limited ability to know which state, explanation or outcome a
 - The Grammar of Systems - SCiO presentation — https://www.systemspractice.org/resources/grammar-systems
 - The Grammar of Systems II: From Order to Chaos and Back Again, 2nd edition — https://www.systemspractice.org/resources/grammar-systems-ii-order-chaos-back-again-2nd-ed
 
+## Universal Behavior in Nonlinear Systems
+
+Type: Publication
+Public depth: described
+
+M. J. Feigenbaum, ‘Universal Behavior in Nonlinear Systems’ (1983); item 58 in volume 3 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## Universality and Complexity in Cellular Automata
+
+Type: Publication
+Public depth: described
+
+S. Wolfram, ‘Universality and Complexity in Cellular Automata’ (1984); item 59 in volume 3 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
 ## Unpredictability
 
 Type: Concept
@@ -3640,7 +5776,7 @@ A physicist, computer scientist and cybernetic philosopher whose work supplied t
 ### Sources
 
 - The Cybernetic Manifesto — https://pespmc1.vub.ac.be/MANIFESTO.html
-- Metasystem Transition Theory — https://pespmc1.vub.ac.be/MSTT.html
+- Principia Cybernetica: Metasystem Transition Theory — https://pespmc1.vub.ac.be/MSTT.html
 
 ## Values mapping and integration
 
@@ -4049,6 +6185,72 @@ The model makes the autonomy-cohesion problem explicit. It asks whether local op
 - Viable System Model - The VSM in 1000 words — https://metaphorum.org/staffords-work/viable-system-model
 - What is the Viable System Model? — https://www.systemspractice.org/resources/what-viable-system-model
 
+## W. B. Arthur
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for W. B. Arthur, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘Competing Technologies, Increasing Returns, and Lock-In by Historical Events’ and ‘Inductive Reasoning and Bounded Rationality’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## W. Bialek
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for W. Bialek, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘Reading a Neural Code’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## W. D. Hamilton
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for W. D. Hamilton, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘The Evolution of Cooperation’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## W. Fontana
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for W. Fontana, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘From Sequences to Shapes and Back: A Case Study in RNA Secondary Structures’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## W. G. Macready
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for W. G. Macready, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘No Free Lunch Theorems for Optimization’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## W. Pitts
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for W. Pitts, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘A Logical Calculus of the Ideas Immanent in Nervous Activity’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
 ## W. Ross Ashby
 
 Type: Person
@@ -4060,6 +6262,17 @@ Cybernetician who developed the Law of Requisite Variety and wrote An Introducti
 
 - An Introduction to Cybernetics — https://ashby.info/bibliography.html
 - Biography: W. Ross Ashby (1903–1972) — https://ashby.info/biography.html
+
+## W. Weaver
+
+Type: Person
+Public depth: described
+
+A bibliographic first-pass person entry for W. Weaver, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘Science and Complexity’. This records collection authorship only; it is not yet a full intellectual profile.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
 
 ## Walter B. Cannon
 
@@ -4082,6 +6295,28 @@ American neurophysiologist, philosopher and cybernetician whose work on neural n
 ### Sources
 
 - Sean Manion: cybernetics, meaning, teleology and phenomenology — https://www.linkedin.com/posts/sean-manionphd_cybernetics-meaning-teleology-activity-7394125204354129921-eCiB
+
+## Web Dictionary of Cybernetics and Systems
+
+Type: Comparator corpus
+Public depth: described
+
+A hypertext dictionary combining the ASC Glossary, Klaus Krippendorff's dictionary and Bernd Hornung's glossary, compiled and converted by Francis Heylighen with help from An Vranckx.
+
+### Sources
+
+- Web Dictionary of Cybernetics and Systems — https://pespmc1.vub.ac.be/ASC/INDEXASC.html
+
+## Will a Large Complex System Be Stable?
+
+Type: Publication
+Public depth: described
+
+R. M. May, ‘Will a Large Complex System Be Stable?’ (1972); item 41 in volume 2 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
 
 ## Workshop design
 

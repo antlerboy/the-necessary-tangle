@@ -141,3 +141,11 @@ blockquote {
 .membership-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: .8rem; align-items: end; }
 .membership-grid label { display: grid; gap: .35rem; }
 .curator-notebook-link { font-weight: 650; }
+/* 0.8 adaptive map and discreet curator-note link */
+.graph-edge.contextual { opacity: .18; stroke-dasharray: 2 5; }
+.graph-edge-group:focus .graph-edge.contextual,
+.graph-edge-group:hover .graph-edge.contextual { opacity: .62; }
+.discreet-note-link { display: inline-block; margin-left: .35rem; font-size: .82rem; opacity: .18; vertical-align: baseline; }
+.discreet-note-link:hover, .discreet-note-link:focus-within { opacity: .75; }
+.discreet-note-link a { color: inherit; text-decoration: none; padding: .15rem .25rem; }
+.graph-node-group { transform-box: fill-box; transform-origin: center; }
