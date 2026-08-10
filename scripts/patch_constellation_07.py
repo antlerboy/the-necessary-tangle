@@ -175,13 +175,13 @@ def main() -> None:
             raise RuntimeError("Could not locate contribution form")
         text = text[:pos] + MEMBERSHIP + text[pos:]
 
-    if 'class="curator-notebook-link"' not in text:
+    if 'class="curator-notebook-link"' not in text and 'data-curator-dot="comments"' not in text:
         text = text.replace('</footer>', '<p><a class="curator-notebook-link" href="https://github.com/antlerboy/the-necessary-tangle/issues/2">Curator notebook</a></p></footer>', 1)
 
     INDEX.write_text(clean(text), encoding="utf-8")
 
     app = APP.read_text(encoding="utf-8")
-    if "function zoomMapAt" not in app:
+    if "function zoomMapAt" not in app and "semanticZoomBand" not in app:
         app = app.rstrip() + "\n" + APPEND_JS.strip() + "\n"
     APP.write_text(clean(app), encoding="utf-8")
 

@@ -3,7 +3,7 @@
     "project": "The Necessary Tangle",
     "subtitle": "A living evidence atlas of systems | cybernetics | complexity",
     "tagline": "Every connection must say what it means.",
-    "release": "0.10-practice-safety-alpha",
+    "release": "0.11-visual-map-alpha",
     "generated": "2026-08-10",
     "status": "public alpha on GitHub Pages",
     "namespace": "scc_bok",
@@ -44045,13 +44045,13 @@
       "tool": 11,
       "publication": 93,
       "intervention_skill": 47,
-      "law_or_principle": 31,
       "person": 55,
-      "tradition": 2,
+      "method_or_methodology": 14,
+      "law_or_principle": 31,
       "concept": 14,
       "comparator_corpus": 1,
-      "method_or_methodology": 14,
-      "corpus": 1
+      "corpus": 1,
+      "tradition": 2
     }
   },
   "expansion_08": {
@@ -44198,7 +44198,7 @@
   ],
   "ai_observations": {
     "generated": "2026-08-10",
-    "release": "0.10-practice-safety-alpha",
+    "release": "0.11-visual-map-alpha",
     "author": "OpenAI-assisted analysis under the responsibility of curator Benjamin P Taylor",
     "method_note": "These observations combine reproducible counts from the public graph with model-assisted interpretation. Measurements, interpretations and proposed tests are kept separate. Detailed risk working notes are kept outside the public release; the public record shows the controls which govern publication.",
     "metrics": {
@@ -44540,5 +44540,21 @@
       "label": "Versioned validation and backup",
       "description": "Every public release is built from versioned sources, validated, deployed through GitHub Pages and accompanied by a content backup with checksum."
     }
-  ]
+  ],
+  "map_experience": {
+    "release": "0.11-visual-map-alpha",
+    "model": "whole-to-detail conceptual navigation",
+    "principles": [
+      "Preserve orientation while moving between the whole graph, a neighbourhood and a selected entry.",
+      "Make zoom change the amount of visible detail rather than merely making the same clutter larger.",
+      "Keep relation type, evidence and uncertainty inspectable from the same map.",
+      "Use a minimap, navigation history and fit controls to reduce getting lost.",
+      "Retain keyboard, pointer, touch and reduced-motion routes through the same public graph."
+    ],
+    "inspiration": {
+      "label": "Visual Meaning Shared Meaning Platform",
+      "url": "https://visual-meaning.com/our-platform/",
+      "note": "Interaction inspiration only: zoom and pan across a conceptual whole, then click through to meaning and evidence. The Necessary Tangle remains its own public data model and interface."
+    }
+  }
 }

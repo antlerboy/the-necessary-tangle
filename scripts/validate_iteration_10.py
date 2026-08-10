@@ -11,6 +11,7 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA_PATH = ROOT / "data" / "public-data.json"
 DOCS = ROOT / "docs"
 EXPECTED_RELEASE = "0.10-practice-safety-alpha"
+ALLOWED_RELEASES = {EXPECTED_RELEASE, "0.11-visual-map-alpha"}
 EXPECTED_PUBLIC_COUNT = 417
 EXPECTED_PROFILE_COUNT = 38
 EXPECTED_JOURNEY_COUNT = 13
@@ -99,8 +100,8 @@ def main() -> int:
     journeys = {journey.get("id"): journey for journey in data.get("journeys", []) if journey.get("id")}
     edges = {edge.get("id"): edge for edge in data.get("edges", []) if edge.get("id")}
 
-    if meta.get("release") != EXPECTED_RELEASE:
-        errors.append(f"meta.release must be {EXPECTED_RELEASE}")
+    if meta.get("release") not in ALLOWED_RELEASES:
+        errors.append(f"meta.release must be one of {sorted(ALLOWED_RELEASES)}")
     if len(public_nodes) != EXPECTED_PUBLIC_COUNT or meta.get("public_entry_count") != EXPECTED_PUBLIC_COUNT:
         errors.append(f"expected exactly {EXPECTED_PUBLIC_COUNT} canonical public entries")
     developed = len(set(profiles) & public_ids)
@@ -173,7 +174,7 @@ def main() -> int:
     if len({item.get("id") for item in controls}) != len(controls):
         errors.append("publication controls contain duplicate IDs")
     report = data.get("ai_observations", {})
-    if report.get("release") != EXPECTED_RELEASE:
+    if report.get("release") not in ALLOWED_RELEASES:
         errors.append("AI observations release is stale")
     if "public_risks" in report:
         errors.append("detailed working risk register remains in public data")
@@ -201,14 +202,15 @@ def main() -> int:
         if marker not in css:
             errors.append(f"0.10 CSS missing: {marker}")
 
-    forbidden_public_markers = (
+    forbidden_public_markers = [
         "aiRiskList",
         "Risks of making the atlas public",
         "documentation/publication-risks.md",
-        "the-necessary-tangle/issues/2",
         "curator's running notebook",
         "discreet-note-link",
-    )
+    ]
+    if meta.get("release") == EXPECTED_RELEASE:
+        forbidden_public_markers.append("the-necessary-tangle/issues/2")
     for marker in forbidden_public_markers:
         if marker.casefold() in index.casefold() or marker.casefold() in app.casefold():
             errors.append(f"retired public working-note/risk marker remains: {marker}")

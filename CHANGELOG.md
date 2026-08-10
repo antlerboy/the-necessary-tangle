@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.11-visual-map-alpha — 10 August 2026
+
+- Restored the curator's discreet bottom-right comment dot and reopened the running feedback thread.
+- Reworked map navigation around a whole-to-detail model informed by Visual Meaning's conceptual-map interaction pattern.
+- Added semantic label density at overview, neighbourhood and detail scales.
+- Added a clickable and draggable minimap with a visible viewport.
+- Added map-focus back and forward navigation, continuous zoom slider and full-screen mode.
+- Added selected-connection labels, double-click zoom and keyboard zoom, pan and fit controls.
+- Added maintained documentation explaining the interaction choices and their limits.
+
 ## 0.10-practice-safety-alpha — 10 August 2026
 
 - Added six developed entries distinguishing systems theory, systems practice, systems leadership, systems change, systems convening and systems weaving.

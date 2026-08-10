@@ -9,7 +9,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data" / "public-data.json"
-ALLOWED_RELEASES = {"0.7-constellation-alpha", "0.8-expansion-alpha", "0.9-observations-alpha", "0.10-practice-safety-alpha"}
+ALLOWED_RELEASES = {"0.7-constellation-alpha", "0.8-expansion-alpha", "0.9-observations-alpha", "0.10-practice-safety-alpha", "0.11-visual-map-alpha"}
 PRINCIPIA_IDS = {
     "person_cliff_joslyn", "tradition_evolutionary_cybernetics", "person_francis_heylighen",
     "concept_global_brain", "concept_metasystem_transition", "organisation_principia_cybernetica_project",
@@ -170,11 +170,15 @@ def main() -> int:
     if meta.get("release") in {"0.7-constellation-alpha", "0.8-expansion-alpha", "0.9-observations-alpha"}:
         if 'class="curator-notebook-link"' not in index or '/issues/2' not in index:
             errors.append("curator notebook link is missing")
-    elif '/issues/2' in index:
-        errors.append("retired public curator-notebook route remains in the release")
+    elif meta.get("release") == "0.10-practice-safety-alpha" and '/issues/2' in index:
+        errors.append("retired public curator-notebook route remains in the 0.10 release")
+    elif meta.get("release") == "0.11-visual-map-alpha":
+        if index.count('data-curator-dot="comments"') != 1 or index.count('/issues/2') != 1:
+            errors.append("the restored curator comment dot is missing or duplicated")
 
     app = (ROOT / "docs" / "assets" / "app.js").read_text(encoding="utf-8")
-    for marker in ["zoomMapAt", "emergentCategories", "membershipForm", "human sponsor"]:
+    map_marker = "semanticZoomBand" if meta.get("release") == "0.11-visual-map-alpha" else "zoomMapAt"
+    for marker in [map_marker, "emergentCategories", "membershipForm", "human sponsor"]:
         if marker not in app:
             errors.append(f"app.js missing constellation marker: {marker}")
     if "document.querySelector('.curator-notebook')" in app:

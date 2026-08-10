@@ -193,7 +193,7 @@ def patch_app() -> None:
     inspectNode(mapFocus);
     setHash({ view: 'map', focus: mapFocus });
   }"""
-    if new_activate not in app:
+    if new_activate not in app and "function activateMapNode(id, options = {})" not in app:
         app = replace_once(app, old_activate, new_activate, "activateMapNode block")
 
     old_top = """  function renderMap(options = {}) {
@@ -264,7 +264,10 @@ def patch_css() -> None:
 
 def main() -> None:
     patch_index()
-    patch_app()
+    if APP.exists() and "semanticZoomBand" in APP.read_text(encoding="utf-8"):
+        print("Preserved the 0.11 map application while refreshing the 0.8 page and styles")
+    else:
+        patch_app()
     patch_css()
     print("Applied 0.8 breadth, adaptive-map and discreet-notebook interface changes")
 
