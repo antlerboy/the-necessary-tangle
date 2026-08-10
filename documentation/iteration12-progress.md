@@ -1,1 +1,0 @@
-The iteration 0.12 branch is under validation. This file will be removed or folded into the release record before merge.

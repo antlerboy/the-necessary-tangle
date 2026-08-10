@@ -44042,14 +44042,14 @@
     "component_count": 289,
     "largest_component_node_count": 91,
     "isolates_by_entity_type": {
-      "tool": 11,
-      "publication": 93,
       "intervention_skill": 47,
+      "comparator_corpus": 1,
       "person": 55,
-      "method_or_methodology": 14,
+      "publication": 93,
       "law_or_principle": 31,
       "concept": 14,
-      "comparator_corpus": 1,
+      "tool": 11,
+      "method_or_methodology": 14,
       "corpus": 1,
       "tradition": 2
     }
@@ -44361,16 +44361,16 @@
           "url": "https://www.systemspractice.org/professional-accreditation"
         },
         {
-          "source_id": "src_grammar_2ed_2025",
-          "title": "The Grammar of Systems II: From Order to Chaos and Back Again, 2nd edition",
-          "uses": 41,
-          "url": "https://www.systemspractice.org/resources/grammar-systems-ii-order-chaos-back-again-2nd-ed"
-        },
-        {
           "source_id": "src_grammar_presentation_2022",
           "title": "The Grammar of Systems - SCiO presentation",
           "uses": 41,
           "url": "https://www.systemspractice.org/resources/grammar-systems"
+        },
+        {
+          "source_id": "src_grammar_2ed_2025",
+          "title": "The Grammar of Systems II: From Order to Chaos and Back Again, 2nd edition",
+          "uses": 41,
+          "url": "https://www.systemspractice.org/resources/grammar-systems-ii-order-chaos-back-again-2nd-ed"
         },
         {
           "source_id": "src_sysbok_recursion_2013",
@@ -44397,10 +44397,10 @@
           "url": "https://pespmc1.vub.ac.be/INTRO.html"
         },
         {
-          "source_id": "src_principia_manifesto",
-          "title": "The Cybernetic Manifesto",
+          "source_id": "src_principia_mstt",
+          "title": "Principia Cybernetica: Metasystem Transition Theory",
           "uses": 16,
-          "url": "https://pespmc1.vub.ac.be/MANIFESTO.html"
+          "url": "https://pespmc1.vub.ac.be/MSTT.html"
         }
       ],
       "initial_form_people": 108,
