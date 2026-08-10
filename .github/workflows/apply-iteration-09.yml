@@ -6,6 +6,7 @@ on:
     paths:
       - ".github/workflows/apply-iteration-09.yml"
       - "scripts/apply_iteration_09.py"
+      - "scripts/fix_iteration_09_edge_cases.py"
       - "scripts/patch_iteration_09.py"
       - "scripts/prepare_iteration_09_release.py"
       - "scripts/refresh_graph_snapshot.py"
@@ -30,6 +31,9 @@ jobs:
 
       - name: Prepare the durable release build
         run: python3 scripts/prepare_iteration_09_release.py
+
+      - name: Resolve baseline and generated-link edge cases
+        run: python3 scripts/fix_iteration_09_edge_cases.py
 
       - name: Build and validate twice
         run: |
@@ -70,6 +74,7 @@ jobs:
           rm -f .github/workflows/analyse-iteration-09.yml
           rm -f .github/workflows/dump-iteration-09-schema.yml
           rm -f .github/workflows/apply-iteration-09.yml
+          rm -f scripts/fix_iteration_09_edge_cases.py
           rm -f scripts/prepare_iteration_09_release.py
 
       - name: Commit the validated iteration
