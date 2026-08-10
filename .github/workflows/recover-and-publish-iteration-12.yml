@@ -110,6 +110,24 @@ jobs:
               raise SystemExit(f'Recovered source archive is missing: {missing}')
           PY
 
+          python3 - <<'PY'
+          from pathlib import Path
+
+          path = Path('Makefile')
+          lines = [
+              line for line in path.read_text(encoding='utf-8').splitlines()
+              if 'scripts/normalise_iteration_11_dot.py' not in line
+          ]
+          for index, line in enumerate(lines):
+              if 'scripts/patch_iteration_12.py' in line:
+                  lines.insert(index + 1, '\tpython3 scripts/normalise_iteration_11_dot.py')
+                  break
+          else:
+              raise SystemExit('Makefile has no patch_iteration_12.py line')
+          path.write_text('\n'.join(lines) + '\n', encoding='utf-8')
+          print('Moved curator-dot normalisation after the 0.12 site patch')
+          PY
+
       - name: Build and validate from durable source files twice
         shell: bash
         run: |
@@ -167,6 +185,7 @@ jobs:
           assert 'Patrick Hoverstadt' in index
           assert 'Start somewhere smaller' in index
           assert index.count('https://github.com/antlerboy/the-necessary-tangle/issues/2') == 1
+          assert index.count('data-curator-dot="comments"') == 1
           assert 'site-submission,awaiting-curator-review' in app
           assert Path('documentation/explicit-semantics.md').is_file()
           assert Path('documentation/reading-list-coverage.md').is_file()
