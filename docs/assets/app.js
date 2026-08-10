@@ -1481,3 +1481,81 @@
 
   document.addEventListener('DOMContentLoaded', init);
 })();
+/* 0.7 constellation controls: provisional neighbourhoods, zoom and participation. */
+(() => {
+  const emergentCategories = () => window.TANGLE_DATA?.emergent_categories || [];
+  let tangleZoom = 1;
+
+  function zoomMapAt(factor, originX = 50, originY = 50) {
+    const svg = document.getElementById('graphSvg');
+    if (!svg) return;
+    tangleZoom = Math.max(0.55, Math.min(2.5, tangleZoom * factor));
+    svg.style.transformOrigin = `${originX}% ${originY}%`;
+    svg.style.transform = `scale(${tangleZoom})`;
+    const status = document.getElementById('mapZoomStatus');
+    if (status) status.textContent = `${Math.round(tangleZoom * 100)}%`;
+  }
+
+  function categoryMembers(category) {
+    return new Set(category?.member_node_ids || category?.members || []);
+  }
+
+  function applyCategory(categoryId) {
+    const category = emergentCategories().find((item) => (item.id || item.category_id) === categoryId);
+    const members = categoryMembers(category);
+    const svg = document.getElementById('graphSvg');
+    if (svg) {
+      svg.querySelectorAll('[data-node-id], [data-id]').forEach((node) => {
+        const id = node.dataset.nodeId || node.dataset.id;
+        node.classList.toggle('category-halo', Boolean(category && members.has(id)));
+        node.classList.toggle('category-muted', Boolean(category && !members.has(id)));
+      });
+    }
+    const note = document.getElementById('mapCategoryNote');
+    if (note) note.textContent = category
+      ? `${category.label || category.name || 'Selected neighbourhood'} — provisional graph grouping; inspect the typed lines rather than treating it as a canon.`
+      : 'Neighbourhoods are provisional graph groupings, not canonical schools or categories.';
+  }
+
+  function initConstellationControls() {
+    const select = document.getElementById('mapCategory');
+    if (select && !select.dataset.ready) {
+      emergentCategories().forEach((category) => {
+        const option = document.createElement('option');
+        option.value = category.id || category.category_id || '';
+        option.textContent = category.label || category.name || option.value;
+        select.append(option);
+      });
+      select.addEventListener('change', () => applyCategory(select.value));
+      select.dataset.ready = 'true';
+    }
+
+    document.getElementById('mapZoomIn')?.addEventListener('click', () => zoomMapAt(1.15));
+    document.getElementById('mapZoomOut')?.addEventListener('click', () => zoomMapAt(1 / 1.15));
+    const svg = document.getElementById('graphSvg');
+    svg?.addEventListener('wheel', (event) => {
+      event.preventDefault();
+      const box = svg.getBoundingClientRect();
+      const x = box.width ? ((event.clientX - box.left) / box.width) * 100 : 50;
+      const y = box.height ? ((event.clientY - box.top) / box.height) * 100 : 50;
+      zoomMapAt(event.deltaY < 0 ? 1.08 : 1 / 1.08, x, y);
+    }, { passive: false });
+
+    document.getElementById('mapShowLabels')?.addEventListener('change', (event) => {
+      document.getElementById('graphSvg')?.classList.toggle('hide-map-labels', !event.target.checked);
+    });
+
+    const membershipForm = document.getElementById('membershipForm');
+    membershipForm?.addEventListener('submit', (event) => {
+      event.preventDefault();
+      const form = new FormData(membershipForm);
+      const role = String(form.get('role') || 'participant').replaceAll('_', ' ');
+      const interest = String(form.get('interest') || '').trim();
+      const status = document.getElementById('membershipStatus');
+      if (status) status.innerHTML = `Contribution note ready: <strong>${role}</strong>${interest ? ` — ${interest}` : ''}. Add it to <a href="https://github.com/antlerboy/the-necessary-tangle/issues/2" target="_blank" rel="noopener">the curator's running notebook</a>. If automation helped, name the human sponsor.`;
+    });
+  }
+
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', initConstellationControls);
+  else initConstellationControls();
+})();

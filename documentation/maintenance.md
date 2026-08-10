@@ -9,22 +9,22 @@
 5. Run `make validate`.
 6. Open the site locally with `make serve` and inspect the changed entry, connections and search behaviour.
 7. Commit the change with a clear message.
-8. Merge through a pull request where practical.
-9. Publish a numbered release for substantive editorial batches.
+8. Merge through a reviewed pull request. `CODEOWNERS` keeps the curator in the review path; branch protection should require the validation workflow before merge.
+9. Publish a numbered release for substantive curatorial batches.
 
 ## Build commands
 
 ```bash
+python3 -m pip install -r requirements-analysis.txt
 make build
+make analyse
 make validate
 make serve
 ```
 
-The build applies the base public-data enrichment, release-specific public metadata and corpus registrations, public-site wording, and the generated conversational knowledge file before validation.
-
 ## Public/private boundary
 
-Only public-safe data belongs in this repository. Keep private research notes and internal source material elsewhere. Do not add the earlier private editorial workbench to this repository.
+Only public-safe data belongs in this repository. Keep private research notes and internal source material elsewhere. Do not add the earlier private curatorial workbench to this repository.
 
 ## Adding aliases
 

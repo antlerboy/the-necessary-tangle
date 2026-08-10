@@ -1,12 +1,12 @@
 # The Necessary Tangle: public knowledge file
 
-Created and edited by Benjamin P Taylor.
-Generated from public release 0.5-github-alpha.
+Curated by Benjamin P Taylor — https://www.antlerboy.com/
+Generated from public release 0.7-constellation-alpha.
 
-The Necessary Tangle is a living evidence atlas of systems, complexity and cybernetics.
+A living evidence atlas of systems | cybernetics | complexity.
 Every connection must say what it means. Historical sequence, logical dependence, influence, teaching, collaboration, practical use, comparison and dispute are not interchangeable.
 
-Use this file as orientation and public source context, not as final scholarly consensus. Preserve the stated status and uncertainty of claims. Do not infer influence, mentorship or priority from resemblance alone.
+Use this file as orientation and public source context, not as final scholarly consensus. Preserve the stated status and uncertainty of statements. Do not infer influence, mentorship or priority from resemblance alone.
 
 ## Public source policy
 
@@ -399,6 +399,19 @@ Mathematician and electrical engineer whose 1948 paper established mathematical 
 ### Sources
 
 - A Mathematical Theory of Communication — https://doi.org/10.1002/j.1538-7305.1948.tb01338.x
+
+## Cliff Joslyn
+
+Type: Person
+Public depth: described
+
+A systems scientist and cybernetician who co-developed Principia Cybernetica and metasystem transition theory.
+
+### Sources
+
+- The Cybernetic Manifesto — https://pespmc1.vub.ac.be/MANIFESTO.html
+- Metasystem Transition Theory — https://pespmc1.vub.ac.be/MSTT.html
+- The Global Brain Group — https://pespmc1.vub.ac.be/GBRAIN-L.html
 
 ## Coaching
 
@@ -946,6 +959,18 @@ An enablers-and-inhibitors analysis identifies conditions that support or obstru
 
 - An introductory systems thinking toolkit for civil servants — https://www.gov.uk/government/publications/systems-thinking-for-civil-servants/toolkit
 
+## Evolutionary cybernetics
+
+Type: Tradition
+Public depth: described
+
+An evolutionary approach to cybernetics concerned with how new levels of control, adaptation and organisation arise.
+
+### Sources
+
+- Introduction to Principia Cybernetica — https://pespmc1.vub.ac.be/INTRO.html
+- The Cybernetic Manifesto — https://pespmc1.vub.ac.be/MANIFESTO.html
+
 ## Facilitation
 
 Type: Intervention skill
@@ -1190,6 +1215,19 @@ Fractals are mathematical or spatial structures showing patterned detail across 
 
 - Introduction to Complexity (Santa Fe Institute Complexity Explorer) — https://www.complexityexplorer.org/courses/185-introduction-to-
 
+## Francis Heylighen
+
+Type: Person
+Public depth: described
+
+A cybernetician and complexity researcher closely associated with the development of Principia Cybernetica Web and its evolutionary-cybernetic programme.
+
+### Sources
+
+- Introduction to Principia Cybernetica — https://pespmc1.vub.ac.be/INTRO.html
+- Metasystem Transition Theory — https://pespmc1.vub.ac.be/MSTT.html
+- The Global Brain Group — https://pespmc1.vub.ac.be/GBRAIN-L.html
+
 ## Francisco Varela
 
 Type: Person
@@ -1234,6 +1272,18 @@ Italian mathematician and logician known for axiomatic work on arithmetic and fo
 ### Sources
 
 - SCiO SysBoK - Recursion v1 — No public link
+
+## Global brain
+
+Type: Concept
+Public depth: described
+
+A model of distributed collective intelligence in which a global communication network supports adaptive coordination, learning and knowledge development.
+
+### Sources
+
+- The Global Brain Group — https://pespmc1.vub.ac.be/GBRAIN-L.html
+- Introduction to Principia Cybernetica — https://pespmc1.vub.ac.be/INTRO.html
 
 ## Graphic facilitation and visualisation
 
@@ -1983,6 +2033,18 @@ Metaphors organise attention by making one domain intelligible through another. 
 - SCiO CF Resources v9 draft — No public link
 - SCiO Professional Accreditation and Competency Framework — https://www.systemspractice.org/professional-accreditation
 
+## Metasystem transition
+
+Type: Concept
+Public depth: described
+
+A transition in which a new control level forms over lower-level components, producing a new organised whole with additional capacities.
+
+### Sources
+
+- Metasystem Transition Theory — https://pespmc1.vub.ac.be/MSTT.html
+- Introduction to Principia Cybernetica — https://pespmc1.vub.ac.be/INTRO.html
+
 ## Modelling
 
 Type: Concept
@@ -2477,6 +2539,31 @@ Presentation design selects and arranges words, images, sequence and interaction
 
 - SCiO CF Resources v9 draft — No public link
 - SCiO Professional Accreditation and Competency Framework — https://www.systemspractice.org/professional-accreditation
+
+## Principia Cybernetica Project
+
+Type: Organisation
+Public depth: described
+
+A collaborative research and publishing project that developed evolutionary cybernetics, metasystem transition theory and Principia Cybernetica Web.
+
+### Sources
+
+- Introduction to Principia Cybernetica — https://pespmc1.vub.ac.be/INTRO.html
+- The Cybernetic Manifesto — https://pespmc1.vub.ac.be/MANIFESTO.html
+- Metasystem Transition Theory — https://pespmc1.vub.ac.be/MSTT.html
+
+## Principia Cybernetica Web
+
+Type: Publication
+Public depth: described
+
+A collaboratively developed, linked hypertext knowledge network for evolutionary cybernetics and related systems ideas.
+
+### Sources
+
+- About the Principia Cybernetica Server — https://pespmc1.vub.ac.be/SERVER.html
+- Introduction to Principia Cybernetica — https://pespmc1.vub.ac.be/INTRO.html
 
 ## Principle of Emergence
 
@@ -3123,6 +3210,17 @@ Selling systems approaches means helping sponsors understand the problem the app
 - SCiO CF Resources v9 draft — No public link
 - SCiO Professional Accreditation and Competency Framework — https://www.systemspractice.org/professional-accreditation
 
+## Semantic network
+
+Type: Concept
+Public depth: described
+
+A graph-like knowledge representation in which nodes stand for concepts or entities and links encode stated relations among them.
+
+### Sources
+
+- Introduction to Principia Cybernetica — https://pespmc1.vub.ac.be/INTRO.html
+
 ## Sensitive dependence on initial conditions
 
 Type: Concept
@@ -3531,6 +3629,18 @@ Unpredictability is the inability to make a sufficiently reliable forecast at a 
 ### Sources
 
 - Systems Thinking Practitioner apprenticeship standard ST0787 v1.2 — https://skillsengland.education.gov.uk/apprenticeships/st0787-v1-2
+
+## Valentin Turchin
+
+Type: Person
+Public depth: described
+
+A physicist, computer scientist and cybernetic philosopher whose work supplied the metasystem-transition concept central to Principia Cybernetica.
+
+### Sources
+
+- The Cybernetic Manifesto — https://pespmc1.vub.ac.be/MANIFESTO.html
+- Metasystem Transition Theory — https://pespmc1.vub.ac.be/MSTT.html
 
 ## Values mapping and integration
 
@@ -3984,3 +4094,43 @@ Workshop design creates a bounded social process with a clear purpose, participa
 
 - SCiO CF Resources v9 draft — No public link
 - SCiO Professional Accreditation and Competency Framework — https://www.systemspractice.org/professional-accreditation
+
+# Registered coverage programmes
+
+These are explicit next-work programmes, not claims that the corpora have already been fully reviewed or ingested.
+
+## Foundational Papers in Complexity Science
+
+Status: registered not yet itemised
+Tracking issue: https://github.com/antlerboy/the-necessary-tangle/issues/3
+Completion test: Readable item-level contents guide, summaries, links, mapped concepts and people, and explicit omissions.
+
+## Relevant Monoskop material
+
+Status: registered not yet systematically reviewed
+Tracking issue: https://github.com/antlerboy/the-necessary-tangle/issues/4
+Completion test: Documented search scope, admissions, exclusions, original-source replacements and remaining work.
+
+## SysCoI and model.report archives
+
+Status: registered not yet systematically ingested
+Tracking issue: https://github.com/antlerboy/the-necessary-tangle/issues/5
+Completion test: Repeatable archival ingestion with typed provenance and no confusion of circulation with influence.
+
+## Prior maps and bodies of knowledge
+
+Status: registered comparator pass pending
+Tracking issue: https://github.com/antlerboy/the-necessary-tangle/issues/6
+Completion test: Public comparison of purpose, boundary, categories, lines, evidence, strengths and failures.
+
+## Practitioner influence constellations
+
+Status: relation model and pilots pending
+Tracking issue: https://github.com/antlerboy/the-necessary-tangle/issues/7
+Completion test: Gold-standard practitioner constellations with separately evidenced teaching, collaboration, citation and influence.
+
+## Company-knowledge discovery
+
+Status: private discovery pass pending
+Tracking issue: https://github.com/antlerboy/the-necessary-tangle/issues/8
+Completion test: No private material published; useful leads replaced by public evidence or proper No-public-link citations.

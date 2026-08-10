@@ -128,3 +128,16 @@ blockquote {
     transition: none;
   }
 }
+/* 0.7 constellation controls */
+.constellation-controls { display: flex; flex-wrap: wrap; gap: .65rem 1rem; align-items: center; margin: .8rem 0; }
+.constellation-controls label { display: flex; gap: .45rem; align-items: center; }
+.zoom-controls { display: inline-flex; gap: .45rem; align-items: center; }
+#mapZoomStatus { min-width: 3.5rem; text-align: center; font-variant-numeric: tabular-nums; }
+.map-category-note { flex-basis: 100%; margin: 0; font-size: .9rem; opacity: .78; }
+#graphSvg { transition: transform .16s ease; }
+#graphSvg.hide-map-labels text { display: none; }
+#graphSvg .category-muted { opacity: .16 !important; }
+#graphSvg .category-halo { opacity: 1 !important; filter: drop-shadow(0 0 5px currentColor); }
+.membership-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: .8rem; align-items: end; }
+.membership-grid label { display: grid; gap: .35rem; }
+.curator-notebook-link { font-weight: 650; }

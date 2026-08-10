@@ -15,8 +15,8 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA_PATH = ROOT / "data" / "public-data.json"
 DOCS_ASSETS = ROOT / "docs" / "assets"
 
-RELEASE = "0.6-feedback-alpha"
-GENERATED = "2026-08-09"
+RELEASE = "0.7-constellation-alpha"
+GENERATED = "2026-08-10"
 PROJECT_URL = "https://antlerboy.github.io/the-necessary-tangle/"
 REPOSITORY_URL = "https://github.com/antlerboy/the-necessary-tangle"
 AUTHOR_URL = "https://www.antlerboy.com/"

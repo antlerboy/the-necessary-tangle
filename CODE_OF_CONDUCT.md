@@ -9,6 +9,6 @@ Expected conduct:
 - disclose relevant interests where they could affect interpretation;
 - do not publish private correspondence or confidential material;
 - do not use the project to harass, intimidate or recruit hostility towards another person;
-- accept that editorial decisions can be challenged without becoming personal contests.
+- accept that curatorial decisions can be challenged without becoming personal contests.
 
 Serious or repeated breaches may lead to comments being hidden, contributions being closed or participation being restricted. Contact the repository owner privately through their published contact routes where a public report would itself expose sensitive material.

@@ -1,0 +1,37 @@
+name: Take part in The Necessary Tangle
+description: Propose a contribution, research collaboration or domain-steward role.
+title: "Participation: "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The Necessary Tangle is curated by Benjamin P Taylor. Contributions are attributable and reviewed before publication. Automated assistance must have a named human sponsor.
+  - type: dropdown
+    id: role
+    attributes:
+      label: Participation role
+      options:
+        - Participant
+        - Contributor
+        - Research collaborator
+        - Domain steward
+    validations:
+      required: true
+  - type: textarea
+    id: area
+    attributes:
+      label: Area or contribution
+      description: Name the concept, source, lineage, correction or coverage area you want to work on.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Sources or evidence
+      description: Add public sources where possible, and distinguish evidence from interpretation.
+  - type: input
+    id: sponsor
+    attributes:
+      label: Named human sponsor for automated assistance
+      description: If automation or an LLM materially helped prepare this contribution, name the human who takes responsibility for it.

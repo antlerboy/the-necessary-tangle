@@ -10,7 +10,7 @@ An entry may be:
 - **Brief entry** — a readable orientation with sources;
 - **Outline only** — included in the map but not yet responsibly described.
 
-These are measures of editorial depth, not ranks of importance.
+These are measures of curatorial depth, not ranks of importance.
 
 ## Connections
 
@@ -34,4 +34,4 @@ One meaning must not be silently substituted for another.
 
 ## Status
 
-Accepted, provisional, disputed and superseded records can all be visible. The status applies to the exact wording and scope of the record, not necessarily to every wider claim someone might derive from it.
+Accepted, provisional, disputed and superseded records can all be visible. The status applies to the exact wording and scope of the record, not necessarily to every wider statement someone might derive from it.
