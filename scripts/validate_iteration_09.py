@@ -11,7 +11,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 DATA_PATH = ROOT / "data" / "public-data.json"
 DOCS = ROOT / "docs"
-ALLOWED_RELEASES = {"0.9-observations-alpha", "0.10-practice-safety-alpha", "0.11-visual-map-alpha"}
+ALLOWED_RELEASES = {"0.9-observations-alpha", "0.10-practice-safety-alpha", "0.11-visual-map-alpha", "0.12-practitioner-intake-alpha"}
 EXPECTED_PUBLIC_COUNT = 411
 EXPECTED_MIN_PROFILES = 32
 EXPECTED_JOURNEYS = 12

@@ -6,16 +6,16 @@ These observations combine reproducible counts from the public graph with model-
 
 ## Measured state
 
-- 417 public entries; 38 developed profiles.
-- 557 typed public edges; 189 substantive edges.
-- 148 substantively connected entries and 269 substantive isolates.
-- 100 sources, of which 87 have public links.
+- 442 public entries; 58 developed profiles.
+- 597 typed public edges; 217 substantive edges.
+- 169 substantively connected entries and 273 substantive isolates.
+- 114 sources, of which 101 have public links.
 
 ## Breadth has outrun depth
 
 **Basis:** measurement plus interpretation.
 
-**Measured:** The atlas has 417 public entries and 38 developed profiles. Only 9.1% of entries have the fuller profile structure.
+**Measured:** The atlas has 442 public entries and 58 developed profiles. Only 13.1% of entries have the fuller profile structure.
 
 **Interpretation:** It is now better at showing that something belongs in the territory than at explaining what the thing means, why it matters, where it is contested and how it enters practice.
 
@@ -27,7 +27,7 @@ These observations combine reproducible counts from the public graph with model-
 
 **Basis:** measurement plus design inference.
 
-**Measured:** There are 557 typed public edges, but 189 are conceptual, historical, human, practice or contestation relations. The substantive share is 33.9%.
+**Measured:** There are 597 typed public edges, but 217 are conceptual, historical, human, practice or contestation relations. The substantive share is 36.3%.
 
 **Interpretation:** Authorship, collection membership and other provenance lines answer different questions from influence, dependence or use. Combining them without visible layers makes bibliographic density look like intellectual agreement.
 
@@ -63,7 +63,7 @@ These observations combine reproducible counts from the public graph with model-
 
 **Basis:** measurement plus data-quality risk.
 
-**Measured:** 108 of 143 people — 75.5% — are currently represented by initial-form labels.
+**Measured:** 108 of 155 people — 69.7% — are currently represented by initial-form labels.
 
 **Interpretation:** Initials are enough to inventory an authorship string, but not enough to guarantee a unique person. They invite duplicate records, mistaken mergers and false career or influence connections.
 
@@ -75,7 +75,7 @@ These observations combine reproducible counts from the public graph with model-
 
 **Basis:** measurement plus model warning.
 
-**Measured:** Six published neighbourhoods contain 77 unique nodes, while 148 nodes are now connected; 71 connected nodes sit outside the old grouping pass.
+**Measured:** Six published neighbourhoods contain 77 unique nodes, while 169 nodes are now connected; 92 connected nodes sit outside the old grouping pass.
 
 **Interpretation:** An algorithmic cluster is produced by the current edges, exclusions, resolution setting and seed. It is not a natural school waiting to be discovered.
 
@@ -99,7 +99,7 @@ These observations combine reproducible counts from the public graph with model-
 
 **Basis:** second-order observation.
 
-**Measured:** 269 entries are isolated in the substantive graph, while the largest substantive component contains 91 entries.
+**Measured:** 273 entries are isolated in the substantive graph, while the largest substantive component contains 112 entries.
 
 **Interpretation:** Isolation does not mean an idea is naturally peripheral. It often means the current source set, relation vocabulary or research history has not yet made its connections visible.
 

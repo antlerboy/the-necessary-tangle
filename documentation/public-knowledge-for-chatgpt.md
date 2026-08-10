@@ -1,7 +1,7 @@
 # The Necessary Tangle: public knowledge file
 
 Curated by Benjamin P Taylor — https://www.antlerboy.com/
-Generated from public release 0.11-visual-map-alpha.
+Generated from public release 0.12-practitioner-intake-alpha.
 
 A living evidence atlas of systems | cybernetics | complexity.
 Every connection must say what it means. Historical sequence, logical dependence, influence, teaching, collaboration, practical use, comparison and dispute are not interchangeable.
@@ -298,6 +298,64 @@ Ancient Greek mathematician whose work included iterative and self-referential c
 ### Sources
 
 - SCiO SysBoK - Recursion v1 — No public link
+
+## Arthur Battram
+
+Type: Person
+Public depth: profile
+
+A complexity practitioner and author whose work translated complexity ideas into organisational and local-government practice, including Navigating Complexity and the Learning from Complexity materials.
+
+### Summary
+
+Arthur Battram translated complexity ideas into organisational and local-government practice while resisting both command-and-control simplification and fashionable complexity incantation.
+
+### Why it matters
+
+Benjamin's own material repeatedly credits Battram as a practical source and critical companion. His absence was another sign that the atlas had underweighted the curator's actual practitioner constellation.
+
+### Key distinctions
+
+- complexity as practice resource vs management fashion
+- people-centred management vs machine assumptions
+
+### Historical development
+
+- complexity theory
+- organisational learning
+- local-government management
+
+### Ideas it depends on
+
+- complexity
+- self-organisation
+- learning
+
+### What develops from it
+
+- Navigating Complexity
+- Learning from Complexity materials
+
+### Connections to practice
+
+- local government
+- organisational change
+- management development
+
+### Common confusions
+
+- complexity licenses managerial passivity
+- natural management is a complete method
+
+### Open questions and checks
+
+- itemise the Learning from Complexity pack
+- add public bibliographic and archival sources
+- trace influence in UK public services
+
+### Sources
+
+- Navigating Complexity — https://www.systemspractice.org/resources/navigating-complexity
 
 ## Artificial Adaptive Agents in Economic Theory
 
@@ -1164,6 +1222,64 @@ Critical Systems Heuristics is a framework for examining the boundary judgements
 
 - SCiO CF Resources v9 draft — No public link
 
+## Critical Systems Thinking: A Practitioner's Guide
+
+Type: Publication
+Public depth: profile
+
+Michael C. Jackson's guide to critical systems thinking and critical systems practice, treating methodological diversity as a resource for working with multidimensional complexity rather than as a choice of one universal method.
+
+### Summary
+
+A contemporary guide to the foundations, mindset, methodologies and practical conduct of critical systems practice.
+
+### Why it matters
+
+It is one of the curator's four strongest current reading recommendations and directly addresses how a practitioner can use methodological diversity without hiding ethical and political choices.
+
+### Key distinctions
+
+- critical systems thinking vs generic critical thinking
+- critical systems practice vs multi-method recipe
+- complexity dimensions vs one problem type
+
+### Historical development
+
+- critical systems thinking
+- creative holism
+- systems methodologies
+
+### Ideas it depends on
+
+- systems practice
+- pluralism
+- power
+- methodology critique
+
+### What develops from it
+
+- critical systems practice
+
+### Connections to practice
+
+- wicked problems
+- leadership
+- methodological choice and combination
+
+### Common confusions
+
+- the book recommends one best method
+- critical systems practice can be reduced to a matrix
+
+### Open questions and checks
+
+- add page-level sources and cases
+- map each methodology discussed to existing entries
+
+### Sources
+
+- Critical Systems Thinking: A Practitioner's Guide — https://www.systemspractice.org/resources/critical-systems-thinking-practitioners-guide
+
 ## Culture mapping
 
 Type: Intervention skill
@@ -1635,6 +1751,70 @@ S. Bowles, ‘Endogenous Preferences: The Cultural Consequences of Markets and O
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
 
+## Essential Balances
+
+Type: Publication
+Public depth: profile
+
+Ivo Velitchkov's book on three recurrent organisational tensions: autonomy and cohesion, stability and diversity, and exploration and exploitation, treated as dynamic balances rather than choices to settle once.
+
+### Summary
+
+Essential Balances invites readers to notice three recurrent organisational tensions and cultivate the ability to keep adjusting them rather than seek one permanently correct point.
+
+### Why it matters
+
+It provides a practitioner bridge between management cybernetics and ordinary organisational judgement, while resisting the tendency to treat one pole of a tension as the solution.
+
+### Key distinctions
+
+- autonomy and cohesion
+- stability and diversity
+- exploration and exploitation
+- dynamic adjustment vs midpoint compromise
+
+### Historical development
+
+- management cybernetics
+- organisational paradox
+- ambidexterity and exploration/exploitation
+
+### Ideas it depends on
+
+- autonomy
+- cohesion
+- viability
+- variety
+
+### What develops from it
+
+- organisational diagnostic habits
+- balance-aware intervention
+
+### Connections to practice
+
+- leadership reflection
+- organisation design
+- strategy
+- team and institutional diagnosis
+
+### Common confusions
+
+- balance means eliminating tension
+- the three balances are independent
+- one snapshot can establish the right balance
+
+### Open questions and checks
+
+- add page-level citations from the book
+- compare with Barry Oshry and Stafford Beer without collapsing the traditions
+- document cases and criticism
+
+### Sources
+
+- Essential Balances: Stop Looking and Start Seeing What Makes Organizations Work — https://www.systemspractice.org/resources/essential-balances-stop-looking-and-start-seeing-what-makes-organizations-work
+- Ivo Velitchkov — https://velitchkov.eu/
+
 ## Every Good Regulator of a System Must Be a Model of That System
 
 Type: Publication
@@ -1680,6 +1860,74 @@ M. Kimura, ‘Evolutionary Rate at the Molecular Level’ (1968); item 30 in vol
 ### Sources
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## Explicit semantics
+
+Type: Concept
+Public depth: profile
+
+The practice of making the meaning of data types, relations, direction, evidence status and scope machine-readable and inspectable rather than leaving interpretation to labels, layout or convention alone.
+
+### Summary
+
+Explicit semantics makes the commitments of a graph inspectable: what kinds of entities exist, what a relation means, whether it is directed, what supports it, how certain it is and where it applies.
+
+### Why it matters
+
+A visually attractive line can create a false genealogy if its meaning is left implicit. The atlas already has typed relations; this release documents the semantic contract and makes it part of validation rather than a private implementation detail.
+
+### Key distinctions
+
+- semantic type vs visual style
+- relation meaning vs spatial proximity
+- evidence source vs discovery source
+- canonical identity vs label
+- graph semantics vs algorithmic neighbourhood
+
+### Historical development
+
+- semantic networks
+- RDF and knowledge graphs
+- typed graph data
+- systems bodies of knowledge
+
+### Ideas it depends on
+
+- distinction
+- identity
+- relation
+- scope
+- provenance
+
+### What develops from it
+
+- machine-readable graph
+- validation rules
+- inspectable evidence lines
+
+### Connections to practice
+
+- data modelling
+- knowledge graph design
+- editorial review
+- AI retrieval and constrained inference
+
+### Common confusions
+
+- an ontology is neutral
+- RDF automatically makes claims true
+- a graph layout is the semantics
+
+### Open questions and checks
+
+- publish JSON Schema or SHACL-compatible constraints
+- test semantic export and round-trip
+- compare with Nodica and other graph tools
+
+### Sources
+
+- Nodica: RDF graph visualisation with image-filled nodes — https://github.com/kvistgaard/nodica
+- SysBoK, from SCiO — https://www.systemspractice.org/sysbok-from-scio
 
 ## F. A. Hayek
 
@@ -2815,6 +3063,76 @@ R. Landauer, ‘Irreversibility and Heat Generation in the Computing Process’ 
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
 
+## Ivo Velitchkov
+
+Type: Person
+Public depth: profile
+
+A systems and cybernetics practitioner, enterprise architect and author whose work includes Essential Balances, requisite inefficiency, personal knowledge graphs and explicit semantic graph visualisation.
+
+### Summary
+
+Ivo Velitchkov works across systems and cybernetics, organisation, enterprise architecture and knowledge representation. His contributions are especially useful where viable organisation, dynamic balance, surplus variety and explicit semantics meet.
+
+### Why it matters
+
+His omission exposed two failures: the atlas underweighted the curator's practitioner sources, and site-generated contributions were not reconciled with the running feedback thread. Both are now treated as release-level defects.
+
+### Key distinctions
+
+- viability vs fitness
+- balance vs static compromise
+- necessary slack vs waste
+- explicit semantics vs visually implied meaning
+
+### Historical development
+
+- management cybernetics
+- autopoiesis and viability
+- enterprise architecture
+- personal knowledge graphs and RDF
+
+### Ideas it depends on
+
+- viability
+- requisite variety
+- autonomy
+- cohesion
+- semantic network
+
+### What develops from it
+
+- Essential Balances
+- requisite inefficiency
+- Nodica
+- personal knowledge graph work
+
+### Connections to practice
+
+- enterprise architecture
+- organisational diagnosis
+- strategy
+- knowledge representation
+
+### Common confusions
+
+- balance means equal quantities
+- inefficiency is always a defect
+- graph visualisation alone supplies semantics
+
+### Open questions and checks
+
+- itemise Velitchkov's public slide decks and publications
+- trace the relation between Essential Balances and earlier cybernetic sources
+- compare Nodica's RDF model with this atlas's typed JSON graph
+
+### Sources
+
+- Ivo Velitchkov — https://velitchkov.eu/
+- Essential Balances: Stop Looking and Start Seeing What Makes Organizations Work — https://www.systemspractice.org/resources/essential-balances-stop-looking-and-start-seeing-what-makes-organizations-work
+- Requisite inefficiency — https://www.systemspractice.org/resources/requisite-inefficiency
+- Nodica: RDF graph visualisation with image-filled nodes — https://github.com/kvistgaard/nodica
+
 ## J. A. Wheeler
 
 Type: Person
@@ -2991,6 +3309,28 @@ Physicist whose 1868 analysis of centrifugal governors is a historical precursor
 
 - SCiO SysBoK - Feedback v1 — No public link
 - On Governors — https://doi.org/10.1098/rspl.1867.0055
+
+## Jan De Visch
+
+Type: Person
+Public depth: described
+
+A systems practitioner and co-author of Opening the Box, working on dialogical, developmental and regenerative approaches to organisational systems and collaboration.
+
+### Sources
+
+- Opening the Box: Systems Thinking for Transformative Conversations — https://www.systemspractice.org/resources/opening-box-systems-thinking-transformative-conversations
+
+## Jorge Mpodozis
+
+Type: Person
+Public depth: described
+
+A Chilean biologist who co-authored the natural-drift account of evolutionary diversification with Humberto Maturana.
+
+### Sources
+
+- The origin of species by means of natural drift — https://revistaschilenas.uchile.cl/handle/2250/62395
 
 ## Julian Bigelow
 
@@ -3279,6 +3619,60 @@ C. H. Bennett, ‘Logical Reversibility of Computation’ (1973); item 43 in vol
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
 
+## Lucy Loh
+
+Type: Person
+Public depth: profile
+
+A systems and strategy practitioner who co-developed Patterns of Strategy with Patrick Hoverstadt and co-authored the book presenting the approach.
+
+### Summary
+
+Lucy Loh co-developed Patterns of Strategy and co-authored its main publication, bringing systemic and management-science practice to strategic fit and manoeuvre.
+
+### Why it matters
+
+Crediting a method to only one visible practitioner would reproduce the very false lineage problem the atlas is meant to resist.
+
+### Key distinctions
+
+- co-development vs secondary association
+- relational strategy vs internal planning
+
+### Historical development
+
+- systems practice
+- management science
+- structural coupling and strategic fit
+
+### Ideas it depends on
+
+- strategy
+- structural coupling
+- power
+- time
+
+### What develops from it
+
+- Patterns of Strategy
+
+### Connections to practice
+
+- strategy development
+- competitive and collaborative ecosystems
+
+### Common confusions
+
+- Patterns of Strategy is solely Patrick Hoverstadt's work
+
+### Open questions and checks
+
+- develop Lucy Loh's broader practitioner profile and case history
+
+### Sources
+
+- Patterns of Strategy — https://www.systemspractice.org/resources/patterns-strategy-0
+
 ## M. Bunge
 
 Type: Person
@@ -3425,6 +3819,17 @@ Map analysis and narrative uses a visual systems map together with a written exp
 
 - An introductory systems thinking toolkit for civil servants — https://www.gov.uk/government/publications/systems-thinking-for-civil-servants/toolkit
 
+## Martin Reynolds
+
+Type: Person
+Public depth: described
+
+A systems scholar and practitioner associated with critical systems thinking, environmental responsibility and the teaching and application of multiple systems approaches.
+
+### Sources
+
+- Systems Approaches to Making Change: A Practical Guide — https://www.systemspractice.org/resources/systems-approaches-making-change-practical-guide
+
 ## Metabolic Stability and Epigenesis in Randomly Constructed Genetic Nets
 
 Type: Publication
@@ -3470,6 +3875,77 @@ A theoretical programme developed within Principia Cybernetica around the repeat
 ### Sources
 
 - Principia Cybernetica: Metasystem Transition Theory — https://pespmc1.vub.ac.be/MSTT.html
+
+## Michael C. Jackson
+
+Type: Person
+Public depth: profile
+
+A systems scholar and author whose work develops critical systems thinking, creative holism and critical systems practice for selecting and combining systems approaches under conditions of complexity and pluralism.
+
+### Summary
+
+Michael C. Jackson develops critical systems thinking and critical systems practice as ways of working constructively with the field's methodological plurality.
+
+### Why it matters
+
+The atlas contains many methods but can still imply that selecting a method is a technical matching exercise. Jackson's work places philosophy, power, pluralism and critical reflection inside the choice and combination of approaches.
+
+### Key distinctions
+
+- pluralism vs eclecticism
+- method critique vs method rejection
+- critical systems practice vs one methodology
+
+### Historical development
+
+- critical systems thinking
+- creative holism
+- systems methodologies
+
+### Ideas it depends on
+
+- methodological pluralism
+- power
+- emancipation
+- systems practice
+
+### What develops from it
+
+- critical systems practice
+- Critical Systems Thinking: A Practitioner's Guide
+
+### Connections to practice
+
+- method selection
+- multi-methodology
+- leadership and wicked problems
+
+### Common confusions
+
+- pluralism means using everything
+- critical means merely negative
+- methodologies can be combined without philosophical consequences
+
+### Open questions and checks
+
+- add primary texts across Jackson's career
+- represent major critiques and later developments
+
+### Sources
+
+- Critical Systems Thinking: A Practitioner's Guide — https://www.systemspractice.org/resources/critical-systems-thinking-practitioners-guide
+
+## Miguel Pantaleon
+
+Type: Person
+Public depth: described
+
+A systems practitioner and co-author of Opening the Box, contributing to its four-layer account of systems thinking and transformative conversation.
+
+### Sources
+
+- Opening the Box: Systems Thinking for Transformative Conversations — https://www.systemspractice.org/resources/opening-box-systems-thinking-transformative-conversations
 
 ## Modelling
 
@@ -3631,6 +4107,80 @@ A bibliographic first-pass person entry for N. H. Packard, listed by the officia
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
 
+## Namrata Arora
+
+Type: Person
+Public depth: described
+
+A systems practitioner and co-author of Opening the Box, contributing to its accessible dialogical presentation of systems thinking.
+
+### Sources
+
+- Opening the Box: Systems Thinking for Transformative Conversations — https://www.systemspractice.org/resources/opening-box-systems-thinking-transformative-conversations
+
+## Natural drift
+
+Type: Concept
+Public depth: profile
+
+Maturana and Mpodozis's account of evolution as the conservation and diversification of organism–niche relations through structural drift, with natural selection treated as a consequence of that history rather than its directing mechanism.
+
+### Summary
+
+Natural drift is Maturana and Mpodozis's evolutionary account centred on the conservation and diversification of organism–niche relations. It explicitly contests accounts which make natural selection the directing mechanism.
+
+### Why it matters
+
+Ivo Velitchkov's site submission asked the atlas to distinguish viability from fitness and the viable from the fittest. The independent source supports adding the theory, but not presenting it as settled evolutionary biology.
+
+### Key distinctions
+
+- viability vs comparative fitness
+- structural drift vs externally directing pressure
+- organism–niche relation vs organism alone
+- theory proposal vs consensus
+
+### Historical development
+
+- Maturana and Mpodozis
+- autopoiesis
+- structural coupling
+- biology of cognition
+
+### Ideas it depends on
+
+- autopoiesis
+- adaptation
+- structural coupling
+- lineage
+
+### What develops from it
+
+- natural phylogenic drift
+- co-drift
+- survival of the viable formulation
+
+### Connections to practice
+
+- caution in importing evolutionary metaphors into organisations
+- distinguishing persistence from optimisation
+
+### Common confusions
+
+- natural drift is ordinary genetic drift
+- the article abolishes selection as an observed consequence
+- the theory can be transferred directly to organisations
+
+### Open questions and checks
+
+- add contemporary biological criticism and reception
+- separate the 1992 and 2000 formulations
+- trace uses in cybernetics without laundering metaphor into fact
+
+### Sources
+
+- The origin of species by means of natural drift — https://revistaschilenas.uchile.cl/handle/2250/62395
+
 ## Natural Gradient Works Efficiently in Learning
 
 Type: Publication
@@ -3641,6 +4191,63 @@ S. Amari, ‘Natural Gradient Works Efficiently in Learning’ (1998); item 85 i
 ### Sources
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## Navigating Complexity
+
+Type: Publication
+Public depth: profile
+
+Arthur Battram's practice-facing guide to complexity theory in business and management, developed from work that brought complexity ideas into organisational and local-government settings.
+
+### Summary
+
+A late-1990s guide that brought complexity theory into business and management practice, associated with Arthur Battram's work in local government and organisational development.
+
+### Why it matters
+
+It is a longstanding source in Benjamin's own thinking and helps explain a practitioner lineage which is not captured by complexity-science paper collections alone.
+
+### Key distinctions
+
+- complexity theory vs complication
+- practical translation vs original scientific research
+
+### Historical development
+
+- complexity science popularisation
+- organisational learning
+- UK management practice
+
+### Ideas it depends on
+
+- complexity
+- emergence
+- self-organisation
+
+### What develops from it
+
+- complexity-informed management practice
+
+### Connections to practice
+
+- management
+- local government
+- organisation change
+
+### Common confusions
+
+- the book is a current scientific synthesis
+- a business guide settles complexity theory
+
+### Open questions and checks
+
+- obtain and review the full text
+- record edition metadata and citations
+- compare with contemporary complexity-management texts
+
+### Sources
+
+- Navigating Complexity — https://www.systemspractice.org/resources/navigating-complexity
 
 ## Negative feedback
 
@@ -3789,6 +4396,65 @@ Linguist whose generative-syntax work is part of the linguistic-recursion resear
 
 - SCiO SysBoK - Recursion v1 — No public link
 - Aspects of the Theory of Syntax — https://mitpress.mit.edu/9780262030113/aspects-of-the-theory-of-syntax/
+
+## Nodica
+
+Type: Tool
+Public depth: profile
+
+An open-source RDF graph visualisation developed by Ivo Velitchkov, used here as a comparator for explicit semantics and graph navigation rather than as the atlas's underlying implementation.
+
+### Summary
+
+Nodica is an RDF graph visualisation project with image-filled nodes. It is used here as a live comparator for semantic graph presentation and as evidence that the contributor's question about explicit semantics was not merely rhetorical.
+
+### Why it matters
+
+The Necessary Tangle uses typed data but has not yet published a standard RDF export. Nodica makes the gap visible and supplies a practical comparison point without requiring the atlas to copy its interface or technology.
+
+### Key distinctions
+
+- visualisation tool vs knowledge corpus
+- RDF data vs this atlas's JSON model
+- comparator vs dependency
+
+### Historical development
+
+- RDF
+- semantic web
+- knowledge graph visualisation
+
+### Ideas it depends on
+
+- explicit semantics
+- semantic network
+- graph visualisation
+
+### What develops from it
+
+- RDF display
+- image-rich graph browsing
+
+### Connections to practice
+
+- knowledge graph exploration
+- semantic data presentation
+
+### Common confusions
+
+- the atlas now runs on Nodica
+- RDF removes editorial judgement
+- the two projects have identical purposes
+
+### Open questions and checks
+
+- compare data-model features explicitly
+- prototype a public RDF export from the atlas
+- test interoperability rather than infer it
+
+### Sources
+
+- Nodica: RDF graph visualisation with image-filled nodes — https://github.com/kvistgaard/nodica
 
 ## Non-Cooperative Games
 
@@ -3949,6 +4615,67 @@ G. J. Chaitin, ‘On the Length of Programs for Computing Finite Binary Sequence
 ### Sources
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## Opening the Box
+
+Type: Publication
+Public depth: profile
+
+A short dialogical introduction to systems thinking organised around four layers: parts and wholes, nascent development, coherence and metamorphosis, written to support transformative conversations.
+
+### Summary
+
+Opening the Box is a compact, dialogical route into systems thinking through four proposed layers and a sustained challenge to surface-level explanation.
+
+### Why it matters
+
+It is designed for people who may find the field forbidding. Ivo Velitchkov's usability feedback makes that purpose especially relevant to the atlas itself.
+
+### Key distinctions
+
+- parts and wholes
+- nascent development
+- coherence
+- metamorphosis
+- dialogue vs textbook exposition
+
+### Historical development
+
+- systems thinking
+- dialogical learning
+- SCiO practitioner community
+
+### Ideas it depends on
+
+- whole and part
+- emergence
+- coherence
+- change
+
+### What develops from it
+
+- transformative systems conversations
+
+### Connections to practice
+
+- systems education
+- facilitation
+- leadership conversation
+- food-system inquiry
+
+### Common confusions
+
+- the four layers are a complete ontology
+- accessibility means simplification without loss
+
+### Open questions and checks
+
+- map the four layers to existing entries
+- record practitioner use and critique
+
+### Sources
+
+- Opening the Box: Systems Thinking for Transformative Conversations — https://www.systemspractice.org/resources/opening-box-systems-thinking-transformative-conversations
 
 ## Order Osmosis Principle
 
@@ -4131,16 +4858,143 @@ Ancient Sanskrit grammarian whose highly systematic generative rules are often d
 
 - SCiO SysBoK - Recursion v1 — No public link
 
-## Patterns of Strategy
+## Patrick Hoverstadt
 
-Type: Method or methodology
-Public depth: described
+Type: Person
+Public depth: profile
 
-Patterns of Strategy is a systemic approach to strategy that models the changing fit and relationships among an organisation, competitors, partners, regulators and markets, supporting real-time strategic manoeuvring.
+A systems practitioner, author and educator known for applied work on the Viable System Model, systems laws and principles, organisation design, Patterns of Strategy and Mosaic Transformation.
+
+### Summary
+
+Patrick Hoverstadt is represented as a practitioner-author whose work joins management cybernetics, systems laws, organisation design, strategy and transformation.
+
+### Why it matters
+
+The atlas already contained his methods, book corpus and SCiO resources while omitting the person. That broke the stated purpose of tracing human as well as conceptual lineages.
+
+### Key distinctions
+
+- VSM application vs VSM authorship
+- systems laws vs slogans
+- strategy as relational fit vs static plan
+- organisation design vs organisational charting
+
+### Historical development
+
+- Stafford Beer and the Viable System Model
+- management cybernetics
+- strategy and organisational design
+- SCiO professional practice
+
+### Ideas it depends on
+
+- viability
+- requisite variety
+- structural coupling
+- systems laws
+
+### What develops from it
+
+- Grammar of Systems II
+- Fractal Organisation Manual
+- Patterns of Strategy
+- Mosaic Transformation
+
+### Connections to practice
+
+- organisation diagnosis
+- organisation design
+- strategy
+- transformation
+- systems education
+
+### Common confusions
+
+- Patrick originated the VSM
+- a systems law is context-free prescription
+- Patterns of Strategy is conventional strategic planning
+
+### Open questions and checks
+
+- develop project case evidence
+- trace collaborations around SCiO and Patterns of Strategy
+- distinguish first and second editions of Grammar of Systems
 
 ### Sources
 
-- SCiO CF Resources v9 draft — No public link
+- The Grammar of Systems II: From Order to Chaos and Back Again, 2nd edition — https://www.systemspractice.org/resources/grammar-systems-ii-order-chaos-back-again-2nd-ed
+- The Fractal Organisation Manual: How to diagnose & design organisations using the Viable System Model — https://www.systemspractice.org/resources/fractal-organisation-manual-how-diagnose-design-organisations-using-viable-system-model
+- Patterns of Strategy — https://www.systemspractice.org/resources/patterns-strategy-0
+- What is the Viable System Model? — https://www.systemspractice.org/resources/what-viable-system-model
+- Mosaic transformation in organisations — https://www.systemspractice.org/resources/mosaic-transformation-organisations
+
+## Patterns of Strategy
+
+Type: Method or methodology
+Public depth: profile
+
+Patterns of Strategy is a systemic approach co-developed by Patrick Hoverstadt and Lucy Loh for modelling strategic fit, power, time and response among an organisation and the actors in its ecosystem.
+
+### Summary
+
+Patterns of Strategy models strategy as a dynamic relation among an organisation and other actors, using recurring patterns to explore fit, likely response and strategic manoeuvre.
+
+### Why it matters
+
+It gives the atlas a strategy method which is relational, dynamic and action-oriented rather than a static internal plan, and makes Lucy Loh's co-development visible alongside Patrick Hoverstadt's.
+
+### Key distinctions
+
+- strategic fit vs internal plan
+- ecosystem relation vs market snapshot
+- manoeuvre vs implementation schedule
+- co-development vs single-author attribution
+
+### Historical development
+
+- Viable System Model
+- game and drama theory
+- Bateson
+- Boyd
+- Maturana's structural coupling
+
+### Ideas it depends on
+
+- structural coupling
+- power
+- time
+- strategy
+- environment
+
+### What develops from it
+
+- eighty strategy patterns
+- strategy radar
+- strategic scenario and riposte work
+
+### Connections to practice
+
+- competitive strategy
+- collaborative strategy
+- regulatory and partner ecosystems
+- strategic foresight
+
+### Common confusions
+
+- it is a collection of generic templates
+- strategy belongs inside the organisation
+- one actor controls the ecosystem
+
+### Open questions and checks
+
+- add book-level page locators
+- document cases and criticism
+- map the eighty patterns without confusing them with the nine Grammar patterns
+
+### Sources
+
+- Patterns of Strategy — https://www.systemspractice.org/resources/patterns-strategy-0
 - What is Patterns of Strategy? — https://www.systemspractice.org/resources/what-patterns-strategy
 
 ## Pig model
@@ -4811,6 +5665,69 @@ The Relaxation Time Principle says that a system repeatedly disturbed before it 
 - The Grammar of Systems II: From Order to Chaos and Back Again, 2nd edition — https://www.systemspractice.org/resources/grammar-systems-ii-order-chaos-back-again-2nd-ed
 - Cybersecurity Lessons from The Grammar of Systems, part 3 — https://www.linkedin.com/pulse/cybersecurity-lessons-from-grammar-systems-order-chaos-osama-salah-2f
 
+## Requisite inefficiency
+
+Type: Concept
+Public depth: profile
+
+The proposal that some slack, redundancy or apparently unused variety is necessary if a system is to retain the capacity to respond and remain viable under conditions not already anticipated.
+
+### Summary
+
+Requisite inefficiency names the possibility that unused capacity, redundancy, variation or slack may be regulatory resource rather than waste.
+
+### Why it matters
+
+Efficiency programmes can remove the very variety needed to absorb disturbance, learn, experiment and respond. The concept forces an explicit question: inefficient relative to which purpose, boundary and timescale?
+
+### Key distinctions
+
+- slack vs waste
+- short-term utilisation vs long-term viability
+- redundancy vs duplication without purpose
+- efficiency for one part vs capacity of the whole
+
+### Historical development
+
+- Ashby's requisite variety
+- management cybernetics
+- organisational resilience and slack
+
+### Ideas it depends on
+
+- requisite variety
+- viability
+- adaptation
+- timescale
+
+### What develops from it
+
+- capacity buffers
+- experimentation
+- resilient organisation
+
+### Connections to practice
+
+- resource decisions
+- operational excellence
+- resilience
+- portfolio and workforce design
+
+### Common confusions
+
+- all inefficiency is good
+- buffers need no purpose
+- efficiency and viability are opposites
+
+### Open questions and checks
+
+- seek independent applications and criticism
+- distinguish related concepts such as slack, redundancy and reserve variety
+
+### Sources
+
+- Requisite inefficiency — https://www.systemspractice.org/resources/requisite-inefficiency
+
 ## Requisite variety
 
 Type: Concept
@@ -5119,6 +6036,74 @@ Scientific theory and evidence concern how explanations generate testable expect
 
 - SCiO CF Resources v9 draft — No public link
 - SCiO Professional Accreditation and Competency Framework — https://www.systemspractice.org/professional-accreditation
+
+## SCiO — Systems and Complexity in Organisation
+
+Type: Organisation
+Public depth: profile
+
+A practitioner-owned professional body that develops and supports systems practice through a competency framework, SysBoK, accreditation, events, communities and professional-development courses.
+
+### Summary
+
+SCiO is represented here as a professional and practitioner institution, not as the owner of one systems doctrine. Its public work includes competency, accreditation, SysBoK, events and a growing course catalogue.
+
+### Why it matters
+
+The atlas previously contained SCiO documents and method lists without a public organisational entry. That made the sources look detached from the community and institutional work that produced and maintains them.
+
+### Key distinctions
+
+- professional body vs single school
+- competency framework vs settled canon
+- course provision vs independent validation
+- community memory vs complete history
+
+### Historical development
+
+- practitioner network
+- SysBoK and competency work
+- professional accreditation
+- international chapters and training
+
+### Ideas it depends on
+
+- systems practice
+- professional competence
+- intervention skill
+- reflective judgement
+
+### What develops from it
+
+- SCiO competency framework
+- SysBoK
+- professional accreditation
+- course catalogue
+
+### Connections to practice
+
+- systems-practitioner development
+- method training
+- peer learning
+- professional standards
+
+### Common confusions
+
+- SCiO represents a single official systems theory
+- appearance in a SCiO catalogue proves a method
+- the competency list is complete and final
+
+### Open questions and checks
+
+- map the people and institutions behind the competency framework
+- audit the current course catalogue against the atlas each release
+- distinguish SCiO institutional history from the broader field
+
+### Sources
+
+- What is SCiO? — https://www.systemspractice.org/professional-body
+- SCiO Professional Accreditation and Competency Framework — https://www.systemspractice.org/professional-accreditation
+- SCiO all courses — https://www.systemspractice.org/courses
 
 ## Second Black Box Principle
 
@@ -5472,6 +6457,17 @@ C. G. Langton, ‘Studying Artificial Life with Cellular Automata’ (1986); ite
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
 
+## Sue Holwell
+
+Type: Person
+Public depth: described
+
+A systems practitioner and educator associated with Soft Systems Methodology, systems practice and the co-editing and co-authorship of practical systems-approach guides.
+
+### Sources
+
+- Systems Approaches to Making Change: A Practical Guide — https://www.systemspractice.org/resources/systems-approaches-making-change-practical-guide
+
 ## Synergetics
 
 Type: Publication
@@ -5612,6 +6608,64 @@ Method choice is itself an intervention. Boundary critique helps practitioners s
 
 - The Systemic Intervention Approach — https://doi.org/10.1002/sres.2819
 
+## Systems Approaches to Making Change
+
+Type: Publication
+Public depth: profile
+
+A practical guide by Martin Reynolds, Sue Holwell and Patrick Hoverstadt presenting a range of systems approaches for making systemic improvement in complex situations of change and uncertainty.
+
+### Summary
+
+A practice guide presenting multiple systems approaches as resources for improving complex situations rather than as rival brands from which one must be chosen permanently.
+
+### Why it matters
+
+It connects Patrick Hoverstadt's work to Martin Reynolds and Sue Holwell and gives the atlas a public route from systems-method diversity to practical change.
+
+### Key distinctions
+
+- approach repertoire vs universal method
+- systemic improvement vs implementation programme
+- practice guide vs complete field history
+
+### Historical development
+
+- Open University systems practice
+- critical systems thinking
+- management cybernetics
+
+### Ideas it depends on
+
+- systems practice
+- methodological pluralism
+- complex situations
+
+### What develops from it
+
+- systems-practice teaching
+- combined method use
+
+### Connections to practice
+
+- change and intervention
+- method choice
+- professional development
+
+### Common confusions
+
+- five approaches cover the whole field
+- tools are interchangeable without assumptions
+
+### Open questions and checks
+
+- review the full contents and map each approach precisely
+- add case-level evidence
+
+### Sources
+
+- Systems Approaches to Making Change: A Practical Guide — https://www.systemspractice.org/resources/systems-approaches-making-change-practical-guide
+
 ## Systems change
 
 Type: Approach family
@@ -5749,6 +6803,71 @@ It names work that is often real but invisible. It also needs protection from be
 - Systems convening: the art of convening diverse voices across difficult boundaries — https://www.wenger-trayner.com/systems-convening/
 - Systems convening and boundaries core slides — No public link
 - What do systems leadership and systems change mean to you? — https://chosen-path.org/2022/07/11/what-do-systems-leadership-and-systems-change-mean-to-you-what-questions-would-you-like-me-to-answer/
+
+## Systems laws
+
+Type: Knowledge domain
+Public depth: profile
+
+Systems laws and principles are recurrent statements about patterns, constraints and dynamics in systems. They support disciplined inquiry but do not operate as context-free prescriptions or deterministic predictions.
+
+### Summary
+
+Systems laws and principles name recurrent constraints and dynamics that can sharpen inquiry. Their practical value depends on wording, boundary, context and the question being asked.
+
+### Why it matters
+
+The atlas already had 33 public law entries, but the containing domain was hidden as metadata. Making it public helps readers distinguish a law corpus from a book, a method and a practitioner.
+
+### Key distinctions
+
+- law or principle vs deterministic equation
+- pattern vs prescription
+- named regularity vs evidence in a case
+
+### Historical development
+
+- general systems theory
+- cybernetics
+- systems dynamics
+- Grammar of Systems
+
+### Ideas it depends on
+
+- system
+- relation
+- constraint
+- feedback
+- complexity
+
+### What develops from it
+
+- systems-law corpus
+- systems-thinking practice disciplines
+
+### Connections to practice
+
+- diagnosis
+- modelling
+- challenge to assumptions
+- systems education
+
+### Common confusions
+
+- a named law proves a conclusion
+- all systems laws have the same status
+- context can be ignored
+
+### Open questions and checks
+
+- record provenance and rival formulations for all 33 entries
+- distinguish scientific law, theorem, heuristic and practitioner principle
+
+### Sources
+
+- The Grammar of Systems II: From Order to Chaos and Back Again, 2nd edition — https://www.systemspractice.org/resources/grammar-systems-ii-order-chaos-back-again-2nd-ed
+- The Grammar of Systems - SCiO presentation — https://www.systemspractice.org/resources/grammar-systems
+- SCiO all courses — https://www.systemspractice.org/courses
 
 ## Systems leadership
 
@@ -6124,6 +7243,137 @@ R. Axelrod and W. D. Hamilton, ‘The Evolution of Cooperation’ (1981); item 5
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
 
+## The Fractal Organisation Manual
+
+Type: Publication
+Public depth: profile
+
+Patrick Hoverstadt's practice manual for using the Viable System Model in organisational diagnosis, design, governance and the development of organisational agility.
+
+### Summary
+
+The Fractal Organisation Manual turns long practice with the Viable System Model into explicit approaches for organisational diagnosis, design, governance and agility.
+
+### Why it matters
+
+The atlas was strong on VSM concepts but weak on current practitioner manuals and documented method transfer. This book is an important bridge from model to use.
+
+### Key distinctions
+
+- recursive organisation vs repeated organisation chart
+- diagnosis vs design
+- governance vs central control
+
+### Historical development
+
+- Stafford Beer
+- Viable System Model
+- The Fractal Organization
+- applied organisational cybernetics
+
+### Ideas it depends on
+
+- viability
+- recursion
+- autonomy
+- cohesion
+- requisite variety
+
+### What develops from it
+
+- VSM diagnostic approaches
+- VSM design approaches
+- governance approaches
+
+### Connections to practice
+
+- organisation design
+- governance
+- agility
+- multi-organisational diagnosis
+
+### Common confusions
+
+- fractal means visually self-similar boxes
+- the VSM specifies one organisation structure
+- diagnosis can ignore purpose and environment
+
+### Open questions and checks
+
+- review the full text
+- map its nine practical approaches
+- add independently described cases
+
+### Sources
+
+- The Fractal Organisation Manual: How to diagnose & design organisations using the Viable System Model — https://www.systemspractice.org/resources/fractal-organisation-manual-how-diagnose-design-organisations-using-viable-system-model
+
+## The Grammar of Systems II
+
+Type: Publication
+Public depth: profile
+
+Patrick Hoverstadt's guide to nine systems-thinking patterns and 33 systems laws and principles, intended to make the foundations of systems thinking usable in inquiry, design, strategy and transformation.
+
+### Summary
+
+The Grammar of Systems II presents nine patterns of systems thinking and 33 laws and principles as a practical foundation for reasoning about order, change, complexity and uncertainty.
+
+### Why it matters
+
+Its laws were already itemised in the atlas, but the publication and author were hidden in metadata. This release makes the book, its person and the existing law corpus visible together.
+
+### Key distinctions
+
+- thinking pattern vs law or principle
+- law vs deterministic prediction
+- structural complexity vs dynamic complexity
+
+### Historical development
+
+- general systems and cybernetics
+- management cybernetics
+- systems laws and principles
+
+### Ideas it depends on
+
+- emergence
+- holism
+- modelling
+- feedback
+- complexity
+- uncertainty
+
+### What develops from it
+
+- systems-laws courses
+- practitioner diagnostics
+- the atlas's 33 law entries
+
+### Connections to practice
+
+- systems education
+- diagnosis
+- transformation design
+- strategy
+
+### Common confusions
+
+- the 33 items are universal equations
+- naming a law supplies a diagnosis
+- one book exhausts systems thinking
+
+### Open questions and checks
+
+- add page-level locators
+- compare the first and second editions
+- record criticism and alternative formulations
+
+### Sources
+
+- The Grammar of Systems II: From Order to Chaos and Back Again, 2nd edition — https://www.systemspractice.org/resources/grammar-systems-ii-order-chaos-back-again-2nd-ed
+- The Grammar of Systems - SCiO presentation — https://www.systemspractice.org/resources/grammar-systems
+
 ## The Intrinsic Computational Difficulty of Functions
 
 Type: Publication
@@ -6255,6 +7505,64 @@ A. N. Kolmogorov, ‘Three Approaches to the Quantitative Definition of Informat
 ### Sources
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## Tony Korycki
+
+Type: Person
+Public depth: profile
+
+A systems practitioner, educator and SCiO contributor associated with the early SysBoK, Critical Systems Heuristics, systems laws practice and Opening the Box.
+
+### Summary
+
+Tony Korycki connects systems-practice education, Critical Systems Heuristics, systems-law practice, SCiO's early SysBoK work and accessible public communication.
+
+### Why it matters
+
+The repository already cited a Tony Korycki SysBoK source but had no public person entry. This hid a contributor behind a document node.
+
+### Key distinctions
+
+- body-of-knowledge contribution vs sole authorship
+- systems law practice vs recital
+- critical heuristic vs generic checklist
+
+### Historical development
+
+- SCiO
+- critical systems heuristics
+- systems-practice education
+
+### Ideas it depends on
+
+- boundary critique
+- systems laws
+- intervention skill
+
+### What develops from it
+
+- Opening the Box
+- SCiO SysBoK contributions
+
+### Connections to practice
+
+- systems education
+- supply-chain diagnosis
+- critical reflection
+
+### Common confusions
+
+- a competency-framework contributor owns the whole framework
+
+### Open questions and checks
+
+- develop the wider contributor network around the SCiO SysBoK
+
+### Sources
+
+- Tony Korycki - Systems Thinking Body of Knowledge — No public link
+- Opening the Box: Systems Thinking for Transformative Conversations — https://www.systemspractice.org/resources/opening-box-systems-thinking-transformative-conversations
+- SysBoK, from SCiO — https://www.systemspractice.org/sysbok-from-scio
 
 ## Towards a General Theory of Adaptive Walks on Rugged Landscapes
 
@@ -6692,8 +8000,9 @@ A viable organisation must handle today's work, disturbances and accountability 
 
 ### Key distinctions
 
-- viability vs survival
+- viability vs short-term survival
 - viability vs efficiency
+- viability vs comparative evolutionary fitness
 - identity continuity vs structural fixity
 - present regulation vs future adaptation
 - whole viability vs local optimisation
@@ -6703,6 +8012,7 @@ A viable organisation must handle today's work, disturbances and accountability 
 - Ashby and requisite variety
 - Stafford Beer's management cybernetics
 - VSM and recursive viability
+- Maturana and Mpodozis's natural-drift account
 - later organisational applications
 
 ### Ideas it depends on
@@ -6730,6 +8040,7 @@ A viable organisation must handle today's work, disturbances and accountability 
 ### Common confusions
 
 - viability means profit
+- viability means survival of the fittest
 - viability means never failing
 - a VSM diagram proves viability
 - central command creates cohesion
@@ -6739,6 +8050,7 @@ A viable organisation must handle today's work, disturbances and accountability 
 - Beer primary texts
 - Espejo and organisational cybernetics
 - viability measures
+- natural-drift reception and criticism
 - public-service applications
 
 ### Sources
@@ -6746,6 +8058,8 @@ A viable organisation must handle today's work, disturbances and accountability 
 - Diagnosing the System for Organizations — https://www.wiley-vch.de/en/areas-interest/finance-economics-law/diagnosing-the-system-for-organizations-978-0-471-95136-0
 - Viable System Model - Metaphorum — https://metaphorum.org/staffords-work/viable-system-model
 - Benjamin Taylor VSM lecture — No public link
+- The origin of species by means of natural drift — https://revistaschilenas.uchile.cl/handle/2250/62395
+- Essential Balances: Stop Looking and Start Seeing What Makes Organizations Work — https://www.systemspractice.org/resources/essential-balances-stop-looking-and-start-seeing-what-makes-organizations-work
 
 ## Viability Principle
 

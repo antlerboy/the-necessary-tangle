@@ -16,6 +16,15 @@ The project develops the connected approach of the original SCiO Systems Thinkin
 
 Patrick Hoverstadt, Lucy Loh and colleagues associated with the Grammar of Systems supplied an important named corpus of laws and principles which the atlas treats as inspectable source material rather than as unquestionable doctrine.
 
+
+## Practitioner feedback and omissions
+
+Ivo Velitchkov identified both a substantive omission and an intake failure. His public submission on viability and natural drift prompted a sourced distinction between viability and evolutionary fitness; his wider work on *Essential Balances*, requisite inefficiency and Nodica now has a visible place in the graph. The public issue supplied the question and attribution, not the scholarly evidence. His observation that the atlas could feel ‘scary’ also prompted the smaller start routes in release 0.12.
+
+Patrick Hoverstadt's absence was equally conspicuous. His work on the Viable System Model, systems laws, organisational diagnosis, strategy and transformation is now connected through *The Grammar of Systems II*, *The Fractal Organisation Manual*, *Patterns of Strategy* and *Systems Approaches to Making Change*. Lucy Loh's co-development of *Patterns of Strategy* is represented explicitly. Michael C. Jackson, Tony Korycki, Martin Reynolds, Sue Holwell, Jan De Visch, Miguel Pantaleon, Namrata Arora, Arthur Battram and other authors added through the reading-list and SCiO pass are acknowledged as people, not merely metadata behind books.
+
+These additions are not a declaration that the reading list or SCiO curriculum is fully covered. They are a correction of known omissions and a stronger basis for the remaining audit.
+
 ## Comparators, maps and archives
 
 Igor Perko's researchers-network work provides a major comparator for the ‘rock family tree’ ambition. Brian Castellani's maps of the complexity sciences and the work of many other map makers provide both rich source material and design challenges. The point of criticism is not to pretend that earlier maps were worthless, but to make their purposes, categories, boundary choices and kinds of line explicit.

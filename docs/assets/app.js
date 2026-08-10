@@ -1576,11 +1576,15 @@
       '## Contributor',
       values.name || 'GitHub account shown on the issue.',
       '',
+      '## Intake marker',
+      'site-submission',
+      '',
       '---',
       `Prepared from The Necessary Tangle ${DATA.meta.release}. The contributor reviewed this text before submitting it.`
     ].filter((line) => line !== '').join('\n');
     const repository = CONFIG.repositoryUrl || DATA.meta.repository_url;
-    return `${repository}/issues/new?${new URLSearchParams({ title, body }).toString()}`;
+    const labels = 'site-submission,awaiting-curator-review';
+    return `${repository}/issues/new?${new URLSearchParams({ title, body, labels }).toString()}`;
   }
 
   function initSmartSearch(container) {
@@ -1864,7 +1868,7 @@
     $('contributionForm').addEventListener('submit', (event) => {
       event.preventDefault();
       const url = issueUrlFromForm(event.currentTarget);
-      $('formStatus').textContent = 'A GitHub issue has opened in a new tab. Review the wording there, then submit it.';
+      $('formStatus').textContent = 'A labelled GitHub issue has opened in a new tab. Review the wording there, then submit it for curator review.';
       window.open(url, '_blank', 'noopener');
     });
 
