@@ -23,13 +23,18 @@ def clean(text: str) -> str:
 def main() -> None:
     text = INDEX.read_text(encoding="utf-8")
 
-    # Remove any earlier form of the issue link. Older releases used a visible
-    # notebook link and later map patches may already have inserted the dot.
-    anchor = re.compile(
-        r'<a\b[^>]*href=["\']https://github\.com/antlerboy/the-necessary-tangle/issues/2["\'][^>]*>.*?</a>',
+    # Earlier releases used several forms of this route. Remove every old
+    # anchor form before adding the one durable bottom-right affordance.
+    old_link = re.compile(
+        r'<a\b(?=[^>]*(?:the-necessary-tangle/issues/2|data-curator-dot|curator-notebook-link))[^>]*>.*?</a>',
         re.I | re.S,
     )
-    text = anchor.sub("", text)
+    text = old_link.sub("", text)
+
+    # A bare occurrence can survive in stale generated markup. It is not a
+    # public route and should not remain alongside the single normalised link.
+    text = text.replace(ISSUE_URL, "")
+    text = re.sub(r'<a\b[^>]*href=["\']\s*["\'][^>]*>\s*</a>', '', text, flags=re.I | re.S)
     text = re.sub(r'<p>\s*</p>', '', text, flags=re.I)
     text = re.sub(r'<span\b[^>]*class=["\'][^"\']*discreet-note-link[^"\']*["\'][^>]*>\s*</span>', '', text, flags=re.I)
 
@@ -39,8 +44,12 @@ def main() -> None:
     INDEX.write_text(clean(text), encoding="utf-8")
 
     rendered = INDEX.read_text(encoding="utf-8")
-    if rendered.count('data-curator-dot="comments"') != 1 or rendered.count(ISSUE_URL) != 1:
-        raise RuntimeError("Could not normalise the curator comment dot to one link")
+    dot_count = rendered.count('data-curator-dot="comments"')
+    url_count = rendered.count(ISSUE_URL)
+    if dot_count != 1 or url_count != 1:
+        raise RuntimeError(
+            f"Could not normalise the curator comment dot: dots={dot_count}, urls={url_count}"
+        )
     if 'aria-label="Open the curator\'s running comments"' not in rendered:
         raise RuntimeError("The curator comment dot lacks its accessible name")
     print("Normalised the curator comment thread to one discreet bottom-right dot")
