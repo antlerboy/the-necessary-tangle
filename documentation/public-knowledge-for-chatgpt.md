@@ -1,7 +1,7 @@
 # The Necessary Tangle: public knowledge file
 
 Curated by Benjamin P Taylor — https://www.antlerboy.com/
-Generated from public release 0.9-observations-alpha.
+Generated from public release 0.10-practice-safety-alpha.
 
 A living evidence atlas of systems | cybernetics | complexity.
 Every connection must say what it means. Historical sequence, logical dependence, influence, teaching, collaboration, practical use, comparison and dispute are not interchangeable.
@@ -5612,6 +5612,213 @@ Method choice is itself an intervention. Boundary critique helps practitioners s
 
 - The Systemic Intervention Approach — https://doi.org/10.1002/sres.2819
 
+## Systems change
+
+Type: Approach family
+Public depth: profile
+
+An overloaded family of practices concerned with altering patterns, structures, relations, purposes or conditions across a system of concern. Systems are already changing, so the phrase needs a boundary, direction, account of agency, legitimacy and theory of change.
+
+### Summary
+
+Systems change is a family name for efforts to alter enduring patterns, relations, structures, purposes or conditions across a system of concern. The system, the desired direction and the authority to judge improvement must be stated rather than smuggled in.
+
+### Why it matters
+
+The phrase can reify 'the system' as a concrete object waiting to be redesigned. It can also hide the fact that systems are always changing and that deliberate intervention is only one source of change.
+
+### Key distinctions
+
+- change in a system vs changing a system of concern
+- system improvement vs changes in legitimacy or purpose
+- planned intervention vs emergence and cultural evolution
+- integration of fragmentation vs replacement with a new order
+
+### Historical development
+
+- organisation development and planned change
+- systems practice and systemic intervention
+- social innovation and movement traditions
+- complexity-informed accounts of emergence and adaptation
+
+### Ideas it depends on
+
+- Boundary
+- Purpose
+- Intervention
+- Learning
+- Power
+
+### What develops from it
+
+- System development
+- Transformation
+- Institutional change
+- Cultural evolution
+
+### Connections to practice
+
+- name the current and desired patterns without pretending either is complete
+- identify who can act and who bears the effects
+- treat interventions as probes which generate learning
+- track unintended and cross-level consequences
+
+### Common confusions
+
+- that a system is static before a programme changes it
+- that a map identifies a controllable whole
+- that beneficial intention establishes beneficial consequence
+- that scale alone makes change systemic
+
+### Open questions and checks
+
+- compare systems-change schools by ontology, power and intervention logic
+- build cases of failed and counterproductive systems change
+
+### Sources
+
+- A schema for better understanding systems leadership and systems change — https://stream.syscoi.com/2021/06/21/a-schema-for-better-understanding-systems-leadership-and-systems-change/
+- What do systems leadership and systems change mean to you? — https://chosen-path.org/2022/07/11/what-do-systems-leadership-and-systems-change-mean-to-you-what-questions-would-you-like-me-to-answer/
+- Systems convening and boundaries core slides — No public link
+
+## Systems convening
+
+Type: Practice
+Public depth: profile
+
+Social-learning leadership that creates and sustains learning across boundaries in a social landscape. It need not derive from systems theory and is not a general synonym for partnership working, facilitation or institutional coordination.
+
+### Summary
+
+Systems convening is social-learning leadership across boundaries. Conveners create new conversations and learning partnerships across a landscape, working with legitimacy, identity, agency, power and value creation.
+
+### Why it matters
+
+It names work that is often real but invisible. It also needs protection from becoming a loose synonym for any cross-organisational meeting, network or partnership role.
+
+### Key distinctions
+
+- learning capability across a landscape vs competence inside one group
+- convening legitimacy vs formal authority
+- creating conditions for learning vs directing an agreed programme
+- systems convening vs systems theory or a systems methodology
+
+### Historical development
+
+- social learning theory
+- communities and landscapes of practice
+- boundary crossing and brokerage
+- practitioner accounts of cross-system change
+
+### Ideas it depends on
+
+- Boundary
+- Social learning
+- Legitimacy
+- Identity
+- Power
+
+### What develops from it
+
+- Cross-boundary learning
+- New partnerships
+- Agency
+- Practice change
+
+### Connections to practice
+
+- craft a convening call
+- grow legitimacy across different worlds
+- work with boundaries, identity, agency and power
+- articulate value without claiming to control the result
+
+### Common confusions
+
+- that it is any form of facilitation or partnership working
+- that it requires training in systems theory
+- that convening is politically neutral
+- that bringing everyone together guarantees agreement
+
+### Open questions and checks
+
+- map cases where systems convening failed or lost legitimacy
+- compare systems convening with network weaving, brokerage and collective-impact roles
+
+### Sources
+
+- Systems convening: the art of convening diverse voices across difficult boundaries — https://www.wenger-trayner.com/systems-convening/
+- Systems convening and boundaries core slides — No public link
+- What do systems leadership and systems change mean to you? — https://chosen-path.org/2022/07/11/what-do-systems-leadership-and-systems-change-mean-to-you-what-questions-would-you-like-me-to-answer/
+
+## Systems leadership
+
+Type: Approach family
+Public depth: profile
+
+An overloaded family of approaches ranging from leading an institutional 'system' more effectively, through creating more legitimate authority, to helping people develop new ways of organising. The phrase does not by itself specify the system, the leadership relation or whose purposes count.
+
+### Summary
+
+Systems leadership is not one approach. It can mean better leadership of a set of institutions, better systems thinking by leaders, more legitimate shared authority, facilitation of system development, or support for new possibilities. These aims can conflict.
+
+### Why it matters
+
+The label often creates false agreement. People may support 'systems leadership' while imagining very different distributions of authority, legitimacy, accountability and control.
+
+### Key distinctions
+
+- leadership of an institutional system vs leadership informed by systems thinking
+- improving system effectiveness vs challenging the legitimacy of existing power
+- leading change vs helping a system explore and develop itself
+- formal authority vs influence without authority
+
+### Historical development
+
+- public-service partnership and place leadership
+- systems thinking and organisational cybernetics
+- collective, adaptive and facilitative leadership traditions
+- systems-change movements and social innovation
+
+### Ideas it depends on
+
+- Boundary
+- Purpose
+- Power
+- Legitimacy
+- Systems practice
+
+### What develops from it
+
+- Shared governance
+- Place leadership
+- Collective action
+- Systems change
+
+### Connections to practice
+
+- state which system and purposes are in focus
+- make authority and accountability explicit
+- distinguish coordination from genuine redistribution of power
+- test effectiveness and legitimacy together
+
+### Common confusions
+
+- that adding 'systems' makes ordinary leadership systemic
+- that collaboration removes conflict or hierarchy
+- that one leader can stand outside and lead the whole system
+- that all six meanings point in the same direction
+
+### Open questions and checks
+
+- develop rival classifications and international usage
+- add cases where systems leadership improved coordination but damaged legitimacy, and vice versa
+
+### Sources
+
+- A schema for better understanding systems leadership and systems change — https://stream.syscoi.com/2021/06/21/a-schema-for-better-understanding-systems-leadership-and-systems-change/
+- What do systems leadership and systems change mean to you? — https://chosen-path.org/2022/07/11/what-do-systems-leadership-and-systems-change-mean-to-you-what-questions-would-you-like-me-to-answer/
+- What is SCiO? — https://www.systemspractice.org/professional-body
+
 ## Systems mapping
 
 Type: Tool
@@ -5622,6 +5829,212 @@ Systems mapping is a family of practices for making selected elements, relations
 ### Sources
 
 - An introductory systems thinking toolkit for civil servants — https://www.gov.uk/government/publications/systems-thinking-for-civil-servants/toolkit
+
+## Systems practice
+
+Type: Practice
+Public depth: profile
+
+The situated use of systems ideas, methods and judgement to inquire and act in a problematic situation. It includes choosing boundaries, combining approaches, learning from consequences and allowing the inquiry to change the practitioner as well as the situation.
+
+### Summary
+
+Systems practice is inquiry and action under conditions where boundary, purpose, method, evidence and the practitioner's own participation matter. It is not the mechanical application of a systems diagram or named methodology.
+
+### Why it matters
+
+The field is often presented as a tool catalogue. Practice requires judgement about framing, participation, power, method combination, consequences and learning in the actual situation.
+
+### Key distinctions
+
+- practice vs possession of a tool
+- method following vs methodological judgement
+- mapping vs intervention
+- technical competence vs ethical and reflexive capability
+
+### Historical development
+
+- systems methodologies and operational research
+- critical and soft systems traditions
+- cybernetic management and organisational learning
+- professional standards and apprenticeship practice
+
+### Ideas it depends on
+
+- Systems theory
+- Boundary
+- Purpose
+- Observer
+- Learning
+
+### What develops from it
+
+- Systemic intervention
+- Multi-methodology
+- Reflective practice
+- Professional capability
+
+### Connections to practice
+
+- work with at least several approaches and know their limits
+- choose scope, scale and participation explicitly
+- make reasoning and evidence inspectable
+- learn from the consequences of intervention
+
+### Common confusions
+
+- that systems practice is simply systems mapping
+- that the practitioner can remain outside the situation
+- that more tools create better judgement
+- that professionalisation removes contest and uncertainty
+
+### Open questions and checks
+
+- connect capability statements to documented cases and failure modes
+- compare professional standards with practitioner-defined accounts of good work
+
+### Sources
+
+- What is SCiO? — https://www.systemspractice.org/professional-body
+- SCiO Professional Development — https://www.systemspractice.org/professional-development
+- SCiO Professional Accreditation and Competency Framework — https://www.systemspractice.org/professional-accreditation
+- What do systems leadership and systems change mean to you? — https://chosen-path.org/2022/07/11/what-do-systems-leadership-and-systems-change-mean-to-you-what-questions-would-you-like-me-to-answer/
+
+## Systems theory
+
+Type: Tradition
+Public depth: profile
+
+A family of explanatory traditions concerned with systems, wholes, relations, organisation, feedback, boundaries, emergence and related phenomena. It is not one unified theory and does not automatically supply a method for intervention.
+
+### Summary
+
+Systems theory is better read as a contested family of theories than as a single doctrine. Different traditions explain organisation, relation, boundary, feedback, emergence, hierarchy, viability or communication in materially different ways.
+
+### Why it matters
+
+Practice becomes muddled when a broad theoretical vocabulary is treated as one agreed worldview, or when explanatory models are converted into prescriptions without showing the translation.
+
+### Key distinctions
+
+- one theory vs a family of traditions
+- explanation vs intervention method
+- formal, biological, social and organisational domains
+- first-order modelling vs reflexive and second-order accounts
+
+### Historical development
+
+- general systems theory
+- cybernetics and information
+- operations research and systems engineering
+- complexity, autopoiesis and second-order cybernetics
+
+### Ideas it depends on
+
+- Relation
+- Organisation
+- Boundary
+- Observer
+
+### What develops from it
+
+- Systems methods
+- Systems practice
+- Systems science
+- Cybersystemics
+
+### Connections to practice
+
+- say which theoretical tradition is being used
+- state the domain and limits of analogy
+- show the move from explanation to action
+- retain rival accounts where the field is not settled
+
+### Common confusions
+
+- that all systems theories are compatible
+- that theory automatically provides a method
+- that using system language removes observer dependence
+- that a formal model supplies its own purpose and ethics
+
+### Open questions and checks
+
+- develop a comparative history of major systems-theory traditions
+- map incompatible uses of system, organisation, information and complexity
+
+### Sources
+
+- SysBoK, from SCiO — https://www.systemspractice.org/sysbok-from-scio
+- What is SCiO? — https://www.systemspractice.org/professional-body
+- What do systems leadership and systems change mean to you? — https://chosen-path.org/2022/07/11/what-do-systems-leadership-and-systems-change-mean-to-you-what-questions-would-you-like-me-to-answer/
+
+## Systems weaving
+
+Type: Practice
+Public depth: profile
+
+Relational and network-building work that notices, connects and strengthens people, groups and resources so new collaboration and self-organisation become possible. It overlaps with systems convening but usually puts more emphasis on network health and connection.
+
+### Summary
+
+Systems weaving is used here for practical work which strengthens relationships, closes useful triangles, connects resources and helps networks become more capable of self-organisation and coordinated action.
+
+### Why it matters
+
+It brings attention to the relational infrastructure of change. The term is less standardised than network weaving and can easily become decorative language unless the actual connections and effects are shown.
+
+### Key distinctions
+
+- network health vs one-off stakeholder engagement
+- connection and brokerage vs formal coordination
+- weaving vs convening a specific learning space
+- enabling self-organisation vs centrally directing a network
+
+### Historical development
+
+- network weaving and community network practice
+- social-capital and brokerage traditions
+- movement and ecosystem organising
+- systems-change practice
+
+### Ideas it depends on
+
+- Networks
+- Relation
+- Trust
+- Agency
+
+### What develops from it
+
+- Collaboration
+- Self-organisation
+- Network leadership
+- Collective action
+
+### Connections to practice
+
+- notice disconnected people and resources
+- make strategic introductions and close triangles
+- support shared infrastructure and communication
+- watch who remains excluded from the network
+
+### Common confusions
+
+- that more connections are always better
+- that a visible network has no power centre
+- that weaving is a substitute for purpose or accountability
+- that systems weaving has one settled definition
+
+### Open questions and checks
+
+- clarify how practitioners distinguish systems weaving from network weaving
+- add evidence on network overload, exclusion and brokerage power
+
+### Sources
+
+- Network Weaving — https://networkweaver.com/network-weaving/
+- What do systems leadership and systems change mean to you? — https://chosen-path.org/2022/07/11/what-do-systems-leadership-and-systems-change-mean-to-you-what-questions-would-you-like-me-to-answer/
+- Systems convening and boundaries core slides — No public link
 
 ## T. C. Schelling
 

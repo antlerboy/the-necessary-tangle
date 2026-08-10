@@ -9,7 +9,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data" / "public-data.json"
-ALLOWED_RELEASES = {"0.7-constellation-alpha", "0.8-expansion-alpha", "0.9-observations-alpha"}
+ALLOWED_RELEASES = {"0.7-constellation-alpha", "0.8-expansion-alpha", "0.9-observations-alpha", "0.10-practice-safety-alpha"}
 PRINCIPIA_IDS = {
     "person_cliff_joslyn", "tradition_evolutionary_cybernetics", "person_francis_heylighen",
     "concept_global_brain", "concept_metasystem_transition", "organisation_principia_cybernetica_project",
@@ -167,8 +167,11 @@ def main() -> int:
     ]:
         if f'id="{element_id}"' not in index:
             errors.append(f"missing constellation interface element #{element_id}")
-    if 'class="curator-notebook-link"' not in index or '/issues/2' not in index:
-        errors.append("curator notebook link is missing")
+    if meta.get("release") in {"0.7-constellation-alpha", "0.8-expansion-alpha", "0.9-observations-alpha"}:
+        if 'class="curator-notebook-link"' not in index or '/issues/2' not in index:
+            errors.append("curator notebook link is missing")
+    elif '/issues/2' in index:
+        errors.append("retired public curator-notebook route remains in the release")
 
     app = (ROOT / "docs" / "assets" / "app.js").read_text(encoding="utf-8")
     for marker in ["zoomMapAt", "emergentCategories", "membershipForm", "human sponsor"]:

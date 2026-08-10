@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.10-practice-safety-alpha — 10 August 2026
+
+- Added six developed entries distinguishing systems theory, systems practice, systems leadership, systems change, systems convening and systems weaving.
+- Added a guided journey through those six terms and fifteen typed distinctions connecting them to one another and to existing concepts.
+- Added prominent home-page links to the Systems Community of Inquiry, SCiO capability and accreditation, SCiO training, and Benjamin P Taylor's reading list.
+- Replaced the public detailed risk register with implemented publication controls and a concise public safety policy.
+- Removed the public running-notebook route; contributions now use structured issue and participation forms.
+- Added CODEOWNERS, a publication-safety pull-request checklist and security-reporting guidance.
+- Preserved AI observations while recalculating their measurements against the enlarged graph.
+
 ## 0.9-observations-alpha — 10 August 2026
 
 - Added a public AI observations page separating reproducible measurements, interpretation, implications and tests.

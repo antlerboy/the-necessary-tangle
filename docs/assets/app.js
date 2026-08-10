@@ -712,13 +712,6 @@
         </dl>
       </article>
     `).join('');
-    $('aiRiskList').innerHTML = (report.public_risks || []).map((risk) => `
-      <article class="risk-card">
-        <h3>${esc(risk.risk)}</h3>
-        <p>${esc(risk.mechanism)}</p>
-        <p class="small"><strong>Controls:</strong> ${esc(risk.controls)}</p>
-      </article>
-    `).join('');
     $('sourceMiningList').innerHTML = (DATA.source_mining_register || []).map((source) => `
       <article class="source-mining-card">
         <p class="eyebrow">${esc(titleCase(source.status))}</p>
@@ -1275,6 +1268,8 @@
         if (!edgeInLayer(edge)) continue;
         if ($('mapFamily').value !== 'all' && edge.relation_family !== $('mapFamily').value) continue;
         if ($('mapFamily').value !== 'all' && edge.relation_family !== $('mapFamily').value) continue;
+        if ($('mapFamily').value !== 'all' && edge.relation_family !== $('mapFamily').value) continue;
+        if ($('mapFamily').value !== 'all' && edge.relation_family !== $('mapFamily').value) continue;
         const other = edge.source === id ? edge.target : edge.source;
         const otherNode = nodeById.get(other);
         if (!otherNode || otherNode.public_visibility !== 'public' || previous.has(other)) continue;
@@ -1778,7 +1773,7 @@
       const role = String(form.get('role') || 'participant').replaceAll('_', ' ');
       const interest = String(form.get('interest') || '').trim();
       const status = document.getElementById('membershipStatus');
-      if (status) status.innerHTML = `Contribution note ready: <strong>${role}</strong>${interest ? ` — ${interest}` : ''}. Add it to <a href="https://github.com/antlerboy/the-necessary-tangle/issues/2" target="_blank" rel="noopener">the curator's running notebook</a>. If automation helped, name the human sponsor.`;
+      if (status) status.innerHTML = `Contribution note ready: <strong>${role}</strong>${interest ? ` — ${interest}` : ''}. Continue through <a href="https://github.com/antlerboy/the-necessary-tangle/issues/new?template=membership.yml" target="_blank" rel="noopener">the structured participation form</a>. If automation helped, name the human sponsor.`;
     });
   }
 
