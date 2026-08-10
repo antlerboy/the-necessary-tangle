@@ -15,11 +15,11 @@ jobs:
       contains(github.event.issue.body || '', 'Prepared from The Necessary Tangle')
     runs-on: ubuntu-latest
     steps:
-      - name: Label the submitted issue
-        if: github.event_name == 'issues'
+      - name: Label new submissions or backfill the open queue
         uses: actions/github-script@v8
         with:
           script: |
+            const marker = 'Prepared from The Necessary Tangle';
             const labels = [
               {
                 name: 'site-submission',
@@ -50,9 +50,28 @@ jobs:
               }
             }
 
-            await github.rest.issues.addLabels({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              issue_number: context.issue.number,
-              labels: labels.map(label => label.name)
-            });
+            let issues;
+            if (context.eventName === 'issues') {
+              issues = [context.payload.issue];
+            } else {
+              issues = await github.paginate(github.rest.issues.listForRepo, {
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                state: 'open',
+                per_page: 100
+              });
+              issues = issues.filter(issue =>
+                !issue.pull_request && (issue.body || '').includes(marker)
+              );
+            }
+
+            for (const issue of issues) {
+              await github.rest.issues.addLabels({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issue.number,
+                labels: labels.map(label => label.name)
+              });
+            }
+
+            core.info(`Labelled ${issues.length} structured site submission(s).`);
