@@ -1,0 +1,63 @@
+name: Create content backup
+
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: content-backup-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  backup:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+
+      - name: Validate the committed release
+        run: make validate
+
+      - name: Build the content snapshot
+        shell: bash
+        run: |
+          set -euo pipefail
+          release=$(python3 - <<'PY'
+          import json
+          print(json.load(open('data/public-data.json'))['meta']['release'])
+          PY
+          )
+          short_sha=$(git rev-parse --short=12 HEAD)
+          name="the-necessary-tangle-${release}-${short_sha}-content"
+          mkdir -p backup-stage
+          git archive --format=tar --prefix="${name}/" HEAD | tar -xf - -C backup-stage
+          cat > "backup-stage/${name}/CONTENT-BACKUP-MANIFEST.txt" <<EOF
+          The Necessary Tangle content snapshot
+          Release: ${release}
+          Commit: $(git rev-parse HEAD)
+          Created: $(date -u +'%Y-%m-%dT%H:%M:%SZ')
+
+          This ZIP contains the repository content at the named commit, without the .git history.
+          It is suitable for reading, rebuilding and inspecting the release.
+          It is not a complete backup of Git history, issues, pull requests, wikis, LFS objects,
+          releases, discussions, packages, Actions artefacts or account settings.
+          EOF
+          (cd backup-stage && zip -q -r "../${name}.zip" "${name}")
+          sha256sum "${name}.zip" > "${name}.zip.sha256"
+          printf 'BACKUP_NAME=%s\n' "${name}" >> "$GITHUB_ENV"
+
+      - name: Upload the content backup
+        uses: actions/upload-artifact@v5
+        with:
+          name: ${{ env.BACKUP_NAME }}
+          path: |
+            ${{ env.BACKUP_NAME }}.zip
+            ${{ env.BACKUP_NAME }}.zip.sha256
+          if-no-files-found: error
+          retention-days: 90
