@@ -40,8 +40,8 @@ jobs:
           COMMIT = '8ab7912a36a8e42fcd24c3145a0f6def0d27f285'
           EXPECTED_SOURCE_SIZE = 54715
           EXPECTED_SOURCE_SHA = 'b30071976cb536ad9c1c4a5023e2ca6828d179ace8fac185e2085095e5c7bc1a'
-          EXPECTED_VALIDATOR_SIZE = 9628
-          EXPECTED_VALIDATOR_SHA = '7162d7ad5c32e40d06a6ec9a4ec46d7c7a387e680b3c59ca2c5bacbf3a38fc8e'
+          EXPECTED_VALIDATOR_SIZE = 11987
+          EXPECTED_VALIDATOR_SHA = 'ad72b74625338abbcdfbc4621e9e476b0d6542339f7c70141e9adda161a91add'
 
           def git_text(path: str) -> str:
               return subprocess.check_output(
@@ -76,7 +76,7 @@ jobs:
           print('validator size', len(validator))
           print('validator sha256', validator_sha)
           if len(validator) != EXPECTED_VALIDATOR_SIZE or validator_sha != EXPECTED_VALIDATOR_SHA:
-              raise SystemExit('Recovered validator archive does not match its recorded contract')
+              raise SystemExit('Recovered validator archive does not match the verified bytes in the PR commit')
 
           archives = [
               ('/tmp/iteration-12-source.tar.gz', source),
