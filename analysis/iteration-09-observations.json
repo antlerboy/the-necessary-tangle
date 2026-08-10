@@ -1,0 +1,1184 @@
+{
+  "facts": {
+    "release": "0.8-expansion-alpha",
+    "public_entries": 407,
+    "entity_types": {
+      "approach_family": 1,
+      "comparator_corpus": 1,
+      "concept": 52,
+      "corpus": 1,
+      "intervention_skill": 47,
+      "law_or_principle": 33,
+      "method_or_methodology": 17,
+      "organisation": 1,
+      "person": 142,
+      "practice": 1,
+      "publication": 94,
+      "technology": 1,
+      "tool": 11,
+      "tradition": 5
+    },
+    "publication_levels": {
+      "described": 379,
+      "profile": 28
+    },
+    "developed_profiles": 28,
+    "developed_profiles_by_type": {
+      "concept": 26,
+      "method_or_methodology": 2
+    },
+    "review_statuses": {
+      "accepted": 121,
+      "official_toc_bibliographic_first_pass": 107,
+      "official_toc_bibliographic_inventory": 93,
+      "research_pass_needs_editor": 51,
+      "candidate": 23,
+      "curator_checked": 9,
+      "official_source_first_pass": 1,
+      "bibliographic_first_pass": 1,
+      "official_collection_registered": 1
+    },
+    "boundary_rings": {
+      "0": 201,
+      "1": 206
+    },
+    "sources": 86,
+    "sources_with_public_links": 73,
+    "source_types": {
+      "primary_research_article": 7,
+      "primary_book": 5,
+      "primary_project_page": 4,
+      "peer_reviewed_article": 3,
+      "private_teaching_material": 3,
+      "public_secondary_summary": 3,
+      "book": 2,
+      "presentation": 2,
+      "professional_technical_reference": 2,
+      "professional_body_page": 2,
+      "legacy_map_presentation": 2,
+      "professional_body_explainer": 2,
+      "research_article_metadata": 2,
+      "scholarly_reference_entry": 2,
+      "public_community_archive": 2,
+      "professional_body_library": 1,
+      "family_archive_history": 1,
+      "primary_book_chapter": 1,
+      "public_editorial_critique": 1,
+      "research_institute_course": 1,
+      "author_position_paper": 1,
+      "professional_body_course": 1,
+      "government_toolkit": 1,
+      "comparator_registry": 1,
+      "professional_framework_note": 1,
+      "social_media_post": 1,
+      "professional_community_explainer": 1,
+      "professional_body_reference": 1,
+      "peer_reviewed_research_article": 1,
+      "first_person_archive_history": 1,
+      "government_technical_dictionary": 1,
+      "university_course": 1,
+      "community_network_map": 1,
+      "curated_dictionary": 1,
+      "historical_map": 1,
+      "professional_framework_presentation": 1,
+      "professional_framework_resource_guide": 1,
+      "professional_body_of_knowledge": 1,
+      "scholarly_encyclopaedia": 1,
+      "scholarly_encyclopaedia_entry": 1,
+      "research_institute_seminar_abstract": 1,
+      "government_standard": 1,
+      "private_working_synthesis": 1,
+      "private_practice_manual": 1,
+      "practitioner_article": 1,
+      "primary_lecture_reconstruction": 1,
+      "primary_book_chapter_public_transcription": 1,
+      "professional_case_study": 1,
+      "professional_society_explainer": 1,
+      "professional_society_history": 1,
+      "institutional_explainer": 1,
+      "public_compendium": 1,
+      "public_reference_corpus": 1,
+      "public_comparator_map": 1,
+      "official_project_theory_page": 1,
+      "publisher_table_of_contents": 1,
+      "publisher_citation_record": 1,
+      "official_project_statement": 1
+    },
+    "source_quality_tiers": {
+      "C": 33,
+      "B": 29,
+      "A": 23,
+      "D": 1
+    },
+    "source_domains": {
+      "doi.org": 11,
+      "systemspractice.org": 9,
+      "pespmc1.vub.ac.be": 7,
+      "stream.syscoi.com": 4,
+      "linkedin.com": 4,
+      "plato.stanford.edu": 4,
+      "ashby.info": 2,
+      "mitpress.mit.edu": 2,
+      "technav.ieee.org": 2,
+      "metaphorum.org": 2,
+      "ieeecss.org": 2,
+      "foundationalpapersincomplexityscience.org": 2,
+      "asc-cybernetics.org": 1,
+      "journal.emergentpublications.com": 1,
+      "press.uchicago.edu": 1,
+      "wiley-vch.de": 1,
+      "elgaronline.com": 1,
+      "complexityexplorer.org": 1,
+      "cybsoc.org": 1,
+      "gov.uk": 1,
+      "isss.org": 1,
+      "xlinux.nist.gov": 1,
+      "open.edu": 1,
+      "sebokwiki.org": 1,
+      "web-prod.santafe.edu": 1,
+      "skillsengland.education.gov.uk": 1,
+      "chosen-path.org": 1,
+      "constructivist.info": 1,
+      "organism.earth": 1,
+      "deming.org": 1,
+      "fondationborel.org": 1,
+      "monoskop.org": 1,
+      "syscoi.com": 1,
+      "commons.wikimedia.org": 1
+    },
+    "top_source_usage": [
+      {
+        "id": "src_fpcs_official_toc",
+        "title": "Foundational Papers in Complexity Science — official tables of contents",
+        "node_uses": 201,
+        "edge_uses": 417,
+        "total_uses": 618,
+        "url": "https://www.foundationalpapersincomplexityscience.org/tables-of-contents",
+        "source_type": "publisher_table_of_contents"
+      },
+      {
+        "id": "src_scio_cf_resources_2022",
+        "title": "SCiO CF Resources v9 draft",
+        "node_uses": 61,
+        "edge_uses": 1,
+        "total_uses": 62,
+        "url": "",
+        "source_type": "professional_framework_resource_guide"
+      },
+      {
+        "id": "src_scio_accreditation_current",
+        "title": "SCiO Professional Accreditation and Competency Framework",
+        "node_uses": 47,
+        "edge_uses": 0,
+        "total_uses": 47,
+        "url": "https://www.systemspractice.org/professional-accreditation",
+        "source_type": "professional_body_page"
+      },
+      {
+        "id": "src_grammar_presentation_2022",
+        "title": "The Grammar of Systems - SCiO presentation",
+        "node_uses": 41,
+        "edge_uses": 0,
+        "total_uses": 41,
+        "url": "https://www.systemspractice.org/resources/grammar-systems",
+        "source_type": "presentation"
+      },
+      {
+        "id": "src_grammar_2ed_2025",
+        "title": "The Grammar of Systems II: From Order to Chaos and Back Again, 2nd edition",
+        "node_uses": 41,
+        "edge_uses": 0,
+        "total_uses": 41,
+        "url": "https://www.systemspractice.org/resources/grammar-systems-ii-order-chaos-back-again-2nd-ed",
+        "source_type": "book"
+      },
+      {
+        "id": "src_sysbok_recursion_2013",
+        "title": "SCiO SysBoK - Recursion v1",
+        "node_uses": 16,
+        "edge_uses": 19,
+        "total_uses": 35,
+        "url": "",
+        "source_type": "legacy_map_presentation"
+      },
+      {
+        "id": "src_sysbok_feedback_2013",
+        "title": "SCiO SysBoK - Feedback v1",
+        "node_uses": 16,
+        "edge_uses": 17,
+        "total_uses": 33,
+        "url": "",
+        "source_type": "legacy_map_presentation"
+      },
+      {
+        "id": "src_taylor_vsm_lecture_2025",
+        "title": "Benjamin Taylor VSM lecture",
+        "node_uses": 9,
+        "edge_uses": 11,
+        "total_uses": 20,
+        "url": "",
+        "source_type": "private_teaching_material"
+      },
+      {
+        "id": "src_principia_intro",
+        "title": "Introduction to Principia Cybernetica",
+        "node_uses": 7,
+        "edge_uses": 11,
+        "total_uses": 18,
+        "url": "https://pespmc1.vub.ac.be/INTRO.html",
+        "source_type": "primary_project_page"
+      },
+      {
+        "id": "src_principia_mstt",
+        "title": "Principia Cybernetica: Metasystem Transition Theory",
+        "node_uses": 6,
+        "edge_uses": 10,
+        "total_uses": 16,
+        "url": "https://pespmc1.vub.ac.be/MSTT.html",
+        "source_type": "official_project_theory_page"
+      },
+      {
+        "id": "src_principia_manifesto",
+        "title": "The Cybernetic Manifesto",
+        "node_uses": 4,
+        "edge_uses": 12,
+        "total_uses": 16,
+        "url": "https://pespmc1.vub.ac.be/MANIFESTO.html",
+        "source_type": "primary_project_page"
+      },
+      {
+        "id": "src_taylor_core_thinking_2026",
+        "title": "Core Thinking Integration",
+        "node_uses": 8,
+        "edge_uses": 7,
+        "total_uses": 15,
+        "url": "",
+        "source_type": "private_working_synthesis"
+      },
+      {
+        "id": "src_ashby_intro_cybernetics_1956",
+        "title": "An Introduction to Cybernetics",
+        "node_uses": 7,
+        "edge_uses": 7,
+        "total_uses": 14,
+        "url": "https://ashby.info/bibliography.html",
+        "source_type": "primary_book"
+      },
+      {
+        "id": "src_go_science_toolkit_2023",
+        "title": "An introductory systems thinking toolkit for civil servants",
+        "node_uses": 11,
+        "edge_uses": 0,
+        "total_uses": 11,
+        "url": "https://www.gov.uk/government/publications/systems-thinking-for-civil-servants/toolkit",
+        "source_type": "government_toolkit"
+      },
+      {
+        "id": "src_salah_grammar_part1_2022",
+        "title": "Cybersecurity Lessons from The Grammar of Systems, part 1",
+        "node_uses": 11,
+        "edge_uses": 0,
+        "total_uses": 11,
+        "url": "https://www.linkedin.com/pulse/cybersecurity-lessons-from-grammar-systems-order-chaos-osama-salah/",
+        "source_type": "public_secondary_summary"
+      },
+      {
+        "id": "src_salah_grammar_part2_2022",
+        "title": "Cybersecurity Lessons from The Grammar of Systems, part 2",
+        "node_uses": 11,
+        "edge_uses": 0,
+        "total_uses": 11,
+        "url": "https://www.linkedin.com/pulse/cybersecurity-lessons-from-grammar-systems-order-chaos-osama-salah-1f",
+        "source_type": "public_secondary_summary"
+      },
+      {
+        "id": "src_salah_grammar_part3_2022",
+        "title": "Cybersecurity Lessons from The Grammar of Systems, part 3",
+        "node_uses": 11,
+        "edge_uses": 0,
+        "total_uses": 11,
+        "url": "https://www.linkedin.com/pulse/cybersecurity-lessons-from-grammar-systems-order-chaos-osama-salah-2f",
+        "source_type": "public_secondary_summary"
+      },
+      {
+        "id": "src_sep_recursive_functions_2024",
+        "title": "Recursive Functions",
+        "node_uses": 5,
+        "edge_uses": 5,
+        "total_uses": 10,
+        "url": "https://plato.stanford.edu/entries/recursive-functions/",
+        "source_type": "scholarly_encyclopaedia_entry"
+      },
+      {
+        "id": "src_metaphorum_vsm_2026",
+        "title": "Viable System Model - The VSM in 1000 words",
+        "node_uses": 4,
+        "edge_uses": 6,
+        "total_uses": 10,
+        "url": "https://metaphorum.org/staffords-work/viable-system-model",
+        "source_type": "professional_community_explainer"
+      },
+      {
+        "id": "src_beer_diagnosing_system_1985",
+        "title": "Diagnosing the System for Organizations",
+        "node_uses": 4,
+        "edge_uses": 5,
+        "total_uses": 9,
+        "url": "https://www.wiley-vch.de/en/areas-interest/finance-economics-law/diagnosing-the-system-for-organizations-978-0-471-95136-0",
+        "source_type": "primary_book"
+      }
+    ],
+    "node_source_count_distribution": {
+      "1": 267,
+      "2": 83,
+      "3": 47,
+      "4": 8,
+      "5": 1,
+      "8": 1
+    },
+    "edge_source_count_distribution": {
+      "1": 488,
+      "2": 45,
+      "3": 2
+    },
+    "nodes_without_sources": 0,
+    "edges_without_sources": 0,
+    "edges_total": 535,
+    "edges_substantive": 168,
+    "edges_provenance_or_legacy": 367,
+    "relation_families": {
+      "classification": 189,
+      "documentary": 150,
+      "human": 68,
+      "conceptual": 34,
+      "influence": 23,
+      "historical": 20,
+      "practice": 18,
+      "evidence": 18,
+      "legacy": 10,
+      "contestation": 3,
+      "identity": 2
+    },
+    "relation_types_top": {
+      "part_of": 185,
+      "authored_by": 150,
+      "coauthored_with": 68,
+      "developed_or_extended": 21,
+      "described_by": 18,
+      "uses": 14,
+      "historical_precursor": 12,
+      "legacy_association_unspecified": 10,
+      "formulated_by": 8,
+      "specialises": 8,
+      "dependent_derivative": 6,
+      "explanatory_prerequisite": 6,
+      "member_of": 4,
+      "often_confused_with": 3,
+      "definitional_prerequisite": 3,
+      "complements": 3,
+      "instantiates": 3,
+      "formalises": 2,
+      "constrains": 2,
+      "commonly_combined_with": 2,
+      "applies": 1,
+      "claimed_to_have_influenced": 1,
+      "operationalises": 1,
+      "espouses_epistemology": 1,
+      "extends": 1,
+      "conceptually_related_to": 1,
+      "self_identifies_with": 1
+    },
+    "relation_statuses": {
+      "accepted": 427,
+      "provisional": 47,
+      "legacy_unverified": 33,
+      "corroborated": 24,
+      "superseded": 3,
+      "provisional_needs_primary_check": 1
+    },
+    "layers": {
+      "conceptual": {
+        "edges": 34,
+        "nodes": 40
+      },
+      "human_lineage": {
+        "edges": 111,
+        "nodes": 105
+      },
+      "practice": {
+        "edges": 18,
+        "nodes": 20
+      },
+      "contestation": {
+        "edges": 3,
+        "nodes": 6
+      },
+      "provenance": {
+        "edges": 357,
+        "nodes": 233
+      },
+      "legacy": {
+        "edges": 10,
+        "nodes": 12
+      }
+    },
+    "substantive_components": 291,
+    "substantive_largest_component": 79,
+    "substantive_connected_nodes": 136,
+    "substantive_isolated_nodes": 271,
+    "all_edge_components": 121,
+    "all_edge_largest_component": 286,
+    "substantive_isolates_by_type": {
+      "comparator_corpus": 1,
+      "concept": 16,
+      "corpus": 1,
+      "intervention_skill": 47,
+      "law_or_principle": 31,
+      "method_or_methodology": 14,
+      "person": 55,
+      "publication": 93,
+      "tool": 11,
+      "tradition": 2
+    },
+    "substantive_connected_by_type": {
+      "approach_family": 1,
+      "concept": 36,
+      "law_or_principle": 2,
+      "method_or_methodology": 3,
+      "organisation": 1,
+      "person": 87,
+      "practice": 1,
+      "publication": 1,
+      "technology": 1,
+      "tradition": 3
+    },
+    "top_substantive_degree": [
+      {
+        "id": "concept_recursion",
+        "label": "Recursion",
+        "entity_type": "concept",
+        "substantive_degree": 18,
+        "all_edge_degree": 23,
+        "articulation_point": true
+      },
+      {
+        "id": "concept_feedback",
+        "label": "Feedback",
+        "entity_type": "concept",
+        "substantive_degree": 18,
+        "all_edge_degree": 21,
+        "articulation_point": true
+      },
+      {
+        "id": "method_or_methodology_viable_system_model_vsm",
+        "label": "Viable System Model (VSM)",
+        "entity_type": "method_or_methodology",
+        "substantive_degree": 11,
+        "all_edge_degree": 12,
+        "articulation_point": true
+      },
+      {
+        "id": "organisation_principia_cybernetica_project",
+        "label": "Principia Cybernetica Project",
+        "entity_type": "organisation",
+        "substantive_degree": 6,
+        "all_edge_degree": 7,
+        "articulation_point": false
+      },
+      {
+        "id": "concept_self_organisation",
+        "label": "Self-organisation",
+        "entity_type": "concept",
+        "substantive_degree": 5,
+        "all_edge_degree": 9,
+        "articulation_point": false
+      },
+      {
+        "id": "person_fpcs_j_p_crutchfield",
+        "label": "J. P. Crutchfield",
+        "entity_type": "person",
+        "substantive_degree": 5,
+        "all_edge_degree": 8,
+        "articulation_point": false
+      },
+      {
+        "id": "person_fpcs_p_schuster",
+        "label": "P. Schuster",
+        "entity_type": "person",
+        "substantive_degree": 5,
+        "all_edge_degree": 7,
+        "articulation_point": false
+      },
+      {
+        "id": "publication_principia_cybernetica_web",
+        "label": "Principia Cybernetica Web",
+        "entity_type": "publication",
+        "substantive_degree": 5,
+        "all_edge_degree": 6,
+        "articulation_point": false
+      },
+      {
+        "id": "concept_boundary",
+        "label": "Boundary",
+        "entity_type": "concept",
+        "substantive_degree": 5,
+        "all_edge_degree": 5,
+        "articulation_point": true
+      },
+      {
+        "id": "person_fpcs_b_p_stojkovic",
+        "label": "B. P. Stojkovic",
+        "entity_type": "person",
+        "substantive_degree": 4,
+        "all_edge_degree": 5,
+        "articulation_point": false
+      },
+      {
+        "id": "person_fpcs_d_pines",
+        "label": "D. Pines",
+        "entity_type": "person",
+        "substantive_degree": 4,
+        "all_edge_degree": 5,
+        "articulation_point": false
+      },
+      {
+        "id": "person_fpcs_j_schmalian",
+        "label": "J. Schmalian",
+        "entity_type": "person",
+        "substantive_degree": 4,
+        "all_edge_degree": 5,
+        "articulation_point": false
+      },
+      {
+        "id": "concept_metasystem_transition",
+        "label": "Metasystem transition",
+        "entity_type": "concept",
+        "substantive_degree": 4,
+        "all_edge_degree": 5,
+        "articulation_point": true
+      },
+      {
+        "id": "concept_observer",
+        "label": "Observer",
+        "entity_type": "concept",
+        "substantive_degree": 4,
+        "all_edge_degree": 5,
+        "articulation_point": false
+      },
+      {
+        "id": "person_fpcs_p_wolynes",
+        "label": "P. Wolynes",
+        "entity_type": "person",
+        "substantive_degree": 4,
+        "all_edge_degree": 5,
+        "articulation_point": false
+      },
+      {
+        "id": "person_fpcs_r_b_laughlin",
+        "label": "R. B. Laughlin",
+        "entity_type": "person",
+        "substantive_degree": 4,
+        "all_edge_degree": 5,
+        "articulation_point": false
+      },
+      {
+        "id": "law_or_principle_law_of_requisite_variety",
+        "label": "Law of Requisite Variety",
+        "entity_type": "law_or_principle",
+        "substantive_degree": 4,
+        "all_edge_degree": 4,
+        "articulation_point": true
+      },
+      {
+        "id": "concept_negative_feedback",
+        "label": "Negative feedback",
+        "entity_type": "concept",
+        "substantive_degree": 4,
+        "all_edge_degree": 4,
+        "articulation_point": true
+      },
+      {
+        "id": "person_valentin_turchin",
+        "label": "Valentin Turchin",
+        "entity_type": "person",
+        "substantive_degree": 4,
+        "all_edge_degree": 4,
+        "articulation_point": false
+      },
+      {
+        "id": "concept_emergence",
+        "label": "Emergence",
+        "entity_type": "concept",
+        "substantive_degree": 3,
+        "all_edge_degree": 7,
+        "articulation_point": false
+      },
+      {
+        "id": "person_fpcs_a_s_perelson",
+        "label": "A. S. Perelson",
+        "entity_type": "person",
+        "substantive_degree": 3,
+        "all_edge_degree": 5,
+        "articulation_point": false
+      },
+      {
+        "id": "person_fpcs_j_d_farmer",
+        "label": "J. D. Farmer",
+        "entity_type": "person",
+        "substantive_degree": 3,
+        "all_edge_degree": 5,
+        "articulation_point": false
+      },
+      {
+        "id": "person_norbert_wiener",
+        "label": "Norbert Wiener",
+        "entity_type": "person",
+        "substantive_degree": 3,
+        "all_edge_degree": 5,
+        "articulation_point": true
+      },
+      {
+        "id": "person_fpcs_d_warland",
+        "label": "D. Warland",
+        "entity_type": "person",
+        "substantive_degree": 3,
+        "all_edge_degree": 4,
+        "articulation_point": false
+      },
+      {
+        "id": "person_fpcs_f_rieke",
+        "label": "F. Rieke",
+        "entity_type": "person",
+        "substantive_degree": 3,
+        "all_edge_degree": 4,
+        "articulation_point": false
+      },
+      {
+        "id": "person_francis_heylighen",
+        "label": "Francis Heylighen",
+        "entity_type": "person",
+        "substantive_degree": 3,
+        "all_edge_degree": 4,
+        "articulation_point": false
+      },
+      {
+        "id": "person_francisco_varela",
+        "label": "Francisco Varela",
+        "entity_type": "person",
+        "substantive_degree": 3,
+        "all_edge_degree": 4,
+        "articulation_point": false
+      },
+      {
+        "id": "person_humberto_maturana",
+        "label": "Humberto Maturana",
+        "entity_type": "person",
+        "substantive_degree": 3,
+        "all_edge_degree": 4,
+        "articulation_point": false
+      },
+      {
+        "id": "person_fpcs_i_l_hofacker",
+        "label": "I. L. Hofacker",
+        "entity_type": "person",
+        "substantive_degree": 3,
+        "all_edge_degree": 4,
+        "articulation_point": false
+      },
+      {
+        "id": "concept_information",
+        "label": "Information",
+        "entity_type": "concept",
+        "substantive_degree": 3,
+        "all_edge_degree": 4,
+        "articulation_point": true
+      }
+    ],
+    "largest_component_articulation_points": [
+      {
+        "id": "concept_recursion",
+        "label": "Recursion",
+        "entity_type": "concept",
+        "substantive_degree": 18,
+        "all_edge_degree": 23,
+        "articulation_point": true
+      },
+      {
+        "id": "concept_feedback",
+        "label": "Feedback",
+        "entity_type": "concept",
+        "substantive_degree": 18,
+        "all_edge_degree": 21,
+        "articulation_point": true
+      },
+      {
+        "id": "method_or_methodology_viable_system_model_vsm",
+        "label": "Viable System Model (VSM)",
+        "entity_type": "method_or_methodology",
+        "substantive_degree": 11,
+        "all_edge_degree": 12,
+        "articulation_point": true
+      },
+      {
+        "id": "concept_boundary",
+        "label": "Boundary",
+        "entity_type": "concept",
+        "substantive_degree": 5,
+        "all_edge_degree": 5,
+        "articulation_point": true
+      },
+      {
+        "id": "concept_metasystem_transition",
+        "label": "Metasystem transition",
+        "entity_type": "concept",
+        "substantive_degree": 4,
+        "all_edge_degree": 5,
+        "articulation_point": true
+      },
+      {
+        "id": "law_or_principle_law_of_requisite_variety",
+        "label": "Law of Requisite Variety",
+        "entity_type": "law_or_principle",
+        "substantive_degree": 4,
+        "all_edge_degree": 4,
+        "articulation_point": true
+      },
+      {
+        "id": "concept_negative_feedback",
+        "label": "Negative feedback",
+        "entity_type": "concept",
+        "substantive_degree": 4,
+        "all_edge_degree": 4,
+        "articulation_point": true
+      },
+      {
+        "id": "person_norbert_wiener",
+        "label": "Norbert Wiener",
+        "entity_type": "person",
+        "substantive_degree": 3,
+        "all_edge_degree": 5,
+        "articulation_point": true
+      },
+      {
+        "id": "concept_information",
+        "label": "Information",
+        "entity_type": "concept",
+        "substantive_degree": 3,
+        "all_edge_degree": 4,
+        "articulation_point": true
+      },
+      {
+        "id": "concept_viability",
+        "label": "Viability",
+        "entity_type": "concept",
+        "substantive_degree": 3,
+        "all_edge_degree": 3,
+        "articulation_point": true
+      },
+      {
+        "id": "concept_information_theory",
+        "label": "Information theory",
+        "entity_type": "concept",
+        "substantive_degree": 2,
+        "all_edge_degree": 3,
+        "articulation_point": true
+      },
+      {
+        "id": "concept_recursive_computation",
+        "label": "Recursive computation",
+        "entity_type": "concept",
+        "substantive_degree": 2,
+        "all_edge_degree": 2,
+        "articulation_point": true
+      },
+      {
+        "id": "concept_recursive_definition",
+        "label": "Recursive definition",
+        "entity_type": "concept",
+        "substantive_degree": 2,
+        "all_edge_degree": 2,
+        "articulation_point": true
+      },
+      {
+        "id": "method_or_methodology_systemic_intervention",
+        "label": "Systemic Intervention",
+        "entity_type": "method_or_methodology",
+        "substantive_degree": 2,
+        "all_edge_degree": 2,
+        "articulation_point": true
+      }
+    ],
+    "emergent_categories": 6,
+    "category_memberships": 77,
+    "category_unique_members": 77,
+    "category_overlaps": 0,
+    "category_coverage_of_substantive_connected": 77,
+    "substantive_connected_not_in_categories": 59,
+    "category_members_now_isolated": 0,
+    "expansion_08_nodes": 203,
+    "expansion_08_types": {
+      "approach_family": 1,
+      "comparator_corpus": 1,
+      "corpus": 1,
+      "person": 107,
+      "publication": 93
+    },
+    "expansion_08_source_count_distribution": {
+      "1": 202,
+      "2": 1
+    },
+    "people_total": 142,
+    "people_with_initial_form_labels": 108,
+    "initial_form_examples": [
+      "A. Cobham",
+      "A. J. Lotka",
+      "A. N. Kolmogorov",
+      "A. S. Perelson",
+      "B. B. Mandelbrot",
+      "B. J. Enquist",
+      "B. P. Stojkovic",
+      "C. G. Langton",
+      "C. H. Bennett",
+      "C. H. Waddington",
+      "C. Reynolds",
+      "C. S. Holling",
+      "C. Tang",
+      "D. H. Wolpert",
+      "D. M. Raup",
+      "D. Pines",
+      "D. Sherrington",
+      "D. Warland",
+      "D. Watts",
+      "E. B. W. Zubrow",
+      "E. N. Lorenz",
+      "E. Ostrom",
+      "E. T. Jaynes",
+      "F. A. Hayek",
+      "F. J. Dyson",
+      "F. J. Odling-Smee",
+      "F. Rieke",
+      "G. B. West",
+      "G. J. Chaitin",
+      "G. Nicolis"
+    ],
+    "journeys": 8,
+    "journey_steps": [
+      5,
+      6,
+      8,
+      5,
+      6,
+      5,
+      5,
+      6
+    ],
+    "navigation": {
+      "button_view_links": 7,
+      "anchor_view_links": 2,
+      "generated_button_link_markers": 3,
+      "generated_anchor_markers": 4,
+      "text_align_center_rules": 3
+    },
+    "potentially_private_source_urls": [],
+    "top_tags": {
+      "release_0_8_expansion": 203,
+      "foundational_papers_complexity_science": 200,
+      "systems": 112,
+      "bibliographic_first_pass": 107,
+      "complexity": 101,
+      "reviewed_superseded_branch_candidate": 92,
+      "foundational_papers": 90,
+      "practice": 77,
+      "intervention": 47,
+      "grammar_of_systems": 41,
+      "cybernetics": 35,
+      "legacy_sysbok": 30,
+      "core_cluster": 28,
+      "fpcs_volume_2": 25,
+      "volume_2": 24,
+      "fpcs_volume_4": 24,
+      "fpcs_volume_3": 23,
+      "volume_4": 23,
+      "volume_3": 22,
+      "fpcs_volume_1": 21,
+      "volume_1": 20,
+      "historical_lineage": 16,
+      "uk_government": 11,
+      "core_concept": 9,
+      "principia_cybernetica": 9,
+      "release_0_7": 9,
+      "complexity_explorer": 7,
+      "recursion_pilot": 6,
+      "requisite_variety_pilot": 5,
+      "feedback_pilot": 4,
+      "viability": 3,
+      "management_cybernetics": 3,
+      "organisation": 3,
+      "critical_systems": 3,
+      "information": 3,
+      "principia": 2,
+      "epistemology": 2,
+      "variety": 2,
+      "regulation": 2,
+      "social_discovery": 2
+    }
+  },
+  "observations": [
+    {
+      "id": "breadth_depth_asymmetry",
+      "kind": "measurement_and_inference",
+      "title": "The atlas has become broad much faster than it has become deep",
+      "evidence": {
+        "public_entries": 407,
+        "developed_profiles": 28,
+        "developed_share_pct": 6.9,
+        "expansion_entries": 203
+      }
+    },
+    {
+      "id": "two_graphs",
+      "kind": "measurement_and_inference",
+      "title": "There are now two materially different maps: a provenance graph and a substantive ideas-and-practice graph",
+      "evidence": {
+        "all_edges": 535,
+        "substantive_edges": 168,
+        "non_substantive_edges": 367,
+        "substantive_share_pct": 31.4,
+        "substantive_connected_nodes": 136,
+        "all_edge_largest_component": 286
+      }
+    },
+    {
+      "id": "practice_periphery",
+      "kind": "measurement_and_inference",
+      "title": "The conceptual core is substantially more connected than methods, tools, practices and laws",
+      "evidence": {
+        "isolates_by_type": {
+          "comparator_corpus": 1,
+          "concept": 16,
+          "corpus": 1,
+          "intervention_skill": 47,
+          "law_or_principle": 31,
+          "method_or_methodology": 14,
+          "person": 55,
+          "publication": 93,
+          "tool": 11,
+          "tradition": 2
+        },
+        "entity_types": {
+          "approach_family": 1,
+          "comparator_corpus": 1,
+          "concept": 52,
+          "corpus": 1,
+          "intervention_skill": 47,
+          "law_or_principle": 33,
+          "method_or_methodology": 17,
+          "organisation": 1,
+          "person": 142,
+          "practice": 1,
+          "publication": 94,
+          "technology": 1,
+          "tool": 11,
+          "tradition": 5
+        }
+      }
+    },
+    {
+      "id": "source_concentration",
+      "kind": "measurement_and_inference",
+      "title": "The 0.8 breadth is auditable but heavily concentrated in a small number of discovery sources",
+      "evidence": {
+        "sources": 86,
+        "top_sources": [
+          {
+            "id": "src_fpcs_official_toc",
+            "title": "Foundational Papers in Complexity Science — official tables of contents",
+            "node_uses": 201,
+            "edge_uses": 417,
+            "total_uses": 618,
+            "url": "https://www.foundationalpapersincomplexityscience.org/tables-of-contents",
+            "source_type": "publisher_table_of_contents"
+          },
+          {
+            "id": "src_scio_cf_resources_2022",
+            "title": "SCiO CF Resources v9 draft",
+            "node_uses": 61,
+            "edge_uses": 1,
+            "total_uses": 62,
+            "url": "",
+            "source_type": "professional_framework_resource_guide"
+          },
+          {
+            "id": "src_scio_accreditation_current",
+            "title": "SCiO Professional Accreditation and Competency Framework",
+            "node_uses": 47,
+            "edge_uses": 0,
+            "total_uses": 47,
+            "url": "https://www.systemspractice.org/professional-accreditation",
+            "source_type": "professional_body_page"
+          },
+          {
+            "id": "src_grammar_presentation_2022",
+            "title": "The Grammar of Systems - SCiO presentation",
+            "node_uses": 41,
+            "edge_uses": 0,
+            "total_uses": 41,
+            "url": "https://www.systemspractice.org/resources/grammar-systems",
+            "source_type": "presentation"
+          },
+          {
+            "id": "src_grammar_2ed_2025",
+            "title": "The Grammar of Systems II: From Order to Chaos and Back Again, 2nd edition",
+            "node_uses": 41,
+            "edge_uses": 0,
+            "total_uses": 41,
+            "url": "https://www.systemspractice.org/resources/grammar-systems-ii-order-chaos-back-again-2nd-ed",
+            "source_type": "book"
+          },
+          {
+            "id": "src_sysbok_recursion_2013",
+            "title": "SCiO SysBoK - Recursion v1",
+            "node_uses": 16,
+            "edge_uses": 19,
+            "total_uses": 35,
+            "url": "",
+            "source_type": "legacy_map_presentation"
+          },
+          {
+            "id": "src_sysbok_feedback_2013",
+            "title": "SCiO SysBoK - Feedback v1",
+            "node_uses": 16,
+            "edge_uses": 17,
+            "total_uses": 33,
+            "url": "",
+            "source_type": "legacy_map_presentation"
+          },
+          {
+            "id": "src_taylor_vsm_lecture_2025",
+            "title": "Benjamin Taylor VSM lecture",
+            "node_uses": 9,
+            "edge_uses": 11,
+            "total_uses": 20,
+            "url": "",
+            "source_type": "private_teaching_material"
+          }
+        ],
+        "expansion_source_distribution": {
+          "1": 202,
+          "2": 1
+        }
+      }
+    },
+    {
+      "id": "entity_resolution_risk",
+      "kind": "measurement_and_risk",
+      "title": "Initial-only author records create a predictable identity-resolution problem",
+      "evidence": {
+        "people_total": 142,
+        "initial_form_people": 108,
+        "share_pct": 76.1
+      }
+    },
+    {
+      "id": "stale_neighbourhoods",
+      "kind": "measurement_and_risk",
+      "title": "The published emergent neighbourhoods no longer cover the whole connected substantive graph",
+      "evidence": {
+        "connected_nodes": 136,
+        "category_unique_members": 77,
+        "connected_not_in_categories": 59
+      }
+    },
+    {
+      "id": "single_points_of_interpretive_failure",
+      "kind": "measurement_and_inference",
+      "title": "A small set of bridge concepts carries a disproportionate amount of interpretive traffic",
+      "evidence": {
+        "articulation_points": [
+          {
+            "id": "concept_recursion",
+            "label": "Recursion",
+            "degree": 18
+          },
+          {
+            "id": "concept_feedback",
+            "label": "Feedback",
+            "degree": 18
+          },
+          {
+            "id": "method_or_methodology_viable_system_model_vsm",
+            "label": "Viable System Model (VSM)",
+            "degree": 11
+          },
+          {
+            "id": "concept_boundary",
+            "label": "Boundary",
+            "degree": 5
+          },
+          {
+            "id": "concept_metasystem_transition",
+            "label": "Metasystem transition",
+            "degree": 4
+          },
+          {
+            "id": "law_or_principle_law_of_requisite_variety",
+            "label": "Law of Requisite Variety",
+            "degree": 4
+          },
+          {
+            "id": "concept_negative_feedback",
+            "label": "Negative feedback",
+            "degree": 4
+          },
+          {
+            "id": "person_norbert_wiener",
+            "label": "Norbert Wiener",
+            "degree": 3
+          },
+          {
+            "id": "concept_information",
+            "label": "Information",
+            "degree": 3
+          },
+          {
+            "id": "concept_viability",
+            "label": "Viability",
+            "degree": 3
+          },
+          {
+            "id": "concept_information_theory",
+            "label": "Information theory",
+            "degree": 2
+          },
+          {
+            "id": "concept_recursive_computation",
+            "label": "Recursive computation",
+            "degree": 2
+          },
+          {
+            "id": "concept_recursive_definition",
+            "label": "Recursive definition",
+            "degree": 2
+          },
+          {
+            "id": "method_or_methodology_systemic_intervention",
+            "label": "Systemic Intervention",
+            "degree": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "interface_semantics",
+      "kind": "measurement_and_design_inference",
+      "title": "The interface still treats many navigational affordances as actions rather than links",
+      "evidence": {
+        "button_view_links": 7,
+        "anchor_view_links": 2,
+        "generated_button_link_markers": 3,
+        "generated_anchor_markers": 4,
+        "text_align_center_rules": 3
+      }
+    }
+  ]
+}
