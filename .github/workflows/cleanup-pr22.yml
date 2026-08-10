@@ -1,0 +1,35 @@
+name: Clean PR 22 branch
+
+on:
+  push:
+    branches: ["agent/iteration-12-practitioner-intake"]
+    paths: [".github/workflows/cleanup-pr22.yml"]
+
+permissions:
+  contents: write
+
+jobs:
+  clean:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: agent/iteration-12-practitioner-intake
+          fetch-depth: 0
+      - name: Remove accidental staging notes and validate
+        run: |
+          rm -f documentation/_this-should-not-exist.md
+          rm -f documentation/_accidental-marker.md
+          rm -f documentation/validation-note-012.md
+          rm -f .github/workflows/cleanup-pr22.yml
+          make validate
+          make validate
+          git diff --check
+      - name: Commit clean branch
+        run: |
+          git config user.name "Benjamin P Taylor"
+          git config user.email "ben.taylor@redquadrant.com"
+          git add -A
+          git diff --cached --check
+          git commit -m "Clean iteration 0.12 pull request"
+          git push origin HEAD:agent/iteration-12-practitioner-intake
