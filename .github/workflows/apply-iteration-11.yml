@@ -8,6 +8,7 @@ on:
       - ".iteration11-bundle/**"
       - "scripts/apply_iteration_11.py"
       - "scripts/fix_iteration_11_regression_gates.py"
+      - "scripts/fix_iteration_11_legacy_zoom.py"
 
 permissions:
   contents: write
@@ -42,6 +43,9 @@ jobs:
       - name: Update retained regression gates
         run: python3 scripts/fix_iteration_11_regression_gates.py
 
+      - name: Remove the obsolete whole-SVG zoom implementation
+        run: python3 scripts/fix_iteration_11_legacy_zoom.py
+
       - name: Build and validate twice
         run: |
           make validate
@@ -65,6 +69,7 @@ jobs:
           assert data['map_experience']['model'] == 'whole-to-detail conceptual navigation'
           assert 'data-curator-dot="comments"' in index
           assert index.count('https://github.com/antlerboy/the-necessary-tangle/issues/2') == 1
+          assert 'svg.style.transform' not in app
           for marker in ('mapMiniMap', 'mapZoomRange', 'mapFullscreen', 'mapFocusHistory', 'semanticZoomBand'):
               assert marker in index or marker in app
           print(json.dumps({
@@ -84,6 +89,7 @@ jobs:
           rm -f .github/workflows/apply-iteration-11.yml
           rm -f scripts/prepare_iteration_11_release.py
           rm -f scripts/fix_iteration_11_regression_gates.py
+          rm -f scripts/fix_iteration_11_legacy_zoom.py
           git status --short
 
       - name: Commit the validated iteration
