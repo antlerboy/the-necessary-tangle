@@ -1,0 +1,1 @@
+Iteration 0.12 release note: site-generated issues are a separate intake feed and must be reconciled alongside the running curator thread and standing research issues before publication.
