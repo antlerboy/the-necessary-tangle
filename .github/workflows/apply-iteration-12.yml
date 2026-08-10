@@ -28,7 +28,18 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          cat .iteration12-bundle/part-* | base64 --decode > /tmp/iteration-12-source.tar.gz
+          cat \
+            .iteration12-bundle/piece-00 \
+            .iteration12-bundle/piece-01 \
+            .iteration12-bundle/piece-02 \
+            .iteration12-bundle/piece-03 \
+            .iteration12-bundle/piece-04 \
+            .iteration12-bundle/piece-05 \
+            .iteration12-bundle/part-01 \
+            .iteration12-bundle/part-02 \
+            .iteration12-bundle/part-03 \
+            .iteration12-bundle/part-04 \
+            | base64 --decode > /tmp/iteration-12-source.tar.gz
           test "$(wc -c < /tmp/iteration-12-source.tar.gz)" -eq 54715
           echo "b30071976cb536ad9c1c4a5023e2ca6828d179ace8fac185e2085095e5c7bc1a  /tmp/iteration-12-source.tar.gz" | sha256sum -c -
           python3 - <<'PY'
