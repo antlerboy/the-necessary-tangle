@@ -11,6 +11,7 @@ on:
       - "scripts/fix_iteration_11_legacy_zoom.py"
       - "scripts/fix_iteration_11_zoom_marker.py"
       - "scripts/fix_iteration_11_build_idempotency.py"
+      - "scripts/normalise_iteration_11_dot.py"
 
 permissions:
   contents: write
@@ -38,6 +39,9 @@ jobs:
           echo "af6a6b8216ad179a3183271495f57b4063a9250c1744c52907aaf501bb5d59f9  /tmp/iteration11-source.tar.gz" | sha256sum -c -
           tar -tzf /tmp/iteration11-source.tar.gz
           tar -xzf /tmp/iteration11-source.tar.gz -C .
+
+      - name: Show the curator-dot validation contract
+        run: grep -n -B 6 -A 6 "accessible name" scripts/validate_iteration_11.py || true
 
       - name: Prepare the durable release build
         run: python3 scripts/prepare_iteration_11_release.py
