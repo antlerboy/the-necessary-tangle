@@ -1,7 +1,7 @@
 # The Necessary Tangle: public knowledge file
 
 Curated by Benjamin P Taylor — https://www.antlerboy.com/
-Generated from public release 0.8-expansion-alpha.
+Generated from public release 0.9-observations-alpha.
 
 A living evidence atlas of systems | cybernetics | complexity.
 Every connection must say what it means. Historical sequence, logical dependence, influence, teaching, collaboration, practical use, comparison and dispute are not interchangeable.
@@ -653,6 +653,69 @@ Chaos theory studies deterministic dynamical systems whose trajectories can show
 - SCiO SysBoK - Feedback v1 — No public link
 - Introduction to Complexity (Santa Fe Institute Complexity Explorer) — https://www.complexityexplorer.org/courses/185-introduction-to-
 
+## Chris Mowles
+
+Type: Person
+Public depth: profile
+
+A scholar and practitioner of complexity and management whose work argues for a radically social account of organisational continuity and change, with attention to interaction, power, uncertainty and practical judgement.
+
+### Summary
+
+Chris Mowles develops a critical and practice-facing account of complexity in social and organisational life. His work presses against the idea that complexity thinking supplies managers with a better control technology.
+
+### Why it matters
+
+The atlas is much stronger on formal and cybernetic concepts than on the difficulty of moving from models of natural complex systems to accounts of human interaction. Mowles provides a documented challenge to that transfer and a route into power, politics, improvisation and practical judgement.
+
+### Key distinctions
+
+- Complexity as a description of social life is not the same as complexity science used as a managerial toolkit.
+- Unpredictability does not remove responsibility or practical judgement.
+- Organisations are ongoing patterns of interaction, not containers standing apart from the people who constitute them.
+
+### Historical development
+
+- The work continues the University of Hertfordshire community of inquiry associated with Ralph Stacey and complex responsive processes.
+- It draws critically on complexity sciences while also using pragmatic, sociological, psychodynamic and organisational traditions.
+
+### Ideas it depends on
+
+- Complexity
+- Emergence
+- Power
+- Interaction
+
+### What develops from it
+
+- Complex responsive processes
+- Practical judgement
+- Relational accounts of organising
+
+### Connections to practice
+
+- Leadership and management development
+- Evaluation and public-service change
+- Reflexive inquiry into organisational experience
+
+### Common confusions
+
+- That accepting unpredictability means giving up on deliberate action.
+- That complex responsive processes is simply another systems model of an organisation.
+- That a critique of control is a claim that power disappears.
+
+### Open questions and checks
+
+- Develop the wider Hertfordshire community constellation and document disagreement within and around it.
+- Compare Mowles's use of complexity with systems-practice, critical-systems and complexity-leadership traditions.
+
+### Sources
+
+- Resources on the complexity of social life — https://chrismowles.substack.com/p/resources-on-the-complexity-of-social
+- Complexity: A Key Idea for Business and Society — https://www.routledge.com/Complexity-A-Key-Idea-for-Business-and-Society/Mowles/p/book/9780367425685
+- Complex, but not quite complex enough: The turn to the complexity sciences in evaluation scholarship — https://journals.sagepub.com/doi/10.1177/1356389014527885
+- The practice of complexity: Review, change and service improvement in an NHS department — https://uhra.herts.ac.uk/id/eprint/63/
+
 ## Claude Bernard
 
 Type: Person
@@ -804,6 +867,69 @@ W. B. Arthur, ‘Competing Technologies, Increasing Returns, and Lock-In by Hist
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
 
+## Complex responsive processes
+
+Type: Tradition
+Public depth: profile
+
+A perspective on organising in which continuity, novelty, identity and power emerge in local interaction among interdependent people rather than being the straightforward implementation of a system-wide plan.
+
+### Summary
+
+Complex responsive processes treats organising as the ongoing patterning of local interaction. Broader organisational patterns constrain and enable action, but they do not operate as an external system that a manager can stand outside and control.
+
+### Why it matters
+
+It exposes a fault line inside systems | cybernetics | complexity: whether models of systems and self-organisation illuminate human organising or quietly reintroduce an engineer standing outside the situation.
+
+### Key distinctions
+
+- Local interaction and population-wide pattern are mutually constitutive.
+- Power is present in ordinary interaction rather than added later as a contextual variable.
+- Emergence does not imply harmony, decentralisation or benign self-organisation.
+
+### Historical development
+
+- Developed in the University of Hertfordshire Complexity and Management community, especially through Ralph Stacey and colleagues.
+- Uses complexity sciences as resources for analogy while explicitly disputing some systems metaphors for human action.
+
+### Ideas it depends on
+
+- Emergence
+- Self-organisation
+- Interaction
+- Power
+- Paradox
+
+### What develops from it
+
+- Complexity approaches to leadership
+- Reflexive management inquiry
+- Practice-based accounts of change
+
+### Connections to practice
+
+- Attending to live interaction rather than treating plans as causes of later outcomes.
+- Developing practical judgement through reflexive inquiry.
+- Taking conflict, identity and power seriously in accounts of organisational change.
+
+### Common confusions
+
+- That local interaction means small-scale interaction is all that matters.
+- That no one controls the whole means no one has more power than anyone else.
+- That emergence explains an outcome without a detailed account of interaction and history.
+
+### Open questions and checks
+
+- Represent its critiques of systems thinking without caricaturing the many systems traditions it addresses.
+- Trace its relationship to pragmatism, group analysis, Elias, Mead and Hegel using primary and scholarly sources.
+
+### Sources
+
+- Complex Responsive Processes in Organizations: Learning and Knowledge Creation — https://www.routledge.com/Complex-Responsive-Processes-in-Organizations-Learning-and-Knowledge-Creation/Stacey/p/book/9780415249195
+- Organising as complex responsive processes of relating — https://complexityandmanagement.com/2022/02/07/organising-as-complex-responsive-processes-of-relating/
+- Complex, but not quite complex enough: The turn to the complexity sciences in evaluation scholarship — https://journals.sagepub.com/doi/10.1177/1356389014527885
+
 ## Complexity
 
 Type: Concept
@@ -828,6 +954,61 @@ The Complexity Instability Principle says that systems with too many active or c
 - The Grammar of Systems - SCiO presentation — https://www.systemspractice.org/resources/grammar-systems
 - The Grammar of Systems II: From Order to Chaos and Back Again, 2nd edition — https://www.systemspractice.org/resources/grammar-systems-ii-order-chaos-back-again-2nd-ed
 - Cybersecurity Lessons from The Grammar of Systems, part 2 — https://www.linkedin.com/pulse/cybersecurity-lessons-from-grammar-systems-order-chaos-osama-salah-1f
+
+## Complexity: A Key Idea for Business and Society
+
+Type: Publication
+Public depth: profile
+
+Chris Mowles's 2022 book distinguishing several meanings of complexity and developing a social theory of action that resists treating complexity as another instrument for prediction and control.
+
+### Summary
+
+A book-length critical orientation to several meanings of complexity and their implications for business, society, organising, communication and action.
+
+### Why it matters
+
+The atlas risks treating complexity science as a single body of ideas and then transferring those ideas directly into social practice. This book makes the plurality of meanings and the limits of that transfer visible.
+
+### Key distinctions
+
+- Mathematical, natural-scientific and social complexity are not interchangeable.
+- Models can sharpen judgement without determining action.
+- Predictable unpredictability is not a licence for vague claims about anything being complex.
+
+### Historical development
+
+- Written from the complex-responsive-processes community of inquiry and a critical-management perspective.
+
+### Ideas it depends on
+
+- Complexity
+- Emergence
+- Complex responsive processes
+
+### What develops from it
+
+- Critical complexity practice
+- Complexity approaches to leadership and evaluation
+
+### Connections to practice
+
+- Management
+- Leadership
+- Evaluation
+- Organisational change
+
+### Common confusions
+
+- That it offers a universal complexity method for managers.
+
+### Open questions and checks
+
+- Add chapter-level locators and connect each distinct form of complexity to primary sources and critics.
+
+### Sources
+
+- Complexity: A Key Idea for Business and Society — https://www.routledge.com/Complexity-A-Key-Idea-for-Business-and-Society/Mowles/p/book/9780367425685
 
 ## Computing Machinery and Intelligence
 
@@ -3368,6 +3549,65 @@ Multiple perspectives work compares how different participants or observers defi
 ### Sources
 
 - Systems Thinking Practitioner apprenticeship standard ST0787 v1.2 — https://skillsengland.education.gov.uk/apprenticeships/st0787-v1-2
+
+## Murmurations: Journal of Transformative Systemic Practice
+
+Type: Publication
+Public depth: profile
+
+An independent, peer-reviewed, open-access journal for relationally attuned systemic social-constructionist practitioners and practitioner-researchers across therapy, organisations, leadership, education, health and community work.
+
+### Summary
+
+Murmurations publishes open-access practitioner research in systemic, relational and social-constructionist practice. It provides a route into practice domains and voices that a concept-first systems map easily neglects.
+
+### Why it matters
+
+The atlas currently contains many methods and intervention skills with almost no substantive practice connections. A journal organised around practitioner inquiry can help connect ideas to situated work without pretending that publication in the journal settles a claim.
+
+### Key distinctions
+
+- The journal is a publication venue and community, not one coherent theory.
+- Systemic social constructionist practice overlaps with but is not identical to systems science or cybernetics.
+- Open access improves inspectability but does not remove the need for article-level appraisal.
+
+### Historical development
+
+- Published by Everything is Connected Press with an independent editorial and review model.
+
+### Ideas it depends on
+
+- Systemic practice
+- Social constructionism
+- Reflexivity
+- Relational practice
+
+### What develops from it
+
+- Article-level practice examples
+- Practitioner-researcher constellations
+- Revival-paper conversations
+
+### Connections to practice
+
+- Therapy
+- Leadership and organisational consultancy
+- Education
+- Health and social care
+- Community practice
+
+### Common confusions
+
+- That every article belongs in the core atlas because the journal calls itself systemic.
+- That a journal's stated scope demonstrates a conceptual or historical connection for each paper.
+
+### Open questions and checks
+
+- Inventory relevant articles, authors, DOI records and cited sources; record exclusions as well as admissions.
+
+### Sources
+
+- About Murmurations: Journal of Transformative Systemic Practice — https://murmurations.cloud/index.php/pub/about
 
 ## N. Eldredge
 

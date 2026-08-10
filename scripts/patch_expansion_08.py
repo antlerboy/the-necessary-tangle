@@ -249,7 +249,7 @@ def patch_app() -> None:
       }
       showView(button.dataset.viewLink);
     }));"""
-    if new_view_links not in app:
+    if new_view_links not in app and "followInternalAnchor" not in app:
         app = replace_once(app, old_view_links, new_view_links, "view-link handler")
 
     APP.write_text(clean(app), encoding="utf-8")

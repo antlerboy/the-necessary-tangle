@@ -9,7 +9,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data" / "public-data.json"
-ALLOWED_RELEASES = {"0.7-constellation-alpha", "0.8-expansion-alpha"}
+ALLOWED_RELEASES = {"0.7-constellation-alpha", "0.8-expansion-alpha", "0.9-observations-alpha"}
 PRINCIPIA_IDS = {
     "person_cliff_joslyn", "tradition_evolutionary_cybernetics", "person_francis_heylighen",
     "concept_global_brain", "concept_metasystem_transition", "organisation_principia_cybernetica_project",

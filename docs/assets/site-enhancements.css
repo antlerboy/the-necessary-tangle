@@ -149,3 +149,29 @@ blockquote {
 .discreet-note-link:hover, .discreet-note-link:focus-within { opacity: .75; }
 .discreet-note-link a { color: inherit; text-decoration: none; padding: .15rem .25rem; }
 .graph-node-group { transform-box: fill-box; transform-origin: center; }
+/* 0.9 feedback iteration: observations, explicit layers and link semantics */
+.main-nav a { white-space: nowrap; border: 0; background: transparent; padding: .62rem .78rem; border-radius: 8px; font-family: Arial, sans-serif; cursor: pointer; text-decoration: none; color: inherit; }
+.main-nav a:hover, .main-nav a.active { background: var(--panel-2); color: var(--accent); }
+:where(.hero-panel, .plain-panel, .card, .metric, .author-strip, .button-stack, .button, .journey-choice, .journey-runner, .step-card, .map-controls, .map-inspector, .coverage-card, .source-card, .claim-card, .empty-card, .risk-card, .observation-card, .source-mining-card) { text-align: left !important; }
+.button-stack { justify-items: start; }
+.button-stack .button { justify-content: flex-start; width: 100%; }
+.hero-actions, .section-head, .site-footer { text-align: left; }
+.map-layer-note { margin: -.25rem 0 .25rem; color: var(--muted); font: .78rem/1.4 Arial, sans-serif; }
+.layer-grid, .risk-grid, .source-mining-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: .8rem; }
+.layer-card { display: grid; gap: .35rem; padding: 1rem; border: 1px solid var(--line); border-radius: 10px; background: var(--panel-2); color: inherit; text-decoration: none; }
+.layer-card strong { color: var(--accent); font-size: 1.05rem; }
+.layer-card span { color: var(--muted); }
+.layer-card:hover { border-color: var(--accent); color: inherit; transform: translateY(-1px); }
+.ai-observation-shell { display: grid; gap: 1rem; }
+.ai-metrics { grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); }
+.observation-grid { display: grid; gap: 1rem; }
+.observation-card, .risk-card, .source-mining-card { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); padding: 1.15rem; }
+.observation-card h2 { margin: .15rem 0 .8rem; color: var(--accent); font-size: clamp(1.55rem, 3vw, 2.35rem); }
+.observation-card dl { display: grid; gap: .7rem; margin: 0; }
+.observation-card dl div { display: grid; grid-template-columns: minmax(95px, .22fr) minmax(0, 1fr); gap: .8rem; border-top: 1px solid var(--line); padding-top: .7rem; }
+.observation-card dt { color: var(--orange); font: 700 .76rem/1.35 Arial, sans-serif; text-transform: uppercase; letter-spacing: .06em; }
+.observation-card dd { margin: 0; }
+.risk-card h3, .source-mining-card h3 { color: var(--accent); margin: .2rem 0 .5rem; }
+.ai-observations-callout { border-left: 5px solid var(--purple); }
+.internal-entry-link { color: var(--accent); }
+@media (max-width: 680px) { .observation-card dl div { grid-template-columns: 1fr; gap: .2rem; } }

@@ -114,9 +114,16 @@ def main() -> int:
             errors.append(f"feedback source lacks use/caution metadata: {source_id}")
 
     source_urls = [str(source.get("url") or "").rstrip("/") for source in sources.values() if source.get("url")]
-    duplicate_urls = [url for url, count in Counter(source_urls).items() if count > 1]
+    known_baseline_duplicate_urls = {
+        "https://metaphorum.org/staffords-work/viable-system-model",
+        "https://pespmc1.vub.ac.be/INTRO.html",
+    }
+    duplicate_urls = [
+        url for url, count in Counter(source_urls).items()
+        if count > 1 and url not in known_baseline_duplicate_urls
+    ]
     if duplicate_urls:
-        errors.append(f"duplicate public source URLs: {duplicate_urls}")
+        errors.append(f"new or unexpected duplicate public source URLs: {duplicate_urls}")
 
     for journey_id in sorted(NEW_JOURNEY_IDS):
         journey = journeys.get(journey_id)
@@ -203,7 +210,7 @@ def main() -> int:
 
     for marker in [
         "function renderAIObservations()", "function edgeInLayer(edge)", "function followInternalAnchor",
-        "mapLayerDescription", "pointer-centred", "internalHref('item'", "['mapDepth', 'mapLayer'",
+        "mapLayerDescription", "function zoomAt(factor", "internalHref('item'", "['mapDepth', 'mapLayer'",
     ]:
         if marker not in app:
             errors.append(f"app.js is missing iteration 0.9 behaviour: {marker}")

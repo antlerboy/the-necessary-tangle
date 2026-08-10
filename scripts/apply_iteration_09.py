@@ -350,7 +350,7 @@ PROFILE_SPECS = {
             "The work continues the University of Hertfordshire community of inquiry associated with Ralph Stacey and complex responsive processes.",
             "It draws critically on complexity sciences while also using pragmatic, sociological, psychodynamic and organisational traditions.",
         ],
-        "logical_antecedents": ["Complexity science", "Emergence", "Power", "Interaction"],
+        "logical_antecedents": ["Complexity", "Emergence", "Power", "Interaction"],
         "dependent_subsequents": ["Complex responsive processes", "Practical judgement", "Relational accounts of organising"],
         "practice_connections": [
             "Leadership and management development",
@@ -435,7 +435,7 @@ PROFILE_SPECS = {
             "Predictable unpredictability is not a licence for vague claims about anything being complex.",
         ],
         "historical_lineage": ["Written from the complex-responsive-processes community of inquiry and a critical-management perspective."],
-        "logical_antecedents": ["Complexity science", "Emergence", "Complex responsive processes"],
+        "logical_antecedents": ["Complexity", "Emergence", "Complex responsive processes"],
         "dependent_subsequents": ["Critical complexity practice", "Complexity approaches to leadership and evaluation"],
         "practice_connections": ["Management", "Leadership", "Evaluation", "Organisational change"],
         "common_misreadings": ["That it offers a universal complexity method for managers."],
@@ -484,10 +484,10 @@ JOURNEY_SPECS = [
         "duration_minutes": 10,
         "steps": [
             ("Foundational Papers in Complexity Science", "Start with the editorial object", "A collection is a selected argument about what counts as foundational. Inventorying it makes the selection inspectable; it does not ratify it."),
-            ("Complexity science", "Name the wider field", "The field contains institutions, rival programmes, mathematical formalisms, empirical domains and histories that no one collection can exhaust."),
+            ("Complexity", "Name the wider field", "The field contains institutions, rival programmes, mathematical formalisms, empirical domains and histories that no one collection can exhaust."),
             ("Emergence", "Follow a recurring concept", "A shared word may connect papers, but its formal meaning and explanatory role can differ sharply across domains."),
             ("Self-organisation", "Test the apparent family resemblance", "Similar language can hide different mechanisms, levels and normative assumptions. A useful map records those differences."),
-            ("Complex adaptive system", "Move from bibliography to argument", "A developed entry needs definitions, disputes, evidence and uses — not merely an appearance in a table of contents."),
+            ("Adaptation", "Move from bibliography to argument", "A developed entry needs definitions, disputes, evidence and uses — not merely an appearance in a table of contents."),
         ],
     },
     {
@@ -498,7 +498,7 @@ JOURNEY_SPECS = [
         "audience": "leader, evaluator and change practitioner",
         "duration_minutes": 13,
         "steps": [
-            ("Complexity science", "Take the sciences seriously", "Nonlinearity, interaction and emergence provide real explanatory resources. They do not travel into social life without translation."),
+            ("Complexity", "Take the sciences seriously", "Nonlinearity, interaction and emergence provide real explanatory resources. They do not travel into social life without translation."),
             ("Complex responsive processes", "Put interaction at the centre", "Continuity and change arise in the interweaving of intentions, identities and power relations rather than the execution of a plan held outside the system."),
             ("Chris Mowles", "Meet a critical practitioner-scholar", "Mowles uses complexity to sharpen practical judgement while resisting its conversion into another managerial technology of prediction and control."),
             ("Complexity: A Key Idea for Business and Society", "Distinguish the meanings of complexity", "The book treats complexity as plural and asks what changes when the subject is human social action rather than only a natural or computational system."),
@@ -1015,10 +1015,10 @@ def main() -> None:
 
     label_to_id = {fold(node.get("label", "")): node_id for node_id, node in nodes.items()}
     required_labels = [
-        "Emergence", "Self-organisation", "Complexity science", "Norbert Wiener", "W. Ross Ashby",
+        "Emergence", "Self-organisation", "Complexity", "Norbert Wiener", "W. Ross Ashby",
         "Heinz von Foerster", "Stafford Beer", "Viable System Model (VSM)", "Observer", "Boundary",
         "Purpose", "Critical Systems Heuristics (CSH)", "Systemic Intervention",
-        "Foundational Papers in Complexity Science", "Complex adaptive system",
+        "Foundational Papers in Complexity Science", "Adaptation",
     ]
     missing = [label for label in required_labels if fold(label) not in label_to_id]
     if missing:
@@ -1085,7 +1085,7 @@ def main() -> None:
         edge_record(
             "e_09_mowles_complexity_science",
             "person_chris_mowles",
-            nid("Complexity science"),
+            nid("Complexity"),
             "critiques", "contestation", "critiques",
             ["src_mowles_complex_not_quite_2014", "src_mowles_complexity_key_idea_2022"],
             "Mowles criticises over- and under-claiming when complexity sciences are transferred into evaluation and social explanation; this is a critique of uses, not a rejection of the sciences.",
@@ -1118,7 +1118,11 @@ def main() -> None:
     metrics = graph_metrics(data)
     data["ai_observations"] = make_ai_observations(metrics)
 
+    # Preserve the bounded 0.8 increase when this later overlay is rebuilt repeatedly.
+    if data.get("expansion_08"):
+        data["expansion_08"]["net_new_public_entries"] = 203
     meta = data.setdefault("meta", {})
+    meta["expansion_08_added_count"] = 203
     meta.update({
         "release": RELEASE,
         "generated": GENERATED,

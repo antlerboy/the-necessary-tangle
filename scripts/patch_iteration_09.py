@@ -594,6 +594,18 @@ def patch_app() -> None:
     const svg = document.getElementById('graphSvg');"""
     app = replace_once(app, old_legacy_zoom, new_legacy_zoom, "legacy double-zoom handler")
 
+    # Catch any generated quick-link form not covered by the exact replacements above.
+    remaining_chip_pattern = re.compile(
+        r'<button class="chip open-card" data-id="\$\{esc\(([^)]+)\)\}">(.*?)</button>'
+    )
+    app = remaining_chip_pattern.sub(
+        lambda match: (
+            '<a href="${internalHref(\'item\', { id: ' + match.group(1)
+            + ', from: baseView })}" class="chip open-card internal-entry-link" data-id="${esc('
+            + match.group(1) + ')}">' + match.group(2) + '</a>'
+        ),
+        app,
+    )
     APP.write_text(clean(app), encoding="utf-8")
 
 

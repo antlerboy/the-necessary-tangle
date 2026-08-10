@@ -282,11 +282,42 @@
       && edge.claim_status !== 'legacy_unresolved';
   }
 
+  function edgeInLayer(edge) {
+    const layer = $('mapLayer')?.value || 'all';
+    if (edge.claim_status === 'legacy_unresolved' || edge.relation_family === 'legacy') {
+      return layer === 'all';
+    }
+    if (layer === 'all') return true;
+    if (layer === 'substantive') return substantiveEdge(edge);
+    if (layer === 'conceptual') return edge.relation_family === 'conceptual';
+    if (layer === 'human') return ['human', 'influence', 'historical'].includes(edge.relation_family);
+    if (layer === 'practice') return edge.relation_family === 'practice';
+    if (layer === 'contestation') return edge.relation_family === 'contestation'
+      || ['disputed', 'challenged'].includes(edge.claim_status);
+    if (layer === 'provenance') return ['classification', 'evidence', 'documentary'].includes(edge.relation_family);
+    return substantiveEdge(edge);
+  }
+
   function mapVisibleEdge(edge) {
-    if (substantiveEdge(edge)) return true;
-    if ($('mapDepth')?.value !== 'all') return false;
-    return ['authored_by', 'part_of', 'member_of'].includes(edge.relation_type)
-      && ['documentary', 'classification'].includes(edge.relation_family);
+    return edgeInLayer(edge);
+  }
+
+  function mapLayerDescription() {
+    const descriptions = {
+      all: 'Everything includes conceptual, human, practice, contestation, authorship, evidence and collection structure.',
+      substantive: 'The reader map excludes bibliography and collection structure, keeping conceptual, historical, human, practice and contestation relationships.',
+      conceptual: 'Conceptual lines show definitions, prerequisites, specialisation and explanatory relationships.',
+      human: 'Human lineage combines teaching, collaboration, influence and historical transmission. The line type still matters.',
+      practice: 'Practice lines connect ideas, methods, interventions and documented use.',
+      contestation: 'Contestation makes critiques, corrections and rival framings visible rather than smoothing them away.',
+      provenance: 'Provenance shows authorship, evidence, membership and collection structure. It does not imply intellectual influence.'
+    };
+    return descriptions[$('mapLayer')?.value || 'all'];
+  }
+
+  function updateMapLayerNote() {
+    const note = $('mapLayerNote');
+    if (note) note.textContent = mapLayerDescription();
   }
 
   function linkifyKnownText(value, excludedIds = []) {
@@ -323,7 +354,7 @@
     for (const hit of hits) {
       if (hit.start < cursor) continue;
       out.push(esc(text.slice(cursor, hit.start)));
-      out.push(`<button class="text-button entry-link inline-concept" data-id="${esc(hit.node.id)}">${esc(hit.text)}</button>`);
+      out.push(`<a href="${internalHref('item', { id: hit.node.id, from: baseView })}" class="text-button entry-link inline-concept internal-entry-link" data-id="${esc(hit.node.id)}">${esc(hit.text)}</a>`);
       cursor = hit.end;
     }
     out.push(esc(text.slice(cursor)));
@@ -339,6 +370,22 @@
   let mapPath = [];
   let lastMapPositions = new Map();
 
+  function internalHref(view, params = {}) {
+    return `#${new URLSearchParams({ view, ...params }).toString()}`;
+  }
+
+  function plainLeftClick(event) {
+    return event.button === 0 && !event.metaKey && !event.ctrlKey && !event.shiftKey && !event.altKey;
+  }
+
+  function followInternalAnchor(event, anchor) {
+    if (!plainLeftClick(event)) return;
+    event.preventDefault();
+    const href = anchor.getAttribute('href') || internalHref(anchor.dataset.viewLink || anchor.dataset.view || 'home');
+    if (location.hash !== href) history.pushState(null, '', href);
+    route();
+  }
+
   function setHash(params) {
     const sp = new URLSearchParams(params);
     const hash = sp.toString();
@@ -346,17 +393,19 @@
   }
 
   function showView(view, push = true) {
-    const safe = ['home', 'browse', 'journeys', 'map', 'ask', 'contribute', 'about'].includes(view)
+    const safe = ['home', 'browse', 'journeys', 'map', 'ask', 'contribute', 'about', 'ai-observations'].includes(view)
       ? view
       : 'home';
     baseView = safe;
     $$('.view').forEach((element) => element.classList.toggle('active', element.id === `view-${safe}`));
-    $$('.main-nav [data-view]').forEach((button) => button.classList.toggle('active', button.dataset.view === safe));
+    const navView = safe === 'ai-observations' ? 'about' : safe;
+    $$('.main-nav [data-view]').forEach((link) => link.classList.toggle('active', link.dataset.view === navView));
     if (push) setHash({ view: safe });
     if (safe === 'browse') renderBrowse();
     if (safe === 'journeys') renderJourneys();
     if (safe === 'map') renderMap({ fit: true });
     if (safe === 'contribute') updateContributionHint();
+    if (safe === 'ai-observations') renderAIObservations();
     window.scrollTo({ top: 0, behavior: 'instant' });
   }
 
@@ -367,7 +416,7 @@
       const id = canonicalId(sp.get('id') || '');
       const returnView = sp.get('from') || baseView || 'browse';
       showView(
-        ['home', 'browse', 'journeys', 'map', 'ask', 'contribute', 'about'].includes(returnView)
+        ['home', 'browse', 'journeys', 'map', 'ask', 'contribute', 'about', 'ai-observations'].includes(returnView)
           ? returnView
           : 'browse',
         false
@@ -382,10 +431,17 @@
       activeStep = Number(sp.get('step') || 0);
       renderJourneys();
     }
-    if (view === 'map' && sp.get('focus')) {
-      mapFocus = canonicalId(sp.get('focus'));
-      const focus = nodeById.get(mapFocus);
-      if (focus) $('mapSearch').value = focus.label;
+    if (view === 'map') {
+      const layer = sp.get('layer');
+      const depth = sp.get('depth');
+      if (layer && [...$('mapLayer').options].some((option) => option.value === layer)) $('mapLayer').value = layer;
+      if (depth && [...$('mapDepth').options].some((option) => option.value === depth)) $('mapDepth').value = depth;
+      if (sp.get('focus')) {
+        mapFocus = canonicalId(sp.get('focus'));
+        const focus = nodeById.get(mapFocus);
+        if (focus) $('mapSearch').value = focus.label;
+      }
+      updateMapLayerNote();
       renderMap({ fit: true });
     }
   }
@@ -425,7 +481,7 @@
       const match = searchNodes(value, 1, { level: 'all' })[0];
       const canLink = match && match.score > 470;
       return `<li>${canLink
-        ? `<button class="chip entry-link" data-id="${esc(match.node.id)}">${esc(value)}</button>`
+        ? `<a href="${internalHref('item', { id: match.node.id, from: baseView })}" class="chip entry-link internal-entry-link" data-id="${esc(match.node.id)}">${esc(value)}</a>`
         : `<span>• ${esc(value)}</span>`}</li>`;
     }).join('')}</ul>`;
   }
@@ -434,9 +490,9 @@
     const source = nodeById.get(edge.source);
     const target = nodeById.get(edge.target);
     return `<span>
-      <button class="text-button entry-link" data-id="${esc(edge.source)}">${esc(source?.label || edge.source)}</button>
+      <a href="${internalHref('item', { id: edge.source, from: baseView })}" class="text-button entry-link internal-entry-link" data-id="${esc(edge.source)}">${esc(source?.label || edge.source)}</a>
       <strong>${esc(edge.plain_phrase || edge.relation_type)}</strong>
-      <button class="text-button entry-link" data-id="${esc(edge.target)}">${esc(target?.label || edge.target)}</button>
+      <a href="${internalHref('item', { id: edge.target, from: baseView })}" class="text-button entry-link internal-entry-link" data-id="${esc(edge.target)}">${esc(target?.label || edge.target)}</a>
     </span>`;
   }
 
@@ -547,7 +603,11 @@
   }
 
   function bindEntryActions(root) {
-    $$('.entry-link', root).forEach((button) => button.addEventListener('click', () => renderEntry(button.dataset.id)));
+    $$('.entry-link', root).forEach((link) => link.addEventListener('click', (event) => {
+      if (!plainLeftClick(event)) return;
+      event.preventDefault();
+      renderEntry(link.dataset.id);
+    }));
     $$('.tag-filter', root).forEach((button) => button.addEventListener('click', () => {
       closeDrawer(false);
       showView('browse');
@@ -604,18 +664,70 @@
       <p>${esc(displayDefinition(node))}</p>
       <footer>
         <span class="meta">${node.public_source_count || 0} public source${node.public_source_count === 1 ? '' : 's'}${tags.length ? ` · ${tags.map((tag) => esc(titleCase(tag))).join(', ')}` : ''}</span>
-        <button class="text-button open-card" data-id="${esc(node.id)}">Open</button>
+        <a href="${internalHref('item', { id: node.id, from: baseView })}" class="text-button open-card internal-entry-link" data-id="${esc(node.id)}">Open</a>
       </footer>
     </article>`;
   }
 
   function bindCards(root = document) {
-    $$('.open-card', root).forEach((button) => button.addEventListener('click', () => renderEntry(button.dataset.id)));
+    $$('.open-card', root).forEach((link) => link.addEventListener('click', (event) => {
+      if (!plainLeftClick(event)) return;
+      event.preventDefault();
+      renderEntry(link.dataset.id);
+    }));
     $$('.type-filter', root).forEach((button) => button.addEventListener('click', () => {
       showView('browse');
       $('browseType').value = button.dataset.type;
       renderBrowse();
     }));
+  }
+
+  function renderAIObservations() {
+    const report = DATA.ai_observations;
+    if (!report) return;
+    const metrics = report.metrics || {};
+    const metricRows = [
+      [metrics.public_entries, 'public entries'],
+      [metrics.developed_profiles, 'developed profiles'],
+      [metrics.typed_edges, 'typed public edges'],
+      [metrics.substantive_edges, 'substantive edges'],
+      [metrics.substantive_connected_nodes, 'substantively connected'],
+      [metrics.substantive_isolated_nodes, 'substantive isolates'],
+      [metrics.sources, 'registered sources'],
+      [metrics.connected_nodes_outside_neighbourhoods, 'connected outside old neighbourhoods']
+    ];
+    $('aiMethodNote').textContent = report.method_note || '';
+    $('aiObservationMetrics').innerHTML = metricRows.map(([number, label]) => `
+      <div class="metric"><strong>${esc(number ?? '—')}</strong><span>${esc(label)}</span></div>
+    `).join('');
+    $('aiObservationsList').innerHTML = (report.observations || []).map((observation, index) => `
+      <article class="observation-card">
+        <p class="eyebrow">Observation ${index + 1} · ${esc(observation.kind || 'interpretation')}</p>
+        <h2>${esc(observation.title)}</h2>
+        <dl>
+          <div><dt>Measured</dt><dd>${esc(observation.measurement)}</dd></div>
+          <div><dt>Interpretation</dt><dd>${esc(observation.interpretation)}</dd></div>
+          <div><dt>What follows</dt><dd>${esc(observation.implication)}</dd></div>
+          <div><dt>Test it</dt><dd>${esc(observation.test)}</dd></div>
+        </dl>
+      </article>
+    `).join('');
+    $('aiRiskList').innerHTML = (report.public_risks || []).map((risk) => `
+      <article class="risk-card">
+        <h3>${esc(risk.risk)}</h3>
+        <p>${esc(risk.mechanism)}</p>
+        <p class="small"><strong>Controls:</strong> ${esc(risk.controls)}</p>
+      </article>
+    `).join('');
+    $('sourceMiningList').innerHTML = (DATA.source_mining_register || []).map((source) => `
+      <article class="source-mining-card">
+        <p class="eyebrow">${esc(titleCase(source.status))}</p>
+        <h3><a href="${esc(source.url)}" target="_blank" rel="noopener">${esc(source.label)}</a></h3>
+        <p>${esc(source.role)}</p>
+        <p class="small"><strong>Caution:</strong> ${esc(source.caveat)}</p>
+        <p class="small"><strong>Next:</strong> ${esc(source.next_step)}</p>
+      </article>
+    `).join('');
   }
 
   function renderHome() {
@@ -632,7 +744,7 @@
     $('quickLinks').innerHTML = ['Viability', 'Boundary', 'Feedback', 'Emergence', 'Requisite variety', 'Viable System Model']
       .map((label) => {
         const node = bestNode(label);
-        return node ? `<button class="chip open-card" data-id="${esc(node.id)}">${esc(label)}</button>` : '';
+        return node ? `<a href="${internalHref('item', { id: node.id, from: 'home' })}" class="chip open-card internal-entry-link" data-id="${esc(node.id)}">${esc(label)}</a>` : '';
       }).join('');
 
     const journeys = DATA.journeys || [];
@@ -640,7 +752,7 @@
       <p class="eyebrow">${esc(journey.audience)} · ${esc(journey.duration_minutes)} minutes</p>
       <h3>${esc(journey.title)}</h3>
       <p>${esc(journey.summary)}</p>
-      <footer><span class="meta">${journey.steps.length} linked steps</span><button class="text-button open-journey" data-id="${esc(journey.id)}">Begin</button></footer>
+      <footer><span class="meta">${journey.steps.length} linked steps</span><a href="${internalHref('journeys', { id: journey.id, step: 0 })}" class="text-button open-journey" data-id="${esc(journey.id)}">Begin</a></footer>
     </article>`).join('');
 
     const preferred = [
@@ -659,8 +771,10 @@
       .map(card)
       .join('');
     bindCards($('view-home'));
-    $$('.open-journey', $('homeJourneys')).forEach((button) => button.addEventListener('click', () => {
-      activeJourney = button.dataset.id;
+    $$('.open-journey', $('homeJourneys')).forEach((link) => link.addEventListener('click', (event) => {
+      if (!plainLeftClick(event)) return;
+      event.preventDefault();
+      activeJourney = link.dataset.id;
       activeStep = 0;
       showView('journeys');
       setHash({ view: 'journeys', id: activeJourney, step: 0 });
@@ -707,12 +821,14 @@
   function renderJourneys() {
     const journeys = DATA.journeys || [];
     if (!activeJourney) activeJourney = journeys[0]?.id || null;
-    $('journeyList').innerHTML = journeys.map((journey) => `<button class="journey-choice ${journey.id === activeJourney ? 'active' : ''}" data-id="${esc(journey.id)}">
+    $('journeyList').innerHTML = journeys.map((journey) => `<a href="${internalHref('journeys', { id: journey.id, step: 0 })}" class="journey-choice ${journey.id === activeJourney ? 'active' : ''}" data-id="${esc(journey.id)}">
       <strong>${esc(journey.title)}</strong>
       <small>${esc(journey.duration_minutes)} minutes · ${journey.steps.length} steps</small>
-    </button>`).join('');
-    $$('.journey-choice', $('journeyList')).forEach((button) => button.addEventListener('click', () => {
-      activeJourney = button.dataset.id;
+    </a>`).join('');
+    $$('.journey-choice', $('journeyList')).forEach((link) => link.addEventListener('click', (event) => {
+      if (!plainLeftClick(event)) return;
+      event.preventDefault();
+      activeJourney = link.dataset.id;
       activeStep = 0;
       setHash({ view: 'journeys', id: activeJourney, step: 0 });
       renderJourneys();
@@ -733,10 +849,10 @@
     <div class="step-track">${journey.steps.map((_, index) => `<button data-step="${index}" class="${index === activeStep ? 'active' : ''}" aria-label="Open step ${index + 1}">${index + 1}</button>`).join('')}</div>
     <div class="step-card">
       <p class="eyebrow">${esc(entityLabel(node?.entity_type))}</p>
-      <h3><button class="text-button open-card" data-id="${esc(node?.id)}">${esc(node?.label || step.node_id)}</button></h3>
+      <h3><a href="${internalHref('item', { id: node?.id, from: 'journeys' })}" class="text-button open-card internal-entry-link" data-id="${esc(node?.id)}">${esc(node?.label || step.node_id)}</a></h3>
       <p>${linkifyKnownText(step.narrative, [node?.id])}</p>
       <p class="small">${linkifyKnownText(displayDefinition(node || {}), [node?.id])}</p>
-      <button class="primary open-card" data-id="${esc(node?.id)}">Open the full entry</button>
+      <a href="${internalHref('item', { id: node?.id, from: 'journeys' })}" class="button primary open-card internal-entry-link" data-id="${esc(node?.id)}">Open the full entry</a>
     </div>
     <div class="journey-actions">
       <button id="journeyPrev" ${activeStep === 0 ? 'disabled' : ''}>Previous</button>
@@ -789,7 +905,7 @@
       const selected = new Set(mapPath.filter((id) => allowed.has(id)));
       for (const id of mapPath) {
         for (const edge of (edgesByNode.get(id) || [])) {
-          if (!substantiveEdge(edge)) continue;
+          if (!edgeInLayer(edge)) continue;
           if (family !== 'all' && edge.relation_family !== family) continue;
           const other = edge.source === id ? edge.target : edge.source;
           if (allowed.has(other)) selected.add(other);
@@ -797,7 +913,18 @@
       }
       return selected;
     }
-    if (mode === 'all') return new Set(allowed);
+    if (mode === 'all') {
+      if (($('mapLayer')?.value || 'all') === 'all' && family === 'all') return new Set(allowed);
+      const incident = new Set();
+      for (const edge of canonicalEdges) {
+        if (!edgeInLayer(edge)) continue;
+        if (family !== 'all' && edge.relation_family !== family) continue;
+        if (allowed.has(edge.source)) incident.add(edge.source);
+        if (allowed.has(edge.target)) incident.add(edge.target);
+      }
+      if (allowed.has(mapFocus)) incident.add(mapFocus);
+      return incident;
+    }
     if (mode === 'profiles') {
       return new Set(publicNodes.filter((node) => node.publication_level === 'profile').map((node) => node.id));
     }
@@ -812,7 +939,7 @@
       const distance = visited.get(id);
       if (distance >= depth) continue;
       for (const edge of (edgesByNode.get(id) || [])) {
-        if (!substantiveEdge(edge)) continue;
+        if (!edgeInLayer(edge)) continue;
         if (family !== 'all' && edge.relation_family !== family) continue;
         const other = edge.source === id ? edge.target : edge.source;
         if (!allowed.has(other) || visited.has(other)) continue;
@@ -1047,15 +1174,18 @@
   function inspectNode(id) {
     const node = nodeById.get(id);
     if (!node) return;
-    const relations = (edgesByNode.get(id) || []).filter(substantiveEdge).slice(0, 14);
+    const family = $('mapFamily')?.value || 'all';
+    const relations = (edgesByNode.get(id) || [])
+      .filter((edge) => edgeInLayer(edge) && (family === 'all' || edge.relation_family === family))
+      .slice(0, 14);
     $('mapInspector').innerHTML = `<p class="eyebrow">${esc(entityLabel(node.entity_type))}</p>
       <h2>${esc(node.label)}</h2>
       <p>${linkifyKnownText(displayDefinition(node), [node.id])}</p>
-      <div class="entry-actions"><button class="primary open-card" data-id="${esc(node.id)}">Open full entry</button></div>
+      <div class="entry-actions"><a href="${internalHref('item', { id: node.id, from: 'map' })}" class="button primary open-card internal-entry-link" data-id="${esc(node.id)}">Open full entry</a></div>
       <h3>${relations.length} selected connection${relations.length === 1 ? '' : 's'}</h3>
       ${relations.map((edge) => `<div class="relation-statement">${relationStatement(edge)}<br><button class="text-button inspect-edge" data-edge="${esc(edge.id)}">Inspect this connection</button></div>`).join('')}`;
     bindCards($('mapInspector'));
-    $$('.entry-link', $('mapInspector')).forEach((button) => button.addEventListener('click', () => activateMapNode(button.dataset.id)));
+    $$('.entry-link', $('mapInspector')).forEach((link) => link.addEventListener('click', (event) => { if (!plainLeftClick(event)) return; event.preventDefault(); activateMapNode(link.dataset.id); }));
     $$('.inspect-edge', $('mapInspector')).forEach((button) => button.addEventListener('click', () => inspectEdge(button.dataset.edge, false)));
   }
 
@@ -1091,15 +1221,17 @@
       $('entryDrawer').classList.add('open');
       $('drawerScrim').classList.add('open');
       $('entryDrawer').setAttribute('aria-hidden', 'false');
-      $$('.entry-link', $('drawerBody')).forEach((button) => button.addEventListener('click', () => renderEntry(button.dataset.id)));
+      $$('.entry-link', $('drawerBody')).forEach((link) => link.addEventListener('click', (event) => { if (!plainLeftClick(event)) return; event.preventDefault(); renderEntry(link.dataset.id); }));
     } else {
       $('mapInspector').innerHTML = html;
-      $$('.entry-link', $('mapInspector')).forEach((button) => button.addEventListener('click', () => activateMapNode(button.dataset.id)));
+      $$('.entry-link', $('mapInspector')).forEach((link) => link.addEventListener('click', (event) => { if (!plainLeftClick(event)) return; event.preventDefault(); activateMapNode(link.dataset.id); }));
     }
   }
 
   function applyMapTransform() {
     $('graphRoot').setAttribute('transform', `translate(${mapTransform.x} ${mapTransform.y}) scale(${mapTransform.scale})`);
+    const status = $('mapZoomStatus');
+    if (status) status.textContent = `${Math.round(mapTransform.scale * 100)}%`;
   }
 
   function resetMapTransform() {
@@ -1140,7 +1272,9 @@
       const id = queue.shift();
       if (id === goal) break;
       for (const edge of (edgesByNode.get(id) || [])) {
-        if (!substantiveEdge(edge)) continue;
+        if (!edgeInLayer(edge)) continue;
+        if ($('mapFamily').value !== 'all' && edge.relation_family !== $('mapFamily').value) continue;
+        if ($('mapFamily').value !== 'all' && edge.relation_family !== $('mapFamily').value) continue;
         const other = edge.source === id ? edge.target : edge.source;
         const otherNode = nodeById.get(other);
         if (!otherNode || otherNode.public_visibility !== 'public' || previous.has(other)) continue;
@@ -1258,7 +1392,7 @@
       <h2>${matches.length ? `The atlas found ${matches.length} likely starting point${matches.length === 1 ? '' : 's'}` : 'No strong match yet'}</h2>
       ${matches.length ? `<div class="card-grid three">${matches.map((match) => card(match.node)).join('')}</div>` : '<p>Try a shorter question or name one concept, person or method.</p>'}
       ${claims.length ? `<section class="entry-section"><h2>Relevant statements in the atlas</h2>${claims.map((claim) => `<div class="claim-card"><p>${linkifyKnownText(claim.statement)}</p><span class="badge">${esc(publicStatusLabel(claim.status))}</span></div>`).join('')}</section>` : ''}
-      ${path.length > 1 ? `<section class="entry-section"><h2>A possible connection path</h2><div class="path-step">${path.map((id, index) => `${index ? '<span>→</span>' : ''}<button class="chip open-card" data-id="${esc(id)}">${esc(nodeById.get(id)?.label || id)}</button>`).join('')}</div></section>` : ''}
+      ${path.length > 1 ? `<section class="entry-section"><h2>A possible connection path</h2><div class="path-step">${path.map((id, index) => `${index ? '<span>→</span>' : ''}<a href="${internalHref('item', { id: id, from: baseView })}" class="chip open-card internal-entry-link" data-id="${esc(id)}">${esc(nodeById.get(id)?.label || id)}</a>`).join('')}</div></section>` : ''}
       <div class="context-actions">
         <button id="copyAskContext">Copy atlas context</button>
         <button id="copyOpenChatGPT" class="primary">Copy and open ChatGPT</button>
@@ -1396,7 +1530,7 @@
       list.innerHTML = current.map((result, index) => `<button type="button" class="suggestion ${index === active ? 'active' : ''}" role="option" data-id="${esc(result.node.id)}">
         <span><strong>${esc(result.node.label)}</strong><small>${esc(entityLabel(result.node.entity_type))}${result.aliases.some((alias) => normalise(alias) === normalise(query)) ? ' · alias match' : ''}</small></span>
         <span class="badge ${result.node.publication_level === 'research_stub' ? 'stub' : result.node.publication_level === 'profile' ? 'profile' : ''}">${esc(statusLabel(result.node))}</span>
-      </button>`).join('');
+      </a>`).join('');
       list.hidden = false;
       $$('.suggestion', list).forEach((button) => button.addEventListener('mousedown', (event) => {
         event.preventDefault();
@@ -1449,12 +1583,27 @@
     let dragging = false;
     let last = { x: 0, y: 0 };
 
+    function zoomAt(factor, clientX = null, clientY = null) {
+      const rect = svg.getBoundingClientRect();
+      const screenX = clientX === null ? 600 : (clientX - rect.left) * 1200 / Math.max(rect.width, 1);
+      const screenY = clientY === null ? 380 : (clientY - rect.top) * 760 / Math.max(rect.height, 1);
+      const worldX = (screenX - mapTransform.x) / mapTransform.scale;
+      const worldY = (screenY - mapTransform.y) / mapTransform.scale;
+      const nextScale = Math.min(4, Math.max(0.22, mapTransform.scale * factor));
+      mapTransform = {
+        scale: nextScale,
+        x: screenX - worldX * nextScale,
+        y: screenY - worldY * nextScale
+      };
+      applyMapTransform();
+    }
+
     svg.addEventListener('wheel', (event) => {
       event.preventDefault();
-      const factor = event.deltaY < 0 ? 1.12 : 0.89;
-      mapTransform.scale = Math.min(4, Math.max(0.22, mapTransform.scale * factor));
-      applyMapTransform();
+      zoomAt(event.deltaY < 0 ? 1.12 : 0.89, event.clientX, event.clientY);
     }, { passive: false });
+    $('mapZoomIn')?.addEventListener('click', () => zoomAt(1.16));
+    $('mapZoomOut')?.addEventListener('click', () => zoomAt(1 / 1.16));
 
     svg.addEventListener('pointerdown', (event) => {
       if (event.target.closest?.('.graph-node-group, .graph-edge-group')) return;
@@ -1482,15 +1631,18 @@
       mapPath = [];
       mapSelectedEdge = null;
       $('mapSearch').value = 'Viability';
-      $('mapDepth').value = '1';
+      $('mapDepth').value = 'all';
+      $('mapLayer').value = 'all';
       $('mapFamily').value = 'all';
+      updateMapLayerNote();
       $('mapIncludeStubs').checked = false;
       resetMapTransform();
       renderMap({ fit: true });
     });
-    ['mapDepth', 'mapFamily', 'mapIncludeStubs'].forEach((id) => $(id).addEventListener('change', () => {
+    ['mapDepth', 'mapLayer', 'mapFamily', 'mapIncludeStubs'].forEach((id) => $(id).addEventListener('change', () => {
       if (id !== 'mapDepth' || $('mapDepth').value !== 'path') mapPath = [];
       mapSelectedEdge = null;
+      if (id === 'mapLayer') updateMapLayerNote();
       renderMap({ fit: true });
     }));
 
@@ -1506,11 +1658,12 @@
         $('pathResult').textContent = 'No path was found in the current public evidence graph.';
         return;
       }
-      $('pathResult').innerHTML = mapPath.map((id, index) => `${index ? '<span>→</span>' : ''}<button class="chip path-chip" data-id="${esc(id)}">${esc(nodeById.get(id)?.label || id)}</button>`).join(' ');
+      $('pathResult').innerHTML = mapPath.map((id, index) => `${index ? '<span>→</span>' : ''}<a href="${internalHref('item', { id, from: 'map' })}" class="chip path-chip internal-entry-link" data-id="${esc(id)}">${esc(nodeById.get(id)?.label || id)}</a>`).join(' ');
       $$('.path-chip', $('pathResult')).forEach((button) => button.addEventListener('click', () => renderEntry(button.dataset.id)));
       $('mapDepth').value = 'path';
       mapFocus = from.id;
       mapSelectedEdge = null;
+      if (id === 'mapLayer') updateMapLayerNote();
       renderMap({ fit: true });
     });
   }
@@ -1521,15 +1674,8 @@
     renderBrowse();
     renderJourneys();
 
-    $$('.main-nav [data-view]').forEach((button) => button.addEventListener('click', () => showView(button.dataset.view)));
-    $$('[data-view-link]').forEach((button) => button.addEventListener('click', () => {
-      if (button.dataset.viewLink === 'map' && button.dataset.mapMode === 'all') {
-        $('mapDepth').value = 'all';
-        mapPath = [];
-        mapSelectedEdge = null;
-      }
-      showView(button.dataset.viewLink);
-    }));
+    $$('.main-nav [data-view]').forEach((link) => link.addEventListener('click', (event) => followInternalAnchor(event, link)));
+    $$('[data-view-link]').forEach((link) => link.addEventListener('click', (event) => followInternalAnchor(event, link)));
     $$('.smart-search').forEach(initSmartSearch);
     $('browseSearch').addEventListener('input', renderBrowse);
     ['browseType', 'browseTag', 'browseLevel'].forEach((id) => $(id).addEventListener('change', renderBrowse));
@@ -1618,16 +1764,8 @@
       select.dataset.ready = 'true';
     }
 
-    document.getElementById('mapZoomIn')?.addEventListener('click', () => zoomMapAt(1.15));
-    document.getElementById('mapZoomOut')?.addEventListener('click', () => zoomMapAt(1 / 1.15));
+    // Zoom buttons and wheel behaviour are handled by the graph-root transform in initMapInteraction.
     const svg = document.getElementById('graphSvg');
-    svg?.addEventListener('wheel', (event) => {
-      event.preventDefault();
-      const box = svg.getBoundingClientRect();
-      const x = box.width ? ((event.clientX - box.left) / box.width) * 100 : 50;
-      const y = box.height ? ((event.clientY - box.top) / box.height) * 100 : 50;
-      zoomMapAt(event.deltaY < 0 ? 1.08 : 1 / 1.08, x, y);
-    }, { passive: false });
 
     document.getElementById('mapShowLabels')?.addEventListener('change', (event) => {
       document.getElementById('graphSvg')?.classList.toggle('hide-map-labels', !event.target.checked);
