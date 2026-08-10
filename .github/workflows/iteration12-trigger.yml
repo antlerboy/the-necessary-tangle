@@ -1,0 +1,13 @@
+name: Iteration 0.12 final check
+on:
+  push:
+    branches: ["agent/iteration-12-practitioner-intake"]
+    paths: [".github/workflows/iteration12-trigger.yml"]
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - run: make validate
