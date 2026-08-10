@@ -42,20 +42,32 @@ jobs:
             | base64 --decode > /tmp/iteration-12-source.tar.gz
           test "$(wc -c < /tmp/iteration-12-source.tar.gz)" -eq 54715
           echo "b30071976cb536ad9c1c4a5023e2ca6828d179ace8fac185e2085095e5c7bc1a  /tmp/iteration-12-source.tar.gz" | sha256sum -c -
+
+          cat \
+            .iteration12-bundle/validator-piece-00 \
+            .iteration12-bundle/validator-piece-01 \
+            | base64 --decode > /tmp/iteration-12-validator-fixes.tar.gz
+          test "$(wc -c < /tmp/iteration-12-validator-fixes.tar.gz)" -eq 9628
+          echo "7162d7ad5c32e40d06a6ec9a4ec46d7c7a387e680b3c59ca2c5bacbf3a38fc8e  /tmp/iteration-12-validator-fixes.tar.gz" | sha256sum -c -
+
           python3 - <<'PY'
           import pathlib, tarfile
-          archive = '/tmp/iteration-12-source.tar.gz'
-          with tarfile.open(archive, 'r:gz') as tf:
-              members = tf.getmembers()
-              if not members:
-                  raise SystemExit('Iteration source bundle is empty')
-              for member in members:
-                  p = pathlib.PurePosixPath(member.name)
-                  if p.is_absolute() or '..' in p.parts:
-                      raise SystemExit(f'Unsafe archive path: {member.name}')
-              print(f'Validated {len(members)} source-bundle members')
+          for archive in (
+              '/tmp/iteration-12-source.tar.gz',
+              '/tmp/iteration-12-validator-fixes.tar.gz',
+          ):
+              with tarfile.open(archive, 'r:gz') as tf:
+                  members = tf.getmembers()
+                  if not members:
+                      raise SystemExit(f'Archive is empty: {archive}')
+                  for member in members:
+                      p = pathlib.PurePosixPath(member.name)
+                      if p.is_absolute() or '..' in p.parts:
+                          raise SystemExit(f'Unsafe archive path: {member.name}')
+                  print(f'Validated {len(members)} members in {archive}')
           PY
           tar -xzf /tmp/iteration-12-source.tar.gz -C .
+          tar -xzf /tmp/iteration-12-validator-fixes.tar.gz -C .
 
       - name: Build and validate twice
         run: |
