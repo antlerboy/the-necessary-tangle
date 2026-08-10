@@ -1,11 +1,7 @@
 {
   "source_branch": "release-0.7-constellation-alpha",
-  "warning": "Candidate ledger only; the branch is superseded and is not to be merged wholesale.",
-  "current_public_count": 204,
-  "old_public_count": 295,
-  "candidate_count": 93,
-  "removed_from_old_count": 2,
-  "nodes": [
+  "warning": "Evidence-gated candidate seed only; the superseded branch itself is not merged.",
+  "candidate_nodes": [
     {
       "id": "approach_family_metasystem_transition_theory",
       "label": "Metasystem Transition Theory",
@@ -2890,7 +2886,7 @@
       "no_public_link_count": 0
     }
   ],
-  "edges": [
+  "candidate_edges": [
     {
       "id": "e_0257",
       "source": "comparator_corpus_principia_cybernetica_web_dictionary",
@@ -6343,5 +6339,818 @@
       "archived_url": "",
       "content_hash": ""
     }
+  ],
+  "relation_types": [
+    {
+      "relation_type": "authored_by",
+      "relation_family": "documentary",
+      "directed": "true",
+      "inverse": "authored",
+      "minimum_evidence": "Bibliographic or archival authorship record",
+      "strict_dependency": "no",
+      "plain_phrase": "authored by"
+    },
+    {
+      "relation_type": "described_by",
+      "relation_family": "evidence",
+      "directed": "true",
+      "inverse": "describes",
+      "minimum_evidence": "Source record",
+      "strict_dependency": "no",
+      "plain_phrase": "described by"
+    },
+    {
+      "relation_type": "espouses_epistemology",
+      "relation_family": "identity",
+      "directed": "true",
+      "inverse": "epistemology_espoused_by",
+      "minimum_evidence": "Direct methodological statement",
+      "strict_dependency": "no",
+      "plain_phrase": "espouses epistemology"
+    },
+    {
+      "relation_type": "extends",
+      "relation_family": "influence",
+      "directed": "true",
+      "inverse": "extended_by",
+      "minimum_evidence": "Publication comparison",
+      "strict_dependency": "no",
+      "plain_phrase": "extends"
+    },
+    {
+      "relation_type": "formulated_by",
+      "relation_family": "historical",
+      "directed": "true",
+      "inverse": "formulated",
+      "minimum_evidence": "Primary work plus independent chronology or archive record",
+      "strict_dependency": "no",
+      "plain_phrase": "formulated by"
+    },
+    {
+      "relation_type": "member_of",
+      "relation_family": "classification",
+      "directed": "true",
+      "inverse": "has_member",
+      "minimum_evidence": "Source-set record",
+      "strict_dependency": "no",
+      "plain_phrase": "was a member of"
+    },
+    {
+      "relation_type": "part_of",
+      "relation_family": "classification",
+      "directed": "true",
+      "inverse": "has_part",
+      "minimum_evidence": "Source-set record",
+      "strict_dependency": "no",
+      "plain_phrase": "is part of"
+    }
+  ],
+  "fpcs_papers": [
+    {
+      "number": 1,
+      "volume": 1,
+      "authors": "A. J. Lotka",
+      "title": "Contribution to the Energetics of Evolution",
+      "year": "1922"
+    },
+    {
+      "number": 2,
+      "volume": 1,
+      "authors": "L. Szilárd",
+      "title": "On the Decrease of Entropy in a Thermodynamic System by the Intervention of Intelligent Beings",
+      "year": "1929"
+    },
+    {
+      "number": 3,
+      "volume": 1,
+      "authors": "S. Wright",
+      "title": "The Roles of Mutation, Inbreeding, Crossbreeding, and Selection in Evolution",
+      "year": "1932"
+    },
+    {
+      "number": 4,
+      "volume": 1,
+      "authors": "C. H. Waddington",
+      "title": "Canalization of Development and the Inheritance of Acquired Characters",
+      "year": "1942"
+    },
+    {
+      "number": 5,
+      "volume": 1,
+      "authors": "W. S. McCulloch and W. Pitts",
+      "title": "A Logical Calculus of the Ideas Immanent in Nervous Activity",
+      "year": "1943"
+    },
+    {
+      "number": 6,
+      "volume": 1,
+      "authors": "A. Rosenblueth, N. Wiener, and J. Bigelow",
+      "title": "Behavior, Purpose, and Teleology",
+      "year": "1943"
+    },
+    {
+      "number": 7,
+      "volume": 1,
+      "authors": "F. A. Hayek",
+      "title": "The Use of Knowledge in Society",
+      "year": "1945"
+    },
+    {
+      "number": 8,
+      "volume": 1,
+      "authors": "A. Rosenblueth and N. Wiener",
+      "title": "The Role of Models in Science",
+      "year": "1945"
+    },
+    {
+      "number": 9,
+      "volume": 1,
+      "authors": "C. E. Shannon",
+      "title": "A Mathematical Theory of Communication",
+      "year": "1948"
+    },
+    {
+      "number": 10,
+      "volume": 1,
+      "authors": "W. Weaver",
+      "title": "Science and Complexity",
+      "year": "1948"
+    },
+    {
+      "number": 11,
+      "volume": 1,
+      "authors": "A. M. Turing",
+      "title": "Computing Machinery and Intelligence",
+      "year": "1950"
+    },
+    {
+      "number": 12,
+      "volume": 1,
+      "authors": "J. Nash",
+      "title": "Non-Cooperative Games",
+      "year": "1951"
+    },
+    {
+      "number": 13,
+      "volume": 1,
+      "authors": "A. M. Turing",
+      "title": "The Chemical Basis of Morphogenesis",
+      "year": "1952"
+    },
+    {
+      "number": 14,
+      "volume": 1,
+      "authors": "E. T. Jaynes",
+      "title": "Information Theory and Statistical Mechanics",
+      "year": "1957"
+    },
+    {
+      "number": 15,
+      "volume": 1,
+      "authors": "R. E. Kálmán",
+      "title": "Contributions to the Theory of Optimal Control",
+      "year": "1960"
+    },
+    {
+      "number": 16,
+      "volume": 1,
+      "authors": "R. Landauer",
+      "title": "Irreversibility and Heat Generation in the Computing Process",
+      "year": "1961"
+    },
+    {
+      "number": 17,
+      "volume": 1,
+      "authors": "M. Minsky",
+      "title": "Steps Toward Artificial Intelligence",
+      "year": "1961"
+    },
+    {
+      "number": 18,
+      "volume": 1,
+      "authors": "K. J. Arrow",
+      "title": "The Economic Implications of Learning by Doing",
+      "year": "1962"
+    },
+    {
+      "number": 19,
+      "volume": 1,
+      "authors": "M. Bunge",
+      "title": "The Complexity of Simplicity",
+      "year": "1962"
+    },
+    {
+      "number": 20,
+      "volume": 1,
+      "authors": "J. H. Holland",
+      "title": "Outline for a Logical Theory of Adaptive Systems",
+      "year": "1962"
+    },
+    {
+      "number": 21,
+      "volume": 2,
+      "authors": "H. A. Simon",
+      "title": "The Architecture of Complexity",
+      "year": "1962"
+    },
+    {
+      "number": 22,
+      "volume": 2,
+      "authors": "S. Ulam",
+      "title": "On Some Mathematical Problems Connected with Patterns of Growth in Figures",
+      "year": "1962"
+    },
+    {
+      "number": 23,
+      "volume": 2,
+      "authors": "E. N. Lorenz",
+      "title": "Deterministic Nonperiodic Flow",
+      "year": "1963"
+    },
+    {
+      "number": 24,
+      "volume": 2,
+      "authors": "A. Cobham",
+      "title": "The Intrinsic Computational Difficulty of Functions",
+      "year": "1964"
+    },
+    {
+      "number": 25,
+      "volume": 2,
+      "authors": "R. J. Solomonoff",
+      "title": "A Formal Theory of Inductive Inference, Part 1",
+      "year": "1964"
+    },
+    {
+      "number": 26,
+      "volume": 2,
+      "authors": "G. J. Chaitin",
+      "title": "On the Length of Programs for Computing Finite Binary Sequences",
+      "year": "1966"
+    },
+    {
+      "number": 27,
+      "volume": 2,
+      "authors": "D. M. Raup",
+      "title": "Geometric Analysis of Shell Coiling; General Problems",
+      "year": "1966"
+    },
+    {
+      "number": 28,
+      "volume": 2,
+      "authors": "J. von Neumann",
+      "title": "Theory of Self-Reproducing Automata",
+      "year": "1966"
+    },
+    {
+      "number": 29,
+      "volume": 2,
+      "authors": "B. B. Mandelbrot",
+      "title": "How Long is the Coast of Britain? Statistical Self-Similarity and Fractional Dimension",
+      "year": "1967"
+    },
+    {
+      "number": 30,
+      "volume": 2,
+      "authors": "M. Kimura",
+      "title": "Evolutionary Rate at the Molecular Level",
+      "year": "1968"
+    },
+    {
+      "number": 31,
+      "volume": 2,
+      "authors": "A. N. Kolmogorov",
+      "title": "Three Approaches to the Quantitative Definition of Information",
+      "year": "1968"
+    },
+    {
+      "number": 32,
+      "volume": 2,
+      "authors": "M. I. Budyko",
+      "title": "The Effect of Solar Radiation Variations on the Climate of the Earth",
+      "year": "1969"
+    },
+    {
+      "number": 33,
+      "volume": 2,
+      "authors": "S. Kauffman",
+      "title": "Metabolic Stability and Epigenesis in Randomly Constructed Genetic Nets",
+      "year": "1969"
+    },
+    {
+      "number": 34,
+      "volume": 2,
+      "authors": "R. C. Conant and W. R. Ashby",
+      "title": "Every Good Regulator of a System Must Be a Model of That System",
+      "year": "1970"
+    },
+    {
+      "number": 35,
+      "volume": 2,
+      "authors": "G. R. Price",
+      "title": "Selection and Covariance",
+      "year": ""
+    },
+    {
+      "number": 36,
+      "volume": 2,
+      "authors": "O. E. Rössler",
+      "title": "A System–Theoretic Model of Biogenesis (Ein systemtheoretisches Modell zur Biogenese)",
+      "year": "1971"
+    },
+    {
+      "number": 37,
+      "volume": 2,
+      "authors": "T. C. Schelling",
+      "title": "Dynamic Models of Segregation",
+      "year": "1971"
+    },
+    {
+      "number": 38,
+      "volume": 2,
+      "authors": "E. B. W. Zubrow",
+      "title": "Carrying Capacity and Dynamic Equilibrium in the Prehistoric Southwest",
+      "year": "1971"
+    },
+    {
+      "number": 39,
+      "volume": 2,
+      "authors": "P. W. Anderson",
+      "title": "More Is Different",
+      "year": "1972"
+    },
+    {
+      "number": 40,
+      "volume": 2,
+      "authors": "R. M. Karp",
+      "title": "Reducibility Among Combinatorial Problems",
+      "year": "1972"
+    },
+    {
+      "number": 41,
+      "volume": 2,
+      "authors": "R. M. May",
+      "title": "Will a Large Complex System Be Stable?",
+      "year": "1972"
+    },
+    {
+      "number": 42,
+      "volume": 2,
+      "authors": "H. von Foerster",
+      "title": "Notes on an Epistemology for Living Things",
+      "year": "1972"
+    },
+    {
+      "number": 43,
+      "volume": 2,
+      "authors": "C. H. Bennett",
+      "title": "Logical Reversibility of Computation",
+      "year": "1973"
+    },
+    {
+      "number": 44,
+      "volume": 2,
+      "authors": "M. S. Granovetter",
+      "title": "The Strength of Weak Ties",
+      "year": "1973"
+    },
+    {
+      "number": 45,
+      "volume": 3,
+      "authors": "C. S. Holling",
+      "title": "Resilience and Stability of Ecological Systems",
+      "year": "1973"
+    },
+    {
+      "number": 46,
+      "volume": 3,
+      "authors": "H. A. Simon",
+      "title": "The Organization of Complex Systems",
+      "year": "1973"
+    },
+    {
+      "number": 47,
+      "volume": 3,
+      "authors": "J. Maynard Smith",
+      "title": "The Theory of Games and the Evolution of Animal Conflicts",
+      "year": "1974"
+    },
+    {
+      "number": 48,
+      "volume": 3,
+      "authors": "F. G. Varela, H. R. Maturana, and R. Uribe",
+      "title": "Autopoiesis: The Organization of Living Systems, Its Characterization, and a Model",
+      "year": "1974"
+    },
+    {
+      "number": 49,
+      "volume": 3,
+      "authors": "D. Sherrington and S. Kirkpatrick",
+      "title": "Solvable Model of a Spin-Glass",
+      "year": "1975"
+    },
+    {
+      "number": 50,
+      "volume": 3,
+      "authors": "H. Haken",
+      "title": "Synergetics",
+      "year": "1976"
+    },
+    {
+      "number": 51,
+      "volume": 3,
+      "authors": "K. Hasselmann",
+      "title": "Stochastic Climate Models Part I. Theory",
+      "year": "1976"
+    },
+    {
+      "number": 52,
+      "volume": 3,
+      "authors": "S. J. Gould and N. Eldredge",
+      "title": "Punctuated Equilibria: The Tempo and Mode of Evolution Reconsidered",
+      "year": "1977"
+    },
+    {
+      "number": 53,
+      "volume": 3,
+      "authors": "G. Parisi",
+      "title": "Infinite Number of Order Parameters for Spin-Glasses",
+      "year": "1979"
+    },
+    {
+      "number": 54,
+      "volume": 3,
+      "authors": "N. H. Packard, J. P. Crutchfield, J. D. Farmer, and R. S. Shaw",
+      "title": "Geometry from a Time Series",
+      "year": "1980"
+    },
+    {
+      "number": 55,
+      "volume": 3,
+      "authors": "R. Axelrod and W. D. Hamilton",
+      "title": "The Evolution of Cooperation",
+      "year": "1981"
+    },
+    {
+      "number": 56,
+      "volume": 3,
+      "authors": "F. J. Dyson",
+      "title": "A Model for the Origin of Life",
+      "year": "1982"
+    },
+    {
+      "number": 57,
+      "volume": 3,
+      "authors": "J. J. Hopfield",
+      "title": "Neural Networks and Physical Systems with Emergent Collective Computational Abilities",
+      "year": "1982"
+    },
+    {
+      "number": 58,
+      "volume": 3,
+      "authors": "M. J. Feigenbaum",
+      "title": "Universal Behavior in Nonlinear Systems",
+      "year": "1983"
+    },
+    {
+      "number": 59,
+      "volume": 3,
+      "authors": "S. Wolfram",
+      "title": "Universality and Complexity in Cellular Automata",
+      "year": "1984"
+    },
+    {
+      "number": 60,
+      "volume": 3,
+      "authors": "I. Prigogine and G. Nicolis",
+      "title": "Self-Organisation in Nonequilibrium Systems: Towards a Dynamics of Complexity",
+      "year": "1985"
+    },
+    {
+      "number": 61,
+      "volume": 3,
+      "authors": "C. G. Langton",
+      "title": "Studying Artificial Life with Cellular Automata",
+      "year": "1986"
+    },
+    {
+      "number": 62,
+      "volume": 3,
+      "authors": "J. Pearl",
+      "title": "Fusion, Propagation, and Structuring in Belief Networks",
+      "year": "1986"
+    },
+    {
+      "number": 63,
+      "volume": 3,
+      "authors": "P. Bak, C. Tang, and K. Wiesenfeld",
+      "title": "Self-Organized Criticality: An Explanation of the 1/f Noise",
+      "year": "1987"
+    },
+    {
+      "number": 64,
+      "volume": 3,
+      "authors": "S. Kauffman and S. Levin",
+      "title": "Towards a General Theory of Adaptive Walks on Rugged Landscapes",
+      "year": "1987"
+    },
+    {
+      "number": 65,
+      "volume": 3,
+      "authors": "C. Reynolds",
+      "title": "Flocks, Herds, and Schools: A Distributed Behavioral Model",
+      "year": "1987"
+    },
+    {
+      "number": 66,
+      "volume": 3,
+      "authors": "M. Eigen, J. McCaskill, and P. Schuster",
+      "title": "Molecular Quasi-Species",
+      "year": "1988"
+    },
+    {
+      "number": 67,
+      "volume": 4,
+      "authors": "W. B. Arthur",
+      "title": "Competing Technologies, Increasing Returns, and Lock-In by Historical Events",
+      "year": "1989"
+    },
+    {
+      "number": 68,
+      "volume": 4,
+      "authors": "A. S. Perelson",
+      "title": "Immune Network Theory",
+      "year": "1989"
+    },
+    {
+      "number": 69,
+      "volume": 4,
+      "authors": "J. D. Farmer",
+      "title": "A Rosetta Stone for Connectionism",
+      "year": "1990"
+    },
+    {
+      "number": 70,
+      "volume": 4,
+      "authors": "J. A. Wheeler",
+      "title": "Information, Physics, Quantum: The Search for Links",
+      "year": "1990"
+    },
+    {
+      "number": 71,
+      "volume": 4,
+      "authors": "W. Bialek, F. Rieke, R. R. de Ruyter van Steveninck, and D. Warland",
+      "title": "Reading a Neural Code",
+      "year": "1991"
+    },
+    {
+      "number": 72,
+      "volume": 4,
+      "authors": "J. H. Holland and J. H. Miller",
+      "title": "Artificial Adaptive Agents in Economic Theory",
+      "year": "1991"
+    },
+    {
+      "number": 73,
+      "volume": 4,
+      "authors": "K. Lindgren",
+      "title": "Evolutionary Phenomena in Simple Dynamics",
+      "year": "1991"
+    },
+    {
+      "number": 74,
+      "volume": 4,
+      "authors": "H. A. Simon",
+      "title": "Organizations and Markets",
+      "year": "1991"
+    },
+    {
+      "number": 75,
+      "volume": 4,
+      "authors": "J. S. Lansing and J. M. Kremer",
+      "title": "Emergent Properties of Balinese Water Temple Networks: Coadaptation on a Rugged Fitness Landscape",
+      "year": "1993"
+    },
+    {
+      "number": 76,
+      "volume": 4,
+      "authors": "M. Mitchell, P. T. Hraber, and J. P. Crutchfield",
+      "title": "Revisiting the Edge of Chaos: Evolving Cellular Automata to Perform Computations",
+      "year": "1993"
+    },
+    {
+      "number": 77,
+      "volume": 4,
+      "authors": "W. B. Arthur",
+      "title": "Inductive Reasoning and Bounded Rationality",
+      "year": "1994"
+    },
+    {
+      "number": 78,
+      "volume": 4,
+      "authors": "J. P. Crutchfield",
+      "title": "The Calculi of Emergence: Computation, Dynamics, and Induction",
+      "year": "1994"
+    },
+    {
+      "number": 79,
+      "volume": 4,
+      "authors": "S. Forrest, A. S. Perelson, L. Allen, and R. Cherukuri",
+      "title": "Self–Nonself Discrimination in a Computer",
+      "year": "1994"
+    },
+    {
+      "number": 80,
+      "volume": 4,
+      "authors": "P. Schuster, W. Fontana, P. F. Stadler, and I. L. Hofacker",
+      "title": "From Sequences to Shapes and Back: A Case Study in RNA Secondary Structures",
+      "year": "1994"
+    },
+    {
+      "number": 81,
+      "volume": 4,
+      "authors": "M. Gell-Mann and S. Lloyd",
+      "title": "Information Measures, Effective Complexity, and Total Information",
+      "year": "1996"
+    },
+    {
+      "number": 82,
+      "volume": 4,
+      "authors": "F. J. Odling-Smee, K. N. Laland, and M. W. Feldman",
+      "title": "Niche Construction",
+      "year": "1996"
+    },
+    {
+      "number": 83,
+      "volume": 4,
+      "authors": "G. B. West, J. H. Brown, and B. J. Enquist",
+      "title": "A General Model for the Origin of Allometric Scaling Laws in Biology",
+      "year": "1997"
+    },
+    {
+      "number": 84,
+      "volume": 4,
+      "authors": "D. H. Wolpert and W. G. Macready",
+      "title": "No Free Lunch Theorems for Optimization",
+      "year": "1997"
+    },
+    {
+      "number": 85,
+      "volume": 4,
+      "authors": "S. Amari",
+      "title": "Natural Gradient Works Efficiently in Learning",
+      "year": "1998"
+    },
+    {
+      "number": 86,
+      "volume": 4,
+      "authors": "S. Bowles",
+      "title": "Endogenous Preferences: The Cultural Consequences of Markets and Other Economic Institutions",
+      "year": "1998"
+    },
+    {
+      "number": 87,
+      "volume": 4,
+      "authors": "D. Watts and S. Strogatz",
+      "title": "Collective Dynamics of ‘Small-World’ Networks",
+      "year": "1998"
+    },
+    {
+      "number": 88,
+      "volume": 4,
+      "authors": "R. B. Laughlin, D. Pines, J. Schmalian, B. P. Stojkovic, and P. Wolynes",
+      "title": "The Middle Way",
+      "year": "1999"
+    },
+    {
+      "number": 89,
+      "volume": 4,
+      "authors": "E. Ostrom",
+      "title": "Collective Action and the Evolution of Social Norms",
+      "year": "2000"
+    }
+  ],
+  "existing_author_ids": {
+    "A. M. Turing": "person_alan_turing",
+    "A. Rosenblueth": "person_arturo_rosenblueth",
+    "C. E. Shannon": "person_claude_e_shannon",
+    "F. G. Varela": "person_francisco_varela",
+    "H. A. Simon": "person_herbert_simon",
+    "H. R. Maturana": "person_humberto_maturana",
+    "H. von Foerster": "person_heinz_von_foerster",
+    "J. Bigelow": "person_julian_bigelow",
+    "N. Wiener": "person_norbert_wiener",
+    "R. C. Conant": "person_roger_c_conant",
+    "W. R. Ashby": "person_w_ross_ashby",
+    "W. S. McCulloch": "person_warren_mcculloch"
+  },
+  "expected_new_author_forms": [
+    "A. Cobham",
+    "A. J. Lotka",
+    "A. N. Kolmogorov",
+    "A. S. Perelson",
+    "B. B. Mandelbrot",
+    "B. J. Enquist",
+    "B. P. Stojkovic",
+    "C. G. Langton",
+    "C. H. Bennett",
+    "C. H. Waddington",
+    "C. Reynolds",
+    "C. S. Holling",
+    "C. Tang",
+    "D. H. Wolpert",
+    "D. M. Raup",
+    "D. Pines",
+    "D. Sherrington",
+    "D. Warland",
+    "D. Watts",
+    "E. B. W. Zubrow",
+    "E. N. Lorenz",
+    "E. Ostrom",
+    "E. T. Jaynes",
+    "F. A. Hayek",
+    "F. J. Dyson",
+    "F. J. Odling-Smee",
+    "F. Rieke",
+    "G. B. West",
+    "G. J. Chaitin",
+    "G. Nicolis",
+    "G. Parisi",
+    "G. R. Price",
+    "H. Haken",
+    "I. L. Hofacker",
+    "I. Prigogine",
+    "J. A. Wheeler",
+    "J. D. Farmer",
+    "J. H. Brown",
+    "J. H. Holland",
+    "J. H. Miller",
+    "J. J. Hopfield",
+    "J. M. Kremer",
+    "J. Maynard Smith",
+    "J. McCaskill",
+    "J. Nash",
+    "J. P. Crutchfield",
+    "J. Pearl",
+    "J. S. Lansing",
+    "J. Schmalian",
+    "J. von Neumann",
+    "K. Hasselmann",
+    "K. J. Arrow",
+    "K. Lindgren",
+    "K. N. Laland",
+    "K. Wiesenfeld",
+    "L. Allen",
+    "L. Szilárd",
+    "M. Bunge",
+    "M. Eigen",
+    "M. Gell-Mann",
+    "M. I. Budyko",
+    "M. J. Feigenbaum",
+    "M. Kimura",
+    "M. Minsky",
+    "M. Mitchell",
+    "M. S. Granovetter",
+    "M. W. Feldman",
+    "N. Eldredge",
+    "N. H. Packard",
+    "O. E. Rössler",
+    "P. Bak",
+    "P. F. Stadler",
+    "P. Schuster",
+    "P. T. Hraber",
+    "P. W. Anderson",
+    "P. Wolynes",
+    "R. Axelrod",
+    "R. B. Laughlin",
+    "R. Cherukuri",
+    "R. E. Kálmán",
+    "R. J. Solomonoff",
+    "R. Landauer",
+    "R. M. Karp",
+    "R. M. May",
+    "R. R. de Ruyter van Steveninck",
+    "R. S. Shaw",
+    "R. Uribe",
+    "S. Amari",
+    "S. Bowles",
+    "S. Forrest",
+    "S. J. Gould",
+    "S. Kauffman",
+    "S. Kirkpatrick",
+    "S. Levin",
+    "S. Lloyd",
+    "S. Strogatz",
+    "S. Ulam",
+    "S. Wolfram",
+    "S. Wright",
+    "T. C. Schelling",
+    "W. B. Arthur",
+    "W. Bialek",
+    "W. D. Hamilton",
+    "W. Fontana",
+    "W. G. Macready",
+    "W. Pitts",
+    "W. Weaver"
   ]
 }

@@ -469,6 +469,7 @@ def main() -> None:
 
     author_ids: dict[str, str] = {}
     new_author_ids: set[str] = set()
+    expansion_author_ids: set[str] = set()
     label_to_id = {
         fold(node.get("label", "")): node_id
         for node_id, node in nodes.items()
@@ -484,10 +485,12 @@ def main() -> None:
             new_author_ids.add(author_id)
             imported_public_ids.add(author_id)
         author_ids[author] = author_id
+        if nodes.get(author_id, {}).get("inclusion_reason") == "official_collection_author_inventory":
+            expansion_author_ids.add(author_id)
 
-    # Place new author entries near the papers with which the official inventory associates them.
+    # Place expansion author entries near the papers with which the official inventory associates them.
     new_author_labels = sorted(
-        (node_id, nodes[node_id]["label"]) for node_id in new_author_ids
+        (node_id, nodes[node_id]["label"]) for node_id in expansion_author_ids
     )
     for author_id, label in new_author_labels:
         author_form = next(author for author, mapped_id in author_ids.items() if mapped_id == author_id)
@@ -592,10 +595,13 @@ def main() -> None:
         "baseline_public_count": BASELINE_PUBLIC_COUNT,
         "net_new_public_entries": added_count,
         "official_papers": len(papers),
-        "new_bibliographic_people": len(new_author_ids),
-        "existing_people_reused": len(set(author_ids.values()) - new_author_ids),
+        "new_bibliographic_people": len(expansion_author_ids),
+        "existing_people_reused": len(set(author_ids.values()) - expansion_author_ids),
         "collection_volumes": 4,
-        "reviewed_branch_candidates": len(imported_public_ids) - len(new_author_ids) - 4,
+        "reviewed_branch_candidates": sum(
+            1 for candidate in candidate_nodes
+            if candidate.get("id") != REDIRECTED_EVOLUTIONARY_ID
+        ),
         "candidate_edges_retained": imported_seed_edges,
         "authorship_edges": authorship_edges,
         "coauthor_edges": coauthor_edges,
@@ -635,7 +641,7 @@ def main() -> None:
     )
     print(
         f"Applied {RELEASE}: {len(public_ids)} public entries, {added_count} net new from the 204-entry baseline; "
-        f"{len(papers)} papers and {len(new_author_ids)} new author records."
+        f"{len(papers)} papers and {len(expansion_author_ids)} expansion author records."
     )
 
 

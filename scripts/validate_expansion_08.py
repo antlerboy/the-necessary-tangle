@@ -143,7 +143,11 @@ def main() -> int:
     for edge in edges:
         if edge.get("relation_type") == "authored_by" and edge.get("source") in paper_ids:
             authored_by[edge["source"]].append(edge)
-        if edge.get("relation_type") == "part_of" and edge.get("source") in paper_ids:
+        if (
+            edge.get("relation_type") == "part_of"
+            and edge.get("source") in paper_ids
+            and edge.get("target") in volume_ids
+        ):
             paper_volume[edge["source"]].append(edge)
         if edge.get("relation_type") == "part_of" and edge.get("source") in volume_ids and edge.get("target") == CORPUS_ID:
             volume_corpus[edge["source"]].append(edge)

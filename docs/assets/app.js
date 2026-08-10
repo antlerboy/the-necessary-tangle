@@ -282,6 +282,13 @@
       && edge.claim_status !== 'legacy_unresolved';
   }
 
+  function mapVisibleEdge(edge) {
+    if (substantiveEdge(edge)) return true;
+    if ($('mapDepth')?.value !== 'all') return false;
+    return ['authored_by', 'part_of', 'member_of'].includes(edge.relation_type)
+      && ['documentary', 'classification'].includes(edge.relation_family);
+  }
+
   function linkifyKnownText(value, excludedIds = []) {
     const text = String(value || '');
     if (!text) return '';
@@ -847,7 +854,14 @@
     for (const distanceValue of rings) {
       const ring = nodes
         .filter((node) => distance.get(node.id) === distanceValue)
-        .sort((a, b) => a.label.localeCompare(b.label));
+        .sort((a, b) => {
+          const angleA = previousAngle(a.id);
+          const angleB = previousAngle(b.id);
+          if (angleA !== null && angleB !== null) return angleA - angleB;
+          if (angleA !== null) return -1;
+          if (angleB !== null) return 1;
+          return a.label.localeCompare(b.label);
+        });
       const radius = distanceValue === 1 ? 215 : 335 + (distanceValue - 2) * 80;
       ring.forEach((node, index) => {
         const angle = -Math.PI / 2 + (2 * Math.PI * index / Math.max(ring.length, 1));
@@ -868,13 +882,76 @@
     return positions;
   }
 
+  function previousAngle(nodeId) {
+    const position = lastMapPositions.get(nodeId);
+    if (!position) return null;
+    return Math.atan2(position.y - 380, position.x - 600);
+  }
+
+  function animateMapTransition(previous, next) {
+    if (!previous?.size || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    $$('.graph-node-group', $('graphNodes')).forEach((group) => {
+      const before = previous.get(group.dataset.id);
+      const after = next.get(group.dataset.id);
+      if (!before || !after) return;
+      const dx = before.x - after.x;
+      const dy = before.y - after.y;
+      if (Math.abs(dx) < 1 && Math.abs(dy) < 1) return;
+      group.animate(
+        [
+          { transform: `translate(${dx}px, ${dy}px)`, opacity: 0.72 },
+          { transform: 'translate(0px, 0px)', opacity: 1 }
+        ],
+        { duration: 460, easing: 'cubic-bezier(.2,.75,.25,1)' }
+      );
+    });
+    $$('.graph-edge-group', $('graphEdges')).forEach((group) => {
+      group.animate([{ opacity: 0.08 }, { opacity: 1 }], { duration: 420, easing: 'ease-out' });
+    });
+  }
+
+  function moveMapToFocus(id) {
+    const position = lastMapPositions.get(id);
+    if (!position) {
+      fitMapToSelection();
+      return;
+    }
+    const start = { ...mapTransform };
+    const scale = Math.max(0.78, Math.min(1.35, start.scale < 0.58 ? 0.92 : start.scale));
+    const target = {
+      scale,
+      x: 600 - position.x * scale,
+      y: 380 - position.y * scale
+    };
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      mapTransform = target;
+      applyMapTransform();
+      return;
+    }
+    const started = performance.now();
+    const duration = 420;
+    const step = (now) => {
+      const raw = Math.min(1, (now - started) / duration);
+      const eased = 1 - Math.pow(1 - raw, 3);
+      mapTransform = {
+        scale: start.scale + (target.scale - start.scale) * eased,
+        x: start.x + (target.x - start.x) * eased,
+        y: start.y + (target.y - start.y) * eased
+      };
+      applyMapTransform();
+      if (raw < 1) requestAnimationFrame(step);
+    };
+    requestAnimationFrame(step);
+  }
+
   function activateMapNode(id) {
     mapFocus = id;
     mapSelectedEdge = null;
     if (!$('mapDepth').value || $('mapDepth').value === 'path') $('mapDepth').value = '1';
     mapPath = [];
     $('mapSearch').value = nodeById.get(mapFocus)?.label || '';
-    renderMap({ fit: true });
+    const keepsWholeMap = ['all', 'profiles'].includes($('mapDepth').value);
+    renderMap({ fit: !keepsWholeMap, focus: keepsWholeMap });
     inspectNode(mapFocus);
     setHash({ view: 'map', focus: mapFocus });
   }
@@ -882,13 +959,14 @@
   function renderMap(options = {}) {
     const ids = graphSelection();
     if (!ids.has(mapFocus) && ids.size) mapFocus = [...ids][0];
+    const previousPositions = lastMapPositions;
     const positions = mapPositions(ids);
     lastMapPositions = positions;
     const family = $('mapFamily').value;
     const edges = canonicalEdges.filter((edge) =>
       ids.has(edge.source)
       && ids.has(edge.target)
-      && substantiveEdge(edge)
+      && mapVisibleEdge(edge)
       && (family === 'all' || edge.relation_family === family)
     );
     const pathPairs = new Set(mapPath.slice(0, -1).flatMap((id, index) => [
@@ -904,6 +982,7 @@
       const classes = [
         'graph-edge',
         ['accepted', 'corroborated'].includes(edge.claim_status) ? '' : 'provisional',
+        substantiveEdge(edge) ? '' : 'contextual',
         selected || inPath ? 'selected' : ''
       ].filter(Boolean).join(' ');
       const title = `${nodeById.get(edge.source)?.label || edge.source} ${edge.plain_phrase || edge.relation_type} ${nodeById.get(edge.target)?.label || edge.target}`;
@@ -960,7 +1039,9 @@
     });
 
     if (!mapSelectedEdge) inspectNode(mapFocus);
+    animateMapTransition(previousPositions, positions);
     if (options.fit) requestAnimationFrame(fitMapToSelection);
+    else if (options.focus) requestAnimationFrame(() => moveMapToFocus(mapFocus));
   }
 
   function inspectNode(id) {
@@ -1441,7 +1522,14 @@
     renderJourneys();
 
     $$('.main-nav [data-view]').forEach((button) => button.addEventListener('click', () => showView(button.dataset.view)));
-    $$('[data-view-link]').forEach((button) => button.addEventListener('click', () => showView(button.dataset.viewLink)));
+    $$('[data-view-link]').forEach((button) => button.addEventListener('click', () => {
+      if (button.dataset.viewLink === 'map' && button.dataset.mapMode === 'all') {
+        $('mapDepth').value = 'all';
+        mapPath = [];
+        mapSelectedEdge = null;
+      }
+      showView(button.dataset.viewLink);
+    }));
     $$('.smart-search').forEach(initSmartSearch);
     $('browseSearch').addEventListener('input', renderBrowse);
     ['browseType', 'browseTag', 'browseLevel'].forEach((id) => $(id).addEventListener('change', renderBrowse));
