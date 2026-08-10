@@ -53,6 +53,13 @@ jobs:
               )
           makefile.write_text(text)
 
+          # Use the maintained public entry names rather than inventing near-duplicates.
+          path = Path('scripts/apply_iteration_09.py')
+          text = path.read_text()
+          text = text.replace('"Complexity science"', '"Complexity"')
+          text = text.replace('"Complex adaptive system"', '"Adaptation"')
+          path.write_text(text)
+
           path = Path('scripts/validate_constellation.py')
           text = path.read_text()
           text = text.replace(
