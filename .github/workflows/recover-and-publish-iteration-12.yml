@@ -113,6 +113,12 @@ jobs:
           python3 - <<'PY'
           from pathlib import Path
 
+          for path in Path('scripts').glob('*.py'):
+              data = path.read_bytes()
+              if b'\x00' in data:
+                  path.write_bytes(data.replace(b'\x00', b''))
+                  print('Removed null bytes from', path)
+
           path = Path('Makefile')
           lines = [
               line for line in path.read_text(encoding='utf-8').splitlines()
