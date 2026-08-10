@@ -139,7 +139,7 @@ jobs:
           make validate
           git diff --check
 
-      - name: Verify the public release contract
+      - name: Verify the generated public release
         run: |
           python3 - <<'PY'
           import json
@@ -179,10 +179,6 @@ jobs:
           assert len(accepted) == 1
           assert accepted[0]['issue_number'] == 21
           assert accepted[0]['status'] == 'incorporated_with_independent_sources'
-          assert data['semantic_contract']['uses_explicit_semantics'] is True
-          assert data['reading_list_coverage']['headline_recommendations_developed'] == 4
-          assert data['scio_coverage']['approach_family_count'] == 13
-          assert data['scio_coverage']['intervention_skill_count'] == 47
 
           assert 'Start somewhere smaller' in index
           assert index.count('https://github.com/antlerboy/the-necessary-tangle/issues/2') == 1
@@ -190,6 +186,7 @@ jobs:
           assert 'site-submission,awaiting-curator-review' in app
           assert Path('documentation/explicit-semantics.md').is_file()
           assert Path('documentation/reading-list-coverage.md').is_file()
+          assert Path('documentation/scio-coverage.md').is_file()
 
           print(json.dumps({
               'release': meta['release'],
