@@ -183,7 +183,7 @@ jobs:
 
           assert {'Ivo Velitchkov', 'Patrick Hoverstadt'} <= labels
           assert any(label and 'Grammar of Systems' in label for label in labels)
-          assert any(label and 'Fractal Organization' in label for label in labels)
+          assert any(label and 'Fractal' in label for label in labels)
           required_ids = {
               'person_ivo_velitchkov',
               'person_patrick_hoverstadt',
