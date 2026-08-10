@@ -44042,16 +44042,16 @@
     "component_count": 289,
     "largest_component_node_count": 91,
     "isolates_by_entity_type": {
-      "intervention_skill": 47,
-      "comparator_corpus": 1,
-      "person": 55,
       "publication": 93,
+      "method_or_methodology": 14,
+      "intervention_skill": 47,
+      "person": 55,
       "law_or_principle": 31,
       "concept": 14,
       "tool": 11,
-      "method_or_methodology": 14,
+      "tradition": 2,
       "corpus": 1,
-      "tradition": 2
+      "comparator_corpus": 1
     }
   },
   "expansion_08": {

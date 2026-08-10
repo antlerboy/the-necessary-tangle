@@ -1,1 +1,0 @@
-Iteration 0.12 was validated twice on the release branch and independently rebuilt from the remote branch before pull-request creation.
