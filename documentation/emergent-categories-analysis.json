@@ -1,0 +1,354 @@
+{
+  "release": "0.7-constellation-alpha",
+  "method": {
+    "graph": "canonical public entries and substantive public-public connections",
+    "projection": "simple undirected unweighted graph; parallel typed statements collapse to one pair for clustering",
+    "excluded_relation_families": [
+      "classification",
+      "documentary",
+      "evidence",
+      "legacy"
+    ],
+    "excluded_relation_type": "legacy_association_unspecified",
+    "excluded_status": "legacy_unresolved",
+    "algorithm": "NetworkX louvain_communities",
+    "networkx_version": "3.6.1",
+    "seed": 1,
+    "resolution": 1.0,
+    "interpretation_rule": "The algorithm groups; the curator names and interprets. Categories remain provisional and boundary-dependent."
+  },
+  "counts": {
+    "public_nodes": 204,
+    "substantive_edge_records": 96,
+    "unique_undirected_pairs": 94,
+    "connected_nodes": 77,
+    "isolated_nodes": 127,
+    "components": 129,
+    "largest_component_nodes": 75,
+    "detected_non_singleton_communities": 6
+  },
+  "snapshot_consistency": {
+    "public_nodes": true,
+    "substantive_edge_records": true,
+    "unique_undirected_pairs": true,
+    "connected_nodes": true,
+    "isolated_nodes": true,
+    "components": true,
+    "largest_component_nodes": true
+  },
+  "curated_category_consistency": {
+    "all_detected_groups_exactly_matched": true,
+    "all_curated_groups_used": true
+  },
+  "communities": [
+    {
+      "detected_index": 1,
+      "detected_size": 19,
+      "curated_category_id": "neighbourhood_recursion_formal_construction",
+      "curated_label": "Recursion and formal construction",
+      "jaccard": 1.0,
+      "exact_member_match": true,
+      "hubs": [
+        {
+          "id": "concept_recursion",
+          "label": "Recursion",
+          "degree": 18
+        },
+        {
+          "id": "concept_recursive_computation",
+          "label": "Recursive computation",
+          "degree": 2
+        },
+        {
+          "id": "concept_recursive_definition",
+          "label": "Recursive definition",
+          "degree": 2
+        },
+        {
+          "id": "person_alan_turing",
+          "label": "Alan Turing",
+          "degree": 1
+        },
+        {
+          "id": "person_archimedes",
+          "label": "Archimedes",
+          "degree": 1
+        },
+        {
+          "id": "person_david_hilbert",
+          "label": "David Hilbert",
+          "degree": 1
+        }
+      ],
+      "member_node_ids": [
+        "concept_fractals",
+        "concept_recursion",
+        "concept_recursive_computation",
+        "concept_recursive_definition",
+        "person_alan_turing",
+        "person_archimedes",
+        "person_david_hilbert",
+        "person_francisco_varela",
+        "person_giuseppe_peano",
+        "person_herbert_simon",
+        "person_humberto_maturana",
+        "person_kurt_gödel",
+        "person_leonardo_of_pisa",
+        "person_noam_chomsky",
+        "person_panini",
+        "person_pingala",
+        "person_plato",
+        "person_richard_dedekind",
+        "person_thoralf_skolem"
+      ]
+    },
+    {
+      "detected_index": 2,
+      "detected_size": 19,
+      "curated_category_id": "neighbourhood_feedback_regulation_learning",
+      "curated_label": "Feedback, regulation and learning",
+      "jaccard": 1.0,
+      "exact_member_match": true,
+      "hubs": [
+        {
+          "id": "concept_feedback",
+          "label": "Feedback",
+          "degree": 18
+        },
+        {
+          "id": "concept_negative_feedback",
+          "label": "Negative feedback",
+          "degree": 4
+        },
+        {
+          "id": "tradition_cybernetics",
+          "label": "Cybernetics",
+          "degree": 2
+        },
+        {
+          "id": "tradition_evolutionary_cybernetics",
+          "label": "Evolutionary cybernetics",
+          "degree": 2
+        },
+        {
+          "id": "person_harold_stephen_black",
+          "label": "Harold Stephen Black",
+          "degree": 2
+        },
+        {
+          "id": "concept_homeostasis",
+          "label": "Homeostasis",
+          "degree": 2
+        }
+      ],
+      "member_node_ids": [
+        "concept_double_bind",
+        "concept_double_loop_learning",
+        "concept_feedback",
+        "concept_feedforward",
+        "concept_homeostasis",
+        "concept_negative_feedback",
+        "concept_positive_feedback",
+        "concept_purposeful_behaviour",
+        "concept_single_loop_learning",
+        "method_or_methodology_system_dynamics",
+        "person_claude_bernard",
+        "person_harold_stephen_black",
+        "person_james_clerk_maxwell",
+        "person_norbert_wiener",
+        "practice_quality_management",
+        "technology_machine_governors",
+        "tradition_control_theory",
+        "tradition_cybernetics",
+        "tradition_evolutionary_cybernetics"
+      ]
+    },
+    {
+      "detected_index": 3,
+      "detected_size": 16,
+      "curated_category_id": "neighbourhood_viability_variety_regulatory_laws",
+      "curated_label": "Viability, variety and regulatory laws",
+      "jaccard": 1.0,
+      "exact_member_match": true,
+      "hubs": [
+        {
+          "id": "method_or_methodology_viable_system_model_vsm",
+          "label": "Viable System Model (VSM)",
+          "degree": 11
+        },
+        {
+          "id": "law_or_principle_law_of_requisite_variety",
+          "label": "Law of Requisite Variety",
+          "degree": 4
+        },
+        {
+          "id": "law_or_principle_conant_ashby_theorem",
+          "label": "Conant-Ashby Theorem",
+          "degree": 3
+        },
+        {
+          "id": "concept_regulation",
+          "label": "Regulation",
+          "degree": 3
+        },
+        {
+          "id": "concept_requisite_variety",
+          "label": "Requisite variety",
+          "degree": 3
+        },
+        {
+          "id": "concept_variety",
+          "label": "Variety",
+          "degree": 3
+        }
+      ],
+      "member_node_ids": [
+        "concept_adaptation",
+        "concept_autonomy",
+        "concept_cohesion",
+        "concept_identity",
+        "concept_organisational_recursion",
+        "concept_regulation",
+        "concept_requisite_variety",
+        "concept_variety",
+        "concept_variety_amplification",
+        "concept_variety_attenuation",
+        "concept_viability",
+        "law_or_principle_conant_ashby_theorem",
+        "law_or_principle_law_of_requisite_variety",
+        "method_or_methodology_viable_system_model_vsm",
+        "person_roger_c_conant",
+        "person_w_ross_ashby"
+      ]
+    },
+    {
+      "detected_index": 4,
+      "detected_size": 12,
+      "curated_category_id": "neighbourhood_observer_selforganisation_connected_knowledge",
+      "curated_label": "Observer, self-organisation and connected knowledge",
+      "jaccard": 1.0,
+      "exact_member_match": true,
+      "hubs": [
+        {
+          "id": "organisation_principia_cybernetica_project",
+          "label": "Principia Cybernetica Project",
+          "degree": 6
+        },
+        {
+          "id": "publication_principia_cybernetica_web",
+          "label": "Principia Cybernetica Web",
+          "degree": 5
+        },
+        {
+          "id": "concept_self_organisation",
+          "label": "Self-organisation",
+          "degree": 5
+        },
+        {
+          "id": "concept_observer",
+          "label": "Observer",
+          "degree": 4
+        },
+        {
+          "id": "concept_emergence",
+          "label": "Emergence",
+          "degree": 3
+        },
+        {
+          "id": "person_francis_heylighen",
+          "label": "Francis Heylighen",
+          "degree": 3
+        }
+      ],
+      "member_node_ids": [
+        "concept_emergence",
+        "concept_global_brain",
+        "concept_metasystem_transition",
+        "concept_observer",
+        "concept_self_organisation",
+        "concept_semantic_network",
+        "organisation_principia_cybernetica_project",
+        "person_cliff_joslyn",
+        "person_francis_heylighen",
+        "person_heinz_von_foerster",
+        "person_valentin_turchin",
+        "publication_principia_cybernetica_web"
+      ]
+    },
+    {
+      "detected_index": 5,
+      "detected_size": 9,
+      "curated_category_id": "neighbourhood_boundary_information_transduction",
+      "curated_label": "Boundary, information and transduction",
+      "jaccard": 1.0,
+      "exact_member_match": true,
+      "hubs": [
+        {
+          "id": "concept_boundary",
+          "label": "Boundary",
+          "degree": 5
+        },
+        {
+          "id": "concept_information",
+          "label": "Information",
+          "degree": 3
+        },
+        {
+          "id": "concept_transduction",
+          "label": "Transduction",
+          "degree": 3
+        },
+        {
+          "id": "concept_distinction",
+          "label": "Distinction",
+          "degree": 2
+        },
+        {
+          "id": "concept_information_theory",
+          "label": "Information theory",
+          "degree": 2
+        },
+        {
+          "id": "method_or_methodology_systemic_intervention",
+          "label": "Systemic Intervention",
+          "degree": 2
+        }
+      ],
+      "member_node_ids": [
+        "concept_boundary",
+        "concept_distinction",
+        "concept_information",
+        "concept_information_theory",
+        "concept_purpose",
+        "concept_transduction",
+        "method_or_methodology_systemic_intervention",
+        "person_claude_e_shannon",
+        "person_gerald_midgley"
+      ]
+    },
+    {
+      "detected_index": 6,
+      "detected_size": 2,
+      "curated_category_id": "neighbourhood_mcculloch_von_domarus_fragment",
+      "curated_label": "McCulloch–von Domarus fragment",
+      "jaccard": 1.0,
+      "exact_member_match": true,
+      "hubs": [
+        {
+          "id": "person_eilhard_von_domarus",
+          "label": "Eilhard von Domarus",
+          "degree": 1
+        },
+        {
+          "id": "person_warren_mcculloch",
+          "label": "Warren McCulloch",
+          "degree": 1
+        }
+      ],
+      "member_node_ids": [
+        "person_eilhard_von_domarus",
+        "person_warren_mcculloch"
+      ]
+    }
+  ]
+}
