@@ -40,7 +40,7 @@ jobs:
           corrected=sections('/tmp/correct/documentation/public-knowledge-for-chatgpt.md')
           added=sorted(set(corrected)-set(main), key=str.casefold)
           removed=sorted(set(main)-set(corrected), key=str.casefold)
-          changed=sorted(k for k in set(main)&set(corrected) if main[k]!=corrected[k], key=str.casefold)
+          changed=sorted((k for k in set(main)&set(corrected) if main[k]!=corrected[k]), key=str.casefold)
           print('ADDED PUBLIC ENTRY HEADINGS:', len(added))
           for k in added: print('-',k)
           print('REMOVED PUBLIC ENTRY HEADINGS:', len(removed), removed)
