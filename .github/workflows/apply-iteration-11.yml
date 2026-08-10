@@ -1,0 +1,100 @@
+name: Apply iteration 0.11 semantic map
+
+on:
+  push:
+    branches: ["agent/iteration-11-semantic-map-final"]
+    paths:
+      - ".github/workflows/apply-iteration-11.yml"
+      - "scripts/apply_iteration_11.py"
+      - "scripts/patch_iteration_11.py"
+      - "scripts/validate_iteration_11.py"
+      - "scripts/prepare_iteration_11_release.py"
+      - "scripts/fix_iteration_11_edge_cases.py"
+      - "scripts/fix_iteration_11_regression_gate.py"
+      - "docs/assets/map-v11.js"
+      - "docs/assets/map-v11.css"
+      - "documentation/feedback-ledger.md"
+      - "documentation/map-interaction.md"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: apply-iteration-11
+  cancel-in-progress: false
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out iteration branch
+        uses: actions/checkout@v7
+        with:
+          ref: agent/iteration-11-semantic-map-final
+          fetch-depth: 0
+
+      - name: Prepare the durable release build
+        run: |
+          python3 scripts/prepare_iteration_11_release.py
+          python3 scripts/fix_iteration_11_edge_cases.py
+          python3 scripts/fix_iteration_11_regression_gate.py
+
+      - name: Build and validate twice
+        run: |
+          make validate
+          make validate
+          git diff --check
+
+      - name: Verify the release contract
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+
+          data = json.loads(Path('data/public-data.json').read_text(encoding='utf-8'))
+          index = Path('docs/index.html').read_text(encoding='utf-8')
+          app = Path('docs/assets/app.js').read_text(encoding='utf-8')
+          map_js = Path('docs/assets/map-v11.js').read_text(encoding='utf-8')
+
+          assert data['meta']['release'] == '0.11-semantic-map-alpha'
+          assert data['meta']['public_entry_count'] == 417
+          assert data['meta']['profile_count'] == 38
+          assert data['meta']['journey_count'] == 13
+          assert data['meta']['source_count'] == 100
+          assert data['meta']['feedback_ledger_count'] >= 18
+          assert data['meta']['map_interaction_version'] == 'semantic-map-v1'
+          assert index.count('https://github.com/antlerboy/the-necessary-tangle/issues/2') == 1
+          assert 'class="feedback-dot"' in index
+          assert 'assets/map-v11.css' in index
+          assert 'assets/map-v11.js' in index
+          assert "semanticMapVersion: '0.11'" in app
+          assert 'function rebuildMiniMap()' in map_js
+          assert 'progressive label disclosure' in map_js
+          print(json.dumps({
+              'release': data['meta']['release'],
+              'entries': data['meta']['public_entry_count'],
+              'profiles': data['meta']['profile_count'],
+              'journeys': data['meta']['journey_count'],
+              'sources': data['meta']['source_count'],
+              'feedback_commitments': data['meta']['feedback_ledger_count'],
+              'map_interaction_version': data['meta']['map_interaction_version'],
+              'graph_snapshot': data['graph_snapshot'],
+          }, indent=2, sort_keys=True))
+          PY
+
+      - name: Remove one-shot preparation files
+        run: |
+          rm -f .github/workflows/apply-iteration-11.yml
+          rm -f scripts/prepare_iteration_11_release.py
+          rm -f scripts/fix_iteration_11_edge_cases.py
+          rm -f scripts/fix_iteration_11_regression_gate.py
+          git status --short
+
+      - name: Commit the validated iteration
+        run: |
+          git config user.name "Benjamin P Taylor"
+          git config user.email "ben.taylor@redquadrant.com"
+          git add -A
+          git diff --cached --check
+          git commit -m "Publish iteration 0.11 semantic map" -m "Restore the discreet running-feedback dot, publish a complete feedback ledger, and add semantic zoom, progressive label disclosure, minimap orientation, focus history, neighbourhood emphasis, fullscreen and keyboard map controls while retaining the typed evidence graph and curator-controlled publication model."
+          git push origin HEAD:agent/iteration-11-semantic-map-final
