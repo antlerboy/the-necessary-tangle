@@ -7,6 +7,7 @@ on:
       - ".github/workflows/apply-iteration-09.yml"
       - "scripts/apply_iteration_09.py"
       - "scripts/patch_iteration_09.py"
+      - "scripts/refresh_graph_snapshot.py"
       - "scripts/validate_iteration_09.py"
 
 permissions:
@@ -37,6 +38,12 @@ jobs:
               text = text.replace(
                   '\tpython3 scripts/apply_expansion_08.py\n',
                   '\tpython3 scripts/apply_expansion_08.py\n\tpython3 scripts/apply_iteration_09.py\n',
+                  1,
+              )
+          if '\tpython3 scripts/refresh_graph_snapshot.py\n' not in text:
+              text = text.replace(
+                  '\tpython3 scripts/apply_iteration_09.py\n',
+                  '\tpython3 scripts/apply_iteration_09.py\n\tpython3 scripts/refresh_graph_snapshot.py\n',
                   1,
               )
           if '\tpython3 scripts/patch_iteration_09.py\n' not in text:
@@ -117,6 +124,7 @@ jobs:
           assert data['meta']['public_entry_count'] == 411
           assert data['meta']['profile_count'] >= 32
           assert data['meta']['journey_count'] == 12
+          assert data['graph_snapshot']['public_node_count'] == 411
           assert len(data['ai_observations']['observations']) >= 9
           assert len(data['ai_observations']['public_risks']) >= 10
           assert len(data['source_mining_register']) >= 14
@@ -128,6 +136,7 @@ jobs:
               'sources': data['meta']['source_count'],
               'observations': len(data['ai_observations']['observations']),
               'risks': len(data['ai_observations']['public_risks']),
+              'graph_snapshot': data['graph_snapshot'],
           }, indent=2))
           PY
 
