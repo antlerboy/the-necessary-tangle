@@ -1,21 +1,141 @@
-name: Inspect corrected 0.7 relation vocabulary
+name: Apply corrected 0.7 constellation release
+
 on:
   push:
     branches: ["release-0.7-constellation-alpha-final"]
-    paths: [".github/workflows/apply-correct-0.7-bundle.yml"]
+    paths:
+      - ".github/workflows/apply-correct-0.7-bundle.yml"
+      - "scripts/apply_constellation_07.py"
+      - "scripts/patch_constellation_07.py"
+      - "scripts/validate_constellation.py"
+      - ".github/ISSUE_TEMPLATE/membership.yml"
+
 permissions:
-  contents: read
+  contents: write
+
+concurrency:
+  group: apply-corrected-0.7-release
+  cancel-in-progress: false
+
 jobs:
-  inspect:
+  apply:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v7
+      - name: Check out final staged release branch
+        uses: actions/checkout@v7
         with:
           ref: release-0.7-constellation-alpha-final
-      - run: |
+          fetch-depth: 0
+
+      - name: Recover intact files from staged release archive
+        shell: bash
+        run: |
+          set -u
+          cat .correct-0.7-bundle/part-* | base64 --decode > /tmp/correct-0.7.tar.gz
+          set +e
+          gzip -dc /tmp/correct-0.7.tar.gz > /tmp/correct-0.7.tar
+          mkdir -p /tmp/correct-0.7
+          tar -xf /tmp/correct-0.7.tar -C /tmp/correct-0.7
+          set -e
+
+          files=(
+            CODE_OF_CONDUCT.md
+            CONTRIBUTING.md
+            documentation/canonical-source-register.md
+            documentation/company-knowledge-discovery-first-pass.md
+            documentation/coverage-programme.md
+            documentation/curatorial-model.md
+            documentation/data-model.md
+            documentation/editorial-model.md
+            documentation/emergent-categories-analysis.json
+            documentation/emergent-categories.md
+            documentation/maintenance.md
+            documentation/membership-and-permissions.md
+            documentation/principia-cybernetica-first-pass.md
+            documentation/publishing.md
+            documentation/reading-the-atlas.md
+            documentation/roadmap.md
+            documentation/source-policy.md
+            scripts/analyse_emergent_categories.py
+          )
+          for f in "${files[@]}"; do
+            test -f "/tmp/correct-0.7/$f" || { echo "Missing recoverable release file: $f"; exit 1; }
+            mkdir -p "$(dirname "$f")"
+            cp "/tmp/correct-0.7/$f" "$f"
+          done
+
+          # The staged validator itself is the file cut off by the truncated archive;
+          # keep the reconstructed validator committed on this branch instead.
+          test -s scripts/validate_constellation.py
+
+      - name: Wire 0.7 into the reproducible build
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+
+          makefile = Path('Makefile')
+          text = makefile.read_text()
+          if '\tpython3 scripts/apply_constellation_07.py\n' not in text:
+              text = text.replace(
+                  '\tpython3 scripts/apply_release_overrides.py\n',
+                  '\tpython3 scripts/apply_release_overrides.py\n\tpython3 scripts/apply_constellation_07.py\n',
+                  1,
+              )
+          if '\tpython3 scripts/patch_constellation_07.py\n' not in text:
+              text = text.replace(
+                  '\tpython3 scripts/patch_public_site.py\n',
+                  '\tpython3 scripts/patch_public_site.py\n\tpython3 scripts/patch_constellation_07.py\n',
+                  1,
+              )
+          if '\tpython3 scripts/validate_constellation.py\n' not in text:
+              text = text.replace(
+                  '\tpython3 scripts/validate_public.py\n',
+                  '\tpython3 scripts/validate_public.py\n\tpython3 scripts/validate_constellation.py\n',
+                  1,
+              )
+          makefile.write_text(text)
+
+          path = Path('scripts/apply_release_overrides.py')
+          text = path.read_text()
+          text = text.replace('RELEASE = "0.6-feedback-alpha"', 'RELEASE = "0.7-constellation-alpha"')
+          text = text.replace('GENERATED = "2026-08-09"', 'GENERATED = "2026-08-10"', 1)
+          path.write_text(text)
+          PY
+
+      - name: Build and validate corrected 0.7 release
+        run: |
+          make validate
+          python3 scripts/analyse_emergent_categories.py
+          python3 scripts/validate_constellation.py
+          git diff --check
+
+      - name: Verify exact release state before commit
+        run: |
           python3 - <<'PY'
           import json
           d=json.load(open('data/public-data.json'))
-          for r in sorted(d['relation_types'], key=lambda x:x['relation_type']):
-              print(f"{r['relation_type']} | {r['relation_family']} | {r.get('plain_phrase','')} | directed={r.get('directed')}")
+          print('release:', d['meta']['release'])
+          print('public entries:', d['meta']['public_entry_count'])
+          print('graph snapshot:', json.dumps(d['graph_snapshot'], sort_keys=True))
+          print('emergent categories:', len(d.get('emergent_categories', [])))
+          assert d['meta']['release']=='0.7-constellation-alpha'
+          assert d['meta']['public_entry_count']==204
+          assert d['graph_snapshot']['substantive_edge_count']==96
+          assert d['graph_snapshot']['substantive_pair_count']==94
+          assert len(d.get('emergent_categories', []))==6
           PY
+
+      - name: Remove broken staging payload and one-shot workflow
+        run: |
+          rm -rf .correct-0.7-bundle
+          rm -f .github/workflows/apply-correct-0.7-bundle.yml
+          git status --short
+
+      - name: Commit validated 0.7 release
+        run: |
+          git config user.name "Benjamin P Taylor"
+          git config user.email "ben.taylor@redquadrant.com"
+          git add -A
+          git diff --cached --check
+          git commit -m "Publish corrected 0.7 constellation alpha" -m "Apply the recovered 204-entry constellation release, typed Principia Cybernetica first pass, provisional graph neighbourhoods, participation model and public interface controls. Remove the incomplete staged bundle and keep the release reproducible through the normal build and validation path."
+          git push origin HEAD:release-0.7-constellation-alpha-final
