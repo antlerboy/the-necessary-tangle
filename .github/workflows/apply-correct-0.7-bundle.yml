@@ -10,93 +10,61 @@ on:
 permissions:
   contents: read
 
-concurrency:
-  group: diagnose-correct-0.7-bundle
-  cancel-in-progress: false
-
 jobs:
   diagnose:
     runs-on: ubuntu-latest
     steps:
-      - name: Check out staged release branch
-        uses: actions/checkout@v7
+      - uses: actions/checkout@v7
         with:
           ref: release-0.7-constellation-alpha-final
           fetch-depth: 0
-
-      - name: Recover and compare staged payload prefix
+      - name: Compare corrected graph clues with main and rejected branch
         shell: bash
         run: |
           set -u
-          cat .correct-0.7-bundle/part-* | base64 --decode > /tmp/tangle-correct-0.7.tar.gz
-          echo "compressed bytes: $(wc -c < /tmp/tangle-correct-0.7.tar.gz)"
-          sha256sum /tmp/tangle-correct-0.7.tar.gz
-
+          cat .correct-0.7-bundle/part-* | base64 --decode > /tmp/correct.tar.gz
           set +e
-          gzip -dc /tmp/tangle-correct-0.7.tar.gz > /tmp/tangle-correct-0.7.tar
-          gzip_status=$?
+          gzip -dc /tmp/correct.tar.gz > /tmp/correct.tar
           set -e
-          echo "gzip status: ${gzip_status}"
-          echo "recoverable tar bytes: $(wc -c < /tmp/tangle-correct-0.7.tar)"
-
-          mkdir -p /tmp/tangle-partial
+          mkdir -p /tmp/correct
           set +e
-          tar -xf /tmp/tangle-correct-0.7.tar -C /tmp/tangle-partial
-          extract_status=$?
+          tar -xf /tmp/correct.tar -C /tmp/correct
           set -e
-          echo "tar extract status: ${extract_status}"
 
-          echo "--- recovered files and comparison ---"
-          while IFS= read -r f; do
-            size=$(wc -c < "/tmp/tangle-partial/$f")
-            main_state=absent
-            old_state=absent
-            if git cat-file -e "origin/main:$f" 2>/dev/null; then
-              if cmp -s "/tmp/tangle-partial/$f" <(git show "origin/main:$f"); then main_state=same; else main_state=different; fi
-            fi
-            if git cat-file -e "origin/release-0.7-constellation-alpha:$f" 2>/dev/null; then
-              if cmp -s "/tmp/tangle-partial/$f" <(git show "origin/release-0.7-constellation-alpha:$f"); then old_state=same; else old_state=different; fi
-            fi
-            printf '%s\t%s bytes\tmain:%s\trejected:%s\n' "$f" "$size" "$main_state" "$old_state"
-          done < <(cd /tmp/tangle-partial && find . -type f -printf '%P\n' | sort)
-
-          pk=/tmp/tangle-partial/documentation/public-knowledge-for-chatgpt.md
-          if [ -f "$pk" ]; then
-            echo "--- public knowledge release clues ---"
-            sed -n '1,100p' "$pk"
-            echo "heading count: $(grep -c '^## ' "$pk" || true)"
-            echo "entry-ish heading count: $(grep -Ec '^## (Person|Concept|Method|Practice|Publication|Institution|Tradition|Tool|Law|Event|Project|School|Framework|Approach|Model|Organisation|Organization):' "$pk" || true)"
-            grep -Ein '295|[0-9]+ (readable )?(public )?entries|entry count|release 0\.7|constellation|neighbourhood|categor' "$pk" | head -120 || true
-          fi
-
-          ec=/tmp/tangle-partial/documentation/emergent-categories-analysis.json
-          if [ -f "$ec" ]; then
-            echo "--- emergent category analysis summary ---"
-            python3 - <<'PY'
-          import json
-          p='/tmp/tangle-partial/documentation/emergent-categories-analysis.json'
-          d=json.load(open(p))
-          print('top-level keys:', sorted(d) if isinstance(d, dict) else type(d).__name__)
-          if isinstance(d, dict):
-              for k,v in d.items():
-                  if isinstance(v,(list,dict)):
-                      print(k, 'count=', len(v))
-                  elif isinstance(v,(str,int,float,bool)) or v is None:
-                      print(k, '=', v)
+          python3 - <<'PY'
+          import json, subprocess, tempfile, pathlib
+          refs=['origin/main','origin/release-0.7-constellation-alpha']
+          for ref in refs:
+              print('\n===', ref, 'data/public-data.json ===')
+              raw=subprocess.check_output(['git','show',f'{ref}:data/public-data.json'])
+              d=json.loads(raw)
+              print('top keys:', list(d.keys()) if isinstance(d,dict) else type(d).__name__)
+              if isinstance(d,dict):
+                  for k,v in d.items():
+                      if isinstance(v,(list,dict)):
+                          print(k, len(v))
+                      elif isinstance(v,(str,int,float,bool)) or v is None:
+                          print(k, v)
+                  entries=d.get('entries') or d.get('nodes') or d.get('items') or []
+                  rels=d.get('relationships') or d.get('relations') or d.get('edges') or d.get('connections') or []
+                  print('inferred entries:', len(entries))
+                  print('inferred relations:', len(rels))
+                  if rels:
+                      print('relation sample keys:', sorted(rels[0].keys()))
+          print('\n=== corrected emergent analysis counts ===')
+          p=pathlib.Path('/tmp/correct/documentation/emergent-categories-analysis.json')
+          if p.exists():
+              d=json.loads(p.read_text())
+              print(json.dumps(d.get('counts',{}), indent=2, sort_keys=True))
+              print('snapshot consistency:', json.dumps(d.get('snapshot_consistency',{}), indent=2, sort_keys=True))
           PY
-          fi
 
-          echo "--- diffstats from main for fully recovered files ---"
-          for f in $(cd /tmp/tangle-partial && find . -type f -printf '%P\n' | sort); do
-            if git cat-file -e "origin/main:$f" 2>/dev/null; then
-              git diff --no-index --stat <(git show "origin/main:$f") "/tmp/tangle-partial/$f" || true
-            else
-              echo "NEW: $f ($(wc -c < "/tmp/tangle-partial/$f") bytes)"
-            fi
-          done
+          echo "--- analyser help/source clues ---"
+          python3 /tmp/correct/scripts/analyse_emergent_categories.py --help || true
+          sed -n '1,240p' /tmp/correct/scripts/analyse_emergent_categories.py
 
-          if [ "$gzip_status" -eq 0 ] && [ "$extract_status" -eq 0 ]; then
-            echo "Payload is complete after all."
-          else
-            echo "Payload is incomplete; diagnostic completed without modifying release content."
-          fi
+          echo "--- main validation/build script inventory ---"
+          git ls-tree -r --name-only origin/main scripts data docs .github | sort
+
+          echo "--- rejected validation/build script inventory ---"
+          git ls-tree -r --name-only origin/release-0.7-constellation-alpha scripts data docs .github | sort
