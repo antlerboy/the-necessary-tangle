@@ -5,15 +5,19 @@ build:
 	python3 scripts/apply_release_overrides.py
 	python3 scripts/apply_constellation_07.py
 	python3 scripts/apply_expansion_08.py
+	python3 scripts/apply_iteration_09.py
+	python3 scripts/refresh_graph_snapshot.py
 	python3 scripts/patch_public_site.py
 	python3 scripts/patch_constellation_07.py
 	python3 scripts/patch_expansion_08.py
+	python3 scripts/patch_iteration_09.py
 	python3 scripts/build_public_knowledge.py
 
 validate: build
 	python3 scripts/validate_public.py
 	python3 scripts/validate_constellation.py
 	python3 scripts/validate_expansion_08.py
+	python3 scripts/validate_iteration_09.py
 	./scripts/check_javascript.sh
 
 serve: build

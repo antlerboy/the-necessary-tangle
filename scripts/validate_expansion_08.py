@@ -12,7 +12,7 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA_PATH = ROOT / "data" / "public-data.json"
 SEED_PATH = ROOT / "data" / "expansion-08-seed.json"
 DOCS = ROOT / "docs"
-EXPECTED_RELEASE = "0.8-expansion-alpha"
+ALLOWED_RELEASES = {"0.8-expansion-alpha", "0.9-observations-alpha"}
 BASELINE_COUNT = 204
 MINIMUM_ADDED = 200
 EXPECTED_PUBLIC_COUNT = 407
@@ -63,19 +63,18 @@ def main() -> int:
     sources = {source["id"] for source in data.get("sources", [])}
     edges = data.get("edges", [])
 
-    if meta.get("release") != EXPECTED_RELEASE:
-        errors.append(f"meta.release must be {EXPECTED_RELEASE}")
-    if len(public_nodes) != EXPECTED_PUBLIC_COUNT:
-        errors.append(f"expected {EXPECTED_PUBLIC_COUNT} canonical public entries, found {len(public_nodes)}")
+    if meta.get("release") not in ALLOWED_RELEASES:
+        errors.append(f"meta.release must be one of {sorted(ALLOWED_RELEASES)}")
+    if len(public_nodes) < EXPECTED_PUBLIC_COUNT:
+        errors.append(f"expected at least {EXPECTED_PUBLIC_COUNT} canonical public entries, found {len(public_nodes)}")
     if meta.get("public_entry_count") != len(public_nodes):
         errors.append("meta.public_entry_count does not match canonical public entries")
-    added = len(public_nodes) - BASELINE_COUNT
-    if added < MINIMUM_ADDED:
-        errors.append(f"only {added} net new public entries; expected at least {MINIMUM_ADDED}")
-    if meta.get("expansion_08_added_count") != added:
-        errors.append("meta.expansion_08_added_count does not match the calculated increase")
-    if expansion.get("net_new_public_entries") != added:
-        errors.append("expansion_08.net_new_public_entries does not match the calculated increase")
+    expected_added = EXPECTED_PUBLIC_COUNT - BASELINE_COUNT
+    added = expansion.get("net_new_public_entries")
+    if added != expected_added or added < MINIMUM_ADDED:
+        errors.append(f"0.8 must retain {expected_added} net new public entries; found {added}")
+    if meta.get("expansion_08_added_count") != expected_added:
+        errors.append("meta.expansion_08_added_count no longer records the 0.8 increase")
     if expansion.get("official_papers") != EXPECTED_PAPERS:
         errors.append("expansion_08.official_papers must be 89")
     if expansion.get("new_bibliographic_people") != EXPECTED_NEW_PEOPLE:
@@ -161,7 +160,11 @@ def main() -> int:
             errors.append(f"volume must belong to the collection exactly once: {volume_id}")
 
     index = (DOCS / "index.html").read_text(encoding="utf-8")
-    if 'data-view-link="map" data-map-mode="all">Full public map</button>' not in index:
+    home_map_markers = [
+        'data-view-link="map" data-map-mode="all">Full public map</button>',
+        'data-view-link="map" data-map-mode="all">Full public map</a>',
+    ]
+    if not any(marker in index for marker in home_map_markers):
         errors.append("the home page does not open the full public map explicitly")
     if '<option value="all" selected>Full public map</option>' not in index:
         errors.append("the map itself does not default to the full public map")
@@ -175,10 +178,12 @@ def main() -> int:
     app = (DOCS / "assets" / "app.js").read_text(encoding="utf-8")
     for marker in [
         "mapVisibleEdge", "previousAngle", "animateMapTransition", "moveMapToFocus",
-        "button.dataset.mapMode === 'all'", "renderMap({ fit: !keepsWholeMap, focus: keepsWholeMap })",
+        "renderMap({ fit: !keepsWholeMap, focus: keepsWholeMap })",
     ]:
         if marker not in app:
             errors.append(f"adaptive-map marker missing from app.js: {marker}")
+    if "button.dataset.mapMode === 'all'" not in app and "followInternalAnchor" not in app:
+        errors.append("the full-map navigation hook is missing")
     css = (DOCS / "assets" / "site-enhancements.css").read_text(encoding="utf-8")
     for marker in ["graph-edge.contextual", "discreet-note-link", "graph-node-group"]:
         if marker not in css:

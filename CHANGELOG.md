@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.9-observations-alpha — 10 August 2026
+
+- Added a public AI observations page separating reproducible measurements, interpretation, implications and tests.
+- Added a publication-risk register and a maintained source-mining queue.
+- Added developed entries for Chris Mowles, complex responsive processes, Murmurations and *Complexity: A Key Idea for Business and Society*.
+- Added seven public source records and four guided journeys.
+- Exposed conceptual, human-lineage, practice, contestation and provenance layers directly from About and the map.
+- Converted internal navigation affordances to real links so they can be opened in new tabs.
+- Made mouse-wheel zoom follow the pointer and removed the older double-zoom behaviour.
+- Enforced left alignment across content panels and expanded compressed About statements.
+
 ## 0.8-expansion-alpha — 10 August 2026
 
 - Added 203 canonical public entries: 89 Foundational Papers publications, 107 new bibliographic people, four collection volumes and three reviewed framing records.
