@@ -1,0 +1,174 @@
+name: Apply iteration 0.13 reading-list atlas
+
+on:
+  push:
+    branches: ["agent/publish-iteration-13-reading-list"]
+    paths:
+      - ".github/workflows/apply-iteration-13.yml"
+      - ".iteration13-bundle/**"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: apply-iteration-13-reading-list
+  cancel-in-progress: false
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the release branch
+        uses: actions/checkout@v7
+        with:
+          ref: agent/publish-iteration-13-reading-list
+          fetch-depth: 0
+
+      - name: Reconstruct and inspect the source bundle
+        shell: bash
+        run: |
+          set -euo pipefail
+          cat \
+            .iteration13-bundle/part-00 \
+            .iteration13-bundle/part-01 \
+            .iteration13-bundle/part-02 \
+            .iteration13-bundle/part-03 \
+            | base64 --decode > /tmp/iteration-13-source.tar.gz
+          test "$(wc -c < /tmp/iteration-13-source.tar.gz)" -eq 68306
+          echo "4883d3391ebfc6ba3fe9faf7374d58f7025c3325854c0d1cc728fcfb1abfc874  /tmp/iteration-13-source.tar.gz" | sha256sum -c -
+          python3 - <<'PY'
+          import pathlib
+          import tarfile
+
+          archive_path = pathlib.Path('/tmp/iteration-13-source.tar.gz')
+          with tarfile.open(archive_path, 'r:gz') as archive:
+              members = archive.getmembers()
+              if not members:
+                  raise SystemExit('The iteration 0.13 source bundle is empty')
+              for member in members:
+                  candidate = pathlib.PurePosixPath(member.name)
+                  if candidate.is_absolute() or '..' in candidate.parts:
+                      raise SystemExit(f'Unsafe archive path: {member.name}')
+              names = {member.name.lstrip('./') for member in members}
+              required = {
+                  'Makefile',
+                  'CHANGELOG.md',
+                  'README.md',
+                  'CITATION.cff',
+                  'data/reading-list-inventory.json',
+                  'scripts/apply_iteration_13.py',
+                  'scripts/patch_iteration_13.py',
+                  'scripts/validate_iteration_13.py',
+              }
+              missing = sorted(required - names)
+              if missing:
+                  raise SystemExit(f'Missing source files: {missing}')
+              archive.extractall('.')
+              print(f'Validated and extracted {len(members)} source files')
+          PY
+
+      - name: Build and validate twice
+        shell: bash
+        run: |
+          set -euo pipefail
+          make validate
+          make validate
+          git diff --check
+
+      - name: Verify the release contract
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import json
+          from collections import Counter
+          from pathlib import Path
+
+          data = json.loads(Path('data/public-data.json').read_text(encoding='utf-8'))
+          published = json.loads(Path('docs/assets/public-data.json').read_text(encoding='utf-8'))
+          inventory_asset = json.loads(Path('docs/assets/reading-list-inventory.json').read_text(encoding='utf-8'))
+          index = Path('docs/index.html').read_text(encoding='utf-8')
+          app = Path('docs/assets/app.js').read_text(encoding='utf-8')
+          documentation = Path('documentation/reading-list-coverage.md').read_text(encoding='utf-8')
+          citation = Path('CITATION.cff').read_text(encoding='utf-8')
+
+          meta = data['meta']
+          assert meta['release'] == '0.13-reading-list-atlas-alpha'
+          assert meta['public_entry_count'] == 670
+          assert meta['profile_count'] == 59
+          assert meta['source_count'] == 115
+          assert meta['journey_count'] == 15
+          assert len(data['edges']) == 1328
+
+          inventory = data['reading_list_inventory']
+          coverage = data['reading_list_coverage']
+          sections = data['reading_list_sections']
+          nodes = data['nodes']
+          node_ids = {node['id'] for node in nodes}
+          labels = {node['label'] for node in nodes}
+
+          assert len(inventory) == 122
+          assert len(inventory_asset) == 122
+          assert len(sections) == 12
+          assert coverage['inventory_item_count'] == 122
+          assert coverage['distinct_author_or_organisation_count'] == 121
+          assert coverage['all_items_have_graph_entries'] is True
+          assert coverage['all_named_authors_have_graph_entries'] is True
+          assert coverage['full_text_review_claimed'] is False
+          assert coverage['coverage_counts'] == {
+              'developed': 8,
+              'represented': 1,
+              'catalogued': 111,
+              'catalogued_author_unresolved': 2,
+          }
+
+          statuses = Counter(item['status'] for item in inventory)
+          assert dict(statuses) == coverage['coverage_counts']
+          assert all(item['graph_node_id'] in node_ids for item in inventory)
+          assert all(
+              author_id in node_ids
+              for item in inventory
+              for author_id in item.get('graph_author_ids', [])
+          )
+          assert sum(section['item_count'] for section in sections) == 122
+
+          assert {'Ivo Velitchkov', 'Patrick Hoverstadt'} <= labels
+          assert published['meta']['release'] == meta['release']
+          assert len(published['reading_list_inventory']) == 122
+          assert '#view=reading-list' in index
+          assert 'Reading list' in index
+          assert 'renderReadingList' in app
+          assert 'Complete structural coverage is not complete critical or full-text coverage' in documentation
+          assert documentation.count('| `reading-list-') == 122
+          assert 'version: 0.13-reading-list-atlas-alpha' in citation
+          assert index.count('https://github.com/antlerboy/the-necessary-tangle/issues/2') == 1
+          assert index.count('data-curator-dot="comments"') == 1
+
+          print(json.dumps({
+              'release': meta['release'],
+              'entries': meta['public_entry_count'],
+              'profiles': meta['profile_count'],
+              'sources': meta['source_count'],
+              'journeys': meta['journey_count'],
+              'edges': len(data['edges']),
+              'reading_list_items': len(inventory),
+              'named_authors_or_organisations': coverage['distinct_author_or_organisation_count'],
+              'maturity': coverage['coverage_counts'],
+          }, indent=2, sort_keys=True))
+          PY
+
+      - name: Remove construction files
+        run: |
+          rm -rf .iteration13-bundle
+          rm -f .github/workflows/apply-iteration-13.yml
+          git status --short
+
+      - name: Commit the validated release
+        run: |
+          git config user.name "Benjamin P Taylor"
+          git config user.email "benjamin.taylor@redquadrant.com"
+          git add -A
+          git diff --cached --check
+          git commit -m "Publish iteration 0.13 reading-list atlas" -m "Represent all 122 works and resources in the maintained reading list, reconcile 121 named authors and organisations, add item-level coverage and a public reading-list view, and distinguish complete inventory coverage from the much smaller set of developed profiles."
+          git push origin HEAD:agent/publish-iteration-13-reading-list
