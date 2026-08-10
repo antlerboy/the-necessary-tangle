@@ -1,4 +1,4 @@
-name: Inspect corrected 0.7 data model
+name: Inspect corrected 0.7 relation vocabulary
 on:
   push:
     branches: ["release-0.7-constellation-alpha-final"]
@@ -12,15 +12,10 @@ jobs:
       - uses: actions/checkout@v7
         with:
           ref: release-0.7-constellation-alpha-final
-      - name: Print representative records
-        run: |
+      - run: |
           python3 - <<'PY'
           import json
           d=json.load(open('data/public-data.json'))
-          for nid in ['person_heinz_von_foerster','concept_emergence','tradition_cybernetics']:
-              n=next(x for x in d['nodes'] if x['id']==nid)
-              print('\nNODE',nid, json.dumps(n,ensure_ascii=False,indent=2))
-          print('\nNODE KEYS',sorted(d['nodes'][0]))
-          print('\nEDGE KEYS',sorted(d['edges'][0]))
-          print('\nSOURCE KEYS',sorted(d['sources'][0]))
+          for r in sorted(d['relation_types'], key=lambda x:x['relation_type']):
+              print(f"{r['relation_type']} | {r['relation_family']} | {r.get('plain_phrase','')} | directed={r.get('directed')}")
           PY
