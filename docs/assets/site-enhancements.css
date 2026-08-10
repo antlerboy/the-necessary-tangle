@@ -238,3 +238,23 @@ blockquote {
 @media (prefers-reduced-motion: reduce) {
   .map-minimap-shell, .curator-secret-dot { transition: none; }
 }
+/* 0.12 practitioner intake and less-scary orientation */
+.start-small-section { margin: 2.3rem 0; }
+.start-small-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(225px, 1fr)); gap: .85rem; }
+.start-small-card { display: grid; align-content: start; gap: .42rem; min-height: 165px; padding: 1.1rem; border: 1px solid var(--line); border-top: 4px solid var(--purple); border-radius: var(--radius); background: var(--panel); box-shadow: var(--shadow); color: inherit; text-decoration: none; }
+.start-small-card strong { color: var(--accent); font-size: 1.13rem; }
+.start-small-card > span:last-child { color: var(--muted); line-height: 1.48; }
+.start-small-card:hover, .start-small-card:focus-visible { border-color: var(--accent); transform: translateY(-2px); color: inherit; }
+.map-orientation-panel { display: grid; gap: .45rem; margin: 0 0 .85rem; padding: .85rem; border: 1px solid var(--line); border-left: 4px solid var(--purple); border-radius: 8px; background: var(--panel-2); }
+.map-orientation-panel p { margin: 0; }
+.map-orientation-links { display: flex; flex-wrap: wrap; gap: .38rem; }
+.map-orientation-links a { padding: .38rem .58rem; border: 1px solid var(--line); border-radius: 999px; background: var(--panel); color: var(--accent); font: 700 .75rem/1.2 Arial, sans-serif; text-decoration: none; }
+.map-orientation-links a:hover, .map-orientation-links a:focus-visible { border-color: var(--accent); }
+.contribution-intake-panel { border-left: 5px solid var(--purple); }
+.feedback-people-callout { border-left: 5px solid var(--orange); }
+.explicit-semantics-callout { border-left: 5px solid var(--purple); }
+.contribution-intake-panel code { overflow-wrap: anywhere; }
+@media (max-width: 680px) {
+  .start-small-card { min-height: 0; }
+  .map-orientation-links { display: grid; grid-template-columns: 1fr 1fr; }
+}

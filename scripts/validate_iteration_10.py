@@ -11,7 +11,7 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA_PATH = ROOT / "data" / "public-data.json"
 DOCS = ROOT / "docs"
 EXPECTED_RELEASE = "0.10-practice-safety-alpha"
-ALLOWED_RELEASES = {EXPECTED_RELEASE, "0.11-visual-map-alpha"}
+ALLOWED_RELEASES = {EXPECTED_RELEASE, "0.11-visual-map-alpha", "0.12-practitioner-intake-alpha"}
 EXPECTED_PUBLIC_COUNT = 417
 EXPECTED_PROFILE_COUNT = 38
 EXPECTED_JOURNEY_COUNT = 13
@@ -46,7 +46,7 @@ PROMINENT_LINKS = {
     "https://www.syscoi.com/": "Systems Community of Inquiry",
     "https://www.systemspractice.org/professional-accreditation": "SCiO capability",
     "https://www.systemspractice.org/professional-development": "SCiO training",
-    "https://www.antlerboy.com/reading-list": "Benjamin's reading list",
+    "https://stream.syscoi.com/2024/10/01/updated-rough-draft-systems-complexity-cybernetics-reading-list/": "Benjamin's reading list",
 }
 PRIVATE_PATTERNS = (
     "sharepoint.com",
@@ -102,13 +102,13 @@ def main() -> int:
 
     if meta.get("release") not in ALLOWED_RELEASES:
         errors.append(f"meta.release must be one of {sorted(ALLOWED_RELEASES)}")
-    if len(public_nodes) != EXPECTED_PUBLIC_COUNT or meta.get("public_entry_count") != EXPECTED_PUBLIC_COUNT:
-        errors.append(f"expected exactly {EXPECTED_PUBLIC_COUNT} canonical public entries")
+    if len(public_nodes) < EXPECTED_PUBLIC_COUNT or meta.get("public_entry_count", 0) < EXPECTED_PUBLIC_COUNT:
+        errors.append(f"expected at least {EXPECTED_PUBLIC_COUNT} canonical public entries")
     developed = len(set(profiles) & public_ids)
-    if developed != EXPECTED_PROFILE_COUNT or meta.get("profile_count") != EXPECTED_PROFILE_COUNT:
-        errors.append(f"expected exactly {EXPECTED_PROFILE_COUNT} developed profiles")
-    if len(journeys) != EXPECTED_JOURNEY_COUNT or meta.get("journey_count") != EXPECTED_JOURNEY_COUNT:
-        errors.append(f"expected exactly {EXPECTED_JOURNEY_COUNT} guided journeys")
+    if developed < EXPECTED_PROFILE_COUNT or meta.get("profile_count", 0) < EXPECTED_PROFILE_COUNT:
+        errors.append(f"expected at least {EXPECTED_PROFILE_COUNT} developed profiles")
+    if len(journeys) < EXPECTED_JOURNEY_COUNT or meta.get("journey_count", 0) < EXPECTED_JOURNEY_COUNT:
+        errors.append(f"expected at least {EXPECTED_JOURNEY_COUNT} guided journeys")
     if len(sources) < EXPECTED_MIN_SOURCES or meta.get("source_count", 0) < EXPECTED_MIN_SOURCES:
         errors.append(f"expected at least {EXPECTED_MIN_SOURCES} sources")
 
@@ -178,8 +178,8 @@ def main() -> int:
         errors.append("AI observations release is stale")
     if "public_risks" in report:
         errors.append("detailed working risk register remains in public data")
-    if report.get("metrics", {}).get("public_entries") != EXPECTED_PUBLIC_COUNT:
-        errors.append("AI observation metrics are stale")
+    if report.get("metrics", {}).get("public_entries", 0) < EXPECTED_PUBLIC_COUNT:
+        errors.append("AI observation metrics have regressed below the 0.10 floor")
 
     index = (DOCS / "index.html").read_text(encoding="utf-8")
     app = (DOCS / "assets" / "app.js").read_text(encoding="utf-8")

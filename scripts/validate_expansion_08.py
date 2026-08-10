@@ -12,7 +12,7 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA_PATH = ROOT / "data" / "public-data.json"
 SEED_PATH = ROOT / "data" / "expansion-08-seed.json"
 DOCS = ROOT / "docs"
-ALLOWED_RELEASES = {"0.8-expansion-alpha", "0.9-observations-alpha", "0.10-practice-safety-alpha", "0.11-visual-map-alpha"}
+ALLOWED_RELEASES = {"0.8-expansion-alpha", "0.9-observations-alpha", "0.10-practice-safety-alpha", "0.11-visual-map-alpha", "0.12-practitioner-intake-alpha"}
 BASELINE_COUNT = 204
 MINIMUM_ADDED = 200
 EXPECTED_PUBLIC_COUNT = 407
@@ -177,7 +177,7 @@ def main() -> int:
             errors.append("the curator notebook must be reachable through exactly one discreet link")
     elif meta.get("release") == "0.10-practice-safety-alpha" and '/issues/2' in index:
         errors.append("the retired public curator-notebook route remains in 0.10")
-    elif meta.get("release") == "0.11-visual-map-alpha":
+    elif meta.get("release") in {"0.11-visual-map-alpha", "0.12-practitioner-intake-alpha"}:
         if index.count('data-curator-dot="comments"') != 1 or index.count('/issues/2') != 1:
             errors.append("the restored curator comment dot is missing or duplicated")
 

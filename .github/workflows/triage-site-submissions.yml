@@ -1,0 +1,77 @@
+name: Triage structured site submissions
+
+on:
+  issues:
+    types: [opened, reopened]
+  workflow_dispatch:
+
+permissions:
+  issues: write
+
+jobs:
+  triage:
+    if: >-
+      github.event_name == 'workflow_dispatch' ||
+      contains(github.event.issue.body || '', 'Prepared from The Necessary Tangle')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Label new submissions or backfill the open queue
+        uses: actions/github-script@v8
+        with:
+          script: |
+            const marker = 'Prepared from The Necessary Tangle';
+            const labels = [
+              {
+                name: 'site-submission',
+                color: '6f4e56',
+                description: 'Structured contribution submitted through The Necessary Tangle site'
+              },
+              {
+                name: 'awaiting-curator-review',
+                color: 'd4a72c',
+                description: 'Not yet accepted, rejected or incorporated by the curator'
+              }
+            ];
+
+            for (const label of labels) {
+              try {
+                await github.rest.issues.getLabel({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  name: label.name
+                });
+              } catch (error) {
+                if (error.status !== 404) throw error;
+                await github.rest.issues.createLabel({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  ...label
+                });
+              }
+            }
+
+            let issues;
+            if (context.eventName === 'issues') {
+              issues = [context.payload.issue];
+            } else {
+              issues = await github.paginate(github.rest.issues.listForRepo, {
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                state: 'open',
+                per_page: 100
+              });
+              issues = issues.filter(issue =>
+                !issue.pull_request && (issue.body || '').includes(marker)
+              );
+            }
+
+            for (const issue of issues) {
+              await github.rest.issues.addLabels({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issue.number,
+                labels: labels.map(label => label.name)
+              });
+            }
+
+            core.info(`Labelled ${issues.length} structured site submission(s).`);

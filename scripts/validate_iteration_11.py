@@ -10,6 +10,7 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA_PATH = ROOT / "data" / "public-data.json"
 DOCS = ROOT / "docs"
 EXPECTED_RELEASE = "0.11-visual-map-alpha"
+ALLOWED_RELEASES = {EXPECTED_RELEASE, "0.12-practitioner-intake-alpha"}
 EXPECTED_PUBLIC_COUNT = 417
 EXPECTED_PROFILE_COUNT = 38
 EXPECTED_JOURNEY_COUNT = 13
@@ -32,14 +33,14 @@ def main() -> int:
     journeys = {journey.get("id") for journey in data.get("journeys", []) if journey.get("id")}
     sources = {source.get("id") for source in data.get("sources", []) if source.get("id")}
 
-    if meta.get("release") != EXPECTED_RELEASE:
-        errors.append(f"meta.release must be {EXPECTED_RELEASE}")
-    if len(public_nodes) != EXPECTED_PUBLIC_COUNT or meta.get("public_entry_count") != EXPECTED_PUBLIC_COUNT:
-        errors.append(f"expected exactly {EXPECTED_PUBLIC_COUNT} canonical public entries")
-    if len(profiles & public_ids) != EXPECTED_PROFILE_COUNT or meta.get("profile_count") != EXPECTED_PROFILE_COUNT:
-        errors.append(f"expected exactly {EXPECTED_PROFILE_COUNT} developed profiles")
-    if len(journeys) != EXPECTED_JOURNEY_COUNT or meta.get("journey_count") != EXPECTED_JOURNEY_COUNT:
-        errors.append(f"expected exactly {EXPECTED_JOURNEY_COUNT} guided journeys")
+    if meta.get("release") not in ALLOWED_RELEASES:
+        errors.append(f"meta.release must be one of {sorted(ALLOWED_RELEASES)}")
+    if len(public_nodes) < EXPECTED_PUBLIC_COUNT or meta.get("public_entry_count", 0) < EXPECTED_PUBLIC_COUNT:
+        errors.append(f"expected at least {EXPECTED_PUBLIC_COUNT} canonical public entries")
+    if len(profiles & public_ids) < EXPECTED_PROFILE_COUNT or meta.get("profile_count", 0) < EXPECTED_PROFILE_COUNT:
+        errors.append(f"expected at least {EXPECTED_PROFILE_COUNT} developed profiles")
+    if len(journeys) < EXPECTED_JOURNEY_COUNT or meta.get("journey_count", 0) < EXPECTED_JOURNEY_COUNT:
+        errors.append(f"expected at least {EXPECTED_JOURNEY_COUNT} guided journeys")
     if len(sources) < EXPECTED_MIN_SOURCES or meta.get("source_count", 0) < EXPECTED_MIN_SOURCES:
         errors.append(f"expected at least {EXPECTED_MIN_SOURCES} sources")
 
@@ -52,7 +53,7 @@ def main() -> int:
         errors.append("map_experience needs at least five explicit principles")
     if experience.get("inspiration", {}).get("url") != "https://visual-meaning.com/our-platform/":
         errors.append("Visual Meaning interaction reference is missing")
-    if data.get("ai_observations", {}).get("release") != EXPECTED_RELEASE:
+    if data.get("ai_observations", {}).get("release") not in ALLOWED_RELEASES:
         errors.append("AI observations release is stale")
 
     index = (DOCS / "index.html").read_text(encoding="utf-8")

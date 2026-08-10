@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.12-practitioner-intake-alpha — 10 August 2026
+
+- Added developed entries for Ivo Velitchkov, Patrick Hoverstadt and their principal works, with explicit human, documentary, conceptual and practice relations.
+- Incorporated site submission #21 by distinguishing viability from evolutionary fitness and adding natural drift as a scoped, contested theoretical account supported by independent public sources.
+- Added developed coverage of *Essential Balances*, requisite inefficiency, *The Grammar of Systems II*, *The Fractal Organisation Manual*, *Patterns of Strategy*, *Critical Systems Thinking: A Practitioner’s Guide*, *Opening the Box*, *Systems Approaches to Making Change* and *Navigating Complexity*.
+- Added an explicit semantic contract and documented Nodica as a public RDF-visualisation comparator rather than an implementation dependency.
+- Replaced the single-thread feedback assumption with a three-feed release intake: running feedback, labelled site submissions and standing research issues.
+- Added automatic labelling and backfill of site-generated contribution issues.
+- Added a less-scary start route, smaller map openings and a guided journey from viability through balance and strategy.
+- Registered the remaining reading-list, SCiO, apprenticeship-workbook, CYBCOM, ASC, Roger James and practitioner-source work without claiming those programmes complete.
+
 ## 0.11-visual-map-alpha — 10 August 2026
 
 - Restored the curator's discreet bottom-right comment dot and reopened the running feedback thread.

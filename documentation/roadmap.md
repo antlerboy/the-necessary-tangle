@@ -24,6 +24,19 @@
 - implement publication controls, remove the detailed risk working register from the public release and retire the public curator-notebook route;
 - add release scanning, CODEOWNERS, contribution checks and security-reporting guidance.
 
+## Release 0.12 public alpha
+
+- add Ivo Velitchkov, Patrick Hoverstadt and their principal public works as developed, connected entries rather than leaving methods without people;
+- incorporate Ivo Velitchkov's site submission on viability and natural drift through independent public sources;
+- document the explicit semantic contract: identity, relation type, direction, wording, status, scope and evidence;
+- compare the semantic model with Nodica without claiming implementation dependence or equivalence;
+- make the site less intimidating by providing one-person, one-concept, guided-route and developed-core openings;
+- reconcile three feedback feeds before release: the running thread, site-generated issues and standing research issues;
+- automatically label and backfill public site submissions for curator review;
+- develop the four headline books in Benjamin P Taylor's current reading list and publish the remaining audit as open work;
+- deepen selected SCiO people, methods and works while retaining the full 13-approach/47-skill inventory;
+- register rather than overclaim the remaining apprenticeship, archive, mailing-list and source-mining programmes.
+
 ## Next curatorial release
 
 The detailed work and completion tests are in [coverage-programme.md](coverage-programme.md).
@@ -39,7 +52,11 @@ The detailed work and completion tests are in [coverage-programme.md](coverage-p
 - distinguish espoused lineage from observed conceptual and practice clustering;
 - document areas where traditions give incompatible accounts of the same term;
 - run the bounded Monoskop pass and turn the first company-knowledge discoveries into public-source replacements;
-- recruit the first research collaborators or domain stewards through bounded pilot tasks.
+- recruit the first research collaborators or domain stewards through bounded pilot tasks;
+- complete the item-by-item audit of Benjamin P Taylor's reading list and the SCiO curriculum;
+- review apprenticeship-workbook references privately, replacing private discovery with public evidence;
+- evaluate Roger James's NotebookLM source set, CYBCOM, Cybernetics Society and ASC archives, and other practitioner collections;
+- run usability tests on the smaller start routes and map, especially with readers who find the current whole intimidating.
 
 ## Later
 
