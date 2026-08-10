@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Make retained interface patches stop or adapt once the 0.11 map is present."""
+"""Make retained interface patches coexist with the later 0.11 map."""
 from __future__ import annotations
 
 from pathlib import Path
@@ -16,7 +16,7 @@ def replace_once(path: Path, old: str, new: str, label: str) -> None:
     path.write_text(text.replace(old, new, 1), encoding="utf-8")
 
 
-def add_semantic_zoom_guard(filename: str, message: str) -> None:
+def preserve_semantic_map_app(filename: str, message: str) -> None:
     path = ROOT / "scripts" / filename
     old = '''def main() -> None:
     patch_index()
@@ -24,14 +24,14 @@ def add_semantic_zoom_guard(filename: str, message: str) -> None:
     patch_css()
 '''
     new = f'''def main() -> None:
-    if APP.exists() and "semanticZoomBand" in APP.read_text(encoding="utf-8"):
-        print("Skipped {message}; the 0.11 map is already built")
-        return
     patch_index()
-    patch_app()
+    if APP.exists() and "semanticZoomBand" in APP.read_text(encoding="utf-8"):
+        print("Preserved the 0.11 map application while refreshing {message}")
+    else:
+        patch_app()
     patch_css()
 '''
-    replace_once(path, old, new, f"semantic-zoom guard in {filename}")
+    replace_once(path, old, new, f"semantic-map preservation in {filename}")
 
 
 def main() -> None:
@@ -69,19 +69,19 @@ def main() -> None:
         "retained activateMapNode patch",
     )
 
-    add_semantic_zoom_guard(
+    preserve_semantic_map_app(
         "patch_expansion_08.py",
-        "0.8 adaptive-map patch",
+        "the 0.8 page and styles",
     )
-    add_semantic_zoom_guard(
+    preserve_semantic_map_app(
         "patch_iteration_09.py",
-        "0.9 interface patch",
+        "the 0.9 page and styles",
     )
-    add_semantic_zoom_guard(
+    preserve_semantic_map_app(
         "patch_iteration_10.py",
-        "0.10 interface patch",
+        "the 0.10 page and styles",
     )
-    print("Made retained interface patches repeatable after the 0.11 map is present")
+    print("Made retained page patches repeatable without replacing the 0.11 map application")
 
 
 if __name__ == "__main__":
