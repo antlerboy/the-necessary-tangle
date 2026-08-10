@@ -1,4 +1,4 @@
-name: Apply corrected 0.7 constellation bundle
+name: Diagnose corrected 0.7 constellation bundle
 
 on:
   push:
@@ -8,59 +8,63 @@ on:
       - ".correct-0.7-bundle/**"
 
 permissions:
-  contents: write
+  contents: read
 
 concurrency:
-  group: apply-correct-0.7-bundle
+  group: diagnose-correct-0.7-bundle
   cancel-in-progress: false
 
 jobs:
-  apply:
+  diagnose:
     runs-on: ubuntu-latest
     steps:
       - name: Check out staged release branch
         uses: actions/checkout@v7
         with:
           ref: release-0.7-constellation-alpha-final
-          fetch-depth: 0
 
-      - name: Reconstruct and inspect release payload
+      - name: Inspect incomplete staged payload
+        shell: bash
         run: |
+          set -u
           cat .correct-0.7-bundle/part-* | base64 --decode > /tmp/tangle-correct-0.7.tar.gz
-          python3 - <<'PY'
-          import pathlib, tarfile
-          archive = '/tmp/tangle-correct-0.7.tar.gz'
-          with tarfile.open(archive, 'r:gz') as tf:
-              members = tf.getmembers()
-              if not members:
-                  raise SystemExit('Release payload is empty')
-              for member in members:
-                  p = pathlib.PurePosixPath(member.name)
-                  if p.is_absolute() or '..' in p.parts:
-                      raise SystemExit(f'Unsafe archive path: {member.name}')
-              print(f'Validated archive paths for {len(members)} members')
-              for member in members[:200]:
-                  print(member.name)
-          PY
+          echo "compressed bytes: $(wc -c < /tmp/tangle-correct-0.7.tar.gz)"
+          sha256sum /tmp/tangle-correct-0.7.tar.gz
 
-      - name: Apply release payload
-        run: |
-          tar -xzf /tmp/tangle-correct-0.7.tar.gz -C .
-          rm -rf .correct-0.7-bundle
+          set +e
+          gzip -dc /tmp/tangle-correct-0.7.tar.gz > /tmp/tangle-correct-0.7.tar
+          gzip_status=$?
+          set -e
+          echo "gzip status: ${gzip_status}"
+          echo "recoverable tar bytes: $(wc -c < /tmp/tangle-correct-0.7.tar)"
 
-      - name: Validate corrected 0.7 release
-        run: |
-          make validate
+          echo "--- recoverable tar members ---"
+          set +e
+          tar -tvf /tmp/tangle-correct-0.7.tar
+          tar_status=$?
+          set -e
+          echo "tar list status: ${tar_status}"
 
-      - name: Commit validated release branch
-        run: |
-          rm -f .github/workflows/apply-correct-0.7-bundle.yml
-          git config user.name "Benjamin P Taylor"
-          git config user.email "ben.taylor@redquadrant.com"
-          git add -A
-          if git diff --cached --quiet; then
-            echo "No changes produced by corrected bundle"
-            exit 1
+          mkdir -p /tmp/tangle-partial
+          set +e
+          tar -xf /tmp/tangle-correct-0.7.tar -C /tmp/tangle-partial
+          extract_status=$?
+          set -e
+          echo "tar extract status: ${extract_status}"
+
+          echo "--- recovered files ---"
+          find /tmp/tangle-partial -type f -printf '%P\t%s bytes\n' | sort | head -300
+
+          echo "--- likely release metadata ---"
+          for f in README.md CHANGELOG.md CITATION.cff manifest.json release-manifest.json documentation/roadmap.md documentation/coverage-programme.md; do
+            if [ -f "/tmp/tangle-partial/$f" ]; then
+              echo "===== $f ====="
+              sed -n '1,220p' "/tmp/tangle-partial/$f"
+            fi
+          done
+
+          if [ "$gzip_status" -eq 0 ] && [ "$tar_status" -eq 0 ] && [ "$extract_status" -eq 0 ]; then
+            echo "Payload is complete after all."
+          else
+            echo "Payload is incomplete; diagnostic completed without modifying the branch."
           fi
-          git commit -m "Apply corrected 0.7 constellation alpha release" -m "Reconstruct the staged final release payload, validate the public atlas, and replace the superseded 295-entry build with the corrected constellation release."
-          git push origin HEAD:release-0.7-constellation-alpha-final
