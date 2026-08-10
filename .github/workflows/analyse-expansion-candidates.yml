@@ -1,0 +1,171 @@
+name: Analyse expansion candidates
+
+on:
+  push:
+    branches: ["agent/expand-tangle-400"]
+    paths:
+      - ".github/workflows/analyse-expansion-candidates.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  analyse:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out expansion branch
+        uses: actions/checkout@v7
+        with:
+          ref: agent/expand-tangle-400
+          fetch-depth: 0
+
+      - name: Reconstruct the superseded iteration as a candidate ledger
+        shell: bash
+        run: |
+          set -euo pipefail
+          git fetch origin big-iteration-0.7:refs/remotes/origin/big-iteration-0.7
+          : > /tmp/iteration.b64
+          while IFS= read -r f; do
+            git show "origin/big-iteration-0.7:$f" >> /tmp/iteration.b64
+          done < <(git ls-tree -r --name-only origin/big-iteration-0.7 .iteration-bundle | sort)
+          base64 --decode /tmp/iteration.b64 > /tmp/iteration.tar.gz
+          mkdir -p /tmp/iteration
+          tar -xzf /tmp/iteration.tar.gz -C /tmp/iteration
+          echo "Recovered files:"
+          find /tmp/iteration -type f -printf '%P\n' | sort
+
+      - name: Apply the old iteration in an isolated worktree
+        shell: bash
+        run: |
+          set -euo pipefail
+          git worktree add --detach /tmp/oldwork HEAD
+          cp -a /tmp/iteration/. /tmp/oldwork/
+          cd /tmp/oldwork
+          if test -f requirements-analysis.txt; then
+            python3 -m pip install --quiet -r requirements-analysis.txt || true
+          fi
+          set +e
+          make validate > /tmp/old-validate.log 2>&1
+          echo $? > /tmp/old-validate.status
+          set -e
+          tail -120 /tmp/old-validate.log
+
+      - name: Produce candidate ledger and report
+        run: |
+          mkdir -p analysis
+          python3 - <<'PY'
+          import json
+          from collections import Counter
+          from pathlib import Path
+
+          current = json.loads(Path('data/public-data.json').read_text())
+          old_path = Path('/tmp/oldwork/data/public-data.json')
+          if not old_path.exists():
+              raise SystemExit('Old iteration did not produce data/public-data.json')
+          old = json.loads(old_path.read_text())
+
+          def canonical_public(data):
+              redirects = data.get('canonical_redirects', {})
+              return {
+                  n['id']: n for n in data.get('nodes', [])
+                  if n.get('public_visibility') == 'public'
+                  and redirects.get(n['id'], n['id']) == n['id']
+              }
+
+          cur_nodes = canonical_public(current)
+          old_nodes = canonical_public(old)
+          new_ids = sorted(set(old_nodes) - set(cur_nodes))
+          removed_ids = sorted(set(cur_nodes) - set(old_nodes))
+          new_nodes = [old_nodes[nid] for nid in new_ids]
+          new_id_set = set(new_ids)
+          edge_candidates = [
+              e for e in old.get('edges', [])
+              if e.get('source') in new_id_set or e.get('target') in new_id_set
+          ]
+          source_ids = set()
+          for n in new_nodes:
+              raw = n.get('source_ids', [])
+              if isinstance(raw, str):
+                  try: raw = json.loads(raw)
+                  except Exception: raw = []
+              source_ids.update(raw or [])
+          for e in edge_candidates:
+              raw = e.get('source_ids', [])
+              if isinstance(raw, str):
+                  try: raw = json.loads(raw)
+                  except Exception: raw = []
+              source_ids.update(raw or [])
+          sources = [s for s in old.get('sources', []) if s.get('id') in source_ids]
+
+          ledger = {
+              'source_branch': 'big-iteration-0.7',
+              'warning': 'Candidate ledger only; the branch is superseded and is not to be merged wholesale.',
+              'current_public_count': len(cur_nodes),
+              'old_public_count': len(old_nodes),
+              'candidate_count': len(new_nodes),
+              'removed_from_old_count': len(removed_ids),
+              'nodes': new_nodes,
+              'edges': edge_candidates,
+              'sources': sources,
+          }
+          Path('analysis/old-branch-candidate-ledger.json').write_text(
+              json.dumps(ledger, ensure_ascii=False, indent=2) + '\n'
+          )
+
+          type_counts = Counter(n.get('entity_type', 'unknown') for n in new_nodes)
+          status_counts = Counter(n.get('review_status') or n.get('status') or 'unknown' for n in new_nodes)
+          no_sources = []
+          short_descriptions = []
+          for n in new_nodes:
+              raw = n.get('source_ids', [])
+              if isinstance(raw, str):
+                  try: raw = json.loads(raw)
+                  except Exception: raw = []
+              if not raw:
+                  no_sources.append(n['id'])
+              text = n.get('canonical_definition') or n.get('description') or n.get('public_stub_text') or ''
+              if len(str(text).split()) < 12:
+                  short_descriptions.append(n['id'])
+
+          recovered_files = sorted(
+              str(p.relative_to('/tmp/iteration'))
+              for p in Path('/tmp/iteration').rglob('*') if p.is_file()
+          )
+          interesting = [f for f in recovered_files if any(k in f.casefold() for k in ('foundational', 'corpus', 'inventory', 'research_iteration', 'principia'))]
+          validate_status = Path('/tmp/old-validate.status').read_text().strip()
+
+          lines = [
+              '# Expansion candidate analysis', '',
+              f'- Current canonical public entries: {len(cur_nodes)}',
+              f'- Superseded iteration canonical public entries after its build: {len(old_nodes)}',
+              f'- Net candidate entries not already on current main: {len(new_nodes)}',
+              f'- Current entries absent from the superseded build: {len(removed_ids)}',
+              f'- Isolated old build validation exit status: {validate_status}', '',
+              '## Candidate entries by type', '',
+          ]
+          lines += [f'- {k}: {v}' for k, v in sorted(type_counts.items())]
+          lines += ['', '## Candidate review/status labels', '']
+          lines += [f'- {k}: {v}' for k, v in sorted(status_counts.items())]
+          lines += ['', '## Quality checks', '',
+                    f'- Candidate entries without source IDs: {len(no_sources)}',
+                    f'- Candidate entries with descriptions shorter than 12 words: {len(short_descriptions)}',
+                    f'- Candidate incident edges: {len(edge_candidates)}',
+                    f'- Candidate source records: {len(sources)}', '',
+                    '## Candidate labels', '']
+          for n in sorted(new_nodes, key=lambda x: x.get('label', '').casefold()):
+              lines.append(f"- {n.get('label')} [{n.get('entity_type')}] — `{n.get('id')}`")
+          lines += ['', '## Relevant recovered files', '']
+          lines += [f'- `{f}`' for f in interesting]
+          lines += ['', '## Entries missing from the old build', '']
+          lines += [f'- `{nid}`' for nid in removed_ids]
+          lines += ['', 'The JSON ledger contains the complete candidate node, incident-edge and source records for the next evidence-gated pass.', '']
+          Path('analysis/expansion-candidate-report.md').write_text('\n'.join(lines))
+          PY
+
+      - name: Commit the diagnostic ledger
+        run: |
+          git config user.name "Benjamin P Taylor"
+          git config user.email "ben.taylor@redquadrant.com"
+          git add analysis/
+          git commit -m "Analyse expansion candidates from superseded iteration"
+          git push origin HEAD:agent/expand-tangle-400
