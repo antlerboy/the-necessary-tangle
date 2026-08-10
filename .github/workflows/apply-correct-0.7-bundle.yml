@@ -13,7 +13,7 @@ jobs:
         with:
           ref: release-0.7-constellation-alpha-final
           fetch-depth: 0
-      - name: Extract recoverable corrected release specification
+      - name: Extract exact corrected 0.7 connection clues
         run: |
           cat .correct-0.7-bundle/part-* | base64 --decode > /tmp/correct.tar.gz
           set +e
@@ -21,40 +21,39 @@ jobs:
           mkdir -p /tmp/correct
           tar -xf /tmp/correct.tar -C /tmp/correct
           set -e
-          git show origin/main:documentation/public-knowledge-for-chatgpt.md > /tmp/main-public.md
           python3 - <<'PY'
           from pathlib import Path
-          def sections(path):
-              lines=Path(path).read_text().splitlines()
-              try: start=lines.index('# Public entries')+1
-              except ValueError: start=0
-              out={}; cur=None; buf=[]
-              for line in lines[start:]:
-                  if line.startswith('## '):
-                      if cur is not None: out[cur]='\n'.join(buf).rstrip()+'\n'
-                      cur=line[3:]; buf=[line]
-                  elif cur is not None: buf.append(line)
-              if cur is not None: out[cur]='\n'.join(buf).rstrip()+'\n'
-              return out
-          main=sections('/tmp/main-public.md')
-          corrected=sections('/tmp/correct/documentation/public-knowledge-for-chatgpt.md')
-          added=sorted(set(corrected)-set(main), key=str.casefold)
-          removed=sorted(set(main)-set(corrected), key=str.casefold)
-          changed=sorted((k for k in set(main)&set(corrected) if main[k]!=corrected[k]), key=str.casefold)
-          print('ADDED PUBLIC ENTRY HEADINGS:', len(added))
-          for k in added: print('-',k)
-          print('REMOVED PUBLIC ENTRY HEADINGS:', len(removed), removed)
-          print('CHANGED EXISTING PUBLIC ENTRY SECTIONS:', len(changed))
-          for k in changed: print('-',k)
-          print('\n===== FULL ADDED ENTRY SECTIONS =====')
-          for k in added:
-              print(corrected[k])
+          p=Path('/tmp/correct/documentation/public-knowledge-for-chatgpt.md')
+          lines=p.read_text().splitlines()
+          names=['Cliff Joslyn','Evolutionary cybernetics','Francis Heylighen','Global brain','Metasystem transition','Principia Cybernetica Project','Principia Cybernetica Web','Semantic network','Valentin Turchin']
+          print('===== HEADINGS =====')
+          for i,line in enumerate(lines,1):
+              if line.startswith('#'):
+                  print(f'{i}: {line}')
+          print('===== OCCURRENCES OUTSIDE ENTRY DESCRIPTIONS =====')
+          for name in names:
+              print('\n###',name)
+              hits=[i for i,line in enumerate(lines) if name.casefold() in line.casefold()]
+              for i in hits:
+                  lo=max(0,i-3); hi=min(len(lines),i+4)
+                  print(f'-- lines {lo+1}-{hi} --')
+                  for j in range(lo,hi): print(f'{j+1}: {lines[j]}')
+          print('\n===== EMERGENT CATEGORY JSON =====')
+          print(Path('/tmp/correct/documentation/emergent-categories-analysis.json').read_text())
           PY
-          echo "===== RECOVERED VALIDATOR PREFIX ====="
-          cat /tmp/correct/scripts/validate_constellation.py
-          echo "===== PRINCIPIA FIRST PASS ====="
-          cat /tmp/correct/documentation/principia-cybernetica-first-pass.md
-          echo "===== CANONICAL SOURCE REGISTER ====="
-          cat /tmp/correct/documentation/canonical-source-register.md
-          echo "===== EMERGENT CATEGORIES ====="
-          cat /tmp/correct/documentation/emergent-categories.md
+          echo "===== MAIN RELATION TYPES LIKELY RELEVANT ====="
+          git show origin/main:data/public-data.json > /tmp/main.json
+          python3 - <<'PY'
+          import json
+          d=json.load(open('/tmp/main.json'))
+          terms=('member','collab','develop','formulat','semantic','emerg','self-organ','associated','contribut','influenc','created','authored','part_of','instantiate','special')
+          for r in d.get('relation_types',[]):
+              text=' '.join(str(v) for v in r.values()).lower()
+              if any(t in text for t in terms):
+                  print(json.dumps(r,ensure_ascii=False,sort_keys=True))
+          print('===== RELEVANT EXISTING EDGE EXAMPLES =====')
+          for e in d.get('edges',[]):
+              text=' '.join(str(v) for v in e.values()).lower()
+              if any(t in text for t in ('collaborat','developed','formulated','member','semantic network','self-organisation','emergence')):
+                  print(json.dumps(e,ensure_ascii=False,sort_keys=True))
+          PY
