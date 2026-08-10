@@ -35,6 +35,16 @@ def add_semantic_zoom_guard(filename: str, message: str) -> None:
 
 
 def main() -> None:
+    makefile = ROOT / "Makefile"
+    text = makefile.read_text(encoding="utf-8")
+    normalise_line = "\tpython3 scripts/normalise_iteration_11_dot.py\n"
+    if normalise_line not in text:
+        marker = "\tpython3 scripts/patch_iteration_11.py\n"
+        if marker not in text:
+            raise RuntimeError("Could not wire curator-dot normalisation after the 0.11 patch")
+        text = text.replace(marker, marker + normalise_line, 1)
+        makefile.write_text(text, encoding="utf-8")
+
     constellation = ROOT / "scripts" / "patch_constellation_07.py"
     replace_once(
         constellation,
