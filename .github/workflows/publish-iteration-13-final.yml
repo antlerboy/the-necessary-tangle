@@ -121,7 +121,7 @@ jobs:
             data docs documentation README.md ACKNOWLEDGEMENTS.md CHANGELOG.md CITATION.cff scripts
           grep -F "Release 0.13 contains 464 canonical public entries" README.md
           grep -F "Practice-source discovery" documentation/sources-to-mine.md
-          grep -F "AI observations are regenerated on every complete build" documentation/ai-observations.md
+          grep -F "Measurements are recalculated from the public graph on every build." documentation/ai-observations.md
 
       - name: Commit the validated candidate
         shell: bash
