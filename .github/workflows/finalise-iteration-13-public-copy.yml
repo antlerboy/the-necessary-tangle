@@ -1,0 +1,110 @@
+name: Finalise iteration 0.13 public copy
+
+on:
+  push:
+    branches: ["agent/iteration-13-expertise-observations"]
+    paths:
+      - ".github/workflows/finalise-iteration-13-public-copy.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: finalise-iteration-13-public-copy
+  cancel-in-progress: false
+
+jobs:
+  finalise:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out candidate branch
+        uses: actions/checkout@v7
+        with:
+          ref: agent/iteration-13-expertise-observations
+          fetch-depth: 0
+
+      - name: Make public copy expertise-led and release-current
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          from pathlib import Path
+
+          path = Path('scripts/patch_iteration_13.py')
+          text = path.read_text(encoding='utf-8')
+
+          replacements = {
+              '    (ROOT / "README.md").write_text(clean(readme), encoding="utf-8")': '''    readme = readme.replace(
+              "This is a public alpha. Release 0.12 contains 442 canonical public entries, including 58 developed profiles, 114 sources and 14 guided journeys.",
+              "This is a public alpha. Release 0.13 contains 464 canonical public entries, including 80 developed profiles, 125 sources and 15 guided journeys.",
+          )
+          readme = readme.replace(
+              "The [coverage programme](documentation/coverage-programme.md) now makes the next corpus and lineage passes explicit, including the *Foundational Papers in Complexity Science*, relevant Monoskop material, the SysCoI and model.report archives, prior maps and bodies of knowledge, practitioner influence constellations, and private company-knowledge discovery with public-source replacement.",
+              "The [coverage programme](documentation/coverage-programme.md) makes the next corpus and lineage passes explicit, including the *Foundational Papers in Complexity Science*, relevant Monoskop material, the SysCoI and model.report archives, prior maps and bodies of knowledge, practitioner influence constellations, and practice sources which can be supported by public evidence.",
+          )
+          (ROOT / "README.md").write_text(clean(readme), encoding="utf-8")''',
+              '    changelog = re.sub(r"^- Removed public links and prose tied to .*?\\n", "", changelog, count=1, flags=re.M)': '''    changelog = changelog.replace(
+              "- Removed the public running-notebook route; contributions now use structured issue and participation forms.",
+              "- Consolidated public contribution routes around structured issues and participation forms.",
+          )
+          changelog = changelog.replace(
+              "- created explicit corpus and lineage issues for the *Foundational Papers in Complexity Science*, Monoskop, SysCoI/model.report, prior maps and bodies of knowledge, practitioner influence constellations, and private company-knowledge discovery;",
+              "- defined corpus and lineage research programmes for the *Foundational Papers in Complexity Science*, Monoskop, SysCoI/model.report, prior maps and bodies of knowledge, and practitioner influence constellations;",
+          )
+          changelog = re.sub(r"^- Removed public links and prose tied to .*?\\n", "", changelog, count=1, flags=re.M)''',
+          }
+
+          for old, new in replacements.items():
+              if old not in text:
+                  raise SystemExit(f'Could not find expected source marker: {old[:80]}')
+              text = text.replace(old, new, 1)
+
+          path.write_text(text, encoding='utf-8')
+          PY
+
+      - name: Build, validate and prove reproducibility
+        shell: bash
+        run: |
+          set -euo pipefail
+          make validate
+          find . -type f \
+            ! -path './.git/*' \
+            ! -path './scripts/__pycache__/*' \
+            ! -path './validation/*' \
+            ! -path './.github/workflows/finalise-iteration-13-public-copy.yml' \
+            -print0 | sort -z | xargs -0 sha256sum > /tmp/build-a.sha256
+          make validate
+          find . -type f \
+            ! -path './.git/*' \
+            ! -path './scripts/__pycache__/*' \
+            ! -path './validation/*' \
+            ! -path './.github/workflows/finalise-iteration-13-public-copy.yml' \
+            -print0 | sort -z | xargs -0 sha256sum > /tmp/build-b.sha256
+          cmp /tmp/build-a.sha256 /tmp/build-b.sha256
+          git diff --check
+
+      - name: Verify public-language boundary
+        shell: bash
+        run: |
+          set -euo pipefail
+          grep -F "Release 0.13 contains 464 canonical public entries" README.md
+          grep -F "practice sources which can be supported by public evidence" README.md
+          grep -F "Consolidated public contribution routes" CHANGELOG.md
+          grep -F "defined corpus and lineage research programmes" CHANGELOG.md
+          ! grep -RInEi \
+            "the-necessary-tangle/issues/2([^0-9]|$)|OpenAI|ChatGPT|running-notebook|private company-knowledge discovery|Ivo Velitchkov's site submission|Patrick Hoverstadt's absence|missed by an earlier release|running feedback thread|site submission #21|issue #21|private working exchanges|editorial backstory|broken intake loop|omission exposed|present without the person" \
+            data docs documentation README.md ACKNOWLEDGEMENTS.md CHANGELOG.md CITATION.cff
+
+      - name: Commit corrected candidate
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm -f .github/workflows/finalise-iteration-13-public-copy.yml
+          rm -rf scripts/__pycache__
+          git config user.name "Benjamin P Taylor"
+          git config user.email "benjamin.taylor@redquadrant.com"
+          git add -A
+          git diff --cached --check
+          git commit -m "Keep iteration 0.13 public copy expertise-led" -m "Update release counts and replace residual process-history wording with neutral descriptions of public contribution routes, research programmes and evidence standards."
+          git push origin HEAD:agent/iteration-13-expertise-observations
