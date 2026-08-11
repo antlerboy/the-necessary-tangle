@@ -54,6 +54,7 @@ jobs:
         run: |
           set -euo pipefail
           make validate
+          cp docs/index.html /tmp/index-a.html
           find . -type f \
             ! -path './.git/*' \
             ! -path './scripts/__pycache__/*' \
@@ -63,6 +64,7 @@ jobs:
             ! -path './.github/workflows/export-iteration-14-source.yml' \
             -print0 | sort -z | xargs -0 sha256sum > /tmp/build-a.sha256
           make build
+          cp docs/index.html /tmp/index-b.html
           find . -type f \
             ! -path './.git/*' \
             ! -path './scripts/__pycache__/*' \
@@ -71,7 +73,13 @@ jobs:
             ! -path './.github/workflows/apply-iteration-14.yml' \
             ! -path './.github/workflows/export-iteration-14-source.yml' \
             -print0 | sort -z | xargs -0 sha256sum > /tmp/build-b.sha256
-          cmp /tmp/build-a.sha256 /tmp/build-b.sha256
+          if ! cmp /tmp/build-a.sha256 /tmp/build-b.sha256; then
+            echo 'Changed paths:'
+            join -j 2 <(sort -k2 /tmp/build-a.sha256) <(sort -k2 /tmp/build-b.sha256) | awk '$2 != $3 {print $1, $2, $3}'
+            echo 'Index diff:'
+            diff -u /tmp/index-a.html /tmp/index-b.html || true
+            exit 1
+          fi
           git diff --check
 
       - name: Verify the release contract
