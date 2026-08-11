@@ -42,6 +42,13 @@ jobs:
           git apply --check /tmp/iteration-14-validator-scrub.patch
           git apply /tmp/iteration-14-validator-scrub.patch
 
+          base64 --decode .release/iteration-14-idempotency.patch.xz.b64 > /tmp/iteration-14-idempotency.patch.xz
+          test "$(wc -c < /tmp/iteration-14-idempotency.patch.xz)" -eq 648
+          echo "19ef91703307a7777af611bc6d2577b8e4d000915726890339977a46571d866a  /tmp/iteration-14-idempotency.patch.xz" | sha256sum -c -
+          xz -dc /tmp/iteration-14-idempotency.patch.xz > /tmp/iteration-14-idempotency.patch
+          git apply --check /tmp/iteration-14-idempotency.patch
+          git apply /tmp/iteration-14-idempotency.patch
+
       - name: Build, validate and prove repeatability
         shell: bash
         run: |
