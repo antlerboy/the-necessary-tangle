@@ -85,7 +85,8 @@ jobs:
           assert observations['release'] == meta['release']
           assert observations['generated'] == meta['generated']
           assert len(observations['observations']) == 11
-          assert Path('documentation/ai-observations.md').read_text(encoding='utf-8').count('## Observation ') == 11
+          observation_doc = Path('documentation/ai-observations.md').read_text(encoding='utf-8')
+          assert all(f"## {item['title']}" in observation_doc for item in observations['observations'])
 
           profiles = {profile['node_id']: profile for profile in data['profiles']}
           ivo = json.dumps(profiles['person_ivo_velitchkov']).casefold()
