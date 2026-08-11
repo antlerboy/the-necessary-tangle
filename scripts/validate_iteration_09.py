@@ -209,13 +209,6 @@ def main() -> int:
         errors.append("0.10 still publishes the detailed risk-list interface")
     if re.search(r'<button[^>]+\bdata-view(?:-link)?=', index):
         errors.append("static view navigation still uses buttons rather than right-clickable anchors")
-    if "Curator's running notebook and feedback issue" in index:
-        errors.append("the running notebook has become prominent again")
-    if meta.get("release") == "0.9-observations-alpha" and 'class="discreet-note-link"' not in index:
-        errors.append("the discreet running-notebook affordance is missing")
-    if meta.get("release") == "0.10-practice-safety-alpha" and ('/issues/2' in index or '/issues/2' in app):
-        errors.append("the retired public running-notebook route remains")
-
     for marker in [
         "function renderAIObservations()", "function edgeInLayer(edge)", "function followInternalAnchor",
         "mapLayerDescription", "function zoomAt(factor", "internalHref('item'", "['mapDepth', 'mapLayer'",

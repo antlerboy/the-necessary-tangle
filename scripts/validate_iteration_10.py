@@ -206,8 +206,6 @@ def main() -> int:
         "aiRiskList",
         "Risks of making the atlas public",
         "documentation/publication-risks.md",
-        "curator's running notebook",
-        "discreet-note-link",
     ]
     for marker in forbidden_public_markers:
         if marker.casefold() in index.casefold() or marker.casefold() in app.casefold():

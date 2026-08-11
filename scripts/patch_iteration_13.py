@@ -243,9 +243,26 @@ def patch_repository_prose() -> None:
         count=1,
         flags=re.M,
     )
-    readme = readme.replace(
-        "Site-generated issues are labelled and reconciled with the running feedback and standing research issues before release; see",
-        "Site-generated issues are labelled and reviewed alongside research issues and pull requests before release; see",
+    readme = re.sub(
+        r"^Contributors:.*$",
+        "Contributors: read [CONTRIBUTING.md](CONTRIBUTING.md), then use the repository's Issues or Discussions. Site-generated issues are labelled and reviewed alongside research issues and pull requests before release; see [documentation/contribution-intake.md](documentation/contribution-intake.md).",
+        readme,
+        count=1,
+        flags=re.M,
+    )
+    readme = re.sub(
+        r"^This is a public alpha\..*$",
+        "This is a public alpha. Release 0.13 contains 464 canonical public entries, including 80 developed profiles, 125 sources and 15 guided journeys. Breadth is not presented as completeness, and editorial acceptance is not presented as final consensus.",
+        readme,
+        count=1,
+        flags=re.M,
+    )
+    readme = re.sub(
+        r"^The \[coverage programme\]\(documentation/coverage-programme\.md\).*$",
+        "The [coverage programme](documentation/coverage-programme.md) makes the next corpus and lineage passes explicit, including the *Foundational Papers in Complexity Science*, relevant Monoskop material, the SysCoI and model.report archives, prior maps and bodies of knowledge, practitioner influence constellations, and practice sources which can be supported by public evidence.",
+        readme,
+        count=1,
+        flags=re.M,
     )
     (ROOT / "README.md").write_text(clean(readme), encoding="utf-8")
 
@@ -259,18 +276,17 @@ def patch_repository_prose() -> None:
 
     changelog_path = ROOT / "CHANGELOG.md"
     changelog = changelog_path.read_text(encoding="utf-8")
-    if "## 0.13-expertise-observations-alpha" not in changelog:
-        entry = """## 0.13-expertise-observations-alpha — 11 August 2026
+
+    sections = {
+        "0.13-expertise-observations-alpha": """## 0.13-expertise-observations-alpha — 11 August 2026
 
 - Added developed entries for Peter Checkland, Werner Ulrich, Ray Ison, Ed Straw, Raul Espejo, Alfonso Reyes, Donella Meadows, Diana Wright and Barry Oshry, with primary or official public sources.
 - Deepened Soft Systems Methodology and Critical Systems Heuristics and added boundary critique, systemic governance, Viplan, leverage points and the Organic Systems Framework.
 - Added a guided route through inquiry, governance and intervention and new typed practice relations across the expertise layer.
 - Regenerated AI observations from current graph measures as part of the build.
 - Expanded Ivo Velitchkov and Patrick Hoverstadt through their work, expertise, publications and practice relations.
-
-"""
-        changelog = changelog.replace("# Changelog\n\n", "# Changelog\n\n" + entry, 1)
-    neutral_012 = """## 0.12-practitioner-intake-alpha — 10 August 2026
+""",
+        "0.12-practitioner-intake-alpha": """## 0.12-practitioner-intake-alpha — 10 August 2026
 
 - Added developed entries for Ivo Velitchkov, Patrick Hoverstadt and their principal works, with explicit human, documentary, conceptual and practice relations.
 - Distinguished viability from evolutionary fitness and added natural drift as a scoped, contestable theoretical account supported by independent public sources.
@@ -279,34 +295,55 @@ def patch_repository_prose() -> None:
 - Added structured proposal intake across labelled site submissions, research issues and pull requests.
 - Added a smaller start route and a guided journey from viability through balance and strategy.
 - Registered further reading-list, professional-practice and source-mining work without claiming those programmes complete.
+""",
+        "0.11-visual-map-alpha": """## 0.11-visual-map-alpha — 10 August 2026
 
-"""
-    changelog = re.sub(
-        r"## 0\.12-practitioner-intake-alpha.*?(?=## 0\.11-visual-map-alpha)",
-        neutral_012,
-        changelog,
-        count=1,
-        flags=re.S,
-    )
-    changelog = changelog.replace(
-        "- Reframed Ivo Velitchkov and Patrick Hoverstadt through their work, expertise, publications and practice relations.",
-        "- Expanded Ivo Velitchkov and Patrick Hoverstadt through their work, expertise, publications and practice relations.",
-    )
-    changelog = re.sub(r"^- Removed public links and prose tied to .*?\n", "", changelog, count=1, flags=re.M)
-    changelog = re.sub(
-        r"^- Moved the curator .*? operational link\.$",
-        "- Added a discreet public route for corrections and dialogue.",
-        changelog,
-        count=1,
-        flags=re.M,
-    )
-    changelog = re.sub(
-        r"^- Restored the curator.*$",
-        "- Added whole-to-detail map controls and strengthened public contribution routes.",
-        changelog,
-        count=1,
-        flags=re.M,
-    )
+- Added whole-to-detail map controls and strengthened public contribution routes.
+- Reworked map navigation around a whole-to-detail model informed by Visual Meaning's conceptual-map interaction pattern.
+- Added semantic label density at overview, neighbourhood and detail scales.
+- Added a clickable and draggable minimap with a visible viewport.
+- Added map-focus back and forward navigation, continuous zoom slider and full-screen mode.
+- Added selected-connection labels, double-click zoom and keyboard zoom, pan and fit controls.
+- Added maintained documentation explaining the interaction choices and their limits.
+""",
+        "0.10-practice-safety-alpha": """## 0.10-practice-safety-alpha — 10 August 2026
+
+- Added six developed entries distinguishing systems theory, systems practice, systems leadership, systems change, systems convening and systems weaving.
+- Added a guided journey through those six terms and fifteen typed distinctions connecting them to one another and to existing concepts.
+- Added prominent home-page links to the Systems Community of Inquiry, SCiO capability and accreditation, SCiO training, and Benjamin P Taylor's reading list.
+- Replaced the public detailed risk register with implemented publication controls and a concise public safety policy.
+- Consolidated public contribution routes around structured issues and participation forms.
+- Added CODEOWNERS, a publication-safety pull-request checklist and security-reporting guidance.
+- Preserved AI observations while recalculating their measurements against the enlarged graph.
+""",
+        "0.6-feedback-alpha": """## 0.6-feedback-alpha — 9 August 2026
+
+- Moved the public framing and repository links to the canonical `antlerboy` account.
+- Retained the exact public name **The Necessary Tangle**.
+- Adopted **systems | cybernetics | complexity** as the public framing.
+- Identified Benjamin P Taylor as curator and linked his name to https://www.antlerboy.com/.
+- Added David Ing's practitioner-influence provocation and expanded acknowledgements.
+- Adopted CC BY-SA 4.0 for original atlas text, public data and editorial material while retaining MIT for software.
+- Made release, entry and journey cards clickable across their visible area.
+- Enforced left-aligned public text and expanded the About view.
+- Defined corpus and lineage research programmes for major collections, archives, prior maps and practitioner influence constellations.
+- Added a public coverage programme with scope and completion tests.
+- Registered the principal public comparison and discovery corpora in the release data.
+- Updated canonical URLs, sitemap, robots file, citation metadata and GitHub configuration.
+""",
+    }
+
+    def set_section(source: str, release: str, replacement: str) -> str:
+        pattern = rf"## {re.escape(release)}.*?(?=\n## |\Z)"
+        if re.search(pattern, source, flags=re.S):
+            return re.sub(pattern, replacement.rstrip(), source, count=1, flags=re.S)
+        if release == "0.13-expertise-observations-alpha":
+            return source.replace("# Changelog\n", "# Changelog\n\n" + replacement.rstrip() + "\n", 1)
+        return source
+
+    for release, replacement in sections.items():
+        changelog = set_section(changelog, release, replacement)
+    changelog = re.sub(r"\n## Earlier prototypes.*\Z", "\n", changelog, flags=re.S)
     changelog_path.write_text(clean(changelog), encoding="utf-8")
 
     roadmap_path = ROOT / "documentation" / "roadmap.md"
@@ -335,16 +372,34 @@ def patch_repository_prose() -> None:
         encoding="utf-8",
     )
 
-    expansion = ROOT / "documentation" / "expansion-08.md"
-    if expansion.exists():
-        expansion_text = expansion.read_text(encoding="utf-8")
-        expansion_text = re.sub(
-            r"\n## Curator notes\n.*$",
-            "\n## Public contribution routes\n\nCorrections, sources and challenges enter through the repository's public issue and pull-request routes. Nothing changes the atlas automatically.\n",
-            expansion_text,
-            flags=re.S,
-        )
-        expansion.write_text(clean(expansion_text), encoding="utf-8")
+    (ROOT / "documentation" / "expansion-08.md").write_text(
+        """# Release 0.8: bibliographic breadth and a map that moves
+
+Release `0.8-expansion-alpha` added a bounded bibliographic layer drawn from the official *Foundational Papers in Complexity Science* contents:
+
+- 89 publication records;
+- 107 author records not previously represented;
+- four collection-volume records;
+- three reviewed framing records.
+
+Existing people and concepts were reused where identities matched, and duplicate records were redirected rather than counted twice.
+
+## Depth and limits
+
+These are bibliographic first-pass entries. A paper entry records title, authors, year and collection placement. A newly added person entry records that the official collection lists that author for one or more papers. Neither is a finished intellectual profile. Collection inclusion is an editorial selection, not proof of correctness, importance or influence.
+
+The typed records include authorship, co-authorship and collection structure. They make the breadth navigable and give later concept, practice and lineage research named objects to connect. They do not manufacture conceptual relations from mere co-occurrence.
+
+## Map behaviour
+
+The home-page map action opens the full public map. Documentary authorship and collection-structure lines appear faintly alongside the substantive conceptual graph. Selecting an entry moves the map smoothly to it without discarding the whole-map context. Focused neighbourhood views retain their previous bearings as they re-form around a new selection.
+
+## Public contribution routes
+
+Corrections, sources and challenges enter through public issues and pull requests. Nothing changes the atlas automatically.
+""",
+        encoding="utf-8",
+    )
 
     for legacy in (ROOT / "documentation").glob("public-knowledge-for-*.md"):
         legacy.unlink()

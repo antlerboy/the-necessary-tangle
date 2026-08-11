@@ -7,7 +7,6 @@
 - Added a guided route through inquiry, governance and intervention and new typed practice relations across the expertise layer.
 - Regenerated AI observations from current graph measures as part of the build.
 - Expanded Ivo Velitchkov and Patrick Hoverstadt through their work, expertise, publications and practice relations.
-
 ## 0.12-practitioner-intake-alpha — 10 August 2026
 
 - Added developed entries for Ivo Velitchkov, Patrick Hoverstadt and their principal works, with explicit human, documentary, conceptual and practice relations.
@@ -17,7 +16,6 @@
 - Added structured proposal intake across labelled site submissions, research issues and pull requests.
 - Added a smaller start route and a guided journey from viability through balance and strategy.
 - Registered further reading-list, professional-practice and source-mining work without claiming those programmes complete.
-
 ## 0.11-visual-map-alpha — 10 August 2026
 
 - Added whole-to-detail map controls and strengthened public contribution routes.
@@ -27,17 +25,15 @@
 - Added map-focus back and forward navigation, continuous zoom slider and full-screen mode.
 - Added selected-connection labels, double-click zoom and keyboard zoom, pan and fit controls.
 - Added maintained documentation explaining the interaction choices and their limits.
-
 ## 0.10-practice-safety-alpha — 10 August 2026
 
 - Added six developed entries distinguishing systems theory, systems practice, systems leadership, systems change, systems convening and systems weaving.
 - Added a guided journey through those six terms and fifteen typed distinctions connecting them to one another and to existing concepts.
 - Added prominent home-page links to the Systems Community of Inquiry, SCiO capability and accreditation, SCiO training, and Benjamin P Taylor's reading list.
 - Replaced the public detailed risk register with implemented publication controls and a concise public safety policy.
-- Removed the public running-notebook route; contributions now use structured issue and participation forms.
+- Consolidated public contribution routes around structured issues and participation forms.
 - Added CODEOWNERS, a publication-safety pull-request checklist and security-reporting guidance.
 - Preserved AI observations while recalculating their measurements against the enlarged graph.
-
 ## 0.9-observations-alpha — 10 August 2026
 
 - Added a public AI observations page separating reproducible measurements, interpretation, implications and tests.
@@ -60,20 +56,18 @@
 
 ## 0.6-feedback-alpha — 9 August 2026
 
-- moved the public framing and repository links to the canonical `antlerboy` account;
-- retained the exact public name **The Necessary Tangle**;
-- changed the public framing to **systems | cybernetics | complexity**;
-- changed Benjamin P Taylor's role from creator/editor to curator and linked his name to https://www.antlerboy.com/;
-- added David Ing's practitioner-influence provocation and expanded acknowledgements;
-- adopted CC BY-SA 4.0 for original atlas text, public data and editorial material while retaining MIT for software;
-- made the release panel and dynamically generated entry and journey cards clickable across their full visible area;
-- enforced left-aligned public text through a small accessibility and presentation layer;
-- expanded the About view with current strengths, known gaps, source rules, coverage, rights and next work;
-- created explicit corpus and lineage issues for the *Foundational Papers in Complexity Science*, Monoskop, SysCoI/model.report, prior maps and bodies of knowledge, practitioner influence constellations, and private company-knowledge discovery;
-- added a public coverage programme with scope and completion tests;
-- registered the principal public comparison and discovery corpora in the release data;
-- updated canonical URLs, sitemap, robots file, citation metadata and GitHub configuration.
-
+- Moved the public framing and repository links to the canonical `antlerboy` account.
+- Retained the exact public name **The Necessary Tangle**.
+- Adopted **systems | cybernetics | complexity** as the public framing.
+- Identified Benjamin P Taylor as curator and linked his name to https://www.antlerboy.com/.
+- Added David Ing's practitioner-influence provocation and expanded acknowledgements.
+- Adopted CC BY-SA 4.0 for original atlas text, public data and editorial material while retaining MIT for software.
+- Made release, entry and journey cards clickable across their visible area.
+- Enforced left-aligned public text and expanded the About view.
+- Defined corpus and lineage research programmes for major collections, archives, prior maps and practitioner influence constellations.
+- Added a public coverage programme with scope and completion tests.
+- Registered the principal public comparison and discovery corpora in the release data.
+- Updated canonical URLs, sitemap, robots file, citation metadata and GitHub configuration.
 ## 0.5-github-alpha — 9 August 2026
 
 - locked the public name to **The Necessary Tangle**;
@@ -86,7 +80,3 @@
 - replaced the obsolete hosted-form design with GitHub Issues and Discussions;
 - added authorship, acknowledgements, rights, disclaimer and public documentation;
 - added reproducible build, validation and GitHub Pages deployment workflows.
-
-## Earlier prototypes
-
-Earlier internal prototypes established the seed graph, relation vocabulary, source register, profiles, guided journeys and local editorial workbench. The public GitHub alpha does not import ambiguous review decisions made through the earlier under-specified review interface.

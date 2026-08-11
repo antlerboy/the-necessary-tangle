@@ -428,7 +428,7 @@ Arthur Battram translated complexity ideas into organisational and local-governm
 
 ### Why it matters
 
-Benjamin's own material repeatedly credits Battram as a practical source and critical companion. His absence was another sign that the atlas had underweighted the curator's actual practitioner constellation.
+Battram provides a practical bridge from complexity theory to management action, emphasising navigation, experimentation and judgement rather than the fantasy of complete control.
 
 ### Key distinctions
 

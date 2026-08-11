@@ -279,13 +279,13 @@ SOURCE_MINING_REGISTER = [
         "next_step": "Publish the comparison table and record what this atlas still does worse.",
     },
     {
-        "id": "mine_company_knowledge",
-        "label": "Private company-knowledge discovery",
-        "url": "https://github.com/antlerboy/the-necessary-tangle/issues/8",
-        "status": "private_discovery_only",
-        "role": "Find prior work, references, names, decisions and candidate omissions.",
-        "caveat": "No internal URL, confidential material or private extract belongs in the public atlas. Public evidence must replace private discovery wherever possible.",
-        "next_step": "Keep a private lead log and publish only independently supportable statements and citations.",
+        "id": "mine_practice_sources",
+        "label": "Practice-source discovery",
+        "url": "https://github.com/antlerboy/the-necessary-tangle/blob/main/documentation/publication-standards.md",
+        "status": "public_evidence_required",
+        "role": "Identify prior work, references, names and candidate practice sources.",
+        "caveat": "Discovery leads are not evidence. Public evidence or complete public bibliographic citations must support anything published.",
+        "next_step": "Assess each lead against the public-source rule before adding an entry or relation.",
     },
 ]
 

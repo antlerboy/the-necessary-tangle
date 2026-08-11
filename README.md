@@ -24,11 +24,11 @@ The site includes:
 
 ## Status
 
-This is a public alpha. Release 0.12 contains 442 canonical public entries, including 58 developed profiles, 114 sources and 14 guided journeys. Breadth is not presented as completeness, and editorial acceptance is not presented as final consensus.
+This is a public alpha. Release 0.13 contains 464 canonical public entries, including 80 developed profiles, 125 sources and 15 guided journeys. Breadth is not presented as completeness, and editorial acceptance is not presented as final consensus.
 
 The strongest current material is around boundaries and observers; feedback and regulation; variety, viability and the Viable System Model; systems laws, strategy and applied practitioner lineages; recursion; emergence; and self-organisation. Human and institutional lineage, the complexity corpus and practice transmission still need much more work.
 
-The [coverage programme](documentation/coverage-programme.md) now makes the next corpus and lineage passes explicit, including the *Foundational Papers in Complexity Science*, relevant Monoskop material, the SysCoI and model.report archives, prior maps and bodies of knowledge, practitioner influence constellations, and private company-knowledge discovery with public-source replacement.
+The [coverage programme](documentation/coverage-programme.md) makes the next corpus and lineage passes explicit, including the *Foundational Papers in Complexity Science*, relevant Monoskop material, the SysCoI and model.report archives, prior maps and bodies of knowledge, practitioner influence constellations, and practice sources which can be supported by public evidence.
 
 ## Start here
 

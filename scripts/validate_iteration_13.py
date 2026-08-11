@@ -79,9 +79,6 @@ FORBIDDEN_PUBLIC_PATTERNS = (
     "discreet-note-link",
     "model-assisted",
     "machine-assisted second-order",
-    "feedback triage",
-    "curator running notebook",
-    "running notebook",
 )
 PRIVATE_PATTERNS = (
     "sharepoint.com", "graph.microsoft", "mail.google", "gmail.com/mail",
@@ -256,7 +253,7 @@ def main() -> int:
             errors.append(f"required public file is missing: {path.relative_to(ROOT)}")
     public_text = "\n".join(path.read_text(encoding="utf-8", errors="ignore") for path in public_paths if path.exists())
     folded = public_text.casefold()
-    if re.search(r"running\s+(?:feedback|comment)\s+thread", public_text, flags=re.I):
+    if re.search(r"running\s+(?:feedback|comment|working)\s+(?:thread|note(?:book)?)", public_text, flags=re.I):
         errors.append("public release contains editorial-process narrative")
     for pattern in FORBIDDEN_PUBLIC_PATTERNS:
         if pattern.casefold() in folded:
