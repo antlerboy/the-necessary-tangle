@@ -251,3 +251,27 @@ blockquote {
   .start-small-card { min-height: 0; }
   .map-orientation-links { display: grid; grid-template-columns: 1fr 1fr; }
 }
+
+
+/* Discreet fixed updates control */
+.update-thread-dot {
+  position: fixed;
+  right: 3px;
+  bottom: 3px;
+  z-index: 1200;
+  display: block;
+  width: 17px;
+  height: 17px;
+  border: 0;
+  border-radius: 50%;
+  background: var(--accent);
+  opacity: .14;
+  box-shadow: 0 0 0 1px color-mix(in srgb, var(--paper) 70%, transparent);
+  text-decoration: none;
+}
+.update-thread-dot:hover,
+.update-thread-dot:focus-visible {
+  opacity: .82;
+  outline: 2px solid var(--orange);
+  outline-offset: 2px;
+}

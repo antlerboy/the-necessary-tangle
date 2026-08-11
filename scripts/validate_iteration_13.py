@@ -13,6 +13,7 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA_PATH = ROOT / "data" / "public-data.json"
 DOCS = ROOT / "docs"
 EXPECTED_RELEASE = "0.13-expertise-observations-alpha"
+ALLOWED_RELEASES = {EXPECTED_RELEASE, "0.14-snowden-cynefin-alpha"}
 EXPECTED_DATE = "2026-08-11"
 
 REQUIRED_NODE_IDS = {
@@ -124,8 +125,8 @@ def main() -> int:
     public_ids = {node["id"] for node in public_nodes}
     developed = len(set(profiles) & public_ids)
 
-    if meta.get("release") != EXPECTED_RELEASE:
-        errors.append(f"meta.release must be {EXPECTED_RELEASE}")
+    if meta.get("release") not in ALLOWED_RELEASES:
+        errors.append(f"meta.release must be one of {sorted(ALLOWED_RELEASES)}")
     if meta.get("generated") != EXPECTED_DATE:
         errors.append(f"meta.generated must be {EXPECTED_DATE}")
     for label, actual, minimum in [
@@ -214,10 +215,10 @@ def main() -> int:
             errors.append(f"{label} profile retains process-centred wording")
 
     report = data.get("ai_observations", {})
-    if report.get("release") != EXPECTED_RELEASE or report.get("generated") != EXPECTED_DATE:
+    if report.get("release") != meta.get("release") or report.get("generated") != meta.get("generated"):
         errors.append("AI observations were not regenerated for the current release")
     observations = report.get("observations", [])
-    if {item.get("id") for item in observations} != OBSERVATION_IDS:
+    if not OBSERVATION_IDS.issubset({item.get("id") for item in observations}):
         errors.append("AI observation set is incomplete or stale")
     for observation in observations:
         for field in ("title", "kind", "measurement", "interpretation", "implication", "test"):
@@ -227,7 +228,8 @@ def main() -> int:
     if report.get("metrics") != recalculated:
         errors.append("AI observation metrics do not match the current graph")
     ai_doc = ROOT / "documentation" / "ai-observations.md"
-    if not ai_doc.exists() or f"Generated for release `{EXPECTED_RELEASE}` on {EXPECTED_DATE}." not in ai_doc.read_text(encoding="utf-8"):
+    expected_ai_line = f"Generated for release `{meta.get('release')}` on {meta.get('generated')}."
+    if not ai_doc.exists() or expected_ai_line not in ai_doc.read_text(encoding="utf-8"):
         errors.append("maintained AI observation document is stale or missing")
 
     if data.get("accepted_contributions"):
@@ -284,8 +286,8 @@ def main() -> int:
             errors.append(f"0.13 CSS is missing: {marker}")
 
     citation_text = (ROOT / "CITATION.cff").read_text(encoding="utf-8")
-    if "version: 0.13-expertise-observations-alpha" not in citation_text or "date-released: 2026-08-11" not in citation_text:
-        errors.append("citation metadata does not identify the 0.13 release")
+    if f"version: {meta.get('release')}" not in citation_text or f"date-released: {meta.get('generated')}" not in citation_text:
+        errors.append("citation metadata does not identify the current release")
 
     if (ROOT / "documentation" / "feedback-ledger.md").exists():
         errors.append("obsolete process-ledger document remains")
@@ -308,7 +310,7 @@ def main() -> int:
             print(f"- {error}", file=sys.stderr)
         return 1
 
-    print("ITERATION 0.13 VALIDATION PASSED")
+    print("ITERATION 0.13 ENDURING VALIDATION PASSED")
     print(f"- canonical public entries: {len(public_nodes)}")
     print(f"- developed profiles: {developed}")
     print(f"- sources: {len(sources)}")

@@ -146,6 +146,18 @@ Caution: Public explainers vary in evidential depth; use original papers for str
 
 Next: Identify distinctive concepts, methods and application lineages not already covered by SFI sources.
 
+## Dave Snowden author archive and Cynefin.io
+
+Status: `active_canonical_source_pass`
+
+Public starting points: https://thecynefin.co/author/dave-snowden/ and https://cynefin.io/wiki/Main_Page
+
+Use: The blog supplies dated first-person argument and development history. The wiki supplies current project terminology, linked concepts, methods and references.
+
+Caution: Both are first-party and mutable. They are canonical for what the project says, not independent proof of influence, efficacy, priority or consensus.
+
+Next: Build item-level indexes, retain dates and revision IDs, and pair major claims with primary publications, public institutional records, comparative scholarship and criticism.
+
 ## Prior maps and bodies of knowledge
 
 Status: `active_comparator_programme`

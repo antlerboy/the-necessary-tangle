@@ -10,7 +10,9 @@ The project develops the connected approach of the original SCiO Systems Thinkin
 
 Ivo Velitchkov's work contributes management cybernetics, viable organisation, *Essential Balances*, requisite inefficiency, enterprise architecture and explicit semantic graphs. Patrick Hoverstadt's work contributes the Viable System Model, systems laws, organisational diagnosis and design, *The Grammar of Systems*, *The Fractal Organization*, *Patterns of Strategy* and transformation practice. Lucy Loh's co-development of *Patterns of Strategy* is represented explicitly.
 
-Peter Checkland, Werner Ulrich, Ray Ison, Ed Straw, Raul Espejo, Alfonso Reyes, Donella Meadows, Diana Wright and Barry Oshry provide further practice-facing routes through inquiry, boundary critique, systemic governance, organisational cybernetics, feedback, intervention and whole-system relations. The authors, editors, teachers and practitioners cited throughout remain responsible for their own work; the atlas's summaries and connections remain open to correction and argument.
+Peter Checkland, Werner Ulrich, Ray Ison, Ed Straw, Raul Espejo, Alfonso Reyes, Donella Meadows, Diana Wright and Barry Oshry provide further practice-facing routes through inquiry, boundary critique, systemic governance, organisational cybernetics, feedback, intervention and whole-system relations.
+
+Dave Snowden's work contributes Cynefin, SenseMaker, naturalising sense-making, anthro-complexity, constraint-based strategy and a substantial dated public essay archive. Cynthia F. Kurtz, Mary E. Boone and Alessandro Rancati are represented through their documented collaborations and publications. Cynefin.io contributors maintain a current semantic and method corpus whose value and limits are recorded source by source. The authors, editors, teachers and practitioners cited throughout remain responsible for their own work; the atlas's summaries and connections remain open to correction and argument.
 
 ## Comparators, maps and archives
 

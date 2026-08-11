@@ -82,6 +82,30 @@ Role: historical connected hypertext, primary project record and discovery corpu
 
 Use project-authored pages for the project's own concepts, history and design claims. Mark incomplete nodes as incomplete. Trace claims about external thinkers to their primary works. Do not treat the whole hypertext as one consistent authority.
 
+### Dave Snowden author archive
+
+Role: primary author archive.
+
+Use dated posts for Snowden's own terminology, chronology, revisions and public arguments. Cite individual posts. Do not treat repetition across the archive as independent corroboration.
+
+### Cynefin.io
+
+Role: official collaborative project wiki and semantic discovery corpus.
+
+Use it for the project's current definitions, internal links, methods and revision history. Record page and revision where material claims depend on mutable content. Pair disputed history, priority and efficacy claims with dated primary works and independent sources.
+
+### The Cynefin Company library and site
+
+Role: first-party organisation record and publication gateway.
+
+Use it for current organisational identity, public library records, products and declared method descriptions. Use publisher, institutional and independent records for bibliographic adjudication and evaluation.
+
+### European Commission Joint Research Centre field guide
+
+Role: public institutional publication and application record.
+
+Use the JRC record and guide for authorship, bibliographic detail and the documented crisis decision-support approach. Treat transfer to other settings as a separate evidential question.
+
 ## Source-use rules
 
 For every substantial statement, record:
