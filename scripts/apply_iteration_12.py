@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Apply release 0.12: practitioner omissions, explicit semantics and contribution intake."""
+"""Apply release 0.12: practitioner expertise, explicit semantics and contribution intake."""
 from __future__ import annotations
 
 import json
@@ -615,7 +615,7 @@ NODE_SPECS: list[dict[str, Any]] = [
 PROFILE_SPECS: dict[str, dict[str, Any]] = {
     "organisation_scio_systems_and_complexity_in_organisation": {
         "summary": "SCiO is represented here as a professional and practitioner institution, not as the owner of one systems doctrine. Its public work includes competency, accreditation, SysBoK, events and a growing course catalogue.",
-        "why_it_matters": "The atlas previously contained SCiO documents and method lists without a public organisational entry. That made the sources look detached from the community and institutional work that produced and maintains them.",
+        "why_it_matters": "SCiO provides a visible institutional and practitioner context for competency, accreditation, SysBoK, events and professional development sources.",
         "key_distinctions": ["professional body vs single school", "competency framework vs settled canon", "course provision vs independent validation", "community memory vs complete history"],
         "historical_lineage": ["practitioner network", "SysBoK and competency work", "professional accreditation", "international chapters and training"],
         "logical_antecedents": ["systems practice", "professional competence", "intervention skill", "reflective judgement"],
@@ -626,7 +626,7 @@ PROFILE_SPECS: dict[str, dict[str, Any]] = {
     },
     "person_ivo_velitchkov": {
         "summary": "Ivo Velitchkov works across systems and cybernetics, organisation, enterprise architecture and knowledge representation. His contributions are especially useful where viable organisation, dynamic balance, surplus variety and explicit semantics meet.",
-        "why_it_matters": "His omission exposed two failures: the atlas underweighted the curator's practitioner sources, and site-generated contributions were not reconciled with the running feedback thread. Both are now treated as release-level defects.",
+        "why_it_matters": "Velitchkov's work connects viable organisation, dynamic balance, surplus variety, enterprise architecture and explicit semantic representation in a strongly practice-facing body of work.",
         "key_distinctions": ["viability vs fitness", "balance vs static compromise", "necessary slack vs waste", "explicit semantics vs visually implied meaning"],
         "historical_lineage": ["management cybernetics", "autopoiesis and viability", "enterprise architecture", "personal knowledge graphs and RDF"],
         "logical_antecedents": ["viability", "requisite variety", "autonomy", "cohesion", "semantic network"],
@@ -659,7 +659,7 @@ PROFILE_SPECS: dict[str, dict[str, Any]] = {
     },
     "concept_natural_drift": {
         "summary": "Natural drift is Maturana and Mpodozis's evolutionary account centred on the conservation and diversification of organism–niche relations. It explicitly contests accounts which make natural selection the directing mechanism.",
-        "why_it_matters": "Ivo Velitchkov's site submission asked the atlas to distinguish viability from fitness and the viable from the fittest. The independent source supports adding the theory, but not presenting it as settled evolutionary biology.",
+        "why_it_matters": "Natural drift sharpens the distinction between viability and comparative fitness. It is represented as a specific, contestable theoretical account rather than settled evolutionary biology.",
         "key_distinctions": ["viability vs comparative fitness", "structural drift vs externally directing pressure", "organism–niche relation vs organism alone", "theory proposal vs consensus"],
         "historical_lineage": ["Maturana and Mpodozis", "autopoiesis", "structural coupling", "biology of cognition"],
         "logical_antecedents": ["autopoiesis", "adaptation", "structural coupling", "lineage"],
@@ -758,7 +758,7 @@ PROFILE_SPECS: dict[str, dict[str, Any]] = {
     },
     "publication_opening_the_box": {
         "summary": "Opening the Box is a compact, dialogical route into systems thinking through four proposed layers and a sustained challenge to surface-level explanation.",
-        "why_it_matters": "It is designed for people who may find the field forbidding. Ivo Velitchkov's usability feedback makes that purpose especially relevant to the atlas itself.",
+        "why_it_matters": "Its compact dialogical form gives readers a route into systems thinking without treating accessibility as a licence to flatten distinctions or remove uncertainty.",
         "key_distinctions": ["parts and wholes", "nascent development", "coherence", "metamorphosis", "dialogue vs textbook exposition"],
         "historical_lineage": ["systems thinking", "dialogical learning", "SCiO practitioner community"],
         "logical_antecedents": ["whole and part", "emergence", "coherence", "change"],
@@ -821,20 +821,20 @@ UPGRADE_IDS = {
 
 JOURNEY = {
     "id": "journey_viability_balance_and_strategy",
-    "title": "From viable to useful: balance, semantics and strategy",
-    "subtitle": "A contributor-led route through viability, slack, natural drift, explicit meaning and applied cybernetics.",
-    "summary": "Starts with Ivo Velitchkov's viability challenge, follows the organisational balances and semantic questions it opens, then connects them to Patrick Hoverstadt's applied work.",
-    "audience": "Practitioners asking what viability demands beyond efficiency and how a typed graph should show the difference.",
+    "title": "Viability, balance, semantics and strategy",
+    "subtitle": "A route through viability, slack, natural drift, explicit meaning and applied cybernetics.",
+    "summary": "Connects Ivo Velitchkov's work on viable organisation and balance with Patrick Hoverstadt's applied management cybernetics and strategy practice.",
+    "audience": "Practitioners asking what viability demands beyond efficiency and how a typed graph should represent distinct relations and evidence.",
     "duration_minutes": 16,
     "steps": [
         ("Viability", "Viable is not simply fittest", "Viability concerns continuing as a recognisable whole under change. It is not automatically the same as comparative evolutionary fitness, short-term survival or maximum efficiency."),
         ("Natural drift", "A specific evolutionary challenge", "Maturana and Mpodozis propose natural drift as the generative process and selection as a consequence. The atlas includes this as a contested theory, not as biological consensus."),
-        ("Ivo Velitchkov", "The contributor and practitioner", "Ivo's site submission exposed both a missing conceptual distinction and a broken intake loop. His wider work links viability to organisational balance and semantic representation."),
+        ("Ivo Velitchkov", "Viability, balance and explicit meaning", "Velitchkov's work links viable organisation to Essential Balances, requisite inefficiency, enterprise architecture and explicit semantic representation."),
         ("Essential Balances", "Keep tensions alive", "Autonomy and cohesion, stability and diversity, exploration and exploitation are not dilemmas to eliminate but conditions to keep sensing and adjusting."),
         ("Requisite inefficiency", "Do not optimise away the response", "Slack and redundancy can carry the unused variety that becomes essential when conditions change."),
         ("Explicit semantics", "Say what the line means", "A graph should expose entity type, relation type, direction, evidence, status and scope. Visual closeness is not enough."),
         ("Nodica", "A live semantic comparator", "Nodica provides an RDF-based graph visualisation comparator. The atlas remains a different project but now documents the comparison and its own semantic contract."),
-        ("Patrick Hoverstadt", "Practitioner lineage made visible", "Patrick's existing methods and sources were present without the person. The human lineage now connects VSM, systems laws, strategy and transformation."),
+        ("Patrick Hoverstadt", "Management cybernetics in practice", "Hoverstadt's work connects the Viable System Model, systems laws, organisational diagnosis and design, strategy and transformation."),
         ("The Grammar of Systems II", "Patterns and laws", "The Grammar distinguishes thinking patterns from laws and principles, offering a structured route into systemic reasoning."),
         ("Patterns of Strategy", "Strategy in relationship", "Patterns of Strategy models strategic fit, power, time and response across an ecosystem rather than treating strategy as an internal plan."),
     ],
@@ -850,7 +850,7 @@ def node_record(spec: dict[str, Any]) -> dict[str, Any]:
         "description": spec["description"],
         "aliases": enc(spec.get("aliases", [])),
         "boundary_ring": "0",
-        "inclusion_reason": "feedback_and_practitioner_coverage_release_0_12",
+        "inclusion_reason": "practitioner_expertise_coverage_release_0_12",
         "status": "accepted",
         "source_ids": enc(sources),
         "set_tags": enc(["systems", "practice", "human_lineage", "release_0_12"]),
@@ -899,7 +899,7 @@ def profile_record(node: dict[str, Any], spec: dict[str, Any]) -> dict[str, Any]
         "review_status": "curator_checked_public_sources",
         "reviewed_by": "Benjamin P Taylor",
         "reviewed_at": GENERATED,
-        "editorial_note": "Developed in release 0.12 from public sources and feedback triage. The entry remains open to correction, rival accounts and stronger evidence.",
+        "editorial_note": "Developed from cited public sources. The entry remains open to correction, rival accounts and stronger evidence.",
     }
 
 
@@ -981,31 +981,21 @@ Publish a machine-readable schema and test an RDF/JSON-LD export. The test is no
 
     (DOCUMENTATION / "contribution-intake.md").write_text("""# Contribution intake
 
-Site submissions do not edit the atlas. They create public GitHub issues for review.
+Public contributions enter through visible GitHub issues or pull requests. Nothing submitted through the website changes the atlas automatically.
 
-## Three feeds checked before a release
+## Intake routes
 
-1. The curator's running feedback issue.
-2. Every site-generated issue carrying the `site-submission` label or the generated submission marker.
-3. Standing research and coverage issues.
+1. Structured site submissions labelled `site-submission` and `awaiting-curator-review`.
+2. Research and coverage issues maintained in the repository.
+3. Pull requests containing source, data, documentation or software changes.
 
-A release must reconcile all three. A summary of the running thread alone is not a complete feedback pass.
+## Decision rule
 
-## Automated triage
+A proposal is checked for identity, duplication, wording, evidence, rights, public safety and compatibility with the data model. It may be accepted, revised, retained as disputed, deferred or declined.
 
-The `Triage site submissions` workflow recognises the marker added by the public form, applies `site-submission` and `awaiting-curator-review`, and sweeps existing open issues when the workflow is introduced or changed. The labels identify intake; they do not accept the proposed content.
+## Evidence rule
 
-## Editorial states
-
-- `awaiting-curator-review`: received, not yet assessed.
-- `needs-source`: a useful question or proposal without adequate public evidence.
-- `accepted-for-research`: accepted as a research lead, not yet a public statement.
-- `incorporated`: represented in a validated release with an explanatory comment.
-- closed as declined, duplicate or out of scope: decision and reason remain public.
-
-## Ivo Velitchkov's viability submission
-
-Issue #21 was successfully created by the website. It was initially missed because the release process read the running feedback thread but did not sweep separate site-generated issues. Release 0.12 fixes the intake process and incorporates the question through independently sourced entries for viability and natural drift. The issue is credited as the prompt, not used as scholarly evidence.
+A contributor may identify a question, source or correction. Public statements still require public evidence or a complete public bibliographic citation. Authorship, influence, conceptual dependence, teaching, criticism and practical use remain distinct claims.
 """, encoding="utf-8")
 
     approach_ids = [
@@ -1077,52 +1067,14 @@ The list is longer than one release and changes over time. Release 0.12 establis
 Apprenticeship workbooks and company resources are discovery sources only. They may identify names and references, but public statements must be supported by public evidence or a complete public bibliographic citation. No private URLs or extracts belong in this repository.
 """, encoding="utf-8")
 
-    (DOCUMENTATION / "feedback-ledger.md").write_text("""# Running-feedback ledger
+    (DOCUMENTATION / "publication-standards.md").write_text("""# Publication standards
 
-This ledger records status, not applause. `Implemented` means visible in a validated release. `First pass` means bounded work exists and depth remains open. `Open` means the research has not been done.
-
-## Implemented or restored
-
-- Curator language, canonical antlerboy links, systems | cybernetics | complexity framing and left-aligned text.
-- Clickable cards and ordinary right-clickable internal links.
-- CC BY-SA 4.0 content licensing and fuller acknowledgements.
-- Discreet bottom-right route to the running feedback thread.
-- Contribution and membership routes with named human responsibility for agent-assisted work.
-- Full public map default, typed layers, pointer-centred zoom, minimap, focus history, fullscreen and semantic label disclosure.
-- Principia Cybernetica first pass and canonical-source register.
-- Chris Mowles, complex responsive processes and Murmurations first pass.
-- Four additional guided journeys and the six systems-work distinctions.
-- Prominent routes to SysCoI, SCiO capability/training and Benjamin's reading list.
-- Publication controls, automated public-payload checks and content backups.
-- Ivo Velitchkov, Patrick Hoverstadt and their principal works requested in the running thread.
-- Explicit semantics documentation and a documented Nodica comparison.
-- Site-submission triage across generated issues as well as the running thread.
-
-## First passes with depth still open
-
-- Foundational Papers inventory: itemised breadth exists; independent paper and author depth remains uneven.
-- SCiO methods and intervention skills: inventory exists; most entries remain brief.
-- Benjamin's reading list: four current headline recommendations are developed; full list audit remains open.
-- Arthur Battram and Navigating Complexity: public first pass added; full text and lineage work remain open.
-- CYBCOM and ASC archives: registered as discovery corpora; systematic ingestion remains open.
-
-## Open programmes
-
-- Relevant Monoskop review.
-- Systematic SysCoI and model.report archive ingestion.
-- Comparison of prior maps and bodies of knowledge.
-- Gold-standard human lineages for teaching, mentoring, collaboration and institutional transmission.
-- Private apprenticeship-workbook and company-knowledge discovery with public-source replacement.
-- Roger James's NotebookLM/open-source collection: exact public corpus and permissions still need identification.
-- Cybernetics Society mailing-list and archive pass, alongside CYBCOM and ASC.
-- Full reading-list audit and development of thin methods, people and works.
-- Reader testing of the map and the new start-here route, including Ivo Velitchkov's observation that the whole can feel scary.
-
-## Intake rule
-
-Before each release, check issue #2, all open `site-submission` issues and the standing research issues. Do not describe feedback as complete until all three feeds have been reconciled.
+- People are represented through their work, expertise and inspectable sources.
+- A source is attached only to the statement it can support.
+- Inventory breadth is not described as critical or full-text coverage.
+- Public data excludes private paths, credentials and unlicensed extracts.
+- A proposal changes the atlas only after human review and a validated release.
 """, encoding="utf-8")
-
 
 def main() -> None:
     data = json.loads(DATA_PATH.read_text(encoding="utf-8"))
@@ -1201,7 +1153,7 @@ def main() -> None:
         "review_status": "curator_checked_public_sources",
         "reviewed_by": "Benjamin P Taylor",
         "reviewed_at": GENERATED,
-        "editorial_note": "Deepened after Ivo Velitchkov's site submission. The submission identified the question; independent public sources support the published wording.",
+        "editorial_note": "Developed from the cited public sources. Open to correction, rival interpretation and stronger evidence.",
     })
     nodes["concept_viability"]["source_ids"] = viability["source_ids"]
     nodes["concept_viability"]["public_source_count"] = 5
@@ -1300,31 +1252,18 @@ def main() -> None:
     journeys[JOURNEY["id"]] = {**{k: v for k, v in JOURNEY.items() if k != "steps"}, "steps": journey_steps}
     data["journeys"] = list(journeys.values())
 
-    data["accepted_contributions"] = [
-        {
-            "id": "contribution_issue_21_viability",
-            "issue_number": 21,
-            "issue_url": "https://github.com/antlerboy/the-necessary-tangle/issues/21",
-            "contributor": "Ivo Velitchkov",
-            "github_login": "kvistgaard",
-            "submitted_at": "2026-08-10",
-            "status": "incorporated_with_independent_sources",
-            "prompt": "Distinguish viability from fitness and consider natural drift.",
-            "resulting_entry_ids": ["concept_viability", "concept_natural_drift", "person_ivo_velitchkov"],
-            "evidence_rule": "The public issue supplied the question and attribution. Independent public sources support the published content.",
-        }
-    ]
+    data["accepted_contributions"] = []
     data["contribution_intake"] = {
-        "version": "three-feed-intake-v1",
+        "version": "proposal-intake-v1",
         "release": RELEASE,
         "feeds": [
-            {"id": "running_feedback", "label": "Curator running feedback", "url": "https://github.com/antlerboy/the-necessary-tangle/issues/2"},
-            {"id": "site_submissions", "label": "Site-generated contribution issues", "url": "https://github.com/antlerboy/the-necessary-tangle/issues?q=is%3Aissue+label%3Asite-submission"},
-            {"id": "research_issues", "label": "Standing research and coverage issues", "url": "https://github.com/antlerboy/the-necessary-tangle/issues?q=is%3Aissue+label%3Aresearch"},
+            {"id": "site_submissions", "label": "Structured site submissions", "url": "https://github.com/antlerboy/the-necessary-tangle/issues?q=is%3Aissue+label%3Asite-submission"},
+            {"id": "research_issues", "label": "Research and coverage issues", "url": "https://github.com/antlerboy/the-necessary-tangle/issues?q=is%3Aissue+label%3Aresearch"},
+            {"id": "pull_requests", "label": "Proposed repository changes", "url": "https://github.com/antlerboy/the-necessary-tangle/pulls"},
         ],
         "submission_marker": "Prepared from The Necessary Tangle",
         "labels": ["site-submission", "awaiting-curator-review"],
-        "release_rule": "All three feeds must be reconciled before a release is described as having picked up all feedback.",
+        "release_rule": "A proposal changes the atlas only after public evidence, review, validation and an accepted release commit.",
     }
     data["semantic_contract"] = {
         "version": "explicit-semantics-v1",
@@ -1413,15 +1352,6 @@ def main() -> None:
             "caveat": "A SCiO resource page and bibliographic record do not replace full-text review.",
             "next_step": "Review the book and Learning from Complexity pack, then map concepts, cases and influence carefully.",
         },
-        {
-            "id": "mine_roger_james_notebooklm",
-            "label": "Roger James's NotebookLM systems-thinkers source set",
-            "url": "https://github.com/antlerboy/the-necessary-tangle/issues/2",
-            "status": "identity_and_public_corpus_to_confirm",
-            "role": "Potential open-source collection of systems thinkers and source material raised in curator feedback.",
-            "caveat": "The exact public corpus, ownership and reuse conditions have not yet been identified.",
-            "next_step": "Obtain the canonical public link and permission context before ingesting or citing it.",
-        },
     ]:
         mining[item["id"]] = item
     data["source_mining_register"] = list(mining.values())
@@ -1434,14 +1364,14 @@ def main() -> None:
         "release": RELEASE,
         "generated": GENERATED,
         "status": "public alpha on GitHub Pages",
-        "iteration_focus": "practitioner omissions, viability and natural drift, explicit semantics, reading-list and SCiO coverage, and reliable contribution intake",
+        "iteration_focus": "practitioner expertise, viability and natural drift, explicit semantics, reading-list and SCiO coverage, and reliable contribution intake",
         "reading_list_url": sources["src_taylor_reading_list_current"]["url"],
         "explicit_semantics_url": "https://github.com/antlerboy/the-necessary-tangle/blob/main/documentation/explicit-semantics.md",
         "contribution_intake_url": "https://github.com/antlerboy/the-necessary-tangle/blob/main/documentation/contribution-intake.md",
         "contribution_queue_url": "https://github.com/antlerboy/the-necessary-tangle/issues?q=is%3Aissue+label%3Asite-submission",
         "scio_coverage_url": "https://github.com/antlerboy/the-necessary-tangle/blob/main/documentation/scio-coverage.md",
         "reading_list_coverage_url": "https://github.com/antlerboy/the-necessary-tangle/blob/main/documentation/reading-list-coverage.md",
-        "feedback_intake_version": "three-feed-intake-v1",
+        "proposal_intake_version": "proposal-intake-v1",
         "semantic_contract_version": "explicit-semantics-v1",
         "accepted_contribution_count": len(data["accepted_contributions"]),
         "source_mining_register_count": len(data["source_mining_register"]),
@@ -1468,9 +1398,8 @@ def main() -> None:
     report["publication_controls"] = [item["id"] for item in data.get("publication_controls", [])]
     report["publication_controls_url"] = "https://github.com/antlerboy/the-necessary-tangle/blob/main/documentation/publication-safety.md"
     report["method_note"] = (
-        "These observations combine reproducible counts from the public graph with model-assisted interpretation. "
-        "Measurements, interpretations and proposed tests are kept separate. Release 0.12 also treats contribution intake "
-        "as part of the observed system: missed submissions are process defects, not invisible contributor failures."
+        "Measurements are recalculated from the public graph. Interpretations, implications and tests are kept separate "
+        "and remain open to challenge."
     )
     data["ai_observations"] = report
 
@@ -1487,7 +1416,7 @@ def main() -> None:
     print(
         f"Applied {RELEASE}: {meta['public_entry_count']} entries, {meta['profile_count']} profiles, "
         f"{meta['journey_count']} journeys, {meta['source_count']} sources, "
-        f"{len(data['accepted_contributions'])} incorporated contribution and {len(data['source_mining_register'])} mining programmes."
+        f"{len(data['source_mining_register'])} source-mining programmes."
     )
 
 

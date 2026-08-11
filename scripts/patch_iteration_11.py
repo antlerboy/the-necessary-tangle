@@ -9,7 +9,6 @@ INDEX = ROOT / "docs" / "index.html"
 APP = ROOT / "docs" / "assets" / "app.js"
 CSS = ROOT / "docs" / "assets" / "site-enhancements.css"
 
-COMMENT_URL = "https://github.com/antlerboy/the-necessary-tangle/issues/2"
 
 GRAPH_OLD = '''        <div class="graph-wrap">
           <svg id="graphSvg" viewBox="0 0 1200 760" aria-label="Interactive map of selected entries and connections">
@@ -76,9 +75,6 @@ CSS_APPEND = r'''
 .graph-wrap:fullscreen { width: 100vw; height: 100vh; min-height: 100vh; padding: 0; background: var(--paper); }
 .graph-wrap:fullscreen #graphSvg { width: 100%; height: 100%; }
 .graph-wrap:fullscreen .map-canvas-help { bottom: .7rem; }
-.curator-secret-dot { position: fixed; z-index: 90; right: .55rem; bottom: .5rem; display: grid; place-items: center; width: 17px; height: 17px; border-radius: 50%; background: currentColor; color: var(--accent); opacity: .17; text-decoration: none; box-shadow: 0 0 0 1px color-mix(in srgb, currentColor 20%, transparent); transition: opacity .12s ease, transform .12s ease, box-shadow .12s ease; }
-.curator-secret-dot::after { content: ''; width: 4px; height: 4px; border-radius: 50%; background: var(--panel); }
-.curator-secret-dot:hover, .curator-secret-dot:focus-visible { opacity: .85; transform: scale(1.18); box-shadow: 0 0 0 4px color-mix(in srgb, currentColor 14%, transparent); outline: none; }
 @media (max-width: 760px) {
   .map-canvas-toolbar { right: .45rem; left: .45rem; }
   .map-zoom-slider { grid-template-columns: auto minmax(80px, 1fr); flex: 1 1 145px; }
@@ -88,7 +84,7 @@ CSS_APPEND = r'''
   .map-canvas-help { font-size: .66rem; }
 }
 @media (prefers-reduced-motion: reduce) {
-  .map-minimap-shell, .curator-secret-dot { transition: none; }
+  .map-minimap-shell { transition: none; }
 }
 '''
 
@@ -113,14 +109,6 @@ def patch_index() -> None:
     )
     if 'id="mapMiniMap"' not in text:
         text = replace_once(text, GRAPH_OLD, GRAPH_NEW, "map canvas")
-    if 'data-curator-dot="comments"' not in text:
-        marker = '  <script src="assets/site-config.js"></script>'
-        dot = (
-            f'  <a class="curator-secret-dot" data-curator-dot="comments" href="{COMMENT_URL}" '
-            'target="_blank" rel="noopener" aria-label="Open the curator\'s running comments" '
-            'title="Running comments"></a>\n\n'
-        )
-        text = replace_once(text, marker, dot + marker, "script footer marker")
     INDEX.write_text(clean(text), encoding="utf-8")
 
 
@@ -441,7 +429,7 @@ def patch_app() -> None:
 
 def patch_css() -> None:
     css = CSS.read_text(encoding="utf-8")
-    if ".curator-secret-dot" not in css:
+    if "/* 0.11 whole-to-detail conceptual map */" not in css:
         css = css.rstrip() + CSS_APPEND + "\n"
     CSS.write_text(clean(css), encoding="utf-8")
 

@@ -1,27 +1,21 @@
 # Contribution intake
 
-Site submissions do not edit the atlas. They create public GitHub issues for review.
+Public contributions enter through visible GitHub issues or pull requests. Nothing submitted through the website changes the atlas automatically.
 
-## Three feeds checked before a release
+## Intake routes
 
-1. The curator's running feedback issue.
-2. Every site-generated issue carrying the `site-submission` label or the generated submission marker.
-3. Standing research and coverage issues.
+1. Structured site submissions, labelled `site-submission` and `awaiting-curator-review`.
+2. Research and coverage issues maintained in the repository.
+3. Pull requests containing source, data, documentation or software changes.
 
-A release must reconcile all three. A summary of the running thread alone is not a complete feedback pass.
+## Decision rule
 
-## Automated triage
+A proposal is checked for identity, duplication, wording, evidence, rights, public safety and compatibility with the data model. It may be accepted, revised, retained as disputed, deferred or declined. Submitting a proposal does not confer editorial authority.
 
-The `Triage site submissions` workflow recognises the marker added by the public form, applies `site-submission` and `awaiting-curator-review`, and sweeps existing open issues when the workflow is introduced or changed. The labels identify intake; they do not accept the proposed content.
+## Evidence rule
 
-## Editorial states
+A contributor may identify a question, source or correction. Public statements still require public evidence or a complete bibliographic citation. Authorship, influence, conceptual dependence, teaching, criticism and practical use remain distinct claims.
 
-- `awaiting-curator-review`: received, not yet assessed.
-- `needs-source`: a useful question or proposal without adequate public evidence.
-- `accepted-for-research`: accepted as a research lead, not yet a public statement.
-- `incorporated`: represented in a validated release with an explanatory comment.
-- closed as declined, duplicate or out of scope: decision and reason remain public.
+## Attribution
 
-## Ivo Velitchkov's viability submission
-
-Issue #21 was successfully created by the website. It was initially missed because the release process read the running feedback thread but did not sweep separate site-generated issues. Release 0.12 fixes the intake process and incorporates the question through independently sourced entries for viability and natural drift. The issue is credited as the prompt, not used as scholarly evidence.
+Accepted material is attributed where appropriate. Expertise is represented through inspectable work and evidence.

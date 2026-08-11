@@ -140,14 +140,10 @@ blockquote {
 #graphSvg .category-halo { opacity: 1 !important; filter: drop-shadow(0 0 5px currentColor); }
 .membership-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: .8rem; align-items: end; }
 .membership-grid label { display: grid; gap: .35rem; }
-.curator-notebook-link { font-weight: 650; }
 /* 0.8 adaptive map and discreet curator-note link */
 .graph-edge.contextual { opacity: .18; stroke-dasharray: 2 5; }
 .graph-edge-group:focus .graph-edge.contextual,
 .graph-edge-group:hover .graph-edge.contextual { opacity: .62; }
-.discreet-note-link { display: inline-block; margin-left: .35rem; font-size: .82rem; opacity: .18; vertical-align: baseline; }
-.discreet-note-link:hover, .discreet-note-link:focus-within { opacity: .75; }
-.discreet-note-link a { color: inherit; text-decoration: none; padding: .15rem .25rem; }
 .graph-node-group { transform-box: fill-box; transform-origin: center; }
 /* 0.9 feedback iteration: observations, explicit layers and link semantics */
 .main-nav a { white-space: nowrap; border: 0; background: transparent; padding: .62rem .78rem; border-radius: 8px; font-family: Arial, sans-serif; cursor: pointer; text-decoration: none; color: inherit; }
@@ -224,9 +220,6 @@ blockquote {
 .graph-wrap:fullscreen { width: 100vw; height: 100vh; min-height: 100vh; padding: 0; background: var(--paper); }
 .graph-wrap:fullscreen #graphSvg { width: 100%; height: 100%; }
 .graph-wrap:fullscreen .map-canvas-help { bottom: .7rem; }
-.curator-secret-dot { position: fixed; z-index: 90; right: .55rem; bottom: .5rem; display: grid; place-items: center; width: 17px; height: 17px; border-radius: 50%; background: currentColor; color: var(--accent); opacity: .17; text-decoration: none; box-shadow: 0 0 0 1px color-mix(in srgb, currentColor 20%, transparent); transition: opacity .12s ease, transform .12s ease, box-shadow .12s ease; }
-.curator-secret-dot::after { content: ''; width: 4px; height: 4px; border-radius: 50%; background: var(--panel); }
-.curator-secret-dot:hover, .curator-secret-dot:focus-visible { opacity: .85; transform: scale(1.18); box-shadow: 0 0 0 4px color-mix(in srgb, currentColor 14%, transparent); outline: none; }
 @media (max-width: 760px) {
   .map-canvas-toolbar { right: .45rem; left: .45rem; }
   .map-zoom-slider { grid-template-columns: auto minmax(80px, 1fr); flex: 1 1 145px; }
@@ -236,7 +229,7 @@ blockquote {
   .map-canvas-help { font-size: .66rem; }
 }
 @media (prefers-reduced-motion: reduce) {
-  .map-minimap-shell, .curator-secret-dot { transition: none; }
+  .map-minimap-shell { transition: none; }
 }
 /* 0.12 practitioner intake and less-scary orientation */
 .start-small-section { margin: 2.3rem 0; }
@@ -250,10 +243,10 @@ blockquote {
 .map-orientation-links { display: flex; flex-wrap: wrap; gap: .38rem; }
 .map-orientation-links a { padding: .38rem .58rem; border: 1px solid var(--line); border-radius: 999px; background: var(--panel); color: var(--accent); font: 700 .75rem/1.2 Arial, sans-serif; text-decoration: none; }
 .map-orientation-links a:hover, .map-orientation-links a:focus-visible { border-color: var(--accent); }
-.contribution-intake-panel { border-left: 5px solid var(--purple); }
-.feedback-people-callout { border-left: 5px solid var(--orange); }
+.proposal-intake-panel { border-left: 5px solid var(--purple); }
+.expertise-callout { border-left: 5px solid var(--orange); }
 .explicit-semantics-callout { border-left: 5px solid var(--purple); }
-.contribution-intake-panel code { overflow-wrap: anywhere; }
+.proposal-intake-panel code { overflow-wrap: anywhere; }
 @media (max-width: 680px) {
   .start-small-card { min-height: 0; }
   .map-orientation-links { display: grid; grid-template-columns: 1fr 1fr; }

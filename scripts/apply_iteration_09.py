@@ -553,10 +553,10 @@ def node_record(spec: dict[str, Any]) -> dict[str, Any]:
         "description": spec["description"],
         "aliases": "[]",
         "boundary_ring": "1",
-        "inclusion_reason": "running_feedback_source_and_depth_pass",
+        "inclusion_reason": "public_source_and_depth_pass",
         "status": "accepted",
         "source_ids": encode(source_ids),
-        "set_tags": encode(["complexity", "practice", "release_0_9_feedback"]),
+        "set_tags": encode(["complexity", "practice", "release_0_9_source_depth"]),
         "espoused_labels": "[]",
         "observed_clusters": "[]",
         "canonical_definition": "",
@@ -693,7 +693,8 @@ def graph_metrics(data: dict[str, Any]) -> dict[str, Any]:
     for edge in edges:
         source_usage.update(set(parse(edge.get("source_ids"))))
     source_top = []
-    for source_id, count in source_usage.most_common(10):
+    ranked_sources = sorted(source_usage.items(), key=lambda item: (-item[1], item[0]))[:10]
+    for source_id, count in ranked_sources:
         source = source_by_id.get(source_id, {})
         source_top.append({
             "source_id": source_id,
@@ -924,7 +925,7 @@ def make_ai_observations(metrics: dict[str, Any]) -> dict[str, Any]:
     return {
         "generated": GENERATED,
         "release": RELEASE,
-        "author": "OpenAI-assisted analysis under the responsibility of curator Benjamin P Taylor",
+        "author": "Benjamin P Taylor, curator",
         "method_note": "These observations combine reproducible counts from the public graph with model-assisted interpretation. Measurements, interpretations and proposed tests are kept separate. They are not autonomous editorial decisions and should be challenged against the data and sources.",
         "metrics": metrics,
         "observations": observations,
@@ -1127,7 +1128,7 @@ def main() -> None:
         "release": RELEASE,
         "generated": GENERATED,
         "status": "public alpha on GitHub Pages",
-        "iteration_focus": "running feedback, AI observations, visible layers, developed social-complexity sources and navigable links",
+        "iteration_focus": "AI observations, visible layers, developed social-complexity sources and navigable links",
         "ai_observations_url": "https://antlerboy.github.io/the-necessary-tangle/#view=ai-observations",
     })
     redirects = data.get("canonical_redirects", {})

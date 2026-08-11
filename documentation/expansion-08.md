@@ -21,6 +21,6 @@ The new typed records include authorship, co-authorship and collection structure
 
 The home-page map action now opens the full public map. In that view, documentary authorship and collection-structure lines appear faintly alongside the substantive conceptual graph. Selecting an entry moves the map smoothly to it without discarding the whole-map context. Focused neighbourhood views retain their previous bearings as they re-form around a new selection.
 
-## Curator notes
+## Public contribution routes
 
-The running curator notebook remains reachable as a deliberately discreet dot link. It is an operational feedback surface, not part of the public site's main navigational hierarchy.
+Corrections, sources and challenges enter through the repository's public issue and pull-request routes. Nothing changes the atlas automatically.

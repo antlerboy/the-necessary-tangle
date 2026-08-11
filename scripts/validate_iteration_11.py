@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate release 0.11 whole-to-detail map navigation and curator comment access."""
+"""Validate enduring whole-to-detail map navigation features."""
 from __future__ import annotations
 
 import json
@@ -10,13 +10,11 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA_PATH = ROOT / "data" / "public-data.json"
 DOCS = ROOT / "docs"
 EXPECTED_RELEASE = "0.11-visual-map-alpha"
-ALLOWED_RELEASES = {EXPECTED_RELEASE, "0.12-practitioner-intake-alpha"}
+ALLOWED_RELEASES = {EXPECTED_RELEASE, "0.12-practitioner-intake-alpha", "0.13-expertise-observations-alpha"}
 EXPECTED_PUBLIC_COUNT = 417
 EXPECTED_PROFILE_COUNT = 38
 EXPECTED_JOURNEY_COUNT = 13
 EXPECTED_MIN_SOURCES = 100
-COMMENT_URL = "https://github.com/antlerboy/the-necessary-tangle/issues/2"
-
 
 def main() -> int:
     errors: list[str] = []
@@ -72,15 +70,14 @@ def main() -> int:
         'id="miniNodes"',
         'id="miniViewport"',
         'class="map-canvas-help"',
-        'data-curator-dot="comments"',
     ]
     for marker in html_markers:
         if marker not in index:
             errors.append(f"map/comment interface missing: {marker}")
-    if index.count(COMMENT_URL) != 1:
-        errors.append("the curator comment thread must appear exactly once in the public page")
-    if 'aria-label="Open the curator\'s running comments"' not in index:
-        errors.append("the curator comment dot lacks an accessible name")
+    if meta.get("release") == "0.13-expertise-observations-alpha" and any(
+        marker in index for marker in ("data-curator-dot=", "curator-secret-dot", "curator-notebook-link", "discreet-note-link")
+    ):
+        errors.append("an obsolete hidden working route remains in the public page")
 
     app_markers = [
         "let mapFocusHistory = [mapFocus]",
@@ -116,9 +113,6 @@ def main() -> int:
         ".map-zoom-neighbourhood",
         ".map-zoom-detail",
         ".graph-wrap:fullscreen",
-        ".curator-secret-dot",
-        "right: .55rem",
-        "bottom: .5rem",
     ]
     for marker in css_markers:
         if marker not in css:
@@ -140,7 +134,7 @@ def main() -> int:
     print(f"- sources: {len(sources)}")
     print(f"- journeys: {len(journeys)}")
     print("- whole-to-detail map: semantic zoom, minimap, history, slider, fullscreen and keyboard controls")
-    print("- curator comment dot: restored at bottom right")
+    print("- map interaction: semantic zoom, minimap, history and keyboard controls preserved")
     return 0
 
 

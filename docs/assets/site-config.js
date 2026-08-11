@@ -3,7 +3,6 @@ window.TANGLE_CONFIG = {
   repositoryUrl: "https://github.com/antlerboy/the-necessary-tangle",
   issuesUrl: "https://github.com/antlerboy/the-necessary-tangle/issues",
   discussionsUrl: "https://github.com/antlerboy/the-necessary-tangle/discussions",
-  chatgptUrl: "https://chatgpt.com/",
   authorName: "Benjamin P Taylor",
   authorRole: "curator",
   authorUrl: "https://www.antlerboy.com/",

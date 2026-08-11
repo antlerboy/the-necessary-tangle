@@ -1,19 +1,26 @@
 # Changelog
 
+## 0.13-expertise-observations-alpha — 11 August 2026
+
+- Added developed entries for Peter Checkland, Werner Ulrich, Ray Ison, Ed Straw, Raul Espejo, Alfonso Reyes, Donella Meadows, Diana Wright and Barry Oshry, with primary or official public sources.
+- Deepened Soft Systems Methodology and Critical Systems Heuristics and added boundary critique, systemic governance, Viplan, leverage points and the Organic Systems Framework.
+- Added a guided route through inquiry, governance and intervention and new typed practice relations across the expertise layer.
+- Regenerated AI observations from current graph measures as part of the build.
+- Expanded Ivo Velitchkov and Patrick Hoverstadt through their work, expertise, publications and practice relations.
+
 ## 0.12-practitioner-intake-alpha — 10 August 2026
 
 - Added developed entries for Ivo Velitchkov, Patrick Hoverstadt and their principal works, with explicit human, documentary, conceptual and practice relations.
-- Incorporated site submission #21 by distinguishing viability from evolutionary fitness and adding natural drift as a scoped, contested theoretical account supported by independent public sources.
+- Distinguished viability from evolutionary fitness and added natural drift as a scoped, contestable theoretical account supported by independent public sources.
 - Added developed coverage of *Essential Balances*, requisite inefficiency, *The Grammar of Systems II*, *The Fractal Organisation Manual*, *Patterns of Strategy*, *Critical Systems Thinking: A Practitioner’s Guide*, *Opening the Box*, *Systems Approaches to Making Change* and *Navigating Complexity*.
-- Added an explicit semantic contract and documented Nodica as a public RDF-visualisation comparator rather than an implementation dependency.
-- Replaced the single-thread feedback assumption with a three-feed release intake: running feedback, labelled site submissions and standing research issues.
-- Added automatic labelling and backfill of site-generated contribution issues.
-- Added a less-scary start route, smaller map openings and a guided journey from viability through balance and strategy.
-- Registered the remaining reading-list, SCiO, apprenticeship-workbook, CYBCOM, ASC, Roger James and practitioner-source work without claiming those programmes complete.
+- Added an explicit semantic contract and documented Nodica as a public graph-visualisation comparator rather than an implementation dependency.
+- Added structured proposal intake across labelled site submissions, research issues and pull requests.
+- Added a smaller start route and a guided journey from viability through balance and strategy.
+- Registered further reading-list, professional-practice and source-mining work without claiming those programmes complete.
 
 ## 0.11-visual-map-alpha — 10 August 2026
 
-- Restored the curator's discreet bottom-right comment dot and reopened the running feedback thread.
+- Added whole-to-detail map controls and strengthened public contribution routes.
 - Reworked map navigation around a whole-to-detail model informed by Visual Meaning's conceptual-map interaction pattern.
 - Added semantic label density at overview, neighbourhood and detail scales.
 - Added a clickable and draggable minimap with a visible viewport.
@@ -48,7 +55,7 @@
 - Reused 12 existing people and redirected the duplicate evolutionary-cybernetics candidate rather than inflating the count.
 - Added typed authorship, co-authorship and collection-structure records.
 - Made the home-page map action open the full public map and added adaptive movement on selection.
-- Moved the curator running notebook to a discreet operational link.
+- Added a discreet public route for corrections and dialogue.
 - Added idempotent expansion and regression validation to the normal build.
 
 ## 0.6-feedback-alpha — 9 August 2026

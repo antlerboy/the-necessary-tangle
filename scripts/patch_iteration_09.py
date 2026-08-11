@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Apply release 0.9 interface changes from the running feedback notebook."""
+"""Apply release 0.9 observation, layer and navigation interface changes."""
 from __future__ import annotations
 
 import re

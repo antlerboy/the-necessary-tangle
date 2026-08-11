@@ -42,7 +42,7 @@ MEMBERSHIP = '''
             <button type="submit">Prepare a contribution note</button>
           </form>
           <p id="membershipStatus" class="small" aria-live="polite"></p>
-          <p><a href="https://github.com/antlerboy/the-necessary-tangle/issues/2" class="curator-notebook-link" target="_blank" rel="noopener">Curator's running notebook and feedback issue →</a></p>
+          <p><a href="https://github.com/antlerboy/the-necessary-tangle/issues/new/choose" class="public-contribution-link" target="_blank" rel="noopener">Open a public contribution route →</a></p>
         </article>
 '''
 
@@ -119,7 +119,7 @@ APPEND_JS = r'''
       const role = String(form.get('role') || 'participant').replaceAll('_', ' ');
       const interest = String(form.get('interest') || '').trim();
       const status = document.getElementById('membershipStatus');
-      if (status) status.innerHTML = `Contribution note ready: <strong>${role}</strong>${interest ? ` — ${interest}` : ''}. Add it to <a href="https://github.com/antlerboy/the-necessary-tangle/issues/2" target="_blank" rel="noopener">the curator's running notebook</a>. If automation helped, name the human sponsor.`;
+      if (status) status.innerHTML = `Contribution note ready: <strong>${role}</strong>${interest ? ` — ${interest}` : ''}. Continue through <a href="https://github.com/antlerboy/the-necessary-tangle/issues/new/choose" target="_blank" rel="noopener">a public issue form</a>. If automation helped, name the human sponsor.`;
     });
   }
 
@@ -142,7 +142,7 @@ CSS_APPEND = r'''
 #graphSvg .category-halo { opacity: 1 !important; filter: drop-shadow(0 0 5px currentColor); }
 .membership-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: .8rem; align-items: end; }
 .membership-grid label { display: grid; gap: .35rem; }
-.curator-notebook-link { font-weight: 650; }
+.public-contribution-link { font-weight: 650; }
 '''
 
 
@@ -175,8 +175,6 @@ def main() -> None:
             raise RuntimeError("Could not locate contribution form")
         text = text[:pos] + MEMBERSHIP + text[pos:]
 
-    if 'class="curator-notebook-link"' not in text and 'data-curator-dot="comments"' not in text:
-        text = text.replace('</footer>', '<p><a class="curator-notebook-link" href="https://github.com/antlerboy/the-necessary-tangle/issues/2">Curator notebook</a></p></footer>', 1)
 
     INDEX.write_text(clean(text), encoding="utf-8")
 
