@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.14-snowden-cynefin-alpha — 11 August 2026
+
+- Added a developed Dave Snowden and Cynefin constellation spanning people, primary works, the Cynefin framework, SenseMaker, naturalising sense-making, anthro-complexity, Estuarine Mapping and distributed ethnography.
+- Registered Dave Snowden's author archive and Cynefin.io as canonical first-party sources for different evidential jobs, with explicit limits on claims about influence, priority and effectiveness.
+- Added publisher and public-institution records for the principal dated papers, the Harvard Business Review article and the European Commission Joint Research Centre field guide.
+- Added a guided route through the work and its source roles.
+- Regenerated graph measurements and observations from the current release on every complete build.
 ## 0.13-expertise-observations-alpha — 11 August 2026
 
 - Added developed entries for Peter Checkland, Werner Ulrich, Ray Ison, Ed Straw, Raul Espejo, Alfonso Reyes, Donella Meadows, Diana Wright and Barry Oshry, with primary or official public sources.

@@ -10,7 +10,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 DATA_PATH = ROOT / "data" / "public-data.json"
 DOCS = ROOT / "docs"
-ALLOWED_RELEASES = {"0.12-practitioner-intake-alpha", "0.13-expertise-observations-alpha"}
+ALLOWED_RELEASES = {"0.12-practitioner-intake-alpha", "0.13-expertise-observations-alpha", "0.14-snowden-cynefin-alpha"}
 READING_LIST = "https://stream.syscoi.com/2024/10/01/updated-rough-draft-systems-complexity-cybernetics-reading-list/"
 
 REQUIRED_PUBLIC_IDS = {

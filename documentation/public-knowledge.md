@@ -1,7 +1,7 @@
 # The Necessary Tangle: public knowledge file
 
 Curated by Benjamin P Taylor — https://www.antlerboy.com/
-Generated from public release 0.13-expertise-observations-alpha on 2026-08-11.
+Generated from public release 0.14-snowden-cynefin-alpha on 2026-08-11.
 
 A living evidence atlas of systems | cybernetics | complexity.
 Every connection must say what it means. Historical sequence, logical dependence, influence, teaching, collaboration, practical use, comparison and dispute are not interchangeable.
@@ -33,6 +33,63 @@ G. B. West, J. H. Brown, and B. J. Enquist, ‘A General Model for the Origin of
 ### Sources
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## A Leader's Framework for Decision Making
+
+Type: Publication
+Public depth: profile
+
+2007 Harvard Business Review article by David J. Snowden and Mary E. Boone translating Cynefin into a leadership and decision-making account for practice.
+
+### Summary
+
+A Leader's Framework for Decision Making translates Cynefin for a broad management audience and connects different contexts with different leadership responses.
+
+### Why it matters
+
+It is a major route of circulation. Its accessibility is a strength, but it should not substitute for the wider theoretical and methodological corpus.
+
+### Key distinctions
+
+- practice translation vs complete theory
+- leadership response vs deterministic recipe
+
+### Historical development
+
+- Cynefin
+- Harvard Business Review
+- leadership practice
+
+### Ideas it depends on
+
+- context
+- decision-making
+- leadership
+
+### What develops from it
+
+- managerial use of Cynefin
+- popularisation
+
+### Connections to practice
+
+- leadership
+- crisis decisions
+- strategy
+
+### Common confusions
+
+- the article fixes one response for every domain
+- publication reach proves effectiveness
+
+### Open questions and checks
+
+- add documented applications
+- map critiques and later corrections
+
+### Sources
+
+- A Leader's Framework for Decision Making — https://hbr.org/2007/11/a-leaders-framework-for-decision-making
 
 ## A Logical Calculus of the Ideas Immanent in Nervous Activity
 
@@ -335,6 +392,61 @@ Mathematician whose 1936 paper formalised computability through the machine now 
 - SCiO SysBoK - Recursion v1 — No public link
 - On Computable Numbers, with an Application to the Entscheidungsproblem — https://doi.org/10.1112/plms/s2-42.1.230
 
+## Alessandro Rancati
+
+Type: Person
+Public depth: profile
+
+European Commission Joint Research Centre co-author of the field guide Managing complexity (and chaos) in times of crisis.
+
+### Summary
+
+Alessandro Rancati co-authored the European Commission Joint Research Centre field guide on managing complexity and chaos in crisis.
+
+### Why it matters
+
+The field guide is an institutional and collaborative translation of Cynefin into crisis practice, not simply another single-author exposition.
+
+### Key distinctions
+
+- institutional co-production vs individual authorship
+- field guidance vs universal prescription
+
+### Historical development
+
+- European Commission Joint Research Centre
+- crisis decision support
+
+### Ideas it depends on
+
+- crisis
+- sensing
+- boundaries
+- distributed engagement
+
+### What develops from it
+
+- Managing complexity and chaos in times of crisis
+
+### Connections to practice
+
+- public policy
+- crisis response
+- resilience
+
+### Common confusions
+
+- a field guide guarantees transfer across every crisis
+
+### Open questions and checks
+
+- add project cases and evaluation
+- map JRC collaboration history
+
+### Sources
+
+- Managing complexity (and chaos) in times of crisis: a field guide for decision makers inspired by the Cynefin framework — https://publications.jrc.ec.europa.eu/repository/handle/JRC123629
+
 ## Alfonso Reyes
 
 Type: Person
@@ -391,6 +503,73 @@ His co-authorship is part of the book's intellectual and practical provenance an
 ### Sources
 
 - Organizational Systems: Managing Complexity with the Viable System Model — https://link.springer.com/book/10.1007/978-3-642-19109-1
+
+## Anthro-complexity
+
+Type: Tradition
+Public depth: profile
+
+A body of theory and practice concerned with complexity in human systems, foregrounding meaning, intentionality, identity, narrative and the limits of treating people as interchangeable agents.
+
+### Summary
+
+Anthro-complexity addresses complexity in human systems without treating people as simple agents analogous to insects, particles or interchangeable units. It foregrounds meaning, play, making, narrative, identity and intentionality.
+
+### Why it matters
+
+Human beings can act on descriptions, change identity, contest purposes and alter the rules. These capacities affect what can be carried across from computational or biological complexity models.
+
+### Key distinctions
+
+- human sense-making vs agent simulation
+- meaning and identity vs behaviour alone
+- natural science constraint vs direct social analogy
+- anthro-complexity vs all complexity science
+
+### Historical development
+
+- naturalising sense-making
+- complex adaptive systems
+- anthropology
+- narrative practice
+
+### Ideas it depends on
+
+- identity
+- intentionality
+- intelligence
+- narrative
+- abstraction
+
+### What develops from it
+
+- human-system intervention principles
+- complex facilitation
+- SenseMaker practice
+
+### Connections to practice
+
+- organisational decision-making
+- public policy
+- participative research
+- strategy
+
+### Common confusions
+
+- human systems are exempt from material constraint
+- computational complexity is rejected rather than bounded
+- anthro-complexity is the only account of social complexity
+
+### Open questions and checks
+
+- add peer-reviewed and independent accounts
+- compare with complex responsive processes and social complexity traditions
+- clarify relation to cybernetics and systems dynamics
+
+### Sources
+
+- Anthro-complexity — Cynefin.io — https://cynefin.io/wiki/Anthro-complexity
+- Dave Snowden — The Cynefin Company profile — https://thecynefin.co/team/dave-snowden/
 
 ## Appreciative Inquiry
 
@@ -834,6 +1013,67 @@ Every systems intervention draws a boundary. Making that boundary discussable is
 
 - A Mini-Primer of Critical Systems Heuristics — https://wulrich.com/csh.html
 
+## Bounded applicability
+
+Type: Concept
+Public depth: profile
+
+Principle that approaches have conditions under which they are useful and should not be treated as context-free universal solutions.
+
+### Summary
+
+Bounded applicability says that a method or explanation earns validity within specified conditions rather than by being asserted as a context-free solution.
+
+### Why it matters
+
+It is a useful antidote to method fundamentalism. It also imposes work: the boundary, evidence and transition conditions must be made explicit rather than invoked as a general escape clause.
+
+### Key distinctions
+
+- context-sensitive validity vs relativism
+- boundary conditions vs disclaimer
+- usefulness here vs truth everywhere
+
+### Historical development
+
+- Cynefin
+- contingency and contextual reasoning
+- systems boundary work
+
+### Ideas it depends on
+
+- context
+- boundary
+- causal conditions
+
+### What develops from it
+
+- method selection
+- domain transitions
+- scope conditions
+
+### Connections to practice
+
+- choosing methods
+- reviewing assumptions
+- ending failed transfer
+
+### Common confusions
+
+- every claim is equally valid somewhere
+- scope never needs evidence
+- contexts are fixed and self-evident
+
+### Open questions and checks
+
+- compare with boundary critique
+- connect to affordances and context of use
+- develop examples of invalid transfer
+
+### Sources
+
+- Cynefin — Cynefin.io — https://cynefin.io/wiki/Cynefin
+
 ## Bubble Strategy
 
 Type: Method or methodology
@@ -1170,6 +1410,60 @@ W. B. Arthur, ‘Competing Technologies, Increasing Returns, and Lock-In by Hist
 ### Sources
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## Complex Acts of Knowing
+
+Type: Publication
+Public depth: profile
+
+Snowden's 2002 article on paradox, descriptive self-awareness, knowledge management and the early Cynefin framework.
+
+### Summary
+
+Complex Acts of Knowing is an early primary text linking knowledge management, descriptive self-awareness and the development of Cynefin.
+
+### Why it matters
+
+It provides a dated scholarly anchor for claims that otherwise drift into retrospective brand history.
+
+### Key distinctions
+
+- early framework wording vs later Cynefin
+- primary article vs retrospective summary
+
+### Historical development
+
+- knowledge management
+- early Cynefin
+
+### Ideas it depends on
+
+- knowledge
+- paradox
+- sense-making
+
+### What develops from it
+
+- Cynefin development
+- descriptive self-awareness
+
+### Connections to practice
+
+- knowledge management
+- organisational decision support
+
+### Common confusions
+
+- later domain language appears unchanged in the early article
+
+### Open questions and checks
+
+- add article-level summary with locators
+- compare with later versions
+
+### Sources
+
+- Complex Acts of Knowing: Paradox and Descriptive Self-Awareness — https://thecynefin.co/library/complex-acts-of-knowing-paradox-and-descriptive-self-awareness/
 
 ## Complex responsive processes
 
@@ -1605,6 +1899,259 @@ Cybernetics studies regulation, communication, circular causality, learning and 
 - SCiO SysBoK - Feedback v1 — No public link
 - Cybernetics or Control and Communication in the Animal and the Machine — https://mitpress.mit.edu/9780262537841/cybernetics-or-control-and-communication-in-the-animal-and-the-machine/
 
+## Cynefin framework
+
+Type: Method or methodology
+Public depth: profile
+
+Decision-support framework for discerning context and choosing approaches on the basis of bounded applicability, distinguishing ordered, complex, chaotic and aporetic conditions and their dynamics.
+
+### Summary
+
+Cynefin is a context-discrimination and decision-support framework. It asks which causal conditions and constraints are present, which approaches are applicable, and when a shift in context requires a change of method.
+
+### Why it matters
+
+It counters the habit of treating one method as universally valid. Its domains are most useful when treated dynamically and provisionally rather than as labels attached permanently to problems.
+
+### Key distinctions
+
+- framework vs model or method
+- clear and complicated order vs complexity vs chaos
+- domain vs permanent problem type
+- categorisation vs sense-making
+- static diagram vs dynamics
+
+### Historical development
+
+- knowledge management
+- Complex Acts of Knowing
+- The New Dynamics of Strategy
+- A Leader's Framework for Decision Making
+- later liminal Cynefin
+
+### Ideas it depends on
+
+- bounded applicability
+- constraints
+- causality
+- context
+- sense-making
+
+### What develops from it
+
+- domain-specific heuristics
+- Cynefin dynamics
+- crisis guidance
+- complex facilitation
+
+### Connections to practice
+
+- decision support
+- strategy
+- leadership
+- crisis response
+- method selection
+
+### Common confusions
+
+- Cynefin sorts every issue once and for all
+- complex is a synonym for difficult
+- the quadrants are maturity levels
+- anything uncertain belongs in complexity
+- the framework itself supplies a complete intervention
+
+### Open questions and checks
+
+- map version history precisely
+- represent liminal domains and aporia
+- add empirical applications and criticism
+- compare with other contingency and problem-structuring frameworks
+
+### Sources
+
+- Cynefin — Cynefin.io — https://cynefin.io/wiki/Cynefin
+- Complex Acts of Knowing: Paradox and Descriptive Self-Awareness — https://thecynefin.co/library/complex-acts-of-knowing-paradox-and-descriptive-self-awareness/
+- The New Dynamics of Strategy: Sense-making in a Complex and Complicated World — https://thecynefin.co/library/the-new-dynamics-of-strategy-sense-making-in-a-complex-and-complicated-world/
+- A Leader's Framework for Decision Making — https://hbr.org/2007/11/a-leaders-framework-for-decision-making
+
+## Cynefin.io
+
+Type: Corpus
+Public depth: profile
+
+Collaborative wiki for naturalising sense-making concepts, methods, cases, reading and Cynefin Centre programmes.
+
+### Summary
+
+Cynefin.io is the collaborative project wiki for naturalising sense-making, with concept, method, framework, case and support pages.
+
+### Why it matters
+
+It is the best current route into the project's own semantic network and terminology. As a mutable collaborative wiki, it needs page-level revisions and independent sources for disputed history, priority or effectiveness.
+
+### Key distinctions
+
+- canonical project vocabulary vs universal authority
+- wiki page vs primary paper
+- current synthesis vs historical wording
+- open licence vs unrestricted third-party reuse
+
+### Historical development
+
+- Cynefin Centre
+- naturalising sense-making
+- collaborative wiki practice
+
+### Ideas it depends on
+
+- linked concepts
+- versioned pages
+- community maintenance
+
+### What develops from it
+
+- Cynefin pages
+- method descriptions
+- reading pathways
+
+### Connections to practice
+
+- learning
+- method discovery
+- source tracing
+- community contribution
+
+### Common confusions
+
+- the wiki is one authored monograph
+- editable means unreliable in every respect
+- canonical for terminology means independent for evaluation
+
+### Open questions and checks
+
+- record revision IDs for substantial claims
+- audit references on high-traffic pages
+- map open and branded content boundaries
+
+### Sources
+
+- Cynefin.io — Naturalising Sense-Making wiki — https://cynefin.io/wiki/Main_Page
+
+## Cynefin: Weaving Sense-Making into the Fabric of Our World
+
+Type: Publication
+Public depth: profile
+
+Multi-author 2020 volume presenting retrospective, conceptual and practice accounts of Cynefin and its development.
+
+### Summary
+
+The 2020 Cynefin volume gathers retrospective and practice accounts from Dave Snowden and other contributors around the framework's first two decades.
+
+### Why it matters
+
+It is a canonical internal retrospective and an important source for declared history. Chapter authorship must remain visible, and retrospective memory should be checked against dated records.
+
+### Key distinctions
+
+- multi-author collection vs single-author work
+- retrospective history vs contemporaneous record
+- open preview vs whole-book rights
+
+### Historical development
+
+- twenty-one years of Cynefin
+- community and practice reflections
+
+### Ideas it depends on
+
+- Cynefin history
+- sense-making
+- practice
+
+### What develops from it
+
+- later Cynefin teaching
+- retrospective framing
+
+### Connections to practice
+
+- orientation
+- training
+- method history
+
+### Common confusions
+
+- all chapters speak with one voice
+- retrospective sequence is uncontested history
+
+### Open questions and checks
+
+- map chapter authors and claims
+- compare with dated papers and blog posts
+
+### Sources
+
+- Cynefin: Weaving Sense-Making into the Fabric of Our World — https://thecynefin.co/library/cynefin-weaving-sense-making-into-the-fabric-of-our-world/
+
+## Cynthia F. Kurtz
+
+Type: Person
+Public depth: profile
+
+Researcher and writer on participatory narrative inquiry and sense-making, and co-author of The New Dynamics of Strategy.
+
+### Summary
+
+Cynthia F. Kurtz is a researcher and writer on participatory narrative inquiry and sense-making, and co-author of the early Cynefin paper The New Dynamics of Strategy.
+
+### Why it matters
+
+Cynefin's early scholarly development was collaborative. Representing Kurtz separately prevents a shared paper and narrative research contribution from becoming a one-person genealogy.
+
+### Key distinctions
+
+- co-authorship vs later ownership
+- participatory narrative inquiry vs story collection alone
+
+### Historical development
+
+- organisational narrative
+- participatory inquiry
+- knowledge management
+
+### Ideas it depends on
+
+- narrative
+- interpretation
+- context
+
+### What develops from it
+
+- The New Dynamics of Strategy
+- participatory narrative inquiry
+
+### Connections to practice
+
+- organisational research
+- community inquiry
+- narrative methods
+
+### Common confusions
+
+- early Cynefin writing had a sole author
+- narrative work is anecdote without method
+
+### Open questions and checks
+
+- add Kurtz's later primary work
+- map the wider narrative-practice lineage
+
+### Sources
+
+- The New Dynamics of Strategy: Sense-making in a Complex and Complicated World — https://thecynefin.co/library/the-new-dynamics-of-strategy-sense-making-in-a-complex-and-complicated-world/
+
 ## D. H. Wolpert
 
 Type: Person
@@ -1759,6 +2306,141 @@ Data analysis uses quantitative evidence to distinguish patterns, variation and 
 - SCiO CF Resources v9 draft — No public link
 - SCiO Professional Accreditation and Competency Framework — https://www.systemspractice.org/professional-accreditation
 
+## Dave Snowden
+
+Type: Person
+Public depth: profile
+
+Researcher and practitioner who created the Cynefin framework, originated SenseMaker and developed naturalising sense-making and anthro-complexity as connected bodies of theory and practice.
+
+### Summary
+
+Dave Snowden's work joins context-sensitive decision support, narrative research, knowledge management and complexity-informed practice. Its central public constellation includes Cynefin, SenseMaker, naturalising sense-making, anthro-complexity, Estuarine Mapping and a long-running essay archive.
+
+### Why it matters
+
+The work offers a substantial alternative to universal methods and linear diagnosis in organisations. Its value is clearer when the named frameworks, tools, papers and source roles are separated rather than collapsed into a single brand or personality.
+
+### Key distinctions
+
+- framework vs model or method
+- complex vs complicated
+- first-party account vs independent evaluation
+- natural science as constraint vs metaphorical borrowing
+- narrative capture vs external coding alone
+
+### Historical development
+
+- knowledge management
+- organisational decision support
+- narrative methods
+- complex adaptive systems
+- naturalising sense-making
+
+### Ideas it depends on
+
+- context
+- constraints
+- uncertainty
+- sense-making
+- human meaning and identity
+
+### What develops from it
+
+- Cynefin
+- SenseMaker
+- anthro-complexity
+- Estuarine Mapping
+- distributed ethnography
+
+### Connections to practice
+
+- strategy
+- crisis decision-making
+- organisational design
+- participative narrative research
+- complex facilitation
+
+### Common confusions
+
+- Cynefin is the whole of Snowden's work
+- Cynefin assigns every problem permanently to a box
+- complexity means no structure or discipline
+- official source material independently proves efficacy
+
+### Open questions and checks
+
+- add independent histories and critical evaluations
+- map documented teaching and collaboration lineages
+- distinguish changes across Cynefin's versions
+- develop cases with outcome evidence
+
+### Sources
+
+- Dave Snowden — The Cynefin Company profile — https://thecynefin.co/team/dave-snowden/
+- Complex Acts of Knowing: Paradox and Descriptive Self-Awareness — https://thecynefin.co/library/complex-acts-of-knowing-paradox-and-descriptive-self-awareness/
+- The New Dynamics of Strategy: Sense-making in a Complex and Complicated World — https://thecynefin.co/library/the-new-dynamics-of-strategy-sense-making-in-a-complex-and-complicated-world/
+
+## Dave Snowden's public blog archive
+
+Type: Corpus
+Public depth: profile
+
+Dated first-person essays documenting the development, application, revision and polemics of Snowden's work over time.
+
+### Summary
+
+The author archive is a dated first-person record of Dave Snowden's developing distinctions, methods, applications, arguments and revisions.
+
+### Why it matters
+
+A long-running blog can reveal conceptual change and chronology that polished retrospective summaries conceal. It is strongest as evidence of what the author said when, not as independent proof that a claim is correct.
+
+### Key distinctions
+
+- primary author record vs independent scholarship
+- dated essay vs settled canon
+- discovery corpus vs evidence for every outbound claim
+
+### Historical development
+
+- Cognitive Edge blog
+- The Cynefin Company blog
+
+### Ideas it depends on
+
+- chronology
+- authorship
+- public argument
+
+### What develops from it
+
+- concept histories
+- method revisions
+- source trails
+
+### Connections to practice
+
+- research discovery
+- terminology tracing
+- current practice commentary
+
+### Common confusions
+
+- every post has equal status
+- repetition is independent corroboration
+- later terminology can be projected backwards without qualification
+
+### Open questions and checks
+
+- build item-level index
+- capture stable dates and permalinks
+- pair major claims with papers and independent accounts
+
+### Sources
+
+- Dave Snowden author archive — The Cynefin Company — https://thecynefin.co/author/dave-snowden/
+
 ## David Hilbert
 
 Type: Person
@@ -1909,6 +2591,68 @@ Every system map, category, KPI, service boundary and diagnosis begins with dist
 
 - Core Thinking Integration — No public link
 - Computing a Reality: Heinz von Foerster's 1973 lecture — https://constructivist.info/4/1/062.foerster
+
+## Distributed ethnography
+
+Type: Method or methodology
+Public depth: profile
+
+Participative research approach in which many people contribute situated observations or micro-narratives and interpret their own material, reducing sole dependence on an external analyst's coding scheme.
+
+### Summary
+
+Distributed ethnography spreads observation and interpretation across many situated participants rather than reserving both to a small external research team.
+
+### Why it matters
+
+It can increase contextual variety and reduce some analyst-imposed categories, while raising new sampling, ethics, inclusion and interpretation questions.
+
+### Key distinctions
+
+- distributed contribution vs representative sample
+- participant interpretation vs absence of research design
+- ethnographic sensibility vs software feature
+
+### Historical development
+
+- ethnography
+- participatory research
+- narrative inquiry
+- SenseMaker
+
+### Ideas it depends on
+
+- situated observation
+- participation
+- self-interpretation
+
+### What develops from it
+
+- distributed narrative datasets
+- participative sensing
+
+### Connections to practice
+
+- community research
+- organisational listening
+- monitoring and evaluation
+
+### Common confusions
+
+- distribution removes power
+- self-interpretation eliminates researcher choices
+- volume supplies validity
+
+### Open questions and checks
+
+- add methodological papers
+- map ethics and consent
+- compare with conventional and digital ethnography
+
+### Sources
+
+- SenseMaker — The Cynefin Company — https://thecynefin.co/sensemaker/
+- Dave Snowden — The Cynefin Company profile — https://thecynefin.co/team/dave-snowden/
 
 ## Donella Meadows
 
@@ -2268,6 +3012,70 @@ It provides a practitioner bridge between management cybernetics and ordinary or
 
 - Essential Balances: Stop Looking and Start Seeing What Makes Organizations Work — https://www.systemspractice.org/resources/essential-balances-stop-looking-and-start-seeing-what-makes-organizations-work
 - Ivo Velitchkov — https://velitchkov.eu/
+
+## Estuarine Mapping
+
+Type: Method or methodology
+Public depth: profile
+
+Strategy and change method that maps constraints and the energy or effort required to shift them, favouring navigation and modulation over fixed end-state planning.
+
+### Summary
+
+Estuarine Mapping represents constraints and the energy required to change them, supporting strategy as navigation through a shifting possibility space rather than movement towards a fully specified future state.
+
+### Why it matters
+
+It directs attention to what can be modulated now, what is costly or slow to change, and how the landscape changes as action proceeds.
+
+### Key distinctions
+
+- navigation vs end-state planning
+- constraints vs goals alone
+- energy to change vs importance
+- current method version vs every earlier sketch
+
+### Historical development
+
+- Cynefin dynamics
+- constraint mapping
+- naturalising sense-making
+
+### Ideas it depends on
+
+- constraints
+- affordances
+- energy
+- direction of travel
+
+### What develops from it
+
+- portfolio of interventions
+- continuous remapping
+- strategy under uncertainty
+
+### Connections to practice
+
+- strategy
+- change
+- policy
+- portfolio management
+
+### Common confusions
+
+- the map predicts the future
+- all constraints should be removed
+- energy estimates are objective facts
+
+### Open questions and checks
+
+- record subsequent versions
+- add worked public cases
+- compare with force-field, Wardley and systems maps
+
+### Sources
+
+- Estuarine Mapping — The Cynefin Company — https://thecynefin.co/estuarine-mapping/
 
 ## Every Good Regulator of a System Must Be a Model of That System
 
@@ -4376,6 +5184,68 @@ Mechanical governors regulate machine speed by sensing motion and altering input
 - On Governors — https://doi.org/10.1098/rspl.1867.0055
 - History of Control — https://www.ieeecss.org/history
 
+## Managing complexity (and chaos) in times of crisis
+
+Type: Publication
+Public depth: profile
+
+European Commission Joint Research Centre field guide by Dave Snowden and Alessandro Rancati, using Cynefin to support crisis assessment, sensing, repurposing and learning.
+
+### Summary
+
+The JRC field guide offers a four-stage crisis approach informed by Cynefin: assess and respond, build sensing networks, repurpose structures for innovation, and formalise learning and resilience.
+
+### Why it matters
+
+It is a public institutional translation into crisis practice, with explicit attention to boundaries, informal structures, options and distributed engagement.
+
+### Key distinctions
+
+- field guide vs universal procedure
+- complexity vs chaos
+- sensing network vs central information pipeline
+
+### Historical development
+
+- Cynefin
+- European Commission Joint Research Centre
+- crisis practice
+
+### Ideas it depends on
+
+- context assessment
+- boundaries
+- sensing
+- options
+
+### What develops from it
+
+- crisis action stages
+- institutional learning
+
+### Connections to practice
+
+- government
+- crisis response
+- resilience
+- innovation
+
+### Common confusions
+
+- four stages imply a linear programme
+- a guide removes the need for situated judgement
+
+### Open questions and checks
+
+- add evaluations and cases
+- compare with emergency-management doctrine
+- trace later revisions
+
+### Sources
+
+- Managing complexity (and chaos) in times of crisis: a field guide for decision makers inspired by the Cynefin framework — https://publications.jrc.ec.europa.eu/repository/handle/JRC123629
+- Managing complexity and chaos in times of crisis — Cynefin library record — https://thecynefin.co/library/managing-complexity-and-chaos-in-times-of-crisis/
+
 ## Managing deflection, resistance and challenge
 
 Type: Intervention skill
@@ -4409,6 +5279,59 @@ A systems scholar and practitioner associated with critical systems thinking, en
 ### Sources
 
 - Systems Approaches to Making Change: A Practical Guide — https://www.systemspractice.org/resources/systems-approaches-making-change-practical-guide
+
+## Mary E. Boone
+
+Type: Person
+Public depth: profile
+
+Author and leadership practitioner who co-authored A Leader's Framework for Decision Making with Dave Snowden.
+
+### Summary
+
+Mary E. Boone co-authored A Leader's Framework for Decision Making, a prominent practice-facing presentation of Cynefin for leaders.
+
+### Why it matters
+
+The HBR article shaped wide managerial circulation of Cynefin. Authorship and popularisation should be represented distinctly from the framework's earlier development.
+
+### Key distinctions
+
+- co-authorship vs framework creation
+- popularisation vs complete theoretical account
+
+### Historical development
+
+- leadership practice
+- management publishing
+
+### Ideas it depends on
+
+- decision-making
+- context
+- leadership
+
+### What develops from it
+
+- A Leader's Framework for Decision Making
+
+### Connections to practice
+
+- leadership development
+- decision support
+
+### Common confusions
+
+- the HBR article is the full Cynefin corpus
+
+### Open questions and checks
+
+- add biographical and practice sources
+- trace documented uptake without inferring it from citation alone
+
+### Sources
+
+- A Leader's Framework for Decision Making — https://hbr.org/2007/11/a-leaders-framework-for-decision-making
 
 ## Metabolic Stability and Epigenesis in Randomly Constructed Genetic Nets
 
@@ -4771,6 +5694,73 @@ S. Amari, ‘Natural Gradient Works Efficiently in Learning’ (1998); item 85 i
 ### Sources
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## Naturalising sense-making
+
+Type: Approach family
+Public depth: profile
+
+School of sense-making that uses natural science as a constraint on theory and praxis while asking how people know enough about a situation to act.
+
+### Summary
+
+Naturalising sense-making uses natural science as a constraint while asking how people make sufficient sense of a situation to act. It is the broad approach within which Cynefin, SenseMaker and anthro-complexity are placed by their developers.
+
+### Why it matters
+
+It makes an epistemic claim about disciplined use of science, not merely a collection of branded tools. The constraint language also calls for scrutiny: which sciences, which findings, and how translation to human practice is warranted.
+
+### Key distinctions
+
+- constraint vs decorative metaphor
+- sufficiency for action vs total explanation
+- school of sense-making vs universal epistemology
+- first-party definition vs independent assessment
+
+### Historical development
+
+- knowledge management
+- narrative-based sense-making
+- complexity-informed practice
+- anthro-complexity
+
+### Ideas it depends on
+
+- sense-making
+- natural science
+- constraint
+- pragmatic action
+
+### What develops from it
+
+- Cynefin
+- SenseMaker
+- anthro-complexity
+- Estuarine Mapping
+
+### Connections to practice
+
+- decision support
+- organisational design
+- research
+- facilitation
+
+### Common confusions
+
+- naturalising means reduction to biology or physics
+- scientific constraint guarantees correctness
+- the school is coterminous with complexity science
+
+### Open questions and checks
+
+- trace the five-schools account
+- identify explicit scientific dependencies
+- add rival sense-making traditions and criticism
+
+### Sources
+
+- Naturalising sense-making — Cynefin.io — https://cynefin.io/index.php/Naturalising_sense-making
+- Dave Snowden — The Cynefin Company profile — https://thecynefin.co/team/dave-snowden/
 
 ## Navigating Complexity
 
@@ -7201,6 +8191,72 @@ A graph-like knowledge representation in which nodes stand for concepts or entit
 
 - Introduction to Principia Cybernetica — https://pespmc1.vub.ac.be/INTRO.html
 
+## SenseMaker
+
+Type: Tool
+Public depth: profile
+
+Research and decision-support environment for collecting self-interpreted micro-narratives and making distributed patterns available for inquiry and action.
+
+### Summary
+
+SenseMaker supports distributed capture and self-interpretation of micro-narratives so that patterns can be explored without reducing all meaning to an external coding scheme.
+
+### Why it matters
+
+It links narrative and quantitative pattern exploration while retaining participants' own interpretation. Claims about a tool's design should remain distinct from evidence about what it achieved in a particular intervention.
+
+### Key distinctions
+
+- self-signification vs researcher coding alone
+- micro-narrative vs survey response
+- pattern exploration vs predictive certainty
+- tool capability vs project outcome
+
+### Historical development
+
+- narrative knowledge management
+- distributed ethnography
+- Cynefin
+
+### Ideas it depends on
+
+- narrative
+- distributed participation
+- interpretation
+- pattern
+
+### What develops from it
+
+- narrative landscapes
+- participative monitoring
+- weak-signal inquiry
+
+### Connections to practice
+
+- evaluation
+- community research
+- strategy
+- monitoring
+- organisational listening
+
+### Common confusions
+
+- software removes interpretation
+- large narrative collections are automatically representative
+- visual patterns explain themselves
+
+### Open questions and checks
+
+- add technical and methodological documentation
+- include independent evaluations
+- map ethical and data-governance questions
+
+### Sources
+
+- SenseMaker — The Cynefin Company — https://thecynefin.co/sensemaker/
+- Dave Snowden — The Cynefin Company profile — https://thecynefin.co/team/dave-snowden/
+
 ## Sensitive dependence on initial conditions
 
 Type: Concept
@@ -8297,6 +9353,69 @@ M. Bunge, ‘The Complexity of Simplicity’ (1962); item 19 in volume 1 of the 
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
 
+## The Cynefin Company
+
+Type: Organisation
+Public depth: profile
+
+Organisation developing and applying Cynefin, SenseMaker and naturalising sense-making across strategy, decision-making, research and practice.
+
+### Summary
+
+The Cynefin Company is the organisational home for current development, teaching and application of Cynefin, SenseMaker and associated naturalising sense-making methods.
+
+### Why it matters
+
+Organisations carry methods through products, training, communities, archives and revision. The organisational source is canonical for current self-description but cannot stand as independent evidence of its own impact.
+
+### Key distinctions
+
+- organisation vs intellectual tradition
+- current host vs sole historical source
+- official description vs independent evaluation
+
+### Historical development
+
+- Cognitive Edge
+- The Cynefin Company
+- Cynefin Centre
+
+### Ideas it depends on
+
+- institutional maintenance
+- research and development
+- practice community
+
+### What develops from it
+
+- public library
+- training
+- SenseMaker
+- blog archive
+
+### Connections to practice
+
+- strategy
+- organisational decision-making
+- research
+- facilitation
+
+### Common confusions
+
+- the organisation and the whole field are the same
+- a current product page supplies independent outcome evidence
+
+### Open questions and checks
+
+- map organisational chronology
+- separate company, centre and community roles
+- add independent evaluations
+
+### Sources
+
+- The Cynefin Company — https://thecynefin.co/
+- Dave Snowden — The Cynefin Company profile — https://thecynefin.co/team/dave-snowden/
+
 ## The Economic Implications of Learning by Doing
 
 Type: Publication
@@ -8544,6 +9663,65 @@ R. B. Laughlin, D. Pines, J. Schmalian, B. P. Stojkovic, and P. Wolynes, ‘The 
 ### Sources
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## The New Dynamics of Strategy
+
+Type: Publication
+Public depth: profile
+
+2003 article by Cynthia F. Kurtz and David J. Snowden connecting narrative, sense-making and Cynefin dynamics in complex and complicated contexts.
+
+### Summary
+
+The New Dynamics of Strategy is an early co-authored scholarly account of narrative, sense-making and movement among Cynefin contexts.
+
+### Why it matters
+
+It grounds both the collaborative development and the dynamic, rather than merely classificatory, character of early Cynefin practice.
+
+### Key distinctions
+
+- complex vs complicated
+- dynamics vs static taxonomy
+- co-authored development vs sole authorship
+
+### Historical development
+
+- IBM knowledge management
+- narrative inquiry
+- Cynefin
+
+### Ideas it depends on
+
+- sense-making
+- narrative
+- context
+
+### What develops from it
+
+- Cynefin dynamics
+- strategy practice
+
+### Connections to practice
+
+- strategy
+- organisational narrative
+- decision support
+
+### Common confusions
+
+- the diagram is the whole argument
+- the domains are static sectors
+
+### Open questions and checks
+
+- summarise with exact page locators
+- trace later revisions
+- map reception and criticism
+
+### Sources
+
+- The New Dynamics of Strategy: Sense-making in a Complex and Complicated World — https://thecynefin.co/library/the-new-dynamics-of-strategy-sense-making-in-a-complex-and-complicated-world/
 
 ## The Organic Systems Framework
 
