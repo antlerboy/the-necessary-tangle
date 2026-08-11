@@ -9,6 +9,7 @@ build:
 	python3 scripts/apply_iteration_10.py
 	python3 scripts/apply_iteration_11.py
 	python3 scripts/apply_iteration_12.py
+	python3 scripts/apply_iteration_13.py
 	python3 scripts/refresh_graph_snapshot.py
 	python3 scripts/patch_public_site.py
 	python3 scripts/patch_constellation_07.py
@@ -18,6 +19,7 @@ build:
 	python3 scripts/patch_iteration_11.py
 	python3 scripts/patch_iteration_12.py
 	python3 scripts/normalise_iteration_11_dot.py
+	python3 scripts/patch_iteration_13.py
 	python3 scripts/build_public_knowledge.py
 
 validate: build
@@ -28,6 +30,7 @@ validate: build
 	python3 scripts/validate_iteration_10.py
 	python3 scripts/validate_iteration_11.py
 	python3 scripts/validate_iteration_12.py
+	python3 scripts/validate_iteration_13.py
 	./scripts/check_javascript.sh
 
 serve: build

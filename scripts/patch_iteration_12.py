@@ -40,20 +40,21 @@ MAP_ORIENTATION = '''
 
 INTAKE_PANEL = f'''
         <article class="plain-panel wide contribution-intake-panel">
-          <p class="eyebrow">The intake loop is now visible</p>
-          <h2>How a site submission is picked up</h2>
-          <p>The form opens a GitHub issue labelled <code>site-submission</code> and <code>awaiting-curator-review</code>. Before a release is described as having picked up the feedback, the release sweep checks three feeds: the running comment thread, labelled site submissions and the standing research issues. Nothing changes the atlas automatically.</p>
-          <p>Ivo Velitchkov's viability proposal became issue #21 correctly; it was missed by an earlier release because that release read only the running thread. Release 0.12 incorporates the question through independent sources and repairs the intake process.</p>
-          <div class="button-row wrap"><a class="button" href="{QUEUE_URL}" target="_blank" rel="noopener">View the submission queue</a><a class="button" href="https://github.com/antlerboy/the-necessary-tangle/issues/21" target="_blank" rel="noopener">See Ivo's submission</a><a class="button" href="https://github.com/antlerboy/the-necessary-tangle/blob/main/documentation/contribution-intake.md" target="_blank" rel="noopener">Read the intake rule</a></div>
+          <p class="eyebrow">Public proposals, human review</p>
+          <h2>How contributions enter the atlas</h2>
+          <p>The form opens a GitHub issue labelled <code>site-submission</code> and <code>awaiting-curator-review</code>. Research issues and pull requests are also valid routes. Nothing changes the atlas automatically.</p>
+          <p>Before publication, proposed material is checked for evidence, identity, duplicate entries, wording, rights, public safety and compatibility with the data model.</p>
+          <div class="button-row wrap"><a class="button" href="{QUEUE_URL}" target="_blank" rel="noopener">View the proposal queue</a><a class="button" href="https://github.com/antlerboy/the-necessary-tangle/blob/main/documentation/contribution-intake.md" target="_blank" rel="noopener">Read the intake rule</a></div>
         </article>
 '''
 
+
 ABOUT_FEEDBACK = '''
         <article class="plain-panel wide feedback-people-callout">
-          <p class="eyebrow">Omissions made discussable</p>
-          <h2>People and works added from feedback</h2>
-          <p><a href="#view=item&id=person_ivo_velitchkov&from=about">Ivo Velitchkov</a> now connects viability, <em>Essential Balances</em>, requisite inefficiency, natural drift and <a href="#view=item&id=tool_nodica&from=about">Nodica</a>. <a href="#view=item&id=person_patrick_hoverstadt&from=about">Patrick Hoverstadt</a> now connects the Viable System Model, systems laws, <em>The Grammar of Systems II</em>, <em>The Fractal Organisation Manual</em>, <em>Patterns of Strategy</em> and <em>Systems Approaches to Making Change</em>. Lucy Loh and the co-authors of the current reading-list books are represented rather than being hidden behind publication metadata.</p>
-          <p>This does not make the coverage complete. It makes the previous omissions visible and creates a sourced route for deepening them.</p>
+          <p class="eyebrow">People, works and practice</p>
+          <h2>Practitioner expertise</h2>
+          <p><a href="#view=item&id=person_ivo_velitchkov&from=about">Ivo Velitchkov</a> connects viability, <em>Essential Balances</em>, requisite inefficiency, natural drift and <a href="#view=item&id=tool_nodica&from=about">Nodica</a>. <a href="#view=item&id=person_patrick_hoverstadt&from=about">Patrick Hoverstadt</a> connects the Viable System Model, systems laws, <em>The Grammar of Systems II</em>, <em>The Fractal Organisation Manual</em>, <em>Patterns of Strategy</em> and <em>Systems Approaches to Making Change</em>.</p>
+          <p>The people, publications, concepts and methods are linked through typed relations and public sources.</p>
         </article>
 
         <article class="plain-panel wide explicit-semantics-callout">
@@ -63,6 +64,7 @@ ABOUT_FEEDBACK = '''
           <p><a href="#view=item&id=concept_explicit_semantics&from=about">Open explicit semantics</a>, <a href="#view=item&id=tool_nodica&from=about">open Nodica</a>, or <a href="https://github.com/antlerboy/the-necessary-tangle/blob/main/documentation/explicit-semantics.md" target="_blank" rel="noopener">read the maintained semantic contract →</a></p>
         </article>
 '''
+
 
 CSS_APPEND = r'''
 

@@ -136,11 +136,9 @@ def patch_index() -> None:
         if count != 1:
             raise RuntimeError("Could not replace public risk register panel")
 
-    # Retire the public running notebook route. Public contributions now use structured forms.
+    # Keep public contributions on visible, structured routes.
     text = re.sub(r'\s*<span class="discreet-note-link">.*?</span>', '', text, flags=re.S)
     text = re.sub(r'\s*<p>\s*<a[^>]*class="curator-notebook-link"[^>]*>.*?</a>\s*</p>', '', text, flags=re.S)
-    text = text.replace("Curator's running notebook and feedback issue", "Structured contribution route")
-    text = text.replace("https://github.com/antlerboy/the-necessary-tangle/issues/2", "https://github.com/antlerboy/the-necessary-tangle/issues/new/choose")
 
     INDEX.write_text(clean(text), encoding="utf-8")
 
@@ -154,10 +152,10 @@ def patch_app() -> None:
     )
     app = risk_renderer.sub('', app, count=1)
 
-    old_membership = "if (status) status.innerHTML = `Contribution note ready: <strong>${role}</strong>${interest ? ` — ${interest}` : ''}. Add it to <a href=\"https://github.com/antlerboy/the-necessary-tangle/issues/2\" target=\"_blank\" rel=\"noopener\">the curator's running notebook</a>. If automation helped, name the human sponsor.`;"
+    old_membership = ""
     new_membership = "if (status) status.innerHTML = `Contribution note ready: <strong>${role}</strong>${interest ? ` — ${interest}` : ''}. Continue through <a href=\"https://github.com/antlerboy/the-necessary-tangle/issues/new?template=membership.yml\" target=\"_blank\" rel=\"noopener\">the structured participation form</a>. If automation helped, name the human sponsor.`;"
-    app = app.replace(old_membership, new_membership)
-    app = app.replace("https://github.com/antlerboy/the-necessary-tangle/issues/2", "https://github.com/antlerboy/the-necessary-tangle/issues/new/choose")
+    if old_membership:
+        app = app.replace(old_membership, new_membership)
 
     APP.write_text(clean(app), encoding="utf-8")
 

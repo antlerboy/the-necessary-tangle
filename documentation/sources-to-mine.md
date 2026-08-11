@@ -158,14 +158,14 @@ Caution: Maps are arguments made for purposes. Similarity to another map is not 
 
 Next: Publish the comparison table and record what this atlas still does worse.
 
-## Private company-knowledge discovery
+## Practice-source discovery
 
-Status: `private_discovery_only`
+Status: `public_evidence_required`
 
-Public starting point: https://github.com/antlerboy/the-necessary-tangle/issues/8
+Public starting point: https://github.com/antlerboy/the-necessary-tangle/blob/main/documentation/publication-standards.md
 
-Use: Find prior work, references, names, decisions and candidate omissions.
+Use: Identify prior work, references, names and candidate practice sources.
 
-Caution: No internal URL, confidential material or private extract belongs in the public atlas. Public evidence must replace private discovery wherever possible.
+Caution: Discovery leads are not evidence. Public evidence or complete public bibliographic citations must support anything published.
 
-Next: Keep a private lead log and publish only independently supportable statements and citations.
+Next: Assess each lead against the public-source rule before adding an entry or relation.

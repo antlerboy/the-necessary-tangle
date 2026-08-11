@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Apply the 0.8 map motion, full-map entry and discreet notebook refinements."""
+"""Apply the 0.8 map motion, full-map entry and interface refinements."""
 from __future__ import annotations
 
 import re
@@ -122,23 +122,6 @@ def patch_index() -> None:
         '<option value="all">Full public map</option>',
         '<option value="all" selected>Full public map</option>',
     )
-    text = re.sub(
-        r'\s*<p>\s*<a[^>]*class="curator-notebook-link"[^>]*>.*?</a>\s*</p>',
-        '',
-        text,
-        flags=re.S,
-    )
-    if 'class="discreet-note-link"' not in text:
-        discreet = (
-            '<span class="discreet-note-link">'
-            '<a class="curator-notebook-link" href="https://github.com/antlerboy/the-necessary-tangle/issues/2" '
-            'target="_blank" rel="noopener" aria-label="Curator running notebook" title="Curator notes">·</a>'
-            '</span>'
-        )
-        if '</footer>' in text:
-            text = text.replace('</footer>', f'{discreet}</footer>', 1)
-        else:
-            text = text.replace('</body>', f'{discreet}\n</body>', 1)
     INDEX.write_text(clean(text), encoding="utf-8")
 
 
@@ -269,7 +252,7 @@ def main() -> None:
     else:
         patch_app()
     patch_css()
-    print("Applied 0.8 breadth, adaptive-map and discreet-notebook interface changes")
+    print("Applied 0.8 breadth and adaptive-map interface changes")
 
 
 if __name__ == "__main__":

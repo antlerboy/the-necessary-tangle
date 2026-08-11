@@ -12,7 +12,7 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA_PATH = ROOT / "data" / "public-data.json"
 SEED_PATH = ROOT / "data" / "expansion-08-seed.json"
 DOCS = ROOT / "docs"
-ALLOWED_RELEASES = {"0.8-expansion-alpha", "0.9-observations-alpha", "0.10-practice-safety-alpha", "0.11-visual-map-alpha", "0.12-practitioner-intake-alpha"}
+ALLOWED_RELEASES = {"0.8-expansion-alpha", "0.9-observations-alpha", "0.10-practice-safety-alpha", "0.11-visual-map-alpha", "0.12-practitioner-intake-alpha", "0.13-expertise-observations-alpha"}
 BASELINE_COUNT = 204
 MINIMUM_ADDED = 200
 EXPECTED_PUBLIC_COUNT = 407
@@ -168,18 +168,10 @@ def main() -> int:
         errors.append("the home page does not open the full public map explicitly")
     if '<option value="all" selected>Full public map</option>' not in index:
         errors.append("the map itself does not default to the full public map")
-    if "Curator's running notebook and feedback issue" in index or ">Curator notebook</a>" in index:
-        errors.append("the curator running notebook remains too prominent")
-    if meta.get("release") in {"0.8-expansion-alpha", "0.9-observations-alpha"}:
-        if 'class="discreet-note-link"' not in index:
-            errors.append("the discreet curator-note wrapper is missing")
-        if index.count('class="curator-notebook-link"') != 1 or '/issues/2' not in index:
-            errors.append("the curator notebook must be reachable through exactly one discreet link")
-    elif meta.get("release") == "0.10-practice-safety-alpha" and '/issues/2' in index:
-        errors.append("the retired public curator-notebook route remains in 0.10")
-    elif meta.get("release") in {"0.11-visual-map-alpha", "0.12-practitioner-intake-alpha"}:
-        if index.count('data-curator-dot="comments"') != 1 or index.count('/issues/2') != 1:
-            errors.append("the restored curator comment dot is missing or duplicated")
+    if meta.get("release") == "0.13-expertise-observations-alpha" and any(
+        marker in index for marker in ("data-curator-dot=", "curator-secret-dot", "curator-notebook-link", "discreet-note-link")
+    ):
+        errors.append("an obsolete hidden working route remains in the public page")
 
     app = (DOCS / "assets" / "app.js").read_text(encoding="utf-8")
     for marker in [
@@ -191,9 +183,12 @@ def main() -> int:
     if "button.dataset.mapMode === 'all'" not in app and "followInternalAnchor" not in app:
         errors.append("the full-map navigation hook is missing")
     css = (DOCS / "assets" / "site-enhancements.css").read_text(encoding="utf-8")
-    for marker in ["graph-edge.contextual", "discreet-note-link", "graph-node-group"]:
+    css_markers = ["graph-edge.contextual", "graph-node-group"]
+    if meta.get("release") in {"0.8-expansion-alpha", "0.9-observations-alpha"}:
+        css_markers.append("discreet-note-link")
+    for marker in css_markers:
         if marker not in css:
-            errors.append(f"0.8 map/notebook CSS marker missing: {marker}")
+            errors.append(f"0.8 map CSS marker missing: {marker}")
 
     snapshot = data.get("graph_snapshot", {})
     if snapshot.get("public_node_count") != len(public_nodes):

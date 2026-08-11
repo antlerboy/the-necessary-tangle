@@ -1490,11 +1490,10 @@
       ${claims.length ? `<section class="entry-section"><h2>Relevant statements in the atlas</h2>${claims.map((claim) => `<div class="claim-card"><p>${linkifyKnownText(claim.statement)}</p><span class="badge">${esc(publicStatusLabel(claim.status))}</span></div>`).join('')}</section>` : ''}
       ${path.length > 1 ? `<section class="entry-section"><h2>A possible connection path</h2><div class="path-step">${path.map((id, index) => `${index ? '<span>→</span>' : ''}<a href="${internalHref('item', { id: id, from: baseView })}" class="chip open-card internal-entry-link" data-id="${esc(id)}">${esc(nodeById.get(id)?.label || id)}</a>`).join('')}</div></section>` : ''}
       <div class="context-actions">
-        <button id="copyAskContext">Copy atlas context</button>
-        <button id="copyOpenChatGPT" class="primary">Copy and open ChatGPT</button>
+        <button id="copyAskContext" class="primary">Copy atlas context</button>
         <a class="button" href="${esc(CONFIG.discussionsUrl || `${CONFIG.repositoryUrl}/discussions`)}" target="_blank" rel="noopener">Discuss the question</a>
       </div>
-      <p class="small">The site does not send your question anywhere. The buttons copy the prepared public context; you decide whether to use it in ChatGPT or open a public discussion.</p>
+      <p class="small">The site does not send your question anywhere. You may copy the prepared public context or open a public discussion.</p>
     </section>`;
     bindCards($('askResults'));
     $$('.entry-link', $('askResults')).forEach((button) => button.addEventListener('click', () => renderEntry(button.dataset.id)));
@@ -1510,10 +1509,6 @@
       }
     };
     $('copyAskContext').addEventListener('click', () => copy($('copyAskContext')));
-    $('copyOpenChatGPT').addEventListener('click', async () => {
-      await copy($('copyOpenChatGPT'));
-      window.open(CONFIG.chatgptUrl || 'https://chatgpt.com/', '_blank', 'noopener');
-    });
   }
 
   function updateContributionHint() {

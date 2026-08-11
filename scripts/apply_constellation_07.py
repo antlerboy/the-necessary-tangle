@@ -1,10 +1,8 @@
 #!/usr/bin/env python3
-"""Apply the reconstructed, validated 0.7 constellation release overlay.
+"""Apply the validated 0.7 constellation release overlay.
 
-The original staged 0.7 archive was truncated in transit. This idempotent overlay
-reconstructs the release from the recoverable release specification, its graph
-snapshot, and the named public primary sources. It deliberately does not use the
-superseded 295-entry branch.
+The idempotent overlay uses the maintained release specification, graph snapshot
+and named public sources.
 """
 from __future__ import annotations
 

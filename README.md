@@ -18,17 +18,17 @@ The site includes:
 - readable entries with sources and evidence;
 - guided journeys through connected ideas;
 - a clickable map with inspectable lines;
-- question-led exploration and prepared public context for ChatGPT;
+- question-led exploration and inspectable, copyable public context;
 - structured routes for corrections, challenges, sources and discussion;
 - embedded explanations of coverage, method, rights and current limitations.
 
 ## Status
 
-This is a public alpha. Release 0.12 contains 442 canonical public entries, including 58 developed profiles, 114 sources and 14 guided journeys. Breadth is not presented as completeness, and editorial acceptance is not presented as final consensus.
+This is a public alpha. Release 0.13 contains 464 canonical public entries, including 80 developed profiles, 125 sources and 15 guided journeys. Breadth is not presented as completeness, and editorial acceptance is not presented as final consensus.
 
 The strongest current material is around boundaries and observers; feedback and regulation; variety, viability and the Viable System Model; systems laws, strategy and applied practitioner lineages; recursion; emergence; and self-organisation. Human and institutional lineage, the complexity corpus and practice transmission still need much more work.
 
-The [coverage programme](documentation/coverage-programme.md) now makes the next corpus and lineage passes explicit, including the *Foundational Papers in Complexity Science*, relevant Monoskop material, the SysCoI and model.report archives, prior maps and bodies of knowledge, practitioner influence constellations, and private company-knowledge discovery with public-source replacement.
+The [coverage programme](documentation/coverage-programme.md) makes the next corpus and lineage passes explicit, including the *Foundational Papers in Complexity Science*, relevant Monoskop material, the SysCoI and model.report archives, prior maps and bodies of knowledge, practitioner influence constellations, and practice sources which can be supported by public evidence.
 
 ## Start here
 
@@ -36,7 +36,7 @@ Readers: open the [public site](https://antlerboy.github.io/the-necessary-tangle
 
 Continue into the living field through the [Systems Community of Inquiry](https://www.syscoi.com/), [SCiO capability and accreditation](https://www.systemspractice.org/professional-accreditation), [SCiO professional development](https://www.systemspractice.org/professional-development), and [Benjamin P Taylor's reading list](https://stream.syscoi.com/2024/10/01/updated-rough-draft-systems-complexity-cybernetics-reading-list/).
 
-Contributors: read [CONTRIBUTING.md](CONTRIBUTING.md), then use the repository's Issues or Discussions. Site-generated issues are labelled and reconciled with the running feedback and standing research issues before release; see [documentation/contribution-intake.md](documentation/contribution-intake.md).
+Contributors: read [CONTRIBUTING.md](CONTRIBUTING.md), then use the repository's Issues or Discussions. Site-generated issues are labelled and reviewed alongside research issues and pull requests before release; see [documentation/contribution-intake.md](documentation/contribution-intake.md).
 
 Readers who want to inspect what a line means should start with [documentation/explicit-semantics.md](documentation/explicit-semantics.md). Current gaps against Benjamin's reading list and the SCiO curriculum are recorded in [documentation/reading-list-coverage.md](documentation/reading-list-coverage.md) and [documentation/scio-coverage.md](documentation/scio-coverage.md).
 

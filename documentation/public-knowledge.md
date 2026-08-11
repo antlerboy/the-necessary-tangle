@@ -1,7 +1,7 @@
 # The Necessary Tangle: public knowledge file
 
 Curated by Benjamin P Taylor — https://www.antlerboy.com/
-Generated from public release 0.12-practitioner-intake-alpha.
+Generated from public release 0.13-expertise-observations-alpha on 2026-08-11.
 
 A living evidence atlas of systems | cybernetics | complexity.
 Every connection must say what it means. Historical sequence, logical dependence, influence, teaching, collaboration, practical use, comparison and dispute are not interchangeable.
@@ -55,6 +55,65 @@ C. E. Shannon, ‘A Mathematical Theory of Communication’ (1948); item 9 in vo
 ### Sources
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## A Mini-Primer of Critical Systems Heuristics
+
+Type: Publication
+Public depth: profile
+
+Werner Ulrich's maintained introduction to Critical Systems Heuristics, boundary critique and the twelve questions used to examine reference systems and claims to improvement.
+
+### Summary
+
+The mini-primer gives a concise primary account of CSH, its philosophical basis, boundary critique and the uses of the twelve boundary questions.
+
+### Why it matters
+
+It is a public, maintained source that states what CSH is and is not, reducing reliance on second-hand summaries and method labels.
+
+### Key distinctions
+
+- heuristic vs algorithm
+- reflection vs boundary critique
+- cooperative vs emancipatory use
+
+### Historical development
+
+- Critical Heuristics of Social Planning
+- CSH primers and later revisions
+
+### Ideas it depends on
+
+- practical philosophy
+- systems thinking
+- boundary judgement
+
+### What develops from it
+
+- boundary categories
+- twelve boundary questions
+- critical professional practice
+
+### Connections to practice
+
+- action research
+- policy and programme evaluation
+- citizen challenge
+
+### Common confusions
+
+- a mini-primer replaces the full methodology
+- boundary questions generate one correct answer
+
+### Open questions and checks
+
+- add companion primer to boundary critique
+- record revision history
+- link page-level claims
+
+### Sources
+
+- A Mini-Primer of Critical Systems Heuristics — https://wulrich.com/csh.html
 
 ## A Model for the Origin of Life
 
@@ -276,6 +335,63 @@ Mathematician whose 1936 paper formalised computability through the machine now 
 - SCiO SysBoK - Recursion v1 — No public link
 - On Computable Numbers, with an Application to the Entscheidungsproblem — https://doi.org/10.1112/plms/s2-42.1.230
 
+## Alfonso Reyes
+
+Type: Person
+Public depth: profile
+
+A systems scholar and co-author of Organizational Systems, contributing to its account of complexity, organisational cybernetics, the Viable System Model and systemic methodology.
+
+### Summary
+
+Alfonso Reyes co-developed Organizational Systems as a synthesis of complexity, organisational cybernetics, VSM and methodology.
+
+### Why it matters
+
+His co-authorship is part of the book's intellectual and practical provenance and should not disappear behind a single-author account of organisational cybernetics.
+
+### Key distinctions
+
+- co-authorship vs editorial assistance
+- systemic methodology vs model application
+
+### Historical development
+
+- organisational cybernetics
+- VSM
+- systems methodology
+
+### Ideas it depends on
+
+- complexity
+- organisation
+- methodology
+
+### What develops from it
+
+- Organizational Systems
+- teaching and application of VSM
+
+### Connections to practice
+
+- organisational analysis
+- systems education
+- institutional design
+
+### Common confusions
+
+- the book is solely Espejo's work
+- VSM application is methodologically neutral
+
+### Open questions and checks
+
+- develop independent profile sources
+- map wider publications and collaborations
+
+### Sources
+
+- Organizational Systems: Managing Complexity with the Viable System Model — https://link.springer.com/book/10.1007/978-3-642-19109-1
+
 ## Appreciative Inquiry
 
 Type: Intervention skill
@@ -312,7 +428,7 @@ Arthur Battram translated complexity ideas into organisational and local-governm
 
 ### Why it matters
 
-Benjamin's own material repeatedly credits Battram as a practical source and critical companion. His absence was another sign that the atlas had underweighted the curator's actual practitioner constellation.
+Battram provides a practical bridge from complexity theory to management action, emphasising navigation, experimentation and judgement rather than the fantasy of complete control.
 
 ### Key distinctions
 
@@ -494,6 +610,73 @@ A bibliographic first-pass person entry for B. P. Stojkovic, listed by the offic
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
 
+## Barry Oshry
+
+Type: Person
+Public depth: profile
+
+A human-systems practitioner and author whose work develops system-sight through recurring relational positions, whole-system processes, power, love, differentiation and integration.
+
+### Summary
+
+Barry Oshry develops experiential and conceptual resources for moving from system-blindness to system-sight in human systems.
+
+### Why it matters
+
+His work explains how recurring relational positions and whole-system processes generate predictable experiences without reducing people to personality types or formal roles.
+
+### Key distinctions
+
+- position vs personality
+- system-blindness vs system-sight
+- differentiation vs individuation
+- integration vs homogenisation
+
+### Historical development
+
+- human systems practice
+- Power Lab
+- Organization Workshop
+- Organic Systems Framework
+
+### Ideas it depends on
+
+- context
+- position
+- power
+- whole and part
+- relationship
+
+### What develops from it
+
+- Tops, Middles, Bottoms and Customers
+- Power and Love
+- Organic Systems Framework
+
+### Connections to practice
+
+- leadership development
+- organisation development
+- partnership
+- power and system dynamics
+
+### Common confusions
+
+- Tops, Middles and Bottoms are personality types
+- system position removes personal responsibility
+- integration means agreement
+
+### Open questions and checks
+
+- map primary books and programmes
+- connect empirical research
+- develop relation to schismogenesis and power
+
+### Sources
+
+- Barry Oshry — author profile — https://www.triarchypress.net/barry-oshry.html
+- The Organic Systems Framework — https://www.triarchypress.net/osf.html
+
 ## Behavior, Purpose, and Teleology
 
 Type: Publication
@@ -587,6 +770,69 @@ Boundaries decide who counts, what becomes a cost, which outcomes are visible an
 - The Systemic Intervention Approach — https://doi.org/10.1002/sres.2819
 - Core Thinking Integration — No public link
 - Systems convening and boundaries core slides — No public link
+
+## Boundary critique
+
+Type: Concept
+Public depth: profile
+
+Boundary critique is the systematic examination of judgements about what and whom a situation, inquiry or proposal treats as relevant, including the facts, values, interests and voices those judgements admit or exclude.
+
+### Summary
+
+Boundary critique asks how judgements about relevance shape what counts as fact, value, improvement, expertise and legitimate participation.
+
+### Why it matters
+
+Every systems intervention draws a boundary. Making that boundary discussable is a condition for responsible inquiry, especially when benefits and harms fall on people who did not define the system of concern.
+
+### Key distinctions
+
+- boundary vs perimeter
+- relevance vs existence
+- involved vs affected
+- fact and value as boundary-conditioned
+
+### Historical development
+
+- Churchman's systems approach
+- Ulrich's Critical Systems Heuristics
+- systemic intervention
+
+### Ideas it depends on
+
+- boundary
+- purpose
+- stakeholder
+- legitimacy
+
+### What develops from it
+
+- twelve boundary questions
+- systemic marginalisation
+- critical evaluation
+
+### Connections to practice
+
+- framing policy questions
+- testing beneficiaries and victims
+- reviewing expertise claims
+
+### Common confusions
+
+- wider is always better
+- all boundaries can be eliminated
+- boundary critique guarantees inclusion
+
+### Open questions and checks
+
+- connect Midgley's systemic marginalisation
+- add cases of boundary change
+- map rival boundary practices
+
+### Sources
+
+- A Mini-Primer of Critical Systems Heuristics — https://wulrich.com/csh.html
 
 ## Bubble Strategy
 
@@ -1214,13 +1460,68 @@ Critical social learning systems examine how groups learn together while questio
 ## Critical Systems Heuristics (CSH)
 
 Type: Method or methodology
-Public depth: described
+Public depth: profile
 
 Critical Systems Heuristics is a framework for examining the boundary judgements built into plans and interventions: who benefits, who decides, what counts as expertise, and who or what is left outside.
+
+### Summary
+
+Critical Systems Heuristics is a framework for reflective and critical practice which makes boundary judgements and their consequences discussable.
+
+### Why it matters
+
+CSH provides a disciplined way to examine who benefits, who decides, what counts as knowledge and how those affected can challenge claims to improvement.
+
+### Key distinctions
+
+- is vs ought
+- involved vs affected
+- boundary judgement vs neutral fact
+- heuristic vs algorithm
+
+### Historical development
+
+- C. West Churchman
+- Werner Ulrich
+- critical systems thinking
+
+### Ideas it depends on
+
+- boundary
+- purpose
+- legitimacy
+- knowledge
+- power
+
+### What develops from it
+
+- twelve boundary questions
+- boundary critique
+- citizen competence
+
+### Connections to practice
+
+- policy appraisal
+- evaluation
+- participative inquiry
+- professional critique
+
+### Common confusions
+
+- CSH discovers the correct boundary
+- the twelve questions are a checklist survey
+- only emancipatory projects can use CSH
+
+### Open questions and checks
+
+- add primary book sources
+- connect systemic marginalisation
+- develop cases and criticism
 
 ### Sources
 
 - SCiO CF Resources v9 draft — No public link
+- A Mini-Primer of Critical Systems Heuristics — https://wulrich.com/csh.html
 
 ## Critical Systems Thinking: A Practitioner's Guide
 
@@ -1370,6 +1671,69 @@ A bibliographic first-pass person entry for D. Watts, listed by the official Fou
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
 
+## Dancing With Systems
+
+Type: Publication
+Public depth: profile
+
+Donella Meadows's practical disciplines for acting with feedback-rich and partly unpredictable systems: observe, listen, expose assumptions, learn, protect information and work for the good of the whole.
+
+### Summary
+
+Dancing With Systems presents practical disciplines for acting with systems whose behaviour cannot be fully predicted or controlled.
+
+### Why it matters
+
+It connects systems knowledge to conduct: observation, humility, learning, information integrity, responsibility, time horizons and care for the whole.
+
+### Key distinctions
+
+- participation vs control
+- learning vs bluffing
+- important vs merely quantifiable
+
+### Historical development
+
+- system dynamics practice
+- Meadows's modelling and teaching
+- Thinking in Systems
+
+### Ideas it depends on
+
+- feedback
+- uncertainty
+- learning
+- responsibility
+
+### What develops from it
+
+- systems practice disciplines
+- adaptive intervention
+- systems ethics
+
+### Connections to practice
+
+- management
+- government
+- community action
+- personal practice
+
+### Common confusions
+
+- dancing means passivity
+- uncertainty means analysis is useless
+- humility means avoiding judgement
+
+### Open questions and checks
+
+- connect each discipline to practice cases
+- compare with cybernetic ethics
+- map relation to Thinking in Systems
+
+### Sources
+
+- Dancing With Systems — https://donellameadows.org/archives/dancing-with-systems/
+
 ## Darkness Principle
 
 Type: Law or principle
@@ -1454,6 +1818,17 @@ E. N. Lorenz, ‘Deterministic Nonperiodic Flow’ (1963); item 23 in volume 2 o
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
 
+## Diana Wright
+
+Type: Person
+Public depth: described
+
+The editor who prepared Donella Meadows's unfinished manuscript for publication as Thinking in Systems, preserving and organising its practice-facing introduction to systems thinking.
+
+### Sources
+
+- Thinking in Systems: A Primer — https://www.penguinrandomhouse.com/books/801035/thinking-in-systems-by-donella-meadows/
+
 ## Difference
 
 Type: Concept
@@ -1534,6 +1909,74 @@ Every system map, category, KPI, service boundary and diagnosis begins with dist
 
 - Core Thinking Integration — No public link
 - Computing a Reality: Heinz von Foerster's 1973 lecture — https://constructivist.info/4/1/062.foerster
+
+## Donella Meadows
+
+Type: Person
+Public depth: profile
+
+A systems analyst, author and educator whose work joined system dynamics, environmental analysis and practical disciplines for understanding, intervening in and living with complex systems.
+
+### Summary
+
+Donella Meadows connected rigorous system dynamics with lucid public explanation and practical disciplines for intervention, learning and responsible action.
+
+### Why it matters
+
+Her work brings feedback, stocks, flows, delays, resilience and leverage into public and organisational practice while repeatedly warning against the fantasy of complete prediction and control.
+
+### Key distinctions
+
+- understanding vs control
+- event vs behaviour over time
+- parameter change vs structural leverage
+- measurement vs value
+
+### Historical development
+
+- MIT system dynamics
+- Limits to Growth
+- sustainability analysis
+- systems education
+
+### Ideas it depends on
+
+- stocks and flows
+- feedback
+- delay
+- nonlinearity
+- goal
+
+### What develops from it
+
+- Thinking in Systems
+- Leverage Points
+- Dancing With Systems
+
+### Connections to practice
+
+- policy modelling
+- sustainability
+- organisational learning
+- intervention design
+
+### Common confusions
+
+- leverage points are a universal recipe
+- systems analysis enables control
+- only quantifiable variables matter
+
+### Open questions and checks
+
+- develop system-dynamics lineage
+- connect Limits to Growth
+- map criticism and later applications
+
+### Sources
+
+- Thinking in Systems: A Primer — https://www.penguinrandomhouse.com/books/801035/thinking-in-systems-by-donella-meadows/
+- Dancing With Systems — https://donellameadows.org/archives/dancing-with-systems/
+- Leverage Points: Places to Intervene in a System — https://donellameadows.org/archives/leverage-points-places-to-intervene-in-a-system/
 
 ## Double bind
 
@@ -1634,6 +2077,17 @@ A bibliographic first-pass person entry for E. T. Jaynes, listed by the official
 ### Sources
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## Ed Straw
+
+Type: Person
+Public depth: described
+
+A governance practitioner and co-author of The Hidden Power of Systems Thinking, contributing experience of government, public administration, institutional reform and systemic governing.
+
+### Sources
+
+- The Hidden Power of Systems Thinking: Governance in a Climate Emergency — https://www.routledge.com/The-Hidden-Power-of-Systems-Thinking-Governance-in-a-Climate-Emergency/Ison-Straw/p/book/9781138493995
 
 ## Eilhard von Domarus
 
@@ -3076,7 +3530,7 @@ Ivo Velitchkov works across systems and cybernetics, organisation, enterprise ar
 
 ### Why it matters
 
-His omission exposed two failures: the atlas underweighted the curator's practitioner sources, and site-generated contributions were not reconciled with the running feedback thread. Both are now treated as release-level defects.
+Velitchkov's work joins management cybernetics, viable organisation, dynamic balance, surplus variety, enterprise architecture and explicit semantic representation. It provides substantive routes between organisational practice and knowledge-graph design.
 
 ### Key distinctions
 
@@ -3583,6 +4037,132 @@ Medieval Italian mathematician, also called Fibonacci, whose recurrence sequence
 ### Sources
 
 - SCiO SysBoK - Recursion v1 — No public link
+
+## Leverage points
+
+Type: Concept
+Public depth: profile
+
+Leverage points are places where changing a system's information, feedback, rules, goals, structure or paradigms may alter its behaviour; their effect depends on direction, context and resistance.
+
+### Summary
+
+Leverage points are intervention locations in a system's structure, information, feedback, rules, goals and paradigms.
+
+### Why it matters
+
+They direct attention away from the visibility of an intervention towards the system property it changes and the direction in which it changes it.
+
+### Key distinctions
+
+- point vs direction
+- parameter vs structure
+- goal vs paradigm
+- leverage vs ease
+
+### Historical development
+
+- system dynamics
+- Forrester
+- Meadows's synthesis
+
+### Ideas it depends on
+
+- feedback
+- information
+- rule
+- goal
+- paradigm
+
+### What develops from it
+
+- systems intervention heuristics
+- systems-change practice
+
+### Connections to practice
+
+- policy
+- strategy
+- organisation design
+- social change
+
+### Common confusions
+
+- a leverage point is automatically beneficial
+- the highest level is always the correct target
+
+### Open questions and checks
+
+- map twelve levels
+- add counterexamples
+- compare with intervention points in other traditions
+
+### Sources
+
+- Leverage Points: Places to Intervene in a System — https://donellameadows.org/archives/leverage-points-places-to-intervene-in-a-system/
+
+## Leverage Points: Places to Intervene in a System
+
+Type: Publication
+Public depth: profile
+
+Donella Meadows's ordered account of places to intervene in systems, ranging from parameters and feedback structures to goals, paradigms and the capacity to remain unattached to paradigms.
+
+### Summary
+
+Leverage Points orders potential interventions from parameters through feedback and rules to goals, paradigms and the ability to move among paradigms.
+
+### Why it matters
+
+The essay is useful precisely because it combines a memorable hierarchy with repeated cautions: leverage depends on direction and context, systems resist change, and the list is not a recipe.
+
+### Key distinctions
+
+- leverage point vs preferred solution
+- location vs direction
+- parameter vs information vs rule vs goal
+
+### Historical development
+
+- system dynamics
+- Jay Forrester
+- Donella Meadows's policy and teaching work
+
+### Ideas it depends on
+
+- feedback
+- information flow
+- rule
+- goal
+- paradigm
+
+### What develops from it
+
+- intervention heuristics
+- paradigm practice
+- systems-change discourse
+
+### Connections to practice
+
+- policy design
+- organisational change
+- sustainability intervention
+
+### Common confusions
+
+- higher is always easier
+- the list identifies one best intervention
+- paradigm change can be commanded
+
+### Open questions and checks
+
+- map all twelve levels
+- connect empirical cases
+- compare with other intervention frameworks
+
+### Sources
+
+- Leverage Points: Places to Intervene in a System — https://donellameadows.org/archives/leverage-points-places-to-intervene-in-a-system/
 
 ## Linear argument technique
 
@@ -4131,7 +4711,7 @@ Natural drift is Maturana and Mpodozis's evolutionary account centred on the con
 
 ### Why it matters
 
-Ivo Velitchkov's site submission asked the atlas to distinguish viability from fitness and the viable from the fittest. The independent source supports adding the theory, but not presenting it as settled evolutionary biology.
+Natural drift offers a specific theoretical account of evolutionary diversification in which conservation of organisation and structural change are central. It is included as a scoped and contestable account, not as field-wide biological consensus.
 
 ### Key distinctions
 
@@ -4629,7 +5209,7 @@ Opening the Box is a compact, dialogical route into systems thinking through fou
 
 ### Why it matters
 
-It is designed for people who may find the field forbidding. Ivo Velitchkov's usability feedback makes that purpose especially relevant to the atlas itself.
+Its compact dialogical form gives readers a route into systems thinking without treating accessibility as a licence to flatten distinctions or remove uncertainty.
 
 ### Key distinctions
 
@@ -4689,6 +5269,70 @@ The Order Osmosis Principle proposes that, where more and less organised systems
 - The Grammar of Systems - SCiO presentation — https://www.systemspractice.org/resources/grammar-systems
 - The Grammar of Systems II: From Order to Chaos and Back Again, 2nd edition — https://www.systemspractice.org/resources/grammar-systems-ii-order-chaos-back-again-2nd-ed
 - Cybersecurity Lessons from The Grammar of Systems, part 2 — https://www.linkedin.com/pulse/cybersecurity-lessons-from-grammar-systems-order-chaos-osama-salah-1f
+
+## Organic Systems Framework
+
+Type: Method or methodology
+Public depth: profile
+
+The Organic Systems Framework is Barry Oshry's pattern language for seeing human systems as wholes and examining how recurring positions and whole-system processes shape experience and action.
+
+### Summary
+
+The Organic Systems Framework is a pattern language for seeing recurring relations and processes in human systems and using that system-sight to alter action.
+
+### Why it matters
+
+It provides a non-individualising explanation of recurrent experiences of burden, oppression, alienation and vulnerability while retaining room for agency and responsibility.
+
+### Key distinctions
+
+- position vs person
+- systemic condition vs moral excuse
+- whole-system process vs local event
+
+### Historical development
+
+- Barry Oshry's programmes
+- human systems practice
+- Organic Systems Framework
+
+### Ideas it depends on
+
+- context
+- position
+- relationship
+- whole
+
+### What develops from it
+
+- system-sight
+- partnership interventions
+- whole-system diagnosis
+
+### Connections to practice
+
+- leadership development
+- organisation development
+- power analysis
+- partnership
+
+### Common confusions
+
+- positions are permanent roles
+- systemic explanation absolves conduct
+- the four conditions exhaust social life
+
+### Open questions and checks
+
+- connect power-and-systems practice
+- add workshop evidence
+- map complementarities and disputes
+
+### Sources
+
+- The Organic Systems Framework — https://www.triarchypress.net/osf.html
+- Barry Oshry — author profile — https://www.triarchypress.net/barry-oshry.html
 
 ## Organisational recursion
 
@@ -4758,6 +5402,67 @@ Organisations often centralise decisions that require local variety or mistake r
 
 - Diagnosing the System for Organizations — https://www.wiley-vch.de/en/areas-interest/finance-economics-law/diagnosing-the-system-for-organizations-978-0-471-95136-0
 - Viable System Model - The VSM in 1000 words — https://metaphorum.org/staffords-work/viable-system-model
+
+## Organizational Systems
+
+Type: Publication
+Public depth: profile
+
+Raul Espejo and Alfonso Reyes's synthesis of organisational cybernetics, the Viable System Model, Viplan, variety engineering and methodology for diagnosis, design and implementation.
+
+### Summary
+
+Organizational Systems combines concepts, VSM, Viplan and systemic methodology into an integrated account of organisational diagnosis and design.
+
+### Why it matters
+
+It provides a major practice-facing bridge from Beer's VSM to methods of organisational cybernetics, including implementation problems and variety engineering.
+
+### Key distinctions
+
+- VSM vs Viplan
+- method vs methodology
+- diagnosis vs design vs implementation
+
+### Historical development
+
+- Stafford Beer
+- organisational cybernetics
+- Espejo's Viplan work
+
+### Ideas it depends on
+
+- VSM
+- complexity
+- identity
+- variety engineering
+
+### What develops from it
+
+- Viplan applications
+- organisational cybernetics teaching
+- diagnosis and design practice
+
+### Connections to practice
+
+- organisation design
+- governance
+- change implementation
+
+### Common confusions
+
+- it is only a VSM textbook
+- organisation can be diagnosed without clarifying identity
+
+### Open questions and checks
+
+- add chapter-level locators
+- map reviews and critiques
+- connect cases
+
+### Sources
+
+- Organizational Systems: Managing Complexity with the Viable System Model — https://link.springer.com/book/10.1007/978-3-642-19109-1
 
 ## Organizations and Markets
 
@@ -4871,7 +5576,7 @@ Patrick Hoverstadt is represented as a practitioner-author whose work joins mana
 
 ### Why it matters
 
-The atlas already contained his methods, book corpus and SCiO resources while omitting the person. That broke the stated purpose of tracing human as well as conceptual lineages.
+Hoverstadt's work connects the Viable System Model, systems laws, organisation diagnosis and design, relational strategy and transformation. It is a major practice-facing body of management cybernetics.
 
 ### Key distinctions
 
@@ -4996,6 +5701,73 @@ It gives the atlas a strategy method which is relational, dynamic and action-ori
 
 - Patterns of Strategy — https://www.systemspractice.org/resources/patterns-strategy-0
 - What is Patterns of Strategy? — https://www.systemspractice.org/resources/what-patterns-strategy
+
+## Peter Checkland
+
+Type: Person
+Public depth: profile
+
+A systems scholar and practitioner who developed Soft Systems Methodology through action research on messy, contested situations and the relation between systems thinking and systems practice.
+
+### Summary
+
+Peter Checkland developed Soft Systems Methodology through sustained action research in situations where purposes, boundaries and improvements are contested rather than given.
+
+### Why it matters
+
+His work makes a basic systems distinction operational: systems can be used as devices for inquiry into a situation without assuming that the situation itself is one objectively specified system.
+
+### Key distinctions
+
+- system as ontology vs system as epistemological device
+- hard problem solving vs inquiry into problem situations
+- model of purposeful activity vs model of the world
+
+### Historical development
+
+- systems engineering
+- action research at Lancaster
+- Soft Systems Methodology
+- later systems practice
+
+### Ideas it depends on
+
+- purpose
+- boundary
+- worldview
+- learning
+- human activity system
+
+### What develops from it
+
+- Soft Systems Methodology
+- rich pictures
+- root definitions
+- conceptual activity models
+
+### Connections to practice
+
+- organisational inquiry
+- public-service problem structuring
+- participative learning
+- feasible and desirable change
+
+### Common confusions
+
+- SSM is a softer version of optimisation
+- a conceptual model describes the real organisation
+- consensus is required before action
+
+### Open questions and checks
+
+- add Learning for Action
+- map Checkland's collaborators and students
+- develop criticism and later adaptations
+
+### Sources
+
+- Systems Thinking, Systems Practice: includes a 30-year retrospective — https://research.lancaster-university.uk/en/publications/systems-thinking-systems-practice-includes-a-30-year-retrospectiv/
+- Systems Thinking, Systems Practice — Wiley publisher page — https://www.wiley-vch.de/en/areas-interest/finance-economics-law/systems-thinking-systems-practice-978-0-471-98606-5
 
 ## Pig model
 
@@ -5432,6 +6204,139 @@ Randomness describes outcomes treated as not deterministically predictable withi
 ### Sources
 
 - Systems Thinking Practitioner apprenticeship standard ST0787 v1.2 — https://skillsengland.education.gov.uk/apprenticeships/st0787-v1-2
+
+## Raul Espejo
+
+Type: Person
+Public depth: profile
+
+An organisational cybernetician and practitioner whose work develops the Viable System Model, Viplan, variety engineering and methods for organisational diagnosis, design and implementation.
+
+### Summary
+
+Raul Espejo develops organisational cybernetics as a practice of understanding and designing identities, relations, regulatory capacity and organisational structures.
+
+### Why it matters
+
+His work extends the VSM into methods for diagnosis, design and implementation, including Viplan and detailed treatment of variety engineering.
+
+### Key distinctions
+
+- VSM model vs Viplan methodology
+- identity vs structure
+- complexity absorption vs information volume
+
+### Historical development
+
+- Project Cybersyn
+- Stafford Beer
+- organisational cybernetics
+- Viplan
+
+### Ideas it depends on
+
+- viability
+- requisite variety
+- identity
+- autonomy
+- cohesion
+
+### What develops from it
+
+- Viplan
+- variety engineering
+- organisational diagnosis and design
+
+### Connections to practice
+
+- organisation design
+- public and private enterprise
+- democratic governance
+- implementation
+
+### Common confusions
+
+- Viplan is another VSM diagram
+- identity can be read directly from an organisation chart
+
+### Open questions and checks
+
+- add primary Viplan papers
+- map Cybersyn role carefully
+- connect later organisational cybernetics
+
+### Sources
+
+- Organizational Systems: Managing Complexity with the Viable System Model — https://link.springer.com/book/10.1007/978-3-642-19109-1
+
+## Ray Ison
+
+Type: Person
+Public depth: profile
+
+A systems scholar and educator whose work develops Systems Thinking in Practice, systems praxeology, social learning, institutional innovation and systemic governance.
+
+### Summary
+
+Ray Ison's work treats systems thinking as an enacted practice involving situation, practitioner, concepts, methods, traditions and institutional conditions.
+
+### Why it matters
+
+Systems praxeology and systemic governance keep attention on how ways of knowing and acting are performed, learned and institutionalised rather than treating systems thinking as a detachable tool kit.
+
+### Key distinctions
+
+- systems thinking about practice vs Systems Thinking in Practice
+- governance vs government
+- social learning vs knowledge transfer
+
+### Historical development
+
+- Open University systems teaching
+- systems agriculture
+- social learning
+- systems praxeology
+- systemic governance
+
+### Ideas it depends on
+
+- practice
+- learning
+- institution
+- governance
+- reflexivity
+
+### What develops from it
+
+- STiP pedagogy
+- systems praxeology
+- systemic governance research
+
+### Connections to practice
+
+- climate adaptation
+- water governance
+- public administration
+- systems education
+
+### Common confusions
+
+- STiP is a collection of methods
+- governance means government machinery
+- social learning is consultation
+
+### Open questions and checks
+
+- add Systems Practice editions
+- map collaborators and programmes
+- develop cybersystemics work
+
+### Sources
+
+- Ray Ison — Open University profile — https://profiles.open.ac.uk/ray-ison
+- The Hidden Power of Systems Thinking: Governance in a Climate Emergency — https://www.routledge.com/The-Hidden-Power-of-Systems-Thinking-Governance-in-a-Climate-Emergency/Ison-Straw/p/book/9781138493995
+- Reimagining Systems Thinking as Cybersystemic Researching — https://doi.org/10.1002/sres.3189
+- Understanding systems thinking in practice (Open University) — https://www.open.edu/openlearn/science-maths-technology/understanding-systems-thinking-practice-stip
 
 ## Reading a Neural Code
 
@@ -6050,7 +6955,7 @@ SCiO is represented here as a professional and practitioner institution, not as 
 
 ### Why it matters
 
-The atlas previously contained SCiO documents and method lists without a public organisational entry. That made the sources look detached from the community and institutional work that produced and maintains them.
+SCiO provides a visible institutional and practitioner context for competency, accreditation, SysBoK, events and professional development sources.
 
 ### Key distinctions
 
@@ -6332,13 +7237,67 @@ Socio-technical systems thinking studies the joint design and interaction of soc
 ## Soft Systems Methodology (SSM)
 
 Type: Method or methodology
-Public depth: described
+Public depth: profile
 
 Soft Systems Methodology is a participative learning process for messy, contested human situations. It uses rich pictures, purposeful activity models and structured comparison to support inquiry and feasible change.
+
+### Summary
+
+Soft Systems Methodology is a learning-oriented process for inquiring into messy situations through rich pictures, explicit worldviews, purposeful activity models and structured comparison.
+
+### Why it matters
+
+SSM separates systemic inquiry from the claim that the situation itself is one objectively specifiable system. It is designed for plural purposes and contested improvement.
+
+### Key distinctions
+
+- problem vs problem situation
+- systematic vs systemic
+- model as inquiry device vs model of reality
+
+### Historical development
+
+- systems engineering
+- Peter Checkland's Lancaster action research
+- Systems Thinking, Systems Practice
+
+### Ideas it depends on
+
+- purpose
+- worldview
+- boundary
+- learning
+
+### What develops from it
+
+- rich pictures
+- root definitions
+- purposeful activity models
+- accommodations for action
+
+### Connections to practice
+
+- public-service inquiry
+- organisational learning
+- participative problem structuring
+
+### Common confusions
+
+- SSM is a fixed seven-step recipe
+- SSM avoids judgement or action
+- conceptual models describe real organisations
+
+### Open questions and checks
+
+- add primary method texts
+- map later adaptations and criticism
+- connect documented cases
 
 ### Sources
 
 - SCiO CF Resources v9 draft — No public link
+- Systems Thinking, Systems Practice: includes a 30-year retrospective — https://research.lancaster-university.uk/en/publications/systems-thinking-systems-practice-includes-a-30-year-retrospectiv/
+- Systems Thinking, Systems Practice — Wiley publisher page — https://www.wiley-vch.de/en/areas-interest/finance-economics-law/systems-thinking-systems-practice-978-0-471-98606-5
 
 ## Solvable Model of a Spin-Glass
 
@@ -6539,6 +7498,72 @@ The System Survival Theorem says that a system cannot remain viable indefinitely
 - The Grammar of Systems - SCiO presentation — https://www.systemspractice.org/resources/grammar-systems
 - The Grammar of Systems II: From Order to Chaos and Back Again, 2nd edition — https://www.systemspractice.org/resources/grammar-systems-ii-order-chaos-back-again-2nd-ed
 - Cybersecurity Lessons from The Grammar of Systems, part 1 — https://www.linkedin.com/pulse/cybersecurity-lessons-from-grammar-systems-order-chaos-osama-salah/
+
+## Systemic governance
+
+Type: Concept
+Public depth: profile
+
+Systemic governance treats governing as the design and continuing adaptation of relationships, institutions, learning processes and accountabilities across interacting systems rather than as command from one centre.
+
+### Summary
+
+Systemic governance concerns the institutions, relations and learning processes through which multiple actors govern together across boundaries and levels.
+
+### Why it matters
+
+Complex public issues exceed the variety and authority of any single organisation. Governance has to distribute sensing, action and accountability while preserving the capacity to learn and adapt.
+
+### Key distinctions
+
+- governance vs government
+- coordination vs command
+- distributed agency vs absence of accountability
+
+### Historical development
+
+- systems practice
+- institutional innovation
+- social learning
+- cybernetics of governance
+
+### Ideas it depends on
+
+- boundary
+- agency
+- accountability
+- learning
+- variety
+
+### What develops from it
+
+- systemic governing principles
+- multi-level institutional design
+- collective learning arrangements
+
+### Connections to practice
+
+- place-based governance
+- climate adaptation
+- public-service systems
+- cross-sector collaboration
+
+### Common confusions
+
+- systemic means comprehensive central planning
+- network governance needs no authority
+- collaboration removes conflict
+
+### Open questions and checks
+
+- connect governance traditions
+- add public cases
+- distinguish democratic legitimacy from functional viability
+
+### Sources
+
+- Ray Ison — Open University profile — https://profiles.open.ac.uk/ray-ison
+- The Hidden Power of Systems Thinking: Governance in a Climate Emergency — https://www.routledge.com/The-Hidden-Power-of-Systems-Thinking-Governance-in-a-Climate-Emergency/Ison-Straw/p/book/9781138493995
 
 ## Systemic Intervention
 
@@ -7087,6 +8112,68 @@ Practice becomes muddled when a broad theoretical vocabulary is treated as one a
 - What is SCiO? — https://www.systemspractice.org/professional-body
 - What do systems leadership and systems change mean to you? — https://chosen-path.org/2022/07/11/what-do-systems-leadership-and-systems-change-mean-to-you-what-questions-would-you-like-me-to-answer/
 
+## Systems Thinking, Systems Practice
+
+Type: Publication
+Public depth: profile
+
+Peter Checkland's account of the action-research programme from which Soft Systems Methodology developed, joining systems ideas to inquiry in ill-structured real-world situations.
+
+### Summary
+
+Systems Thinking, Systems Practice records the action-research programme that produced SSM and keeps theory and practice in a recursive relation rather than treating application as a final implementation stage.
+
+### Why it matters
+
+It is a primary route into why SSM was developed, what it was designed to avoid and how systems thinking changes when inquiry concerns people with different purposes and interpretations.
+
+### Key distinctions
+
+- problem vs problem situation
+- systematic vs systemic
+- real-world action vs conceptual modelling
+
+### Historical development
+
+- systems engineering
+- Lancaster action research
+- Soft Systems Methodology
+
+### Ideas it depends on
+
+- systems thinking
+- action research
+- purposeful activity
+- worldview
+
+### What develops from it
+
+- SSM modes of use
+- Learning for Action
+- systems practice teaching
+
+### Connections to practice
+
+- problem structuring
+- organisational learning
+- participative inquiry
+
+### Common confusions
+
+- the book supplies a fixed seven-step recipe
+- models are proposed designs of reality
+
+### Open questions and checks
+
+- add page-level locators
+- distinguish 1981 and retrospective editions
+- map critical responses
+
+### Sources
+
+- Systems Thinking, Systems Practice: includes a 30-year retrospective — https://research.lancaster-university.uk/en/publications/systems-thinking-systems-practice-includes-a-30-year-retrospectiv/
+- Systems Thinking, Systems Practice — Wiley publisher page — https://www.wiley-vch.de/en/areas-interest/finance-economics-law/systems-thinking-systems-practice-978-0-471-98606-5
+
 ## Systems weaving
 
 Type: Practice
@@ -7374,6 +8461,68 @@ Its laws were already itemised in the atlas, but the publication and author were
 - The Grammar of Systems II: From Order to Chaos and Back Again, 2nd edition — https://www.systemspractice.org/resources/grammar-systems-ii-order-chaos-back-again-2nd-ed
 - The Grammar of Systems - SCiO presentation — https://www.systemspractice.org/resources/grammar-systems
 
+## The Hidden Power of Systems Thinking
+
+Type: Publication
+Public depth: profile
+
+Ray Ison and Ed Straw's account of systems thinking in governance, focused on institutional obstacles, systemic governing and practical principles for acting amid climate and biodiversity emergencies.
+
+### Summary
+
+The Hidden Power of Systems Thinking connects systems practice to failures and possibilities of governance under climate and biodiversity emergency.
+
+### Why it matters
+
+It moves systems thinking from diagnosis of complex problems to the design of governing relationships, institutions, constitutional arrangements and learning capacity.
+
+### Key distinctions
+
+- government vs governance
+- institutional reform vs isolated intervention
+- whole-system change vs programme delivery
+
+### Historical development
+
+- Systems Thinking in Practice
+- systemic governance
+- public administration and institutional reform
+
+### Ideas it depends on
+
+- governance
+- systems practice
+- institution
+- climate emergency
+
+### What develops from it
+
+- principles for systemic governing
+- institutional innovation
+- governance capability
+
+### Connections to practice
+
+- public administration
+- constitutional design
+- climate governance
+- collective action
+
+### Common confusions
+
+- systems thinking itself supplies political legitimacy
+- governance can be redesigned from one centre
+
+### Open questions and checks
+
+- map the stated principles
+- add reviews and critical responses
+- connect public-service cases
+
+### Sources
+
+- The Hidden Power of Systems Thinking: Governance in a Climate Emergency — https://www.routledge.com/The-Hidden-Power-of-Systems-Thinking-Governance-in-a-Climate-Emergency/Ison-Straw/p/book/9781138493995
+
 ## The Intrinsic Computational Difficulty of Functions
 
 Type: Publication
@@ -7395,6 +8544,68 @@ R. B. Laughlin, D. Pines, J. Schmalian, B. P. Stojkovic, and P. Wolynes, ‘The 
 ### Sources
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## The Organic Systems Framework
+
+Type: Publication
+Public depth: profile
+
+Barry Oshry's concise case for a framework of recurring whole-system relationships and processes, including individuation, integration, differentiation and homogenisation.
+
+### Summary
+
+The Organic Systems Framework argues for a coherent pattern language of whole-system relationships and processes in human systems.
+
+### Why it matters
+
+It supplies a compact account of individuation, integration, differentiation and homogenisation and connects those processes to recurring positions, power and partnership.
+
+### Key distinctions
+
+- whole-system process vs role behaviour
+- differentiation vs individuation
+- integration vs homogenisation
+
+### Historical development
+
+- Oshry's experiential programmes
+- human systems thinking
+- organisation development
+
+### Ideas it depends on
+
+- whole
+- part
+- position
+- relationship
+- context
+
+### What develops from it
+
+- research and application of OSF
+- system-sight practice
+
+### Connections to practice
+
+- organisation workshops
+- leadership
+- partnership
+- system diagnosis
+
+### Common confusions
+
+- paradigm is used merely as a synonym for idea
+- the framework predicts individual behaviour
+
+### Open questions and checks
+
+- map the full framework
+- add research applications
+- compare with other human-systems accounts
+
+### Sources
+
+- The Organic Systems Framework — https://www.triarchypress.net/osf.html
 
 ## The Organization of Complex Systems
 
@@ -7483,6 +8694,70 @@ J. von Neumann, ‘Theory of Self-Reproducing Automata’ (1966); item 28 in vol
 ### Sources
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## Thinking in Systems
+
+Type: Publication
+Public depth: profile
+
+Donella Meadows's concise introduction to stocks, flows, feedback, delays, resilience, self-organisation and the practical discipline of seeing systems without assuming prediction and control.
+
+### Summary
+
+Thinking in Systems introduces system structures and behaviours through ordinary examples while retaining the discipline of stocks, flows, feedback, delays and resilience.
+
+### Why it matters
+
+It is a widely used route into systems thinking that combines technical clarity with cautions about boundaries, values, surprise and control.
+
+### Key distinctions
+
+- stock vs flow
+- reinforcing vs balancing feedback
+- event vs pattern
+- resilience vs efficiency
+
+### Historical development
+
+- system dynamics
+- Donella Meadows's teaching and essays
+- Diana Wright's editorial work
+
+### Ideas it depends on
+
+- feedback
+- stock
+- flow
+- delay
+- system boundary
+
+### What develops from it
+
+- public systems literacy
+- leverage-point practice
+- systems education
+
+### Connections to practice
+
+- policy
+- management
+- environmental systems
+- personal and community action
+
+### Common confusions
+
+- all systems can be reduced to one diagram
+- the text offers prediction rather than disciplined inquiry
+
+### Open questions and checks
+
+- map chapter concepts
+- connect to primary essays
+- add critiques from non-system-dynamics traditions
+
+### Sources
+
+- Thinking in Systems: A Primer — https://www.penguinrandomhouse.com/books/801035/thinking-in-systems-by-donella-meadows/
 
 ## Thoralf Skolem
 
@@ -8152,6 +9427,67 @@ The model makes the autonomy-cohesion problem explicit. It asks whether local op
 - Viable System Model - The VSM in 1000 words — https://metaphorum.org/staffords-work/viable-system-model
 - What is the Viable System Model? — https://www.systemspractice.org/resources/what-viable-system-model
 
+## Viplan
+
+Type: Method or methodology
+Public depth: profile
+
+Viplan is Raul Espejo's method and methodology for using organisational cybernetics and the Viable System Model in diagnosis, design and implementation work.
+
+### Summary
+
+Viplan combines organisational cybernetics, identity work and the VSM in a method and methodology for diagnosis, design and implementation.
+
+### Why it matters
+
+It makes the move from a cybernetic model to organised inquiry and intervention explicit, reducing the common error of treating the VSM diagram itself as a complete method.
+
+### Key distinctions
+
+- VSM model vs Viplan method
+- method vs methodology
+- identity clarification vs structural redesign
+
+### Historical development
+
+- Stafford Beer
+- Raul Espejo
+- organisational cybernetics
+
+### Ideas it depends on
+
+- VSM
+- identity
+- requisite variety
+- recursion
+
+### What develops from it
+
+- organisational diagnosis
+- organisation design
+- implementation methodology
+
+### Connections to practice
+
+- governance design
+- organisational transformation
+- capability diagnosis
+
+### Common confusions
+
+- Viplan is a drawing template
+- all organisations have one obvious system in focus
+
+### Open questions and checks
+
+- add primary method sources
+- document variants and cases
+- compare with other VSM methodologies
+
+### Sources
+
+- Organizational Systems: Managing Complexity with the Viable System Model — https://link.springer.com/book/10.1007/978-3-642-19109-1
+
 ## W. B. Arthur
 
 Type: Person
@@ -8274,6 +9610,72 @@ A hypertext dictionary combining the ASC Glossary, Klaus Krippendorff's dictiona
 
 - Web Dictionary of Cybernetics and Systems — https://pespmc1.vub.ac.be/ASC/INDEXASC.html
 
+## Werner Ulrich
+
+Type: Person
+Public depth: profile
+
+A systems scholar whose Critical Systems Heuristics develops practical and philosophical resources for examining boundary judgements, knowledge claims, values and the standing of those affected.
+
+### Summary
+
+Werner Ulrich developed Critical Systems Heuristics as a framework for reflective and critical practice centred on boundary judgements and the relation between expertise, values and those affected.
+
+### Why it matters
+
+CSH gives boundary critique a disciplined form. It makes the normative assumptions of claims to knowledge and improvement discussable without requiring everyone to become a technical specialist.
+
+### Key distinctions
+
+- involved vs affected
+- is vs ought
+- boundary judgement vs neutral fact
+- critique vs denunciation
+
+### Historical development
+
+- C. West Churchman
+- practical philosophy
+- critical systems thinking
+- Critical Systems Heuristics
+
+### Ideas it depends on
+
+- boundary
+- purpose
+- legitimacy
+- knowledge
+- power
+
+### What develops from it
+
+- twelve boundary questions
+- emancipatory boundary critique
+- citizen competence
+
+### Connections to practice
+
+- policy appraisal
+- evaluation
+- participatory inquiry
+- professional and citizen critique
+
+### Common confusions
+
+- CSH finds the correct boundary
+- only marginalised groups can use boundary critique
+- the twelve questions are a survey instrument
+
+### Open questions and checks
+
+- map Churchman lineage
+- add primary book sources
+- develop applications and criticism
+
+### Sources
+
+- A Mini-Primer of Critical Systems Heuristics — https://wulrich.com/csh.html
+
 ## Will a Large Complex System Be Stable?
 
 Type: Publication
@@ -8304,35 +9706,29 @@ These are explicit next-work programmes, not claims that the corpora have alread
 ## Foundational Papers in Complexity Science
 
 Status: registered not yet itemised
-Tracking issue: https://github.com/antlerboy/the-necessary-tangle/issues/3
 Completion test: Readable item-level contents guide, summaries, links, mapped concepts and people, and explicit omissions.
 
 ## Relevant Monoskop material
 
 Status: registered not yet systematically reviewed
-Tracking issue: https://github.com/antlerboy/the-necessary-tangle/issues/4
 Completion test: Documented search scope, admissions, exclusions, original-source replacements and remaining work.
 
 ## SysCoI and model.report archives
 
 Status: registered not yet systematically ingested
-Tracking issue: https://github.com/antlerboy/the-necessary-tangle/issues/5
 Completion test: Repeatable archival ingestion with typed provenance and no confusion of circulation with influence.
 
 ## Prior maps and bodies of knowledge
 
 Status: registered comparator pass pending
-Tracking issue: https://github.com/antlerboy/the-necessary-tangle/issues/6
 Completion test: Public comparison of purpose, boundary, categories, lines, evidence, strengths and failures.
 
 ## Practitioner influence constellations
 
 Status: relation model and pilots pending
-Tracking issue: https://github.com/antlerboy/the-necessary-tangle/issues/7
 Completion test: Gold-standard practitioner constellations with separately evidenced teaching, collaboration, citation and influence.
 
 ## Company-knowledge discovery
 
 Status: private discovery pass pending
-Tracking issue: https://github.com/antlerboy/the-necessary-tangle/issues/8
 Completion test: No private material published; useful leads replaced by public evidence or proper No-public-link citations.

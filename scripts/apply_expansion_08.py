@@ -1,12 +1,11 @@
 #!/usr/bin/env python3
 """Apply the 0.8 evidence-gated breadth expansion.
 
-This pass imports the defensible bibliographic material from the superseded
-295-entry branch without merging that branch. It adds the 89 publications in
-the official Foundational Papers in Complexity Science inventory, their authors
-as explicitly shallow bibliographic person entries, four volume containers and
-three reviewed framing records. It is deliberately an inventory layer, not a
-claim that every paper or author has received a full intellectual profile.
+This pass adds the 89 publications in the official Foundational Papers in
+Complexity Science inventory, their authors as explicitly shallow bibliographic
+person entries, four volume containers and three reviewed framing records. It is
+an inventory layer, not a claim that every paper or author has received a full
+intellectual profile.
 """
 from __future__ import annotations
 
@@ -378,7 +377,7 @@ def main() -> None:
         candidate["set_tags"] = encode([
             *parse(candidate.get("set_tags")),
             "release_0_8_expansion",
-            "reviewed_superseded_branch_candidate",
+            "reviewed_seed_candidate",
         ])
         nodes[candidate_id] = {**nodes.get(candidate_id, {}), **candidate}
         imported_public_ids.add(candidate_id)
@@ -522,7 +521,7 @@ def main() -> None:
         candidate["reviewed_at"] = GENERATED
         candidate["notes"] = (
             str(candidate.get("notes") or "").strip()
-            + " Candidate relation recovered from the superseded iteration and retained after endpoint and source validation."
+            + " Candidate relation retained after endpoint and source validation."
         ).strip()
         edge_id = candidate["id"]
         if edge_id in edges and (

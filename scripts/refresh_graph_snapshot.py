@@ -66,9 +66,9 @@ def calculate(data: dict[str, Any]) -> dict[str, Any]:
         "isolated_node_count": len(isolated),
         "component_count": len(component_sizes),
         "largest_component_node_count": component_sizes[0] if component_sizes else 0,
-        "isolates_by_entity_type": dict(
-            Counter(public[node_id].get("entity_type", "unknown") for node_id in isolated)
-        ),
+        "isolates_by_entity_type": dict(sorted(
+            Counter(public[node_id].get("entity_type", "unknown") for node_id in isolated).items()
+        )),
     }
 
 

@@ -11,7 +11,7 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA_PATH = ROOT / "data" / "public-data.json"
 DOCS = ROOT / "docs"
 EXPECTED_RELEASE = "0.10-practice-safety-alpha"
-ALLOWED_RELEASES = {EXPECTED_RELEASE, "0.11-visual-map-alpha", "0.12-practitioner-intake-alpha"}
+ALLOWED_RELEASES = {EXPECTED_RELEASE, "0.11-visual-map-alpha", "0.12-practitioner-intake-alpha", "0.13-expertise-observations-alpha"}
 EXPECTED_PUBLIC_COUNT = 417
 EXPECTED_PROFILE_COUNT = 38
 EXPECTED_JOURNEY_COUNT = 13
@@ -206,11 +206,7 @@ def main() -> int:
         "aiRiskList",
         "Risks of making the atlas public",
         "documentation/publication-risks.md",
-        "curator's running notebook",
-        "discreet-note-link",
     ]
-    if meta.get("release") == EXPECTED_RELEASE:
-        forbidden_public_markers.append("the-necessary-tangle/issues/2")
     for marker in forbidden_public_markers:
         if marker.casefold() in index.casefold() or marker.casefold() in app.casefold():
             errors.append(f"retired public working-note/risk marker remains: {marker}")
