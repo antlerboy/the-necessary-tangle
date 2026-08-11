@@ -28,40 +28,74 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          python3 - <<'PY'
-          from pathlib import Path
-
-          path = Path('scripts/patch_iteration_13.py')
-          text = path.read_text(encoding='utf-8')
-
-          replacements = {
-              '    (ROOT / "README.md").write_text(clean(readme), encoding="utf-8")': '''    readme = readme.replace(
-              "This is a public alpha. Release 0.12 contains 442 canonical public entries, including 58 developed profiles, 114 sources and 14 guided journeys.",
-              "This is a public alpha. Release 0.13 contains 464 canonical public entries, including 80 developed profiles, 125 sources and 15 guided journeys.",
-          )
-          readme = readme.replace(
-              "The [coverage programme](documentation/coverage-programme.md) now makes the next corpus and lineage passes explicit, including the *Foundational Papers in Complexity Science*, relevant Monoskop material, the SysCoI and model.report archives, prior maps and bodies of knowledge, practitioner influence constellations, and private company-knowledge discovery with public-source replacement.",
-              "The [coverage programme](documentation/coverage-programme.md) makes the next corpus and lineage passes explicit, including the *Foundational Papers in Complexity Science*, relevant Monoskop material, the SysCoI and model.report archives, prior maps and bodies of knowledge, practitioner influence constellations, and practice sources which can be supported by public evidence.",
-          )
-          (ROOT / "README.md").write_text(clean(readme), encoding="utf-8")''',
-              '    changelog = re.sub(r"^- Removed public links and prose tied to .*?\\n", "", changelog, count=1, flags=re.M)': '''    changelog = changelog.replace(
-              "- Removed the public running-notebook route; contributions now use structured issue and participation forms.",
-              "- Consolidated public contribution routes around structured issues and participation forms.",
-          )
-          changelog = changelog.replace(
-              "- created explicit corpus and lineage issues for the *Foundational Papers in Complexity Science*, Monoskop, SysCoI/model.report, prior maps and bodies of knowledge, practitioner influence constellations, and private company-knowledge discovery;",
-              "- defined corpus and lineage research programmes for the *Foundational Papers in Complexity Science*, Monoskop, SysCoI/model.report, prior maps and bodies of knowledge, and practitioner influence constellations;",
-          )
-          changelog = re.sub(r"^- Removed public links and prose tied to .*?\\n", "", changelog, count=1, flags=re.M)''',
-          }
-
-          for old, new in replacements.items():
-              if old not in text:
-                  raise SystemExit(f'Could not find expected source marker: {old[:80]}')
-              text = text.replace(old, new, 1)
-
-          path.write_text(text, encoding='utf-8')
-          PY
+          git apply --check <<'PATCH'
+          --- a/scripts/patch_iteration_13.py
+          +++ b/scripts/patch_iteration_13.py
+          @@ -247,6 +247,14 @@
+                   "Site-generated issues are labelled and reconciled with the running feedback and standing research issues before release; see",
+                   "Site-generated issues are labelled and reviewed alongside research issues and pull requests before release; see",
+               )
+          +    readme = readme.replace(
+          +        "This is a public alpha. Release 0.12 contains 442 canonical public entries, including 58 developed profiles, 114 sources and 14 guided journeys.",
+          +        "This is a public alpha. Release 0.13 contains 464 canonical public entries, including 80 developed profiles, 125 sources and 15 guided journeys.",
+          +    )
+          +    readme = readme.replace(
+          +        "The [coverage programme](documentation/coverage-programme.md) now makes the next corpus and lineage passes explicit, including the *Foundational Papers in Complexity Science*, relevant Monoskop material, the SysCoI and model.report archives, prior maps and bodies of knowledge, practitioner influence constellations, and private company-knowledge discovery with public-source replacement.",
+          +        "The [coverage programme](documentation/coverage-programme.md) makes the next corpus and lineage passes explicit, including the *Foundational Papers in Complexity Science*, relevant Monoskop material, the SysCoI and model.report archives, prior maps and bodies of knowledge, practitioner influence constellations, and practice sources which can be supported by public evidence.",
+          +    )
+               (ROOT / "README.md").write_text(clean(readme), encoding="utf-8")
+           
+               (ROOT / "ACKNOWLEDGEMENTS.md").write_text(ACKNOWLEDGEMENTS, encoding="utf-8")
+          @@ -292,6 +300,14 @@
+                   "- Reframed Ivo Velitchkov and Patrick Hoverstadt through their work, expertise, publications and practice relations.",
+                   "- Expanded Ivo Velitchkov and Patrick Hoverstadt through their work, expertise, publications and practice relations.",
+               )
+          +    changelog = changelog.replace(
+          +        "- Removed the public running-notebook route; contributions now use structured issue and participation forms.",
+          +        "- Consolidated public contribution routes around structured issues and participation forms.",
+          +    )
+          +    changelog = changelog.replace(
+          +        "- created explicit corpus and lineage issues for the *Foundational Papers in Complexity Science*, Monoskop, SysCoI/model.report, prior maps and bodies of knowledge, practitioner influence constellations, and private company-knowledge discovery;",
+          +        "- defined corpus and lineage research programmes for the *Foundational Papers in Complexity Science*, Monoskop, SysCoI/model.report, prior maps and bodies of knowledge, and practitioner influence constellations;",
+          +    )
+               changelog = re.sub(r"^- Removed public links and prose tied to .*?\n", "", changelog, count=1, flags=re.M)
+               changelog = re.sub(
+                   r"^- Moved the curator .*? operational link\.$",
+          PATCH
+          git apply <<'PATCH'
+          --- a/scripts/patch_iteration_13.py
+          +++ b/scripts/patch_iteration_13.py
+          @@ -247,6 +247,14 @@
+                   "Site-generated issues are labelled and reconciled with the running feedback and standing research issues before release; see",
+                   "Site-generated issues are labelled and reviewed alongside research issues and pull requests before release; see",
+               )
+          +    readme = readme.replace(
+          +        "This is a public alpha. Release 0.12 contains 442 canonical public entries, including 58 developed profiles, 114 sources and 14 guided journeys.",
+          +        "This is a public alpha. Release 0.13 contains 464 canonical public entries, including 80 developed profiles, 125 sources and 15 guided journeys.",
+          +    )
+          +    readme = readme.replace(
+          +        "The [coverage programme](documentation/coverage-programme.md) now makes the next corpus and lineage passes explicit, including the *Foundational Papers in Complexity Science*, relevant Monoskop material, the SysCoI and model.report archives, prior maps and bodies of knowledge, practitioner influence constellations, and private company-knowledge discovery with public-source replacement.",
+          +        "The [coverage programme](documentation/coverage-programme.md) makes the next corpus and lineage passes explicit, including the *Foundational Papers in Complexity Science*, relevant Monoskop material, the SysCoI and model.report archives, prior maps and bodies of knowledge, practitioner influence constellations, and practice sources which can be supported by public evidence.",
+          +    )
+               (ROOT / "README.md").write_text(clean(readme), encoding="utf-8")
+           
+               (ROOT / "ACKNOWLEDGEMENTS.md").write_text(ACKNOWLEDGEMENTS, encoding="utf-8")
+          @@ -292,6 +300,14 @@
+                   "- Reframed Ivo Velitchkov and Patrick Hoverstadt through their work, expertise, publications and practice relations.",
+                   "- Expanded Ivo Velitchkov and Patrick Hoverstadt through their work, expertise, publications and practice relations.",
+               )
+          +    changelog = changelog.replace(
+          +        "- Removed the public running-notebook route; contributions now use structured issue and participation forms.",
+          +        "- Consolidated public contribution routes around structured issues and participation forms.",
+          +    )
+          +    changelog = changelog.replace(
+          +        "- created explicit corpus and lineage issues for the *Foundational Papers in Complexity Science*, Monoskop, SysCoI/model.report, prior maps and bodies of knowledge, practitioner influence constellations, and private company-knowledge discovery;",
+          +        "- defined corpus and lineage research programmes for the *Foundational Papers in Complexity Science*, Monoskop, SysCoI/model.report, prior maps and bodies of knowledge, and practitioner influence constellations;",
+          +    )
+               changelog = re.sub(r"^- Removed public links and prose tied to .*?\n", "", changelog, count=1, flags=re.M)
+               changelog = re.sub(
+                   r"^- Moved the curator .*? operational link\.$",
+          PATCH
 
       - name: Build, validate and prove reproducibility
         shell: bash
