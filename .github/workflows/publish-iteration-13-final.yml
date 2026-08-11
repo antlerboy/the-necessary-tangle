@@ -1,0 +1,138 @@
+name: Publish validated iteration 0.13 candidate
+
+on:
+  push:
+    branches: ["agent/iteration-13-expertise-final"]
+    paths:
+      - ".github/workflows/publish-iteration-13-final.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish-iteration-13-expertise-final
+  cancel-in-progress: false
+
+jobs:
+  build-validate-commit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out clean candidate branch
+        uses: actions/checkout@v7
+        with:
+          ref: agent/iteration-13-expertise-final
+          fetch-depth: 0
+
+      - name: Verify and apply the final source patch
+        shell: bash
+        run: |
+          set -euo pipefail
+          base64 --decode .release/iteration-13-final-source.patch.xz.b64 > /tmp/iteration-13-final-source.patch.xz
+          test "$(wc -c < /tmp/iteration-13-final-source.patch.xz)" -eq 6660
+          echo "d7e58346e79c91dde7492337630bcd53bc8846b8e1bcbf110ea335ccbcefd10a  /tmp/iteration-13-final-source.patch.xz" | sha256sum -c -
+          xz -dc /tmp/iteration-13-final-source.patch.xz > /tmp/iteration-13-final-source.patch
+          git apply --check /tmp/iteration-13-final-source.patch
+          git apply /tmp/iteration-13-final-source.patch
+
+      - name: Build and validate twice
+        shell: bash
+        run: |
+          set -euo pipefail
+          make validate
+          find . -type f \
+            ! -path './.git/*' \
+            ! -path './scripts/__pycache__/*' \
+            ! -path './validation/*' \
+            ! -path './.release/*' \
+            ! -path './.github/workflows/export-iteration-13-baseline.yml' \
+            ! -path './.github/workflows/publish-iteration-13-final.yml' \
+            -print0 | sort -z | xargs -0 sha256sum > /tmp/build-a.sha256
+          make validate
+          find . -type f \
+            ! -path './.git/*' \
+            ! -path './scripts/__pycache__/*' \
+            ! -path './validation/*' \
+            ! -path './.release/*' \
+            ! -path './.github/workflows/export-iteration-13-baseline.yml' \
+            ! -path './.github/workflows/publish-iteration-13-final.yml' \
+            -print0 | sort -z | xargs -0 sha256sum > /tmp/build-b.sha256
+          cmp /tmp/build-a.sha256 /tmp/build-b.sha256
+          git diff --check
+
+      - name: Verify release contract
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+
+          data = json.loads(Path('data/public-data.json').read_text(encoding='utf-8'))
+          published = json.loads(Path('docs/assets/public-data.json').read_text(encoding='utf-8'))
+          meta = data['meta']
+
+          assert meta['release'] == '0.13-expertise-observations-alpha'
+          assert meta['generated'] == '2026-08-11'
+          assert meta['public_entry_count'] == 464
+          assert meta['profile_count'] == 80
+          assert meta['source_count'] == 125
+          assert meta['journey_count'] == 15
+          assert len(data['edges']) == 955
+          assert published['meta'] == meta
+
+          observations = data['ai_observations']
+          assert observations['release'] == meta['release']
+          assert observations['generated'] == meta['generated']
+          assert len(observations['observations']) == 11
+          assert Path('documentation/ai-observations.md').read_text(encoding='utf-8').count('## Observation ') == 11
+
+          profiles = {profile['node_id']: profile for profile in data['profiles']}
+          ivo = json.dumps(profiles['person_ivo_velitchkov']).casefold()
+          patrick = json.dumps(profiles['person_patrick_hoverstadt']).casefold()
+          assert all(term in ivo for term in ('viable organisation', 'requisite inefficiency', 'semantic'))
+          assert all(term in patrick for term in ('viable system model', 'systems laws', 'strategy'))
+
+          assert not Path('documentation/feedback-ledger.md').exists()
+          assert not list(Path('documentation').glob('public-knowledge-for-*.md'))
+          assert Path('documentation/public-knowledge.md').is_file()
+          assert Path('documentation/publication-standards.md').is_file()
+          assert Path('documentation/expertise-additions.md').is_file()
+
+          print(json.dumps({
+              'release': meta['release'],
+              'generated': meta['generated'],
+              'entries': meta['public_entry_count'],
+              'profiles': meta['profile_count'],
+              'sources': meta['source_count'],
+              'journeys': meta['journey_count'],
+              'edges': len(data['edges']),
+              'ai_observations': len(observations['observations']),
+          }, indent=2, sort_keys=True))
+          PY
+
+      - name: Enforce the public-language boundary
+        shell: bash
+        run: |
+          set -euo pipefail
+          ! grep -RInEi \
+            "the-necessary-tangle/issues/2([^0-9]|$)|OpenAI|ChatGPT|this conversation|these conversations|our conversation|chat transcript|running notebook|running-notebook|private company-knowledge discovery|Earlier internal prototypes|working branch|candidate ledger|underweighted the curator|absence was another sign|superseded 295-entry branch|recovered from the superseded|Ivo Velitchkov's site submission|Patrick Hoverstadt's absence|missed by an earlier release|site submission #21|issue #21|private working exchanges|editorial backstory|broken intake loop|omission exposed|present without the person|previously missing|we omitted|you asked|as requested" \
+            data docs documentation README.md ACKNOWLEDGEMENTS.md CHANGELOG.md CITATION.cff scripts
+          grep -F "Release 0.13 contains 464 canonical public entries" README.md
+          grep -F "Practice-source discovery" documentation/sources-to-mine.md
+          grep -F "AI observations are regenerated on every complete build" documentation/ai-observations.md
+
+      - name: Commit the validated candidate
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm -rf .release
+          rm -f .github/workflows/export-iteration-13-baseline.yml
+          rm -f .github/workflows/publish-iteration-13-final.yml
+          rm -rf scripts/__pycache__ validation
+          git config user.name "Benjamin P Taylor"
+          git config user.email "benjamin.taylor@redquadrant.com"
+          git add -A
+          git diff --cached --check
+          git commit -m "Publish iteration 0.13 expertise and observations" -m "Add expertise-led entries and typed practice relations, regenerate graph observations on every build, deepen inquiry, boundary, governance and intervention routes, and keep all public profiles grounded in work and public evidence."
+          git push origin HEAD:agent/iteration-13-expertise-final
