@@ -1,0 +1,105 @@
+name: Validate dark-light theme switch
+
+on:
+  push:
+    branches: ["agent/theme-toggle"]
+    paths:
+      - ".github/workflows/theme-toggle.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  patch-validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: agent/theme-toggle
+          fetch-depth: 0
+      - name: Add explicit theme switch
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          from pathlib import Path
+
+          index_path = Path('docs/index.html')
+          css_path = Path('docs/assets/styles.css')
+          index = index_path.read_text(encoding='utf-8')
+          css = css_path.read_text(encoding='utf-8')
+
+          index = index.replace('<meta name="color-scheme" content="light">', '<meta name="color-scheme" content="light dark">', 1)
+          old_meta = '    <div class="header-meta"><span id="releaseBadge">Public alpha</span><span>Curated by <a href="https://www.antlerboy.com/">Benjamin P Taylor</a></span></div>\n'
+          toggle = '''    <label class="theme-toggle" title="Switch between light and dark display">
+      <input id="themeToggle" type="checkbox" aria-label="Use dark mode">
+      <span class="theme-toggle-track" aria-hidden="true"><span class="theme-toggle-knob"></span></span>
+      <span class="theme-light-label">Light</span><span class="theme-dark-label">Dark</span>
+    </label>\n'''
+          if 'id="themeToggle"' not in index:
+              if old_meta not in index:
+                  raise SystemExit('Header insertion point not found')
+              index = index.replace(old_meta, old_meta + toggle, 1)
+
+          index = index.replace('assets/styles.css?v=0.14.1-light', 'assets/styles.css?v=0.14.2-theme')
+
+          theme_css = '''
+
+/* Explicit reader-controlled colour theme. Light is the default. */
+.theme-toggle { display:inline-flex; align-items:center; gap:.42rem; cursor:pointer; font:700 .76rem/1 Arial,sans-serif; color:var(--muted); white-space:nowrap; }
+.theme-toggle input { position:absolute; opacity:0; pointer-events:none; width:1px; height:1px; }
+.theme-toggle-track { width:2.4rem; height:1.35rem; padding:.14rem; border:1px solid var(--line); border-radius:999px; background:var(--panel-2); display:inline-flex; align-items:center; transition:background .15s ease; }
+.theme-toggle-knob { width:.92rem; height:.92rem; border-radius:50%; background:var(--accent); transform:translateX(0); transition:transform .15s ease; }
+.theme-dark-label { display:none; }
+.theme-toggle:has(input:checked) .theme-toggle-knob { transform:translateX(1rem); }
+.theme-toggle:has(input:checked) .theme-light-label { display:none; }
+.theme-toggle:has(input:checked) .theme-dark-label { display:inline; }
+body:has(#themeToggle:checked) {
+  color-scheme: dark;
+  --bg:#181412;
+  --panel:#211b18;
+  --panel-2:#302720;
+  --text:#f4eee6;
+  --muted:#c2b4aa;
+  --line:#4f4037;
+  --accent:#e45a5d;
+  --accent-dark:#ff7779;
+  --orange:#ff9845;
+  --gold:#e7bf4a;
+  --blue:#68b0cf;
+  --green:#79b697;
+  --purple:#b696c0;
+  --shadow:0 18px 60px rgba(0,0,0,.35);
+}
+@media (max-width:760px) {
+  .site-header { gap:.65rem; }
+  .theme-toggle { margin-left:auto; }
+}
+'''
+          if 'Explicit reader-controlled colour theme' not in css:
+              css += theme_css
+
+          index_path.write_text(index, encoding='utf-8')
+          css_path.write_text(css, encoding='utf-8')
+          PY
+      - name: Validate complete release and switch
+        shell: bash
+        run: |
+          set -euo pipefail
+          make validate
+          grep -F 'id="themeToggle"' docs/index.html
+          grep -F 'body:has(#themeToggle:checked)' docs/assets/styles.css
+          grep -F '<meta name="color-scheme" content="light dark">' docs/index.html
+          git diff --check
+      - name: Commit validated switch
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm -f .github/workflows/theme-toggle.yml
+          git config user.name "Benjamin P Taylor"
+          git config user.email "ben.taylor@redquadrant.com"
+          git add docs/index.html docs/assets/styles.css .github/workflows/theme-toggle.yml
+          git diff --cached --check
+          git commit -m "Add light and dark mode switch"
+          git push origin HEAD:agent/theme-toggle
