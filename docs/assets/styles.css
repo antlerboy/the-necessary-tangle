@@ -1,5 +1,5 @@
 :root {
-  color-scheme: light dark;
+  color-scheme: light;
   --bg: #f7f3ec;
   --panel: #fffdf9;
   --panel-2: #eee6da;
@@ -17,25 +17,7 @@
   --radius: 14px;
   --max: 1460px;
 }
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #181412;
-    --panel: #211b18;
-    --panel-2: #302720;
-    --text: #f4eee6;
-    --muted: #c2b4aa;
-    --line: #4f4037;
-    --accent: #e45a5d;
-    --accent-dark: #ff7779;
-    --orange: #ff9845;
-    --gold: #e7bf4a;
-    --blue: #68b0cf;
-    --green: #79b697;
-    --purple: #b696c0;
-    --shadow: 0 18px 60px rgba(0,0,0,.35);
-  }
-}
-* { box-sizing: border-box; }
+@mediox-sizing: border-box; }
 html { scroll-behavior: smooth; }
 body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.55 Georgia, 'Times New Roman', serif; }
 button, input, select, textarea { font: inherit; color: inherit; }
