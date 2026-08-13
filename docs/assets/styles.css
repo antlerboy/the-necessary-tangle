@@ -17,7 +17,7 @@
   --radius: 14px;
   --max: 1460px;
 }
-@mediox-sizing: border-box; }
+* { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
 body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.55 Georgia, 'Times New Roman', serif; }
 button, input, select, textarea { font: inherit; color: inherit; }
