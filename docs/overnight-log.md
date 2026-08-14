@@ -269,7 +269,7 @@ The badges translate maintained fields; they do not independently validate claim
 
 ## Pass 6 — adversarial review and refinement
 
-Status: bounded change prepared; publication gate pending at the time of this record.
+Status: complete and live.
 
 ### Previous findings read
 
@@ -291,7 +291,7 @@ The published Pass 5 payload contained 1,720 edges. A stricter exact source/type
 
 ### Build and test
 
-The entire pipeline was rebuilt from source. All maintained validators, the thirteen-check Pass 6 validator and JavaScript syntax checks pass with 496 public entries, 1,670 edges and 166 sources. The final route audit found no horizontal overflow, unnamed interactive elements, duplicate DOM IDs, missing image alternatives, heading jumps or browser errors on any of nine desktop and nine mobile routes. Keyboard checks opened a map edge with Enter, dismissed its drawer with Escape and toggled theme state.
+The entire pipeline was rebuilt from source. All maintained validators, the thirteen-check Pass 6 validator and JavaScript syntax checks pass with 496 public entries, 1,670 edges and 166 sources. PR #43 merged to `main` as `5d64adb1bf245d4e86f141963d8b37033be8b681`; validation run 31848446969, Pages run 31848486489 and content-backup run 31848486701 all succeeded. The final local and cache-busted live route audits found no horizontal overflow, unnamed interactive elements, duplicate DOM IDs, missing image alternatives, heading jumps or browser errors on any of nine desktop and nine mobile routes. Keyboard checks opened a map edge with Enter, dismissed its drawer with Escape and toggled theme state.
 
 ### Rendered inspection
 
