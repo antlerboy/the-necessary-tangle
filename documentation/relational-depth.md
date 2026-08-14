@@ -9,9 +9,9 @@ Generated: `2026-08-14`
 The atlas now treats relational richness as maintained data, not a visual impression. Every canonical public entry has a structural connection band and a separate evidence band. This makes it possible to add provisional routes without pretending that repetition, plausibility or graph density is proof.
 
 - 496 of 496 entries have at least one reader connection.
-- 35 are structurally rich, 236 developing, 225 thin and 0 unconnected.
+- 36 are structurally rich, 236 developing, 224 thin and 0 unconnected.
 - 329 have at least one non-documentary semantic, historical, human, identity, practice, influence or contestation route.
-- Evidence is 187 supported, 196 mixed, 113 provisional and 0 absent at entry level.
+- Evidence is 192 supported, 193 mixed, 111 provisional and 0 absent at entry level.
 
 ## What counts
 
@@ -41,7 +41,7 @@ The template is an editorial checklist, not an invitation to fill six slots with
 
 | Entity type | Total | Rich | Developing | Thin | Unconnected |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| approach family | 6 | 1 | 5 | 0 | 0 |
+| approach family | 6 | 2 | 4 | 0 | 0 |
 | comparator corpus | 1 | 0 | 0 | 1 | 0 |
 | concept | 60 | 11 | 49 | 0 | 0 |
 | corpus | 5 | 0 | 1 | 4 | 0 |
@@ -52,7 +52,7 @@ The template is an editorial checklist, not an invitation to fill six slots with
 | organisation | 3 | 0 | 3 | 0 | 0 |
 | person | 169 | 1 | 56 | 112 | 0 |
 | practice | 6 | 2 | 4 | 0 | 0 |
-| publication | 121 | 1 | 12 | 108 | 0 |
+| publication | 121 | 1 | 13 | 107 | 0 |
 | technology | 1 | 0 | 1 | 0 | 0 |
 | tool | 13 | 0 | 13 | 0 | 0 |
 | tradition | 8 | 0 | 8 | 0 | 0 |
@@ -135,6 +135,7 @@ This release adds typed provisional crosswalks for every SCiO intervention-skill
 
 These additions improve navigability immediately. They do not complete historical influence, human transmission, institutional history, field-level controversy or case evidence. Those remain the most important missing layers in the original-vision audit.
 
+
 ## Evidence-led relationship review
 
 The 2026-08-14 relationship pass re-audited every public entry and reviewed all generic or repetitive assertions against their cited sources.
@@ -143,6 +144,6 @@ The 2026-08-14 relationship pass re-audited every public entry and reviewed all 
 - Repeated assertion groups: 1 → 0.
 - Reader-connected entries: 496.
 - Semantically connected entries: 328.
-- Rich / developing / thin: 35 / 236 / 225.
+- Rich / developing / thin: 36 / 236 / 224.
 
 One generic journal-to-tradition edge was deliberately narrowed to a documentary scope claim. Semantic reach therefore falls by one rather than preserving an unsupported relationship.

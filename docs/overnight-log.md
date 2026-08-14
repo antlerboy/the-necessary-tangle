@@ -84,7 +84,7 @@ The conservative locator-pattern count can undercount precise named-entry locato
 
 ## Pass 2 — relational architecture
 
-Status: bounded change prepared; publication gate pending at the time of this record.
+Status: complete and live.
 
 ### Previous findings read
 
@@ -105,11 +105,11 @@ All 496 public entries were re-audited through the per-node relational-depth rec
 
 ### Build and test
 
-Pending branch validation. The pass cannot be marked complete until validation, merge, Pages deployment and live inspection succeed.
+The first validation run, 31840708806, correctly failed because a derived AI-observation metric was stale. The overlay was repaired to regenerate that metric. Validation run 31840893303 then succeeded. PR #39 merged to `main` as `3e1c923ef8995a60a882e6f02ccfebc4ed1858c2`. Pages run 31840949307 and content-backup run 31840949277 both succeeded.
 
 ### Rendered inspection
 
-Pending deployment. Affected item and connection views will be inspected at desktop and 375px mobile widths.
+The cache-busted live Viability and Natural drift item views were inspected after deployment. The precise public phrases were present, the retired generic phrases were absent, navigation remained usable and the bottom-right Open updates dot remained present.
 
 ### Improved
 
@@ -125,7 +125,53 @@ The Stacey emergence edge remains explicitly interpreted and provisional. It is 
 
 ## Pass 3 — external corpus
 
-Status: not started.
+Status: bounded change prepared; publication gate pending at the time of this record.
+
+### Previous findings read
+
+Pass 2's decision rule, reviewed replacements, remaining thin cohorts and the machine-readable priority queue.
+
+### Measured current state
+
+The graph began this pass with 1,712 edges, 155 public source records, 225 thin entries, 35 rich entries and 72 entries with at least three reader relation families. The reading-list inventory contained 110 items: 29 developed, one represented and 80 inventory-only.
+
+### Bounded improvement
+
+- Traversed eight internal Principia pages, David Ing's publication and digest routes, the supplied 110-item reading inventory, and six substantial comparison archives.
+- Added a nine-corpus machine traversal record with page routes, reference trails, relationship decisions, disagreements and uncertainties.
+- Added eleven public source records and repaired the Complexity Explorer and reading-list records.
+- Added eight typed, directed and located edges; strengthened six existing edges.
+- Deliberately added no semantic edge from the Ashby, ISSS or reading-list traversals because index co-occurrence, meeting co-presence and titles were insufficient warrants.
+
+### Build and test
+
+The clean local reconstruction and all maintained Python validators passed after one useful rejection: the validator refused six newly coined relation types. They were remapped to the project's controlled vocabulary while preserving their more precise human-readable phrases. JavaScript syntax checks passed.
+
+### Rendered inspection
+
+The Self-organisation and Pattern Manual item views were rendered at 1,440px desktop and 375px mobile widths. The two new feedback-mechanism statements appear in the Self-organisation view, the item drawer remains readable, no horizontal overflow was observed, navigation remains available and the Open updates magic dot remains present.
+
+- [Desktop Self-organisation](screenshots/overnight/pass3-desktop-self-organisation.png)
+- [Mobile Self-organisation](screenshots/overnight/pass3-mobile-self-organisation.png)
+- [Desktop Pattern Manual](screenshots/overnight/pass3-desktop-pattern-manual.png)
+- [Mobile Pattern Manual](screenshots/overnight/pass3-mobile-pattern-manual.png)
+
+### Improved
+
+- Edges: 1,712 to 1,720.
+- Sources: 155 to 166.
+- Thin / rich: 225 / 35 to 224 / 36.
+- Entries with at least three reader relation families: 72 to 74.
+- Conservative precision-shaped locators: 232 to 244.
+- Evidence bands move from 188 supported / 195 mixed / 113 provisional to 193 / 192 / 111.
+
+### Regressed
+
+The graph gains eight statements and therefore adds visual and review load. Semantic reach remains 328 rather than being inflated by the archive traversals. No additional isolated entity was connected merely to improve the count.
+
+### Uncertain
+
+The SFI emergence framing and the IFSR convening example remain explicitly interpreted. The ASC feedback-history edge remains provisional until a primary Wiener page locator replaces the publisher-level reference. Eighty reading-list items remain inventory-only.
 
 ## Pass 4 — internal corpus
 

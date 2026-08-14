@@ -366,7 +366,7 @@ Agent-based modelling simulates heterogeneous agents following specified rules a
 
 ### Sources
 
-- Introduction to Complexity (Santa Fe Institute Complexity Explorer) — https://www.complexityexplorer.org/courses/185-introduction-to-
+- Introduction to Complexity (Santa Fe Institute Complexity Explorer) — https://www.complexityexplorer.org/courses/185-introduction-to-complexity
 
 ## Agile project management
 
@@ -1196,7 +1196,7 @@ In mathematics and complexity science, chaos is deterministic behaviour that can
 
 ### Sources
 
-- Introduction to Complexity (Santa Fe Institute Complexity Explorer) — https://www.complexityexplorer.org/courses/185-introduction-to-
+- Introduction to Complexity (Santa Fe Institute Complexity Explorer) — https://www.complexityexplorer.org/courses/185-introduction-to-complexity
 
 ## Chaos theory
 
@@ -1208,7 +1208,7 @@ Chaos theory studies deterministic dynamical systems whose trajectories can show
 ### Sources
 
 - SCiO SysBoK - Feedback v1 — No public link
-- Introduction to Complexity (Santa Fe Institute Complexity Explorer) — https://www.complexityexplorer.org/courses/185-introduction-to-
+- Introduction to Complexity (Santa Fe Institute Complexity Explorer) — https://www.complexityexplorer.org/courses/185-introduction-to-complexity
 
 ## Chris Mowles
 
@@ -2963,7 +2963,7 @@ Dynamics is the study of how states, relationships or patterns change over time,
 
 ### Sources
 
-- Introduction to Complexity (Santa Fe Institute Complexity Explorer) — https://www.complexityexplorer.org/courses/185-introduction-to-
+- Introduction to Complexity (Santa Fe Institute Complexity Explorer) — https://www.complexityexplorer.org/courses/185-introduction-to-complexity
 
 ## Dynamics of loops
 
@@ -3113,7 +3113,7 @@ Complex outcomes cannot usually be attributed to one actor or intervention. Emer
 - The Grammar of Systems - SCiO presentation — https://www.systemspractice.org/resources/grammar-systems
 - The Grammar of Systems II: From Order to Chaos and Back Again, 2nd edition — https://www.systemspractice.org/resources/grammar-systems-ii-order-chaos-back-again-2nd-ed
 - Emergence, (Self)Organization, and Complexity — https://web-prod.santafe.edu/events/emergence-selforganization-and-complexity
-- Introduction to Complexity (Santa Fe Institute Complexity Explorer) — https://www.complexityexplorer.org/courses/185-introduction-to-
+- Introduction to Complexity (Santa Fe Institute Complexity Explorer) — https://www.complexityexplorer.org/courses/185-introduction-to-complexity
 
 ## Emergent Properties of Balinese Water Temple Networks: Coadaptation on a Rugged Fitness Landscape
 
@@ -3798,7 +3798,7 @@ Fractals are mathematical or spatial structures showing patterned detail across 
 
 ### Sources
 
-- Introduction to Complexity (Santa Fe Institute Complexity Explorer) — https://www.complexityexplorer.org/courses/185-introduction-to-
+- Introduction to Complexity (Santa Fe Institute Complexity Explorer) — https://www.complexityexplorer.org/courses/185-introduction-to-complexity
 
 ## Francis Heylighen
 
@@ -4485,7 +4485,7 @@ Systems and cybernetics use information in several senses. Confusing Shannon inf
 
 ### Sources
 
-- Introduction to Complexity (Santa Fe Institute Complexity Explorer) — https://www.complexityexplorer.org/courses/185-introduction-to-
+- Introduction to Complexity (Santa Fe Institute Complexity Explorer) — https://www.complexityexplorer.org/courses/185-introduction-to-complexity
 - A Mathematical Theory of Communication — https://doi.org/10.1002/j.1538-7305.1948.tb01338.x
 - Cybernetics or Control and Communication in the Animal and the Machine — https://mitpress.mit.edu/9780262537841/cybernetics-or-control-and-communication-in-the-animal-and-the-machine/
 - An Introduction to Cybernetics — https://ashby.info/bibliography.html
@@ -6162,7 +6162,7 @@ A network represents entities as nodes and relationships as links. Network analy
 
 ### Sources
 
-- Introduction to Complexity (Santa Fe Institute Complexity Explorer) — https://www.complexityexplorer.org/courses/185-introduction-to-
+- Introduction to Complexity (Santa Fe Institute Complexity Explorer) — https://www.complexityexplorer.org/courses/185-introduction-to-complexity
 
 ## Neural Networks and Physical Systems with Emergent Collective Computational Abilities
 
@@ -8409,7 +8409,7 @@ The phrase is often instrumentalised as if leaders can order emergence or simply
 
 ### Sources
 
-- Introduction to Complexity (Santa Fe Institute Complexity Explorer) — https://www.complexityexplorer.org/courses/185-introduction-to-
+- Introduction to Complexity (Santa Fe Institute Complexity Explorer) — https://www.complexityexplorer.org/courses/185-introduction-to-complexity
 - Principles of the Self-Organizing System — https://journal.emergentpublications.com/Article/a1bffbb7-74a2-4ce1-b833-84131d963eca/jats
 - On Self-Organizing Systems and Their Environments — https://www.organism.earth/library/document/on-self-organizing-systems
 - Emergence, (Self)Organization, and Complexity — https://web-prod.santafe.edu/events/emergence-selforganization-and-complexity

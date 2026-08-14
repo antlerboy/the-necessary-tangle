@@ -1,5 +1,14 @@
 # Morning change list
 
+## Pass 3: external corpus
+
+- Traversed Principia Cybernetica, David Ing's publication corpus, the full 110-item reading inventory, and six comparison archives beyond their landing pages.
+- Added a machine-readable nine-corpus traversal record and `documentation/external-corpus-traversal.md`.
+- Added eleven public source records and repaired two existing records.
+- Added eight source-located relationships and strengthened six existing ones.
+- Reduced thin entries from 225 to 224 and increased rich entries from 35 to 36 without manufacturing edges for archive or title co-occurrence.
+- Captured desktop and mobile rendered evidence for Self-organisation and Pattern Manual.
+
 Updated: 2026-08-14
 
 This list is cumulative. “Live” means merged to `main`, successful Pages deployment and live inspection—not merely committed.
