@@ -34,6 +34,10 @@ jobs:
           xz -dc /tmp/iteration15-source.patch.xz > /tmp/iteration15-source.patch
           git apply --check -p1 /tmp/iteration15-source.patch
           git apply -p1 /tmp/iteration15-source.patch
+          test "$(wc -c < .release/iteration15/idempotency.patch)" -eq 1936
+          echo "bb5200a4b7c61718a4409e26812750c5436b0bf46ccfb99c7cc7c546879c48f1  .release/iteration15/idempotency.patch" | sha256sum -c -
+          git apply --check .release/iteration15/idempotency.patch
+          git apply .release/iteration15/idempotency.patch
 
       - name: Build and validate
         shell: bash
@@ -79,11 +83,13 @@ jobs:
           assert meta['release'] == '0.15-ing-reading-practice-alpha'
           assert meta['generated'] == '2026-08-14'
           assert meta['public_entry_count'] == 495
+          assert meta['described_entry_count'] == 495
           assert meta['profile_count'] == 111
           assert meta['source_count'] == 148
           assert meta['public_link_source_count'] == 135
           assert meta['journey_count'] == 18
           assert len(data['edges']) == 1013
+          assert data['edges'] == sorted(data['edges'], key=lambda edge: edge.get('id', ''))
 
           items = reading['items']
           assert len(items) == 110
