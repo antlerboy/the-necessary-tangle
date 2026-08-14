@@ -23,9 +23,9 @@ def patch_index() -> None:
     text = INDEX.read_text(encoding="utf-8")
     text = re.sub(r'<meta property="og:url" content="[^"]+">', f'<meta property="og:url" content="{PUBLIC_URL}">', text, count=1)
     text = re.sub(r'<link rel="canonical" href="[^"]+">', f'<link rel="canonical" href="{PUBLIC_URL}">', text, count=1)
-    text = re.sub(r'assets/styles\.css(?:\?v=[^"\']+)?', "assets/styles.css?v=0.16.1-visual", text, count=1)
-    text = re.sub(r'assets/site-enhancements\.css(?:\?v=[^"\']+)?', "assets/site-enhancements.css?v=0.16.1-visual", text, count=1)
-    text = re.sub(r'assets/app\.js(?:\?v=[^"\']+)?', "assets/app.js?v=0.16.1-visual", text, count=1)
+    text = re.sub(r'assets/styles\.css(?:\?v=[^"\']+)?', "assets/styles.css?v=0.16.2-visual", text, count=1)
+    text = re.sub(r'assets/site-enhancements\.css(?:\?v=[^"\']+)?', "assets/site-enhancements.css?v=0.16.2-visual", text, count=1)
+    text = re.sub(r'assets/app\.js(?:\?v=[^"\']+)?', "assets/app.js?v=0.16.2-visual", text, count=1)
 
     if 'id="browseConnectionDepth"' not in text:
         marker = '<label>Depth<select id="browseLevel"><option value="developed">All readable entries</option><option value="profile">Developed entries only</option></select></label>'
@@ -149,7 +149,7 @@ def patch_release_prose() -> None:
 
     reading_page = ROOT / "docs" / "reading-list.html"
     text = reading_page.read_text(encoding="utf-8")
-    text = re.sub(r'assets/styles\.css(?:\?v=[^"\']+)?', "assets/styles.css?v=0.16.1-visual", text, count=1)
+    text = re.sub(r'assets/styles\.css(?:\?v=[^"\']+)?', "assets/styles.css?v=0.16.2-visual", text, count=1)
     reading_page.write_text(clean(text), encoding="utf-8")
 
     changelog = ROOT / "CHANGELOG.md"
