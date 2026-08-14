@@ -134,3 +134,15 @@ The queue below is generated from current structure. Low degree and low relation
 This release adds typed provisional crosswalks for every SCiO intervention-skill entry; gives the previously reader-isolated concepts, methods, tools and traditions multiple routes into the maintained graph; exposes the Foundational Papers volume contents as documentary statements; connects the Cynefin wiki to its maintaining organisation and the material it presents; and adds slide-level statements from the supplied transformation, convening, organisational-dynamics, VSM, clarity and conversation material.
 
 These additions improve navigability immediately. They do not complete historical influence, human transmission, institutional history, field-level controversy or case evidence. Those remain the most important missing layers in the original-vision audit.
+
+## Evidence-led relationship review
+
+The 2026-08-14 relationship pass re-audited every public entry and reviewed all generic or repetitive assertions against their cited sources.
+
+- Generic relation review targets: 8 → 0.
+- Repeated assertion groups: 1 → 0.
+- Reader-connected entries: 496.
+- Semantically connected entries: 328.
+- Rich / developing / thin: 35 / 236 / 225.
+
+One generic journal-to-tradition edge was deliberately narrowed to a documentary scope claim. Semantic reach therefore falls by one rather than preserving an unsupported relationship.

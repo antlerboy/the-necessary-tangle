@@ -55,12 +55,12 @@ Scores are a five-point judgement anchored in the recovered specification, not a
 | --- | --- | --- | --- | --- | --- |
 | R1 | Semantic isolation behind documentary connectivity | 496 reader-connected entries but only 329 semantically connected | Documentary authorship does not mask lack of intellectual/practice connection | P0 | Open |
 | R2 | Broad rather than precise locators | 1,266/1,712 edges have any locator; 220 match the conservative precision pattern | Page, section, passage, slide, entry or stable fragment whenever available | P0 | Open |
-| R3 | Generic relation vocabulary remains | Eight edges use `conceptually_related_to` or reader wording containing “related to” | Replace with the strongest supportable claim or remove | P0 | Open |
+| R3 | Generic relation vocabulary remains | Baseline: eight review targets; Pass 2: zero | Replace with the strongest supportable claim or remove | P0 | Closed in Pass 2; keep as regression gate |
 | R4 | Route diversity is weak | 189/496 entries have only one reader relation family; 72 have three or more | Important entities have several genuinely different routes | P0 | Open |
-| R5 | Repetition can disguise depth | One repeated co-authorship assertion has the same pair/type/broad locator; 39 ordered pairs carry multiple statements | Distinguish multiple warranted claims with work-specific locators; merge duplicates | P1 | Open |
+| R5 | Repetition can disguise depth | Baseline repeated group now has work-specific locators; zero repeated groups under the audit key | Distinguish multiple warranted claims with work-specific locators; merge duplicates | P1 | Closed in Pass 2; keep as regression gate |
 | R6 | Multiplex structure is encoded but not analysed | Relation families exist; communities remain provisional | Layer-specific community results, bridge audit and sparse question views | P1 | Open |
 | R7 | Dependency semantics are not inspectable as a system | Dependency kinds exist on edges | A dependency DAG/cycle report distinguishes prerequisite, constraint and historical influence | P1 | Open |
-| R8 | Disagreement is underrepresented | Contestation family has 12 edges; one edge is claim-status contested | Alternatives, tensions and contradictions are explicit where sources support them | P0 | Open |
+| R8 | Disagreement is underrepresented | Pass 2 adds a source-compared natural-drift challenge to Principia's selection mechanism; wider contestation remains sparse | Alternatives, tensions and contradictions are explicit where sources support them | P0 | Developing |
 
 ### Interaction
 
@@ -109,3 +109,14 @@ Scores are a five-point judgement anchored in the recovered specification, not a
 ## Pass 1 conclusion
 
 The release is already a functioning public atlas rather than a prototype. The critical mismatch is not breadth or basic interaction; it is evidential depth. Documentary and collection structure currently make every public entry reachable while 167 entries still lack a semantic connection. The next pass therefore targets relationship quality before adding new breadth.
+
+## Pass 2 update
+
+The graph-wide structural audit was rerun for all 496 public entries. All eight generic review targets were resolved without increasing the edge count:
+
+- six were retyped and rewritten as operationalisation, explanation, specialisation, formalisation, constraint or definitional dependency;
+- the Natural drift → Viability resemblance was replaced by an explicit, source-compared challenge to the natural-selection mechanism in Principia's evolutionary cybernetics;
+- the Murmurations → complex responsive processes resemblance was narrowed to the official journal-scope claim that it publishes reflexive inquiry from within systems practice;
+- the two Rosenblueth/Wiener co-authorship statements now have work-specific table-of-contents locators.
+
+The narrower Murmurations claim is documentary rather than semantic. Semantic connectivity therefore falls from 329 to 328 entries and the substantive edge count from 750 to 749. This is an intentional quality trade: unsupported semantic reach is not retained to protect a headline metric.

@@ -6,7 +6,18 @@ This list is cumulative. “Live” means merged to `main`, successful Pages dep
 
 ## Live changes
 
-None recorded yet. Pass 1 is awaiting its publication gate.
+### Pass 1
+
+- PR #38 merged as `9e4159d`; validation, Pages publication and content backup succeeded.
+- The recovered specification, gap register, machine audit and baseline screenshots are live.
+
+## Prepared in Pass 2
+
+- Replaced all eight generic relationship targets with source-located claims or narrower documentary scope.
+- Added one explicit disagreement: Natural drift challenges the natural-selection mechanism assumed by Principia's evolutionary cybernetics.
+- Resolved the repeated co-authorship audit group with work-specific locators.
+- Added two source records and made the review reproducible in the clean-build pipeline.
+- Accepted a one-entry reduction in semantic reach rather than retaining an unsupported edge.
 
 ## Prepared in Pass 1
 
@@ -20,7 +31,6 @@ None recorded yet. Pass 1 is awaiting its publication gate.
 
 ## Still to do
 
-- Publish and verify Pass 1.
 - Audit and improve weak/repetitive relationships.
 - Traverse Principia, David Ing, the reading list and six other substantial sources internally.
 - Mine the supplied internal corpus.
