@@ -9,6 +9,7 @@
 - Repaired mobile overflow, landmarks and magic-dot parity on the standalone reading list; corrected Browse and Map heading hierarchy.
 - Tested nine routes at desktop and mobile widths, plus skip navigation, map-edge keyboard activation, Escape dismissal and theme toggling.
 - Added a reproducible adversarial overlay, thirteen-check validator, machine-readable quality gates and `documentation/adversarial-review.md`.
+- PR #43 merged as `5d64adb`; validation, Pages publication, content backup and live desktop/mobile route inspection succeeded.
 
 ## Pass 5: experience and visual disclosure
 
