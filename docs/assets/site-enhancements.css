@@ -357,7 +357,7 @@ blockquote {
 .step-card .button { display: inline-flex; margin-top: .25rem; }
 .journey-actions { display: flex; gap: .55rem; margin-top: .8rem; }
 .journey-actions button:disabled { cursor: not-allowed; opacity: .45; }
-.map-layout { grid-template-areas: "controls canvas inspector"; }
+.map-layout { grid-template-areas: "controls canvas inspector"; align-items: start; }
 .map-controls { grid-area: controls; }
 .graph-wrap { grid-area: canvas; min-width: 0; border: 1px solid var(--line); border-radius: var(--radius); background: var(--panel); box-shadow: var(--shadow); }
 .map-inspector { grid-area: inspector; margin-top: 0; }
