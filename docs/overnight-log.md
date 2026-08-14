@@ -177,7 +177,7 @@ The SFI emergence framing and the IFSR convening example remain explicitly inter
 
 ## Pass 4 — internal corpus
 
-Status: bounded change prepared; publication gate pending at the time of this record.
+Status: complete and live.
 
 ### Previous findings read
 
@@ -198,7 +198,7 @@ Eighteen non-public source records were in scope: six supplied author decks, fiv
 
 ### Build and test
 
-The final overlay, graph snapshot, public-knowledge build, all maintained Python validators and JavaScript syntax checks passed locally.
+The final overlay, graph snapshot, public-knowledge build, all maintained Python validators and JavaScript syntax checks passed locally. PR #41 merged to `main` as `fa7af2c065f81134831c78be615af99ea3c22003`; validation run 31844817948, Pages run 31844888250 and content-backup run 31844888259 all succeeded.
 
 ### Rendered inspection
 
@@ -221,7 +221,51 @@ Readers cannot open the non-public originals. The SCiO CF Resources draft, legac
 
 ## Pass 5 — experience and visual improvement
 
-Status: not started.
+Status: bounded change prepared; publication gate pending at the time of this record.
+
+### Previous findings read
+
+Pass 4's internal-provenance debt, the original visual specification, the current stylesheet, and the strongest older visual milestones: `e498d91` (coherent visual foundation), `6f7bb7b` (responsive map grid) and `cc50bf8` (map above the fold).
+
+### Measured current state
+
+The current release retains the strongest older typography, palette, spacing, card composition, responsive collapse and magic dot. Desktop and 390px mobile map renders had no horizontal overflow. Provisional connections were already dashed, but connection rows did not expose whether a claim was asserted, interpreted, inferred, inherited or still a candidate until it was opened.
+
+### Bounded improvement
+
+- Added compact evidence-basis badges to map and full-entry connection rows.
+- Distinguished source-established and sourced assertions from curatorial interpretation, editorial synthesis, inference, candidate and inherited records.
+- Added the stored assertion mode and exact claim-level source locator to the opened connection view.
+- Kept the graph canvas, typography, spacing, responsive rules and bottom-right Open updates dot unchanged.
+- Added an idempotent interface patch, eight-check validator and `documentation/experience-visual-audit.md`.
+
+### Build and test
+
+The entire data and site pipeline was reconstructed from its source layers. All maintained Python validators, the new Pass 5 validator, and JavaScript syntax checks passed. The clean build retained 496 entries, 1,720 edges, 166 sources and the Pass 3/4 corpus audits.
+
+### Rendered inspection
+
+The reference release and current Self-organisation map were rendered at 1,440px desktop and 390px mobile widths. The changed connection list and opened connection inspector were then rendered at both widths. Text badges remain legible without relying on colour; the locator is visible on mobile; no horizontal overflow or page error was observed; and the Open updates magic dot remains present.
+
+- [Older visual reference](screenshots/overnight/pass5-reference-desktop-map.png)
+- [Before, desktop](screenshots/overnight/pass5-before-desktop-map.png)
+- [After, desktop](screenshots/overnight/pass5-after-desktop-map.png)
+- [After connection inspection, desktop](screenshots/overnight/pass5-after-desktop-connection.png)
+- [Before, mobile](screenshots/overnight/pass5-before-mobile-map.png)
+- [After, mobile](screenshots/overnight/pass5-after-mobile-map.png)
+- [After connection inspection, mobile](screenshots/overnight/pass5-after-mobile-connection.png)
+
+### Improved
+
+Relationship epistemics are visible before a reader opens an edge, and the detailed view now exposes the claim locator rather than only the source card. The richer relational data becomes more inspectable without adding lines or labels to the map itself.
+
+### Regressed
+
+Connection lists are taller because every row gains one compact badge. On a 390px viewport this adds scrolling, although it does not add horizontal overflow or obscure controls.
+
+### Uncertain
+
+The badges translate maintained fields; they do not independently validate claims. A `Sourced assertion` can still have a broad locator, which is why the verbatim locator remains part of the detailed view.
 
 ## Pass 6 — adversarial review and refinement
 
