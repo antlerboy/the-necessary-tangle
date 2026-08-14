@@ -15,6 +15,8 @@ DATA_PATH = ROOT / "data" / "public-data.json"
 DOCS = ROOT / "docs"
 RELEASE = "0.14-snowden-cynefin-alpha"
 GENERATED = "2026-08-11"
+FORWARD_RELEASE = "0.15-ing-reading-practice-alpha"
+FORWARD_GENERATED = "2026-08-14"
 UPDATE_URL = "https://github.com/antlerboy/the-necessary-tangle/" + "issues/" + "2"
 
 REQUIRED_NODES = {
@@ -105,10 +107,11 @@ def main() -> int:
     public_ids = {node["id"] for node in public_nodes}
     developed = len(set(profiles) & public_ids)
 
-    if meta.get("release") != RELEASE:
-        errors.append(f"meta.release must be {RELEASE}")
-    if meta.get("generated") != GENERATED:
-        errors.append(f"meta.generated must be {GENERATED}")
+    if meta.get("release") not in {RELEASE, FORWARD_RELEASE}:
+        errors.append(f"meta.release must be {RELEASE} or {FORWARD_RELEASE}")
+    expected_generated = GENERATED if meta.get("release") == RELEASE else FORWARD_GENERATED
+    if meta.get("generated") != expected_generated:
+        errors.append(f"meta.generated must be {expected_generated}")
     for label, actual, minimum in [
         ("public entries", len(public_nodes), 483),
         ("developed profiles", developed, 99),
@@ -203,10 +206,10 @@ def main() -> int:
         errors.append("Snowden-Cynefin continuing source programme is missing")
 
     report = data.get("ai_observations", {})
-    if report.get("release") != RELEASE or report.get("generated") != GENERATED:
-        errors.append("AI observations were not regenerated for 0.14")
+    if report.get("release") != meta.get("release") or report.get("generated") != meta.get("generated"):
+        errors.append("AI observations were not regenerated for the current release")
     observations = report.get("observations", [])
-    if {item.get("id") for item in observations} != REQUIRED_OBSERVATIONS:
+    if not REQUIRED_OBSERVATIONS.issubset({item.get("id") for item in observations}):
         errors.append("0.14 AI observation set is incomplete or stale")
     for observation in observations:
         for field in ("title", "kind", "measurement", "interpretation", "implication", "test"):
@@ -215,7 +218,7 @@ def main() -> int:
     if report.get("metrics") != graph_metrics(data):
         errors.append("AI observation metrics do not match the current graph")
     ai_doc = ROOT / "documentation" / "ai-observations.md"
-    if not ai_doc.exists() or f"Generated for release `{RELEASE}` on {GENERATED}." not in ai_doc.read_text(encoding="utf-8"):
+    if not ai_doc.exists() or f"Generated for release `{meta.get('release')}` on {meta.get('generated')}." not in ai_doc.read_text(encoding="utf-8"):
         errors.append("maintained AI observation document is stale")
 
     index = DOCS / "index.html"
@@ -261,11 +264,12 @@ def main() -> int:
             errors.append(f"public repository contains local or private marker: {marker}")
 
     citation = (ROOT / "CITATION.cff").read_text(encoding="utf-8")
-    if f"version: {RELEASE}" not in citation or f"date-released: {GENERATED}" not in citation:
-        errors.append("citation metadata does not identify 0.14")
+    if f"version: {meta.get('release')}" not in citation or f"date-released: {meta.get('generated')}" not in citation:
+        errors.append("citation metadata does not identify the current release")
     readme = (ROOT / "README.md").read_text(encoding="utf-8")
-    if "Release 0.14 contains" not in readme or "snowden-cynefin-sources.md" not in readme:
-        errors.append("README does not identify the 0.14 release and source account")
+    release_phrase = "Release 0.14 contains" if meta.get("release") == RELEASE else "Release 0.15 contains"
+    if release_phrase not in readme or "snowden-cynefin-sources.md" not in readme:
+        errors.append("README does not preserve the 0.14 source account and identify the current release")
     changelog = (ROOT / "CHANGELOG.md").read_text(encoding="utf-8")
     if "## 0.14-snowden-cynefin-alpha" not in changelog:
         errors.append("changelog lacks 0.14")

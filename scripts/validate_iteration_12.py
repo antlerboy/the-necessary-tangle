@@ -10,7 +10,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 DATA_PATH = ROOT / "data" / "public-data.json"
 DOCS = ROOT / "docs"
-ALLOWED_RELEASES = {"0.12-practitioner-intake-alpha", "0.13-expertise-observations-alpha", "0.14-snowden-cynefin-alpha"}
+ALLOWED_RELEASES = {"0.12-practitioner-intake-alpha", "0.13-expertise-observations-alpha", "0.14-snowden-cynefin-alpha", "0.15-ing-reading-practice-alpha"}
 READING_LIST = "https://stream.syscoi.com/2024/10/01/updated-rough-draft-systems-complexity-cybernetics-reading-list/"
 
 REQUIRED_PUBLIC_IDS = {
@@ -140,7 +140,10 @@ def main() -> int:
     reading = data.get("reading_list_coverage", {})
     if sources.get("src_taylor_reading_list_current", {}).get("url") != READING_LIST:
         errors.append("reading-list source URL is stale")
-    if reading.get("status") != "headline_recommendations_developed_full_audit_open":
+    allowed_reading_status = {"headline_recommendations_developed_full_audit_open"}
+    if release == "0.15-ing-reading-practice-alpha":
+        allowed_reading_status.add("item_level_inventory_with_developed_subset_full_critical_audit_open")
+    if reading.get("status") not in allowed_reading_status:
         errors.append("reading-list coverage status is missing or overclaims completeness")
     scio = data.get("scio_coverage", {})
     if scio.get("approach_family_count") != 13 or scio.get("intervention_skill_count") != 47:

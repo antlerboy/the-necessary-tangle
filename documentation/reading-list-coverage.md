@@ -1,20 +1,13 @@
 # Reading-list coverage
 
-Benjamin P Taylor's reading list is deliberately partial and idiosyncratic. It is treated as a curator-orientation source, not as a neutral canon.
+Release `0.15-ing-reading-practice-alpha` treats the public systems | complexity | cybernetics reading list as an item-level corpus rather than a single external link.
 
-## Four current top recommendations
+Captured items: **110**. Developed profiles: **29**. Represented more thinly: **1**. Inventory-only: **80**.
 
-| Work | 0.12 status |
-|---|---|
-| The Grammar of Systems II — Patrick Hoverstadt | Developed publication and author profile; systems-law corpus linked. |
-| Critical Systems Thinking: A Practitioner's Guide — Michael C. Jackson | Developed publication and author profile. |
-| Opening the Box — Jan De Visch, Miguel Pantaleon, Namrata Arora and Tony Korycki | Developed publication; all four authors represented. |
-| Essential Balances — Ivo Velitchkov | Developed publication and author profile. |
+The maturity labels matter. Inventory means the work is recorded in the curatorial list. It does not imply that its argument, evidence, reception or limitations have been researched. A developed profile is a sourced interpretive account. Critical comparison remains a further step.
 
-## The rest of the list
+The public reading-list page exposes every captured item, its section and its current atlas depth. This makes the remaining work inspectable rather than hiding it behind a claim of completeness.
 
-The list is longer than one release and changes over time. Release 0.12 establishes a maintained coverage audit rather than declaring the whole list complete. Each future pass should record: present or absent; brief or developed; public sources; method and person links; and the reason for deferral or exclusion.
+## Practice connection
 
-## Related private material
-
-Apprenticeship workbooks and company resources are discovery sources only. They may identify names and references, but public statements must be supported by public evidence or a complete public bibliographic citation. No private URLs or extracts belong in this repository.
+The list explicitly points readers to SCiO professional practice and says core systems practice and intervention skills are both required. This release therefore connects reading-list depth to the professional systems-practice spine rather than treating books as a detached canon.
