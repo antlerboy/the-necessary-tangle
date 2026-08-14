@@ -890,6 +890,24 @@
     event: '#8b6a24'
   };
 
+  function graphNodeMark(node, position, radius) {
+    const fill = colours[node.entity_type] || '#6d625b';
+    const title = `<title>${esc(node.label)}</title>`;
+    const organisational = new Set(['person', 'organisation', 'corpus', 'comparator_corpus', 'event']);
+    const practical = new Set(['method_or_methodology', 'approach_family', 'practice', 'tool', 'intervention_skill', 'technology']);
+    if (node.entity_type === 'publication') {
+      return `<rect class="graph-node node-publication" x="${position.x - radius}" y="${position.y - radius}" width="${radius * 2}" height="${radius * 2}" fill="${fill}">${title}</rect>`;
+    }
+    if (organisational.has(node.entity_type)) {
+      return `<rect class="graph-node node-organisational" x="${position.x - radius}" y="${position.y - radius}" width="${radius * 2}" height="${radius * 2}" rx="${Math.max(3, radius * .42)}" fill="${fill}">${title}</rect>`;
+    }
+    if (practical.has(node.entity_type)) {
+      const points = `${position.x},${position.y - radius - 1} ${position.x + radius + 1},${position.y} ${position.x},${position.y + radius + 1} ${position.x - radius - 1},${position.y}`;
+      return `<polygon class="graph-node node-practical" points="${points}" fill="${fill}">${title}</polygon>`;
+    }
+    return `<circle class="graph-node node-conceptual" cx="${position.x}" cy="${position.y}" r="${radius}" fill="${fill}">${title}</circle>`;
+  }
+
   function graphSelection() {
     const mode = $('mapDepth').value;
     const family = $('mapFamily').value;
@@ -911,7 +929,7 @@
       return selected;
     }
     if (mode === 'all') {
-      if (($('mapLayer')?.value || 'all') === 'all' && family === 'all') return new Set(allowed);
+      if (family === 'all') return new Set(allowed);
       const incident = new Set();
       for (const edge of canonicalEdges) {
         if (!edgeInLayer(edge)) continue;
@@ -1106,7 +1124,7 @@
     mapFocus = id;
     if (options.history !== false) recordMapFocus(id);
     mapSelectedEdge = null;
-    if (!$('mapDepth').value || $('mapDepth').value === 'path') $('mapDepth').value = '1';
+    if (!$('mapDepth').value || ['path', 'profiles', 'all'].includes($('mapDepth').value)) $('mapDepth').value = '1';
     mapPath = [];
     $('mapSearch').value = nodeById.get(mapFocus)?.label || '';
     const keepsWholeMap = ['all', 'profiles'].includes($('mapDepth').value);
@@ -1132,22 +1150,30 @@
       `${id}|${mapPath[index + 1]}`,
       `${mapPath[index + 1]}|${id}`
     ]));
+    const wideView = ['all', 'profiles'].includes($('mapDepth').value);
+    const focusEdges = edges.filter((edge) => edge.source === mapFocus || edge.target === mapFocus);
+    const focusNeighbours = new Set(focusEdges.map((edge) => edge.source === mapFocus ? edge.target : edge.source));
 
     $('graphEdges').innerHTML = edges.map((edge) => {
       const source = positions.get(edge.source);
       const target = positions.get(edge.target);
       const selected = edge.id === mapSelectedEdge;
       const inPath = pathPairs.has(`${edge.source}|${edge.target}`);
+      const focusEdge = edge.source === mapFocus || edge.target === mapFocus;
+      const contextEdge = wideView && !focusEdge && !selected && !inPath;
       const classes = [
         'graph-edge',
         ['accepted', 'corroborated'].includes(edge.claim_status) ? '' : 'provisional',
         substantiveEdge(edge) ? '' : 'contextual',
-        selected || inPath ? 'selected' : ''
+        selected || inPath ? 'selected' : '',
+        focusEdge ? 'focus-edge' : '',
+        contextEdge ? 'context-edge' : ''
       ].filter(Boolean).join(' ');
       const title = `${nodeById.get(edge.source)?.label || edge.source} ${edge.plain_phrase || edge.relation_type} ${nodeById.get(edge.target)?.label || edge.target}`;
       const midpointX = (source.x + target.x) / 2;
       const midpointY = (source.y + target.y) / 2;
-      const labelClass = selected || inPath ? 'visible' : '';
+      const showFocusLabel = !wideView && focusEdge && edges.length <= 28;
+      const labelClass = selected || inPath || showFocusLabel ? 'visible' : '';
       return `<g class="graph-edge-group" data-edge="${esc(edge.id)}" tabindex="0" role="button" aria-label="${esc(title)}">
         <line class="graph-edge-hit" x1="${source.x}" y1="${source.y}" x2="${target.x}" y2="${target.y}"></line>
         <line class="${classes}" x1="${source.x}" y1="${source.y}" x2="${target.x}" y2="${target.y}"><title>${esc(title)}</title></line>
@@ -1157,20 +1183,50 @@
 
     const nodes = [...ids].map((id) => nodeById.get(id)).filter(Boolean);
     const dense = nodes.length > 48;
+    const currentDegree = new Map(nodes.map((node) => [node.id, 0]));
+    edges.forEach((edge) => {
+      currentDegree.set(edge.source, (currentDegree.get(edge.source) || 0) + 1);
+      currentDegree.set(edge.target, (currentDegree.get(edge.target) || 0) + 1);
+    });
+    const labelBudget = nodes.length > 150 ? 14 : nodes.length > 80 ? 18 : nodes.length > 48 ? 24 : nodes.length;
+    const overviewAnchors = new Set([...nodes]
+      .sort((a, b) => (currentDegree.get(b.id) || 0) - (currentDegree.get(a.id) || 0) || a.label.localeCompare(b.label))
+      .slice(0, labelBudget)
+      .map((node) => node.id));
+
     $('graphNodes').innerHTML = nodes.map((node) => {
       const position = positions.get(node.id);
       const radius = node.id === mapFocus ? 13 : node.publication_level === 'profile' ? 10 : 7;
       const inPath = mapPath.includes(node.id);
-      const degree = (edgesByNode.get(node.id) || []).filter(mapVisibleEdge).length;
-      const labelPriority = node.id === mapFocus || inPath ? 3 : node.publication_level === 'profile' || degree >= 7 ? 2 : 1;
+      const neighbour = focusNeighbours.has(node.id);
+      const labelPriority = node.id === mapFocus || inPath ? 3 : neighbour || overviewAnchors.has(node.id) ? 2 : 1;
       const showLabel = !dense || labelPriority >= 2;
-      return `<g class="graph-node-group ${node.id === mapFocus ? 'selected' : ''} ${inPath ? 'path-node' : ''}" data-id="${esc(node.id)}" data-label-priority="${labelPriority}" tabindex="0" role="button" aria-label="Open ${esc(node.label)}">
-        <circle class="graph-node" cx="${position.x}" cy="${position.y}" r="${radius}" fill="${colours[node.entity_type] || '#6d625b'}"><title>${esc(node.label)}</title></circle>
-        <text class="graph-label ${showLabel ? '' : 'dense-hidden'}" data-priority="${labelPriority}" x="${position.x + radius + 4}" y="${position.y - radius - 2}">${esc(node.label)}</text>
+      const contextNode = wideView && node.id !== mapFocus && !neighbour && !inPath;
+      const labelAnchor = position.x < 600 ? 'end' : 'start';
+      const labelX = position.x + (labelAnchor === 'end' ? -radius - 6 : radius + 6);
+      const classes = [
+        'graph-node-group',
+        node.id === mapFocus ? 'selected' : '',
+        inPath ? 'path-node' : '',
+        neighbour ? 'focus-neighbour' : '',
+        contextNode ? 'context-node' : ''
+      ].filter(Boolean).join(' ');
+      return `<g class="${classes}" data-id="${esc(node.id)}" data-label-priority="${labelPriority}" tabindex="0" role="button" aria-label="Open ${esc(node.label)}">
+        ${graphNodeMark(node, position, radius)}
+        <text class="graph-label ${showLabel ? '' : 'dense-hidden'}" data-priority="${labelPriority}" text-anchor="${labelAnchor}" x="${labelX}" y="${position.y + 4}">${esc(node.label)}</text>
       </g>`;
     }).join('');
 
     $('mapCount').textContent = nodes.length;
+    const focusStatus = $('mapFocusStatus');
+    if (focusStatus) {
+      const depth = $('mapDepth').value;
+      focusStatus.textContent = depth === 'all'
+        ? `Full overview · ${nodes.length} entries · select a node to open its neighbourhood`
+        : depth === 'profiles'
+          ? `Developed overview · ${nodes.length} entries · select a node to open its neighbourhood`
+          : `Focus: ${nodeById.get(mapFocus)?.label || mapFocus} · ${focusEdges.length} visible connection${focusEdges.length === 1 ? '' : 's'}`;
+    }
     renderMapMiniMap(positions, edges);
     applyMapTransform();
     updateMapHistoryButtons();
@@ -1224,7 +1280,10 @@
     svg.classList.remove('map-zoom-overview', 'map-zoom-neighbourhood', 'map-zoom-detail');
     svg.classList.add(`map-zoom-${band}`);
     const label = $('mapScaleMode');
-    if (label) label.textContent = band === 'overview' ? 'Whole map' : band === 'detail' ? 'Detail' : 'Neighbourhood';
+    if (label) {
+      const depth = $('mapDepth')?.value;
+      label.textContent = depth === 'all' ? 'Full overview' : depth === 'profiles' ? 'Developed overview' : band === 'overview' ? 'Whole map' : band === 'detail' ? 'Detail' : 'Neighbourhood';
+    }
   }
 
   function renderMapMiniMap(positions, edges) {
@@ -1263,15 +1322,22 @@
     const node = nodeById.get(id);
     if (!node) return;
     const family = $('mapFamily')?.value || 'all';
-    const relations = (edgesByNode.get(id) || [])
+    const allRelations = (edgesByNode.get(id) || [])
       .filter((edge) => edgeInLayer(edge) && (family === 'all' || edge.relation_family === family))
-      .slice(0, 14);
+      .sort((a, b) => {
+        const aOther = nodeById.get(a.source === id ? a.target : a.source)?.label || '';
+        const bOther = nodeById.get(b.source === id ? b.target : b.source)?.label || '';
+        return (a.relation_family || '').localeCompare(b.relation_family || '') || aOther.localeCompare(bOther);
+      });
+    const relations = allRelations.slice(0, 18);
     $('mapInspector').innerHTML = `<p class="eyebrow">${esc(entityLabel(node.entity_type))}</p>
       <h2>${esc(node.label)}</h2>
       <p>${linkifyKnownText(displayDefinition(node), [node.id])}</p>
       <div class="entry-actions"><a href="${internalHref('item', { id: node.id, from: 'map' })}" class="button primary open-card internal-entry-link" data-id="${esc(node.id)}">Open full entry</a></div>
-      <h3>${relations.length} selected connection${relations.length === 1 ? '' : 's'}</h3>
-      ${relations.map((edge) => `<div class="relation-statement">${relationStatement(edge)}<br><button class="text-button inspect-edge" data-edge="${esc(edge.id)}">Inspect this connection</button></div>`).join('')}`;
+      <h3>Move through ${allRelations.length} visible connection${allRelations.length === 1 ? '' : 's'}</h3>
+      <p class="small">Choose either named item to make it the new centre. Choose ‘Inspect this connection’ for wording, status and sources.</p>
+      ${relations.map((edge) => `<div class="relation-statement">${relationStatement(edge)}<br><button class="text-button inspect-edge" data-edge="${esc(edge.id)}">Inspect this connection</button></div>`).join('')}
+      ${allRelations.length > relations.length ? `<p class="small">Showing the first ${relations.length} connections in the selected layer. Use a narrower layer or the full entry for the rest.</p>` : ''}`;
     bindCards($('mapInspector'));
     $$('.entry-link', $('mapInspector')).forEach((link) => link.addEventListener('click', (event) => { if (!plainLeftClick(event)) return; event.preventDefault(); activateMapNode(link.dataset.id); }));
     $$('.inspect-edge', $('mapInspector')).forEach((button) => button.addEventListener('click', () => inspectEdge(button.dataset.edge, false)));
@@ -1366,10 +1432,6 @@
       if (id === goal) break;
       for (const edge of (edgesByNode.get(id) || [])) {
         if (!edgeInLayer(edge)) continue;
-        if ($('mapFamily').value !== 'all' && edge.relation_family !== $('mapFamily').value) continue;
-        if ($('mapFamily').value !== 'all' && edge.relation_family !== $('mapFamily').value) continue;
-        if ($('mapFamily').value !== 'all' && edge.relation_family !== $('mapFamily').value) continue;
-        if ($('mapFamily').value !== 'all' && edge.relation_family !== $('mapFamily').value) continue;
         if ($('mapFamily').value !== 'all' && edge.relation_family !== $('mapFamily').value) continue;
         const other = edge.source === id ? edge.target : edge.source;
         const otherNode = nodeById.get(other);
@@ -1791,7 +1853,7 @@
       mapSelectedEdge = null;
       $('mapSearch').value = 'Viability';
       $('mapDepth').value = 'all';
-      $('mapLayer').value = 'all';
+      $('mapLayer').value = 'substantive';
       $('mapFamily').value = 'all';
       updateMapLayerNote();
       $('mapIncludeStubs').checked = false;

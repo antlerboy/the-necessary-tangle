@@ -24,6 +24,7 @@ build:
 	python3 scripts/patch_iteration_13.py
 	python3 scripts/patch_iteration_14.py
 	python3 scripts/patch_iteration_15.py
+	python3 scripts/patch_map_usability_hotfix.py
 	python3 scripts/build_public_knowledge.py
 
 validate: build
@@ -37,6 +38,7 @@ validate: build
 	python3 scripts/validate_iteration_13.py
 	python3 scripts/validate_iteration_14.py
 	python3 scripts/validate_iteration_15.py
+	python3 scripts/validate_map_usability_hotfix.py
 	./scripts/check_javascript.sh
 
 serve: build

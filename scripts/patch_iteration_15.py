@@ -39,10 +39,12 @@ def patch_index()->None:
     # Remove release-0.14 prominence card; material remains searchable and in its guided route.
     text=re.sub(r'\n\s*<a class="start-small-card" href="#view=journeys&id=journey_snowden_cynefin_sources_and_practice&step=0">.*?</a>','',text,count=1,flags=re.S)
     # Remove any previous 0.15 cards, making repeat builds stable.
-    for marker in ['person_david_ing','journey_core_systems_practice_reading','reading-list.html']:
+    for marker in ['person_david_ing','journey_david_ing_systems_in_plural','journey_core_systems_practice_reading','reading-list.html']:
         text=re.sub(r'\n\s*<a class="start-small-card"[^>]+(?:'+re.escape(marker)+r')[^>]*>.*?</a>','',text,flags=re.S)
-    anchor='<a class="start-small-card" href="#view=map&layer=substantive&depth=profiles"><span class="eyebrow">A quieter map</span><strong>Developed entries and substantive lines</strong><span>Begin with the evidence-deepened core before opening the complete provenance graph.</span></a>'
-    cards='''<a class="start-small-card" href="#view=item&id=person_david_ing&from=home"><span class="eyebrow">Service systems and lineages</span><strong>David Ing</strong><span>Service systems thinking, Systems Changes Learning, pattern language and unusually rich documentation of systems lineages.</span></a>
+    old_anchor='<a class="start-small-card" href="#view=map&layer=substantive&depth=profiles"><span class="eyebrow">A quieter map</span><strong>Developed entries and substantive lines</strong><span>Begin with the evidence-deepened core before opening the complete provenance graph.</span></a>'
+    anchor='<a class="start-small-card" href="#view=map&layer=substantive&depth=1&focus=concept_viability"><span class="eyebrow">A readable neighbourhood</span><strong>Viability and its immediate connections</strong><span>Start with one question-sized piece of the graph; expand only when it helps.</span></a>'
+    text=text.replace(old_anchor,anchor,1)
+    cards='''<a class="start-small-card" href="#view=journeys&id=journey_david_ing_systems_in_plural&step=0"><span class="eyebrow">Service systems and lineages</span><strong>David Ing journey</strong><span>Follow service systems thinking, Systems Changes Learning, pattern language and unusually rich documentation of systems lineages.</span></a>
           <a class="start-small-card" href="#view=journeys&id=journey_core_systems_practice_reading&step=0"><span class="eyebrow">Professional systems practice</span><strong>Core systems practice</strong><span>Concepts and laws, CSH, SSM, System Dynamics, VSM, multi-methodology, intervention and reflexive learning.</span></a>
           <a class="start-small-card" href="reading-list.html"><span class="eyebrow">Reading and coverage</span><strong>Reading-list depth map</strong><span>Every captured reading-list item with its current status: developed profile, represented, or inventory-only.</span></a>'''
     if anchor not in text: raise RuntimeError('map start card not found')
@@ -53,7 +55,7 @@ def patch_index()->None:
     text=text.replace(addition,docs_marker)
     if docs_marker in text: text=text.replace(docs_marker,addition,1)
     # Update stylesheet cache key and release metadata without changing theme behaviour.
-    text=re.sub(r'assets/styles\.css(?:\?v=[^"\']+)?', 'assets/styles.css?v=0.15', text, count=1)
+    text=re.sub(r'assets/styles\.css(?:\?v=[^"\']+)?', 'assets/styles.css?v=0.15-mapfix', text, count=1)
     INDEX.write_text(clean(text),encoding='utf-8')
 
 

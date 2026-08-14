@@ -15,8 +15,8 @@
   <link rel="canonical" href="https://antlerboy.github.io/the-necessary-tangle/">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <title>The Necessary Tangle</title>
-  <link rel="stylesheet" href="assets/styles.css?v=0.15">
-  <link rel="stylesheet" href="assets/site-enhancements.css">
+  <link rel="stylesheet" href="assets/styles.css?v=0.15-mapfix">
+  <link rel="stylesheet" href="assets/site-enhancements.css?v=0.15-mapfix2">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -33,7 +33,7 @@
     <a href="#view=home" data-view="home" class="active">Home</a>
     <a href="#view=browse" data-view="browse">Explore</a>
     <a href="#view=journeys" data-view="journeys">Guided journeys</a>
-    <a href="#view=map" data-view="map">Map</a>
+    <a href="#view=map&layer=substantive&depth=all&focus=concept_viability" data-view="map">Map</a>
     <a href="#view=ask" data-view="ask">Ask</a>
     <a href="#view=contribute" data-view="contribute">Contribute</a>
     <a href="#view=about" data-view="about">About</a>
@@ -96,8 +96,8 @@
           <a class="start-small-card" href="#view=item&id=person_patrick_hoverstadt&from=home"><span class="eyebrow">Management cybernetics</span><strong>Patrick Hoverstadt</strong><span>The Viable System Model, systems laws, organisation design and relational strategy.</span></a>
           <a class="start-small-card" href="#view=journeys&id=journey_inquiry_governance_and_intervention&step=0"><span class="eyebrow">A guided route</span><strong>Inquiry, governance and intervention</strong><span>Checkland, Ulrich, Espejo, Ison, Meadows, Oshry, Velitchkov and Hoverstadt in one inspectable route.</span></a>
           <a class="start-small-card" href="#view=item&id=person_donella_meadows&from=home"><span class="eyebrow">Feedback and intervention</span><strong>Donella Meadows</strong><span>Thinking in Systems, leverage points and disciplines for acting with nonlinear systems.</span></a>
-          <a class="start-small-card" href="#view=map&layer=substantive&depth=profiles"><span class="eyebrow">A quieter map</span><strong>Developed entries and substantive lines</strong><span>Begin with the evidence-deepened core before opening the complete provenance graph.</span></a>
-          <a class="start-small-card" href="#view=item&id=person_david_ing&from=home"><span class="eyebrow">Service systems and lineages</span><strong>David Ing</strong><span>Service systems thinking, Systems Changes Learning, pattern language and unusually rich documentation of systems lineages.</span></a>
+          <a class="start-small-card" href="#view=map&layer=substantive&depth=1&focus=concept_viability"><span class="eyebrow">A readable neighbourhood</span><strong>Viability and its immediate connections</strong><span>Start with one question-sized piece of the graph; expand only when it helps.</span></a>
+          <a class="start-small-card" href="#view=journeys&id=journey_david_ing_systems_in_plural&step=0"><span class="eyebrow">Service systems and lineages</span><strong>David Ing journey</strong><span>Follow service systems thinking, Systems Changes Learning, pattern language and unusually rich documentation of systems lineages.</span></a>
           <a class="start-small-card" href="#view=journeys&id=journey_core_systems_practice_reading&step=0"><span class="eyebrow">Professional systems practice</span><strong>Core systems practice</strong><span>Concepts and laws, CSH, SSM, System Dynamics, VSM, multi-methodology, intervention and reflexive learning.</span></a>
           <a class="start-small-card" href="reading-list.html"><span class="eyebrow">Reading and coverage</span><strong>Reading-list depth map</strong><span>Every captured reading-list item with its current status: developed profile, represented, or inventory-only.</span></a>
         </div>
@@ -146,33 +146,41 @@
     </section>
 
     <section id="view-map" class="view map-view">
-      <header class="page-head"><p class="eyebrow">Interactive neighbourhoods</p><h1>Map</h1><p>Move between the whole graph, a neighbourhood and a selected entry without losing your bearings. Zoom changes the level of visible detail; the minimap shows where you are. Select a line to inspect its statement, status and sources.</p></header>
+      <header class="page-head"><p class="eyebrow">Interactive neighbourhoods</p><h1>Map</h1><p>Begin with a sparse view of the full public graph: a few orientation labels, the current focus and its connections. Select any node to re-layout the map around its immediate neighbourhood; use the larger views for extent and gaps, not simultaneous reading.</p></header>
       <div class="map-layout">
         <aside class="map-controls">
 
           <div class="map-orientation-panel" id="mapOrientationPanel">
-            <p class="eyebrow">Start with less</p>
-            <p>The full public map is deliberately untidy. Choose a smaller opening without changing the underlying graph.</p>
+            <p class="eyebrow">Choose a scale</p>
+            <p>The full overview is a starting picture. Select any node to open its readable neighbourhood; return here when you need the whole field.</p>
             <div class="map-orientation-links">
-              <a href="#view=map&layer=substantive&depth=profiles">Developed core</a>
-              <a href="#view=map&layer=conceptual&depth=profiles">Conceptual layer</a>
+              <a href="#view=map&layer=substantive&depth=all&focus=concept_viability">Full public overview</a>
+              <a href="#view=map&layer=substantive&depth=1&focus=concept_viability">Viability neighbourhood</a>
+              <a href="#view=map&layer=substantive&depth=profiles&focus=concept_viability">Developed overview</a>
+              <a href="#view=map&layer=conceptual&depth=profiles&focus=concept_viability">Conceptual overview</a>
               <a href="#view=journeys&id=journey_viability_balance_and_strategy&step=0">Guided route</a>
-              <a href="#view=map&layer=all&depth=all">Everything</a>
+              <a href="#view=map&layer=all&depth=all&focus=concept_viability">Everything</a>
             </div>
           </div>
           <div class="smart-search" data-search-role="map"><label for="mapSearch">Centre on</label><input id="mapSearch" autocomplete="off" placeholder="Viability"><div class="suggestions" role="listbox" hidden></div></div>
-          <label>View<select id="mapDepth"><option value="1">Immediate connections</option><option value="2">Two steps</option><option value="path">Path and immediate neighbours</option><option value="profiles">All developed entries</option><option value="all" selected>Full public map</option></select></label>
+          <label>Scale<select id="mapDepth"><option value="1">Immediate connections</option><option value="2">Two steps</option><option value="path">Path and immediate neighbours</option><option value="profiles">Developed-entry overview</option><option value="all" selected>Full public overview</option></select></label>
 
           <label>Layer<select id="mapLayer">
-            <option value="all" selected>Everything — full typed graph</option>
-            <option value="substantive">Reader map — substantive relationships</option>
+            <option value="all">Everything — full typed graph</option>
+            <option value="substantive" selected>Reader map — substantive relationships</option>
             <option value="conceptual">Conceptual layer</option>
             <option value="human">Human lineage layer</option>
             <option value="practice">Practice layer</option>
             <option value="contestation">Contestation layer</option>
             <option value="provenance">Provenance and bibliography</option>
           </select></label>
-          <p id="mapLayerNote" class="map-layer-note">Everything includes bibliographic and collection structure. Choose a layer when you want the lines to answer one kind of question.</p>
+          <p id="mapLayerNote" class="map-layer-note">The reader map starts with conceptual, historical, human, practice and contestation relationships. Bibliography and collection structure remain available under Everything.</p>
+          <div class="map-shape-key" aria-label="Node shape key">
+            <span><i class="shape-circle" aria-hidden="true"></i>Ideas and principles</span>
+            <span><i class="shape-rounded" aria-hidden="true"></i>People and organisations</span>
+            <span><i class="shape-diamond" aria-hidden="true"></i>Methods and practice</span>
+            <span><i class="shape-square" aria-hidden="true"></i>Publications</span>
+          </div>
           <label>Fine filter<select id="mapFamily"><option value="all">All connection types in this layer</option></select></label>
           <input type="checkbox" id="mapIncludeStubs" hidden>
           <div class="button-row"><button id="mapFit" type="button" class="primary">Fit view</button><button id="mapReset" type="button">Reset</button>
@@ -201,8 +209,9 @@
               <button type="button" id="mapBack" aria-label="Previous map focus" title="Previous map focus" disabled>←</button>
               <button type="button" id="mapForward" aria-label="Next map focus" title="Next map focus" disabled>→</button>
             </div>
+            <span id="mapFocusStatus" class="map-focus-status" aria-live="polite">Full overview · select a node to open its neighbourhood</span>
             <label class="map-zoom-slider" for="mapZoomRange"><span>Zoom</span><input id="mapZoomRange" type="range" min="22" max="400" value="100" step="1"></label>
-            <span id="mapScaleMode" class="map-scale-mode" aria-live="polite">Neighbourhood</span>
+            <span id="mapScaleMode" class="map-scale-mode" aria-live="polite">Full overview</span>
             <button type="button" id="mapFullscreen" aria-label="Open map full screen" title="Open map full screen">Full screen</button>
           </div>
           <svg id="graphSvg" viewBox="0 0 1200 760" aria-label="Interactive map of selected entries and connections">
@@ -216,7 +225,7 @@
           </div>
           <p class="map-canvas-help">Wheel or pinch to zoom around the pointer. Drag to pan. Double-click to zoom in; Shift-double-click to zoom out. Keys: +, −, 0 and F.</p>
         </div>
-        <aside id="mapInspector" class="map-inspector"><p class="eyebrow">Inspector</p><h2>Choose an item or line</h2><p>Definitions, connection wording, status and sources will appear here.</p></aside>
+        <aside id="mapInspector" class="map-inspector"><p class="eyebrow">Move through the graph</p><h2>Viability</h2><p>Select a neighbouring item or a line. Its meaning, status and sources will appear here.</p></aside>
       </div>
     </section>
 
@@ -406,7 +415,7 @@
 
   <script src="assets/site-config.js"></script>
   <script src="assets/public-data.js"></script>
-  <script src="assets/app.js"></script>
+  <script src="assets/app.js?v=0.15-mapfix2"></script>
   <script src="assets/site-enhancements.js"></script>
 
   <a class="update-thread-dot" data-update-thread-dot href="https://github.com/antlerboy/the-necessary-tangle/issues/2" target="_blank" rel="noopener" aria-label="Open updates"></a>
