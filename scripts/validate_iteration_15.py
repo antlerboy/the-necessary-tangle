@@ -12,7 +12,7 @@ assert {'journey_david_ing_systems_in_plural','journey_core_systems_practice_rea
 inv=D['reading_list_inventory']; assert inv['release']==meta['release']; assert inv['item_count']>=100; assert sum(inv['counts'].values())==inv['item_count']; assert inv['counts']['developed_profile']>=25
 core=D['core_systems_practice']; assert len(core['major_approaches'])==4; assert set(core['major_approaches']) <= node_ids
 obs=D['ai_observations']; assert obs['release']==meta['release']; ids={o['id'] for o in obs['observations']}; assert {'reading_list_depth','ing_lineage_infrastructure','core_practice_not_four_tools','attention_is_not_importance'} <= ids
-index=(ROOT/'docs/index.html').read_text(encoding='utf-8'); assert 'person_david_ing' in index; assert 'journey_core_systems_practice_reading' in index; assert 'reading-list.html' in index; assert 'themeToggle' in index
+index=(ROOT/'docs/index.html').read_text(encoding='utf-8'); assert 'journey_david_ing_systems_in_plural' in index; assert 'journey_core_systems_practice_reading' in index; assert 'reading-list.html' in index; assert 'themeToggle' in index
 reading=(ROOT/'docs/reading-list.html').read_text(encoding='utf-8'); assert 'Reading-list depth' in reading; assert 'Inventory-only' in reading; assert str(inv['item_count']) in reading
 assert (ROOT/'documentation/core-systems-practice.md').is_file(); assert (ROOT/'documentation/reading-list-coverage.md').is_file()
 # One discreet route, inherited from validated 0.14 patching.

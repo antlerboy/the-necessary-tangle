@@ -166,8 +166,16 @@ def main() -> int:
     ]
     if not any(marker in index for marker in home_map_markers):
         errors.append("the home page does not open the full public map explicitly")
-    if '<option value="all" selected>Full public map</option>' not in index:
-        errors.append("the map itself does not default to the full public map")
+    # 0.8 introduced an explicit full-map entry. Later releases may choose a
+    # readable neighbourhood as the default, provided the full map remains an
+    # explicit route above.
+    accepted_defaults = (
+        '<option value="all" selected>Full public map</option>',
+        '<option value="all" selected>Full public overview</option>',
+        '<option value="1" selected>Immediate connections</option>',
+    )
+    if not any(marker in index for marker in accepted_defaults):
+        errors.append("the map has no explicit full-map or neighbourhood default")
     if meta.get("release") == "0.13-expertise-observations-alpha" and any(
         marker in index for marker in ("data-curator-dot=", "curator-secret-dot", "curator-notebook-link", "discreet-note-link")
     ):

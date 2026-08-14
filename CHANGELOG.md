@@ -8,6 +8,9 @@
 - Added a core systems-practice spine connecting systems laws and concepts, CSH, SSM, System Dynamics, VSM, multi-methodology, intervention and reflexive learning.
 - Regenerated graph observations from the current graph and reading-list coverage.
 - Kept the reader-controlled light/dark switch and the discreet public updates route.
+- Corrected the David Ing home route so it opens the maintained David Ing journey.
+- Repaired map legibility with a label-light full-public overview, one-click neighbourhood drill-down, a strict overview label budget, outward labels, a nearby inspector and shape as well as colour cues.
+- Rebuilt the guided-journey index as distinct, scrollable choices and made the active journey, active step, reading card and controls visually unambiguous.
 
 ## 0.14-snowden-cynefin-alpha — 11 August 2026
 

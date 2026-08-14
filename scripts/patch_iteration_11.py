@@ -92,6 +92,17 @@ CSS_APPEND = r'''
 def replace_once(text: str, old: str, new: str, label: str) -> str:
     if new in text:
         return text
+    # Later map releases replace these complete rendering blocks. Treat their
+    # explicit markers as an already-applied successor, so rebuilding remains
+    # idempotent instead of trying to restore the 0.11 implementation.
+    if label == "edge rendering" and "const focusEdges = edges.filter" in text:
+        return text
+    if label == "node semantic labels" and "function graphNodeMark" in text:
+        return text
+    if label == "activateMapNode" and "['path', 'profiles', 'all'].includes($('mapDepth').value)" in text:
+        return text
+    if label == "map render tail" and "renderMapMiniMap(positions, edges);" in text and "updateMapHistoryButtons();" in text:
+        return text
     if old not in text:
         raise RuntimeError(f"Could not find {label}")
     return text.replace(old, new, 1)

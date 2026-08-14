@@ -6,9 +6,17 @@ The interaction pattern is informed by Visual Meaning's description of its Share
 
 Reference: https://visual-meaning.com/our-platform/
 
+## 0.15 legibility repair
+
+The earlier interaction controls did not solve the main legibility failure. In the developed-entry view, every developed profile was treated as a priority label. At 111 entries this produced a dense layer of overlapping words, while the inspector fell below the control column rather than staying with the map.
+
+The repair changes the operating rule. The normal map opens on a label-light full-public overview. Selecting any node immediately drills into that node's neighbourhood. Overviews retain the wider field but ration labels to a small set of highly connected anchors plus the current focus and its neighbours. Labels sit outside radial nodes, the inspector follows the canvas, and node shapes distinguish ideas, people/organisations, methods/practice and publications without relying on colour alone.
+
+The full graph is still available. It is now described honestly as an overview of extent, connectedness and gaps, not as a readable diagram at one glance.
+
 ## What the public map now does
 
-- opens on the full public graph;
+- opens on a label-light full-public overview and turns any selected node into a readable immediate neighbourhood;
 - zooms around the pointer rather than around an arbitrary centre;
 - changes label density at overview, neighbourhood and detail scales;
 - provides a minimap showing the current viewport within the selected graph;
