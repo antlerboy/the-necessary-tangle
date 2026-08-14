@@ -55,7 +55,11 @@ jobs:
             ! -path './scripts/__pycache__/*' \
             ! -path './.github/workflows/apply-iteration-15.yml' \
             -print0 | sort -z | xargs -0 sha256sum > /tmp/build-b.sha256
-          cmp /tmp/build-a.sha256 /tmp/build-b.sha256
+          if ! cmp /tmp/build-a.sha256 /tmp/build-b.sha256; then
+            echo 'Repeatability mismatch:'
+            diff -u /tmp/build-a.sha256 /tmp/build-b.sha256 | head -100 || true
+            exit 1
+          fi
           git diff --check
 
       - name: Verify the 0.15 release contract
