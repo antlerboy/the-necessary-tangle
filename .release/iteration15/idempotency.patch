@@ -1,0 +1,20 @@
+--- a/scripts/apply_iteration_15.py
++++ b/scripts/apply_iteration_15.py
+@@ -295,6 +295,8 @@
+     new_profiles=[profile(by_id[nid],spec) for nid,spec in PROFILE_SPECS.items()]
+     upsert(data['profiles'],new_profiles,'node_id')
+     upsert(data['edges'],EDGE_UPSERTS,'id')
++    # Keep generated output stable from the first clean build.
++    data['edges'].sort(key=lambda edge: edge.get('id', ''))
+     upsert(data['journeys'],JOURNEYS,'id')
+     update_existing_profiles(data)
+     inventory=build_inventory(data)
+@@ -304,7 +306,7 @@
+     meta=data['meta']; meta.update({'release':RELEASE,'generated':GENERATED,'iteration_focus':'David Ing, item-level reading-list depth and the professional core systems-practice spine','reading_list_inventory_url':'https://antlerboy.github.io/the-necessary-tangle/reading-list.html','core_systems_practice_url':'https://github.com/antlerboy/the-necessary-tangle/blob/main/documentation/core-systems-practice.md'})
+     # Recalculate simple release counts after upserts. refresh_graph_snapshot handles graph topology later.
+     metrics=graph_metrics(data)
+-    meta['public_entry_count']=metrics['public_entries']; meta['profile_count']=len(data['profiles']); meta['source_count']=len(data['sources']); meta['journey_count']=len(data['journeys']); meta['public_link_source_count']=sum(1 for s in data['sources'] if s.get('public_link_status')=='public_link')
++    meta['public_entry_count']=metrics['public_entries']; meta['described_entry_count']=metrics['public_entries']; meta['profile_count']=len(data['profiles']); meta['source_count']=len(data['sources']); meta['journey_count']=len(data['journeys']); meta['public_link_source_count']=sum(1 for s in data['sources'] if s.get('public_link_status')=='public_link')
+     data['ai_observations']=make_observations(data,inventory)
+     rendered=json.dumps(data,ensure_ascii=False,indent=2)+'\n'
+     DATA_PATH.write_text(rendered,encoding='utf-8')
