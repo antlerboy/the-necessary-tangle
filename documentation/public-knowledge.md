@@ -1,7 +1,7 @@
 # The Necessary Tangle: public knowledge file
 
 Curated by Benjamin P Taylor — https://www.antlerboy.com/
-Generated from public release 0.15-ing-reading-practice-alpha on 2026-08-14.
+Generated from public release 0.16-grammar-connections-presentation-alpha on 2026-08-14.
 
 A living evidence atlas of systems | cybernetics | complexity.
 Every connection must say what it means. Historical sequence, logical dependence, influence, teaching, collaboration, practical use, comparison and dispute are not interchangeable.
@@ -877,6 +877,19 @@ A behaviour-over-time graph sketches how one or more variables change across a c
 ### Sources
 
 - An introductory systems thinking toolkit for civil servants — https://www.gov.uk/government/publications/systems-thinking-for-civil-servants/toolkit
+
+## Black box
+
+Type: Concept
+Public depth: described
+
+A black box is a system treated through observable inputs, outputs and behaviour while its internal organisation remains unknown, inaccessible or deliberately bracketed. The move is selective: what counts as input, output and relevant behaviour still depends on purpose, boundary and observer.
+
+### Sources
+
+- An Introduction to Cybernetics — https://ashby.info/bibliography.html
+- The Grammar of Systems II: From Order to Chaos and Back Again, 2nd edition — https://www.systemspractice.org/resources/grammar-systems-ii-order-chaos-back-again-2nd-ed
+- The Grammar of Systems - SCiO presentation — https://www.systemspractice.org/resources/grammar-systems
 
 ## Boundary
 
@@ -10158,7 +10171,7 @@ The Grammar of Systems II presents nine patterns of systems thinking and 33 laws
 
 ### Why it matters
 
-Its laws were already itemised in the atlas, but the publication and author were hidden in metadata. This release makes the book, its person and the existing law corpus visible together.
+The 33 laws are useful only if they can be inspected as connected propositions rather than collected as slogans. This release makes the book-to-law structure explicit and adds a provisional, challengeable crosswalk from every law into concepts, other principles and practices already maintained in the atlas.
 
 ### Key distinctions
 
@@ -10193,6 +10206,7 @@ Its laws were already itemised in the atlas, but the publication and author were
 - diagnosis
 - transformation design
 - strategy
+- concept-to-practice navigation through the public graph
 
 ### Common confusions
 
@@ -10202,9 +10216,10 @@ Its laws were already itemised in the atlas, but the publication and author were
 
 ### Open questions and checks
 
-- add page-level locators
+- add page-level locators for every law-to-concept connection
 - compare the first and second editions
 - record criticism and alternative formulations
+- review each provisional crosswalk with Grammar practitioners and domain stewards
 
 ### Sources
 

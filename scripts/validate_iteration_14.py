@@ -15,7 +15,7 @@ DATA_PATH = ROOT / "data" / "public-data.json"
 DOCS = ROOT / "docs"
 RELEASE = "0.14-snowden-cynefin-alpha"
 GENERATED = "2026-08-11"
-FORWARD_RELEASE = "0.15-ing-reading-practice-alpha"
+FORWARD_RELEASES = {"0.15-ing-reading-practice-alpha", "0.16-grammar-connections-presentation-alpha"}
 FORWARD_GENERATED = "2026-08-14"
 UPDATE_URL = "https://github.com/antlerboy/the-necessary-tangle/" + "issues/" + "2"
 
@@ -107,8 +107,8 @@ def main() -> int:
     public_ids = {node["id"] for node in public_nodes}
     developed = len(set(profiles) & public_ids)
 
-    if meta.get("release") not in {RELEASE, FORWARD_RELEASE}:
-        errors.append(f"meta.release must be {RELEASE} or {FORWARD_RELEASE}")
+    if meta.get("release") not in {RELEASE, *FORWARD_RELEASES}:
+        errors.append(f"meta.release must be {RELEASE} or a recognised forward release")
     expected_generated = GENERATED if meta.get("release") == RELEASE else FORWARD_GENERATED
     if meta.get("generated") != expected_generated:
         errors.append(f"meta.generated must be {expected_generated}")
@@ -267,7 +267,11 @@ def main() -> int:
     if f"version: {meta.get('release')}" not in citation or f"date-released: {meta.get('generated')}" not in citation:
         errors.append("citation metadata does not identify the current release")
     readme = (ROOT / "README.md").read_text(encoding="utf-8")
-    release_phrase = "Release 0.14 contains" if meta.get("release") == RELEASE else "Release 0.15 contains"
+    release_phrase = {
+        RELEASE: "Release 0.14 contains",
+        "0.15-ing-reading-practice-alpha": "Release 0.15 contains",
+        "0.16-grammar-connections-presentation-alpha": "Release 0.16 contains",
+    }.get(meta.get("release"), "")
     if release_phrase not in readme or "snowden-cynefin-sources.md" not in readme:
         errors.append("README does not preserve the 0.14 source account and identify the current release")
     changelog = (ROOT / "CHANGELOG.md").read_text(encoding="utf-8")

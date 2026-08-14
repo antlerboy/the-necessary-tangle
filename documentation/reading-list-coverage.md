@@ -1,6 +1,6 @@
 # Reading-list coverage
 
-Release `0.15-ing-reading-practice-alpha` treats the public systems | complexity | cybernetics reading list as an item-level corpus rather than a single external link.
+Release `0.16-grammar-connections-presentation-alpha` treats the public systems | complexity | cybernetics reading list as an item-level corpus rather than a single external link.
 
 Captured items: **110**. Developed profiles: **29**. Represented more thinly: **1**. Inventory-only: **80**.
 

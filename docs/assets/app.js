@@ -30,7 +30,12 @@
     historical: 'History and sequence',
     influence: 'Influence and lineage',
     practice: 'Practice and application',
-    contestation: 'Confusion and disagreement'
+    contestation: 'Confusion and disagreement',
+    human: 'Human transmission',
+    identity: 'Identity and affiliation',
+    documentary: 'Works, authorship and presentation',
+    classification: 'Collection structure',
+    evidence: 'Evidence registration'
   };
   const QUESTION_STOPWORDS = new Set([
     'a', 'about', 'an', 'and', 'are', 'as', 'at', 'be', 'been', 'between', 'by',
@@ -53,6 +58,7 @@
   const sourceById = new Map((DATA.sources || []).map((source) => [source.id, source]));
   const evidenceById = new Map((DATA.evidence || []).map((evidence) => [evidence.id, evidence]));
   const relationByType = new Map((DATA.relation_types || []).map((relation) => [relation.relation_type, relation]));
+  const relationalDepthByNode = DATA.relational_depth?.by_node || {};
 
   const canonicalEdges = [];
   const edgeSeen = new Set();
@@ -276,8 +282,37 @@
     return RELATION_FAMILY_LABELS[value] || titleCase(value);
   }
 
+  function connectionBandLabel(value) {
+    return ({
+      rich: 'Rich connection structure',
+      developing: 'Developing connection structure',
+      thin: 'Thin connection structure',
+      unconnected: 'No reader connections yet'
+    })[value] || 'Connection depth not measured';
+  }
+
+  function evidenceBandLabel(value) {
+    return ({
+      supported: 'Mostly source-supported',
+      mixed: 'Mixed accepted and provisional evidence',
+      provisional: 'Provisional connections',
+      none: 'No reader-connection evidence yet'
+    })[value] || 'Evidence depth not measured';
+  }
+
   function substantiveEdge(edge) {
-    return !['classification', 'evidence', 'documentary', 'legacy'].includes(edge.relation_family)
+    return !['classification', 'evidence', 'legacy'].includes(edge.relation_family)
+      && edge.relation_type !== 'legacy_association_unspecified'
+      && edge.claim_status !== 'legacy_unresolved';
+  }
+
+  function publicEntryEdge(edge) {
+    const source = nodeById.get(edge.source);
+    const target = nodeById.get(edge.target);
+    return source?.public_visibility === 'public'
+      && target?.public_visibility === 'public'
+      && canonicalId(source.id) === source.id
+      && canonicalId(target.id) === target.id
       && edge.relation_type !== 'legacy_association_unspecified'
       && edge.claim_status !== 'legacy_unresolved';
   }
@@ -305,7 +340,7 @@
   function mapLayerDescription() {
     const descriptions = {
       all: 'Everything includes conceptual, human, practice, contestation, authorship, evidence and collection structure.',
-      substantive: 'The reader map excludes bibliography and collection structure, keeping conceptual, historical, human, practice and contestation relationships.',
+      substantive: 'The reader map keeps meaningful authorship and presentation alongside conceptual, historical, human, identity, practice and contestation relationships. Collection-only and evidence-registration lines stay in provenance.',
       conceptual: 'Conceptual lines show definitions, prerequisites, specialisation and explanatory relationships.',
       human: 'Human lineage combines teaching, collaboration, influence and historical transmission. The line type still matters.',
       practice: 'Practice lines connect ideas, methods, interventions and documented use.',
@@ -503,11 +538,15 @@
     const node = nodeById.get(canonicalId(id));
     if (!node || node.public_visibility !== 'public') return;
     const profile = profileById.get(node.id);
+    const depth = relationalDepthByNode[node.id];
     const sources = unique([
       ...parse(node.source_ids, []),
       ...(profile ? parse(profile.source_ids, []) : [])
     ]).map((sourceId) => sourceById.get(sourceId)).filter(Boolean);
-    const relations = (edgesByNode.get(node.id) || []).filter(substantiveEdge);
+    // A full entry should expose every meaningful public-to-public statement,
+    // including source-backed collection and documentary connections. The map's
+    // default reader layer remains deliberately narrower.
+    const relations = (edgesByNode.get(node.id) || []).filter(publicEntryEdge);
     const claims = (DATA.claims || []).filter((claim) =>
       canonicalId(claim.subject_id) === node.id || canonicalId(claim.object_id) === node.id
     );
@@ -564,13 +603,14 @@
       <h1>${esc(node.label)}</h1>
       <div class="badges">
         <span class="badge ${node.publication_level === 'research_stub' ? 'stub' : node.publication_level === 'profile' ? 'profile' : ''}">${esc(statusLabel(node))}</span>
+        ${depth ? `<span class="badge connection-band ${esc(depth.connection_band)}">${esc(connectionBandLabel(depth.connection_band))}</span><span class="badge evidence-band ${esc(depth.evidence_band)}">${esc(evidenceBandLabel(depth.evidence_band))}</span>` : ''}
         ${parse(node.set_tags, []).slice(0, 5).map((tag) => `<button class="badge tag-filter" data-tag="${esc(tag)}">${esc(titleCase(tag))}</button>`).join('')}
       </div>
       <p class="entry-definition">${linkifyKnownText(displayDefinition(node), [node.id])}</p>
       ${profile?.summary && profile.summary !== displayDefinition(node)
         ? `<p>${linkifyKnownText(profile.summary, [node.id])}</p>`
         : ''}
-      <p class="small">${node.public_source_count || 0} linked public source${node.public_source_count === 1 ? '' : 's'}${node.no_public_link_count ? ` · ${node.no_public_link_count} cited item${node.no_public_link_count === 1 ? '' : 's'} with no public link` : ''}</p>
+      <p class="small">${node.public_source_count || 0} linked public source${node.public_source_count === 1 ? '' : 's'}${node.no_public_link_count ? ` · ${node.no_public_link_count} cited item${node.no_public_link_count === 1 ? '' : 's'} with no public link` : ''}${depth ? ` · ${depth.reader_connections} reader connection${depth.reader_connections === 1 ? '' : 's'} across ${depth.distinct_reader_families} relation famil${depth.distinct_reader_families === 1 ? 'y' : 'ies'}` : ''}</p>
       <div class="entry-actions">
         <button class="primary map-entry" data-id="${esc(node.id)}">Explore connections</button>
         <button class="ask-entry" data-id="${esc(node.id)}">Ask about this</button>
@@ -659,6 +699,10 @@
     const tags = parse(node.set_tags, [])
       .filter((tag) => ['systems', 'cybernetics', 'complexity', 'practice', 'management_cybernetics', 'critical_systems'].includes(tag))
       .slice(0, 3);
+    const depth = relationalDepthByNode[node.id];
+    const connectionMeta = depth
+      ? `${depth.reader_connections} reader connection${depth.reader_connections === 1 ? '' : 's'} · ${depth.distinct_reader_families} relation famil${depth.distinct_reader_families === 1 ? 'y' : 'ies'} · ${connectionBandLabel(depth.connection_band)}`
+      : 'Connection depth not measured';
     return `<article class="card">
       <div class="badges">
         <button class="badge type-filter" data-type="${esc(node.entity_type)}">${esc(entityLabel(node.entity_type))}</button>
@@ -667,7 +711,7 @@
       <h3>${esc(node.label)}</h3>
       <p>${esc(displayDefinition(node))}</p>
       <footer>
-        <span class="meta">${node.public_source_count || 0} public source${node.public_source_count === 1 ? '' : 's'}${tags.length ? ` · ${tags.map((tag) => esc(titleCase(tag))).join(', ')}` : ''}</span>
+        <span class="meta">${esc(connectionMeta)}<br>${node.public_source_count || 0} public source${node.public_source_count === 1 ? '' : 's'}${tags.length ? ` · ${tags.map((tag) => esc(titleCase(tag))).join(', ')}` : ''}</span>
         <a href="${internalHref('item', { id: node.id, from: baseView })}" class="text-button open-card internal-entry-link" data-id="${esc(node.id)}">Open</a>
       </footer>
     </article>`;
@@ -729,15 +773,30 @@
 
   function renderHome() {
     $('releaseBadge').textContent = `Release ${DATA.meta.release}`;
+    const relational = DATA.relational_depth?.aggregate || {};
+    const bands = relational.connection_bands || {};
     const metrics = [
       [DATA.meta.described_entry_count, 'readable public entries'],
-      [DATA.meta.profile_count, 'developed entries'],
-      [DATA.meta.journey_count, 'guided journeys'],
-      [DATA.meta.public_link_source_count, 'sources with public links']
+      [relational.reader_connected_entries ?? '—', 'with reader connections'],
+      [(bands.rich || 0) + (bands.developing || 0), 'developing or rich'],
+      [relational.reader_statements ?? '—', 'reader relationship statements']
     ];
     $('homeMetrics').innerHTML = metrics
       .map(([number, label]) => `<div class="metric"><strong>${esc(number)}</strong><span>${esc(label)}</span></div>`)
       .join('');
+
+    const depthMetrics = $('relationalDepthMetrics');
+    if (depthMetrics) {
+      const rows = [
+        [bands.rich || 0, 'rich'],
+        [bands.developing || 0, 'developing'],
+        [bands.thin || 0, 'thin'],
+        [bands.unconnected || 0, 'unconnected']
+      ];
+      depthMetrics.innerHTML = rows.map(([number, label]) => `
+        <div class="metric"><strong>${esc(number)}</strong><span>${esc(label)}</span></div>
+      `).join('');
+    }
     $('quickLinks').innerHTML = ['Viability', 'Boundary', 'Feedback', 'Emergence', 'Requisite variety', 'Viable System Model']
       .map((label) => {
         const node = bestNode(label);
@@ -801,14 +860,18 @@
 
   function renderBrowse() {
     const query = $('browseSearch').value.trim();
+    const connectionDepth = $('browseConnectionDepth')?.value || 'all';
     const options = {
       type: $('browseType').value,
       tag: $('browseTag').value,
       level: $('browseLevel').value
     };
-    const results = query
+    const matched = query
       ? searchNodes(query, 500, options).map((result) => result.node)
       : searchNodes('', 1000, options).map((result) => result.node);
+    const results = connectionDepth === 'all'
+      ? matched
+      : matched.filter((node) => relationalDepthByNode[node.id]?.connection_band === connectionDepth);
     $('browseCount').textContent = `${results.length} ${results.length === 1 ? 'entry' : 'entries'}`;
     $('browseCards').innerHTML = results.map(card).join('')
       || '<div class="empty-card"><h2>No matches</h2><p>Try a shorter phrase or include outline-only entries.</p></div>';
@@ -1899,12 +1962,13 @@
     $$('[data-view-link]').forEach((link) => link.addEventListener('click', (event) => followInternalAnchor(event, link)));
     $$('.smart-search').forEach(initSmartSearch);
     $('browseSearch').addEventListener('input', renderBrowse);
-    ['browseType', 'browseTag', 'browseLevel'].forEach((id) => $(id).addEventListener('change', renderBrowse));
+    ['browseType', 'browseTag', 'browseLevel', 'browseConnectionDepth'].forEach((id) => $(id).addEventListener('change', renderBrowse));
     $('clearBrowse').addEventListener('click', () => {
       $('browseSearch').value = '';
       $('browseType').value = 'all';
       $('browseTag').value = 'all';
       $('browseLevel').value = 'developed';
+      $('browseConnectionDepth').value = 'all';
       renderBrowse();
     });
 

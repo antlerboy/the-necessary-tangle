@@ -1,6 +1,6 @@
 # AI observations
 
-Generated for release `0.15-ing-reading-practice-alpha` on 2026-08-14.
+Generated for release `0.16-grammar-connections-presentation-alpha` on 2026-08-14.
 
 Measurements are derived from the current public graph and reading-list inventory; interpretations, implications and proposed tests are explicitly separated.
 
@@ -8,7 +8,7 @@ Measurements are derived from the current public graph and reading-list inventor
 
 **Kind:** measurement plus interpretation
 
-**Measurement:** The atlas has 495 public entries and 111 developed profiles. 22.4% of entries have the fuller profile structure.
+**Measurement:** The atlas has 496 public entries and 111 developed profiles. 22.4% of entries have the fuller profile structure.
 
 **Interpretation:** The atlas remains stronger as a territory marker than as a uniformly deep critical reference. A named entry and a developed account are different editorial products.
 
@@ -20,7 +20,7 @@ Measurements are derived from the current public graph and reading-list inventor
 
 **Kind:** measurement plus design inference
 
-**Measurement:** There are 693 typed public edges; 273 are conceptual, historical, human, practice or contestation relations. The substantive share is 39.4%.
+**Measurement:** There are 1391 typed public edges; 750 are conceptual, historical, human, practice or contestation relations. The substantive share is 53.9%.
 
 **Interpretation:** Authorship, hosting and collection membership answer different questions from dependence, influence, critique and use. A dense provenance layer is not evidence of conceptual agreement.
 
@@ -92,7 +92,7 @@ Measurements are derived from the current public graph and reading-list inventor
 
 **Kind:** measurement plus evidential risk
 
-**Measurement:** The most reused source is ‘Foundational Papers in Complexity Science — official tables of contents’, attached to 618 public nodes or edges.
+**Measurement:** The most reused source is ‘Foundational Papers in Complexity Science — official tables of contents’, attached to 800 public nodes or edges.
 
 **Interpretation:** One source can establish repeated bibliographic facts without independently corroborating meanings, influence or quality. Reuse can look like consensus when it is only shared provenance.
 
@@ -116,7 +116,7 @@ Measurements are derived from the current public graph and reading-list inventor
 
 **Kind:** measurement plus model warning
 
-**Measurement:** Published neighbourhoods contain 77 unique nodes, while 211 nodes are now connected; 134 connected nodes sit outside the older grouping pass.
+**Measurement:** Published neighbourhoods contain 77 unique nodes, while 329 nodes are now connected; 252 connected nodes sit outside the older grouping pass.
 
 **Interpretation:** A cluster is produced by current edges, exclusions, resolution and seed. It should not be mistaken for a discovered natural taxonomy.
 
@@ -140,7 +140,7 @@ Measurements are derived from the current public graph and reading-list inventor
 
 **Kind:** second-order observation
 
-**Measurement:** 284 entries are isolated in the substantive graph, while the largest substantive component contains 145 entries.
+**Measurement:** 167 entries are isolated in the substantive graph, while the largest substantive component contains 272 entries.
 
 **Interpretation:** Isolation often records missing source work, relation vocabulary or research attention; it does not show that an idea is naturally peripheral.
 
@@ -200,7 +200,7 @@ Measurements are derived from the current public graph and reading-list inventor
 
 **Kind:** second-order observation
 
-**Measurement:** The atlas now has 495 public entries and 111 developed profiles, so navigation and research depth still select a small fraction for prominent treatment.
+**Measurement:** The atlas now has 496 public entries and 111 developed profiles, so navigation and research depth still select a small fraction for prominent treatment.
 
 **Interpretation:** Prominence can arise because a source corpus is unusually accessible or recently researched. That is not the same as importance in the field.
 

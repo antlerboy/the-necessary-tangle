@@ -14,7 +14,7 @@ DOCS = ROOT / "docs"
 
 PROJECT = "The Necessary Tangle"
 REPOSITORY_URL = "https://github.com/antlerboy/the-necessary-tangle"
-PROJECT_URL = "https://antlerboy.github.io/the-necessary-tangle/"
+PROJECT_URL = "https://transduction.systems/"
 AUTHOR_URL = "https://www.antlerboy.com/"
 BAD_NAME_RE = re.compile(r"(?<!Necessary )\bThe Tangle\b")
 PRIVATE_PATTERNS = (
