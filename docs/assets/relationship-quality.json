@@ -36,6 +36,7 @@
     "profiles": 111,
     "journeys": 19,
     "external_corpora_reviewed": 9,
+    "internal_sources_reviewed": 18,
     "reader_connected_entries": 496,
     "semantic_connected_entries": 328,
     "semantic_gap_entries": 168,
@@ -130,6 +131,10 @@
     "external_corpus_records": {
       "passing": 9,
       "total": 9
+    },
+    "internal_corpus_records": {
+      "passing": 18,
+      "total": 18
     }
   },
   "generic_relation_review": [],

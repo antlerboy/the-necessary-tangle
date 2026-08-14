@@ -1,5 +1,15 @@
 # Morning change list
 
+## Pass 4: internal corpus
+
+- Classified all 18 non-public source records by actual inspection status and evidential role.
+- Added `documentation/internal-corpus-traversal.md` and an 18-record machine-readable audit.
+- Replaced boilerplate on 17 supplied-deck relationships with claim-specific rationale and scope.
+- Normalised seven damaged slide-range locators.
+- Exposed the provenance gap: 501 internal-source citations but only 34 precision-shaped locators.
+- Added no title-, duplicate- or network-proximity-derived relationship.
+- Captured desktop and mobile rendered evidence for Ladder of inference.
+
 ## Pass 3: external corpus
 
 - Traversed Principia Cybernetica, David Ing's publication corpus, the full 110-item reading inventory, and six comparison archives beyond their landing pages.

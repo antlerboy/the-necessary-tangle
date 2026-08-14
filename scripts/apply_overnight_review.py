@@ -823,6 +823,129 @@ EXTERNAL_CORPUS_REVIEW: list[dict[str, Any]] = json.loads(r'''[
   }
 ]''')
 
+INTERNAL_CORPUS_CLASSES: dict[str, tuple[str, str, str]] = {
+    "src_taylor_boundaries_convening_2025": (
+        "direct_slide_level_review",
+        "Supplied deck inspected through its maintained slide-level extracts and locators.",
+        "Author synthesis; no public link and no independent evidence of intervention effectiveness.",
+    ),
+    "src_taylor_five_questions_transformation": (
+        "direct_slide_level_review",
+        "Supplied one-slide framework inspected for its explicit question structure.",
+        "The slide organises inquiry; it does not establish a universal transformation sequence.",
+    ),
+    "src_taylor_four_dynamics_2023": (
+        "direct_slide_level_review",
+        "Supplied deck inspected across the cited dynamics and practice slides.",
+        "The four-dynamics model is an author framework, not a field-wide taxonomy or efficacy study.",
+    ),
+    "src_taylor_vsm_simplification_2023": (
+        "direct_slide_level_review",
+        "Supplied teaching deck inspected at the cited complexity, variety, adaptation and governance slides.",
+        "A deliberate teaching simplification should not be mistaken for the full formal Viable System Model.",
+    ),
+    "src_taylor_clarity_practices_2024": (
+        "direct_slide_level_review",
+        "Supplied deck inspected at the cited conversation, reflection and decision-structure slides.",
+        "The material states an author practice model; it does not evaluate outcomes independently.",
+    ),
+    "src_taylor_better_conversations_2025": (
+        "direct_slide_level_review",
+        "Supplied deck inspected at the cited multiple-worlds and ladder-of-inference slides.",
+        "The feedback interpretation is a teaching synthesis, not an empirical causal estimate.",
+    ),
+    "src_core_thinking_integration": (
+        "prior_material_register_review",
+        "Earlier source record reconciled with the later Core Thinking Integration record.",
+        "Duplicate-title record has no claim-level public locator and should not be used to multiply support.",
+    ),
+    "src_taylor_core_thinking_2026": (
+        "prior_material_register_review",
+        "Maintained extracts and evidence records reviewed for distinctions, boundaries, observer, information and transduction.",
+        "The original working synthesis is non-public; six existing locators are section-level rather than page-level.",
+    ),
+    "src_taylor_operating_manual_2026": (
+        "prior_material_register_review",
+        "Existing practice-manual connections and evidence records reconciled.",
+        "The original manual is non-public and current locators are broad boundary-test descriptions.",
+    ),
+    "src_taylor_outcomes_complexity_2025": (
+        "prior_material_register_review",
+        "Source navigation and the maintained emergence description were reviewed.",
+        "Only a documentary source link is retained; the available record is insufficient for a new outcome mechanism edge.",
+    ),
+    "src_taylor_vsm_lecture_2025": (
+        "prior_material_register_review",
+        "Existing extracts on viability, autonomy, cohesion, variety handling, transduction and adaptation were reconciled.",
+        "The lecture is non-public and several locators remain broad; public VSM sources continue to carry stronger warrant.",
+    ),
+    "src_jobson_definitions_2017": (
+        "legacy_internal_register_audit",
+        "Bibliographic framework record and corpus membership audited.",
+        "No claim-level extract is available in the maintained public data; no new semantic edge admitted.",
+    ),
+    "src_korycki_2014": (
+        "legacy_internal_register_audit",
+        "Legacy SysBoK presentation record and corpus membership audited.",
+        "No claim-level extract is available in the maintained public data; no new semantic edge admitted.",
+    ),
+    "src_scio_cf_bok_2017": (
+        "legacy_internal_register_audit",
+        "Framework scope and three maintained section-level mappings audited.",
+        "Internal framework inclusion records curriculum, not independent validation of every mapped practice.",
+    ),
+    "src_scio_cf_resources_2022": (
+        "legacy_internal_register_audit",
+        "All maintained resource-guide and generated crosswalk references were counted and classified.",
+        "The guide is cited by hundreds of generated comparisons but has only three precision-shaped locators; it remains a major provenance debt.",
+    ),
+    "src_sysbok_feedback_2013": (
+        "legacy_internal_register_audit",
+        "Legacy feedback presentation links and generated crosswalk uses were audited.",
+        "The broad internal source cannot independently warrant the many generated comparisons that cite it; primary sources remain necessary.",
+    ),
+    "src_sysbok_recursion_2013": (
+        "legacy_internal_register_audit",
+        "Legacy recursion presentation links and generated crosswalk uses were audited.",
+        "The broad internal source cannot independently warrant the generated comparison set; exact slide locators are absent.",
+    ),
+    "src_perko_systems_researchers_network_2026": (
+        "discovery_only_comparator",
+        "Network-image record and all six discovery/comparison uses audited.",
+        "The image is permission-limited and discovery-only; visual proximity is not evidence of influence, agreement or collaboration.",
+    ),
+}
+
+INTERNAL_EDGE_NOTES: dict[str, str] = {
+    "e16_source_crosswalk_002": "Slides 1 and 4 frame convening as creating the social conditions in which systems change can be worked on across boundaries.",
+    "e16_source_crosswalk_003": "Slide 4 treats the system boundary as constitutive of what change actors include in the system of concern.",
+    "e16_source_crosswalk_004": "Slide 4 makes different views of the system a resource for learning rather than a defect to remove.",
+    "e16_source_crosswalk_005": "The one-slide framework puts purpose among the explicit questions that orient transformation inquiry.",
+    "e16_source_crosswalk_006": "The same framework asks how governance, organisation and accountability will support and constrain change.",
+    "e16_source_crosswalk_007": "The cited slides connect empowerment with distributed discretion while keeping it in balance with the other organisational dynamics.",
+    "e16_source_crosswalk_008": "The cited slides connect blending and harmonising work with cohesion rather than treating cohesion as mere uniformity.",
+    "e16_source_crosswalk_009": "Slides 11-12 and 19 use shared purpose to orient harmonising activity across differentiated work.",
+    "e16_source_crosswalk_010": "Slides 2-3 organise the VSM simplification around operational, environmental and future complexity.",
+    "e16_source_crosswalk_011": "Slide 2 asks whether organisational capacity, capability and connectedness provide enough response variety.",
+    "e16_source_crosswalk_012": "Slides 2-3 connect future-facing capability with adaptation rather than only current operational fit.",
+    "e16_source_crosswalk_013": "Slides 2-3 frame accountability, resource allocation and future attention as governance questions within the simplification.",
+    "e16_source_crosswalk_014": "Slides 2 and 5-6 connect constructive conversation and reflection with examining the reasoning behind action.",
+    "e16_source_crosswalk_015": "Slides 10-11 connect decision-structure design with preserving enough local decision capacity for the variety faced.",
+    "e16_source_crosswalk_016": "Slide 16 makes the observer's selection of data and interpretation visible through the ladder of inference.",
+    "e16_source_crosswalk_017": "Slide 16 shows conclusions feeding later selection and action, making the ladder a reinforcing feedback pattern.",
+    "e16_source_crosswalk_018": "Slides 2 and 16 treat different experienced realities as interpretations that productive conversation can make discussable.",
+}
+
+INTERNAL_EDGE_LOCATORS: dict[str, str] = {
+    "e16_source_crosswalk_007": "slides 10, 12-13 and 18",
+    "e16_source_crosswalk_008": "slides 9, 11-13, 17 and 19",
+    "e16_source_crosswalk_009": "slides 11-12 and 19",
+    "e16_source_crosswalk_010": "slides 2-3",
+    "e16_source_crosswalk_012": "slides 2-3",
+    "e16_source_crosswalk_013": "slides 2-3",
+    "e16_source_crosswalk_014": "slides 2 and 5-6",
+}
+
 
 def parse_list(value: Any) -> list[Any]:
     if isinstance(value, list):
@@ -868,6 +991,75 @@ def apply_external_corpus_review(data: dict[str, Any]) -> None:
     missing = sorted(set(SOURCE_MINING_UPDATES) - found)
     if missing:
         raise RuntimeError(f"Source-mining records missing from generated data: {missing}")
+
+
+def apply_internal_corpus_review(data: dict[str, Any]) -> None:
+    source_by_id = {source["id"]: source for source in data.get("sources", [])}
+    missing_sources = sorted(set(INTERNAL_CORPUS_CLASSES) - set(source_by_id))
+    if missing_sources:
+        raise RuntimeError(f"Internal-corpus sources missing from generated data: {missing_sources}")
+
+    for source_id, (material_status, _decision, _uncertainty) in INTERNAL_CORPUS_CLASSES.items():
+        source_by_id[source_id]["review_status"] = f"pass4_{material_status}"
+        source_by_id[source_id]["last_checked"] = "2026-08-14"
+
+    found_edges: set[str] = set()
+    for edge in data.get("edges", []):
+        edge_id = edge.get("id", "")
+        note = INTERNAL_EDGE_NOTES.get(edge_id)
+        if not note:
+            continue
+        source_ids = parse_list(edge.get("source_ids"))
+        source_id = source_ids[0] if source_ids else ""
+        material = INTERNAL_CORPUS_CLASSES.get(source_id)
+        if not material:
+            raise RuntimeError(f"Internal edge {edge_id} has unexpected source {source_id}")
+        edge.update(
+            {
+                "notes": note,
+                "scope_conditions": material[2],
+                "reviewed_by": "Benjamin P Taylor",
+                "reviewed_at": "2026-08-14",
+                "public_review_label": "source-backed author synthesis; no public link",
+            }
+        )
+        if edge_id in INTERNAL_EDGE_LOCATORS:
+            edge["source_locator"] = INTERNAL_EDGE_LOCATORS[edge_id]
+        found_edges.add(edge_id)
+    missing_edges = sorted(set(INTERNAL_EDGE_NOTES) - found_edges)
+    if missing_edges:
+        raise RuntimeError(f"Internal-corpus edge patches missing: {missing_edges}")
+
+    review: list[dict[str, Any]] = []
+    for source_id, (material_status, decision, uncertainty) in INTERNAL_CORPUS_CLASSES.items():
+        cited_edges = [
+            edge for edge in data.get("edges", [])
+            if source_id in parse_list(edge.get("source_ids"))
+        ]
+        substantive = [
+            edge for edge in cited_edges
+            if edge.get("relation_family") not in {"classification", "evidence"}
+            and edge.get("relation_type") not in {"member_of", "described_by"}
+        ]
+        precise = [
+            edge["id"] for edge in cited_edges
+            if re.search(r"\b(?:slides?|pages?|sections?|chapters?)\b", str(edge.get("source_locator", "")), re.IGNORECASE)
+        ]
+        review.append(
+            {
+                "source_id": source_id,
+                "title": source_by_id[source_id]["title"],
+                "material_status": material_status,
+                "access": "no_public_link",
+                "cited_edge_count": len(cited_edges),
+                "substantive_edge_count": len(substantive),
+                "precision_located_edge_count": len(precise),
+                "reviewed_edge_ids": sorted(edge_id for edge_id in INTERNAL_EDGE_NOTES if edge_id in {edge["id"] for edge in cited_edges}),
+                "decision": decision,
+                "uncertainty": uncertainty,
+            }
+        )
+    data["internal_corpus_review"] = review
 
 
 def apply_edge_patches(data: dict[str, Any]) -> None:
@@ -955,6 +1147,7 @@ def quality_result(data: dict[str, Any]) -> dict[str, Any]:
         "profiles": len(data.get("profiles", [])),
         "journeys": len(data.get("journeys", [])),
         "external_corpora_reviewed": len(data.get("external_corpus_review", [])),
+        "internal_sources_reviewed": len(data.get("internal_corpus_review", [])),
         "reader_connected_entries": depth["aggregate"]["reader_connected_entries"],
         "semantic_connected_entries": depth["aggregate"]["semantic_connected_entries"],
         "semantic_gap_entries": depth["aggregate"]["public_entries"] - depth["aggregate"]["semantic_connected_entries"],
@@ -1058,6 +1251,20 @@ def quality_result(data: dict[str, Any]) -> dict[str, Any]:
                 ),
                 "total": len(data.get("external_corpus_review", [])),
             },
+            "internal_corpus_records": {
+                "passing": sum(
+                    bool(record.get("decision"))
+                    and bool(record.get("uncertainty"))
+                    and record.get("material_status") in {
+                        "direct_slide_level_review",
+                        "prior_material_register_review",
+                        "legacy_internal_register_audit",
+                        "discovery_only_comparator",
+                    }
+                    for record in data.get("internal_corpus_review", [])
+                ),
+                "total": len(data.get("internal_corpus_review", [])),
+            },
         },
         "generic_relation_review": generic,
         "repeated_assertion_review": repeated,
@@ -1107,6 +1314,7 @@ def main() -> None:
     upsert(data["sources"], SOURCE_RECORDS)
     apply_source_patches(data)
     apply_external_corpus_review(data)
+    apply_internal_corpus_review(data)
     apply_edge_patches(data)
     data["relational_depth"] = calculate_relational_depth(data)
     data["graph_snapshot"] = calculate_graph_snapshot(data)
@@ -1119,6 +1327,7 @@ def main() -> None:
             "no_public_link_source_count": sum(source.get("public_link_status") == "no_public_link" for source in data.get("sources", [])),
             "source_mining_register_count": len(data.get("source_mining_register", [])),
             "external_corpus_review_count": len(data.get("external_corpus_review", [])),
+            "internal_corpus_review_count": len(data.get("internal_corpus_review", [])),
             "reader_connected_entry_count": aggregate["reader_connected_entries"],
             "semantic_connected_entry_count": aggregate["semantic_connected_entries"],
             "rich_entry_count": aggregate["connection_bands"].get("rich", 0),

@@ -125,7 +125,7 @@ The Stacey emergence edge remains explicitly interpreted and provisional. It is 
 
 ## Pass 3 — external corpus
 
-Status: bounded change prepared; publication gate pending at the time of this record.
+Status: complete and live.
 
 ### Previous findings read
 
@@ -145,11 +145,13 @@ The graph began this pass with 1,712 edges, 155 public source records, 225 thin 
 
 ### Build and test
 
-The clean local reconstruction and all maintained Python validators passed after one useful rejection: the validator refused six newly coined relation types. They were remapped to the project's controlled vocabulary while preserving their more precise human-readable phrases. JavaScript syntax checks passed.
+The clean local reconstruction and all maintained Python validators passed after one useful rejection: the validator refused six newly coined relation types. They were remapped to the project's controlled vocabulary while preserving their more precise human-readable phrases. JavaScript syntax checks passed. Validation run 31843713399 then succeeded. PR #40 merged to `main` as `5483611fc0ebcf5c2e71ea5c008694bc07b639b0`. Pages run 31843781768 and content-backup run 31843781744 both succeeded.
 
 ### Rendered inspection
 
 The Self-organisation and Pattern Manual item views were rendered at 1,440px desktop and 375px mobile widths. The two new feedback-mechanism statements appear in the Self-organisation view, the item drawer remains readable, no horizontal overflow was observed, navigation remains available and the Open updates magic dot remains present.
+
+The same checks were repeated against the cache-busted live Self-organisation item after deployment. Both feedback-mechanism phrases were present, generic relation wording was absent, desktop and mobile had no horizontal overflow, and the magic dot remained present.
 
 - [Desktop Self-organisation](screenshots/overnight/pass3-desktop-self-organisation.png)
 - [Mobile Self-organisation](screenshots/overnight/pass3-mobile-self-organisation.png)
@@ -175,7 +177,47 @@ The SFI emergence framing and the IFSR convening example remain explicitly inter
 
 ## Pass 4 — internal corpus
 
-Status: not started.
+Status: bounded change prepared; publication gate pending at the time of this record.
+
+### Previous findings read
+
+Pass 3's external traversal decisions, no-edge decisions, uncertainty register and current machine relationship-quality result.
+
+### Measured current state
+
+Eighteen non-public source records were in scope: six supplied author decks, five earlier author syntheses or lectures, six legacy SCiO/framework records, and one permission-limited discovery image. They are cited 501 times across the graph, including 412 substantive citations, but only 34 of those citations have slide-, page-, section- or chapter-shaped locators. The six supplied decks already supported 17 direct slide-level crosswalk statements.
+
+### Bounded improvement
+
+- Added an 18-record machine-readable internal-corpus audit with evidence class, access, citation counts, review decision and uncertainty.
+- Replaced the uniform boilerplate on all 17 supplied-deck relationships with claim-specific rationales and material-specific scope conditions.
+- Normalised seven degraded slide-range locators.
+- Marked the duplicate Core Thinking Integration title as one intellectual source rather than independent corroboration.
+- Kept the outcomes presentation documentary-only and the Perko network image discovery-only.
+- Added no new edge where only a broad internal register or visual proximity was available.
+
+### Build and test
+
+The final overlay, graph snapshot, public-knowledge build, all maintained Python validators and JavaScript syntax checks passed locally.
+
+### Rendered inspection
+
+The Ladder of inference item was rendered at 1,440px desktop and 375px mobile widths. Both reviewed public phrases are visible, the connection drawer remains readable, no horizontal overflow was observed and the Open updates magic dot remains present.
+
+- [Desktop Ladder of inference](screenshots/overnight/pass4-desktop-ladder-of-inference.png)
+- [Mobile Ladder of inference](screenshots/overnight/pass4-mobile-ladder-of-inference.png)
+
+### Improved
+
+All 18 internal records now state what was actually inspected and what remains inaccessible. The 17 supplied-deck claims now explain their warrant individually rather than sharing one generic caveat. The audit makes the mismatch between 501 citations and only 34 precision-shaped locators visible.
+
+### Regressed
+
+No structural graph metric changes. The machine-readable payload grows, and the public graph still carries many generated comparisons which cite broad internal registers.
+
+### Uncertain
+
+Readers cannot open the non-public originals. The SCiO CF Resources draft, legacy Feedback deck and legacy Recursion deck are cited by many generated comparisons without claim-level locators. Those citations remain provenance debt, not independently supported claims.
 
 ## Pass 5 — experience and visual improvement
 
