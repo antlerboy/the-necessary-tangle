@@ -357,7 +357,7 @@ blockquote {
 .step-card .button { display: inline-flex; margin-top: .25rem; }
 .journey-actions { display: flex; gap: .55rem; margin-top: .8rem; }
 .journey-actions button:disabled { cursor: not-allowed; opacity: .45; }
-.map-layout { grid-template-areas: "controls canvas" "controls inspector"; }
+.map-layout { grid-template-areas: "controls canvas inspector"; }
 .map-controls { grid-area: controls; }
 .graph-wrap { grid-area: canvas; min-width: 0; border: 1px solid var(--line); border-radius: var(--radius); background: var(--panel); box-shadow: var(--shadow); }
 .map-inspector { grid-area: inspector; margin-top: 0; }
@@ -379,14 +379,21 @@ blockquote {
 .graph-edge.context-edge { stroke-opacity: .075 !important; }
 .graph-edge-group:hover .graph-edge, .graph-edge-group:focus .graph-edge { stroke: var(--orange); stroke-opacity: 1 !important; stroke-width: 3px; }
 .map-inspector .relation-statement { padding: .62rem 0; border-top: 1px solid var(--line); }
-@media (max-width: 1080px) {
-  .map-layout { grid-template-areas: "controls" "canvas" "inspector"; }
+@media (max-width: 1100px) {
+  .map-layout {
+    grid-template-columns: 250px minmax(0, 1fr);
+    grid-template-areas: "controls canvas" "inspector inspector";
+  }
 }
 @media (max-width: 760px) {
   .journey-layout { grid-template-columns: 1fr; }
   .journey-list { position: static; max-height: 24rem; }
   .journey-runner { padding: 1rem; }
   .journey-step-head { display: grid; }
+  .map-layout {
+    grid-template-columns: 1fr;
+    grid-template-areas: "controls" "canvas" "inspector";
+  }
   .map-focus-status { order: 4; flex-basis: 100%; max-width: 100%; }
   .map-shape-key { grid-template-columns: 1fr; }
   .graph-label { font-size: 10px; }
