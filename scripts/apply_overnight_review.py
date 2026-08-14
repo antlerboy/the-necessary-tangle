@@ -14,6 +14,7 @@ from pathlib import Path
 from typing import Any
 
 from apply_relational_depth_16 import calculate_relational_depth, write_data
+from apply_iteration_09 import graph_metrics
 from refresh_graph_snapshot import calculate as calculate_graph_snapshot
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -438,6 +439,8 @@ def main() -> None:
             "unconnected_entry_count": aggregate["connection_bands"].get("unconnected", 0),
         }
     )
+    if data.get("ai_observations"):
+        data["ai_observations"]["metrics"] = graph_metrics(data)
     write_data(data)
     result = quality_result(data)
     rendered = json.dumps(result, ensure_ascii=False, indent=2) + "\n"

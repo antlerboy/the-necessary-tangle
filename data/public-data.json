@@ -70946,41 +70946,41 @@
         "tool": 13,
         "tradition": 8
       },
-      "sources": 153,
-      "sources_with_public_links": 135,
+      "sources": 155,
+      "sources_with_public_links": 137,
       "typed_edges": 1391,
-      "substantive_edges": 750,
-      "substantive_connected_nodes": 329,
-      "substantive_isolated_nodes": 167,
-      "substantive_components": 187,
-      "largest_substantive_component": 272,
+      "substantive_edges": 749,
+      "substantive_connected_nodes": 328,
+      "substantive_isolated_nodes": 168,
+      "substantive_components": 188,
+      "largest_substantive_component": 271,
       "largest_all_edge_component": 496,
       "isolates_by_type": {
         "comparator_corpus": 1,
         "corpus": 4,
         "person": 65,
-        "publication": 97
+        "publication": 98
       },
       "layers": {
         "conceptual": {
-          "edges": 330,
-          "nodes": 205
+          "edges": 327,
+          "nodes": 203
         },
         "human_lineage": {
           "edges": 139,
           "nodes": 145
         },
         "practice": {
-          "edges": 264,
+          "edges": 265,
           "nodes": 192
         },
         "contestation": {
-          "edges": 12,
-          "nodes": 20
+          "edges": 13,
+          "nodes": 22
         },
         "provenance": {
-          "edges": 631,
-          "nodes": 334
+          "edges": 632,
+          "nodes": 336
         },
         "legacy": {
           "edges": 10,
@@ -71127,7 +71127,7 @@
       "people_total": 169,
       "published_neighbourhoods": 6,
       "published_neighbourhood_members": 77,
-      "connected_nodes_outside_neighbourhoods": 252
+      "connected_nodes_outside_neighbourhoods": 251
     },
     "observations": [
       {

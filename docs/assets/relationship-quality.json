@@ -65,7 +65,7 @@
       "total": 1712
     },
     "precision_shaped_locator": {
-      "passing": 231,
+      "passing": 232,
       "total": 1712,
       "note": "Conservative text-pattern measure; manual review is still required."
     },
