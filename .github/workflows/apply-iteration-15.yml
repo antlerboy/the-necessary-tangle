@@ -113,7 +113,7 @@ jobs:
           assert 'journey_core_systems_practice_reading' in journey_ids
 
           reading_html = Path('docs/reading-list.html').read_text(encoding='utf-8')
-          assert 'Reading-list depth map' in reading_html
+          assert 'Reading-list depth' in reading_html
           assert '110' in reading_html
           assert 'developed profile' in reading_html.casefold()
 
@@ -122,7 +122,7 @@ jobs:
           assert index.count(update_url) == 1
           assert 'id="themeToggle"' in index
           assert 'David Ing' in index
-          assert 'Reading-list depth map' in index
+          assert 'Reading-list depth' in index
           assert 'Core systems practice' in index
 
           public_text = '\n'.join([
