@@ -24,13 +24,15 @@ The site includes:
 
 ## Status
 
-This is a public alpha. Release 0.14 contains 483 canonical public entries, including 99 developed profiles, 140 sources and 16 guided journeys. Breadth is not presented as completeness, and editorial acceptance is not presented as final consensus.
+This is a public alpha. Release 0.15 contains 495 canonical public entries, including 111 developed profiles, 148 sources and 18 guided journeys. Breadth is not presented as completeness, and editorial acceptance is not presented as final consensus.
 
 The strongest current material is around boundaries and observers; feedback and regulation; variety, viability and the Viable System Model; systems laws and strategy; context-sensitive sense-making and Cynefin; applied practitioner lineages; recursion; emergence; and self-organisation. Human and institutional lineage, the complexity corpus and practice transmission still need much more work.
 
 The [coverage programme](documentation/coverage-programme.md) makes the next corpus and lineage passes explicit, including the *Foundational Papers in Complexity Science*, relevant Monoskop material, the SysCoI and model.report archives, prior maps and bodies of knowledge, practitioner influence constellations, and practice sources which can be supported by public evidence.
 
 The [Dave Snowden and Cynefin source account](documentation/snowden-cynefin-sources.md) distinguishes the evidential roles of author archive, project wiki, primary papers, publisher records and public institutional applications.
+
+The [reading-list depth map](https://antlerboy.github.io/the-necessary-tangle/reading-list.html) exposes all 110 captured items and distinguishes developed profiles, thinner representation and inventory-only coverage.
 
 ## Start here
 

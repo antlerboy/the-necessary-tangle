@@ -1,7 +1,7 @@
 # The Necessary Tangle: public knowledge file
 
 Curated by Benjamin P Taylor — https://www.antlerboy.com/
-Generated from public release 0.14-snowden-cynefin-alpha on 2026-08-11.
+Generated from public release 0.15-ing-reading-practice-alpha on 2026-08-14.
 
 A living evidence atlas of systems | cybernetics | complexity.
 Every connection must say what it means. Historical sequence, logical dependence, influence, teaching, collaboration, practical use, comparison and dispute are not interchangeable.
@@ -1307,6 +1307,59 @@ Coaching is a structured helping relationship that supports a person or group to
 - SCiO CF Resources v9 draft — No public link
 - SCiO Professional Accreditation and Competency Framework — https://www.systemspractice.org/professional-accreditation
 
+## Coevolving Innovations
+
+Type: Corpus
+Public depth: profile
+
+David Ing’s long-running public corpus of publications, teaching materials, conference records and reflective writing on systems and service systems.
+
+### Summary
+
+A public archive of Ing’s systems publications, courses, talks and reflective records.
+
+### Why it matters
+
+It provides chronology and lineage evidence that is often missing from systems accounts.
+
+### Key distinctions
+
+- primary record versus independent evaluation
+- event documentation versus influence claim
+
+### Historical development
+
+- David Ing’s research and teaching
+- ISSS and systems communities
+
+### Ideas it depends on
+
+- systems scholarship
+- open web publishing
+
+### What develops from it
+
+- service systems thinking materials
+- lineage research
+
+### Connections to practice
+
+- source discovery
+- teaching history
+- conference documentation
+
+### Common confusions
+
+- Archive density is not proof of conceptual centrality.
+
+### Open questions and checks
+
+- Continue adding independent corroboration for major lineage claims.
+
+### Sources
+
+- David Ing — Coevolving Innovations publications — https://coevolving.com/commons/publications
+
 ## Cohesion
 
 Type: Concept
@@ -1726,6 +1779,73 @@ Conversation mapping makes the structure and content of dialogue visible so that
 
 - SCiO CF Resources v9 draft — No public link
 - SCiO Professional Accreditation and Competency Framework — https://www.systemspractice.org/professional-accreditation
+
+## Core systems practice spine
+
+Type: Practice
+Public depth: profile
+
+A practice spine connecting systems concepts and laws, choice and combination of systems approaches, modelling, intervention, stakeholder engagement and reflexive learning. It is a competence structure, not one methodology.
+
+### Summary
+
+The professional spine joins concepts and laws, method choice, modelling, intervention, engagement and reflexive learning. CSH, SSM, System Dynamics and VSM are major approaches within that practice, not substitutes for the whole of it.
+
+### Why it matters
+
+A practitioner can know a method and still lack systemic practice. The occupational standard explicitly combines systems concepts, multiple approaches, modelling, engagement, intervention and reflexive participation.
+
+### Key distinctions
+
+- systems knowledge versus method competence
+- model versus situation
+- approach choice versus method loyalty
+- intervention versus analysis
+- reflexive participation versus detached expertise
+
+### Historical development
+
+- SCiO competency framework
+- Systems Thinking Practitioner occupational standard
+- practice traditions across CSH, SSM, System Dynamics and VSM
+
+### Ideas it depends on
+
+- systems concepts and laws
+- professional judgement
+- multiple perspectives
+- boundary critique
+
+### What develops from it
+
+- multi-methodology
+- systems intervention
+- professional accreditation
+
+### Connections to practice
+
+- CSH
+- SSM
+- System Dynamics
+- VSM
+- stakeholder engagement
+- modelling
+- learning
+
+### Common confusions
+
+- The four named approaches are not a complete list of systems practice.
+- Core systems practice is not merely drawing maps or choosing a branded framework.
+
+### Open questions and checks
+
+- Keep provider-specific module packaging distinct from the public occupational standard and SCiO competence structure.
+
+### Sources
+
+- Systems Thinking Practitioner apprenticeship standard ST0787 v1.2 — https://skillsengland.education.gov.uk/apprenticeships/st0787-v1-2
+- SCiO Professional Accreditation and Competency Framework — https://www.systemspractice.org/professional-accreditation
+- SCiO Professional Development — https://www.systemspractice.org/professional-development
 
 ## Covert operations
 
@@ -2451,6 +2571,72 @@ German mathematician whose work on formal foundations, geometry and mathematical
 ### Sources
 
 - SCiO SysBoK - Recursion v1 — No public link
+
+## David Ing
+
+Type: Person
+Public depth: profile
+
+Systems researcher, educator and practitioner whose work connects service systems, systems thinking education, pattern language, systems changes and the documentation of systems lineages.
+
+### Summary
+
+Ing’s work is useful in two ways at once: he develops service-systems and systems-changes approaches, and he leaves unusually inspectable public trails through systems scholarship, teaching and institutions.
+
+### Why it matters
+
+The atlas needs lineages that are documented rather than merely asserted. Ing’s publication archives, teaching records and ISSS work connect contemporary practice to longer systems traditions while also contributing his own approaches.
+
+### Key distinctions
+
+- service systems are relational rather than reducible to service transactions
+- systems changes are not assumed to follow unfreeze-change-refreeze
+- documented association is weaker than demonstrated intellectual influence
+- systems traditions are plural and historically situated
+
+### Historical development
+
+- ISSS leadership and systems-sciences community
+- service systems science
+- systems thinking education
+- pattern-language research
+- Systems Changes Learning Circle
+
+### Ideas it depends on
+
+- systems sciences
+- service science
+- Gregory Bateson’s ecological epistemology
+- Christopher Alexander’s pattern language
+- learning and action inquiry
+
+### What develops from it
+
+- service systems thinking teaching
+- Systems Changes Learning
+- pattern-language experiments for services
+- lineage-rich public systems archives
+
+### Connections to practice
+
+- teaching systems thinking
+- learning circles
+- service-system inquiry
+- public documentation of conferences and sources
+
+### Common confusions
+
+- Treating Ing only as a documenter misses substantive service-systems and systems-changes work.
+- Treating a documented connection as proof of influence overstates what an archive can establish.
+
+### Open questions and checks
+
+- Add more independent scholarship evaluating the service-systems and systems-changes contributions.
+
+### Sources
+
+- David Ing — Coevolving Innovations publications — https://coevolving.com/commons/publications
+- David Ing — ISSS presidential address — https://www.isss.org/presidential-addresses/
 
 ## Decision structure design
 
@@ -3442,6 +3628,61 @@ Flawless Consulting is Peter Block's approach to contracting, diagnosis, feedbac
 
 - SCiO CF Resources v9 draft — No public link
 - SCiO Professional Accreditation and Competency Framework — https://www.systemspractice.org/professional-accreditation
+
+## Flawless Consulting: A Guide to Getting Your Expertise Used
+
+Type: Publication
+Public depth: profile
+
+Peter Block’s practice text on the consulting relationship, including contracting, discovery, feedback, engagement and implementation as conditions for getting expertise used.
+
+### Summary
+
+Block treats consulting as a relationship and contracting practice rather than the transfer of expert answers.
+
+### Why it matters
+
+Systems interventions fail as often through contracting, ownership and implementation relations as through weak technical models.
+
+### Key distinctions
+
+- consulting relationship versus expert delivery
+- authentic contracting versus covert control
+- engagement versus compliance
+
+### Historical development
+
+- organisation development
+- consulting practice
+
+### Ideas it depends on
+
+- helping relationships
+- organisation development
+
+### What develops from it
+
+- consulting and facilitation practice
+
+### Connections to practice
+
+- contracting
+- feedback
+- implementation
+- stakeholder work
+
+### Common confusions
+
+- It is not a systems methodology; it supports the intervention relationship around one.
+
+### Open questions and checks
+
+- Link to helping, facilitation and power traditions.
+
+### Sources
+
+- Flawless Consulting — Wiley record — https://www.wiley.com/en-us/Flawless+Consulting%3A+A+Guide+to+Getting+Your+Expertise+Used%2C+4th+Edition-p-9781394177318
+- Updated rough draft systems | complexity | cybernetics reading list — https://stream.syscoi.com/2024/10/01/updated-rough-draft-systems-complexity-cybernetics-reading-list/
 
 ## Flocks, Herds, and Schools: A Distributed Behavioral Model
 
@@ -6624,6 +6865,57 @@ Hoverstadt's work connects the Viable System Model, systems laws, organisation d
 - What is the Viable System Model? — https://www.systemspractice.org/resources/what-viable-system-model
 - Mosaic transformation in organisations — https://www.systemspractice.org/resources/mosaic-transformation-organisations
 
+## Pattern Manual for Service Systems Thinking
+
+Type: Publication
+Public depth: profile
+
+David Ing’s 2016 proposal to translate lessons from generative pattern languages into service systems thinking, reframing patterns around voices on issues, affording values and spatio-temporal frames.
+
+### Summary
+
+A proposal for carrying generative pattern-language learning into service systems.
+
+### Why it matters
+
+It shows how a method can be translated between domains only by changing its ontology and pattern form.
+
+### Key distinctions
+
+- context-problem-solution versus voices-values-spatio-temporal frames
+- translation versus copying
+
+### Historical development
+
+- Alexander and pattern language
+- service systems thinking
+
+### Ideas it depends on
+
+- generative pattern languages
+- service systems
+
+### What develops from it
+
+- service-systems pattern work
+
+### Connections to practice
+
+- pattern workshops
+- service design
+
+### Common confusions
+
+- It does not claim the built-environment pattern form can simply be reused unchanged.
+
+### Open questions and checks
+
+- Trace later adoption and critique.
+
+### Sources
+
+- Pattern Manual for Service Systems Thinking — https://coevolving.com/commons/20161028-pattern-manual-for-service-systems-thinking
+
 ## Patterns of Strategy
 
 Type: Method or methodology
@@ -8268,6 +8560,61 @@ Sensitive dependence occurs when very small differences in starting conditions g
 
 - Systems Thinking Practitioner apprenticeship standard ST0787 v1.2 — https://skillsengland.education.gov.uk/apprenticeships/st0787-v1-2
 
+## Service systems thinking
+
+Type: Approach family
+Public depth: profile
+
+An approach developed across service science and systems practice that treats services as relational, value-co-creating systems and adapts systems and pattern-language ideas to service contexts.
+
+### Summary
+
+A systems approach to services that foregrounds relations, value, context and co-production and uses generative patterns as one means of making practices discussable.
+
+### Why it matters
+
+It connects systems inquiry to the design and operation of services without assuming the service is a bounded product.
+
+### Key distinctions
+
+- service system versus product/service object
+- value co-creation versus unilateral delivery
+- pattern language as generative inquiry rather than recipe
+
+### Historical development
+
+- service science
+- systems sciences
+- pattern language
+
+### Ideas it depends on
+
+- Christopher Alexander
+- service-dominant and service-systems thinking
+
+### What develops from it
+
+- service systems pattern work
+
+### Connections to practice
+
+- service design
+- pattern workshops
+- systems education
+
+### Common confusions
+
+- A pattern is not a context-free best practice.
+
+### Open questions and checks
+
+- Strengthen comparison with service design and service-dominant logic.
+
+### Sources
+
+- Pattern Manual for Service Systems Thinking — https://coevolving.com/commons/20161028-pattern-manual-for-service-systems-thinking
+- David Ing — Coevolving Innovations publications — https://coevolving.com/commons/publications
+
 ## Single-loop learning
 
 Type: Concept
@@ -8403,6 +8750,65 @@ The Steady State Principle links the equilibrium of a system to the equilibria o
 - The Grammar of Systems - SCiO presentation — https://www.systemspractice.org/resources/grammar-systems
 - The Grammar of Systems II: From Order to Chaos and Back Again, 2nd edition — https://www.systemspractice.org/resources/grammar-systems-ii-order-chaos-back-again-2nd-ed
 - Cybersecurity Lessons from The Grammar of Systems, part 3 — https://www.linkedin.com/pulse/cybersecurity-lessons-from-grammar-systems-order-chaos-osama-salah-2f
+
+## Steps to an Ecology of Mind
+
+Type: Publication
+Public depth: profile
+
+Gregory Bateson’s collection of essays linking anthropology, psychiatry, cybernetics, learning, communication, evolution and epistemology.
+
+### Summary
+
+Bateson’s essays connect communication, learning, psychiatry, anthropology, evolution and cybernetics through recurring concern with relation, pattern and epistemology.
+
+### Why it matters
+
+Many later systems and complexity practices borrow Batesonian vocabulary while losing the epistemological argument that makes it difficult.
+
+### Key distinctions
+
+- relation versus isolated thing
+- levels of learning
+- ecology of ideas
+- difference and information
+
+### Historical development
+
+- cybernetics
+- anthropology
+- communication theory
+
+### Ideas it depends on
+
+- Wiener-era cybernetics
+- anthropological fieldwork
+
+### What develops from it
+
+- family therapy
+- second-order cybernetics
+- ecological and systemic epistemologies
+
+### Connections to practice
+
+- learning
+- framing
+- communication
+- double bind
+
+### Common confusions
+
+- Bateson is not simply a source of systems aphorisms.
+
+### Open questions and checks
+
+- Develop essay-level entries where they are used as bridge concepts.
+
+### Sources
+
+- Steps to an Ecology of Mind — https://press.uchicago.edu/ucp/books/book/chicago/S/bo3620295.html
+- Updated rough draft systems | complexity | cybernetics reading list — https://stream.syscoi.com/2024/10/01/updated-rough-draft-systems-complexity-cybernetics-reading-list/
 
 ## Steps Toward Artificial Intelligence
 
@@ -8816,6 +9222,119 @@ The phrase can reify 'the system' as a concrete object waiting to be redesigned.
 - What do systems leadership and systems change mean to you? — https://chosen-path.org/2022/07/11/what-do-systems-leadership-and-systems-change-mean-to-you-what-questions-would-you-like-me-to-answer/
 - Systems convening and boundaries core slides — No public link
 
+## Systems Changes
+
+Type: Corpus
+Public depth: profile
+
+Public corpus for Systems Changes Learning: an action-learning programme on systems changes, living systems, temporality, contextual-dyadic thinking and practice.
+
+### Summary
+
+A public research-and-learning corpus that develops a temporally sensitive account of systems changes in living systems.
+
+### Why it matters
+
+It offers a contrasting grammar to stage-based change models and keeps doing, thinking and making together.
+
+### Key distinctions
+
+- changes rather than a singular planned change
+- rhythmic shifts rather than static states
+- contexture rather than decontextualised variables
+- propensity rather than prediction
+
+### Historical development
+
+- Systems Changes Learning Circle
+- Bateson
+- Tim Ingold
+- contextual-dyadic philosophy
+
+### Ideas it depends on
+
+- living systems
+- ecological epistemology
+- action learning
+
+### What develops from it
+
+- workshops and learning circles
+- systems-changes practices
+
+### Connections to practice
+
+- collective inquiry
+- reframing change
+- temporality
+
+### Common confusions
+
+- It is not simply another change-management sequence.
+
+### Open questions and checks
+
+- Add comparative accounts from other living-systems and process traditions.
+
+### Sources
+
+- When Unfreeze-Move-Refreeze Isn’t Working — https://systemschanges.com/online/presentations/20220711-when-unfreeze-move-refreeze-isnt-working
+- Knowing Better via Systems Thinking — https://systemschanges.com/online/presentations/20221010-knowing-better-via-systems-thinking
+
+## Systems Changes Learning
+
+Type: Approach family
+Public depth: profile
+
+A learning approach associated with David Ing and collaborators that treats changes in living systems through rhythmic shifts, texture/contexture, propensity and knowing from within rather than a simple unfreeze-change-refreeze sequence.
+
+### Summary
+
+An action-learning approach for attending to changes in living systems through rhythm, texture/contexture and propensity.
+
+### Why it matters
+
+It resists both static system descriptions and staged change assumptions.
+
+### Key distinctions
+
+- living temporality versus frozen state
+- propensity versus deterministic forecast
+- knowing from within versus detached diagnosis
+
+### Historical development
+
+- Systems Changes Learning Circle
+- Bateson
+- Ingold
+
+### Ideas it depends on
+
+- ecological epistemology
+- action learning
+
+### What develops from it
+
+- learning-circle practices
+
+### Connections to practice
+
+- change inquiry
+- group learning
+- contextual diagnosis
+
+### Common confusions
+
+- The vocabulary is not a relabelling of Lewinian stage change.
+
+### Open questions and checks
+
+- Add case evidence beyond author-maintained sources.
+
+### Sources
+
+- When Unfreeze-Move-Refreeze Isn’t Working — https://systemschanges.com/online/presentations/20220711-when-unfreeze-move-refreeze-isnt-working
+
 ## Systems convening
 
 Type: Practice
@@ -9019,6 +9538,64 @@ The label often creates false agreement. People may support 'systems leadership'
 - What do systems leadership and systems change mean to you? — https://chosen-path.org/2022/07/11/what-do-systems-leadership-and-systems-change-mean-to-you-what-questions-would-you-like-me-to-answer/
 - What is SCiO? — https://www.systemspractice.org/professional-body
 
+## Systems lineage documentation
+
+Type: Practice
+Public depth: profile
+
+The practice of preserving how ideas, people, institutions, teaching events and publications connect over time, while distinguishing documented contact or citation from stronger claims of intellectual influence.
+
+### Summary
+
+A documentary practice for making intellectual and practitioner histories inspectable without turning every contact into a genealogy.
+
+### Why it matters
+
+Systems fields are unusually vulnerable to compressed origin stories. Public trails of events, citations, courses and collaborations permit stronger and weaker lineage claims to be separated.
+
+### Key distinctions
+
+- contact versus influence
+- citation versus adoption
+- shared institution versus shared theory
+- primary archive versus independent history
+
+### Historical development
+
+- history of ideas
+- archival practice
+- systems-community documentation
+
+### Ideas it depends on
+
+- source criticism
+- provenance
+
+### What develops from it
+
+- better lineage maps
+- contestable historical claims
+
+### Connections to practice
+
+- research
+- curation
+- teaching
+
+### Common confusions
+
+- A dense network of documented associations is not itself a school.
+
+### Open questions and checks
+
+- Add more archival and oral-history sources from outside current well-documented networks.
+
+### Sources
+
+- David Ing — Coevolving Innovations publications — https://coevolving.com/commons/publications
+- Knowing Better via Systems Thinking — https://systemschanges.com/online/presentations/20221010-knowing-better-via-systems-thinking
+- David Ing — ISSS presidential address — https://www.isss.org/presidential-addresses/
+
 ## Systems mapping
 
 Type: Tool
@@ -9039,18 +9616,19 @@ The situated use of systems ideas, methods and judgement to inquire and act in a
 
 ### Summary
 
-Systems practice is inquiry and action under conditions where boundary, purpose, method, evidence and the practitioner's own participation matter. It is not the mechanical application of a systems diagram or named methodology.
+Situated inquiry and action using systems concepts, approaches, models and intervention judgement. Professional practice includes choosing and combining approaches, working with stakeholders and power, testing consequences, learning and reflecting on the practitioner’s own participation.
 
 ### Why it matters
 
-The field is often presented as a tool catalogue. Practice requires judgement about framing, participation, power, method combination, consequences and learning in the actual situation.
+Systems practice is wider than systems mapping and wider than any single methodology. The occupational standard and SCiO competence structure join systems concepts, multiple approaches, modelling, intervention, engagement and reflexive professional practice.
 
 ### Key distinctions
 
-- practice vs possession of a tool
-- method following vs methodological judgement
-- mapping vs intervention
-- technical competence vs ethical and reflexive capability
+- practice versus tool use
+- model versus situation
+- method competence versus method loyalty
+- analysis versus intervention
+- first-order description versus reflexive participation
 
 ### Historical development
 
@@ -9099,6 +9677,7 @@ The field is often presented as a tool catalogue. Practice requires judgement ab
 - SCiO Professional Development — https://www.systemspractice.org/professional-development
 - SCiO Professional Accreditation and Competency Framework — https://www.systemspractice.org/professional-accreditation
 - What do systems leadership and systems change mean to you? — https://chosen-path.org/2022/07/11/what-do-systems-leadership-and-systems-change-mean-to-you-what-questions-would-you-like-me-to-answer/
+- Systems Thinking Practitioner apprenticeship standard ST0787 v1.2 — https://skillsengland.education.gov.uk/apprenticeships/st0787-v1-2
 
 ## Systems theory
 
@@ -9167,6 +9746,58 @@ Practice becomes muddled when a broad theoretical vocabulary is treated as one a
 - SysBoK, from SCiO — https://www.systemspractice.org/sysbok-from-scio
 - What is SCiO? — https://www.systemspractice.org/professional-body
 - What do systems leadership and systems change mean to you? — https://chosen-path.org/2022/07/11/what-do-systems-leadership-and-systems-change-mean-to-you-what-questions-would-you-like-me-to-answer/
+
+## Systems Thinkers
+
+Type: Publication
+Public depth: profile
+
+Magnus Ramage and Karen Shipp’s people-centred account of systems traditions, developed from Open University teaching and useful as a map of thinkers, contexts and lineages rather than a single unified school.
+
+### Summary
+
+A people-centred introduction to systems traditions and their historical development.
+
+### Why it matters
+
+It helps readers meet systems thinking as plural lineages rather than a single doctrine and provides a bridge between biographies, ideas and traditions.
+
+### Key distinctions
+
+- traditions versus one systems school
+- historical person-centred account versus method manual
+
+### Historical development
+
+- Open University systems teaching
+
+### Ideas it depends on
+
+- systems history
+- systems education
+
+### What develops from it
+
+- systems curricula
+- lineage orientation
+
+### Connections to practice
+
+- teaching
+- reading-list orientation
+
+### Common confusions
+
+- Its inclusion of a thinker does not imply agreement among thinkers.
+
+### Open questions and checks
+
+- Connect individual chapters to primary works as coverage deepens.
+
+### Sources
+
+- Systems Thinkers — Springer record — https://link.springer.com/book/10.1007/978-1-84882-525-3
+- Updated rough draft systems | complexity | cybernetics reading list — https://stream.syscoi.com/2024/10/01/updated-rough-draft-systems-complexity-cybernetics-reading-list/
 
 ## Systems Thinking, Systems Practice
 
@@ -10146,6 +10777,61 @@ Uncertainty is the limited ability to know which state, explanation or outcome a
 
 - The Grammar of Systems - SCiO presentation — https://www.systemspractice.org/resources/grammar-systems
 - The Grammar of Systems II: From Order to Chaos and Back Again, 2nd edition — https://www.systemspractice.org/resources/grammar-systems-ii-order-chaos-back-again-2nd-ed
+
+## Understanding Understanding
+
+Type: Publication
+Public depth: profile
+
+Heinz von Foerster’s collected essays on cybernetics and cognition, centring the observer, knowing, self-reference and the ethical implications of constructing descriptions.
+
+### Summary
+
+Von Foerster’s essays develop a cybernetics in which observation, knowing and description cannot be treated as external to the system being discussed.
+
+### Why it matters
+
+It provides a direct route into second-order cybernetics and the ethical consequences of taking the observer seriously.
+
+### Key distinctions
+
+- observed systems versus observing systems
+- description versus world-in-itself
+- responsibility of the observer
+
+### Historical development
+
+- Biological Computer Laboratory
+- second-order cybernetics
+
+### Ideas it depends on
+
+- cybernetics
+- constructivist epistemology
+
+### What develops from it
+
+- second-order systems practice
+- constructivist approaches
+
+### Connections to practice
+
+- reflexivity
+- ethics
+- observer-aware inquiry
+
+### Common confusions
+
+- Constructed descriptions do not imply that any description is equally useful or consequence-free.
+
+### Open questions and checks
+
+- Add essay-level links to ethics, self-reference and computation.
+
+### Sources
+
+- Understanding Understanding — Springer record — https://link.springer.com/book/10.1007/b97451
+- Updated rough draft systems | complexity | cybernetics reading list — https://stream.syscoi.com/2024/10/01/updated-rough-draft-systems-complexity-cybernetics-reading-list/
 
 ## Universal Behavior in Nonlinear Systems
 

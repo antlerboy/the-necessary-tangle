@@ -1,21 +1,14 @@
 # AI observations
 
-Generated for release `0.14-snowden-cynefin-alpha` on 2026-08-11.
+Generated for release `0.15-ing-reading-practice-alpha` on 2026-08-14.
 
-Measurements are recalculated from the public graph on every complete build. Interpretations, implications and tests are kept separate and remain open to challenge.
-
-## Measured state
-
-- 483 public entries; 99 developed profiles.
-- 674 typed public edges; 263 substantive edges.
-- 201 substantively connected entries and 282 substantive isolates.
-- 140 sources, of which 127 have public links.
+Measurements are derived from the current public graph and reading-list inventory; interpretations, implications and proposed tests are explicitly separated.
 
 ## Breadth still outruns depth
 
-**Basis:** measurement plus interpretation.
+**Kind:** measurement plus interpretation
 
-**Measured:** The atlas has 483 public entries and 99 developed profiles. 20.5% of entries have the fuller profile structure.
+**Measurement:** The atlas has 495 public entries and 111 developed profiles. 22.4% of entries have the fuller profile structure.
 
 **Interpretation:** The atlas remains stronger as a territory marker than as a uniformly deep critical reference. A named entry and a developed account are different editorial products.
 
@@ -25,9 +18,9 @@ Measurements are recalculated from the public graph on every complete build. Int
 
 ## Provenance and argument form different graphs
 
-**Basis:** measurement plus design inference.
+**Kind:** measurement plus design inference
 
-**Measured:** There are 674 typed public edges; 263 are conceptual, historical, human, practice or contestation relations. The substantive share is 39.0%.
+**Measurement:** There are 693 typed public edges; 273 are conceptual, historical, human, practice or contestation relations. The substantive share is 39.4%.
 
 **Interpretation:** Authorship, hosting and collection membership answer different questions from dependence, influence, critique and use. A dense provenance layer is not evidence of conceptual agreement.
 
@@ -37,9 +30,9 @@ Measurements are recalculated from the public graph on every complete build. Int
 
 ## Canonical sources have particular jobs
 
-**Basis:** source-role analysis.
+**Kind:** source-role analysis
 
-**Measured:** This release registers 15 sources for the Snowden-Cynefin constellation: 13 first-party project, author or publication records and 2 external publisher or public-institution records.
+**Measurement:** This release registers 15 sources for the Snowden-Cynefin constellation: 13 first-party project, author or publication records and 2 external publisher or public-institution records.
 
 **Interpretation:** A blog can establish what its author argued and when. A project wiki can establish current vocabulary. A publisher or institutional record can establish bibliographic facts. None of these roles automatically supplies independent evaluation of influence or effectiveness.
 
@@ -49,9 +42,9 @@ Measurements are recalculated from the public graph on every complete build. Int
 
 ## Expertise becomes useful through inspectable constellations
 
-**Basis:** release measurement plus editorial interpretation.
+**Kind:** release measurement plus editorial interpretation
 
-**Measured:** The Snowden-Cynefin pass adds 19 developed entries and 39 typed relations among people, works, frameworks, tools, traditions, organisations and source corpora.
+**Measurement:** The Snowden-Cynefin pass adds 19 developed entries and 39 typed relations among people, works, frameworks, tools, traditions, organisations and source corpora.
 
 **Interpretation:** A person page or a branded diagram says little by itself. Expertise becomes navigable when works, collaborators, distinctions, methods, institutions and practice relations remain separately inspectable.
 
@@ -61,9 +54,9 @@ Measurements are recalculated from the public graph on every complete build. Int
 
 ## First-party depth needs independent counterweight
 
-**Basis:** source-composition measurement plus epistemic caution.
+**Kind:** source-composition measurement plus epistemic caution
 
-**Measured:** 13 of the 15 newly registered sources are maintained by the author, project or organisation represented; 2 are external publisher or public-institution records.
+**Measurement:** 13 of the 15 newly registered sources are maintained by the author, project or organisation represented; 2 are external publisher or public-institution records.
 
 **Interpretation:** First-party sources are indispensable for current definitions, chronology and intent. They are structurally weak for adjudicating priority, influence, effectiveness and criticism of the same work.
 
@@ -73,9 +66,9 @@ Measurements are recalculated from the public graph on every complete build. Int
 
 ## Cataloguing is not critical coverage
 
-**Basis:** inventory measurement plus epistemic caution.
+**Kind:** inventory measurement plus epistemic caution
 
-**Measured:** The graph contains 116 publications and 22 methods or methodologies, while 99 entries of all types have developed profiles.
+**Measurement:** The graph contains 121 publications and 22 methods or methodologies, while 111 entries of all types have developed profiles.
 
 **Interpretation:** Bibliographic presence establishes that a work belongs in scope. It does not establish the work's argument, influence, quality, limitations or relation to practice.
 
@@ -85,9 +78,9 @@ Measurements are recalculated from the public graph on every complete build. Int
 
 ## Practice remains thinner than the method inventory
 
-**Basis:** measurement plus curatorial inference.
+**Kind:** measurement plus curatorial inference
 
-**Measured:** The isolate pattern remains concentrated among intervention skills, laws, tools, methods and publications rather than the small conceptual core.
+**Measurement:** The isolate pattern remains concentrated among intervention skills, laws, tools, methods and publications rather than the small conceptual core.
 
 **Interpretation:** Lists of methods and capabilities have accumulated faster than evidence about how they are taught, combined, resisted and changed in use.
 
@@ -97,9 +90,9 @@ Measurements are recalculated from the public graph on every complete build. Int
 
 ## Auditability is not source diversity
 
-**Basis:** measurement plus evidential risk.
+**Kind:** measurement plus evidential risk
 
-**Measured:** The most reused source is ‘Foundational Papers in Complexity Science — official tables of contents’, attached to 618 public nodes or edges.
+**Measurement:** The most reused source is ‘Foundational Papers in Complexity Science — official tables of contents’, attached to 618 public nodes or edges.
 
 **Interpretation:** One source can establish repeated bibliographic facts without independently corroborating meanings, influence or quality. Reuse can look like consensus when it is only shared provenance.
 
@@ -109,9 +102,9 @@ Measurements are recalculated from the public graph on every complete build. Int
 
 ## The people layer still carries identity-resolution debt
 
-**Basis:** measurement plus data-quality risk.
+**Kind:** measurement plus data-quality risk
 
-**Measured:** 108 of 168 people — 64.3% — are represented by initial-form labels.
+**Measurement:** 108 of 169 people — 63.9% — are represented by initial-form labels.
 
 **Interpretation:** Initials can record an authorship string but cannot guarantee a unique person. They invite duplicate records, mistaken mergers and false lineage claims.
 
@@ -121,9 +114,9 @@ Measurements are recalculated from the public graph on every complete build. Int
 
 ## Published neighbourhoods are hypotheses, not natural schools
 
-**Basis:** measurement plus model warning.
+**Kind:** measurement plus model warning
 
-**Measured:** Published neighbourhoods contain 77 unique nodes, while 201 nodes are now connected; 124 connected nodes sit outside the older grouping pass.
+**Measurement:** Published neighbourhoods contain 77 unique nodes, while 211 nodes are now connected; 134 connected nodes sit outside the older grouping pass.
 
 **Interpretation:** A cluster is produced by current edges, exclusions, resolution and seed. It should not be mistaken for a discovered natural taxonomy.
 
@@ -133,9 +126,9 @@ Measurements are recalculated from the public graph on every complete build. Int
 
 ## Bridge concepts deserve disproportionate scrutiny
 
-**Basis:** network measurement plus editorial inference.
+**Kind:** network measurement plus editorial inference
 
-**Measured:** Feedback, recursion, boundary, viability, requisite variety, the Viable System Model and now context-sensitive sense-making continue to join otherwise separate parts of the atlas.
+**Measurement:** Feedback, recursion, boundary, viability, requisite variety, the Viable System Model and now context-sensitive sense-making continue to join otherwise separate parts of the atlas.
 
 **Interpretation:** A bridge entry shapes many possible reading routes. Loose wording there propagates farther than a weakness in a peripheral record.
 
@@ -145,9 +138,9 @@ Measurements are recalculated from the public graph on every complete build. Int
 
 ## The gaps map curatorial attention as much as the field
 
-**Basis:** second-order observation.
+**Kind:** second-order observation
 
-**Measured:** 282 entries are isolated in the substantive graph, while the largest substantive component contains 144 entries.
+**Measurement:** 284 entries are isolated in the substantive graph, while the largest substantive component contains 145 entries.
 
 **Interpretation:** Isolation often records missing source work, relation vocabulary or research attention; it does not show that an idea is naturally peripheral.
 
@@ -157,9 +150,9 @@ Measurements are recalculated from the public graph on every complete build. Int
 
 ## Structured data reduces ambiguity but does not remove overreading
 
-**Basis:** data-model observation.
+**Kind:** data-model observation
 
-**Measured:** The atlas records typed relations, status, source IDs and scope conditions, while source granularity and profile depth still vary sharply.
+**Measurement:** The atlas records typed relations, status, source IDs and scope conditions, while source granularity and profile depth still vary sharply.
 
 **Interpretation:** Explicit semantics reduce the tendency to collapse every connection into ‘related to’. They cannot stop a reader or automated system from turning inventory into influence or provisional wording into settled fact.
 
@@ -167,8 +160,50 @@ Measurements are recalculated from the public graph on every complete build. Int
 
 **Test:** Outputs should become more qualified, not more fluent, when evidence is thin or contradictory.
 
-## Publication controls
+## Reading-list inventory and interpretive depth are different measures
 
-The public record exposes the controls which govern publication: public-only payloads, source-level provenance, explicit status, human review, licence boundaries, automated scans, release validation and versioned backups.
+**Kind:** coverage measurement plus epistemic caution
 
-See [publication safety and controls](publication-safety.md).
+**Measurement:** The captured reading list contains 110 items: 29 map to developed profiles, 1 are represented more thinly, and 80 remain inventory-only.
+
+**Interpretation:** A complete inventory is useful because it makes omissions measurable. It is not the same thing as having read, compared and critically developed every work.
+
+**Implication:** Continue converting inventory-only items into sourced profiles by section and competence relevance, while keeping the maturity state visible.
+
+**Test:** No public coverage claim should collapse inventory, description, developed profile and critical comparison into one percentage.
+
+## Lineage documentation is part of field infrastructure
+
+**Kind:** source-structure interpretation
+
+**Measurement:** The David Ing pass adds 9 developed entries spanning person, corpora, approaches, publication and documentary practice.
+
+**Interpretation:** A field is reproduced not only through canonical texts but through courses, conferences, collaborations, archives and remembered routes between them. Ing’s public record makes much of that infrastructure inspectable.
+
+**Implication:** Treat documentary lineages as evidence objects with claim strength, not as decorative biographies.
+
+**Test:** A lineage edge should say whether it records contact, citation, teaching, collaboration or stronger conceptual influence.
+
+## Core systems practice is not four branded tools
+
+**Kind:** competence-structure interpretation
+
+**Measurement:** The professional spine connects systems concepts and laws, four widely named approaches (CSH, SSM, System Dynamics and VSM), multi-methodology, modelling, intervention, engagement and reflexive practice.
+
+**Interpretation:** Method familiarity is necessary but insufficient. Practice lies partly in deciding what to model, whose boundaries matter, how approaches can be combined, and how action changes the situation and the practitioner.
+
+**Implication:** Coverage of methods should be paired with cases, intervention skills and reflections on scope, power, ethics and learning.
+
+**Test:** A reader following a method entry should be able to reach both its conceptual basis and its intervention consequences.
+
+## Interface and source attention can manufacture apparent centrality
+
+**Kind:** second-order observation
+
+**Measurement:** The atlas now has 495 public entries and 111 developed profiles, so navigation and research depth still select a small fraction for prominent treatment.
+
+**Interpretation:** Prominence can arise because a source corpus is unusually accessible or recently researched. That is not the same as importance in the field.
+
+**Implication:** Keep homepage routes plural, rotate research programmes and inspect source concentration before treating graph centrality as intellectual centrality.
+
+**Test:** Changing the research corpus and interface defaults should not radically rewrite the apparent canon without an explicit change record.

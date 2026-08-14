@@ -9,7 +9,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data" / "public-data.json"
-ALLOWED_RELEASES = {"0.7-constellation-alpha", "0.8-expansion-alpha", "0.9-observations-alpha", "0.10-practice-safety-alpha", "0.11-visual-map-alpha", "0.12-practitioner-intake-alpha", "0.13-expertise-observations-alpha", "0.14-snowden-cynefin-alpha"}
+ALLOWED_RELEASES = {"0.7-constellation-alpha", "0.8-expansion-alpha", "0.9-observations-alpha", "0.10-practice-safety-alpha", "0.11-visual-map-alpha", "0.12-practitioner-intake-alpha", "0.13-expertise-observations-alpha", "0.14-snowden-cynefin-alpha", "0.15-ing-reading-practice-alpha"}
 PRINCIPIA_IDS = {
     "person_cliff_joslyn", "tradition_evolutionary_cybernetics", "person_francis_heylighen",
     "concept_global_brain", "concept_metasystem_transition", "organisation_principia_cybernetica_project",
@@ -173,7 +173,7 @@ def main() -> int:
         errors.append("an obsolete hidden working route remains in the public page")
 
     app = (ROOT / "docs" / "assets" / "app.js").read_text(encoding="utf-8")
-    map_marker = "semanticZoomBand" if meta.get("release") in {"0.11-visual-map-alpha", "0.12-practitioner-intake-alpha", "0.13-expertise-observations-alpha", "0.14-snowden-cynefin-alpha"} else "zoomMapAt"
+    map_marker = "semanticZoomBand" if meta.get("release") in {"0.11-visual-map-alpha", "0.12-practitioner-intake-alpha", "0.13-expertise-observations-alpha", "0.14-snowden-cynefin-alpha", "0.15-ing-reading-practice-alpha"} else "zoomMapAt"
     for marker in [map_marker, "emergentCategories", "membershipForm", "human sponsor"]:
         if marker not in app:
             errors.append(f"app.js missing constellation marker: {marker}")

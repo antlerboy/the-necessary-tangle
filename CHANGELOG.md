@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.15-ing-reading-practice-alpha — 14 August 2026
+
+- Added a developed David Ing constellation covering service systems thinking, Systems Changes Learning, pattern language, public corpora and lineage documentation.
+- Turned the public systems | complexity | cybernetics reading list into an item-level coverage map with explicit maturity states.
+- Added developed reading-list routes through *Systems Thinkers*, *Steps to an Ecology of Mind*, *Understanding Understanding* and *Flawless Consulting*.
+- Added a core systems-practice spine connecting systems laws and concepts, CSH, SSM, System Dynamics, VSM, multi-methodology, intervention and reflexive learning.
+- Regenerated graph observations from the current graph and reading-list coverage.
+- Kept the reader-controlled light/dark switch and the discreet public updates route.
+
 ## 0.14-snowden-cynefin-alpha — 11 August 2026
 
 - Added a developed Dave Snowden and Cynefin constellation spanning people, primary works, the Cynefin framework, SenseMaker, naturalising sense-making, anthro-complexity, Estuarine Mapping and distributed ethnography.
