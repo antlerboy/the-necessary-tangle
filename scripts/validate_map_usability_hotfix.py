@@ -14,7 +14,7 @@ assert '<option value="all" selected>Full public overview</option>' in index
 assert '<option value="substantive" selected>Reader map' in index
 assert 'id="mapFocusStatus"' in index and 'class="map-shape-key"' in index
 assert '<span id="mapScaleMode" class="map-scale-mode" aria-live="polite">Full overview</span>' in index
-assert 'assets/app.js?v=0.16.2-visual' in index
+assert 'assets/app.js?v=0.16.3-visual' in index
 
 for marker in [
     'function graphNodeMark',
@@ -40,7 +40,7 @@ for marker in [
     ".graph-label {",
     ".graph-node-group.context-node",
     ".graph-edge.focus-edge",
-    'grid-template-areas: "controls canvas inspector"',
+    '.map-layout { grid-template-areas: "controls canvas inspector"; align-items: start; }',
     'grid-template-areas: "controls canvas" "inspector inspector"',
     'grid-template-areas: "controls" "canvas" "inspector"',
 ]:

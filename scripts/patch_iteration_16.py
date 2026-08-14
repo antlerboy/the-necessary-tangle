@@ -23,9 +23,9 @@ def patch_index() -> None:
     text = INDEX.read_text(encoding="utf-8")
     text = re.sub(r'<meta property="og:url" content="[^"]+">', f'<meta property="og:url" content="{PUBLIC_URL}">', text, count=1)
     text = re.sub(r'<link rel="canonical" href="[^"]+">', f'<link rel="canonical" href="{PUBLIC_URL}">', text, count=1)
-    text = re.sub(r'assets/styles\.css(?:\?v=[^"\']+)?', "assets/styles.css?v=0.16.2-visual", text, count=1)
-    text = re.sub(r'assets/site-enhancements\.css(?:\?v=[^"\']+)?', "assets/site-enhancements.css?v=0.16.2-visual", text, count=1)
-    text = re.sub(r'assets/app\.js(?:\?v=[^"\']+)?', "assets/app.js?v=0.16.2-visual", text, count=1)
+    text = re.sub(r'assets/styles\.css(?:\?v=[^"\']+)?', "assets/styles.css?v=0.16.3-visual", text, count=1)
+    text = re.sub(r'assets/site-enhancements\.css(?:\?v=[^"\']+)?', "assets/site-enhancements.css?v=0.16.3-visual", text, count=1)
+    text = re.sub(r'assets/app\.js(?:\?v=[^"\']+)?', "assets/app.js?v=0.16.3-visual", text, count=1)
 
     if 'id="browseConnectionDepth"' not in text:
         marker = '<label>Depth<select id="browseLevel"><option value="developed">All readable entries</option><option value="profile">Developed entries only</option></select></label>'
@@ -147,9 +147,30 @@ def patch_release_prose() -> None:
         text = path.read_text(encoding="utf-8").replace("0.15-ing-reading-practice-alpha", RELEASE)
         path.write_text(clean(text), encoding="utf-8")
 
+    ai_doc = ROOT / "documentation" / "ai-observations.md"
+    text = ai_doc.read_text(encoding="utf-8")
+    text = re.sub(
+        r"Generated for release `[^`]+` on \d{4}-\d{2}-\d{2}\.",
+        f"Generated for release `{RELEASE}` on {meta['generated']}.",
+        text,
+        count=1,
+    )
+    ai_doc.write_text(clean(text), encoding="utf-8")
+
+    acknowledgements = ROOT / "ACKNOWLEDGEMENTS.md"
+    text = acknowledgements.read_text(encoding="utf-8")
+    snowden_paragraph = "Dave Snowden's work contributes Cynefin, SenseMaker, naturalising sense-making, anthro-complexity, constraint-based strategy and a substantial dated public essay archive. Cynthia F. Kurtz, Mary E. Boone and Alessandro Rancati are represented through their documented collaborations and publications. Cynefin.io contributors maintain a current semantic and method corpus whose value and limits are recorded source by source."
+    responsibility = "The authors, editors, teachers and practitioners cited throughout remain responsible for their own work; the atlas's summaries and connections remain open to correction and argument."
+    if snowden_paragraph not in text:
+        joined = "relations. " + responsibility
+        if joined not in text:
+            raise RuntimeError("Could not restore the 0.14 acknowledgements paragraph")
+        text = text.replace(joined, "relations.\n\n" + snowden_paragraph + " " + responsibility, 1)
+    acknowledgements.write_text(clean(text), encoding="utf-8")
+
     reading_page = ROOT / "docs" / "reading-list.html"
     text = reading_page.read_text(encoding="utf-8")
-    text = re.sub(r'assets/styles\.css(?:\?v=[^"\']+)?', "assets/styles.css?v=0.16.2-visual", text, count=1)
+    text = re.sub(r'assets/styles\.css(?:\?v=[^"\']+)?', "assets/styles.css?v=0.16.3-visual", text, count=1)
     reading_page.write_text(clean(text), encoding="utf-8")
 
     changelog = ROOT / "CHANGELOG.md"

@@ -170,9 +170,9 @@ def main() -> int:
         "documentation/relational-depth.md",
         'id="browseConnectionDepth"',
         'id="relationalDepthMetrics"',
-        "assets/styles.css?v=0.16.2-visual",
-        "assets/site-enhancements.css?v=0.16.2-visual",
-        "assets/app.js?v=0.16.2-visual",
+        "assets/styles.css?v=0.16.3-visual",
+        "assets/site-enhancements.css?v=0.16.3-visual",
+        "assets/app.js?v=0.16.3-visual",
     ):
         if marker not in index:
             errors.append(f"0.16 interface marker is missing: {marker}")
