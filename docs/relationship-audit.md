@@ -158,3 +158,11 @@ The Murmurations correction removes one semantic connection because the source s
 ### Remaining structural risk
 
 The overall thin cohort is unchanged: 225 entries, including 112 people and 108 publications. Route diversity is also unchanged at 72 entries with three or more reader relation families and 189 with only one. The corpus passes must add new routes only where passages, not titles or similarity, warrant them.
+
+## Pass 3 external-corpus result
+
+The nine-corpus traversal added eight edges and strengthened six. Source count rises from 155 to 166; precision-shaped locators from 232 to 244; rich entries from 35 to 36; thin entries fall from 225 to 224; and entries with three or more relation families rise from 72 to 74.
+
+Three traversals produced no semantic edge. The Ashby archive provides extraordinary primary provenance but index co-occurrence is not influence. The ISSS meeting history establishes organisational chronology but participant co-presence is not conceptual transmission. The reading list establishes intended coverage but titles are not relationship evidence.
+
+The strongest additions are mechanism- or work-specific: Principia's positive/negative feedback account of self-organisation, Ing's pattern-form treatment of voices, Systems Changes Learning's contextural action-learning formulation, and the System Dynamics Society's explicit stocks-flows-feedback method structure. The SFI and IFSR additions remain interpreted and visibly provisional.

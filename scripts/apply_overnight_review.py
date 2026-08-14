@@ -63,6 +63,226 @@ SOURCE_RECORDS: list[dict[str, Any]] = json.loads(r'''[
     "review_status": "checked_author_source",
     "last_checked": "2026-08-14",
     "public_link_status": "public_link"
+  },
+  {
+    "id": "src_principia_self_organisation_guide",
+    "title": "Self-Organization: The Emerging Science of Spontaneous Order",
+    "source_type": "primary_project_theory_page",
+    "quality_tier": "B",
+    "access": "public",
+    "url": "https://pespmc1.vub.ac.be/SELFORG.html",
+    "date": "",
+    "notes": "Project-authored guide to self-organisation. Used for its explicit account of variation amplified by positive feedback and stabilised by negative feedback, not as a field-wide consensus definition.",
+    "creators": "[\"Principia Cybernetica Project editors\"]",
+    "doi": "",
+    "isbn": "",
+    "publisher": "Principia Cybernetica Project",
+    "licence": "source_terms",
+    "archived_url": "",
+    "content_hash": "",
+    "review_status": "checked_internal_page",
+    "last_checked": "2026-08-14",
+    "public_link_status": "public_link"
+  },
+  {
+    "id": "src_principia_project_history",
+    "title": "History of the Principia Cybernetica Project",
+    "source_type": "primary_project_history",
+    "quality_tier": "B",
+    "access": "public",
+    "url": "https://pespmc1.vub.ac.be/HISTORY.html",
+    "date": "",
+    "notes": "Project-authored chronology covering the Turchin, Joslyn and Heylighen collaboration, CYBSYS-L discussions, conferences, semantic-network experiments and spin-offs. It is first-party institutional memory, not independent intellectual history.",
+    "creators": "[\"Principia Cybernetica Project editors\"]",
+    "doi": "",
+    "isbn": "",
+    "publisher": "Principia Cybernetica Project",
+    "licence": "source_terms",
+    "archived_url": "",
+    "content_hash": "",
+    "review_status": "checked_internal_page",
+    "last_checked": "2026-08-14",
+    "public_link_status": "public_link"
+  },
+  {
+    "id": "src_principia_nutshell",
+    "title": "Principia Cybernetica in a Nutshell",
+    "source_type": "primary_project_overview",
+    "quality_tier": "B",
+    "access": "public",
+    "url": "https://pespmc1.vub.ac.be/NUTSHELL.html",
+    "date": "",
+    "notes": "Project overview covering typed nodes and links, constructivist epistemology, metasystem transitions and the intended semantic-network architecture.",
+    "creators": "[\"Principia Cybernetica Project editors\"]",
+    "doi": "",
+    "isbn": "",
+    "publisher": "Principia Cybernetica Project",
+    "licence": "source_terms",
+    "archived_url": "",
+    "content_hash": "",
+    "review_status": "checked_internal_page",
+    "last_checked": "2026-08-14",
+    "public_link_status": "public_link"
+  },
+  {
+    "id": "src_ing_ackoff_influence_1999",
+    "title": "Studying the Sense & Respond Model and the Influence of Russell Ackoff's System of Thinking",
+    "source_type": "primary_author_publication_record",
+    "quality_tier": "A",
+    "access": "public",
+    "url": "https://coevolving.com/commons/1999_villanova_ackoff_80th_ing_sense_respond_influence",
+    "date": "1999-05-05",
+    "notes": "Author record, abstract and full paper locator. It explicitly describes which Ackoff works shaped Ing's appreciation of enterprise design; recorded as a traversal result because the current graph has no Ackoff entity to connect without expanding scope.",
+    "creators": "[\"David Ing\"]",
+    "doi": "",
+    "isbn": "",
+    "publisher": "Coevolving Innovations",
+    "licence": "CC BY-NC-SA 4.0",
+    "archived_url": "",
+    "content_hash": "",
+    "review_status": "checked_primary_author_record",
+    "last_checked": "2026-08-14",
+    "public_link_status": "public_link"
+  },
+  {
+    "id": "src_ing_systems_changes_learning_2023",
+    "title": "Systems Changes Learning: Recasting and reifying rhythmic shifts",
+    "source_type": "primary_author_publication_record",
+    "quality_tier": "A",
+    "access": "public",
+    "url": "https://coevolving.com/commons/2023-02-recasting-and-reifying-rhythmic-shifts",
+    "date": "2023-02-28",
+    "notes": "Author record, abstract and published article for contextural action learning, rhythmic shifts and the doing-thinking-making triad.",
+    "creators": "[\"David Ing\"]",
+    "doi": "10.54808/JSCI.20.07.11",
+    "isbn": "",
+    "publisher": "Journal of Systemics, Cybernetics and Informatics / Coevolving Innovations",
+    "licence": "CC BY-NC-SA 4.0",
+    "archived_url": "",
+    "content_hash": "",
+    "review_status": "checked_primary_author_record",
+    "last_checked": "2026-08-14",
+    "public_link_status": "public_link"
+  },
+  {
+    "id": "src_ashby_digital_journal",
+    "title": "Journal of W. Ross Ashby",
+    "source_type": "primary_digital_archive",
+    "quality_tier": "A",
+    "access": "public",
+    "url": "https://ashby.info/journal/index.html",
+    "date": "1928-1972",
+    "notes": "Digitised primary archive of 7,189 journal pages in 25 volumes, with 1,600 index cards, timeline, keyword index, references and more than 2,300 summaries. Archive structure was traversed; no new theory edge was inferred from index co-occurrence.",
+    "creators": "[\"W. Ross Ashby\", \"Jill Ashby\"]",
+    "doi": "",
+    "isbn": "",
+    "publisher": "W. Ross Ashby Digital Archive / British Library holdings",
+    "licence": "archive_terms",
+    "archived_url": "",
+    "content_hash": "",
+    "review_status": "checked_archive_structure",
+    "last_checked": "2026-08-14",
+    "public_link_status": "public_link"
+  },
+  {
+    "id": "src_asc_cybernetics_history",
+    "title": "Foundations: A Brief History of Cybernetics",
+    "source_type": "professional_society_history",
+    "quality_tier": "B",
+    "access": "public",
+    "url": "https://asc-cybernetics.org/foundations/history.htm",
+    "date": "",
+    "notes": "ASC institutional history with explicit caveats about multiple, contested histories. Used to locate feedback and circularity within a historical account, not to settle priority or a neutral canon.",
+    "creators": "[\"American Society for Cybernetics\"]",
+    "doi": "",
+    "isbn": "",
+    "publisher": "American Society for Cybernetics",
+    "licence": "source_terms",
+    "archived_url": "",
+    "content_hash": "",
+    "review_status": "checked_internal_history",
+    "last_checked": "2026-08-14",
+    "public_link_status": "public_link"
+  },
+  {
+    "id": "src_isss_meeting_history",
+    "title": "ISSS Meeting History",
+    "source_type": "professional_society_history",
+    "quality_tier": "B",
+    "access": "public",
+    "url": "https://www.isss.org/meeting-history/",
+    "date": "1954-present",
+    "notes": "Institutional chronology of formation, name changes and annual meetings. Useful for documented organisational history; it does not by itself establish conceptual influence among participants.",
+    "creators": "[\"International Society for the Systems Sciences\"]",
+    "doi": "",
+    "isbn": "",
+    "publisher": "International Society for the Systems Sciences",
+    "licence": "source_terms",
+    "archived_url": "",
+    "content_hash": "",
+    "review_status": "checked_internal_history",
+    "last_checked": "2026-08-14",
+    "public_link_status": "public_link"
+  },
+  {
+    "id": "src_ifsr_conversations_legacy",
+    "title": "IFSR Conversations Legacy",
+    "source_type": "federation_programme_archive",
+    "quality_tier": "B",
+    "access": "public",
+    "url": "https://ifsr.org/systems-research/ifsr-conversations-legacy/",
+    "date": "",
+    "notes": "Official programme history describing small, non-hierarchical, cross-tradition dialogues as second-order reflective practice. Used for programme design, not as evidence that every conversation achieved integration or consensus.",
+    "creators": "[\"International Federation for Systems Research\"]",
+    "doi": "",
+    "isbn": "",
+    "publisher": "International Federation for Systems Research",
+    "licence": "source_terms",
+    "archived_url": "",
+    "content_hash": "",
+    "review_status": "checked_programme_history",
+    "last_checked": "2026-08-14",
+    "public_link_status": "public_link"
+  },
+  {
+    "id": "src_system_dynamics_society_definition",
+    "title": "Study of System Dynamics",
+    "source_type": "professional_society_method_guide",
+    "quality_tier": "B",
+    "access": "public",
+    "url": "https://systemdynamics.org/what-is-system-dynamics-old/",
+    "date": "",
+    "notes": "Society guide defining models through stocks, flows and endogenous causal feedback structure, with a literature trail to Richardson, Sterman and group model building. Used for method structure, not proof of efficacy.",
+    "creators": "[\"System Dynamics Society\"]",
+    "doi": "",
+    "isbn": "",
+    "publisher": "System Dynamics Society",
+    "licence": "source_terms",
+    "archived_url": "",
+    "content_hash": "",
+    "review_status": "checked_method_guide",
+    "last_checked": "2026-08-14",
+    "public_link_status": "public_link"
+  },
+  {
+    "id": "src_sfi_complexity_about",
+    "title": "What is Complex Systems Science?",
+    "source_type": "research_institute_self_description",
+    "quality_tier": "B",
+    "access": "public",
+    "url": "https://www.santafe.edu/about",
+    "date": "",
+    "notes": "SFI institutional account of interacting and adapting agents, evolutionary processes and emergent macro behaviour across domains. Canonical for SFI's scope, not the whole field's consensus.",
+    "creators": "[\"Santa Fe Institute\"]",
+    "doi": "",
+    "isbn": "",
+    "publisher": "Santa Fe Institute",
+    "licence": "source_terms",
+    "archived_url": "",
+    "content_hash": "",
+    "review_status": "checked_institutional_scope",
+    "last_checked": "2026-08-14",
+    "public_link_status": "public_link"
   }
 ]''')
 EDGE_PATCHES: dict[str, dict[str, Any]] = json.loads(r'''{
@@ -180,6 +400,430 @@ EDGE_PATCHES: dict[str, dict[str, Any]] = json.loads(r'''{
 }''')
 
 
+EDGE_PATCHES.update(json.loads(r'''{
+  "e_07_principia_01": {
+    "relation_type": "specialises",
+    "relation_family": "conceptual",
+    "directed": "true",
+    "confidence": "0.92",
+    "source_ids": "[\"src_principia_mstt\",\"src_principia_nutshell\"]",
+    "source_locator": "Metasystem Transition Theory, opening definition and examples; Principia in a Nutshell, Metasystem Transition Theory section",
+    "scope_conditions": "The project describes a metasystem transition as the emergence of a higher level of control. This is Principia's technical specialisation of emergence, not a synonym for every emergent phenomenon.",
+    "inference_method": "close reading of two project-authored internal theory pages",
+    "notes": "A metasystem transition is presented as the formation of a higher-level system that controls lower-level systems; the edge now states that specific cross-scale claim.",
+    "plain_phrase": "specialises emergence as a new higher level of control within",
+    "public_review_label": "source-established project definition"
+  },
+  "e_0274": {
+    "relation_type": "definitional_prerequisite",
+    "relation_family": "conceptual",
+    "directed": "true",
+    "dependency_kind": "definitional",
+    "confidence": "0.94",
+    "claim_status": "accepted",
+    "source_ids": "[\"src_system_dynamics_society_definition\"]",
+    "source_locator": "Study of System Dynamics, opening method description and paragraph beginning 'The model is usually a computer simulation model'",
+    "scope_conditions": "Feedback is a defining structural commitment of system dynamics models, alongside stocks and flows; this does not imply that feedback alone constitutes system dynamics.",
+    "assertion_mode": "asserted",
+    "inference_method": "close reading of the professional society method guide",
+    "notes": "The Society describes system dynamics models through accumulations, flows and the endogenous causal feedback structure determining those flows.",
+    "plain_phrase": "is a definitional prerequisite for",
+    "public_review_label": "source-established method structure"
+  },
+  "e_0342": {
+    "confidence": "0.88",
+    "claim_status": "provisional",
+    "source_ids": "[\"src_wiener_cybernetics_1948\",\"src_asc_cybernetics_history\"]",
+    "source_locator": "ASC Foundations history, sections 'Circularity' and 'Feedback'; Wiener 1948 MIT Press description (exact primary chapter still pending)",
+    "scope_conditions": "ASC's institutional history treats feedback and circularity as focal to cybernetics, while also warning that cybernetics has multiple contested histories. The primary Wiener locator remains incomplete.",
+    "inference_method": "comparison of professional-society history with the maintained publisher record",
+    "notes": "The additional history supports feedback's focal place while preserving the existing provisional status and the unresolved primary-page locator.",
+    "plain_phrase": "is focal to the circular account of",
+    "public_review_label": "provisional historical synthesis"
+  },
+  "e15_pattern_manual_develops_service_systems": {
+    "confidence": "0.97",
+    "source_ids": "[\"src_ing_pattern_manual_2016\"]",
+    "source_locator": "Pattern Manual paper, pp. 12-14, comparison of Alexandrian form with voices on issues, affording values and spatio-temporal frames",
+    "scope_conditions": "The paper advances a proposal for discussion and explicitly frames it as an adaptation and extension, not a settled standard.",
+    "inference_method": "close reading of the author paper and publication record",
+    "notes": "The proposed format changes the unit of a pattern from context-problem-solution to voices/issues, affording values and spatio-temporal frames for service systems.",
+    "plain_phrase": "develops a pattern form for",
+    "public_review_label": "source-established author proposal"
+  },
+  "e15_ing_develops_service_systems": {
+    "confidence": "0.97",
+    "source_ids": "[\"src_ing_pattern_manual_2016\",\"src_ing_coevolving_publications_2026\"]",
+    "source_locator": "Coevolving Publications index, Service Systems section; Pattern Manual paper, title, abstract and pp. 12-14",
+    "scope_conditions": "Authorship and development are established from Ing's own publication record; this does not establish sole authorship of the wider field.",
+    "inference_method": "author-index chronology and work-level verification",
+    "notes": "The index documents a sustained sequence of service-systems-thinking work and the paper states the specific pattern-language development.",
+    "plain_phrase": "develops a documented strand of",
+    "public_review_label": "source-established authorship and development"
+  },
+  "e15_ing_develops_systems_changes": {
+    "confidence": "0.97",
+    "source_ids": "[\"src_ing_systems_changes_learning_2022\",\"src_ing_systems_changes_learning_2023\"]",
+    "source_locator": "2023 author record, abstract and citation; published article pp. 11-73; 2022 Systems Changes presentation",
+    "scope_conditions": "These first-party records establish Ing's authorship and formulation, not independent validation of the approach.",
+    "inference_method": "author-index chronology and published-work verification",
+    "notes": "The 2023 record locates the contextural-action-learning, rhythmic-shifts and doing-thinking-making formulation in a published article.",
+    "plain_phrase": "develops and publishes",
+    "public_review_label": "source-established authorship and development"
+  }
+}'''))
+
+NEW_EDGES: list[dict[str, Any]] = json.loads(r'''[
+  {
+    "id": "e_overnight_principia_positive_feedback_self_org",
+    "source": "concept_positive_feedback",
+    "target": "concept_self_organisation",
+    "relation_type": "explains",
+    "relation_family": "causal_mechanism",
+    "directed": "true",
+    "dependency_kind": "mechanism",
+    "confidence": "0.9",
+    "claim_status": "accepted",
+    "source_ids": "[\"src_principia_self_organisation_guide\"]",
+    "evidence_ids": "[]",
+    "source_locator": "Self-Organization guide, section 'The basic mechanism of self-organization', paragraphs on positive and negative feedback",
+    "valid_from": "",
+    "valid_to": "",
+    "scope_conditions": "This is the feedback mechanism in Principia's project-authored account; it is not asserted as the only mechanism in every theory of self-organisation.",
+    "assertion_mode": "asserted",
+    "inference_method": "close reading of the internal theory page",
+    "claim_id": "",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-14",
+    "notes": "The guide says positive feedback amplifies deviations and supports the growth of new configurations before negative feedback stabilises them.",
+    "plain_phrase": "amplifies variation within the project's account of",
+    "public_review_label": "source-established project mechanism"
+  },
+  {
+    "id": "e_overnight_principia_negative_feedback_self_org",
+    "source": "concept_negative_feedback",
+    "target": "concept_self_organisation",
+    "relation_type": "explains",
+    "relation_family": "causal_mechanism",
+    "directed": "true",
+    "dependency_kind": "mechanism",
+    "confidence": "0.9",
+    "claim_status": "accepted",
+    "source_ids": "[\"src_principia_self_organisation_guide\"]",
+    "evidence_ids": "[]",
+    "source_locator": "Self-Organization guide, section 'The basic mechanism of self-organization', paragraphs on positive and negative feedback",
+    "valid_from": "",
+    "valid_to": "",
+    "scope_conditions": "This is the feedback mechanism in Principia's project-authored account; it is not asserted as the only mechanism in every theory of self-organisation.",
+    "assertion_mode": "asserted",
+    "inference_method": "close reading of the internal theory page",
+    "claim_id": "",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-14",
+    "notes": "The guide pairs amplifying positive feedback with negative feedback that counters deviations and stabilises a new configuration.",
+    "plain_phrase": "stabilises variation within the project's account of",
+    "public_review_label": "source-established project mechanism"
+  },
+  {
+    "id": "e_overnight_pattern_manual_multiple_perspectives",
+    "source": "publication_pattern_manual_service_systems_thinking",
+    "target": "concept_multiple_perspectives",
+    "relation_type": "operationalises",
+    "relation_family": "practice",
+    "directed": "true",
+    "dependency_kind": "",
+    "confidence": "0.92",
+    "claim_status": "accepted",
+    "source_ids": "[\"src_ing_pattern_manual_2016\"]",
+    "evidence_ids": "[]",
+    "source_locator": "Pattern Manual paper, p. 13, paragraph beginning 'Extending issues to explicitly identify voices'",
+    "valid_from": "",
+    "valid_to": "",
+    "scope_conditions": "The paper operationalises perspectives as named voices around an issue; it does not guarantee that every affected perspective will be represented.",
+    "assertion_mode": "asserted",
+    "inference_method": "close reading of the author paper",
+    "claim_id": "",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-14",
+    "notes": "Ing makes voices explicit in the service-systems pattern form so collective and individual perspectives are represented before action decisions.",
+    "plain_phrase": "operationalises named voices as",
+    "public_review_label": "source-established design move"
+  },
+  {
+    "id": "e_overnight_systems_changes_action_learning",
+    "source": "approach_family_systems_changes_learning",
+    "target": "intervention_skill_action_learning",
+    "relation_type": "specialises",
+    "relation_family": "practice",
+    "directed": "true",
+    "dependency_kind": "",
+    "confidence": "0.94",
+    "claim_status": "accepted",
+    "source_ids": "[\"src_ing_systems_changes_learning_2023\"]",
+    "evidence_ids": "[]",
+    "source_locator": "2023 author record, abstract; published article pp. 11-73, contextural action learning and three learning levels",
+    "valid_from": "",
+    "valid_to": "",
+    "scope_conditions": "This records the paper's contextural-action-learning formulation, not equivalence with all action-learning traditions.",
+    "assertion_mode": "asserted",
+    "inference_method": "close reading of the author abstract and published article record",
+    "claim_id": "",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-14",
+    "notes": "The approach is explicitly framed as contextural action learning, developed through educating attention, learning for co-relating and learning for articulating.",
+    "plain_phrase": "specialises a contextural form of",
+    "public_review_label": "source-established author formulation"
+  },
+  {
+    "id": "e_overnight_service_systems_multiple_perspectives",
+    "source": "approach_family_service_systems_thinking",
+    "target": "concept_multiple_perspectives",
+    "relation_type": "methodological_prerequisite",
+    "relation_family": "conceptual",
+    "directed": "true",
+    "dependency_kind": "methodological",
+    "confidence": "0.9",
+    "claim_status": "accepted",
+    "source_ids": "[\"src_ing_pattern_manual_2016\",\"src_ing_coevolving_publications_2026\"]",
+    "evidence_ids": "[]",
+    "source_locator": "Pattern Manual paper, pp. 12-14; Coevolving publication record abstract describing voices on issues",
+    "valid_from": "",
+    "valid_to": "",
+    "scope_conditions": "The requirement is specific to Ing's proposed service-systems-thinking pattern form.",
+    "assertion_mode": "asserted",
+    "inference_method": "comparison of the paper and author publication record",
+    "claim_id": "",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-14",
+    "notes": "The proposal begins with plural voices on issues before decisions about action, making multiple perspectives constitutive of this version of the approach.",
+    "plain_phrase": "requires explicit voices to represent",
+    "public_review_label": "source-established method requirement"
+  },
+  {
+    "id": "e_overnight_sfi_emergence_complexity",
+    "source": "concept_emergence",
+    "target": "concept_complexity",
+    "relation_type": "explains",
+    "relation_family": "conceptual",
+    "directed": "true",
+    "dependency_kind": "",
+    "confidence": "0.82",
+    "claim_status": "provisional",
+    "source_ids": "[\"src_sfi_complexity_about\",\"src_complexity_explorer_intro\"]",
+    "evidence_ids": "[]",
+    "source_locator": "SFI About, section 'What is Complex Systems Science?'; Complexity Explorer syllabus, units 1-10",
+    "valid_from": "",
+    "valid_to": "",
+    "scope_conditions": "SFI presents surprising emergent macro behaviour as a recurring feature of interacting adaptive agents; complexity is broader than emergence and not every complex system exhibits the same form.",
+    "assertion_mode": "interpreted",
+    "inference_method": "interpretive synthesis of two official SFI scope statements",
+    "claim_id": "",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-14",
+    "notes": "The edge records SFI's cross-scale framing while avoiding the stronger and unsupported claim that emergence defines all complexity.",
+    "plain_phrase": "characterises macro-level behaviour studied within",
+    "public_review_label": "interpreted institutional framing"
+  },
+  {
+    "id": "e_overnight_sfi_comparator_covers_self_org",
+    "source": "comparator_corpus_santa_fe_institute_complexity_explorer",
+    "target": "concept_self_organisation",
+    "relation_type": "includes",
+    "relation_family": "documentary",
+    "directed": "true",
+    "dependency_kind": "",
+    "confidence": "0.99",
+    "claim_status": "accepted",
+    "source_ids": "[\"src_complexity_explorer_intro\"]",
+    "evidence_ids": "[]",
+    "source_locator": "Introduction to Complexity syllabus, unit 7 'Models of Biological Self-Organization'",
+    "valid_from": "",
+    "valid_to": "",
+    "scope_conditions": "This is a curriculum-coverage claim, not a claim that the course's treatment is exhaustive.",
+    "assertion_mode": "asserted",
+    "inference_method": "syllabus inspection",
+    "claim_id": "",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-14",
+    "notes": "The official syllabus dedicates a unit to models of biological self-organisation.",
+    "plain_phrase": "has a dedicated syllabus unit covering",
+    "public_review_label": "source-established curriculum scope"
+  },
+  {
+    "id": "e_overnight_ifsr_convening_perspectives",
+    "source": "practice_systems_convening",
+    "target": "concept_multiple_perspectives",
+    "relation_type": "operationalises",
+    "relation_family": "practice",
+    "directed": "true",
+    "dependency_kind": "",
+    "confidence": "0.72",
+    "claim_status": "provisional",
+    "source_ids": "[\"src_ifsr_conversations_legacy\",\"src_taylor_boundaries_convening_2025\"]",
+    "evidence_ids": "[]",
+    "source_locator": "IFSR Conversations Legacy, programme-design paragraphs on non-hierarchical cross-tradition dialogue; Systems convening slides, slide 4",
+    "valid_from": "",
+    "valid_to": "",
+    "scope_conditions": "The IFSR programme is an example interpreted through the atlas's systems-convening concept. The source does not use that label and does not demonstrate that dialogue resolves differences.",
+    "assertion_mode": "interpreted",
+    "inference_method": "cross-source comparison of programme design with the maintained practice definition",
+    "claim_id": "",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-14",
+    "notes": "Small, non-hierarchical conversations across traditions provide a concrete but limited example of creating conditions for multiple perspectives.",
+    "plain_phrase": "can create a bounded space for",
+    "public_review_label": "interpreted programme example"
+  }
+]''')
+
+SOURCE_PATCHES: dict[str, dict[str, Any]] = {
+    "src_complexity_explorer_intro": {
+        "url": "https://www.complexityexplorer.org/courses/185-introduction-to-complexity",
+        "publisher": "Santa Fe Institute Complexity Explorer",
+        "notes": "Official ten-unit syllabus covering dynamics, chaos, information, self-organisation, agent-based modelling, networks and scaling. Used for curriculum coverage, not proof that the curriculum exhausts complexity science.",
+        "review_status": "checked_internal_syllabus",
+        "last_checked": "2026-08-14",
+    },
+    "src_taylor_reading_list_current": {
+        "date": "2024-10-01",
+        "quality_tier": "B",
+        "notes": "Curator framing for the supplied 110-item inventory. It states that the list is partial and context-dependent and names a small set of practical starting points. It is evidence of intended coverage, not evidence for relationships among the listed works.",
+        "review_status": "checked_primary_curator_record",
+        "last_checked": "2026-08-14",
+    },
+}
+
+SOURCE_RETIRED_IDS = {"src_taylor_reading_list_2024"}
+
+SOURCE_MINING_UPDATES: dict[str, dict[str, str]] = json.loads(r'''{
+  "mine_ashby_archive": {
+    "status": "deep_structure_traversed_bounded_claims_only",
+    "next_step": "Use journal page images and index-card locators for future claim-level work; do not infer influence from index co-occurrence."
+  },
+  "mine_asc_library": {
+    "status": "history_and_archive_routes_traversed",
+    "next_step": "Pair the society history with primary documents before settling priority, and retain its warning that cybernetics has multiple histories."
+  },
+  "mine_asc_archives": {
+    "status": "working_group_and_uiuc_routes_traversed",
+    "next_step": "Open collection-level records only when a current person or claim needs a document-level locator."
+  },
+  "mine_isss": {
+    "status": "meeting_history_and_proceedings_routes_traversed",
+    "next_step": "Use the chronology for organisational history only; verify conceptual influence in papers or correspondence."
+  },
+  "mine_ifsr": {
+    "status": "conversations_legacy_and_publication_routes_traversed",
+    "next_step": "Add conversation outputs only with participant, date and document-level provenance; do not treat dialogue as consensus."
+  },
+  "mine_system_dynamics_society": {
+    "status": "method_guide_bibliography_and_proceedings_traversed",
+    "next_step": "Pair the institutional method account with critical evaluation and primary modelling texts."
+  },
+  "mine_sfi": {
+    "status": "about_research_course_and_working_paper_routes_traversed",
+    "next_step": "Replace broad institutional framing with paper-level evidence for any stronger mechanism claim."
+  },
+  "mine_taylor_reading_list": {
+    "status": "all_110_items_reconciled_80_inventory_only",
+    "next_step": "Prioritise curator-named practical starting points and preserve the list's partial, context-dependent framing."
+  }
+}''')
+
+EXTERNAL_CORPUS_REVIEW: list[dict[str, Any]] = json.loads(r'''[
+  {
+    "id": "external_principia",
+    "corpus": "Principia Cybernetica",
+    "pages_traversed": ["INTRO.html", "CYBSPRIN.html", "SELFORG.html", "MST.html", "MSTT.html", "HISTORY.html", "NUTSHELL.html", "NAV.html"],
+    "reference_trails": ["project history -> CYBSYS-L debates and conferences", "self-organisation guide -> feedback mechanism", "overview -> typed semantic-network architecture"],
+    "relationship_ids": ["e_07_principia_01", "e_07_principia_05", "e_overnight_principia_positive_feedback_self_org", "e_overnight_principia_negative_feedback_self_org"],
+    "disagreement": "The project makes natural selection generative in its evolutionary account; natural drift disputes that mechanism and remains represented as a tension.",
+    "uncertainty": "Project-authored pages are primary for self-description but not independent validation or a neutral history.",
+    "decision": "Four narrow mechanism or architecture claims retained; no edge added from page adjacency alone."
+  },
+  {
+    "id": "external_david_ing",
+    "corpus": "David Ing / Coevolving Innovations",
+    "pages_traversed": ["publications index", "Pattern Manual publication record and PDF", "Systems Changes Learning 2023 record and article", "1999 Ackoff influence record and paper trail", "digests index"],
+    "reference_trails": ["Pattern Manual -> Alexander and service-systems pattern form", "Systems Changes Learning -> contextural action learning", "1999 paper -> three named Ackoff works"],
+    "relationship_ids": ["e15_pattern_manual_develops_service_systems", "e15_ing_develops_service_systems", "e15_ing_develops_systems_changes", "e_overnight_pattern_manual_multiple_perspectives", "e_overnight_systems_changes_action_learning", "e_overnight_service_systems_multiple_perspectives"],
+    "disagreement": "The Pattern Manual explicitly proposes revisions to the Alexandrian context-problem-solution form rather than treating it as directly portable.",
+    "uncertainty": "First-party publication records establish authorship and intended concepts, not uptake or efficacy.",
+    "decision": "Existing authorship edges located more precisely and three work-level conceptual routes added."
+  },
+  {
+    "id": "external_reading_list",
+    "corpus": "Benjamin P Taylor reading list",
+    "pages_traversed": ["public curator post", "supplied 110-item inventory", "all inventory status records"],
+    "reference_trails": ["curator post -> named practical starting points", "inventory -> existing people, works, methods and source records"],
+    "relationship_ids": [],
+    "disagreement": "The curator explicitly rejects a context-free canonical ordering; the inventory is therefore not treated as a ranking or genealogy.",
+    "uncertainty": "80 items remain inventory-only and need item-level reading before relationship claims.",
+    "decision": "Coverage reconciled; no title-derived edges added."
+  },
+  {
+    "id": "external_ashby",
+    "corpus": "W. Ross Ashby Digital Archive",
+    "pages_traversed": ["journal index", "25-volume bookshelf", "timeline and summaries routes", "alphabetical and other indexes", "bibliography", "504-reference list", "letters index", "archive catalogue", "biography sections"],
+    "reference_trails": ["keyword cards -> journal page images", "journal references -> alphabetical bibliography", "catalogue -> British Library shelfmarks"],
+    "relationship_ids": [],
+    "disagreement": "The archive itself warns that Ashby later judged some early notes inaccurate.",
+    "uncertainty": "Index presence and correspondence establish documentary proximity, not influence or agreement.",
+    "decision": "Primary archive structure recorded; no new semantic edge inferred."
+  },
+  {
+    "id": "external_asc",
+    "corpus": "American Society for Cybernetics",
+    "pages_traversed": ["Foundations history contents", "control, system, communication, knowledge, circularity and feedback sections", "Archives Working Group", "newsletter and Zotero routes", "UIUC archive route"],
+    "reference_trails": ["history sections -> people and primary traditions", "working group -> Ashby, ISSS and UIUC collections"],
+    "relationship_ids": ["e_0342"],
+    "disagreement": "The history explicitly describes cybernetics as having multiple intertwined and contested histories.",
+    "uncertainty": "Institutional curation can privilege its own lineage; the Wiener primary-page locator remains pending.",
+    "decision": "One existing historical edge strengthened but kept provisional."
+  },
+  {
+    "id": "external_isss",
+    "corpus": "International Society for the Systems Sciences",
+    "pages_traversed": ["meeting history", "1954 formation record", "society name-change chronology", "annual themes", "proceedings and journal routes"],
+    "reference_trails": ["formation record -> von Bertalanffy, Boulding, Rapoport and Gerard", "meeting table -> proceedings"],
+    "relationship_ids": [],
+    "disagreement": "Institutional continuity does not establish a single coherent intellectual lineage.",
+    "uncertainty": "Participant co-presence and meeting chronology do not prove influence.",
+    "decision": "Organisational provenance retained; no semantic edge added."
+  },
+  {
+    "id": "external_ifsr",
+    "corpus": "International Federation for Systems Research Conversations",
+    "pages_traversed": ["Conversations legacy", "programme principles", "publication routes", "federation overview"],
+    "reference_trails": ["legacy page -> conversation outputs and participants", "programme design -> second-order reflective practice"],
+    "relationship_ids": ["e_overnight_ifsr_convening_perspectives"],
+    "disagreement": "Dialogue across traditions is not evidence that disagreements were resolved.",
+    "uncertainty": "The systems-convening label is an atlas interpretation, not IFSR terminology.",
+    "decision": "One low-confidence interpreted practice example added with explicit scope."
+  },
+  {
+    "id": "external_system_dynamics",
+    "corpus": "System Dynamics Society",
+    "pages_traversed": ["Study of System Dynamics method guide", "bibliography and literature-review routes", "MIT collection route", "conference proceedings examples on stocks, flows, feedback and model boundaries"],
+    "reference_trails": ["method guide -> Richardson, Sterman and group model building", "bibliography -> conference proceedings"],
+    "relationship_ids": ["e_0274"],
+    "disagreement": "An endogenous-feedback account does not establish that qualitative diagrams or models are valid or effective in every setting.",
+    "uncertainty": "Institutional sources require critical histories and evaluation for efficacy claims.",
+    "decision": "One legacy-unverified edge upgraded to a precise method-structure claim."
+  },
+  {
+    "id": "external_sfi",
+    "corpus": "Santa Fe Institute / Complexity Explorer",
+    "pages_traversed": ["SFI About and history", "research overview", "Introduction to Complexity syllabus and FAQ", "Complexity Explorer resource index", "working papers on emergence and evolution"],
+    "reference_trails": ["course syllabus -> dynamics, self-organisation, agent-based modelling and networks", "working papers -> technical papers and PDFs"],
+    "relationship_ids": ["e_overnight_sfi_emergence_complexity", "e_overnight_sfi_comparator_covers_self_org"],
+    "disagreement": "SFI is a major complexity-science institution but not a proxy for the whole field or a warrant for importing every complexity concept into social practice.",
+    "uncertainty": "The emergence-to-complexity edge is an institutional framing and remains explicitly interpreted and provisional.",
+    "decision": "One documentary curriculum edge and one scoped conceptual framing added."
+  }
+]''')
+
+
 def parse_list(value: Any) -> list[Any]:
     if isinstance(value, list):
         return value
@@ -198,6 +842,32 @@ def upsert(records: list[dict[str, Any]], incoming: list[dict[str, Any]]) -> Non
         else:
             positions[record["id"]] = len(records)
             records.append(record)
+
+
+def apply_source_patches(data: dict[str, Any]) -> None:
+    found: set[str] = set()
+    for source in data.get("sources", []):
+        patch = SOURCE_PATCHES.get(source.get("id"))
+        if patch:
+            source.update(patch)
+            found.add(source["id"])
+    missing = sorted(set(SOURCE_PATCHES) - found)
+    if missing:
+        raise RuntimeError(f"Source patches missing from generated data: {missing}")
+
+
+def apply_external_corpus_review(data: dict[str, Any]) -> None:
+    upsert(data["edges"], NEW_EDGES)
+    data["external_corpus_review"] = EXTERNAL_CORPUS_REVIEW
+    found: set[str] = set()
+    for record in data.get("source_mining_register", []):
+        patch = SOURCE_MINING_UPDATES.get(record.get("id"))
+        if patch:
+            record.update(patch)
+            found.add(record["id"])
+    missing = sorted(set(SOURCE_MINING_UPDATES) - found)
+    if missing:
+        raise RuntimeError(f"Source-mining records missing from generated data: {missing}")
 
 
 def apply_edge_patches(data: dict[str, Any]) -> None:
@@ -284,6 +954,7 @@ def quality_result(data: dict[str, Any]) -> dict[str, Any]:
         "evidence_records": len(data.get("evidence", [])),
         "profiles": len(data.get("profiles", [])),
         "journeys": len(data.get("journeys", [])),
+        "external_corpora_reviewed": len(data.get("external_corpus_review", [])),
         "reader_connected_entries": depth["aggregate"]["reader_connected_entries"],
         "semantic_connected_entries": depth["aggregate"]["semantic_connected_entries"],
         "semantic_gap_entries": depth["aggregate"]["public_entries"] - depth["aggregate"]["semantic_connected_entries"],
@@ -378,6 +1049,15 @@ def quality_result(data: dict[str, Any]) -> dict[str, Any]:
                 "count": sum(record["distinct_reader_families"] == 1 for record in by_node.values()),
                 "total": current["public_entries"],
             },
+            "external_corpus_records": {
+                "passing": sum(
+                    bool(record.get("pages_traversed"))
+                    and "uncertainty" in record
+                    and "decision" in record
+                    for record in data.get("external_corpus_review", [])
+                ),
+                "total": len(data.get("external_corpus_review", [])),
+            },
         },
         "generic_relation_review": generic,
         "repeated_assertion_review": repeated,
@@ -420,7 +1100,13 @@ def write_review_note(result: dict[str, Any]) -> None:
 
 def main() -> None:
     data = json.loads(DATA_PATH.read_text(encoding="utf-8"))
+    data["sources"] = [
+        source for source in data.get("sources", [])
+        if source.get("id") not in SOURCE_RETIRED_IDS
+    ]
     upsert(data["sources"], SOURCE_RECORDS)
+    apply_source_patches(data)
+    apply_external_corpus_review(data)
     apply_edge_patches(data)
     data["relational_depth"] = calculate_relational_depth(data)
     data["graph_snapshot"] = calculate_graph_snapshot(data)
@@ -431,6 +1117,8 @@ def main() -> None:
             "source_count": len(data.get("sources", [])),
             "public_link_source_count": sum(source.get("public_link_status") == "public_link" for source in data.get("sources", [])),
             "no_public_link_source_count": sum(source.get("public_link_status") == "no_public_link" for source in data.get("sources", [])),
+            "source_mining_register_count": len(data.get("source_mining_register", [])),
+            "external_corpus_review_count": len(data.get("external_corpus_review", [])),
             "reader_connected_entry_count": aggregate["reader_connected_entries"],
             "semantic_connected_entry_count": aggregate["semantic_connected_entries"],
             "rich_entry_count": aggregate["connection_bands"].get("rich", 0),

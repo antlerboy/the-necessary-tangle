@@ -1,27 +1,20 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "generated": "2026-08-14",
   "release": "0.16-grammar-connections-presentation-alpha",
-  "repository_commit": "pass-2 branch; merge SHA recorded in docs/overnight-log.md",
-  "purpose": "Machine-readable relationship-quality result after Pass 2. Counts describe the public graph and keep structural depth separate from evidential strength.",
+  "purpose": "Machine-readable relationship-quality result after the evidence-led relationship review.",
   "contract": {
     "human_readable_rationale": "A relation has a plain phrase and either notes, scope conditions or an inference method.",
-    "typed_and_directed": "A relation has an explicit relation type, family and direction flag. Undirected relations are reported separately, not treated automatically as defects.",
-    "source_located": "Source identifiers are present; locator presence and precision-shaped locator text are measured separately.",
-    "epistemic_status": "Claim status, assertion mode and public review label distinguish accepted, provisional, contested and inferred/interpretive statements.",
-    "generic_relation": "A public phrase containing 'related to' is treated as a review target.",
-    "diverse_routes": "Reader-visible nodes are measured by distinct relation families; three or more is the stronger-route threshold.",
-    "cross_family_proxy": "Semantic edges joining nodes with disjoint set tags are a rough proxy only; it is not a substitute for explicit intellectual-family modelling."
+    "typed_and_directed": "A relation has an explicit relation type, family and direction decision; legitimate undirected relations are reported separately.",
+    "source_located": "Source identifiers, locator presence and precision-shaped locator text are measured separately.",
+    "epistemic_status": "Claim status, assertion mode and public review label distinguish accepted, provisional, contested and interpreted statements.",
+    "generic_relation": "A conceptually_related_to type or public phrase containing related to is a review target.",
+    "diverse_routes": "Reader-visible nodes are measured by distinct relation families; three or more is the stronger-route threshold."
   },
   "baseline": {
     "public_entries": 496,
-    "all_nodes": 606,
     "all_edges": 1712,
     "sources": 153,
-    "claims": 34,
-    "evidence_records": 37,
-    "profiles": 111,
-    "journeys": 19,
     "reader_connected_entries": 496,
     "semantic_connected_entries": 329,
     "semantic_gap_entries": 167,
@@ -30,61 +23,113 @@
       "rich": 35,
       "thin": 225
     },
-    "evidence_bands": {
-      "mixed": 196,
-      "provisional": 113,
-      "supported": 187
-    },
     "reader_statements": 1161,
     "semantic_statements": 747
   },
+  "current": {
+    "public_entries": 496,
+    "all_nodes": 606,
+    "all_edges": 1720,
+    "sources": 166,
+    "claims": 34,
+    "evidence_records": 37,
+    "profiles": 111,
+    "journeys": 19,
+    "external_corpora_reviewed": 9,
+    "reader_connected_entries": 496,
+    "semantic_connected_entries": 328,
+    "semantic_gap_entries": 168,
+    "connection_bands": {
+      "developing": 236,
+      "rich": 36,
+      "thin": 224
+    },
+    "evidence_bands": {
+      "mixed": 192,
+      "provisional": 111,
+      "supported": 193
+    },
+    "reader_statements": 1168,
+    "semantic_statements": 753
+  },
+  "changes_from_baseline": {
+    "generic_relation_review_targets": {
+      "before": 8,
+      "after": 0
+    },
+    "repeated_assertion_groups": {
+      "before": 1,
+      "after": 0
+    },
+    "sources": {
+      "before": 153,
+      "after": 166
+    },
+    "semantic_connected_entries": {
+      "before": 329,
+      "after": 328,
+      "note": "A generic journal-to-tradition edge was replaced by a narrower documentary scope claim; unsupported semantic reach was not preserved."
+    },
+    "substantive_edge_count": {
+      "before": 750,
+      "after": 756
+    },
+    "isolated_semantic_nodes": {
+      "before": 167,
+      "after": 168
+    }
+  },
   "criteria": {
     "typed": {
-      "passing": 1712,
-      "total": 1712
+      "passing": 1720,
+      "total": 1720
     },
     "directed": {
-      "passing": 1617,
-      "total": 1712,
+      "passing": 1625,
+      "total": 1720,
       "undirected": 95
     },
     "human_readable_phrase": {
-      "passing": 1712,
-      "total": 1712
+      "passing": 1720,
+      "total": 1720
     },
     "explicit_rationale": {
-      "passing": 1407,
-      "total": 1712
+      "passing": 1416,
+      "total": 1720
     },
     "source_identifier": {
-      "passing": 1712,
-      "total": 1712
+      "passing": 1720,
+      "total": 1720
     },
     "locator_present": {
-      "passing": 1266,
-      "total": 1712
+      "passing": 1275,
+      "total": 1720
     },
     "precision_shaped_locator": {
-      "passing": 232,
-      "total": 1712,
+      "passing": 244,
+      "total": 1720,
       "note": "Conservative text-pattern measure; manual review is still required."
     },
     "epistemic_fields_present": {
-      "passing": 1712,
-      "total": 1712
+      "passing": 1720,
+      "total": 1720
     },
     "generic_related_to": {
-      "passing": 1712,
-      "total": 1712,
+      "passing": 1720,
+      "total": 1720,
       "review_target_count": 0
     },
     "three_or_more_relation_families": {
-      "passing": 72,
+      "passing": 74,
       "total": 496
     },
     "one_relation_family": {
       "count": 189,
       "total": 496
+    },
+    "external_corpus_records": {
+      "passing": 9,
+      "total": 9
     }
   },
   "generic_relation_review": [],
@@ -2232,28 +2277,6 @@
       ]
     },
     {
-      "node_id": "publication_pattern_manual_service_systems_thinking",
-      "label": "Pattern Manual for Service Systems Thinking",
-      "entity_type": "publication",
-      "publication_level": "profile",
-      "connection_band": "thin",
-      "evidence_band": "mixed",
-      "visible_connections": 2,
-      "visible_statements": 2,
-      "reader_connections": 2,
-      "reader_statements": 2,
-      "semantic_connections": 1,
-      "semantic_statements": 1,
-      "documentary_statements": 1,
-      "accepted_reader_statements": 2,
-      "provisional_reader_statements": 0,
-      "distinct_reader_families": 2,
-      "reader_families": [
-        "conceptual",
-        "documentary"
-      ]
-    },
-    {
       "node_id": "person_peter_checkland",
       "label": "Peter Checkland",
       "entity_type": "person",
@@ -2648,65 +2671,34 @@
         "documentary",
         "human"
       ]
+    },
+    {
+      "node_id": "person_fpcs_s_j_gould",
+      "label": "S. J. Gould",
+      "entity_type": "person",
+      "publication_level": "described",
+      "connection_band": "thin",
+      "evidence_band": "mixed",
+      "visible_connections": 2,
+      "visible_statements": 2,
+      "reader_connections": 2,
+      "reader_statements": 2,
+      "semantic_connections": 1,
+      "semantic_statements": 1,
+      "documentary_statements": 1,
+      "accepted_reader_statements": 2,
+      "provisional_reader_statements": 0,
+      "distinct_reader_families": 2,
+      "reader_families": [
+        "documentary",
+        "human"
+      ]
     }
   ],
   "limitations": [
     "A source identifier can point to a broad collection and does not by itself establish a precise evidential warrant.",
     "Undirected co-authorship and similarity relations can be legitimate; direction is a semantic decision, not a blanket pass/fail rule.",
-    "Disjoint set tags are only a rough proxy for cross-family connection quality.",
-    "The audit does not claim that all 1,712 edges are substantive; the maintained reader and semantic subsets remain the relevant depth measures.",
-    "Pass 2 deliberately accepts a one-entry reduction in semantic reach where the previous journal-to-tradition edge was supported only by resemblance and discovery context."
-  ],
-  "current": {
-    "public_entries": 496,
-    "all_nodes": 606,
-    "all_edges": 1712,
-    "sources": 155,
-    "claims": 34,
-    "evidence_records": 37,
-    "profiles": 111,
-    "journeys": 19,
-    "reader_connected_entries": 496,
-    "semantic_connected_entries": 328,
-    "semantic_gap_entries": 168,
-    "connection_bands": {
-      "developing": 236,
-      "rich": 35,
-      "thin": 225
-    },
-    "evidence_bands": {
-      "mixed": 195,
-      "provisional": 113,
-      "supported": 188
-    },
-    "reader_statements": 1161,
-    "semantic_statements": 746
-  },
-  "changes_from_baseline": {
-    "generic_relation_review_targets": {
-      "before": 8,
-      "after": 0
-    },
-    "repeated_assertion_groups": {
-      "before": 1,
-      "after": 0
-    },
-    "sources": {
-      "before": 153,
-      "after": 155
-    },
-    "semantic_connected_entries": {
-      "before": 329,
-      "after": 328,
-      "note": "One generic journal-to-tradition edge was replaced by a narrower documentary scope claim; semantic reach fell by one rather than preserving an unsupported edge."
-    },
-    "substantive_edge_count": {
-      "before": 750,
-      "after": 749
-    },
-    "isolated_semantic_nodes": {
-      "before": 167,
-      "after": 168
-    }
-  }
+    "The audit does not claim that all edges are substantive; maintained reader and semantic subsets remain the relevant depth measures.",
+    "Pass 2 accepts a one-entry reduction in semantic reach where the previous journal-to-tradition edge was supported only by resemblance and discovery context."
+  ]
 }

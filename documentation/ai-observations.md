@@ -20,7 +20,7 @@ Measurements are derived from the current public graph and reading-list inventor
 
 **Kind:** measurement plus design inference
 
-**Measurement:** There are 1391 typed public edges; 750 are conceptual, historical, human, practice or contestation relations. The substantive share is 53.9%.
+**Measurement:** There are 1398 typed public edges; 757 are conceptual, historical, human, practice or contestation relations. The substantive share is 54.1%.
 
 **Interpretation:** Authorship, hosting and collection membership answer different questions from dependence, influence, critique and use. A dense provenance layer is not evidence of conceptual agreement.
 
