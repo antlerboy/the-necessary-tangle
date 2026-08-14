@@ -69,7 +69,8 @@
     "thin_entry_count": 224,
     "unconnected_entry_count": 0,
     "relational_depth_url": "https://github.com/antlerboy/the-necessary-tangle/blob/main/documentation/relational-depth.md",
-    "external_corpus_review_count": 9
+    "external_corpus_review_count": 9,
+    "internal_corpus_review_count": 18
   },
   "nodes": [
     {
@@ -61200,15 +61201,15 @@
       "source_locator": "slides 1 and 4",
       "valid_from": "",
       "valid_to": "",
-      "scope_conditions": "This records an explicit connection in the named author material. It is an author synthesis, not evidence of field-wide consensus or intervention effectiveness; exact public wording awaits curator review.",
+      "scope_conditions": "Author synthesis; no public link and no independent evidence of intervention effectiveness.",
       "assertion_mode": "asserted",
       "inference_method": "direct reading of supplied author material",
       "claim_id": "",
-      "reviewed_by": "",
-      "reviewed_at": "",
-      "notes": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-14",
+      "notes": "Slides 1 and 4 frame convening as creating the social conditions in which systems change can be worked on across boundaries.",
       "plain_phrase": "creates social conditions for",
-      "public_review_label": "source-backed draft for author review"
+      "public_review_label": "source-backed author synthesis; no public link"
     },
     {
       "id": "e16_source_crosswalk_003",
@@ -61225,15 +61226,15 @@
       "source_locator": "slide 4",
       "valid_from": "",
       "valid_to": "",
-      "scope_conditions": "This records an explicit connection in the named author material. It is an author synthesis, not evidence of field-wide consensus or intervention effectiveness; exact public wording awaits curator review.",
+      "scope_conditions": "Author synthesis; no public link and no independent evidence of intervention effectiveness.",
       "assertion_mode": "asserted",
       "inference_method": "direct reading of supplied author material",
       "claim_id": "",
-      "reviewed_by": "",
-      "reviewed_at": "",
-      "notes": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-14",
+      "notes": "Slide 4 treats the system boundary as constitutive of what change actors include in the system of concern.",
       "plain_phrase": "treats as constitutive of the system of concern",
-      "public_review_label": "source-backed draft for author review"
+      "public_review_label": "source-backed author synthesis; no public link"
     },
     {
       "id": "e16_source_crosswalk_004",
@@ -61250,15 +61251,15 @@
       "source_locator": "slide 4",
       "valid_from": "",
       "valid_to": "",
-      "scope_conditions": "This records an explicit connection in the named author material. It is an author synthesis, not evidence of field-wide consensus or intervention effectiveness; exact public wording awaits curator review.",
+      "scope_conditions": "Author synthesis; no public link and no independent evidence of intervention effectiveness.",
       "assertion_mode": "asserted",
       "inference_method": "direct reading of supplied author material",
       "claim_id": "",
-      "reviewed_by": "",
-      "reviewed_at": "",
-      "notes": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-14",
+      "notes": "Slide 4 makes different views of the system a resource for learning rather than a defect to remove.",
       "plain_phrase": "learns by seeing the system from",
-      "public_review_label": "source-backed draft for author review"
+      "public_review_label": "source-backed author synthesis; no public link"
     },
     {
       "id": "e16_source_crosswalk_005",
@@ -61275,15 +61276,15 @@
       "source_locator": "slide 1",
       "valid_from": "",
       "valid_to": "",
-      "scope_conditions": "This records an explicit connection in the named author material. It is an author synthesis, not evidence of field-wide consensus or intervention effectiveness; exact public wording awaits curator review.",
+      "scope_conditions": "The slide organises inquiry; it does not establish a universal transformation sequence.",
       "assertion_mode": "asserted",
       "inference_method": "direct reading of supplied author material",
       "claim_id": "",
-      "reviewed_by": "",
-      "reviewed_at": "",
-      "notes": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-14",
+      "notes": "The one-slide framework puts purpose among the explicit questions that orient transformation inquiry.",
       "plain_phrase": "orients inquiry and intervention through",
-      "public_review_label": "source-backed draft for author review"
+      "public_review_label": "source-backed author synthesis; no public link"
     },
     {
       "id": "e16_source_crosswalk_006",
@@ -61300,15 +61301,15 @@
       "source_locator": "slide 1",
       "valid_from": "",
       "valid_to": "",
-      "scope_conditions": "This records an explicit connection in the named author material. It is an author synthesis, not evidence of field-wide consensus or intervention effectiveness; exact public wording awaits curator review.",
+      "scope_conditions": "The slide organises inquiry; it does not establish a universal transformation sequence.",
       "assertion_mode": "asserted",
       "inference_method": "direct reading of supplied author material",
       "claim_id": "",
-      "reviewed_by": "",
-      "reviewed_at": "",
-      "notes": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-14",
+      "notes": "The same framework asks how governance, organisation and accountability will support and constrain change.",
       "plain_phrase": "includes explicit questions about",
-      "public_review_label": "source-backed draft for author review"
+      "public_review_label": "source-backed author synthesis; no public link"
     },
     {
       "id": "e16_source_crosswalk_007",
@@ -61322,18 +61323,18 @@
       "claim_status": "provisional",
       "source_ids": "[\"src_taylor_four_dynamics_2023\"]",
       "evidence_ids": "[]",
-      "source_locator": "slides 10, 12–13 and 18",
+      "source_locator": "slides 10, 12-13 and 18",
       "valid_from": "",
       "valid_to": "",
-      "scope_conditions": "This records an explicit connection in the named author material. It is an author synthesis, not evidence of field-wide consensus or intervention effectiveness; exact public wording awaits curator review.",
+      "scope_conditions": "The four-dynamics model is an author framework, not a field-wide taxonomy or efficacy study.",
       "assertion_mode": "asserted",
       "inference_method": "direct reading of supplied author material",
       "claim_id": "",
-      "reviewed_by": "",
-      "reviewed_at": "",
-      "notes": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-14",
+      "notes": "The cited slides connect empowerment with distributed discretion while keeping it in balance with the other organisational dynamics.",
       "plain_phrase": "holds individual empowerment in balance through",
-      "public_review_label": "source-backed draft for author review"
+      "public_review_label": "source-backed author synthesis; no public link"
     },
     {
       "id": "e16_source_crosswalk_008",
@@ -61347,18 +61348,18 @@
       "claim_status": "provisional",
       "source_ids": "[\"src_taylor_four_dynamics_2023\"]",
       "evidence_ids": "[]",
-      "source_locator": "slides 9, 11–13, 17 and 19",
+      "source_locator": "slides 9, 11-13, 17 and 19",
       "valid_from": "",
       "valid_to": "",
-      "scope_conditions": "This records an explicit connection in the named author material. It is an author synthesis, not evidence of field-wide consensus or intervention effectiveness; exact public wording awaits curator review.",
+      "scope_conditions": "The four-dynamics model is an author framework, not a field-wide taxonomy or efficacy study.",
       "assertion_mode": "asserted",
       "inference_method": "direct reading of supplied author material",
       "claim_id": "",
-      "reviewed_by": "",
-      "reviewed_at": "",
-      "notes": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-14",
+      "notes": "The cited slides connect blending and harmonising work with cohesion rather than treating cohesion as mere uniformity.",
       "plain_phrase": "holds shared work and alignment in balance through",
-      "public_review_label": "source-backed draft for author review"
+      "public_review_label": "source-backed author synthesis; no public link"
     },
     {
       "id": "e16_source_crosswalk_009",
@@ -61372,18 +61373,18 @@
       "claim_status": "provisional",
       "source_ids": "[\"src_taylor_four_dynamics_2023\"]",
       "evidence_ids": "[]",
-      "source_locator": "slides 11–12 and 19",
+      "source_locator": "slides 11-12 and 19",
       "valid_from": "",
       "valid_to": "",
-      "scope_conditions": "This records an explicit connection in the named author material. It is an author synthesis, not evidence of field-wide consensus or intervention effectiveness; exact public wording awaits curator review.",
+      "scope_conditions": "The four-dynamics model is an author framework, not a field-wide taxonomy or efficacy study.",
       "assertion_mode": "asserted",
       "inference_method": "direct reading of supplied author material",
       "claim_id": "",
-      "reviewed_by": "",
-      "reviewed_at": "",
-      "notes": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-14",
+      "notes": "Slides 11-12 and 19 use shared purpose to orient harmonising activity across differentiated work.",
       "plain_phrase": "orients harmonising activity through",
-      "public_review_label": "source-backed draft for author review"
+      "public_review_label": "source-backed author synthesis; no public link"
     },
     {
       "id": "e16_source_crosswalk_010",
@@ -61397,18 +61398,18 @@
       "claim_status": "provisional",
       "source_ids": "[\"src_taylor_vsm_simplification_2023\"]",
       "evidence_ids": "[]",
-      "source_locator": "slides 2–3",
+      "source_locator": "slides 2-3",
       "valid_from": "",
       "valid_to": "",
-      "scope_conditions": "This records an explicit connection in the named author material. It is an author synthesis, not evidence of field-wide consensus or intervention effectiveness; exact public wording awaits curator review.",
+      "scope_conditions": "A deliberate teaching simplification should not be mistaken for the full formal Viable System Model.",
       "assertion_mode": "asserted",
       "inference_method": "direct reading of supplied author material",
       "claim_id": "",
-      "reviewed_by": "",
-      "reviewed_at": "",
-      "notes": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-14",
+      "notes": "Slides 2-3 organise the VSM simplification around operational, environmental and future complexity.",
       "plain_phrase": "organises inquiry into the handling of",
-      "public_review_label": "source-backed draft for author review"
+      "public_review_label": "source-backed author synthesis; no public link"
     },
     {
       "id": "e16_source_crosswalk_011",
@@ -61425,15 +61426,15 @@
       "source_locator": "slide 2",
       "valid_from": "",
       "valid_to": "",
-      "scope_conditions": "This records an explicit connection in the named author material. It is an author synthesis, not evidence of field-wide consensus or intervention effectiveness; exact public wording awaits curator review.",
+      "scope_conditions": "A deliberate teaching simplification should not be mistaken for the full formal Viable System Model.",
       "assertion_mode": "asserted",
       "inference_method": "direct reading of supplied author material",
       "claim_id": "",
-      "reviewed_by": "",
-      "reviewed_at": "",
-      "notes": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-14",
+      "notes": "Slide 2 asks whether organisational capacity, capability and connectedness provide enough response variety.",
       "plain_phrase": "examines capacity to respond through",
-      "public_review_label": "source-backed draft for author review"
+      "public_review_label": "source-backed author synthesis; no public link"
     },
     {
       "id": "e16_source_crosswalk_012",
@@ -61447,18 +61448,18 @@
       "claim_status": "provisional",
       "source_ids": "[\"src_taylor_vsm_simplification_2023\"]",
       "evidence_ids": "[]",
-      "source_locator": "slides 2–3",
+      "source_locator": "slides 2-3",
       "valid_from": "",
       "valid_to": "",
-      "scope_conditions": "This records an explicit connection in the named author material. It is an author synthesis, not evidence of field-wide consensus or intervention effectiveness; exact public wording awaits curator review.",
+      "scope_conditions": "A deliberate teaching simplification should not be mistaken for the full formal Viable System Model.",
       "assertion_mode": "asserted",
       "inference_method": "direct reading of supplied author material",
       "claim_id": "",
-      "reviewed_by": "",
-      "reviewed_at": "",
-      "notes": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-14",
+      "notes": "Slides 2-3 connect future-facing capability with adaptation rather than only current operational fit.",
       "plain_phrase": "asks what future change requires of",
-      "public_review_label": "source-backed draft for author review"
+      "public_review_label": "source-backed author synthesis; no public link"
     },
     {
       "id": "e16_source_crosswalk_013",
@@ -61472,18 +61473,18 @@
       "claim_status": "provisional",
       "source_ids": "[\"src_taylor_vsm_simplification_2023\"]",
       "evidence_ids": "[]",
-      "source_locator": "slides 2–3",
+      "source_locator": "slides 2-3",
       "valid_from": "",
       "valid_to": "",
-      "scope_conditions": "This records an explicit connection in the named author material. It is an author synthesis, not evidence of field-wide consensus or intervention effectiveness; exact public wording awaits curator review.",
+      "scope_conditions": "A deliberate teaching simplification should not be mistaken for the full formal Viable System Model.",
       "assertion_mode": "asserted",
       "inference_method": "direct reading of supplied author material",
       "claim_id": "",
-      "reviewed_by": "",
-      "reviewed_at": "",
-      "notes": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-14",
+      "notes": "Slides 2-3 frame accountability, resource allocation and future attention as governance questions within the simplification.",
       "plain_phrase": "frames questions of accountability, resource and future through",
-      "public_review_label": "source-backed draft for author review"
+      "public_review_label": "source-backed author synthesis; no public link"
     },
     {
       "id": "e16_source_crosswalk_014",
@@ -61497,18 +61498,18 @@
       "claim_status": "provisional",
       "source_ids": "[\"src_taylor_clarity_practices_2024\"]",
       "evidence_ids": "[]",
-      "source_locator": "slides 2 and 5–6",
+      "source_locator": "slides 2 and 5-6",
       "valid_from": "",
       "valid_to": "",
-      "scope_conditions": "This records an explicit connection in the named author material. It is an author synthesis, not evidence of field-wide consensus or intervention effectiveness; exact public wording awaits curator review.",
+      "scope_conditions": "The material states an author practice model; it does not evaluate outcomes independently.",
       "assertion_mode": "asserted",
       "inference_method": "direct reading of supplied author material",
       "claim_id": "",
-      "reviewed_by": "",
-      "reviewed_at": "",
-      "notes": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-14",
+      "notes": "Slides 2 and 5-6 connect constructive conversation and reflection with examining the reasoning behind action.",
       "plain_phrase": "supports examination of reasoning and action in",
-      "public_review_label": "source-backed draft for author review"
+      "public_review_label": "source-backed author synthesis; no public link"
     },
     {
       "id": "e16_source_crosswalk_015",
@@ -61525,15 +61526,15 @@
       "source_locator": "slides 10–11",
       "valid_from": "",
       "valid_to": "",
-      "scope_conditions": "This records an explicit connection in the named author material. It is an author synthesis, not evidence of field-wide consensus or intervention effectiveness; exact public wording awaits curator review.",
+      "scope_conditions": "The material states an author practice model; it does not evaluate outcomes independently.",
       "assertion_mode": "asserted",
       "inference_method": "direct reading of supplied author material",
       "claim_id": "",
-      "reviewed_by": "",
-      "reviewed_at": "",
-      "notes": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-14",
+      "notes": "Slides 10-11 connect decision-structure design with preserving enough local decision capacity for the variety faced.",
       "plain_phrase": "protects the decision capacity required by",
-      "public_review_label": "source-backed draft for author review"
+      "public_review_label": "source-backed author synthesis; no public link"
     },
     {
       "id": "e16_source_crosswalk_016",
@@ -61550,15 +61551,15 @@
       "source_locator": "slide 16",
       "valid_from": "",
       "valid_to": "",
-      "scope_conditions": "This records an explicit connection in the named author material. It is an author synthesis, not evidence of field-wide consensus or intervention effectiveness; exact public wording awaits curator review.",
+      "scope_conditions": "The feedback interpretation is a teaching synthesis, not an empirical causal estimate.",
       "assertion_mode": "asserted",
       "inference_method": "direct reading of supplied author material",
       "claim_id": "",
-      "reviewed_by": "",
-      "reviewed_at": "",
-      "notes": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-14",
+      "notes": "Slide 16 makes the observer's selection of data and interpretation visible through the ladder of inference.",
       "plain_phrase": "makes selective observation explicit for",
-      "public_review_label": "source-backed draft for author review"
+      "public_review_label": "source-backed author synthesis; no public link"
     },
     {
       "id": "e16_source_crosswalk_017",
@@ -61575,15 +61576,15 @@
       "source_locator": "slide 16",
       "valid_from": "",
       "valid_to": "",
-      "scope_conditions": "This records an explicit connection in the named author material. It is an author synthesis, not evidence of field-wide consensus or intervention effectiveness; exact public wording awaits curator review.",
+      "scope_conditions": "The feedback interpretation is a teaching synthesis, not an empirical causal estimate.",
       "assertion_mode": "asserted",
       "inference_method": "direct reading of supplied author material",
       "claim_id": "",
-      "reviewed_by": "",
-      "reviewed_at": "",
-      "notes": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-14",
+      "notes": "Slide 16 shows conclusions feeding later selection and action, making the ladder a reinforcing feedback pattern.",
       "plain_phrase": "shows conclusions returning through",
-      "public_review_label": "source-backed draft for author review"
+      "public_review_label": "source-backed author synthesis; no public link"
     },
     {
       "id": "e16_source_crosswalk_018",
@@ -61600,15 +61601,15 @@
       "source_locator": "slides 2 and 16",
       "valid_from": "",
       "valid_to": "",
-      "scope_conditions": "This records an explicit connection in the named author material. It is an author synthesis, not evidence of field-wide consensus or intervention effectiveness; exact public wording awaits curator review.",
+      "scope_conditions": "The feedback interpretation is a teaching synthesis, not an empirical causal estimate.",
       "assertion_mode": "asserted",
       "inference_method": "direct reading of supplied author material",
       "claim_id": "",
-      "reviewed_by": "",
-      "reviewed_at": "",
-      "notes": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-14",
+      "notes": "Slides 2 and 16 treat different experienced realities as interpretations that productive conversation can make discussable.",
       "plain_phrase": "makes different interpretations discussable as",
-      "public_review_label": "source-backed draft for author review"
+      "public_review_label": "source-backed author synthesis; no public link"
     },
     {
       "id": "e_09_murmurations_complex_responsive",
@@ -62138,8 +62139,8 @@
       "licence": "",
       "archived_url": "",
       "content_hash": "",
-      "review_status": "checked",
-      "last_checked": "2026-08-09",
+      "review_status": "pass4_prior_material_register_review",
+      "last_checked": "2026-08-14",
       "public_link_status": "no_public_link"
     },
     {
@@ -62358,8 +62359,8 @@
       "licence": "",
       "archived_url": "",
       "content_hash": "",
-      "review_status": "checked",
-      "last_checked": "2026-08-09",
+      "review_status": "pass4_legacy_internal_register_audit",
+      "last_checked": "2026-08-14",
       "public_link_status": "no_public_link"
     },
     {
@@ -62378,8 +62379,8 @@
       "licence": "",
       "archived_url": "",
       "content_hash": "",
-      "review_status": "checked",
-      "last_checked": "2026-08-09",
+      "review_status": "pass4_legacy_internal_register_audit",
+      "last_checked": "2026-08-14",
       "public_link_status": "no_public_link"
     },
     {
@@ -62558,8 +62559,8 @@
       "licence": "permission_required",
       "archived_url": "",
       "content_hash": "sha256:pending_authorised_copy",
-      "review_status": "research_pass_needs_editor",
-      "last_checked": "2026-08-09",
+      "review_status": "pass4_discovery_only_comparator",
+      "last_checked": "2026-08-14",
       "public_link_status": "no_public_link"
     },
     {
@@ -62658,8 +62659,8 @@
       "licence": "",
       "archived_url": "",
       "content_hash": "",
-      "review_status": "checked",
-      "last_checked": "2026-08-09",
+      "review_status": "pass4_legacy_internal_register_audit",
+      "last_checked": "2026-08-14",
       "public_link_status": "no_public_link"
     },
     {
@@ -62678,8 +62679,8 @@
       "licence": "",
       "archived_url": "",
       "content_hash": "",
-      "review_status": "checked",
-      "last_checked": "2026-08-09",
+      "review_status": "pass4_legacy_internal_register_audit",
+      "last_checked": "2026-08-14",
       "public_link_status": "no_public_link"
     },
     {
@@ -62838,8 +62839,8 @@
       "licence": "",
       "archived_url": "",
       "content_hash": "",
-      "review_status": "checked",
-      "last_checked": "2026-08-09",
+      "review_status": "pass4_legacy_internal_register_audit",
+      "last_checked": "2026-08-14",
       "public_link_status": "no_public_link"
     },
     {
@@ -62858,8 +62859,8 @@
       "licence": "",
       "archived_url": "",
       "content_hash": "",
-      "review_status": "checked",
-      "last_checked": "2026-08-09",
+      "review_status": "pass4_legacy_internal_register_audit",
+      "last_checked": "2026-08-14",
       "public_link_status": "no_public_link"
     },
     {
@@ -62878,8 +62879,8 @@
       "licence": "not_publicly_licensed",
       "archived_url": "",
       "content_hash": "",
-      "review_status": "research_pass_needs_editor",
-      "last_checked": "2026-08-09",
+      "review_status": "pass4_direct_slide_level_review",
+      "last_checked": "2026-08-14",
       "public_link_status": "no_public_link"
     },
     {
@@ -62898,8 +62899,8 @@
       "licence": "not_publicly_licensed",
       "archived_url": "",
       "content_hash": "",
-      "review_status": "research_pass_needs_editor",
-      "last_checked": "2026-08-09",
+      "review_status": "pass4_prior_material_register_review",
+      "last_checked": "2026-08-14",
       "public_link_status": "no_public_link"
     },
     {
@@ -62918,8 +62919,8 @@
       "licence": "not_publicly_licensed",
       "archived_url": "",
       "content_hash": "",
-      "review_status": "research_pass_needs_editor",
-      "last_checked": "2026-08-09",
+      "review_status": "pass4_prior_material_register_review",
+      "last_checked": "2026-08-14",
       "public_link_status": "no_public_link"
     },
     {
@@ -62938,8 +62939,8 @@
       "licence": "not_publicly_licensed",
       "archived_url": "",
       "content_hash": "",
-      "review_status": "research_pass_needs_editor",
-      "last_checked": "2026-08-09",
+      "review_status": "pass4_prior_material_register_review",
+      "last_checked": "2026-08-14",
       "public_link_status": "no_public_link"
     },
     {
@@ -62978,8 +62979,8 @@
       "licence": "not_publicly_licensed",
       "archived_url": "",
       "content_hash": "",
-      "review_status": "research_pass_needs_editor",
-      "last_checked": "2026-08-09",
+      "review_status": "pass4_prior_material_register_review",
+      "last_checked": "2026-08-14",
       "public_link_status": "no_public_link"
     },
     {
@@ -64781,7 +64782,7 @@
       "licence": "not_publicly_licensed",
       "archived_url": "",
       "content_hash": "",
-      "review_status": "provided_for_release_review",
+      "review_status": "pass4_direct_slide_level_review",
       "last_checked": "2026-08-14",
       "public_link_status": "no_public_link"
     },
@@ -64801,7 +64802,7 @@
       "licence": "not_publicly_licensed",
       "archived_url": "",
       "content_hash": "",
-      "review_status": "provided_for_release_review",
+      "review_status": "pass4_direct_slide_level_review",
       "last_checked": "2026-08-14",
       "public_link_status": "no_public_link"
     },
@@ -64821,7 +64822,7 @@
       "licence": "not_publicly_licensed",
       "archived_url": "",
       "content_hash": "",
-      "review_status": "provided_for_release_review",
+      "review_status": "pass4_direct_slide_level_review",
       "last_checked": "2026-08-14",
       "public_link_status": "no_public_link"
     },
@@ -64841,7 +64842,7 @@
       "licence": "not_publicly_licensed",
       "archived_url": "",
       "content_hash": "",
-      "review_status": "provided_for_release_review",
+      "review_status": "pass4_direct_slide_level_review",
       "last_checked": "2026-08-14",
       "public_link_status": "no_public_link"
     },
@@ -64861,7 +64862,7 @@
       "licence": "not_publicly_licensed",
       "archived_url": "",
       "content_hash": "",
-      "review_status": "provided_for_release_review",
+      "review_status": "pass4_direct_slide_level_review",
       "last_checked": "2026-08-14",
       "public_link_status": "no_public_link"
     },
@@ -84655,6 +84656,247 @@
       "disagreement": "SFI is a major complexity-science institution but not a proxy for the whole field or a warrant for importing every complexity concept into social practice.",
       "uncertainty": "The emergence-to-complexity edge is an institutional framing and remains explicitly interpreted and provisional.",
       "decision": "One documentary curriculum edge and one scoped conceptual framing added."
+    }
+  ],
+  "internal_corpus_review": [
+    {
+      "source_id": "src_taylor_boundaries_convening_2025",
+      "title": "Systems convening and boundaries core slides",
+      "material_status": "direct_slide_level_review",
+      "access": "no_public_link",
+      "cited_edge_count": 32,
+      "substantive_edge_count": 31,
+      "precision_located_edge_count": 4,
+      "reviewed_edge_ids": [
+        "e16_source_crosswalk_002",
+        "e16_source_crosswalk_003",
+        "e16_source_crosswalk_004"
+      ],
+      "decision": "Supplied deck inspected through its maintained slide-level extracts and locators.",
+      "uncertainty": "Author synthesis; no public link and no independent evidence of intervention effectiveness."
+    },
+    {
+      "source_id": "src_taylor_five_questions_transformation",
+      "title": "Five key questions for transformation",
+      "material_status": "direct_slide_level_review",
+      "access": "no_public_link",
+      "cited_edge_count": 2,
+      "substantive_edge_count": 2,
+      "precision_located_edge_count": 2,
+      "reviewed_edge_ids": [
+        "e16_source_crosswalk_005",
+        "e16_source_crosswalk_006"
+      ],
+      "decision": "Supplied one-slide framework inspected for its explicit question structure.",
+      "uncertainty": "The slide organises inquiry; it does not establish a universal transformation sequence."
+    },
+    {
+      "source_id": "src_taylor_four_dynamics_2023",
+      "title": "Four dynamics for effective organisation",
+      "material_status": "direct_slide_level_review",
+      "access": "no_public_link",
+      "cited_edge_count": 3,
+      "substantive_edge_count": 3,
+      "precision_located_edge_count": 3,
+      "reviewed_edge_ids": [
+        "e16_source_crosswalk_007",
+        "e16_source_crosswalk_008",
+        "e16_source_crosswalk_009"
+      ],
+      "decision": "Supplied deck inspected across the cited dynamics and practice slides.",
+      "uncertainty": "The four-dynamics model is an author framework, not a field-wide taxonomy or efficacy study."
+    },
+    {
+      "source_id": "src_taylor_vsm_simplification_2023",
+      "title": "Organisations need to deal with complexity: a simplification of the Viable System Model",
+      "material_status": "direct_slide_level_review",
+      "access": "no_public_link",
+      "cited_edge_count": 4,
+      "substantive_edge_count": 4,
+      "precision_located_edge_count": 4,
+      "reviewed_edge_ids": [
+        "e16_source_crosswalk_010",
+        "e16_source_crosswalk_011",
+        "e16_source_crosswalk_012",
+        "e16_source_crosswalk_013"
+      ],
+      "decision": "Supplied teaching deck inspected at the cited complexity, variety, adaptation and governance slides.",
+      "uncertainty": "A deliberate teaching simplification should not be mistaken for the full formal Viable System Model."
+    },
+    {
+      "source_id": "src_taylor_clarity_practices_2024",
+      "title": "Clarity practices: five core practices",
+      "material_status": "direct_slide_level_review",
+      "access": "no_public_link",
+      "cited_edge_count": 2,
+      "substantive_edge_count": 2,
+      "precision_located_edge_count": 2,
+      "reviewed_edge_ids": [
+        "e16_source_crosswalk_014",
+        "e16_source_crosswalk_015"
+      ],
+      "decision": "Supplied deck inspected at the cited conversation, reflection and decision-structure slides.",
+      "uncertainty": "The material states an author practice model; it does not evaluate outcomes independently."
+    },
+    {
+      "source_id": "src_taylor_better_conversations_2025",
+      "title": "Better conversations for better realities: learning loops to break the devil's bargain",
+      "material_status": "direct_slide_level_review",
+      "access": "no_public_link",
+      "cited_edge_count": 3,
+      "substantive_edge_count": 3,
+      "precision_located_edge_count": 3,
+      "reviewed_edge_ids": [
+        "e16_source_crosswalk_016",
+        "e16_source_crosswalk_017",
+        "e16_source_crosswalk_018"
+      ],
+      "decision": "Supplied deck inspected at the cited multiple-worlds and ladder-of-inference slides.",
+      "uncertainty": "The feedback interpretation is a teaching synthesis, not an empirical causal estimate."
+    },
+    {
+      "source_id": "src_core_thinking_integration",
+      "title": "Core Thinking Integration",
+      "material_status": "prior_material_register_review",
+      "access": "no_public_link",
+      "cited_edge_count": 1,
+      "substantive_edge_count": 0,
+      "precision_located_edge_count": 0,
+      "reviewed_edge_ids": [],
+      "decision": "Earlier source record reconciled with the later Core Thinking Integration record.",
+      "uncertainty": "Duplicate-title record has no claim-level public locator and should not be used to multiply support."
+    },
+    {
+      "source_id": "src_taylor_core_thinking_2026",
+      "title": "Core Thinking Integration",
+      "material_status": "prior_material_register_review",
+      "access": "no_public_link",
+      "cited_edge_count": 28,
+      "substantive_edge_count": 27,
+      "precision_located_edge_count": 6,
+      "reviewed_edge_ids": [],
+      "decision": "Maintained extracts and evidence records reviewed for distinctions, boundaries, observer, information and transduction.",
+      "uncertainty": "The original working synthesis is non-public; six existing locators are section-level rather than page-level."
+    },
+    {
+      "source_id": "src_taylor_operating_manual_2026",
+      "title": "Systems complexity cybernetics operating manual",
+      "material_status": "prior_material_register_review",
+      "access": "no_public_link",
+      "cited_edge_count": 22,
+      "substantive_edge_count": 21,
+      "precision_located_edge_count": 0,
+      "reviewed_edge_ids": [],
+      "decision": "Existing practice-manual connections and evidence records reconciled.",
+      "uncertainty": "The original manual is non-public and current locators are broad boundary-test descriptions."
+    },
+    {
+      "source_id": "src_taylor_outcomes_complexity_2025",
+      "title": "Outcomes are the results of complex adaptive systems",
+      "material_status": "prior_material_register_review",
+      "access": "no_public_link",
+      "cited_edge_count": 1,
+      "substantive_edge_count": 0,
+      "precision_located_edge_count": 0,
+      "reviewed_edge_ids": [],
+      "decision": "Source navigation and the maintained emergence description were reviewed.",
+      "uncertainty": "Only a documentary source link is retained; the available record is insufficient for a new outcome mechanism edge."
+    },
+    {
+      "source_id": "src_taylor_vsm_lecture_2025",
+      "title": "Benjamin Taylor VSM lecture",
+      "material_status": "prior_material_register_review",
+      "access": "no_public_link",
+      "cited_edge_count": 30,
+      "substantive_edge_count": 29,
+      "precision_located_edge_count": 4,
+      "reviewed_edge_ids": [],
+      "decision": "Existing extracts on viability, autonomy, cohesion, variety handling, transduction and adaptation were reconciled.",
+      "uncertainty": "The lecture is non-public and several locators remain broad; public VSM sources continue to carry stronger warrant."
+    },
+    {
+      "source_id": "src_jobson_definitions_2017",
+      "title": "Definitions for the Systems Thinking Competency Framework",
+      "material_status": "legacy_internal_register_audit",
+      "access": "no_public_link",
+      "cited_edge_count": 1,
+      "substantive_edge_count": 0,
+      "precision_located_edge_count": 0,
+      "reviewed_edge_ids": [],
+      "decision": "Bibliographic framework record and corpus membership audited.",
+      "uncertainty": "No claim-level extract is available in the maintained public data; no new semantic edge admitted."
+    },
+    {
+      "source_id": "src_korycki_2014",
+      "title": "Tony Korycki - Systems Thinking Body of Knowledge",
+      "material_status": "legacy_internal_register_audit",
+      "access": "no_public_link",
+      "cited_edge_count": 1,
+      "substantive_edge_count": 0,
+      "precision_located_edge_count": 0,
+      "reviewed_edge_ids": [],
+      "decision": "Legacy SysBoK presentation record and corpus membership audited.",
+      "uncertainty": "No claim-level extract is available in the maintained public data; no new semantic edge admitted."
+    },
+    {
+      "source_id": "src_scio_cf_bok_2017",
+      "title": "SCIO Systems Thinking Competency Framework - BoK",
+      "material_status": "legacy_internal_register_audit",
+      "access": "no_public_link",
+      "cited_edge_count": 4,
+      "substantive_edge_count": 3,
+      "precision_located_edge_count": 3,
+      "reviewed_edge_ids": [],
+      "decision": "Framework scope and three maintained section-level mappings audited.",
+      "uncertainty": "Internal framework inclusion records curriculum, not independent validation of every mapped practice."
+    },
+    {
+      "source_id": "src_scio_cf_resources_2022",
+      "title": "SCiO CF Resources v9 draft",
+      "material_status": "legacy_internal_register_audit",
+      "access": "no_public_link",
+      "cited_edge_count": 262,
+      "substantive_edge_count": 187,
+      "precision_located_edge_count": 3,
+      "reviewed_edge_ids": [],
+      "decision": "All maintained resource-guide and generated crosswalk references were counted and classified.",
+      "uncertainty": "The guide is cited by hundreds of generated comparisons but has only three precision-shaped locators; it remains a major provenance debt."
+    },
+    {
+      "source_id": "src_sysbok_feedback_2013",
+      "title": "SCiO SysBoK - Feedback v1",
+      "material_status": "legacy_internal_register_audit",
+      "access": "no_public_link",
+      "cited_edge_count": 73,
+      "substantive_edge_count": 72,
+      "precision_located_edge_count": 0,
+      "reviewed_edge_ids": [],
+      "decision": "Legacy feedback presentation links and generated crosswalk uses were audited.",
+      "uncertainty": "The broad internal source cannot independently warrant the many generated comparisons that cite it; primary sources remain necessary."
+    },
+    {
+      "source_id": "src_sysbok_recursion_2013",
+      "title": "SCiO SysBoK - Recursion v1",
+      "material_status": "legacy_internal_register_audit",
+      "access": "no_public_link",
+      "cited_edge_count": 26,
+      "substantive_edge_count": 25,
+      "precision_located_edge_count": 0,
+      "reviewed_edge_ids": [],
+      "decision": "Legacy recursion presentation links and generated crosswalk uses were audited.",
+      "uncertainty": "The broad internal source cannot independently warrant the generated comparison set; exact slide locators are absent."
+    },
+    {
+      "source_id": "src_perko_systems_researchers_network_2026",
+      "title": "Systems researchers network",
+      "material_status": "discovery_only_comparator",
+      "access": "no_public_link",
+      "cited_edge_count": 6,
+      "substantive_edge_count": 3,
+      "precision_located_edge_count": 0,
+      "reviewed_edge_ids": [],
+      "decision": "Network-image record and all six discovery/comparison uses audited.",
+      "uncertainty": "The image is permission-limited and discovery-only; visual proximity is not evidence of influence, agreement or collaboration."
     }
   ]
 }

@@ -166,3 +166,11 @@ The nine-corpus traversal added eight edges and strengthened six. Source count r
 Three traversals produced no semantic edge. The Ashby archive provides extraordinary primary provenance but index co-occurrence is not influence. The ISSS meeting history establishes organisational chronology but participant co-presence is not conceptual transmission. The reading list establishes intended coverage but titles are not relationship evidence.
 
 The strongest additions are mechanism- or work-specific: Principia's positive/negative feedback account of self-organisation, Ing's pattern-form treatment of voices, Systems Changes Learning's contextural action-learning formulation, and the System Dynamics Society's explicit stocks-flows-feedback method structure. The SFI and IFSR additions remain interpreted and visibly provisional.
+
+## Pass 4 internal-corpus result
+
+The internal inventory contains 18 non-public source records: six supplied slide-level decks, five earlier author syntheses or lectures, six legacy internal registers and one discovery-only network image. Across the graph these records appear in 501 edge citations, including 412 substantive citations, but only 34 citations have slide-, page-, section- or chapter-shaped locators.
+
+All 17 direct supplied-deck crosswalk statements now have claim-specific rationales and material-specific limits. Seven degraded slide ranges were normalised. No new edge was added: the outcomes deck remains documentary-only, duplicate Core Thinking titles do not multiply support, and visual proximity in the Perko network remains discovery rather than lineage evidence.
+
+The largest internal provenance debt is concentrated in the SCiO CF Resources draft and the legacy Feedback and Recursion SysBoK decks. Their broad use in generated crosswalks should be replaced by public, claim-level sources for high-value relationships.
