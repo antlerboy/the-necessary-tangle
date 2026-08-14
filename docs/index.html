@@ -139,6 +139,7 @@
         <button id="clearBrowse" type="button">Clear</button>
       </div>
       <div class="results-line"><span id="browseCount"></span><span class="small">Select an entry type or field label to filter.</span></div>
+      <h2 class="hidden" id="browseResultsHeading">Matching entries</h2>
       <div id="browseCards" class="card-grid three"></div>
     </section>
 
@@ -199,7 +200,7 @@
 </div>
           <p class="small"><strong id="mapCount">0</strong> items visible. Wheel or pinch to zoom; drag the background to pan.</p>
           <hr>
-          <h3>Find a path</h3>
+          <h2 class="control-heading">Find a path</h2>
           <div class="smart-search compact" data-search-role="path-from"><label for="pathFrom">From</label><input id="pathFrom" autocomplete="off" placeholder="Boundary"><div class="suggestions" role="listbox" hidden></div></div>
           <div class="smart-search compact" data-search-role="path-to"><label for="pathTo">To</label><input id="pathTo" autocomplete="off" placeholder="Viable System Model"><div class="suggestions" role="listbox" hidden></div></div>
           <button id="findPath" type="button" class="primary full">Find path</button>

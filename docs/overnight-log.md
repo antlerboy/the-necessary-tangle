@@ -221,7 +221,7 @@ Readers cannot open the non-public originals. The SCiO CF Resources draft, legac
 
 ## Pass 5 — experience and visual improvement
 
-Status: bounded change prepared; publication gate pending at the time of this record.
+Status: complete and live.
 
 ### Previous findings read
 
@@ -241,7 +241,7 @@ The current release retains the strongest older typography, palette, spacing, ca
 
 ### Build and test
 
-The entire data and site pipeline was reconstructed from its source layers. All maintained Python validators, the new Pass 5 validator, and JavaScript syntax checks passed. The clean build retained 496 entries, 1,720 edges, 166 sources and the Pass 3/4 corpus audits.
+The entire data and site pipeline was reconstructed from its source layers. All maintained Python validators, the new Pass 5 validator, and JavaScript syntax checks passed. The clean build retained 496 entries, 1,720 edges, 166 sources and the Pass 3/4 corpus audits. PR #42 merged to `main` as `7ef6435097fdfdeffac61b59df9ddfdd7e1a7e41`; validation run 31846181494, Pages run 31846242556 and content-backup run 31846242503 all succeeded. The cache-busted live map and connection inspector were then rechecked at desktop and mobile widths.
 
 ### Rendered inspection
 
@@ -269,4 +269,48 @@ The badges translate maintained fields; they do not independently validate claim
 
 ## Pass 6 — adversarial review and refinement
 
-Status: not started.
+Status: bounded change prepared; publication gate pending at the time of this record.
+
+### Previous findings read
+
+Pass 5's disclosure audit, the Pass 2 repetition queue, both corpus uncertainty registers and the current machine-readable relationship-quality result.
+
+### Measured current state
+
+The published Pass 5 payload contained 1,720 edges. A stricter exact source/type/target comparison found 21 duplicate groups, while the weakest epistemic classes contained 25 unlocated legacy candidates and five inferred edges. The reproducible source pipeline already omitted some legacy records; immediately before the final adversarial overlay it produced 1,688 edges and 18 exact duplicate triples. Product inspection covered nine routes at 1,440px and 390px. The main application had no horizontal overflow or browser errors, but Browse and Map skipped a heading level and the standalone reading-list page overflowed on mobile, lacked `main` and `nav` landmarks, and omitted the magic dot.
+
+### Bounded improvement
+
+- Retired 50 records from the published payload: 20 duplicate records and 30 unsupported candidate/inferred records. Thirty-two were already absent when the source layers were rebuilt; the final overlay removes the 18 remaining exact duplicates.
+- Added volume, item and work-title locators to 19 retained Foundational Papers authorship edges.
+- Merged the two legitimate Rosenblueth–Wiener work records into one co-authorship assertion retaining both work locators.
+- Preserved the von Domarus → McCulloch attribution as a visible candidate rather than promoting a secondary-source claim.
+- Added zero exact-duplicate and zero unlocated-legacy-candidate regression gates.
+- Corrected Browse and Map heading hierarchy and rebuilt the reading-list page for mobile wrapping, landmarks, skip navigation and the fixed Open updates dot.
+- Updated the older release validator so a clean build can report ten honestly unconnected entries instead of requiring unsupported edges to manufacture universal reach.
+
+### Build and test
+
+The entire pipeline was rebuilt from source. All maintained validators, the thirteen-check Pass 6 validator and JavaScript syntax checks pass with 496 public entries, 1,670 edges and 166 sources. The final route audit found no horizontal overflow, unnamed interactive elements, duplicate DOM IDs, missing image alternatives, heading jumps or browser errors on any of nine desktop and nine mobile routes. Keyboard checks opened a map edge with Enter, dismissed its drawer with Escape and toggled theme state.
+
+### Rendered inspection
+
+The Recursion neighbourhood was captured before and after at desktop and mobile widths; visible relationships fall from 18 to eight after unsupported routes are removed. The repaired 110-row reading-list page was captured at 390px. All final captures have viewport-width layout and retain the bottom-right Open updates dot.
+
+- [Before Recursion, desktop](screenshots/overnight/pass6-before-desktop-recursion.png)
+- [Before Recursion, mobile](screenshots/overnight/pass6-before-mobile-recursion.png)
+- [After Recursion, desktop](screenshots/overnight/pass6-after-desktop-recursion.png)
+- [After Recursion, mobile](screenshots/overnight/pass6-after-mobile-recursion.png)
+- [After reading list, mobile](screenshots/overnight/pass6-after-mobile-reading-list.png)
+
+### Improved
+
+Exact duplicate triples fall from 21 to zero; unlocated legacy candidates from 25 to zero; maintained inferred edges from five to zero. Nineteen bibliographic claims now identify the actual volume item. The mobile reading list no longer expands a 390px document to 753px, and its semantics and persistent update route match the main application.
+
+### Regressed
+
+Edges fall from 1,720 to 1,670, reader-connected entries from 496 to 486 and semantically connected entries from 328 to 316. The semantic-gap count rises to 180; ten historical-name entries become honestly unconnected. Rich entries fall from 36 to 35. These are deliberate corrections, not improvements in reach.
+
+### Uncertain
+
+This pass challenged every exact duplicate and the weakest explicit epistemic classes, not all 1,670 surviving edges from first principles. Only 239 locators match the conservative precision-shaped test; 299 edges still lack an explicit rationale; 80 reading-list works remain inventory-only; and broad internally generated crosswalks remain the main provenance debt. The automated accessibility audit is strong regression evidence, not a formal WCAG conformance claim.

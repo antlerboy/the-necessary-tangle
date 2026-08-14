@@ -20,7 +20,7 @@ Measurements are derived from the current public graph and reading-list inventor
 
 **Kind:** measurement plus design inference
 
-**Measurement:** There are 1398 typed public edges; 757 are conceptual, historical, human, practice or contestation relations. The substantive share is 54.1%.
+**Measurement:** There are 1371 typed public edges; 730 are conceptual, historical, human, practice or contestation relations. The substantive share is 53.2%.
 
 **Interpretation:** Authorship, hosting and collection membership answer different questions from dependence, influence, critique and use. A dense provenance layer is not evidence of conceptual agreement.
 
@@ -116,7 +116,7 @@ Measurements are derived from the current public graph and reading-list inventor
 
 **Kind:** measurement plus model warning
 
-**Measurement:** Published neighbourhoods contain 77 unique nodes, while 329 nodes are now connected; 252 connected nodes sit outside the older grouping pass.
+**Measurement:** Published neighbourhoods contain 77 unique nodes, while 317 nodes are now connected; 252 connected nodes sit outside the older grouping pass.
 
 **Interpretation:** A cluster is produced by current edges, exclusions, resolution and seed. It should not be mistaken for a discovered natural taxonomy.
 
@@ -140,7 +140,7 @@ Measurements are derived from the current public graph and reading-list inventor
 
 **Kind:** second-order observation
 
-**Measurement:** 167 entries are isolated in the substantive graph, while the largest substantive component contains 272 entries.
+**Measurement:** 179 entries are isolated in the substantive graph, while the largest substantive component contains 257 entries.
 
 **Interpretation:** Isolation often records missing source work, relation vocabulary or research attention; it does not show that an idea is naturally peripheral.
 

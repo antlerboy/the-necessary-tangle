@@ -106,6 +106,12 @@ Scores are a five-point judgement anchored in the recovered specification, not a
 | P4 | Public source links are not universal | 135 source records have public links; 18 do not | Preserve bibliographic provenance while clearly marking access limits | P1 | Open |
 | P5 | Review recency is not surfaced as a coverage dimension | Reviewed-at fields exist | Readers can see stale, unreviewed and recently checked claims | P2 | Open |
 
+## Pass 6 update
+
+The adversarial pass closes the known exact-duplication and unlocated-legacy-candidate queues, and closes the visual-status gap by exposing evidence-basis words in every connection row. It also corrects heading hierarchy and mobile reading-list overflow while preserving the magic dot. R5 and V3 are therefore closed with regression tests; V4 remains protected.
+
+The pass deliberately worsens breadth metrics: 1,720 published edges become 1,670; reader-connected entries become 486 rather than 496; semantically connected entries become 316 rather than 328; and the semantic gap becomes 180. These figures replace the misleading implication that every included historical name already had a defensible route. R1, R2, R4, C1 and P1 remain the highest-priority relationship/provenance gaps. Only 239 of 1,670 surviving edges match the conservative precision-locator pattern, and 299 still lack an explicit rationale under the machine test.
+
 ## Pass 1 conclusion
 
 The release is already a functioning public atlas rather than a prototype. The critical mismatch is not breadth or basic interaction; it is evidential depth. Documentary and collection structure currently make every public entry reachable while 167 entries still lack a semantic connection. The next pass therefore targets relationship quality before adding new breadth.

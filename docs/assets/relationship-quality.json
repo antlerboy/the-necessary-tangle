@@ -29,7 +29,7 @@
   "current": {
     "public_entries": 496,
     "all_nodes": 606,
-    "all_edges": 1720,
+    "all_edges": 1670,
     "sources": 166,
     "claims": 34,
     "evidence_records": 37,
@@ -37,21 +37,23 @@
     "journeys": 19,
     "external_corpora_reviewed": 9,
     "internal_sources_reviewed": 18,
-    "reader_connected_entries": 496,
-    "semantic_connected_entries": 328,
-    "semantic_gap_entries": 168,
+    "reader_connected_entries": 486,
+    "semantic_connected_entries": 316,
+    "semantic_gap_entries": 180,
     "connection_bands": {
-      "developing": 236,
-      "rich": 36,
-      "thin": 224
+      "developing": 233,
+      "rich": 35,
+      "thin": 218,
+      "unconnected": 10
     },
     "evidence_bands": {
-      "mixed": 192,
-      "provisional": 111,
-      "supported": 193
+      "mixed": 196,
+      "none": 10,
+      "provisional": 101,
+      "supported": 189
     },
-    "reader_statements": 1168,
-    "semantic_statements": 753
+    "reader_statements": 1123,
+    "semantic_statements": 725
   },
   "changes_from_baseline": {
     "generic_relation_review_targets": {
@@ -68,64 +70,64 @@
     },
     "semantic_connected_entries": {
       "before": 329,
-      "after": 328,
+      "after": 316,
       "note": "A generic journal-to-tradition edge was replaced by a narrower documentary scope claim; unsupported semantic reach was not preserved."
     },
     "substantive_edge_count": {
       "before": 750,
-      "after": 756
+      "after": 728
     },
     "isolated_semantic_nodes": {
       "before": 167,
-      "after": 168
+      "after": 180
     }
   },
   "criteria": {
     "typed": {
-      "passing": 1720,
-      "total": 1720
+      "passing": 1670,
+      "total": 1670
     },
     "directed": {
-      "passing": 1625,
-      "total": 1720,
-      "undirected": 95
+      "passing": 1581,
+      "total": 1670,
+      "undirected": 89
     },
     "human_readable_phrase": {
-      "passing": 1720,
-      "total": 1720
+      "passing": 1670,
+      "total": 1670
     },
     "explicit_rationale": {
-      "passing": 1416,
-      "total": 1720
+      "passing": 1371,
+      "total": 1670
     },
     "source_identifier": {
-      "passing": 1720,
-      "total": 1720
+      "passing": 1670,
+      "total": 1670
     },
     "locator_present": {
-      "passing": 1275,
-      "total": 1720
+      "passing": 1267,
+      "total": 1670
     },
     "precision_shaped_locator": {
-      "passing": 244,
-      "total": 1720,
+      "passing": 239,
+      "total": 1670,
       "note": "Conservative text-pattern measure; manual review is still required."
     },
     "epistemic_fields_present": {
-      "passing": 1720,
-      "total": 1720
+      "passing": 1670,
+      "total": 1670
     },
     "generic_related_to": {
-      "passing": 1720,
-      "total": 1720,
+      "passing": 1670,
+      "total": 1670,
       "review_target_count": 0
     },
     "three_or_more_relation_families": {
-      "passing": 74,
+      "passing": 69,
       "total": 496
     },
     "one_relation_family": {
-      "count": 189,
+      "count": 181,
       "total": 496
     },
     "external_corpus_records": {
@@ -135,6 +137,16 @@
     "internal_corpus_records": {
       "passing": 18,
       "total": 18
+    },
+    "exact_duplicate_triples": {
+      "passing": 1670,
+      "total": 1670,
+      "review_target_count": 0
+    },
+    "legacy_unlocated_candidates": {
+      "passing": 1670,
+      "total": 1670,
+      "review_target_count": 0
     }
   },
   "generic_relation_review": [],
@@ -152,6 +164,196 @@
     }
   ],
   "priority_queue": [
+    {
+      "node_id": "person_archimedes",
+      "label": "Archimedes",
+      "entity_type": "person",
+      "publication_level": "described",
+      "connection_band": "unconnected",
+      "evidence_band": "none",
+      "visible_connections": 0,
+      "visible_statements": 0,
+      "reader_connections": 0,
+      "reader_statements": 0,
+      "semantic_connections": 0,
+      "semantic_statements": 0,
+      "documentary_statements": 0,
+      "accepted_reader_statements": 0,
+      "provisional_reader_statements": 0,
+      "distinct_reader_families": 0,
+      "reader_families": []
+    },
+    {
+      "node_id": "person_claude_bernard",
+      "label": "Claude Bernard",
+      "entity_type": "person",
+      "publication_level": "described",
+      "connection_band": "unconnected",
+      "evidence_band": "none",
+      "visible_connections": 0,
+      "visible_statements": 0,
+      "reader_connections": 0,
+      "reader_statements": 0,
+      "semantic_connections": 0,
+      "semantic_statements": 0,
+      "documentary_statements": 0,
+      "accepted_reader_statements": 0,
+      "provisional_reader_statements": 0,
+      "distinct_reader_families": 0,
+      "reader_families": []
+    },
+    {
+      "node_id": "person_david_hilbert",
+      "label": "David Hilbert",
+      "entity_type": "person",
+      "publication_level": "described",
+      "connection_band": "unconnected",
+      "evidence_band": "none",
+      "visible_connections": 0,
+      "visible_statements": 0,
+      "reader_connections": 0,
+      "reader_statements": 0,
+      "semantic_connections": 0,
+      "semantic_statements": 0,
+      "documentary_statements": 0,
+      "accepted_reader_statements": 0,
+      "provisional_reader_statements": 0,
+      "distinct_reader_families": 0,
+      "reader_families": []
+    },
+    {
+      "node_id": "person_giuseppe_peano",
+      "label": "Giuseppe Peano",
+      "entity_type": "person",
+      "publication_level": "described",
+      "connection_band": "unconnected",
+      "evidence_band": "none",
+      "visible_connections": 0,
+      "visible_statements": 0,
+      "reader_connections": 0,
+      "reader_statements": 0,
+      "semantic_connections": 0,
+      "semantic_statements": 0,
+      "documentary_statements": 0,
+      "accepted_reader_statements": 0,
+      "provisional_reader_statements": 0,
+      "distinct_reader_families": 0,
+      "reader_families": []
+    },
+    {
+      "node_id": "person_kurt_gödel",
+      "label": "Kurt Gödel",
+      "entity_type": "person",
+      "publication_level": "described",
+      "connection_band": "unconnected",
+      "evidence_band": "none",
+      "visible_connections": 0,
+      "visible_statements": 0,
+      "reader_connections": 0,
+      "reader_statements": 0,
+      "semantic_connections": 0,
+      "semantic_statements": 0,
+      "documentary_statements": 0,
+      "accepted_reader_statements": 0,
+      "provisional_reader_statements": 0,
+      "distinct_reader_families": 0,
+      "reader_families": []
+    },
+    {
+      "node_id": "person_leonardo_of_pisa",
+      "label": "Leonardo of Pisa",
+      "entity_type": "person",
+      "publication_level": "described",
+      "connection_band": "unconnected",
+      "evidence_band": "none",
+      "visible_connections": 0,
+      "visible_statements": 0,
+      "reader_connections": 0,
+      "reader_statements": 0,
+      "semantic_connections": 0,
+      "semantic_statements": 0,
+      "documentary_statements": 0,
+      "accepted_reader_statements": 0,
+      "provisional_reader_statements": 0,
+      "distinct_reader_families": 0,
+      "reader_families": []
+    },
+    {
+      "node_id": "person_noam_chomsky",
+      "label": "Noam Chomsky",
+      "entity_type": "person",
+      "publication_level": "described",
+      "connection_band": "unconnected",
+      "evidence_band": "none",
+      "visible_connections": 0,
+      "visible_statements": 0,
+      "reader_connections": 0,
+      "reader_statements": 0,
+      "semantic_connections": 0,
+      "semantic_statements": 0,
+      "documentary_statements": 0,
+      "accepted_reader_statements": 0,
+      "provisional_reader_statements": 0,
+      "distinct_reader_families": 0,
+      "reader_families": []
+    },
+    {
+      "node_id": "person_panini",
+      "label": "Panini",
+      "entity_type": "person",
+      "publication_level": "described",
+      "connection_band": "unconnected",
+      "evidence_band": "none",
+      "visible_connections": 0,
+      "visible_statements": 0,
+      "reader_connections": 0,
+      "reader_statements": 0,
+      "semantic_connections": 0,
+      "semantic_statements": 0,
+      "documentary_statements": 0,
+      "accepted_reader_statements": 0,
+      "provisional_reader_statements": 0,
+      "distinct_reader_families": 0,
+      "reader_families": []
+    },
+    {
+      "node_id": "person_pingala",
+      "label": "Pingala",
+      "entity_type": "person",
+      "publication_level": "described",
+      "connection_band": "unconnected",
+      "evidence_band": "none",
+      "visible_connections": 0,
+      "visible_statements": 0,
+      "reader_connections": 0,
+      "reader_statements": 0,
+      "semantic_connections": 0,
+      "semantic_statements": 0,
+      "documentary_statements": 0,
+      "accepted_reader_statements": 0,
+      "provisional_reader_statements": 0,
+      "distinct_reader_families": 0,
+      "reader_families": []
+    },
+    {
+      "node_id": "person_plato",
+      "label": "Plato",
+      "entity_type": "person",
+      "publication_level": "described",
+      "connection_band": "unconnected",
+      "evidence_band": "none",
+      "visible_connections": 0,
+      "visible_statements": 0,
+      "reader_connections": 0,
+      "reader_statements": 0,
+      "semantic_connections": 0,
+      "semantic_statements": 0,
+      "documentary_statements": 0,
+      "accepted_reader_statements": 0,
+      "provisional_reader_statements": 0,
+      "distinct_reader_families": 0,
+      "reader_families": []
+    },
     {
       "node_id": "person_alessandro_rancati",
       "label": "Alessandro Rancati",
@@ -468,27 +670,6 @@
       ]
     },
     {
-      "node_id": "person_archimedes",
-      "label": "Archimedes",
-      "entity_type": "person",
-      "publication_level": "described",
-      "connection_band": "thin",
-      "evidence_band": "provisional",
-      "visible_connections": 1,
-      "visible_statements": 1,
-      "reader_connections": 1,
-      "reader_statements": 1,
-      "semantic_connections": 1,
-      "semantic_statements": 1,
-      "documentary_statements": 0,
-      "accepted_reader_statements": 0,
-      "provisional_reader_statements": 1,
-      "distinct_reader_families": 1,
-      "reader_families": [
-        "historical"
-      ]
-    },
-    {
       "node_id": "person_fpcs_b_b_mandelbrot",
       "label": "B. B. Mandelbrot",
       "entity_type": "person",
@@ -615,27 +796,6 @@
       ]
     },
     {
-      "node_id": "person_claude_bernard",
-      "label": "Claude Bernard",
-      "entity_type": "person",
-      "publication_level": "described",
-      "connection_band": "thin",
-      "evidence_band": "provisional",
-      "visible_connections": 1,
-      "visible_statements": 1,
-      "reader_connections": 1,
-      "reader_statements": 1,
-      "semantic_connections": 1,
-      "semantic_statements": 1,
-      "documentary_statements": 0,
-      "accepted_reader_statements": 0,
-      "provisional_reader_statements": 1,
-      "distinct_reader_families": 1,
-      "reader_families": [
-        "historical"
-      ]
-    },
-    {
       "node_id": "person_fpcs_d_m_raup",
       "label": "D. M. Raup",
       "entity_type": "person",
@@ -654,27 +814,6 @@
       "distinct_reader_families": 1,
       "reader_families": [
         "documentary"
-      ]
-    },
-    {
-      "node_id": "person_david_hilbert",
-      "label": "David Hilbert",
-      "entity_type": "person",
-      "publication_level": "described",
-      "connection_band": "thin",
-      "evidence_band": "provisional",
-      "visible_connections": 1,
-      "visible_statements": 1,
-      "reader_connections": 1,
-      "reader_statements": 1,
-      "semantic_connections": 1,
-      "semantic_statements": 1,
-      "documentary_statements": 0,
-      "accepted_reader_statements": 0,
-      "provisional_reader_statements": 1,
-      "distinct_reader_families": 1,
-      "reader_families": [
-        "influence"
       ]
     },
     {
@@ -951,27 +1090,6 @@
       ]
     },
     {
-      "node_id": "person_giuseppe_peano",
-      "label": "Giuseppe Peano",
-      "entity_type": "person",
-      "publication_level": "described",
-      "connection_band": "thin",
-      "evidence_band": "provisional",
-      "visible_connections": 1,
-      "visible_statements": 1,
-      "reader_connections": 1,
-      "reader_statements": 1,
-      "semantic_connections": 1,
-      "semantic_statements": 1,
-      "documentary_statements": 0,
-      "accepted_reader_statements": 0,
-      "provisional_reader_statements": 1,
-      "distinct_reader_families": 1,
-      "reader_families": [
-        "influence"
-      ]
-    },
-    {
       "node_id": "person_fpcs_h_haken",
       "label": "H. Haken",
       "entity_type": "person",
@@ -990,6 +1108,27 @@
       "distinct_reader_families": 1,
       "reader_families": [
         "documentary"
+      ]
+    },
+    {
+      "node_id": "person_harold_stephen_black",
+      "label": "Harold Stephen Black",
+      "entity_type": "person",
+      "publication_level": "described",
+      "connection_band": "thin",
+      "evidence_band": "mixed",
+      "visible_connections": 1,
+      "visible_statements": 1,
+      "reader_connections": 1,
+      "reader_statements": 1,
+      "semantic_connections": 1,
+      "semantic_statements": 1,
+      "documentary_statements": 0,
+      "accepted_reader_statements": 1,
+      "provisional_reader_statements": 0,
+      "distinct_reader_families": 1,
+      "reader_families": [
+        "historical"
       ]
     },
     {
@@ -1147,14 +1286,14 @@
       "connection_band": "thin",
       "evidence_band": "mixed",
       "visible_connections": 1,
-      "visible_statements": 2,
+      "visible_statements": 1,
       "reader_connections": 1,
-      "reader_statements": 2,
+      "reader_statements": 1,
       "semantic_connections": 1,
-      "semantic_statements": 2,
+      "semantic_statements": 1,
       "documentary_statements": 0,
       "accepted_reader_statements": 1,
-      "provisional_reader_statements": 1,
+      "provisional_reader_statements": 0,
       "distinct_reader_families": 1,
       "reader_families": [
         "historical"
@@ -1266,27 +1405,6 @@
       ]
     },
     {
-      "node_id": "person_kurt_gödel",
-      "label": "Kurt Gödel",
-      "entity_type": "person",
-      "publication_level": "described",
-      "connection_band": "thin",
-      "evidence_band": "provisional",
-      "visible_connections": 1,
-      "visible_statements": 1,
-      "reader_connections": 1,
-      "reader_statements": 1,
-      "semantic_connections": 1,
-      "semantic_statements": 1,
-      "documentary_statements": 0,
-      "accepted_reader_statements": 0,
-      "provisional_reader_statements": 1,
-      "distinct_reader_families": 1,
-      "reader_families": [
-        "influence"
-      ]
-    },
-    {
       "node_id": "person_fpcs_l_szilard",
       "label": "L. Szilárd",
       "entity_type": "person",
@@ -1305,27 +1423,6 @@
       "distinct_reader_families": 1,
       "reader_families": [
         "documentary"
-      ]
-    },
-    {
-      "node_id": "person_leonardo_of_pisa",
-      "label": "Leonardo of Pisa",
-      "entity_type": "person",
-      "publication_level": "described",
-      "connection_band": "thin",
-      "evidence_band": "provisional",
-      "visible_connections": 1,
-      "visible_statements": 1,
-      "reader_connections": 1,
-      "reader_statements": 1,
-      "semantic_connections": 1,
-      "semantic_statements": 1,
-      "documentary_statements": 0,
-      "accepted_reader_statements": 0,
-      "provisional_reader_statements": 1,
-      "distinct_reader_families": 1,
-      "reader_families": [
-        "historical"
       ]
     },
     {
@@ -1518,27 +1615,6 @@
       ]
     },
     {
-      "node_id": "person_noam_chomsky",
-      "label": "Noam Chomsky",
-      "entity_type": "person",
-      "publication_level": "described",
-      "connection_band": "thin",
-      "evidence_band": "provisional",
-      "visible_connections": 1,
-      "visible_statements": 1,
-      "reader_connections": 1,
-      "reader_statements": 1,
-      "semantic_connections": 1,
-      "semantic_statements": 1,
-      "documentary_statements": 0,
-      "accepted_reader_statements": 0,
-      "provisional_reader_statements": 1,
-      "distinct_reader_families": 1,
-      "reader_families": [
-        "influence"
-      ]
-    },
-    {
       "node_id": "person_fpcs_o_e_rossler",
       "label": "O. E. Rössler",
       "entity_type": "person",
@@ -1578,69 +1654,6 @@
       "distinct_reader_families": 1,
       "reader_families": [
         "documentary"
-      ]
-    },
-    {
-      "node_id": "person_panini",
-      "label": "Panini",
-      "entity_type": "person",
-      "publication_level": "described",
-      "connection_band": "thin",
-      "evidence_band": "provisional",
-      "visible_connections": 1,
-      "visible_statements": 1,
-      "reader_connections": 1,
-      "reader_statements": 1,
-      "semantic_connections": 1,
-      "semantic_statements": 1,
-      "documentary_statements": 0,
-      "accepted_reader_statements": 0,
-      "provisional_reader_statements": 1,
-      "distinct_reader_families": 1,
-      "reader_families": [
-        "historical"
-      ]
-    },
-    {
-      "node_id": "person_pingala",
-      "label": "Pingala",
-      "entity_type": "person",
-      "publication_level": "described",
-      "connection_band": "thin",
-      "evidence_band": "provisional",
-      "visible_connections": 1,
-      "visible_statements": 1,
-      "reader_connections": 1,
-      "reader_statements": 1,
-      "semantic_connections": 1,
-      "semantic_statements": 1,
-      "documentary_statements": 0,
-      "accepted_reader_statements": 0,
-      "provisional_reader_statements": 1,
-      "distinct_reader_families": 1,
-      "reader_families": [
-        "historical"
-      ]
-    },
-    {
-      "node_id": "person_plato",
-      "label": "Plato",
-      "entity_type": "person",
-      "publication_level": "described",
-      "connection_band": "thin",
-      "evidence_band": "provisional",
-      "visible_connections": 1,
-      "visible_statements": 1,
-      "reader_connections": 1,
-      "reader_statements": 1,
-      "semantic_connections": 1,
-      "semantic_statements": 1,
-      "documentary_statements": 0,
-      "accepted_reader_statements": 0,
-      "provisional_reader_statements": 1,
-      "distinct_reader_families": 1,
-      "reader_families": [
-        "historical"
       ]
     },
     {
@@ -2064,8 +2077,8 @@
       ]
     },
     {
-      "node_id": "person_harold_stephen_black",
-      "label": "Harold Stephen Black",
+      "node_id": "person_alan_turing",
+      "label": "Alan Turing",
       "entity_type": "person",
       "publication_level": "described",
       "connection_band": "thin",
@@ -2074,14 +2087,14 @@
       "visible_statements": 2,
       "reader_connections": 2,
       "reader_statements": 2,
-      "semantic_connections": 2,
-      "semantic_statements": 2,
-      "documentary_statements": 0,
-      "accepted_reader_statements": 1,
-      "provisional_reader_statements": 1,
+      "semantic_connections": 0,
+      "semantic_statements": 0,
+      "documentary_statements": 2,
+      "accepted_reader_statements": 2,
+      "provisional_reader_statements": 0,
       "distinct_reader_families": 1,
       "reader_families": [
-        "historical"
+        "documentary"
       ]
     },
     {
@@ -2397,15 +2410,15 @@
       "entity_type": "person",
       "publication_level": "described",
       "connection_band": "thin",
-      "evidence_band": "supported",
+      "evidence_band": "mixed",
       "visible_connections": 2,
-      "visible_statements": 3,
+      "visible_statements": 2,
       "reader_connections": 2,
-      "reader_statements": 3,
+      "reader_statements": 2,
       "semantic_connections": 1,
       "semantic_statements": 1,
-      "documentary_statements": 2,
-      "accepted_reader_statements": 3,
+      "documentary_statements": 1,
+      "accepted_reader_statements": 2,
       "provisional_reader_statements": 0,
       "distinct_reader_families": 2,
       "reader_families": [
@@ -2477,6 +2490,28 @@
       "reader_families": [
         "documentary",
         "human"
+      ]
+    },
+    {
+      "node_id": "concept_fractals",
+      "label": "Fractals",
+      "entity_type": "concept",
+      "publication_level": "described",
+      "connection_band": "thin",
+      "evidence_band": "provisional",
+      "visible_connections": 2,
+      "visible_statements": 2,
+      "reader_connections": 2,
+      "reader_statements": 2,
+      "semantic_connections": 2,
+      "semantic_statements": 2,
+      "documentary_statements": 0,
+      "accepted_reader_statements": 0,
+      "provisional_reader_statements": 2,
+      "distinct_reader_families": 2,
+      "reader_families": [
+        "conceptual",
+        "practice"
       ]
     },
     {
@@ -2654,50 +2689,6 @@
         "documentary",
         "human"
       ]
-    },
-    {
-      "node_id": "person_fpcs_r_axelrod",
-      "label": "R. Axelrod",
-      "entity_type": "person",
-      "publication_level": "described",
-      "connection_band": "thin",
-      "evidence_band": "mixed",
-      "visible_connections": 2,
-      "visible_statements": 2,
-      "reader_connections": 2,
-      "reader_statements": 2,
-      "semantic_connections": 1,
-      "semantic_statements": 1,
-      "documentary_statements": 1,
-      "accepted_reader_statements": 2,
-      "provisional_reader_statements": 0,
-      "distinct_reader_families": 2,
-      "reader_families": [
-        "documentary",
-        "human"
-      ]
-    },
-    {
-      "node_id": "person_fpcs_s_j_gould",
-      "label": "S. J. Gould",
-      "entity_type": "person",
-      "publication_level": "described",
-      "connection_band": "thin",
-      "evidence_band": "mixed",
-      "visible_connections": 2,
-      "visible_statements": 2,
-      "reader_connections": 2,
-      "reader_statements": 2,
-      "semantic_connections": 1,
-      "semantic_statements": 1,
-      "documentary_statements": 1,
-      "accepted_reader_statements": 2,
-      "provisional_reader_statements": 0,
-      "distinct_reader_families": 2,
-      "reader_families": [
-        "documentary",
-        "human"
-      ]
     }
   ],
   "limitations": [
@@ -2705,5 +2696,257 @@
     "Undirected co-authorship and similarity relations can be legitimate; direction is a semantic decision, not a blanket pass/fail rule.",
     "The audit does not claim that all edges are substantive; maintained reader and semantic subsets remain the relevant depth measures.",
     "Pass 2 accepts a one-entry reduction in semantic reach where the previous journal-to-tradition edge was supported only by resemblance and discovery context."
-  ]
+  ],
+  "adversarial_review": {
+    "pass": 6,
+    "date": "2026-08-14",
+    "method": "Exact duplicate triples were inspected individually. Every unlocated legacy candidate and every maintained inferred edge was challenged against its locator and rationale.",
+    "before": {
+      "edges": 1688,
+      "exact_duplicate_triples": 18,
+      "legacy_unlocated_candidates": 0,
+      "inferred_edges": 0
+    },
+    "after": {
+      "edges": 1670,
+      "exact_duplicate_triples": 0,
+      "legacy_unlocated_candidates": 0,
+      "inferred_edges": 0
+    },
+    "duplicate_retirements": [
+      {
+        "edge_id": "e_source_link_src_ieee_feedback_topic",
+        "reason": "A claim-located IEEE edge already connects the same endpoints with the same type."
+      },
+      {
+        "edge_id": "e_source_link_src_ieee_feedforward_topic",
+        "reason": "A claim-located IEEE edge already connects the same endpoints with the same type."
+      },
+      {
+        "edge_id": "e_08_fpcs_coauthor_008_01",
+        "reason": "Merged into one two-work Rosenblueth–Wiener co-authorship statement."
+      },
+      {
+        "edge_id": "e_fpcs_author_005_warren_mcculloch",
+        "reason": "Weaker unlocated duplicate of the item-located official bibliographic edge."
+      },
+      {
+        "edge_id": "e_fpcs_author_006_arturo_rosenblueth",
+        "reason": "Weaker unlocated duplicate of the item-located official bibliographic edge."
+      },
+      {
+        "edge_id": "e_fpcs_author_006_julian_bigelow",
+        "reason": "Weaker unlocated duplicate of the item-located official bibliographic edge."
+      },
+      {
+        "edge_id": "e_fpcs_author_006_norbert_wiener",
+        "reason": "Weaker unlocated duplicate of the item-located official bibliographic edge."
+      },
+      {
+        "edge_id": "e_fpcs_author_008_arturo_rosenblueth",
+        "reason": "Weaker unlocated duplicate of the item-located official bibliographic edge."
+      },
+      {
+        "edge_id": "e_fpcs_author_008_norbert_wiener",
+        "reason": "Weaker unlocated duplicate of the item-located official bibliographic edge."
+      },
+      {
+        "edge_id": "e_fpcs_author_009_claude_e_shannon",
+        "reason": "Weaker unlocated duplicate of the item-located official bibliographic edge."
+      },
+      {
+        "edge_id": "e_fpcs_author_011_alan_turing",
+        "reason": "Weaker unlocated duplicate of the item-located official bibliographic edge."
+      },
+      {
+        "edge_id": "e_fpcs_author_013_alan_turing",
+        "reason": "Weaker unlocated duplicate of the item-located official bibliographic edge."
+      },
+      {
+        "edge_id": "e_fpcs_author_021_herbert_simon",
+        "reason": "Weaker unlocated duplicate of the item-located official bibliographic edge."
+      },
+      {
+        "edge_id": "e_fpcs_author_034_roger_c_conant",
+        "reason": "Weaker unlocated duplicate of the item-located official bibliographic edge."
+      },
+      {
+        "edge_id": "e_fpcs_author_034_w_ross_ashby",
+        "reason": "Weaker unlocated duplicate of the item-located official bibliographic edge."
+      },
+      {
+        "edge_id": "e_fpcs_author_042_heinz_von_foerster",
+        "reason": "Weaker unlocated duplicate of the item-located official bibliographic edge."
+      },
+      {
+        "edge_id": "e_fpcs_author_046_herbert_simon",
+        "reason": "Weaker unlocated duplicate of the item-located official bibliographic edge."
+      },
+      {
+        "edge_id": "e_fpcs_author_048_francisco_varela",
+        "reason": "Weaker unlocated duplicate of the item-located official bibliographic edge."
+      },
+      {
+        "edge_id": "e_fpcs_author_048_humberto_maturana",
+        "reason": "Weaker unlocated duplicate of the item-located official bibliographic edge."
+      },
+      {
+        "edge_id": "e_fpcs_author_074_herbert_simon",
+        "reason": "Weaker unlocated duplicate of the item-located official bibliographic edge."
+      }
+    ],
+    "unsupported_retirements": [
+      {
+        "edge_id": "e_0265",
+        "reason": "Superseded by the primary, page-located Maxwell governor edge."
+      },
+      {
+        "edge_id": "e_0266",
+        "reason": "Unlocated legacy precursor; a stronger governor-instantiates-feedback route already exists."
+      },
+      {
+        "edge_id": "e_0267",
+        "reason": "Unlocated legacy historical claim; patent-level evidence is required before republication."
+      },
+      {
+        "edge_id": "e_0268",
+        "reason": "Unlocated legacy development claim; too broad to stand on a topical register alone."
+      },
+      {
+        "edge_id": "e_0270",
+        "reason": "Unlocated legacy precursor; the note names a topic but not evidence for the directed lineage claim."
+      },
+      {
+        "edge_id": "e_0272",
+        "reason": "Reverses the stronger maintained direction in which cybernetics uses feedback."
+      },
+      {
+        "edge_id": "e_0273",
+        "reason": "Reverses the stronger maintained direction in which control theory uses feedback."
+      },
+      {
+        "edge_id": "e_0275",
+        "reason": "Unlocated and overstates single-loop learning as a derivative of feedback."
+      },
+      {
+        "edge_id": "e_0276",
+        "reason": "Unlocated and overstates double-loop learning as a derivative of feedback."
+      },
+      {
+        "edge_id": "e_0277",
+        "reason": "Unlocated and misleadingly presents double bind as a derivative of feedback."
+      },
+      {
+        "edge_id": "e_0279",
+        "reason": "Unlocated and too broad: quality management contains many practices beyond feedback."
+      },
+      {
+        "edge_id": "e_0282",
+        "reason": "Unlocated legacy precursor candidate; prosody and combinatorics do not establish the published lineage."
+      },
+      {
+        "edge_id": "e_0283",
+        "reason": "Unlocated legacy precursor candidate; the morphology note does not establish the published lineage."
+      },
+      {
+        "edge_id": "e_0284",
+        "reason": "Unlocated legacy precursor candidate with no claim-specific rationale."
+      },
+      {
+        "edge_id": "e_0285",
+        "reason": "Fibonacci sequence resemblance does not by itself establish a recursion lineage."
+      },
+      {
+        "edge_id": "e_0286",
+        "reason": "Forms resemblance does not establish a recursion lineage."
+      },
+      {
+        "edge_id": "e_0287",
+        "reason": "Arithmetic and recursive definitions need a located primary or historical source."
+      },
+      {
+        "edge_id": "e_0288",
+        "reason": "Unlocated legacy development candidate with no claim-specific rationale."
+      },
+      {
+        "edge_id": "e_0289",
+        "reason": "Incompleteness and formal systems do not by themselves establish this development claim."
+      },
+      {
+        "edge_id": "e_0290",
+        "reason": "Computability relevance does not by itself establish the broad developed-or-extended claim."
+      },
+      {
+        "edge_id": "e_0291",
+        "reason": "Architecture of complexity does not by itself establish development of recursion."
+      },
+      {
+        "edge_id": "e_0292",
+        "reason": "Generative syntax relevance needs a located source for the directed development claim."
+      },
+      {
+        "edge_id": "e_0293",
+        "reason": "Self-organisation and recursive epistemology need a located source for the directed development claim."
+      },
+      {
+        "edge_id": "e_0294",
+        "reason": "Recursive mechanisms in cognition need a located source for the directed development claim."
+      },
+      {
+        "edge_id": "e_0295",
+        "reason": "Autopoiesis and cognition need a located source for the directed development claim."
+      },
+      {
+        "edge_id": "e_0142",
+        "reason": "A framework grouping does not establish that this knowledge domain complements the whole approaches corpus."
+      },
+      {
+        "edge_id": "e_0143",
+        "reason": "A framework grouping does not establish that this knowledge domain complements the whole approaches corpus."
+      },
+      {
+        "edge_id": "e_0144",
+        "reason": "A framework grouping does not establish that this knowledge domain complements the whole approaches corpus."
+      },
+      {
+        "edge_id": "e_0299",
+        "reason": "Definition comparison distinguishes recursion and fractality but does not evidence that they are often confused."
+      },
+      {
+        "edge_id": "e_0343",
+        "reason": "Definition comparison distinguishes feedback and homeostasis but does not evidence frequency of confusion."
+      }
+    ],
+    "strengthened_edges": {
+      "item_located_bibliographic_edges": 19,
+      "merged_two_work_coauthorship_edge": "e_08_fpcs_coauthor_006_02"
+    },
+    "retained_uncertainty": [
+      {
+        "edge_id": "e_0301",
+        "decision": "retained as an explicit candidate rather than promoted",
+        "reason": "The public secondary source and claim node make the attribution inspectable, but the primary lineage evidence is still missing."
+      }
+    ],
+    "removed_in_this_run": [
+      "e_08_fpcs_coauthor_008_01",
+      "e_fpcs_author_005_warren_mcculloch",
+      "e_fpcs_author_006_arturo_rosenblueth",
+      "e_fpcs_author_006_julian_bigelow",
+      "e_fpcs_author_006_norbert_wiener",
+      "e_fpcs_author_008_arturo_rosenblueth",
+      "e_fpcs_author_008_norbert_wiener",
+      "e_fpcs_author_009_claude_e_shannon",
+      "e_fpcs_author_011_alan_turing",
+      "e_fpcs_author_013_alan_turing",
+      "e_fpcs_author_021_herbert_simon",
+      "e_fpcs_author_034_roger_c_conant",
+      "e_fpcs_author_034_w_ross_ashby",
+      "e_fpcs_author_042_heinz_von_foerster",
+      "e_fpcs_author_046_herbert_simon",
+      "e_fpcs_author_048_francisco_varela",
+      "e_fpcs_author_048_humberto_maturana",
+      "e_fpcs_author_074_herbert_simon"
+    ]
+  }
 }

@@ -1,5 +1,15 @@
 # Morning change list
 
+## Pass 6: adversarial review and refinement
+
+- Challenged every exact duplicate and the weakest explicit evidence classes.
+- Reduced the published graph from 1,720 to 1,670 edges: exact duplicate triples 21 → 0, unlocated legacy candidates 25 → 0 and inferred edges 5 → 0.
+- Added precise item locators to 19 retained Foundational Papers authorship records and merged two distinct Rosenblueth–Wiener works without losing either locator.
+- Accepted a reach correction: reader-connected entries 496 → 486 and semantically connected entries 328 → 316.
+- Repaired mobile overflow, landmarks and magic-dot parity on the standalone reading list; corrected Browse and Map heading hierarchy.
+- Tested nine routes at desktop and mobile widths, plus skip navigation, map-edge keyboard activation, Escape dismissal and theme toggling.
+- Added a reproducible adversarial overlay, thirteen-check validator, machine-readable quality gates and `documentation/adversarial-review.md`.
+
 ## Pass 5: experience and visual disclosure
 
 - Compared the current interface with the strongest older visual foundation and retained its typography, spacing, cards, responsive layout and magic dot.
@@ -39,7 +49,7 @@ This list is cumulative. “Live” means merged to `main`, successful Pages dep
 - PR #38 merged as `9e4159d`; validation, Pages publication and content backup succeeded.
 - The recovered specification, gap register, machine audit and baseline screenshots are live.
 
-## Prepared in Pass 2
+### Pass 2
 
 - Replaced all eight generic relationship targets with source-located claims or narrower documentary scope.
 - Added one explicit disagreement: Natural drift challenges the natural-selection mechanism assumed by Principia's evolutionary cybernetics.
@@ -47,7 +57,7 @@ This list is cumulative. “Live” means merged to `main`, successful Pages dep
 - Added two source records and made the review reproducible in the clean-build pipeline.
 - Accepted a one-entry reduction in semantic reach rather than retaining an unsupported edge.
 
-## Prepared in Pass 1
+### Pass 1 detail
 
 - Recovered the original multiplex evidence-graph specification.
 - Added a prioritised gap register covering content, relationships, interaction, navigation, visual design, contribution and provenance.
@@ -57,6 +67,11 @@ This list is cumulative. “Live” means merged to `main`, successful Pages dep
 - Identified the main structural gap: 167 public entries have no semantic connection even though all 496 have a reader-visible documentary or semantic connection.
 - Identified eight generic relation targets, one repeated assertion group, 446 missing locators and a large thin cohort concentrated in people and publications.
 
-## Still to do
+## Candid remaining work
 
-- Run adversarial, accessibility, navigation and build review.
+- 180 entries still have no semantic connection; ten have no reader-visible route at all.
+- 218 entries remain thin, heavily concentrated in people and publications.
+- Only 239 of 1,670 edges have a precision-shaped locator under the conservative machine test; 299 lack an explicit rationale.
+- Eighty of 110 reading-list works remain inventory-only.
+- Broad internal crosswalk sources, especially legacy Feedback/Recursion material and the SCiO framework draft, need claim-level public replacements.
+- The route audit is not a formal accessibility certification, and not every surviving relationship was reread from first principles in Pass 6.
