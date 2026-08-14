@@ -1,5 +1,14 @@
 # Morning change list
 
+## Pass 5: experience and visual disclosure
+
+- Compared the current interface with the strongest older visual foundation and retained its typography, spacing, cards, responsive layout and magic dot.
+- Added evidence-basis badges to map and entry connection rows without adding visual material to the graph canvas.
+- Made source-established, sourced, interpreted, inferred, candidate and inherited relationships visibly different in words as well as colour.
+- Exposed stored assertion mode and exact claim-level locator in the connection inspector.
+- Added an idempotent interface patch, an eight-check validator and `documentation/experience-visual-audit.md`.
+- Captured older-reference, before and after desktop/mobile renders.
+
 ## Pass 4: internal corpus
 
 - Classified all 18 non-public source records by actual inspection status and evidential role.
@@ -50,8 +59,4 @@ This list is cumulative. “Live” means merged to `main`, successful Pages dep
 
 ## Still to do
 
-- Audit and improve weak/repetitive relationships.
-- Traverse Principia, David Ing, the reading list and six other substantial sources internally.
-- Mine the supplied internal corpus.
-- Refine desktop/mobile experience while preserving the magic dot.
 - Run adversarial, accessibility, navigation and build review.

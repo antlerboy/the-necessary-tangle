@@ -278,6 +278,58 @@
     return labels[value] || titleCase(value || 'not stated');
   }
 
+
+  function relationshipBasis(edge) {
+    const mode = String(edge.assertion_mode || '').toLowerCase();
+    const review = String(edge.public_review_label || '').toLowerCase();
+    const hasSources = parse(edge.source_ids, []).length > 0;
+    if (['inferred', 'candidate'].includes(mode)) {
+      return {
+        key: 'inference',
+        label: mode === 'candidate' ? 'Candidate connection' : 'Inferred connection',
+        description: 'This is a proposed or inferred connection, not a source-established statement.'
+      };
+    }
+    if (['interpreted', 'editorial_research_pass'].includes(mode)) {
+      return {
+        key: 'interpretation',
+        label: mode === 'editorial_research_pass' ? 'Editorial synthesis' : 'Curatorial interpretation',
+        description: 'The connection is an editorial interpretation of the cited material.'
+      };
+    }
+    if (mode === 'inherited') {
+      return {
+        key: 'inherited',
+        label: 'Inherited record',
+        description: 'The connection was inherited from an earlier register and still needs claim-level review.'
+      };
+    }
+    if (mode === 'asserted' && hasSources && /source-established|source-backed|official bibliographic/.test(review)) {
+      return {
+        key: 'source-established',
+        label: 'Source-established',
+        description: 'The maintained statement is explicitly established by the linked source record.'
+      };
+    }
+    if (mode === 'asserted' && hasSources) {
+      return {
+        key: 'sourced',
+        label: 'Sourced assertion',
+        description: 'The maintained assertion has a linked source; inspect the locator and status to judge its precision.'
+      };
+    }
+    return {
+      key: 'maintained',
+      label: 'Maintained assertion',
+      description: 'The atlas maintains this statement, but no stronger evidence-basis label is available.'
+    };
+  }
+
+  function relationshipBasisBadge(edge) {
+    const basis = relationshipBasis(edge);
+    return `<span class="badge connection-basis ${esc(basis.key)}">${esc(basis.label)}</span>`;
+  }
+
   function relationFamilyLabel(value) {
     return RELATION_FAMILY_LABELS[value] || titleCase(value);
   }
@@ -579,7 +631,7 @@
       .map((edge) => `<tr>
         <td>${relationStatement(edge)}<div class="small">${esc(edge.scope_conditions || edge.notes || '')}</div></td>
         <td>
-          <span class="badge ${['accepted', 'corroborated'].includes(edge.claim_status) ? 'supported' : 'provisional'}">${esc(edge.public_review_label || publicStatusLabel(edge.claim_status))}</span><br>
+          <span class="badge ${['accepted', 'corroborated'].includes(edge.claim_status) ? 'supported' : 'provisional'}">${esc(edge.public_review_label || publicStatusLabel(edge.claim_status))}</span> ${relationshipBasisBadge(edge)}<br>
           <button class="text-button inspect-edge" data-edge="${esc(edge.id)}">Inspect this connection</button>
         </td>
       </tr>`).join('');
@@ -1401,7 +1453,8 @@
       <div class="entry-actions"><a href="${internalHref('item', { id: node.id, from: 'map' })}" class="button primary open-card internal-entry-link" data-id="${esc(node.id)}">Open full entry</a></div>
       <h3>Move through ${allRelations.length} visible connection${allRelations.length === 1 ? '' : 's'}</h3>
       <p class="small">Choose either named item to make it the new centre. Choose ‘Inspect this connection’ for wording, status and sources.</p>
-      ${relations.map((edge) => `<div class="relation-statement">${relationStatement(edge)}<br><button class="text-button inspect-edge" data-edge="${esc(edge.id)}">Inspect this connection</button></div>`).join('')}
+      <p class="small relationship-key"><strong>Evidence basis:</strong> badges distinguish sourced assertions, curatorial interpretation and inference. Dashed lines remain provisional.</p>
+      ${relations.map((edge) => `<div class="relation-statement">${relationStatement(edge)}<br>${relationshipBasisBadge(edge)}<br><button class="text-button inspect-edge" data-edge="${esc(edge.id)}">Inspect this connection</button></div>`).join('')}
       ${allRelations.length > relations.length ? `<p class="small">Showing the first ${relations.length} connections in the selected layer. Use a narrower layer or the full entry for the rest.</p>` : ''}`;
     bindCards($('mapInspector'));
     $$('.entry-link', $('mapInspector')).forEach((link) => link.addEventListener('click', (event) => { if (!plainLeftClick(event)) return; event.preventDefault(); activateMapNode(link.dataset.id); }));
@@ -1419,18 +1472,26 @@
     const direction = String(edge.directed).toLowerCase() === 'true' || edge.directed === true
       ? `Read this from left to right: ${sourceNode?.label || edge.source} ${edge.plain_phrase || edge.relation_type} ${targetNode?.label || edge.target}.`
       : 'This connection is treated as undirected.';
+    const basis = relationshipBasis(edge);
+    const locator = String(edge.source_locator || '').trim();
     const html = `<p class="eyebrow">Connection</p>
       <h2>${relationStatement(edge)}</h2>
       <p>${esc(edge.scope_conditions || edge.notes || 'No additional scope note has been written.')}</p>
       <div class="badges">
         <span class="badge">${esc(relationFamilyLabel(edge.relation_family))}</span>
         <span class="badge ${['accepted', 'corroborated'].includes(edge.claim_status) ? 'supported' : 'provisional'}">${esc(edge.public_review_label || publicStatusLabel(edge.claim_status))}</span>
+        ${relationshipBasisBadge(edge)}
         <span class="badge">Confidence: ${esc(edge.confidence || 'not stated')}</span>
       </div>
       <section class="entry-section">
         <h2>How to read it</h2>
         <p>${esc(direction)}</p>
         <p><strong>Connection type:</strong> ${esc(relationDefinition?.plain_phrase || edge.plain_phrase || titleCase(edge.relation_type))}</p>
+        <div class="relation-inspection-basis">
+          <p><strong>Evidence basis:</strong> ${esc(basis.label)}. ${esc(basis.description)}</p>
+          <p><strong>Stored assertion mode:</strong> ${esc(titleCase(edge.assertion_mode || 'not stated'))}</p>
+          <p><strong>Claim-level locator:</strong> ${esc(locator || 'No claim-level locator is recorded.')}</p>
+        </div>
       </section>
       <section class="entry-section"><h2>Sources</h2>${sources.map(sourceLink).join('') || '<p>No source linked.</p>'}</section>
       ${evidence.length ? `<section class="entry-section"><h2>Evidence</h2>${evidence.map(evidenceBlock).join('')}</section>` : ''}`;
