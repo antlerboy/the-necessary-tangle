@@ -10,7 +10,7 @@ Curated by [Benjamin P Taylor](https://www.antlerboy.com/).
 
 ## Public site
 
-**https://antlerboy.github.io/the-necessary-tangle/**
+**https://transduction.systems/**
 
 The site includes:
 
@@ -24,19 +24,30 @@ The site includes:
 
 ## Status
 
-This is a public alpha. Release 0.15 contains 495 canonical public entries, including 111 developed profiles, 148 sources and 18 guided journeys. Breadth is not presented as completeness, and editorial acceptance is not presented as final consensus.
+This is a public alpha. Release 0.16 contains 496 canonical public entries, including 111 developed profiles, 153 sources and 19 guided journeys. Breadth is not presented as completeness, and editorial acceptance is not presented as final consensus.
+
+Release 0.16 makes the 33 *Grammar of Systems* laws and principles visible as a connected web rather than a disconnected list. The book-to-law statements are source-backed; the new law-to-concept, law-to-law and law-to-practice crosswalk is explicitly provisional and open to page-level evidence and challenge.
+
+The [relational-depth programme](documentation/relational-depth.md) now measures every public entry by distinct reader neighbours and relation families, separately from the evidential strength of those statements. The first graph-wide cohort removes reader-isolated entries, connects all maintained intervention skills, and leaves thin people, publications and corpora visible as an ordered research queue rather than disguising them with generic “related to” links.
 
 The strongest current material is around boundaries and observers; feedback and regulation; variety, viability and the Viable System Model; systems laws and strategy; context-sensitive sense-making and Cynefin; applied practitioner lineages; recursion; emergence; and self-organisation. Human and institutional lineage, the complexity corpus and practice transmission still need much more work.
 
 The [coverage programme](documentation/coverage-programme.md) makes the next corpus and lineage passes explicit, including the *Foundational Papers in Complexity Science*, relevant Monoskop material, the SysCoI and model.report archives, prior maps and bodies of knowledge, practitioner influence constellations, and practice sources which can be supported by public evidence.
 
+The [original vision audit](documentation/original-vision-audit.md) compares the current atlas with the commissioning conversation and original specification, and turns the remaining gap into ordered acceptance criteria.
+
 The [Dave Snowden and Cynefin source account](documentation/snowden-cynefin-sources.md) distinguishes the evidential roles of author archive, project wiki, primary papers, publisher records and public institutional applications.
 
-The [reading-list depth map](https://antlerboy.github.io/the-necessary-tangle/reading-list.html) exposes all 110 captured items and distinguishes developed profiles, thinner representation and inventory-only coverage.
+
+
+
+
+
+The [reading-list depth map](https://transduction.systems/reading-list.html) exposes all 110 captured items and distinguishes developed profiles, thinner representation and inventory-only coverage.
 
 ## Start here
 
-Readers: open the [public site](https://antlerboy.github.io/the-necessary-tangle/).
+Readers: open the [public site](https://transduction.systems/).
 
 Continue into the living field through the [Systems Community of Inquiry](https://www.syscoi.com/), [SCiO capability and accreditation](https://www.systemspractice.org/professional-accreditation), [SCiO professional development](https://www.systemspractice.org/professional-development), and [Benjamin P Taylor's reading list](https://stream.syscoi.com/2024/10/01/updated-rough-draft-systems-complexity-cybernetics-reading-list/).
 

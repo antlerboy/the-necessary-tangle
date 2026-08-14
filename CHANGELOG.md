@@ -1,5 +1,17 @@
 # Changelog
 
+## 0.16-grammar-connections-presentation-alpha — 14 August 2026
+
+- Connected all 33 *Grammar of Systems* laws and principles to the source publication and to multiple concepts, principles or practices.
+- Marked the 178 semantic crosswalk statements as provisional and challengeable pending page-level evidence review.
+- Added graph-wide structural and evidential depth measures, a public depth filter and an explicit enrichment queue.
+- Added typed provisional routes for all maintained intervention skills and the previously isolated concept, method, tool and tradition cohort; exposed official collection contents as documentary statements.
+- Incorporated slide-level relational evidence from the supplied transformation, convening, organisational-dynamics, VSM, clarity and conversation material.
+- Added the guided journey “The Grammar is a web, not a list” across all nine Grammar patterns.
+- Restored the missing layout primitives and the fixed entry drawer while retaining the discreet bottom-right update dot.
+- Added an audit and ordered acceptance criteria against the original vision and specification.
+- Closed the two superseded v0.12 release-workflow pull requests without merging them.
+
 ## 0.15-ing-reading-practice-alpha — 14 August 2026
 
 - Added a developed David Ing constellation covering service systems thinking, Systems Changes Learning, pattern language, public corpora and lineage documentation.

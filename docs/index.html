@@ -10,13 +10,13 @@
   <meta property="og:type" content="website">
   <meta property="og:title" content="The Necessary Tangle">
   <meta property="og:description" content="A living evidence atlas of systems | cybernetics | complexity. Every connection must say what it means.">
-  <meta property="og:url" content="https://antlerboy.github.io/the-necessary-tangle/">
+  <meta property="og:url" content="https://transduction.systems/">
   <meta name="twitter:card" content="summary">
-  <link rel="canonical" href="https://antlerboy.github.io/the-necessary-tangle/">
+  <link rel="canonical" href="https://transduction.systems/">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <title>The Necessary Tangle</title>
-  <link rel="stylesheet" href="assets/styles.css?v=0.15-mapfix">
-  <link rel="stylesheet" href="assets/site-enhancements.css?v=0.15-mapfix2">
+  <link rel="stylesheet" href="assets/styles.css?v=0.16">
+  <link rel="stylesheet" href="assets/site-enhancements.css?v=0.16">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -99,6 +99,7 @@
           <a class="start-small-card" href="#view=map&layer=substantive&depth=1&focus=concept_viability"><span class="eyebrow">A readable neighbourhood</span><strong>Viability and its immediate connections</strong><span>Start with one question-sized piece of the graph; expand only when it helps.</span></a>
           <a class="start-small-card" href="#view=journeys&id=journey_david_ing_systems_in_plural&step=0"><span class="eyebrow">Service systems and lineages</span><strong>David Ing journey</strong><span>Follow service systems thinking, Systems Changes Learning, pattern language and unusually rich documentation of systems lineages.</span></a>
           <a class="start-small-card" href="#view=journeys&id=journey_core_systems_practice_reading&step=0"><span class="eyebrow">Professional systems practice</span><strong>Core systems practice</strong><span>Concepts and laws, CSH, SSM, System Dynamics, VSM, multi-methodology, intervention and reflexive learning.</span></a>
+          <a class="start-small-card" href="#view=journeys&id=journey_grammar_principles_in_connection&step=0"><span class="eyebrow">The Grammar of Systems</span><strong>The Grammar is a web, not a list</strong><span>Follow eight principles through all nine thinking patterns, then inspect their conceptual and practical connections.</span></a>
           <a class="start-small-card" href="reading-list.html"><span class="eyebrow">Reading and coverage</span><strong>Reading-list depth map</strong><span>Every captured reading-list item with its current status: developed profile, represented, or inventory-only.</span></a>
         </div>
       </section>
@@ -134,6 +135,7 @@
         <label>Type<select id="browseType"><option value="all">All entry types</option></select></label>
         <label>Field<select id="browseTag"><option value="all">All fields</option></select></label>
         <label>Depth<select id="browseLevel"><option value="developed">All readable entries</option><option value="profile">Developed entries only</option></select></label>
+        <label>Connections<select id="browseConnectionDepth"><option value="all">All connection depths</option><option value="rich">Rich</option><option value="developing">Developing</option><option value="thin">Thin</option><option value="unconnected">Unconnected</option></select></label>
         <button id="clearBrowse" type="button">Clear</button>
       </div>
       <div class="results-line"><span id="browseCount"></span><span class="small">Select an entry type or field label to filter.</span></div>
@@ -167,7 +169,7 @@
 
           <label>Layer<select id="mapLayer">
             <option value="all">Everything — full typed graph</option>
-            <option value="substantive" selected>Reader map — substantive relationships</option>
+            <option value="substantive" selected>Reader map — meaningful relationships</option>
             <option value="conceptual">Conceptual layer</option>
             <option value="human">Human lineage layer</option>
             <option value="practice">Practice layer</option>
@@ -288,6 +290,15 @@
       <div class="about-grid">
         <article class="plain-panel wide"><h2>What it is</h2><p>The Necessary Tangle is a navigable, evidence-backed account of systems | cybernetics | complexity. It maps concepts, people, methods, publications, institutions, practices and traditions, and distinguishes the different ways they connect.</p><p>It is both a reference atlas and a revisable argument. Any map is selective and interpretive; drawing it does not make it neutral.</p></article>
 
+        <article class="plain-panel wide relational-depth-panel">
+          <p class="eyebrow">Connections are maintained data</p>
+          <h2>Relational depth, made visible</h2>
+          <p>Every public entry now has two separate readings: <strong>structural depth</strong> counts distinct reader neighbours and relation families; <strong>evidence depth</strong> distinguishes accepted or corroborated statements from provisional crosswalks. More lines never turn interpretation into proof.</p>
+          <div class="metrics" id="relationalDepthMetrics"></div>
+          <p>The target shape differs by entry: a concept needs prerequisites, contrasts, history, uses and challenges; a person needs works, institutions and human transmission; a method needs foundations, tools, cases and limits. Thin entries remain visible as the public work queue.</p>
+          <p><a class="button primary" href="https://github.com/antlerboy/the-necessary-tangle/blob/main/documentation/relational-depth.md" target="_blank" rel="noopener">Inspect the relational-depth programme</a> <a class="button" href="#view=browse" data-view-link="browse">Browse by connection depth</a></p>
+        </article>
+
         <article class="plain-panel wide ai-observations-callout">
           <p class="eyebrow">A second observer</p>
           <h2>AI observations</h2>
@@ -372,7 +383,7 @@
 
         <article class="plain-panel wide"><h2>Rights, reuse and responsibility</h2><p>Original atlas text, public data and editorial material are licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="license noopener">Creative Commons Attribution-ShareAlike 4.0 International</a>, unless otherwise marked. Original software is available under the MIT licence. Third-party works remain under their own terms and are not relicensed here.</p><p>This is a developing scholarly and practitioner resource, not an official position of SCiO or any other named organisation. It contains provisional and disputed interpretations and will contain errors and omissions.</p><p><a href="https://github.com/antlerboy/the-necessary-tangle/blob/main/RIGHTS.md" target="_blank" rel="noopener">Read the rights and licensing statement →</a></p></article>
 
-        <article class="plain-panel wide"><h2>Documentation</h2><p>The method, source policy, data model, maintenance process, governance, coverage programme and current limitations live with the project rather than in detached files.</p><div class="button-row wrap"><a class="button" href="https://github.com/antlerboy/the-necessary-tangle/blob/main/documentation/reading-the-atlas.md" target="_blank" rel="noopener">How to read the atlas</a><a class="button" href="https://github.com/antlerboy/the-necessary-tangle/blob/main/documentation/editorial-model.md" target="_blank" rel="noopener">Editorial model</a><a class="button" href="https://github.com/antlerboy/the-necessary-tangle/blob/main/documentation/source-policy.md" target="_blank" rel="noopener">Source policy</a><a class="button" href="https://github.com/antlerboy/the-necessary-tangle/blob/main/documentation/canonical-source-register.md" target="_blank" rel="noopener">Canonical source roles</a><a class="button" href="reading-list.html">Reading-list depth</a><a class="button" href="https://github.com/antlerboy/the-necessary-tangle/blob/main/documentation/core-systems-practice.md" target="_blank" rel="noopener">Core systems practice</a><a class="button" href="https://github.com/antlerboy/the-necessary-tangle/blob/main/documentation/coverage-programme.md" target="_blank" rel="noopener">Coverage programme</a><a class="button" href="https://github.com/antlerboy/the-necessary-tangle/blob/main/documentation/roadmap.md" target="_blank" rel="noopener">Roadmap</a></div></article>
+        <article class="plain-panel wide"><h2>Documentation</h2><p>The method, source policy, data model, maintenance process, governance, coverage programme and current limitations live with the project rather than in detached files.</p><div class="button-row wrap"><a class="button primary" href="https://github.com/antlerboy/the-necessary-tangle/blob/main/documentation/original-vision-audit.md" target="_blank" rel="noopener">Original vision audit</a><a class="button" href="https://github.com/antlerboy/the-necessary-tangle/blob/main/documentation/reading-the-atlas.md" target="_blank" rel="noopener">How to read the atlas</a><a class="button" href="https://github.com/antlerboy/the-necessary-tangle/blob/main/documentation/editorial-model.md" target="_blank" rel="noopener">Editorial model</a><a class="button" href="https://github.com/antlerboy/the-necessary-tangle/blob/main/documentation/source-policy.md" target="_blank" rel="noopener">Source policy</a><a class="button" href="https://github.com/antlerboy/the-necessary-tangle/blob/main/documentation/canonical-source-register.md" target="_blank" rel="noopener">Canonical source roles</a><a class="button" href="reading-list.html">Reading-list depth</a><a class="button" href="https://github.com/antlerboy/the-necessary-tangle/blob/main/documentation/core-systems-practice.md" target="_blank" rel="noopener">Core systems practice</a><a class="button" href="https://github.com/antlerboy/the-necessary-tangle/blob/main/documentation/coverage-programme.md" target="_blank" rel="noopener">Coverage programme</a><a class="button" href="https://github.com/antlerboy/the-necessary-tangle/blob/main/documentation/roadmap.md" target="_blank" rel="noopener">Roadmap</a></div></article>
       </div>
       <details class="technical-details"><summary>Editorial and technical detail</summary><div><h3>Different connections answer different questions</h3><p>Historical sequence, logical dependence, explicit influence, teaching, collaboration, citation and practical use are represented separately. Treating them all as ‘related to’ produces false family trees.</p><h3>Statements remain inspectable</h3><p>Each proposed connection has a direction, wording, scope, status and sources. Competing accounts can coexist. Editorial acceptance means that the current evidence supports the stated wording; it does not make the field finally settled.</p><h3>Source and rights boundaries</h3><p>Published statements should be traceable to public sources or complete bibliographic citations. Third-party rights remain with their owners.</p></div></details>
     </section>
@@ -415,7 +426,7 @@
 
   <script src="assets/site-config.js"></script>
   <script src="assets/public-data.js"></script>
-  <script src="assets/app.js?v=0.15-mapfix2"></script>
+  <script src="assets/app.js?v=0.16"></script>
   <script src="assets/site-enhancements.js"></script>
 
   <a class="update-thread-dot" data-update-thread-dot href="https://github.com/antlerboy/the-necessary-tangle/issues/2" target="_blank" rel="noopener" aria-label="Open updates"></a>
