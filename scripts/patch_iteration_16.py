@@ -10,6 +10,7 @@ ROOT = Path(__file__).resolve().parents[1]
 INDEX = ROOT / "docs" / "index.html"
 APP = ROOT / "docs" / "assets" / "app.js"
 CSS = ROOT / "docs" / "assets" / "site-enhancements.css"
+BASE_CSS = ROOT / "docs" / "assets" / "styles.css"
 RELEASE = "0.16-grammar-connections-presentation-alpha"
 PUBLIC_URL = "https://transduction.systems/"
 
@@ -22,9 +23,9 @@ def patch_index() -> None:
     text = INDEX.read_text(encoding="utf-8")
     text = re.sub(r'<meta property="og:url" content="[^"]+">', f'<meta property="og:url" content="{PUBLIC_URL}">', text, count=1)
     text = re.sub(r'<link rel="canonical" href="[^"]+">', f'<link rel="canonical" href="{PUBLIC_URL}">', text, count=1)
-    text = re.sub(r'assets/styles\.css(?:\?v=[^"\']+)?', "assets/styles.css?v=0.16", text, count=1)
-    text = re.sub(r'assets/site-enhancements\.css(?:\?v=[^"\']+)?', "assets/site-enhancements.css?v=0.16", text, count=1)
-    text = re.sub(r'assets/app\.js(?:\?v=[^"\']+)?', "assets/app.js?v=0.16", text, count=1)
+    text = re.sub(r'assets/styles\.css(?:\?v=[^"\']+)?', "assets/styles.css?v=0.16.1-visual", text, count=1)
+    text = re.sub(r'assets/site-enhancements\.css(?:\?v=[^"\']+)?', "assets/site-enhancements.css?v=0.16.1-visual", text, count=1)
+    text = re.sub(r'assets/app\.js(?:\?v=[^"\']+)?', "assets/app.js?v=0.16.1-visual", text, count=1)
 
     if 'id="browseConnectionDepth"' not in text:
         marker = '<label>Depth<select id="browseLevel"><option value="developed">All readable entries</option><option value="profile">Developed entries only</option></select></label>'
@@ -87,19 +88,27 @@ def check_reader_code() -> None:
         if marker not in app:
             raise RuntimeError(f"relational-depth reader marker missing: {marker}")
     css = CSS.read_text(encoding="utf-8")
+    base_css = BASE_CSS.read_text(encoding="utf-8")
     for marker in (
-        "/* 0.16 presentation repair",
-        ".metrics {",
-        ".quick-links",
-        ".card-grid {",
-        ".results-line {",
-        ".drawer {",
-        ".scrim {",
+        "/* 0.16 relational presentation",
         ".relational-depth-panel",
+        ".badge.status-profile",
+        ".badge.status-stub",
         ".update-thread-dot {",
     ):
         if marker not in css:
             raise RuntimeError(f"0.16 CSS marker missing: {marker}")
+    for marker in (
+        ".metrics {",
+        ".smart-search {",
+        ".card-grid.three",
+        ".ask-shell {",
+        ".contribution-form {",
+        ".hidden {",
+        "@media print",
+    ):
+        if marker not in base_css:
+            raise RuntimeError(f"coherent base CSS marker missing: {marker}")
 
 
 def patch_release_prose() -> None:
@@ -124,6 +133,7 @@ def patch_release_prose() -> None:
     duplicate = "The [reading-list depth map](https://transduction.systems/reading-list.html) exposes all 110 captured items and distinguishes developed profiles, thinner representation and inventory-only coverage."
     while text.count(duplicate) > 1:
         text = text.replace("\n" + duplicate + "\n", "\n", 1)
+    text = re.sub(r"\n{3,}", "\n\n", text)
     relational_paragraph = "The [relational-depth programme](documentation/relational-depth.md) now measures every public entry by distinct reader neighbours and relation families, separately from the evidential strength of those statements. The first graph-wide cohort removes reader-isolated entries, connects all maintained intervention skills, and leaves thin people, publications and corpora visible as an ordered research queue rather than disguising them with generic “related to” links."
     if relational_paragraph not in text:
         marker = "Release 0.16 makes the 33 *Grammar of Systems* laws and principles visible as a connected web rather than a disconnected list. The book-to-law statements are source-backed; the new law-to-concept, law-to-law and law-to-practice crosswalk is explicitly provisional and open to page-level evidence and challenge."
@@ -139,7 +149,7 @@ def patch_release_prose() -> None:
 
     reading_page = ROOT / "docs" / "reading-list.html"
     text = reading_page.read_text(encoding="utf-8")
-    text = re.sub(r'assets/styles\.css(?:\?v=[^"\']+)?', "assets/styles.css?v=0.16", text, count=1)
+    text = re.sub(r'assets/styles\.css(?:\?v=[^"\']+)?', "assets/styles.css?v=0.16.1-visual", text, count=1)
     reading_page.write_text(clean(text), encoding="utf-8")
 
     changelog = ROOT / "CHANGELOG.md"

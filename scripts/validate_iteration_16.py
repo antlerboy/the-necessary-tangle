@@ -162,6 +162,7 @@ def main() -> int:
     index = (ROOT / "docs" / "index.html").read_text(encoding="utf-8")
     app = (ROOT / "docs" / "assets" / "app.js").read_text(encoding="utf-8")
     css = (ROOT / "docs" / "assets" / "site-enhancements.css").read_text(encoding="utf-8")
+    base_css = (ROOT / "docs" / "assets" / "styles.css").read_text(encoding="utf-8")
     for marker in (
         f'<link rel="canonical" href="{PUBLIC_URL}">',
         "journey_grammar_principles_in_connection",
@@ -169,19 +170,23 @@ def main() -> int:
         "documentation/relational-depth.md",
         'id="browseConnectionDepth"',
         'id="relationalDepthMetrics"',
-        "assets/site-enhancements.css?v=0.16",
-        "assets/app.js?v=0.16",
+        "assets/styles.css?v=0.16.1-visual",
+        "assets/site-enhancements.css?v=0.16.1-visual",
+        "assets/app.js?v=0.16.1-visual",
     ):
         if marker not in index:
             errors.append(f"0.16 interface marker is missing: {marker}")
     if "function publicEntryEdge(edge)" not in app or ".filter(publicEntryEdge)" not in app:
         errors.append("full entries still suppress meaningful documentary public connections")
-    for marker in ("relationalDepthByNode", "browseConnectionDepth", "connectionBandLabel", "!['classification', 'evidence', 'legacy']"):
+    for marker in ("relationalDepthByNode", "browseConnectionDepth", "connectionBandLabel", "!['classification', 'documentary', 'evidence', 'legacy']", "focusEdges.length <= 6"):
         if marker not in app:
             errors.append(f"relational-depth reader behaviour is missing: {marker}")
-    for marker in (".metrics {", ".quick-links", ".card-grid {", ".results-line {", ".drawer {", ".scrim {", ".relational-depth-panel"):
+    for marker in ("/* 0.16 relational presentation", ".badge.status-profile", ".badge.status-stub", ".relational-depth-panel"):
         if marker not in css:
             errors.append(f"presentation repair is missing: {marker}")
+    for marker in (".metrics {", ".smart-search {", ".card-grid.three", ".ask-shell {", ".contribution-form {", ".hidden {", "@media print"):
+        if marker not in base_css:
+            errors.append(f"coherent base presentation is missing: {marker}")
 
     update_url = "https://github.com/antlerboy/the-necessary-tangle/issues/2"
     if index.count(update_url) != 1 or ".update-thread-dot {" not in css or "position: fixed" not in css:
@@ -201,7 +206,7 @@ def main() -> int:
         errors.append("relational-depth programme is missing or implausibly small")
     else:
         relational_text = relational_doc.read_text(encoding="utf-8")
-        for marker in ("The required shape by entity", "How enrichment proceeds", "First priority queue", "Structural bands"):
+        for marker in ("The required shape by entity", "How enrichment proceeds", "What a corpus pass means", "First priority queue", "Structural bands"):
             if marker not in relational_text:
                 errors.append(f"relational-depth programme is missing: {marker}")
 

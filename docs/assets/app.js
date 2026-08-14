@@ -301,7 +301,7 @@
   }
 
   function substantiveEdge(edge) {
-    return !['classification', 'evidence', 'legacy'].includes(edge.relation_family)
+    return !['classification', 'documentary', 'evidence', 'legacy'].includes(edge.relation_family)
       && edge.relation_type !== 'legacy_association_unspecified'
       && edge.claim_status !== 'legacy_unresolved';
   }
@@ -340,7 +340,7 @@
   function mapLayerDescription() {
     const descriptions = {
       all: 'Everything includes conceptual, human, practice, contestation, authorship, evidence and collection structure.',
-      substantive: 'The reader map keeps meaningful authorship and presentation alongside conceptual, historical, human, identity, practice and contestation relationships. Collection-only and evidence-registration lines stay in provenance.',
+      substantive: 'The reader map focuses on conceptual, historical, human, identity, practice and contestation relationships. Authorship, presentation, collection structure and evidence registration remain available in full entries and the complete graph.',
       conceptual: 'Conceptual lines show definitions, prerequisites, specialisation and explanatory relationships.',
       human: 'Human lineage combines teaching, collaboration, influence and historical transmission. The line type still matters.',
       practice: 'Practice lines connect ideas, methods, interventions and documented use.',
@@ -602,7 +602,7 @@
       <p class="eyebrow">${esc(entityLabel(node.entity_type))}</p>
       <h1>${esc(node.label)}</h1>
       <div class="badges">
-        <span class="badge ${node.publication_level === 'research_stub' ? 'stub' : node.publication_level === 'profile' ? 'profile' : ''}">${esc(statusLabel(node))}</span>
+        <span class="badge ${node.publication_level === 'research_stub' ? 'status-stub' : node.publication_level === 'profile' ? 'status-profile' : ''}">${esc(statusLabel(node))}</span>
         ${depth ? `<span class="badge connection-band ${esc(depth.connection_band)}">${esc(connectionBandLabel(depth.connection_band))}</span><span class="badge evidence-band ${esc(depth.evidence_band)}">${esc(evidenceBandLabel(depth.evidence_band))}</span>` : ''}
         ${parse(node.set_tags, []).slice(0, 5).map((tag) => `<button class="badge tag-filter" data-tag="${esc(tag)}">${esc(titleCase(tag))}</button>`).join('')}
       </div>
@@ -706,7 +706,7 @@
     return `<article class="card">
       <div class="badges">
         <button class="badge type-filter" data-type="${esc(node.entity_type)}">${esc(entityLabel(node.entity_type))}</button>
-        <span class="badge ${node.publication_level === 'profile' ? 'profile' : node.publication_level === 'research_stub' ? 'stub' : ''}">${esc(statusLabel(node))}</span>
+        <span class="badge ${node.publication_level === 'profile' ? 'status-profile' : node.publication_level === 'research_stub' ? 'status-stub' : ''}">${esc(statusLabel(node))}</span>
       </div>
       <h3>${esc(node.label)}</h3>
       <p>${esc(displayDefinition(node))}</p>
@@ -1067,7 +1067,9 @@
           if (angleB !== null) return 1;
           return a.label.localeCompare(b.label);
         });
-      const radius = distanceValue === 1 ? 215 : 335 + (distanceValue - 2) * 80;
+      const radius = distanceValue === 1
+        ? Math.min(315, Math.max(215, ring.length * 24))
+        : 335 + (distanceValue - 2) * 80;
       ring.forEach((node, index) => {
         const angle = -Math.PI / 2 + (2 * Math.PI * index / Math.max(ring.length, 1));
         positions.set(node.id, {
@@ -1223,7 +1225,7 @@
       const selected = edge.id === mapSelectedEdge;
       const inPath = pathPairs.has(`${edge.source}|${edge.target}`);
       const focusEdge = edge.source === mapFocus || edge.target === mapFocus;
-      const contextEdge = wideView && !focusEdge && !selected && !inPath;
+      const contextEdge = !focusEdge && !selected && !inPath;
       const classes = [
         'graph-edge',
         ['accepted', 'corroborated'].includes(edge.claim_status) ? '' : 'provisional',
@@ -1235,7 +1237,7 @@
       const title = `${nodeById.get(edge.source)?.label || edge.source} ${edge.plain_phrase || edge.relation_type} ${nodeById.get(edge.target)?.label || edge.target}`;
       const midpointX = (source.x + target.x) / 2;
       const midpointY = (source.y + target.y) / 2;
-      const showFocusLabel = !wideView && focusEdge && edges.length <= 28;
+      const showFocusLabel = !wideView && focusEdge && focusEdges.length <= 6;
       const labelClass = selected || inPath || showFocusLabel ? 'visible' : '';
       return `<g class="graph-edge-group" data-edge="${esc(edge.id)}" tabindex="0" role="button" aria-label="${esc(title)}">
         <line class="graph-edge-hit" x1="${source.x}" y1="${source.y}" x2="${target.x}" y2="${target.y}"></line>
@@ -1745,7 +1747,7 @@
       }
       list.innerHTML = current.map((result, index) => `<button type="button" class="suggestion ${index === active ? 'active' : ''}" role="option" data-id="${esc(result.node.id)}">
         <span><strong>${esc(result.node.label)}</strong><small>${esc(entityLabel(result.node.entity_type))}${result.aliases.some((alias) => normalise(alias) === normalise(query)) ? ' · alias match' : ''}</small></span>
-        <span class="badge ${result.node.publication_level === 'research_stub' ? 'stub' : result.node.publication_level === 'profile' ? 'profile' : ''}">${esc(statusLabel(result.node))}</span>
+        <span class="badge ${result.node.publication_level === 'research_stub' ? 'status-stub' : result.node.publication_level === 'profile' ? 'status-profile' : ''}">${esc(statusLabel(result.node))}</span>
       </a>`).join('');
       list.hidden = false;
       $$('.suggestion', list).forEach((button) => button.addEventListener('mousedown', (event) => {

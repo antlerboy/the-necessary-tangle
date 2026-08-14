@@ -38,11 +38,6 @@ The [original vision audit](documentation/original-vision-audit.md) compares the
 
 The [Dave Snowden and Cynefin source account](documentation/snowden-cynefin-sources.md) distinguishes the evidential roles of author archive, project wiki, primary papers, publisher records and public institutional applications.
 
-
-
-
-
-
 The [reading-list depth map](https://transduction.systems/reading-list.html) exposes all 110 captured items and distinguishes developed profiles, thinner representation and inventory-only coverage.
 
 ## Start here

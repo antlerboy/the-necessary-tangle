@@ -14,13 +14,14 @@ assert '<option value="all" selected>Full public overview</option>' in index
 assert '<option value="substantive" selected>Reader map' in index
 assert 'id="mapFocusStatus"' in index and 'class="map-shape-key"' in index
 assert '<span id="mapScaleMode" class="map-scale-mode" aria-live="polite">Full overview</span>' in index
-assert 'assets/app.js?v=0.16' in index
+assert 'assets/app.js?v=0.16.1-visual' in index
 
 for marker in [
     'function graphNodeMark',
     "const labelBudget =",
     "if (family === 'all') return new Set(allowed);",
     "'context-edge'",
+    "focusEdges.length <= 6",
     "['path', 'profiles', 'all'].includes",
     "Full overview · ${nodes.length} entries",
     "depth === 'all' ? 'Full overview'",

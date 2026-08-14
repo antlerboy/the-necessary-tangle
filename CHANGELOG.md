@@ -8,7 +8,9 @@
 - Added typed provisional routes for all maintained intervention skills and the previously isolated concept, method, tool and tradition cohort; exposed official collection contents as documentary statements.
 - Incorporated slide-level relational evidence from the supplied transformation, convening, organisational-dynamics, VSM, clarity and conversation material.
 - Added the guided journey “The Grammar is a web, not a list” across all nine Grammar patterns.
-- Restored the missing layout primitives and the fixed entry drawer while retaining the discreet bottom-right update dot.
+- Restored the coherent pre-0.15 application stylesheet after tracing the visual regression to an accidental stylesheet replacement; retained the newer journey, map and relational-depth additions.
+- Reduced dense map noise by suppressing documentary lines and bulk edge labels in the default reader layer while keeping them available in full entries, the complete graph and interaction states.
+- Preserved the discreet bottom-right update dot.
 - Added an audit and ordered acceptance criteria against the original vision and specification.
 - Closed the two superseded v0.12 release-workflow pull requests without merging them.
 
