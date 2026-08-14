@@ -45,7 +45,7 @@ The review environment did not provide a working local HTTPS git transport. Repo
 
 ## Pass 1 — specification recovery
 
-Status: bounded change prepared; publication gate pending at the time of this record.
+Status: complete and live.
 
 ### Previous findings read
 
@@ -64,11 +64,11 @@ See the baseline above and `data/relationship-quality.json`.
 
 ### Build and test
 
-Pending branch validation. The pass cannot be marked complete until validation, merge, Pages deployment and live inspection succeed.
+Validation run 31839692364 succeeded. PR #38 merged to `main` as `9e4159d0c70217bbaea78ed479b065423166861d`. Pages run 31839752373 and content-backup run 31839752411 both succeeded.
 
 ### Rendered inspection
 
-Baseline live views were inspected before any changes. The pass changes documentation and audit artifacts only, so the visual expectation is no regression.
+Baseline live views were inspected before and after deployment at desktop and 375px mobile widths. The pass changed documentation and audit artifacts only; no product-rendering regression was observed. The committed baseline mobile-map image was also fetched from the live domain.
 
 ### Improved
 
@@ -84,7 +84,44 @@ The conservative locator-pattern count can undercount precise named-entry locato
 
 ## Pass 2 — relational architecture
 
-Status: not started.
+Status: bounded change prepared; publication gate pending at the time of this record.
+
+### Previous findings read
+
+Pass 1 gap register, relationship audit and machine-readable queue.
+
+### Measured current state
+
+All 496 public entries were re-audited through the per-node relational-depth record. Baseline review targets were eight generic edges and one repeated assertion group.
+
+### Bounded improvement
+
+- Replaced all eight generic targets with narrower, typed and directed claims grounded in the cited page, abstract, README or internal section.
+- Added two public source records for the Stacey institutional abstract and Mowles author explanation.
+- Replaced the Natural drift → Viability resemblance with an explicit tension between primary mechanism claims.
+- Replaced the Murmurations → complex responsive processes resemblance with the narrower official journal-scope claim.
+- Gave two co-authorship assertions work-specific locators.
+- Added an idempotent final build overlay and regenerated the machine audit for clean-build reproducibility.
+
+### Build and test
+
+Pending branch validation. The pass cannot be marked complete until validation, merge, Pages deployment and live inspection succeed.
+
+### Rendered inspection
+
+Pending deployment. Affected item and connection views will be inspected at desktop and 375px mobile widths.
+
+### Improved
+
+Generic review targets fall from eight to zero; repeated groups from one to zero; directed edges rise from 1,610 to 1,617; conservative precision-shaped locators rise from 220 to 231.
+
+### Regressed
+
+Semantic connectivity falls from 329 to 328 and substantive edges from 750 to 749 because the official Murmurations page supports a documentary scope claim, not the former semantic resemblance. The thin cohort remains 225.
+
+### Uncertain
+
+The Stacey emergence edge remains explicitly interpreted and provisional. It is narrow to organisational knowledge; it should not be read as a general theory of emergence.
 
 ## Pass 3 — external corpus
 

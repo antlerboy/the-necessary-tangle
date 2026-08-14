@@ -123,3 +123,38 @@ For every candidate relationship:
 5. reject the edge if the source supports only resemblance;
 6. test whether it adds a genuinely different route;
 7. re-run the machine audit and inspect the affected entries in desktop and mobile views.
+
+## Pass 2 result
+
+Pass 2 inspected every public entity through the maintained per-node depth record, then reviewed each generic or repetitive relationship against its cited source.
+
+| Measure | Baseline | Pass 2 | Change |
+| --- | ---: | ---: | ---: |
+| Generic relation review targets | 8 | 0 | −8 |
+| Repeated assertion groups | 1 | 0 | −1 |
+| Directed edges | 1,610 | 1,617 | +7 |
+| Precision-shaped locators | 220 | 231 | +11 |
+| Public sources | 153 | 155 | +2 |
+| Reader-connected entries | 496 | 496 | — |
+| Semantically connected entries | 329 | 328 | −1 |
+| Substantive edges | 750 | 749 | −1 |
+
+### Reviewed replacements
+
+- **Semantic network → Self-organisation:** now says the Principia implementation *puts into practical form the project's account of* self-organisation, located to the two relevant introduction paragraphs.
+- **Complex responsive processes → Emergence:** now an explicitly interpreted, provisional claim about the emergence of organisational knowledge through interaction, located to Stacey's institutional abstract and article pages.
+- **Complex responsive processes → Self-organisation:** now a source-established specialisation that defines social self-organisation as local interaction rather than self-management.
+- **Murmurations → Systems practice:** now a documentary journal-scope claim. The earlier complex-responsive-process edge was not supported by the official journal description.
+- **Explicit semantics → Semantic network:** now says that RDF configuration and labelled predicates *formalise the node, edge and display vocabulary*.
+- **Natural drift → Evolutionary cybernetics:** now records a tension between Maturana and Mpodozis's natural-drift mechanism and Principia's natural-selection mechanism. It no longer implies a vague relation to viability.
+- **Requisite inefficiency → Viability:** now records Velitchkov's proposed excess-variety constraint on long-run viability.
+- **Boundary → Bounded applicability:** direction is reversed and typed as definitional prerequisite, following the maintained Cynefin definition.
+- **Rosenblueth ↔ Wiener:** two co-authorship assertions remain, but each is now located to the specific work that warrants it.
+
+### Deliberate regression
+
+The Murmurations correction removes one semantic connection because the source supports a venue/scope claim, not adherence to complex responsive processes. Semantic reach falls by one. This is preferable to preserving a misleading edge.
+
+### Remaining structural risk
+
+The overall thin cohort is unchanged: 225 entries, including 112 people and 108 publications. Route diversity is also unchanged at 72 entries with three or more reader relation families and 189 with only one. The corpus passes must add new routes only where passages, not titles or similarity, warrant them.
