@@ -85,7 +85,7 @@ def patch_repository_prose()->None:
     data=json.loads(DATA.read_text(encoding='utf-8')); meta=data['meta']; inv=data['reading_list_inventory'];
     readme=ROOT/'README.md'; t=readme.read_text(encoding='utf-8')
     t=re.sub(r'This is a public alpha\. Release 0\.14 contains \d+ canonical public entries, including \d+ developed profiles, \d+ sources and \d+ guided journeys\.',f"This is a public alpha. Release 0.15 contains {meta['public_entry_count']} canonical public entries, including {meta['profile_count']} developed profiles, {meta['source_count']} sources and {meta['journey_count']} guided journeys.",t,count=1)
-    line=f"The [reading-list depth map](https://antlerboy.github.io/the-necessary-tangle/reading-list.html) exposes all {inv['item_count']} captured items and distinguishes developed profiles, thinner representation and inventory-only coverage."
+    line=f"The [reading-list depth map](https://transduction.systems/reading-list.html) exposes all {inv['item_count']} captured items and distinguishes developed profiles, thinner representation and inventory-only coverage."
     if line not in t: t=t.replace('\n## Start here\n','\n'+line+'\n\n## Start here\n',1)
     readme.write_text(clean(t),encoding='utf-8')
     cit=ROOT/'CITATION.cff'; t=cit.read_text(encoding='utf-8'); t=re.sub(r'^version:.*$',f'version: {RELEASE}',t,flags=re.M); t=re.sub(r'^date-released:.*$','date-released: 2026-08-14',t,flags=re.M); cit.write_text(clean(t),encoding='utf-8')

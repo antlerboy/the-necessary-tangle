@@ -212,7 +212,7 @@ def patch_app() -> None:
       const selected = edge.id === mapSelectedEdge;
       const inPath = pathPairs.has(`${edge.source}|${edge.target}`);
       const focusEdge = edge.source === mapFocus || edge.target === mapFocus;
-      const contextEdge = wideView && !focusEdge && !selected && !inPath;
+      const contextEdge = !focusEdge && !selected && !inPath;
       const classes = [
         'graph-edge',
         ['accepted', 'corroborated'].includes(edge.claim_status) ? '' : 'provisional',
@@ -224,7 +224,7 @@ def patch_app() -> None:
       const title = `${nodeById.get(edge.source)?.label || edge.source} ${edge.plain_phrase || edge.relation_type} ${nodeById.get(edge.target)?.label || edge.target}`;
       const midpointX = (source.x + target.x) / 2;
       const midpointY = (source.y + target.y) / 2;
-      const showFocusLabel = !wideView && focusEdge && edges.length <= 28;
+      const showFocusLabel = !wideView && focusEdge && focusEdges.length <= 6;
       const labelClass = selected || inPath || showFocusLabel ? 'visible' : '';
       return `<g class="graph-edge-group" data-edge="${esc(edge.id)}" tabindex="0" role="button" aria-label="${esc(title)}">
         <line class="graph-edge-hit" x1="${source.x}" y1="${source.y}" x2="${target.x}" y2="${target.y}"></line>

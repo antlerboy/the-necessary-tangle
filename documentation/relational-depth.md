@@ -59,6 +59,12 @@ The template is an editorial checklist, not an invitation to fill six slots with
 
 ## How enrichment proceeds
 
+### What a corpus pass means
+
+Naming a corpus such as Principia Cybernetica, David Ing's public work, the curator's reading list, Foundational Papers in Complexity Science, Monoskop, SysCoI or model.report authorises an item-level research pass over the relevant public content. A homepage, corpus node or contents list is an entry route, not completion.
+
+A completed pass should follow the substantive internal links; register the relevant works, people, institutions, concepts, arguments and practices; extract typed statements with page, section or passage locators; connect those statements across existing parts of the Tangle; and record disagreement, ambiguity and absent evidence. Rights, access and relevance boundaries still apply. 'Everything' means the relevant accessible content is systematically accounted for, including explicit exclusions and failures, not that every page must become a node.
+
 1. Select the highest-priority thin cohort by entity type, not whichever famous nodes are easiest.
 2. Use the entity template to look for missing relation families.
 3. Write each proposed line as a sentence with source, target, type, direction, ordinary-language phrase, locator, scope and status.
