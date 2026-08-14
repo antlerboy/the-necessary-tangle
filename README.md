@@ -24,7 +24,7 @@ The site includes:
 
 ## Status
 
-This is a public alpha. Release 0.16 contains 496 canonical public entries, including 111 developed profiles, 167 sources and 19 guided journeys. Breadth is not presented as completeness, and editorial acceptance is not presented as final consensus.
+This is a public alpha. Release 0.16 contains 496 canonical public entries, including 111 developed profiles, 166 sources and 19 guided journeys. Breadth is not presented as completeness, and editorial acceptance is not presented as final consensus.
 
 Release 0.16 makes the 33 *Grammar of Systems* laws and principles visible as a connected web rather than a disconnected list. The book-to-law statements are source-backed; the new law-to-concept, law-to-law and law-to-practice crosswalk is explicitly provisional and open to page-level evidence and challenge.
 

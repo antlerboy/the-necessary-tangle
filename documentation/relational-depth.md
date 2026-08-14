@@ -8,10 +8,10 @@ Generated: `2026-08-14`
 
 The atlas now treats relational richness as maintained data, not a visual impression. Every canonical public entry has a structural connection band and a separate evidence band. This makes it possible to add provisional routes without pretending that repetition, plausibility or graph density is proof.
 
-- 496 of 496 entries have at least one reader connection.
-- 36 are structurally rich, 236 developing, 224 thin and 0 unconnected.
-- 329 have at least one non-documentary semantic, historical, human, identity, practice, influence or contestation route.
-- Evidence is 192 supported, 193 mixed, 111 provisional and 0 absent at entry level.
+- 486 of 496 entries have at least one reader connection.
+- 35 are structurally rich, 233 developing, 218 thin and 10 unconnected.
+- 316 have at least one non-documentary semantic, historical, human, identity, practice, influence or contestation route.
+- Evidence is 189 supported, 196 mixed, 101 provisional and 10 absent at entry level.
 
 ## What counts
 
@@ -43,14 +43,14 @@ The template is an editorial checklist, not an invitation to fill six slots with
 | --- | ---: | ---: | ---: | ---: | ---: |
 | approach family | 6 | 2 | 4 | 0 | 0 |
 | comparator corpus | 1 | 0 | 0 | 1 | 0 |
-| concept | 60 | 11 | 49 | 0 | 0 |
+| concept | 60 | 10 | 48 | 2 | 0 |
 | corpus | 5 | 0 | 1 | 4 | 0 |
 | intervention skill | 47 | 0 | 47 | 0 | 0 |
 | knowledge domain | 1 | 0 | 1 | 0 | 0 |
 | law or principle | 33 | 16 | 17 | 0 | 0 |
 | method or methodology | 22 | 3 | 19 | 0 | 0 |
 | organisation | 3 | 0 | 3 | 0 | 0 |
-| person | 169 | 1 | 56 | 112 | 0 |
+| person | 169 | 1 | 54 | 104 | 10 |
 | practice | 6 | 2 | 4 | 0 | 0 |
 | publication | 121 | 1 | 13 | 107 | 0 |
 | technology | 1 | 0 | 1 | 0 | 0 |
@@ -78,6 +78,16 @@ The queue below is generated from current structure. Low degree and low relation
 
 | Entry | Type | Structure | Evidence | Reader neighbours | Families |
 | --- | --- | --- | --- | ---: | ---: |
+| Archimedes | person | unconnected | none | 0 | 0 |
+| Claude Bernard | person | unconnected | none | 0 | 0 |
+| David Hilbert | person | unconnected | none | 0 | 0 |
+| Giuseppe Peano | person | unconnected | none | 0 | 0 |
+| Kurt Gödel | person | unconnected | none | 0 | 0 |
+| Leonardo of Pisa | person | unconnected | none | 0 | 0 |
+| Noam Chomsky | person | unconnected | none | 0 | 0 |
+| Panini | person | unconnected | none | 0 | 0 |
+| Pingala | person | unconnected | none | 0 | 0 |
+| Plato | person | unconnected | none | 0 | 0 |
 | Alessandro Rancati | person | thin | mixed | 1 | 1 |
 | Alfonso Reyes | person | thin | mixed | 1 | 1 |
 | Arthur Battram | person | thin | mixed | 1 | 1 |
@@ -93,16 +103,13 @@ The queue below is generated from current structure. Low degree and low relation
 | A. Cobham | person | thin | mixed | 1 | 1 |
 | A. J. Lotka | person | thin | mixed | 1 | 1 |
 | A. N. Kolmogorov | person | thin | mixed | 1 | 1 |
-| Archimedes | person | thin | provisional | 1 | 1 |
 | B. B. Mandelbrot | person | thin | mixed | 1 | 1 |
 | C. G. Langton | person | thin | mixed | 1 | 1 |
 | C. H. Bennett | person | thin | mixed | 1 | 1 |
 | C. H. Waddington | person | thin | mixed | 1 | 1 |
 | C. Reynolds | person | thin | mixed | 1 | 1 |
 | C. S. Holling | person | thin | mixed | 1 | 1 |
-| Claude Bernard | person | thin | provisional | 1 | 1 |
 | D. M. Raup | person | thin | mixed | 1 | 1 |
-| David Hilbert | person | thin | provisional | 1 | 1 |
 | Diana Wright | person | thin | mixed | 1 | 1 |
 | E. B. W. Zubrow | person | thin | mixed | 1 | 1 |
 | E. N. Lorenz | person | thin | mixed | 1 | 1 |
@@ -116,34 +123,14 @@ The queue below is generated from current structure. Low degree and low relation
 | G. Parisi | person | thin | mixed | 1 | 1 |
 | G. R. Price | person | thin | mixed | 1 | 1 |
 | Gerald Midgley | person | thin | mixed | 1 | 1 |
-| Giuseppe Peano | person | thin | provisional | 1 | 1 |
 | H. Haken | person | thin | mixed | 1 | 1 |
+| Harold Stephen Black | person | thin | mixed | 1 | 1 |
 | Igor Perko | person | thin | provisional | 1 | 1 |
 | J. A. Wheeler | person | thin | mixed | 1 | 1 |
 | J. J. Hopfield | person | thin | mixed | 1 | 1 |
-| J. Maynard Smith | person | thin | mixed | 1 | 1 |
-| J. Nash | person | thin | mixed | 1 | 1 |
-| J. Pearl | person | thin | mixed | 1 | 1 |
-| J. von Neumann | person | thin | mixed | 1 | 1 |
-| James Clerk Maxwell | person | thin | mixed | 1 | 1 |
-| Jan De Visch | person | thin | mixed | 1 | 1 |
-| Jorge Mpodozis | person | thin | mixed | 1 | 1 |
 
 ## First enrichment cohort in this release
 
 This release adds typed provisional crosswalks for every SCiO intervention-skill entry; gives the previously reader-isolated concepts, methods, tools and traditions multiple routes into the maintained graph; exposes the Foundational Papers volume contents as documentary statements; connects the Cynefin wiki to its maintaining organisation and the material it presents; and adds slide-level statements from the supplied transformation, convening, organisational-dynamics, VSM, clarity and conversation material.
 
 These additions improve navigability immediately. They do not complete historical influence, human transmission, institutional history, field-level controversy or case evidence. Those remain the most important missing layers in the original-vision audit.
-
-
-## Evidence-led relationship review
-
-The 2026-08-14 relationship pass re-audited every public entry and reviewed all generic or repetitive assertions against their cited sources.
-
-- Generic relation review targets: 8 → 0.
-- Repeated assertion groups: 1 → 0.
-- Reader-connected entries: 496.
-- Semantically connected entries: 328.
-- Rich / developing / thin: 36 / 236 / 224.
-
-One generic journal-to-tradition edge was deliberately narrowed to a documentary scope claim. Semantic reach therefore falls by one rather than preserving an unsupported relationship.

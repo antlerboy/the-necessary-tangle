@@ -119,7 +119,7 @@ button:hover, .button:hover { border-color: var(--accent); color: var(--accent);
 .map-layout { display: grid; grid-template-columns: 280px minmax(480px,1fr) 310px; gap: .8rem; min-height: 680px; }
 .map-controls, .map-inspector { padding: .9rem; }
 .map-controls { display: grid; align-content: start; gap: .75rem; }
-.map-controls h3 { margin: 0; color: var(--accent); }
+.map-controls h3, .map-controls .control-heading { margin: 0; color: var(--accent); font-size: 1.17em; }
 .map-controls hr { width: 100%; border: 0; border-top: 1px solid var(--line); }
 .graph-wrap { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); min-height: 680px; overflow: hidden; cursor: grab; }
 .graph-wrap.dragging { cursor: grabbing; }

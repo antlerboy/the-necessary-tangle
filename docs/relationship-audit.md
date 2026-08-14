@@ -174,3 +174,23 @@ The internal inventory contains 18 non-public source records: six supplied slide
 All 17 direct supplied-deck crosswalk statements now have claim-specific rationales and material-specific limits. Seven degraded slide ranges were normalised. No new edge was added: the outcomes deck remains documentary-only, duplicate Core Thinking titles do not multiply support, and visual proximity in the Perko network remains discovery rather than lineage evidence.
 
 The largest internal provenance debt is concentrated in the SCiO CF Resources draft and the legacy Feedback and Recursion SysBoK decks. Their broad use in generated crosswalks should be replaced by public, claim-level sources for high-value relationships.
+
+## Pass 6 adversarial result
+
+The published Pass 5 payload contained 21 exact `(source, relation type, target)` duplicate groups, 25 unlocated legacy candidates and five inferred edges. The adversarial overlay retires the weak records instead of treating “provisional” as permission to retain an unsupported claim.
+
+| Measure | Pass 5 published | Pass 6 | Change |
+| --- | ---: | ---: | ---: |
+| All edges | 1,720 | 1,670 | −50 |
+| Exact duplicate triples | 21 | 0 | −21 |
+| Unlocated legacy candidates | 25 | 0 | −25 |
+| Maintained inferred edges | 5 | 0 | −5 |
+| Reader-connected entries | 496 | 486 | −10 |
+| Semantically connected entries | 328 | 316 | −12 |
+| Semantic-gap entries | 168 | 180 | +12 |
+| Precision-shaped locators | 244 | 239 | −5 net after removals |
+| Three-or-more-family routes | 74 | 69 | −5 |
+
+Nineteen retained Foundational Papers authorship assertions now identify volume, item and title. The two distinct Rosenblueth–Wiener works are represented by one co-authorship assertion with both locators. The von Domarus → McCulloch attribution remains provisional because a public secondary source supports a reviewable candidate, but no primary lineage evidence was found.
+
+The reach regression is the main finding: universal documentary connectivity depended partly on weak historical-name edges. Ten entries are now explicitly unconnected. Future work should connect them only through located primary or responsible secondary evidence, or remove them from the public atlas if they do not justify inclusion.

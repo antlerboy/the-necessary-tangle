@@ -131,12 +131,20 @@ def main() -> int:
     if relational != recalculated:
         errors.append("relational-depth measures do not match the current public graph")
     aggregate = relational.get("aggregate", {})
-    if aggregate.get("reader_connected_entries") != len(public_ids):
-        errors.append("not every canonical public entry has a reader connection")
-    if aggregate.get("connection_bands", {}).get("unconnected", 0) != 0:
-        errors.append("the relational-depth queue still contains unconnected entries")
-    if meta.get("reader_connected_entry_count") != len(public_ids):
-        errors.append("reader-connected entry count in release metadata is stale")
+    reader_connected = aggregate.get("reader_connected_entries", 0)
+    unconnected = aggregate.get("connection_bands", {}).get("unconnected", 0)
+    if data.get("adversarial_review"):
+        if reader_connected + unconnected != len(public_ids):
+            errors.append("the adversarial connection accounting does not cover every public entry")
+        if meta.get("reader_connected_entry_count") != reader_connected:
+            errors.append("reader-connected entry count in release metadata is stale")
+    else:
+        if reader_connected != len(public_ids):
+            errors.append("not every canonical public entry has a reader connection")
+        if unconnected != 0:
+            errors.append("the relational-depth queue still contains unconnected entries")
+        if meta.get("reader_connected_entry_count") != len(public_ids):
+            errors.append("reader-connected entry count in release metadata is stale")
     if meta.get("relational_crosswalk_connection_count", 0) < 280:
         errors.append("the graph-wide relational crosswalk is incomplete")
     if meta.get("source_backed_author_link_count", 0) < 15:
