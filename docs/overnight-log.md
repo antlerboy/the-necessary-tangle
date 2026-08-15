@@ -317,7 +317,7 @@ This pass challenged every exact duplicate and the weakest explicit epistemic cl
 
 ## Doncaster lineage extension — post-pass publication
 
-Status: complete locally; live publication in progress on 15 August 2026.
+Status: complete and live on 15 August 2026.
 
 ### Previous findings read
 
@@ -339,11 +339,11 @@ Before this extension the graph contained 606 nodes, 1,670 relationships, 166 so
 
 ### Build and test
 
-The full maintained pipeline rebuilt successfully from source and produces 675 nodes, 1,809 relationships, 195 sources, 115 profiles and 20 journeys. Running the overlay twice produces the same data hash. Exact duplicate triples remain at zero. All maintained Python validators, the eighteen-check Doncaster validator and JavaScript syntax checks passed. The Doncaster validator confirms 139 typed relationships and complete coverage of 81 lineage items.
+The full maintained pipeline rebuilt successfully from source and produces 675 nodes, 1,809 relationships, 195 sources, 115 profiles and 20 journeys. Running the overlay twice produces the same data hash. Exact duplicate triples remain at zero. All maintained Python validators, the eighteen-check Doncaster validator and JavaScript syntax checks passed. The Doncaster validator confirms 139 typed relationships and complete coverage of 81 lineage items. PR #45 merged to `main` as `d08696000fa9df072dc6a312aa7c1a6ecce320c7`; validation run 31885296091, Pages run 31885338343 and content-backup run 31885338349 all succeeded.
 
 ### Rendered inspection
 
-Damian Allen's profile, the UTSI item and the ten-step Doncaster lineage journey were inspected in the rendered site. At 1,280px desktop and 390px mobile widths, the connection structures and uncertainty badges remain readable, there is no horizontal overflow, browser error logs are empty and the bottom-right Open updates magic dot remains present. The journey preserves the explicit warning that these are Damian's claims rather than a neutral canon.
+Damian Allen's profile, the UTSI item and the ten-step Doncaster lineage journey were inspected before publication and then repeated against the cache-busted live site after deployment. At 1,280px desktop and 390px mobile widths, the connection structures and uncertainty badges remain readable, there is no horizontal overflow, page assertions complete without error and the bottom-right Open updates magic dot remains present. The live journey preserves the explicit warning that these are Damian's claims rather than a neutral canon and exposes working step navigation.
 
 - [Before, desktop](screenshots/overnight/doncaster-before-desktop.png)
 - [Before, mobile](screenshots/overnight/doncaster-before-mobile.png)
