@@ -52,6 +52,8 @@ Readers who want to inspect what a line means should start with [documentation/e
 
 Maintainers: read [documentation/maintenance.md](documentation/maintenance.md) and [documentation/publishing.md](documentation/publishing.md).
 
+AI-assisted work starts with [AGENTS.md](AGENTS.md), then the concise [current state](documentation/TANGLE_STATE.md), [design and content rules](documentation/DESIGN_AND_CONTENT_RULES.md), [next authorised work](documentation/NEXT_WORK.md) and [cost-effective work protocol](documentation/WORK_PROTOCOL.md). This operating spine is deliberately smaller than the full documentation set.
+
 ## Build and validation
 
 The site is plain HTML, CSS and JavaScript. Python scripts prepare, enrich and validate the public data.
