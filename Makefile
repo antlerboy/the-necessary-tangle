@@ -37,6 +37,7 @@ build:
 	python3 scripts/build_public_knowledge.py
 
 validate: build
+	python3 scripts/validate_work_spine.py
 	python3 scripts/validate_public.py
 	python3 scripts/validate_constellation.py
 	python3 scripts/validate_expansion_08.py
