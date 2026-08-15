@@ -194,3 +194,19 @@ The published Pass 5 payload contained 21 exact `(source, relation type, target)
 Nineteen retained Foundational Papers authorship assertions now identify volume, item and title. The two distinct Rosenblueth–Wiener works are represented by one co-authorship assertion with both locators. The von Domarus → McCulloch attribution remains provisional because a public secondary source supports a reviewable candidate, but no primary lineage evidence was found.
 
 The reach regression is the main finding: universal documentary connectivity depended partly on weak historical-name edges. Ten entries are now explicitly unconnected. Future work should connect them only through located primary or responsible secondary evidence, or remove them from the public atlas if they do not justify inclusion.
+
+## Doncaster lineage extension
+
+The post-pass Doncaster extension adds 139 relationships with no generic `related to` edge and no exact duplicate triple. Every added relationship declares type, family, direction, source IDs, locator, rationale, assertion mode, status and a public review label.
+
+The route provides different connection families rather than one dense bundle:
+
+- **identity:** Damian explicitly claims lineage from named people and traditions;
+- **human:** first-person collaboration claims remain distinct from influence;
+- **documentary:** named works are connected to their actual authors;
+- **conceptual:** works develop or present concepts; UTSI only proposes integration;
+- **practice:** Thrive applies or operationalizes HLS, ABCD, place, learning, small bets, Three Horizons and regenerative practice;
+- **constraint:** relational language and kindness are bounded by power, resources, rights and accountability;
+- **evidence:** every claim carries a source and claim-level locator.
+
+The weakest connections are not hidden by the larger graph. Bruce Edmonds is a probable identity normalization, the unnamed complexity book a probable referent, Tony Hodgson's Three Horizons role a self-reported attribution, Nested Minimum Viable Systems publicly uncorroborated, and all UTSI connections provisional and unpublished. The mismatch between “11 frameworks” and more than 11 visible strands remains machine-readable.

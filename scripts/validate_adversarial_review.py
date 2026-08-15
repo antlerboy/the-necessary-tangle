@@ -14,6 +14,8 @@ reading = (ROOT / "docs" / "reading-list.html").read_text(encoding="utf-8")
 relational_doc = (ROOT / "documentation" / "relational-depth.md").read_text(encoding="utf-8")
 edges = data.get("edges", [])
 ids = {edge.get("id") for edge in edges}
+pass6 = data.get("adversarial_review", {})
+aggregate = data.get("relational_depth", {}).get("aggregate", {})
 
 counts = Counter((edge.get("source"), edge.get("relation_type"), edge.get("target")) for edge in edges)
 duplicates = [key for key, count in counts.items() if count > 1]
@@ -33,7 +35,9 @@ fpcs_located = [
 ]
 
 checks = {
-    "edge count reduced to 1670": len(edges) == 1670,
+    "adversarial overlay removed all current duplicate records":
+    pass6.get("after", {}).get("exact_duplicate_triples") == 0
+    and pass6.get("after", {}).get("edges") == pass6.get("before", {}).get("edges", 0) - 18,
     "no exact duplicate triples": not duplicates,
     "no unlocated legacy candidates": not legacy_unlocated,
     "no untested inferred edges": not inferred,
@@ -52,8 +56,9 @@ checks = {
     "reading list constrains mobile table": ".reading-table-wrap" in reading and "table-layout:fixed" in reading,
     "heading hierarchy repaired": '<h2 class="hidden" id="browseResultsHeading">' in index
     and '<h2 class="control-heading">Find a path</h2>' in index,
-    "relational document matches adversarial graph": "486 of 496 entries" in relational_doc
-    and "316 have at least one non-documentary" in relational_doc,
+    "relational document matches current graph":
+    f"{aggregate.get('reader_connected_entries')} of {aggregate.get('public_entries')} entries" in relational_doc
+    and f"{aggregate.get('semantic_connected_entries')} have at least one non-documentary" in relational_doc,
 }
 
 failed = [label for label, ok in checks.items() if not ok]

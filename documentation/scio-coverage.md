@@ -15,7 +15,7 @@ SCiO is represented as a professional body, source corpus, practitioner network 
 | Multi-methodology including SOSM | described | 0 |
 | Patterns of Strategy | profile | 2 |
 | Socio-Technical Systems | described | 0 |
-| Soft Systems Methodology (SSM) | profile | 3 |
+| Soft Systems Methodology (SSM) | profile | 4 |
 | Syntegration / Team Syntegrity | described | 0 |
 | System Dynamics | described | 0 |
 | Viable System Model (VSM) | profile | 3 |

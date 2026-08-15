@@ -314,3 +314,51 @@ Edges fall from 1,720 to 1,670, reader-connected entries from 496 to 486 and sem
 ### Uncertain
 
 This pass challenged every exact duplicate and the weakest explicit epistemic classes, not all 1,670 surviving edges from first principles. Only 239 locators match the conservative precision-shaped test; 299 edges still lack an explicit rationale; 80 reading-list works remain inventory-only; and broad internally generated crosswalks remain the main provenance debt. The automated accessibility audit is strong regression evidence, not a formal WCAG conformance claim.
+
+## Doncaster lineage extension — post-pass publication
+
+Status: complete locally; live publication in progress on 15 August 2026.
+
+### Previous findings read
+
+The Pass 6 adversarial result, current Doncaster coverage, Damian Allen's interview transcript, lineage diagram, approved key messages and follow-up correspondence. Targeted connected-mail and document-store searches checked for additional copies; no additional authoritative lineage artefact superseded the supplied attachment set.
+
+### Measured current state
+
+Before this extension the graph contained 606 nodes, 1,670 relationships, 166 sources, 111 profiles and 19 journeys. It had entries for Beer, Ashby, Shannon, information theory, System Dynamics, Soft Systems Methodology and Santa Fe, but no explicit Damian Allen, Thrive, HLS, UTSI or Doncaster lineage route.
+
+### Bounded improvement
+
+- Added 69 entries, 29 sources, four profiles and one guided journey.
+- Added 139 typed, source-located relationships covering 81 lineage items when existing entries deepened rather than duplicated are included.
+- Connected every named timeline strand, person and work in the supplied evidence.
+- Added public corroboration where available and retained four authorized private source records without identifiers or private URLs.
+- Preserved the Bruce Edmonds normalization, unnamed complexity book, Tony Hodgson attribution, Nested Minimum Viable Systems, UTSI and 11-framework count as explicit uncertainties.
+- Added cautions about relational rhetoric, power, money, measurement, rights, resources and accountability.
+- Added an idempotent overlay, machine-readable coverage matrix, dedicated audit and eighteen-check validator.
+
+### Build and test
+
+The full maintained pipeline rebuilt successfully from source and produces 675 nodes, 1,809 relationships, 195 sources, 115 profiles and 20 journeys. Running the overlay twice produces the same data hash. Exact duplicate triples remain at zero. All maintained Python validators, the eighteen-check Doncaster validator and JavaScript syntax checks passed. The Doncaster validator confirms 139 typed relationships and complete coverage of 81 lineage items.
+
+### Rendered inspection
+
+Damian Allen's profile, the UTSI item and the ten-step Doncaster lineage journey were inspected in the rendered site. At 1,280px desktop and 390px mobile widths, the connection structures and uncertainty badges remain readable, there is no horizontal overflow, browser error logs are empty and the bottom-right Open updates magic dot remains present. The journey preserves the explicit warning that these are Damian's claims rather than a neutral canon.
+
+- [Before, desktop](screenshots/overnight/doncaster-before-desktop.png)
+- [Before, mobile](screenshots/overnight/doncaster-before-mobile.png)
+- [After Damian profile, desktop](screenshots/overnight/doncaster-after-desktop-damian.png)
+- [After UTSI item, mobile](screenshots/overnight/doncaster-after-mobile-utsi.png)
+- [After lineage journey, desktop](screenshots/overnight/doncaster-after-desktop-journey.png)
+
+### Improved
+
+Damian's lineage is no longer implicit or reduced to keyword similarity. Readers can follow distinct ecology, philosophy, learning, systems, complexity, cybernetics, design, place, relational and regenerative routes into Doncaster practice, inspect named works and authors, and see which statements are public, first-person, interpreted or unpublished.
+
+### Regressed
+
+The graph is larger by 69 entries and 139 relationships. The richer Damian profile has a long connection list, so the experience depends on evidence badges and the inspector rather than a denser default map.
+
+### Uncertain
+
+The extension does not independently evaluate Thrive outcomes. Bruce Edmonds remains a probable identity normalization; the unnamed complexity book a probable referent; Tony Hodgson's role a self-reported attribution; Nested Minimum Viable Systems publicly uncorroborated; and UTSI an unpublished proto-theory with an unresolved framework-count ambiguity.

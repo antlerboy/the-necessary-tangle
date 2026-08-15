@@ -29,6 +29,7 @@ build:
 	python3 scripts/apply_relational_depth_16.py
 	python3 scripts/apply_overnight_review.py
 	python3 scripts/apply_adversarial_review.py
+	python3 scripts/apply_doncaster_lineage.py
 	python3 scripts/refresh_graph_snapshot.py
 	python3 scripts/patch_iteration_16.py
 	python3 scripts/patch_overnight_experience.py
@@ -50,6 +51,7 @@ validate: build
 	python3 scripts/validate_iteration_16.py
 	python3 scripts/validate_overnight_experience.py
 	python3 scripts/validate_adversarial_review.py
+	python3 scripts/validate_doncaster_lineage.py
 	./scripts/check_javascript.sh
 
 serve: build

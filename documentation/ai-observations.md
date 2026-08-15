@@ -8,7 +8,7 @@ Measurements are derived from the current public graph and reading-list inventor
 
 **Kind:** measurement plus interpretation
 
-**Measurement:** The atlas has 496 public entries and 111 developed profiles. 22.4% of entries have the fuller profile structure.
+**Measurement:** The atlas has 565 public entries and 115 developed profiles. 20.4% of entries have the fuller profile structure.
 
 **Interpretation:** The atlas remains stronger as a territory marker than as a uniformly deep critical reference. A named entry and a developed account are different editorial products.
 
@@ -20,7 +20,7 @@ Measurements are derived from the current public graph and reading-list inventor
 
 **Kind:** measurement plus design inference
 
-**Measurement:** There are 1371 typed public edges; 730 are conceptual, historical, human, practice or contestation relations. The substantive share is 53.2%.
+**Measurement:** There are 1510 typed public edges; 843 are conceptual, historical, human, practice or contestation relations. The substantive share is 55.8%.
 
 **Interpretation:** Authorship, hosting and collection membership answer different questions from dependence, influence, critique and use. A dense provenance layer is not evidence of conceptual agreement.
 
@@ -68,7 +68,7 @@ Measurements are derived from the current public graph and reading-list inventor
 
 **Kind:** inventory measurement plus epistemic caution
 
-**Measurement:** The graph contains 121 publications and 22 methods or methodologies, while 111 entries of all types have developed profiles.
+**Measurement:** The graph contains 133 publications and 23 methods or methodologies, while 115 entries of all types have developed profiles.
 
 **Interpretation:** Bibliographic presence establishes that a work belongs in scope. It does not establish the work's argument, influence, quality, limitations or relation to practice.
 
@@ -104,7 +104,7 @@ Measurements are derived from the current public graph and reading-list inventor
 
 **Kind:** measurement plus data-quality risk
 
-**Measurement:** 108 of 169 people — 63.9% — are represented by initial-form labels.
+**Measurement:** 108 of 191 people — 56.5% — are represented by initial-form labels.
 
 **Interpretation:** Initials can record an authorship string but cannot guarantee a unique person. They invite duplicate records, mistaken mergers and false lineage claims.
 
@@ -116,7 +116,7 @@ Measurements are derived from the current public graph and reading-list inventor
 
 **Kind:** measurement plus model warning
 
-**Measurement:** Published neighbourhoods contain 77 unique nodes, while 317 nodes are now connected; 252 connected nodes sit outside the older grouping pass.
+**Measurement:** Published neighbourhoods contain 77 unique nodes, while 383 nodes are now connected; 318 connected nodes sit outside the older grouping pass.
 
 **Interpretation:** A cluster is produced by current edges, exclusions, resolution and seed. It should not be mistaken for a discovered natural taxonomy.
 
@@ -140,7 +140,7 @@ Measurements are derived from the current public graph and reading-list inventor
 
 **Kind:** second-order observation
 
-**Measurement:** 179 entries are isolated in the substantive graph, while the largest substantive component contains 257 entries.
+**Measurement:** 182 entries are isolated in the substantive graph, while the largest substantive component contains 325 entries.
 
 **Interpretation:** Isolation often records missing source work, relation vocabulary or research attention; it does not show that an idea is naturally peripheral.
 
@@ -200,7 +200,7 @@ Measurements are derived from the current public graph and reading-list inventor
 
 **Kind:** second-order observation
 
-**Measurement:** The atlas now has 496 public entries and 111 developed profiles, so navigation and research depth still select a small fraction for prominent treatment.
+**Measurement:** The atlas now has 565 public entries and 115 developed profiles, so navigation and research depth still select a small fraction for prominent treatment.
 
 **Interpretation:** Prominence can arise because a source corpus is unusually accessible or recently researched. That is not the same as importance in the field.
 

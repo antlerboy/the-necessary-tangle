@@ -126,3 +126,9 @@ The graph-wide structural audit was rerun for all 496 public entries. All eight 
 - the two Rosenblueth/Wiener co-authorship statements now have work-specific table-of-contents locators.
 
 The narrower Murmurations claim is documentary rather than semantic. Semantic connectivity therefore falls from 329 to 328 entries and the substantive edge count from 750 to 749. This is an intentional quality trade: unsupported semantic reach is not retained to protect a headline metric.
+
+## Doncaster lineage update
+
+The Damian Allen / Doncaster extension materially advances C1, R1, R2, N2 and P1 for one bounded practice case. It adds a complete first-person lineage route, claim-level locators, explicit authorship and works, distinct practice applications, a guided theory-to-practice journey and machine-readable uncertainty. It does not close the graph-wide gaps: the improvement is concentrated in one case and the official/practitioner evidence does not independently evaluate Thrive outcomes.
+
+The UTSI, Nested Minimum Viable Systems, Bruce Edmonds, Tony Hodgson and unnamed-book records demonstrate the intended provenance behavior: keep a useful claim visible, label its source and assertion mode, and refuse to convert plausibility into settled history or validated theory.
