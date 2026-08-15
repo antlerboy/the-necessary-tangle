@@ -8,10 +8,10 @@ Generated: `2026-08-14`
 
 The atlas now treats relational richness as maintained data, not a visual impression. Every canonical public entry has a structural connection band and a separate evidence band. This makes it possible to add provisional routes without pretending that repetition, plausibility or graph density is proof.
 
-- 486 of 496 entries have at least one reader connection.
-- 35 are structurally rich, 233 developing, 218 thin and 10 unconnected.
-- 316 have at least one non-documentary semantic, historical, human, identity, practice, influence or contestation route.
-- Evidence is 189 supported, 196 mixed, 101 provisional and 10 absent at entry level.
+- 555 of 565 entries have at least one reader connection.
+- 43 are structurally rich, 248 developing, 264 thin and 10 unconnected.
+- 382 have at least one non-documentary semantic, historical, human, identity, practice, influence or contestation route.
+- Evidence is 213 supported, 240 mixed, 102 provisional and 10 absent at entry level.
 
 ## What counts
 
@@ -43,19 +43,20 @@ The template is an editorial checklist, not an invitation to fill six slots with
 | --- | ---: | ---: | ---: | ---: | ---: |
 | approach family | 6 | 2 | 4 | 0 | 0 |
 | comparator corpus | 1 | 0 | 0 | 1 | 0 |
-| concept | 60 | 10 | 48 | 2 | 0 |
+| concept | 70 | 10 | 49 | 11 | 0 |
 | corpus | 5 | 0 | 1 | 4 | 0 |
 | intervention skill | 47 | 0 | 47 | 0 | 0 |
 | knowledge domain | 1 | 0 | 1 | 0 | 0 |
-| law or principle | 33 | 16 | 17 | 0 | 0 |
-| method or methodology | 22 | 3 | 19 | 0 | 0 |
+| law or principle | 33 | 17 | 16 | 0 | 0 |
+| method or methodology | 23 | 5 | 18 | 0 | 0 |
 | organisation | 3 | 0 | 3 | 0 | 0 |
-| person | 169 | 1 | 54 | 104 | 10 |
-| practice | 6 | 2 | 4 | 0 | 0 |
-| publication | 121 | 1 | 13 | 107 | 0 |
+| person | 191 | 2 | 59 | 120 | 10 |
+| practice | 24 | 5 | 11 | 8 | 0 |
+| publication | 133 | 1 | 15 | 117 | 0 |
 | technology | 1 | 0 | 1 | 0 | 0 |
+| theory | 1 | 0 | 1 | 0 | 0 |
 | tool | 13 | 0 | 13 | 0 | 0 |
-| tradition | 8 | 0 | 8 | 0 | 0 |
+| tradition | 13 | 1 | 9 | 3 | 0 |
 
 ## How enrichment proceeds
 
@@ -104,11 +105,13 @@ The queue below is generated from current structure. Low degree and low relation
 | A. J. Lotka | person | thin | mixed | 1 | 1 |
 | A. N. Kolmogorov | person | thin | mixed | 1 | 1 |
 | B. B. Mandelbrot | person | thin | mixed | 1 | 1 |
+| Bertrand Russell | person | thin | mixed | 1 | 1 |
 | C. G. Langton | person | thin | mixed | 1 | 1 |
 | C. H. Bennett | person | thin | mixed | 1 | 1 |
 | C. H. Waddington | person | thin | mixed | 1 | 1 |
 | C. Reynolds | person | thin | mixed | 1 | 1 |
 | C. S. Holling | person | thin | mixed | 1 | 1 |
+| Circular economy | practice | thin | mixed | 1 | 1 |
 | D. M. Raup | person | thin | mixed | 1 | 1 |
 | Diana Wright | person | thin | mixed | 1 | 1 |
 | E. B. W. Zubrow | person | thin | mixed | 1 | 1 |
@@ -122,12 +125,10 @@ The queue below is generated from current structure. Low degree and low relation
 | G. J. Chaitin | person | thin | mixed | 1 | 1 |
 | G. Parisi | person | thin | mixed | 1 | 1 |
 | G. R. Price | person | thin | mixed | 1 | 1 |
-| Gerald Midgley | person | thin | mixed | 1 | 1 |
 | H. Haken | person | thin | mixed | 1 | 1 |
 | Harold Stephen Black | person | thin | mixed | 1 | 1 |
 | Igor Perko | person | thin | provisional | 1 | 1 |
-| J. A. Wheeler | person | thin | mixed | 1 | 1 |
-| J. J. Hopfield | person | thin | mixed | 1 | 1 |
+| Innovation ecosystems | practice | thin | mixed | 1 | 1 |
 
 ## First enrichment cohort in this release
 

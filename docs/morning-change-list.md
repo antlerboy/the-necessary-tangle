@@ -76,3 +76,14 @@ This list is cumulative. “Live” means merged to `main`, successful Pages dep
 - Eighty of 110 reading-list works remain inventory-only.
 - Broad internal crosswalk sources, especially legacy Feedback/Recursion material and the SCiO framework draft, need claim-level public replacements.
 - The route audit is not a formal accessibility certification, and not every surviving relationship was reread from first principles in Pass 6.
+
+## Doncaster lineage publication
+
+- Added Damian Allen and a complete, source-located route through his systems-practice timeline into Doncaster Thrive.
+- Added 69 entries, 29 sources, four profiles, one journey and 139 typed relationships; 81 lineage items are explicit when strengthened existing entries are included.
+- Covered Gould, Bertrand Russell, Shannon, Weaver, Vygotsky, James, Fullan, Behr, Lowe, Smith, Hesselgreaves, Hodgson, Sharpe, Cormac Russell, Duffy, Wahl, Suckling, Midgley, Geyer, Bourdieu, Bronfenbrenner, Winn, Rysenbry, Andersson, Beer and Ashby.
+- Added the named works, including `Designing Regenerative Cultures`, `Three Horizons`, HLS and Liberated Method, the probable complexity book, Fullan, Bourdieu, Bronfenbrenner, the lineages article, Midgley, ABCD and Geyer.
+- Added a guided journey from Damian's ecology background to municipal practice, ending with an adversarial test rather than UTSI.
+- Marked Bruce Edmonds, the unnamed book, Tony Hodgson, Nested Minimum Viable Systems, UTSI and its 11-framework count with explicit uncertainty.
+- Published only privacy-safe paraphrase from the authorized private evidence; no addresses, message identifiers or private URLs are included.
+- Retained zero exact duplicate relationship triples and added an eighteen-check regression validator.

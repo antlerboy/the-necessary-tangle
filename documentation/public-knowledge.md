@@ -367,6 +367,7 @@ Agent-based modelling simulates heterogeneous agents following specified rules a
 ### Sources
 
 - Introduction to Complexity (Santa Fe Institute Complexity Explorer) — https://www.complexityexplorer.org/courses/185-introduction-to-complexity
+- Lineages of Systems Practice — Damian Allen — No public link
 
 ## Agile project management
 
@@ -675,6 +676,30 @@ Physiologist and co-author of the 1943 account connecting purposive behaviour, i
 - SCiO SysBoK - Feedback v1 — No public link
 - Behavior, Purpose and Teleology — https://doi.org/10.1086/286788
 
+## Asset-Based Community Development
+
+Type: Practice
+Public depth: profile
+
+Community practice that starts from local assets, relationships and capacities while recognizing that capacity is uneven and may need support.
+
+### Sources
+
+- Interview with Damian Allen on systems practice in Doncaster — No public link
+- The Four Essential Elements of an Asset-Based Community Development Process — https://resources.depaul.edu/abcd-institute/publications/publications-by-topic/Documents/4_Essential_Elements_of_ABCD_Process.pdf
+
+## Authorizing environment
+
+Type: Concept
+Public depth: described
+
+The political, executive, policy and organizational conditions that make adaptive, relational practice possible and durable.
+
+### Sources
+
+- Interview with Damian Allen on systems practice in Doncaster — No public link
+- Approved key messages and draft public copy from the Doncaster interview — No public link
+
 ## Autonomy
 
 Type: Concept
@@ -877,6 +902,29 @@ A behaviour-over-time graph sketches how one or more variables change across a c
 ### Sources
 
 - An introductory systems thinking toolkit for civil servants — https://www.gov.uk/government/publications/systems-thinking-for-civil-servants/toolkit
+
+## Bertrand Russell
+
+Type: Person
+Public depth: described
+
+Philosopher and public intellectual appearing by name in Damian's self-authored philosophy lineage strand and timeline.
+
+### Sources
+
+- Lineages of Systems Practice — Damian Allen — No public link
+
+## Bill Sharpe
+
+Type: Person
+Public depth: described
+
+Author of Three Horizons: The Patterning of Hope and a named source in Damian's futures-practice lineage.
+
+### Sources
+
+- Interview with Damian Allen on systems practice in Doncaster — No public link
+- Three Horizons: The Patterning of Hope — https://www.internationalfuturesforum.com/p/three-horizons-the-patterning-of-hope
 
 ## Black box
 
@@ -1087,6 +1135,18 @@ It is a useful antidote to method fundamentalism. It also imposes work: the boun
 
 - Cynefin — Cynefin.io — https://cynefin.io/wiki/Cynefin
 
+## Bruce Edmonds
+
+Type: Person
+Public depth: described
+
+Complexity researcher at Manchester Metropolitan University's Centre for Policy Modelling; a probable normalization of Damian's recollection 'Bruce Edwards'.
+
+### Sources
+
+- Damian Allen follow-up correspondence on lineage and UTSI — No public link
+- Complexity and Scientific Modelling — https://cfpm.org/cpmrep118.html
+
 ## Bubble Strategy
 
 Type: Method or methodology
@@ -1210,6 +1270,19 @@ Chaos theory studies deterministic dynamical systems whose trajectories can show
 - SCiO SysBoK - Feedback v1 — No public link
 - Introduction to Complexity (Santa Fe Institute Complexity Explorer) — https://www.complexityexplorer.org/courses/185-introduction-to-complexity
 
+## Choose Kindness
+
+Type: Practice
+Public depth: described
+
+A Doncaster practice proposition explicitly bounded by the caution that kindness must not replace rights, resources or accountability.
+
+### Sources
+
+- Interview with Damian Allen on systems practice in Doncaster — No public link
+- Approved key messages and draft public copy from the Doncaster interview — No public link
+- City of Doncaster Council Corporate Plan 2024–25 — https://www.doncaster.gov.uk/documents/DocumentView/Stream/Media/Default/Council%20and%20Democracy/Documents/Corporate%20Policy%20And%20Performance/2024%202025%20Corporate%20Plan.pdf
+
 ## Chris Mowles
 
 Type: Person
@@ -1273,6 +1346,18 @@ The atlas is much stronger on formal and cybernetic concepts than on the difficu
 - Complex, but not quite complex enough: The turn to the complexity sciences in evaluation scholarship — https://journals.sagepub.com/doi/10.1177/1356389014527885
 - The practice of complexity: Review, change and service improvement in an NHS department — https://uhra.herts.ac.uk/id/eprint/63/
 
+## Circular economy
+
+Type: Practice
+Public depth: described
+
+An economy-oriented practice strand that Damian places alongside regenerative thinking without treating circularity and regeneration as synonyms.
+
+### Sources
+
+- Damian Allen follow-up correspondence on lineage and UTSI — No public link
+- Designing Regenerative Cultures — https://www.triarchypress.net/drc.html
+
 ## Claude Bernard
 
 Type: Person
@@ -1294,6 +1379,7 @@ Mathematician and electrical engineer whose 1948 paper established mathematical 
 ### Sources
 
 - A Mathematical Theory of Communication — https://doi.org/10.1002/j.1538-7305.1948.tb01338.x
+- Lineages of Systems Practice — Damian Allen — No public link
 
 ## Cliff Joslyn
 
@@ -1466,6 +1552,17 @@ D. Watts and S. Strogatz, ‘Collective Dynamics of ‘Small-World’ Networks�
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
 
+## Community ecology
+
+Type: Concept
+Public depth: described
+
+Study of interacting populations and ecological communities, appearing in Damian's MSc Environment strand.
+
+### Sources
+
+- Lineages of Systems Practice — Damian Allen — No public link
+
 ## Competing Technologies, Increasing Returns, and Lock-In by Historical Events
 
 Type: Publication
@@ -1606,6 +1703,18 @@ Complexity concerns the variety, interaction, interdependence and change that ma
 - The Grammar of Systems - SCiO presentation — https://www.systemspractice.org/resources/grammar-systems
 - The Grammar of Systems II: From Order to Chaos and Back Again, 2nd edition — https://www.systemspractice.org/resources/grammar-systems-ii-order-chaos-back-again-2nd-ed
 
+## Complexity and Public Policy
+
+Type: Publication
+Public depth: described
+
+Robert Geyer's book on complexity and public policy, relevant to Damian's early public-service complexity collaboration.
+
+### Sources
+
+- Professor Robert Geyer — Lancaster University — https://www.lancaster.ac.uk/humanities-arts-and-social-sciences/people/robert-geyer
+- Damian Allen follow-up correspondence on lineage and UTSI — No public link
+
 ## Complexity Instability Principle
 
 Type: Law or principle
@@ -1618,6 +1727,19 @@ The Complexity Instability Principle says that systems with too many active or c
 - The Grammar of Systems - SCiO presentation — https://www.systemspractice.org/resources/grammar-systems
 - The Grammar of Systems II: From Order to Chaos and Back Again, 2nd edition — https://www.systemspractice.org/resources/grammar-systems-ii-order-chaos-back-again-2nd-ed
 - Cybersecurity Lessons from The Grammar of Systems, part 2 — https://www.linkedin.com/pulse/cybersecurity-lessons-from-grammar-systems-order-chaos-osama-salah-1f
+
+## Complexity theory
+
+Type: Tradition
+Public depth: described
+
+A lineage strand connecting Santa Fe, agent models and public-service complexity in Damian's account.
+
+### Sources
+
+- Lineages of Systems Practice — Damian Allen — No public link
+- Damian Allen follow-up correspondence on lineage and UTSI — No public link
+- Professor Robert Geyer — Lancaster University — https://www.lancaster.ac.uk/humanities-arts-and-social-sciences/people/robert-geyer
 
 ## Complexity: A Key Idea for Business and Society
 
@@ -1768,6 +1890,18 @@ R. E. Kálmán, ‘Contributions to the Theory of Optimal Control’ (1960); ite
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
 
+## Contributory state
+
+Type: Concept
+Public depth: described
+
+Damian's term for a public-service settlement organized around contribution, reciprocity and pay-it-forward relations rather than transaction alone.
+
+### Sources
+
+- Interview with Damian Allen on systems practice in Doncaster — No public link
+- Approved key messages and draft public copy from the Doncaster interview — No public link
+
 ## Control theory
 
 Type: Tradition
@@ -1859,6 +1993,18 @@ A practitioner can know a method and still lack systemic practice. The occupatio
 - Systems Thinking Practitioner apprenticeship standard ST0787 v1.2 — https://skillsengland.education.gov.uk/apprenticeships/st0787-v1-2
 - SCiO Professional Accreditation and Competency Framework — https://www.systemspractice.org/professional-accreditation
 - SCiO Professional Development — https://www.systemspractice.org/professional-development
+
+## Cormac Russell
+
+Type: Person
+Public depth: described
+
+Asset-Based Community Development practitioner and co-author named in Damian's Doncaster practice lineage and public-service account.
+
+### Sources
+
+- Interview with Damian Allen on systems practice in Doncaster — No public link
+- The Four Essential Elements of an Asset-Based Community Development Process — https://resources.depaul.edu/abcd-institute/publications/publications-by-topic/Documents/4_Essential_Elements_of_ABCD_Process.pdf
 
 ## Covert operations
 
@@ -2031,6 +2177,7 @@ Cybernetics studies regulation, communication, circular causality, learning and 
 
 - SCiO SysBoK - Feedback v1 — No public link
 - Cybernetics or Control and Communication in the Animal and the Machine — https://mitpress.mit.edu/9780262537841/cybernetics-or-control-and-communication-in-the-animal-and-the-machine/
+- Lineages of Systems Practice — Damian Allen — No public link
 
 ## Cynefin framework
 
@@ -2351,6 +2498,88 @@ A bibliographic first-pass person entry for D. Watts, listed by the official Fou
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
 
+## Damian Allen
+
+Type: Person
+Public depth: profile
+
+Chief Executive of City of Doncaster Council and a systems practitioner whose stated lineage joins ecology, philosophy, learning, systems, complexity, cybernetics, design, place, regeneration and relational public services.
+
+### Summary
+
+Allen describes a practice-first lineage: theory disciplines action, but models must be adapted to place, authorizing conditions, relationships and learning. His account connects Thrive, HLS, ABCD, Three Horizons, regenerative cultures, Remake Learning and cybernetics.
+
+### Why it matters
+
+It is a rare first-person account of how multiple intellectual families are translated into municipal practice. Separating sources, claims and uncertainties keeps it useful without turning recollection into neutral history.
+
+### Key distinctions
+
+- first-person lineage versus independently verified influence
+- practice adaptation versus model transplantation
+- relational vocabulary versus changed power and resources
+- systems intelligence versus a validated formal theory
+
+### Historical development
+
+- evolutionary ecology
+- philosophy
+- information and learning theory
+- systems and complexity
+- cybernetics
+- design and place
+- regenerative and relational practice
+
+### Ideas it depends on
+
+- evolutionary ecology
+- philosophy
+- information and learning theory
+- systems and complexity
+- cybernetics
+- design and place
+- regenerative and relational practice
+
+### What develops from it
+
+- Doncaster Thrive
+- Human Learning Systems
+- ABCD
+- Three Horizons
+- Remake Learning
+- Unified Theory of Systems Intelligence (unpublished)
+
+### Connections to practice
+
+- Doncaster Thrive
+- Human Learning Systems
+- ABCD
+- Three Horizons
+- Remake Learning
+- Unified Theory of Systems Intelligence (unpublished)
+
+### Common confusions
+
+- The diagram is not independent proof of every influence.
+- The many strands are not one settled grand theory.
+- Practice claims are not evidence of achieved outcomes without evaluation.
+
+### Open questions and checks
+
+- Confirm Bruce Edmonds normalization.
+- Resolve the exact complexity-book citation.
+- Clarify Tony Hodgson's historical role in Three Horizons.
+- Locate a public primary record for Nested Minimum Viable Systems.
+- Reconcile the visible strand count with the stated 11 frameworks.
+
+### Sources
+
+- Chief Executive and Directors — City of Doncaster Council — https://www.doncaster.gov.uk/services/the-council-democracy/chief-executive-and-directors
+- Interview with Damian Allen on systems practice in Doncaster — No public link
+- Lineages of Systems Practice — Damian Allen — No public link
+- Damian Allen follow-up correspondence on lineage and UTSI — No public link
+- Approved key messages and draft public copy from the Doncaster interview — No public link
+
 ## Dancing With Systems
 
 Type: Publication
@@ -2413,6 +2642,19 @@ It connects systems knowledge to conduct: observation, humility, learning, infor
 ### Sources
 
 - Dancing With Systems — https://donellameadows.org/archives/dancing-with-systems/
+
+## Daniel Christian Wahl
+
+Type: Person
+Public depth: described
+
+Author and regenerative-cultures practitioner named by Damian as an influence and collaborator.
+
+### Sources
+
+- Interview with Damian Allen on systems practice in Doncaster — No public link
+- Damian Allen follow-up correspondence on lineage and UTSI — No public link
+- Designing Regenerative Cultures — https://www.triarchypress.net/drc.html
 
 ## Darkness Principle
 
@@ -2676,6 +2918,29 @@ Deming's management approach joins appreciation for a system, knowledge of varia
 - SCiO Professional Accreditation and Competency Framework — https://www.systemspractice.org/professional-accreditation
 - The Deming Philosophy — https://deming.org/the-deming-philosophy/
 
+## Design thinking
+
+Type: Practice
+Public depth: described
+
+A human-centred, prototyping-oriented practice strand in Damian's lineage diagram, connecting inquiry with bounded experimentation and adaptation.
+
+### Sources
+
+- Lineages of Systems Practice — Damian Allen — No public link
+
+## Designing Regenerative Cultures
+
+Type: Publication
+Public depth: profile
+
+Daniel Christian Wahl's book on regenerative design and cultural change, explicitly named in Damian's lineage.
+
+### Sources
+
+- Designing Regenerative Cultures — https://www.triarchypress.net/drc.html
+- Damian Allen follow-up correspondence on lineage and UTSI — No public link
+
 ## Detecting and managing undiscussables
 
 Type: Intervention skill
@@ -2853,6 +3118,76 @@ It can increase contextual variety and reduce some analyst-imposed categories, w
 - SenseMaker — The Cynefin Company — https://thecynefin.co/sensemaker/
 - Dave Snowden — The Cynefin Company profile — https://thecynefin.co/team/dave-snowden/
 
+## Doncaster Thrive
+
+Type: Practice
+Public depth: profile
+
+A place-based way of working in Doncaster combining relational public services, community assets, wellbeing, locality structures and adaptive learning.
+
+### Summary
+
+The council describes Thrive as how it works, not a standalone programme. Damian connects it to HLS, ABCD, localities, organizational learning, Three Horizons, small bets and regenerative practice.
+
+### Why it matters
+
+It is a municipal case where conceptual lineages are translated into structures, roles and learning routines rather than collected as labels.
+
+### Key distinctions
+
+- way of working versus programme
+- with/by place versus for/to place
+- adaptation versus transplantation
+- learning system versus fixed delivery model
+
+### Historical development
+
+- relational public services
+- Human Learning Systems
+- ABCD
+- place-based practice
+
+### Ideas it depends on
+
+- relational public services
+- Human Learning Systems
+- ABCD
+- place-based practice
+
+### What develops from it
+
+- Team Doncaster
+- Well Doncaster
+- Three Horizons
+- small bets
+- organizational learning
+
+### Connections to practice
+
+- Team Doncaster
+- Well Doncaster
+- Three Horizons
+- small bets
+- organizational learning
+
+### Common confusions
+
+- Relational language does not prove that power, money or measurement changed.
+- Community assets do not remove the need to build capacity.
+
+### Open questions and checks
+
+- Add independent outcome evaluation.
+- Track what authority and resources moved.
+- Test durability through political and officer change.
+
+### Sources
+
+- City of Doncaster Council Corporate Plan 2026–27 — https://www.doncaster.gov.uk/Documents/DocumentView/Stream/Media/Default/Council%20and%20Democracy/Documents/City%20of%20Doncaster%20Council%20Corporate%20Plan%202026-27.pdf
+- City of Doncaster Public Health Annual Report 2024 — https://www.doncaster.gov.uk/Documents/DocumentView/Stream/Media/Default/HealthWellbeing/DES-1888-Public-Health-Annual-Report.pdf
+- Interview with Damian Allen on systems practice in Doncaster — No public link
+- Approved key messages and draft public copy from the Doncaster interview — No public link
+
 ## Donella Meadows
 
 Type: Person
@@ -3020,6 +3355,18 @@ A bibliographic first-pass person entry for E. T. Jaynes, listed by the official
 ### Sources
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## Ecological systems theory
+
+Type: Concept
+Public depth: described
+
+Bronfenbrenner's account of development across nested environmental systems; Damian explicitly names it.
+
+### Sources
+
+- Damian Allen follow-up correspondence on lineage and UTSI — No public link
+- The Ecology of Human Development — No public link
 
 ## Ed Straw
 
@@ -3299,6 +3646,17 @@ An evolutionary approach to cybernetics concerned with how new levels of control
 - Introduction to Principia Cybernetica — https://pespmc1.vub.ac.be/INTRO.html
 - The Cybernetic Manifesto — https://pespmc1.vub.ac.be/MANIFESTO.html
 - Introduction to Principia Cybernetica — https://pespmc1.vub.ac.be/INTRO.html
+
+## Evolutionary ecology
+
+Type: Tradition
+Public depth: described
+
+Damian's early ecology strand, grounded in zoology, population dynamics and evolving organism–environment relations.
+
+### Sources
+
+- Lineages of Systems Practice — Damian Allen — No public link
 
 ## Evolutionary Phenomena in Simple Dynamics
 
@@ -3708,6 +4066,18 @@ C. Reynolds, ‘Flocks, Herds, and Schools: A Distributed Behavioral Model’ (1
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
 
+## Forms of capital
+
+Type: Concept
+Public depth: described
+
+Bourdieu's distinction among economic, cultural and social capital, with symbolic capital arising through recognized legitimacy; Damian explicitly names it.
+
+### Sources
+
+- Damian Allen follow-up correspondence on lineage and UTSI — No public link
+- The Forms of Capital — No public link
+
 ## Foundational Papers in Complexity Science
 
 Type: Corpus
@@ -3945,6 +4315,9 @@ Systems researcher associated with systemic intervention, boundary critique, met
 ### Sources
 
 - The Systemic Intervention Approach — https://doi.org/10.1002/sres.2819
+- Lineages of Systems Practice — Damian Allen — No public link
+- Damian Allen follow-up correspondence on lineage and UTSI — No public link
+- Professor Gerald Midgley — University of Hull — https://www.hull.ac.uk/staff-directory/gerald-midgley
 
 ## Giuseppe Peano
 
@@ -3981,6 +4354,18 @@ Graphic facilitation uses live or prepared visual representation to help groups 
 - SCiO CF Resources v9 draft — No public link
 - SCiO Professional Accreditation and Competency Framework — https://www.systemspractice.org/professional-accreditation
 
+## Gregg Behr
+
+Type: Person
+Public depth: described
+
+Founder and co-chair of Remake Learning, named by Damian in relation to learning anywhere, learning from everyone and place-based small bets.
+
+### Sources
+
+- Interview with Damian Allen on systems practice in Doncaster — No public link
+- Gregg Behr — Remake Learning — https://remakelearning.org/directory/gregg-behr/
+
 ## Gregory Bateson
 
 Type: Person
@@ -4002,6 +4387,31 @@ A bibliographic first-pass person entry for H. Haken, listed by the official Fou
 ### Sources
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## Hannah Hesselgreaves
+
+Type: Person
+Public depth: described
+
+Public-service complexity researcher and Human Learning Systems co-author named in Damian's account.
+
+### Sources
+
+- Interview with Damian Allen on systems practice in Doncaster — No public link
+- Human Learning Systems and the Liberated Method — https://www.humanlearning.systems/uploads/HLSandLiberatedMethod.pdf
+- Harnessing Complexity for Better Outcomes in Public and Non-profit Services — https://e-space.mmu.ac.uk/637313/
+
+## Harnessing Complexity for Better Outcomes in Public and Non-profit Services
+
+Type: Publication
+Public depth: described
+
+The strongest located candidate for Damian's unnamed accessible complexity book; the identification remains probable rather than certain.
+
+### Sources
+
+- Harnessing Complexity for Better Outcomes in Public and Non-profit Services — https://e-space.mmu.ac.uk/637313/
+- Interview with Damian Allen on systems practice in Doncaster — No public link
 
 ## Harold Stephen Black
 
@@ -4140,6 +4550,80 @@ B. B. Mandelbrot, ‘How Long is the Coast of Britain? Statistical Self-Similari
 ### Sources
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## Human Learning Systems
+
+Type: Practice
+Public depth: profile
+
+A public-service approach organized around human relationships, learning and systems conditions in complex environments.
+
+### Summary
+
+HLS supplies one explicit route into Doncaster Thrive. Damian uses it to explain why adaptive learning and relationality must be designed into public-service work.
+
+### Why it matters
+
+It connects complexity arguments to practical public-service design while keeping relationships and learning central.
+
+### Key distinctions
+
+- learning versus compliance
+- system conditions versus isolated performance
+- human relationships versus transaction
+
+### Historical development
+
+- public-service complexity
+- relational practice
+- Liberated Method
+
+### Ideas it depends on
+
+- public-service complexity
+- relational practice
+- Liberated Method
+
+### What develops from it
+
+- Toby Lowe
+- Mark Smith
+- Hannah Hesselgreaves
+- Doncaster Thrive
+
+### Connections to practice
+
+- Toby Lowe
+- Mark Smith
+- Hannah Hesselgreaves
+- Doncaster Thrive
+
+### Common confusions
+
+- HLS is not evidence that every relational intervention succeeds.
+- Learning language does not remove accountability.
+
+### Open questions and checks
+
+- Add critical and evaluative literature beyond project self-description.
+
+### Sources
+
+- Human Learning Systems — the story so far — https://www.humanlearning.systems/the-story-so-far/
+- Human Learning Systems and the Liberated Method — https://www.humanlearning.systems/uploads/HLSandLiberatedMethod.pdf
+- Interview with Damian Allen on systems practice in Doncaster — No public link
+- Harnessing Complexity for Better Outcomes in Public and Non-profit Services — https://e-space.mmu.ac.uk/637313/
+
+## Human Learning Systems and the Liberated Method
+
+Type: Publication
+Public depth: described
+
+A practice report by Toby Lowe, Mark Smith and Hannah Hesselgreaves connecting Human Learning Systems to the Liberated Method.
+
+### Sources
+
+- Human Learning Systems and the Liberated Method — https://www.humanlearning.systems/uploads/HLSandLiberatedMethod.pdf
 
 ## Humberto Maturana
 
@@ -4487,6 +4971,7 @@ Systems and cybernetics use information in several senses. Confusing Shannon inf
 
 - Introduction to Complexity (Santa Fe Institute Complexity Explorer) — https://www.complexityexplorer.org/courses/185-introduction-to-complexity
 - A Mathematical Theory of Communication — https://doi.org/10.1002/j.1538-7305.1948.tb01338.x
+- Lineages of Systems Practice — Damian Allen — No public link
 - Cybernetics or Control and Communication in the Animal and the Machine — https://mitpress.mit.edu/9780262537841/cybernetics-or-control-and-communication-in-the-animal-and-the-machine/
 - An Introduction to Cybernetics — https://ashby.info/bibliography.html
 
@@ -4522,6 +5007,18 @@ INFORMED Group Dynamics is included from the SCiO competency corpus. A reliable 
 ### Sources
 
 - SCiO CF Resources v9 draft — No public link
+
+## Innovation ecosystems
+
+Type: Practice
+Public depth: described
+
+Networks that support experimentation, exchange, shared learning and cumulative innovation across organizational and sector boundaries.
+
+### Sources
+
+- Lineages of Systems Practice — Damian Allen — No public link
+- Interview with Damian Allen on systems practice in Doncaster — No public link
 
 ## Interactive Management
 
@@ -4837,6 +5334,19 @@ A systems practitioner and co-author of Opening the Box, working on dialogical, 
 
 - Opening the Box: Systems Thinking for Transformative Conversations — https://www.systemspractice.org/resources/opening-box-systems-thinking-transformative-conversations
 
+## Jenny Andersson
+
+Type: Person
+Public depth: described
+
+Really Regenerative practitioner named by Damian in connection with place-based regenerative projects.
+
+### Sources
+
+- Damian Allen follow-up correspondence on lineage and UTSI — No public link
+- Jenny Andersson — Really Regenerative — https://reallyregenerative.org/jenny-andersson/
+- Place-based Regeneration: Capabilities for Transformative Change — https://reallyregenerative.org/wp-content/uploads/2025/09/Place-based-Regeneration-Capabilities-for-Transformative-Change-Report-2025-compressed-1.pdf
+
 ## Jorge Mpodozis
 
 Type: Person
@@ -4996,6 +5506,18 @@ Large-group engagement processes such as Open Space, World Café and Future Sear
 - SCiO CF Resources v9 draft — No public link
 - SCiO Professional Accreditation and Competency Framework — https://www.systemspractice.org/professional-accreditation
 
+## Laura Winn
+
+Type: Person
+Public depth: described
+
+Systems-change practitioner and co-author of Lineages of Systems Practices, explicitly named by Damian.
+
+### Sources
+
+- Damian Allen follow-up correspondence on lineage and UTSI — No public link
+- Lineages of Systems Practices — https://www.schoolofsystemchange.org/blog/lineages-of-systems-practices
+
 ## Law of Calling
 
 Type: Law or principle
@@ -5065,6 +5587,18 @@ The Law of Sufficient Complexity says that a complex system's behaviour follows 
 - Applying insight from Systems Laws to challenge thinking on, and service design for, the Multiple Disadvantage system — https://www.systemspractice.org/resources/applying-insight-systems-laws-challenge-thinking-and-service-design-multiple-disadvantage
 - Cybersecurity Lessons from The Grammar of Systems, part 3 — https://www.linkedin.com/pulse/cybersecurity-lessons-from-grammar-systems-order-chaos-osama-salah-2f
 
+## Leadership & Sustainability: System Thinkers in Action
+
+Type: Publication
+Public depth: described
+
+Michael Fullan's 2004 leadership book and the likely public context for Damian's recollection of a systems thinker in action.
+
+### Sources
+
+- Leadership & Sustainability: System Thinkers in Action — https://michaelfullan.ca/books/leadership-sustainability/
+- Interview with Damian Allen on systems practice in Doncaster — No public link
+
 ## Lean and Six Sigma
 
 Type: Intervention skill
@@ -5089,6 +5623,30 @@ Learning design creates conditions, activities and feedback through which people
 - SCiO CF Resources v9 draft — No public link
 - SCiO Professional Accreditation and Competency Framework — https://www.systemspractice.org/professional-accreditation
 
+## Learning ecosystems
+
+Type: Practice
+Public depth: described
+
+Place-based networks in which schools, families, businesses, civic organizations and informal settings create multiple routes for learning.
+
+### Sources
+
+- Interview with Damian Allen on systems practice in Doncaster — No public link
+- Remake Learning Playbook — https://playbook.remakelearning.org/
+
+## Learning theory
+
+Type: Tradition
+Public depth: described
+
+A lineage strand naming Vygotsky and James and connecting learning to socially situated practice.
+
+### Sources
+
+- Lineages of Systems Practice — Damian Allen — No public link
+- Damian Allen follow-up correspondence on lineage and UTSI — No public link
+
 ## Leonardo of Pisa
 
 Type: Person
@@ -5099,6 +5657,17 @@ Medieval Italian mathematician, also called Fibonacci, whose recurrence sequence
 ### Sources
 
 - SCiO SysBoK - Recursion v1 — No public link
+
+## Lev Vygotsky
+
+Type: Person
+Public depth: described
+
+Psychologist associated with socially situated learning who appears by name in Damian's self-authored learning-theory lineage strand.
+
+### Sources
+
+- Lineages of Systems Practice — Damian Allen — No public link
 
 ## Leverage points
 
@@ -5225,6 +5794,18 @@ The essay is useful precisely because it combines a memorable hierarchy with rep
 ### Sources
 
 - Leverage Points: Places to Intervene in a System — https://donellameadows.org/archives/leverage-points-places-to-intervene-in-a-system/
+
+## Lineages of Systems Practices
+
+Type: Publication
+Public depth: described
+
+Laura Winn and Saskia Rysenbry's intentionally partial lineage article, explicitly named by Damian.
+
+### Sources
+
+- Lineages of Systems Practices — https://www.schoolofsystemchange.org/blog/lineages-of-systems-practices
+- Damian Allen follow-up correspondence on lineage and UTSI — No public link
 
 ## Linear argument technique
 
@@ -5523,6 +6104,19 @@ Map analysis and narrative uses a visual systems map together with a written exp
 
 - An introductory systems thinking toolkit for civil servants — https://www.gov.uk/government/publications/systems-thinking-for-civil-servants/toolkit
 
+## Mark Smith
+
+Type: Person
+Public depth: described
+
+Human Learning Systems practitioner named by Damian as a collaborator on the relational public-service approach used in Thrive.
+
+### Sources
+
+- Interview with Damian Allen on systems practice in Doncaster — No public link
+- Damian Allen follow-up correspondence on lineage and UTSI — No public link
+- Human Learning Systems and the Liberated Method — https://www.humanlearning.systems/uploads/HLSandLiberatedMethod.pdf
+
 ## Martin Reynolds
 
 Type: Person
@@ -5693,6 +6287,18 @@ The atlas contains many methods but can still imply that selecting a method is a
 
 - Critical Systems Thinking: A Practitioner's Guide — https://www.systemspractice.org/resources/critical-systems-thinking-practitioners-guide
 
+## Michael Fullan
+
+Type: Person
+Public depth: described
+
+Education scholar whose 'system thinkers in action' formulation is recalled by Damian as an early recognition of theory enacted through practice.
+
+### Sources
+
+- Interview with Damian Allen on systems practice in Doncaster — No public link
+- Leadership & Sustainability: System Thinkers in Action — https://michaelfullan.ca/books/leadership-sustainability/
+
 ## Miguel Pantaleon
 
 Type: Person
@@ -5782,6 +6388,17 @@ Multiple perspectives work compares how different participants or observers defi
 ### Sources
 
 - Systems Thinking Practitioner apprenticeship standard ST0787 v1.2 — https://skillsengland.education.gov.uk/apprenticeships/st0787-v1-2
+
+## Municipal brain
+
+Type: Concept
+Public depth: described
+
+Damian's speculative metaphor for a council's future capacity to connect distributed knowledge, systems intelligence, augmented knowledge and responsible AI.
+
+### Sources
+
+- Interview with Damian Allen on systems practice in Doncaster — No public link
 
 ## Murmurations: Journal of Transformative Systemic Practice
 
@@ -6139,6 +6756,18 @@ The phrase is often used as if negative means criticism or undesirable effects. 
 - Stabilized Feedback Amplifiers — https://doi.org/10.1002/j.1538-7305.1934.tb00652.x
 - Behavior, Purpose and Teleology — https://doi.org/10.1086/286788
 - Feedback - IEEE Technology Navigator — https://technav.ieee.org/topic/feedback/
+
+## Nested Minimum Viable Systems
+
+Type: Concept
+Public depth: research stub
+
+A phrase Damian attributes to work with Gerald Midgley. No corroborating public publication or stable formal definition was located.
+
+### Sources
+
+- Interview with Damian Allen on systems practice in Doncaster — No public link
+- Damian Allen follow-up correspondence on lineage and UTSI — No public link
 
 ## Network Power Law
 
@@ -6647,6 +7276,19 @@ Organisations often centralise decisions that require local variety or mistake r
 - Diagnosing the System for Organizations — https://www.wiley-vch.de/en/areas-interest/finance-economics-law/diagnosing-the-system-for-organizations-978-0-471-95136-0
 - Viable System Model - The VSM in 1000 words — https://metaphorum.org/staffords-work/viable-system-model
 
+## Organizational learning
+
+Type: Practice
+Public depth: described
+
+The deliberate design of feedback, inquiry and adaptation into an organization's operating system.
+
+### Sources
+
+- Interview with Damian Allen on systems practice in Doncaster — No public link
+- Approved key messages and draft public copy from the Doncaster interview — No public link
+- Lineages of Systems Practice — Damian Allen — No public link
+
 ## Organizational Systems
 
 Type: Publication
@@ -6707,6 +7349,18 @@ It provides a major practice-facing bridge from Beer's VSM to methods of organis
 ### Sources
 
 - Organizational Systems: Managing Complexity with the Viable System Model — https://link.springer.com/book/10.1007/978-3-642-19109-1
+
+## Organizational theory
+
+Type: Tradition
+Public depth: described
+
+A lineage strand connecting Damian's experience of ICI and schools to later public-service organizational design.
+
+### Sources
+
+- Lineages of Systems Practice — Damian Allen — No public link
+- Approved key messages and draft public copy from the Doncaster interview — No public link
 
 ## Organizations and Markets
 
@@ -6997,6 +7651,18 @@ It gives the atlas a strategy method which is relational, dynamic and action-ori
 - Patterns of Strategy — https://www.systemspractice.org/resources/patterns-strategy-0
 - What is Patterns of Strategy? — https://www.systemspractice.org/resources/what-patterns-strategy
 
+## Permaculture
+
+Type: Practice
+Public depth: described
+
+A regenerative design practice named in Damian's lineage diagram as one route into his wider regenerative-cultures work.
+
+### Sources
+
+- Lineages of Systems Practice — Damian Allen — No public link
+- Designing Regenerative Cultures — https://www.triarchypress.net/drc.html
+
 ## Peter Checkland
 
 Type: Person
@@ -7064,6 +7730,29 @@ His work makes a basic systems distinction operational: systems can be used as d
 - Systems Thinking, Systems Practice: includes a 30-year retrospective — https://research.lancaster-university.uk/en/publications/systems-thinking-systems-practice-includes-a-30-year-retrospectiv/
 - Systems Thinking, Systems Practice — Wiley publisher page — https://www.wiley-vch.de/en/areas-interest/finance-economics-law/systems-thinking-systems-practice-978-0-471-98606-5
 
+## Philosophy in Damian Allen's lineage
+
+Type: Tradition
+Public depth: described
+
+A self-reported strand naming Stephen Jay Gould and Bertrand Russell; it records Damian's grouping rather than defining philosophy as a whole.
+
+### Sources
+
+- Lineages of Systems Practice — Damian Allen — No public link
+
+## Pierre Bourdieu
+
+Type: Person
+Public depth: described
+
+Sociologist and author of The Forms of Capital, whose framework Damian explicitly names as a theoretical commitment.
+
+### Sources
+
+- Damian Allen follow-up correspondence on lineage and UTSI — No public link
+- The Forms of Capital — No public link
+
 ## Pig model
 
 Type: Tool
@@ -7086,6 +7775,19 @@ Ancient Indian scholar associated with combinatorial patterns in prosody, includ
 
 - SCiO SysBoK - Recursion v1 — No public link
 
+## Place-based practice
+
+Type: Practice
+Public depth: described
+
+Practice that works with the history, relationships, capacities and authorizing conditions of a particular place instead of transplanting a universal model.
+
+### Sources
+
+- Interview with Damian Allen on systems practice in Doncaster — No public link
+- Approved key messages and draft public copy from the Doncaster interview — No public link
+- Place-based Regeneration: Capabilities for Transformative Change — https://reallyregenerative.org/wp-content/uploads/2025/09/Place-based-Regeneration-Capabilities-for-Transformative-Change-Report-2025-compressed-1.pdf
+
 ## Plato
 
 Type: Person
@@ -7096,6 +7798,17 @@ Ancient Greek philosopher included in the inherited recursion map through later 
 ### Sources
 
 - SCiO SysBoK - Recursion v1 — No public link
+
+## Population dynamics
+
+Type: Concept
+Public depth: described
+
+Study of how populations change through interacting rates and environmental conditions; Damian traces an early systems sensibility to this work.
+
+### Sources
+
+- Lineages of Systems Practice — Damian Allen — No public link
 
 ## Positive feedback
 
@@ -7770,6 +8483,18 @@ The Redundancy of Potential Command Principle says that effective action in a co
 - The Grammar of Systems II: From Order to Chaos and Back Again, 2nd edition — https://www.systemspractice.org/resources/grammar-systems-ii-order-chaos-back-again-2nd-ed
 - Cybersecurity Lessons from The Grammar of Systems, part 3 — https://www.linkedin.com/pulse/cybersecurity-lessons-from-grammar-systems-order-chaos-osama-salah-2f
 
+## Regenerative cultures
+
+Type: Practice
+Public depth: described
+
+A design and practice orientation concerned with renewing the life-supporting capacity of places and communities.
+
+### Sources
+
+- Lineages of Systems Practice — Damian Allen — No public link
+- Designing Regenerative Cultures — https://www.triarchypress.net/drc.html
+
 ## Regulation
 
 Type: Concept
@@ -7852,6 +8577,19 @@ Relating is a systems-thinking practice of attending to connections, mutual effe
 - The Grammar of Systems - SCiO presentation — https://www.systemspractice.org/resources/grammar-systems
 - The Grammar of Systems II: From Order to Chaos and Back Again, 2nd edition — https://www.systemspractice.org/resources/grammar-systems-ii-order-chaos-back-again-2nd-ed
 
+## Relational public services
+
+Type: Practice
+Public depth: described
+
+Public-service practice that treats trust, context, tacit knowledge and human relationships as operating conditions rather than delivery decoration.
+
+### Sources
+
+- Interview with Damian Allen on systems practice in Doncaster — No public link
+- Approved key messages and draft public copy from the Doncaster interview — No public link
+- Human Learning Systems and the Liberated Method — https://www.humanlearning.systems/uploads/HLSandLiberatedMethod.pdf
+
 ## Relaxation Time Principle
 
 Type: Law or principle
@@ -7864,6 +8602,30 @@ The Relaxation Time Principle says that a system repeatedly disturbed before it 
 - The Grammar of Systems - SCiO presentation — https://www.systemspractice.org/resources/grammar-systems
 - The Grammar of Systems II: From Order to Chaos and Back Again, 2nd edition — https://www.systemspractice.org/resources/grammar-systems-ii-order-chaos-back-again-2nd-ed
 - Cybersecurity Lessons from The Grammar of Systems, part 3 — https://www.linkedin.com/pulse/cybersecurity-lessons-from-grammar-systems-order-chaos-osama-salah-2f
+
+## Remake Learning
+
+Type: Practice
+Public depth: described
+
+A place-based learning network and practice model founded by Gregg Behr and adapted in Damian's account through a parallel Doncaster festival.
+
+### Sources
+
+- Interview with Damian Allen on systems practice in Doncaster — No public link
+- Gregg Behr — Remake Learning — https://remakelearning.org/directory/gregg-behr/
+- Remake Learning Playbook — https://playbook.remakelearning.org/
+
+## Remake Learning Playbook
+
+Type: Publication
+Public depth: described
+
+A public practice guide for building connected, place-based learning ecosystems through network stewardship and collaborative experimentation.
+
+### Sources
+
+- Remake Learning Playbook — https://playbook.remakelearning.org/
 
 ## Requisite inefficiency
 
@@ -8045,6 +8807,18 @@ Mathematician reported by the Stanford Encyclopedia of Philosophy as an early fo
 
 - Recursive Functions — https://plato.stanford.edu/entries/recursive-functions/
 
+## Robert Geyer
+
+Type: Person
+Public depth: described
+
+Lancaster scholar of complexity and public policy whom Damian names as an early-2000s collaborator.
+
+### Sources
+
+- Damian Allen follow-up correspondence on lineage and UTSI — No public link
+- Professor Robert Geyer — Lancaster University — https://www.lancaster.ac.uk/humanities-arts-and-social-sciences/people/robert-geyer
+
 ## Roger C. Conant
 
 Type: Person
@@ -8068,6 +8842,18 @@ The Root Structuring Theorem proposes that structural complexity can be reduced 
 - The Grammar of Systems - SCiO presentation — https://www.systemspractice.org/resources/grammar-systems
 - The Grammar of Systems II: From Order to Chaos and Back Again, 2nd edition — https://www.systemspractice.org/resources/grammar-systems-ii-order-chaos-back-again-2nd-ed
 - Cybersecurity Lessons from The Grammar of Systems, part 3 — https://www.linkedin.com/pulse/cybersecurity-lessons-from-grammar-systems-order-chaos-osama-salah-2f
+
+## Rupert Suckling
+
+Type: Person
+Public depth: described
+
+Public-health leader whom Damian credits with bringing Well North into work that became Well Doncaster.
+
+### Sources
+
+- Interview with Damian Allen on systems practice in Doncaster — No public link
+- Dr Rupert Suckling — Well North — https://wellnorth.co.uk/about-us/our-team/our-executive/dr-rupert-suckling
 
 ## S. Amari
 
@@ -8097,17 +8883,6 @@ Type: Person
 Public depth: described
 
 A bibliographic first-pass person entry for S. Forrest, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘Self–Nonself Discrimination in a Computer’. This records collection authorship only; it is not yet a full intellectual profile.
-
-### Sources
-
-- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
-
-## S. J. Gould
-
-Type: Person
-Public depth: described
-
-A bibliographic first-pass person entry for S. J. Gould, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘Punctuated Equilibria: The Tempo and Mode of Evolution Reconsidered’. This records collection authorship only; it is not yet a full intellectual profile.
 
 ### Sources
 
@@ -8200,6 +8975,18 @@ A bibliographic first-pass person entry for S. Wright, listed by the official Fo
 ### Sources
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## Saskia Rysenbry
+
+Type: Person
+Public depth: described
+
+Systems-change practitioner and co-author of Lineages of Systems Practices, explicitly named by Damian.
+
+### Sources
+
+- Damian Allen follow-up correspondence on lineage and UTSI — No public link
+- Lineages of Systems Practices — https://www.schoolofsystemchange.org/blog/lineages-of-systems-practices
 
 ## Scaling Stasis Principle
 
@@ -8628,6 +9415,19 @@ It connects systems inquiry to the design and operation of services without assu
 - Pattern Manual for Service Systems Thinking — https://coevolving.com/commons/20161028-pattern-manual-for-service-systems-thinking
 - David Ing — Coevolving Innovations publications — https://coevolving.com/commons/publications
 
+## Simon Duffy
+
+Type: Person
+Public depth: described
+
+Citizen Network founder whose citizenship and neighbourhood perspective is named in Damian's account.
+
+### Sources
+
+- Interview with Damian Allen on systems practice in Doncaster — No public link
+- Simon Duffy — Citizen Network — https://citizen-network.org/about/people/simon-duffy
+- Neighbourhoods of Care — https://citizen-network.org/library/neighbourhoods-of-care.html
+
 ## Single-loop learning
 
 Type: Concept
@@ -8638,6 +9438,41 @@ Single-loop learning detects and corrects a mismatch while leaving the governing
 ### Sources
 
 - SCiO SysBoK - Feedback v1 — No public link
+
+## Small bets
+
+Type: Practice
+Public depth: described
+
+A stance of starting from present conditions, working with available people and making bounded experiments that generate learning.
+
+### Sources
+
+- Interview with Damian Allen on systems practice in Doncaster — No public link
+- Remake Learning Playbook — https://playbook.remakelearning.org/
+
+## Social innovation
+
+Type: Practice
+Public depth: described
+
+Collaborative development of practices and arrangements intended to change social outcomes and system conditions.
+
+### Sources
+
+- Lineages of Systems Practice — Damian Allen — No public link
+- Designing Regenerative Cultures — https://www.triarchypress.net/drc.html
+
+## Socially situated action
+
+Type: Concept
+Public depth: described
+
+Damian's proposition that action is embedded in place and nested social context rather than separable from it.
+
+### Sources
+
+- Damian Allen follow-up correspondence on lineage and UTSI — No public link
 
 ## Socio-Technical Systems
 
@@ -8714,6 +9549,7 @@ SSM separates systemic inquiry from the claim that the situation itself is one o
 - SCiO CF Resources v9 draft — No public link
 - Systems Thinking, Systems Practice: includes a 30-year retrospective — https://research.lancaster-university.uk/en/publications/systems-thinking-systems-practice-includes-a-30-year-retrospectiv/
 - Systems Thinking, Systems Practice — Wiley publisher page — https://www.wiley-vch.de/en/areas-interest/finance-economics-law/systems-thinking-systems-practice-978-0-471-98606-5
+- Lineages of Systems Practice — Damian Allen — No public link
 
 ## Solvable Model of a Spin-Glass
 
@@ -8738,6 +9574,7 @@ British cybernetician and management thinker who developed the Viable System Mod
 - SCiO SysBoK - Recursion v1 — No public link
 - Diagnosing the System for Organizations — https://www.wiley-vch.de/en/areas-interest/finance-economics-law/diagnosing-the-system-for-organizations-978-0-471-95136-0
 - Viable System Model - The VSM in 1000 words — https://metaphorum.org/staffords-work/viable-system-model
+- Lineages of Systems Practice — Damian Allen — No public link
 
 ## Stakeholder analysis
 
@@ -8763,6 +9600,18 @@ The Steady State Principle links the equilibrium of a system to the equilibria o
 - The Grammar of Systems - SCiO presentation — https://www.systemspractice.org/resources/grammar-systems
 - The Grammar of Systems II: From Order to Chaos and Back Again, 2nd edition — https://www.systemspractice.org/resources/grammar-systems-ii-order-chaos-back-again-2nd-ed
 - Cybersecurity Lessons from The Grammar of Systems, part 3 — https://www.linkedin.com/pulse/cybersecurity-lessons-from-grammar-systems-order-chaos-osama-salah-2f
+
+## Stephen Jay Gould
+
+Type: Person
+Public depth: described
+
+Evolutionary biologist and historian of science who appears in Damian Allen's self-authored philosophy lineage strand.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+- Lineages of Systems Practice — Damian Allen — No public link
 
 ## Steps to an Ecology of Mind
 
@@ -8934,6 +9783,7 @@ System Dynamics models behaviour over time through stocks, flows, feedback loops
 ### Sources
 
 - SCiO CF Resources v9 draft — No public link
+- Lineages of Systems Practice — Damian Allen — No public link
 
 ## System Resonance Principle
 
@@ -9107,6 +9957,18 @@ Method choice is itself an intervention. Boundary critique helps practitioners s
 ### Sources
 
 - The Systemic Intervention Approach — https://doi.org/10.1002/sres.2819
+
+## Systemic Intervention: Philosophy, Methodology, and Practice
+
+Type: Publication
+Public depth: described
+
+Gerald Midgley's book; it provides public context but does not verify Nested Minimum Viable Systems.
+
+### Sources
+
+- Systemic Intervention: Philosophy, Methodology, and Practice — https://hull-repository.worktribe.com/output/385209
+- Professor Gerald Midgley — University of Hull — https://www.hull.ac.uk/staff-directory/gerald-midgley
 
 ## Systems Approaches to Making Change
 
@@ -9416,6 +10278,19 @@ It names work that is often real but invisible. It also needs protection from be
 - Systems convening: the art of convening diverse voices across difficult boundaries — https://www.wenger-trayner.com/systems-convening/
 - Systems convening and boundaries core slides — No public link
 - What do systems leadership and systems change mean to you? — https://chosen-path.org/2022/07/11/what-do-systems-leadership-and-systems-change-mean-to-you-what-questions-would-you-like-me-to-answer/
+
+## Systems intelligence
+
+Type: Concept
+Public depth: described
+
+The capacity to perceive and act within relational, nested and changing systems, used by Damian to connect practical judgment with multiple systems traditions.
+
+### Sources
+
+- Interview with Damian Allen on systems practice in Doncaster — No public link
+- Lineages of Systems Practice — Damian Allen — No public link
+- Damian Allen follow-up correspondence on lineage and UTSI — No public link
 
 ## Systems laws
 
@@ -9953,6 +10828,18 @@ A bibliographic first-pass person entry for T. C. Schelling, listed by the offic
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
 
+## Team Doncaster
+
+Type: Practice
+Public depth: described
+
+The place partnership through which Damian describes Doncaster's mission, locality structure and shared work across organizations.
+
+### Sources
+
+- Interview with Damian Allen on systems practice in Doncaster — No public link
+- City of Doncaster Council Corporate Plan 2026–27 — https://www.doncaster.gov.uk/Documents/DocumentView/Stream/Media/Default/Council%20and%20Democracy/Documents/City%20of%20Doncaster%20Council%20Corporate%20Plan%202026-27.pdf
+
 ## The Architecture of Complexity
 
 Type: Publication
@@ -10060,6 +10947,18 @@ Organisations carry methods through products, training, communities, archives an
 - The Cynefin Company — https://thecynefin.co/
 - Dave Snowden — The Cynefin Company profile — https://thecynefin.co/team/dave-snowden/
 
+## The Ecology of Human Development
+
+Type: Publication
+Public depth: described
+
+Urie Bronfenbrenner's book on nested ecological systems, explicitly named in Damian's correspondence.
+
+### Sources
+
+- The Ecology of Human Development — No public link
+- Damian Allen follow-up correspondence on lineage and UTSI — No public link
+
 ## The Economic Implications of Learning by Doing
 
 Type: Publication
@@ -10092,6 +10991,29 @@ R. Axelrod and W. D. Hamilton, ‘The Evolution of Cooperation’ (1981); item 5
 ### Sources
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## The Forms of Capital
+
+Type: Publication
+Public depth: described
+
+Pierre Bourdieu's account of forms of capital, explicitly named in Damian's correspondence.
+
+### Sources
+
+- The Forms of Capital — No public link
+- Damian Allen follow-up correspondence on lineage and UTSI — No public link
+
+## The Four Essential Elements of an Asset-Based Community Development Process
+
+Type: Publication
+Public depth: described
+
+John McKnight and Cormac Russell's practice paper setting out four essential elements of an Asset-Based Community Development process.
+
+### Sources
+
+- The Four Essential Elements of an Asset-Based Community Development Process — https://resources.depaul.edu/abcd-institute/publications/publications-by-topic/Documents/4_Essential_Elements_of_ABCD_Process.pdf
 
 ## The Fractal Organisation Manual
 
@@ -10605,6 +11527,56 @@ A. N. Kolmogorov, ‘Three Approaches to the Quantitative Definition of Informat
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
 
+## Three Horizons
+
+Type: Method or methodology
+Public depth: profile
+
+A futures-practice framework for relating a dominant present, emerging alternatives and a longer-horizon pattern of transformation.
+
+### Sources
+
+- Interview with Damian Allen on systems practice in Doncaster — No public link
+- Three Horizons: The Patterning of Hope — https://www.internationalfuturesforum.com/p/three-horizons-the-patterning-of-hope
+
+## Three Horizons: The Patterning of Hope
+
+Type: Publication
+Public depth: profile
+
+Bill Sharpe's book presenting the Three Horizons pattern for transformative futures practice.
+
+### Sources
+
+- Three Horizons: The Patterning of Hope — https://www.internationalfuturesforum.com/p/three-horizons-the-patterning-of-hope
+- Interview with Damian Allen on systems practice in Doncaster — No public link
+
+## Toby Lowe
+
+Type: Person
+Public depth: described
+
+Public-service researcher and Human Learning Systems practitioner named by Damian as a collaborator on relational public services.
+
+### Sources
+
+- Interview with Damian Allen on systems practice in Doncaster — No public link
+- Damian Allen follow-up correspondence on lineage and UTSI — No public link
+- Human Learning Systems and the Liberated Method — https://www.humanlearning.systems/uploads/HLSandLiberatedMethod.pdf
+
+## Tony Hodgson
+
+Type: Person
+Public depth: described
+
+Systems practitioner whom Damian credits, alongside Bill Sharpe, in his practical Three Horizons lineage.
+
+### Sources
+
+- Interview with Damian Allen on systems practice in Doncaster — No public link
+- Damian Allen follow-up correspondence on lineage and UTSI — No public link
+- Three Horizons: The Patterning of Hope — https://www.internationalfuturesforum.com/p/three-horizons-the-patterning-of-hope
+
 ## Tony Korycki
 
 Type: Person
@@ -10848,6 +11820,70 @@ It provides a direct route into second-order cybernetics and the ethical consequ
 - Understanding Understanding — Springer record — https://link.springer.com/book/10.1007/b97451
 - Updated rough draft systems | complexity | cybernetics reading list — https://stream.syscoi.com/2024/10/01/updated-rough-draft-systems-complexity-cybernetics-reading-list/
 
+## Unified Theory of Systems Intelligence
+
+Type: Theory
+Public depth: research stub
+
+Damian Allen's unpublished proto-theory proposing a synthesis of systems and cognitive-science frameworks, with a possible coupled nonlinear differential-equation formulation.
+
+### Summary
+
+UTSI is maintained as an inspectable research lead, not an established theory. No public paper, derivation, parameterization, validation or critique was supplied.
+
+### Why it matters
+
+The idea exposes how Damian currently tries to connect his lineages. Its value here is the explicit synthesis claim and testable gaps, not premature authority.
+
+### Key distinctions
+
+- proto-theory versus established theory
+- named synthesis target versus demonstrated integration
+- mathematical aspiration versus supplied model
+- 11-framework claim versus more than 11 visible strands
+
+### Historical development
+
+- Damian Allen lineage diagram
+- systems intelligence
+- systems and cognitive-science frameworks
+
+### Ideas it depends on
+
+- Damian Allen lineage diagram
+- systems intelligence
+- systems and cognitive-science frameworks
+
+### What develops from it
+
+- Doncaster Thrive
+- place-based practice
+- systems intelligence
+
+### Connections to practice
+
+- Doncaster Thrive
+- place-based practice
+- systems intelligence
+
+### Common confusions
+
+- UTSI is not a recognized field theory.
+- The graph does not validate a coupled-equation model.
+- The diagram's frameworks are not necessarily commensurable.
+
+### Open questions and checks
+
+- Obtain a public working paper or model specification.
+- Define variables and coupling assumptions.
+- Reconcile framework count.
+- Invite adversarial review from each source tradition.
+
+### Sources
+
+- Lineages of Systems Practice — Damian Allen — No public link
+- Damian Allen follow-up correspondence on lineage and UTSI — No public link
+
 ## Universal Behavior in Nonlinear Systems
 
 Type: Publication
@@ -10880,6 +11916,18 @@ Unpredictability is the inability to make a sufficiently reliable forecast at a 
 ### Sources
 
 - Systems Thinking Practitioner apprenticeship standard ST0787 v1.2 — https://skillsengland.education.gov.uk/apprenticeships/st0787-v1-2
+
+## Urie Bronfenbrenner
+
+Type: Person
+Public depth: described
+
+Developmental psychologist whose ecological systems theory Damian explicitly names as a theoretical commitment.
+
+### Sources
+
+- Damian Allen follow-up correspondence on lineage and UTSI — No public link
+- The Ecology of Human Development — No public link
 
 ## Valentin Turchin
 
@@ -11444,17 +12492,7 @@ Cybernetician who developed the Law of Requisite Variety and wrote An Introducti
 
 - An Introduction to Cybernetics — https://ashby.info/bibliography.html
 - Biography: W. Ross Ashby (1903–1972) — https://ashby.info/biography.html
-
-## W. Weaver
-
-Type: Person
-Public depth: described
-
-A bibliographic first-pass person entry for W. Weaver, listed by the official Foundational Papers in Complexity Science table of contents as an author of ‘Science and Complexity’. This records collection authorship only; it is not yet a full intellectual profile.
-
-### Sources
-
-- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+- Lineages of Systems Practice — Damian Allen — No public link
 
 ## Walter B. Cannon
 
@@ -11478,6 +12516,18 @@ American neurophysiologist, philosopher and cybernetician whose work on neural n
 
 - Sean Manion: cybernetics, meaning, teleology and phenomenology — https://www.linkedin.com/posts/sean-manionphd_cybernetics-meaning-teleology-activity-7394125204354129921-eCiB
 
+## Warren Weaver
+
+Type: Person
+Public depth: described
+
+Mathematician and science administrator associated with communication theory and named in Damian Allen's information-theory strand.
+
+### Sources
+
+- Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+- Lineages of Systems Practice — Damian Allen — No public link
+
 ## Web Dictionary of Cybernetics and Systems
 
 Type: Comparator corpus
@@ -11488,6 +12538,18 @@ A hypertext dictionary combining the ASC Glossary, Klaus Krippendorff's dictiona
 ### Sources
 
 - Web Dictionary of Cybernetics and Systems — https://pespmc1.vub.ac.be/ASC/INDEXASC.html
+
+## Well Doncaster
+
+Type: Practice
+Public depth: described
+
+Doncaster's community-health practice lineage, described by Damian as carrying Well North and ABCD into local work.
+
+### Sources
+
+- Interview with Damian Allen on systems practice in Doncaster — No public link
+- Dr Rupert Suckling — Well North — https://wellnorth.co.uk/about-us/our-team/our-executive/dr-rupert-suckling
 
 ## Werner Ulrich
 
@@ -11565,6 +12627,17 @@ R. M. May, ‘Will a Large Complex System Be Stable?’ (1972); item 41 in volum
 ### Sources
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## William James
+
+Type: Person
+Public depth: described
+
+Psychologist and philosopher appearing by name alongside Vygotsky in Damian's self-authored learning-theory lineage strand.
+
+### Sources
+
+- Lineages of Systems Practice — Damian Allen — No public link
 
 ## Workshop design
 

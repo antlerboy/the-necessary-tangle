@@ -27,33 +27,33 @@
     "semantic_statements": 747
   },
   "current": {
-    "public_entries": 496,
-    "all_nodes": 606,
-    "all_edges": 1670,
-    "sources": 166,
+    "public_entries": 565,
+    "all_nodes": 675,
+    "all_edges": 1809,
+    "sources": 195,
     "claims": 34,
     "evidence_records": 37,
-    "profiles": 111,
-    "journeys": 19,
+    "profiles": 115,
+    "journeys": 20,
     "external_corpora_reviewed": 9,
     "internal_sources_reviewed": 18,
-    "reader_connected_entries": 486,
-    "semantic_connected_entries": 316,
-    "semantic_gap_entries": 180,
+    "reader_connected_entries": 555,
+    "semantic_connected_entries": 382,
+    "semantic_gap_entries": 183,
     "connection_bands": {
-      "developing": 233,
-      "rich": 35,
-      "thin": 218,
+      "developing": 248,
+      "rich": 43,
+      "thin": 264,
       "unconnected": 10
     },
     "evidence_bands": {
-      "mixed": 196,
+      "mixed": 240,
       "none": 10,
-      "provisional": 101,
-      "supported": 189
+      "provisional": 102,
+      "supported": 213
     },
-    "reader_statements": 1123,
-    "semantic_statements": 725
+    "reader_statements": 1253,
+    "semantic_statements": 838
   },
   "changes_from_baseline": {
     "generic_relation_review_targets": {
@@ -66,69 +66,69 @@
     },
     "sources": {
       "before": 153,
-      "after": 166
+      "after": 195
     },
     "semantic_connected_entries": {
       "before": 329,
-      "after": 316,
+      "after": 382,
       "note": "A generic journal-to-tradition edge was replaced by a narrower documentary scope claim; unsupported semantic reach was not preserved."
     },
     "substantive_edge_count": {
       "before": 750,
-      "after": 728
+      "after": 841
     },
     "isolated_semantic_nodes": {
       "before": 167,
-      "after": 180
+      "after": 183
     }
   },
   "criteria": {
     "typed": {
-      "passing": 1670,
-      "total": 1670
+      "passing": 1809,
+      "total": 1809
     },
     "directed": {
-      "passing": 1581,
-      "total": 1670,
-      "undirected": 89
+      "passing": 1709,
+      "total": 1809,
+      "undirected": 100
     },
     "human_readable_phrase": {
-      "passing": 1670,
-      "total": 1670
+      "passing": 1809,
+      "total": 1809
     },
     "explicit_rationale": {
-      "passing": 1371,
-      "total": 1670
+      "passing": 1510,
+      "total": 1809
     },
     "source_identifier": {
-      "passing": 1670,
-      "total": 1670
+      "passing": 1809,
+      "total": 1809
     },
     "locator_present": {
-      "passing": 1267,
-      "total": 1670
+      "passing": 1406,
+      "total": 1809
     },
     "precision_shaped_locator": {
-      "passing": 239,
-      "total": 1670,
+      "passing": 320,
+      "total": 1809,
       "note": "Conservative text-pattern measure; manual review is still required."
     },
     "epistemic_fields_present": {
-      "passing": 1670,
-      "total": 1670
+      "passing": 1809,
+      "total": 1809
     },
     "generic_related_to": {
-      "passing": 1670,
-      "total": 1670,
+      "passing": 1809,
+      "total": 1809,
       "review_target_count": 0
     },
     "three_or_more_relation_families": {
-      "passing": 69,
-      "total": 496
+      "passing": 90,
+      "total": 565
     },
     "one_relation_family": {
-      "count": 181,
-      "total": 496
+      "count": 200,
+      "total": 565
     },
     "external_corpus_records": {
       "passing": 9,
@@ -137,16 +137,6 @@
     "internal_corpus_records": {
       "passing": 18,
       "total": 18
-    },
-    "exact_duplicate_triples": {
-      "passing": 1670,
-      "total": 1670,
-      "review_target_count": 0
-    },
-    "legacy_unlocated_candidates": {
-      "passing": 1670,
-      "total": 1670,
-      "review_target_count": 0
     }
   },
   "generic_relation_review": [],
@@ -691,6 +681,27 @@
       ]
     },
     {
+      "node_id": "person_bertrand_russell",
+      "label": "Bertrand Russell",
+      "entity_type": "person",
+      "publication_level": "described",
+      "connection_band": "thin",
+      "evidence_band": "mixed",
+      "visible_connections": 2,
+      "visible_statements": 2,
+      "reader_connections": 1,
+      "reader_statements": 1,
+      "semantic_connections": 1,
+      "semantic_statements": 1,
+      "documentary_statements": 0,
+      "accepted_reader_statements": 1,
+      "provisional_reader_statements": 0,
+      "distinct_reader_families": 1,
+      "reader_families": [
+        "identity"
+      ]
+    },
+    {
       "node_id": "person_fpcs_c_g_langton",
       "label": "C. G. Langton",
       "entity_type": "person",
@@ -793,6 +804,27 @@
       "distinct_reader_families": 1,
       "reader_families": [
         "documentary"
+      ]
+    },
+    {
+      "node_id": "practice_circular_economy",
+      "label": "Circular economy",
+      "entity_type": "practice",
+      "publication_level": "described",
+      "connection_band": "thin",
+      "evidence_band": "mixed",
+      "visible_connections": 1,
+      "visible_statements": 1,
+      "reader_connections": 1,
+      "reader_statements": 1,
+      "semantic_connections": 1,
+      "semantic_statements": 1,
+      "documentary_statements": 0,
+      "accepted_reader_statements": 1,
+      "provisional_reader_statements": 0,
+      "distinct_reader_families": 1,
+      "reader_families": [
+        "conceptual"
       ]
     },
     {
@@ -1069,27 +1101,6 @@
       ]
     },
     {
-      "node_id": "person_gerald_midgley",
-      "label": "Gerald Midgley",
-      "entity_type": "person",
-      "publication_level": "described",
-      "connection_band": "thin",
-      "evidence_band": "mixed",
-      "visible_connections": 1,
-      "visible_statements": 1,
-      "reader_connections": 1,
-      "reader_statements": 1,
-      "semantic_connections": 1,
-      "semantic_statements": 1,
-      "documentary_statements": 0,
-      "accepted_reader_statements": 1,
-      "provisional_reader_statements": 0,
-      "distinct_reader_families": 1,
-      "reader_families": [
-        "influence"
-      ]
-    },
-    {
       "node_id": "person_fpcs_h_haken",
       "label": "H. Haken",
       "entity_type": "person",
@@ -1150,6 +1161,27 @@
       "distinct_reader_families": 1,
       "reader_families": [
         "identity"
+      ]
+    },
+    {
+      "node_id": "practice_innovation_ecosystems",
+      "label": "Innovation ecosystems",
+      "entity_type": "practice",
+      "publication_level": "described",
+      "connection_band": "thin",
+      "evidence_band": "mixed",
+      "visible_connections": 1,
+      "visible_statements": 1,
+      "reader_connections": 1,
+      "reader_statements": 1,
+      "semantic_connections": 1,
+      "semantic_statements": 1,
+      "documentary_statements": 0,
+      "accepted_reader_statements": 1,
+      "provisional_reader_statements": 0,
+      "distinct_reader_families": 1,
+      "reader_families": [
+        "conceptual"
       ]
     },
     {
@@ -1426,6 +1458,48 @@
       ]
     },
     {
+      "node_id": "publication_fullan_leadership",
+      "label": "Leadership & Sustainability: System Thinkers in Action",
+      "entity_type": "publication",
+      "publication_level": "described",
+      "connection_band": "thin",
+      "evidence_band": "mixed",
+      "visible_connections": 1,
+      "visible_statements": 1,
+      "reader_connections": 1,
+      "reader_statements": 1,
+      "semantic_connections": 0,
+      "semantic_statements": 0,
+      "documentary_statements": 1,
+      "accepted_reader_statements": 1,
+      "provisional_reader_statements": 0,
+      "distinct_reader_families": 1,
+      "reader_families": [
+        "documentary"
+      ]
+    },
+    {
+      "node_id": "person_lev_vygotsky",
+      "label": "Lev Vygotsky",
+      "entity_type": "person",
+      "publication_level": "described",
+      "connection_band": "thin",
+      "evidence_band": "mixed",
+      "visible_connections": 2,
+      "visible_statements": 2,
+      "reader_connections": 1,
+      "reader_statements": 1,
+      "semantic_connections": 1,
+      "semantic_statements": 1,
+      "documentary_statements": 0,
+      "accepted_reader_statements": 1,
+      "provisional_reader_statements": 0,
+      "distinct_reader_families": 1,
+      "reader_families": [
+        "identity"
+      ]
+    },
+    {
       "node_id": "person_fpcs_m_bunge",
       "label": "M. Bunge",
       "entity_type": "person",
@@ -1594,6 +1668,27 @@
       ]
     },
     {
+      "node_id": "concept_municipal_brain",
+      "label": "Municipal brain",
+      "entity_type": "concept",
+      "publication_level": "described",
+      "connection_band": "thin",
+      "evidence_band": "mixed",
+      "visible_connections": 1,
+      "visible_statements": 1,
+      "reader_connections": 1,
+      "reader_statements": 1,
+      "semantic_connections": 1,
+      "semantic_statements": 1,
+      "documentary_statements": 0,
+      "accepted_reader_statements": 1,
+      "provisional_reader_statements": 0,
+      "distinct_reader_families": 1,
+      "reader_families": [
+        "practice"
+      ]
+    },
+    {
       "node_id": "person_namrata_arora",
       "label": "Namrata Arora",
       "entity_type": "person",
@@ -1612,6 +1707,27 @@
       "distinct_reader_families": 1,
       "reader_families": [
         "documentary"
+      ]
+    },
+    {
+      "node_id": "concept_nested_minimum_viable_systems",
+      "label": "Nested Minimum Viable Systems",
+      "entity_type": "concept",
+      "publication_level": "research_stub",
+      "connection_band": "thin",
+      "evidence_band": "provisional",
+      "visible_connections": 1,
+      "visible_statements": 1,
+      "reader_connections": 1,
+      "reader_statements": 1,
+      "semantic_connections": 1,
+      "semantic_statements": 1,
+      "documentary_statements": 0,
+      "accepted_reader_statements": 0,
+      "provisional_reader_statements": 1,
+      "distinct_reader_families": 1,
+      "reader_families": [
+        "influence"
       ]
     },
     {
@@ -1654,6 +1770,48 @@
       "distinct_reader_families": 1,
       "reader_families": [
         "documentary"
+      ]
+    },
+    {
+      "node_id": "tradition_philosophy_damian",
+      "label": "Philosophy in Damian Allen's lineage",
+      "entity_type": "tradition",
+      "publication_level": "described",
+      "connection_band": "thin",
+      "evidence_band": "mixed",
+      "visible_connections": 3,
+      "visible_statements": 3,
+      "reader_connections": 1,
+      "reader_statements": 1,
+      "semantic_connections": 1,
+      "semantic_statements": 1,
+      "documentary_statements": 0,
+      "accepted_reader_statements": 1,
+      "provisional_reader_statements": 0,
+      "distinct_reader_families": 1,
+      "reader_families": [
+        "identity"
+      ]
+    },
+    {
+      "node_id": "concept_population_dynamics",
+      "label": "Population dynamics",
+      "entity_type": "concept",
+      "publication_level": "described",
+      "connection_band": "thin",
+      "evidence_band": "mixed",
+      "visible_connections": 2,
+      "visible_statements": 2,
+      "reader_connections": 1,
+      "reader_statements": 1,
+      "semantic_connections": 1,
+      "semantic_statements": 1,
+      "documentary_statements": 0,
+      "accepted_reader_statements": 1,
+      "provisional_reader_statements": 0,
+      "distinct_reader_families": 1,
+      "reader_families": [
+        "identity"
       ]
     },
     {
@@ -1759,6 +1917,27 @@
       "distinct_reader_families": 1,
       "reader_families": [
         "documentary"
+      ]
+    },
+    {
+      "node_id": "publication_remake_learning_playbook",
+      "label": "Remake Learning Playbook",
+      "entity_type": "publication",
+      "publication_level": "described",
+      "connection_band": "thin",
+      "evidence_band": "mixed",
+      "visible_connections": 1,
+      "visible_statements": 1,
+      "reader_connections": 1,
+      "reader_statements": 1,
+      "semantic_connections": 1,
+      "semantic_statements": 1,
+      "documentary_statements": 0,
+      "accepted_reader_statements": 1,
+      "provisional_reader_statements": 0,
+      "distinct_reader_families": 1,
+      "reader_families": [
+        "practice"
       ]
     },
     {
@@ -1888,9 +2067,51 @@
       ]
     },
     {
+      "node_id": "person_simon_duffy",
+      "label": "Simon Duffy",
+      "entity_type": "person",
+      "publication_level": "described",
+      "connection_band": "thin",
+      "evidence_band": "mixed",
+      "visible_connections": 1,
+      "visible_statements": 1,
+      "reader_connections": 1,
+      "reader_statements": 1,
+      "semantic_connections": 1,
+      "semantic_statements": 1,
+      "documentary_statements": 0,
+      "accepted_reader_statements": 1,
+      "provisional_reader_statements": 0,
+      "distinct_reader_families": 1,
+      "reader_families": [
+        "identity"
+      ]
+    },
+    {
       "node_id": "person_sue_holwell",
       "label": "Sue Holwell",
       "entity_type": "person",
+      "publication_level": "described",
+      "connection_band": "thin",
+      "evidence_band": "mixed",
+      "visible_connections": 1,
+      "visible_statements": 1,
+      "reader_connections": 1,
+      "reader_statements": 1,
+      "semantic_connections": 0,
+      "semantic_statements": 0,
+      "documentary_statements": 1,
+      "accepted_reader_statements": 1,
+      "provisional_reader_statements": 0,
+      "distinct_reader_families": 1,
+      "reader_families": [
+        "documentary"
+      ]
+    },
+    {
+      "node_id": "publication_systemic_intervention_midgley",
+      "label": "Systemic Intervention: Philosophy, Methodology, and Practice",
+      "entity_type": "publication",
       "publication_level": "described",
       "connection_band": "thin",
       "evidence_band": "mixed",
@@ -1930,6 +2151,27 @@
       ]
     },
     {
+      "node_id": "practice_team_doncaster",
+      "label": "Team Doncaster",
+      "entity_type": "practice",
+      "publication_level": "described",
+      "connection_band": "thin",
+      "evidence_band": "mixed",
+      "visible_connections": 1,
+      "visible_statements": 1,
+      "reader_connections": 1,
+      "reader_statements": 1,
+      "semantic_connections": 1,
+      "semantic_statements": 1,
+      "documentary_statements": 0,
+      "accepted_reader_statements": 1,
+      "provisional_reader_statements": 0,
+      "distinct_reader_families": 1,
+      "reader_families": [
+        "practice"
+      ]
+    },
+    {
       "node_id": "person_thoralf_skolem",
       "label": "Thoralf Skolem",
       "entity_type": "person",
@@ -1951,27 +2193,6 @@
       ]
     },
     {
-      "node_id": "person_fpcs_w_weaver",
-      "label": "W. Weaver",
-      "entity_type": "person",
-      "publication_level": "described",
-      "connection_band": "thin",
-      "evidence_band": "mixed",
-      "visible_connections": 1,
-      "visible_statements": 1,
-      "reader_connections": 1,
-      "reader_statements": 1,
-      "semantic_connections": 0,
-      "semantic_statements": 0,
-      "documentary_statements": 1,
-      "accepted_reader_statements": 1,
-      "provisional_reader_statements": 0,
-      "distinct_reader_families": 1,
-      "reader_families": [
-        "documentary"
-      ]
-    },
-    {
       "node_id": "comparator_corpus_principia_cybernetica_web_dictionary",
       "label": "Web Dictionary of Cybernetics and Systems",
       "entity_type": "comparator_corpus",
@@ -1990,6 +2211,71 @@
       "distinct_reader_families": 1,
       "reader_families": [
         "documentary"
+      ]
+    },
+    {
+      "node_id": "person_william_james",
+      "label": "William James",
+      "entity_type": "person",
+      "publication_level": "described",
+      "connection_band": "thin",
+      "evidence_band": "mixed",
+      "visible_connections": 2,
+      "visible_statements": 2,
+      "reader_connections": 1,
+      "reader_statements": 1,
+      "semantic_connections": 1,
+      "semantic_statements": 1,
+      "documentary_statements": 0,
+      "accepted_reader_statements": 1,
+      "provisional_reader_statements": 0,
+      "distinct_reader_families": 1,
+      "reader_families": [
+        "identity"
+      ]
+    },
+    {
+      "node_id": "person_bruce_edmonds",
+      "label": "Bruce Edmonds",
+      "entity_type": "person",
+      "publication_level": "described",
+      "connection_band": "thin",
+      "evidence_band": "provisional",
+      "visible_connections": 1,
+      "visible_statements": 2,
+      "reader_connections": 1,
+      "reader_statements": 2,
+      "semantic_connections": 1,
+      "semantic_statements": 2,
+      "documentary_statements": 0,
+      "accepted_reader_statements": 0,
+      "provisional_reader_statements": 2,
+      "distinct_reader_families": 2,
+      "reader_families": [
+        "human",
+        "identity"
+      ]
+    },
+    {
+      "node_id": "practice_choose_kindness",
+      "label": "Choose Kindness",
+      "entity_type": "practice",
+      "publication_level": "described",
+      "connection_band": "thin",
+      "evidence_band": "mixed",
+      "visible_connections": 1,
+      "visible_statements": 2,
+      "reader_connections": 1,
+      "reader_statements": 2,
+      "semantic_connections": 1,
+      "semantic_statements": 2,
+      "documentary_statements": 0,
+      "accepted_reader_statements": 2,
+      "provisional_reader_statements": 0,
+      "distinct_reader_families": 2,
+      "reader_families": [
+        "conceptual",
+        "practice"
       ]
     },
     {
@@ -2095,6 +2381,69 @@
       "distinct_reader_families": 1,
       "reader_families": [
         "documentary"
+      ]
+    },
+    {
+      "node_id": "concept_forms_of_capital",
+      "label": "Forms of capital",
+      "entity_type": "concept",
+      "publication_level": "described",
+      "connection_band": "thin",
+      "evidence_band": "mixed",
+      "visible_connections": 2,
+      "visible_statements": 2,
+      "reader_connections": 2,
+      "reader_statements": 2,
+      "semantic_connections": 2,
+      "semantic_statements": 2,
+      "documentary_statements": 0,
+      "accepted_reader_statements": 1,
+      "provisional_reader_statements": 1,
+      "distinct_reader_families": 1,
+      "reader_families": [
+        "conceptual"
+      ]
+    },
+    {
+      "node_id": "publication_lineages_systems_practices",
+      "label": "Lineages of Systems Practices",
+      "entity_type": "publication",
+      "publication_level": "described",
+      "connection_band": "thin",
+      "evidence_band": "mixed",
+      "visible_connections": 2,
+      "visible_statements": 2,
+      "reader_connections": 2,
+      "reader_statements": 2,
+      "semantic_connections": 0,
+      "semantic_statements": 0,
+      "documentary_statements": 2,
+      "accepted_reader_statements": 2,
+      "provisional_reader_statements": 0,
+      "distinct_reader_families": 1,
+      "reader_families": [
+        "documentary"
+      ]
+    },
+    {
+      "node_id": "concept_socially_situated_action",
+      "label": "Socially situated action",
+      "entity_type": "concept",
+      "publication_level": "described",
+      "connection_band": "thin",
+      "evidence_band": "mixed",
+      "visible_connections": 2,
+      "visible_statements": 2,
+      "reader_connections": 2,
+      "reader_statements": 2,
+      "semantic_connections": 2,
+      "semantic_statements": 2,
+      "documentary_statements": 0,
+      "accepted_reader_statements": 2,
+      "provisional_reader_statements": 0,
+      "distinct_reader_families": 1,
+      "reader_families": [
+        "conceptual"
       ]
     },
     {
@@ -2315,380 +2664,6 @@
         "documentary",
         "historical"
       ]
-    },
-    {
-      "node_id": "person_raul_espejo",
-      "label": "Raul Espejo",
-      "entity_type": "person",
-      "publication_level": "profile",
-      "connection_band": "thin",
-      "evidence_band": "mixed",
-      "visible_connections": 2,
-      "visible_statements": 2,
-      "reader_connections": 2,
-      "reader_statements": 2,
-      "semantic_connections": 1,
-      "semantic_statements": 1,
-      "documentary_statements": 1,
-      "accepted_reader_statements": 2,
-      "provisional_reader_statements": 0,
-      "distinct_reader_families": 2,
-      "reader_families": [
-        "documentary",
-        "historical"
-      ]
-    },
-    {
-      "node_id": "person_ray_ison",
-      "label": "Ray Ison",
-      "entity_type": "person",
-      "publication_level": "profile",
-      "connection_band": "thin",
-      "evidence_band": "mixed",
-      "visible_connections": 2,
-      "visible_statements": 2,
-      "reader_connections": 2,
-      "reader_statements": 2,
-      "semantic_connections": 1,
-      "semantic_statements": 1,
-      "documentary_statements": 1,
-      "accepted_reader_statements": 2,
-      "provisional_reader_statements": 0,
-      "distinct_reader_families": 2,
-      "reader_families": [
-        "documentary",
-        "historical"
-      ]
-    },
-    {
-      "node_id": "publication_fractal_organisation_manual",
-      "label": "The Fractal Organisation Manual",
-      "entity_type": "publication",
-      "publication_level": "profile",
-      "connection_band": "thin",
-      "evidence_band": "mixed",
-      "visible_connections": 2,
-      "visible_statements": 2,
-      "reader_connections": 2,
-      "reader_statements": 2,
-      "semantic_connections": 1,
-      "semantic_statements": 1,
-      "documentary_statements": 1,
-      "accepted_reader_statements": 2,
-      "provisional_reader_statements": 0,
-      "distinct_reader_families": 2,
-      "reader_families": [
-        "documentary",
-        "practice"
-      ]
-    },
-    {
-      "node_id": "person_werner_ulrich",
-      "label": "Werner Ulrich",
-      "entity_type": "person",
-      "publication_level": "profile",
-      "connection_band": "thin",
-      "evidence_band": "mixed",
-      "visible_connections": 2,
-      "visible_statements": 2,
-      "reader_connections": 2,
-      "reader_statements": 2,
-      "semantic_connections": 1,
-      "semantic_statements": 1,
-      "documentary_statements": 1,
-      "accepted_reader_statements": 2,
-      "provisional_reader_statements": 0,
-      "distinct_reader_families": 2,
-      "reader_families": [
-        "documentary",
-        "historical"
-      ]
-    },
-    {
-      "node_id": "person_claude_e_shannon",
-      "label": "Claude E. Shannon",
-      "entity_type": "person",
-      "publication_level": "described",
-      "connection_band": "thin",
-      "evidence_band": "mixed",
-      "visible_connections": 2,
-      "visible_statements": 2,
-      "reader_connections": 2,
-      "reader_statements": 2,
-      "semantic_connections": 1,
-      "semantic_statements": 1,
-      "documentary_statements": 1,
-      "accepted_reader_statements": 2,
-      "provisional_reader_statements": 0,
-      "distinct_reader_families": 2,
-      "reader_families": [
-        "documentary",
-        "historical"
-      ]
-    },
-    {
-      "node_id": "person_fpcs_d_h_wolpert",
-      "label": "D. H. Wolpert",
-      "entity_type": "person",
-      "publication_level": "described",
-      "connection_band": "thin",
-      "evidence_band": "mixed",
-      "visible_connections": 2,
-      "visible_statements": 2,
-      "reader_connections": 2,
-      "reader_statements": 2,
-      "semantic_connections": 1,
-      "semantic_statements": 1,
-      "documentary_statements": 1,
-      "accepted_reader_statements": 2,
-      "provisional_reader_statements": 0,
-      "distinct_reader_families": 2,
-      "reader_families": [
-        "documentary",
-        "human"
-      ]
-    },
-    {
-      "node_id": "person_fpcs_d_sherrington",
-      "label": "D. Sherrington",
-      "entity_type": "person",
-      "publication_level": "described",
-      "connection_band": "thin",
-      "evidence_band": "mixed",
-      "visible_connections": 2,
-      "visible_statements": 2,
-      "reader_connections": 2,
-      "reader_statements": 2,
-      "semantic_connections": 1,
-      "semantic_statements": 1,
-      "documentary_statements": 1,
-      "accepted_reader_statements": 2,
-      "provisional_reader_statements": 0,
-      "distinct_reader_families": 2,
-      "reader_families": [
-        "documentary",
-        "human"
-      ]
-    },
-    {
-      "node_id": "person_fpcs_d_watts",
-      "label": "D. Watts",
-      "entity_type": "person",
-      "publication_level": "described",
-      "connection_band": "thin",
-      "evidence_band": "mixed",
-      "visible_connections": 2,
-      "visible_statements": 2,
-      "reader_connections": 2,
-      "reader_statements": 2,
-      "semantic_connections": 1,
-      "semantic_statements": 1,
-      "documentary_statements": 1,
-      "accepted_reader_statements": 2,
-      "provisional_reader_statements": 0,
-      "distinct_reader_families": 2,
-      "reader_families": [
-        "documentary",
-        "human"
-      ]
-    },
-    {
-      "node_id": "concept_fractals",
-      "label": "Fractals",
-      "entity_type": "concept",
-      "publication_level": "described",
-      "connection_band": "thin",
-      "evidence_band": "provisional",
-      "visible_connections": 2,
-      "visible_statements": 2,
-      "reader_connections": 2,
-      "reader_statements": 2,
-      "semantic_connections": 2,
-      "semantic_statements": 2,
-      "documentary_statements": 0,
-      "accepted_reader_statements": 0,
-      "provisional_reader_statements": 2,
-      "distinct_reader_families": 2,
-      "reader_families": [
-        "conceptual",
-        "practice"
-      ]
-    },
-    {
-      "node_id": "person_fpcs_g_nicolis",
-      "label": "G. Nicolis",
-      "entity_type": "person",
-      "publication_level": "described",
-      "connection_band": "thin",
-      "evidence_band": "mixed",
-      "visible_connections": 2,
-      "visible_statements": 2,
-      "reader_connections": 2,
-      "reader_statements": 2,
-      "semantic_connections": 1,
-      "semantic_statements": 1,
-      "documentary_statements": 1,
-      "accepted_reader_statements": 2,
-      "provisional_reader_statements": 0,
-      "distinct_reader_families": 2,
-      "reader_families": [
-        "documentary",
-        "human"
-      ]
-    },
-    {
-      "node_id": "person_gregory_bateson",
-      "label": "Gregory Bateson",
-      "entity_type": "person",
-      "publication_level": "described",
-      "connection_band": "thin",
-      "evidence_band": "mixed",
-      "visible_connections": 2,
-      "visible_statements": 2,
-      "reader_connections": 2,
-      "reader_statements": 2,
-      "semantic_connections": 1,
-      "semantic_statements": 1,
-      "documentary_statements": 1,
-      "accepted_reader_statements": 1,
-      "provisional_reader_statements": 1,
-      "distinct_reader_families": 2,
-      "reader_families": [
-        "documentary",
-        "historical"
-      ]
-    },
-    {
-      "node_id": "person_fpcs_i_prigogine",
-      "label": "I. Prigogine",
-      "entity_type": "person",
-      "publication_level": "described",
-      "connection_band": "thin",
-      "evidence_band": "mixed",
-      "visible_connections": 2,
-      "visible_statements": 2,
-      "reader_connections": 2,
-      "reader_statements": 2,
-      "semantic_connections": 1,
-      "semantic_statements": 1,
-      "documentary_statements": 1,
-      "accepted_reader_statements": 2,
-      "provisional_reader_statements": 0,
-      "distinct_reader_families": 2,
-      "reader_families": [
-        "documentary",
-        "human"
-      ]
-    },
-    {
-      "node_id": "person_fpcs_j_h_miller",
-      "label": "J. H. Miller",
-      "entity_type": "person",
-      "publication_level": "described",
-      "connection_band": "thin",
-      "evidence_band": "mixed",
-      "visible_connections": 2,
-      "visible_statements": 2,
-      "reader_connections": 2,
-      "reader_statements": 2,
-      "semantic_connections": 1,
-      "semantic_statements": 1,
-      "documentary_statements": 1,
-      "accepted_reader_statements": 2,
-      "provisional_reader_statements": 0,
-      "distinct_reader_families": 2,
-      "reader_families": [
-        "documentary",
-        "human"
-      ]
-    },
-    {
-      "node_id": "person_fpcs_j_m_kremer",
-      "label": "J. M. Kremer",
-      "entity_type": "person",
-      "publication_level": "described",
-      "connection_band": "thin",
-      "evidence_band": "mixed",
-      "visible_connections": 2,
-      "visible_statements": 2,
-      "reader_connections": 2,
-      "reader_statements": 2,
-      "semantic_connections": 1,
-      "semantic_statements": 1,
-      "documentary_statements": 1,
-      "accepted_reader_statements": 2,
-      "provisional_reader_statements": 0,
-      "distinct_reader_families": 2,
-      "reader_families": [
-        "documentary",
-        "human"
-      ]
-    },
-    {
-      "node_id": "person_fpcs_j_s_lansing",
-      "label": "J. S. Lansing",
-      "entity_type": "person",
-      "publication_level": "described",
-      "connection_band": "thin",
-      "evidence_band": "mixed",
-      "visible_connections": 2,
-      "visible_statements": 2,
-      "reader_connections": 2,
-      "reader_statements": 2,
-      "semantic_connections": 1,
-      "semantic_statements": 1,
-      "documentary_statements": 1,
-      "accepted_reader_statements": 2,
-      "provisional_reader_statements": 0,
-      "distinct_reader_families": 2,
-      "reader_families": [
-        "documentary",
-        "human"
-      ]
-    },
-    {
-      "node_id": "person_fpcs_m_gell_mann",
-      "label": "M. Gell-Mann",
-      "entity_type": "person",
-      "publication_level": "described",
-      "connection_band": "thin",
-      "evidence_band": "mixed",
-      "visible_connections": 2,
-      "visible_statements": 2,
-      "reader_connections": 2,
-      "reader_statements": 2,
-      "semantic_connections": 1,
-      "semantic_statements": 1,
-      "documentary_statements": 1,
-      "accepted_reader_statements": 2,
-      "provisional_reader_statements": 0,
-      "distinct_reader_families": 2,
-      "reader_families": [
-        "documentary",
-        "human"
-      ]
-    },
-    {
-      "node_id": "person_fpcs_n_eldredge",
-      "label": "N. Eldredge",
-      "entity_type": "person",
-      "publication_level": "described",
-      "connection_band": "thin",
-      "evidence_band": "mixed",
-      "visible_connections": 2,
-      "visible_statements": 2,
-      "reader_connections": 2,
-      "reader_statements": 2,
-      "semantic_connections": 1,
-      "semantic_statements": 1,
-      "documentary_statements": 1,
-      "accepted_reader_statements": 2,
-      "provisional_reader_statements": 0,
-      "distinct_reader_families": 2,
-      "reader_families": [
-        "documentary",
-        "human"
-      ]
     }
   ],
   "limitations": [
@@ -2702,13 +2677,13 @@
     "date": "2026-08-14",
     "method": "Exact duplicate triples were inspected individually. Every unlocated legacy candidate and every maintained inferred edge was challenged against its locator and rationale.",
     "before": {
-      "edges": 1688,
+      "edges": 1827,
       "exact_duplicate_triples": 18,
       "legacy_unlocated_candidates": 0,
       "inferred_edges": 0
     },
     "after": {
-      "edges": 1670,
+      "edges": 1809,
       "exact_duplicate_triples": 0,
       "legacy_unlocated_candidates": 0,
       "inferred_edges": 0
@@ -2947,6 +2922,742 @@
       "e_fpcs_author_048_francisco_varela",
       "e_fpcs_author_048_humberto_maturana",
       "e_fpcs_author_074_herbert_simon"
+    ]
+  },
+  "doncaster_lineage_review": {
+    "date": "2026-08-15",
+    "scope": "Damian Allen interview, lineage diagram, approved key messages, correspondence, connected-corpus discovery check and claim-specific public corroboration.",
+    "privacy_rule": "Private records are represented by authorized paraphrase and source locators; message identifiers, addresses, private URLs and unnecessary extracts are excluded.",
+    "before": {
+      "nodes": 606,
+      "edges": 1670,
+      "sources": 166,
+      "profiles": 111,
+      "journeys": 19,
+      "exact_duplicate_triples": 0,
+      "explicit_doncaster_lineage_entries": 0
+    },
+    "after": {
+      "nodes": 675,
+      "edges": 1809,
+      "sources": 195,
+      "profiles": 115,
+      "journeys": 20,
+      "exact_duplicate_triples": 0,
+      "named_lineage_items_explicit": 81,
+      "new_typed_relationships": 139,
+      "private_source_records": 4
+    },
+    "coverage": [
+      {
+        "label": "Damian Allen",
+        "node_id": "person_damian_allen",
+        "kind": "person",
+        "coverage": "added"
+      },
+      {
+        "label": "Michael Fullan",
+        "node_id": "person_michael_fullan",
+        "kind": "person",
+        "coverage": "added"
+      },
+      {
+        "label": "Gregg Behr",
+        "node_id": "person_gregg_behr",
+        "kind": "person",
+        "coverage": "added"
+      },
+      {
+        "label": "Toby Lowe",
+        "node_id": "person_toby_lowe",
+        "kind": "person",
+        "coverage": "added"
+      },
+      {
+        "label": "Mark Smith",
+        "node_id": "person_mark_smith_hls",
+        "kind": "person",
+        "coverage": "added"
+      },
+      {
+        "label": "Hannah Hesselgreaves",
+        "node_id": "person_hannah_hesselgreaves",
+        "kind": "person",
+        "coverage": "added"
+      },
+      {
+        "label": "Tony Hodgson",
+        "node_id": "person_tony_hodgson",
+        "kind": "person",
+        "coverage": "added"
+      },
+      {
+        "label": "Bill Sharpe",
+        "node_id": "person_bill_sharpe",
+        "kind": "person",
+        "coverage": "added"
+      },
+      {
+        "label": "Cormac Russell",
+        "node_id": "person_cormac_russell",
+        "kind": "person",
+        "coverage": "added"
+      },
+      {
+        "label": "Simon Duffy",
+        "node_id": "person_simon_duffy",
+        "kind": "person",
+        "coverage": "added"
+      },
+      {
+        "label": "Daniel Christian Wahl",
+        "node_id": "person_daniel_christian_wahl",
+        "kind": "person",
+        "coverage": "added"
+      },
+      {
+        "label": "Rupert Suckling",
+        "node_id": "person_rupert_suckling",
+        "kind": "person",
+        "coverage": "added"
+      },
+      {
+        "label": "Bruce Edmonds",
+        "node_id": "person_bruce_edmonds",
+        "kind": "person",
+        "coverage": "added"
+      },
+      {
+        "label": "Robert Geyer",
+        "node_id": "person_robert_geyer",
+        "kind": "person",
+        "coverage": "added"
+      },
+      {
+        "label": "Pierre Bourdieu",
+        "node_id": "person_pierre_bourdieu",
+        "kind": "person",
+        "coverage": "added"
+      },
+      {
+        "label": "Urie Bronfenbrenner",
+        "node_id": "person_urie_bronfenbrenner",
+        "kind": "person",
+        "coverage": "added"
+      },
+      {
+        "label": "Laura Winn",
+        "node_id": "person_laura_winn",
+        "kind": "person",
+        "coverage": "added"
+      },
+      {
+        "label": "Saskia Rysenbry",
+        "node_id": "person_saskia_rysenbry",
+        "kind": "person",
+        "coverage": "added"
+      },
+      {
+        "label": "Jenny Andersson",
+        "node_id": "person_jenny_andersson",
+        "kind": "person",
+        "coverage": "added"
+      },
+      {
+        "label": "Bertrand Russell",
+        "node_id": "person_bertrand_russell",
+        "kind": "person",
+        "coverage": "added"
+      },
+      {
+        "label": "Lev Vygotsky",
+        "node_id": "person_lev_vygotsky",
+        "kind": "person",
+        "coverage": "added"
+      },
+      {
+        "label": "William James",
+        "node_id": "person_william_james",
+        "kind": "person",
+        "coverage": "added"
+      },
+      {
+        "label": "Doncaster Thrive",
+        "node_id": "practice_doncaster_thrive",
+        "kind": "practice",
+        "coverage": "added"
+      },
+      {
+        "label": "Relational public services",
+        "node_id": "practice_relational_public_services",
+        "kind": "practice",
+        "coverage": "added"
+      },
+      {
+        "label": "Asset-Based Community Development",
+        "node_id": "practice_asset_based_community_development",
+        "kind": "practice",
+        "coverage": "added"
+      },
+      {
+        "label": "Place-based practice",
+        "node_id": "practice_place_based",
+        "kind": "practice",
+        "coverage": "added"
+      },
+      {
+        "label": "Authorizing environment",
+        "node_id": "concept_authorizing_environment",
+        "kind": "concept",
+        "coverage": "added"
+      },
+      {
+        "label": "Organizational learning",
+        "node_id": "practice_organizational_learning",
+        "kind": "practice",
+        "coverage": "added"
+      },
+      {
+        "label": "Regenerative cultures",
+        "node_id": "practice_regenerative_cultures",
+        "kind": "practice",
+        "coverage": "added"
+      },
+      {
+        "label": "Three Horizons",
+        "node_id": "method_three_horizons",
+        "kind": "method_or_methodology",
+        "coverage": "added"
+      },
+      {
+        "label": "Human Learning Systems",
+        "node_id": "practice_human_learning_systems",
+        "kind": "practice",
+        "coverage": "added"
+      },
+      {
+        "label": "Learning ecosystems",
+        "node_id": "practice_learning_ecosystems",
+        "kind": "practice",
+        "coverage": "added"
+      },
+      {
+        "label": "Innovation ecosystems",
+        "node_id": "practice_innovation_ecosystems",
+        "kind": "practice",
+        "coverage": "added"
+      },
+      {
+        "label": "Social innovation",
+        "node_id": "practice_social_innovation",
+        "kind": "practice",
+        "coverage": "added"
+      },
+      {
+        "label": "Design thinking",
+        "node_id": "practice_design_thinking",
+        "kind": "practice",
+        "coverage": "added"
+      },
+      {
+        "label": "Evolutionary ecology",
+        "node_id": "tradition_evolutionary_ecology",
+        "kind": "tradition",
+        "coverage": "added"
+      },
+      {
+        "label": "Population dynamics",
+        "node_id": "concept_population_dynamics",
+        "kind": "concept",
+        "coverage": "added"
+      },
+      {
+        "label": "Community ecology",
+        "node_id": "concept_community_ecology",
+        "kind": "concept",
+        "coverage": "added"
+      },
+      {
+        "label": "Philosophy in Damian Allen's lineage",
+        "node_id": "tradition_philosophy_damian",
+        "kind": "tradition",
+        "coverage": "added"
+      },
+      {
+        "label": "Learning theory",
+        "node_id": "tradition_learning_theory",
+        "kind": "tradition",
+        "coverage": "added"
+      },
+      {
+        "label": "Organizational theory",
+        "node_id": "tradition_organizational_theory",
+        "kind": "tradition",
+        "coverage": "added"
+      },
+      {
+        "label": "Complexity theory",
+        "node_id": "tradition_complexity_theory",
+        "kind": "tradition",
+        "coverage": "added"
+      },
+      {
+        "label": "Circular economy",
+        "node_id": "practice_circular_economy",
+        "kind": "practice",
+        "coverage": "added"
+      },
+      {
+        "label": "Permaculture",
+        "node_id": "practice_permaculture",
+        "kind": "practice",
+        "coverage": "added"
+      },
+      {
+        "label": "Contributory state",
+        "node_id": "concept_contributory_state",
+        "kind": "concept",
+        "coverage": "added"
+      },
+      {
+        "label": "Choose Kindness",
+        "node_id": "practice_choose_kindness",
+        "kind": "practice",
+        "coverage": "added"
+      },
+      {
+        "label": "Systems intelligence",
+        "node_id": "concept_systems_intelligence",
+        "kind": "concept",
+        "coverage": "added"
+      },
+      {
+        "label": "Municipal brain",
+        "node_id": "concept_municipal_brain",
+        "kind": "concept",
+        "coverage": "added"
+      },
+      {
+        "label": "Nested Minimum Viable Systems",
+        "node_id": "concept_nested_minimum_viable_systems",
+        "kind": "concept",
+        "coverage": "added"
+      },
+      {
+        "label": "Unified Theory of Systems Intelligence",
+        "node_id": "theory_unified_systems_intelligence",
+        "kind": "theory",
+        "coverage": "added"
+      },
+      {
+        "label": "Well Doncaster",
+        "node_id": "practice_well_doncaster",
+        "kind": "practice",
+        "coverage": "added"
+      },
+      {
+        "label": "Remake Learning",
+        "node_id": "practice_remake_learning",
+        "kind": "practice",
+        "coverage": "added"
+      },
+      {
+        "label": "Small bets",
+        "node_id": "practice_small_bets",
+        "kind": "practice",
+        "coverage": "added"
+      },
+      {
+        "label": "Team Doncaster",
+        "node_id": "practice_team_doncaster",
+        "kind": "practice",
+        "coverage": "added"
+      },
+      {
+        "label": "Socially situated action",
+        "node_id": "concept_socially_situated_action",
+        "kind": "concept",
+        "coverage": "added"
+      },
+      {
+        "label": "Forms of capital",
+        "node_id": "concept_forms_of_capital",
+        "kind": "concept",
+        "coverage": "added"
+      },
+      {
+        "label": "Ecological systems theory",
+        "node_id": "concept_ecological_systems_theory",
+        "kind": "concept",
+        "coverage": "added"
+      },
+      {
+        "label": "Designing Regenerative Cultures",
+        "node_id": "publication_designing_regenerative_cultures",
+        "kind": "publication",
+        "coverage": "added"
+      },
+      {
+        "label": "Three Horizons: The Patterning of Hope",
+        "node_id": "publication_three_horizons",
+        "kind": "publication",
+        "coverage": "added"
+      },
+      {
+        "label": "Human Learning Systems and the Liberated Method",
+        "node_id": "publication_hls_liberated",
+        "kind": "publication",
+        "coverage": "added"
+      },
+      {
+        "label": "Harnessing Complexity for Better Outcomes in Public and Non-profit Services",
+        "node_id": "publication_harnessing_complexity",
+        "kind": "publication",
+        "coverage": "added"
+      },
+      {
+        "label": "Remake Learning Playbook",
+        "node_id": "publication_remake_learning_playbook",
+        "kind": "publication",
+        "coverage": "added"
+      },
+      {
+        "label": "Leadership & Sustainability: System Thinkers in Action",
+        "node_id": "publication_fullan_leadership",
+        "kind": "publication",
+        "coverage": "added"
+      },
+      {
+        "label": "The Forms of Capital",
+        "node_id": "publication_forms_of_capital",
+        "kind": "publication",
+        "coverage": "added"
+      },
+      {
+        "label": "The Ecology of Human Development",
+        "node_id": "publication_ecology_human_development",
+        "kind": "publication",
+        "coverage": "added"
+      },
+      {
+        "label": "Lineages of Systems Practices",
+        "node_id": "publication_lineages_systems_practices",
+        "kind": "publication",
+        "coverage": "added"
+      },
+      {
+        "label": "Systemic Intervention: Philosophy, Methodology, and Practice",
+        "node_id": "publication_systemic_intervention_midgley",
+        "kind": "publication",
+        "coverage": "added"
+      },
+      {
+        "label": "The Four Essential Elements of an Asset-Based Community Development Process",
+        "node_id": "publication_four_elements_abcd",
+        "kind": "publication",
+        "coverage": "added"
+      },
+      {
+        "label": "Complexity and Public Policy",
+        "node_id": "publication_complexity_public_policy_geyer",
+        "kind": "publication",
+        "coverage": "added"
+      },
+      {
+        "label": "Stephen Jay Gould",
+        "node_id": "person_fpcs_s_j_gould",
+        "kind": "person",
+        "coverage": "existing entry connected or deepened"
+      },
+      {
+        "label": "Warren Weaver",
+        "node_id": "person_fpcs_w_weaver",
+        "kind": "person",
+        "coverage": "existing entry connected or deepened"
+      },
+      {
+        "label": "Claude E. Shannon",
+        "node_id": "person_claude_e_shannon",
+        "kind": "person",
+        "coverage": "existing entry connected or deepened"
+      },
+      {
+        "label": "Stafford Beer",
+        "node_id": "person_stafford_beer",
+        "kind": "person",
+        "coverage": "existing entry connected or deepened"
+      },
+      {
+        "label": "W. Ross Ashby",
+        "node_id": "person_w_ross_ashby",
+        "kind": "person",
+        "coverage": "existing entry connected or deepened"
+      },
+      {
+        "label": "Gerald Midgley",
+        "node_id": "person_gerald_midgley",
+        "kind": "person",
+        "coverage": "existing entry connected or deepened"
+      },
+      {
+        "label": "Information theory",
+        "node_id": "concept_information_theory",
+        "kind": "concept",
+        "coverage": "existing entry connected or deepened"
+      },
+      {
+        "label": "System Dynamics",
+        "node_id": "method_or_methodology_system_dynamics",
+        "kind": "method_or_methodology",
+        "coverage": "existing entry connected or deepened"
+      },
+      {
+        "label": "Soft Systems Methodology (SSM)",
+        "node_id": "method_or_methodology_soft_systems_methodology_ssm",
+        "kind": "method_or_methodology",
+        "coverage": "existing entry connected or deepened"
+      },
+      {
+        "label": "Cybernetics",
+        "node_id": "tradition_cybernetics",
+        "kind": "tradition",
+        "coverage": "existing entry connected or deepened"
+      },
+      {
+        "label": "Agent-based modelling",
+        "node_id": "method_or_methodology_agent_based_modelling",
+        "kind": "method_or_methodology",
+        "coverage": "existing entry connected or deepened"
+      },
+      {
+        "label": "Santa Fe Institute Complexity Explorer",
+        "node_id": "comparator_corpus_santa_fe_institute_complexity_explorer",
+        "kind": "comparator_corpus",
+        "coverage": "existing entry connected or deepened"
+      }
+    ],
+    "source_inventory": [
+      {
+        "source_id": "src_doncaster_interview_2026",
+        "title": "Interview with Damian Allen on systems practice in Doncaster",
+        "access": "private",
+        "public_link_status": "no_public_link"
+      },
+      {
+        "source_id": "src_damian_lineage_diagram_2026",
+        "title": "Lineages of Systems Practice — Damian Allen",
+        "access": "private",
+        "public_link_status": "no_public_link"
+      },
+      {
+        "source_id": "src_damian_correspondence_2026",
+        "title": "Damian Allen follow-up correspondence on lineage and UTSI",
+        "access": "private",
+        "public_link_status": "no_public_link"
+      },
+      {
+        "source_id": "src_doncaster_key_messages_2026",
+        "title": "Approved key messages and draft public copy from the Doncaster interview",
+        "access": "private",
+        "public_link_status": "no_public_link"
+      },
+      {
+        "source_id": "src_don_council_leadership",
+        "title": "Chief Executive and Directors — City of Doncaster Council",
+        "access": "public",
+        "public_link_status": "public_link"
+      },
+      {
+        "source_id": "src_don_corporate_plan_2026",
+        "title": "City of Doncaster Council Corporate Plan 2026–27",
+        "access": "public",
+        "public_link_status": "public_link"
+      },
+      {
+        "source_id": "src_don_corporate_plan_2024",
+        "title": "City of Doncaster Council Corporate Plan 2024–25",
+        "access": "public",
+        "public_link_status": "public_link"
+      },
+      {
+        "source_id": "src_don_public_health_report",
+        "title": "City of Doncaster Public Health Annual Report 2024",
+        "access": "public",
+        "public_link_status": "public_link"
+      },
+      {
+        "source_id": "src_don_hls_story",
+        "title": "Human Learning Systems — the story so far",
+        "access": "public",
+        "public_link_status": "public_link"
+      },
+      {
+        "source_id": "src_don_hls_liberated",
+        "title": "Human Learning Systems and the Liberated Method",
+        "access": "public",
+        "public_link_status": "public_link"
+      },
+      {
+        "source_id": "src_don_harnessing_complexity",
+        "title": "Harnessing Complexity for Better Outcomes in Public and Non-profit Services",
+        "access": "public",
+        "public_link_status": "public_link"
+      },
+      {
+        "source_id": "src_don_three_horizons",
+        "title": "Three Horizons: The Patterning of Hope",
+        "access": "public",
+        "public_link_status": "public_link"
+      },
+      {
+        "source_id": "src_don_regenerative_cultures",
+        "title": "Designing Regenerative Cultures",
+        "access": "public",
+        "public_link_status": "public_link"
+      },
+      {
+        "source_id": "src_don_gregg_behr",
+        "title": "Gregg Behr — Remake Learning",
+        "access": "public",
+        "public_link_status": "public_link"
+      },
+      {
+        "source_id": "src_don_remake_playbook",
+        "title": "Remake Learning Playbook",
+        "access": "public",
+        "public_link_status": "public_link"
+      },
+      {
+        "source_id": "src_don_abcd",
+        "title": "The Four Essential Elements of an Asset-Based Community Development Process",
+        "access": "public",
+        "public_link_status": "public_link"
+      },
+      {
+        "source_id": "src_don_midgley_profile",
+        "title": "Professor Gerald Midgley — University of Hull",
+        "access": "public",
+        "public_link_status": "public_link"
+      },
+      {
+        "source_id": "src_don_systemic_intervention",
+        "title": "Systemic Intervention: Philosophy, Methodology, and Practice",
+        "access": "public",
+        "public_link_status": "public_link"
+      },
+      {
+        "source_id": "src_don_fullan",
+        "title": "Leadership & Sustainability: System Thinkers in Action",
+        "access": "public",
+        "public_link_status": "public_link"
+      },
+      {
+        "source_id": "src_don_bruce_edmonds",
+        "title": "Complexity and Scientific Modelling",
+        "access": "public",
+        "public_link_status": "public_link"
+      },
+      {
+        "source_id": "src_don_robert_geyer",
+        "title": "Professor Robert Geyer — Lancaster University",
+        "access": "public",
+        "public_link_status": "public_link"
+      },
+      {
+        "source_id": "src_don_lineages_article",
+        "title": "Lineages of Systems Practices",
+        "access": "public",
+        "public_link_status": "public_link"
+      },
+      {
+        "source_id": "src_don_jenny_andersson",
+        "title": "Jenny Andersson — Really Regenerative",
+        "access": "public",
+        "public_link_status": "public_link"
+      },
+      {
+        "source_id": "src_don_place_regeneration",
+        "title": "Place-based Regeneration: Capabilities for Transformative Change",
+        "access": "public",
+        "public_link_status": "public_link"
+      },
+      {
+        "source_id": "src_don_simon_duffy",
+        "title": "Simon Duffy — Citizen Network",
+        "access": "public",
+        "public_link_status": "public_link"
+      },
+      {
+        "source_id": "src_don_neighbourhoods",
+        "title": "Neighbourhoods of Care",
+        "access": "public",
+        "public_link_status": "public_link"
+      },
+      {
+        "source_id": "src_don_rupert_suckling",
+        "title": "Dr Rupert Suckling — Well North",
+        "access": "public",
+        "public_link_status": "public_link"
+      },
+      {
+        "source_id": "src_don_bourdieu",
+        "title": "The Forms of Capital",
+        "access": "published_no_public_link",
+        "public_link_status": "no_public_link"
+      },
+      {
+        "source_id": "src_don_bronfenbrenner",
+        "title": "The Ecology of Human Development",
+        "access": "published_no_public_link",
+        "public_link_status": "no_public_link"
+      }
+    ],
+    "connected_corpus_check": {
+      "mail": "interview transcript, lineage diagram, approved copy and follow-up correspondence located and reviewed",
+      "document_storage": "targeted title and Doncaster searches found no additional authoritative lineage artefact beyond the supplied attachments"
+    },
+    "epistemic_boundaries": [
+      {
+        "topic": "Bruce Edmonds",
+        "status": "provisional identity normalization",
+        "reason": "Damian wrote Bruce Edwards; MMU context and the published aphorism point strongly to Edmonds."
+      },
+      {
+        "topic": "Complexity book",
+        "status": "probable referent",
+        "reason": "Harnessing Complexity matches the date, topic and most named authors, but no title was supplied and Mark Smith is not an author."
+      },
+      {
+        "topic": "Tony Hodgson and Three Horizons",
+        "status": "self-reported attribution",
+        "reason": "Damian credits Hodgson; the public book page establishes Bill Sharpe's authorship, not Hodgson's exact role."
+      },
+      {
+        "topic": "Nested Minimum Viable Systems",
+        "status": "self-reported; no public corroboration located",
+        "reason": "Damian attributes collaborative work to Gerald Midgley; no stable publication or definition was found."
+      },
+      {
+        "topic": "Unified Theory of Systems Intelligence",
+        "status": "unpublished proto-theory",
+        "reason": "No public paper, formal derivation, parameters, validation or independent critique was supplied."
+      },
+      {
+        "topic": "UTSI framework count",
+        "status": "unresolved internal ambiguity",
+        "reason": "The diagram says 11 frameworks but visibly contains more than 11 labelled strands."
+      },
+      {
+        "topic": "Thrive outcomes",
+        "status": "practice intent and practitioner account, not independent evaluation",
+        "reason": "Official and interview sources establish design and rationale; outcome verification remains separate."
+      }
+    ],
+    "adversarial_tests": [
+      "Relational vocabulary must be tested against changed power, money, measurement and resident experience.",
+      "Kindness must not substitute for rights, resources or accountability.",
+      "Community assets do not remove uneven capacity or the need to invest in it.",
+      "Named intellectual adjacency does not establish equivalence, historical dependence or validated synthesis."
     ]
   }
 }
