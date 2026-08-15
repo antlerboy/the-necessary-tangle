@@ -247,7 +247,8 @@ The entire data and site pipeline was reconstructed from its source layers. All 
 
 The reference release and current Self-organisation map were rendered at 1,440px desktop and 390px mobile widths. The changed connection list and opened connection inspector were then rendered at both widths. Text badges remain legible without relying on colour; the locator is visible on mobile; no horizontal overflow or page error was observed; and the Open updates magic dot remains present.
 
-- [Older visual reference](screenshots/overnight/pass5-reference-desktop-map.png)
+- [Older home-page reference](screenshots/overnight/pass5-reference-desktop-home.png)
+- [Older map reference](screenshots/overnight/pass5-reference-desktop-map.png)
 - [Before, desktop](screenshots/overnight/pass5-before-desktop-map.png)
 - [After, desktop](screenshots/overnight/pass5-after-desktop-map.png)
 - [After connection inspection, desktop](screenshots/overnight/pass5-after-desktop-connection.png)
@@ -362,3 +363,7 @@ The graph is larger by 69 entries and 139 relationships. The richer Damian profi
 ### Uncertain
 
 The extension does not independently evaluate Thrive outcomes. Bruce Edmonds remains a probable identity normalization; the unnamed complexity book a probable referent; Tony Hodgson's role a self-reported attribution; Nested Minimum Viable Systems publicly uncorroborated; and UTSI an unpublished proto-theory with an unresolved framework-count ambiguity.
+
+## Publication completeness audit — 15 August 2026
+
+A raw-path and blob audit compared all 76 changed or untracked files remaining in the Pass 3–6 working directories with their merged PR heads and the final `main` tree. All substantive work was published and remains present, usually in a later superseding version. The audit found one referenced Pass 5 home-page comparison screenshot that had not been uploaded; the corrective publication adds that evidence image and repairs the overnight screenshot list. No graph, relationship, source or interface data changed.
