@@ -2,7 +2,7 @@ name: Apply release 0.17 from the verified bundle
 
 on:
   issues:
-    types: [opened]
+    types: [opened, reopened]
 
 permissions:
   contents: write
