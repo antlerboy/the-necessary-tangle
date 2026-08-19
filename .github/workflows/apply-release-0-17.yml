@@ -57,7 +57,6 @@ jobs:
               raise SystemExit('Expected Fricker publication label not found')
           apply_path.write_text(text.replace(old, new, 1), encoding='utf-8')
 
-          # Every retained validator must recognise the numbered successor release.
           for validator in Path('scripts').glob('validate_*.py'):
               text = validator.read_text(encoding='utf-8')
               text = re.sub(
@@ -102,26 +101,27 @@ jobs:
           v15.write_text(text.replace(old, new, 1), encoding='utf-8')
 
           sync = Path('scripts/sync_release_docs_17.py')
-          sync.write_text('''#!/usr/bin/env python3
-from pathlib import Path
-import re
-
-ROOT = Path(__file__).resolve().parents[1]
-RELEASE = "0.17-public-intake-lineage-alpha"
-GENERATED = "2026-08-19"
-path = ROOT / "documentation" / "ai-observations.md"
-text = path.read_text(encoding="utf-8")
-line = f"Generated for release `{RELEASE}` on {GENERATED}."
-updated, count = re.subn(r"Generated for release `[^`]+` on \\d{4}-\\d{2}-\\d{2}\\.", line, text, count=1)
-if not count:
-    lines = text.splitlines()
-    insert_at = 1 if lines and lines[0].startswith("#") else 0
-    lines.insert(insert_at, "")
-    lines.insert(insert_at + 1, line)
-    updated = "\\n".join(lines)
-path.write_text(updated.rstrip() + "\\n", encoding="utf-8")
-print(f"Synced maintained release documents for {RELEASE}")
-''', encoding='utf-8')
+          sync_script = (
+              '#!/usr/bin/env python3\n'
+              'from pathlib import Path\n'
+              'import re\n\n'
+              'ROOT = Path(__file__).resolve().parents[1]\n'
+              'RELEASE = "0.17-public-intake-lineage-alpha"\n'
+              'GENERATED = "2026-08-19"\n'
+              'path = ROOT / "documentation" / "ai-observations.md"\n'
+              'text = path.read_text(encoding="utf-8")\n'
+              'line = f"Generated for release `{RELEASE}` on {GENERATED}."\n'
+              'updated, count = re.subn(r"Generated for release `[^`]+` on \\d{4}-\\d{2}-\\d{2}\\.", line, text, count=1)\n'
+              'if not count:\n'
+              '    lines = text.splitlines()\n'
+              '    insert_at = 1 if lines and lines[0].startswith("#") else 0\n'
+              '    lines.insert(insert_at, "")\n'
+              '    lines.insert(insert_at + 1, line)\n'
+              '    updated = "\\n".join(lines)\n'
+              'path.write_text(updated.rstrip() + "\\n", encoding="utf-8")\n'
+              'print(f"Synced maintained release documents for {RELEASE}")\n'
+          )
+          sync.write_text(sync_script, encoding='utf-8')
 
           makefile = Path('Makefile')
           text = makefile.read_text(encoding='utf-8')
@@ -136,7 +136,7 @@ print(f"Synced maintained release documents for {RELEASE}")
       - name: Commit the complete generated release
         if: steps.bundle.outputs.present == 'true'
         run: |
-          rm -rf .iteration-bundle .github/workflows/apply-iteration-bundle.yml .release-trigger .release-gate-note .release-gate-ready .release-retry .release-retry-2 .release-retry-3 .release-retry-4
+          rm -rf .iteration-bundle .github/workflows/apply-iteration-bundle.yml .release-trigger .release-gate-note .release-gate-ready .release-retry .release-retry-2 .release-retry-3 .release-retry-4 .release-retry-5
           git config user.name "Benjamin P Taylor"
           git config user.email "ben.taylor@redquadrant.com"
           git add -A
