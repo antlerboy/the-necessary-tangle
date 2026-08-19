@@ -119,6 +119,21 @@ new_cohort = (
 if old_cohort in rel_text:
     rel_text = rel_text.replace(old_cohort, new_cohort, 1)
 rel_path.write_text(rel_text, encoding="utf-8")
+
+ledger_path = ROOT / "documentation" / "feedback-ledger.md"
+ledger_text = ledger_path.read_text(encoding="utf-8") if ledger_path.exists() else "# Feedback ledger\\n"
+heading = "## Release 0.17 — public intake, serendipity and canon visibility"
+if heading not in ledger_text:
+    ledger_text += (
+        "\\n\\n" + heading + "\\n\\n"
+        "- Public submissions and curator responses: implemented at `/submissions/`, using GitHub Issues as the canonical record.\\n"
+        "- ‘Surprise me’: implemented across developed and brief substantive entries, excluding stubs and administrative or provenance records.\\n"
+        "- Canon, traditions and heritage: implemented as a non-inference policy, public visibility audit, typed canon and recovery relations, and a guided route.\\n"
+        "- Michael C. Jackson, Magnus Ramage, Karen Shipp and *Systems Thinkers*: developed with public institutional and publisher sources.\\n"
+        "- Company knowledge: a second bounded discovery pass is recorded; public-source replacement continues under issue 8.\\n"
+        "- Structured submissions checked: one submission found, issue 21, already incorporated in release 0.12 and now surfaced publicly.\\n"
+    )
+ledger_path.write_text(ledger_text.rstrip() + "\\n", encoding="utf-8")
 print(f"Synced maintained release documents for {RELEASE}")
 '''
 sync.write_text(sync_script, encoding='utf-8')
