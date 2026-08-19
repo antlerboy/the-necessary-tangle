@@ -108,10 +108,13 @@ jobs:
           sync_script = (
               '#!/usr/bin/env python3\n'
               'from pathlib import Path\n'
-              'import re\n\n'
+              'import json\n'
+              'import re\n'
+              'import apply_relational_depth_16 as relational\n\n'
               'ROOT = Path(__file__).resolve().parents[1]\n'
               'RELEASE = "0.17-public-intake-lineage-alpha"\n'
               'GENERATED = "2026-08-19"\n'
+              'data = json.loads((ROOT / "data" / "public-data.json").read_text(encoding="utf-8"))\n\n'
               'path = ROOT / "documentation" / "ai-observations.md"\n'
               'text = path.read_text(encoding="utf-8")\n'
               'line = f"Generated for release `{RELEASE}` on {GENERATED}."\n'
@@ -122,7 +125,21 @@ jobs:
               '    lines.insert(insert_at, "")\n'
               '    lines.insert(insert_at + 1, line)\n'
               '    updated = "\\n".join(lines)\n'
-              'path.write_text(updated.rstrip() + "\\n", encoding="utf-8")\n'
+              'path.write_text(updated.rstrip() + "\\n", encoding="utf-8")\n\n'
+              'relational.RELEASE = RELEASE\n'
+              'relational.GENERATED = GENERATED\n'
+              'relational.write_relational_document(data)\n'
+              'rel_path = ROOT / "documentation" / "relational-depth.md"\n'
+              'rel_text = rel_path.read_text(encoding="utf-8")\n'
+              'old_cohort = (\n'
+              '    "This release adds typed provisional crosswalks for every SCiO intervention-skill entry; gives the previously reader-isolated concepts, methods, tools and traditions multiple routes into the maintained graph; exposes the Foundational Papers volume contents as documentary statements; connects the Cynefin wiki to its maintaining organisation and the material it presents; and adds slide-level statements from the supplied transformation, convening, organisational-dynamics, VSM, clarity and conversation material."\n'
+              ')\n'
+              'new_cohort = (\n'
+              '    "This release adds a public contribution-and-response layer, an inspectable canon-and-lineage route, richer treatment of Michael C. Jackson, Magnus Ramage, Karen Shipp and Systems Thinkers, and typed connections concerning canon formation, epistemic exclusion, appropriation, recovery and structurelessness. It also incorporates the first structured site submission as a public projection while keeping the GitHub issue as the canonical conversation, and records a bounded second company-knowledge discovery pass without publishing private links or extracts."\n'
+              ')\n'
+              'if old_cohort in rel_text:\n'
+              '    rel_text = rel_text.replace(old_cohort, new_cohort, 1)\n'
+              'rel_path.write_text(rel_text, encoding="utf-8")\n'
               'print(f"Synced maintained release documents for {RELEASE}")\n'
           )
           sync.write_text(sync_script, encoding='utf-8')
@@ -141,7 +158,7 @@ jobs:
       - name: Commit the complete generated release
         if: steps.bundle.outputs.present == 'true'
         run: |
-          rm -rf .iteration-bundle .github/workflows/apply-iteration-bundle.yml .release-trigger .release-gate-note .release-gate-ready .release-retry .release-retry-2 .release-retry-3 .release-retry-4 .release-retry-5 .release-retry-6 .release-retry-7 .release-retry-8
+          rm -rf .iteration-bundle .github/workflows/apply-iteration-bundle.yml .release-trigger .release-gate-note .release-gate-ready .release-retry .release-retry-2 .release-retry-3 .release-retry-4 .release-retry-5 .release-retry-6 .release-retry-7 .release-retry-8 .release-retry-9
           git config user.name "Benjamin P Taylor"
           git config user.email "ben.taylor@redquadrant.com"
           git add -A
