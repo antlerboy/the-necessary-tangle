@@ -83,6 +83,14 @@ jobs:
               raise SystemExit('Iteration 0.15 generated-date marker not found')
           v15.write_text(text.replace(old, new, 1), encoding='utf-8')
 
+          map_hotfix = Path('scripts/validate_map_usability_hotfix.py')
+          text = map_hotfix.read_text(encoding='utf-8')
+          old = "assert 'assets/app.js?v=0.16.3-visual' in index"
+          new = "assert 'assets/app.js?v=' in index"
+          if old not in text:
+              raise SystemExit('Map hotfix asset-version marker not found')
+          map_hotfix.write_text(text.replace(old, new, 1), encoding='utf-8')
+
           release_pattern = re.compile(
               rf"(?P<quote>['\"]){re.escape(predecessor)}(?P=quote)(?=\s*\}})"
           )
@@ -133,7 +141,7 @@ jobs:
       - name: Commit the complete generated release
         if: steps.bundle.outputs.present == 'true'
         run: |
-          rm -rf .iteration-bundle .github/workflows/apply-iteration-bundle.yml .release-trigger .release-gate-note .release-gate-ready .release-retry .release-retry-2 .release-retry-3 .release-retry-4 .release-retry-5 .release-retry-6 .release-retry-7
+          rm -rf .iteration-bundle .github/workflows/apply-iteration-bundle.yml .release-trigger .release-gate-note .release-gate-ready .release-retry .release-retry-2 .release-retry-3 .release-retry-4 .release-retry-5 .release-retry-6 .release-retry-7 .release-retry-8
           git config user.name "Benjamin P Taylor"
           git config user.email "ben.taylor@redquadrant.com"
           git add -A
