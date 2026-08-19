@@ -1,8 +1,6 @@
 name: Apply release 0.17 from the verified bundle
 
 on:
-  issues:
-    types: [opened, reopened]
   pull_request:
     types: [opened, reopened, synchronize]
 
@@ -17,9 +15,7 @@ concurrency:
 
 jobs:
   apply:
-    if: >-
-      (github.event_name == 'issues' && github.event.issue.title == '[release 0.17] Apply complete update') ||
-      (github.event_name == 'pull_request' && github.event.pull_request.head.ref == 'agent/complete-update-0.17')
+    if: github.event.pull_request.head.ref == 'agent/complete-update-0.17'
     runs-on: ubuntu-latest
     timeout-minutes: 45
     steps:
@@ -28,6 +24,7 @@ jobs:
         with:
           ref: agent/complete-update-0.17
           fetch-depth: 0
+
       - name: Detect an already-generated branch
         id: bundle
         run: |
@@ -36,6 +33,7 @@ jobs:
           else
             echo 'present=false' >> "$GITHUB_OUTPUT"
           fi
+
       - name: Reconstruct, build and validate the release
         if: steps.bundle.outputs.present == 'true'
         run: |
@@ -57,32 +55,17 @@ jobs:
               raise SystemExit('Expected Fricker publication label not found')
           apply_path.write_text(text.replace(old, new, 1), encoding='utf-8')
 
-          for validator in Path('scripts').glob('validate_*.py'):
-              text = validator.read_text(encoding='utf-8')
-              text = re.sub(
-                  rf'("{re.escape(predecessor)}")(?=\s*\}})',
-                  rf'\1, "{successor}"',
-                  text,
-              )
-              validator.write_text(text, encoding='utf-8')
-
-          constellation = Path('scripts/validate_constellation.py')
-          text = constellation.read_text(encoding='utf-8')
-          old_zoom = f'"{predecessor}"}} else "zoomMapAt"'
-          new_zoom = f'"{predecessor}", "{successor}"}} else "zoomMapAt"'
-          if old_zoom in text:
-              text = text.replace(old_zoom, new_zoom, 1)
-          elif successor not in text.split('else "zoomMapAt"', 1)[0]:
-              raise SystemExit('Constellation semantic zoom marker not found')
-          constellation.write_text(text, encoding='utf-8')
-
           v13 = Path('scripts/validate_iteration_13.py')
           text = v13.read_text(encoding='utf-8')
-          old = 'expected_date = "2026-08-14" if meta.get("release") in {"0.15-ing-reading-practice-alpha", "0.16-grammar-connections-presentation-alpha"} else EXPECTED_DATE'
-          new = 'expected_date = "2026-08-19" if meta.get("release") == "0.17-public-intake-lineage-alpha" else ("2026-08-14" if meta.get("release") in {"0.15-ing-reading-practice-alpha", "0.16-grammar-connections-presentation-alpha"} else EXPECTED_DATE)'
-          if old not in text:
+          text, count = re.subn(
+              r'expected_date = "2026-08-14" if meta\.get\("release"\) in \{[^\n]+\} else EXPECTED_DATE',
+              'expected_date = "2026-08-19" if meta.get("release") == "0.17-public-intake-lineage-alpha" else ("2026-08-14" if meta.get("release") in {"0.15-ing-reading-practice-alpha", "0.16-grammar-connections-presentation-alpha"} else EXPECTED_DATE)',
+              text,
+              count=1,
+          )
+          if count != 1:
               raise SystemExit('Iteration 0.13 generated-date marker not found')
-          v13.write_text(text.replace(old, new, 1), encoding='utf-8')
+          v13.write_text(text, encoding='utf-8')
 
           v14 = Path('scripts/validate_iteration_14.py')
           text = v14.read_text(encoding='utf-8')
@@ -99,6 +82,15 @@ jobs:
           if old not in text:
               raise SystemExit('Iteration 0.15 generated-date marker not found')
           v15.write_text(text.replace(old, new, 1), encoding='utf-8')
+
+          for validator in Path('scripts').glob('validate_*.py'):
+              text = validator.read_text(encoding='utf-8')
+              text = re.sub(
+                  rf'("{re.escape(predecessor)}")(?=\s*\}})',
+                  rf'\1, "{successor}"',
+                  text,
+              )
+              validator.write_text(text, encoding='utf-8')
 
           sync = Path('scripts/sync_release_docs_17.py')
           sync_script = (
@@ -133,15 +125,17 @@ jobs:
           PY
           chmod +x scripts/apply_iteration_17.py scripts/patch_iteration_17.py scripts/sync_release_docs_17.py scripts/validate_iteration_17.py
           make validate
+
       - name: Commit the complete generated release
         if: steps.bundle.outputs.present == 'true'
         run: |
-          rm -rf .iteration-bundle .github/workflows/apply-iteration-bundle.yml .release-trigger .release-gate-note .release-gate-ready .release-retry .release-retry-2 .release-retry-3 .release-retry-4 .release-retry-5
+          rm -rf .iteration-bundle .github/workflows/apply-iteration-bundle.yml .release-trigger .release-gate-note .release-gate-ready .release-retry .release-retry-2 .release-retry-3 .release-retry-4 .release-retry-5 .release-retry-6
           git config user.name "Benjamin P Taylor"
           git config user.email "ben.taylor@redquadrant.com"
           git add -A
           git commit -m "Publish 0.17 public intake and canon update" -m "Add public submissions and responses, Surprise me navigation, canon and lineage review, expanded critical systems history, the first structured submission projection, and the second bounded company-knowledge discovery pass."
           git push origin HEAD:agent/complete-update-0.17
+
       - name: Record successful generation
         if: steps.bundle.outputs.present == 'true'
         uses: actions/github-script@v8
@@ -153,12 +147,3 @@ jobs:
               issue_number: context.issue.number,
               body: 'Release 0.17 was reconstructed from the verified bundle, built through the complete historical chain, validated, and committed to `agent/complete-update-0.17`.'
             });
-            if (context.eventName === 'issues') {
-              await github.rest.issues.update({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                issue_number: context.issue.number,
-                state: 'closed',
-                state_reason: 'completed'
-              });
-            }
