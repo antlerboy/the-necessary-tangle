@@ -47,7 +47,7 @@ jobs:
       - name: Commit the complete generated release
         if: steps.bundle.outputs.present == 'true'
         run: |
-          rm -rf .iteration-bundle .github/workflows/apply-iteration-bundle.yml
+          rm -rf .iteration-bundle .github/workflows/apply-iteration-bundle.yml .release-trigger .release-gate-note .release-gate-ready
           git config user.name "Benjamin P Taylor"
           git config user.email "ben.taylor@redquadrant.com"
           git add -A
