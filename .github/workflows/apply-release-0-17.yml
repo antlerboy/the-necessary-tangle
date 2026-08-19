@@ -55,6 +55,22 @@ jobs:
               raise SystemExit('Expected Fricker publication label not found')
           apply_path.write_text(text.replace(old, new, 1), encoding='utf-8')
 
+          patch17 = Path('scripts/patch_iteration_17.py')
+          text = patch17.read_text(encoding='utf-8')
+          marker = '## Current developed route'
+          replacement = '''## Canon and recovery relations
+
+Release 0.17 makes canon formation and recovery inspectable through typed, source-bearing relations: `canonised_as`, `excluded_from_canon`, `appropriated_from`, `recovers`, `participates_in_canon_formation` and `can_exclude`. These lines remain challengeable statements about particular histories; they are not demographic inference or a new fixed canon.
+
+## Current developed route'''
+          if marker not in text:
+              raise SystemExit('Canon document insertion point not found')
+          patch17.write_text(text.replace(marker, replacement, 1), encoding='utf-8')
+
+          ledger = Path('documentation/feedback-ledger.md')
+          if not ledger.exists():
+              ledger.write_text('# Feedback ledger\n', encoding='utf-8')
+
           v13 = Path('scripts/validate_iteration_13.py')
           text = v13.read_text(encoding='utf-8')
           text, count = re.subn(
@@ -158,7 +174,7 @@ jobs:
       - name: Commit the complete generated release
         if: steps.bundle.outputs.present == 'true'
         run: |
-          rm -rf .iteration-bundle .github/workflows/apply-iteration-bundle.yml .release-trigger .release-gate-note .release-gate-ready .release-retry .release-retry-2 .release-retry-3 .release-retry-4 .release-retry-5 .release-retry-6 .release-retry-7 .release-retry-8 .release-retry-9
+          rm -rf .iteration-bundle .github/workflows/apply-iteration-bundle.yml .release-trigger .release-gate-note .release-gate-ready .release-retry .release-retry-2 .release-retry-3 .release-retry-4 .release-retry-5 .release-retry-6 .release-retry-7 .release-retry-8 .release-retry-9 .release-retry-10
           git config user.name "Benjamin P Taylor"
           git config user.email "ben.taylor@redquadrant.com"
           git add -A
