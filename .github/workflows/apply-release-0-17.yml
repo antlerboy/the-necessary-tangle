@@ -3,10 +3,13 @@ name: Apply release 0.17 from the verified bundle
 on:
   issues:
     types: [opened, reopened]
+  pull_request:
+    types: [opened, reopened, synchronize]
 
 permissions:
   contents: write
   issues: write
+  pull-requests: write
 
 concurrency:
   group: apply-release-0-17
@@ -14,7 +17,9 @@ concurrency:
 
 jobs:
   apply:
-    if: github.event.issue.title == '[release 0.17] Apply complete update'
+    if: >-
+      (github.event_name == 'issues' && github.event.issue.title == '[release 0.17] Apply complete update') ||
+      (github.event_name == 'pull_request' && github.event.pull_request.head.ref == 'agent/complete-update-0.17')
     runs-on: ubuntu-latest
     timeout-minutes: 45
     steps:
@@ -23,7 +28,16 @@ jobs:
         with:
           ref: agent/complete-update-0.17
           fetch-depth: 0
+      - name: Detect an already-generated branch
+        id: bundle
+        run: |
+          if compgen -G '.iteration-bundle/part-*' > /dev/null; then
+            echo 'present=true' >> "$GITHUB_OUTPUT"
+          else
+            echo 'present=false' >> "$GITHUB_OUTPUT"
+          fi
       - name: Reconstruct, build and validate the release
+        if: steps.bundle.outputs.present == 'true'
         run: |
           cat .iteration-bundle/part-* | base64 --decode > /tmp/tangle-0.17-update.tar.gz
           echo "256bc3d0a788a3bfcbe20cdbcb72f58b8ea79200ef63df5e608fc2f19e9b4375  /tmp/tangle-0.17-update.tar.gz" | sha256sum --check -
@@ -31,6 +45,7 @@ jobs:
           chmod +x scripts/apply_iteration_17.py scripts/patch_iteration_17.py scripts/validate_iteration_17.py
           make validate
       - name: Commit the complete generated release
+        if: steps.bundle.outputs.present == 'true'
         run: |
           rm -rf .iteration-bundle .github/workflows/apply-iteration-bundle.yml
           git config user.name "Benjamin P Taylor"
@@ -39,6 +54,7 @@ jobs:
           git commit -m "Publish 0.17 public intake and canon update" -m "Add public submissions and responses, Surprise me navigation, canon and lineage review, expanded critical systems history, the first structured submission projection, and the second bounded company-knowledge discovery pass."
           git push origin HEAD:agent/complete-update-0.17
       - name: Record successful generation
+        if: steps.bundle.outputs.present == 'true'
         uses: actions/github-script@v8
         with:
           script: |
@@ -48,10 +64,12 @@ jobs:
               issue_number: context.issue.number,
               body: 'Release 0.17 was reconstructed from the verified bundle, built through the complete historical chain, validated, and committed to `agent/complete-update-0.17`.'
             });
-            await github.rest.issues.update({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              issue_number: context.issue.number,
-              state: 'closed',
-              state_reason: 'completed'
-            });
+            if (context.eventName === 'issues') {
+              await github.rest.issues.update({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.issue.number,
+                state: 'closed',
+                state_reason: 'completed'
+              });
+            }
