@@ -67,22 +67,76 @@ jobs:
               )
               validator.write_text(text, encoding='utf-8')
 
-          validator = Path('scripts/validate_constellation.py')
-          text = validator.read_text(encoding='utf-8')
+          constellation = Path('scripts/validate_constellation.py')
+          text = constellation.read_text(encoding='utf-8')
           old_zoom = f'"{predecessor}"}} else "zoomMapAt"'
           new_zoom = f'"{predecessor}", "{successor}"}} else "zoomMapAt"'
           if old_zoom in text:
               text = text.replace(old_zoom, new_zoom, 1)
           elif successor not in text.split('else "zoomMapAt"', 1)[0]:
               raise SystemExit('Constellation semantic zoom marker not found')
-          validator.write_text(text, encoding='utf-8')
+          constellation.write_text(text, encoding='utf-8')
+
+          v13 = Path('scripts/validate_iteration_13.py')
+          text = v13.read_text(encoding='utf-8')
+          old = 'expected_date = "2026-08-14" if meta.get("release") in {"0.15-ing-reading-practice-alpha", "0.16-grammar-connections-presentation-alpha"} else EXPECTED_DATE'
+          new = 'expected_date = "2026-08-19" if meta.get("release") == "0.17-public-intake-lineage-alpha" else ("2026-08-14" if meta.get("release") in {"0.15-ing-reading-practice-alpha", "0.16-grammar-connections-presentation-alpha"} else EXPECTED_DATE)'
+          if old not in text:
+              raise SystemExit('Iteration 0.13 generated-date marker not found')
+          v13.write_text(text.replace(old, new, 1), encoding='utf-8')
+
+          v14 = Path('scripts/validate_iteration_14.py')
+          text = v14.read_text(encoding='utf-8')
+          old = 'expected_generated = GENERATED if meta.get("release") == RELEASE else FORWARD_GENERATED'
+          new = 'expected_generated = "2026-08-19" if meta.get("release") == "0.17-public-intake-lineage-alpha" else (GENERATED if meta.get("release") == RELEASE else FORWARD_GENERATED)'
+          if old not in text:
+              raise SystemExit('Iteration 0.14 generated-date marker not found')
+          v14.write_text(text.replace(old, new, 1), encoding='utf-8')
+
+          v15 = Path('scripts/validate_iteration_15.py')
+          text = v15.read_text(encoding='utf-8')
+          old = "assert meta['generated']=='2026-08-14'"
+          new = "assert meta['generated']==('2026-08-19' if meta['release']=='0.17-public-intake-lineage-alpha' else '2026-08-14')"
+          if old not in text:
+              raise SystemExit('Iteration 0.15 generated-date marker not found')
+          v15.write_text(text.replace(old, new, 1), encoding='utf-8')
+
+          sync = Path('scripts/sync_release_docs_17.py')
+          sync.write_text('''#!/usr/bin/env python3
+from pathlib import Path
+import re
+
+ROOT = Path(__file__).resolve().parents[1]
+RELEASE = "0.17-public-intake-lineage-alpha"
+GENERATED = "2026-08-19"
+path = ROOT / "documentation" / "ai-observations.md"
+text = path.read_text(encoding="utf-8")
+line = f"Generated for release `{RELEASE}` on {GENERATED}."
+updated, count = re.subn(r"Generated for release `[^`]+` on \\d{4}-\\d{2}-\\d{2}\\.", line, text, count=1)
+if not count:
+    lines = text.splitlines()
+    insert_at = 1 if lines and lines[0].startswith("#") else 0
+    lines.insert(insert_at, "")
+    lines.insert(insert_at + 1, line)
+    updated = "\\n".join(lines)
+path.write_text(updated.rstrip() + "\\n", encoding="utf-8")
+print(f"Synced maintained release documents for {RELEASE}")
+''', encoding='utf-8')
+
+          makefile = Path('Makefile')
+          text = makefile.read_text(encoding='utf-8')
+          marker = '\tpython3 scripts/patch_iteration_17.py\n\tpython3 scripts/build_public_knowledge.py'
+          replacement = '\tpython3 scripts/patch_iteration_17.py\n\tpython3 scripts/sync_release_docs_17.py\n\tpython3 scripts/build_public_knowledge.py'
+          if marker not in text:
+              raise SystemExit('Makefile 0.17 patch marker not found')
+          makefile.write_text(text.replace(marker, replacement, 1), encoding='utf-8')
           PY
-          chmod +x scripts/apply_iteration_17.py scripts/patch_iteration_17.py scripts/validate_iteration_17.py
+          chmod +x scripts/apply_iteration_17.py scripts/patch_iteration_17.py scripts/sync_release_docs_17.py scripts/validate_iteration_17.py
           make validate
       - name: Commit the complete generated release
         if: steps.bundle.outputs.present == 'true'
         run: |
-          rm -rf .iteration-bundle .github/workflows/apply-iteration-bundle.yml .release-trigger .release-gate-note .release-gate-ready .release-retry .release-retry-2 .release-retry-3
+          rm -rf .iteration-bundle .github/workflows/apply-iteration-bundle.yml .release-trigger .release-gate-note .release-gate-ready .release-retry .release-retry-2 .release-retry-3 .release-retry-4
           git config user.name "Benjamin P Taylor"
           git config user.email "ben.taylor@redquadrant.com"
           git add -A
