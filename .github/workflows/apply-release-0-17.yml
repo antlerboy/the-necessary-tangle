@@ -44,20 +44,34 @@ jobs:
           tar -xzf /tmp/tangle-0.17-update.tar.gz -C .
           python3 - <<'PY'
           from pathlib import Path
-          path = Path('scripts/apply_iteration_17.py')
-          text = path.read_text(encoding='utf-8')
+
+          apply_path = Path('scripts/apply_iteration_17.py')
+          text = apply_path.read_text(encoding='utf-8')
           old = '"publication_epistemic_injustice", "Epistemic Injustice", "publication"'
           new = '"publication_epistemic_injustice", "Epistemic Injustice: Power and the Ethics of Knowing", "publication"'
           if old not in text:
               raise SystemExit('Expected Fricker publication label not found')
-          path.write_text(text.replace(old, new, 1), encoding='utf-8')
+          apply_path.write_text(text.replace(old, new, 1), encoding='utf-8')
+
+          validator = Path('scripts/validate_constellation.py')
+          text = validator.read_text(encoding='utf-8')
+          old_release = '"0.16-grammar-connections-presentation-alpha"}'
+          new_release = '"0.16-grammar-connections-presentation-alpha", "0.17-public-intake-lineage-alpha"}'
+          if old_release not in text:
+              raise SystemExit('Constellation release allow-list marker not found')
+          text = text.replace(old_release, new_release, 1)
+          old_zoom = '"0.16-grammar-connections-presentation-alpha"} else "zoomMapAt"'
+          new_zoom = '"0.16-grammar-connections-presentation-alpha", "0.17-public-intake-lineage-alpha"} else "zoomMapAt"'
+          if old_zoom not in text:
+              raise SystemExit('Constellation semantic zoom marker not found')
+          validator.write_text(text.replace(old_zoom, new_zoom, 1), encoding='utf-8')
           PY
           chmod +x scripts/apply_iteration_17.py scripts/patch_iteration_17.py scripts/validate_iteration_17.py
           make validate
       - name: Commit the complete generated release
         if: steps.bundle.outputs.present == 'true'
         run: |
-          rm -rf .iteration-bundle .github/workflows/apply-iteration-bundle.yml .release-trigger .release-gate-note .release-gate-ready .release-retry
+          rm -rf .iteration-bundle .github/workflows/apply-iteration-bundle.yml .release-trigger .release-gate-note .release-gate-ready .release-retry .release-retry-2
           git config user.name "Benjamin P Taylor"
           git config user.email "ben.taylor@redquadrant.com"
           git add -A
