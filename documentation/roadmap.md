@@ -18,3 +18,5 @@
 - test RDF or JSON-LD export without losing relation meaning, direction, evidence, status or scope;
 - establish a wider curatorial group with named review responsibilities;
 - compare espoused schools, source corpora and observed neighbourhoods side by side.
+
+- [x] Public submissions/responses, serendipitous navigation and the first canon/lineage visibility pass (0.17).

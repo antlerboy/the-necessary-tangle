@@ -1,0 +1,118 @@
+/* 0.17 public intake, canon and serendipity */
+.main-nav .surprise-nav,
+.main-nav .static-nav-link {
+  align-self: stretch;
+}
+
+.main-nav .surprise-nav {
+  appearance: none;
+  border: 0;
+  border-left: 1px solid var(--line, #d6d0cb);
+  border-radius: 0;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  padding: 0.78rem 1rem;
+  cursor: pointer;
+}
+
+.main-nav .surprise-nav:hover,
+.main-nav .surprise-nav:focus-visible {
+  background: color-mix(in srgb, currentColor 8%, transparent);
+}
+
+.hero-actions button.button,
+.footer-surprise {
+  font: inherit;
+  cursor: pointer;
+}
+
+.site-footer .footer-surprise {
+  border: 0;
+  background: none;
+  padding: 0;
+}
+
+.canon-lineage-panel {
+  border-left: 0.35rem solid var(--accent, #9f161b);
+}
+
+.standalone-shell {
+  width: min(1120px, calc(100% - 2rem));
+  margin: 0 auto;
+  padding: 2.5rem 0 5rem;
+}
+
+.standalone-head {
+  display: grid;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.standalone-actions,
+.submission-links,
+.status-key {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+  align-items: center;
+}
+
+.submission-grid,
+.canon-review-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 290px), 1fr));
+  gap: 1rem;
+}
+
+.submission-card,
+.canon-review-card {
+  border: 1px solid var(--line, #d6d0cb);
+  border-radius: 0.75rem;
+  padding: 1.1rem;
+  background: var(--panel, #fff);
+}
+
+.submission-card h2,
+.canon-review-card h2 {
+  margin-top: 0.35rem;
+}
+
+.submission-status {
+  display: inline-flex;
+  border: 1px solid currentColor;
+  border-radius: 999px;
+  padding: 0.18rem 0.55rem;
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+
+.submission-status.incorporated { color: #24643b; }
+.submission-status.awaiting-review { color: #8a5a00; }
+.submission-status.investigating { color: #355f8a; }
+.submission-status.disputed { color: #843d73; }
+.submission-status.deferred,
+.submission-status.declined { color: #6a5757; }
+
+.projection-note,
+.live-status {
+  font-size: 0.92rem;
+  color: var(--muted, #665f59);
+}
+
+.canon-policy {
+  max-width: 82ch;
+}
+
+.review-status {
+  font-weight: 700;
+}
+
+@media (max-width: 820px) {
+  .main-nav .surprise-nav {
+    border-left: 0;
+    border-top: 1px solid var(--line, #d6d0cb);
+    width: 100%;
+    text-align: left;
+  }
+}

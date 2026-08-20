@@ -1,6 +1,6 @@
 # AI observations
 
-Generated for release `0.16-grammar-connections-presentation-alpha` on 2026-08-14.
+Generated for release `0.17-public-intake-lineage-alpha` on 2026-08-19.
 
 Measurements are derived from the current public graph and reading-list inventory; interpretations, implications and proposed tests are explicitly separated.
 

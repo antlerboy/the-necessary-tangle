@@ -23,3 +23,6 @@ Igor Perko's researchers-network work provides a substantial comparator for mapp
 Public statements are supported by public sources or complete public bibliographic citations. Private material may identify leads but is not itself published as evidence. Original atlas text, public data and editorial material are licensed under CC BY-SA 4.0 unless otherwise marked; original software uses the MIT licence. Third-party works remain under their own terms.
 
 Benjamin P Taylor remains responsible for the material accepted into each public release. Corrections and rival interpretations belong in the public contribution routes.
+
+
+Release 0.17 particularly acknowledges Ida Rose Florez for the challenge about closed epistemological systems, patriarchy and the visible canon; Magnus Ramage and Karen Shipp for making the boundary choices in systems history discussable; Michael C. Jackson for the critical systems programme; and Jo Freeman and Miranda Fricker for concepts which sharpen the treatment of structure, power and knowing.

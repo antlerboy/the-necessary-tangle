@@ -56,10 +56,10 @@ def main() -> int:
     edges = data.get("edges", [])
     relation_types = {item.get("relation_type") for item in data.get("relation_types", [])}
 
-    if meta.get("release") != RELEASE:
-        errors.append(f"meta.release must be {RELEASE}")
-    if meta.get("generated") != GENERATED:
-        errors.append(f"meta.generated must be {GENERATED}")
+    if meta.get("release") not in {RELEASE, "0.17-public-intake-lineage-alpha"}:
+        errors.append(f"meta.release must preserve 0.16 or identify the 0.17 successor")
+    if meta.get("generated") not in {GENERATED, "2026-08-19"}:
+        errors.append("meta.generated must identify the 0.16 build or its 0.17 successor")
     if meta.get("project_url") != PUBLIC_URL:
         errors.append("custom public URL is not canonical in release metadata")
     if set(LAW_IDS) - public_ids:
@@ -118,12 +118,12 @@ def main() -> int:
     elif any(step.get("node_id") not in public_ids for step in journey.get("steps", [])):
         errors.append("Grammar journey contains a non-public step")
 
-    if data.get("ai_observations", {}).get("release") != RELEASE:
+    if data.get("ai_observations", {}).get("release") != meta.get("release"):
         errors.append("AI observations do not identify the current release")
     if data.get("ai_observations", {}).get("metrics") != graph_metrics(data):
         errors.append("AI observation metrics do not match the 0.16 graph")
     for inherited in ("reading_list_inventory", "reading_list_coverage", "core_systems_practice"):
-        if data.get(inherited, {}).get("release") != RELEASE:
+        if data.get(inherited, {}).get("release") != meta.get("release"):
             errors.append(f"{inherited} still identifies an earlier release")
 
     relational = data.get("relational_depth", {})
@@ -178,9 +178,9 @@ def main() -> int:
         "documentation/relational-depth.md",
         'id="browseConnectionDepth"',
         'id="relationalDepthMetrics"',
-        "assets/styles.css?v=0.16.3-visual",
-        "assets/site-enhancements.css?v=0.16.3-visual",
-        "assets/app.js?v=0.16.3-visual",
+        "assets/styles.css?v=0.17.0-public",
+        "assets/site-enhancements.css?v=0.17.0-public",
+        "assets/app.js?v=0.17.0-public",
     ):
         if marker not in index:
             errors.append(f"0.16 interface marker is missing: {marker}")
@@ -220,7 +220,7 @@ def main() -> int:
 
     citation = (ROOT / "CITATION.cff").read_text(encoding="utf-8")
     readme = (ROOT / "README.md").read_text(encoding="utf-8")
-    if f"version: {RELEASE}" not in citation or f"url: {PUBLIC_URL}" not in citation:
+    if f"version: {meta.get('release')}" not in citation or f"url: {PUBLIC_URL}" not in citation:
         errors.append("citation metadata does not identify release 0.16 and the custom domain")
     if "Release 0.16 contains" not in readme or "original-vision-audit.md" not in readme or "relational-depth.md" not in readme:
         errors.append("README does not identify the current release and vision audit")

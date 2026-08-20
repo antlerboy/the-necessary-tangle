@@ -46,3 +46,20 @@ The next bridge-building work should concentrate on:
 ## Status
 
 The first private discovery pass is complete. Public-source replacement, statement-level review and graph integration are still pending. Issue 8 remains the governing record for that work.
+
+
+## Second bounded pass — 19 August 2026
+
+A second connected search reviewed the named systems-thinking area and wider company knowledge for books, articles, teaching materials and bibliographic leads. The search returned overlapping versions and working documents rather than a stable catalogue, so it does not justify a claim that every internal file has been exhausted.
+
+The pass strengthened the public replacement queue around:
+
+- the Open University lineage, Magnus Ramage, Karen Shipp and *Systems Thinkers*;
+- Michael C. Jackson, critical systems thinking and the Hull programme;
+- systems education, competency and apprenticeship material;
+- systems-change reading collections and teaching bibliographies;
+- metacontextuality, Bongard problems, power, viable organisation, intervention and public-service practice.
+
+Release 0.17 converts the first two groups into public source-backed entries and connections. The remaining groups stay in the public replacement queue. No private URL, internal extract, client material or confidential document has entered the public dataset.
+
+The honest completion statement is therefore: the second pass is complete as a discovery action; exhaustive file-by-file coverage is not established because the connected store does not expose a stable recursive inventory through the available interface. Issue 8 continues to govern public-source replacement.

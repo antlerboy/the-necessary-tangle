@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Public submissions, curator responses and resulting changes to The Necessary Tangle.">
+  <link rel="canonical" href="https://transduction.systems/submissions/">
+  <title>Submissions and responses — The Necessary Tangle</title>
+  <link rel="stylesheet" href="../assets/styles.css?v=0.17.0-public">
+  <link rel="stylesheet" href="../assets/site-enhancements.css?v=0.17.0-public">
+  <link rel="stylesheet" href="../assets/iteration-17.css?v=0.17.0-public">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header"><a class="brand" href="../#view=home"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span><span><strong>The Necessary Tangle</strong><small>A living evidence atlas of systems | cybernetics | complexity</small></span></a><div class="header-meta"><span>Public submissions</span><span>Curated by <a href="https://www.antlerboy.com/">Benjamin P Taylor</a></span></div></header>
+  <main id="main" class="standalone-shell">
+    <header class="standalone-head">
+      <p class="eyebrow">Public proposals, public responses</p>
+      <h1>Submissions and responses</h1>
+      <p class="lede">The website prepares GitHub issues. GitHub remains the canonical public record: proposal, discussion, curator response, status and any resulting atlas entries stay together.</p>
+      <p class="projection-note">This page first shows the release snapshot from 2026-08-19, then tries to refresh from GitHub. A failed refresh does not hide the published record.</p>
+      <div class="standalone-actions"><a class="button primary" href="../#view=contribute">Make a contribution</a><a class="button" href="https://github.com/antlerboy/the-necessary-tangle/issues?q=is%3Aissue+%22Prepared+from+The+Necessary+Tangle%22+sort%3Acreated-desc" target="_blank" rel="noopener">Open the live GitHub register</a><a class="button" href="../#view=home">Back to the atlas</a></div>
+      <p id="liveStatus" class="live-status" aria-live="polite">Showing the release snapshot.</p>
+    </header>
+    <div id="submissionList" class="submission-grid"><article class="submission-card" data-issue="21">
+          <span class="submission-status incorporated">incorporated</span>
+          <h2>Viability — Consider adding viability vs fitness</h2>
+          <p class="small">Ivo Velitchkov (GitHub: kvistgaard) · 2026-08-10</p>
+          <h3>Proposal</h3><p>Distinguish viability from fitness and connect viability to Maturana and Varela&#x27;s natural-drift account rather than treating evolution only as survival of the fittest.</p>
+          <h3>Curator response</h3><p>Incorporated in release 0.12 after checking the distinction against independent primary and institutional sources. The submitted wording remains the originating contribution, not its own evidence.</p>
+          <div class="submission-links"><a class="button primary" href="https://github.com/antlerboy/the-necessary-tangle/issues/21" target="_blank" rel="noopener">Full public discussion</a><a class="button" href="https://transduction.systems/#view=item&amp;id=concept_viability">Viability</a><a class="button" href="https://transduction.systems/#view=item&amp;id=concept_natural_drift">Natural drift</a><a class="button" href="https://transduction.systems/#view=item&amp;id=person_ivo_velitchkov">Ivo Velitchkov</a></div>
+        </article></div>
+    <section class="plain-panel wide"><h2>Status means a curatorial decision</h2><p>‘Awaiting review’ is not tacit rejection. ‘Incorporated’ does not mean the submitted wording became evidence. Proposals may be investigated, partly incorporated, disputed, deferred or declined, with the reason kept visible.</p><div class="status-key"><span class="submission-status awaiting-review">awaiting review</span><span class="submission-status investigating">investigating</span><span class="submission-status incorporated">incorporated</span><span class="submission-status disputed">disputed</span><span class="submission-status deferred">deferred</span><span class="submission-status declined">declined</span></div></section>
+  </main>
+  <script id="submissionFallback" type="application/json">{"release": "0.17-public-intake-lineage-alpha", "generated": "2026-08-19", "canonical_system": "GitHub Issues", "canonical_query_url": "https://github.com/antlerboy/the-necessary-tangle/issues?q=is%3Aissue+%22Prepared+from+The+Necessary+Tangle%22+sort%3Acreated-desc", "marker": "Prepared from The Necessary Tangle", "status_vocabulary": ["awaiting review", "investigating", "incorporated", "partly incorporated", "disputed", "deferred", "declined"], "items": [{"issue_number": 21, "title": "Viability — Consider adding viability vs fitness", "contributor": "Ivo Velitchkov (GitHub: kvistgaard)", "created_at": "2026-08-10", "status": "incorporated", "proposal": "Distinguish viability from fitness and connect viability to Maturana and Varela's natural-drift account rather than treating evolution only as survival of the fittest.", "curator_response": "Incorporated in release 0.12 after checking the distinction against independent primary and institutional sources. The submitted wording remains the originating contribution, not its own evidence.", "issue_url": "https://github.com/antlerboy/the-necessary-tangle/issues/21", "result_links": [{"label": "Viability", "url": "https://transduction.systems/#view=item&id=concept_viability"}, {"label": "Natural drift", "url": "https://transduction.systems/#view=item&id=concept_natural_drift"}, {"label": "Ivo Velitchkov", "url": "https://transduction.systems/#view=item&id=person_ivo_velitchkov"}]}], "note": "This is a generated public projection. The GitHub issue and its comments remain the canonical record."}</script>
+  <script>
+  (() => {
+    'use strict';
+    const owner = 'antlerboy';
+    const repo = 'the-necessary-tangle';
+    const marker = 'Prepared from The Necessary Tangle';
+    const list = document.getElementById('submissionList');
+    const liveStatus = document.getElementById('liveStatus');
+    const fallback = JSON.parse(document.getElementById('submissionFallback').textContent);
+    const esc = (value) => String(value || '').replace(/[&<>"']/g, (ch) => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
+    const section = (body, heading) => {
+      const pattern = new RegExp(`## ${heading}\s*\n([\s\S]*?)(?=\n## |\n---|$)`, 'i');
+      return (body.match(pattern)?.[1] || '').trim();
+    };
+    const status = (issue, comments) => {
+      const labels = (issue.labels || []).map((item) => typeof item === 'string' ? item : item.name);
+      const order = ['incorporated','partly-incorporated','disputed','declined','deferred','investigating','awaiting-curator-review'];
+      const found = order.find((name) => labels.includes(name));
+      if (found) return found.replaceAll('-', ' ').replace('awaiting curator review', 'awaiting review');
+      const combined = comments.map((comment) => comment.body || '').join(' ').toLowerCase();
+      if (combined.includes('incorporated in release')) return 'incorporated';
+      return issue.state === 'open' ? 'awaiting review' : 'deferred';
+    };
+    const render = (items) => {
+      list.innerHTML = items.map((item) => {
+        const cls = item.status.replaceAll(' ', '-');
+        const resultLinks = (item.result_links || []).map((link) => `<a class="button" href="${esc(link.url)}">${esc(link.label)}</a>`).join('');
+        return `<article class="submission-card"><span class="submission-status ${esc(cls)}">${esc(item.status)}</span><h2>${esc(item.title)}</h2><p class="small">${esc(item.contributor)} · ${esc(item.created_at)}</p><h3>Proposal</h3><p>${esc(item.proposal)}</p><h3>Curator response</h3><p>${esc(item.curator_response || 'No public curator response yet.')}</p><div class="submission-links"><a class="button primary" href="${esc(item.issue_url)}" target="_blank" rel="noopener">Full public discussion</a>${resultLinks}</div></article>`;
+      }).join('');
+    };
+    async function refresh() {
+      const query = encodeURIComponent(`repo:${owner}/${repo} in:body "${marker}" is:issue`);
+      const response = await fetch(`https://api.github.com/search/issues?q=${query}&sort=created&order=desc&per_page=100`, {headers: {Accept: 'application/vnd.github+json'}});
+      if (!response.ok) throw new Error(`GitHub returned ${response.status}`);
+      const payload = await response.json();
+      const fallbackByIssue = new Map((fallback.items || []).map((item) => [Number(item.issue_number), item]));
+      const live = await Promise.all((payload.items || []).map(async (issue) => {
+        const commentsResponse = await fetch(issue.comments_url, {headers: {Accept: 'application/vnd.github+json'}});
+        const comments = commentsResponse.ok ? await commentsResponse.json() : [];
+        const curator = [...comments].reverse().find((comment) => comment.user?.login === owner);
+        const prior = fallbackByIssue.get(Number(issue.number)) || {};
+        return {
+          issue_number: issue.number,
+          title: issue.title,
+          contributor: `${issue.user?.login || 'GitHub contributor'}`,
+          created_at: String(issue.created_at || '').slice(0, 10),
+          status: status(issue, comments),
+          proposal: section(issue.body || '', 'Proposed change, challenge or question') || prior.proposal || section(issue.body || '', 'Why this matters') || 'Open the issue for the full proposal.',
+          curator_response: curator?.body || prior.curator_response || '',
+          issue_url: issue.html_url,
+          result_links: prior.result_links || []
+        };
+      }));
+      render(live.length ? live : fallback.items || []);
+      liveStatus.textContent = `Live GitHub register refreshed: ${live.length} submission${live.length === 1 ? '' : 's'}.`;
+    }
+    refresh().catch((error) => {
+      liveStatus.textContent = `Live refresh unavailable; showing the release snapshot. ${error.message}.`;
+    });
+  })();
+  </script>
+</body>
+</html>

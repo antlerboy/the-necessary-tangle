@@ -1,0 +1,43 @@
+{
+  "release": "0.17-public-intake-lineage-alpha",
+  "generated": "2026-08-19",
+  "canonical_system": "GitHub Issues",
+  "canonical_query_url": "https://github.com/antlerboy/the-necessary-tangle/issues?q=is%3Aissue+%22Prepared+from+The+Necessary+Tangle%22+sort%3Acreated-desc",
+  "marker": "Prepared from The Necessary Tangle",
+  "status_vocabulary": [
+    "awaiting review",
+    "investigating",
+    "incorporated",
+    "partly incorporated",
+    "disputed",
+    "deferred",
+    "declined"
+  ],
+  "items": [
+    {
+      "issue_number": 21,
+      "title": "Viability — Consider adding viability vs fitness",
+      "contributor": "Ivo Velitchkov (GitHub: kvistgaard)",
+      "created_at": "2026-08-10",
+      "status": "incorporated",
+      "proposal": "Distinguish viability from fitness and connect viability to Maturana and Varela's natural-drift account rather than treating evolution only as survival of the fittest.",
+      "curator_response": "Incorporated in release 0.12 after checking the distinction against independent primary and institutional sources. The submitted wording remains the originating contribution, not its own evidence.",
+      "issue_url": "https://github.com/antlerboy/the-necessary-tangle/issues/21",
+      "result_links": [
+        {
+          "label": "Viability",
+          "url": "https://transduction.systems/#view=item&id=concept_viability"
+        },
+        {
+          "label": "Natural drift",
+          "url": "https://transduction.systems/#view=item&id=concept_natural_drift"
+        },
+        {
+          "label": "Ivo Velitchkov",
+          "url": "https://transduction.systems/#view=item&id=person_ivo_velitchkov"
+        }
+      ]
+    }
+  ],
+  "note": "This is a generated public projection. The GitHub issue and its comments remain the canonical record."
+}
