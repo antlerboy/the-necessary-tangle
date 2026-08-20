@@ -26,6 +26,8 @@ The site includes:
 
 This is a public alpha. Release 0.16 contains 565 canonical public entries, including 115 developed profiles, 195 sources and 20 guided journeys. Breadth is not presented as completeness, and editorial acceptance is not presented as final consensus.
 
+Release 0.17 contains 581 canonical public entries, 123 developed profiles, 205 sources and 21 guided journeys. It adds a public submissions-and-responses page, a genuine ‘Surprise me’ route across readable content, and a canon-and-lineage review which develops Michael C. Jackson, Magnus Ramage, Karen Shipp and *Systems Thinkers* while making the atlas's own visibility and identity rules explicit.
+
 Release 0.16 makes the 33 *Grammar of Systems* laws and principles visible as a connected web rather than a disconnected list. The book-to-law statements are source-backed; the new law-to-concept, law-to-law and law-to-practice crosswalk is explicitly provisional and open to page-level evidence and challenge.
 
 The [relational-depth programme](documentation/relational-depth.md) now measures every public entry by distinct reader neighbours and relation families, separately from the evidential strength of those statements. The first graph-wide cohort removes reader-isolated entries, connects all maintained intervention skills, and leaves thin people, publications and corpora visible as an ordered research queue rather than disguising them with generic “related to” links.
@@ -86,3 +88,5 @@ See [ACKNOWLEDGEMENTS.md](ACKNOWLEDGEMENTS.md) for the fuller account. This is a
 ## Rights
 
 Original atlas text, public data and editorial material are licensed under [Creative Commons Attribution-ShareAlike 4.0 International](LICENSE-CONTENT.md), unless otherwise marked. Original software is licensed under the MIT licence in [LICENSE-SOFTWARE.md](LICENSE-SOFTWARE.md). Third-party works remain under their own terms. See [RIGHTS.md](RIGHTS.md).
+
+Public contributions and responses are visible at <https://transduction.systems/submissions/>; the canon and lineage review is at <https://transduction.systems/canon-and-lineage/>.

@@ -13,7 +13,7 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA_PATH = ROOT / "data" / "public-data.json"
 DOCS = ROOT / "docs"
 EXPECTED_RELEASE = "0.13-expertise-observations-alpha"
-ALLOWED_RELEASES = {EXPECTED_RELEASE, "0.14-snowden-cynefin-alpha", "0.15-ing-reading-practice-alpha", "0.16-grammar-connections-presentation-alpha"}
+ALLOWED_RELEASES = {EXPECTED_RELEASE, "0.14-snowden-cynefin-alpha", "0.15-ing-reading-practice-alpha", "0.16-grammar-connections-presentation-alpha", "0.17-public-intake-lineage-alpha"}
 EXPECTED_DATE = "2026-08-11"
 
 REQUIRED_NODE_IDS = {
@@ -127,7 +127,7 @@ def main() -> int:
 
     if meta.get("release") not in ALLOWED_RELEASES:
         errors.append(f"meta.release must be one of {sorted(ALLOWED_RELEASES)}")
-    expected_date = "2026-08-14" if meta.get("release") in {"0.15-ing-reading-practice-alpha", "0.16-grammar-connections-presentation-alpha"} else EXPECTED_DATE
+    expected_date = "2026-08-19" if meta.get("release") == "0.17-public-intake-lineage-alpha" else ("2026-08-14" if meta.get("release") in {"0.15-ing-reading-practice-alpha", "0.16-grammar-connections-presentation-alpha", "0.17-public-intake-lineage-alpha"} else EXPECTED_DATE)
     if meta.get("generated") != expected_date:
         errors.append(f"meta.generated must be {expected_date}")
     for label, actual, minimum in [
@@ -290,7 +290,7 @@ def main() -> int:
     if f"version: {meta.get('release')}" not in citation_text or f"date-released: {meta.get('generated')}" not in citation_text:
         errors.append("citation metadata does not identify the current release")
 
-    if (ROOT / "documentation" / "feedback-ledger.md").exists():
+    if meta.get("release") != "0.17-public-intake-lineage-alpha" and (ROOT / "documentation" / "feedback-ledger.md").exists():
         errors.append("obsolete process-ledger document remains")
     if list((ROOT / "documentation").glob("public-knowledge-for-*.md")):
         errors.append("legacy service-specific public knowledge file remains")

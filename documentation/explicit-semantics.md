@@ -29,3 +29,8 @@ Map layers filter relation families. Algorithmic neighbourhoods are provisional 
 ## Next technical step
 
 Publish a machine-readable schema and test an RDF/JSON-LD export. The test is not whether another tool can draw the nodes. It is whether meaning, direction, evidence, status, scope and canonical identity survive the translation.
+
+
+## Canon and recovery relations
+
+Release 0.17 adds controlled vocabulary for `canonised_as`, `excluded_from_canon`, `appropriated_from`, `recovers`, `participates_in_canon_formation` and `can_exclude`. These are deliberately demanding relation types. Identity, resemblance, geography or later admiration is not enough. The edge must state the particular history and carry evidence appropriate to it.

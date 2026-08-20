@@ -1,5 +1,17 @@
 # Changelog
 
+## 0.17-public-intake-lineage-alpha — 19 August 2026
+
+- Added a first-class public submissions-and-responses page backed by visible GitHub issues and curator comments.
+- Added a genuine ‘Surprise me’ control which selects from readable substantive entries and preserves ordinary browser history.
+- Surfaced the first structured website submission, issue 21, with its incorporated status, response and resulting entries.
+- Added a public canon and lineage review, a non-inference rule for identity and heritage, and controlled relations for canonisation, exclusion, appropriation and recovery.
+- Developed Magnus Ramage, Karen Shipp, *Systems Thinkers* and Michael C. Jackson through current official and publisher sources.
+- Added canon formation, epistemic closure, epistemic injustice, epistemic exclusion, structurelessness, lineage recovery and decolonial systems thinking.
+- Added the guided journey ‘Who gets to count as a systems thinker?’.
+- Completed a second bounded company-knowledge discovery pass without publishing private links or extracts.
+- Extended the site-submission triage workflow with a public status vocabulary and automatic backfill.
+
 ## 0.16-grammar-connections-presentation-alpha — 14 August 2026
 
 - Connected all 33 *Grammar of Systems* laws and principles to the source publication and to multiple concepts, principles or practices.

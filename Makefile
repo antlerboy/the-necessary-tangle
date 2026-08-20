@@ -34,6 +34,10 @@ build:
 	python3 scripts/patch_iteration_16.py
 	python3 scripts/patch_overnight_experience.py
 	python3 scripts/patch_adversarial_experience.py
+	python3 scripts/apply_iteration_17.py
+	python3 scripts/refresh_graph_snapshot.py
+	python3 scripts/patch_iteration_17.py
+	python3 scripts/sync_release_docs_17.py
 	python3 scripts/build_public_knowledge.py
 
 validate: build
@@ -53,6 +57,7 @@ validate: build
 	python3 scripts/validate_overnight_experience.py
 	python3 scripts/validate_adversarial_review.py
 	python3 scripts/validate_doncaster_lineage.py
+	python3 scripts/validate_iteration_17.py
 	./scripts/check_javascript.sh
 
 serve: build

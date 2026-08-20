@@ -1,7 +1,7 @@
 # The Necessary Tangle: public knowledge file
 
 Curated by Benjamin P Taylor — https://www.antlerboy.com/
-Generated from public release 0.16-grammar-connections-presentation-alpha on 2026-08-14.
+Generated from public release 0.17-public-intake-lineage-alpha on 2026-08-19.
 
 A living evidence atlas of systems | cybernetics | complexity.
 Every connection must say what it means. Historical sequence, logical dependence, influence, teaching, collaboration, practical use, comparison and dispute are not interchangeable.
@@ -1236,6 +1236,67 @@ C. H. Waddington, ‘Canalization of Development and the Inheritance of Acquired
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
 
+## Canon formation
+
+Type: Concept
+Public depth: profile
+
+Canon formation is the production of a recognised centre and periphery in a field through selection, teaching, citation, institutional power and repetition.
+
+### Summary
+
+Canon formation is the production of a recognised centre and periphery in a field through selection, teaching, citation, institutional power and repetition.
+
+### Why it matters
+
+The atlas cannot criticise other maps for false neutrality while leaving its own visibility choices implicit.
+
+### Key distinctions
+
+- canon versus exhaustive field
+- visibility versus intellectual value
+- citation versus influence
+- recovery versus decorative inclusion
+
+### Historical development
+
+- historiography
+- disciplinary boundary making
+- curriculum and anthology construction
+
+### Ideas it depends on
+
+- selection
+- institutional authority
+- publication and teaching
+
+### What develops from it
+
+- epistemic exclusion
+- lineage recovery
+- rival genealogies
+
+### Connections to practice
+
+- coverage audits
+- source comparison
+- teaching-history research
+- public challenge
+
+### Common confusions
+
+- A canon is not simply a list of the objectively best people.
+- Replacing one closed list with another does not remove boundary choices.
+
+### Open questions and checks
+
+- Add explicit cases of exclusion, appropriation, canonisation and recovery only where public evidence supports the precise relation.
+
+### Sources
+
+- On boundaries and disciplines: constructing a set of key systems thinkers — https://oro.open.ac.uk/5446/
+- The Necessary Tangle running feedback: canon, closure and patriarchy — https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5345119282
+
 ## Carrying Capacity and Dynamic Equilibrium in the Prehistoric Southwest
 
 Type: Publication
@@ -1246,6 +1307,18 @@ E. B. W. Zubrow, ‘Carrying Capacity and Dynamic Equilibrium in the Prehistoric
 ### Sources
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## Centre for Systems Studies
+
+Type: Organisation
+Public depth: described
+
+The University of Hull centre associated with the development, dissemination and application of systems thinking, including the critical systems thinking and practice programme.
+
+### Sources
+
+- Centre for Systems Studies — https://www.hull.ac.uk/research/centres/centre-for-systems-studies
+- Critical Systems Thinking and Practice: what has been done and what needs doing — https://university.open.ac.uk/stem/engineering-and-innovation/news/22nd-june-third-50th-birthday-celebrations-systems-teaching-ou
 
 ## Chaos
 
@@ -2096,6 +2169,18 @@ CSH provides a disciplined way to examine who benefits, who decides, what counts
 - SCiO CF Resources v9 draft — No public link
 - A Mini-Primer of Critical Systems Heuristics — https://wulrich.com/csh.html
 
+## Critical systems thinking
+
+Type: Tradition
+Public depth: profile
+
+A tradition associated particularly with Michael C. Jackson and colleagues which treats methodological pluralism, power, emancipation and critical reflection as central to systems inquiry and practice.
+
+### Sources
+
+- Critical Systems Thinking: A Practitioner's Guide — https://www.systemspractice.org/resources/critical-systems-thinking-practitioners-guide
+- Critical Systems Thinking and Practice: what has been done and what needs doing — https://university.open.ac.uk/stem/engineering-and-innovation/news/22nd-june-third-50th-birthday-celebrations-systems-teaching-ou
+
 ## Critical Systems Thinking: A Practitioner's Guide
 
 Type: Publication
@@ -2905,6 +2990,65 @@ Decision structure design clarifies which decisions exist, what information they
 - SCiO CF Resources v9 draft — No public link
 - SCiO Professional Accreditation and Competency Framework — https://www.systemspractice.org/professional-accreditation
 
+## Decolonial systems thinking
+
+Type: Concept
+Public depth: profile
+
+Decolonial systems thinking asks how colonial histories and knowledge hierarchies shape the system, observer, method and canon, and whether marginalised standpoints can alter those terms.
+
+### Summary
+
+Decolonial systems thinking asks how colonial histories and knowledge hierarchies shape the system, observer, method and canon, and whether marginalised standpoints can alter those terms.
+
+### Why it matters
+
+It shifts inclusion from demographic display to the construction of knowledge, institutional authority and the right to redefine the problem.
+
+### Key distinctions
+
+- decolonisation versus diversification
+- standpoint versus demographic proxy
+- historical power versus abstract plurality
+
+### Historical development
+
+- decolonial thought
+- critical systems thinking
+- systems thinking from the margins
+
+### Ideas it depends on
+
+- colonial history
+- epistemic power
+- boundary critique
+
+### What develops from it
+
+- revised systems education
+- lineage recovery
+- alternative genealogies
+
+### Connections to practice
+
+- curriculum review
+- participatory boundary critique
+- source and canon audits
+
+### Common confusions
+
+- Decolonial systems thinking is not a label for any systems work done outside Europe or North America.
+- Personal identity alone does not establish a decolonial argument.
+
+### Open questions and checks
+
+- Add primary published work from practitioners and scholars who explicitly identify their work as decolonial systems thinking.
+
+### Sources
+
+- Dr Magnus Ramage — Open University profile — https://profiles.open.ac.uk/magnus-ramage
+- The Necessary Tangle running feedback: canon, closure and patriarchy — https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5345119282
+
 ## Deming
 
 Type: Intervention skill
@@ -3494,6 +3638,148 @@ S. Bowles, ‘Endogenous Preferences: The Cultural Consequences of Markets and O
 ### Sources
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## Epistemic closure
+
+Type: Concept
+Public depth: profile
+
+Knowledge practices need closure enough to distinguish signal from noise, but closure also determines which people, experiences and perturbations can change the account.
+
+### Summary
+
+Knowledge practices need closure enough to distinguish signal from noise, but closure also determines which people, experiences and perturbations can change the account.
+
+### Why it matters
+
+The relevant question is not whether a system is open or closed in the abstract, but who can affect its boundary and whether it can revise the categories through which it learns.
+
+### Key distinctions
+
+- operational closure versus social exclusion
+- coherence versus impermeability
+- openness versus accountability
+- perturbation versus token consultation
+
+### Historical development
+
+- cybernetic epistemology
+- boundary critique
+- social epistemology
+
+### Ideas it depends on
+
+- distinction
+- observer
+- boundary
+- criteria of admissibility
+
+### What develops from it
+
+- epistemic exclusion
+- learning failure
+- canon rigidity
+
+### Connections to practice
+
+- boundary review
+- participatory inquiry
+- evidence policy
+
+### Common confusions
+
+- Closure is not inherently patriarchal or oppressive.
+- Indiscriminate openness does not abolish informal power.
+
+### Open questions and checks
+
+- Develop historical cases linking particular systems of closure to patriarchal, colonial or professional power without making closure itself the cause.
+
+### Sources
+
+- The Necessary Tangle running feedback: canon, closure and patriarchy — https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5345119282
+- Epistemic Injustice: Power and the Ethics of Knowing — https://academic.oup.com/book/32817
+- The Tyranny of Structurelessness — https://www.jofreeman.com/joreen/tyranny.htm
+
+## Epistemic exclusion
+
+Type: Concept
+Public depth: profile
+
+Exclusion from shaping, contributing to or being recognised within a knowledge practice. It may operate through credibility, categories, access, institutional position, citation, language or the prior definition of what counts as evidence.
+
+### Sources
+
+- Epistemic Injustice: Power and the Ethics of Knowing — https://academic.oup.com/book/32817
+- The Necessary Tangle running feedback: canon, closure and patriarchy — https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5345119282
+
+## Epistemic injustice
+
+Type: Concept
+Public depth: profile
+
+Epistemic injustice names wrongs within knowing: prejudice can reduce a person's credibility, and unequal interpretive resources can prevent experience becoming intelligible.
+
+### Summary
+
+Epistemic injustice names wrongs within knowing: prejudice can reduce a person's credibility, and unequal interpretive resources can prevent experience becoming intelligible.
+
+### Why it matters
+
+It gives the atlas a sharper way to examine whose evidence is admitted and which absences are produced by the field's own categories.
+
+### Key distinctions
+
+- testimonial injustice
+- hermeneutical injustice
+- ignorance versus structured absence
+- representation versus authority to know
+
+### Historical development
+
+- social epistemology
+- virtue epistemology
+- feminist philosophy
+
+### Ideas it depends on
+
+- testimony
+- interpretive resources
+- social power
+
+### What develops from it
+
+- epistemic exclusion
+- corrective epistemic practices
+
+### Connections to practice
+
+- participation design
+- source policy
+- canon review
+
+### Common confusions
+
+- Adding more speakers does not by itself change credibility rules or interpretive resources.
+
+### Open questions and checks
+
+- Connect to standpoint, situated knowledge and decolonial epistemologies through primary sources.
+
+### Sources
+
+- Epistemic Injustice: Power and the Ethics of Knowing — https://academic.oup.com/book/32817
+
+## Epistemic Injustice: Power and the Ethics of Knowing
+
+Type: Publication
+Public depth: profile
+
+Miranda Fricker's account of testimonial and hermeneutical injustice, connecting social power to whose testimony is credited and whose experience can be made intelligible.
+
+### Sources
+
+- Epistemic Injustice: Power and the Ethics of Knowing — https://academic.oup.com/book/32817
 
 ## Essential Balances
 
@@ -5347,6 +5633,17 @@ Really Regenerative practitioner named by Damian in connection with place-based 
 - Jenny Andersson — Really Regenerative — https://reallyregenerative.org/jenny-andersson/
 - Place-based Regeneration: Capabilities for Transformative Change — https://reallyregenerative.org/wp-content/uploads/2025/09/Place-based-Regeneration-Capabilities-for-Transformative-Change-Report-2025-compressed-1.pdf
 
+## Jo Freeman
+
+Type: Person
+Public depth: described
+
+A feminist scholar, organiser and author whose critique of structurelessness shows how the denial of formal structure may leave informal power unexamined.
+
+### Sources
+
+- The Tyranny of Structurelessness — https://www.jofreeman.com/joreen/tyranny.htm
+
 ## Jorge Mpodozis
 
 Type: Person
@@ -5423,6 +5720,65 @@ A bibliographic first-pass person entry for K. Wiesenfeld, listed by the officia
 ### Sources
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## Karen Shipp
+
+Type: Person
+Public depth: profile
+
+Shipp brought long experience of interactive and transformative systems education into the Systems Thinkers project and its people-centred account of the field.
+
+### Summary
+
+Shipp brought long experience of interactive and transformative systems education into the Systems Thinkers project and its people-centred account of the field.
+
+### Why it matters
+
+Her role prevents the book being treated as Ramage's individual classification exercise and connects canon construction to actual teaching practice at The Open University.
+
+### Key distinctions
+
+- co-authorship versus supporting role
+- education and facilitation versus abstract history
+- life-and-practice account versus disembodied ideas
+
+### Historical development
+
+- The Open University Systems Group
+- interactive systems education
+- facilitation
+- Systems Thinkers project
+
+### Ideas it depends on
+
+- systems education
+- biographical inquiry
+- facilitation
+
+### What develops from it
+
+- Systems Thinkers
+- people-centred systems history
+
+### Connections to practice
+
+- learning design
+- facilitation
+- systems-history teaching
+
+### Common confusions
+
+- Reducing Shipp to a secondary co-author repeats the visibility problem the canon review is intended to expose.
+
+### Open questions and checks
+
+- Locate further public records of Shipp's systems teaching and facilitation work.
+
+### Sources
+
+- Systems Thinkers, second edition — https://link.springer.com/book/10.1007/978-1-4471-7475-2
+- Systems Thinkers (2nd edition) — Open Research Online — https://oro.open.ac.uk/69810/
+- On boundaries and disciplines: constructing a set of key systems thinkers — https://oro.open.ac.uk/5446/
 
 ## Kurt Gödel
 
@@ -5795,6 +6151,67 @@ The essay is useful precisely because it combines a memorable hierarchy with rep
 
 - Leverage Points: Places to Intervene in a System — https://donellameadows.org/archives/leverage-points-places-to-intervene-in-a-system/
 
+## Lineage recovery
+
+Type: Practice
+Public depth: profile
+
+Lineage recovery finds and types neglected transmissions without turning every resemblance, shared identity or later citation into influence.
+
+### Summary
+
+Lineage recovery finds and types neglected transmissions without turning every resemblance, shared identity or later citation into influence.
+
+### Why it matters
+
+It makes the history of visibility part of the atlas rather than treating omissions as empty space around an otherwise neutral canon.
+
+### Key distinctions
+
+- recovery versus retrospective invention
+- appropriation versus influence
+- teaching versus citation
+- identity context versus identity inference
+
+### Historical development
+
+- archival research
+- feminist and decolonial historiography
+- systems lineage documentation
+
+### Ideas it depends on
+
+- typed relations
+- public evidence
+- boundary critique
+
+### What develops from it
+
+- revised canons
+- rival genealogies
+- documented exclusions
+
+### Connections to practice
+
+- archive work
+- oral history
+- citation tracing
+- curriculum review
+
+### Common confusions
+
+- Recovery is not achieved by adding portraits to an unchanged structure.
+- Shared heritage is not evidence of conceptual influence.
+
+### Open questions and checks
+
+- Develop gold-standard examples of exclusion, appropriation, canonisation and recovery with page-level evidence.
+
+### Sources
+
+- The Necessary Tangle running feedback: canon, closure and patriarchy — https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5345119282
+- On boundaries and disciplines: constructing a set of key systems thinkers — https://oro.open.ac.uk/5446/
+
 ## Lineages of Systems Practices
 
 Type: Publication
@@ -6019,6 +6436,71 @@ Mechanical governors regulate machine speed by sensing motion and altering input
 - On Governors — https://doi.org/10.1098/rspl.1867.0055
 - History of Control — https://www.ieeecss.org/history
 
+## Magnus Ramage
+
+Type: Person
+Public depth: profile
+
+Ramage connects systems history, sociotechnical information systems, critical inquiry and the active problem of who is allowed to count as a systems thinker.
+
+### Summary
+
+Ramage connects systems history, sociotechnical information systems, critical inquiry and the active problem of who is allowed to count as a systems thinker.
+
+### Why it matters
+
+His work makes canon construction part of systems practice rather than treating a list of recognised figures as neutral inheritance.
+
+### Key distinctions
+
+- biographical history versus a final canon
+- documented selection versus natural category
+- critical and decolonial inquiry versus adding decorative diversity
+- sociotechnical systems versus technology-only explanation
+
+### Historical development
+
+- The Open University Systems Group
+- systems thinking education
+- sociotechnical information systems
+- critical and decolonial curriculum work
+
+### Ideas it depends on
+
+- systems history
+- boundary critique
+- sociotechnical systems
+- critical systems thinking
+
+### What develops from it
+
+- Systems Thinkers
+- systems thinking from the margins
+- decolonial systems education
+
+### Connections to practice
+
+- systems education
+- canon review
+- critical technology inquiry
+- curriculum design
+
+### Common confusions
+
+- Treating Systems Thinkers as an objective ranking misses the authors' own boundary questions.
+- Treating decolonisation as demographic decoration leaves the knowledge rules unchanged.
+
+### Open questions and checks
+
+- Add published outputs from the systems-thinking-from-the-margins work when available.
+- Trace the Open University teaching lineage in more detail.
+
+### Sources
+
+- Dr Magnus Ramage — Open University profile — https://profiles.open.ac.uk/magnus-ramage
+- Systems Thinkers, second edition — https://link.springer.com/book/10.1007/978-1-4471-7475-2
+- On boundaries and disciplines: constructing a set of key systems thinkers — https://oro.open.ac.uk/5446/
+
 ## Managing complexity (and chaos) in times of crisis
 
 Type: Publication
@@ -6232,60 +6714,65 @@ A theoretical programme developed within Principia Cybernetica around the repeat
 Type: Person
 Public depth: profile
 
-A systems scholar and author whose work develops critical systems thinking, creative holism and critical systems practice for selecting and combining systems approaches under conditions of complexity and pluralism.
+Jackson's critical systems programme treats the diversity of systems approaches as a resource to be selected and combined critically rather than a contest to identify one universally correct method.
 
 ### Summary
 
-Michael C. Jackson develops critical systems thinking and critical systems practice as ways of working constructively with the field's methodological plurality.
+Jackson's critical systems programme treats the diversity of systems approaches as a resource to be selected and combined critically rather than a contest to identify one universally correct method.
 
 ### Why it matters
 
-The atlas contains many methods but can still imply that selecting a method is a technical matching exercise. Jackson's work places philosophy, power, pluralism and critical reflection inside the choice and combination of approaches.
+It provides a central route from philosophy and methodological pluralism into practical intervention, while keeping power, interests and emancipation discussable.
 
 ### Key distinctions
 
-- pluralism vs eclecticism
-- method critique vs method rejection
-- critical systems practice vs one methodology
+- critical pluralism versus method relativism
+- creative holism versus indiscriminate method mixing
+- complexity and pluralism versus one-dimensional diagnosis
+- method selection versus brand loyalty
 
 ### Historical development
 
+- Hull Centre for Systems Studies
+- UK systems movement
 - critical systems thinking
-- creative holism
-- systems methodologies
+- critical systems practice
 
 ### Ideas it depends on
 
+- systems methodologies
+- critical theory
 - methodological pluralism
-- power
-- emancipation
-- systems practice
+- power and emancipation
 
 ### What develops from it
 
 - critical systems practice
-- Critical Systems Thinking: A Practitioner's Guide
+- creative holism
+- multimethodology
 
 ### Connections to practice
 
 - method selection
-- multi-methodology
-- leadership and wicked problems
+- multimethod intervention
+- critical reflection
+- complex organisational inquiry
 
 ### Common confusions
 
-- pluralism means using everything
-- critical means merely negative
-- methodologies can be combined without philosophical consequences
+- Critical systems thinking is not merely a catalogue of methods.
+- Pluralism does not mean every method or combination is equally warranted.
 
 ### Open questions and checks
 
-- add primary texts across Jackson's career
-- represent major critiques and later developments
+- Add page-level links between Jackson's frameworks, individual methodologies and documented applications.
+- Develop criticism of the programme from within and outside critical systems traditions.
 
 ### Sources
 
 - Critical Systems Thinking: A Practitioner's Guide — https://www.systemspractice.org/resources/critical-systems-thinking-practitioners-guide
+- Critical Systems Thinking and Practice: what has been done and what needs doing — https://university.open.ac.uk/stem/engineering-and-innovation/news/22nd-june-third-50th-birthday-celebrations-systems-teaching-ou
+- Centre for Systems Studies — https://www.hull.ac.uk/research/centres/centre-for-systems-studies
 
 ## Michael Fullan
 
@@ -6309,6 +6796,17 @@ A systems practitioner and co-author of Opening the Box, contributing to its fou
 ### Sources
 
 - Opening the Box: Systems Thinking for Transformative Conversations — https://www.systemspractice.org/resources/opening-box-systems-thinking-transformative-conversations
+
+## Miranda Fricker
+
+Type: Person
+Public depth: described
+
+A philosopher whose work on epistemic injustice examines the ethical and political wrongs that arise within practices of testimony, interpretation and knowing.
+
+### Sources
+
+- Epistemic Injustice: Power and the Ethics of Knowing — https://academic.oup.com/book/32817
 
 ## Modelling
 
@@ -9729,6 +10227,62 @@ The Structural Viability Theorem says that a system and its constituent sub-syst
 - The Grammar of Systems II: From Order to Chaos and Back Again, 2nd edition — https://www.systemspractice.org/resources/grammar-systems-ii-order-chaos-back-again-2nd-ed
 - Cybersecurity Lessons from The Grammar of Systems, part 3 — https://www.linkedin.com/pulse/cybersecurity-lessons-from-grammar-systems-order-chaos-osama-salah-2f
 
+## Structurelessness
+
+Type: Concept
+Public depth: profile
+
+Structurelessness is an impossible organisational condition when people continue to interact; the practical choice is whether structure and authority are explicit, revisable and accountable.
+
+### Summary
+
+Structurelessness is an impossible organisational condition when people continue to interact; the practical choice is whether structure and authority are explicit, revisable and accountable.
+
+### Why it matters
+
+It prevents the response to closed canons becoming a fantasy that removing all boundaries will remove power.
+
+### Key distinctions
+
+- formal versus informal structure
+- openness versus hidden elite
+- authority versus accountability
+
+### Historical development
+
+- women's liberation organising
+- feminist organisational critique
+
+### Ideas it depends on
+
+- interaction
+- informal networks
+- resource and information asymmetry
+
+### What develops from it
+
+- explicit governance
+- accountable participation
+
+### Connections to practice
+
+- group design
+- participation policy
+- systems convening
+
+### Common confusions
+
+- Formal structure is not the only source of domination.
+- A boundary can enable participation when its rules are visible and revisable.
+
+### Open questions and checks
+
+- Connect the argument to contemporary decentralised and networked organising through strong sources.
+
+### Sources
+
+- The Tyranny of Structurelessness — https://www.jofreeman.com/joreen/tyranny.htm
+
 ## Studying Artificial Life with Cellular Automata
 
 Type: Publication
@@ -10640,52 +11194,67 @@ Practice becomes muddled when a broad theoretical vocabulary is treated as one a
 Type: Publication
 Public depth: profile
 
-Magnus Ramage and Karen Shipp’s people-centred account of systems traditions, developed from Open University teaching and useful as a map of thinkers, contexts and lineages rather than a single unified school.
+A biographical history of thirty systems thinkers which relates lives, ideas, institutions and practice while providing a visible, challengeable selection of the field.
 
 ### Summary
 
-A people-centred introduction to systems traditions and their historical development.
+A biographical history of thirty systems thinkers which relates lives, ideas, institutions and practice while providing a visible, challengeable selection of the field.
 
 ### Why it matters
 
-It helps readers meet systems thinking as plural lineages rather than a single doctrine and provides a bridge between biographies, ideas and traditions.
+The book is both an unusually useful map and an example of canon formation. Its authors explicitly examined the disciplinary and boundary choices involved in selecting key systems thinkers.
 
 ### Key distinctions
 
-- traditions versus one systems school
-- historical person-centred account versus method manual
+- biographical history versus timeless taxonomy
+- thirty selected thinkers versus an exhaustive field
+- life and practice versus ideas alone
+- selection evidence versus later canonisation
 
 ### Historical development
 
 - Open University systems teaching
+- early cybernetics
+- general systems theory
+- systems practice and critical systems
 
 ### Ideas it depends on
 
-- systems history
-- systems education
+- systems traditions
+- biographical method
+- boundary choice
 
 ### What develops from it
 
-- systems curricula
-- lineage orientation
+- systems-history teaching
+- canon review
+- lineage recovery
 
 ### Connections to practice
 
-- teaching
-- reading-list orientation
+- reading routes
+- teaching history
+- comparison of traditions
+- challenging omissions
 
 ### Common confusions
 
-- Its inclusion of a thinker does not imply agreement among thinkers.
+- The book is not a final ranking of the field.
+- The presence of a thinker is not evidence that every later practitioner was influenced by them.
 
 ### Open questions and checks
 
-- Connect individual chapters to primary works as coverage deepens.
+- Map all thirty chapters and their source extracts.
+- Compare the 2009 and 2020 selections and revisions.
+- Record serious omissions and rival canons as evidence, not as a corrected master list.
 
 ### Sources
 
 - Systems Thinkers — Springer record — https://link.springer.com/book/10.1007/978-1-84882-525-3
 - Updated rough draft systems | complexity | cybernetics reading list — https://stream.syscoi.com/2024/10/01/updated-rough-draft-systems-complexity-cybernetics-reading-list/
+- Systems Thinkers, second edition — https://link.springer.com/book/10.1007/978-1-4471-7475-2
+- Systems Thinkers (2nd edition) — Open Research Online — https://oro.open.ac.uk/69810/
+- On boundaries and disciplines: constructing a set of key systems thinkers — https://oro.open.ac.uk/5446/
 
 ## Systems Thinking, Systems Practice
 
@@ -11291,6 +11860,18 @@ It grounds both the collaborative development and the dynamic, rather than merel
 
 - The New Dynamics of Strategy: Sense-making in a Complex and Complicated World — https://thecynefin.co/library/the-new-dynamics-of-strategy-sense-making-in-a-complex-and-complicated-world/
 
+## The Open University
+
+Type: Organisation
+Public depth: described
+
+A UK distance-learning university with a long history of systems teaching, systems scholarship and practice-based systems education.
+
+### Sources
+
+- Dr Magnus Ramage — Open University profile — https://profiles.open.ac.uk/magnus-ramage
+- Systems Thinkers (2nd edition) — Open Research Online — https://oro.open.ac.uk/69810/
+
 ## The Organic Systems Framework
 
 Type: Publication
@@ -11407,6 +11988,17 @@ J. Maynard Smith, ‘The Theory of Games and the Evolution of Animal Conflicts�
 ### Sources
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## The Tyranny of Structurelessness
+
+Type: Publication
+Public depth: profile
+
+Jo Freeman's feminist organising essay on the impossibility of structurelessness and the way informal structures can conceal elites, access rules and unaccountable power.
+
+### Sources
+
+- The Tyranny of Structurelessness — https://www.jofreeman.com/joreen/tyranny.htm
 
 ## The Use of Knowledge in Society
 

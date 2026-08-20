@@ -15,8 +15,9 @@
   <link rel="canonical" href="https://transduction.systems/">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <title>The Necessary Tangle</title>
-  <link rel="stylesheet" href="assets/styles.css?v=0.16.3-visual">
-  <link rel="stylesheet" href="assets/site-enhancements.css?v=0.16.3-visual">
+  <link rel="stylesheet" href="assets/styles.css?v=0.17.0-public">
+  <link rel="stylesheet" href="assets/site-enhancements.css?v=0.17.0-public">
+  <link rel="stylesheet" href="assets/iteration-17.css?v=0.17.0-public">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -36,6 +37,8 @@
     <a href="#view=map&layer=substantive&depth=all&focus=concept_viability" data-view="map">Map</a>
     <a href="#view=ask" data-view="ask">Ask</a>
     <a href="#view=contribute" data-view="contribute">Contribute</a>
+    <a href="/submissions/" class="static-nav-link">Submissions</a>
+    <button type="button" id="surpriseMeNav" class="surprise-nav">Surprise me</button>
     <a href="#view=about" data-view="about">About</a>
   </nav>
 
@@ -53,7 +56,7 @@
             <div class="suggestions" role="listbox" hidden></div>
           </div>
           <div class="quick-links" id="quickLinks"></div>
-          <div class="hero-actions"><a href="#view=browse" class="button primary" data-view-link="browse">Explore the atlas</a><a href="#view=journeys" class="button" data-view-link="journeys">Follow a guided journey</a><a href="#view=map&layer=all&depth=all" class="button" data-view-link="map" data-map-mode="all">Full public map</a></div>
+          <div class="hero-actions"><a href="#view=browse" class="button primary" data-view-link="browse">Explore the atlas</a><a href="#view=journeys" class="button" data-view-link="journeys">Follow a guided journey</a><a href="#view=map&layer=all&depth=all" class="button" data-view-link="map" data-map-mode="all">Full public map</a><button type="button" id="surpriseMeHero" class="button surprise-me">Surprise me</button><a href="/canon-and-lineage/" class="button">Who gets to count?</a></div>
         </div>
         <a class="hero-panel release-panel" href="#view=about" aria-label="Read what this public alpha contains and what remains unfinished">
           <p class="eyebrow">This release</p>
@@ -268,7 +271,7 @@
           <h2>How contributions enter the atlas</h2>
           <p>The form prepares a public GitHub issue labelled <code>site-submission</code> and <code>awaiting-curator-review</code>. Research issues and pull requests are also valid routes. No proposal changes the atlas automatically.</p>
           <p>Before publication, proposed material is checked for evidence, identity, duplicate entries, wording, rights, public safety and compatibility with the data model.</p>
-          <div class="button-row wrap"><a class="button" href="https://github.com/antlerboy/the-necessary-tangle/issues?q=is%3Aissue+is%3Aopen+label%3Asite-submission" target="_blank" rel="noopener">View the proposal queue</a><a class="button" href="https://github.com/antlerboy/the-necessary-tangle/blob/main/documentation/contribution-intake.md" target="_blank" rel="noopener">Read the intake rule</a></div>
+          <div class="button-row wrap"><a class="button primary" href="/submissions/">Public submissions and responses</a><a class="button" href="https://github.com/antlerboy/the-necessary-tangle/issues?q=is%3Aissue+%22Prepared+from+The+Necessary+Tangle%22+sort%3Acreated-desc" target="_blank" rel="noopener">Canonical GitHub record</a><a class="button" href="https://github.com/antlerboy/the-necessary-tangle/blob/main/documentation/contribution-intake.md" target="_blank" rel="noopener">Read the intake rule</a></div>
         </article>
 <form id="contributionForm" class="contribution-form">
           <label>What are you submitting?<select name="submission_type" id="submissionType" required><option value="">Choose one</option><option value="Correction">Correction to an entry</option><option value="Challenge">Challenge to a connection or claim</option><option value="Source">Better or missing source</option><option value="Missing entry">Missing idea, person or method</option><option value="Question">Question for discussion</option><option value="Usability">Usability problem</option></select></label>
@@ -343,6 +346,15 @@
           <p><a href="#view=item&id=person_ivo_velitchkov&from=about">Ivo Velitchkov</a> connects viable organisation, <em>Essential Balances</em>, requisite inefficiency, enterprise architecture and explicit semantic graphs. <a href="#view=item&id=person_patrick_hoverstadt&from=about">Patrick Hoverstadt</a> connects the Viable System Model, systems laws, organisation diagnosis and design, <em>Patterns of Strategy</em> and transformation.</p>
           <p>This release also develops Peter Checkland, Werner Ulrich, Ray Ison, Ed Straw, Raul Espejo, Alfonso Reyes, Donella Meadows, Diana Wright and Barry Oshry through public primary or official sources, distinct method entries and typed practice relations.</p>
           <p><a href="#view=journeys&id=journey_inquiry_governance_and_intervention&step=0">Follow inquiry, governance and intervention</a>, <a href="https://github.com/antlerboy/the-necessary-tangle/blob/main/documentation/expertise-additions.md" target="_blank" rel="noopener">inspect the additions</a>, or <a href="#view=ai-observations">open the current AI observations</a>.</p>
+        </article>
+
+
+        <article class="plain-panel wide canon-lineage-panel">
+          <p class="eyebrow">The map is also a confession</p>
+          <h2>Canon, lineage and who gets to count</h2>
+          <p>A field needs distinctions and boundaries. It does not need to pretend those boundaries arrived from nowhere. This release distinguishes coherence from impermeability and demographic inclusion from the harder work of changing who can affect categories, evidence and intellectual lineage.</p>
+          <p>Ethnicity, heritage, religion, gender and nationality are never inferred from names, portraits or geography. Relevant intellectual, institutional, linguistic, geographical and self-described identity context is recorded only with public evidence and a reason for including it.</p>
+          <p><a class="button primary" href="/canon-and-lineage/">Open the canon and lineage review</a> <a class="button" href="#view=journeys&id=journey_who_counts_as_a_systems_thinker&step=0">Follow the guided route</a> <a class="button" href="#view=item&id=concept_canon_formation&from=about">Open canon formation</a></p>
         </article>
 
         <article class="plain-panel wide"><h2>A practitioner-centred origin</h2><blockquote>‘We need to map the constellation of influences around practitioners.’</blockquote><p>This formulation from David Ing, as recorded by Benjamin P Taylor, is the immediate provocation for the human-lineage layer. It shifts attention from a tidy history of schools to the actual routes through which practitioners encounter, combine, teach and use ideas.</p></article>
@@ -423,13 +435,14 @@
 
   <aside id="entryDrawer" class="drawer" aria-hidden="true"><button id="drawerClose" class="drawer-close" aria-label="Close entry">Close</button><div id="drawerBody"></div></aside><div id="drawerScrim" class="scrim"></div>
 
-  <footer class="site-footer"><div><strong>The Necessary Tangle</strong><br><span>Curated by <a href="https://www.antlerboy.com/">Benjamin P Taylor</a></span></div><div><a href="#view=contribute" data-view-link="contribute" class="text-button">Submit a correction</a><a href="#view=about" data-view-link="about" class="text-button">Coverage, method and rights</a><a class="text-button" href="https://github.com/antlerboy/the-necessary-tangle" target="_blank" rel="noopener">GitHub</a></div></footer>
+  <footer class="site-footer"><div><strong>The Necessary Tangle</strong><br><span>Curated by <a href="https://www.antlerboy.com/">Benjamin P Taylor</a></span></div><div><a href="#view=contribute" data-view-link="contribute" class="text-button">Submit a correction</a><a class="text-button" href="/submissions/">Public submissions</a><button type="button" class="text-button surprise-me footer-surprise">Surprise me</button><a href="#view=about" data-view-link="about" class="text-button">Coverage, method and rights</a><a class="text-button" href="https://github.com/antlerboy/the-necessary-tangle" target="_blank" rel="noopener">GitHub</a></div></footer>
 
   <script src="assets/site-config.js"></script>
   <script src="assets/public-data.js"></script>
-  <script src="assets/app.js?v=0.16.3-visual"></script>
+  <script src="assets/app.js?v=0.17.0-public"></script>
   <script src="assets/site-enhancements.js"></script>
 
   <a class="update-thread-dot" data-update-thread-dot href="https://github.com/antlerboy/the-necessary-tangle/issues/2" target="_blank" rel="noopener" aria-label="Open updates"></a>
+  <script src="assets/iteration-17.js?v=0.17.0-public"></script>
 </body>
 </html>

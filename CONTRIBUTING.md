@@ -1,4 +1,6 @@
-# Contributing to The Necessary Tangle
+# Contributing
+
+Public submissions and curator responses are visible at https://transduction.systems/submissions/. GitHub Issues remain the canonical record. to The Necessary Tangle
 
 Corrections, challenges and additions are part of the project. They do not alter the atlas automatically.
 

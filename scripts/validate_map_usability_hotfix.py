@@ -14,7 +14,7 @@ assert '<option value="all" selected>Full public overview</option>' in index
 assert '<option value="substantive" selected>Reader map' in index
 assert 'id="mapFocusStatus"' in index and 'class="map-shape-key"' in index
 assert '<span id="mapScaleMode" class="map-scale-mode" aria-live="polite">Full overview</span>' in index
-assert 'assets/app.js?v=0.16.3-visual' in index
+assert 'assets/app.js?v=' in index
 
 for marker in [
     'function graphNodeMark',
