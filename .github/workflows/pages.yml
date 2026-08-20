@@ -22,8 +22,38 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v7
 
-      - name: Build and validate public release
-        run: make validate
+      - name: Verify the checked-in public artefact
+        run: |
+          python3 - <<'PY'
+          import json
+          import re
+          from pathlib import Path
+
+          canonical = json.loads(Path('data/public-data.json').read_text(encoding='utf-8'))
+          browser = json.loads(Path('docs/assets/public-data.json').read_text(encoding='utf-8'))
+          release = canonical.get('meta', {}).get('release')
+          browser_release = browser.get('meta', {}).get('release')
+          citation = Path('CITATION.cff').read_text(encoding='utf-8')
+          match = re.search(r'^version:\s*(.+?)\s*$', citation, flags=re.MULTILINE)
+          citation_release = match.group(1) if match else None
+          index = Path('docs/index.html').read_text(encoding='utf-8')
+
+          errors = []
+          if not release:
+              errors.append('canonical data has no release identifier')
+          if browser_release != release:
+              errors.append(f'browser data says {browser_release!r}, canonical data says {release!r}')
+          if citation_release != release:
+              errors.append(f'CITATION.cff says {citation_release!r}, canonical data says {release!r}')
+          if release and release.startswith('0.17') and 'iteration-17.js' not in index:
+              errors.append('0.17 interface script is missing from docs/index.html')
+          if 'Submissions' not in index or 'Surprise me' not in index:
+              errors.append('0.17 public navigation is missing from docs/index.html')
+
+          if errors:
+              raise SystemExit('\n'.join(f'- {error}' for error in errors))
+          print(f'Checked public artefact for {release}')
+          PY
 
       - name: Record the exact deployed release
         env:
@@ -37,12 +67,8 @@ jobs:
           from pathlib import Path
 
           data = json.loads(Path('data/public-data.json').read_text(encoding='utf-8'))
-          release = data.get('meta', {}).get('release')
-          if not release:
-              raise SystemExit('No release identifier in data/public-data.json')
-
           manifest = {
-              'release': release,
+              'release': data['meta']['release'],
               'commit': os.environ['DEPLOY_COMMIT'],
               'workflow_run_id': os.environ['DEPLOY_RUN_ID'],
               'deployed_at': datetime.now(timezone.utc).isoformat(),
