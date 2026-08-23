@@ -80,6 +80,11 @@ for path in sorted((ROOT / "scripts").glob("validate*.py")):
             'if meta.get("generated") not in {GENERATED, "2026-08-19", "2026-08-23"}:',
             1,
         )
+        for asset in ("styles.css", "site-enhancements.css", "app.js"):
+            text = text.replace(
+                f'assets/{asset}?v=0.17.0-public',
+                f'assets/{asset}?v=0.18.0-public',
+            )
 
     if path.name == "validate_iteration_17.py":
         text = text.replace(
