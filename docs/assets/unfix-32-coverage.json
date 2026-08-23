@@ -1,0 +1,264 @@
+{
+  "release": "0.18-navigable-tangle-alpha",
+  "source_id": "src_unfix_32_key_concepts_2024",
+  "method": "Map each named concept to a canonical public entry by maintained name or alias; create a brief source-bounded entry only where no match exists.",
+  "caution": "The source is an AI-assisted first-party synthesis and comparator, not a neutral canon or proof of influence.",
+  "items": [
+    {
+      "concept": "System archetypes",
+      "node_id": "concept_unfix_system_archetypes",
+      "entry_label": "System archetypes",
+      "created_in_0_18": true,
+      "publication_level": "described",
+      "source_id": "src_unfix_32_key_concepts_2024"
+    },
+    {
+      "concept": "Viable System Model",
+      "node_id": "approach_family_viable_system_model_vsm",
+      "entry_label": "Viable System Model (VSM) — approach family",
+      "created_in_0_18": false,
+      "publication_level": "research_stub",
+      "source_id": "src_unfix_32_key_concepts_2024"
+    },
+    {
+      "concept": "Causal loop diagrams",
+      "node_id": "concept_unfix_causal_loop_diagrams",
+      "entry_label": "Causal loop diagrams",
+      "created_in_0_18": true,
+      "publication_level": "described",
+      "source_id": "src_unfix_32_key_concepts_2024"
+    },
+    {
+      "concept": "Mental models",
+      "node_id": "concept_unfix_mental_models",
+      "entry_label": "Mental models",
+      "created_in_0_18": true,
+      "publication_level": "described",
+      "source_id": "src_unfix_32_key_concepts_2024"
+    },
+    {
+      "concept": "Holism",
+      "node_id": "concept_holism",
+      "entry_label": "Holism",
+      "created_in_0_18": false,
+      "publication_level": "described",
+      "source_id": "src_unfix_32_key_concepts_2024"
+    },
+    {
+      "concept": "Systems mapping",
+      "node_id": "tool_systems_mapping",
+      "entry_label": "Systems mapping",
+      "created_in_0_18": false,
+      "publication_level": "described",
+      "source_id": "src_unfix_32_key_concepts_2024"
+    },
+    {
+      "concept": "System dynamics",
+      "node_id": "approach_family_system_dynamics",
+      "entry_label": "System Dynamics — approach family",
+      "created_in_0_18": false,
+      "publication_level": "research_stub",
+      "source_id": "src_unfix_32_key_concepts_2024"
+    },
+    {
+      "concept": "Systemic intervention",
+      "node_id": "method_or_methodology_systemic_intervention",
+      "entry_label": "Systemic Intervention",
+      "created_in_0_18": false,
+      "publication_level": "profile",
+      "source_id": "src_unfix_32_key_concepts_2024"
+    },
+    {
+      "concept": "Boundary",
+      "node_id": "concept_boundary",
+      "entry_label": "Boundary",
+      "created_in_0_18": false,
+      "publication_level": "profile",
+      "source_id": "src_unfix_32_key_concepts_2024"
+    },
+    {
+      "concept": "Interconnectedness",
+      "node_id": "concept_interconnectedness",
+      "entry_label": "Interconnectedness",
+      "created_in_0_18": false,
+      "publication_level": "described",
+      "source_id": "src_unfix_32_key_concepts_2024"
+    },
+    {
+      "concept": "Hierarchy",
+      "node_id": "concept_unfix_hierarchy",
+      "entry_label": "Hierarchy",
+      "created_in_0_18": true,
+      "publication_level": "described",
+      "source_id": "src_unfix_32_key_concepts_2024"
+    },
+    {
+      "concept": "Leverage points",
+      "node_id": "concept_leverage_points",
+      "entry_label": "Leverage points",
+      "created_in_0_18": false,
+      "publication_level": "profile",
+      "source_id": "src_unfix_32_key_concepts_2024"
+    },
+    {
+      "concept": "Feedback",
+      "node_id": "concept_feedback",
+      "entry_label": "Feedback",
+      "created_in_0_18": false,
+      "publication_level": "profile",
+      "source_id": "src_unfix_32_key_concepts_2024"
+    },
+    {
+      "concept": "Resilience",
+      "node_id": "concept_unfix_resilience",
+      "entry_label": "Resilience",
+      "created_in_0_18": true,
+      "publication_level": "described",
+      "source_id": "src_unfix_32_key_concepts_2024"
+    },
+    {
+      "concept": "Unintended consequences",
+      "node_id": "concept_unfix_unintended_consequences",
+      "entry_label": "Unintended consequences",
+      "created_in_0_18": true,
+      "publication_level": "described",
+      "source_id": "src_unfix_32_key_concepts_2024"
+    },
+    {
+      "concept": "System",
+      "node_id": "concept_unfix_system",
+      "entry_label": "System",
+      "created_in_0_18": true,
+      "publication_level": "described",
+      "source_id": "src_unfix_32_key_concepts_2024"
+    },
+    {
+      "concept": "Emergence",
+      "node_id": "concept_emergence",
+      "entry_label": "Emergence",
+      "created_in_0_18": false,
+      "publication_level": "profile",
+      "source_id": "src_unfix_32_key_concepts_2024"
+    },
+    {
+      "concept": "Dynamic complexity",
+      "node_id": "concept_unfix_dynamic_complexity",
+      "entry_label": "Dynamic complexity",
+      "created_in_0_18": true,
+      "publication_level": "described",
+      "source_id": "src_unfix_32_key_concepts_2024"
+    },
+    {
+      "concept": "Self-organisation",
+      "node_id": "concept_self_organisation",
+      "entry_label": "Self-organisation",
+      "created_in_0_18": false,
+      "publication_level": "profile",
+      "source_id": "src_unfix_32_key_concepts_2024"
+    },
+    {
+      "concept": "Nonlinearity",
+      "node_id": "concept_non_linearity",
+      "entry_label": "Non-linearity",
+      "created_in_0_18": false,
+      "publication_level": "described",
+      "source_id": "src_unfix_32_key_concepts_2024"
+    },
+    {
+      "concept": "Adaptation",
+      "node_id": "concept_adaptation",
+      "entry_label": "Adaptation",
+      "created_in_0_18": false,
+      "publication_level": "profile",
+      "source_id": "src_unfix_32_key_concepts_2024"
+    },
+    {
+      "concept": "Network theory",
+      "node_id": "concept_unfix_network_theory",
+      "entry_label": "Network theory",
+      "created_in_0_18": true,
+      "publication_level": "described",
+      "source_id": "src_unfix_32_key_concepts_2024"
+    },
+    {
+      "concept": "Phase transition",
+      "node_id": "concept_unfix_phase_transition",
+      "entry_label": "Phase transition",
+      "created_in_0_18": true,
+      "publication_level": "described",
+      "source_id": "src_unfix_32_key_concepts_2024"
+    },
+    {
+      "concept": "Chaos theory",
+      "node_id": "tradition_chaos_theory",
+      "entry_label": "Chaos theory",
+      "created_in_0_18": false,
+      "publication_level": "described",
+      "source_id": "src_unfix_32_key_concepts_2024"
+    },
+    {
+      "concept": "Attractor",
+      "node_id": "concept_unfix_attractor",
+      "entry_label": "Attractor",
+      "created_in_0_18": true,
+      "publication_level": "described",
+      "source_id": "src_unfix_32_key_concepts_2024"
+    },
+    {
+      "concept": "Fitness landscape",
+      "node_id": "concept_unfix_fitness_landscape",
+      "entry_label": "Fitness landscape",
+      "created_in_0_18": true,
+      "publication_level": "described",
+      "source_id": "src_unfix_32_key_concepts_2024"
+    },
+    {
+      "concept": "Scaling laws",
+      "node_id": "concept_unfix_scaling_laws",
+      "entry_label": "Scaling laws",
+      "created_in_0_18": true,
+      "publication_level": "described",
+      "source_id": "src_unfix_32_key_concepts_2024"
+    },
+    {
+      "concept": "Power law",
+      "node_id": "concept_unfix_power_law",
+      "entry_label": "Power law",
+      "created_in_0_18": true,
+      "publication_level": "described",
+      "source_id": "src_unfix_32_key_concepts_2024"
+    },
+    {
+      "concept": "Self-organised criticality",
+      "node_id": "law_or_principle_self_organised_criticality",
+      "entry_label": "Self-Organised Criticality",
+      "created_in_0_18": false,
+      "publication_level": "described",
+      "source_id": "src_unfix_32_key_concepts_2024"
+    },
+    {
+      "concept": "Fractal",
+      "node_id": "concept_fractals",
+      "entry_label": "Fractals",
+      "created_in_0_18": false,
+      "publication_level": "described",
+      "source_id": "src_unfix_32_key_concepts_2024"
+    },
+    {
+      "concept": "Agent-based modelling",
+      "node_id": "method_or_methodology_agent_based_modelling",
+      "entry_label": "Agent-based modelling",
+      "created_in_0_18": false,
+      "publication_level": "described",
+      "source_id": "src_unfix_32_key_concepts_2024"
+    },
+    {
+      "concept": "Edge of chaos",
+      "node_id": "concept_unfix_edge_of_chaos",
+      "entry_label": "Edge of chaos",
+      "created_in_0_18": true,
+      "publication_level": "described",
+      "source_id": "src_unfix_32_key_concepts_2024"
+    }
+  ]
+}

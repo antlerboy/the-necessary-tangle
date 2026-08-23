@@ -458,6 +458,7 @@
   let lastMapPositions = new Map();
   let mapFocusHistory = [mapFocus];
   let mapFocusHistoryIndex = 0;
+  let mapPointerDragged = false;
 
   function internalHref(view, params = {}) {
     return `#${new URLSearchParams({ view, ...params }).toString()}`;
@@ -525,6 +526,7 @@
       const depth = sp.get('depth');
       if (layer && [...$('mapLayer').options].some((option) => option.value === layer)) $('mapLayer').value = layer;
       if (depth && [...$('mapDepth').options].some((option) => option.value === depth)) $('mapDepth').value = depth;
+      if (sp.get('edge')) mapSelectedEdge = sp.get('edge');
       if (sp.get('focus')) {
         mapFocus = canonicalId(sp.get('focus'));
         const focus = nodeById.get(mapFocus);
@@ -533,6 +535,7 @@
       }
       updateMapLayerNote();
       renderMap({ fit: true });
+      if (mapSelectedEdge) inspectEdge(mapSelectedEdge, false);
     }
   }
 
@@ -664,9 +667,9 @@
         : ''}
       <p class="small">${node.public_source_count || 0} linked public source${node.public_source_count === 1 ? '' : 's'}${node.no_public_link_count ? ` · ${node.no_public_link_count} cited item${node.no_public_link_count === 1 ? '' : 's'} with no public link` : ''}${depth ? ` · ${depth.reader_connections} reader connection${depth.reader_connections === 1 ? '' : 's'} across ${depth.distinct_reader_families} relation famil${depth.distinct_reader_families === 1 ? 'y' : 'ies'}` : ''}</p>
       <div class="entry-actions">
-        <button class="primary map-entry" data-id="${esc(node.id)}">Explore connections</button>
-        <button class="ask-entry" data-id="${esc(node.id)}">Ask about this</button>
-        <button class="contribute-entry" data-id="${esc(node.id)}">Suggest a change</button>
+        <a class="button primary map-entry" href="${internalHref('map', { layer: 'substantive', depth: 'constellation', focus: node.id })}" data-id="${esc(node.id)}">Place in the tangle</a>
+        <a class="button ask-entry" href="${internalHref('ask', { seed: node.id })}" data-id="${esc(node.id)}">Ask about this</a>
+        <a class="button contribute-entry" href="${internalHref('contribute', { entry: node.id })}" data-id="${esc(node.id)}">Suggest a change</a>
         <a class="button" href="${esc(CONFIG.discussionsUrl || `${CONFIG.repositoryUrl}/discussions`)}" target="_blank" rel="noopener">Discuss</a>
         <button id="copyEntryLink">Copy link</button>
       </div>
@@ -709,8 +712,10 @@
       $('browseTag').value = button.dataset.tag;
       renderBrowse();
     }));
-    $$('.inspect-edge', root).forEach((button) => button.addEventListener('click', () => inspectEdge(button.dataset.edge, true)));
-    $$('.map-entry', root).forEach((button) => button.addEventListener('click', () => {
+    $$('.inspect-edge', root).forEach((button) => button.addEventListener('click', (event) => { if (!plainLeftClick(event)) return; event.preventDefault(); inspectEdge(button.dataset.edge, true); }));
+    $$('.map-entry', root).forEach((button) => button.addEventListener('click', (event) => {
+      if (!plainLeftClick(event)) return;
+      event.preventDefault();
       closeDrawer(false);
       mapFocus = button.dataset.id;
       recordMapFocus(mapFocus);
@@ -720,14 +725,18 @@
       setHash({ view: 'map', focus: mapFocus });
       renderMap({ fit: true });
     }));
-    $$('.ask-entry', root).forEach((button) => button.addEventListener('click', () => {
+    $$('.ask-entry', root).forEach((button) => button.addEventListener('click', (event) => {
+      if (!plainLeftClick(event)) return;
+      event.preventDefault();
       const node = nodeById.get(button.dataset.id);
       closeDrawer(false);
       showView('ask');
       $('askQuestion').value = `Explain ${node.label}, its strongest connections, and the evidence behind them.`;
       $('askForm').requestSubmit();
     }));
-    $$('.contribute-entry', root).forEach((button) => button.addEventListener('click', () => {
+    $$('.contribute-entry', root).forEach((button) => button.addEventListener('click', (event) => {
+      if (!plainLeftClick(event)) return;
+      event.preventDefault();
       const node = nodeById.get(button.dataset.id);
       closeDrawer(false);
       showView('contribute');
@@ -1059,7 +1068,7 @@
       return new Set(publicNodes.filter((node) => node.publication_level === 'profile').map((node) => node.id));
     }
 
-    const depth = Number(mode);
+    const depth = mode === 'constellation' ? 2 : Number(mode);
     const fallback = allowed.has('concept_viability') ? 'concept_viability' : [...allowed][0];
     const focus = allowed.has(mapFocus) ? mapFocus : fallback;
     const visited = new Map([[focus, 0]]);
@@ -1291,11 +1300,11 @@
       const midpointY = (source.y + target.y) / 2;
       const showFocusLabel = !wideView && focusEdge && focusEdges.length <= 6;
       const labelClass = selected || inPath || showFocusLabel ? 'visible' : '';
-      return `<g class="graph-edge-group" data-edge="${esc(edge.id)}" tabindex="0" role="button" aria-label="${esc(title)}">
+      return `<a class="graph-edge-link" href="${internalHref('map', { layer: $('mapLayer').value, depth: $('mapDepth').value, focus: edge.source, edge: edge.id })}"><g class="graph-edge-group" data-edge="${esc(edge.id)}" tabindex="0" role="button" aria-label="${esc(title)}">
         <line class="graph-edge-hit" x1="${source.x}" y1="${source.y}" x2="${target.x}" y2="${target.y}"></line>
         <line class="${classes}" x1="${source.x}" y1="${source.y}" x2="${target.x}" y2="${target.y}"><title>${esc(title)}</title></line>
         <text class="graph-edge-label ${labelClass}" x="${midpointX}" y="${midpointY - 7}">${esc(edge.plain_phrase || titleCase(edge.relation_type))}</text>
-      </g>`;
+      </g></a>`;
     }).join('');
 
     const nodes = [...ids].map((id) => nodeById.get(id)).filter(Boolean);
@@ -1328,10 +1337,10 @@
         neighbour ? 'focus-neighbour' : '',
         contextNode ? 'context-node' : ''
       ].filter(Boolean).join(' ');
-      return `<g class="${classes}" data-id="${esc(node.id)}" data-label-priority="${labelPriority}" tabindex="0" role="button" aria-label="Open ${esc(node.label)}">
+      return `<a class="graph-node-link" href="${internalHref('item', { id: node.id, from: 'map' })}"><g class="${classes}" data-id="${esc(node.id)}" data-label-priority="${labelPriority}" tabindex="0" role="button" aria-label="Open ${esc(node.label)}">
         ${graphNodeMark(node, position, radius)}
         <text class="graph-label ${showLabel ? '' : 'dense-hidden'}" data-priority="${labelPriority}" text-anchor="${labelAnchor}" x="${labelX}" y="${position.y + 4}">${esc(node.label)}</text>
-      </g>`;
+      </g></a>`;
     }).join('');
 
     $('mapCount').textContent = nodes.length;
@@ -1350,7 +1359,9 @@
 
     $$('.graph-node-group', $('graphNodes')).forEach((group) => {
       const open = (event) => {
+        event.preventDefault();
         event.stopPropagation();
+        if (mapPointerDragged) return;
         activateMapNode(group.dataset.id);
       };
       group.addEventListener('click', open);
@@ -1364,7 +1375,9 @@
 
     $$('.graph-edge-group', $('graphEdges')).forEach((group) => {
       const open = (event) => {
+        event.preventDefault();
         event.stopPropagation();
+        if (mapPointerDragged) return;
         mapSelectedEdge = group.dataset.edge;
         inspectEdge(mapSelectedEdge, false);
         renderMap({ fit: false });
@@ -1399,7 +1412,7 @@
     const label = $('mapScaleMode');
     if (label) {
       const depth = $('mapDepth')?.value;
-      label.textContent = depth === 'all' ? 'Full overview' : depth === 'profiles' ? 'Developed overview' : band === 'overview' ? 'Whole map' : band === 'detail' ? 'Detail' : 'Neighbourhood';
+      label.textContent = depth === 'all' ? 'Full overview' : depth === 'profiles' ? 'Developed overview' : depth === 'constellation' ? 'Constellation' : band === 'overview' ? 'Whole map' : band === 'detail' ? 'Detail' : 'Neighbourhood';
     }
   }
 
@@ -1786,7 +1799,7 @@
       input.value = node.label;
       input.dataset.selectedId = node.id;
       hide();
-      if (role === 'open') renderEntry(node.id);
+      if (role === 'open') { setHash({ view: 'item', id: node.id, from: baseView }); renderEntry(node.id); }
       if (role === 'filter') renderBrowse();
       if (role === 'map') {
         $('mapDepth').value = '1';
@@ -1806,12 +1819,13 @@
         if (role === 'contribution') updateContributionHint();
         return;
       }
-      list.innerHTML = current.map((result, index) => `<button type="button" class="suggestion ${index === active ? 'active' : ''}" role="option" data-id="${esc(result.node.id)}">
+      list.innerHTML = current.map((result, index) => `<a href="${internalHref('item', { id: result.node.id, from: role === 'map' ? 'map' : baseView })}" class="suggestion ${index === active ? 'active' : ''}" role="option" data-id="${esc(result.node.id)}">
         <span><strong>${esc(result.node.label)}</strong><small>${esc(entityLabel(result.node.entity_type))}${result.aliases.some((alias) => normalise(alias) === normalise(query)) ? ' · alias match' : ''}</small></span>
         <span class="badge ${result.node.publication_level === 'research_stub' ? 'status-stub' : result.node.publication_level === 'profile' ? 'status-profile' : ''}">${esc(statusLabel(result.node))}</span>
       </a>`).join('');
       list.hidden = false;
       $$('.suggestion', list).forEach((button) => button.addEventListener('mousedown', (event) => {
+        if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
         event.preventDefault();
         choose(nodeById.get(button.dataset.id));
       }));
@@ -1893,25 +1907,35 @@
       zoomAt(event.shiftKey ? 1 / 1.55 : 1.55, event.clientX, event.clientY);
     });
 
+    let dragStart = { x: 0, y: 0 };
     svg.addEventListener('pointerdown', (event) => {
-      if (event.target.closest?.('.graph-node-group, .graph-edge-group')) return;
+      if (event.button !== 0) return;
       dragging = true;
+      mapPointerDragged = false;
+      dragStart = { x: event.clientX, y: event.clientY };
       last = { x: event.clientX, y: event.clientY };
       wrap.classList.add('dragging');
       svg.setPointerCapture(event.pointerId);
     });
     svg.addEventListener('pointermove', (event) => {
       if (!dragging) return;
+      const total = Math.hypot(event.clientX - dragStart.x, event.clientY - dragStart.y);
+      if (total > 4) mapPointerDragged = true;
+      if (!mapPointerDragged) return;
       mapTransform.x += event.clientX - last.x;
       mapTransform.y += event.clientY - last.y;
       last = { x: event.clientX, y: event.clientY };
       applyMapTransform();
     });
-    svg.addEventListener('pointerup', (event) => {
+    const finishMapPointer = (event) => {
+      if (!dragging) return;
       dragging = false;
       wrap.classList.remove('dragging');
       try { svg.releasePointerCapture(event.pointerId); } catch (_) { /* no-op */ }
-    });
+      if (mapPointerDragged) setTimeout(() => { mapPointerDragged = false; }, 0);
+    };
+    svg.addEventListener('pointerup', finishMapPointer);
+    svg.addEventListener('pointercancel', finishMapPointer);
 
     const mini = $('mapMiniMap');
     let miniDragging = false;
@@ -2006,7 +2030,7 @@
         return;
       }
       $('pathResult').innerHTML = mapPath.map((id, index) => `${index ? '<span>→</span>' : ''}<a href="${internalHref('item', { id, from: 'map' })}" class="chip path-chip internal-entry-link" data-id="${esc(id)}">${esc(nodeById.get(id)?.label || id)}</a>`).join(' ');
-      $$('.path-chip', $('pathResult')).forEach((button) => button.addEventListener('click', () => renderEntry(button.dataset.id)));
+      $$('.path-chip', $('pathResult')).forEach((button) => button.addEventListener('click', (event) => { if (!plainLeftClick(event)) return; event.preventDefault(); renderEntry(button.dataset.id); }));
       $('mapDepth').value = 'path';
       mapFocus = from.id;
       mapSelectedEdge = null;
@@ -2121,3 +2145,5 @@
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', initConstellationControls);
   else initConstellationControls();
 })();
+
+/* 0.18 navigable map and link contract */

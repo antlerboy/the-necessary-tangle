@@ -1,209 +1,269 @@
 # AI observations
 
-Generated for release `0.17-public-intake-lineage-alpha` on 2026-08-19.
+Generated for release `0.18-navigable-tangle-alpha` on 2026-08-23.
 
-Measurements are derived from the current public graph and reading-list inventory; interpretations, implications and proposed tests are explicitly separated.
+Measurements come from the generated public graph. Interpretations concern this atlas and its current source and interface choices; they are not measurements of the field itself.
 
 ## Breadth still outruns depth
 
 **Kind:** measurement plus interpretation
 
-**Measurement:** The atlas has 565 public entries and 115 developed profiles. 20.4% of entries have the fuller profile structure.
+**Measurement:** The atlas has 633 public entries and 127 developed profiles.
 
-**Interpretation:** The atlas remains stronger as a territory marker than as a uniformly deep critical reference. A named entry and a developed account are different editorial products.
+**Interpretation:** A named entry and a developed critical account remain different editorial products.
 
-**Implication:** Depth work should follow contested bridge concepts, practitioner use and high-consequence ambiguities rather than raw entry counts.
+**Implication:** Depth work should follow contested bridges, practitioner use and consequential ambiguity rather than raw entry count.
 
-**Test:** The gap should narrow through sourced profiles and practice relations without pretending that every item deserves equal depth.
+**Test:** Track the share of public entries with developed profiles and sourced relations across several relation families.
 
-## Provenance and argument form different graphs
+## The atlas contains two graph regimes
 
-**Kind:** measurement plus design inference
+**Kind:** semantic measurement
 
-**Measurement:** There are 1510 typed public edges; 843 are conceptual, historical, human, practice or contestation relations. The substantive share is 55.8%.
+**Measurement:** The release contains 1547 typed records, of which the public graph snapshot counts 857 as substantive relations.
 
-**Interpretation:** Authorship, hosting and collection membership answer different questions from dependence, influence, critique and use. A dense provenance layer is not evidence of conceptual agreement.
+**Interpretation:** Documentary and classificatory structure helps retrieval, while substantive relations carry most of the explanatory burden.
 
-**Implication:** Layer controls and ordinary-language relation phrases should remain central to the interface.
+**Implication:** Interface density must not make a catalogue edge look equivalent to a historical, conceptual or practice claim.
 
-**Test:** Readers should be able to say which relation family they are viewing and what changed when they switch it.
+**Test:** Inspect a sample of map edges and confirm that the visible wording exposes relation type and evidence role.
 
-## Canonical sources have particular jobs
+## Expertise needs relations, not biography alone
 
-**Kind:** source-role analysis
+**Kind:** editorial observation
 
-**Measurement:** This release registers 15 sources for the Snowden-Cynefin constellation: 13 first-party project, author or publication records and 2 external publisher or public-institution records.
+**Measurement:** The named-coverage review separates developed, represented and research-queue states.
 
-**Interpretation:** A blog can establish what its author argued and when. A project wiki can establish current vocabulary. A publisher or institutional record can establish bibliographic facts. None of these roles automatically supplies independent evaluation of influence or effectiveness.
+**Interpretation:** A person's significance becomes useful in the atlas when their work, concepts, disagreements and practice consequences are connected explicitly.
 
-**Implication:** Every substantial statement should name both its source and the evidential job that source can reasonably do.
+**Implication:** Do not promote requested names to developed profiles merely because they are canonical or famous.
 
-**Test:** A reader should be able to distinguish definition, chronology, authorship, application and evaluation without relying on host prestige.
+**Test:** Check that each developed person profile has sourced work-level and concept-level relations rather than only a short biography.
 
-## Expertise becomes useful through inspectable constellations
+## A catalogue is not a critique
 
-**Kind:** release measurement plus editorial interpretation
+**Kind:** boundary observation
 
-**Measurement:** The Snowden-Cynefin pass adds 19 developed entries and 39 typed relations among people, works, frameworks, tools, traditions, organisations and source corpora.
+**Measurement:** Release 0.18 records all 32 terms in one published unFIX synthesis but marks the shared source and bounded status.
 
-**Interpretation:** A person page or a branded diagram says little by itself. Expertise becomes navigable when works, collaborators, distinctions, methods, institutions and practice relations remain separately inspectable.
+**Interpretation:** Enumerating a framework's vocabulary does not test its definitions, ancestry, omissions or internal tensions.
 
-**Implication:** Other practitioner profiles should be developed as evidence-backed constellations rather than biographies or title lists.
+**Implication:** Coverage pages should state whether a pass is inventory, interpretation, comparison or critique.
 
-**Test:** A reader should be able to enter through Dave Snowden, Cynefin, SenseMaker, a paper or the wiki and recover a coherent but non-identical route through the same evidence.
+**Test:** Confirm that the unFIX coverage page does not present the 32-item inventory as independent validation of the concepts.
 
-## First-party depth needs independent counterweight
+## Practice remains less connected than the canon
 
-**Kind:** source-composition measurement plus epistemic caution
+**Kind:** graph interpretation
 
-**Measurement:** 13 of the 15 newly registered sources are maintained by the author, project or organisation represented; 2 are external publisher or public-institution records.
+**Measurement:** The substantive graph leaves 184 public entries outside a substantive component.
 
-**Interpretation:** First-party sources are indispensable for current definitions, chronology and intent. They are structurally weak for adjudicating priority, influence, effectiveness and criticism of the same work.
+**Interpretation:** Bibliographic breadth grows more easily than warranted accounts of how ideas alter action in context.
 
-**Implication:** The next pass should add independent histories, comparative scholarship, evaluations and substantive criticism without replacing the primary record.
+**Implication:** Future depth passes should connect methods to cases, conditions, consequences and failure modes.
 
-**Test:** Claims about uptake, results or standing should cite evidence outside the represented organisation as well as its own account.
+**Test:** Review isolated and one-family entries by entity type, then prioritise practice-facing gaps with usable sources.
 
-## Cataloguing is not critical coverage
+## A single synthesis creates source monoculture
 
-**Kind:** inventory measurement plus epistemic caution
+**Kind:** source-quality observation
 
-**Measurement:** The graph contains 133 publications and 23 methods or methodologies, while 115 entries of all types have developed profiles.
+**Measurement:** The 32 unFIX concept records initially share one declared synthesis source, which itself describes AI-assisted preparation and subsequent human editing.
 
-**Interpretation:** Bibliographic presence establishes that a work belongs in scope. It does not establish the work's argument, influence, quality, limitations or relation to practice.
+**Interpretation:** Shared provenance is honest and useful for discovery, but it cannot establish 32 independent bodies of evidence.
 
-**Implication:** Coverage claims need explicit maturity levels: inventoried, described, developed, compared and critically reviewed.
+**Implication:** Concepts should acquire primary or authoritative sources individually before their claims become stronger.
 
-**Test:** Public coverage reports should state both structural inclusion and interpretive depth, never one aggregate percentage.
+**Test:** Count how many unFIX entries later gain distinct source records and whether their definitions change as a result.
 
-## Practice remains thinner than the method inventory
+## Identity resolution is substantive editorial work
 
-**Kind:** measurement plus curatorial inference
+**Kind:** information-quality observation
 
-**Measurement:** The isolate pattern remains concentrated among intervention skills, laws, tools, methods and publications rather than the small conceptual core.
+**Measurement:** Search aliases now include common short forms, surnames and known misspellings while canonical redirects preserve one public identity.
 
-**Interpretation:** Lists of methods and capabilities have accumulated faster than evidence about how they are taught, combined, resisted and changed in use.
+**Interpretation:** Search failure can masquerade as conceptual absence; careless aliasing can instead merge genuinely different people or ideas.
 
-**Implication:** Practice cases, project histories, teaching lineages and comparative method use should receive deliberate connection work.
+**Implication:** Aliases need explicit canonical targets and review, especially for surnames and near-homonyms.
 
-**Test:** The practice layer should develop multiple sourced routes between concepts, methods, settings, people and consequences.
+**Test:** Search for Donna and Donella Meadows, Russ and Russell Ackoff, surnames and common misspellings and verify the canonical result.
 
-## Auditability is not source diversity
+## A neighbourhood is a view, not a permanent fact
 
-**Kind:** measurement plus evidential risk
+**Kind:** map observation
 
-**Measurement:** The most reused source is ‘Foundational Papers in Complexity Science — official tables of contents’, attached to 800 public nodes or edges.
+**Measurement:** The constellation view computes direct and two-step orbits from the currently visible substantive graph.
 
-**Interpretation:** One source can establish repeated bibliographic facts without independently corroborating meanings, influence or quality. Reuse can look like consensus when it is only shared provenance.
+**Interpretation:** As evidence and relation types change, a person's apparent intellectual neighbourhood should change too.
 
-**Implication:** Primary works, publisher metadata, archives, reviews and critical accounts should be combined at the smallest supportable statement.
+**Implication:** Saved journeys may guide attention, but generated constellations should not be frozen into taxonomies.
 
-**Test:** Source concentration should fall for developed claims even where collection-level sources remain useful for inventory.
+**Test:** Add or remove a warranted bridge and confirm that the two-step constellation changes without manual recategorisation.
 
-## The people layer still carries identity-resolution debt
+## Bridge concepts hold the central component together
 
-**Kind:** measurement plus data-quality risk
+**Kind:** graph measurement plus interpretation
 
-**Measurement:** 108 of 191 people — 56.5% — are represented by initial-form labels.
+**Measurement:** The largest substantive component contains 330 public entries.
 
-**Interpretation:** Initials can record an authorship string but cannot guarantee a unique person. They invite duplicate records, mistaken mergers and false lineage claims.
+**Interpretation:** A small number of concepts and practices connect otherwise separate traditions, people and methods.
 
-**Implication:** Add full names, authority identifiers, affiliations and paper-level checks before deepening those records.
+**Implication:** Bridge entries deserve stronger definitions, competing interpretations and source diversity because errors there propagate widely.
 
-**Test:** No initial-only person should acquire interpretive or lineage edges without successful identity resolution.
+**Test:** Remove high-betweenness entries in a copy of the graph and inspect which traditions split apart.
 
-## Published neighbourhoods are hypotheses, not natural schools
-
-**Kind:** measurement plus model warning
-
-**Measurement:** Published neighbourhoods contain 77 unique nodes, while 383 nodes are now connected; 318 connected nodes sit outside the older grouping pass.
-
-**Interpretation:** A cluster is produced by current edges, exclusions, resolution and seed. It should not be mistaken for a discovered natural taxonomy.
-
-**Implication:** Recompute neighbourhoods when the substantive graph changes materially and preserve the method and change record.
-
-**Test:** Readers should be able to inspect why entries share a neighbourhood and when that assignment changed.
-
-## Bridge concepts deserve disproportionate scrutiny
-
-**Kind:** network measurement plus editorial inference
-
-**Measurement:** Feedback, recursion, boundary, viability, requisite variety, the Viable System Model and now context-sensitive sense-making continue to join otherwise separate parts of the atlas.
-
-**Interpretation:** A bridge entry shapes many possible reading routes. Loose wording there propagates farther than a weakness in a peripheral record.
-
-**Implication:** Bridge entries need rival definitions, scope conditions, primary sources and practice examples before they are used as navigation hubs.
-
-**Test:** Alternative routes and counter-accounts should reduce dependence on any one bridge without hiding genuine centrality.
-
-## The gaps map curatorial attention as much as the field
+## The map is also a map of editorial attention
 
 **Kind:** second-order observation
 
-**Measurement:** 182 entries are isolated in the substantive graph, while the largest substantive component contains 325 entries.
+**Measurement:** Release 0.18 contains 184 substantively isolated public entries alongside a largest component of 330.
 
-**Interpretation:** Isolation often records missing source work, relation vocabulary or research attention; it does not show that an idea is naturally peripheral.
+**Interpretation:** Graph position reflects available sources, curation choices and past questions as well as the intellectual field itself.
 
-**Implication:** Treat isolates as hypotheses about missing work and test them with sources from different traditions.
+**Implication:** Centrality must never be presented as a neutral measure of importance.
 
-**Test:** A broader and more varied source programme should alter which entries appear central, peripheral or absent.
+**Test:** Compare centrality with the release history and source programmes to identify where editorial effort created apparent prominence.
 
-## Structured data reduces ambiguity but does not remove overreading
+## Automation readily overreads weak evidence
 
-**Kind:** data-model observation
+**Kind:** publication-safety observation
 
-**Measurement:** The atlas records typed relations, status, source IDs and scope conditions, while source granularity and profile depth still vary sharply.
+**Measurement:** This release keeps source roles, claim status and open research programmes visible while using scripts to generate and validate the site.
 
-**Interpretation:** Explicit semantics reduce the tendency to collapse every connection into ‘related to’. They cannot stop a reader or automated system from turning inventory into influence or provisional wording into settled fact.
+**Interpretation:** Automation is good at consistency and propagation; it is also good at propagating an unjustified inference everywhere at once.
 
-**Implication:** Any generated account should expose the entries, relation types and sources used and state when the graph is silent or contested.
+**Implication:** Generated breadth needs adversarial checks, source boundaries and explicit stop conditions.
 
-**Test:** Outputs should become more qualified, not more fluent, when evidence is thin or contradictory.
+**Test:** Trace a sample of generated relations back to locators and verify that no discovery source has silently become evidence for a stronger claim.
 
-## Reading-list inventory and interpretive depth are different measures
+## Presence is not depth
 
-**Kind:** coverage measurement plus epistemic caution
+**Kind:** coverage-state observation
 
-**Measurement:** The captured reading list contains 110 items: 29 map to developed profiles, 1 are represented more thinly, and 80 remain inventory-only.
+**Measurement:** Requested names are published as developed, represented or research-queue entries rather than being forced into one apparent level of completeness.
 
-**Interpretation:** A complete inventory is useful because it makes omissions measurable. It is not the same thing as having read, compared and critically developed every work.
+**Interpretation:** A searchable name is an index achievement, not evidence that the atlas explains the person's work, lineage or disputes.
 
-**Implication:** Continue converting inventory-only items into sourced profiles by section and competence relevance, while keeping the maturity state visible.
+**Implication:** Prominence should follow sourced relational depth rather than the fact that a name win this release.
 
-**Test:** No public coverage claim should collapse inventory, description, developed profile and critical comparison into one percentage.
+**Test:** Confirm that research-queue entries do not appear as developed profiles or acquire unsupported influence claims.
 
-## Lineage documentation is part of field infrastructure
+## Source duplication hides claim compression
 
-**Kind:** source-structure interpretation
+**Kind:** source-boundary observation
 
-**Measurement:** The David Ing pass adds 9 developed entries spanning person, corpora, approaches, publication and documentary practice.
+**Measurement:** Linda Booth Sweeney's author profile, official site and award record are stored as distinct source roles rather than duplicate records for one URL.
 
-**Interpretation:** A field is reproduced not only through canonical texts but through courses, conferences, collaborations, archives and remembered routes between them. Ing’s public record makes much of that infrastructure inspectable.
+**Interpretation:** One page may support several claims, but cloning it as several sources overstates independence and obscures what each citation does.
 
-**Implication:** Treat documentary lineages as evidence objects with claim strength, not as decorative biographies.
+**Implication:** Source records should identify a distinct public route and a bounded evidential use.
 
-**Test:** A lineage edge should say whether it records contact, citation, teaching, collaboration or stronger conceptual influence.
+**Test:** Check for duplicate URLs and inspect whether each Sweeney relation cites the source that actually supports it.
 
-## Core systems practice is not four branded tools
+## Unfinished corpus work belongs in the public model
 
-**Kind:** competence-structure interpretation
+**Kind:** programme-boundary observation
 
-**Measurement:** The professional spine connects systems concepts and laws, four widely named approaches (CSH, SSM, System Dynamics and VSM), multi-methodology, modelling, intervention, engagement and reflexive practice.
+**Measurement:** Monoskop, Foundational Papers in Complexity Science, SysCoI/model.report, the reading list and company-knowledge discovery remain separately named open programmes.
 
-**Interpretation:** Method familiarity is necessary but insufficient. Practice lies partly in deciding what to model, whose boundaries matter, how approaches can be combined, and how action changes the situation and the practitioner.
+**Interpretation:** A bounded pass can be complete while the wider field remains unfinished; conflating the scales turns project management into an epistemic claim.
 
-**Implication:** Coverage of methods should be paired with cases, intervention skills and reflections on scope, power, ethics and learning.
+**Implication:** Each future pass needs a stated corpus, method, stop condition and visible residual queue.
 
-**Test:** A reader following a method entry should be able to reach both its conceptual basis and its intervention consequences.
+**Test:** Check that release notes state what was examined and leave the remainder visible rather than calling the whole programme complete.
 
-## Interface and source attention can manufacture apparent centrality
+## Canonical sources have jobs
+
+**Kind:** source-role observation
+
+**Measurement:** The canonical source register distinguishes author archives, official organisations, primary works, publisher records and independent counterweights.
+
+**Interpretation:** Calling a source canonical does not make it universally authoritative; it identifies the job for which it is the preferred route.
+
+**Implication:** Each source record should state what it can establish and what it cannot.
+
+**Test:** Sample canonical sources and verify that their registered use matches the claims that cite them.
+
+## First-party sources need counterweight
+
+**Kind:** source-balance observation
+
+**Measurement:** Many profiles begin with author, institutional or publisher sources because these best establish names, dates, declared concepts and official lineages.
+
+**Interpretation:** First-party evidence is indispensable for self-description but weak for criticism, contested influence and assessment of consequences.
+
+**Implication:** Developed entries should add independent scholarship or practitioner evidence where interpretation matters.
+
+**Test:** Review high-connectivity profiles and identify claims resting only on the subject's own account.
+
+## A reading-list item is not yet a reading
+
+**Kind:** coverage observation
+
+**Measurement:** The reading-list inventory distinguishes developed profiles, represented items and inventory-only records.
+
+**Interpretation:** Bibliographic presence records attention and intent; it does not imply that a work has been critically read into the atlas.
+
+**Implication:** Item-level status must remain visible and the wider reading-list programme must stay explicitly partial.
+
+**Test:** Check that inventory-only works do not inherit summaries or relations from title similarity alone.
+
+## Lineage needs infrastructure
+
+**Kind:** historical observation
+
+**Measurement:** The David Ing and systems-in-plural routes connect people, publications, traditions and institutional settings rather than treating a lineage as a list of names.
+
+**Interpretation:** Intellectual transmission happens through teaching, collaboration, organisations, conferences and practice as well as citation.
+
+**Implication:** Lineage work should model carriers and settings alongside conceptual influence.
+
+**Test:** Inspect a lineage journey and confirm that it includes at least one institutional or practice-bearing connection.
+
+## Core systems practice is not four tools
+
+**Kind:** practice-boundary observation
+
+**Measurement:** The core practice spine holds several approaches together without collapsing them into a single method sequence.
+
+**Interpretation:** A compact orientation can aid action while still preserving different purposes, assumptions and forms of evidence.
+
+**Implication:** Guided routes should expose choice and boundary conditions rather than imply one universal workflow.
+
+**Test:** Check whether a reader can see why two adjacent approaches would lead to different interventions in the same situation.
+
+## Attention is not importance
 
 **Kind:** second-order observation
 
-**Measurement:** The atlas now has 565 public entries and 115 developed profiles, so navigation and research depth still select a small fraction for prominent treatment.
+**Measurement:** Reading lists, submitted tickets and available corpora shape which people and ideas receive depth first.
 
-**Interpretation:** Prominence can arise because a source corpus is unusually accessible or recently researched. That is not the same as importance in the field.
+**Interpretation:** Editorial attention creates visibility and connectivity; neither is a neutral ranking of intellectual worth.
 
-**Implication:** Keep homepage routes plural, rotate research programmes and inspect source concentration before treating graph centrality as intellectual centrality.
+**Implication:** Coverage decisions and unreviewed queues should remain visible beside graph measures.
 
-**Test:** Changing the research corpus and interface defaults should not radically rewrite the apparent canon without an explicit change record.
+**Test:** Compare highly connected entries with the release history and ask whether prominence follows evidence, prior attention or both.
+
+## Navigation changes what appears important
+
+**Kind:** interface measurement plus epistemic interpretation
+
+**Measurement:** The release gives every entry a full reading surface and a constellation view with one selected centre, direct relations and two-step relations.
+
+**Interpretation:** A centre selected for a question is not the centre of the field. Interface focus and graph degree can manufacture apparent importance.
+
+**Implication:** The map treats the selected entry as a temporary star and its orbits as question-relative positions.
+
+**Test:** Change the selected entry and layer; the constellation should reorganise without presenting the new centre as canonically primary.
+
+## Links are commitments about possible movement
+
+**Kind:** interaction-design observation
+
+**Measurement:** Navigational cards, search suggestions, surprise routes, map nodes, map connections and entry actions expose stable destinations.
+
+**Interpretation:** A control which looks like a link but cannot be copied, opened in a new tab or inspected conceals the structure of the atlas.
+
+**Implication:** Navigation uses links; buttons are reserved for actions whose result cannot sensibly exist as a URL.
+
+**Test:** Right-click or modified-click each navigational surface and confirm that its destination remains coherent in a separate tab.

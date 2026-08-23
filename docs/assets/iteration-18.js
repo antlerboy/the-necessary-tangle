@@ -181,7 +181,7 @@
     }
     nodeGroups.forEach((group) => {
       const distance = distances.get(canonical(group.dataset.id));
-      group.dataset.orbit = distance === 0 ? 'core' : distance === 1 ? 'inner' : 'outer';
+      group.setAttribute('data-orbit', distance === 0 ? 'core' : distance === 1 ? 'inner' : 'outer');
     });
 
     const toolbar = document.querySelector('.map-canvas-toolbar');

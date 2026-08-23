@@ -56,9 +56,9 @@ def main() -> int:
     edges = data.get("edges", [])
     relation_types = {item.get("relation_type") for item in data.get("relation_types", [])}
 
-    if meta.get("release") not in {RELEASE, "0.17-public-intake-lineage-alpha"}:
+    if meta.get("release") not in {RELEASE, "0.17-public-intake-lineage-alpha", "0.18-navigable-tangle-alpha"}:
         errors.append(f"meta.release must preserve 0.16 or identify the 0.17 successor")
-    if meta.get("generated") not in {GENERATED, "2026-08-19"}:
+    if meta.get("generated") not in {GENERATED, "2026-08-19", "2026-08-23"}:
         errors.append("meta.generated must identify the 0.16 build or its 0.17 successor")
     if meta.get("project_url") != PUBLIC_URL:
         errors.append("custom public URL is not canonical in release metadata")
@@ -178,9 +178,9 @@ def main() -> int:
         "documentation/relational-depth.md",
         'id="browseConnectionDepth"',
         'id="relationalDepthMetrics"',
-        "assets/styles.css?v=0.17.0-public",
-        "assets/site-enhancements.css?v=0.17.0-public",
-        "assets/app.js?v=0.17.0-public",
+        "assets/styles.css?v=0.18.0-public",
+        "assets/site-enhancements.css?v=0.18.0-public",
+        "assets/app.js?v=0.18.0-public",
     ):
         if marker not in index:
             errors.append(f"0.16 interface marker is missing: {marker}")

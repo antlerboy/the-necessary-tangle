@@ -1,80 +1,27 @@
 # Tangle state
 
-Last verified: 2026-08-15
+Last verified: 23 August 2026
 
-Current release: `0.16-grammar-connections-presentation-alpha`
+## Public release
 
-Public site: <https://transduction.systems/>
-
-Quality snapshot generated: 2026-08-14
-
-This is the concise restart point for implementation work. It records current
-facts, not aspirations. Detailed rationale remains in the linked documents.
+- Release: `0.18-navigable-tangle-alpha`
+- Public site: https://transduction.systems/
+- Canonical dataset: `data/public-data.json`
+- Machine relationship snapshot: `data/relationship-quality.json`
+- Public reader dataset: `docs/assets/public-data.json`
+- Public knowledge index: `documentation/public-knowledge.md`
+- unFIX comparator concepts resolved: 32
 
 ## Current shape
 
-The Necessary Tangle is a public, static, versioned multiplex evidence graph of
-systems | cybernetics | complexity. It is not a taxonomy, encyclopaedia, reading
-list, social graph or decorative network, although it offers views with some of
-those forms.
+Release 0.18 makes the public atlas easier to read and traverse. Entries now use a full reading surface, their typed connections appear near the definition, the map is larger and pannable from the whole canvas, and a two-step constellation view distinguishes the selected entry, direct relations and two-step context.
 
-The current machine-readable quality snapshot reports:
+The release also records the source-backed Linda Booth Sweeney updates, maps the 32 concepts in Jurgen Appelo's published unFIX synthesis, and publishes honest coverage states for the figures and institutions requested after 0.17. A named item may be developed, represented, or held in a research queue; presence is not presented as depth.
 
-| Measure | Current |
-| --- | ---: |
-| Canonical public entries | 565 |
-| All graph nodes | 675 |
-| Typed edges | 1,809 |
-| Sources | 195 |
-| Developed profiles | 115 |
-| Guided journeys | 20 |
-| Reader-connected entries | 555 |
-| Semantically connected entries | 382 |
-| Semantic-gap entries | 183 |
-| Thin or unconnected entries | 274 |
+## Current limits
 
-The authoritative machine result is `data/relationship-quality.json`. If these
-figures change, update this summary in the same reviewed change.
+The atlas remains a bounded public evidence graph, not an exhaustive map of systems, cybernetics and complexity. The Monoskop archive, Foundational Papers in Complexity Science, SysCoI/model.report, the RedQuadrant reading list and company-knowledge discovery remain continuing programmes. Their boundaries and unfinished work stay visible.
 
-## What is working
+## Release controls
 
-- Typed, inspectable statements with direction, relation family, status, sources
-  and evidence fields.
-- Search, readable entries, guided journeys, path finding and question-sized map
-  views.
-- Static reproducible publication with extensive data and interface validation.
-- A strong restrained visual foundation and a protected bottom-right ‘Open
-  updates’ magic dot.
-- Explicit public contribution, challenge and human review routes.
-
-## Current priority gap
-
-The principal mismatch is evidential depth rather than breadth. Documentary
-connectivity can mask weak semantic connection; locators and rationales remain
-uneven; many people and publications have only one relation family. The live gap
-register identifies `R1`, `R2`, `R4`, `C1` and `P1` as the highest-priority
-relationship and provenance gaps.
-
-Do not infer that the first item in an automatically generated queue is therefore
-the next editorial priority. Human selection of a bounded cohort is required.
-
-## Authoritative references
-
-- Non-negotiable rules: `documentation/DESIGN_AND_CONTENT_RULES.md`
-- Current authorised packet: `documentation/NEXT_WORK.md`
-- Cost-conscious execution: `documentation/WORK_PROTOCOL.md`
-- Recovered specification: `documentation/original-vision-audit.md`
-- Measured gaps: `docs/spec-gap-register.md`
-- Source boundary: `documentation/source-policy.md`
-- Publication gate: `documentation/publication-standards.md`
-- Visual audit: `documentation/experience-visual-audit.md`
-
-## Build and verification
-
-```bash
-make validate
-make serve
-```
-
-`make validate` is necessary but not sufficient for reader-facing work. Inspect
-the affected path at desktop and mobile widths before requesting human review.
+Run `make validate` before publication. It rebuilds the full historical release chain, validates the operating spine, graph, evidence, reader assets and JavaScript, then applies the 0.18-specific checks.

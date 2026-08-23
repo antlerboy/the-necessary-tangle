@@ -1,73 +1,40 @@
 # Next work
 
-Status: **Awaiting curator selection — no implementation packet is active.**
-
-This file is the single gate for the next AI-assisted change. Replace the holding
-packet below with one completed work packet, obtain human agreement, and only then
-begin implementation. Use `documentation/WORK_TICKET_TEMPLATE.md`.
+Status: release 0.18 is complete. No production change is authorised without a new ticket.
 
 ## Outcome
 
-Select one bounded outcome from the measured gaps and express it as an acceptance-
-tested packet. Selection itself is the next decision; it does not authorise data,
-interface or publication changes.
-
-## Why now
-
-The repository has a working atlas and broad validation. The highest-value next
-move depends on editorial priority among evidence depth (`R1`/`C1`), locator
-precision (`R2`/`P1`), route diversity (`R4`) and a flagship view. Automatically
-choosing the largest queue would substitute a metric for judgement.
+Keep the atlas useful as a tangle of warranted connections rather than letting breadth, novelty or interface work outrun source quality and reader comprehension.
 
 ## In scope
 
-- Choose one gap or one coherent, bounded cohort.
-- Name the affected files and the evidence set.
-- Define a reader-visible or machine-verifiable completion condition.
-- Select the cheapest capable execution model.
+- review live feedback and submitted tickets after 0.18;
+- deepen entries currently marked `research_queue` or `represented` when public sources justify it;
+- continue the named long-running corpus programmes as separately bounded passes;
+- test the full-page reader, map panning, constellation scale, real-link behaviour and mobile layout with actual readers;
+- correct broken or misleading source routes as they are found.
 
 ## Out of scope
 
-- Implementing any candidate route before selection.
-- Graph-wide enrichment, whole-corpus research or visual redesign.
-- Combining data enrichment and a new flagship view in one packet.
-- Publication or merge without human review.
-
-## Named files or areas
-
-- `docs/spec-gap-register.md`
-- `data/relationship-quality.json`
-- `documentation/original-vision-audit.md`
-- `documentation/WORK_TICKET_TEMPLATE.md`
-
-No production data or interface file is authorised by this holding packet.
-
-## Sources
-
-Use only the current measured gaps and the recovered specification for selection.
-Fresh web research is not required until a specific evidence cohort is approved.
+- claiming exhaustive coverage of systems, cybernetics or complexity;
+- bulk-generating biographies or relationships from names alone;
+- merging inferred similarity with source-backed influence or lineage;
+- hiding thin coverage behind visual density;
+- redesigning away the cream, red, black and magic-dot identity without an explicit ticket.
 
 ## Acceptance checks
 
-- [ ] The chosen packet has exactly one outcome and one primary deliverable.
-- [ ] In-scope and out-of-scope boundaries are explicit.
-- [ ] Named files, source limits and verification commands are stated.
-- [ ] Stop conditions and the human review point are stated.
-- [ ] The model route is justified by task difficulty rather than availability.
+- one primary reader outcome per ticket;
+- source-backed claims retain source identifiers and meaningful locators;
+- new public entries expose typed connections or an honest thin/research state;
+- ordinary navigational controls are genuine links where the destination can be represented by a URL;
+- `make validate` passes on the complete generated release;
+- the public deployment is checked at https://transduction.systems/ after merge.
 
 ## Stop conditions
 
-Stop after producing the agreed packet. Do not implement it in the same turn unless
-the curator explicitly asks for both specification and implementation.
+Stop a pass when its stated corpus, names or interaction path has been checked, the acceptance tests pass and the remaining work would require a new evidence search or a different reader outcome. Do not turn a bounded pass into an unreviewed overnight expansion.
 
 ## Model route
 
-Use Chat or Luna for this mechanical shaping step. Escalate to Terra only if the
-choice requires substantive repository analysis. Sol is not justified for filling
-in the packet template alone.
-
-## Durable update
-
-When the curator selects the work, replace this holding content with the active
-packet. After completion, record the result in the relevant audit or release note
-and restore this file to a truthful next-decision state.
+Use Luna for lightweight extraction and routine checks, Terra for bounded research and implementation, and Sol for architecture, adversarial review or disputed synthesis. Keep research and build work in separate contexts when the source set or claim boundary is material.

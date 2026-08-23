@@ -1,7 +1,7 @@
 # The Necessary Tangle: public knowledge file
 
 Curated by Benjamin P Taylor — https://www.antlerboy.com/
-Generated from public release 0.17-public-intake-lineage-alpha on 2026-08-19.
+Generated from public release 0.18-navigable-tangle-alpha on 2026-08-23.
 
 A living evidence atlas of systems | cybernetics | complexity.
 Every connection must say what it means. Historical sequence, logical dependence, influence, teaching, collaboration, practical use, comparison and dispute are not interchangeable.
@@ -11,6 +11,61 @@ Use this file as orientation and public source context, not as final scholarly c
 ## Public source policy
 
 Every URL in this file is public. Published books and archive items without an open web copy are marked ‘No public link’. Private email, internal documents and company-system URLs are not included.
+
+## 32 Key Concepts in Systems Thinking and Complexity Theory
+
+Type: Publication
+Public depth: profile
+
+The unFIX 32-concept synthesis is a public comparator: it offers a broad route into familiar systems and complexity terms while making its AI-assisted production method explicit.
+
+### Summary
+
+The unFIX 32-concept synthesis is a public comparator: it offers a broad route into familiar systems and complexity terms while making its AI-assisted production method explicit.
+
+### Why it matters
+
+It is useful for testing atlas coverage and search language. It is not evidence that the selected concepts, definitions or prevalence scores form a settled canon.
+
+### Key distinctions
+
+- Inclusion in the list is documentary evidence about the unFIX synthesis, not independent evidence of intellectual importance.
+- The systems-thinking/complexity scores are editorial and AI-assisted estimates, not measurements of a defined literature corpus.
+
+### Historical development
+
+- management and organisation design
+- AI-assisted synthesis
+- systems and complexity popularisation
+
+### Ideas it depends on
+
+- systems thinking
+- complexity theory
+- public discourse synthesis
+
+### What develops from it
+
+- coverage audit
+- search aliases
+- comparison with a typed evidence graph
+
+### Connections to practice
+
+- orientation for readers
+- comparison of concept coverage
+
+### Common confusions
+
+- A colourful map is not automatically a genealogy, taxonomy or source-backed relation graph.
+
+### Open questions and checks
+
+- Retain disagreement about labels and placement; do not copy the list's boundary as the atlas boundary.
+
+### Sources
+
+- 32 Key Concepts in Systems Thinking and Complexity Theory — https://unfix.com/blog/32-key-concepts
 
 ## A Formal Theory of Inductive Inference, Part 1
 
@@ -393,6 +448,28 @@ Mathematician whose 1936 paper formalised computability through the machine now 
 - SCiO SysBoK - Recursion v1 — No public link
 - On Computable Numbers, with an Application to the Entscheidungsproblem — https://doi.org/10.1112/plms/s2-42.1.230
 
+## Alasdair MacIntyre
+
+Type: Person
+Public depth: research stub
+
+Named in the public 0.18 coverage audit. A source-specific profile and typed lineage remain required before stronger claims are made about Alasdair MacIntyre.
+
+### Sources
+
+- Running feedback after release 0.17 — https://github.com/antlerboy/the-necessary-tangle/issues/2
+
+## Albert-László Barabási
+
+Type: Person
+Public depth: research stub
+
+Named in the public 0.18 coverage audit. A source-specific profile and typed lineage remain required before stronger claims are made about Albert-László Barabási.
+
+### Sources
+
+- Running feedback after release 0.17 — https://github.com/antlerboy/the-necessary-tangle/issues/2
+
 ## Alessandro Rancati
 
 Type: Person
@@ -504,6 +581,17 @@ His co-authorship is part of the book's intellectual and practical provenance an
 ### Sources
 
 - Organizational Systems: Managing Complexity with the Viable System Model — https://link.springer.com/book/10.1007/978-3-642-19109-1
+
+## Anatol Rapoport
+
+Type: Person
+Public depth: research stub
+
+Named in the public 0.18 coverage audit. A source-specific profile and typed lineage remain required before stronger claims are made about Anatol Rapoport.
+
+### Sources
+
+- Running feedback after release 0.17 — https://github.com/antlerboy/the-necessary-tangle/issues/2
 
 ## Anthro-complexity
 
@@ -687,6 +775,17 @@ Community practice that starts from local assets, relationships and capacities w
 
 - Interview with Damian Allen on systems practice in Doncaster — No public link
 - The Four Essential Elements of an Asset-Based Community Development Process — https://resources.depaul.edu/abcd-institute/publications/publications-by-topic/Documents/4_Essential_Elements_of_ABCD_Process.pdf
+
+## Attractor
+
+Type: Concept
+Public depth: described
+
+A state or pattern towards which a dynamical system tends over time.
+
+### Sources
+
+- 32 Key Concepts in Systems Thinking and Complexity Theory — https://unfix.com/blog/32-key-concepts
 
 ## Authorizing environment
 
@@ -908,7 +1007,7 @@ A behaviour-over-time graph sketches how one or more variables change across a c
 Type: Person
 Public depth: described
 
-Philosopher and public intellectual appearing by name in Damian's self-authored philosophy lineage strand and timeline.
+Philosopher and public intellectual appearing by name in Damian Allen's self-authored philosophy lineage strand and timeline.
 
 ### Sources
 
@@ -919,7 +1018,7 @@ Philosopher and public intellectual appearing by name in Damian's self-authored 
 Type: Person
 Public depth: described
 
-Author of Three Horizons: The Patterning of Hope and a named source in Damian's futures-practice lineage.
+Author of Three Horizons: The Patterning of Hope and a named source in Damian Allen's futures-practice lineage.
 
 ### Sources
 
@@ -1140,7 +1239,7 @@ It is a useful antidote to method fundamentalism. It also imposes work: the boun
 Type: Person
 Public depth: described
 
-Complexity researcher at Manchester Metropolitan University's Centre for Policy Modelling; a probable normalization of Damian's recollection 'Bruce Edwards'.
+Complexity researcher at Manchester Metropolitan University's Centre for Policy Modelling; a probable normalization of Damian Allen's recollection 'Bruce Edwards'.
 
 ### Sources
 
@@ -1225,6 +1324,17 @@ A bibliographic first-pass person entry for C. Tang, listed by the official Foun
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
 
+## C. West Churchman
+
+Type: Person
+Public depth: research stub
+
+Named in the public 0.18 coverage audit. A source-specific profile and typed lineage remain required before stronger claims are made about C. West Churchman.
+
+### Sources
+
+- Running feedback after release 0.17 — https://github.com/antlerboy/the-necessary-tangle/issues/2
+
 ## Canalization of Development and the Inheritance of Acquired Characters
 
 Type: Publication
@@ -1307,6 +1417,17 @@ E. B. W. Zubrow, ‘Carrying Capacity and Dynamic Equilibrium in the Prehistoric
 ### Sources
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## Causal loop diagrams
+
+Type: Concept
+Public depth: described
+
+In Jurgen Appelo's unFIX synthesis, causal loop diagrams are visual models of reinforcing and balancing feedback among variables. This entry records inclusion in that synthesis and does not claim an exhaustive account of the method or its history.
+
+### Sources
+
+- 32 Key Concepts in Systems Thinking and Complexity Theory — https://unfix.com/blog/32-key-concepts
 
 ## Centre for Systems Studies
 
@@ -1424,12 +1545,13 @@ The atlas is much stronger on formal and cybernetic concepts than on the difficu
 Type: Practice
 Public depth: described
 
-An economy-oriented practice strand that Damian places alongside regenerative thinking without treating circularity and regeneration as synonyms.
+An economy-oriented practice strand that Damian Allen places alongside regenerative thinking without treating circularity and regeneration as synonyms.
 
 ### Sources
 
 - Damian Allen follow-up correspondence on lineage and UTSI — No public link
 - Designing Regenerative Cultures — https://www.triarchypress.net/drc.html
+- Do Bees Pee? — https://www.lindaboothsweeney.com/
 
 ## Claude Bernard
 
@@ -1630,7 +1752,7 @@ D. Watts and S. Strogatz, ‘Collective Dynamics of ‘Small-World’ Networks�
 Type: Concept
 Public depth: described
 
-Study of interacting populations and ecological communities, appearing in Damian's MSc Environment strand.
+Study of interacting populations and ecological communities, appearing in Damian Allen's MSc Environment strand.
 
 ### Sources
 
@@ -1781,7 +1903,7 @@ Complexity concerns the variety, interaction, interdependence and change that ma
 Type: Publication
 Public depth: described
 
-Robert Geyer's book on complexity and public policy, relevant to Damian's early public-service complexity collaboration.
+Robert Geyer's book on complexity and public policy, relevant to Damian Allen's early public-service complexity collaboration.
 
 ### Sources
 
@@ -1806,7 +1928,7 @@ The Complexity Instability Principle says that systems with too many active or c
 Type: Tradition
 Public depth: described
 
-A lineage strand connecting Santa Fe, agent models and public-service complexity in Damian's account.
+A lineage strand connecting Santa Fe, agent models and public-service complexity in Damian Allen's account.
 
 ### Sources
 
@@ -1968,7 +2090,7 @@ R. E. Kálmán, ‘Contributions to the Theory of Optimal Control’ (1960); ite
 Type: Concept
 Public depth: described
 
-Damian's term for a public-service settlement organized around contribution, reciprocity and pay-it-forward relations rather than transaction alone.
+Damian Allen's term for a public-service settlement organized around contribution, reciprocity and pay-it-forward relations rather than transaction alone.
 
 ### Sources
 
@@ -2072,7 +2194,7 @@ A practitioner can know a method and still lack systemic practice. The occupatio
 Type: Person
 Public depth: described
 
-Asset-Based Community Development practitioner and co-author named in Damian's Doncaster practice lineage and public-service account.
+Asset-Based Community Development practitioner and co-author named in Damian Allen's Doncaster practice lineage and public-service account.
 
 ### Sources
 
@@ -2733,7 +2855,7 @@ It connects systems knowledge to conduct: observation, humility, learning, infor
 Type: Person
 Public depth: described
 
-Author and regenerative-cultures practitioner named by Damian as an influence and collaborator.
+Author and regenerative-cultures practitioner named by Damian Allen as an influence and collaborator.
 
 ### Sources
 
@@ -3067,7 +3189,7 @@ Deming's management approach joins appreciation for a system, knowledge of varia
 Type: Practice
 Public depth: described
 
-A human-centred, prototyping-oriented practice strand in Damian's lineage diagram, connecting inquiry with bounded experimentation and adaptation.
+A human-centred, prototyping-oriented practice strand in Damian Allen's lineage diagram, connecting inquiry with bounded experimentation and adaptation.
 
 ### Sources
 
@@ -3078,7 +3200,7 @@ A human-centred, prototyping-oriented practice strand in Damian's lineage diagra
 Type: Publication
 Public depth: profile
 
-Daniel Christian Wahl's book on regenerative design and cultural change, explicitly named in Damian's lineage.
+Daniel Christian Wahl's book on regenerative design and cultural change, explicitly named in Damian Allen's lineage.
 
 ### Sources
 
@@ -3262,6 +3384,58 @@ It can increase contextual variety and reduce some analyst-imposed categories, w
 - SenseMaker — The Cynefin Company — https://thecynefin.co/sensemaker/
 - Dave Snowden — The Cynefin Company profile — https://thecynefin.co/team/dave-snowden/
 
+## Do Bees Pee?
+
+Type: Publication
+Public depth: profile
+
+Do Bees Pee? uses questions about animal waste and ecological reuse to introduce closed-loop processes and circular-economy thinking.
+
+### Summary
+
+Do Bees Pee? uses questions about animal waste and ecological reuse to introduce closed-loop processes and circular-economy thinking.
+
+### Why it matters
+
+It extends Booth Sweeney's systems-literacy work into the material cycles through which one organism's output becomes another process's resource.
+
+### Key distinctions
+
+- The June 2026 publication fact and framing are established by the author's current publication notice.
+
+### Historical development
+
+- children's science communication
+- ecological cycles
+- circular economy
+
+### Ideas it depends on
+
+- material cycles
+- interdependence
+- waste as resource
+
+### What develops from it
+
+- systems literacy for younger readers
+
+### Connections to practice
+
+- question-led learning
+- circular-economy education
+
+### Common confusions
+
+- A closed loop is a useful model, not a claim that material systems have no losses or externalities.
+
+### Open questions and checks
+
+- Add the publisher record and independent reviews after publication where available.
+
+### Sources
+
+- Do Bees Pee? — https://www.lindaboothsweeney.com/
+
 ## Doncaster Thrive
 
 Type: Practice
@@ -3271,7 +3445,7 @@ A place-based way of working in Doncaster combining relational public services, 
 
 ### Summary
 
-The council describes Thrive as how it works, not a standalone programme. Damian connects it to HLS, ABCD, localities, organizational learning, Three Horizons, small bets and regenerative practice.
+The council describes Thrive as how it works, not a standalone programme. Damian Allen connects it to HLS, ABCD, localities, organizational learning, Three Horizons, small bets and regenerative practice.
 
 ### Why it matters
 
@@ -3422,6 +3596,17 @@ Double-loop learning changes not only an action but the governing assumptions, v
 
 - SCiO SysBoK - Feedback v1 — No public link
 
+## Dynamic complexity
+
+Type: Concept
+Public depth: described
+
+In Jurgen Appelo's unFIX synthesis, dynamic complexity arises when causes and effects are separated in time or space and feedback makes consequences difficult to infer. This entry records inclusion in that synthesis rather than a complete theoretical treatment.
+
+### Sources
+
+- 32 Key Concepts in Systems Thinking and Complexity Theory — https://unfix.com/blog/32-key-concepts
+
 ## Dynamic Models of Segregation
 
 Type: Publication
@@ -3505,7 +3690,7 @@ A bibliographic first-pass person entry for E. T. Jaynes, listed by the official
 Type: Concept
 Public depth: described
 
-Bronfenbrenner's account of development across nested environmental systems; Damian explicitly names it.
+Bronfenbrenner's account of development across nested environmental systems; Damian Allen explicitly names it.
 
 ### Sources
 
@@ -3522,6 +3707,28 @@ A governance practitioner and co-author of The Hidden Power of Systems Thinking,
 ### Sources
 
 - The Hidden Power of Systems Thinking: Governance in a Climate Emergency — https://www.routledge.com/The-Hidden-Power-of-Systems-Thinking-Governance-in-a-Climate-Emergency/Ison-Straw/p/book/9781138493995
+
+## Edgar Morin
+
+Type: Person
+Public depth: research stub
+
+Named in the public 0.18 coverage audit. A source-specific profile and typed lineage remain required before stronger claims are made about Edgar Morin.
+
+### Sources
+
+- Running feedback after release 0.17 — https://github.com/antlerboy/the-necessary-tangle/issues/2
+
+## Edge of chaos
+
+Type: Concept
+Public depth: described
+
+A contested metaphor and hypothesis concerning adaptive behaviour near a transition between ordered and disordered dynamics.
+
+### Sources
+
+- 32 Key Concepts in Systems Thinking and Complexity Theory — https://unfix.com/blog/32-key-concepts
 
 ## Eilhard von Domarus
 
@@ -3938,7 +4145,7 @@ An evolutionary approach to cybernetics concerned with how new levels of control
 Type: Tradition
 Public depth: described
 
-Damian's early ecology strand, grounded in zoology, population dynamics and evolving organism–environment relations.
+Damian Allen's early ecology strand, grounded in zoology, population dynamics and evolving organism–environment relations.
 
 ### Sources
 
@@ -4274,6 +4481,17 @@ The First Circular Causality Principle concerns positive feedback. Mutually ampl
 - The Grammar of Systems II: From Order to Chaos and Back Again, 2nd edition — https://www.systemspractice.org/resources/grammar-systems-ii-order-chaos-back-again-2nd-ed
 - Cybersecurity Lessons from The Grammar of Systems, part 1 — https://www.linkedin.com/pulse/cybersecurity-lessons-from-grammar-systems-order-chaos-osama-salah/
 
+## Fitness landscape
+
+Type: Concept
+Public depth: described
+
+A representation linking possible configurations with measures of reproductive or adaptive success.
+
+### Sources
+
+- 32 Key Concepts in Systems Thinking and Complexity Theory — https://unfix.com/blog/32-key-concepts
+
 ## Flawless consulting
 
 Type: Intervention skill
@@ -4357,7 +4575,7 @@ C. Reynolds, ‘Flocks, Herds, and Schools: A Distributed Behavioral Model’ (1
 Type: Concept
 Public depth: described
 
-Bourdieu's distinction among economic, cultural and social capital, with symbolic capital arising through recognized legitimacy; Damian explicitly names it.
+Bourdieu's distinction among economic, cultural and social capital, with symbolic capital arising through recognized legitimacy; Damian Allen explicitly names it.
 
 ### Sources
 
@@ -4480,6 +4698,28 @@ Chilean biologist and cybernetician who developed work on autopoiesis, cognition
 
 - SCiO SysBoK - Recursion v1 — No public link
 
+## Frank Rosenblatt
+
+Type: Person
+Public depth: research stub
+
+Named in the public 0.18 coverage audit. A source-specific profile and typed lineage remain required before stronger claims are made about Frank Rosenblatt.
+
+### Sources
+
+- Running feedback after release 0.17 — https://github.com/antlerboy/the-necessary-tangle/issues/2
+
+## Fritjof Capra
+
+Type: Person
+Public depth: research stub
+
+Named in the public 0.18 coverage audit. A source-specific profile and typed lineage remain required before stronger claims are made about Fritjof Capra.
+
+### Sources
+
+- Running feedback after release 0.17 — https://github.com/antlerboy/the-necessary-tangle/issues/2
+
 ## From Sequences to Shapes and Back: A Case Study in RNA Secondary Structures
 
 Type: Publication
@@ -4591,6 +4831,17 @@ N. H. Packard, J. P. Crutchfield, J. D. Farmer, and R. S. Shaw, ‘Geometry from
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
 
+## George Spencer-Brown
+
+Type: Person
+Public depth: research stub
+
+Named in the public 0.18 coverage audit. A source-specific profile and typed lineage remain required before stronger claims are made about George Spencer-Brown.
+
+### Sources
+
+- Running feedback after release 0.17 — https://github.com/antlerboy/the-necessary-tangle/issues/2
+
 ## Gerald Midgley
 
 Type: Person
@@ -4645,7 +4896,7 @@ Graphic facilitation uses live or prepared visual representation to help groups 
 Type: Person
 Public depth: described
 
-Founder and co-chair of Remake Learning, named by Damian in relation to learning anywhere, learning from everyone and place-based small bets.
+Founder and co-chair of Remake Learning, named by Damian Allen in relation to learning anywhere, learning from everyone and place-based small bets.
 
 ### Sources
 
@@ -4679,7 +4930,7 @@ A bibliographic first-pass person entry for H. Haken, listed by the official Fou
 Type: Person
 Public depth: described
 
-Public-service complexity researcher and Human Learning Systems co-author named in Damian's account.
+Public-service complexity researcher and Human Learning Systems co-author named in Damian Allen's account.
 
 ### Sources
 
@@ -4692,7 +4943,7 @@ Public-service complexity researcher and Human Learning Systems co-author named 
 Type: Publication
 Public depth: described
 
-The strongest located candidate for Damian's unnamed accessible complexity book; the identification remains probable rather than certain.
+The strongest located candidate for Damian Allen's unnamed accessible complexity book; the identification remains probable rather than certain.
 
 ### Sources
 
@@ -4733,6 +4984,17 @@ American scholar of organisations, decision-making, artificial intelligence and 
 ### Sources
 
 - SCiO SysBoK - Recursion v1 — No public link
+
+## Hierarchy
+
+Type: Concept
+Public depth: described
+
+In Jurgen Appelo's unFIX synthesis, hierarchy names nested levels of authority, responsibility or system organisation. This source-bounded entry records the concept's inclusion without treating hierarchy as either inherently good or inherently bad.
+
+### Sources
+
+- 32 Key Concepts in Systems Thinking and Complexity Theory — https://unfix.com/blog/32-key-concepts
 
 ## Holism
 
@@ -4846,7 +5108,7 @@ A public-service approach organized around human relationships, learning and sys
 
 ### Summary
 
-HLS supplies one explicit route into Doncaster Thrive. Damian uses it to explain why adaptive learning and relationality must be designed into public-service work.
+HLS supplies one explicit route into Doncaster Thrive. Damian Allen uses it to explain why adaptive learning and relationality must be designed into public-service work.
 
 ### Why it matters
 
@@ -5047,6 +5309,17 @@ Systems and cybernetics researcher whose 2026 community map is retained as a com
 ### Sources
 
 - Systems researchers network — No public link
+
+## Ilya Prigogine
+
+Type: Person
+Public depth: research stub
+
+Named in the public 0.18 coverage audit. A source-specific profile and typed lineage remain required before stronger claims are made about Ilya Prigogine.
+
+### Sources
+
+- Running feedback after release 0.17 — https://github.com/antlerboy/the-necessary-tangle/issues/2
 
 ## Immune Network Theory
 
@@ -5327,6 +5600,17 @@ Interactive Planning is Russell Ackoff's participative approach to redesigning a
 ### Sources
 
 - SCiO CF Resources v9 draft — No public link
+
+## Interconnectedness
+
+Type: Concept
+Public depth: described
+
+The condition in which elements and contexts affect one another through relations, so that consequences can propagate beyond the point of action.
+
+### Sources
+
+- 32 Key Concepts in Systems Thinking and Complexity Theory — https://unfix.com/blog/32-key-concepts
 
 ## Interrelationships
 
@@ -5609,6 +5893,17 @@ Physicist whose 1868 analysis of centrifugal governors is a historical precursor
 - SCiO SysBoK - Feedback v1 — No public link
 - On Governors — https://doi.org/10.1098/rspl.1867.0055
 
+## James Lovelock
+
+Type: Person
+Public depth: research stub
+
+Named in the public 0.18 coverage audit. A source-specific profile and typed lineage remain required before stronger claims are made about James Lovelock.
+
+### Sources
+
+- Running feedback after release 0.17 — https://github.com/antlerboy/the-necessary-tangle/issues/2
+
 ## Jan De Visch
 
 Type: Person
@@ -5620,12 +5915,23 @@ A systems practitioner and co-author of Opening the Box, working on dialogical, 
 
 - Opening the Box: Systems Thinking for Transformative Conversations — https://www.systemspractice.org/resources/opening-box-systems-thinking-transformative-conversations
 
+## Jay W. Forrester
+
+Type: Person
+Public depth: research stub
+
+Named in the public 0.18 coverage audit. A source-specific profile and typed lineage remain required before stronger claims are made about Jay W. Forrester.
+
+### Sources
+
+- Running feedback after release 0.17 — https://github.com/antlerboy/the-necessary-tangle/issues/2
+
 ## Jenny Andersson
 
 Type: Person
 Public depth: described
 
-Really Regenerative practitioner named by Damian in connection with place-based regenerative projects.
+Really Regenerative practitioner named by Damian Allen in connection with place-based regenerative projects.
 
 ### Sources
 
@@ -5643,6 +5949,17 @@ A feminist scholar, organiser and author whose critique of structurelessness sho
 ### Sources
 
 - The Tyranny of Structurelessness — https://www.jofreeman.com/joreen/tyranny.htm
+
+## John von Neumann
+
+Type: Person
+Public depth: research stub
+
+Named in the public 0.18 coverage audit. A source-specific profile and typed lineage remain required before stronger claims are made about John von Neumann.
+
+### Sources
+
+- Running feedback after release 0.17 — https://github.com/antlerboy/the-necessary-tangle/issues/2
 
 ## Jorge Mpodozis
 
@@ -5665,6 +5982,17 @@ Julian Bigelow was an engineer and mathematician who co-authored the 1943 paper 
 ### Sources
 
 - Behavior, Purpose and Teleology — https://doi.org/10.1086/286788
+
+## Jurgen Appelo
+
+Type: Person
+Public depth: described
+
+An author and organisation-design practitioner associated with Management 3.0 and unFIX, including a public synthesis of systems-thinking and complexity concepts.
+
+### Sources
+
+- 32 Key Concepts in Systems Thinking and Complexity Theory — https://unfix.com/blog/32-key-concepts
 
 ## K. Hasselmann
 
@@ -5780,6 +6108,17 @@ Her role prevents the book being treated as Ramage's individual classification e
 - Systems Thinkers (2nd edition) — Open Research Online — https://oro.open.ac.uk/69810/
 - On boundaries and disciplines: constructing a set of key systems thinkers — https://oro.open.ac.uk/5446/
 
+## Kenneth E. Boulding
+
+Type: Person
+Public depth: research stub
+
+Named in the public 0.18 coverage audit. A source-specific profile and typed lineage remain required before stronger claims are made about Kenneth E. Boulding.
+
+### Sources
+
+- Running feedback after release 0.17 — https://github.com/antlerboy/the-necessary-tangle/issues/2
+
 ## Kurt Gödel
 
 Type: Person
@@ -5867,7 +6206,7 @@ Large-group engagement processes such as Open Space, World Café and Future Sear
 Type: Person
 Public depth: described
 
-Systems-change practitioner and co-author of Lineages of Systems Practices, explicitly named by Damian.
+Systems-change practitioner and co-author of Lineages of Systems Practices, explicitly named by Damian Allen.
 
 ### Sources
 
@@ -5948,7 +6287,7 @@ The Law of Sufficient Complexity says that a complex system's behaviour follows 
 Type: Publication
 Public depth: described
 
-Michael Fullan's 2004 leadership book and the likely public context for Damian's recollection of a systems thinker in action.
+Michael Fullan's 2004 leadership book and the likely public context for Damian Allen's recollection of a systems thinker in action.
 
 ### Sources
 
@@ -6019,7 +6358,7 @@ Medieval Italian mathematician, also called Fibonacci, whose recurrence sequence
 Type: Person
 Public depth: described
 
-Psychologist associated with socially situated learning who appears by name in Damian's self-authored learning-theory lineage strand.
+Psychologist associated with socially situated learning who appears by name in Damian Allen's self-authored learning-theory lineage strand.
 
 ### Sources
 
@@ -6151,6 +6490,66 @@ The essay is useful precisely because it combines a memorable hierarchy with rep
 
 - Leverage Points: Places to Intervene in a System — https://donellameadows.org/archives/leverage-points-places-to-intervene-in-a-system/
 
+## Linda Booth Sweeney
+
+Type: Person
+Public depth: profile
+
+Linda Booth Sweeney makes systems ideas learnable through embodied exercises, stories, visualisation and leadership practice across adult and children's education.
+
+### Summary
+
+Linda Booth Sweeney makes systems ideas learnable through embodied exercises, stories, visualisation and leadership practice across adult and children's education.
+
+### Why it matters
+
+Her work is a route from abstract systems vocabulary into experiences which let people notice interdependence, feedback, delay and unintended effects for themselves.
+
+### Key distinctions
+
+- Systems literacy is treated as a capability developed through practice, not as a list of definitions.
+- First-party descriptions establish her intent and current work; they do not by themselves establish independent effectiveness claims.
+
+### Historical development
+
+- MIT organisational-learning and system-dynamics settings
+- systems education
+- learning through games and stories
+
+### Ideas it depends on
+
+- systems thinking
+- experiential learning
+- systems literacy
+
+### What develops from it
+
+- The Systems Thinking Playbook
+- The Climate Change Playbook
+- The Noisy Puddle
+- Do Bees Pee?
+
+### Connections to practice
+
+- systems learning games
+- leadership laboratories
+- children's systems education
+
+### Common confusions
+
+- Accessible explanation is not the same as simplification without limits.
+
+### Open questions and checks
+
+- Add independent studies of use and outcomes where available.
+
+### Sources
+
+- Meet Linda Booth Sweeney — https://www.lindaboothsweeney.com/meet-linda-booth-sweeney
+- Massachusetts Book Awards — previous winners — https://www.massbook.org/previous-winners
+- The Noisy Puddle — https://www.lindaboothsweeney.com/the-noisy-puddle
+- Do Bees Pee? — https://www.lindaboothsweeney.com/
+
 ## Lineage recovery
 
 Type: Practice
@@ -6217,7 +6616,7 @@ It makes the history of visibility part of the atlas rather than treating omissi
 Type: Publication
 Public depth: described
 
-Laura Winn and Saskia Rysenbry's intentionally partial lineage article, explicitly named by Damian.
+Laura Winn and Saskia Rysenbry's intentionally partial lineage article, explicitly named by Damian Allen.
 
 ### Sources
 
@@ -6258,6 +6657,17 @@ C. H. Bennett, ‘Logical Reversibility of Computation’ (1973); item 43 in vol
 ### Sources
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## Louis H. Kauffman
+
+Type: Person
+Public depth: research stub
+
+Named in the public 0.18 coverage audit. A source-specific profile and typed lineage remain required before stronger claims are made about Louis H. Kauffman.
+
+### Sources
+
+- Running feedback after release 0.17 — https://github.com/antlerboy/the-necessary-tangle/issues/2
 
 ## Lucy Loh
 
@@ -6312,6 +6722,39 @@ Crediting a method to only one visible practitioner would reproduce the very fal
 ### Sources
 
 - Patterns of Strategy — https://www.systemspractice.org/resources/patterns-strategy-0
+
+## Ludwig von Bertalanffy
+
+Type: Person
+Public depth: research stub
+
+Named in the public 0.18 coverage audit. A source-specific profile and typed lineage remain required before stronger claims are made about Ludwig von Bertalanffy.
+
+### Sources
+
+- Running feedback after release 0.17 — https://github.com/antlerboy/the-necessary-tangle/issues/2
+
+## Ludwig Wittgenstein
+
+Type: Person
+Public depth: research stub
+
+Named in the public 0.18 coverage audit. A source-specific profile and typed lineage remain required before stronger claims are made about Ludwig Wittgenstein.
+
+### Sources
+
+- Running feedback after release 0.17 — https://github.com/antlerboy/the-necessary-tangle/issues/2
+
+## Lynn Margulis
+
+Type: Person
+Public depth: research stub
+
+Named in the public 0.18 coverage audit. A source-specific profile and typed lineage remain required before stronger claims are made about Lynn Margulis.
+
+### Sources
+
+- Running feedback after release 0.17 — https://github.com/antlerboy/the-necessary-tangle/issues/2
 
 ## M. Bunge
 
@@ -6586,12 +7029,23 @@ Map analysis and narrative uses a visual systems map together with a written exp
 
 - An introductory systems thinking toolkit for civil servants — https://www.gov.uk/government/publications/systems-thinking-for-civil-servants/toolkit
 
+## Margaret Mead
+
+Type: Person
+Public depth: research stub
+
+Named in the public 0.18 coverage audit. A source-specific profile and typed lineage remain required before stronger claims are made about Margaret Mead.
+
+### Sources
+
+- Running feedback after release 0.17 — https://github.com/antlerboy/the-necessary-tangle/issues/2
+
 ## Mark Smith
 
 Type: Person
 Public depth: described
 
-Human Learning Systems practitioner named by Damian as a collaborator on the relational public-service approach used in Thrive.
+Human Learning Systems practitioner named by Damian Allen as a collaborator on the relational public-service approach used in Thrive.
 
 ### Sources
 
@@ -6609,6 +7063,17 @@ A systems scholar and practitioner associated with critical systems thinking, en
 ### Sources
 
 - Systems Approaches to Making Change: A Practical Guide — https://www.systemspractice.org/resources/systems-approaches-making-change-practical-guide
+
+## Marvin Weisbord
+
+Type: Person
+Public depth: research stub
+
+Named in the public 0.18 coverage audit. A source-specific profile and typed lineage remain required before stronger claims are made about Marvin Weisbord.
+
+### Sources
+
+- Running feedback after release 0.17 — https://github.com/antlerboy/the-necessary-tangle/issues/2
 
 ## Mary E. Boone
 
@@ -6662,6 +7127,17 @@ The HBR article shaped wide managerial circulation of Cynefin. Authorship and po
 ### Sources
 
 - A Leader's Framework for Decision Making — https://hbr.org/2007/11/a-leaders-framework-for-decision-making
+
+## Mental models
+
+Type: Concept
+Public depth: described
+
+In Jurgen Appelo's unFIX synthesis, mental models are the assumptions and internal representations through which people interpret situations and choose actions. This entry records inclusion in that synthesis pending a fuller sourced treatment.
+
+### Sources
+
+- 32 Key Concepts in Systems Thinking and Complexity Theory — https://unfix.com/blog/32-key-concepts
 
 ## Metabolic Stability and Epigenesis in Randomly Constructed Genetic Nets
 
@@ -6779,7 +7255,7 @@ It provides a central route from philosophy and methodological pluralism into pr
 Type: Person
 Public depth: described
 
-Education scholar whose 'system thinkers in action' formulation is recalled by Damian as an early recognition of theory enacted through practice.
+Education scholar whose 'system thinkers in action' formulation is recalled by Damian Allen as an early recognition of theory enacted through practice.
 
 ### Sources
 
@@ -6892,7 +7368,7 @@ Multiple perspectives work compares how different participants or observers defi
 Type: Concept
 Public depth: described
 
-Damian's speculative metaphor for a council's future capacity to connect distributed knowledge, systems intelligence, augmented knowledge and responsible AI.
+Damian Allen's speculative metaphor for a council's future capacity to connect distributed knowledge, systems intelligence, augmented knowledge and responsible AI.
 
 ### Sources
 
@@ -7260,7 +7736,7 @@ The phrase is often used as if negative means criticism or undesirable effects. 
 Type: Concept
 Public depth: research stub
 
-A phrase Damian attributes to work with Gerald Midgley. No corroborating public publication or stable formal definition was located.
+A phrase Damian Allen attributes to work with Gerald Midgley. No corroborating public publication or stable formal definition was located.
 
 ### Sources
 
@@ -7279,6 +7755,17 @@ The Network Power Law draws attention to the rapid growth of possible relationsh
 - The Grammar of Systems - SCiO presentation — https://www.systemspractice.org/resources/grammar-systems
 - The Grammar of Systems II: From Order to Chaos and Back Again, 2nd edition — https://www.systemspractice.org/resources/grammar-systems-ii-order-chaos-back-again-2nd-ed
 - Cybersecurity Lessons from The Grammar of Systems, part 1 — https://www.linkedin.com/pulse/cybersecurity-lessons-from-grammar-systems-order-chaos-osama-salah/
+
+## Network theory
+
+Type: Concept
+Public depth: described
+
+In Jurgen Appelo's unFIX synthesis, network theory examines actors or elements through their patterns of connection, position and flow. This entry records inclusion in that synthesis; its detailed theoretical lineages and applications remain open work.
+
+### Sources
+
+- 32 Key Concepts in Systems Thinking and Complexity Theory — https://unfix.com/blog/32-key-concepts
 
 ## Networks
 
@@ -7324,6 +7811,28 @@ F. J. Odling-Smee, K. N. Laland, and M. W. Feldman, ‘Niche Construction’ (19
 ### Sources
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## Nicholas A. Christakis
+
+Type: Person
+Public depth: research stub
+
+Named in the public 0.18 coverage audit. A source-specific profile and typed lineage remain required before stronger claims are made about Nicholas A. Christakis.
+
+### Sources
+
+- Running feedback after release 0.17 — https://github.com/antlerboy/the-necessary-tangle/issues/2
+
+## Niklas Luhmann
+
+Type: Person
+Public depth: research stub
+
+Named in the public 0.18 coverage audit. A source-specific profile and typed lineage remain required before stronger claims are made about Niklas Luhmann.
+
+### Sources
+
+- Running feedback after release 0.17 — https://github.com/antlerboy/the-necessary-tangle/issues/2
 
 ## No Free Lunch Theorems for Optimization
 
@@ -7451,6 +7960,17 @@ H. von Foerster, ‘Notes on an Epistemology for Living Things’ (1972); item 4
 ### Sources
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## NTL Institute
+
+Type: Organisation
+Public depth: research stub
+
+Named in the public 0.18 coverage audit. A source-specific profile and typed lineage remain required before stronger claims are made about NTL Institute.
+
+### Sources
+
+- Running feedback after release 0.17 — https://github.com/antlerboy/the-necessary-tangle/issues/2
 
 ## O. E. Rössler
 
@@ -7853,7 +8373,7 @@ It provides a major practice-facing bridge from Beer's VSM to methods of organis
 Type: Tradition
 Public depth: described
 
-A lineage strand connecting Damian's experience of ICI and schools to later public-service organizational design.
+A lineage strand connecting Damian Allen's experience of ICI and schools to later public-service organizational design.
 
 ### Sources
 
@@ -8149,17 +8669,39 @@ It gives the atlas a strategy method which is relational, dynamic and action-ori
 - Patterns of Strategy — https://www.systemspractice.org/resources/patterns-strategy-0
 - What is Patterns of Strategy? — https://www.systemspractice.org/resources/what-patterns-strategy
 
+## Paul Cilliers
+
+Type: Person
+Public depth: research stub
+
+Named in the public 0.18 coverage audit. A source-specific profile and typed lineage remain required before stronger claims are made about Paul Cilliers.
+
+### Sources
+
+- Running feedback after release 0.17 — https://github.com/antlerboy/the-necessary-tangle/issues/2
+
 ## Permaculture
 
 Type: Practice
 Public depth: described
 
-A regenerative design practice named in Damian's lineage diagram as one route into his wider regenerative-cultures work.
+A regenerative design practice named in Damian Allen's lineage diagram as one route into his wider regenerative-cultures work.
 
 ### Sources
 
 - Lineages of Systems Practice — Damian Allen — No public link
 - Designing Regenerative Cultures — https://www.triarchypress.net/drc.html
+
+## Peter Block
+
+Type: Person
+Public depth: research stub
+
+Named in the public 0.18 coverage audit. A source-specific profile and typed lineage remain required before stronger claims are made about Peter Block.
+
+### Sources
+
+- Running feedback after release 0.17 — https://github.com/antlerboy/the-necessary-tangle/issues/2
 
 ## Peter Checkland
 
@@ -8228,12 +8770,34 @@ His work makes a basic systems distinction operational: systems can be used as d
 - Systems Thinking, Systems Practice: includes a 30-year retrospective — https://research.lancaster-university.uk/en/publications/systems-thinking-systems-practice-includes-a-30-year-retrospectiv/
 - Systems Thinking, Systems Practice — Wiley publisher page — https://www.wiley-vch.de/en/areas-interest/finance-economics-law/systems-thinking-systems-practice-978-0-471-98606-5
 
+## Phase transition
+
+Type: Concept
+Public depth: described
+
+A qualitative change of system state associated with a shift in conditions or parameters.
+
+### Sources
+
+- 32 Key Concepts in Systems Thinking and Complexity Theory — https://unfix.com/blog/32-key-concepts
+
+## Philip Boxer
+
+Type: Person
+Public depth: research stub
+
+Named in the public 0.18 coverage audit. A source-specific profile and typed lineage remain required before stronger claims are made about Philip Boxer.
+
+### Sources
+
+- Running feedback after release 0.17 — https://github.com/antlerboy/the-necessary-tangle/issues/2
+
 ## Philosophy in Damian Allen's lineage
 
 Type: Tradition
 Public depth: described
 
-A self-reported strand naming Stephen Jay Gould and Bertrand Russell; it records Damian's grouping rather than defining philosophy as a whole.
+A self-reported strand naming Stephen Jay Gould and Bertrand Russell; it records Damian Allen's grouping rather than defining philosophy as a whole.
 
 ### Sources
 
@@ -8244,7 +8808,7 @@ A self-reported strand naming Stephen Jay Gould and Bertrand Russell; it records
 Type: Person
 Public depth: described
 
-Sociologist and author of The Forms of Capital, whose framework Damian explicitly names as a theoretical commitment.
+Sociologist and author of The Forms of Capital, whose framework Damian Allen explicitly names as a theoretical commitment.
 
 ### Sources
 
@@ -8302,7 +8866,7 @@ Ancient Greek philosopher included in the inherited recursion map through later 
 Type: Concept
 Public depth: described
 
-Study of how populations change through interacting rates and environmental conditions; Damian traces an early systems sensibility to this work.
+Study of how populations change through interacting rates and environmental conditions; Damian Allen traces an early systems sensibility to this work.
 
 ### Sources
 
@@ -8373,6 +8937,17 @@ Reinforcing loops explain why small differences can become large and why systems
 ### Sources
 
 - Feedback - IEEE Technology Navigator — https://technav.ieee.org/topic/feedback/
+
+## Power law
+
+Type: Concept
+Public depth: described
+
+A relation in which one quantity varies as a power of another, often producing heavy-tailed distributions.
+
+### Sources
+
+- 32 Key Concepts in Systems Thinking and Complexity Theory — https://unfix.com/blog/32-key-concepts
 
 ## Power Structuration Theorem
 
@@ -9106,7 +9681,7 @@ The Relaxation Time Principle says that a system repeatedly disturbed before it 
 Type: Practice
 Public depth: described
 
-A place-based learning network and practice model founded by Gregg Behr and adapted in Damian's account through a parallel Doncaster festival.
+A place-based learning network and practice model founded by Gregg Behr and adapted in Damian Allen's account through a parallel Doncaster festival.
 
 ### Sources
 
@@ -9261,6 +9836,17 @@ The slogan is often used to justify more choice, more management or decentralisa
 - Every Good Regulator of a System Must Be a Model of That System — https://doi.org/10.1080/00207727008920220
 - Viable System Model - The VSM in 1000 words — https://metaphorum.org/staffords-work/viable-system-model
 
+## Resilience
+
+Type: Concept
+Public depth: described
+
+Capacity to absorb disturbance, reorganise and continue functions or identity judged important.
+
+### Sources
+
+- 32 Key Concepts in Systems Thinking and Complexity Theory — https://unfix.com/blog/32-key-concepts
+
 ## Resilience and Stability of Ecological Systems
 
 Type: Publication
@@ -9305,12 +9891,23 @@ Mathematician reported by the Stanford Encyclopedia of Philosophy as an early fo
 
 - Recursive Functions — https://plato.stanford.edu/entries/recursive-functions/
 
+## Robert Axelrod
+
+Type: Person
+Public depth: research stub
+
+Named in the public 0.18 coverage audit. A source-specific profile and typed lineage remain required before stronger claims are made about Robert Axelrod.
+
+### Sources
+
+- Running feedback after release 0.17 — https://github.com/antlerboy/the-necessary-tangle/issues/2
+
 ## Robert Geyer
 
 Type: Person
 Public depth: described
 
-Lancaster scholar of complexity and public policy whom Damian names as an early-2000s collaborator.
+Lancaster scholar of complexity and public policy whom Damian Allen names as an early-2000s collaborator.
 
 ### Sources
 
@@ -9346,12 +9943,23 @@ The Root Structuring Theorem proposes that structural complexity can be reduced 
 Type: Person
 Public depth: described
 
-Public-health leader whom Damian credits with bringing Well North into work that became Well Doncaster.
+Public-health leader whom Damian Allen credits with bringing Well North into work that became Well Doncaster.
 
 ### Sources
 
 - Interview with Damian Allen on systems practice in Doncaster — No public link
 - Dr Rupert Suckling — Well North — https://wellnorth.co.uk/about-us/our-team/our-executive/dr-rupert-suckling
+
+## Russell L. Ackoff
+
+Type: Person
+Public depth: research stub
+
+Named in the public 0.18 coverage audit. A source-specific profile and typed lineage remain required before stronger claims are made about Russell L. Ackoff.
+
+### Sources
+
+- Running feedback after release 0.17 — https://github.com/antlerboy/the-necessary-tangle/issues/2
 
 ## S. Amari
 
@@ -9474,17 +10082,39 @@ A bibliographic first-pass person entry for S. Wright, listed by the official Fo
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
 
+## Sandra Janoff
+
+Type: Person
+Public depth: research stub
+
+Named in the public 0.18 coverage audit. A source-specific profile and typed lineage remain required before stronger claims are made about Sandra Janoff.
+
+### Sources
+
+- Running feedback after release 0.17 — https://github.com/antlerboy/the-necessary-tangle/issues/2
+
 ## Saskia Rysenbry
 
 Type: Person
 Public depth: described
 
-Systems-change practitioner and co-author of Lineages of Systems Practices, explicitly named by Damian.
+Systems-change practitioner and co-author of Lineages of Systems Practices, explicitly named by Damian Allen.
 
 ### Sources
 
 - Damian Allen follow-up correspondence on lineage and UTSI — No public link
 - Lineages of Systems Practices — https://www.schoolofsystemchange.org/blog/lineages-of-systems-practices
+
+## Scaling laws
+
+Type: Concept
+Public depth: described
+
+In Jurgen Appelo's unFIX synthesis, scaling laws describe how system properties change, often non-linearly, with size. This entry records inclusion in that synthesis and is not a complete account of biological, urban or organisational scaling.
+
+### Sources
+
+- 32 Key Concepts in Systems Thinking and Complexity Theory — https://unfix.com/blog/32-key-concepts
 
 ## Scaling Stasis Principle
 
@@ -9918,7 +10548,7 @@ It connects systems inquiry to the design and operation of services without assu
 Type: Person
 Public depth: described
 
-Citizen Network founder whose citizenship and neighbourhood perspective is named in Damian's account.
+Citizen Network founder whose citizenship and neighbourhood perspective is named in Damian Allen's account.
 
 ### Sources
 
@@ -9966,7 +10596,7 @@ Collaborative development of practices and arrangements intended to change socia
 Type: Concept
 Public depth: described
 
-Damian's proposition that action is embedded in place and nested social context rather than separable from it.
+Damian Allen's proposition that action is embedded in place and nested social context rather than separable from it.
 
 ### Sources
 
@@ -10283,6 +10913,17 @@ It prevents the response to closed canons becoming a fantasy that removing all b
 
 - The Tyranny of Structurelessness — https://www.jofreeman.com/joreen/tyranny.htm
 
+## Stuart Kauffman
+
+Type: Person
+Public depth: research stub
+
+Named in the public 0.18 coverage audit. A source-specific profile and typed lineage remain required before stronger claims are made about Stuart Kauffman.
+
+### Sources
+
+- Running feedback after release 0.17 — https://github.com/antlerboy/the-necessary-tangle/issues/2
+
 ## Studying Artificial Life with Cellular Automata
 
 Type: Publication
@@ -10326,6 +10967,28 @@ Team Syntegrity is Stafford Beer's democratic large-group process for organising
 ### Sources
 
 - SCiO CF Resources v9 draft — No public link
+
+## System
+
+Type: Concept
+Public depth: described
+
+A set of distinctions through which interrelated elements and a whole are treated as relevant to an inquiry.
+
+### Sources
+
+- 32 Key Concepts in Systems Thinking and Complexity Theory — https://unfix.com/blog/32-key-concepts
+
+## System archetypes
+
+Type: Concept
+Public depth: described
+
+In Jurgen Appelo's unFIX synthesis, system archetypes are recurring structures of feedback and delay used to recognise familiar patterns of system behaviour. This entry records inclusion in that synthesis; its wider lineage and competing formulations remain to be researched.
+
+### Sources
+
+- 32 Key Concepts in Systems Thinking and Complexity Theory — https://unfix.com/blog/32-key-concepts
 
 ## System Dynamics
 
@@ -10838,7 +11501,7 @@ It names work that is often real but invisible. It also needs protection from be
 Type: Concept
 Public depth: described
 
-The capacity to perceive and act within relational, nested and changing systems, used by Damian to connect practical judgment with multiple systems traditions.
+The capacity to perceive and act within relational, nested and changing systems, used by Damian Allen to connect practical judgment with multiple systems traditions.
 
 ### Sources
 
@@ -11402,7 +12065,7 @@ A bibliographic first-pass person entry for T. C. Schelling, listed by the offic
 Type: Practice
 Public depth: described
 
-The place partnership through which Damian describes Doncaster's mission, locality structure and shared work across organizations.
+The place partnership through which Damian Allen describes Doncaster's mission, locality structure and shared work across organizations.
 
 ### Sources
 
@@ -11521,7 +12184,7 @@ Organisations carry methods through products, training, communities, archives an
 Type: Publication
 Public depth: described
 
-Urie Bronfenbrenner's book on nested ecological systems, explicitly named in Damian's correspondence.
+Urie Bronfenbrenner's book on nested ecological systems, explicitly named in Damian Allen's correspondence.
 
 ### Sources
 
@@ -11566,7 +12229,7 @@ R. Axelrod and W. D. Hamilton, ‘The Evolution of Cooperation’ (1981); item 5
 Type: Publication
 Public depth: described
 
-Pierre Bourdieu's account of forms of capital, explicitly named in Damian's correspondence.
+Pierre Bourdieu's account of forms of capital, explicitly named in Damian Allen's correspondence.
 
 ### Sources
 
@@ -11860,6 +12523,58 @@ It grounds both the collaborative development and the dynamic, rather than merel
 
 - The New Dynamics of Strategy: Sense-making in a Complex and Complicated World — https://thecynefin.co/library/the-new-dynamics-of-strategy-sense-making-in-a-complex-and-complicated-world/
 
+## The Noisy Puddle
+
+Type: Publication
+Public depth: profile
+
+The Noisy Puddle follows the changing ecology of a vernal pool and makes a web of seasonal interdependence observable to younger readers.
+
+### Summary
+
+The Noisy Puddle follows the changing ecology of a vernal pool and makes a web of seasonal interdependence observable to younger readers.
+
+### Why it matters
+
+It offers an example of systems literacy through attention to relations and change rather than through formal systems terminology.
+
+### Key distinctions
+
+- The book is a literary and educational work, not evidence for a general theory of ecosystems.
+
+### Historical development
+
+- nature writing
+- children's science education
+- systems literacy
+
+### Ideas it depends on
+
+- ecology
+- interconnectedness
+- observation through time
+
+### What develops from it
+
+- classroom and family inquiry into living relations
+
+### Connections to practice
+
+- systems education through story
+
+### Common confusions
+
+- An award establishes recognition, not educational effectiveness.
+
+### Open questions and checks
+
+- Add classroom studies or educator accounts beyond promotional material.
+
+### Sources
+
+- The Noisy Puddle — https://www.lindaboothsweeney.com/the-noisy-puddle
+- Massachusetts Book Awards — previous winners — https://www.massbook.org/previous-winners
+
 ## The Open University
 
 Type: Organisation
@@ -11977,6 +12692,17 @@ M. S. Granovetter, ‘The Strength of Weak Ties’ (1973); item 44 in volume 2 o
 ### Sources
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## The Tavistock Institute of Human Relations
+
+Type: Organisation
+Public depth: research stub
+
+Named in the public 0.18 coverage audit. A source-specific profile and typed lineage remain required before stronger claims are made about The Tavistock Institute of Human Relations.
+
+### Sources
+
+- Running feedback after release 0.17 — https://github.com/antlerboy/the-necessary-tangle/issues/2
 
 ## The Theory of Games and the Evolution of Animal Conflicts
 
@@ -12148,7 +12874,7 @@ Bill Sharpe's book presenting the Three Horizons pattern for transformative futu
 Type: Person
 Public depth: described
 
-Public-service researcher and Human Learning Systems practitioner named by Damian as a collaborator on relational public services.
+Public-service researcher and Human Learning Systems practitioner named by Damian Allen as a collaborator on relational public services.
 
 ### Sources
 
@@ -12161,7 +12887,7 @@ Public-service researcher and Human Learning Systems practitioner named by Damia
 Type: Person
 Public depth: described
 
-Systems practitioner whom Damian credits, alongside Bill Sharpe, in his practical Three Horizons lineage.
+Systems practitioner whom Damian Allen credits, alongside Bill Sharpe, in his practical Three Horizons lineage.
 
 ### Sources
 
@@ -12425,7 +13151,7 @@ UTSI is maintained as an inspectable research lead, not an established theory. N
 
 ### Why it matters
 
-The idea exposes how Damian currently tries to connect his lineages. Its value here is the explicit synthesis claim and testable gaps, not premature authority.
+The idea exposes how Damian Allen currently tries to connect his lineages. Its value here is the explicit synthesis claim and testable gaps, not premature authority.
 
 ### Key distinctions
 
@@ -12476,6 +13202,17 @@ The idea exposes how Damian currently tries to connect his lineages. Its value h
 - Lineages of Systems Practice — Damian Allen — No public link
 - Damian Allen follow-up correspondence on lineage and UTSI — No public link
 
+## Unintended consequences
+
+Type: Concept
+Public depth: described
+
+Effects of action that were not intended, often arising through delayed or indirect relations.
+
+### Sources
+
+- 32 Key Concepts in Systems Thinking and Complexity Theory — https://unfix.com/blog/32-key-concepts
+
 ## Universal Behavior in Nonlinear Systems
 
 Type: Publication
@@ -12514,7 +13251,7 @@ Unpredictability is the inability to make a sufficiently reliable forecast at a 
 Type: Person
 Public depth: described
 
-Developmental psychologist whose ecological systems theory Damian explicitly names as a theoretical commitment.
+Developmental psychologist whose ecological systems theory Damian Allen explicitly names as a theoretical commitment.
 
 ### Sources
 
@@ -13097,6 +13834,17 @@ Physiologist whose 1929 article developed the concept and terminology of physiol
 
 - Organization for Physiological Homeostasis — https://doi.org/10.1152/physrev.1929.9.3.399
 
+## Walter Pitts
+
+Type: Person
+Public depth: research stub
+
+Named in the public 0.18 coverage audit. A source-specific profile and typed lineage remain required before stronger claims are made about Walter Pitts.
+
+### Sources
+
+- Running feedback after release 0.17 — https://github.com/antlerboy/the-necessary-tangle/issues/2
+
 ## Warren McCulloch
 
 Type: Person
@@ -13136,7 +13884,7 @@ A hypertext dictionary combining the ASC Glossary, Klaus Krippendorff's dictiona
 Type: Practice
 Public depth: described
 
-Doncaster's community-health practice lineage, described by Damian as carrying Well North and ABCD into local work.
+Doncaster's community-health practice lineage, described by Damian Allen as carrying Well North and ABCD into local work.
 
 ### Sources
 
@@ -13225,7 +13973,7 @@ R. M. May, ‘Will a Large Complex System Be Stable?’ (1972); item 41 in volum
 Type: Person
 Public depth: described
 
-Psychologist and philosopher appearing by name alongside Vygotsky in Damian's self-authored learning-theory lineage strand.
+Psychologist and philosopher appearing by name alongside Vygotsky in Damian Allen's self-authored learning-theory lineage strand.
 
 ### Sources
 

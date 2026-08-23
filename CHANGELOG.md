@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.18-navigable-tangle-alpha — 23 August 2026
+
+- Replaced narrow entry drawers with a full-screen reading surface and hoisted connections near definitions.
+- Reworked map interaction so panning starts from nodes, lines or background; enlarged the canvas and added a question-relative constellation view.
+- Made navigational surfaces expose stable URLs for copy, right-click and modified-click behaviour.
+- Added source-backed Linda Booth Sweeney, *The Noisy Puddle* and *Do Bees Pee?* material.
+- Resolved all 32 concepts in the unFIX comparator to canonical atlas entries with an explicit source-role caution.
+- Canonicalised and audited every person and institution named in the post-0.17 feedback, with aliases and honest depth states.
+- Added a standalone-language audit, refreshed AI observations, and published named/unFIX coverage tables.
+
 ## 0.17-public-intake-lineage-alpha — 19 August 2026
 
 - Added a first-class public submissions-and-responses page backed by visible GitHub issues and curator comments.
