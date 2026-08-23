@@ -1,17 +1,17 @@
 # Relational depth programme
 
-Release: `0.17-public-intake-lineage-alpha`
+Release: `0.16-grammar-connections-presentation-alpha`
 
-Generated: `2026-08-19`
+Generated: `2026-08-14`
 
 ## The outcome
 
 The atlas now treats relational richness as maintained data, not a visual impression. Every canonical public entry has a structural connection band and a separate evidence band. This makes it possible to add provisional routes without pretending that repetition, plausibility or graph density is proof.
 
-- 571 of 581 entries have at least one reader connection.
-- 43 are structurally rich, 252 developing, 276 thin and 10 unconnected.
-- 397 have at least one non-documentary semantic, historical, human, identity, practice, influence or contestation route.
-- Evidence is 216 supported, 252 mixed, 103 provisional and 10 absent at entry level.
+- 577 of 633 entries have at least one reader connection.
+- 43 are structurally rich, 252 developing, 282 thin and 56 unconnected.
+- 401 have at least one non-documentary semantic, historical, human, identity, practice, influence or contestation route.
+- Evidence is 218 supported, 256 mixed, 103 provisional and 56 absent at entry level.
 
 ## What counts
 
@@ -43,16 +43,16 @@ The template is an editorial checklist, not an invitation to fill six slots with
 | --- | ---: | ---: | ---: | ---: | ---: |
 | approach family | 6 | 2 | 4 | 0 | 0 |
 | comparator corpus | 1 | 0 | 0 | 1 | 0 |
-| concept | 76 | 10 | 50 | 16 | 0 |
+| concept | 92 | 10 | 50 | 17 | 15 |
 | corpus | 5 | 0 | 1 | 4 | 0 |
 | intervention skill | 47 | 0 | 47 | 0 | 0 |
 | knowledge domain | 1 | 0 | 1 | 0 | 0 |
 | law or principle | 33 | 17 | 16 | 0 | 0 |
 | method or methodology | 23 | 5 | 18 | 0 | 0 |
-| organisation | 5 | 0 | 3 | 2 | 0 |
-| person | 195 | 2 | 61 | 122 | 10 |
+| organisation | 7 | 0 | 3 | 2 | 2 |
+| person | 226 | 2 | 61 | 124 | 39 |
 | practice | 25 | 5 | 11 | 9 | 0 |
-| publication | 135 | 1 | 16 | 118 | 0 |
+| publication | 138 | 1 | 16 | 121 | 0 |
 | technology | 1 | 0 | 1 | 0 | 0 |
 | theory | 1 | 0 | 1 | 0 | 0 |
 | tool | 13 | 0 | 13 | 0 | 0 |
@@ -79,59 +79,59 @@ The queue below is generated from current structure. Low degree and low relation
 
 | Entry | Type | Structure | Evidence | Reader neighbours | Families |
 | --- | --- | --- | --- | ---: | ---: |
+| Alasdair MacIntyre | person | unconnected | none | 0 | 0 |
+| Albert-László Barabási | person | unconnected | none | 0 | 0 |
+| Anatol Rapoport | person | unconnected | none | 0 | 0 |
 | Archimedes | person | unconnected | none | 0 | 0 |
+| Attractor | concept | unconnected | none | 0 | 0 |
+| C. West Churchman | person | unconnected | none | 0 | 0 |
+| Causal loop diagrams | concept | unconnected | none | 0 | 0 |
 | Claude Bernard | person | unconnected | none | 0 | 0 |
 | David Hilbert | person | unconnected | none | 0 | 0 |
+| Dynamic complexity | concept | unconnected | none | 0 | 0 |
+| Edgar Morin | person | unconnected | none | 0 | 0 |
+| Edge of chaos | concept | unconnected | none | 0 | 0 |
+| Fitness landscape | concept | unconnected | none | 0 | 0 |
+| Frank Rosenblatt | person | unconnected | none | 0 | 0 |
+| Fritjof Capra | person | unconnected | none | 0 | 0 |
+| George Spencer-Brown | person | unconnected | none | 0 | 0 |
 | Giuseppe Peano | person | unconnected | none | 0 | 0 |
+| Hierarchy | concept | unconnected | none | 0 | 0 |
+| Ilya Prigogine | person | unconnected | none | 0 | 0 |
+| James Lovelock | person | unconnected | none | 0 | 0 |
+| Jay W. Forrester | person | unconnected | none | 0 | 0 |
+| John von Neumann | person | unconnected | none | 0 | 0 |
+| Kenneth E. Boulding | person | unconnected | none | 0 | 0 |
 | Kurt Gödel | person | unconnected | none | 0 | 0 |
 | Leonardo of Pisa | person | unconnected | none | 0 | 0 |
+| Louis H. Kauffman | person | unconnected | none | 0 | 0 |
+| Ludwig Wittgenstein | person | unconnected | none | 0 | 0 |
+| Ludwig von Bertalanffy | person | unconnected | none | 0 | 0 |
+| Lynn Margulis | person | unconnected | none | 0 | 0 |
+| Margaret Mead | person | unconnected | none | 0 | 0 |
+| Marvin Weisbord | person | unconnected | none | 0 | 0 |
+| Mental models | concept | unconnected | none | 0 | 0 |
+| NTL Institute | organisation | unconnected | none | 0 | 0 |
+| Network theory | concept | unconnected | none | 0 | 0 |
+| Nicholas A. Christakis | person | unconnected | none | 0 | 0 |
+| Niklas Luhmann | person | unconnected | none | 0 | 0 |
 | Noam Chomsky | person | unconnected | none | 0 | 0 |
 | Panini | person | unconnected | none | 0 | 0 |
+| Paul Cilliers | person | unconnected | none | 0 | 0 |
+| Peter Block | person | unconnected | none | 0 | 0 |
+| Phase transition | concept | unconnected | none | 0 | 0 |
+| Philip Boxer | person | unconnected | none | 0 | 0 |
 | Pingala | person | unconnected | none | 0 | 0 |
 | Plato | person | unconnected | none | 0 | 0 |
-| Alessandro Rancati | person | thin | mixed | 1 | 1 |
-| Alfonso Reyes | person | thin | mixed | 1 | 1 |
-| Arthur Battram | person | thin | mixed | 1 | 1 |
-| Critical systems thinking | tradition | thin | mixed | 1 | 1 |
-| Decolonial systems thinking | concept | thin | mixed | 1 | 1 |
-| Epistemic injustice | concept | thin | mixed | 1 | 1 |
-| Flawless Consulting: A Guide to Getting Your Expertise Used | publication | thin | mixed | 1 | 1 |
-| Lucy Loh | person | thin | mixed | 1 | 1 |
-| Mary E. Boone | person | thin | mixed | 1 | 1 |
-| Murmurations: Journal of Transformative Systemic Practice | publication | thin | mixed | 1 | 1 |
-| Steps to an Ecology of Mind | publication | thin | mixed | 1 | 1 |
-| Tony Korycki | person | thin | mixed | 1 | 1 |
-| Understanding Understanding | publication | thin | mixed | 1 | 1 |
-| A. Cobham | person | thin | mixed | 1 | 1 |
-| A. J. Lotka | person | thin | mixed | 1 | 1 |
-| A. N. Kolmogorov | person | thin | mixed | 1 | 1 |
-| B. B. Mandelbrot | person | thin | mixed | 1 | 1 |
-| Bertrand Russell | person | thin | mixed | 1 | 1 |
-| C. G. Langton | person | thin | mixed | 1 | 1 |
-| C. H. Bennett | person | thin | mixed | 1 | 1 |
-| C. H. Waddington | person | thin | mixed | 1 | 1 |
-| C. Reynolds | person | thin | mixed | 1 | 1 |
-| C. S. Holling | person | thin | mixed | 1 | 1 |
-| Centre for Systems Studies | organisation | thin | mixed | 1 | 1 |
-| Circular economy | practice | thin | mixed | 1 | 1 |
-| D. M. Raup | person | thin | mixed | 1 | 1 |
-| Diana Wright | person | thin | mixed | 1 | 1 |
-| E. B. W. Zubrow | person | thin | mixed | 1 | 1 |
-| E. N. Lorenz | person | thin | mixed | 1 | 1 |
-| E. Ostrom | person | thin | mixed | 1 | 1 |
-| E. T. Jaynes | person | thin | mixed | 1 | 1 |
-| Ed Straw | person | thin | mixed | 1 | 1 |
-| Eilhard von Domarus | person | thin | provisional | 1 | 1 |
-| F. A. Hayek | person | thin | mixed | 1 | 1 |
-| F. J. Dyson | person | thin | mixed | 1 | 1 |
-| G. J. Chaitin | person | thin | mixed | 1 | 1 |
-| G. Parisi | person | thin | mixed | 1 | 1 |
-| G. R. Price | person | thin | mixed | 1 | 1 |
-| H. Haken | person | thin | mixed | 1 | 1 |
-| Harold Stephen Black | person | thin | mixed | 1 | 1 |
+| Power law | concept | unconnected | none | 0 | 0 |
+| Resilience | concept | unconnected | none | 0 | 0 |
+| Robert Axelrod | person | unconnected | none | 0 | 0 |
+| Russell L. Ackoff | person | unconnected | none | 0 | 0 |
+| Sandra Janoff | person | unconnected | none | 0 | 0 |
+| Scaling laws | concept | unconnected | none | 0 | 0 |
 
 ## First enrichment cohort in this release
 
-This release adds a public contribution-and-response layer, an inspectable canon-and-lineage route, richer treatment of Michael C. Jackson, Magnus Ramage, Karen Shipp and Systems Thinkers, and typed connections concerning canon formation, epistemic exclusion, appropriation, recovery and structurelessness. It also incorporates the first structured site submission as a public projection while keeping the GitHub issue as the canonical conversation, and records a bounded second company-knowledge discovery pass without publishing private links or extracts.
+This release adds typed provisional crosswalks for every SCiO intervention-skill entry; gives the previously reader-isolated concepts, methods, tools and traditions multiple routes into the maintained graph; exposes the Foundational Papers volume contents as documentary statements; connects the Cynefin wiki to its maintaining organisation and the material it presents; and adds slide-level statements from the supplied transformation, convening, organisational-dynamics, VSM, clarity and conversation material.
 
 These additions improve navigability immediately. They do not complete historical influence, human transmission, institutional history, field-level controversy or case evidence. Those remain the most important missing layers in the original-vision audit.

@@ -1,0 +1,478 @@
+{
+  "release": "0.18-navigable-tangle-alpha",
+  "request_source_id": "src_tangle_issue2_post017_usability_2026",
+  "method": "Resolve canonical names and aliases, expose actual profile/source/connection depth, and leave unsupported biographical or lineage claims out of the public graph.",
+  "items": [
+    {
+      "name": "Philip Boxer",
+      "node_id": "person_philip_boxer",
+      "publication_level": "research_stub",
+      "has_profile": false,
+      "public_source_count": 1,
+      "substantive_connection_count": 0,
+      "aliases": [
+        "Philip Boxer"
+      ],
+      "status": "research_queue"
+    },
+    {
+      "name": "Sandra Janoff",
+      "node_id": "person_sandra_janoff",
+      "publication_level": "research_stub",
+      "has_profile": false,
+      "public_source_count": 1,
+      "substantive_connection_count": 0,
+      "aliases": [
+        "Sandra Janoff"
+      ],
+      "status": "research_queue"
+    },
+    {
+      "name": "Marvin Weisbord",
+      "node_id": "person_marvin_weisbord",
+      "publication_level": "research_stub",
+      "has_profile": false,
+      "public_source_count": 1,
+      "substantive_connection_count": 0,
+      "aliases": [
+        "Marv Weisbord",
+        "Marvin R. Weisbord",
+        "Weisbord"
+      ],
+      "status": "research_queue"
+    },
+    {
+      "name": "Peter Block",
+      "node_id": "person_peter_block",
+      "publication_level": "research_stub",
+      "has_profile": false,
+      "public_source_count": 1,
+      "substantive_connection_count": 0,
+      "aliases": [
+        "Peter Block"
+      ],
+      "status": "research_queue"
+    },
+    {
+      "name": "C. West Churchman",
+      "node_id": "person_c_west_churchman",
+      "publication_level": "research_stub",
+      "has_profile": false,
+      "public_source_count": 1,
+      "substantive_connection_count": 0,
+      "aliases": [
+        "West Churchman",
+        "C West Churchman",
+        "Churchman"
+      ],
+      "status": "research_queue"
+    },
+    {
+      "name": "Ludwig von Bertalanffy",
+      "node_id": "person_ludwig_von_bertalanffy",
+      "publication_level": "research_stub",
+      "has_profile": false,
+      "public_source_count": 1,
+      "substantive_connection_count": 0,
+      "aliases": [
+        "von Bertalanffy",
+        "Bertalanffy"
+      ],
+      "status": "research_queue"
+    },
+    {
+      "name": "Norbert Wiener",
+      "node_id": "person_norbert_wiener",
+      "publication_level": "described",
+      "has_profile": false,
+      "public_source_count": 1,
+      "substantive_connection_count": 2,
+      "aliases": [
+        "Wiener"
+      ],
+      "status": "represented"
+    },
+    {
+      "name": "Jay W. Forrester",
+      "node_id": "person_jay_w_forrester",
+      "publication_level": "research_stub",
+      "has_profile": false,
+      "public_source_count": 1,
+      "substantive_connection_count": 0,
+      "aliases": [
+        "Jay Forrester",
+        "Forrester"
+      ],
+      "status": "research_queue"
+    },
+    {
+      "name": "Russell L. Ackoff",
+      "node_id": "person_russell_l_ackoff",
+      "publication_level": "research_stub",
+      "has_profile": false,
+      "public_source_count": 1,
+      "substantive_connection_count": 0,
+      "aliases": [
+        "Russell Ackoff",
+        "Russ Ackoff",
+        "Ackoff"
+      ],
+      "status": "research_queue"
+    },
+    {
+      "name": "Donella H. Meadows",
+      "node_id": "person_donella_meadows",
+      "publication_level": "profile",
+      "has_profile": true,
+      "public_source_count": 3,
+      "substantive_connection_count": 0,
+      "aliases": [
+        "Donella Meadows",
+        "Donna Meadows",
+        "Meadows"
+      ],
+      "status": "developed"
+    },
+    {
+      "name": "Alasdair MacIntyre",
+      "node_id": "person_alasdair_macintyre",
+      "publication_level": "research_stub",
+      "has_profile": false,
+      "public_source_count": 1,
+      "substantive_connection_count": 0,
+      "aliases": [
+        "MacIntyre",
+        "Alasdair MacInyre"
+      ],
+      "status": "research_queue"
+    },
+    {
+      "name": "Ludwig Wittgenstein",
+      "node_id": "person_ludwig_wittgenstein",
+      "publication_level": "research_stub",
+      "has_profile": false,
+      "public_source_count": 1,
+      "substantive_connection_count": 0,
+      "aliases": [
+        "Wittgenstein"
+      ],
+      "status": "research_queue"
+    },
+    {
+      "name": "George Spencer-Brown",
+      "node_id": "person_george_spencer_brown",
+      "publication_level": "research_stub",
+      "has_profile": false,
+      "public_source_count": 1,
+      "substantive_connection_count": 0,
+      "aliases": [
+        "G. Spencer-Brown",
+        "Spencer Brown",
+        "Spencer-Brown"
+      ],
+      "status": "research_queue"
+    },
+    {
+      "name": "The Tavistock Institute of Human Relations",
+      "node_id": "organisation_the_tavistock_institute_of_human_relations",
+      "publication_level": "research_stub",
+      "has_profile": false,
+      "public_source_count": 1,
+      "substantive_connection_count": 0,
+      "aliases": [
+        "Tavistock Institute",
+        "The Tavistock Institute"
+      ],
+      "status": "research_queue"
+    },
+    {
+      "name": "NTL Institute",
+      "node_id": "organisation_ntl_institute",
+      "publication_level": "research_stub",
+      "has_profile": false,
+      "public_source_count": 1,
+      "substantive_connection_count": 0,
+      "aliases": [
+        "NTL",
+        "National Training Laboratories",
+        "NTL Institute for Applied Behavioral Science"
+      ],
+      "status": "research_queue"
+    },
+    {
+      "name": "Peter Checkland",
+      "node_id": "person_peter_checkland",
+      "publication_level": "profile",
+      "has_profile": true,
+      "public_source_count": 2,
+      "substantive_connection_count": 1,
+      "aliases": [
+        "Checkland"
+      ],
+      "status": "developed"
+    },
+    {
+      "name": "Niklas Luhmann",
+      "node_id": "person_niklas_luhmann",
+      "publication_level": "research_stub",
+      "has_profile": false,
+      "public_source_count": 1,
+      "substantive_connection_count": 0,
+      "aliases": [
+        "Luhmann",
+        "Luhann"
+      ],
+      "status": "research_queue"
+    },
+    {
+      "name": "Louis H. Kauffman",
+      "node_id": "person_louis_h_kauffman",
+      "publication_level": "research_stub",
+      "has_profile": false,
+      "public_source_count": 1,
+      "substantive_connection_count": 0,
+      "aliases": [
+        "Louis Kauffman",
+        "L. H. Kauffman"
+      ],
+      "status": "research_queue"
+    },
+    {
+      "name": "Stuart Kauffman",
+      "node_id": "person_stuart_kauffman",
+      "publication_level": "research_stub",
+      "has_profile": false,
+      "public_source_count": 1,
+      "substantive_connection_count": 0,
+      "aliases": [
+        "Stuart A. Kauffman"
+      ],
+      "status": "research_queue"
+    },
+    {
+      "name": "Warren S. McCulloch",
+      "node_id": "person_warren_mcculloch",
+      "publication_level": "described",
+      "has_profile": false,
+      "public_source_count": 1,
+      "substantive_connection_count": 2,
+      "aliases": [
+        "Warren McCulloch",
+        "McCulloch"
+      ],
+      "status": "represented"
+    },
+    {
+      "name": "John von Neumann",
+      "node_id": "person_john_von_neumann",
+      "publication_level": "research_stub",
+      "has_profile": false,
+      "public_source_count": 1,
+      "substantive_connection_count": 0,
+      "aliases": [
+        "von Neumann"
+      ],
+      "status": "research_queue"
+    },
+    {
+      "name": "Margaret Mead",
+      "node_id": "person_margaret_mead",
+      "publication_level": "research_stub",
+      "has_profile": false,
+      "public_source_count": 1,
+      "substantive_connection_count": 0,
+      "aliases": [
+        "Mead"
+      ],
+      "status": "research_queue"
+    },
+    {
+      "name": "James Lovelock",
+      "node_id": "person_james_lovelock",
+      "publication_level": "research_stub",
+      "has_profile": false,
+      "public_source_count": 1,
+      "substantive_connection_count": 0,
+      "aliases": [
+        "Lovelock"
+      ],
+      "status": "research_queue"
+    },
+    {
+      "name": "Lynn Margulis",
+      "node_id": "person_lynn_margulis",
+      "publication_level": "research_stub",
+      "has_profile": false,
+      "public_source_count": 1,
+      "substantive_connection_count": 0,
+      "aliases": [
+        "Margulis"
+      ],
+      "status": "research_queue"
+    },
+    {
+      "name": "Anatol Rapoport",
+      "node_id": "person_anatol_rapoport",
+      "publication_level": "research_stub",
+      "has_profile": false,
+      "public_source_count": 1,
+      "substantive_connection_count": 0,
+      "aliases": [
+        "Rapoport",
+        "Rapaport"
+      ],
+      "status": "research_queue"
+    },
+    {
+      "name": "Kenneth E. Boulding",
+      "node_id": "person_kenneth_e_boulding",
+      "publication_level": "research_stub",
+      "has_profile": false,
+      "public_source_count": 1,
+      "substantive_connection_count": 0,
+      "aliases": [
+        "Kenneth Boulding",
+        "Boulding"
+      ],
+      "status": "research_queue"
+    },
+    {
+      "name": "Fritjof Capra",
+      "node_id": "person_fritjof_capra",
+      "publication_level": "research_stub",
+      "has_profile": false,
+      "public_source_count": 1,
+      "substantive_connection_count": 0,
+      "aliases": [
+        "Capra"
+      ],
+      "status": "research_queue"
+    },
+    {
+      "name": "Ilya Prigogine",
+      "node_id": "person_ilya_prigogine",
+      "publication_level": "research_stub",
+      "has_profile": false,
+      "public_source_count": 1,
+      "substantive_connection_count": 0,
+      "aliases": [
+        "Prigogine"
+      ],
+      "status": "research_queue"
+    },
+    {
+      "name": "Walter Pitts",
+      "node_id": "person_walter_pitts",
+      "publication_level": "research_stub",
+      "has_profile": false,
+      "public_source_count": 1,
+      "substantive_connection_count": 0,
+      "aliases": [
+        "Pitts"
+      ],
+      "status": "research_queue"
+    },
+    {
+      "name": "Frank Rosenblatt",
+      "node_id": "person_frank_rosenblatt",
+      "publication_level": "research_stub",
+      "has_profile": false,
+      "public_source_count": 1,
+      "substantive_connection_count": 0,
+      "aliases": [
+        "Rosenblatt"
+      ],
+      "status": "research_queue"
+    },
+    {
+      "name": "Heinz von Foerster",
+      "node_id": "person_heinz_von_foerster",
+      "publication_level": "described",
+      "has_profile": false,
+      "public_source_count": 1,
+      "substantive_connection_count": 1,
+      "aliases": [
+        "von Foerster",
+        "Heinz Von Foerster"
+      ],
+      "status": "represented"
+    },
+    {
+      "name": "Robert Axelrod",
+      "node_id": "person_robert_axelrod",
+      "publication_level": "research_stub",
+      "has_profile": false,
+      "public_source_count": 1,
+      "substantive_connection_count": 0,
+      "aliases": [
+        "Axelrod"
+      ],
+      "status": "research_queue"
+    },
+    {
+      "name": "Albert-László Barabási",
+      "node_id": "person_albert_l_szl_barab_si",
+      "publication_level": "research_stub",
+      "has_profile": false,
+      "public_source_count": 1,
+      "substantive_connection_count": 0,
+      "aliases": [
+        "Albert-Laszlo Barabasi",
+        "Albert Barabasi",
+        "Barabasi"
+      ],
+      "status": "research_queue"
+    },
+    {
+      "name": "Nicholas A. Christakis",
+      "node_id": "person_nicholas_a_christakis",
+      "publication_level": "research_stub",
+      "has_profile": false,
+      "public_source_count": 1,
+      "substantive_connection_count": 0,
+      "aliases": [
+        "Nicholas Christakis",
+        "Christakis"
+      ],
+      "status": "research_queue"
+    },
+    {
+      "name": "Edgar Morin",
+      "node_id": "person_edgar_morin",
+      "publication_level": "research_stub",
+      "has_profile": false,
+      "public_source_count": 1,
+      "substantive_connection_count": 0,
+      "aliases": [
+        "Morin"
+      ],
+      "status": "research_queue"
+    },
+    {
+      "name": "Paul Cilliers",
+      "node_id": "person_paul_cilliers",
+      "publication_level": "research_stub",
+      "has_profile": false,
+      "public_source_count": 1,
+      "substantive_connection_count": 0,
+      "aliases": [
+        "Cilliers"
+      ],
+      "status": "research_queue"
+    },
+    {
+      "name": "Linda Booth Sweeney",
+      "node_id": "person_linda_booth_sweeney",
+      "publication_level": "profile",
+      "has_profile": true,
+      "public_source_count": 1,
+      "substantive_connection_count": 1,
+      "aliases": [
+        "Linda Sweeney",
+        "Linda B. Sweeney",
+        "Dr Linda Booth Sweeney"
+      ],
+      "status": "developed"
+    }
+  ]
+}

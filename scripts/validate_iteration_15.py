@@ -4,7 +4,7 @@ import json,re,sys
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 D=json.loads((ROOT/'data/public-data.json').read_text(encoding='utf-8'))
-meta=D['meta']; assert meta['release'] in {'0.15-ing-reading-practice-alpha','0.16-grammar-connections-presentation-alpha', '0.17-public-intake-lineage-alpha'}; assert meta['generated']==('2026-08-19' if meta['release']=='0.17-public-intake-lineage-alpha' else '2026-08-14')
+meta=D['meta']; assert meta['release'] in {'0.15-ing-reading-practice-alpha','0.16-grammar-connections-presentation-alpha', '0.17-public-intake-lineage-alpha', '0.18-navigable-tangle-alpha'}; assert meta['generated']==('2026-08-23' if meta['release']=='0.18-navigable-tangle-alpha' else ('2026-08-19' if meta['release']=='0.17-public-intake-lineage-alpha' else '2026-08-14'))
 node_ids={n['id'] for n in D['nodes']}; profile_ids={p.get('node_id') for p in D['profiles']}; journey_ids={j['id'] for j in D['journeys']}
 required_nodes={'person_david_ing','corpus_coevolving_innovations','corpus_systems_changes','approach_family_service_systems_thinking','approach_family_systems_changes_learning','practice_systems_lineage_documentation','publication_pattern_manual_service_systems_thinking','publication_systems_thinkers_ramage_shipp','publication_steps_to_ecology_of_mind','publication_understanding_understanding','publication_flawless_consulting','practice_core_systems_practice_spine'}
 assert required_nodes <= node_ids; assert required_nodes <= profile_ids

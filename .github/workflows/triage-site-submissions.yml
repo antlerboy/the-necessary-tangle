@@ -2,8 +2,14 @@ name: Triage structured site submissions
 
 on:
   issues:
-    types: [opened, reopened]
+    types: [opened, reopened, closed, labeled, unlabeled]
+  issue_comment:
+    types: [created, edited]
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/triage-site-submissions.yml"
 
 permissions:
   issues: write
@@ -12,66 +18,63 @@ jobs:
   triage:
     if: >-
       github.event_name == 'workflow_dispatch' ||
+      github.event_name == 'push' ||
       contains(github.event.issue.body || '', 'Prepared from The Necessary Tangle')
     runs-on: ubuntu-latest
     steps:
-      - name: Label new submissions or backfill the open queue
+      - name: Create labels and classify the structured queue
         uses: actions/github-script@v8
         with:
           script: |
             const marker = 'Prepared from The Necessary Tangle';
             const labels = [
-              {
-                name: 'site-submission',
-                color: '6f4e56',
-                description: 'Structured contribution submitted through The Necessary Tangle site'
-              },
-              {
-                name: 'awaiting-curator-review',
-                color: 'd4a72c',
-                description: 'Not yet accepted, rejected or incorporated by the curator'
-              }
+              {name: 'site-submission', color: '6f4e56', description: 'Structured contribution submitted through The Necessary Tangle site'},
+              {name: 'awaiting-curator-review', color: 'd4a72c', description: 'Not yet accepted, rejected or incorporated by the curator'},
+              {name: 'investigating', color: '1d76db', description: 'Evidence or implications are being investigated'},
+              {name: 'incorporated', color: '2da44e', description: 'Incorporated into a numbered public release'},
+              {name: 'partly-incorporated', color: '4c9a5f', description: 'Some but not all of the proposal was incorporated'},
+              {name: 'disputed', color: '8250df', description: 'The disagreement remains visible and unresolved'},
+              {name: 'deferred', color: '8c6d1f', description: 'Retained for later work rather than decided now'},
+              {name: 'declined', color: '6e7781', description: 'Reviewed and not accepted, with the reason kept public'}
             ];
-
             for (const label of labels) {
               try {
-                await github.rest.issues.getLabel({
-                  owner: context.repo.owner,
-                  repo: context.repo.repo,
-                  name: label.name
-                });
+                await github.rest.issues.getLabel({owner: context.repo.owner, repo: context.repo.repo, name: label.name});
               } catch (error) {
                 if (error.status !== 404) throw error;
-                await github.rest.issues.createLabel({
-                  owner: context.repo.owner,
-                  repo: context.repo.repo,
-                  ...label
-                });
+                await github.rest.issues.createLabel({owner: context.repo.owner, repo: context.repo.repo, ...label});
               }
             }
 
             let issues;
-            if (context.eventName === 'issues') {
+            if (context.eventName === 'issues' || context.eventName === 'issue_comment') {
               issues = [context.payload.issue];
             } else {
               issues = await github.paginate(github.rest.issues.listForRepo, {
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                state: 'open',
-                per_page: 100
+                owner: context.repo.owner, repo: context.repo.repo, state: 'all', per_page: 100
               });
-              issues = issues.filter(issue =>
-                !issue.pull_request && (issue.body || '').includes(marker)
-              );
             }
-
+            issues = issues.filter(issue => !issue.pull_request && (issue.body || '').includes(marker));
+            const terminal = ['incorporated','partly-incorporated','disputed','deferred','declined'];
             for (const issue of issues) {
-              await github.rest.issues.addLabels({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                issue_number: issue.number,
-                labels: labels.map(label => label.name)
+              const comments = await github.paginate(github.rest.issues.listComments, {
+                owner: context.repo.owner, repo: context.repo.repo, issue_number: issue.number, per_page: 100
               });
+              const commentText = comments.map(comment => comment.body || '').join('\n').toLowerCase();
+              const existing = (issue.labels || []).map(label => typeof label === 'string' ? label : label.name);
+              let status = terminal.find(name => existing.includes(name));
+              if (commentText.includes('incorporated in release')) status = 'incorporated';
+              const add = ['site-submission'];
+              if (status) add.push(status);
+              else if (issue.state === 'open') add.push('awaiting-curator-review');
+              else add.push('deferred');
+              await github.rest.issues.addLabels({
+                owner: context.repo.owner, repo: context.repo.repo, issue_number: issue.number, labels: add
+              });
+              if (status && existing.includes('awaiting-curator-review')) {
+                await github.rest.issues.removeLabel({
+                  owner: context.repo.owner, repo: context.repo.repo, issue_number: issue.number, name: 'awaiting-curator-review'
+                });
+              }
             }
-
-            core.info(`Labelled ${issues.length} structured site submission(s).`);
+            core.info(`Classified ${issues.length} structured site submission(s).`);

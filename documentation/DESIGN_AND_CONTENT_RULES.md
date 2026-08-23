@@ -56,3 +56,10 @@ conflicts with them, stop and ask for a human decision.
   and mobile widths.
 - Merge through a reviewed pull request; substantive curatorial batches receive a
   numbered release.
+
+
+## Navigational link contract
+
+Anything whose purpose is to take a reader to another stable atlas state must be an actual link with an `href`, including cards, search suggestions, map nodes, map connections, entry actions and serendipity routes. Plain left-click may be enhanced in place. Copy link, open in new tab, modified-click and browser history must remain coherent. Use buttons only for actions which cannot sensibly be represented as a URL, such as filtering, zooming, copying or submitting a form.
+
+Public prose must stand alone. It must not answer an unseen prompt, refer to a person only by a private-conversation shorthand, or depend on knowledge of the development chat. Feedback and provenance belong in the ledger or source record; definitions and explanations must carry their own context.

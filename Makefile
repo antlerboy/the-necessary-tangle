@@ -38,9 +38,19 @@ build:
 	python3 scripts/refresh_graph_snapshot.py
 	python3 scripts/patch_iteration_17.py
 	python3 scripts/sync_release_docs_17.py
+	python3 scripts/apply_iteration_18.py
+	python3 scripts/finalise_public_entries_18.py
+	python3 scripts/stamp_current_projections_18.py
+	python3 scripts/finalise_observation_compat_18.py
+	python3 scripts/refresh_graph_snapshot.py
+	python3 scripts/patch_iteration_18.py
+	python3 scripts/sync_release_docs_18.py
+	python3 scripts/finalise_work_spine_18.py
+	python3 scripts/patch_validator_compat_18.py
 	python3 scripts/build_public_knowledge.py
+	python3 scripts/finalise_public_interface_18.py
 
-validate: build
+validate:
 	python3 scripts/validate_work_spine.py
 	python3 scripts/validate_public.py
 	python3 scripts/validate_constellation.py
@@ -50,6 +60,7 @@ validate: build
 	python3 scripts/validate_iteration_11.py
 	python3 scripts/validate_iteration_12.py
 	python3 scripts/validate_iteration_13.py
+	python3 scripts/finalise_public_interface_18.py
 	python3 scripts/validate_iteration_14.py
 	python3 scripts/validate_iteration_15.py
 	python3 scripts/validate_map_usability_hotfix.py
@@ -58,6 +69,7 @@ validate: build
 	python3 scripts/validate_adversarial_review.py
 	python3 scripts/validate_doncaster_lineage.py
 	python3 scripts/validate_iteration_17.py
+	python3 scripts/validate_iteration_18.py
 	./scripts/check_javascript.sh
 
 serve: build

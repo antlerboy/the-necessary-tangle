@@ -27,33 +27,33 @@
     "semantic_statements": 747
   },
   "current": {
-    "public_entries": 565,
-    "all_nodes": 675,
-    "all_edges": 1809,
-    "sources": 195,
+    "public_entries": 581,
+    "all_nodes": 691,
+    "all_edges": 1826,
+    "sources": 205,
     "claims": 34,
     "evidence_records": 37,
-    "profiles": 115,
-    "journeys": 20,
+    "profiles": 123,
+    "journeys": 21,
     "external_corpora_reviewed": 9,
     "internal_sources_reviewed": 18,
-    "reader_connected_entries": 555,
-    "semantic_connected_entries": 382,
-    "semantic_gap_entries": 183,
+    "reader_connected_entries": 571,
+    "semantic_connected_entries": 397,
+    "semantic_gap_entries": 184,
     "connection_bands": {
-      "developing": 248,
+      "developing": 252,
       "rich": 43,
-      "thin": 264,
+      "thin": 276,
       "unconnected": 10
     },
     "evidence_bands": {
-      "mixed": 240,
+      "mixed": 252,
       "none": 10,
-      "provisional": 102,
-      "supported": 213
+      "provisional": 103,
+      "supported": 216
     },
-    "reader_statements": 1253,
-    "semantic_statements": 838
+    "reader_statements": 1270,
+    "semantic_statements": 851
   },
   "changes_from_baseline": {
     "generic_relation_review_targets": {
@@ -66,69 +66,69 @@
     },
     "sources": {
       "before": 153,
-      "after": 195
+      "after": 205
     },
     "semantic_connected_entries": {
       "before": 329,
-      "after": 382,
+      "after": 397,
       "note": "A generic journal-to-tradition edge was replaced by a narrower documentary scope claim; unsupported semantic reach was not preserved."
     },
     "substantive_edge_count": {
       "before": 750,
-      "after": 841
+      "after": 854
     },
     "isolated_semantic_nodes": {
       "before": 167,
-      "after": 183
+      "after": 184
     }
   },
   "criteria": {
     "typed": {
-      "passing": 1809,
-      "total": 1809
+      "passing": 1826,
+      "total": 1826
     },
     "directed": {
-      "passing": 1709,
-      "total": 1809,
+      "passing": 1726,
+      "total": 1826,
       "undirected": 100
     },
     "human_readable_phrase": {
-      "passing": 1809,
-      "total": 1809
+      "passing": 1826,
+      "total": 1826
     },
     "explicit_rationale": {
-      "passing": 1510,
-      "total": 1809
+      "passing": 1527,
+      "total": 1826
     },
     "source_identifier": {
-      "passing": 1809,
-      "total": 1809
+      "passing": 1826,
+      "total": 1826
     },
     "locator_present": {
-      "passing": 1406,
-      "total": 1809
+      "passing": 1423,
+      "total": 1826
     },
     "precision_shaped_locator": {
       "passing": 320,
-      "total": 1809,
+      "total": 1826,
       "note": "Conservative text-pattern measure; manual review is still required."
     },
     "epistemic_fields_present": {
-      "passing": 1809,
-      "total": 1809
+      "passing": 1826,
+      "total": 1826
     },
     "generic_related_to": {
-      "passing": 1809,
-      "total": 1809,
+      "passing": 1826,
+      "total": 1826,
       "review_target_count": 0
     },
     "three_or_more_relation_families": {
-      "passing": 90,
-      "total": 565
+      "passing": 93,
+      "total": 581
     },
     "one_relation_family": {
-      "count": 200,
-      "total": 565
+      "count": 208,
+      "total": 581
     },
     "external_corpus_records": {
       "passing": 9,
@@ -408,6 +408,69 @@
       ]
     },
     {
+      "node_id": "tradition_critical_systems_thinking",
+      "label": "Critical systems thinking",
+      "entity_type": "tradition",
+      "publication_level": "profile",
+      "connection_band": "thin",
+      "evidence_band": "mixed",
+      "visible_connections": 1,
+      "visible_statements": 1,
+      "reader_connections": 1,
+      "reader_statements": 1,
+      "semantic_connections": 1,
+      "semantic_statements": 1,
+      "documentary_statements": 0,
+      "accepted_reader_statements": 1,
+      "provisional_reader_statements": 0,
+      "distinct_reader_families": 1,
+      "reader_families": [
+        "conceptual"
+      ]
+    },
+    {
+      "node_id": "concept_decolonial_systems_thinking",
+      "label": "Decolonial systems thinking",
+      "entity_type": "concept",
+      "publication_level": "profile",
+      "connection_band": "thin",
+      "evidence_band": "mixed",
+      "visible_connections": 1,
+      "visible_statements": 1,
+      "reader_connections": 1,
+      "reader_statements": 1,
+      "semantic_connections": 1,
+      "semantic_statements": 1,
+      "documentary_statements": 0,
+      "accepted_reader_statements": 1,
+      "provisional_reader_statements": 0,
+      "distinct_reader_families": 1,
+      "reader_families": [
+        "practice"
+      ]
+    },
+    {
+      "node_id": "concept_epistemic_injustice",
+      "label": "Epistemic injustice",
+      "entity_type": "concept",
+      "publication_level": "profile",
+      "connection_band": "thin",
+      "evidence_band": "mixed",
+      "visible_connections": 1,
+      "visible_statements": 1,
+      "reader_connections": 1,
+      "reader_statements": 1,
+      "semantic_connections": 1,
+      "semantic_statements": 1,
+      "documentary_statements": 0,
+      "accepted_reader_statements": 1,
+      "provisional_reader_statements": 0,
+      "distinct_reader_families": 1,
+      "reader_families": [
+        "conceptual"
+      ]
+    },
+    {
       "node_id": "publication_flawless_consulting",
       "label": "Flawless Consulting: A Guide to Getting Your Expertise Used",
       "entity_type": "publication",
@@ -471,27 +534,6 @@
       ]
     },
     {
-      "node_id": "person_michael_c_jackson",
-      "label": "Michael C. Jackson",
-      "entity_type": "person",
-      "publication_level": "profile",
-      "connection_band": "thin",
-      "evidence_band": "mixed",
-      "visible_connections": 1,
-      "visible_statements": 1,
-      "reader_connections": 1,
-      "reader_statements": 1,
-      "semantic_connections": 0,
-      "semantic_statements": 0,
-      "documentary_statements": 1,
-      "accepted_reader_statements": 1,
-      "provisional_reader_statements": 0,
-      "distinct_reader_families": 1,
-      "reader_families": [
-        "documentary"
-      ]
-    },
-    {
       "node_id": "publication_murmurations_journal",
       "label": "Murmurations: Journal of Transformative Systemic Practice",
       "entity_type": "publication",
@@ -531,27 +573,6 @@
       "distinct_reader_families": 1,
       "reader_families": [
         "documentary"
-      ]
-    },
-    {
-      "node_id": "publication_systems_thinkers_ramage_shipp",
-      "label": "Systems Thinkers",
-      "entity_type": "publication",
-      "publication_level": "profile",
-      "connection_band": "thin",
-      "evidence_band": "mixed",
-      "visible_connections": 1,
-      "visible_statements": 1,
-      "reader_connections": 1,
-      "reader_statements": 1,
-      "semantic_connections": 1,
-      "semantic_statements": 1,
-      "documentary_statements": 0,
-      "accepted_reader_statements": 1,
-      "provisional_reader_statements": 0,
-      "distinct_reader_families": 1,
-      "reader_families": [
-        "conceptual"
       ]
     },
     {
@@ -804,6 +825,27 @@
       "distinct_reader_families": 1,
       "reader_families": [
         "documentary"
+      ]
+    },
+    {
+      "node_id": "organisation_centre_for_systems_studies_hull",
+      "label": "Centre for Systems Studies",
+      "entity_type": "organisation",
+      "publication_level": "described",
+      "connection_band": "thin",
+      "evidence_band": "mixed",
+      "visible_connections": 1,
+      "visible_statements": 1,
+      "reader_connections": 1,
+      "reader_statements": 1,
+      "semantic_connections": 1,
+      "semantic_statements": 1,
+      "documentary_statements": 0,
+      "accepted_reader_statements": 1,
+      "provisional_reader_statements": 0,
+      "distinct_reader_families": 1,
+      "reader_families": [
+        "human"
       ]
     },
     {
@@ -1353,6 +1395,27 @@
       ]
     },
     {
+      "node_id": "person_jo_freeman",
+      "label": "Jo Freeman",
+      "entity_type": "person",
+      "publication_level": "described",
+      "connection_band": "thin",
+      "evidence_band": "mixed",
+      "visible_connections": 1,
+      "visible_statements": 1,
+      "reader_connections": 1,
+      "reader_statements": 1,
+      "semantic_connections": 0,
+      "semantic_statements": 0,
+      "documentary_statements": 1,
+      "accepted_reader_statements": 1,
+      "provisional_reader_statements": 0,
+      "distinct_reader_families": 1,
+      "reader_families": [
+        "documentary"
+      ]
+    },
+    {
       "node_id": "person_jorge_mpodozis",
       "label": "Jorge Mpodozis",
       "entity_type": "person",
@@ -1649,6 +1712,27 @@
     {
       "node_id": "person_miguel_pantaleon",
       "label": "Miguel Pantaleon",
+      "entity_type": "person",
+      "publication_level": "described",
+      "connection_band": "thin",
+      "evidence_band": "mixed",
+      "visible_connections": 1,
+      "visible_statements": 1,
+      "reader_connections": 1,
+      "reader_statements": 1,
+      "semantic_connections": 0,
+      "semantic_statements": 0,
+      "documentary_statements": 1,
+      "accepted_reader_statements": 1,
+      "provisional_reader_statements": 0,
+      "distinct_reader_families": 1,
+      "reader_families": [
+        "documentary"
+      ]
+    },
+    {
+      "node_id": "person_miranda_fricker",
+      "label": "Miranda Fricker",
       "entity_type": "person",
       "publication_level": "described",
       "connection_band": "thin",
@@ -2321,6 +2405,69 @@
       ]
     },
     {
+      "node_id": "concept_epistemic_closure",
+      "label": "Epistemic closure",
+      "entity_type": "concept",
+      "publication_level": "profile",
+      "connection_band": "thin",
+      "evidence_band": "provisional",
+      "visible_connections": 2,
+      "visible_statements": 2,
+      "reader_connections": 2,
+      "reader_statements": 2,
+      "semantic_connections": 2,
+      "semantic_statements": 2,
+      "documentary_statements": 0,
+      "accepted_reader_statements": 0,
+      "provisional_reader_statements": 2,
+      "distinct_reader_families": 1,
+      "reader_families": [
+        "contestation"
+      ]
+    },
+    {
+      "node_id": "practice_lineage_recovery",
+      "label": "Lineage recovery",
+      "entity_type": "practice",
+      "publication_level": "profile",
+      "connection_band": "thin",
+      "evidence_band": "mixed",
+      "visible_connections": 2,
+      "visible_statements": 2,
+      "reader_connections": 2,
+      "reader_statements": 2,
+      "semantic_connections": 2,
+      "semantic_statements": 2,
+      "documentary_statements": 0,
+      "accepted_reader_statements": 2,
+      "provisional_reader_statements": 0,
+      "distinct_reader_families": 1,
+      "reader_families": [
+        "practice"
+      ]
+    },
+    {
+      "node_id": "concept_structurelessness",
+      "label": "Structurelessness",
+      "entity_type": "concept",
+      "publication_level": "profile",
+      "connection_band": "thin",
+      "evidence_band": "mixed",
+      "visible_connections": 2,
+      "visible_statements": 2,
+      "reader_connections": 2,
+      "reader_statements": 2,
+      "semantic_connections": 2,
+      "semantic_statements": 2,
+      "documentary_statements": 0,
+      "accepted_reader_statements": 1,
+      "provisional_reader_statements": 1,
+      "distinct_reader_families": 1,
+      "reader_families": [
+        "contestation"
+      ]
+    },
+    {
       "node_id": "corpus_systems_changes",
       "label": "Systems Changes",
       "entity_type": "corpus",
@@ -2447,6 +2594,27 @@
       ]
     },
     {
+      "node_id": "organisation_the_open_university",
+      "label": "The Open University",
+      "entity_type": "organisation",
+      "publication_level": "described",
+      "connection_band": "thin",
+      "evidence_band": "mixed",
+      "visible_connections": 2,
+      "visible_statements": 2,
+      "reader_connections": 2,
+      "reader_statements": 2,
+      "semantic_connections": 2,
+      "semantic_statements": 2,
+      "documentary_statements": 0,
+      "accepted_reader_statements": 2,
+      "provisional_reader_statements": 0,
+      "distinct_reader_families": 1,
+      "reader_families": [
+        "human"
+      ]
+    },
+    {
       "node_id": "person_fpcs_w_b_arthur",
       "label": "W. B. Arthur",
       "entity_type": "person",
@@ -2488,182 +2656,6 @@
         "conceptual",
         "documentary"
       ]
-    },
-    {
-      "node_id": "person_barry_oshry",
-      "label": "Barry Oshry",
-      "entity_type": "person",
-      "publication_level": "profile",
-      "connection_band": "thin",
-      "evidence_band": "mixed",
-      "visible_connections": 2,
-      "visible_statements": 2,
-      "reader_connections": 2,
-      "reader_statements": 2,
-      "semantic_connections": 1,
-      "semantic_statements": 1,
-      "documentary_statements": 1,
-      "accepted_reader_statements": 2,
-      "provisional_reader_statements": 0,
-      "distinct_reader_families": 2,
-      "reader_families": [
-        "documentary",
-        "historical"
-      ]
-    },
-    {
-      "node_id": "publication_complex_acts_of_knowing",
-      "label": "Complex Acts of Knowing",
-      "entity_type": "publication",
-      "publication_level": "profile",
-      "connection_band": "thin",
-      "evidence_band": "mixed",
-      "visible_connections": 2,
-      "visible_statements": 2,
-      "reader_connections": 2,
-      "reader_statements": 2,
-      "semantic_connections": 1,
-      "semantic_statements": 1,
-      "documentary_statements": 1,
-      "accepted_reader_statements": 2,
-      "provisional_reader_statements": 0,
-      "distinct_reader_families": 2,
-      "reader_families": [
-        "conceptual",
-        "documentary"
-      ]
-    },
-    {
-      "node_id": "publication_complexity_key_idea_business_society",
-      "label": "Complexity: A Key Idea for Business and Society",
-      "entity_type": "publication",
-      "publication_level": "profile",
-      "connection_band": "thin",
-      "evidence_band": "mixed",
-      "visible_connections": 2,
-      "visible_statements": 2,
-      "reader_connections": 2,
-      "reader_statements": 2,
-      "semantic_connections": 1,
-      "semantic_statements": 1,
-      "documentary_statements": 1,
-      "accepted_reader_statements": 2,
-      "provisional_reader_statements": 0,
-      "distinct_reader_families": 2,
-      "reader_families": [
-        "documentary",
-        "influence"
-      ]
-    },
-    {
-      "node_id": "person_cynthia_f_kurtz",
-      "label": "Cynthia F. Kurtz",
-      "entity_type": "person",
-      "publication_level": "profile",
-      "connection_band": "thin",
-      "evidence_band": "mixed",
-      "visible_connections": 2,
-      "visible_statements": 2,
-      "reader_connections": 2,
-      "reader_statements": 2,
-      "semantic_connections": 1,
-      "semantic_statements": 1,
-      "documentary_statements": 1,
-      "accepted_reader_statements": 2,
-      "provisional_reader_statements": 0,
-      "distinct_reader_families": 2,
-      "reader_families": [
-        "documentary",
-        "human"
-      ]
-    },
-    {
-      "node_id": "publication_dancing_with_systems",
-      "label": "Dancing With Systems",
-      "entity_type": "publication",
-      "publication_level": "profile",
-      "connection_band": "thin",
-      "evidence_band": "mixed",
-      "visible_connections": 2,
-      "visible_statements": 2,
-      "reader_connections": 2,
-      "reader_statements": 2,
-      "semantic_connections": 1,
-      "semantic_statements": 1,
-      "documentary_statements": 1,
-      "accepted_reader_statements": 2,
-      "provisional_reader_statements": 0,
-      "distinct_reader_families": 2,
-      "reader_families": [
-        "documentary",
-        "practice"
-      ]
-    },
-    {
-      "node_id": "publication_leverage_points_meadows",
-      "label": "Leverage Points: Places to Intervene in a System",
-      "entity_type": "publication",
-      "publication_level": "profile",
-      "connection_band": "thin",
-      "evidence_band": "mixed",
-      "visible_connections": 2,
-      "visible_statements": 2,
-      "reader_connections": 2,
-      "reader_statements": 2,
-      "semantic_connections": 1,
-      "semantic_statements": 1,
-      "documentary_statements": 1,
-      "accepted_reader_statements": 2,
-      "provisional_reader_statements": 0,
-      "distinct_reader_families": 2,
-      "reader_families": [
-        "conceptual",
-        "documentary"
-      ]
-    },
-    {
-      "node_id": "publication_navigating_complexity_battram",
-      "label": "Navigating Complexity",
-      "entity_type": "publication",
-      "publication_level": "profile",
-      "connection_band": "thin",
-      "evidence_band": "mixed",
-      "visible_connections": 2,
-      "visible_statements": 2,
-      "reader_connections": 2,
-      "reader_statements": 2,
-      "semantic_connections": 1,
-      "semantic_statements": 1,
-      "documentary_statements": 1,
-      "accepted_reader_statements": 2,
-      "provisional_reader_statements": 0,
-      "distinct_reader_families": 2,
-      "reader_families": [
-        "documentary",
-        "practice"
-      ]
-    },
-    {
-      "node_id": "person_peter_checkland",
-      "label": "Peter Checkland",
-      "entity_type": "person",
-      "publication_level": "profile",
-      "connection_band": "thin",
-      "evidence_band": "mixed",
-      "visible_connections": 2,
-      "visible_statements": 2,
-      "reader_connections": 2,
-      "reader_statements": 2,
-      "semantic_connections": 1,
-      "semantic_statements": 1,
-      "documentary_statements": 1,
-      "accepted_reader_statements": 2,
-      "provisional_reader_statements": 0,
-      "distinct_reader_families": 2,
-      "reader_families": [
-        "documentary",
-        "historical"
-      ]
     }
   ],
   "limitations": [
@@ -2677,13 +2669,13 @@
     "date": "2026-08-14",
     "method": "Exact duplicate triples were inspected individually. Every unlocated legacy candidate and every maintained inferred edge was challenged against its locator and rationale.",
     "before": {
-      "edges": 1827,
+      "edges": 1844,
       "exact_duplicate_triples": 18,
       "legacy_unlocated_candidates": 0,
       "inferred_edges": 0
     },
     "after": {
-      "edges": 1809,
+      "edges": 1826,
       "exact_duplicate_triples": 0,
       "legacy_unlocated_candidates": 0,
       "inferred_edges": 0
@@ -2938,11 +2930,11 @@
       "explicit_doncaster_lineage_entries": 0
     },
     "after": {
-      "nodes": 675,
-      "edges": 1809,
-      "sources": 195,
-      "profiles": 115,
-      "journeys": 20,
+      "nodes": 691,
+      "edges": 1826,
+      "sources": 205,
+      "profiles": 123,
+      "journeys": 21,
       "exact_duplicate_triples": 0,
       "named_lineage_items_explicit": 81,
       "new_typed_relationships": 139,
