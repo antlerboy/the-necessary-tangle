@@ -52,10 +52,10 @@ jobs:
         if: steps.bundle.outputs.present == 'true'
         shell: bash
         run: |
-          rm -rf .iteration18-bundle .github/workflows/apply-release-0-18.yml
+          git restore .github/workflows/triage-site-submissions.yml
           git config user.name 'Benjamin P Taylor'
           git config user.email 'ben.taylor@redquadrant.com'
-          git add -A
+          git add -A -- ':!.iteration18-bundle' ':!.github/workflows/apply-release-0-18.yml'
           git commit -m 'Publish 0.18 navigable tangle update' -m 'Make entries readable as full pages, repair map panning and link semantics, add a constellation view, incorporate the Linda Booth Sweeney and unFIX source updates, audit requested names and aliases, and refresh observations and release documentation.'
           git push origin HEAD:agent/iteration-0.18-usability-coverage
 
