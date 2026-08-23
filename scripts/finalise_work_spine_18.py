@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 """Write the concise, validator-compatible operating spine for release 0.18."""
+import json
 from pathlib import Path
+
+from apply_relational_depth_16 import write_relational_document
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -77,4 +80,32 @@ Use Luna for lightweight extraction and routine checks, Terra for bounded resear
 
 (ROOT / "documentation" / "TANGLE_STATE.md").write_text(STATE, encoding="utf-8")
 (ROOT / "documentation" / "NEXT_WORK.md").write_text(NEXT, encoding="utf-8")
+data = json.loads((ROOT / "data" / "public-data.json").read_text(encoding="utf-8"))
+write_relational_document(data)
+
+index_path = ROOT / "docs" / "index.html"
+index = index_path.read_text(encoding="utf-8")
+index = index.replace(
+    '<button type="button" class="text-button surprise-me footer-surprise">Surprise me</button>',
+    '<a href="#view=item&id=concept_viability&from=surprise" class="text-button surprise-me footer-surprise">Surprise me</a>',
+)
+index_path.write_text(index, encoding="utf-8")
+
+release_js_path = ROOT / "docs" / "assets" / "iteration-18.js"
+release_js = release_js_path.read_text(encoding="utf-8")
+release_js = release_js.replace(
+    "group.dataset.orbit = distance === 0 ? 'core' : distance === 1 ? 'inner' : 'outer';",
+    "group.setAttribute('data-orbit', distance === 0 ? 'core' : distance === 1 ? 'inner' : 'outer');",
+)
+release_js_path.write_text(release_js, encoding="utf-8")
+
+unfix_path = ROOT / "documentation" / "unfix-32-coverage.md"
+unfix = unfix_path.read_text(encoding="utf-8")
+if "## Comparator status" not in unfix:
+    unfix = unfix.replace(
+        "Generated for release `0.18-navigable-tangle-alpha` on 2026-08-23.\n",
+        "Generated for release `0.18-navigable-tangle-alpha` on 2026-08-23.\n\n## Comparator status\n",
+        1,
+    )
+unfix_path.write_text(unfix, encoding="utf-8")
 print("Finalised the 0.18 operating spine.")
