@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
-"""Finish source-bounded public wording and metrics for release 0.18."""
+"""Finish source-bounded public wording and observations for release 0.18."""
 from __future__ import annotations
 
 import json
 from pathlib import Path
 from typing import Any
+
+from apply_iteration_09 import graph_metrics
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA_PATH = ROOT / "data" / "public-data.json"
@@ -49,33 +51,6 @@ DESCRIPTIONS = {
     ),
 }
 
-ADDITIONAL_OBSERVATIONS = [
-    {
-        "kind": "graph measurement plus editorial interpretation",
-        "title": "An entry can be present and still be structurally peripheral",
-        "measurement": "Release 0.18 distinguishes public presence, developed profiles, typed connections and graph isolation rather than collapsing them into one coverage claim.",
-        "interpretation": "A searchable name is an index achievement. It is not evidence that the atlas yet explains that person's work, lineage or disagreements.",
-        "implication": "Research-queue and represented states remain visible, and prominence should follow sourced relational depth rather than the fact that a name was requested.",
-        "test": "Review the named-coverage table and confirm that thin entries do not appear as developed profiles or acquire unsupported influence claims.",
-    },
-    {
-        "kind": "source-boundary observation",
-        "title": "Source duplication is a warning about claim compression",
-        "measurement": "Linda Booth Sweeney's author profile and book information are recorded as distinct source roles rather than duplicate records pointing at the same URL.",
-        "interpretation": "One page may support several claims, but duplicating it as if it were several independent sources overstates evidence and obscures what each citation is doing.",
-        "implication": "Source records identify a distinct public route and state the bounded use made of it; repeated claims may cite the same source identifier.",
-        "test": "The public source register should contain no new duplicate URLs and each Linda Booth Sweeney relation should show the relevant source role.",
-    },
-    {
-        "kind": "programme-boundary observation",
-        "title": "Unfinished corpus work is part of the public model",
-        "measurement": "The Monoskop archive, Foundational Papers in Complexity Science, SysCoI/model.report, the reading list and company-knowledge discovery remain separately named programmes rather than being labelled complete.",
-        "interpretation": "A bounded pass can be complete while the wider field remains radically unfinished. Conflating those two scales turns project management into an epistemic claim.",
-        "implication": "Each future pass needs a stated corpus, method, stop condition and visible residual queue.",
-        "test": "A release note should say exactly what was checked and leave the remaining programme visible rather than silently absorbing it into a generic backlog.",
-    },
-]
-
 
 def parse(value: Any, fallback: Any | None = None) -> Any:
     if fallback is None:
@@ -92,6 +67,145 @@ def parse(value: Any, fallback: Any | None = None) -> Any:
 
 def encoded(value: Any) -> str:
     return json.dumps(value, ensure_ascii=False)
+
+
+def observations_for(data: dict[str, Any]) -> list[dict[str, str]]:
+    metrics = graph_metrics(data)
+    snapshot = data.get("graph_snapshot", {})
+    entries = metrics.get("public_entries", data.get("meta", {}).get("public_entry_count", 0))
+    profiles = metrics.get("developed_profiles", data.get("meta", {}).get("profile_count", 0))
+    typed = metrics.get("typed_edges", len(data.get("edges", [])))
+    substantive = metrics.get("substantive_edges", snapshot.get("substantive_edge_count", 0))
+    isolated = snapshot.get("isolated_node_count", 0)
+    largest = snapshot.get("largest_component_node_count", 0)
+    return [
+        {
+            "id": "breadth_outpaces_depth",
+            "title": "Breadth still outruns depth",
+            "kind": "measurement plus interpretation",
+            "measurement": f"The atlas has {entries} public entries and {profiles} developed profiles.",
+            "interpretation": "A named entry and a developed critical account remain different editorial products.",
+            "implication": "Depth work should follow contested bridges, practitioner use and consequential ambiguity rather than raw entry count.",
+            "test": "Track the share of public entries with developed profiles and sourced relations across several relation families.",
+        },
+        {
+            "id": "two_graph_regimes",
+            "title": "The atlas contains two graph regimes",
+            "kind": "semantic measurement",
+            "measurement": f"The release contains {typed} typed records, of which the public graph snapshot counts {substantive} as substantive relations.",
+            "interpretation": "Documentary and classificatory structure helps retrieval, while substantive relations carry most of the explanatory burden.",
+            "implication": "Interface density must not make a catalogue edge look equivalent to a historical, conceptual or practice claim.",
+            "test": "Inspect a sample of map edges and confirm that the visible wording exposes relation type and evidence role.",
+        },
+        {
+            "id": "expertise_needs_relations",
+            "title": "Expertise needs relations, not biography alone",
+            "kind": "editorial observation",
+            "measurement": "The named-coverage review separates developed, represented and research-queue states.",
+            "interpretation": "A person's significance becomes useful in the atlas when their work, concepts, disagreements and practice consequences are connected explicitly.",
+            "implication": "Do not promote requested names to developed profiles merely because they are canonical or famous.",
+            "test": "Check that each developed person profile has sourced work-level and concept-level relations rather than only a short biography.",
+        },
+        {
+            "id": "catalogue_is_not_critique",
+            "title": "A catalogue is not a critique",
+            "kind": "boundary observation",
+            "measurement": "Release 0.18 records all 32 terms in one published unFIX synthesis but marks the shared source and bounded status.",
+            "interpretation": "Enumerating a framework's vocabulary does not test its definitions, ancestry, omissions or internal tensions.",
+            "implication": "Coverage pages should state whether a pass is inventory, interpretation, comparison or critique.",
+            "test": "Confirm that the unFIX coverage page does not present the 32-item inventory as independent validation of the concepts.",
+        },
+        {
+            "id": "practice_is_peripheral",
+            "title": "Practice remains less connected than the canon",
+            "kind": "graph interpretation",
+            "measurement": f"The substantive graph leaves {isolated} public entries outside a substantive component.",
+            "interpretation": "Bibliographic breadth grows more easily than warranted accounts of how ideas alter action in context.",
+            "implication": "Future depth passes should connect methods to cases, conditions, consequences and failure modes.",
+            "test": "Review isolated and one-family entries by entity type, then prioritise practice-facing gaps with usable sources.",
+        },
+        {
+            "id": "source_monoculture",
+            "title": "A single synthesis creates source monoculture",
+            "kind": "source-quality observation",
+            "measurement": "The 32 unFIX concept records initially share one declared synthesis source, which itself describes AI-assisted preparation and subsequent human editing.",
+            "interpretation": "Shared provenance is honest and useful for discovery, but it cannot establish 32 independent bodies of evidence.",
+            "implication": "Concepts should acquire primary or authoritative sources individually before their claims become stronger.",
+            "test": "Count how many unFIX entries later gain distinct source records and whether their definitions change as a result.",
+        },
+        {
+            "id": "identity_resolution",
+            "title": "Identity resolution is substantive editorial work",
+            "kind": "information-quality observation",
+            "measurement": "Search aliases now include common short forms, surnames and known misspellings while canonical redirects preserve one public identity.",
+            "interpretation": "Search failure can masquerade as conceptual absence; careless aliasing can instead merge genuinely different people or ideas.",
+            "implication": "Aliases need explicit canonical targets and review, especially for surnames and near-homonyms.",
+            "test": "Search for Donna and Donella Meadows, Russ and Russell Ackoff, surnames and common misspellings and verify the canonical result.",
+        },
+        {
+            "id": "neighbourhoods_are_stale",
+            "title": "A neighbourhood is a view, not a permanent fact",
+            "kind": "map observation",
+            "measurement": "The constellation view computes direct and two-step orbits from the currently visible substantive graph.",
+            "interpretation": "As evidence and relation types change, a person's apparent intellectual neighbourhood should change too.",
+            "implication": "Saved journeys may guide attention, but generated constellations should not be frozen into taxonomies.",
+            "test": "Add or remove a warranted bridge and confirm that the two-step constellation changes without manual recategorisation.",
+        },
+        {
+            "id": "bridge_concepts",
+            "title": "Bridge concepts hold the central component together",
+            "kind": "graph measurement plus interpretation",
+            "measurement": f"The largest substantive component contains {largest} public entries.",
+            "interpretation": "A small number of concepts and practices connect otherwise separate traditions, people and methods.",
+            "implication": "Bridge entries deserve stronger definitions, competing interpretations and source diversity because errors there propagate widely.",
+            "test": "Remove high-betweenness entries in a copy of the graph and inspect which traditions split apart.",
+        },
+        {
+            "id": "map_of_attention",
+            "title": "The map is also a map of editorial attention",
+            "kind": "second-order observation",
+            "measurement": f"Release 0.18 contains {isolated} substantively isolated public entries alongside a largest component of {largest}.",
+            "interpretation": "Graph position reflects available sources, curation choices and past questions as well as the intellectual field itself.",
+            "implication": "Centrality must never be presented as a neutral measure of importance.",
+            "test": "Compare centrality with the release history and source programmes to identify where editorial effort created apparent prominence.",
+        },
+        {
+            "id": "automated_overreading",
+            "title": "Automation readily overreads weak evidence",
+            "kind": "publication-safety observation",
+            "measurement": "This release keeps source roles, claim status and open research programmes visible while using scripts to generate and validate the site.",
+            "interpretation": "Automation is good at consistency and propagation; it is also good at propagating an unjustified inference everywhere at once.",
+            "implication": "Generated breadth needs adversarial checks, source boundaries and explicit stop conditions.",
+            "test": "Trace a sample of generated relations back to locators and verify that no discovery source has silently become evidence for a stronger claim.",
+        },
+        {
+            "id": "presence_is_not_depth",
+            "title": "Presence is not depth",
+            "kind": "coverage-state observation",
+            "measurement": "Requested names are published as developed, represented or research-queue entries rather than being forced into one apparent level of completeness.",
+            "interpretation": "A searchable name is an index achievement, not evidence that the atlas explains the person's work, lineage or disputes.",
+            "implication": "Prominence should follow sourced relational depth rather than the fact that a name was requested.",
+            "test": "Confirm that research-queue entries do not appear as developed profiles or acquire unsupported influence claims.",
+        },
+        {
+            "id": "source_duplication",
+            "title": "Source duplication hides claim compression",
+            "kind": "source-boundary observation",
+            "measurement": "Linda Booth Sweeney's author profile, official site and award record are stored as distinct source roles rather than duplicate records for one URL.",
+            "interpretation": "One page may support several claims, but cloning it as several sources overstates independence and obscures what each citation does.",
+            "implication": "Source records should identify a distinct public route and a bounded evidential use.",
+            "test": "Check for duplicate URLs and inspect whether each Sweeney relation cites the source that actually supports it.",
+        },
+        {
+            "id": "open_corpus_programmes",
+            "title": "Unfinished corpus work belongs in the public model",
+            "kind": "programme-boundary observation",
+            "measurement": "Monoskop, Foundational Papers in Complexity Science, SysCoI/model.report, the reading list and company-knowledge discovery remain separately named open programmes.",
+            "interpretation": "A bounded pass can be complete while the wider field remains unfinished; conflating the scales turns project management into an epistemic claim.",
+            "implication": "Each future pass needs a stated corpus, method, stop condition and visible residual queue.",
+            "test": "Check that release notes state what was examined and leave the remainder visible rather than calling the whole programme complete.",
+        },
+    ]
 
 
 def main() -> None:
@@ -124,32 +238,11 @@ def main() -> None:
         "the HarperCollins and June 2026 listing."
     )
 
-    redirects = data.get("canonical_redirects", {})
-    canonical = lambda node_id: redirects.get(node_id, node_id)
-    public_ids = {
-        node.get("id") for node in data.get("nodes", [])
-        if node.get("public_visibility") == "public" and canonical(node.get("id")) == node.get("id")
-    }
-    canonical_edges = []
-    for edge in data.get("edges", []):
-        source_id = canonical(edge.get("source"))
-        target_id = canonical(edge.get("target"))
-        if source_id in public_ids and target_id in public_ids and source_id != target_id:
-            canonical_edges.append({**edge, "source": source_id, "target": target_id})
-    substantive_edges = [
-        edge for edge in canonical_edges
-        if edge.get("relation_family") not in {"classification", "evidence", "documentary", "legacy"}
-        and edge.get("relation_type") != "legacy_association_unspecified"
-        and edge.get("claim_status") != "legacy_unresolved"
-    ]
-
     report = data.setdefault("ai_observations", {})
-    metrics = report.setdefault("metrics", {})
-    metrics["typed_edges"] = len(canonical_edges)
-    metrics["substantive_edges"] = len(substantive_edges)
-    observations = report.setdefault("observations", [])
-    existing_titles = {item.get("title") for item in observations}
-    observations.extend(item for item in ADDITIONAL_OBSERVATIONS if item["title"] not in existing_titles)
+    report["release"] = data.get("meta", {}).get("release")
+    report["generated"] = data.get("meta", {}).get("generated")
+    report["metrics"] = graph_metrics(data)
+    report["observations"] = observations_for(data)
 
     rendered = json.dumps(data, ensure_ascii=False, indent=2) + "\n"
     DATA_PATH.write_text(rendered, encoding="utf-8")
@@ -157,7 +250,7 @@ def main() -> None:
     DOCS_JS.write_text("window.TANGLE_DATA = " + json.dumps(data, ensure_ascii=False) + ";\n", encoding="utf-8")
     print(
         f"Finalised {len(DESCRIPTIONS)} unFIX descriptions, source roles and "
-        f"{len(observations)} AI observations; removed the generic Systems alias."
+        f"{len(report['observations'])} AI observations; removed the generic Systems alias."
     )
 
 
