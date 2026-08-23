@@ -16,6 +16,7 @@ Last verified: 23 August 2026
 - Machine relationship snapshot: `data/relationship-quality.json`
 - Public reader dataset: `docs/assets/public-data.json`
 - Public knowledge index: `documentation/public-knowledge.md`
+- unFIX comparator concepts resolved: 32
 
 ## Current shape
 
@@ -34,7 +35,7 @@ Run `make validate` before publication. It rebuilds the full historical release 
 
 NEXT = """# Next work
 
-Status: release 0.18 complete; no active implementation ticket.
+Status: release 0.18 is complete. No production change is authorised without a new ticket.
 
 ## Outcome
 
