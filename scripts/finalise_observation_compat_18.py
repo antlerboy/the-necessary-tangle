@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Retain enduring observation lenses from releases 0.14 and 0.15."""
+"""Retain enduring inherited lenses and the release-0.18 interface observations."""
 from __future__ import annotations
 
 import json
@@ -65,6 +65,24 @@ RETAINED = [
         "implication": "Coverage decisions and unreviewed queues should remain visible beside graph measures.",
         "test": "Compare highly connected entries with the release history and ask whether prominence follows evidence, prior attention or both.",
     },
+    {
+        "id": "navigation_changes_importance",
+        "title": "Navigation changes what appears important",
+        "kind": "interface measurement plus epistemic interpretation",
+        "measurement": "The release gives every entry a full reading surface and a constellation view with one selected centre, direct relations and two-step relations.",
+        "interpretation": "A centre selected for a question is not the centre of the field. Interface focus and graph degree can manufacture apparent importance.",
+        "implication": "The map treats the selected entry as a temporary star and its orbits as question-relative positions.",
+        "test": "Change the selected entry and layer; the constellation should reorganise without presenting the new centre as canonically primary.",
+    },
+    {
+        "id": "links_are_commitments",
+        "title": "Links are commitments about possible movement",
+        "kind": "interaction-design observation",
+        "measurement": "Navigational cards, search suggestions, surprise routes, map nodes, map connections and entry actions expose stable destinations.",
+        "interpretation": "A control which looks like a link but cannot be copied, opened in a new tab or inspected conceals the structure of the atlas.",
+        "implication": "Navigation uses links; buttons are reserved for actions whose result cannot sensibly exist as a URL.",
+        "test": "Right-click or modified-click each navigational surface and confirm that its destination remains coherent in a separate tab.",
+    },
 ]
 
 
@@ -80,7 +98,7 @@ def main() -> None:
     DATA.write_text(rendered, encoding="utf-8")
     DOCS_JSON.write_text(rendered, encoding="utf-8")
     DOCS_JS.write_text("window.TANGLE_DATA = " + json.dumps(data, ensure_ascii=False) + ";\n", encoding="utf-8")
-    print(f"Retained {len(RETAINED)} inherited observation lenses; {len(report['observations'])} total.")
+    print(f"Retained {len(RETAINED)} inherited and release-specific observation lenses; {len(report['observations'])} total.")
 
 
 if __name__ == "__main__":
