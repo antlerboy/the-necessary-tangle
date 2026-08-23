@@ -60,6 +60,7 @@ validate: build
 	python3 scripts/validate_iteration_11.py
 	python3 scripts/validate_iteration_12.py
 	python3 scripts/validate_iteration_13.py
+	python3 scripts/finalise_public_interface_18.py
 	python3 scripts/validate_iteration_14.py
 	python3 scripts/validate_iteration_15.py
 	python3 scripts/validate_map_usability_hotfix.py
