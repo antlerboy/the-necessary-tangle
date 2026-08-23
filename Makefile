@@ -39,6 +39,7 @@ build:
 	python3 scripts/patch_iteration_17.py
 	python3 scripts/sync_release_docs_17.py
 	python3 scripts/apply_iteration_18.py
+	python3 scripts/finalise_public_entries_18.py
 	python3 scripts/refresh_graph_snapshot.py
 	python3 scripts/patch_iteration_18.py
 	python3 scripts/sync_release_docs_18.py
