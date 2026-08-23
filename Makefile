@@ -42,6 +42,7 @@ build:
 	python3 scripts/refresh_graph_snapshot.py
 	python3 scripts/patch_iteration_18.py
 	python3 scripts/sync_release_docs_18.py
+	python3 scripts/finalise_work_spine_18.py
 	python3 scripts/build_public_knowledge.py
 
 validate: build
