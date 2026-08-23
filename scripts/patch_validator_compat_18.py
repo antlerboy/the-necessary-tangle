@@ -17,6 +17,10 @@ V14_DATE_17 = 'expected_generated = "2026-08-19" if meta.get("release") == "0.17
 V14_DATE_18 = 'expected_generated = "2026-08-23" if meta.get("release") == "0.18-navigable-tangle-alpha" else ("2026-08-19" if meta.get("release") == "0.17-public-intake-lineage-alpha" else (GENERATED if meta.get("release") == RELEASE else FORWARD_GENERATED))'
 V15_META_17 = "meta=D['meta']; assert meta['release'] in {'0.15-ing-reading-practice-alpha','0.16-grammar-connections-presentation-alpha', '0.17-public-intake-lineage-alpha'}; assert meta['generated']==('2026-08-19' if meta['release']=='0.17-public-intake-lineage-alpha' else '2026-08-14')"
 V15_META_18 = "meta=D['meta']; assert meta['release'] in {'0.15-ing-reading-practice-alpha','0.16-grammar-connections-presentation-alpha', '0.17-public-intake-lineage-alpha', '0.18-navigable-tangle-alpha'}; assert meta['generated']==('2026-08-23' if meta['release']=='0.18-navigable-tangle-alpha' else ('2026-08-19' if meta['release']=='0.17-public-intake-lineage-alpha' else '2026-08-14'))"
+V17_CITATION_OLD = 'if f"version: {RELEASE}" not in citation or f"date-released: {GENERATED}" not in citation or f"url: {PUBLIC_URL}" not in citation:'
+V17_CITATION_NEW = 'if f"version: {meta.get(\'release\')}" not in citation or f"date-released: {meta.get(\'generated\')}" not in citation or f"url: {PUBLIC_URL}" not in citation:'
+V17_README_OLD = 'if "Release 0.17 contains" not in readme or "https://transduction.systems/submissions/" not in readme or "https://transduction.systems/canon-and-lineage/" not in readme:'
+V17_README_NEW = 'if ("## Release 0.18" not in readme and "Release 0.17 contains" not in readme) or "https://transduction.systems/" not in readme:'
 
 changed = []
 already = []
@@ -87,6 +91,7 @@ for path in sorted((ROOT / "scripts").glob("validate*.py")):
             )
 
     if path.name == "validate_iteration_17.py":
+        text = text.replace('VERSION = "0.17.0-public"', 'VERSION = "0.18.0-public"', 1)
         text = text.replace(
             'if meta.get("release") != RELEASE:',
             'if meta.get("release") not in {RELEASE, "0.18-navigable-tangle-alpha"}:',
@@ -102,6 +107,14 @@ for path in sorted((ROOT / "scripts").glob("validate*.py")):
             'if submissions.get("release") not in {RELEASE, "0.18-navigable-tangle-alpha"} or submissions.get("marker") != "Prepared from The Necessary Tangle":',
             1,
         )
+        if V17_CITATION_NEW not in text:
+            if V17_CITATION_OLD not in text:
+                raise SystemExit("The 0.17 citation assertion has changed unexpectedly")
+            text = text.replace(V17_CITATION_OLD, V17_CITATION_NEW, 1)
+        if V17_README_NEW not in text:
+            if V17_README_OLD not in text:
+                raise SystemExit("The 0.17 README assertion has changed unexpectedly")
+            text = text.replace(V17_README_OLD, V17_README_NEW, 1)
 
     if text != original:
         path.write_text(text, encoding="utf-8")
