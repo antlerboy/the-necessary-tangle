@@ -24,4 +24,4 @@ The atlas remains a bounded public evidence graph, not an exhaustive map of syst
 
 ## Release controls
 
-Run `make validate` before publication. It rebuilds the full historical release chain, validates the operating spine, graph, evidence, reader assets and JavaScript, then applies the 0.18-specific checks.
+Run `make build` when regenerating publication files, then run `make validate` against the generated release. Validation checks the operating spine, graph, evidence, reader assets and JavaScript, including the 0.18-specific gates.
