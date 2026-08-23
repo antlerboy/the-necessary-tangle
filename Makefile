@@ -47,6 +47,7 @@ build:
 	python3 scripts/finalise_work_spine_18.py
 	python3 scripts/patch_validator_compat_18.py
 	python3 scripts/build_public_knowledge.py
+	python3 scripts/finalise_public_interface_18.py
 
 validate: build
 	python3 scripts/validate_work_spine.py
