@@ -33,6 +33,66 @@ jobs:
           echo "96d0a009f93bf3ae6978c1ac6f66aa48b4beb94117a80e3d6c9f334978bf6bfe  /tmp/iteration-0.19-release.tar.gz" | sha256sum --check -
           tar -xzf /tmp/iteration-0.19-release.tar.gz
 
+      - name: Make inherited projections reproducible under 0.19
+        run: |
+          cat > scripts/stamp_current_projections_19.py <<'PY'
+          #!/usr/bin/env python3
+          """Stamp inherited maintained projections with the current release."""
+          from __future__ import annotations
+
+          import json
+          from pathlib import Path
+
+          ROOT = Path(__file__).resolve().parents[1]
+          DATA = ROOT / "data" / "public-data.json"
+          DOCS_JSON = ROOT / "docs" / "assets" / "public-data.json"
+          DOCS_JS = ROOT / "docs" / "assets" / "public-data.js"
+          PROJECTIONS = ("reading_list_inventory", "reading_list_coverage", "core_systems_practice")
+
+
+          def main() -> None:
+              data = json.loads(DATA.read_text(encoding="utf-8"))
+              release = data.get("meta", {}).get("release")
+              generated = data.get("meta", {}).get("generated")
+              if not release or not generated:
+                  raise SystemExit("Current release metadata is missing")
+
+              for key in PROJECTIONS:
+                  projection = data.get(key)
+                  if not isinstance(projection, dict):
+                      raise SystemExit(f"{key} is missing")
+                  projection["release"] = release
+                  if "generated" in projection:
+                      projection["generated"] = generated
+
+              rendered = json.dumps(data, ensure_ascii=False, indent=2) + "\n"
+              DATA.write_text(rendered, encoding="utf-8")
+              DOCS_JSON.write_text(rendered, encoding="utf-8")
+              DOCS_JS.write_text(
+                  "window.TANGLE_DATA = " + json.dumps(data, ensure_ascii=False) + ";\n",
+                  encoding="utf-8",
+              )
+              print(f"Stamped inherited projections for {release}.")
+
+
+          if __name__ == "__main__":
+              main()
+          PY
+          python3 - <<'PY'
+          from pathlib import Path
+
+          path = Path("Makefile")
+          text = path.read_text(encoding="utf-8")
+          marker = "\tpython3 scripts/apply_iteration_19.py\n"
+          addition = marker + "\tpython3 scripts/stamp_current_projections_19.py\n"
+          if "scripts/stamp_current_projections_19.py" not in text:
+              if marker not in text:
+                  raise SystemExit("Could not find the 0.19 build marker in Makefile")
+              text = text.replace(marker, addition, 1)
+              path.write_text(text, encoding="utf-8")
+          PY
+          chmod +x scripts/stamp_current_projections_19.py
+
       - name: Build and validate the complete release
         run: |
           make build
