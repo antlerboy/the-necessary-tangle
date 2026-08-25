@@ -33,7 +33,7 @@ jobs:
           echo "46c7f76f93e0ec5f31831345d8175734ce8726e68808aa6ec2c2a6a0a31ee4d8  /tmp/iteration-0.19-release.tar.gz" | sha256sum --check -
           tar -xzf /tmp/iteration-0.19-release.tar.gz
 
-      - name: Make inherited projections reproducible under 0.19
+      - name: Make inherited projections and relational documentation reproducible under 0.19
         run: |
           cat > scripts/stamp_current_projections_19.py <<'PY'
           #!/usr/bin/env python3
@@ -78,20 +78,55 @@ jobs:
           if __name__ == "__main__":
               main()
           PY
+
+          cat > scripts/refresh_relational_document_19.py <<'PY'
+          #!/usr/bin/env python3
+          """Regenerate the relational-depth document from the current public graph."""
+          from __future__ import annotations
+
+          import json
+          from pathlib import Path
+
+          from apply_relational_depth_16 import write_relational_document
+
+          ROOT = Path(__file__).resolve().parents[1]
+          DATA = ROOT / "data" / "public-data.json"
+
+
+          def main() -> None:
+              data = json.loads(DATA.read_text(encoding="utf-8"))
+              if not isinstance(data.get("relational_depth"), dict):
+                  raise SystemExit("Current relational-depth measures are missing")
+              write_relational_document(data)
+              aggregate = data["relational_depth"].get("aggregate", {})
+              print(
+                  "Refreshed relational-depth document for "
+                  f"{aggregate.get('reader_connected_entries')} reader-connected entries."
+              )
+
+
+          if __name__ == "__main__":
+              main()
+          PY
+
           python3 - <<'PY'
           from pathlib import Path
 
           path = Path("Makefile")
           text = path.read_text(encoding="utf-8")
           marker = "\tpython3 scripts/apply_iteration_19.py\n"
-          addition = marker + "\tpython3 scripts/stamp_current_projections_19.py\n"
-          if "scripts/stamp_current_projections_19.py" not in text:
+          addition = (
+              marker
+              + "\tpython3 scripts/stamp_current_projections_19.py\n"
+              + "\tpython3 scripts/refresh_relational_document_19.py\n"
+          )
+          if "scripts/refresh_relational_document_19.py" not in text:
               if marker not in text:
                   raise SystemExit("Could not find the 0.19 build marker in Makefile")
               text = text.replace(marker, addition, 1)
               path.write_text(text, encoding="utf-8")
           PY
-          chmod +x scripts/stamp_current_projections_19.py
+          chmod +x scripts/stamp_current_projections_19.py scripts/refresh_relational_document_19.py
 
       - name: Build and validate the complete release
         run: |
