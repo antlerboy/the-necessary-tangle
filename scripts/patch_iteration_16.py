@@ -124,9 +124,11 @@ def patch_release_prose() -> None:
     text = text.replace("https://antlerboy.github.io/the-necessary-tangle/", PUBLIC_URL)
     data = json.loads((ROOT / "data" / "public-data.json").read_text(encoding="utf-8"))
     meta = data["meta"]
+    # This paragraph records the historical 0.16 release.  Later builds must
+    # not silently replace its published counts with the current release's.
     text = re.sub(
         r"This is a public alpha\. Release 0\.\d+ contains \d+ canonical public entries, including \d+ developed profiles, \d+ sources and \d+ guided journeys\.",
-        f"This is a public alpha. Release 0.16 contains {meta['public_entry_count']} canonical public entries, including {meta['profile_count']} developed profiles, {meta['source_count']} sources and {meta['journey_count']} guided journeys.",
+        "This is a public alpha. Release 0.16 contains 633 canonical public entries, including 127 developed profiles, 211 sources and 21 guided journeys.",
         text,
         count=1,
     )

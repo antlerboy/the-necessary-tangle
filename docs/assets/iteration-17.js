@@ -43,6 +43,10 @@
 
   function attach() {
     document.querySelectorAll('#surpriseMeNav, #surpriseMeHero, .surprise-me').forEach((button) => {
+      // Release 0.18 turns these controls into genuine links and owns their
+      // pointer, keyboard and modified-click behaviour. Retain this handler
+      // only for an older generated button.
+      if (button instanceof HTMLAnchorElement) return;
       if (button.dataset.surpriseReady === 'true') return;
       button.dataset.surpriseReady = 'true';
       button.addEventListener('click', surprise);
