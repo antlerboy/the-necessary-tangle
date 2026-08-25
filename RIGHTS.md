@@ -29,6 +29,8 @@ External publications, quotations, images, names, marks, datasets and other work
 
 Do not assume that a source linked from the atlas is open for redistribution merely because the atlas itself is open.
 
+The *Map of Systemic Evolution* comparator is reproduced with Benjamin Hadorn's permission and retains the full Schwarz–Durant–IIGSS–Hadorn provenance; that permission does not relicense the underlying map. Brian Castellani's current web map remains under its source terms, while the earlier 2012 Wikimedia SVG is marked there as CC BY-SA 3.0. Nigel Williams's counted-map projection publishes aggregate facts and permitted DOI handles only; licensed Scopus records, EIDs and raw cited-reference strings are not republished.
+
 ## Contributions
 
 By submitting original atlas text or public data for acceptance, a contributor agrees that the accepted contribution may be edited and published under CC BY-SA 4.0, with attribution through the public project history where reasonably practicable. Code contributions may be published under the MIT licence.

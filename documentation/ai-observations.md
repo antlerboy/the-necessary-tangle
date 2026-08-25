@@ -1,8 +1,8 @@
 # AI observations
 
-Generated for release `0.19-living-marks-alpha` on 2026-08-25.
+Generated for release `0.20-prior-maps-alpha` on 2026-08-25.
 
-This release retains the observation lenses introduced through `0.18-navigable-tangle-alpha`, while regenerating every graph measurement against the current public artefact.
+Release 0.20 preserves the maintained observation lenses and the `0.18-navigable-tangle-alpha` navigability baseline while regenerating graph measurements after the bounded prior-map intake.
 
 Measurements come from the generated public graph. Interpretations concern this atlas and its current source and interface choices; they are not measurements of the field itself.
 

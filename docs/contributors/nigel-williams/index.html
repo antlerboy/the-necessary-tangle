@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="light dark"><meta name="theme-color" content="#9f161b">
+  <title>Nigel Williams’s contribution — The Necessary Tangle</title>
+  <meta name="description" content="A detailed credit and incorporation record for Nigel Williams's systems-map fork work.">
+  <link rel="stylesheet" href="/assets/styles.css?v=0.20.0-public">
+  <link rel="stylesheet" href="/assets/site-enhancements.css?v=0.20.0-public">
+  <link rel="stylesheet" href="/assets/prior-maps.css?v=0.20.0-public">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to the contribution record</a>
+<main id="main" class="pm-shell" tabindex="-1">
+  <nav class="pm-nav" aria-label="Breadcrumb"><a href="/prior-maps/">← Prior maps</a><a href="/#view=home">The Necessary Tangle</a><a href="https://github.com/NigelWilliamUOP/systems-map">Nigel’s fork</a></nav>
+  <header class="pm-head"><p class="eyebrow">Contribution and incorporation record</p><h1>Nigel Williams</h1><p class="pm-lede">Nigel took the prior-map question much further than a comparison link: he extracted the data, counted what was actually there, tested overlap, repaired the build, identified missing domains and built a fresh citation-counting experiment.</p></header>
+
+  <section class="pm-section">
+    <h2>Permission and attribution</h2>
+    <p>Nigel confirmed on 25 August 2026 that The Necessary Tangle may incorporate all relevant changes from his <a href="https://github.com/NigelWilliamUOP/systems-map"><code>systems-map</code> fork</a>, with appropriate credit. This page is the durable credit record; individual code files also retain their history through the public fork and pull request.</p>
+    <p>The *Map of Systemic Evolution* itself was already in Benjamin P Taylor’s <a href="https://stream.syscoi.com/2019/06/10/some-streams-of-systemic-thought-schwarz-extended-durant-iigss-hadorn/">2019 collection of former systems maps and histories</a> and in the Tangle’s registered comparator corpus. Nigel is credited for the extraction, analysis and implementation — not inaccurately as the person who first found or supplied the map.</p>
+  </section>
+
+  <section class="pm-section wide">
+    <h2>What has been incorporated</h2>
+    <div class="pm-table-wrap"><table class="pm-table"><thead><tr><th>Contribution</th><th>What it enabled</th><th>How it appears here</th></tr></thead><tbody>
+      <tr><td>Deterministic GraphML extraction</td><td>A checkable census of 650 nodes and 1,320 links, including direction, line style, colour and source position.</td><td><a href="/prior-maps/systemic-evolution/">Complete interactive comparator layer</a> and reusable importer.</td></tr>
+      <tr><td>Provenance and colour analysis</td><td>Separated the Schwarz, Durant, IIGSS and Hadorn layers and exposed the 2016 Fribourg cluster.</td><td>Dedicated provenance and permission account, corrected against the URANOS legend.</td></tr>
+      <tr><td>Comparator framing</td><td>Forced a side-by-side account of purpose, boundary, evidence, strengths and weaknesses.</td><td><a href="/prior-maps/">Prior-maps overview</a> and explicit source-link contract.</td></tr>
+      <tr><td>Castellani gap analysis</td><td>Identified applied-complexity domains missing from the then-current Tangle and Systemic Evolution map.</td><td>17 transparent research stubs, plus <a href="/prior-maps/castellani/">all 307 current clickable source areas</a>.</td></tr>
+      <tr><td>Counted-map vocabulary, build and viewer</td><td>Tested whether a map could put aggregate citation counts beneath every line.</td><td><a href="/prior-maps/counted-map/">All 98 concepts and 1,856 aggregate links</a>, with more cautious semantics and a rights-safe projection.</td></tr>
+      <tr><td>Reproducibility and update-dot fixes</td><td>Found a build fixed-point problem and corrected a regex that could duplicate the discreet updates link.</td><td>Ported to the current build chain and covered by release validation.</td></tr>
+    </tbody></table></div>
+  </section>
+
+  <section class="pm-section">
+    <h2>Corrections made while incorporating it</h2>
+    <p>The fork said the Map of Systemic Evolution supplied no meaning or legend for its links. Its GraphML has no edge-specific labels, but the public URANOS page does say that directed edges show major influences between topics and supplies a scientific-realm colour legend. This release therefore keeps all links as <em>source-reported major influences</em>, not as meaningless lines and not as verified Tangle relations.</p>
+    <p>The counted-map line has also been narrowed from “work on X cites work on Y” to the more exact claim: records whose titles matched X contained cited-reference strings matching Y. That difference matters when labels are broad or ambiguous.</p>
+  </section>
+
+  <section class="pm-section">
+    <h2>What was deliberately not published</h2>
+    <ul>
+      <li>the private Scopus corpus and any licensed abstracts, affiliations, keywords or other source fields;</li>
+      <li>9,280 raw cited-reference strings and Scopus EIDs embedded in the fork’s edge evidence;</li>
+      <li>a private Claude artefact URL that other readers could not open;</li>
+      <li>claims of complete reproducibility while the corpus shrink step and source exports are unavailable;</li>
+      <li>the fork’s older generated 0.17 site files, which would have overwritten the current 0.20 build.</li>
+    </ul>
+    <p>Those exclusions are not a rejection of Nigel’s work. They are the boundary that lets the useful work be incorporated without misdescribing rights, evidence or the current application.</p>
+  </section>
+
+  <section class="pm-section"><h2>Thank you</h2><p>Thank you, Nigel, for doing the empirical and technical work that made this comparison real — and for letting it be folded back into the main project in a form readers can inspect, question and improve.</p><p><a href="https://github.com/antlerboy/the-necessary-tangle/issues/6">Read the implementation discussion →</a></p></section>
+</main>
+</body>
+</html>

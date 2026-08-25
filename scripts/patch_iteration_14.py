@@ -69,7 +69,13 @@ def refresh_ai_observations() -> None:
 
 def patch_index() -> None:
     text = INDEX.read_text(encoding="utf-8")
-    text = re.sub(r'\n[ \t]*<a\b(?=[^>]*data-update-thread-dot)[^>]*>.*?</a>[ \t]*(?=\n</body>)', '', text, flags=re.I | re.S)
+    # Remove any existing update dot wherever it sits, then re-add exactly one
+    # before </body> below. The lookahead this replaced required the element to
+    # be immediately before </body>, so a dot placed anywhere else - notably the
+    # position patch_adversarial_experience.py uses, after </main> and before
+    # the trailing script tags - survived and a second was appended, leaving the
+    # page with two and failing validate_iteration_14.
+    text = re.sub(r'\n?[ \t]*<a\b(?=[^>]*data-update-thread-dot)[^>]*>.*?</a>[ \t]*', '', text, flags=re.I | re.S)
     text = re.sub(r'\s*<article class="plain-panel wide cynefin-source-panel">.*?</article>', '', text, flags=re.S)
 
     card = '<a class="start-small-card" href="#view=journeys&id=journey_snowden_cynefin_sources_and_practice&step=0"><span class="eyebrow">Context and sense-making</span><strong>Snowden and Cynefin</strong><span>Framework, papers, tools and the different jobs done by a blog, wiki, publisher and public institution.</span></a>'

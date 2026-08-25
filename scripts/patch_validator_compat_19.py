@@ -145,6 +145,10 @@ PATCHERS = {
 
 
 def main() -> None:
+    successor_validator = ROOT / "scripts" / "validate_iteration_19.py"
+    if 'SUCCESSOR_RELEASE = "0.20-prior-maps-alpha"' in successor_validator.read_text(encoding="utf-8"):
+        print("0.19 validator compatibility: retained within 0.20 successor contracts")
+        return
     changed: list[str] = []
     recognised: list[str] = []
     for path in sorted((ROOT / "scripts").glob("validate*.py")):
