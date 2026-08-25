@@ -27,7 +27,7 @@ jobs:
 
       - name: Download and unpack the verified release bundle
         env:
-          RELEASE_BUNDLE_URL: "https://redquadrantltd-my.sharepoint.com/personal/benjamin_taylor_redquadrant_com1/_layouts/15/guestaccess.aspx?share=IQD9uB262cIsQr3gVORoCCxQAYx4dGZ%2DcLEHMFuOFmGKEbk&download=1"
+          RELEASE_BUNDLE_URL: "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-7998-8210-b69c-eb73f4539bf0/raw?se=2026-08-25T06%3A47%3A02Z&sp=r&sv=2026-02-06&sr=b&scid=310340f0-8789-5c9e-8113-5f15718c7c7b&skoid=d294dba5-36f7-432b-aab8-935656489847&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-08-25T06%3A33%3A53Z&ske=2026-08-26T06%3A33%3A53Z&sks=b&skv=2026-02-06&sig=8XdFWNY7ki41V8QTMFV4iG86ivZMFPPgvqasPoudw%2Bo%3D"
         run: |
           curl --fail --location --retry 3 --output /tmp/iteration-0.19-release.tar.gz "$RELEASE_BUNDLE_URL"
           echo "296205fba71fb0c621437d2fad27e34992d5064018f3edf1287717c3f7e07a08  /tmp/iteration-0.19-release.tar.gz" | sha256sum --check -
