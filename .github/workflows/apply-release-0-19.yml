@@ -27,10 +27,10 @@ jobs:
 
       - name: Download and unpack the verified release bundle
         env:
-          RELEASE_BUNDLE_URL: "https://sdmntprnortheu.oaiusercontent.com/files/00000000-d508-81f4-85a5-cebcc48c8406/raw?se=2026-08-25T06%3A59%3A27Z&sp=r&sv=2026-02-06&sr=b&scid=3882771e-bf6a-5ff0-bddb-4212cf486e6a&skoid=d294dba5-36f7-432b-aab8-935656489847&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-08-24T22%3A48%3A39Z&ske=2026-08-25T22%3A48%3A39Z&sks=b&skv=2026-02-06&sig=CAk3jMpZ%2ByjpCYljv2JCdvOYfdXvtTk8G0W98kqgDAQ%3D"
+          RELEASE_BUNDLE_URL: "https://sdmntprnortheu.oaiusercontent.com/files/00000000-8424-81f4-95fd-eaad5bc7003b/raw?se=2026-08-25T07%3A02%3A08Z&sp=r&sv=2026-02-06&sr=b&scid=58c2bb72-331e-5b8a-80f0-bad69f45f09a&skoid=d294dba5-36f7-432b-aab8-935656489847&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-08-25T06%3A17%3A45Z&ske=2026-08-26T06%3A17%3A45Z&sks=b&skv=2026-02-06&sig=qr6B2GYmdz8LDcgdg49WOpza7ea%2BK5o2idrC7ooSJv4%3D"
         run: |
           curl --fail --location --retry 3 --output /tmp/iteration-0.19-release.tar.gz "$RELEASE_BUNDLE_URL"
-          echo "029ab691582b1efba958fe5cc25a3af1410e69f53c8c6c10727e0c32f7811122  /tmp/iteration-0.19-release.tar.gz" | sha256sum --check -
+          echo "96d0a009f93bf3ae6978c1ac6f66aa48b4beb94117a80e3d6c9f334978bf6bfe  /tmp/iteration-0.19-release.tar.gz" | sha256sum --check -
           tar -xzf /tmp/iteration-0.19-release.tar.gz
 
       - name: Build and validate the complete release
@@ -48,7 +48,7 @@ jobs:
             echo "No generated changes to commit"
             exit 0
           fi
-          git commit -m "Generate release 0.19 public artefact" -m "Build the living-mark interface, register the Complexity Podcast corpus, refresh public data and release documentation, regenerate the inherited public measurement panel, and retain the complete historical validation chain."
+          git commit -m "Generate release 0.19 public artefact" -m "Build the living-mark interface, register the Complexity Podcast corpus, refresh public data and release documentation, regenerate the full public observation record, and retain the complete historical validation chain."
           git push origin HEAD:agent/iteration-0.19-living-marks
 
       - name: Record successful generation
