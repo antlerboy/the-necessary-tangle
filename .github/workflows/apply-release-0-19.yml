@@ -27,10 +27,10 @@ jobs:
 
       - name: Download and unpack the verified release bundle
         env:
-          RELEASE_BUNDLE_URL: "https://sdmntprnortheu.oaiusercontent.com/files/00000000-f334-81f4-95a4-8264dd92f517/raw?se=2026-08-25T06%3A51%3A22Z&sp=r&sv=2026-02-06&sr=b&scid=34040073-5bde-590d-a8fa-3871a200d462&skoid=d294dba5-36f7-432b-aab8-935656489847&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-08-25T06%3A33%3A54Z&ske=2026-08-26T06%3A33%3A54Z&sks=b&skv=2026-02-06&sig=4g1R78nGTEtDJzAsPHmStRCIe8Yq/HXlB7vVxdWXFwI%3D"
+          RELEASE_BUNDLE_URL: "https://sdmntprnortheu.oaiusercontent.com/files/00000000-f70c-81f4-b24d-98f0f6b8c1d0/raw?se=2026-08-25T06%3A52%3A49Z&sp=r&sv=2026-02-06&sr=b&scid=a449afb3-4c1f-5444-8dd6-2cb477e3f60c&skoid=d294dba5-36f7-432b-aab8-935656489847&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-08-25T05%3A05%3A50Z&ske=2026-08-26T05%3A05%3A50Z&sks=b&skv=2026-02-06&sig=jgClASRK1RYQfpI7XQRXi067qyikKTqvTlXVPB4CQ3g%3D"
         run: |
           curl --fail --location --retry 3 --output /tmp/iteration-0.19-release.tar.gz "$RELEASE_BUNDLE_URL"
-          echo "411f4ef010238cd6a31cc75168deaaf89d626c89f0708e3fb1623b82294c9efb  /tmp/iteration-0.19-release.tar.gz" | sha256sum --check -
+          echo "8db9d2c1753baf5cc6f842a28f8bf2e90339f701956cb5423248f13041b256ca  /tmp/iteration-0.19-release.tar.gz" | sha256sum --check -
           tar -xzf /tmp/iteration-0.19-release.tar.gz
 
       - name: Build and validate the complete release
