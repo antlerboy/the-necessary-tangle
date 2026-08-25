@@ -22,6 +22,11 @@ The Castellani page preserves all current outward links while exposing source
 label disagreements. The counted-map page retains aggregate signals while
 excluding the private Scopus corpus and raw licensed reference strings.
 
+The release-integrity hotfix gives the Surprise-me script a fresh asset key,
+normalises links produced by its earlier handler before the main router runs,
+and adds the four comparator-specific AI observations omitted from the first
+0.20 publication.
+
 The generated release contains 635 canonical public
 entries, 128 developed profiles, 216
 public source records, 762 total graph records and

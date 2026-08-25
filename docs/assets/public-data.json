@@ -82272,6 +82272,42 @@
         "interpretation": "Structured relation types reduce the usual language-model tendency to collapse every association into ‘related to’. The remaining danger is confident completion: turning bibliographic inclusion into influence, a provisional edge into fact, or missing data into a smooth narrative.",
         "implication": "AI outputs should expose the exact entries, relation types and sources used; distinguish retrieval from inference; and state when the graph is silent.",
         "test": "A useful AI answer should become less fluent, not more, when the evidence is thin or contradictory."
+      },
+      {
+        "id": "comparator_links_have_different_meanings",
+        "title": "A line on one map is not the same claim as a line on another",
+        "kind": "comparator-semantics observation",
+        "measurement": "Release 0.20 preserves 1,320 source-reported major-influence links, 307 outward web destinations and 1,856 keyword-labelled citation signals in three separate comparator layers.",
+        "interpretation": "The visual grammar of a line conceals materially different assertions: historical or conceptual influence, a route to further reading, and an aggregate bibliographic signal are not interchangeable.",
+        "implication": "Comparator imports must retain their source-defined relation meaning and must not be flattened into one generic relationship vocabulary.",
+        "test": "A reader should be able to state what a link means, and what it does not establish, without consulting the source map's code or private development history."
+      },
+      {
+        "id": "overlap_is_not_agreement",
+        "title": "Overlap is not agreement",
+        "kind": "reconciliation observation",
+        "measurement": "Of 650 Systemic Evolution nodes, 5 are confirmed matches, 57 are partial and 588 remain unresolved; 66 distinct atlas entries are linked through the cumulative reconciliation.",
+        "interpretation": "A plausible name match does not show that two maps use the same boundary, definition or historical claim. Low overlap can expose different vocabularies and purposes as readily as missing coverage.",
+        "implication": "Reconciliation should preserve confirmed, partial and unresolved states instead of forcing every source node into an apparently equivalent atlas entry.",
+        "test": "Manually review the highest-connectivity unresolved nodes and record whether each result is identity, broader/narrower scope, a rival term or genuinely absent coverage."
+      },
+      {
+        "id": "link_preservation_exposes_disagreement",
+        "title": "Preserving every link makes disagreement inspectable",
+        "kind": "source-fidelity observation",
+        "measurement": "All 307 destinations in the current Castellani image map are retained, including 28 places where its visible label and destination metadata disagree.",
+        "interpretation": "Silently correcting or dropping awkward links would make the derivative cleaner but erase evidence about the source's present state. Complete preservation is useful precisely because it exposes what still needs checking.",
+        "implication": "Store the source-published value and any later correction separately; preservation must never be presented as endorsement or independent verification.",
+        "test": "Audit all 307 destinations, distinguish dead links from label mismatches and substantive errors, and return confirmed corrections upstream."
+      },
+      {
+        "id": "aggregation_sets_an_evidential_ceiling",
+        "title": "Aggregation sets an evidential ceiling",
+        "kind": "reproducibility and evidence observation",
+        "measurement": "The counted-map projection contains 98 concepts, 89 with evidence and 1,856 aggregate signals, while publishing zero raw licensed reference strings; the private corpus and an undocumented shrink step prevent independent rerunning.",
+        "interpretation": "The aggregate can reveal concentrations worth investigating, but it cannot by itself establish direct idea-to-idea influence or allow an independent reader to reproduce the transformation.",
+        "implication": "Use the signals to prioritise source review, not as canonical relations, and recover the transformation or replace the experiment with a lawful public corpus.",
+        "test": "Rerun a documented public-corpus version and compare which high-weight signals persist under different vocabularies and thresholds."
       }
     ]
   },

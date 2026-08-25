@@ -9,6 +9,18 @@
   const excludedTypes = new Set(['corpus', 'source', 'evidence', 'claim']);
   const validReturnViews = new Set(['home', 'browse', 'journeys', 'map', 'ask', 'contribute', 'about', 'ai-observations']);
 
+  // Repair links produced by the earlier Surprise-me handler before the main
+  // application router runs at DOMContentLoaded. Otherwise it treats
+  // `surprise` as an unknown return view and needlessly renders Browse first.
+  function normaliseLegacySurpriseRoute() {
+    const params = new URLSearchParams(location.hash.replace(/^#/, ''));
+    if (params.get('view') !== 'item' || params.get('from') !== 'surprise') return;
+    params.set('from', 'home');
+    history.replaceState(null, '', `#${params.toString()}`);
+  }
+
+  normaliseLegacySurpriseRoute();
+
   function plainLeftClick(event) {
     return event.button === 0 && !event.metaKey && !event.ctrlKey && !event.shiftKey && !event.altKey;
   }
