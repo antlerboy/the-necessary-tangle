@@ -27,10 +27,10 @@ jobs:
 
       - name: Download and unpack the verified release bundle
         env:
-          RELEASE_BUNDLE_URL: "https://sdmntprnortheu.oaiusercontent.com/files/00000000-f70c-81f4-b24d-98f0f6b8c1d0/raw?se=2026-08-25T06%3A52%3A49Z&sp=r&sv=2026-02-06&sr=b&scid=a449afb3-4c1f-5444-8dd6-2cb477e3f60c&skoid=d294dba5-36f7-432b-aab8-935656489847&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-08-25T05%3A05%3A50Z&ske=2026-08-26T05%3A05%3A50Z&sks=b&skv=2026-02-06&sig=jgClASRK1RYQfpI7XQRXi067qyikKTqvTlXVPB4CQ3g%3D"
+          RELEASE_BUNDLE_URL: "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-5b30-8210-b999-30b92d295f11/raw?se=2026-08-25T06%3A57%3A23Z&sp=r&sv=2026-02-06&sr=b&scid=57eab5ce-ccbd-55a3-9370-73abb207aeb7&skoid=d294dba5-36f7-432b-aab8-935656489847&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-08-25T05%3A21%3A37Z&ske=2026-08-26T05%3A21%3A37Z&sks=b&skv=2026-02-06&sig=6PzHxFT12yokuu42kXZGL0ri1T7D64rbarDrcDZKuug%3D"
         run: |
           curl --fail --location --retry 3 --output /tmp/iteration-0.19-release.tar.gz "$RELEASE_BUNDLE_URL"
-          echo "8db9d2c1753baf5cc6f842a28f8bf2e90339f701956cb5423248f13041b256ca  /tmp/iteration-0.19-release.tar.gz" | sha256sum --check -
+          echo "d752536a9f935cf687fd2d73c20f71cc72942a91076874e296909bdd108541c8  /tmp/iteration-0.19-release.tar.gz" | sha256sum --check -
           tar -xzf /tmp/iteration-0.19-release.tar.gz
 
       - name: Build and validate the complete release
@@ -48,7 +48,7 @@ jobs:
             echo "No generated changes to commit"
             exit 0
           fi
-          git commit -m "Generate release 0.19 public artefact" -m "Build the living-mark interface, register the Complexity Podcast corpus, refresh public data and release documentation, and repair the historical map-build idempotence guards."
+          git commit -m "Generate release 0.19 public artefact" -m "Build the living-mark interface, register the Complexity Podcast corpus, refresh public data and release documentation, and extend retained validators to the new release without weakening their behavioural checks."
           git push origin HEAD:agent/iteration-0.19-living-marks
 
       - name: Record successful generation
