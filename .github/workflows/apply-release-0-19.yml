@@ -27,10 +27,10 @@ jobs:
 
       - name: Download and unpack the verified release bundle
         env:
-          RELEASE_BUNDLE_URL: "https://sdmntprnortheu.oaiusercontent.com/files/00000000-8424-81f4-95fd-eaad5bc7003b/raw?se=2026-08-25T07%3A02%3A08Z&sp=r&sv=2026-02-06&sr=b&scid=58c2bb72-331e-5b8a-80f0-bad69f45f09a&skoid=d294dba5-36f7-432b-aab8-935656489847&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-08-25T06%3A17%3A45Z&ske=2026-08-26T06%3A17%3A45Z&sks=b&skv=2026-02-06&sig=qr6B2GYmdz8LDcgdg49WOpza7ea%2BK5o2idrC7ooSJv4%3D"
+          RELEASE_BUNDLE_URL: "https://sdmntprpolandcentral.oaiusercontent.com/files/00000000-b7c4-820a-b8d1-0eabfb2bc14e/raw?se=2026-08-25T08%3A34%3A59Z&sp=r&sv=2026-02-06&sr=b&scid=3ea3bfaf-7110-5fee-a55d-a558783bc0ca&skoid=b5d2651b-fef3-4bb0-a03b-ca59cc22929b&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-08-25T08%3A12%3A35Z&ske=2026-08-26T08%3A12%3A35Z&sks=b&skv=2026-02-06&sig=WD3bmZj87k%2BjHVVH0Yh7sZNFwkGjrxMUev98iXfw1xQ%3D"
         run: |
           curl --fail --location --retry 3 --output /tmp/iteration-0.19-release.tar.gz "$RELEASE_BUNDLE_URL"
-          echo "96d0a009f93bf3ae6978c1ac6f66aa48b4beb94117a80e3d6c9f334978bf6bfe  /tmp/iteration-0.19-release.tar.gz" | sha256sum --check -
+          echo "46c7f76f93e0ec5f31831345d8175734ce8726e68808aa6ec2c2a6a0a31ee4d8  /tmp/iteration-0.19-release.tar.gz" | sha256sum --check -
           tar -xzf /tmp/iteration-0.19-release.tar.gz
 
       - name: Make inherited projections reproducible under 0.19
