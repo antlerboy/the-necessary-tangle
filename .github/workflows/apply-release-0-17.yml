@@ -1,4 +1,4 @@
-name: Apply release 0.17 from the verified bundle
+name: Prepare and validate release branch
 
 on:
   pull_request:
@@ -6,68 +6,39 @@ on:
 
 permissions:
   contents: write
-  issues: write
-  pull-requests: write
 
 concurrency:
-  group: apply-release-0-17
-  cancel-in-progress: false
+  group: prepare-release-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
 
 jobs:
-  apply:
-    if: github.event.pull_request.head.ref == 'agent/complete-update-0.17'
+  prepare-release:
+    if: startsWith(github.event.pull_request.head.ref, 'agent/release-')
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 90
     steps:
-      - name: Check out the publication branch
+      - name: Check out the pull-request branch
         uses: actions/checkout@v7
         with:
-          ref: agent/complete-update-0.17
+          ref: ${{ github.event.pull_request.head.ref }}
           fetch-depth: 0
-
-      - name: Detect an already-generated branch
-        id: bundle
-        run: |
-          if compgen -G '.iteration-bundle/part-*' > /dev/null; then
-            echo 'present=true' >> "$GITHUB_OUTPUT"
-          else
-            echo 'present=false' >> "$GITHUB_OUTPUT"
-          fi
-
-      - name: Reconstruct and prepare the release
-        if: steps.bundle.outputs.present == 'true'
-        run: |
-          cat .iteration-bundle/part-* | base64 --decode > /tmp/tangle-0.17-update.tar.gz
-          echo "256bc3d0a788a3bfcbe20cdbcb72f58b8ea79200ef63df5e608fc2f19e9b4375  /tmp/tangle-0.17-update.tar.gz" | sha256sum --check -
-          tar -xzf /tmp/tangle-0.17-update.tar.gz -C .
-          git show origin/main:.github/scripts/prepare_release_0_17.py > /tmp/prepare_release_0_17.py
-          git show origin/main:.github/scripts/patch_release_0_17_validator_compat.py > /tmp/patch_release_0_17_validator_compat.py
-          python3 /tmp/prepare_release_0_17.py
-          python3 /tmp/patch_release_0_17_validator_compat.py
-          chmod +x scripts/apply_iteration_17.py scripts/patch_iteration_17.py scripts/sync_release_docs_17.py scripts/validate_iteration_17.py
+          persist-credentials: true
 
       - name: Build and validate the complete release
-        if: steps.bundle.outputs.present == 'true'
+        env:
+          TANGLE_REFRESH_COMPLEXITY_PODCAST: "1"
         run: make validate
 
-      - name: Commit the generated release
-        if: steps.bundle.outputs.present == 'true'
+      - name: Commit generated release artefacts
+        shell: bash
         run: |
-          rm -rf .iteration-bundle .github/workflows/apply-iteration-bundle.yml .release-trigger .release-gate-note .release-gate-ready .release-retry .release-retry-2 .release-retry-3 .release-retry-4 .release-retry-5 .release-retry-6 .release-retry-7 .release-retry-8 .release-retry-9 .release-retry-10
-          git config user.name "Benjamin P Taylor"
-          git config user.email "ben.taylor@redquadrant.com"
+          set -euo pipefail
           git add -A
-          git commit -m "Publish 0.17 public intake and canon update" -m "Add public submissions and responses, Surprise me navigation, canon and lineage review, expanded critical systems history, the first structured submission projection, and the second bounded company-knowledge discovery pass."
-          git push origin HEAD:agent/complete-update-0.17
-
-      - name: Record successful generation
-        if: steps.bundle.outputs.present == 'true'
-        uses: actions/github-script@v8
-        with:
-          script: |
-            await github.rest.issues.createComment({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              issue_number: context.issue.number,
-              body: 'Release 0.17 was reconstructed from the verified bundle, built through the complete historical chain, validated, and committed to `agent/complete-update-0.17`.'
-            });
+          if git diff --cached --quiet; then
+            echo "The release branch is already generated and validated."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Generate and validate the release artefact"
+          git push origin "HEAD:${{ github.event.pull_request.head.ref }}"
