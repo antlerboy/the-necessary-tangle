@@ -1,32 +1,34 @@
 # AI observations
 
-Generated for release `0.18-navigable-tangle-alpha` on 2026-08-23.
+Generated for release `0.19-living-marks-alpha` on 2026-08-25.
+
+This release retains the observation lenses introduced through `0.18-navigable-tangle-alpha`, while regenerating every graph measurement against the current public artefact.
 
 Measurements come from the generated public graph. Interpretations concern this atlas and its current source and interface choices; they are not measurements of the field itself.
 
-## Breadth still outruns depth
+## Breadth has outrun depth
 
 **Kind:** measurement plus interpretation
 
-**Measurement:** The atlas has 633 public entries and 127 developed profiles.
+**Measurement:** The atlas has 635 public entries and 128 developed profiles. Only 20.2% of entries have the fuller profile structure.
 
-**Interpretation:** A named entry and a developed critical account remain different editorial products.
+**Interpretation:** It is now better at showing that something belongs in the territory than at explaining what the thing means, why it matters, where it is contested and how it enters practice.
 
-**Implication:** Depth work should follow contested bridges, practitioner use and consequential ambiguity rather than raw entry count.
+**Implication:** Next depth work should follow reader demand, bridge concepts and high-risk ambiguities rather than adding another undifferentiated tranche of names.
 
-**Test:** Track the share of public entries with developed profiles and sourced relations across several relation families.
+**Test:** This observation weakens when developed profiles and item-level source coverage grow without sacrificing the breadth inventory.
 
-## The atlas contains two graph regimes
+## One interface contains two different graphs
 
-**Kind:** semantic measurement
+**Kind:** measurement plus design inference
 
-**Measurement:** The release contains 1547 typed records, of which the public graph snapshot counts 857 as substantive relations.
+**Measurement:** There are 1548 typed public edges, but 858 are conceptual, historical, human, practice or contestation relations. The substantive share is 55.4%.
 
-**Interpretation:** Documentary and classificatory structure helps retrieval, while substantive relations carry most of the explanatory burden.
+**Interpretation:** Authorship, collection membership and other provenance lines answer different questions from influence, dependence or use. Combining them without visible layers makes bibliographic density look like intellectual agreement.
 
-**Implication:** Interface density must not make a catalogue edge look equivalent to a historical, conceptual or practice claim.
+**Implication:** The interface should let readers choose conceptual, human-lineage, practice, contestation and provenance layers explicitly.
 
-**Test:** Inspect a sample of map edges and confirm that the visible wording exposes relation type and evidence role.
+**Test:** Readers should be able to explain what became visible or hidden when they change layer, without learning database vocabulary first.
 
 ## Expertise needs relations, not biography alone
 
@@ -52,77 +54,77 @@ Measurements come from the generated public graph. Interpretations concern this 
 
 **Test:** Confirm that the unFIX coverage page does not present the 32-item inventory as independent validation of the concepts.
 
-## Practice remains less connected than the canon
+## Practice is named more often than it is connected
 
-**Kind:** graph interpretation
+**Kind:** measurement plus curatorial inference
 
-**Measurement:** The substantive graph leaves 184 public entries outside a substantive component.
+**Measurement:** The isolate count is concentrated among intervention skills, laws, tools, methods and publications rather than the small conceptual core.
 
-**Interpretation:** Bibliographic breadth grows more easily than warranted accounts of how ideas alter action in context.
+**Interpretation:** The source programme has imported lists of capabilities and publications faster than it has documented how ideas are enacted, taught, combined, resisted and changed in use.
 
-**Implication:** Future depth passes should connect methods to cases, conditions, consequences and failure modes.
+**Implication:** Practice cases, practitioner journals, project histories and teaching lineages should now receive deliberate connection work.
 
-**Test:** Review isolated and one-family entries by entity type, then prioritise practice-facing gaps with usable sources.
+**Test:** The practice layer should develop multiple well-sourced routes between concepts, methods, settings, people and consequences.
 
-## A single synthesis creates source monoculture
+## Auditability is not yet source diversity
 
-**Kind:** source-quality observation
+**Kind:** measurement plus evidential risk
 
-**Measurement:** The 32 unFIX concept records initially share one declared synthesis source, which itself describes AI-assisted preparation and subsequent human editing.
+**Measurement:** The most reused source is ‘Foundational Papers in Complexity Science — official tables of contents’, attached to 782 public nodes or edges.
 
-**Interpretation:** Shared provenance is honest and useful for discovery, but it cannot establish 32 independent bodies of evidence.
+**Interpretation:** A table of contents can establish titles, authors and collection placement. It cannot establish the meaning, influence or quality of every work it lists. Repetition of one source creates an appearance of corroboration without independent evidence.
 
-**Implication:** Concepts should acquire primary or authoritative sources individually before their claims become stronger.
+**Implication:** Paper-level primary records, publisher pages, DOI metadata, archives, reviews and critical accounts must replace collection-level evidence where stronger statements are made.
 
-**Test:** Count how many unFIX entries later gain distinct source records and whether their definitions change as a result.
+**Test:** Source concentration should fall as the number and independence of item-level sources rise.
 
-## Identity resolution is substantive editorial work
+## The people layer contains an identity-resolution debt
 
-**Kind:** information-quality observation
+**Kind:** measurement plus data-quality risk
 
-**Measurement:** Search aliases now include common short forms, surnames and known misspellings while canonical redirects preserve one public identity.
+**Measurement:** 107 of 226 people — 47.3% — are currently represented by initial-form labels.
 
-**Interpretation:** Search failure can masquerade as conceptual absence; careless aliasing can instead merge genuinely different people or ideas.
+**Interpretation:** Initials are enough to inventory an authorship string, but not enough to guarantee a unique person. They invite duplicate records, mistaken mergers and false career or influence connections.
 
-**Implication:** Aliases need explicit canonical targets and review, especially for surnames and near-homonyms.
+**Implication:** Add full names, ORCID or other authority identifiers, affiliations and paper-level checks before deepening those people into intellectual profiles.
 
-**Test:** Search for Donna and Donella Meadows, Russ and Russell Ackoff, surnames and common misspellings and verify the canonical result.
+**Test:** No initial-only person should acquire interpretive or lineage edges without successful identity resolution.
 
-## A neighbourhood is a view, not a permanent fact
+## The published neighbourhoods are a historical snapshot, not the present graph
 
-**Kind:** map observation
+**Kind:** measurement plus model warning
 
-**Measurement:** The constellation view computes direct and two-step orbits from the currently visible substantive graph.
+**Measurement:** Six published neighbourhoods contain 77 unique nodes, while 403 nodes are now connected; 338 connected nodes sit outside the old grouping pass.
 
-**Interpretation:** As evidence and relation types change, a person's apparent intellectual neighbourhood should change too.
+**Interpretation:** An algorithmic cluster is produced by the current edges, exclusions, resolution setting and seed. It is not a natural school waiting to be discovered.
 
-**Implication:** Saved journeys may guide attention, but generated constellations should not be frozen into taxonomies.
+**Implication:** Recompute neighbourhoods at each suitable release, record the algorithm and version, and retain change over time rather than silently replacing one partition with another.
 
-**Test:** Add or remove a warranted bridge and confirm that the two-step constellation changes without manual recategorisation.
+**Test:** A reader should be able to inspect why two entries share a neighbourhood and see when that grouping changed.
 
-## Bridge concepts hold the central component together
+## A few bridge concepts carry much of the atlas's traffic
 
-**Kind:** graph measurement plus interpretation
+**Kind:** network measurement plus editorial inference
 
-**Measurement:** The largest substantive component contains 330 public entries.
+**Measurement:** Feedback, recursion, the Viable System Model, boundary, requisite variety and related bridge entries have markedly higher substantive degree than most of the graph.
 
-**Interpretation:** A small number of concepts and practices connect otherwise separate traditions, people and methods.
+**Interpretation:** The wording and omissions in those entries influence many possible routes through the atlas. They are single points of interpretive failure as well as useful orientation points.
 
-**Implication:** Bridge entries deserve stronger definitions, competing interpretations and source diversity because errors there propagate widely.
+**Implication:** Give bridge entries multi-source review, rival definitions, domain distinctions and explicit limits before relying on them as navigation hubs.
 
-**Test:** Remove high-betweenness entries in a copy of the graph and inspect which traditions split apart.
+**Test:** Alternative routes and counter-accounts should reduce dependence on any one bridge without hiding genuine centrality.
 
-## The map is also a map of editorial attention
+## The gaps map the curator's attention as much as they map the field
 
 **Kind:** second-order observation
 
-**Measurement:** Release 0.18 contains 184 substantively isolated public entries alongside a largest component of 330.
+**Measurement:** 232 entries are isolated in the substantive graph, while the largest substantive component contains 331 entries.
 
-**Interpretation:** Graph position reflects available sources, curation choices and past questions as well as the intellectual field itself.
+**Interpretation:** Isolation does not mean an idea is naturally peripheral. It often means the current source set, relation vocabulary or research history has not yet made its connections visible.
 
-**Implication:** Centrality must never be presented as a neutral measure of importance.
+**Implication:** Treat isolates as hypotheses about missing work, not as evidence that the field itself has no connections there.
 
-**Test:** Compare centrality with the release history and source programmes to identify where editorial effort created apparent prominence.
+**Test:** Source programmes from different traditions should alter which entries appear central, peripheral or absent.
 
 ## Automation readily overreads weak evidence
 
@@ -267,3 +269,15 @@ Measurements come from the generated public graph. Interpretations concern this 
 **Implication:** Navigation uses links; buttons are reserved for actions whose result cannot sensibly exist as a URL.
 
 **Test:** Right-click or modified-click each navigational surface and confirm that its destination remains coherent in a separate tab.
+
+## The graph is unusually useful to AI — and unusually easy for AI to overread
+
+**Kind:** experience-based AI observation
+
+**Measurement:** The atlas provides typed relations, status, source IDs and explicit caveats, but depth and source granularity vary sharply across entries.
+
+**Interpretation:** Structured relation types reduce the usual language-model tendency to collapse every association into ‘related to’. The remaining danger is confident completion: turning bibliographic inclusion into influence, a provisional edge into fact, or missing data into a smooth narrative.
+
+**Implication:** AI outputs should expose the exact entries, relation types and sources used; distinguish retrieval from inference; and state when the graph is silent.
+
+**Test:** A useful AI answer should become less fluent, not more, when the evidence is thin or contradictory.

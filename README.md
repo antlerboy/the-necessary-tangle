@@ -1,12 +1,13 @@
 # The Necessary Tangle
 
-## Release 0.18
+## Release 0.19
 
-Release 0.18 makes the atlas navigable as a reading and map experience: full-screen entries, connections beside definitions, reliable panning, a constellation view and stable URLs for navigational controls. It also adds the Linda Booth Sweeney book updates, resolves the unFIX 32-concept comparator, audits all people and institutions named after 0.17, expands search aliases and refreshes the public AI observations.
+Release 0.19 gives the atlas a living visual identity. Each fresh load selects one of ten curator-supplied still or moving marks while the wordmark, navigation and reading environment stay stable. Motion is silent and falls back to a still for reduced-motion readers. The release also registers the complete Santa Fe Institute *COMPLEXITY* podcast and transcript archive as a bounded source corpus, with explicit limits on what an episode, transcript or show-note link can establish.
 
 Public routes:
 
 - https://transduction.systems/
+- https://transduction.systems/corpora/complexity-podcast/
 - https://transduction.systems/coverage/named/
 - https://transduction.systems/coverage/unfix-32/
 
@@ -35,9 +36,11 @@ The site includes:
 
 ## Status
 
-This is a public alpha. Release 0.16 contains 581 canonical public entries, including 123 developed profiles, 205 sources and 21 guided journeys. Breadth is not presented as completeness, and editorial acceptance is not presented as final consensus.
+Release 0.19 contains 635 canonical public entries, 128 developed profiles and 214 public source records. It adds the living-mark family and the bounded *COMPLEXITY* podcast corpus intake.
 
-Release 0.17 contains 581 canonical public entries, 123 developed profiles, 205 sources and 21 guided journeys. It adds a public submissions-and-responses page, a genuine ‘Surprise me’ route across readable content, and a canon-and-lineage review which develops Michael C. Jackson, Magnus Ramage, Karen Shipp and *Systems Thinkers* while making the atlas's own visibility and identity rules explicit.
+This is a public alpha. Release 0.16 contains 633 canonical public entries, including 127 developed profiles, 211 sources and 21 guided journeys. Breadth is not presented as completeness, and editorial acceptance is not presented as final consensus.
+
+Release 0.17 contains 633 canonical public entries, 127 developed profiles, 211 sources and 21 guided journeys. It adds a public submissions-and-responses page, a genuine ‘Surprise me’ route across readable content, and a canon-and-lineage review which develops Michael C. Jackson, Magnus Ramage, Karen Shipp and *Systems Thinkers* while making the atlas's own visibility and identity rules explicit.
 
 Release 0.16 makes the 33 *Grammar of Systems* laws and principles visible as a connected web rather than a disconnected list. The book-to-law statements are source-backed; the new law-to-concept, law-to-law and law-to-practice crosswalk is explicitly provisional and open to page-level evidence and challenge.
 

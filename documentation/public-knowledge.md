@@ -1,7 +1,7 @@
 # The Necessary Tangle: public knowledge file
 
 Curated by Benjamin P Taylor — https://www.antlerboy.com/
-Generated from public release 0.18-navigable-tangle-alpha on 2026-08-23.
+Generated from public release 0.19-living-marks-alpha on 2026-08-25.
 
 A living evidence atlas of systems | cybernetics | complexity.
 Every connection must say what it means. Historical sequence, logical dependence, influence, teaching, collaboration, practical use, comparison and dispute are not interchangeable.
@@ -10093,6 +10093,17 @@ Named in the public 0.18 coverage audit. A source-specific profile and typed lin
 
 - Running feedback after release 0.17 — https://github.com/antlerboy/the-necessary-tangle/issues/2
 
+## Santa Fe Institute
+
+Type: Organisation
+Public depth: described
+
+An independent research institute dedicated to the study of complex adaptive systems.
+
+### Sources
+
+- Podcast Archive — Complexity — https://web-prod.santafe.edu/culture/podcast-archive
+
 ## Saskia Rysenbry
 
 Type: Person
@@ -12115,6 +12126,68 @@ M. Bunge, ‘The Complexity of Simplicity’ (1962); item 19 in volume 1 of the 
 ### Sources
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## The Complexity Podcast
+
+Type: Publication
+Public depth: profile
+
+The official Santa Fe Institute podcast and transcript archive: a dated public record of conversations across complexity science, its applications and disputes. The corpus is evidence of what participants said and what SFI chose to publish, not automatic proof of a statement's truth or a guest's influence.
+
+### Summary
+
+The official Santa Fe Institute podcast and transcript archive: a dated public record of conversations across complexity science, its applications and disputes. The corpus is evidence of what participants said and what SFI chose to publish, not automatic proof of a statement's truth or a guest's influence.
+
+### Why it matters
+
+It is a substantial public, transcript-backed record of how one leading complexity-science institution frames questions, hosts disagreement and connects research domains over time.
+
+### Key distinctions
+
+- An episode transcript supports a located account of what was said; it is not independent corroboration.
+- A guest appearance documents participation, not intellectual priority, endorsement or field-wide importance.
+- Show notes are discovery routes. Their linked papers and books must be checked directly before supporting stronger claims.
+- The complete corpus can be registered before every episode has received a deep interpretive pass.
+
+### Historical development
+
+- Published by the Santa Fe Institute from 2019 to 2024.
+- The official archive points readers to a full transcript for every episode at Simplecast.
+- Release 0.19 records the complete feed as a bounded corpus and starts a question-led review rather than a bulk edge-generation exercise.
+
+### Ideas it depends on
+
+- Complexity science
+- Public scholarship
+- Transcript-backed source corpora
+
+### What develops from it
+
+- Episode-level claims with timestamp or transcript locators
+- Named works and institutional links checked at their primary sources
+
+### Connections to practice
+
+- Use transcript search to locate explicit definitions, disagreements, intellectual debts and practical examples.
+- Use the RSS feed for inventory and dates, and the transcript page for the actual claim.
+
+### Common confusions
+
+- Treating the whole corpus as one coherent theory.
+- Turning proximity to SFI into a proxy for truth or importance.
+- Adding generic connections merely because two terms occur in the same conversation.
+
+### Open questions and checks
+
+- Complete an episode-level inventory with stable transcript URLs and guests.
+- Deep-read priority episodes against existing atlas gaps before adding new claims.
+- Record disagreements and source-role limits alongside any resulting edge.
+
+### Sources
+
+- Podcast Archive — Complexity — https://web-prod.santafe.edu/culture/podcast-archive
+- COMPLEXITY — https://complexity.simplecast.com/
+- COMPLEXITY RSS feed — https://feeds.simplecast.com/OzDH_At2
 
 ## The Cynefin Company
 

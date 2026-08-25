@@ -1,22 +1,24 @@
 # Next work
 
-Status: release 0.18 is complete. No production change is authorised without a new ticket.
+Status: release 0.19 is complete. No production change is authorised without a new ticket. Release 0.18 is complete and remains the historical navigability baseline.
 
 ## Outcome
 
-Keep the atlas useful as a tangle of warranted connections rather than letting breadth, novelty or interface work outrun source quality and reader comprehension.
+Turn the registered source corpora into deeper, located and contestable knowledge without allowing inventory work to manufacture authority or generic graph density.
 
 ## In scope
 
-- review live feedback and submitted tickets after 0.18;
+- review live feedback and submitted tickets after 0.19;
+- build the episode-level Complexity Podcast inventory and deep-read bounded thematic tranches;
 - deepen entries currently marked `research_queue` or `represented` when public sources justify it;
 - continue the named long-running corpus programmes as separately bounded passes;
-- test the full-page reader, map panning, constellation scale, real-link behaviour and mobile layout with actual readers;
+- test the living marks, full-page reader, map, real-link behaviour and mobile layout with actual readers;
 - correct broken or misleading source routes as they are found.
 
 ## Out of scope
 
-- claiming exhaustive coverage of systems, cybernetics or complexity;
+- claiming that registering a corpus means interpreting it;
+- treating a podcast appearance, institutional association or show-note link as proof of influence;
 - bulk-generating biographies or relationships from names alone;
 - merging inferred similarity with source-backed influence or lineage;
 - hiding thin coverage behind visual density;
@@ -33,7 +35,7 @@ Keep the atlas useful as a tangle of warranted connections rather than letting b
 
 ## Stop conditions
 
-Stop a pass when its stated corpus, names or interaction path has been checked, the acceptance tests pass and the remaining work would require a new evidence search or a different reader outcome. Do not turn a bounded pass into an unreviewed overnight expansion.
+Stop a pass when its stated corpus, names or interaction path has been checked, the acceptance tests pass and the remaining work would require a new evidence search or a different reader outcome. Do not turn a bounded pass into an unreviewed expansion.
 
 ## Model route
 
