@@ -28,7 +28,7 @@ RELEASE = "0.19-living-marks-alpha"
 GENERATED = "2026-08-25"
 PUBLIC_URL = "https://transduction.systems/"
 EPISODE_COUNT = 119
-MARK_COUNT = 10
+MARK_COUNT = 84
 
 
 def source_19(*args: Any, **kwargs: Any) -> dict[str, Any]:

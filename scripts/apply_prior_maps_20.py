@@ -22,7 +22,7 @@ DOCS_ASSETS = ROOT / "docs" / "assets"
 RELEASE = "0.20-prior-maps-alpha"
 GENERATED = "2026-08-25"
 PUBLIC_URL = "https://transduction.systems/"
-READER_HOTFIX_VERSION = "0.20.1-public"
+READER_HOTFIX_VERSION = "0.20.2-reader-hotfix"
 
 SYSTEMIC_SOURCE = "https://uranos.ch/index.php/research-menu/cybernetcis"
 SYSTEMIC_PAGE = "https://transduction.systems/prior-maps/systemic-evolution/"
@@ -465,7 +465,9 @@ def update_documents(data: dict[str, Any]) -> None:
     meta = data["meta"]
     next_work = f"""# Next work
 
-Status: release 0.20 is complete. No further production change is authorised without a bounded ticket.
+Status: release 0.20 is complete. Release 0.20.2 is the bounded reader hotfix;
+human review governs publication. No further production change is authorised
+without a bounded ticket.
 
 ## Outcome delivered
 
@@ -516,6 +518,10 @@ keeping imported source claims separate from canonical Tangle relations.
   `from=surprise` links are normalised before routing;
 - AI observations include the comparator semantics, reconciliation,
   source-fidelity and reproducibility findings specific to release 0.20.
+- topic entries open, close and reopen without an observer reacting to its own
+  class changes;
+- all 84 curator-supplied living-mark studies are accounted for and available
+  through a one-selected-asset loading contract.
 
 ## Next bounded programmes
 
@@ -554,6 +560,7 @@ Last verified: 25 August 2026
 - Map of Systemic Evolution: 650 nodes; 1,320 source-reported links
 - Castellani current source links: 307
 - Counted-map aggregate links: 1,856
+- Living visual marks: 84 (40 still and 44 moving)
 - Canonical relations created merely from comparator imports: 0
 
 ## Current shape
@@ -570,6 +577,12 @@ normalises links produced by its earlier handler before the main router runs,
 and adds the four comparator-specific AI observations omitted from the first
 0.20 publication.
 
+The 0.20.2 reader hotfix removes a self-triggering class-attribute observer
+which could lock the browser whenever a topic entry opened. It also publishes
+all 84 reviewed media studies from the curator's `logoso` staging folder as 40
+stills and 44 silent moving marks. The page still fetches only the manifest and
+the one selected mark; every video has a reduced-motion poster.
+
 The generated release contains {meta.get('public_entry_count')} canonical public
 entries, {len(data.get('profiles', []))} developed profiles, {len(data.get('sources', []))}
 public source records, {len(data.get('nodes', []))} total graph records and
@@ -584,8 +597,9 @@ independently rerun from a public source corpus.
 
 ## Release controls
 
-Run `make build`, then `make validate`. Check the public deployment, the main
-reader and all four prior-map/contribution routes after merge.
+Run `make build`, then `make validate`. Check topic open, close, reopen and
+history behaviour, the selected living mark, and all four prior-map/contribution
+routes after merge.
 """
     (ROOT / "documentation" / "TANGLE_STATE.md").write_text(state, encoding="utf-8")
 

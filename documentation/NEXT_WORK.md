@@ -1,6 +1,8 @@
 # Next work
 
-Status: release 0.20 is complete. No further production change is authorised without a bounded ticket.
+Status: release 0.20 is complete. Release 0.20.2 is the bounded reader hotfix;
+human review governs publication. No further production change is authorised
+without a bounded ticket.
 
 ## Outcome delivered
 
@@ -51,6 +53,10 @@ keeping imported source claims separate from canonical Tangle relations.
   `from=surprise` links are normalised before routing;
 - AI observations include the comparator semantics, reconciliation,
   source-fidelity and reproducibility findings specific to release 0.20.
+- topic entries open, close and reopen without an observer reacting to its own
+  class changes;
+- all 84 curator-supplied living-mark studies are accounted for and available
+  through a one-selected-asset loading contract.
 
 ## Next bounded programmes
 

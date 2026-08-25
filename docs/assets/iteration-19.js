@@ -4,7 +4,7 @@
   const host = document.querySelector('[data-living-mark]');
   if (!host) return;
 
-  const manifestUrl = 'assets/living-marks/manifest.json';
+  const manifestUrl = 'assets/living-marks/manifest.json?v=0.20.2-reader-hotfix';
   const reducedMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   const previousKey = 'necessary-tangle:last-living-mark';
 

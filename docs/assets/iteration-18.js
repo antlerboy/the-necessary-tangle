@@ -227,7 +227,7 @@
   document.addEventListener('DOMContentLoaded', () => {
     runEnhancements();
     const observer = new MutationObserver(runEnhancements);
-    observer.observe(document.body, { childList: true, subtree: true, attributes: true, attributeFilter: ['class'] });
+    observer.observe(document.body, { childList: true, subtree: true });
   });
   window.addEventListener('hashchange', () => requestAnimationFrame(runEnhancements));
 })();
