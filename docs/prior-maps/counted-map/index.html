@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="light dark"><meta name="theme-color" content="#9f161b">
+  <title>The Counted Map — The Necessary Tangle</title>
+  <meta name="description" content="A rights-safe public projection of Nigel Williams's counted map: 98 concepts and all 1,856 aggregate keyword-labelled citation signals.">
+  <link rel="stylesheet" href="/assets/styles.css?v=0.20.0-public">
+  <link rel="stylesheet" href="/assets/site-enhancements.css?v=0.20.0-public">
+  <link rel="stylesheet" href="/assets/prior-maps.css?v=0.20.0-public">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to the counted map</a>
+<main id="main" class="pm-shell" tabindex="-1">
+  <nav class="pm-nav" aria-label="Breadcrumb"><a href="/prior-maps/">← Prior maps</a><a href="/contributors/nigel-williams/">Nigel Williams’s contribution</a><a href="/#view=home">The Necessary Tangle</a></nav>
+  <header class="pm-head"><p class="eyebrow">Inherited aggregate experiment</p><h1>The Counted Map</h1><p class="pm-lede">Nigel Williams built a fresh 98-concept map from a large Scopus corpus. This public projection retains all 1,856 aggregate links and their thresholds, while removing the private corpus, Scopus EIDs and every raw cited-reference string.</p></header>
+
+  <div class="pm-stats"><div class="pm-stat"><strong>98</strong><span>concepts tested</span></div><div class="pm-stat"><strong>89</strong><span>concepts above threshold</span></div><div class="pm-stat"><strong>1,856</strong><span>aggregate links retained</span></div><div class="pm-stat"><strong>15,406</strong><span>records matching a concept</span></div></div>
+
+  <section class="pm-section">
+    <h2>What a line really means</h2>
+    <div class="pm-callout"><p><strong>A link is a keyword-labelled citation signal in this particular corpus.</strong> Records whose titles matched the source term contained cited-reference strings matching the target term, at least five times across at least three distinct citing records.</p></div>
+    <p>That is weaker and more awkward than “work on X cites work on Y”, because the matching is lexical and concepts can be broad, overlapping or ambiguous. It does not establish influence, agreement, derivation, importance or a clean citation between two settled literatures.</p>
+  </section>
+
+  <section class="pm-section wide">
+    <h2>All 1,856 aggregate links</h2>
+    <div class="pm-controls"><label>Find a concept<input id="countedSearch" type="search" placeholder="feedback, cybernetics, networks…"></label><label>Minimum aggregate weight<input id="countedWeight" type="number" min="5" value="5" step="5"></label><label>Links<select id="countedStatus"><option value="all">All links</option><option value="stable">Not concentrated</option><option value="concentrated">Concentrated in one record</option></select></label><button id="countedReset" type="button">Reset</button></div>
+    <div class="pm-key"><span><i style="background:#9f161b"></i>selected concept</span><span><i style="background:#f7f1e4"></i>concept</span><span>Amber link: one record supplies at least half the signal</span></div>
+    <div class="pm-map-layout"><div class="pm-map-stage"><canvas id="countedCanvas" aria-label="Interactive rendering of all aggregate counted-map links"></canvas></div><aside id="countedPanel" class="pm-map-panel" aria-live="polite"><h2>Reading the counted map</h2><p>Select a concept to inspect every aggregate link that survives the current filter.</p></aside></div>
+    <p class="pm-small"><a href="/assets/counted-map-public.json">Download the complete rights-safe aggregate dataset</a>.</p>
+  </section>
+
+  <section class="pm-section">
+    <h2>What is and is not reproducible</h2>
+    <p>The build and validation code are included. The run reported 85,832 source documents and 13,792,287 cited-reference rows. The licensed source corpus and its shrink step are not public, so this release cannot independently reproduce the figures. They remain Nigel’s reported aggregate result, now labelled accordingly.</p>
+    <p>The public dataset keeps aggregate weights, distinct-citing-record counts, concentration flags, years and exemplar DOI handles. It publishes <strong>zero</strong> raw Scopus reference strings, abstracts, affiliations, keywords or EIDs. A private Claude artefact URL from the fork has also been removed.</p>
+  </section>
+
+  <section class="pm-section"><h2>Credit</h2><p>Concept vocabulary, corpus build, thresholds, first results, viewer and limitations analysis by <a href="/contributors/nigel-williams/"><strong>Nigel Williams</strong></a>. Public projection, terminology correction and rights boundary curated by Benjamin P Taylor. The map is an inherited research experiment, not a claim that its counts are the final shape of systems, cybernetics or complexity.</p></section>
+</main>
+<script src="/assets/counted-map.js?v=0.20.0-public"></script>
+</body>
+</html>

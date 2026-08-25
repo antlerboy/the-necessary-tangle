@@ -128,7 +128,7 @@ def main() -> int:
     edges = {edge.get("id"): edge for edge in data.get("edges", []) if edge.get("id")}
     profiles = {profile.get("node_id"): profile for profile in data.get("profiles", []) if profile.get("node_id")}
 
-    if meta.get("release") not in {RELEASE, "0.18-navigable-tangle-alpha", "0.19-living-marks-alpha"}:
+    if meta.get("release") not in {RELEASE, "0.18-navigable-tangle-alpha", "0.19-living-marks-alpha", "0.20-prior-maps-alpha"}:
         errors.append(f"meta.release must be {RELEASE}")
     if meta.get("generated") not in {GENERATED, "2026-08-23", "2026-08-25"}:
         errors.append(f"meta.generated must be {GENERATED}")
@@ -176,7 +176,7 @@ def main() -> int:
 
     submissions = data.get("site_submissions", {})
     items = submissions.get("items", [])
-    if submissions.get("release") not in {RELEASE, "0.18-navigable-tangle-alpha", "0.19-living-marks-alpha"} or submissions.get("marker") != "Prepared from The Necessary Tangle":
+    if submissions.get("release") not in {RELEASE, "0.18-navigable-tangle-alpha", "0.19-living-marks-alpha", "0.20-prior-maps-alpha"} or submissions.get("marker") != "Prepared from The Necessary Tangle":
         errors.append("site-submission projection metadata is missing or stale")
     if meta.get("site_submission_count") != len(items) or len(items) != 1:
         errors.append("the 0.17 release should surface the single structured submission found at publication time")
@@ -294,7 +294,7 @@ def main() -> int:
     changelog = read("CHANGELOG.md")
     if f"version: {meta.get('release')}" not in citation or f"date-released: {meta.get('generated')}" not in citation or f"url: {PUBLIC_URL}" not in citation:
         errors.append("citation metadata does not identify release 0.17")
-    if ("## Release 0.19" not in readme and "## Release 0.18" not in readme and "Release 0.17 contains" not in readme) or "https://transduction.systems/" not in readme:
+    if ("## Release 0.20" not in readme and "## Release 0.19" not in readme and "## Release 0.18" not in readme and "Release 0.17 contains" not in readme) or "https://transduction.systems/" not in readme:
         errors.append("README does not explain the 0.17 release and public routes")
     if f"## {RELEASE} — 19 August 2026" not in changelog:
         errors.append("0.17 changelog entry is missing")

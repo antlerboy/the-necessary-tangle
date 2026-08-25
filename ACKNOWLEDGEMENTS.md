@@ -18,6 +18,8 @@ Dave Snowden's work contributes Cynefin, SenseMaker, naturalising sense-making, 
 
 Igor Perko's researchers-network work provides a substantial comparator for mapping people and intellectual lineages. Brian Castellani's maps of the complexity sciences and other published maps provide material and challenge. Principia Cybernetica, the Foundational Papers in Complexity Science collection, Monoskop, SysCoI, model.report and professional-body resource guides are treated as distinct sources with different evidential limits.
 
+The *Map of Systemic Evolution* is credited through its full published lineage: Eric Schwarz (1996), the 1998 extension drawing on Will Durant, IIGSS (2000–01), and Benjamin Hadorn (2016). Benjamin Hadorn gave permission for the map's appropriate use in this project. Nigel Williams is credited for the deterministic GraphML extraction, comparator analysis, Castellani gap pass, counted-map experiment and build fixes incorporated in release 0.20. Brian Castellani retains authorship and the terms of his current *Map of the Complexity Sciences*.
+
 ## Sources, rights and responsibility
 
 Public statements are supported by public sources or complete public bibliographic citations. Private material may identify leads but is not itself published as evidence. Original atlas text, public data and editorial material are licensed under CC BY-SA 4.0 unless otherwise marked; original software uses the MIT licence. Third-party works remain under their own terms.

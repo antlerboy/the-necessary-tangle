@@ -1,42 +1,71 @@
 # Next work
 
-Status: release 0.19 is complete. No production change is authorised without a new ticket. Release 0.18 is complete and remains the historical navigability baseline.
+Status: release 0.20 is complete. No further production change is authorised without a bounded ticket.
+
+## Outcome delivered
+
+The first prior-map publication pass is live: every available link in the three
+implemented comparator views is preserved under an explicit source meaning and
+accuracy status, and no imported line is silently promoted into the canonical
+atlas.
 
 ## Outcome
 
-Turn the registered source corpora into deeper, located and contestable knowledge without allowing inventory work to manufacture authority or generic graph density.
+Continue the prior-map programme through bounded, source-specific passes while
+keeping imported source claims separate from canonical Tangle relations.
 
 ## In scope
 
-- review live feedback and submitted tickets after 0.19;
-- build the episode-level Complexity Podcast inventory and deep-read bounded thematic tranches;
-- deepen entries currently marked `research_queue` or `represented` when public sources justify it;
-- continue the named long-running corpus programmes as separately bounded passes;
-- test the living marks, full-page reader, map, real-link behaviour and mobile layout with actual readers;
-- correct broken or misleading source routes as they are found.
+- manual reconciliation of a finite, prioritised source-node cohort;
+- independent evidence review for selected source-reported links;
+- link-health and label audits against current source pages;
+- reproducible public-corpus alternatives for aggregate experiments;
+- mobile, performance and accessibility tests for the published comparator views.
 
 ## Out of scope
 
-- claiming that registering a corpus means interpreting it;
-- treating a podcast appearance, institutional association or show-note link as proof of influence;
-- bulk-generating biographies or relationships from names alone;
-- merging inferred similarity with source-backed influence or lineage;
-- hiding thin coverage behind visual density;
-- redesigning away the cream, red, black and magic-dot identity without an explicit ticket.
+- promoting a source-map link merely because it exists;
+- implying that all retained external destinations are current or accurate;
+- publishing private or licensed corpus rows;
+- open-ended ingestion without a finite source set and stop condition.
 
 ## Acceptance checks
 
-- one primary reader outcome per ticket;
-- source-backed claims retain source identifiers and meaningful locators;
-- new public entries expose typed connections or an honest thin/research state;
-- ordinary navigational controls are genuine links where the destination can be represented by a URL;
-- `make validate` passes on the complete generated release;
-- the public deployment is checked at https://transduction.systems/ after merge.
+- each pass names its source set, intended reader outcome and completion test;
+- every promoted canonical relation has an independent source and review record;
+- source corrections remain distinguishable from source-published values;
+- `make build` and `make validate` pass before deployment.
+
+## Completed acceptance checks
+
+- all 650 Systemic Evolution nodes and 1,320 source-reported links retained;
+- cumulative reconciliation distinguishes 5 confirmed, 57 partial and 588
+  unresolved source nodes;
+- all 307 Castellani image-map links retained, including 28 exposed label
+  disagreements;
+- all 1,856 counted-map aggregate signals retained without private corpus data,
+  EIDs or raw cited-reference strings;
+- dedicated map, contribution and policy pages published;
+- provenance and permission recorded for Benjamin Hadorn and Nigel Williams.
+
+## Next bounded programmes
+
+- manually reconcile the highest-connectivity unresolved Systemic Evolution nodes;
+- independently evidence and type selected reported-influence links;
+- check Castellani's 307 destinations and return apparent mismatches upstream;
+- recover or replace the counted-map shrink pipeline with a reproducible public corpus;
+- apply the same full-link contract to the remaining registered prior maps;
+- test dense comparator canvases for mobile performance and accessibility.
 
 ## Stop conditions
 
-Stop a pass when its stated corpus, names or interaction path has been checked, the acceptance tests pass and the remaining work would require a new evidence search or a different reader outcome. Do not turn a bounded pass into an unreviewed expansion.
+Each follow-on pass needs its own finite source set and acceptance test. Do not
+turn source-map adjacency, lexical co-occurrence or visual proximity into a
+canonical relation without a separate evidence review.
 
 ## Model route
 
-Use Luna for lightweight extraction and routine checks, Terra for bounded research and implementation, and Sol for architecture, adversarial review or disputed synthesis. Keep research and build work in separate contexts when the source set or claim boundary is material.
+Use Luna for mechanical extraction and link checking, Terra for bounded
+implementation and evidence passes, and Sol for disputed synthesis or major
+architecture changes. Keep research and build work in separate contexts where
+the claim boundary is material.

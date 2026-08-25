@@ -58,6 +58,13 @@ build:
 	python3 scripts/patch_validator_compat_19.py
 	python3 scripts/patch_iteration_19.py
 	python3 scripts/repair_map_links_19.py
+	python3 scripts/apply_castellani_complexity_map.py
+	python3 scripts/refresh_graph_snapshot.py
+	python3 scripts/build_systemic_evolution_reconciliation.py
+	python3 scripts/apply_prior_maps_20.py
+	python3 scripts/build_public_knowledge.py
+	python3 scripts/refresh_graph_snapshot.py
+	python3 scripts/patch_validator_compat_20.py
 
 validate:
 	python3 scripts/validate_work_spine.py
@@ -81,6 +88,7 @@ validate:
 	python3 scripts/validate_iteration_18.py
 	python3 scripts/patch_iteration_19.py
 	python3 scripts/validate_iteration_19.py
+	python3 scripts/validate_prior_maps_20.py
 	./scripts/check_javascript.sh
 
 serve: build

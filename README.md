@@ -1,12 +1,17 @@
 # The Necessary Tangle
 
-## Release 0.19
+## Release 0.20
 
-Release 0.19 gives the atlas a living visual identity. Each fresh load selects one of ten curator-supplied still or moving marks while the wordmark, navigation and reading environment stay stable. Motion is silent and falls back to a still for reduced-motion readers. The release also registers the complete Santa Fe Institute *COMPLEXITY* podcast and transcript archive as a bounded source corpus, with explicit limits on what an episode, transcript or show-note link can establish.
+Release 0.20 publishes a source-faithful prior-maps hub. It retains all 1,320 reported links in the permissioned *Map of Systemic Evolution*, all 307 clickable references in Brian Castellani's current map, and all 1,856 aggregate signals in Nigel Williams's counted-map experiment. Each layer states what its links can and cannot mean, and none is silently promoted into the canonical atlas.
 
 Public routes:
 
 - https://transduction.systems/
+- https://transduction.systems/prior-maps/
+- https://transduction.systems/prior-maps/systemic-evolution/
+- https://transduction.systems/prior-maps/castellani/
+- https://transduction.systems/prior-maps/counted-map/
+- https://transduction.systems/contributors/nigel-williams/
 - https://transduction.systems/corpora/complexity-podcast/
 - https://transduction.systems/coverage/named/
 - https://transduction.systems/coverage/unfix-32/
@@ -35,6 +40,8 @@ The site includes:
 - embedded explanations of coverage, method, rights and current limitations.
 
 ## Status
+
+Release 0.20 contains 635 canonical public entries, 128 developed profiles and 216 public source records. Its comparator layers preserve 1,320 Systemic Evolution links, 307 Castellani references and 1,856 counted-map signals without treating import as verification.
 
 Release 0.19 contains 635 canonical public entries, 128 developed profiles and 214 public source records. It adds the living-mark family and the bounded *COMPLEXITY* podcast corpus intake.
 

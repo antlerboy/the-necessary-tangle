@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.20-prior-maps-alpha — 25 August 2026
+
+- Published all 650 nodes and 1,320 source-reported major-influence links from the permissioned *Map of Systemic Evolution* comparator.
+- Added a cumulative node-and-link reconciliation ledger without promoting imported links into the canonical atlas.
+- Retained all 307 current Castellani image-map references and exposed 28 source-label disagreements.
+- Incorporated Nigel Williams's relevant comparator, gap-analysis, build and counted-map work with a dedicated contribution record.
+- Published all 1,856 counted-map aggregate signals while excluding private corpus data, EIDs and raw Scopus reference strings.
+- Added a source-link policy which separates preservation, checking and canonical promotion.
+
 ## 0.19-living-marks-alpha — 25 August 2026
 
 - Replaced the fixed header emblem with a random family of five still and five short moving marks while retaining the stable wordmark and navigation.

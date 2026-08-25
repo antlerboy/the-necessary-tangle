@@ -64,6 +64,7 @@ def normalise_update_dot(index: str) -> str:
         flags=re.IGNORECASE | re.DOTALL,
     )
     index = index.replace(UPDATE_URL, "#view=contribute")
+    index = "\n".join(line.rstrip() for line in index.splitlines()) + "\n"
     if "</body>" not in index:
         raise SystemExit("docs/index.html has no closing body tag")
     return index.replace("</body>", f"  {UPDATE_ANCHOR}\n</body>", 1)

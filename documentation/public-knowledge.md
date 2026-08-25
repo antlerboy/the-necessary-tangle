@@ -1,7 +1,7 @@
 # The Necessary Tangle: public knowledge file
 
 Curated by Benjamin P Taylor — https://www.antlerboy.com/
-Generated from public release 0.19-living-marks-alpha on 2026-08-25.
+Generated from public release 0.20-prior-maps-alpha on 2026-08-25.
 
 A living evidence atlas of systems | cybernetics | complexity.
 Every connection must say what it means. Historical sequence, logical dependence, influence, teaching, collaboration, practical use, comparison and dispute are not interchangeable.
@@ -14085,8 +14085,8 @@ Completion test: Repeatable archival ingestion with typed provenance and no conf
 
 ## Prior maps and bodies of knowledge
 
-Status: registered comparator pass pending
-Completion test: Public comparison of purpose, boundary, categories, lines, evidence, strengths and failures.
+Status: three comparators published programme continuing
+Completion test: Every available source link retained under a stated meaning and accuracy status; cumulative reconciliation published; further maps handled in bounded passes.
 
 ## Practitioner influence constellations
 
