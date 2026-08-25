@@ -47,6 +47,10 @@ keeping imported source claims separate from canonical Tangle relations.
   EIDs or raw cited-reference strings;
 - dedicated map, contribution and policy pages published;
 - provenance and permission recorded for Benjamin Hadorn and Nigel Williams.
+- the Surprise-me asset has a release-specific cache key and legacy
+  `from=surprise` links are normalised before routing;
+- AI observations include the comparator semantics, reconciliation,
+  source-fidelity and reproducibility findings specific to release 0.20.
 
 ## Next bounded programmes
 

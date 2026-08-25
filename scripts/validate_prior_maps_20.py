@@ -7,7 +7,7 @@ from collections import Counter
 from pathlib import Path
 from urllib.parse import urlparse
 
-from apply_prior_maps_20 import GENERATED, RELEASE
+from apply_prior_maps_20 import GENERATED, READER_HOTFIX_VERSION, RELEASE
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -188,6 +188,12 @@ def main() -> int:
         "CITATION.cff": [f"version: {RELEASE}", f"date-released: {GENERATED}"],
         "RIGHTS.md": ["Benjamin Hadorn's permission", "raw cited-reference strings"],
         "ACKNOWLEDGEMENTS.md": ["Nigel Williams", "Eric Schwarz (1996)", "IIGSS (2000–01)", "Benjamin Hadorn (2016)"],
+        "documentation/ai-observations.md": [
+            "A line on one map is not the same claim as a line on another",
+            "Overlap is not agreement",
+            "Preserving every link makes disagreement inspectable",
+            "Aggregation sets an evidential ceiling",
+        ],
     }
     for path, markers in required_pages.items():
         body = read(path)
@@ -206,6 +212,23 @@ def main() -> int:
         errors.append("the update-thread dot is missing or duplicated")
     if 'href="/prior-maps/"' not in read("docs/index.html"):
         errors.append("the main reader does not expose the prior-map hub")
+    index = read("docs/index.html")
+    if f"assets/iteration-18.js?v={READER_HOTFIX_VERSION}" not in index:
+        errors.append("the Surprise-me script does not have the 0.20 hotfix cache key")
+    if "Updated for 0.20:" not in index or "Updated for 0.18:" in index:
+        errors.append("the public AI-observations notice is stale")
+    surprise_js = read("docs/assets/iteration-18.js")
+    if "normaliseLegacySurpriseRoute" not in surprise_js or "params.set('from', 'home')" not in surprise_js:
+        errors.append("legacy from=surprise routes are not normalised before application routing")
+    observation_ids = {item.get("id") for item in atlas.get("ai_observations", {}).get("observations", [])}
+    required_observation_ids = {
+        "comparator_links_have_different_meanings",
+        "overlap_is_not_agreement",
+        "link_preservation_exposes_disagreement",
+        "aggregation_sets_an_evidential_ceiling",
+    }
+    if not required_observation_ids.issubset(observation_ids):
+        errors.append(f"0.20 AI observations missing: {sorted(required_observation_ids - observation_ids)}")
 
     if errors:
         print("Release 0.20 prior-map validation failed:")

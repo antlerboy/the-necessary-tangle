@@ -242,7 +242,7 @@ def main() -> int:
     release_css = read("docs/assets/iteration-18.css")
     for marker in (
         f"assets/iteration-18.css?v={VERSION}",
-        f"assets/iteration-18.js?v={VERSION}",
+        "assets/iteration-18.js?v=",
         "It’s the connections which are perhaps the most important.",
         "Find out more about how this works.",
         'value="constellation"',
@@ -264,7 +264,7 @@ def main() -> int:
     ):
         if marker not in app:
             errors.append(f"base application 0.18 patch missing: {marker}")
-    for marker in ("chooseSurprise", "surpriseOrigin", "validReturnViews", "entry-orientation", "connections-priority", "data-orbit", "contextmenu"):
+    for marker in ("chooseSurprise", "surpriseOrigin", "normaliseLegacySurpriseRoute", "validReturnViews", "entry-orientation", "connections-priority", "data-orbit", "contextmenu"):
         if marker not in release_js:
             errors.append(f"iteration-18.js behaviour missing: {marker}")
     if "from=surprise" in release_js:

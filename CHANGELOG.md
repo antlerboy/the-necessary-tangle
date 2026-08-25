@@ -8,6 +8,7 @@
 - Incorporated Nigel Williams's relevant comparator, gap-analysis, build and counted-map work with a dedicated contribution record.
 - Published all 1,856 counted-map aggregate signals while excluding private corpus data, EIDs and raw Scopus reference strings.
 - Added a source-link policy which separates preservation, checking and canonical promotion.
+- Corrected the Surprise-me cache/legacy-route regression and added the comparator-specific AI observations omitted from the first 0.20 publication.
 
 ## 0.19-living-marks-alpha — 25 August 2026
 

@@ -22,6 +22,7 @@ DOCS_ASSETS = ROOT / "docs" / "assets"
 RELEASE = "0.20-prior-maps-alpha"
 GENERATED = "2026-08-25"
 PUBLIC_URL = "https://transduction.systems/"
+READER_HOTFIX_VERSION = "0.20.1-public"
 
 SYSTEMIC_SOURCE = "https://uranos.ch/index.php/research-menu/cybernetcis"
 SYSTEMIC_PAGE = "https://transduction.systems/prior-maps/systemic-evolution/"
@@ -29,6 +30,95 @@ CASTELLANI_SOURCE = "https://art-sciencefactory.com/complexity-map_feb09.html"
 CASTELLANI_PAGE = "https://transduction.systems/prior-maps/castellani/"
 COUNTED_PAGE = "https://transduction.systems/prior-maps/counted-map/"
 NIGEL_PAGE = "https://transduction.systems/contributors/nigel-williams/"
+
+PRIOR_MAP_OBSERVATIONS = [
+    {
+        "id": "comparator_links_have_different_meanings",
+        "title": "A line on one map is not the same claim as a line on another",
+        "kind": "comparator-semantics observation",
+        "measurement": (
+            "Release 0.20 preserves 1,320 source-reported major-influence links, 307 outward web "
+            "destinations and 1,856 keyword-labelled citation signals in three separate comparator layers."
+        ),
+        "interpretation": (
+            "The visual grammar of a line conceals materially different assertions: historical or conceptual "
+            "influence, a route to further reading, and an aggregate bibliographic signal are not interchangeable."
+        ),
+        "implication": (
+            "Comparator imports must retain their source-defined relation meaning and must not be flattened into "
+            "one generic relationship vocabulary."
+        ),
+        "test": (
+            "A reader should be able to state what a link means, and what it does not establish, without consulting "
+            "the source map's code or private development history."
+        ),
+    },
+    {
+        "id": "overlap_is_not_agreement",
+        "title": "Overlap is not agreement",
+        "kind": "reconciliation observation",
+        "measurement": (
+            "Of 650 Systemic Evolution nodes, 5 are confirmed matches, 57 are partial and 588 remain unresolved; "
+            "66 distinct atlas entries are linked through the cumulative reconciliation."
+        ),
+        "interpretation": (
+            "A plausible name match does not show that two maps use the same boundary, definition or historical "
+            "claim. Low overlap can expose different vocabularies and purposes as readily as missing coverage."
+        ),
+        "implication": (
+            "Reconciliation should preserve confirmed, partial and unresolved states instead of forcing every "
+            "source node into an apparently equivalent atlas entry."
+        ),
+        "test": (
+            "Manually review the highest-connectivity unresolved nodes and record whether each result is identity, "
+            "broader/narrower scope, a rival term or genuinely absent coverage."
+        ),
+    },
+    {
+        "id": "link_preservation_exposes_disagreement",
+        "title": "Preserving every link makes disagreement inspectable",
+        "kind": "source-fidelity observation",
+        "measurement": (
+            "All 307 destinations in the current Castellani image map are retained, including 28 places where its "
+            "visible label and destination metadata disagree."
+        ),
+        "interpretation": (
+            "Silently correcting or dropping awkward links would make the derivative cleaner but erase evidence "
+            "about the source's present state. Complete preservation is useful precisely because it exposes what "
+            "still needs checking."
+        ),
+        "implication": (
+            "Store the source-published value and any later correction separately; preservation must never be "
+            "presented as endorsement or independent verification."
+        ),
+        "test": (
+            "Audit all 307 destinations, distinguish dead links from label mismatches and substantive errors, and "
+            "return confirmed corrections upstream."
+        ),
+    },
+    {
+        "id": "aggregation_sets_an_evidential_ceiling",
+        "title": "Aggregation sets an evidential ceiling",
+        "kind": "reproducibility and evidence observation",
+        "measurement": (
+            "The counted-map projection contains 98 concepts, 89 with evidence and 1,856 aggregate signals, while "
+            "publishing zero raw licensed reference strings; the private corpus and an undocumented shrink step "
+            "prevent independent rerunning."
+        ),
+        "interpretation": (
+            "The aggregate can reveal concentrations worth investigating, but it cannot by itself establish direct "
+            "idea-to-idea influence or allow an independent reader to reproduce the transformation."
+        ),
+        "implication": (
+            "Use the signals to prioritise source review, not as canonical relations, and recover the transformation "
+            "or replace the experiment with a lawful public corpus."
+        ),
+        "test": (
+            "Rerun a documented public-corpus version and compare which high-weight signals persist under different "
+            "vocabularies and thresholds."
+        ),
+    },
+]
 
 
 def encoded(items: list[str]) -> str:
@@ -310,6 +400,9 @@ def stamp_maintained_projections(data: dict[str, Any]) -> None:
     existing = report.get("observations", [])
     merged = [fresh_by_id.pop(item.get("id"), item) for item in existing]
     merged.extend(fresh_by_id.values())
+    prior_by_id = {item["id"]: item for item in PRIOR_MAP_OBSERVATIONS}
+    merged = [prior_by_id.pop(item.get("id"), item) for item in merged]
+    merged.extend(prior_by_id.values())
     report.update({"release": RELEASE, "generated": GENERATED, "metrics": metrics, "observations": merged})
 
     lines = [
@@ -419,6 +512,10 @@ keeping imported source claims separate from canonical Tangle relations.
   EIDs or raw cited-reference strings;
 - dedicated map, contribution and policy pages published;
 - provenance and permission recorded for Benjamin Hadorn and Nigel Williams.
+- the Surprise-me asset has a release-specific cache key and legacy
+  `from=surprise` links are normalised before routing;
+- AI observations include the comparator semantics, reconciliation,
+  source-fidelity and reproducibility findings specific to release 0.20.
 
 ## Next bounded programmes
 
@@ -468,6 +565,11 @@ The Castellani page preserves all current outward links while exposing source
 label disagreements. The counted-map page retains aggregate signals while
 excluding the private Scopus corpus and raw licensed reference strings.
 
+The release-integrity hotfix gives the Surprise-me script a fresh asset key,
+normalises links produced by its earlier handler before the main router runs,
+and adds the four comparator-specific AI observations omitted from the first
+0.20 publication.
+
 The generated release contains {meta.get('public_entry_count')} canonical public
 entries, {len(data.get('profiles', []))} developed profiles, {len(data.get('sources', []))}
 public source records, {len(data.get('nodes', []))} total graph records and
@@ -501,7 +603,11 @@ reader and all four prior-map/contribution routes after merge.
 
 """
         changelog = changelog.replace("# Changelog\n\n", "# Changelog\n\n" + entry, 1)
-        changelog_path.write_text(changelog, encoding="utf-8")
+    hotfix_note = "- Corrected the Surprise-me cache/legacy-route regression and added the comparator-specific AI observations omitted from the first 0.20 publication."
+    if hotfix_note not in changelog:
+        marker = "- Added a source-link policy which separates preservation, checking and canonical promotion."
+        changelog = replace_once(changelog, marker, marker + "\n" + hotfix_note, "0.20 release-integrity note")
+    changelog_path.write_text(changelog, encoding="utf-8")
 
     readme_path = ROOT / "README.md"
     readme = readme_path.read_text(encoding="utf-8")
@@ -581,6 +687,15 @@ The *Map of Systemic Evolution* comparator is reproduced with Benjamin Hadorn's 
     footer_marker = '<a class="text-button" href="/submissions/">Public submissions</a>'
     footer_addition = footer_marker + '<a class="text-button" href="/prior-maps/">Prior maps</a>'
     index = replace_once(index, footer_marker, footer_addition, "prior-maps footer route")
+    old_observation_note = '<p class="release-note-inline"><strong>Updated for 0.18:</strong> observations now include navigation affordances, alias resolution, named-coverage depth and the difference between graph centrality and intellectual importance.</p>'
+    new_observation_note = '<p class="release-note-inline"><strong>Updated for 0.20:</strong> observations now examine comparator link meanings, partial reconciliation, complete source-link preservation and the evidential ceiling of aggregate maps.</p>'
+    index = replace_once(index, old_observation_note, new_observation_note, "0.20 AI-observations notice")
+    index = replace_once(
+        index,
+        'assets/iteration-18.js?v=0.18.0-public',
+        f'assets/iteration-18.js?v={READER_HOTFIX_VERSION}',
+        "Surprise-me cache key",
+    )
     index_path.write_text(index, encoding="utf-8")
 
     sitemap = """<?xml version="1.0" encoding="UTF-8"?>

@@ -281,3 +281,51 @@ Measurements come from the generated public graph. Interpretations concern this 
 **Implication:** AI outputs should expose the exact entries, relation types and sources used; distinguish retrieval from inference; and state when the graph is silent.
 
 **Test:** A useful AI answer should become less fluent, not more, when the evidence is thin or contradictory.
+
+## A line on one map is not the same claim as a line on another
+
+**Kind:** comparator-semantics observation
+
+**Measurement:** Release 0.20 preserves 1,320 source-reported major-influence links, 307 outward web destinations and 1,856 keyword-labelled citation signals in three separate comparator layers.
+
+**Interpretation:** The visual grammar of a line conceals materially different assertions: historical or conceptual influence, a route to further reading, and an aggregate bibliographic signal are not interchangeable.
+
+**Implication:** Comparator imports must retain their source-defined relation meaning and must not be flattened into one generic relationship vocabulary.
+
+**Test:** A reader should be able to state what a link means, and what it does not establish, without consulting the source map's code or private development history.
+
+## Overlap is not agreement
+
+**Kind:** reconciliation observation
+
+**Measurement:** Of 650 Systemic Evolution nodes, 5 are confirmed matches, 57 are partial and 588 remain unresolved; 66 distinct atlas entries are linked through the cumulative reconciliation.
+
+**Interpretation:** A plausible name match does not show that two maps use the same boundary, definition or historical claim. Low overlap can expose different vocabularies and purposes as readily as missing coverage.
+
+**Implication:** Reconciliation should preserve confirmed, partial and unresolved states instead of forcing every source node into an apparently equivalent atlas entry.
+
+**Test:** Manually review the highest-connectivity unresolved nodes and record whether each result is identity, broader/narrower scope, a rival term or genuinely absent coverage.
+
+## Preserving every link makes disagreement inspectable
+
+**Kind:** source-fidelity observation
+
+**Measurement:** All 307 destinations in the current Castellani image map are retained, including 28 places where its visible label and destination metadata disagree.
+
+**Interpretation:** Silently correcting or dropping awkward links would make the derivative cleaner but erase evidence about the source's present state. Complete preservation is useful precisely because it exposes what still needs checking.
+
+**Implication:** Store the source-published value and any later correction separately; preservation must never be presented as endorsement or independent verification.
+
+**Test:** Audit all 307 destinations, distinguish dead links from label mismatches and substantive errors, and return confirmed corrections upstream.
+
+## Aggregation sets an evidential ceiling
+
+**Kind:** reproducibility and evidence observation
+
+**Measurement:** The counted-map projection contains 98 concepts, 89 with evidence and 1,856 aggregate signals, while publishing zero raw licensed reference strings; the private corpus and an undocumented shrink step prevent independent rerunning.
+
+**Interpretation:** The aggregate can reveal concentrations worth investigating, but it cannot by itself establish direct idea-to-idea influence or allow an independent reader to reproduce the transformation.
+
+**Implication:** Use the signals to prioritise source review, not as canonical relations, and recover the transformation or replace the experiment with a lawful public corpus.
+
+**Test:** Rerun a documented public-corpus version and compare which high-weight signals persist under different vocabularies and thresholds.
