@@ -28,6 +28,13 @@ for path in sorted((ROOT / "scripts").glob("validate*.py")):
     text = path.read_text(encoding="utf-8")
     original = text
 
+    # A later release may already have extended a historical validator beyond
+    # 0.18. In that case the 0.18 compatibility work is necessarily present;
+    # do not demand the exact intermediate 0.17/0.18 strings again.
+    if "0.19-living-marks-alpha" in text:
+        already.append(path.name)
+        continue
+
     if NEW in text:
         already.append(path.name)
     else:

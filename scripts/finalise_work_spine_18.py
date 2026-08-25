@@ -87,7 +87,7 @@ index_path = ROOT / "docs" / "index.html"
 index = index_path.read_text(encoding="utf-8")
 index = index.replace(
     '<button type="button" class="text-button surprise-me footer-surprise">Surprise me</button>',
-    '<a href="#view=item&id=concept_viability&from=surprise" class="text-button surprise-me footer-surprise">Surprise me</a>',
+    '<a href="#view=item&id=concept_viability&from=home" class="text-button surprise-me footer-surprise">Surprise me</a>',
 )
 index_path.write_text(index, encoding="utf-8")
 

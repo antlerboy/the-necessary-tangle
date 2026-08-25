@@ -141,6 +141,10 @@ def write_surprise_assets() -> None:
 
   function attach() {
     document.querySelectorAll('#surpriseMeNav, #surpriseMeHero, .surprise-me').forEach((button) => {
+      // Release 0.18 turns these controls into genuine links and owns their
+      // pointer, keyboard and modified-click behaviour. Retain this handler
+      // only for an older generated button.
+      if (button instanceof HTMLAnchorElement) return;
       if (button.dataset.surpriseReady === 'true') return;
       button.dataset.surpriseReady = 'true';
       button.addEventListener('click', surprise);
@@ -587,7 +591,9 @@ def patch_release_files(data: dict) -> None:
         "develops Michael C. Jackson, Magnus Ramage, Karen Shipp and *Systems Thinkers* while making "
         "the atlas's own visibility and identity rules explicit."
     )
-    if paragraph not in text:
+    # Preserve the historical release paragraph once it exists.  Its counts
+    # belong to 0.17 and must not be recomputed from a later release's data.
+    if "Release 0.17 contains" not in text:
         marker = "This is a public alpha."
         at = text.find(marker)
         if at >= 0:

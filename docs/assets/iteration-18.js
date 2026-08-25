@@ -7,6 +7,7 @@
   const nodes = new Map((DATA.nodes || []).map((node) => [node.id, node]));
   const eligibleTypes = new Set(['profile', 'described']);
   const excludedTypes = new Set(['corpus', 'source', 'evidence', 'claim']);
+  const validReturnViews = new Set(['home', 'browse', 'journeys', 'map', 'ask', 'contribute', 'about', 'ai-observations']);
 
   function plainLeftClick(event) {
     return event.button === 0 && !event.metaKey && !event.ctrlKey && !event.shiftKey && !event.altKey;
@@ -33,6 +34,18 @@
     );
   }
 
+  function surpriseOrigin() {
+    const params = new URLSearchParams(location.hash.replace(/^#/, ''));
+    const view = params.get('view') || 'home';
+    if (view === 'item') {
+      const from = params.get('from') || '';
+      return validReturnViews.has(from) ? from : 'home';
+    }
+    return validReturnViews.has(view) ? view : 'home';
+  }
+
+  window.TANGLE_ROUTE_HELPERS = Object.assign(window.TANGLE_ROUTE_HELPERS || {}, { surpriseOrigin });
+
   function chooseSurprise(anchor) {
     const pool = surprisePool();
     if (!pool.length) return null;
@@ -41,7 +54,7 @@
     const alternatives = pool.filter((node) => node.id !== current);
     const source = alternatives.length ? alternatives : pool;
     const choice = source[randomIndex(source.length)];
-    anchor.href = `#view=item&id=${encodeURIComponent(choice.id)}&from=surprise`;
+    anchor.href = `#view=item&id=${encodeURIComponent(choice.id)}&from=${encodeURIComponent(surpriseOrigin())}`;
     anchor.dataset.surpriseTarget = choice.id;
     return choice;
   }
@@ -63,7 +76,7 @@
         event.preventDefault();
         event.stopImmediatePropagation();
         const choice = chooseSurprise(anchor);
-        if (choice) location.hash = `view=item&id=${encodeURIComponent(choice.id)}&from=surprise`;
+        if (choice) location.hash = anchor.getAttribute('href').replace(/^#/, '');
       }, true);
       prepare();
     });

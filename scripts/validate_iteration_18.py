@@ -247,7 +247,7 @@ def main() -> int:
         'class="brand-mark tangle-mark"',
         'href="/coverage/named/"',
         'href="/coverage/unfix-32/"',
-        '<a href="#view=item&id=concept_viability&from=surprise" id="surpriseMeNav"',
+        '<a href="#view=item&id=concept_viability&from=home" id="surpriseMeNav"',
     ):
         if marker not in index:
             errors.append(f"0.18 reader marker missing: {marker}")
@@ -262,9 +262,50 @@ def main() -> int:
     ):
         if marker not in app:
             errors.append(f"base application 0.18 patch missing: {marker}")
-    for marker in ("chooseSurprise", "entry-orientation", "connections-priority", "data-orbit", "contextmenu"):
+    for marker in ("chooseSurprise", "surpriseOrigin", "validReturnViews", "entry-orientation", "connections-priority", "data-orbit", "contextmenu"):
         if marker not in release_js:
             errors.append(f"iteration-18.js behaviour missing: {marker}")
+    if "from=surprise" in release_js:
+        errors.append("iteration-18.js still emits the invalid from=surprise route")
+    if "if (button instanceof HTMLAnchorElement) return;" not in read("docs/assets/iteration-17.js"):
+        errors.append("legacy Surprise-me handler still owns release 0.18 anchors")
+
+    surprise_route_test = r'''
+global.window = global;
+global.location = { hash: '' };
+global.document = { addEventListener() {}, querySelectorAll() { return []; }, querySelector() { return null; }, body: null };
+global.HTMLAnchorElement = class HTMLAnchorElement {};
+global.requestAnimationFrame = () => {};
+global.TANGLE_DATA = { nodes: [], edges: [] };
+global.addEventListener = () => {};
+const fs = require('fs');
+eval(fs.readFileSync(process.argv[1], 'utf8'));
+const cases = [
+  ['', 'home'],
+  ['#view=home', 'home'],
+  ['#view=browse', 'browse'],
+  ['#view=map&layer=substantive', 'map'],
+  ['#view=item&id=concept_feedback&from=home', 'home'],
+  ['#view=item&id=concept_feedback&from=browse', 'browse'],
+  ['#view=item&id=concept_feedback&from=surprise', 'home']
+];
+for (const [hash, expected] of cases) {
+  global.location.hash = hash;
+  const actual = global.TANGLE_ROUTE_HELPERS.surpriseOrigin();
+  if (actual !== expected) throw new Error(`${hash}: expected ${expected}, got ${actual}`);
+}
+'''
+    try:
+        subprocess.run(
+            ["node", "-e", surprise_route_test, str(ROOT / "docs/assets/iteration-18.js")],
+            check=True,
+            capture_output=True,
+            text=True,
+        )
+    except FileNotFoundError:
+        errors.append("node is unavailable for Surprise-me route checks")
+    except subprocess.CalledProcessError as exc:
+        errors.append(f"Surprise-me route regression check failed: {exc.stderr.strip()}")
     for marker in ("width: 100vw", "min-height: min(76dvh, 920px)", ".map-layout", ".tangle-mark", ".coverage-table"):
         if marker not in release_css:
             errors.append(f"iteration-18.css rule missing: {marker}")

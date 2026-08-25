@@ -104,22 +104,25 @@ def patch_index() -> None:
         '<link rel="stylesheet" href="assets/iteration-17.css?v=0.18.0-public">\n  <link rel="stylesheet" href="assets/iteration-18.css?v=0.18.0-public">',
         "iteration 18 stylesheet",
     )
-    text = replace_once(
-        text,
-        '<span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>',
-        '<span class="brand-mark tangle-mark" aria-hidden="true"><svg viewBox="0 0 48 48" focusable="false"><path d="M8 24c0-8 6-14 14-14 9 0 18 8 18 18 0 7-5 12-12 12-8 0-14-6-14-13 0-6 5-10 10-10 6 0 10 4 10 9 0 4-3 7-7 7-3 0-6-2-6-5 0-2 2-4 4-4"/><path d="M5 34c7-4 13-11 15-20M28 5c-4 7-4 15 0 22M13 7c8 4 15 11 20 20"/></svg></span>',
-        "tangle brand mark",
-    )
+    # A successor release may add attributes to the established tangle mark.
+    # Treat that as already patched rather than requiring the exact 0.18 tag.
+    if 'class="brand-mark tangle-mark"' not in text:
+        text = replace_once(
+            text,
+            '<span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>',
+            '<span class="brand-mark tangle-mark" aria-hidden="true"><svg viewBox="0 0 48 48" focusable="false"><path d="M8 24c0-8 6-14 14-14 9 0 18 8 18 18 0 7-5 12-12 12-8 0-14-6-14-13 0-6 5-10 10-10 6 0 10 4 10 9 0 4-3 7-7 7-3 0-6-2-6-5 0-2 2-4 4-4"/><path d="M5 34c7-4 13-11 15-20M28 5c-4 7-4 15 0 22M13 7c8 4 15 11 20 20"/></svg></span>',
+            "tangle brand mark",
+        )
     text = replace_once(
         text,
         '<button type="button" id="surpriseMeNav" class="surprise-nav">Surprise me</button>',
-        '<a href="#view=item&id=concept_viability&from=surprise" id="surpriseMeNav" class="surprise-nav surprise-me">Surprise me</a>',
+        '<a href="#view=item&id=concept_viability&from=home" id="surpriseMeNav" class="surprise-nav surprise-me">Surprise me</a>',
         "surprise navigation anchor",
     )
     text = replace_once(
         text,
         '<button type="button" id="surpriseMeHero" class="button surprise-me">Surprise me</button>',
-        '<a href="#view=item&id=concept_viability&from=surprise" id="surpriseMeHero" class="button surprise-me">Surprise me</a>',
+        '<a href="#view=item&id=concept_viability&from=home" id="surpriseMeHero" class="button surprise-me">Surprise me</a>',
         "surprise hero anchor",
     )
     text = replace_once(
