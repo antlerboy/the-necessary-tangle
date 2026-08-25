@@ -27,10 +27,10 @@ jobs:
 
       - name: Download and unpack the verified release bundle
         env:
-          RELEASE_BUNDLE_URL: "https://sdmntprnortheu.oaiusercontent.com/files/00000000-78c0-81f4-ae25-2a81968faf64/raw?se=2026-08-25T06%3A49%3A27Z&sp=r&sv=2026-02-06&sr=b&scid=54827831-0b03-5447-9269-27d5af747c04&skoid=d294dba5-36f7-432b-aab8-935656489847&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-08-24T22%3A59%3A49Z&ske=2026-08-25T22%3A59%3A49Z&sks=b&skv=2026-02-06&sig=uxyk8UdwvSq1U%2BGWjNOOoEqKAuEZS3p7rf%2BCJ6J64b4%3D"
+          RELEASE_BUNDLE_URL: "https://sdmntprnortheu.oaiusercontent.com/files/00000000-f334-81f4-95a4-8264dd92f517/raw?se=2026-08-25T06%3A51%3A22Z&sp=r&sv=2026-02-06&sr=b&scid=34040073-5bde-590d-a8fa-3871a200d462&skoid=d294dba5-36f7-432b-aab8-935656489847&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-08-25T06%3A33%3A54Z&ske=2026-08-26T06%3A33%3A54Z&sks=b&skv=2026-02-06&sig=4g1R78nGTEtDJzAsPHmStRCIe8Yq/HXlB7vVxdWXFwI%3D"
         run: |
           curl --fail --location --retry 3 --output /tmp/iteration-0.19-release.tar.gz "$RELEASE_BUNDLE_URL"
-          echo "0e8f0626b4591fdd278df13e506ed558c8e03c83639626016f7c25ca117777cf  /tmp/iteration-0.19-release.tar.gz" | sha256sum --check -
+          echo "411f4ef010238cd6a31cc75168deaaf89d626c89f0708e3fb1623b82294c9efb  /tmp/iteration-0.19-release.tar.gz" | sha256sum --check -
           tar -xzf /tmp/iteration-0.19-release.tar.gz
 
       - name: Build and validate the complete release
@@ -48,7 +48,7 @@ jobs:
             echo "No generated changes to commit"
             exit 0
           fi
-          git commit -m "Generate release 0.19 public artefact" -m "Build the living-mark interface, register the Complexity Podcast corpus, refresh public data and release documentation, and repair the historical map-build idempotence guard."
+          git commit -m "Generate release 0.19 public artefact" -m "Build the living-mark interface, register the Complexity Podcast corpus, refresh public data and release documentation, and repair the historical map-build idempotence guards."
           git push origin HEAD:agent/iteration-0.19-living-marks
 
       - name: Record successful generation
