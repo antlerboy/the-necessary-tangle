@@ -240,6 +240,8 @@ def main() -> int:
     app = read("docs/assets/app.js")
     release_js = read("docs/assets/iteration-18.js")
     release_css = read("docs/assets/iteration-18.css")
+    if index.count("assets/iteration-18.js?v=") != 1:
+        errors.append("the public reader must load iteration-18.js exactly once")
     for marker in (
         f"assets/iteration-18.css?v={VERSION}",
         "assets/iteration-18.js?v=",
@@ -269,6 +271,11 @@ def main() -> int:
             errors.append(f"iteration-18.js behaviour missing: {marker}")
     if "from=surprise" in release_js:
         errors.append("iteration-18.js still emits the invalid from=surprise route")
+    observer_contract = "observer.observe(document.body, { childList: true, subtree: true });"
+    if observer_contract not in release_js:
+        errors.append("entry enhancement observer must watch inserted content only")
+    if "attributes: true" in release_js or "attributeFilter: ['class']" in release_js:
+        errors.append("entry enhancement observer watches class changes and can trigger itself indefinitely")
     if "if (button instanceof HTMLAnchorElement) return;" not in read("docs/assets/iteration-17.js"):
         errors.append("legacy Surprise-me handler still owns release 0.18 anchors")
 

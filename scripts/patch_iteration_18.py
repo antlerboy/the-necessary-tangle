@@ -176,22 +176,25 @@ def patch_index() -> None:
 
         '''
         text = replace_once(text, about_marker, coverage + about_marker, "coverage callout")
-    text = replace_once(
-        text,
-        '<article class="plain-panel wide ai-observations-callout">',
-        '<article class="plain-panel wide ai-observations-callout"><p class="release-note-inline"><strong>Updated for 0.18:</strong> observations now include navigation affordances, alias resolution, named-coverage depth and the difference between graph centrality and intellectual importance.</p>',
-        "AI observations update notice",
-    )
+    observation_marker = '<article class="plain-panel wide ai-observations-callout">'
+    if observation_marker + '<p class="release-note-inline">' not in text:
+        text = replace_once(
+            text,
+            observation_marker,
+            observation_marker + '<p class="release-note-inline"><strong>Updated for 0.18:</strong> observations now include navigation affordances, alias resolution, named-coverage depth and the difference between graph centrality and intellectual importance.</p>',
+            "AI observations update notice",
+        )
     # The inserted paragraph intentionally precedes the existing eyebrow inside the article.
     text = text.replace('</article><p class="eyebrow">A second observer</p>', '<p class="eyebrow">A second observer</p>', 1)
 
     script_marker = '<script src="assets/iteration-17.js?v=0.18.0-public"></script>'
-    text = replace_once(
-        text,
-        script_marker,
-        script_marker + '\n  <script src="assets/iteration-18.js?v=0.18.0-public"></script>',
-        "iteration 18 script",
-    )
+    if 'assets/iteration-18.js?v=' not in text:
+        text = replace_once(
+            text,
+            script_marker,
+            script_marker + '\n  <script src="assets/iteration-18.js?v=0.18.0-public"></script>',
+            "iteration 18 script",
+        )
     INDEX.write_text(text, encoding="utf-8")
 
 

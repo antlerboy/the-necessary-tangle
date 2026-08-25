@@ -11,6 +11,7 @@ Last verified: 25 August 2026
 - Map of Systemic Evolution: 650 nodes; 1,320 source-reported links
 - Castellani current source links: 307
 - Counted-map aggregate links: 1,856
+- Living visual marks: 84 (40 still and 44 moving)
 - Canonical relations created merely from comparator imports: 0
 
 ## Current shape
@@ -27,6 +28,12 @@ normalises links produced by its earlier handler before the main router runs,
 and adds the four comparator-specific AI observations omitted from the first
 0.20 publication.
 
+The 0.20.2 reader hotfix removes a self-triggering class-attribute observer
+which could lock the browser whenever a topic entry opened. It also publishes
+all 84 reviewed media studies from the curator's `logoso` staging folder as 40
+stills and 44 silent moving marks. The page still fetches only the manifest and
+the one selected mark; every video has a reduced-motion poster.
+
 The generated release contains 635 canonical public
 entries, 128 developed profiles, 216
 public source records, 762 total graph records and
@@ -41,5 +48,6 @@ independently rerun from a public source corpus.
 
 ## Release controls
 
-Run `make build`, then `make validate`. Check the public deployment, the main
-reader and all four prior-map/contribution routes after merge.
+Run `make build`, then `make validate`. Check topic open, close, reopen and
+history behaviour, the selected living mark, and all four prior-map/contribution
+routes after merge.

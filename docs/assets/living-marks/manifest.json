@@ -1,48 +1,142 @@
 {
-  "release": "0.19-living-marks-alpha",
+  "release": "0.20.2-reader-hotfix",
   "generated": "2026-08-25",
   "selection": "one uniformly random mark on each fresh page load, avoiding only the immediately preceding mark in the same browser tab",
   "provenance": "Curator-supplied studies from the SysCoCyBok/logoso source folder. Published here as a visual family rather than a single fixed badge.",
+  "source_media_count": 84,
   "marks": [
+    {
+      "id": "study-3102ae356c",
+      "kind": "image",
+      "src": "assets/living-marks/study-3102ae356c.webp",
+      "label": "Living mark study 1",
+      "description": "Curator-supplied still study 1 in the living-mark family.",
+      "background": "light",
+      "source_file": "2fv9d.jpg",
+      "source_sha256": "3102ae356c1215d135b27b5ed72985dd21e6f546dc37fc0fd6b7840bf6f3f9e2"
+    },
+    {
+      "id": "study-5681254bcb",
+      "kind": "image",
+      "src": "assets/living-marks/study-5681254bcb.webp",
+      "label": "Living mark study 2",
+      "description": "Curator-supplied still study 2 in the living-mark family.",
+      "background": "light",
+      "source_file": "3LvzO.jpg",
+      "source_sha256": "5681254bcba67927e0d76898c2e56d1b207fdcd11a3f19f99cc16c3aeba82149"
+    },
     {
       "id": "cat-in-feedback-loop",
       "kind": "image",
       "src": "assets/living-marks/cat-in-feedback-loop.webp",
       "label": "Cat in a feedback loop",
       "description": "A round cat surrounded by a black loop and pink directional arrows.",
-      "background": "light"
+      "background": "light",
+      "source_file": "43pSw.jpg",
+      "source_sha256": "ded06464f8ff3f3b6add8766a5ee31f65f506ce9c000fa2a6509c029399ba735"
     },
     {
-      "id": "impossible-coupling",
+      "id": "study-f9ac9e354e",
       "kind": "image",
-      "src": "assets/living-marks/impossible-coupling.webp",
-      "label": "Impossible coupling",
-      "description": "A grey interwoven impossible form made from four curved paths.",
-      "background": "light"
+      "src": "assets/living-marks/study-f9ac9e354e.webp",
+      "label": "Living mark study 4",
+      "description": "Curator-supplied still study 4 in the living-mark family.",
+      "background": "light",
+      "source_file": "6QUNE.jpg",
+      "source_sha256": "f9ac9e354ef244cee59248fa428a3c291484082e3c97e01ac364901585ccc7e7"
     },
     {
-      "id": "cat-on-spiral",
+      "id": "study-0f8f5679b1",
       "kind": "image",
-      "src": "assets/living-marks/cat-on-spiral.webp",
-      "label": "Cat on a spiral",
-      "description": "A cat perched on a black spiral between pink waves and blue dots.",
-      "background": "light"
+      "src": "assets/living-marks/study-0f8f5679b1.webp",
+      "label": "Living mark study 5",
+      "description": "Curator-supplied still study 5 in the living-mark family.",
+      "background": "light",
+      "source_file": "8Qz0J.jpg",
+      "source_sha256": "0f8f5679b1f39716d47c11dda9ffc380344cdc3d53dcfbf42b469396ba83c7b4"
     },
     {
-      "id": "cats-as-network",
+      "id": "study-03d6d271bf",
       "kind": "image",
-      "src": "assets/living-marks/cats-as-network.webp",
-      "label": "Cats as a network",
-      "description": "Eight pink cats connected to a central black hub.",
-      "background": "light"
+      "src": "assets/living-marks/study-03d6d271bf.webp",
+      "label": "Living mark study 6",
+      "description": "Curator-supplied still study 6 in the living-mark family.",
+      "background": "light",
+      "source_file": "a4uWW.jpg",
+      "source_sha256": "03d6d271bf0614a9ce40670f2026a7c2069deb8ce1af30a2c5bdb87ff22bc7a5"
     },
     {
-      "id": "cat-across-boundary",
+      "id": "study-f6a64f6adf",
+      "kind": "video",
+      "src": "assets/living-marks/study-f6a64f6adf.mp4",
+      "label": "Living mark study 7",
+      "description": "Curator-supplied moving study 7 in the living-mark family.",
+      "background": "light",
+      "poster": "assets/living-marks/study-f6a64f6adf-poster.webp",
+      "source_file": "antlerboy_Give_me_ten_logo_idea_for_transduction.systems_-_Th_12787889-f4ef-4ef4-af72-28d5c59ea695_0.mp4",
+      "source_sha256": "f6a64f6adfa7997960a131cdfe4775e20110bcdcff1270fdf54ad6764c7b292d"
+    },
+    {
+      "id": "study-fa804e28e0",
+      "kind": "video",
+      "src": "assets/living-marks/study-fa804e28e0.mp4",
+      "label": "Living mark study 8",
+      "description": "Curator-supplied moving study 8 in the living-mark family.",
+      "background": "light",
+      "poster": "assets/living-marks/study-fa804e28e0-poster.webp",
+      "source_file": "antlerboy_Give_me_ten_logo_idea_for_transduction.systems_-_Th_12787889-f4ef-4ef4-af72-28d5c59ea695_1.mp4",
+      "source_sha256": "fa804e28e02ea45a31e7a774ff887f5876641f917ab799be346447a18dffba97"
+    },
+    {
+      "id": "study-ea54873dd7",
+      "kind": "video",
+      "src": "assets/living-marks/study-ea54873dd7.mp4",
+      "label": "Living mark study 9",
+      "description": "Curator-supplied moving study 9 in the living-mark family.",
+      "background": "light",
+      "poster": "assets/living-marks/study-ea54873dd7-poster.webp",
+      "source_file": "antlerboy_Give_me_ten_logo_idea_for_transduction.systems_-_Th_12787889-f4ef-4ef4-af72-28d5c59ea695_3.mp4",
+      "source_sha256": "ea54873dd785b2cae31571c2a4b9c65155ef75427a829d4707ca587f9ed7c95f"
+    },
+    {
+      "id": "study-d88db07983",
       "kind": "image",
-      "src": "assets/living-marks/cat-across-boundary.webp",
-      "label": "Cat across a boundary",
-      "description": "A black loop and a cat sit on opposite sides of a pink wavy boundary.",
-      "background": "light"
+      "src": "assets/living-marks/study-d88db07983.webp",
+      "label": "Living mark study 10",
+      "description": "Curator-supplied still study 10 in the living-mark family.",
+      "background": "light",
+      "source_file": "antlerboy_Give_me_ten_logo_idea_for_transduction.systems_-_Th_1db9d164-3bbb-40bf-81a1-73868b3586b0_0.png",
+      "source_sha256": "d88db07983845ee04faf076efe62e596d64978d91130b3674a8afad0fe9f3c69"
+    },
+    {
+      "id": "study-a285740e2d",
+      "kind": "image",
+      "src": "assets/living-marks/study-a285740e2d.webp",
+      "label": "Living mark study 11",
+      "description": "Curator-supplied still study 11 in the living-mark family.",
+      "background": "light",
+      "source_file": "antlerboy_Give_me_ten_logo_idea_for_transduction.systems_-_Th_1db9d164-3bbb-40bf-81a1-73868b3586b0_1.png",
+      "source_sha256": "a285740e2d1f96a85b58aa4d6094dccf7facdc9da3e22c5a013ebe4f632a0577"
+    },
+    {
+      "id": "study-058034f07a",
+      "kind": "image",
+      "src": "assets/living-marks/study-058034f07a.webp",
+      "label": "Living mark study 12",
+      "description": "Curator-supplied still study 12 in the living-mark family.",
+      "background": "dark",
+      "source_file": "antlerboy_Give_me_ten_logo_idea_for_transduction.systems_-_Th_1db9d164-3bbb-40bf-81a1-73868b3586b0_2.png",
+      "source_sha256": "058034f07a3a789ee4a357dadc5990a9514f60bd00d9d72c8a3c2bb45f58e972"
+    },
+    {
+      "id": "study-3fd3148c5b",
+      "kind": "image",
+      "src": "assets/living-marks/study-3fd3148c5b.webp",
+      "label": "Living mark study 13",
+      "description": "Curator-supplied still study 13 in the living-mark family.",
+      "background": "dark",
+      "source_file": "antlerboy_Give_me_ten_logo_idea_for_transduction.systems_-_Th_1db9d164-3bbb-40bf-81a1-73868b3586b0_3.png",
+      "source_sha256": "3fd3148c5b7c717ee28affb4b4a20db38c4bc64b2ea521d10adb489a4d36d8af"
     },
     {
       "id": "impossible-tangle",
@@ -51,7 +145,31 @@
       "poster": "assets/living-marks/impossible-tangle-poster.webp",
       "label": "Moving impossible tangle",
       "description": "A silver impossible form slowly changes against a black field.",
-      "background": "dark"
+      "background": "dark",
+      "source_file": "antlerboy_Give_me_ten_logo_idea_for_transduction.systems_-_Th_21bc5b3a-b9ed-4387-b16b-77ce894c35fc_2.mp4",
+      "source_sha256": "9a9e002824664d42130de7dda8013f5bf4391dd3e378deee0567263ed150027b"
+    },
+    {
+      "id": "study-178676c166",
+      "kind": "video",
+      "src": "assets/living-marks/study-178676c166.mp4",
+      "label": "Living mark study 15",
+      "description": "Curator-supplied moving study 15 in the living-mark family.",
+      "background": "dark",
+      "poster": "assets/living-marks/study-178676c166-poster.webp",
+      "source_file": "antlerboy_Give_me_ten_logo_idea_for_transduction.systems_-_Th_3418287e-7baa-4791-a6b3-de0725352116_0.mp4",
+      "source_sha256": "178676c166fd47099e65fbe40cd7489e01e80db8a2871ee60a261cd4ee7d85d8"
+    },
+    {
+      "id": "study-daa5f2de10",
+      "kind": "video",
+      "src": "assets/living-marks/study-daa5f2de10.mp4",
+      "label": "Living mark study 16",
+      "description": "Curator-supplied moving study 16 in the living-mark family.",
+      "background": "light",
+      "poster": "assets/living-marks/study-daa5f2de10-poster.webp",
+      "source_file": "antlerboy_Give_me_ten_logo_idea_for_transduction.systems_-_Th_3418287e-7baa-4791-a6b3-de0725352116_1.mp4",
+      "source_sha256": "daa5f2de103e8d487e728c43790c7d8bd973bda2c683ee7eaac1dcb42387a75f"
     },
     {
       "id": "cat-feedback-loop",
@@ -60,7 +178,64 @@
       "poster": "assets/living-marks/cat-feedback-loop-poster.webp",
       "label": "Moving cat feedback loop",
       "description": "A cat and a circular field of arrows move around one another.",
-      "background": "light"
+      "background": "light",
+      "source_file": "antlerboy_Give_me_ten_logo_idea_for_transduction.systems_-_Th_3418287e-7baa-4791-a6b3-de0725352116_3.mp4",
+      "source_sha256": "f10c51e09251b1aee317c739b3bb15bb3ff211b292ad93976a1c86aaa2add2f3"
+    },
+    {
+      "id": "study-e088afb0a6",
+      "kind": "video",
+      "src": "assets/living-marks/study-e088afb0a6.mp4",
+      "label": "Living mark study 18",
+      "description": "Curator-supplied moving study 18 in the living-mark family.",
+      "background": "light",
+      "poster": "assets/living-marks/study-e088afb0a6-poster.webp",
+      "source_file": "antlerboy_Give_me_ten_logo_idea_for_transduction.systems_-_Th_5314032a-14b7-4c21-b0a9-d96d6a363e59_2.mp4",
+      "source_sha256": "e088afb0a67124954d037e0e1bfc89a9186135e32dddb66bd85318808c6c5a29"
+    },
+    {
+      "id": "study-1c71b14bcf",
+      "kind": "video",
+      "src": "assets/living-marks/study-1c71b14bcf.mp4",
+      "label": "Living mark study 19",
+      "description": "Curator-supplied moving study 19 in the living-mark family.",
+      "background": "light",
+      "poster": "assets/living-marks/study-1c71b14bcf-poster.webp",
+      "source_file": "antlerboy_Give_me_ten_logo_idea_for_transduction.systems_-_Th_5314032a-14b7-4c21-b0a9-d96d6a363e59_3.mp4",
+      "source_sha256": "1c71b14bcf4125fe3613a1af6339c965d58feea3bedf0620d281add2c0f4083e"
+    },
+    {
+      "id": "study-401b244ee6",
+      "kind": "video",
+      "src": "assets/living-marks/study-401b244ee6.mp4",
+      "label": "Living mark study 20",
+      "description": "Curator-supplied moving study 20 in the living-mark family.",
+      "background": "light",
+      "poster": "assets/living-marks/study-401b244ee6-poster.webp",
+      "source_file": "antlerboy_Give_me_ten_logo_idea_for_transduction.systems_-_Th_7aed5676-88c3-418d-985e-47818f930e5d_0.mp4",
+      "source_sha256": "401b244ee60b11e0b8123515e395ed7e550cadbd5c9f9ec82838c7eba1b8dc3d"
+    },
+    {
+      "id": "study-66396d6bf9",
+      "kind": "video",
+      "src": "assets/living-marks/study-66396d6bf9.mp4",
+      "label": "Living mark study 21",
+      "description": "Curator-supplied moving study 21 in the living-mark family.",
+      "background": "light",
+      "poster": "assets/living-marks/study-66396d6bf9-poster.webp",
+      "source_file": "antlerboy_Give_me_ten_logo_idea_for_transduction.systems_-_Th_7aed5676-88c3-418d-985e-47818f930e5d_1.mp4",
+      "source_sha256": "66396d6bf93bd91b65cad9c7b46595e459bf3954e0a216cd432705d581620f12"
+    },
+    {
+      "id": "study-33a42e870a",
+      "kind": "video",
+      "src": "assets/living-marks/study-33a42e870a.mp4",
+      "label": "Living mark study 22",
+      "description": "Curator-supplied moving study 22 in the living-mark family.",
+      "background": "light",
+      "poster": "assets/living-marks/study-33a42e870a-poster.webp",
+      "source_file": "antlerboy_Give_me_ten_logo_idea_for_transduction.systems_-_Th_7aed5676-88c3-418d-985e-47818f930e5d_2.mp4",
+      "source_sha256": "33a42e870a6494123ce32798cf8cef38b57b09f11b360683bccdc4228929e99a"
     },
     {
       "id": "cat-in-structural-coupling",
@@ -69,7 +244,42 @@
       "poster": "assets/living-marks/cat-in-structural-coupling-poster.webp",
       "label": "Cat in structural coupling",
       "description": "A cat is alternately held and released by a changing black loop.",
-      "background": "light"
+      "background": "light",
+      "source_file": "antlerboy_Give_me_ten_logo_idea_for_transduction.systems_-_Th_7aed5676-88c3-418d-985e-47818f930e5d_3.mp4",
+      "source_sha256": "ea6c0df063e24fe458f34237c6013b2d0668833ca667c8d4d1628a38488d19ea"
+    },
+    {
+      "id": "study-7a9a423799",
+      "kind": "video",
+      "src": "assets/living-marks/study-7a9a423799.mp4",
+      "label": "Living mark study 24",
+      "description": "Curator-supplied moving study 24 in the living-mark family.",
+      "background": "light",
+      "poster": "assets/living-marks/study-7a9a423799-poster.webp",
+      "source_file": "antlerboy_Give_me_ten_logo_idea_for_transduction.systems_-_Th_7c1c058b-e129-41a0-af25-1b21fcba5fcb_1.mp4",
+      "source_sha256": "7a9a42379901da968be6b35c715c39bf08de23ba3628dcc1f8d156b57ff03ff0"
+    },
+    {
+      "id": "study-4ed7e01f6e",
+      "kind": "video",
+      "src": "assets/living-marks/study-4ed7e01f6e.mp4",
+      "label": "Living mark study 25",
+      "description": "Curator-supplied moving study 25 in the living-mark family.",
+      "background": "light",
+      "poster": "assets/living-marks/study-4ed7e01f6e-poster.webp",
+      "source_file": "antlerboy_Give_me_ten_logo_idea_for_transduction.systems_-_Th_7c1c058b-e129-41a0-af25-1b21fcba5fcb_3.mp4",
+      "source_sha256": "4ed7e01f6efa31a753d5abdbee95859c549e821bed783ac74f980f02f811e155"
+    },
+    {
+      "id": "study-0042bc2f66",
+      "kind": "video",
+      "src": "assets/living-marks/study-0042bc2f66.mp4",
+      "label": "Living mark study 26",
+      "description": "Curator-supplied moving study 26 in the living-mark family.",
+      "background": "dark",
+      "poster": "assets/living-marks/study-0042bc2f66-poster.webp",
+      "source_file": "antlerboy_Give_me_ten_logo_idea_for_transduction.systems_-_Th_86ada255-7466-4c34-a5b7-fc8477f41615_0.mp4",
+      "source_sha256": "0042bc2f665151b6ebbdaf0a09870d8b8a2ba708f404a6684faec790d0b35dd0"
     },
     {
       "id": "circular-impossibility",
@@ -78,7 +288,75 @@
       "poster": "assets/living-marks/circular-impossibility-poster.webp",
       "label": "Circular impossibility",
       "description": "A dense circular field turns around a pink central wave.",
-      "background": "light"
+      "background": "light",
+      "source_file": "antlerboy_Give_me_ten_logo_idea_for_transduction.systems_-_Th_910c40e3-5f43-4eb7-85b5-0d125ef3fc9d_0.mp4",
+      "source_sha256": "e2f9401e92b0858d780329877387553ce64617231e0719fa6983b2dc6ff7afe7"
+    },
+    {
+      "id": "study-d2045f5cc8",
+      "kind": "video",
+      "src": "assets/living-marks/study-d2045f5cc8.mp4",
+      "label": "Living mark study 28",
+      "description": "Curator-supplied moving study 28 in the living-mark family.",
+      "background": "light",
+      "poster": "assets/living-marks/study-d2045f5cc8-poster.webp",
+      "source_file": "antlerboy_Give_me_ten_logo_idea_for_transduction.systems_-_Th_910c40e3-5f43-4eb7-85b5-0d125ef3fc9d_1.mp4",
+      "source_sha256": "d2045f5cc88951cfa36e516aa1335d75e34386d2847ab1be4c25273dbdea1af3"
+    },
+    {
+      "id": "study-00aab752ec",
+      "kind": "video",
+      "src": "assets/living-marks/study-00aab752ec.mp4",
+      "label": "Living mark study 29",
+      "description": "Curator-supplied moving study 29 in the living-mark family.",
+      "background": "light",
+      "poster": "assets/living-marks/study-00aab752ec-poster.webp",
+      "source_file": "antlerboy_Give_me_ten_logo_idea_for_transduction.systems_-_Th_910c40e3-5f43-4eb7-85b5-0d125ef3fc9d_3.mp4",
+      "source_sha256": "00aab752ecfa34a7c2d1760d633c9ca48c6e9ebc0a3f0b02cd2a9bd7f1e34f43"
+    },
+    {
+      "id": "study-d354cfced9",
+      "kind": "video",
+      "src": "assets/living-marks/study-d354cfced9.mp4",
+      "label": "Living mark study 30",
+      "description": "Curator-supplied moving study 30 in the living-mark family.",
+      "background": "light",
+      "poster": "assets/living-marks/study-d354cfced9-poster.webp",
+      "source_file": "antlerboy_Give_me_ten_logo_idea_for_transduction.systems_-_Th_97a55d1a-8361-4e47-8407-52abe15037bb_2.mp4",
+      "source_sha256": "d354cfced9916be0eb2dc9d5a350d38af1536c5410d32bf40031ab8650caf589"
+    },
+    {
+      "id": "study-0408ef65da",
+      "kind": "video",
+      "src": "assets/living-marks/study-0408ef65da.mp4",
+      "label": "Living mark study 31",
+      "description": "Curator-supplied moving study 31 in the living-mark family.",
+      "background": "light",
+      "poster": "assets/living-marks/study-0408ef65da-poster.webp",
+      "source_file": "antlerboy_Give_me_ten_logo_idea_for_transduction.systems_-_Th_97a55d1a-8361-4e47-8407-52abe15037bb_3.mp4",
+      "source_sha256": "0408ef65da9e781ffaaf896e0a70a78de6c4d8ce5e1de5d77138c0cb27471083"
+    },
+    {
+      "id": "study-fc5dfc1bd9",
+      "kind": "video",
+      "src": "assets/living-marks/study-fc5dfc1bd9.mp4",
+      "label": "Living mark study 32",
+      "description": "Curator-supplied moving study 32 in the living-mark family.",
+      "background": "light",
+      "poster": "assets/living-marks/study-fc5dfc1bd9-poster.webp",
+      "source_file": "antlerboy_Give_me_ten_logo_idea_for_transduction.systems_-_Th_9e6dd27e-0239-4b18-859d-ff86b8ba3f55_0.mp4",
+      "source_sha256": "fc5dfc1bd9273705c2f60a5dc4b12bd14cc229dcb076ada3b9e30883a376ff8e"
+    },
+    {
+      "id": "study-eecbc477b0",
+      "kind": "video",
+      "src": "assets/living-marks/study-eecbc477b0.mp4",
+      "label": "Living mark study 33",
+      "description": "Curator-supplied moving study 33 in the living-mark family.",
+      "background": "light",
+      "poster": "assets/living-marks/study-eecbc477b0-poster.webp",
+      "source_file": "antlerboy_Give_me_ten_logo_idea_for_transduction.systems_-_Th_9e6dd27e-0239-4b18-859d-ff86b8ba3f55_2.mp4",
+      "source_sha256": "eecbc477b02f1d94fc1261c9ac5e464b0792a499e2640604123a17eeb6c5452e"
     },
     {
       "id": "cats-network",
@@ -87,7 +365,529 @@
       "poster": "assets/living-marks/cats-network-poster.webp",
       "label": "Moving cats network",
       "description": "Pink cats orbit and reconnect around a black network hub.",
-      "background": "light"
+      "background": "light",
+      "source_file": "antlerboy_Give_me_ten_logo_idea_for_transduction.systems_-_Th_9e6dd27e-0239-4b18-859d-ff86b8ba3f55_3.mp4",
+      "source_sha256": "ee8c932eac0dd205b9aeccb439225856a0448b5b03d77aa7f1a724e37cc283e9"
+    },
+    {
+      "id": "study-8b12c67681",
+      "kind": "video",
+      "src": "assets/living-marks/study-8b12c67681.mp4",
+      "label": "Living mark study 35",
+      "description": "Curator-supplied moving study 35 in the living-mark family.",
+      "background": "dark",
+      "poster": "assets/living-marks/study-8b12c67681-poster.webp",
+      "source_file": "antlerboy_Give_me_ten_logo_idea_for_transduction.systems_-_Th_a5e2053a-c782-49e9-a433-dec4505a13c3_1.mp4",
+      "source_sha256": "8b12c676812b7a0a042d11017d7de293df2edfccfe7c50c36a62529d9258f740"
+    },
+    {
+      "id": "study-fc46a57eca",
+      "kind": "video",
+      "src": "assets/living-marks/study-fc46a57eca.mp4",
+      "label": "Living mark study 36",
+      "description": "Curator-supplied moving study 36 in the living-mark family.",
+      "background": "light",
+      "poster": "assets/living-marks/study-fc46a57eca-poster.webp",
+      "source_file": "antlerboy_Give_me_ten_logo_idea_for_transduction.systems_-_Th_afb10ad6-6bbe-4ef8-8a5b-7c0002da418b_2.mp4",
+      "source_sha256": "fc46a57eca3e158eef7d1523d37885a5f41e4b988bbb26308fcf8dbf94d0ed74"
+    },
+    {
+      "id": "study-088cb4047a",
+      "kind": "video",
+      "src": "assets/living-marks/study-088cb4047a.mp4",
+      "label": "Living mark study 37",
+      "description": "Curator-supplied moving study 37 in the living-mark family.",
+      "background": "light",
+      "poster": "assets/living-marks/study-088cb4047a-poster.webp",
+      "source_file": "antlerboy_Give_me_ten_logo_idea_for_transduction.systems_-_Th_afb10ad6-6bbe-4ef8-8a5b-7c0002da418b_3.mp4",
+      "source_sha256": "088cb4047a8c5a3e52f7875cc3af648400f69503f21fac3c8f2c5ba229672eb6"
+    },
+    {
+      "id": "study-d945a1b94a",
+      "kind": "video",
+      "src": "assets/living-marks/study-d945a1b94a.mp4",
+      "label": "Living mark study 38",
+      "description": "Curator-supplied moving study 38 in the living-mark family.",
+      "background": "light",
+      "poster": "assets/living-marks/study-d945a1b94a-poster.webp",
+      "source_file": "antlerboy_Give_me_ten_logo_idea_for_transduction.systems_-_Th_cab0698d-9365-4e43-b8fb-535420e2c4b3_0.mp4",
+      "source_sha256": "d945a1b94a33ae53bdddc62cfb6d502025b838c4e90a3ba6f6b959104063cd01"
+    },
+    {
+      "id": "study-dd75a59d25",
+      "kind": "video",
+      "src": "assets/living-marks/study-dd75a59d25.mp4",
+      "label": "Living mark study 39",
+      "description": "Curator-supplied moving study 39 in the living-mark family.",
+      "background": "light",
+      "poster": "assets/living-marks/study-dd75a59d25-poster.webp",
+      "source_file": "antlerboy_Give_me_ten_logo_idea_for_transduction.systems_-_Th_cab0698d-9365-4e43-b8fb-535420e2c4b3_2.mp4",
+      "source_sha256": "dd75a59d25b27360db02d48588f6e934c96dc7043ed869fe6bd197ce02e9d307"
+    },
+    {
+      "id": "study-4ec6eb7542",
+      "kind": "video",
+      "src": "assets/living-marks/study-4ec6eb7542.mp4",
+      "label": "Living mark study 40",
+      "description": "Curator-supplied moving study 40 in the living-mark family.",
+      "background": "light",
+      "poster": "assets/living-marks/study-4ec6eb7542-poster.webp",
+      "source_file": "antlerboy_Give_me_ten_logo_idea_for_transduction.systems_-_Th_e079ff6b-b52e-418e-8701-daf05c63d967_0.mp4",
+      "source_sha256": "4ec6eb7542826b566af901e82ffa1bd24c012d97b2a1ddb7eacdca4d08d2f5d3"
+    },
+    {
+      "id": "study-f488490f6b",
+      "kind": "video",
+      "src": "assets/living-marks/study-f488490f6b.mp4",
+      "label": "Living mark study 41",
+      "description": "Curator-supplied moving study 41 in the living-mark family.",
+      "background": "light",
+      "poster": "assets/living-marks/study-f488490f6b-poster.webp",
+      "source_file": "antlerboy_Give_me_ten_logo_idea_for_transduction.systems_-_Th_e079ff6b-b52e-418e-8701-daf05c63d967_3.mp4",
+      "source_sha256": "f488490f6bf6565f6f32bafc9de30ea3c0ea4a6fab214deb567495721c327741"
+    },
+    {
+      "id": "study-bcb5fd409b",
+      "kind": "video",
+      "src": "assets/living-marks/study-bcb5fd409b.mp4",
+      "label": "Living mark study 42",
+      "description": "Curator-supplied moving study 42 in the living-mark family.",
+      "background": "light",
+      "poster": "assets/living-marks/study-bcb5fd409b-poster.webp",
+      "source_file": "antlerboy_Give_me_ten_logo_idea_for_transduction.systems_-_Th_e6f5f78d-2678-490b-9bbe-8512d7ab29ab_0.mp4",
+      "source_sha256": "bcb5fd409bdd2e8c56a5f50d26db1abadd55bdc440f18f0dca762d8595ed4a47"
+    },
+    {
+      "id": "study-a8f8cdd0e2",
+      "kind": "video",
+      "src": "assets/living-marks/study-a8f8cdd0e2.mp4",
+      "label": "Living mark study 43",
+      "description": "Curator-supplied moving study 43 in the living-mark family.",
+      "background": "light",
+      "poster": "assets/living-marks/study-a8f8cdd0e2-poster.webp",
+      "source_file": "antlerboy_Give_me_ten_logo_idea_for_transduction.systems_-_Th_e6f5f78d-2678-490b-9bbe-8512d7ab29ab_2.mp4",
+      "source_sha256": "a8f8cdd0e22c517cfe93357043b8d9f81a6a0864f142fa058348892642d00575"
+    },
+    {
+      "id": "study-e2709188de",
+      "kind": "video",
+      "src": "assets/living-marks/study-e2709188de.mp4",
+      "label": "Living mark study 44",
+      "description": "Curator-supplied moving study 44 in the living-mark family.",
+      "background": "light",
+      "poster": "assets/living-marks/study-e2709188de-poster.webp",
+      "source_file": "antlerboy_Give_me_ten_logo_idea_for_transduction.systems_-_Th_e6f5f78d-2678-490b-9bbe-8512d7ab29ab_3.mp4",
+      "source_sha256": "e2709188de95727c3e9bf4d887e7d2fe48731da9126a1389bd78106c890346ca"
+    },
+    {
+      "id": "study-bae41dfc7c",
+      "kind": "video",
+      "src": "assets/living-marks/study-bae41dfc7c.mp4",
+      "label": "Living mark study 45",
+      "description": "Curator-supplied moving study 45 in the living-mark family.",
+      "background": "dark",
+      "poster": "assets/living-marks/study-bae41dfc7c-poster.webp",
+      "source_file": "antlerboy_Give_me_ten_logo_idea_for_transduction.systems_-_Th_e9d8a8a6-09e2-4b1d-9770-84cc331dfec5_0.mp4",
+      "source_sha256": "bae41dfc7c50b468219775a5eac5f003939401aebee5c47d2b67f252967ec6f4"
+    },
+    {
+      "id": "study-10887f3536",
+      "kind": "video",
+      "src": "assets/living-marks/study-10887f3536.mp4",
+      "label": "Living mark study 46",
+      "description": "Curator-supplied moving study 46 in the living-mark family.",
+      "background": "dark",
+      "poster": "assets/living-marks/study-10887f3536-poster.webp",
+      "source_file": "antlerboy_Give_me_ten_logo_idea_for_transduction.systems_-_Th_e9d8a8a6-09e2-4b1d-9770-84cc331dfec5_1.mp4",
+      "source_sha256": "10887f3536fb5f96fb57d3e99a102eaa0159d4a7724ec50b6dcced450fa8dc2c"
+    },
+    {
+      "id": "study-7480300666",
+      "kind": "video",
+      "src": "assets/living-marks/study-7480300666.mp4",
+      "label": "Living mark study 47",
+      "description": "Curator-supplied moving study 47 in the living-mark family.",
+      "background": "dark",
+      "poster": "assets/living-marks/study-7480300666-poster.webp",
+      "source_file": "antlerboy_Give_me_ten_logo_idea_for_transduction.systems_-_Th_e9d8a8a6-09e2-4b1d-9770-84cc331dfec5_3.mp4",
+      "source_sha256": "7480300666088ce1de7a65e3fb8eb469ee3eb90764c65e8cedbcb86b89bc0481"
+    },
+    {
+      "id": "study-d63123b5a6",
+      "kind": "image",
+      "src": "assets/living-marks/study-d63123b5a6.webp",
+      "label": "Living mark study 48",
+      "description": "Curator-supplied still study 48 in the living-mark family.",
+      "background": "dark",
+      "source_file": "antlerboy_Give_me_ten_logo_idea_for_transduction.systems_-_Th_ef5e45d4-79ec-4c48-bb31-f4077cd33997_0.png",
+      "source_sha256": "d63123b5a631a745787d7a540a3c652fb910e829df1a2cf2e63d524f7d399965"
+    },
+    {
+      "id": "study-946bb31c3c",
+      "kind": "image",
+      "src": "assets/living-marks/study-946bb31c3c.webp",
+      "label": "Living mark study 49",
+      "description": "Curator-supplied still study 49 in the living-mark family.",
+      "background": "dark",
+      "source_file": "antlerboy_Give_me_ten_logo_idea_for_transduction.systems_-_Th_ef5e45d4-79ec-4c48-bb31-f4077cd33997_1.png",
+      "source_sha256": "946bb31c3cd83afe5c733067567d241de5b8a62cb1d81bdc5796bcaed0ad2157"
+    },
+    {
+      "id": "study-34dfed425b",
+      "kind": "image",
+      "src": "assets/living-marks/study-34dfed425b.webp",
+      "label": "Living mark study 50",
+      "description": "Curator-supplied still study 50 in the living-mark family.",
+      "background": "light",
+      "source_file": "antlerboy_Give_me_ten_logo_idea_for_transduction.systems_-_Th_ef5e45d4-79ec-4c48-bb31-f4077cd33997_2.png",
+      "source_sha256": "34dfed425bb68da4a7c5b6bc6a03bea7e1336c6cd19aeb6ac71f056558637e09"
+    },
+    {
+      "id": "study-24aa99253f",
+      "kind": "image",
+      "src": "assets/living-marks/study-24aa99253f.webp",
+      "label": "Living mark study 51",
+      "description": "Curator-supplied still study 51 in the living-mark family.",
+      "background": "dark",
+      "source_file": "antlerboy_Give_me_ten_logo_idea_for_transduction.systems_-_Th_ef5e45d4-79ec-4c48-bb31-f4077cd33997_3.png",
+      "source_sha256": "24aa99253ff49769c8ded25a461121028521d8616d5366eeeb5dbc8e1a916958"
+    },
+    {
+      "id": "study-498e65819d",
+      "kind": "image",
+      "src": "assets/living-marks/study-498e65819d.webp",
+      "label": "Living mark study 52",
+      "description": "Curator-supplied still study 52 in the living-mark family.",
+      "background": "light",
+      "source_file": "antlerboy_Give_me_ten_logo_idea_for_transduction.systems_-_Th_f98c8113-d8db-4530-9974-e6b1ee5e49a7_0.png",
+      "source_sha256": "498e65819db8bc0159e2cc80b89e43c9cb64f4d4f5016fa84b52b77bf1529ac5"
+    },
+    {
+      "id": "study-bb37b4b12c",
+      "kind": "image",
+      "src": "assets/living-marks/study-bb37b4b12c.webp",
+      "label": "Living mark study 53",
+      "description": "Curator-supplied still study 53 in the living-mark family.",
+      "background": "dark",
+      "source_file": "antlerboy_Give_me_ten_logo_idea_for_transduction.systems_-_Th_f98c8113-d8db-4530-9974-e6b1ee5e49a7_1.png",
+      "source_sha256": "bb37b4b12c78d6e79d1478efe2873af260de7997769a0635bebc4cd18e306aa9"
+    },
+    {
+      "id": "study-ba9e93f540",
+      "kind": "image",
+      "src": "assets/living-marks/study-ba9e93f540.webp",
+      "label": "Living mark study 54",
+      "description": "Curator-supplied still study 54 in the living-mark family.",
+      "background": "light",
+      "source_file": "antlerboy_Give_me_ten_logo_idea_for_transduction.systems_-_Th_f98c8113-d8db-4530-9974-e6b1ee5e49a7_2.png",
+      "source_sha256": "ba9e93f5407d093de429977c705f3a028fbc1ea0eed25b5829ccdb1b34e550d9"
+    },
+    {
+      "id": "impossible-coupling",
+      "kind": "image",
+      "src": "assets/living-marks/impossible-coupling.webp",
+      "label": "Impossible coupling",
+      "description": "A grey interwoven impossible form made from four curved paths.",
+      "background": "light",
+      "source_file": "antlerboy_Give_me_ten_logo_idea_for_transduction.systems_-_Th_f98c8113-d8db-4530-9974-e6b1ee5e49a7_3.png",
+      "source_sha256": "8bb4ee669bcc322441420e33ab6633a5f43f1e7bac179e18e73f347de42cdb8c"
+    },
+    {
+      "id": "study-a5e5923627",
+      "kind": "video",
+      "src": "assets/living-marks/study-a5e5923627.mp4",
+      "label": "Living mark study 56",
+      "description": "Curator-supplied moving study 56 in the living-mark family.",
+      "background": "light",
+      "poster": "assets/living-marks/study-a5e5923627-poster.webp",
+      "source_file": "antlerboy_Give_me_ten_logo_idea_for_transduction.systems_-_Th_fc961bd6-1efe-4fd1-b41f-95426a494952_3.mp4",
+      "source_sha256": "a5e59236278ee65e1a3c65a27267ccd36c8ed5f7db50aff0819d87bd261de1e0"
+    },
+    {
+      "id": "study-36e0eee053",
+      "kind": "video",
+      "src": "assets/living-marks/study-36e0eee053.mp4",
+      "label": "Living mark study 57",
+      "description": "Curator-supplied moving study 57 in the living-mark family.",
+      "background": "dark",
+      "poster": "assets/living-marks/study-36e0eee053-poster.webp",
+      "source_file": "antlerboy_Give_me_ten_logo_idea_for_transduction.systems_-_Th_fee7d86c-d473-4738-9752-6292cbccfc13_2.mp4",
+      "source_sha256": "36e0eee053b7091506362dec3435336de443fc010cfff9f976fba5e8b335bc93"
+    },
+    {
+      "id": "study-f2b8977b92",
+      "kind": "image",
+      "src": "assets/living-marks/study-f2b8977b92.webp",
+      "label": "Living mark study 58",
+      "description": "Curator-supplied still study 58 in the living-mark family.",
+      "background": "light",
+      "source_file": "antlerboy_httpss.mj.runKgARX6_Z6PY_Give_me_ten_logo_idea_for__03d392ea-0458-476a-b06b-a9cecc35bba1_0.png",
+      "source_sha256": "f2b8977b927b00a9b0afe1c55d30161fa9d87b2f8a44696c77aa088a37e43cba"
+    },
+    {
+      "id": "study-baf4ce5ea5",
+      "kind": "image",
+      "src": "assets/living-marks/study-baf4ce5ea5.webp",
+      "label": "Living mark study 59",
+      "description": "Curator-supplied still study 59 in the living-mark family.",
+      "background": "light",
+      "source_file": "antlerboy_httpss.mj.runKgARX6_Z6PY_Give_me_ten_logo_idea_for__03d392ea-0458-476a-b06b-a9cecc35bba1_1.png",
+      "source_sha256": "baf4ce5ea5e1a032846cff0a20fe88cd3d928310143610a923a86f1c3889d97f"
+    },
+    {
+      "id": "study-c18c2978c3",
+      "kind": "image",
+      "src": "assets/living-marks/study-c18c2978c3.webp",
+      "label": "Living mark study 60",
+      "description": "Curator-supplied still study 60 in the living-mark family.",
+      "background": "light",
+      "source_file": "antlerboy_httpss.mj.runKgARX6_Z6PY_Give_me_ten_logo_idea_for__03d392ea-0458-476a-b06b-a9cecc35bba1_2.png",
+      "source_sha256": "c18c2978c3f4d52ce0d1a82f3a5e1e8881042bb020085a6c5558e8092169b332"
+    },
+    {
+      "id": "cat-on-spiral",
+      "kind": "image",
+      "src": "assets/living-marks/cat-on-spiral.webp",
+      "label": "Cat on a spiral",
+      "description": "A cat perched on a black spiral between pink waves and blue dots.",
+      "background": "light",
+      "source_file": "antlerboy_httpss.mj.runKgARX6_Z6PY_Give_me_ten_logo_idea_for__073b1d32-f4d1-43e7-939e-787f8d7dcedd_0.png",
+      "source_sha256": "4aa30a82d229fcb60b8d23b13eb8f3b50a64d9a5d98b27914738b1b1c1d79ceb"
+    },
+    {
+      "id": "study-08d0b37f71",
+      "kind": "image",
+      "src": "assets/living-marks/study-08d0b37f71.webp",
+      "label": "Living mark study 62",
+      "description": "Curator-supplied still study 62 in the living-mark family.",
+      "background": "light",
+      "source_file": "antlerboy_httpss.mj.runKgARX6_Z6PY_Give_me_ten_logo_idea_for__073b1d32-f4d1-43e7-939e-787f8d7dcedd_1.png",
+      "source_sha256": "08d0b37f7100c66b2349a72df508a4858b9b99afcf5760698e1b06803307d4e1"
+    },
+    {
+      "id": "cats-as-network",
+      "kind": "image",
+      "src": "assets/living-marks/cats-as-network.webp",
+      "label": "Cats as a network",
+      "description": "Eight pink cats connected to a central black hub.",
+      "background": "light",
+      "source_file": "antlerboy_httpss.mj.runKgARX6_Z6PY_Give_me_ten_logo_idea_for__073b1d32-f4d1-43e7-939e-787f8d7dcedd_3.png",
+      "source_sha256": "57e56728ef22e659c8d6b6896fb73acc486e5c25f8da68b6544bf4c39074dc8f"
+    },
+    {
+      "id": "study-4e89e274d2",
+      "kind": "image",
+      "src": "assets/living-marks/study-4e89e274d2.webp",
+      "label": "Living mark study 64",
+      "description": "Curator-supplied still study 64 in the living-mark family.",
+      "background": "light",
+      "source_file": "antlerboy_httpss.mj.runKgARX6_Z6PY_Give_me_ten_logo_idea_for__956db895-1d52-4d68-afef-9822a582e242_0.png",
+      "source_sha256": "4e89e274d27f6ee15138563dbec69cb2bcfb170020a6d0590f93648d4006c84f"
+    },
+    {
+      "id": "study-c22e065c73",
+      "kind": "image",
+      "src": "assets/living-marks/study-c22e065c73.webp",
+      "label": "Living mark study 65",
+      "description": "Curator-supplied still study 65 in the living-mark family.",
+      "background": "light",
+      "source_file": "antlerboy_httpss.mj.runKgARX6_Z6PY_Give_me_ten_logo_idea_for__956db895-1d52-4d68-afef-9822a582e242_1.png",
+      "source_sha256": "c22e065c7335d7bd81c90277ba02ea2373cc049fd1e311e526e35269a60bd996"
+    },
+    {
+      "id": "study-0da97bca2d",
+      "kind": "image",
+      "src": "assets/living-marks/study-0da97bca2d.webp",
+      "label": "Living mark study 66",
+      "description": "Curator-supplied still study 66 in the living-mark family.",
+      "background": "light",
+      "source_file": "antlerboy_httpss.mj.runKgARX6_Z6PY_Give_me_ten_logo_idea_for__956db895-1d52-4d68-afef-9822a582e242_3.png",
+      "source_sha256": "0da97bca2dd54ba037ab6ecfd512a8365f5407670ef31b6acb37dcd20500327c"
+    },
+    {
+      "id": "study-276652a58e",
+      "kind": "image",
+      "src": "assets/living-marks/study-276652a58e.webp",
+      "label": "Living mark study 67",
+      "description": "Curator-supplied still study 67 in the living-mark family.",
+      "background": "light",
+      "source_file": "C90Jt.jpg",
+      "source_sha256": "276652a58ed8641fd715f6fcdf95ded60cc15400c48ee9ca75a35325749c6eaa"
+    },
+    {
+      "id": "cat-across-boundary",
+      "kind": "image",
+      "src": "assets/living-marks/cat-across-boundary.webp",
+      "label": "Cat across a boundary",
+      "description": "A black loop and a cat sit on opposite sides of a pink wavy boundary.",
+      "background": "light",
+      "source_file": "content.png",
+      "source_sha256": "1bae2e6572206bfbaa26c43bf666b81055fedfbc77018a630f2486e90a45bbc1"
+    },
+    {
+      "id": "study-ceec13e256",
+      "kind": "image",
+      "src": "assets/living-marks/study-ceec13e256.webp",
+      "label": "Living mark study 69",
+      "description": "Curator-supplied still study 69 in the living-mark family.",
+      "background": "light",
+      "source_file": "DwNIY.jpg",
+      "source_sha256": "ceec13e2563216658c4a867784554c7d2487b4a9cdf601667feabbcf8cfc22dd"
+    },
+    {
+      "id": "study-dadcb9f60b",
+      "kind": "image",
+      "src": "assets/living-marks/study-dadcb9f60b.webp",
+      "label": "Living mark study 70",
+      "description": "Curator-supplied still study 70 in the living-mark family.",
+      "background": "light",
+      "source_file": "FwFez.jpg",
+      "source_sha256": "dadcb9f60b3263d758706143cb7a383789f4350ce0146fb50968c0ed657f058d"
+    },
+    {
+      "id": "study-f19fb46f7b",
+      "kind": "video",
+      "src": "assets/living-marks/study-f19fb46f7b.mp4",
+      "label": "Living mark study 71",
+      "description": "Curator-supplied moving study 71 in the living-mark family.",
+      "background": "light",
+      "poster": "assets/living-marks/study-f19fb46f7b-poster.webp",
+      "source_file": "grok-video-373e97dc-e1cb-44b3-9ab2-5b312ea231b4.mp4",
+      "source_sha256": "f19fb46f7b330b57057baf51f787806d1f6ffb4a9471229a0b25394e8b5cced8"
+    },
+    {
+      "id": "study-be81544dd7",
+      "kind": "video",
+      "src": "assets/living-marks/study-be81544dd7.mp4",
+      "label": "Living mark study 72",
+      "description": "Curator-supplied moving study 72 in the living-mark family.",
+      "background": "light",
+      "poster": "assets/living-marks/study-be81544dd7-poster.webp",
+      "source_file": "grok-video-51a6a1fc-15b3-4a29-9bf8-1c30463d790e.mp4",
+      "source_sha256": "be81544dd77a7be3d3457518062e4c7f08c73224a5d0bfd2494d80327b5709d8"
+    },
+    {
+      "id": "study-6ad1e57c9b",
+      "kind": "video",
+      "src": "assets/living-marks/study-6ad1e57c9b.mp4",
+      "label": "Living mark study 73",
+      "description": "Curator-supplied moving study 73 in the living-mark family.",
+      "background": "light",
+      "poster": "assets/living-marks/study-6ad1e57c9b-poster.webp",
+      "source_file": "grok-video-5f8993b0-4b44-47d7-99e8-bba2fbb25ad0.mp4",
+      "source_sha256": "6ad1e57c9b6b057d7b0851f9ec44415e9e5f8ce23ae8c5a01d4ebbc319efb98c"
+    },
+    {
+      "id": "study-a8b9b5999e",
+      "kind": "video",
+      "src": "assets/living-marks/study-a8b9b5999e.mp4",
+      "label": "Living mark study 74",
+      "description": "Curator-supplied moving study 74 in the living-mark family.",
+      "background": "light",
+      "poster": "assets/living-marks/study-a8b9b5999e-poster.webp",
+      "source_file": "grok-video-99a35641-93bf-4bb5-b74f-685322c6a01f.mp4",
+      "source_sha256": "a8b9b5999e3ac3a55f6b64ab10d2facdd683ffde01575ec27c86432d44f1db0a"
+    },
+    {
+      "id": "study-0616ed9856",
+      "kind": "video",
+      "src": "assets/living-marks/study-0616ed9856.mp4",
+      "label": "Living mark study 75",
+      "description": "Curator-supplied moving study 75 in the living-mark family.",
+      "background": "light",
+      "poster": "assets/living-marks/study-0616ed9856-poster.webp",
+      "source_file": "grok-video-e4e98bd2-4f62-4834-a0d5-041704e88de3.mp4",
+      "source_sha256": "0616ed9856b8a9b8dd4837756af8ac8300fdfb5fed3c990376c3e3f95a33ea3a"
+    },
+    {
+      "id": "study-ff0833cdfb",
+      "kind": "image",
+      "src": "assets/living-marks/study-ff0833cdfb.webp",
+      "label": "Living mark study 76",
+      "description": "Curator-supplied still study 76 in the living-mark family.",
+      "background": "light",
+      "source_file": "la0S1.jpg",
+      "source_sha256": "ff0833cdfbd41190cba3231519cd76dad435951906af986049a879c3e20a1f99"
+    },
+    {
+      "id": "study-120f46e02b",
+      "kind": "image",
+      "src": "assets/living-marks/study-120f46e02b.webp",
+      "label": "Living mark study 77",
+      "description": "Curator-supplied still study 77 in the living-mark family.",
+      "background": "light",
+      "source_file": "OKgJn.jpg",
+      "source_sha256": "120f46e02b88fe164c2bd1e9bb141bef2e190ce4f44fc7fdef25effb617a144e"
+    },
+    {
+      "id": "study-9dd51d3224",
+      "kind": "image",
+      "src": "assets/living-marks/study-9dd51d3224.webp",
+      "label": "Living mark study 78",
+      "description": "Curator-supplied still study 78 in the living-mark family.",
+      "background": "light",
+      "source_file": "oNAJ5.jpg",
+      "source_sha256": "9dd51d322437fbb1b955b1bf9e3768205166792ec86bf5b408efb7bbb0abd242"
+    },
+    {
+      "id": "study-718b27b9e2",
+      "kind": "image",
+      "src": "assets/living-marks/study-718b27b9e2.webp",
+      "label": "Living mark study 79",
+      "description": "Curator-supplied still study 79 in the living-mark family.",
+      "background": "light",
+      "source_file": "Qc99l.jpg",
+      "source_sha256": "718b27b9e25b0228620430bc1f3d2a26ec9b47ab1362022f2da08d3cb5d02125"
+    },
+    {
+      "id": "study-c4be4e026d",
+      "kind": "image",
+      "src": "assets/living-marks/study-c4be4e026d.webp",
+      "label": "Living mark study 80",
+      "description": "Curator-supplied still study 80 in the living-mark family.",
+      "background": "light",
+      "source_file": "QJivQ.jpg",
+      "source_sha256": "c4be4e026d6ea4239b44290b69f24c92175b18fe42f04176b93d848d10a7656a"
+    },
+    {
+      "id": "study-f7c6c43486",
+      "kind": "image",
+      "src": "assets/living-marks/study-f7c6c43486.webp",
+      "label": "Living mark study 81",
+      "description": "Curator-supplied still study 81 in the living-mark family.",
+      "background": "light",
+      "source_file": "QzrNV.jpg",
+      "source_sha256": "f7c6c434861a4b8f6ecbdd3f21eee464d579327f9d58c44c8d6f74e5c378192a"
+    },
+    {
+      "id": "study-e2415d93e9",
+      "kind": "image",
+      "src": "assets/living-marks/study-e2415d93e9.webp",
+      "label": "Living mark study 82",
+      "description": "Curator-supplied still study 82 in the living-mark family.",
+      "background": "light",
+      "source_file": "wF74v.jpg",
+      "source_sha256": "e2415d93e9bc678e95209fd66a372602e42ffd96cbfbbe1c2aaeb5ab6cecebf5"
+    },
+    {
+      "id": "study-74eca8e66a",
+      "kind": "image",
+      "src": "assets/living-marks/study-74eca8e66a.webp",
+      "label": "Living mark study 83",
+      "description": "Curator-supplied still study 83 in the living-mark family.",
+      "background": "light",
+      "source_file": "X16zl.jpg",
+      "source_sha256": "74eca8e66ac7270ee3045697ae7f62804d2e0f04b765bcfa961c81c338a9184f"
+    },
+    {
+      "id": "study-48dd95dc8b",
+      "kind": "image",
+      "src": "assets/living-marks/study-48dd95dc8b.webp",
+      "label": "Living mark study 84",
+      "description": "Curator-supplied still study 84 in the living-mark family.",
+      "background": "light",
+      "source_file": "ZEnOi.jpg",
+      "source_sha256": "48dd95dc8b3fe55f3244dffe74f33839618703fac8bad353dca720e3cb8fb830"
     }
   ]
 }

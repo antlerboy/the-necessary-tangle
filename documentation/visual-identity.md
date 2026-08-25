@@ -15,21 +15,21 @@ A single polished badge would misdescribe the project. The atlas is held togethe
 
 ## Interaction contract
 
-- One of ten marks is selected on each page load.
+- One of 84 marks is selected on each page load: 40 still studies and 44 moving studies.
 - The immediately preceding mark is excluded when another option is available. This reduces accidental repetition without creating a deterministic sequence.
 - Only the chosen image or video is requested by the main page.
 - The fixed inline tangle SVG remains in the HTML as the no-script and failed-request fallback.
-- Moving marks are five-second, silent, muted, looping and inline.
+- Moving marks are five- to six-second, silent, muted, looping and inline.
 - A corresponding still poster is used when the browser requests reduced motion or blocks autoplay.
 - The mark is decorative. The brand link retains the accessible label ‘The Necessary Tangle home’.
 
 ## Performance
 
-The five stills and five poster images are WebP. The five moving studies are 384 × 384 H.264 MP4 files with no audio and fast-start metadata. The whole family is under 1 MB, but the main page loads only its small manifest and one selected asset.
+The 40 stills and 44 poster images are 512 × 512 WebP files. The 44 moving studies are 384 × 384 H.264 MP4 files with no audio and fast-start metadata. The checked-in family is about 6.5 MB; the main page loads only its 43 KB manifest and one selected asset, whose largest current file is about 532 KB.
 
 ## Provenance and rights
 
-These are curator-supplied studies published from Benjamin's own source folder for this project. They are not presented as independent evidence or as a visual canon. The checked-in manifest records descriptive labels and file provenance. Any underlying generation-service terms continue to apply; the atlas's software and text licences do not silently relicense third-party material.
+These are curator-supplied studies published from Benjamin's own source folder for this project. They are not presented as independent evidence or as a visual canon. The checked-in manifest records descriptive labels and file provenance; `source-ledger.json` gives every one of the 84 source files an explicit disposition and checksum. Any underlying generation-service terms continue to apply; the atlas's software and text licences do not silently relicense third-party material.
 
 ## What remains fixed
 

@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.20.2-reader-hotfix — 25 August 2026
+
+- Stopped the topic-entry enhancement observer from reacting to class changes made by its own enhancement pass, removing the browser-locking render loop.
+- Added a regression guard for the observer contract and checked topic open, close, reopen and history behaviour.
+- Expanded the living-mark rotation from 10 to all 84 reviewed curator-supplied studies: 40 stills and 44 silent moving marks with reduced-motion posters.
+- Added an explicit 84-file source ledger, lightweight web encodings and fresh cache keys while retaining the one-selected-asset loading contract.
+
 ## 0.20-prior-maps-alpha — 25 August 2026
 
 - Published all 650 nodes and 1,320 source-reported major-influence links from the permissioned *Map of Systemic Evolution* comparator.
