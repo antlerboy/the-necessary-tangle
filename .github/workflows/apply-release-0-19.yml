@@ -1,0 +1,63 @@
+name: Apply release 0.19 living marks
+
+on:
+  pull_request:
+    types: [opened, reopened, synchronize]
+
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+
+concurrency:
+  group: apply-release-0-19
+  cancel-in-progress: false
+
+jobs:
+  apply:
+    if: github.event.pull_request.head.ref == 'agent/iteration-0.19-living-marks'
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Check out the publication branch
+        uses: actions/checkout@v7
+        with:
+          ref: agent/iteration-0.19-living-marks
+          fetch-depth: 0
+
+      - name: Download and unpack the verified release bundle
+        env:
+          RELEASE_BUNDLE_URL: "https://redquadrantltd-my.sharepoint.com/personal/benjamin_taylor_redquadrant_com1/_layouts/15/guestaccess.aspx?share=IQD9uB262cIsQr3gVORoCCxQAYx4dGZ%2DcLEHMFuOFmGKEbk&download=1"
+        run: |
+          curl --fail --location --retry 3 --output /tmp/iteration-0.19-release.tar.gz "$RELEASE_BUNDLE_URL"
+          echo "296205fba71fb0c621437d2fad27e34992d5064018f3edf1287717c3f7e07a08  /tmp/iteration-0.19-release.tar.gz" | sha256sum --check -
+          tar -xzf /tmp/iteration-0.19-release.tar.gz
+
+      - name: Build and validate the complete release
+        run: |
+          make build
+          make validate
+
+      - name: Commit the generated release
+        run: |
+          rm -f .github/workflows/apply-release-0-19.yml
+          git config user.name "Benjamin P Taylor"
+          git config user.email "ben.taylor@redquadrant.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No generated changes to commit"
+            exit 0
+          fi
+          git commit -m "Generate release 0.19 public artefact" -m "Build the living-mark interface, register the Complexity Podcast corpus, refresh public data and release documentation, and retain the historical validation chain."
+          git push origin HEAD:agent/iteration-0.19-living-marks
+
+      - name: Record successful generation
+        uses: actions/github-script@v8
+        with:
+          script: |
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: 'Release 0.19 was built through the complete historical chain, validated, generated and committed to `agent/iteration-0.19-living-marks`.'
+            });
