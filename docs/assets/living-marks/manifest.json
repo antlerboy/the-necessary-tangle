@@ -1,0 +1,93 @@
+{
+  "release": "0.19-living-marks-alpha",
+  "generated": "2026-08-25",
+  "selection": "one uniformly random mark on each fresh page load, avoiding only the immediately preceding mark in the same browser tab",
+  "provenance": "Curator-supplied studies from the SysCoCyBok/logoso source folder. Published here as a visual family rather than a single fixed badge.",
+  "marks": [
+    {
+      "id": "cat-in-feedback-loop",
+      "kind": "image",
+      "src": "assets/living-marks/cat-in-feedback-loop.webp",
+      "label": "Cat in a feedback loop",
+      "description": "A round cat surrounded by a black loop and pink directional arrows.",
+      "background": "light"
+    },
+    {
+      "id": "impossible-coupling",
+      "kind": "image",
+      "src": "assets/living-marks/impossible-coupling.webp",
+      "label": "Impossible coupling",
+      "description": "A grey interwoven impossible form made from four curved paths.",
+      "background": "light"
+    },
+    {
+      "id": "cat-on-spiral",
+      "kind": "image",
+      "src": "assets/living-marks/cat-on-spiral.webp",
+      "label": "Cat on a spiral",
+      "description": "A cat perched on a black spiral between pink waves and blue dots.",
+      "background": "light"
+    },
+    {
+      "id": "cats-as-network",
+      "kind": "image",
+      "src": "assets/living-marks/cats-as-network.webp",
+      "label": "Cats as a network",
+      "description": "Eight pink cats connected to a central black hub.",
+      "background": "light"
+    },
+    {
+      "id": "cat-across-boundary",
+      "kind": "image",
+      "src": "assets/living-marks/cat-across-boundary.webp",
+      "label": "Cat across a boundary",
+      "description": "A black loop and a cat sit on opposite sides of a pink wavy boundary.",
+      "background": "light"
+    },
+    {
+      "id": "impossible-tangle",
+      "kind": "video",
+      "src": "assets/living-marks/impossible-tangle.mp4",
+      "poster": "assets/living-marks/impossible-tangle-poster.webp",
+      "label": "Moving impossible tangle",
+      "description": "A silver impossible form slowly changes against a black field.",
+      "background": "dark"
+    },
+    {
+      "id": "cat-feedback-loop",
+      "kind": "video",
+      "src": "assets/living-marks/cat-feedback-loop.mp4",
+      "poster": "assets/living-marks/cat-feedback-loop-poster.webp",
+      "label": "Moving cat feedback loop",
+      "description": "A cat and a circular field of arrows move around one another.",
+      "background": "light"
+    },
+    {
+      "id": "cat-in-structural-coupling",
+      "kind": "video",
+      "src": "assets/living-marks/cat-in-structural-coupling.mp4",
+      "poster": "assets/living-marks/cat-in-structural-coupling-poster.webp",
+      "label": "Cat in structural coupling",
+      "description": "A cat is alternately held and released by a changing black loop.",
+      "background": "light"
+    },
+    {
+      "id": "circular-impossibility",
+      "kind": "video",
+      "src": "assets/living-marks/circular-impossibility.mp4",
+      "poster": "assets/living-marks/circular-impossibility-poster.webp",
+      "label": "Circular impossibility",
+      "description": "A dense circular field turns around a pink central wave.",
+      "background": "light"
+    },
+    {
+      "id": "cats-network",
+      "kind": "video",
+      "src": "assets/living-marks/cats-network.mp4",
+      "poster": "assets/living-marks/cats-network-poster.webp",
+      "label": "Moving cats network",
+      "description": "Pink cats orbit and reconnect around a black network hub.",
+      "background": "light"
+    }
+  ]
+}

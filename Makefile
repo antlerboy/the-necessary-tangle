@@ -24,6 +24,7 @@ build:
 	python3 scripts/patch_iteration_13.py
 	python3 scripts/patch_iteration_14.py
 	python3 scripts/patch_iteration_15.py
+	python3 scripts/prepare_map_hotfix_19.py
 	python3 scripts/patch_map_usability_hotfix.py
 	python3 scripts/apply_iteration_16.py
 	python3 scripts/apply_relational_depth_16.py
@@ -49,6 +50,14 @@ build:
 	python3 scripts/patch_validator_compat_18.py
 	python3 scripts/build_public_knowledge.py
 	python3 scripts/finalise_public_interface_18.py
+	python3 scripts/apply_iteration_19.py
+	python3 scripts/stamp_current_projections_19.py
+	python3 scripts/refresh_relational_document_19.py
+	python3 scripts/build_public_knowledge.py
+	python3 scripts/refresh_graph_snapshot.py
+	python3 scripts/patch_validator_compat_19.py
+	python3 scripts/patch_iteration_19.py
+	python3 scripts/repair_map_links_19.py
 
 validate:
 	python3 scripts/validate_work_spine.py
@@ -70,6 +79,8 @@ validate:
 	python3 scripts/validate_doncaster_lineage.py
 	python3 scripts/validate_iteration_17.py
 	python3 scripts/validate_iteration_18.py
+	python3 scripts/patch_iteration_19.py
+	python3 scripts/validate_iteration_19.py
 	./scripts/check_javascript.sh
 
 serve: build

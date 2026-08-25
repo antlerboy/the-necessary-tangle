@@ -1,0 +1,71 @@
+/* 0.19 living-mark identity */
+.site-header .brand-mark[data-living-mark] {
+  width: clamp(58px, 6vw, 82px);
+  height: clamp(58px, 6vw, 82px);
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  border: 1px solid color-mix(in srgb, var(--line) 82%, transparent);
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 0 8px 24px rgba(54, 36, 27, .11);
+  isolation: isolate;
+}
+
+.site-header .brand-mark[data-living-mark] svg {
+  width: 48px;
+  height: 48px;
+  padding: 0;
+}
+
+.site-header .brand-mark[data-living-mark] img,
+.site-header .brand-mark[data-living-mark] video {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  background: #fff;
+}
+
+.site-header .brand-mark[data-living-mark][data-mark-background='dark'] {
+  background: #050505;
+}
+
+.site-header .brand-mark[data-living-mark][data-mark-background='dark'] video,
+.site-header .brand-mark[data-living-mark][data-mark-background='dark'] img {
+  background: #050505;
+}
+
+.living-mark-note {
+  position: relative;
+  overflow: hidden;
+}
+
+.living-mark-note::after {
+  content: '↻';
+  position: absolute;
+  right: 1.1rem;
+  top: .45rem;
+  color: color-mix(in srgb, var(--accent) 18%, transparent);
+  font: 700 clamp(3.2rem, 8vw, 7rem)/1 Arial, sans-serif;
+  pointer-events: none;
+}
+
+.living-mark-note > * {
+  position: relative;
+  z-index: 1;
+}
+
+@media (max-width: 760px) {
+  .site-header .brand-mark[data-living-mark] {
+    width: 54px;
+    height: 54px;
+    border-radius: 15px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .site-header .brand-mark[data-living-mark] video {
+    display: none;
+  }
+}

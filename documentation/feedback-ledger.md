@@ -28,3 +28,15 @@
 - Hidden-conversation prose: isolated Damian references expanded to Damian Allen and a standalone-language validator added.
 - AI observations: regenerated for the current graph, aliases, coverage and interface.
 - Long corpus programmes: not falsely closed; their measured work remains in the coverage programme.
+
+
+## Release 0.19 — living marks and Complexity Podcast corpus intake
+
+- Fixed badge: replaced on the main public site by a random still or short moving mark selected from the curator's `SysCoCyBok/logoso` family.
+- Stability: the wordmark, navigation, favicon, cream/red palette and bottom-right update dot remain fixed.
+- Motion and access: videos are silent, inline and lightweight; reduced-motion readers receive the corresponding still poster.
+- Failure mode: the 0.18 inline tangle SVG remains as a no-script and failed-request fallback.
+- Visual rationale: documented as a family of cats-as-scientists, structural coupling, impossible forms and perceptual shifts rather than a single corporate emblem.
+- Complexity Podcast: the official SFI archive, Simplecast transcripts and RSS feed are registered as a 119-item bounded corpus.
+- Corpus limits: transcript and show-note source roles are explicit; no guest appearance or co-occurrence is treated as proof of truth, priority or influence.
+

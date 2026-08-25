@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.19-living-marks-alpha — 25 August 2026
+
+- Replaced the fixed header emblem with a random family of five still and five short moving marks while retaining the stable wordmark and navigation.
+- Added silent autoplay, poster fallbacks, reduced-motion behaviour and a checked-in living-mark manifest.
+- Registered the complete Santa Fe Institute *COMPLEXITY* podcast, RSS inventory and transcript archive as a bounded source corpus.
+- Added a developed podcast entry, source-role account and public corpus page without manufacturing generic episode relations.
+- Preserved the cream/red identity, stable favicon and bottom-right update-thread dot.
+
 ## 0.18-navigable-tangle-alpha — 23 August 2026
 
 - Replaced narrow entry drawers with a full-screen reading surface and hoisted connections near definitions.

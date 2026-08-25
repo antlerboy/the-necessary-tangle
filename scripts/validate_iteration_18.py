@@ -17,6 +17,8 @@ from apply_relational_depth_16 import calculate_relational_depth
 ROOT = Path(__file__).resolve().parents[1]
 DATA_PATH = ROOT / "data" / "public-data.json"
 VERSION = "0.18.0-public"
+RELEASE_19 = "0.19-living-marks-alpha"
+GENERATED_19 = "2026-08-25"
 
 REQUIRED_SOURCES = {
     "src_linda_booth_sweeney_profile_2026",
@@ -135,10 +137,10 @@ def main() -> int:
     edges = {edge.get("id"): edge for edge in data.get("edges", []) if edge.get("id")}
     profiles = {profile.get("node_id"): profile for profile in data.get("profiles", []) if profile.get("node_id")}
 
-    if meta.get("release") != RELEASE:
-        errors.append(f"meta.release must be {RELEASE}")
-    if meta.get("generated") != GENERATED:
-        errors.append(f"meta.generated must be {GENERATED}")
+    if meta.get("release") not in {RELEASE, RELEASE_19}:
+        errors.append(f"meta.release must be {RELEASE} or {RELEASE_19}")
+    if meta.get("generated") not in {GENERATED, GENERATED_19}:
+        errors.append(f"meta.generated must be {GENERATED} or {GENERATED_19}")
     if meta.get("map_interaction_contract") != "navigable-map-v2":
         errors.append("map interaction contract is missing")
     if meta.get("unfix_coverage_count") != 32:
@@ -294,7 +296,7 @@ def main() -> int:
         "documentation/DESIGN_AND_CONTENT_RULES.md": ["Navigational link contract", "Public prose must stand alone"],
         "documentation/feedback-ledger.md": ["Release 0.18 — navigability, standalone prose and named coverage"],
         "documentation/TANGLE_STATE.md": [RELEASE, "unFIX comparator concepts resolved"],
-        "documentation/NEXT_WORK.md": ["release 0.18 is complete", "No production change is authorised"],
+        "documentation/NEXT_WORK.md": ["release 0.19 is complete", "No production change is authorised"],
     }
     for path, markers in required_docs.items():
         target = ROOT / path
@@ -309,11 +311,11 @@ def main() -> int:
     citation = read("CITATION.cff")
     changelog = read("CHANGELOG.md")
     readme = read("README.md")
-    if f"version: {RELEASE}" not in citation or f"date-released: {GENERATED}" not in citation:
+    if f"version: {meta.get('release')}" not in citation or f"date-released: {meta.get('generated')}" not in citation:
         errors.append("citation metadata does not identify release 0.18")
     if f"## {RELEASE} — 23 August 2026" not in changelog:
         errors.append("0.18 changelog entry is missing")
-    if "## Release 0.18" not in readme or "coverage/named/" not in readme or "coverage/unfix-32/" not in readme:
+    if ("## Release 0.18" not in readme and "## Release 0.19" not in readme) or "coverage/named/" not in readme or "coverage/unfix-32/" not in readme:
         errors.append("README does not identify the 0.18 release and coverage routes")
 
     if errors:
