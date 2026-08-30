@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#9f161b">
+  <title>Little RedQuadrant rules · The Necessary Tangle</title>
+  <meta name="description" content="The 256 little RedQuadrant rules for changing things that contain people.">
+  <style>
+    :root { color-scheme: light dark; font-family: Georgia, 'Times New Roman', serif; line-height: 1.52; }
+    body { margin: 0; background: #f3eadb; color: #241f1a; }
+    main { width: min(920px, calc(100% - 2rem)); margin: 0 auto; padding: 2.5rem 0 5rem; }
+    a { color: #83151a; text-underline-offset: .16em; }
+    .back { font-family: system-ui, sans-serif; font-size: .9rem; }
+    h1 { font-size: clamp(2rem, 6vw, 4.4rem); line-height: .98; margin: 2.2rem 0 .8rem; max-width: 12ch; }
+    .lede { max-width: 65ch; font-size: 1.08rem; }
+    .controls { display: flex; flex-wrap: wrap; gap: .7rem; align-items: center; margin: 1.4rem 0 2rem; font-family: system-ui, sans-serif; }
+    button { font: inherit; border: 1px solid currentColor; border-radius: .3rem; padding: .55rem .75rem; background: transparent; color: inherit; cursor: pointer; }
+    .random { background: #9f161b; color: #fff8ec; border-color: #9f161b; }
+    .featured { margin: 1rem 0 2rem; padding: 1rem 1.15rem; border-left: .35rem solid #9f161b; background: rgba(255,255,255,.38); font-size: 1.2rem; }
+    ol { padding-left: 2.3rem; }
+    li { padding: .32rem .2rem .58rem .25rem; }
+    li::marker { font-family: system-ui, sans-serif; font-size: .82rem; font-weight: 650; }
+    .status { font-family: system-ui, sans-serif; font-size: .85rem; opacity: .72; }
+    @media (prefers-color-scheme: dark) { body { background: #1c1916; color: #f2eadf; } a { color: #ef9a9e; } .featured { background: rgba(255,255,255,.05); } .random { background: #bd3237; border-color: #bd3237; color: white; } }
+  </style>
+</head>
+<body>
+<main>
+  <a class="back" href="/">← The Necessary Tangle</a>
+  <h1>The little RedQuadrant rules</h1>
+  <p class="lede">256 binary rules for changing things that contain people. One is chosen at random in The Necessary Tangle header. Click that rule there, or the button here, and the machine deals again.</p>
+  <div class="controls"><button type="button" id="another" class="random">Give me another rule</button><a href="https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5465271322">Original running-update note</a></div>
+  <blockquote id="featured" class="featured">Loading the rules…</blockquote>
+  <p id="status" class="status" aria-live="polite"></p>
+  <ol id="rules"></ol>
+</main>
+<script>
+(() => {
+  'use strict';
+  const api = 'https://api.github.com/repos/antlerboy/the-necessary-tangle/issues/comments/5465271322';
+  const cacheKey = 'necessary-tangle:little-rq-rules:v1';
+  const maxAge = 7 * 24 * 60 * 60 * 1000;
+  const rulesEl = document.getElementById('rules');
+  const featured = document.getElementById('featured');
+  const status = document.getElementById('status');
+  const another = document.getElementById('another');
+  let rules = [];
+  let current = null;
+
+  function parse(body) {
+    return [...String(body || '').matchAll(/^\s*(\d{1,3})\.\s*\t?(.+?)\s*$/gm)]
+      .map((m) => ({ number: Number(m[1]), text: m[2].trim() }))
+      .filter((r) => r.number >= 1 && r.number <= 256 && r.text);
+  }
+  function cached() {
+    try {
+      const value = JSON.parse(localStorage.getItem(cacheKey) || 'null');
+      return value && Array.isArray(value.rules) && value.rules.length === 256 && Date.now() - Number(value.savedAt || 0) <= maxAge ? value.rules : null;
+    } catch (_) { return null; }
+  }
+  function save(value) {
+    try { localStorage.setItem(cacheKey, JSON.stringify({ savedAt: Date.now(), rules: value })); } catch (_) {}
+  }
+  function randomRule() {
+    if (!rules.length) return;
+    const pool = rules.length > 1 ? rules.filter((r) => r.number !== current) : rules;
+    const rule = pool[Math.floor(Math.random() * pool.length)] || rules[0];
+    current = rule.number;
+    featured.textContent = `little RedQuadrant rule #${rule.number}: ${rule.text}`;
+  }
+  function render() {
+    rulesEl.innerHTML = rules.map((rule) => `<li id="rule-${rule.number}">${rule.text.replace(/[&<>]/g, (ch) => ({'&':'&amp;','<':'&lt;','>':'&gt;'}[ch]))}</li>`).join('');
+    status.textContent = `${rules.length} rules loaded from the public project record.`;
+    randomRule();
+  }
+  another.addEventListener('click', randomRule);
+
+  const local = cached();
+  if (local) { rules = local; render(); return; }
+  fetch(api, { headers: { Accept: 'application/vnd.github+json' }, cache: 'no-cache' })
+    .then((response) => { if (!response.ok) throw new Error(String(response.status)); return response.json(); })
+    .then((payload) => {
+      rules = parse(payload.body);
+      if (rules.length !== 256) throw new Error(`Expected 256 rules, found ${rules.length}`);
+      save(rules);
+      render();
+    })
+    .catch(() => {
+      featured.textContent = 'The rules could not be loaded from GitHub just now.';
+      status.innerHTML = 'Use the <a href="https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5465271322">original public note</a> instead.';
+      another.disabled = true;
+    });
+})();
+</script>
+</body>
+</html>
