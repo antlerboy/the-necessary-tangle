@@ -22,7 +22,10 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v7
 
-      - name: Verify the checked-in public artefact
+      - name: Apply current release state
+        run: python3 scripts/apply_release_205.py
+
+      - name: Verify the public artefact
         run: |
           python3 - <<'PY'
           import json
@@ -45,10 +48,8 @@ jobs:
               errors.append(f'browser data says {browser_release!r}, canonical data says {release!r}')
           if citation_release != release:
               errors.append(f'CITATION.cff says {citation_release!r}, canonical data says {release!r}')
-          if release and release.startswith('0.17') and 'iteration-17.js' not in index:
-              errors.append('0.17 interface script is missing from docs/index.html')
           if 'Submissions' not in index or 'Surprise me' not in index:
-              errors.append('0.17 public navigation is missing from docs/index.html')
+              errors.append('public navigation is missing from docs/index.html')
 
           if errors:
               raise SystemExit('\n'.join(f'- {error}' for error in errors))
@@ -85,6 +86,12 @@ jobs:
 
       - name: Prepare 0.20.4 reader and SCiO links
         run: python3 scripts/prepare_reader_204_deployment.py
+
+      - name: Prepare 0.20.5 release and header
+        run: python3 scripts/prepare_reader_205_deployment.py
+
+      - name: Validate deployed release state
+        run: python3 scripts/validate_release_205.py
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v6
