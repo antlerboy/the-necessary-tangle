@@ -65,6 +65,7 @@ build:
 	python3 scripts/build_public_knowledge.py
 	python3 scripts/refresh_graph_snapshot.py
 	python3 scripts/patch_validator_compat_20.py
+	python3 scripts/prepare_reader_203_deployment.py
 
 validate:
 	python3 scripts/validate_work_spine.py
@@ -89,6 +90,7 @@ validate:
 	python3 scripts/patch_iteration_19.py
 	python3 scripts/validate_iteration_19.py
 	python3 scripts/validate_prior_maps_20.py
+	python3 scripts/prepare_reader_203_deployment.py
 	./scripts/check_javascript.sh
 
 serve: build

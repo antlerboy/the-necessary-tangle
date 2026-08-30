@@ -80,6 +80,9 @@ jobs:
           print(json.dumps(manifest, indent=2))
           PY
 
+      - name: Prepare standalone reader HTML
+        run: python3 scripts/prepare_reader_203_deployment.py
+
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v6
         with:
