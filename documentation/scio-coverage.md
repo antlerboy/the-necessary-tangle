@@ -6,10 +6,51 @@ SCiO is represented as a professional body, source corpus, practitioner network 
 
 Checked 30 August 2026.
 
-- The live SCiO resource library at https://www.systemspractice.org/resources reported 572 resources. Its own catalogue exposes resource type, language, category, author, organiser and attachment filters. The atlas treats this as a bounded professional-practice corpus and preserves those distinctions rather than flattening everything into one undifferentiated source list.
-- The current public Competency Framework resource guide used by the reader is *SCiO CF Resources v10 Jan2025*: https://www.systemspractice.org/sites/default/files/2025-01/SCiO%20CF%20Resources%20-%20colour%20Jan2025.pdf. This supersedes the old v9-draft/no-public-link citation in the live reader.
-- SCiO's public SysBoK page is https://www.systemspractice.org/sysbok-from-scio and the linked Kumu model is https://kumu.io/koryckaa/scio-sysbok-v1#map. SCiO describes SysBoK as incomplete and work in progress, designed particularly to show `Precedents` and `Dependent Derivatives`. It is therefore an attributed comparator/source-discovery graph, not a canonical authority imported wholesale into The Necessary Tangle.
-- SCiO's resource reuse labels matter. `Use with Accreditation`, `Contact the Author` and `Confidential – Members Only` are different publication conditions and must remain different during ingestion.
+### Competency Framework resources
+
+SCiO's current Professional Accreditation page links `CF Resources` directly to this public Dropbox copy:
+
+https://www.dropbox.com/scl/fi/v5vl9o1e9gtwxbqiyb2no/SCiO-CF-Resources.pdf?dl=0&rlkey=a9d5ckhbsdjld7ab3sp60jaj9
+
+The older official SCiO-hosted public PDF also resolves and is retained as a second route:
+
+https://www.systemspractice.org/system/files/2024-05/CF%20resources%20colour.pdf
+
+The atlas therefore uses the Dropbox document as the current SCiO-linked route and keeps the SCiO-hosted PDF as a public fallback. The previously guessed January 2025 site-file URL is no longer treated as canonical.
+
+### SCiO resource catalogue
+
+The live resource catalogue is:
+
+https://www.systemspractice.org/resources
+
+The public index currently contains roughly 570 resources and exposes its own filters and categories, including title, resource type, language, category, author, organiser, attachments and ordering. Two useful SCiO-native routes are:
+
+- Books, articles and newsletters: https://www.systemspractice.org/resources/books-articles-newsletters
+- Speakers, videos, slide decks and podcasts: https://www.systemspractice.org/resources/speakers-videos-slidedecks-podcasts
+
+The atlas treats the catalogue as a bounded professional-practice corpus and preserves those distinctions rather than flattening everything into one undifferentiated source list.
+
+SCiO's resource reuse labels also remain material distinctions: `Use with Accreditation`, `Contact the Author` and `Confidential – Members Only` are not interchangeable publication permissions.
+
+### SysBoK and Kumu
+
+SCiO's project page is:
+
+https://www.systemspractice.org/sysbok-from-scio
+
+The live Kumu project it links to is:
+
+https://kumu.io/koryckaa/scio-sysbok-v1
+
+SCiO describes SysBoK as a connected Systems Thinking concepts model created by a group of SCiO members during Development Events. It explicitly says the model is incomplete and work in progress. Its distinctive relationship language includes `Precedents` and `Dependent Derivatives`, and the model includes examples and references.
+
+The atlas therefore keeps two separate source roles:
+
+- the SCiO page establishes SCiO's description, attribution, status and intended semantics;
+- the Kumu project is the live graph to inspect and compare.
+
+Existing atlas nodes, profiles and connections which already cite a SCiO SysBoK source are given both of these current links in the public reader. SysBoK-derived material must retain SCiO attribution and the original relation wording until it has been independently reconciled.
 
 ## Thirteen approach families in the current competency-derived inventory
 
@@ -29,7 +70,7 @@ Checked 30 August 2026.
 | System Dynamics | described | 0 |
 | Viable System Model (VSM) | profile | 3 |
 
-These counts are the current canonical atlas counts, not the size of SCiO's live resource library. The live library is now registered as a corpus for systematic item-level ingestion.
+These counts are the current canonical atlas counts, not the size of SCiO's live resource library.
 
 ## Intervention skills
 
@@ -41,15 +82,14 @@ The developed layer includes Patrick Hoverstadt, Lucy Loh, Michael C. Jackson, T
 
 ## Publication rule for the SCiO corpora
 
-SCiO catalogue membership, competency inclusion and SysBoK placement are documentary evidence about SCiO's professional-practice landscape. They do not, by themselves, establish intellectual influence, priority, conceptual dependence, empirical effectiveness or field-wide consensus. Item-level claims need item-level sources. Imported SysBoK links must retain SCiO/Kumu attribution and their original relationship semantics until independently checked.
+SCiO catalogue membership, competency inclusion and SysBoK placement are documentary evidence about SCiO's professional-practice landscape. They do not, by themselves, establish intellectual influence, priority, conceptual dependence, empirical effectiveness or field-wide consensus. Item-level claims need item-level sources.
 
 ## What remains
 
-- Reproducibly ingest the 572 live resource records with their SCiO categories, resource types, authorship, dates, links and reuse conditions.
-- Reconcile those resource records against existing sources and entries without manufacturing duplicate people, works or methods.
-- Export and reconcile the live SysBoK node-and-link structure, preserving `Precedents` and `Dependent Derivatives`, source attribution and the model's work-in-progress status.
+- Reproducibly reconcile the live SCiO resource records with existing people, works, methods and sources while preserving the site's categories and reuse conditions.
+- Export and reconcile the live SysBoK node-and-link structure, preserving `Precedents` and `Dependent Derivatives`, source attribution and work-in-progress status.
 - Audit live courses and trainer lineages against the graph.
-- Replace competency-resource citations with method-level primary and critical sources where those stronger sources exist.
+- Replace competency-resource citations with method-level primary and critical sources where stronger sources exist.
 - Develop thin approach and intervention-skill entries through documented practice.
 - Map the human and institutional history of professional capability frameworks.
 - Distinguish current professional curricula from the wider systems | cybernetics | complexity field.
