@@ -24,17 +24,6 @@ window.TANGLE_CONFIG = {
 
   let resolvedData;
 
-  function parseList(value) {
-    if (Array.isArray(value)) return value;
-    if (!value) return [];
-    try {
-      const parsed = JSON.parse(value);
-      return Array.isArray(parsed) ? parsed : [];
-    } catch (_) {
-      return [];
-    }
-  }
-
   function addSource(data, source) {
     const sources = data.sources || (data.sources = []);
     if (!sources.some((item) => item.id === source.id)) sources.push(source);
@@ -185,4 +174,37 @@ window.TANGLE_CONFIG = {
   } catch (_) {
     /* The ordinary public-data.js assignment remains the safe fallback. */
   }
+})();
+
+/* Keep public-facing copy self-contained rather than speaking from an update thread. */
+(() => {
+  'use strict';
+  const replacements = new Map([
+    [
+      'This release also develops Peter Checkland, Werner Ulrich, Ray Ison, Ed Straw, Raul Espejo, Alfonso Reyes, Donella Meadows, Diana Wright and Barry Oshry through public primary or official sources, distinct method entries and typed practice relations.',
+      'Developed coverage includes Peter Checkland, Werner Ulrich, Ray Ison, Ed Straw, Raul Espejo, Alfonso Reyes, Donella Meadows, Diana Wright and Barry Oshry through public primary or official sources, distinct method entries and typed practice relations.'
+    ],
+    [
+      'The requested people and institutions are now resolved through canonical names and search aliases, with their actual source and connection depth exposed. The 32 concepts in the unFIX synthesis each resolve to an atlas entry without treating that AI-assisted list as a settled canon.',
+      'Named people and institutions in the post-0.17 coverage pass resolve through canonical names and search aliases, with their actual source and connection depth exposed. The 32 concepts in the unFIX synthesis each resolve to an atlas entry without treating that AI-assisted list as a settled canon.'
+    ],
+    [
+      'A field needs distinctions and boundaries. It does not need to pretend those boundaries arrived from nowhere. This release distinguishes coherence from impermeability and demographic inclusion from the harder work of changing who can affect categories, evidence and intellectual lineage.',
+      'A field needs distinctions and boundaries. It does not need to pretend those boundaries arrived from nowhere. The editorial model distinguishes coherence from impermeability and demographic inclusion from the harder work of changing who can affect categories, evidence and intellectual lineage.'
+    ],
+    [
+      "The atlas now separates the people, papers, framework, tools, organisation and public source corpora around Cynefin. Dave Snowden's author archive is a primary record of his dated public arguments. Cynefin.io is the project's current collaborative semantic network. Neither source is treated as independent proof of influence, priority or effectiveness.",
+      "The atlas separates the people, papers, framework, tools, organisation and public source corpora around Cynefin. Dave Snowden's author archive is a primary record of his dated public arguments. Cynefin.io is the project's current collaborative semantic network. Neither source is treated as independent proof of influence, priority or effectiveness."
+    ]
+  ]);
+
+  function cleanCopy() {
+    document.querySelectorAll('p').forEach((paragraph) => {
+      const replacement = replacements.get(paragraph.textContent.trim());
+      if (replacement) paragraph.textContent = replacement;
+    });
+  }
+
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', cleanCopy);
+  else cleanCopy();
 })();
