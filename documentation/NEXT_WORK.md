@@ -1,15 +1,16 @@
 # Next work
 
-Status: release 0.20 is complete. Release 0.20.2 is the bounded reader hotfix;
-human review governs publication. No further production change is authorised
-without a bounded ticket.
+Status: release 0.21 is complete. Human review governs publication.
+No further production change is authorised without a bounded ticket.
 
 ## Outcome delivered
 
-The first prior-map publication pass is live: every available link in the three
-implemented comparator views is preserved under an explicit source meaning and
-accuracy status, and no imported line is silently promoted into the canonical
-atlas.
+The source-owner-reviewed Systemic Evolution iteration is live: its exact
+approved reader and dataset are published with checksums, full attribution,
+focused and complete layouts, and a text alternative. Every available link in
+the three implemented comparator views remains under an explicit source meaning
+and accuracy status, and no imported line is silently promoted into the
+canonical atlas.
 
 ## Outcome
 
@@ -48,7 +49,13 @@ keeping imported source claims separate from canonical Tangle relations.
 - all 1,856 counted-map aggregate signals retained without private corpus data,
   EIDs or raw cited-reference strings;
 - dedicated map, contribution and policy pages published;
-- provenance and permission recorded for Benjamin Hadorn and Nigel Williams.
+- provenance and permission recorded for Benjamin Hadorn and Nigel Williams;
+- Benjamin Hadorn's 26 August scope grant and 31 August package approval are
+  recorded separately without treating a copied recipient's silence as approval;
+- the exact reviewed Systemic Evolution package is published with its archive
+  checksum, immutable review manifest, and separate approval record;
+- focused one- and two-step neighbourhoods, the complete source layout, realm
+  and mapping filters, keyboard controls, and a text alternative are available;
 - the Surprise-me asset has a release-specific cache key and legacy
   `from=surprise` links are normalised before routing;
 - AI observations include the comparator semantics, reconciliation,

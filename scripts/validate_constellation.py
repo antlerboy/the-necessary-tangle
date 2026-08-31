@@ -9,7 +9,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data" / "public-data.json"
-ALLOWED_RELEASES = {"0.7-constellation-alpha", "0.8-expansion-alpha", "0.9-observations-alpha", "0.10-practice-safety-alpha", "0.11-visual-map-alpha", "0.12-practitioner-intake-alpha", "0.13-expertise-observations-alpha", "0.14-snowden-cynefin-alpha", "0.15-ing-reading-practice-alpha", "0.16-grammar-connections-presentation-alpha", "0.17-public-intake-lineage-alpha", "0.18-navigable-tangle-alpha", "0.19-living-marks-alpha", "0.20-prior-maps-alpha"}
+ALLOWED_RELEASES = {"0.7-constellation-alpha", "0.8-expansion-alpha", "0.9-observations-alpha", "0.10-practice-safety-alpha", "0.11-visual-map-alpha", "0.12-practitioner-intake-alpha", "0.13-expertise-observations-alpha", "0.14-snowden-cynefin-alpha", "0.15-ing-reading-practice-alpha", "0.16-grammar-connections-presentation-alpha", "0.17-public-intake-lineage-alpha", "0.18-navigable-tangle-alpha", "0.19-living-marks-alpha", "0.20-prior-maps-alpha", "0.21"}
 PRINCIPIA_IDS = {
     "person_cliff_joslyn", "tradition_evolutionary_cybernetics", "person_francis_heylighen",
     "concept_global_brain", "concept_metasystem_transition", "organisation_principia_cybernetica_project",
@@ -177,7 +177,7 @@ def main() -> int:
         "0.11-visual-map-alpha", "0.12-practitioner-intake-alpha", "0.13-expertise-observations-alpha",
         "0.14-snowden-cynefin-alpha", "0.15-ing-reading-practice-alpha",
         "0.16-grammar-connections-presentation-alpha", "0.17-public-intake-lineage-alpha",
-        "0.18-navigable-tangle-alpha", "0.19-living-marks-alpha", "0.20-prior-maps-alpha",
+        "0.18-navigable-tangle-alpha", "0.19-living-marks-alpha", "0.20-prior-maps-alpha", "0.21",
     }
     map_marker = "semanticZoomBand" if meta.get("release") in semantic_zoom_releases else "zoomMapAt"
     for marker in [map_marker, "emergentCategories", "membershipForm", "human sponsor"]:

@@ -23,7 +23,10 @@ jobs:
         uses: actions/checkout@v7
 
       - name: Apply current release state
-        run: python3 scripts/apply_release_205.py
+        run: |
+          python3 scripts/apply_release_205.py
+          python3 scripts/apply_release_21.py
+          python3 scripts/build_public_knowledge.py
 
       - name: Verify the public artefact
         run: |
@@ -90,8 +93,11 @@ jobs:
       - name: Prepare 0.20.5 release and header
         run: python3 scripts/prepare_reader_205_deployment.py
 
+      - name: Prepare reviewed Systemic Evolution release
+        run: python3 scripts/prepare_reader_21_deployment.py
+
       - name: Validate deployed release state
-        run: python3 scripts/validate_release_205.py
+        run: python3 scripts/validate_release_21.py
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v6

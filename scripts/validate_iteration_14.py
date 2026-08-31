@@ -15,7 +15,7 @@ DATA_PATH = ROOT / "data" / "public-data.json"
 DOCS = ROOT / "docs"
 RELEASE = "0.14-snowden-cynefin-alpha"
 GENERATED = "2026-08-11"
-FORWARD_RELEASES = {"0.15-ing-reading-practice-alpha", "0.16-grammar-connections-presentation-alpha", "0.17-public-intake-lineage-alpha", "0.18-navigable-tangle-alpha", "0.19-living-marks-alpha", "0.20-prior-maps-alpha"}
+FORWARD_RELEASES = {"0.15-ing-reading-practice-alpha", "0.16-grammar-connections-presentation-alpha", "0.17-public-intake-lineage-alpha", "0.18-navigable-tangle-alpha", "0.19-living-marks-alpha", "0.20-prior-maps-alpha", "0.21"}
 FORWARD_GENERATED = "2026-08-14"
 UPDATE_URL = "https://github.com/antlerboy/the-necessary-tangle/" + "issues/" + "2"
 
@@ -109,7 +109,7 @@ def main() -> int:
 
     if meta.get("release") not in {RELEASE, *FORWARD_RELEASES}:
         errors.append(f"meta.release must be {RELEASE} or a recognised forward release")
-    expected_generated = "2026-08-25" if meta.get("release") in {"0.19-living-marks-alpha", "0.20-prior-maps-alpha"} else ("2026-08-23" if meta.get("release") == "0.18-navigable-tangle-alpha" else ("2026-08-19" if meta.get("release") == "0.17-public-intake-lineage-alpha" else (GENERATED if meta.get("release") == RELEASE else FORWARD_GENERATED)))
+    expected_generated = "2026-08-31" if meta.get("release") == "0.21" else ("2026-08-25" if meta.get("release") in {"0.19-living-marks-alpha", "0.20-prior-maps-alpha"} else ("2026-08-23" if meta.get("release") == "0.18-navigable-tangle-alpha" else ("2026-08-19" if meta.get("release") == "0.17-public-intake-lineage-alpha" else (GENERATED if meta.get("release") == RELEASE else FORWARD_GENERATED))))
     if meta.get("generated") != expected_generated:
         errors.append(f"meta.generated must be {expected_generated}")
     for label, actual, minimum in [

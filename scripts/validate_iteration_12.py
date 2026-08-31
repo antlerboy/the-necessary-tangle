@@ -10,7 +10,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 DATA_PATH = ROOT / "data" / "public-data.json"
 DOCS = ROOT / "docs"
-ALLOWED_RELEASES = {"0.12-practitioner-intake-alpha", "0.13-expertise-observations-alpha", "0.14-snowden-cynefin-alpha", "0.15-ing-reading-practice-alpha", "0.16-grammar-connections-presentation-alpha", "0.17-public-intake-lineage-alpha", "0.18-navigable-tangle-alpha", "0.19-living-marks-alpha", "0.20-prior-maps-alpha"}
+ALLOWED_RELEASES = {"0.12-practitioner-intake-alpha", "0.13-expertise-observations-alpha", "0.14-snowden-cynefin-alpha", "0.15-ing-reading-practice-alpha", "0.16-grammar-connections-presentation-alpha", "0.17-public-intake-lineage-alpha", "0.18-navigable-tangle-alpha", "0.19-living-marks-alpha", "0.20-prior-maps-alpha", "0.21"}
 READING_LIST = "https://stream.syscoi.com/2024/10/01/updated-rough-draft-systems-complexity-cybernetics-reading-list/"
 
 REQUIRED_PUBLIC_IDS = {
@@ -141,7 +141,7 @@ def main() -> int:
     if sources.get("src_taylor_reading_list_current", {}).get("url") != READING_LIST:
         errors.append("reading-list source URL is stale")
     allowed_reading_status = {"headline_recommendations_developed_full_audit_open"}
-    if release in {"0.15-ing-reading-practice-alpha", "0.16-grammar-connections-presentation-alpha", "0.17-public-intake-lineage-alpha", "0.18-navigable-tangle-alpha", "0.19-living-marks-alpha", "0.20-prior-maps-alpha"}:
+    if release in {"0.15-ing-reading-practice-alpha", "0.16-grammar-connections-presentation-alpha", "0.17-public-intake-lineage-alpha", "0.18-navigable-tangle-alpha", "0.19-living-marks-alpha", "0.20-prior-maps-alpha", "0.21"}:
         allowed_reading_status.add("item_level_inventory_with_developed_subset_full_critical_audit_open")
     if reading.get("status") not in allowed_reading_status:
         errors.append("reading-list coverage status is missing or overclaims completeness")

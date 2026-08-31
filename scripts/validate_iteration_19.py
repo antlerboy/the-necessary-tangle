@@ -10,6 +10,8 @@ from apply_iteration_19 import EPISODE_COUNT, GENERATED, MARK_COUNT, RELEASE
 
 SUCCESSOR_RELEASE = "0.20-prior-maps-alpha"
 SUCCESSOR_GENERATED = "2026-08-25"
+CURRENT_RELEASE = "0.21"
+CURRENT_GENERATED = "2026-08-31"
 HOTFIX_RELEASE = "0.20.2-reader-hotfix"
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -26,10 +28,10 @@ def main() -> int:
     errors: list[str] = []
     data = json.loads(DATA.read_text(encoding="utf-8"))
     meta = data.get("meta", {})
-    if meta.get("release") not in {RELEASE, SUCCESSOR_RELEASE}:
-        errors.append(f"meta.release must be {RELEASE} or {SUCCESSOR_RELEASE}")
-    if meta.get("generated") not in {GENERATED, SUCCESSOR_GENERATED}:
-        errors.append(f"meta.generated must be {GENERATED} or {SUCCESSOR_GENERATED}")
+    if meta.get("release") not in {RELEASE, SUCCESSOR_RELEASE, CURRENT_RELEASE}:
+        errors.append(f"meta.release must be {RELEASE}, {SUCCESSOR_RELEASE} or {CURRENT_RELEASE}")
+    if meta.get("generated") not in {GENERATED, SUCCESSOR_GENERATED, CURRENT_GENERATED}:
+        errors.append(f"meta.generated must be {GENERATED}, {SUCCESSOR_GENERATED} or {CURRENT_GENERATED}")
     if meta.get("living_mark_count") != MARK_COUNT:
         errors.append(f"living_mark_count must be {MARK_COUNT}")
     if meta.get("complexity_podcast_episode_count") != EPISODE_COUNT:
@@ -156,12 +158,12 @@ def main() -> int:
     required_docs = {
         "documentation/visual-identity.md": ["family, not a badge", "reduced motion", "magic dot"],
         "documentation/corpora/complexity-podcast.md": ["119", "full transcripts", "guest appearance"],
-        "documentation/TANGLE_STATE.md": [SUCCESSOR_RELEASE, "prior-map"],
-        "documentation/NEXT_WORK.md": ["release 0.20 is complete", "No further production change is authorised"],
+        "documentation/TANGLE_STATE.md": [CURRENT_RELEASE, "source-owner-reviewed"],
+        "documentation/NEXT_WORK.md": ["release 0.21 is complete", "No further production change is authorised"],
         "documentation/feedback-ledger.md": ["Release 0.19 — living marks and Complexity Podcast corpus intake"],
         "docs/corpora/complexity-podcast/index.html": ["The Complexity Podcast", "Source roles", "119"],
         "CITATION.cff": [f"version: {meta.get('release')}", f"date-released: {meta.get('generated')}"],
-        "README.md": ["Release 0.20", "/corpora/complexity-podcast/"],
+        "README.md": ["Release 0.21", "/corpora/complexity-podcast/"],
         "CHANGELOG.md": [RELEASE],
     }
     for path, markers in required_docs.items():

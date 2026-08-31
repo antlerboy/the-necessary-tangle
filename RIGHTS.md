@@ -29,7 +29,7 @@ External publications, quotations, images, names, marks, datasets and other work
 
 Do not assume that a source linked from the atlas is open for redistribution merely because the atlas itself is open.
 
-The *Map of Systemic Evolution* comparator is reproduced with Benjamin Hadorn's permission and retains the full Schwarz–Durant–IIGSS–Hadorn provenance; that permission does not relicense the underlying map. Brian Castellani's current web map remains under its source terms, while the earlier 2012 Wikimedia SVG is marked there as CC BY-SA 3.0. Nigel Williams's counted-map projection publishes aggregate facts and permitted DOI handles only; licensed Scopus records, EIDs and raw cited-reference strings are not republished.
+The *Map of Systemic Evolution* comparator is reproduced under project-specific permission from Benjamin Hadorn and retains the full Schwarz–Durant–IIGSS–Hadorn provenance. The required attribution includes Eric Schwarz, Benjamin Hadorn, and Beat Hirsbrunner. Hadorn granted the requested scope on 26 August 2026 and reviewed and approved the exact checksummed enhanced package on 31 August 2026. Every later graph-data modification must be returned for review before publication. This permission does not relicense the underlying map or represent it as generally CC BY-SA. Brian Castellani's current web map remains under its source terms, while the earlier 2012 Wikimedia SVG is marked there as CC BY-SA 3.0. Nigel Williams's counted-map projection publishes aggregate facts and permitted DOI handles only; licensed Scopus records, EIDs, and raw cited-reference strings are not republished.
 
 ## Contributions
 

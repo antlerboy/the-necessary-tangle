@@ -21,6 +21,8 @@ RELEASE_19 = "0.19-living-marks-alpha"
 GENERATED_19 = "2026-08-25"
 RELEASE_20 = "0.20-prior-maps-alpha"
 GENERATED_20 = "2026-08-25"
+RELEASE_21 = "0.21"
+GENERATED_21 = "2026-08-31"
 
 REQUIRED_SOURCES = {
     "src_linda_booth_sweeney_profile_2026",
@@ -139,10 +141,10 @@ def main() -> int:
     edges = {edge.get("id"): edge for edge in data.get("edges", []) if edge.get("id")}
     profiles = {profile.get("node_id"): profile for profile in data.get("profiles", []) if profile.get("node_id")}
 
-    if meta.get("release") not in {RELEASE, RELEASE_19, RELEASE_20}:
-        errors.append(f"meta.release must be {RELEASE}, {RELEASE_19} or {RELEASE_20}")
-    if meta.get("generated") not in {GENERATED, GENERATED_19, GENERATED_20}:
-        errors.append(f"meta.generated must be {GENERATED} or {GENERATED_19}")
+    if meta.get("release") not in {RELEASE, RELEASE_19, RELEASE_20, RELEASE_21}:
+        errors.append(f"meta.release must be {RELEASE}, {RELEASE_19}, {RELEASE_20} or {RELEASE_21}")
+    if meta.get("generated") not in {GENERATED, GENERATED_19, GENERATED_20, GENERATED_21}:
+        errors.append(f"meta.generated must be {GENERATED}, {GENERATED_19}, {GENERATED_20} or {GENERATED_21}")
     if meta.get("map_interaction_contract") != "navigable-map-v2":
         errors.append("map interaction contract is missing")
     if meta.get("unfix_coverage_count") != 32:
@@ -342,11 +344,11 @@ for (const [hash, expected] of cases) {
         "documentation/iteration-18-usability-and-coverage.md": ["navigable tangle", "Acceptance checks", "Deliberate limits"],
         "documentation/named-practitioner-coverage.md": ["Named practitioner and institution coverage", "Research queue"],
         "documentation/unfix-32-coverage.md": ["unFIX 32-concept coverage", "Comparator"],
-        "documentation/ai-observations.md": [RELEASE, "Navigation changes what appears important", "Links are commitments about possible movement"],
+        "documentation/ai-observations.md": ["Navigation changes what appears important", "Links are commitments about possible movement"],
         "documentation/DESIGN_AND_CONTENT_RULES.md": ["Navigational link contract", "Public prose must stand alone"],
         "documentation/feedback-ledger.md": ["Release 0.18 — navigability, standalone prose and named coverage"],
-        "documentation/TANGLE_STATE.md": [RELEASE_20, "prior-map"],
-        "documentation/NEXT_WORK.md": ["release 0.20 is complete", "No further production change is authorised"],
+        "documentation/TANGLE_STATE.md": [RELEASE_21, "source-owner-reviewed"],
+        "documentation/NEXT_WORK.md": ["release 0.21 is complete", "No further production change is authorised"],
     }
     for path, markers in required_docs.items():
         target = ROOT / path
@@ -365,7 +367,7 @@ for (const [hash, expected] of cases) {
         errors.append("citation metadata does not identify release 0.18")
     if f"## {RELEASE} — 23 August 2026" not in changelog:
         errors.append("0.18 changelog entry is missing")
-    if ("## Release 0.18" not in readme and "## Release 0.19" not in readme and "## Release 0.20" not in readme) or "coverage/named/" not in readme or "coverage/unfix-32/" not in readme:
+    if ("## Release 0.18" not in readme and "## Release 0.19" not in readme and "## Release 0.20" not in readme and "## Release 0.21" not in readme) or "coverage/named/" not in readme or "coverage/unfix-32/" not in readme:
         errors.append("README does not identify the 0.18 release and coverage routes")
 
     if errors:

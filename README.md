@@ -1,8 +1,8 @@
 # The Necessary Tangle
 
-## Release 0.20
+## Release 0.21
 
-Release 0.20 publishes a source-faithful prior-maps hub. It retains all 1,320 reported links in the permissioned *Map of Systemic Evolution*, all 307 clickable references in Brian Castellani's current map, and all 1,856 aggregate signals in Nigel Williams's counted-map experiment. Each layer states what its links can and cannot mean, and none is silently promoted into the canonical atlas.
+Release 0.21 publishes Benjamin Hadorn's source-owner-reviewed iteration of the *Map of Systemic Evolution*. It retains all 650 source nodes and 1,320 source-reported major-influence links, adds focused and complete layouts plus a text alternative, and identifies the exact approved package with immutable checksums. The scope grant, reviewed files, and publication decision remain separate records, and no comparator link is silently promoted into the canonical atlas.
 
 Public routes:
 
@@ -40,6 +40,8 @@ The site includes:
 - embedded explanations of coverage, method, rights and current limitations.
 
 ## Status
+
+Release 0.21 contains 635 canonical public entries, 128 developed profiles and 216 public source records. The canonical graph is unchanged by this release; the Systemic Evolution comparator now publishes the exact source-owner-reviewed reader and dataset under its attribution and future-review conditions.
 
 Release 0.20 contains 635 canonical public entries, 128 developed profiles and 216 public source records. Its comparator layers preserve 1,320 Systemic Evolution links, 307 Castellani references and 1,856 counted-map signals without treating import as verification.
 

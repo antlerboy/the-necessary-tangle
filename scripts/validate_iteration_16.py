@@ -56,9 +56,9 @@ def main() -> int:
     edges = data.get("edges", [])
     relation_types = {item.get("relation_type") for item in data.get("relation_types", [])}
 
-    if meta.get("release") not in {RELEASE, "0.17-public-intake-lineage-alpha", "0.18-navigable-tangle-alpha", "0.19-living-marks-alpha", "0.20-prior-maps-alpha"}:
+    if meta.get("release") not in {RELEASE, "0.17-public-intake-lineage-alpha", "0.18-navigable-tangle-alpha", "0.19-living-marks-alpha", "0.20-prior-maps-alpha", "0.21"}:
         errors.append(f"meta.release must preserve 0.16 or identify the 0.17 successor")
-    if meta.get("generated") not in {GENERATED, "2026-08-19", "2026-08-23", "2026-08-25"}:
+    if meta.get("generated") not in {GENERATED, "2026-08-19", "2026-08-23", "2026-08-25", "2026-08-31"}:
         errors.append("meta.generated must identify the 0.16 build or its 0.17 successor")
     if meta.get("project_url") != PUBLIC_URL:
         errors.append("custom public URL is not canonical in release metadata")

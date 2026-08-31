@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.21 — 31 August 2026
+
+- Published Benjamin Hadorn's source-owner-reviewed Systemic Evolution package, preserving all 650 source nodes and 1,320 source-reported major-influence links.
+- Added focused one- and two-step neighbourhoods, the complete source layout, realm and mapping filters, keyboard controls, and a text alternative.
+- Contained the dense text-view tables on small screens while retaining their own horizontal scroll and the byte-identical reviewed stylesheet.
+- Published the exact checksummed review package, immutable review manifest, and separate 31 August publication-approval record.
+- Corrected the earlier permission date: the requested scope was granted on 26 August; Hadorn approved the exact enhanced package on 31 August.
+- Retained full attribution to Eric Schwarz, Benjamin Hadorn, and Beat Hirsbrunner without representing the original map as generally CC BY-SA licensed or treating a copied recipient's silence as approval.
+- Kept every comparator link outside the canonical Tangle unless independently evidenced and reviewed.
+
 ## 0.20.2-reader-hotfix — 25 August 2026
 
 - Stopped the topic-entry enhancement observer from reacting to class changes made by its own enhancement pass, removing the browser-locking render loop.

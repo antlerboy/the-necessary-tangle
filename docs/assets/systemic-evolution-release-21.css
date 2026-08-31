@@ -1,0 +1,3 @@
+/* Publication QA fix; the source-owner-reviewed stylesheet remains byte-identical. */
+.pm-text-view-grid > * { min-width: 0; }
+@media (max-width: 620px) { .pm-shell { overflow-x: hidden; } }
