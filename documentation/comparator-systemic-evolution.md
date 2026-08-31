@@ -1,6 +1,6 @@
 # Map of Systemic Evolution comparator
 
-Release: `0.20-prior-maps-alpha`
+Release: `0.21`
 
 Public page: <https://transduction.systems/prior-maps/systemic-evolution/>
 
@@ -15,9 +15,20 @@ The source page is
   Studies;
 - extended in 2016 by Benjamin Hadorn.
 
-Benjamin Hadorn confirmed permission for appropriate use on 25 August 2026.
-The full provenance remains attached and the source owners' terms continue to
-apply.
+Benjamin Hadorn granted the requested project-specific use scope on 26 August
+2026, subject to full attribution and source-owner review of modified graph
+data before publication. He reviewed the exact enhanced package and approved
+its use on 31 August 2026. The full provenance remains attached and the source
+owners' terms continue to apply.
+
+The reviewed archive is
+`systemic-evolution-2026-08-26-review-1`, SHA-256
+`cc0aaa4adc58a91c56f04555d5cd6885d025cdf4d546e4da8e7a692ce55c3cf6`.
+The immutable review manifest records the package as awaiting review; a
+separate publication record records Hadorn's later approval without changing
+the reviewed files or checksums. Beat Hirsbrunner was copied on the review
+exchange and invited to raise any complaint. No separate reply from him is
+recorded, and the project does not represent silence as approval.
 
 The map was already published in Benjamin P Taylor's 2019 SysCoI collection of
 former systems maps and histories. Nigel Williams subsequently extracted and
@@ -81,10 +92,15 @@ Of the 1,320 source links:
 The full node-and-link ledger is
 `data/systemic-evolution-reconciliation.json`.
 
-## Reproduction
+## Reproduction and review
 
 `scripts/import_comparator_graphml.py` extracts the supplied yEd GraphML.
 `scripts/build_systemic_evolution_reconciliation.py` applies the reviewed
 mapping and reports any identity drift. `scripts/validate_prior_maps_20.py`
-protects the counts, source semantics, permission record and non-promotion
-boundary.
+protects the counts, source semantics and non-promotion boundary. Release 0.21
+then publishes the exact reviewed comparator and reconciliation files and
+checks their hashes in `scripts/validate_release_21.py`.
+
+Every later adapted, extended or modified graph or dataset must be returned for
+review and verification before publication. This project-specific permission
+does not generally relicense the original graph as CC BY-SA.

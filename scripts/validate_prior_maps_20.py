@@ -10,6 +10,8 @@ from urllib.parse import urlparse
 from apply_prior_maps_20 import GENERATED, READER_HOTFIX_VERSION, RELEASE
 
 ROOT = Path(__file__).resolve().parents[1]
+CURRENT_RELEASE = "0.21"
+CURRENT_GENERATED = "2026-08-31"
 
 
 def read(path: str) -> str:
@@ -41,8 +43,14 @@ def main() -> int:
     counted = load("data/counted-map-public.json")
 
     meta = atlas.get("meta", {})
-    if meta.get("release") != RELEASE or meta.get("generated") != GENERATED:
-        errors.append(f"canonical release metadata must be {RELEASE} / {GENERATED}")
+    if (meta.get("release"), meta.get("generated")) not in {
+        (RELEASE, GENERATED),
+        (CURRENT_RELEASE, CURRENT_GENERATED),
+    }:
+        errors.append(
+            f"canonical release metadata must be {RELEASE} / {GENERATED} "
+            f"or {CURRENT_RELEASE} / {CURRENT_GENERATED}"
+        )
     if meta.get("comparator_count") != 3:
         errors.append("meta.comparator_count must be 3")
 
@@ -181,12 +189,12 @@ def main() -> int:
         "docs/contributors/nigel-williams/index.html": ["Nigel Williams", "What has been incorporated", "not inaccurately"],
         "documentation/external-map-link-policy.md": ["Retain every available link", "never becomes a canonical atlas relation"],
         "documentation/comparator-systemic-evolution.md": ["major influences", "1,320", "zero canonical relations"],
-        "documentation/NEXT_WORK.md": ["release 0.20 is complete", "No further production change is authorised"],
-        "documentation/TANGLE_STATE.md": [RELEASE, "Canonical relations created merely from comparator imports: 0"],
-        "README.md": ["## Release 0.20", "/prior-maps/systemic-evolution/"],
+        "documentation/NEXT_WORK.md": ["release 0.21 is complete", "No further production change is authorised"],
+        "documentation/TANGLE_STATE.md": [CURRENT_RELEASE, "Canonical relations created merely from comparator imports: 0"],
+        "README.md": ["## Release 0.21", "/prior-maps/systemic-evolution/"],
         "CHANGELOG.md": [RELEASE],
-        "CITATION.cff": [f"version: {RELEASE}", f"date-released: {GENERATED}"],
-        "RIGHTS.md": ["Benjamin Hadorn's permission", "raw cited-reference strings"],
+        "CITATION.cff": [f"version: {meta.get('release')}", f"date-released: {meta.get('generated')}"],
+        "RIGHTS.md": ["project-specific permission from Benjamin Hadorn", "raw cited-reference strings"],
         "ACKNOWLEDGEMENTS.md": ["Nigel Williams", "Eric Schwarz (1996)", "IIGSS (2000–01)", "Benjamin Hadorn (2016)"],
         "documentation/ai-observations.md": [
             "A line on one map is not the same claim as a line on another",
@@ -215,7 +223,7 @@ def main() -> int:
     index = read("docs/index.html")
     if f"assets/iteration-18.js?v={READER_HOTFIX_VERSION}" not in index:
         errors.append("the Surprise-me script does not have the 0.20 hotfix cache key")
-    if "Updated for 0.20:" not in index or "Updated for 0.18:" in index:
+    if not any(marker in index for marker in ("Updated for 0.20:", "Updated for 0.20.5:", "Updated for 0.21:")) or "Updated for 0.18:" in index:
         errors.append("the public AI-observations notice is stale")
     surprise_js = read("docs/assets/iteration-18.js")
     if "normaliseLegacySurpriseRoute" not in surprise_js or "params.set('from', 'home')" not in surprise_js:

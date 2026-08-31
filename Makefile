@@ -69,6 +69,9 @@ build:
 	python3 scripts/prepare_reader_203_deployment.py
 	python3 scripts/prepare_reader_204_deployment.py
 	python3 scripts/prepare_reader_205_deployment.py
+	python3 scripts/apply_release_21.py
+	python3 scripts/build_public_knowledge.py
+	python3 scripts/prepare_reader_21_deployment.py
 
 validate:
 	python3 scripts/validate_work_spine.py
@@ -98,6 +101,10 @@ validate:
 	python3 scripts/prepare_reader_204_deployment.py
 	python3 scripts/prepare_reader_205_deployment.py
 	python3 scripts/validate_release_205.py
+	python3 scripts/apply_release_21.py
+	python3 scripts/build_public_knowledge.py
+	python3 scripts/prepare_reader_21_deployment.py
+	python3 scripts/validate_release_21.py
 	./scripts/check_javascript.sh
 
 serve: build

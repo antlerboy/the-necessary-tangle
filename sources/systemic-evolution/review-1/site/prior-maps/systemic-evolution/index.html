@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="light dark"><meta name="theme-color" content="#9f161b">
+  <title>Map of Systemic Evolution — The Necessary Tangle</title>
+  <meta name="description" content="All 650 nodes and 1,320 source-reported major-influence links from the Map of Systemic Evolution, with provenance, permission and cumulative reconciliation.">
+  <link rel="stylesheet" href="/assets/styles.css?v=0.20.0-public">
+  <link rel="stylesheet" href="/assets/site-enhancements.css?v=0.20.0-public">
+  <link rel="stylesheet" href="/assets/prior-maps.css?v=0.21.0-review">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to the map</a>
+<main id="main" class="pm-shell" tabindex="-1">
+  <nav class="pm-nav" aria-label="Breadcrumb"><a href="/prior-maps/">← Prior maps</a><a href="/#view=home">The Necessary Tangle</a><a href="https://uranos.ch/index.php/research-menu/cybernetcis">Original source</a></nav>
+  <header class="pm-head">
+    <p class="eyebrow">Permissioned source-attributed comparator</p>
+    <h1>Map of Systemic Evolution</h1>
+    <p class="pm-lede">Every source node and every source link is here. The makers describe the arrows as major influences between topics. We preserve that meaning while declining to pretend that each influence has been independently checked or more precisely typed.</p>
+  </header>
+
+  <div class="pm-stats" aria-label="Comparator totals">
+    <div class="pm-stat"><strong id="statNodes">650</strong><span>source nodes retained</span></div>
+    <div class="pm-stat"><strong id="statLinks">1,320</strong><span>source links retained</span></div>
+    <div class="pm-stat"><strong id="statMapped">62</strong><span>nodes at least partly reconciled</span></div>
+    <div class="pm-stat"><strong id="statAtlas">66</strong><span>distinct Tangle entries linked</span></div>
+  </div>
+
+  <section class="pm-section">
+    <h2>What the source actually says</h2>
+    <p>The URANOS page says that nodes denote topics — scientific work or research areas — and that directed edges illustrate <strong>major influences between topics</strong>. Its published colour legend classifies scientific realms. The GraphML carries no edge-specific label, citation or finer influence type, so that generic statement is the limit of what we import.</p>
+    <div class="pm-callout warning"><p><strong>Read every line as “the source map reports a major influence”, not “The Necessary Tangle has verified this influence”.</strong> Colour identifies a realm; it is not evidence and does not tell us whether the influence was teaching, citation, derivation, collaboration or something else.</p></div>
+  </section>
+
+  <section class="pm-section wide" aria-labelledby="map-heading">
+    <h2 id="map-heading">All 1,320 reported links</h2>
+    <p>Start with one topic and its immediate neighbourhood. Choose two steps to widen the question, or switch to the complete source layout when you need the whole history at once.</p>
+    <div class="pm-controls pm-map-controls">
+      <label class="pm-search-control">Find a source topic<input id="systemicSearch" type="search" list="systemicSuggestions" autocomplete="off" placeholder="Wiener, autopoiesis, ecology…"><datalist id="systemicSuggestions"></datalist></label>
+      <label>View<select id="systemicView"><option value="focus">Focused neighbourhood</option><option value="full">Complete source layout</option></select></label>
+      <label>Neighbourhood<select id="systemicDepth"><option value="1">One step</option><option value="2">Two steps</option></select></label>
+      <label>Realm<select id="systemicRealm"><option value="all">All realms</option></select></label>
+      <label>Link mapping<select id="systemicFilter"><option value="all">All source links</option><option value="both">Both ends mapped</option><option value="one">One end mapped</option><option value="none">Neither end mapped</option></select></label>
+      <button id="systemicReset" type="button">Start again</button>
+    </div>
+    <div class="pm-key"><span><i class="pm-key-selected"></i>selected</span><span><i class="pm-key-mapped"></i>mapped or partly mapped</span><span><i class="pm-key-unresolved"></i>unresolved</span><span>Arrow direction and line colour follow the source</span></div>
+    <p id="systemicViewSummary" class="pm-view-summary" role="status" aria-live="polite">Preparing the focused map…</p>
+    <div class="pm-map-layout">
+      <div class="pm-map-stage">
+        <canvas id="systemicCanvas" tabindex="0" aria-label="Interactive rendering of the selected Systemic Evolution neighbourhood" aria-describedby="systemicInstructions"></canvas>
+        <div class="pm-map-zoom" aria-label="Map view controls">
+          <button id="systemicZoomOut" type="button" aria-label="Zoom out">−</button>
+          <button id="systemicZoomIn" type="button" aria-label="Zoom in">+</button>
+          <button id="systemicFit" type="button">Fit</button>
+        </div>
+        <p id="systemicInstructions" class="pm-map-instructions">Drag to pan. Use the wheel or +/− to zoom. With the map focused, the arrow keys pan, Home fits and Escape returns to General System. Select any labelled topic or use the text view below.</p>
+      </div>
+      <aside id="systemicPanel" class="pm-map-panel" aria-live="polite"><h2>Reading the map</h2><p>Select a node to see its source-reported links and any conservative Tangle reconciliation.</p></aside>
+    </div>
+    <details id="systemicTextView" class="pm-text-view">
+      <summary>Browse the current view as text</summary>
+      <div class="pm-text-view-grid">
+        <section aria-labelledby="visible-nodes-heading"><h3 id="visible-nodes-heading">Topics in view</h3><ol id="systemicVisibleNodes" class="pm-node-list"><li>Preparing topics…</li></ol></section>
+        <section aria-labelledby="visible-links-heading"><h3 id="visible-links-heading">Source-reported links in view</h3><div class="pm-table-wrap"><table class="pm-table pm-link-table"><thead><tr><th>From</th><th>Direction</th><th>To</th><th>Mapping</th></tr></thead><tbody id="systemicVisibleLinks"><tr><td colspan="4">Preparing links…</td></tr></tbody></table></div></section>
+      </div>
+    </details>
+    <p class="pm-small">Focused neighbourhoods use a reading layout; “complete source layout” restores the positions supplied in the GraphML. Both views retain the same filtered source structure. This comparator is not part of the canonical Tangle graph.</p>
+  </section>
+
+  <section class="pm-section wide" aria-labelledby="ledger-heading">
+    <h2 id="ledger-heading">Cumulative reconciliation ledger</h2>
+    <p>Five source nodes currently have a direct same-named concept or tradition match; 57 compound or narrower/broader nodes have at least one human-reviewed component match; 588 remain unresolved. Of the 1,320 source links, 47 have both endpoints at least partly mapped, 231 have one and 1,042 have neither. Only one mapped pair already has an independently sourced canonical Tangle relationship. No canonical relationship was created merely because this map draws a line.</p>
+    <div class="pm-controls"><label>Filter the ledger<input id="ledgerSearch" type="search" placeholder="Search source or Tangle labels"></label><label>Status<select id="ledgerStatus"><option value="mapped">Mapped and partial</option><option value="all">All 650 nodes</option><option value="confirmed">Confirmed</option><option value="partial">Partial</option><option value="unresolved">Unresolved</option></select></label></div>
+    <div class="pm-table-wrap"><table class="pm-table"><thead><tr><th>Source node</th><th>Status</th><th>Tangle entry or entries</th><th>Review note</th></tr></thead><tbody id="ledgerBody"><tr><td colspan="4">Loading reconciliation…</td></tr></tbody></table></div>
+    <p class="pm-small"><a href="/assets/systemic-evolution-reconciliation.json">Download the complete node-and-link reconciliation ledger</a>.</p>
+  </section>
+
+  <section class="pm-section" id="files-and-review">
+    <h2>Files, changes and review</h2>
+    <p>The original 2016 GraphML is retained byte for byte. The enriched derivative adds attribution, permission, reconciliation and evidence-state fields without removing or adding a source node or source edge. A checksummed manifest identifies the exact files submitted for source-owner review.</p>
+    <ul>
+      <li><a href="/assets/systemic_evolution-2016-original.graphml" download>Original GraphML</a> — 650 nodes, 1,320 links; SHA-256 <code>c42241d6…d104</code>.</li>
+      <li><a href="/assets/systemic_evolution-the-necessary-tangle.graphml" download>Enriched derivative GraphML</a> — the same source structure plus Tangle annotations.</li>
+      <li><a href="/assets/comparator-systemic-evolution.json">Machine-readable comparator JSON</a>.</li>
+      <li><a href="/assets/systemic-evolution-reconciliation.json">Cumulative reconciliation ledger</a>.</li>
+      <li><a href="/assets/systemic-evolution-review-manifest.json">Checksums and review manifest</a>.</li>
+    </ul>
+    <div class="pm-callout"><p><strong>Review is a publication condition.</strong> Every adapted, extended or modified graph or dataset is returned to the maintainers for review and verification before publication. Approval attaches to the exact reviewed derivative; later graph-data changes trigger another review.</p></div>
+  </section>
+
+  <section class="pm-section">
+    <h2>Provenance, permission and credit</h2>
+    <p>The published history records the map as originated by <strong>Eric Schwarz</strong> in 1996; extended in 1998 with material from Will Durant’s <em>The Story of Philosophy</em>; elaborated in 2000–01 for the <strong>International Institute for General Systems Studies</strong>; and extended in 2016 by <strong>Benjamin Hadorn</strong>. In accordance with the permission response, the original material and extensions are attributed to <strong>Eric Schwarz, Benjamin Hadorn and Beat Hirsbrunner</strong>.</p>
+    <p>On 26 August 2026 Benjamin Hadorn authorised the requested retention, parsing, visualisation, annotation, extension, derivative publication and independently checked incorporation, subject to full attribution and pre-publication review of modifications. He confirmed that separate approaches to the other parties were not required for the complete version if those conditions were met. This project-specific permission is not presented as a general CC BY-SA relicensing of the original.</p>
+    <p>The map was already in Benjamin P Taylor’s <a href="https://stream.syscoi.com/2019/06/10/some-streams-of-systemic-thought-schwarz-extended-durant-iigss-hadorn/">2019 SysCoI prior-map collection</a>. <a href="/contributors/nigel-williams/">Nigel Williams</a> extracted and analysed the GraphML and built the first comparator implementation; Benjamin P Taylor supplied the prior registration, permission work and cumulative editorial reconciliation.</p>
+  </section>
+</main>
+<script src="/assets/systemic-evolution-map.js?v=0.21.0-review"></script>
+</body>
+</html>

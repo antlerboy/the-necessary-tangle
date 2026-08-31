@@ -1,0 +1,27 @@
+{
+  "record": "systemic-evolution-review-1-publication",
+  "package_id": "systemic-evolution-2026-08-26-review-1",
+  "review_archive": {
+    "url": "https://www.dropbox.com/scl/fi/dwryvxbigb0nkw17p2plp/systemic-evolution-2026-08-26-review-1.zip?rlkey=mlacrhl6n9lwu1xsp03b0sm3i&dl=1",
+    "size_bytes": 693738,
+    "sha256": "cc0aaa4adc58a91c56f04555d5cd6885d025cdf4d546e4da8e7a692ce55c3cf6"
+  },
+  "permission_granted_at": "2026-08-26",
+  "source_owner_reviewed_at": "2026-08-31",
+  "reviewed_by": "Benjamin Hadorn",
+  "decision": "approved_for_publication",
+  "approval_scope": "The exact checksummed enhanced derivative and reader package supplied for review.",
+  "approval_statement": "From my side, I can grant permission to use the enhanced version in this way.",
+  "required_attribution": [
+    "Eric Schwarz",
+    "Benjamin Hadorn",
+    "Beat Hirsbrunner"
+  ],
+  "conditions": [
+    "Full attribution to the original material and its extensions.",
+    "Every later adapted, extended or modified graph or dataset must be returned for review and verification before publication."
+  ],
+  "beat_hirsbrunner_status": "Copied on the review exchange and invited to raise any complaint; no separate response recorded before publication.",
+  "licence_note": "Project-specific permission. The original graph is not represented as generally CC BY-SA licensed."
+}
+
