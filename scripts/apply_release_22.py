@@ -258,7 +258,7 @@ def reader():
     if '<noscript>' not in s:s=s.replace('<main id="main">','<main id="main"><noscript><p>The interactive atlas needs JavaScript. You can read the <a href="/systems-thinking/">systems-thinking introduction</a>, <a href="/corpora/early-cybernetics/">historical reading lists</a>, and <a href="/little-redquadrant-rules/">RedQuadrant rules</a> without it.</p></noscript>',1)
     p.write_text(s)
     sitemap=ROOT/'docs/sitemap.xml';text=sitemap.read_text()
-    for path in ['systems-thinking/','corpora/early-cybernetics/','little-redquadrant-rules/']:
+    for path in ['systems-thinking/','corpora/early-cybernetics/','little-redquadrant-rules/','updates/0.22/']:
         url='https://transduction.systems/'+path
         if url not in text:text=text.replace('</urlset>',f'  <url><loc>{url}</loc><lastmod>{DATE}</lastmod></url>\n</urlset>')
     sitemap.write_text(text)
@@ -267,6 +267,7 @@ def reader():
 def release(data,intake):
     metrics=graph_metrics(data);meta=data['meta']
     meta.update(release=RELEASE,generated=DATE,iteration_focus='accessible gateway and source-accounted early cybernetics',node_count=len(data['nodes']),edge_count=len(data['edges']),source_count=len(data['sources']),profile_count=len(data['profiles']),journey_count=len(data['journeys']),public_entry_count=metrics['public_entries'],early_cybernetics_entry_count=48,early_cybernetics_url='https://transduction.systems/corpora/early-cybernetics/',systems_thinking_intro_url='https://transduction.systems/systems-thinking/',coverage_status='Early bibliography entries are fully accounted for where supplied. Four selected primary-passage reviews deepen this intake; Barrett–Shepard bibliography pages remain unavailable.')
+    meta.update(release_note='An accessible systems-thinking entrance, a credited early cybernetics collection, three new journeys, and preserved portable RedQuadrant rules.',release_digest_url='https://transduction.systems/updates/0.22/')
     depth=data['relational_depth']['aggregate']
     meta.update(reader_connected_entry_count=depth['reader_connected_entries'], semantic_connected_entry_count=depth['semantic_connected_entries'], unconnected_entry_count=depth['connection_bands'].get('unconnected',0))
     meta.update(described_entry_count=metrics['public_entries'], public_link_source_count=sum(s.get('public_link_status')=='public_link' for s in data['sources']), no_public_link_source_count=sum(s.get('public_link_status')=='no_public_link' for s in data['sources']), semantic_gap_entry_count=metrics['public_entries']-depth['semantic_connected_entries'])
@@ -305,6 +306,9 @@ def release(data,intake):
     readme=ROOT/'README.md';text=readme.read_text()
     if '## Release 0.22' not in text:
         text=text.replace('# The Necessary Tangle\n', '# The Necessary Tangle\n\n## Release 0.22\n\nA plain-language [systems-thinking entrance](https://transduction.systems/systems-thinking/), a [credited early cybernetics collection](https://transduction.systems/corpora/early-cybernetics/), three new guided journeys, and portable RedQuadrant rules. The candidate contains 719 canonical public entries, 137 profiles, 224 source records, and 1,987 typed statements. Bibliographic coverage and primary reading remain separately measured. See [the release account](documentation/release-0.22.md) for evidence, limits, and verification.\n',1)
+    text=text.replace('The candidate contains 719','The release contains 719')
+    if '[Change digest]' not in text:
+        text=text.replace('## Release 0.22\n','## Release 0.22\n\n[Change digest](https://transduction.systems/updates/0.22/) · [Systems-thinking entrance](https://transduction.systems/systems-thinking/)\n',1)
     readme.write_text(text)
     # Legacy builders carry a dated SCiO document. Preserve the maintained source
     # instead of letting this unrelated release remove its later corpus notes.
@@ -316,6 +320,8 @@ def release(data,intake):
     ]:
         p=ROOT/name;s=p.read_text()
         if heading not in s:p.write_text(s.rstrip()+'\n\n'+heading+'\n\n'+text+'\n')
+    ledger=ROOT/'documentation/feedback-ledger.md'
+    ledger.write_text(ledger.read_text().replace('Publication remains subject to human review.', 'Benjamin P Taylor explicitly authorised publication and a standing direct-publication policy on 5 September 2026.'))
 
 
 def main():

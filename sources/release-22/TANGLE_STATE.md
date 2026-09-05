@@ -1,15 +1,16 @@
 # Tangle state
 
-Last verified: 5 September 2026 (local release candidate)
+Last verified: 5 September 2026 (release validation)
 
-## Release candidate and public release
+## Release and publication
 
-- Candidate: `0.22`, awaiting human review and merge.
-- Last confirmed public release: `0.21`.
+- Release: `0.22`; publication explicitly authorised on 5 September 2026.
+- Live deployment identity: https://transduction.systems/deployment.json
+- Public change digest: https://transduction.systems/updates/0.22/
 - Public site: https://transduction.systems/
 - Machine relationship snapshot: `data/relationship-quality.json`
-- Candidate public entries: 719; developed profiles: 137; public sources: 224.
-- Candidate graph records: 846; typed statements: 1,987; guided journeys: 24.
+- Canonical public entries: 719; developed profiles: 137; public sources: 224.
+- Graph records: 846; typed statements: 1,987; guided journeys: 24.
 - Preserved Systemic Evolution comparator: 650 nodes and 1,320 source-reported links.
 - Systemic Evolution review archive SHA-256: `cc0aaa4adc58a91c56f04555d5cd6885d025cdf4d546e4da8e7a692ce55c3cf6`.
 - Castellani current source links: 307; counted-map aggregate links: 1,856.
@@ -18,7 +19,7 @@ Last verified: 5 September 2026 (local release candidate)
 
 ## Current shape
 
-The candidate adds an accessible static gateway at `/systems-thinking/`, a
+The release adds an accessible static gateway at `/systems-thinking/`, a
 searchable and downloadable early cybernetics collection, and three journeys.
 It accounts for all 48 entries in the supplied Wiener lists, resolving 45
 work identities and retaining one unidentified Current Biography reference.
@@ -50,5 +51,7 @@ updates, not asserted to be live.
 `make validate` rebuilds and checks the historical baseline, applies the
 current release, and checks its integrity, static routes, preserved source
 assets, and focused interactions. The deployment workflow uses the same gate.
-See `documentation/release-0.22.md` for scope and remaining decisions. Human
-review is required before merge or publication under `AGENTS.md`.
+See `documentation/release-0.22.md` for scope and remaining decisions. Benjamin P Taylor
+has authorised direct publication after validation under `AGENTS.md`; no extra
+human-review stop is required for user-requested changes. Source-owner rights
+and GitHub access controls remain in force.

@@ -1,8 +1,10 @@
 # Release 0.22: a readable entrance and source-accounted enrichment
 
-Candidate prepared 5 September 2026 in response to the current request and
+Release prepared 5 September 2026 in response to the current request and
 the two additions in [running feedback issue #2](https://github.com/antlerboy/the-necessary-tangle/issues/2).
-Human review remains required before merge or publication.
+Benjamin P Taylor explicitly authorised publication and future direct publication
+of requested site changes on 5 September 2026. The public
+[digest](https://transduction.systems/updates/0.22/) summarises the change and next work.
 
 ## Reader changes
 
@@ -53,7 +55,7 @@ pass does not claim to have read all the listed works or whole books.
 
 ## Richness and boundaries
 
-The candidate grows from 635 to 719 canonical public entries, 128 to 137
+The release grows from 635 to 719 canonical public entries, 128 to 137
 developed profiles, 216 to 224 public source records, 1,882 to 1,987 typed
 statements, and 21 to 24 journeys. New profiles distinguish technical,
 semantic, and effectiveness questions; information coding; ultrastability;
@@ -83,7 +85,7 @@ checks do not constitute a browser or assistive-technology audit.
 
 ## Remaining decisions and work
 
-1. Human review of the candidate before merge and publication.
+1. Publish the validated release and verify its gateway, digest, and deployment identity.
 2. Obtain the missing Barrett–Shepard bibliography pages and continue primary
    reading of the catalogue-only works; keep coverage labels honest.
 3. Apply the queued, site-specific rules integrations in their next updates.

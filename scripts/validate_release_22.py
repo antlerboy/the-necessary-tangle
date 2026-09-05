@@ -110,7 +110,7 @@ def main():
     rules = load('sources/redquadrant-rules.json')
     assert rules == load('docs/assets/redquadrant-rules.json')
     assert [r['number'] for r in rules['rules']] == list(range(1, 257))
-    pages = ['systems-thinking/index.html', 'corpora/early-cybernetics/index.html', 'little-redquadrant-rules/index.html']
+    pages = ['systems-thinking/index.html', 'corpora/early-cybernetics/index.html', 'little-redquadrant-rules/index.html', 'updates/0.22/index.html']
     for path in pages:
         page = Page(DOCS / path)
         assert len(page.ids) == len(set(page.ids)), path
