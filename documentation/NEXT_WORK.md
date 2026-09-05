@@ -1,6 +1,6 @@
 # Next work
 
-Status: **Candidate prepared; human review required before merge or publication**. Requested by Benjamin P Taylor on 5 September 2026.
+Status: **Publication authorised by Benjamin P Taylor on 5 September 2026**. Requested by Benjamin P Taylor on 5 September 2026.
 
 ## Outcome
 
@@ -29,7 +29,8 @@ Release 0.22: a richer, source-accounted atlas and an accessible systems-thinkin
 - All 256 rule texts and stable rule anchors survive; header randomiser is disabled; reusable component works independently.
 - Existing comparator files and source-owner review boundaries are preserved.
 - `make build`, `make validate`, JavaScript syntax, internal-link validation, and focused interaction checks pass.
-- Human review before merge or publication.
+- Publish directly after validation under the standing authorisation in `AGENTS.md`.
+- Provide a public digest and ZIP backup; attempt delivery to the existing Dropbox project folder.
 
 ## Out of scope
 
@@ -37,7 +38,7 @@ Unreviewed changes to Hadorn’s approved comparator, publication of private mat
 
 ## Stop conditions
 
-Stop at a validated reviewable pull request. Record any inaccessible primary source explicitly.
+Complete authorised publication, verify the live gateway and digest, and deliver the requested backup. Record any delivery limitation and inaccessible primary source explicitly.
 
 ## Model route
 

@@ -2,7 +2,9 @@
 
 ## Release 0.22
 
-A plain-language [systems-thinking entrance](https://transduction.systems/systems-thinking/), a [credited early cybernetics collection](https://transduction.systems/corpora/early-cybernetics/), three new guided journeys, and portable RedQuadrant rules. The candidate contains 719 canonical public entries, 137 profiles, 224 source records, and 1,987 typed statements. Bibliographic coverage and primary reading remain separately measured. See [the release account](documentation/release-0.22.md) for evidence, limits, and verification.
+[Change digest](https://transduction.systems/updates/0.22/) · [Systems-thinking entrance](https://transduction.systems/systems-thinking/)
+
+A plain-language [systems-thinking entrance](https://transduction.systems/systems-thinking/), a [credited early cybernetics collection](https://transduction.systems/corpora/early-cybernetics/), three new guided journeys, and portable RedQuadrant rules. The release contains 719 canonical public entries, 137 profiles, 224 source records, and 1,987 typed statements. Bibliographic coverage and primary reading remain separately measured. See [the release account](documentation/release-0.22.md) for evidence, limits, and verification.
 
 ## Release 0.21
 

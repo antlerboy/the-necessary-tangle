@@ -113,14 +113,15 @@
     "counted_map_link_count": 1856,
     "counted_map_raw_reference_string_count_published": 0,
     "nigel_williams_contribution_url": "https://transduction.systems/contributors/nigel-williams/",
-    "release_note": "Publishes the exact reviewed Systemic Evolution reader and data package, with focused and complete layouts, accessible text navigation, immutable review checksums and a separate approval record.",
+    "release_note": "An accessible systems-thinking entrance, a credited early cybernetics collection, three new journeys, and preserved portable RedQuadrant rules.",
     "systemic_evolution_review_package": "systemic-evolution-2026-08-26-review-1",
     "systemic_evolution_review_archive_sha256": "cc0aaa4adc58a91c56f04555d5cd6885d025cdf4d546e4da8e7a692ce55c3cf6",
     "systemic_evolution_source_owner_reviewed_at": "2026-08-31",
     "systemic_evolution_review_status": "exact_package_approved_for_publication",
     "early_cybernetics_entry_count": 48,
     "early_cybernetics_url": "https://transduction.systems/corpora/early-cybernetics/",
-    "systems_thinking_intro_url": "https://transduction.systems/systems-thinking/"
+    "systems_thinking_intro_url": "https://transduction.systems/systems-thinking/",
+    "release_digest_url": "https://transduction.systems/updates/0.22/"
   },
   "nodes": [
     {

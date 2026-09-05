@@ -42,4 +42,4 @@
 
 ## Release 0.22 — accessible entrance and September source intake
 
-The two issue #2 source posts are accounted for with original wording, review labels, explicit gaps, and corrected Sean Manion credit. `/systems-thinking/` is built as the gateway. The header rule is retired; all 256 texts, stable page, and portable code are preserved. Receiving-site placement and domain routing are recorded in `redquadrant-rules-handoff.md`. Publication remains subject to human review.
+The two issue #2 source posts are accounted for with original wording, review labels, explicit gaps, and corrected Sean Manion credit. `/systems-thinking/` is built as the gateway. The header rule is retired; all 256 texts, stable page, and portable code are preserved. Receiving-site placement and domain routing are recorded in `redquadrant-rules-handoff.md`. Benjamin P Taylor explicitly authorised publication and a standing direct-publication policy on 5 September 2026.
