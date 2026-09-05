@@ -1,60 +1,54 @@
 # Tangle state
 
-Last verified: 31 August 2026
+Last verified: 5 September 2026 (local release candidate)
 
-## Public release
+## Release candidate and public release
 
-- Release: `0.21`
+- Candidate: `0.22`, awaiting human review and merge.
+- Last confirmed public release: `0.21`.
 - Public site: https://transduction.systems/
 - Machine relationship snapshot: `data/relationship-quality.json`
-- Prior-map hub: https://transduction.systems/prior-maps/
-- Map of Systemic Evolution: 650 nodes; 1,320 source-reported links
-- Systemic Evolution review archive SHA-256: `cc0aaa4adc58a91c56f04555d5cd6885d025cdf4d546e4da8e7a692ce55c3cf6`
-- Castellani current source links: 307
-- Counted-map aggregate links: 1,856
-- Living visual marks: 84 (40 still and 44 moving)
-- Canonical relations created merely from comparator imports: 0
+- Candidate public entries: 719; developed profiles: 137; public sources: 224.
+- Candidate graph records: 846; typed statements: 1,987; guided journeys: 24.
+- Preserved Systemic Evolution comparator: 650 nodes and 1,320 source-reported links.
+- Systemic Evolution review archive SHA-256: `cc0aaa4adc58a91c56f04555d5cd6885d025cdf4d546e4da8e7a692ce55c3cf6`.
+- Castellani current source links: 307; counted-map aggregate links: 1,856.
+- Living visual marks: 84 (40 still and 44 moving).
+- Canonical relations created merely from comparator imports: 0.
 
 ## Current shape
 
-Release 0.21 publishes the exact source-owner-reviewed Systemic Evolution
-reader and dataset without flattening them into the canonical atlas. The page
-retains the full Schwarz–Durant–IIGSS–Hadorn provenance, identifies the reviewed
-archive by checksum, and shows the cumulative reconciliation.
-The Castellani page preserves all current outward links while exposing source
-label disagreements. The counted-map page retains aggregate signals while
-excluding the private Scopus corpus and raw licensed reference strings.
+The candidate adds an accessible static gateway at `/systems-thinking/`, a
+searchable and downloadable early cybernetics collection, and three journeys.
+It accounts for all 48 entries in the supplied Wiener lists, resolving 45
+work identities and retaining one unidentified Current Biography reference.
+Four primary-passage reviews and one archive metadata check are separately
+labelled. New nodes and relationships remain candidates for curator review.
 
-Benjamin Hadorn granted the requested use scope on 26 August 2026 and approved
-the exact enhanced package on 31 August 2026. The immutable review manifest and
-the later approval record remain separate. No separate response from Beat
-Hirsbrunner is recorded, and later graph-data changes reopen the review gate.
-
-The release-integrity hotfix gives the Surprise-me script a fresh asset key,
-normalises links produced by its earlier handler before the main router runs,
-and adds the four comparator-specific AI observations omitted from the first
-0.20 publication.
-
-The 0.20.2 reader hotfix removes a self-triggering class-attribute observer
-which could lock the browser whenever a topic entry opened. It also publishes
-all 84 reviewed media studies from the curator's `logoso` staging folder as 40
-stills and 44 silent moving marks. The page still fetches only the manifest and
-the one selected mark; every video has a reduced-motion poster.
-
-The generated release contains 635 canonical public
-entries, 128 developed profiles, 216
-public source records, 762 total graph records and
-1882 canonical graph statements.
+The atlas header no longer mounts the RedQuadrant rule. All 256 texts, the
+complete page, stable anchors, and reusable component survive. Placement and
+integration details for the two receiving sites are in
+`documentation/redquadrant-rules-handoff.md`.
 
 ## Current limits
 
-The comparator links are source claims or aggregate signals, not a guarantee of
-accuracy. Most Systemic Evolution nodes remain unreconciled, Castellani's links
-have not been individually checked, and the counted-map aggregate cannot yet be
-independently rerun from a public source corpus.
+The Barrett–Shepard post contains only its three-page introduction. Its missing
+bibliography pages are still required. The other listed works remain a
+close-reading programme, not a completed paper-by-paper review. The reported
+1956 list contains a 1957 publication, which remains an explicit discrepancy.
+
+The reviewed Systemic Evolution package is unchanged. Benjamin Hadorn approved
+the exact package on 31 August 2026; no separate response from Beat Hirsbrunner
+is recorded. Future comparator-data changes reopen that review gate.
+
+The gateway is prepared for systemsthinking.info; DNS/HTTP redirection has not
+been changed. Cross-site rules additions are queued for their respective site
+updates, not asserted to be live.
 
 ## Release controls
 
-Run `make build`, then `make validate`. Check topic open, close, reopen and
-history behaviour, the selected living mark, and all four prior-map/contribution
-routes after merge.
+`make validate` rebuilds and checks the historical baseline, applies the
+current release, and checks its integrity, static routes, preserved source
+assets, and focused interactions. The deployment workflow uses the same gate.
+See `documentation/release-0.22.md` for scope and remaining decisions. Human
+review is required before merge or publication under `AGENTS.md`.

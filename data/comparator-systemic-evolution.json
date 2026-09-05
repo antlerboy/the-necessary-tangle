@@ -10,8 +10,29 @@
    "Extended 2016 by Benjamin Hadorn, Fribourg, Switzerland."
   ],
   "published_at": "https://uranos.ch/index.php/research-menu/cybernetcis",
-  "rights": "Used with Benjamin Hadorn's permission, with the full Schwarz-Durant-IIGSS-Hadorn provenance retained. Source copyright and terms continue to apply.",
+  "source_file_name": "systemic_evolution.graphml",
+  "source_size_bytes": 1370282,
+  "source_sha256": "c42241d61c76b5113fcbe65a6243cd7fcf3fe6d85b7fcb57b328594c94d9d104",
+  "required_attribution": [
+   "Eric Schwarz",
+   "Benjamin Hadorn",
+   "Beat Hirsbrunner"
+  ],
+  "rights": "Project-specific permission granted by Benjamin Hadorn on 2026-08-26 for the requested activities, subject to full attribution and review and verification of every modified graph or dataset before publication. The original is not represented as generally CC BY-SA licensed.",
+  "permission": {
+   "granted_by": "Benjamin Hadorn",
+   "granted_at": "2026-08-26",
+   "scope": "the reproduction, parsing, visualisation, annotation, correction, extension, derivative publication and independently checked incorporation requested by Benjamin P Taylor",
+   "conditions": [
+    "Full attribution to the original material and its extensions, including Eric Schwarz, Benjamin Hadorn and Beat Hirsbrunner.",
+    "Every adapted, extended or modified graph or dataset must be provided to the maintainers for review and verification before publication."
+   ],
+   "separate_permissions_required": false,
+   "licence_note": "The response permits sharing derivatives under the stated conditions but does not expressly relicense the original as CC BY-SA 4.0.",
+   "record": "https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5424930678"
+  },
   "semantics": "The URANOS page says directed edges illustrate major influences between topics. Every edge preserves that generic source claim and is marked not independently verified; no more specific edge meaning or edge-level evidence is supplied.",
+  "colour_legend": "Realm names follow the source page. Colour is a realm classification, not a substitute for edge-specific evidence.",
   "node_count": 650,
   "edge_count": 1320,
   "labelled_edge_count": 0,
@@ -29,8 +50,6 @@
    "#00FF00": 18,
    "#666699": 1
   },
-  "permission": "Benjamin Hadorn confirmed appropriate use on 2026-08-25.",
-  "colour_legend": "Realm names follow the source page. Colour is a realm classification, not a substitute for edge-specific evidence.",
   "contribution_credit": "Nigel Williams extracted and analysed the GraphML and built the first comparator implementation; Benjamin P Taylor supplied the earlier SysCoI registration, permissions and editorial reconciliation.",
   "reconciliation_summary": {
    "source_nodes_retained": 650,

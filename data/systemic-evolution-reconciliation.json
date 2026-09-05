@@ -1,7 +1,7 @@
 {
   "meta": {
     "dataset": "systemic-evolution-reconciliation",
-    "generated": "2026-08-25",
+    "generated": "2026-08-26",
     "source": "Map of Systemic Evolution",
     "source_url": "https://uranos.ch/index.php/research-menu/cybernetcis",
     "method": "human-reviewed conservative mapping of named components",
@@ -31,6 +31,10 @@
       {
         "release": "0.20-prior-maps-alpha",
         "event": "All 650 nodes and 1,320 source-reported links were retained in a permissioned comparator layer and the first human-reviewed mapping cohort was published."
+      },
+      {
+        "date": "2026-08-26",
+        "event": "Benjamin Hadorn confirmed the complete requested use scope, subject to full attribution and source-owner review and verification of modifications before publication."
       }
     ]
   },

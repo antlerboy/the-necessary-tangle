@@ -1,16 +1,14 @@
 # AI observations
 
-Generated for release `0.20-prior-maps-alpha` on 2026-08-25.
+Generated for release `0.22` on 2026-09-05.
 
-Release 0.20 preserves the maintained observation lenses and the `0.18-navigable-tangle-alpha` navigability baseline while regenerating graph measurements after the bounded prior-map intake.
-
-Measurements come from the generated public graph. Interpretations concern this atlas and its current source and interface choices; they are not measurements of the field itself.
+Measurements describe this atlas. Interpretations and practice implications remain open to challenge.
 
 ## Breadth has outrun depth
 
 **Kind:** measurement plus interpretation
 
-**Measurement:** The atlas has 635 public entries and 128 developed profiles. Only 20.2% of entries have the fuller profile structure.
+**Measurement:** The atlas has 719 public entries and 137 developed profiles. Only 19.1% of entries have the fuller profile structure.
 
 **Interpretation:** It is now better at showing that something belongs in the territory than at explaining what the thing means, why it matters, where it is contested and how it enters practice.
 
@@ -22,7 +20,7 @@ Measurements come from the generated public graph. Interpretations concern this 
 
 **Kind:** measurement plus design inference
 
-**Measurement:** There are 1548 typed public edges, but 858 are conceptual, historical, human, practice or contestation relations. The substantive share is 55.4%.
+**Measurement:** There are 1653 typed public edges, but 868 are conceptual, historical, human, practice or contestation relations. The substantive share is 52.5%.
 
 **Interpretation:** Authorship, collection membership and other provenance lines answer different questions from influence, dependence or use. Combining them without visible layers makes bibliographic density look like intellectual agreement.
 
@@ -82,7 +80,7 @@ Measurements come from the generated public graph. Interpretations concern this 
 
 **Kind:** measurement plus data-quality risk
 
-**Measurement:** 107 of 226 people — 47.3% — are currently represented by initial-form labels.
+**Measurement:** 123 of 255 people — 48.2% — are currently represented by initial-form labels.
 
 **Interpretation:** Initials are enough to inventory an authorship string, but not enough to guarantee a unique person. They invite duplicate records, mistaken mergers and false career or influence connections.
 
@@ -94,7 +92,7 @@ Measurements come from the generated public graph. Interpretations concern this 
 
 **Kind:** measurement plus model warning
 
-**Measurement:** Six published neighbourhoods contain 77 unique nodes, while 403 nodes are now connected; 338 connected nodes sit outside the old grouping pass.
+**Measurement:** Six published neighbourhoods contain 77 unique nodes, while 412 nodes are now connected; 347 connected nodes sit outside the old grouping pass.
 
 **Interpretation:** An algorithmic cluster is produced by the current edges, exclusions, resolution setting and seed. It is not a natural school waiting to be discovered.
 
@@ -118,7 +116,7 @@ Measurements come from the generated public graph. Interpretations concern this 
 
 **Kind:** second-order observation
 
-**Measurement:** 232 entries are isolated in the substantive graph, while the largest substantive component contains 331 entries.
+**Measurement:** 307 entries are isolated in the substantive graph, while the largest substantive component contains 338 entries.
 
 **Interpretation:** Isolation does not mean an idea is naturally peripheral. It often means the current source set, relation vocabulary or research history has not yet made its connections visible.
 
@@ -329,3 +327,123 @@ Measurements come from the generated public graph. Interpretations concern this 
 **Implication:** Use the signals to prioritise source review, not as canonical relations, and recover the transformation or replace the experiment with a lawful public corpus.
 
 **Test:** Rerun a documented public-corpus version and compare which high-weight signals persist under different vocabularies and thresholds.
+
+## Release metadata is part of the evidence
+
+**Kind:** second-order publication observation
+
+**Measurement:** Reader releases 0.20.3 and 0.20.4 changed public behaviour and source routes while the canonical release field and maintained AI report still said 0.20-prior-maps-alpha.
+
+**Interpretation:** A version label is not decoration. If the visible reader and the declared release describe different states, auditability has already broken before anyone inspects a source.
+
+**Implication:** Any public change which alters what a reader can see, follow or infer must advance one maintained release state and regenerate its observations.
+
+**Test:** The badge, canonical data, browser data, citation record and AI-observation report should all name the same release after deployment.
+
+## Interface clutter is an accumulation effect
+
+**Kind:** interface and systems observation
+
+**Measurement:** Successive reader passes added a living mark, release status, curatorship, theme control and a random Little RedQuadrant rule to the same header without redesigning the composition as a whole.
+
+**Interpretation:** Each addition can be locally reasonable while their combination becomes globally noisy. The interface has exactly the same coordination problem as any other evolving system.
+
+**Implication:** Reader changes need composition-level review, not only feature-level acceptance. Controls should be given hierarchy, fixed spatial jobs and an explicit reason to remain above the fold.
+
+**Test:** A reader should be able to identify the project, its purpose and the main navigation before noticing release administration or display controls.
+
+## A display layer can manufacture an isolate
+
+**Kind:** graph-interface observation
+
+**Measurement:** Donella Meadows already had documentary authorship paths, but the default substantive map suppressed those paths and made her appear isolated until a narrow source-established Meadows-to-Leverage-Points relation was added.
+
+**Interpretation:** Visible isolation can be a property of the chosen layer and relation vocabulary rather than a property of the person or idea being shown.
+
+**Implication:** Isolation counts and visual gaps must always be read with the active layer stated; documentary absence and substantive disconnection are different claims.
+
+**Test:** For a sample of apparent isolates, compare the substantive, documentary and all-relations views before treating isolation as a research finding.
+
+## A live corpus is not ingested coverage
+
+**Kind:** source-boundary observation
+
+**Measurement:** The current SCiO resource catalogue and SysBoK/Kumu routes are now linked and registered, while the catalogue has not been normalised item by item and the live Kumu node-and-link graph has not been silently promoted into the canonical atlas.
+
+**Interpretation:** Knowing where the current corpus is and making it inspectable is useful work, but it is not the same achievement as reading, reconciling and evidencing every item in it.
+
+**Implication:** Corpus registration, item-level ingestion, reconciliation and canonical promotion should remain separate publication states.
+
+**Test:** A reader should be able to distinguish a live source route from an atlas statement independently supported by that source.
+
+## Linking a source graph is not canonising it
+
+**Kind:** provenance observation
+
+**Measurement:** SysBoK-derived material now carries routes to both SCiO's project page and the live Kumu model while retaining SCiO's own work-in-progress status and its Precedents and Dependent Derivatives semantics.
+
+**Interpretation:** Better provenance can increase access to another graph without pretending that its links have already passed the evidential tests of this one.
+
+**Implication:** Comparator and source graphs should travel with visible credit and original relation meanings until individual claims have been reconciled.
+
+**Test:** Inspect a SysBoK-backed item and confirm that its source graph is one click away while its relations are not automatically relabelled as canonical Tangle relations.
+
+## Permission attaches to a version
+
+**Kind:** rights and provenance observation
+
+**Measurement:** Benjamin Hadorn granted the requested project-specific use scope on 26 August 2026, then reviewed and approved the exact package identified by SHA-256 on 31 August 2026.
+
+**Interpretation:** Permission is not a permanent adjective which can be pasted onto a changing dataset. It is a dated relationship between a grantor, a scope, conditions and an identifiable version.
+
+**Implication:** The source artefact, derivative, review manifest and publication decision must remain distinct records. Later graph-data changes reopen the review gate.
+
+**Test:** A reader should be able to identify the exact approved package, its checksum, attribution conditions and approval date without treating silence by another copied recipient as approval.
+
+## A bibliography has an audience
+
+**Kind:** source-boundary observation
+
+**Measurement:** The Barrett–Shepard introduction explicitly frames its selection for social scientists and distinguishes six categories. Its bibliography pages are absent from the supplied post.
+
+**Interpretation:** The source explains a boundary, but cannot supply item-level coverage that is not present in the available text.
+
+**Implication:** Catalogue the available entries and the missing pages separately.
+
+**Test:** Can every claimed ingested item be found in the actual supplied material?
+
+## An awkward date belongs in the record
+
+**Kind:** bibliographic observation
+
+**Measurement:** The short list described as 1956 includes a 1957 publication. Fano’s single entry names two reports, and Current Biography supplies no article title.
+
+**Interpretation:** Silently regularising dates or titles would replace documentary evidence with a cleaner story.
+
+**Implication:** Retain source wording alongside reconciliation and review status.
+
+**Test:** Check that source entries survive even where a canonical identity remains unresolved.
+
+## A catalogue entry is a distinct unit of work
+
+**Kind:** coverage observation
+
+**Measurement:** The intake accounts for 48 entries, four selected-passage reviews, one archive metadata check, and one unidentified reference.
+
+**Interpretation:** Adding searchable records increases access to material while leaving a larger close-reading task open.
+
+**Implication:** Show review depth beside each entry and keep bibliography membership outside influence relations.
+
+**Test:** Filter by evidence reviewed; verify that catalogue-only entries do not appear as fully read.
+
+## An entrance changes who can use the atlas
+
+**Kind:** reader-design observation
+
+**Measurement:** The systems-thinking entrance presents a worked example and inquiry before exposing the larger graph. The rules are retained on a static page and removed from the atlas header.
+
+**Interpretation:** The route into a knowledge collection affects who can participate without prior familiarity.
+
+**Implication:** Provide useful static content and followable links alongside richer interactive views.
+
+**Test:** Read the gateway and source catalogue with JavaScript unavailable; follow each named route.

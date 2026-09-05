@@ -1,0 +1,1003 @@
+{
+  "release": "0.22",
+  "captured": "2026-09-05",
+  "credit": "Sean Manion, @TheUnjournaling",
+  "credit_note": "Credit spelling confirmed by the curator on 5 September 2026.",
+  "posts": [
+    {
+      "id": "wiener",
+      "url": "https://stream.syscoi.com/2026/09/05/28544/",
+      "title": "Wiener’s selected readings on cybernetics, 1951, 1952, 1956",
+      "original_posts": [
+        "https://x.com/TheUnjournaling/status/2096060216882139638",
+        "https://x.com/TheUnjournaling/status/2096062602728161423"
+      ]
+    },
+    {
+      "id": "barrett-shepard",
+      "url": "https://stream.syscoi.com/2026/09/05/a-bibliography-of-cybernetics-dermot-barrett-and-shephard-mit-1951/",
+      "title": "A Bibliography of Cybernetics",
+      "authors": [
+        "F. Dermot Barrett",
+        "Herbert A. Shepard"
+      ],
+      "date_as_reported": "1951",
+      "original_posts": [
+        "https://x.com/TheUnjournaling/status/2096067877493211220"
+      ],
+      "available_material": "Introduction only (three transcribed pages). Bibliography entries are absent.",
+      "bibliography_complete": false
+    }
+  ],
+  "sections": [
+    {
+      "id": "selected-1952",
+      "title": "Selected readings, 21 March 1952"
+    },
+    {
+      "id": "short-1956",
+      "title": "Short bibliography, described as 1956"
+    },
+    {
+      "id": "popular-1951",
+      "title": "Popular treatments, approximately 1951"
+    },
+    {
+      "id": "popular-wiener",
+      "title": "Popular treatments by Wiener"
+    }
+  ],
+  "barrett_shepard_categories": [
+    "Popular Expositions",
+    "Cybernetics",
+    "Information Theory and Communication Theory",
+    "Servomechanisms",
+    "Cybernetics Concepts in the Biological and Social Sciences",
+    "Relevant Works in Social Science, Biology, and Philosophy"
+  ],
+  "entries": [
+    {
+      "id": "wiener-01",
+      "work_key": "ashby-equilibrium",
+      "section": "selected-1952",
+      "title": "The Behavioral Properties of Systems in Equilibrium",
+      "authors": [
+        "W. Ross Ashby"
+      ],
+      "date_as_listed": "1946",
+      "theme": "equilibrium",
+      "transcribed_entry": "Ashby, W. R. ‘The Behavioral Properties of Systems in Equilibrium.’ American Journal of Psychology, Vol. 59 (1946), 682–6.",
+      "source_paragraph": 4,
+      "review_status": "metadata_checked",
+      "full_text_reviewed": false,
+      "notes": [
+        "Ashby’s archive supplies the fuller title: Dynamics of the Cerebral Cortex: The Behavioral Properties of Systems in Equilibrium. Original citation retained."
+      ],
+      "source_url": "https://stream.syscoi.com/2026/09/05/28544/",
+      "node_id": "publication_early_ashby_equilibrium",
+      "reconciliation": "reconciled_work",
+      "primary_url": "https://ashby.info/bibliography.html"
+    },
+    {
+      "id": "wiener-02",
+      "work_key": "brillouin-life",
+      "section": "selected-1952",
+      "title": "Life, Thermodynamics, and Cybernetics",
+      "authors": [
+        "Léon Brillouin"
+      ],
+      "date_as_listed": "1949",
+      "theme": "information",
+      "transcribed_entry": "Brillouin, L. ‘Life, Thermodynamics, and Cybernetics.’ American Scientist, Vol. 37 (Oct. 1949), 554–568.",
+      "source_paragraph": 5,
+      "review_status": "bibliographic_entry_transcribed",
+      "full_text_reviewed": false,
+      "notes": [],
+      "source_url": "https://stream.syscoi.com/2026/09/05/28544/",
+      "node_id": "publication_early_brillouin_life",
+      "reconciliation": "reconciled_work"
+    },
+    {
+      "id": "wiener-03",
+      "work_key": "macy-sixth",
+      "section": "selected-1952",
+      "title": "Transactions of the Sixth Conference on Cybernetics",
+      "authors": [],
+      "date_as_listed": "1949",
+      "theme": "conferences",
+      "transcribed_entry": "Conference on Cybernetics. Transactions of the Sixth Conference on Cybernetics. March 24–25, 1949. New York, the Josiah Macy, Jr. Foundation.",
+      "source_paragraph": 6,
+      "review_status": "bibliographic_entry_transcribed",
+      "full_text_reviewed": false,
+      "notes": [],
+      "source_url": "https://stream.syscoi.com/2026/09/05/28544/",
+      "node_id": "publication_early_macy_sixth",
+      "reconciliation": "reconciled_work"
+    },
+    {
+      "id": "wiener-04",
+      "work_key": "macy-seventh",
+      "section": "selected-1952",
+      "title": "Transactions of the Seventh Conference on Cybernetics",
+      "authors": [
+        "Heinz von Foerster"
+      ],
+      "date_as_listed": "1950",
+      "theme": "conferences",
+      "transcribed_entry": "Cybernetics. Transactions of the Seventh Conference on Cybernetics. March 23–24, 1950. Heinz von Foerster, Ed. New York, the Josiah Macy, Jr. Foundation.",
+      "source_paragraph": 7,
+      "review_status": "bibliographic_entry_transcribed",
+      "full_text_reviewed": false,
+      "notes": [
+        "Heinz von Foerster is named as editor, not sole author."
+      ],
+      "source_url": "https://stream.syscoi.com/2026/09/05/28544/",
+      "node_id": "publication_early_macy_seventh",
+      "reconciliation": "reconciled_work"
+    },
+    {
+      "id": "wiener-05",
+      "work_key": "fano-transmission",
+      "section": "selected-1952",
+      "title": "The Transmission of Information",
+      "authors": [
+        "Robert M. Fano"
+      ],
+      "date_as_listed": "1949",
+      "theme": "information",
+      "transcribed_entry": "Fano, R. M. The Transmission of Information. M.I.T. Research Laboratory of Electronics. Technical Report No. 65. Part II. Technical Report No. 149.",
+      "source_paragraph": 8,
+      "review_status": "selected_passages_reviewed",
+      "full_text_reviewed": false,
+      "notes": [
+        "One source entry names two reports, TR 65 and Part II/TR 149. The inspected full text is TR 65, dated 17 March 1949; TR 149 remains a separate research lead."
+      ],
+      "source_url": "https://stream.syscoi.com/2026/09/05/28544/",
+      "node_id": "publication_early_fano_transmission",
+      "reconciliation": "reconciled_work",
+      "primary_url": "https://hcs64.com/files/fano-tr65-ocr.pdf",
+      "review_locator": "TR 65: abstract, introduction, and sections I–III; TR 149 not inspected"
+    },
+    {
+      "id": "wiener-06",
+      "work_key": "weaver-complexity",
+      "section": "selected-1952",
+      "title": "Science and Complexity",
+      "authors": [
+        "Warren Weaver"
+      ],
+      "date_as_listed": "1948",
+      "theme": "complexity",
+      "transcribed_entry": "Weaver, Warren. ‘Science and Complexity,’ American Scientist, Vol. 36, No. 4, 536–544.",
+      "source_paragraph": 9,
+      "review_status": "bibliographic_entry_transcribed",
+      "full_text_reviewed": false,
+      "notes": [],
+      "source_url": "https://stream.syscoi.com/2026/09/05/28544/",
+      "node_id": "publication_fpcs_010",
+      "reconciliation": "existing_atlas_work"
+    },
+    {
+      "id": "wiener-07",
+      "work_key": "wiener-cybernetics",
+      "section": "selected-1952",
+      "title": "Cybernetics: Or Control and Communication in the Animal and the Machine",
+      "authors": [
+        "Norbert Wiener"
+      ],
+      "date_as_listed": "1948",
+      "theme": "cybernetics",
+      "transcribed_entry": "Wiener, Norbert. Cybernetics. Cambridge, Mass. Technology Press. 1948.",
+      "source_paragraph": 10,
+      "review_status": "bibliographic_entry_transcribed",
+      "full_text_reviewed": false,
+      "notes": [],
+      "source_url": "https://stream.syscoi.com/2026/09/05/28544/",
+      "node_id": "publication_early_wiener_cybernetics",
+      "reconciliation": "reconciled_work"
+    },
+    {
+      "id": "wiener-08",
+      "work_key": "wiener-human",
+      "section": "selected-1952",
+      "title": "The Human Use of Human Beings",
+      "authors": [
+        "Norbert Wiener"
+      ],
+      "date_as_listed": "1950",
+      "theme": "society",
+      "transcribed_entry": "Wiener, Norbert. The Human Use of Human Beings. Boston, 1950; London, Eyre and Spottiswoode.",
+      "source_paragraph": 11,
+      "review_status": "bibliographic_entry_transcribed",
+      "full_text_reviewed": false,
+      "notes": [],
+      "source_url": "https://stream.syscoi.com/2026/09/05/28544/",
+      "node_id": "publication_early_wiener_human",
+      "reconciliation": "reconciled_work"
+    },
+    {
+      "id": "wiener-09",
+      "work_key": "ashby-brain",
+      "section": "short-1956",
+      "title": "Design for a Brain",
+      "authors": [
+        "W. Ross Ashby"
+      ],
+      "date_as_listed": "1952",
+      "theme": "adaptation",
+      "transcribed_entry": "Ashby, W. Ross, Design for a Brain, John Wiley & Sons, Inc., New York (Chapman & Hall, Ltd., London), 1952.",
+      "source_paragraph": 15,
+      "review_status": "selected_passages_reviewed",
+      "full_text_reviewed": false,
+      "notes": [],
+      "source_url": "https://stream.syscoi.com/2026/09/05/28544/",
+      "node_id": "publication_early_ashby_brain",
+      "reconciliation": "reconciled_work",
+      "primary_url": "https://ia801406.us.archive.org/18/items/designforbrain00ashb/designforbrain00ashb.pdf",
+      "review_locator": "1954 corrected reprint: preface, 3/14, 8/4–8/7"
+    },
+    {
+      "id": "wiener-10",
+      "work_key": "bell-information",
+      "section": "short-1956",
+      "title": "Information Theory and its Engineering Applications",
+      "authors": [
+        "D. A. Bell"
+      ],
+      "date_as_listed": "1953",
+      "theme": "information",
+      "transcribed_entry": "Bell, D. A., Information Theory and its Engineering Applications, Sir Isaac Pitman & Sons, London, 1953.",
+      "source_paragraph": 16,
+      "review_status": "bibliographic_entry_transcribed",
+      "full_text_reviewed": false,
+      "notes": [],
+      "source_url": "https://stream.syscoi.com/2026/09/05/28544/",
+      "node_id": "publication_early_bell_information",
+      "reconciliation": "reconciled_work"
+    },
+    {
+      "id": "wiener-11",
+      "work_key": "berkeley-brains",
+      "section": "short-1956",
+      "title": "Giant Brains, or Machines That Think",
+      "authors": [
+        "E. C. Berkeley"
+      ],
+      "date_as_listed": "1949",
+      "theme": "computing",
+      "transcribed_entry": "Berkeley, E. C., Giant Brains, or Machines That Think, John Wiley & Sons, Inc., New York, 1949.",
+      "source_paragraph": 17,
+      "review_status": "bibliographic_entry_transcribed",
+      "full_text_reviewed": false,
+      "notes": [],
+      "source_url": "https://stream.syscoi.com/2026/09/05/28544/",
+      "node_id": "publication_early_berkeley_brains",
+      "reconciliation": "reconciled_work"
+    },
+    {
+      "id": "wiener-12",
+      "work_key": "brillouin-science",
+      "section": "short-1956",
+      "title": "Science and Information Theory",
+      "authors": [
+        "Léon Brillouin"
+      ],
+      "date_as_listed": "1956",
+      "theme": "information",
+      "transcribed_entry": "Brillouin, L., Science and Information Theory, Academic Press, New York, 1956.",
+      "source_paragraph": 18,
+      "review_status": "bibliographic_entry_transcribed",
+      "full_text_reviewed": false,
+      "notes": [],
+      "source_url": "https://stream.syscoi.com/2026/09/05/28544/",
+      "node_id": "publication_early_brillouin_science",
+      "reconciliation": "reconciled_work"
+    },
+    {
+      "id": "wiener-13",
+      "work_key": "broglie-cybernetique",
+      "section": "short-1956",
+      "title": "La Cybernétique",
+      "authors": [
+        "Louis de Broglie"
+      ],
+      "date_as_listed": "1951",
+      "theme": "cybernetics",
+      "transcribed_entry": "de Broglie, L., ‘La Cybernétique,’ report of Conference in Paris, 1951, published by Rev. opt. (165 rue de Sèvres, Paris).",
+      "source_paragraph": 19,
+      "review_status": "bibliographic_entry_transcribed",
+      "full_text_reviewed": false,
+      "notes": [],
+      "source_url": "https://stream.syscoi.com/2026/09/05/28544/",
+      "node_id": "publication_early_broglie_cybernetique",
+      "reconciliation": "reconciled_work"
+    },
+    {
+      "id": "wiener-14",
+      "work_key": "cherry-communication",
+      "section": "short-1956",
+      "title": "On Human Communication",
+      "authors": [
+        "Colin Cherry"
+      ],
+      "date_as_listed": "1957",
+      "theme": "information",
+      "transcribed_entry": "Cherry, C., On Human Communication, The Technology Press of M.I.T. & John Wiley & Sons, Inc., New York, (Chapman & Hall, Ltd., London), 1957.",
+      "source_paragraph": 20,
+      "review_status": "bibliographic_entry_transcribed",
+      "full_text_reviewed": false,
+      "notes": [
+        "The list is described as 1956, but this item gives 1957. Preserve both dates; the typescript’s exact date needs archival verification."
+      ],
+      "source_url": "https://stream.syscoi.com/2026/09/05/28544/",
+      "node_id": "publication_early_cherry_communication",
+      "reconciliation": "reconciled_work"
+    },
+    {
+      "id": "wiener-15",
+      "work_key": "macy-seven-ten",
+      "section": "short-1956",
+      "title": "Conferences on Cybernetics: Transactions, Seventh to Tenth",
+      "authors": [],
+      "date_as_listed": "1950–1953",
+      "theme": "conferences",
+      "transcribed_entry": "Conferences on Cybernetics, Transactions, 7th (1950) to 10th (1953), Josiah Macy Jr. Foundation, New York.",
+      "source_paragraph": 21,
+      "review_status": "bibliographic_entry_transcribed",
+      "full_text_reviewed": false,
+      "notes": [
+        "A range of four conference volumes; overlaps the separately listed seventh conference, without being identical to it."
+      ],
+      "source_url": "https://stream.syscoi.com/2026/09/05/28544/",
+      "node_id": "publication_early_macy_seven_ten",
+      "reconciliation": "reconciled_work"
+    },
+    {
+      "id": "wiener-16",
+      "work_key": "gabor-lectures",
+      "section": "short-1956",
+      "title": "Lectures on Communication Theory",
+      "authors": [
+        "Dennis Gabor"
+      ],
+      "date_as_listed": "1951",
+      "theme": "information",
+      "transcribed_entry": "Gabor, D., Lectures on Communication Theory, published by M.I.T., Cambridge, Mass., 1951.",
+      "source_paragraph": 22,
+      "review_status": "bibliographic_entry_transcribed",
+      "full_text_reviewed": false,
+      "notes": [],
+      "source_url": "https://stream.syscoi.com/2026/09/05/28544/",
+      "node_id": "publication_early_gabor_lectures",
+      "reconciliation": "reconciled_work"
+    },
+    {
+      "id": "wiener-17",
+      "work_key": "goldman-information",
+      "section": "short-1956",
+      "title": "Information Theory",
+      "authors": [
+        "Stanford Goldman"
+      ],
+      "date_as_listed": "1953",
+      "theme": "information",
+      "transcribed_entry": "Goldman, S., Information Theory, Constable & Co., Ltd., London, 1953.",
+      "source_paragraph": 23,
+      "review_status": "bibliographic_entry_transcribed",
+      "full_text_reviewed": false,
+      "notes": [],
+      "source_url": "https://stream.syscoi.com/2026/09/05/28544/",
+      "node_id": "publication_early_goldman_information",
+      "reconciliation": "reconciled_work"
+    },
+    {
+      "id": "wiener-18",
+      "work_key": "hebb-organisation",
+      "section": "short-1956",
+      "title": "The Organization of Behavior",
+      "authors": [
+        "D. O. Hebb"
+      ],
+      "date_as_listed": "1949",
+      "theme": "learning",
+      "transcribed_entry": "Hebb, D. O., The Organization of Behavior, John Wiley & Sons, Inc., New York, (Chapman & Hall, Ltd., London), 1949.",
+      "source_paragraph": 24,
+      "review_status": "bibliographic_entry_transcribed",
+      "full_text_reviewed": false,
+      "notes": [],
+      "source_url": "https://stream.syscoi.com/2026/09/05/28544/",
+      "node_id": "publication_early_hebb_organisation",
+      "reconciliation": "reconciled_work"
+    },
+    {
+      "id": "wiener-19",
+      "work_key": "latil-machine",
+      "section": "short-1956",
+      "title": "Thinking by Machine",
+      "authors": [
+        "Pierre de Latil"
+      ],
+      "date_as_listed": "1956",
+      "theme": "computing",
+      "transcribed_entry": "de Latil, P., Thinking by Machine, Sidgwick & Jackson, London, 1956, translated from La Pensée Artificielle, Librairie Gallimard, Paris, 1953.",
+      "source_paragraph": 25,
+      "review_status": "bibliographic_entry_transcribed",
+      "full_text_reviewed": false,
+      "notes": [],
+      "source_url": "https://stream.syscoi.com/2026/09/05/28544/",
+      "node_id": "publication_early_latil_machine",
+      "reconciliation": "reconciled_work"
+    },
+    {
+      "id": "wiener-20",
+      "work_key": "locke-booth-translation",
+      "section": "short-1956",
+      "title": "Machine Translation of Languages",
+      "authors": [
+        "W. N. Locke",
+        "A. D. Booth"
+      ],
+      "date_as_listed": "1955",
+      "theme": "computing",
+      "transcribed_entry": "Locke, W. N., and A. D. Booth, Machine Translation of Languages, The Technology Press, M.I.T., and John Wiley and Sons, Inc., New York, 1955.",
+      "source_paragraph": 26,
+      "review_status": "bibliographic_entry_transcribed",
+      "full_text_reviewed": false,
+      "notes": [],
+      "source_url": "https://stream.syscoi.com/2026/09/05/28544/",
+      "node_id": "publication_early_locke_booth_translation",
+      "reconciliation": "reconciled_work"
+    },
+    {
+      "id": "wiener-21",
+      "work_key": "macmillan-control",
+      "section": "short-1956",
+      "title": "An Introduction to the Theory of Control",
+      "authors": [
+        "R. H. Macmillan"
+      ],
+      "date_as_listed": "1951",
+      "theme": "control",
+      "transcribed_entry": "Macmillan, R. H., An Introduction to the Theory of Control, Cambridge University Press, London, 1951.",
+      "source_paragraph": 27,
+      "review_status": "bibliographic_entry_transcribed",
+      "full_text_reviewed": false,
+      "notes": [],
+      "source_url": "https://stream.syscoi.com/2026/09/05/28544/",
+      "node_id": "publication_early_macmillan_control",
+      "reconciliation": "reconciled_work"
+    },
+    {
+      "id": "wiener-22",
+      "work_key": "morse-kimball-or",
+      "section": "short-1956",
+      "title": "Methods of Operations Research",
+      "authors": [
+        "P. M. Morse",
+        "G. E. Kimball"
+      ],
+      "date_as_listed": "1951",
+      "theme": "operations research",
+      "transcribed_entry": "Morse, P. M., and G. E. Kimball, Methods of Operations Research, John Wiley & Sons, Inc., New York, 1951.",
+      "source_paragraph": 28,
+      "review_status": "bibliographic_entry_transcribed",
+      "full_text_reviewed": false,
+      "notes": [],
+      "source_url": "https://stream.syscoi.com/2026/09/05/28544/",
+      "node_id": "publication_early_morse_kimball_or",
+      "reconciliation": "reconciled_work"
+    },
+    {
+      "id": "wiener-23",
+      "work_key": "london-communication",
+      "section": "short-1956",
+      "title": "Proceedings of the Second London Symposium on Applications of Communication Theory",
+      "authors": [],
+      "date_as_listed": "1953",
+      "theme": "conferences",
+      "transcribed_entry": "Proceedings Second London Symposium on Applications of Communication Theory, London, 1952, Butterworth Scientific Publication, London, 1953.",
+      "source_paragraph": 29,
+      "review_status": "bibliographic_entry_transcribed",
+      "full_text_reviewed": false,
+      "notes": [],
+      "source_url": "https://stream.syscoi.com/2026/09/05/28544/",
+      "node_id": "publication_early_london_communication",
+      "reconciliation": "reconciled_work"
+    },
+    {
+      "id": "wiener-24",
+      "work_key": "shannon-weaver-book",
+      "section": "short-1956",
+      "title": "The Mathematical Theory of Communication",
+      "authors": [
+        "Claude E. Shannon",
+        "Warren Weaver"
+      ],
+      "date_as_listed": "1949",
+      "theme": "information",
+      "transcribed_entry": "Shannon, C. E., and W. Weaver, The Mathematical Theory of Communication, University of Illinois Press, Urbana, 1949; published earlier in Bell System Tech. J., 27, 1948, pp. 379 and 623.",
+      "source_paragraph": 30,
+      "review_status": "selected_passages_reviewed",
+      "full_text_reviewed": false,
+      "notes": [],
+      "source_url": "https://stream.syscoi.com/2026/09/05/28544/",
+      "node_id": "publication_early_shannon_weaver_book",
+      "reconciliation": "reconciled_work",
+      "primary_url": "https://ia801403.us.archive.org/25/items/in.ernet.dli.2015.503815/2015.503815.The-Mathematical_text.pdf",
+      "review_locator": "1949 preface; Shannon pp. 3–5; Weaver pp. 95–99"
+    },
+    {
+      "id": "wiener-25",
+      "work_key": "walter-brain",
+      "section": "short-1956",
+      "title": "The Living Brain",
+      "authors": [
+        "W. Grey Walter"
+      ],
+      "date_as_listed": "1953",
+      "theme": "brain",
+      "transcribed_entry": "Walter, G., The Living Brain, Gerald Duckworth & Co., Ltd., London, 1953.",
+      "source_paragraph": 31,
+      "review_status": "bibliographic_entry_transcribed",
+      "full_text_reviewed": false,
+      "notes": [],
+      "source_url": "https://stream.syscoi.com/2026/09/05/28544/",
+      "node_id": "publication_early_walter_brain",
+      "reconciliation": "reconciled_work"
+    },
+    {
+      "id": "wiener-26",
+      "work_key": "wiener-cybernetics",
+      "section": "short-1956",
+      "title": "Cybernetics: Or Control and Communication in the Animal and the Machine",
+      "authors": [
+        "Norbert Wiener"
+      ],
+      "date_as_listed": "1948",
+      "theme": "cybernetics",
+      "transcribed_entry": "Wiener, N., Cybernetics, The Technology Press, M.I.T. and John Wiley & Sons, (Hermann et Cie., Paris), New York, 1948.",
+      "source_paragraph": 32,
+      "review_status": "bibliographic_entry_transcribed",
+      "full_text_reviewed": false,
+      "notes": [],
+      "source_url": "https://stream.syscoi.com/2026/09/05/28544/",
+      "node_id": "publication_early_wiener_cybernetics",
+      "reconciliation": "reconciled_work"
+    },
+    {
+      "id": "wiener-27",
+      "work_key": "wiener-human",
+      "section": "short-1956",
+      "title": "The Human Use of Human Beings",
+      "authors": [
+        "Norbert Wiener"
+      ],
+      "date_as_listed": "1950; 1954",
+      "theme": "society",
+      "transcribed_entry": "Wiener, N., The Human Use of Human Beings, The Houghton Mifflin Co., Boston, 1950 and Doubleday & Co., Inc., New York, 1954.",
+      "source_paragraph": 33,
+      "review_status": "bibliographic_entry_transcribed",
+      "full_text_reviewed": false,
+      "notes": [
+        "1950 first publication and 1954 revision are retained under one work, without treating their texts as identical."
+      ],
+      "source_url": "https://stream.syscoi.com/2026/09/05/28544/",
+      "node_id": "publication_early_wiener_human",
+      "reconciliation": "reconciled_work"
+    },
+    {
+      "id": "wiener-28",
+      "work_key": "woodward-radar",
+      "section": "short-1956",
+      "title": "Probability and Information Theory with Application to Radar",
+      "authors": [
+        "P. M. Woodward"
+      ],
+      "date_as_listed": "1953",
+      "theme": "information",
+      "transcribed_entry": "Woodward, P. M., Probability and Information Theory with Application to Radar, Pergamon Press, Ltd., London, 1953.",
+      "source_paragraph": 34,
+      "review_status": "bibliographic_entry_transcribed",
+      "full_text_reviewed": false,
+      "notes": [],
+      "source_url": "https://stream.syscoi.com/2026/09/05/28544/",
+      "node_id": "publication_early_woodward_radar",
+      "reconciliation": "reconciled_work"
+    },
+    {
+      "id": "wiener-29",
+      "work_key": "newsweek-brain",
+      "section": "popular-1951",
+      "title": "Brain is a Machine (Newsweek)",
+      "authors": [],
+      "date_as_listed": "1948-11-15",
+      "theme": "popular",
+      "transcribed_entry": "‘Brain is a Machine,’ Newsweek, Nov. 15, 1948.",
+      "source_paragraph": 38,
+      "review_status": "bibliographic_entry_transcribed",
+      "full_text_reviewed": false,
+      "notes": [],
+      "source_url": "https://stream.syscoi.com/2026/09/05/28544/",
+      "node_id": "publication_early_newsweek_brain",
+      "reconciliation": "reconciled_work"
+    },
+    {
+      "id": "wiener-30",
+      "work_key": "time-image",
+      "section": "popular-1951",
+      "title": "In Man’s Image",
+      "authors": [],
+      "date_as_listed": "1948-12-27",
+      "theme": "popular",
+      "transcribed_entry": "‘In Man’s Image,’ Time, Dec. 27, 1948.",
+      "source_paragraph": 39,
+      "review_status": "bibliographic_entry_transcribed",
+      "full_text_reviewed": false,
+      "notes": [],
+      "source_url": "https://stream.syscoi.com/2026/09/05/28544/",
+      "node_id": "publication_early_time_image",
+      "reconciliation": "reconciled_work"
+    },
+    {
+      "id": "wiener-31",
+      "work_key": "sat-review-image",
+      "section": "popular-1951",
+      "title": "Machine in Man’s Image",
+      "authors": [],
+      "date_as_listed": "1949-01-08",
+      "theme": "popular",
+      "transcribed_entry": "‘Machine in Man’s Image,’ Sat. Review, Jan. 8, 1949.",
+      "source_paragraph": 40,
+      "review_status": "bibliographic_entry_transcribed",
+      "full_text_reviewed": false,
+      "notes": [],
+      "source_url": "https://stream.syscoi.com/2026/09/05/28544/",
+      "node_id": "publication_early_sat_review_image",
+      "reconciliation": "reconciled_work"
+    },
+    {
+      "id": "wiener-32",
+      "work_key": "digest-brain",
+      "section": "popular-1951",
+      "title": "Brain is a Machine (Science Digest)",
+      "authors": [],
+      "date_as_listed": "1949-02",
+      "theme": "popular",
+      "transcribed_entry": "‘Brain is a Machine,’ Science Digest, Feb. 1949.",
+      "source_paragraph": 41,
+      "review_status": "bibliographic_entry_transcribed",
+      "full_text_reviewed": false,
+      "notes": [],
+      "source_url": "https://stream.syscoi.com/2026/09/05/28544/",
+      "node_id": "publication_early_digest_brain",
+      "reconciliation": "reconciled_work"
+    },
+    {
+      "id": "wiener-33",
+      "work_key": "business-machines",
+      "section": "popular-1951",
+      "title": "Machines that Think",
+      "authors": [],
+      "date_as_listed": "1949-02-19",
+      "theme": "popular",
+      "transcribed_entry": "‘Machines that Think,’ Business Week, Feb. 19, 1949.",
+      "source_paragraph": 42,
+      "review_status": "bibliographic_entry_transcribed",
+      "full_text_reviewed": false,
+      "notes": [],
+      "source_url": "https://stream.syscoi.com/2026/09/05/28544/",
+      "node_id": "publication_early_business_machines",
+      "reconciliation": "reconciled_work"
+    },
+    {
+      "id": "wiener-34",
+      "work_key": "eisenhart-discipline",
+      "section": "popular-1951",
+      "title": "Cybernetics, a New Discipline",
+      "authors": [
+        "C. Eisenhart"
+      ],
+      "date_as_listed": "1949-04-22",
+      "theme": "popular",
+      "transcribed_entry": "C. Eisenhart, ‘Cybernetics, a New Discipline,’ Science, Apr. 22, 1949.",
+      "source_paragraph": 43,
+      "review_status": "bibliographic_entry_transcribed",
+      "full_text_reviewed": false,
+      "notes": [],
+      "source_url": "https://stream.syscoi.com/2026/09/05/28544/",
+      "node_id": "publication_early_eisenhart_discipline",
+      "reconciliation": "reconciled_work"
+    },
+    {
+      "id": "wiener-35",
+      "work_key": "thurston-review",
+      "section": "popular-1951",
+      "title": "Review of Cybernetics (J. B. Thurston)",
+      "authors": [
+        "J. B. Thurston"
+      ],
+      "date_as_listed": "1949-04-23",
+      "theme": "popular",
+      "transcribed_entry": "J. B. Thurston, Review of Cybernetics, The Sat. Rev., Apr. 23, 1949.",
+      "source_paragraph": 44,
+      "review_status": "bibliographic_entry_transcribed",
+      "full_text_reviewed": false,
+      "notes": [],
+      "source_url": "https://stream.syscoi.com/2026/09/05/28544/",
+      "node_id": "publication_early_thurston_review",
+      "reconciliation": "reconciled_work"
+    },
+    {
+      "id": "wiener-36",
+      "work_key": "trimmer-instrumentation",
+      "section": "popular-1951",
+      "title": "Instrumentation and Cybernetics",
+      "authors": [
+        "J. D. Trimmer"
+      ],
+      "date_as_listed": "1949-11",
+      "theme": "popular",
+      "transcribed_entry": "J. D. Trimmer, ‘Instrumentation and Cybernetics,’ Scientific Monthly, Nov. 1949.",
+      "source_paragraph": 45,
+      "review_status": "bibliographic_entry_transcribed",
+      "full_text_reviewed": false,
+      "notes": [],
+      "source_url": "https://stream.syscoi.com/2026/09/05/28544/",
+      "node_id": "publication_early_trimmer_instrumentation",
+      "reconciliation": "reconciled_work"
+    },
+    {
+      "id": "wiener-37",
+      "work_key": "time-thinking",
+      "section": "popular-1951",
+      "title": "Thinking Machine",
+      "authors": [],
+      "date_as_listed": "1950-01-23",
+      "theme": "popular",
+      "transcribed_entry": "‘Thinking Machine,’ Time, Jan. 23, 1950.",
+      "source_paragraph": 46,
+      "review_status": "bibliographic_entry_transcribed",
+      "full_text_reviewed": false,
+      "notes": [],
+      "source_url": "https://stream.syscoi.com/2026/09/05/28544/",
+      "node_id": "publication_early_time_thinking",
+      "reconciliation": "reconciled_work"
+    },
+    {
+      "id": "wiener-38",
+      "work_key": "standen-mind",
+      "section": "popular-1951",
+      "title": "Mind and/or Machine",
+      "authors": [
+        "A. Standen"
+      ],
+      "date_as_listed": "1950-05-27",
+      "theme": "popular",
+      "transcribed_entry": "A. Standen, ‘Mind and/or Machine,’ Commonweal, May 27, 1950.",
+      "source_paragraph": 47,
+      "review_status": "bibliographic_entry_transcribed",
+      "full_text_reviewed": false,
+      "notes": [],
+      "source_url": "https://stream.syscoi.com/2026/09/05/28544/",
+      "node_id": "publication_early_standen_mind",
+      "reconciliation": "reconciled_work"
+    },
+    {
+      "id": "wiener-39",
+      "work_key": "starr-review",
+      "section": "popular-1951",
+      "title": "Review of The Human Use of Human Beings (Mark Starr)",
+      "authors": [
+        "Mark Starr"
+      ],
+      "date_as_listed": "1950-08-19",
+      "theme": "popular",
+      "transcribed_entry": "Mark Starr, Review of The Human Use of Human Beings, The Sat. Review, Aug. 19, 1950.",
+      "source_paragraph": 48,
+      "review_status": "bibliographic_entry_transcribed",
+      "full_text_reviewed": false,
+      "notes": [],
+      "source_url": "https://stream.syscoi.com/2026/09/05/28544/",
+      "node_id": "publication_early_starr_review",
+      "reconciliation": "reconciled_work"
+    },
+    {
+      "id": "wiener-40",
+      "work_key": "edman-matter",
+      "section": "popular-1951",
+      "title": "Mind in Matter",
+      "authors": [
+        "Irwin Edman"
+      ],
+      "date_as_listed": "1950-10-14",
+      "theme": "popular",
+      "transcribed_entry": "Irwin Edman, ‘Mind in Matter,’ New Yorker, Oct. 14, 1950.",
+      "source_paragraph": 49,
+      "review_status": "bibliographic_entry_transcribed",
+      "full_text_reviewed": false,
+      "notes": [],
+      "source_url": "https://stream.syscoi.com/2026/09/05/28544/",
+      "node_id": "publication_early_edman_matter",
+      "reconciliation": "reconciled_work"
+    },
+    {
+      "id": "wiener-41",
+      "work_key": "time-feedback",
+      "section": "popular-1951",
+      "title": "Feed back to Idiocy",
+      "authors": [],
+      "date_as_listed": "1951-01-08",
+      "theme": "popular",
+      "transcribed_entry": "‘Feed back to Idiocy,’ Time, Jan. 8, 1951.",
+      "source_paragraph": 50,
+      "review_status": "bibliographic_entry_transcribed",
+      "full_text_reviewed": false,
+      "notes": [],
+      "source_url": "https://stream.syscoi.com/2026/09/05/28544/",
+      "node_id": "publication_early_time_feedback",
+      "reconciliation": "reconciled_work"
+    },
+    {
+      "id": "wiener-42",
+      "work_key": "current-biography",
+      "section": "popular-1951",
+      "title": "Current Biography, March 1951 (unidentified entry)",
+      "authors": [],
+      "date_as_listed": "1951-03",
+      "theme": "popular",
+      "transcribed_entry": "Current Biography, March 1951.",
+      "source_paragraph": 51,
+      "review_status": "bibliographic_entry_transcribed",
+      "full_text_reviewed": false,
+      "notes": [
+        "No article title or author supplied. Retained as an unresolved issue reference, without an invented publication identity."
+      ],
+      "source_url": "https://stream.syscoi.com/2026/09/05/28544/",
+      "node_id": null,
+      "reconciliation": "unresolved_reference"
+    },
+    {
+      "id": "wiener-43",
+      "work_key": "lagemann-robots",
+      "section": "popular-1951",
+      "title": "If Robots Run the Works",
+      "authors": [
+        "J. K. Lagemann"
+      ],
+      "date_as_listed": "1951-03",
+      "theme": "popular",
+      "transcribed_entry": "‘If Robots Run the Works,’ J. K. Lagemann, Nation’s Business, March 1951.",
+      "source_paragraph": 52,
+      "review_status": "bibliographic_entry_transcribed",
+      "full_text_reviewed": false,
+      "notes": [],
+      "source_url": "https://stream.syscoi.com/2026/09/05/28544/",
+      "node_id": "publication_early_lagemann_robots",
+      "reconciliation": "reconciled_work"
+    },
+    {
+      "id": "wiener-44",
+      "work_key": "wiener-robots",
+      "section": "popular-wiener",
+      "title": "World of Robot Brains",
+      "authors": [
+        "Norbert Wiener"
+      ],
+      "date_as_listed": "1949-09",
+      "theme": "popular",
+      "transcribed_entry": "‘World of Robot Brains,’ Science Digest, Sept. 1949.",
+      "source_paragraph": 54,
+      "review_status": "bibliographic_entry_transcribed",
+      "full_text_reviewed": false,
+      "notes": [],
+      "source_url": "https://stream.syscoi.com/2026/09/05/28544/",
+      "node_id": "publication_early_wiener_robots",
+      "reconciliation": "reconciled_work"
+    },
+    {
+      "id": "wiener-45",
+      "work_key": "wiener-feelings",
+      "section": "popular-wiener",
+      "title": "Electric Brains with Feelings",
+      "authors": [
+        "Norbert Wiener"
+      ],
+      "date_as_listed": "1949-09",
+      "theme": "popular",
+      "transcribed_entry": "‘Electric Brains with Feelings,’ Science Digest, Sept. 1949.",
+      "source_paragraph": 55,
+      "review_status": "bibliographic_entry_transcribed",
+      "full_text_reviewed": false,
+      "notes": [],
+      "source_url": "https://stream.syscoi.com/2026/09/05/28544/",
+      "node_id": "publication_early_wiener_feelings",
+      "reconciliation": "reconciled_work"
+    },
+    {
+      "id": "wiener-46",
+      "work_key": "wiener-enterprise",
+      "section": "popular-wiener",
+      "title": "Too Big for Private Enterprise",
+      "authors": [
+        "Norbert Wiener"
+      ],
+      "date_as_listed": "1950-05-20",
+      "theme": "society",
+      "transcribed_entry": "‘Too Big for Private Enterprise,’ Nation, May 20, 1950.",
+      "source_paragraph": 56,
+      "review_status": "bibliographic_entry_transcribed",
+      "full_text_reviewed": false,
+      "notes": [],
+      "source_url": "https://stream.syscoi.com/2026/09/05/28544/",
+      "node_id": "publication_early_wiener_enterprise",
+      "reconciliation": "reconciled_work"
+    },
+    {
+      "id": "wiener-47",
+      "work_key": "wiener-close",
+      "section": "popular-wiener",
+      "title": "Too Damn Close",
+      "authors": [
+        "Norbert Wiener"
+      ],
+      "date_as_listed": "1950-07",
+      "theme": "society",
+      "transcribed_entry": "‘Too Damn Close,’ Atlantic Monthly, July 1950.",
+      "source_paragraph": 57,
+      "review_status": "selected_passages_reviewed",
+      "full_text_reviewed": false,
+      "notes": [],
+      "source_url": "https://stream.syscoi.com/2026/09/05/28544/",
+      "node_id": "publication_early_wiener_close",
+      "reconciliation": "reconciled_work",
+      "primary_url": "https://www.theatlantic.com/magazine/archive/1950/07/too-damn-close/639607/",
+      "review_locator": "Sections 1 and 2"
+    },
+    {
+      "id": "wiener-48",
+      "work_key": "wiener-cities",
+      "section": "popular-wiener",
+      "title": "How U.S. Cities Can Prepare for Atomic War",
+      "authors": [
+        "Norbert Wiener",
+        "Karl W. Deutsch",
+        "Giorgio de Santillana"
+      ],
+      "date_as_listed": "1950-12-18",
+      "theme": "society",
+      "transcribed_entry": "‘How U.S. Cities Can Prepare for Atomic War,’ with Karl Deutsch, Giorgio de Santillana, etc., Life, Dec. 18, 1950.",
+      "source_paragraph": 58,
+      "review_status": "bibliographic_entry_transcribed",
+      "full_text_reviewed": false,
+      "notes": [
+        "The source says “etc.” after named collaborators; this is not asserted to be a complete author list."
+      ],
+      "source_url": "https://stream.syscoi.com/2026/09/05/28544/",
+      "node_id": "publication_early_wiener_cities",
+      "reconciliation": "reconciled_work"
+    }
+  ],
+  "barrett_shepard_named_works": [
+    {
+      "title": "The Wisdom of the Body",
+      "author": "Walter B. Cannon",
+      "role": "Named in the introduction as strongly consonant with cybernetics. This is the compilers’ assessment.",
+      "node_id": "publication_early_the_wisdom_of_the_body"
+    },
+    {
+      "title": "The Functions of the Executive",
+      "author": "Chester I. Barnard",
+      "role": "Named as a less clear-cut inclusion for scattered insights. This does not establish a cybernetic theory of organisation.",
+      "node_id": "publication_early_the_functions_of_the_executive"
+    }
+  ],
+  "summary": {
+    "available_entries": 48,
+    "distinct_work_keys": 46,
+    "resolved_work_count": 45,
+    "unresolved_references": 1,
+    "selected_passage_reviews": 4,
+    "metadata_checks": 1,
+    "barrett_shepard_bibliography_rows_available": 0
+  }
+}
