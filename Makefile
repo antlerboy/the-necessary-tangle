@@ -81,6 +81,7 @@ build-base:
 apply-current:
 	python3 scripts/apply_release_22.py
 	python3 scripts/build_public_knowledge.py
+	python3 scripts/integrate_systems_events.py
 
 validate: build-base
 	python3 scripts/validate_work_spine.py
