@@ -28,3 +28,7 @@ Benjamin P Taylor remains responsible for the material accepted into each public
 
 
 Release 0.17 particularly acknowledges Ida Rose Florez for the challenge about closed epistemological systems, patriarchy and the visible canon; Magnus Ramage and Karen Shipp for making the boundary choices in systems history discussable; Michael C. Jackson for the critical systems programme; and Jo Freeman and Miranda Fricker for concepts which sharpen the treatment of structure, power and knowing.
+
+## Early cybernetics source discovery
+
+Sean Manion, @TheUnjournaling, shared the historical Wiener reading lists and the Barrett–Shepard bibliography introduction used in release 0.22. Systems Community of Inquiry supplied the linked transcriptions. Norbert Wiener, F. Dermot Barrett, Herbert A. Shepard, and the authors and editors of the listed publications retain their separate credits. Source discovery, compilation, transcription, and authorship are distinct contributions.

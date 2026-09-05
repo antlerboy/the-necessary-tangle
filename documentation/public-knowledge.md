@@ -1,7 +1,7 @@
 # The Necessary Tangle: public knowledge file
 
 Curated by Benjamin P Taylor — https://www.antlerboy.com/
-Generated from public release 0.20-prior-maps-alpha on 2026-08-25.
+Generated from public release 0.22 on 2026-09-05.
 
 A living evidence atlas of systems | cybernetics | complexity.
 Every connection must say what it means. Historical sequence, logical dependence, influence, teaching, collaboration, practical use, comparison and dispute are not interchangeable.
@@ -66,6 +66,53 @@ It is useful for testing atlas coverage and search language. It is not evidence 
 ### Sources
 
 - 32 Key Concepts in Systems Thinking and Complexity Theory — https://unfix.com/blog/32-key-concepts
+
+## A Bibliography of Cybernetics (Barrett and Shepard, 1951)
+
+Type: Comparator corpus
+Public depth: profile
+
+The introduction frames cybernetics for social scientists through information and control. It declares six categories and acknowledges selective inclusion.
+
+### Summary
+
+The introduction frames cybernetics for social scientists through information and control. It declares six categories and acknowledges selective inclusion.
+
+### Why it matters
+
+The stated audience helps explain the bibliography’s boundary.
+
+### Key distinctions
+
+- Available introduction versus missing bibliography
+
+### Historical development
+
+[]
+
+### Ideas it depends on
+
+[]
+
+### What develops from it
+
+[]
+
+### Connections to practice
+
+- Whose work would this selection rule make visible?
+
+### Common confusions
+
+[]
+
+### Open questions and checks
+
+- Recover the bibliography pages before claiming an item-level review of the full work.
+
+### Sources
+
+- A Bibliography of Cybernetics — introduction — https://stream.syscoi.com/2026/09/05/a-bibliography-of-cybernetics-dermot-barrett-and-shephard-mit-1951/
 
 ## A Formal Theory of Inductive Inference, Part 1
 
@@ -271,6 +318,17 @@ A bibliographic first-pass person entry for A. Cobham, listed by the official Fo
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
 
+## A. D. Booth
+
+Type: Person
+Public depth: described
+
+Named in the historical reading list as an author or editor of Machine Translation of Languages. The record provides a bibliographic route; a fuller biography remains to be researched.
+
+### Sources
+
+- Wiener’s selected readings on cybernetics, 1951, 1952, 1956 — https://stream.syscoi.com/2026/09/05/28544/
+
 ## A. J. Lotka
 
 Type: Person
@@ -303,6 +361,17 @@ A bibliographic first-pass person entry for A. S. Perelson, listed by the offici
 ### Sources
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## A. Standen
+
+Type: Person
+Public depth: described
+
+Named in the historical reading list as an author or editor of Mind and/or Machine. The record provides a bibliographic route; a fuller biography remains to be researched.
+
+### Sources
+
+- Wiener’s selected readings on cybernetics, 1951, 1952, 1956 — https://stream.syscoi.com/2026/09/05/28544/
 
 ## Action learning
 
@@ -581,6 +650,17 @@ His co-authorship is part of the book's intellectual and practical provenance an
 ### Sources
 
 - Organizational Systems: Managing Complexity with the Viable System Model — https://link.springer.com/book/10.1007/978-3-642-19109-1
+
+## An Introduction to the Theory of Control
+
+Type: Publication
+Public depth: described
+
+An Introduction to the Theory of Control. Listed in Wiener’s historical cybernetics reading material; the supplied citation gives 1951. This entry records the work and its bibliographic context. The full text has not been assessed in this intake.
+
+### Sources
+
+- Wiener’s selected readings on cybernetics, 1951, 1952, 1956 — https://stream.syscoi.com/2026/09/05/28544/
 
 ## Anatol Rapoport
 
@@ -1234,6 +1314,28 @@ It is a useful antidote to method fundamentalism. It also imposes work: the boun
 
 - Cynefin — Cynefin.io — https://cynefin.io/wiki/Cynefin
 
+## Brain is a Machine (Newsweek)
+
+Type: Publication
+Public depth: described
+
+Brain is a Machine (Newsweek). Listed in Wiener’s historical cybernetics reading material; the supplied citation gives 1948-11-15. This entry records the work and its bibliographic context. The full text has not been assessed in this intake.
+
+### Sources
+
+- Wiener’s selected readings on cybernetics, 1951, 1952, 1956 — https://stream.syscoi.com/2026/09/05/28544/
+
+## Brain is a Machine (Science Digest)
+
+Type: Publication
+Public depth: described
+
+Brain is a Machine (Science Digest). Listed in Wiener’s historical cybernetics reading material; the supplied citation gives 1949-02. This entry records the work and its bibliographic context. The full text has not been assessed in this intake.
+
+### Sources
+
+- Wiener’s selected readings on cybernetics, 1951, 1952, 1956 — https://stream.syscoi.com/2026/09/05/28544/
+
 ## Bruce Edmonds
 
 Type: Person
@@ -1257,6 +1359,17 @@ The Bubble Strategy is an approach to organisational change in which protected, 
 
 - SCiO CF Resources v9 draft — No public link
 - The bubble strategy: A case study of dynamic, defensible processes of change in Salford — https://www.systemspractice.org/resources/bubble-strategy-case-study-dynamic-defensible-processes-change-salford
+
+## C. Eisenhart
+
+Type: Person
+Public depth: described
+
+Named in the historical reading list as an author or editor of Cybernetics, a New Discipline. The record provides a bibliographic route; a fuller biography remains to be researched.
+
+### Sources
+
+- Wiener’s selected readings on cybernetics, 1951, 1952, 1956 — https://stream.syscoi.com/2026/09/05/28544/
 
 ## C. G. Langton
 
@@ -1464,6 +1577,17 @@ Chaos theory studies deterministic dynamical systems whose trajectories can show
 - SCiO SysBoK - Feedback v1 — No public link
 - Introduction to Complexity (Santa Fe Institute Complexity Explorer) — https://www.complexityexplorer.org/courses/185-introduction-to-complexity
 
+## Chester I. Barnard
+
+Type: Person
+Public depth: described
+
+Author identified through the work discussed in the Barrett–Shepard introduction. This bibliographic connection is distinct from membership in a cybernetics school.
+
+### Sources
+
+- A Bibliography of Cybernetics — introduction — https://stream.syscoi.com/2026/09/05/a-bibliography-of-cybernetics-dermot-barrett-and-shephard-mit-1951/
+
 ## Choose Kindness
 
 Type: Practice
@@ -1575,6 +1699,7 @@ Mathematician and electrical engineer whose 1948 paper established mathematical 
 
 - A Mathematical Theory of Communication — https://doi.org/10.1002/j.1538-7305.1948.tb01338.x
 - Lineages of Systems Practice — Damian Allen — No public link
+- Wiener’s selected readings on cybernetics, 1951, 1952, 1956 — https://stream.syscoi.com/2026/09/05/28544/
 
 ## Cliff Joslyn
 
@@ -1724,6 +1849,17 @@ Organisations commonly oscillate between silos and centralisation. Cohesion offe
 - Viable System Model - Metaphorum — https://metaphorum.org/staffords-work/viable-system-model
 - Benjamin Taylor VSM lecture — No public link
 - Systems convening and boundaries core slides — No public link
+
+## Colin Cherry
+
+Type: Person
+Public depth: described
+
+Named in the historical reading list as an author or editor of On Human Communication. The record provides a bibliographic route; a fuller biography remains to be researched.
+
+### Sources
+
+- Wiener’s selected readings on cybernetics, 1951, 1952, 1956 — https://stream.syscoi.com/2026/09/05/28544/
 
 ## Collective Action and the Evolution of Social Norms
 
@@ -2015,6 +2151,17 @@ Under the 1970 paper's explicit assumptions and entropy-minimising criterion, th
 - The Grammar of Systems II: From Order to Chaos and Back Again, 2nd edition — https://www.systemspractice.org/resources/grammar-systems-ii-order-chaos-back-again-2nd-ed
 - Every Good Regulator of a System Must Be a Model of That System — https://doi.org/10.1080/00207727008920220
 - Cybersecurity Lessons from The Grammar of Systems, part 3 — https://www.linkedin.com/pulse/cybersecurity-lessons-from-grammar-systems-order-chaos-osama-salah-2f
+
+## Conferences on Cybernetics: Transactions, Seventh to Tenth
+
+Type: Publication
+Public depth: described
+
+Conferences on Cybernetics: Transactions, Seventh to Tenth. Listed in Wiener’s historical cybernetics reading material; the supplied citation gives 1950–1953. This entry records the work and its bibliographic context. The full text has not been assessed in this intake.
+
+### Sources
+
+- Wiener’s selected readings on cybernetics, 1951, 1952, 1956 — https://stream.syscoi.com/2026/09/05/28544/
 
 ## Confrontation Analysis (CONAN)
 
@@ -2386,6 +2533,28 @@ Cybernetics studies regulation, communication, circular causality, learning and 
 - Cybernetics or Control and Communication in the Animal and the Machine — https://mitpress.mit.edu/9780262537841/cybernetics-or-control-and-communication-in-the-animal-and-the-machine/
 - Lineages of Systems Practice — Damian Allen — No public link
 
+## Cybernetics, a New Discipline
+
+Type: Publication
+Public depth: described
+
+Cybernetics, a New Discipline. Listed in Wiener’s historical cybernetics reading material; the supplied citation gives 1949-04-22. This entry records the work and its bibliographic context. The full text has not been assessed in this intake.
+
+### Sources
+
+- Wiener’s selected readings on cybernetics, 1951, 1952, 1956 — https://stream.syscoi.com/2026/09/05/28544/
+
+## Cybernetics: Or Control and Communication in the Animal and the Machine
+
+Type: Publication
+Public depth: described
+
+Cybernetics: Or Control and Communication in the Animal and the Machine. Listed in Wiener’s historical cybernetics reading material; the supplied citation gives 1948. This entry records the work and its bibliographic context. The full text has not been assessed in this intake.
+
+### Sources
+
+- Wiener’s selected readings on cybernetics, 1951, 1952, 1956 — https://stream.syscoi.com/2026/09/05/28544/
+
 ## Cynefin framework
 
 Type: Method or methodology
@@ -2639,6 +2808,17 @@ Cynefin's early scholarly development was collaborative. Representing Kurtz sepa
 
 - The New Dynamics of Strategy: Sense-making in a Complex and Complicated World — https://thecynefin.co/library/the-new-dynamics-of-strategy-sense-making-in-a-complex-and-complicated-world/
 
+## D. A. Bell
+
+Type: Person
+Public depth: described
+
+Named in the historical reading list as an author or editor of Information Theory and its Engineering Applications. The record provides a bibliographic route; a fuller biography remains to be researched.
+
+### Sources
+
+- Wiener’s selected readings on cybernetics, 1951, 1952, 1956 — https://stream.syscoi.com/2026/09/05/28544/
+
 ## D. H. Wolpert
 
 Type: Person
@@ -2660,6 +2840,17 @@ A bibliographic first-pass person entry for D. M. Raup, listed by the official F
 ### Sources
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## D. O. Hebb
+
+Type: Person
+Public depth: described
+
+Named in the historical reading list as an author or editor of The Organization of Behavior. The record provides a bibliographic route; a fuller biography remains to be researched.
+
+### Sources
+
+- Wiener’s selected readings on cybernetics, 1951, 1952, 1956 — https://stream.syscoi.com/2026/09/05/28544/
 
 ## D. Pines
 
@@ -3184,6 +3375,65 @@ Deming's management approach joins appreciation for a system, knowledge of varia
 - SCiO Professional Accreditation and Competency Framework — https://www.systemspractice.org/professional-accreditation
 - The Deming Philosophy — https://deming.org/the-deming-philosophy/
 
+## Dennis Gabor
+
+Type: Person
+Public depth: described
+
+Named in the historical reading list as an author or editor of Lectures on Communication Theory. The record provides a bibliographic route; a fuller biography remains to be researched.
+
+### Sources
+
+- Wiener’s selected readings on cybernetics, 1951, 1952, 1956 — https://stream.syscoi.com/2026/09/05/28544/
+
+## Design for a Brain
+
+Type: Publication
+Public depth: profile
+
+Ashby develops a model of adaptive behaviour centred on stability, essential variables, and ultrastability. The inspected copy is a corrected 1954 reprint of the 1952 edition.
+
+### Summary
+
+Ashby develops a model of adaptive behaviour centred on stability, essential variables, and ultrastability. The inspected copy is a corrected 1954 reprint of the 1952 edition.
+
+### Why it matters
+
+The model makes explicit what must be preserved while behaviour changes.
+
+### Key distinctions
+
+- 1952 edition versus later editions
+
+### Historical development
+
+[]
+
+### Ideas it depends on
+
+[]
+
+### What develops from it
+
+[]
+
+### Connections to practice
+
+[]
+
+### Common confusions
+
+[]
+
+### Open questions and checks
+
+- Extend the evidence pass beyond the cited passages.
+
+### Sources
+
+- Wiener’s selected readings on cybernetics, 1951, 1952, 1956 — https://stream.syscoi.com/2026/09/05/28544/
+- Design for a Brain — 1954 corrected reprint of the 1952 edition — https://ia801406.us.archive.org/18/items/designforbrain00ashb/designforbrain00ashb.pdf
+
 ## Design thinking
 
 Type: Practice
@@ -3652,6 +3902,17 @@ A bibliographic first-pass person entry for E. B. W. Zubrow, listed by the offic
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
 
+## E. C. Berkeley
+
+Type: Person
+Public depth: described
+
+Named in the historical reading list as an author or editor of Giant Brains, or Machines That Think. The record provides a bibliographic route; a fuller biography remains to be researched.
+
+### Sources
+
+- Wiener’s selected readings on cybernetics, 1951, 1952, 1956 — https://stream.syscoi.com/2026/09/05/28544/
+
 ## E. N. Lorenz
 
 Type: Person
@@ -3740,6 +4001,17 @@ Psychiatrist and philosopher included because a contemporary historical lead pro
 ### Sources
 
 - Sean Manion: cybernetics, meaning, teleology and phenomenology — https://www.linkedin.com/posts/sean-manionphd_cybernetics-meaning-teleology-activity-7394125204354129921-eCiB
+
+## Electric Brains with Feelings
+
+Type: Publication
+Public depth: described
+
+Electric Brains with Feelings. Listed in Wiener’s historical cybernetics reading material; the supplied citation gives 1949-09. This entry records the work and its bibliographic context. The full text has not been assessed in this intake.
+
+### Sources
+
+- Wiener’s selected readings on cybernetics, 1951, 1952, 1956 — https://stream.syscoi.com/2026/09/05/28544/
 
 ## Emergence
 
@@ -4052,6 +4324,53 @@ It provides a practitioner bridge between management cybernetics and ordinary or
 - Essential Balances: Stop Looking and Start Seeing What Makes Organizations Work — https://www.systemspractice.org/resources/essential-balances-stop-looking-and-start-seeing-what-makes-organizations-work
 - Ivo Velitchkov — https://velitchkov.eu/
 
+## Essential variables
+
+Type: Concept
+Public depth: profile
+
+Ashby identifies variables whose values must stay within limits for an organism to remain alive.
+
+### Summary
+
+Ashby identifies variables whose values must stay within limits for an organism to remain alive.
+
+### Why it matters
+
+In an organisational application, make the chosen viability conditions and their beneficiaries explicit.
+
+### Key distinctions
+
+[]
+
+### Historical development
+
+[]
+
+### Ideas it depends on
+
+[]
+
+### What develops from it
+
+[]
+
+### Connections to practice
+
+[]
+
+### Common confusions
+
+[]
+
+### Open questions and checks
+
+- Extend the evidence pass beyond the cited passages.
+
+### Sources
+
+- Design for a Brain — 1954 corrected reprint of the 1952 edition — https://ia801406.us.archive.org/18/items/designforbrain00ashb/designforbrain00ashb.pdf
+
 ## Estuarine Mapping
 
 Type: Method or methodology
@@ -4252,6 +4571,17 @@ A bibliographic first-pass person entry for F. A. Hayek, listed by the official 
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
 
+## F. Dermot Barrett
+
+Type: Person
+Public depth: described
+
+Co-compiler of A Bibliography of Cybernetics, identified as affiliated with MIT in the transcribed introduction. No broader biographical or intellectual lineage is inferred from this credit.
+
+### Sources
+
+- A Bibliography of Cybernetics — introduction — https://stream.syscoi.com/2026/09/05/a-bibliography-of-cybernetics-dermot-barrett-and-shephard-mit-1951/
+
 ## F. J. Dyson
 
 Type: Person
@@ -4296,6 +4626,17 @@ Facilitation designs and supports a group process so participants can do purpose
 
 - SCiO CF Resources v9 draft — No public link
 - SCiO Professional Accreditation and Competency Framework — https://www.systemspractice.org/professional-accreditation
+
+## Feed back to Idiocy
+
+Type: Publication
+Public depth: described
+
+Feed back to Idiocy. Listed in Wiener’s historical cybernetics reading material; the supplied citation gives 1951-01-08. This entry records the work and its bibliographic context. The full text has not been assessed in this intake.
+
+### Sources
+
+- Wiener’s selected readings on cybernetics, 1951, 1952, 1956 — https://stream.syscoi.com/2026/09/05/28544/
 
 ## Feedback
 
@@ -4753,6 +5094,17 @@ A bibliographic first-pass person entry for G. B. West, listed by the official F
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
 
+## G. E. Kimball
+
+Type: Person
+Public depth: described
+
+Named in the historical reading list as an author or editor of Methods of Operations Research. The record provides a bibliographic route; a fuller biography remains to be researched.
+
+### Sources
+
+- Wiener’s selected readings on cybernetics, 1951, 1952, 1956 — https://stream.syscoi.com/2026/09/05/28544/
+
 ## G. J. Chaitin
 
 Type: Person
@@ -4855,6 +5207,28 @@ Systems researcher associated with systemic intervention, boundary critique, met
 - Lineages of Systems Practice — Damian Allen — No public link
 - Damian Allen follow-up correspondence on lineage and UTSI — No public link
 - Professor Gerald Midgley — University of Hull — https://www.hull.ac.uk/staff-directory/gerald-midgley
+
+## Giant Brains, or Machines That Think
+
+Type: Publication
+Public depth: described
+
+Giant Brains, or Machines That Think. Listed in Wiener’s historical cybernetics reading material; the supplied citation gives 1949. This entry records the work and its bibliographic context. The full text has not been assessed in this intake.
+
+### Sources
+
+- Wiener’s selected readings on cybernetics, 1951, 1952, 1956 — https://stream.syscoi.com/2026/09/05/28544/
+
+## Giorgio de Santillana
+
+Type: Person
+Public depth: described
+
+Named in the historical reading list as an author or editor of How U.S. Cities Can Prepare for Atomic War. The record provides a bibliographic route; a fuller biography remains to be researched.
+
+### Sources
+
+- Wiener’s selected readings on cybernetics, 1951, 1952, 1956 — https://stream.syscoi.com/2026/09/05/28544/
 
 ## Giuseppe Peano
 
@@ -4973,6 +5347,18 @@ Austrian-American physicist and cybernetician associated with the Biological Com
 
 - SCiO SysBoK - Recursion v1 — No public link
 - On Self-Organizing Systems and Their Environments — https://www.organism.earth/library/document/on-self-organizing-systems
+- Wiener’s selected readings on cybernetics, 1951, 1952, 1956 — https://stream.syscoi.com/2026/09/05/28544/
+
+## Herbert A. Shepard
+
+Type: Person
+Public depth: described
+
+Co-compiler of A Bibliography of Cybernetics, identified as affiliated with MIT in the transcribed introduction. No broader biographical or intellectual lineage is inferred from this credit.
+
+### Sources
+
+- A Bibliography of Cybernetics — introduction — https://stream.syscoi.com/2026/09/05/a-bibliography-of-cybernetics-dermot-barrett-and-shephard-mit-1951/
 
 ## Herbert Simon
 
@@ -5098,6 +5484,17 @@ B. B. Mandelbrot, ‘How Long is the Coast of Britain? Statistical Self-Similari
 ### Sources
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## How U.S. Cities Can Prepare for Atomic War
+
+Type: Publication
+Public depth: described
+
+How U.S. Cities Can Prepare for Atomic War. Listed in Wiener’s historical cybernetics reading material; the supplied citation gives 1950-12-18. This entry records the work and its bibliographic context. The full text has not been assessed in this intake.
+
+### Sources
+
+- Wiener’s selected readings on cybernetics, 1951, 1952, 1956 — https://stream.syscoi.com/2026/09/05/28544/
 
 ## Human Learning Systems
 
@@ -5299,6 +5696,17 @@ Organisations can adapt so little that they cease to fit their environment, or c
 - Benjamin Taylor VSM lecture — No public link
 - Viable System Model - Metaphorum — https://metaphorum.org/staffords-work/viable-system-model
 
+## If Robots Run the Works
+
+Type: Publication
+Public depth: described
+
+If Robots Run the Works. Listed in Wiener’s historical cybernetics reading material; the supplied citation gives 1951-03. This entry records the work and its bibliographic context. The full text has not been assessed in this intake.
+
+### Sources
+
+- Wiener’s selected readings on cybernetics, 1951, 1952, 1956 — https://stream.syscoi.com/2026/09/05/28544/
+
 ## Igor Perko
 
 Type: Person
@@ -5331,6 +5739,17 @@ A. S. Perelson, ‘Immune Network Theory’ (1989); item 68 in volume 4 of the 2
 ### Sources
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## In Man’s Image
+
+Type: Publication
+Public depth: described
+
+In Man’s Image. Listed in Wiener’s historical cybernetics reading material; the supplied citation gives 1948-12-27. This entry records the work and its bibliographic context. The full text has not been assessed in this intake.
+
+### Sources
+
+- Wiener’s selected readings on cybernetics, 1951, 1952, 1956 — https://stream.syscoi.com/2026/09/05/28544/
 
 ## Inductive Reasoning and Bounded Rationality
 
@@ -5451,6 +5870,53 @@ Public and organisational systems routinely confuse data volume with understandi
 - Transduction - a powerful and important concept that few have heard of — https://chosen-path.org/2021/10/06/transduction-a-powerful-and-important-concept-that-few-have-heard-of/
 - Core Thinking Integration — No public link
 
+## Information coding
+
+Type: Concept
+Public depth: profile
+
+Fano studies how messages can be recoded to use fewer selections on average in a noiseless system.
+
+### Summary
+
+Fano studies how messages can be recoded to use fewer selections on average in a noiseless system.
+
+### Why it matters
+
+Ask which distinctions a code preserves and what the receiver needs to interpret them.
+
+### Key distinctions
+
+[]
+
+### Historical development
+
+[]
+
+### Ideas it depends on
+
+[]
+
+### What develops from it
+
+[]
+
+### Connections to practice
+
+[]
+
+### Common confusions
+
+[]
+
+### Open questions and checks
+
+- Extend the evidence pass beyond the cited passages.
+
+### Sources
+
+- The Transmission of Information, Technical Report No. 65 — https://hcs64.com/files/fano-tr65-ocr.pdf
+
 ## Information Measures, Effective Complexity, and Total Information
 
 Type: Publication
@@ -5534,6 +6000,28 @@ Systems and cybernetics use information in several senses. Confusing Shannon inf
 - Cybernetics or Control and Communication in the Animal and the Machine — https://mitpress.mit.edu/9780262537841/cybernetics-or-control-and-communication-in-the-animal-and-the-machine/
 - An Introduction to Cybernetics — https://ashby.info/bibliography.html
 
+## Information Theory (Goldman)
+
+Type: Publication
+Public depth: described
+
+Information Theory. Listed in Wiener’s historical cybernetics reading material; the supplied citation gives 1953. This entry records the work and its bibliographic context. The full text has not been assessed in this intake.
+
+### Sources
+
+- Wiener’s selected readings on cybernetics, 1951, 1952, 1956 — https://stream.syscoi.com/2026/09/05/28544/
+
+## Information Theory and its Engineering Applications
+
+Type: Publication
+Public depth: described
+
+Information Theory and its Engineering Applications. Listed in Wiener’s historical cybernetics reading material; the supplied citation gives 1953. This entry records the work and its bibliographic context. The full text has not been assessed in this intake.
+
+### Sources
+
+- Wiener’s selected readings on cybernetics, 1951, 1952, 1956 — https://stream.syscoi.com/2026/09/05/28544/
+
 ## Information Theory and Statistical Mechanics
 
 Type: Publication
@@ -5578,6 +6066,17 @@ Networks that support experimentation, exchange, shared learning and cumulative 
 
 - Lineages of Systems Practice — Damian Allen — No public link
 - Interview with Damian Allen on systems practice in Doncaster — No public link
+
+## Instrumentation and Cybernetics
+
+Type: Publication
+Public depth: described
+
+Instrumentation and Cybernetics. Listed in Wiener’s historical cybernetics reading material; the supplied citation gives 1949-11. This entry records the work and its bibliographic context. The full text has not been assessed in this intake.
+
+### Sources
+
+- Wiener’s selected readings on cybernetics, 1951, 1952, 1956 — https://stream.syscoi.com/2026/09/05/28544/
 
 ## Interactive Management
 
@@ -5645,6 +6144,17 @@ R. Landauer, ‘Irreversibility and Heat Generation in the Computing Process’ 
 ### Sources
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## Irwin Edman
+
+Type: Person
+Public depth: described
+
+Named in the historical reading list as an author or editor of Mind in Matter. The record provides a bibliographic route; a fuller biography remains to be researched.
+
+### Sources
+
+- Wiener’s selected readings on cybernetics, 1951, 1952, 1956 — https://stream.syscoi.com/2026/09/05/28544/
 
 ## Ivo Velitchkov
 
@@ -5727,6 +6237,17 @@ A bibliographic first-pass person entry for J. A. Wheeler, listed by the officia
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
 
+## J. B. Thurston
+
+Type: Person
+Public depth: described
+
+Named in the historical reading list as an author or editor of Review of Cybernetics (J. B. Thurston). The record provides a bibliographic route; a fuller biography remains to be researched.
+
+### Sources
+
+- Wiener’s selected readings on cybernetics, 1951, 1952, 1956 — https://stream.syscoi.com/2026/09/05/28544/
+
 ## J. D. Farmer
 
 Type: Person
@@ -5737,6 +6258,17 @@ A bibliographic first-pass person entry for J. D. Farmer, listed by the official
 ### Sources
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## J. D. Trimmer
+
+Type: Person
+Public depth: described
+
+Named in the historical reading list as an author or editor of Instrumentation and Cybernetics. The record provides a bibliographic route; a fuller biography remains to be researched.
+
+### Sources
+
+- Wiener’s selected readings on cybernetics, 1951, 1952, 1956 — https://stream.syscoi.com/2026/09/05/28544/
 
 ## J. H. Brown
 
@@ -5781,6 +6313,17 @@ A bibliographic first-pass person entry for J. J. Hopfield, listed by the offici
 ### Sources
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## J. K. Lagemann
+
+Type: Person
+Public depth: described
+
+Named in the historical reading list as an author or editor of If Robots Run the Works. The record provides a bibliographic route; a fuller biography remains to be researched.
+
+### Sources
+
+- Wiener’s selected readings on cybernetics, 1951, 1952, 1956 — https://stream.syscoi.com/2026/09/05/28544/
 
 ## J. M. Kremer
 
@@ -6108,6 +6651,17 @@ Her role prevents the book being treated as Ramage's individual classification e
 - Systems Thinkers (2nd edition) — Open Research Online — https://oro.open.ac.uk/69810/
 - On boundaries and disciplines: constructing a set of key systems thinkers — https://oro.open.ac.uk/5446/
 
+## Karl W. Deutsch
+
+Type: Person
+Public depth: described
+
+Named in the historical reading list as an author or editor of How U.S. Cities Can Prepare for Atomic War. The record provides a bibliographic route; a fuller biography remains to be researched.
+
+### Sources
+
+- Wiener’s selected readings on cybernetics, 1951, 1952, 1956 — https://stream.syscoi.com/2026/09/05/28544/
+
 ## Kenneth E. Boulding
 
 Type: Person
@@ -6152,6 +6706,17 @@ A bibliographic first-pass person entry for L. Szilárd, listed by the official 
 ### Sources
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## La Cybernétique
+
+Type: Publication
+Public depth: described
+
+La Cybernétique. Listed in Wiener’s historical cybernetics reading material; the supplied citation gives 1951. This entry records the work and its bibliographic context. The full text has not been assessed in this intake.
+
+### Sources
+
+- Wiener’s selected readings on cybernetics, 1951, 1952, 1956 — https://stream.syscoi.com/2026/09/05/28544/
 
 ## Ladder of abstraction
 
@@ -6342,6 +6907,17 @@ A lineage strand naming Vygotsky and James and connecting learning to socially s
 - Lineages of Systems Practice — Damian Allen — No public link
 - Damian Allen follow-up correspondence on lineage and UTSI — No public link
 
+## Lectures on Communication Theory
+
+Type: Publication
+Public depth: described
+
+Lectures on Communication Theory. Listed in Wiener’s historical cybernetics reading material; the supplied citation gives 1951. This entry records the work and its bibliographic context. The full text has not been assessed in this intake.
+
+### Sources
+
+- Wiener’s selected readings on cybernetics, 1951, 1952, 1956 — https://stream.syscoi.com/2026/09/05/28544/
+
 ## Leonardo of Pisa
 
 Type: Person
@@ -6489,6 +7065,17 @@ The essay is useful precisely because it combines a memorable hierarchy with rep
 ### Sources
 
 - Leverage Points: Places to Intervene in a System — https://donellameadows.org/archives/leverage-points-places-to-intervene-in-a-system/
+
+## Life, Thermodynamics, and Cybernetics
+
+Type: Publication
+Public depth: described
+
+Life, Thermodynamics, and Cybernetics. Listed in Wiener’s historical cybernetics reading material; the supplied citation gives 1949. This entry records the work and its bibliographic context. The full text has not been assessed in this intake.
+
+### Sources
+
+- Wiener’s selected readings on cybernetics, 1951, 1952, 1956 — https://stream.syscoi.com/2026/09/05/28544/
 
 ## Linda Booth Sweeney
 
@@ -6658,6 +7245,17 @@ C. H. Bennett, ‘Logical Reversibility of Computation’ (1973); item 43 in vol
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
 
+## Louis de Broglie
+
+Type: Person
+Public depth: described
+
+Named in the historical reading list as an author or editor of La Cybernétique. The record provides a bibliographic route; a fuller biography remains to be researched.
+
+### Sources
+
+- Wiener’s selected readings on cybernetics, 1951, 1952, 1956 — https://stream.syscoi.com/2026/09/05/28544/
+
 ## Louis H. Kauffman
 
 Type: Person
@@ -6755,6 +7353,17 @@ Named in the public 0.18 coverage audit. A source-specific profile and typed lin
 ### Sources
 
 - Running feedback after release 0.17 — https://github.com/antlerboy/the-necessary-tangle/issues/2
+
+## Léon Brillouin
+
+Type: Person
+Public depth: described
+
+Named in the historical reading list as an author or editor of Life, Thermodynamics, and Cybernetics. The record provides a bibliographic route; a fuller biography remains to be researched.
+
+### Sources
+
+- Wiener’s selected readings on cybernetics, 1951, 1952, 1956 — https://stream.syscoi.com/2026/09/05/28544/
 
 ## M. Bunge
 
@@ -6878,6 +7487,39 @@ Mechanical governors regulate machine speed by sensing motion and altering input
 - SCiO SysBoK - Feedback v1 — No public link
 - On Governors — https://doi.org/10.1098/rspl.1867.0055
 - History of Control — https://www.ieeecss.org/history
+
+## Machine in Man’s Image
+
+Type: Publication
+Public depth: described
+
+Machine in Man’s Image. Listed in Wiener’s historical cybernetics reading material; the supplied citation gives 1949-01-08. This entry records the work and its bibliographic context. The full text has not been assessed in this intake.
+
+### Sources
+
+- Wiener’s selected readings on cybernetics, 1951, 1952, 1956 — https://stream.syscoi.com/2026/09/05/28544/
+
+## Machine Translation of Languages
+
+Type: Publication
+Public depth: described
+
+Machine Translation of Languages. Listed in Wiener’s historical cybernetics reading material; the supplied citation gives 1955. This entry records the work and its bibliographic context. The full text has not been assessed in this intake.
+
+### Sources
+
+- Wiener’s selected readings on cybernetics, 1951, 1952, 1956 — https://stream.syscoi.com/2026/09/05/28544/
+
+## Machines that Think
+
+Type: Publication
+Public depth: described
+
+Machines that Think. Listed in Wiener’s historical cybernetics reading material; the supplied citation gives 1949-02-19. This entry records the work and its bibliographic context. The full text has not been assessed in this intake.
+
+### Sources
+
+- Wiener’s selected readings on cybernetics, 1951, 1952, 1956 — https://stream.syscoi.com/2026/09/05/28544/
 
 ## Magnus Ramage
 
@@ -7053,6 +7695,17 @@ Human Learning Systems practitioner named by Damian Allen as a collaborator on t
 - Damian Allen follow-up correspondence on lineage and UTSI — No public link
 - Human Learning Systems and the Liberated Method — https://www.humanlearning.systems/uploads/HLSandLiberatedMethod.pdf
 
+## Mark Starr
+
+Type: Person
+Public depth: described
+
+Named in the historical reading list as an author or editor of Review of The Human Use of Human Beings (Mark Starr). The record provides a bibliographic route; a fuller biography remains to be researched.
+
+### Sources
+
+- Wiener’s selected readings on cybernetics, 1951, 1952, 1956 — https://stream.syscoi.com/2026/09/05/28544/
+
 ## Martin Reynolds
 
 Type: Person
@@ -7185,6 +7838,17 @@ A theoretical programme developed within Principia Cybernetica around the repeat
 
 - Principia Cybernetica: Metasystem Transition Theory — https://pespmc1.vub.ac.be/MSTT.html
 
+## Methods of Operations Research
+
+Type: Publication
+Public depth: described
+
+Methods of Operations Research. Listed in Wiener’s historical cybernetics reading material; the supplied citation gives 1951. This entry records the work and its bibliographic context. The full text has not been assessed in this intake.
+
+### Sources
+
+- Wiener’s selected readings on cybernetics, 1951, 1952, 1956 — https://stream.syscoi.com/2026/09/05/28544/
+
 ## Michael C. Jackson
 
 Type: Person
@@ -7272,6 +7936,28 @@ A systems practitioner and co-author of Opening the Box, contributing to its fou
 ### Sources
 
 - Opening the Box: Systems Thinking for Transformative Conversations — https://www.systemspractice.org/resources/opening-box-systems-thinking-transformative-conversations
+
+## Mind and/or Machine
+
+Type: Publication
+Public depth: described
+
+Mind and/or Machine. Listed in Wiener’s historical cybernetics reading material; the supplied citation gives 1950-05-27. This entry records the work and its bibliographic context. The full text has not been assessed in this intake.
+
+### Sources
+
+- Wiener’s selected readings on cybernetics, 1951, 1952, 1956 — https://stream.syscoi.com/2026/09/05/28544/
+
+## Mind in Matter
+
+Type: Publication
+Public depth: described
+
+Mind in Matter. Listed in Wiener’s historical cybernetics reading material; the supplied citation gives 1950-10-14. This entry records the work and its bibliographic context. The full text has not been assessed in this intake.
+
+### Sources
+
+- Wiener’s selected readings on cybernetics, 1951, 1952, 1956 — https://stream.syscoi.com/2026/09/05/28544/
 
 ## Miranda Fricker
 
@@ -7949,6 +8635,7 @@ Mathematician and co-author of the 1943 teleology paper; later named and develop
 
 - SCiO SysBoK - Feedback v1 — No public link
 - Behavior, Purpose and Teleology — https://doi.org/10.1086/286788
+- Wiener’s selected readings on cybernetics, 1951, 1952, 1956 — https://stream.syscoi.com/2026/09/05/28544/
 
 ## Notes on an Epistemology for Living Things
 
@@ -8053,6 +8740,17 @@ Systems work that excludes the observer often turns a local view into an apparen
 - Computing a Reality: Heinz von Foerster's 1973 lecture — https://constructivist.info/4/1/062.foerster
 - Core Thinking Integration — No public link
 - Systems complexity cybernetics operating manual — No public link
+
+## On Human Communication
+
+Type: Publication
+Public depth: described
+
+On Human Communication. Listed in Wiener’s historical cybernetics reading material; the supplied citation gives 1957. This entry records the work and its bibliographic context. The full text has not been assessed in this intake.
+
+### Sources
+
+- Wiener’s selected readings on cybernetics, 1951, 1952, 1956 — https://stream.syscoi.com/2026/09/05/28544/
 
 ## On Some Mathematical Problems Connected with Patterns of Growth in Figures
 
@@ -8423,6 +9121,28 @@ A bibliographic first-pass person entry for P. F. Stadler, listed by the officia
 ### Sources
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## P. M. Morse
+
+Type: Person
+Public depth: described
+
+Named in the historical reading list as an author or editor of Methods of Operations Research. The record provides a bibliographic route; a fuller biography remains to be researched.
+
+### Sources
+
+- Wiener’s selected readings on cybernetics, 1951, 1952, 1956 — https://stream.syscoi.com/2026/09/05/28544/
+
+## P. M. Woodward
+
+Type: Person
+Public depth: described
+
+Named in the historical reading list as an author or editor of Probability and Information Theory with Application to Radar. The record provides a bibliographic route; a fuller biography remains to be researched.
+
+### Sources
+
+- Wiener’s selected readings on cybernetics, 1951, 1952, 1956 — https://stream.syscoi.com/2026/09/05/28544/
 
 ## P. Schuster
 
@@ -8815,6 +9535,17 @@ Sociologist and author of The Forms of Capital, whose framework Damian Allen exp
 - Damian Allen follow-up correspondence on lineage and UTSI — No public link
 - The Forms of Capital — No public link
 
+## Pierre de Latil
+
+Type: Person
+Public depth: described
+
+Named in the historical reading list as an author or editor of Thinking by Machine. The record provides a bibliographic route; a fuller biography remains to be researched.
+
+### Sources
+
+- Wiener’s selected readings on cybernetics, 1951, 1952, 1956 — https://stream.syscoi.com/2026/09/05/28544/
+
 ## Pig model
 
 Type: Tool
@@ -8860,6 +9591,28 @@ Ancient Greek philosopher included in the inherited recursion map through later 
 ### Sources
 
 - SCiO SysBoK - Recursion v1 — No public link
+
+## Popular treatments by Wiener — Wiener
+
+Type: Comparator corpus
+Public depth: described
+
+A historical reading-list section retained with its individual entries, original wording, and unresolved bibliographic details. Inclusion records selection; it does not establish intellectual influence.
+
+### Sources
+
+- Wiener’s selected readings on cybernetics, 1951, 1952, 1956 — https://stream.syscoi.com/2026/09/05/28544/
+
+## Popular treatments, approximately 1951 — Wiener
+
+Type: Comparator corpus
+Public depth: described
+
+A historical reading-list section retained with its individual entries, original wording, and unresolved bibliographic details. Inclusion records selection; it does not establish intellectual influence.
+
+### Sources
+
+- Wiener’s selected readings on cybernetics, 1951, 1952, 1956 — https://stream.syscoi.com/2026/09/05/28544/
 
 ## Population dynamics
 
@@ -9011,6 +9764,28 @@ The Principle of Emergence concerns properties or behaviours of a whole that are
 - The Grammar of Systems - SCiO presentation — https://www.systemspractice.org/resources/grammar-systems
 - The Grammar of Systems II: From Order to Chaos and Back Again, 2nd edition — https://www.systemspractice.org/resources/grammar-systems-ii-order-chaos-back-again-2nd-ed
 - Cybersecurity Lessons from The Grammar of Systems, part 3 — https://www.linkedin.com/pulse/cybersecurity-lessons-from-grammar-systems-order-chaos-osama-salah-2f
+
+## Probability and Information Theory with Application to Radar
+
+Type: Publication
+Public depth: described
+
+Probability and Information Theory with Application to Radar. Listed in Wiener’s historical cybernetics reading material; the supplied citation gives 1953. This entry records the work and its bibliographic context. The full text has not been assessed in this intake.
+
+### Sources
+
+- Wiener’s selected readings on cybernetics, 1951, 1952, 1956 — https://stream.syscoi.com/2026/09/05/28544/
+
+## Proceedings of the Second London Symposium on Applications of Communication Theory
+
+Type: Publication
+Public depth: described
+
+Proceedings of the Second London Symposium on Applications of Communication Theory. Listed in Wiener’s historical cybernetics reading material; the supplied citation gives 1953. This entry records the work and its bibliographic context. The full text has not been assessed in this intake.
+
+### Sources
+
+- Wiener’s selected readings on cybernetics, 1951, 1952, 1956 — https://stream.syscoi.com/2026/09/05/28544/
 
 ## Productive conversations
 
@@ -9197,6 +9972,17 @@ A bibliographic first-pass person entry for R. E. Kálmán, listed by the offici
 ### Sources
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## R. H. Macmillan
+
+Type: Person
+Public depth: described
+
+Named in the historical reading list as an author or editor of An Introduction to the Theory of Control. The record provides a bibliographic route; a fuller biography remains to be researched.
+
+### Sources
+
+- Wiener’s selected readings on cybernetics, 1951, 1952, 1956 — https://stream.syscoi.com/2026/09/05/28544/
 
 ## R. J. Solomonoff
 
@@ -9858,6 +10644,28 @@ C. S. Holling, ‘Resilience and Stability of Ecological Systems’ (1973); item
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
 
+## Review of Cybernetics (J. B. Thurston)
+
+Type: Publication
+Public depth: described
+
+Review of Cybernetics (J. B. Thurston). Listed in Wiener’s historical cybernetics reading material; the supplied citation gives 1949-04-23. This entry records the work and its bibliographic context. The full text has not been assessed in this intake.
+
+### Sources
+
+- Wiener’s selected readings on cybernetics, 1951, 1952, 1956 — https://stream.syscoi.com/2026/09/05/28544/
+
+## Review of The Human Use of Human Beings (Mark Starr)
+
+Type: Publication
+Public depth: described
+
+Review of The Human Use of Human Beings (Mark Starr). Listed in Wiener’s historical cybernetics reading material; the supplied citation gives 1950-08-19. This entry records the work and its bibliographic context. The full text has not been assessed in this intake.
+
+### Sources
+
+- Wiener’s selected readings on cybernetics, 1951, 1952, 1956 — https://stream.syscoi.com/2026/09/05/28544/
+
 ## Revisiting the Edge of Chaos: Evolving Cellular Automata to Perform Computations
 
 Type: Publication
@@ -9913,6 +10721,17 @@ Lancaster scholar of complexity and public policy whom Damian Allen names as an 
 
 - Damian Allen follow-up correspondence on lineage and UTSI — No public link
 - Professor Robert Geyer — Lancaster University — https://www.lancaster.ac.uk/humanities-arts-and-social-sciences/people/robert-geyer
+
+## Robert M. Fano
+
+Type: Person
+Public depth: described
+
+Named in the historical reading list as an author or editor of The Transmission of Information. The record provides a bibliographic route; a fuller biography remains to be researched.
+
+### Sources
+
+- Wiener’s selected readings on cybernetics, 1951, 1952, 1956 — https://stream.syscoi.com/2026/09/05/28544/
 
 ## Roger C. Conant
 
@@ -10150,6 +10969,18 @@ W. Weaver, ‘Science and Complexity’ (1948); item 10 in volume 1 of the 2024 
 ### Sources
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+- Wiener’s selected readings on cybernetics, 1951, 1952, 1956 — https://stream.syscoi.com/2026/09/05/28544/
+
+## Science and Information Theory
+
+Type: Publication
+Public depth: described
+
+Science and Information Theory. Listed in Wiener’s historical cybernetics reading material; the supplied citation gives 1956. This entry records the work and its bibliographic context. The full text has not been assessed in this intake.
+
+### Sources
+
+- Wiener’s selected readings on cybernetics, 1951, 1952, 1956 — https://stream.syscoi.com/2026/09/05/28544/
 
 ## Scientific theory and evidence
 
@@ -10256,6 +11087,17 @@ The Second Circular Causality Principle concerns negative feedback. Mutual corre
 - The Grammar of Systems - SCiO presentation — https://www.systemspractice.org/resources/grammar-systems
 - The Grammar of Systems II: From Order to Chaos and Back Again, 2nd edition — https://www.systemspractice.org/resources/grammar-systems-ii-order-chaos-back-again-2nd-ed
 - Cybersecurity Lessons from The Grammar of Systems, part 1 — https://www.linkedin.com/pulse/cybersecurity-lessons-from-grammar-systems-order-chaos-osama-salah/
+
+## Selected readings, 21 March 1952 — Wiener
+
+Type: Comparator corpus
+Public depth: described
+
+A historical reading-list section retained with its individual entries, original wording, and unresolved bibliographic details. Inclusion records selection; it does not establish intellectual influence.
+
+### Sources
+
+- Wiener’s selected readings on cybernetics, 1951, 1952, 1956 — https://stream.syscoi.com/2026/09/05/28544/
 
 ## Selection and Covariance
 
@@ -10554,6 +11396,17 @@ It connects systems inquiry to the design and operation of services without assu
 - Pattern Manual for Service Systems Thinking — https://coevolving.com/commons/20161028-pattern-manual-for-service-systems-thinking
 - David Ing — Coevolving Innovations publications — https://coevolving.com/commons/publications
 
+## Short bibliography, described as 1956 — Wiener
+
+Type: Comparator corpus
+Public depth: described
+
+A historical reading-list section retained with its individual entries, original wording, and unresolved bibliographic details. Inclusion records selection; it does not establish intellectual influence.
+
+### Sources
+
+- Wiener’s selected readings on cybernetics, 1951, 1952, 1956 — https://stream.syscoi.com/2026/09/05/28544/
+
 ## Simon Duffy
 
 Type: Person
@@ -10726,6 +11579,17 @@ Stakeholder analysis identifies people and groups affected by or able to affect 
 
 - SCiO CF Resources v9 draft — No public link
 - SCiO Professional Accreditation and Competency Framework — https://www.systemspractice.org/professional-accreditation
+
+## Stanford Goldman
+
+Type: Person
+Public depth: described
+
+Named in the historical reading list as an author or editor of Information Theory. The record provides a bibliographic route; a fuller biography remains to be researched.
+
+### Sources
+
+- Wiener’s selected readings on cybernetics, 1951, 1952, 1956 — https://stream.syscoi.com/2026/09/05/28544/
 
 ## Steady State Principle
 
@@ -12083,6 +12947,53 @@ The place partnership through which Damian Allen describes Doncaster's mission, 
 - Interview with Damian Allen on systems practice in Doncaster — No public link
 - City of Doncaster Council Corporate Plan 2026–27 — https://www.doncaster.gov.uk/Documents/DocumentView/Stream/Media/Default/Council%20and%20Democracy/Documents/City%20of%20Doncaster%20Council%20Corporate%20Plan%202026-27.pdf
 
+## Technical, semantic, and effectiveness questions
+
+Type: Concept
+Public depth: profile
+
+Weaver separates accurate transmission, intended meaning, and effects on conduct. Shannon’s engineering problem brackets semantics.
+
+### Summary
+
+Weaver separates accurate transmission, intended meaning, and effects on conduct. Shannon’s engineering problem brackets semantics.
+
+### Why it matters
+
+A message can arrive accurately and still be misunderstood or fail to change anything.
+
+### Key distinctions
+
+[]
+
+### Historical development
+
+[]
+
+### Ideas it depends on
+
+[]
+
+### What develops from it
+
+[]
+
+### Connections to practice
+
+[]
+
+### Common confusions
+
+[]
+
+### Open questions and checks
+
+- Extend the evidence pass beyond the cited passages.
+
+### Sources
+
+- The Mathematical Theory of Communication — 1949 volume — https://ia801403.us.archive.org/25/items/in.ernet.dli.2015.503815/2015.503815.The-Mathematical_text.pdf
+
 ## The Architecture of Complexity
 
 Type: Publication
@@ -12093,6 +13004,18 @@ H. A. Simon, ‘The Architecture of Complexity’ (1962); item 21 in volume 2 of
 ### Sources
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## The Behavioral Properties of Systems in Equilibrium
+
+Type: Publication
+Public depth: described
+
+The Behavioral Properties of Systems in Equilibrium. Listed in Wiener’s historical cybernetics reading material; the supplied citation gives 1946. This entry records the work and its bibliographic context. The full text has not been assessed in this intake.
+
+### Sources
+
+- Wiener’s selected readings on cybernetics, 1951, 1952, 1956 — https://stream.syscoi.com/2026/09/05/28544/
+- W. Ross Ashby Digital Archive — bibliography — https://ashby.info/bibliography.html
 
 ## The Calculi of Emergence: Computation, Dynamics, and Induction
 
@@ -12385,6 +13308,17 @@ The atlas was strong on VSM concepts but weak on current practitioner manuals an
 
 - The Fractal Organisation Manual: How to diagnose & design organisations using the Viable System Model — https://www.systemspractice.org/resources/fractal-organisation-manual-how-diagnose-design-organisations-using-viable-system-model
 
+## The Functions of the Executive
+
+Type: Publication
+Public depth: described
+
+Named as a less clear-cut inclusion for scattered insights. This does not establish a cybernetic theory of organisation.
+
+### Sources
+
+- A Bibliography of Cybernetics — introduction — https://stream.syscoi.com/2026/09/05/a-bibliography-of-cybernetics-dermot-barrett-and-shephard-mit-1951/
+
 ## The Grammar of Systems II
 
 Type: Publication
@@ -12515,6 +13449,17 @@ It moves systems thinking from diagnosis of complex problems to the design of go
 
 - The Hidden Power of Systems Thinking: Governance in a Climate Emergency — https://www.routledge.com/The-Hidden-Power-of-Systems-Thinking-Governance-in-a-Climate-Emergency/Ison-Straw/p/book/9781138493995
 
+## The Human Use of Human Beings
+
+Type: Publication
+Public depth: described
+
+The Human Use of Human Beings. Listed in Wiener’s historical cybernetics reading material; the supplied citation gives 1950. This entry records the work and its bibliographic context. The full text has not been assessed in this intake.
+
+### Sources
+
+- Wiener’s selected readings on cybernetics, 1951, 1952, 1956 — https://stream.syscoi.com/2026/09/05/28544/
+
 ## The Intrinsic Computational Difficulty of Functions
 
 Type: Publication
@@ -12525,6 +13470,66 @@ A. Cobham, ‘The Intrinsic Computational Difficulty of Functions’ (1964); ite
 ### Sources
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## The Living Brain
+
+Type: Publication
+Public depth: described
+
+The Living Brain. Listed in Wiener’s historical cybernetics reading material; the supplied citation gives 1953. This entry records the work and its bibliographic context. The full text has not been assessed in this intake.
+
+### Sources
+
+- Wiener’s selected readings on cybernetics, 1951, 1952, 1956 — https://stream.syscoi.com/2026/09/05/28544/
+
+## The Mathematical Theory of Communication
+
+Type: Publication
+Public depth: profile
+
+The 1949 volume combines Shannon’s technical paper and Weaver’s separately attributed wider discussion.
+
+### Summary
+
+The 1949 volume combines Shannon’s technical paper and Weaver’s separately attributed wider discussion.
+
+### Why it matters
+
+The preface and contents let readers distinguish the contributors’ questions.
+
+### Key distinctions
+
+- Shannon’s 1948 paper versus the 1949 volume
+
+### Historical development
+
+[]
+
+### Ideas it depends on
+
+[]
+
+### What develops from it
+
+[]
+
+### Connections to practice
+
+[]
+
+### Common confusions
+
+[]
+
+### Open questions and checks
+
+- Extend the evidence pass beyond the cited passages.
+
+### Sources
+
+- Wiener’s selected readings on cybernetics, 1951, 1952, 1956 — https://stream.syscoi.com/2026/09/05/28544/
+- The Mathematical Theory of Communication — 1949 volume — https://ia801403.us.archive.org/25/items/in.ernet.dli.2015.503815/2015.503815.The-Mathematical_text.pdf
+- The Mathematical Theory of Communication — publisher record — https://www.press.uillinois.edu/books/?id=p725487
 
 ## The Middle Way
 
@@ -12722,6 +13727,17 @@ It supplies a compact account of individuation, integration, differentiation and
 
 - The Organic Systems Framework — https://www.triarchypress.net/osf.html
 
+## The Organization of Behavior
+
+Type: Publication
+Public depth: described
+
+The Organization of Behavior. Listed in Wiener’s historical cybernetics reading material; the supplied citation gives 1949. This entry records the work and its bibliographic context. The full text has not been assessed in this intake.
+
+### Sources
+
+- Wiener’s selected readings on cybernetics, 1951, 1952, 1956 — https://stream.syscoi.com/2026/09/05/28544/
+
 ## The Organization of Complex Systems
 
 Type: Publication
@@ -12788,6 +13804,54 @@ J. Maynard Smith, ‘The Theory of Games and the Evolution of Animal Conflicts�
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
 
+## The Transmission of Information
+
+Type: Publication
+Public depth: profile
+
+A 1949 report on discrete messages and noiseless transmission, including information measures and recoding.
+
+### Summary
+
+A 1949 report on discrete messages and noiseless transmission, including information measures and recoding.
+
+### Why it matters
+
+It gives an inspectable technical route into a reading-list reference.
+
+### Key distinctions
+
+- TR 65 versus Part II/TR 149
+
+### Historical development
+
+[]
+
+### Ideas it depends on
+
+[]
+
+### What develops from it
+
+[]
+
+### Connections to practice
+
+- What counts as a possible message?
+
+### Common confusions
+
+[]
+
+### Open questions and checks
+
+- Extend the evidence pass beyond the cited passages.
+
+### Sources
+
+- Wiener’s selected readings on cybernetics, 1951, 1952, 1956 — https://stream.syscoi.com/2026/09/05/28544/
+- The Transmission of Information, Technical Report No. 65 — https://hcs64.com/files/fano-tr65-ocr.pdf
+
 ## The Tyranny of Structurelessness
 
 Type: Publication
@@ -12810,6 +13874,17 @@ F. A. Hayek, ‘The Use of Knowledge in Society’ (1945); item 7 in volume 1 of
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
 
+## The Wisdom of the Body
+
+Type: Publication
+Public depth: described
+
+Named in the introduction as strongly consonant with cybernetics. This is the compilers’ assessment.
+
+### Sources
+
+- A Bibliography of Cybernetics — introduction — https://stream.syscoi.com/2026/09/05/a-bibliography-of-cybernetics-dermot-barrett-and-shephard-mit-1951/
+
 ## Theory of Change maps
 
 Type: Tool
@@ -12831,6 +13906,17 @@ J. von Neumann, ‘Theory of Self-Reproducing Automata’ (1966); item 28 in vol
 ### Sources
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## Thinking by Machine
+
+Type: Publication
+Public depth: described
+
+Thinking by Machine. Listed in Wiener’s historical cybernetics reading material; the supplied citation gives 1956. This entry records the work and its bibliographic context. The full text has not been assessed in this intake.
+
+### Sources
+
+- Wiener’s selected readings on cybernetics, 1951, 1952, 1956 — https://stream.syscoi.com/2026/09/05/28544/
 
 ## Thinking in Systems
 
@@ -12895,6 +13981,17 @@ It is a widely used route into systems thinking that combines technical clarity 
 ### Sources
 
 - Thinking in Systems: A Primer — https://www.penguinrandomhouse.com/books/801035/thinking-in-systems-by-donella-meadows/
+
+## Thinking Machine
+
+Type: Publication
+Public depth: described
+
+Thinking Machine. Listed in Wiener’s historical cybernetics reading material; the supplied citation gives 1950-01-23. This entry records the work and its bibliographic context. The full text has not been assessed in this intake.
+
+### Sources
+
+- Wiener’s selected readings on cybernetics, 1951, 1952, 1956 — https://stream.syscoi.com/2026/09/05/28544/
 
 ## Thoralf Skolem
 
@@ -13026,6 +14123,65 @@ The repository already cited a Tony Korycki SysBoK source but had no public pers
 - Opening the Box: Systems Thinking for Transformative Conversations — https://www.systemspractice.org/resources/opening-box-systems-thinking-transformative-conversations
 - SysBoK, from SCiO — https://www.systemspractice.org/sysbok-from-scio
 
+## Too Big for Private Enterprise
+
+Type: Publication
+Public depth: described
+
+Too Big for Private Enterprise. Listed in Wiener’s historical cybernetics reading material; the supplied citation gives 1950-05-20. This entry records the work and its bibliographic context. The full text has not been assessed in this intake.
+
+### Sources
+
+- Wiener’s selected readings on cybernetics, 1951, 1952, 1956 — https://stream.syscoi.com/2026/09/05/28544/
+
+## Too Damn Close
+
+Type: Publication
+Public depth: profile
+
+Wiener examines scientific responsibility, changing weapons capability, and the way authority can suppress warnings.
+
+### Summary
+
+Wiener examines scientific responsibility, changing weapons capability, and the way authority can suppress warnings.
+
+### Why it matters
+
+Ask whether people able to detect a danger can get those with power to act on it.
+
+### Key distinctions
+
+- A historical argument, with historical estimates
+
+### Historical development
+
+[]
+
+### Ideas it depends on
+
+[]
+
+### What develops from it
+
+[]
+
+### Connections to practice
+
+[]
+
+### Common confusions
+
+[]
+
+### Open questions and checks
+
+- Extend the evidence pass beyond the cited passages.
+
+### Sources
+
+- Wiener’s selected readings on cybernetics, 1951, 1952, 1956 — https://stream.syscoi.com/2026/09/05/28544/
+- Too Damn Close — https://www.theatlantic.com/magazine/archive/1950/07/too-damn-close/639607/
+
 ## Towards a General Theory of Adaptive Walks on Rugged Landscapes
 
 Type: Publication
@@ -13060,6 +14216,28 @@ Transactional Analysis is a psychological and communication framework associated
 
 - SCiO CF Resources v9 draft — No public link
 - SCiO Professional Accreditation and Competency Framework — https://www.systemspractice.org/professional-accreditation
+
+## Transactions of the Seventh Conference on Cybernetics
+
+Type: Publication
+Public depth: described
+
+Transactions of the Seventh Conference on Cybernetics. Listed in Wiener’s historical cybernetics reading material; the supplied citation gives 1950. This entry records the work and its bibliographic context. The full text has not been assessed in this intake.
+
+### Sources
+
+- Wiener’s selected readings on cybernetics, 1951, 1952, 1956 — https://stream.syscoi.com/2026/09/05/28544/
+
+## Transactions of the Sixth Conference on Cybernetics
+
+Type: Publication
+Public depth: described
+
+Transactions of the Sixth Conference on Cybernetics. Listed in Wiener’s historical cybernetics reading material; the supplied citation gives 1949. This entry records the work and its bibliographic context. The full text has not been assessed in this intake.
+
+### Sources
+
+- Wiener’s selected readings on cybernetics, 1951, 1952, 1956 — https://stream.syscoi.com/2026/09/05/28544/
 
 ## Transduction
 
@@ -13143,6 +14321,53 @@ Trust mapping examines where reliance, confidence and vulnerability sit in a sys
 
 - SCiO CF Resources v9 draft — No public link
 - SCiO Professional Accreditation and Competency Framework — https://www.systemspractice.org/professional-accreditation
+
+## Ultrastability
+
+Type: Concept
+Public depth: profile
+
+Ashby models a system that changes its parameters when its existing dynamics cross critical conditions.
+
+### Summary
+
+Ashby models a system that changes its parameters when its existing dynamics cross critical conditions.
+
+### Why it matters
+
+Ask when changing the response rule becomes necessary, and what constrains that change.
+
+### Key distinctions
+
+[]
+
+### Historical development
+
+[]
+
+### Ideas it depends on
+
+[]
+
+### What develops from it
+
+[]
+
+### Connections to practice
+
+[]
+
+### Common confusions
+
+[]
+
+### Open questions and checks
+
+- Extend the evidence pass beyond the cited passages.
+
+### Sources
+
+- Design for a Brain — 1954 corrected reprint of the 1952 edition — https://ia801406.us.archive.org/18/items/designforbrain00ashb/designforbrain00ashb.pdf
 
 ## Uncertainty
 
@@ -13872,6 +15097,28 @@ A bibliographic first-pass person entry for W. G. Macready, listed by the offici
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
 
+## W. Grey Walter
+
+Type: Person
+Public depth: described
+
+Named in the historical reading list as an author or editor of The Living Brain. The record provides a bibliographic route; a fuller biography remains to be researched.
+
+### Sources
+
+- Wiener’s selected readings on cybernetics, 1951, 1952, 1956 — https://stream.syscoi.com/2026/09/05/28544/
+
+## W. N. Locke
+
+Type: Person
+Public depth: described
+
+Named in the historical reading list as an author or editor of Machine Translation of Languages. The record provides a bibliographic route; a fuller biography remains to be researched.
+
+### Sources
+
+- Wiener’s selected readings on cybernetics, 1951, 1952, 1956 — https://stream.syscoi.com/2026/09/05/28544/
+
 ## W. Pitts
 
 Type: Person
@@ -13895,6 +15142,7 @@ Cybernetician who developed the Law of Requisite Variety and wrote An Introducti
 - An Introduction to Cybernetics — https://ashby.info/bibliography.html
 - Biography: W. Ross Ashby (1903–1972) — https://ashby.info/biography.html
 - Lineages of Systems Practice — Damian Allen — No public link
+- Wiener’s selected readings on cybernetics, 1951, 1952, 1956 — https://stream.syscoi.com/2026/09/05/28544/
 
 ## Walter B. Cannon
 
@@ -13906,6 +15154,7 @@ Physiologist whose 1929 article developed the concept and terminology of physiol
 ### Sources
 
 - Organization for Physiological Homeostasis — https://doi.org/10.1152/physrev.1929.9.3.399
+- A Bibliography of Cybernetics — introduction — https://stream.syscoi.com/2026/09/05/a-bibliography-of-cybernetics-dermot-barrett-and-shephard-mit-1951/
 
 ## Walter Pitts
 
@@ -13940,6 +15189,7 @@ Mathematician and science administrator associated with communication theory and
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
 - Lineages of Systems Practice — Damian Allen — No public link
+- Wiener’s selected readings on cybernetics, 1951, 1952, 1956 — https://stream.syscoi.com/2026/09/05/28544/
 
 ## Web Dictionary of Cybernetics and Systems
 
@@ -14064,6 +15314,17 @@ Workshop design creates a bounded social process with a clear purpose, participa
 - SCiO CF Resources v9 draft — No public link
 - SCiO Professional Accreditation and Competency Framework — https://www.systemspractice.org/professional-accreditation
 
+## World of Robot Brains
+
+Type: Publication
+Public depth: described
+
+World of Robot Brains. Listed in Wiener’s historical cybernetics reading material; the supplied citation gives 1949-09. This entry records the work and its bibliographic context. The full text has not been assessed in this intake.
+
+### Sources
+
+- Wiener’s selected readings on cybernetics, 1951, 1952, 1956 — https://stream.syscoi.com/2026/09/05/28544/
+
 # Registered coverage programmes
 
 These are explicit next-work programmes, not claims that the corpora have already been fully reviewed or ingested.
@@ -14097,3 +15358,8 @@ Completion test: Gold-standard practitioner constellations with separately evide
 
 Status: private discovery pass pending
 Completion test: No private material published; useful leads replaced by public evidence or proper No-public-link citations.
+
+## Early cybernetics reading lists and Barrett–Shepard bibliography
+
+Status: available entries catalogued primary reading in progress
+Completion test: Recover the missing Barrett–Shepard bibliography pages, reconcile every supplied entry, and record item-level primary-text review before claiming the corpus fully reviewed.

@@ -20,18 +20,15 @@
   <link rel="stylesheet" href="assets/iteration-17.css?v=0.18.0-public">
   <link rel="stylesheet" href="assets/iteration-18.css?v=0.18.0-public">
   <link rel="stylesheet" href="assets/iteration-19.css?v=0.20.2-reader-hotfix">
-  <link rel="stylesheet" href="/assets/release-22.css?v=0.22">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header">
-    <div class="brand-stack">
     <a class="brand" href="#view=home" aria-label="The Necessary Tangle home">
       <span class="brand-mark tangle-mark" data-living-mark aria-hidden="true" title="A living mark selected for this visit"><svg viewBox="0 0 48 48" focusable="false"><path d="M8 24c0-8 6-14 14-14 9 0 18 8 18 18 0 7-5 12-12 12-8 0-14-6-14-13 0-6 5-10 10-10 6 0 10 4 10 9 0 4-3 7-7 7-3 0-6-2-6-5 0-2 2-4 4-4"/><path d="M5 34c7-4 13-11 15-20M28 5c-4 7-4 15 0 22M13 7c8 4 15 11 20 20"/></svg></span>
       <span><strong>The Necessary Tangle</strong><small>A living evidence atlas of systems | cybernetics | complexity</small></span>
     </a>
-    </div>
-    <div class="header-meta"><span id="releaseBadge">Release 0.22</span><span>Curated by <a href="https://www.antlerboy.com/">Benjamin P Taylor</a></span></div>
+    <div class="header-meta"><span id="releaseBadge">Public alpha</span><span>Curated by <a href="https://www.antlerboy.com/">Benjamin P Taylor</a></span></div>
     <label class="theme-toggle" title="Switch between light and dark display"><input id="themeToggle" type="checkbox" aria-label="Use dark mode"><span class="theme-toggle-track" aria-hidden="true"><span class="theme-toggle-knob"></span></span><span class="theme-light-label">Light</span><span class="theme-dark-label">Dark</span></label>
   </header>
 
@@ -47,7 +44,7 @@
     <a href="#view=about" data-view="about">About</a>
   </nav>
 
-  <main id="main"><noscript><p>The interactive atlas needs JavaScript. You can read the <a href="/systems-thinking/">systems-thinking introduction</a>, <a href="/corpora/early-cybernetics/">historical reading lists</a>, and <a href="/little-redquadrant-rules/">RedQuadrant rules</a> without it.</p></noscript>
+  <main id="main">
     <section id="view-home" class="view active">
       <div class="hero">
         <div class="hero-copy">
@@ -61,7 +58,6 @@
             <div class="suggestions" role="listbox" hidden></div>
           </div>
           <div class="quick-links" id="quickLinks"></div>
-          <p class="start-here-link">New to the subject? <a href="/systems-thinking/">Start with a plain-language introduction to systems thinking.</a></p>
           <div class="hero-actions"><a href="#view=browse" class="button primary" data-view-link="browse">Explore the atlas</a><a href="#view=journeys" class="button" data-view-link="journeys">Follow a guided journey</a><a href="#view=map&layer=all&depth=all" class="button" data-view-link="map" data-map-mode="all">Full public map</a><a href="#view=item&id=concept_viability&from=home" id="surpriseMeHero" class="button surprise-me">Surprise me</a><a href="/canon-and-lineage/" class="button">Who gets to count?</a></div>
         </div>
         <a class="hero-panel release-panel" href="#view=about" aria-label="Read what this public alpha contains and what remains unfinished">
@@ -72,7 +68,6 @@
         </a>
       </div>
 
-      <section class="resource-pathways" id="earlyCyberneticsCallout"><h2>Early cybernetics, through its reading lists</h2><p>Explore 48 historical entries, their authors, and the questions they open. Source inclusion, passage review, and unresolved details remain visible.</p><div class="button-row wrap"><a class="button" href="/corpora/early-cybernetics/">Read the historical collection</a><a class="button" href="#view=journeys&amp;id=journey_messages_meaning_action&amp;step=0">The message arrived. What happened?</a></div></section>
       <section class="resource-pathways" aria-labelledby="resourcePathwaysTitle">
         <div class="section-head"><div><p class="eyebrow">The living field around the atlas</p><h2 id="resourcePathwaysTitle">Communities, capability and a way into the reading</h2></div></div>
         <div class="resource-pathway-grid">
@@ -90,17 +85,6 @@
             <span class="eyebrow">Training and development</span>
             <strong>SCiO professional development</strong>
             <span>Explore systems approaches, intervention methods, courses and practice-based development from experienced practitioners.</span>
-          </a>
-
-          <a class="resource-pathway-card" href="https://www.systemspractice.org/resources" target="_blank" rel="noopener">
-            <span class="eyebrow">Current SCiO resource catalogue</span>
-            <strong>SCiO resources</strong>
-            <span>Browse SCiO's books, articles, talks, video, slide decks, podcasts and other practitioner resources using the site's own categories and reuse labels.</span>
-          </a>
-          <a class="resource-pathway-card" href="https://kumu.io/koryckaa/scio-sysbok-v1" target="_blank" rel="noopener">
-            <span class="eyebrow">Connected body of knowledge</span>
-            <strong>SCiO SysBoK in Kumu</strong>
-            <span>Open the live SCiO model of systems-thinking concepts, precedents, dependent derivatives, examples and references.</span>
           </a>
           <a class="resource-pathway-card" href="https://stream.syscoi.com/2024/10/01/updated-rough-draft-systems-complexity-cybernetics-reading-list/" target="_blank" rel="noopener">
             <span class="eyebrow">A partial route into the territory</span>
@@ -321,7 +305,7 @@
           <p><a class="button primary" href="https://github.com/antlerboy/the-necessary-tangle/blob/main/documentation/relational-depth.md" target="_blank" rel="noopener">Inspect the relational-depth programme</a> <a class="button" href="#view=browse" data-view-link="browse">Browse by connection depth</a></p>
         </article>
 
-        <article class="plain-panel wide ai-observations-callout"><p class="release-note-inline"><strong>Updated for 0.22:</strong> early cybernetics bibliographies, primary-passage accounts, three new guided journeys, and an accessible systems-thinking introduction. <a href="/corpora/early-cybernetics/">Inspect the source collection and its remaining gaps.</a></p>
+        <article class="plain-panel wide ai-observations-callout"><p class="release-note-inline"><strong>Updated for 0.20:</strong> observations now examine comparator link meanings, partial reconciliation, complete source-link preservation and the evidential ceiling of aggregate maps.</p>
           <p class="eyebrow">A second observer</p>
           <h2>AI observations</h2>
           <p>The data now supports observations about the atlas itself: where breadth has outrun depth, where provenance is being mistaken for conceptual connection, which entries carry disproportionate traffic, and what the current source set makes visible or leaves silent.</p>
@@ -362,7 +346,7 @@
           <p class="eyebrow">People, works and practice</p>
           <h2>Expertise-led development</h2>
           <p><a href="#view=item&id=person_ivo_velitchkov&from=about">Ivo Velitchkov</a> connects viable organisation, <em>Essential Balances</em>, requisite inefficiency, enterprise architecture and explicit semantic graphs. <a href="#view=item&id=person_patrick_hoverstadt&from=about">Patrick Hoverstadt</a> connects the Viable System Model, systems laws, organisation diagnosis and design, <em>Patterns of Strategy</em> and transformation.</p>
-          <p>Developed coverage includes Peter Checkland, Werner Ulrich, Ray Ison, Ed Straw, Raul Espejo, Alfonso Reyes, Donella Meadows, Diana Wright and Barry Oshry through public primary or official sources, distinct method entries and typed practice relations.</p>
+          <p>This release also develops Peter Checkland, Werner Ulrich, Ray Ison, Ed Straw, Raul Espejo, Alfonso Reyes, Donella Meadows, Diana Wright and Barry Oshry through public primary or official sources, distinct method entries and typed practice relations.</p>
           <p><a href="#view=journeys&id=journey_inquiry_governance_and_intervention&step=0">Follow inquiry, governance and intervention</a>, <a href="https://github.com/antlerboy/the-necessary-tangle/blob/main/documentation/expertise-additions.md" target="_blank" rel="noopener">inspect the additions</a>, or <a href="#view=ai-observations">open the current AI observations</a>.</p>
         </article>
 
@@ -378,14 +362,14 @@
         <article class="plain-panel wide feedback-coverage-panel">
           <p class="eyebrow">Post-0.17 coverage pass</p>
           <h2>Named people, institutions and a 32-concept comparator</h2>
-          <p>Named people and institutions in the post-0.17 coverage pass resolve through canonical names and search aliases, with their actual source and connection depth exposed. The 32 concepts in the unFIX synthesis each resolve to an atlas entry without treating that AI-assisted list as a settled canon.</p>
+          <p>The requested people and institutions are now resolved through canonical names and search aliases, with their actual source and connection depth exposed. The 32 concepts in the unFIX synthesis each resolve to an atlas entry without treating that AI-assisted list as a settled canon.</p>
           <p><a class="button primary" href="/coverage/named/">Named coverage audit</a> <a class="button" href="/coverage/unfix-32/">unFIX 32-concept coverage</a> <a class="button" href="#view=item&id=person_linda_booth_sweeney&from=about">Linda Booth Sweeney</a></p>
         </article>
 
         <article class="plain-panel wide canon-lineage-panel">
           <p class="eyebrow">The map is also a confession</p>
           <h2>Canon, lineage and who gets to count</h2>
-          <p>A field needs distinctions and boundaries. It does not need to pretend those boundaries arrived from nowhere. The editorial model distinguishes coherence from impermeability and demographic inclusion from the harder work of changing who can affect categories, evidence and intellectual lineage.</p>
+          <p>A field needs distinctions and boundaries. It does not need to pretend those boundaries arrived from nowhere. This release distinguishes coherence from impermeability and demographic inclusion from the harder work of changing who can affect categories, evidence and intellectual lineage.</p>
           <p>Ethnicity, heritage, religion, gender and nationality are never inferred from names, portraits or geography. Relevant intellectual, institutional, linguistic, geographical and self-described identity context is recorded only with public evidence and a reason for including it.</p>
           <p><a class="button primary" href="/canon-and-lineage/">Open the canon and lineage review</a> <a class="button" href="#view=journeys&id=journey_who_counts_as_a_systems_thinker&step=0">Follow the guided route</a> <a class="button" href="#view=item&id=concept_canon_formation&from=about">Open canon formation</a></p>
         </article>
@@ -406,26 +390,11 @@
           </div>
         </article>
 
-
-        <article class="plain-panel wide scio-source-links-panel">
-          <p class="eyebrow">SCiO source routes</p>
-          <h2>Professional-practice resources and SysBoK</h2>
-          <p>These are SCiO's current public routes into its competency resources, resource catalogue and SysBoK. Material carried from SysBoK retains SCiO attribution and links to both SCiO's project page and the live Kumu project.</p>
-          <div class="button-row wrap">
-            <a class="button" href="https://www.systemspractice.org/resources" target="_blank" rel="noopener">All SCiO resources</a>
-            <a class="button" href="https://www.systemspractice.org/resources/books-articles-newsletters?author=All&amp;category=All&amp;field_author_is_a_member_value=All&amp;field_has_attachments_value=All&amp;field_organiser__target_id=All&amp;language=All&amp;resource_type%5B0%5D=10&amp;resource_type%5B1%5D=1&amp;resource_type%5B2%5D=11&amp;resource_type%5B3%5D=10&amp;resource_type%5B4%5D=1&amp;resource_type%5B5%5D=11&amp;sort_by=field_publication_date_value&amp;sort_order=DESC&amp;title=" target="_blank" rel="noopener">Books, articles &amp; newsletters</a>
-            <a class="button" href="https://www.systemspractice.org/resources/speakers-videos-slidedecks-podcasts?field_has_attachments_value=1&amp;resource_type%5B0%5D=14&amp;resource_type%5B1%5D=14&amp;sort_by=field_publication_date_value&amp;sort_order=DESC" target="_blank" rel="noopener">Talks, video, slides &amp; podcasts</a>
-            <a class="button" href="https://www.dropbox.com/scl/fi/v5vl9o1e9gtwxbqiyb2no/SCiO-CF-Resources.pdf?dl=0&amp;rlkey=a9d5ckhbsdjld7ab3sp60jaj9" target="_blank" rel="noopener">CF Resources</a>
-            <a class="button" href="https://www.systemspractice.org/sysbok-from-scio" target="_blank" rel="noopener">SysBoK at SCiO</a>
-            <a class="button primary" href="https://kumu.io/koryckaa/scio-sysbok-v1" target="_blank" rel="noopener">Open SysBoK in Kumu</a>
-          </div>
-        </article>
-
         <article class="plain-panel wide"><h2>Coverage programme</h2><p>The following are now explicit pieces of work, not vague aspirations. Each card opens the issue containing scope and completion tests.</p><div class="coverage-grid">
           <a class="coverage-card" href="https://github.com/antlerboy/the-necessary-tangle/issues/3" target="_blank" rel="noopener"><strong>Foundational Papers in Complexity Science</strong><span>Inventory, summarise and map every item in the named collection.</span></a>
           <a class="coverage-card" href="https://github.com/antlerboy/the-necessary-tangle/issues/4" target="_blank" rel="noopener"><strong>Monoskop</strong><span>Review relevant public pages and bibliographies without treating the whole site as automatically in scope.</span></a>
           <a class="coverage-card" href="https://github.com/antlerboy/the-necessary-tangle/issues/5" target="_blank" rel="noopener"><strong>SysCoI and model.report</strong><span>Use the public archives as evidence of circulation, discussion and discovery.</span></a>
-          <a class="coverage-card" href="/prior-maps/"><strong>Prior maps and bodies of knowledge</strong><span>Explore three live comparator layers, including the source-owner-reviewed Systemic Evolution reader, its complete source links, reconciliation and evidential limits.</span></a>
+          <a class="coverage-card" href="/prior-maps/"><strong>Prior maps and bodies of knowledge</strong><span>Explore three live comparator layers, their complete source links, cumulative reconciliation and evidential limits.</span></a>
           <a class="coverage-card" href="https://github.com/antlerboy/the-necessary-tangle/issues/7" target="_blank" rel="noopener"><strong>Practitioner influence constellations</strong><span>Deepen teaching, mentoring, collaboration, institutions and practice transmission.</span></a>
           <a class="coverage-card" href="https://github.com/antlerboy/the-necessary-tangle/issues/8" target="_blank" rel="noopener"><strong>Company knowledge discovery</strong><span>Use private knowledge only to find leads; replace it with public evidence or a proper ‘No public link’ citation.</span></a>
         </div><p><a href="https://github.com/antlerboy/the-necessary-tangle/blob/main/documentation/coverage-programme.md" target="_blank" rel="noopener">Read the full coverage programme →</a></p></article>
@@ -436,7 +405,7 @@
         <article class="plain-panel wide cynefin-source-panel">
           <p class="eyebrow">Naturalising sense-making</p>
           <h2>Dave Snowden, Cynefin and source roles</h2>
-          <p>The atlas separates the people, papers, framework, tools, organisation and public source corpora around Cynefin. Dave Snowden's author archive is a primary record of his dated public arguments. Cynefin.io is the project's current collaborative semantic network. Neither source is treated as independent proof of influence, priority or effectiveness.</p>
+          <p>The atlas now separates the people, papers, framework, tools, organisation and public source corpora around Cynefin. Dave Snowden's author archive is a primary record of his dated public arguments. Cynefin.io is the project's current collaborative semantic network. Neither source is treated as independent proof of influence, priority or effectiveness.</p>
           <div class="button-row wrap"><a class="button" href="#view=item&id=person_dave_snowden&from=about">Dave Snowden</a><a class="button" href="#view=item&id=method_or_methodology_cynefin_framework&from=about">Cynefin framework</a><a class="button" href="#view=journeys&id=journey_snowden_cynefin_sources_and_practice&step=0">Guided route</a><a class="button" href="https://github.com/antlerboy/the-necessary-tangle/blob/main/documentation/snowden-cynefin-sources.md" target="_blank" rel="noopener">Source roles</a></div>
         </article>
 
@@ -485,12 +454,10 @@
 
   <footer class="site-footer"><div><strong>The Necessary Tangle</strong><br><span>Curated by <a href="https://www.antlerboy.com/">Benjamin P Taylor</a></span></div><div><a href="#view=contribute" data-view-link="contribute" class="text-button">Submit a correction</a><a class="text-button" href="/submissions/">Public submissions</a><a class="text-button" href="/prior-maps/">Prior maps</a><a href="#view=item&id=concept_viability&from=home" class="text-button surprise-me footer-surprise">Surprise me</a><a href="#view=about" data-view-link="about" class="text-button">Coverage, method and rights</a><a class="text-button" href="https://github.com/antlerboy/the-necessary-tangle" target="_blank" rel="noopener">GitHub</a></div></footer>
 
-  <script src="assets/site-config.js?v=0.20.3-reader-scio"></script>
-  <script src="assets/scio-links-204.js?v=0.20.4-scio-links"></script>
+  <script src="assets/site-config.js"></script>
   <script src="assets/public-data.js"></script>
   <script src="assets/app.js?v=0.18.0-public"></script>
-  <script src="assets/site-enhancements.js?v=0.22"></script>
-  <script src="assets/iteration-20.js?v=0.22"></script>
+  <script src="assets/site-enhancements.js"></script>
 
   <script src="assets/iteration-17.js?v=0.18.0-public"></script>
   <script src="assets/iteration-18.js?v=0.20.2-reader-hotfix"></script>

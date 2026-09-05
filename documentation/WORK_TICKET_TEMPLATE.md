@@ -4,7 +4,7 @@ Status: **Draft | Ready | In progress | Blocked | Complete**
 
 Owner: **[human owner]**
 
-Human review point: **[decision or approval required]**
+Human review point: **[only if explicitly requested or required for source rights; otherwise direct publication is authorised under AGENTS.md]**
 
 ## Outcome
 
@@ -46,7 +46,7 @@ Human review point: **[decision or approval required]**
 - [ ] [Observable content or behaviour check.]
 - [ ] [Named automated command or test.]
 - [ ] [Required desktop/mobile/manual inspection, if reader-facing.]
-- [ ] Human review occurs before merge or publication.
+- [ ] Publication follows the standing authorisation in AGENTS.md; any separately required source-rights review is complete.
 
 ## Stop conditions
 

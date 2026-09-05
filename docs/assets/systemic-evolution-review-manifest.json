@@ -1,0 +1,131 @@
+{
+  "package_id": "systemic-evolution-2026-08-26-review-1",
+  "prepared_at": "2026-08-26",
+  "publication_status": "awaiting_source_owner_review",
+  "publication_gate": "Benjamin Hadorn and Beat Hirsbrunner must review and verify this exact derivative package before publication. Benjamin P Taylor then makes the release decision.",
+  "permission_record": "https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5424930678",
+  "required_attribution": [
+    "Eric Schwarz",
+    "Benjamin Hadorn",
+    "Beat Hirsbrunner"
+  ],
+  "published_lineage": [
+    "Eric Schwarz origin, 1996",
+    "extension drawing on Will Durant, 1998",
+    "International Institute for General Systems Studies elaboration, 2000-01",
+    "Benjamin Hadorn extension, 2016"
+  ],
+  "separate_contributions": {
+    "Benjamin P Taylor": "2019 SysCoI registration, permission work, curation and cumulative reconciliation",
+    "Nigel Williams": "deterministic extraction, analysis and first comparator implementation"
+  },
+  "source_semantics": "Directed edges are retained as source-reported major influences between topics. Individual source edges carry no separate citation or finer relation type.",
+  "canonical_boundary": "No comparator link is made canonical by import. Independently checked Tangle relations remain separate and explicitly evidenced.",
+  "change_summary": [
+    "Retains all source nodes, edges, identifiers, yEd graphics and source positions.",
+    "Adds graph-level attribution, permission, review and semantic-boundary fields.",
+    "Adds node-level cumulative reconciliation and source-realm fields.",
+    "Adds edge-level direction, accuracy, mapping and promotion-state fields.",
+    "Adds a focused one- or two-step reading view while retaining the complete source layout.",
+    "Adds pan, zoom, fit, realm and mapping filters, shareable URL state and a keyboard-usable text view."
+  ],
+  "cumulative_reconciliation": {
+    "source_nodes_retained": 650,
+    "source_links_retained": 1320,
+    "source_nodes_confirmed": 5,
+    "source_nodes_partially_reconciled": 57,
+    "source_nodes_unresolved": 588,
+    "distinct_atlas_entries_linked": 66,
+    "source_links_both_endpoints_mapped": 47,
+    "source_links_one_endpoint_mapped": 231,
+    "source_links_no_endpoints_mapped": 1042,
+    "source_links_with_independent_atlas_relation": 1,
+    "canonical_atlas_relations_created_from_source_links": 0
+  },
+  "artefacts": [
+    {
+      "path": "sources/systemic-evolution/original/systemic_evolution.graphml",
+      "role": "original GraphML",
+      "size_bytes": 1370282,
+      "sha256": "c42241d61c76b5113fcbe65a6243cd7fcf3fe6d85b7fcb57b328594c94d9d104",
+      "proposed_public_path": "/assets/systemic_evolution-2016-original.graphml"
+    },
+    {
+      "path": "sources/systemic-evolution/derivative/systemic_evolution-the-necessary-tangle.graphml",
+      "role": "enriched derivative GraphML",
+      "size_bytes": 2347919,
+      "sha256": "0130145d1b579f23d3df7fcd0e6be39dc34783918289c08a6656622971ce5ce5",
+      "proposed_public_path": "/assets/systemic_evolution-the-necessary-tangle.graphml"
+    },
+    {
+      "path": "data/comparator-systemic-evolution.json",
+      "role": "machine-readable comparator",
+      "size_bytes": 1471966,
+      "sha256": "1b7c468dcaf89b654fad5923291284a382eb80221b5d366c53fb5c4c744742b2",
+      "proposed_public_path": "/assets/comparator-systemic-evolution.json"
+    },
+    {
+      "path": "data/systemic-evolution-reconciliation.json",
+      "role": "cumulative reconciliation",
+      "size_bytes": 840266,
+      "sha256": "26b89b5123af4873e2e3c8b0aaa371aac03446b4ed4dd2e3396f1ab07143ba8c",
+      "proposed_public_path": "/assets/systemic-evolution-reconciliation.json"
+    },
+    {
+      "path": "docs/prior-maps/systemic-evolution/index.html",
+      "role": "proposed reader page",
+      "size_bytes": 11156,
+      "sha256": "9432bd12ccf078e2cf539762ee4791a3333feefc839f2c66229bbd4e5d3868ad",
+      "proposed_public_path": null
+    },
+    {
+      "path": "docs/assets/systemic-evolution-map.js",
+      "role": "proposed map interaction",
+      "size_bytes": 31072,
+      "sha256": "28806f3a8c5833bbb4dedacbacc853f9b16e2748a08bb6cc5d171be3d2d4fc12",
+      "proposed_public_path": null
+    },
+    {
+      "path": "docs/assets/prior-maps.css",
+      "role": "proposed map presentation",
+      "size_bytes": 6323,
+      "sha256": "f5bb0fd198e940abe5f8bea1ae734890464c13b3b1a8df0efe2d08ffafa42ebc",
+      "proposed_public_path": null
+    },
+    {
+      "path": "docs/assets/styles.css",
+      "role": "shared reader presentation",
+      "size_bytes": 21556,
+      "sha256": "0593a245d6070f6b589a50bd74034960913cbf3d28a1324613d12592a43d79e2",
+      "proposed_public_path": null
+    },
+    {
+      "path": "docs/assets/site-enhancements.css",
+      "role": "shared reader enhancements",
+      "size_bytes": 21464,
+      "sha256": "942aee34cbad0e23a252a2aaffd9fbbb84755374d594a776bdaac97c3bc8401b",
+      "proposed_public_path": null
+    },
+    {
+      "path": "sources/systemic-evolution/README.md",
+      "role": "source and provenance record",
+      "size_bytes": 2260,
+      "sha256": "e9c6e63ec150920c88e546f4d224ab13bf0cb18827f06cae72468701ac34b14b",
+      "proposed_public_path": null
+    },
+    {
+      "path": "sources/systemic-evolution/PERMISSION.md",
+      "role": "permission and review conditions",
+      "size_bytes": 2549,
+      "sha256": "cda01fbdfc7c93f4f02340791a24a9111aa3af5a249141fcc779027d32089fc9",
+      "proposed_public_path": null
+    },
+    {
+      "path": "sources/systemic-evolution/REVIEW_README.md",
+      "role": "source-owner review guide",
+      "size_bytes": 2406,
+      "sha256": "0c0961e0ef995eeba93e441c968a03e84ea57f3c219852632e1bd45f1425de2d",
+      "proposed_public_path": null
+    }
+  ]
+}

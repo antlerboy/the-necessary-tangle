@@ -54,8 +54,10 @@ conflicts with them, stop and ask for a human decision.
 - Treat a no-op as a no-op; do not record it as substantive progress.
 - Run `make validate`, then inspect every changed reader path at relevant desktop
   and mobile widths.
-- Merge through a reviewed pull request; substantive curatorial batches receive a
-  numbered release.
+- Publish authorised changes directly after validation, following the standing
+  authorisation in `AGENTS.md`. Pull requests can record the change without an
+  additional human-review stop. Substantive curatorial batches receive a
+  numbered release; source-owner permissions and access controls still apply.
 
 
 ## Navigational link contract

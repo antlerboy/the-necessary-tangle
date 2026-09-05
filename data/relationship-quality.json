@@ -1,7 +1,7 @@
 {
   "schema_version": "1.1",
-  "generated": "2026-08-14",
-  "release": "0.16-grammar-connections-presentation-alpha",
+  "generated": "2026-09-05",
+  "release": "0.22",
   "purpose": "Machine-readable relationship-quality result after the evidence-led relationship review.",
   "contract": {
     "human_readable_rationale": "A relation has a plain phrase and either notes, scope conditions or an inference method.",
@@ -27,33 +27,33 @@
     "semantic_statements": 747
   },
   "current": {
-    "public_entries": 635,
-    "all_nodes": 762,
-    "all_edges": 1882,
-    "sources": 216,
+    "public_entries": 719,
+    "all_nodes": 846,
+    "all_edges": 1987,
+    "sources": 224,
     "claims": 34,
     "evidence_records": 37,
-    "profiles": 128,
-    "journeys": 21,
-    "external_corpora_reviewed": 9,
+    "profiles": 137,
+    "journeys": 24,
+    "external_corpora_reviewed": 12,
     "internal_sources_reviewed": 18,
-    "reader_connected_entries": 579,
-    "semantic_connected_entries": 403,
-    "semantic_gap_entries": 232,
+    "reader_connected_entries": 663,
+    "semantic_connected_entries": 412,
+    "semantic_gap_entries": 307,
     "connection_bands": {
-      "developing": 252,
-      "rich": 43,
-      "thin": 284,
+      "developing": 257,
+      "rich": 45,
+      "thin": 361,
       "unconnected": 56
     },
     "evidence_bands": {
-      "mixed": 258,
+      "mixed": 259,
       "none": 56,
-      "provisional": 103,
-      "supported": 218
+      "provisional": 187,
+      "supported": 217
     },
-    "reader_statements": 1277,
-    "semantic_statements": 855
+    "reader_statements": 1382,
+    "semantic_statements": 865
   },
   "changes_from_baseline": {
     "generic_relation_review_targets": {
@@ -66,73 +66,73 @@
     },
     "sources": {
       "before": 153,
-      "after": 216
+      "after": 224
     },
     "semantic_connected_entries": {
       "before": 329,
-      "after": 403,
+      "after": 412,
       "note": "A generic journal-to-tradition edge was replaced by a narrower documentary scope claim; unsupported semantic reach was not preserved."
     },
     "substantive_edge_count": {
       "before": 750,
-      "after": 858
+      "after": 868
     },
     "isolated_semantic_nodes": {
       "before": 167,
-      "after": 232
+      "after": 307
     }
   },
   "criteria": {
     "typed": {
-      "passing": 1882,
-      "total": 1882
+      "passing": 1987,
+      "total": 1987
     },
     "directed": {
-      "passing": 1782,
-      "total": 1882,
+      "passing": 1887,
+      "total": 1987,
       "undirected": 100
     },
     "human_readable_phrase": {
-      "passing": 1882,
-      "total": 1882
+      "passing": 1987,
+      "total": 1987
     },
     "explicit_rationale": {
-      "passing": 1583,
-      "total": 1882
+      "passing": 1688,
+      "total": 1987
     },
     "source_identifier": {
-      "passing": 1882,
-      "total": 1882
+      "passing": 1987,
+      "total": 1987
     },
     "locator_present": {
-      "passing": 1479,
-      "total": 1882
+      "passing": 1584,
+      "total": 1987
     },
     "precision_shaped_locator": {
-      "passing": 320,
-      "total": 1882,
+      "passing": 337,
+      "total": 1987,
       "note": "Conservative text-pattern measure; manual review is still required."
     },
     "epistemic_fields_present": {
-      "passing": 1882,
-      "total": 1882
+      "passing": 1987,
+      "total": 1987
     },
     "generic_related_to": {
-      "passing": 1882,
-      "total": 1882,
+      "passing": 1987,
+      "total": 1987,
       "review_target_count": 0
     },
     "three_or_more_relation_families": {
-      "passing": 93,
-      "total": 635
+      "passing": 94,
+      "total": 719
     },
     "one_relation_family": {
-      "count": 212,
-      "total": 635
+      "count": 291,
+      "total": 719
     },
     "external_corpus_records": {
-      "passing": 9,
-      "total": 9
+      "passing": 12,
+      "total": 12
     },
     "internal_corpus_records": {
       "passing": 18,
@@ -1387,6 +1387,27 @@
       ]
     },
     {
+      "node_id": "concept_information_coding",
+      "label": "Information coding",
+      "entity_type": "concept",
+      "publication_level": "profile",
+      "connection_band": "thin",
+      "evidence_band": "provisional",
+      "visible_connections": 1,
+      "visible_statements": 1,
+      "reader_connections": 1,
+      "reader_statements": 1,
+      "semantic_connections": 1,
+      "semantic_statements": 1,
+      "documentary_statements": 0,
+      "accepted_reader_statements": 0,
+      "provisional_reader_statements": 1,
+      "distinct_reader_families": 1,
+      "reader_families": [
+        "conceptual"
+      ]
+    },
+    {
       "node_id": "person_lucy_loh",
       "label": "Lucy Loh",
       "entity_type": "person",
@@ -1468,6 +1489,27 @@
       "distinct_reader_families": 1,
       "reader_families": [
         "documentary"
+      ]
+    },
+    {
+      "node_id": "concept_communication_levels",
+      "label": "Technical, semantic, and effectiveness questions",
+      "entity_type": "concept",
+      "publication_level": "profile",
+      "connection_band": "thin",
+      "evidence_band": "provisional",
+      "visible_connections": 1,
+      "visible_statements": 1,
+      "reader_connections": 1,
+      "reader_statements": 1,
+      "semantic_connections": 1,
+      "semantic_statements": 1,
+      "documentary_statements": 0,
+      "accepted_reader_statements": 0,
+      "provisional_reader_statements": 1,
+      "distinct_reader_families": 1,
+      "reader_families": [
+        "conceptual"
       ]
     },
     {
@@ -1555,6 +1597,27 @@
       ]
     },
     {
+      "node_id": "person_early_a_d_booth",
+      "label": "A. D. Booth",
+      "entity_type": "person",
+      "publication_level": "described",
+      "connection_band": "thin",
+      "evidence_band": "provisional",
+      "visible_connections": 1,
+      "visible_statements": 1,
+      "reader_connections": 1,
+      "reader_statements": 1,
+      "semantic_connections": 0,
+      "semantic_statements": 0,
+      "documentary_statements": 1,
+      "accepted_reader_statements": 0,
+      "provisional_reader_statements": 1,
+      "distinct_reader_families": 1,
+      "reader_families": [
+        "documentary"
+      ]
+    },
+    {
       "node_id": "person_fpcs_a_j_lotka",
       "label": "A. J. Lotka",
       "entity_type": "person",
@@ -1591,6 +1654,27 @@
       "documentary_statements": 1,
       "accepted_reader_statements": 1,
       "provisional_reader_statements": 0,
+      "distinct_reader_families": 1,
+      "reader_families": [
+        "documentary"
+      ]
+    },
+    {
+      "node_id": "person_early_a_standen",
+      "label": "A. Standen",
+      "entity_type": "person",
+      "publication_level": "described",
+      "connection_band": "thin",
+      "evidence_band": "provisional",
+      "visible_connections": 1,
+      "visible_statements": 1,
+      "reader_connections": 1,
+      "reader_statements": 1,
+      "semantic_connections": 0,
+      "semantic_statements": 0,
+      "documentary_statements": 1,
+      "accepted_reader_statements": 0,
+      "provisional_reader_statements": 1,
       "distinct_reader_families": 1,
       "reader_families": [
         "documentary"
@@ -1636,6 +1720,69 @@
       "distinct_reader_families": 1,
       "reader_families": [
         "identity"
+      ]
+    },
+    {
+      "node_id": "publication_early_newsweek_brain",
+      "label": "Brain is a Machine (Newsweek)",
+      "entity_type": "publication",
+      "publication_level": "described",
+      "connection_band": "thin",
+      "evidence_band": "provisional",
+      "visible_connections": 1,
+      "visible_statements": 1,
+      "reader_connections": 1,
+      "reader_statements": 1,
+      "semantic_connections": 0,
+      "semantic_statements": 0,
+      "documentary_statements": 1,
+      "accepted_reader_statements": 0,
+      "provisional_reader_statements": 1,
+      "distinct_reader_families": 1,
+      "reader_families": [
+        "documentary"
+      ]
+    },
+    {
+      "node_id": "publication_early_digest_brain",
+      "label": "Brain is a Machine (Science Digest)",
+      "entity_type": "publication",
+      "publication_level": "described",
+      "connection_band": "thin",
+      "evidence_band": "provisional",
+      "visible_connections": 1,
+      "visible_statements": 1,
+      "reader_connections": 1,
+      "reader_statements": 1,
+      "semantic_connections": 0,
+      "semantic_statements": 0,
+      "documentary_statements": 1,
+      "accepted_reader_statements": 0,
+      "provisional_reader_statements": 1,
+      "distinct_reader_families": 1,
+      "reader_families": [
+        "documentary"
+      ]
+    },
+    {
+      "node_id": "person_early_c_eisenhart",
+      "label": "C. Eisenhart",
+      "entity_type": "person",
+      "publication_level": "described",
+      "connection_band": "thin",
+      "evidence_band": "provisional",
+      "visible_connections": 1,
+      "visible_statements": 1,
+      "reader_connections": 1,
+      "reader_statements": 1,
+      "semantic_connections": 0,
+      "semantic_statements": 0,
+      "documentary_statements": 1,
+      "accepted_reader_statements": 0,
+      "provisional_reader_statements": 1,
+      "distinct_reader_families": 1,
+      "reader_families": [
+        "documentary"
       ]
     },
     {
@@ -1765,6 +1912,90 @@
       ]
     },
     {
+      "node_id": "person_early_chester_i_barnard",
+      "label": "Chester I. Barnard",
+      "entity_type": "person",
+      "publication_level": "described",
+      "connection_band": "thin",
+      "evidence_band": "provisional",
+      "visible_connections": 1,
+      "visible_statements": 1,
+      "reader_connections": 1,
+      "reader_statements": 1,
+      "semantic_connections": 0,
+      "semantic_statements": 0,
+      "documentary_statements": 1,
+      "accepted_reader_statements": 0,
+      "provisional_reader_statements": 1,
+      "distinct_reader_families": 1,
+      "reader_families": [
+        "documentary"
+      ]
+    },
+    {
+      "node_id": "person_early_colin_cherry",
+      "label": "Colin Cherry",
+      "entity_type": "person",
+      "publication_level": "described",
+      "connection_band": "thin",
+      "evidence_band": "provisional",
+      "visible_connections": 1,
+      "visible_statements": 1,
+      "reader_connections": 1,
+      "reader_statements": 1,
+      "semantic_connections": 0,
+      "semantic_statements": 0,
+      "documentary_statements": 1,
+      "accepted_reader_statements": 0,
+      "provisional_reader_statements": 1,
+      "distinct_reader_families": 1,
+      "reader_families": [
+        "documentary"
+      ]
+    },
+    {
+      "node_id": "publication_early_macy_seven_ten",
+      "label": "Conferences on Cybernetics: Transactions, Seventh to Tenth",
+      "entity_type": "publication",
+      "publication_level": "described",
+      "connection_band": "thin",
+      "evidence_band": "provisional",
+      "visible_connections": 1,
+      "visible_statements": 1,
+      "reader_connections": 1,
+      "reader_statements": 1,
+      "semantic_connections": 0,
+      "semantic_statements": 0,
+      "documentary_statements": 1,
+      "accepted_reader_statements": 0,
+      "provisional_reader_statements": 1,
+      "distinct_reader_families": 1,
+      "reader_families": [
+        "documentary"
+      ]
+    },
+    {
+      "node_id": "person_early_d_a_bell",
+      "label": "D. A. Bell",
+      "entity_type": "person",
+      "publication_level": "described",
+      "connection_band": "thin",
+      "evidence_band": "provisional",
+      "visible_connections": 1,
+      "visible_statements": 1,
+      "reader_connections": 1,
+      "reader_statements": 1,
+      "semantic_connections": 0,
+      "semantic_statements": 0,
+      "documentary_statements": 1,
+      "accepted_reader_statements": 0,
+      "provisional_reader_statements": 1,
+      "distinct_reader_families": 1,
+      "reader_families": [
+        "documentary"
+      ]
+    },
+    {
       "node_id": "person_fpcs_d_m_raup",
       "label": "D. M. Raup",
       "entity_type": "person",
@@ -1780,6 +2011,48 @@
       "documentary_statements": 1,
       "accepted_reader_statements": 1,
       "provisional_reader_statements": 0,
+      "distinct_reader_families": 1,
+      "reader_families": [
+        "documentary"
+      ]
+    },
+    {
+      "node_id": "person_early_d_o_hebb",
+      "label": "D. O. Hebb",
+      "entity_type": "person",
+      "publication_level": "described",
+      "connection_band": "thin",
+      "evidence_band": "provisional",
+      "visible_connections": 1,
+      "visible_statements": 1,
+      "reader_connections": 1,
+      "reader_statements": 1,
+      "semantic_connections": 0,
+      "semantic_statements": 0,
+      "documentary_statements": 1,
+      "accepted_reader_statements": 0,
+      "provisional_reader_statements": 1,
+      "distinct_reader_families": 1,
+      "reader_families": [
+        "documentary"
+      ]
+    },
+    {
+      "node_id": "person_early_dennis_gabor",
+      "label": "Dennis Gabor",
+      "entity_type": "person",
+      "publication_level": "described",
+      "connection_band": "thin",
+      "evidence_band": "provisional",
+      "visible_connections": 1,
+      "visible_statements": 1,
+      "reader_connections": 1,
+      "reader_statements": 1,
+      "semantic_connections": 0,
+      "semantic_statements": 0,
+      "documentary_statements": 1,
+      "accepted_reader_statements": 0,
+      "provisional_reader_statements": 1,
       "distinct_reader_families": 1,
       "reader_families": [
         "documentary"
@@ -1822,6 +2095,27 @@
       "documentary_statements": 1,
       "accepted_reader_statements": 1,
       "provisional_reader_statements": 0,
+      "distinct_reader_families": 1,
+      "reader_families": [
+        "documentary"
+      ]
+    },
+    {
+      "node_id": "person_early_e_c_berkeley",
+      "label": "E. C. Berkeley",
+      "entity_type": "person",
+      "publication_level": "described",
+      "connection_band": "thin",
+      "evidence_band": "provisional",
+      "visible_connections": 1,
+      "visible_statements": 1,
+      "reader_connections": 1,
+      "reader_statements": 1,
+      "semantic_connections": 0,
+      "semantic_statements": 0,
+      "documentary_statements": 1,
+      "accepted_reader_statements": 0,
+      "provisional_reader_statements": 1,
       "distinct_reader_families": 1,
       "reader_families": [
         "documentary"
@@ -1954,6 +2248,27 @@
       ]
     },
     {
+      "node_id": "person_f_dermot_barrett",
+      "label": "F. Dermot Barrett",
+      "entity_type": "person",
+      "publication_level": "described",
+      "connection_band": "thin",
+      "evidence_band": "provisional",
+      "visible_connections": 1,
+      "visible_statements": 1,
+      "reader_connections": 1,
+      "reader_statements": 1,
+      "semantic_connections": 0,
+      "semantic_statements": 0,
+      "documentary_statements": 1,
+      "accepted_reader_statements": 0,
+      "provisional_reader_statements": 1,
+      "distinct_reader_families": 1,
+      "reader_families": [
+        "documentary"
+      ]
+    },
+    {
       "node_id": "person_fpcs_f_j_dyson",
       "label": "F. J. Dyson",
       "entity_type": "person",
@@ -1969,6 +2284,48 @@
       "documentary_statements": 1,
       "accepted_reader_statements": 1,
       "provisional_reader_statements": 0,
+      "distinct_reader_families": 1,
+      "reader_families": [
+        "documentary"
+      ]
+    },
+    {
+      "node_id": "publication_early_time_feedback",
+      "label": "Feed back to Idiocy",
+      "entity_type": "publication",
+      "publication_level": "described",
+      "connection_band": "thin",
+      "evidence_band": "provisional",
+      "visible_connections": 1,
+      "visible_statements": 1,
+      "reader_connections": 1,
+      "reader_statements": 1,
+      "semantic_connections": 0,
+      "semantic_statements": 0,
+      "documentary_statements": 1,
+      "accepted_reader_statements": 0,
+      "provisional_reader_statements": 1,
+      "distinct_reader_families": 1,
+      "reader_families": [
+        "documentary"
+      ]
+    },
+    {
+      "node_id": "person_early_g_e_kimball",
+      "label": "G. E. Kimball",
+      "entity_type": "person",
+      "publication_level": "described",
+      "connection_band": "thin",
+      "evidence_band": "provisional",
+      "visible_connections": 1,
+      "visible_statements": 1,
+      "reader_connections": 1,
+      "reader_statements": 1,
+      "semantic_connections": 0,
+      "semantic_statements": 0,
+      "documentary_statements": 1,
+      "accepted_reader_statements": 0,
+      "provisional_reader_statements": 1,
       "distinct_reader_families": 1,
       "reader_families": [
         "documentary"
@@ -2038,6 +2395,27 @@
       ]
     },
     {
+      "node_id": "person_early_giorgio_de_santillana",
+      "label": "Giorgio de Santillana",
+      "entity_type": "person",
+      "publication_level": "described",
+      "connection_band": "thin",
+      "evidence_band": "provisional",
+      "visible_connections": 1,
+      "visible_statements": 1,
+      "reader_connections": 1,
+      "reader_statements": 1,
+      "semantic_connections": 0,
+      "semantic_statements": 0,
+      "documentary_statements": 1,
+      "accepted_reader_statements": 0,
+      "provisional_reader_statements": 1,
+      "distinct_reader_families": 1,
+      "reader_families": [
+        "documentary"
+      ]
+    },
+    {
       "node_id": "person_fpcs_h_haken",
       "label": "H. Haken",
       "entity_type": "person",
@@ -2080,6 +2458,27 @@
       ]
     },
     {
+      "node_id": "person_herbert_a_shepard",
+      "label": "Herbert A. Shepard",
+      "entity_type": "person",
+      "publication_level": "described",
+      "connection_band": "thin",
+      "evidence_band": "provisional",
+      "visible_connections": 1,
+      "visible_statements": 1,
+      "reader_connections": 1,
+      "reader_statements": 1,
+      "semantic_connections": 0,
+      "semantic_statements": 0,
+      "documentary_statements": 1,
+      "accepted_reader_statements": 0,
+      "provisional_reader_statements": 1,
+      "distinct_reader_families": 1,
+      "reader_families": [
+        "documentary"
+      ]
+    },
+    {
       "node_id": "person_igor_perko",
       "label": "Igor Perko",
       "entity_type": "person",
@@ -2098,6 +2497,27 @@
       "distinct_reader_families": 1,
       "reader_families": [
         "identity"
+      ]
+    },
+    {
+      "node_id": "publication_early_time_image",
+      "label": "In Man’s Image",
+      "entity_type": "publication",
+      "publication_level": "described",
+      "connection_band": "thin",
+      "evidence_band": "provisional",
+      "visible_connections": 1,
+      "visible_statements": 1,
+      "reader_connections": 1,
+      "reader_statements": 1,
+      "semantic_connections": 0,
+      "semantic_statements": 0,
+      "documentary_statements": 1,
+      "accepted_reader_statements": 0,
+      "provisional_reader_statements": 1,
+      "distinct_reader_families": 1,
+      "reader_families": [
+        "documentary"
       ]
     },
     {
@@ -2140,426 +2560,6 @@
       "distinct_reader_families": 1,
       "reader_families": [
         "practice"
-      ]
-    },
-    {
-      "node_id": "person_fpcs_j_a_wheeler",
-      "label": "J. A. Wheeler",
-      "entity_type": "person",
-      "publication_level": "described",
-      "connection_band": "thin",
-      "evidence_band": "mixed",
-      "visible_connections": 1,
-      "visible_statements": 1,
-      "reader_connections": 1,
-      "reader_statements": 1,
-      "semantic_connections": 0,
-      "semantic_statements": 0,
-      "documentary_statements": 1,
-      "accepted_reader_statements": 1,
-      "provisional_reader_statements": 0,
-      "distinct_reader_families": 1,
-      "reader_families": [
-        "documentary"
-      ]
-    },
-    {
-      "node_id": "person_fpcs_j_j_hopfield",
-      "label": "J. J. Hopfield",
-      "entity_type": "person",
-      "publication_level": "described",
-      "connection_band": "thin",
-      "evidence_band": "mixed",
-      "visible_connections": 1,
-      "visible_statements": 1,
-      "reader_connections": 1,
-      "reader_statements": 1,
-      "semantic_connections": 0,
-      "semantic_statements": 0,
-      "documentary_statements": 1,
-      "accepted_reader_statements": 1,
-      "provisional_reader_statements": 0,
-      "distinct_reader_families": 1,
-      "reader_families": [
-        "documentary"
-      ]
-    },
-    {
-      "node_id": "person_fpcs_j_maynard_smith",
-      "label": "J. Maynard Smith",
-      "entity_type": "person",
-      "publication_level": "described",
-      "connection_band": "thin",
-      "evidence_band": "mixed",
-      "visible_connections": 1,
-      "visible_statements": 1,
-      "reader_connections": 1,
-      "reader_statements": 1,
-      "semantic_connections": 0,
-      "semantic_statements": 0,
-      "documentary_statements": 1,
-      "accepted_reader_statements": 1,
-      "provisional_reader_statements": 0,
-      "distinct_reader_families": 1,
-      "reader_families": [
-        "documentary"
-      ]
-    },
-    {
-      "node_id": "person_fpcs_j_nash",
-      "label": "J. Nash",
-      "entity_type": "person",
-      "publication_level": "described",
-      "connection_band": "thin",
-      "evidence_band": "mixed",
-      "visible_connections": 1,
-      "visible_statements": 1,
-      "reader_connections": 1,
-      "reader_statements": 1,
-      "semantic_connections": 0,
-      "semantic_statements": 0,
-      "documentary_statements": 1,
-      "accepted_reader_statements": 1,
-      "provisional_reader_statements": 0,
-      "distinct_reader_families": 1,
-      "reader_families": [
-        "documentary"
-      ]
-    },
-    {
-      "node_id": "person_fpcs_j_pearl",
-      "label": "J. Pearl",
-      "entity_type": "person",
-      "publication_level": "described",
-      "connection_band": "thin",
-      "evidence_band": "mixed",
-      "visible_connections": 1,
-      "visible_statements": 1,
-      "reader_connections": 1,
-      "reader_statements": 1,
-      "semantic_connections": 0,
-      "semantic_statements": 0,
-      "documentary_statements": 1,
-      "accepted_reader_statements": 1,
-      "provisional_reader_statements": 0,
-      "distinct_reader_families": 1,
-      "reader_families": [
-        "documentary"
-      ]
-    },
-    {
-      "node_id": "person_fpcs_j_von_neumann",
-      "label": "J. von Neumann",
-      "entity_type": "person",
-      "publication_level": "described",
-      "connection_band": "thin",
-      "evidence_band": "mixed",
-      "visible_connections": 1,
-      "visible_statements": 1,
-      "reader_connections": 1,
-      "reader_statements": 1,
-      "semantic_connections": 0,
-      "semantic_statements": 0,
-      "documentary_statements": 1,
-      "accepted_reader_statements": 1,
-      "provisional_reader_statements": 0,
-      "distinct_reader_families": 1,
-      "reader_families": [
-        "documentary"
-      ]
-    },
-    {
-      "node_id": "person_james_clerk_maxwell",
-      "label": "James Clerk Maxwell",
-      "entity_type": "person",
-      "publication_level": "described",
-      "connection_band": "thin",
-      "evidence_band": "mixed",
-      "visible_connections": 1,
-      "visible_statements": 1,
-      "reader_connections": 1,
-      "reader_statements": 1,
-      "semantic_connections": 1,
-      "semantic_statements": 1,
-      "documentary_statements": 0,
-      "accepted_reader_statements": 1,
-      "provisional_reader_statements": 0,
-      "distinct_reader_families": 1,
-      "reader_families": [
-        "historical"
-      ]
-    },
-    {
-      "node_id": "person_jan_de_visch",
-      "label": "Jan De Visch",
-      "entity_type": "person",
-      "publication_level": "described",
-      "connection_band": "thin",
-      "evidence_band": "mixed",
-      "visible_connections": 1,
-      "visible_statements": 1,
-      "reader_connections": 1,
-      "reader_statements": 1,
-      "semantic_connections": 0,
-      "semantic_statements": 0,
-      "documentary_statements": 1,
-      "accepted_reader_statements": 1,
-      "provisional_reader_statements": 0,
-      "distinct_reader_families": 1,
-      "reader_families": [
-        "documentary"
-      ]
-    },
-    {
-      "node_id": "person_jo_freeman",
-      "label": "Jo Freeman",
-      "entity_type": "person",
-      "publication_level": "described",
-      "connection_band": "thin",
-      "evidence_band": "mixed",
-      "visible_connections": 1,
-      "visible_statements": 1,
-      "reader_connections": 1,
-      "reader_statements": 1,
-      "semantic_connections": 0,
-      "semantic_statements": 0,
-      "documentary_statements": 1,
-      "accepted_reader_statements": 1,
-      "provisional_reader_statements": 0,
-      "distinct_reader_families": 1,
-      "reader_families": [
-        "documentary"
-      ]
-    },
-    {
-      "node_id": "person_jorge_mpodozis",
-      "label": "Jorge Mpodozis",
-      "entity_type": "person",
-      "publication_level": "described",
-      "connection_band": "thin",
-      "evidence_band": "mixed",
-      "visible_connections": 1,
-      "visible_statements": 1,
-      "reader_connections": 1,
-      "reader_statements": 1,
-      "semantic_connections": 1,
-      "semantic_statements": 1,
-      "documentary_statements": 0,
-      "accepted_reader_statements": 1,
-      "provisional_reader_statements": 0,
-      "distinct_reader_families": 1,
-      "reader_families": [
-        "historical"
-      ]
-    },
-    {
-      "node_id": "person_jurgen_appelo",
-      "label": "Jurgen Appelo",
-      "entity_type": "person",
-      "publication_level": "described",
-      "connection_band": "thin",
-      "evidence_band": "mixed",
-      "visible_connections": 1,
-      "visible_statements": 1,
-      "reader_connections": 1,
-      "reader_statements": 1,
-      "semantic_connections": 0,
-      "semantic_statements": 0,
-      "documentary_statements": 1,
-      "accepted_reader_statements": 1,
-      "provisional_reader_statements": 0,
-      "distinct_reader_families": 1,
-      "reader_families": [
-        "documentary"
-      ]
-    },
-    {
-      "node_id": "person_fpcs_k_hasselmann",
-      "label": "K. Hasselmann",
-      "entity_type": "person",
-      "publication_level": "described",
-      "connection_band": "thin",
-      "evidence_band": "mixed",
-      "visible_connections": 1,
-      "visible_statements": 1,
-      "reader_connections": 1,
-      "reader_statements": 1,
-      "semantic_connections": 0,
-      "semantic_statements": 0,
-      "documentary_statements": 1,
-      "accepted_reader_statements": 1,
-      "provisional_reader_statements": 0,
-      "distinct_reader_families": 1,
-      "reader_families": [
-        "documentary"
-      ]
-    },
-    {
-      "node_id": "person_fpcs_k_j_arrow",
-      "label": "K. J. Arrow",
-      "entity_type": "person",
-      "publication_level": "described",
-      "connection_band": "thin",
-      "evidence_band": "mixed",
-      "visible_connections": 1,
-      "visible_statements": 1,
-      "reader_connections": 1,
-      "reader_statements": 1,
-      "semantic_connections": 0,
-      "semantic_statements": 0,
-      "documentary_statements": 1,
-      "accepted_reader_statements": 1,
-      "provisional_reader_statements": 0,
-      "distinct_reader_families": 1,
-      "reader_families": [
-        "documentary"
-      ]
-    },
-    {
-      "node_id": "person_fpcs_k_lindgren",
-      "label": "K. Lindgren",
-      "entity_type": "person",
-      "publication_level": "described",
-      "connection_band": "thin",
-      "evidence_band": "mixed",
-      "visible_connections": 1,
-      "visible_statements": 1,
-      "reader_connections": 1,
-      "reader_statements": 1,
-      "semantic_connections": 0,
-      "semantic_statements": 0,
-      "documentary_statements": 1,
-      "accepted_reader_statements": 1,
-      "provisional_reader_statements": 0,
-      "distinct_reader_families": 1,
-      "reader_families": [
-        "documentary"
-      ]
-    },
-    {
-      "node_id": "person_fpcs_l_szilard",
-      "label": "L. Szilárd",
-      "entity_type": "person",
-      "publication_level": "described",
-      "connection_band": "thin",
-      "evidence_band": "mixed",
-      "visible_connections": 1,
-      "visible_statements": 1,
-      "reader_connections": 1,
-      "reader_statements": 1,
-      "semantic_connections": 0,
-      "semantic_statements": 0,
-      "documentary_statements": 1,
-      "accepted_reader_statements": 1,
-      "provisional_reader_statements": 0,
-      "distinct_reader_families": 1,
-      "reader_families": [
-        "documentary"
-      ]
-    },
-    {
-      "node_id": "publication_fullan_leadership",
-      "label": "Leadership & Sustainability: System Thinkers in Action",
-      "entity_type": "publication",
-      "publication_level": "described",
-      "connection_band": "thin",
-      "evidence_band": "mixed",
-      "visible_connections": 1,
-      "visible_statements": 1,
-      "reader_connections": 1,
-      "reader_statements": 1,
-      "semantic_connections": 0,
-      "semantic_statements": 0,
-      "documentary_statements": 1,
-      "accepted_reader_statements": 1,
-      "provisional_reader_statements": 0,
-      "distinct_reader_families": 1,
-      "reader_families": [
-        "documentary"
-      ]
-    },
-    {
-      "node_id": "person_lev_vygotsky",
-      "label": "Lev Vygotsky",
-      "entity_type": "person",
-      "publication_level": "described",
-      "connection_band": "thin",
-      "evidence_band": "mixed",
-      "visible_connections": 2,
-      "visible_statements": 2,
-      "reader_connections": 1,
-      "reader_statements": 1,
-      "semantic_connections": 1,
-      "semantic_statements": 1,
-      "documentary_statements": 0,
-      "accepted_reader_statements": 1,
-      "provisional_reader_statements": 0,
-      "distinct_reader_families": 1,
-      "reader_families": [
-        "identity"
-      ]
-    },
-    {
-      "node_id": "person_fpcs_m_bunge",
-      "label": "M. Bunge",
-      "entity_type": "person",
-      "publication_level": "described",
-      "connection_band": "thin",
-      "evidence_band": "mixed",
-      "visible_connections": 1,
-      "visible_statements": 1,
-      "reader_connections": 1,
-      "reader_statements": 1,
-      "semantic_connections": 0,
-      "semantic_statements": 0,
-      "documentary_statements": 1,
-      "accepted_reader_statements": 1,
-      "provisional_reader_statements": 0,
-      "distinct_reader_families": 1,
-      "reader_families": [
-        "documentary"
-      ]
-    },
-    {
-      "node_id": "person_fpcs_m_i_budyko",
-      "label": "M. I. Budyko",
-      "entity_type": "person",
-      "publication_level": "described",
-      "connection_band": "thin",
-      "evidence_band": "mixed",
-      "visible_connections": 1,
-      "visible_statements": 1,
-      "reader_connections": 1,
-      "reader_statements": 1,
-      "semantic_connections": 0,
-      "semantic_statements": 0,
-      "documentary_statements": 1,
-      "accepted_reader_statements": 1,
-      "provisional_reader_statements": 0,
-      "distinct_reader_families": 1,
-      "reader_families": [
-        "documentary"
-      ]
-    },
-    {
-      "node_id": "person_fpcs_m_j_feigenbaum",
-      "label": "M. J. Feigenbaum",
-      "entity_type": "person",
-      "publication_level": "described",
-      "connection_band": "thin",
-      "evidence_band": "mixed",
-      "visible_connections": 1,
-      "visible_statements": 1,
-      "reader_connections": 1,
-      "reader_statements": 1,
-      "semantic_connections": 0,
-      "semantic_statements": 0,
-      "documentary_statements": 1,
-      "accepted_reader_statements": 1,
-      "provisional_reader_statements": 0,
-      "distinct_reader_families": 1,
-      "reader_families": [
-        "documentary"
       ]
     }
   ],

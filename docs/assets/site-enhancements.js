@@ -438,7 +438,8 @@
   function init() {
     installStyles();
     refine();
-    setupLittleRules();
+    // The header rule is retired in 0.22. Its implementation remains here for history;
+    // the maintained page and portable component use local data.
     setupLivingMarkControls();
     setupMapCardView();
     observer.observe(document.body, { childList: true, subtree: true });

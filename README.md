@@ -1,5 +1,11 @@
 # The Necessary Tangle
 
+## Release 0.22
+
+[Change digest](https://transduction.systems/updates/0.22/) · [Systems-thinking entrance](https://transduction.systems/systems-thinking/)
+
+A plain-language [systems-thinking entrance](https://transduction.systems/systems-thinking/), a [credited early cybernetics collection](https://transduction.systems/corpora/early-cybernetics/), three new guided journeys, and portable RedQuadrant rules. The release contains 719 canonical public entries, 137 profiles, 224 source records, and 1,987 typed statements. Bibliographic coverage and primary reading remain separately measured. See [the release account](documentation/release-0.22.md) for evidence, limits, and verification.
+
 ## Release 0.21
 
 Release 0.21 publishes Benjamin Hadorn's source-owner-reviewed iteration of the *Map of Systemic Evolution*. It retains all 650 source nodes and 1,320 source-reported major-influence links, adds focused and complete layouts plus a text alternative, and identifies the exact approved package with immutable checksums. The scope grant, reviewed files, and publication decision remain separate records, and no comparator link is silently promoted into the canonical atlas.

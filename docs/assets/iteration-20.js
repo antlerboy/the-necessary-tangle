@@ -166,13 +166,8 @@
 
   function init() {
     installStyles();
-    if (placeRule()) return;
-    const header = document.querySelector('.site-header');
-    if (!header) return;
-    const observer = new MutationObserver(() => {
-      if (placeRule()) observer.disconnect();
-    });
-    observer.observe(header, { childList: true, subtree: true });
+    // Rule placement is preserved above for reuse. No header observer is needed.
+
   }
 
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);

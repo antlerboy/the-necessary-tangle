@@ -170,3 +170,7 @@
 - replaced the obsolete hosted-form design with GitHub Issues and Discussions;
 - added authorship, acknowledgements, rights, disclaimer and public documentation;
 - added reproducible build, validation and GitHub Pages deployment workflows.
+
+## 0.22 — 5 September 2026
+
+Accessible systems-thinking gateway; 48-entry early cybernetics catalogue with Sean Manion credited; nine developed profiles and three journeys; 256 RedQuadrant rules preserved for reuse with the header rule retired. See `documentation/release-0.22.md` for evidence depth and remaining gaps.

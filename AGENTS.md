@@ -28,7 +28,18 @@ larger documentation set only when they are needed to resolve a decision.
   another pass would not materially improve the named outcome.
 - Do not create generic ‘related to’ edges to improve coverage figures.
 - Do not remove or relocate the bottom-right ‘Open updates’ magic dot.
-- Do not publish or merge without human review.
+- Benjamin P Taylor authorises direct publication of user-requested changes to
+  this site. After the relevant checks pass, agents may commit, merge, and
+  publish without an additional approval round. This standing authorisation
+  was given on 5 September 2026 and includes release 0.22.
+- An explicit current user request is an authorised work packet: record it in
+  `NEXT_WORK.md` and proceed, even when the previous packet is marked complete.
+- Preserve third-party source permissions and GitHub access controls. Direct
+  publication does not authorise private disclosures, bypassing a protected
+  branch, or changing a source-owner-reviewed artefact beyond its granted scope.
+- A pull request is useful for traceability, but is not a mandatory human-review
+  stop for authorised changes. Verify the live release after publication and
+  return its URL, a digest of changes and next work, and any requested backup.
 
 Finish with a concise report: outcome, files changed, checks run, residual risks
 and the exact next decision. Update the durable state files only when their facts
