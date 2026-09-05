@@ -13,6 +13,14 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v7
+      - name: Check out the maintained events interface
+        uses: actions/checkout@v7
+        with:
+          repository: antlerboy/systemsmap
+          ref: fde8d7e32b71beeb4530920fdc4ee22351f6ee9e
+          path: _systemsmap
+          persist-credentials: false
+
       - name: Install media inspection dependency
         run: |
           sudo apt-get update -qq
