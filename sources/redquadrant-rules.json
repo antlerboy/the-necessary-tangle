@@ -1,0 +1,1032 @@
+{
+  "title": "The little RedQuadrant rules",
+  "curator": "Benjamin P Taylor",
+  "source_url": "https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5465271322",
+  "captured": "2026-09-05",
+  "rules": [
+    {
+      "number": 1,
+      "text": "Start with purpose. A project plan without purpose is decorative administration."
+    },
+    {
+      "number": 2,
+      "text": "Ask ‘What would you like to happen?’ before asking what’s wrong."
+    },
+    {
+      "number": 3,
+      "text": "Keep the final outcome and the next concrete action in view at the same time."
+    },
+    {
+      "number": 4,
+      "text": "A next action has a person, a verb, an object, and a time. Otherwise it’s weather."
+    },
+    {
+      "number": 5,
+      "text": "If nobody leaves able to act, the meeting produced minutes, not movement."
+    },
+    {
+      "number": 6,
+      "text": "Facts before ideas."
+    },
+    {
+      "number": 7,
+      "text": "Never accept a plausible explanation merely because it arrived fluently."
+    },
+    {
+      "number": 8,
+      "text": "A fluent explanation can be ignorance that has practised."
+    },
+    {
+      "number": 9,
+      "text": "Say what you saw, not the motive you assigned to it."
+    },
+    {
+      "number": 10,
+      "text": "Only the truth sounds like the truth. Unfortunately, bullshit can rehearse."
+    },
+    {
+      "number": 11,
+      "text": "Every word is a prejudice. Use words anyway, carefully."
+    },
+    {
+      "number": 12,
+      "text": "Ask ‘So what?’ until the answer touches a choice."
+    },
+    {
+      "number": 13,
+      "text": "Ask ‘Now what?’ before the energy leaks away."
+    },
+    {
+      "number": 14,
+      "text": "Don’t use ‘strategic’ to mean ‘far away from the work’."
+    },
+    {
+      "number": 15,
+      "text": "Don’t call it transformation because the PowerPoint has arrows."
+    },
+    {
+      "number": 16,
+      "text": "Current results tell you more about the actual design than the strategy deck does."
+    },
+    {
+      "number": 17,
+      "text": "Never confuse announced purpose with operative purpose."
+    },
+    {
+      "number": 18,
+      "text": "Don’t ask for values. Watch the trade-offs."
+    },
+    {
+      "number": 19,
+      "text": "The values are in the calendar, the budget, the queue, the exception, and who gets interrupted."
+    },
+    {
+      "number": 20,
+      "text": "Every policy is an intervention in somebody’s day."
+    },
+    {
+      "number": 21,
+      "text": "Every intervention contains an idea of the sort of person being intervened upon."
+    },
+    {
+      "number": 22,
+      "text": "State your assumptions before they harden into facts."
+    },
+    {
+      "number": 23,
+      "text": "State uncertainty before someone else mistakes confidence for evidence."
+    },
+    {
+      "number": 24,
+      "text": "Label inference as inference."
+    },
+    {
+      "number": 25,
+      "text": "Confidence is not competence."
+    },
+    {
+      "number": 26,
+      "text": "Novelty is not insight."
+    },
+    {
+      "number": 27,
+      "text": "‘Common sense’ means somebody’s context has become invisible."
+    },
+    {
+      "number": 28,
+      "text": "Data selection is a political act, even when the spreadsheet is pastel."
+    },
+    {
+      "number": 29,
+      "text": "The map is not the terrain. It is also not innocent."
+    },
+    {
+      "number": 30,
+      "text": "Ask what the map leaves out."
+    },
+    {
+      "number": 31,
+      "text": "Ask who benefits from that omission."
+    },
+    {
+      "number": 32,
+      "text": "It will always be flawed. So what?"
+    },
+    {
+      "number": 33,
+      "text": "Every time you advise someone who is free to choose, you are consulting."
+    },
+    {
+      "number": 34,
+      "text": "Consultancy begins before the contract and continues after the invoice."
+    },
+    {
+      "number": 35,
+      "text": "The technical problem and the relationship around the problem are both the work."
+    },
+    {
+      "number": 36,
+      "text": "Techniques are not enough."
+    },
+    {
+      "number": 37,
+      "text": "A larger toolbox can make a more dangerous fool."
+    },
+    {
+      "number": 38,
+      "text": "The client’s stated problem is the beginning, not the brief."
+    },
+    {
+      "number": 39,
+      "text": "Look for the client behind the client."
+    },
+    {
+      "number": 40,
+      "text": "Look for the problem behind the problem."
+    },
+    {
+      "number": 41,
+      "text": "Look for the consultant inside the problem."
+    },
+    {
+      "number": 42,
+      "text": "Ask what your presence makes easier, and what it makes impossible."
+    },
+    {
+      "number": 43,
+      "text": "Take half the responsibility for a half-owned relationship."
+    },
+    {
+      "number": 44,
+      "text": "Don’t take 100 per cent responsibility for a 50–50 relationship."
+    },
+    {
+      "number": 45,
+      "text": "Don’t hide from your 50 per cent behind ‘client ownership’."
+    },
+    {
+      "number": 46,
+      "text": "Don’t steal the client’s work."
+    },
+    {
+      "number": 47,
+      "text": "Don’t abandon the client in the name of empowerment."
+    },
+    {
+      "number": 48,
+      "text": "Help can become control wearing a fleece."
+    },
+    {
+      "number": 49,
+      "text": "Curiosity is usually less violent than advice."
+    },
+    {
+      "number": 50,
+      "text": "When you feel compelled to rescue someone, ask what you’re rescuing yourself from."
+    },
+    {
+      "number": 51,
+      "text": "Expertise is a gift. Domination is not."
+    },
+    {
+      "number": 52,
+      "text": "Use your expertise plainly, then return the choice."
+    },
+    {
+      "number": 53,
+      "text": "Contracting isn’t administration before the work. It is the first work."
+    },
+    {
+      "number": 54,
+      "text": "Contract repeatedly. Reality has no duty to honour the original terms."
+    },
+    {
+      "number": 55,
+      "text": "Say what you want from the client."
+    },
+    {
+      "number": 56,
+      "text": "Ask what the client wants from you."
+    },
+    {
+      "number": 57,
+      "text": "Agree what each of you will do."
+    },
+    {
+      "number": 58,
+      "text": "Agree what neither of you will do."
+    },
+    {
+      "number": 59,
+      "text": "Ask what can be said in this room."
+    },
+    {
+      "number": 60,
+      "text": "Ask what must be carried elsewhere."
+    },
+    {
+      "number": 61,
+      "text": "Ask who can stop the work."
+    },
+    {
+      "number": 62,
+      "text": "Ask who pays, who decides, and who has to live with the result."
+    },
+    {
+      "number": 63,
+      "text": "A triangular contract exists whether or not anybody has drawn the triangle."
+    },
+    {
+      "number": 64,
+      "text": "‘Stakeholders’ are often people whose names haven’t been learned."
+    },
+    {
+      "number": 65,
+      "text": "A clean contract can still contain dirty power."
+    },
+    {
+      "number": 66,
+      "text": "Client responsibility never cancels expert duty."
+    },
+    {
+      "number": 67,
+      "text": "Power asymmetry doesn’t disappear because everybody uses first names."
+    },
+    {
+      "number": 68,
+      "text": "Name the mixed motives. Organisations have them because people do."
+    },
+    {
+      "number": 69,
+      "text": "Ask directly about exposure, control, vulnerability, and the fear of looking stupid."
+    },
+    {
+      "number": 70,
+      "text": "Resistance is information about the offer, the relationship, the risk, or the history."
+    },
+    {
+      "number": 71,
+      "text": "Don’t diagnose resistance as a quality located inside the other person."
+    },
+    {
+      "number": 72,
+      "text": "When the work is stuck, say ‘I think we’re stuck’."
+    },
+    {
+      "number": 73,
+      "text": "Then stop talking."
+    },
+    {
+      "number": 74,
+      "text": "Silence isn’t failure unless you fill it with panic."
+    },
+    {
+      "number": 75,
+      "text": "Feedback is data plus joint interpretation, not a verdict."
+    },
+    {
+      "number": 76,
+      "text": "Share relevant inconvenient data, including data outside the original assignment."
+    },
+    {
+      "number": 77,
+      "text": "Involve the client in interpreting what the data means."
+    },
+    {
+      "number": 78,
+      "text": "Don’t collude by inventing explanations that leave the solution outside the client’s control."
+    },
+    {
+      "number": 79,
+      "text": "Don’t project your anxiety and call it their unreadiness."
+    },
+    {
+      "number": 80,
+      "text": "Support the client where they’re right."
+    },
+    {
+      "number": 81,
+      "text": "Confront them where they’re helping to reproduce the problem."
+    },
+    {
+      "number": 82,
+      "text": "Say both without making a compliment sandwich."
+    },
+    {
+      "number": 83,
+      "text": "Be descriptive, focused, specific, brief, and human."
+    },
+    {
+      "number": 84,
+      "text": "Authenticity isn’t dumping."
+    },
+    {
+      "number": 85,
+      "text": "Confidentiality isn’t secrecy."
+    },
+    {
+      "number": 86,
+      "text": "Never speak against an individual client person for sport."
+    },
+    {
+      "number": 87,
+      "text": "Don’t wait for someone else’s transformation."
+    },
+    {
+      "number": 88,
+      "text": "Ask ‘How am I contributing to the thing I’m complaining about?’"
+    },
+    {
+      "number": 89,
+      "text": "Being right about them may still leave you powerless."
+    },
+    {
+      "number": 90,
+      "text": "Blame offers short-term relief and long-term helplessness."
+    },
+    {
+      "number": 91,
+      "text": "No blame doesn’t mean no accountability."
+    },
+    {
+      "number": 92,
+      "text": "Accountability without voice is surveillance."
+    },
+    {
+      "number": 93,
+      "text": "Voice without consequence is theatre."
+    },
+    {
+      "number": 94,
+      "text": "A compulsory ‘yes’ is not commitment."
+    },
+    {
+      "number": 95,
+      "text": "Make room for ‘no’."
+    },
+    {
+      "number": 96,
+      "text": "Dissent is often the first honest part of commitment."
+    },
+    {
+      "number": 97,
+      "text": "Ask for doubts before they become delays."
+    },
+    {
+      "number": 98,
+      "text": "When someone says ‘There’s no time’, ask what reservation the timetable is protecting."
+    },
+    {
+      "number": 99,
+      "text": "When someone says ‘There’s no budget’, inspect priority before arithmetic."
+    },
+    {
+      "number": 100,
+      "text": "When someone says ‘Everybody agrees’, find the silent person."
+    },
+    {
+      "number": 101,
+      "text": "When someone says ‘We all know’, ask how."
+    },
+    {
+      "number": 102,
+      "text": "Don’t get people ‘on board’ before checking whether there is a boat."
+    },
+    {
+      "number": 103,
+      "text": "If there is a boat, ask who chose the destination."
+    },
+    {
+      "number": 104,
+      "text": "Don’t enrol people into a future they had no part in forming."
+    },
+    {
+      "number": 105,
+      "text": "An invitation without a real possibility of refusal is an instruction in a cardigan."
+    },
+    {
+      "number": 106,
+      "text": "Participation without power is unpaid user testing."
+    },
+    {
+      "number": 107,
+      "text": "Co-production isn’t asking people to colour in a decision."
+    },
+    {
+      "number": 108,
+      "text": "Engagement isn’t persuasion with biscuits."
+    },
+    {
+      "number": 109,
+      "text": "A mandate can start work. It cannot manufacture ownership."
+    },
+    {
+      "number": 110,
+      "text": "Prefer participation to presentation."
+    },
+    {
+      "number": 111,
+      "text": "A recommendation nobody owns is organisational litter."
+    },
+    {
+      "number": 112,
+      "text": "Confront people with their agency, not just their need."
+    },
+    {
+      "number": 113,
+      "text": "Don’t treat adults as children because the system is anxious."
+    },
+    {
+      "number": 114,
+      "text": "Partnership is not better parenting."
+    },
+    {
+      "number": 115,
+      "text": "Ask what promise someone is prepared to make, not what incentive will purchase them."
+    },
+    {
+      "number": 116,
+      "text": "Bring gifts into the centre, especially gifts found at the margins."
+    },
+    {
+      "number": 117,
+      "text": "Deficiency industries need people to remain deficient."
+    },
+    {
+      "number": 118,
+      "text": "A gap analysis may reveal the gap analyst’s business model."
+    },
+    {
+      "number": 119,
+      "text": "Don’t spend your whole life improving the same weakness."
+    },
+    {
+      "number": 120,
+      "text": "You cannot serve people you haven’t met."
+    },
+    {
+      "number": 121,
+      "text": "Data about people isn’t a relationship with them."
+    },
+    {
+      "number": 122,
+      "text": "A persona isn’t a person."
+    },
+    {
+      "number": 123,
+      "text": "A case isn’t a citizen."
+    },
+    {
+      "number": 124,
+      "text": "‘Hard to reach’ usually describes the institution’s arm length."
+    },
+    {
+      "number": 125,
+      "text": "‘Complex family’ often means that several simple services have collided."
+    },
+    {
+      "number": 126,
+      "text": "The citizen is inside the system, not waiting outside to be processed."
+    },
+    {
+      "number": 127,
+      "text": "The professional is also inside the system, not a neutral hand descending from a cloud."
+    },
+    {
+      "number": 128,
+      "text": "Relationship is infrastructure, not soft material around the real work."
+    },
+    {
+      "number": 129,
+      "text": "Start with the person’s purpose, not the service’s category."
+    },
+    {
+      "number": 130,
+      "text": "Demand is the system’s description. Purpose is the person’s."
+    },
+    {
+      "number": 131,
+      "text": "Need is never simply discovered. It is interpreted, negotiated, and made consequential."
+    },
+    {
+      "number": 132,
+      "text": "Standardise when you can, personalise when you must."
+    },
+    {
+      "number": 133,
+      "text": "Don’t standardise away the reason the service exists."
+    },
+    {
+      "number": 134,
+      "text": "Don’t personalise preventable chaos."
+    },
+    {
+      "number": 135,
+      "text": "Absorb complexity at the boundary instead of bouncing it back to the citizen."
+    },
+    {
+      "number": 136,
+      "text": "A good boundary worker needs judgement, authority, information, time, and backup."
+    },
+    {
+      "number": 137,
+      "text": "Autonomy without support is abandonment."
+    },
+    {
+      "number": 138,
+      "text": "Control without intelligence is panic."
+    },
+    {
+      "number": 139,
+      "text": "Front-line staff don’t need ‘empowerment’ to carry more pain."
+    },
+    {
+      "number": 140,
+      "text": "Build sensors where life meets the organisation."
+    },
+    {
+      "number": 141,
+      "text": "A complaint is a sensor."
+    },
+    {
+      "number": 142,
+      "text": "A complaints process can turn the sensor into an anaesthetic."
+    },
+    {
+      "number": 143,
+      "text": "Failure demand is intelligence sent collect."
+    },
+    {
+      "number": 144,
+      "text": "Queues are policies made visible."
+    },
+    {
+      "number": 145,
+      "text": "Handoffs are where purpose goes to lose its coat."
+    },
+    {
+      "number": 146,
+      "text": "Every form contains a theory of the citizen."
+    },
+    {
+      "number": 147,
+      "text": "Every exception tells the truth about the standard."
+    },
+    {
+      "number": 148,
+      "text": "Good service often costs less."
+    },
+    {
+      "number": 149,
+      "text": "Don’t make humanity justify itself solely through savings."
+    },
+    {
+      "number": 150,
+      "text": "Efficiency in every part can make the whole brittle."
+    },
+    {
+      "number": 151,
+      "text": "Redundancy isn’t waste when the world varies."
+    },
+    {
+      "number": 152,
+      "text": "Spare capacity is how a system breathes."
+    },
+    {
+      "number": 153,
+      "text": "Economies of scale can create diseconomies of distance."
+    },
+    {
+      "number": 154,
+      "text": "Automation scales assumptions before it scales value."
+    },
+    {
+      "number": 155,
+      "text": "Never automate a relationship you haven’t understood."
+    },
+    {
+      "number": 156,
+      "text": "Before buying ‘business automation’, ask whose business, whose process, and whose view."
+    },
+    {
+      "number": 157,
+      "text": "Digital transformation is often analogue confusion in a better typeface."
+    },
+    {
+      "number": 158,
+      "text": "Procurement can purchase outputs. It cannot outsource purpose."
+    },
+    {
+      "number": 159,
+      "text": "A contract can move risk on paper while reality keeps it."
+    },
+    {
+      "number": 160,
+      "text": "Count the end-to-end cost: chasing, checking, correcting, escalating, waiting, repeating, and apologising."
+    },
+    {
+      "number": 161,
+      "text": "Local optimisation is a system-wide tax."
+    },
+    {
+      "number": 162,
+      "text": "Targets create shadow systems. Look there before declaring success."
+    },
+    {
+      "number": 163,
+      "text": "What gets measured gets managed, gamed, displaced, or worshipped."
+    },
+    {
+      "number": 164,
+      "text": "What isn’t measured still acts."
+    },
+    {
+      "number": 165,
+      "text": "Every dashboard is a theory of what deserves to exist."
+    },
+    {
+      "number": 166,
+      "text": "A system is a distinction made by an observer for a purpose."
+    },
+    {
+      "number": 167,
+      "text": "Don’t turn the distinction into a thing, then blame the thing."
+    },
+    {
+      "number": 168,
+      "text": "The organisation isn’t the system."
+    },
+    {
+      "number": 169,
+      "text": "The organisation chart isn’t the organisation."
+    },
+    {
+      "number": 170,
+      "text": "The process map isn’t the process."
+    },
+    {
+      "number": 171,
+      "text": "A causal loop isn’t a cause."
+    },
+    {
+      "number": 172,
+      "text": "One map that pleases everybody probably omits the conflict."
+    },
+    {
+      "number": 173,
+      "text": "Boundaries are decisions with beneficiaries and casualties."
+    },
+    {
+      "number": 174,
+      "text": "Ask who is inside, who is outside, and who is affected anyway."
+    },
+    {
+      "number": 175,
+      "text": "Anyone claiming a ‘whole-system view’ is standing somewhere."
+    },
+    {
+      "number": 176,
+      "text": "Include the observer in the observation."
+    },
+    {
+      "number": 177,
+      "text": "Include the method in the effects."
+    },
+    {
+      "number": 178,
+      "text": "Include yourself in the mess."
+    },
+    {
+      "number": 179,
+      "text": "Systems language doesn’t exempt you from ordinary evidence."
+    },
+    {
+      "number": 180,
+      "text": "Calling something complex isn’t permission to be vague."
+    },
+    {
+      "number": 181,
+      "text": "Complexity depends on framing, purpose, knowledge, time, and the ability to act."
+    },
+    {
+      "number": 182,
+      "text": "A problem can be complex for you and routine for somebody else."
+    },
+    {
+      "number": 183,
+      "text": "Don’t hide incompetence behind complexity."
+    },
+    {
+      "number": 184,
+      "text": "Don’t flatten uncertainty into a risk register."
+    },
+    {
+      "number": 185,
+      "text": "Don’t flatten politics into stakeholder management."
+    },
+    {
+      "number": 186,
+      "text": "Don’t flatten relationships into process."
+    },
+    {
+      "number": 187,
+      "text": "Don’t flatten outcomes into indicators."
+    },
+    {
+      "number": 188,
+      "text": "Don’t flatten indicators into targets."
+    },
+    {
+      "number": 189,
+      "text": "A green light can conceal a burning building."
+    },
+    {
+      "number": 190,
+      "text": "A red light can show that the sensor works."
+    },
+    {
+      "number": 191,
+      "text": "Surprise isn’t always failure. Sometimes it’s contact with the world."
+    },
+    {
+      "number": 192,
+      "text": "Strengthen sensing before strengthening prediction."
+    },
+    {
+      "number": 193,
+      "text": "Ask what is accumulating."
+    },
+    {
+      "number": 194,
+      "text": "Ask what is draining away."
+    },
+    {
+      "number": 195,
+      "text": "Ask what comes back amplified."
+    },
+    {
+      "number": 196,
+      "text": "Ask what comes back too late."
+    },
+    {
+      "number": 197,
+      "text": "Ask what everybody is compensating for."
+    },
+    {
+      "number": 198,
+      "text": "Ask what behaviour is locally rational."
+    },
+    {
+      "number": 199,
+      "text": "Ask who bears the cost of adaptation."
+    },
+    {
+      "number": 200,
+      "text": "Ask which rules people must break to do the job."
+    },
+    {
+      "number": 201,
+      "text": "The workaround is often the real process."
+    },
+    {
+      "number": 202,
+      "text": "The official process is sometimes the alibi."
+    },
+    {
+      "number": 203,
+      "text": "Policy resistance isn’t mere disobedience. It may be the system answering back."
+    },
+    {
+      "number": 204,
+      "text": "Don’t blame people for gaming while paying them to play the game."
+    },
+    {
+      "number": 205,
+      "text": "Every control creates a counter-control."
+    },
+    {
+      "number": 206,
+      "text": "Every simplification exports complexity somewhere."
+    },
+    {
+      "number": 207,
+      "text": "Every centralisation creates new local work."
+    },
+    {
+      "number": 208,
+      "text": "Every decentralisation creates new coordination."
+    },
+    {
+      "number": 209,
+      "text": "Requisite variety is not a slogan for more meetings."
+    },
+    {
+      "number": 210,
+      "text": "Stop calling exhaustion ‘resilience’."
+    },
+    {
+      "number": 211,
+      "text": "Put variety where the response is needed."
+    },
+    {
+      "number": 212,
+      "text": "The person who sweeps the floor should choose the broom."
+    },
+    {
+      "number": 213,
+      "text": "The person using the system should help shape the system."
+    },
+    {
+      "number": 214,
+      "text": "Anybody held accountable needs the means to respond."
+    },
+    {
+      "number": 215,
+      "text": "Work at three levels: output, process, and system."
+    },
+    {
+      "number": 216,
+      "text": "Fix the output when somebody needs the answer now."
+    },
+    {
+      "number": 217,
+      "text": "Fix the process so the next person doesn’t need rescuing."
+    },
+    {
+      "number": 218,
+      "text": "Fix the system so the process can remain fixed."
+    },
+    {
+      "number": 219,
+      "text": "‘Five whys’ can become an interrogation. Use it when the causality warrants it."
+    },
+    {
+      "number": 220,
+      "text": "Root causes are rarer than roots."
+    },
+    {
+      "number": 221,
+      "text": "A limited scope may save the project and kill the purpose. Hold both facts."
+    },
+    {
+      "number": 222,
+      "text": "Never reinvent the wheel. Always reinvent the wheel. This wheel is on a different road."
+    },
+    {
+      "number": 223,
+      "text": "Borrow methods, but inspect their assumptions before inheriting their claims."
+    },
+    {
+      "number": 224,
+      "text": "A framework should help you notice. It shouldn’t make you right."
+    },
+    {
+      "number": 225,
+      "text": "Hammer training includes learning to recognise non-nails."
+    },
+    {
+      "number": 226,
+      "text": "Methodology is too small a god to worship."
+    },
+    {
+      "number": 227,
+      "text": "Multi-methodology isn’t emptying the toolbox onto the table."
+    },
+    {
+      "number": 228,
+      "text": "Use the right tool. You cannot slice a loaf with a pencil."
+    },
+    {
+      "number": 229,
+      "text": "Every ‘but’ is an ‘and’; every ‘and’ is a ‘but’."
+    },
+    {
+      "number": 230,
+      "text": "Be philosophical enough to challenge the frame, and pragmatic enough to send the invitation."
+    },
+    {
+      "number": 231,
+      "text": "Start fast when action will teach you."
+    },
+    {
+      "number": 232,
+      "text": "Slow down when speed will only repeat the mistake more efficiently."
+    },
+    {
+      "number": 233,
+      "text": "A prototype is a question made material."
+    },
+    {
+      "number": 234,
+      "text": "Prototype the relationship as well as the service."
+    },
+    {
+      "number": 235,
+      "text": "‘Safe to fail’ doesn’t mean safe for the people carrying the downside."
+    },
+    {
+      "number": 236,
+      "text": "Scale is not copying. It may mean connecting people who can learn from one another."
+    },
+    {
+      "number": 237,
+      "text": "Learn by doing."
+    },
+    {
+      "number": 238,
+      "text": "You learn nothing from experience alone."
+    },
+    {
+      "number": 239,
+      "text": "Reflection without altered action is tasteful rumination; action without reflection is recurring expense."
+    },
+    {
+      "number": 240,
+      "text": "Build capacity while delivering, not afterwards."
+    },
+    {
+      "number": 241,
+      "text": "Make the method transparent enough for the client to disagree intelligently."
+    },
+    {
+      "number": 242,
+      "text": "Make yourself unnecessary, but stick around long enough to deliver and leave before dependency becomes the product."
+    },
+    {
+      "number": 243,
+      "text": "Ending is a legitimate phase: what happened, what changed, what remains, and who owns the next move?"
+    },
+    {
+      "number": 244,
+      "text": "Arrange the room as though relationships matter."
+    },
+    {
+      "number": 245,
+      "text": "Always rearrange it at least enough to expose the defaults."
+    },
+    {
+      "number": 246,
+      "text": "Geometry is governance."
+    },
+    {
+      "number": 247,
+      "text": "Put people with strangers. Like-mindedness is comfortable and unsurprising."
+    },
+    {
+      "number": 248,
+      "text": "The small group is the unit of transformation. Don’t leave it together long enough to found a sect."
+    },
+    {
+      "number": 249,
+      "text": "Don’t make speeches."
+    },
+    {
+      "number": 250,
+      "text": "Ask questions that are ambiguous, personal, and slightly alarming."
+    },
+    {
+      "number": 251,
+      "text": "Don’t answer a question that was doing useful work."
+    },
+    {
+      "number": 252,
+      "text": "Every workshop needs a purpose, an outcome, and a concrete next action. A workshop isn’t the change."
+    },
+    {
+      "number": 253,
+      "text": "Plan the food, access, temperature, toilets, technology, cables, and breaks. Catering is infrastructure."
+    },
+    {
+      "number": 254,
+      "text": "Prepare, bring extra pens, make backups, name the version, over-communicate by a factor of ten, and then check that you actually said the thing."
+    },
+    {
+      "number": 255,
+      "text": "The issues are serious. The people needn’t be. Play beautiful football."
+    },
+    {
+      "number": 256,
+      "text": "Do the next thing. Sweep the floor. Back up the file. Send the follow-up. Pay the invoice. Go home."
+    }
+  ]
+}

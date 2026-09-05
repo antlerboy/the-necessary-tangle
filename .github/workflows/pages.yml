@@ -22,42 +22,13 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v7
 
-      - name: Apply current release state
+      - name: Install media inspection dependency
         run: |
-          python3 scripts/apply_release_205.py
-          python3 scripts/apply_release_21.py
-          python3 scripts/build_public_knowledge.py
+          sudo apt-get update -qq
+          sudo apt-get install -y --no-install-recommends ffmpeg
 
-      - name: Verify the public artefact
-        run: |
-          python3 - <<'PY'
-          import json
-          import re
-          from pathlib import Path
-
-          canonical = json.loads(Path('data/public-data.json').read_text(encoding='utf-8'))
-          browser = json.loads(Path('docs/assets/public-data.json').read_text(encoding='utf-8'))
-          release = canonical.get('meta', {}).get('release')
-          browser_release = browser.get('meta', {}).get('release')
-          citation = Path('CITATION.cff').read_text(encoding='utf-8')
-          match = re.search(r'^version:\s*(.+?)\s*$', citation, flags=re.MULTILINE)
-          citation_release = match.group(1) if match else None
-          index = Path('docs/index.html').read_text(encoding='utf-8')
-
-          errors = []
-          if not release:
-              errors.append('canonical data has no release identifier')
-          if browser_release != release:
-              errors.append(f'browser data says {browser_release!r}, canonical data says {release!r}')
-          if citation_release != release:
-              errors.append(f'CITATION.cff says {citation_release!r}, canonical data says {release!r}')
-          if 'Submissions' not in index or 'Surprise me' not in index:
-              errors.append('public navigation is missing from docs/index.html')
-
-          if errors:
-              raise SystemExit('\n'.join(f'- {error}' for error in errors))
-          print(f'Checked public artefact for {release}')
-          PY
+      - name: Build and validate the current release
+        run: make validate
 
       - name: Record the exact deployed release
         env:
@@ -83,21 +54,6 @@ jobs:
           )
           print(json.dumps(manifest, indent=2))
           PY
-
-      - name: Prepare standalone reader HTML
-        run: python3 scripts/prepare_reader_203_deployment.py
-
-      - name: Prepare 0.20.4 reader and SCiO links
-        run: python3 scripts/prepare_reader_204_deployment.py
-
-      - name: Prepare 0.20.5 release and header
-        run: python3 scripts/prepare_reader_205_deployment.py
-
-      - name: Prepare reviewed Systemic Evolution release
-        run: python3 scripts/prepare_reader_21_deployment.py
-
-      - name: Validate deployed release state
-        run: python3 scripts/validate_release_21.py
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v6

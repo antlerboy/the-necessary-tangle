@@ -1,0 +1,10 @@
+/* Reader refinements: legible utilities and clear keyboard states. */
+.site-header .brand small{font-size:.875rem!important;line-height:1.45!important}
+.site-header > .header-meta{font-size:.875rem!important;line-height:1.4!important}
+.site-header .brand strong{line-height:1.1!important}
+.main-nav a{min-height:44px;display:inline-flex;align-items:center}
+.start-here-link{font-size:1rem;max-width:68ch}
+#earlyCyberneticsCallout{margin-block:1.6rem;padding-block:1.5rem;border-block:1px solid var(--border,#c7b7a4)}
+#earlyCyberneticsCallout h2{max-width:32ch}#earlyCyberneticsCallout p{max-width:72ch}
+:where(a,button,input,select,summary):focus-visible{outline:3px solid var(--accent,#9f161b);outline-offset:4px}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}

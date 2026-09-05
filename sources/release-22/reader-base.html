@@ -1,0 +1,471 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#9f161b">
+  <meta name="author" content="Benjamin P Taylor">
+  <meta name="description" content="The Necessary Tangle is a living evidence atlas of systems | cybernetics | complexity: ideas, people, methods, practices, lineages and the evidence behind their connections.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="The Necessary Tangle">
+  <meta property="og:description" content="A living evidence atlas of systems | cybernetics | complexity. Every connection must say what it means.">
+  <meta property="og:url" content="https://transduction.systems/">
+  <meta name="twitter:card" content="summary">
+  <link rel="canonical" href="https://transduction.systems/">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <title>The Necessary Tangle</title>
+  <link rel="stylesheet" href="assets/styles.css?v=0.18.0-public">
+  <link rel="stylesheet" href="assets/site-enhancements.css?v=0.18.0-public">
+  <link rel="stylesheet" href="assets/iteration-17.css?v=0.18.0-public">
+  <link rel="stylesheet" href="assets/iteration-18.css?v=0.18.0-public">
+  <link rel="stylesheet" href="assets/iteration-19.css?v=0.20.2-reader-hotfix">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="#view=home" aria-label="The Necessary Tangle home">
+      <span class="brand-mark tangle-mark" data-living-mark aria-hidden="true" title="A living mark selected for this visit"><svg viewBox="0 0 48 48" focusable="false"><path d="M8 24c0-8 6-14 14-14 9 0 18 8 18 18 0 7-5 12-12 12-8 0-14-6-14-13 0-6 5-10 10-10 6 0 10 4 10 9 0 4-3 7-7 7-3 0-6-2-6-5 0-2 2-4 4-4"/><path d="M5 34c7-4 13-11 15-20M28 5c-4 7-4 15 0 22M13 7c8 4 15 11 20 20"/></svg></span>
+      <span><strong>The Necessary Tangle</strong><small>A living evidence atlas of systems | cybernetics | complexity</small></span>
+    </a>
+    <div class="header-meta"><span id="releaseBadge">Public alpha</span><span>Curated by <a href="https://www.antlerboy.com/">Benjamin P Taylor</a></span></div>
+    <label class="theme-toggle" title="Switch between light and dark display"><input id="themeToggle" type="checkbox" aria-label="Use dark mode"><span class="theme-toggle-track" aria-hidden="true"><span class="theme-toggle-knob"></span></span><span class="theme-light-label">Light</span><span class="theme-dark-label">Dark</span></label>
+  </header>
+
+  <nav class="main-nav" aria-label="Main navigation">
+    <a href="#view=home" data-view="home" class="active">Home</a>
+    <a href="#view=browse" data-view="browse">Explore</a>
+    <a href="#view=journeys" data-view="journeys">Guided journeys</a>
+    <a href="#view=map&layer=substantive&depth=all&focus=concept_viability" data-view="map">Map</a>
+    <a href="#view=ask" data-view="ask">Ask</a>
+    <a href="#view=contribute" data-view="contribute">Contribute</a>
+    <a href="/submissions/" class="static-nav-link">Submissions</a>
+    <a href="#view=item&id=concept_viability&from=home" id="surpriseMeNav" class="surprise-nav surprise-me">Surprise me</a>
+    <a href="#view=about" data-view="about">About</a>
+  </nav>
+
+  <main id="main">
+    <section id="view-home" class="view active">
+      <div class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Systems | cybernetics | complexity</p>
+          <h1>Start with a question. Follow the connections.</h1>
+          <p class="lede">The Necessary Tangle maps ideas, people, methods, publications, institutions, practices and lineages: what they mean, where they came from, what they depend on and how they are used. It’s the connections which are perhaps the most important.</p>
+          <p class="principle"><strong>Every connection must say what it means.</strong> A historical precursor is not automatically a logical prerequisite. Citation is not mentorship. Resemblance is not evidence of influence. <a href="#view=about" data-view-link="about">Find out more about how this works.</a></p>
+          <div class="smart-search large" data-search-role="open">
+            <label for="heroSearch">Search for an idea, person, method or law</label>
+            <div class="search-control"><input id="heroSearch" autocomplete="off" placeholder="Try viability, feedback, VSM, emergence…"><button type="button" class="primary search-open">Open</button></div>
+            <div class="suggestions" role="listbox" hidden></div>
+          </div>
+          <div class="quick-links" id="quickLinks"></div>
+          <div class="hero-actions"><a href="#view=browse" class="button primary" data-view-link="browse">Explore the atlas</a><a href="#view=journeys" class="button" data-view-link="journeys">Follow a guided journey</a><a href="#view=map&layer=all&depth=all" class="button" data-view-link="map" data-map-mode="all">Full public map</a><a href="#view=item&id=concept_viability&from=home" id="surpriseMeHero" class="button surprise-me">Surprise me</a><a href="/canon-and-lineage/" class="button">Who gets to count?</a></div>
+        </div>
+        <a class="hero-panel release-panel" href="#view=about" aria-label="Read what this public alpha contains and what remains unfinished">
+          <p class="eyebrow">This release</p>
+          <div class="metrics" id="homeMetrics"></div>
+          <p class="small">Broad seed coverage, a smaller evidence-deepened core, and an explicit programme for what comes next.</p>
+          <span class="panel-link">Read what is covered, missing and next →</span>
+        </a>
+      </div>
+
+      <section class="resource-pathways" aria-labelledby="resourcePathwaysTitle">
+        <div class="section-head"><div><p class="eyebrow">The living field around the atlas</p><h2 id="resourcePathwaysTitle">Communities, capability and a way into the reading</h2></div></div>
+        <div class="resource-pathway-grid">
+          <a class="resource-pathway-card" href="https://www.syscoi.com/" target="_blank" rel="noopener">
+            <span class="eyebrow">Open discussion and source trail</span>
+            <strong>Systems Community of Inquiry</strong>
+            <span>Follow current writing, arguments, papers, events and the unruly conversation around systems | cybernetics | complexity.</span>
+          </a>
+          <a class="resource-pathway-card" href="https://www.systemspractice.org/professional-accreditation" target="_blank" rel="noopener">
+            <span class="eyebrow">Capability and professional standards</span>
+            <strong>SCiO competency and accreditation</strong>
+            <span>See what professional systems-practice capability asks of knowledge, methods, intervention skills and reflective judgement.</span>
+          </a>
+          <a class="resource-pathway-card" href="https://www.systemspractice.org/professional-development" target="_blank" rel="noopener">
+            <span class="eyebrow">Training and development</span>
+            <strong>SCiO professional development</strong>
+            <span>Explore systems approaches, intervention methods, courses and practice-based development from experienced practitioners.</span>
+          </a>
+          <a class="resource-pathway-card" href="https://stream.syscoi.com/2024/10/01/updated-rough-draft-systems-complexity-cybernetics-reading-list/" target="_blank" rel="noopener">
+            <span class="eyebrow">A partial route into the territory</span>
+            <strong>Benjamin's reading list</strong>
+            <span>Start with the things that bring your mind alive. The list is deliberately partial, practice-facing and open to argument.</span>
+          </a>
+        </div>
+      </section>
+
+      <section class="start-small-section" aria-labelledby="startSmallTitle">
+        <div class="section-head"><div><p class="eyebrow">The whole graph is a lot</p><h2 id="startSmallTitle">Start somewhere smaller</h2><p>Begin with a person, a method, a distinction or one guided route. Open the complete graph only when it serves the question.</p></div></div>
+        <div class="start-small-grid">
+          <a class="start-small-card" href="#view=item&id=person_ivo_velitchkov&from=home"><span class="eyebrow">Viability and balance</span><strong>Ivo Velitchkov</strong><span>Viable organisation, Essential Balances, requisite inefficiency and explicit semantic graphs.</span></a>
+          <a class="start-small-card" href="#view=item&id=person_patrick_hoverstadt&from=home"><span class="eyebrow">Management cybernetics</span><strong>Patrick Hoverstadt</strong><span>The Viable System Model, systems laws, organisation design and relational strategy.</span></a>
+          <a class="start-small-card" href="#view=journeys&id=journey_inquiry_governance_and_intervention&step=0"><span class="eyebrow">A guided route</span><strong>Inquiry, governance and intervention</strong><span>Checkland, Ulrich, Espejo, Ison, Meadows, Oshry, Velitchkov and Hoverstadt in one inspectable route.</span></a>
+          <a class="start-small-card" href="#view=item&id=person_donella_meadows&from=home"><span class="eyebrow">Feedback and intervention</span><strong>Donella Meadows</strong><span>Thinking in Systems, leverage points and disciplines for acting with nonlinear systems.</span></a>
+          <a class="start-small-card" href="#view=map&layer=substantive&depth=1&focus=concept_viability"><span class="eyebrow">A readable neighbourhood</span><strong>Viability and its immediate connections</strong><span>Start with one question-sized piece of the graph; expand only when it helps.</span></a>
+          <a class="start-small-card" href="#view=journeys&id=journey_david_ing_systems_in_plural&step=0"><span class="eyebrow">Service systems and lineages</span><strong>David Ing journey</strong><span>Follow service systems thinking, Systems Changes Learning, pattern language and unusually rich documentation of systems lineages.</span></a>
+          <a class="start-small-card" href="#view=journeys&id=journey_core_systems_practice_reading&step=0"><span class="eyebrow">Professional systems practice</span><strong>Core systems practice</strong><span>Concepts and laws, CSH, SSM, System Dynamics, VSM, multi-methodology, intervention and reflexive learning.</span></a>
+          <a class="start-small-card" href="#view=journeys&id=journey_grammar_principles_in_connection&step=0"><span class="eyebrow">The Grammar of Systems</span><strong>The Grammar is a web, not a list</strong><span>Follow eight principles through all nine thinking patterns, then inspect their conceptual and practical connections.</span></a>
+          <a class="start-small-card" href="reading-list.html"><span class="eyebrow">Reading and coverage</span><strong>Reading-list depth map</strong><span>Every captured reading-list item with its current status: developed profile, represented, or inventory-only.</span></a>
+        </div>
+      </section>
+
+<div class="section-head"><div><p class="eyebrow">Begin here</p><h2>Guided questions</h2></div><a href="#view=journeys" class="text-button" data-view-link="journeys">See all journeys</a></div>
+      <div id="homeJourneys" class="card-grid three"></div>
+
+      <div class="section-head"><div><p class="eyebrow">Readable now</p><h2>Developed entries</h2></div><a href="#view=browse" class="text-button" data-view-link="browse">Explore the library</a></div>
+      <div id="homeEntries" class="card-grid four"></div>
+
+      <section class="six-systems-section" aria-labelledby="sixSystemsTitle">
+        <div class="section-head"><div><p class="eyebrow">A necessary untangling</p><h2 id="sixSystemsTitle">Six systems things which are not the same thing</h2><p>These phrases are routinely blended into one agreeable cloud. Open the distinctions, then challenge them.</p></div><a href="#view=journeys&id=journey_six_systems_things&step=0" class="text-button">Follow the guided route</a></div>
+        <div class="six-systems-grid">
+          <a href="#view=item&id=tradition_systems_theory&from=home" class="six-system-card"><strong>Systems theory</strong><span>Explanatory traditions. Not one doctrine, and not yet an intervention.</span></a>
+          <a href="#view=item&id=practice_systems_practice&from=home" class="six-system-card"><strong>Systems practice</strong><span>Situated inquiry, judgement and action using systems ideas and methods.</span></a>
+          <a href="#view=item&id=approach_family_systems_leadership&from=home" class="six-system-card"><strong>Systems leadership</strong><span>Several different ways of exercising authority or influence across a system of concern.</span></a>
+          <a href="#view=item&id=approach_family_systems_change&from=home" class="six-system-card"><strong>Systems change</strong><span>Claims about which patterns should change, by whose agency and with what legitimacy.</span></a>
+          <a href="#view=item&id=practice_systems_convening&from=home" class="six-system-card"><strong>Systems convening</strong><span>Social-learning leadership across boundaries in a complex landscape.</span></a>
+          <a href="#view=item&id=practice_systems_weaving&from=home" class="six-system-card"><strong>Systems weaving</strong><span>Strengthening the relational and network infrastructure for collective action.</span></a>
+        </div>
+      </section>
+
+      <section class="author-strip">
+        <div><p class="eyebrow">Curator</p><h2><a href="https://www.antlerboy.com/">Benjamin P Taylor</a></h2><p>The Necessary Tangle is an independent public project. Its immediate provocation was David Ing's formulation, as Benjamin records it: ‘we need to map the constellation of influences around practitioners’. It develops the connected-body-of-knowledge idea behind SCiO's earlier SysBoK while treating systems | cybernetics | complexity as a necessary tangle of theory, practice, people and institutions.</p></div>
+        <div class="button-stack"><a class="button" href="https://www.antlerboy.com/">About Benjamin</a><a class="button" href="https://stream.syscoi.com/" target="_blank" rel="noopener">Systems Community of Inquiry</a><a class="button" href="https://github.com/antlerboy/the-necessary-tangle" target="_blank" rel="noopener">Project on GitHub</a></div>
+      </section>
+    </section>
+
+    <section id="view-browse" class="view">
+      <header class="page-head"><p class="eyebrow">Find and follow</p><h1>Explore the atlas</h1><p>Search recognises maintained names, abbreviations, alternate spellings and close matches. Similar wording is directed to one maintained entry rather than becoming a duplicate.</p></header>
+      <div class="filter-panel">
+        <div class="smart-search" data-search-role="filter"><label for="browseSearch">Search</label><input id="browseSearch" autocomplete="off" placeholder="A name, phrase, acronym or half-remembered term"><div class="suggestions" role="listbox" hidden></div></div>
+        <label>Type<select id="browseType"><option value="all">All entry types</option></select></label>
+        <label>Field<select id="browseTag"><option value="all">All fields</option></select></label>
+        <label>Depth<select id="browseLevel"><option value="developed">All readable entries</option><option value="profile">Developed entries only</option></select></label>
+        <label>Connections<select id="browseConnectionDepth"><option value="all">All connection depths</option><option value="rich">Rich</option><option value="developing">Developing</option><option value="thin">Thin</option><option value="unconnected">Unconnected</option></select></label>
+        <button id="clearBrowse" type="button">Clear</button>
+      </div>
+      <div class="results-line"><span id="browseCount"></span><span class="small">Select an entry type or field label to filter.</span></div>
+      <h2 class="hidden" id="browseResultsHeading">Matching entries</h2>
+      <div id="browseCards" class="card-grid three"></div>
+    </section>
+
+    <section id="view-journeys" class="view">
+      <header class="page-head"><p class="eyebrow">Curated paths</p><h1>Guided journeys</h1><p>Each journey develops an argument through connected entries. Named concepts in the steps open their full entries.</p></header>
+      <div class="journey-layout"><aside id="journeyList" class="journey-list"></aside><article id="journeyRunner" class="journey-runner empty"><h2>Choose a journey</h2><p>The steps will appear here.</p></article></div>
+    </section>
+
+    <section id="view-map" class="view map-view">
+      <header class="page-head"><p class="eyebrow">Interactive neighbourhoods</p><h1>Map</h1><p>Put any entry at the centre, see its immediate and outer relations, and move through the graph without losing the line you followed. The full overview shows extent and gaps; the constellation view is for reading.</p></header>
+      <div class="map-layout">
+        <aside class="map-controls">
+
+          <div class="map-orientation-panel" id="mapOrientationPanel">
+            <p class="eyebrow">Choose a scale</p>
+            <p>The full overview is a starting picture. Select any node to open its readable neighbourhood; return here when you need the whole field.</p>
+            <div class="map-orientation-links">
+              <a href="#view=map&layer=substantive&depth=all&focus=concept_viability">Full public overview</a>
+              <a href="#view=map&layer=substantive&depth=1&focus=concept_viability">Viability neighbourhood</a>
+              <a href="#view=map&layer=substantive&depth=profiles&focus=concept_viability">Developed overview</a>
+              <a href="#view=map&layer=conceptual&depth=profiles&focus=concept_viability">Conceptual overview</a>
+              <a href="#view=journeys&id=journey_viability_balance_and_strategy&step=0">Guided route</a>
+              <a href="#view=map&layer=all&depth=all&focus=concept_viability">Everything</a>
+            </div>
+          </div>
+          <div class="smart-search" data-search-role="map"><label for="mapSearch">Centre on</label><input id="mapSearch" autocomplete="off" placeholder="Viability"><div class="suggestions" role="listbox" hidden></div></div>
+          <label>Scale<select id="mapDepth"><option value="1">Immediate connections</option><option value="2">Two steps</option><option value="constellation">Constellation: core and two orbits</option><option value="path">Path and immediate neighbours</option><option value="profiles">Developed-entry overview</option><option value="all" selected>Full public overview</option></select></label>
+
+          <label>Layer<select id="mapLayer">
+            <option value="all">Everything — full typed graph</option>
+            <option value="substantive" selected>Reader map — meaningful relationships</option>
+            <option value="conceptual">Conceptual layer</option>
+            <option value="human">Human lineage layer</option>
+            <option value="practice">Practice layer</option>
+            <option value="contestation">Contestation layer</option>
+            <option value="provenance">Provenance and bibliography</option>
+          </select></label>
+          <p id="mapLayerNote" class="map-layer-note">The reader map starts with conceptual, historical, human, practice and contestation relationships. Bibliography and collection structure remain available under Everything.</p>
+          <div class="map-shape-key" aria-label="Node shape key">
+            <span><i class="shape-circle" aria-hidden="true"></i>Ideas and principles</span>
+            <span><i class="shape-rounded" aria-hidden="true"></i>People and organisations</span>
+            <span><i class="shape-diamond" aria-hidden="true"></i>Methods and practice</span>
+            <span><i class="shape-square" aria-hidden="true"></i>Publications</span>
+          </div>
+          <label>Fine filter<select id="mapFamily"><option value="all">All connection types in this layer</option></select></label>
+          <input type="checkbox" id="mapIncludeStubs" hidden>
+          <div class="button-row"><button id="mapFit" type="button" class="primary">Fit view</button><button id="mapReset" type="button">Reset</button>
+          <div class="constellation-controls" aria-label="Constellation controls">
+            <label>Neighbourhood <select id="mapCategory"><option value="">All provisional neighbourhoods</option></select></label>
+            <label class="label-toggle"><input id="mapShowLabels" type="checkbox" checked> Show labels</label>
+            <div class="zoom-controls" aria-label="Map zoom">
+              <button type="button" id="mapZoomOut" aria-label="Zoom out">−</button>
+              <span id="mapZoomStatus" aria-live="polite">100%</span>
+              <button type="button" id="mapZoomIn" aria-label="Zoom in">+</button>
+            </div>
+            <p id="mapCategoryNote" class="map-category-note">Neighbourhoods are provisional graph groupings, not canonical schools or categories.</p><p class="map-constellation-note"><strong>Constellation view:</strong> the selected entry becomes the star; direct connections form the inner orbit and two-step relations the outer orbit. Centrality describes this graph, not intellectual worth.</p>
+          </div>
+</div>
+          <p class="small"><strong id="mapCount">0</strong> items visible. Wheel or pinch to zoom; drag the background to pan.</p>
+          <hr>
+          <h2 class="control-heading">Find a path</h2>
+          <div class="smart-search compact" data-search-role="path-from"><label for="pathFrom">From</label><input id="pathFrom" autocomplete="off" placeholder="Boundary"><div class="suggestions" role="listbox" hidden></div></div>
+          <div class="smart-search compact" data-search-role="path-to"><label for="pathTo">To</label><input id="pathTo" autocomplete="off" placeholder="Viable System Model"><div class="suggestions" role="listbox" hidden></div></div>
+          <button id="findPath" type="button" class="primary full">Find path</button>
+          <div id="pathResult" class="path-result"></div>
+        </aside>
+        <div class="graph-wrap" id="graphWrap" tabindex="0" aria-label="Map canvas. Drag from the background, a node or a connection to pan; use the wheel or zoom slider to change scale.">
+          <div class="map-canvas-toolbar" aria-label="Map navigation">
+            <div class="map-history-controls">
+              <button type="button" id="mapBack" aria-label="Previous map focus" title="Previous map focus" disabled>←</button>
+              <button type="button" id="mapForward" aria-label="Next map focus" title="Next map focus" disabled>→</button>
+            </div>
+            <span id="mapFocusStatus" class="map-focus-status" aria-live="polite">Full overview · select a node to open its neighbourhood</span>
+            <label class="map-zoom-slider" for="mapZoomRange"><span>Zoom</span><input id="mapZoomRange" type="range" min="22" max="400" value="100" step="1"></label>
+            <span id="mapScaleMode" class="map-scale-mode" aria-live="polite">Full overview</span>
+            <button type="button" id="mapFullscreen" aria-label="Open map full screen" title="Open map full screen">Full screen</button>
+          </div>
+          <svg id="graphSvg" viewBox="0 0 1200 760" aria-label="Interactive map of selected entries and connections">
+            <defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="8" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z"></path></marker></defs>
+            <g id="graphRoot"><g id="graphEdges"></g><g id="graphNodes"></g></g>
+          </svg>
+          <div class="map-minimap-shell" aria-label="Map overview. Click or drag to move the main view.">
+            <svg id="mapMiniMap" viewBox="0 0 1200 760" role="img" aria-label="Overview of the current map selection">
+              <g id="miniEdges"></g><g id="miniNodes"></g><rect id="miniViewport" x="0" y="0" width="1200" height="760"></rect>
+            </svg>
+          </div>
+          <p class="map-canvas-help">Drag from anywhere to pan. A short click selects; a drag moves the map. Wheel or pinch to zoom around the pointer. Double-click zooms; Shift-double-click zooms out. Keys: +, −, 0 and F.</p>
+        </div>
+        <aside id="mapInspector" class="map-inspector"><p class="eyebrow">Move through the graph</p><h2>Viability</h2><p>Select a neighbouring item or a line. Its meaning, status and sources will appear here.</p></aside>
+      </div>
+    </section>
+
+    <section id="view-ask" class="view">
+      <header class="page-head"><p class="eyebrow">Question-led exploration</p><h1>Ask The Necessary Tangle</h1><p>Write an ordinary question. The atlas identifies likely entries, relevant statements and possible paths, then prepares source-aware context for inspection or copying.</p></header>
+      <div class="ask-shell">
+        <form id="askForm" class="ask-form"><label for="askQuestion">Your question</label><textarea id="askQuestion" rows="4" placeholder="How does viability relate to autonomy? Why is feedback not the same as homeostasis?"></textarea><button class="primary" type="submit">Search the atlas</button><p class="small">Nothing is sent anywhere automatically. The result stays in the browser unless you choose to copy or discuss it.</p></form>
+        <div id="askResults" class="ask-results"><div class="empty-card"><h2>Ask in your own words</h2><p>The atlas will match maintained entries, show relevant connections and prepare source-aware context.</p></div></div>
+      </div>
+    </section>
+
+    <section id="view-contribute" class="view">
+      <header class="page-head"><p class="eyebrow">Corrections, challenges and additions</p><h1>Contribute</h1><p>Select an existing entry where possible. Your proposal opens as a GitHub issue for public discussion and editorial decision; it never changes the atlas silently.</p></header>
+      <div class="contribute-layout">
+
+        <article class="plain-panel wide membership-panel">
+          <h2>Take part in the tangle</h2>
+          <p>The atlas has different participation roles. Contributions remain attributable, reviewable and subject to curator acceptance. Automated assistance requires a named human sponsor.</p>
+          <form id="membershipForm" class="membership-grid">
+            <label>How would you like to take part?
+              <select name="role" required>
+                <option value="participant">Participant</option>
+                <option value="contributor">Contributor</option>
+                <option value="research_collaborator">Research collaborator</option>
+                <option value="domain_steward">Domain steward</option>
+              </select>
+            </label>
+            <label>What area or contribution do you have in mind?
+              <input name="interest" type="text" placeholder="A concept, source, lineage, correction or coverage area" required>
+            </label>
+            <button type="submit">Prepare a contribution note</button>
+          </form>
+          <p id="membershipStatus" class="small" aria-live="polite"></p>
+        </article>
+        <article class="plain-panel wide proposal-intake-panel">
+          <p class="eyebrow">Public proposals, human review</p>
+          <h2>How contributions enter the atlas</h2>
+          <p>The form prepares a public GitHub issue labelled <code>site-submission</code> and <code>awaiting-curator-review</code>. Research issues and pull requests are also valid routes. No proposal changes the atlas automatically.</p>
+          <p>Before publication, proposed material is checked for evidence, identity, duplicate entries, wording, rights, public safety and compatibility with the data model.</p>
+          <div class="button-row wrap"><a class="button primary" href="/submissions/">Public submissions and responses</a><a class="button" href="https://github.com/antlerboy/the-necessary-tangle/issues?q=is%3Aissue+%22Prepared+from+The+Necessary+Tangle%22+sort%3Acreated-desc" target="_blank" rel="noopener">Canonical GitHub record</a><a class="button" href="https://github.com/antlerboy/the-necessary-tangle/blob/main/documentation/contribution-intake.md" target="_blank" rel="noopener">Read the intake rule</a></div>
+        </article>
+<form id="contributionForm" class="contribution-form">
+          <label>What are you submitting?<select name="submission_type" id="submissionType" required><option value="">Choose one</option><option value="Correction">Correction to an entry</option><option value="Challenge">Challenge to a connection or claim</option><option value="Source">Better or missing source</option><option value="Missing entry">Missing idea, person or method</option><option value="Question">Question for discussion</option><option value="Usability">Usability problem</option></select></label>
+          <div class="smart-search" data-search-role="contribution"><label for="contributionItem">Existing entry, if relevant</label><input id="contributionItem" name="entry_label" autocomplete="off" placeholder="Start typing; choose the maintained entry"><input type="hidden" id="contributionItemId" name="entry_id"><div class="suggestions" role="listbox" hidden></div><p id="duplicateHint" class="small"></p></div>
+          <label>Your statement, question or proposed change<textarea name="statement" id="contributionStatement" rows="6" required placeholder="State the change or challenge in ordinary language."></textarea></label>
+          <label>Why should it change?<textarea name="reason" id="contributionReason" rows="4" placeholder="Explain the problem, consequence or alternative interpretation."></textarea></label>
+          <div class="two-col"><label>Public source URL<input name="source_url" id="contributionSourceUrl" type="url" placeholder="https://…"></label><label>Citation where there is no public link<input name="source_citation" id="contributionCitation" placeholder="Author, title, year, page"></label></div>
+          <label>Exact evidence or locator<textarea name="evidence" id="contributionEvidence" rows="3" placeholder="Page, section, timestamp, archive reference or concise summary."></textarea></label>
+          <label>Your name, optional<input name="name" id="contributionName" placeholder="GitHub will also record the submitting account"></label>
+          <p class="small">This page sends nothing to the project. The button prepares a GitHub issue in a new tab; you review it before submitting. A GitHub account is required.</p>
+          <button type="submit" class="primary">Prepare GitHub issue</button>
+          <div id="formStatus" role="status" class="form-status"></div>
+        </form>
+        <aside class="plain-panel"><h2>What happens next</h2><ol><li>The proposal becomes a visible GitHub issue.</li><li>Existing entries and duplicates are checked.</li><li>The precise statement and sources are examined.</li><li>The proposal may be accepted, revised, held as disputed or declined.</li><li>Accepted changes appear in a numbered release with a public history.</li></ol><p>Questions and disagreement are part of the work. You do not need to arrive with a finished answer.</p><div class="button-stack"><a class="button" href="https://github.com/antlerboy/the-necessary-tangle/issues/new/choose" target="_blank" rel="noopener">Use a structured issue form</a><a class="button" href="https://github.com/antlerboy/the-necessary-tangle/discussions" target="_blank" rel="noopener">Join a discussion</a><a class="button" href="https://github.com/antlerboy/the-necessary-tangle" target="_blank" rel="noopener">View the repository</a></div></aside>
+      </div>
+    </section>
+
+    <section id="view-about" class="view">
+      <header class="page-head"><p class="eyebrow">Purpose, method, coverage and limits</p><h1>About The Necessary Tangle</h1><p>A reference work should explain its choices without forcing readers to learn its database vocabulary.</p></header>
+      <div class="about-grid">
+        <article class="plain-panel wide"><h2>What it is</h2><p>The Necessary Tangle is a navigable, evidence-backed account of systems | cybernetics | complexity. It maps concepts, people, methods, publications, institutions, practices and traditions, and distinguishes the different ways they connect.</p><p>It is both a reference atlas and a revisable argument. Any map is selective and interpretive; drawing it does not make it neutral.</p></article>
+
+        <article class="plain-panel wide relational-depth-panel">
+          <p class="eyebrow">Connections are maintained data</p>
+          <h2>Relational depth, made visible</h2>
+          <p>Every public entry now has two separate readings: <strong>structural depth</strong> counts distinct reader neighbours and relation families; <strong>evidence depth</strong> distinguishes accepted or corroborated statements from provisional crosswalks. More lines never turn interpretation into proof.</p>
+          <div class="metrics" id="relationalDepthMetrics"></div>
+          <p>The target shape differs by entry: a concept needs prerequisites, contrasts, history, uses and challenges; a person needs works, institutions and human transmission; a method needs foundations, tools, cases and limits. Thin entries remain visible as the public work queue.</p>
+          <p><a class="button primary" href="https://github.com/antlerboy/the-necessary-tangle/blob/main/documentation/relational-depth.md" target="_blank" rel="noopener">Inspect the relational-depth programme</a> <a class="button" href="#view=browse" data-view-link="browse">Browse by connection depth</a></p>
+        </article>
+
+        <article class="plain-panel wide ai-observations-callout"><p class="release-note-inline"><strong>Updated for 0.20:</strong> observations now examine comparator link meanings, partial reconciliation, complete source-link preservation and the evidential ceiling of aggregate maps.</p>
+          <p class="eyebrow">A second observer</p>
+          <h2>AI observations</h2>
+          <p>The data now supports observations about the atlas itself: where breadth has outrun depth, where provenance is being mistaken for conceptual connection, which entries carry disproportionate traffic, and what the current source set makes visible or leaves silent.</p>
+          <p><a class="button primary" href="#view=ai-observations" data-view-link="ai-observations">Open the AI observations</a> <a class="button" href="https://github.com/antlerboy/the-necessary-tangle/blob/main/documentation/ai-observations.md" target="_blank" rel="noopener">Inspect the maintained text</a></p>
+        </article>
+
+        <article class="plain-panel wide systems-distinction-callout">
+          <p class="eyebrow">Words which create false agreement</p>
+          <h2>Six systems things which are not the same thing</h2>
+          <p>Systems theory, systems practice, systems leadership, systems change, systems convening and systems weaving point to different kinds of explanation, capability, authority and action. They overlap, but merging them makes it impossible to ask what work is actually being proposed, who has power, or what would count as learning.</p>
+          <p><a class="button primary" href="#view=journeys&id=journey_six_systems_things&step=0">Follow the guided route</a> <a class="button" href="https://github.com/antlerboy/the-necessary-tangle/blob/main/documentation/six-systems-things.md" target="_blank" rel="noopener">Read the maintained distinctions</a></p>
+        </article>
+
+        <article class="plain-panel wide publication-safety-callout">
+          <p class="eyebrow">Public by design, not by accident</p>
+          <h2>Publication safety</h2>
+          <p>Private research may generate leads, but the public release is rebuilt from public data and citations, scanned for private-path and credential patterns, validated, reviewed by the curator and backed up with a checksum. Detailed operational risk notes remain outside the public release.</p>
+          <p><a class="button" href="https://github.com/antlerboy/the-necessary-tangle/blob/main/documentation/publication-safety.md" target="_blank" rel="noopener">How publication is controlled</a></p>
+        </article>
+
+<article class="plain-panel"><h2>Current state</h2><p>This is a public alpha. It has broad seed coverage and a smaller evidence-deepened core. The current build reports its entry, source, connection, profile and journey counts on the home page.</p></article>
+        <article class="plain-panel"><h2>Strongest now</h2><p>The deepest connected material is around boundaries and observers; feedback and regulation; variety, viability and the Viable System Model; recursion; emergence; and self-organisation.</p></article>
+        <article class="plain-panel"><h2>Most incomplete</h2><p>Complexity needs a fuller treatment on its own terms. Human and institutional lineage, teaching, supervision, collaboration, laboratories, conferences and practice transmission remain thin. Many entries still offer orientation rather than a full research profile.</p></article>
+
+        <article class="plain-panel"><h2>What ‘necessary’ means here</h2><p>‘Necessary’ is a question, not a verdict. For any later idea the atlas asks three separate things: what must be understood first, what surrounding material makes the idea intelligible, and what evidence is required before a particular connection is published. An entry can be useful and still not be logically necessary.</p></article>
+        <article class="plain-panel"><h2>Every line is a sentence</h2><p>Read a line as ‘A stands in this stated relation to B’. Logical dependence, historical sequence, teaching, collaboration, citation, influence, use and disagreement are different sentences requiring different evidence. A line is not decoration and ‘related to’ is not a usable claim.</p></article>
+        <article class="plain-panel"><h2>How the boundary is drawn</h2><p>The core is systems | cybernetics | complexity. Adjacent material enters only when it explains a central idea, practice, lineage or dispute. This is an editorial boundary made for a purpose, not a discovery that the world naturally divides here. Exclusions and deferred candidates are part of the evidence about the map.</p></article>
+        <article class="plain-panel"><h2>What a source establishes</h2><p>A source is attached to the smallest statement it can support. A table of contents can establish title, author and collection placement; it cannot by itself establish meaning or influence. Public links are preferred. Where no open copy exists, the atlas gives a complete citation and says ‘No public link’. Private research can generate leads but not public evidence by assertion.</p></article>
+
+        <article class="plain-panel wide explicit-semantics-callout">
+          <p class="eyebrow">What the lines mean</p>
+          <h2>Explicit semantics</h2>
+          <p>The atlas uses an explicit relation vocabulary. Each line has a source, target, relation type, relation family, direction, ordinary-language phrase, evidence, scope and review status. ‘Authored’, ‘influenced’, ‘taught’, ‘criticised’, ‘specialises’ and ‘used in practice’ are not interchangeable.</p>
+          <p><a href="#view=item&id=concept_explicit_semantics&from=about">Open explicit semantics</a>, <a href="#view=item&id=tool_nodica&from=about">open Nodica</a>, or <a href="https://github.com/antlerboy/the-necessary-tangle/blob/main/documentation/explicit-semantics.md" target="_blank" rel="noopener">read the maintained semantic contract →</a></p>
+        </article>
+
+                <article class="plain-panel wide expertise-callout">
+          <p class="eyebrow">People, works and practice</p>
+          <h2>Expertise-led development</h2>
+          <p><a href="#view=item&id=person_ivo_velitchkov&from=about">Ivo Velitchkov</a> connects viable organisation, <em>Essential Balances</em>, requisite inefficiency, enterprise architecture and explicit semantic graphs. <a href="#view=item&id=person_patrick_hoverstadt&from=about">Patrick Hoverstadt</a> connects the Viable System Model, systems laws, organisation diagnosis and design, <em>Patterns of Strategy</em> and transformation.</p>
+          <p>This release also develops Peter Checkland, Werner Ulrich, Ray Ison, Ed Straw, Raul Espejo, Alfonso Reyes, Donella Meadows, Diana Wright and Barry Oshry through public primary or official sources, distinct method entries and typed practice relations.</p>
+          <p><a href="#view=journeys&id=journey_inquiry_governance_and_intervention&step=0">Follow inquiry, governance and intervention</a>, <a href="https://github.com/antlerboy/the-necessary-tangle/blob/main/documentation/expertise-additions.md" target="_blank" rel="noopener">inspect the additions</a>, or <a href="#view=ai-observations">open the current AI observations</a>.</p>
+        </article>
+
+
+
+        <article class="plain-panel wide living-mark-note">
+          <p class="eyebrow">A living identity</p>
+          <h2>The mark is a family, not a badge</h2>
+          <p>The name and navigation stay put. The visual mark changes on each fresh load: cats as scientists, structural coupling, impossible forms and shifts of perception. The variation is not decorative churn. It is a small reminder that identity can remain recognisable without pretending to be singular or fixed.</p>
+          <p>Moving marks are silent and short. Readers who request reduced motion receive a still. <a href="https://github.com/antlerboy/the-necessary-tangle/blob/main/documentation/visual-identity.md" target="_blank" rel="noopener">Read the visual-identity contract</a> or <a href="/corpora/complexity-podcast/">inspect the new transcript corpus intake</a>.</p>
+        </article>
+
+        <article class="plain-panel wide feedback-coverage-panel">
+          <p class="eyebrow">Post-0.17 coverage pass</p>
+          <h2>Named people, institutions and a 32-concept comparator</h2>
+          <p>The requested people and institutions are now resolved through canonical names and search aliases, with their actual source and connection depth exposed. The 32 concepts in the unFIX synthesis each resolve to an atlas entry without treating that AI-assisted list as a settled canon.</p>
+          <p><a class="button primary" href="/coverage/named/">Named coverage audit</a> <a class="button" href="/coverage/unfix-32/">unFIX 32-concept coverage</a> <a class="button" href="#view=item&id=person_linda_booth_sweeney&from=about">Linda Booth Sweeney</a></p>
+        </article>
+
+        <article class="plain-panel wide canon-lineage-panel">
+          <p class="eyebrow">The map is also a confession</p>
+          <h2>Canon, lineage and who gets to count</h2>
+          <p>A field needs distinctions and boundaries. It does not need to pretend those boundaries arrived from nowhere. This release distinguishes coherence from impermeability and demographic inclusion from the harder work of changing who can affect categories, evidence and intellectual lineage.</p>
+          <p>Ethnicity, heritage, religion, gender and nationality are never inferred from names, portraits or geography. Relevant intellectual, institutional, linguistic, geographical and self-described identity context is recorded only with public evidence and a reason for including it.</p>
+          <p><a class="button primary" href="/canon-and-lineage/">Open the canon and lineage review</a> <a class="button" href="#view=journeys&id=journey_who_counts_as_a_systems_thinker&step=0">Follow the guided route</a> <a class="button" href="#view=item&id=concept_canon_formation&from=about">Open canon formation</a></p>
+        </article>
+
+        <article class="plain-panel wide"><h2>A practitioner-centred origin</h2><blockquote>‘We need to map the constellation of influences around practitioners.’</blockquote><p>This formulation from David Ing, as recorded by Benjamin P Taylor, is the immediate provocation for the human-lineage layer. It shifts attention from a tidy history of schools to the actual routes through which practitioners encounter, combine, teach and use ideas.</p></article>
+
+        <article class="plain-panel wide">
+          <p class="eyebrow">Different questions, different maps</p>
+          <h2>Explore the layers</h2>
+          <p>The graph is not one kind of relation rendered many times. Conceptual dependence, human lineage, practice, contestation and provenance answer different questions. Open a layer directly; use ‘Everything’ only when you deliberately want the whole tangle.</p>
+          <div class="layer-grid">
+            <a class="layer-card" href="#view=map&layer=conceptual&depth=all" data-view-link="map"><strong>Conceptual layer</strong><span>Definitions, prerequisites, specialisation and explanatory relationships.</span></a>
+            <a class="layer-card" href="#view=map&layer=human&depth=all" data-view-link="map"><strong>Human lineage layer</strong><span>Teaching, collaboration, historical sequence, influence and institutional transmission.</span></a>
+            <a class="layer-card" href="#view=map&layer=practice&depth=all" data-view-link="map"><strong>Practice layer</strong><span>Methods, uses, intervention and documented application.</span></a>
+            <a class="layer-card" href="#view=map&layer=contestation&depth=all" data-view-link="map"><strong>Contestation layer</strong><span>Critique, disagreement, correction and rival framing.</span></a>
+            <a class="layer-card" href="#view=map&layer=provenance&depth=all" data-view-link="map"><strong>Provenance layer</strong><span>Authorship, membership, evidence and collection structure.</span></a>
+            <a class="layer-card" href="#view=map&layer=all&depth=all" data-view-link="map"><strong>Everything</strong><span>The complete typed public graph, including its sparse and awkward parts.</span></a>
+          </div>
+        </article>
+
+        <article class="plain-panel wide"><h2>Coverage programme</h2><p>The following are now explicit pieces of work, not vague aspirations. Each card opens the issue containing scope and completion tests.</p><div class="coverage-grid">
+          <a class="coverage-card" href="https://github.com/antlerboy/the-necessary-tangle/issues/3" target="_blank" rel="noopener"><strong>Foundational Papers in Complexity Science</strong><span>Inventory, summarise and map every item in the named collection.</span></a>
+          <a class="coverage-card" href="https://github.com/antlerboy/the-necessary-tangle/issues/4" target="_blank" rel="noopener"><strong>Monoskop</strong><span>Review relevant public pages and bibliographies without treating the whole site as automatically in scope.</span></a>
+          <a class="coverage-card" href="https://github.com/antlerboy/the-necessary-tangle/issues/5" target="_blank" rel="noopener"><strong>SysCoI and model.report</strong><span>Use the public archives as evidence of circulation, discussion and discovery.</span></a>
+          <a class="coverage-card" href="/prior-maps/"><strong>Prior maps and bodies of knowledge</strong><span>Explore three live comparator layers, their complete source links, cumulative reconciliation and evidential limits.</span></a>
+          <a class="coverage-card" href="https://github.com/antlerboy/the-necessary-tangle/issues/7" target="_blank" rel="noopener"><strong>Practitioner influence constellations</strong><span>Deepen teaching, mentoring, collaboration, institutions and practice transmission.</span></a>
+          <a class="coverage-card" href="https://github.com/antlerboy/the-necessary-tangle/issues/8" target="_blank" rel="noopener"><strong>Company knowledge discovery</strong><span>Use private knowledge only to find leads; replace it with public evidence or a proper ‘No public link’ citation.</span></a>
+        </div><p><a href="https://github.com/antlerboy/the-necessary-tangle/blob/main/documentation/coverage-programme.md" target="_blank" rel="noopener">Read the full coverage programme →</a></p></article>
+
+        <article class="plain-panel"><h2>How to read status</h2><p>‘Developed entry’ means a fuller research pass, not final consensus. ‘Brief entry’ offers responsible orientation and sources. Disputed connections can remain visible as disputed.</p></article>
+        <article class="plain-panel"><h2>Corrections and dialogue</h2><p>Definite corrections belong in GitHub Issues. Open questions and wider interpretations belong in GitHub Discussions. Accepted changes are versioned; unresolved disagreement is recorded.</p></article>
+
+        <article class="plain-panel wide cynefin-source-panel">
+          <p class="eyebrow">Naturalising sense-making</p>
+          <h2>Dave Snowden, Cynefin and source roles</h2>
+          <p>The atlas now separates the people, papers, framework, tools, organisation and public source corpora around Cynefin. Dave Snowden's author archive is a primary record of his dated public arguments. Cynefin.io is the project's current collaborative semantic network. Neither source is treated as independent proof of influence, priority or effectiveness.</p>
+          <div class="button-row wrap"><a class="button" href="#view=item&id=person_dave_snowden&from=about">Dave Snowden</a><a class="button" href="#view=item&id=method_or_methodology_cynefin_framework&from=about">Cynefin framework</a><a class="button" href="#view=journeys&id=journey_snowden_cynefin_sources_and_practice&step=0">Guided route</a><a class="button" href="https://github.com/antlerboy/the-necessary-tangle/blob/main/documentation/snowden-cynefin-sources.md" target="_blank" rel="noopener">Source roles</a></div>
+        </article>
+
+        <article class="plain-panel wide"><h2>Curatorship and acknowledgements</h2><p><strong>Curated by <a href="https://www.antlerboy.com/">Benjamin P Taylor</a>.</strong> Benjamin is responsible for the current editorial choices; ‘curator’ does not imply sole creation of the knowledge represented here.</p><p>The project develops the connected approach of the original SCiO Systems Thinking Body of Knowledge and later competency work. Particular acknowledgement is due to David Ing for the practitioner-influence provocation and for preserving and supporting the SysCoI/model.report lineage; Tony Korycki and other SysBoK contributors; Patrick Hoverstadt, Lucy Loh and colleagues associated with the Grammar of Systems; Igor Perko for a substantial researchers-network comparator; Brian Castellani and other map makers whose work provides both material and challenge; the SCiO community; and the authors, teachers, practitioners and archivists cited throughout.</p><p><a href="https://github.com/antlerboy/the-necessary-tangle/blob/main/ACKNOWLEDGEMENTS.md" target="_blank" rel="noopener">Read the fuller acknowledgements →</a></p></article>
+
+        <article class="plain-panel wide"><h2>Rights, reuse and responsibility</h2><p>Original atlas text, public data and editorial material are licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="license noopener">Creative Commons Attribution-ShareAlike 4.0 International</a>, unless otherwise marked. Original software is available under the MIT licence. Third-party works remain under their own terms and are not relicensed here.</p><p>This is a developing scholarly and practitioner resource, not an official position of SCiO or any other named organisation. It contains provisional and disputed interpretations and will contain errors and omissions.</p><p><a href="https://github.com/antlerboy/the-necessary-tangle/blob/main/RIGHTS.md" target="_blank" rel="noopener">Read the rights and licensing statement →</a></p></article>
+
+        <article class="plain-panel wide"><h2>Documentation</h2><p>The method, source policy, data model, maintenance process, governance, coverage programme and current limitations live with the project rather than in detached files.</p><div class="button-row wrap"><a class="button primary" href="https://github.com/antlerboy/the-necessary-tangle/blob/main/documentation/original-vision-audit.md" target="_blank" rel="noopener">Original vision audit</a><a class="button" href="https://github.com/antlerboy/the-necessary-tangle/blob/main/documentation/reading-the-atlas.md" target="_blank" rel="noopener">How to read the atlas</a><a class="button" href="https://github.com/antlerboy/the-necessary-tangle/blob/main/documentation/editorial-model.md" target="_blank" rel="noopener">Editorial model</a><a class="button" href="https://github.com/antlerboy/the-necessary-tangle/blob/main/documentation/source-policy.md" target="_blank" rel="noopener">Source policy</a><a class="button" href="https://github.com/antlerboy/the-necessary-tangle/blob/main/documentation/canonical-source-register.md" target="_blank" rel="noopener">Canonical source roles</a><a class="button" href="reading-list.html">Reading-list depth</a><a class="button" href="https://github.com/antlerboy/the-necessary-tangle/blob/main/documentation/core-systems-practice.md" target="_blank" rel="noopener">Core systems practice</a><a class="button" href="https://github.com/antlerboy/the-necessary-tangle/blob/main/documentation/coverage-programme.md" target="_blank" rel="noopener">Coverage programme</a><a class="button" href="https://github.com/antlerboy/the-necessary-tangle/blob/main/documentation/roadmap.md" target="_blank" rel="noopener">Roadmap</a></div></article>
+      </div>
+      <details class="technical-details"><summary>Editorial and technical detail</summary><div><h3>Different connections answer different questions</h3><p>Historical sequence, logical dependence, explicit influence, teaching, collaboration, citation and practical use are represented separately. Treating them all as ‘related to’ produces false family trees.</p><h3>Statements remain inspectable</h3><p>Each proposed connection has a direction, wording, scope, status and sources. Competing accounts can coexist. Editorial acceptance means that the current evidence supports the stated wording; it does not make the field finally settled.</p><h3>Source and rights boundaries</h3><p>Published statements should be traceable to public sources or complete bibliographic citations. Third-party rights remain with their owners.</p></div></details>
+    </section>
+
+    <section id="view-ai-observations" class="view">
+      <header class="page-head">
+        <p class="eyebrow">Second-order observation</p>
+        <h1>AI observations</h1>
+        <p>What becomes visible when the public graph is analysed as data, interface and editorial argument. Counts are reproducible. Interpretations are proposals for challenge, not autonomous facts.</p>
+      </header>
+      <div class="ai-observation-shell">
+        <article class="plain-panel wide ai-method-note">
+          <h2>How to read this page</h2>
+          <p id="aiMethodNote"></p>
+          <p>Each observation separates a measurement from an interpretation, an implication and a test. The useful question is whether the evidence supports a better next move.</p>
+        </article>
+        <div id="aiObservationMetrics" class="metrics ai-metrics" aria-label="Current atlas measurements"></div>
+        <div id="aiObservationsList" class="observation-grid"></div>
+<article class="plain-panel wide publication-safety-panel">
+          <p class="eyebrow">Publication controls</p>
+          <h2>Public evidence, bounded release</h2>
+          <p>The public record shows the controls: public-only payloads, source-level provenance, automated scans, curator-controlled releases, licence boundaries and versioned backups.</p>
+          <p><a class="button" href="https://github.com/antlerboy/the-necessary-tangle/blob/main/documentation/publication-safety.md" target="_blank" rel="noopener">Read the publication controls</a> <a class="button" href="https://github.com/antlerboy/the-necessary-tangle/security" target="_blank" rel="noopener">Report a security concern</a></p>
+        </article>
+        <article class="plain-panel wide">
+          <p class="eyebrow">Research queue</p>
+          <h2>Sources to mine</h2>
+          <p>This list distinguishes discovery sources from evidence. A source appearing here means ‘look here deliberately’, not ‘accept everything found here’.</p>
+          <div id="sourceMiningList" class="source-mining-grid"></div>
+          <p><a href="https://github.com/antlerboy/the-necessary-tangle/blob/main/documentation/sources-to-mine.md" target="_blank" rel="noopener">Read the full source-mining register →</a></p>
+        </article>
+      </div>
+    </section>
+
+  </main>
+
+  <aside id="entryDrawer" class="drawer" aria-hidden="true"><button id="drawerClose" class="drawer-close" aria-label="Close entry">Close</button><div id="drawerBody"></div></aside><div id="drawerScrim" class="scrim"></div>
+
+  <footer class="site-footer"><div><strong>The Necessary Tangle</strong><br><span>Curated by <a href="https://www.antlerboy.com/">Benjamin P Taylor</a></span></div><div><a href="#view=contribute" data-view-link="contribute" class="text-button">Submit a correction</a><a class="text-button" href="/submissions/">Public submissions</a><a class="text-button" href="/prior-maps/">Prior maps</a><a href="#view=item&id=concept_viability&from=home" class="text-button surprise-me footer-surprise">Surprise me</a><a href="#view=about" data-view-link="about" class="text-button">Coverage, method and rights</a><a class="text-button" href="https://github.com/antlerboy/the-necessary-tangle" target="_blank" rel="noopener">GitHub</a></div></footer>
+
+  <script src="assets/site-config.js"></script>
+  <script src="assets/public-data.js"></script>
+  <script src="assets/app.js?v=0.18.0-public"></script>
+  <script src="assets/site-enhancements.js"></script>
+
+  <script src="assets/iteration-17.js?v=0.18.0-public"></script>
+  <script src="assets/iteration-18.js?v=0.20.2-reader-hotfix"></script>
+  <script src="assets/iteration-19.js?v=0.20.2-reader-hotfix"></script>
+
+
+
+
+  <a class="update-thread-dot" data-update-thread-dot href="https://github.com/antlerboy/the-necessary-tangle/issues/2" target="_blank" rel="noopener" aria-label="Open updates"></a>
+</body>
+</html>
