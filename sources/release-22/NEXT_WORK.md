@@ -1,6 +1,6 @@
 # Next work
 
-Status: implementation and local validation complete; public deployment pending. Authorised by Benjamin P Taylor on 6 September 2026.
+Status: complete. The interface was published successfully in commit `cf3f4ca9299ac1de4188efff162b65f49652a5db`. Authorised by Benjamin P Taylor on 6 September 2026.
 
 ## Outcome
 
@@ -26,7 +26,7 @@ Changes to atlas graph claims, approved comparator data, domain routing, and unr
 
 ## Stop conditions
 
-Verify the public deployment, then mark this packet complete. No additional permission round is required under AGENTS.md.
+The publication workflow passed. The queued events are in the maintained collection and issues 1 and 2 are closed. No further work is active in this packet. No additional permission round is required under AGENTS.md.
 
 ## Model route
 
