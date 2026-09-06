@@ -1,6 +1,6 @@
 # Tangle state
 
-Last verified: 5 September 2026 (release validation)
+Last verified: 6 September 2026 (release validation and anonymous event submission receipt)
 
 ## Release and publication
 
@@ -58,4 +58,8 @@ and GitHub access controls remain in force.
 
 ## Systems events update, 6 September 2026
 
-The `/events/` build is pinned to systemsmap revision `711671ff3b75cc18f066ebb5fb6c7dc099541821`. The update adds the two reviewed Toronto and Manchester events, URL-only submissions with extraction, approximate area markers and filters for online geographic focus, and language filtering with separate language requirements, interpretation, and access details. SCiO Polska retains its Poland focus, Polish language, and ‘All welcome’ access. Local validation and the public deployment passed. The published interface is at https://transduction.systems/events/; publication commit `cf3f4ca9299ac1de4188efff162b65f49652a5db`.
+The first event update used systemsmap revision `711671ff3b75cc18f066ebb5fb6c7dc099541821`. The update adds the two reviewed Toronto and Manchester events, URL-only submissions with extraction, approximate area markers and filters for online geographic focus, and language filtering with separate language requirements, interpretation, and access details. SCiO Polska retains its Poland focus, Polish language, and ‘All welcome’ access. Local validation and the public deployment passed. The published interface is at https://transduction.systems/events/; publication commit `cf3f4ca9299ac1de4188efff162b65f49652a5db`.
+
+## Public event submissions, 6 September 2026
+
+The `/events/` build now pins systemsmap revision `27aaa618a1b68a52442e6232b08cd614f733ac73`. The replacement form requires only a public link and saves directly to the existing events service, without an account, email address, or GitHub redirect. Optional details remain available. Visitors receive confirmation only after durable storage, and failures retain their input. A public submission queue and daily extraction support human review before publication. A live receipt and stored row were verified; service tests, systemsmap tests, and `make validate` passed. Existing filters, exports, and PSTA redirects are preserved.

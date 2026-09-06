@@ -1,33 +1,37 @@
 # Next work
 
-Status: complete. The interface was published successfully in commit `cf3f4ca9299ac1de4188efff162b65f49652a5db`. Authorised by Benjamin P Taylor on 6 September 2026.
+Status: implemented and locally validated; publishing the public interface. Benjamin P Taylor requested removal of the GitHub sign-in barrier on 6 September 2026.
 
 ## Outcome
 
-Update the systems events map at `/events/`: add the two queued Toronto and Manchester events; make a public URL the only required submission field; extract published details for review; and support country/region focus and language requirements.
+Allow visitors to submit a public event link directly on the map without an account or email address, receive a durable receipt, and enter the existing extraction and review process.
 
 ## In scope
 
-The maintained `antlerboy/systemsmap` interface, event data, collector, submission workflow, tests, and calendar feeds. In this repository: `docs/events/`, `scripts/integrate_systems_events.py`, the pinned systemsmap revision in workflows, and the state/work-packet records (including their release-22 build inputs).
-
-## Acceptance checks
-
-- The two queued events have source-verified dates, local times, formats, and locations.
-- Only a public URL is required; failed or ambiguous extraction remains in the review queue.
-- SCiO Polska is found under Poland and Polish, with an online area marker and its published ‘All welcome’ access retained.
-- Geographic focus, language, language requirements, interpretation, and access remain separate. Missing facts are not inferred.
-- Shared filter URLs retain country/region and language; calendar exports retain focus, language, and access details.
-- Fourteen systemsmap Python tests, JavaScript interaction checks, syntax checks, 37 calendar feeds, and the full Tangle `make validate` gate passed locally.
-- Publish to the existing public audience and verify the deployed interface and source revision.
+The systemsmap submission form, public review queue, collection workflow, and a D1-backed submission endpoint in the existing events redirect service. Preserve all existing event filters and the legacy PSTA redirects. In this repository, update the pinned systemsmap revision in workflows, integration checks, and the current work/state records, including their release-22 build inputs.
 
 ## Out of scope
 
-Changes to atlas graph claims, approved comparator data, domain routing, and unrelated content.
+Atlas graph edits, domain changes, automatic publication of unreviewed submissions, and requirements for a visitor account.
+
+## Acceptance checks
+
+- Only a public URL is required; no account, email address, or GitHub redirect.
+- The success response follows durable storage; failures preserve the visitor’s input.
+- Duplicates, request size, origin, honeypot, and daily limits are handled.
+- The public inbox feeds the maintained parser and review queue; no unreviewed event is automatically published.
+- Event and language filters, calendar exports, and existing redirects remain intact.
+- Service persistence tests, systemsmap tests, syntax checks, and `make validate` pass.
+- Publish the endpoint and interface, verify a real receipt, and check the live page.
 
 ## Stop conditions
 
-The publication workflow passed. The queued events are in the maintained collection and issues 1 and 2 are closed. No further work is active in this packet. No additional permission round is required under AGENTS.md.
+Stop after the anonymous submission route is live and verified, or report a concrete deployment blocker. Existing authorisation covers publication to the current public audience.
 
 ## Model route
 
-Repository implementation and focused verification in the current session; no additional agent work is required.
+Implementation and focused verification in the current session. No additional agents are required.
+
+## Verification
+
+The submission service was published from source commit `97d1a162994ff7abdd2104e5cb8682ebd74b9391`. A public POST of Nick’s supplied SCiO Polska link returned HTTP 201 and receipt `af54c356-c0b6-4732-bcbe-e868d622e5b2`; a separate database read confirmed storage. Public extraction imported that receipt and recognised the event already on the map. The systemsmap interface and collection pipeline are pinned to `27aaa618a1b68a52442e6232b08cd614f733ac73`. Service tests, systemsmap tests, and `make validate` passed.
