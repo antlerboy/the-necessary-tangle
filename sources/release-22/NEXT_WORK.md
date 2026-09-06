@@ -6,7 +6,7 @@ Status: implementation and local validation complete; public deployment pending.
 
 Update the systems events map at `/events/`: add the two queued Toronto and Manchester events; make a public URL the only required submission field; extract published details for review; and support country/region focus and language requirements.
 
-## Scope
+## In scope
 
 The maintained `antlerboy/systemsmap` interface, event data, collector, submission workflow, tests, and calendar feeds. In this repository: `docs/events/`, `scripts/integrate_systems_events.py`, the pinned systemsmap revision in workflows, and the state/work-packet records (including their release-22 build inputs).
 
@@ -24,6 +24,10 @@ The maintained `antlerboy/systemsmap` interface, event data, collector, submissi
 
 Changes to atlas graph claims, approved comparator data, domain routing, and unrelated content.
 
-## Completion
+## Stop conditions
 
 Verify the public deployment, then mark this packet complete. No additional permission round is required under AGENTS.md.
+
+## Model route
+
+Repository implementation and focused verification in the current session; no additional agent work is required.
