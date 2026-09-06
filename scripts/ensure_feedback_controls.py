@@ -3,18 +3,22 @@ from pathlib import Path
 import re
 root = Path(__file__).resolve().parents[1] / 'docs'
 css = '#openUpdates,.update-thread-dot,.iteration-dot{position:fixed!important;right:0!important;bottom:0!important;width:44px!important;height:44px!important;border:0!important;background:transparent!important;border-radius:0!important;z-index:99999;opacity:1!important;box-shadow:none!important}#openUpdates::after,.update-thread-dot::after,.iteration-dot::after{content:"";position:absolute;right:8px;bottom:8px;width:5px;height:5px;border-radius:50%;background:#862719;box-shadow:0 0 0 1px #fff}#openUpdates:focus-visible,.update-thread-dot:focus-visible,.iteration-dot:focus-visible{outline:3px solid #ffbf47!important;outline-offset:-3px}'
-anchor = '<a id="openUpdates" href="/#view=contribute" aria-label="Open updates" title="Suggest a correction"></a>'
+css += '.feedback-choice{position:fixed;right:0;bottom:0;z-index:99999}.feedback-choice summary{list-style:none;width:44px;height:44px;cursor:pointer;position:relative}.feedback-choice summary::-webkit-details-marker{display:none}.feedback-choice summary::after{content:"";position:absolute;right:8px;bottom:8px;width:5px;height:5px;background:#862719;border-radius:50%;box-shadow:0 0 0 1px #fff}.feedback-choice summary span{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}.feedback-choice summary:focus-visible{outline:3px solid #ffbf47;outline-offset:-3px}.feedback-choice nav{position:absolute;right:8px;bottom:48px;display:grid;gap:4px;width:190px;max-width:calc(100vw - 24px);padding:8px;border:1px solid #888;border-radius:6px;background:#fff;color:#15232e;box-shadow:0 4px 18px #0003}.feedback-choice:not([open]) nav{display:none}.feedback-choice nav a{display:block;padding:12px;color:#15232e;text-decoration:underline}.feedback-choice nav a:hover,.feedback-choice nav a:focus-visible{background:#eef1f3;outline:2px solid #862719}'
+anchor = '<a id="openUpdates" href="https://github.com/antlerboy/the-necessary-tangle/issues/2" aria-label="Open updates" title="Tangle feedback"></a>'
 count = 0
 for page in root.rglob('*.html'):
     text = page.read_text()
-    # The pinned events source may not include a dot yet; always keep its local form route.
-    if page.relative_to(root).parts[0] == 'events':
+    is_events = page.relative_to(root).parts[0] == 'events'
+    if is_events:
+        # Feedback concerns the website; adding an event remains a separate page action.
         text = re.sub(r'<a\b[^>]*(?:id="openUpdates"|class="iteration-dot")[^>]*>.*?</a>', '', text, flags=re.S)
-        event_anchor = '<a class="iteration-dot" href="./#submit" aria-label="Open updates" title="Suggest an event or source"></a>'
-        text = text.replace('</body>', event_anchor + '</body>')
-    text = re.sub(r'(<a\b[^>]*(?:id="openUpdates"|class="update-thread-dot")[^>]*href=")[^"]*', r'\1/#view=contribute', text)
-    if not re.search(r'<a\b[^>]*aria-label=[\'"]Open updates[\'"]', text):
-        text = text.replace('</body>', anchor + '</body>') if '</body>' in text else text + anchor
+        text = re.sub(r'<details class="feedback-choice">.*?</details>', '', text, flags=re.S)
+        choice = '<details class="feedback-choice"><summary aria-label="Open updates" title="Feedback"><span>Feedback</span></summary><nav aria-label="Feedback destination"><a href="https://github.com/antlerboy/the-necessary-tangle/issues/2">Tangle feedback</a><a href="https://github.com/antlerboy/systemsmap/issues/new?title=Events%20feedback">Events feedback</a></nav></details>'
+        text = text.replace('</body>', choice + '</body>')
+    else:
+        text = re.sub(r'(<a\b[^>]*(?:id="openUpdates"|class="update-thread-dot")[^>]*href=")[^"]*', r'\1https://github.com/antlerboy/the-necessary-tangle/issues/2', text)
+        if not re.search(r'<a\b[^>]*aria-label=[\'"]Open updates[\'"]', text):
+            text = text.replace('</body>', anchor + '</body>') if '</body>' in text else text + anchor
     style = '<!-- WEB_ESTATE_FEEDBACK_20260906 --><style>' + css + '</style>'
     if 'WEB_ESTATE_FEEDBACK_20260906' in text:
         text = re.sub(r'<!-- WEB_ESTATE_FEEDBACK_20260906 --><style>.*?</style>', lambda _: style, text, flags=re.S)
