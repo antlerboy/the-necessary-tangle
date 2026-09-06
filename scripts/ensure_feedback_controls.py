@@ -24,3 +24,9 @@ if old in text:
     text = text.replace(old, new).replace('|| usable[0]', '|| pool[0]')
     script.write_text(text)
 print(f'Checked feedback control on {count} public HTML pages; preserved reduced-motion mark fallback.')
+
+# Give the changed selector a fresh asset URL so existing visitors receive it.
+index = root / 'index.html'
+text = index.read_text()
+text = re.sub(r'assets/iteration-19\.js\?v=[^"\s]+', 'assets/iteration-19.js?v=20260906-motion', text)
+index.write_text(text)
