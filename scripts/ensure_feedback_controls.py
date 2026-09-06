@@ -2,20 +2,23 @@
 from pathlib import Path
 import re
 root = Path(__file__).resolve().parents[1] / 'docs'
-css = '#openUpdates,.update-thread-dot{position:fixed!important;right:0!important;bottom:0!important;width:44px!important;height:44px!important;border:0!important;background:transparent!important;border-radius:0!important;z-index:99999;opacity:1!important;box-shadow:none!important}#openUpdates::after,.update-thread-dot::after{content:"";position:absolute;right:8px;bottom:8px;width:5px;height:5px;border-radius:50%;background:#862719;box-shadow:0 0 0 1px #fff}#openUpdates:focus-visible,.update-thread-dot:focus-visible{outline:3px solid #ffbf47!important;outline-offset:-3px}'
+css = '#openUpdates,.update-thread-dot,.iteration-dot{position:fixed!important;right:0!important;bottom:0!important;width:44px!important;height:44px!important;border:0!important;background:transparent!important;border-radius:0!important;z-index:99999;opacity:1!important;box-shadow:none!important}#openUpdates::after,.update-thread-dot::after,.iteration-dot::after{content:"";position:absolute;right:8px;bottom:8px;width:5px;height:5px;border-radius:50%;background:#862719;box-shadow:0 0 0 1px #fff}#openUpdates:focus-visible,.update-thread-dot:focus-visible,.iteration-dot:focus-visible{outline:3px solid #ffbf47!important;outline-offset:-3px}'
 anchor = '<a id="openUpdates" href="/#view=contribute" aria-label="Open updates" title="Suggest a correction"></a>'
 count = 0
 for page in root.rglob('*.html'):
     text = page.read_text()
-    # Reuse the event form's existing feedback control without covering it.
-    if 'class="iteration-dot"' in text:
-        text = re.sub(r'<a\b[^>]*id="openUpdates"[^>]*>.*?</a>', '', text, flags=re.S)
-        text = re.sub(r'(<a\b[^>]*class="iteration-dot"[^>]*aria-label=")[^"]*', r'\1Open updates', text)
+    # The pinned events source may not include a dot yet; always keep its local form route.
+    if page.relative_to(root).parts[0] == 'events':
+        text = re.sub(r'<a\b[^>]*(?:id="openUpdates"|class="iteration-dot")[^>]*>.*?</a>', '', text, flags=re.S)
+        event_anchor = '<a class="iteration-dot" href="./#submit" aria-label="Open updates" title="Suggest an event or source"></a>'
+        text = text.replace('</body>', event_anchor + '</body>')
     text = re.sub(r'(<a\b[^>]*(?:id="openUpdates"|class="update-thread-dot")[^>]*href=")[^"]*', r'\1/#view=contribute', text)
     if not re.search(r'<a\b[^>]*aria-label=[\'"]Open updates[\'"]', text):
         text = text.replace('</body>', anchor + '</body>') if '</body>' in text else text + anchor
-    if 'WEB_ESTATE_FEEDBACK_20260906' not in text:
-        style = '<!-- WEB_ESTATE_FEEDBACK_20260906 --><style>' + css + '</style>'
+    style = '<!-- WEB_ESTATE_FEEDBACK_20260906 --><style>' + css + '</style>'
+    if 'WEB_ESTATE_FEEDBACK_20260906' in text:
+        text = re.sub(r'<!-- WEB_ESTATE_FEEDBACK_20260906 --><style>.*?</style>', lambda _: style, text, flags=re.S)
+    else:
         text = text.replace('</head>', style + '</head>') if '</head>' in text else style + text
     page.write_text(text)
     assert 'aria-label="Open updates"' in text, page
