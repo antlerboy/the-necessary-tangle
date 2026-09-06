@@ -7,6 +7,10 @@ anchor = '<a id="openUpdates" href="/#view=contribute" aria-label="Open updates"
 count = 0
 for page in root.rglob('*.html'):
     text = page.read_text()
+    # Reuse the event form's existing feedback control without covering it.
+    if 'class="iteration-dot"' in text:
+        text = re.sub(r'<a\b[^>]*id="openUpdates"[^>]*>.*?</a>', '', text, flags=re.S)
+        text = re.sub(r'(<a\b[^>]*class="iteration-dot"[^>]*aria-label=")[^"]*', r'\1Open updates', text)
     text = re.sub(r'(<a\b[^>]*(?:id="openUpdates"|class="update-thread-dot")[^>]*href=")[^"]*', r'\1/#view=contribute', text)
     if not re.search(r'<a\b[^>]*aria-label=[\'"]Open updates[\'"]', text):
         text = text.replace('</body>', anchor + '</body>') if '</body>' in text else text + anchor
