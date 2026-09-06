@@ -23,8 +23,10 @@
     if (!usable.length) return null;
     let previous = '';
     try { previous = window.sessionStorage.getItem(previousKey) || ''; } catch (_) { /* storage is optional */ }
-    const candidates = usable.length > 1 ? usable.filter(mark => mark.id !== previous) : usable;
-    const chosen = candidates[randomIndex(candidates.length)] || usable[0];
+    const moving = reducedMotion ? [] : usable.filter(mark => mark.kind === "video");
+    const pool = moving.length ? moving : usable;
+    const candidates = pool.length > 1 ? pool.filter(mark => mark.id !== previous) : pool;
+    const chosen = candidates[randomIndex(candidates.length)] || pool[0];
     try { window.sessionStorage.setItem(previousKey, chosen.id); } catch (_) { /* storage is optional */ }
     return chosen;
   }

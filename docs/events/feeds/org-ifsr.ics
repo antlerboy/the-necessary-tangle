@@ -1,0 +1,59 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Systems Events Map//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:International Federation for Systems Research (IFSR)
+REFRESH-INTERVAL:P1D
+X-PUBLISHED-TTL:PT24H
+BEGIN:VEVENT
+SUMMARY:Conversational Confluences\, American Society for Cybernetics Conf
+ erence 2026
+DTSTART:20260802T220000Z
+DTEND:20260807T215959Z
+DTSTAMP:20260906T191842Z
+UID:4fc08fcb2c47ef70a3e9f34c@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Systems thinking,Cybernetics
+DESCRIPTION:American Society for Cybernetics\nConversational Confluences\,
+  to be held in Ouro Preto\, Brazil\, from August 3–7\, 2026. Founded in 
+ 1964\, the ASC has long been a home for those exploring cybernetics as con
+ versation — a way of understanding systems\, relations\, and acts of par
+ ticipation in the world. Each ASC conference offers a space for shared inq
+ uiry and experimentation\, where […]\nLanguage: Not specified\nLanguage 
+ requirements: Not specified\nInterpretation: Not specified\nAccess: See or
+ ganiser\nhttps://ifsr.org/event/conversational-confluences-american-societ
+ y-for-cybernetics-conference-2026/
+LAST-MODIFIED:20260906T191842Z
+LOCATION:Ouro Preto\, Brazil\, Ouro Preto\, Brazil
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://ifsr.org/event/conversational-confluences-american-society-for
+ -cybernetics-conference-2026/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:100 Years of Stafford Beer: Celebrating his Life\, his Legacy and 
+ Beyond
+DTSTART:20260917T070000Z
+DTEND:20260919T140000Z
+DTSTAMP:20260906T191842Z
+UID:da94efc5fcf22b82681dc9ea@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Complexity,Cybernetics,Systems thinking
+DESCRIPTION:International Federation for Systems Research (IFSR)\nMetaphor
+ um 2026 marks the centenary of Stafford Beer with a landmark international
+  gathering dedicated to celebrating his life\, legacy\, and continuing inf
+ luence on organisational cybernetics. More than fifty years after the Viab
+ le System Model and Team Syntegrity reshaped the field\, Beer’s ideas re
+ main urgently relevant as organisations and societies confront escalating 
+ complexity\, ecological limi\nLanguage: Not specified\nLanguage requiremen
+ ts: Not specified\nInterpretation: Not specified\nAccess: See organiser\nh
+ ttps://ifsr.org/event/100-years-of-stafford-beer-celebrating-his-life-his-
+ legacy-and-beyond/
+LAST-MODIFIED:20260906T191842Z
+LOCATION:Alliance Manchester Business School\, Manchester\, United Kingdom
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://ifsr.org/event/100-years-of-stafford-beer-celebrating-his-life
+ -his-legacy-and-beyond/
+END:VEVENT
+END:VCALENDAR

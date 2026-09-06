@@ -1,0 +1,187 @@
+[
+  {
+    "id": "all",
+    "name": "All systems, cybernetics, and complexity events",
+    "events": 142
+  },
+  {
+    "id": "online",
+    "name": "Online events",
+    "events": 33
+  },
+  {
+    "id": "topic-systems",
+    "name": "Systems thinking",
+    "events": 77
+  },
+  {
+    "id": "topic-cybernetics",
+    "name": "Cybernetics",
+    "events": 58
+  },
+  {
+    "id": "topic-complexity",
+    "name": "Complexity",
+    "events": 34
+  },
+  {
+    "id": "topic-system-dynamics",
+    "name": "System dynamics",
+    "events": 42
+  },
+  {
+    "id": "topic-systemic-design",
+    "name": "Systemic design",
+    "events": 4
+  },
+  {
+    "id": "org-scio",
+    "name": "SCiO — international chapters",
+    "events": 16
+  },
+  {
+    "id": "org-scio-courses",
+    "name": "SCiO — courses",
+    "events": 0
+  },
+  {
+    "id": "org-asc",
+    "name": "American Society for Cybernetics (ASC)",
+    "events": 1
+  },
+  {
+    "id": "org-community",
+    "name": "Cybernetics and Systems Community Calendar",
+    "events": 35
+  },
+  {
+    "id": "org-ifsr",
+    "name": "International Federation for Systems Research (IFSR)",
+    "events": 2
+  },
+  {
+    "id": "org-isss",
+    "name": "International Society for the Systems Sciences (ISSS)",
+    "events": 7
+  },
+  {
+    "id": "org-isss-lab",
+    "name": "ISSS Lab — events",
+    "events": 0
+  },
+  {
+    "id": "org-cybsoc",
+    "name": "The Cybernetics Society (CybSoc)",
+    "events": 0
+  },
+  {
+    "id": "org-systems-innovation",
+    "name": "Systems Innovation",
+    "events": 0
+  },
+  {
+    "id": "org-system-dynamics",
+    "name": "System Dynamics Society",
+    "events": 42
+  },
+  {
+    "id": "org-santa-fe",
+    "name": "Santa Fe Institute",
+    "events": 0
+  },
+  {
+    "id": "org-csh",
+    "name": "Complexity Science Hub",
+    "events": 8
+  },
+  {
+    "id": "org-css",
+    "name": "Complex Systems Society",
+    "events": 5
+  },
+  {
+    "id": "org-metaphorum",
+    "name": "Metaphorum",
+    "events": 24
+  },
+  {
+    "id": "org-wosc",
+    "name": "World Organisation of Systems and Cybernetics",
+    "events": 0
+  },
+  {
+    "id": "org-rsd",
+    "name": "Relating Systems Thinking and Design (RSD)",
+    "events": 4
+  },
+  {
+    "id": "org-sda",
+    "name": "Systemic Design Association",
+    "events": 0
+  },
+  {
+    "id": "org-ukss",
+    "name": "UK Systems Society",
+    "events": 0
+  },
+  {
+    "id": "org-anzsys",
+    "name": "ANZSYS",
+    "events": 0
+  },
+  {
+    "id": "org-necsi",
+    "name": "New England Complex Systems Institute",
+    "events": 0
+  },
+  {
+    "id": "org-cecan",
+    "name": "CECAN",
+    "events": 3
+  },
+  {
+    "id": "org-iscpif",
+    "name": "Institut des systèmes complexes Paris Île-de-France",
+    "events": 9
+  },
+  {
+    "id": "org-griffith",
+    "name": "Griffith Centre for Systems Innovation",
+    "events": 0
+  },
+  {
+    "id": "org-cabrera",
+    "name": "Cabrera Research Lab",
+    "events": 0
+  },
+  {
+    "id": "org-water-center",
+    "name": "Waters Center for Systems Thinking",
+    "events": 0
+  },
+  {
+    "id": "org-ideo",
+    "name": "School of System Change",
+    "events": 0
+  },
+  {
+    "id": "org-cynefin",
+    "name": "The Cynefin Company",
+    "events": 0
+  },
+  {
+    "id": "org-sociocracy",
+    "name": "Sociocracy For All",
+    "events": 17
+  },
+  {
+    "id": "org-incose",
+    "name": "INCOSE — events",
+    "events": 0
+  },
+  {
+    "id": "org-isss-japan",
+    "name": "Japan Society for Systems Science",
+    "events": 0
+  }
+]

@@ -21,7 +21,7 @@
   <link rel="stylesheet" href="assets/iteration-18.css?v=0.18.0-public">
   <link rel="stylesheet" href="assets/iteration-19.css?v=0.20.2-reader-hotfix">
   <link rel="stylesheet" href="/assets/release-22.css?v=0.22">
-</head>
+<!-- WEB_ESTATE_FEEDBACK_20260906 --><style>#openUpdates,.update-thread-dot{position:fixed!important;right:0!important;bottom:0!important;width:44px!important;height:44px!important;border:0!important;background:transparent!important;border-radius:0!important;z-index:99999;opacity:1!important;box-shadow:none!important}#openUpdates::after,.update-thread-dot::after{content:"";position:absolute;right:8px;bottom:8px;width:5px;height:5px;border-radius:50%;background:#862719;box-shadow:0 0 0 1px #fff}#openUpdates:focus-visible,.update-thread-dot:focus-visible{outline:3px solid #ffbf47!important;outline-offset:-3px}</style><style>.living-mark-playback{font:inherit;font-size:13px;color:inherit;background:transparent;border:1px solid currentColor;border-radius:4px;padding:5px 8px;cursor:pointer}.living-mark-playback:focus-visible{outline:3px solid #ffbf47;outline-offset:3px}</style></head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header">
@@ -35,7 +35,7 @@
     <label class="theme-toggle" title="Switch between light and dark display"><input id="themeToggle" type="checkbox" aria-label="Use dark mode"><span class="theme-toggle-track" aria-hidden="true"><span class="theme-toggle-knob"></span></span><span class="theme-light-label">Light</span><span class="theme-dark-label">Dark</span></label>
   </header>
 
-  <nav class="main-nav" aria-label="Main navigation">
+  <nav class="main-nav" aria-label="Main navigation"><a href="/events/" class="static-nav-link">Events</a>
     <a href="#view=home" data-view="home" class="active">Home</a>
     <a href="#view=browse" data-view="browse">Explore</a>
     <a href="#view=journeys" data-view="journeys">Guided journeys</a>
@@ -74,7 +74,7 @@
 
       <section class="resource-pathways" id="earlyCyberneticsCallout"><h2>Early cybernetics, through its reading lists</h2><p>Explore 48 historical entries, their authors, and the questions they open. Source inclusion, passage review, and unresolved details remain visible.</p><div class="button-row wrap"><a class="button" href="/corpora/early-cybernetics/">Read the historical collection</a><a class="button" href="#view=journeys&amp;id=journey_messages_meaning_action&amp;step=0">The message arrived. What happened?</a></div></section>
       <section class="resource-pathways" aria-labelledby="resourcePathwaysTitle">
-        <div class="section-head"><div><p class="eyebrow">The living field around the atlas</p><h2 id="resourcePathwaysTitle">Communities, capability and a way into the reading</h2></div></div>
+        <div class="section-head"><div><p class="eyebrow"><a href="/events/">Find systems events worldwide</a> · The living field around the atlas</p><h2 id="resourcePathwaysTitle">Communities, capability and a way into the reading</h2></div></div>
         <div class="resource-pathway-grid">
           <a class="resource-pathway-card" href="https://www.syscoi.com/" target="_blank" rel="noopener">
             <span class="eyebrow">Open discussion and source trail</span>
@@ -190,8 +190,8 @@
           <label>Scale<select id="mapDepth"><option value="1">Immediate connections</option><option value="2">Two steps</option><option value="constellation">Constellation: core and two orbits</option><option value="path">Path and immediate neighbours</option><option value="profiles">Developed-entry overview</option><option value="all" selected>Full public overview</option></select></label>
 
           <label>Layer<select id="mapLayer">
-            <option value="all">Everything — full typed graph</option>
-            <option value="substantive" selected>Reader map — meaningful relationships</option>
+            <option value="all">Everything; full typed graph</option>
+            <option value="substantive" selected>Reader map; meaningful relationships</option>
             <option value="conceptual">Conceptual layer</option>
             <option value="human">Human lineage layer</option>
             <option value="practice">Practice layer</option>
@@ -262,7 +262,7 @@
     </section>
 
     <section id="view-contribute" class="view">
-      <header class="page-head"><p class="eyebrow">Corrections, challenges and additions</p><h1>Contribute</h1><p>Select an existing entry where possible. Your proposal opens as a GitHub issue for public discussion and editorial decision; it never changes the atlas silently.</p></header>
+      <header class="page-head"><p class="eyebrow">Corrections, challenges and additions</p><h1>Contribute</h1><p>Select an existing entry where possible. Email a correction to the curator, or open a public GitHub issue.</p></header>
       <div class="contribute-layout">
 
         <article class="plain-panel wide membership-panel">
@@ -287,7 +287,7 @@
         <article class="plain-panel wide proposal-intake-panel">
           <p class="eyebrow">Public proposals, human review</p>
           <h2>How contributions enter the atlas</h2>
-          <p>The form prepares a public GitHub issue labelled <code>site-submission</code> and <code>awaiting-curator-review</code>. Research issues and pull requests are also valid routes. No proposal changes the atlas automatically.</p>
+          <p>Use the form to prepare an email to Benjamin P Taylor. You can also submit a public GitHub issue. Contributions are reviewed before they are incorporated.</p>
           <p>Before publication, proposed material is checked for evidence, identity, duplicate entries, wording, rights, public safety and compatibility with the data model.</p>
           <div class="button-row wrap"><a class="button primary" href="/submissions/">Public submissions and responses</a><a class="button" href="https://github.com/antlerboy/the-necessary-tangle/issues?q=is%3Aissue+%22Prepared+from+The+Necessary+Tangle%22+sort%3Acreated-desc" target="_blank" rel="noopener">Canonical GitHub record</a><a class="button" href="https://github.com/antlerboy/the-necessary-tangle/blob/main/documentation/contribution-intake.md" target="_blank" rel="noopener">Read the intake rule</a></div>
         </article>
@@ -298,12 +298,12 @@
           <label>Why should it change?<textarea name="reason" id="contributionReason" rows="4" placeholder="Explain the problem, consequence or alternative interpretation."></textarea></label>
           <div class="two-col"><label>Public source URL<input name="source_url" id="contributionSourceUrl" type="url" placeholder="https://…"></label><label>Citation where there is no public link<input name="source_citation" id="contributionCitation" placeholder="Author, title, year, page"></label></div>
           <label>Exact evidence or locator<textarea name="evidence" id="contributionEvidence" rows="3" placeholder="Page, section, timestamp, archive reference or concise summary."></textarea></label>
-          <label>Your name, optional<input name="name" id="contributionName" placeholder="GitHub will also record the submitting account"></label>
-          <p class="small">This page sends nothing to the project. The button prepares a GitHub issue in a new tab; you review it before submitting. A GitHub account is required.</p>
-          <button type="submit" class="primary">Prepare GitHub issue</button>
+          <label>Your name, optional<input name="name" id="contributionName" placeholder="How you would like to be credited"></label>
+          <p class="small">Email your correction opens a draft in your email app for you to review and send. You can also write directly to benjamin.taylor@redquadrant.com.</p>
+          <button type="button" id="emailCorrection" class="primary">Email your correction</button><button type="submit">Prepare a public GitHub issue</button>
           <div id="formStatus" role="status" class="form-status"></div>
         </form>
-        <aside class="plain-panel"><h2>What happens next</h2><ol><li>The proposal becomes a visible GitHub issue.</li><li>Existing entries and duplicates are checked.</li><li>The precise statement and sources are examined.</li><li>The proposal may be accepted, revised, held as disputed or declined.</li><li>Accepted changes appear in a numbered release with a public history.</li></ol><p>Questions and disagreement are part of the work. You do not need to arrive with a finished answer.</p><div class="button-stack"><a class="button" href="https://github.com/antlerboy/the-necessary-tangle/issues/new/choose" target="_blank" rel="noopener">Use a structured issue form</a><a class="button" href="https://github.com/antlerboy/the-necessary-tangle/discussions" target="_blank" rel="noopener">Join a discussion</a><a class="button" href="https://github.com/antlerboy/the-necessary-tangle" target="_blank" rel="noopener">View the repository</a></div></aside>
+        <aside class="plain-panel"><h2>What happens next</h2><ol><li>The curator reads your email or public issue.</li><li>Existing entries and duplicates are checked.</li><li>The precise statement and sources are examined.</li><li>The proposal may be accepted, revised, held as disputed or declined.</li><li>Accepted changes appear in a numbered release with a public history.</li></ol><p>Questions and disagreement are part of the work. You do not need to arrive with a finished answer.</p><div class="button-stack"><a class="button" href="https://github.com/antlerboy/the-necessary-tangle/issues/new/choose" target="_blank" rel="noopener">Use a structured issue form</a><a class="button" href="https://github.com/antlerboy/the-necessary-tangle/discussions" target="_blank" rel="noopener">Join a discussion</a><a class="button" href="https://github.com/antlerboy/the-necessary-tangle" target="_blank" rel="noopener">View the repository</a></div></aside>
       </div>
     </section>
 
@@ -494,11 +494,11 @@
 
   <script src="assets/iteration-17.js?v=0.18.0-public"></script>
   <script src="assets/iteration-18.js?v=0.20.2-reader-hotfix"></script>
-  <script src="assets/iteration-19.js?v=0.20.2-reader-hotfix"></script>
+  <script src="assets/iteration-19.js?v=20260906-motion"></script>
 
 
 
 
-  <a class="update-thread-dot" data-update-thread-dot href="https://github.com/antlerboy/the-necessary-tangle/issues/2" target="_blank" rel="noopener" aria-label="Open updates"></a>
-</body>
+  <a class="update-thread-dot" data-update-thread-dot href="/#view=contribute" target="_blank" rel="noopener" aria-label="Open updates"></a>
+<script defer src="assets/reader-motion.js?v=20260906-reader"></script><script defer src="/assets/reader-punctuation.js?v=20260906"></script><script defer src="assets/reader-feedback.js?v=20260906"></script></body>
 </html>

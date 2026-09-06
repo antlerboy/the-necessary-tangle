@@ -1,0 +1,94 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Systems Events Map//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Systemic design
+REFRESH-INTERVAL:P1D
+X-PUBLISHED-TTL:PT24H
+BEGIN:VEVENT
+SUMMARY:RSD15 PLURALITIES (Systemic Design Association)
+DTSTART;VALUE=DATE:20260820
+DTEND;VALUE=DATE:20260821
+DTSTAMP:20260906T191842Z
+UID:c3c7111b41559bbda4dd2512@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Cybernetics,Systems thinking,Systemic design
+DESCRIPTION:Systemic Design Association\nWho: Systemic Design Association 
+ Hosted by Politecnico di Torino. https://rsdsymposium.org/ On campus sessi
+ ons and livestream.\nLanguage: Not specified\nLanguage requirements: Not s
+ pecified\nInterpretation: Not specified\nAccess: See organiser\nhttps://te
+ amup.com/ksok8ra1xif3viq4no/events/2133404103\nDate-only listing\; check t
+ he organiser for session times.
+LAST-MODIFIED:20260906T191842Z
+LOCATION:R. Joaquim Távora\, 1240 - Vila Mariana\, São Paulo - SP\, 0401
+ 5-013\, Brazil
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://teamup.com/ksok8ra1xif3viq4no/events/2133404103
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:RSD15 PLURALITIES (Scientific Committee\, hosted by Politecnico di
+  Torino)
+DTSTART;VALUE=DATE:20261008
+DTEND;VALUE=DATE:20261010
+DTSTAMP:20260906T191842Z
+UID:e1a0594c80afc692c0df6616@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Cybernetics,Systems thinking,Systemic design
+DESCRIPTION:Scientific Committee\\\, hosted by Politecnico di Torino\nWho:
+  Scientific Committee\, hosted by Politecnico di Torino Online Paper Talks
+  presented by authors. Various facilitators. https://rsdsymposium.org/\nLa
+ nguage: Not specified\nLanguage requirements: Not specified\nInterpretatio
+ n: Not specified\nAccess: See organiser\nhttps://teamup.com/ksok8ra1xif3vi
+ q4no/events/2133404975\nDate-only listing\; check the organiser for sessio
+ n times.
+LAST-MODIFIED:20260906T191842Z
+LOCATION:https://events.zoom.us/eo/AtULk9kZNsX5vQlgZoWZ2t1vjvz86R6OWyqBv00
+ QO_0XK-DZYNEQ~AggLXsr32QYFjq8BlYLZ5I06Dg
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://teamup.com/ksok8ra1xif3viq4no/events/2133404975
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:RSD15 PLURALITIES (RSD15-Turin on campus event)
+DTSTART;VALUE=DATE:20261013
+DTEND;VALUE=DATE:20261017
+DTSTAMP:20260906T191842Z
+UID:33ec149dc98e48ff47cd39a5@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Cybernetics,Systems thinking,Systemic design
+DESCRIPTION:RSD15-Turin on campus event\nWho: RSD15-Turin on campus event 
+ Register https://www.rsd15.org/contacts Livestream sessions https://events
+ .zoom.us/eo/AtULk9kZNsX5vQlgZoWZ2t1vjvz86R6OWyqBv00QO\\_0XK-DZYNEQ~AggLXsr
+ 32QYFjq8BlYLZ5I06Dg: https://events.zoom.us/eo/AtULk9kZNsX5vQlgZoWZ2t1vjvz
+ 86R6OWyqBv00QO_0XK-DZYNEQ~AggLXsr32QYFjq8BlYLZ5I06Dg\nLanguage: Not specif
+ ied\nLanguage requirements: Not specified\nInterpretation: Not specified\n
+ Access: See organiser\nhttps://teamup.com/ksok8ra1xif3viq4no/events/213340
+ 5689\nDate-only listing\; check the organiser for session times.
+LAST-MODIFIED:20260906T191842Z
+LOCATION:Castello del Valentino\, Turin\, Italy
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://teamup.com/ksok8ra1xif3viq4no/events/2133405689
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:(RSD15-Retreat)
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261022
+DTSTAMP:20260906T191842Z
+UID:998ddce03873dc80a15d6cad@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Cybernetics,Systems thinking,Systemic design
+DESCRIPTION:RSD15-Retreat\nWho: RSD15-Retreat https://monviso-institute.or
+ g/systemic-design-for-regenerative-practice/ https://rsdsymposium.org/rsd1
+ 5-mon-viso/\nLanguage: Not specified\nLanguage requirements: Not specified
+ \nInterpretation: Not specified\nAccess: See organiser\nhttps://teamup.com
+ /ksok8ra1xif3viq4no/events/2133406596\nDate-only listing\; check the organ
+ iser for session times.
+LAST-MODIFIED:20260906T191842Z
+LOCATION:Mon Viso Institute Serre Lamboi\, 12030 Ostana\, CN\, Italy
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://teamup.com/ksok8ra1xif3viq4no/events/2133406596
+END:VEVENT
+END:VCALENDAR

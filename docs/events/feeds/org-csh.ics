@@ -1,0 +1,203 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Systems Events Map//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Complexity Science Hub
+REFRESH-INTERVAL:P1D
+X-PUBLISHED-TTL:PT24H
+BEGIN:VEVENT
+SUMMARY:Follow-up Workshop at CSH <> Copenhagen Health Complexity Center
+DTSTART:20260907T090000Z
+DTEND:20260908T170000Z
+DTSTAMP:20260906T191842Z
+UID:09dd4320f2c9407a3b7a08a7@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Complexity
+DESCRIPTION:Complexity Science Hub\nThe Complexity Science Hub will host a
+  two-day workshop between its Healthcare and Medicine research group and t
+ he Copenhagen Health Complexity Center (Department of Public Health\, Facu
+ lty of Health Sciences\, University of Copenhagen) on Monday\, September 7
+ \, and Tuesday\, September 8. The workshop will bring together researchers
+  from both institutions to explore complex systems approaches to health\nL
+ anguage: Not specified\nLanguage requirements: Not specified\nInterpretati
+ on: Not specified\nAccess: See organiser\nhttps://csh.ac.at/events/follow-
+ up-workshop-at-csh-copenhagen-health-complexity-center/
+LAST-MODIFIED:20260906T191842Z
+LOCATION:Library Metternichgasse 8\, 1030 Vienna
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://csh.ac.at/events/follow-up-workshop-at-csh-copenhagen-health-c
+ omplexity-center/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Copenhagen Health Complexity Center – Talks
+DTSTART:20260908T120000Z
+DTEND:20260908T130000Z
+DTSTAMP:20260906T191842Z
+UID:ef5ba3c76d8f11ddf271f5c1@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Complexity
+DESCRIPTION:Complexity Science Hub\n1. Tibor V. Varga: Introduction to the
+  Copenhagen Health Complexity Center 2. René de Vries: Emergence of child
+ hood adversity across scales and generations How does childhood adversity 
+ take shape\, and how does it shape lives across generations? In this prese
+ ntation\, we will explore how different constellations of adversity emerge
+  across scales to influence mortality\, and how such patterns of adver\nLa
+ nguage: Not specified\nLanguage requirements: Not specified\nInterpretatio
+ n: Not specified\nAccess: See organiser\nhttps://csh.ac.at/events/copenhag
+ en-health-complexity-center-talks/
+LAST-MODIFIED:20260906T191842Z
+LOCATION:Library Metternichgasse 8\, 1030 Vienna
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://csh.ac.at/events/copenhagen-health-complexity-center-talks/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Interpreting AI at Work: Direct Use\, Workplace Support\, and Tech
+ nological Displacement Concerns
+DTSTART:20260909T150000Z
+DTEND:20260909T160000Z
+DTSTAMP:20260906T191842Z
+UID:cb5f64c3c79ca091a73f440a@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Complexity
+DESCRIPTION:Complexity Science Hub\nWhat happens when employees are asked 
+ to embrace a technology that may also threaten their jobs? In this talk\, 
+ Christos Makridis examines how workers interpret AI at work using the Gall
+ up Workplace Panel\, a probability-based longitudinal survey that follows 
+ U.S. adults over time and repeatedly measures their use of AI\, workplace 
+ experiences\, and expectations about job loss. Drawing on more than 10\nLa
+ nguage: Not specified\nLanguage requirements: Not specified\nInterpretatio
+ n: Not specified\nAccess: See organiser\nhttps://csh.ac.at/events/interpre
+ ting-ai-at-work-direct-use-workplace-support-and-technological-displacemen
+ t-concerns/
+LAST-MODIFIED:20260906T191842Z
+LOCATION:CSH Salon
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://csh.ac.at/events/interpreting-ai-at-work-direct-use-workplace-
+ support-and-technological-displacement-concerns/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:IAS + CSH Connection Workshop
+DTSTART:20260914T090000Z
+DTEND:20260916T170000Z
+DTSTAMP:20260906T191842Z
+UID:b17a1c7d3facba5840dc0ce2@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Complexity
+DESCRIPTION:Complexity Science Hub\nThe IAS-CSH Connection Workshop will b
+ ring together around 20 researchers from the Institute for Analytical Soci
+ ology\, Linköping University\, Sweden\, and the Complexity Science Hub fo
+ r an intensive 2.5-day exchange. The workshop will create a focused settin
+ g for presenting ongoing work\, identifying shared questions\, and develop
+ ing concrete ideas for future collaboration. We will discuss the many po\n
+ Language: Not specified\nLanguage requirements: Not specified\nInterpretat
+ ion: Not specified\nAccess: See organiser\nhttps://csh.ac.at/events/ias-cs
+ h-connection-workshop/
+LAST-MODIFIED:20260906T191842Z
+LOCATION:CSH Salon
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://csh.ac.at/events/ias-csh-connection-workshop/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:WEdnesday SALON with Ljubica Nedelkoska: AI and the End of Work (A
+ gain)
+DTSTART:20260916T180000Z
+DTEND:20260916T200000Z
+DTSTAMP:20260906T191842Z
+UID:95ae062dbc349d5afed89226@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Complexity
+DESCRIPTION:Complexity Science Hub\nFrom the dawn of mechanization to the 
+ rise of AI\, machines have taken over task after human task – transformi
+ ng work\, making us richer\, and testing our ability to adapt. Is this tim
+ e different? For as long as we have built machines\, we have built them to
+  take over human work. Work did not end. It was transformed: what we do\, 
+ how it is organized\, and where it happens. Collectively\, this made us ri
+ c\nLanguage: Not specified\nLanguage requirements: Not specified\nInterpre
+ tation: Not specified\nAccess: See organiser\nhttps://csh.ac.at/events/wed
+ nesday-salon-with-ljubica-nedelkoska/
+LAST-MODIFIED:20260906T191842Z
+LOCATION:CSH Salon
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://csh.ac.at/events/wednesday-salon-with-ljubica-nedelkoska/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DIS master class : Non-additive Entropies
+DTSTART;VALUE=DATE:20260921
+DTEND;VALUE=DATE:20260922
+DTSTAMP:20260906T191842Z
+UID:09e84a88633cc0ce8b94238e@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Complexity
+DESCRIPTION:Digital Innovation School\nStatistical Mechanics for Complex S
+ ystems Boltzmann-Gibbs (BG) statistical mechanics constitutes\, together w
+ ith Newtonian mechanics\, Einstein relativity (special and general)\, quan
+ tum mechanics\, and Maxwell electromagnetism\, a pillar of contemporary th
+ eoretical physics. It is grounded on the Boltzmann-Gibbs-von Neumann-Shann
+ on entropic functional S_BG\, which is additive. This magnificent theory p
+ r\nLanguage: Not specified\nLanguage requirements: Not specified\nInterpre
+ tation: Not specified\nAccess: See organiser\nhttps://csh.ac.at/events/dis
+ -master-class-nonadditive-entropies/\nDate-only listing\; check the organi
+ ser for session times.
+LAST-MODIFIED:20260906T191842Z
+LOCATION:Complexity Science Hub Complexity Science Hub\, Metternichgasse 8
+ \, 1030 Vienna
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://csh.ac.at/events/dis-master-class-nonadditive-entropies/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:PostDoc Appreciation Week Austria (PAW) – Data Visualization Cra
+ sh Course
+DTSTART:20260921T140000Z
+DTEND:20260921T163000Z
+DTSTAMP:20260906T191842Z
+UID:016075e54cdd3fb89fb95e0c@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Complexity
+DESCRIPTION:Complexity Science Hub\nThis Crash Course on Data Visualizatio
+ n offers Postdocs the opportunity to learn about communication and visuali
+ zation strategies for data-driven scientific findings\, and to get creativ
+ e and explore different ways of visualizing data. Examples of data visuali
+ zations from CSH can be viewed here: https://csh.ac.at/visuals/ This cours
+ e is led by data visualization expert Liuhuaying Yang\, recipient of\nLang
+ uage: Not specified\nLanguage requirements: Not specified\nInterpretation:
+  Not specified\nAccess: See organiser\nhttps://csh.ac.at/events/postdoc-ap
+ preciation-week-austria-paw-data-visualization-crash-course/
+LAST-MODIFIED:20260906T191842Z
+LOCATION:CSH Salon
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://csh.ac.at/events/postdoc-appreciation-week-austria-paw-data-vi
+ sualization-crash-course/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Evolution of gender diversity in Computer Science and Physics conf
+ erences
+DTSTART:20260928T150000Z
+DTEND:20260928T160000Z
+DTSTAMP:20260906T191842Z
+UID:32a80acaa0ac0b73cd6f3b4f@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Complexity
+DESCRIPTION:Complexity Science Hub\nThe underrepresentation of women in ST
+ EM fields remains a critical challenge. Even though increasing women’s v
+ isibility might inspire and encourage young scholars\, the study of the ev
+ olution of gender representation in STEM conferences is scarce. Despite it
+ s importance\, the study of gender representation in such settings is limi
+ ted. Our study examines the evolution of gender diversity among attend\nLa
+ nguage: Not specified\nLanguage requirements: Not specified\nInterpretatio
+ n: Not specified\nAccess: See organiser\nhttps://csh.ac.at/events/evolutio
+ n-of-gender-diversity-in-computer-science-and-physics-conferences/
+LAST-MODIFIED:20260906T191842Z
+LOCATION:Library Metternichgasse 8\, 1030 Vienna
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://csh.ac.at/events/evolution-of-gender-diversity-in-computer-sci
+ ence-and-physics-conferences/
+END:VEVENT
+END:VCALENDAR

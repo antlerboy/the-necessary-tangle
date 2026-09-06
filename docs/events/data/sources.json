@@ -1,0 +1,586 @@
+{
+  "checkedAt": "2026-09-06T20:51:12+00:00",
+  "sources": [
+    {
+      "id": "scio",
+      "name": "SCiO — international chapters",
+      "url": "https://www.systemspractice.org/events",
+      "adapter": "scio",
+      "topics": [
+        "systems",
+        "cybernetics"
+      ],
+      "region": "International",
+      "timezone": "Europe/London",
+      "checkedAt": "2026-09-06T20:51:12+00:00",
+      "status": "ok",
+      "message": "Collecting dated events",
+      "events": 16,
+      "feedsFound": [],
+      "pagesChecked": 1,
+      "errors": []
+    },
+    {
+      "id": "scio-courses",
+      "name": "SCiO — courses",
+      "url": "https://www.systemspractice.org/livecourses",
+      "adapter": "scio",
+      "topics": [
+        "systems"
+      ],
+      "region": "International",
+      "timezone": "Europe/London",
+      "checkedAt": "2026-09-06T20:51:12+00:00",
+      "status": "needs-review",
+      "message": "No dated events extracted; a working page is not proof of complete coverage",
+      "events": 0,
+      "feedsFound": [],
+      "pagesChecked": 1,
+      "errors": []
+    },
+    {
+      "id": "asc",
+      "name": "American Society for Cybernetics (ASC)",
+      "url": "https://asc-cybernetics.org/",
+      "feeds": [
+        "https://ics.teamup.com/feed/ksok1qhw323snqy99e/0.ics"
+      ],
+      "adapter": "asc",
+      "topics": [
+        "cybernetics"
+      ],
+      "region": "International",
+      "timezone": "America/New_York",
+      "feedsExclusive": true,
+      "checkedAt": "2026-09-06T20:51:12+00:00",
+      "status": "ok",
+      "message": "Collecting dated events",
+      "events": 1,
+      "feedsFound": [
+        "https://ics.teamup.com/feed/ksok1qhw323snqy99e/0.ics"
+      ],
+      "pagesChecked": 1,
+      "errors": []
+    },
+    {
+      "id": "community",
+      "name": "Cybernetics and Systems Community Calendar",
+      "url": "https://asc-cybernetics.org/calendar/",
+      "feeds": [
+        "https://ics.teamup.com/feed/ksok8ra1xif3viq4no/0.ics"
+      ],
+      "adapter": "auto",
+      "topics": [
+        "cybernetics",
+        "systems"
+      ],
+      "region": "International",
+      "timezone": "UTC",
+      "feedsExclusive": true,
+      "checkedAt": "2026-09-06T20:51:12+00:00",
+      "status": "ok",
+      "message": "Collecting dated events",
+      "events": 38,
+      "feedsFound": [
+        "https://ics.teamup.com/feed/ksok8ra1xif3viq4no/0.ics"
+      ],
+      "pagesChecked": 1,
+      "errors": []
+    },
+    {
+      "id": "ifsr",
+      "name": "International Federation for Systems Research (IFSR)",
+      "url": "https://ifsr.org/events/",
+      "feeds": [
+        "https://ifsr.org/events/?ical=1"
+      ],
+      "adapter": "auto",
+      "topics": [
+        "systems",
+        "cybernetics"
+      ],
+      "region": "International",
+      "timezone": "Europe/Vienna",
+      "checkedAt": "2026-09-06T20:51:12+00:00",
+      "status": "ok",
+      "message": "Collecting dated events",
+      "events": 4,
+      "feedsFound": [
+        "https://ifsr.org/events/?ical=1",
+        "https://ifsr.org/events/month/?ical=1"
+      ],
+      "pagesChecked": 11,
+      "errors": []
+    },
+    {
+      "id": "isss",
+      "name": "International Society for the Systems Sciences (ISSS)",
+      "url": "https://www.isss.org/",
+      "adapter": "auto",
+      "topics": [
+        "systems"
+      ],
+      "region": "International",
+      "checkedAt": "2026-09-06T20:51:12+00:00",
+      "status": "needs-review",
+      "message": "No dated events extracted; a working page is not proof of complete coverage",
+      "events": 0,
+      "feedsFound": [],
+      "pagesChecked": 4,
+      "errors": []
+    },
+    {
+      "id": "isss-lab",
+      "name": "ISSS Lab — events",
+      "url": "https://wiki.lab.isss.org/events",
+      "adapter": "isss_lab",
+      "topics": [
+        "systems"
+      ],
+      "region": "International",
+      "timezone": "America/New_York",
+      "checkedAt": "2026-09-06T20:51:12+00:00",
+      "status": "failed",
+      "message": "Source could not be collected",
+      "events": 0,
+      "feedsFound": [],
+      "pagesChecked": 0,
+      "errors": [
+        "[Errno -2] Name or service not known"
+      ]
+    },
+    {
+      "id": "cybsoc",
+      "name": "The Cybernetics Society (CybSoc)",
+      "url": "https://cybsoc.org/events.html",
+      "adapter": "auto",
+      "topics": [
+        "cybernetics"
+      ],
+      "region": "United Kingdom / online",
+      "timezone": "Europe/London",
+      "checkedAt": "2026-09-06T20:51:12+00:00",
+      "status": "needs-review",
+      "message": "No dated events extracted; a working page is not proof of complete coverage",
+      "events": 0,
+      "feedsFound": [],
+      "pagesChecked": 1,
+      "errors": []
+    },
+    {
+      "id": "systems-innovation",
+      "name": "Systems Innovation",
+      "url": "https://www.systemsinnovation.network/events",
+      "adapter": "auto",
+      "topics": [
+        "systems",
+        "complexity"
+      ],
+      "region": "International",
+      "checkedAt": "2026-09-06T20:51:12+00:00",
+      "status": "needs-review",
+      "message": "No dated events extracted; a working page is not proof of complete coverage",
+      "events": 0,
+      "feedsFound": [],
+      "pagesChecked": 1,
+      "errors": []
+    },
+    {
+      "id": "system-dynamics",
+      "name": "System Dynamics Society",
+      "url": "https://systemdynamics.org/events/",
+      "adapter": "auto",
+      "topics": [
+        "system-dynamics"
+      ],
+      "region": "International",
+      "timezone": "America/New_York",
+      "checkedAt": "2026-09-06T20:51:12+00:00",
+      "status": "ok",
+      "message": "Collecting dated events",
+      "events": 74,
+      "feedsFound": [
+        "https://systemdynamics.org/events/?ical=1",
+        "https://systemdynamics.org/events/list/?ical=1"
+      ],
+      "pagesChecked": 17,
+      "errors": []
+    },
+    {
+      "id": "santa-fe",
+      "name": "Santa Fe Institute",
+      "url": "https://www.santafe.edu/events/upcoming",
+      "adapter": "auto",
+      "topics": [
+        "complexity"
+      ],
+      "region": "United States / international",
+      "timezone": "America/Denver",
+      "checkedAt": "2026-09-06T20:51:12+00:00",
+      "status": "needs-review",
+      "message": "No dated events extracted; a working page is not proof of complete coverage",
+      "events": 0,
+      "feedsFound": [],
+      "pagesChecked": 5,
+      "errors": []
+    },
+    {
+      "id": "csh",
+      "name": "Complexity Science Hub",
+      "url": "https://csh.ac.at/events/",
+      "adapter": "auto",
+      "topics": [
+        "complexity"
+      ],
+      "region": "Austria / international",
+      "timezone": "Europe/Vienna",
+      "checkedAt": "2026-09-06T20:51:12+00:00",
+      "status": "ok",
+      "message": "Collecting dated events",
+      "events": 8,
+      "feedsFound": [],
+      "pagesChecked": 9,
+      "errors": []
+    },
+    {
+      "id": "css",
+      "name": "Complex Systems Society",
+      "url": "https://cssociety.org/events",
+      "adapter": "css",
+      "topics": [
+        "complexity"
+      ],
+      "region": "International",
+      "checkedAt": "2026-09-06T20:51:12+00:00",
+      "status": "ok",
+      "message": "Collecting dated events",
+      "events": 5,
+      "feedsFound": [],
+      "pagesChecked": 13,
+      "errors": []
+    },
+    {
+      "id": "metaphorum",
+      "name": "Metaphorum",
+      "url": "https://metaphorum.org/events/",
+      "adapter": "auto",
+      "topics": [
+        "systems",
+        "cybernetics"
+      ],
+      "region": "International",
+      "checkedAt": "2026-09-06T20:51:12+00:00",
+      "status": "ok",
+      "message": "Collecting dated events",
+      "events": 2,
+      "feedsFound": [
+        "https://metaphorum.org/events-list/?ical=1"
+      ],
+      "pagesChecked": 6,
+      "errors": []
+    },
+    {
+      "id": "wosc",
+      "name": "World Organisation of Systems and Cybernetics",
+      "url": "https://wosc.world/",
+      "adapter": "auto",
+      "topics": [
+        "systems",
+        "cybernetics"
+      ],
+      "region": "International",
+      "checkedAt": "2026-09-06T20:51:12+00:00",
+      "status": "needs-review",
+      "message": "No dated events extracted; a working page is not proof of complete coverage",
+      "events": 0,
+      "feedsFound": [],
+      "pagesChecked": 1,
+      "errors": []
+    },
+    {
+      "id": "rsd",
+      "name": "Relating Systems Thinking and Design (RSD)",
+      "url": "https://rsdsymposium.org/",
+      "adapter": "auto",
+      "topics": [
+        "systemic-design",
+        "systems"
+      ],
+      "region": "International",
+      "submission": "https://github.com/antlerboy/systemsmap/issues/3",
+      "checkedAt": "2026-09-06T20:51:12+00:00",
+      "status": "needs-review",
+      "message": "No dated events extracted; a working page is not proof of complete coverage",
+      "events": 0,
+      "feedsFound": [],
+      "pagesChecked": 2,
+      "errors": []
+    },
+    {
+      "id": "sda",
+      "name": "Systemic Design Association",
+      "url": "https://systemic-design.org/",
+      "adapter": "auto",
+      "topics": [
+        "systemic-design"
+      ],
+      "region": "International",
+      "checkedAt": "2026-09-06T20:51:12+00:00",
+      "status": "needs-review",
+      "message": "No dated events extracted; a working page is not proof of complete coverage",
+      "events": 0,
+      "feedsFound": [],
+      "pagesChecked": 1,
+      "errors": []
+    },
+    {
+      "id": "ukss",
+      "name": "UK Systems Society",
+      "url": "https://www.ukss.org.uk/",
+      "adapter": "auto",
+      "topics": [
+        "systems"
+      ],
+      "region": "United Kingdom",
+      "timezone": "Europe/London",
+      "checkedAt": "2026-09-06T20:51:12+00:00",
+      "status": "needs-review",
+      "message": "No dated events extracted; a working page is not proof of complete coverage",
+      "events": 0,
+      "feedsFound": [],
+      "pagesChecked": 9,
+      "errors": []
+    },
+    {
+      "id": "anzsys",
+      "name": "ANZSYS",
+      "url": "https://anzsys.org/",
+      "adapter": "auto",
+      "topics": [
+        "systems"
+      ],
+      "region": "Australia and New Zealand",
+      "checkedAt": "2026-09-06T20:51:12+00:00",
+      "status": "needs-review",
+      "message": "No dated events extracted; a working page is not proof of complete coverage",
+      "events": 0,
+      "feedsFound": [],
+      "pagesChecked": 7,
+      "errors": [
+        "Page: 403 Client Error: Forbidden for url: https://www.anzsys.org/conferences/anzsys06/index.html"
+      ]
+    },
+    {
+      "id": "necsi",
+      "name": "New England Complex Systems Institute",
+      "url": "https://necsi.edu/events",
+      "adapter": "auto",
+      "topics": [
+        "complexity"
+      ],
+      "region": "United States / international",
+      "timezone": "America/New_York",
+      "checkedAt": "2026-09-06T20:51:12+00:00",
+      "status": "failed",
+      "message": "Source could not be collected",
+      "events": 0,
+      "feedsFound": [],
+      "pagesChecked": 0,
+      "errors": [
+        "404 Client Error: Not Found for url: https://necsi.edu/events"
+      ]
+    },
+    {
+      "id": "cecan",
+      "name": "CECAN",
+      "url": "https://www.cecan.ac.uk/events/",
+      "adapter": "cecan",
+      "topics": [
+        "complexity",
+        "systems"
+      ],
+      "region": "United Kingdom",
+      "timezone": "Europe/London",
+      "checkedAt": "2026-09-06T20:51:12+00:00",
+      "status": "ok",
+      "message": "Collecting dated events",
+      "events": 3,
+      "feedsFound": [],
+      "pagesChecked": 1,
+      "errors": []
+    },
+    {
+      "id": "iscpif",
+      "name": "Institut des systèmes complexes Paris Île-de-France",
+      "url": "https://iscpif.fr/events/",
+      "adapter": "auto",
+      "topics": [
+        "complexity"
+      ],
+      "region": "France / international",
+      "timezone": "Europe/Paris",
+      "checkedAt": "2026-09-06T20:51:12+00:00",
+      "status": "ok",
+      "message": "Collecting dated events",
+      "events": 9,
+      "feedsFound": [
+        "https://iscpif.fr/evenements/?lang=en%2F&ical=1"
+      ],
+      "pagesChecked": 1,
+      "errors": []
+    },
+    {
+      "id": "griffith",
+      "name": "Griffith Centre for Systems Innovation",
+      "url": "https://www.griffith.edu.au/griffith-business-school/centre-systems-innovation/events",
+      "adapter": "auto",
+      "topics": [
+        "systems"
+      ],
+      "region": "Australia",
+      "timezone": "Australia/Brisbane",
+      "checkedAt": "2026-09-06T20:51:12+00:00",
+      "status": "failed",
+      "message": "Source could not be collected",
+      "events": 0,
+      "feedsFound": [],
+      "pagesChecked": 0,
+      "errors": [
+        "Robots access restricted"
+      ]
+    },
+    {
+      "id": "cabrera",
+      "name": "Cabrera Research Lab",
+      "url": "https://www.cabreraresearch.org/",
+      "adapter": "auto",
+      "topics": [
+        "systems"
+      ],
+      "region": "United States / online",
+      "timezone": "America/New_York",
+      "checkedAt": "2026-09-06T20:51:12+00:00",
+      "status": "needs-review",
+      "message": "No dated events extracted; a working page is not proof of complete coverage",
+      "events": 0,
+      "feedsFound": [],
+      "pagesChecked": 1,
+      "errors": []
+    },
+    {
+      "id": "water-center",
+      "name": "Waters Center for Systems Thinking",
+      "url": "https://waterscenterst.org/",
+      "adapter": "auto",
+      "topics": [
+        "systems"
+      ],
+      "region": "United States / online",
+      "timezone": "America/Phoenix",
+      "checkedAt": "2026-09-06T20:51:12+00:00",
+      "status": "needs-review",
+      "message": "No dated events extracted; a working page is not proof of complete coverage",
+      "events": 0,
+      "feedsFound": [],
+      "pagesChecked": 1,
+      "errors": []
+    },
+    {
+      "id": "ideo",
+      "name": "School of System Change",
+      "url": "https://schoolofsystemchange.org/events",
+      "adapter": "auto",
+      "topics": [
+        "systems"
+      ],
+      "region": "International",
+      "timezone": "Europe/London",
+      "checkedAt": "2026-09-06T20:51:12+00:00",
+      "status": "needs-review",
+      "message": "No dated events extracted; a working page is not proof of complete coverage",
+      "events": 0,
+      "feedsFound": [],
+      "pagesChecked": 1,
+      "errors": []
+    },
+    {
+      "id": "cynefin",
+      "name": "The Cynefin Company",
+      "url": "https://thecynefin.co/events/",
+      "adapter": "auto",
+      "topics": [
+        "complexity",
+        "systems"
+      ],
+      "region": "International",
+      "timezone": "Europe/London",
+      "checkedAt": "2026-09-06T20:51:12+00:00",
+      "status": "needs-review",
+      "message": "No dated events extracted; a working page is not proof of complete coverage",
+      "events": 0,
+      "feedsFound": [],
+      "pagesChecked": 4,
+      "errors": []
+    },
+    {
+      "id": "sociocracy",
+      "name": "Sociocracy For All",
+      "url": "https://www.sociocracyforall.org/events/",
+      "adapter": "auto",
+      "topics": [
+        "systems"
+      ],
+      "region": "International",
+      "timezone": "America/New_York",
+      "checkedAt": "2026-09-06T20:51:12+00:00",
+      "status": "ok",
+      "message": "Collecting dated events",
+      "events": 28,
+      "feedsFound": [
+        "https://www.sociocracyforall.org/events/?ical=1",
+        "https://www.sociocracyforall.org/events/list/?ical=1"
+      ],
+      "pagesChecked": 17,
+      "errors": []
+    },
+    {
+      "id": "incose",
+      "name": "INCOSE — events",
+      "url": "https://www.incose.org/events",
+      "adapter": "auto",
+      "topics": [
+        "systems"
+      ],
+      "region": "International",
+      "checkedAt": "2026-09-06T20:51:12+00:00",
+      "status": "failed",
+      "message": "Source could not be collected",
+      "events": 0,
+      "feedsFound": [],
+      "pagesChecked": 0,
+      "errors": [
+        "403 Client Error: Forbidden for url: https://www.incose.org/events"
+      ]
+    },
+    {
+      "id": "isss-japan",
+      "name": "Japan Society for Systems Science",
+      "url": "https://jss-soci.org/",
+      "adapter": "auto",
+      "topics": [
+        "systems"
+      ],
+      "region": "Japan",
+      "timezone": "Asia/Tokyo",
+      "checkedAt": "2026-09-06T20:51:12+00:00",
+      "status": "failed",
+      "message": "Source could not be collected",
+      "events": 0,
+      "feedsFound": [],
+      "pagesChecked": 0,
+      "errors": [
+        "[Errno -2] Name or service not known"
+      ]
+    }
+  ]
+}

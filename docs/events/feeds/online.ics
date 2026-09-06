@@ -1,0 +1,703 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Systems Events Map//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Online events
+REFRESH-INTERVAL:P1D
+X-PUBLISHED-TTL:PT24H
+BEGIN:VEVENT
+SUMMARY:Sociocracy and us. Individual\, collective\, and society
+DTSTART:20260609T150000Z
+DTEND:20260609T160000Z
+DTSTAMP:20260906T191842Z
+UID:40c59e798a90e2456a35dcd0@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Systems thinking
+DESCRIPTION:Sociocracy For All\n<p>What kind of a vision of change does so
+ ciocracy match? Can individuals\\' needs be met while building organizatio
+ ns? What is the relationship between the collective and individuals anyway
+ ? </p>\\n\nLanguage: Not specified\nLanguage requirements: Not specified\n
+ Interpretation: Not specified\nAccess: See organiser\nhttps://www.sociocra
+ cyforall.org/event/sociocracy-and-us-individual-collective-and-society/
+LAST-MODIFIED:20260906T191842Z
+LOCATION:Venus – SoFA Zoom Room\, https://zoom.sociocracyforall.org/venu
+ s-zoom-299978898
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.sociocracyforall.org/event/sociocracy-and-us-individual-co
+ llective-and-society/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:(Victor Ganon)
+DTSTART:20260610T160000Z
+DTEND:20260610T170000Z
+DTSTAMP:20260906T191842Z
+UID:20a07e5e74504b8b2f14d672@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Cybernetics,Systems thinking
+DESCRIPTION:Metaphorum\nWho: Victor Ganon Wed_6_MayWebinar:_'URUguay_CIBer
+ nético:_Successfully_implementing_Stafford_Beer's_ideas’_by_Victor_Gano
+ nParticipate: https://www.tickettailor.com/checkout/view-event/id/6939543/
+ chk/57f3/?entry_link=%2Fall-tickets%2Fmetaphorum1%2F%3Fbg_fill%3Dfalse%26m
+ inimal%3Dtrue%26ref%3Dwebsite_widget%26show_date_filter%3Dtrue%26show_logo
+ %3Dfalse%26show_search_filter%3Dtrue%26show_sort%3Dtrue%2\nLanguage: Not s
+ pecified\nLanguage requirements: Not specified\nInterpretation: Not specif
+ ied\nAccess: See organiser\nhttps://teamup.com/ksok8ra1xif3viq4no/events/1
+ 982695886
+LAST-MODIFIED:20260906T191842Z
+LOCATION:Zoom
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://teamup.com/ksok8ra1xif3viq4no/events/1982695886
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CECAN Webinar – Testing\, Learning and Adapting: Introducing the
+  New Test and Learn Annex to the Magenta Book
+DTSTART:20260615T120000Z
+DTSTAMP:20260906T191842Z
+UID:82b5b2e91de670fe1d51d2ba@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Complexity,Systems thinking
+DESCRIPTION:CECAN\n\nLanguage: Not specified\nLanguage requirements: Not s
+ pecified\nInterpretation: Not specified\nAccess: See organiser\nhttps://ww
+ w.cecan.ac.uk/events/cecan-webinar-testing-learning-and-adapting-introduci
+ ng-the-new-test-and-learn-annex-to-the-magenta-book/
+LAST-MODIFIED:20260906T191842Z
+LOCATION:Online
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.cecan.ac.uk/events/cecan-webinar-testing-learning-and-adap
+ ting-introducing-the-new-test-and-learn-annex-to-the-magenta-book/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CECAN Conference 2026: Global Perspectives on Complex Evaluation
+DTSTART;VALUE=DATE:20260623
+DTSTAMP:20260906T191842Z
+UID:77cc687bc93b331ffa1be132@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Complexity,Systems thinking
+DESCRIPTION:CECAN\n\nLanguage: Not specified\nLanguage requirements: Not s
+ pecified\nInterpretation: Not specified\nAccess: See organiser\nhttps://ww
+ w.cecan.ac.uk/events/cecan-conference-2026-global-perspectives-on-complex-
+ evaluation/\nDate-only listing\; check the organiser for session times.
+LAST-MODIFIED:20260906T191842Z
+LOCATION:Online
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.cecan.ac.uk/events/cecan-conference-2026-global-perspectiv
+ es-on-complex-evaluation/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Sociocracy+ transformative social systems
+DTSTART:20260701T150000Z
+DTEND:20260701T160000Z
+DTSTAMP:20260906T191842Z
+UID:2e9bf690979c8a0c1536be49@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Systems thinking
+DESCRIPTION:Sociocracy For All\n<p>How does sociocracy relate to other soc
+ ial systems\, like Nonviolent Communication\, Theory U\, permaculture\, or
+  liberating structures? What kinds of environments does sociocracy thrive 
+ in\, i in which environments does sociocracy reach its limits?<br />\\nIn 
+ this event\, we stretch into the biggest vision we can stretch into - a wo
+ rld where systems like sociocracy are common sesne.</p>\\n\nLanguage: Not 
+ specified\nLanguage requirements: Not specified\nInterpretation: Not speci
+ fied\nAccess: See organiser\nhttps://www.sociocracyforall.org/event/socioc
+ racy-transformative-social-systems/
+LAST-MODIFIED:20260906T191842Z
+LOCATION:Venus – SoFA Zoom Room\, https://zoom.sociocracyforall.org/venu
+ s-zoom-299978898
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.sociocracyforall.org/event/sociocracy-transformative-socia
+ l-systems/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Roadmap to Implement Sociocracy – Free (donations appreciated)
+DTSTART:20260806T150000Z
+DTEND:20260806T160000Z
+DTSTAMP:20260906T191842Z
+UID:f3727ffadf28bfee34b21cc9@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Systems thinking
+DESCRIPTION:Sociocracy For All\n<p>Join this free one-hour webinar to lear
+ n how to implement sociocracy\, common challenges\, and what resources are
+  available through Sociocracy For All to help you at each step. </p>\\n\nL
+ anguage: Not specified\nLanguage requirements: Not specified\nInterpretati
+ on: Not specified\nAccess: See organiser\nhttps://www.sociocracyforall.org
+ /event/roadmap-to-implement-sociocracy/
+LAST-MODIFIED:20260906T191842Z
+LOCATION:Mars – SoFA Zoom Room\, https://zoom.sociocracyforall.org/mars-
+ zoom-180463541
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.sociocracyforall.org/event/roadmap-to-implement-sociocracy
+ /
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AI in System Dynamics Education | Task Force Monthly Meeting
+DTSTART:20260811T150000Z
+DTEND:20260811T160000Z
+DTSTAMP:20260906T192030Z
+UID:d8c293b9d8ef0e9be47b7f2c@systemsmap.antlerboy.com
+SEQUENCE:2
+CATEGORIES:System dynamics
+DESCRIPTION:System Dynamics Society\n<p>Monthly meeting led by the AI in S
+ ystem Dynamics Education Task Force to guide educators in responsibly inte
+ grating AI into SD teaching.</p>\\n\nLanguage: Not specified\nLanguage req
+ uirements: Not specified\nInterpretation: Not specified\nAccess: See organ
+ iser\nhttps://systemdynamics.org/event/ai-in-system-dynamics-education-tas
+ k-force-monthly-meeting-2/2026-08-11/
+LAST-MODIFIED:20260906T192030Z
+LOCATION:Online
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://systemdynamics.org/event/ai-in-system-dynamics-education-task-
+ force-monthly-meeting-2/2026-08-11/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:RSD15 PLURALITIES (Systemic Design Association)
+DTSTART;VALUE=DATE:20260820
+DTEND;VALUE=DATE:20260821
+DTSTAMP:20260906T191842Z
+UID:c3c7111b41559bbda4dd2512@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Cybernetics,Systems thinking,Systemic design
+DESCRIPTION:Systemic Design Association\nWho: Systemic Design Association 
+ Hosted by Politecnico di Torino. https://rsdsymposium.org/ On campus sessi
+ ons and livestream.\nLanguage: Not specified\nLanguage requirements: Not s
+ pecified\nInterpretation: Not specified\nAccess: See organiser\nhttps://te
+ amup.com/ksok8ra1xif3viq4no/events/2133404103\nDate-only listing\; check t
+ he organiser for session times.
+LAST-MODIFIED:20260906T191842Z
+LOCATION:R. Joaquim Távora\, 1240 - Vila Mariana\, São Paulo - SP\, 0401
+ 5-013\, Brazil
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://teamup.com/ksok8ra1xif3viq4no/events/2133404103
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SDS Policy Council Meeting (August 2026)
+DTSTART:20260820T150000Z
+DTEND:20260820T163000Z
+DTSTAMP:20260906T192030Z
+UID:aebf90cba4d24ebd40dbe2c9@systemsmap.antlerboy.com
+SEQUENCE:2
+CATEGORIES:System dynamics
+DESCRIPTION:System Dynamics Society\n<p>Monthly meetings of the Policy Cou
+ ncil occur on the 3rd Thursday of the month with the exception of conferen
+ ce month and holiday weeks. All Society members are welcome to attend. Log
+ in to access the zoom link which will be displayed here to members 15 minu
+ tes prior to the start of the meeting.</p>\\n\nLanguage: Not specified\nLa
+ nguage requirements: Not specified\nInterpretation: Not specified\nAccess:
+  See organiser\nhttps://systemdynamics.org/event/sds-policy-council-meetin
+ g-august-2026/
+LAST-MODIFIED:20260906T192030Z
+LOCATION:Online
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://systemdynamics.org/event/sds-policy-council-meeting-august-202
+ 6/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:XMILE Technical Committee Meeting (August 2026)
+DTSTART:20260821T140000Z
+DTEND:20260821T144500Z
+DTSTAMP:20260906T192030Z
+UID:523147b0ddcf8306916f9236@systemsmap.antlerboy.com
+SEQUENCE:2
+CATEGORIES:System dynamics
+DESCRIPTION:System Dynamics Society\n\nLanguage: Not specified\nLanguage r
+ equirements: Not specified\nInterpretation: Not specified\nAccess: See org
+ aniser\nhttps://systemdynamics.org/event/xmile-technical-committee-meeting
+ -august-2026/
+LAST-MODIFIED:20260906T192030Z
+LOCATION:Online
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://systemdynamics.org/event/xmile-technical-committee-meeting-aug
+ ust-2026/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SD Tools/XMILE Users Group (August 2026)
+DTSTART:20260821T150000Z
+DTEND:20260821T154500Z
+DTSTAMP:20260906T192030Z
+UID:bebc6f58da4d93c4392f3328@systemsmap.antlerboy.com
+SEQUENCE:2
+CATEGORIES:System dynamics
+DESCRIPTION:System Dynamics Society\n\nLanguage: Not specified\nLanguage r
+ equirements: Not specified\nInterpretation: Not specified\nAccess: See org
+ aniser\nhttps://systemdynamics.org/event/sd-tools-xmile-users-group-august
+ -2026/
+LAST-MODIFIED:20260906T192030Z
+LOCATION:Online
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://systemdynamics.org/event/sd-tools-xmile-users-group-august-202
+ 6/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Annual Psychology and Human Behavior SIG Meeting (August 2026)
+DTSTART:20260825T140000Z
+DTEND:20260825T150000Z
+DTSTAMP:20260906T192030Z
+UID:169eea14b9f18798786086d2@systemsmap.antlerboy.com
+SEQUENCE:2
+CATEGORIES:System dynamics
+DESCRIPTION:Psychology and Human Behavior SIG\n<p>Please join us for our a
+ nnual Psychology and Human Behavior SIG meeting. The first presentation wi
+ ll focus on emotional dynamics\, and the second on cognitive algebra. Next
+ \, we will discuss the SIG’s plans for the upcoming year. Part 1. (25 mi
+ nutes) Emotions as Dynamical\, Self-Organizing Patterns of Salience: An Il
+ lustrative Model for Accessing Other Minds Through […]</p>\\n\nLanguage:
+  Not specified\nLanguage requirements: Not specified\nInterpretation: Not 
+ specified\nAccess: See organiser\nhttps://systemdynamics.org/event/psychol
+ ogy-and-human-behavior-sig-meeting-august-2026/
+LAST-MODIFIED:20260906T192030Z
+LOCATION:Online
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://systemdynamics.org/event/psychology-and-human-behavior-sig-mee
+ ting-august-2026/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Place\, Poly-Capital\, and the Power to Change Systems
+DTSTART:20260827T120000Z
+DTEND:20260827T130000Z
+DTSTAMP:20260906T192030Z
+UID:db2f6fed4f94506198d50221@systemsmap.antlerboy.com
+SEQUENCE:2
+CATEGORIES:System dynamics
+DESCRIPTION:System Dynamics Society\n<p>Eva Gladek shares lessons from 14 
+ years of systems change\, showing how regional action and capital can driv
+ e regenerative transformation.</p>\\n\nLanguage: Not specified\nLanguage r
+ equirements: Not specified\nInterpretation: Not specified\nAccess: See org
+ aniser\nhttps://systemdynamics.org/event/place-poly-capital-and-the-power-
+ to-change-systems/
+LAST-MODIFIED:20260906T192030Z
+LOCATION:Online
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://systemdynamics.org/event/place-poly-capital-and-the-power-to-c
+ hange-systems/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Water SIG Meeting (August 2026)
+DTSTART:20260827T150000Z
+DTEND:20260827T160000Z
+DTSTAMP:20260906T192030Z
+UID:ab71cd26cf83a6e910e16a5c@systemsmap.antlerboy.com
+SEQUENCE:2
+CATEGORIES:System dynamics
+DESCRIPTION:Water SIG\n<p>Please join us on Thursday\, August 27th at 11am
+  New York time to work on an intro to SD and Water roadmap for self-guided
+  learning and brainstorm on how to crowdsource a GIS map of system dynamic
+ s models of river basins and aquifers. CT is thinking of creating somethin
+ g like this https://suave-net.sdsc.edu/main/file=suavedemos_Transboundary_
+ Groundwater_Research_2024.csv&view=grid. If you have [\nLanguage: Not spec
+ ified\nLanguage requirements: Not specified\nInterpretation: Not specified
+ \nAccess: See organiser\nhttps://systemdynamics.org/event/water-sig-meetin
+ g-august-2026/
+LAST-MODIFIED:20260906T192030Z
+LOCATION:Online
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://systemdynamics.org/event/water-sig-meeting-august-2026/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Pre-College Education SIG Annual Meeting
+DTSTART:20260827T170000Z
+DTEND:20260827T174500Z
+DTSTAMP:20260906T192030Z
+UID:72f5655d3387afef89f200d7@systemsmap.antlerboy.com
+SEQUENCE:2
+CATEGORIES:System dynamics
+DESCRIPTION:Pre College Education SIG\n<p>Dear Colleagues\, We would like 
+ to invite you to attend our System Dynamics Society Pre-College Special In
+ terest Group annual meeting. Please join our discussion about spreading sy
+ stems thinking (ST) and system dynamics (SD) modeling in precollege educat
+ ion\, globally. The SIG meeting will happen on Thursday\, August 27 at 1:0
+ 0pm New York. Many exciting activities are […]</p>\\n\nLanguage: Not spe
+ cified\nLanguage requirements: Not specified\nInterpretation: Not specifie
+ d\nAccess: See organiser\nhttps://systemdynamics.org/event/pre-college-edu
+ cation-sig-meeting-august-2026/
+LAST-MODIFIED:20260906T192030Z
+LOCATION:Online
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://systemdynamics.org/event/pre-college-education-sig-meeting-aug
+ ust-2026/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Student Chapter General Meeting
+DTSTART:20260827T130000Z
+DTEND:20260827T140000Z
+DTSTAMP:20260906T192030Z
+UID:aadc3d71128b252947889423@systemsmap.antlerboy.com
+SEQUENCE:2
+CATEGORIES:System dynamics
+DESCRIPTION:Student Chapter\n<p>During this meeting\, we will follow up on
+  discussions from the annual meeting last month\, with a focus on finding 
+ an alternative communication method/platform from the mass mailing list to
+  better advertise events\, connect prospective volunteers with opportuniti
+ es\, and foster an improved sense of community within the chapter.</p>\\n
+ \nLanguage: Not specified\nLanguage requirements: Not specified\nInterpret
+ ation: Not specified\nAccess: See organiser\nhttps://systemdynamics.org/ev
+ ent/student-chapter-general-meeting/
+LAST-MODIFIED:20260906T192030Z
+LOCATION:Online
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://systemdynamics.org/event/student-chapter-general-meeting/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:System Mapping Meets AI: Practical Ways AI Can Support Your Mappin
+ g Process
+DTSTART:20260901T150000Z
+DTEND:20260901T160000Z
+DTSTAMP:20260906T192030Z
+UID:eb4d9c856f7a83ae54a879f8@systemsmap.antlerboy.com
+SEQUENCE:2
+CATEGORIES:System dynamics
+DESCRIPTION:System Dynamics Society\nExplore five practical roles AI can p
+ lay in system mapping\, from knowledge aggregation to storytelling\, while
+  understanding its benefits\, risks\, and limitations.\nLanguage: Not spec
+ ified\nLanguage requirements: Not specified\nInterpretation: Not specified
+ \nAccess: See organiser\nhttps://systemdynamics.org/event/system-mapping-m
+ eets-ai-practical-ways-ai-can-support-your-mapping-process/
+LAST-MODIFIED:20260906T192030Z
+LOCATION:Online
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://systemdynamics.org/event/system-mapping-meets-ai-practical-way
+ s-ai-can-support-your-mapping-process/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Academy (Level 1\, two cohorts for all time zones)
+DTSTART:20260908T160000Z
+DTEND:20260908T160000Z
+DTSTAMP:20260906T191842Z
+UID:b07b0d21a3ba6d9ff469fe4a@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Complexity,Systems thinking
+DESCRIPTION:Sociocracy For All\nThe 5-month program covers all the parts o
+ f sociocracy in weekly 2h meetings Clarity on vision\, mission\, aims Desi
+ gning circle structures\, circle roles and operational roles Co-developing
+  proposals\, consent decision and integrating objections Selection process
+  (simple and complex) Sociocracy and equity and inclusion Meeting format\,
+  minutes\, backlogs Social-emotional challenges and how to address t\nLang
+ uage: Not specified\nLanguage requirements: Not specified\nInterpretation:
+  Not specified\nAccess: See organiser\nhttps://www.sociocracyforall.org/ev
+ ent/academy-level-1/
+LAST-MODIFIED:20260906T191842Z
+LOCATION:SoFA Zoom (Multi-Room)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.sociocracyforall.org/event/academy-level-1/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Cybernetics in the Annex: Commemorating Stafford Beer’s Centenar
+ y + Summer Conferences Recap
+DTSTART:20260908T223000Z
+DTEND:20260909T001500Z
+DTSTAMP:20260906T205112Z
+UID:2e96c1af7848b3132733a6fb@systemsmap.antlerboy.com
+SEQUENCE:3
+CATEGORIES:Cybernetics,Systems thinking
+DESCRIPTION:Systems Thinking Ontario\nAllenna Leonard discusses Stafford B
+ eer’s work on organisational viability and participatory decision-making
+ \, followed by a discussion of recent systems conferences. Moderated by Za
+ id Khan.\nGeographic focus: Canada\, Ontario\nLanguage: Not specified\nLan
+ guage requirements: Not specified\nInterpretation: Not specified\nAccess: 
+ Register for in-person attendance or the online link\nhttps://guild.host/e
+ vents/cybernetics-in-the-annex-tbara6
+LAST-MODIFIED:20260906T205112Z
+LOCATION:OCAD University\, 205 Richmond St W\, Room 115\, Toronto\, Canada
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://guild.host/events/cybernetics-in-the-annex-tbara6
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Implementing the Self-Managing Enterprise with Agentic AI
+DTSTART:20260915T150000Z
+DTEND:20260915T160000Z
+DTSTAMP:20260906T191842Z
+UID:3d26efdeef08948099e11d13@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Complexity,System dynamics
+DESCRIPTION:System Dynamics Society\nTuesday\, September 15 at 11 am New Y
+ ork | 4 pm London | 11 pm Beijing This session builds on the June 2026 web
+ inar “Agentic AI and the Self-Managing Enterprise” which showed how we
+  – and AI agents – make decisions through policies that try to close a
+  gap between a current state of the system and a target for that state. Ov
+ erview This webinar goes on to explain the mechanisms by which collaborati
+ on\nLanguage: Not specified\nLanguage requirements: Not specified\nInterpr
+ etation: Not specified\nAccess: See organiser\nhttps://systemdynamics.org/
+ event/implementing-the-self-managing-enterprise-with-agentic-ai/
+LAST-MODIFIED:20260906T191842Z
+LOCATION:https://us02web.zoom.us/j/87049920798
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://systemdynamics.org/event/implementing-the-self-managing-enterp
+ rise-with-agentic-ai/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Pułapka struktury\, czyli jak sposób w jaki się organizujemy de
+ terminuje przestrzeń możliwych rozwiązań.
+DTSTART:20260915T160000Z
+DTEND:20260915T173000Z
+DTSTAMP:20260906T191842Z
+UID:4dec19fa8acdd341a3e7dfbd@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Systems thinking,Cybernetics
+DESCRIPTION:SCiO Polska\n\nGeographic focus: Poland\nLanguage: Polish\nLan
+ guage requirements: Not specified\nInterpretation: Not specified\nAccess: 
+ All welcome\nhttps://www.systemspractice.org/events/pulapka-struktury-czyl
+ i-jak-sposob-w-jaki-sie-organizujemy-determinuje-przestrzen-mozliwych
+LAST-MODIFIED:20260906T191842Z
+LOCATION:Online event
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.systemspractice.org/events/pulapka-struktury-czyli-jak-spo
+ sob-w-jaki-sie-organizujemy-determinuje-przestrzen-mozliwych
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Economics SIG Online Seminar
+DTSTART:20260916T150000Z
+DTEND:20260916T160000Z
+DTSTAMP:20260906T191842Z
+UID:03b06983d7f6371cfedc13fe@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:System dynamics
+DESCRIPTION:System Dynamics Society\nEconomics SIG Online Seminar Presente
+ r: Prof.Khalid Saeed (Worchester Polytechnic Institute) Date and Time: Wed
+ nesday\, September 16\, 11 AM (New York Time) Title: “An operational the
+ ory of firm inspired by Forrester’s Industrial Dynamics”\nLanguage: No
+ t specified\nLanguage requirements: Not specified\nInterpretation: Not spe
+ cified\nAccess: See organiser\nhttps://systemdynamics.org/event/economics-
+ sig-online-seminar/
+LAST-MODIFIED:20260906T191842Z
+LOCATION:https://systemdynamics.org/event/economics-sig-online-seminar/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://systemdynamics.org/event/economics-sig-online-seminar/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Speaker Series 7#1: Cyber-Renaissance
+DTSTART:20260920T160000Z
+DTSTAMP:20260906T191842Z
+UID:de1734466a5ee9163041163a@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Cybernetics
+DESCRIPTION:American Society for Cybernetics (ASC)\n\nLanguage: Not specif
+ ied\nLanguage requirements: Not specified\nInterpretation: Not specified\n
+ Access: See organiser\nhttps://asc-cybernetics.org/initiatives/speaker-ser
+ ies-wg/speaker-series-season-71/
+LAST-MODIFIED:20260906T191842Z
+LOCATION:Online
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://asc-cybernetics.org/initiatives/speaker-series-wg/speaker-seri
+ es-season-71/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Academy 2 (Level 2)
+DTSTART:20260921T213000Z
+DTEND:20260921T233000Z
+DTSTAMP:20260906T191842Z
+UID:3865680f42a79c4b306104ff@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Systems thinking
+DESCRIPTION:Sociocracy For All\n\nLanguage: Not specified\nLanguage requir
+ ements: Not specified\nInterpretation: Not specified\nAccess: See organise
+ r\nhttps://www.sociocracyforall.org/event/academy-level-2/
+LAST-MODIFIED:20260906T191842Z
+LOCATION:SoFA Zoom (Multi-Room)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.sociocracyforall.org/event/academy-level-2/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Complex R.O.M.E. Workshop
+DTSTART;VALUE=DATE:20260930
+DTEND;VALUE=DATE:20261002
+DTSTAMP:20260906T191842Z
+UID:ef9e42990123cad797391dff@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Complexity
+DESCRIPTION:Complex Systems Society\n\nLanguage: Not specified\nLanguage r
+ equirements: Not specified\nInterpretation: Not specified\nAccess: See org
+ aniser\nhttps://cssociety.org/event/7fc28031-3253-4626-8492-06700bb5428a/
+ \nDate-only listing\; check the organiser for session times.
+LAST-MODIFIED:20260906T191842Z
+LOCATION:None Online Event: Yes
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://cssociety.org/event/7fc28031-3253-4626-8492-06700bb5428a/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Internalisierte Verbindlichkeiten - gegenwärtig aber unsichtbar
+DTSTART:20261001T170000Z
+DTEND:20261001T183000Z
+DTSTAMP:20260906T191842Z
+UID:45a924295856edfda96ed2f7@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Systems thinking,Cybernetics
+DESCRIPTION:SCiO DACH\n\nGeographic focus: Germany\, Austria\, Switzerland
+ \, DACH\nLanguage: German\nLanguage requirements: Not specified\nInterpret
+ ation: Not specified\nAccess: Members only + Guests\nhttps://www.systemspr
+ actice.org/events/internalisierte-verbindlichkeiten-gegenwartig-aber-unsic
+ htbar
+LAST-MODIFIED:20260906T191842Z
+LOCATION:Online event
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.systemspractice.org/events/internalisierte-verbindlichkeit
+ en-gegenwartig-aber-unsichtbar
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SCiO UK Virtual Development Event - October 2026
+DTSTART:20261006T120000Z
+DTEND:20261006T140000Z
+DTSTAMP:20260906T191842Z
+UID:0c7c4ba62ecca20d592ff572@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Systems thinking,Cybernetics
+DESCRIPTION:SCiO UK\n\nLanguage: English\nLanguage requirements: Not speci
+ fied\nInterpretation: Not specified\nAccess: Members only\nhttps://www.sys
+ temspractice.org/events/scio-uk-virtual-development-event-october-2026
+LAST-MODIFIED:20260906T191842Z
+LOCATION:Online event
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.systemspractice.org/events/scio-uk-virtual-development-eve
+ nt-october-2026
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:RSD15 PLURALITIES (Scientific Committee\, hosted by Politecnico di
+  Torino)
+DTSTART;VALUE=DATE:20261008
+DTEND;VALUE=DATE:20261010
+DTSTAMP:20260906T191842Z
+UID:e1a0594c80afc692c0df6616@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Cybernetics,Systems thinking,Systemic design
+DESCRIPTION:Scientific Committee\\\, hosted by Politecnico di Torino\nWho:
+  Scientific Committee\, hosted by Politecnico di Torino Online Paper Talks
+  presented by authors. Various facilitators. https://rsdsymposium.org/\nLa
+ nguage: Not specified\nLanguage requirements: Not specified\nInterpretatio
+ n: Not specified\nAccess: See organiser\nhttps://teamup.com/ksok8ra1xif3vi
+ q4no/events/2133404975\nDate-only listing\; check the organiser for sessio
+ n times.
+LAST-MODIFIED:20260906T191842Z
+LOCATION:https://events.zoom.us/eo/AtULk9kZNsX5vQlgZoWZ2t1vjvz86R6OWyqBv00
+ QO_0XK-DZYNEQ~AggLXsr32QYFjq8BlYLZ5I06Dg
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://teamup.com/ksok8ra1xif3viq4no/events/2133404975
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:RSD15 PLURALITIES (RSD15-Turin on campus event)
+DTSTART;VALUE=DATE:20261013
+DTEND;VALUE=DATE:20261017
+DTSTAMP:20260906T191842Z
+UID:33ec149dc98e48ff47cd39a5@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Cybernetics,Systems thinking,Systemic design
+DESCRIPTION:RSD15-Turin on campus event\nWho: RSD15-Turin on campus event 
+ Register https://www.rsd15.org/contacts Livestream sessions https://events
+ .zoom.us/eo/AtULk9kZNsX5vQlgZoWZ2t1vjvz86R6OWyqBv00QO\\_0XK-DZYNEQ~AggLXsr
+ 32QYFjq8BlYLZ5I06Dg: https://events.zoom.us/eo/AtULk9kZNsX5vQlgZoWZ2t1vjvz
+ 86R6OWyqBv00QO_0XK-DZYNEQ~AggLXsr32QYFjq8BlYLZ5I06Dg\nLanguage: Not specif
+ ied\nLanguage requirements: Not specified\nInterpretation: Not specified\n
+ Access: See organiser\nhttps://teamup.com/ksok8ra1xif3viq4no/events/213340
+ 5689\nDate-only listing\; check the organiser for session times.
+LAST-MODIFIED:20260906T191842Z
+LOCATION:Castello del Valentino\, Turin\, Italy
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://teamup.com/ksok8ra1xif3viq4no/events/2133405689
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CECAN Webinar – Place-Based Evaluation Is Missing the Point Abou
+ t Place
+DTSTART:20261015T110000Z
+DTSTAMP:20260906T191842Z
+UID:1cf1d5872670d36e41a30df6@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Complexity,Systems thinking
+DESCRIPTION:CECAN\n\nLanguage: Not specified\nLanguage requirements: Not s
+ pecified\nInterpretation: Not specified\nAccess: See organiser\nhttps://ww
+ w.cecan.ac.uk/events/cecan-webinar-place-based-evaluation-is-missing-the-p
+ oint-about-place/
+LAST-MODIFIED:20260906T191842Z
+LOCATION:Online
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.cecan.ac.uk/events/cecan-webinar-place-based-evaluation-is
+ -missing-the-point-about-place/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SCiO UK Virtual Open Meeting - November 2026
+DTSTART:20261116T183000Z
+DTEND:20261116T210000Z
+DTSTAMP:20260906T191842Z
+UID:76da874472c5593ae9184169@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Systems thinking,Cybernetics
+DESCRIPTION:SCiO UK\n\nLanguage: English\nLanguage requirements: Not speci
+ fied\nInterpretation: Not specified\nAccess: All welcome\nhttps://www.syst
+ emspractice.org/events/scio-uk-virtual-open-meeting-november-2026
+LAST-MODIFIED:20260906T191842Z
+LOCATION:Online event
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.systemspractice.org/events/scio-uk-virtual-open-meeting-no
+ vember-2026
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Kybernetik-Stammtisch - Jahresabschluss - offene Beiträge
+DTSTART:20261217T180000Z
+DTEND:20261217T193000Z
+DTSTAMP:20260906T191842Z
+UID:1a0badea163b9e590bf3ffa3@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Systems thinking,Cybernetics
+DESCRIPTION:SCiO DACH\n\nGeographic focus: Germany\, Austria\, Switzerland
+ \, DACH\nLanguage: German\nLanguage requirements: Not specified\nInterpret
+ ation: Not specified\nAccess: Members only + Guests\nhttps://www.systemspr
+ actice.org/events/kybernetik-stammtisch-jahresabschluss-offene-beitrage-1
+LAST-MODIFIED:20260906T191842Z
+LOCATION:Online event
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.systemspractice.org/events/kybernetik-stammtisch-jahresabs
+ chluss-offene-beitrage-1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Oceania Chapter: 2027 Systems Thinking & Modelling Symposium​
+DTSTART:20270210T230000Z
+DTEND:20270212T060000Z
+DTSTAMP:20260906T191842Z
+UID:efc297f629367b9b25ff0780@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:System dynamics
+DESCRIPTION:System Dynamics Society\nHYBRID EVENT 12 February 2027\, 10:00
+  am-5:00 pm – UNSW Canberra City (Reid) and online We invite you to join
+  us for the 2027 Oceania Chapter Symposium to learn about current work app
+ lying systems thinking and system dynamics modelling within industry\, gov
+ ernment\, and academia. Symposium Information Cost Registration is free. L
+ ocation In person: UNSW Canberra City Lecture Theatre 00.25\, Ground floo
+ \nLanguage: Not specified\nLanguage requirements: Not specified\nInterpret
+ ation: Not specified\nAccess: See organiser\nhttps://systemdynamics.org/ev
+ ent/oceania-chapter-2027-systems-thinking-modelling-symposium/
+LAST-MODIFIED:20260906T191842Z
+LOCATION:UNSW canberra\, UNSW Canberra City\, 37 Constitution Ave\, Reid A
+ CT 2612\, Australia\, ACT\, 2612\, Australia
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://systemdynamics.org/event/oceania-chapter-2027-systems-thinking
+ -modelling-symposium/
+END:VEVENT
+END:VCALENDAR

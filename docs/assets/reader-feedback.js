@@ -1,0 +1,4 @@
+(() => {
+ const button=document.getElementById('emailCorrection'),form=document.getElementById('contributionForm');if(!button||!form)return;
+ button.addEventListener('click',()=>{if(!form.reportValidity())return;const data=new FormData(form);const labels={submission_type:'Type',entry_label:'Entry',entry_id:'Entry identifier',statement:'Proposed change',reason:'Reason',source_url:'Public source',source_citation:'Citation',evidence:'Evidence',name:'Name'};const body=Array.from(data.entries()).filter(([,v])=>String(v).trim()).map(([k,v])=>(labels[k]||k)+': '+v).join('\n\n');const subject='The Necessary Tangle: '+data.get('submission_type');location.href='mailto:benjamin.taylor@redquadrant.com?subject='+encodeURIComponent(subject)+'&body='+encodeURIComponent(body);document.getElementById('formStatus').textContent='Review and send the draft in your email app. If it does not open, email benjamin.taylor@redquadrant.com with your correction.';});
+})();

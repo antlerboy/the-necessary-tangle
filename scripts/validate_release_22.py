@@ -134,7 +134,8 @@ def main():
                     assert identity in (journeys if query['view'] == ['journeys'] else nodes), (path, url)
             elif u.fragment:
                 assert u.fragment in Page(target).ids, (path, url)
-    assert Page(DOCS / pages[2]).rules == {r['number']: r['text'] for r in rules['rules']}
+    # Public punctuation follows Benjamin's instruction; canonical wording is otherwise identical.
+    assert Page(DOCS / pages[2]).rules == {r['number']: r['text'].replace('—', ', ').replace('–', '-') for r in rules['rules']}
     css = (DOCS / 'assets/learning-pages.css').read_text()
     assert all(s in css for s in (':focus-visible', 'prefers-reduced-motion', 'prefers-color-scheme:dark', '@media print', '760px'))
     index = (DOCS / 'index.html').read_text()

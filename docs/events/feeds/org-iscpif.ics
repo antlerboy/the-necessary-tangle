@@ -1,0 +1,196 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Systems Events Map//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Institut des systèmes complexes Paris Île-de-France
+REFRESH-INTERVAL:P1D
+X-PUBLISHED-TTL:PT24H
+BEGIN:VEVENT
+SUMMARY:Journée Intégration Master Immunotherapies and Systems Immunolog
+ y (ITSI)
+DTSTART:20260907T110000Z
+DTEND:20260907T160000Z
+DTSTAMP:20260906T191842Z
+UID:7e45dbcc72f0f92d35f38eeb@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Complexity
+DESCRIPTION:Institut des systèmes complexes Paris Île-de-France\nJourné
+ e d’intégration des étudiants de Master Immunotherapies and Systems Im
+ munology de Sorbonne Université. Cliquer pour accéder à itsi_master_2-v
+ 3_0.pdf\nLanguage: Not specified\nLanguage requirements: Not specified\nIn
+ terpretation: Not specified\nAccess: See organiser\nhttps://iscpif.fr/even
+ ements/journee-integration-master-immunotherapies-and-systems-immunology-i
+ tsi/
+LAST-MODIFIED:20260906T191842Z
+LOCATION:ISC-PIF\, 113 rue Nationale\, Paris\, Paris\, 75013\, France
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://iscpif.fr/evenements/journee-integration-master-immunotherapie
+ s-and-systems-immunology-itsi/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CoPil RE2 France Life Imaging
+DTSTART:20260908T070000Z
+DTEND:20260908T130000Z
+DTSTAMP:20260906T191842Z
+UID:e5215a1c196db05bc2f610a6@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Complexity
+DESCRIPTION:Institut des systèmes complexes Paris Île-de-France\nRéunio
+ n du comité de pilotage du réseau d’expertise « instrumentations et i
+ nnovations technologiques » de l’infrastructure de recherche France Lif
+ e Imaging. Accueil\nLanguage: Not specified\nLanguage requirements: Not sp
+ ecified\nInterpretation: Not specified\nAccess: See organiser\nhttps://isc
+ pif.fr/evenements/copil-re2-france-life-imaging/
+LAST-MODIFIED:20260906T191842Z
+LOCATION:ISC-PIF\, 113 rue Nationale\, Paris\, Paris\, 75013\, France
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://iscpif.fr/evenements/copil-re2-france-life-imaging/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Conseil d'administration de l AFSCET
+DTSTART:20260910T123000Z
+DTEND:20260910T143000Z
+DTSTAMP:20260906T191842Z
+UID:16add3561fd02630fbcb9f07@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Complexity
+DESCRIPTION:Institut des systèmes complexes Paris Île-de-France\nConseil
+  d’administration de l AFSCET https://afscet.asso.fr\nLanguage: Not spec
+ ified\nLanguage requirements: Not specified\nInterpretation: Not specified
+ \nAccess: See organiser\nhttps://iscpif.fr/evenements/conseil-dadministrat
+ ion-de-l-afscet-2/
+LAST-MODIFIED:20260906T191842Z
+LOCATION:ISC-PIF\, 113 rue Nationale\, Paris\, Paris\, 75013\, France
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://iscpif.fr/evenements/conseil-dadministration-de-l-afscet-2/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Formation Gestion de données de phenotypage
+DTSTART:20260915T060000Z
+DTEND:20260915T140000Z
+DTSTAMP:20260906T191842Z
+UID:eb2d0279e9c15b722b8806c3@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Complexity
+DESCRIPTION:Institut des systèmes complexes Paris Île-de-France\nL’inf
+ rastructure nationale de recherche Phenome-Emphasis met à disposition son
+  expertise et propose une formation d’une journée dédiée au partage\,
+  à la structuration et à la réutilisation des données de phénotypage 
+ des plantes. Pourquoi cette formation ? Les industriels du végétal\, de 
+ l’agro-technologie et de la recherche expriment un besoin croissant de f
+ iabiliser\, valoriser et sécuriser leurs fl\nLanguage: Not specified\nLan
+ guage requirements: Not specified\nInterpretation: Not specified\nAccess: 
+ See organiser\nhttps://iscpif.fr/evenements/formation-gestion-de-donnees-d
+ e-phenotypage/
+LAST-MODIFIED:20260906T191842Z
+LOCATION:ISC-PIF\, 113 rue Nationale\, Paris\, Paris\, 75013\, France
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://iscpif.fr/evenements/formation-gestion-de-donnees-de-phenotypa
+ ge/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Conseil d'Administration de l AFSCET
+DTSTART:20260916T050000Z
+DTEND:20260916T140000Z
+DTSTAMP:20260906T191842Z
+UID:62db5db07e0233109879489b@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Complexity
+DESCRIPTION:Institut des systèmes complexes Paris Île-de-France\nConseil
+  d’administration de l AFSCET Discussion des futures orientations de l a
+ ssociation\nLanguage: Not specified\nLanguage requirements: Not specified
+ \nInterpretation: Not specified\nAccess: See organiser\nhttps://iscpif.fr/
+ evenements/conseil-dadministration-de-l-afscet/
+LAST-MODIFIED:20260906T191842Z
+LOCATION:ISC-PIF\, 113 rue Nationale\, Paris\, Paris\, 75013\, France
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://iscpif.fr/evenements/conseil-dadministration-de-l-afscet/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Journée de rentrée
+DTSTART:20260918T060000Z
+DTEND:20260918T140000Z
+DTSTAMP:20260906T191842Z
+UID:93403190c4cbaf025caf7d7e@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Complexity
+DESCRIPTION:Institut des systèmes complexes Paris Île-de-France\nLa jour
+ née de rentrée est l’occasion pour l’ensemble des membres du laborat
+ oire de présenter leurs travaux de recherche et de renforcer la dynamique
+  scientifique collective. Il y aura notamment la présentation des nouveau
+ x membres du laboratoire\, des collaborations scientifiques et des nouveau
+ x séminaires. La journée s’achève par une conférence d’un.e invit
+ é.e extérieur. https://sphere.cnrs.fr\nLanguage: Not specified\nLanguage
+  requirements: Not specified\nInterpretation: Not specified\nAccess: See o
+ rganiser\nhttps://iscpif.fr/evenements/journee-de-rentree/
+LAST-MODIFIED:20260906T191842Z
+LOCATION:ISC-PIF\, 113 rue Nationale\, Paris\, Paris\, 75013\, France
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://iscpif.fr/evenements/journee-de-rentree/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:TwinFarms : comité de suivi à 18 mois
+DTSTART:20260924T060000Z
+DTEND:20260924T150000Z
+DTSTAMP:20260906T191842Z
+UID:4ea7881787bfa0b2c8810aab@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Complexity
+DESCRIPTION:Institut des systèmes complexes Paris Île-de-France\nTwinFar
+ ms : déployer des jumeaux numériques pour favoriser l’innovation agro
+ écologique. Projet du PEPR Agroécologie et Numérique\, comité de suivi
+  à 18 mois\nLanguage: Not specified\nLanguage requirements: Not specified
+ \nInterpretation: Not specified\nAccess: See organiser\nhttps://iscpif.fr/
+ evenements/twinfarms-comite-de-suivi-a-18-mois/
+LAST-MODIFIED:20260906T191842Z
+LOCATION:ISC-PIF\, 113 rue Nationale\, Paris\, Paris\, 75013\, France
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://iscpif.fr/evenements/twinfarms-comite-de-suivi-a-18-mois/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Réunion plénière finale du projet système complexe BEECOME2
+DTSTART:20260924T063000Z
+DTEND:20260924T143000Z
+DTSTAMP:20260906T191842Z
+UID:468e7de53a14c5ab0ca80ccf@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Complexity
+DESCRIPTION:Institut des systèmes complexes Paris Île-de-France\nRestitu
+ tion des résultats du projet BEECOME2 sur la modélisation des trajectoir
+ es de transition\nLanguage: Not specified\nLanguage requirements: Not spec
+ ified\nInterpretation: Not specified\nAccess: See organiser\nhttps://iscpi
+ f.fr/evenements/reunion-pleniere-finale-du-projet-systeme-complexe-beecome
+ 2/
+LAST-MODIFIED:20260906T191842Z
+LOCATION:ISC-PIF\, 113 rue Nationale\, Paris\, Paris\, 75013\, France
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://iscpif.fr/evenements/reunion-pleniere-finale-du-projet-systeme
+ -complexe-beecome2/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CSIIT
+DTSTART:20260930T060000Z
+DTEND:20261001T140000Z
+DTSTAMP:20260906T191842Z
+UID:14c3b3401a97be7701b308eb@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Complexity
+DESCRIPTION:Institut des systèmes complexes Paris Île-de-France\nRéunio
+ n de la CSIIT\nLanguage: Not specified\nLanguage requirements: Not specifi
+ ed\nInterpretation: Not specified\nAccess: See organiser\nhttps://iscpif.f
+ r/evenements/csiit/
+LAST-MODIFIED:20260906T191842Z
+LOCATION:ISC-PIF\, 113 rue Nationale\, Paris\, Paris\, 75013\, France
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://iscpif.fr/evenements/csiit/
+END:VEVENT
+END:VCALENDAR

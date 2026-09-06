@@ -1,0 +1,99 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Systems Events Map//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Complex Systems Society
+REFRESH-INTERVAL:P1D
+X-PUBLISHED-TTL:PT24H
+BEGIN:VEVENT
+SUMMARY:NetLogo Conference 2026
+DTSTART;VALUE=DATE:20260629
+DTEND;VALUE=DATE:20260702
+DTSTAMP:20260906T191842Z
+UID:e9509aff3d5137eb6362e5eb@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Complexity
+DESCRIPTION:Complex Systems Society\n\nLanguage: Not specified\nLanguage r
+ equirements: Not specified\nInterpretation: Not specified\nAccess: See org
+ aniser\nhttps://cssociety.org/event/5e704c78-1f96-44d2-a917-12e60df5c1cb/
+ \nDate-only listing\; check the organiser for session times.
+LAST-MODIFIED:20260906T191842Z
+LOCATION:Chicago\, United States
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://cssociety.org/event/5e704c78-1f96-44d2-a917-12e60df5c1cb/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Social Simulation Conference 2026
+DTSTART;VALUE=DATE:20260824
+DTEND;VALUE=DATE:20260829
+DTSTAMP:20260906T191842Z
+UID:c61960ae94820bda3b8defa3@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Complexity
+DESCRIPTION:Complex Systems Society\n\nLanguage: Not specified\nLanguage r
+ equirements: Not specified\nInterpretation: Not specified\nAccess: See org
+ aniser\nhttps://cssociety.org/event/075b0114-b4bd-4efc-8d1a-9d5a4d6a2eca/
+ \nDate-only listing\; check the organiser for session times.
+LAST-MODIFIED:20260906T191842Z
+LOCATION:Location not published
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://cssociety.org/event/075b0114-b4bd-4efc-8d1a-9d5a4d6a2eca/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Complex R.O.M.E. Workshop
+DTSTART;VALUE=DATE:20260930
+DTEND;VALUE=DATE:20261002
+DTSTAMP:20260906T191842Z
+UID:ef9e42990123cad797391dff@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Complexity
+DESCRIPTION:Complex Systems Society\n\nLanguage: Not specified\nLanguage r
+ equirements: Not specified\nInterpretation: Not specified\nAccess: See org
+ aniser\nhttps://cssociety.org/event/7fc28031-3253-4626-8492-06700bb5428a/
+ \nDate-only listing\; check the organiser for session times.
+LAST-MODIFIED:20260906T191842Z
+LOCATION:None Online Event: Yes
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://cssociety.org/event/7fc28031-3253-4626-8492-06700bb5428a/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CCS 2026
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261017
+DTSTAMP:20260906T191842Z
+UID:03da9f001e45bdd79f9568f3@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Complexity
+DESCRIPTION:Complex Systems Society\n\nLanguage: Not specified\nLanguage r
+ equirements: Not specified\nInterpretation: Not specified\nAccess: See org
+ aniser\nhttps://cssociety.org/event/5ea1ef85-35de-4e54-9a0c-772f4dcd0185/
+ \nDate-only listing\; check the organiser for session times.
+LAST-MODIFIED:20260906T191842Z
+LOCATION:United States\, Binghamton\, NY
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://cssociety.org/event/5ea1ef85-35de-4e54-9a0c-772f4dcd0185/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:COMPLEX NETWORKS 2026 – 15th International Conference on Complex
+  Networks and Their Applications
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261205
+DTSTAMP:20260906T191842Z
+UID:3c7f267a057b86293598c301@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Complexity
+DESCRIPTION:Complex Systems Society\n\nLanguage: Not specified\nLanguage r
+ equirements: Not specified\nInterpretation: Not specified\nAccess: See org
+ aniser\nhttps://cssociety.org/event/48d831be-35b8-4789-81ed-6ef517743032/
+ \nDate-only listing\; check the organiser for session times.
+LAST-MODIFIED:20260906T191842Z
+LOCATION:Spain\, Granada
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://cssociety.org/event/48d831be-35b8-4789-81ed-6ef517743032/
+END:VEVENT
+END:VCALENDAR

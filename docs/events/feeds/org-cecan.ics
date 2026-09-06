@@ -1,0 +1,64 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Systems Events Map//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:CECAN
+REFRESH-INTERVAL:P1D
+X-PUBLISHED-TTL:PT24H
+BEGIN:VEVENT
+SUMMARY:CECAN Webinar – Testing\, Learning and Adapting: Introducing the
+  New Test and Learn Annex to the Magenta Book
+DTSTART:20260615T120000Z
+DTSTAMP:20260906T191842Z
+UID:82b5b2e91de670fe1d51d2ba@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Complexity,Systems thinking
+DESCRIPTION:CECAN\n\nLanguage: Not specified\nLanguage requirements: Not s
+ pecified\nInterpretation: Not specified\nAccess: See organiser\nhttps://ww
+ w.cecan.ac.uk/events/cecan-webinar-testing-learning-and-adapting-introduci
+ ng-the-new-test-and-learn-annex-to-the-magenta-book/
+LAST-MODIFIED:20260906T191842Z
+LOCATION:Online
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.cecan.ac.uk/events/cecan-webinar-testing-learning-and-adap
+ ting-introducing-the-new-test-and-learn-annex-to-the-magenta-book/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CECAN Conference 2026: Global Perspectives on Complex Evaluation
+DTSTART;VALUE=DATE:20260623
+DTSTAMP:20260906T191842Z
+UID:77cc687bc93b331ffa1be132@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Complexity,Systems thinking
+DESCRIPTION:CECAN\n\nLanguage: Not specified\nLanguage requirements: Not s
+ pecified\nInterpretation: Not specified\nAccess: See organiser\nhttps://ww
+ w.cecan.ac.uk/events/cecan-conference-2026-global-perspectives-on-complex-
+ evaluation/\nDate-only listing\; check the organiser for session times.
+LAST-MODIFIED:20260906T191842Z
+LOCATION:Online
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.cecan.ac.uk/events/cecan-conference-2026-global-perspectiv
+ es-on-complex-evaluation/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CECAN Webinar – Place-Based Evaluation Is Missing the Point Abou
+ t Place
+DTSTART:20261015T110000Z
+DTSTAMP:20260906T191842Z
+UID:1cf1d5872670d36e41a30df6@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Complexity,Systems thinking
+DESCRIPTION:CECAN\n\nLanguage: Not specified\nLanguage requirements: Not s
+ pecified\nInterpretation: Not specified\nAccess: See organiser\nhttps://ww
+ w.cecan.ac.uk/events/cecan-webinar-place-based-evaluation-is-missing-the-p
+ oint-about-place/
+LAST-MODIFIED:20260906T191842Z
+LOCATION:Online
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.cecan.ac.uk/events/cecan-webinar-place-based-evaluation-is
+ -missing-the-point-about-place/
+END:VEVENT
+END:VCALENDAR
