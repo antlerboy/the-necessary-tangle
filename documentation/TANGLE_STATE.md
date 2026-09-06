@@ -55,3 +55,7 @@ See `documentation/release-0.22.md` for scope and remaining decisions. Benjamin 
 has authorised direct publication after validation under `AGENTS.md`; no extra
 human-review stop is required for user-requested changes. Source-owner rights
 and GitHub access controls remain in force.
+
+## Systems events update, 6 September 2026
+
+The `/events/` build is pinned to systemsmap revision `711671ff3b75cc18f066ebb5fb6c7dc099541821`. The update adds the two reviewed Toronto and Manchester events, URL-only submissions with extraction, approximate area markers and filters for online geographic focus, and language filtering with separate language requirements, interpretation, and access details. SCiO Polska retains its Poland focus, Polish language, and ‘All welcome’ access. Local validation passed; the publication workflow records deployment status.

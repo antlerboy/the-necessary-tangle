@@ -28,7 +28,7 @@ jobs:
         uses: actions/checkout@v7
         with:
           repository: antlerboy/systemsmap
-          ref: fde8d7e32b71beeb4530920fdc4ee22351f6ee9e
+          ref: 711671ff3b75cc18f066ebb5fb6c7dc099541821
           path: _systemsmap
           persist-credentials: false
 
