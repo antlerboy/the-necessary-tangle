@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Derive animated-image playback from existing marks without changing originals."""
+"""Derive automatic animated images from existing marks without changing originals."""
 import hashlib
 import json
 import re
@@ -42,17 +42,17 @@ def main():
     assert len(report) == 44
     (assets / 'playback-manifest.json').write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + '\n')
     (docs / 'assets/iteration-19.js').write_text((ROOT / 'sources/living-mark-images.js').read_text())
-    (docs / 'assets/reader-motion.js').write_text('/* Playback and its compact control are owned by iteration-19.js. */\n')
+    (docs / 'assets/reader-motion.js').write_text('/* Automatic image animation is owned by iteration-19.js. No playback controls. */\n')
     page = docs / 'index.html'
     text = page.read_text()
-    text = re.sub(r'(assets/(?:reader-motion|iteration-19)\.js)(?:\?v=[^"\s]+)?', r'\1?v=20260907-images-1', text)
-    if 'id="compact-mark-control"' not in text:
-        text = text.replace('</head>', '<style id="compact-mark-control">.living-mark-toggle{display:inline-flex;align-items:center;justify-content:center;width:32px;height:32px;min-width:32px;max-width:32px;min-height:32px;padding:6px;border:0;background:transparent;color:inherit;cursor:pointer}.living-mark-toggle svg{width:16px;height:16px;fill:currentColor}.living-mark-toggle[hidden]{display:none!important}.living-mark-toggle:focus-visible{outline:3px solid #ffbf47}</style></head>')
+    text = re.sub(r'(assets/(?:reader-motion|iteration-19)\.js)(?:\?v=[^"\s]+)?', r'\1?v=20260907-automatic-2', text)
+    text = re.sub(r'<style id="compact-mark-control">.*?</style>', '', text, flags=re.S)
+    text = re.sub(r'<style>\.living-mark-playback\{.*?</style>', '', text, flags=re.S)
     page.write_text(text)
     target = ROOT / 'validation/living-mark-images.json'
     target.parent.mkdir(exist_ok=True)
-    target.write_text(json.dumps({'status': 'passed', 'moving_marks': len(report), 'source_videos_unchanged': True, 'marks': report}, indent=2) + '\n')
-    print('Animated-image playback:', len(report), 'marks;', sum(r['bytes'] for r in report), 'bytes. Original media unchanged.')
+    target.write_text(json.dumps({'status': 'passed', 'moving_marks': len(report), 'source_videos_unchanged': True, 'playback_controls': False, 'marks': report}, indent=2) + '\n')
+    print('Automatic animated-image playback:', len(report), 'marks;', sum(r['bytes'] for r in report), 'bytes. No playback controls. Original media unchanged.')
 
 
 if __name__ == '__main__':

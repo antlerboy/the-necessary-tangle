@@ -1,39 +1,15 @@
-/* Living marks are animated images, not autoplay-dependent video players. */
+/* Automatic living marks. No video autoplay dependency and no playback controls. */
 (() => {
   'use strict';
   const host = document.querySelector('[data-living-mark]');
   if (!host) return;
   const motion = matchMedia('(prefers-reduced-motion: reduce)');
-  const preferenceKey = 'necessary-tangle:mark-motion';
-  const previousKey = 'necessary-tangle:last-living-mark';
   const query = new URLSearchParams(location.search);
-  let choice = '';
-  try { choice = sessionStorage.getItem(preferenceKey) || ''; } catch (_) {}
-  if (['on', 'off'].includes(query.get('motion'))) {
-    choice = query.get('motion');
-    try { sessionStorage.setItem(preferenceKey, choice); } catch (_) {}
-  }
-  const shouldMove = () => choice === 'on' || (choice !== 'off' && !motion.matches);
+  const previousKey = 'necessary-tangle:last-living-mark';
+  // Explicit URL choices are optional; old player-button state cannot stop autoplay.
+  const shouldMove = () => query.get('motion') === 'on' || (query.get('motion') !== 'off' && !motion.matches);
   let current, generation = 0;
   document.querySelectorAll('.living-mark-playback,.living-mark-toggle').forEach(el => el.remove());
-  const control = document.createElement('button');
-  control.type = 'button';
-  control.className = 'living-mark-toggle';
-  control.hidden = true;
-  (host.closest('a') || host).insertAdjacentElement('afterend', control);
-  const icons = {
-    play: '<svg aria-hidden="true" viewBox="0 0 24 24"><path d="M7 4l14 8-14 8z"/></svg>',
-    pause: '<svg aria-hidden="true" viewBox="0 0 24 24"><path d="M7 5h4v14H7zm6 0h4v14h-4z"/></svg>'
-  };
-  function sync() {
-    control.hidden = !current || !current.animated_src;
-    const running = host.dataset.motionState === 'playing';
-    control.innerHTML = running ? icons.pause : icons.play;
-    let label = running ? 'Pause animation' : 'Play animation';
-    if (!running && !choice && motion.matches) label += ' (reduced motion is enabled)';
-    control.setAttribute('aria-label', label);
-    control.title = label;
-  }
   function show(animate = shouldMove()) {
     if (!current) return;
     const ticket = ++generation;
@@ -48,23 +24,16 @@
       if (ticket !== generation) return;
       host.replaceChildren(image);
       host.dataset.motionState = moving ? 'playing' : 'paused';
-      sync();
     }, {once: true});
     image.addEventListener('error', () => {
       if (ticket !== generation) return;
       host.dataset.motionState = 'unavailable';
-      if (moving) show(false); else sync();
+      if (moving) show(false);
     }, {once: true});
     image.src = new URL(moving ? current.animated_src : (current.poster || current.src), document.baseURI).href;
-    sync();
   }
-  control.addEventListener('click', () => {
-    choice = host.dataset.motionState === 'playing' ? 'off' : 'on';
-    try { sessionStorage.setItem(preferenceKey, choice); } catch (_) {}
-    show();
-  });
-  motion.addEventListener('change', () => { if (!choice) show(); });
-  fetch(new URL('assets/living-marks/playback-manifest.json?v=20260907-images-1', document.baseURI), {cache: 'no-cache', credentials: 'same-origin'})
+  motion.addEventListener('change', () => show());
+  fetch(new URL('assets/living-marks/playback-manifest.json?v=20260907-automatic-2', document.baseURI), {cache: 'no-cache', credentials: 'same-origin'})
     .then(response => { if (!response.ok) throw Error('Mark manifest unavailable'); return response.json(); })
     .then(manifest => {
       const marks = manifest.marks.filter(mark => mark.kind === 'video' && mark.animated_src && mark.poster);
