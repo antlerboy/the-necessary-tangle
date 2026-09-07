@@ -5,7 +5,9 @@ from zipfile import ZipFile,ZIP_DEFLATED,ZipInfo
 import re
 from build_practice_pack import DEST,ROOT,load_content
 from refine_practice_presentation import main as refine_presentation
+from build_living_mark_images import main as restore_marks
 refine_presentation()
+restore_marks()
 assets=DEST/'assets'
 # Keep the downloadable pages independent of root-relative online assets.
 punctuation=ROOT/'docs/assets/reader-punctuation.js'

@@ -1,27 +1,13 @@
 # Next work
 
-Status: in progress, authorised by Benjamin on 6 September 2026.
+## Living-mark playback repair, 7 September 2026
 
-## Outcome
+Authorised by Benjamin's report that none of the marks play and his request to make them work again. Repair playback only. Preserve the alpha practice pack, graph content, source-owner-reviewed assets, feedback dot and events service.
 
-Verify reader journeys, restore controllable living-mark animation, and remove long dashes from displayed website copy. Reconcile the historical feedback thread against the live release.
+Confirmed defects in the previous implementation: playback depended on H.264 media support, and reduced-motion mode removed the video and hid the only play control. A passing test of one randomly chosen video in Chrome did not cover all marks or the reader's experience.
 
-## In scope
+Use animated-image derivatives of the existing 44 moving marks so playback no longer depends on video codecs or video autoplay permission. Preserve all originals. Keep a compact, accessible pause/resume control, a still default for reduced-motion preferences, and an explicit working play override. Cache-version the changed scripts.
 
-The final public-page helper, living mark scripts and markup, rendered public HTML and JavaScript punctuation, and this record with its sources/release-22 copy. Preserve the feedback dot and anonymous events service. Add a visible play/pause control so a blocked autoplay can be started by the reader.
+Acceptance: make validate; all original practice browser checks; visible pixel changes for all 44 animated marks with video playback deliberately rejected; stable pause and working resume; reduced-motion default and explicit opt-in; cold load, reload, desktop/mobile; deployed commit and live checks. Stop after acceptance or report the exact failed check.
 
-## Acceptance checks
-
-Run make validate, then inspect the live living mark, navigation, search, and feedback journey. Check rendered pages for long dashes and verify source/deployment identity.
-
-## Out of scope
-
-Preserve all canonical graph content and the exact source-owner-reviewed comparator package. No new corpus or relationship claims. Review earlier research asks as outstanding when they require source research or editorial acceptance not completed by this reader correction.
-
-## Stop conditions
-
-Stop after the stated acceptance checks and live publication checks pass. Report any specific failed check or missing access.
-
-## Model route
-
-One implementation pass and a corrective pass for named verification failures; no additional agents.
+Previous unrelated feedback, research, and Greebling publication dependencies remain open. This repair does not close them.
