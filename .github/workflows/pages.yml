@@ -27,7 +27,7 @@ jobs:
       - name: Install media inspection dependency
         run: |
           sudo apt-get update -qq
-          sudo apt-get install -y --no-install-recommends ffmpeg
+          sudo apt-get install -y --no-install-recommends ffmpeg fonts-dejavu-core
       - name: Build and validate the current release
         run: make validate
       - name: Install pinned browser test runner
@@ -66,6 +66,36 @@ jobs:
             validation/practice-models.json
             validation/practice-browser/*.json
             validation/practice-browser/*.png
+          if-no-files-found: ignore
+      - name: Restore narrated Encounters film
+        id: encounters-cache
+        uses: actions/cache@v4
+        with:
+          path: docs/encounters-with-the-other
+          key: encounters-v1-${{ hashFiles('sources/encounters-with-the-other/**', 'scripts/build_encounters_film.py') }}
+      - name: Render narrated Encounters film
+        if: steps.encounters-cache.outputs.cache-hit != 'true'
+        run: |
+          python3 -m venv /tmp/encounters-voice
+          /tmp/encounters-voice/bin/pip install piper-tts==1.3.0 Pillow==11.3.0
+          mkdir -p voice
+          cd voice
+          /tmp/encounters-voice/bin/python -m piper.download_voices en_US-ljspeech-high
+          cd ..
+          /tmp/encounters-voice/bin/python scripts/build_encounters_film.py
+      - name: Verify narrated Encounters film
+        run: |
+          python3 -m pip install --user --break-system-packages Pillow==11.3.0
+          python3 scripts/build_encounters_film.py --verify-only
+      - name: Preserve Encounters review evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: encounters-author-review
+          path: |
+            docs/encounters-with-the-other/
+            validation/encounters/contact-sheet.jpg
+            validation/encounters/frame-*.jpg
           if-no-files-found: ignore
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v6

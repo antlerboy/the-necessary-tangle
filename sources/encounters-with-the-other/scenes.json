@@ -1,0 +1,353 @@
+{
+  "title": "Encounters with the Other",
+  "author": "Barry Oshry",
+  "edition": "Triarchy Press, free edition, 2026. ISBN 978-1-911193-70-8.",
+  "status": "Abridged animated adaptation with synthetic narration, for Barry Oshry's review.",
+  "scenes": [
+    {
+      "chapter": "Foreword",
+      "title": "Encounters with\nthe Other",
+      "text": "An animated adaptation of Barry Oshry's book.\nFor the peacemakers.",
+      "motif": "encounter",
+      "pages": "Title and dedication",
+      "duration": 10
+    },
+    {
+      "chapter": "Foreword",
+      "title": "How could people\ndo this?",
+      "text": "A child learns of the Holocaust. Fear becomes anger. The question stays with him as he grows up and learns of other horrors.",
+      "motif": "question",
+      "pages": "1-2",
+      "duration": 15
+    },
+    {
+      "chapter": "Foreword",
+      "title": "The question changes",
+      "text": "The words remain. The tone changes.\nHow does hatred begin?\nWhen, and from whom, do we learn it?",
+      "motif": "question",
+      "pages": "1-2",
+      "duration": 14
+    },
+    {
+      "chapter": "Act I · How cultures come to be",
+      "title": "Our ordinary world",
+      "text": "Another culture may look strange to us.\nOur culture may look strange to them.\nNeither feels strange from the inside.",
+      "motif": "cultures",
+      "pages": "5",
+      "duration": 14
+    },
+    {
+      "chapter": "Act I · How cultures come to be",
+      "title": "We learn the rules",
+      "text": "Parents, elders, teachers, peers, and media teach us how to speak, dress, grieve, celebrate, seek justice, and live with one another.",
+      "motif": "learn",
+      "pages": "5-6",
+      "duration": 15
+    },
+    {
+      "chapter": "Act I · How cultures come to be",
+      "title": "The rules become\ninvisible",
+      "text": "We learn them so well that we stop experiencing them as rules. They become the lens through which we see the world.",
+      "motif": "lens",
+      "pages": "6",
+      "duration": 15
+    },
+    {
+      "chapter": "Act I · How cultures come to be",
+      "title": "And then we meet",
+      "text": "Each culture experiences its own ways as how things are, or ought to be. Neither experiences them simply as one possibility among many.",
+      "motif": "encounter",
+      "pages": "7",
+      "duration": 16
+    },
+    {
+      "chapter": "Act II · The encounter",
+      "title": "Difference becomes\na threat",
+      "text": "The 'other' arrives, is conquered, or becomes visible. Through our lens, unfamiliar behaviour can look wrong, upsetting, or dangerous to our way of life.",
+      "motif": "threat",
+      "pages": "9-10",
+      "duration": 17
+    },
+    {
+      "chapter": "Act II · The encounter",
+      "title": "Loose and tight",
+      "text": "We may reflexively allow the unfamiliar, or reflexively reject it. Both responses can spare us the discomfort of engaging with its complexity.",
+      "motif": "loose-tight",
+      "pages": "10-11",
+      "duration": 16
+    },
+    {
+      "chapter": "Act II · The encounter",
+      "title": "Moral positions",
+      "text": "Oshry distinguishes these reflexes from liberal and conservative responses grounded in values: including the other, or preserving and protecting the existing culture.",
+      "motif": "values",
+      "pages": "11",
+      "duration": 17
+    },
+    {
+      "chapter": "Act II · The encounter",
+      "title": "Conviction and conflict",
+      "text": "Some hold either position firmly. Many of us are conflicted: welcoming at one moment, rejecting at another. These responses can occur within the same person.",
+      "motif": "conflict",
+      "pages": "12",
+      "duration": 17
+    },
+    {
+      "chapter": "Act II · The encounter",
+      "title": "The tolerance solution",
+      "text": "The other is allowed to coexist, with restrictions and recurring tension. Acceptance and rejection pull against one another. Such arrangements can endure for generations.",
+      "motif": "tolerance",
+      "pages": "12-13",
+      "duration": 17
+    },
+    {
+      "chapter": "Act II · The encounter",
+      "title": "The purity solution",
+      "text": "Rejection overwhelms acceptance. The other is cast as a pollutant or threat. Confinement, suppression, exile, or destruction becomes a means of preserving the culture.",
+      "motif": "purity",
+      "pages": "13",
+      "duration": 18
+    },
+    {
+      "chapter": "Act II · The encounter",
+      "title": "Tolerance can collapse",
+      "text": "An arrangement that appears settled may turn into catastrophe. In Oshry's account, both solutions also diminish the oppressor, whose worth depends on the other's diminished worth.",
+      "motif": "collapse",
+      "pages": "13",
+      "duration": 18
+    },
+    {
+      "chapter": "Act II · The encounter",
+      "title": "Become like us?",
+      "text": "Assimilation can bring acceptance. Some cannot become indistinguishable; some have no wish to. And acceptance can prove conditional when resources shrink, threats grow, and demagogues intervene.",
+      "motif": "assimilation",
+      "pages": "14",
+      "duration": 19
+    },
+    {
+      "chapter": "Act II · The encounter",
+      "title": "An assumption\ninside assimilation",
+      "text": "It takes the host culture to be the best destination.\nWhy would everyone want to become just like us?",
+      "motif": "lens",
+      "pages": "14",
+      "duration": 14
+    },
+    {
+      "chapter": "Act II · The encounter",
+      "title": "Substitute knowledge",
+      "text": "We believe we know the other. In the absence of real encounter, fears, desires, projections, and a demagogue's stories can fill the gap.",
+      "motif": "substitute",
+      "pages": "15",
+      "duration": 16
+    },
+    {
+      "chapter": "Act II · The encounter",
+      "title": "Certainty without\nknowing",
+      "text": "Those stories justify our feelings and actions. Like-minded groups repeat them. Separation grows, while our picture of the other seems increasingly certain.",
+      "motif": "power-cycle",
+      "pages": "15-16",
+      "duration": 16
+    },
+    {
+      "chapter": "Act II · The encounter",
+      "title": "What about laws?",
+      "text": "Laws can offer protection and a route to justice. Oshry argues that they cannot, by themselves, make us see the other differently. What could change our seeing?",
+      "motif": "law",
+      "pages": "17",
+      "duration": 18
+    },
+    {
+      "chapter": "Act III · Seeing through power and love",
+      "title": "Power seeing",
+      "text": "In this book, power means seeing\ndifference and separateness.\nThe other is different from us and unconnected to us.",
+      "motif": "power",
+      "pages": "19",
+      "duration": 15
+    },
+    {
+      "chapter": "Act III · Seeing through power and love",
+      "title": "Love seeing",
+      "text": "Love means seeing\ncommonality and connectedness.\nThe other is like us and connected to us.",
+      "motif": "love",
+      "pages": "19",
+      "duration": 14
+    },
+    {
+      "chapter": "Act III · Seeing through power and love",
+      "title": "A fuller experience",
+      "text": "We can experience both: our differences and our common humanity; our separate lives and our connections. Oshry calls this robust seeing.",
+      "motif": "whole",
+      "pages": "20",
+      "duration": 16
+    },
+    {
+      "chapter": "Act III · Seeing through power and love",
+      "title": "The power reflex",
+      "text": "Unfamiliar behaviour can draw our attention towards difference and separateness. Without awareness or choice, these may become the whole of our experience.",
+      "motif": "power",
+      "pages": "20-21",
+      "duration": 16
+    },
+    {
+      "chapter": "Act III · Seeing through power and love",
+      "title": "A reinforcing cycle",
+      "text": "Staying separate strengthens our experience of difference. Experiencing difference encourages us to stay separate. Each reinforces the other.",
+      "motif": "power-cycle",
+      "pages": "21",
+      "duration": 16
+    },
+    {
+      "chapter": "Act III · Seeing through power and love",
+      "title": "Power without love",
+      "text": "Commonality and connectedness recede. We become capable of doing to the other what we would never do to those we experience as our own.",
+      "motif": "collapse",
+      "pages": "21-22",
+      "duration": 17
+    },
+    {
+      "chapter": "Act III · Seeing through power and love",
+      "title": "'Not with these people'",
+      "text": "From inside the pattern, connection can seem foolish or dangerous. Our picture of the other feels solid. We mistake the effects of the relationship for who they really are.",
+      "motif": "blindness",
+      "pages": "23",
+      "duration": 19
+    },
+    {
+      "chapter": "Act III · Seeing through power and love",
+      "title": "System sight",
+      "text": "The patterns we fall into shape how we experience ourselves and others. Seeing the pattern opens another possibility: changing how we relate.",
+      "motif": "sight",
+      "pages": "23-24",
+      "duration": 16
+    },
+    {
+      "chapter": "Act III · Seeing through power and love",
+      "title": "Change the pattern",
+      "text": "Counterbalance separateness with connection. Build ongoing relationships through work that matters to everyone involved.",
+      "motif": "bridge",
+      "pages": "24",
+      "duration": 14
+    },
+    {
+      "chapter": "Act III · Seeing through power and love",
+      "title": "Something to do\ntogether",
+      "text": "Build housing. Share meals. Cultivate land. Write and produce a play. Work on a community project. The connection is ongoing and mutually meaningful.",
+      "motif": "enterprise",
+      "pages": "24",
+      "duration": 17
+    },
+    {
+      "chapter": "Act III · Seeing through power and love",
+      "title": "The love cycle",
+      "text": "Working together can reveal commonality. Experiencing commonality supports further connection. This, too, is a reinforcing cycle.",
+      "motif": "love-cycle",
+      "pages": "25",
+      "duration": 15
+    },
+    {
+      "chapter": "Act III · Seeing through power and love",
+      "title": "Difference remains",
+      "text": "Connection also lets us encounter differences more directly, with less room for myths, fantasies, fears, and projections. Love supports a fuller experience of power as well as love.",
+      "motif": "whole",
+      "pages": "25",
+      "duration": 19
+    },
+    {
+      "chapter": "Act III · Seeing through power and love",
+      "title": "Power and love",
+      "text": "Same and different.\nSeparate and connected.\nFree to pursue our separate ways and to join in work that matters to us together.",
+      "motif": "whole",
+      "pages": "25-26",
+      "duration": 17
+    },
+    {
+      "chapter": "Act III · Seeing through power and love",
+      "title": "A possibility to test",
+      "text": "Oshry asks us to test whether changing the pattern changes our experience. From inside system blindness, the possibility may still seem inconceivable.",
+      "motif": "sight",
+      "pages": "26",
+      "duration": 17
+    },
+    {
+      "chapter": "Catastrophes · Power without love",
+      "title": "The sacred mission",
+      "text": "Oppression can be justified as revenge, defence of sacred territory, protection of belief, or the creation of a perfect society. The other becomes an obstacle to the mission.",
+      "motif": "purity",
+      "pages": "27",
+      "duration": 19
+    },
+    {
+      "chapter": "Catastrophes · Power without love",
+      "title": "The demagogue's offer",
+      "text": "Our purity. Our superiority. Their inferiority. A promise to protect the culture by dominating or eliminating the other, and those who support them.",
+      "motif": "substitute",
+      "pages": "28",
+      "duration": 17
+    },
+    {
+      "chapter": "Catastrophes · Power without love",
+      "title": "Protective stories",
+      "text": "A culture may deny a catastrophe, or describe its own violence as necessary self-defence. Its image of innocence survives at the expense of those who suffered.",
+      "motif": "blindness",
+      "pages": "28-29",
+      "duration": 18
+    },
+    {
+      "chapter": "Catastrophes · Power without love",
+      "title": "A record of suffering",
+      "text": "The book recalls Armenia, the Holocaust, the Partition of India, Cambodia, Rwanda, Srebrenica, and many other catastrophes. Its catalogue asks us to recognise a recurring human possibility.",
+      "motif": "memorial",
+      "pages": "31-37",
+      "duration": 20
+    },
+    {
+      "chapter": "Catastrophes · Power without love",
+      "title": "Enough",
+      "text": "Oshry notes that his historical summary is incomplete and disputed. This adaptation condenses it without reproducing its casualty estimates or presenting its dated accounts as current reporting.",
+      "motif": "memorial",
+      "pages": "31-37",
+      "duration": 19
+    },
+    {
+      "chapter": "Afterword · Awareness and choice",
+      "title": "A third possibility",
+      "text": "Beyond the book's tolerance and purity solutions lies another relationship: power and love together. Changing the pattern can change how we experience one another.",
+      "motif": "whole",
+      "pages": "39",
+      "duration": 18
+    },
+    {
+      "chapter": "Afterword · Awareness and choice",
+      "title": "Teach the children",
+      "text": "Oshry returns to the child's question. He imagines children learning how oppression begins and how it can end, through stories, songs, drama, and the histories of their own cultures.",
+      "motif": "learn",
+      "pages": "41",
+      "duration": 19
+    },
+    {
+      "chapter": "Afterword · Awareness and choice",
+      "title": "Recognise the invitation",
+      "text": "His afterword warns of leaders and media interests that prosper by offering us an other to fear. Awareness gives us a choice about whether to join them.",
+      "motif": "choice",
+      "pages": "41-42",
+      "duration": 18
+    },
+    {
+      "chapter": "Afterword · Awareness and choice",
+      "title": "'I am here to\nteach the children'",
+      "text": "The closing commitment in Barry Oshry's afterword.\nWhat relationship could you change?\nWhat might become possible?",
+      "motif": "bridge",
+      "pages": "42; final questions added for this adaptation",
+      "duration": 17
+    },
+    {
+      "chapter": "Credits",
+      "title": "Encounters with\nthe Other",
+      "text": "Book by Barry Oshry. Triarchy Press, 2026 free edition.\nCopyright Barry Oshry, 2024 and 2026.\nAbridged animated adaptation prepared by Benjamin P Taylor with AI assistance, for the author's review.",
+      "motif": "encounter",
+      "pages": "Credits",
+      "duration": 16
+    }
+  ],
+  "voice": "Piper en_US-ljspeech-high"
+}
