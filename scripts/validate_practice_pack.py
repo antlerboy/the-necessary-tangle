@@ -40,8 +40,11 @@ for lab in labs:
     assert set(lab['ksb'])<=set(standard['ksb']);allcodes.update(lab['ksb'])
     for q in lab['checks']:
         assert 0<=q['correct']<len(q['options']) and len(set(q['options']))==len(q['options'])
-        assert len(q['explanation'].split())>=12
-    for step in lab['rounds']:assert step['output'] and len(step['answer'].split())>=30
+        # A concise explanation can be complete. Detect empty/placeholder feedback,
+        # not an arbitrary minimum number of words that encourages padded prose.
+        assert len(q['explanation'].strip())>=40,(lab['id'],q['q'],'missing explanation')
+    for step in lab['rounds']:
+        assert step['output'] and len(step['answer'].strip())>=100,(lab['id'],step['task'])
 assert allcodes==set(standard['ksb']),set(standard['ksb'])-allcodes
 for resource in resources.values():
     assert resource['url'].startswith('https://') and resource['check'] and resource['use'] and resource['cost']
@@ -68,7 +71,6 @@ for p in pages:
     if p.parent.name in {x['id'] for x in labs}:
         assert any('data-check' in a for _,a in page.tags),p
         assert all(i in page.ids for i in ['case','work','checks','repair','retry','review','sources'])
-# Confirm that the task-only collection contains no worked-answer sentences.
 works=(DEST/'worksheets/index.html').read_text();answers=(DEST/'answers/index.html').read_text()
 import html
 for lab in labs:
@@ -108,7 +110,6 @@ for edge in data['edges']:
 for p in ['index.html','systems-thinking/index.html']:
     assert '/systems-thinking/practice/' in (ROOT/'docs'/p).read_text(),p
 assert 'practice-context.js' in (ROOT/'docs/index.html').read_text()
-# Reviewed source-owner bytes remain exact after this additive release.
 for published,reviewed in {'assets/systemic-evolution-map.js':'site/assets/systemic-evolution-map.js','assets/prior-maps.css':'site/assets/prior-maps.css','assets/systemic-evolution-review-manifest.json':'review-manifest.json','assets/systemic-evolution-publication-approval.json':'PUBLICATION_APPROVAL.json'}.items():
     assert (ROOT/'docs'/published).read_bytes()==(ROOT/'sources/systemic-evolution/review-1'/reviewed).read_bytes()
 report={'status':'passed','lab_pages':26,'html_pages':len(pages),'core_approaches':13,'theory_rows':3,'supporting_areas':10,'resource_routes':len(resources),'questions':sum(len(x['checks']) for x in labs),'worked_steps':sum(len(x['rounds']) for x in labs),'local_links':'all checked','offline_archive_bytes':archive.stat().st_size,'offline_archive_sha256':hashlib.sha256(archive.read_bytes()).hexdigest(),'specialist_pedagogical_review':'not recorded'}

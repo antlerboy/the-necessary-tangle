@@ -31,7 +31,6 @@ build-base:
 	python3 scripts/patch_iteration_15.py
 	python3 scripts/prepare_map_hotfix_19.py
 	python3 scripts/patch_map_usability_hotfix.py
-	python3 scripts/patch_iteration_16.py
 	python3 scripts/apply_iteration_16.py
 	python3 scripts/apply_relational_depth_16.py
 	python3 scripts/apply_overnight_review.py
