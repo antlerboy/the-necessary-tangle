@@ -1,6 +1,6 @@
-.PHONY: build build-base apply-current validate serve clean
+.PHONY: build build-base apply-current apply-practice validate serve clean
 
-build: build-base apply-current
+build: build-base apply-current apply-practice
 
 # Historical validators assert historical release identifiers. Rebuild that
 # baseline, run its gates, then apply and validate the current release.
@@ -31,6 +31,7 @@ build-base:
 	python3 scripts/patch_iteration_15.py
 	python3 scripts/prepare_map_hotfix_19.py
 	python3 scripts/patch_map_usability_hotfix.py
+	python3 scripts/patch_iteration_16.py
 	python3 scripts/apply_iteration_16.py
 	python3 scripts/apply_relational_depth_16.py
 	python3 scripts/apply_overnight_review.py
@@ -84,6 +85,14 @@ apply-current:
 	python3 scripts/integrate_systems_events.py
 	python3 scripts/ensure_feedback_controls.py
 
+apply-practice:
+	python3 scripts/build_practice_pack.py
+	python3 scripts/apply_practice_pack.py
+	python3 scripts/build_public_knowledge.py
+	python3 scripts/link_practice_pack.py
+	python3 scripts/ensure_feedback_controls.py
+	python3 scripts/package_practice_pack.py
+
 validate: build-base
 	python3 scripts/validate_work_spine.py
 	python3 scripts/validate_public.py
@@ -122,6 +131,11 @@ validate: build-base
 	python3 scripts/validate_work_spine.py
 	python3 scripts/validate_release_22.py
 	node scripts/test_release_22_interactions.js
+	./scripts/check_javascript.sh
+	$(MAKE) apply-practice
+	python3 scripts/validate_public.py
+	python3 scripts/validate_practice_pack.py
+	node scripts/test_practice_pack.js
 	./scripts/check_javascript.sh
 
 serve: build
