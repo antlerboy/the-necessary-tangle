@@ -1,20 +1,16 @@
 name: Publish The Necessary Tangle
 run-name: Publish The Necessary Tangle @ ${{ github.sha }}
-
 on:
   push:
     branches: ["main"]
   workflow_dispatch:
-
 permissions:
   contents: read
   pages: write
   id-token: write
-
 concurrency:
   group: pages
   cancel-in-progress: true
-
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -41,21 +37,20 @@ jobs:
       - name: Test practice pages before publication
         env:
           NODE_PATH: /tmp/practice-browser/node_modules
-        run: node scripts/test_practice_browser.js
+        run: node scripts/test_practice_browser.js && node scripts/test_practice_presentation.js
       - name: Record the exact deployed release and test summary
         env:
           DEPLOY_COMMIT: ${{ github.sha }}
           DEPLOY_RUN_ID: ${{ github.run_id }}
         run: |
           python3 - <<'PY'
-          import json
-          import os
+          import json, os
           from datetime import datetime, timezone
           from pathlib import Path
           data = json.loads(Path('data/public-data.json').read_text(encoding='utf-8'))
           manifest = {'release': data['meta']['release'], 'commit': os.environ['DEPLOY_COMMIT'], 'workflow_run_id': os.environ['DEPLOY_RUN_ID'], 'deployed_at': datetime.now(timezone.utc).isoformat()}
           Path('docs/deployment.json').write_text(json.dumps(manifest, indent=2) + '\n', encoding='utf-8')
-          tests = {name: json.loads(Path(path).read_text()) for name, path in {'structure': 'validation/practice-structure.json', 'models': 'validation/practice-models.json', 'browser': 'validation/practice-browser/report.json'}.items()}
+          tests = {name: json.loads(Path(path).read_text()) for name, path in {'structure': 'validation/practice-structure.json', 'models': 'validation/practice-models.json', 'browser': 'validation/practice-browser/report.json', 'presentation': 'validation/practice-browser/presentation-report.json'}.items()}
           tests['commit'] = os.environ['DEPLOY_COMMIT']
           tests['browser']['base'] = 'Built publication candidate'
           Path('docs/systems-thinking/practice/assets/test-results.json').write_text(json.dumps(tests, indent=2) + '\n')
@@ -69,7 +64,7 @@ jobs:
           path: |
             validation/practice-structure.json
             validation/practice-models.json
-            validation/practice-browser/report.json
+            validation/practice-browser/*.json
             validation/practice-browser/*.png
           if-no-files-found: ignore
       - name: Configure GitHub Pages
@@ -81,7 +76,6 @@ jobs:
         with:
           path: ./docs
           include-hidden-files: true
-
   deploy:
     environment:
       name: github-pages
@@ -92,7 +86,6 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v5
-
   verify-live:
     name: Verify the live practice pages
     runs-on: ubuntu-latest
@@ -114,7 +107,7 @@ jobs:
         env:
           NODE_PATH: /tmp/practice-browser/node_modules
           PRACTICE_BASE_URL: https://transduction.systems
-        run: node scripts/test_practice_browser.js
+        run: node scripts/test_practice_browser.js && node scripts/test_practice_presentation.js
       - name: Preserve live verification evidence and downloaded pack
         if: always()
         uses: actions/upload-artifact@v4
@@ -122,6 +115,6 @@ jobs:
           name: systems-practice-live-check
           path: |
             validation/practice-live/
-            validation/practice-browser/report.json
+            validation/practice-browser/*.json
             validation/practice-browser/*.png
           if-no-files-found: ignore

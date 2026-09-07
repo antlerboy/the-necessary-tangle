@@ -4,15 +4,16 @@ from pathlib import Path
 from zipfile import ZipFile,ZIP_DEFLATED,ZipInfo
 import re
 from build_practice_pack import DEST,ROOT,load_content
+from refine_practice_presentation import main as refine_presentation
+refine_presentation()
 assets=DEST/'assets'
-# Page-wide feedback/punctuation additions use a root asset online. Make a local copy
-# for the downloadable package so its ordinary learning pages also work offline.
+# Keep the downloadable pages independent of root-relative online assets.
 punctuation=ROOT/'docs/assets/reader-punctuation.js'
 if punctuation.exists():
     (assets/'reader-punctuation.js').write_bytes(punctuation.read_bytes())
 for p in DEST.rglob('*.html'):
     relative='assets/' if p.parent==DEST else '../assets/'
-    t=p.read_text().replace('/assets/reader-punctuation.js?v=20260906',relative+'reader-punctuation.js?v=20260906')
+    t=p.read_text().replace('src="/assets/reader-punctuation.js?v=20260906','src="'+relative+'reader-punctuation.js?v=20260906')
     p.write_text(t)
 downloads=DEST/'downloads';downloads.mkdir(exist_ok=True)
 archive=downloads/'systems-methods-practice.zip'
