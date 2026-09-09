@@ -1,10 +1,11 @@
 .PHONY: build build-base apply-current apply-practice validate serve clean
 
-build: build-base apply-current apply-practice
+build: build-base apply-current apply-practice apply-september
 
 # Historical validators assert historical release identifiers. Rebuild that
 # baseline, run its gates, then apply and validate the current release.
 build-base:
+	python3 scripts/prepare_september_baseline.py
 	python3 scripts/prepare_release_22_baseline.py
 	python3 scripts/build_public_data.py
 	python3 scripts/apply_release_overrides.py
@@ -136,6 +137,13 @@ validate: build-base
 	python3 scripts/validate_practice_pack.py
 	node scripts/test_practice_pack.js
 	./scripts/check_javascript.sh
+	$(MAKE) apply-september
+	python3 scripts/validate_september_connections.py
+
+apply-september:
+	python3 scripts/apply_september_connections.py
+	python3 scripts/build_public_knowledge.py
+	python3 scripts/ensure_feedback_controls.py
 
 serve: build
 	python3 -m http.server 8000 --directory docs

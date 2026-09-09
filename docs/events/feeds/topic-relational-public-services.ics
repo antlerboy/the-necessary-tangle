@@ -1,0 +1,373 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Systems Events Map//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Relational public services
+REFRESH-INTERVAL:P1D
+X-PUBLISHED-TTL:PT24H
+BEGIN:VEVENT
+SUMMARY:Relational Leadership · session 1
+DTSTART:20260915T083000Z
+DTEND:20260915T113000Z
+DTSTAMP:20260909T085057Z
+UID:4e7b926f96306901c1d0da21@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Systems thinking,Relational public services
+DESCRIPTION:ThemPra Social Pedagogy\nApplied learning connected to Human L
+ earning Systems and relational public services.\nLanguage: Not specified\n
+ Language requirements: Not specified\nInterpretation: Not specified\nAcces
+ s: Full-course registration required\nhttps://www.thempra.org.uk/thempra/o
+ ur-courses/relational-leadership/
+LAST-MODIFIED:20260909T085057Z
+LOCATION:Online
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.thempra.org.uk/thempra/our-courses/relational-leadership/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Relational Leadership · session 2
+DTSTART:20260916T083000Z
+DTEND:20260916T113000Z
+DTSTAMP:20260909T085057Z
+UID:0df209cfb40823db80b351a7@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Systems thinking,Relational public services
+DESCRIPTION:ThemPra Social Pedagogy\nApplied learning connected to Human L
+ earning Systems and relational public services.\nLanguage: Not specified\n
+ Language requirements: Not specified\nInterpretation: Not specified\nAcces
+ s: Full-course registration required\nhttps://www.thempra.org.uk/thempra/o
+ ur-courses/relational-leadership/
+LAST-MODIFIED:20260909T085057Z
+LOCATION:Online
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.thempra.org.uk/thempra/our-courses/relational-leadership/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Making relational\, place-based public services ordinary
+DTSTART:20260921T124500Z
+DTEND:20260921T141500Z
+DTSTAMP:20260909T085057Z
+UID:8c00d12aaf979855624fa772@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Systems thinking,Relational public services
+DESCRIPTION:SCiO / SysPrac26\nBenjamin Taylor’s workshop at SysPrac26. C
+ onference booking required.\nLanguage: Not specified\nLanguage requirement
+ s: Not specified\nInterpretation: Not specified\nAccess: See organiser\nht
+ tps://www.systemspractice.org/Schedule26\nProvisional programme\; workshop
+  end follows the programme table span.
+LAST-MODIFIED:20260909T085057Z
+LOCATION:LR4\, Vincent Building\, Cranfield University\, United Kingdom
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.systemspractice.org/Schedule26
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exploring the role of the Knowledge Weaver
+DTSTART:20260922T120000Z
+DTEND:20260922T130000Z
+DTSTAMP:20260909T085057Z
+UID:e4ccdfd6cb1fb968ada0d1b3@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Systems thinking,Relational public services
+DESCRIPTION:Q Network Weaving group / COPE Scotland\nA conversation with J
+ une Holley about knowledge weaving and collective learning in health and c
+ are.\nLanguage: Not specified\nLanguage requirements: Not specified\nInter
+ pretation: Not specified\nAccess: See organiser\nhttps://q.thenhsalliance.
+ org/get-involved/events/exploring-the-role-of-the-knowledge-weaver
+LAST-MODIFIED:20260909T085057Z
+LOCATION:Online
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://q.thenhsalliance.org/get-involved/events/exploring-the-role-of
+ -the-knowledge-weaver
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Leading with Learning · session 1
+DTSTART:20260923T083000Z
+DTEND:20260923T113000Z
+DTSTAMP:20260909T085057Z
+UID:2c6644602391deac77173c72@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Systems thinking,Relational public services
+DESCRIPTION:ThemPra Social Pedagogy\nApplied learning connected to Human L
+ earning Systems and relational public services.\nLanguage: Not specified\n
+ Language requirements: Not specified\nInterpretation: Not specified\nAcces
+ s: Full-course registration required\nhttps://www.thempra.org.uk/thempra/o
+ ur-courses/leading-with-learning/
+LAST-MODIFIED:20260909T085057Z
+LOCATION:Online
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.thempra.org.uk/thempra/our-courses/leading-with-learning/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Participatory design principles to heal\, not hinder
+DTSTART:20260923T111500Z
+DTEND:20260923T120000Z
+DTSTAMP:20260909T085057Z
+UID:8b4d4021180540e2e6cf7947@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Relational public services
+DESCRIPTION:Service Design in Government\nJodie Chan and Sarah Hancock on 
+ psychologically informed participatory design. Conference booking required
+ .\nLanguage: Not specified\nLanguage requirements: Not specified\nInterpre
+ tation: Not specified\nAccess: See organiser\nhttps://govservicedesign.net
+ /programme/participatory-design-principles-heal-not-hinder-importance-psyc
+ hologically-informed
+LAST-MODIFIED:20260909T085057Z
+LOCATION:John McIntyre Conference Centre\, Edinburgh\, United Kingdom
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://govservicedesign.net/programme/participatory-design-principles
+ -heal-not-hinder-importance-psychologically-informed
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Who gets to decide? Sharing power in public services
+DTSTART:20260924T101500Z
+DTEND:20260924T114500Z
+DTSTAMP:20260909T085057Z
+UID:db751f022c1f33a84adaa953@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Relational public services
+DESCRIPTION:Service Design in Government\nSophie Horrocks\, Helix Centre. 
+ Conference workshop on sharing decision-making power\; conference booking 
+ required.\nLanguage: Not specified\nLanguage requirements: Not specified\n
+ Interpretation: Not specified\nAccess: See organiser\nhttps://govservicede
+ sign.net/programme/who-gets-decide-sharing-power-public-services
+LAST-MODIFIED:20260909T085057Z
+LOCATION:John McIntyre Conference Centre\, Edinburgh\, United Kingdom
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://govservicedesign.net/programme/who-gets-decide-sharing-power-p
+ ublic-services
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Relational Leadership · session 3
+DTSTART:20261006T083000Z
+DTEND:20261006T113000Z
+DTSTAMP:20260909T085057Z
+UID:27ef6321e5a0a805c80342b2@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Systems thinking,Relational public services
+DESCRIPTION:ThemPra Social Pedagogy\nApplied learning connected to Human L
+ earning Systems and relational public services.\nLanguage: Not specified\n
+ Language requirements: Not specified\nInterpretation: Not specified\nAcces
+ s: Full-course registration required\nhttps://www.thempra.org.uk/thempra/o
+ ur-courses/relational-leadership/
+LAST-MODIFIED:20260909T085057Z
+LOCATION:Online
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.thempra.org.uk/thempra/our-courses/relational-leadership/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Leading with Learning · session 2
+DTSTART:20261007T083000Z
+DTEND:20261007T113000Z
+DTSTAMP:20260909T085057Z
+UID:ea4027a061514d8c4dadc838@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Systems thinking,Relational public services
+DESCRIPTION:ThemPra Social Pedagogy\nApplied learning connected to Human L
+ earning Systems and relational public services.\nLanguage: Not specified\n
+ Language requirements: Not specified\nInterpretation: Not specified\nAcces
+ s: Full-course registration required\nhttps://www.thempra.org.uk/thempra/o
+ ur-courses/leading-with-learning/
+LAST-MODIFIED:20260909T085057Z
+LOCATION:Online
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.thempra.org.uk/thempra/our-courses/leading-with-learning/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Relational Leadership · session 4
+DTSTART:20261007T083000Z
+DTEND:20261007T113000Z
+DTSTAMP:20260909T085057Z
+UID:df002fc665aa7ccc34ed74ab@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Systems thinking,Relational public services
+DESCRIPTION:ThemPra Social Pedagogy\nApplied learning connected to Human L
+ earning Systems and relational public services.\nLanguage: Not specified\n
+ Language requirements: Not specified\nInterpretation: Not specified\nAcces
+ s: Full-course registration required\nhttps://www.thempra.org.uk/thempra/o
+ ur-courses/relational-leadership/
+LAST-MODIFIED:20260909T085057Z
+LOCATION:Online
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.thempra.org.uk/thempra/our-courses/relational-leadership/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Leading with Learning · session 3
+DTSTART:20261021T083000Z
+DTEND:20261021T113000Z
+DTSTAMP:20260909T085057Z
+UID:81f69c86530c1e56426a9ffa@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Systems thinking,Relational public services
+DESCRIPTION:ThemPra Social Pedagogy\nApplied learning connected to Human L
+ earning Systems and relational public services.\nLanguage: Not specified\n
+ Language requirements: Not specified\nInterpretation: Not specified\nAcces
+ s: Full-course registration required\nhttps://www.thempra.org.uk/thempra/o
+ ur-courses/leading-with-learning/
+LAST-MODIFIED:20260909T085057Z
+LOCATION:Online
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.thempra.org.uk/thempra/our-courses/leading-with-learning/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Relational Leadership · session 5
+DTSTART:20261103T093000Z
+DTEND:20261103T123000Z
+DTSTAMP:20260909T085057Z
+UID:a62f61c2b48e0ec75c97329f@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Systems thinking,Relational public services
+DESCRIPTION:ThemPra Social Pedagogy\nApplied learning connected to Human L
+ earning Systems and relational public services.\nLanguage: Not specified\n
+ Language requirements: Not specified\nInterpretation: Not specified\nAcces
+ s: Full-course registration required\nhttps://www.thempra.org.uk/thempra/o
+ ur-courses/relational-leadership/
+LAST-MODIFIED:20260909T085057Z
+LOCATION:Online
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.thempra.org.uk/thempra/our-courses/relational-leadership/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Leading with Learning · session 4
+DTSTART:20261104T093000Z
+DTEND:20261104T123000Z
+DTSTAMP:20260909T085057Z
+UID:a036d2c3c5cc49a4e03bb29e@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Systems thinking,Relational public services
+DESCRIPTION:ThemPra Social Pedagogy\nApplied learning connected to Human L
+ earning Systems and relational public services.\nLanguage: Not specified\n
+ Language requirements: Not specified\nInterpretation: Not specified\nAcces
+ s: Full-course registration required\nhttps://www.thempra.org.uk/thempra/o
+ ur-courses/leading-with-learning/
+LAST-MODIFIED:20260909T085057Z
+LOCATION:Online
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.thempra.org.uk/thempra/our-courses/leading-with-learning/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Relational Leadership · session 6
+DTSTART:20261104T093000Z
+DTEND:20261104T123000Z
+DTSTAMP:20260909T085057Z
+UID:633dab02a32699e1cc0fd2eb@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Systems thinking,Relational public services
+DESCRIPTION:ThemPra Social Pedagogy\nApplied learning connected to Human L
+ earning Systems and relational public services.\nLanguage: Not specified\n
+ Language requirements: Not specified\nInterpretation: Not specified\nAcces
+ s: Full-course registration required\nhttps://www.thempra.org.uk/thempra/o
+ ur-courses/relational-leadership/
+LAST-MODIFIED:20260909T085057Z
+LOCATION:Online
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.thempra.org.uk/thempra/our-courses/relational-leadership/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Leading with Learning · session 5
+DTSTART:20261118T093000Z
+DTEND:20261118T123000Z
+DTSTAMP:20260909T085057Z
+UID:0e34140cb434858ca2cc25e9@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Systems thinking,Relational public services
+DESCRIPTION:ThemPra Social Pedagogy\nApplied learning connected to Human L
+ earning Systems and relational public services.\nLanguage: Not specified\n
+ Language requirements: Not specified\nInterpretation: Not specified\nAcces
+ s: Full-course registration required\nhttps://www.thempra.org.uk/thempra/o
+ ur-courses/leading-with-learning/
+LAST-MODIFIED:20260909T085057Z
+LOCATION:Online
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.thempra.org.uk/thempra/our-courses/leading-with-learning/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Relational Leadership · session 7
+DTSTART:20261125T093000Z
+DTEND:20261125T123000Z
+DTSTAMP:20260909T085057Z
+UID:a22486a9dbb015ee640a4e8a@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Systems thinking,Relational public services
+DESCRIPTION:ThemPra Social Pedagogy\nApplied learning connected to Human L
+ earning Systems and relational public services.\nLanguage: Not specified\n
+ Language requirements: Not specified\nInterpretation: Not specified\nAcces
+ s: Full-course registration required\nhttps://www.thempra.org.uk/thempra/o
+ ur-courses/relational-leadership/
+LAST-MODIFIED:20260909T085057Z
+LOCATION:Online
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.thempra.org.uk/thempra/our-courses/relational-leadership/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Leading with Learning · session 6
+DTSTART:20261202T093000Z
+DTEND:20261202T123000Z
+DTSTAMP:20260909T085057Z
+UID:ee91b2a9fcce228d13d506bb@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Systems thinking,Relational public services
+DESCRIPTION:ThemPra Social Pedagogy\nApplied learning connected to Human L
+ earning Systems and relational public services.\nLanguage: Not specified\n
+ Language requirements: Not specified\nInterpretation: Not specified\nAcces
+ s: Full-course registration required\nhttps://www.thempra.org.uk/thempra/o
+ ur-courses/leading-with-learning/
+LAST-MODIFIED:20260909T085057Z
+LOCATION:Online
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.thempra.org.uk/thempra/our-courses/leading-with-learning/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Relational Leadership · session 8
+DTSTART:20261209T093000Z
+DTEND:20261209T123000Z
+DTSTAMP:20260909T085057Z
+UID:0c81a6c32154049c3fdd2fb4@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Systems thinking,Relational public services
+DESCRIPTION:ThemPra Social Pedagogy\nApplied learning connected to Human L
+ earning Systems and relational public services.\nLanguage: Not specified\n
+ Language requirements: Not specified\nInterpretation: Not specified\nAcces
+ s: Full-course registration required\nhttps://www.thempra.org.uk/thempra/o
+ ur-courses/relational-leadership/
+LAST-MODIFIED:20260909T085057Z
+LOCATION:Online
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.thempra.org.uk/thempra/our-courses/relational-leadership/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Relational Leadership · session 9
+DTSTART:20270113T093000Z
+DTEND:20270113T123000Z
+DTSTAMP:20260909T085057Z
+UID:caf49aa274590bf1d9f905bd@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Systems thinking,Relational public services
+DESCRIPTION:ThemPra Social Pedagogy\nApplied learning connected to Human L
+ earning Systems and relational public services.\nLanguage: Not specified\n
+ Language requirements: Not specified\nInterpretation: Not specified\nAcces
+ s: Full-course registration required\nhttps://www.thempra.org.uk/thempra/o
+ ur-courses/relational-leadership/
+LAST-MODIFIED:20260909T085057Z
+LOCATION:Online
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.thempra.org.uk/thempra/our-courses/relational-leadership/
+END:VEVENT
+END:VCALENDAR

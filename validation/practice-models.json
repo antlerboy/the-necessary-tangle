@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "queue_baseline": [
+    42,
+    44,
+    40,
+    36
+  ],
+  "reopen_case": [
+    44,
+    44
+  ],
+  "reachability_rows": [
+    "10111",
+    "01111",
+    "00111",
+    "00011",
+    "00001"
+  ],
+  "other_checks": [
+    "capacity timing",
+    "strategy notice gap",
+    "membership count",
+    "demand sample",
+    "percentage reduction"
+  ]
+}

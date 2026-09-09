@@ -17,7 +17,7 @@ jobs:
         uses: actions/checkout@v7
         with:
           repository: antlerboy/systemsmap
-          ref: 27aaa618a1b68a52442e6232b08cd614f733ac73
+          ref: 12a9afaa87f5b7727164136bec793d5a76de1fc2
           path: _systemsmap
           persist-credentials: false
       - name: Install media inspection dependency

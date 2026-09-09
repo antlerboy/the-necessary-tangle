@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-06T20:51:12+00:00",
+  "checkedAt": "2026-09-09T08:50:57+00:00",
   "sources": [
     {
       "id": "scio",
@@ -12,13 +12,15 @@
       ],
       "region": "International",
       "timezone": "Europe/London",
-      "checkedAt": "2026-09-06T20:51:12+00:00",
-      "status": "ok",
-      "message": "Collecting dated events",
-      "events": 16,
+      "checkedAt": "2026-09-09T08:50:57+00:00",
+      "status": "failed",
+      "message": "Source could not be collected",
+      "events": 0,
       "feedsFound": [],
-      "pagesChecked": 1,
-      "errors": []
+      "pagesChecked": 0,
+      "errors": [
+        "HTTPSConnectionPool(host='www.systemspractice.org', port=443): Read timed out. (read timeout=10)"
+      ]
     },
     {
       "id": "scio-courses",
@@ -30,7 +32,7 @@
       ],
       "region": "International",
       "timezone": "Europe/London",
-      "checkedAt": "2026-09-06T20:51:12+00:00",
+      "checkedAt": "2026-09-09T08:50:57+00:00",
       "status": "needs-review",
       "message": "No dated events extracted; a working page is not proof of complete coverage",
       "events": 0,
@@ -52,15 +54,16 @@
       "region": "International",
       "timezone": "America/New_York",
       "feedsExclusive": true,
-      "checkedAt": "2026-09-06T20:51:12+00:00",
-      "status": "ok",
-      "message": "Collecting dated events",
-      "events": 1,
-      "feedsFound": [
-        "https://ics.teamup.com/feed/ksok1qhw323snqy99e/0.ics"
-      ],
-      "pagesChecked": 1,
-      "errors": []
+      "checkedAt": "2026-09-09T08:50:57+00:00",
+      "status": "failed",
+      "message": "Source could not be collected",
+      "events": 0,
+      "feedsFound": [],
+      "pagesChecked": 0,
+      "errors": [
+        "HTTPSConnectionPool(host='asc-cybernetics.org', port=443): Read timed out. (read timeout=10)",
+        "Feed: HTTPSConnectionPool(host='ics.teamup.com', port=443): Read timed out. (read timeout=10)"
+      ]
     },
     {
       "id": "community",
@@ -77,10 +80,10 @@
       "region": "International",
       "timezone": "UTC",
       "feedsExclusive": true,
-      "checkedAt": "2026-09-06T20:51:12+00:00",
+      "checkedAt": "2026-09-09T08:50:57+00:00",
       "status": "ok",
       "message": "Collecting dated events",
-      "events": 38,
+      "events": 37,
       "feedsFound": [
         "https://ics.teamup.com/feed/ksok8ra1xif3viq4no/0.ics"
       ],
@@ -101,16 +104,17 @@
       ],
       "region": "International",
       "timezone": "Europe/Vienna",
-      "checkedAt": "2026-09-06T20:51:12+00:00",
-      "status": "ok",
-      "message": "Collecting dated events",
-      "events": 4,
+      "checkedAt": "2026-09-09T08:50:57+00:00",
+      "status": "partial",
+      "message": "Collecting dated events; some pages or feeds failed",
+      "events": 1,
       "feedsFound": [
-        "https://ifsr.org/events/?ical=1",
-        "https://ifsr.org/events/month/?ical=1"
+        "https://ifsr.org/events/?ical=1"
       ],
-      "pagesChecked": 11,
-      "errors": []
+      "pagesChecked": 0,
+      "errors": [
+        "HTTPSConnectionPool(host='ifsr.org', port=443): Read timed out. (read timeout=10)"
+      ]
     },
     {
       "id": "isss",
@@ -121,13 +125,15 @@
         "systems"
       ],
       "region": "International",
-      "checkedAt": "2026-09-06T20:51:12+00:00",
-      "status": "needs-review",
-      "message": "No dated events extracted; a working page is not proof of complete coverage",
+      "checkedAt": "2026-09-09T08:50:57+00:00",
+      "status": "failed",
+      "message": "Source could not be collected",
       "events": 0,
       "feedsFound": [],
-      "pagesChecked": 4,
-      "errors": []
+      "pagesChecked": 0,
+      "errors": [
+        "HTTPSConnectionPool(host='www.isss.org', port=443): Read timed out. (read timeout=10)"
+      ]
     },
     {
       "id": "isss-lab",
@@ -139,14 +145,14 @@
       ],
       "region": "International",
       "timezone": "America/New_York",
-      "checkedAt": "2026-09-06T20:51:12+00:00",
+      "checkedAt": "2026-09-09T08:50:57+00:00",
       "status": "failed",
       "message": "Source could not be collected",
       "events": 0,
       "feedsFound": [],
       "pagesChecked": 0,
       "errors": [
-        "[Errno -2] Name or service not known"
+        "HTTPSConnectionPool(host='wiki.lab.isss.org', port=443): Read timed out. (read timeout=10)"
       ]
     },
     {
@@ -159,13 +165,15 @@
       ],
       "region": "United Kingdom / online",
       "timezone": "Europe/London",
-      "checkedAt": "2026-09-06T20:51:12+00:00",
-      "status": "needs-review",
-      "message": "No dated events extracted; a working page is not proof of complete coverage",
+      "checkedAt": "2026-09-09T08:50:57+00:00",
+      "status": "failed",
+      "message": "Source could not be collected",
       "events": 0,
       "feedsFound": [],
-      "pagesChecked": 1,
-      "errors": []
+      "pagesChecked": 0,
+      "errors": [
+        "HTTPSConnectionPool(host='cybsoc.org', port=443): Read timed out. (read timeout=10)"
+      ]
     },
     {
       "id": "systems-innovation",
@@ -177,13 +185,15 @@
         "complexity"
       ],
       "region": "International",
-      "checkedAt": "2026-09-06T20:51:12+00:00",
-      "status": "needs-review",
-      "message": "No dated events extracted; a working page is not proof of complete coverage",
+      "checkedAt": "2026-09-09T08:50:57+00:00",
+      "status": "failed",
+      "message": "Source could not be collected",
       "events": 0,
       "feedsFound": [],
-      "pagesChecked": 1,
-      "errors": []
+      "pagesChecked": 0,
+      "errors": [
+        "HTTPSConnectionPool(host='www.systemsinnovation.network', port=443): Read timed out. (read timeout=10)"
+      ]
     },
     {
       "id": "system-dynamics",
@@ -195,16 +205,15 @@
       ],
       "region": "International",
       "timezone": "America/New_York",
-      "checkedAt": "2026-09-06T20:51:12+00:00",
-      "status": "ok",
-      "message": "Collecting dated events",
-      "events": 74,
-      "feedsFound": [
-        "https://systemdynamics.org/events/?ical=1",
-        "https://systemdynamics.org/events/list/?ical=1"
-      ],
-      "pagesChecked": 17,
-      "errors": []
+      "checkedAt": "2026-09-09T08:50:57+00:00",
+      "status": "failed",
+      "message": "Source could not be collected",
+      "events": 0,
+      "feedsFound": [],
+      "pagesChecked": 0,
+      "errors": [
+        "HTTPSConnectionPool(host='systemdynamics.org', port=443): Read timed out. (read timeout=10)"
+      ]
     },
     {
       "id": "santa-fe",
@@ -216,13 +225,15 @@
       ],
       "region": "United States / international",
       "timezone": "America/Denver",
-      "checkedAt": "2026-09-06T20:51:12+00:00",
-      "status": "needs-review",
-      "message": "No dated events extracted; a working page is not proof of complete coverage",
+      "checkedAt": "2026-09-09T08:50:57+00:00",
+      "status": "failed",
+      "message": "Source could not be collected",
       "events": 0,
       "feedsFound": [],
-      "pagesChecked": 5,
-      "errors": []
+      "pagesChecked": 0,
+      "errors": [
+        "HTTPSConnectionPool(host='www.santafe.edu', port=443): Read timed out. (read timeout=10)"
+      ]
     },
     {
       "id": "csh",
@@ -234,13 +245,15 @@
       ],
       "region": "Austria / international",
       "timezone": "Europe/Vienna",
-      "checkedAt": "2026-09-06T20:51:12+00:00",
-      "status": "ok",
-      "message": "Collecting dated events",
-      "events": 8,
+      "checkedAt": "2026-09-09T08:50:57+00:00",
+      "status": "failed",
+      "message": "Source could not be collected",
+      "events": 0,
       "feedsFound": [],
-      "pagesChecked": 9,
-      "errors": []
+      "pagesChecked": 0,
+      "errors": [
+        "HTTPSConnectionPool(host='csh.ac.at', port=443): Read timed out. (read timeout=10)"
+      ]
     },
     {
       "id": "css",
@@ -251,13 +264,18 @@
         "complexity"
       ],
       "region": "International",
-      "checkedAt": "2026-09-06T20:51:12+00:00",
-      "status": "ok",
-      "message": "Collecting dated events",
-      "events": 5,
+      "checkedAt": "2026-09-09T08:50:57+00:00",
+      "status": "partial",
+      "message": "Collecting dated events; some pages or feeds failed",
+      "events": 4,
       "feedsFound": [],
-      "pagesChecked": 13,
-      "errors": []
+      "pagesChecked": 9,
+      "errors": [
+        "Page: HTTPSConnectionPool(host='cssociety.org', port=443): Read timed out. (read timeout=10)",
+        "Page: HTTPSConnectionPool(host='cssociety.org', port=443): Read timed out. (read timeout=10)",
+        "Page: HTTPSConnectionPool(host='cssociety.org', port=443): Read timed out. (read timeout=10)",
+        "Page: HTTPSConnectionPool(host='cssociety.org', port=443): Read timed out. (read timeout=10)"
+      ]
     },
     {
       "id": "metaphorum",
@@ -269,15 +287,15 @@
         "cybernetics"
       ],
       "region": "International",
-      "checkedAt": "2026-09-06T20:51:12+00:00",
-      "status": "ok",
-      "message": "Collecting dated events",
-      "events": 2,
-      "feedsFound": [
-        "https://metaphorum.org/events-list/?ical=1"
-      ],
-      "pagesChecked": 6,
-      "errors": []
+      "checkedAt": "2026-09-09T08:50:57+00:00",
+      "status": "failed",
+      "message": "Source could not be collected",
+      "events": 0,
+      "feedsFound": [],
+      "pagesChecked": 0,
+      "errors": [
+        "HTTPSConnectionPool(host='metaphorum.org', port=443): Read timed out. (read timeout=10)"
+      ]
     },
     {
       "id": "wosc",
@@ -289,13 +307,15 @@
         "cybernetics"
       ],
       "region": "International",
-      "checkedAt": "2026-09-06T20:51:12+00:00",
-      "status": "needs-review",
-      "message": "No dated events extracted; a working page is not proof of complete coverage",
+      "checkedAt": "2026-09-09T08:50:57+00:00",
+      "status": "failed",
+      "message": "Source could not be collected",
       "events": 0,
       "feedsFound": [],
-      "pagesChecked": 1,
-      "errors": []
+      "pagesChecked": 0,
+      "errors": [
+        "HTTPSConnectionPool(host='www.wosc.world', port=443): Read timed out. (read timeout=10)"
+      ]
     },
     {
       "id": "rsd",
@@ -308,7 +328,7 @@
       ],
       "region": "International",
       "submission": "https://github.com/antlerboy/systemsmap/issues/3",
-      "checkedAt": "2026-09-06T20:51:12+00:00",
+      "checkedAt": "2026-09-09T08:50:57+00:00",
       "status": "needs-review",
       "message": "No dated events extracted; a working page is not proof of complete coverage",
       "events": 0,
@@ -325,7 +345,7 @@
         "systemic-design"
       ],
       "region": "International",
-      "checkedAt": "2026-09-06T20:51:12+00:00",
+      "checkedAt": "2026-09-09T08:50:57+00:00",
       "status": "needs-review",
       "message": "No dated events extracted; a working page is not proof of complete coverage",
       "events": 0,
@@ -343,13 +363,15 @@
       ],
       "region": "United Kingdom",
       "timezone": "Europe/London",
-      "checkedAt": "2026-09-06T20:51:12+00:00",
-      "status": "needs-review",
-      "message": "No dated events extracted; a working page is not proof of complete coverage",
+      "checkedAt": "2026-09-09T08:50:57+00:00",
+      "status": "failed",
+      "message": "Source could not be collected",
       "events": 0,
       "feedsFound": [],
-      "pagesChecked": 9,
-      "errors": []
+      "pagesChecked": 0,
+      "errors": [
+        "[Errno -3] Temporary failure in name resolution"
+      ]
     },
     {
       "id": "anzsys",
@@ -360,14 +382,16 @@
         "systems"
       ],
       "region": "Australia and New Zealand",
-      "checkedAt": "2026-09-06T20:51:12+00:00",
+      "checkedAt": "2026-09-09T08:50:57+00:00",
       "status": "needs-review",
       "message": "No dated events extracted; a working page is not proof of complete coverage",
       "events": 0,
       "feedsFound": [],
-      "pagesChecked": 7,
+      "pagesChecked": 5,
       "errors": [
-        "Page: 403 Client Error: Forbidden for url: https://www.anzsys.org/conferences/anzsys06/index.html"
+        "Page: HTTPSConnectionPool(host='www.anzsys.org', port=443): Read timed out. (read timeout=10)",
+        "Page: 403 Client Error: Forbidden for url: https://www.anzsys.org/conferences/anzsys06/index.html",
+        "Page: HTTPSConnectionPool(host='www.anzsys.org', port=443): Read timed out. (read timeout=10)"
       ]
     },
     {
@@ -380,7 +404,7 @@
       ],
       "region": "United States / international",
       "timezone": "America/New_York",
-      "checkedAt": "2026-09-06T20:51:12+00:00",
+      "checkedAt": "2026-09-09T08:50:57+00:00",
       "status": "failed",
       "message": "Source could not be collected",
       "events": 0,
@@ -401,7 +425,7 @@
       ],
       "region": "United Kingdom",
       "timezone": "Europe/London",
-      "checkedAt": "2026-09-06T20:51:12+00:00",
+      "checkedAt": "2026-09-09T08:50:57+00:00",
       "status": "ok",
       "message": "Collecting dated events",
       "events": 3,
@@ -419,15 +443,15 @@
       ],
       "region": "France / international",
       "timezone": "Europe/Paris",
-      "checkedAt": "2026-09-06T20:51:12+00:00",
-      "status": "ok",
-      "message": "Collecting dated events",
-      "events": 9,
-      "feedsFound": [
-        "https://iscpif.fr/evenements/?lang=en%2F&ical=1"
-      ],
-      "pagesChecked": 1,
-      "errors": []
+      "checkedAt": "2026-09-09T08:50:57+00:00",
+      "status": "failed",
+      "message": "Source could not be collected",
+      "events": 0,
+      "feedsFound": [],
+      "pagesChecked": 0,
+      "errors": [
+        "HTTPSConnectionPool(host='iscpif.fr', port=443): Read timed out. (read timeout=10)"
+      ]
     },
     {
       "id": "griffith",
@@ -439,7 +463,7 @@
       ],
       "region": "Australia",
       "timezone": "Australia/Brisbane",
-      "checkedAt": "2026-09-06T20:51:12+00:00",
+      "checkedAt": "2026-09-09T08:50:57+00:00",
       "status": "failed",
       "message": "Source could not be collected",
       "events": 0,
@@ -459,13 +483,15 @@
       ],
       "region": "United States / online",
       "timezone": "America/New_York",
-      "checkedAt": "2026-09-06T20:51:12+00:00",
-      "status": "needs-review",
-      "message": "No dated events extracted; a working page is not proof of complete coverage",
+      "checkedAt": "2026-09-09T08:50:57+00:00",
+      "status": "failed",
+      "message": "Source could not be collected",
       "events": 0,
       "feedsFound": [],
-      "pagesChecked": 1,
-      "errors": []
+      "pagesChecked": 0,
+      "errors": [
+        "[Errno -3] Temporary failure in name resolution"
+      ]
     },
     {
       "id": "water-center",
@@ -477,7 +503,7 @@
       ],
       "region": "United States / online",
       "timezone": "America/Phoenix",
-      "checkedAt": "2026-09-06T20:51:12+00:00",
+      "checkedAt": "2026-09-09T08:50:57+00:00",
       "status": "needs-review",
       "message": "No dated events extracted; a working page is not proof of complete coverage",
       "events": 0,
@@ -495,7 +521,7 @@
       ],
       "region": "International",
       "timezone": "Europe/London",
-      "checkedAt": "2026-09-06T20:51:12+00:00",
+      "checkedAt": "2026-09-09T08:50:57+00:00",
       "status": "needs-review",
       "message": "No dated events extracted; a working page is not proof of complete coverage",
       "events": 0,
@@ -514,7 +540,7 @@
       ],
       "region": "International",
       "timezone": "Europe/London",
-      "checkedAt": "2026-09-06T20:51:12+00:00",
+      "checkedAt": "2026-09-09T08:50:57+00:00",
       "status": "needs-review",
       "message": "No dated events extracted; a working page is not proof of complete coverage",
       "events": 0,
@@ -532,16 +558,15 @@
       ],
       "region": "International",
       "timezone": "America/New_York",
-      "checkedAt": "2026-09-06T20:51:12+00:00",
-      "status": "ok",
-      "message": "Collecting dated events",
-      "events": 28,
-      "feedsFound": [
-        "https://www.sociocracyforall.org/events/?ical=1",
-        "https://www.sociocracyforall.org/events/list/?ical=1"
-      ],
-      "pagesChecked": 17,
-      "errors": []
+      "checkedAt": "2026-09-09T08:50:57+00:00",
+      "status": "failed",
+      "message": "Source could not be collected",
+      "events": 0,
+      "feedsFound": [],
+      "pagesChecked": 0,
+      "errors": [
+        "403 Client Error: Forbidden for url: https://www.sociocracyforall.org/events/"
+      ]
     },
     {
       "id": "incose",
@@ -552,14 +577,14 @@
         "systems"
       ],
       "region": "International",
-      "checkedAt": "2026-09-06T20:51:12+00:00",
+      "checkedAt": "2026-09-09T08:50:57+00:00",
       "status": "failed",
       "message": "Source could not be collected",
       "events": 0,
       "feedsFound": [],
       "pagesChecked": 0,
       "errors": [
-        "403 Client Error: Forbidden for url: https://www.incose.org/events"
+        "Robots access restricted"
       ]
     },
     {
@@ -572,14 +597,136 @@
       ],
       "region": "Japan",
       "timezone": "Asia/Tokyo",
-      "checkedAt": "2026-09-06T20:51:12+00:00",
+      "checkedAt": "2026-09-09T08:50:57+00:00",
       "status": "failed",
       "message": "Source could not be collected",
       "events": 0,
       "feedsFound": [],
       "pagesChecked": 0,
       "errors": [
-        "[Errno -2] Name or service not known"
+        "502 Server Error: Bad Gateway for url: https://jss-soci.org/"
+      ]
+    },
+    {
+      "id": "syscoi",
+      "name": "Systems Community of Inquiry: event discovery",
+      "url": "https://public-api.wordpress.com/rest/v1.1/sites/stream.syscoi.com/posts/?number=100",
+      "adapter": "wordpress_discovery",
+      "topics": [
+        "systems"
+      ],
+      "region": "International",
+      "timezone": "Europe/London",
+      "website": "https://stream.syscoi.com/",
+      "checkedAt": "2026-09-09T08:50:57+00:00",
+      "status": "failed",
+      "message": "Source could not be collected",
+      "events": 0,
+      "feedsFound": [],
+      "pagesChecked": 0,
+      "errors": [
+        "Disallowed by robots.txt"
+      ]
+    },
+    {
+      "id": "hls",
+      "name": "Human Learning Systems",
+      "url": "https://www.humanlearning.systems/events/",
+      "adapter": "auto",
+      "topics": [
+        "relational-public-services"
+      ],
+      "region": "International",
+      "timezone": "Europe/London",
+      "checkedAt": "2026-09-09T08:50:57+00:00",
+      "status": "needs-review",
+      "message": "No dated events extracted; a working page is not proof of complete coverage",
+      "events": 0,
+      "feedsFound": [],
+      "pagesChecked": 11,
+      "errors": [
+        "Page: HTTPSConnectionPool(host='www.humanlearning.systems', port=443): Read timed out. (read timeout=10)",
+        "Page: HTTPSConnectionPool(host='www.humanlearning.systems', port=443): Read timed out. (read timeout=10)",
+        "Page: HTTPSConnectionPool(host='www.humanlearning.systems', port=443): Read timed out. (read timeout=10)",
+        "Page: HTTPSConnectionPool(host='www.humanlearning.systems', port=443): Read timed out. (read timeout=10)",
+        "Page: HTTPSConnectionPool(host='www.humanlearning.systems', port=443): Read timed out. (read timeout=10)"
+      ]
+    },
+    {
+      "id": "thempra-relational",
+      "name": "ThemPra: Relational Leadership",
+      "url": "https://www.thempra.org.uk/thempra/our-courses/relational-leadership/",
+      "adapter": "thempra",
+      "topics": [
+        "relational-public-services"
+      ],
+      "region": "International",
+      "timezone": "Europe/London",
+      "checkedAt": "2026-09-09T08:50:57+00:00",
+      "status": "ok",
+      "message": "Collecting dated events",
+      "events": 9,
+      "feedsFound": [],
+      "pagesChecked": 1,
+      "errors": []
+    },
+    {
+      "id": "thempra-learning",
+      "name": "ThemPra: Leading with Learning",
+      "url": "https://www.thempra.org.uk/thempra/our-courses/leading-with-learning/",
+      "adapter": "thempra",
+      "topics": [
+        "relational-public-services"
+      ],
+      "region": "International",
+      "timezone": "Europe/London",
+      "checkedAt": "2026-09-09T08:50:57+00:00",
+      "status": "ok",
+      "message": "Collecting dated events",
+      "events": 6,
+      "feedsFound": [],
+      "pagesChecked": 1,
+      "errors": []
+    },
+    {
+      "id": "q-community",
+      "name": "Q Community: health and care improvement",
+      "url": "https://q.thenhsalliance.org/get-involved/events",
+      "adapter": "auto",
+      "topics": [
+        "relational-public-services"
+      ],
+      "region": "International",
+      "timezone": "Europe/London",
+      "checkedAt": "2026-09-09T08:50:57+00:00",
+      "status": "needs-review",
+      "message": "No dated events extracted; a working page is not proof of complete coverage",
+      "events": 0,
+      "feedsFound": [],
+      "pagesChecked": 10,
+      "errors": [
+        "Page: HTTPSConnectionPool(host='q.thenhsalliance.org', port=443): Read timed out. (read timeout=10)",
+        "Page: HTTPSConnectionPool(host='q.thenhsalliance.org', port=443): Read timed out. (read timeout=10)"
+      ]
+    },
+    {
+      "id": "nick-ananin",
+      "name": "Nick Ananin’s systems events and learning map",
+      "url": "https://www.google.com/maps/d/u/0/viewer?mid=1KiZfEQGwEaAsOiEBjTdPN9LC5Pk",
+      "adapter": "auto",
+      "topics": [
+        "systems"
+      ],
+      "region": "International",
+      "notes": "51 map entries reviewed on 9 September: one dated conference, 50 undated resources. See resources/ and data/nick-ananin-resources.json.",
+      "checkedAt": "2026-09-09T08:50:57+00:00",
+      "status": "failed",
+      "message": "Source could not be collected",
+      "events": 0,
+      "feedsFound": [],
+      "pagesChecked": 0,
+      "errors": [
+        "Disallowed by robots.txt"
       ]
     }
   ]

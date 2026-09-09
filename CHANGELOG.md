@@ -174,3 +174,7 @@
 ## 0.22 — 5 September 2026
 
 Accessible systems-thinking gateway; 48-entry early cybernetics catalogue with Sean Manion credited; nine developed profiles and three journeys; 256 RedQuadrant rules preserved for reuse with the header rule retired. See `documentation/release-0.22.md` for evidence depth and remaining gaps.
+
+## 0.23 - 7 September 2026
+
+26 original practice pages; 42 source-labelled resource routes; 746 public atlas entries after the additive resource integration. All 13 core approaches and three theory rows have an explicit rehearsal, with depth limits. Ten further pages support systemic inquiry and intervention.

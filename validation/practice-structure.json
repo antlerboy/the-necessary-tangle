@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "lab_pages": 26,
+  "html_pages": 32,
+  "core_approaches": 13,
+  "theory_rows": 3,
+  "supporting_areas": 10,
+  "resource_routes": 42,
+  "questions": 69,
+  "worked_steps": 102,
+  "local_links": "all checked",
+  "offline_archive_bytes": 330384,
+  "offline_archive_sha256": "dbd8938d4147d95e82ec86b20af8d47ed6b2466e06be4e7c96222e2c5c267156",
+  "specialist_pedagogical_review": "not recorded"
+}

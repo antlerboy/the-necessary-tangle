@@ -1,7 +1,7 @@
 # The Necessary Tangle: public knowledge file
 
 Curated by Benjamin P Taylor — https://www.antlerboy.com/
-Generated from public release 0.22 on 2026-09-05.
+Generated from public release 0.23-systems-methods-practice-alpha on 2026-09-09.
 
 A living evidence atlas of systems | cybernetics | complexity.
 Every connection must say what it means. Historical sequence, logical dependence, influence, teaching, collaboration, practical use, comparison and dispute are not interchangeable.
@@ -1081,6 +1081,17 @@ A behaviour-over-time graph sketches how one or more variables change across a c
 ### Sources
 
 - An introductory systems thinking toolkit for civil servants — https://www.gov.uk/government/publications/systems-thinking-for-civil-servants/toolkit
+
+## Benjamin P Taylor
+
+Type: Person
+Public depth: described
+
+Systems practitioner and educator, and co-author with Philip Boxer of What the boundary cannot carry alone. This entry starts from inspectable public work and does not claim a complete account of his contributions.
+
+### Sources
+
+- What the boundary cannot carry alone, working redraft v3 — https://antlerboy.com/library/what-the-boundary-cannot-carry-alone/
 
 ## Bertrand Russell
 
@@ -2174,6 +2185,17 @@ Confrontation Analysis is a structured approach to dilemmas, positions and poten
 
 - SCiO CF Resources v9 draft — No public link
 
+## Consequential learning (relational public services)
+
+Type: Concept
+Public depth: described
+
+Learning that can change the rules, resources, task or boundary of public-service work, instead of remaining a local reflection without an institutional response.
+
+### Sources
+
+- What the boundary cannot carry alone, working redraft v3 — https://antlerboy.com/library/what-the-boundary-cannot-carry-alone/
+
 ## Conservation of Adaptation Principle
 
 Type: Law or principle
@@ -2209,6 +2231,18 @@ A context diagram shows a system of interest and selected exchanges with its env
 ### Sources
 
 - An introductory systems thinking toolkit for civil servants — https://www.gov.uk/government/publications/systems-thinking-for-civil-servants/toolkit
+
+## Contexts: The Systemic Design Journal
+
+Type: Corpus
+Public depth: described
+
+Journal named in the submitted recommendation. Article-level review remains open.
+
+### Sources
+
+- Contexts: The Systemic Design Journal — https://systemic-design.org/contexts/
+- David Ing: core readings for Understanding Systems — https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5558769097
 
 ## Contribution to the Energetics of Evolution
 
@@ -3234,7 +3268,7 @@ Systems researcher, educator and practitioner whose work connects service system
 
 ### Summary
 
-Ing’s work is useful in two ways at once: he develops service-systems and systems-changes approaches, and he leaves unusually inspectable public trails through systems scholarship, teaching and institutions.
+Ing’s public work includes service-systems research, systems-changes learning, teaching and documentation of systems scholarship. The linked source records identify the basis and limits of this account.
 
 ### Why it matters
 
@@ -3279,8 +3313,7 @@ The atlas needs lineages that are documented rather than merely asserted. Ing’
 
 ### Common confusions
 
-- Treating Ing only as a documenter misses substantive service-systems and systems-changes work.
-- Treating a documented connection as proof of influence overstates what an archive can establish.
+- Documented association is not by itself evidence of intellectual influence.
 
 ### Open questions and checks
 
@@ -4260,6 +4293,17 @@ Miranda Fricker's account of testimonial and hermeneutical injustice, connecting
 
 - Epistemic Injustice: Power and the Ethics of Knowing — https://academic.oup.com/book/32817
 
+## Eric Trist
+
+Type: Person
+Public depth: described
+
+Eric Lansdown Trist (1909–1993) worked on sociotechnical systems and organisation design. The cited chapter abstract also describes action research and his work with Fred Emery.
+
+### Sources
+
+- Eric Trist: An American/North American View — https://link.springer.com/referenceworkentry/10.1007/978-3-319-49820-1_27-1
+
 ## Essential Balances
 
 Type: Publication
@@ -4796,6 +4840,17 @@ Waiting for failure before responding is often costly. Feedforward can prepare c
 
 - Feedforward systems - IEEE Technology Navigator — https://technav.ieee.org/topic/feedforward-systems/
 
+## FEM toolkit
+
+Type: Tool
+Public depth: described
+
+A diagramming tool for Fractal Enterprise Models. Version 1.3 is listed with three operating-system installers; installation has not been independently tested in this pass.
+
+### Sources
+
+- FEM toolkit 1.3 — https://fractalmodel.blogs.dsv.su.se/fem-toolkit/
+
 ## First Black Box Principle
 
 Type: Law or principle
@@ -4911,6 +4966,17 @@ C. Reynolds, ‘Flocks, Herds, and Schools: A Distributed Behavioral Model’ (1
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
 
+## Form of response (relational public services)
+
+Type: Concept
+Public depth: described
+
+The paper’s axis for how far a citizen’s situation can reshape an institutional response, from a fixed frame towards a response that can revise the task.
+
+### Sources
+
+- What the boundary cannot carry alone, working redraft v3 — https://antlerboy.com/library/what-the-boundary-cannot-carry-alone/
+
 ## Forms of capital
 
 Type: Concept
@@ -4982,14 +5048,58 @@ Volume 4 of the Foundational Papers in Complexity Science collection, represente
 ## Fractal Enterprise Model and Capabilities
 
 Type: Intervention skill
-Public depth: described
+Public depth: profile
 
-The Fractal Enterprise Model represents recurring relationships between organisational capabilities and the contexts that enable or constrain them, supporting analysis across scales.
+Fractal Enterprise Model connects business processes and the assets they use and maintain. The project shows how its notation can represent VSM coordination, recursive operational units and selected enterprise-environment relationships.
+
+### Summary
+
+Fractal Enterprise Model connects business processes and the assets they use and maintain. The project shows how its notation can represent VSM coordination, recursive operational units and selected enterprise-environment relationships.
+
+### Why it matters
+
+The diagrams offer a way to inspect concrete processes, assets and responsibilities when a generic organisational model is too coarse.
+
+### Key distinctions
+
+- FEM notation is distinct from the VSM’s account of viability.
+- Decomposing a model into variants is distinct from decomposing it into parts.
+- An installer download is distinct from a tested installation.
+
+### Historical development
+
+[]
+
+### Ideas it depends on
+
+[]
+
+### What develops from it
+
+[]
+
+### Connections to practice
+
+- Inspect which processes use or maintain an asset.
+- Use the System 2 and System 1 examples to question coordination and responsibility.
+
+### Common confusions
+
+[]
+
+### Open questions and checks
+
+- Independent validation of the modelling claims remains open.
+- Platform compatibility has not been tested.
 
 ### Sources
 
 - SCiO CF Resources v9 draft — No public link
 - SCiO Professional Accreditation and Competency Framework — https://www.systemspractice.org/professional-accreditation
+- FEM toolkit 1.3 — https://fractalmodel.blogs.dsv.su.se/fem-toolkit/
+- System 2 of VSM through the lens of FEM — https://fractalmodel.blogs.dsv.su.se/vsms2fem/
+- Decomposition of System 1 units of VSM — https://fractalmodel.blogs.dsv.su.se/vsm-s1-decomposition/
+- Structural coupling through FEM — https://fractalmodel.blogs.dsv.su.se/structural-coupling-2/
 
 ## Fractal Principle
 
@@ -5161,6 +5271,17 @@ Game theory studies situations in which each participant's outcome depends partl
 - SCiO SysBoK - Feedback v1 — No public link
 - Game Theory — https://plato.stanford.edu/archives/fall2023/entries/game-theory/
 
+## Gary S. Metcalf
+
+Type: Person
+Public depth: described
+
+Co-editor of the 2021 Handbook of Systems Sciences. This initial entry records the publisher-verified contribution; a fuller intellectual profile remains open.
+
+### Sources
+
+- Handbook of Systems Sciences — https://link.springer.com/referencework/10.1007/978-981-15-0720-5
+
 ## Geometric Analysis of Shell Coiling; General Problems
 
 Type: Publication
@@ -5299,6 +5420,17 @@ A bibliographic first-pass person entry for H. Haken, listed by the official Fou
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
 
+## Handbook of Systems Sciences
+
+Type: Publication
+Public depth: described
+
+The 2021 handbook edited by Metcalf, Kijima and Deguchi presents relationships between systems theories and their use in modelling and practice.
+
+### Sources
+
+- Handbook of Systems Sciences — https://link.springer.com/referencework/10.1007/978-981-15-0720-5
+
 ## Hannah Hesselgreaves
 
 Type: Person
@@ -5381,6 +5513,17 @@ In Jurgen Appelo's unFIX synthesis, hierarchy names nested levels of authority, 
 ### Sources
 
 - 32 Key Concepts in Systems Thinking and Complexity Theory — https://unfix.com/blog/32-key-concepts
+
+## Hiroshi Deguchi
+
+Type: Person
+Public depth: described
+
+Co-editor of the 2021 Handbook of Systems Sciences. This initial entry records the publisher-verified contribution; a fuller intellectual profile remains open.
+
+### Sources
+
+- Handbook of Systems Sciences — https://link.springer.com/referencework/10.1007/978-981-15-0720-5
 
 ## Holism
 
@@ -5602,6 +5745,17 @@ A bibliographic first-pass person entry for I. Prigogine, listed by the official
 ### Sources
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## Ian I. Mitroff
+
+Type: Person
+Public depth: described
+
+Credited author of Tools, Exercises, and Strategies for Coping With Complexity.
+
+### Sources
+
+- Tools, Exercises, and Strategies for Coping With Complexity — https://www.igi-global.com/book/tools-exercises-strategies-coping-complexity/302472
 
 ## Iceberg model
 
@@ -6111,6 +6265,28 @@ The condition in which elements and contexts affect one another through relation
 
 - 32 Key Concepts in Systems Thinking and Complexity Theory — https://unfix.com/blog/32-key-concepts
 
+## International Federation for Systems Research
+
+Type: Organisation
+Public depth: described
+
+A federation connecting systems-research organisations. The linked member record establishes its relationship with ISSS; broader institutional history remains a separate research task.
+
+### Sources
+
+- ISSS: IFSR member record — https://ifsr.org/member/international-society-for-the-systems-sciences-isss/
+
+## International Society for the Systems Sciences
+
+Type: Organisation
+Public depth: described
+
+An interdisciplinary systems-sciences society, previously named the Society for General Systems Research. Its IFSR member record describes both theoretical inquiry and exchange among practitioners.
+
+### Sources
+
+- ISSS: IFSR member record — https://ifsr.org/member/international-society-for-the-systems-sciences-isss/
+
 ## Interrelationships
 
 Type: Concept
@@ -6133,6 +6309,17 @@ Interview technique covers the design and conduct of conversations that elicit e
 
 - SCiO CF Resources v9 draft — No public link
 - SCiO Professional Accreditation and Competency Framework — https://www.systemspractice.org/professional-accreditation
+
+## Introducing Systems Approaches (2020)
+
+Type: Publication
+Public depth: described
+
+The introductory chapter compares SD, VSM, SODA, SSM and CSH through their use in situations of change, constructivist potential and adaptability in combinations.
+
+### Sources
+
+- Introducing Systems Approaches — https://link.springer.com/chapter/10.1007/978-1-4471-7472-1_1
 
 ## Irreversibility and Heat Generation in the Computing Process
 
@@ -6650,6 +6837,7 @@ Her role prevents the book being treated as Ramage's individual classification e
 - Systems Thinkers, second edition — https://link.springer.com/book/10.1007/978-1-4471-7475-2
 - Systems Thinkers (2nd edition) — Open Research Online — https://oro.open.ac.uk/69810/
 - On boundaries and disciplines: constructing a set of key systems thinkers — https://oro.open.ac.uk/5446/
+- Systems Thinkers — https://link.springer.com/book/10.1007/978-1-4471-7475-2
 
 ## Karl W. Deutsch
 
@@ -6684,6 +6872,17 @@ Kurt Gödel was a logician whose work on completeness, incompleteness and set th
 
 - SCiO SysBoK - Recursion v1 — No public link
 - Kurt Gödel — https://plato.stanford.edu/entries/goedel/
+
+## Kyoichi Kijima
+
+Type: Person
+Public depth: described
+
+Co-editor of the 2021 Handbook of Systems Sciences. This initial entry records the publisher-verified contribution; a fuller intellectual profile remains open.
+
+### Sources
+
+- Handbook of Systems Sciences — https://link.springer.com/referencework/10.1007/978-981-15-0720-5
 
 ## L. Allen
 
@@ -6858,6 +7057,28 @@ Michael Fullan's 2004 leadership book and the likely public context for Damian A
 
 - Leadership & Sustainability: System Thinkers in Action — https://michaelfullan.ca/books/leadership-sustainability/
 - Interview with Damian Allen on systems practice in Doncaster — No public link
+
+## Leading Transformation: Original route, 2020–2025 source versions
+
+Type: Corpus
+Public depth: described
+
+A 24-module learning architecture for public-service transformation. Both this version and the other dated version remain available for comparison.
+
+### Sources
+
+- Leading Transformation: Original route, 2020–2025 source versions — https://github.com/antlerboy/PSTA/blob/main/content/leading-transformation.json
+
+## Leading Transformation: Revised route, 6 September 2026
+
+Type: Corpus
+Public depth: described
+
+A 24-module learning architecture for public-service transformation. Both this version and the other dated version remain available for comparison.
+
+### Sources
+
+- Leading Transformation: Revised route, 6 September 2026 — https://github.com/antlerboy/PSTA/blob/main/content/curriculum-2026.json
 
 ## Lean and Six Sigma
 
@@ -7585,6 +7806,7 @@ His work makes canon construction part of systems practice rather than treating 
 - Dr Magnus Ramage — Open University profile — https://profiles.open.ac.uk/magnus-ramage
 - Systems Thinkers, second edition — https://link.springer.com/book/10.1007/978-1-4471-7475-2
 - On boundaries and disciplines: constructing a set of key systems thinkers — https://oro.open.ac.uk/5446/
+- Systems Thinkers — https://link.springer.com/book/10.1007/978-1-4471-7475-2
 
 ## Managing complexity (and chaos) in times of crisis
 
@@ -7716,6 +7938,7 @@ A systems scholar and practitioner associated with critical systems thinking, en
 ### Sources
 
 - Systems Approaches to Making Change: A Practical Guide — https://www.systemspractice.org/resources/systems-approaches-making-change-practical-guide
+- Systems Approaches to Making Change: A Practical Guide — https://link.springer.com/book/10.1007/978-1-4471-7472-1
 
 ## Marvin Weisbord
 
@@ -9715,6 +9938,1442 @@ The Power Structuration Theorem says that agency must be balanced across recursi
 - The Grammar of Systems II: From Order to Chaos and Back Again, 2nd edition — https://www.systemspractice.org/resources/grammar-systems-ii-order-chaos-back-again-2nd-ed
 - Cybersecurity Lessons from The Grammar of Systems, part 2 — https://www.linkedin.com/pulse/cybersecurity-lessons-from-grammar-systems-order-chaos-osama-salah-1f
 
+## Practice: Confrontation Analysis: separate positions, options and credibility
+
+Type: Publication
+Public depth: profile
+
+Build a small options table and identify what would make a joint commitment credible. An introductory confrontation-analysis rehearsal, not a full formal classification of dilemmas or a prediction of behaviour. Consent, new options and changing preferences remain possible.
+
+### Summary
+
+Build a small options table and identify what would make a joint commitment credible. An introductory confrontation-analysis rehearsal, not a full formal classification of dilemmas or a prediction of behaviour. Consent, new options and changing preferences remain possible.
+
+### Why it matters
+
+A concrete rehearsal with a fictional case, explicit outputs and a way to inspect the result.
+
+### Key distinctions
+
+- Mechanical correctness is distinct from judgement in an open situation.
+- Training-case application is distinct from competent organisational practice.
+
+### Historical development
+
+[]
+
+### Ideas it depends on
+
+[]
+
+### What develops from it
+
+[]
+
+### Connections to practice
+
+- List actors, controlled options and the four possible combinations.
+- Separate preference, intention and belief.
+- Propose a change that addresses credibility without coercion.
+- Rebuild the table after the change.
+
+### Common confusions
+
+- A worked comparison is not the only acceptable answer to an open question.
+
+### Open questions and checks
+
+- An introductory confrontation-analysis rehearsal, not a full formal classification of dilemmas or a prediction of behaviour. Consent, new options and changing preferences remain possible.
+- Compare an independent attempt before revealing the worked answer.
+
+### Sources
+
+- Confrontation Analysis: separate positions, options and credibility — https://transduction.systems/systems-thinking/practice/confrontation-analysis/
+- SCiO: Mosaic, multi-methodology, CONAN and INFORMED — https://www.systemspractice.org/why-practice-systems-thinking/other-methods
+- SCiO competency framework resource guide (PDF) — https://www.dropbox.com/scl/fi/v5vl9o1e9gtwxbqiyb2no/SCiO-CF-Resources.pdf?rlkey=a9d5ckhbsdjld7ab3sp60jaj9&dl=0
+- SCiO Professional Development — https://www.systemspractice.org/professional-development
+- The Confrontation Analysis Handbook, Curry and Young — https://www.systemspractice.org/resources/confrontation-analysis-handbook-how-resolve-confrontations-eliminating-dilemmas
+
+## Practice: Critical social learning: build a learning relationship across boundaries
+
+Type: Publication
+Public depth: profile
+
+Design a small collective inquiry that can change both action and the assumptions behind it. A bridge exercise across related but distinct approaches. Vickers' appreciative systems are not identical to Cooperrider's 4D Appreciative Inquiry. Systems convening offers practical social-learning resources, not a claim to be the same named methodology.
+
+### Summary
+
+Design a small collective inquiry that can change both action and the assumptions behind it. A bridge exercise across related but distinct approaches. Vickers' appreciative systems are not identical to Cooperrider's 4D Appreciative Inquiry. Systems convening offers practical social-learning resources, not a claim to be the same named methodology.
+
+### Why it matters
+
+A concrete rehearsal with a fictional case, explicit outputs and a way to inspect the result.
+
+### Key distinctions
+
+- Mechanical correctness is distinct from judgement in an open situation.
+- Training-case application is distinct from competent organisational practice.
+
+### Historical development
+
+[]
+
+### Ideas it depends on
+
+[]
+
+### What develops from it
+
+[]
+
+### Connections to practice
+
+- Map the appreciative differences.
+- Investigate the successful case without ignoring failure.
+- Design an action-research cycle.
+- Create a double-loop learning test.
+
+### Common confusions
+
+- A worked comparison is not the only acceptable answer to an open question.
+
+### Open questions and checks
+
+- A bridge exercise across related but distinct approaches. Vickers' appreciative systems are not identical to Cooperrider's 4D Appreciative Inquiry. Systems convening offers practical social-learning resources, not a claim to be the same named methodology.
+- Compare an independent attempt before revealing the worked answer.
+
+### Sources
+
+- Critical social learning: build a learning relationship across boundaries — https://transduction.systems/systems-thinking/practice/critical-social-learning/
+- Wenger-Trayner: systems convening, free book and resources — https://www.wenger-trayner.com/systems-convening-book/
+- Deming Institute: PDSA cycle — https://deming.org/explore/pdsa/
+- SCiO competency framework resource guide (PDF) — https://www.dropbox.com/scl/fi/v5vl9o1e9gtwxbqiyb2no/SCiO-CF-Resources.pdf?rlkey=a9d5ckhbsdjld7ab3sp60jaj9&dl=0
+- Wenger-Trayner workshops: social learning, convening and evaluation — https://www.wenger-trayner.com/our-events/
+- SCiO Professional Development — https://www.systemspractice.org/professional-development
+
+## Practice: Critical Systems Heuristics: inspect all twelve boundary categories
+
+Type: Publication
+Public depth: profile
+
+Build an is/ought boundary critique and show how a change in boundary alters a judgement. This exercise checks the completeness and consistency of boundary reasoning. It does not supply a morally unique answer or pretend that the practitioner represents every affected person.
+
+### Summary
+
+Build an is/ought boundary critique and show how a change in boundary alters a judgement. This exercise checks the completeness and consistency of boundary reasoning. It does not supply a morally unique answer or pretend that the practitioner represents every affected person.
+
+### Why it matters
+
+A concrete rehearsal with a fictional case, explicit outputs and a way to inspect the result.
+
+### Key distinctions
+
+- Mechanical correctness is distinct from judgement in an open situation.
+- Training-case application is distinct from competent organisational practice.
+
+### Historical development
+
+[]
+
+### Ideas it depends on
+
+[]
+
+### What develops from it
+
+[]
+
+### Connections to practice
+
+- Complete the four groups of boundary categories in the descriptive 'is' mode.
+- Write an 'ought' counterpart for each category.
+- Trace one boundary change into the evaluation.
+- Design a challenge that an affected person can actually use.
+
+### Common confusions
+
+- A worked comparison is not the only acceptable answer to an open question.
+
+### Open questions and checks
+
+- This exercise checks the completeness and consistency of boundary reasoning. It does not supply a morally unique answer or pretend that the practitioner represents every affected person.
+- Compare an independent attempt before revealing the worked answer.
+
+### Sources
+
+- Critical Systems Heuristics: inspect all twelve boundary categories — https://transduction.systems/systems-thinking/practice/critical-systems-heuristics/
+- A Mini-Primer of Critical Systems Heuristics — https://wulrich.com/csh.html
+- OU repository: evaluation using critical systems heuristics — https://oro.open.ac.uk/3464/
+- SCiO systems practice courses — https://www.systemspractice.org/courses/systems-practice
+
+## Practice: Ethics and power: make an intervention's authority and effects explicit
+
+Type: Publication
+Public depth: profile
+
+Distinguish permission, participation and legitimacy, then design a reversible intervention with an accessible challenge route. A generic ethical reasoning exercise. It cannot establish compliance with sector-specific law, safeguarding or professional requirements. Those require qualified, contextual checks before real action.
+
+### Summary
+
+Distinguish permission, participation and legitimacy, then design a reversible intervention with an accessible challenge route. A generic ethical reasoning exercise. It cannot establish compliance with sector-specific law, safeguarding or professional requirements. Those require qualified, contextual checks before real action.
+
+### Why it matters
+
+A concrete rehearsal with a fictional case, explicit outputs and a way to inspect the result.
+
+### Key distinctions
+
+- Mechanical correctness is distinct from judgement in an open situation.
+- Training-case application is distinct from competent organisational practice.
+
+### Historical development
+
+[]
+
+### Ideas it depends on
+
+[]
+
+### What develops from it
+
+[]
+
+### Connections to practice
+
+- Map authority and affectedness.
+- Separate observations, labels and causal claims.
+- Design an ethically defensible next inquiry.
+- Prepare a constructive challenge to the sponsor.
+
+### Common confusions
+
+- A worked comparison is not the only acceptable answer to an open question.
+
+### Open questions and checks
+
+- A generic ethical reasoning exercise. It cannot establish compliance with sector-specific law, safeguarding or professional requirements. Those require qualified, contextual checks before real action.
+- Compare an independent attempt before revealing the worked answer.
+
+### Sources
+
+- Ethics and power: make an intervention's authority and effects explicit — https://transduction.systems/systems-thinking/practice/ethics-and-power/
+- A Mini-Primer of Critical Systems Heuristics — https://wulrich.com/csh.html
+- An introductory systems thinking toolkit for civil servants — https://www.gov.uk/government/publications/systems-thinking-for-civil-servants/toolkit
+- SCiO Professional Development — https://www.systemspractice.org/professional-development
+
+## Practice: Evaluation and reflexivity: test the claim you are tempted to make
+
+Type: Publication
+Public depth: profile
+
+Distinguish a measured change from a causal claim and use evaluation to revise both intervention and framing. A basic mixed-evidence evaluation rehearsal. It is not a complete impact evaluation, statistical inference course or assessment of real practitioner behaviour.
+
+### Summary
+
+Distinguish a measured change from a causal claim and use evaluation to revise both intervention and framing. A basic mixed-evidence evaluation rehearsal. It is not a complete impact evaluation, statistical inference course or assessment of real practitioner behaviour.
+
+### Why it matters
+
+A concrete rehearsal with a fictional case, explicit outputs and a way to inspect the result.
+
+### Key distinctions
+
+- Mechanical correctness is distinct from judgement in an open situation.
+- Training-case application is distinct from competent organisational practice.
+
+### Historical development
+
+[]
+
+### Ideas it depends on
+
+[]
+
+### What develops from it
+
+[]
+
+### Connections to practice
+
+- Calculate the reported change, then bound the claim.
+- Build a small evaluation matrix.
+- Name your own influence on the evaluation.
+- Decide what can responsibly be reported now.
+
+### Common confusions
+
+- A worked comparison is not the only acceptable answer to an open question.
+
+### Open questions and checks
+
+- A basic mixed-evidence evaluation rehearsal. It is not a complete impact evaluation, statistical inference course or assessment of real practitioner behaviour.
+- Compare an independent attempt before revealing the worked answer.
+
+### Sources
+
+- Evaluation and reflexivity: test the claim you are tempted to make — https://transduction.systems/systems-thinking/practice/evaluation-and-reflexivity/
+- An introductory systems thinking toolkit for civil servants — https://www.gov.uk/government/publications/systems-thinking-for-civil-servants/toolkit
+- Deming Institute: PDSA cycle — https://deming.org/explore/pdsa/
+- Wenger-Trayner: systems convening, free book and resources — https://www.wenger-trayner.com/systems-convening-book/
+- Wenger-Trayner workshops: social learning, convening and evaluation — https://www.wenger-trayner.com/our-events/
+
+## Practice: Fractal Enterprise Model: alternate processes and the assets they depend on
+
+Type: Publication
+Public depth: profile
+
+Build a small process-asset model and identify a neglected asset-management dependency. A first FEM modelling exercise using explicit text relations. Follow the linked reference guides for the complete notation and allowed label combinations.
+
+### Summary
+
+Build a small process-asset model and identify a neglected asset-management dependency. A first FEM modelling exercise using explicit text relations. Follow the linked reference guides for the complete notation and allowed label combinations.
+
+### Why it matters
+
+A concrete rehearsal with a fictional case, explicit outputs and a way to inspect the result.
+
+### Key distinctions
+
+- Mechanical correctness is distinct from judgement in an open situation.
+- Training-case application is distinct from competent organisational practice.
+
+### Historical development
+
+[]
+
+### Ideas it depends on
+
+[]
+
+### What develops from it
+
+[]
+
+### Connections to practice
+
+- Separate processes from assets.
+- Construct one complete alternating chain.
+- Use the model to challenge the productivity decision.
+
+### Common confusions
+
+- A worked comparison is not the only acceptable answer to an open question.
+
+### Open questions and checks
+
+- A first FEM modelling exercise using explicit text relations. Follow the linked reference guides for the complete notation and allowed label combinations.
+- Compare an independent attempt before revealing the worked answer.
+
+### Sources
+
+- Fractal Enterprise Model: alternate processes and the assets they depend on — https://transduction.systems/systems-thinking/practice/fractal-enterprise-model/
+- Fractal Enterprise Model: basics and reference guides — https://fractalmodel.blogs.dsv.su.se/fems-elements/
+- Fractal Enterprise Model: business-model innovation examples — https://www.fractalmodel.org/fem_bmi/
+- SCiO Professional Development — https://www.systemspractice.org/professional-development
+
+## Practice: Futures and probes: test robustness without pretending to predict
+
+Type: Publication
+Public depth: profile
+
+Compare options across explicit scenarios, then design more than one bounded learning probe. A bridge to apprenticeship duties 8-10. Scenario analysis, sensitivity testing and safe-to-fail probes are distinct activities; none is a guarantee about the future.
+
+### Summary
+
+Compare options across explicit scenarios, then design more than one bounded learning probe. A bridge to apprenticeship duties 8-10. Scenario analysis, sensitivity testing and safe-to-fail probes are distinct activities; none is a guarantee about the future.
+
+### Why it matters
+
+A concrete rehearsal with a fictional case, explicit outputs and a way to inspect the result.
+
+### Key distinctions
+
+- Mechanical correctness is distinct from judgement in an open situation.
+- Training-case application is distinct from competent organisational practice.
+
+### Historical development
+
+[]
+
+### Ideas it depends on
+
+[]
+
+### What develops from it
+
+[]
+
+### Connections to practice
+
+- Calculate the initial capacity gap under each demand scenario.
+- State what is needed before choosing an option.
+- Design two parallel probes for different explanations of avoidance.
+- Define sensing, dampening and amplification before acting.
+
+### Common confusions
+
+- A worked comparison is not the only acceptable answer to an open question.
+
+### Open questions and checks
+
+- A bridge to apprenticeship duties 8-10. Scenario analysis, sensitivity testing and safe-to-fail probes are distinct activities; none is a guarantee about the future.
+- Compare an independent attempt before revealing the worked answer.
+
+### Sources
+
+- Futures and probes: test robustness without pretending to predict — https://transduction.systems/systems-thinking/practice/futures-and-probes/
+- Dave Snowden: coherence and uncertainty — https://thecynefin.co/coherence-and-uncertainty/
+- An introductory systems thinking toolkit for civil servants — https://www.gov.uk/government/publications/systems-thinking-for-civil-servants/toolkit
+- SCiO Professional Development — https://www.systemspractice.org/professional-development
+
+## Practice: INFORMED Group Dynamics: investigate the distinctions behind a decision
+
+Type: Publication
+Public depth: profile
+
+Elicit contrasting meanings, make a small reflective map, and revise an inference about another person's position. An original introductory rehearsal using the publicly described INFORMED framing and personal-construct orientation. It is not Marguet's complete taught protocol, a personality assessment, or a validated repertory-grid diagnosis. Use supervised teaching for the fuller approach.
+
+### Summary
+
+Elicit contrasting meanings, make a small reflective map, and revise an inference about another person's position. An original introductory rehearsal using the publicly described INFORMED framing and personal-construct orientation. It is not Marguet's complete taught protocol, a personality assessment, or a validated repertory-grid diagnosis. Use supervised teaching for the fuller approach.
+
+### Why it matters
+
+A concrete rehearsal with a fictional case, explicit outputs and a way to inspect the result.
+
+### Key distinctions
+
+- Mechanical correctness is distinct from judgement in an open situation.
+- Training-case application is distinct from competent organisational practice.
+
+### Historical development
+
+[]
+
+### Ideas it depends on
+
+[]
+
+### What develops from it
+
+[]
+
+### Connections to practice
+
+- Investigate narratives before interpreting motives.
+- Frame the orientations as provisional contrasting constructs.
+- Make a small reflective option map.
+- Explore distinctions and revise your first story.
+
+### Common confusions
+
+- A worked comparison is not the only acceptable answer to an open question.
+
+### Open questions and checks
+
+- An original introductory rehearsal using the publicly described INFORMED framing and personal-construct orientation. It is not Marguet's complete taught protocol, a personality assessment, or a validated repertory-grid diagnosis. Use supervised teaching for the fuller approach.
+- Compare an independent attempt before revealing the worked answer.
+
+### Sources
+
+- INFORMED Group Dynamics: investigate the distinctions behind a decision — https://transduction.systems/systems-thinking/practice/informed-group-dynamics/
+- SCiO: Mosaic, multi-methodology, CONAN and INFORMED — https://www.systemspractice.org/why-practice-systems-thinking/other-methods
+- Natalie Marguet: organisational decision-making, a personal construct perspective — https://research.manchester.ac.uk/en/studentTheses/organisational-decision-making-a-personal-construct-perspective/
+- Natalie Marguet: what lies beneath managers' decisions — https://www.systemspractice.org/resources/organisational-decision-making-what-lies-beneath-managers-decisions
+- SCiO Professional Development — https://www.systemspractice.org/professional-development
+
+## Practice: Interactive Management: construct a small interpretive structural model
+
+Type: Publication
+Public depth: profile
+
+Use a precise relation, a small adjacency matrix and transitive reasoning to structure a set of enabling conditions. This rehearses one modelling component of Interactive Management. It does not reproduce its full facilitated group process or establish group agreement. The external handbook's free-download availability is uncertain, so the complete case is supplied here.
+
+### Summary
+
+Use a precise relation, a small adjacency matrix and transitive reasoning to structure a set of enabling conditions. This rehearses one modelling component of Interactive Management. It does not reproduce its full facilitated group process or establish group agreement. The external handbook's free-download availability is uncertain, so the complete case is supplied here.
+
+### Why it matters
+
+A concrete rehearsal with a fictional case, explicit outputs and a way to inspect the result.
+
+### Key distinctions
+
+- Mechanical correctness is distinct from judgement in an open situation.
+- Training-case application is distinct from competent organisational practice.
+
+### Historical development
+
+[]
+
+### Ideas it depends on
+
+[]
+
+### What develops from it
+
+[]
+
+### Connections to practice
+
+- Create the immediate-link matrix in order A, B, C, D, E.
+- Add implied reachability and the identity diagonal.
+- Draw a layered model and identify the foundations.
+- Return the model to the people who supplied the relation.
+
+### Common confusions
+
+- A worked comparison is not the only acceptable answer to an open question.
+
+### Open questions and checks
+
+- This rehearses one modelling component of Interactive Management. It does not reproduce its full facilitated group process or establish group agreement. The external handbook's free-download availability is uncertain, so the complete case is supplied here.
+- Compare an independent attempt before revealing the worked answer.
+
+### Sources
+
+- Interactive Management: construct a small interpretive structural model — https://transduction.systems/systems-thinking/practice/interactive-management/
+- SCiO: A Handbook of Interactive Management — https://www.systemspractice.org/resources/handbook-interactive-management
+- Warfield IP Trust: Interactive Management handbook — https://www.jnwarfield.com/00307.html
+- Demosophia: collective intelligence through structured dialogue — https://www.systemspractice.org/resources/demosophia-collective-intelligence-through-structured-dialogue
+- SCiO Professional Development — https://www.systemspractice.org/professional-development
+
+## Practice: Interactive planning: design the service you would choose now
+
+Type: Publication
+Public depth: profile
+
+Distinguish an idealised design from a forecast, then work back to feasible changes and learning. A small rehearsal of Ackoff's interactive planning and idealised design. It is not an invitation to ignore present feasibility, affected people or implementation.
+
+### Summary
+
+Distinguish an idealised design from a forecast, then work back to feasible changes and learning. A small rehearsal of Ackoff's interactive planning and idealised design. It is not an invitation to ignore present feasibility, affected people or implementation.
+
+### Why it matters
+
+A concrete rehearsal with a fictional case, explicit outputs and a way to inspect the result.
+
+### Key distinctions
+
+- Mechanical correctness is distinct from judgement in an open situation.
+- Training-case application is distinct from competent organisational practice.
+
+### Historical development
+
+[]
+
+### Ideas it depends on
+
+[]
+
+### What develops from it
+
+[]
+
+### Connections to practice
+
+- Formulate the mess rather than selecting one isolated symptom.
+- Design an arrangement you would choose now if the old one no longer existed.
+- Specify ends, means and resource implications.
+- Work back to a feasible first move and its control process.
+
+### Common confusions
+
+- A worked comparison is not the only acceptable answer to an open question.
+
+### Open questions and checks
+
+- A small rehearsal of Ackoff's interactive planning and idealised design. It is not an invitation to ignore present feasibility, affected people or implementation.
+- Compare an independent attempt before revealing the worked answer.
+
+### Sources
+
+- Interactive planning: design the service you would choose now — https://transduction.systems/systems-thinking/practice/interactive-planning/
+- Russell Ackoff: a brief guide to interactive planning and idealized design — https://www.systemspractice.org/resources/brief-guide-interactive-planning-and-idealized-design
+- SCiO competency framework resource guide (PDF) — https://www.dropbox.com/scl/fi/v5vl9o1e9gtwxbqiyb2no/SCiO-CF-Resources.pdf?rlkey=a9d5ckhbsdjld7ab3sp60jaj9&dl=0
+- Ackoff: Re-Creating the Corporation — https://www.systemspractice.org/resources/re-creating-corporation-design-organizations-21st-century
+- SCiO Professional Development — https://www.systemspractice.org/professional-development
+
+## Practice: Mosaic transformation and bubble strategy: sequence changes you can sustain
+
+Type: Publication
+Public depth: profile
+
+Test a change sequence against available capacity, released capacity, dependencies and a protected experiment's interfaces. An original small rehearsal of published sequencing ideas. It does not reproduce a proprietary training exercise or claim that a protected bubble is a complete Mosaic transformation.
+
+### Summary
+
+Test a change sequence against available capacity, released capacity, dependencies and a protected experiment's interfaces. An original small rehearsal of published sequencing ideas. It does not reproduce a proprietary training exercise or claim that a protected bubble is a complete Mosaic transformation.
+
+### Why it matters
+
+A concrete rehearsal with a fictional case, explicit outputs and a way to inspect the result.
+
+### Key distinctions
+
+- Mechanical correctness is distinct from judgement in an open situation.
+- Training-case application is distinct from competent organisational practice.
+
+### Historical development
+
+[]
+
+### Ideas it depends on
+
+[]
+
+### What develops from it
+
+[]
+
+### Connections to practice
+
+- Build the smallest feasible sequence.
+- Check the assumption that makes the sequence possible.
+- Define the C bubble without cutting it off from reality.
+- Compare a benefit-first ranking with a feasible change sequence.
+
+### Common confusions
+
+- A worked comparison is not the only acceptable answer to an open question.
+
+### Open questions and checks
+
+- An original small rehearsal of published sequencing ideas. It does not reproduce a proprietary training exercise or claim that a protected bubble is a complete Mosaic transformation.
+- Compare an independent attempt before revealing the worked answer.
+
+### Sources
+
+- Mosaic transformation and bubble strategy: sequence changes you can sustain — https://transduction.systems/systems-thinking/practice/mosaic-transformation/
+- SCiO: Mosaic, multi-methodology, CONAN and INFORMED — https://www.systemspractice.org/why-practice-systems-thinking/other-methods
+- SCiO competency framework resource guide (PDF) — https://www.dropbox.com/scl/fi/v5vl9o1e9gtwxbqiyb2no/SCiO-CF-Resources.pdf?rlkey=a9d5ckhbsdjld7ab3sp60jaj9&dl=0
+- SCiO: Mosaic transformation course — https://www.systemspractice.org/courses/mosaic-transformation
+
+## Practice: Multi-methodology: justify the move from one method to another
+
+Type: Publication
+Public depth: profile
+
+Design a short inquiry in which each method answers a different question and its output is translated carefully into the next. A basic methodological design exercise. There is no universal correct sequence. The checks concern fit, assumptions and transitions, not allegiance to one classification of methods.
+
+### Summary
+
+Design a short inquiry in which each method answers a different question and its output is translated carefully into the next. A basic methodological design exercise. There is no universal correct sequence. The checks concern fit, assumptions and transitions, not allegiance to one classification of methods.
+
+### Why it matters
+
+A concrete rehearsal with a fictional case, explicit outputs and a way to inspect the result.
+
+### Key distinctions
+
+- Mechanical correctness is distinct from judgement in an open situation.
+- Training-case application is distinct from competent organisational practice.
+
+### Historical development
+
+[]
+
+### Ideas it depends on
+
+[]
+
+### What develops from it
+
+[]
+
+### Connections to practice
+
+- Separate the questions that require different kinds of inquiry.
+- Choose a justified three-method sequence.
+- Specify the transition into the numerical model.
+- Set a trigger to change your method design.
+
+### Common confusions
+
+- A worked comparison is not the only acceptable answer to an open question.
+
+### Open questions and checks
+
+- A basic methodological design exercise. There is no universal correct sequence. The checks concern fit, assumptions and transitions, not allegiance to one classification of methods.
+- Compare an independent attempt before revealing the worked answer.
+
+### Sources
+
+- Multi-methodology: justify the move from one method to another — https://transduction.systems/systems-thinking/practice/multi-methodology/
+- SCiO: Mosaic, multi-methodology, CONAN and INFORMED — https://www.systemspractice.org/why-practice-systems-thinking/other-methods
+- SCiO competency framework resource guide (PDF) — https://www.dropbox.com/scl/fi/v5vl9o1e9gtwxbqiyb2no/SCiO-CF-Resources.pdf?rlkey=a9d5ckhbsdjld7ab3sp60jaj9&dl=0
+- SCiO Professional Development — https://www.systemspractice.org/professional-development
+
+## Practice: Participative inquiry: test who your evidence leaves out
+
+Type: Publication
+Public depth: profile
+
+Build an engagement and evidence plan that does not confuse influence with the right to be heard. A basic inquiry-design rehearsal. An invented engagement plan is not evidence of actual facilitation, safe participation or sustained relationships.
+
+### Summary
+
+Build an engagement and evidence plan that does not confuse influence with the right to be heard. A basic inquiry-design rehearsal. An invented engagement plan is not evidence of actual facilitation, safe participation or sustained relationships.
+
+### Why it matters
+
+A concrete rehearsal with a fictional case, explicit outputs and a way to inspect the result.
+
+### Key distinctions
+
+- Mechanical correctness is distinct from judgement in an open situation.
+- Training-case application is distinct from competent organisational practice.
+
+### Historical development
+
+[]
+
+### Ideas it depends on
+
+[]
+
+### What develops from it
+
+[]
+
+### Connections to practice
+
+- Map interest, influence, control and affectedness separately.
+- Audit the 92% statement.
+- Design a proportionate mixed inquiry.
+- Plan a group comparison without forced consensus.
+
+### Common confusions
+
+- A worked comparison is not the only acceptable answer to an open question.
+
+### Open questions and checks
+
+- A basic inquiry-design rehearsal. An invented engagement plan is not evidence of actual facilitation, safe participation or sustained relationships.
+- Compare an independent attempt before revealing the worked answer.
+
+### Sources
+
+- Participative inquiry: test who your evidence leaves out — https://transduction.systems/systems-thinking/practice/participative-inquiry/
+- An introductory systems thinking toolkit for civil servants — https://www.gov.uk/government/publications/systems-thinking-for-civil-servants/toolkit
+- Wenger-Trayner: systems convening, free book and resources — https://www.wenger-trayner.com/systems-convening-book/
+- SCiO competency framework resource guide (PDF) — https://www.dropbox.com/scl/fi/v5vl9o1e9gtwxbqiyb2no/SCiO-CF-Resources.pdf?rlkey=a9d5ckhbsdjld7ab3sp60jaj9&dl=0
+- Wenger-Trayner workshops: social learning, convening and evaluation — https://www.wenger-trayner.com/our-events/
+- SCiO Professional Development — https://www.systemspractice.org/professional-development
+
+## Practice: Patterns of Strategy: model dependence, fit and timing
+
+Type: Publication
+Public depth: profile
+
+Analyse a strategic relationship and test a proposed move against relative dependence and response time. An original introductory relationship exercise. It does not reproduce the book's pattern catalogue or claim that one numerical ratio captures strategic power.
+
+### Summary
+
+Analyse a strategic relationship and test a proposed move against relative dependence and response time. An original introductory relationship exercise. It does not reproduce the book's pattern catalogue or claim that one numerical ratio captures strategic power.
+
+### Why it matters
+
+A concrete rehearsal with a fictional case, explicit outputs and a way to inspect the result.
+
+### Key distinctions
+
+- Mechanical correctness is distinct from judgement in an open situation.
+- Training-case application is distinct from competent organisational practice.
+
+### Historical development
+
+[]
+
+### Ideas it depends on
+
+[]
+
+### What develops from it
+
+[]
+
+### Connections to practice
+
+- Map the strategic relationship from both sides.
+- Test temporal fit.
+- Generate two moves that change the relationship rather than merely state an ambition.
+- Specify the evidence that would change your strategic choice.
+
+### Common confusions
+
+- A worked comparison is not the only acceptable answer to an open question.
+
+### Open questions and checks
+
+- An original introductory relationship exercise. It does not reproduce the book's pattern catalogue or claim that one numerical ratio captures strategic power.
+- Compare an independent attempt before revealing the worked answer.
+
+### Sources
+
+- Patterns of Strategy: model dependence, fit and timing — https://transduction.systems/systems-thinking/practice/patterns-of-strategy/
+- SCiO: Patterns of Strategy — https://www.systemspractice.org/why-practice-systems-thinking/pos
+- SCiO competency framework resource guide (PDF) — https://www.dropbox.com/scl/fi/v5vl9o1e9gtwxbqiyb2no/SCiO-CF-Resources.pdf?rlkey=a9d5ckhbsdjld7ab3sp60jaj9&dl=0
+- SCiO: Patterns of Strategy, developing strategy — https://www.systemspractice.org/courses/core-pos2
+
+## Practice: Service systems: follow demand and distinguish activity from resolution
+
+Type: Publication
+Public depth: profile
+
+Classify a small demand sample, trace end-to-end work, and design a prediction-led test. A bridge to systemic service improvement, not a full Vanguard, Lean or Six Sigma course. These traditions are distinct; this exercise does not validate statistical process-control competence.
+
+### Summary
+
+Classify a small demand sample, trace end-to-end work, and design a prediction-led test. A bridge to systemic service improvement, not a full Vanguard, Lean or Six Sigma course. These traditions are distinct; this exercise does not validate statistical process-control competence.
+
+### Why it matters
+
+A concrete rehearsal with a fictional case, explicit outputs and a way to inspect the result.
+
+### Key distinctions
+
+- Mechanical correctness is distinct from judgement in an open situation.
+- Training-case application is distinct from competent organisational practice.
+
+### Historical development
+
+[]
+
+### Ideas it depends on
+
+[]
+
+### What develops from it
+
+[]
+
+### Connections to practice
+
+- Classify the demand using the reason for contact.
+- Trace value, waiting and rework end to end.
+- Design a PDSA test rather than a rollout.
+
+### Common confusions
+
+- A worked comparison is not the only acceptable answer to an open question.
+
+### Open questions and checks
+
+- A bridge to systemic service improvement, not a full Vanguard, Lean or Six Sigma course. These traditions are distinct; this exercise does not validate statistical process-control competence.
+- Compare an independent attempt before revealing the worked answer.
+
+### Sources
+
+- Service systems: follow demand and distinguish activity from resolution — https://transduction.systems/systems-thinking/practice/service-systems/
+- Deming Institute: PDSA cycle — https://deming.org/explore/pdsa/
+- SCiO competency framework resource guide (PDF) — https://www.dropbox.com/scl/fi/v5vl9o1e9gtwxbqiyb2no/SCiO-CF-Resources.pdf?rlkey=a9d5ckhbsdjld7ab3sp60jaj9&dl=0
+- SCiO Professional Development — https://www.systemspractice.org/professional-development
+
+## Practice: Socio-Technical Systems: redesign the work and technology together
+
+Type: Publication
+Public depth: profile
+
+Find where variation is handled and design a jointly workable social and technical arrangement. A basic primary-work-system exercise informed by the socio-technical tradition. It is not a complete participative design process or a substitute for workers' and users' involvement.
+
+### Summary
+
+Find where variation is handled and design a jointly workable social and technical arrangement. A basic primary-work-system exercise informed by the socio-technical tradition. It is not a complete participative design process or a substitute for workers' and users' involvement.
+
+### Why it matters
+
+A concrete rehearsal with a fictional case, explicit outputs and a way to inspect the result.
+
+### Key distinctions
+
+- Mechanical correctness is distinct from judgement in an open situation.
+- Training-case application is distinct from competent organisational practice.
+
+### Historical development
+
+[]
+
+### Ideas it depends on
+
+[]
+
+### What develops from it
+
+[]
+
+### Connections to practice
+
+- Define the primary task and the social and technical arrangements.
+- Locate a significant variance and where it is currently controlled.
+- Design a joint change with minimum necessary constraints.
+- Test the whole work system.
+
+### Common confusions
+
+- A worked comparison is not the only acceptable answer to an open question.
+
+### Open questions and checks
+
+- A basic primary-work-system exercise informed by the socio-technical tradition. It is not a complete participative design process or a substitute for workers' and users' involvement.
+- Compare an independent attempt before revealing the worked answer.
+
+### Sources
+
+- Socio-Technical Systems: redesign the work and technology together — https://transduction.systems/systems-thinking/practice/socio-technical-systems/
+- Eric Trist: the evolution of socio-technical systems — https://www.systemspractice.org/resources/evolution-socio-technical-systems-conceptual-framework-and-action-research-program
+- SCiO competency framework resource guide (PDF) — https://www.dropbox.com/scl/fi/v5vl9o1e9gtwxbqiyb2no/SCiO-CF-Resources.pdf?rlkey=a9d5ckhbsdjld7ab3sp60jaj9&dl=0
+- Enid Mumford: an ethical approach to socio-technical design — https://doi.org/10.1007/978-1-349-14199-9_5
+- SCiO Professional Development — https://www.systemspractice.org/professional-development
+
+## Practice: SODA: build a means-ends map without erasing disagreement
+
+Type: Publication
+Public depth: profile
+
+Turn supplied statements into contrasting constructs and a traceable means-ends map. A basic cognitive-mapping rehearsal. It is not a full negotiated SODA intervention and does not turn participants' causal beliefs into established facts.
+
+### Summary
+
+Turn supplied statements into contrasting constructs and a traceable means-ends map. A basic cognitive-mapping rehearsal. It is not a full negotiated SODA intervention and does not turn participants' causal beliefs into established facts.
+
+### Why it matters
+
+A concrete rehearsal with a fictional case, explicit outputs and a way to inspect the result.
+
+### Key distinctions
+
+- Mechanical correctness is distinct from judgement in an open situation.
+- Training-case application is distinct from competent organisational practice.
+
+### Historical development
+
+[]
+
+### Ideas it depends on
+
+[]
+
+### What develops from it
+
+[]
+
+### Connections to practice
+
+- Construct four short concepts with meaningful contrasts.
+- Connect means to ends and retain the tension.
+- Find a candidate option that connects the concerns.
+
+### Common confusions
+
+- A worked comparison is not the only acceptable answer to an open question.
+
+### Open questions and checks
+
+- A basic cognitive-mapping rehearsal. It is not a full negotiated SODA intervention and does not turn participants' causal beliefs into established facts.
+- Compare an independent attempt before revealing the worked answer.
+
+### Sources
+
+- SODA: build a means-ends map without erasing disagreement — https://transduction.systems/systems-thinking/practice/soda/
+- Ackermann and Eden: Strategic options development and analysis, accepted manuscript — https://strathprints.strath.ac.uk/72174/
+- SCiO Professional Development — https://www.systemspractice.org/professional-development
+
+## Practice: Soft Systems Methodology: build a model that follows its purpose
+
+Type: Publication
+Public depth: profile
+
+Move from a messy situation through purposeful perspectives to a logically defensible activity model and comparison. A compact SSM rehearsal. The stages organise learning here; they are not a claim that SSM is a mandatory linear project sequence. An activity model is an inquiry device, not a description of what the organisation really is.
+
+### Summary
+
+Move from a messy situation through purposeful perspectives to a logically defensible activity model and comparison. A compact SSM rehearsal. The stages organise learning here; they are not a claim that SSM is a mandatory linear project sequence. An activity model is an inquiry device, not a description of what the organisation really is.
+
+### Why it matters
+
+A concrete rehearsal with a fictional case, explicit outputs and a way to inspect the result.
+
+### Key distinctions
+
+- Mechanical correctness is distinct from judgement in an open situation.
+- Training-case application is distinct from competent organisational practice.
+
+### Historical development
+
+[]
+
+### Ideas it depends on
+
+[]
+
+### What develops from it
+
+[]
+
+### Connections to practice
+
+- Make a rich picture of the situation.
+- Write two relevant root definitions using PQR.
+- Check the resident definition with CATWOE.
+- Build the minimum activity model for the resident definition.
+- Compare the model with the case and propose one accommodation.
+
+### Common confusions
+
+- A worked comparison is not the only acceptable answer to an open question.
+
+### Open questions and checks
+
+- A compact SSM rehearsal. The stages organise learning here; they are not a claim that SSM is a mandatory linear project sequence. An activity model is an inquiry device, not a description of what the organisation really is.
+- Compare an independent attempt before revealing the worked answer.
+
+### Sources
+
+- Soft Systems Methodology: build a model that follows its purpose — https://transduction.systems/systems-thinking/practice/soft-systems/
+- OU: soft systems approach, stages 1-7 — https://www.open.edu/openlearn/science-maths-technology/systems-engineering-challenging-complexity/content-section-3.9
+- OU: drawing systems maps, SAQ 3 and Activities 19-22 — https://www.open.edu/openlearn/digital-computing/managing-complexity-a-systems-approach-introduction/content-section-9.3
+- SCiO systems practice courses — https://www.systemspractice.org/courses/systems-practice
+
+## Practice: Syntegration: test the communication structure before the event
+
+Type: Publication
+Public depth: profile
+
+Understand overlapping participation and repeated cross-topic learning through a small structural rehearsal. A paper exercise about the classic structure, not delivery of a licensed or full Team Syntegrity event. It does not replace facilitation, topic formation, role allocation or the complete protocol. Other developed formats exist.
+
+### Summary
+
+Understand overlapping participation and repeated cross-topic learning through a small structural rehearsal. A paper exercise about the classic structure, not delivery of a licensed or full Team Syntegrity event. It does not replace facilitation, topic formation, role allocation or the complete protocol. Other developed formats exist.
+
+### Why it matters
+
+A concrete rehearsal with a fictional case, explicit outputs and a way to inspect the result.
+
+### Key distinctions
+
+- Mechanical correctness is distinct from judgement in an open situation.
+- Training-case application is distinct from competent organisational practice.
+
+### Historical development
+
+[]
+
+### Ideas it depends on
+
+[]
+
+### What develops from it
+
+[]
+
+### Connections to practice
+
+- Check the classic membership arithmetic.
+- Trace how the three-topic rehearsal can change the next discussion.
+- Identify what is lost in three isolated breakout groups followed by one report-back.
+- Test a proposed event design for exclusion and premature closure.
+
+### Common confusions
+
+- A worked comparison is not the only acceptable answer to an open question.
+
+### Open questions and checks
+
+- A paper exercise about the classic structure, not delivery of a licensed or full Team Syntegrity event. It does not replace facilitation, topic formation, role allocation or the complete protocol. Other developed formats exist.
+- Compare an independent attempt before revealing the worked answer.
+
+### Sources
+
+- Syntegration: test the communication structure before the event — https://transduction.systems/systems-thinking/practice/syntegration/
+- Metaphorum: Team Syntegrity structure and process — https://metaphorum.org/staffords-work/syntegration
+- SCiO competency framework resource guide (PDF) — https://www.dropbox.com/scl/fi/v5vl9o1e9gtwxbqiyb2no/SCiO-CF-Resources.pdf?rlkey=a9d5ckhbsdjld7ab3sp60jaj9&dl=0
+- Malik Syntegration: facilitated service — https://www.malik-management.com/malik-solutions/malik-tools-and-methods/malik-syntegration/
+
+## Practice: System Dynamics: build, calculate and challenge a queue model
+
+Type: Publication
+Public depth: profile
+
+Distinguish causal-loop reasoning from an executable stock-flow model and verify a small model by hand. An original discrete-time stock-flow rehearsal with a deliberately simple boundary. It is not a prediction of a real service and does not validate a model merely because it runs.
+
+### Summary
+
+Distinguish causal-loop reasoning from an executable stock-flow model and verify a small model by hand. An original discrete-time stock-flow rehearsal with a deliberately simple boundary. It is not a prediction of a real service and does not validate a model merely because it runs.
+
+### Why it matters
+
+A concrete rehearsal with a fictional case, explicit outputs and a way to inspect the result.
+
+### Key distinctions
+
+- Mechanical correctness is distinct from judgement in an open situation.
+- Training-case application is distinct from competent organisational practice.
+
+### Historical development
+
+[]
+
+### Ideas it depends on
+
+[]
+
+### What develops from it
+
+[]
+
+### Connections to practice
+
+- Draw the stock-flow structure and state its units.
+- Calculate the first four end-of-week backlogs.
+- Describe a balancing feedback that could generate the capacity decision.
+- Run two extreme-condition checks.
+- Identify a missing mechanism that could reverse the policy conclusion.
+
+### Common confusions
+
+- A worked comparison is not the only acceptable answer to an open question.
+
+### Open questions and checks
+
+- An original discrete-time stock-flow rehearsal with a deliberately simple boundary. It is not a prediction of a real service and does not validate a model merely because it runs.
+- Compare an independent attempt before revealing the worked answer.
+
+### Sources
+
+- System Dynamics: build, calculate and challenge a queue model — https://transduction.systems/systems-thinking/practice/system-dynamics/
+- MIT: System Dynamics Self Study, assignments and solutions — https://ocw.mit.edu/courses/15-988-system-dynamics-self-study-fall-1998-spring-1999/pages/assignments/
+- SCiO systems practice courses — https://www.systemspractice.org/courses/systems-practice
+
+## Practice: Systemic constellations: use a spatial representation as a hypothesis
+
+Type: Publication
+Public depth: profile
+
+Explore a fictional organisational relationship with objects, then test what the representation does and does not establish. A low-stakes tabletop orientation exercise only, not a full constellation facilitation or therapy. Spatial impressions are not evidence of absent people's feelings, motives or hidden historical facts. Use trained support for deeper work and never compel personal disclosure.
+
+### Summary
+
+Explore a fictional organisational relationship with objects, then test what the representation does and does not establish. A low-stakes tabletop orientation exercise only, not a full constellation facilitation or therapy. Spatial impressions are not evidence of absent people's feelings, motives or hidden historical facts. Use trained support for deeper work and never compel personal disclosure.
+
+### Why it matters
+
+A concrete rehearsal with a fictional case, explicit outputs and a way to inspect the result.
+
+### Key distinctions
+
+- Mechanical correctness is distinct from judgement in an open situation.
+- Training-case application is distinct from competent organisational practice.
+
+### Historical development
+
+[]
+
+### Ideas it depends on
+
+[]
+
+### What develops from it
+
+[]
+
+### Connections to practice
+
+- Arrange the objects to represent one interpretation of attention and contact.
+- Describe before interpreting.
+- Try a different arrangement and identify a real-world test.
+
+### Common confusions
+
+- A worked comparison is not the only acceptable answer to an open question.
+
+### Open questions and checks
+
+- A low-stakes tabletop orientation exercise only, not a full constellation facilitation or therapy. Spatial impressions are not evidence of absent people's feelings, motives or hidden historical facts. Use trained support for deeper work and never compel personal disclosure.
+- Compare an independent attempt before revealing the worked answer.
+
+### Sources
+
+- Systemic constellations: use a spatial representation as a hypothesis — https://transduction.systems/systems-thinking/practice/systemic-constellations/
+- SCiO competency framework resource guide (PDF) — https://www.dropbox.com/scl/fi/v5vl9o1e9gtwxbqiyb2no/SCiO-CF-Resources.pdf?rlkey=a9d5ckhbsdjld7ab3sp60jaj9&dl=0
+- John Whittington: Systemic Coaching and Constellations — https://www.koganpage.com/hr-learning-development/systemic-coaching-and-constellations-9781789662849
+
+## Practice: Systemic conversations: expose inference and repair a broken commitment
+
+Type: Publication
+Public depth: profile
+
+Separate data from inference and turn an ambiguous request into a discussable commitment. An original conversation exercise bridging several distinct practices. It does not certify coaching or facilitation skill, and should not be used to compel disclosure of personal or confidential material.
+
+### Summary
+
+Separate data from inference and turn an ambiguous request into a discussable commitment. An original conversation exercise bridging several distinct practices. It does not certify coaching or facilitation skill, and should not be used to compel disclosure of personal or confidential material.
+
+### Why it matters
+
+A concrete rehearsal with a fictional case, explicit outputs and a way to inspect the result.
+
+### Key distinctions
+
+- Mechanical correctness is distinct from judgement in an open situation.
+- Training-case application is distinct from competent organisational practice.
+
+### Historical development
+
+[]
+
+### Ideas it depends on
+
+[]
+
+### What develops from it
+
+[]
+
+### Connections to practice
+
+- Separate what was said from what was inferred.
+- Map the commitment sequence.
+- Draft a repair that combines advocacy and inquiry.
+- Name an undiscussable safely.
+
+### Common confusions
+
+- A worked comparison is not the only acceptable answer to an open question.
+
+### Open questions and checks
+
+- An original conversation exercise bridging several distinct practices. It does not certify coaching or facilitation skill, and should not be used to compel disclosure of personal or confidential material.
+- Compare an independent attempt before revealing the worked answer.
+
+### Sources
+
+- Systemic conversations: expose inference and repair a broken commitment — https://transduction.systems/systems-thinking/practice/systemic-conversations/
+- SCiO competency framework resource guide (PDF) — https://www.dropbox.com/scl/fi/v5vl9o1e9gtwxbqiyb2no/SCiO-CF-Resources.pdf?rlkey=a9d5ckhbsdjld7ab3sp60jaj9&dl=0
+- Wenger-Trayner: systems convening, free book and resources — https://www.wenger-trayner.com/systems-convening-book/
+- SCiO Professional Development — https://www.systemspractice.org/professional-development
+
+## Practice: Systems concepts: make your boundary inspectable
+
+Type: Publication
+Public depth: profile
+
+Construct and challenge two systems-of-interest descriptions without confusing your model with the situation. A first rehearsal of boundaries, relationships, perspectives, feedback and emergence. It is not a complete treatment of systems philosophy or complexity science.
+
+### Summary
+
+Construct and challenge two systems-of-interest descriptions without confusing your model with the situation. A first rehearsal of boundaries, relationships, perspectives, feedback and emergence. It is not a complete treatment of systems philosophy or complexity science.
+
+### Why it matters
+
+A concrete rehearsal with a fictional case, explicit outputs and a way to inspect the result.
+
+### Key distinctions
+
+- Mechanical correctness is distinct from judgement in an open situation.
+- Training-case application is distinct from competent organisational practice.
+
+### Historical development
+
+[]
+
+### Ideas it depends on
+
+[]
+
+### What develops from it
+
+[]
+
+### Connections to practice
+
+- Draw an OU-style systems map for the booking manager's system of interest.
+- Construct a second map from a visitor's purpose.
+- Write a testable feedback hypothesis about reduced assistance.
+- Locate yourself in the inquiry.
+
+### Common confusions
+
+- A worked comparison is not the only acceptable answer to an open question.
+
+### Open questions and checks
+
+- A first rehearsal of boundaries, relationships, perspectives, feedback and emergence. It is not a complete treatment of systems philosophy or complexity science.
+- Compare an independent attempt before revealing the worked answer.
+
+### Sources
+
+- Systems concepts: make your boundary inspectable — https://transduction.systems/systems-thinking/practice/systems-concepts/
+- OU: drawing systems maps, SAQ 3 and Activities 19-22 — https://www.open.edu/openlearn/digital-computing/managing-complexity-a-systems-approach-introduction/content-section-9.3
+- OU: systems maps, updated tutorial — https://www.open.edu/openlearn/science-maths-technology/engineering-technology/systems-maps
+- OU: systems diagramming — https://www.open.edu/openlearn/digital-computing/systems-diagramming/content-section-0
+- SCiO systems practice courses — https://www.systemspractice.org/courses/systems-practice
+
+## Practice: Systems laws: test variety, feedback and local optimisation
+
+Type: Publication
+Public depth: profile
+
+Use a small disturbance-response model to test a claim about regulation. Basic examples of requisite variety, feedback delay and whole-system effects. The SCiO row is broader; this page does not claim to cover every law in a systems-laws course.
+
+### Summary
+
+Use a small disturbance-response model to test a claim about regulation. Basic examples of requisite variety, feedback delay and whole-system effects. The SCiO row is broader; this page does not claim to cover every law in a systems-laws course.
+
+### Why it matters
+
+A concrete rehearsal with a fictional case, explicit outputs and a way to inspect the result.
+
+### Key distinctions
+
+- Mechanical correctness is distinct from judgement in an open situation.
+- Training-case application is distinct from competent organisational practice.
+
+### Historical development
+
+[]
+
+### Ideas it depends on
+
+[]
+
+### What develops from it
+
+[]
+
+### Connections to practice
+
+- Construct the disturbance-response table.
+- Design one legitimate attenuation and one amplification.
+- Test the five-day feedback delay.
+- Replace the local success claim with a test of the whole service.
+
+### Common confusions
+
+- A worked comparison is not the only acceptable answer to an open question.
+
+### Open questions and checks
+
+- Basic examples of requisite variety, feedback delay and whole-system effects. The SCiO row is broader; this page does not claim to cover every law in a systems-laws course.
+- Compare an independent attempt before revealing the worked answer.
+
+### Sources
+
+- Systems laws: test variety, feedback and local optimisation — https://transduction.systems/systems-thinking/practice/systems-laws/
+- SCiO competency framework resource guide (PDF) — https://www.dropbox.com/scl/fi/v5vl9o1e9gtwxbqiyb2no/SCiO-CF-Resources.pdf?rlkey=a9d5ckhbsdjld7ab3sp60jaj9&dl=0
+- OU: drawing systems maps, SAQ 3 and Activities 19-22 — https://www.open.edu/openlearn/digital-computing/managing-complexity-a-systems-approach-introduction/content-section-9.3
+- SCiO systems practice courses — https://www.systemspractice.org/courses/systems-practice
+
+## Practice: Transposing theory: move up to a pattern and back down
+
+Type: Publication
+Public depth: profile
+
+Test a structural analogy rather than importing a solution because two situations sound alike. A basic abstraction-and-return rehearsal for the framework's transposing-theory row. Its resource list also cites Yi Lin's systemic yoyo; this exercise does not teach or validate that distinct formal model. The terminology and intended depth should be checked with your tutor.
+
+### Summary
+
+Test a structural analogy rather than importing a solution because two situations sound alike. A basic abstraction-and-return rehearsal for the framework's transposing-theory row. Its resource list also cites Yi Lin's systemic yoyo; this exercise does not teach or validate that distinct formal model. The terminology and intended depth should be checked with your tutor.
+
+### Why it matters
+
+A concrete rehearsal with a fictional case, explicit outputs and a way to inspect the result.
+
+### Key distinctions
+
+- Mechanical correctness is distinct from judgement in an open situation.
+- Training-case application is distinct from competent organisational practice.
+
+### Historical development
+
+[]
+
+### Ideas it depends on
+
+[]
+
+### What develops from it
+
+[]
+
+### Connections to practice
+
+- Write the common structural pattern without using warehouse or council nouns.
+- Map the abstract elements into case B.
+- Derive a modest intervention and a falsification test.
+
+### Common confusions
+
+- A worked comparison is not the only acceptable answer to an open question.
+
+### Open questions and checks
+
+- A basic abstraction-and-return rehearsal for the framework's transposing-theory row. Its resource list also cites Yi Lin's systemic yoyo; this exercise does not teach or validate that distinct formal model. The terminology and intended depth should be checked with your tutor.
+- Compare an independent attempt before revealing the worked answer.
+
+### Sources
+
+- Transposing theory: move up to a pattern and back down — https://transduction.systems/systems-thinking/practice/transposing-theory/
+- SCiO competency framework resource guide (PDF) — https://www.dropbox.com/scl/fi/v5vl9o1e9gtwxbqiyb2no/SCiO-CF-Resources.pdf?rlkey=a9d5ckhbsdjld7ab3sp60jaj9&dl=0
+- OU: drawing systems maps, SAQ 3 and Activities 19-22 — https://www.open.edu/openlearn/digital-computing/managing-complexity-a-systems-approach-introduction/content-section-9.3
+- SCiO Professional Development — https://www.systemspractice.org/professional-development
+
+## Practice: Viable System Model: diagnose functions and channels
+
+Type: Publication
+Public depth: profile
+
+Choose a recursion, identify operational units, and test management functions without turning the VSM into an organisation chart. A basic organisational diagnosis. Functions can be distributed or combined in people and groups. The exercise does not establish that every multi-agency network has a single legitimate metasystem.
+
+### Summary
+
+Choose a recursion, identify operational units, and test management functions without turning the VSM into an organisation chart. A basic organisational diagnosis. Functions can be distributed or combined in people and groups. The exercise does not establish that every multi-agency network has a single legitimate metasystem.
+
+### Why it matters
+
+A concrete rehearsal with a fictional case, explicit outputs and a way to inspect the result.
+
+### Key distinctions
+
+- Mechanical correctness is distinct from judgement in an open situation.
+- Training-case application is distinct from competent organisational practice.
+
+### Historical development
+
+[]
+
+### Ideas it depends on
+
+[]
+
+### What develops from it
+
+[]
+
+### Connections to practice
+
+- State the focal system and one level above and below it.
+- Map the case evidence to Systems 1-5 and 3*.
+- Diagnose two channel failures.
+- Design a correction that preserves local autonomy.
+- Test the diagnosis with operational evidence.
+
+### Common confusions
+
+- A worked comparison is not the only acceptable answer to an open question.
+
+### Open questions and checks
+
+- A basic organisational diagnosis. Functions can be distributed or combined in people and groups. The exercise does not establish that every multi-agency network has a single legitimate metasystem.
+- Compare an independent attempt before revealing the worked answer.
+
+### Sources
+
+- Viable System Model: diagnose functions and channels — https://transduction.systems/systems-thinking/practice/viable-system-model/
+- Metaphorum: VSM mapping and editable diagrams — https://metaphorum.org/resources/vsm-mapping
+- Jon Walker: Viable Systems Model guide — https://www.esrad.org.uk/resources/vsmg_3/screen.php?page=home
+- SCiO systems practice courses — https://www.systemspractice.org/courses/systems-practice
+
 ## Presentation design
 
 Type: Intervention skill
@@ -10049,6 +11708,17 @@ A bibliographic first-pass person entry for R. S. Shaw, listed by the official F
 ### Sources
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## R. Storesund
+
+Type: Person
+Public depth: described
+
+Credited author of Tools, Exercises, and Strategies for Coping With Complexity.
+
+### Sources
+
+- Tools, Exercises, and Strategies for Coping With Complexity — https://www.igi-global.com/book/tools-exercises-strategies-coping-complexity/302472
 
 ## R. Uribe
 
@@ -10733,6 +12403,17 @@ Named in the historical reading list as an author or editor of The Transmission 
 
 - Wiener’s selected readings on cybernetics, 1951, 1952, 1956 — https://stream.syscoi.com/2026/09/05/28544/
 
+## Robert Rosen
+
+Type: Person
+Public depth: described
+
+A biologist whose archive provides access to work across biology, complexity, mathematics and epistemology. This entry identifies the collection; the submitted claims about anticipatory systems require a separate close-reading pass.
+
+### Sources
+
+- Robert Rosen scientific-work archive — https://www.rosenlife.org/
+
 ## Roger C. Conant
 
 Type: Person
@@ -11061,6 +12742,17 @@ SCiO provides a visible institutional and practitioner context for competency, a
 - What is SCiO? — https://www.systemspractice.org/professional-body
 - SCiO Professional Accreditation and Competency Framework — https://www.systemspractice.org/professional-accreditation
 - SCiO all courses — https://www.systemspractice.org/courses
+
+## Scope of holding (relational public services)
+
+Type: Concept
+Public depth: described
+
+The paper’s axis for where sense-making, capability, uncertainty, resources and risk are carried: encounter, service, system conditions, place or citizen association.
+
+### Sources
+
+- What the boundary cannot carry alone, working redraft v3 — https://antlerboy.com/library/what-the-boundary-cannot-carry-alone/
 
 ## Second Black Box Principle
 
@@ -11396,6 +13088,18 @@ It connects systems inquiry to the design and operation of services without assu
 - Pattern Manual for Service Systems Thinking — https://coevolving.com/commons/20161028-pattern-manual-for-service-systems-thinking
 - David Ing — Coevolving Innovations publications — https://coevolving.com/commons/publications
 
+## She Ji: The Journal of Design, Economics, and Innovation
+
+Type: Corpus
+Public depth: described
+
+Journal named in the submitted recommendation. Article-level review remains open.
+
+### Sources
+
+- She Ji: The Journal of Design, Economics, and Innovation — https://www.sciencedirect.com/journal/she-ji-the-journal-of-design-economics-and-innovation
+- David Ing: core readings for Understanding Systems — https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5558769097
+
 ## Short bibliography, described as 1956 — Wiener
 
 Type: Comparator corpus
@@ -11719,6 +13423,28 @@ Strategic Options Development and Analysis uses cognitive mapping and facilitate
 
 - Understanding systems thinking in practice (Open University) — https://www.open.edu/openlearn/science-maths-technology/understanding-systems-thinking-practice-stip
 
+## Strategy ceiling (Taylor and Boxer)
+
+Type: Concept
+Public depth: described
+
+The point above which learning from an encounter cannot alter the rules, resources, measures or institutional choices shaping it.
+
+### Sources
+
+- What the boundary cannot carry alone, working redraft v3 — https://antlerboy.com/library/what-the-boundary-cannot-carry-alone/
+
+## Structural coupling
+
+Type: Concept
+Public depth: described
+
+Repeated system-environment interaction can shape the structures through which further interaction occurs. The FEM project uses this idea to identify consequential enterprise-environment relationships; that application is narrower than the biological concept.
+
+### Sources
+
+- Structural coupling through FEM — https://fractalmodel.blogs.dsv.su.se/structural-coupling-2/
+
 ## Structural Viability Theorem
 
 Type: Law or principle
@@ -11820,6 +13546,7 @@ A systems practitioner and educator associated with Soft Systems Methodology, sy
 ### Sources
 
 - Systems Approaches to Making Change: A Practical Guide — https://www.systemspractice.org/resources/systems-approaches-making-change-practical-guide
+- Systems Approaches to Making Change: A Practical Guide — https://link.springer.com/book/10.1007/978-1-4471-7472-1
 
 ## Synergetics
 
@@ -12062,6 +13789,58 @@ Gerald Midgley's book; it provides public context but does not verify Nested Min
 - Systemic Intervention: Philosophy, Methodology, and Practice — https://hull-repository.worktribe.com/output/385209
 - Professor Gerald Midgley — University of Hull — https://www.hull.ac.uk/staff-directory/gerald-midgley
 
+## Systemic systems methods practice for systems practice (alpha)
+
+Type: Publication
+Public depth: profile
+
+An alpha collection of 26 free technical dry runs by Benjamin P Taylor (2026), developed in response to apprentice requests during teaching with SCiO. Fictional cases, worked examples and answers support technical learning without replacing real-world systems practice. Independent specialist pedagogical review is not recorded.
+
+### Summary
+
+An alpha collection of 26 free technical dry runs by Benjamin P Taylor (2026), developed in response to apprentice requests during teaching with SCiO. Fictional cases, worked examples and answers support technical learning without replacing real-world systems practice. Independent specialist pedagogical review is not recorded.
+
+### Why it matters
+
+A concrete rehearsal with a fictional case, explicit outputs and a way to inspect the result.
+
+### Key distinctions
+
+- Mechanical correctness is distinct from judgement in an open situation.
+- Training-case application is distinct from competent organisational practice.
+
+### Historical development
+
+[]
+
+### Ideas it depends on
+
+[]
+
+### What develops from it
+
+[]
+
+### Connections to practice
+
+- Choose a method, make a model, compare the reasoning, repair it and try the changed case.
+- Open the free practice pages and the resource register through the linked source.
+
+### Common confusions
+
+- A worked comparison is not the only acceptable answer to an open question.
+
+### Open questions and checks
+
+- Independent specialist pedagogical review remains open.
+- Organisational competence and behaviours require real-world evidence.
+
+### Sources
+
+- Systemic systems methods practice for systems practice (alpha) — https://transduction.systems/systems-thinking/practice/
+- SCiO competency self-assessment portfolio (PDF) — https://www.dropbox.com/scl/fi/xqa3md8ppxgafb25qt8in/SCiO-Competency-Framework-self-assess-portfolio.pdf?rlkey=07bv1jrsecpuwltghsecaop2h&dl=0
+- Systems Thinking Practitioner apprenticeship standard ST0787 v1.2 — https://skillsengland.education.gov.uk/apprenticeships/st0787-v1-2
+
 ## Systems Approaches to Making Change
 
 Type: Publication
@@ -12119,6 +13898,8 @@ It connects Patrick Hoverstadt's work to Martin Reynolds and Sue Holwell and giv
 ### Sources
 
 - Systems Approaches to Making Change: A Practical Guide — https://www.systemspractice.org/resources/systems-approaches-making-change-practical-guide
+- Systems Approaches to Making Change: A Practical Guide — https://link.springer.com/book/10.1007/978-1-4471-7472-1
+- David Ing: core readings for Understanding Systems — https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5558769097
 
 ## Systems change
 
@@ -12793,6 +14574,8 @@ The book is both an unusually useful map and an example of canon formation. Its 
 - Systems Thinkers, second edition — https://link.springer.com/book/10.1007/978-1-4471-7475-2
 - Systems Thinkers (2nd edition) — Open Research Online — https://oro.open.ac.uk/69810/
 - On boundaries and disciplines: constructing a set of key systems thinkers — https://oro.open.ac.uk/5446/
+- Systems Thinkers — https://link.springer.com/book/10.1007/978-1-4471-7475-2
+- David Ing: core readings for Understanding Systems — https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5558769097
 
 ## Systems Thinking, Systems Practice
 
@@ -13782,6 +15565,18 @@ M. S. Granovetter, ‘The Strength of Weak Ties’ (1973); item 44 in volume 2 o
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
 
+## The Systems Thinker
+
+Type: Corpus
+Public depth: described
+
+Publisher’s About page and the submitted reading recommendation. An archive of multiple authors, not one authored theory.
+
+### Sources
+
+- The Systems Thinker — https://thesystemsthinker.com/about/
+- David Ing: core readings for Understanding Systems — https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5558769097
+
 ## The Tavistock Institute of Human Relations
 
 Type: Organisation
@@ -14182,6 +15977,18 @@ Ask whether people able to detect a danger can get those with power to act on it
 - Wiener’s selected readings on cybernetics, 1951, 1952, 1956 — https://stream.syscoi.com/2026/09/05/28544/
 - Too Damn Close — https://www.theatlantic.com/magazine/archive/1950/07/too-damn-close/639607/
 
+## Tools, Exercises, and Strategies for Coping With Complexity
+
+Type: Publication
+Public depth: described
+
+Publication metadata and the submitted reading recommendation checked; full text not reviewed.
+
+### Sources
+
+- Tools, Exercises, and Strategies for Coping With Complexity — https://www.igi-global.com/book/tools-exercises-strategies-coping-complexity/302472
+- David Ing: core readings for Understanding Systems — https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5558769097
+
 ## Towards a General Theory of Adaptive Walks on Rugged Landscapes
 
 Type: Publication
@@ -14380,6 +16187,18 @@ Uncertainty is the limited ability to know which state, explanation or outcome a
 
 - The Grammar of Systems - SCiO presentation — https://www.systemspractice.org/resources/grammar-systems
 - The Grammar of Systems II: From Order to Chaos and Back Again, 2nd edition — https://www.systemspractice.org/resources/grammar-systems-ii-order-chaos-back-again-2nd-ed
+
+## Understanding Systems: Ing’s OCAD reading route
+
+Type: Corpus
+Public depth: described
+
+A guided entrance to the six resources identified in David Ing’s recommendation for the winter 2026 OCAD course. The complete 13-week pro forma remains a separate source-reading task.
+
+### Sources
+
+- David Ing: core readings for Understanding Systems — https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5558769097
+- Understanding Systems: SFIN-6011 winter 2026 pro forma — https://coevolving.com/ocadu/202601-sfin-6011/pro-forma/Whole_2026_SFIN6011_pro-forma_v0101a.html
 
 ## Understanding Understanding
 
@@ -15279,6 +17098,57 @@ CSH gives boundary critique a disciplined form. It makes the normative assumptio
 ### Sources
 
 - A Mini-Primer of Critical Systems Heuristics — https://wulrich.com/csh.html
+
+## What the boundary cannot carry alone
+
+Type: Publication
+Public depth: profile
+
+A relational encounter can improve while the organisation behind it remains unchanged. Taylor and Boxer distinguish form of response, scope of holding, health and fit, then propose four organisational conditions for sustaining relational public services.
+
+### Summary
+
+A relational encounter can improve while the organisation behind it remains unchanged. Taylor and Boxer distinguish form of response, scope of holding, health and fit, then propose four organisational conditions for sustaining relational public services.
+
+### Why it matters
+
+It makes the organisational demands behind relational practice explicit, including what evidence must be able to change.
+
+### Key distinctions
+
+- Form of response differs from scope of holding.
+- A wider scope is not necessarily healthier or better fitted to demand.
+- Relational behaviour differs from authority to revise rules and resources.
+
+### Historical development
+
+[]
+
+### Ideas it depends on
+
+[]
+
+### What develops from it
+
+[]
+
+### Connections to practice
+
+- Start with actual demand in citizens’ words.
+- Ask who carries the work and risk, and what happens to learning.
+
+### Common confusions
+
+[]
+
+### Open questions and checks
+
+- The authors describe a practitioner proposition, not a validated instrument.
+- Title-page v3 is retained; the source’s running footer still says v1.
+
+### Sources
+
+- What the boundary cannot carry alone, working redraft v3 — https://antlerboy.com/library/what-the-boundary-cannot-carry-alone/
 
 ## Will a Large Complex System Be Stable?
 

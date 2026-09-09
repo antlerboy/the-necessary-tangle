@@ -6,6 +6,56 @@ X-WR-CALNAME:American Society for Cybernetics (ASC)
 REFRESH-INTERVAL:P1D
 X-PUBLISHED-TTL:PT24H
 BEGIN:VEVENT
+SUMMARY:Conversational Confluences\, American Society for Cybernetics Conf
+ erence 2026
+DTSTART:20260802T220000Z
+DTEND:20260807T215959Z
+DTSTAMP:20260906T191842Z
+UID:4fc08fcb2c47ef70a3e9f34c@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Systems thinking,Cybernetics
+DESCRIPTION:American Society for Cybernetics\nConversational Confluences\,
+  to be held in Ouro Preto\, Brazil\, from August 3–7\, 2026. Founded in 
+ 1964\, the ASC has long been a home for those exploring cybernetics as con
+ versation — a way of understanding systems\, relations\, and acts of par
+ ticipation in the world. Each ASC conference offers a space for shared inq
+ uiry and experimentation\, where […]\nLanguage: Not specified\nLanguage 
+ requirements: Not specified\nInterpretation: Not specified\nAccess: See or
+ ganiser\nhttps://ifsr.org/event/conversational-confluences-american-societ
+ y-for-cybernetics-conference-2026/\nSource could not be fully rechecked.\n
+ This event could not be rechecked on the latest collection. Confirm with t
+ he organiser.
+LAST-MODIFIED:20260906T191842Z
+LOCATION:Ouro Preto\, Brazil\, Ouro Preto\, Brazil
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://ifsr.org/event/conversational-confluences-american-society-for
+ -cybernetics-conference-2026/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:RSD15 / RSDX-ASC: Conversational Confluences online series
+DTSTART;VALUE=DATE:20260824
+DTEND;VALUE=DATE:20260828
+DTSTAMP:20260909T085057Z
+UID:99e564f66eea2967812a7cf4@systemsmap.antlerboy.com
+SEQUENCE:5
+CATEGORIES:Systems thinking,Cybernetics,Systemic design
+DESCRIPTION:American Society for Cybernetics and Systemic Design Associati
+ on\nThe online RSD15 programme continuing conversations from the ASC confe
+ rence. This is a separate series from the in-person Ouro Preto conference 
+ of 3-7 August\, not one continuous August-November event.\nLanguage: Not s
+ pecified\nLanguage requirements: Not specified\nInterpretation: Not specif
+ ied\nAccess: See organiser\nhttps://rsdsymposium.org/rsd15-cybernetics/\nO
+ fficial programme checked 7 September 2026: 24-27 August. Calendar end dat
+ e is exclusive.\nDate-only listing\; check the organiser for session times
+ .
+LAST-MODIFIED:20260909T085057Z
+LOCATION:Online
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://rsdsymposium.org/rsd15-cybernetics/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Speaker Series 7#1: Cyber-Renaissance
 DTSTART:20260920T160000Z
 DTSTAMP:20260906T191842Z
@@ -15,7 +65,9 @@ CATEGORIES:Cybernetics
 DESCRIPTION:American Society for Cybernetics (ASC)\n\nLanguage: Not specif
  ied\nLanguage requirements: Not specified\nInterpretation: Not specified\n
  Access: See organiser\nhttps://asc-cybernetics.org/initiatives/speaker-ser
- ies-wg/speaker-series-season-71/
+ ies-wg/speaker-series-season-71/\nSource could not be fully rechecked.\nTh
+ is event could not be rechecked on the latest collection. Confirm with the
+  organiser.
 LAST-MODIFIED:20260906T191842Z
 LOCATION:Online
 STATUS:CONFIRMED

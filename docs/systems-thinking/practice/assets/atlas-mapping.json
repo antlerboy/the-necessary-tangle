@@ -1,0 +1,223 @@
+[
+  {
+    "lab_id": "systems-concepts",
+    "resource_node_id": "practice_lab_systems_concepts",
+    "method_node_ids": [
+      "concept_boundary"
+    ],
+    "scope": "A first rehearsal of boundaries, relationships, perspectives, feedback and emergence. It is not a complete treatment of systems philosophy or complexity science."
+  },
+  {
+    "lab_id": "systems-laws",
+    "resource_node_id": "practice_lab_systems_laws",
+    "method_node_ids": [
+      "concept_requisite_variety",
+      "law_or_principle_law_of_requisite_variety",
+      "concept_feedback"
+    ],
+    "scope": "Basic examples of requisite variety, feedback delay and whole-system effects. The SCiO row is broader; this page does not claim to cover every law in a systems-laws course."
+  },
+  {
+    "lab_id": "transposing-theory",
+    "resource_node_id": "practice_lab_transposing_theory",
+    "method_node_ids": [],
+    "scope": "A basic abstraction-and-return rehearsal for the framework's transposing-theory row. Its resource list also cites Yi Lin's systemic yoyo; this exercise does not teach or validate that distinct formal model. The terminology and intended depth should be checked with your tutor."
+  },
+  {
+    "lab_id": "soft-systems",
+    "resource_node_id": "practice_lab_soft_systems",
+    "method_node_ids": [
+      "method_or_methodology_soft_systems_methodology_ssm",
+      "tool_rich_picture"
+    ],
+    "scope": "A compact SSM rehearsal. The stages organise learning here; they are not a claim that SSM is a mandatory linear project sequence. An activity model is an inquiry device, not a description of what the organisation really is."
+  },
+  {
+    "lab_id": "system-dynamics",
+    "resource_node_id": "practice_lab_system_dynamics",
+    "method_node_ids": [
+      "method_or_methodology_system_dynamics",
+      "tool_stock_and_flow_diagrams",
+      "concept_unfix_causal_loop_diagrams"
+    ],
+    "scope": "An original discrete-time stock-flow rehearsal with a deliberately simple boundary. It is not a prediction of a real service and does not validate a model merely because it runs."
+  },
+  {
+    "lab_id": "viable-system-model",
+    "resource_node_id": "practice_lab_viable_system_model",
+    "method_node_ids": [
+      "method_or_methodology_viable_system_model_vsm",
+      "concept_recursion"
+    ],
+    "scope": "A basic organisational diagnosis. Functions can be distributed or combined in people and groups. The exercise does not establish that every multi-agency network has a single legitimate metasystem."
+  },
+  {
+    "lab_id": "critical-systems-heuristics",
+    "resource_node_id": "practice_lab_critical_systems_heuristics",
+    "method_node_ids": [
+      "method_or_methodology_critical_systems_heuristics_csh",
+      "concept_boundary_critique"
+    ],
+    "scope": "This exercise checks the completeness and consistency of boundary reasoning. It does not supply a morally unique answer or pretend that the practitioner represents every affected person."
+  },
+  {
+    "lab_id": "confrontation-analysis",
+    "resource_node_id": "practice_lab_confrontation_analysis",
+    "method_node_ids": [
+      "method_or_methodology_confrontation_analysis_conan"
+    ],
+    "scope": "An introductory confrontation-analysis rehearsal, not a full formal classification of dilemmas or a prediction of behaviour. Consent, new options and changing preferences remain possible."
+  },
+  {
+    "lab_id": "informed-group-dynamics",
+    "resource_node_id": "practice_lab_informed_group_dynamics",
+    "method_node_ids": [
+      "method_or_methodology_informed_group_dynamics"
+    ],
+    "scope": "An original introductory rehearsal using the publicly described INFORMED framing and personal-construct orientation. It is not Marguet's complete taught protocol, a personality assessment, or a validated repertory-grid diagnosis. Use supervised teaching for the fuller approach."
+  },
+  {
+    "lab_id": "interactive-management",
+    "resource_node_id": "practice_lab_interactive_management",
+    "method_node_ids": [
+      "method_or_methodology_interactive_management"
+    ],
+    "scope": "This rehearses one modelling component of Interactive Management. It does not reproduce its full facilitated group process or establish group agreement. The external handbook's free-download availability is uncertain, so the complete case is supplied here."
+  },
+  {
+    "lab_id": "interactive-planning",
+    "resource_node_id": "practice_lab_interactive_planning",
+    "method_node_ids": [
+      "method_or_methodology_interactive_planning",
+      "person_russell_l_ackoff"
+    ],
+    "scope": "A small rehearsal of Ackoff's interactive planning and idealised design. It is not an invitation to ignore present feasibility, affected people or implementation."
+  },
+  {
+    "lab_id": "mosaic-transformation",
+    "resource_node_id": "practice_lab_mosaic_transformation",
+    "method_node_ids": [
+      "method_or_methodology_mosaic_transformation",
+      "method_or_methodology_bubble_strategy"
+    ],
+    "scope": "An original small rehearsal of published sequencing ideas. It does not reproduce a proprietary training exercise or claim that a protected bubble is a complete Mosaic transformation."
+  },
+  {
+    "lab_id": "multi-methodology",
+    "resource_node_id": "practice_lab_multi_methodology",
+    "method_node_ids": [
+      "method_or_methodology_multi_methodology_including_sosm",
+      "tradition_critical_systems_thinking",
+      "method_or_methodology_systemic_intervention"
+    ],
+    "scope": "A basic methodological design exercise. There is no universal correct sequence. The checks concern fit, assumptions and transitions, not allegiance to one classification of methods."
+  },
+  {
+    "lab_id": "patterns-of-strategy",
+    "resource_node_id": "practice_lab_patterns_of_strategy",
+    "method_node_ids": [
+      "method_or_methodology_patterns_of_strategy"
+    ],
+    "scope": "An original introductory relationship exercise. It does not reproduce the book's pattern catalogue or claim that one numerical ratio captures strategic power."
+  },
+  {
+    "lab_id": "socio-technical-systems",
+    "resource_node_id": "practice_lab_socio_technical_systems",
+    "method_node_ids": [
+      "method_or_methodology_socio_technical_systems"
+    ],
+    "scope": "A basic primary-work-system exercise informed by the socio-technical tradition. It is not a complete participative design process or a substitute for workers' and users' involvement."
+  },
+  {
+    "lab_id": "syntegration",
+    "resource_node_id": "practice_lab_syntegration",
+    "method_node_ids": [
+      "method_or_methodology_syntegration_team_syntegrity"
+    ],
+    "scope": "A paper exercise about the classic structure, not delivery of a licensed or full Team Syntegrity event. It does not replace facilitation, topic formation, role allocation or the complete protocol. Other developed formats exist."
+  },
+  {
+    "lab_id": "soda",
+    "resource_node_id": "practice_lab_soda",
+    "method_node_ids": [
+      "method_or_methodology_strategic_options_development_and_analysis_soda"
+    ],
+    "scope": "A basic cognitive-mapping rehearsal. It is not a full negotiated SODA intervention and does not turn participants' causal beliefs into established facts."
+  },
+  {
+    "lab_id": "fractal-enterprise-model",
+    "resource_node_id": "practice_lab_fractal_enterprise_model",
+    "method_node_ids": [
+      "intervention_skill_fractal_enterprise_model_and_capabilities"
+    ],
+    "scope": "A first FEM modelling exercise using explicit text relations. Follow the linked reference guides for the complete notation and allowed label combinations."
+  },
+  {
+    "lab_id": "critical-social-learning",
+    "resource_node_id": "practice_lab_critical_social_learning",
+    "method_node_ids": [
+      "intervention_skill_critical_social_learning_systems",
+      "intervention_skill_action_research",
+      "intervention_skill_appreciative_inquiry",
+      "practice_systems_convening"
+    ],
+    "scope": "A bridge exercise across related but distinct approaches. Vickers' appreciative systems are not identical to Cooperrider's 4D Appreciative Inquiry. Systems convening offers practical social-learning resources, not a claim to be the same named methodology."
+  },
+  {
+    "lab_id": "service-systems",
+    "resource_node_id": "practice_lab_service_systems",
+    "method_node_ids": [
+      "intervention_skill_vanguard_method"
+    ],
+    "scope": "A bridge to systemic service improvement, not a full Vanguard, Lean or Six Sigma course. These traditions are distinct; this exercise does not validate statistical process-control competence."
+  },
+  {
+    "lab_id": "participative-inquiry",
+    "resource_node_id": "practice_lab_participative_inquiry",
+    "method_node_ids": [
+      "intervention_skill_stakeholder_analysis",
+      "concept_boundary_critique"
+    ],
+    "scope": "A basic inquiry-design rehearsal. An invented engagement plan is not evidence of actual facilitation, safe participation or sustained relationships."
+  },
+  {
+    "lab_id": "futures-and-probes",
+    "resource_node_id": "practice_lab_futures_and_probes",
+    "method_node_ids": [
+      "concept_complexity"
+    ],
+    "scope": "A bridge to apprenticeship duties 8-10. Scenario analysis, sensitivity testing and safe-to-fail probes are distinct activities; none is a guarantee about the future."
+  },
+  {
+    "lab_id": "ethics-and-power",
+    "resource_node_id": "practice_lab_ethics_and_power",
+    "method_node_ids": [
+      "method_or_methodology_critical_systems_heuristics_csh"
+    ],
+    "scope": "A generic ethical reasoning exercise. It cannot establish compliance with sector-specific law, safeguarding or professional requirements. Those require qualified, contextual checks before real action."
+  },
+  {
+    "lab_id": "evaluation-and-reflexivity",
+    "resource_node_id": "practice_lab_evaluation_and_reflexivity",
+    "method_node_ids": [
+      "intervention_skill_action_research",
+      "concept_double_loop_learning"
+    ],
+    "scope": "A basic mixed-evidence evaluation rehearsal. It is not a complete impact evaluation, statistical inference course or assessment of real practitioner behaviour."
+  },
+  {
+    "lab_id": "systemic-constellations",
+    "resource_node_id": "practice_lab_systemic_constellations",
+    "method_node_ids": [],
+    "scope": "A low-stakes tabletop orientation exercise only, not a full constellation facilitation or therapy. Spatial impressions are not evidence of absent people's feelings, motives or hidden historical facts. Use trained support for deeper work and never compel personal disclosure."
+  },
+  {
+    "lab_id": "systemic-conversations",
+    "resource_node_id": "practice_lab_systemic_conversations",
+    "method_node_ids": [
+      "intervention_skill_ladder_of_inference",
+      "intervention_skill_productive_conversations"
+    ],
+    "scope": "An original conversation exercise bridging several distinct practices. It does not certify coaching or facilitation skill, and should not be used to compel disclosure of personal or confidential material."
+  }
+]

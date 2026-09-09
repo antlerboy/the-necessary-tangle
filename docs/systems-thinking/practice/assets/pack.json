@@ -1,0 +1,3022 @@
+{
+  "version": "1.0",
+  "checked_on": "2026-09-07",
+  "labs": [
+    {
+      "id": "systems-concepts",
+      "title": "Systems concepts: make your boundary inspectable",
+      "section": "Foundations",
+      "standard": "Systemic thinking & systems concepts",
+      "ksb": [
+        "K1",
+        "S1",
+        "S2",
+        "S3",
+        "S9"
+      ],
+      "time": 35,
+      "focus": "Construct and challenge two systems-of-interest descriptions without confusing your model with the situation.",
+      "scope": "A first rehearsal of boundaries, relationships, perspectives, feedback and emergence. It is not a complete treatment of systems philosophy or complexity science.",
+      "atlas": [
+        "Systems thinking",
+        "Boundary",
+        "Second-order cybernetics"
+      ],
+      "resources": [
+        "ou-maps",
+        "ou-map-tutorial",
+        "ou-diagramming"
+      ],
+      "paid": [
+        "scio-courses"
+      ],
+      "scenario": "Fictional case: Riverbank Library has a computer-booking service. Staff count a booking as successful when a slot is allocated. In one week 80 slots are allocated, 30 are not used, and 20 visitors leave without completing the online application they came to make. The booking form is online. A community group helps people who cannot use it; this work is absent from the library's statistics. Managers propose reducing staff assistance to allocate more slots. Staff predict that visitors will return repeatedly for help. Neither prediction has yet been tested.",
+      "rounds": [
+        {
+          "task": "Draw an OU-style systems map for the booking manager's system of interest.",
+          "output": "A titled containment map with one stated purpose and boundary.",
+          "answer": "One defensible title is 'Allocating computer slots'. Within its boundary place the booking process, slot records and allocation staff; put visitors, the community group and application websites in the environment. Containment means inclusion, not causation or seniority. This boundary can be useful for allocation work, but it excludes whether a visitor completes an application. Explain that exclusion rather than pretending the map covers the whole situation."
+        },
+        {
+          "task": "Construct a second map from a visitor's purpose.",
+          "output": "A second boundary and a short explanation of what changed.",
+          "answer": "A visitor may define the activity as 'Getting an application completed'. Include access to equipment, assistance, credentials, information and the application process. The library is now one contributor, not the centre of the universe. Include the community group's work. Different maps need not be merged into one allegedly objective map: their purposes differ."
+        },
+        {
+          "task": "Write a testable feedback hypothesis about reduced assistance.",
+          "output": "One closed causal sentence and one observation that could challenge it.",
+          "answer": "Less assistance may increase incomplete applications, which may increase repeat visits, which may consume assistance time and further reduce available assistance. This is a proposed reinforcing loop, not a fact established by the numbers. Compare repeat visits and assistance time before and during a small reversible change. A fall in repeats despite reduced assistance would challenge the proposed mechanism."
+        },
+        {
+          "task": "Locate yourself in the inquiry.",
+          "output": "A two-sentence observer note.",
+          "answer": "For example: 'I selected completed applications as important because I am taking the visitor's purpose seriously. My questions and reporting may make staff prioritise that measure, so I will ask who loses access or becomes invisible under this new boundary.' Naming the observer does not make every account equally adequate; each still needs evidence and a stated use."
+        }
+      ],
+      "checks": [
+        {
+          "q": "Does 80 allocated slots establish 80 successful visitor outcomes?",
+          "options": [
+            "Yes: an output is an outcome",
+            "No: allocation and completion are different observations",
+            "No: all 80 bookings failed"
+          ],
+          "correct": 1,
+          "explanation": "Allocation is an output. The case does not establish 80 completed applications, nor does it establish that all bookings failed. The figures may overlap; do not subtract them as though they were disjoint categories."
+        },
+        {
+          "q": "What does a boundary in an OU systems map primarily show?",
+          "options": [
+            "A causal influence",
+            "An editorial inclusion in a stated system of interest",
+            "A manager's authority"
+          ],
+          "correct": 1,
+          "explanation": "Containment identifies inclusion at the chosen level. Causal influence and authority require other representations or explicit additional notation."
+        },
+        {
+          "q": "Which observation supports emergence without claiming magic?",
+          "options": [
+            "Repeated local booking decisions can generate an access pattern nobody intended",
+            "Every large organisation is unpredictable in every respect",
+            "A whole has no relationship to its parts"
+          ],
+          "correct": 0,
+          "explanation": "An aggregate pattern can arise through interactions rather than anyone designing it. That does not imply universal unpredictability or the irrelevance of components."
+        }
+      ],
+      "repair": {
+        "broken": "The map places every organisation in one circle labelled 'the whole system' and claims that everyone shares the library's success measure.",
+        "fix": "Give the map a purpose, author, boundary and date. Distinguish an allocation perspective from an application-completion perspective. Record disagreement and missing information. 'Whole' is a claim to examine, not a label that removes the boundary problem."
+      },
+      "retry": {
+        "task": "A new manager counts only applications completed on library computers. What exclusion could this introduce, and how would you test it?",
+        "answer": "People who complete applications later at home or with the community group disappear from the outcome measure. So may people prevented from attending. Ask a sample of visitors about later completion and contact the community group with permission. Do not solve the exclusion merely by broadening a diagram without changing how evidence is collected."
+      },
+      "criteria": [
+        "Each map has a purpose and an explicit boundary.",
+        "Containment and causal links are not conflated.",
+        "Observed facts, interpretations and predictions are distinguished.",
+        "The observer's choices and an excluded perspective are named."
+      ]
+    },
+    {
+      "id": "systems-laws",
+      "title": "Systems laws: test variety, feedback and local optimisation",
+      "section": "Foundations",
+      "standard": "Systems Laws",
+      "ksb": [
+        "K1",
+        "S1",
+        "S3",
+        "S4"
+      ],
+      "time": 40,
+      "focus": "Use a small disturbance-response model to test a claim about regulation.",
+      "scope": "Basic examples of requisite variety, feedback delay and whole-system effects. The SCiO row is broader; this page does not claim to cover every law in a systems-laws course.",
+      "atlas": [
+        "Law of requisite variety",
+        "Requisite variety",
+        "Feedback"
+      ],
+      "resources": [
+        "scio-reading",
+        "ou-maps"
+      ],
+      "paid": [
+        "scio-courses"
+      ],
+      "scenario": "Fictional case: a help desk receives four mutually exclusive request states: A password reset, B identity discrepancy, C accessibility support and D suspected fraud. Its safe responses are R1 an automated reset for A, R2 a trained identity investigation for B, R3 supported access for C and R4 a fraud investigation for D. Applying any other response to a state leaves an unacceptable outcome in this deliberately simplified exercise. The new portal can recognise only 'ordinary' and 'exceptional', and offers only R1 or 'send an email'. Replies to that email take five working days. Managers propose counting cases closed by the portal as success.",
+      "rounds": [
+        {
+          "task": "Construct the disturbance-response table.",
+          "output": "Four rows showing the necessary distinction, safe response and current gap.",
+          "answer": "A requires R1 and is handled. B requires R2, C requires R3 and D requires R4; the portal's email route does not itself supply those responses. Four labels alone do not solve the problem: recognition, authority, capability and timeliness must support the matching action. In this toy case the safe-response sets are disjoint, so a regulator restricted to two effective responses cannot meet all four requirements."
+        },
+        {
+          "task": "Design one legitimate attenuation and one amplification.",
+          "output": "Two changes, each explaining what variety is changed.",
+          "answer": "An authorised upstream identity correction could prevent some B discrepancies arising: it changes the disturbance reaching the desk. Training and authorising an adviser to distinguish B, C and D and route them immediately increases effective response variety. Hiding fraud or accessibility requests from the report merely suppresses information; it does not attenuate the underlying need safely."
+        },
+        {
+          "task": "Test the five-day feedback delay.",
+          "output": "A failure mechanism and an observable warning signal.",
+          "answer": "People may resubmit while waiting, increasing workload before the original exception is resolved. Track unique people, repeated submissions, waiting age and unresolved risk, not just portal closures. A lagged weekly total can look reassuring while urgent exceptions accumulate. More frequent reporting helps only if someone can act on the signal."
+        },
+        {
+          "task": "Replace the local success claim with a test of the whole service.",
+          "output": "One outcome measure and one counter-measure.",
+          "answer": "Measure safe resolution of the person's request end to end, with unresolved age and access exclusions as counter-measures. Portal closures may be retained as an operational count, but cannot substitute for resolution. The chosen definition of 'safe' and who can contest it must remain explicit."
+        }
+      ],
+      "checks": [
+        {
+          "q": "Under this case's disjoint-response assumption, how many distinguishable effective responses are required?",
+          "options": [
+            "Two, because there are two portal labels",
+            "Four",
+            "An unlimited number"
+          ],
+          "correct": 1,
+          "explanation": "Four states require four different safe responses in this constructed model. This is not a universal rule that four categories always require four employees or channels."
+        },
+        {
+          "q": "Which proposal changes the disturbance rather than merely hiding it?",
+          "options": [
+            "Exclude inaccessible requests from the dashboard",
+            "Correct a recurring upstream identity-record defect",
+            "Rename all exceptions 'ordinary'"
+          ],
+          "correct": 1,
+          "explanation": "Correcting the defect can reduce actual discrepancies. Exclusion and relabelling alter the representation while leaving the need or risk."
+        },
+        {
+          "q": "Can a daily dashboard compensate for an adviser with no authority to act?",
+          "options": [
+            "Yes, information alone supplies control",
+            "No, sensing and effective action are both needed",
+            "Yes, provided it contains more indicators"
+          ],
+          "correct": 1,
+          "explanation": "Observation without an available, timely response does not regulate the disturbance. More indicators may instead overload the recipient."
+        }
+      ],
+      "repair": {
+        "broken": "'The law of requisite variety proves that every customer needs a unique process and standardisation is always wrong.'",
+        "fix": "The law concerns necessary distinctions and effective regulation relative to desired outcomes. Several disturbances may share an adequate response. Standardise where differences do not matter to that outcome; preserve distinctions and discretion where they do. State the equivalence assumption and test it."
+      },
+      "retry": {
+        "task": "B and D can now be safely handled by the same authorised investigation team using one triage action. Does the four-response conclusion still follow?",
+        "answer": "No. The original disjoint-response assumption has changed. Three initial response classes may suffice if the investigation route actually distinguishes and handles the later differences in time. Count effective response capability across the relevant process, not merely the first screen's buttons."
+      },
+      "criteria": [
+        "The essential outcome and unacceptable states are explicit.",
+        "Response capability is not reduced to headcount or number of labels.",
+        "Attenuating a disturbance is distinguished from suppressing its signal.",
+        "A claim is revised when its modelling assumptions change."
+      ]
+    },
+    {
+      "id": "transposing-theory",
+      "title": "Transposing theory: move up to a pattern and back down",
+      "section": "Foundations",
+      "standard": "Transposing Theory (YoYo model)",
+      "ksb": [
+        "K1",
+        "K2",
+        "S1",
+        "S2",
+        "S4",
+        "S9"
+      ],
+      "time": 30,
+      "focus": "Test a structural analogy rather than importing a solution because two situations sound alike.",
+      "scope": "A basic abstraction-and-return rehearsal for the framework's transposing-theory row. Its resource list also cites Yi Lin's systemic yoyo; this exercise does not teach or validate that distinct formal model. The terminology and intended depth should be checked with your tutor.",
+      "atlas": [
+        "Systems thinking",
+        "Model",
+        "Abstraction"
+      ],
+      "resources": [
+        "scio-reading",
+        "ou-maps"
+      ],
+      "paid": [
+        "scio-development"
+      ],
+      "scenario": "Fictional case A: a warehouse orders replacement stock from last month's sales. Delivery takes four weeks. When shelves empty, several managers independently raise urgent orders. Stock later arrives together and exceeds storage capacity. Fictional case B: a council trains additional caseworkers using last quarter's backlog. Training takes six months. Several services independently commission the same small pool of trainers. Trainees arrive after demand has changed. Casework, unlike boxes, also varies in urgency, consent, relationship and complexity.",
+      "rounds": [
+        {
+          "task": "Write the common structural pattern without using warehouse or council nouns.",
+          "output": "A four-part abstract model.",
+          "answer": "A demand signal is delayed; a replenishment decision is made from it; the replenishment takes time; independent decision-makers may duplicate orders while the pipeline is invisible. The resulting overshoot is a hypothesis generated by that structure. 'Both organisations need better leadership' is too unspecific to transpose or test."
+        },
+        {
+          "task": "Map the abstract elements into case B.",
+          "output": "A correspondence table with at least one non-correspondence.",
+          "answer": "Stock corresponds only partially to available trained capacity; orders correspond to training commissions; delivery lead time to training delay; hidden pipeline to trainees already commissioned. People are not interchangeable inventory. Capabilities, supervision, retention, consent and case mix alter the comparison. State where the analogy stops."
+        },
+        {
+          "task": "Derive a modest intervention and a falsification test.",
+          "output": "One intervention hypothesis with a measurable challenge.",
+          "answer": "Make current training commitments and expected completion dates visible across services before commissioning more. Predict fewer duplicated commissions without reducing necessary capability. Compare unique requirements, commissions and later staffing gaps. If duplication persists because services require incompatible skills, the shared-inventory model needs revision rather than stronger enforcement."
+        }
+      ],
+      "checks": [
+        {
+          "q": "Which is the transferable part of the example?",
+          "options": [
+            "A warehouse's staffing ratio",
+            "The delayed signal, replenishment pipeline and duplicated decisions",
+            "The claim that people are stock"
+          ],
+          "correct": 1,
+          "explanation": "The proposed correspondence concerns relationships and delays. Neither an arbitrary parameter nor a literal identity between people and inventory follows."
+        },
+        {
+          "q": "What should happen when case mix invalidates interchangeability?",
+          "options": [
+            "Discard the evidence to protect the analogy",
+            "Revise the abstraction or stop using it",
+            "Assume the model applies because it is systemic"
+          ],
+          "correct": 1,
+          "explanation": "A theory is useful through an explicit fit with the situation. A failed correspondence is information about its limit."
+        }
+      ],
+      "repair": {
+        "broken": "'Hospitals are factories, so the warehouse rule should be applied unchanged to patients.'",
+        "fix": "Name the limited structural correspondence, then examine consent, urgency, variable needs, clinical judgement and care relationships. Transfer a question or tested mechanism, not a whole identity or managerial prescription."
+      },
+      "retry": {
+        "task": "Apply the same pattern to recruiting volunteer interpreters. Name one correspondence and one reason a numerical inventory rule might fail.",
+        "answer": "A recruitment-to-availability delay is a correspondence. Language combinations, availability, confidentiality and matching requirements make volunteer capacity heterogeneous. A single total may hide a shortage in one language alongside unused capacity in another."
+      },
+      "criteria": [
+        "The abstract pattern contains relationships, not just similar vocabulary.",
+        "Correspondences and non-correspondences are both recorded.",
+        "A practical prediction could be challenged by evidence.",
+        "The learner returns to and revises the original situation."
+      ]
+    },
+    {
+      "id": "soft-systems",
+      "title": "Soft Systems Methodology: build a model that follows its purpose",
+      "section": "Core methods",
+      "standard": "Soft Systems Methodology (SSM)",
+      "ksb": [
+        "K1",
+        "K2",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S7"
+      ],
+      "time": 60,
+      "focus": "Move from a messy situation through purposeful perspectives to a logically defensible activity model and comparison.",
+      "scope": "A compact SSM rehearsal. The stages organise learning here; they are not a claim that SSM is a mandatory linear project sequence. An activity model is an inquiry device, not a description of what the organisation really is.",
+      "atlas": [
+        "Soft Systems Methodology",
+        "CATWOE",
+        "Rich picture"
+      ],
+      "resources": [
+        "ou-ssm",
+        "ou-maps"
+      ],
+      "paid": [
+        "scio-courses"
+      ],
+      "scenario": "Fictional case: a repair cooperative allocates home-repair visits. Its scheduler wants every technician hour booked. Residents want a usable home and predictable appointments. Technicians want the information and parts needed to finish safely. The funder pays for completed visits, even when another visit is needed. Residents with uncertain work shifts often miss appointments. The cooperative's board can change booking rules but cannot compel a resident to be at home. There is no evidence yet about which change would improve completed repairs.",
+      "rounds": [
+        {
+          "task": "Make a rich picture of the situation.",
+          "output": "One picture or accessible narrative showing the competing concerns.",
+          "answer": "Include residents, technicians, scheduler, funder and board; show funding for visits, information and parts, uncertain shifts, missed appointments and conflicting meanings of success. Show tensions and absences, not only a flowchart. A resident's absence is an event to understand, not proof of irresponsibility."
+        },
+        {
+          "task": "Write two relevant root definitions using PQR.",
+          "output": "Two distinct purposeful perspectives, each one sentence.",
+          "answer": "Resident perspective: 'Enable agreed safe repairs to be completed, by coordinating access, diagnosis, parts and work with residents, in order to restore a usable home with manageable disruption.' Scheduling perspective: 'Allocate available technician time, by matching eligible jobs to slots and skills, in order to use the cooperative's funded capacity.' Neither is declared the true purpose. The difference is useful for inquiry."
+        },
+        {
+          "task": "Check the resident definition with CATWOE.",
+          "output": "Six explicit entries, including the transformation.",
+          "answer": "Customers: residents benefiting or suffering, including those excluded by booking rules. Actors: residents, booking staff, technicians and suppliers carrying out the activities. Transformation: an agreed repair need becomes a completed, checked repair, not simply a person becoming 'a customer'. Weltanschauung: restoring a usable home justifies organising around completion and disruption. Owner: the board can stop or change the cooperative's arrangement; residents also control access. Environment: safety obligations, available skills, supply times and constraints outside this model's control. Do not put the proposed new booking rule in Environment merely because it exists today."
+        },
+        {
+          "task": "Build the minimum activity model for the resident definition.",
+          "output": "Five to nine verb-led activities with dependencies and monitoring.",
+          "answer": "A defensible model is: agree the repair need; establish access constraints; diagnose work and materials; arrange a feasible visit; perform the repair; check completion with the resident; monitor performance and revise arrangements. 'Arrange a feasible visit' depends on access and diagnosis; performance review receives evidence from completion checking. Assess efficacy (did the repair occur?), efficiency (what resources and effort did it use?) and effectiveness (does it contribute to the longer-term purpose?). These are logical requirements of this definition, not a copy of departments."
+        },
+        {
+          "task": "Compare the model with the case and propose one accommodation.",
+          "output": "A three-row comparison and a feasible next inquiry.",
+          "answer": "For 'check completion', the case reports paid visits but not resident-verified completion: investigate the gap. For 'establish access', uncertain shifts are known but the booking response is not: ask residents. For 'monitor', the funder's measure may conflict with completion: discuss a paired completion measure. A possible accommodation is to retain visit reporting while jointly trialling resident-confirmed completion and flexible scheduling. It needs consent and negotiation; a neat model does not establish agreement."
+        }
+      ],
+      "checks": [
+        {
+          "q": "Which transformation matches the resident root definition?",
+          "options": [
+            "Unallocated slots become allocated slots",
+            "Agreed repair needs become completed, checked repairs",
+            "Residents become compliant"
+          ],
+          "correct": 1,
+          "explanation": "The transformation must follow the selected purpose. Slot allocation belongs to the other root definition; compliance changes the purpose without acknowledging it."
+        },
+        {
+          "q": "What is wrong with activity boxes labelled Board, Finance and Technician?",
+          "options": [
+            "They are roles or units, not logically required activities",
+            "They are always outside the system",
+            "Nothing: any organisation chart is an activity model"
+          ],
+          "correct": 0,
+          "explanation": "Use verbs describing necessary activities. Roles may perform them, but a departmental chart does not establish the activity logic."
+        },
+        {
+          "q": "A model differs from current practice. What follows?",
+          "options": [
+            "Current practice must immediately copy the model",
+            "The difference supplies a question for structured comparison",
+            "The model is necessarily false"
+          ],
+          "correct": 1,
+          "explanation": "SSM uses the comparison for learning and debate. The model is purposeful and selective; the difference does not by itself command a redesign or invalidate the inquiry."
+        }
+      ],
+      "repair": {
+        "broken": "Root definition: restore usable homes. Model: maximise visits, close tickets, penalise missed appointments. No completion check.",
+        "fix": "The model has silently substituted the funder's or scheduler's purpose. Either label it as another purposeful model or rebuild it around agreed needs, completion and resident experience. Add monitoring that can challenge the arrangement, not merely count its transactions."
+      },
+      "retry": {
+        "task": "The board now insists on minimising disruption rather than maximising technician utilisation. Add one necessary activity and one comparison question.",
+        "answer": "An explicit activity could be 'agree acceptable timing and disruption with the resident'. Ask whether current booking captures and honours those constraints. Other activities are acceptable when logically derived and not simply desirable extras. Record the unresolved trade-off with capacity rather than assuming it disappears."
+      },
+      "criteria": [
+        "At least two purposes remain distinguishable.",
+        "CATWOE supports rather than replaces a coherent root definition.",
+        "Activities logically follow the selected purpose and include monitoring.",
+        "Comparison produces inquiry and possible accommodation, not a claim that the model is reality."
+      ]
+    },
+    {
+      "id": "system-dynamics",
+      "title": "System Dynamics: build, calculate and challenge a queue model",
+      "section": "Core methods",
+      "standard": "System Dynamics (Forrester)",
+      "ksb": [
+        "K1",
+        "K2",
+        "K5",
+        "S1",
+        "S3",
+        "S4",
+        "S11"
+      ],
+      "time": 55,
+      "focus": "Distinguish causal-loop reasoning from an executable stock-flow model and verify a small model by hand.",
+      "scope": "An original discrete-time stock-flow rehearsal with a deliberately simple boundary. It is not a prediction of a real service and does not validate a model merely because it runs.",
+      "atlas": [
+        "System Dynamics",
+        "Stock and flow",
+        "Causal loop diagram"
+      ],
+      "resources": [
+        "mit-roadmaps"
+      ],
+      "paid": [
+        "scio-courses"
+      ],
+      "scenario": "Fictional case: a service starts week 1 with a backlog of 40 cases. Exactly 12 new cases arrive at the start of each week. Staff can complete at most 10 cases per week in weeks 1 and 2. Additional trained capacity is available from the start of week 3, raising the limit to 16. All cases are identical in this toy model. Completions during a week cannot exceed that week's starting backlog plus arrivals. There are no withdrawals or reopens in the first model.",
+      "rounds": [
+        {
+          "task": "Draw the stock-flow structure and state its units.",
+          "output": "One stock, two flows and an explicit time step.",
+          "answer": "Stock: backlog in cases. Inflow: arrivals in cases/week. Outflow: completions in cases/week. Capacity is a limit on the outflow, not another stock of cases. For a one-week step: end backlog = start backlog + arrivals - completions; completions = min(capacity, start backlog + arrivals). The minimum prevents negative backlog. Changing the time step would require rates and event timing to be handled consistently."
+        },
+        {
+          "task": "Calculate the first four end-of-week backlogs.",
+          "output": "A four-row calculation table.",
+          "answer": "Week 1: 40 + 12 - 10 = 42. Week 2: 42 + 12 - 10 = 44. Week 3: 44 + 12 - 16 = 40. Week 4: 40 + 12 - 16 = 36. Backlog rises before the extra capacity arrives, then falls by four cases per week while enough cases remain. A drop in arrivals is not needed to explain this change."
+        },
+        {
+          "task": "Describe a balancing feedback that could generate the capacity decision.",
+          "output": "A signed loop and its delay.",
+          "answer": "Backlog (+) increases perceived capacity gap; gap (+) increases training commissions; commissions (+), after a training delay, increase effective completion capacity; capacity (+) increases completions; completions (-) reduce backlog. The single negative causal link makes this proposed loop balancing. The fixed capacity schedule in the numerical exercise is externally specified: the loop is not yet implemented in its equations. Do not claim a two-flow stock model already simulates the decision feedback."
+        },
+        {
+          "task": "Run two extreme-condition checks.",
+          "output": "Results for zero arrivals and for an almost empty queue.",
+          "answer": "With zero arrivals and backlog 40, capacity 10 yields backlog 30 after one week. With starting backlog 2, arrivals 0 and capacity 16, completions are 2 and ending backlog 0, not -14. These are necessary accounting checks, not evidence that the real service behaves like the model."
+        },
+        {
+          "task": "Identify a missing mechanism that could reverse the policy conclusion.",
+          "output": "One boundary extension and data needed to assess it.",
+          "answer": "Rushed work might reopen cases, making nominal completions overstate resolved need. Add a reopen inflow with an explicit timing rule and measure its rate. Alternatively, training may temporarily reduce experienced staff availability. A model boundary that omits these effects may overstate the improvement from additional capacity."
+        }
+      ],
+      "checks": [
+        {
+          "q": "What is the backlog at the end of week 2?",
+          "options": [
+            "20 cases",
+            "44 cases",
+            "64 cases"
+          ],
+          "correct": 1,
+          "explanation": "The backlog gains 12-10=2 cases in each of two weeks: 40+2+2=44. Capacity is a rate of completion, not the number left waiting."
+        },
+        {
+          "q": "Which unit belongs to the backlog?",
+          "options": [
+            "Cases/week",
+            "Cases",
+            "Weeks/case"
+          ],
+          "correct": 1,
+          "explanation": "Backlog accumulates cases. A flow has cases/week, and a processing time may have weeks/case under a specified interpretation."
+        },
+        {
+          "q": "Does a positive link mean a beneficial effect?",
+          "options": [
+            "Yes",
+            "No: it means change in the same direction, other influences held constant",
+            "Only for reinforcing loops"
+          ],
+          "correct": 1,
+          "explanation": "Polarity describes a causal direction, not desirability. A reinforcing loop can amplify either improvement or deterioration."
+        },
+        {
+          "q": "Starting backlog 2, zero arrivals, capacity 16: how many cases complete?",
+          "options": [
+            "16",
+            "2",
+            "-14"
+          ],
+          "correct": 1,
+          "explanation": "The outflow is limited by available cases. A negative backlog is an accounting defect, not an innovative service model."
+        }
+      ],
+      "repair": {
+        "broken": "Backlog = arrivals / completions. It is labelled 'cases', and managers say its fall proves a balancing feedback loop.",
+        "fix": "The ratio of two rates is dimensionless and is not an accumulation. Use the stock accounting equation with an initial condition. A changing ratio does not identify a closed causal mechanism. State and test the decision rules and delays separately."
+      },
+      "retry": {
+        "task": "From week 3, let 25% of each week's 16 completions return as new backlog at the end of that same week. Calculate end backlogs for weeks 3 and 4.",
+        "answer": "Each week four cases reopen. Week 3 ends at 44+12-16+4=44; week 4 also ends at 44. Gross completion capacity increased but net resolution is only 12 cases/week. This timing is stipulated for the exercise; a real reopen delay must be investigated rather than assumed."
+      },
+      "criteria": [
+        "Stocks, rates, units, initial conditions and timing are explicit.",
+        "The four baseline calculations and empty-queue test are correct.",
+        "Loop polarity is causal rather than moral.",
+        "The numerical model is distinguished from an unimplemented feedback hypothesis.",
+        "A missing mechanism and a way to test it are named."
+      ]
+    },
+    {
+      "id": "viable-system-model",
+      "title": "Viable System Model: diagnose functions and channels",
+      "section": "Core methods",
+      "standard": "Viable System Model (VSM)",
+      "ksb": [
+        "K1",
+        "K2",
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S7"
+      ],
+      "time": 60,
+      "focus": "Choose a recursion, identify operational units, and test management functions without turning the VSM into an organisation chart.",
+      "scope": "A basic organisational diagnosis. Functions can be distributed or combined in people and groups. The exercise does not establish that every multi-agency network has a single legitimate metasystem.",
+      "atlas": [
+        "Viable System Model",
+        "Management cybernetics",
+        "Recursion"
+      ],
+      "resources": [
+        "vsm-mapping",
+        "vsm-guide"
+      ],
+      "paid": [
+        "scio-courses"
+      ],
+      "scenario": "Fictional case: Neighbourhood Advice Cooperative runs North, Central and South advice centres. Each serves local residents, organises its own advisers and decides ordinary cases. They share specialist interpreters and sometimes double-book them. A cooperative operations group negotiates budgets and capacity with centre leads. A quality reviewer periodically observes cases directly, with an agreed learning remit. A small planning group studies changing resident needs and technology, but its reports rarely reach operations. The elected board sets identity and purpose and settles major policy disputes. An urgent safeguarding concern currently travels through three monthly reporting meetings.",
+      "rounds": [
+        {
+          "task": "State the focal system and one level above and below it.",
+          "output": "A recursion statement and three candidate operational units.",
+          "answer": "Focal system: the advice cooperative as a whole. Candidate System 1 units: the three centres, each with an operation, local management and a relevant environment. Within a centre, case teams may form the next level if they genuinely carry primary activity with appropriate management. A wider partnership is only a candidate level above: do not assert that it governs the cooperative without evidence and legitimacy."
+        },
+        {
+          "task": "Map the case evidence to Systems 1-5 and 3*.",
+          "output": "A function-evidence table, leaving unknowns visible.",
+          "answer": "System 1: centres delivering advice in their local environments. System 2: arrangements damping interference between centres, such as interpreter booking protocols; the double-booking suggests a gap. System 3: the operations group's resource bargains, synergy and internal regulation. System 3*: the agreed direct sampling of operational reality, distinct from routine reports. System 4: the planning group's outside-and-future intelligence. System 5: identity, policy and balancing present and future through the elected board. These are functions evidenced by activities, not job titles."
+        },
+        {
+          "task": "Diagnose two channel failures.",
+          "output": "Two hypotheses, each with a verification question.",
+          "answer": "The System 3/4 dialogue may be weak: ask how a recent external change altered an operational decision, and how operational experience revised a future proposal. Urgent safeguarding signals are too slow for their purpose: trace a concern's actual escalation and response time. A System 2 booking weakness is another defensible hypothesis. A missing line in your diagram alone is not proof that the function is absent."
+        },
+        {
+          "task": "Design a correction that preserves local autonomy.",
+          "output": "One bounded change and a check for over-centralisation.",
+          "answer": "Give centres a shared interpreter availability view and agreed conflict-resolution protocol, while leaving normal case decisions local. Establish a direct urgent escalation route with named response responsibility. For future adaptation, create a recurring 3/4 conversation using both demand evidence and operational constraints. Check whether the new arrangement removes local discretion that does not need to be centralised."
+        },
+        {
+          "task": "Test the diagnosis with operational evidence.",
+          "output": "A short sampling plan.",
+          "answer": "Trace an ordinary case, a cross-centre resource conflict, a future-driven change and an urgent exception. Ask the people doing the work how information and authority actually move. Distinguish formal policy from observed practice. Use direct observation with a legitimate remit, not covert inspection presented as neutral learning."
+        }
+      ],
+      "checks": [
+        {
+          "q": "Which is the strongest System 2 example in this case?",
+          "options": [
+            "A shared interpreter scheduling protocol",
+            "The elected board's identity statement",
+            "A future-demand study"
+          ],
+          "correct": 0,
+          "explanation": "The protocol reduces interference among operational units. Identity is a System 5 concern; outside-and-future intelligence is System 4."
+        },
+        {
+          "q": "What distinguishes System 3* from routine System 3 reports?",
+          "options": [
+            "It is a more senior manager",
+            "It provides a direct, agreed check on operational reality",
+            "It is every financial audit, regardless of purpose"
+          ],
+          "correct": 1,
+          "explanation": "The distinction is the information channel and function, not rank or the word 'audit'. Its remit and effect on trust still matter."
+        },
+        {
+          "q": "Must the three centres have identical local arrangements to be System 1 units?",
+          "options": [
+            "Yes",
+            "No, they need viable local responses within the cooperative's identity and constraints",
+            "Only if the chart is symmetrical"
+          ],
+          "correct": 1,
+          "explanation": "Different environments may require different response variety. Coherence does not require identical local operations."
+        }
+      ],
+      "repair": {
+        "broken": "The chief executive is labelled S5, all middle managers S2, every worker S1, and the outside world is omitted.",
+        "fix": "Choose the recursion and primary activities first. Identify actual functions, environments and channels. One person may perform several functions; a worker may exercise local intelligence and policy. An organisational rank is not a VSM system number."
+      },
+      "retry": {
+        "task": "An autonomous helpline is added with its own users, case decisions and local management. Is it necessarily System 2 because it connects centres?",
+        "answer": "No. It may be another System 1 unit if advice delivery is a primary activity at the chosen recursion. Some of its activities could also support coordination. Determine function, operational autonomy and environment rather than classifying it by the word 'helpline'."
+      },
+      "criteria": [
+        "The recursion and system of interest are explicit.",
+        "Operational units include operation, management and environment.",
+        "Systems 2, 3, 3*, 4 and 5 are differentiated by function.",
+        "The diagnosis tests channels and evidence, not just missing boxes.",
+        "Corrections consider autonomy, legitimacy and timely response."
+      ]
+    },
+    {
+      "id": "critical-systems-heuristics",
+      "title": "Critical Systems Heuristics: inspect all twelve boundary categories",
+      "section": "Core methods",
+      "standard": "Critical System Heuristics (CSH: Ulrich, Reynolds)",
+      "ksb": [
+        "K1",
+        "K2",
+        "K4",
+        "S2",
+        "S3",
+        "S5",
+        "S6",
+        "S7",
+        "S9"
+      ],
+      "time": 60,
+      "focus": "Build an is/ought boundary critique and show how a change in boundary alters a judgement.",
+      "scope": "This exercise checks the completeness and consistency of boundary reasoning. It does not supply a morally unique answer or pretend that the practitioner represents every affected person.",
+      "atlas": [
+        "Critical Systems Heuristics",
+        "Boundary critique"
+      ],
+      "resources": [
+        "ulrich",
+        "csh-evaluation"
+      ],
+      "paid": [
+        "scio-courses"
+      ],
+      "scenario": "Fictional case: a council proposes replacing its assisted benefits-application desk with a digital service. The finance director sponsors the proposal and counts annual administrative cost as success. A vendor controls the software design. The council controls staffing and opening hours. An analyst advises using completion rates from current online users. People unable to start online are absent from that dataset. A tenants' group has asked to be heard but has no place in the decision meetings. The project document says 'digital by default is modern and fair'. No replacement assistance or appeal route has been agreed.",
+      "rounds": [
+        {
+          "task": "Complete the four groups of boundary categories in the descriptive 'is' mode.",
+          "output": "Twelve labelled entries, separating case evidence from unknowns.",
+          "answer": "Motivation: beneficiary, purpose, measure. The sponsor prioritises administrative savings; whether all applicants benefit is unestablished. Control: decision-maker, controlled resources, decision environment. Council staffing decisions and vendor software control differ; applicants' internet access is not simply a project-controlled resource. Knowledge: expert, relevant expertise, guarantor of success. Analyst/vendor knowledge dominates; current online completion is treated as assurance, but excludes non-starters. Legitimacy: witness for affected people, emancipation or opportunity to challenge, and worldview. The tenants' group is not yet represented; an appeal route is absent; 'modern and fair' is a contested framing. Use 'unknown' where the case does not specify a fact."
+        },
+        {
+          "task": "Write an 'ought' counterpart for each category.",
+          "output": "Twelve proposals with the person or group whose judgement they express.",
+          "answer": "One defensible account includes all eligible applicants as intended beneficiaries; successful access to entitlement as purpose; cost, completion, exclusion and effort as measures; explicit council accountability and vendor constraints; assisted access resources; knowledge from applicants and frontline staff; assurance through disaggregated evidence and challenge; an independent voice for affected non-participants; accessible contest and redress; and a worldview in which access is not conditional on digital confidence. These are proposals to discuss, not automatically legitimate claims made on others' behalf."
+        },
+        {
+          "task": "Trace one boundary change into the evaluation.",
+          "output": "A before-and-after judgement with a changed evidence requirement.",
+          "answer": "If the beneficiary boundary expands from current online users to all eligible applicants, the online completion rate is no longer sufficient. Count failed starts and people using or needing assistance, and ask about effort and exclusion. An apparently cheaper process may transfer cost or prevent access. The new judgement requires evidence; it is not proof that digital service is necessarily bad."
+        },
+        {
+          "task": "Design a challenge that an affected person can actually use.",
+          "output": "One route to contest the proposal without accepting its framing.",
+          "answer": "Invite independently supported evidence from people unable to use the digital route, permit oral or assisted submissions, explain how challenges affect the decision, and provide a route to disagree after a meeting. Do not require a person to complete an online consultation to prove that online access is a barrier. Representation and practical ability to challenge are different questions."
+        }
+      ],
+      "checks": [
+        {
+          "q": "Does the analyst's involvement resolve the legitimacy questions?",
+          "options": [
+            "Yes: expertise represents everyone",
+            "No: expertise and the voice of affected people are different categories",
+            "Yes: the data are numerical"
+          ],
+          "correct": 1,
+          "explanation": "Expertise can inform an inquiry without supplying a witness for affected people or the practical freedom to challenge its assumptions."
+        },
+        {
+          "q": "What does 'ought' mean in this exercise?",
+          "options": [
+            "A hidden fact waiting to be discovered",
+            "An explicit normative boundary proposal open to challenge",
+            "The tutor's mandatory policy preference"
+          ],
+          "correct": 1,
+          "explanation": "The task is to make values and boundary choices discussable. A model answer illustrates reasoning, not an authorised settlement of people's interests."
+        },
+        {
+          "q": "Who is missing from the stated online completion measure?",
+          "options": [
+            "Only the vendor",
+            "People unable to start the online process",
+            "No one, because all applications are digital"
+          ],
+          "correct": 1,
+          "explanation": "A rate among people already inside the process can exclude those who cannot enter it. The denominator is a boundary decision."
+        }
+      ],
+      "repair": {
+        "broken": "A stakeholder list has twelve names and is labelled 'the twelve CSH questions answered'.",
+        "fix": "People are not boundary categories. Examine motivation, control, knowledge and legitimacy in both descriptive and normative modes. A single actor may occupy several roles; a crucial role may have no credible representative."
+      },
+      "retry": {
+        "task": "The tenants' group gets one seat but cannot alter the agenda or challenge the savings target. Which part of the critique remains open?",
+        "answer": "Witness or representation may have improved, but emancipation and worldview remain contested. Attendance is not sufficient opportunity to question the terms of the decision. Ask whether dissent can alter evidence, criteria or the decision itself."
+      },
+      "criteria": [
+        "All twelve categories are addressed in both is and ought modes.",
+        "Evidence, absence and normative proposals are distinguishable.",
+        "An affected voice is not silently replaced by an expert or the practitioner.",
+        "A boundary change alters a concrete evaluation or action.",
+        "The answer includes a practicable route for challenge."
+      ]
+    },
+    {
+      "id": "confrontation-analysis",
+      "title": "Confrontation Analysis: separate positions, options and credibility",
+      "section": "Core methods",
+      "standard": "Confrontation Analysis (CONAN)",
+      "ksb": [
+        "K2",
+        "K3",
+        "K4",
+        "S3",
+        "S5",
+        "S7",
+        "S10"
+      ],
+      "time": 45,
+      "focus": "Build a small options table and identify what would make a joint commitment credible.",
+      "scope": "An introductory confrontation-analysis rehearsal, not a full formal classification of dilemmas or a prediction of behaviour. Consent, new options and changing preferences remain possible.",
+      "atlas": [
+        "Confrontation Analysis",
+        "Drama theory"
+      ],
+      "resources": [
+        "scio-other",
+        "scio-reading"
+      ],
+      "paid": [
+        "scio-development",
+        "conan-paid"
+      ],
+      "scenario": "Fictional case: a council and a charity are negotiating an evening advice service. The council alone can authorise funding (F). The charity alone can commit a trained team (T). Both publicly propose F=yes and T=yes. The council says it will withhold funding if the charity does not commit. The charity says it will not commit without funding. Both prefer a funded staffed service to no service. The charity doubts that the council's promised funding will survive its next budget meeting. A council manager's personal assurance is not a budget authorisation. The charity could offer an unpaid four-week pilot, but has not offered or agreed to do so.",
+      "rounds": [
+        {
+          "task": "List actors, controlled options and the four possible combinations.",
+          "output": "An options table with controllers clearly marked.",
+          "answer": "F is controlled by the council and T by the charity. Combinations are (yes,yes), (yes,no), (no,yes), and (no,no). Each actor's stated position is (yes,yes). Stated fallbacks under the other's refusal lead to (no,no). Do not enter the unpaid pilot as a commitment: it is only a potential new option."
+        },
+        {
+          "task": "Separate preference, intention and belief.",
+          "output": "Three statements drawn from the case, each correctly typed.",
+          "answer": "Preference: both prefer the staffed funded service to none. Announced intention: each makes its contribution conditional on the other. Belief: the charity doubts future council funding. These are not interchangeable. Agreement on a preferred outcome does not resolve distrust about whether the other party will perform."
+        },
+        {
+          "task": "Propose a change that addresses credibility without coercion.",
+          "output": "One revised option and evidence that it is genuinely available.",
+          "answer": "The council could seek formal budget authorisation and offer an agreement with a staged payment before staff mobilisation. The charity could then make a bounded staffing commitment conditional on that authorisation. Verify decision rights, dates and resources. A louder promise does not change the relevant evidence; neither does pressuring volunteers into an unauthorised pilot."
+        },
+        {
+          "task": "Rebuild the table after the change.",
+          "output": "A revised commitment record and one remaining uncertainty.",
+          "answer": "Replace the vague F option with 'funding formally authorised and first payment made by date X', if the council can actually do it. Make the charity's staffing obligation conditional on that observable event. Remaining uncertainty may include recruitment, payment timing or future continuation. State who can withdraw, how notice works and what happens to users if the service stops."
+        }
+      ],
+      "checks": [
+        {
+          "q": "Who controls the charity's staffing commitment?",
+          "options": [
+            "The council, because it funds the service",
+            "The charity",
+            "The analyst drawing the table"
+          ],
+          "correct": 1,
+          "explanation": "Influence is not unilateral control. The charity's authorised decision-makers control its commitment in this case."
+        },
+        {
+          "q": "Does a shared preferred outcome prove cooperation will occur?",
+          "options": [
+            "Yes",
+            "No, beliefs about performance and credible commitments still matter",
+            "Only if an analyst assigns utility scores"
+          ],
+          "correct": 1,
+          "explanation": "Preference, announced intention and credibility differ. Inventing numbers does not resolve missing commitment evidence."
+        },
+        {
+          "q": "How should the possible unpaid pilot appear?",
+          "options": [
+            "As an agreed charity commitment",
+            "As an uncommitted potential new option",
+            "As proof that funding is unnecessary"
+          ],
+          "correct": 1,
+          "explanation": "The scenario says it has not been offered. Treating possibility as agreement would distort the confrontation and the charity's position."
+        }
+      ],
+      "repair": {
+        "broken": "The options table assigns 'charity supplies staff' to the council and treats a manager's assurance as secured funding.",
+        "fix": "Correct the option controller and distinguish authority, resources and announcements. Record the charity's doubt without asserting it is factually correct. Seek evidence and redesign commitments rather than diagnosing personalities."
+      },
+      "retry": {
+        "task": "The council obtains authorised funding, but the charity now doubts it can recruit enough qualified staff. What changes in the analysis?",
+        "answer": "The original funding credibility issue may be reduced, while the charity's capability to fulfil its promise becomes uncertain. Introduce a feasible staged staffing option, recruitment evidence or a revised start date. Do not continue treating every obstacle as the council's failure."
+      },
+      "criteria": [
+        "Each option has its actual controller.",
+        "Positions, fallbacks, preferences and beliefs remain distinct.",
+        "The proposed change affects a specific credibility or feasibility issue.",
+        "New options and revised preferences are allowed without inventing consent."
+      ]
+    },
+    {
+      "id": "informed-group-dynamics",
+      "title": "INFORMED Group Dynamics: investigate the distinctions behind a decision",
+      "section": "Core methods",
+      "standard": "INFORMED Group Dynamics (Marguet)",
+      "ksb": [
+        "K2",
+        "K3",
+        "S3",
+        "S5",
+        "S6",
+        "S9"
+      ],
+      "time": 45,
+      "focus": "Elicit contrasting meanings, make a small reflective map, and revise an inference about another person's position.",
+      "scope": "An original introductory rehearsal using the publicly described INFORMED framing and personal-construct orientation. It is not Marguet's complete taught protocol, a personality assessment, or a validated repertory-grid diagnosis. Use supervised teaching for the fuller approach.",
+      "atlas": [
+        "INFORMED Group Dynamics",
+        "Personal construct theory"
+      ],
+      "resources": [
+        "scio-other",
+        "informed-thesis",
+        "informed-talk"
+      ],
+      "paid": [
+        "scio-development"
+      ],
+      "scenario": "Fictional case: three managers are choosing how to improve an advice service. Aisha supports a shared portal because residents should not have to repeat their story. Ben supports named advisers because difficult cases need continuity. Cara supports walk-in access because a portal-only service could exclude people. A meeting note labels Aisha 'efficient', Ben 'resistant' and Cara 'emotional'. No manager has agreed with those labels. Options are P: portal only; N: named adviser with telephone access; H: a hybrid service with named continuity and assisted digital access.",
+      "rounds": [
+        {
+          "task": "Investigate narratives before interpreting motives.",
+          "output": "One neutral follow-up question for each manager.",
+          "answer": "Ask Aisha for an example of harmful repetition, Ben for an example where continuity changed a result, and Cara for an example of exclusion. Ask what would count as an improvement in each story. Do not ask 'Why are you resistant?' because that imports the meeting note's untested explanation."
+        },
+        {
+          "task": "Frame the orientations as provisional contrasting constructs.",
+          "output": "Three distinctions, with a note that the speaker must validate them.",
+          "answer": "Possible contrasts are 'tell the story once / repeatedly start again', 'continuity / fragmented hand-offs', and 'accessible assistance / exclusion at entry'. These are analyst proposals based on the supplied statements, not constructs actually elicited from the people. Avoid replacing them with generic categories such as 'pro-change / anti-change'."
+        },
+        {
+          "task": "Make a small reflective option map.",
+          "output": "A matrix of P, N and H against the three contrasts, retaining unknowns.",
+          "answer": "A plausible first map marks P as potentially reducing repetition but uncertain on continuity and poor on assisted access; N as potentially supporting continuity and telephone access, with repetition across other services unknown; H as potentially supporting all three, subject to design and resources. These are hypotheses. No supplied evidence justifies precise scores or the conclusion that H is automatically best."
+        },
+        {
+          "task": "Explore distinctions and revise your first story.",
+          "output": "A revised account and a question that could expose a real disagreement.",
+          "answer": "The managers may all seek better access but distinguish its conditions differently. Ask what each would preserve or refuse in H, including costs, privacy and staffing. Genuine conflict may remain. The exercise succeeds when it improves inquiry, not when it manufactures consensus or claims to read minds."
+        }
+      ],
+      "checks": [
+        {
+          "q": "What is the status of 'Ben is resistant'?",
+          "options": [
+            "An observed fact",
+            "An interpretation not validated by Ben",
+            "A required INFORMED category"
+          ],
+          "correct": 1,
+          "explanation": "The observation is his stated preference for continuity. 'Resistant' adds a motive or judgement the case does not establish."
+        },
+        {
+          "q": "Who should validate a proposed personal construct?",
+          "options": [
+            "Only the analyst",
+            "The person whose meaning is being represented",
+            "The highest-ranking manager"
+          ],
+          "correct": 1,
+          "explanation": "An analyst can suggest a contrast, but should not replace the person's account with an imposed category."
+        },
+        {
+          "q": "Can the unscored map establish that H is optimal?",
+          "options": [
+            "Yes, because it sounds inclusive",
+            "No: feasibility, evidence and people's judgements remain to be examined",
+            "Yes, if it is drawn neatly"
+          ],
+          "correct": 1,
+          "explanation": "A representation surfaces questions. It is not a substitute for evidence or agreement on criteria."
+        }
+      ],
+      "repair": {
+        "broken": "The facilitator invents three personality scores and uses them to explain why one manager must be excluded from the decision.",
+        "fix": "Return to statements, stories and participant-validated distinctions. Keep tentative inferences visible and invite correction. This rehearsal does not authorise psychometric claims or exclusion based on inferred motives."
+      },
+      "retry": {
+        "task": "Ben now says he supports the portal provided a resident can retain a named adviser. Revise the account.",
+        "answer": "His objection was not necessarily to technology. Continuity may be the relevant distinction. Update the option map and ask how the portal would preserve it. Retain any new concerns rather than declaring the disagreement permanently resolved."
+      },
+      "criteria": [
+        "Narratives are sought before motives are assigned.",
+        "Contrasting constructs remain provisional until checked with their owners.",
+        "Unknowns are not converted into invented numeric scores.",
+        "The map changes at least one inquiry or interpretation."
+      ]
+    },
+    {
+      "id": "interactive-management",
+      "title": "Interactive Management: construct a small interpretive structural model",
+      "section": "Core methods",
+      "standard": "Interactive Management (Warfield & Christakis)",
+      "ksb": [
+        "K2",
+        "K3",
+        "S3",
+        "S5",
+        "S6",
+        "S7"
+      ],
+      "time": 50,
+      "focus": "Use a precise relation, a small adjacency matrix and transitive reasoning to structure a set of enabling conditions.",
+      "scope": "This rehearses one modelling component of Interactive Management. It does not reproduce its full facilitated group process or establish group agreement. The external handbook's free-download availability is uncertain, so the complete case is supplied here.",
+      "atlas": [
+        "Interactive Management",
+        "Interpretive Structural Modelling"
+      ],
+      "resources": [
+        "im-scio",
+        "warfield",
+        "im-dialogue"
+      ],
+      "paid": [
+        "scio-development"
+      ],
+      "scenario": "Fictional case: a partnership is opening a shared referral service. Five conditions are proposed: A agreed decision authority; B permission to access required records; C a workable triage protocol; D an allocation process; E a follow-up review. For this exercise the group has explicitly agreed these immediate prerequisites: A before C, B before C, C before D, and D before E. There are no other immediate prerequisite links. The relation being modelled is 'must be in place before', not 'causes better outcomes'.",
+      "rounds": [
+        {
+          "task": "Create the immediate-link matrix in order A, B, C, D, E.",
+          "output": "Five rows of five binary values, with a legend.",
+          "answer": "With rows as prerequisites and columns as dependent conditions, and zero diagonal for immediate links: A=00100; B=00100; C=00010; D=00001; E=00000. An entry 1 means the row condition must precede the column condition. Reversing the convention is acceptable only if the whole matrix and interpretation are reversed consistently."
+        },
+        {
+          "task": "Add implied reachability and the identity diagonal.",
+          "output": "A reachability matrix and one explained inferred link.",
+          "answer": "Reachability including each condition itself is: A=10111; B=01111; C=00111; D=00011; E=00001. A reaches E through C and D, even without an immediate A-to-E link. A does not reach B and B does not reach A. Transitivity is appropriate to the stipulated prerequisite relation; it is not a licence to infer causation from arbitrary associations."
+        },
+        {
+          "task": "Draw a layered model and identify the foundations.",
+          "output": "A dependency diagram with a stated direction.",
+          "answer": "A and B form the initial foundation; both lead to C, then D, then E. With arrows drawn upward from prerequisites, E is the top-level dependent condition. Some diagrams reverse the visual layout: assess the meaning and arrows, not whether the page looks identical. Retain direct versus inferred links in the audit record."
+        },
+        {
+          "task": "Return the model to the people who supplied the relation.",
+          "output": "Two questions that could change it.",
+          "answer": "Ask whether the triage protocol can be designed before access permission but cannot be operated before it; that distinction could split C. Ask whether decision authority is needed for the whole allocation process or only disputed cases. A correct matrix can faithfully represent an oversimplified or disputed judgement. Record dissent and revise the elements or relation when necessary."
+        }
+      ],
+      "checks": [
+        {
+          "q": "Under the agreed prerequisite relation, does A reach E?",
+          "options": [
+            "Yes, through C and D",
+            "No, because no direct A-to-E link was supplied",
+            "Only if A and B are merged"
+          ],
+          "correct": 0,
+          "explanation": "The reachability relation includes transitive paths. The immediate-link matrix and reachability matrix answer different questions."
+        },
+        {
+          "q": "Does the matrix establish that A causes a successful referral outcome?",
+          "options": [
+            "Yes",
+            "No: it represents agreed prerequisites among these conditions",
+            "Yes, because a binary model is objective"
+          ],
+          "correct": 1,
+          "explanation": "The relation and its source judgements bound the claim. Structural agreement is not empirical proof of outcome causation."
+        },
+        {
+          "q": "Which pair has no reachability in either direction in this model?",
+          "options": [
+            "A and B",
+            "C and E",
+            "D and E"
+          ],
+          "correct": 0,
+          "explanation": "A and B are separate foundations. C reaches E through D, and D directly precedes E."
+        }
+      ],
+      "repair": {
+        "broken": "A matrix mixes 'must precede', 'is preferred to' and 'is funded by' without labelling the difference, then applies transitive closure.",
+        "fix": "Choose one explicit relation for a matrix, check whether transitive inference makes sense for it, and record the source judgements. Use separate representations for other relation types. Otherwise the calculation produces precise-looking nonsense."
+      },
+      "retry": {
+        "task": "The group adds E before C: learning from review is needed to revise triage. What should you do rather than pretending the original acyclic sequence still holds?",
+        "answer": "C, D and E now form a cycle. Ask whether the model has mixed initial establishment with later operation. You might separate 'initial triage design' from 'triage revision', or represent an iterative subsystem explicitly. A cycle is a finding to interpret, not an error to delete for a prettier diagram."
+      },
+      "criteria": [
+        "The relation, direction and element meanings are explicit.",
+        "The immediate and reachability matrices are distinguished.",
+        "Inferred links and the independent A/B pair are correct.",
+        "The learner returns mathematical structure to participant judgement."
+      ]
+    },
+    {
+      "id": "interactive-planning",
+      "title": "Interactive planning: design the service you would choose now",
+      "section": "Core methods",
+      "standard": "Interactive planning (Ackoff)",
+      "ksb": [
+        "K1",
+        "K2",
+        "K3",
+        "S2",
+        "S3",
+        "S5",
+        "S7"
+      ],
+      "time": 50,
+      "focus": "Distinguish an idealised design from a forecast, then work back to feasible changes and learning.",
+      "scope": "A small rehearsal of Ackoff's interactive planning and idealised design. It is not an invitation to ignore present feasibility, affected people or implementation.",
+      "atlas": [
+        "Interactive planning",
+        "Idealised design",
+        "Russell Ackoff"
+      ],
+      "resources": [
+        "ackoff-guide",
+        "scio-reading"
+      ],
+      "paid": [
+        "ackoff-paid",
+        "scio-development"
+      ],
+      "scenario": "Fictional case: residents must give the same household information separately to a repairs service, an advice service and a community transport service. Staff spend time chasing missing details. Residents avoid contact after repeated frustration. Each team meets its own response target by referring complicated cases elsewhere. The organisation is considering a faster referral form. For the design exercise, the existing arrangement has disappeared overnight, but current technology, legal responsibilities and today's environment remain. No unproven technology or compulsory data-sharing may be assumed.",
+      "rounds": [
+        {
+          "task": "Formulate the mess rather than selecting one isolated symptom.",
+          "output": "Three mutually reinforcing problems and a consequence of continuing unchanged.",
+          "answer": "Fragmented information creates repeated requests; repeated requests increase frustration and avoidance; avoidance creates incomplete information and more chasing. Local referral targets can move work without resolving need. A faster form may accelerate the same pattern. State this as a working account to investigate, not a proven history of a real organisation."
+        },
+        {
+          "task": "Design an arrangement you would choose now if the old one no longer existed.",
+          "output": "A purposeful design with three capabilities and explicit constraints.",
+          "answer": "One defensible design gives residents a supported entry route, a consent-based shared account of relevant needs, and a responsible person who coordinates agreed actions to completion. Use available technology and preserve lawful limits, refusal of sharing and alternatives to digital access. The design must remain capable of learning and changing; 'a perfect database that predicts every need' fails the exercise."
+        },
+        {
+          "task": "Specify ends, means and resource implications.",
+          "output": "One desired result, two means and the resources or authority they require.",
+          "answer": "End: residents obtain appropriate help without unnecessary repetition. Means could include a shared consent protocol and a case-coordination role. Resources include staff time, skills, a maintainable record, lawful access and decision authority. A new role title without time and rights is not a resource plan."
+        },
+        {
+          "task": "Work back to a feasible first move and its control process.",
+          "output": "A small implementation step, prediction and review rule.",
+          "answer": "With permission, trial coordinated handling of a defined set of cases using existing tools. Predict fewer repeated requests without inappropriate disclosure or delayed specialist support. Record resident effort, unresolved need and staff coordination time. Review weekly with participants, and revise or stop if harms emerge. Participation continues through design and adaptation rather than ending at consultation."
+        }
+      ],
+      "checks": [
+        {
+          "q": "Which proposal fits an idealised design under the stated constraints?",
+          "options": [
+            "A service using currently available means that can learn and adapt",
+            "A perfect future AI requiring no consent",
+            "A forecast that present trends will continue"
+          ],
+          "correct": 0,
+          "explanation": "The exercise designs a preferred feasible arrangement for the present environment. It is neither a technological fantasy nor an extrapolation of current trends."
+        },
+        {
+          "q": "Why might a faster referral form leave the mess intact?",
+          "options": [
+            "All forms are harmful",
+            "It may speed a process that still transfers rather than resolves need",
+            "Technology cannot improve services"
+          ],
+          "correct": 1,
+          "explanation": "The issue is the relationship among local targets, repeated information and unresolved needs. A form can help, but its effect depends on that arrangement."
+        }
+      ],
+      "repair": {
+        "broken": "The group writes a perfect future vision, assumes unlimited money and full consent, and labels implementation 'roll out'.",
+        "fix": "Bring present feasibility and environmental constraints back in. Specify resources, participation, implementation and ongoing learning. Preserve the ambitious redesign question while testing how action becomes possible."
+      },
+      "retry": {
+        "task": "Residents reject a shared database but welcome a named coordinator. Does the design fail completely?",
+        "answer": "No. Separate the desired capability from one chosen means. A coordinator may support consented case-by-case information exchange without a universal database. Redesign the means with residents, and test the resulting workload and limits."
+      },
+      "criteria": [
+        "Interdependent problems are represented as a mess.",
+        "The design is desirable now, technologically feasible and adaptable.",
+        "Ends, means, resources and authority are distinguished.",
+        "Implementation includes participation and feedback, not just rollout."
+      ]
+    },
+    {
+      "id": "mosaic-transformation",
+      "title": "Mosaic transformation and bubble strategy: sequence changes you can sustain",
+      "section": "Core methods",
+      "standard": "Mosaic Transformation (Hoverstadt), Bubble Strategy",
+      "ksb": [
+        "K2",
+        "K3",
+        "S2",
+        "S3",
+        "S7",
+        "S8"
+      ],
+      "time": 45,
+      "focus": "Test a change sequence against available capacity, released capacity, dependencies and a protected experiment's interfaces.",
+      "scope": "An original small rehearsal of published sequencing ideas. It does not reproduce a proprietary training exercise or claim that a protected bubble is a complete Mosaic transformation.",
+      "atlas": [
+        "Mosaic Transformation",
+        "Bubble strategy"
+      ],
+      "resources": [
+        "scio-other",
+        "scio-reading"
+      ],
+      "paid": [
+        "mosaic-paid"
+      ],
+      "scenario": "Fictional case: a service has two staff-days each week available for change, separate from its essential delivery work. A: remove duplicate reporting, needs two change-days in one week and releases two additional change-days per week from the following week. B: redesign triage, needs three change-days in one week and cannot start before A is complete. C: test a resident-led appointment process, needs four change-days in one week and cannot start before B. B and C release no additional capacity in this toy calculation. The released time is available only if managers stop demanding the old duplicate report. The C experiment needs a bounded group of cases and explicit interfaces with ordinary delivery.",
+      "rounds": [
+        {
+          "task": "Build the smallest feasible sequence.",
+          "output": "A week-by-week capacity and dependency table.",
+          "answer": "Week 1: available two days, spend two on A. Week 2: available four days if A's release is real, spend three on B. Week 3: available four days, spend four on C. No banking of unused days is assumed. Starting B or C in week 1 exceeds capacity, even if their expected benefits are larger."
+        },
+        {
+          "task": "Check the assumption that makes the sequence possible.",
+          "output": "A release condition and an observable test.",
+          "answer": "The old duplicate report must actually stop, and the freed time must be usable by the people needed for subsequent work. Check calendars, work records and staff experience after A. A nominal saving in one team's spreadsheet may not create available change capacity in another team."
+        },
+        {
+          "task": "Define the C bubble without cutting it off from reality.",
+          "output": "Boundary, permissions, interfaces and stop/exit conditions.",
+          "answer": "Specify eligible cases, resident consent, staff discretion, safety constraints and which usual rules may change. Agree hand-offs to specialists and ordinary delivery. Track whether work is displaced outside the bubble. Set conditions for stopping, adapting or incorporating what is learned. A permanent exception that depends on unpaid heroics is not a sustainable redesign."
+        },
+        {
+          "task": "Compare a benefit-first ranking with a feasible change sequence.",
+          "output": "A short explanation of why the rankings differ.",
+          "answer": "C may contribute most visibly to the end purpose, but cannot be done with present capacity or before B. A may be valuable partly because it creates the conditions for later work. Doability, contribution, capacity release and removed constraints all matter. The arithmetic does not settle political acceptability or prove any benefit will occur."
+        }
+      ],
+      "checks": [
+        {
+          "q": "When can B first start under the supplied assumptions?",
+          "options": [
+            "Week 1",
+            "Week 2",
+            "Only after C"
+          ],
+          "correct": 1,
+          "explanation": "A must be complete and its released capacity available. That gives four change-days in week 2, enough for B's three."
+        },
+        {
+          "q": "If managers continue the duplicate report, what is the week-2 capacity?",
+          "options": [
+            "Four days regardless",
+            "Two days",
+            "Six days"
+          ],
+          "correct": 1,
+          "explanation": "The assumed release has not occurred. The planned sequence is no longer feasible without another change or genuine extra capacity."
+        },
+        {
+          "q": "What must a protected experiment retain?",
+          "options": [
+            "No connection to ordinary delivery",
+            "Explicit interfaces and a route to learn, stop or integrate",
+            "A guarantee that its results will be scaled"
+          ],
+          "correct": 1,
+          "explanation": "Protection creates room to test differences, not permission to conceal displaced costs or pre-commit to rollout."
+        }
+      ],
+      "repair": {
+        "broken": "The programme launches A, B and C together because each has a strong business case, using the same two staff-days three times.",
+        "fix": "Represent shared capacity once. Sequence prerequisites and verify released time before committing it. Make the next step conditional where the release or feasibility is uncertain."
+      },
+      "retry": {
+        "task": "A releases only one usable change-day each week. Can the original sequence continue?",
+        "answer": "Week 2 has three days, enough for B. Week 3 also has three, insufficient for C's four-day indivisible task. C must be redesigned, postponed or given real additional capacity. Do not silently assume unused time or benefits can be borrowed from the future."
+      },
+      "criteria": [
+        "Capacity is counted once and release timing is explicit.",
+        "Dependencies and contribution are distinguished.",
+        "Released capacity is tested in actual work.",
+        "The bubble has boundaries, interfaces and exit conditions."
+      ]
+    },
+    {
+      "id": "multi-methodology",
+      "title": "Multi-methodology: justify the move from one method to another",
+      "section": "Core methods",
+      "standard": "Multi-methodology (Rosenhead, Jackson, Ison)",
+      "ksb": [
+        "K1",
+        "K2",
+        "K3",
+        "S2",
+        "S3",
+        "S7",
+        "S9"
+      ],
+      "time": 50,
+      "focus": "Design a short inquiry in which each method answers a different question and its output is translated carefully into the next.",
+      "scope": "A basic methodological design exercise. There is no universal correct sequence. The checks concern fit, assumptions and transitions, not allegiance to one classification of methods.",
+      "atlas": [
+        "Multi-methodology",
+        "Critical systems thinking",
+        "Systemic intervention"
+      ],
+      "resources": [
+        "scio-other",
+        "scio-reading"
+      ],
+      "paid": [
+        "scio-development"
+      ],
+      "scenario": "Fictional case: a regional advice partnership faces rising waits. The sponsor calls this a capacity problem. Residents say they are referred repeatedly without help. Charities argue that eligibility rules exclude the people most in need. Service leads disagree about who can change the rules. Reliable arrival and completion counts exist for two services, but not for the whole partnership. The sponsor wants a recommendation in four weeks.",
+      "rounds": [
+        {
+          "task": "Separate the questions that require different kinds of inquiry.",
+          "output": "Four questions, each with a needed output.",
+          "answer": "Whose purpose and experience count? A boundary and perspective account. What purposeful activity is relevant? Alternative activity models and comparison questions. How do queues behave under stated rules? A bounded stock-flow model with tested data. Who can coordinate, allocate resources and adapt? A governance-function diagnosis. A single diagram need not answer all four."
+        },
+        {
+          "task": "Choose a justified three-method sequence.",
+          "output": "Method, question, output and limitation for each stage.",
+          "answer": "One defensible sequence is CSH to expose beneficiary and evidence boundaries; SSM to explore competing purposeful activities; then SD to test a particular queue mechanism where data support it. Another defensible design might use CSH, VSM and SD if governance failure is central. The order depends on what is learned. State what your choice omits and why that is tolerable for this inquiry."
+        },
+        {
+          "task": "Specify the transition into the numerical model.",
+          "output": "One translation rule and one thing that must not be translated automatically.",
+          "answer": "Use an agreed operational definition of a case, entry, completion and time period before constructing flows. An SSM activity named 'support a resident to obtain help' is not automatically a measured outflow. Normative CSH claims are not parameter estimates. Keep excluded people and disputed purposes visible beside the quantitative boundary."
+        },
+        {
+          "task": "Set a trigger to change your method design.",
+          "output": "A revision trigger and a stopping rule.",
+          "answer": "If case tracing shows that apparent completions are referrals that return elsewhere, revise the SD boundary and data plan. If no legitimate decision-maker can act on a proposed change, investigate governance and authority rather than producing more forecasts. Stop adding methods when they no longer change the decision or inquiry; document residual uncertainty."
+        }
+      ],
+      "checks": [
+        {
+          "q": "Which is a sound reason to add a method?",
+          "options": [
+            "It makes the report look comprehensive",
+            "It answers an important question the current approach cannot adequately address",
+            "It is the facilitator's favourite"
+          ],
+          "correct": 1,
+          "explanation": "Method selection needs a purpose and a limit. More methods do not by themselves create a better inquiry."
+        },
+        {
+          "q": "Can a purposeful activity from SSM be treated immediately as a calibrated SD variable?",
+          "options": [
+            "Yes, both are systems methods",
+            "No, its meaning, measurement and modelling role must be established",
+            "Yes, provided the label is unchanged"
+          ],
+          "correct": 1,
+          "explanation": "The representations perform different jobs. Translation requires operational definitions and evidence, not shared vocabulary alone."
+        },
+        {
+          "q": "Two learners choose different method sequences. Must one be wrong?",
+          "options": [
+            "Yes",
+            "No, compare their purposes, assumptions, omissions and revision rules",
+            "No, every sequence is equally useful"
+          ],
+          "correct": 1,
+          "explanation": "Multiple designs can be defensible, but they are not beyond criticism. Inspect what each makes possible and what it misses."
+        }
+      ],
+      "repair": {
+        "broken": "'We will do SSM, VSM, SD and CSH, then combine the diagrams into one master model.'",
+        "fix": "State the distinct question each approach serves, how its result informs the next, what assumptions change in translation, and how disagreement will survive. A pile of methods is not an integrated inquiry."
+      },
+      "retry": {
+        "task": "The sponsor withdraws access to residents but still asks for a whole-system recommendation. What changes?",
+        "answer": "The participation and evidence boundary has materially narrowed. State the limitation, challenge it constructively and seek a workable alternative such as supported independent input. A staff-only exercise can continue with a narrower claim; it cannot honestly become the residents' validated account."
+      },
+      "criteria": [
+        "Every selected method has a distinct inquiry purpose.",
+        "Limitations and omitted questions are explicit.",
+        "Transitions preserve differences between normative, conceptual and empirical claims.",
+        "New evidence can change the sequence and scope."
+      ]
+    },
+    {
+      "id": "patterns-of-strategy",
+      "title": "Patterns of Strategy: model dependence, fit and timing",
+      "section": "Core methods",
+      "standard": "Patterns of Strategy (Hoverstadt & Loh)",
+      "ksb": [
+        "K2",
+        "S2",
+        "S3",
+        "S4",
+        "S7"
+      ],
+      "time": 45,
+      "focus": "Analyse a strategic relationship and test a proposed move against relative dependence and response time.",
+      "scope": "An original introductory relationship exercise. It does not reproduce the book's pattern catalogue or claim that one numerical ratio captures strategic power.",
+      "atlas": [
+        "Patterns of Strategy",
+        "Strategy"
+      ],
+      "resources": [
+        "patterns",
+        "scio-reading"
+      ],
+      "paid": [
+        "patterns-paid"
+      ],
+      "scenario": "Fictional case: a local repair network needs a specialist supplier to complete 60% of its jobs. The network accounts for only 5% of that supplier's sales. Finding and qualifying an alternative supplier would take six months. The network has promised residents completion within one month. The supplier can change its delivery terms with two months' notice. Neighbouring networks use the same supplier but have not agreed to cooperate. A proposal says 'negotiate harder because we are a large organisation'.",
+      "rounds": [
+        {
+          "task": "Map the strategic relationship from both sides.",
+          "output": "A two-direction dependence account with the purpose of each actor.",
+          "answer": "The repair network depends heavily on this supplier for its present offering. The supplier has relatively little sales dependence on this one network. The percentages are indicators of asymmetry, not a complete power measure: margins, scarce expertise, switching costs and reputation could change the assessment. The network's organisational size alone does not establish bargaining strength."
+        },
+        {
+          "task": "Test temporal fit.",
+          "output": "A comparison of notice, response time and the resident promise.",
+          "answer": "Two months' notice is shorter than the six months needed to qualify an alternative, leaving a four-month response gap under the stated assumptions. The one-month completion promise may be incompatible with supply disruption. A strategy that requires switching instantly has failed a timing test before any negotiation begins."
+        },
+        {
+          "task": "Generate two moves that change the relationship rather than merely state an ambition.",
+          "output": "Two moves, their preconditions and likely counterpart responses.",
+          "answer": "Begin qualifying an alternative before disruption, accepting the cost of maintaining options. Or explore joint purchasing and shared qualification with neighbouring networks, but only if they agree and the arrangement is lawful and practical. The supplier may respond through service guarantees, pricing or prioritisation. Do not treat neighbours' resources as already controlled by the network."
+        },
+        {
+          "task": "Specify the evidence that would change your strategic choice.",
+          "output": "A signal and a conditional decision.",
+          "answer": "If a second supplier can meet quality requirements within three months rather than six, the response gap changes. If neighbours cannot cooperate, discard the assumed collective bargaining position. Track supplier concentration, qualification progress and actual resident waiting rather than reporting the number of negotiation meetings."
+        }
+      ],
+      "checks": [
+        {
+          "q": "What is the stated gap between notice and alternative qualification?",
+          "options": [
+            "Four months",
+            "One month",
+            "Eight months"
+          ],
+          "correct": 0,
+          "explanation": "Six months to qualify minus two months' notice leaves four months without a ready alternative, assuming qualification starts at notice."
+        },
+        {
+          "q": "Do neighbouring networks' purchases automatically increase this network's power?",
+          "options": [
+            "Yes",
+            "No: cooperation and decision rights are not established",
+            "Only if added to a spreadsheet"
+          ],
+          "correct": 1,
+          "explanation": "Potential collective action is not an existing resource or commitment."
+        },
+        {
+          "q": "Which is a strategic move rather than an aspiration?",
+          "options": [
+            "Become the best repair network",
+            "Qualify a second supplier before the current contract becomes vulnerable",
+            "Demand excellence"
+          ],
+          "correct": 1,
+          "explanation": "The move changes a dependency and has a timing, cost and feasibility test. The other statements do not specify a change in the relationship."
+        }
+      ],
+      "repair": {
+        "broken": "A SWOT list declares 'strength: we are big' and concludes the supplier must accept any terms.",
+        "fix": "Examine the particular relationship, each side's alternatives, dependence, fit and response time. Organisational size is not identical to power in every relationship."
+      },
+      "retry": {
+        "task": "The supplier now depends on this network for 40% of its sales. What follows, and what does not?",
+        "answer": "The relationship may be more mutually dependent, creating different negotiation possibilities and risks. It does not prove the network should threaten withdrawal or that the supplier has no alternatives. Investigate profitability, capacity, other customers and the cost of damaging the relationship."
+      },
+      "criteria": [
+        "The relationship is represented from both actors' positions.",
+        "Dependence and timing are tested with the supplied facts.",
+        "Moves alter relationships or options rather than restating goals.",
+        "Uncommitted partners and uncertain responses are not treated as controlled resources."
+      ]
+    },
+    {
+      "id": "socio-technical-systems",
+      "title": "Socio-Technical Systems: redesign the work and technology together",
+      "section": "Core methods",
+      "standard": "Socio-Technical Systems (Trist)",
+      "ksb": [
+        "K2",
+        "K3",
+        "S3",
+        "S5",
+        "S7",
+        "S8"
+      ],
+      "time": 50,
+      "focus": "Find where variation is handled and design a jointly workable social and technical arrangement.",
+      "scope": "A basic primary-work-system exercise informed by the socio-technical tradition. It is not a complete participative design process or a substitute for workers' and users' involvement.",
+      "atlas": [
+        "Socio-technical systems",
+        "Socio-technical design"
+      ],
+      "resources": [
+        "trist",
+        "scio-reading"
+      ],
+      "paid": [
+        "mumford-paid",
+        "scio-development"
+      ],
+      "scenario": "Fictional case: a repair service introduces handheld job software. The software permits only one fault code per visit. Workers often find several linked faults, but cannot alter the code or order additional parts. A supervisor can approve changes the next morning. Residents then receive extra appointments. Management proposes training workers to comply more consistently. Workers propose discretion to record linked faults, while the safety lead insists that electrical work remains restricted to qualified staff.",
+      "rounds": [
+        {
+          "task": "Define the primary task and the social and technical arrangements.",
+          "output": "A short work-system account rather than a technology inventory.",
+          "answer": "Primary task: complete agreed safe repairs in residents' homes. Technical arrangements include fault coding, devices, records and parts ordering. Social arrangements include skills, authority, division of work, supervision and resident communication. These interact: a software field can constrain discretion, and an authority rule can turn a technically possible update into a day's delay."
+        },
+        {
+          "task": "Locate a significant variance and where it is currently controlled.",
+          "output": "A variance-control trace.",
+          "answer": "The observed condition differs from the single coded fault. The worker encounters the variation at the home, but control sits with a next-day supervisor and a rigid data structure. Trace the resulting hand-off, delay and repeat visit. Do not assume all variation should be eliminated; some reflects the actual repair need."
+        },
+        {
+          "task": "Design a joint change with minimum necessary constraints.",
+          "output": "A paired social/technical proposal with a safety boundary.",
+          "answer": "Allow linked faults to be recorded and parts requested within defined competence and spending limits. Give suitably trained workers the authority to use that capability. Preserve qualified electrical work and a rapid escalation route for unsafe or unfamiliar conditions. A new app without authority, or autonomy without information and competence, is incomplete."
+        },
+        {
+          "task": "Test the whole work system.",
+          "output": "Three measures and a participative review question.",
+          "answer": "Inspect safe completed repairs, resident disruption and worker ability to resolve variation, alongside resource use. Review cases jointly with workers and residents. Faster data entry alone may coexist with more repeat visits. Ask whose work or risk has been moved elsewhere by the redesign."
+        }
+      ],
+      "checks": [
+        {
+          "q": "Which proposal addresses both social and technical design?",
+          "options": [
+            "Add fault fields but prohibit workers from using them",
+            "Enable linked-fault recording and give qualified workers bounded authority to act",
+            "Tell workers to be more positive"
+          ],
+          "correct": 1,
+          "explanation": "Usable capability depends on the record, skills, rights and work arrangements together."
+        },
+        {
+          "q": "Where is the variance first encountered?",
+          "options": [
+            "At the home by the worker",
+            "Only at the board meeting",
+            "In the annual budget"
+          ],
+          "correct": 0,
+          "explanation": "The mismatch between the coded job and actual faults is encountered in the primary work. The question is how safely and effectively it can be handled there."
+        },
+        {
+          "q": "Does local discretion require removing electrical qualification rules?",
+          "options": [
+            "Yes",
+            "No: discretion can operate within necessary competence and safety constraints",
+            "Only if productivity rises"
+          ],
+          "correct": 1,
+          "explanation": "Joint optimisation is not unlimited autonomy. Necessary constraints and accessible support are part of the design."
+        }
+      ],
+      "repair": {
+        "broken": "The project buys the software first and calls a final staff briefing 'participative socio-technical design'.",
+        "fix": "Involve those doing and receiving the work while task, technology, authority and boundaries are still open to change. Evaluate the combined arrangement, not attendance at the briefing."
+      },
+      "retry": {
+        "task": "Workers can now edit codes, but the parts store still accepts orders only from supervisors. What remains?",
+        "answer": "The technical edit has not removed the control bottleneck. Examine ordering authority, stock information and exceptions as part of the same work system. A local software improvement may simply relocate the delay."
+      },
+      "criteria": [
+        "The primary task and social/technical interdependence are explicit.",
+        "Variation is traced through actual work and control locations.",
+        "Authority, competence, information and technology change coherently.",
+        "Safety and effects on residents and other workers remain visible."
+      ]
+    },
+    {
+      "id": "syntegration",
+      "title": "Syntegration: test the communication structure before the event",
+      "section": "Core methods",
+      "standard": "Syntegration/SyntegrityTM",
+      "ksb": [
+        "K2",
+        "K3",
+        "S3",
+        "S5",
+        "S7",
+        "S10"
+      ],
+      "time": 45,
+      "focus": "Understand overlapping participation and repeated cross-topic learning through a small structural rehearsal.",
+      "scope": "A paper exercise about the classic structure, not delivery of a licensed or full Team Syntegrity event. It does not replace facilitation, topic formation, role allocation or the complete protocol. Other developed formats exist.",
+      "atlas": [
+        "Team Syntegrity",
+        "Syntegration"
+      ],
+      "resources": [
+        "syntegration-free",
+        "scio-reading"
+      ],
+      "paid": [
+        "syntegration-paid"
+      ],
+      "scenario": "Fictional case: a regional partnership needs to consider twelve interdependent topics about access to advice. For the classic structural model, use twelve topic groups and thirty participants, with each person a member of two groups and each group having five members. This is a membership calculation only; critic, observer and facilitator roles are additional and must not be erased from a real design. For a small original rehearsal, focus on three topics: A access, B workforce and C funding. Lia is in A and B; Mo in B and C; Ren in C and A. In round 1, A proposes longer opening hours, B identifies an unfilled staffing requirement and C states a fixed short-term budget.",
+      "rounds": [
+        {
+          "task": "Check the classic membership arithmetic.",
+          "output": "Two independent counts of membership places.",
+          "answer": "Twelve groups times five members gives 60 places. Thirty participants times two memberships also gives 60. The counts agree, but arithmetic alone does not prove a valid icosahedral allocation, workable timetable or fair process. Nor does it count the separate critic and observer roles."
+        },
+        {
+          "task": "Trace how the three-topic rehearsal can change the next discussion.",
+          "output": "A round-2 note for each topic.",
+          "answer": "Lia can bring workforce constraints into access; Mo can bring staffing implications into funding; Ren can connect funding limits back to access. A might revise opening hours or propose a bounded trial. B might distinguish staff capacity from scheduling. C might examine whether a different allocation is possible. This is an original reduced network exercise, not a miniature claimed to preserve the full Syntegrity protocol."
+        },
+        {
+          "task": "Identify what is lost in three isolated breakout groups followed by one report-back.",
+          "output": "One structural difference and one possible consequence.",
+          "answer": "The overlapping membership and recurrent reconsideration are absent. A report-back can transmit a summary, but need not let each topic's reasoning be altered through repeated encounters with the others. A good facilitator could still enable learning; the point is to inspect the communication design rather than assume any workshop is Syntegration."
+        },
+        {
+          "task": "Test a proposed event design for exclusion and premature closure.",
+          "output": "Two design questions and a record of unresolved disagreement.",
+          "answer": "Ask who helped form the opening question and who cannot participate under the proposed format. Ask how critics can challenge an emerging account and how disagreements survive synthesis. A symmetric allocation does not guarantee equal influence, legitimacy or consensus. Record a remaining disagreement, such as access versus staffing priorities, rather than describing it as resolved by geometry."
+        }
+      ],
+      "checks": [
+        {
+          "q": "How many membership places are in the stated classic model?",
+          "options": [
+            "30",
+            "60",
+            "120"
+          ],
+          "correct": 1,
+          "explanation": "Both 12 x 5 and 30 x 2 give 60. This is a membership count, not the total of all roles or meetings."
+        },
+        {
+          "q": "Does matching the place count prove a full Syntegrity design?",
+          "options": [
+            "Yes",
+            "No: topology, roles, timing, participation and protocol still matter",
+            "Yes, if everyone attends"
+          ],
+          "correct": 1,
+          "explanation": "A necessary arithmetic condition is not a sufficient process design."
+        },
+        {
+          "q": "Is the original three-topic rehearsal a certified smaller Syntegration?",
+          "options": [
+            "Yes",
+            "No, it isolates one communication idea for practice",
+            "Only when the answers are correct"
+          ],
+          "correct": 1,
+          "explanation": "The page deliberately limits its claim. It does not reproduce the full geometry or protocol."
+        }
+      ],
+      "repair": {
+        "broken": "A conference has twelve tables and thirty delegates. The organiser declares the process to be Syntegrity and promises consensus.",
+        "fix": "The counts are not the method. Inspect topic formation, overlapping memberships, critic and observer roles, recurrent discussion, facilitation and the underlying structure. Do not promise an agreement that participants have not made."
+      },
+      "retry": {
+        "task": "Lia attends A only and Mo attends B only, while Ren carries every message. What structural risk appears?",
+        "answer": "Cross-topic learning depends on one person, creating a bottleneck and a privileged interpreter. Other connections or repeated cross-topic encounters would be needed. The repair should preserve accurate differences rather than force every group to repeat Ren's summary."
+      },
+      "criteria": [
+        "Membership arithmetic is correct and distinguished from total roles.",
+        "Overlapping participation and iteration have an explained purpose.",
+        "The reduced exercise is not passed off as the complete protocol.",
+        "Legitimacy and disagreement are not assumed to follow from symmetry."
+      ]
+    },
+    {
+      "id": "soda",
+      "title": "SODA: build a means-ends map without erasing disagreement",
+      "section": "Systemic intervention",
+      "standard": "Strategic Options Development and Analysis (SODA)",
+      "ksb": [
+        "K2",
+        "K3",
+        "S3",
+        "S5",
+        "S6",
+        "S7"
+      ],
+      "time": 40,
+      "focus": "Turn supplied statements into contrasting constructs and a traceable means-ends map.",
+      "scope": "A basic cognitive-mapping rehearsal. It is not a full negotiated SODA intervention and does not turn participants' causal beliefs into established facts.",
+      "atlas": [
+        "Strategic Options Development and Analysis",
+        "SODA",
+        "Cognitive mapping"
+      ],
+      "resources": [
+        "soda-free"
+      ],
+      "paid": [
+        "soda-paid",
+        "scio-development"
+      ],
+      "scenario": "Fictional case: a service leader says 'Give advisers more discretion so people receive help without repeated approval.' A finance lead says 'Keep approval for unusual spending so the service remains within its budget.' An adviser says 'Waiting for approval means people call again, which leaves less time to resolve cases.' A resident says 'I need a clear answer, not another referral.' None has agreed that eliminating all approval is desirable.",
+      "rounds": [
+        {
+          "task": "Construct four short concepts with meaningful contrasts.",
+          "output": "Four bipolar or contrast-explicit concepts, retaining the speaker's meaning.",
+          "answer": "Examples: greater bounded adviser discretion / repeated approval; help resolved / further referral; budget kept within agreed limits / uncontrolled spending; clear answer / uncertain next step. The contrasts should clarify this case, not mechanically negate a word. Mark these as provisional formulations to check with speakers."
+        },
+        {
+          "task": "Connect means to ends and retain the tension.",
+          "output": "A directed map plus a statement explaining every arrow.",
+          "answer": "One proposed chain is bounded discretion -> fewer approval waits -> fewer repeat calls -> more time for resolution. Another is appropriate spending control -> budget viability. A tension appears if the same control creates unnecessary waits. Keep the finance concern visible rather than deleting it as anti-change. These links represent supplied or inferred reasoning, with inference labelled."
+        },
+        {
+          "task": "Find a candidate option that connects the concerns.",
+          "output": "One option and a question for negotiation.",
+          "answer": "Delegated spending within agreed limits, with rapid exception handling and review, could support resolution and budget control. Ask the parties what limits, information and review would make it workable. The analyst has generated an option, not obtained agreement."
+        }
+      ],
+      "checks": [
+        {
+          "q": "Which statement is supported by the case?",
+          "options": [
+            "Everyone wants all approvals abolished",
+            "Some approvals may contribute to repeat demand while others protect a valued constraint",
+            "Finance is opposed to residents receiving help"
+          ],
+          "correct": 1,
+          "explanation": "The case supports a tension to investigate, not universal agreement or an attribution of bad intent."
+        },
+        {
+          "q": "What is the status of an arrow derived from an interview statement?",
+          "options": [
+            "A causal belief to explore and test",
+            "A proven physical law",
+            "A vote"
+          ],
+          "correct": 0,
+          "explanation": "The map preserves reasoning so it can be compared, challenged and revised. It does not make an assertion true merely by drawing it."
+        }
+      ],
+      "repair": {
+        "broken": "The facilitator merges 'financial control' and 'bureaucracy' into one negative concept and reports consensus.",
+        "fix": "Recover the different meanings and the legitimate concern each expresses. Preserve tensions and return formulations to participants. Agreement must be negotiated, not created through the analyst's labels."
+      },
+      "retry": {
+        "task": "The adviser says most delays occur after approval, while waiting for a specialist. What changes?",
+        "answer": "Revise the causal chain. Approval may not be the dominant source of delay. Add specialist availability or routing where evidence supports it, and reconsider whether delegated spending addresses the important blockage."
+      },
+      "criteria": [
+        "Concepts preserve meaning through useful contrasts.",
+        "Arrows form explainable means-ends reasoning.",
+        "Disagreement and inferred claims remain visible.",
+        "An option is distinguished from negotiated agreement."
+      ]
+    },
+    {
+      "id": "fractal-enterprise-model",
+      "title": "Fractal Enterprise Model: alternate processes and the assets they depend on",
+      "section": "Systemic intervention",
+      "standard": "Fractal Enterprise Model & Capabilities (Bider)",
+      "ksb": [
+        "K2",
+        "S2",
+        "S3",
+        "S4",
+        "S7"
+      ],
+      "time": 40,
+      "focus": "Build a small process-asset model and identify a neglected asset-management dependency.",
+      "scope": "A first FEM modelling exercise using explicit text relations. Follow the linked reference guides for the complete notation and allowed label combinations.",
+      "atlas": [
+        "Fractal Enterprise Model"
+      ],
+      "resources": [
+        "fem-free",
+        "fem-examples"
+      ],
+      "paid": [
+        "scio-development"
+      ],
+      "scenario": "Fictional case: an advice charity delivers appointments. This process uses trained advisers, an appointment system and suitable rooms. Advisers are maintained through supervision and training; new advisers come through recruitment. The appointment system is maintained by a supplier-management process. Rooms depend on facilities maintenance. Every supporting process also needs people, information and time. Recruitment was suspended because managers counted only time spent on appointments as productive.",
+      "rounds": [
+        {
+          "task": "Separate processes from assets.",
+          "output": "Two lists and a notation legend.",
+          "answer": "Processes include delivering appointments, training advisers, recruitment, supplier management and facilities maintenance. Assets include the available adviser capability, appointment system and rooms. In the introductory FEM notation use ovals for processes and rectangles for assets, or labelled text equivalents. 'Recruitment' is not interchangeable with 'trained advisers': one changes an asset the other process needs."
+        },
+        {
+          "task": "Construct one complete alternating chain.",
+          "output": "A process-asset-process-asset chain with typed relations.",
+          "answer": "Deliver appointments uses adviser capability; training maintains that capability; training itself uses trainers, time and learning material. Recruitment acquires new adviser capacity. Supplier management maintains access to the appointment system. Specify the relation in words rather than drawing an unlabelled arrow whose direction could mean several things."
+        },
+        {
+          "task": "Use the model to challenge the productivity decision.",
+          "output": "A dependency-based prediction and an observation plan.",
+          "answer": "Suspending recruitment can weaken future adviser capacity even while today's appointment utilisation rises. Track departures, recruitment lead time, capability and available appointments. The model identifies a dependency; it does not calculate the rate of decline without further data or a dynamic model."
+        }
+      ],
+      "checks": [
+        {
+          "q": "Which is an asset in this case?",
+          "options": [
+            "Recruit advisers",
+            "Available trained adviser capability",
+            "Conduct supervision"
+          ],
+          "correct": 1,
+          "explanation": "The capability is something processes use and maintain. Recruitment and supervision are activities that affect it."
+        },
+        {
+          "q": "Does drawing the dependency predict the exact staffing shortage next year?",
+          "options": [
+            "Yes",
+            "No, the dependency model needs further quantitative assumptions for that prediction",
+            "Yes, if every box is connected"
+          ],
+          "correct": 1,
+          "explanation": "A structural relation is not a calibrated time-dependent model."
+        }
+      ],
+      "repair": {
+        "broken": "A chronological flowchart of appointment steps is labelled FEM, with every item drawn as the same type of box.",
+        "fix": "Distinguish processes, assets and the relations of use and asset management. A process flowchart may be useful, but it answers a different question."
+      },
+      "retry": {
+        "task": "The charity outsources the appointment system. Does that remove it from the model?",
+        "answer": "No. The capability remains a dependency even when externally provided. Model the asset or access it supplies, the supplier relationship that sustains it, and the relevant boundary and control limits."
+      },
+      "criteria": [
+        "Processes and assets are distinct.",
+        "Use and maintenance/acquisition relations are labelled.",
+        "At least one supporting process's own dependencies are exposed.",
+        "Structural insight is not passed off as a quantitative forecast."
+      ]
+    },
+    {
+      "id": "critical-social-learning",
+      "title": "Critical social learning: build a learning relationship across boundaries",
+      "section": "Systemic intervention",
+      "standard": "Critical Social Learning Systems; Action learning; Action research; Appreciative Enquiry",
+      "ksb": [
+        "K3",
+        "K4",
+        "S5",
+        "S6",
+        "S7",
+        "S8",
+        "S9",
+        "S11"
+      ],
+      "time": 50,
+      "focus": "Design a small collective inquiry that can change both action and the assumptions behind it.",
+      "scope": "A bridge exercise across related but distinct approaches. Vickers' appreciative systems are not identical to Cooperrider's 4D Appreciative Inquiry. Systems convening offers practical social-learning resources, not a claim to be the same named methodology.",
+      "atlas": [
+        "Social learning",
+        "Action research",
+        "Appreciative inquiry",
+        "Systems convening"
+      ],
+      "resources": [
+        "social-learning-free",
+        "deming-free",
+        "scio-reading"
+      ],
+      "paid": [
+        "social-learning-paid",
+        "scio-development"
+      ],
+      "scenario": "Fictional case: a council, a charity and a residents' group meet monthly about access to advice. Each presents success figures, but nobody changes practice. The council values prompt closure, the charity values sustained relationships, and residents value getting an answer they can use. One joint case worked unusually well because a resident and adviser could contact a named decision-maker directly. That person has since left. Residents say meetings use unfamiliar language and are held during their working hours.",
+      "rounds": [
+        {
+          "task": "Map the appreciative differences.",
+          "output": "Three judgements about what counts as a good result, without forcing one metric.",
+          "answer": "Prompt closure, sustained relationship and a usable answer are different appreciations of the situation. Ask what experiences and standards sustain each judgement. This is an appreciative-systems inquiry in Vickers' sense; it is not simply a request to think positively."
+        },
+        {
+          "task": "Investigate the successful case without ignoring failure.",
+          "output": "Evidence of enabling conditions and a question about transfer.",
+          "answer": "Ask what the named decision-maker could actually do, what trust and access made possible, and whether the arrangement depended on unusual unpaid effort. A 4D Appreciative Inquiry route could explore successful experience, imagine a better arrangement, design it and sustain learning; keep that distinct from the earlier appreciative-systems analysis. Do not assume a single success can be copied unchanged."
+        },
+        {
+          "task": "Design an action-research cycle.",
+          "output": "A jointly owned question, small action, observation and reflection.",
+          "answer": "Question: can a named decision route improve usable answers without creating an unmanageable dependency? Agree a small trial with participants, gather resident accounts and response traces, and review together. Change the meeting time and language so residents can participate. Record who can stop or revise the trial."
+        },
+        {
+          "task": "Create a double-loop learning test.",
+          "output": "One change to action and one change to a governing assumption.",
+          "answer": "Changing how quickly cases are closed is an action adjustment. Questioning whether closure is an adequate definition of success changes a governing assumption. The group should show what it learned and altered, not merely that it held another meeting."
+        }
+      ],
+      "checks": [
+        {
+          "q": "Does a positive case remove the need to investigate exclusions?",
+          "options": [
+            "Yes",
+            "No, enabling conditions and excluded experiences both matter",
+            "Only during Appreciative Inquiry"
+          ],
+          "correct": 1,
+          "explanation": "Appreciation is not a licence to omit harms or transfer conditions."
+        },
+        {
+          "q": "Which is the clearest double-loop move?",
+          "options": [
+            "Produce the same closure report faster",
+            "Question whether closure represents the purpose people value",
+            "Increase meeting frequency without changing anything else"
+          ],
+          "correct": 1,
+          "explanation": "It examines the rule or assumption shaping action, rather than only improving performance within it."
+        }
+      ],
+      "repair": {
+        "broken": "The group records attendance as proof that a social learning system exists and that residents share the official purpose.",
+        "fix": "Look for changes in shared inquiry, relationships, action and the capacity to challenge assumptions. Attendance alone establishes none of those. Ask residents whether the process is usable and consequential."
+      },
+      "retry": {
+        "task": "The named decision route improves speed but residents feel pressured to accept an answer. What should the learning group do?",
+        "answer": "Revise the definition of success to include the quality and freedom of the interaction. Investigate the pressure, change the process with residents and reconsider the trial's limits. Do not treat the complaint as resistance to an otherwise successful innovation."
+      },
+      "criteria": [
+        "Different appreciations and named traditions are not collapsed.",
+        "Participation changes who can influence the inquiry.",
+        "The action cycle includes evidence and revision.",
+        "A governing assumption can be questioned."
+      ]
+    },
+    {
+      "id": "service-systems",
+      "title": "Service systems: follow demand and distinguish activity from resolution",
+      "section": "Systemic intervention",
+      "standard": "Deming; Vanguard Method (Seddon); Lean & Six-Sigma",
+      "ksb": [
+        "K1",
+        "K3",
+        "K5",
+        "S1",
+        "S3",
+        "S6",
+        "S7",
+        "S11"
+      ],
+      "time": 40,
+      "focus": "Classify a small demand sample, trace end-to-end work, and design a prediction-led test.",
+      "scope": "A bridge to systemic service improvement, not a full Vanguard, Lean or Six Sigma course. These traditions are distinct; this exercise does not validate statistical process-control competence.",
+      "atlas": [
+        "Vanguard Method",
+        "W. Edwards Deming",
+        "Lean"
+      ],
+      "resources": [
+        "deming-free",
+        "scio-reading"
+      ],
+      "paid": [
+        "deming-paid",
+        "scio-development"
+      ],
+      "scenario": "Fictional case: ten consecutive calls to a repair desk are recorded. Calls 1, 2, 4 and 8 request new repairs. Calls 3, 5 and 9 ask why an agreed visit did not happen. Calls 6 and 10 report that a supposedly completed repair still leaks. Call 7 asks for an unrelated general-information leaflet. Staff are measured on average handling time. One repair trace shows three minutes on the first call, two days waiting for approval, a failed visit because the wrong part was sent, and two more calls before a completed repair eight days later.",
+      "rounds": [
+        {
+          "task": "Classify the demand using the reason for contact.",
+          "output": "A ten-row classification with a stated definition.",
+          "answer": "Four calls request new repairs. Five arise from something the service failed to do or do right: three missed visits and two ineffective repairs. One is a separate information request whose relevance depends on the service purpose. The five repeated-failure contacts are 50% of this tiny sample, not a proven organisation-wide rate. Never infer demand type from the caller's attitude."
+        },
+        {
+          "task": "Trace value, waiting and rework end to end.",
+          "output": "A resident-centred work trace.",
+          "answer": "Follow need to completed repair, including approval delay, wrong parts, failed visit and repeat contact. Three minutes of call handling does not represent eight days of elapsed experience. Reducing the first call to two minutes could worsen diagnosis and increase total work."
+        },
+        {
+          "task": "Design a PDSA test rather than a rollout.",
+          "output": "Prediction, bounded action, evidence and decision.",
+          "answer": "Predict that confirming the fault and required part before dispatch reduces failed visits in a small agreed set of jobs without creating excessive delay. Test, compare actual results with the prediction, and revise the explanation or practice. Include resident resolution and staff effort. A before-after improvement alone does not isolate the cause."
+        }
+      ],
+      "checks": [
+        {
+          "q": "How many calls in the sample arose from missed visits or ineffective repairs?",
+          "options": [
+            "Four",
+            "Five",
+            "Nine"
+          ],
+          "correct": 1,
+          "explanation": "Calls 3, 5, 9, 6 and 10 are the five specified failure-related contacts."
+        },
+        {
+          "q": "Does the sample prove 50% of all future demand is failure-related?",
+          "options": [
+            "Yes",
+            "No, sample size, timing and representativeness matter",
+            "Yes, because ten is a round number"
+          ],
+          "correct": 1,
+          "explanation": "The sample supports a local observation and further inquiry, not an exact population estimate."
+        },
+        {
+          "q": "What belongs in the Study step of PDSA?",
+          "options": [
+            "Compare observations with the prediction and revise the theory",
+            "Declare the change a success because it was implemented",
+            "Check only that staff complied"
+          ],
+          "correct": 0,
+          "explanation": "Prediction-led learning is different from checking implementation alone."
+        }
+      ],
+      "repair": {
+        "broken": "'Calls are waste. Block repeat callers and the demand problem will disappear.'",
+        "fix": "Investigate why people call. Prevent avoidable failures and resolve legitimate need. Suppressing contact can hide unresolved work and increase harm elsewhere."
+      },
+      "retry": {
+        "task": "Handling time rises by one minute while failed visits fall. Can the change still be worthwhile?",
+        "answer": "Yes, potentially. Compare safe resolution, total end-to-end effort, repeat contact and resident experience. The local time measure alone cannot decide. Quantify the actual effects before concluding."
+      },
+      "criteria": [
+        "Demand is classified from purpose and cause, not blame.",
+        "A sample is not treated as a population certainty.",
+        "End-to-end resolution remains visible.",
+        "The test includes a prediction and a learning decision."
+      ]
+    },
+    {
+      "id": "participative-inquiry",
+      "title": "Participative inquiry: test who your evidence leaves out",
+      "section": "Systemic intervention",
+      "standard": "Stakeholder analysis; Influence mapping; Interview technique; Listening & multiple perspectives; Large group engagement processes",
+      "ksb": [
+        "K3",
+        "K4",
+        "S5",
+        "S6",
+        "S10",
+        "B2",
+        "B4",
+        "B8",
+        "B9"
+      ],
+      "time": 40,
+      "focus": "Build an engagement and evidence plan that does not confuse influence with the right to be heard.",
+      "scope": "A basic inquiry-design rehearsal. An invented engagement plan is not evidence of actual facilitation, safe participation or sustained relationships.",
+      "atlas": [
+        "Stakeholder analysis",
+        "Participation",
+        "Boundary critique"
+      ],
+      "resources": [
+        "government-toolkit",
+        "social-learning-free",
+        "scio-reading"
+      ],
+      "paid": [
+        "social-learning-paid",
+        "scio-development"
+      ],
+      "scenario": "Fictional case: a transport partnership surveys people through its smartphone ticketing app. Managers report that 92% of respondents are satisfied. The response count and invitation count are not given. Drivers say some passengers pay cash and need help. A disability group cannot attend the partnership's daytime meetings. The operator controls timetables, the council controls a subsidy, and passengers have informal influence but no direct timetable authority.",
+      "rounds": [
+        {
+          "task": "Map interest, influence, control and affectedness separately.",
+          "output": "A four-column actor table.",
+          "answer": "The operator controls timetable decisions; the council controls subsidy; drivers hold operational knowledge; passengers experience the service; the disability group can supply perspectives absent from the meetings. Low formal power does not mean low relevance. Distinguish resource control from expertise and affectedness."
+        },
+        {
+          "task": "Audit the 92% statement.",
+          "output": "Three missing facts and one excluded group.",
+          "answer": "Ask how many were invited, how many responded, what question was asked, when, and whether repeat responses were possible. People without the app are outside the sampling frame. The percentage may describe respondents accurately while saying little about all passengers or people unable to travel."
+        },
+        {
+          "task": "Design a proportionate mixed inquiry.",
+          "output": "Two evidence routes and an accessible participation option.",
+          "answer": "Observe a small range of journeys and interview cash and app users with consent. Hold supported conversations at accessible times or through an independent group. Retain anonymous reporting where useful. Ask an open question such as 'Tell me about the last journey you tried to make', then check interpretation with the speaker."
+        },
+        {
+          "task": "Plan a group comparison without forced consensus.",
+          "output": "An opening question, a participation safeguard and a record format.",
+          "answer": "Ask 'What makes a journey usable, and for whom does the current arrangement fail?' Give participants different ways to contribute and separate operator authority from facilitation. Record agreements, differences, missing evidence and commitments. A World Cafe or other format is a means, not proof that all relevant voices are present."
+        }
+      ],
+      "checks": [
+        {
+          "q": "Can 92% app-user satisfaction establish satisfaction among all potential passengers?",
+          "options": [
+            "Yes",
+            "No: the sampling boundary excludes some relevant people",
+            "Only if the chart is clear"
+          ],
+          "correct": 1,
+          "explanation": "The frame, response process and question matter. An accurate percentage within one group does not automatically generalise."
+        },
+        {
+          "q": "Which interview opening best avoids importing a diagnosis?",
+          "options": [
+            "Why do you resist digital ticketing?",
+            "Tell me about the last journey you tried to make",
+            "Do you agree the app is convenient?"
+          ],
+          "correct": 1,
+          "explanation": "It invites an account before assigning a motive or preferred judgement."
+        }
+      ],
+      "repair": {
+        "broken": "Only high-power stakeholders are invited because low-power passengers cannot affect delivery.",
+        "fix": "Separate ability to block a decision from entitlement to contribute evidence and challenge its effects. Design routes for affected people to influence the inquiry and explain what authority remains elsewhere."
+      },
+      "retry": {
+        "task": "The disability group declines the proposed workshop. What should not be inferred, and what is a better next move?",
+        "answer": "Do not infer indifference or consent. Ask whether timing, trust, access, burden or previous experience is the issue, and offer a less burdensome route through their preferred representative or format."
+      },
+      "criteria": [
+        "Influence and affectedness are not conflated.",
+        "Sampling limits are explicit.",
+        "Questions seek accounts before explanations.",
+        "Participation has a practical route to affect the inquiry."
+      ]
+    },
+    {
+      "id": "futures-and-probes",
+      "title": "Futures and probes: test robustness without pretending to predict",
+      "section": "Systemic intervention",
+      "standard": "Systemic inquiry and intervention design: futures, uncertainty and complexity",
+      "ksb": [
+        "K1",
+        "K2",
+        "K3",
+        "S2",
+        "S3",
+        "S7",
+        "B3",
+        "B5",
+        "B6"
+      ],
+      "time": 45,
+      "focus": "Compare options across explicit scenarios, then design more than one bounded learning probe.",
+      "scope": "A bridge to apprenticeship duties 8-10. Scenario analysis, sensitivity testing and safe-to-fail probes are distinct activities; none is a guarantee about the future.",
+      "atlas": [
+        "Complexity",
+        "Safe-to-fail experiments",
+        "Scenario planning"
+      ],
+      "resources": [
+        "complexity-free",
+        "government-toolkit"
+      ],
+      "paid": [
+        "scio-development"
+      ],
+      "scenario": "Fictional case: an advice service is choosing capacity arrangements. Scenarios are low demand at 80 cases/week and high demand at 140. Option A has fixed capacity 100; option B has fixed capacity 120; option C has baseline 90 and can add 60, but only after two weeks. Costs and case complexity are not supplied. Separately, the service does not know whether residents avoid appointments because of timing, lack of trust or confusing letters. No one can safely be denied essential support for an experiment.",
+      "rounds": [
+        {
+          "task": "Calculate the initial capacity gap under each demand scenario.",
+          "output": "A two-by-three table, treating C's delay explicitly.",
+          "answer": "At demand 80, all options cover demand initially: spare capacity A=20, B=40, C=10. At demand 140, initial shortfalls are A=40, B=20 and C=50 cases/week. After its extra capacity becomes effective, C reaches 150 and has spare capacity 10. This is a capacity comparison, not a queue forecast or cost-effectiveness ranking."
+        },
+        {
+          "task": "State what is needed before choosing an option.",
+          "output": "Three missing assumptions and a robustness judgement.",
+          "answer": "Ask about duration of demand, mobilisation reliability, costs, case mix, backlog, staff welfare and acceptable waiting. C may cope with sustained high demand but expose people during the delay. B has a smaller initial gap but cannot fully meet the high case. No option is 'best' without purpose, constraints and evaluation criteria."
+        },
+        {
+          "task": "Design two parallel probes for different explanations of avoidance.",
+          "output": "Two small interventions with distinct hypotheses.",
+          "answer": "Probe 1 offers a choice of appointment times to a consenting small group, testing timing constraints. Probe 2 offers an optional introduction from a trusted community contact, testing a relationship hypothesis. Preserve normal support for everyone. A clearer letter could be a third probe; avoid bundling every change so that nothing can be learned about the alternatives."
+        },
+        {
+          "task": "Define sensing, dampening and amplification before acting.",
+          "output": "A named observer, review point and stop/adapt rules.",
+          "answer": "Review take-up, missed contact, participant experience and staff burden at an agreed short interval. Stop or alter a probe if people feel pressured, essential support is delayed or workload becomes unsafe. Expand only when evidence and context justify it, while continuing to look for harms and differences between groups."
+        }
+      ],
+      "checks": [
+        {
+          "q": "At high demand, what is C's initial weekly shortfall?",
+          "options": [
+            "50 cases",
+            "10 cases",
+            "No shortfall"
+          ],
+          "correct": 0,
+          "explanation": "Only baseline capacity 90 is initially available: 140-90=50. The later 150 cannot be used before its stated delay."
+        },
+        {
+          "q": "Which is a safe-to-fail design feature?",
+          "options": [
+            "A large mandatory rollout called a pilot",
+            "A bounded, monitored action with an available stop or adaptation route",
+            "A promise that nothing unexpected will happen"
+          ],
+          "correct": 1,
+          "explanation": "Safety is designed through limits, sensing and response, not asserted through a label or guarantee."
+        }
+      ],
+      "repair": {
+        "broken": "The plan chooses the highest eventual capacity, ignores mobilisation delay and calls a compulsory service withdrawal an experiment.",
+        "fix": "Model the transition as well as the eventual state. Preserve essential support, establish consent and safeguards, and test competing explanations with bounded actions. Unknowns do not justify avoidable harm."
+      },
+      "retry": {
+        "task": "Extra capacity now takes six weeks, while high demand is expected to last four. How does that affect C?",
+        "answer": "The additional capacity would arrive after the expected surge. C's nominal peak capacity becomes less relevant to this scenario. Reconsider earlier mobilisation, another arrangement or a different hypothesis about demand; do not silently retain the original recommendation."
+      },
+      "criteria": [
+        "Scenarios and forecasts are distinguished.",
+        "Capacity arithmetic and response delays are correct.",
+        "Options are not ranked without criteria and missing assumptions.",
+        "Probes test distinct possibilities and have real safeguards."
+      ]
+    },
+    {
+      "id": "ethics-and-power",
+      "title": "Ethics and power: make an intervention's authority and effects explicit",
+      "section": "Systemic intervention",
+      "standard": "Multi-agency intervention; Values mapping and integration; Managing deflection / resistance & challenge",
+      "ksb": [
+        "K4",
+        "K3",
+        "S5",
+        "S7",
+        "S8",
+        "S10",
+        "B2",
+        "B4",
+        "B7"
+      ],
+      "time": 40,
+      "focus": "Distinguish permission, participation and legitimacy, then design a reversible intervention with an accessible challenge route.",
+      "scope": "A generic ethical reasoning exercise. It cannot establish compliance with sector-specific law, safeguarding or professional requirements. Those require qualified, contextual checks before real action.",
+      "atlas": [
+        "Ethics",
+        "Power",
+        "Critical Systems Heuristics"
+      ],
+      "resources": [
+        "ulrich",
+        "government-toolkit"
+      ],
+      "paid": [
+        "scio-development"
+      ],
+      "scenario": "Fictional case: a sponsor asks an analyst to rank families for extra support using attendance records. The sponsor controls the project budget but does not control the schools' data. Families have not been told about the proposed use. The analyst suspects that absence may reflect transport barriers, caring responsibilities or illness, but no inquiry has tested those explanations. The sponsor says consultation will slow delivery and asks for a hidden pilot.",
+      "rounds": [
+        {
+          "task": "Map authority and affectedness.",
+          "output": "A distinction between budget authority, data rights and effects on people.",
+          "answer": "The sponsor's budget authority does not automatically authorise access to school data or a new use of it. Families are affected even if they do not control the project. Identify the actual accountable organisations and required data, professional and safeguarding checks rather than inventing legal permission."
+        },
+        {
+          "task": "Separate observations, labels and causal claims.",
+          "output": "Three typed statements and alternative explanations.",
+          "answer": "Recorded attendance is an observation with possible data-quality limits. 'Disengaged family' is an interpretation. 'Low attendance means low motivation' is a causal claim not established here. Transport, caring and illness are competing hypotheses, not facts about any family."
+        },
+        {
+          "task": "Design an ethically defensible next inquiry.",
+          "output": "A narrower action with permission, safeguards and a stop condition.",
+          "answer": "First clarify lawful authority and purpose with the relevant professionals. Seek a proportionate, transparent inquiry that includes affected families and does not determine support from an untested proxy alone. Use minimised or synthetic data for the modelling rehearsal. Establish how people can correct information or challenge an interpretation. A hidden pilot is not made acceptable by being small."
+        },
+        {
+          "task": "Prepare a constructive challenge to the sponsor.",
+          "output": "A short statement that names the risk and a workable alternative.",
+          "answer": "For example: 'We can test the model with synthetic cases now. Using identifiable attendance to rank families needs authority and a way to test the proxy with affected people. Otherwise the model may direct support away from the people facing the largest barriers.' Keep the challenge specific; do not accuse the sponsor of a motive the evidence does not establish."
+        }
+      ],
+      "checks": [
+        {
+          "q": "Does budget ownership automatically authorise the proposed data use?",
+          "options": [
+            "Yes",
+            "No",
+            "Only during a pilot"
+          ],
+          "correct": 1,
+          "explanation": "Different authorities and obligations may apply. This exercise provides no sector-specific legal determination."
+        },
+        {
+          "q": "What is the status of 'absence means low motivation'?",
+          "options": [
+            "An established fact",
+            "An untested causal interpretation",
+            "A harmless administrative label"
+          ],
+          "correct": 1,
+          "explanation": "The same observation can arise from different conditions. A consequential proxy requires evidence and challenge."
+        }
+      ],
+      "repair": {
+        "broken": "The ethical review says 'all stakeholders consulted' because the sponsor approved the model.",
+        "fix": "Name who actually participated, who was affected but absent, what could be changed through participation, and who had decision rights. Approval and legitimacy are not interchangeable."
+      },
+      "retry": {
+        "task": "Families agree to discuss barriers but decline automated ranking. What follows?",
+        "answer": "Consent to one activity does not imply consent or authorisation for another. Redesign the inquiry and decision process within applicable obligations. Their refusal is evidence about the intervention's acceptability, not a modelling error to overcome."
+      },
+      "criteria": [
+        "Authority, influence, affectedness and permission are distinct.",
+        "Proxies and causal claims are not treated as established truth.",
+        "The intervention has transparency, safeguards and a challenge route.",
+        "Sector-specific compliance is explicitly left for qualified checking."
+      ]
+    },
+    {
+      "id": "evaluation-and-reflexivity",
+      "title": "Evaluation and reflexivity: test the claim you are tempted to make",
+      "section": "Systemic intervention",
+      "standard": "Action research; Scientific Theory & Evidence; Learning design & learning conversations",
+      "ksb": [
+        "K5",
+        "K3",
+        "S6",
+        "S9",
+        "S11",
+        "B1",
+        "B3",
+        "B5"
+      ],
+      "time": 40,
+      "focus": "Distinguish a measured change from a causal claim and use evaluation to revise both intervention and framing.",
+      "scope": "A basic mixed-evidence evaluation rehearsal. It is not a complete impact evaluation, statistical inference course or assessment of real practitioner behaviour.",
+      "atlas": [
+        "Evaluation",
+        "Action research",
+        "Reflexivity",
+        "Double-loop learning"
+      ],
+      "resources": [
+        "government-toolkit",
+        "deming-free",
+        "social-learning-free"
+      ],
+      "paid": [
+        "deming-paid",
+        "social-learning-paid"
+      ],
+      "scenario": "Fictional case: after a new triage process, recorded average waiting time falls from 20 to 12 days. During the same period, 30 difficult cases are moved to another team and excluded from the report. Staff report less duplicated work. Three residents describe improved clarity; two describe feeling dismissed. The analyst designed the change and chose the waiting-time measure. There is no comparison group and no information about seasonal demand.",
+      "rounds": [
+        {
+          "task": "Calculate the reported change, then bound the claim.",
+          "output": "An absolute change, a percentage change and a qualification.",
+          "answer": "The reported average fell by eight days, or 40% relative to 20. That describes the recorded series. It does not establish an eight-day improvement for all people or prove that triage caused it, because case inclusion changed and other influences are unknown."
+        },
+        {
+          "task": "Build a small evaluation matrix.",
+          "output": "Outcome, process, distribution and unintended-effect evidence.",
+          "answer": "Outcome: time to usable resolution across both teams. Process: duplicate work and triage experience. Distribution: results by relevant case types and access needs. Unintended effects: dismissal, displaced queues and staff burden elsewhere. Combine trace data with participant accounts and report disagreements rather than averaging them away."
+        },
+        {
+          "task": "Name your own influence on the evaluation.",
+          "output": "A reflexive note and one practical safeguard.",
+          "answer": "The analyst selected both intervention and measure and may favour evidence of improvement. Use an independent challenge or joint review, retain negative cases, document changed definitions and publish the measurement boundary. Reflexivity is not a confession that makes evidence unnecessary."
+        },
+        {
+          "task": "Decide what can responsibly be reported now.",
+          "output": "A short finding and a next learning action.",
+          "answer": "'Recorded waiting fell, and some staff and residents report benefits. Changed case boundaries and mixed resident experience prevent a whole-service causal claim. We will trace the transferred cases and review dismissal accounts before expanding.' This supports action without manufacturing certainty."
+        }
+      ],
+      "checks": [
+        {
+          "q": "What is the reported percentage reduction from 20 to 12?",
+          "options": [
+            "8%",
+            "40%",
+            "60%"
+          ],
+          "correct": 1,
+          "explanation": "The reduction is (20-12)/20 = 0.4. The new value is 60% of the old value; that is not the reduction."
+        },
+        {
+          "q": "Which finding is currently defensible?",
+          "options": [
+            "Triage caused a 40% improvement for everyone",
+            "The recorded average fell, but the causal and population claim remains uncertain",
+            "Nothing can be learned"
+          ],
+          "correct": 1,
+          "explanation": "There is useful evidence, but its boundary and competing explanations limit the conclusion."
+        },
+        {
+          "q": "What should happen to the two negative resident accounts?",
+          "options": [
+            "Remove them as outliers",
+            "Investigate and retain them as possible evidence of unintended effects",
+            "Treat them as proof all results are false"
+          ],
+          "correct": 1,
+          "explanation": "Neither erasure nor automatic generalisation is warranted. The accounts can change the evaluation questions and the intervention."
+        }
+      ],
+      "repair": {
+        "broken": "The evaluator calls the pilot successful because the selected indicator improved, while excluding transferred cases and dissenting accounts.",
+        "fix": "Restore the end-to-end boundary, explain changes in inclusion and consider alternative explanations. Evaluate effects and experience, not only the measure chosen by the designer."
+      },
+      "retry": {
+        "task": "Transferred cases now show waits of 50 days. What does that tell you, and what else is needed?",
+        "answer": "It reveals a potentially serious displaced burden. To calculate a combined mean, obtain counts and comparable definitions for both groups; do not average the two means without weights. Examine whether transfer was appropriate and what happened to residents."
+      },
+      "criteria": [
+        "The arithmetic is correct.",
+        "Description, causation and generalisation are distinguished.",
+        "Displaced and negative effects remain in view.",
+        "The evaluator's role changes the safeguards and inquiry."
+      ]
+    },
+    {
+      "id": "systemic-constellations",
+      "title": "Systemic constellations: use a spatial representation as a hypothesis",
+      "section": "Systemic intervention",
+      "standard": "Constellations (Systemic)",
+      "ksb": [
+        "K3",
+        "K4",
+        "S3",
+        "S5",
+        "S6",
+        "S9"
+      ],
+      "time": 30,
+      "focus": "Explore a fictional organisational relationship with objects, then test what the representation does and does not establish.",
+      "scope": "A low-stakes tabletop orientation exercise only, not a full constellation facilitation or therapy. Spatial impressions are not evidence of absent people's feelings, motives or hidden historical facts. Use trained support for deeper work and never compel personal disclosure.",
+      "atlas": [
+        "Systemic constellations"
+      ],
+      "resources": [
+        "scio-reading",
+        "constellations-paid"
+      ],
+      "paid": [
+        "constellations-paid"
+      ],
+      "scenario": "Fictional case: a project coordinator receives requests from a sponsor and three service teams. The sponsor's messages are frequent; the teams' concerns often arrive late. Residents are discussed but do not attend project meetings. Use five labelled objects: coordinator, sponsor, teams, residents and project purpose. You may instead draw the arrangement or describe it in text; no movement or personal disclosure is required.",
+      "rounds": [
+        {
+          "task": "Arrange the objects to represent one interpretation of attention and contact.",
+          "output": "A diagram or text account with a stated meaning for distance and direction.",
+          "answer": "One possible arrangement puts the sponsor close to the coordinator, teams farther away and residents outside the main line of attention. Label this as your construction from the case, not a discovered invisible order. Another arrangement can be defensible if its meaning is explicit."
+        },
+        {
+          "task": "Describe before interpreting.",
+          "output": "Two observations about the arrangement and two hypotheses about work.",
+          "answer": "Observation: the resident object is outside the line between sponsor and coordinator. Hypothesis: resident experience may receive less attention. Observation: the sponsor is placed closest. Hypothesis: frequent sponsor requests may dominate the coordinator's time. Neither placement establishes what the real people feel or intend."
+        },
+        {
+          "task": "Try a different arrangement and identify a real-world test.",
+          "output": "One changed relationship and one observable inquiry.",
+          "answer": "Move purpose and residents into view and ask what would make that meaningful in work. A test could be to bring a consented resident account into a project review and observe whether it changes decisions. Moving an object is not itself an organisational change or proof of a better relationship."
+        }
+      ],
+      "checks": [
+        {
+          "q": "What can the tabletop arrangement directly establish?",
+          "options": [
+            "The sponsor's hidden motives",
+            "The modeller's current representation and questions it raises",
+            "The feelings of residents who are absent"
+          ],
+          "correct": 1,
+          "explanation": "It externalises an interpretation. Claims about people or events require appropriate evidence and consent."
+        },
+        {
+          "q": "May a learner decline embodied or personal participation?",
+          "options": [
+            "Yes, use drawing or text and respect the boundary",
+            "No, refusal proves resistance",
+            "Only if the facilitator approves the reason"
+          ],
+          "correct": 0,
+          "explanation": "This rehearsal does not require personal exposure or physical participation. Refusal must not be turned into a diagnosis."
+        }
+      ],
+      "repair": {
+        "broken": "The facilitator says 'the objects prove the sponsor resents residents' and instructs the coordinator to confront them.",
+        "fix": "Withdraw the unsupported claim. Separate placement, impression and inference. Turn the impression into a cautious question that can be checked through ordinary inquiry; do not accuse an absent person on this basis."
+      },
+      "retry": {
+        "task": "A second learner places the teams closest to the coordinator. How should you compare the models?",
+        "answer": "Ask what each distance means and which case observations informed it. They may represent frequency, emotional salience or authority differently. Compare meanings and evidence rather than declaring one placement the true system."
+      },
+      "criteria": [
+        "The representation's conventions and author are explicit.",
+        "Impressions are not treated as facts about absent people.",
+        "Participation is optional and bounded.",
+        "The exercise generates a testable inquiry rather than a diagnosis."
+      ]
+    },
+    {
+      "id": "systemic-conversations",
+      "title": "Systemic conversations: expose inference and repair a broken commitment",
+      "section": "Systemic intervention",
+      "standard": "Conversation mapping; Ladder of inference; Productive conversations; Detecting & Managing undiscussables",
+      "ksb": [
+        "K3",
+        "S5",
+        "S6",
+        "S9",
+        "S10",
+        "B1",
+        "B2",
+        "B8"
+      ],
+      "time": 35,
+      "focus": "Separate data from inference and turn an ambiguous request into a discussable commitment.",
+      "scope": "An original conversation exercise bridging several distinct practices. It does not certify coaching or facilitation skill, and should not be used to compel disclosure of personal or confidential material.",
+      "atlas": [
+        "Ladder of inference",
+        "Conversation for action",
+        "Productive conversations"
+      ],
+      "resources": [
+        "scio-reading",
+        "social-learning-free"
+      ],
+      "paid": [
+        "scio-development"
+      ],
+      "scenario": "Fictional transcript: Sam says 'Could you get the referral picture sorted soon?' Lee replies 'I'll see what I can do.' Three days later Sam says 'You never follow through.' Lee says 'You keep changing what you want.' Sam privately thinks Lee is avoiding responsibility. Lee privately thinks Sam wants a complete service redesign, which Lee cannot authorise. No deadline, output, quality criterion or decision right was agreed.",
+      "rounds": [
+        {
+          "task": "Separate what was said from what was inferred.",
+          "output": "A two-column observation/inference record.",
+          "answer": "The quoted statements are supplied observations. Avoidance and an expectation of complete redesign are inferences. 'Never' and 'keep changing' are generalisations not established by this short transcript. Ask for examples without denying the speakers' experience."
+        },
+        {
+          "task": "Map the commitment sequence.",
+          "output": "Request, clarification, promise, completion and satisfaction, marking absent stages.",
+          "answer": "There is an ambiguous request and a non-committal response. Clarification and a firm promise are absent. No agreed completion test exists, so later dissatisfaction cannot fairly be treated as breach of a clearly specified promise. This does not establish that either person has no responsibility; it locates the missing conversation."
+        },
+        {
+          "task": "Draft a repair that combines advocacy and inquiry.",
+          "output": "A short replacement exchange.",
+          "answer": "Sam: 'I expected a one-page map by Friday, but I did not specify that. What did you understand, and what can you commit to?' Lee: 'I understood a redesign. I can map the current referral routes by Friday if the three leads provide examples; I cannot approve changes. Shall we agree that scope?' The repair exposes reasoning and negotiates a feasible commitment."
+        },
+        {
+          "task": "Name an undiscussable safely.",
+          "output": "One observation and an invitation, without a forced confession.",
+          "answer": "For example: 'We seem to agree quickly and discover different expectations later. Could we examine one instance and how our authority and workload affect what we promise?' Do not announce that you have diagnosed everyone's hidden motives."
+        }
+      ],
+      "checks": [
+        {
+          "q": "Is 'I'll see what I can do' an unambiguous promise of a complete redesign by Friday?",
+          "options": [
+            "Yes",
+            "No",
+            "Yes, because Sam is senior"
+          ],
+          "correct": 1,
+          "explanation": "The transcript contains no such scope or date. Seniority does not fill in unspoken terms."
+        },
+        {
+          "q": "Which is an inference rather than a supplied observation?",
+          "options": [
+            "Lee said 'I'll see what I can do'",
+            "Lee is avoiding responsibility",
+            "Sam asked for the referral picture to be sorted"
+          ],
+          "correct": 1,
+          "explanation": "Avoidance is a proposed explanation. It may be investigated, but is not established by the words alone."
+        }
+      ],
+      "repair": {
+        "broken": "The coach instructs Lee to admit avoidance and labels any disagreement a defensive routine.",
+        "fix": "Make the coach's interpretation contestable. Return to examples, test alternative explanations and negotiate clearer commitments. A method that makes disagreement proof of its own diagnosis prevents learning."
+      },
+      "retry": {
+        "task": "Lee now promises the one-page map, but a service lead refuses access. What should happen before Friday?",
+        "answer": "Lee should communicate the changed condition, explain the effect and renegotiate scope, support or timing. Keeping silent until the deadline sustains the same pattern. Sam should address authority and access rather than treating every dependency as Lee's personal failure."
+      },
+      "criteria": [
+        "Observation and inference are distinguished.",
+        "Missing commitment stages are identified.",
+        "The repair includes scope, timing, conditions and authority.",
+        "The helper's own interpretation remains challengeable."
+      ]
+    }
+  ],
+  "resources": [
+    {
+      "id": "conan-paid",
+      "title": "The Confrontation Analysis Handbook, Curry and Young",
+      "url": "https://www.systemspractice.org/resources/confrontation-analysis-handbook-how-resolve-confrontations-eliminating-dilemmas",
+      "cost": "Paid book",
+      "kind": "Worked cases and method guide",
+      "check": "SCiO book record and description inspected. It describes training cases and two variants. The book was not purchased or read in full; the listed historic RRP is not treated as a current price.",
+      "use": "Follow the book link for current availability. Work through a case before comparing the authors' treatment; distinguish variants of the method.",
+      "checked_on": "2026-09-07"
+    },
+    {
+      "id": "ackoff-paid",
+      "title": "Ackoff: Re-Creating the Corporation",
+      "url": "https://www.systemspractice.org/resources/re-creating-corporation-design-organizations-21st-century",
+      "cost": "Paid book / library",
+      "kind": "Author's planning text",
+      "check": "Book record and publisher link inspected, not the full book or current price.",
+      "use": "Further study of interactive planning, organisational design and implementation. The original rehearsal here remains free.",
+      "checked_on": "2026-09-07"
+    },
+    {
+      "id": "syntegration-free",
+      "title": "Metaphorum: Team Syntegrity structure and process",
+      "url": "https://metaphorum.org/staffords-work/syntegration",
+      "cost": "Free",
+      "kind": "Process explanation",
+      "check": "HTML account inspected, including the classic twelve topics, thirty participants, two memberships and separate critic/observer roles.",
+      "use": "Check the structural arithmetic and the difference between a membership exercise and the complete facilitated process.",
+      "checked_on": "2026-09-07"
+    },
+    {
+      "id": "soda-free",
+      "title": "Ackermann and Eden: Strategic options development and analysis, accepted manuscript",
+      "url": "https://strathprints.strath.ac.uk/72174/",
+      "cost": "Free",
+      "kind": "Author manuscript and cases",
+      "check": "University record, abstract and accepted-manuscript download listing inspected. The 2020 chapter is available from this record; it is not represented here as a self-marking online course.",
+      "use": "Use the chapter to inspect means-ends mapping and negotiated action. Compare with the original SODA rehearsal here; do not confuse this with older repository records that have no full text.",
+      "checked_on": "2026-09-07"
+    },
+    {
+      "id": "soda-paid",
+      "title": "Systems approaches to making change: SODA and other approaches",
+      "url": "https://strathprints.strath.ac.uk/72174/",
+      "cost": "Paid book / institutional access",
+      "kind": "Publisher access route",
+      "check": "The university record provides a Publisher link for the complete book. Current price and institutional entitlement were not checked.",
+      "use": "Follow Publisher for the book; use the accepted manuscript on the same page as the free route for this chapter.",
+      "checked_on": "2026-09-07"
+    },
+    {
+      "id": "fem-free",
+      "title": "Fractal Enterprise Model: basics and reference guides",
+      "url": "https://fractalmodel.blogs.dsv.su.se/fems-elements/",
+      "cost": "Free",
+      "kind": "Author-maintained notation guide",
+      "check": "Element definitions, relationship labels and acquisition/maintenance/retirement distinctions inspected. This is a reference guide, not automated assessment.",
+      "use": "Check your process and asset types and the precise relationship conventions. Keep a legend when using a simplified text representation.",
+      "checked_on": "2026-09-07"
+    },
+    {
+      "id": "fem-examples",
+      "title": "Fractal Enterprise Model: business-model innovation examples",
+      "url": "https://www.fractalmodel.org/fem_bmi/",
+      "cost": "Free",
+      "kind": "Worked examples and model download",
+      "check": "Example page and import-library instructions inspected. The modelling application and download import were not executed.",
+      "use": "Compare how the same process/asset grammar is used in the examples; a larger diagram need not be better than a small well-defined one.",
+      "checked_on": "2026-09-07"
+    },
+    {
+      "id": "social-learning-free",
+      "title": "Wenger-Trayner: systems convening, free book and resources",
+      "url": "https://www.wenger-trayner.com/systems-convening-book/",
+      "cost": "Free PDF / paid paperback",
+      "kind": "Cases and practice account",
+      "check": "Authors' page, free PDF route and paperback links inspected. It is a related social-learning resource, not identical to every method grouped in the bridge exercise.",
+      "use": "Use the cases to examine legitimacy, boundaries, agency and learning partnerships. The original case here provides the checkable rehearsal.",
+      "checked_on": "2026-09-07"
+    },
+    {
+      "id": "social-learning-paid",
+      "title": "Wenger-Trayner workshops: social learning, convening and evaluation",
+      "url": "https://www.wenger-trayner.com/our-events/",
+      "cost": "Paid / event enquiry",
+      "kind": "Applied workshops",
+      "check": "Authors' overview describes workshops using participants' live projects. Specific dates, places, prices and availability are not asserted here.",
+      "use": "Choose the relevant workshop and check current arrangements. Learning with others is needed beyond a solo worksheet.",
+      "checked_on": "2026-09-07"
+    },
+    {
+      "id": "government-toolkit",
+      "title": "UK Government: introductory systems thinking toolkit",
+      "url": "https://www.gov.uk/government/publications/systems-thinking-for-civil-servants/toolkit",
+      "cost": "Free",
+      "kind": "Step-by-step tools, templates and examples",
+      "check": "HTML toolkit inspected, including mapping, stock-flow, theory of change and evaluation sections. Its examples are not automatic validation of a learner's model.",
+      "use": "Select the named tool, try the associated template and compare with the example. Use the pack's explicit checks where the toolkit provides no answer key.",
+      "checked_on": "2026-09-07"
+    },
+    {
+      "id": "deming-free",
+      "title": "Deming Institute: PDSA cycle",
+      "url": "https://deming.org/explore/pdsa/",
+      "cost": "Free",
+      "kind": "Authoritative method explanation",
+      "check": "The Institute's account of prediction, study and theory revision inspected. It distinguishes PDSA from a simple implementation check.",
+      "use": "Write a prediction before a change and compare observation with it. The service and evaluation cases here give a small exercise and answers.",
+      "checked_on": "2026-09-07"
+    },
+    {
+      "id": "deming-paid",
+      "title": "Deming Institute: further PDSA learning",
+      "url": "https://deming.org/explore/pdsa/",
+      "cost": "Paid learning route / check access",
+      "kind": "Linked DemingNEXT learning",
+      "check": "The page links to DemingNEXT. The subscription material and current access terms were not tested.",
+      "use": "Follow 'Learn PDSA in DemingNEXT' for the paid learning route, after using the free explanation and this pack's exercise.",
+      "checked_on": "2026-09-07"
+    },
+    {
+      "id": "complexity-free",
+      "title": "Dave Snowden: coherence and uncertainty",
+      "url": "https://thecynefin.co/coherence-and-uncertainty/",
+      "cost": "Free",
+      "kind": "Author's explanation of safe-to-fail probes",
+      "check": "Author's discussion of parallel probes, coherence, amplification and dampening inspected. This is guidance, not a complete self-marking exercise.",
+      "use": "Check whether your probes test distinct coherent possibilities and whether you have designed sensing and a response to harm.",
+      "checked_on": "2026-09-07"
+    },
+    {
+      "id": "constellations-paid",
+      "title": "John Whittington: Systemic Coaching and Constellations",
+      "url": "https://www.koganpage.com/hr-learning-development/systemic-coaching-and-constellations-9781789662849",
+      "cost": "Paid book / free sample",
+      "kind": "Publisher-listed exercises and cases",
+      "check": "Publisher page, contents and sample route inspected. Full book not read; efficacy claims and claims about hidden systemic truths are not adopted by this pack.",
+      "use": "The publisher describes exercises and cases. Use qualified supervision for facilitation; the original tabletop orientation here is free and treats representations as hypotheses, not evidence about absent people.",
+      "checked_on": "2026-09-07"
+    },
+    {
+      "id": "scio-standard",
+      "title": "SCiO professional accreditation and competency framework",
+      "url": "https://www.systemspractice.org/professional-accreditation",
+      "cost": "Free",
+      "kind": "Standard",
+      "check": "Accreditation page and its public competency portfolio, v11 February 2025, inspected. The portfolio distinguishes learning exercises from application in organisations.",
+      "use": "Check the 13 approaches, three theory rows and application context; use the official linked portfolio for assessment.",
+      "checked_on": "2026-09-07"
+    },
+    {
+      "id": "scio-portfolio",
+      "title": "SCiO competency self-assessment portfolio (PDF)",
+      "url": "https://www.dropbox.com/scl/fi/xqa3md8ppxgafb25qt8in/SCiO-Competency-Framework-self-assess-portfolio.pdf?rlkey=07bv1jrsecpuwltghsecaop2h&dl=0",
+      "cost": "Free",
+      "kind": "Standard",
+      "check": "Public sharing and downloadable access confirmed; the three-page text was read. Footer identifies v11 February 2025.",
+      "use": "Authoritative row names for the coverage register. No claim of SCiO endorsement of this pack.",
+      "checked_on": "2026-09-07"
+    },
+    {
+      "id": "scio-reading",
+      "title": "SCiO competency framework resource guide (PDF)",
+      "url": "https://www.dropbox.com/scl/fi/v5vl9o1e9gtwxbqiyb2no/SCiO-CF-Resources.pdf?rlkey=a9d5ckhbsdjld7ab3sp60jaj9&dl=0",
+      "cost": "Free",
+      "kind": "Reading list",
+      "check": "Public sharing confirmed; approach and theory bibliography inspected. The presence of a reference does not establish that it contains self-check exercises.",
+      "use": "Further reading for each framework row, including the separate references associated with transposing theory.",
+      "checked_on": "2026-09-07"
+    },
+    {
+      "id": "st0787",
+      "title": "Systems thinking practitioner, ST0787 version 1.2",
+      "url": "https://skillsengland.education.gov.uk/apprenticeships/st0787-v1-2",
+      "cost": "Free",
+      "kind": "Standard",
+      "check": "Current version page inspected on 7 September 2026; version effective from 20 February 2025.",
+      "use": "Check K1-K5, S1-S11, B1-B9 and duties. The pack supports rehearsal, not an end-point assessment decision.",
+      "checked_on": "2026-09-07"
+    },
+    {
+      "id": "ou-maps",
+      "title": "OU: drawing systems maps, SAQ 3 and Activities 19-22",
+      "url": "https://www.open.edu/openlearn/digital-computing/managing-complexity-a-systems-approach-introduction/content-section-9.3",
+      "cost": "Free",
+      "kind": "Exercise with answer/commentary",
+      "check": "Tasks, defective maps, answer text and worked revisions inspected. Historic Child Support Agency case, not current policy guidance.",
+      "use": "Attempt SAQ 3 before opening its answer. Draw your own map for Activities 19-22, then compare the author's choices. Different justified boundaries need not match the example.",
+      "checked_on": "2026-09-07"
+    },
+    {
+      "id": "ou-diagramming",
+      "title": "OU: systems diagramming",
+      "url": "https://www.open.edu/openlearn/digital-computing/systems-diagramming/content-section-0",
+      "cost": "Free",
+      "kind": "Guided practice with legacy limitation",
+      "check": "Course content inspected. An old Flash activity is unavailable; do not depend on it.",
+      "use": "Use the text conventions and printable activities. Use the newer systems-map tutorial below instead of the Flash element.",
+      "checked_on": "2026-09-07"
+    },
+    {
+      "id": "ou-map-tutorial",
+      "title": "OU: systems maps, updated tutorial",
+      "url": "https://www.open.edu/openlearn/science-maths-technology/engineering-technology/systems-maps",
+      "cost": "Free",
+      "kind": "Tutorial",
+      "check": "Updated 2021 tutorial page and diagram conventions inspected; playback not independently tested.",
+      "use": "Check containment and boundaries. An OU systems map is not a causal-loop diagram; do not add untyped causal arrows to it.",
+      "checked_on": "2026-09-07"
+    },
+    {
+      "id": "ou-ssm",
+      "title": "OU: soft systems approach, stages 1-7",
+      "url": "https://www.open.edu/openlearn/science-maths-technology/systems-engineering-challenging-complexity/content-section-3.9",
+      "cost": "Free",
+      "kind": "Worked explanation",
+      "check": "The stage pages were inspected, including root definitions and activity models. This is an adapted teaching account, not a complete self-marking SSM course.",
+      "use": "Read stages 3-5 beside your own root definition, activity model and comparison table. Use this pack's case and checks to test your construction.",
+      "checked_on": "2026-09-07"
+    },
+    {
+      "id": "mit-roadmaps",
+      "title": "MIT: System Dynamics Self Study, assignments and solutions",
+      "url": "https://ocw.mit.edu/courses/15-988-system-dynamics-self-study-fall-1998-spring-1999/pages/assignments/",
+      "cost": "Free",
+      "kind": "Problem sets with solutions",
+      "check": "Assignment/solution pairs on the MIT page inspected. Historic software instructions may need adaptation; the whole course was not executed.",
+      "use": "Start with the early assignments and their paired solutions. Predict behaviour, calculate it, then compare. Do not confuse this course with MIT courses that publish assignments without solutions.",
+      "checked_on": "2026-09-07"
+    },
+    {
+      "id": "ulrich",
+      "title": "Werner Ulrich: a mini-primer of critical systems heuristics",
+      "url": "https://wulrich.com/csh.html",
+      "cost": "Free",
+      "kind": "Author's guide",
+      "check": "Author's HTML guide and linked introduction inspected. It supplies boundary critique, not a unique correct policy answer.",
+      "use": "Use the twelve categories to challenge your is/ought table and your treatment of affected people. Follow the linked primer for depth.",
+      "checked_on": "2026-09-07"
+    },
+    {
+      "id": "csh-evaluation",
+      "title": "OU repository: evaluation using critical systems heuristics",
+      "url": "https://oro.open.ac.uk/3464/",
+      "cost": "Free",
+      "kind": "Case and operational guide",
+      "check": "Repository abstract and download listing inspected; the accepted manuscript is linked there.",
+      "use": "Study the operational use of CSH in evaluation and compare its boundary judgements with your own. No automated marking.",
+      "checked_on": "2026-09-07"
+    },
+    {
+      "id": "vsm-mapping",
+      "title": "Metaphorum: VSM mapping and editable diagrams",
+      "url": "https://metaphorum.org/resources/vsm-mapping",
+      "cost": "Free",
+      "kind": "Diagram resources",
+      "check": "Diagram links and Jon Walker's editing instructions inspected. Templates are not an answer validator.",
+      "use": "Use the editable diagrams after identifying your focal system, operational units and channels. A completed template is not evidence that the diagnosis is sound.",
+      "checked_on": "2026-09-07"
+    },
+    {
+      "id": "scio-courses",
+      "title": "SCiO systems practice courses",
+      "url": "https://www.systemspractice.org/courses/systems-practice",
+      "cost": "Paid",
+      "kind": "Recorded courses with exercises",
+      "check": "Public listings inspected for VSM, SSM, CSH, SD, Patterns of Strategy, Mosaic and systems laws. Paid exercises and marking were not accessed.",
+      "use": "Choose the named introduction or core module matching your method. Check current price, access arrangements and feedback provision before paying.",
+      "checked_on": "2026-09-07"
+    },
+    {
+      "id": "scio-development",
+      "title": "SCiO professional development and course enquiries",
+      "url": "https://www.systemspractice.org/professional-development",
+      "cost": "Paid / enquiry",
+      "kind": "Teaching and supervised practice",
+      "check": "The page lists coverage including CONAN, INFORMED and multi-methodology. Availability and individual tutor feedback require an enquiry.",
+      "use": "Ask for practice with feedback in the named approach, rather than assuming every recording includes assessment.",
+      "checked_on": "2026-09-07"
+    },
+    {
+      "id": "scio-other",
+      "title": "SCiO: Mosaic, multi-methodology, CONAN and INFORMED",
+      "url": "https://www.systemspractice.org/why-practice-systems-thinking/other-methods",
+      "cost": "Free",
+      "kind": "Method overview and links",
+      "check": "Method descriptions and linked talks/books inspected. Provider claims about success rates are not adopted by this pack.",
+      "use": "Use for orientation and source discovery. It is not a free self-check workbook; use the original exercises here.",
+      "checked_on": "2026-09-07"
+    },
+    {
+      "id": "informed-thesis",
+      "title": "Natalie Marguet: organisational decision-making, a personal construct perspective",
+      "url": "https://research.manchester.ac.uk/en/studentTheses/organisational-decision-making-a-personal-construct-perspective/",
+      "cost": "Free",
+      "kind": "Author's research",
+      "check": "University thesis record and abstract inspected; full thesis not represented as fully reviewed.",
+      "use": "Ground the distinction between individual constructs, group interaction and organisational decisions. The exercise here is an introductory rehearsal, not the author's complete protocol.",
+      "checked_on": "2026-09-07"
+    },
+    {
+      "id": "informed-talk",
+      "title": "Natalie Marguet: what lies beneath managers' decisions",
+      "url": "https://www.systemspractice.org/resources/organisational-decision-making-what-lies-beneath-managers-decisions",
+      "cost": "Free",
+      "kind": "Recorded presentation",
+      "check": "Resource description and video link inspected, not the full recording.",
+      "use": "Follow the connection between personal constructs, repertory grids and organisational choices. Do not infer motives from a grid alone.",
+      "checked_on": "2026-09-07"
+    },
+    {
+      "id": "ackoff-guide",
+      "title": "Russell Ackoff: a brief guide to interactive planning and idealized design",
+      "url": "https://www.systemspractice.org/resources/brief-guide-interactive-planning-and-idealized-design",
+      "cost": "Free listing; attachment unavailable in this check",
+      "kind": "Process-guide access route",
+      "check": "The public listing was inspected. Its Article attachment returned 404 during the 7 September 2026 check. This link is therefore not counted as a verified working full-text exercise.",
+      "use": "Try the source listing for a repaired attachment or use the complete original interactive-planning exercise here. The paid book route is separate.",
+      "checked_on": "2026-09-07"
+    },
+    {
+      "id": "warfield",
+      "title": "Warfield IP Trust: Interactive Management handbook",
+      "url": "https://www.jnwarfield.com/00307.html",
+      "cost": "Library / purchase enquiry",
+      "kind": "Author's handbook record",
+      "check": "The author's trust lists the handbook but says a digital download is not available there. Do not label this particular link a free full text.",
+      "use": "Locate the handbook or ask about access. It distinguishes proper Interactive Management from loosely structured group discussion.",
+      "checked_on": "2026-09-07"
+    },
+    {
+      "id": "im-scio",
+      "title": "SCiO: A Handbook of Interactive Management",
+      "url": "https://www.systemspractice.org/resources/handbook-interactive-management",
+      "cost": "Free listing / second-hand book",
+      "kind": "Handbook access route",
+      "check": "SCiO lists a free PDF route and second-hand availability. The trust's record differs; full download availability is therefore not guaranteed here.",
+      "use": "Try the access route, but rely on the original mini-ISM exercise here when access fails. Check seller stock and rights yourself.",
+      "checked_on": "2026-09-07"
+    },
+    {
+      "id": "im-dialogue",
+      "title": "Demosophia: collective intelligence through structured dialogue",
+      "url": "https://www.systemspractice.org/resources/demosophia-collective-intelligence-through-structured-dialogue",
+      "cost": "Free",
+      "kind": "Practitioner presentation",
+      "check": "SCiO presentation description and attachment listing inspected.",
+      "use": "Follow the relationship between Interactive Management and Structured Dialogic Design. A five-element structural model rehearses only part of the group process.",
+      "checked_on": "2026-09-07"
+    },
+    {
+      "id": "mosaic-paid",
+      "title": "SCiO: Mosaic transformation course",
+      "url": "https://www.systemspractice.org/courses/mosaic-transformation",
+      "cost": "Paid",
+      "kind": "Recorded course with exercises",
+      "check": "Public course description inspected; exercises behind the learning platform were not purchased or tested.",
+      "use": "Further practice in sequencing change and releasing capacity. Verify the current offer and feedback arrangements.",
+      "checked_on": "2026-09-07"
+    },
+    {
+      "id": "patterns",
+      "title": "SCiO: Patterns of Strategy",
+      "url": "https://www.systemspractice.org/why-practice-systems-thinking/pos",
+      "cost": "Free",
+      "kind": "Overview and source links",
+      "check": "Public method account inspected. The full pattern catalogue is not reproduced here.",
+      "use": "Check how strategy depends on relationships, relative power, fit and timing; then test your dependency model.",
+      "checked_on": "2026-09-07"
+    },
+    {
+      "id": "patterns-paid",
+      "title": "SCiO: Patterns of Strategy, developing strategy",
+      "url": "https://www.systemspractice.org/courses/core-pos2",
+      "cost": "Paid",
+      "kind": "Recorded course with exercises",
+      "check": "Course description inspected; paid content not accessed.",
+      "use": "Continue from introductory relationship modelling to the fuller method and its pattern repertoire.",
+      "checked_on": "2026-09-07"
+    },
+    {
+      "id": "trist",
+      "title": "Eric Trist: the evolution of socio-technical systems",
+      "url": "https://www.systemspractice.org/resources/evolution-socio-technical-systems-conceptual-framework-and-action-research-program",
+      "cost": "Free",
+      "kind": "Author's paper",
+      "check": "Public resource page and article attachment listing inspected. Historic work, not a ready-made answer key.",
+      "use": "Read the primary-work-system discussion alongside the joint-design exercise. Keep technical arrangements and human work interdependent.",
+      "checked_on": "2026-09-07"
+    },
+    {
+      "id": "mumford-paid",
+      "title": "Enid Mumford: an ethical approach to socio-technical design",
+      "url": "https://doi.org/10.1007/978-1-349-14199-9_5",
+      "cost": "Paid / institutional access",
+      "kind": "Author's chapter",
+      "check": "Publisher abstract and access status inspected; subscription chapter not read in full.",
+      "use": "Further study of participation and the social and technical requirements of design.",
+      "checked_on": "2026-09-07"
+    },
+    {
+      "id": "syntegration-paid",
+      "title": "Malik Syntegration: facilitated service",
+      "url": "https://www.malik-management.com/malik-solutions/malik-tools-and-methods/malik-syntegration/",
+      "cost": "Paid / enquiry",
+      "kind": "Facilitated process",
+      "check": "Provider's current service page inspected. Promotional claims of universal success are not treated as evidence.",
+      "use": "For a full facilitated process, ask about design, participation, licensing, outputs and evaluation. The structural rehearsal here is not a branded delivery substitute.",
+      "checked_on": "2026-09-07"
+    },
+    {
+      "id": "vsm-guide",
+      "title": "Jon Walker: Viable Systems Model guide",
+      "url": "https://www.esrad.org.uk/resources/vsmg_3/screen.php?page=home",
+      "cost": "Free, access uncertain",
+      "kind": "Diagnostic and design guide",
+      "check": "Bibliographic route identified; direct access was not confirmed in this research environment.",
+      "use": "A useful further route when reachable. This pack provides its own case and answer so access failure does not stop practice.",
+      "checked_on": "2026-09-07"
+    }
+  ],
+  "standards": {
+    "checked_on": "2026-09-07",
+    "scio_version": "Public self-assessment portfolio, v11 February 2025",
+    "apprenticeship_version": "ST0787 version 1.2, effective 20 February 2025",
+    "core_order": [
+      "confrontation-analysis",
+      "critical-systems-heuristics",
+      "informed-group-dynamics",
+      "interactive-management",
+      "interactive-planning",
+      "mosaic-transformation",
+      "multi-methodology",
+      "patterns-of-strategy",
+      "socio-technical-systems",
+      "soft-systems",
+      "syntegration",
+      "system-dynamics",
+      "viable-system-model"
+    ],
+    "theory_order": [
+      "systems-concepts",
+      "systems-laws",
+      "transposing-theory"
+    ],
+    "ksb": {
+      "K1": "Systems thinking",
+      "K2": "Systems approaches",
+      "K3": "Intervention and engagement",
+      "K4": "Ethics",
+      "K5": "Assessment and evaluation",
+      "S1": "Applying systems knowledge",
+      "S2": "Approach designs",
+      "S3": "Systems modelling",
+      "S4": "Interpretation",
+      "S5": "Engagement and collaboration",
+      "S6": "Inquiry, information gathering and analysis",
+      "S7": "Intervention design",
+      "S8": "Change implementation",
+      "S9": "Developing self",
+      "S10": "Leading, communicating and influencing",
+      "S11": "Assessment and evaluation",
+      "B1": "Develops self and practice",
+      "B2": "Courage and constructive challenge",
+      "B3": "Curious and innovative",
+      "B4": "Professional",
+      "B5": "Adaptable and cognitively flexible",
+      "B6": "Practical",
+      "B7": "Resilient",
+      "B8": "Collaborative",
+      "B9": "Open-minded"
+    },
+    "duties": {
+      "1": [
+        "participative-inquiry",
+        "ethics-and-power"
+      ],
+      "2": [
+        "systems-concepts",
+        "soft-systems",
+        "viable-system-model"
+      ],
+      "3": [
+        "multi-methodology"
+      ],
+      "4": [
+        "participative-inquiry",
+        "critical-systems-heuristics"
+      ],
+      "5": [
+        "system-dynamics",
+        "participative-inquiry",
+        "soda"
+      ],
+      "6": [
+        "interactive-management",
+        "syntegration",
+        "informed-group-dynamics"
+      ],
+      "7": [
+        "system-dynamics",
+        "systems-laws",
+        "viable-system-model"
+      ],
+      "8": [
+        "futures-and-probes",
+        "patterns-of-strategy"
+      ],
+      "9": [
+        "soft-systems",
+        "socio-technical-systems",
+        "interactive-planning"
+      ],
+      "10": [
+        "mosaic-transformation",
+        "critical-social-learning"
+      ],
+      "11": [
+        "critical-systems-heuristics",
+        "ethics-and-power"
+      ],
+      "12": [
+        "evaluation-and-reflexivity",
+        "critical-social-learning"
+      ]
+    },
+    "supporting_scope": "The third section of the SCiO portfolio mixes systemic intervention practices with generic professional techniques. The ten additional pages provide basic rehearsals for the explicitly systemic and closely related inquiry, learning, conversation, service and evaluation work named in their headings. They are not a claim to teach every professional technique in that section.",
+    "outside_scope": [
+      "Generic presentation, public-speaking, selling, training-design and coaching qualifications are not supplied by this pack.",
+      "NLP, transactional analysis and other separately trained practices are not relabelled as systems methods or certified here.",
+      "Advanced statistics, full Six Sigma, specialist sector law, safeguarding and regulatory compliance need their own study and contextual assessment.",
+      "Real facilitation, collaboration, implementation, resilience and professional conduct cannot be established by a solo practice page.",
+      "The Systems Laws and Transposing Theory rows receive explicit introductory exercises, not a claim of exhaustive theoretical coverage. INFORMED, Interactive Management and Syntegration pages state which part of their fuller process is rehearsed."
+    ],
+    "crosswalk_status": "Editorial mapping for practice, not SCiO endorsement, accreditation or an end-point assessment judgement. The portfolio distinguishes training/case-study application from work in organisations. These fictional exercises remain in that learning category."
+  },
+  "publication_status": "alpha",
+  "author": "Benjamin P Taylor",
+  "citation": "Taylor, B. P. (2026). Systemic systems methods practice for systems practice. Alpha version. The Necessary Tangle.",
+  "pedagogical_review": "Independent specialist review not recorded"
+}

@@ -1,0 +1,93 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Systems Events Map//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Systems Community of Inquiry: event discovery
+REFRESH-INTERVAL:P1D
+X-PUBLISHED-TTL:PT24H
+BEGIN:VEVENT
+SUMMARY:Cybernetics in the Annex: Commemorating Stafford Beer’s Centenar
+ y + Summer Conferences Recap
+DTSTART:20260908T223000Z
+DTEND:20260909T001500Z
+DTSTAMP:20260909T085057Z
+UID:2e96c1af7848b3132733a6fb@systemsmap.antlerboy.com
+SEQUENCE:10
+CATEGORIES:Systems thinking,Cybernetics
+DESCRIPTION:Systems Thinking Ontario\nAllenna Leonard discusses Stafford B
+ eer’s work on organisational viability and participatory decision-making
+ \, followed by a discussion of recent systems conferences. Moderated by Za
+ id Khan.\nGeographic focus: Canada\, Ontario\nLanguage: Not specified\nLan
+ guage requirements: Not specified\nInterpretation: Not specified\nAccess: 
+ Register for in-person attendance or the online link\nhttps://guild.host/e
+ vents/cybernetics-in-the-annex-tbara6
+LAST-MODIFIED:20260909T085057Z
+LOCATION:OCAD University\, 205 Richmond St W\, Room 115\, Toronto\, Canada
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://guild.host/events/cybernetics-in-the-annex-tbara6
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exploring the role of the Knowledge Weaver
+DTSTART:20260922T120000Z
+DTEND:20260922T130000Z
+DTSTAMP:20260909T085057Z
+UID:e4ccdfd6cb1fb968ada0d1b3@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Systems thinking,Relational public services
+DESCRIPTION:Q Network Weaving group / COPE Scotland\nA conversation with J
+ une Holley about knowledge weaving and collective learning in health and c
+ are.\nLanguage: Not specified\nLanguage requirements: Not specified\nInter
+ pretation: Not specified\nAccess: See organiser\nhttps://q.thenhsalliance.
+ org/get-involved/events/exploring-the-role-of-the-knowledge-weaver
+LAST-MODIFIED:20260909T085057Z
+LOCATION:Online
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://q.thenhsalliance.org/get-involved/events/exploring-the-role-of
+ -the-knowledge-weaver
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Designing AI’s Boundaries: Respecting Human Agency
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260930
+DTSTAMP:20260909T085057Z
+UID:53fe868f7f0be1ba79b3dafe@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Cybernetics,Complexity,Systemic design
+DESCRIPTION:World Design Cities Conference / SUES and Tongji University\nD
+ ialogue event chaired by Michael Lissack\, with remote participation descr
+ ibed by the organiser. Headline dates span 26–29 September\; consult the
+  detailed programme for individual sessions.\nLanguage: Not specified\nLan
+ guage requirements: Not specified\nInterpretation: Not specified\nAccess: 
+ See organiser\nhttps://alwaysquestion.ai/\nDate-only listing\; check the o
+ rganiser for session times.
+LAST-MODIFIED:20260909T085057Z
+LOCATION:Shanghai\, China
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://alwaysquestion.ai/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:WOSC Congress: Addressing Planetary Challenges
+DTSTART:20270616T070000Z
+DTEND:20270618T140000Z
+DTSTAMP:20260909T085057Z
+UID:99998e0fda728e162d4a9f6c@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Systems thinking,Cybernetics
+DESCRIPTION:World Organisation of Systems and Cybernetics (WOSC)\n\nLangua
+ ge: Not specified\nLanguage requirements: Not specified\nInterpretation: N
+ ot specified\nAccess: See organiser\nhttps://www.wosc.world/event-details/
+ wosc-congress-2026-addressing-planetary-challenges\nThe page title and URL
+  retain 2026\, but its current Time & Location explicitly gives 16–18 Ju
+ ne 2027. Confirm this discrepancy with WOSC before booking.
+LAST-MODIFIED:20260909T085057Z
+LOCATION:Ekonomsko-poslovna fakulteta UM\, Razlagova ulica 20\, Maribor\, 
+ Slovenia
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.wosc.world/event-details/wosc-congress-2026-addressing-pla
+ netary-challenges
+END:VEVENT
+END:VCALENDAR

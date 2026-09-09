@@ -20,7 +20,9 @@ DESCRIPTION:Institut des systèmes complexes Paris Île-de-France\nJourné
  3_0.pdf\nLanguage: Not specified\nLanguage requirements: Not specified\nIn
  terpretation: Not specified\nAccess: See organiser\nhttps://iscpif.fr/even
  ements/journee-integration-master-immunotherapies-and-systems-immunology-i
- tsi/
+ tsi/\nNo longer found in the latest source listing\; confirmation needed.
+ \nSource could not be fully rechecked.\nThis event could not be rechecked 
+ on the latest collection. Confirm with the organiser.
 LAST-MODIFIED:20260906T191842Z
 LOCATION:ISC-PIF\, 113 rue Nationale\, Paris\, Paris\, 75013\, France
 STATUS:CONFIRMED
@@ -41,7 +43,10 @@ DESCRIPTION:Institut des systèmes complexes Paris Île-de-France\nRéunio
  nnovations technologiques » de l’infrastructure de recherche France Lif
  e Imaging. Accueil\nLanguage: Not specified\nLanguage requirements: Not sp
  ecified\nInterpretation: Not specified\nAccess: See organiser\nhttps://isc
- pif.fr/evenements/copil-re2-france-life-imaging/
+ pif.fr/evenements/copil-re2-france-life-imaging/\nNo longer found in the l
+ atest source listing\; confirmation needed.\nSource could not be fully rec
+ hecked.\nThis event could not be rechecked on the latest collection. Confi
+ rm with the organiser.
 LAST-MODIFIED:20260906T191842Z
 LOCATION:ISC-PIF\, 113 rue Nationale\, Paris\, Paris\, 75013\, France
 STATUS:CONFIRMED
@@ -60,12 +65,33 @@ DESCRIPTION:Institut des systèmes complexes Paris Île-de-France\nConseil
   d’administration de l AFSCET https://afscet.asso.fr\nLanguage: Not spec
  ified\nLanguage requirements: Not specified\nInterpretation: Not specified
  \nAccess: See organiser\nhttps://iscpif.fr/evenements/conseil-dadministrat
- ion-de-l-afscet-2/
+ ion-de-l-afscet-2/\nSource could not be fully rechecked.\nThis event could
+  not be rechecked on the latest collection. Confirm with the organiser.
 LAST-MODIFIED:20260906T191842Z
 LOCATION:ISC-PIF\, 113 rue Nationale\, Paris\, Paris\, 75013\, France
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 URL:https://iscpif.fr/evenements/conseil-dadministration-de-l-afscet-2/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Réunion Jugement majoritaire
+DTSTART:20260914T160000Z
+DTEND:20260914T183000Z
+DTSTAMP:20260907T092821Z
+UID:f4309fe7301a1c02cf6be496@systemsmap.antlerboy.com
+SEQUENCE:0
+CATEGORIES:Complexity
+DESCRIPTION:Institut des systèmes complexes Paris Île-de-France\n\nLangu
+ age: Not specified\nLanguage requirements: Not specified\nInterpretation: 
+ Not specified\nAccess: See organiser\nhttps://iscpif.fr/evenements/reunion
+ -jugement-majoritaire-2/\nSource could not be fully rechecked.\nThis event
+  could not be rechecked on the latest collection. Confirm with the organis
+ er.
+LAST-MODIFIED:20260907T092821Z
+LOCATION:ISC-PIF\, 113 rue Nationale\, Paris\, Paris\, 75013\, France
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://iscpif.fr/evenements/reunion-jugement-majoritaire-2/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Formation Gestion de données de phenotypage
@@ -84,7 +110,8 @@ DESCRIPTION:Institut des systèmes complexes Paris Île-de-France\nL’inf
  iabiliser\, valoriser et sécuriser leurs fl\nLanguage: Not specified\nLan
  guage requirements: Not specified\nInterpretation: Not specified\nAccess: 
  See organiser\nhttps://iscpif.fr/evenements/formation-gestion-de-donnees-d
- e-phenotypage/
+ e-phenotypage/\nSource could not be fully rechecked.\nThis event could not
+  be rechecked on the latest collection. Confirm with the organiser.
 LAST-MODIFIED:20260906T191842Z
 LOCATION:ISC-PIF\, 113 rue Nationale\, Paris\, Paris\, 75013\, France
 STATUS:CONFIRMED
@@ -104,7 +131,9 @@ DESCRIPTION:Institut des systèmes complexes Paris Île-de-France\nConseil
   d’administration de l AFSCET Discussion des futures orientations de l a
  ssociation\nLanguage: Not specified\nLanguage requirements: Not specified
  \nInterpretation: Not specified\nAccess: See organiser\nhttps://iscpif.fr/
- evenements/conseil-dadministration-de-l-afscet/
+ evenements/conseil-dadministration-de-l-afscet/\nSource could not be fully
+  rechecked.\nThis event could not be rechecked on the latest collection. C
+ onfirm with the organiser.
 LAST-MODIFIED:20260906T191842Z
 LOCATION:ISC-PIF\, 113 rue Nationale\, Paris\, Paris\, 75013\, France
 STATUS:CONFIRMED
@@ -127,7 +156,9 @@ DESCRIPTION:Institut des systèmes complexes Paris Île-de-France\nLa jour
  x séminaires. La journée s’achève par une conférence d’un.e invit
  é.e extérieur. https://sphere.cnrs.fr\nLanguage: Not specified\nLanguage
   requirements: Not specified\nInterpretation: Not specified\nAccess: See o
- rganiser\nhttps://iscpif.fr/evenements/journee-de-rentree/
+ rganiser\nhttps://iscpif.fr/evenements/journee-de-rentree/\nSource could n
+ ot be fully rechecked.\nThis event could not be rechecked on the latest co
+ llection. Confirm with the organiser.
 LAST-MODIFIED:20260906T191842Z
 LOCATION:ISC-PIF\, 113 rue Nationale\, Paris\, Paris\, 75013\, France
 STATUS:CONFIRMED
@@ -147,7 +178,9 @@ DESCRIPTION:Institut des systèmes complexes Paris Île-de-France\nTwinFar
  écologique. Projet du PEPR Agroécologie et Numérique\, comité de suivi
   à 18 mois\nLanguage: Not specified\nLanguage requirements: Not specified
  \nInterpretation: Not specified\nAccess: See organiser\nhttps://iscpif.fr/
- evenements/twinfarms-comite-de-suivi-a-18-mois/
+ evenements/twinfarms-comite-de-suivi-a-18-mois/\nSource could not be fully
+  rechecked.\nThis event could not be rechecked on the latest collection. C
+ onfirm with the organiser.
 LAST-MODIFIED:20260906T191842Z
 LOCATION:ISC-PIF\, 113 rue Nationale\, Paris\, Paris\, 75013\, France
 STATUS:CONFIRMED
@@ -167,7 +200,8 @@ DESCRIPTION:Institut des systèmes complexes Paris Île-de-France\nRestitu
  es de transition\nLanguage: Not specified\nLanguage requirements: Not spec
  ified\nInterpretation: Not specified\nAccess: See organiser\nhttps://iscpi
  f.fr/evenements/reunion-pleniere-finale-du-projet-systeme-complexe-beecome
- 2/
+ 2/\nSource could not be fully rechecked.\nThis event could not be rechecke
+ d on the latest collection. Confirm with the organiser.
 LAST-MODIFIED:20260906T191842Z
 LOCATION:ISC-PIF\, 113 rue Nationale\, Paris\, Paris\, 75013\, France
 STATUS:CONFIRMED
@@ -186,7 +220,8 @@ CATEGORIES:Complexity
 DESCRIPTION:Institut des systèmes complexes Paris Île-de-France\nRéunio
  n de la CSIIT\nLanguage: Not specified\nLanguage requirements: Not specifi
  ed\nInterpretation: Not specified\nAccess: See organiser\nhttps://iscpif.f
- r/evenements/csiit/
+ r/evenements/csiit/\nSource could not be fully rechecked.\nThis event coul
+ d not be rechecked on the latest collection. Confirm with the organiser.
 LAST-MODIFIED:20260906T191842Z
 LOCATION:ISC-PIF\, 113 rue Nationale\, Paris\, Paris\, 75013\, France
 STATUS:CONFIRMED

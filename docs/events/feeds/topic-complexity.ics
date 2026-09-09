@@ -29,9 +29,9 @@ SUMMARY:The 2026 Summer School of the International Society for the System
  s Sciences (Pyla\, Cyprus) (ISSS)
 DTSTART;VALUE=DATE:20260617
 DTEND;VALUE=DATE:20260618
-DTSTAMP:20260906T191842Z
+DTSTAMP:20260909T082311Z
 UID:10db3efe03a92ed580c6c5e7@systemsmap.antlerboy.com
-SEQUENCE:1
+SEQUENCE:2
 CATEGORIES:Complexity,Cybernetics,Systems thinking
 DESCRIPTION:ISSS\nWho: ISSS The **The 2026 Summer School of the Internatio
  nal Society for the Systems Sciences (Pyla\, Cyprus)** is scheduled back-t
@@ -42,7 +42,7 @@ DESCRIPTION:ISSS\nWho: ISSS The **The 2026 Summer School of the Internatio
  ed\nLanguage requirements: Not specified\nInterpretation: Not specified\nA
  ccess: See organiser\nhttps://ics.teamup.com/feed/ksok8ra1xif3viq4no/0.ics
  \nDate-only listing\; check the organiser for session times.
-LAST-MODIFIED:20260906T191842Z
+LAST-MODIFIED:20260909T082311Z
 LOCATION:UCLAN Campus Pyla Cyprus https://maps.app.goo.gl/gj8bFFjNnhD7Fcyu
  6
 STATUS:CONFIRMED
@@ -54,9 +54,9 @@ SUMMARY:The 2026 Summer School of the International Society for the System
  s Sciences (Pyla\, Cyprus) (ISSS)
 DTSTART;VALUE=DATE:20260618
 DTEND;VALUE=DATE:20260619
-DTSTAMP:20260906T191842Z
+DTSTAMP:20260909T082311Z
 UID:d6ccd18843f7c2eccd8e9eed@systemsmap.antlerboy.com
-SEQUENCE:1
+SEQUENCE:2
 CATEGORIES:Complexity,Cybernetics,Systems thinking
 DESCRIPTION:ISSS\nWho: ISSS The **The 2026 Summer School of the Internatio
  nal Society for the Systems Sciences (Pyla\, Cyprus)** is scheduled back-t
@@ -67,7 +67,7 @@ DESCRIPTION:ISSS\nWho: ISSS The **The 2026 Summer School of the Internatio
  ed\nLanguage requirements: Not specified\nInterpretation: Not specified\nA
  ccess: See organiser\nhttps://ics.teamup.com/feed/ksok8ra1xif3viq4no/0.ics
  \nDate-only listing\; check the organiser for session times.
-LAST-MODIFIED:20260906T191842Z
+LAST-MODIFIED:20260909T082311Z
 LOCATION:UCLAN Campus Pyla Cyprus https://maps.app.goo.gl/gj8bFFjNnhD7Fcyu
  6
 STATUS:CONFIRMED
@@ -79,9 +79,9 @@ SUMMARY:The 2026 Summer School of the International Society for the System
  s Sciences (Pyla\, Cyprus) (ISSS)
 DTSTART;VALUE=DATE:20260619
 DTEND;VALUE=DATE:20260620
-DTSTAMP:20260906T191842Z
+DTSTAMP:20260909T082311Z
 UID:b7e8c1616c5b59584758fe0f@systemsmap.antlerboy.com
-SEQUENCE:1
+SEQUENCE:2
 CATEGORIES:Complexity,Cybernetics,Systems thinking
 DESCRIPTION:ISSS\nWho: ISSS The **The 2026 Summer School of the Internatio
  nal Society for the Systems Sciences (Pyla\, Cyprus)** is scheduled back-t
@@ -92,7 +92,7 @@ DESCRIPTION:ISSS\nWho: ISSS The **The 2026 Summer School of the Internatio
  ed\nLanguage requirements: Not specified\nInterpretation: Not specified\nA
  ccess: See organiser\nhttps://ics.teamup.com/feed/ksok8ra1xif3viq4no/0.ics
  \nDate-only listing\; check the organiser for session times.
-LAST-MODIFIED:20260906T191842Z
+LAST-MODIFIED:20260909T082311Z
 LOCATION:UCLAN Campus Pyla Cyprus https://maps.app.goo.gl/gj8bFFjNnhD7Fcyu
  6
 STATUS:CONFIRMED
@@ -153,7 +153,8 @@ DESCRIPTION:The South Africa System Dynamics Chapter (SASDC)\n<p>The Learn
  …]</p>\\n\nLanguage: Not specified\nLanguage requirements: Not specified
  \nInterpretation: Not specified\nAccess: See organiser\nhttps://systemdyna
  mics.org/event/system-dynamics-learning-hub-2026-sasdc-stream-3-pollution-
- dynamics-session-1/
+ dynamics-session-1/\nSource could not be fully rechecked.\nThis event coul
+ d not be rechecked on the latest collection. Confirm with the organiser.
 LAST-MODIFIED:20260906T191842Z
 LOCATION:Location not published
 STATUS:CONFIRMED
@@ -195,7 +196,9 @@ DESCRIPTION:Complexity Science Hub\nThe Complexity Science Hub will host a
   from both institutions to explore complex systems approaches to health\nL
  anguage: Not specified\nLanguage requirements: Not specified\nInterpretati
  on: Not specified\nAccess: See organiser\nhttps://csh.ac.at/events/follow-
- up-workshop-at-csh-copenhagen-health-complexity-center/
+ up-workshop-at-csh-copenhagen-health-complexity-center/\nSource could not 
+ be fully rechecked.\nThis event could not be rechecked on the latest colle
+ ction. Confirm with the organiser.
 LAST-MODIFIED:20260906T191842Z
 LOCATION:Library Metternichgasse 8\, 1030 Vienna
 STATUS:CONFIRMED
@@ -218,7 +221,9 @@ DESCRIPTION:Institut des systèmes complexes Paris Île-de-France\nJourné
  3_0.pdf\nLanguage: Not specified\nLanguage requirements: Not specified\nIn
  terpretation: Not specified\nAccess: See organiser\nhttps://iscpif.fr/even
  ements/journee-integration-master-immunotherapies-and-systems-immunology-i
- tsi/
+ tsi/\nNo longer found in the latest source listing\; confirmation needed.
+ \nSource could not be fully rechecked.\nThis event could not be rechecked 
+ on the latest collection. Confirm with the organiser.
 LAST-MODIFIED:20260906T191842Z
 LOCATION:ISC-PIF\, 113 rue Nationale\, Paris\, Paris\, 75013\, France
 STATUS:CONFIRMED
@@ -239,7 +244,10 @@ DESCRIPTION:Institut des systèmes complexes Paris Île-de-France\nRéunio
  nnovations technologiques » de l’infrastructure de recherche France Lif
  e Imaging. Accueil\nLanguage: Not specified\nLanguage requirements: Not sp
  ecified\nInterpretation: Not specified\nAccess: See organiser\nhttps://isc
- pif.fr/evenements/copil-re2-france-life-imaging/
+ pif.fr/evenements/copil-re2-france-life-imaging/\nNo longer found in the l
+ atest source listing\; confirmation needed.\nSource could not be fully rec
+ hecked.\nThis event could not be rechecked on the latest collection. Confi
+ rm with the organiser.
 LAST-MODIFIED:20260906T191842Z
 LOCATION:ISC-PIF\, 113 rue Nationale\, Paris\, Paris\, 75013\, France
 STATUS:CONFIRMED
@@ -262,7 +270,8 @@ DESCRIPTION:Sociocracy For All\nThe 5-month program covers all the parts o
   minutes\, backlogs Social-emotional challenges and how to address t\nLang
  uage: Not specified\nLanguage requirements: Not specified\nInterpretation:
   Not specified\nAccess: See organiser\nhttps://www.sociocracyforall.org/ev
- ent/academy-level-1/
+ ent/academy-level-1/\nSource could not be fully rechecked.\nThis event cou
+ ld not be rechecked on the latest collection. Confirm with the organiser.
 LAST-MODIFIED:20260906T191842Z
 LOCATION:SoFA Zoom (Multi-Room)
 STATUS:CONFIRMED
@@ -285,7 +294,9 @@ DESCRIPTION:Complexity Science Hub\n1. Tibor V. Varga: Introduction to the
   across scales to influence mortality\, and how such patterns of adver\nLa
  nguage: Not specified\nLanguage requirements: Not specified\nInterpretatio
  n: Not specified\nAccess: See organiser\nhttps://csh.ac.at/events/copenhag
- en-health-complexity-center-talks/
+ en-health-complexity-center-talks/\nSource could not be fully rechecked.\n
+ This event could not be rechecked on the latest collection. Confirm with t
+ he organiser.
 LAST-MODIFIED:20260906T191842Z
 LOCATION:Library Metternichgasse 8\, 1030 Vienna
 STATUS:CONFIRMED
@@ -297,9 +308,9 @@ SUMMARY:Interpreting AI at Work: Direct Use\, Workplace Support\, and Tech
  nological Displacement Concerns
 DTSTART:20260909T150000Z
 DTEND:20260909T160000Z
-DTSTAMP:20260906T191842Z
+DTSTAMP:20260909T082311Z
 UID:cb5f64c3c79ca091a73f440a@systemsmap.antlerboy.com
-SEQUENCE:1
+SEQUENCE:2
 CATEGORIES:Complexity
 DESCRIPTION:Complexity Science Hub\nWhat happens when employees are asked 
  to embrace a technology that may also threaten their jobs? In this talk\, 
@@ -310,8 +321,9 @@ DESCRIPTION:Complexity Science Hub\nWhat happens when employees are asked
  nguage: Not specified\nLanguage requirements: Not specified\nInterpretatio
  n: Not specified\nAccess: See organiser\nhttps://csh.ac.at/events/interpre
  ting-ai-at-work-direct-use-workplace-support-and-technological-displacemen
- t-concerns/
-LAST-MODIFIED:20260906T191842Z
+ t-concerns/\nSource could not be fully rechecked.\nThis event could not be
+  rechecked on the latest collection. Confirm with the organiser.
+LAST-MODIFIED:20260909T082311Z
 LOCATION:CSH Salon
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -330,7 +342,8 @@ DESCRIPTION:Institut des systèmes complexes Paris Île-de-France\nConseil
   d’administration de l AFSCET https://afscet.asso.fr\nLanguage: Not spec
  ified\nLanguage requirements: Not specified\nInterpretation: Not specified
  \nAccess: See organiser\nhttps://iscpif.fr/evenements/conseil-dadministrat
- ion-de-l-afscet-2/
+ ion-de-l-afscet-2/\nSource could not be fully rechecked.\nThis event could
+  not be rechecked on the latest collection. Confirm with the organiser.
 LAST-MODIFIED:20260906T191842Z
 LOCATION:ISC-PIF\, 113 rue Nationale\, Paris\, Paris\, 75013\, France
 STATUS:CONFIRMED
@@ -341,9 +354,9 @@ BEGIN:VEVENT
 SUMMARY:IAS + CSH Connection Workshop
 DTSTART:20260914T090000Z
 DTEND:20260916T170000Z
-DTSTAMP:20260906T191842Z
+DTSTAMP:20260909T082311Z
 UID:b17a1c7d3facba5840dc0ce2@systemsmap.antlerboy.com
-SEQUENCE:1
+SEQUENCE:2
 CATEGORIES:Complexity
 DESCRIPTION:Complexity Science Hub\nThe IAS-CSH Connection Workshop will b
  ring together around 20 researchers from the Institute for Analytical Soci
@@ -353,12 +366,34 @@ DESCRIPTION:Complexity Science Hub\nThe IAS-CSH Connection Workshop will b
  ing concrete ideas for future collaboration. We will discuss the many po\n
  Language: Not specified\nLanguage requirements: Not specified\nInterpretat
  ion: Not specified\nAccess: See organiser\nhttps://csh.ac.at/events/ias-cs
- h-connection-workshop/
-LAST-MODIFIED:20260906T191842Z
+ h-connection-workshop/\nSource could not be fully rechecked.\nThis event c
+ ould not be rechecked on the latest collection. Confirm with the organiser
+ .
+LAST-MODIFIED:20260909T082311Z
 LOCATION:CSH Salon
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 URL:https://csh.ac.at/events/ias-csh-connection-workshop/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Réunion Jugement majoritaire
+DTSTART:20260914T160000Z
+DTEND:20260914T183000Z
+DTSTAMP:20260907T092821Z
+UID:f4309fe7301a1c02cf6be496@systemsmap.antlerboy.com
+SEQUENCE:0
+CATEGORIES:Complexity
+DESCRIPTION:Institut des systèmes complexes Paris Île-de-France\n\nLangu
+ age: Not specified\nLanguage requirements: Not specified\nInterpretation: 
+ Not specified\nAccess: See organiser\nhttps://iscpif.fr/evenements/reunion
+ -jugement-majoritaire-2/\nSource could not be fully rechecked.\nThis event
+  could not be rechecked on the latest collection. Confirm with the organis
+ er.
+LAST-MODIFIED:20260907T092821Z
+LOCATION:ISC-PIF\, 113 rue Nationale\, Paris\, Paris\, 75013\, France
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://iscpif.fr/evenements/reunion-jugement-majoritaire-2/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Formation Gestion de données de phenotypage
@@ -377,7 +412,8 @@ DESCRIPTION:Institut des systèmes complexes Paris Île-de-France\nL’inf
  iabiliser\, valoriser et sécuriser leurs fl\nLanguage: Not specified\nLan
  guage requirements: Not specified\nInterpretation: Not specified\nAccess: 
  See organiser\nhttps://iscpif.fr/evenements/formation-gestion-de-donnees-d
- e-phenotypage/
+ e-phenotypage/\nSource could not be fully rechecked.\nThis event could not
+  be rechecked on the latest collection. Confirm with the organiser.
 LAST-MODIFIED:20260906T191842Z
 LOCATION:ISC-PIF\, 113 rue Nationale\, Paris\, Paris\, 75013\, France
 STATUS:CONFIRMED
@@ -401,7 +437,9 @@ DESCRIPTION:System Dynamics Society\nTuesday\, September 15 at 11 am New Y
  erview This webinar goes on to explain the mechanisms by which collaborati
  on\nLanguage: Not specified\nLanguage requirements: Not specified\nInterpr
  etation: Not specified\nAccess: See organiser\nhttps://systemdynamics.org/
- event/implementing-the-self-managing-enterprise-with-agentic-ai/
+ event/implementing-the-self-managing-enterprise-with-agentic-ai/\nSource c
+ ould not be fully rechecked.\nThis event could not be rechecked on the lat
+ est collection. Confirm with the organiser.
 LAST-MODIFIED:20260906T191842Z
 LOCATION:https://us02web.zoom.us/j/87049920798
 STATUS:CONFIRMED
@@ -421,7 +459,9 @@ DESCRIPTION:Institut des systèmes complexes Paris Île-de-France\nConseil
   d’administration de l AFSCET Discussion des futures orientations de l a
  ssociation\nLanguage: Not specified\nLanguage requirements: Not specified
  \nInterpretation: Not specified\nAccess: See organiser\nhttps://iscpif.fr/
- evenements/conseil-dadministration-de-l-afscet/
+ evenements/conseil-dadministration-de-l-afscet/\nSource could not be fully
+  rechecked.\nThis event could not be rechecked on the latest collection. C
+ onfirm with the organiser.
 LAST-MODIFIED:20260906T191842Z
 LOCATION:ISC-PIF\, 113 rue Nationale\, Paris\, Paris\, 75013\, France
 STATUS:CONFIRMED
@@ -429,13 +469,12 @@ TRANSP:TRANSPARENT
 URL:https://iscpif.fr/evenements/conseil-dadministration-de-l-afscet/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:WEdnesday SALON with Ljubica Nedelkoska: AI and the End of Work (A
- gain)
+SUMMARY:WEdnesday SALON – AI and the End of Work (Again)
 DTSTART:20260916T180000Z
 DTEND:20260916T200000Z
-DTSTAMP:20260906T191842Z
+DTSTAMP:20260909T082311Z
 UID:95ae062dbc349d5afed89226@systemsmap.antlerboy.com
-SEQUENCE:1
+SEQUENCE:2
 CATEGORIES:Complexity
 DESCRIPTION:Complexity Science Hub\nFrom the dawn of mechanization to the 
  rise of AI\, machines have taken over task after human task – transformi
@@ -445,8 +484,10 @@ DESCRIPTION:Complexity Science Hub\nFrom the dawn of mechanization to the
  how it is organized\, and where it happens. Collectively\, this made us ri
  c\nLanguage: Not specified\nLanguage requirements: Not specified\nInterpre
  tation: Not specified\nAccess: See organiser\nhttps://csh.ac.at/events/wed
- nesday-salon-with-ljubica-nedelkoska/
-LAST-MODIFIED:20260906T191842Z
+ nesday-salon-with-ljubica-nedelkoska/\nSource could not be fully rechecked
+ .\nThis event could not be rechecked on the latest collection. Confirm wit
+ h the organiser.
+LAST-MODIFIED:20260909T082311Z
 LOCATION:CSH Salon
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -460,7 +501,7 @@ DTEND:20260919T140000Z
 DTSTAMP:20260906T191842Z
 UID:da94efc5fcf22b82681dc9ea@systemsmap.antlerboy.com
 SEQUENCE:1
-CATEGORIES:Complexity,Cybernetics,Systems thinking
+CATEGORIES:Systems thinking,Cybernetics,Complexity
 DESCRIPTION:International Federation for Systems Research (IFSR)\nMetaphor
  um 2026 marks the centenary of Stafford Beer with a landmark international
   gathering dedicated to celebrating his life\, legacy\, and continuing inf
@@ -494,7 +535,9 @@ DESCRIPTION:Institut des systèmes complexes Paris Île-de-France\nLa jour
  x séminaires. La journée s’achève par une conférence d’un.e invit
  é.e extérieur. https://sphere.cnrs.fr\nLanguage: Not specified\nLanguage
   requirements: Not specified\nInterpretation: Not specified\nAccess: See o
- rganiser\nhttps://iscpif.fr/evenements/journee-de-rentree/
+ rganiser\nhttps://iscpif.fr/evenements/journee-de-rentree/\nSource could n
+ ot be fully rechecked.\nThis event could not be rechecked on the latest co
+ llection. Confirm with the organiser.
 LAST-MODIFIED:20260906T191842Z
 LOCATION:ISC-PIF\, 113 rue Nationale\, Paris\, Paris\, 75013\, France
 STATUS:CONFIRMED
@@ -505,9 +548,9 @@ BEGIN:VEVENT
 SUMMARY:DIS master class : Non-additive Entropies
 DTSTART;VALUE=DATE:20260921
 DTEND;VALUE=DATE:20260922
-DTSTAMP:20260906T191842Z
+DTSTAMP:20260909T082311Z
 UID:09e84a88633cc0ce8b94238e@systemsmap.antlerboy.com
-SEQUENCE:1
+SEQUENCE:2
 CATEGORIES:Complexity
 DESCRIPTION:Digital Innovation School\nStatistical Mechanics for Complex S
  ystems Boltzmann-Gibbs (BG) statistical mechanics constitutes\, together w
@@ -518,8 +561,10 @@ DESCRIPTION:Digital Innovation School\nStatistical Mechanics for Complex S
  r\nLanguage: Not specified\nLanguage requirements: Not specified\nInterpre
  tation: Not specified\nAccess: See organiser\nhttps://csh.ac.at/events/dis
  -master-class-nonadditive-entropies/\nDate-only listing\; check the organi
- ser for session times.
-LAST-MODIFIED:20260906T191842Z
+ ser for session times.\nSource could not be fully rechecked.\nThis event c
+ ould not be rechecked on the latest collection. Confirm with the organiser
+ .
+LAST-MODIFIED:20260909T082311Z
 LOCATION:Complexity Science Hub Complexity Science Hub\, Metternichgasse 8
  \, 1030 Vienna
 STATUS:CONFIRMED
@@ -531,9 +576,9 @@ SUMMARY:PostDoc Appreciation Week Austria (PAW) – Data Visualization Cra
  sh Course
 DTSTART:20260921T140000Z
 DTEND:20260921T163000Z
-DTSTAMP:20260906T191842Z
+DTSTAMP:20260909T082311Z
 UID:016075e54cdd3fb89fb95e0c@systemsmap.antlerboy.com
-SEQUENCE:1
+SEQUENCE:2
 CATEGORIES:Complexity
 DESCRIPTION:Complexity Science Hub\nThis Crash Course on Data Visualizatio
  n offers Postdocs the opportunity to learn about communication and visuali
@@ -543,8 +588,10 @@ DESCRIPTION:Complexity Science Hub\nThis Crash Course on Data Visualizatio
  e is led by data visualization expert Liuhuaying Yang\, recipient of\nLang
  uage: Not specified\nLanguage requirements: Not specified\nInterpretation:
   Not specified\nAccess: See organiser\nhttps://csh.ac.at/events/postdoc-ap
- preciation-week-austria-paw-data-visualization-crash-course/
-LAST-MODIFIED:20260906T191842Z
+ preciation-week-austria-paw-data-visualization-crash-course/\nSource could
+  not be fully rechecked.\nThis event could not be rechecked on the latest 
+ collection. Confirm with the organiser.
+LAST-MODIFIED:20260909T082311Z
 LOCATION:CSH Salon
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -564,7 +611,9 @@ DESCRIPTION:Institut des systèmes complexes Paris Île-de-France\nTwinFar
  écologique. Projet du PEPR Agroécologie et Numérique\, comité de suivi
   à 18 mois\nLanguage: Not specified\nLanguage requirements: Not specified
  \nInterpretation: Not specified\nAccess: See organiser\nhttps://iscpif.fr/
- evenements/twinfarms-comite-de-suivi-a-18-mois/
+ evenements/twinfarms-comite-de-suivi-a-18-mois/\nSource could not be fully
+  rechecked.\nThis event could not be rechecked on the latest collection. C
+ onfirm with the organiser.
 LAST-MODIFIED:20260906T191842Z
 LOCATION:ISC-PIF\, 113 rue Nationale\, Paris\, Paris\, 75013\, France
 STATUS:CONFIRMED
@@ -584,7 +633,8 @@ DESCRIPTION:Institut des systèmes complexes Paris Île-de-France\nRestitu
  es de transition\nLanguage: Not specified\nLanguage requirements: Not spec
  ified\nInterpretation: Not specified\nAccess: See organiser\nhttps://iscpi
  f.fr/evenements/reunion-pleniere-finale-du-projet-systeme-complexe-beecome
- 2/
+ 2/\nSource could not be fully rechecked.\nThis event could not be rechecke
+ d on the latest collection. Confirm with the organiser.
 LAST-MODIFIED:20260906T191842Z
 LOCATION:ISC-PIF\, 113 rue Nationale\, Paris\, Paris\, 75013\, France
 STATUS:CONFIRMED
@@ -593,13 +643,34 @@ URL:https://iscpif.fr/evenements/reunion-pleniere-finale-du-projet-systeme
  -complexe-beecome2/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Designing AI’s Boundaries: Respecting Human Agency
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260930
+DTSTAMP:20260909T085057Z
+UID:53fe868f7f0be1ba79b3dafe@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Cybernetics,Complexity,Systemic design
+DESCRIPTION:World Design Cities Conference / SUES and Tongji University\nD
+ ialogue event chaired by Michael Lissack\, with remote participation descr
+ ibed by the organiser. Headline dates span 26–29 September\; consult the
+  detailed programme for individual sessions.\nLanguage: Not specified\nLan
+ guage requirements: Not specified\nInterpretation: Not specified\nAccess: 
+ See organiser\nhttps://alwaysquestion.ai/\nDate-only listing\; check the o
+ rganiser for session times.
+LAST-MODIFIED:20260909T085057Z
+LOCATION:Shanghai\, China
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://alwaysquestion.ai/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Evolution of gender diversity in Computer Science and Physics conf
  erences
 DTSTART:20260928T150000Z
 DTEND:20260928T160000Z
-DTSTAMP:20260906T191842Z
+DTSTAMP:20260909T082311Z
 UID:32a80acaa0ac0b73cd6f3b4f@systemsmap.antlerboy.com
-SEQUENCE:1
+SEQUENCE:2
 CATEGORIES:Complexity
 DESCRIPTION:Complexity Science Hub\nThe underrepresentation of women in ST
  EM fields remains a critical challenge. Even though increasing women’s v
@@ -609,13 +680,42 @@ DESCRIPTION:Complexity Science Hub\nThe underrepresentation of women in ST
  ted. Our study examines the evolution of gender diversity among attend\nLa
  nguage: Not specified\nLanguage requirements: Not specified\nInterpretatio
  n: Not specified\nAccess: See organiser\nhttps://csh.ac.at/events/evolutio
- n-of-gender-diversity-in-computer-science-and-physics-conferences/
-LAST-MODIFIED:20260906T191842Z
+ n-of-gender-diversity-in-computer-science-and-physics-conferences/\nSource
+  could not be fully rechecked.\nThis event could not be rechecked on the l
+ atest collection. Confirm with the organiser.
+LAST-MODIFIED:20260909T082311Z
 LOCATION:Library Metternichgasse 8\, 1030 Vienna
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 URL:https://csh.ac.at/events/evolution-of-gender-diversity-in-computer-sci
  ence-and-physics-conferences/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:5th INTERPOL New Technologies Forum (NTF)
+DTSTART;VALUE=DATE:20260929
+DTEND;VALUE=DATE:20260930
+DTSTAMP:20260909T082311Z
+UID:1c434072ae32f7337c462ab0@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Complexity
+DESCRIPTION:INTERPOL\, Complexity Science Hub & the Bavarian State Ministr
+ y\nINTERPOL Innovation Centre is pleased to announce that the 5th INTERPOL
+  New Technologies Forum (NTF) will be held at the Complexity Science Hub\,
+  Metternichgasse 8\, 1030 in Vienna\, Austria\, on 29 – 30 September 202
+ 6\, co-hosted with the Bavarian State Ministry of Justice and the Complexi
+ ty Science Hub. The Forum focuses on pragmatic discussions identifying cha
+ llenges and working solutions to address\nLanguage: Not specified\nLanguag
+ e requirements: Not specified\nInterpretation: Not specified\nAccess: See 
+ organiser\nhttps://csh.ac.at/events/5th-interpol-new-technologies-forum-nt
+ f/\nDate-only listing\; check the organiser for session times.\nSource cou
+ ld not be fully rechecked.\nThis event could not be rechecked on the lates
+ t collection. Confirm with the organiser.
+LAST-MODIFIED:20260909T082311Z
+LOCATION:Complexity Science Hub Complexity Science Hub\, Metternichgasse 8
+ \, 1030 Vienna
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://csh.ac.at/events/5th-interpol-new-technologies-forum-ntf/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:From Bees to Feedback Loops: Building Systems Literacy from Childh
@@ -635,7 +735,8 @@ DESCRIPTION:System Dynamics Society\nSeptember 29\, 2026 at 11 am New York
  Language: Not specified\nLanguage requirements: Not specified\nInterpretat
  ion: Not specified\nAccess: See organiser\nhttps://systemdynamics.org/even
  t/from-bees-to-feedback-loops-building-systems-literacy-from-childhood-to-
- leadership/
+ leadership/\nSource could not be fully rechecked.\nThis event could not be
+  rechecked on the latest collection. Confirm with the organiser.
 LAST-MODIFIED:20260906T191842Z
 LOCATION:https://systemdynamics.org/event/from-bees-to-feedback-loops-buil
  ding-systems-literacy-from-childhood-to-leadership/
@@ -673,12 +774,40 @@ CATEGORIES:Complexity
 DESCRIPTION:Institut des systèmes complexes Paris Île-de-France\nRéunio
  n de la CSIIT\nLanguage: Not specified\nLanguage requirements: Not specifi
  ed\nInterpretation: Not specified\nAccess: See organiser\nhttps://iscpif.f
- r/evenements/csiit/
+ r/evenements/csiit/\nSource could not be fully rechecked.\nThis event coul
+ d not be rechecked on the latest collection. Confirm with the organiser.
 LAST-MODIFIED:20260906T191842Z
 LOCATION:ISC-PIF\, 113 rue Nationale\, Paris\, Paris\, 75013\, France
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 URL:https://iscpif.fr/evenements/csiit/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:From Fear to Forecast: Understanding AI Swarms
+DTSTART;VALUE=DATE:20261005
+DTEND;VALUE=DATE:20261007
+DTSTAMP:20260909T082311Z
+UID:9518373cb3b7505f2efdf3f3@systemsmap.antlerboy.com
+SEQUENCE:0
+CATEGORIES:Complexity
+DESCRIPTION:Complexity Science Hub\nAgentic artificial intelligence\, bett
+ er known as AI Swarms\, has advanced to an incredible level of independenc
+ e\, reasoning\, and coordination. This raises fears about their malicious 
+ capabilities\, e.g.\, influencing public votes\, manipulating online discu
+ ssions\, organizing political campaigns\, or inciting violence. To better 
+ understand and predict their collective behaviour needs a joint scientific
+  \nLanguage: Not specified\nLanguage requirements: Not specified\nInterpre
+ tation: Not specified\nAccess: See organiser\nhttps://csh.ac.at/events/fro
+ m-fear-to-forecast-understanding-ai-swarms/\nDate-only listing\; check the
+  organiser for session times.\nSource could not be fully rechecked.\nThis 
+ event could not be rechecked on the latest collection. Confirm with the or
+ ganiser.
+LAST-MODIFIED:20260909T082311Z
+LOCATION:Library Metternichgasse 8\, 1030 Vienna
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://csh.ac.at/events/from-fear-to-forecast-understanding-ai-swarms
+ /
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CCS 2026
@@ -716,7 +845,8 @@ DESCRIPTION:System Dynamics Society\nThe Learning Hub is an interactive\,
  guage: Not specified\nLanguage requirements: Not specified\nInterpretation
  : Not specified\nAccess: See organiser\nhttps://systemdynamics.org/event/s
  ystem-dynamics-learning-hub-2026-sasdc-stream-4-multi-echelon-supply-chain
- -dynamics-session-1/
+ -dynamics-session-1/\nSource could not be fully rechecked.\nThis event cou
+ ld not be rechecked on the latest collection. Confirm with the organiser.
 LAST-MODIFIED:20260906T191842Z
 LOCATION:Location not published
 STATUS:CONFIRMED
@@ -748,15 +878,17 @@ SUMMARY:COMPLEX NETWORKS 2026 – 15th International Conference on Complex
   Networks and Their Applications
 DTSTART;VALUE=DATE:20261202
 DTEND;VALUE=DATE:20261205
-DTSTAMP:20260906T191842Z
+DTSTAMP:20260909T082311Z
 UID:3c7f267a057b86293598c301@systemsmap.antlerboy.com
-SEQUENCE:1
+SEQUENCE:2
 CATEGORIES:Complexity
 DESCRIPTION:Complex Systems Society\n\nLanguage: Not specified\nLanguage r
  equirements: Not specified\nInterpretation: Not specified\nAccess: See org
  aniser\nhttps://cssociety.org/event/48d831be-35b8-4789-81ed-6ef517743032/
- \nDate-only listing\; check the organiser for session times.
-LAST-MODIFIED:20260906T191842Z
+ \nDate-only listing\; check the organiser for session times.\nSource could
+  not be fully rechecked.\nThis event could not be rechecked on the latest 
+ collection. Confirm with the organiser.
+LAST-MODIFIED:20260909T082311Z
 LOCATION:Spain\, Granada
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT

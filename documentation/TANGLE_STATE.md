@@ -1,3 +1,7 @@
+## 9 September 2026 source connection pass
+
+Added 45 typed, source-scoped statements; OCAD reading entrance, FEM applications, Taylor/Boxer paper and Benjamin P Taylor entry. Publication was explicitly requested. AI authorship and unreviewed interpretation are labelled. The complete OCAD pro forma could not be retrieved; module-level close reading, the larger source-submission claims and participation roles remain open. See the public dated update and sources/september-2026/queue.json.
+
 # Tangle state
 
 Last verified: 6 September 2026 (release validation and anonymous event submission receipt)
@@ -63,3 +67,11 @@ The first event update used systemsmap revision `711671ff3b75cc18f066ebb5fb6c7dc
 ## Public event submissions, 6 September 2026
 
 The `/events/` build now pins systemsmap revision `27aaa618a1b68a52442e6232b08cd614f733ac73`. The replacement form requires only a public link and saves directly to the existing events service, without an account, email address, or GitHub redirect. Optional details remain available. Visitors receive confirmation only after durable storage, and failures retain their input. A public submission queue and daily extraction support human review before publication. A live receipt and stored row were verified; service tests, systemsmap tests, and `make validate` passed. Existing filters, exports, and PSTA redirects are preserved.
+
+## Systems methods practice, 7 September 2026
+
+26 original practice pages; 42 source-labelled resource routes; 746 public atlas entries after the additive resource integration. All 13 core approaches and three theory rows have an explicit rehearsal, with depth limits. Ten further pages support systemic inquiry and intervention.
+
+Published route: https://transduction.systems/systems-thinking/practice/
+
+Publication is explicitly authorised. See `sources/practice-pack/PACKET.md`, the public coverage page and `documentation/practice-pack.md`. No independent specialist pedagogical review is recorded; this remains an open review task. Existing unrelated work below or above remains open.

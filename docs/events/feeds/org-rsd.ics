@@ -9,9 +9,9 @@ BEGIN:VEVENT
 SUMMARY:RSD15 PLURALITIES (Systemic Design Association)
 DTSTART;VALUE=DATE:20260820
 DTEND;VALUE=DATE:20260821
-DTSTAMP:20260906T191842Z
+DTSTAMP:20260909T082311Z
 UID:c3c7111b41559bbda4dd2512@systemsmap.antlerboy.com
-SEQUENCE:1
+SEQUENCE:2
 CATEGORIES:Cybernetics,Systems thinking,Systemic design
 DESCRIPTION:Systemic Design Association\nWho: Systemic Design Association 
  Hosted by Politecnico di Torino. https://rsdsymposium.org/ On campus sessi
@@ -19,7 +19,7 @@ DESCRIPTION:Systemic Design Association\nWho: Systemic Design Association
  pecified\nInterpretation: Not specified\nAccess: See organiser\nhttps://te
  amup.com/ksok8ra1xif3viq4no/events/2133404103\nDate-only listing\; check t
  he organiser for session times.
-LAST-MODIFIED:20260906T191842Z
+LAST-MODIFIED:20260909T082311Z
 LOCATION:R. Joaquim Távora\, 1240 - Vila Mariana\, São Paulo - SP\, 0401
  5-013\, Brazil
 STATUS:CONFIRMED
@@ -27,68 +27,86 @@ TRANSP:TRANSPARENT
 URL:https://teamup.com/ksok8ra1xif3viq4no/events/2133404103
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:RSD15 PLURALITIES (Scientific Committee\, hosted by Politecnico di
-  Torino)
+SUMMARY:RSD15 / RSDX-ASC: Conversational Confluences online series
+DTSTART;VALUE=DATE:20260824
+DTEND;VALUE=DATE:20260828
+DTSTAMP:20260909T085057Z
+UID:99e564f66eea2967812a7cf4@systemsmap.antlerboy.com
+SEQUENCE:5
+CATEGORIES:Systems thinking,Cybernetics,Systemic design
+DESCRIPTION:American Society for Cybernetics and Systemic Design Associati
+ on\nThe online RSD15 programme continuing conversations from the ASC confe
+ rence. This is a separate series from the in-person Ouro Preto conference 
+ of 3-7 August\, not one continuous August-November event.\nLanguage: Not s
+ pecified\nLanguage requirements: Not specified\nInterpretation: Not specif
+ ied\nAccess: See organiser\nhttps://rsdsymposium.org/rsd15-cybernetics/\nO
+ fficial programme checked 7 September 2026: 24-27 August. Calendar end dat
+ e is exclusive.\nDate-only listing\; check the organiser for session times
+ .
+LAST-MODIFIED:20260909T085057Z
+LOCATION:Online
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://rsdsymposium.org/rsd15-cybernetics/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:RSD15: Online paper talks
 DTSTART;VALUE=DATE:20261008
 DTEND;VALUE=DATE:20261010
-DTSTAMP:20260906T191842Z
+DTSTAMP:20260909T085610Z
 UID:e1a0594c80afc692c0df6616@systemsmap.antlerboy.com
-SEQUENCE:1
-CATEGORIES:Cybernetics,Systems thinking,Systemic design
-DESCRIPTION:Scientific Committee\\\, hosted by Politecnico di Torino\nWho:
-  Scientific Committee\, hosted by Politecnico di Torino Online Paper Talks
-  presented by authors. Various facilitators. https://rsdsymposium.org/\nLa
- nguage: Not specified\nLanguage requirements: Not specified\nInterpretatio
- n: Not specified\nAccess: See organiser\nhttps://teamup.com/ksok8ra1xif3vi
- q4no/events/2133404975\nDate-only listing\; check the organiser for sessio
- n times.
-LAST-MODIFIED:20260906T191842Z
-LOCATION:https://events.zoom.us/eo/AtULk9kZNsX5vQlgZoWZ2t1vjvz86R6OWyqBv00
- QO_0XK-DZYNEQ~AggLXsr32QYFjq8BlYLZ5I06Dg
+SEQUENCE:2
+CATEGORIES:Cybernetics,Systemic design,Systems thinking
+DESCRIPTION:Relating Systems Thinking and Design / Systemic Design Associa
+ tion\nDated programme component. Check the organiser for times\, eligibili
+ ty and booking.\nLanguage: Not specified\nLanguage requirements: Not speci
+ fied\nInterpretation: Not specified\nAccess: See organiser\nhttps://rsdsym
+ posium.org/rsd15-paper-talks/\nDate-only listing\; check the organiser for
+  session times.
+LAST-MODIFIED:20260909T085610Z
+LOCATION:Online
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
-URL:https://teamup.com/ksok8ra1xif3viq4no/events/2133404975
+URL:https://rsdsymposium.org/rsd15-paper-talks/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:RSD15 PLURALITIES (RSD15-Turin on campus event)
+SUMMARY:RSD15: Pluralities\, Turin
 DTSTART;VALUE=DATE:20261013
 DTEND;VALUE=DATE:20261017
-DTSTAMP:20260906T191842Z
+DTSTAMP:20260909T085610Z
 UID:33ec149dc98e48ff47cd39a5@systemsmap.antlerboy.com
-SEQUENCE:1
-CATEGORIES:Cybernetics,Systems thinking,Systemic design
-DESCRIPTION:RSD15-Turin on campus event\nWho: RSD15-Turin on campus event 
- Register https://www.rsd15.org/contacts Livestream sessions https://events
- .zoom.us/eo/AtULk9kZNsX5vQlgZoWZ2t1vjvz86R6OWyqBv00QO\\_0XK-DZYNEQ~AggLXsr
- 32QYFjq8BlYLZ5I06Dg: https://events.zoom.us/eo/AtULk9kZNsX5vQlgZoWZ2t1vjvz
- 86R6OWyqBv00QO_0XK-DZYNEQ~AggLXsr32QYFjq8BlYLZ5I06Dg\nLanguage: Not specif
- ied\nLanguage requirements: Not specified\nInterpretation: Not specified\n
- Access: See organiser\nhttps://teamup.com/ksok8ra1xif3viq4no/events/213340
- 5689\nDate-only listing\; check the organiser for session times.
-LAST-MODIFIED:20260906T191842Z
-LOCATION:Castello del Valentino\, Turin\, Italy
+SEQUENCE:2
+CATEGORIES:Cybernetics,Systemic design,Systems thinking
+DESCRIPTION:Relating Systems Thinking and Design / Systemic Design Associa
+ tion\nDated programme component. Check the organiser for times\, eligibili
+ ty and booking.\nLanguage: Not specified\nLanguage requirements: Not speci
+ fied\nInterpretation: Not specified\nAccess: See organiser\nhttps://rsdsym
+ posium.org/rsd15-turin/\nDate-only listing\; check the organiser for sessi
+ on times.
+LAST-MODIFIED:20260909T085610Z
+LOCATION:Turin\, Italy
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
-URL:https://teamup.com/ksok8ra1xif3viq4no/events/2133405689
+URL:https://rsdsymposium.org/rsd15-turin/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:(RSD15-Retreat)
+SUMMARY:RSD15: Ostana retreat
 DTSTART;VALUE=DATE:20261018
 DTEND;VALUE=DATE:20261022
-DTSTAMP:20260906T191842Z
+DTSTAMP:20260909T085610Z
 UID:998ddce03873dc80a15d6cad@systemsmap.antlerboy.com
-SEQUENCE:1
-CATEGORIES:Cybernetics,Systems thinking,Systemic design
-DESCRIPTION:RSD15-Retreat\nWho: RSD15-Retreat https://monviso-institute.or
- g/systemic-design-for-regenerative-practice/ https://rsdsymposium.org/rsd1
- 5-mon-viso/\nLanguage: Not specified\nLanguage requirements: Not specified
- \nInterpretation: Not specified\nAccess: See organiser\nhttps://teamup.com
- /ksok8ra1xif3viq4no/events/2133406596\nDate-only listing\; check the organ
- iser for session times.
-LAST-MODIFIED:20260906T191842Z
-LOCATION:Mon Viso Institute Serre Lamboi\, 12030 Ostana\, CN\, Italy
+SEQUENCE:2
+CATEGORIES:Cybernetics,Systemic design,Systems thinking
+DESCRIPTION:Relating Systems Thinking and Design / Systemic Design Associa
+ tion\nDated programme component. Check the organiser for times\, eligibili
+ ty and booking.\nLanguage: Not specified\nLanguage requirements: Not speci
+ fied\nInterpretation: Not specified\nAccess: See organiser\nhttps://rsdsym
+ posium.org/rsd15-mon-viso/\nDate-only listing\; check the organiser for se
+ ssion times.
+LAST-MODIFIED:20260909T085610Z
+LOCATION:Ostana\, Italy
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
-URL:https://teamup.com/ksok8ra1xif3viq4no/events/2133406596
+URL:https://rsdsymposium.org/rsd15-mon-viso/
 END:VEVENT
 END:VCALENDAR

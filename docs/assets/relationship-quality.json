@@ -1,7 +1,7 @@
 {
   "schema_version": "1.1",
-  "generated": "2026-09-05",
-  "release": "0.22",
+  "generated": "2026-09-07",
+  "release": "0.23-systems-methods-practice-alpha",
   "purpose": "Machine-readable relationship-quality result after the evidence-led relationship review.",
   "contract": {
     "human_readable_rationale": "A relation has a plain phrase and either notes, scope conditions or an inference method.",
@@ -27,33 +27,33 @@
     "semantic_statements": 747
   },
   "current": {
-    "public_entries": 719,
-    "all_nodes": 846,
-    "all_edges": 1987,
-    "sources": 224,
+    "public_entries": 746,
+    "all_nodes": 873,
+    "all_edges": 2055,
+    "sources": 286,
     "claims": 34,
     "evidence_records": 37,
-    "profiles": 137,
+    "profiles": 164,
     "journeys": 24,
     "external_corpora_reviewed": 12,
     "internal_sources_reviewed": 18,
-    "reader_connected_entries": 663,
-    "semantic_connected_entries": 412,
-    "semantic_gap_entries": 307,
+    "reader_connected_entries": 692,
+    "semantic_connected_entries": 441,
+    "semantic_gap_entries": 305,
     "connection_bands": {
-      "developing": 257,
-      "rich": 45,
-      "thin": 361,
-      "unconnected": 56
+      "developing": 254,
+      "rich": 48,
+      "thin": 390,
+      "unconnected": 54
     },
     "evidence_bands": {
       "mixed": 259,
-      "none": 56,
-      "provisional": 187,
+      "none": 54,
+      "provisional": 216,
       "supported": 217
     },
-    "reader_statements": 1382,
-    "semantic_statements": 865
+    "reader_statements": 1450,
+    "semantic_statements": 933
   },
   "changes_from_baseline": {
     "generic_relation_review_targets": {
@@ -66,69 +66,69 @@
     },
     "sources": {
       "before": 153,
-      "after": 224
+      "after": 286
     },
     "semantic_connected_entries": {
       "before": 329,
-      "after": 412,
+      "after": 441,
       "note": "A generic journal-to-tradition edge was replaced by a narrower documentary scope claim; unsupported semantic reach was not preserved."
     },
     "substantive_edge_count": {
       "before": 750,
-      "after": 868
+      "after": 936
     },
     "isolated_semantic_nodes": {
       "before": 167,
-      "after": 307
+      "after": 305
     }
   },
   "criteria": {
     "typed": {
-      "passing": 1987,
-      "total": 1987
+      "passing": 2055,
+      "total": 2055
     },
     "directed": {
-      "passing": 1887,
-      "total": 1987,
+      "passing": 1955,
+      "total": 2055,
       "undirected": 100
     },
     "human_readable_phrase": {
-      "passing": 1987,
-      "total": 1987
+      "passing": 2055,
+      "total": 2055
     },
     "explicit_rationale": {
-      "passing": 1688,
-      "total": 1987
+      "passing": 1756,
+      "total": 2055
     },
     "source_identifier": {
-      "passing": 1987,
-      "total": 1987
+      "passing": 2055,
+      "total": 2055
     },
     "locator_present": {
-      "passing": 1584,
-      "total": 1987
+      "passing": 1652,
+      "total": 2055
     },
     "precision_shaped_locator": {
       "passing": 337,
-      "total": 1987,
+      "total": 2055,
       "note": "Conservative text-pattern measure; manual review is still required."
     },
     "epistemic_fields_present": {
-      "passing": 1987,
-      "total": 1987
+      "passing": 2055,
+      "total": 2055
     },
     "generic_related_to": {
-      "passing": 1987,
-      "total": 1987,
+      "passing": 2055,
+      "total": 2055,
       "review_target_count": 0
     },
     "three_or_more_relation_families": {
       "passing": 94,
-      "total": 719
+      "total": 746
     },
     "one_relation_family": {
-      "count": 291,
-      "total": 719
+      "count": 319,
+      "total": 746
     },
     "external_corpus_records": {
       "passing": 12,
@@ -258,25 +258,6 @@
       "evidence_band": "none",
       "visible_connections": 0,
       "visible_statements": 0,
-      "reader_connections": 0,
-      "reader_statements": 0,
-      "semantic_connections": 0,
-      "semantic_statements": 0,
-      "documentary_statements": 0,
-      "accepted_reader_statements": 0,
-      "provisional_reader_statements": 0,
-      "distinct_reader_families": 0,
-      "reader_families": []
-    },
-    {
-      "node_id": "concept_unfix_causal_loop_diagrams",
-      "label": "Causal loop diagrams",
-      "entity_type": "concept",
-      "publication_level": "described",
-      "connection_band": "unconnected",
-      "evidence_band": "none",
-      "visible_connections": 1,
-      "visible_statements": 1,
       "reader_connections": 0,
       "reader_statements": 0,
       "semantic_connections": 0,
@@ -1048,25 +1029,6 @@
       "reader_families": []
     },
     {
-      "node_id": "person_russell_l_ackoff",
-      "label": "Russell L. Ackoff",
-      "entity_type": "person",
-      "publication_level": "research_stub",
-      "connection_band": "unconnected",
-      "evidence_band": "none",
-      "visible_connections": 0,
-      "visible_statements": 0,
-      "reader_connections": 0,
-      "reader_statements": 0,
-      "semantic_connections": 0,
-      "semantic_statements": 0,
-      "documentary_statements": 0,
-      "accepted_reader_statements": 0,
-      "provisional_reader_statements": 0,
-      "distinct_reader_families": 0,
-      "reader_families": []
-    },
-    {
       "node_id": "person_sandra_janoff",
       "label": "Sandra Janoff",
       "entity_type": "person",
@@ -1303,27 +1265,6 @@
       ]
     },
     {
-      "node_id": "tradition_critical_systems_thinking",
-      "label": "Critical systems thinking",
-      "entity_type": "tradition",
-      "publication_level": "profile",
-      "connection_band": "thin",
-      "evidence_band": "mixed",
-      "visible_connections": 1,
-      "visible_statements": 1,
-      "reader_connections": 1,
-      "reader_statements": 1,
-      "semantic_connections": 1,
-      "semantic_statements": 1,
-      "documentary_statements": 0,
-      "accepted_reader_statements": 1,
-      "provisional_reader_statements": 0,
-      "distinct_reader_families": 1,
-      "reader_families": [
-        "conceptual"
-      ]
-    },
-    {
       "node_id": "concept_decolonial_systems_thinking",
       "label": "Decolonial systems thinking",
       "entity_type": "concept",
@@ -1468,6 +1409,48 @@
       "distinct_reader_families": 1,
       "reader_families": [
         "documentary"
+      ]
+    },
+    {
+      "node_id": "practice_lab_systemic_constellations",
+      "label": "Practice: Systemic constellations: use a spatial representation as a hypothesis",
+      "entity_type": "publication",
+      "publication_level": "profile",
+      "connection_band": "thin",
+      "evidence_band": "provisional",
+      "visible_connections": 1,
+      "visible_statements": 1,
+      "reader_connections": 1,
+      "reader_statements": 1,
+      "semantic_connections": 1,
+      "semantic_statements": 1,
+      "documentary_statements": 0,
+      "accepted_reader_statements": 0,
+      "provisional_reader_statements": 1,
+      "distinct_reader_families": 1,
+      "reader_families": [
+        "practice"
+      ]
+    },
+    {
+      "node_id": "practice_lab_transposing_theory",
+      "label": "Practice: Transposing theory: move up to a pattern and back down",
+      "entity_type": "publication",
+      "publication_level": "profile",
+      "connection_band": "thin",
+      "evidence_band": "provisional",
+      "visible_connections": 1,
+      "visible_statements": 1,
+      "reader_connections": 1,
+      "reader_statements": 1,
+      "semantic_connections": 1,
+      "semantic_statements": 1,
+      "documentary_statements": 0,
+      "accepted_reader_statements": 0,
+      "provisional_reader_statements": 1,
+      "distinct_reader_families": 1,
+      "reader_families": [
+        "practice"
       ]
     },
     {
@@ -1888,6 +1871,27 @@
       "distinct_reader_families": 1,
       "reader_families": [
         "documentary"
+      ]
+    },
+    {
+      "node_id": "concept_unfix_causal_loop_diagrams",
+      "label": "Causal loop diagrams",
+      "entity_type": "concept",
+      "publication_level": "described",
+      "connection_band": "thin",
+      "evidence_band": "provisional",
+      "visible_connections": 2,
+      "visible_statements": 2,
+      "reader_connections": 1,
+      "reader_statements": 1,
+      "semantic_connections": 1,
+      "semantic_statements": 1,
+      "documentary_statements": 0,
+      "accepted_reader_statements": 0,
+      "provisional_reader_statements": 1,
+      "distinct_reader_families": 1,
+      "reader_families": [
+        "practice"
       ]
     },
     {

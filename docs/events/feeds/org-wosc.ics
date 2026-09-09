@@ -5,4 +5,26 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:World Organisation of Systems and Cybernetics
 REFRESH-INTERVAL:P1D
 X-PUBLISHED-TTL:PT24H
+BEGIN:VEVENT
+SUMMARY:WOSC Congress: Addressing Planetary Challenges
+DTSTART:20270616T070000Z
+DTEND:20270618T140000Z
+DTSTAMP:20260909T085057Z
+UID:99998e0fda728e162d4a9f6c@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Systems thinking,Cybernetics
+DESCRIPTION:World Organisation of Systems and Cybernetics (WOSC)\n\nLangua
+ ge: Not specified\nLanguage requirements: Not specified\nInterpretation: N
+ ot specified\nAccess: See organiser\nhttps://www.wosc.world/event-details/
+ wosc-congress-2026-addressing-planetary-challenges\nThe page title and URL
+  retain 2026\, but its current Time & Location explicitly gives 16–18 Ju
+ ne 2027. Confirm this discrepancy with WOSC before booking.
+LAST-MODIFIED:20260909T085057Z
+LOCATION:Ekonomsko-poslovna fakulteta UM\, Razlagova ulica 20\, Maribor\, 
+ Slovenia
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.wosc.world/event-details/wosc-congress-2026-addressing-pla
+ netary-challenges
+END:VEVENT
 END:VCALENDAR

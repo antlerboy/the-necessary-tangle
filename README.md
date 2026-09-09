@@ -1,5 +1,9 @@
 # The Necessary Tangle
 
+## Release 0.23
+
+26 original practice pages; 42 source-labelled resource routes; 746 public atlas entries after the additive resource integration. All 13 core approaches and three theory rows have an explicit rehearsal, with depth limits. Ten further pages support systemic inquiry and intervention. [Open the practice pack](https://transduction.systems/systems-thinking/practice/). The previous release accounts remain below as history.
+
 ## Release 0.22
 
 [Change digest](https://transduction.systems/updates/0.22/) · [Systems-thinking entrance](https://transduction.systems/systems-thinking/)

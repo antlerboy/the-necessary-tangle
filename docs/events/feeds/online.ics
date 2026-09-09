@@ -6,51 +6,6 @@ X-WR-CALNAME:Online events
 REFRESH-INTERVAL:P1D
 X-PUBLISHED-TTL:PT24H
 BEGIN:VEVENT
-SUMMARY:Sociocracy and us. Individual\, collective\, and society
-DTSTART:20260609T150000Z
-DTEND:20260609T160000Z
-DTSTAMP:20260906T191842Z
-UID:40c59e798a90e2456a35dcd0@systemsmap.antlerboy.com
-SEQUENCE:1
-CATEGORIES:Systems thinking
-DESCRIPTION:Sociocracy For All\n<p>What kind of a vision of change does so
- ciocracy match? Can individuals\\' needs be met while building organizatio
- ns? What is the relationship between the collective and individuals anyway
- ? </p>\\n\nLanguage: Not specified\nLanguage requirements: Not specified\n
- Interpretation: Not specified\nAccess: See organiser\nhttps://www.sociocra
- cyforall.org/event/sociocracy-and-us-individual-collective-and-society/
-LAST-MODIFIED:20260906T191842Z
-LOCATION:Venus – SoFA Zoom Room\, https://zoom.sociocracyforall.org/venu
- s-zoom-299978898
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-URL:https://www.sociocracyforall.org/event/sociocracy-and-us-individual-co
- llective-and-society/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:(Victor Ganon)
-DTSTART:20260610T160000Z
-DTEND:20260610T170000Z
-DTSTAMP:20260906T191842Z
-UID:20a07e5e74504b8b2f14d672@systemsmap.antlerboy.com
-SEQUENCE:1
-CATEGORIES:Cybernetics,Systems thinking
-DESCRIPTION:Metaphorum\nWho: Victor Ganon Wed_6_MayWebinar:_'URUguay_CIBer
- nético:_Successfully_implementing_Stafford_Beer's_ideas’_by_Victor_Gano
- nParticipate: https://www.tickettailor.com/checkout/view-event/id/6939543/
- chk/57f3/?entry_link=%2Fall-tickets%2Fmetaphorum1%2F%3Fbg_fill%3Dfalse%26m
- inimal%3Dtrue%26ref%3Dwebsite_widget%26show_date_filter%3Dtrue%26show_logo
- %3Dfalse%26show_search_filter%3Dtrue%26show_sort%3Dtrue%2\nLanguage: Not s
- pecified\nLanguage requirements: Not specified\nInterpretation: Not specif
- ied\nAccess: See organiser\nhttps://teamup.com/ksok8ra1xif3viq4no/events/1
- 982695886
-LAST-MODIFIED:20260906T191842Z
-LOCATION:Zoom
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-URL:https://teamup.com/ksok8ra1xif3viq4no/events/1982695886
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:CECAN Webinar – Testing\, Learning and Adapting: Introducing the
   New Test and Learn Annex to the Magenta Book
 DTSTART:20260615T120000Z
@@ -103,7 +58,9 @@ DESCRIPTION:Sociocracy For All\n<p>How does sociocracy relate to other soc
  rld where systems like sociocracy are common sesne.</p>\\n\nLanguage: Not 
  specified\nLanguage requirements: Not specified\nInterpretation: Not speci
  fied\nAccess: See organiser\nhttps://www.sociocracyforall.org/event/socioc
- racy-transformative-social-systems/
+ racy-transformative-social-systems/\nSource could not be fully rechecked.
+ \nThis event could not be rechecked on the latest collection. Confirm with
+  the organiser.
 LAST-MODIFIED:20260906T191842Z
 LOCATION:Venus – SoFA Zoom Room\, https://zoom.sociocracyforall.org/venu
  s-zoom-299978898
@@ -125,7 +82,9 @@ DESCRIPTION:Sociocracy For All\n<p>Join this free one-hour webinar to lear
   available through Sociocracy For All to help you at each step. </p>\\n\nL
  anguage: Not specified\nLanguage requirements: Not specified\nInterpretati
  on: Not specified\nAccess: See organiser\nhttps://www.sociocracyforall.org
- /event/roadmap-to-implement-sociocracy/
+ /event/roadmap-to-implement-sociocracy/\nSource could not be fully recheck
+ ed.\nThis event could not be rechecked on the latest collection. Confirm w
+ ith the organiser.
 LAST-MODIFIED:20260906T191842Z
 LOCATION:Mars – SoFA Zoom Room\, https://zoom.sociocracyforall.org/mars-
  zoom-180463541
@@ -147,7 +106,9 @@ DESCRIPTION:System Dynamics Society\n<p>Monthly meeting led by the AI in S
  grating AI into SD teaching.</p>\\n\nLanguage: Not specified\nLanguage req
  uirements: Not specified\nInterpretation: Not specified\nAccess: See organ
  iser\nhttps://systemdynamics.org/event/ai-in-system-dynamics-education-tas
- k-force-monthly-meeting-2/2026-08-11/
+ k-force-monthly-meeting-2/2026-08-11/\nSource could not be fully rechecked
+ .\nThis event could not be rechecked on the latest collection. Confirm wit
+ h the organiser.
 LAST-MODIFIED:20260906T192030Z
 LOCATION:Online
 STATUS:CONFIRMED
@@ -159,9 +120,9 @@ BEGIN:VEVENT
 SUMMARY:RSD15 PLURALITIES (Systemic Design Association)
 DTSTART;VALUE=DATE:20260820
 DTEND;VALUE=DATE:20260821
-DTSTAMP:20260906T191842Z
+DTSTAMP:20260909T082311Z
 UID:c3c7111b41559bbda4dd2512@systemsmap.antlerboy.com
-SEQUENCE:1
+SEQUENCE:2
 CATEGORIES:Cybernetics,Systems thinking,Systemic design
 DESCRIPTION:Systemic Design Association\nWho: Systemic Design Association 
  Hosted by Politecnico di Torino. https://rsdsymposium.org/ On campus sessi
@@ -169,7 +130,7 @@ DESCRIPTION:Systemic Design Association\nWho: Systemic Design Association
  pecified\nInterpretation: Not specified\nAccess: See organiser\nhttps://te
  amup.com/ksok8ra1xif3viq4no/events/2133404103\nDate-only listing\; check t
  he organiser for session times.
-LAST-MODIFIED:20260906T191842Z
+LAST-MODIFIED:20260909T082311Z
 LOCATION:R. Joaquim Távora\, 1240 - Vila Mariana\, São Paulo - SP\, 0401
  5-013\, Brazil
 STATUS:CONFIRMED
@@ -191,7 +152,8 @@ DESCRIPTION:System Dynamics Society\n<p>Monthly meetings of the Policy Cou
  tes prior to the start of the meeting.</p>\\n\nLanguage: Not specified\nLa
  nguage requirements: Not specified\nInterpretation: Not specified\nAccess:
   See organiser\nhttps://systemdynamics.org/event/sds-policy-council-meetin
- g-august-2026/
+ g-august-2026/\nSource could not be fully rechecked.\nThis event could not
+  be rechecked on the latest collection. Confirm with the organiser.
 LAST-MODIFIED:20260906T192030Z
 LOCATION:Online
 STATUS:CONFIRMED
@@ -210,7 +172,8 @@ CATEGORIES:System dynamics
 DESCRIPTION:System Dynamics Society\n\nLanguage: Not specified\nLanguage r
  equirements: Not specified\nInterpretation: Not specified\nAccess: See org
  aniser\nhttps://systemdynamics.org/event/xmile-technical-committee-meeting
- -august-2026/
+ -august-2026/\nSource could not be fully rechecked.\nThis event could not 
+ be rechecked on the latest collection. Confirm with the organiser.
 LAST-MODIFIED:20260906T192030Z
 LOCATION:Online
 STATUS:CONFIRMED
@@ -229,13 +192,37 @@ CATEGORIES:System dynamics
 DESCRIPTION:System Dynamics Society\n\nLanguage: Not specified\nLanguage r
  equirements: Not specified\nInterpretation: Not specified\nAccess: See org
  aniser\nhttps://systemdynamics.org/event/sd-tools-xmile-users-group-august
- -2026/
+ -2026/\nSource could not be fully rechecked.\nThis event could not be rech
+ ecked on the latest collection. Confirm with the organiser.
 LAST-MODIFIED:20260906T192030Z
 LOCATION:Online
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 URL:https://systemdynamics.org/event/sd-tools-xmile-users-group-august-202
  6/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:RSD15 / RSDX-ASC: Conversational Confluences online series
+DTSTART;VALUE=DATE:20260824
+DTEND;VALUE=DATE:20260828
+DTSTAMP:20260909T085057Z
+UID:99e564f66eea2967812a7cf4@systemsmap.antlerboy.com
+SEQUENCE:5
+CATEGORIES:Systems thinking,Cybernetics,Systemic design
+DESCRIPTION:American Society for Cybernetics and Systemic Design Associati
+ on\nThe online RSD15 programme continuing conversations from the ASC confe
+ rence. This is a separate series from the in-person Ouro Preto conference 
+ of 3-7 August\, not one continuous August-November event.\nLanguage: Not s
+ pecified\nLanguage requirements: Not specified\nInterpretation: Not specif
+ ied\nAccess: See organiser\nhttps://rsdsymposium.org/rsd15-cybernetics/\nO
+ fficial programme checked 7 September 2026: 24-27 August. Calendar end dat
+ e is exclusive.\nDate-only listing\; check the organiser for session times
+ .
+LAST-MODIFIED:20260909T085057Z
+LOCATION:Online
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://rsdsymposium.org/rsd15-cybernetics/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Annual Psychology and Human Behavior SIG Meeting (August 2026)
@@ -253,7 +240,9 @@ DESCRIPTION:Psychology and Human Behavior SIG\n<p>Please join us for our a
  lustrative Model for Accessing Other Minds Through […]</p>\\n\nLanguage:
   Not specified\nLanguage requirements: Not specified\nInterpretation: Not 
  specified\nAccess: See organiser\nhttps://systemdynamics.org/event/psychol
- ogy-and-human-behavior-sig-meeting-august-2026/
+ ogy-and-human-behavior-sig-meeting-august-2026/\nSource could not be fully
+  rechecked.\nThis event could not be rechecked on the latest collection. C
+ onfirm with the organiser.
 LAST-MODIFIED:20260906T192030Z
 LOCATION:Online
 STATUS:CONFIRMED
@@ -274,7 +263,8 @@ DESCRIPTION:System Dynamics Society\n<p>Eva Gladek shares lessons from 14
  e regenerative transformation.</p>\\n\nLanguage: Not specified\nLanguage r
  equirements: Not specified\nInterpretation: Not specified\nAccess: See org
  aniser\nhttps://systemdynamics.org/event/place-poly-capital-and-the-power-
- to-change-systems/
+ to-change-systems/\nSource could not be fully rechecked.\nThis event could
+  not be rechecked on the latest collection. Confirm with the organiser.
 LAST-MODIFIED:20260906T192030Z
 LOCATION:Online
 STATUS:CONFIRMED
@@ -298,7 +288,8 @@ DESCRIPTION:Water SIG\n<p>Please join us on Thursday\, August 27th at 11am
  Groundwater_Research_2024.csv&view=grid. If you have [\nLanguage: Not spec
  ified\nLanguage requirements: Not specified\nInterpretation: Not specified
  \nAccess: See organiser\nhttps://systemdynamics.org/event/water-sig-meetin
- g-august-2026/
+ g-august-2026/\nSource could not be fully rechecked.\nThis event could not
+  be rechecked on the latest collection. Confirm with the organiser.
 LAST-MODIFIED:20260906T192030Z
 LOCATION:Online
 STATUS:CONFIRMED
@@ -321,7 +312,9 @@ DESCRIPTION:Pre College Education SIG\n<p>Dear Colleagues\, We would like
  0pm New York. Many exciting activities are […]</p>\\n\nLanguage: Not spe
  cified\nLanguage requirements: Not specified\nInterpretation: Not specifie
  d\nAccess: See organiser\nhttps://systemdynamics.org/event/pre-college-edu
- cation-sig-meeting-august-2026/
+ cation-sig-meeting-august-2026/\nSource could not be fully rechecked.\nThi
+ s event could not be rechecked on the latest collection. Confirm with the 
+ organiser.
 LAST-MODIFIED:20260906T192030Z
 LOCATION:Online
 STATUS:CONFIRMED
@@ -344,7 +337,9 @@ DESCRIPTION:Student Chapter\n<p>During this meeting\, we will follow up on
  es\, and foster an improved sense of community within the chapter.</p>\\n
  \nLanguage: Not specified\nLanguage requirements: Not specified\nInterpret
  ation: Not specified\nAccess: See organiser\nhttps://systemdynamics.org/ev
- ent/student-chapter-general-meeting/
+ ent/student-chapter-general-meeting/\nSource could not be fully rechecked.
+ \nThis event could not be rechecked on the latest collection. Confirm with
+  the organiser.
 LAST-MODIFIED:20260906T192030Z
 LOCATION:Online
 STATUS:CONFIRMED
@@ -365,7 +360,9 @@ DESCRIPTION:System Dynamics Society\nExplore five practical roles AI can p
   understanding its benefits\, risks\, and limitations.\nLanguage: Not spec
  ified\nLanguage requirements: Not specified\nInterpretation: Not specified
  \nAccess: See organiser\nhttps://systemdynamics.org/event/system-mapping-m
- eets-ai-practical-ways-ai-can-support-your-mapping-process/
+ eets-ai-practical-ways-ai-can-support-your-mapping-process/\nSource could 
+ not be fully rechecked.\nThis event could not be rechecked on the latest c
+ ollection. Confirm with the organiser.
 LAST-MODIFIED:20260906T192030Z
 LOCATION:Online
 STATUS:CONFIRMED
@@ -389,7 +386,8 @@ DESCRIPTION:Sociocracy For All\nThe 5-month program covers all the parts o
   minutes\, backlogs Social-emotional challenges and how to address t\nLang
  uage: Not specified\nLanguage requirements: Not specified\nInterpretation:
   Not specified\nAccess: See organiser\nhttps://www.sociocracyforall.org/ev
- ent/academy-level-1/
+ ent/academy-level-1/\nSource could not be fully rechecked.\nThis event cou
+ ld not be rechecked on the latest collection. Confirm with the organiser.
 LAST-MODIFIED:20260906T191842Z
 LOCATION:SoFA Zoom (Multi-Room)
 STATUS:CONFIRMED
@@ -401,10 +399,10 @@ SUMMARY:Cybernetics in the Annex: Commemorating Stafford Beer’s Centenar
  y + Summer Conferences Recap
 DTSTART:20260908T223000Z
 DTEND:20260909T001500Z
-DTSTAMP:20260906T205112Z
+DTSTAMP:20260909T085057Z
 UID:2e96c1af7848b3132733a6fb@systemsmap.antlerboy.com
-SEQUENCE:3
-CATEGORIES:Cybernetics,Systems thinking
+SEQUENCE:10
+CATEGORIES:Systems thinking,Cybernetics
 DESCRIPTION:Systems Thinking Ontario\nAllenna Leonard discusses Stafford B
  eer’s work on organisational viability and participatory decision-making
  \, followed by a discussion of recent systems conferences. Moderated by Za
@@ -412,11 +410,49 @@ DESCRIPTION:Systems Thinking Ontario\nAllenna Leonard discusses Stafford B
  guage requirements: Not specified\nInterpretation: Not specified\nAccess: 
  Register for in-person attendance or the online link\nhttps://guild.host/e
  vents/cybernetics-in-the-annex-tbara6
-LAST-MODIFIED:20260906T205112Z
+LAST-MODIFIED:20260909T085057Z
 LOCATION:OCAD University\, 205 Richmond St W\, Room 115\, Toronto\, Canada
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 URL:https://guild.host/events/cybernetics-in-the-annex-tbara6
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ISSS Board of Directors meeting
+DTSTART:20260911T200000Z
+DTSTAMP:20260909T085057Z
+UID:03c306f9fde126bcae14d368@systemsmap.antlerboy.com
+SEQUENCE:0
+CATEGORIES:Systems thinking
+DESCRIPTION:International Society for the Systems Sciences (ISSS)\nPublish
+ ed on the official ISSS events page. Check registration and participation 
+ requirements with ISSS.\nLanguage: Not specified\nLanguage requirements: N
+ ot specified\nInterpretation: Not specified\nAccess: Registration required
+ \; ISSS membership rules apply\nhttps://wiki.lab.isss.org/events\nEnd time
+  not published.
+LAST-MODIFIED:20260909T085057Z
+LOCATION:Online
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://wiki.lab.isss.org/events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Relational Leadership · session 1
+DTSTART:20260915T083000Z
+DTEND:20260915T113000Z
+DTSTAMP:20260909T085057Z
+UID:4e7b926f96306901c1d0da21@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Systems thinking,Relational public services
+DESCRIPTION:ThemPra Social Pedagogy\nApplied learning connected to Human L
+ earning Systems and relational public services.\nLanguage: Not specified\n
+ Language requirements: Not specified\nInterpretation: Not specified\nAcces
+ s: Full-course registration required\nhttps://www.thempra.org.uk/thempra/o
+ ur-courses/relational-leadership/
+LAST-MODIFIED:20260909T085057Z
+LOCATION:Online
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.thempra.org.uk/thempra/our-courses/relational-leadership/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Implementing the Self-Managing Enterprise with Agentic AI
@@ -434,7 +470,9 @@ DESCRIPTION:System Dynamics Society\nTuesday\, September 15 at 11 am New Y
  erview This webinar goes on to explain the mechanisms by which collaborati
  on\nLanguage: Not specified\nLanguage requirements: Not specified\nInterpr
  etation: Not specified\nAccess: See organiser\nhttps://systemdynamics.org/
- event/implementing-the-self-managing-enterprise-with-agentic-ai/
+ event/implementing-the-self-managing-enterprise-with-agentic-ai/\nSource c
+ ould not be fully rechecked.\nThis event could not be rechecked on the lat
+ est collection. Confirm with the organiser.
 LAST-MODIFIED:20260906T191842Z
 LOCATION:https://us02web.zoom.us/j/87049920798
 STATUS:CONFIRMED
@@ -447,20 +485,41 @@ SUMMARY:Pułapka struktury\, czyli jak sposób w jaki się organizujemy de
  terminuje przestrzeń możliwych rozwiązań.
 DTSTART:20260915T160000Z
 DTEND:20260915T173000Z
-DTSTAMP:20260906T191842Z
+DTSTAMP:20260908T085549Z
 UID:4dec19fa8acdd341a3e7dfbd@systemsmap.antlerboy.com
-SEQUENCE:1
+SEQUENCE:2
 CATEGORIES:Systems thinking,Cybernetics
 DESCRIPTION:SCiO Polska\n\nGeographic focus: Poland\nLanguage: Polish\nLan
  guage requirements: Not specified\nInterpretation: Not specified\nAccess: 
  All welcome\nhttps://www.systemspractice.org/events/pulapka-struktury-czyl
- i-jak-sposob-w-jaki-sie-organizujemy-determinuje-przestrzen-mozliwych
-LAST-MODIFIED:20260906T191842Z
+ i-jak-sposob-w-jaki-sie-organizujemy-determinuje-przestrzen-mozliwych\nSou
+ rce could not be fully rechecked.\nThis event could not be rechecked on th
+ e latest collection. Confirm with the organiser.
+LAST-MODIFIED:20260908T085549Z
 LOCATION:Online event
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 URL:https://www.systemspractice.org/events/pulapka-struktury-czyli-jak-spo
  sob-w-jaki-sie-organizujemy-determinuje-przestrzen-mozliwych
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Relational Leadership · session 2
+DTSTART:20260916T083000Z
+DTEND:20260916T113000Z
+DTSTAMP:20260909T085057Z
+UID:0df209cfb40823db80b351a7@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Systems thinking,Relational public services
+DESCRIPTION:ThemPra Social Pedagogy\nApplied learning connected to Human L
+ earning Systems and relational public services.\nLanguage: Not specified\n
+ Language requirements: Not specified\nInterpretation: Not specified\nAcces
+ s: Full-course registration required\nhttps://www.thempra.org.uk/thempra/o
+ ur-courses/relational-leadership/
+LAST-MODIFIED:20260909T085057Z
+LOCATION:Online
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.thempra.org.uk/thempra/our-courses/relational-leadership/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Economics SIG Online Seminar
@@ -476,12 +535,32 @@ DESCRIPTION:System Dynamics Society\nEconomics SIG Online Seminar Presente
  ory of firm inspired by Forrester’s Industrial Dynamics”\nLanguage: No
  t specified\nLanguage requirements: Not specified\nInterpretation: Not spe
  cified\nAccess: See organiser\nhttps://systemdynamics.org/event/economics-
- sig-online-seminar/
+ sig-online-seminar/\nSource could not be fully rechecked.\nThis event coul
+ d not be rechecked on the latest collection. Confirm with the organiser.
 LAST-MODIFIED:20260906T191842Z
 LOCATION:https://systemdynamics.org/event/economics-sig-online-seminar/
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 URL:https://systemdynamics.org/event/economics-sig-online-seminar/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ISSS Annual General Meeting
+DTSTART:20260918T200000Z
+DTSTAMP:20260909T085057Z
+UID:a1f3b2af02e11db18a32b82e@systemsmap.antlerboy.com
+SEQUENCE:0
+CATEGORIES:Systems thinking
+DESCRIPTION:International Society for the Systems Sciences (ISSS)\nPublish
+ ed on the official ISSS events page. Check registration and participation 
+ requirements with ISSS.\nLanguage: Not specified\nLanguage requirements: N
+ ot specified\nInterpretation: Not specified\nAccess: Registration required
+ \; ISSS membership rules apply\nhttps://wiki.lab.isss.org/events\nEnd time
+  not published.
+LAST-MODIFIED:20260909T085057Z
+LOCATION:Online
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://wiki.lab.isss.org/events
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Speaker Series 7#1: Cyber-Renaissance
@@ -493,7 +572,9 @@ CATEGORIES:Cybernetics
 DESCRIPTION:American Society for Cybernetics (ASC)\n\nLanguage: Not specif
  ied\nLanguage requirements: Not specified\nInterpretation: Not specified\n
  Access: See organiser\nhttps://asc-cybernetics.org/initiatives/speaker-ser
- ies-wg/speaker-series-season-71/
+ ies-wg/speaker-series-season-71/\nSource could not be fully rechecked.\nTh
+ is event could not be rechecked on the latest collection. Confirm with the
+  organiser.
 LAST-MODIFIED:20260906T191842Z
 LOCATION:Online
 STATUS:CONFIRMED
@@ -511,12 +592,95 @@ SEQUENCE:1
 CATEGORIES:Systems thinking
 DESCRIPTION:Sociocracy For All\n\nLanguage: Not specified\nLanguage requir
  ements: Not specified\nInterpretation: Not specified\nAccess: See organise
- r\nhttps://www.sociocracyforall.org/event/academy-level-2/
+ r\nhttps://www.sociocracyforall.org/event/academy-level-2/\nSource could n
+ ot be fully rechecked.\nThis event could not be rechecked on the latest co
+ llection. Confirm with the organiser.
 LAST-MODIFIED:20260906T191842Z
 LOCATION:SoFA Zoom (Multi-Room)
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 URL:https://www.sociocracyforall.org/event/academy-level-2/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exploring the role of the Knowledge Weaver
+DTSTART:20260922T120000Z
+DTEND:20260922T130000Z
+DTSTAMP:20260909T085057Z
+UID:e4ccdfd6cb1fb968ada0d1b3@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Systems thinking,Relational public services
+DESCRIPTION:Q Network Weaving group / COPE Scotland\nA conversation with J
+ une Holley about knowledge weaving and collective learning in health and c
+ are.\nLanguage: Not specified\nLanguage requirements: Not specified\nInter
+ pretation: Not specified\nAccess: See organiser\nhttps://q.thenhsalliance.
+ org/get-involved/events/exploring-the-role-of-the-knowledge-weaver
+LAST-MODIFIED:20260909T085057Z
+LOCATION:Online
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://q.thenhsalliance.org/get-involved/events/exploring-the-role-of
+ -the-knowledge-weaver
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Leading with Learning · session 1
+DTSTART:20260923T083000Z
+DTEND:20260923T113000Z
+DTSTAMP:20260909T085057Z
+UID:2c6644602391deac77173c72@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Systems thinking,Relational public services
+DESCRIPTION:ThemPra Social Pedagogy\nApplied learning connected to Human L
+ earning Systems and relational public services.\nLanguage: Not specified\n
+ Language requirements: Not specified\nInterpretation: Not specified\nAcces
+ s: Full-course registration required\nhttps://www.thempra.org.uk/thempra/o
+ ur-courses/leading-with-learning/
+LAST-MODIFIED:20260909T085057Z
+LOCATION:Online
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.thempra.org.uk/thempra/our-courses/leading-with-learning/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SPROCKET Systems Practice Seminar 1: Choice and Choosables
+DTSTART:20260925T090000Z
+DTEND:20260925T100000Z
+DTSTAMP:20260909T085057Z
+UID:541a60db34040c11df667d76@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Systems thinking
+DESCRIPTION:UCL SPROCKET\nJeremy Hilton explores making choices and unders
+ tanding different perspectives in innovation.\nLanguage: Not specified\nLa
+ nguage requirements: Not specified\nInterpretation: Not specified\nAccess:
+  Open to all\; registration required\nhttps://www.ucl.ac.uk/mathematical-p
+ hysical-sciences/events/2026/sep/sprocket-systems-practice-seminar-1-choic
+ e-and-choosables
+LAST-MODIFIED:20260909T085057Z
+LOCATION:Online
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.ucl.ac.uk/mathematical-physical-sciences/events/2026/sep/s
+ procket-systems-practice-seminar-1-choice-and-choosables
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Designing AI’s Boundaries: Respecting Human Agency
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260930
+DTSTAMP:20260909T085057Z
+UID:53fe868f7f0be1ba79b3dafe@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Cybernetics,Complexity,Systemic design
+DESCRIPTION:World Design Cities Conference / SUES and Tongji University\nD
+ ialogue event chaired by Michael Lissack\, with remote participation descr
+ ibed by the organiser. Headline dates span 26–29 September\; consult the
+  detailed programme for individual sessions.\nLanguage: Not specified\nLan
+ guage requirements: Not specified\nInterpretation: Not specified\nAccess: 
+ See organiser\nhttps://alwaysquestion.ai/\nDate-only listing\; check the o
+ rganiser for session times.
+LAST-MODIFIED:20260909T085057Z
+LOCATION:Shanghai\, China
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://alwaysquestion.ai/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Complex R.O.M.E. Workshop
@@ -540,16 +704,17 @@ BEGIN:VEVENT
 SUMMARY:Internalisierte Verbindlichkeiten - gegenwärtig aber unsichtbar
 DTSTART:20261001T170000Z
 DTEND:20261001T183000Z
-DTSTAMP:20260906T191842Z
+DTSTAMP:20260908T085549Z
 UID:45a924295856edfda96ed2f7@systemsmap.antlerboy.com
-SEQUENCE:1
+SEQUENCE:2
 CATEGORIES:Systems thinking,Cybernetics
 DESCRIPTION:SCiO DACH\n\nGeographic focus: Germany\, Austria\, Switzerland
  \, DACH\nLanguage: German\nLanguage requirements: Not specified\nInterpret
  ation: Not specified\nAccess: Members only + Guests\nhttps://www.systemspr
  actice.org/events/internalisierte-verbindlichkeiten-gegenwartig-aber-unsic
- htbar
-LAST-MODIFIED:20260906T191842Z
+ htbar\nSource could not be fully rechecked.\nThis event could not be reche
+ cked on the latest collection. Confirm with the organiser.
+LAST-MODIFIED:20260908T085549Z
 LOCATION:Online event
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -557,17 +722,38 @@ URL:https://www.systemspractice.org/events/internalisierte-verbindlichkeit
  en-gegenwartig-aber-unsichtbar
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Relational Leadership · session 3
+DTSTART:20261006T083000Z
+DTEND:20261006T113000Z
+DTSTAMP:20260909T085057Z
+UID:27ef6321e5a0a805c80342b2@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Systems thinking,Relational public services
+DESCRIPTION:ThemPra Social Pedagogy\nApplied learning connected to Human L
+ earning Systems and relational public services.\nLanguage: Not specified\n
+ Language requirements: Not specified\nInterpretation: Not specified\nAcces
+ s: Full-course registration required\nhttps://www.thempra.org.uk/thempra/o
+ ur-courses/relational-leadership/
+LAST-MODIFIED:20260909T085057Z
+LOCATION:Online
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.thempra.org.uk/thempra/our-courses/relational-leadership/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:SCiO UK Virtual Development Event - October 2026
 DTSTART:20261006T120000Z
 DTEND:20261006T140000Z
-DTSTAMP:20260906T191842Z
+DTSTAMP:20260908T085549Z
 UID:0c7c4ba62ecca20d592ff572@systemsmap.antlerboy.com
-SEQUENCE:1
+SEQUENCE:2
 CATEGORIES:Systems thinking,Cybernetics
 DESCRIPTION:SCiO UK\n\nLanguage: English\nLanguage requirements: Not speci
  fied\nInterpretation: Not specified\nAccess: Members only\nhttps://www.sys
- temspractice.org/events/scio-uk-virtual-development-event-october-2026
-LAST-MODIFIED:20260906T191842Z
+ temspractice.org/events/scio-uk-virtual-development-event-october-2026\nSo
+ urce could not be fully rechecked.\nThis event could not be rechecked on t
+ he latest collection. Confirm with the organiser.
+LAST-MODIFIED:20260908T085549Z
 LOCATION:Online event
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -575,49 +761,62 @@ URL:https://www.systemspractice.org/events/scio-uk-virtual-development-eve
  nt-october-2026
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:RSD15 PLURALITIES (Scientific Committee\, hosted by Politecnico di
-  Torino)
-DTSTART;VALUE=DATE:20261008
-DTEND;VALUE=DATE:20261010
-DTSTAMP:20260906T191842Z
-UID:e1a0594c80afc692c0df6616@systemsmap.antlerboy.com
+SUMMARY:Leading with Learning · session 2
+DTSTART:20261007T083000Z
+DTEND:20261007T113000Z
+DTSTAMP:20260909T085057Z
+UID:ea4027a061514d8c4dadc838@systemsmap.antlerboy.com
 SEQUENCE:1
-CATEGORIES:Cybernetics,Systems thinking,Systemic design
-DESCRIPTION:Scientific Committee\\\, hosted by Politecnico di Torino\nWho:
-  Scientific Committee\, hosted by Politecnico di Torino Online Paper Talks
-  presented by authors. Various facilitators. https://rsdsymposium.org/\nLa
- nguage: Not specified\nLanguage requirements: Not specified\nInterpretatio
- n: Not specified\nAccess: See organiser\nhttps://teamup.com/ksok8ra1xif3vi
- q4no/events/2133404975\nDate-only listing\; check the organiser for sessio
- n times.
-LAST-MODIFIED:20260906T191842Z
-LOCATION:https://events.zoom.us/eo/AtULk9kZNsX5vQlgZoWZ2t1vjvz86R6OWyqBv00
- QO_0XK-DZYNEQ~AggLXsr32QYFjq8BlYLZ5I06Dg
+CATEGORIES:Systems thinking,Relational public services
+DESCRIPTION:ThemPra Social Pedagogy\nApplied learning connected to Human L
+ earning Systems and relational public services.\nLanguage: Not specified\n
+ Language requirements: Not specified\nInterpretation: Not specified\nAcces
+ s: Full-course registration required\nhttps://www.thempra.org.uk/thempra/o
+ ur-courses/leading-with-learning/
+LAST-MODIFIED:20260909T085057Z
+LOCATION:Online
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
-URL:https://teamup.com/ksok8ra1xif3viq4no/events/2133404975
+URL:https://www.thempra.org.uk/thempra/our-courses/leading-with-learning/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:RSD15 PLURALITIES (RSD15-Turin on campus event)
-DTSTART;VALUE=DATE:20261013
-DTEND;VALUE=DATE:20261017
-DTSTAMP:20260906T191842Z
-UID:33ec149dc98e48ff47cd39a5@systemsmap.antlerboy.com
+SUMMARY:Relational Leadership · session 4
+DTSTART:20261007T083000Z
+DTEND:20261007T113000Z
+DTSTAMP:20260909T085057Z
+UID:df002fc665aa7ccc34ed74ab@systemsmap.antlerboy.com
 SEQUENCE:1
-CATEGORIES:Cybernetics,Systems thinking,Systemic design
-DESCRIPTION:RSD15-Turin on campus event\nWho: RSD15-Turin on campus event 
- Register https://www.rsd15.org/contacts Livestream sessions https://events
- .zoom.us/eo/AtULk9kZNsX5vQlgZoWZ2t1vjvz86R6OWyqBv00QO\\_0XK-DZYNEQ~AggLXsr
- 32QYFjq8BlYLZ5I06Dg: https://events.zoom.us/eo/AtULk9kZNsX5vQlgZoWZ2t1vjvz
- 86R6OWyqBv00QO_0XK-DZYNEQ~AggLXsr32QYFjq8BlYLZ5I06Dg\nLanguage: Not specif
- ied\nLanguage requirements: Not specified\nInterpretation: Not specified\n
- Access: See organiser\nhttps://teamup.com/ksok8ra1xif3viq4no/events/213340
- 5689\nDate-only listing\; check the organiser for session times.
-LAST-MODIFIED:20260906T191842Z
-LOCATION:Castello del Valentino\, Turin\, Italy
+CATEGORIES:Systems thinking,Relational public services
+DESCRIPTION:ThemPra Social Pedagogy\nApplied learning connected to Human L
+ earning Systems and relational public services.\nLanguage: Not specified\n
+ Language requirements: Not specified\nInterpretation: Not specified\nAcces
+ s: Full-course registration required\nhttps://www.thempra.org.uk/thempra/o
+ ur-courses/relational-leadership/
+LAST-MODIFIED:20260909T085057Z
+LOCATION:Online
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
-URL:https://teamup.com/ksok8ra1xif3viq4no/events/2133405689
+URL:https://www.thempra.org.uk/thempra/our-courses/relational-leadership/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:RSD15: Online paper talks
+DTSTART;VALUE=DATE:20261008
+DTEND;VALUE=DATE:20261010
+DTSTAMP:20260909T085610Z
+UID:e1a0594c80afc692c0df6616@systemsmap.antlerboy.com
+SEQUENCE:2
+CATEGORIES:Cybernetics,Systemic design,Systems thinking
+DESCRIPTION:Relating Systems Thinking and Design / Systemic Design Associa
+ tion\nDated programme component. Check the organiser for times\, eligibili
+ ty and booking.\nLanguage: Not specified\nLanguage requirements: Not speci
+ fied\nInterpretation: Not specified\nAccess: See organiser\nhttps://rsdsym
+ posium.org/rsd15-paper-talks/\nDate-only listing\; check the organiser for
+  session times.
+LAST-MODIFIED:20260909T085610Z
+LOCATION:Online
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://rsdsymposium.org/rsd15-paper-talks/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CECAN Webinar – Place-Based Evaluation Is Missing the Point Abou
@@ -639,17 +838,95 @@ URL:https://www.cecan.ac.uk/events/cecan-webinar-place-based-evaluation-is
  -missing-the-point-about-place/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Leading with Learning · session 3
+DTSTART:20261021T083000Z
+DTEND:20261021T113000Z
+DTSTAMP:20260909T085057Z
+UID:81f69c86530c1e56426a9ffa@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Systems thinking,Relational public services
+DESCRIPTION:ThemPra Social Pedagogy\nApplied learning connected to Human L
+ earning Systems and relational public services.\nLanguage: Not specified\n
+ Language requirements: Not specified\nInterpretation: Not specified\nAcces
+ s: Full-course registration required\nhttps://www.thempra.org.uk/thempra/o
+ ur-courses/leading-with-learning/
+LAST-MODIFIED:20260909T085057Z
+LOCATION:Online
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.thempra.org.uk/thempra/our-courses/leading-with-learning/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Relational Leadership · session 5
+DTSTART:20261103T093000Z
+DTEND:20261103T123000Z
+DTSTAMP:20260909T085057Z
+UID:a62f61c2b48e0ec75c97329f@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Systems thinking,Relational public services
+DESCRIPTION:ThemPra Social Pedagogy\nApplied learning connected to Human L
+ earning Systems and relational public services.\nLanguage: Not specified\n
+ Language requirements: Not specified\nInterpretation: Not specified\nAcces
+ s: Full-course registration required\nhttps://www.thempra.org.uk/thempra/o
+ ur-courses/relational-leadership/
+LAST-MODIFIED:20260909T085057Z
+LOCATION:Online
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.thempra.org.uk/thempra/our-courses/relational-leadership/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Leading with Learning · session 4
+DTSTART:20261104T093000Z
+DTEND:20261104T123000Z
+DTSTAMP:20260909T085057Z
+UID:a036d2c3c5cc49a4e03bb29e@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Systems thinking,Relational public services
+DESCRIPTION:ThemPra Social Pedagogy\nApplied learning connected to Human L
+ earning Systems and relational public services.\nLanguage: Not specified\n
+ Language requirements: Not specified\nInterpretation: Not specified\nAcces
+ s: Full-course registration required\nhttps://www.thempra.org.uk/thempra/o
+ ur-courses/leading-with-learning/
+LAST-MODIFIED:20260909T085057Z
+LOCATION:Online
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.thempra.org.uk/thempra/our-courses/leading-with-learning/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Relational Leadership · session 6
+DTSTART:20261104T093000Z
+DTEND:20261104T123000Z
+DTSTAMP:20260909T085057Z
+UID:633dab02a32699e1cc0fd2eb@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Systems thinking,Relational public services
+DESCRIPTION:ThemPra Social Pedagogy\nApplied learning connected to Human L
+ earning Systems and relational public services.\nLanguage: Not specified\n
+ Language requirements: Not specified\nInterpretation: Not specified\nAcces
+ s: Full-course registration required\nhttps://www.thempra.org.uk/thempra/o
+ ur-courses/relational-leadership/
+LAST-MODIFIED:20260909T085057Z
+LOCATION:Online
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.thempra.org.uk/thempra/our-courses/relational-leadership/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:SCiO UK Virtual Open Meeting - November 2026
 DTSTART:20261116T183000Z
 DTEND:20261116T210000Z
-DTSTAMP:20260906T191842Z
+DTSTAMP:20260908T085549Z
 UID:76da874472c5593ae9184169@systemsmap.antlerboy.com
-SEQUENCE:1
+SEQUENCE:2
 CATEGORIES:Systems thinking,Cybernetics
 DESCRIPTION:SCiO UK\n\nLanguage: English\nLanguage requirements: Not speci
  fied\nInterpretation: Not specified\nAccess: All welcome\nhttps://www.syst
- emspractice.org/events/scio-uk-virtual-open-meeting-november-2026
-LAST-MODIFIED:20260906T191842Z
+ emspractice.org/events/scio-uk-virtual-open-meeting-november-2026\nSource 
+ could not be fully rechecked.\nThis event could not be rechecked on the la
+ test collection. Confirm with the organiser.
+LAST-MODIFIED:20260908T085549Z
 LOCATION:Online event
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -657,23 +934,120 @@ URL:https://www.systemspractice.org/events/scio-uk-virtual-open-meeting-no
  vember-2026
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Leading with Learning · session 5
+DTSTART:20261118T093000Z
+DTEND:20261118T123000Z
+DTSTAMP:20260909T085057Z
+UID:0e34140cb434858ca2cc25e9@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Systems thinking,Relational public services
+DESCRIPTION:ThemPra Social Pedagogy\nApplied learning connected to Human L
+ earning Systems and relational public services.\nLanguage: Not specified\n
+ Language requirements: Not specified\nInterpretation: Not specified\nAcces
+ s: Full-course registration required\nhttps://www.thempra.org.uk/thempra/o
+ ur-courses/leading-with-learning/
+LAST-MODIFIED:20260909T085057Z
+LOCATION:Online
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.thempra.org.uk/thempra/our-courses/leading-with-learning/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Relational Leadership · session 7
+DTSTART:20261125T093000Z
+DTEND:20261125T123000Z
+DTSTAMP:20260909T085057Z
+UID:a22486a9dbb015ee640a4e8a@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Systems thinking,Relational public services
+DESCRIPTION:ThemPra Social Pedagogy\nApplied learning connected to Human L
+ earning Systems and relational public services.\nLanguage: Not specified\n
+ Language requirements: Not specified\nInterpretation: Not specified\nAcces
+ s: Full-course registration required\nhttps://www.thempra.org.uk/thempra/o
+ ur-courses/relational-leadership/
+LAST-MODIFIED:20260909T085057Z
+LOCATION:Online
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.thempra.org.uk/thempra/our-courses/relational-leadership/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Leading with Learning · session 6
+DTSTART:20261202T093000Z
+DTEND:20261202T123000Z
+DTSTAMP:20260909T085057Z
+UID:ee91b2a9fcce228d13d506bb@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Systems thinking,Relational public services
+DESCRIPTION:ThemPra Social Pedagogy\nApplied learning connected to Human L
+ earning Systems and relational public services.\nLanguage: Not specified\n
+ Language requirements: Not specified\nInterpretation: Not specified\nAcces
+ s: Full-course registration required\nhttps://www.thempra.org.uk/thempra/o
+ ur-courses/leading-with-learning/
+LAST-MODIFIED:20260909T085057Z
+LOCATION:Online
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.thempra.org.uk/thempra/our-courses/leading-with-learning/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Relational Leadership · session 8
+DTSTART:20261209T093000Z
+DTEND:20261209T123000Z
+DTSTAMP:20260909T085057Z
+UID:0c81a6c32154049c3fdd2fb4@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Systems thinking,Relational public services
+DESCRIPTION:ThemPra Social Pedagogy\nApplied learning connected to Human L
+ earning Systems and relational public services.\nLanguage: Not specified\n
+ Language requirements: Not specified\nInterpretation: Not specified\nAcces
+ s: Full-course registration required\nhttps://www.thempra.org.uk/thempra/o
+ ur-courses/relational-leadership/
+LAST-MODIFIED:20260909T085057Z
+LOCATION:Online
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.thempra.org.uk/thempra/our-courses/relational-leadership/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Kybernetik-Stammtisch - Jahresabschluss - offene Beiträge
 DTSTART:20261217T180000Z
 DTEND:20261217T193000Z
-DTSTAMP:20260906T191842Z
+DTSTAMP:20260908T085549Z
 UID:1a0badea163b9e590bf3ffa3@systemsmap.antlerboy.com
-SEQUENCE:1
+SEQUENCE:2
 CATEGORIES:Systems thinking,Cybernetics
 DESCRIPTION:SCiO DACH\n\nGeographic focus: Germany\, Austria\, Switzerland
  \, DACH\nLanguage: German\nLanguage requirements: Not specified\nInterpret
  ation: Not specified\nAccess: Members only + Guests\nhttps://www.systemspr
  actice.org/events/kybernetik-stammtisch-jahresabschluss-offene-beitrage-1
-LAST-MODIFIED:20260906T191842Z
+ \nSource could not be fully rechecked.\nThis event could not be rechecked 
+ on the latest collection. Confirm with the organiser.
+LAST-MODIFIED:20260908T085549Z
 LOCATION:Online event
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 URL:https://www.systemspractice.org/events/kybernetik-stammtisch-jahresabs
  chluss-offene-beitrage-1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Relational Leadership · session 9
+DTSTART:20270113T093000Z
+DTEND:20270113T123000Z
+DTSTAMP:20260909T085057Z
+UID:caf49aa274590bf1d9f905bd@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Systems thinking,Relational public services
+DESCRIPTION:ThemPra Social Pedagogy\nApplied learning connected to Human L
+ earning Systems and relational public services.\nLanguage: Not specified\n
+ Language requirements: Not specified\nInterpretation: Not specified\nAcces
+ s: Full-course registration required\nhttps://www.thempra.org.uk/thempra/o
+ ur-courses/relational-leadership/
+LAST-MODIFIED:20260909T085057Z
+LOCATION:Online
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.thempra.org.uk/thempra/our-courses/relational-leadership/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Oceania Chapter: 2027 Systems Thinking & Modelling Symposium​
@@ -691,7 +1065,9 @@ DESCRIPTION:System Dynamics Society\nHYBRID EVENT 12 February 2027\, 10:00
  ocation In person: UNSW Canberra City Lecture Theatre 00.25\, Ground floo
  \nLanguage: Not specified\nLanguage requirements: Not specified\nInterpret
  ation: Not specified\nAccess: See organiser\nhttps://systemdynamics.org/ev
- ent/oceania-chapter-2027-systems-thinking-modelling-symposium/
+ ent/oceania-chapter-2027-systems-thinking-modelling-symposium/\nSource cou
+ ld not be fully rechecked.\nThis event could not be rechecked on the lates
+ t collection. Confirm with the organiser.
 LAST-MODIFIED:20260906T191842Z
 LOCATION:UNSW canberra\, UNSW Canberra City\, 37 Constitution Ave\, Reid A
  CT 2612\, Australia\, ACT\, 2612\, Australia

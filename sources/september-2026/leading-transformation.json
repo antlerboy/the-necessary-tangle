@@ -1,0 +1,494 @@
+{
+  "original": {
+    "label": "Original route, 2020–2025 source versions",
+    "modules": [
+      {
+        "number": 1,
+        "group": "Leading transformation",
+        "title": "Introduction and overview",
+        "description": "The five worlds, outcomes, Seven Ways to Save and Improve, and a hundred-day plan."
+      },
+      {
+        "number": 2,
+        "group": "Leading transformation",
+        "title": "Transformation and the possibilities of organisations",
+        "description": "Purpose, hierarchy, distributed leadership, accountability, and the possibilities of organisational life."
+      },
+      {
+        "number": 3,
+        "group": "Leading transformation",
+        "title": "System leadership: purpose and measures",
+        "description": "Shared purpose, technical and adaptive challenges, viable systems, and measures that inform action."
+      },
+      {
+        "number": 4,
+        "group": "Leading transformation",
+        "title": "Leading in complexity: the uses of power",
+        "description": "Power, commitment, contracting, action inquiry, and leading change without complete control."
+      },
+      {
+        "number": 5,
+        "group": "Being a transformation agent",
+        "title": "People in systems",
+        "description": "Relationships, adult development, resilience, and support for the change practitioner."
+      },
+      {
+        "number": 6,
+        "group": "Being a transformation agent",
+        "title": "The limits of methods",
+        "description": "Consulting judgement, assumptions, context, and learning by trying ideas in the real world."
+      },
+      {
+        "number": 7,
+        "group": "Being a transformation agent",
+        "title": "Mapping systems",
+        "description": "Rich pictures, soft systems, system dynamics, archetypes, and the uses and limits of diagrams."
+      },
+      {
+        "number": 8,
+        "group": "Management world",
+        "title": "Understanding organisations",
+        "description": "Service views, organisational maturity, business models, and the Viable System Model."
+      },
+      {
+        "number": 9,
+        "group": "Management world",
+        "title": "Designing organisations",
+        "description": "Service architecture, operating models, delegation, roles, tasks, and decision authority."
+      },
+      {
+        "number": 10,
+        "group": "Management world",
+        "title": "Shaping culture",
+        "description": "Understanding culture and working on the conditions that reproduce it."
+      },
+      {
+        "number": 11,
+        "group": "Citizen world and demand",
+        "title": "Citizen and customer insight",
+        "description": "Purpose, needs, co-design, journey mapping, listening, focus groups, and customer safaris."
+      },
+      {
+        "number": 12,
+        "group": "Citizen world and demand",
+        "title": "Behavioural insight and strengths-based approaches",
+        "description": "Behaviour, community assets, strengths, and Positive Deviance."
+      },
+      {
+        "number": 13,
+        "group": "Citizen world and demand",
+        "title": "Understanding demand",
+        "description": "Demand analysis, provision and supply, and the fit between a need and a service channel."
+      },
+      {
+        "number": 14,
+        "group": "Service world",
+        "title": "Understanding and designing services",
+        "description": "Seven Ways to Save and Improve, activity and process analysis, Resource Optimisation, and service design."
+      },
+      {
+        "number": 15,
+        "group": "Service world",
+        "title": "Cost analysis and building the business case",
+        "description": "Activity-based costing, options, and a business case that connects resources to the work."
+      },
+      {
+        "number": 16,
+        "group": "Service world",
+        "title": "A deep dive into lean",
+        "description": "Purpose, flow, respect for people, A3 thinking, waste, inquiry, and the risks of applying tools mechanically."
+      },
+      {
+        "number": 17,
+        "group": "Change and learning: making progress",
+        "title": "Prototyping",
+        "description": "Principles and practical approaches for testing service changes through rapid prototypes."
+      },
+      {
+        "number": 18,
+        "group": "Change and learning: making progress",
+        "title": "Delivering change",
+        "description": "Readiness, appreciative timelines, Breaking the Shell, project and risk management, and learning loops."
+      },
+      {
+        "number": 19,
+        "group": "Change and learning: making progress",
+        "title": "Communications and stakeholder management",
+        "description": "Listening, vision, objections, stakeholder mapping, and working in a political setting."
+      },
+      {
+        "number": 20,
+        "group": "Change and learning: sustaining the work",
+        "title": "Understanding people",
+        "description": "Responses to threat and reward, and practical ways of engaging people through change."
+      },
+      {
+        "number": 21,
+        "group": "Change and learning: sustaining the work",
+        "title": "Managing change positively",
+        "description": "Appreciative Inquiry, action learning, force-field analysis, and constructive conversations."
+      },
+      {
+        "number": 22,
+        "group": "Change and learning: sustaining the work",
+        "title": "Embedding change",
+        "description": "Ownership, process management, benefits, outcomes, and the distinction between targets and useful measures."
+      },
+      {
+        "number": 23,
+        "group": "Change and learning: sustaining the work",
+        "title": "Strategy and change",
+        "description": "Learning, Patterns of Strategy, scenarios, whole-system processes, commissioning, and delivery arrangements."
+      },
+      {
+        "number": 24,
+        "group": "Pulling the learning together",
+        "title": "Recap and summary",
+        "description": "Review the repertoire, its application, and what the participant will take forward. An immersive simulation can be added to a blended programme."
+      }
+    ],
+    "source_versions": [
+      "RedQuadrant Tool Shed overview, 9 June 2025",
+      "Leading Transformation sampler, 1 July 2020",
+      "Leading Transformation module outline, 17 June 2020"
+    ]
+  },
+  "revised": {
+    "label": "Revised route, 6 September 2026",
+    "modules": [
+      {
+        "number": 1,
+        "title": "Transformation and the five worlds",
+        "world": "L",
+        "worldLabel": "Leadership and political",
+        "focus": "Read a live transformation challenge through leadership, citizens, services, management, and learning."
+      },
+      {
+        "number": 2,
+        "title": "Purpose, outcomes, and useful measures",
+        "world": "L",
+        "worldLabel": "Leadership and political",
+        "focus": "Agree purpose, distinguish outputs from outcomes, and choose measures that help people act."
+      },
+      {
+        "number": 3,
+        "title": "Your practice as a transformation agent",
+        "world": "X",
+        "worldLabel": "Learning and change",
+        "focus": "Contract for useful work, examine your own contribution, and start a live practice challenge."
+      },
+      {
+        "number": 4,
+        "title": "Power, responsibility, and distributed leadership",
+        "world": "L",
+        "worldLabel": "Leadership and political",
+        "focus": "Work with power, accountability, and distributed leadership; introduce the Four Dynamics."
+      },
+      {
+        "number": 5,
+        "title": "Honest, productive conversations",
+        "world": "X",
+        "worldLabel": "Learning and change",
+        "focus": "Practise listening, productive challenge, difficult conversations, and clear agreements."
+      },
+      {
+        "number": 6,
+        "title": "Systems inquiry, mapping, and method choice",
+        "world": "X",
+        "worldLabel": "Learning and change",
+        "focus": "Frame a useful inquiry, map different perspectives, and choose methods for the situation."
+      },
+      {
+        "number": 7,
+        "title": "Citizen insight and behaviour in context",
+        "world": "C",
+        "worldLabel": "Citizen",
+        "focus": "Gather citizen insight and examine behaviour in its social and practical context."
+      },
+      {
+        "number": 8,
+        "title": "Strengths, community, and co-production",
+        "world": "C",
+        "worldLabel": "Citizen",
+        "focus": "Work with strengths, community assets, co-production, and Positive Deviance."
+      },
+      {
+        "number": 9,
+        "title": "Demand, access, and prevention",
+        "world": "S",
+        "worldLabel": "Service",
+        "focus": "Understand demand, access, avoidable work, and opportunities for prevention."
+      },
+      {
+        "number": 10,
+        "title": "Relational public services",
+        "world": "C",
+        "worldLabel": "Citizen",
+        "focus": "Organise around people’s lives, relationships, and needs that cross service boundaries."
+      },
+      {
+        "number": 11,
+        "title": "Designing services and the work behind them",
+        "world": "S",
+        "worldLabel": "Service",
+        "focus": "Connect the citizen’s experience with service design, processes, and the work behind them."
+      },
+      {
+        "number": 12,
+        "title": "Prototyping and learning through action",
+        "world": "X",
+        "worldLabel": "Learning and change",
+        "focus": "Test service ideas through prototypes and small experiments, then use what happens to improve them."
+      },
+      {
+        "number": 13,
+        "title": "Lean, flow, and operational learning",
+        "world": "S",
+        "worldLabel": "Service",
+        "focus": "Apply lean, flow, A3 inquiry, and operational tools with respect for the people doing the work."
+      },
+      {
+        "number": 14,
+        "title": "Resource Optimisation and choices about work",
+        "world": "M",
+        "worldLabel": "Management",
+        "focus": "Make effort and capacity visible, and use Resource Optimisation and Seven Ways to examine choices."
+      },
+      {
+        "number": 15,
+        "title": "Costs, benefits, and business cases",
+        "world": "M",
+        "worldLabel": "Management",
+        "focus": "Connect activity, costs, benefits, and options in a defensible business case."
+      },
+      {
+        "number": 16,
+        "title": "Digital, data, and AI judgement",
+        "world": "S",
+        "worldLabel": "Service",
+        "focus": "Judge digital, data, and AI proposals against service purpose, evidence, and human responsibility."
+      },
+      {
+        "number": 17,
+        "title": "Understanding and designing viable organisations",
+        "world": "M",
+        "worldLabel": "Management",
+        "focus": "Use the Viable System Model to examine autonomy, coordination, and organisational viability."
+      },
+      {
+        "number": 18,
+        "title": "The Four Dynamics, roles, and organisation design",
+        "world": "M",
+        "worldLabel": "Management",
+        "focus": "Apply the Four Dynamics to roles, relationships, authority, and organisation design."
+      },
+      {
+        "number": 19,
+        "title": "Culture, change, and meeting the other",
+        "world": "M",
+        "worldLabel": "Management",
+        "focus": "Work with culture, assumptions, identity, and encounters with people who see things differently."
+      },
+      {
+        "number": 20,
+        "title": "Convening across communities and organisations",
+        "world": "C",
+        "worldLabel": "Citizen",
+        "focus": "Build the relationships and conditions for action across communities and organisations."
+      },
+      {
+        "number": 21,
+        "title": "Strategy, commissioning, and choices about provision",
+        "world": "L",
+        "worldLabel": "Leadership and political",
+        "focus": "Use Patterns of Strategy, commissioning, and provision choices to connect intent with action."
+      },
+      {
+        "number": 22,
+        "title": "Facilitating groups and designing interventions",
+        "world": "X",
+        "worldLabel": "Learning and change",
+        "focus": "Choose and facilitate group processes, and design interventions that fit their setting."
+      },
+      {
+        "number": 23,
+        "title": "Delivering, embedding, and evaluating change",
+        "world": "X",
+        "worldLabel": "Learning and change",
+        "focus": "Plan delivery, use Appreciative Inquiry and Breaking the Shell, and evaluate and embed change."
+      },
+      {
+        "number": 24,
+        "title": "Integration, simulation, and the next hundred days",
+        "world": "X",
+        "worldLabel": "Learning and change",
+        "focus": "Bring the repertoire together through simulation and a substantial hundred-day follow-through."
+      }
+    ]
+  },
+  "correspondence": [
+    {
+      "original": 1,
+      "revised": [
+        1,
+        2,
+        14,
+        24
+      ]
+    },
+    {
+      "original": 2,
+      "revised": [
+        4,
+        17,
+        18
+      ]
+    },
+    {
+      "original": 3,
+      "revised": [
+        2,
+        17
+      ]
+    },
+    {
+      "original": 4,
+      "revised": [
+        3,
+        4
+      ]
+    },
+    {
+      "original": 5,
+      "revised": [
+        3,
+        19
+      ]
+    },
+    {
+      "original": 6,
+      "revised": [
+        3,
+        6
+      ]
+    },
+    {
+      "original": 7,
+      "revised": [
+        6
+      ]
+    },
+    {
+      "original": 8,
+      "revised": [
+        17
+      ]
+    },
+    {
+      "original": 9,
+      "revised": [
+        11,
+        18
+      ]
+    },
+    {
+      "original": 10,
+      "revised": [
+        19
+      ]
+    },
+    {
+      "original": 11,
+      "revised": [
+        7,
+        8,
+        11
+      ]
+    },
+    {
+      "original": 12,
+      "revised": [
+        7,
+        8
+      ]
+    },
+    {
+      "original": 13,
+      "revised": [
+        9
+      ]
+    },
+    {
+      "original": 14,
+      "revised": [
+        11,
+        14
+      ]
+    },
+    {
+      "original": 15,
+      "revised": [
+        15
+      ]
+    },
+    {
+      "original": 16,
+      "revised": [
+        13
+      ]
+    },
+    {
+      "original": 17,
+      "revised": [
+        12
+      ]
+    },
+    {
+      "original": 18,
+      "revised": [
+        23
+      ]
+    },
+    {
+      "original": 19,
+      "revised": [
+        5,
+        20
+      ]
+    },
+    {
+      "original": 20,
+      "revised": [
+        7,
+        19
+      ]
+    },
+    {
+      "original": 21,
+      "revised": [
+        5,
+        23
+      ]
+    },
+    {
+      "original": 22,
+      "revised": [
+        2,
+        23
+      ]
+    },
+    {
+      "original": 23,
+      "revised": [
+        21
+      ]
+    },
+    {
+      "original": 24,
+      "revised": [
+        24
+      ]
+    }
+  ],
+  "correspondence_status": "Editorial correspondence between published module summaries; not a formal equivalence or an intellectual genealogy."
+}

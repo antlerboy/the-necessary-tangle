@@ -93,3 +93,11 @@ SCiO catalogue membership, competency inclusion and SysBoK placement are documen
 - Develop thin approach and intervention-skill entries through documented practice.
 - Map the human and institutional history of professional capability frameworks.
 - Distinguish current professional curricula from the wider systems | cybernetics | complexity field.
+
+## Systems methods practice, 7 September 2026
+
+26 original practice pages; 42 source-labelled resource routes; 746 public atlas entries after the additive resource integration. All 13 core approaches and three theory rows have an explicit rehearsal, with depth limits. Ten further pages support systemic inquiry and intervention.
+
+Published route: https://transduction.systems/systems-thinking/practice/
+
+Publication is explicitly authorised. See `sources/practice-pack/PACKET.md`, the public coverage page and `documentation/practice-pack.md`. No independent specialist pedagogical review is recorded; this remains an open review task. Existing unrelated work below or above remains open.

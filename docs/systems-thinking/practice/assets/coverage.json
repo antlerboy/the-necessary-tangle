@@ -1,0 +1,481 @@
+{
+  "checked_on": "2026-09-07",
+  "scio_version": "Public self-assessment portfolio, v11 February 2025",
+  "apprenticeship_version": "ST0787 version 1.2, effective 20 February 2025",
+  "core_order": [
+    "confrontation-analysis",
+    "critical-systems-heuristics",
+    "informed-group-dynamics",
+    "interactive-management",
+    "interactive-planning",
+    "mosaic-transformation",
+    "multi-methodology",
+    "patterns-of-strategy",
+    "socio-technical-systems",
+    "soft-systems",
+    "syntegration",
+    "system-dynamics",
+    "viable-system-model"
+  ],
+  "theory_order": [
+    "systems-concepts",
+    "systems-laws",
+    "transposing-theory"
+  ],
+  "ksb": {
+    "K1": "Systems thinking",
+    "K2": "Systems approaches",
+    "K3": "Intervention and engagement",
+    "K4": "Ethics",
+    "K5": "Assessment and evaluation",
+    "S1": "Applying systems knowledge",
+    "S2": "Approach designs",
+    "S3": "Systems modelling",
+    "S4": "Interpretation",
+    "S5": "Engagement and collaboration",
+    "S6": "Inquiry, information gathering and analysis",
+    "S7": "Intervention design",
+    "S8": "Change implementation",
+    "S9": "Developing self",
+    "S10": "Leading, communicating and influencing",
+    "S11": "Assessment and evaluation",
+    "B1": "Develops self and practice",
+    "B2": "Courage and constructive challenge",
+    "B3": "Curious and innovative",
+    "B4": "Professional",
+    "B5": "Adaptable and cognitively flexible",
+    "B6": "Practical",
+    "B7": "Resilient",
+    "B8": "Collaborative",
+    "B9": "Open-minded"
+  },
+  "duties": {
+    "1": [
+      "participative-inquiry",
+      "ethics-and-power"
+    ],
+    "2": [
+      "systems-concepts",
+      "soft-systems",
+      "viable-system-model"
+    ],
+    "3": [
+      "multi-methodology"
+    ],
+    "4": [
+      "participative-inquiry",
+      "critical-systems-heuristics"
+    ],
+    "5": [
+      "system-dynamics",
+      "participative-inquiry",
+      "soda"
+    ],
+    "6": [
+      "interactive-management",
+      "syntegration",
+      "informed-group-dynamics"
+    ],
+    "7": [
+      "system-dynamics",
+      "systems-laws",
+      "viable-system-model"
+    ],
+    "8": [
+      "futures-and-probes",
+      "patterns-of-strategy"
+    ],
+    "9": [
+      "soft-systems",
+      "socio-technical-systems",
+      "interactive-planning"
+    ],
+    "10": [
+      "mosaic-transformation",
+      "critical-social-learning"
+    ],
+    "11": [
+      "critical-systems-heuristics",
+      "ethics-and-power"
+    ],
+    "12": [
+      "evaluation-and-reflexivity",
+      "critical-social-learning"
+    ]
+  },
+  "supporting_scope": "The third section of the SCiO portfolio mixes systemic intervention practices with generic professional techniques. The ten additional pages provide basic rehearsals for the explicitly systemic and closely related inquiry, learning, conversation, service and evaluation work named in their headings. They are not a claim to teach every professional technique in that section.",
+  "outside_scope": [
+    "Generic presentation, public-speaking, selling, training-design and coaching qualifications are not supplied by this pack.",
+    "NLP, transactional analysis and other separately trained practices are not relabelled as systems methods or certified here.",
+    "Advanced statistics, full Six Sigma, specialist sector law, safeguarding and regulatory compliance need their own study and contextual assessment.",
+    "Real facilitation, collaboration, implementation, resilience and professional conduct cannot be established by a solo practice page.",
+    "The Systems Laws and Transposing Theory rows receive explicit introductory exercises, not a claim of exhaustive theoretical coverage. INFORMED, Interactive Management and Syntegration pages state which part of their fuller process is rehearsed."
+  ],
+  "crosswalk_status": "Editorial mapping for practice, not SCiO endorsement, accreditation or an end-point assessment judgement. The portfolio distinguishes training/case-study application from work in organisations. These fictional exercises remain in that learning category.",
+  "labs": [
+    {
+      "id": "systems-concepts",
+      "standard": "Systemic thinking & systems concepts",
+      "ksb": [
+        "K1",
+        "S1",
+        "S2",
+        "S3",
+        "S9"
+      ],
+      "scope": "A first rehearsal of boundaries, relationships, perspectives, feedback and emergence. It is not a complete treatment of systems philosophy or complexity science."
+    },
+    {
+      "id": "systems-laws",
+      "standard": "Systems Laws",
+      "ksb": [
+        "K1",
+        "S1",
+        "S3",
+        "S4"
+      ],
+      "scope": "Basic examples of requisite variety, feedback delay and whole-system effects. The SCiO row is broader; this page does not claim to cover every law in a systems-laws course."
+    },
+    {
+      "id": "transposing-theory",
+      "standard": "Transposing Theory (YoYo model)",
+      "ksb": [
+        "K1",
+        "K2",
+        "S1",
+        "S2",
+        "S4",
+        "S9"
+      ],
+      "scope": "A basic abstraction-and-return rehearsal for the framework's transposing-theory row. Its resource list also cites Yi Lin's systemic yoyo; this exercise does not teach or validate that distinct formal model. The terminology and intended depth should be checked with your tutor."
+    },
+    {
+      "id": "soft-systems",
+      "standard": "Soft Systems Methodology (SSM)",
+      "ksb": [
+        "K1",
+        "K2",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S7"
+      ],
+      "scope": "A compact SSM rehearsal. The stages organise learning here; they are not a claim that SSM is a mandatory linear project sequence. An activity model is an inquiry device, not a description of what the organisation really is."
+    },
+    {
+      "id": "system-dynamics",
+      "standard": "System Dynamics (Forrester)",
+      "ksb": [
+        "K1",
+        "K2",
+        "K5",
+        "S1",
+        "S3",
+        "S4",
+        "S11"
+      ],
+      "scope": "An original discrete-time stock-flow rehearsal with a deliberately simple boundary. It is not a prediction of a real service and does not validate a model merely because it runs."
+    },
+    {
+      "id": "viable-system-model",
+      "standard": "Viable System Model (VSM)",
+      "ksb": [
+        "K1",
+        "K2",
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S7"
+      ],
+      "scope": "A basic organisational diagnosis. Functions can be distributed or combined in people and groups. The exercise does not establish that every multi-agency network has a single legitimate metasystem."
+    },
+    {
+      "id": "critical-systems-heuristics",
+      "standard": "Critical System Heuristics (CSH: Ulrich, Reynolds)",
+      "ksb": [
+        "K1",
+        "K2",
+        "K4",
+        "S2",
+        "S3",
+        "S5",
+        "S6",
+        "S7",
+        "S9"
+      ],
+      "scope": "This exercise checks the completeness and consistency of boundary reasoning. It does not supply a morally unique answer or pretend that the practitioner represents every affected person."
+    },
+    {
+      "id": "confrontation-analysis",
+      "standard": "Confrontation Analysis (CONAN)",
+      "ksb": [
+        "K2",
+        "K3",
+        "K4",
+        "S3",
+        "S5",
+        "S7",
+        "S10"
+      ],
+      "scope": "An introductory confrontation-analysis rehearsal, not a full formal classification of dilemmas or a prediction of behaviour. Consent, new options and changing preferences remain possible."
+    },
+    {
+      "id": "informed-group-dynamics",
+      "standard": "INFORMED Group Dynamics (Marguet)",
+      "ksb": [
+        "K2",
+        "K3",
+        "S3",
+        "S5",
+        "S6",
+        "S9"
+      ],
+      "scope": "An original introductory rehearsal using the publicly described INFORMED framing and personal-construct orientation. It is not Marguet's complete taught protocol, a personality assessment, or a validated repertory-grid diagnosis. Use supervised teaching for the fuller approach."
+    },
+    {
+      "id": "interactive-management",
+      "standard": "Interactive Management (Warfield & Christakis)",
+      "ksb": [
+        "K2",
+        "K3",
+        "S3",
+        "S5",
+        "S6",
+        "S7"
+      ],
+      "scope": "This rehearses one modelling component of Interactive Management. It does not reproduce its full facilitated group process or establish group agreement. The external handbook's free-download availability is uncertain, so the complete case is supplied here."
+    },
+    {
+      "id": "interactive-planning",
+      "standard": "Interactive planning (Ackoff)",
+      "ksb": [
+        "K1",
+        "K2",
+        "K3",
+        "S2",
+        "S3",
+        "S5",
+        "S7"
+      ],
+      "scope": "A small rehearsal of Ackoff's interactive planning and idealised design. It is not an invitation to ignore present feasibility, affected people or implementation."
+    },
+    {
+      "id": "mosaic-transformation",
+      "standard": "Mosaic Transformation (Hoverstadt), Bubble Strategy",
+      "ksb": [
+        "K2",
+        "K3",
+        "S2",
+        "S3",
+        "S7",
+        "S8"
+      ],
+      "scope": "An original small rehearsal of published sequencing ideas. It does not reproduce a proprietary training exercise or claim that a protected bubble is a complete Mosaic transformation."
+    },
+    {
+      "id": "multi-methodology",
+      "standard": "Multi-methodology (Rosenhead, Jackson, Ison)",
+      "ksb": [
+        "K1",
+        "K2",
+        "K3",
+        "S2",
+        "S3",
+        "S7",
+        "S9"
+      ],
+      "scope": "A basic methodological design exercise. There is no universal correct sequence. The checks concern fit, assumptions and transitions, not allegiance to one classification of methods."
+    },
+    {
+      "id": "patterns-of-strategy",
+      "standard": "Patterns of Strategy (Hoverstadt & Loh)",
+      "ksb": [
+        "K2",
+        "S2",
+        "S3",
+        "S4",
+        "S7"
+      ],
+      "scope": "An original introductory relationship exercise. It does not reproduce the book's pattern catalogue or claim that one numerical ratio captures strategic power."
+    },
+    {
+      "id": "socio-technical-systems",
+      "standard": "Socio-Technical Systems (Trist)",
+      "ksb": [
+        "K2",
+        "K3",
+        "S3",
+        "S5",
+        "S7",
+        "S8"
+      ],
+      "scope": "A basic primary-work-system exercise informed by the socio-technical tradition. It is not a complete participative design process or a substitute for workers' and users' involvement."
+    },
+    {
+      "id": "syntegration",
+      "standard": "Syntegration/SyntegrityTM",
+      "ksb": [
+        "K2",
+        "K3",
+        "S3",
+        "S5",
+        "S7",
+        "S10"
+      ],
+      "scope": "A paper exercise about the classic structure, not delivery of a licensed or full Team Syntegrity event. It does not replace facilitation, topic formation, role allocation or the complete protocol. Other developed formats exist."
+    },
+    {
+      "id": "soda",
+      "standard": "Strategic Options Development and Analysis (SODA)",
+      "ksb": [
+        "K2",
+        "K3",
+        "S3",
+        "S5",
+        "S6",
+        "S7"
+      ],
+      "scope": "A basic cognitive-mapping rehearsal. It is not a full negotiated SODA intervention and does not turn participants' causal beliefs into established facts."
+    },
+    {
+      "id": "fractal-enterprise-model",
+      "standard": "Fractal Enterprise Model & Capabilities (Bider)",
+      "ksb": [
+        "K2",
+        "S2",
+        "S3",
+        "S4",
+        "S7"
+      ],
+      "scope": "A first FEM modelling exercise using explicit text relations. Follow the linked reference guides for the complete notation and allowed label combinations."
+    },
+    {
+      "id": "critical-social-learning",
+      "standard": "Critical Social Learning Systems; Action learning; Action research; Appreciative Enquiry",
+      "ksb": [
+        "K3",
+        "K4",
+        "S5",
+        "S6",
+        "S7",
+        "S8",
+        "S9",
+        "S11"
+      ],
+      "scope": "A bridge exercise across related but distinct approaches. Vickers' appreciative systems are not identical to Cooperrider's 4D Appreciative Inquiry. Systems convening offers practical social-learning resources, not a claim to be the same named methodology."
+    },
+    {
+      "id": "service-systems",
+      "standard": "Deming; Vanguard Method (Seddon); Lean & Six-Sigma",
+      "ksb": [
+        "K1",
+        "K3",
+        "K5",
+        "S1",
+        "S3",
+        "S6",
+        "S7",
+        "S11"
+      ],
+      "scope": "A bridge to systemic service improvement, not a full Vanguard, Lean or Six Sigma course. These traditions are distinct; this exercise does not validate statistical process-control competence."
+    },
+    {
+      "id": "participative-inquiry",
+      "standard": "Stakeholder analysis; Influence mapping; Interview technique; Listening & multiple perspectives; Large group engagement processes",
+      "ksb": [
+        "K3",
+        "K4",
+        "S5",
+        "S6",
+        "S10",
+        "B2",
+        "B4",
+        "B8",
+        "B9"
+      ],
+      "scope": "A basic inquiry-design rehearsal. An invented engagement plan is not evidence of actual facilitation, safe participation or sustained relationships."
+    },
+    {
+      "id": "futures-and-probes",
+      "standard": "Systemic inquiry and intervention design: futures, uncertainty and complexity",
+      "ksb": [
+        "K1",
+        "K2",
+        "K3",
+        "S2",
+        "S3",
+        "S7",
+        "B3",
+        "B5",
+        "B6"
+      ],
+      "scope": "A bridge to apprenticeship duties 8-10. Scenario analysis, sensitivity testing and safe-to-fail probes are distinct activities; none is a guarantee about the future."
+    },
+    {
+      "id": "ethics-and-power",
+      "standard": "Multi-agency intervention; Values mapping and integration; Managing deflection / resistance & challenge",
+      "ksb": [
+        "K4",
+        "K3",
+        "S5",
+        "S7",
+        "S8",
+        "S10",
+        "B2",
+        "B4",
+        "B7"
+      ],
+      "scope": "A generic ethical reasoning exercise. It cannot establish compliance with sector-specific law, safeguarding or professional requirements. Those require qualified, contextual checks before real action."
+    },
+    {
+      "id": "evaluation-and-reflexivity",
+      "standard": "Action research; Scientific Theory & Evidence; Learning design & learning conversations",
+      "ksb": [
+        "K5",
+        "K3",
+        "S6",
+        "S9",
+        "S11",
+        "B1",
+        "B3",
+        "B5"
+      ],
+      "scope": "A basic mixed-evidence evaluation rehearsal. It is not a complete impact evaluation, statistical inference course or assessment of real practitioner behaviour."
+    },
+    {
+      "id": "systemic-constellations",
+      "standard": "Constellations (Systemic)",
+      "ksb": [
+        "K3",
+        "K4",
+        "S3",
+        "S5",
+        "S6",
+        "S9"
+      ],
+      "scope": "A low-stakes tabletop orientation exercise only, not a full constellation facilitation or therapy. Spatial impressions are not evidence of absent people's feelings, motives or hidden historical facts. Use trained support for deeper work and never compel personal disclosure."
+    },
+    {
+      "id": "systemic-conversations",
+      "standard": "Conversation mapping; Ladder of inference; Productive conversations; Detecting & Managing undiscussables",
+      "ksb": [
+        "K3",
+        "S5",
+        "S6",
+        "S9",
+        "S10",
+        "B1",
+        "B2",
+        "B8"
+      ],
+      "scope": "An original conversation exercise bridging several distinct practices. It does not certify coaching or facilitation skill, and should not be used to compel disclosure of personal or confidential material."
+    }
+  ],
+  "publication_status": "alpha",
+  "author": "Benjamin P Taylor",
+  "citation": "Taylor, B. P. (2026). Systemic systems methods practice for systems practice. Alpha version. The Necessary Tangle.",
+  "pedagogical_review": "Independent specialist review not recorded"
+}

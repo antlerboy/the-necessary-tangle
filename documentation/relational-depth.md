@@ -8,10 +8,10 @@ Generated: `2026-08-14`
 
 The atlas now treats relational richness as maintained data, not a visual impression. Every canonical public entry has a structural connection band and a separate evidence band. This makes it possible to add provisional routes without pretending that repetition, plausibility or graph density is proof.
 
-- 663 of 719 entries have at least one reader connection.
-- 45 are structurally rich, 257 developing, 361 thin and 56 unconnected.
-- 412 have at least one non-documentary semantic, historical, human, identity, practice, influence or contestation route.
-- Evidence is 217 supported, 259 mixed, 187 provisional and 56 absent at entry level.
+- 717 of 772 entries have at least one reader connection.
+- 51 are structurally rich, 253 developing, 413 thin and 55 unconnected.
+- 451 have at least one non-documentary semantic, historical, human, identity, practice, influence or contestation route.
+- Evidence is 216 supported, 260 mixed, 241 provisional and 55 absent at entry level.
 
 ## What counts
 
@@ -43,19 +43,19 @@ The template is an editorial checklist, not an invitation to fill six slots with
 | --- | ---: | ---: | ---: | ---: | ---: |
 | approach family | 6 | 2 | 4 | 0 | 0 |
 | comparator corpus | 6 | 0 | 1 | 5 | 0 |
-| concept | 96 | 11 | 49 | 21 | 15 |
-| corpus | 5 | 0 | 1 | 4 | 0 |
-| intervention skill | 47 | 0 | 47 | 0 | 0 |
+| concept | 101 | 11 | 49 | 27 | 14 |
+| corpus | 11 | 0 | 1 | 10 | 0 |
+| intervention skill | 47 | 2 | 45 | 0 | 0 |
 | knowledge domain | 1 | 0 | 1 | 0 | 0 |
 | law or principle | 33 | 17 | 16 | 0 | 0 |
-| method or methodology | 23 | 5 | 18 | 0 | 0 |
-| organisation | 8 | 0 | 3 | 3 | 2 |
-| person | 255 | 3 | 62 | 151 | 39 |
+| method or methodology | 23 | 9 | 14 | 0 | 0 |
+| organisation | 10 | 0 | 3 | 5 | 2 |
+| person | 263 | 3 | 62 | 159 | 39 |
 | practice | 25 | 5 | 11 | 9 | 0 |
-| publication | 185 | 1 | 20 | 164 | 0 |
+| publication | 216 | 1 | 22 | 193 | 0 |
 | technology | 1 | 0 | 1 | 0 | 0 |
 | theory | 1 | 0 | 1 | 0 | 0 |
-| tool | 13 | 0 | 13 | 0 | 0 |
+| tool | 14 | 0 | 13 | 1 | 0 |
 | tradition | 14 | 1 | 9 | 4 | 0 |
 
 ## How enrichment proceeds
@@ -85,12 +85,12 @@ The queue below is generated from current structure. Low degree and low relation
 | Archimedes | person | unconnected | none | 0 | 0 |
 | Attractor | concept | unconnected | none | 0 | 0 |
 | C. West Churchman | person | unconnected | none | 0 | 0 |
-| Causal loop diagrams | concept | unconnected | none | 0 | 0 |
 | Claude Bernard | person | unconnected | none | 0 | 0 |
 | David Hilbert | person | unconnected | none | 0 | 0 |
 | Dynamic complexity | concept | unconnected | none | 0 | 0 |
 | Edgar Morin | person | unconnected | none | 0 | 0 |
 | Edge of chaos | concept | unconnected | none | 0 | 0 |
+| Eric Trist | person | unconnected | none | 0 | 0 |
 | Fitness landscape | concept | unconnected | none | 0 | 0 |
 | Frank Rosenblatt | person | unconnected | none | 0 | 0 |
 | Fritjof Capra | person | unconnected | none | 0 | 0 |
@@ -120,15 +120,15 @@ The queue below is generated from current structure. Low degree and low relation
 | Paul Cilliers | person | unconnected | none | 0 | 0 |
 | Peter Block | person | unconnected | none | 0 | 0 |
 | Phase transition | concept | unconnected | none | 0 | 0 |
-| Philip Boxer | person | unconnected | none | 0 | 0 |
 | Pingala | person | unconnected | none | 0 | 0 |
 | Plato | person | unconnected | none | 0 | 0 |
 | Power law | concept | unconnected | none | 0 | 0 |
 | Resilience | concept | unconnected | none | 0 | 0 |
 | Robert Axelrod | person | unconnected | none | 0 | 0 |
-| Russell L. Ackoff | person | unconnected | none | 0 | 0 |
+| Robert Rosen | person | unconnected | none | 0 | 0 |
 | Sandra Janoff | person | unconnected | none | 0 | 0 |
 | Scaling laws | concept | unconnected | none | 0 | 0 |
+| Stuart Kauffman | person | unconnected | none | 0 | 0 |
 
 ## First enrichment cohort in this release
 

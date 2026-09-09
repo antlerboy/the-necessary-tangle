@@ -1,0 +1,272 @@
+{
+  "status": "passed",
+  "moving_marks": 44,
+  "source_videos_unchanged": true,
+  "playback_controls": false,
+  "marks": [
+    {
+      "id": "study-f6a64f6adf",
+      "frames": 61,
+      "distinct_frame_payloads": 61,
+      "bytes": 267986
+    },
+    {
+      "id": "study-fa804e28e0",
+      "frames": 61,
+      "distinct_frame_payloads": 61,
+      "bytes": 293100
+    },
+    {
+      "id": "study-ea54873dd7",
+      "frames": 61,
+      "distinct_frame_payloads": 61,
+      "bytes": 343372
+    },
+    {
+      "id": "impossible-tangle",
+      "frames": 61,
+      "distinct_frame_payloads": 61,
+      "bytes": 141212
+    },
+    {
+      "id": "study-178676c166",
+      "frames": 61,
+      "distinct_frame_payloads": 61,
+      "bytes": 179022
+    },
+    {
+      "id": "study-daa5f2de10",
+      "frames": 61,
+      "distinct_frame_payloads": 61,
+      "bytes": 172396
+    },
+    {
+      "id": "cat-feedback-loop",
+      "frames": 61,
+      "distinct_frame_payloads": 61,
+      "bytes": 219300
+    },
+    {
+      "id": "study-e088afb0a6",
+      "frames": 61,
+      "distinct_frame_payloads": 61,
+      "bytes": 99738
+    },
+    {
+      "id": "study-1c71b14bcf",
+      "frames": 61,
+      "distinct_frame_payloads": 61,
+      "bytes": 107804
+    },
+    {
+      "id": "study-401b244ee6",
+      "frames": 61,
+      "distinct_frame_payloads": 61,
+      "bytes": 103750
+    },
+    {
+      "id": "study-66396d6bf9",
+      "frames": 61,
+      "distinct_frame_payloads": 61,
+      "bytes": 115736
+    },
+    {
+      "id": "study-33a42e870a",
+      "frames": 61,
+      "distinct_frame_payloads": 61,
+      "bytes": 79044
+    },
+    {
+      "id": "cat-in-structural-coupling",
+      "frames": 61,
+      "distinct_frame_payloads": 61,
+      "bytes": 114000
+    },
+    {
+      "id": "study-7a9a423799",
+      "frames": 61,
+      "distinct_frame_payloads": 61,
+      "bytes": 232902
+    },
+    {
+      "id": "study-4ed7e01f6e",
+      "frames": 61,
+      "distinct_frame_payloads": 61,
+      "bytes": 160808
+    },
+    {
+      "id": "study-0042bc2f66",
+      "frames": 61,
+      "distinct_frame_payloads": 61,
+      "bytes": 258406
+    },
+    {
+      "id": "circular-impossibility",
+      "frames": 61,
+      "distinct_frame_payloads": 61,
+      "bytes": 512600
+    },
+    {
+      "id": "study-d2045f5cc8",
+      "frames": 61,
+      "distinct_frame_payloads": 61,
+      "bytes": 452676
+    },
+    {
+      "id": "study-00aab752ec",
+      "frames": 61,
+      "distinct_frame_payloads": 61,
+      "bytes": 457916
+    },
+    {
+      "id": "study-d354cfced9",
+      "frames": 61,
+      "distinct_frame_payloads": 61,
+      "bytes": 173738
+    },
+    {
+      "id": "study-0408ef65da",
+      "frames": 61,
+      "distinct_frame_payloads": 61,
+      "bytes": 169698
+    },
+    {
+      "id": "study-fc5dfc1bd9",
+      "frames": 61,
+      "distinct_frame_payloads": 61,
+      "bytes": 303428
+    },
+    {
+      "id": "study-eecbc477b0",
+      "frames": 61,
+      "distinct_frame_payloads": 61,
+      "bytes": 222492
+    },
+    {
+      "id": "cats-network",
+      "frames": 61,
+      "distinct_frame_payloads": 61,
+      "bytes": 238724
+    },
+    {
+      "id": "study-8b12c67681",
+      "frames": 61,
+      "distinct_frame_payloads": 61,
+      "bytes": 245354
+    },
+    {
+      "id": "study-fc46a57eca",
+      "frames": 61,
+      "distinct_frame_payloads": 61,
+      "bytes": 189358
+    },
+    {
+      "id": "study-088cb4047a",
+      "frames": 61,
+      "distinct_frame_payloads": 61,
+      "bytes": 167138
+    },
+    {
+      "id": "study-d945a1b94a",
+      "frames": 61,
+      "distinct_frame_payloads": 61,
+      "bytes": 264770
+    },
+    {
+      "id": "study-dd75a59d25",
+      "frames": 61,
+      "distinct_frame_payloads": 61,
+      "bytes": 266580
+    },
+    {
+      "id": "study-4ec6eb7542",
+      "frames": 61,
+      "distinct_frame_payloads": 61,
+      "bytes": 290526
+    },
+    {
+      "id": "study-f488490f6b",
+      "frames": 61,
+      "distinct_frame_payloads": 61,
+      "bytes": 227282
+    },
+    {
+      "id": "study-bcb5fd409b",
+      "frames": 61,
+      "distinct_frame_payloads": 61,
+      "bytes": 267188
+    },
+    {
+      "id": "study-a8f8cdd0e2",
+      "frames": 61,
+      "distinct_frame_payloads": 61,
+      "bytes": 252106
+    },
+    {
+      "id": "study-e2709188de",
+      "frames": 61,
+      "distinct_frame_payloads": 61,
+      "bytes": 293476
+    },
+    {
+      "id": "study-bae41dfc7c",
+      "frames": 61,
+      "distinct_frame_payloads": 61,
+      "bytes": 162796
+    },
+    {
+      "id": "study-10887f3536",
+      "frames": 61,
+      "distinct_frame_payloads": 61,
+      "bytes": 159478
+    },
+    {
+      "id": "study-7480300666",
+      "frames": 61,
+      "distinct_frame_payloads": 61,
+      "bytes": 191410
+    },
+    {
+      "id": "study-a5e5923627",
+      "frames": 61,
+      "distinct_frame_payloads": 61,
+      "bytes": 196564
+    },
+    {
+      "id": "study-36e0eee053",
+      "frames": 61,
+      "distinct_frame_payloads": 61,
+      "bytes": 123026
+    },
+    {
+      "id": "study-f19fb46f7b",
+      "frames": 73,
+      "distinct_frame_payloads": 73,
+      "bytes": 118576
+    },
+    {
+      "id": "study-be81544dd7",
+      "frames": 73,
+      "distinct_frame_payloads": 73,
+      "bytes": 315288
+    },
+    {
+      "id": "study-6ad1e57c9b",
+      "frames": 73,
+      "distinct_frame_payloads": 73,
+      "bytes": 65054
+    },
+    {
+      "id": "study-a8b9b5999e",
+      "frames": 73,
+      "distinct_frame_payloads": 73,
+      "bytes": 31024
+    },
+    {
+      "id": "study-0616ed9856",
+      "frames": 73,
+      "distinct_frame_payloads": 73,
+      "bytes": 100798
+    }
+  ]
+}

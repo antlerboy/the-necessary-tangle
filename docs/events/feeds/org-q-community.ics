@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Systems Events Map//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Q Community: health and care improvement
+REFRESH-INTERVAL:P1D
+X-PUBLISHED-TTL:PT24H
+BEGIN:VEVENT
+SUMMARY:Exploring the role of the Knowledge Weaver
+DTSTART:20260922T120000Z
+DTEND:20260922T130000Z
+DTSTAMP:20260909T085057Z
+UID:e4ccdfd6cb1fb968ada0d1b3@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Systems thinking,Relational public services
+DESCRIPTION:Q Network Weaving group / COPE Scotland\nA conversation with J
+ une Holley about knowledge weaving and collective learning in health and c
+ are.\nLanguage: Not specified\nLanguage requirements: Not specified\nInter
+ pretation: Not specified\nAccess: See organiser\nhttps://q.thenhsalliance.
+ org/get-involved/events/exploring-the-role-of-the-knowledge-weaver
+LAST-MODIFIED:20260909T085057Z
+LOCATION:Online
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://q.thenhsalliance.org/get-involved/events/exploring-the-role-of
+ -the-knowledge-weaver
+END:VEVENT
+END:VCALENDAR

@@ -3,7 +3,7 @@
   const $ = (s) => document.querySelector(s);
   const esc = (s) => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const safe = (u) => /^https?:\/\//i.test(u || '') ? esc(u) : '#';
-  const labels = {'systems':'Systems thinking','cybernetics':'Cybernetics','complexity':'Complexity','system-dynamics':'System dynamics','systemic-design':'Systemic design'};
+  const labels = {'systems':'Systems thinking','cybernetics':'Cybernetics','complexity':'Complexity','system-dynamics':'System dynamics','systemic-design':'Systemic design','relational-public-services':'Relational public services'};
   const formats = {'online':'Online','in-person':'In person','hybrid':'Hybrid','unknown':'Format not specified'};
   const localZone = Intl.DateTimeFormat().resolvedOptions().timeZone || 'UTC';
   const dataBase = location.hostname==='antlerboy.github.io' ? './' : 'https://raw.githubusercontent.com/antlerboy/systemsmap/main/dist/';
@@ -21,12 +21,12 @@
   function when(e) {
     const start=e.allDay?dateOnly(e.start):new Date(e.start);
     const day=formatter(e,{day:'numeric',month:'short',year:'numeric'}).format(start);
-    if(e.allDay){let end=e.end?dateOnly(e.end):null;if(end)end.setUTCDate(end.getUTCDate()-1);return day+(end&&end>start?' – '+formatter(e,{day:'numeric',month:'short',year:'numeric'}).format(end):'')+' · Times not published';}
+    if(e.allDay){let end=e.end?dateOnly(e.end):null;if(end)end.setUTCDate(end.getUTCDate()-1);return day+(end&&end>start?' - '+formatter(e,{day:'numeric',month:'short',year:'numeric'}).format(end):'')+' · Times not published';}
     if(!e.calendarEligible)return e.start.replace('T',' ')+' · Time zone not published';
     const time=formatter(e,{hour:'2-digit',minute:'2-digit',timeZoneName:'short'}).format(start);
     const end=e.end?new Date(e.end):null;
-    if(end&&e.end.slice(0,10)!==e.start.slice(0,10))return `${day}, ${time} – ${formatter(e,{day:'numeric',month:'short',hour:'2-digit',minute:'2-digit',timeZoneName:'short'}).format(end)}`;
-    return `${day} · ${time}${end?' – '+formatter(e,{hour:'2-digit',minute:'2-digit'}).format(end):''}`;
+    if(end&&e.end.slice(0,10)!==e.start.slice(0,10))return `${day}, ${time} - ${formatter(e,{day:'numeric',month:'short',hour:'2-digit',minute:'2-digit',timeZoneName:'short'}).format(end)}`;
+    return `${day} · ${time}${end?' - '+formatter(e,{hour:'2-digit',minute:'2-digit'}).format(end):''}`;
   }
   function badge(e){return `<div class="badges"><span class="badge ${esc(e.format)}">${formats[e.format]||'Not specified'}</span>${e.status==='cancelled'?'<span class="badge warning">Cancelled</span>':''}${e.stale?'<span class="badge warning">Needs rechecking</span>':''}${e.notes.some(n=>n.includes('Title year'))?'<span class="badge warning">Check published date</span>':''}</div>`;}
   function card(e){
@@ -43,8 +43,9 @@
   }
   function render(){
     filtered=events.filter(match);$('#count').textContent=`${filtered.length} event${filtered.length===1?'':'s'}`;
+    $('#category-title').textContent=$('#topics input:checked').value==='relational-public-services'?'Relational public services':'Systems, cybernetics and complexity events';
     $('#results').innerHTML=filtered.length?filtered.slice(0,limit).map(card).join(''):'<div class="empty"><strong>No events match these filters.</strong><p>Try a wider date range, another subject, or fewer filters. The sources register shows where coverage is still incomplete.</p><button class="secondary" data-reset>Clear filters</button></div>';
-    $('#more').hidden=filtered.length<=limit;$('#export').disabled=!filtered.some(e=>e.calendarEligible);
+    $('#more').textContent=`Show more (${Math.min(limit,filtered.length)} of ${filtered.length} shown)`;$('#more').hidden=filtered.length<=limit;$('#export').disabled=!filtered.some(e=>e.calendarEligible);
     renderPins();saveFilters();
   }
   function saveFilters(){const p=new URLSearchParams();for(const key of ['q','period','org','format','country','language']){const v=$('#'+key).value;if(v&&!(key==='period'&&v==='upcoming'))p.set(key,v);}const t=$('#topics input:checked').value;if(t)p.set('topic',t);history.replaceState(null,'',location.pathname+(p.size?'?'+p:'')+location.hash);}
@@ -100,7 +101,7 @@
       $('#language').insertAdjacentHTML('beforeend',[...new Set(events.flatMap(languages))].sort().map(l=>`<option>${esc(l)}</option>`).join(''));
       for(const key of ['q','period','org','format','country','language'])if(params.has(key))$('#'+key).value=params.get(key);
       if(params.has('topic')){const el=[...document.querySelectorAll('#topics input')].find(x=>x.value===params.get('topic'));if(el)el.checked=true;}
-      $('#feed').innerHTML=feeds.map(f=>`<option value="${esc(f.id)}">${esc(f.name)} (${f.events})</option>`).join('');updateFeed();
+      $('#feed').innerHTML=feeds.map(f=>`<option value="${esc(f.id)}">${esc(f.name)} (${f.events})</option>`).join('');if(params.get('topic')==='relational-public-services')$('#feed').value='topic-relational-public-services';updateFeed();
       const collecting=sourceData.filter(s=>s.events>0).length;$('#coverage-stats').innerHTML=`<span><strong>${sourceData.length}</strong>sources checked</span><span><strong>${collecting}</strong>yielding events</span><span><strong>${sourceData.filter(s=>s.status==='failed'||s.status==='needs-review').length}</strong>need attention</span>`;
       $('#sources').innerHTML=sourceData.map(s=>`<tr><td><a href="${safe(s.url)}" target="_blank" rel="noopener">${esc(s.name)}</a><small>${esc(s.region||'International')}</small></td><td><span class="status ${s.status==='failed'?'fail':s.status==='ok'?'':'warn'}">${({ok:'Collecting',partial:'Partly collected',failed:'Couldn’t collect','needs-review':'Needs review'})[s.status]}</span><small>${esc(s.message)}</small>${s.errors?.length?`<details><summary>Check details</summary><small>${s.errors.map(esc).join('<br>')}</small></details>`:''}</td><td>${s.events}</td></tr>`).join('');
       render();await setupMap();
@@ -133,3 +134,24 @@
   });
   load();
 })();
+
+document.addEventListener('DOMContentLoaded', () => {
+  const tidy = root => {
+    if (root.nodeType === Node.TEXT_NODE) {
+      if (root.parentElement?.closest('script,style,input,textarea,code,pre')) return;
+      const next=root.nodeValue.replaceAll('\u2014',', ').replaceAll('\u2013','-').replaceAll(' , ', ', ');
+      if(next!==root.nodeValue) root.nodeValue=next;
+      return;
+    }
+    if(root.nodeType===Node.ELEMENT_NODE && !root.matches('script,style,input,textarea,code,pre')) {
+      for(const child of root.childNodes) tidy(child);
+    }
+  };
+  tidy(document.body);
+  new MutationObserver(records => {
+    for(const record of records) {
+      if(record.type==='characterData') tidy(record.target);
+      else for(const node of record.addedNodes) tidy(node);
+    }
+  }).observe(document.body,{childList:true,characterData:true,subtree:true});
+});

@@ -43,3 +43,11 @@
 ## Release 0.22 — accessible entrance and September source intake
 
 The two issue #2 source posts are accounted for with original wording, review labels, explicit gaps, and corrected Sean Manion credit. `/systems-thinking/` is built as the gateway. The header rule is retired; all 256 texts, stable page, and portable code are preserved. Receiving-site placement and domain routing are recorded in `redquadrant-rules-handoff.md`. Benjamin P Taylor explicitly authorised publication and a standing direct-publication policy on 5 September 2026.
+
+## Systems methods practice, 7 September 2026
+
+26 original practice pages; 42 source-labelled resource routes; 746 public atlas entries after the additive resource integration. All 13 core approaches and three theory rows have an explicit rehearsal, with depth limits. Ten further pages support systemic inquiry and intervention.
+
+Published route: https://transduction.systems/systems-thinking/practice/
+
+Publication is explicitly authorised. See `sources/practice-pack/PACKET.md`, the public coverage page and `documentation/practice-pack.md`. No independent specialist pedagogical review is recorded; this remains an open review task. Existing unrelated work below or above remains open.
