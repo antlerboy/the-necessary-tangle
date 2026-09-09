@@ -144,6 +144,7 @@ apply-september:
 	python3 scripts/apply_september_connections.py
 	python3 scripts/build_public_knowledge.py
 	python3 scripts/ensure_feedback_controls.py
+	python3 scripts/build_living_mark_images.py
 
 serve: build
 	python3 -m http.server 8000 --directory docs
