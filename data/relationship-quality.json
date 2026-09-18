@@ -1,7 +1,7 @@
 {
   "schema_version": "1.1",
-  "generated": "2026-09-07",
-  "release": "0.23-systems-methods-practice-alpha",
+  "generated": "2026-09-18",
+  "release": "0.24-source-intake-alpha",
   "purpose": "Machine-readable relationship-quality result after the evidence-led relationship review.",
   "contract": {
     "human_readable_rationale": "A relation has a plain phrase and either notes, scope conditions or an inference method.",
@@ -27,33 +27,33 @@
     "semantic_statements": 747
   },
   "current": {
-    "public_entries": 746,
-    "all_nodes": 873,
-    "all_edges": 2055,
-    "sources": 286,
+    "public_entries": 785,
+    "all_nodes": 912,
+    "all_edges": 2112,
+    "sources": 315,
     "claims": 34,
     "evidence_records": 37,
-    "profiles": 164,
+    "profiles": 173,
     "journeys": 24,
     "external_corpora_reviewed": 12,
     "internal_sources_reviewed": 18,
-    "reader_connected_entries": 692,
-    "semantic_connected_entries": 441,
-    "semantic_gap_entries": 305,
+    "reader_connected_entries": 731,
+    "semantic_connected_entries": 452,
+    "semantic_gap_entries": 333,
     "connection_bands": {
       "developing": 254,
-      "rich": 48,
-      "thin": 390,
+      "rich": 51,
+      "thin": 426,
       "unconnected": 54
     },
     "evidence_bands": {
-      "mixed": 259,
+      "mixed": 260,
       "none": 54,
-      "provisional": 216,
-      "supported": 217
+      "provisional": 255,
+      "supported": 216
     },
-    "reader_statements": 1450,
-    "semantic_statements": 933
+    "reader_statements": 1507,
+    "semantic_statements": 955
   },
   "changes_from_baseline": {
     "generic_relation_review_targets": {
@@ -66,69 +66,69 @@
     },
     "sources": {
       "before": 153,
-      "after": 286
+      "after": 315
     },
     "semantic_connected_entries": {
       "before": 329,
-      "after": 441,
+      "after": 452,
       "note": "A generic journal-to-tradition edge was replaced by a narrower documentary scope claim; unsupported semantic reach was not preserved."
     },
     "substantive_edge_count": {
       "before": 750,
-      "after": 936
+      "after": 958
     },
     "isolated_semantic_nodes": {
       "before": 167,
-      "after": 305
+      "after": 333
     }
   },
   "criteria": {
     "typed": {
-      "passing": 2055,
-      "total": 2055
+      "passing": 2112,
+      "total": 2112
     },
     "directed": {
-      "passing": 1955,
-      "total": 2055,
+      "passing": 2012,
+      "total": 2112,
       "undirected": 100
     },
     "human_readable_phrase": {
-      "passing": 2055,
-      "total": 2055
+      "passing": 2112,
+      "total": 2112
     },
     "explicit_rationale": {
-      "passing": 1756,
-      "total": 2055
+      "passing": 1813,
+      "total": 2112
     },
     "source_identifier": {
-      "passing": 2055,
-      "total": 2055
+      "passing": 2112,
+      "total": 2112
     },
     "locator_present": {
-      "passing": 1652,
-      "total": 2055
+      "passing": 1709,
+      "total": 2112
     },
     "precision_shaped_locator": {
-      "passing": 337,
-      "total": 2055,
+      "passing": 360,
+      "total": 2112,
       "note": "Conservative text-pattern measure; manual review is still required."
     },
     "epistemic_fields_present": {
-      "passing": 2055,
-      "total": 2055
+      "passing": 2112,
+      "total": 2112
     },
     "generic_related_to": {
-      "passing": 2055,
-      "total": 2055,
+      "passing": 2112,
+      "total": 2112,
       "review_target_count": 0
     },
     "three_or_more_relation_families": {
-      "passing": 94,
-      "total": 746
+      "passing": 99,
+      "total": 785
     },
     "one_relation_family": {
-      "count": 319,
-      "total": 746
+      "count": 355,
+      "total": 785
     },
     "external_corpus_records": {
       "passing": 12,
@@ -353,6 +353,25 @@
       "evidence_band": "none",
       "visible_connections": 1,
       "visible_statements": 1,
+      "reader_connections": 0,
+      "reader_statements": 0,
+      "semantic_connections": 0,
+      "semantic_statements": 0,
+      "documentary_statements": 0,
+      "accepted_reader_statements": 0,
+      "provisional_reader_statements": 0,
+      "distinct_reader_families": 0,
+      "reader_families": []
+    },
+    {
+      "node_id": "person_eric_trist",
+      "label": "Eric Trist",
+      "entity_type": "person",
+      "publication_level": "described",
+      "connection_band": "unconnected",
+      "evidence_band": "none",
+      "visible_connections": 0,
+      "visible_statements": 0,
       "reader_connections": 0,
       "reader_statements": 0,
       "semantic_connections": 0,
@@ -915,25 +934,6 @@
       "reader_families": []
     },
     {
-      "node_id": "person_philip_boxer",
-      "label": "Philip Boxer",
-      "entity_type": "person",
-      "publication_level": "research_stub",
-      "connection_band": "unconnected",
-      "evidence_band": "none",
-      "visible_connections": 0,
-      "visible_statements": 0,
-      "reader_connections": 0,
-      "reader_statements": 0,
-      "semantic_connections": 0,
-      "semantic_statements": 0,
-      "documentary_statements": 0,
-      "accepted_reader_statements": 0,
-      "provisional_reader_statements": 0,
-      "distinct_reader_families": 0,
-      "reader_families": []
-    },
-    {
       "node_id": "person_pingala",
       "label": "Pingala",
       "entity_type": "person",
@@ -1265,6 +1265,27 @@
       ]
     },
     {
+      "node_id": "person_david_l_hawk",
+      "label": "David L. Hawk",
+      "entity_type": "person",
+      "publication_level": "profile",
+      "connection_band": "thin",
+      "evidence_band": "provisional",
+      "visible_connections": 1,
+      "visible_statements": 1,
+      "reader_connections": 1,
+      "reader_statements": 1,
+      "semantic_connections": 0,
+      "semantic_statements": 0,
+      "documentary_statements": 1,
+      "accepted_reader_statements": 0,
+      "provisional_reader_statements": 1,
+      "distinct_reader_families": 1,
+      "reader_families": [
+        "documentary"
+      ]
+    },
+    {
       "node_id": "concept_decolonial_systems_thinking",
       "label": "Decolonial systems thinking",
       "entity_type": "concept",
@@ -1349,6 +1370,48 @@
       ]
     },
     {
+      "node_id": "person_james_j_kay",
+      "label": "James J. Kay",
+      "entity_type": "person",
+      "publication_level": "profile",
+      "connection_band": "thin",
+      "evidence_band": "provisional",
+      "visible_connections": 1,
+      "visible_statements": 1,
+      "reader_connections": 1,
+      "reader_statements": 1,
+      "semantic_connections": 0,
+      "semantic_statements": 0,
+      "documentary_statements": 1,
+      "accepted_reader_statements": 0,
+      "provisional_reader_statements": 1,
+      "distinct_reader_families": 1,
+      "reader_families": [
+        "documentary"
+      ]
+    },
+    {
+      "node_id": "person_judith_rosen",
+      "label": "Judith Rosen",
+      "entity_type": "person",
+      "publication_level": "profile",
+      "connection_band": "thin",
+      "evidence_band": "provisional",
+      "visible_connections": 1,
+      "visible_statements": 1,
+      "reader_connections": 1,
+      "reader_statements": 1,
+      "semantic_connections": 0,
+      "semantic_statements": 0,
+      "documentary_statements": 1,
+      "accepted_reader_statements": 0,
+      "provisional_reader_statements": 1,
+      "distinct_reader_families": 1,
+      "reader_families": [
+        "documentary"
+      ]
+    },
+    {
       "node_id": "person_lucy_loh",
       "label": "Lucy Loh",
       "entity_type": "person",
@@ -1391,6 +1454,27 @@
       ]
     },
     {
+      "node_id": "person_michael_lissack",
+      "label": "Michael Lissack",
+      "entity_type": "person",
+      "publication_level": "profile",
+      "connection_band": "thin",
+      "evidence_band": "provisional",
+      "visible_connections": 1,
+      "visible_statements": 1,
+      "reader_connections": 1,
+      "reader_statements": 1,
+      "semantic_connections": 0,
+      "semantic_statements": 0,
+      "documentary_statements": 1,
+      "accepted_reader_statements": 0,
+      "provisional_reader_statements": 1,
+      "distinct_reader_families": 1,
+      "reader_families": [
+        "documentary"
+      ]
+    },
+    {
       "node_id": "publication_murmurations_journal",
       "label": "Murmurations: Journal of Transformative Systemic Practice",
       "entity_type": "publication",
@@ -1406,6 +1490,27 @@
       "documentary_statements": 1,
       "accepted_reader_statements": 1,
       "provisional_reader_statements": 0,
+      "distinct_reader_families": 1,
+      "reader_families": [
+        "documentary"
+      ]
+    },
+    {
+      "node_id": "person_peter_h_jones",
+      "label": "Peter H. Jones",
+      "entity_type": "person",
+      "publication_level": "profile",
+      "connection_band": "thin",
+      "evidence_band": "provisional",
+      "visible_connections": 1,
+      "visible_statements": 1,
+      "reader_connections": 1,
+      "reader_statements": 1,
+      "semantic_connections": 0,
+      "semantic_statements": 0,
+      "documentary_statements": 1,
+      "accepted_reader_statements": 0,
+      "provisional_reader_statements": 1,
       "distinct_reader_families": 1,
       "reader_families": [
         "documentary"
@@ -1679,6 +1784,27 @@
       "documentary_statements": 1,
       "accepted_reader_statements": 1,
       "provisional_reader_statements": 0,
+      "distinct_reader_families": 1,
+      "reader_families": [
+        "documentary"
+      ]
+    },
+    {
+      "node_id": "person_benjamin_p_taylor",
+      "label": "Benjamin P Taylor",
+      "entity_type": "person",
+      "publication_level": "described",
+      "connection_band": "thin",
+      "evidence_band": "provisional",
+      "visible_connections": 1,
+      "visible_statements": 1,
+      "reader_connections": 1,
+      "reader_statements": 1,
+      "semantic_connections": 0,
+      "semantic_statements": 0,
+      "documentary_statements": 1,
+      "accepted_reader_statements": 0,
+      "provisional_reader_statements": 1,
       "distinct_reader_families": 1,
       "reader_families": [
         "documentary"
@@ -1961,6 +2087,27 @@
       "node_id": "publication_early_macy_seven_ten",
       "label": "Conferences on Cybernetics: Transactions, Seventh to Tenth",
       "entity_type": "publication",
+      "publication_level": "described",
+      "connection_band": "thin",
+      "evidence_band": "provisional",
+      "visible_connections": 1,
+      "visible_statements": 1,
+      "reader_connections": 1,
+      "reader_statements": 1,
+      "semantic_connections": 0,
+      "semantic_statements": 0,
+      "documentary_statements": 1,
+      "accepted_reader_statements": 0,
+      "provisional_reader_statements": 1,
+      "distinct_reader_families": 1,
+      "reader_families": [
+        "documentary"
+      ]
+    },
+    {
+      "node_id": "corpus_contexts_journal",
+      "label": "Contexts: The Systemic Design Journal",
+      "entity_type": "corpus",
       "publication_level": "described",
       "connection_band": "thin",
       "evidence_band": "provisional",
@@ -2294,6 +2441,27 @@
       ]
     },
     {
+      "node_id": "tool_fem_toolkit",
+      "label": "FEM toolkit",
+      "entity_type": "tool",
+      "publication_level": "described",
+      "connection_band": "thin",
+      "evidence_band": "provisional",
+      "visible_connections": 1,
+      "visible_statements": 1,
+      "reader_connections": 1,
+      "reader_statements": 1,
+      "semantic_connections": 1,
+      "semantic_statements": 1,
+      "documentary_statements": 0,
+      "accepted_reader_statements": 0,
+      "provisional_reader_statements": 1,
+      "distinct_reader_families": 1,
+      "reader_families": [
+        "practical"
+      ]
+    },
+    {
       "node_id": "publication_early_time_feedback",
       "label": "Feed back to Idiocy",
       "entity_type": "publication",
@@ -2396,174 +2564,6 @@
       "distinct_reader_families": 1,
       "reader_families": [
         "documentary"
-      ]
-    },
-    {
-      "node_id": "person_early_giorgio_de_santillana",
-      "label": "Giorgio de Santillana",
-      "entity_type": "person",
-      "publication_level": "described",
-      "connection_band": "thin",
-      "evidence_band": "provisional",
-      "visible_connections": 1,
-      "visible_statements": 1,
-      "reader_connections": 1,
-      "reader_statements": 1,
-      "semantic_connections": 0,
-      "semantic_statements": 0,
-      "documentary_statements": 1,
-      "accepted_reader_statements": 0,
-      "provisional_reader_statements": 1,
-      "distinct_reader_families": 1,
-      "reader_families": [
-        "documentary"
-      ]
-    },
-    {
-      "node_id": "person_fpcs_h_haken",
-      "label": "H. Haken",
-      "entity_type": "person",
-      "publication_level": "described",
-      "connection_band": "thin",
-      "evidence_band": "mixed",
-      "visible_connections": 1,
-      "visible_statements": 1,
-      "reader_connections": 1,
-      "reader_statements": 1,
-      "semantic_connections": 0,
-      "semantic_statements": 0,
-      "documentary_statements": 1,
-      "accepted_reader_statements": 1,
-      "provisional_reader_statements": 0,
-      "distinct_reader_families": 1,
-      "reader_families": [
-        "documentary"
-      ]
-    },
-    {
-      "node_id": "person_harold_stephen_black",
-      "label": "Harold Stephen Black",
-      "entity_type": "person",
-      "publication_level": "described",
-      "connection_band": "thin",
-      "evidence_band": "mixed",
-      "visible_connections": 1,
-      "visible_statements": 1,
-      "reader_connections": 1,
-      "reader_statements": 1,
-      "semantic_connections": 1,
-      "semantic_statements": 1,
-      "documentary_statements": 0,
-      "accepted_reader_statements": 1,
-      "provisional_reader_statements": 0,
-      "distinct_reader_families": 1,
-      "reader_families": [
-        "historical"
-      ]
-    },
-    {
-      "node_id": "person_herbert_a_shepard",
-      "label": "Herbert A. Shepard",
-      "entity_type": "person",
-      "publication_level": "described",
-      "connection_band": "thin",
-      "evidence_band": "provisional",
-      "visible_connections": 1,
-      "visible_statements": 1,
-      "reader_connections": 1,
-      "reader_statements": 1,
-      "semantic_connections": 0,
-      "semantic_statements": 0,
-      "documentary_statements": 1,
-      "accepted_reader_statements": 0,
-      "provisional_reader_statements": 1,
-      "distinct_reader_families": 1,
-      "reader_families": [
-        "documentary"
-      ]
-    },
-    {
-      "node_id": "person_igor_perko",
-      "label": "Igor Perko",
-      "entity_type": "person",
-      "publication_level": "described",
-      "connection_band": "thin",
-      "evidence_band": "provisional",
-      "visible_connections": 1,
-      "visible_statements": 1,
-      "reader_connections": 1,
-      "reader_statements": 1,
-      "semantic_connections": 1,
-      "semantic_statements": 1,
-      "documentary_statements": 0,
-      "accepted_reader_statements": 0,
-      "provisional_reader_statements": 1,
-      "distinct_reader_families": 1,
-      "reader_families": [
-        "identity"
-      ]
-    },
-    {
-      "node_id": "publication_early_time_image",
-      "label": "In Man’s Image",
-      "entity_type": "publication",
-      "publication_level": "described",
-      "connection_band": "thin",
-      "evidence_band": "provisional",
-      "visible_connections": 1,
-      "visible_statements": 1,
-      "reader_connections": 1,
-      "reader_statements": 1,
-      "semantic_connections": 0,
-      "semantic_statements": 0,
-      "documentary_statements": 1,
-      "accepted_reader_statements": 0,
-      "provisional_reader_statements": 1,
-      "distinct_reader_families": 1,
-      "reader_families": [
-        "documentary"
-      ]
-    },
-    {
-      "node_id": "practice_innovation_ecosystems",
-      "label": "Innovation ecosystems",
-      "entity_type": "practice",
-      "publication_level": "described",
-      "connection_band": "thin",
-      "evidence_band": "mixed",
-      "visible_connections": 1,
-      "visible_statements": 1,
-      "reader_connections": 1,
-      "reader_statements": 1,
-      "semantic_connections": 1,
-      "semantic_statements": 1,
-      "documentary_statements": 0,
-      "accepted_reader_statements": 1,
-      "provisional_reader_statements": 0,
-      "distinct_reader_families": 1,
-      "reader_families": [
-        "conceptual"
-      ]
-    },
-    {
-      "node_id": "concept_interconnectedness",
-      "label": "Interconnectedness",
-      "entity_type": "concept",
-      "publication_level": "described",
-      "connection_band": "thin",
-      "evidence_band": "mixed",
-      "visible_connections": 2,
-      "visible_statements": 2,
-      "reader_connections": 1,
-      "reader_statements": 1,
-      "semantic_connections": 1,
-      "semantic_statements": 1,
-      "documentary_statements": 0,
-      "accepted_reader_statements": 1,
-      "provisional_reader_statements": 0,
-      "distinct_reader_families": 1,
-      "reader_families": [
-        "practice"
       ]
     }
   ],

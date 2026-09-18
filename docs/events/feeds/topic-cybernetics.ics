@@ -6,112 +6,87 @@ X-WR-CALNAME:Cybernetics
 REFRESH-INTERVAL:P1D
 X-PUBLISHED-TTL:PT24H
 BEGIN:VEVENT
-SUMMARY:IRDO konferenca 2026
-DTSTART:20260616T070000Z
-DTEND:20260617T150000Z
-DTSTAMP:20260909T082311Z
-UID:b067b6cb36f6bb4cc865f26a@systemsmap.antlerboy.com
-SEQUENCE:2
-CATEGORIES:Cybernetics,Systems thinking
-DESCRIPTION:Cybernetics and Systems Community Calendar\nThe Official Websi
- te: https://www.irdo.si/en/irdo-conference/ Participants can still registe
- r with the programme fixed.\nLanguage: Not specified\nLanguage requirement
- s: Not specified\nInterpretation: Not specified\nAccess: See organiser\nht
- tps://teamup.com/ksok8ra1xif3viq4no/events/2104129735
-LAST-MODIFIED:20260909T082311Z
-LOCATION:Razlagova ulica 20\, 2000 Maribor\, Slovenija
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-URL:https://teamup.com/ksok8ra1xif3viq4no/events/2104129735
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:The 2026 Summer School of the International Society for the System
- s Sciences (Pyla\, Cyprus) (ISSS)
+SUMMARY:2026 International Conference on the Science of Dialogic Design: S
+ ymposia for Scientists and Practitioners (The Cyprus Presidency The Global
+  Agoras (Institute for 21st Century Agoras) The Hellenic Society for Syste
+ mic Studies The European Union for Systemics)
 DTSTART;VALUE=DATE:20260617
-DTEND;VALUE=DATE:20260618
-DTSTAMP:20260909T082311Z
-UID:10db3efe03a92ed580c6c5e7@systemsmap.antlerboy.com
-SEQUENCE:2
-CATEGORIES:Complexity,Cybernetics,Systems thinking
-DESCRIPTION:ISSS\nWho: ISSS The **The 2026 Summer School of the Internatio
- nal Society for the Systems Sciences (Pyla\, Cyprus)** is scheduled back-t
- o-back with the 70th_(2026)_Annual_Meeting_of_the_International_Society_fo
- r_the_Systems_Sciences\,_Cyprus: https://futureworlds.eu/wiki/70th_(2026_A
- nnual_Meeting_of_the_International_Society_for_the_Systems_Sciences\,_Cypr
- us "70th (2026) Annual Meeting of the International\nLanguage: Not specifi
- ed\nLanguage requirements: Not specified\nInterpretation: Not specified\nA
- ccess: See organiser\nhttps://ics.teamup.com/feed/ksok8ra1xif3viq4no/0.ics
- \nDate-only listing\; check the organiser for session times.
-LAST-MODIFIED:20260909T082311Z
-LOCATION:UCLAN Campus Pyla Cyprus https://maps.app.goo.gl/gj8bFFjNnhD7Fcyu
- 6
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-URL:https://ics.teamup.com/feed/ksok8ra1xif3viq4no/0.ics
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:VSM-AI Special Integration Group
-DTSTART:20260617T160000Z
-DTEND:20260617T173000Z
-DTSTAMP:20260909T082311Z
-UID:4e7e1c3191c2bb4737353dda@systemsmap.antlerboy.com
-SEQUENCE:2
-CATEGORIES:Cybernetics,Systems thinking
-DESCRIPTION:Metaphorum\n\nLanguage: Not specified\nLanguage requirements: 
- Not specified\nInterpretation: Not specified\nAccess: See organiser\nhttps
- ://ics.teamup.com/feed/ksok8ra1xif3viq4no/0.ics
-LAST-MODIFIED:20260909T082311Z
-LOCATION:Location not published
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-URL:https://ics.teamup.com/feed/ksok8ra1xif3viq4no/0.ics
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:The 2026 Summer School of the International Society for the System
- s Sciences (Pyla\, Cyprus) (ISSS)
-DTSTART;VALUE=DATE:20260618
-DTEND;VALUE=DATE:20260619
-DTSTAMP:20260909T082311Z
-UID:d6ccd18843f7c2eccd8e9eed@systemsmap.antlerboy.com
-SEQUENCE:2
-CATEGORIES:Complexity,Cybernetics,Systems thinking
-DESCRIPTION:ISSS\nWho: ISSS The **The 2026 Summer School of the Internatio
- nal Society for the Systems Sciences (Pyla\, Cyprus)** is scheduled back-t
- o-back with the 70th_(2026)_Annual_Meeting_of_the_International_Society_fo
- r_the_Systems_Sciences\,_Cyprus: https://futureworlds.eu/wiki/70th_(2026_A
- nnual_Meeting_of_the_International_Society_for_the_Systems_Sciences\,_Cypr
- us "70th (2026) Annual Meeting of the International\nLanguage: Not specifi
- ed\nLanguage requirements: Not specified\nInterpretation: Not specified\nA
- ccess: See organiser\nhttps://ics.teamup.com/feed/ksok8ra1xif3viq4no/0.ics
- \nDate-only listing\; check the organiser for session times.
-LAST-MODIFIED:20260909T082311Z
-LOCATION:UCLAN Campus Pyla Cyprus https://maps.app.goo.gl/gj8bFFjNnhD7Fcyu
- 6
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-URL:https://ics.teamup.com/feed/ksok8ra1xif3viq4no/0.ics
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:The 2026 Summer School of the International Society for the System
- s Sciences (Pyla\, Cyprus) (ISSS)
-DTSTART;VALUE=DATE:20260619
 DTEND;VALUE=DATE:20260620
-DTSTAMP:20260909T082311Z
-UID:b7e8c1616c5b59584758fe0f@systemsmap.antlerboy.com
-SEQUENCE:2
+DTSTAMP:20260917T093127Z
+UID:10db3efe03a92ed580c6c5e7@systemsmap.antlerboy.com
+SEQUENCE:4
 CATEGORIES:Complexity,Cybernetics,Systems thinking
-DESCRIPTION:ISSS\nWho: ISSS The **The 2026 Summer School of the Internatio
- nal Society for the Systems Sciences (Pyla\, Cyprus)** is scheduled back-t
- o-back with the 70th_(2026)_Annual_Meeting_of_the_International_Society_fo
- r_the_Systems_Sciences\,_Cyprus: https://futureworlds.eu/wiki/70th_(2026_A
- nnual_Meeting_of_the_International_Society_for_the_Systems_Sciences\,_Cypr
- us "70th (2026) Annual Meeting of the International\nLanguage: Not specifi
- ed\nLanguage requirements: Not specified\nInterpretation: Not specified\nA
- ccess: See organiser\nhttps://ics.teamup.com/feed/ksok8ra1xif3viq4no/0.ics
- \nDate-only listing\; check the organiser for session times.
-LAST-MODIFIED:20260909T082311Z
-LOCATION:UCLAN Campus Pyla Cyprus https://maps.app.goo.gl/gj8bFFjNnhD7Fcyu
- 6
+DESCRIPTION:The Cyprus Presidency\\nThe Global Agoras (Institute for 21st 
+ Century Agoras)\\nThe Hellenic Society for Systemic Studies\\nThe European
+  Union for Systemics\nWho: The Cyprus Presidency The Global Agoras (Instit
+ ute for 21st Century Agoras) The Hellenic Society for Systemic Studies The
+  European Union for Systemics The **2026 International Conference on the S
+ cience of Dialogic Design: Symposia for Scientists and Practitioners** wil
+ l take place in Pyla\, Cyprus\, in parallel to The_2026_Summer_School_of_t
+ he_International_Society_for_the_Systems_Sciences_(Pyl\nLanguage: Not spec
+ ified\nLanguage requirements: Not specified\nInterpretation: Not specified
+ \nAccess: See organiser\nhttps://ics.teamup.com/feed/ksok8ra1xif3viq4no/0.
+ ics\nDate-only listing\; check the organiser for session times.\nNo longer
+  found in the latest source listing\; confirmation needed.\nThis event cou
+ ld not be rechecked on the latest collection. Confirm with the organiser.
+LAST-MODIFIED:20260917T093127Z
+LOCATION:Pyla Cyprus
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://ics.teamup.com/feed/ksok8ra1xif3viq4no/0.ics
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:2026 International Conference on the Science of Dialogic Design: S
+ ymposia for Scientists and Practitioners (The Cyprus Presidency The Global
+  Agoras (Institute for 21st Century Agoras) The Hellenic Society for Syste
+ mic Studies The European Union for Systemics)
+DTSTART;VALUE=DATE:20260618
+DTEND;VALUE=DATE:20260621
+DTSTAMP:20260918T090403Z
+UID:d6ccd18843f7c2eccd8e9eed@systemsmap.antlerboy.com
+SEQUENCE:4
+CATEGORIES:Complexity,Cybernetics,Systems thinking
+DESCRIPTION:The Cyprus Presidency\\nThe Global Agoras (Institute for 21st 
+ Century Agoras)\\nThe Hellenic Society for Systemic Studies\\nThe European
+  Union for Systemics\nWho: The Cyprus Presidency The Global Agoras (Instit
+ ute for 21st Century Agoras) The Hellenic Society for Systemic Studies The
+  European Union for Systemics The **2026 International Conference on the S
+ cience of Dialogic Design: Symposia for Scientists and Practitioners** wil
+ l take place in Pyla\, Cyprus\, in parallel to The_2026_Summer_School_of_t
+ he_International_Society_for_the_Systems_Sciences_(Pyl\nLanguage: Not spec
+ ified\nLanguage requirements: Not specified\nInterpretation: Not specified
+ \nAccess: See organiser\nhttps://ics.teamup.com/feed/ksok8ra1xif3viq4no/0.
+ ics\nDate-only listing\; check the organiser for session times.
+LAST-MODIFIED:20260918T090403Z
+LOCATION:Pyla Cyprus
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://ics.teamup.com/feed/ksok8ra1xif3viq4no/0.ics
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:2026 International Conference on the Science of Dialogic Design: S
+ ymposia for Scientists and Practitioners (The Cyprus Presidency The Global
+  Agoras (Institute for 21st Century Agoras) The Hellenic Society for Syste
+ mic Studies The European Union for Systemics)
+DTSTART;VALUE=DATE:20260619
+DTEND;VALUE=DATE:20260622
+DTSTAMP:20260918T090403Z
+UID:b7e8c1616c5b59584758fe0f@systemsmap.antlerboy.com
+SEQUENCE:3
+CATEGORIES:Complexity,Cybernetics,Systems thinking
+DESCRIPTION:The Cyprus Presidency\\nThe Global Agoras (Institute for 21st 
+ Century Agoras)\\nThe Hellenic Society for Systemic Studies\\nThe European
+  Union for Systemics\nWho: The Cyprus Presidency The Global Agoras (Instit
+ ute for 21st Century Agoras) The Hellenic Society for Systemic Studies The
+  European Union for Systemics The **2026 International Conference on the S
+ cience of Dialogic Design: Symposia for Scientists and Practitioners** wil
+ l take place in Pyla\, Cyprus\, in parallel to The_2026_Summer_School_of_t
+ he_International_Society_for_the_Systems_Sciences_(Pyl\nLanguage: Not spec
+ ified\nLanguage requirements: Not specified\nInterpretation: Not specified
+ \nAccess: See organiser\nhttps://ics.teamup.com/feed/ksok8ra1xif3viq4no/0.
+ ics\nDate-only listing\; check the organiser for session times.
+LAST-MODIFIED:20260918T090403Z
+LOCATION:Pyla Cyprus
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 URL:https://ics.teamup.com/feed/ksok8ra1xif3viq4no/0.ics
@@ -252,9 +227,9 @@ SUMMARY:Conversational Confluences\, American Society for Cybernetics Conf
  erence 2026
 DTSTART:20260802T220000Z
 DTEND:20260807T215959Z
-DTSTAMP:20260906T191842Z
+DTSTAMP:20260909T085810Z
 UID:4fc08fcb2c47ef70a3e9f34c@systemsmap.antlerboy.com
-SEQUENCE:1
+SEQUENCE:2
 CATEGORIES:Systems thinking,Cybernetics
 DESCRIPTION:American Society for Cybernetics\nConversational Confluences\,
   to be held in Ouro Preto\, Brazil\, from August 3–7\, 2026. Founded in 
@@ -264,10 +239,8 @@ DESCRIPTION:American Society for Cybernetics\nConversational Confluences\,
  uiry and experimentation\, where […]\nLanguage: Not specified\nLanguage 
  requirements: Not specified\nInterpretation: Not specified\nAccess: See or
  ganiser\nhttps://ifsr.org/event/conversational-confluences-american-societ
- y-for-cybernetics-conference-2026/\nSource could not be fully rechecked.\n
- This event could not be rechecked on the latest collection. Confirm with t
- he organiser.
-LAST-MODIFIED:20260906T191842Z
+ y-for-cybernetics-conference-2026/
+LAST-MODIFIED:20260909T085810Z
 LOCATION:Ouro Preto\, Brazil\, Ouro Preto\, Brazil
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -316,10 +289,10 @@ BEGIN:VEVENT
 SUMMARY:RSD15 / RSDX-ASC: Conversational Confluences online series
 DTSTART;VALUE=DATE:20260824
 DTEND;VALUE=DATE:20260828
-DTSTAMP:20260909T085057Z
+DTSTAMP:20260918T090403Z
 UID:99e564f66eea2967812a7cf4@systemsmap.antlerboy.com
-SEQUENCE:5
-CATEGORIES:Systems thinking,Cybernetics,Systemic design
+SEQUENCE:16
+CATEGORIES:Cybernetics,Systemic design,Systems thinking
 DESCRIPTION:American Society for Cybernetics and Systemic Design Associati
  on\nThe online RSD15 programme continuing conversations from the ASC confe
  rence. This is a separate series from the in-person Ouro Preto conference 
@@ -329,7 +302,7 @@ DESCRIPTION:American Society for Cybernetics and Systemic Design Associati
  fficial programme checked 7 September 2026: 24-27 August. Calendar end dat
  e is exclusive.\nDate-only listing\; check the organiser for session times
  .
-LAST-MODIFIED:20260909T085057Z
+LAST-MODIFIED:20260918T090403Z
 LOCATION:Online
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -340,9 +313,9 @@ SUMMARY:Zertifizierter VSM Coach 2.\, 4. und 11. September 2026 • Züric
  h
 DTSTART:20260902T070000Z
 DTEND:20260911T160000Z
-DTSTAMP:20260906T191842Z
+DTSTAMP:20260909T085810Z
 UID:1327388df871e880b96550b4@systemsmap.antlerboy.com
-SEQUENCE:1
+SEQUENCE:2
 CATEGORIES:Systems thinking,Cybernetics
 DESCRIPTION:Metaphorum\nDas Seminar für Unternehmer:innen\, Unternehmensl
  enker:innen\, Unternehmensentwickler:innen und Organisationsentwickler:inn
@@ -352,10 +325,10 @@ DESCRIPTION:Metaphorum\nDas Seminar für Unternehmer:innen\, Unternehmensl
  erten VSM Coach (Metaphorum) bietet eine umfassende Einführung \nLanguage
  : Not specified\nLanguage requirements: Not specified\nInterpretation: Not
   specified\nAccess: See organiser\nhttps://metaphorum.org/event/zertifizie
- rter-vsm-coach-2026-09\nSource could not be fully rechecked.\nThis event c
- ould not be rechecked on the latest collection. Confirm with the organiser
- .
-LAST-MODIFIED:20260906T191842Z
+ rter-vsm-coach-2026-09\nNo longer found in the latest source listing\; con
+ firmation needed.\nThis event could not be rechecked on the latest collect
+ ion. Confirm with the organiser.
+LAST-MODIFIED:20260909T085810Z
 LOCATION:Zürich\, Switzerland
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -366,10 +339,10 @@ SUMMARY:Cybernetics in the Annex: Commemorating Stafford Beer’s Centenar
  y + Summer Conferences Recap
 DTSTART:20260908T223000Z
 DTEND:20260909T001500Z
-DTSTAMP:20260909T085057Z
+DTSTAMP:20260918T090403Z
 UID:2e96c1af7848b3132733a6fb@systemsmap.antlerboy.com
-SEQUENCE:10
-CATEGORIES:Systems thinking,Cybernetics
+SEQUENCE:21
+CATEGORIES:Cybernetics,Systems thinking
 DESCRIPTION:Systems Thinking Ontario\nAllenna Leonard discusses Stafford B
  eer’s work on organisational viability and participatory decision-making
  \, followed by a discussion of recent systems conferences. Moderated by Za
@@ -377,7 +350,7 @@ DESCRIPTION:Systems Thinking Ontario\nAllenna Leonard discusses Stafford B
  guage requirements: Not specified\nInterpretation: Not specified\nAccess: 
  Register for in-person attendance or the online link\nhttps://guild.host/e
  vents/cybernetics-in-the-annex-tbara6
-LAST-MODIFIED:20260909T085057Z
+LAST-MODIFIED:20260918T090403Z
 LOCATION:OCAD University\, 205 Richmond St W\, Room 115\, Toronto\, Canada
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -388,17 +361,18 @@ SUMMARY:Pułapka struktury\, czyli jak sposób w jaki się organizujemy de
  terminuje przestrzeń możliwych rozwiązań.
 DTSTART:20260915T160000Z
 DTEND:20260915T173000Z
-DTSTAMP:20260908T085549Z
+DTSTAMP:20260913T093647Z
 UID:4dec19fa8acdd341a3e7dfbd@systemsmap.antlerboy.com
-SEQUENCE:2
+SEQUENCE:4
 CATEGORIES:Systems thinking,Cybernetics
 DESCRIPTION:SCiO Polska\n\nGeographic focus: Poland\nLanguage: Polish\nLan
  guage requirements: Not specified\nInterpretation: Not specified\nAccess: 
  All welcome\nhttps://www.systemspractice.org/events/pulapka-struktury-czyl
- i-jak-sposob-w-jaki-sie-organizujemy-determinuje-przestrzen-mozliwych\nSou
- rce could not be fully rechecked.\nThis event could not be rechecked on th
- e latest collection. Confirm with the organiser.
-LAST-MODIFIED:20260908T085549Z
+ i-jak-sposob-w-jaki-sie-organizujemy-determinuje-przestrzen-mozliwych\nNo 
+ longer found in the latest source listing\; confirmation needed.\nThis eve
+ nt could not be rechecked on the latest collection. Confirm with the organ
+ iser.
+LAST-MODIFIED:20260913T093647Z
 LOCATION:Online event
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -430,7 +404,7 @@ DTEND:20260919T140000Z
 DTSTAMP:20260906T191842Z
 UID:da94efc5fcf22b82681dc9ea@systemsmap.antlerboy.com
 SEQUENCE:1
-CATEGORIES:Systems thinking,Cybernetics,Complexity
+CATEGORIES:Complexity,Cybernetics,Systems thinking
 DESCRIPTION:International Federation for Systems Research (IFSR)\nMetaphor
  um 2026 marks the centenary of Stafford Beer with a landmark international
   gathering dedicated to celebrating his life\, legacy\, and continuing inf
@@ -451,17 +425,15 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Speaker Series 7#1: Cyber-Renaissance
 DTSTART:20260920T160000Z
-DTSTAMP:20260906T191842Z
+DTSTAMP:20260909T085810Z
 UID:de1734466a5ee9163041163a@systemsmap.antlerboy.com
-SEQUENCE:1
+SEQUENCE:2
 CATEGORIES:Cybernetics
 DESCRIPTION:American Society for Cybernetics (ASC)\n\nLanguage: Not specif
  ied\nLanguage requirements: Not specified\nInterpretation: Not specified\n
  Access: See organiser\nhttps://asc-cybernetics.org/initiatives/speaker-ser
- ies-wg/speaker-series-season-71/\nSource could not be fully rechecked.\nTh
- is event could not be rechecked on the latest collection. Confirm with the
-  organiser.
-LAST-MODIFIED:20260906T191842Z
+ ies-wg/speaker-series-season-71/
+LAST-MODIFIED:20260909T085810Z
 LOCATION:Online
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -469,19 +441,42 @@ URL:https://asc-cybernetics.org/initiatives/speaker-series-wg/speaker-seri
  es-season-71/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:SysPrac26 – The Systems Thinking Practitioners Conference
+DTSTART:20260921T060000Z
+DTEND:20260922T150000Z
+DTSTAMP:20260910T223446Z
+UID:a018a46a8352008249863516@systemsmap.antlerboy.com
+SEQUENCE:0
+CATEGORIES:Complexity,Cybernetics,Systems thinking
+DESCRIPTION:International Federation for Systems Research (IFSR)\nSysPrac2
+ 6 – The Systems Thinking Practitioner Conference will take place on 21st
+  & 22nd September 2026 in Cranfield As the challenges facing organisations
+ \, communities and society become increasingly interconnected and complex
+ \, the need for practical systems thinking has never been greater. SysPrac
+ 26 takes place on 21–22 September 2026 at Cranfield University – two d
+ ays of systems thinking in prac\nLanguage: Not specified\nLanguage require
+ ments: Not specified\nInterpretation: Not specified\nAccess: See organiser
+ \nhttps://ifsr.org/event/sysprac26-the-systems-thinking-practitioners-conf
+ erence/
+LAST-MODIFIED:20260910T223446Z
+LOCATION:Location not published
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://ifsr.org/event/sysprac26-the-systems-thinking-practitioners-co
+ nference/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:SysPrac26 Conference
 DTSTART:20260921T080000Z
 DTEND:20260922T173000Z
-DTSTAMP:20260908T085549Z
+DTSTAMP:20260913T093647Z
 UID:f45e5c18b59670f5f5729b13@systemsmap.antlerboy.com
-SEQUENCE:2
+SEQUENCE:4
 CATEGORIES:Systems thinking,Cybernetics
 DESCRIPTION:SCiO\n\nLanguage: English\nLanguage requirements: Not specifie
  d\nInterpretation: Not specified\nAccess: All welcome\nhttps://www.systems
- practice.org/events/sysprac26-conference\nSource could not be fully rechec
- ked.\nThis event could not be rechecked on the latest collection. Confirm 
- with the organiser.
-LAST-MODIFIED:20260908T085549Z
+ practice.org/events/sysprac26-conference
+LAST-MODIFIED:20260913T093647Z
 LOCATION:Cranfield\, United Kingdom
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -491,10 +486,10 @@ BEGIN:VEVENT
 SUMMARY:Fire and Ice: The Conception\, Birth and Infancy of Cybernetics.
 DTSTART:20260924T120000Z
 DTEND:20260924T140000Z
-DTSTAMP:20260909T085057Z
+DTSTAMP:20260918T090403Z
 UID:79561815b13dfb8aa2a33fdb@systemsmap.antlerboy.com
-SEQUENCE:10
-CATEGORIES:Systems thinking,Cybernetics
+SEQUENCE:21
+CATEGORIES:Cybernetics,Systems thinking
 DESCRIPTION:Digital Futures\, University of Manchester\nThe opening semina
  r in the nine-part ‘Meat the Machine’ series on the history of cyberne
  tics and its implications for society and technology.\nLanguage: Not speci
@@ -502,7 +497,7 @@ DESCRIPTION:Digital Futures\, University of Manchester\nThe opening semina
  \nAccess: General public welcome\; registration required\nhttps://events.m
  anchester.ac.uk/event/event:r2y-ms8q8jbe-n4ev9n/fire-and-ice-the-conceptio
  n-birth-and-infancy-of-cybernetics
-LAST-MODIFIED:20260909T085057Z
+LAST-MODIFIED:20260918T090403Z
 LOCATION:University of Manchester\, Manchester\, United Kingdom
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -513,10 +508,10 @@ BEGIN:VEVENT
 SUMMARY:Designing AI’s Boundaries: Respecting Human Agency
 DTSTART;VALUE=DATE:20260926
 DTEND;VALUE=DATE:20260930
-DTSTAMP:20260909T085057Z
+DTSTAMP:20260918T090403Z
 UID:53fe868f7f0be1ba79b3dafe@systemsmap.antlerboy.com
-SEQUENCE:1
-CATEGORIES:Cybernetics,Complexity,Systemic design
+SEQUENCE:12
+CATEGORIES:Complexity,Cybernetics,Systemic design
 DESCRIPTION:World Design Cities Conference / SUES and Tongji University\nD
  ialogue event chaired by Michael Lissack\, with remote participation descr
  ibed by the organiser. Headline dates span 26–29 September\; consult the
@@ -524,7 +519,7 @@ DESCRIPTION:World Design Cities Conference / SUES and Tongji University\nD
  guage requirements: Not specified\nInterpretation: Not specified\nAccess: 
  See organiser\nhttps://alwaysquestion.ai/\nDate-only listing\; check the o
  rganiser for session times.
-LAST-MODIFIED:20260909T085057Z
+LAST-MODIFIED:20260918T090403Z
 LOCATION:Shanghai\, China
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -534,17 +529,16 @@ BEGIN:VEVENT
 SUMMARY:Internalisierte Verbindlichkeiten - gegenwärtig aber unsichtbar
 DTSTART:20261001T170000Z
 DTEND:20261001T183000Z
-DTSTAMP:20260908T085549Z
+DTSTAMP:20260913T093647Z
 UID:45a924295856edfda96ed2f7@systemsmap.antlerboy.com
-SEQUENCE:2
+SEQUENCE:4
 CATEGORIES:Systems thinking,Cybernetics
 DESCRIPTION:SCiO DACH\n\nGeographic focus: Germany\, Austria\, Switzerland
  \, DACH\nLanguage: German\nLanguage requirements: Not specified\nInterpret
  ation: Not specified\nAccess: Members only + Guests\nhttps://www.systemspr
  actice.org/events/internalisierte-verbindlichkeiten-gegenwartig-aber-unsic
- htbar\nSource could not be fully rechecked.\nThis event could not be reche
- cked on the latest collection. Confirm with the organiser.
-LAST-MODIFIED:20260908T085549Z
+ htbar
+LAST-MODIFIED:20260913T093647Z
 LOCATION:Online event
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -555,16 +549,14 @@ BEGIN:VEVENT
 SUMMARY:SCiO UK Virtual Development Event - October 2026
 DTSTART:20261006T120000Z
 DTEND:20261006T140000Z
-DTSTAMP:20260908T085549Z
+DTSTAMP:20260913T093647Z
 UID:0c7c4ba62ecca20d592ff572@systemsmap.antlerboy.com
-SEQUENCE:2
+SEQUENCE:4
 CATEGORIES:Systems thinking,Cybernetics
 DESCRIPTION:SCiO UK\n\nLanguage: English\nLanguage requirements: Not speci
  fied\nInterpretation: Not specified\nAccess: Members only\nhttps://www.sys
- temspractice.org/events/scio-uk-virtual-development-event-october-2026\nSo
- urce could not be fully rechecked.\nThis event could not be rechecked on t
- he latest collection. Confirm with the organiser.
-LAST-MODIFIED:20260908T085549Z
+ temspractice.org/events/scio-uk-virtual-development-event-october-2026
+LAST-MODIFIED:20260913T093647Z
 LOCATION:Online event
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -615,17 +607,15 @@ BEGIN:VEVENT
 SUMMARY:Deep Dive Intervisie: Critical Systems Heuristics
 DTSTART:20261013T170000Z
 DTEND:20261013T190000Z
-DTSTAMP:20260908T085549Z
+DTSTAMP:20260913T093647Z
 UID:4722c0fc20f597ddb501599a@systemsmap.antlerboy.com
-SEQUENCE:2
+SEQUENCE:4
 CATEGORIES:Systems thinking,Cybernetics
 DESCRIPTION:SCiO Belgium\n\nGeographic focus: Belgium\nLanguage: Dutch\nLa
  nguage requirements: Not specified\nInterpretation: Not specified\nAccess:
   Members only + Guests\nhttps://www.systemspractice.org/events/deep-dive-i
- ntervisie-critical-systems-heuristics\nSource could not be fully rechecked
- .\nThis event could not be rechecked on the latest collection. Confirm wit
- h the organiser.
-LAST-MODIFIED:20260908T085549Z
+ ntervisie-critical-systems-heuristics
+LAST-MODIFIED:20260913T093647Z
 LOCATION:tbc\, Belgium
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -636,18 +626,16 @@ BEGIN:VEVENT
 SUMMARY:SCIO-NL monthly meeting October 2025 (live WOERDEN and in Dutch)
 DTSTART:20261016T103000Z
 DTEND:20261016T143000Z
-DTSTAMP:20260908T085549Z
+DTSTAMP:20260913T093647Z
 UID:34128a0ea3a060101fd313fa@systemsmap.antlerboy.com
-SEQUENCE:2
+SEQUENCE:4
 CATEGORIES:Systems thinking,Cybernetics
 DESCRIPTION:SCiO NL\n\nGeographic focus: Netherlands\nLanguage: Dutch\nLan
  guage requirements: Not specified\nInterpretation: Not specified\nAccess: 
  NL Members + Guests\nhttps://www.systemspractice.org/events/scio-nl-monthl
  y-meeting-october-2025-live-woerden-and-dutch\nTitle year differs from the
-  published date. Check with the organiser.\nSource could not be fully rech
- ecked.\nThis event could not be rechecked on the latest collection. Confir
- m with the organiser.
-LAST-MODIFIED:20260908T085549Z
+  published date. Check with the organiser.
+LAST-MODIFIED:20260913T093647Z
 LOCATION:Woerden\, Netherlands
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -695,19 +683,17 @@ BEGIN:VEVENT
 SUMMARY:VSM Coach Training 26. bis 28. Oktober 2026 • Stuttgart
 DTSTART:20261026T090000Z
 DTEND:20261028T160000Z
-DTSTAMP:20260906T191842Z
+DTSTAMP:20260909T085810Z
 UID:434d1742f601499996707a4d@systemsmap.antlerboy.com
-SEQUENCE:1
+SEQUENCE:2
 CATEGORIES:Systems thinking,Cybernetics
 DESCRIPTION:Metaphorum\nVSM Coach Training mit Dr. Martin Pfiffner\, Certi
  fied VSM Trainier Entscheidungsfähige Organisationsstrukturen diagnostizi
  eren und gestalten lernen. 📄 Informationen und Anmeldung hier: emergize
  _VSM-Coach-Training_2026\nLanguage: Not specified\nLanguage requirements: 
  Not specified\nInterpretation: Not specified\nAccess: See organiser\nhttps
- ://metaphorum.org/event/vsm-coach-training-26-bis-28-oktober-2026\nSource 
- could not be fully rechecked.\nThis event could not be rechecked on the la
- test collection. Confirm with the organiser.
-LAST-MODIFIED:20260906T191842Z
+ ://metaphorum.org/event/vsm-coach-training-26-bis-28-oktober-2026
+LAST-MODIFIED:20260909T085810Z
 LOCATION:Stuttgart\, Germany
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -717,17 +703,15 @@ BEGIN:VEVENT
 SUMMARY:Deep Dive Intervisie: Critical Systems Heuristics
 DTSTART:20261110T180000Z
 DTEND:20261110T200000Z
-DTSTAMP:20260908T085549Z
+DTSTAMP:20260913T093647Z
 UID:32f1ffca50f269104da5d02b@systemsmap.antlerboy.com
-SEQUENCE:2
+SEQUENCE:4
 CATEGORIES:Systems thinking,Cybernetics
 DESCRIPTION:SCiO Belgium\n\nGeographic focus: Belgium\nLanguage: Dutch\nLa
  nguage requirements: Not specified\nInterpretation: Not specified\nAccess:
   Members only + Guests\nhttps://www.systemspractice.org/events/deep-dive-i
- ntervisie-critical-systems-heuristics-2\nSource could not be fully recheck
- ed.\nThis event could not be rechecked on the latest collection. Confirm w
- ith the organiser.
-LAST-MODIFIED:20260908T085549Z
+ ntervisie-critical-systems-heuristics-2
+LAST-MODIFIED:20260913T093647Z
 LOCATION:tbc\, Belgium
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -735,21 +719,42 @@ URL:https://www.systemspractice.org/events/deep-dive-intervisie-critical-s
  ystems-heuristics-2
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:25th International Symposium on Knowledge and Systems Sciences (KS
+ S2026)
+DTSTART:20261113T070000Z
+DTEND:20261115T160000Z
+DTSTAMP:20260910T223446Z
+UID:16b9aa66622c39bc177766a3@systemsmap.antlerboy.com
+SEQUENCE:0
+CATEGORIES:Systems thinking,Cybernetics
+DESCRIPTION:SESC\n<p>The 25th International Symposium on Knowledge and Sys
+ tems Sciences (KSS2026) will take place from 13–15 November 2026 at Auck
+ land University of Technology\, Auckland\, New Zealand. This year\\'s symp
+ osium will explore […]</p>\\n\nLanguage: Not specified\nLanguage require
+ ments: Not specified\nInterpretation: Not specified\nAccess: See organiser
+ \nhttps://ifsr.org/event/25th-international-symposium-on-knowledge-and-sys
+ tems-sciences-kss2026/
+LAST-MODIFIED:20260910T223446Z
+LOCATION:Location not published
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://ifsr.org/event/25th-international-symposium-on-knowledge-and-s
+ ystems-sciences-kss2026/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:SCIO-NL monthly meeting November 2025 (live WOERDEN and in Dutch)
 DTSTART:20261113T113000Z
 DTEND:20261113T153000Z
-DTSTAMP:20260908T085549Z
+DTSTAMP:20260913T093647Z
 UID:570ac10828f23cadb271793e@systemsmap.antlerboy.com
-SEQUENCE:2
+SEQUENCE:4
 CATEGORIES:Systems thinking,Cybernetics
 DESCRIPTION:SCiO NL\n\nGeographic focus: Netherlands\nLanguage: Dutch\nLan
  guage requirements: Not specified\nInterpretation: Not specified\nAccess: 
  NL Members + Guests\nhttps://www.systemspractice.org/events/scio-nl-monthl
  y-meeting-november-2025-live-woerden-and-dutch-0\nTitle year differs from 
- the published date. Check with the organiser.\nSource could not be fully r
- echecked.\nThis event could not be rechecked on the latest collection. Con
- firm with the organiser.
-LAST-MODIFIED:20260908T085549Z
+ the published date. Check with the organiser.
+LAST-MODIFIED:20260913T093647Z
 LOCATION:Woerden\, Netherlands
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -760,16 +765,14 @@ BEGIN:VEVENT
 SUMMARY:SCiO UK Virtual Open Meeting - November 2026
 DTSTART:20261116T183000Z
 DTEND:20261116T210000Z
-DTSTAMP:20260908T085549Z
+DTSTAMP:20260913T093647Z
 UID:76da874472c5593ae9184169@systemsmap.antlerboy.com
-SEQUENCE:2
+SEQUENCE:4
 CATEGORIES:Systems thinking,Cybernetics
 DESCRIPTION:SCiO UK\n\nLanguage: English\nLanguage requirements: Not speci
  fied\nInterpretation: Not specified\nAccess: All welcome\nhttps://www.syst
- emspractice.org/events/scio-uk-virtual-open-meeting-november-2026\nSource 
- could not be fully rechecked.\nThis event could not be rechecked on the la
- test collection. Confirm with the organiser.
-LAST-MODIFIED:20260908T085549Z
+ emspractice.org/events/scio-uk-virtual-open-meeting-november-2026
+LAST-MODIFIED:20260913T093647Z
 LOCATION:Online event
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -797,17 +800,15 @@ BEGIN:VEVENT
 SUMMARY:Deep Dive Intervisie: Critical Systems Heuristics
 DTSTART:20261208T180000Z
 DTEND:20261208T200000Z
-DTSTAMP:20260908T085549Z
+DTSTAMP:20260913T093647Z
 UID:a48deb0769c42fcaa1cbdc3b@systemsmap.antlerboy.com
-SEQUENCE:2
+SEQUENCE:4
 CATEGORIES:Systems thinking,Cybernetics
 DESCRIPTION:SCiO Belgium\n\nGeographic focus: Belgium\nLanguage: Dutch\nLa
  nguage requirements: Not specified\nInterpretation: Not specified\nAccess:
   Members only + Guests\nhttps://www.systemspractice.org/events/deep-dive-i
- ntervisie-critical-systems-heuristics-0\nSource could not be fully recheck
- ed.\nThis event could not be rechecked on the latest collection. Confirm w
- ith the organiser.
-LAST-MODIFIED:20260908T085549Z
+ ntervisie-critical-systems-heuristics-0
+LAST-MODIFIED:20260913T093647Z
 LOCATION:tbc\, Belgium
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -818,18 +819,16 @@ BEGIN:VEVENT
 SUMMARY:SCIO-NL monthly meeting December 2025 (live WOERDEN and in Dutch)
 DTSTART:20261211T113000Z
 DTEND:20261211T153000Z
-DTSTAMP:20260908T085549Z
+DTSTAMP:20260913T093647Z
 UID:64ff49efa8bf5c6e00b488d4@systemsmap.antlerboy.com
-SEQUENCE:2
+SEQUENCE:4
 CATEGORIES:Systems thinking,Cybernetics
 DESCRIPTION:SCiO NL\n\nGeographic focus: Netherlands\nLanguage: Dutch\nLan
  guage requirements: Not specified\nInterpretation: Not specified\nAccess: 
  NL Members + Guests\nhttps://www.systemspractice.org/events/scio-nl-monthl
  y-meeting-december-2025-live-woerden-and-dutch\nTitle year differs from th
- e published date. Check with the organiser.\nSource could not be fully rec
- hecked.\nThis event could not be rechecked on the latest collection. Confi
- rm with the organiser.
-LAST-MODIFIED:20260908T085549Z
+ e published date. Check with the organiser.
+LAST-MODIFIED:20260913T093647Z
 LOCATION:Woerden\, Netherlands
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -857,17 +856,15 @@ BEGIN:VEVENT
 SUMMARY:Kybernetik-Stammtisch - Jahresabschluss - offene Beiträge
 DTSTART:20261217T180000Z
 DTEND:20261217T193000Z
-DTSTAMP:20260908T085549Z
+DTSTAMP:20260913T093647Z
 UID:1a0badea163b9e590bf3ffa3@systemsmap.antlerboy.com
-SEQUENCE:2
+SEQUENCE:4
 CATEGORIES:Systems thinking,Cybernetics
 DESCRIPTION:SCiO DACH\n\nGeographic focus: Germany\, Austria\, Switzerland
  \, DACH\nLanguage: German\nLanguage requirements: Not specified\nInterpret
  ation: Not specified\nAccess: Members only + Guests\nhttps://www.systemspr
  actice.org/events/kybernetik-stammtisch-jahresabschluss-offene-beitrage-1
- \nSource could not be fully rechecked.\nThis event could not be rechecked 
- on the latest collection. Confirm with the organiser.
-LAST-MODIFIED:20260908T085549Z
+LAST-MODIFIED:20260913T093647Z
 LOCATION:Online event
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -878,17 +875,15 @@ BEGIN:VEVENT
 SUMMARY:Deep Dive Intervisie: Critical Systems Heuristics
 DTSTART:20270112T180000Z
 DTEND:20270112T200000Z
-DTSTAMP:20260908T085549Z
+DTSTAMP:20260913T093647Z
 UID:6d4ee2410e6cd5ea0561b8c7@systemsmap.antlerboy.com
-SEQUENCE:2
+SEQUENCE:4
 CATEGORIES:Systems thinking,Cybernetics
 DESCRIPTION:SCiO Belgium\n\nGeographic focus: Belgium\nLanguage: Dutch\nLa
  nguage requirements: Not specified\nInterpretation: Not specified\nAccess:
   Members only + Guests\nhttps://www.systemspractice.org/events/deep-dive-i
- ntervisie-critical-systems-heuristics-1\nSource could not be fully recheck
- ed.\nThis event could not be rechecked on the latest collection. Confirm w
- ith the organiser.
-LAST-MODIFIED:20260908T085549Z
+ ntervisie-critical-systems-heuristics-1
+LAST-MODIFIED:20260913T093647Z
 LOCATION:tbc\, Belgium
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -916,17 +911,15 @@ BEGIN:VEVENT
 SUMMARY:Deep Dive Intervisie: Critical Systems Heuristics
 DTSTART:20270209T180000Z
 DTEND:20270209T200000Z
-DTSTAMP:20260908T085549Z
+DTSTAMP:20260913T093647Z
 UID:b4274dd5f114f839848e70ee@systemsmap.antlerboy.com
-SEQUENCE:2
+SEQUENCE:4
 CATEGORIES:Systems thinking,Cybernetics
 DESCRIPTION:SCiO Belgium\n\nGeographic focus: Belgium\nLanguage: Dutch\nLa
  nguage requirements: Not specified\nInterpretation: Not specified\nAccess:
   Members only + Guests\nhttps://www.systemspractice.org/events/deep-dive-i
- ntervisie-critical-systems-heuristics-3\nSource could not be fully recheck
- ed.\nThis event could not be rechecked on the latest collection. Confirm w
- ith the organiser.
-LAST-MODIFIED:20260908T085549Z
+ ntervisie-critical-systems-heuristics-3
+LAST-MODIFIED:20260913T093647Z
 LOCATION:tbc\, Belgium
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -954,17 +947,15 @@ BEGIN:VEVENT
 SUMMARY:Deep Dive Intervisie: Critical Systems Heuristics
 DTSTART:20270309T180000Z
 DTEND:20270309T200000Z
-DTSTAMP:20260908T085549Z
+DTSTAMP:20260913T093647Z
 UID:71bffb597c7ac4b49224cacf@systemsmap.antlerboy.com
-SEQUENCE:2
+SEQUENCE:4
 CATEGORIES:Systems thinking,Cybernetics
 DESCRIPTION:SCiO Belgium\n\nGeographic focus: Belgium\nLanguage: Dutch\nLa
  nguage requirements: Not specified\nInterpretation: Not specified\nAccess:
   Members only + Guests\nhttps://www.systemspractice.org/events/deep-dive-i
- ntervisie-critical-systems-heuristics-4\nSource could not be fully recheck
- ed.\nThis event could not be rechecked on the latest collection. Confirm w
- ith the organiser.
-LAST-MODIFIED:20260908T085549Z
+ ntervisie-critical-systems-heuristics-4
+LAST-MODIFIED:20260913T093647Z
 LOCATION:tbc\, Belgium
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1009,17 +1000,15 @@ BEGIN:VEVENT
 SUMMARY:Deep Dive Intervisie: Critical Systems Heuristics
 DTSTART:20270511T170000Z
 DTEND:20270511T190000Z
-DTSTAMP:20260908T085549Z
+DTSTAMP:20260913T093647Z
 UID:a625dfec133b92f5abdc8e12@systemsmap.antlerboy.com
-SEQUENCE:2
+SEQUENCE:4
 CATEGORIES:Systems thinking,Cybernetics
 DESCRIPTION:SCiO Belgium\n\nGeographic focus: Belgium\nLanguage: Dutch\nLa
  nguage requirements: Not specified\nInterpretation: Not specified\nAccess:
   Members only + Guests\nhttps://www.systemspractice.org/events/deep-dive-i
- ntervisie-critical-systems-heuristics-5\nSource could not be fully recheck
- ed.\nThis event could not be rechecked on the latest collection. Confirm w
- ith the organiser.
-LAST-MODIFIED:20260908T085549Z
+ ntervisie-critical-systems-heuristics-5
+LAST-MODIFIED:20260913T093647Z
 LOCATION:tbc\, Belgium
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1047,17 +1036,17 @@ BEGIN:VEVENT
 SUMMARY:WOSC Congress: Addressing Planetary Challenges
 DTSTART:20270616T070000Z
 DTEND:20270618T140000Z
-DTSTAMP:20260909T085057Z
+DTSTAMP:20260918T090403Z
 UID:99998e0fda728e162d4a9f6c@systemsmap.antlerboy.com
-SEQUENCE:1
-CATEGORIES:Systems thinking,Cybernetics
+SEQUENCE:12
+CATEGORIES:Cybernetics,Systems thinking
 DESCRIPTION:World Organisation of Systems and Cybernetics (WOSC)\n\nLangua
  ge: Not specified\nLanguage requirements: Not specified\nInterpretation: N
  ot specified\nAccess: See organiser\nhttps://www.wosc.world/event-details/
  wosc-congress-2026-addressing-planetary-challenges\nThe page title and URL
   retain 2026\, but its current Time & Location explicitly gives 16–18 Ju
  ne 2027. Confirm this discrepancy with WOSC before booking.
-LAST-MODIFIED:20260909T085057Z
+LAST-MODIFIED:20260918T090403Z
 LOCATION:Ekonomsko-poslovna fakulteta UM\, Razlagova ulica 20\, Maribor\, 
  Slovenia
 STATUS:CONFIRMED
@@ -1213,6 +1202,23 @@ DESCRIPTION:Metaphorum\n\nLanguage: Not specified\nLanguage requirements:
  Not specified\nInterpretation: Not specified\nAccess: See organiser\nhttps
  ://ics.teamup.com/feed/ksok8ra1xif3viq4no/0.ics
 LAST-MODIFIED:20260909T082311Z
+LOCATION:Location not published
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://ics.teamup.com/feed/ksok8ra1xif3viq4no/0.ics
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VSM-AI Special Integration Group
+DTSTART:20280315T160000Z
+DTEND:20280315T173000Z
+DTSTAMP:20260913T093647Z
+UID:438a4216c185ce31fb02a623@systemsmap.antlerboy.com
+SEQUENCE:0
+CATEGORIES:Cybernetics,Systems thinking
+DESCRIPTION:Metaphorum\n\nLanguage: Not specified\nLanguage requirements: 
+ Not specified\nInterpretation: Not specified\nAccess: See organiser\nhttps
+ ://ics.teamup.com/feed/ksok8ra1xif3viq4no/0.ics
+LAST-MODIFIED:20260913T093647Z
 LOCATION:Location not published
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT

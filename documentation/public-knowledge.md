@@ -1,7 +1,7 @@
 # The Necessary Tangle: public knowledge file
 
 Curated by Benjamin P Taylor — https://www.antlerboy.com/
-Generated from public release 0.23-systems-methods-practice-alpha on 2026-09-09.
+Generated from public release 0.24-source-intake-alpha on 2026-09-18.
 
 A living evidence atlas of systems | cybernetics | complexity.
 Every connection must say what it means. Historical sequence, logical dependence, influence, teaching, collaboration, practical use, comparison and dispute are not interchangeable.
@@ -651,6 +651,66 @@ His co-authorship is part of the book's intellectual and practical provenance an
 
 - Organizational Systems: Managing Complexity with the Viable System Model — https://link.springer.com/book/10.1007/978-3-642-19109-1
 
+## Allenna Leonard
+
+Type: Person
+Public depth: profile
+
+Allenna Leonard is a practitioner of organisational cybernetics. Her 2014 conference biography describes using the Viable System Model and Team Syntegrity and working with Stafford Beer. The American Society for Cybernetics records her presidency in 2002–2004.
+
+### Summary
+
+Allenna Leonard is a practitioner of organisational cybernetics. Her 2014 conference biography describes using the Viable System Model and Team Syntegrity and working with Stafford Beer. The American Society for Cybernetics records her presidency in 2002–2004.
+
+### Why it matters
+
+Her account provides a route from organisational cybernetics to reported consulting and facilitation practice.
+
+### Key distinctions
+
+- Using a method, collaborating with its originator, and originating the method are different claims.
+
+### Historical development
+
+[]
+
+### Ideas it depends on
+
+[]
+
+### What develops from it
+
+[]
+
+### Connections to practice
+
+[]
+
+### Common confusions
+
+[]
+
+### Open questions and checks
+
+- The biography is a practitioner account, not an independent evaluation of effectiveness.
+- Detailed case studies, further institutional roles, and the wider submission still require source-level review.
+
+### Sources
+
+- Allenna Leonard: 2014 ASC conference biography — https://asc-cybernetics.org/2014/?page_id=934
+- ASC Executive Board and past presidents — https://asc-cybernetics.org/executive-board/
+
+## American Society for Cybernetics
+
+Type: Organisation
+Public depth: described
+
+The American Society for Cybernetics is a professional society whose institutional website records its governance and past presidents.
+
+### Sources
+
+- ASC Executive Board and past presidents — https://asc-cybernetics.org/executive-board/
+
 ## An Introduction to the Theory of Control
 
 Type: Publication
@@ -739,6 +799,17 @@ Human beings can act on descriptions, change identity, contest purposes and alte
 
 - Anthro-complexity — Cynefin.io — https://cynefin.io/wiki/Anthro-complexity
 - Dave Snowden — The Cynefin Company profile — https://thecynefin.co/team/dave-snowden/
+
+## Anticipatory Systems (second edition, 2012)
+
+Type: Publication
+Public depth: described
+
+Robert Rosen's book, with contributions by Judith Rosen and others in the second edition.
+
+### Sources
+
+- Anticipatory Systems, second edition — https://link.springer.com/book/10.1007/978-1-4614-1269-4
 
 ## Appreciative Inquiry
 
@@ -2237,7 +2308,7 @@ A context diagram shows a system of interest and selected exchanges with its env
 Type: Corpus
 Public depth: described
 
-Journal named in the submitted recommendation. Article-level review remains open.
+An open-access journal published by the Systemic Design Association, included in the submitted reading recommendation. Article-level review remains open.
 
 ### Sources
 
@@ -3323,6 +3394,53 @@ The atlas needs lineages that are documented rather than merely asserted. Ing’
 
 - David Ing — Coevolving Innovations publications — https://coevolving.com/commons/publications
 - David Ing — ISSS presidential address — https://www.isss.org/presidential-addresses/
+
+## David L. Hawk
+
+Type: Person
+Public depth: profile
+
+David L. Hawk wrote the 2020 proceedings paper Socio-technical-natural systems thinking. Its abstract revisits socio-technical concerns through industrial activity's environmental context and identifies Trist's work as a point of departure.
+
+### Summary
+
+David L. Hawk wrote the 2020 proceedings paper Socio-technical-natural systems thinking. Its abstract revisits socio-technical concerns through industrial activity's environmental context and identifies Trist's work as a point of departure.
+
+### Why it matters
+
+The abstract offers a question for further reading: how should socio-technical inquiry account for its environmental setting?
+
+### Key distinctions
+
+- A paper's discussion of Ackoff and Trist is not evidence that its author studied under either person.
+
+### Historical development
+
+[]
+
+### Ideas it depends on
+
+[]
+
+### What develops from it
+
+[]
+
+### Connections to practice
+
+[]
+
+### Common confusions
+
+[]
+
+### Open questions and checks
+
+- The institutional record provides an abstract and citation; the full paper was not reviewed. Claims about Hawk's training and wider contribution remain open.
+
+### Sources
+
+- Socio-technical-natural systems thinking (STN) — https://digitalcommons.njit.edu/fac_pubs/5582/
 
 ## Decision structure design
 
@@ -5514,6 +5632,17 @@ In Jurgen Appelo's unFIX synthesis, hierarchy names nested levels of authority, 
 
 - 32 Key Concepts in Systems Thinking and Complexity Theory — https://unfix.com/blog/32-key-concepts
 
+## Hierarchy Theory: A Vision, Vocabulary, and Epistemology
+
+Type: Publication
+Public depth: described
+
+The 1996 book credited to Valerie Ahl and T. F. H. Allen by Columbia University Press.
+
+### Sources
+
+- Hierarchy Theory: A Vision, Vocabulary, and Epistemology — https://cup.columbia.edu/book/hierarchy-theory/9780231084802/
+
 ## Hiroshi Deguchi
 
 Type: Person
@@ -5751,7 +5880,7 @@ A bibliographic first-pass person entry for I. Prigogine, listed by the official
 Type: Person
 Public depth: described
 
-Credited author of Tools, Exercises, and Strategies for Coping With Complexity.
+Credited author of Tools, Exercises, and Strategies for Coping With Complexity. This entry records a publication credit; wider biographical research remains open.
 
 ### Sources
 
@@ -6623,6 +6752,53 @@ Physicist whose 1868 analysis of centrifugal governors is a historical precursor
 - SCiO SysBoK - Feedback v1 — No public link
 - On Governors — https://doi.org/10.1098/rspl.1867.0055
 
+## James J. Kay
+
+Type: Person
+Public depth: profile
+
+James J. Kay worked in environment and resource studies at the University of Waterloo. The Ecosystem Approach credits him with chapters on systems thinking, system description, and management, and a joint chapter with Michelle Boyle on self-organising, holarchic, open systems.
+
+### Summary
+
+James J. Kay worked in environment and resource studies at the University of Waterloo. The Ecosystem Approach credits him with chapters on systems thinking, system description, and management, and a joint chapter with Michelle Boyle on self-organising, holarchic, open systems.
+
+### Why it matters
+
+The publisher's contents provide a reading route into his contributions to ecosystem inquiry.
+
+### Key distinctions
+
+- A chapter credit supports attribution; the chapter's title alone cannot establish a complete method.
+
+### Historical development
+
+[]
+
+### Ideas it depends on
+
+[]
+
+### What develops from it
+
+[]
+
+### Connections to practice
+
+[]
+
+### Common confusions
+
+[]
+
+### Open questions and checks
+
+- The full chapters and the submission's wider thermodynamic and intellectual-lineage claims remain to be examined.
+
+### Sources
+
+- The Ecosystem Approach: Complexity, Uncertainty, and Managing for Sustainability — https://cup.columbia.edu/book/the-ecosystem-approach/9780231507202/
+
 ## James Lovelock
 
 Type: Person
@@ -6701,6 +6877,53 @@ A Chilean biologist who co-authored the natural-drift account of evolutionary di
 ### Sources
 
 - The origin of species by means of natural drift — https://revistaschilenas.uchile.cl/handle/2250/62395
+
+## Judith Rosen
+
+Type: Person
+Public depth: profile
+
+Judith Rosen contributed an introduction and a short story about Robert Rosen to the second edition of his Anticipatory Systems (2012). Springer identifies Robert Rosen as the book's author.
+
+### Summary
+
+Judith Rosen contributed an introduction and a short story about Robert Rosen to the second edition of his Anticipatory Systems (2012). Springer identifies Robert Rosen as the book's author.
+
+### Why it matters
+
+The edition offers a specific reading route into her contribution to presenting Robert Rosen's work.
+
+### Key distinctions
+
+- A contribution to an edition is distinct from authorship of the whole book or a formally credited editorial role.
+
+### Historical development
+
+[]
+
+### Ideas it depends on
+
+[]
+
+### What develops from it
+
+[]
+
+### Connections to practice
+
+[]
+
+### Common confusions
+
+[]
+
+### Open questions and checks
+
+- This entry establishes the publisher's contribution credits. It does not yet assess Judith Rosen's wider scholarship or infer authorship of Robert Rosen's theory.
+
+### Sources
+
+- Anticipatory Systems, second edition — https://link.springer.com/book/10.1007/978-1-4614-1269-4
 
 ## Julian Bigelow
 
@@ -8148,6 +8371,53 @@ Education scholar whose 'system thinkers in action' formulation is recalled by D
 
 - Interview with Damian Allen on systems practice in Doncaster — No public link
 - Leadership & Sustainability: System Thinkers in Action — https://michaelfullan.ca/books/leadership-sustainability/
+
+## Michael Lissack
+
+Type: Person
+Public depth: profile
+
+Michael Lissack served as president of the American Society for Cybernetics from 2014 to 2020, according to the society's record of past presidents.
+
+### Summary
+
+Michael Lissack served as president of the American Society for Cybernetics from 2014 to 2020, according to the society's record of past presidents.
+
+### Why it matters
+
+This institutional record establishes a documented role in the cybernetics community and a starting point for further research.
+
+### Key distinctions
+
+- Institutional leadership is distinct from the content or validity of a scholarly contribution.
+
+### Historical development
+
+[]
+
+### Ideas it depends on
+
+[]
+
+### What develops from it
+
+[]
+
+### Connections to practice
+
+[]
+
+### Common confusions
+
+[]
+
+### Open questions and checks
+
+- The submitted account of Lissack's research needs close reading of named publications. This profile does not substitute an office-holding record for that work.
+
+### Sources
+
+- ASC Executive Board and past presidents — https://asc-cybernetics.org/executive-board/
 
 ## Miguel Pantaleon
 
@@ -9712,6 +9982,54 @@ His work makes a basic systems distinction operational: systems can be used as d
 
 - Systems Thinking, Systems Practice: includes a 30-year retrospective — https://research.lancaster-university.uk/en/publications/systems-thinking-systems-practice-includes-a-30-year-retrospectiv/
 - Systems Thinking, Systems Practice — Wiley publisher page — https://www.wiley-vch.de/en/areas-interest/finance-economics-law/systems-thinking-systems-practice-978-0-471-98606-5
+
+## Peter H. Jones
+
+Type: Person
+Public depth: profile
+
+Peter Jones works in systemic design, healthcare design, and dialogic inquiry. OCAD University's sLab profile names him as a co-founder of the Systemic Design Association. Tecnológico de Monterrey announced his arrival in its Faculty of Excellence in March 2024.
+
+### Summary
+
+Peter Jones works in systemic design, healthcare design, and dialogic inquiry. OCAD University's sLab profile names him as a co-founder of the Systemic Design Association. Tecnológico de Monterrey announced his arrival in its Faculty of Excellence in March 2024.
+
+### Why it matters
+
+His institutional profiles connect systemic design with the design of information services and collective inquiry.
+
+### Key distinctions
+
+- A dated appointment announcement and an undated institutional biography need separate treatment; neither proves an unchanged current role.
+
+### Historical development
+
+[]
+
+### Ideas it depends on
+
+[]
+
+### What develops from it
+
+[]
+
+### Connections to practice
+
+[]
+
+### Common confusions
+
+[]
+
+### Open questions and checks
+
+- Research interests and institutional roles are documented here. Detailed claims about methods, influence, or effectiveness require the relevant publications.
+
+### Sources
+
+- Peter Jones: sLab institutional profile — https://slab.ocadu.ca/people/peter-jones
+- Peter Jones: the futurist systems expert joining the Tec — https://conecta.tec.mx/en/news/national/education/peter-jones-futurist-systems-expert-joining-tec
 
 ## Phase transition
 
@@ -11714,7 +12032,7 @@ A bibliographic first-pass person entry for R. S. Shaw, listed by the official F
 Type: Person
 Public depth: described
 
-Credited author of Tools, Exercises, and Strategies for Coping With Complexity.
+Credited author of Tools, Exercises, and Strategies for Coping With Complexity. This entry records a publication credit; wider biographical research remains open.
 
 ### Sources
 
@@ -13093,7 +13411,7 @@ It connects systems inquiry to the design and operation of services without assu
 Type: Corpus
 Public depth: described
 
-Journal named in the submitted recommendation. Article-level review remains open.
+The journal named in the submitted reading recommendation, retained as a route to its articles. Article-level review remains open.
 
 ### Sources
 
@@ -13180,6 +13498,17 @@ Socio-technical systems thinking studies the joint design and interaction of soc
 ### Sources
 
 - SCiO CF Resources v9 draft — No public link
+
+## Socio-technical-natural systems thinking (2020)
+
+Type: Publication
+Public depth: described
+
+David L. Hawk's 2020 proceedings paper, located through NJIT's bibliographic record and abstract.
+
+### Sources
+
+- Socio-technical-natural systems thinking (STN) — https://digitalcommons.njit.edu/fac_pubs/5582/
 
 ## Soft Systems Methodology (SSM)
 
@@ -13642,6 +13971,17 @@ The System Survival Theorem says that a system cannot remain viable indefinitely
 - The Grammar of Systems - SCiO presentation — https://www.systemspractice.org/resources/grammar-systems
 - The Grammar of Systems II: From Order to Chaos and Back Again, 2nd edition — https://www.systemspractice.org/resources/grammar-systems-ii-order-chaos-back-again-2nd-ed
 - Cybersecurity Lessons from The Grammar of Systems, part 1 — https://www.linkedin.com/pulse/cybersecurity-lessons-from-grammar-systems-order-chaos-osama-salah/
+
+## Systemic Design Association
+
+Type: Organisation
+Public depth: described
+
+The Systemic Design Association is the organisation identified in Peter Jones's OCAD institutional profile, where his co-founder role is recorded.
+
+### Sources
+
+- Peter Jones: sLab institutional profile — https://slab.ocadu.ca/people/peter-jones
 
 ## Systemic governance
 
@@ -14981,6 +15321,17 @@ K. J. Arrow, ‘The Economic Implications of Learning by Doing’ (1962); item 1
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
 
+## The Ecosystem Approach (2008)
+
+Type: Publication
+Public depth: described
+
+A multi-author volume whose contents record contributions by James Kay, Tim Allen, and others.
+
+### Sources
+
+- The Ecosystem Approach: Complexity, Uncertainty, and Managing for Sustainability — https://cup.columbia.edu/book/the-ecosystem-approach/9780231507202/
+
 ## The Effect of Solar Radiation Variations on the Climate of the Earth
 
 Type: Publication
@@ -15833,6 +16184,54 @@ Bill Sharpe's book presenting the Three Horizons pattern for transformative futu
 
 - Three Horizons: The Patterning of Hope — https://www.internationalfuturesforum.com/p/three-horizons-the-patterning-of-hope
 - Interview with Damian Allen on systems practice in Doncaster — No public link
+
+## Timothy F. H. Allen
+
+Type: Person
+Public depth: profile
+
+T. F. H. Allen co-authored Hierarchy Theory: A Vision, Vocabulary, and Epistemology with Valerie Ahl (1996). The contents of The Ecosystem Approach also credit Tim Allen with a chapter on scale and type.
+
+### Summary
+
+T. F. H. Allen co-authored Hierarchy Theory: A Vision, Vocabulary, and Epistemology with Valerie Ahl (1996). The contents of The Ecosystem Approach also credit Tim Allen with a chapter on scale and type.
+
+### Why it matters
+
+These publication records give readers two concrete routes into Allen's work on hierarchy and ecological complexity.
+
+### Key distinctions
+
+- Publication metadata locates work; it does not by itself establish the meaning or practical validity of the argument.
+
+### Historical development
+
+[]
+
+### Ideas it depends on
+
+[]
+
+### What develops from it
+
+[]
+
+### Connections to practice
+
+[]
+
+### Common confusions
+
+[]
+
+### Open questions and checks
+
+- The books' full arguments, any claimed intellectual lineage, and the wider biographical submission remain to be reviewed.
+
+### Sources
+
+- Hierarchy Theory: A Vision, Vocabulary, and Epistemology — https://cup.columbia.edu/book/hierarchy-theory/9780231084802/
+- The Ecosystem Approach: Complexity, Uncertainty, and Managing for Sustainability — https://cup.columbia.edu/book/the-ecosystem-approach/9780231507202/
 
 ## Toby Lowe
 

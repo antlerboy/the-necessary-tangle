@@ -4,7 +4,11 @@ Added 45 typed, source-scoped statements; OCAD reading entrance, FEM application
 
 # Tangle state
 
-Last verified: 6 September 2026 (release validation and anonymous event submission receipt)
+## Source intake, 18 September 2026
+
+Release 0.24 adds seven profiles and twelve scoped statements from eight primary public records. There are now 785 canonical public entries. The wider submissions and independent specialist review remain open. See https://transduction.systems/updates/2026-09-18/ and sources/intake-2026-09-18/entries.json. The approved Systemic Evolution files retain their exact checksums.
+
+
 
 ## Release and publication
 

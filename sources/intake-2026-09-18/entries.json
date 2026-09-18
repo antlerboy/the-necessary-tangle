@@ -1,0 +1,379 @@
+{
+  "checked": "2026-09-18",
+  "release": "0.24-source-intake-alpha",
+  "sources": [
+    {
+      "id": "src_intake26_leonard_asc2014",
+      "title": "Allenna Leonard: 2014 ASC conference biography",
+      "url": "https://asc-cybernetics.org/2014/?page_id=934",
+      "publisher": "American Society for Cybernetics",
+      "locator": "Biographical Info",
+      "scope": "Self-authored conference biography: practical use of VSM and Team Syntegrity, and work with Stafford Beer. Roles described here are dated to 2014.",
+      "published": "2014"
+    },
+    {
+      "id": "src_intake26_asc_board",
+      "title": "ASC Executive Board and past presidents",
+      "url": "https://asc-cybernetics.org/executive-board/",
+      "publisher": "American Society for Cybernetics",
+      "locator": "Past Presidents of the ASC",
+      "scope": "Institutional office-holding: Leonard 2002–2004; Lissack 2014–2020. Holding office does not establish the merits of a theory.",
+      "published": ""
+    },
+    {
+      "id": "src_intake26_anticipatory2012",
+      "title": "Anticipatory Systems, second edition",
+      "url": "https://link.springer.com/book/10.1007/978-1-4614-1269-4",
+      "publisher": "Springer",
+      "locator": "About this book; Authors; Bibliographic information",
+      "scope": "Publisher credits Robert Rosen as author and Judith Rosen with an introduction and a short story. Metadata and description inspected; full book not read in this pass.",
+      "published": "2012"
+    },
+    {
+      "id": "src_intake26_jones_ocad",
+      "title": "Peter Jones: sLab institutional profile",
+      "url": "https://slab.ocadu.ca/people/peter-jones",
+      "publisher": "OCAD University",
+      "locator": "Opening biography; Research Interests",
+      "scope": "Systemic Design Association co-founder; research in systemic design, healthcare, and dialogue. Undated profile is not treated as proof of a current appointment.",
+      "published": ""
+    },
+    {
+      "id": "src_intake26_jones_tec",
+      "title": "Peter Jones: the futurist systems expert joining the Tec",
+      "url": "https://conecta.tec.mx/en/news/national/education/peter-jones-futurist-systems-expert-joining-tec",
+      "publisher": "Tecnológico de Monterrey",
+      "locator": "19 March 2024 announcement; Taking the teaching of systems and services to the next level",
+      "scope": "Dated institutional announcement of joining the Faculty of Excellence. No inference about the present employment status of another institution.",
+      "published": "2024-03-19"
+    },
+    {
+      "id": "src_intake26_hierarchy1996",
+      "title": "Hierarchy Theory: A Vision, Vocabulary, and Epistemology",
+      "url": "https://cup.columbia.edu/book/hierarchy-theory/9780231084802/",
+      "publisher": "Columbia University Press",
+      "locator": "Title, authors, and August 1996 publication metadata",
+      "scope": "Valerie Ahl and T. F. H. Allen are the credited authors. Publisher metadata only; no claim to have reviewed the book's arguments.",
+      "published": "1996"
+    },
+    {
+      "id": "src_intake26_hawk2020",
+      "title": "Socio-technical-natural systems thinking (STN)",
+      "url": "https://digitalcommons.njit.edu/fac_pubs/5582/",
+      "publisher": "New Jersey Institute of Technology",
+      "locator": "Authors; Abstract; Recommended Citation",
+      "scope": "2020 proceedings record and abstract. The abstract starts from Trist's work and considers industrial activity within its environmental context. It does not establish Hawk's teacher–student lineage.",
+      "published": "2020"
+    },
+    {
+      "id": "src_intake26_ecosystem2008",
+      "title": "The Ecosystem Approach: Complexity, Uncertainty, and Managing for Sustainability",
+      "url": "https://cup.columbia.edu/book/the-ecosystem-approach/9780231507202/",
+      "publisher": "Columbia University Press",
+      "locator": "Contents, chapters 1–5; About the Author",
+      "scope": "Publisher's contents credit James Kay with several chapters and Tim Allen with chapter 3. Biography identifies Kay's Waterloo work. Full chapters not reviewed.",
+      "published": "2008"
+    }
+  ],
+  "entries": [
+    {
+      "id": "person_allenna_leonard",
+      "label": "Allenna Leonard",
+      "issue": 84,
+      "aliases": [],
+      "sources": [
+        "src_intake26_leonard_asc2014",
+        "src_intake26_asc_board"
+      ],
+      "summary": "Allenna Leonard is a practitioner of organisational cybernetics. Her 2014 conference biography describes using the Viable System Model and Team Syntegrity and working with Stafford Beer. The American Society for Cybernetics records her presidency in 2002–2004.",
+      "why": "Her account provides a route from organisational cybernetics to reported consulting and facilitation practice.",
+      "distinctions": [
+        "Using a method, collaborating with its originator, and originating the method are different claims."
+      ],
+      "limits": [
+        "The biography is a practitioner account, not an independent evaluation of effectiveness.",
+        "Detailed case studies, further institutional roles, and the wider submission still require source-level review."
+      ]
+    },
+    {
+      "id": "person_judith_rosen",
+      "label": "Judith Rosen",
+      "issue": 82,
+      "aliases": [],
+      "sources": [
+        "src_intake26_anticipatory2012"
+      ],
+      "summary": "Judith Rosen contributed an introduction and a short story about Robert Rosen to the second edition of his Anticipatory Systems (2012). Springer identifies Robert Rosen as the book's author.",
+      "why": "The edition offers a specific reading route into her contribution to presenting Robert Rosen's work.",
+      "distinctions": [
+        "A contribution to an edition is distinct from authorship of the whole book or a formally credited editorial role."
+      ],
+      "limits": [
+        "This entry establishes the publisher's contribution credits. It does not yet assess Judith Rosen's wider scholarship or infer authorship of Robert Rosen's theory."
+      ]
+    },
+    {
+      "id": "person_michael_lissack",
+      "label": "Michael Lissack",
+      "issue": 77,
+      "aliases": [],
+      "sources": [
+        "src_intake26_asc_board"
+      ],
+      "summary": "Michael Lissack served as president of the American Society for Cybernetics from 2014 to 2020, according to the society's record of past presidents.",
+      "why": "This institutional record establishes a documented role in the cybernetics community and a starting point for further research.",
+      "distinctions": [
+        "Institutional leadership is distinct from the content or validity of a scholarly contribution."
+      ],
+      "limits": [
+        "The submitted account of Lissack's research needs close reading of named publications. This profile does not substitute an office-holding record for that work."
+      ]
+    },
+    {
+      "id": "person_peter_h_jones",
+      "label": "Peter H. Jones",
+      "issue": 76,
+      "aliases": [
+        "Peter Jones"
+      ],
+      "sources": [
+        "src_intake26_jones_ocad",
+        "src_intake26_jones_tec"
+      ],
+      "summary": "Peter Jones works in systemic design, healthcare design, and dialogic inquiry. OCAD University's sLab profile names him as a co-founder of the Systemic Design Association. Tecnológico de Monterrey announced his arrival in its Faculty of Excellence in March 2024.",
+      "why": "His institutional profiles connect systemic design with the design of information services and collective inquiry.",
+      "distinctions": [
+        "A dated appointment announcement and an undated institutional biography need separate treatment; neither proves an unchanged current role."
+      ],
+      "limits": [
+        "Research interests and institutional roles are documented here. Detailed claims about methods, influence, or effectiveness require the relevant publications."
+      ]
+    },
+    {
+      "id": "person_timothy_f_h_allen",
+      "label": "Timothy F. H. Allen",
+      "issue": 75,
+      "aliases": [
+        "T. F. H. Allen",
+        "Tim Allen",
+        "Timothy Allen"
+      ],
+      "sources": [
+        "src_intake26_hierarchy1996",
+        "src_intake26_ecosystem2008"
+      ],
+      "summary": "T. F. H. Allen co-authored Hierarchy Theory: A Vision, Vocabulary, and Epistemology with Valerie Ahl (1996). The contents of The Ecosystem Approach also credit Tim Allen with a chapter on scale and type.",
+      "why": "These publication records give readers two concrete routes into Allen's work on hierarchy and ecological complexity.",
+      "distinctions": [
+        "Publication metadata locates work; it does not by itself establish the meaning or practical validity of the argument."
+      ],
+      "limits": [
+        "The books' full arguments, any claimed intellectual lineage, and the wider biographical submission remain to be reviewed."
+      ]
+    },
+    {
+      "id": "person_david_l_hawk",
+      "label": "David L. Hawk",
+      "issue": 72,
+      "aliases": [
+        "David Hawk"
+      ],
+      "sources": [
+        "src_intake26_hawk2020"
+      ],
+      "summary": "David L. Hawk wrote the 2020 proceedings paper Socio-technical-natural systems thinking. Its abstract revisits socio-technical concerns through industrial activity's environmental context and identifies Trist's work as a point of departure.",
+      "why": "The abstract offers a question for further reading: how should socio-technical inquiry account for its environmental setting?",
+      "distinctions": [
+        "A paper's discussion of Ackoff and Trist is not evidence that its author studied under either person."
+      ],
+      "limits": [
+        "The institutional record provides an abstract and citation; the full paper was not reviewed. Claims about Hawk's training and wider contribution remain open."
+      ]
+    },
+    {
+      "id": "person_james_j_kay",
+      "label": "James J. Kay",
+      "issue": 70,
+      "aliases": [
+        "James Kay"
+      ],
+      "sources": [
+        "src_intake26_ecosystem2008"
+      ],
+      "summary": "James J. Kay worked in environment and resource studies at the University of Waterloo. The Ecosystem Approach credits him with chapters on systems thinking, system description, and management, and a joint chapter with Michelle Boyle on self-organising, holarchic, open systems.",
+      "why": "The publisher's contents provide a reading route into his contributions to ecosystem inquiry.",
+      "distinctions": [
+        "A chapter credit supports attribution; the chapter's title alone cannot establish a complete method."
+      ],
+      "limits": [
+        "The full chapters and the submission's wider thermodynamic and intellectual-lineage claims remain to be examined."
+      ]
+    }
+  ],
+  "supporting_nodes": [
+    {
+      "id": "organisation_asc",
+      "label": "American Society for Cybernetics",
+      "kind": "organisation",
+      "source": "src_intake26_asc_board",
+      "summary": "The American Society for Cybernetics is a professional society whose institutional website records its governance and past presidents."
+    },
+    {
+      "id": "organisation_systemic_design_association",
+      "label": "Systemic Design Association",
+      "kind": "organisation",
+      "source": "src_intake26_jones_ocad",
+      "summary": "The Systemic Design Association is the organisation identified in Peter Jones's OCAD institutional profile, where his co-founder role is recorded."
+    },
+    {
+      "id": "publication_anticipatory_systems_2012",
+      "label": "Anticipatory Systems (second edition, 2012)",
+      "kind": "publication",
+      "source": "src_intake26_anticipatory2012",
+      "summary": "Robert Rosen's book, with contributions by Judith Rosen and others in the second edition."
+    },
+    {
+      "id": "publication_hierarchy_theory_1996",
+      "label": "Hierarchy Theory: A Vision, Vocabulary, and Epistemology",
+      "kind": "publication",
+      "source": "src_intake26_hierarchy1996",
+      "summary": "The 1996 book credited to Valerie Ahl and T. F. H. Allen by Columbia University Press."
+    },
+    {
+      "id": "publication_hawk_stn_2020",
+      "label": "Socio-technical-natural systems thinking (2020)",
+      "kind": "publication",
+      "source": "src_intake26_hawk2020",
+      "summary": "David L. Hawk's 2020 proceedings paper, located through NJIT's bibliographic record and abstract."
+    },
+    {
+      "id": "publication_ecosystem_approach_2008",
+      "label": "The Ecosystem Approach (2008)",
+      "kind": "publication",
+      "source": "src_intake26_ecosystem2008",
+      "summary": "A multi-author volume whose contents record contributions by James Kay, Tim Allen, and others."
+    }
+  ],
+  "relations": [
+    [
+      "person_allenna_leonard",
+      "organisation_asc",
+      "served_as_president_of",
+      "documentary",
+      "served as president of",
+      "src_intake26_asc_board",
+      "Past Presidents, 2002–2004",
+      "The society's dated office-holding record."
+    ],
+    [
+      "person_michael_lissack",
+      "organisation_asc",
+      "served_as_president_of",
+      "documentary",
+      "served as president of",
+      "src_intake26_asc_board",
+      "Past Presidents, 2014–2020",
+      "The society's dated office-holding record."
+    ],
+    [
+      "person_allenna_leonard",
+      "person_stafford_beer",
+      "collaborated_with",
+      "human",
+      "collaborated with",
+      "src_intake26_leonard_asc2014",
+      "Biographical Info, opening paragraph",
+      "Leonard's own account of working with Beer; no inference of sole authorship or effectiveness."
+    ],
+    [
+      "person_allenna_leonard",
+      "method_or_methodology_viable_system_model_vsm",
+      "applies",
+      "practice",
+      "applies",
+      "src_intake26_leonard_asc2014",
+      "Biographical Info, opening paragraph",
+      "Reported use of VSM in organisational and socio-ecological work; not an outcome evaluation."
+    ],
+    [
+      "person_allenna_leonard",
+      "method_or_methodology_syntegration_team_syntegrity",
+      "applies",
+      "practice",
+      "applies",
+      "src_intake26_leonard_asc2014",
+      "Biographical Info, opening paragraph",
+      "Reported practice as a licensee of Team Syntegrity, dated to 2014."
+    ],
+    [
+      "person_judith_rosen",
+      "publication_anticipatory_systems_2012",
+      "contributed_to",
+      "documentary",
+      "contributed to",
+      "src_intake26_anticipatory2012",
+      "About this book, second and third paragraphs",
+      "Introduction and short story only; not authorship of the whole book."
+    ],
+    [
+      "publication_anticipatory_systems_2012",
+      "person_robert_rosen",
+      "authored_by",
+      "documentary",
+      "is authored by",
+      "src_intake26_anticipatory2012",
+      "Authors; Bibliographic information",
+      "Robert Rosen is the publisher's credited book author."
+    ],
+    [
+      "person_peter_h_jones",
+      "organisation_systemic_design_association",
+      "co_founded",
+      "documentary",
+      "co-founded",
+      "src_intake26_jones_ocad",
+      "Opening role list",
+      "Institutional attribution of a co-founder role; no inference of sole founding."
+    ],
+    [
+      "publication_hierarchy_theory_1996",
+      "person_timothy_f_h_allen",
+      "authored_by",
+      "documentary",
+      "is authored by",
+      "src_intake26_hierarchy1996",
+      "Title and author metadata",
+      "Co-authored with Valerie Ahl; this edge does not imply sole authorship."
+    ],
+    [
+      "publication_hawk_stn_2020",
+      "person_david_l_hawk",
+      "authored_by",
+      "documentary",
+      "is authored by",
+      "src_intake26_hawk2020",
+      "Authors and recommended citation",
+      "Publication credit only; no claim about training or influence."
+    ],
+    [
+      "person_james_j_kay",
+      "publication_ecosystem_approach_2008",
+      "contributed_to",
+      "documentary",
+      "contributed to",
+      "src_intake26_ecosystem2008",
+      "Contents, chapters 1, 2, 4, and 5",
+      "Specific chapter credits, including chapter 4 jointly with Michelle Boyle."
+    ],
+    [
+      "person_timothy_f_h_allen",
+      "publication_ecosystem_approach_2008",
+      "contributed_to",
+      "documentary",
+      "contributed to",
+      "src_intake26_ecosystem2008",
+      "Contents, chapter 3",
+      "Chapter on scale and type; the chapter itself was not read in this pass."
+    ]
+  ]
+}

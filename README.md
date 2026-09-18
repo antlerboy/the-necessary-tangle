@@ -123,3 +123,7 @@ See [ACKNOWLEDGEMENTS.md](ACKNOWLEDGEMENTS.md) for the fuller account. This is a
 Original atlas text, public data and editorial material are licensed under [Creative Commons Attribution-ShareAlike 4.0 International](LICENSE-CONTENT.md), unless otherwise marked. Original software is licensed under the MIT licence in [LICENSE-SOFTWARE.md](LICENSE-SOFTWARE.md). Third-party works remain under their own terms. See [RIGHTS.md](RIGHTS.md).
 
 Public contributions and responses are visible at <https://transduction.systems/submissions/>; the canon and lineage review is at <https://transduction.systems/canon-and-lineage/>.
+
+## Release 0.24
+
+Release 0.24 adds seven profiles and twelve scoped statements from eight primary public records. There are now 785 canonical public entries. The wider submissions and independent specialist review remain open. See https://transduction.systems/updates/2026-09-18/ and sources/intake-2026-09-18/entries.json. The approved Systemic Evolution files retain their exact checksums.

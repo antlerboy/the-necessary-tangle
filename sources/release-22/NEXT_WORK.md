@@ -34,3 +34,18 @@ Benjamin P Taylor requested an animated adaptation of the supplied Barry Oshry b
 Scope: sources/encounters-with-the-other/, scripts/build_encounters_film.py, and the existing Pages publication workflow. Build an abridged narrated film, chapter navigation, captions, transcript, and downloadable video and audio at /encounters-with-the-other/. Keep it out of navigation, search data, update streams, and the sitemap; apply noindex metadata. Unlisted is not access-controlled. Do not upload the source PDF. Credit the author and edition, retain the precise power/love pairings, and label the adaptation for author review without claiming author approval. Preserve all unrelated current site changes.
 
 Acceptance: text and layout inspection of all 43 scenes; syntax checks; the existing make validate and practice checks; successful narration with no silent replacement; matching audio, video, and timeline duration; media and local-link validation; live page and media response checks. Stop after the unlisted narrated film is deployed and verified, or report the specific barrier. No additional approval round and no communications to Barry are authorised or required.
+
+
+## Website review: source intake, 18 September 2026
+
+Status: implementation ready for verification. The current user request authorises the review and direct publication.
+
+Outcome: seven source-scoped profiles for issues 70, 72, 75, 76, 77, 82, and 84, with precise claims, primary-source locators, and explicit remaining work. Publish as release 0.24 after the required checks.
+
+In scope: sources/intake-2026-09-18/, its apply/prepare/validate scripts, Makefile, public graph projections, the dated update and its reading/update links, and durable state. Also include the publication browser gate and the events workflow pin, so the deployment uses the same maintained events snapshot checked locally. Include the named Windows line-ending repair in apply_release_21.py so the approved source bytes reproduce exactly. Preserve the reviewed comparator package and unrelated content.
+
+Acceptance: repository-wide make validate equivalent; idempotence of the additive pass; exact approved source hashes; desktop/mobile entry, update, source, and feedback journeys; successful publication and live verification. No invented named review or intellectual lineage.
+
+Stop after these checks pass. Full-text reading and the wider claims remain open; do not close the submissions or imply comprehensive review.
+
+Verification found four underspecified descriptions in the September builder; these now meet the existing publishing rule. Browser review found hidden editorial provenance and malformed source years; the final renderer and source records correct these. The local Chrome viewport override did not change the inspected tab, so the publication workflow must pass the new 390px and 1440px browser gate before deploying.

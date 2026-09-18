@@ -21,7 +21,7 @@ jobs:
         uses: actions/checkout@v7
         with:
           repository: antlerboy/systemsmap
-          ref: 12a9afaa87f5b7727164136bec793d5a76de1fc2
+          ref: feff1b7be264b9e202debd9ac3d6109a55049100
           path: _systemsmap
           persist-credentials: false
       - name: Install media inspection dependency
@@ -37,7 +37,7 @@ jobs:
       - name: Test practice pages before publication
         env:
           NODE_PATH: /tmp/practice-browser/node_modules
-        run: node scripts/test_practice_browser.js && node scripts/test_practice_presentation.js
+        run: node scripts/test_practice_browser.js && node scripts/test_practice_presentation.js && node scripts/test_intake_browser.js
       - name: Record the exact deployed release and test summary
         env:
           DEPLOY_COMMIT: ${{ github.sha }}
@@ -66,6 +66,8 @@ jobs:
             validation/practice-models.json
             validation/practice-browser/*.json
             validation/practice-browser/*.png
+            validation/intake-browser/*.json
+            validation/intake-browser/*.png
           if-no-files-found: ignore
       - name: Restore narrated Encounters film
         id: encounters-cache

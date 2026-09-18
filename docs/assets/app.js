@@ -675,6 +675,7 @@
       </div>
     </article>
     ${sections.join('')}
+    ${profile?.editorial_note ? `<section class="entry-section entry-editorial-note"><h2>Editorial status</h2><p>${esc(profile.editorial_note)}</p></section>` : ''}
     ${relations.length ? `<section class="entry-section"><h2>Connections</h2><p>Each line below is a specific statement. Open it to see its meaning, limits and evidence.</p><table class="relations-table"><tbody>${relationRows}</tbody></table></section>` : ''}
     ${claims.length ? `<section class="entry-section"><h2>Claims and disputes</h2>${claimBlocks}</section>` : ''}
     <section class="entry-section"><h2>Sources</h2>${sourceLinks}</section>
@@ -2145,6 +2146,12 @@
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', initConstellationControls);
   else initConstellationControls();
 })();
+
+
+
+
+
+
 
 
 

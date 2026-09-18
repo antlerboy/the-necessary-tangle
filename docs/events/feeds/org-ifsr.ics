@@ -10,9 +10,9 @@ SUMMARY:Conversational Confluences\, American Society for Cybernetics Conf
  erence 2026
 DTSTART:20260802T220000Z
 DTEND:20260807T215959Z
-DTSTAMP:20260906T191842Z
+DTSTAMP:20260909T085810Z
 UID:4fc08fcb2c47ef70a3e9f34c@systemsmap.antlerboy.com
-SEQUENCE:1
+SEQUENCE:2
 CATEGORIES:Systems thinking,Cybernetics
 DESCRIPTION:American Society for Cybernetics\nConversational Confluences\,
   to be held in Ouro Preto\, Brazil\, from August 3–7\, 2026. Founded in 
@@ -22,10 +22,8 @@ DESCRIPTION:American Society for Cybernetics\nConversational Confluences\,
  uiry and experimentation\, where […]\nLanguage: Not specified\nLanguage 
  requirements: Not specified\nInterpretation: Not specified\nAccess: See or
  ganiser\nhttps://ifsr.org/event/conversational-confluences-american-societ
- y-for-cybernetics-conference-2026/\nSource could not be fully rechecked.\n
- This event could not be rechecked on the latest collection. Confirm with t
- he organiser.
-LAST-MODIFIED:20260906T191842Z
+ y-for-cybernetics-conference-2026/
+LAST-MODIFIED:20260909T085810Z
 LOCATION:Ouro Preto\, Brazil\, Ouro Preto\, Brazil
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -40,7 +38,7 @@ DTEND:20260919T140000Z
 DTSTAMP:20260906T191842Z
 UID:da94efc5fcf22b82681dc9ea@systemsmap.antlerboy.com
 SEQUENCE:1
-CATEGORIES:Systems thinking,Cybernetics,Complexity
+CATEGORIES:Complexity,Cybernetics,Systems thinking
 DESCRIPTION:International Federation for Systems Research (IFSR)\nMetaphor
  um 2026 marks the centenary of Stafford Beer with a landmark international
   gathering dedicated to celebrating his life\, legacy\, and continuing inf
@@ -57,5 +55,53 @@ STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 URL:https://ifsr.org/event/100-years-of-stafford-beer-celebrating-his-life
  -his-legacy-and-beyond/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SysPrac26 – The Systems Thinking Practitioners Conference
+DTSTART:20260921T060000Z
+DTEND:20260922T150000Z
+DTSTAMP:20260910T223446Z
+UID:a018a46a8352008249863516@systemsmap.antlerboy.com
+SEQUENCE:0
+CATEGORIES:Complexity,Cybernetics,Systems thinking
+DESCRIPTION:International Federation for Systems Research (IFSR)\nSysPrac2
+ 6 – The Systems Thinking Practitioner Conference will take place on 21st
+  & 22nd September 2026 in Cranfield As the challenges facing organisations
+ \, communities and society become increasingly interconnected and complex
+ \, the need for practical systems thinking has never been greater. SysPrac
+ 26 takes place on 21–22 September 2026 at Cranfield University – two d
+ ays of systems thinking in prac\nLanguage: Not specified\nLanguage require
+ ments: Not specified\nInterpretation: Not specified\nAccess: See organiser
+ \nhttps://ifsr.org/event/sysprac26-the-systems-thinking-practitioners-conf
+ erence/
+LAST-MODIFIED:20260910T223446Z
+LOCATION:Location not published
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://ifsr.org/event/sysprac26-the-systems-thinking-practitioners-co
+ nference/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:25th International Symposium on Knowledge and Systems Sciences (KS
+ S2026)
+DTSTART:20261113T070000Z
+DTEND:20261115T160000Z
+DTSTAMP:20260910T223446Z
+UID:16b9aa66622c39bc177766a3@systemsmap.antlerboy.com
+SEQUENCE:0
+CATEGORIES:Systems thinking,Cybernetics
+DESCRIPTION:SESC\n<p>The 25th International Symposium on Knowledge and Sys
+ tems Sciences (KSS2026) will take place from 13–15 November 2026 at Auck
+ land University of Technology\, Auckland\, New Zealand. This year\\'s symp
+ osium will explore […]</p>\\n\nLanguage: Not specified\nLanguage require
+ ments: Not specified\nInterpretation: Not specified\nAccess: See organiser
+ \nhttps://ifsr.org/event/25th-international-symposium-on-knowledge-and-sys
+ tems-sciences-kss2026/
+LAST-MODIFIED:20260910T223446Z
+LOCATION:Location not published
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://ifsr.org/event/25th-international-symposium-on-knowledge-and-s
+ ystems-sciences-kss2026/
 END:VEVENT
 END:VCALENDAR

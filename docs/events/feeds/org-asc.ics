@@ -10,9 +10,9 @@ SUMMARY:Conversational Confluences\, American Society for Cybernetics Conf
  erence 2026
 DTSTART:20260802T220000Z
 DTEND:20260807T215959Z
-DTSTAMP:20260906T191842Z
+DTSTAMP:20260909T085810Z
 UID:4fc08fcb2c47ef70a3e9f34c@systemsmap.antlerboy.com
-SEQUENCE:1
+SEQUENCE:2
 CATEGORIES:Systems thinking,Cybernetics
 DESCRIPTION:American Society for Cybernetics\nConversational Confluences\,
   to be held in Ouro Preto\, Brazil\, from August 3–7\, 2026. Founded in 
@@ -22,10 +22,8 @@ DESCRIPTION:American Society for Cybernetics\nConversational Confluences\,
  uiry and experimentation\, where […]\nLanguage: Not specified\nLanguage 
  requirements: Not specified\nInterpretation: Not specified\nAccess: See or
  ganiser\nhttps://ifsr.org/event/conversational-confluences-american-societ
- y-for-cybernetics-conference-2026/\nSource could not be fully rechecked.\n
- This event could not be rechecked on the latest collection. Confirm with t
- he organiser.
-LAST-MODIFIED:20260906T191842Z
+ y-for-cybernetics-conference-2026/
+LAST-MODIFIED:20260909T085810Z
 LOCATION:Ouro Preto\, Brazil\, Ouro Preto\, Brazil
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -36,10 +34,10 @@ BEGIN:VEVENT
 SUMMARY:RSD15 / RSDX-ASC: Conversational Confluences online series
 DTSTART;VALUE=DATE:20260824
 DTEND;VALUE=DATE:20260828
-DTSTAMP:20260909T085057Z
+DTSTAMP:20260918T090403Z
 UID:99e564f66eea2967812a7cf4@systemsmap.antlerboy.com
-SEQUENCE:5
-CATEGORIES:Systems thinking,Cybernetics,Systemic design
+SEQUENCE:16
+CATEGORIES:Cybernetics,Systemic design,Systems thinking
 DESCRIPTION:American Society for Cybernetics and Systemic Design Associati
  on\nThe online RSD15 programme continuing conversations from the ASC confe
  rence. This is a separate series from the in-person Ouro Preto conference 
@@ -49,7 +47,7 @@ DESCRIPTION:American Society for Cybernetics and Systemic Design Associati
  fficial programme checked 7 September 2026: 24-27 August. Calendar end dat
  e is exclusive.\nDate-only listing\; check the organiser for session times
  .
-LAST-MODIFIED:20260909T085057Z
+LAST-MODIFIED:20260918T090403Z
 LOCATION:Online
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -58,17 +56,15 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Speaker Series 7#1: Cyber-Renaissance
 DTSTART:20260920T160000Z
-DTSTAMP:20260906T191842Z
+DTSTAMP:20260909T085810Z
 UID:de1734466a5ee9163041163a@systemsmap.antlerboy.com
-SEQUENCE:1
+SEQUENCE:2
 CATEGORIES:Cybernetics
 DESCRIPTION:American Society for Cybernetics (ASC)\n\nLanguage: Not specif
  ied\nLanguage requirements: Not specified\nInterpretation: Not specified\n
  Access: See organiser\nhttps://asc-cybernetics.org/initiatives/speaker-ser
- ies-wg/speaker-series-season-71/\nSource could not be fully rechecked.\nTh
- is event could not be rechecked on the latest collection. Confirm with the
-  organiser.
-LAST-MODIFIED:20260906T191842Z
+ ies-wg/speaker-series-season-71/
+LAST-MODIFIED:20260909T085810Z
 LOCATION:Online
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT

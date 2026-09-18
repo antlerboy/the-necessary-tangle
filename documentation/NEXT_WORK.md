@@ -39,6 +39,19 @@ Scope: sources/encounters-with-the-other/, scripts/build_encounters_film.py, and
 
 Acceptance: text and layout inspection of all 43 scenes; syntax checks; the existing make validate and practice checks; successful narration with no silent replacement; matching audio, video, and timeline duration; media and local-link validation; live page and media response checks. Stop after the unlisted narrated film is deployed and verified, or report the specific barrier. No additional approval round and no communications to Barry are authorised or required.
 
+
+## Website review: source intake, 18 September 2026
+
+Status: implementation ready for verification. The current user request authorises the review and direct publication.
+
+Outcome: seven source-scoped profiles for issues 70, 72, 75, 76, 77, 82, and 84, with precise claims, primary-source locators, and explicit remaining work. Publish as release 0.24 after the required checks.
+
+In scope: sources/intake-2026-09-18/, its apply/prepare/validate scripts, Makefile, public graph projections, the dated update and its reading/update links, and durable state. Also include the publication browser gate and the events workflow pin, so the deployment uses the same maintained events snapshot checked locally. Include the named Windows line-ending repair in apply_release_21.py so the approved source bytes reproduce exactly. Preserve the reviewed comparator package and unrelated content.
+
+Acceptance: repository-wide make validate equivalent; idempotence of the additive pass; exact approved source hashes; desktop/mobile entry, update, source, and feedback journeys; successful publication and live verification. No invented named review or intellectual lineage.
+
+Stop after these checks pass. Full-text reading and the wider claims remain open; do not close the submissions or imply comprehensive review.
+
 ## Systems methods practice, 7 September 2026
 
 26 original practice pages; 42 source-labelled resource routes; 746 public atlas entries after the additive resource integration. All 13 core approaches and three theory rows have an explicit rehearsal, with depth limits. Ten further pages support systemic inquiry and intervention.
@@ -46,3 +59,5 @@ Acceptance: text and layout inspection of all 43 scenes; syntax checks; the exis
 Published route: https://transduction.systems/systems-thinking/practice/
 
 Publication is explicitly authorised. See `sources/practice-pack/PACKET.md`, the public coverage page and `documentation/practice-pack.md`. No independent specialist pedagogical review is recorded; this remains an open review task. Existing unrelated work below or above remains open.
+
+Verification found four underspecified descriptions in the September builder; these now meet the existing publishing rule. Browser review found hidden editorial provenance and malformed source years; the final renderer and source records correct these. The local Chrome viewport override did not change the inspected tab, so the publication workflow must pass the new 390px and 1440px browser gate before deploying.

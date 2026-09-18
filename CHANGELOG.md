@@ -178,3 +178,7 @@ Accessible systems-thinking gateway; 48-entry early cybernetics catalogue with S
 ## 0.23 - 7 September 2026
 
 26 original practice pages; 42 source-labelled resource routes; 746 public atlas entries after the additive resource integration. All 13 core approaches and three theory rows have an explicit rehearsal, with depth limits. Ten further pages support systemic inquiry and intervention.
+
+## 0.24 - 18 September 2026
+
+Release 0.24 adds seven profiles and twelve scoped statements from eight primary public records. There are now 785 canonical public entries. The wider submissions and independent specialist review remain open. See https://transduction.systems/updates/2026-09-18/ and sources/intake-2026-09-18/entries.json. The approved Systemic Evolution files retain their exact checksums.

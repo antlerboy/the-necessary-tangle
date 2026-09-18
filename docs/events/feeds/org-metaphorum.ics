@@ -7,23 +7,6 @@ REFRESH-INTERVAL:P1D
 X-PUBLISHED-TTL:PT24H
 BEGIN:VEVENT
 SUMMARY:VSM-AI Special Integration Group
-DTSTART:20260617T160000Z
-DTEND:20260617T173000Z
-DTSTAMP:20260909T082311Z
-UID:4e7e1c3191c2bb4737353dda@systemsmap.antlerboy.com
-SEQUENCE:2
-CATEGORIES:Cybernetics,Systems thinking
-DESCRIPTION:Metaphorum\n\nLanguage: Not specified\nLanguage requirements: 
- Not specified\nInterpretation: Not specified\nAccess: See organiser\nhttps
- ://ics.teamup.com/feed/ksok8ra1xif3viq4no/0.ics
-LAST-MODIFIED:20260909T082311Z
-LOCATION:Location not published
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-URL:https://ics.teamup.com/feed/ksok8ra1xif3viq4no/0.ics
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:VSM-AI Special Integration Group
 DTSTART:20260715T160000Z
 DTEND:20260715T173000Z
 DTSTAMP:20260909T082311Z
@@ -61,9 +44,9 @@ SUMMARY:Zertifizierter VSM Coach 2.\, 4. und 11. September 2026 • Züric
  h
 DTSTART:20260902T070000Z
 DTEND:20260911T160000Z
-DTSTAMP:20260906T191842Z
+DTSTAMP:20260909T085810Z
 UID:1327388df871e880b96550b4@systemsmap.antlerboy.com
-SEQUENCE:1
+SEQUENCE:2
 CATEGORIES:Systems thinking,Cybernetics
 DESCRIPTION:Metaphorum\nDas Seminar für Unternehmer:innen\, Unternehmensl
  enker:innen\, Unternehmensentwickler:innen und Organisationsentwickler:inn
@@ -73,10 +56,10 @@ DESCRIPTION:Metaphorum\nDas Seminar für Unternehmer:innen\, Unternehmensl
  erten VSM Coach (Metaphorum) bietet eine umfassende Einführung \nLanguage
  : Not specified\nLanguage requirements: Not specified\nInterpretation: Not
   specified\nAccess: See organiser\nhttps://metaphorum.org/event/zertifizie
- rter-vsm-coach-2026-09\nSource could not be fully rechecked.\nThis event c
- ould not be rechecked on the latest collection. Confirm with the organiser
- .
-LAST-MODIFIED:20260906T191842Z
+ rter-vsm-coach-2026-09\nNo longer found in the latest source listing\; con
+ firmation needed.\nThis event could not be rechecked on the latest collect
+ ion. Confirm with the organiser.
+LAST-MODIFIED:20260909T085810Z
 LOCATION:Zürich\, Switzerland
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -120,19 +103,17 @@ BEGIN:VEVENT
 SUMMARY:VSM Coach Training 26. bis 28. Oktober 2026 • Stuttgart
 DTSTART:20261026T090000Z
 DTEND:20261028T160000Z
-DTSTAMP:20260906T191842Z
+DTSTAMP:20260909T085810Z
 UID:434d1742f601499996707a4d@systemsmap.antlerboy.com
-SEQUENCE:1
+SEQUENCE:2
 CATEGORIES:Systems thinking,Cybernetics
 DESCRIPTION:Metaphorum\nVSM Coach Training mit Dr. Martin Pfiffner\, Certi
  fied VSM Trainier Entscheidungsfähige Organisationsstrukturen diagnostizi
  eren und gestalten lernen. 📄 Informationen und Anmeldung hier: emergize
  _VSM-Coach-Training_2026\nLanguage: Not specified\nLanguage requirements: 
  Not specified\nInterpretation: Not specified\nAccess: See organiser\nhttps
- ://metaphorum.org/event/vsm-coach-training-26-bis-28-oktober-2026\nSource 
- could not be fully rechecked.\nThis event could not be rechecked on the la
- test collection. Confirm with the organiser.
-LAST-MODIFIED:20260906T191842Z
+ ://metaphorum.org/event/vsm-coach-training-26-bis-28-oktober-2026
+LAST-MODIFIED:20260909T085810Z
 LOCATION:Stuttgart\, Germany
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -405,6 +386,23 @@ DESCRIPTION:Metaphorum\n\nLanguage: Not specified\nLanguage requirements:
  Not specified\nInterpretation: Not specified\nAccess: See organiser\nhttps
  ://ics.teamup.com/feed/ksok8ra1xif3viq4no/0.ics
 LAST-MODIFIED:20260909T082311Z
+LOCATION:Location not published
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://ics.teamup.com/feed/ksok8ra1xif3viq4no/0.ics
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VSM-AI Special Integration Group
+DTSTART:20280315T160000Z
+DTEND:20280315T173000Z
+DTSTAMP:20260913T093647Z
+UID:438a4216c185ce31fb02a623@systemsmap.antlerboy.com
+SEQUENCE:0
+CATEGORIES:Cybernetics,Systems thinking
+DESCRIPTION:Metaphorum\n\nLanguage: Not specified\nLanguage requirements: 
+ Not specified\nInterpretation: Not specified\nAccess: See organiser\nhttps
+ ://ics.teamup.com/feed/ksok8ra1xif3viq4no/0.ics
+LAST-MODIFIED:20260913T093647Z
 LOCATION:Location not published
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT

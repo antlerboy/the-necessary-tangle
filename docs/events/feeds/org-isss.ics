@@ -6,76 +6,87 @@ X-WR-CALNAME:International Society for the Systems Sciences (ISSS)
 REFRESH-INTERVAL:P1D
 X-PUBLISHED-TTL:PT24H
 BEGIN:VEVENT
-SUMMARY:The 2026 Summer School of the International Society for the System
- s Sciences (Pyla\, Cyprus) (ISSS)
+SUMMARY:2026 International Conference on the Science of Dialogic Design: S
+ ymposia for Scientists and Practitioners (The Cyprus Presidency The Global
+  Agoras (Institute for 21st Century Agoras) The Hellenic Society for Syste
+ mic Studies The European Union for Systemics)
 DTSTART;VALUE=DATE:20260617
-DTEND;VALUE=DATE:20260618
-DTSTAMP:20260909T082311Z
-UID:10db3efe03a92ed580c6c5e7@systemsmap.antlerboy.com
-SEQUENCE:2
-CATEGORIES:Complexity,Cybernetics,Systems thinking
-DESCRIPTION:ISSS\nWho: ISSS The **The 2026 Summer School of the Internatio
- nal Society for the Systems Sciences (Pyla\, Cyprus)** is scheduled back-t
- o-back with the 70th_(2026)_Annual_Meeting_of_the_International_Society_fo
- r_the_Systems_Sciences\,_Cyprus: https://futureworlds.eu/wiki/70th_(2026_A
- nnual_Meeting_of_the_International_Society_for_the_Systems_Sciences\,_Cypr
- us "70th (2026) Annual Meeting of the International\nLanguage: Not specifi
- ed\nLanguage requirements: Not specified\nInterpretation: Not specified\nA
- ccess: See organiser\nhttps://ics.teamup.com/feed/ksok8ra1xif3viq4no/0.ics
- \nDate-only listing\; check the organiser for session times.
-LAST-MODIFIED:20260909T082311Z
-LOCATION:UCLAN Campus Pyla Cyprus https://maps.app.goo.gl/gj8bFFjNnhD7Fcyu
- 6
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-URL:https://ics.teamup.com/feed/ksok8ra1xif3viq4no/0.ics
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:The 2026 Summer School of the International Society for the System
- s Sciences (Pyla\, Cyprus) (ISSS)
-DTSTART;VALUE=DATE:20260618
-DTEND;VALUE=DATE:20260619
-DTSTAMP:20260909T082311Z
-UID:d6ccd18843f7c2eccd8e9eed@systemsmap.antlerboy.com
-SEQUENCE:2
-CATEGORIES:Complexity,Cybernetics,Systems thinking
-DESCRIPTION:ISSS\nWho: ISSS The **The 2026 Summer School of the Internatio
- nal Society for the Systems Sciences (Pyla\, Cyprus)** is scheduled back-t
- o-back with the 70th_(2026)_Annual_Meeting_of_the_International_Society_fo
- r_the_Systems_Sciences\,_Cyprus: https://futureworlds.eu/wiki/70th_(2026_A
- nnual_Meeting_of_the_International_Society_for_the_Systems_Sciences\,_Cypr
- us "70th (2026) Annual Meeting of the International\nLanguage: Not specifi
- ed\nLanguage requirements: Not specified\nInterpretation: Not specified\nA
- ccess: See organiser\nhttps://ics.teamup.com/feed/ksok8ra1xif3viq4no/0.ics
- \nDate-only listing\; check the organiser for session times.
-LAST-MODIFIED:20260909T082311Z
-LOCATION:UCLAN Campus Pyla Cyprus https://maps.app.goo.gl/gj8bFFjNnhD7Fcyu
- 6
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-URL:https://ics.teamup.com/feed/ksok8ra1xif3viq4no/0.ics
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:The 2026 Summer School of the International Society for the System
- s Sciences (Pyla\, Cyprus) (ISSS)
-DTSTART;VALUE=DATE:20260619
 DTEND;VALUE=DATE:20260620
-DTSTAMP:20260909T082311Z
-UID:b7e8c1616c5b59584758fe0f@systemsmap.antlerboy.com
-SEQUENCE:2
+DTSTAMP:20260917T093127Z
+UID:10db3efe03a92ed580c6c5e7@systemsmap.antlerboy.com
+SEQUENCE:4
 CATEGORIES:Complexity,Cybernetics,Systems thinking
-DESCRIPTION:ISSS\nWho: ISSS The **The 2026 Summer School of the Internatio
- nal Society for the Systems Sciences (Pyla\, Cyprus)** is scheduled back-t
- o-back with the 70th_(2026)_Annual_Meeting_of_the_International_Society_fo
- r_the_Systems_Sciences\,_Cyprus: https://futureworlds.eu/wiki/70th_(2026_A
- nnual_Meeting_of_the_International_Society_for_the_Systems_Sciences\,_Cypr
- us "70th (2026) Annual Meeting of the International\nLanguage: Not specifi
- ed\nLanguage requirements: Not specified\nInterpretation: Not specified\nA
- ccess: See organiser\nhttps://ics.teamup.com/feed/ksok8ra1xif3viq4no/0.ics
- \nDate-only listing\; check the organiser for session times.
-LAST-MODIFIED:20260909T082311Z
-LOCATION:UCLAN Campus Pyla Cyprus https://maps.app.goo.gl/gj8bFFjNnhD7Fcyu
- 6
+DESCRIPTION:The Cyprus Presidency\\nThe Global Agoras (Institute for 21st 
+ Century Agoras)\\nThe Hellenic Society for Systemic Studies\\nThe European
+  Union for Systemics\nWho: The Cyprus Presidency The Global Agoras (Instit
+ ute for 21st Century Agoras) The Hellenic Society for Systemic Studies The
+  European Union for Systemics The **2026 International Conference on the S
+ cience of Dialogic Design: Symposia for Scientists and Practitioners** wil
+ l take place in Pyla\, Cyprus\, in parallel to The_2026_Summer_School_of_t
+ he_International_Society_for_the_Systems_Sciences_(Pyl\nLanguage: Not spec
+ ified\nLanguage requirements: Not specified\nInterpretation: Not specified
+ \nAccess: See organiser\nhttps://ics.teamup.com/feed/ksok8ra1xif3viq4no/0.
+ ics\nDate-only listing\; check the organiser for session times.\nNo longer
+  found in the latest source listing\; confirmation needed.\nThis event cou
+ ld not be rechecked on the latest collection. Confirm with the organiser.
+LAST-MODIFIED:20260917T093127Z
+LOCATION:Pyla Cyprus
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://ics.teamup.com/feed/ksok8ra1xif3viq4no/0.ics
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:2026 International Conference on the Science of Dialogic Design: S
+ ymposia for Scientists and Practitioners (The Cyprus Presidency The Global
+  Agoras (Institute for 21st Century Agoras) The Hellenic Society for Syste
+ mic Studies The European Union for Systemics)
+DTSTART;VALUE=DATE:20260618
+DTEND;VALUE=DATE:20260621
+DTSTAMP:20260918T090403Z
+UID:d6ccd18843f7c2eccd8e9eed@systemsmap.antlerboy.com
+SEQUENCE:4
+CATEGORIES:Complexity,Cybernetics,Systems thinking
+DESCRIPTION:The Cyprus Presidency\\nThe Global Agoras (Institute for 21st 
+ Century Agoras)\\nThe Hellenic Society for Systemic Studies\\nThe European
+  Union for Systemics\nWho: The Cyprus Presidency The Global Agoras (Instit
+ ute for 21st Century Agoras) The Hellenic Society for Systemic Studies The
+  European Union for Systemics The **2026 International Conference on the S
+ cience of Dialogic Design: Symposia for Scientists and Practitioners** wil
+ l take place in Pyla\, Cyprus\, in parallel to The_2026_Summer_School_of_t
+ he_International_Society_for_the_Systems_Sciences_(Pyl\nLanguage: Not spec
+ ified\nLanguage requirements: Not specified\nInterpretation: Not specified
+ \nAccess: See organiser\nhttps://ics.teamup.com/feed/ksok8ra1xif3viq4no/0.
+ ics\nDate-only listing\; check the organiser for session times.
+LAST-MODIFIED:20260918T090403Z
+LOCATION:Pyla Cyprus
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://ics.teamup.com/feed/ksok8ra1xif3viq4no/0.ics
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:2026 International Conference on the Science of Dialogic Design: S
+ ymposia for Scientists and Practitioners (The Cyprus Presidency The Global
+  Agoras (Institute for 21st Century Agoras) The Hellenic Society for Syste
+ mic Studies The European Union for Systemics)
+DTSTART;VALUE=DATE:20260619
+DTEND;VALUE=DATE:20260622
+DTSTAMP:20260918T090403Z
+UID:b7e8c1616c5b59584758fe0f@systemsmap.antlerboy.com
+SEQUENCE:3
+CATEGORIES:Complexity,Cybernetics,Systems thinking
+DESCRIPTION:The Cyprus Presidency\\nThe Global Agoras (Institute for 21st 
+ Century Agoras)\\nThe Hellenic Society for Systemic Studies\\nThe European
+  Union for Systemics\nWho: The Cyprus Presidency The Global Agoras (Instit
+ ute for 21st Century Agoras) The Hellenic Society for Systemic Studies The
+  European Union for Systemics The **2026 International Conference on the S
+ cience of Dialogic Design: Symposia for Scientists and Practitioners** wil
+ l take place in Pyla\, Cyprus\, in parallel to The_2026_Summer_School_of_t
+ he_International_Society_for_the_Systems_Sciences_(Pyl\nLanguage: Not spec
+ ified\nLanguage requirements: Not specified\nInterpretation: Not specified
+ \nAccess: See organiser\nhttps://ics.teamup.com/feed/ksok8ra1xif3viq4no/0.
+ ics\nDate-only listing\; check the organiser for session times.
+LAST-MODIFIED:20260918T090403Z
+LOCATION:Pyla Cyprus
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 URL:https://ics.teamup.com/feed/ksok8ra1xif3viq4no/0.ics
@@ -179,9 +190,9 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ISSS Board of Directors meeting
 DTSTART:20260911T200000Z
-DTSTAMP:20260909T085057Z
+DTSTAMP:20260918T090403Z
 UID:03c306f9fde126bcae14d368@systemsmap.antlerboy.com
-SEQUENCE:0
+SEQUENCE:11
 CATEGORIES:Systems thinking
 DESCRIPTION:International Society for the Systems Sciences (ISSS)\nPublish
  ed on the official ISSS events page. Check registration and participation 
@@ -189,7 +200,7 @@ DESCRIPTION:International Society for the Systems Sciences (ISSS)\nPublish
  ot specified\nInterpretation: Not specified\nAccess: Registration required
  \; ISSS membership rules apply\nhttps://wiki.lab.isss.org/events\nEnd time
   not published.
-LAST-MODIFIED:20260909T085057Z
+LAST-MODIFIED:20260918T090403Z
 LOCATION:Online
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -198,9 +209,9 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ISSS Annual General Meeting
 DTSTART:20260918T200000Z
-DTSTAMP:20260909T085057Z
+DTSTAMP:20260918T090403Z
 UID:a1f3b2af02e11db18a32b82e@systemsmap.antlerboy.com
-SEQUENCE:0
+SEQUENCE:11
 CATEGORIES:Systems thinking
 DESCRIPTION:International Society for the Systems Sciences (ISSS)\nPublish
  ed on the official ISSS events page. Check registration and participation 
@@ -208,7 +219,7 @@ DESCRIPTION:International Society for the Systems Sciences (ISSS)\nPublish
  ot specified\nInterpretation: Not specified\nAccess: Registration required
  \; ISSS membership rules apply\nhttps://wiki.lab.isss.org/events\nEnd time
   not published.
-LAST-MODIFIED:20260909T085057Z
+LAST-MODIFIED:20260918T090403Z
 LOCATION:Online
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT

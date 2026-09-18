@@ -8,10 +8,10 @@ Generated: `2026-08-14`
 
 The atlas now treats relational richness as maintained data, not a visual impression. Every canonical public entry has a structural connection band and a separate evidence band. This makes it possible to add provisional routes without pretending that repetition, plausibility or graph density is proof.
 
-- 717 of 772 entries have at least one reader connection.
-- 51 are structurally rich, 253 developing, 413 thin and 55 unconnected.
-- 451 have at least one non-documentary semantic, historical, human, identity, practice, influence or contestation route.
-- Evidence is 216 supported, 260 mixed, 241 provisional and 55 absent at entry level.
+- 731 of 785 entries have at least one reader connection.
+- 51 are structurally rich, 254 developing, 426 thin and 54 unconnected.
+- 452 have at least one non-documentary semantic, historical, human, identity, practice, influence or contestation route.
+- Evidence is 216 supported, 260 mixed, 255 provisional and 54 absent at entry level.
 
 ## What counts
 
@@ -49,10 +49,10 @@ The template is an editorial checklist, not an invitation to fill six slots with
 | knowledge domain | 1 | 0 | 1 | 0 | 0 |
 | law or principle | 33 | 17 | 16 | 0 | 0 |
 | method or methodology | 23 | 9 | 14 | 0 | 0 |
-| organisation | 10 | 0 | 3 | 5 | 2 |
-| person | 263 | 3 | 62 | 159 | 39 |
+| organisation | 12 | 0 | 3 | 7 | 2 |
+| person | 270 | 3 | 63 | 166 | 38 |
 | practice | 25 | 5 | 11 | 9 | 0 |
-| publication | 216 | 1 | 22 | 193 | 0 |
+| publication | 220 | 1 | 22 | 197 | 0 |
 | technology | 1 | 0 | 1 | 0 | 0 |
 | theory | 1 | 0 | 1 | 0 | 0 |
 | tool | 14 | 0 | 13 | 1 | 0 |
@@ -125,10 +125,10 @@ The queue below is generated from current structure. Low degree and low relation
 | Power law | concept | unconnected | none | 0 | 0 |
 | Resilience | concept | unconnected | none | 0 | 0 |
 | Robert Axelrod | person | unconnected | none | 0 | 0 |
-| Robert Rosen | person | unconnected | none | 0 | 0 |
 | Sandra Janoff | person | unconnected | none | 0 | 0 |
 | Scaling laws | concept | unconnected | none | 0 | 0 |
 | Stuart Kauffman | person | unconnected | none | 0 | 0 |
+| System | concept | unconnected | none | 0 | 0 |
 
 ## First enrichment cohort in this release
 
