@@ -14,9 +14,11 @@ assert data==json.loads((root/'docs/assets/public-data.json').read_text(encoding
 assert data['graph_snapshot']==calculate(data)
 assert data['map_source_review']==packet
 assert packet==json.loads((root/'docs/prior-maps/coexplorer/source-review.json').read_text(encoding='utf-8'))
-expected=json.loads((root/'sources/maps-2026-09-19/canonical-baseline.json').read_text(encoding='utf-8'))
+expected=json.loads((root/'validation/maps-input.json').read_text(encoding='utf-8'))
+identities=json.loads((root/'sources/maps-2026-09-19/canonical-identities.json').read_text(encoding='utf-8'))
 for key,sha in expected.items():
     records=sorted(data[key],key=lambda x:x.get('id',x.get('node_id','')))
+    assert [x.get('id',x.get('node_id','')) for x in records]==identities[key], 'Canonical identities changed: '+key
     assert hashlib.sha256(json.dumps(records,sort_keys=True,ensure_ascii=False).encode()).hexdigest()==sha, 'Canonical content changed: '+key
 for name,sha in [('comparator-systemic-evolution.json',COMPARATOR_SHA256),('systemic-evolution-reconciliation.json',RECONCILIATION_SHA256)]:
     original=(root/'data'/name).read_bytes()

@@ -149,6 +149,7 @@ validate: build-base
 	python3 scripts/validate_maps_review.py
 
 apply-maps:
+	python3 scripts/snapshot_maps_input.py
 	python3 scripts/apply_maps_review.py
 	python3 scripts/build_public_knowledge.py
 	python3 scripts/ensure_feedback_controls.py
