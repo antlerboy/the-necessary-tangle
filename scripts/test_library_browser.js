@@ -47,6 +47,16 @@ async function main(){
   await page.goto(base+'/#view=item&id=person_benjamin_p_taylor&from=home',{waitUntil:'networkidle'});
   assert((await page.getByRole('complementary').textContent()).includes('Five core leadership practices'));
   assert((await page.getByRole('complementary').textContent()).includes('Philip Boxer'));
+  const inspectAuthorship=page.getByRole('complementary').getByRole('link',{name:'Inspect this connection',exact:true}).first();
+  assert((await inspectAuthorship.getAttribute('href')).includes('layer=provenance'),'An authorship inspection link opens a layer containing its statement');
+  await inspectAuthorship.click();
+  await page.waitForURL('**/#view=map*');
+  assert.equal(await page.locator('#mapLayer').inputValue(),'provenance');
+  assert.equal(await page.locator('#graphEdges .graph-edge.selected').count(),1,'The inspected authorship line is drawn');
+  assert((await page.locator('#mapInspector').textContent()).includes('Claim-level locator'));
+  await page.reload({waitUntil:'networkidle'});
+  assert.equal(await page.locator('#graphEdges .graph-edge.selected').count(),1,'The copied inspection route survives reload');
+  await page.goto(base+'/#view=item&id=person_benjamin_p_taylor&from=home',{waitUntil:'networkidle'});
   await page.getByRole('link',{name:'Place in the tangle',exact:true}).click();
   if(width===390 && await page.locator('#mapCardToggle').getAttribute('aria-pressed')==='true') await page.getByRole('button',{name:'Graph view',exact:true}).click();
   await page.waitForURL('**/#view=map*');

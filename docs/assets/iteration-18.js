@@ -156,7 +156,10 @@
       const link = document.createElement('a');
       link.className = 'text-button inspect-edge-link';
       link.dataset.edge = button.dataset.edge;
-      link.href = `#view=map&layer=substantive&depth=constellation&focus=${encodeURIComponent(canonical(edge.source))}&edge=${encodeURIComponent(edge.id)}`;
+      const layer = edge.claim_status === 'legacy_unresolved' || edge.relation_family === 'legacy'
+        ? 'all' : ['classification', 'evidence', 'documentary'].includes(edge.relation_family)
+          ? 'provenance' : 'substantive';
+      link.href = `#view=map&layer=${layer}&depth=constellation&focus=${encodeURIComponent(canonical(edge.source))}&edge=${encodeURIComponent(edge.id)}`;
       link.textContent = button.textContent || 'Inspect this connection';
       button.replaceWith(link);
     });

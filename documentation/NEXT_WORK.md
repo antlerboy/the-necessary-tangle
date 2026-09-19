@@ -103,6 +103,8 @@ Further user request, 19 September: review all dimensions of connection and map 
 
 Verification amendment: the human-layer aggregate omitted teaching even after the map and card views included it. Correct graph_metrics in scripts/apply_iteration_09.py and assert that all 56 public teaching statements enter the aggregate. No relationships are added or reclassified. The full gate and live publication checks remain required.
 
+Reader-path correction: documentary connection inspection links used the substantive layer, which hid the inspected line. Update the maintained docs/assets/iteration-18.js link builder, its asset version in apply_library_26.py, and the existing desktop/mobile browser regression. Confirm that authorship inspection draws the selected line, exposes its source locator, and survives reload. No graph claims change.
+
 ## Systems methods practice, 7 September 2026
 
 26 original practice pages; 42 source-labelled resource routes; 746 public atlas entries after the additive resource integration. All 13 core approaches and three theory rows have an explicit rehearsal, with depth limits. Ten further pages support systemic inquiry and intervention.
