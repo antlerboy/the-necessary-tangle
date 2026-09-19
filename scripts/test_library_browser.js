@@ -51,6 +51,7 @@ async function main(){
   assert((await inspectAuthorship.getAttribute('href')).includes('layer=provenance'),'An authorship inspection link opens a layer containing its statement');
   await inspectAuthorship.click();
   await page.waitForURL('**/#view=map*');
+  await page.waitForFunction(()=>document.querySelector('#mapLayer')?.value==='provenance' && document.querySelector('#graphEdges .graph-edge.selected'));
   assert.equal(await page.locator('#mapLayer').inputValue(),'provenance');
   assert.equal(await page.locator('#graphEdges .graph-edge.selected').count(),1,'The inspected authorship line is drawn');
   assert((await page.locator('#mapInspector').textContent()).includes('Claim-level locator'));
