@@ -96,3 +96,5 @@ Acceptance: reconcile each located item to an included record, a duplicate/versi
 
 
 Further user request, 19 September: review all dimensions of connection and map presentation. Include source-located arguments and disagreements, teaching, collaboration, lineage, and institutional roles; repair map scale, layer/family filtering, shareable filters, readable labels, and path navigation where verified. Test the actual controls at desktop and mobile widths. No generic related-to statements or unsupported intellectual lineage.
+
+Verification amendment: the human-layer aggregate omitted teaching even after the map and card views included it. Correct graph_metrics in scripts/apply_iteration_09.py and assert that all 56 public teaching statements enter the aggregate. No relationships are added or reclassified. The full gate and live publication checks remain required.

@@ -5,6 +5,7 @@ def apply(data,records,source,newnode,edge):
     person='person_benjamin_p_taylor'
     nodes={n['id']:n for n in data['nodes']}
     author=source('src_taylor_public_profile_20260919','Benjamin P Taylor: public work and roles','https://antlerboy.com/','What I do; Work; Thinking and writing; Ways into the work. First-person role and collection statements checked 19 September 2026.','author_profile',['Benjamin P Taylor'])
+    next(s for s in data['sources'] if s['id']==author).update(publisher='Benjamin P Taylor public work library',year='')
     atlas=source('src_tangle_curator_20260919','The Necessary Tangle: curator and purpose','https://transduction.systems/#view=about','Home page Curator section and About. Identifies the project curator, its purpose, and its relation to the earlier SysBoK.','project_documentation')
     def record(title):return next(r for r in records if r['title']==title and r.get('pages'))
     def sid(item):return next(s['id'] for s in data['sources'] if s.get('url')==item['url'])

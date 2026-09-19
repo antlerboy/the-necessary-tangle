@@ -722,7 +722,7 @@ def graph_metrics(data: dict[str, Any]) -> dict[str, Any]:
     }
     layer_families = {
         "conceptual": {"conceptual"},
-        "human_lineage": {"human", "influence", "historical"},
+        "human_lineage": {"human", "influence", "historical", "teaching"},
         "practice": {"practice"},
         "contestation": {"contestation"},
         "provenance": {"classification", "evidence", "documentary"},

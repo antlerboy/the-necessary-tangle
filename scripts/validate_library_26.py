@@ -1,11 +1,15 @@
 """Check source coverage, evidence boundaries, and preserved reviewed material."""
 from pathlib import Path
 import hashlib,json
+from apply_iteration_09 import graph_metrics
 from apply_release_21 import PACKAGE_SHA256,COMPARATOR_SHA256,RECONCILIATION_SHA256
 R=Path(__file__).resolve().parents[1]
 def load(p):return json.loads((R/p).read_text(encoding='utf-8'))
 d=load('data/public-data.json');p=load('sources/library-2026-09-19/public-library.json');c=load('docs/library/catalogue.json')
 assert d['meta']['release']==c['release']=='0.26'
+# Human-layer totals must include public teaching statements as the map does.
+without_teaching={**d,'edges':[e for e in d['edges'] if e.get('relation_family')!='teaching']}
+assert d['ai_observations']['metrics']['layers']['human_lineage']['edges']-graph_metrics(without_teaching)['layers']['human_lineage']['edges']==56
 ids={n['id'] for n in d['nodes']};sourceids={s['id'] for s in d['sources']}
 assert len(c['records'])==len({r['id'] for r in c['records']})
 assert len(c['records'])>=6614
