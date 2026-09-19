@@ -1,0 +1,54 @@
+const {chromium}=require('playwright');
+const assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path'),http=require('node:http');
+const root=path.resolve(__dirname,'../docs'),output=path.resolve(__dirname,'../validation/library-browser');
+fs.mkdirSync(output,{recursive:true});let server,browser;
+const report={status:'running',checks:[],errors:[]};
+async function main(){
+ let base=process.env.LIBRARY_BASE_URL;
+ if(!base){server=http.createServer((req,res)=>{let f=path.resolve(root,'.'+decodeURIComponent(new URL(req.url,'http://test').pathname));try{if(f!==root&&!f.startsWith(root+path.sep))throw Error('path');if(fs.statSync(f).isDirectory())f=path.join(f,'index.html');res.setHeader('Content-Type',({'.html':'text/html','.json':'application/json','.js':'application/javascript','.css':'text/css'})[path.extname(f)]||'application/octet-stream');res.end(fs.readFileSync(f));}catch{res.writeHead(404);res.end();}});await new Promise(r=>server.listen(0,'127.0.0.1',r));base='http://127.0.0.1:'+server.address().port;}
+ browser=await chromium.launch({headless:true});
+ for(const width of [1440,390]){
+  const context=await browser.newContext({viewport:{width,height:900},reducedMotion:'reduce'}),page=await context.newPage();
+  page.on('pageerror',e=>report.errors.push(e.message));
+  await page.goto(base+'/library/',{waitUntil:'networkidle'});
+  assert.equal(await page.locator('.source-card').count(),40);
+  const first=await page.locator('.source-card h2').first().textContent();
+  await page.getByRole('button',{name:'Next page',exact:true}).click();
+  assert.notEqual(await page.locator('.source-card h2').first().textContent(),first);
+  await page.getByRole('button',{name:'Previous page',exact:true}).click();
+  assert.equal(await page.locator('.source-card h2').first().textContent(),first);
+  const query=page.getByRole('searchbox',{name:'Search sources'});
+  await query.fill('zz-no-such-source');assert.equal(await page.locator('.source-card').count(),0);
+  assert(await page.locator('#result-count').textContent().then(s=>s.startsWith('No sources match')));
+  await page.getByRole('button',{name:'Reset search'}).click();assert(await query.evaluate(el=>el===document.activeElement));
+  await page.getByLabel('Connection evidence',{exact:true}).selectOption('teaching_account');
+  assert(await page.locator('.source-card').count()>0);
+  await page.getByRole('button',{name:'Reset search'}).click();
+  await page.getByLabel('Collection',{exact:true}).selectOption('Antlerboy library');
+  await query.fill('Large-group processes');
+  const card=page.locator('.source-card').filter({has:page.locator('h2 a[href="https://antlerboy.com/library/files/talks/large-group-processes.pdf"]')});
+  assert.equal(await card.count(),1);await card.getByRole('link',{name:/Source and connections/}).click();
+  await page.locator('#source-detail .map-targets').waitFor();
+  assert(await page.locator('#source-detail .map-targets li').count()>10);
+  assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1));
+  const headings=await page.locator('h1 a,h2 a,h3 a').evaluateAll(es=>es.map(e=>getComputedStyle(e).textDecorationLine));assert(headings.every(s=>s==='none'));
+  await page.screenshot({path:path.join(output,'source-'+width+'.png')});
+  await page.getByRole('link',{name:'Explore on the map',exact:true}).click();
+  await page.locator('#graphSvg [data-id]').first().waitFor();
+  assert(await page.locator('#graphSvg [data-id]').count()>1);
+  assert.equal(new URL(page.url()).hash.includes('layer=all'),true);
+  report.checks.push({width,pagination:true,emptyRecovery:true,teachingFilter:true,sourceDiagram:true,atlasMap:true,headings:true,containment:true});
+  await page.goto(base+'/#view=item&id=person_benjamin_p_taylor&from=home',{waitUntil:'networkidle'});
+  assert((await page.getByRole('complementary').textContent()).includes('Five core leadership practices'));
+  assert((await page.getByRole('complementary').textContent()).includes('Philip Boxer'));
+  await page.getByRole('link',{name:'Place in the tangle',exact:true}).click();
+  await page.waitForURL('**/#view=map*');
+  assert.equal(await page.locator('#mapDepth').inputValue(),'constellation','Entry map action preserves its advertised scale');
+  assert.equal(await page.locator('#mapLayer').inputValue(),'substantive');
+  assert(await page.locator('#graphSvg [data-id]').count()>10,'Taylor has readable connections on the default substantive layer');
+  await page.screenshot({path:path.join(output,'taylor-map-'+width+'.png')});
+  await context.close();
+ }
+ assert.equal(report.errors.length,0,JSON.stringify(report.errors));report.status='passed';
+}
+main().catch(e=>{report.status='failed';report.error=e.stack;console.error(e);process.exitCode=1;}).finally(async()=>{fs.writeFileSync(path.join(output,'report.json'),JSON.stringify(report,null,2)+'\n');console.log(JSON.stringify(report));if(browser)await browser.close();if(server)await new Promise(r=>server.close(r));});

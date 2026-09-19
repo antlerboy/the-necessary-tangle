@@ -1,7 +1,7 @@
 # The Necessary Tangle: public knowledge file
 
 Curated by Benjamin P Taylor — https://www.antlerboy.com/
-Generated from public release 0.25 on 2026-09-19.
+Generated from public release 0.26 on 2026-09-19.
 
 A living evidence atlas of systems | cybernetics | complexity.
 Every connection must say what it means. Historical sequence, logical dependence, influence, teaching, collaboration, practical use, comparison and dispute are not interchangeable.
@@ -477,7 +477,7 @@ Transformation programmes often demand change without specifying what environmen
 
 ### Sources
 
-- Benjamin Taylor VSM lecture — No public link
+- Benjamin Taylor VSM lecture — https://antlerboy.com/library/files/talks/viable-system-model-lecture.pdf
 - Core Thinking Integration — No public link
 - Steps to an Ecology of Mind — https://press.uchicago.edu/ucp/books/book/chicago/S/bo3620295.html
 
@@ -711,6 +711,17 @@ The American Society for Cybernetics is a professional society whose institution
 
 - ASC Executive Board and past presidents — https://asc-cybernetics.org/executive-board/
 
+## AmericaSpeaks 21st Century Town Meeting
+
+Type: Method or methodology
+Public depth: described
+
+A structured approach to large-scale participatory deliberation. Overview. Overview entry. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- AmericaSpeaks 21st Century Town Meeting — https://antlerboy.com/library/large-group-processes/#americaspeaks-21st-century-town-meeting
+
 ## An Introduction to the Theory of Control
 
 Type: Publication
@@ -811,6 +822,17 @@ Robert Rosen's book, with contributions by Judith Rosen and others in the second
 
 - Anticipatory Systems, second edition — https://link.springer.com/book/10.1007/978-1-4614-1269-4
 
+## Antlerboy public work library
+
+Type: Corpus
+Public depth: described
+
+A public collection of writing, teaching, recordings, tools, and community links maintained by Benjamin P Taylor. Linked materials retain their individual authorship and source terms.
+
+### Sources
+
+- Antlerboy public library manifest — https://antlerboy.com/library/manifest.json
+
 ## Appreciative Inquiry
 
 Type: Intervention skill
@@ -823,6 +845,17 @@ Appreciative Inquiry explores strengths, valued experience and desired possibili
 - SCiO CF Resources v9 draft — No public link
 - SCiO Professional Accreditation and Competency Framework — https://www.systemspractice.org/professional-accreditation
 
+## Appreciative Inquiry (AI) Summit
+
+Type: Method or methodology
+Public depth: described
+
+Enquire into valued experience and use it to imagine and work towards a preferred future. Overview. Teaching account. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Appreciative Inquiry (AI) Summit — https://antlerboy.com/library/large-group-processes/#appreciative-inquiry-ai-summit
+
 ## Archimedes
 
 Type: Person
@@ -833,6 +866,17 @@ Ancient Greek mathematician whose work included iterative and self-referential c
 ### Sources
 
 - SCiO SysBoK - Recursion v1 — No public link
+
+## Art of Hosting
+
+Type: Method or methodology
+Public depth: described
+
+Combine participatory practices to support shared inquiry and collective work. Overview. Teaching account. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Art of Hosting — https://antlerboy.com/library/large-group-processes/#art-of-hosting
 
 ## Arthur Battram
 
@@ -1018,7 +1062,7 @@ Local variety usually outruns central knowledge. Suppressing autonomy can make t
 ### Sources
 
 - Viable System Model - Metaphorum — https://metaphorum.org/staffords-work/viable-system-model
-- Benjamin Taylor VSM lecture — No public link
+- Benjamin Taylor VSM lecture — https://antlerboy.com/library/files/talks/viable-system-model-lecture.pdf
 
 ## Autopoiesis: The Organization of Living Systems, Its Characterization, and a Model
 
@@ -1030,6 +1074,17 @@ F. G. Varela, H. R. Maturana, and R. Uribe, ‘Autopoiesis: The Organization of 
 ### Sources
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## Axelrod Conference Model
+
+Type: Method or methodology
+Public depth: described
+
+Use a linked series of conferences to develop shared understanding and organisational redesign. Overview. Teaching account. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Axelrod Conference Model — https://antlerboy.com/library/large-group-processes/#axelrod-conference-model
 
 ## B. B. Mandelbrot
 
@@ -1156,13 +1211,81 @@ A behaviour-over-time graph sketches how one or more variables change across a c
 ## Benjamin P Taylor
 
 Type: Person
-Public depth: described
+Public depth: profile
 
-Systems practitioner and educator, and co-author with Philip Boxer of What the boundary cannot carry alone. This entry starts from inspectable public work and does not claim a complete account of his contributions.
+Systems practitioner, educator, and writer working on public-service transformation, organisational capability, and the use of systems and cybernetic ideas in practice. He leads RedQuadrant and the Public Service Transformation Academy, serves on the SCiO board, and curates the Systems Community of Inquiry and The Necessary Tangle.
+
+### Summary
+
+Taylor’s public work moves between work with services and organisations, practitioner education, writing, and community curation. His teaching includes the Viable System Model (VSM), large-group processes, constructive conversations, and distinctions between systems leadership, systems change, systems practice, and systems convening. His current papers with Philip Boxer examine relational public services, demand, organisational boundaries, and the conditions under which learning can change an institution’s response.
+
+### Why it matters
+
+The contribution represented here is the work of translating, combining, testing, and teaching ideas in public-service and organisational settings. Examples include the four dynamics of organisation, five core leadership practices, and the degrees-of-relationality heuristic. These should be read as specific, attributable practice accounts with their own sources and limits. The public archive also offers a route from a problem in practice to a teaching account, an underlying concept, and competing ways of framing it.
+
+### Key distinctions
+
+- Systems leadership, systems change, systems practice, and systems convening do different work, even where they overlap.
+- A reliable transaction can be appropriate; relationality is not automatically an improvement.
+- Teaching, adaptation, authorship, and curation are different contributions.
+- An organisation’s service categories do not exhaust what matters in a citizen’s life.
+
+### Historical development
+
+- Four dynamics: the 2024 ISSS presentation explicitly names Barry Oshry, Stafford Beer, and Sandra Janoff as sources for the synthesis.
+- Management cybernetics and the Viable System Model appear in named public lectures and practical adaptations.
+- Co-authored working papers with Philip Boxer address asymmetric demand and relational public-service reform.
+
+### Ideas it depends on
+
+- Viable System Model
+- Boundaries and organisational capability
+- Learning, constructive conversation, and public purpose
+
+### What develops from it
+
+- Four dynamics of organisation (Taylor)
+- Five core leadership practices (Taylor)
+- Degrees of relationality: a ladder for public service design
+- The Necessary Tangle and the public work library
+
+### Connections to practice
+
+- Public-service transformation and capability development through RedQuadrant and PSTA
+- SCiO professional practice, events, and education
+- Systems convening and work across organisational boundaries
+- Large-group facilitation and participation
+- Public writing at Chosen Path and curation through SysCoI
+
+### Common confusions
+
+- Hosting or curating a work does not make Taylor its author.
+- The degrees-of-relationality ladder is a heuristic, not a moral ranking or validated maturity scale.
+- Presenting the VSM does not imply originating it.
+
+### Open questions and checks
+
+- Add independent accounts of practice and outcomes, distinguishing testimony from evaluated evidence.
+- Continue reconciling older writing and training records, including editions and co-author credits.
+- Develop further passage-level connections from the four requested research collections.
 
 ### Sources
 
 - What the boundary cannot carry alone, working redraft v3 — https://antlerboy.com/library/what-the-boundary-cannot-carry-alone/
+- Benjamin P Taylor: public work and roles — https://antlerboy.com/
+- The Necessary Tangle: curator and purpose — https://transduction.systems/#view=about
+- Positive dynamics of differentiation and integration; ISSS — https://antlerboy.com/library/files/talks/positive-dynamics-differentiation-and-integration.pdf
+- Degrees of relationality — https://antlerboy.com/library/files/preprints/2026-degrees-of-relationality-v12-taylor-boxer.pdf
+- The demand side of public services — https://antlerboy.com/library/files/preprints/2026-the-demand-side-of-public-services-v9-boxer-taylor.pdf
+- Anxiety, ideology and the evacuation of the public realm — https://antlerboy.com/library/files/preprints/2026-anxiety-ideology-and-the-evacuation-of-the-public-realm-v4-boxer-taylor.pdf
+- Systems leadership, change, theory and practice — https://antlerboy.com/library/files/talks/systems-leadership-change-theory-and-practice.pdf
+- Four dynamics for effective organisation — https://antlerboy.com/library/files/talks/introduction-to-four-dynamics.pdf
+- Organisations need to deal with complexity: a simplification of the Viable System Model — https://antlerboy.com/library/files/talks/simplifying-the-viable-system-model.pdf
+- Benjamin Taylor VSM lecture — https://antlerboy.com/library/files/talks/viable-system-model-lecture.pdf
+- Power, systems, and the Viable System Model — https://antlerboy.com/library/files/talks/power-systems-and-the-viable-system-model.pdf
+- Clarity practices: five core practices — https://antlerboy.com/library/files/talks/clarity-practices.pdf
+- Large-group processes — https://antlerboy.com/library/files/talks/large-group-processes.pdf
+- Better conversations for better realities: learning loops to break the devil's bargain — https://antlerboy.com/library/files/talks/better-conversations-for-better-realities.pdf
 
 ## Bertrand Russell
 
@@ -1270,7 +1393,7 @@ Boundaries decide who counts, what becomes a cost, which outcomes are visible an
 
 - The Systemic Intervention Approach — https://doi.org/10.1002/sres.2819
 - Core Thinking Integration — No public link
-- Systems convening and boundaries core slides — No public link
+- Systems convening and boundaries core slides — https://antlerboy.com/library/files/talks/systems-convening-and-boundaries.pdf
 
 ## Boundary critique
 
@@ -1334,6 +1457,17 @@ Every systems intervention draws a boundary. Making that boundary discussable is
 ### Sources
 
 - A Mini-Primer of Critical Systems Heuristics — https://wulrich.com/csh.html
+
+## Boundary Critique (Critical Systems Heuristics)
+
+Type: Method or methodology
+Public depth: described
+
+Examine who and what a decision includes, excludes, benefits, or disadvantages. Overview. Overview entry. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Boundary Critique (Critical Systems Heuristics) — https://antlerboy.com/library/large-group-processes/#boundary-critique-critical-systems-heuristics
 
 ## Bounded applicability
 
@@ -1417,6 +1551,17 @@ Brain is a Machine (Science Digest). Listed in Wiener’s historical cybernetics
 ### Sources
 
 - Wiener’s selected readings on cybernetics, 1951, 1952, 1956 — https://stream.syscoi.com/2026/09/05/28544/
+
+## Breaking the Shell
+
+Type: Method or methodology
+Public depth: described
+
+Distinguish external constraints, organisational barriers, and assumptions the group can challenge. Overview. Teaching account. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Breaking the Shell — https://antlerboy.com/library/large-group-processes/#breaking-the-shell
 
 ## Bruce Edmonds
 
@@ -1613,6 +1758,17 @@ E. B. W. Zubrow, ‘Carrying Capacity and Dynamic Equilibrium in the Prehistoric
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
 
+## Causal Layered Analysis (CLA)
+
+Type: Method or methodology
+Public depth: described
+
+Examine an issue through surface accounts, systemic causes, worldviews, and underlying stories. Overview. Overview entry. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Causal Layered Analysis (CLA) — https://antlerboy.com/library/large-group-processes/#causal-layered-analysis-cla
+
 ## Causal loop diagrams
 
 Type: Concept
@@ -1683,6 +1839,17 @@ A Doncaster practice proposition explicitly bounded by the caution that kindness
 - Approved key messages and draft public copy from the Doncaster interview — No public link
 - City of Doncaster Council Corporate Plan 2024–25 — https://www.doncaster.gov.uk/documents/DocumentView/Stream/Media/Default/Council%20and%20Democracy/Documents/Corporate%20Policy%20And%20Performance/2024%202025%20Corporate%20Plan.pdf
 
+## Chosen Path
+
+Type: Corpus
+Public depth: described
+
+Benjamin P Taylor’s blog and archive of essays, working notes, and arguments. The source register indexes its public posts; individual entries retain their dates and source links.
+
+### Sources
+
+- Benjamin P Taylor: public work and roles — https://antlerboy.com/
+
 ## Chris Mowles
 
 Type: Person
@@ -1746,6 +1913,17 @@ The atlas is much stronger on formal and cybernetic concepts than on the difficu
 - Complex, but not quite complex enough: The turn to the complexity sciences in evaluation scholarship — https://journals.sagepub.com/doi/10.1177/1356389014527885
 - The practice of complexity: Review, change and service improvement in an NHS department — https://uhra.herts.ac.uk/id/eprint/63/
 
+## Circle Methodology
+
+Type: Method or methodology
+Public depth: described
+
+Use a circle-based form to organise participation, listening, and dialogue. Overview. Overview entry. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Circle Methodology — https://antlerboy.com/library/large-group-processes/#circle-methodology
+
 ## Circular economy
 
 Type: Practice
@@ -1758,6 +1936,17 @@ An economy-oriented practice strand that Damian Allen places alongside regenerat
 - Damian Allen follow-up correspondence on lineage and UTSI — No public link
 - Designing Regenerative Cultures — https://www.triarchypress.net/drc.html
 - Do Bees Pee? — https://www.lindaboothsweeney.com/
+
+## Citizens' assemblies and variants
+
+Type: Method or methodology
+Public depth: described
+
+Bring a broadly representative group into informed deliberation on a public issue. Overview. Teaching account. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Citizens' assemblies and variants — https://antlerboy.com/library/large-group-processes/#citizens-assemblies-and-variants
 
 ## Claude Bernard
 
@@ -1861,6 +2050,17 @@ It provides chronology and lineage evidence that is often missing from systems a
 
 - David Ing — Coevolving Innovations publications — https://coevolving.com/commons/publications
 
+## Cognitive Edge methods / Cynefin / SenseMaker
+
+Type: Method or methodology
+Public depth: described
+
+Use narrative material and participatory sense-making to explore patterns in complex situations. Overview. Teaching account. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Cognitive Edge methods / Cynefin / SenseMaker — https://antlerboy.com/library/large-group-processes/#cognitive-edge-methods-cynefin-sensemaker
+
 ## Cohesion
 
 Type: Concept
@@ -1929,8 +2129,8 @@ Organisations commonly oscillate between silos and centralisation. Cohesion offe
 ### Sources
 
 - Viable System Model - Metaphorum — https://metaphorum.org/staffords-work/viable-system-model
-- Benjamin Taylor VSM lecture — No public link
-- Systems convening and boundaries core slides — No public link
+- Benjamin Taylor VSM lecture — https://antlerboy.com/library/files/talks/viable-system-model-lecture.pdf
+- Systems convening and boundaries core slides — https://antlerboy.com/library/files/talks/systems-convening-and-boundaries.pdf
 
 ## Colin Cherry
 
@@ -1942,6 +2142,28 @@ Named in the historical reading list as an author or editor of On Human Communic
 ### Sources
 
 - Wiener’s selected readings on cybernetics, 1951, 1952, 1956 — https://stream.syscoi.com/2026/09/05/28544/
+
+## Collaborative Development Action Inquiry (CDAI)
+
+Type: Method or methodology
+Public depth: described
+
+Combine action and reflection with attention to development and participation. Overview. Teaching account. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Collaborative Development Action Inquiry (CDAI) — https://antlerboy.com/library/large-group-processes/#collaborative-development-action-inquiry-cdai
+
+## Collaborative Leadership Development
+
+Type: Method or methodology
+Public depth: described
+
+Named as a participatory approach to developing leadership across a system. Overview. Overview entry. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Collaborative Leadership Development — https://antlerboy.com/library/large-group-processes/#collaborative-leadership-development
 
 ## Collective Action and the Evolution of Social Norms
 
@@ -2256,6 +2478,17 @@ Confrontation Analysis is a structured approach to dilemmas, positions and poten
 
 - SCiO CF Resources v9 draft — No public link
 
+## Consensus Workshop Method
+
+Type: Method or methodology
+Public depth: described
+
+Generate ideas, cluster them, and develop shared meaning and agreement. Overview. Teaching account. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Consensus Workshop Method — https://antlerboy.com/library/large-group-processes/#consensus-workshop-method
+
 ## Consequential learning (relational public services)
 
 Type: Concept
@@ -2291,6 +2524,7 @@ Systemic constellations use spatial representation and embodied positioning to e
 
 - SCiO CF Resources v9 draft — No public link
 - SCiO Professional Accreditation and Competency Framework — https://www.systemspractice.org/professional-accreditation
+- Constellations — https://antlerboy.com/library/large-group-processes/#constellations
 
 ## Context diagrams
 
@@ -2361,6 +2595,17 @@ Control theory studies how dynamical systems can be regulated or guided through 
 - SCiO SysBoK - Feedback v1 — No public link
 - What is Control? — https://ieeecss.org/about/what-control
 - History of Control — https://www.ieeecss.org/history
+
+## Converge-diverge model
+
+Type: Method or methodology
+Public depth: described
+
+Move between opening up possibilities and narrowing them into choices. Overview. Overview entry. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Converge-diverge model — https://antlerboy.com/library/large-group-processes/#converge-diverge-model
 
 ## Conversation mapping
 
@@ -2612,6 +2857,17 @@ It is one of the curator's four strongest current reading recommendations and di
 ### Sources
 
 - Critical Systems Thinking: A Practitioner's Guide — https://www.systemspractice.org/resources/critical-systems-thinking-practitioners-guide
+
+## Cross-Impact Analysis
+
+Type: Method or methodology
+Public depth: described
+
+Explore how developments or decisions might affect one another. Overview. Overview entry. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Cross-Impact Analysis — https://antlerboy.com/library/large-group-processes/#cross-impact-analysis
 
 ## Culture mapping
 
@@ -3513,6 +3769,28 @@ It shifts inclusion from demographic display to the construction of knowledge, i
 - Dr Magnus Ramage — Open University profile — https://profiles.open.ac.uk/magnus-ramage
 - The Necessary Tangle running feedback: canon, closure and patriarchy — https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5345119282
 
+## Deep Democracy (Lewis Method)
+
+Type: Method or methodology
+Public depth: described
+
+Surface minority views and work with the tensions around a majority decision. Overview. Teaching account. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Deep Democracy (Lewis Method) — https://antlerboy.com/library/large-group-processes/#deep-democracy-lewis-method
+
+## Delphi Method
+
+Type: Method or methodology
+Public depth: described
+
+Use successive rounds of structured enquiry to explore forecasts and areas of agreement. Overview. Overview entry. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Delphi Method — https://antlerboy.com/library/large-group-processes/#delphi-method
+
 ## Deming
 
 Type: Intervention skill
@@ -3536,6 +3814,17 @@ Named in the historical reading list as an author or editor of Lectures on Commu
 ### Sources
 
 - Wiener’s selected readings on cybernetics, 1951, 1952, 1956 — https://stream.syscoi.com/2026/09/05/28544/
+
+## Design Charrettes
+
+Type: Method or methodology
+Public depth: described
+
+Use concentrated collaborative design sessions with people holding different perspectives. Overview. Overview entry. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Design Charrettes — https://antlerboy.com/library/large-group-processes/#design-charrettes
 
 ## Design for a Brain
 
@@ -3595,6 +3884,17 @@ A human-centred, prototyping-oriented practice strand in Damian Allen's lineage 
 ### Sources
 
 - Lineages of Systems Practice — Damian Allen — No public link
+
+## Design Thinking Workshops
+
+Type: Method or methodology
+Public depth: described
+
+Combine inquiry into experience, collaborative design, prototyping, and feedback. Overview. Overview entry. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Design Thinking Workshops — https://antlerboy.com/library/large-group-processes/#design-thinking-workshops
 
 ## Designing Regenerative Cultures
 
@@ -4789,6 +5089,17 @@ Facilitation designs and supports a group process so participants can do purpose
 - SCiO CF Resources v9 draft — No public link
 - SCiO Professional Accreditation and Competency Framework — https://www.systemspractice.org/professional-accreditation
 
+## Fast Cycle Full Participation
+
+Type: Method or methodology
+Public depth: described
+
+Use intensive, time-bounded participation to develop decisions with the relevant stakeholders. Overview. Teaching account. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Fast Cycle Full Participation — https://antlerboy.com/library/large-group-processes/#fast-cycle-full-participation
+
 ## Feed back to Idiocy
 
 Type: Publication
@@ -4995,6 +5306,17 @@ The First Circular Causality Principle concerns positive feedback. Mutually ampl
 - The Grammar of Systems II: From Order to Chaos and Back Again, 2nd edition — https://www.systemspractice.org/resources/grammar-systems-ii-order-chaos-back-again-2nd-ed
 - Cybersecurity Lessons from The Grammar of Systems, part 1 — https://www.linkedin.com/pulse/cybersecurity-lessons-from-grammar-systems-order-chaos-osama-salah/
 
+## Fishbowl Conversations
+
+Type: Method or methodology
+Public depth: described
+
+Move people between an active conversation and an observing group. Overview. Overview entry. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Fishbowl Conversations — https://antlerboy.com/library/large-group-processes/#fishbowl-conversations
+
 ## Fitness landscape
 
 Type: Concept
@@ -5005,6 +5327,17 @@ A representation linking possible configurations with measures of reproductive o
 ### Sources
 
 - 32 Key Concepts in Systems Thinking and Complexity Theory — https://unfix.com/blog/32-key-concepts
+
+## Five core leadership practices (Taylor)
+
+Type: Practice
+Public depth: described
+
+A teaching framework joining constructive conversations, clarity, triple-loop learning, culture shaping, and good and clear intent. The first three are presented as foundations for a learning system; culture and intent concern productivity and purpose. The relationships are propositions in the cited practice account, rather than independent efficacy findings.
+
+### Sources
+
+- Clarity practices: five core practices — https://antlerboy.com/library/files/talks/clarity-practices.pdf
 
 ## Flawless consulting
 
@@ -5163,6 +5496,18 @@ Volume 4 of the Foundational Papers in Complexity Science collection, represente
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
 
+## Four dynamics of organisation (Taylor)
+
+Type: Method or methodology
+Public depth: described
+
+A practice synthesis of differentiation, integration, individuation, and homogenisation, developed through the complementary practices segment, blend, empower, and harmonise. Taylor’s 2024 account explicitly draws on Barry Oshry, Stafford Beer, and Sandra Janoff. The model is a working account for inquiry and organisation, not a universal causal law.
+
+### Sources
+
+- Positive dynamics of differentiation and integration; ISSS — https://antlerboy.com/library/files/talks/positive-dynamics-differentiation-and-integration.pdf
+- Four dynamics for effective organisation — https://antlerboy.com/library/files/talks/introduction-to-four-dynamics.pdf
+
 ## Fractal Enterprise Model and Capabilities
 
 Type: Intervention skill
@@ -5311,6 +5656,28 @@ J. Pearl, ‘Fusion, Propagation, and Structuring in Belief Networks’ (1986); 
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
 
+## Future Back Planning
+
+Type: Method or methodology
+Public depth: described
+
+Start with a desired future and reason back to present action. Overview. Overview entry. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Future Back Planning — https://antlerboy.com/library/large-group-processes/#future-back-planning
+
+## Future Search
+
+Type: Method or methodology
+Public depth: described
+
+A cross-section of stakeholders works on a shared future and the action needed to pursue it. Overview. Teaching account. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Future Search — https://antlerboy.com/library/large-group-processes/#future-search
+
 ## G. B. West
 
 Type: Person
@@ -5389,6 +5756,17 @@ Game theory studies situations in which each participant's outcome depends partl
 - SCiO SysBoK - Feedback v1 — No public link
 - Game Theory — https://plato.stanford.edu/archives/fall2023/entries/game-theory/
 
+## GameStorming
+
+Type: Method or methodology
+Public depth: described
+
+Named in the overview's solutions-design column; the deck does not supply a separate worked account. Overview. Overview entry. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- GameStorming — https://antlerboy.com/library/large-group-processes/#gamestorming
+
 ## Gary S. Metcalf
 
 Type: Person
@@ -5399,6 +5777,28 @@ Co-editor of the 2021 Handbook of Systems Sciences. This initial entry records t
 ### Sources
 
 - Handbook of Systems Sciences — https://link.springer.com/referencework/10.1007/978-981-15-0720-5
+
+## Gemba Kaizen
+
+Type: Method or methodology
+Public depth: described
+
+Improve work through attention to the place and process in which it happens. Overview. Overview entry. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Gemba Kaizen — https://antlerboy.com/library/large-group-processes/#gemba-kaizen
+
+## Generative Scribing
+
+Type: Method or methodology
+Public depth: described
+
+Use visual work to reflect emerging patterns and meaning in a group's conversation. Overview. Overview entry. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Generative Scribing — https://antlerboy.com/library/large-group-processes/#generative-scribing
 
 ## Geometric Analysis of Shell Coiling; General Problems
 
@@ -5526,6 +5926,28 @@ Anthropologist and cybernetic thinker whose work connected communication, learni
 ### Sources
 
 - Steps to an Ecology of Mind — https://press.uchicago.edu/ucp/books/book/chicago/S/bo3620295.html
+
+## GroupWorks Patterns
+
+Type: Method or methodology
+Public depth: described
+
+Use a pattern language to examine and design group processes. Overview. Teaching account. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- GroupWorks Patterns — https://antlerboy.com/library/large-group-processes/#groupworks-patterns
+
+## Gurteen Knowledge Café
+
+Type: Method or methodology
+Public depth: described
+
+Use small-group conversations and whole-group reflection to develop understanding. Overview. Teaching account. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Gurteen Knowledge Café — https://antlerboy.com/library/large-group-processes/#gurteen-knowledge-cafe
 
 ## H. Haken
 
@@ -5746,6 +6168,17 @@ The Homeostasis Principle says that a system remains stable only while its essen
 - The Grammar of Systems II: From Order to Chaos and Back Again, 2nd edition — https://www.systemspractice.org/resources/grammar-systems-ii-order-chaos-back-again-2nd-ed
 - Cybersecurity Lessons from The Grammar of Systems, part 1 — https://www.linkedin.com/pulse/cybersecurity-lessons-from-grammar-systems-order-chaos-osama-salah/
 
+## Hoshin Kanri
+
+Type: Method or methodology
+Public depth: described
+
+Connect strategic direction with work at different organisational levels through repeated dialogue and review. Overview. Teaching account. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Hoshin Kanri — https://antlerboy.com/library/large-group-processes/#hoshin-kanri
+
 ## How Long is the Coast of Britain? Statistical Self-Similarity and Fractional Dimension
 
 Type: Publication
@@ -5886,6 +6319,17 @@ Credited author of Tools, Exercises, and Strategies for Coping With Complexity. 
 
 - Tools, Exercises, and Strategies for Coping With Complexity — https://www.igi-global.com/book/tools-exercises-strategies-coping-complexity/302472
 
+## ICA Strategic Planning Process
+
+Type: Method or methodology
+Public depth: described
+
+Listed in the deck's visioning and alignment column; a separate worked account is not supplied here. Overview. Overview entry. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- ICA Strategic Planning Process — https://antlerboy.com/library/large-group-processes/#ica-strategic-planning-process
+
 ## Iceberg model
 
 Type: Intervention skill
@@ -5976,7 +6420,7 @@ Organisations can adapt so little that they cease to fit their environment, or c
 ### Sources
 
 - Core Thinking Integration — No public link
-- Benjamin Taylor VSM lecture — No public link
+- Benjamin Taylor VSM lecture — https://antlerboy.com/library/files/talks/viable-system-model-lecture.pdf
 - Viable System Model - Metaphorum — https://metaphorum.org/staffords-work/viable-system-model
 
 ## If Robots Run the Works
@@ -6382,6 +6826,7 @@ Interactive Planning is Russell Ackoff's participative approach to redesigning a
 ### Sources
 
 - SCiO CF Resources v9 draft — No public link
+- Interactive Planning — https://antlerboy.com/library/large-group-processes/#interactive-planning
 
 ## Interconnectedness
 
@@ -7188,6 +7633,17 @@ Large-group engagement processes such as Open Space, World Café and Future Sear
 - SCiO CF Resources v9 draft — No public link
 - SCiO Professional Accreditation and Competency Framework — https://www.systemspractice.org/professional-accreditation
 
+## Large-Scale Interactive Process (LSIP)
+
+Type: Method or methodology
+Public depth: described
+
+Bring many stakeholders into shared planning and decisions about change. Overview. Teaching account. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Large-Scale Interactive Process (LSIP) — https://antlerboy.com/library/large-group-processes/#large-scale-interactive-process-lsip
+
 ## Laura Winn
 
 Type: Person
@@ -7510,6 +7966,17 @@ The essay is useful precisely because it combines a memorable hierarchy with rep
 
 - Leverage Points: Places to Intervene in a System — https://donellameadows.org/archives/leverage-points-places-to-intervene-in-a-system/
 
+## Liberating Structures
+
+Type: Method or methodology
+Public depth: described
+
+A repertoire of participation formats that can be combined for different purposes. Overview. Teaching account. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Liberating Structures — https://antlerboy.com/library/large-group-processes/#liberating-structures
+
 ## Life, Thermodynamics, and Cybernetics
 
 Type: Publication
@@ -7808,6 +8275,17 @@ Named in the historical reading list as an author or editor of Life, Thermodynam
 ### Sources
 
 - Wiener’s selected readings on cybernetics, 1951, 1952, 1956 — https://stream.syscoi.com/2026/09/05/28544/
+
+## M&G Taylor Method / Decision Accelerator / DesignShop
+
+Type: Method or methodology
+Public depth: described
+
+Use intensive collaborative design, visual work, and iterative exploration of an issue. Overview. Teaching account. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- M&G Taylor Method / Decision Accelerator / DesignShop — https://antlerboy.com/library/large-group-processes/#m-g-taylor-method-decision-accelerator-designshop
 
 ## M. Bunge
 
@@ -8237,6 +8715,17 @@ In Jurgen Appelo's unFIX synthesis, mental models are the assumptions and intern
 ### Sources
 
 - 32 Key Concepts in Systems Thinking and Complexity Theory — https://unfix.com/blog/32-key-concepts
+
+## Meta-Planning
+
+Type: Method or methodology
+Public depth: described
+
+Generate, arrange, and prioritise contributions to a shared discussion. Overview. Overview entry. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Meta-Planning — https://antlerboy.com/library/large-group-processes/#meta-planning
 
 ## Metabolic Stability and Epigenesis in Randomly Constructed Genetic Nets
 
@@ -9278,6 +9767,28 @@ G. J. Chaitin, ‘On the Length of Programs for Computing Finite Binary Sequence
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
 
+## Open Dialogue
+
+Type: Method or methodology
+Public depth: described
+
+An approach named in the deck for inclusive listening and understanding. Overview. Overview entry. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Open Dialogue — https://antlerboy.com/library/large-group-processes/#open-dialogue
+
+## Open Space Technology (OST)
+
+Type: Method or methodology
+Public depth: described
+
+Participants propose the agenda and take responsibility for conversations they want to pursue. Overview. Teaching account. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Open Space Technology (OST) — https://antlerboy.com/library/large-group-processes/#open-space-technology-ost
+
 ## Opening the Box
 
 Type: Publication
@@ -9692,6 +10203,72 @@ Ancient Sanskrit grammarian whose highly systematic generative rules are often d
 
 - SCiO SysBoK - Recursion v1 — No public link
 
+## Participative Design Workshops (PDW)
+
+Type: Method or methodology
+Public depth: described
+
+Enable people doing the work to participate in redesigning it. Overview. Teaching account. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Participative Design Workshops (PDW) — https://antlerboy.com/library/large-group-processes/#participative-design-workshops-pdw
+
+## Participatory / Community Mapping
+
+Type: Method or methodology
+Public depth: described
+
+Create a map together to explore community relationships and local experience. Overview. Overview entry. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Participatory / Community Mapping — https://antlerboy.com/library/large-group-processes/#participatory-community-mapping
+
+## Participatory budgeting
+
+Type: Method or methodology
+Public depth: described
+
+Involve communities in deciding how to allocate a defined public budget. Overview. Overview entry. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Participatory budgeting — https://antlerboy.com/library/large-group-processes/#participatory-budgeting
+
+## Participatory Innovation Model
+
+Type: Method or methodology
+Public depth: described
+
+Involve stakeholders in defining challenges and developing responses to them. Overview. Teaching account. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Participatory Innovation Model — https://antlerboy.com/library/large-group-processes/#participatory-innovation-model
+
+## Participatory Narrative Inquiry
+
+Type: Method or methodology
+Public depth: described
+
+Collect and interpret stories together to explore patterns in experience. Overview. Overview entry. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Participatory Narrative Inquiry — https://antlerboy.com/library/large-group-processes/#participatory-narrative-inquiry
+
+## Participatory Systems Mapping
+
+Type: Method or methodology
+Public depth: described
+
+Map interdependencies with the people involved in the situation. Overview. Overview entry. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Participatory Systems Mapping — https://antlerboy.com/library/large-group-processes/#participatory-systems-mapping
+
 ## Patrick Hoverstadt
 
 Type: Person
@@ -9762,6 +10339,17 @@ Hoverstadt's work connects the Viable System Model, systems laws, organisation d
 - Patterns of Strategy — https://www.systemspractice.org/resources/patterns-strategy-0
 - What is the Viable System Model? — https://www.systemspractice.org/resources/what-viable-system-model
 - Mosaic transformation in organisations — https://www.systemspractice.org/resources/mosaic-transformation-organisations
+
+## Pattern Language for Large Groups
+
+Type: Method or methodology
+Public depth: described
+
+Named as a framework for thinking about the design of group processes. Overview. Overview entry. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Pattern Language for Large Groups — https://antlerboy.com/library/large-group-processes/#pattern-language-for-large-groups
 
 ## Pattern Manual for Service Systems Thinking
 
@@ -9892,6 +10480,17 @@ Named in the public 0.18 coverage audit. A source-specific profile and typed lin
 ### Sources
 
 - Running feedback after release 0.17 — https://github.com/antlerboy/the-necessary-tangle/issues/2
+
+## People Need People / Warm Data Labs
+
+Type: Method or methodology
+Public depth: described
+
+Explore relationships across contexts through conversational inquiry. Overview. Teaching account. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- People Need People / Warm Data Labs — https://antlerboy.com/library/large-group-processes/#people-need-people-warm-data-labs
 
 ## Permaculture
 
@@ -10133,6 +10732,17 @@ Ancient Greek philosopher included in the inherited recursion map through later 
 
 - SCiO SysBoK - Recursion v1 — No public link
 
+## Polarity Management
+
+Type: Method or methodology
+Public depth: described
+
+Explore interdependent tensions and the consequences of overemphasising either pole. Overview. Teaching account. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Polarity Management — https://antlerboy.com/library/large-group-processes/#polarity-management
+
 ## Popular treatments by Wiener — Wiener
 
 Type: Comparator corpus
@@ -10255,6 +10865,17 @@ The Power Structuration Theorem says that agency must be balanced across recursi
 - The Grammar of Systems - SCiO presentation — https://www.systemspractice.org/resources/grammar-systems
 - The Grammar of Systems II: From Order to Chaos and Back Again, 2nd edition — https://www.systemspractice.org/resources/grammar-systems-ii-order-chaos-back-again-2nd-ed
 - Cybersecurity Lessons from The Grammar of Systems, part 2 — https://www.linkedin.com/pulse/cybersecurity-lessons-from-grammar-systems-order-chaos-osama-salah-1f
+
+## Power+Systems TOOTs
+
+Type: Method or methodology
+Public depth: described
+
+Reflect on experience from different systemic positions using Time Out of Time conversations. Overview. Teaching account. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Power+Systems TOOTs — https://antlerboy.com/library/large-group-processes/#power-systems-toots
 
 ## Practice: Confrontation Analysis: separate positions, options and credibility
 
@@ -11692,6 +12313,17 @@ A concrete rehearsal with a fictional case, explicit outputs and a way to inspec
 - Jon Walker: Viable Systems Model guide — https://www.esrad.org.uk/resources/vsmg_3/screen.php?page=home
 - SCiO systems practice courses — https://www.systemspractice.org/courses/systems-practice
 
+## Preferred Futuring
+
+Type: Method or methodology
+Public depth: described
+
+Develop a narrative of a preferred future to guide collective planning. Overview. Overview entry. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Preferred Futuring — https://antlerboy.com/library/large-group-processes/#preferred-futuring
+
 ## Presentation design
 
 Type: Intervention skill
@@ -11742,6 +12374,17 @@ The Principle of Emergence concerns properties or behaviours of a whole that are
 - The Grammar of Systems II: From Order to Chaos and Back Again, 2nd edition — https://www.systemspractice.org/resources/grammar-systems-ii-order-chaos-back-again-2nd-ed
 - Cybersecurity Lessons from The Grammar of Systems, part 3 — https://www.linkedin.com/pulse/cybersecurity-lessons-from-grammar-systems-order-chaos-osama-salah-2f
 
+## ProAction Café
+
+Type: Method or methodology
+Public depth: described
+
+Use structured conversations to help participants work on questions and proposed action. Overview. Overview entry. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- ProAction Café — https://antlerboy.com/library/large-group-processes/#proaction-cafe
+
 ## Probability and Information Theory with Application to Radar
 
 Type: Publication
@@ -11752,6 +12395,17 @@ Probability and Information Theory with Application to Radar. Listed in Wiener�
 ### Sources
 
 - Wiener’s selected readings on cybernetics, 1951, 1952, 1956 — https://stream.syscoi.com/2026/09/05/28544/
+
+## Problem Solving Team Build / MacDonald Team Discipline
+
+Type: Method or methodology
+Public depth: described
+
+Build shared understanding of a problem, develop options, and agree responsibilities for action. Overview. Teaching account. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Problem Solving Team Build / MacDonald Team Discipline — https://antlerboy.com/library/large-group-processes/#problem-solving-team-build-macdonald-team-discipline
 
 ## Proceedings of the Second London Symposium on Applications of Communication Theory
 
@@ -11775,6 +12429,3317 @@ Productive conversations make observations, interpretations, concerns, requests,
 
 - SCiO CF Resources v9 draft — No public link
 - SCiO Professional Accreditation and Competency Framework — https://www.systemspractice.org/professional-accreditation
+
+## Public resource: 1-2-4-All
+
+Type: Source
+Public depth: described
+
+Begin with individual reflection, develop ideas in pairs and fours, then share selected insights with the whole group. Liberating Structures guides. Guide read. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- 1-2-4-All — https://antlerboy.com/library/large-group-processes/#1-2-4-all
+
+## Public resource: 10,000 Swamp Leaders episode 21 - The abundance of systems
+
+Type: Source
+Public depth: described
+
+A conversation about the abundance and variety of systems traditions. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- 10,000 Swamp Leaders episode 21 - The abundance of systems — https://www.10000swampleaders.com/benjamin-taylor-the-abundance-of-systems/
+
+## Public resource: 10,000 Swamp Leaders episode 39 - Problems with Adaptive Leadership and consulting
+
+Type: Source
+Public depth: described
+
+A conversation about Adaptive Leadership and consulting practice. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- 10,000 Swamp Leaders episode 39 - Problems with Adaptive Leadership and consulting — https://www.10000swampleaders.com/benjamin-taylor-there-are-problems-with-adaptive-leadership-and-consulting/
+
+## Public resource: 10,000 Swamp Leaders episode 70 - Differentiation, integration and four dynamics of groups
+
+Type: Source
+Public depth: described
+
+A conversation about the four dynamics of robust groups and organisations. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- 10,000 Swamp Leaders episode 70 - Differentiation, integration and four dynamics of groups — https://www.10000swampleaders.com/benjamin-taylor-differentiation-integration-and-four-dynamics-of-groups/
+
+## Public resource: 15% Solutions
+
+Type: Source
+Public depth: described
+
+Identify practical first steps within present scope, then use group discussion to develop and select them. Liberating Structures guides. Guide read. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- 15% Solutions — https://antlerboy.com/library/large-group-processes/#15-solutions
+
+## Public resource: 25/10 Crowdsourcing
+
+Type: Source
+Public depth: described
+
+Exchange and score idea cards over five rounds, then examine the strongest proposals and possible first steps. Liberating Structures guides. Guide read. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- 25/10 Crowdsourcing — https://antlerboy.com/library/large-group-processes/#25-10-crowdsourcing
+
+## Public resource: 35 doughnuts
+
+Type: Source
+Public depth: described
+
+A visual piece about systems, boundaries and repeated attempts to make the world fit the diagram. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- 35 doughnuts — https://www.dropbox.com/scl/fi/c66vmp2bkusv6i1dd6ldi/35-doughnuts.pdf?rlkey=ffozdnv00ymkn3ctylrqrcpe0&dl=0
+
+## Public resource: A core element of Adaptive Leadership
+
+Type: Source
+Public depth: described
+
+A short visual introduction to adaptive leadership. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- A core element of Adaptive Leadership — https://www.dropbox.com/scl/fi/lq32bzaby0q1bhu9zr1di/Benjamin-Taylor-a-core-element-of-Adaptive-Leadership.pdf?rlkey=st0332plasppsc8z2wevmkk80&dl=0
+
+## Public resource: A Deeper Look at Bongard Problems
+
+Type: Publication
+Public depth: described
+
+Publisher-deposited bibliographic record matched to the opening title of the supplied source. Concept links below are text-location aids; they do not establish influence or agreement. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- A Deeper Look at Bongard Problems — https://doi.org/10.1007/978-3-030-47358-7_54
+
+## Public resource: A manifesto for relational public services
+
+Type: Source
+Public depth: described
+
+A manifesto for public services built around relationship, judgement and shared responsibility. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- A manifesto for relational public services — https://docs.google.com/document/d/1R5f-5HSls8f5PfOhetzctXvSgI4wRJeITUMD4LJc0vs/edit?usp=sharing
+
+## Public resource: A simplification of the Viable System Model
+
+Type: Source
+Public depth: described
+
+A four-slide introduction. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Organisations need to deal with complexity: a simplification of the Viable System Model — https://antlerboy.com/library/files/talks/simplifying-the-viable-system-model.pdf
+
+## Public resource: A surprising new role for local government
+
+Type: Source
+Public depth: described
+
+Benjamin Taylor and Kate Cooper; The MJ. Publisher access terms apply. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- A surprising new role for local government — https://www.themj.co.uk/surprising-role-local-government
+
+## Public resource: Action Learning and Practice; The John Seddon Method for public sector transformation
+
+Type: Source
+Public depth: described
+
+A paper on action learning, self-enlightenment, coercion and public-sector transformation. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Action Learning and Practice; The John Seddon Method for public sector transformation — https://www.dropbox.com/scl/fi/r4jtm2p2nqqjr3639ocbt/Action-Learning-and-Practice-The-John-Seddon-Method-for-public-sector-transformation-self-enlightenment-coercion-or-both.pdf?rlkey=k5mylvd0agkzybd005yu9uj2u&dl=0
+
+## Public resource: All about the people: five core leadership practices for OpEx
+
+Type: Source
+Public depth: described
+
+A detailed session on people, leadership practices, and operational excellence. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- All about the people: five core leadership practices for OpEx — https://www.youtube.com/watch?v=kOGSLtGTyUw
+
+## Public resource: An ecosystem approach for sustainability: addressing the challenge of complexity
+
+Type: Publication
+Public depth: described
+
+Publisher-deposited bibliographic record matched to the opening title of the supplied source. Concept links below are text-location aids; they do not establish influence or agreement. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- An ecosystem approach for sustainability: addressing the challenge of complexity — https://doi.org/10.1016/S0016-3287(99)00029-4
+
+## Public resource: An overview of systems thinking
+
+Type: Source
+Public depth: described
+
+A broad introduction to systems thinking. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- An overview of systems thinking — https://www.youtube.com/watch?v=JW6drku8E3w
+
+## Public resource: Anxiety, ideology and the evacuation of the public realm
+
+Type: Source
+Public depth: described
+
+Philip Boxer and Benjamin P Taylor, v4. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Anxiety, ideology and the evacuation of the public realm — https://antlerboy.com/library/files/preprints/2026-anxiety-ideology-and-the-evacuation-of-the-public-realm-v4-boxer-taylor.pdf
+
+## Public resource: Appreciative Interviews
+
+Type: Source
+Public depth: described
+
+Interview a partner about an experience of success, then compare the conditions that made it possible. Liberating Structures guides. Guide read. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Appreciative Interviews — https://antlerboy.com/library/large-group-processes/#appreciative-interviews
+
+## Public resource: Articles and essays
+
+Type: Source
+Public depth: described
+
+Published articles, essays and working papers. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Articles and essays — https://antlerboy.com/library/articles-and-essays/
+
+## Public resource: BarCamp and unconferences
+
+Type: Source
+Public depth: described
+
+Named as a further example in the teaching material. A developed comparison or account is not supplied in this collection. Further examples. Mention only. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- BarCamp and unconferences — https://antlerboy.com/library/large-group-processes/#barcamp-and-unconferences
+
+## Public resource: Benjamin P Taylor
+
+Type: Source
+Public depth: described
+
+Public Antlerboy page, included in the site-wide source register. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Benjamin P Taylor — https://antlerboy.com/
+
+## Public resource: Benjamin Taylor VSM lecture
+
+Type: Source
+Public depth: described
+
+A full introduction to Stafford Beer's Viable System Model and its use in organisations and public services. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Benjamin Taylor VSM lecture — https://www.dropbox.com/scl/fi/cxz49dj4bfgblxw3103u5/2025-05-10-Benjamin-Taylor-VSM-lecture-v0.1BT.pdf?rlkey=o3915ucwi8wavv7rf257kxvlu&dl=0
+
+## Public resource: Berkana Two Loops model
+
+Type: Source
+Public depth: described
+
+A comparison mentioned alongside Three Horizons; a separate worked account is not supplied. Supporting models. Mention only. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Berkana Two Loops model — https://antlerboy.com/library/large-group-processes/#berkana-two-loops-model
+
+## Public resource: Better conversations for better realities
+
+Type: Source
+Public depth: described
+
+Learning loops to break the devil’s bargain. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Better conversations for better realities: learning loops to break the devil's bargain — https://antlerboy.com/library/files/talks/better-conversations-for-better-realities.pdf
+
+## Public resource: Business 901 - The RedQuadrant method of public service transformation
+
+Type: Source
+Public depth: described
+
+A conversation about method and public-service transformation. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Business 901 - The RedQuadrant method of public service transformation — https://business901.com/blog1/the-redquadrant-method-of-public-service-transformation
+
+## Public resource: Cabinet Office Commissioning Academy to be run as not-for-profit
+
+Type: Source
+Public depth: described
+
+News report quoting Benjamin Taylor; Public Sector Executive. Public article read; quoted participant, not credited as author. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Cabinet Office Commissioning Academy to be run as not-for-profit — https://www.publicsectorexecutive.com/Service-transformation/cabinet-office-commissioning-academy-to-be-run-as-not-for-profit
+
+## Public resource: Cadenced culture: high-performing teams based on trust
+
+Type: Source
+Public depth: described
+
+Building the conditions for trust and effective work in teams. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Cadenced culture: high-performing teams based on trust — https://www.youtube.com/watch?v=82tjdU9d6YM
+
+## Public resource: Cadenced culture: the key to high-performing teams based on trust - StretchCon
+
+Type: Source
+Public depth: described
+
+StretchCon presentation connecting the four dynamics with team routines, trust and performance. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Cadenced culture: the key to high-performing teams based on trust - StretchCon — https://docs.google.com/presentation/d/1FuQH-DDxQRUZK2lBAmUqziSxYmLYx9IX/edit?usp=sharing
+
+## Public resource: Capturing learning; learning network
+
+Type: Source
+Public depth: described
+
+An article on learning, evidence and organisational memory. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Capturing learning; learning network — https://www.dropbox.com/scl/fi/izo3g2vqi7uq0adwzaff2/Benjamin-Taylor-MJ-piece-on-capturing-learning-learning-network.pdf?rlkey=tqtc6qn54hkdk9tihktbosuc0&dl=0
+
+## Public resource: CATWOE
+
+Type: Source
+Public depth: described
+
+A set of questions within Soft Systems Methodology for examining a purposeful activity model. Supporting models. Teaching account. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- CATWOE — https://antlerboy.com/library/large-group-processes/#catwoe
+
+## Public resource: Circling
+
+Type: Source
+Public depth: described
+
+Named as a further example in the teaching material. A developed comparison or account is not supplied in this collection. Further examples. Mention only. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Circling — https://antlerboy.com/library/large-group-processes/#circling
+
+## Public resource: Clarity practices
+
+Type: Source
+Public depth: described
+
+An extended teaching deck. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Clarity practices: five core practices — https://antlerboy.com/library/files/talks/clarity-practices.pdf
+
+## Public resource: Clinical applications of recasting : review and theory
+
+Type: Publication
+Public depth: described
+
+Publisher-deposited bibliographic record matched to the opening title of the supplied source. Concept links below are text-location aids; they do not establish influence or agreement. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Clinical applications of recasting : review and theory — https://doi.org/10.1177/026565908700300308
+
+## Public resource: Coaching entrepreneurs using VSM and systems patterns
+
+Type: Source
+Public depth: described
+
+Using the Viable System Model and Patterns of Strategy with founders to examine roles, coordination, and strategic choices. SCiO; Benjamin Taylor. Work during 2019–2024. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Coaching entrepreneurs using VSM and systems patterns — https://www.systemspractice.org/resources/coaching-entrepreneurs-using-vsm-and-systems-patterns
+
+## Public resource: Collection of posts on relational public services
+
+Type: Source
+Public depth: described
+
+Essays and posts developing the argument for relational public services. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Collection of posts on relational public services — https://chosen-path.org/2026/03/21/collection-of-posts-on-relational-public-services/
+
+## Public resource: Commissioning for the future
+
+Type: Source
+Public depth: described
+
+Interview with Benjamin Taylor; Public Sector Executive. Public interview. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Commissioning for the future — https://www.publicsectorexecutive.com/News/commissioning-for-the-future
+
+## Public resource: Commissioning's pivotal role on the road to transformation
+
+Type: Source
+Public depth: described
+
+Benjamin Taylor; The MJ. Publisher access terms apply. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Commissioning's pivotal role on the road to transformation — https://www.themj.co.uk/commissioning-pivotal-role-road-transformation
+
+## Public resource: Community engagement
+
+Type: Source
+Public depth: described
+
+Supported by RedQuadrant. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Community engagement — https://www.linkedin.com/groups/43838
+
+## Public resource: Compass v2.0 beta; commissioning as collective system learning
+
+Type: Source
+Public depth: described
+
+A place-based version of the Compass, shared for testing and comment. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Compass v2.0 beta; commissioning as collective system learning — https://link.redquadrant.com/compassv2beta
+
+## Public resource: Compassion, care and reconstruction
+
+Type: Source
+Public depth: described
+
+Benjamin Taylor; The MJ. Publisher access terms apply. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Compassion, care and reconstruction — https://www.themj.co.uk/compassion-care-reconstruction
+
+## Public resource: Complexity Live
+
+Type: Source
+Public depth: described
+
+A long-form conversation about complexity, systems and public-service transformation. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Complexity Live — https://www.youtube.com/watch?v=Cyt5BpLeC1A
+
+## Public resource: Complexity theory and leadership practice: A review, a critique, and some recommendations
+
+Type: Publication
+Public depth: described
+
+Publisher-deposited bibliographic record matched to the opening title of the supplied source. Concept links below are text-location aids; they do not establish influence or agreement. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Complexity theory and leadership practice: A review, a critique, and some recommendations — https://doi.org/10.1016/j.leaqua.2019.07.002
+
+## Public resource: Conceptual Foundations for Environmental Ethics
+
+Type: Publication
+Public depth: described
+
+Publisher-deposited bibliographic record matched to the opening title of the supplied source. Concept links below are text-location aids; they do not establish influence or agreement. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Conceptual Foundations for Environmental Ethics — https://doi.org/10.5840/enviroethics200325317
+
+## Public resource: Conflict Transformation Circles
+
+Type: Source
+Public depth: described
+
+Named as a further example in the teaching material. A developed comparison or account is not supplied in this collection. Further examples. Mention only. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Conflict Transformation Circles — https://antlerboy.com/library/large-group-processes/#conflict-transformation-circles
+
+## Public resource: Confronting indifference toward truth: Dealing with workplace bullshit
+
+Type: Publication
+Public depth: described
+
+Publisher-deposited bibliographic record matched to the opening title of the supplied source. Concept links below are text-location aids; they do not establish influence or agreement. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Confronting indifference toward truth: Dealing with workplace bullshit — https://doi.org/10.1016/j.bushor.2020.01.001
+
+## Public resource: Conscious Systemic Leadership
+
+Type: Publication
+Public depth: described
+
+Publisher-deposited bibliographic record matched to the opening title of the supplied source. Concept links below are text-location aids; they do not establish influence or agreement. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Conscious Systemic Leadership — https://doi.org/10.47061/jasc.v3i1.5416
+
+## Public resource: Conversation Café
+
+Type: Source
+Public depth: described
+
+Use small circles, agreed ground rules, and a talking object to support listening and reflection on a shared question. Liberating Structures guides. Guide read. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Conversation Café — https://antlerboy.com/library/large-group-processes/#conversation-cafe
+
+## Public resource: Conversations
+
+Type: Source
+Public depth: described
+
+Public Antlerboy page, included in the site-wide source register. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Conversations — https://antlerboy.com/conversations/
+
+## Public resource: Core systems-change slide set
+
+Type: Source
+Public depth: described
+
+Historical working reference, not a finished publication. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Core systems-change slide set — https://antlerboy.com/library/files/reference/redquadrant-systems-change-framework.pdf
+
+## Public resource: Creating success from a crisis
+
+Type: Source
+Public depth: described
+
+Benjamin Taylor; The MJ. Publisher access terms apply. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Creating success from a crisis — https://www.themj.co.uk/creating-success-crisis
+
+## Public resource: Crisis, total football, human needs and five core practices
+
+Type: Source
+Public depth: described
+
+An application of the five practices to leadership under pressure. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Crisis, total football, human needs and five core practices — https://www.dropbox.com/scl/fi/ml6vja0ezhpcq97czu69q/2020-06-19-Benjamin-Taylor-crisis-total-football-and-human-needs-human-and-organisational-needs-and-five-core-practices-v1.0BT-for-RA.pdf?rlkey=gdoa6ori3bfwxf1o9jdrkiimy&dl=0
+
+## Public resource: Critical Uncertainties
+
+Type: Source
+Public depth: described
+
+Build scenarios around two critical uncertainties, then compare robust and hedging strategies across those futures. Liberating Structures guides. Guide read. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Critical Uncertainties — https://antlerboy.com/library/large-group-processes/#critical-uncertainties
+
+## Public resource: Cultural inquiry and complexity
+
+Type: Source
+Public depth: described
+
+Workshops and interviews to investigate how everyday behaviour, values, and power shape organisational culture. SCiO; Benjamin Taylor. Work from 2017 onwards. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Cultural inquiry and complexity — https://www.systemspractice.org/resources/cultural-inquiry-and-complexity
+
+## Public resource: Current systems | complexity | cybernetics reading route
+
+Type: Source
+Public depth: described
+
+The live systems, complexity and cybernetics reading route. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Current systems | complexity | cybernetics reading route — https://link.redquadrant.com/systemscomplexitycyberneticsreading
+
+## Public resource: Customer Transformation Club
+
+Type: Source
+Public depth: described
+
+Supported by RedQuadrant. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Customer Transformation Club — https://www.linkedin.com/groups/6546498
+
+## Public resource: Cybernetics is not the banana
+
+Type: Source
+Public depth: described
+
+A story about cybernetics, representation and practice transfer. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Cybernetics is not the banana — https://antlerboy.com/library/cybernetics-is-not-the-banana/
+
+## Public resource: Cybernetics is not the banana: part one
+
+Type: Source
+Public depth: described
+
+My route into systems thinking, consulting, human systems, and organisational complexity. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Cybernetics is not the banana: part one — https://www.youtube.com/watch?v=qi7neufVcEc
+
+## Public resource: Cybernetics is not the banana: part two
+
+Type: Source
+Public depth: described
+
+A further conversation about cybernetics, maps, models, and practice. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Cybernetics is not the banana: part two — https://www.youtube.com/watch?v=0IBjnZlcdfQ
+
+## Public resource: Cybernetics is not the banana; a story of practice transfer
+
+Type: Source
+Public depth: described
+
+The OR63 presentation on cybernetics, representation and practice transfer in public-service transformation. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Cybernetics is not the banana; a story of practice transfer — https://www.dropbox.com/scl/fi/4w3c7i5e8hmzibiuosnmb/2021-08-01-Benjamin-Taylor-for-OR63-Cybernetics-is-not-the-banana-a-story-of-practice-transfer-in-public-service-transformation-consultancy-v1.8BT.pdf?rlkey=hswugiqmfwtgrvzgedx082tt5&dl=0
+
+## Public resource: Degrees of relationality
+
+Type: Source
+Public depth: described
+
+Benjamin P Taylor and Philip Boxer, v12. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Degrees of relationality — https://antlerboy.com/library/files/preprints/2026-degrees-of-relationality-v12-taylor-boxer.pdf
+
+## Public resource: Demand management sampler
+
+Type: Source
+Public depth: described
+
+A RedQuadrant whole-system demand reference. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Demand management sampler — https://antlerboy.com/library/files/reference/redquadrant-demand-management-sampler.pdf
+
+## Public resource: Design for social change and design education: Social challenges versus teacher-centred pedagogies
+
+Type: Publication
+Public depth: described
+
+Publisher-deposited bibliographic record matched to the opening title of the supplied source. Concept links below are text-location aids; they do not establish influence or agreement. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Design for social change and design education: Social challenges versus teacher-centred pedagogies — https://doi.org/10.1080/14606925.2017.1353037
+
+## Public resource: Designing Social Systems in a Changing World
+
+Type: Publication
+Public depth: described
+
+Publisher-deposited bibliographic record matched to the opening title of the supplied source. Concept links below are text-location aids; they do not establish influence or agreement. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Designing Social Systems in a Changing World — https://doi.org/10.1007/978-1-4757-9981-1
+
+## Public resource: Drawing systems; a primer
+
+Type: Source
+Public depth: described
+
+A short RedQuadrant visual primer. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Drawing systems; a primer — https://antlerboy.com/library/files/reference/drawing-systems-primer.pdf
+
+## Public resource: Early-warning signals for critical transitions
+
+Type: Publication
+Public depth: described
+
+Publisher-deposited bibliographic record matched to the opening title of the supplied source. Concept links below are text-location aids; they do not establish influence or agreement. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Early-warning signals for critical transitions — https://doi.org/10.1038/nature08227
+
+## Public resource: Editorial: living with environmental change: adaptation as social learning
+
+Type: Publication
+Public depth: described
+
+Publisher-deposited bibliographic record matched to the opening title of the supplied source. Concept links below are text-location aids; they do not establish influence or agreement. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Editorial: living with environmental change: adaptation as social learning — https://doi.org/10.1002/eet.520
+
+## Public resource: Embedding systems thinking into service transformation
+
+Type: Source
+Public depth: described
+
+Regional Transformation Academies bringing systemic inquiry into Lean, Agile, and public-service improvement work. SCiO; Benjamin Taylor. Work during 2015–2023. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Embedding systems thinking into service transformation — https://www.systemspractice.org/resources/embedding-systems-thinking-service-transformation
+
+## Public resource: Encounter groups
+
+Type: Source
+Public depth: described
+
+Named as a further example in the teaching material. A developed comparison or account is not supplied in this collection. Further examples. Mention only. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Encounter groups — https://antlerboy.com/library/large-group-processes/#encounter-groups
+
+## Public resource: Epistemological and empirical challenges of Niklas Luhmann’s systems theory: an interview with professors Álvaro Pires and Lukas Sosoe
+
+Type: Publication
+Public depth: described
+
+Publisher-deposited bibliographic record matched to the opening title of the supplied source. Concept links below are text-location aids; they do not establish influence or agreement. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Epistemological and empirical challenges of Niklas Luhmann’s systems theory: an interview with professors Álvaro Pires and Lukas Sosoe — https://doi.org/10.1590/2317-6172202109
+
+## Public resource: EST
+
+Type: Source
+Public depth: described
+
+Named as a further example in the teaching material. A developed comparison or account is not supplied in this collection. Further examples. Mention only. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- EST — https://antlerboy.com/library/large-group-processes/#est
+
+## Public resource: Everything is contingent (well, not everything); Requisite Agility
+
+Type: Source
+Public depth: described
+
+Presentation for Requisite Agility on contingency and method. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Everything is contingent (well, not everything); Requisite Agility — https://docs.google.com/presentation/d/14AjUNm5zfMHxC_adL2j09CSEZtKWx2x7/edit?usp=sharing
+
+## Public resource: Exploring New Realities: a Requisite Agility virtual journey
+
+Type: Source
+Public depth: described
+
+Programme for the 2020 virtual journey, including Benjamin Taylor among the twelve inviters. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Exploring New Realities: a Requisite Agility virtual journey — https://www.dropbox.com/scl/fi/7qpg8i12eullwbogvleek?dl=0
+
+## Public resource: Exploring the challenges of system leadership in the voluntary and community sector
+
+Type: Publication
+Public depth: described
+
+Publisher-deposited bibliographic record matched to the opening title of the supplied source. Concept links below are text-location aids; they do not establish influence or agreement. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Exploring the challenges of system leadership in the voluntary and community sector — https://doi.org/10.1080/14767333.2020.1712851
+
+## Public resource: Facilitated Power Analysis
+
+Type: Source
+Public depth: described
+
+Named as a further example in the teaching material. A developed comparison or account is not supplied in this collection. Further examples. Mention only. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Facilitated Power Analysis — https://antlerboy.com/library/large-group-processes/#facilitated-power-analysis
+
+## Public resource: Facilitation and systems consulting
+
+Type: Source
+Public depth: described
+
+Helping from inside the system without taking over. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Facilitation and systems consulting — https://antlerboy.com/library/facilitation-and-systems-consulting/
+
+## Public resource: Five core leadership practices
+
+Type: Source
+Public depth: described
+
+Intent, honest conversations, clarity, culture and learning. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Five core leadership practices — https://antlerboy.com/library/five-core-practices/
+
+## Public resource: Five core leadership practices for LinkedIn
+
+Type: Source
+Public depth: described
+
+A compact visual account of the five practices. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Five core leadership practices for LinkedIn — https://www.dropbox.com/scl/fi/dojeq5hdnlcezbieuhn3c/Benjamin-Taylor-five-core-leadership-practices-for-linkedin.pdf?rlkey=bnv58vc15zll8rli72i7x8yhl&dl=0
+
+## Public resource: Five core leadership practices; StretchCon (extended, with reading recommendations)
+
+Type: Source
+Public depth: described
+
+The StretchCon presentation on intent, honest conversations, clarity, culture and learning. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Five core leadership practices; StretchCon (extended, with reading recommendations) — https://www.dropbox.com/scl/fi/mumd3h20uux050a6noe7q/2022-11-28-Benjamin-Taylor-five-core-leadership-practices-for-Stretchcon-extended-with-reading-recommendations.pdf?rlkey=zc8jzlmbelk81jn1xxaw1y80c&dl=0
+
+## Public resource: Five core practices for effective organisation
+
+Type: Source
+Public depth: described
+
+A conference talk on the practices that support effective leadership and organisation. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Five core practices for effective organisation — https://www.youtube.com/watch?v=AVb2A7CJR_Q
+
+## Public resource: Five key questions for transformation
+
+Type: Source
+Public depth: described
+
+A one-page working prompt. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Five key questions for transformation — https://antlerboy.com/library/files/talks/five-key-questions-for-transformation.pdf
+
+## Public resource: Focus on outcomes to achieve better social care results with less money
+
+Type: Source
+Public depth: described
+
+Benjamin Taylor; Public Finance. Publisher author index verified; full article access was unavailable. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Focus on outcomes to achieve better social care results with less money — https://www.publicfinance.co.uk/opinion/2017/04/focus-outcomes-achieve-better-social-care-results-less-money
+
+## Public resource: FoundersHQ: Benjamin Taylor, RedQuadrant
+
+Type: Source
+Public depth: described
+
+The experience of founding and running a consultancy focused on public services. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- FoundersHQ: Benjamin Taylor, RedQuadrant — https://www.youtube.com/watch?v=2uW7UNd5g0E
+
+## Public resource: Four dynamics and robust systems
+
+Type: Source
+Public depth: described
+
+Differentiation, homogenisation, individuation and integration. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Four dynamics and robust systems — https://antlerboy.com/library/four-dynamics/
+
+## Public resource: Four quadrants of systems thinking threats v0.1
+
+Type: Source
+Public depth: described
+
+An early presentation of the model. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Four quadrants of systems thinking threats v0.1 — https://www.dropbox.com/scl/fi/uj5i93iuqi8qvizww1ywn/2017-09-09-four-quadrants-of-systems-thinking-threats-v0.1BT.pptx?rlkey=s4lzulc832qqg0b6lgt71ezee&dl=0
+
+## Public resource: Four quadrants of systems thinking threats v2.1
+
+Type: Source
+Public depth: described
+
+A model for noticing characteristic failures in thinking, including failures in systems thinking. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Four quadrants of systems thinking threats v2.1 — https://www.dropbox.com/scl/fi/zdziaargk5l9rdkseuxlo/2019-04-15-four-quadrants-of-systems-thinking-threats-v2.1BT.pdf?rlkey=5u09vxjpaoy582cfds26ebnvs&dl=0
+
+## Public resource: Four quadrants of thinking threats
+
+Type: Source
+Public depth: described
+
+A model for noticing how thinking goes wrong. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Four quadrants of thinking threats — https://antlerboy.com/library/four-quadrants/
+
+## Public resource: Freethinkers Corner
+
+Type: Source
+Public depth: described
+
+Presentation and session material. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Freethinkers Corner — https://docs.google.com/presentation/d/1YmnBkv-IBsfUuPCaOkBp9i8udQbPh3ES/edit?usp=sharing
+
+## Public resource: Future of Work Scotland
+
+Type: Source
+Public depth: described
+
+Presentation and session material. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Future of Work Scotland — https://www.dropbox.com/scl/fi/uxleu09urdq09q4j36mdf/2022-07-13-Benjamin-Taylor-RedQuadrant-Future-of-Work-Scotland-presentation.pdf?rlkey=gq1znzjnkle9f0btntzwaw910&dl=0
+
+## Public resource: Government After Shock; build back better in the days after
+
+Type: Source
+Public depth: described
+
+Round-table material on public-service renewal after crisis. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Government After Shock; build back better in the days after — https://www.dropbox.com/scl/fi/216k0v1876ocxco9oyutn/2020-11-17-government-after-shock-build-back-better-in-the-days-after-round-table-v1.1BT-with-notes.pdf?rlkey=7moc790jedpvr07bq5kx1i57f&dl=0
+
+## Public resource: GovTech
+
+Type: Source
+Public depth: described
+
+Presentation on public-service technology and transformation. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- GovTech — https://www.dropbox.com/scl/fi/6wigu2qm3n34b0xprrar6/2019-03-14-GovTech-Benjamin-Taylor-as-delivered-for-circulation-v1.1BT.pdf?rlkey=e1ka15gwo8oljsu3d5996lt5j&dl=0
+
+## Public resource: Groups and communities
+
+Type: Source
+Public depth: described
+
+Networks, groups and communities Benjamin supports or recommends. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Groups and communities — https://antlerboy.com/library/groups-and-communities/
+
+## Public resource: Gurteen Knowledge Cafe - public service transformation
+
+Type: Source
+Public depth: described
+
+A conversation about public-service transformation. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Gurteen Knowledge Cafe - public service transformation — https://www.youtube.com/watch?v=XN33xJTiceU
+
+## Public resource: Hackathons
+
+Type: Source
+Public depth: described
+
+Named as a further example in the teaching material. A developed comparison or account is not supplied in this collection. Further examples. Mention only. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Hackathons — https://antlerboy.com/library/large-group-processes/#hackathons
+
+## Public resource: Healing our divided communities
+
+Type: Source
+Public depth: described
+
+An article on division, community and public leadership. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Healing our divided communities — https://www.dropbox.com/scl/fi/h0r5oclzze7bj4ujwp65b/Benjamin-Taylor_-Healing-our-divided-communities-Local-Government-Chronicle-LGC.pdf?rlkey=szy8j5d9fm8ck36f218edm57o&dl=0
+
+## Public resource: Heard, Seen, Respected
+
+Type: Source
+Public depth: described
+
+Practise listening in pairs, then reflect on the experience and patterns with a wider group. Liberating Structures guides. Guide read. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Heard, Seen, Respected — https://antlerboy.com/library/large-group-processes/#heard-seen-respected
+
+## Public resource: How outsourcing can fail
+
+Type: Source
+Public depth: described
+
+Structural failure modes and practical responses. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- How outsourcing can fail — https://antlerboy.com/library/outsourcing/
+
+## Public resource: How outsourcing can fail and how to fix it
+
+Type: Source
+Public depth: described
+
+A return to the structural reasons outsourcing fails and what can be done about them. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- How outsourcing can fail and how to fix it — https://www.dropbox.com/scl/fi/mkbd6a3h73rgqjic4okj2/how-outsourcing-can-fail-and-how-to-fix-it.pdf?rlkey=viyztdrpk8qkdrqn7xedvxlu1&dl=0
+
+## Public resource: How outsourcing can fail; full paper
+
+Type: Source
+Public depth: described
+
+The full RedQuadrant paper. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- How outsourcing can fail; full paper — https://www.dropbox.com/scl/fi/xu7zn4scuf0bomo5x2erm/RedQuadrant-how-outsourcing-can-fail-full-paper.pdf?rlkey=ruc9sz38oxoii4u6knp953xs6&dl=0
+
+## Public resource: How outsourcing can fail; summary and checklist
+
+Type: Source
+Public depth: described
+
+A short summary and practical checklist. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- How outsourcing can fail; summary and checklist — https://www.dropbox.com/scl/fi/gonf8dxlm1mxlijvqmmdp/RedQuadrant-how-outsourcing-can-fail-summary-and-checklist.pdf?rlkey=2zxl1gz2bjo8glg10zdddr3v5&dl=0
+
+## Public resource: How to help your change succeed with VECIT
+
+Type: Source
+Public depth: described
+
+A practical guide to applying VECIT. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- How to help your change succeed with VECIT — https://www.dropbox.com/scl/fi/a0c1ryw6dp6efyso8tcpa/2021-07-15-How-to-help-your-change-succeed-with-VECIT-v03BT.pdf?rlkey=kxwcpef0gjhalil1avihvgiub&dl=0
+
+## Public resource: I can’t; I’m being a public intellectual
+
+Type: Source
+Public depth: described
+
+A concise productivity system. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- I can’t; I’m being a public intellectual — https://www.dropbox.com/scl/fi/zkxub5kz08k8cbgkos1pf/I-can-t-I-m-being-a-public-intellectual.png?rlkey=ytleawygtxaex76yd4dnffvlg&dl=0
+
+## Public resource: Identity of commissioning; King’s Fund event
+
+Type: Source
+Public depth: described
+
+Presentation and session material. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Identity of commissioning; King’s Fund event — https://www.dropbox.com/scl/fi/k2afeoaakvjioxkbdathh/2024-10-31-Benjamin-Taylor-slides-for-King-s-Fun-identity-of-commissioning-event.pdf?rlkey=i52xgvwdcphypulovt5dxofo1&dl=0
+
+## Public resource: Immunity to Change; Australasian Change Days
+
+Type: Source
+Public depth: described
+
+Presentation and session material. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Immunity to Change; Australasian Change Days — https://www.dropbox.com/scl/fi/8ol2elgq96gs1nej6dnfm/2020-09-11-Australasian-Change-Days-Immunity-to-Change-v1.1BT-as-delivered.pdf?rlkey=b4f8twh7mxx5svd06tzqp2ji4&dl=0
+
+## Public resource: Impromptu Networking
+
+Type: Source
+Public depth: described
+
+Use repeated paired conversations to share challenges and notice patterns across the group. Liberating Structures guides. Guide read. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Impromptu Networking — https://antlerboy.com/library/large-group-processes/#impromptu-networking
+
+## Public resource: Interrogate the large-group-process mentor
+
+Type: Source
+Public depth: described
+
+Ask about method choice, process design, risks and adaptation. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Interrogate the large-group-process mentor — https://link.redquadrant.com/ChatGPTlargegroupprocessmentor
+
+## Public resource: Introduction to four dynamics
+
+Type: Source
+Public depth: described
+
+A concise introduction to the four dynamics. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Four dynamics for effective organisation — https://antlerboy.com/library/files/talks/introduction-to-four-dynamics.pdf
+
+## Public resource: Introduction to the Viable System Model
+
+Type: Source
+Public depth: described
+
+An introduction to Stafford Beer's Viable System Model. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Introduction to the Viable System Model — https://www.youtube.com/watch?v=PyfpA1WSHcI&t=91s
+
+## Public resource: Introduction to the Viable System Model (Recorded talk)
+
+Type: Source
+Public depth: described
+
+An introduction to Stafford Beer’s model, delivered at the January 2017 London Open Day. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Introduction to the Viable System Model — https://www.youtube.com/watch?v=PyfpA1WSHcI
+
+## Public resource: Introduction‐“Chaordic systems thinking” for learning organizations
+
+Type: Publication
+Public depth: described
+
+Publisher-deposited bibliographic record matched to the opening title of the supplied source. Concept links below are text-location aids; they do not establish influence or agreement. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Introduction‐“Chaordic systems thinking” for learning organizations — https://doi.org/10.1108/09696470410548773
+
+## Public resource: I’m a little bit sick of paradigm shifts
+
+Type: Source
+Public depth: described
+
+An argument for greater care with grand claims of transformation. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- I’m a little bit sick of paradigm shifts — https://www.dropbox.com/scl/fi/aejh9uen8msqm7jftuob8/Benjamin-Taylor-I-m-a-little-bit-sick-of-paradigm-shifts-Local-Government-Chronicle-LGC.pdf?rlkey=dpucq5mmnvd5qvm7umk4be6wp&dl=0
+
+## Public resource: Janssen’s Four Rooms of Change
+
+Type: Source
+Public depth: described
+
+A model discussed alongside Future Search for exploring different experiences of change. Supporting models. Teaching account. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Janssen’s Four Rooms of Change — https://antlerboy.com/library/large-group-processes/#janssens-four-rooms-of-change
+
+## Public resource: Joy and work
+
+Type: Source
+Public depth: described
+
+Public Antlerboy page, included in the site-wide source register. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Joy and work — https://antlerboy.com/conversations/joy-and-work/
+
+## Public resource: Landmark programmes
+
+Type: Source
+Public depth: described
+
+Named as a further example in the teaching material. A developed comparison or account is not supplied in this collection. Further examples. Mention only. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Landmark programmes — https://antlerboy.com/library/large-group-processes/#landmark-programmes
+
+## Public resource: Large Systems Change: An Emerging Field of Transformation and Transitions
+
+Type: Publication
+Public depth: described
+
+Publisher-deposited bibliographic record matched to the opening title of the supplied source. Concept links below are text-location aids; they do not establish influence or agreement. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Large Systems Change: An Emerging Field of Transformation and Transitions — https://doi.org/10.9774/GLEAF.4700.2015.ju.00003
+
+## Public resource: Large-group processes
+
+Type: Source
+Public depth: described
+
+114 methods, models, and participation formats from my teaching material and shared collection. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Large-group processes — https://antlerboy.com/library/large-group-processes/
+
+## Public resource: Large-group processes (PDF)
+
+Type: Source
+Public depth: described
+
+A detailed SCiO teaching deck. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Large-group processes — https://antlerboy.com/library/files/talks/large-group-processes.pdf
+
+## Public resource: Large-group processes microsite
+
+Type: Source
+Public depth: described
+
+Search and compare large-group, whole-system and participatory methods. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Large-group processes microsite — https://antlerboy.github.io/largegroupprocess/
+
+## Public resource: Leadership for transformation
+
+Type: Source
+Public depth: described
+
+Presentation on leadership and transformation. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Leadership for transformation — https://www.dropbox.com/scl/fi/su91r23c1na7aj4k3q1xc/2019-10-30-RedQuadrant-leadership-for-transformation-v3.0BT.pdf?rlkey=d2gmzbj4jc1m4jag7xhca8fi8&dl=0
+
+## Public resource: Leading organisational change; PSTA webinar
+
+Type: Source
+Public depth: described
+
+Recorded session. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Leading organisational change; PSTA webinar — https://www.dropbox.com/scl/fi/2zsqt9i3riwy8u6gjznxm/2020-03-31-PSTA-webinar-Benjamin-Taylor-leading-organisational-change-v0.5BT.pdf?rlkey=8cnp4qptom01385etcuqlvyvw&dl=0
+
+## Public resource: Lean Six Sigma
+
+Type: Source
+Public depth: described
+
+Co-owned by Benjamin Taylor. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Lean Six Sigma — https://www.linkedin.com/groups/37987
+
+## Public resource: Learning community to build back better in the days after
+
+Type: Source
+Public depth: described
+
+A learning-community proposition for public-service renewal. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Learning community to build back better in the days after — https://www.dropbox.com/scl/fi/8de89g6xqxttsq0xbktbf/2021-07-23-PSTA-learning-community-to-build-back-better-in-the-days-after-v1.0BT-with-notes.pdf?rlkey=ugl94iry1f77ui2wta560oyac&dl=0
+
+## Public resource: Legislative Theatre
+
+Type: Source
+Public depth: described
+
+Named as a further example in the teaching material. A developed comparison or account is not supplied in this collection. Further examples. Mention only. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Legislative Theatre — https://antlerboy.com/library/large-group-processes/#legislative-theatre
+
+## Public resource: Lessons learned from two years of the State of Transformation
+
+Type: Source
+Public depth: described
+
+Benjamin Taylor; The MJ. Publisher access terms apply. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Lessons learned from two years of the State of Transformation — https://www.themj.co.uk/lessons-learned-transformation
+
+## Public resource: Long live commissioning
+
+Type: Source
+Public depth: described
+
+Benjamin Taylor; The MJ. Publisher access terms apply. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Long live commissioning — https://www.themj.co.uk/long-live-commissioning
+
+## Public resource: Mad Tea
+
+Type: Source
+Public depth: described
+
+Use rotating pairs in concentric circles for short exchanges responding to sentence prompts. Liberating Structures guides. Guide read. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Mad Tea — https://antlerboy.com/library/large-group-processes/#mad-tea
+
+## Public resource: Meta-contextuality through the medium of Bongard games
+
+Type: Source
+Public depth: described
+
+A presentation on pattern, context and the limits of method. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Meta-contextuality through the medium of Bongard games — https://www.youtube.com/watch?v=gI5sFwR1dCc&t=2505s
+
+## Public resource: Metacontextuality and Bongard games
+
+Type: Source
+Public depth: described
+
+Pattern, context, frames and the limits of method. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Metacontextuality and Bongard games — https://antlerboy.com/library/metacontextuality/
+
+## Public resource: Metacontextuality and Bongard games v1.1
+
+Type: Source
+Public depth: described
+
+The circulated presentation. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Metacontextuality and Bongard games v1.1 — https://www.dropbox.com/scl/fi/bnm9eusb668l21htypchj/2017-10-16-Metacontextuality-and-bongard-games-v1.1BT-for-circulation.pdf?rlkey=y6n33wekyzy28z81jh2q7u6bi&dl=0
+
+## Public resource: Metacontextuality through the medium of Bongard games
+
+Type: Source
+Public depth: described
+
+A recorded session using Bongard games to explore context and pattern. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Metacontextuality through the medium of Bongard games — https://www.dropbox.com/scl/fi/v73i950r66ckry5n6c5oa/Benjamin-Taylor-Meta-contextuality-through-the-medium-of-Bongard-games.mp4?rlkey=g09cs8yeate2cmd32y817a3wz&dl=0
+
+## Public resource: Metacontextuality, Bongard games, and the limits of method
+
+Type: Source
+Public depth: described
+
+A paper on frames, pattern recognition and the limits of method. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Metacontextuality, Bongard games, and the limits of method — https://www.dropbox.com/scl/fi/myvgb4r6t6dnid8hb9cux/Metacontextuality-Bongard-games-and-the-limits-of-method-Benjamin-Taylor.pdf?rlkey=bdhr5wuyu1pl9n09fqs703ywj&dl=0
+
+## Public resource: Metaphor
+
+Type: Source
+Public depth: described
+
+Niki Jobson and Benjamin P Taylor. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Metaphor — https://www.systemspractice.org/resources/metaphor-presented-scio-development-event
+
+## Public resource: Min Specs
+
+Type: Source
+Public depth: described
+
+List possible requirements, test which are indispensable to the purpose, and remove unnecessary constraints. Liberating Structures guides. Guide read. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Min Specs — https://antlerboy.com/library/large-group-processes/#min-specs
+
+## Public resource: Minimal entropy production rate of interacting systems
+
+Type: Publication
+Public depth: described
+
+Publisher-deposited bibliographic record matched to the opening title of the supplied source. Concept links below are text-location aids; they do not establish influence or agreement. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Minimal entropy production rate of interacting systems — https://doi.org/10.1088/1367-2630/abc5c6
+
+## Public resource: Mob programming
+
+Type: Source
+Public depth: described
+
+Named as a further example in the teaching material. A developed comparison or account is not supplied in this collection. Further examples. Mention only. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Mob programming — https://antlerboy.com/library/large-group-processes/#mob-programming
+
+## Public resource: model.report static archive
+
+Type: Source
+Public depth: described
+
+The static archive of the earlier systems-thinking repository and discussion site. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Preserved model.report archive — https://syscoi.com/model.report/model.report/newest.html
+
+## Public resource: Never despair; five principles for the people
+
+Type: Source
+Public depth: described
+
+Five principles for public purpose and good government. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Never despair; five principles for the people — https://www.dropbox.com/scl/fi/0g99irwkt07x9m6ux5nuw/never-despair.-change-is-a-state-of-mind-that-everyone-shares-5-principle-for-the-people-towards-good-government.pdf?rlkey=c9x7wvjme2bo5ipgo325wxyap&dl=0
+
+## Public resource: New development: Responding to complexity in public services—the human learning systems approach
+
+Type: Publication
+Public depth: described
+
+Publisher-deposited bibliographic record matched to the opening title of the supplied source. Concept links below are text-location aids; they do not establish influence or agreement. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- New development: Responding to complexity in public services—the human learning systems approach — https://doi.org/10.1080/09540962.2020.1832738
+
+## Public resource: New development: System diplomacy—an alternative to system leadership
+
+Type: Publication
+Public depth: described
+
+Publisher-deposited bibliographic record matched to the opening title of the supplied source. Concept links below are text-location aids; they do not establish influence or agreement. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- New development: System diplomacy—an alternative to system leadership — https://doi.org/10.1080/09540962.2025.2462230
+
+## Public resource: New development: The paradox of outcomes—the more we measure, the less we understand
+
+Type: Publication
+Public depth: described
+
+Publisher-deposited bibliographic record matched to the opening title of the supplied source. Concept links below are text-location aids; they do not establish influence or agreement. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- New development: The paradox of outcomes—the more we measure, the less we understand — https://doi.org/10.1080/09540962.2013.785707
+
+## Public resource: One-way only won’t work
+
+Type: Source
+Public depth: described
+
+Civil service secondments should become a reciprocal public service talent exchange, carrying capability and learning in both directions. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- One-way only won’t work — https://antlerboy.com/library/one-way-only-wont-work/
+
+## Public resource: Ontological Designing
+
+Type: Publication
+Public depth: described
+
+Publisher-deposited bibliographic record matched to the opening title of the supplied source. Concept links below are text-location aids; they do not establish influence or agreement. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Ontological Designing — https://doi.org/10.2752/144871306X13966268131514
+
+## Public resource: Open the complete Dropbox collection
+
+Type: Source
+Public depth: described
+
+The shared source collection indexed by the microsite. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Open the complete Dropbox collection — https://www.dropbox.com/scl/fo/in3pvj22abhuz1aznr42t/ADbXaiB5LCpdy1OcuBZ7pbs?rlkey=yyoqyaq03g5seg2svafdb2uum&dl=0
+
+## Public resource: Organisation design for an island government
+
+Type: Source
+Public depth: described
+
+A wider account of work on Guernsey's government, including VSM diagnosis, commissioning, and experiential work on organisational cultures. SCiO; Benjamin Taylor. Guernsey work during 2016–2020. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Organisation design for an island government — https://www.systemspractice.org/resources/organisation-design-island-government
+
+## Public resource: Organisation design for States of Guernsey
+
+Type: Source
+Public depth: described
+
+An account of early VSM and organisation-design work in Guernsey. This overlaps with the later island-government account above. SCiO; Benjamin Taylor. Work during 2016–2017. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Organisation design for States of Guernsey — https://www.systemspractice.org/resources/organisation-design-states-guernsey
+
+## Public resource: Organisational development
+
+Type: Source
+Public depth: described
+
+Supported by RedQuadrant. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Organisational development — https://www.linkedin.com/groups/48394
+
+## Public resource: Outcomes and complexity
+
+Type: Source
+Public depth: described
+
+Outcomes as results of complex adaptive systems. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Outcomes and complexity — https://antlerboy.com/library/outcomes-and-complexity/
+
+## Public resource: Outcomes are the results of complex adaptive systems
+
+Type: Source
+Public depth: described
+
+A public-service outcomes presentation. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Outcomes are the results of complex adaptive systems — https://antlerboy.com/library/files/talks/outcomes-and-complex-adaptive-systems.pdf
+
+## Public resource: Outcomes thinking, with Benjamin Taylor for LGE
+
+Type: Source
+Public depth: described
+
+A recorded introduction to outcomes thinking in complex public-service systems. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Outcomes thinking, with Benjamin Taylor for LGE — https://www.dropbox.com/scl/fi/0xfike9t4l078sg7r4r8z/Outcomes-thinking-with-Benjamin-Taylor-for-LGE.mp4?rlkey=sb9sybgi09gqqdcpe51iuk794&dl=0
+
+## Public resource: Panarchy adaptive cycle
+
+Type: Source
+Public depth: described
+
+A comparison mentioned alongside Three Horizons; a separate worked account is not supplied. Supporting models. Mention only. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Panarchy adaptive cycle — https://antlerboy.com/library/large-group-processes/#panarchy-adaptive-cycle
+
+## Public resource: Participatory Rural Appraisal (PRA)
+
+Type: Source
+Public depth: described
+
+Named as a further example in the teaching material. A developed comparison or account is not supplied in this collection. Further examples. Mention only. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Participatory Rural Appraisal (PRA) — https://antlerboy.com/library/large-group-processes/#participatory-rural-appraisal-pra
+
+## Public resource: Patterns of strategy webinar
+
+Type: Source
+Public depth: described
+
+Recorded session. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Patterns of strategy webinar — https://www.dropbox.com/scl/fi/ygkq2axkky3ocq0kxsvxn/2020-03-25-patterns-of-strategy-Webinar.mp4?rlkey=bfeh9xqtvmh1u2lms5157m5ng&dl=0
+
+## Public resource: People and Systems — Creating Networks of System Leadership and Practice
+
+Type: Publication
+Public depth: described
+
+Publisher-deposited bibliographic record matched to the opening title of the supplied source. Concept links below are text-location aids; they do not establish influence or agreement. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- People and Systems — Creating Networks of System Leadership and Practice — https://doi.org/10.22324/ijhrdppr.4.105
+
+## Public resource: Place-based systems work with Save the Children
+
+Type: Source
+Public depth: described
+
+Boundary questions and mapping used with Save the Children UK to examine local support for children and families. SCiO; Benjamin Taylor. Work in 2019. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Place-based systems work with Save the Children — https://www.systemspractice.org/resources/place-based-systems-work-save-children
+
+## Public resource: Podcasts
+
+Type: Source
+Public depth: described
+
+Hosted shows, guest appearances and full programme archives. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Podcasts — https://antlerboy.com/library/podcasts/
+
+## Public resource: Policy Entrepreneurship at the White House
+
+Type: Publication
+Public depth: described
+
+Publisher-deposited bibliographic record matched to the opening title of the supplied source. Concept links below are text-location aids; they do not establish influence or agreement. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Policy Entrepreneurship at the White House — https://doi.org/10.1162/inov_a_00253
+
+## Public resource: Positive dynamics of differentiation and integration; ISSS
+
+Type: Source
+Public depth: described
+
+The corrected 2024 ISSS presentation on differentiation, homogenisation, individuation and integration. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Positive dynamics of differentiation and integration; ISSS — https://antlerboy.com/library/files/talks/positive-dynamics-differentiation-and-integration.pdf
+
+## Public resource: Power and love in parts and wholes; Oshry and Beer
+
+Type: Source
+Public depth: described
+
+Presentation on the dynamics of parts, wholes, power and love. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Power and love in parts and wholes; Oshry and Beer — https://www.dropbox.com/scl/fi/65nspxv75j4mqz26xdfbj/2019-12-01-Benjamin-Taylor-power-and-love-in-parts-and-wholes-Oshry-and-Beer-v0.3BT.pdf?rlkey=xxx2wrvbttx5mp1h409mibpvq&dl=0
+
+## Public resource: Power, systems, and the Viable System Model
+
+Type: Source
+Public depth: described
+
+A Metaphorum presentation. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Power, systems, and the Viable System Model — https://antlerboy.com/library/files/talks/power-systems-and-the-viable-system-model.pdf
+
+## Public resource: Preprints and working papers
+
+Type: Source
+Public depth: described
+
+Current substantial manuscripts shared before or outside formal publication. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Preprints and working papers — https://antlerboy.com/library/preprints-and-working-papers/
+
+## Public resource: Productive conversations
+
+Type: Source
+Public depth: described
+
+Conversation as infrastructure for shared understanding and learning. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Productive conversations — https://antlerboy.com/library/productive-conversations/
+
+## Public resource: Productive conversations; SCiO
+
+Type: Source
+Public depth: described
+
+A practical session on honest, constructive conversations and shared learning. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Productive conversations; SCiO — https://www.dropbox.com/scl/fi/ztetuy2oydh3va0c4u5zm/2024-111-20-SCiO-Benjamin-P-Taylor-productive-conversations-v1.2.pdf?rlkey=69mwjlj2yyr6nc0hkl9aral3m&dl=0
+
+## Public resource: PSTA and the development of commissioning
+
+Type: Source
+Public depth: described
+
+Presentation on PSTA and the development of commissioning practice. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- PSTA and the development of commissioning — https://www.dropbox.com/scl/fi/sq22h8l99hdctbx8u6naf/2019-09-06-Benjamin-P-Taylor-presentation-the-PSTA-and-the-development-of-commissioning-v1.0BT.pdf?rlkey=ku8dzu11y6wahudqab23pqbhn&dl=0
+
+## Public resource: Public Service: State of Transformation
+
+Type: Source
+Public depth: described
+
+PSTA reports, surveys, case studies and conference material. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Public Service: State of Transformation — https://antlerboy.com/library/state-of-transformation/
+
+## Public resource: Public Service: State of Transformation 2018 - case studies
+
+Type: Source
+Public depth: described
+
+The 2018 collection of public-service transformation case studies. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Public Service: State of Transformation 2018 - case studies — https://www.dropbox.com/scl/fi/sah1acta7tmpw8j7go1qk/2018-case-studies-public-service-state-of-transformation-from-the-public-service-transformation-academy-e-version-ALPHA.pdf?rlkey=iovs0kz2mcg2fgqurq56u8l47&dl=0
+
+## Public resource: Public Service: State of Transformation 2018 - think pieces
+
+Type: Source
+Public depth: described
+
+The 2018 collection of think pieces from PSTA. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Public Service: State of Transformation 2018 - think pieces — https://www.dropbox.com/scl/fi/o063q8z79w4jlllnsu3vh/public-service-state-of-transformation-2018-report-from-the-public-service-transformation-academy-e-version.pdf?rlkey=wa35fr9zllc1ktwzpv8a1t69e&dl=0
+
+## Public resource: Public services group
+
+Type: Source
+Public depth: described
+
+Supported by PSTA and RedQuadrant. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Public services group — https://www.linkedin.com/groups/35928
+
+## Public resource: Public-service articles and interviews
+
+Type: Source
+Public depth: described
+
+Publisher-identified writing and interviews in the public-service press. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Public-service articles and interviews — https://antlerboy.com/library/public-service-writing/
+
+## Public resource: Public-service transformation
+
+Type: Source
+Public depth: described
+
+Adaptive councils, learning communities and post-shock reform. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Public-service transformation — https://antlerboy.com/library/public-service-transformation/
+
+## Public resource: Publications and recordings
+
+Type: Source
+Public depth: described
+
+Visual work, essays, reports, podcasts, videos and communities. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Publications and recordings — https://antlerboy.com/library/publications/
+
+## Public resource: PwC employees and alumni
+
+Type: Source
+Public depth: described
+
+An unofficial employees and alumni group. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- PwC employees and alumni — https://www.linkedin.com/groups/27813
+
+## Public resource: Rainmaking: Observed with social systems theory
+
+Type: Publication
+Public depth: described
+
+Publisher-deposited bibliographic record matched to the opening title of the supplied source. Concept links below are text-location aids; they do not establish influence or agreement. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Rainmaking: Observed with social systems theory — https://doi.org/10.1002/sres.3101
+
+## Public resource: RedQuadrant and PSTA reference library
+
+Type: Source
+Public depth: described
+
+Selected public organisational methods, reports and historical reference documents. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- RedQuadrant and PSTA reference library — https://antlerboy.com/library/redquadrant-psta-reference/
+
+## Public resource: RedQuadrant and VECIT change
+
+Type: Source
+Public depth: described
+
+A presentation on the model and its use. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- RedQuadrant and VECIT change — https://www.dropbox.com/scl/fi/92gvoxp8lwduifq0pxdil/2016-12-05-RedQuadrant-and-VECIT-change-v0.6BT.pdf?rlkey=japa1wl6n1vw8n9otuerg71i0&dl=0
+
+## Public resource: RedQuadrant demand management webinar
+
+Type: Source
+Public depth: described
+
+Recorded session. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- RedQuadrant demand management webinar — https://www.dropbox.com/scl/fi/b5y5km6d5quddd989js9x/2015-01-23-11.05-RedQuadrant-demand-management-webinar.wmv?rlkey=3n4u8nzovl6tsw19hvtqzv1b8&dl=0
+
+## Public resource: RedQuadrant radical reading list
+
+Type: Source
+Public depth: described
+
+A wider list on public services, organisations and transformation. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- RedQuadrant radical reading list — https://www.dropbox.com/scl/fi/z487rt3xljlmvx98vv89o/2022-06-23-RedQuadrant-radical-reading-list-v0.2BT.pdf?rlkey=2bg6aep9bt7qtyshs0wga69b4&dl=0
+
+## Public resource: RedQuadrant systems-change framework
+
+Type: Source
+Public depth: described
+
+A visual framework for systems change and public-service transformation. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- RedQuadrant systems-change framework — https://www.dropbox.com/scl/fi/pt7cd8234otsjae3o9g2k/RedQuadrant-systems-change-framework.jpg?rlkey=7064y80u4xtlg55yybyyvk7tu&dl=0
+
+## Public resource: Relational public services
+
+Type: Source
+Public depth: described
+
+Relationships, judgement and the conditions around relational practice. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Relational public services — https://antlerboy.com/library/relational-public-services/
+
+## Public resource: Relational public services (PDF)
+
+Type: Source
+Public depth: described
+
+A visual synthesis of the argument. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Relational public services — https://www.dropbox.com/scl/fi/sciz55dmueb5ezfyv1wgt/2025-10-26-relational-public-services.pdf?rlkey=jn6cicbsabv3bogj6kfzfs79g&dl=0
+
+## Public resource: Reports and surveys
+
+Type: Source
+Public depth: described
+
+Reports, surveys, case studies and conference evidence. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Reports and surveys — https://antlerboy.com/library/reports-and-surveys/
+
+## Public resource: Requisite Agility
+
+Type: Source
+Public depth: described
+
+Matching organisational response to the demands of the situation. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Requisite Agility — https://antlerboy.com/library/requisite-agility/
+
+## Public resource: Requisite Agility at the 2019 UnSymposium
+
+Type: Source
+Public depth: described
+
+Early public material from the Requisite Agility work. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Requisite Agility at the 2019 UnSymposium — https://stream.syscoi.com/2019/02/page/4/
+
+## Public resource: Requisite Agility piece - Benjamin Taylor draft v0.8BT
+
+Type: Source
+Public depth: described
+
+A working essay on the idea and practice of Requisite Agility. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Requisite Agility piece - Benjamin Taylor draft v0.8BT — https://docs.google.com/document/d/10HNkYBBqwqdtfJ9cK3bEy0PeKkUjdIkFXM1MGDomojA/view?usp=sharing
+
+## Public resource: Requisite Agility Unleashed conference
+
+Type: Source
+Public depth: described
+
+The two-day conference on the four realms of requisite agility. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Requisite Agility Unleashed conference — https://www.scrum.org/events/53026/requisite-agility-unleashed-conference
+
+## Public resource: Rough draft systems thinking reading list v1.1
+
+Type: Source
+Public depth: described
+
+A broad working reading list. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Rough draft systems thinking reading list v1.1 — https://www.dropbox.com/scl/fi/85zlt0t6ph8qarx7d7gic/2024-09-27-rough-draft-systems-thinking-reading-list-v1.1BT.pdf?rlkey=3rfavacsy4n6sl8j0pyedph1q&dl=0
+
+## Public resource: Scenario planning and speculative futures; learning network
+
+Type: Source
+Public depth: described
+
+An article on scenario planning and learning under uncertainty. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Scenario planning and speculative futures; learning network — https://www.dropbox.com/scl/fi/czi6rwr905rbyeufxz456/Benjamin-Taylor-LGC-piece-on-scenario-planning-speculative-futures-learning-network.pdf?rlkey=qv8kn2foa86j2fpl6nl5mwb1t&dl=0
+
+## Public resource: SCiO events
+
+Type: Source
+Public depth: described
+
+Events from Systems and Complexity in Organisation. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- SCiO events — https://www.systemspractice.org/events
+
+## Public resource: Scrum
+
+Type: Source
+Public depth: described
+
+Named as a further example in the teaching material. A developed comparison or account is not supplied in this collection. Further examples. Mention only. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Scrum — https://antlerboy.com/library/large-group-processes/#scrum
+
+## Public resource: Search all public work
+
+Type: Source
+Public depth: described
+
+Search the public library, Chosen Path, and SysCoi together. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Search all public work — https://antlerboy.com/library/search/
+
+## Public resource: Search Chosen Path
+
+Type: Source
+Public depth: described
+
+A keyword catalogue of the public essays and fragments on chosen-path.org. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Search Chosen Path — https://antlerboy.com/library/chosen-path/
+
+## Public resource: Search the public library
+
+Type: Source
+Public depth: described
+
+Search the curated library, including podcasts, talks, tools, and papers. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Search the public library — https://antlerboy.com/library/catalogue/
+
+## Public resource: Search the Systems Community of Inquiry
+
+Type: Source
+Public depth: described
+
+A keyword catalogue of public posts on SysCoi. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Search the Systems Community of Inquiry — https://antlerboy.com/library/syscoi/
+
+## Public resource: Service systems, citizen ecosystems, and the politics we deny
+
+Type: Source
+Public depth: described
+
+Benjamin P Taylor, v3. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Service systems, citizen ecosystems, and the politics we deny — https://antlerboy.com/library/files/preprints/2026-service-systems-citizen-ecosystems-and-the-politics-we-deny-v3-taylor.pdf
+
+## Public resource: Seven ways to save and improve; developed account
+
+Type: Source
+Public depth: described
+
+A developed RedQuadrant account. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Seven ways to save and improve; developed account — https://antlerboy.com/library/files/reference/redquadrant-seven-ways-to-save-and-improve.pdf
+
+## Public resource: Shift & Share
+
+Type: Source
+Public depth: described
+
+Move small groups between stations where people present an idea, discuss it, and receive feedback. Liberating Structures guides. Guide read. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Shift & Share — https://antlerboy.com/library/large-group-processes/#shift-share
+
+## Public resource: smartCompass
+
+Type: Source
+Public depth: described
+
+An AI-supported first orientation to the Commissioning Compass. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- smartCompass — https://link.redquadrant.com/smartCompass
+
+## Public resource: Spaces and leadership stands
+
+Type: Source
+Public depth: described
+
+A short working deck. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Spaces and leadership stands — https://antlerboy.com/library/files/talks/spaces-and-leadership-stands.pdf
+
+## Public resource: State of emergency; RedQuadrant shadow report
+
+Type: Source
+Public depth: described
+
+One of the five principal State of Transformation reports. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- State of emergency; RedQuadrant shadow report — https://antlerboy.com/library/files/reference/2018-state-of-transformation-redquadrant-shadow-report.pdf
+
+## Public resource: State of emergency; the RedQuadrant state of transformation shadow report
+
+Type: Source
+Public depth: described
+
+RedQuadrant's critical companion to the 2018 State of Transformation work. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- State of emergency; the RedQuadrant state of transformation shadow report — https://www.dropbox.com/scl/fi/xq9aw3ywto22gmlkl8dwv/2018-State-of-emergency-the-RedQuadrant-state-of-transformation-shadow-report.pdf?rlkey=bh9iw09qz2bqgqafe1tx1crr8&dl=0
+
+## Public resource: State of Readiness - Benjamin Taylor, RedQuadrant
+
+Type: Source
+Public depth: described
+
+A conversation about operational excellence and public-service transformation. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- State of Readiness - Benjamin Taylor, RedQuadrant — https://opexsociety.org/podcasts/state-of-readiness-benjamin-taylor-redquadrant/
+
+## Public resource: State of Transformation 2018 conference: It does not have to be this way
+
+Type: Source
+Public depth: described
+
+Conference notes and supporting material from the 2018 event. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- State of Transformation 2018 conference: It does not have to be this way — https://www.publicservicetransformation.org/2018/05/state-of-transformation-report/
+
+## Public resource: State of Transformation 2019 conference
+
+Type: Source
+Public depth: described
+
+Conference account and presentation material from the 2019 event. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- State of Transformation 2019 conference — https://www.publicservicetransformation.org/2019/07/state-of-transformation-2019-conference/
+
+## Public resource: State of Transformation process and survey design
+
+Type: Source
+Public depth: described
+
+The process and survey design for the State of Transformation programme. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- State of Transformation process and survey design — https://www.dropbox.com/scl/fi/k40d5dwosj1zazpphaf1q/PSTA-public-service-state-of-transformation-process-and-survey-v2.0.pdf?rlkey=6jxlq3zop4pynael1m5ydkx2c&dl=0
+
+## Public resource: State of Transformation report 2019
+
+Type: Source
+Public depth: described
+
+PSTA report on the condition and practice of public-service transformation. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- State of Transformation report 2019 — https://www.dropbox.com/scl/fi/nxaelfh4uqy1g818v134a/PSTA-state-of-transformation-report-2019-web-version.pdf?rlkey=gaublmq1d5zz8f5nm5o90xwlf&dl=0
+
+## Public resource: State of Transformation report and survey 2019
+
+Type: Source
+Public depth: described
+
+The programme page bringing together the 2019 report and survey. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- State of Transformation report and survey 2019 — https://www.publicservicetransformation.org/2019/06/state-of-transformation-report-2019/
+
+## Public resource: State of Transformation survey 2019
+
+Type: Source
+Public depth: described
+
+The full 2019 survey from PSTA and Public Service Executive. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- State of Transformation survey 2019 — https://www.dropbox.com/scl/fi/rjn18l01shgalkvkal6ar/State-of-Transformation-2019-survey-from-the-PSTA-and-PSSE.pdf?rlkey=wr3fb4fja5xj4nktscqsz5z3t&dl=0
+
+## Public resource: State of Transformation survey overview 2019
+
+Type: Source
+Public depth: described
+
+A short overview of the 2019 survey findings. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- State of Transformation survey overview 2019 — https://www.dropbox.com/scl/fi/paqhchum2pd1e6byc4z14/2019-PSTA-and-PSSE-state-of-transformation-survey-overview-web.pdf?rlkey=qfo1yukfbotglc1wy0tz03ty4&dl=0
+
+## Public resource: State of Transformation survey results 2019
+
+Type: Source
+Public depth: described
+
+A video presentation of the 2019 survey results. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- State of Transformation survey results 2019 — https://www.youtube.com/watch?v=UnzMHz6uMuQ&t=234s
+
+## Public resource: Strategic knowledge acquisition: a case study of learning through prototyping
+
+Type: Publication
+Public depth: described
+
+Publisher-deposited bibliographic record matched to the opening title of the supplied source. Concept links below are text-location aids; they do not establish influence or agreement. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Strategic knowledge acquisition: a case study of learning through prototyping — https://doi.org/10.1016/s0950-7051(98)00086-0
+
+## Public resource: Systemic consulting: rethinking the consultant’s role
+
+Type: Source
+Public depth: described
+
+Workshop at SysPrac25. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Systemic consulting: rethinking the consultant’s role — https://www.systemspractice.org/resources/systemic-consulting-rethinking-consultants-role-workshop-sysprac25
+
+## Public resource: Systems archetypes; a primer
+
+Type: Source
+Public depth: described
+
+A compact RedQuadrant primer. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Systems archetypes; a primer — https://antlerboy.com/library/files/reference/systems-archetypes-primer.pdf
+
+## Public resource: Systems Community of Inquiry
+
+Type: Source
+Public depth: described
+
+Open curation and discussion across systems, cybernetics and complexity. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Systems Community of Inquiry — https://www.syscoi.com/
+
+## Public resource: Systems Community of Inquiry stream
+
+Type: Source
+Public depth: described
+
+The long-running public stream of systems material and discussion. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Systems Community of Inquiry public archive — https://stream.syscoi.com/
+
+## Public resource: Systems consulting and facilitation; STSP26
+
+Type: Source
+Public depth: described
+
+A conference session on helping from within the system without taking over. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Systems consulting and facilitation; STSP26 — https://www.dropbox.com/scl/fi/ca3lalnnjdkt06rx39nm6/2026-03-24-STSP26-systems-conulting-and-facilitation-Benjamin-P-Taylor.pdf?rlkey=u5txcu880d7ht4ceu8ognmu7z&dl=0
+
+## Public resource: Systems convening and boundary work
+
+Type: Source
+Public depth: described
+
+Core slides on convening across boundaries. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Systems convening and boundaries core slides — https://antlerboy.com/library/files/talks/systems-convening-and-boundaries.pdf
+
+## Public resource: Systems convening shared folder
+
+Type: Source
+Public depth: described
+
+Recordings and supporting material from the systems-convening session. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Systems convening shared folder — https://www.dropbox.com/scl/fo/4hs8l98k790ci2qizlr3q/AM1dLNakFp8WzPmGHvAlxwo?rlkey=9qam6r9dp7os640591y0o9bvy&dl=0
+
+## Public resource: Systems convening, systems practice, systems theory
+
+Type: Source
+Public depth: described
+
+How systems convening relates to systems practice, leadership and theory. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Systems convening, systems practice, systems theory — https://www.dropbox.com/scl/fi/d38g20o5y801fcu74vl1v/2022-06-13-systems-convening-systems-practice-systems-theory-v0.6DM-with-notes.pdf?rlkey=jj99ek5balfhotcmjnbv73sgg&dl=0
+
+## Public resource: Systems Innovation London VSM workshop
+
+Type: Source
+Public depth: described
+
+Workshop co-delivered with Patrick Hoverstadt at Systems Innovation London. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Systems Innovation London VSM workshop — https://www.dropbox.com/scl/fi/nuzy6oofhmi2zoeu1a4jk/2019-09-03-Systems-Innovation-London-VSM-workshop.pdf?rlkey=u0orouifyc8yzwvgxqamq56ix&dl=0
+
+## Public resource: Systems leadership in Peterborough and Cambridgeshire
+
+Type: Source
+Public depth: described
+
+Health, care, and council leaders working on shared problems through action learning, systems mapping, and reflection. SCiO; Benjamin Taylor. Work during 2018–2019. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Systems leadership in Peterborough and Cambridgeshire — https://www.systemspractice.org/resources/systems-leadership-peterborough-and-cambridgeshire
+
+## Public resource: Systems leadership, change and convening
+
+Type: Source
+Public depth: described
+
+Seeing and acting across boundaries, including systems convening. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Systems leadership, change and convening — https://antlerboy.com/library/systems-leadership-change-practice/
+
+## Public resource: Systems leadership, change, theory and practice
+
+Type: Source
+Public depth: described
+
+A substantial public presentation. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Systems leadership, change, theory and practice — https://antlerboy.com/library/files/talks/systems-leadership-change-theory-and-practice.pdf
+
+## Public resource: Systems leadership, change, theory and practice (Recorded talk)
+
+Type: Source
+Public depth: described
+
+A presentation on systems leadership and systems change, followed by questions. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Systems leadership, change, theory and practice — https://www.youtube.com/watch?v=2JIZojh42PA
+
+## Public resource: Systems Leadership, Change, Theory and Practice; OU systems community
+
+Type: Source
+Public depth: described
+
+A substantial presentation on systems leadership, change, theory and practice. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Systems Leadership, Change, Theory and Practice; OU systems community — https://www.dropbox.com/scl/fi/bmng5qcqxwie1mojxnuj8/2023-06-28-Benjamin-Taylor-for-OU-systems-community-Systems-Leadership-Change-Theory-and-Practice-v0.6BT.pdf?rlkey=ygyopazm2jijrg3k0ax3krrt9&dl=0
+
+## Public resource: Systems Leadership, Change, Theory and Practice; SCiO
+
+Type: Source
+Public depth: described
+
+A presentation for the SCiO systems-practice community. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Systems Leadership, Change, Theory and Practice; SCiO — https://www.dropbox.com/scl/fi/gwx4hma8vw7cmixgx069y/2022-07-11-Benjamin-Taylor-at-SCiO-Systems-Leadership-Change-Theory-and-Practice-v0.4BT.pdf?rlkey=cssx06tl5dzjdn761z8xx91bl&dl=0
+
+## Public resource: Systems practice case studies
+
+Type: Source
+Public depth: described
+
+Eight public SCiO accounts of systems work with organisations, communities, and public services. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Systems practice case studies — https://antlerboy.com/library/systems-practice-case-studies/
+
+## Public resource: Systems practice is a humanism; STSP26
+
+Type: Source
+Public depth: described
+
+Conference presentation. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Systems practice is a humanism; STSP26 — https://www.dropbox.com/scl/fi/n0egk8yt4fvu9fqbud4kj/Benjamin-P-Taylor-at-STSP26-systems-practice-is-a-humanism.pdf?rlkey=rahzsmimaa6z1qn4d4haci2gp&dl=0
+
+## Public resource: Systems sciences
+
+Type: Source
+Public depth: described
+
+A group for systems sciences. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Systems sciences — https://www.facebook.com/groups/2391509563
+
+## Public resource: Systems thinking and consultancy - panel, part one
+
+Type: Source
+Public depth: described
+
+Panel discussion on systems thinking and consultancy. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Systems thinking and consultancy - panel, part one — https://www.youtube.com/watch?v=EkDBrFt0uIc&t=2s
+
+## Public resource: Systems thinking and consultancy - panel, part two
+
+Type: Source
+Public depth: described
+
+The second part of the panel discussion. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Systems thinking and consultancy - panel, part two — https://www.youtube.com/watch?v=ddqNU12vV28
+
+## Public resource: Systems thinking and consultancy: questions and answers
+
+Type: Source
+Public depth: described
+
+Audience questions and panel discussion following the systems thinking and consultancy session. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Systems thinking and consultancy: questions and answers — https://www.youtube.com/watch?v=EkDBrFt0uIc
+
+## Public resource: Systems Thinking Network
+
+Type: Source
+Public depth: described
+
+Owned on behalf of the collective. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Systems Thinking Network — https://www.linkedin.com/groups/2639211
+
+## Public resource: Systems, complexity and cybernetics reading
+
+Type: Source
+Public depth: described
+
+Reading routes across the field and its applications. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Systems, complexity and cybernetics reading — https://antlerboy.com/library/reading/
+
+## Public resource: T-groups
+
+Type: Source
+Public depth: described
+
+Named as a further example in the teaching material. A developed comparison or account is not supplied in this collection. Further examples. Mention only. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- T-groups — https://antlerboy.com/library/large-group-processes/#t-groups
+
+## Public resource: Talking circles
+
+Type: Source
+Public depth: described
+
+Named as a further example in the teaching material. A developed comparison or account is not supplied in this collection. Further examples. Mention only. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Talking circles — https://antlerboy.com/library/large-group-processes/#talking-circles
+
+## Public resource: Talking Data: Benjamin Taylor
+
+Type: Source
+Public depth: described
+
+Joel Lister-Barker asks about frontline data, public-service transformation, and AI in consulting. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Talking Data: Benjamin Taylor — https://www.companysights.com/talking-data/benjamin-taylor
+
+## Public resource: Talks, workshops and conference sessions
+
+Type: Source
+Public depth: described
+
+A chronological index of presentation and session material. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Talks, workshops and conference sessions — https://antlerboy.com/library/talks-and-sessions/
+
+## Public resource: The Adaptive Council model
+
+Type: Source
+Public depth: described
+
+A presentation setting out the Adaptive Council model. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- The Adaptive Council model — https://www.dropbox.com/scl/fi/97ws4kurk5iie4cffefn8/2020-11-18-the-Public-Service-Transformation-Academy-and-Redquadrant-the-adaptive-council-model-v0.2BT.pdf?rlkey=nflc0i3ee2lgbdcrhrmqv58dx&dl=0
+
+## Public resource: The Adaptive Council; LearnFest
+
+Type: Source
+Public depth: described
+
+A presentation on the Adaptive Council model. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- The Adaptive Council; LearnFest — https://www.dropbox.com/scl/fi/rvuz44tvyfloh2786jvi8/Benjamin-Taylor-the-Public-Service-Transformation-Academy-the-Adaptive-Council-for-LearnFest-2021.pdf?rlkey=ohz6zsodrgkzf0iz7fyswrdpy&dl=0
+
+## Public resource: The Commissioning Compass
+
+Type: Source
+Public depth: described
+
+Three routes into systems-oriented commissioning practice. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- The Commissioning Compass — https://antlerboy.com/library/commissioning/
+
+## Public resource: The Commissioning Compass (Interactive tool)
+
+Type: Source
+Public depth: described
+
+A structured systems assessment for commissioning and change. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- The Commissioning Compass — https://link.redquadrant.com/commissioningcompass
+
+## Public resource: The days after: creating a new learning  community
+
+Type: Source
+Public depth: described
+
+Benjamin Taylor; The MJ. Publisher access terms apply. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- The days after: creating a new learning  community — https://www.themj.co.uk/days-creating-learning%C2%A0-community
+
+## Public resource: The demand side of public services
+
+Type: Source
+Public depth: described
+
+Philip Boxer and Benjamin P Taylor, v9. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- The demand side of public services — https://antlerboy.com/library/files/preprints/2026-the-demand-side-of-public-services-v9-boxer-taylor.pdf
+
+## Public resource: The dynamics of purposeful change: a model
+
+Type: Publication
+Public depth: described
+
+Publisher-deposited bibliographic record matched to the opening title of the supplied source. Concept links below are text-location aids; they do not establish influence or agreement. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- The dynamics of purposeful change: a model — https://doi.org/10.5751/ES-10243-230304
+
+## Public resource: The dynamics of socio-technical systems: principles from practice - STPIS20
+
+Type: Source
+Public depth: described
+
+STPIS20 presentation on VSM, human systems dynamics, needs and leadership practice. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- The dynamics of socio-technical systems: principles from practice - STPIS20 — https://www.dropbox.com/scl/fi/wo2d5d6yqqho7rgej5rqg?dl=0
+
+## Public resource: The ecology of systems thinking
+
+Type: Source
+Public depth: described
+
+A collectively owned systems-thinking group. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- The ecology of systems thinking — https://www.facebook.com/groups/774241602654986
+
+## Public resource: The five worlds
+
+Type: Source
+Public depth: described
+
+The different perspectives that people bring to a process and the work around it. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- The five worlds — https://www.youtube.com/watch?v=49v7n4z7xA0
+
+## Public resource: The four quadrants of thinking threats
+
+Type: Source
+Public depth: described
+
+A public SCiO resource. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- The four quadrants of thinking threats — https://www.systemspractice.org/resources/four-quadrants-thinking-threats
+
+## Public resource: The four quadrants of thinking threats (Recorded talk)
+
+Type: Source
+Public depth: described
+
+If systems thinking offers great power, what does responsibility look like? This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- The four quadrants of thinking threats — https://www.youtube.com/watch?v=G2TrCcUinoI
+
+## Public resource: The four quadrants of thinking threats; SCiO open event
+
+Type: Source
+Public depth: described
+
+A recorded SCiO session on the four quadrants. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- The four quadrants of thinking threats; SCiO open event — https://www.dropbox.com/scl/fi/0pg49y3vkfqi1ou1mi1cu/Benjamin-Taylor-Jan-2021-SCiO-Open-Event-The-four-quadrants-of-thinking-threats.mp4?rlkey=06ecot7tfjlj0r56lhsyu6gqk&dl=0
+
+## Public resource: The future of commissioning and transformation
+
+Type: Source
+Public depth: described
+
+A presentation on commissioning and public-service transformation. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- The future of commissioning and transformation — https://www.youtube.com/watch?v=8WymIJ84ISM
+
+## Public resource: The future of work: Benjamin Taylor
+
+Type: Source
+Public depth: described
+
+An interview with Tim Danton about the future of work and organisations. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- The future of work: Benjamin Taylor — https://www.techfinitive.com/features/future-work-benjamin-taylor/
+
+## Public resource: The great big shit-shovelling machine
+
+Type: Source
+Public depth: described
+
+A visual account of systems that move work, failure and responsibility around. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- The great big shit-shovelling machine — https://www.dropbox.com/scl/fi/trv2tre8b8gwk92bh4npa/The-great-big-shit-shovelling-machine.pdf?rlkey=u65y7o3r85ii14epj6da0p9kh&dl=0
+
+## Public resource: The Human Current 038 - A philosophical look at company culture
+
+Type: Source
+Public depth: described
+
+A conversation about company culture and systems thinking. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- The Human Current 038 - A philosophical look at company culture — https://soundcloud.com/humancurrent/038-a-philosophical-look-at
+
+## Public resource: The Human Current 040: The myth of the dysfunctional system
+
+Type: Source
+Public depth: described
+
+Benjamin Taylor contributes to a discussion of organisational dysfunction and the results systems produce. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- The Human Current 040: The myth of the dysfunctional system — https://soundcloud.com/humancurrent/040-the-myth-of-the
+
+## Public resource: The John Seddon Method
+
+Type: Source
+Public depth: described
+
+Action learning, transformation, self-enlightenment and coercion. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- The John Seddon Method — https://antlerboy.com/library/john-seddon-method/
+
+## Public resource: The ladder of relationality in public service
+
+Type: Source
+Public depth: described
+
+Earlier solo working paper. A substantially updated, co-authored version is available in the preprints collection as Degrees of relationality. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- The ladder of relationality in public service — https://docs.google.com/document/d/1FewYqWndCJbjGYOlkWFZGBHxbs3AM4lA/edit?usp=sharing
+
+## Public resource: The Left-Hand Column exercise
+
+Type: Source
+Public depth: described
+
+An exercise for noticing the gap between what is thought and what is said. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- The Left-Hand Column exercise — https://www.dropbox.com/scl/fi/pi2on6gywe0k61w9r3hp5/2021-02-17-RedQuadrant-the-Left-Hand-Column-exercise.pdf?rlkey=z542btrygdabkb2pdfpq2u9dr&dl=0
+
+## Public resource: The map is the territory - Cybernetics is not the banana, part two
+
+Type: Source
+Public depth: described
+
+A conversation about maps, models, representation and cybernetics. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- The map is the territory - Cybernetics is not the banana, part two — https://chosen-path.org/2025/10/14/the-map-is-the-territory/
+
+## Public resource: The nonsense of “chairman”
+
+Type: Source
+Public depth: described
+
+A short piece on language, convention and power. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- The nonsense of “chairman” — https://www.dropbox.com/scl/fi/x49gk0o0c2pj2to6bzjhu/The-nonsense-of-chairman.pdf?rlkey=2c7muu5ial2bn3ifba4q8ralz&dl=0
+
+## Public resource: The Organization of Discipline: From Performance Management to Perversity and Punishment
+
+Type: Publication
+Public depth: described
+
+Publisher-deposited bibliographic record matched to the opening title of the supplied source. Concept links below are text-location aids; they do not establish influence or agreement. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- The Organization of Discipline: From Performance Management to Perversity and Punishment — https://doi.org/10.1093/jopart/muq095
+
+## Public resource: The Outliers Inn
+
+Type: Source
+Public depth: described
+
+Benjamin P Taylor formerly co-hosted The Outliers Inn with Joseph Paris. Conversations about operational excellence, organisations, and the occasional drink. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- The Outliers Inn — https://theoutliersinn.com/
+
+## Public resource: The Peter Block community exercise
+
+Type: Source
+Public depth: described
+
+A practical exercise for convening and community-building work. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- The Peter Block community exercise — https://www.dropbox.com/scl/fi/pd58brghxfzi7hmcjpq5e/The-Peter-Block-community-exercise.pdf?rlkey=effn2ww7mw5jak96bg43zazga&dl=0
+
+## Public resource: The Prime Domino 003 - Benjamin Taylor, RedQuadrant
+
+Type: Source
+Public depth: described
+
+A conversation about RedQuadrant and public-service transformation. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- The Prime Domino 003 - Benjamin Taylor, RedQuadrant — https://podcasts.apple.com/gb/podcast/primedomino-003-benjamin-taylor-redquadrant/id974705792?i=1000340913686
+
+## Public resource: The Principal Podcast: transforming public-sector organisations through systems thinking
+
+Type: Source
+Public depth: described
+
+Public-service transformation, building RedQuadrant, winning consulting work, and sustaining client relationships. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- The Principal Podcast: transforming public-sector organisations through systems thinking — https://podcasts.apple.com/us/podcast/how-to-transform-public-sector-organisations-through/id1714675768?i=1000766598157
+
+## Public resource: The situation facing UK public libraries and the need to change the status and approach of interlending
+
+Type: Source
+Public depth: described
+
+An early peer-reviewed article, included as a curiosity. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- The situation facing UK public libraries and the need to change the status and approach of interlending — https://doi.org/10.1108/02641611111164618
+
+## Public resource: The Situational Challenge demanding Requisite Agility
+
+Type: Source
+Public depth: described
+
+A paper setting out the situational challenge to which Requisite Agility responds. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- The Situational Challenge demanding Requisite Agility — https://drive.google.com/file/d/1-P-wmJc2MxpgxvqlgGVcQ2kKG--sqzgy/view?usp=sharing
+
+## Public resource: The Tool Shed and Leading Transformation
+
+Type: Source
+Public depth: described
+
+Public Antlerboy page, included in the site-wide source register. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- The Tool Shed and Leading Transformation — https://antlerboy.com/toolshed/
+
+## Public resource: The transformation “journey” snakes and ladders
+
+Type: Source
+Public depth: described
+
+A less tidy picture of how transformation proceeds. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- The transformation “journey” snakes and ladders — https://www.dropbox.com/scl/fi/x4gnupohihgo83b193pjy/2019-10-13-The-transformation-journey-snakes-and-ladders.pdf?rlkey=zhtqrc4ly7dhs10sq8dvawea8&dl=0
+
+## Public resource: The Viable Systems Model and human systems dynamics through the lens of Barry Oshry's Organic Systems Model
+
+Type: Source
+Public depth: described
+
+Metaphorum presentation relating Stafford Beer's VSM to Barry Oshry's account of human systems dynamics. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- The Viable Systems Model and human systems dynamics through the lens of Barry Oshry's Organic Systems Model — https://docs.google.com/presentation/d/1PhBvxCw3sbsntkI3MdIqELZPfqBpsniG/edit?usp=sharing
+
+## Public resource: The Work of Requisite Agility
+
+Type: Source
+Public depth: described
+
+A collaborative working document on the practice. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- The Work of Requisite Agility — https://docs.google.com/document/d/1ccezrPk0muVlcL-MoBZohdMNocuagNZRlqqoA0lVy4c/edit?usp=sharing
+
+## Public resource: Theatre of the Oppressed
+
+Type: Source
+Public depth: described
+
+Named as a further example in the teaching material. A developed comparison or account is not supplied in this collection. Further examples. Mention only. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Theatre of the Oppressed — https://antlerboy.com/library/large-group-processes/#theatre-of-the-oppressed
+
+## Public resource: Tips on making place-based working work
+
+Type: Source
+Public depth: described
+
+Practical advice on place-based public-service work. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Tips on making place-based working work — https://www.dropbox.com/scl/fi/epj0a6h6o3d0ijpr1fe8a/Benjamin-Taylor_-Tips-on-making-place-based-working-work-_-Local-Government-Chronicle-LGC.pdf?rlkey=d3fxipow0pkv4hk6bxpifmhwq&dl=0
+
+## Public resource: Tony Robbins workshops
+
+Type: Source
+Public depth: described
+
+Named as a further example in the teaching material. A developed comparison or account is not supplied in this collection. Further examples. Mention only. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Tony Robbins workshops — https://antlerboy.com/library/large-group-processes/#tony-robbins-workshops
+
+## Public resource: Transduction
+
+Type: Source
+Public depth: described
+
+Public Antlerboy page, included in the site-wide source register. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Transduction — https://antlerboy.com/conversations/transduction/
+
+## Public resource: Transformation with and without easy answers
+
+Type: Source
+Public depth: described
+
+A visual comparison of transformation with and without predetermined answers. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Transformation with and without easy answers — https://www.dropbox.com/scl/fi/y9tultqci5zu29c37g10q/Transformation-with-and-without-easy-answers.pdf?rlkey=kzrcftri46adkca5md4z1561n&dl=0
+
+## Public resource: Transforming Public Procurement; maximising the opportunity presented by the Act
+
+Type: Source
+Public depth: described
+
+Presentation and session material. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Transforming Public Procurement; maximising the opportunity presented by the Act — https://www.dropbox.com/scl/fi/jx87i561uhoceosnns5yc/2024-03-12-Benjamin-Taylor-PSTA-Transforming-Public-Procurement-Maximising-the-Opportunity-Presented-by-the-Act-v1.0BT-as-delivered-with-notes.pdf?rlkey=csjj2s91sa4dthx57w7cfddjz&dl=0
+
+## Public resource: Transition design
+
+Type: Source
+Public depth: described
+
+Named as a further example in the teaching material. A developed comparison or account is not supplied in this collection. Further examples. Mention only. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Transition design — https://antlerboy.com/library/large-group-processes/#transition-design
+
+## Public resource: TRIZ (Liberating Structures)
+
+Type: Source
+Public depth: described
+
+Imagine how to produce an unwanted result, identify where current practice resembles it, and decide what to stop. Liberating Structures guides. Guide read. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- TRIZ (Liberating Structures) — https://antlerboy.com/library/large-group-processes/#triz-liberating-structures
+
+## Public resource: Troika Consulting
+
+Type: Source
+Public depth: described
+
+Work in threes so each person can present a challenge and listen to two colleagues explore possible responses. Liberating Structures guides. Guide read. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Troika Consulting — https://antlerboy.com/library/large-group-processes/#troika-consulting
+
+## Public resource: Ubuntu Circles
+
+Type: Source
+Public depth: described
+
+Named as a further example in the teaching material. A developed comparison or account is not supplied in this collection. Further examples. Mention only. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Ubuntu Circles — https://antlerboy.com/library/large-group-processes/#ubuntu-circles
+
+## Public resource: Unprofessionalism episode 018
+
+Type: Source
+Public depth: described
+
+A conversation about professionalism, judgement, competence and difficult truths. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Unprofessionalism episode 018 — https://chosen-path.org/2026/06/10/professionalism-can-support-judgement-competence-and-care-but-it-often-means-knowing-how-to-keep-difficult-truths-in-a-socially-acceptable-form/
+
+## Public resource: User Experience Fishbowl
+
+Type: Source
+Public depth: described
+
+Let an inner group discuss its experience while an outer group listens, develops questions, and then joins the exchange. Liberating Structures guides. Guide read. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- User Experience Fishbowl — https://antlerboy.com/library/large-group-processes/#user-experience-fishbowl
+
+## Public resource: Using conversation mapping to surface undiscussables
+
+Type: Source
+Public depth: described
+
+A county council example of using conversation maps and the Ladder of Inference to investigate avoided issues and defensive habits. SCiO; Benjamin Taylor. Work described as 2019–2021. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Using conversation mapping to surface undiscussables — https://www.systemspractice.org/resources/using-conversation-mapping-surface-undiscussables
+
+## Public resource: Values and Leadership episode 36
+
+Type: Source
+Public depth: described
+
+A conversation about values, leadership and public service. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Values and Leadership episode 36 — https://www.youtube.com/watch?v=AFfgoQroTcM
+
+## Public resource: VECIT and change
+
+Type: Source
+Public depth: described
+
+Testing the conditions required for change to take hold. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- VECIT and change — https://antlerboy.com/library/vecit/
+
+## Public resource: VECIT change model
+
+Type: Source
+Public depth: described
+
+A compact model for testing the conditions around a proposed change. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- VECIT change model — https://www.dropbox.com/scl/fi/pefnbq25tn11v3kefh0t9/VECIT-change-model.pdf?rlkey=092wmbm1wdto8nzgwc18kmq64&dl=0
+
+## Public resource: Viable System Model
+
+Type: Source
+Public depth: described
+
+A full VSM lecture and the Systems Innovation workshop with Patrick Hoverstadt. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Viable System Model — https://antlerboy.com/library/viable-system-model/
+
+## Public resource: Viable System Model lecture
+
+Type: Source
+Public depth: described
+
+A long-form teaching deck. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Benjamin Taylor VSM lecture — https://antlerboy.com/library/files/talks/viable-system-model-lecture.pdf
+
+## Public resource: Videos and recorded conversations
+
+Type: Source
+Public depth: described
+
+Presentations, panels and recorded conversations. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Videos and recorded conversations — https://antlerboy.com/library/videos/
+
+## Public resource: Visual models and short publications
+
+Type: Source
+Public depth: described
+
+Diagrams, visual arguments and short publications. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Visual models and short publications — https://antlerboy.com/library/visual-models/
+
+## Public resource: We must find a future where systems change can take root
+
+Type: Source
+Public depth: described
+
+An article on the conditions required for systems change. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- We must find a future where systems change can take root — https://www.dropbox.com/scl/fi/6wwckqg9dq49yhq1nz7rn/We-must-find-a-future-where-systems-change-can-take-root-Opinion-LGC.pdf?rlkey=ecsfovlrz4vcqszjmtgpk3ftf&dl=0
+
+## Public resource: What can systems thinking and change learn to become?
+
+Type: Source
+Public depth: described
+
+Appendix to Understanding Systems to Change the World. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- What can systems thinking and change learn to become? — https://chosen-path.org/wp-content/uploads/2026/04/benjamin_taylor_what_can_systems_change_learn_to_become_appendix_from_understanding_systems_to_change_the_world.pdf
+
+## Public resource: What disconnects policy and delivery? Class warfare
+
+Type: Source
+Public depth: described
+
+An article on the social and organisational distance between policy and delivery. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- What disconnects policy and delivery? Class warfare — https://www.dropbox.com/scl/fi/m1vclwpjwbikgg73b2slm/What-disconnects-policy-and-delivery-Class-warfare-Opinion-LGC.pdf?rlkey=26vl9nle3dr6rzs0gieja5ydu&dl=0
+
+## Public resource: What is Requisite Agility?
+
+Type: Source
+Public depth: described
+
+A collaborative account of the idea. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- What is Requisite Agility? — https://docs.google.com/document/d/1y3PBh_AndHJIt4uu2B1jl3_1afsp-c3KERYu5ISVQRM/edit?usp=sharing
+
+## Public resource: What the boundary cannot carry alone
+
+Type: Source
+Public depth: described
+
+A working paper on the organisational conditions needed to support relational public services, including authority, information, funding, risk and learning. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- What the boundary cannot carry alone, working redraft v3 — https://antlerboy.com/library/what-the-boundary-cannot-carry-alone/
+
+## Public resource: Where is your organisation on the learning ladder of purpose?
+
+Type: Source
+Public depth: described
+
+An article connecting purpose, learning and Requisite Agility. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Where is your organisation on the learning ladder of purpose? — https://chosen-path.org/2021/11/17/where-is-your-organisation-on-the-learning-ladder-of-purpose/
+
+## Public resource: Why do relational public services fail?; TRIP26
+
+Type: Source
+Public depth: described
+
+A conference presentation on the organisational conditions around relational practice. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Why do relational public services fail?; TRIP26 — https://www.dropbox.com/scl/fi/2fupfdismqxnr5glp7l0i/2026-06-25-TRIP26-Benjamin-Taylor-why-do-relational-public-services-fail-v1.0BT.pdf?rlkey=bminwqzpruwghaukmsq0t86f6&dl=0
+
+## Public resource: Why Service Design Thinking - Service design in government and public services
+
+Type: Source
+Public depth: described
+
+A conversation about service design, government and public services. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Why Service Design Thinking - Service design in government and public services — https://podcasts.apple.com/us/podcast/service-design-in-government-and-public-services/id1104134900?i=1000384105616
+
+## Public resource: Will you come to a conference that does not have all the answers?
+
+Type: Source
+Public depth: described
+
+Benjamin Taylor's invitation to Requisite Agility Unleashed. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Will you come to a conference that does not have all the answers? — https://chosen-path.org/2021/12/01/will-you-come-to-a-conference-that-doesnt-have-all-the-answers/
+
+## Public resource: workshops.work episode 257
+
+Type: Source
+Public depth: described
+
+A conversation about workshops, facilitation and working with groups. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- workshops.work episode 257 — https://podcasts.apple.com/us/podcast/257-exploring-the-ethical-lines-between-facilitation/id1456264052?i=1000646218514
+
+## Public resource: Worldwide systems-thinking events map
+
+Type: Source
+Public depth: described
+
+Nick Ananin's map of systems-thinking events. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Worldwide systems-thinking events map — https://goo.gl/4PXkCg
+
+## Public Service Transformation Academy
+
+Type: Organisation
+Public depth: described
+
+A social enterprise supporting public services to build their own capability to transform, through learning, development, and work on live service challenges.
+
+### Sources
+
+- Benjamin P Taylor: public work and roles — https://antlerboy.com/
 
 ## Public speaking
 
@@ -11869,7 +15834,7 @@ Purpose shapes boundaries, measures and acceptable trade-offs. A system can perf
 - Steps to an Ecology of Mind — https://press.uchicago.edu/ucp/books/book/chicago/S/bo3620295.html
 - Behavior, Purpose and Teleology — https://doi.org/10.1086/286788
 - Systems complexity cybernetics operating manual — No public link
-- Benjamin Taylor VSM lecture — No public link
+- Benjamin Taylor VSM lecture — https://antlerboy.com/library/files/talks/viable-system-model-lecture.pdf
 
 ## Purposeful behaviour
 
@@ -12060,6 +16025,17 @@ Randomness describes outcomes treated as not deterministically predictable withi
 
 - Systems Thinking Practitioner apprenticeship standard ST0787 v1.2 — https://skillsengland.education.gov.uk/apprenticeships/st0787-v1-2
 
+## Rapid Improvement Events / GE Work-Out
+
+Type: Method or methodology
+Public depth: described
+
+Bring relevant people together for focused decisions, process redesign, and practical action. Overview. Teaching account. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Rapid Improvement Events / GE Work-Out — https://antlerboy.com/library/large-group-processes/#rapid-improvement-events-ge-work-out
+
 ## Raul Espejo
 
 Type: Person
@@ -12204,6 +16180,17 @@ W. Bialek, F. Rieke, R. R. de Ruyter van Steveninck, and D. Warland, ‘Reading 
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
 
+## Real-Time Strategic Change / Real-Time Work Design
+
+Type: Method or methodology
+Public depth: described
+
+Combine whole-system participation with planning, decisions, and implementation. Overview. Teaching account. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Real-Time Strategic Change / Real-Time Work Design — https://antlerboy.com/library/large-group-processes/#real-time-strategic-change-real-time-work-design
+
 ## Recursion
 
 Type: Concept
@@ -12305,6 +16292,17 @@ A definition in which instances of a function or structure are specified in term
 ### Sources
 
 - Recursive Functions — https://plato.stanford.edu/entries/recursive-functions/
+
+## RedQuadrant
+
+Type: Organisation
+Public depth: described
+
+A UK public-service transformation consultancy led by Benjamin P Taylor. Its public work covers organisational and service change, including building capability for systems practice.
+
+### Sources
+
+- Benjamin P Taylor: public work and roles — https://antlerboy.com/
 
 ## Reducibility Among Combinatorial Problems
 
@@ -12958,6 +16956,28 @@ The Scaling Stasis Principle says that growth usually adds environmental exposur
 - The Grammar of Systems II: From Order to Chaos and Back Again, 2nd edition — https://www.systemspractice.org/resources/grammar-systems-ii-order-chaos-back-again-2nd-ed
 - Cybersecurity Lessons from The Grammar of Systems, part 3 — https://www.linkedin.com/pulse/cybersecurity-lessons-from-grammar-systems-order-chaos-osama-salah-2f
 
+## Scenario Narratives
+
+Type: Method or methodology
+Public depth: described
+
+Develop accounts of alternative futures to examine their implications. Overview. Overview entry. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Scenario Narratives — https://antlerboy.com/library/large-group-processes/#scenario-narratives
+
+## Scenario Planning
+
+Type: Method or methodology
+Public depth: described
+
+Explore several plausible futures and test what they would mean for present choices. Overview. Teaching account. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Scenario Planning — https://antlerboy.com/library/large-group-processes/#scenario-planning
+
 ## Science and Complexity
 
 Type: Publication
@@ -13071,6 +17091,17 @@ The paper’s axis for where sense-making, capability, uncertainty, resources an
 ### Sources
 
 - What the boundary cannot carry alone, working redraft v3 — https://antlerboy.com/library/what-the-boundary-cannot-carry-alone/
+
+## Search Conference
+
+Type: Method or methodology
+Public depth: described
+
+Use participatory inquiry into the environment, a desired future, and collective action. Overview. Teaching account. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Search Conference — https://antlerboy.com/library/large-group-processes/#search-conference
 
 ## Second Black Box Principle
 
@@ -13442,6 +17473,17 @@ Citizen Network founder whose citizenship and neighbourhood perspective is named
 - Simon Duffy — Citizen Network — https://citizen-network.org/about/people/simon-duffy
 - Neighbourhoods of Care — https://citizen-network.org/library/neighbourhoods-of-care.html
 
+## SimuReal
+
+Type: Method or methodology
+Public depth: described
+
+Use a simulation to explore organisational dynamics and possible responses. Overview. Overview entry. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- SimuReal — https://antlerboy.com/library/large-group-processes/#simureal
+
 ## Single-loop learning
 
 Type: Concept
@@ -13476,6 +17518,17 @@ Collaborative development of practices and arrangements intended to change socia
 
 - Lineages of Systems Practice — Damian Allen — No public link
 - Designing Regenerative Cultures — https://www.triarchypress.net/drc.html
+
+## Social Presencing Theatre
+
+Type: Method or methodology
+Public depth: described
+
+Use embodied practices to enquire into social situations and possible movement. Overview. Teaching account. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Social Presencing Theatre — https://antlerboy.com/library/large-group-processes/#social-presencing-theatre
 
 ## Socially situated action
 
@@ -13575,6 +17628,7 @@ SSM separates systemic inquiry from the claim that the situation itself is one o
 - Systems Thinking, Systems Practice: includes a 30-year retrospective — https://research.lancaster-university.uk/en/publications/systems-thinking-systems-practice-includes-a-30-year-retrospectiv/
 - Systems Thinking, Systems Practice — Wiley publisher page — https://www.wiley-vch.de/en/areas-interest/finance-economics-law/systems-thinking-systems-practice-978-0-471-98606-5
 - Lineages of Systems Practice — Damian Allen — No public link
+- Soft Systems Methodology — https://antlerboy.com/library/large-group-processes/#soft-systems-methodology
 
 ## Solvable Model of a Spin-Glass
 
@@ -13612,6 +17666,17 @@ Stakeholder analysis identifies people and groups affected by or able to affect 
 
 - SCiO CF Resources v9 draft — No public link
 - SCiO Professional Accreditation and Competency Framework — https://www.systemspractice.org/professional-accreditation
+
+## Stakeholder mapping
+
+Type: Method or methodology
+Public depth: described
+
+Make stakeholder relationships and perspectives visible for discussion. Overview. Overview entry. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Stakeholder mapping — https://antlerboy.com/library/large-group-processes/#stakeholder-mapping
 
 ## Stanford Goldman
 
@@ -13740,6 +17805,39 @@ A stock-and-flow diagram represents accumulations, rates of change and the relat
 ### Sources
 
 - An introductory systems thinking toolkit for civil servants — https://www.gov.uk/government/publications/systems-thinking-for-civil-servants/toolkit
+
+## Storytelling and narrative practices
+
+Type: Method or methodology
+Public depth: described
+
+Use stories to explore experience and the meanings people give it. Overview. Overview entry. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Storytelling and narrative practices — https://antlerboy.com/library/large-group-processes/#storytelling-and-narrative-practices
+
+## Strategic Change Accelerator (IBM ACT)
+
+Type: Method or methodology
+Public depth: described
+
+Listed as an approach to adaptation, design, and alignment; the deck provides only a brief description. Overview. Overview entry. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Strategic Change Accelerator (IBM ACT) — https://antlerboy.com/library/large-group-processes/#strategic-change-accelerator-ibm-act
+
+## Strategic Forum
+
+Type: Method or methodology
+Public depth: described
+
+Bring stakeholders into a structured discussion of strategic and cultural questions. Overview. Overview entry. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Strategic Forum — https://antlerboy.com/library/large-group-processes/#strategic-forum
 
 ## Strategic Options Development and Analysis (SODA)
 
@@ -13898,6 +17996,7 @@ Team Syntegrity is Stafford Beer's democratic large-group process for organising
 ### Sources
 
 - SCiO CF Resources v9 draft — No public link
+- Syntegration / Team Syntegrity — https://antlerboy.com/library/large-group-processes/#syntegration-team-syntegrity
 
 ## System
 
@@ -13971,6 +18070,17 @@ The System Survival Theorem says that a system cannot remain viable indefinitely
 - The Grammar of Systems - SCiO presentation — https://www.systemspractice.org/resources/grammar-systems
 - The Grammar of Systems II: From Order to Chaos and Back Again, 2nd edition — https://www.systemspractice.org/resources/grammar-systems-ii-order-chaos-back-again-2nd-ed
 - Cybersecurity Lessons from The Grammar of Systems, part 1 — https://www.linkedin.com/pulse/cybersecurity-lessons-from-grammar-systems-order-chaos-osama-salah/
+
+## Systemic Design
+
+Type: Method or methodology
+Public depth: described
+
+Combine systems inquiry and participatory design around a situation. Overview. Overview entry. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Systemic Design — https://antlerboy.com/library/large-group-processes/#systemic-design
 
 ## Systemic Design Association
 
@@ -14308,7 +18418,7 @@ The phrase can reify 'the system' as a concrete object waiting to be redesigned.
 
 - A schema for better understanding systems leadership and systems change — https://stream.syscoi.com/2021/06/21/a-schema-for-better-understanding-systems-leadership-and-systems-change/
 - What do systems leadership and systems change mean to you? — https://chosen-path.org/2022/07/11/what-do-systems-leadership-and-systems-change-mean-to-you-what-questions-would-you-like-me-to-answer/
-- Systems convening and boundaries core slides — No public link
+- Systems convening and boundaries core slides — https://antlerboy.com/library/files/talks/systems-convening-and-boundaries.pdf
 
 ## Systems Changes
 
@@ -14423,6 +18533,17 @@ It resists both static system descriptions and staged change assumptions.
 
 - When Unfreeze-Move-Refreeze Isn’t Working — https://systemschanges.com/online/presentations/20220711-when-unfreeze-move-refreeze-isnt-working
 
+## Systems Community of Inquiry
+
+Type: Corpus
+Public depth: described
+
+An open curation and discussion stream for systems, cybernetics, and complexity, maintained by Benjamin P Taylor. Its posts point to many authors and organisations; inclusion is not a claim that Taylor authored or endorses the linked work.
+
+### Sources
+
+- Benjamin P Taylor: public work and roles — https://antlerboy.com/
+
 ## Systems convening
 
 Type: Practice
@@ -14489,7 +18610,7 @@ It names work that is often real but invisible. It also needs protection from be
 ### Sources
 
 - Systems convening: the art of convening diverse voices across difficult boundaries — https://www.wenger-trayner.com/systems-convening/
-- Systems convening and boundaries core slides — No public link
+- Systems convening and boundaries core slides — https://antlerboy.com/library/files/talks/systems-convening-and-boundaries.pdf
 - What do systems leadership and systems change mean to you? — https://chosen-path.org/2022/07/11/what-do-systems-leadership-and-systems-change-mean-to-you-what-questions-would-you-like-me-to-answer/
 
 ## Systems intelligence
@@ -15045,7 +19166,7 @@ It brings attention to the relational infrastructure of change. The term is less
 
 - Network Weaving — https://networkweaver.com/network-weaving/
 - What do systems leadership and systems change mean to you? — https://chosen-path.org/2022/07/11/what-do-systems-leadership-and-systems-change-mean-to-you-what-questions-would-you-like-me-to-answer/
-- Systems convening and boundaries core slides — No public link
+- Systems convening and boundaries core slides — https://antlerboy.com/library/files/talks/systems-convening-and-boundaries.pdf
 
 ## T. C. Schelling
 
@@ -15116,6 +19237,17 @@ A message can arrive accurately and still be misunderstood or fail to change any
 ### Sources
 
 - The Mathematical Theory of Communication — 1949 volume — https://ia801403.us.archive.org/25/items/in.ernet.dli.2015.503815/2015.503815.The-Mathematical_text.pdf
+
+## Technology of Participation (ToP)
+
+Type: Method or methodology
+Public depth: described
+
+A family of structured facilitation practices; its component methods have different purposes. Overview. Overview entry. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Technology of Participation (ToP) — https://antlerboy.com/library/large-group-processes/#technology-of-participation-top
 
 ## The Architecture of Complexity
 
@@ -15676,6 +19808,17 @@ R. B. Laughlin, D. Pines, J. Schmalian, B. P. Stojkovic, and P. Wolynes, ‘The 
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
 
+## The Necessary Tangle
+
+Type: Corpus
+Public depth: described
+
+A public atlas connecting systems, cybernetics, and complexity through explicit relationships between people, ideas, practices, works, and institutions. Curated by Benjamin P Taylor.
+
+### Sources
+
+- The Necessary Tangle: curator and purpose — https://transduction.systems/#view=about
+
 ## The New Dynamics of Strategy
 
 Type: Publication
@@ -15883,6 +20026,17 @@ H. A. Simon, ‘The Organization of Complex Systems’ (1973); item 46 in volume
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
 
+## The Organization Workshop
+
+Type: Method or methodology
+Public depth: described
+
+Explore recurring patterns of power and relationships through experience and reflection. Overview. Teaching account. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- The Organization Workshop — https://antlerboy.com/library/large-group-processes/#the-organization-workshop
+
 ## The Role of Models in Science
 
 Type: Publication
@@ -16053,6 +20207,28 @@ J. von Neumann, ‘Theory of Self-Reproducing Automata’ (1966); item 28 in vol
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
 
+## Theory U
+
+Type: Method or methodology
+Public depth: described
+
+A change approach combining attention, listening, sensing, and experimentation. Overview. Teaching account. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Theory U — https://antlerboy.com/library/large-group-processes/#theory-u
+
+## Think Like a Genius
+
+Type: Method or methodology
+Public depth: described
+
+Listed as an approach to adaptive brainstorming; the deck provides only a brief account. Overview. Overview entry. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Think Like a Genius — https://antlerboy.com/library/large-group-processes/#think-like-a-genius
+
 ## Thinking by Machine
 
 Type: Publication
@@ -16172,6 +20348,7 @@ A futures-practice framework for relating a dominant present, emerging alternati
 
 - Interview with Damian Allen on systems practice in Doncaster — No public link
 - Three Horizons: The Patterning of Hope — https://www.internationalfuturesforum.com/p/three-horizons-the-patterning-of-hope
+- Three Horizons — https://antlerboy.com/library/large-group-processes/#three-horizons
 
 ## Three Horizons: The Patterning of Hope
 
@@ -16232,6 +20409,17 @@ These publication records give readers two concrete routes into Allen's work on 
 
 - Hierarchy Theory: A Vision, Vocabulary, and Epistemology — https://cup.columbia.edu/book/hierarchy-theory/9780231084802/
 - The Ecosystem Approach: Complexity, Uncertainty, and Managing for Sustainability — https://cup.columbia.edu/book/the-ecosystem-approach/9780231507202/
+
+## TIP - The Integral Process
+
+Type: Method or methodology
+Public depth: described
+
+Work with multiple perspectives and developmental complexity in group inquiry. Overview. Teaching account. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- TIP - The Integral Process — https://antlerboy.com/library/large-group-processes/#tip-the-integral-process
 
 ## Toby Lowe
 
@@ -16514,7 +20702,18 @@ Transformation often fails at boundaries rather than within units. Seeing transd
 
 - Transduction - a powerful and important concept that few have heard of — https://chosen-path.org/2021/10/06/transduction-a-powerful-and-important-concept-that-few-have-heard-of/
 - Core Thinking Integration — No public link
-- Benjamin Taylor VSM lecture — No public link
+- Benjamin Taylor VSM lecture — https://antlerboy.com/library/files/talks/viable-system-model-lecture.pdf
+
+## Triple Task Approach
+
+Type: Method or methodology
+Public depth: described
+
+Combine work on a shared task with reflection on the group's process and experience. Overview. Teaching account. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Triple Task Approach — https://antlerboy.com/library/large-group-processes/#triple-task-approach
 
 ## Trust mapping and metrics
 
@@ -16786,6 +20985,17 @@ A physicist, computer scientist and cybernetic philosopher whose work supplied t
 - The Cybernetic Manifesto — https://pespmc1.vub.ac.be/MANIFESTO.html
 - Principia Cybernetica: Metasystem Transition Theory — https://pespmc1.vub.ac.be/MSTT.html
 
+## Value Stream Mapping
+
+Type: Method or methodology
+Public depth: described
+
+Map how work and information move through a process to examine delays and waste. Overview. Overview entry. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Value Stream Mapping — https://antlerboy.com/library/large-group-processes/#value-stream-mapping
+
 ## Values mapping and integration
 
 Type: Intervention skill
@@ -16945,7 +21155,7 @@ When the environment cannot responsibly be simplified, the system must improve i
 ### Sources
 
 - An Introduction to Cybernetics — https://ashby.info/bibliography.html
-- Benjamin Taylor VSM lecture — No public link
+- Benjamin Taylor VSM lecture — https://antlerboy.com/library/files/talks/viable-system-model-lecture.pdf
 
 ## Variety attenuation
 
@@ -17015,7 +21225,7 @@ Forms, triage, standards, thresholds and dashboards are attenuation devices. The
 ### Sources
 
 - An Introduction to Cybernetics — https://ashby.info/bibliography.html
-- Benjamin Taylor VSM lecture — No public link
+- Benjamin Taylor VSM lecture — https://antlerboy.com/library/files/talks/viable-system-model-lecture.pdf
 - Core Thinking Integration — No public link
 
 ## Verbal Behaviours (Rackham)
@@ -17104,7 +21314,7 @@ A viable organisation must handle today's work, disturbances and accountability 
 
 - Diagnosing the System for Organizations — https://www.wiley-vch.de/en/areas-interest/finance-economics-law/diagnosing-the-system-for-organizations-978-0-471-95136-0
 - Viable System Model - Metaphorum — https://metaphorum.org/staffords-work/viable-system-model
-- Benjamin Taylor VSM lecture — No public link
+- Benjamin Taylor VSM lecture — https://antlerboy.com/library/files/talks/viable-system-model-lecture.pdf
 - The origin of species by means of natural drift — https://revistaschilenas.uchile.cl/handle/2250/62395
 - Essential Balances: Stop Looking and Start Seeing What Makes Organizations Work — https://www.systemspractice.org/resources/essential-balances-stop-looking-and-start-seeing-what-makes-organizations-work
 
@@ -17198,6 +21408,17 @@ The model makes the autonomy-cohesion problem explicit. It asks whether local op
 - Diagnosing the System for Organizations — https://www.wiley-vch.de/en/areas-interest/finance-economics-law/diagnosing-the-system-for-organizations-978-0-471-95136-0
 - Viable System Model - The VSM in 1000 words — https://metaphorum.org/staffords-work/viable-system-model
 - What is the Viable System Model? — https://www.systemspractice.org/resources/what-viable-system-model
+
+## Viable System Model facilitation
+
+Type: Method or methodology
+Public depth: described
+
+Use the Viable System Model to enquire into organisational viability and design. Overview. Overview entry. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Viable System Model facilitation — https://antlerboy.com/library/large-group-processes/#viable-system-model-facilitation
 
 ## Viplan
 
@@ -17549,6 +21770,39 @@ It makes the organisational demands behind relational practice explicit, includi
 
 - What the boundary cannot carry alone, working redraft v3 — https://antlerboy.com/library/what-the-boundary-cannot-carry-alone/
 
+## When Cultures Meet / Encounters With The Other
+
+Type: Method or methodology
+Public depth: described
+
+Explore the experience of cultural difference and the possibility of working together across it. Overview. Teaching account. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- When Cultures Meet / Encounters With The Other — https://antlerboy.com/library/large-group-processes/#when-cultures-meet-encounters-with-the-other
+
+## Whole Systems Approach
+
+Type: Method or methodology
+Public depth: described
+
+Bring systems inquiry and participatory design together around a shared situation. Overview. Teaching account. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Whole Systems Approach — https://antlerboy.com/library/large-group-processes/#whole-systems-approach
+
+## Whole-Scale Change
+
+Type: Method or methodology
+Public depth: described
+
+Bring a cross-section of a system together to plan and take ownership of change. Overview. Teaching account. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Whole-Scale Change — https://antlerboy.com/library/large-group-processes/#whole-scale-change
+
 ## Will a Large Complex System Be Stable?
 
 Type: Publication
@@ -17582,6 +21836,17 @@ Workshop design creates a bounded social process with a clear purpose, participa
 
 - SCiO CF Resources v9 draft — No public link
 - SCiO Professional Accreditation and Competency Framework — https://www.systemspractice.org/professional-accreditation
+
+## World Café
+
+Type: Method or methodology
+Public depth: described
+
+Connect small-group conversations around shared questions, with movement between tables. Overview. Teaching account. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- World Café — https://antlerboy.com/library/large-group-processes/#world-cafe
 
 ## World of Robot Brains
 

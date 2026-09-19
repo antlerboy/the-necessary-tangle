@@ -186,3 +186,7 @@ Release 0.24 adds seven profiles and twelve scoped statements from eight primary
 ## 0.25 - 19 September 2026
 
 Release 0.25 adds a source-scoped CoExplorer comparison and compares the two Anselm articles, with their individual recommendations still unverified. Canonical graph counts remain 785 public entries, 912 total nodes, 2,112 statements, 315 sources, and 173 profiles. No new canonical claims or complete external datasets are imported. See https://transduction.systems/prior-maps/coexplorer/ and sources/maps-2026-09-19/. Dataset reconciliation and specialist review remain open.
+
+## 0.26 - 19 September 2026
+
+Release 0.26 connects 324 public-library resource records, 114 large-group entries, and eight now-public teaching-source URLs. The source register also includes Chosen Path and SysCoi post metadata, with automated discovery matches explicitly separated from located teaching claims. The private research inventory contains 2,943 indexed records; public bibliographic reconciliation is tracked separately. Current atlas: 1166 public entries, 1293 nodes, 2857 statements, and 685 sources. No independent specialist review is claimed. See https://transduction.systems/library/.

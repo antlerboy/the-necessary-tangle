@@ -84,3 +84,7 @@ The `/events/` build now pins systemsmap revision `27aaa618a1b68a52442e6232b08cd
 Published route: https://transduction.systems/systems-thinking/practice/
 
 Publication is explicitly authorised. See `sources/practice-pack/PACKET.md`, the public coverage page and `documentation/practice-pack.md`. No independent specialist pedagogical review is recorded; this remains an open review task. Existing unrelated work below or above remains open.
+
+## Library integration, 19 September 2026
+
+Release 0.26 connects 324 public-library resource records, 114 large-group entries, and eight now-public teaching-source URLs. The source register also includes Chosen Path and SysCoi post metadata, with automated discovery matches explicitly separated from located teaching claims. The private research inventory contains 2,943 indexed records; public bibliographic reconciliation is tracked separately. Current atlas: 1166 public entries, 1293 nodes, 2857 statements, and 685 sources. No independent specialist review is claimed. See https://transduction.systems/library/.

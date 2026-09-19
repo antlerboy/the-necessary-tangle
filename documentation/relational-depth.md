@@ -8,10 +8,10 @@ Generated: `2026-08-14`
 
 The atlas now treats relational richness as maintained data, not a visual impression. Every canonical public entry has a structural connection band and a separate evidence band. This makes it possible to add provisional routes without pretending that repetition, plausibility or graph density is proof.
 
-- 731 of 785 entries have at least one reader connection.
-- 51 are structurally rich, 254 developing, 426 thin and 54 unconnected.
-- 452 have at least one non-documentary semantic, historical, human, identity, practice, influence or contestation route.
-- Evidence is 216 supported, 260 mixed, 255 provisional and 54 absent at entry level.
+- 1123 of 1166 entries have at least one reader connection.
+- 82 are structurally rich, 240 developing, 801 thin and 43 unconnected.
+- 508 have at least one non-documentary semantic, historical, human, identity, practice, influence or contestation route.
+- Evidence is 206 supported, 270 mixed, 647 provisional and 43 absent at entry level.
 
 ## What counts
 
@@ -41,21 +41,22 @@ The template is an editorial checklist, not an invitation to fill six slots with
 
 | Entity type | Total | Rich | Developing | Thin | Unconnected |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| approach family | 6 | 2 | 4 | 0 | 0 |
+| approach family | 6 | 3 | 3 | 0 | 0 |
 | comparator corpus | 6 | 0 | 1 | 5 | 0 |
-| concept | 101 | 11 | 49 | 27 | 14 |
-| corpus | 11 | 0 | 1 | 10 | 0 |
-| intervention skill | 47 | 2 | 45 | 0 | 0 |
+| concept | 101 | 29 | 35 | 33 | 4 |
+| corpus | 15 | 0 | 2 | 13 | 0 |
+| intervention skill | 47 | 3 | 44 | 0 | 0 |
 | knowledge domain | 1 | 0 | 1 | 0 | 0 |
 | law or principle | 33 | 17 | 16 | 0 | 0 |
-| method or methodology | 23 | 9 | 14 | 0 | 0 |
-| organisation | 12 | 0 | 3 | 7 | 2 |
-| person | 270 | 3 | 63 | 166 | 38 |
-| practice | 25 | 5 | 11 | 9 | 0 |
-| publication | 220 | 1 | 22 | 197 | 0 |
+| method or methodology | 97 | 13 | 11 | 73 | 0 |
+| organisation | 14 | 1 | 2 | 9 | 2 |
+| person | 270 | 5 | 63 | 165 | 37 |
+| practice | 26 | 8 | 11 | 7 | 0 |
+| publication | 246 | 1 | 22 | 223 | 0 |
+| source | 274 | 0 | 6 | 268 | 0 |
 | technology | 1 | 0 | 1 | 0 | 0 |
 | theory | 1 | 0 | 1 | 0 | 0 |
-| tool | 14 | 0 | 13 | 1 | 0 |
+| tool | 14 | 1 | 12 | 1 | 0 |
 | tradition | 14 | 1 | 9 | 4 | 0 |
 
 ## How enrichment proceeds
@@ -83,15 +84,11 @@ The queue below is generated from current structure. Low degree and low relation
 | Albert-László Barabási | person | unconnected | none | 0 | 0 |
 | Anatol Rapoport | person | unconnected | none | 0 | 0 |
 | Archimedes | person | unconnected | none | 0 | 0 |
-| Attractor | concept | unconnected | none | 0 | 0 |
 | C. West Churchman | person | unconnected | none | 0 | 0 |
 | Claude Bernard | person | unconnected | none | 0 | 0 |
 | David Hilbert | person | unconnected | none | 0 | 0 |
-| Dynamic complexity | concept | unconnected | none | 0 | 0 |
 | Edgar Morin | person | unconnected | none | 0 | 0 |
-| Edge of chaos | concept | unconnected | none | 0 | 0 |
 | Eric Trist | person | unconnected | none | 0 | 0 |
-| Fitness landscape | concept | unconnected | none | 0 | 0 |
 | Frank Rosenblatt | person | unconnected | none | 0 | 0 |
 | Fritjof Capra | person | unconnected | none | 0 | 0 |
 | George Spencer-Brown | person | unconnected | none | 0 | 0 |
@@ -110,7 +107,6 @@ The queue below is generated from current structure. Low degree and low relation
 | Lynn Margulis | person | unconnected | none | 0 | 0 |
 | Margaret Mead | person | unconnected | none | 0 | 0 |
 | Marvin Weisbord | person | unconnected | none | 0 | 0 |
-| Mental models | concept | unconnected | none | 0 | 0 |
 | NTL Institute | organisation | unconnected | none | 0 | 0 |
 | Network theory | concept | unconnected | none | 0 | 0 |
 | Nicholas A. Christakis | person | unconnected | none | 0 | 0 |
@@ -119,16 +115,21 @@ The queue below is generated from current structure. Low degree and low relation
 | Panini | person | unconnected | none | 0 | 0 |
 | Paul Cilliers | person | unconnected | none | 0 | 0 |
 | Peter Block | person | unconnected | none | 0 | 0 |
-| Phase transition | concept | unconnected | none | 0 | 0 |
 | Pingala | person | unconnected | none | 0 | 0 |
 | Plato | person | unconnected | none | 0 | 0 |
-| Power law | concept | unconnected | none | 0 | 0 |
-| Resilience | concept | unconnected | none | 0 | 0 |
 | Robert Axelrod | person | unconnected | none | 0 | 0 |
-| Sandra Janoff | person | unconnected | none | 0 | 0 |
 | Scaling laws | concept | unconnected | none | 0 | 0 |
 | Stuart Kauffman | person | unconnected | none | 0 | 0 |
 | System | concept | unconnected | none | 0 | 0 |
+| The Tavistock Institute of Human Relations | organisation | unconnected | none | 0 | 0 |
+| Walter Pitts | person | unconnected | none | 0 | 0 |
+| 32 Key Concepts in Systems Thinking and Complexity Theory | publication | thin | mixed | 1 | 1 |
+| Alessandro Rancati | person | thin | mixed | 1 | 1 |
+| Alfonso Reyes | person | thin | mixed | 1 | 1 |
+| Arthur Battram | person | thin | mixed | 1 | 1 |
+| David L. Hawk | person | thin | provisional | 1 | 1 |
+| Decolonial systems thinking | concept | thin | mixed | 1 | 1 |
+| Epistemic injustice | concept | thin | mixed | 1 | 1 |
 
 ## First enrichment cohort in this release
 

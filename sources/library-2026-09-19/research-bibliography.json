@@ -1,0 +1,2070 @@
+{
+  "records": [
+    {
+      "id": "sp26_30f36de6718c38e2",
+      "title": "Epistemological and empirical challenges of Niklas Luhmann’s systems theory: an interview with professors Álvaro Pires and Lukas Sosoe",
+      "url": "https://doi.org/10.1590/2317-6172202109",
+      "collection": "Research bibliography",
+      "format": "journal article",
+      "year": "2021",
+      "authors": [
+        "Álvaro Pires",
+        "Lukas Sosoe",
+        "Lucas Fucci Amato",
+        "Marco Antonio Loschiavo Leme de Barros",
+        "Gabriel Ferreira da Fonseca"
+      ],
+      "publisher": "FapUNIFESP (SciELO)",
+      "summary": "Publisher-deposited bibliographic record matched to the opening title of the supplied source. Concept links below are text-location aids; they do not establish influence or agreement.",
+      "review": "Bibliographic identity matched; source text indexed",
+      "locator": "Opening title and DOI; Crossref publisher metadata",
+      "doi": "10.1590/2317-6172202109",
+      "connections": [
+        {
+          "target": "concept_boundaries",
+          "label": "Boundaries",
+          "kind": "text_mention",
+          "term": "Boundaries",
+          "locator": "Extracted source text, character 29885; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_boundary",
+          "label": "Boundary",
+          "kind": "text_mention",
+          "term": "boundaries",
+          "locator": "Extracted source text, character 29885; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_difference",
+          "label": "Difference",
+          "kind": "text_mention",
+          "term": "Difference",
+          "locator": "Extracted source text, character 27486; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_distinction",
+          "label": "Distinction",
+          "kind": "text_mention",
+          "term": "Distinction",
+          "locator": "Extracted source text, character 8619; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_information",
+          "label": "Information",
+          "kind": "text_mention",
+          "term": "Information",
+          "locator": "Extracted source text, character 58311; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_interconnectedness",
+          "label": "Interconnectedness",
+          "kind": "text_mention",
+          "term": "Interconnection",
+          "locator": "Extracted source text, character 60781; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_structural_coupling",
+          "label": "Structural coupling",
+          "kind": "text_mention",
+          "term": "Structural coupling",
+          "locator": "Extracted source text, character 37505; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        }
+      ],
+      "source_file_count": 1
+    },
+    {
+      "id": "sp26_24c79f4e3644357e",
+      "title": "Editorial: living with environmental change: adaptation as social learning",
+      "url": "https://doi.org/10.1002/eet.520",
+      "collection": "Research bibliography",
+      "format": "journal article",
+      "year": "2009",
+      "authors": [
+        "Kevin Collins",
+        "Ray Ison"
+      ],
+      "publisher": "Wiley",
+      "summary": "Publisher-deposited bibliographic record matched to the opening title of the supplied source. Concept links below are text-location aids; they do not establish influence or agreement.",
+      "review": "Bibliographic identity matched; source text indexed",
+      "locator": "Opening title and DOI; Crossref publisher metadata",
+      "doi": "10.1002/eet.520",
+      "connections": [
+        {
+          "target": "concept_adaptation",
+          "label": "Adaptation",
+          "kind": "text_mention",
+          "term": "Adaptation",
+          "locator": "Extracted source text, character 4234; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_boundaries",
+          "label": "Boundaries",
+          "kind": "text_mention",
+          "term": "Boundaries",
+          "locator": "Extracted source text, character 14731; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_boundary",
+          "label": "Boundary",
+          "kind": "text_mention",
+          "term": "boundaries",
+          "locator": "Extracted source text, character 14731; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_difference",
+          "label": "Difference",
+          "kind": "text_mention",
+          "term": "Difference",
+          "locator": "Extracted source text, character 23764; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_distinction",
+          "label": "Distinction",
+          "kind": "text_mention",
+          "term": "Distinction",
+          "locator": "Extracted source text, character 18917; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_multiple_perspectives",
+          "label": "Multiple perspectives",
+          "kind": "text_mention",
+          "term": "Multiple perspectives",
+          "locator": "Extracted source text, character 20128; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_regulation",
+          "label": "Regulation",
+          "kind": "text_mention",
+          "term": "Regulation",
+          "locator": "Extracted source text, character 15589; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_uncertainty",
+          "label": "Uncertainty",
+          "kind": "text_mention",
+          "term": "Uncertainty",
+          "locator": "Extracted source text, character 15144; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "practice_systems_practice",
+          "label": "Systems practice",
+          "kind": "text_mention",
+          "term": "Systems practice",
+          "locator": "Extracted source text, character 34443; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_unfix_mental_models",
+          "label": "Mental models",
+          "kind": "text_mention",
+          "term": "Mental models",
+          "locator": "Extracted source text, character 6034; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_unfix_resilience",
+          "label": "Resilience",
+          "kind": "text_mention",
+          "term": "Resilience",
+          "locator": "Extracted source text, character 32330; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_structural_coupling",
+          "label": "Structural coupling",
+          "kind": "text_mention",
+          "term": "Structural coupling",
+          "locator": "Extracted source text, character 10253; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        }
+      ],
+      "source_file_count": 1
+    },
+    {
+      "id": "sp26_5c47864d7584087a",
+      "title": "Early-warning signals for critical transitions",
+      "url": "https://doi.org/10.1038/nature08227",
+      "collection": "Research bibliography",
+      "format": "journal article",
+      "year": "2009",
+      "authors": [
+        "Marten Scheffer",
+        "Jordi Bascompte",
+        "William A. Brock",
+        "Victor Brovkin",
+        "Stephen R. Carpenter",
+        "Vasilis Dakos",
+        "Hermann Held",
+        "Egbert H. van Nes",
+        "Max Rietkerk",
+        "George Sugihara"
+      ],
+      "publisher": "Springer Science and Business Media LLC",
+      "summary": "Publisher-deposited bibliographic record matched to the opening title of the supplied source. Concept links below are text-location aids; they do not establish influence or agreement.",
+      "review": "Bibliographic identity matched; source text indexed",
+      "locator": "Opening title and DOI; Crossref publisher metadata",
+      "doi": "10.1038/nature08227",
+      "connections": [
+        {
+          "target": "concept_boundaries",
+          "label": "Boundaries",
+          "kind": "text_mention",
+          "term": "Boundaries",
+          "locator": "Extracted source text, character 43873; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_boundary",
+          "label": "Boundary",
+          "kind": "text_mention",
+          "term": "boundaries",
+          "locator": "Extracted source text, character 43873; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_difference",
+          "label": "Difference",
+          "kind": "text_mention",
+          "term": "Difference",
+          "locator": "Extracted source text, character 1954; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_information",
+          "label": "Information",
+          "kind": "text_mention",
+          "term": "Information",
+          "locator": "Extracted source text, character 30635; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_non_linearity",
+          "label": "Non-linearity",
+          "kind": "text_mention",
+          "term": "non-linear",
+          "locator": "Extracted source text, character 47745; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_positive_feedback",
+          "label": "Positive feedback",
+          "kind": "text_mention",
+          "term": "Positive feedback",
+          "locator": "Extracted source text, character 25132; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_self_organisation",
+          "label": "Self-organisation",
+          "kind": "text_mention",
+          "term": "self-organization",
+          "locator": "Extracted source text, character 27590; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_uncertainty",
+          "label": "Uncertainty",
+          "kind": "text_mention",
+          "term": "Uncertainty",
+          "locator": "Extracted source text, character 24937; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_population_dynamics",
+          "label": "Population dynamics",
+          "kind": "text_mention",
+          "term": "Population dynamics",
+          "locator": "Extracted source text, character 44610; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_unfix_resilience",
+          "label": "Resilience",
+          "kind": "text_mention",
+          "term": "Resilience",
+          "locator": "Extracted source text, character 9338; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_unfix_phase_transition",
+          "label": "Phase transition",
+          "kind": "text_mention",
+          "term": "Phase transition",
+          "locator": "Extracted source text, character 44028; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_unfix_attractor",
+          "label": "Attractor",
+          "kind": "text_mention",
+          "term": "Attractors",
+          "locator": "Extracted source text, character 13648; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_unfix_power_law",
+          "label": "Power law",
+          "kind": "text_mention",
+          "term": "Power laws",
+          "locator": "Extracted source text, character 28181; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        }
+      ],
+      "source_file_count": 1
+    },
+    {
+      "id": "sp26_a484695dd7820d83",
+      "title": "Confronting indifference toward truth: Dealing with workplace bullshit",
+      "url": "https://doi.org/10.1016/j.bushor.2020.01.001",
+      "collection": "Research bibliography",
+      "format": "journal article",
+      "year": "2020",
+      "authors": [
+        "Ian P. McCarthy",
+        "David Hannah",
+        "Leyland F. Pitt",
+        "Jane M. McCarthy"
+      ],
+      "publisher": "Elsevier BV",
+      "summary": "Publisher-deposited bibliographic record matched to the opening title of the supplied source. Concept links below are text-location aids; they do not establish influence or agreement.",
+      "review": "Bibliographic identity matched; source text indexed",
+      "locator": "Opening title and DOI; Crossref publisher metadata",
+      "doi": "10.1016/j.bushor.2020.01.001",
+      "connections": [
+        {
+          "target": "concept_feedback",
+          "label": "Feedback",
+          "kind": "text_mention",
+          "term": "feedback loops",
+          "locator": "Extracted source text, character 11209; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_feedback_loops",
+          "label": "Feedback loops",
+          "kind": "text_mention",
+          "term": "Feedback loops",
+          "locator": "Extracted source text, character 11209; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        }
+      ],
+      "source_file_count": 1
+    },
+    {
+      "id": "sp26_d967ebacb299b5fa",
+      "title": "The Organization of Discipline: From Performance Management to Perversity and Punishment",
+      "url": "https://doi.org/10.1093/jopart/muq095",
+      "collection": "Research bibliography",
+      "format": "journal article",
+      "year": "2011",
+      "authors": [
+        "J. Soss",
+        "R. Fording",
+        "S. F. Schram"
+      ],
+      "publisher": "Oxford University Press (OUP)",
+      "summary": "Publisher-deposited bibliographic record matched to the opening title of the supplied source. Concept links below are text-location aids; they do not establish influence or agreement.",
+      "review": "Bibliographic identity matched; source text indexed",
+      "locator": "Opening title and DOI; Crossref publisher metadata",
+      "doi": "10.1093/jopart/muq095",
+      "connections": [
+        {
+          "target": "concept_black_box",
+          "label": "Black box",
+          "kind": "text_mention",
+          "term": "Black box",
+          "locator": "Extracted source text, character 107063; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "practice_organizational_learning",
+          "label": "Organizational learning",
+          "kind": "text_mention",
+          "term": "Organizational learning",
+          "locator": "Extracted source text, character 22440; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        }
+      ],
+      "source_file_count": 1
+    },
+    {
+      "id": "sp26_24a7d0cd7a17ecba",
+      "title": "Introduction‐“Chaordic systems thinking” for learning organizations",
+      "url": "https://doi.org/10.1108/09696470410548773",
+      "collection": "Research bibliography",
+      "format": "journal article",
+      "year": "2004",
+      "authors": [
+        "Frans M. van Eijnatten",
+        "Goran D. Putnik"
+      ],
+      "publisher": "Emerald",
+      "summary": "Publisher-deposited bibliographic record matched to the opening title of the supplied source. Concept links below are text-location aids; they do not establish influence or agreement.",
+      "review": "Bibliographic identity matched; source text indexed",
+      "locator": "Opening title and DOI; Crossref publisher metadata",
+      "doi": "10.1108/09696470410548773",
+      "connections": [
+        {
+          "target": "method_or_methodology_socio_technical_systems",
+          "label": "Socio-Technical Systems",
+          "kind": "text_mention",
+          "term": "Socio-Technical Systems",
+          "locator": "Extracted source text, character 8696; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_unfix_fitness_landscape",
+          "label": "Fitness landscape",
+          "kind": "text_mention",
+          "term": "Fitness landscape",
+          "locator": "Extracted source text, character 18205; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_unfix_edge_of_chaos",
+          "label": "Edge of chaos",
+          "kind": "text_mention",
+          "term": "Edge of chaos",
+          "locator": "Extracted source text, character 34390; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_adaptation",
+          "label": "Adaptation",
+          "kind": "text_mention",
+          "term": "Adaptation",
+          "locator": "Extracted source text, character 29562; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_boundaries",
+          "label": "Boundaries",
+          "kind": "text_mention",
+          "term": "Boundaries",
+          "locator": "Extracted source text, character 16753; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_boundary",
+          "label": "Boundary",
+          "kind": "text_mention",
+          "term": "boundaries",
+          "locator": "Extracted source text, character 16753; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_difference",
+          "label": "Difference",
+          "kind": "text_mention",
+          "term": "Difference",
+          "locator": "Extracted source text, character 50264; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_distinction",
+          "label": "Distinction",
+          "kind": "text_mention",
+          "term": "Distinction",
+          "locator": "Extracted source text, character 41931; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_homeostasis",
+          "label": "Homeostasis",
+          "kind": "text_mention",
+          "term": "Homeostasis",
+          "locator": "Extracted source text, character 19625; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_information",
+          "label": "Information",
+          "kind": "text_mention",
+          "term": "Information",
+          "locator": "Extracted source text, character 29339; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_non_linearity",
+          "label": "Non-linearity",
+          "kind": "text_mention",
+          "term": "non-linear",
+          "locator": "Extracted source text, character 8598; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_self_organisation",
+          "label": "Self-organisation",
+          "kind": "text_mention",
+          "term": "Self-organisation",
+          "locator": "Extracted source text, character 26514; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_sensitive_dependence_on_initial_conditions",
+          "label": "Sensitive dependence on initial conditions",
+          "kind": "text_mention",
+          "term": "Sensitive dependence on initial conditions",
+          "locator": "Extracted source text, character 16055; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_uncertainty",
+          "label": "Uncertainty",
+          "kind": "text_mention",
+          "term": "Uncertainty",
+          "locator": "Extracted source text, character 10310; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_unpredictability",
+          "label": "Unpredictability",
+          "kind": "text_mention",
+          "term": "Unpredictability",
+          "locator": "Extracted source text, character 5737; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_unfix_resilience",
+          "label": "Resilience",
+          "kind": "text_mention",
+          "term": "Resilience",
+          "locator": "Extracted source text, character 25278; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_unfix_dynamic_complexity",
+          "label": "Dynamic complexity",
+          "kind": "text_mention",
+          "term": "Dynamical complexity",
+          "locator": "Extracted source text, character 24953; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_unfix_attractor",
+          "label": "Attractor",
+          "kind": "text_mention",
+          "term": "Attractors",
+          "locator": "Extracted source text, character 2032; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        }
+      ],
+      "source_file_count": 2
+    },
+    {
+      "id": "sp26_9372bc830179ee4a",
+      "title": "Conscious Systemic Leadership",
+      "url": "https://doi.org/10.47061/jasc.v3i1.5416",
+      "collection": "Research bibliography",
+      "format": "journal article",
+      "year": "2023",
+      "authors": [
+        "Rajneesh Chowdhury"
+      ],
+      "publisher": "Presencing Institute, Inc.",
+      "summary": "Publisher-deposited bibliographic record matched to the opening title of the supplied source. Concept links below are text-location aids; they do not establish influence or agreement.",
+      "review": "Bibliographic identity matched; source text indexed",
+      "locator": "Opening title and DOI; Crossref publisher metadata",
+      "doi": "10.47061/jasc.v3i1.5416",
+      "connections": [
+        {
+          "target": "method_or_methodology_system_dynamics",
+          "label": "System Dynamics",
+          "kind": "text_mention",
+          "term": "System Dynamics",
+          "locator": "Extracted source text, character 66216; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "method_or_methodology_systemic_intervention",
+          "label": "Systemic Intervention",
+          "kind": "text_mention",
+          "term": "Systemic Intervention",
+          "locator": "Extracted source text, character 67674; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "practice_systems_practice",
+          "label": "Systems practice",
+          "kind": "text_mention",
+          "term": "Systems practice",
+          "locator": "Extracted source text, character 2857; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "practice_social_innovation",
+          "label": "Social innovation",
+          "kind": "text_mention",
+          "term": "Social innovation",
+          "locator": "Extracted source text, character 70951; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        }
+      ],
+      "source_file_count": 1
+    },
+    {
+      "id": "sp26_dabd305599832a07",
+      "title": "Large Systems Change: An Emerging Field of Transformation and Transitions",
+      "url": "https://doi.org/10.9774/GLEAF.4700.2015.ju.00003",
+      "collection": "Research bibliography",
+      "format": "journal article",
+      "year": "2015",
+      "authors": [
+        "Steve Waddell",
+        "Sandra Waddock",
+        "Sarah Cornell",
+        "Domenico Dentoni",
+        "Milla McLachlan",
+        "Greta Meszoely"
+      ],
+      "publisher": "GSE Research Limited",
+      "summary": "Publisher-deposited bibliographic record matched to the opening title of the supplied source. Concept links below are text-location aids; they do not establish influence or agreement.",
+      "review": "Bibliographic identity matched; source text indexed",
+      "locator": "Opening title and DOI; Crossref publisher metadata",
+      "doi": "10.9774/GLEAF.4700.2015.ju.00003",
+      "connections": [
+        {
+          "target": "practice_social_innovation",
+          "label": "Social innovation",
+          "kind": "text_mention",
+          "term": "Social innovation",
+          "locator": "Extracted source text, character 58651; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        }
+      ],
+      "source_file_count": 1
+    },
+    {
+      "id": "sp26_fc1f2caaf9f273e6",
+      "title": "New development: System diplomacy—an alternative to system leadership",
+      "url": "https://doi.org/10.1080/09540962.2025.2462230",
+      "collection": "Research bibliography",
+      "format": "journal article",
+      "year": "2025",
+      "authors": [
+        "Catherine Needham",
+        "Nicola Gale",
+        "Justin Waring"
+      ],
+      "publisher": "Informa UK Limited",
+      "summary": "Publisher-deposited bibliographic record matched to the opening title of the supplied source. Concept links below are text-location aids; they do not establish influence or agreement.",
+      "review": "Bibliographic identity matched; source text indexed",
+      "locator": "Opening title and DOI; Crossref publisher metadata",
+      "doi": "10.1080/09540962.2025.2462230",
+      "connections": [],
+      "source_file_count": 1
+    },
+    {
+      "id": "sp26_62cf43d228510b10",
+      "title": "Policy Entrepreneurship at the White House",
+      "url": "https://doi.org/10.1162/inov_a_00253",
+      "collection": "Research bibliography",
+      "format": "journal article",
+      "year": "2017",
+      "authors": [
+        "Thomas Kalil"
+      ],
+      "publisher": "MIT Press - Journals",
+      "summary": "Publisher-deposited bibliographic record matched to the opening title of the supplied source. Concept links below are text-location aids; they do not establish influence or agreement.",
+      "review": "Bibliographic identity matched; source text indexed",
+      "locator": "Opening title and DOI; Crossref publisher metadata",
+      "doi": "10.1162/inov_a_00253",
+      "connections": [
+        {
+          "target": "practice_systems_convening",
+          "label": "Systems convening",
+          "kind": "text_mention",
+          "term": "Systems convening",
+          "locator": "Extracted source text, character 56; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        }
+      ],
+      "source_file_count": 1
+    },
+    {
+      "id": "sp26_9fa704d389c86dce",
+      "title": "Exploring the challenges of system leadership in the voluntary and community sector",
+      "url": "https://doi.org/10.1080/14767333.2020.1712851",
+      "collection": "Research bibliography",
+      "format": "journal article",
+      "year": "2020",
+      "authors": [
+        "Stephen Moss"
+      ],
+      "publisher": "Informa UK Limited",
+      "summary": "Publisher-deposited bibliographic record matched to the opening title of the supplied source. Concept links below are text-location aids; they do not establish influence or agreement.",
+      "review": "Bibliographic identity matched; source text indexed",
+      "locator": "Opening title and DOI; Crossref publisher metadata",
+      "doi": "10.1080/14767333.2020.1712851",
+      "connections": [
+        {
+          "target": "concept_adaptation",
+          "label": "Adaptation",
+          "kind": "text_mention",
+          "term": "Adaptation",
+          "locator": "Extracted source text, character 16772; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_information",
+          "label": "Information",
+          "kind": "text_mention",
+          "term": "Information",
+          "locator": "Extracted source text, character 100; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        }
+      ],
+      "source_file_count": 3
+    },
+    {
+      "id": "sp26_249e810332c1969d",
+      "title": "New development: The paradox of outcomes—the more we measure, the less we understand",
+      "url": "https://doi.org/10.1080/09540962.2013.785707",
+      "collection": "Research bibliography",
+      "format": "journal article",
+      "year": "2013",
+      "authors": [
+        "Toby Lowe"
+      ],
+      "publisher": "Informa UK Limited",
+      "summary": "Publisher-deposited bibliographic record matched to the opening title of the supplied source. Concept links below are text-location aids; they do not establish influence or agreement.",
+      "review": "Bibliographic identity matched; source text indexed",
+      "locator": "Opening title and DOI; Crossref publisher metadata",
+      "doi": "10.1080/09540962.2013.785707",
+      "connections": [
+        {
+          "target": "concept_unfix_unintended_consequences",
+          "label": "Unintended consequences",
+          "kind": "text_mention",
+          "term": "Unintended consequences",
+          "locator": "Extracted source text, character 2796; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        }
+      ],
+      "source_file_count": 1
+    },
+    {
+      "id": "sp26_a861f0a203ae17b0",
+      "title": "Complexity theory and leadership practice: A review, a critique, and some recommendations",
+      "url": "https://doi.org/10.1016/j.leaqua.2019.07.002",
+      "collection": "Research bibliography",
+      "format": "journal article",
+      "year": "2019",
+      "authors": [
+        "Jonathan Rosenhead",
+        "L. Alberto Franco",
+        "Keith Grint",
+        "Barton Friedland"
+      ],
+      "publisher": "Elsevier BV",
+      "summary": "Publisher-deposited bibliographic record matched to the opening title of the supplied source. Concept links below are text-location aids; they do not establish influence or agreement.",
+      "review": "Bibliographic identity matched; source text indexed",
+      "locator": "Opening title and DOI; Crossref publisher metadata",
+      "doi": "10.1016/j.leaqua.2019.07.002",
+      "connections": [
+        {
+          "target": "concept_adaptation",
+          "label": "Adaptation",
+          "kind": "text_mention",
+          "term": "Adaptive change",
+          "locator": "Extracted source text, character 56500; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_feedback",
+          "label": "Feedback",
+          "kind": "text_mention",
+          "term": "feedback loops",
+          "locator": "Extracted source text, character 16264; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_feedback_loops",
+          "label": "Feedback loops",
+          "kind": "text_mention",
+          "term": "Feedback loops",
+          "locator": "Extracted source text, character 16264; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_negative_feedback",
+          "label": "Negative feedback",
+          "kind": "text_mention",
+          "term": "Negative feedback",
+          "locator": "Extracted source text, character 16255; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_positive_feedback",
+          "label": "Positive feedback",
+          "kind": "text_mention",
+          "term": "Positive feedback",
+          "locator": "Extracted source text, character 83758; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "method_or_methodology_agent_based_modelling",
+          "label": "Agent-based modelling",
+          "kind": "text_mention",
+          "term": "Agent-based modelling",
+          "locator": "Extracted source text, character 113437; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "method_or_methodology_system_dynamics",
+          "label": "System Dynamics",
+          "kind": "text_mention",
+          "term": "System Dynamics",
+          "locator": "Extracted source text, character 105150; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "practice_systems_practice",
+          "label": "Systems practice",
+          "kind": "text_mention",
+          "term": "Systems practice",
+          "locator": "Extracted source text, character 163896; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "method_or_methodology_cynefin_framework",
+          "label": "Cynefin framework",
+          "kind": "text_mention",
+          "term": "Cynefin framework",
+          "locator": "Extracted source text, character 67460; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "practice_organizational_learning",
+          "label": "Organizational learning",
+          "kind": "text_mention",
+          "term": "Organizational learning",
+          "locator": "Extracted source text, character 159294; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_unfix_mental_models",
+          "label": "Mental models",
+          "kind": "text_mention",
+          "term": "Mental model",
+          "locator": "Extracted source text, character 168166; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_unfix_power_law",
+          "label": "Power law",
+          "kind": "text_mention",
+          "term": "Power laws",
+          "locator": "Extracted source text, character 186030; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_unfix_edge_of_chaos",
+          "label": "Edge of chaos",
+          "kind": "text_mention",
+          "term": "Edge of chaos",
+          "locator": "Extracted source text, character 15414; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        }
+      ],
+      "source_file_count": 1
+    },
+    {
+      "id": "sp26_f455a61e7d99311f",
+      "title": "Designing Social Systems in a Changing World",
+      "url": "https://doi.org/10.1007/978-1-4757-9981-1",
+      "collection": "Research bibliography",
+      "format": "book",
+      "year": "1996",
+      "authors": [
+        "Bela H. Banathy"
+      ],
+      "publisher": "Springer US",
+      "summary": "Publisher-deposited bibliographic record matched to the opening title of the supplied source. Concept links below are text-location aids; they do not establish influence or agreement.",
+      "review": "Bibliographic identity matched; source text indexed",
+      "locator": "Opening title and DOI; Crossref publisher metadata",
+      "doi": "10.1007/978-1-4757-9981-1",
+      "connections": [
+        {
+          "target": "concept_double_loop_learning",
+          "label": "Double-loop learning",
+          "kind": "text_mention",
+          "term": "Double-loop learning",
+          "locator": "Extracted source text, character 624682; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_emergence",
+          "label": "Emergence",
+          "kind": "text_mention",
+          "term": "Emergent properties",
+          "locator": "Extracted source text, character 290800; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_feedback",
+          "label": "Feedback",
+          "kind": "text_mention",
+          "term": "feedback loops",
+          "locator": "Extracted source text, character 787063; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_feedback_loops",
+          "label": "Feedback loops",
+          "kind": "text_mention",
+          "term": "Feedback loops",
+          "locator": "Extracted source text, character 787063; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_holism",
+          "label": "Holism",
+          "kind": "text_mention",
+          "term": "Holistic thinking",
+          "locator": "Extracted source text, character 410577; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_information_theory",
+          "label": "Information theory",
+          "kind": "text_mention",
+          "term": "Information theory",
+          "locator": "Extracted source text, character 731097; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_multiple_perspectives",
+          "label": "Multiple perspectives",
+          "kind": "text_mention",
+          "term": "Multiple perspectives",
+          "locator": "Extracted source text, character 14855; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_negative_feedback",
+          "label": "Negative feedback",
+          "kind": "text_mention",
+          "term": "Negative feedback",
+          "locator": "Extracted source text, character 140512; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_positive_feedback",
+          "label": "Positive feedback",
+          "kind": "text_mention",
+          "term": "Positive feedback",
+          "locator": "Extracted source text, character 141577; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_requisite_variety",
+          "label": "Requisite variety",
+          "kind": "text_mention",
+          "term": "Requisite variety",
+          "locator": "Extracted source text, character 842434; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_viability",
+          "label": "Viability",
+          "kind": "text_mention",
+          "term": "viable system",
+          "locator": "Extracted source text, character 380476; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "method_or_methodology_critical_systems_heuristics_csh",
+          "label": "Critical Systems Heuristics (CSH)",
+          "kind": "text_mention",
+          "term": "critical systems heuristic",
+          "locator": "Extracted source text, character 420971; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "method_or_methodology_interactive_management",
+          "label": "Interactive Management",
+          "kind": "text_mention",
+          "term": "Interactive Management",
+          "locator": "Extracted source text, character 11907; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "method_or_methodology_systemic_intervention",
+          "label": "Systemic Intervention",
+          "kind": "text_mention",
+          "term": "Systems intervention",
+          "locator": "Extracted source text, character 11553; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "practice_quality_management",
+          "label": "Quality management",
+          "kind": "text_mention",
+          "term": "Quality management",
+          "locator": "Extracted source text, character 437389; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "tool_rich_picture",
+          "label": "Rich picture",
+          "kind": "text_mention",
+          "term": "Rich picture",
+          "locator": "Extracted source text, character 31973; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "practice_systems_practice",
+          "label": "Systems practice",
+          "kind": "text_mention",
+          "term": "Systems practice",
+          "locator": "Extracted source text, character 886600; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "practice_organizational_learning",
+          "label": "Organizational learning",
+          "kind": "text_mention",
+          "term": "Organizational learning",
+          "locator": "Extracted source text, character 197819; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "practice_social_innovation",
+          "label": "Social innovation",
+          "kind": "text_mention",
+          "term": "Social innovation",
+          "locator": "Extracted source text, character 128804; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "practice_design_thinking",
+          "label": "Design thinking",
+          "kind": "text_mention",
+          "term": "Design thinking",
+          "locator": "Extracted source text, character 14549; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_unfix_mental_models",
+          "label": "Mental models",
+          "kind": "text_mention",
+          "term": "Mental models",
+          "locator": "Extracted source text, character 583877; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_unfix_dynamic_complexity",
+          "label": "Dynamic complexity",
+          "kind": "text_mention",
+          "term": "Dynamic complexity",
+          "locator": "Extracted source text, character 152615; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        }
+      ],
+      "source_file_count": 1
+    },
+    {
+      "id": "sp26_4625edd1c68be035",
+      "title": "Rainmaking: Observed with social systems theory",
+      "url": "https://doi.org/10.1002/sres.3101",
+      "collection": "Research bibliography",
+      "format": "journal article",
+      "year": "2024",
+      "authors": [
+        "Steffen Roth",
+        "Augusto Sales",
+        "Lars Clausen"
+      ],
+      "publisher": "Wiley",
+      "summary": "Publisher-deposited bibliographic record matched to the opening title of the supplied source. Concept links below are text-location aids; they do not establish influence or agreement.",
+      "review": "Bibliographic identity matched; source text indexed",
+      "locator": "Opening title and DOI; Crossref publisher metadata",
+      "doi": "10.1002/sres.3101",
+      "connections": [
+        {
+          "target": "practice_circular_economy",
+          "label": "Circular economy",
+          "kind": "text_mention",
+          "term": "Circular economy",
+          "locator": "Extracted source text, character 26125; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        }
+      ],
+      "source_file_count": 1
+    },
+    {
+      "id": "sp26_119f345278c642f4",
+      "title": "Ontological Designing",
+      "url": "https://doi.org/10.2752/144871306X13966268131514",
+      "collection": "Research bibliography",
+      "format": "journal article",
+      "year": "2006",
+      "authors": [
+        "Anne-Marie Willis"
+      ],
+      "publisher": "Informa UK Limited",
+      "summary": "Publisher-deposited bibliographic record matched to the opening title of the supplied source. Concept links below are text-location aids; they do not establish influence or agreement.",
+      "review": "Bibliographic identity matched; source text indexed",
+      "locator": "Opening title and DOI; Crossref publisher metadata",
+      "doi": "10.2752/144871306X13966268131514",
+      "connections": [],
+      "source_file_count": 1
+    },
+    {
+      "id": "sp26_0e747613ce24f8a7",
+      "title": "Minimal entropy production rate of interacting systems",
+      "url": "https://doi.org/10.1088/1367-2630/abc5c6",
+      "collection": "Research bibliography",
+      "format": "journal article",
+      "year": "2020",
+      "authors": [
+        "David H Wolpert"
+      ],
+      "publisher": "IOP Publishing",
+      "summary": "Publisher-deposited bibliographic record matched to the opening title of the supplied source. Concept links below are text-location aids; they do not establish influence or agreement.",
+      "review": "Bibliographic identity matched; source text indexed",
+      "locator": "Opening title and DOI; Crossref publisher metadata",
+      "doi": "10.1088/1367-2630/abc5c6",
+      "connections": [
+        {
+          "target": "concept_difference",
+          "label": "Difference",
+          "kind": "text_mention",
+          "term": "Difference",
+          "locator": "Extracted source text, character 33247; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_information",
+          "label": "Information",
+          "kind": "text_mention",
+          "term": "Information",
+          "locator": "Extracted source text, character 1944; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_information_theory",
+          "label": "Information theory",
+          "kind": "text_mention",
+          "term": "Information theory",
+          "locator": "Extracted source text, character 43365; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_uncertainty",
+          "label": "Uncertainty",
+          "kind": "text_mention",
+          "term": "Uncertainty",
+          "locator": "Extracted source text, character 21178; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        }
+      ],
+      "source_file_count": 1
+    },
+    {
+      "id": "sp26_59e531839a808f40",
+      "title": "New development: Responding to complexity in public services—the human learning systems approach",
+      "url": "https://doi.org/10.1080/09540962.2020.1832738",
+      "collection": "Research bibliography",
+      "format": "journal article",
+      "year": "2020",
+      "authors": [
+        "Toby Lowe",
+        "Max French",
+        "Melissa Hawkins",
+        "Hannah Hesselgreaves",
+        "Rob Wilson"
+      ],
+      "publisher": "Informa UK Limited",
+      "summary": "Publisher-deposited bibliographic record matched to the opening title of the supplied source. Concept links below are text-location aids; they do not establish influence or agreement.",
+      "review": "Bibliographic identity matched; source text indexed",
+      "locator": "Opening title and DOI; Crossref publisher metadata",
+      "doi": "10.1080/09540962.2020.1832738",
+      "connections": [
+        {
+          "target": "concept_adaptation",
+          "label": "Adaptation",
+          "kind": "text_mention",
+          "term": "Adaptation",
+          "locator": "Extracted source text, character 10937; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_information",
+          "label": "Information",
+          "kind": "text_mention",
+          "term": "Information",
+          "locator": "Extracted source text, character 100; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_non_linearity",
+          "label": "Non-linearity",
+          "kind": "text_mention",
+          "term": "non-linear",
+          "locator": "Extracted source text, character 15347; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "method_or_methodology_cynefin_framework",
+          "label": "Cynefin framework",
+          "kind": "text_mention",
+          "term": "Cynefin framework",
+          "locator": "Extracted source text, character 3703; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "practice_human_learning_systems",
+          "label": "Human Learning Systems",
+          "kind": "text_mention",
+          "term": "Human Learning Systems",
+          "locator": "Extracted source text, character 302; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "practice_social_innovation",
+          "label": "Social innovation",
+          "kind": "text_mention",
+          "term": "Social innovation",
+          "locator": "Extracted source text, character 10659; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "practice_design_thinking",
+          "label": "Design thinking",
+          "kind": "text_mention",
+          "term": "Human-centred design",
+          "locator": "Extracted source text, character 16112; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_unfix_dynamic_complexity",
+          "label": "Dynamic complexity",
+          "kind": "text_mention",
+          "term": "Dynamic complexity",
+          "locator": "Extracted source text, character 6762; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        }
+      ],
+      "source_file_count": 1
+    },
+    {
+      "id": "sp26_1371679ba4d3a86c",
+      "title": "Strategic knowledge acquisition: a case study of learning through prototyping",
+      "url": "https://doi.org/10.1016/s0950-7051(98)00086-0",
+      "collection": "Research bibliography",
+      "format": "journal article",
+      "year": "1998",
+      "authors": [
+        "Takashi Kiriyama",
+        "Takashi Yamamoto"
+      ],
+      "publisher": "Elsevier BV",
+      "summary": "Publisher-deposited bibliographic record matched to the opening title of the supplied source. Concept links below are text-location aids; they do not establish influence or agreement.",
+      "review": "Bibliographic identity matched; source text indexed",
+      "locator": "Opening title and DOI; Crossref publisher metadata",
+      "doi": "10.1016/s0950-7051(98)00086-0",
+      "connections": [
+        {
+          "target": "concept_difference",
+          "label": "Difference",
+          "kind": "text_mention",
+          "term": "Difference",
+          "locator": "Extracted source text, character 505; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_distinction",
+          "label": "Distinction",
+          "kind": "text_mention",
+          "term": "Distinction",
+          "locator": "Extracted source text, character 4010; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_information",
+          "label": "Information",
+          "kind": "text_mention",
+          "term": "Information",
+          "locator": "Extracted source text, character 3019; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_requisite_variety",
+          "label": "Requisite variety",
+          "kind": "text_mention",
+          "term": "Requisite variety",
+          "locator": "Extracted source text, character 2415; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "practice_design_thinking",
+          "label": "Design thinking",
+          "kind": "text_mention",
+          "term": "Human-centered design",
+          "locator": "Extracted source text, character 2819; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        }
+      ],
+      "source_file_count": 1
+    },
+    {
+      "id": "sp26_b615869d3cec8a0c",
+      "title": "A Deeper Look at Bongard Problems",
+      "url": "https://doi.org/10.1007/978-3-030-47358-7_54",
+      "collection": "Research bibliography",
+      "format": "book chapter",
+      "year": "2020",
+      "authors": [
+        "Xinyu Yun",
+        "Tanner Bohn",
+        "Charles Ling"
+      ],
+      "publisher": "Springer International Publishing",
+      "summary": "Publisher-deposited bibliographic record matched to the opening title of the supplied source. Concept links below are text-location aids; they do not establish influence or agreement.",
+      "review": "Bibliographic identity matched; source text indexed",
+      "locator": "Opening title and DOI; Crossref publisher metadata",
+      "doi": "10.1007/978-3-030-47358-7_54",
+      "connections": [
+        {
+          "target": "concept_difference",
+          "label": "Difference",
+          "kind": "text_mention",
+          "term": "Difference",
+          "locator": "Extracted source text, character 24133; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_information",
+          "label": "Information",
+          "kind": "text_mention",
+          "term": "Information",
+          "locator": "Extracted source text, character 29935; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_non_linearity",
+          "label": "Non-linearity",
+          "kind": "text_mention",
+          "term": "Non-linearity",
+          "locator": "Extracted source text, character 18063; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        }
+      ],
+      "source_file_count": 1
+    },
+    {
+      "id": "sp26_cdf8fe4865271c63",
+      "title": "Clinical applications of recasting : review and theory",
+      "url": "https://doi.org/10.1177/026565908700300308",
+      "collection": "Research bibliography",
+      "format": "journal article",
+      "year": "1987",
+      "authors": [
+        "Ruth V. Watkins",
+        "Elizabeth F. Pemberton"
+      ],
+      "publisher": "SAGE Publications",
+      "summary": "Publisher-deposited bibliographic record matched to the opening title of the supplied source. Concept links below are text-location aids; they do not establish influence or agreement.",
+      "review": "Bibliographic identity matched; source text indexed",
+      "locator": "Opening title and DOI; Crossref publisher metadata",
+      "doi": "10.1177/026565908700300308",
+      "connections": [
+        {
+          "target": "concept_boundaries",
+          "label": "Boundaries",
+          "kind": "text_mention",
+          "term": "Boundaries",
+          "locator": "Extracted source text, character 20741; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_boundary",
+          "label": "Boundary",
+          "kind": "text_mention",
+          "term": "boundaries",
+          "locator": "Extracted source text, character 20741; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_difference",
+          "label": "Difference",
+          "kind": "text_mention",
+          "term": "Difference",
+          "locator": "Extracted source text, character 33414; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_distinction",
+          "label": "Distinction",
+          "kind": "text_mention",
+          "term": "Distinction",
+          "locator": "Extracted source text, character 913; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_information",
+          "label": "Information",
+          "kind": "text_mention",
+          "term": "Information",
+          "locator": "Extracted source text, character 3825; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "practice_organizational_learning",
+          "label": "Organizational learning",
+          "kind": "text_mention",
+          "term": "Organizational learning",
+          "locator": "Extracted source text, character 20449; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        }
+      ],
+      "source_file_count": 1
+    },
+    {
+      "id": "sp26_e35c4e039bbf52c2",
+      "title": "An ecosystem approach for sustainability: addressing the challenge of complexity",
+      "url": "https://doi.org/10.1016/S0016-3287(99)00029-4",
+      "collection": "Research bibliography",
+      "format": "journal article",
+      "year": "1999",
+      "authors": [
+        "James J. Kay",
+        "Henry A. Regier",
+        "Michelle Boyle",
+        "George Francis"
+      ],
+      "publisher": "Elsevier BV",
+      "summary": "Publisher-deposited bibliographic record matched to the opening title of the supplied source. Concept links below are text-location aids; they do not establish influence or agreement.",
+      "review": "Bibliographic identity matched; source text indexed",
+      "locator": "Opening title and DOI; Crossref publisher metadata",
+      "doi": "10.1016/S0016-3287(99)00029-4",
+      "connections": [
+        {
+          "target": "concept_information",
+          "label": "Information",
+          "kind": "text_mention",
+          "term": "Information",
+          "locator": "Extracted source text, character 1454; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_viability",
+          "label": "Viability",
+          "kind": "text_mention",
+          "term": "viable system",
+          "locator": "Extracted source text, character 416; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "method_or_methodology_viable_system_model_vsm",
+          "label": "Viable System Model (VSM)",
+          "kind": "text_mention",
+          "term": "viable systems model",
+          "locator": "Extracted source text, character 416; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_unfix_attractor",
+          "label": "Attractor",
+          "kind": "text_mention",
+          "term": "Attractors",
+          "locator": "Extracted source text, character 1470; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        }
+      ],
+      "source_file_count": 1
+    },
+    {
+      "id": "sp26_994bedb617bf3e65",
+      "title": "Conceptual Foundations for Environmental Ethics",
+      "url": "https://doi.org/10.5840/enviroethics200325317",
+      "collection": "Research bibliography",
+      "format": "journal article",
+      "year": "2003",
+      "authors": [
+        "Karyn Lai",
+        ""
+      ],
+      "publisher": "Philosophy Documentation Center",
+      "summary": "Publisher-deposited bibliographic record matched to the opening title of the supplied source. Concept links below are text-location aids; they do not establish influence or agreement.",
+      "review": "Bibliographic identity matched; source text indexed",
+      "locator": "Opening title and DOI; Crossref publisher metadata",
+      "doi": "10.5840/enviroethics200325317",
+      "connections": [
+        {
+          "target": "concept_adaptation",
+          "label": "Adaptation",
+          "kind": "text_mention",
+          "term": "Adaptation",
+          "locator": "Extracted source text, character 16447; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_boundaries",
+          "label": "Boundaries",
+          "kind": "text_mention",
+          "term": "Boundaries",
+          "locator": "Extracted source text, character 29004; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_boundary",
+          "label": "Boundary",
+          "kind": "text_mention",
+          "term": "boundaries",
+          "locator": "Extracted source text, character 29004; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_difference",
+          "label": "Difference",
+          "kind": "text_mention",
+          "term": "Difference",
+          "locator": "Extracted source text, character 7506; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_distinction",
+          "label": "Distinction",
+          "kind": "text_mention",
+          "term": "Distinction",
+          "locator": "Extracted source text, character 7567; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_feedforward",
+          "label": "Feedforward",
+          "kind": "text_mention",
+          "term": "Feedforward",
+          "locator": "Extracted source text, character 6481; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_information",
+          "label": "Information",
+          "kind": "text_mention",
+          "term": "Information",
+          "locator": "Extracted source text, character 6442; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_uncertainty",
+          "label": "Uncertainty",
+          "kind": "text_mention",
+          "term": "Uncertainty",
+          "locator": "Extracted source text, character 11702; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_unpredictability",
+          "label": "Unpredictability",
+          "kind": "text_mention",
+          "term": "Unpredictability",
+          "locator": "Extracted source text, character 37017; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "method_or_methodology_socio_technical_systems",
+          "label": "Socio-Technical Systems",
+          "kind": "text_mention",
+          "term": "Socio-Technical Systems",
+          "locator": "Extracted source text, character 31766; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "method_or_methodology_soft_systems_methodology_ssm",
+          "label": "Soft Systems Methodology (SSM)",
+          "kind": "text_mention",
+          "term": "soft systems method",
+          "locator": "Extracted source text, character 70054; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "practice_systems_practice",
+          "label": "Systems practice",
+          "kind": "text_mention",
+          "term": "Systems practice",
+          "locator": "Extracted source text, character 11440; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "practice_design_thinking",
+          "label": "Design thinking",
+          "kind": "text_mention",
+          "term": "Design thinking",
+          "locator": "Extracted source text, character 72824; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_community_ecology",
+          "label": "Community ecology",
+          "kind": "text_mention",
+          "term": "Community ecology",
+          "locator": "Extracted source text, character 69050; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_unfix_resilience",
+          "label": "Resilience",
+          "kind": "text_mention",
+          "term": "Resilience",
+          "locator": "Extracted source text, character 14063; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        }
+      ],
+      "source_file_count": 1
+    },
+    {
+      "id": "sp26_e00f2604017d4224",
+      "title": "Design for social change and design education: Social challenges versus teacher-centred pedagogies",
+      "url": "https://doi.org/10.1080/14606925.2017.1353037",
+      "collection": "Research bibliography",
+      "format": "journal article",
+      "year": "2017",
+      "authors": [
+        "Nicos Souleles"
+      ],
+      "publisher": "Informa UK Limited",
+      "summary": "Publisher-deposited bibliographic record matched to the opening title of the supplied source. Concept links below are text-location aids; they do not establish influence or agreement.",
+      "review": "Bibliographic identity matched; source text indexed",
+      "locator": "Opening title and DOI; Crossref publisher metadata",
+      "doi": "10.1080/14606925.2017.1353037",
+      "connections": [
+        {
+          "target": "concept_adaptation",
+          "label": "Adaptation",
+          "kind": "text_mention",
+          "term": "Adaptation",
+          "locator": "Extracted source text, character 18417; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_difference",
+          "label": "Difference",
+          "kind": "text_mention",
+          "term": "Difference",
+          "locator": "Extracted source text, character 18604; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_distinction",
+          "label": "Distinction",
+          "kind": "text_mention",
+          "term": "Distinction",
+          "locator": "Extracted source text, character 30326; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_non_linearity",
+          "label": "Non-linearity",
+          "kind": "text_mention",
+          "term": "non-linear",
+          "locator": "Extracted source text, character 81011; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_uncertainty",
+          "label": "Uncertainty",
+          "kind": "text_mention",
+          "term": "Uncertainty",
+          "locator": "Extracted source text, character 9627; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "tool_systems_mapping",
+          "label": "Systems mapping",
+          "kind": "text_mention",
+          "term": "Systems mapping",
+          "locator": "Extracted source text, character 17812; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "practice_systems_practice",
+          "label": "Systems practice",
+          "kind": "text_mention",
+          "term": "Systems practice",
+          "locator": "Extracted source text, character 24767; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_leverage_points",
+          "label": "Leverage points",
+          "kind": "text_mention",
+          "term": "Leverage points",
+          "locator": "Extracted source text, character 18401; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "practice_learning_ecosystems",
+          "label": "Learning ecosystems",
+          "kind": "text_mention",
+          "term": "Learning ecosystems",
+          "locator": "Extracted source text, character 76676; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "practice_innovation_ecosystems",
+          "label": "Innovation ecosystems",
+          "kind": "text_mention",
+          "term": "Innovation ecosystems",
+          "locator": "Extracted source text, character 72872; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "practice_social_innovation",
+          "label": "Social innovation",
+          "kind": "text_mention",
+          "term": "Social innovation",
+          "locator": "Extracted source text, character 3484; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "practice_design_thinking",
+          "label": "Design thinking",
+          "kind": "text_mention",
+          "term": "Design thinking",
+          "locator": "Extracted source text, character 50941; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "practice_circular_economy",
+          "label": "Circular economy",
+          "kind": "text_mention",
+          "term": "Circular economy",
+          "locator": "Extracted source text, character 9957; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "practice_permaculture",
+          "label": "Permaculture",
+          "kind": "text_mention",
+          "term": "Permaculture",
+          "locator": "Extracted source text, character 65939; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_interconnectedness",
+          "label": "Interconnectedness",
+          "kind": "text_mention",
+          "term": "Interconnectedness",
+          "locator": "Extracted source text, character 5298; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_unfix_causal_loop_diagrams",
+          "label": "Causal loop diagrams",
+          "kind": "text_mention",
+          "term": "Causal loop diagrams",
+          "locator": "Extracted source text, character 23778; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_unfix_mental_models",
+          "label": "Mental models",
+          "kind": "text_mention",
+          "term": "Mental models",
+          "locator": "Extracted source text, character 17536; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_unfix_resilience",
+          "label": "Resilience",
+          "kind": "text_mention",
+          "term": "Resilience",
+          "locator": "Extracted source text, character 58834; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        }
+      ],
+      "source_file_count": 1
+    },
+    {
+      "id": "sp26_582ee3907c844ea9",
+      "title": "People and Systems — Creating Networks of System Leadership and Practice",
+      "url": "https://doi.org/10.22324/ijhrdppr.4.105",
+      "collection": "Research bibliography",
+      "format": "journal article",
+      "year": "2019",
+      "authors": [
+        "",
+        "Steve Keyes",
+        "Manraj Kehla",
+        "",
+        "Frances Storr",
+        "",
+        "John Walsh",
+        ""
+      ],
+      "publisher": "Walter de Gruyter GmbH",
+      "summary": "Publisher-deposited bibliographic record matched to the opening title of the supplied source. Concept links below are text-location aids; they do not establish influence or agreement.",
+      "review": "Bibliographic identity matched; source text indexed",
+      "locator": "Opening title and DOI; Crossref publisher metadata",
+      "doi": "10.22324/ijhrdppr.4.105",
+      "connections": [
+        {
+          "target": "concept_boundaries",
+          "label": "Boundaries",
+          "kind": "text_mention",
+          "term": "Boundaries",
+          "locator": "Extracted source text, character 4673; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_boundary",
+          "label": "Boundary",
+          "kind": "text_mention",
+          "term": "boundaries",
+          "locator": "Extracted source text, character 4673; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_difference",
+          "label": "Difference",
+          "kind": "text_mention",
+          "term": "Difference",
+          "locator": "Extracted source text, character 13206; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_information",
+          "label": "Information",
+          "kind": "text_mention",
+          "term": "Information",
+          "locator": "Extracted source text, character 2587; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_self_organisation",
+          "label": "Self-organisation",
+          "kind": "text_mention",
+          "term": "Self-organisation",
+          "locator": "Extracted source text, character 54045; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_sensitive_dependence_on_initial_conditions",
+          "label": "Sensitive dependence on initial conditions",
+          "kind": "text_mention",
+          "term": "Sensitive dependence on initial conditions",
+          "locator": "Extracted source text, character 10151; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_unpredictability",
+          "label": "Unpredictability",
+          "kind": "text_mention",
+          "term": "Unpredictability",
+          "locator": "Extracted source text, character 11108; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_interconnectedness",
+          "label": "Interconnectedness",
+          "kind": "text_mention",
+          "term": "Interconnection",
+          "locator": "Extracted source text, character 9886; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_unfix_resilience",
+          "label": "Resilience",
+          "kind": "text_mention",
+          "term": "Resilience",
+          "locator": "Extracted source text, character 54659; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_unfix_unintended_consequences",
+          "label": "Unintended consequences",
+          "kind": "text_mention",
+          "term": "Unintended consequences",
+          "locator": "Extracted source text, character 11386; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_unfix_edge_of_chaos",
+          "label": "Edge of chaos",
+          "kind": "text_mention",
+          "term": "Edge of chaos",
+          "locator": "Extracted source text, character 10045; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        }
+      ],
+      "source_file_count": 1
+    },
+    {
+      "id": "sp26_9d21eb195a302c94",
+      "title": "The dynamics of purposeful change: a model",
+      "url": "https://doi.org/10.5751/ES-10243-230304",
+      "collection": "Research bibliography",
+      "format": "journal article",
+      "year": "2018",
+      "authors": [
+        "Howard Silverman",
+        "Gregory M. Hill"
+      ],
+      "publisher": "Resilience Alliance, Inc.",
+      "summary": "Publisher-deposited bibliographic record matched to the opening title of the supplied source. Concept links below are text-location aids; they do not establish influence or agreement.",
+      "review": "Bibliographic identity matched; source text indexed",
+      "locator": "Opening title and DOI; Crossref publisher metadata",
+      "doi": "10.5751/ES-10243-230304",
+      "connections": [
+        {
+          "target": "concept_adaptation",
+          "label": "Adaptation",
+          "kind": "text_mention",
+          "term": "Adaptation",
+          "locator": "Extracted source text, character 5739; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_boundaries",
+          "label": "Boundaries",
+          "kind": "text_mention",
+          "term": "Boundaries",
+          "locator": "Extracted source text, character 36841; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_boundary",
+          "label": "Boundary",
+          "kind": "text_mention",
+          "term": "boundaries",
+          "locator": "Extracted source text, character 36841; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_distinction",
+          "label": "Distinction",
+          "kind": "text_mention",
+          "term": "Distinction",
+          "locator": "Extracted source text, character 3150; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_information",
+          "label": "Information",
+          "kind": "text_mention",
+          "term": "Information",
+          "locator": "Extracted source text, character 25042; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_interrelationships",
+          "label": "Interrelationships",
+          "kind": "text_mention",
+          "term": "Interrelationships",
+          "locator": "Extracted source text, character 2524; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_negative_feedback",
+          "label": "Negative feedback",
+          "kind": "text_mention",
+          "term": "balancing feedback",
+          "locator": "Extracted source text, character 42758; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_positive_feedback",
+          "label": "Positive feedback",
+          "kind": "text_mention",
+          "term": "reinforcing feedback",
+          "locator": "Extracted source text, character 34809; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_regulation",
+          "label": "Regulation",
+          "kind": "text_mention",
+          "term": "Regulation",
+          "locator": "Extracted source text, character 11283; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "method_or_methodology_system_dynamics",
+          "label": "System Dynamics",
+          "kind": "text_mention",
+          "term": "System Dynamics",
+          "locator": "Extracted source text, character 4512; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "practice_systems_practice",
+          "label": "Systems practice",
+          "kind": "text_mention",
+          "term": "Systems practice",
+          "locator": "Extracted source text, character 72191; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "practice_social_innovation",
+          "label": "Social innovation",
+          "kind": "text_mention",
+          "term": "Social innovation",
+          "locator": "Extracted source text, character 16478; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_interconnectedness",
+          "label": "Interconnectedness",
+          "kind": "text_mention",
+          "term": "Interconnectedness",
+          "locator": "Extracted source text, character 43641; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_unfix_system_archetypes",
+          "label": "System archetypes",
+          "kind": "text_mention",
+          "term": "System archetypes",
+          "locator": "Extracted source text, character 1368; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_unfix_mental_models",
+          "label": "Mental models",
+          "kind": "text_mention",
+          "term": "Mental models",
+          "locator": "Extracted source text, character 35379; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_unfix_resilience",
+          "label": "Resilience",
+          "kind": "text_mention",
+          "term": "Resilience",
+          "locator": "Extracted source text, character 71; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        },
+        {
+          "target": "concept_unfix_attractor",
+          "label": "Attractor",
+          "kind": "text_mention",
+          "term": "Attractors",
+          "locator": "Extracted source text, character 1356; page-level locator pending",
+          "status": "Phrase located automatically; interpretation and page reference unreviewed"
+        }
+      ],
+      "source_file_count": 1
+    }
+  ],
+  "retrieved_files": 514,
+  "verified_records": 26
+}

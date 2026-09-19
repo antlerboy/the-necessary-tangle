@@ -1,7 +1,7 @@
 {
   "schema_version": "1.1",
   "generated": "2026-09-19",
-  "release": "0.25",
+  "release": "0.26",
   "purpose": "Machine-readable relationship-quality result after the evidence-led relationship review.",
   "contract": {
     "human_readable_rationale": "A relation has a plain phrase and either notes, scope conditions or an inference method.",
@@ -27,33 +27,33 @@
     "semantic_statements": 747
   },
   "current": {
-    "public_entries": 785,
-    "all_nodes": 912,
-    "all_edges": 2112,
-    "sources": 315,
+    "public_entries": 1166,
+    "all_nodes": 1293,
+    "all_edges": 2857,
+    "sources": 685,
     "claims": 34,
     "evidence_records": 37,
-    "profiles": 173,
+    "profiles": 174,
     "journeys": 24,
     "external_corpora_reviewed": 12,
     "internal_sources_reviewed": 18,
-    "reader_connected_entries": 731,
-    "semantic_connected_entries": 452,
-    "semantic_gap_entries": 333,
+    "reader_connected_entries": 1123,
+    "semantic_connected_entries": 508,
+    "semantic_gap_entries": 658,
     "connection_bands": {
-      "developing": 254,
-      "rich": 51,
-      "thin": 426,
-      "unconnected": 54
+      "developing": 240,
+      "rich": 82,
+      "thin": 801,
+      "unconnected": 43
     },
     "evidence_bands": {
-      "mixed": 260,
-      "none": 54,
-      "provisional": 255,
-      "supported": 216
+      "mixed": 270,
+      "none": 43,
+      "provisional": 647,
+      "supported": 206
     },
-    "reader_statements": 1507,
-    "semantic_statements": 955
+    "reader_statements": 2238,
+    "semantic_statements": 1024
   },
   "changes_from_baseline": {
     "generic_relation_review_targets": {
@@ -66,69 +66,69 @@
     },
     "sources": {
       "before": 153,
-      "after": 315
+      "after": 685
     },
     "semantic_connected_entries": {
       "before": 329,
-      "after": 452,
+      "after": 508,
       "note": "A generic journal-to-tradition edge was replaced by a narrower documentary scope claim; unsupported semantic reach was not preserved."
     },
     "substantive_edge_count": {
       "before": 750,
-      "after": 958
+      "after": 1027
     },
     "isolated_semantic_nodes": {
       "before": 167,
-      "after": 333
+      "after": 658
     }
   },
   "criteria": {
     "typed": {
-      "passing": 2112,
-      "total": 2112
+      "passing": 2857,
+      "total": 2857
     },
     "directed": {
-      "passing": 2012,
-      "total": 2112,
+      "passing": 2757,
+      "total": 2857,
       "undirected": 100
     },
     "human_readable_phrase": {
-      "passing": 2112,
-      "total": 2112
+      "passing": 2857,
+      "total": 2857
     },
     "explicit_rationale": {
-      "passing": 1813,
-      "total": 2112
+      "passing": 2558,
+      "total": 2857
     },
     "source_identifier": {
-      "passing": 2112,
-      "total": 2112
+      "passing": 2857,
+      "total": 2857
     },
     "locator_present": {
-      "passing": 1709,
-      "total": 2112
+      "passing": 2454,
+      "total": 2857
     },
     "precision_shaped_locator": {
-      "passing": 360,
-      "total": 2112,
+      "passing": 528,
+      "total": 2857,
       "note": "Conservative text-pattern measure; manual review is still required."
     },
     "epistemic_fields_present": {
-      "passing": 2112,
-      "total": 2112
+      "passing": 2857,
+      "total": 2857
     },
     "generic_related_to": {
-      "passing": 2112,
-      "total": 2112,
+      "passing": 2857,
+      "total": 2857,
       "review_target_count": 0
     },
     "three_or_more_relation_families": {
-      "passing": 99,
-      "total": 785
+      "passing": 137,
+      "total": 1166
     },
     "one_relation_family": {
-      "count": 355,
-      "total": 785
+      "count": 690,
+      "total": 1166
     },
     "external_corpus_records": {
       "passing": 12,
@@ -231,25 +231,6 @@
       "reader_families": []
     },
     {
-      "node_id": "concept_unfix_attractor",
-      "label": "Attractor",
-      "entity_type": "concept",
-      "publication_level": "described",
-      "connection_band": "unconnected",
-      "evidence_band": "none",
-      "visible_connections": 1,
-      "visible_statements": 1,
-      "reader_connections": 0,
-      "reader_statements": 0,
-      "semantic_connections": 0,
-      "semantic_statements": 0,
-      "documentary_statements": 0,
-      "accepted_reader_statements": 0,
-      "provisional_reader_statements": 0,
-      "distinct_reader_families": 0,
-      "reader_families": []
-    },
-    {
       "node_id": "person_c_west_churchman",
       "label": "C. West Churchman",
       "entity_type": "person",
@@ -307,25 +288,6 @@
       "reader_families": []
     },
     {
-      "node_id": "concept_unfix_dynamic_complexity",
-      "label": "Dynamic complexity",
-      "entity_type": "concept",
-      "publication_level": "described",
-      "connection_band": "unconnected",
-      "evidence_band": "none",
-      "visible_connections": 1,
-      "visible_statements": 1,
-      "reader_connections": 0,
-      "reader_statements": 0,
-      "semantic_connections": 0,
-      "semantic_statements": 0,
-      "documentary_statements": 0,
-      "accepted_reader_statements": 0,
-      "provisional_reader_statements": 0,
-      "distinct_reader_families": 0,
-      "reader_families": []
-    },
-    {
       "node_id": "person_edgar_morin",
       "label": "Edgar Morin",
       "entity_type": "person",
@@ -345,25 +307,6 @@
       "reader_families": []
     },
     {
-      "node_id": "concept_unfix_edge_of_chaos",
-      "label": "Edge of chaos",
-      "entity_type": "concept",
-      "publication_level": "described",
-      "connection_band": "unconnected",
-      "evidence_band": "none",
-      "visible_connections": 1,
-      "visible_statements": 1,
-      "reader_connections": 0,
-      "reader_statements": 0,
-      "semantic_connections": 0,
-      "semantic_statements": 0,
-      "documentary_statements": 0,
-      "accepted_reader_statements": 0,
-      "provisional_reader_statements": 0,
-      "distinct_reader_families": 0,
-      "reader_families": []
-    },
-    {
       "node_id": "person_eric_trist",
       "label": "Eric Trist",
       "entity_type": "person",
@@ -372,25 +315,6 @@
       "evidence_band": "none",
       "visible_connections": 0,
       "visible_statements": 0,
-      "reader_connections": 0,
-      "reader_statements": 0,
-      "semantic_connections": 0,
-      "semantic_statements": 0,
-      "documentary_statements": 0,
-      "accepted_reader_statements": 0,
-      "provisional_reader_statements": 0,
-      "distinct_reader_families": 0,
-      "reader_families": []
-    },
-    {
-      "node_id": "concept_unfix_fitness_landscape",
-      "label": "Fitness landscape",
-      "entity_type": "concept",
-      "publication_level": "described",
-      "connection_band": "unconnected",
-      "evidence_band": "none",
-      "visible_connections": 1,
-      "visible_statements": 1,
       "reader_connections": 0,
       "reader_statements": 0,
       "semantic_connections": 0,
@@ -744,25 +668,6 @@
       "reader_families": []
     },
     {
-      "node_id": "concept_unfix_mental_models",
-      "label": "Mental models",
-      "entity_type": "concept",
-      "publication_level": "described",
-      "connection_band": "unconnected",
-      "evidence_band": "none",
-      "visible_connections": 1,
-      "visible_statements": 1,
-      "reader_connections": 0,
-      "reader_statements": 0,
-      "semantic_connections": 0,
-      "semantic_statements": 0,
-      "documentary_statements": 0,
-      "accepted_reader_statements": 0,
-      "provisional_reader_statements": 0,
-      "distinct_reader_families": 0,
-      "reader_families": []
-    },
-    {
       "node_id": "organisation_ntl_institute",
       "label": "NTL Institute",
       "entity_type": "organisation",
@@ -915,25 +820,6 @@
       "reader_families": []
     },
     {
-      "node_id": "concept_unfix_phase_transition",
-      "label": "Phase transition",
-      "entity_type": "concept",
-      "publication_level": "described",
-      "connection_band": "unconnected",
-      "evidence_band": "none",
-      "visible_connections": 1,
-      "visible_statements": 1,
-      "reader_connections": 0,
-      "reader_statements": 0,
-      "semantic_connections": 0,
-      "semantic_statements": 0,
-      "documentary_statements": 0,
-      "accepted_reader_statements": 0,
-      "provisional_reader_statements": 0,
-      "distinct_reader_families": 0,
-      "reader_families": []
-    },
-    {
       "node_id": "person_pingala",
       "label": "Pingala",
       "entity_type": "person",
@@ -972,65 +858,8 @@
       "reader_families": []
     },
     {
-      "node_id": "concept_unfix_power_law",
-      "label": "Power law",
-      "entity_type": "concept",
-      "publication_level": "described",
-      "connection_band": "unconnected",
-      "evidence_band": "none",
-      "visible_connections": 1,
-      "visible_statements": 1,
-      "reader_connections": 0,
-      "reader_statements": 0,
-      "semantic_connections": 0,
-      "semantic_statements": 0,
-      "documentary_statements": 0,
-      "accepted_reader_statements": 0,
-      "provisional_reader_statements": 0,
-      "distinct_reader_families": 0,
-      "reader_families": []
-    },
-    {
-      "node_id": "concept_unfix_resilience",
-      "label": "Resilience",
-      "entity_type": "concept",
-      "publication_level": "described",
-      "connection_band": "unconnected",
-      "evidence_band": "none",
-      "visible_connections": 1,
-      "visible_statements": 1,
-      "reader_connections": 0,
-      "reader_statements": 0,
-      "semantic_connections": 0,
-      "semantic_statements": 0,
-      "documentary_statements": 0,
-      "accepted_reader_statements": 0,
-      "provisional_reader_statements": 0,
-      "distinct_reader_families": 0,
-      "reader_families": []
-    },
-    {
       "node_id": "person_robert_axelrod",
       "label": "Robert Axelrod",
-      "entity_type": "person",
-      "publication_level": "research_stub",
-      "connection_band": "unconnected",
-      "evidence_band": "none",
-      "visible_connections": 0,
-      "visible_statements": 0,
-      "reader_connections": 0,
-      "reader_statements": 0,
-      "semantic_connections": 0,
-      "semantic_statements": 0,
-      "documentary_statements": 0,
-      "accepted_reader_statements": 0,
-      "provisional_reader_statements": 0,
-      "distinct_reader_families": 0,
-      "reader_families": []
-    },
-    {
-      "node_id": "person_sandra_janoff",
-      "label": "Sandra Janoff",
       "entity_type": "person",
       "publication_level": "research_stub",
       "connection_band": "unconnected",
@@ -1105,25 +934,6 @@
       "reader_families": []
     },
     {
-      "node_id": "concept_unfix_system_archetypes",
-      "label": "System archetypes",
-      "entity_type": "concept",
-      "publication_level": "described",
-      "connection_band": "unconnected",
-      "evidence_band": "none",
-      "visible_connections": 1,
-      "visible_statements": 1,
-      "reader_connections": 0,
-      "reader_statements": 0,
-      "semantic_connections": 0,
-      "semantic_statements": 0,
-      "documentary_statements": 0,
-      "accepted_reader_statements": 0,
-      "provisional_reader_statements": 0,
-      "distinct_reader_families": 0,
-      "reader_families": []
-    },
-    {
       "node_id": "organisation_the_tavistock_institute_of_human_relations",
       "label": "The Tavistock Institute of Human Relations",
       "entity_type": "organisation",
@@ -1132,25 +942,6 @@
       "evidence_band": "none",
       "visible_connections": 0,
       "visible_statements": 0,
-      "reader_connections": 0,
-      "reader_statements": 0,
-      "semantic_connections": 0,
-      "semantic_statements": 0,
-      "documentary_statements": 0,
-      "accepted_reader_statements": 0,
-      "provisional_reader_statements": 0,
-      "distinct_reader_families": 0,
-      "reader_families": []
-    },
-    {
-      "node_id": "concept_unfix_unintended_consequences",
-      "label": "Unintended consequences",
-      "entity_type": "concept",
-      "publication_level": "described",
-      "connection_band": "unconnected",
-      "evidence_band": "none",
-      "visible_connections": 1,
-      "visible_statements": 1,
       "reader_connections": 0,
       "reader_statements": 0,
       "semantic_connections": 0,
@@ -1769,6 +1560,27 @@
       ]
     },
     {
+      "node_id": "method_lg26_americaspeaks_21st_century_town_meeting",
+      "label": "AmericaSpeaks 21st Century Town Meeting",
+      "entity_type": "method_or_methodology",
+      "publication_level": "described",
+      "connection_band": "thin",
+      "evidence_band": "provisional",
+      "visible_connections": 1,
+      "visible_statements": 1,
+      "reader_connections": 1,
+      "reader_statements": 1,
+      "semantic_connections": 0,
+      "semantic_statements": 0,
+      "documentary_statements": 1,
+      "accepted_reader_statements": 0,
+      "provisional_reader_statements": 1,
+      "distinct_reader_families": 1,
+      "reader_families": [
+        "documentary"
+      ]
+    },
+    {
       "node_id": "person_fpcs_b_b_mandelbrot",
       "label": "B. B. Mandelbrot",
       "entity_type": "person",
@@ -1784,27 +1596,6 @@
       "documentary_statements": 1,
       "accepted_reader_statements": 1,
       "provisional_reader_statements": 0,
-      "distinct_reader_families": 1,
-      "reader_families": [
-        "documentary"
-      ]
-    },
-    {
-      "node_id": "person_benjamin_p_taylor",
-      "label": "Benjamin P Taylor",
-      "entity_type": "person",
-      "publication_level": "described",
-      "connection_band": "thin",
-      "evidence_band": "provisional",
-      "visible_connections": 1,
-      "visible_statements": 1,
-      "reader_connections": 1,
-      "reader_statements": 1,
-      "semantic_connections": 0,
-      "semantic_statements": 0,
-      "documentary_statements": 1,
-      "accepted_reader_statements": 0,
-      "provisional_reader_statements": 1,
       "distinct_reader_families": 1,
       "reader_families": [
         "documentary"
@@ -1829,6 +1620,27 @@
       "distinct_reader_families": 1,
       "reader_families": [
         "identity"
+      ]
+    },
+    {
+      "node_id": "method_lg26_boundary_critique_critical_systems_heuristics",
+      "label": "Boundary Critique (Critical Systems Heuristics)",
+      "entity_type": "method_or_methodology",
+      "publication_level": "described",
+      "connection_band": "thin",
+      "evidence_band": "provisional",
+      "visible_connections": 1,
+      "visible_statements": 1,
+      "reader_connections": 1,
+      "reader_statements": 1,
+      "semantic_connections": 0,
+      "semantic_statements": 0,
+      "documentary_statements": 1,
+      "accepted_reader_statements": 0,
+      "provisional_reader_statements": 1,
+      "distinct_reader_families": 1,
+      "reader_families": [
+        "documentary"
       ]
     },
     {
@@ -2000,24 +1812,24 @@
       ]
     },
     {
-      "node_id": "concept_unfix_causal_loop_diagrams",
-      "label": "Causal loop diagrams",
-      "entity_type": "concept",
+      "node_id": "method_lg26_causal_layered_analysis_cla",
+      "label": "Causal Layered Analysis (CLA)",
+      "entity_type": "method_or_methodology",
       "publication_level": "described",
       "connection_band": "thin",
       "evidence_band": "provisional",
-      "visible_connections": 2,
-      "visible_statements": 2,
+      "visible_connections": 1,
+      "visible_statements": 1,
       "reader_connections": 1,
       "reader_statements": 1,
-      "semantic_connections": 1,
-      "semantic_statements": 1,
-      "documentary_statements": 0,
+      "semantic_connections": 0,
+      "semantic_statements": 0,
+      "documentary_statements": 1,
       "accepted_reader_statements": 0,
       "provisional_reader_statements": 1,
       "distinct_reader_families": 1,
       "reader_families": [
-        "practice"
+        "documentary"
       ]
     },
     {
@@ -2063,9 +1875,72 @@
       ]
     },
     {
+      "node_id": "corpus_chosen_path",
+      "label": "Chosen Path",
+      "entity_type": "corpus",
+      "publication_level": "described",
+      "connection_band": "thin",
+      "evidence_band": "provisional",
+      "visible_connections": 1,
+      "visible_statements": 1,
+      "reader_connections": 1,
+      "reader_statements": 1,
+      "semantic_connections": 0,
+      "semantic_statements": 0,
+      "documentary_statements": 1,
+      "accepted_reader_statements": 0,
+      "provisional_reader_statements": 1,
+      "distinct_reader_families": 1,
+      "reader_families": [
+        "documentary"
+      ]
+    },
+    {
+      "node_id": "method_lg26_circle_methodology",
+      "label": "Circle Methodology",
+      "entity_type": "method_or_methodology",
+      "publication_level": "described",
+      "connection_band": "thin",
+      "evidence_band": "provisional",
+      "visible_connections": 1,
+      "visible_statements": 1,
+      "reader_connections": 1,
+      "reader_statements": 1,
+      "semantic_connections": 0,
+      "semantic_statements": 0,
+      "documentary_statements": 1,
+      "accepted_reader_statements": 0,
+      "provisional_reader_statements": 1,
+      "distinct_reader_families": 1,
+      "reader_families": [
+        "documentary"
+      ]
+    },
+    {
       "node_id": "person_early_colin_cherry",
       "label": "Colin Cherry",
       "entity_type": "person",
+      "publication_level": "described",
+      "connection_band": "thin",
+      "evidence_band": "provisional",
+      "visible_connections": 1,
+      "visible_statements": 1,
+      "reader_connections": 1,
+      "reader_statements": 1,
+      "semantic_connections": 0,
+      "semantic_statements": 0,
+      "documentary_statements": 1,
+      "accepted_reader_statements": 0,
+      "provisional_reader_statements": 1,
+      "distinct_reader_families": 1,
+      "reader_families": [
+        "documentary"
+      ]
+    },
+    {
+      "node_id": "method_lg26_collaborative_leadership_development",
+      "label": "Collaborative Leadership Development",
+      "entity_type": "method_or_methodology",
       "publication_level": "described",
       "connection_band": "thin",
       "evidence_band": "provisional",
@@ -2108,6 +1983,48 @@
       "node_id": "corpus_contexts_journal",
       "label": "Contexts: The Systemic Design Journal",
       "entity_type": "corpus",
+      "publication_level": "described",
+      "connection_band": "thin",
+      "evidence_band": "provisional",
+      "visible_connections": 1,
+      "visible_statements": 1,
+      "reader_connections": 1,
+      "reader_statements": 1,
+      "semantic_connections": 0,
+      "semantic_statements": 0,
+      "documentary_statements": 1,
+      "accepted_reader_statements": 0,
+      "provisional_reader_statements": 1,
+      "distinct_reader_families": 1,
+      "reader_families": [
+        "documentary"
+      ]
+    },
+    {
+      "node_id": "method_lg26_converge_diverge_model",
+      "label": "Converge-diverge model",
+      "entity_type": "method_or_methodology",
+      "publication_level": "described",
+      "connection_band": "thin",
+      "evidence_band": "provisional",
+      "visible_connections": 1,
+      "visible_statements": 1,
+      "reader_connections": 1,
+      "reader_statements": 1,
+      "semantic_connections": 0,
+      "semantic_statements": 0,
+      "documentary_statements": 1,
+      "accepted_reader_statements": 0,
+      "provisional_reader_statements": 1,
+      "distinct_reader_families": 1,
+      "reader_families": [
+        "documentary"
+      ]
+    },
+    {
+      "node_id": "method_lg26_cross_impact_analysis",
+      "label": "Cross-Impact Analysis",
+      "entity_type": "method_or_methodology",
       "publication_level": "described",
       "connection_band": "thin",
       "evidence_band": "provisional",
@@ -2189,9 +2106,72 @@
       ]
     },
     {
+      "node_id": "method_lg26_delphi_method",
+      "label": "Delphi Method",
+      "entity_type": "method_or_methodology",
+      "publication_level": "described",
+      "connection_band": "thin",
+      "evidence_band": "provisional",
+      "visible_connections": 1,
+      "visible_statements": 1,
+      "reader_connections": 1,
+      "reader_statements": 1,
+      "semantic_connections": 0,
+      "semantic_statements": 0,
+      "documentary_statements": 1,
+      "accepted_reader_statements": 0,
+      "provisional_reader_statements": 1,
+      "distinct_reader_families": 1,
+      "reader_families": [
+        "documentary"
+      ]
+    },
+    {
       "node_id": "person_early_dennis_gabor",
       "label": "Dennis Gabor",
       "entity_type": "person",
+      "publication_level": "described",
+      "connection_band": "thin",
+      "evidence_band": "provisional",
+      "visible_connections": 1,
+      "visible_statements": 1,
+      "reader_connections": 1,
+      "reader_statements": 1,
+      "semantic_connections": 0,
+      "semantic_statements": 0,
+      "documentary_statements": 1,
+      "accepted_reader_statements": 0,
+      "provisional_reader_statements": 1,
+      "distinct_reader_families": 1,
+      "reader_families": [
+        "documentary"
+      ]
+    },
+    {
+      "node_id": "method_lg26_design_charrettes",
+      "label": "Design Charrettes",
+      "entity_type": "method_or_methodology",
+      "publication_level": "described",
+      "connection_band": "thin",
+      "evidence_band": "provisional",
+      "visible_connections": 1,
+      "visible_statements": 1,
+      "reader_connections": 1,
+      "reader_statements": 1,
+      "semantic_connections": 0,
+      "semantic_statements": 0,
+      "documentary_statements": 1,
+      "accepted_reader_statements": 0,
+      "provisional_reader_statements": 1,
+      "distinct_reader_families": 1,
+      "reader_families": [
+        "documentary"
+      ]
+    },
+    {
+      "node_id": "method_lg26_design_thinking_workshops",
+      "label": "Design Thinking Workshops",
+      "entity_type": "method_or_methodology",
       "publication_level": "described",
       "connection_band": "thin",
       "evidence_band": "provisional",
@@ -2483,6 +2463,69 @@
       ]
     },
     {
+      "node_id": "method_lg26_fishbowl_conversations",
+      "label": "Fishbowl Conversations",
+      "entity_type": "method_or_methodology",
+      "publication_level": "described",
+      "connection_band": "thin",
+      "evidence_band": "provisional",
+      "visible_connections": 1,
+      "visible_statements": 1,
+      "reader_connections": 1,
+      "reader_statements": 1,
+      "semantic_connections": 0,
+      "semantic_statements": 0,
+      "documentary_statements": 1,
+      "accepted_reader_statements": 0,
+      "provisional_reader_statements": 1,
+      "distinct_reader_families": 1,
+      "reader_families": [
+        "documentary"
+      ]
+    },
+    {
+      "node_id": "concept_unfix_fitness_landscape",
+      "label": "Fitness landscape",
+      "entity_type": "concept",
+      "publication_level": "described",
+      "connection_band": "thin",
+      "evidence_band": "provisional",
+      "visible_connections": 2,
+      "visible_statements": 2,
+      "reader_connections": 1,
+      "reader_statements": 1,
+      "semantic_connections": 0,
+      "semantic_statements": 0,
+      "documentary_statements": 1,
+      "accepted_reader_statements": 0,
+      "provisional_reader_statements": 1,
+      "distinct_reader_families": 1,
+      "reader_families": [
+        "documentary"
+      ]
+    },
+    {
+      "node_id": "method_lg26_future_back_planning",
+      "label": "Future Back Planning",
+      "entity_type": "method_or_methodology",
+      "publication_level": "described",
+      "connection_band": "thin",
+      "evidence_band": "provisional",
+      "visible_connections": 1,
+      "visible_statements": 1,
+      "reader_connections": 1,
+      "reader_statements": 1,
+      "semantic_connections": 0,
+      "semantic_statements": 0,
+      "documentary_statements": 1,
+      "accepted_reader_statements": 0,
+      "provisional_reader_statements": 1,
+      "distinct_reader_families": 1,
+      "reader_families": [
+        "documentary"
+      ]
+    },
+    {
       "node_id": "person_early_g_e_kimball",
       "label": "G. E. Kimball",
       "entity_type": "person",
@@ -2527,27 +2570,6 @@
     {
       "node_id": "person_fpcs_g_parisi",
       "label": "G. Parisi",
-      "entity_type": "person",
-      "publication_level": "described",
-      "connection_band": "thin",
-      "evidence_band": "mixed",
-      "visible_connections": 1,
-      "visible_statements": 1,
-      "reader_connections": 1,
-      "reader_statements": 1,
-      "semantic_connections": 0,
-      "semantic_statements": 0,
-      "documentary_statements": 1,
-      "accepted_reader_statements": 1,
-      "provisional_reader_statements": 0,
-      "distinct_reader_families": 1,
-      "reader_families": [
-        "documentary"
-      ]
-    },
-    {
-      "node_id": "person_fpcs_g_r_price",
-      "label": "G. R. Price",
       "entity_type": "person",
       "publication_level": "described",
       "connection_band": "thin",

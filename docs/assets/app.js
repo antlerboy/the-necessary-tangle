@@ -607,6 +607,17 @@
     );
     const sourceLinks = sources.map(sourceLink).join('') || '<p>No sources are linked yet.</p>';
     const sections = [];
+    // library-source-links-start
+    const sourceRegisterCount = DATA.library_integration?.concept_counts?.[node.id] || 0;
+    if (sourceRegisterCount) sections.push(`<section class="entry-section source-register-route"><h2>Sources and teaching</h2><p><a href="/library/?concept=${encodeURIComponent(node.id)}">Explore ${sourceRegisterCount} source records connected to this entry</a>. Each result distinguishes title-page credit, a teaching account, an identity link, a located text mention, and an automatic title match.</p></section>`);
+    // library-source-links-end
+
+
+
+
+
+
+
 
     if (profile?.why_it_matters) {
       sections.push(`<section class="entry-section"><h2>Why it matters</h2><p>${linkifyKnownText(profile.why_it_matters, [node.id])}</p></section>`);
@@ -667,7 +678,7 @@
         : ''}
       <p class="small">${node.public_source_count || 0} linked public source${node.public_source_count === 1 ? '' : 's'}${node.no_public_link_count ? ` · ${node.no_public_link_count} cited item${node.no_public_link_count === 1 ? '' : 's'} with no public link` : ''}${depth ? ` · ${depth.reader_connections} reader connection${depth.reader_connections === 1 ? '' : 's'} across ${depth.distinct_reader_families} relation famil${depth.distinct_reader_families === 1 ? 'y' : 'ies'}` : ''}</p>
       <div class="entry-actions">
-        <a class="button primary map-entry" href="${internalHref('map', { layer: 'substantive', depth: 'constellation', focus: node.id })}" data-id="${esc(node.id)}">Place in the tangle</a>
+        <a class="button primary map-entry" href="${internalHref('map', { layer: relations.some(substantiveEdge) ? 'substantive' : 'all', depth: 'constellation', focus: node.id })}" data-id="${esc(node.id)}">Place in the tangle</a>
         <a class="button ask-entry" href="${internalHref('ask', { seed: node.id })}" data-id="${esc(node.id)}">Ask about this</a>
         <a class="button contribute-entry" href="${internalHref('contribute', { entry: node.id })}" data-id="${esc(node.id)}">Suggest a change</a>
         <a class="button" href="${esc(CONFIG.discussionsUrl || `${CONFIG.repositoryUrl}/discussions`)}" target="_blank" rel="noopener">Discuss</a>
@@ -722,8 +733,12 @@
       recordMapFocus(mapFocus);
       mapPath = [];
       $('mapSearch').value = nodeById.get(mapFocus)?.label || '';
+      // Follow the link's actual map parameters rather than retaining a previous full overview.
+      const destination = new URLSearchParams(new URL(button.href).hash.slice(1));
+      $('mapLayer').value = destination.get('layer') || 'substantive';
+      $('mapDepth').value = destination.get('depth') || 'constellation';
       showView('map');
-      setHash({ view: 'map', focus: mapFocus });
+      setHash({ view: 'map', focus: mapFocus, layer: $('mapLayer').value, depth: $('mapDepth').value });
       renderMap({ fit: true });
     }));
     $$('.ask-entry', root).forEach((button) => button.addEventListener('click', (event) => {
@@ -2146,49 +2161,5 @@
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', initConstellationControls);
   else initConstellationControls();
 })();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* 0.18 navigable map and link contract */
