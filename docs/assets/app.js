@@ -2096,7 +2096,7 @@
   }
 
   function applyCategory(categoryId) {
-    const category = emergentCategories().find((item) => (item.id || item.category_id) === categoryId);
+    const category = emergentCategories().find((item) => (item.curated_category_id || item.id || item.category_id) === categoryId);
     const members = categoryMembers(category);
     const svg = document.getElementById('graphSvg');
     if (svg) {
@@ -2108,7 +2108,7 @@
     }
     const note = document.getElementById('mapCategoryNote');
     if (note) note.textContent = category
-      ? `${category.label || category.name || 'Selected neighbourhood'} — provisional graph grouping; inspect the typed lines rather than treating it as a canon.`
+      ? `${category.curated_label || category.label || category.name || 'Selected neighbourhood'} — provisional graph grouping; inspect the typed lines rather than treating it as a canon.`
       : 'Neighbourhoods are provisional graph groupings, not canonical schools or categories.';
   }
 
@@ -2117,8 +2117,8 @@
     if (select && !select.dataset.ready) {
       emergentCategories().forEach((category) => {
         const option = document.createElement('option');
-        option.value = category.id || category.category_id || '';
-        option.textContent = category.label || category.name || option.value;
+        option.value = category.curated_category_id || category.id || category.category_id || '';
+        option.textContent = category.curated_label || category.label || category.name || option.value;
         select.append(option);
       });
       select.addEventListener('change', () => applyCategory(select.value));
@@ -2146,6 +2146,8 @@
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', initConstellationControls);
   else initConstellationControls();
 })();
+
+
 
 
 

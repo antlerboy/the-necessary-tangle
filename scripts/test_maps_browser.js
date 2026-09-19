@@ -46,6 +46,23 @@ async function main(){
     const response=await context.request.get(base+'/prior-maps/coexplorer/source-review.json');
     assert.equal(response.status(),200);assert.equal((await response.json()).sources.length,9);
     await page.screenshot({path:path.join(output,'review-'+width+'.png'),fullPage:true});
+    await page.goto(base+'/#view=map&depth=all',{waitUntil:'load'});
+    const categories=await page.evaluate(()=>window.TANGLE_DATA.emergent_categories);
+    assert.equal(categories.length,6);
+    const select=page.locator('#mapCategory');
+    const options=await select.locator('option').evaluateAll(items=>items.map(item=>({value:item.value,label:item.textContent})));
+    assert.equal(options.length,categories.length+1);
+    assert.equal(new Set(options.map(item=>item.value)).size,options.length);
+    assert(options.slice(1).every(item=>item.value&&item.label.trim()));
+    assert(await page.locator('#graphSvg [data-id]').count()>0);
+    for(const category of categories){
+      await select.selectOption(category.curated_category_id);
+      assert((await page.locator('#mapCategoryNote').textContent()).includes(category.curated_label));
+      assert(await page.locator('#graphSvg').evaluate((svg,members)=>Array.from(svg.querySelectorAll('[data-id]')).every(node=>node.classList.contains('category-halo')===members.includes(node.dataset.id)&&node.classList.contains('category-muted')===!members.includes(node.dataset.id)),category.member_node_ids));
+    }
+    await select.selectOption('');
+    assert.equal(await page.locator('#graphSvg .category-halo,#graphSvg .category-muted').count(),0);
+    report.checks.push({route:'/#view=map',width,categoryOptions:true,categoryMembership:true,categoryReset:true});
     await context.close();
   }
   assert.deepEqual(report.errors,[]);report.status='passed';

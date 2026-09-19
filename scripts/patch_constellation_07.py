@@ -68,7 +68,7 @@ APPEND_JS = r'''
   }
 
   function applyCategory(categoryId) {
-    const category = emergentCategories().find((item) => (item.id || item.category_id) === categoryId);
+    const category = emergentCategories().find((item) => (item.curated_category_id || item.id || item.category_id) === categoryId);
     const members = categoryMembers(category);
     const svg = document.getElementById('graphSvg');
     if (svg) {
@@ -80,7 +80,7 @@ APPEND_JS = r'''
     }
     const note = document.getElementById('mapCategoryNote');
     if (note) note.textContent = category
-      ? `${category.label || category.name || 'Selected neighbourhood'} — provisional graph grouping; inspect the typed lines rather than treating it as a canon.`
+      ? `${category.curated_label || category.label || category.name || 'Selected neighbourhood'} — provisional graph grouping; inspect the typed lines rather than treating it as a canon.`
       : 'Neighbourhoods are provisional graph groupings, not canonical schools or categories.';
   }
 
@@ -89,8 +89,8 @@ APPEND_JS = r'''
     if (select && !select.dataset.ready) {
       emergentCategories().forEach((category) => {
         const option = document.createElement('option');
-        option.value = category.id || category.category_id || '';
-        option.textContent = category.label || category.name || option.value;
+        option.value = category.curated_category_id || category.id || category.category_id || '';
+        option.textContent = category.curated_label || category.label || category.name || option.value;
         select.append(option);
       });
       select.addEventListener('change', () => applyCategory(select.value));
@@ -181,6 +181,12 @@ def main() -> None:
     app = APP.read_text(encoding="utf-8")
     if "function zoomMapAt" not in app and "semanticZoomBand" not in app:
         app = app.rstrip() + "\n" + APPEND_JS.strip() + "\n"
+    # Match the maintained category schema, including already-present controls.
+    if "item.curated_category_id" not in app:
+        app = app.replace('(item.id || item.category_id) === categoryId', '(item.curated_category_id || item.id || item.category_id) === categoryId')
+        app = app.replace("category.label || category.name || 'Selected neighbourhood'", "category.curated_label || category.label || category.name || 'Selected neighbourhood'")
+        app = app.replace("category.id || category.category_id || ''", "category.curated_category_id || category.id || category.category_id || ''")
+        app = app.replace('category.label || category.name || option.value', 'category.curated_label || category.label || category.name || option.value')
     APP.write_text(clean(app), encoding="utf-8")
 
     css = CSS.read_text(encoding="utf-8") if CSS.exists() else ""

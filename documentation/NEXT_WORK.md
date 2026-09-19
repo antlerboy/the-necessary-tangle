@@ -83,6 +83,11 @@ The older-queue reconciliation found that membership-and-permissions.md incorrec
 
 Verification correction: the historical release-22 rebuild restores sources/release-22/reader-base.html after the earlier participation template. Added the same notice to that owned reader base so it survives the full build. No canonical graph content changes.
 
+
+## Neighbourhood selector repair, 19 September 2026
+
+Authorised by the comprehensive website review. The live map selector reads id/category_id and label/name while all six maintained emergent categories use curated_category_id and curated_label. Repair only identifier/label lookup in scripts/patch_constellation_07.py and its generated docs/assets/app.js. Preserve older supported field names, canonical data, source permissions, and existing map controls. Add a browser regression in scripts/test_maps_browser.js for all six distinct non-empty options, correct selection notes and member highlighting, and reset at desktop/mobile widths. Run the full repository gate, publish only after required browser checks pass, and verify live identity. Stop by 09:00 BST; do not claim unpublished or failed work complete.
+
 ## Systems methods practice, 7 September 2026
 
 26 original practice pages; 42 source-labelled resource routes; 746 public atlas entries after the additive resource integration. All 13 core approaches and three theory rows have an explicit rehearsal, with depth limits. Ten further pages support systemic inquiry and intervention.
