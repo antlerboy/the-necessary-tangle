@@ -18,6 +18,8 @@ HELPER = """  // map-dimensions-26-start
 
 """
 REPLACEMENTS = [
+    ("    if (node.entity_type === 'publication') {", "    if (['publication', 'source'].includes(node.entity_type)) {"),
+    ("neighbour || overviewAnchors.has(node.id) ? 2 : 1;", "neighbour || (wideView && overviewAnchors.has(node.id)) ? 2 : 1;"),
     ("    document.addEventListener('fullscreenchange', () => {", "    window.addEventListener('resize', () => { if (baseView === 'map') updateMapSemanticZoom(); });\n    document.addEventListener('fullscreenchange', () => {"),
     ("        if (!substantiveEdge(edge)) continue;\n        const other = edge.source === id ? edge.target : edge.source;\n        if (!ids.has(other)", "        if (!edgeInLayer(edge) || ($('mapFamily').value !== 'all' && edge.relation_family !== $('mapFamily').value)) continue;\n        const other = edge.source === id ? edge.target : edge.source;\n        if (!ids.has(other)"),
     ("    human: 'Human transmission',", "    human: 'Human transmission',\n    teaching: 'Teaching and learning',"),

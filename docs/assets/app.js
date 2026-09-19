@@ -1045,7 +1045,7 @@
     const title = `<title>${esc(node.label)}</title>`;
     const organisational = new Set(['person', 'organisation', 'corpus', 'comparator_corpus', 'event']);
     const practical = new Set(['method_or_methodology', 'approach_family', 'practice', 'tool', 'intervention_skill', 'technology']);
-    if (node.entity_type === 'publication') {
+    if (['publication', 'source'].includes(node.entity_type)) {
       return `<rect class="graph-node node-publication" x="${position.x - radius}" y="${position.y - radius}" width="${radius * 2}" height="${radius * 2}" fill="${fill}">${title}</rect>`;
     }
     if (organisational.has(node.entity_type)) {
@@ -1366,7 +1366,7 @@
       const radius = node.id === mapFocus ? 13 : node.publication_level === 'profile' ? 10 : 7;
       const inPath = mapPath.includes(node.id);
       const neighbour = focusNeighbours.has(node.id);
-      const labelPriority = node.id === mapFocus || inPath ? 3 : neighbour || overviewAnchors.has(node.id) ? 2 : 1;
+      const labelPriority = node.id === mapFocus || inPath ? 3 : neighbour || (wideView && overviewAnchors.has(node.id)) ? 2 : 1;
       const showLabel = !dense || labelPriority >= 2;
       const contextNode = wideView && node.id !== mapFocus && !neighbour && !inPath;
       const labelAnchor = position.x < 600 ? 'end' : 'start';
@@ -2193,6 +2193,8 @@
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', initConstellationControls);
   else initConstellationControls();
 })();
+
+
 
 
 

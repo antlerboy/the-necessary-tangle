@@ -63,7 +63,9 @@ async function main(){
   await page.locator('#mapLayer').selectOption('human');
   await page.locator('#mapFamily').selectOption('teaching');
   await page.locator('#pathFrom').fill('Benjamin P Taylor');
+  await page.locator('#pathFrom').press('Enter');
   await page.locator('#pathTo').fill('Viable System Model');
+  await page.locator('#pathTo').press('Enter');
   await page.locator('#findPath').click();
   assert.equal(await page.locator('#mapDepth').inputValue(),'path');
   assert(await page.locator('#pathResult').textContent().then(s=>s.includes('Benjamin P Taylor')&&s.includes('Viable System Model')));
