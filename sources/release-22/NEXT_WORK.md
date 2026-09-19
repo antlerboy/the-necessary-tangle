@@ -52,7 +52,7 @@ Verification found four underspecified descriptions in the September builder; th
 
 ## Submitted map review, 19 September 2026
 
-Status: initial comparison published and verified in Actions 35429085166. A bounded source-access amendment follows new ordinary-browser evidence; final 150-command gate and publication checks pending. Authorised by the overnight website-review request.
+Status: release 0.25 published and verified, including the Anselm source-access amendment, at commit 6cd5d979275a395c0c558d7e32b4519b5a9916cb. All 150 local gate commands, GitHub build, desktop/mobile browser checks, exact live identity, and post-publication checks passed (Actions 35429521843). Backup 35429521848 succeeded. This packet is complete within its stated scope. Authorised by the overnight website-review request.
 
 Outcome: publish release 0.25 with one reader comparison of the three CoExplorer maps and two submitted Anselm reading lists, precise source-access records, and a comparison of relation meanings. Credit Peter Tuddenham, the College of Exploration, and the CoExplorer project through their own attribution page. Separate checked map descriptions, primary-paper passages, editorial comparisons, and unread sources.
 
@@ -66,3 +66,15 @@ Acceptance: full make validate equivalent; source-status and graph-invariance as
 ## Anselm source-access amendment, 19 September 2026
 
 Both submitted articles became readable through ordinary Chrome access at about 08:27 BST. No access restriction was bypassed. Amend the existing 0.25 source records and reader page to reflect the actual reading, compare purpose and operability with map genealogy, and distinguish reading recommendations from verification of the works recommended. Record Anselm Hook's stated AI assistance for the field guide. Preserve all canonical records, source-owner rights, and the original chapter's unread status. This is newly available evidence within the authorised five-URL packet. Run the full gate and required mobile/desktop publication checks; stop on successful final verification.
+
+
+## Older-queue reconciliation, 19 September 2026
+
+Authorised by the overnight website review. Read-only comparison of issues 3–12, 68, 71, 78, and 79 against the current public pages and graph. Record precise existing coverage and remaining acceptance conditions in the private website-review ledger. No new corpus imports, relation claims, membership grants, or permission changes. Stop after this bounded reconciliation; no new implementation or full validation run is warranted unless a verified defect is changed.
+
+
+## Verified participation-policy correction, 19 September 2026
+
+The older-queue reconciliation found that membership-and-permissions.md incorrectly describes triage and maintain as normally grantable roles while this repository remains personally owned. The public participation panel omits that limitation. Correct only the policy and reader notice, preserving application behaviour and actual access settings. Scope: documentation/membership-and-permissions.md, scripts/patch_constellation_07.py, its docs/index.html output, and this packet. Verify against GitHub's current personal-repository permission documentation, run the full gate, and inspect the live contribution notice. No role applications are accepted, no access is granted, and no organisation transfer is performed. Stop after the corrected guidance is live and verified.
+
+Verification correction: the historical release-22 rebuild restores sources/release-22/reader-base.html after the earlier participation template. Added the same notice to that owned reader base so it survives the full build. No canonical graph content changes.

@@ -26,7 +26,7 @@ MAP_CONTROLS = '''
 MEMBERSHIP = '''
         <article class="plain-panel wide membership-panel">
           <h2>Take part in the tangle</h2>
-          <p>The atlas has different participation roles. Contributions remain attributable, reviewable and subject to curator acceptance. Automated assistance requires a named human sponsor.</p>
+          <p>The atlas has different participation roles. Contributions remain attributable, reviewable and subject to curator acceptance. Automated assistance requires a named human sponsor.</p><p id="participation-access-note">Applying to take part does not grant publishing access. The repository is currently owned by a personal GitHub account, so its project roles describe responsibilities rather than separate technical permission levels. Contributions normally arrive through public issues or a fork and pull request. <a href="https://github.com/antlerboy/the-necessary-tangle/blob/main/documentation/membership-and-permissions.md">Read the participation and access policy</a>.</p>
           <form id="membershipForm" class="membership-grid">
             <label>How would you like to take part?
               <select name="role" required>
