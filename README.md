@@ -127,3 +127,7 @@ Public contributions and responses are visible at <https://transduction.systems/
 ## Release 0.24
 
 Release 0.24 adds seven profiles and twelve scoped statements from eight primary public records. There are now 785 canonical public entries. The wider submissions and independent specialist review remain open. See https://transduction.systems/updates/2026-09-18/ and sources/intake-2026-09-18/entries.json. The approved Systemic Evolution files retain their exact checksums.
+
+## Release 0.25
+
+Release 0.25 adds a source-scoped CoExplorer comparison and records the two unread Anselm submissions. Canonical graph counts remain 785 public entries, 912 total nodes, 2,112 statements, 315 sources, and 173 profiles. No new canonical claims or complete external datasets are imported. See https://transduction.systems/prior-maps/coexplorer/ and sources/maps-2026-09-19/. Dataset reconciliation and specialist review remain open.

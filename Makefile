@@ -1,6 +1,6 @@
 .PHONY: build build-base apply-current apply-practice validate serve clean
 
-build: build-base apply-current apply-practice apply-september apply-intake
+build: build-base apply-current apply-practice apply-september apply-intake apply-maps
 
 # Historical validators assert historical release identifiers. Rebuild that
 # baseline, run its gates, then apply and validate the current release.
@@ -144,6 +144,15 @@ validate: build-base
 	python3 scripts/validate_public.py
 	python3 scripts/validate_intake_20260918.py
 	./scripts/check_javascript.sh
+	$(MAKE) apply-maps
+	python3 scripts/validate_public.py
+	python3 scripts/validate_maps_review.py
+
+apply-maps:
+	python3 scripts/apply_maps_review.py
+	python3 scripts/build_public_knowledge.py
+	python3 scripts/ensure_feedback_controls.py
+	python3 scripts/build_living_mark_images.py
 
 apply-intake:
 	python3 scripts/apply_intake_20260918.py

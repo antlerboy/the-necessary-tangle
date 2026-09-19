@@ -4,21 +4,27 @@ Added 45 typed, source-scoped statements; OCAD reading entrance, FEM application
 
 # Tangle state
 
+## Map comparison, 19 September 2026
+
+Release 0.25 adds a source-scoped CoExplorer comparison and records the two unread Anselm submissions. Canonical graph counts remain 785 public entries, 912 total nodes, 2,112 statements, 315 sources, and 173 profiles. No new canonical claims or complete external datasets are imported. See https://transduction.systems/prior-maps/coexplorer/ and sources/maps-2026-09-19/. Dataset reconciliation and specialist review remain open.
+
+
 ## Source intake, 18 September 2026
 
 Release 0.24 adds seven profiles and twelve scoped statements from eight primary public records. There are now 785 canonical public entries. The wider submissions and independent specialist review remain open. See https://transduction.systems/updates/2026-09-18/ and sources/intake-2026-09-18/entries.json. The approved Systemic Evolution files retain their exact checksums.
 
 
+Earlier release verification: 6 September 2026 (anonymous event submission receipt). Current publication checks are recorded in the active work packet.
 
 ## Release and publication
 
-- Release: `0.22`; publication explicitly authorised on 5 September 2026.
+- Release: `0.25`; publication authorised by the overnight website review.
 - Live deployment identity: https://transduction.systems/deployment.json
-- Public change digest: https://transduction.systems/updates/0.22/
+- Public change digest: https://transduction.systems/prior-maps/coexplorer/
 - Public site: https://transduction.systems/
 - Machine relationship snapshot: `data/relationship-quality.json`
-- Canonical public entries: 719; developed profiles: 137; public sources: 224.
-- Graph records: 846; typed statements: 1,987; guided journeys: 24.
+- Canonical public entries: 785; developed profiles: 173; public sources: 315.
+- Graph records: 912; typed statements: 2,112. Other historical metrics below retain their stated release scope.
 - Preserved Systemic Evolution comparator: 650 nodes and 1,320 source-reported links.
 - Systemic Evolution review archive SHA-256: `cc0aaa4adc58a91c56f04555d5cd6885d025cdf4d546e4da8e7a692ce55c3cf6`.
 - Castellani current source links: 307; counted-map aggregate links: 1,856.

@@ -1,7 +1,7 @@
 # The Necessary Tangle: public knowledge file
 
 Curated by Benjamin P Taylor — https://www.antlerboy.com/
-Generated from public release 0.24-source-intake-alpha on 2026-09-18.
+Generated from public release 0.25 on 2026-09-19.
 
 A living evidence atlas of systems | cybernetics | complexity.
 Every connection must say what it means. Historical sequence, logical dependence, influence, teaching, collaboration, practical use, comparison and dispute are not interchangeable.

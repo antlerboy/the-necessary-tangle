@@ -37,7 +37,7 @@ jobs:
       - name: Test practice pages before publication
         env:
           NODE_PATH: /tmp/practice-browser/node_modules
-        run: node scripts/test_practice_browser.js && node scripts/test_practice_presentation.js && node scripts/test_intake_browser.js
+        run: node scripts/test_practice_browser.js && node scripts/test_practice_presentation.js && node scripts/test_intake_browser.js && node scripts/test_maps_browser.js
       - name: Record the exact deployed release and test summary
         env:
           DEPLOY_COMMIT: ${{ github.sha }}
@@ -68,6 +68,8 @@ jobs:
             validation/practice-browser/*.png
             validation/intake-browser/*.json
             validation/intake-browser/*.png
+            validation/maps-browser/*.json
+            validation/maps-browser/*.png
           if-no-files-found: ignore
       - name: Restore narrated Encounters film
         id: encounters-cache
@@ -145,7 +147,8 @@ jobs:
         env:
           NODE_PATH: /tmp/practice-browser/node_modules
           PRACTICE_BASE_URL: https://transduction.systems
-        run: node scripts/test_practice_browser.js && node scripts/test_practice_presentation.js
+          MAPS_BASE_URL: https://transduction.systems
+        run: node scripts/test_practice_browser.js && node scripts/test_practice_presentation.js && node scripts/test_maps_browser.js
       - name: Preserve live verification evidence and downloaded pack
         if: always()
         uses: actions/upload-artifact@v4

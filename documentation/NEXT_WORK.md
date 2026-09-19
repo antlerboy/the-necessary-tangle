@@ -42,7 +42,7 @@ Acceptance: text and layout inspection of all 43 scenes; syntax checks; the exis
 
 ## Website review: source intake, 18 September 2026
 
-Status: implementation ready for verification. The current user request authorises the review and direct publication.
+Status: published and verified as release 0.24, commit 2b5a895. The source-intake packet is complete within its stated scope.
 
 Outcome: seven source-scoped profiles for issues 70, 72, 75, 76, 77, 82, and 84, with precise claims, primary-source locators, and explicit remaining work. Publish as release 0.24 after the required checks.
 
@@ -52,6 +52,20 @@ Acceptance: repository-wide make validate equivalent; idempotence of the additiv
 
 Stop after these checks pass. Full-text reading and the wider claims remain open; do not close the submissions or imply comprehensive review.
 
+Verification found four underspecified descriptions in the September builder; these now meet the existing publishing rule. Browser review found hidden editorial provenance and malformed source years; the final renderer and source records correct these. The local Chrome viewport override did not change the inspected tab, so the publication workflow must pass the new 390px and 1440px browser gate before deploying.
+
+## Submitted map review, 19 September 2026
+
+Status: local 149-command gate passed; publication candidate awaiting required 390px/1440px browser gate and live verification. Authorised by the overnight website-review request.
+
+Outcome: publish release 0.25 with one reader comparison of the three CoExplorer maps and two submitted Anselm reading lists, precise source-access records, and a comparison of relation meanings. Credit Peter Tuddenham, the College of Exploration, and the CoExplorer project through their own attribution page. Separate checked map descriptions, primary-paper passages, editorial comparisons, and unread sources.
+
+Scope: sources/maps-2026-09-19/, scripts/apply_maps_review.py, scripts/validate_maps_review.py, scripts/test_maps_browser.js, Makefile, publication workflow, generated public projections, prior-maps/reading/updates links, sitemap, CITATION.cff, README, CHANGELOG, and durable state. Source evidence: the five submitted URLs, the CoExplorer guide and attribution page, Springer chapter metadata/abstract, and McNamara and Troncale's 2012 ISSS paper, pp. 3–4.
+
+No complete third-party dataset import, new canonical graph relationships, copied diagrams, or claims of full-text review beyond the named passages. Preserve the reviewed comparator's exact bytes. The external-map register is separate from canonical graph source coverage.
+
+Acceptance: full make validate equivalent; source-status and graph-invariance assertions; desktop/mobile comparison, source links, navigation, and feedback controls; successful deployment and exact live identity. Stop after these checks or record a named blocker. One implementation pass and at most one correction for a failed check; no agents. Wider map reconciliation remains open.
+
 ## Systems methods practice, 7 September 2026
 
 26 original practice pages; 42 source-labelled resource routes; 746 public atlas entries after the additive resource integration. All 13 core approaches and three theory rows have an explicit rehearsal, with depth limits. Ten further pages support systemic inquiry and intervention.
@@ -59,5 +73,3 @@ Stop after these checks pass. Full-text reading and the wider claims remain open
 Published route: https://transduction.systems/systems-thinking/practice/
 
 Publication is explicitly authorised. See `sources/practice-pack/PACKET.md`, the public coverage page and `documentation/practice-pack.md`. No independent specialist pedagogical review is recorded; this remains an open review task. Existing unrelated work below or above remains open.
-
-Verification found four underspecified descriptions in the September builder; these now meet the existing publishing rule. Browser review found hidden editorial provenance and malformed source years; the final renderer and source records correct these. The local Chrome viewport override did not change the inspected tab, so the publication workflow must pass the new 390px and 1440px browser gate before deploying.
