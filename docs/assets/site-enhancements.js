@@ -16,6 +16,7 @@
     practice: 'Practice and application',
     contestation: 'Confusion and disagreement',
     human: 'Human transmission',
+    teaching: 'Teaching and learning',
     identity: 'Identity and affiliation',
     documentary: 'Works, authorship and presentation',
     classification: 'Collection structure',
@@ -87,6 +88,11 @@
       #mapCardView { display: none; overflow: auto; padding: 1.15rem; height: min(72vh, 760px); background: var(--paper, #f7f1e6); }
       #graphWrap.map-card-mode #graphSvg, #graphWrap.map-card-mode .map-minimap-shell, #graphWrap.map-card-mode .map-canvas-help { display: none !important; }
       #graphWrap.map-card-mode #mapCardView { display: block; }
+      #graphWrap.map-card-mode { height: auto; min-height: 0; cursor: auto; }
+      #graphWrap.map-card-mode .map-canvas-toolbar { position: relative; inset: auto; margin: .5rem; }
+      #graphWrap.map-card-mode #mapCardView { height: auto; overflow: visible; }
+      #graphWrap.map-card-mode:fullscreen { overflow: auto; }
+      #graphWrap.map-card-mode .map-zoom-slider, #graphWrap.map-card-mode #mapScaleMode { display: none; }
       .map-card-focus { max-width: 82ch; margin: 0 auto 1.2rem; padding: 1rem 1.1rem; border: 1px solid color-mix(in srgb, currentColor 18%, transparent); border-radius: .45rem; background: color-mix(in srgb, var(--paper, #fff) 92%, currentColor 8%); }
       .map-card-focus h2 { margin: .15rem 0 .35rem; }
       .map-card-groups { display: grid; gap: 1rem; max-width: 1000px; margin: 0 auto; }
@@ -95,7 +101,11 @@
       .map-card-relations { display: grid; gap: .55rem; }
       .map-card-relation { display: grid; grid-template-columns: minmax(10rem, 1fr) minmax(9rem, auto); gap: .6rem 1rem; align-items: start; padding: .7rem .8rem; border: 1px solid color-mix(in srgb, currentColor 14%, transparent); border-radius: .35rem; background: color-mix(in srgb, var(--paper, #fff) 96%, currentColor 4%); }
       .map-card-relation p { margin: 0; }
+      .map-card-relation > p > a { text-decoration: none; }
       .map-card-relation .map-card-meta { font-size: .76rem; opacity: .72; text-align: right; }
+      .map-card-evidence { grid-column: 1 / -1; overflow-wrap: anywhere; }
+      .map-card-evidence summary { cursor: pointer; font-size: .85rem; }
+      .map-card-evidence p, .map-card-evidence ul { margin: .65rem 0; font-size: .88rem; }
       .map-card-empty { max-width: 70ch; margin: 2rem auto; }
       @media (max-width: 760px) {
         .little-rq-rule { display: block; }
@@ -290,7 +300,7 @@
       && edge.claim_status !== 'legacy_unresolved';
     if (layer === 'substantive') return substantive;
     if (layer === 'conceptual') return edge.relation_family === 'conceptual';
-    if (layer === 'human') return ['human', 'influence', 'historical'].includes(edge.relation_family);
+    if (layer === 'human') return ['human', 'teaching', 'influence', 'historical'].includes(edge.relation_family);
     if (layer === 'practice') return edge.relation_family === 'practice';
     if (layer === 'contestation') return edge.relation_family === 'contestation'
       || ['disputed', 'challenged'].includes(edge.claim_status);
@@ -387,10 +397,12 @@
               const target = publicNode(edge.target);
               const phrase = edge.plain_phrase || String(edge.relation_type || 'relates to').replace(/_/g, ' ');
               const sentence = `${source?.label || edge.source} ${phrase} ${target?.label || edge.target}`;
-              const sourceCount = parseList(edge.source_ids).map((id) => sources.get(id)).filter(Boolean).length;
+              const evidenceSources = parseList(edge.source_ids).map((id) => sources.get(id)).filter(Boolean);
+              const sourceCount = evidenceSources.length;
               return `<article class="map-card-relation">
-                <p><a href="#view=map&layer=${encodeURIComponent(layer)}&depth=1&focus=${encodeURIComponent(otherId)}"><strong>${esc(other?.label || otherId)}</strong></a><br><span>${esc(sentence)}</span></p>
+                <p><a href="#view=map&layer=${encodeURIComponent(layer)}&family=${encodeURIComponent(family)}&depth=1&focus=${encodeURIComponent(otherId)}"><strong>${esc(other?.label || otherId)}</strong></a><br><span>${esc(sentence)}</span></p>
                 <p class="map-card-meta">${esc(publicStatus(edge.claim_status))}${sourceCount ? ` · ${sourceCount} source${sourceCount === 1 ? '' : 's'}` : ''}</p>
+                <details class="map-card-evidence"><summary>Sources and wording</summary><p>${esc(edge.scope_conditions || edge.notes || 'No further scope recorded.')}</p><p>${esc(edge.source_locator || edge.evidence_locator || 'See the linked source and the full entry for the recorded evidence.')}</p><ul>${evidenceSources.map(source => `<li>${source.url && source.public_link_status === 'public_link' ? `<a href="${esc(source.url)}">${esc(source.title)}</a>` : esc(source.title)}</li>`).join('')}</ul></details>
               </article>`;
             }).join('')}
           </div>
@@ -410,9 +422,21 @@
       toggle.setAttribute('aria-pressed', String(enabled));
       toggle.textContent = enabled ? 'Graph view' : 'Card view';
       if (enabled) renderCards();
+      window.dispatchEvent(new Event('tangle-map-view-change'));
     }
 
-    toggle.addEventListener('click', () => setCardMode(!graphWrap.classList.contains('map-card-mode')));
+    let chosenView = false;
+    toggle.addEventListener('click', () => {
+      chosenView = true;
+      setCardMode(!graphWrap.classList.contains('map-card-mode'));
+    });
+    const narrowScreen = window.matchMedia('(max-width: 600px)');
+    const responsiveView = () => { if (!chosenView) setCardMode(narrowScreen.matches); };
+    narrowScreen.addEventListener('change', responsiveView);
+    responsiveView();
+    // Focus also changes through search and controls that use pushState.
+    new MutationObserver(() => window.requestAnimationFrame(renderCards))
+      .observe(document.getElementById('graphNodes'), { childList: true });
     window.addEventListener('hashchange', () => window.requestAnimationFrame(renderCards));
     document.getElementById('mapLayer')?.addEventListener('change', () => window.requestAnimationFrame(renderCards));
     document.getElementById('mapFamily')?.addEventListener('change', () => window.requestAnimationFrame(renderCards));

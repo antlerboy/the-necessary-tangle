@@ -129,6 +129,9 @@ def main():
         if anchor not in s:raise ValueError('Missing main landmark: '+name)
         s=s.replace(anchor,'<!-- library-26 -->'+section+'<!-- /library-26 -->'+anchor,1);p.write_text(s,encoding='utf-8',newline='\n')
     p=R/'docs/index.html';s=p.read_text(encoding='utf-8')
+    s=re.sub(r'assets/site-enhancements.js\?v=[^"\s]+','assets/site-enhancements.js?v=0.26',s)
+    for asset in ['app.js','public-data.js']:
+        s=re.sub(r'assets/'+re.escape(asset)+r'\?v=[^"\s]+','assets/'+asset+'?v=0.26',s)
     s=s.replace('class="shape-square" aria-hidden="true"></i>Publications','class="shape-square" aria-hidden="true"></i>Works and sources')
     if 'map-presentation.css' not in s:s=s.replace('</head>','<link rel="stylesheet" href="/assets/map-presentation.css?v=0.26">\n</head>',1)
     (R/'docs/assets/map-presentation.css').write_text((R/'sources/library-2026-09-19/map-presentation.css').read_text(encoding='utf-8'),encoding='utf-8',newline='\n')

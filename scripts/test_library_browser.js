@@ -36,6 +36,10 @@ async function main(){
   const headings=await page.locator('h1 a,h2 a,h3 a').evaluateAll(es=>es.map(e=>getComputedStyle(e).textDecorationLine));assert(headings.every(s=>s==='none'));
   await page.screenshot({path:path.join(output,'source-'+width+'.png')});
   await page.getByRole('link',{name:'Explore on the map',exact:true}).click();
+  if(width===390){
+   await page.locator('#graphWrap.map-card-mode').waitFor();
+   await page.getByRole('button',{name:'Graph view',exact:true}).click();
+  }
   await page.locator('#graphSvg [data-id]').first().waitFor();
   assert(await page.locator('#graphSvg [data-id]').count()>1);
   assert.equal(new URL(page.url()).hash.includes('layer=all'),true);
@@ -44,6 +48,7 @@ async function main(){
   assert((await page.getByRole('complementary').textContent()).includes('Five core leadership practices'));
   assert((await page.getByRole('complementary').textContent()).includes('Philip Boxer'));
   await page.getByRole('link',{name:'Place in the tangle',exact:true}).click();
+  if(width===390 && await page.locator('#mapCardToggle').getAttribute('aria-pressed')==='true') await page.getByRole('button',{name:'Graph view',exact:true}).click();
   await page.waitForURL('**/#view=map*');
   assert.equal(await page.locator('#mapDepth').inputValue(),'constellation','Entry map action preserves its advertised scale');
   assert.equal(await page.locator('#mapLayer').inputValue(),'substantive');
@@ -55,6 +60,7 @@ async function main(){
   assert(await page.locator('#graphNodes .graph-label').first().evaluate(el=>{const m=el.getScreenCTM();return parseFloat(getComputedStyle(el).fontSize)*Math.hypot(m.a,m.b)>=12;}),'Focused map labels retain readable screen size');
   assert(new URL(page.url()).hash.includes('family=teaching'),'Connection dimension is shareable');
   await page.reload({waitUntil:'networkidle'});
+  if(width===390) await page.getByRole('button',{name:'Graph view',exact:true}).click();
   assert.equal(await page.locator('#mapFamily').inputValue(),'teaching','Reload preserves the selected dimension');
   await page.locator('#mapLayer').selectOption('provenance');
   assert.equal(await page.locator('#mapFamily').inputValue(),'all','Incompatible filters reset on layer change');
@@ -74,6 +80,20 @@ async function main(){
   assert.notEqual(await page.locator('#mapZoomStatus').textContent(),beforeZoom);
   await page.locator('#mapFit').click();
   assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),'Map controls fit the viewport');
+  await page.getByRole('button',{name:'Card view',exact:true}).click();
+  assert.equal(await page.locator('#mapCardView .map-card-relation').count(),6,'Cards and graph expose the same teaching relationships');
+  assert((await page.locator('#mapCardView h3').textContent()).includes('Teaching and learning'));
+  const evidence=page.locator('#mapCardView .map-card-evidence').first();
+  await evidence.locator('summary').click();
+  assert(await evidence.locator('a[href^="https://antlerboy.com/library/files/"]').count()>0,'Connection cards expose the actual source');
+  await evidence.locator('summary').click();
+  await page.locator('#graphWrap').scrollIntoViewIfNeeded();
+  await page.screenshot({path:path.join(output,'connections-'+width+'.png')});
+  await page.locator('#mapCardView .map-card-relation > p > a').filter({hasText:'Systems leadership'}).click();
+  await page.waitForFunction(()=>document.querySelector('#mapCardView h2')?.textContent==='Systems leadership');
+  assert(new URL(page.url()).hash.includes('family=teaching'));
+  assert((await page.locator('#mapCardView h2').textContent()).includes('Systems leadership'));
+  assert(await page.locator('#mapCardView .map-card-relation').count()>0,'Reciprocal teaching links remain available');
   report.checks.push({width,teachingLayer:true,authorshipFilter:true,shareableDimension:true,filterRecovery:true,pathFinder:true,zoomAndFit:true});
   await context.close();
  }

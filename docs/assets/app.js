@@ -2016,6 +2016,7 @@
       } catch (_) { /* Fullscreen may be blocked by the browser. */ }
     });
     window.addEventListener('resize', () => { if (baseView === 'map') updateMapSemanticZoom(); });
+    window.addEventListener('tangle-map-view-change', updateMapSemanticZoom);
     document.addEventListener('fullscreenchange', () => {
       const button = $('mapFullscreen');
       if (!button) return;
@@ -2193,6 +2194,10 @@
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', initConstellationControls);
   else initConstellationControls();
 })();
+
+
+
+
 
 
 

@@ -55,6 +55,10 @@ LABEL_HELPER = """  // map-labels-26-start
 
 """
 REPLACEMENTS.append(("  function renderMap(options = {}) {", LABEL_HELPER + "  function renderMap(options = {}) {"))
+REPLACEMENTS.append((
+    "    window.addEventListener('resize', () => { if (baseView === 'map') updateMapSemanticZoom(); });",
+    "    window.addEventListener('resize', () => { if (baseView === 'map') updateMapSemanticZoom(); });\n    window.addEventListener('tangle-map-view-change', updateMapSemanticZoom);",
+))
 
 def patch(text):
     for before, after in REPLACEMENTS:
