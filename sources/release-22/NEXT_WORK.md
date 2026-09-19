@@ -52,7 +52,7 @@ Verification found four underspecified descriptions in the September builder; th
 
 ## Submitted map review, 19 September 2026
 
-Status: local 149-command gate passed; publication candidate awaiting required 390px/1440px browser gate and live verification. Authorised by the overnight website-review request.
+Status: initial comparison published and verified in Actions 35429085166. A bounded source-access amendment follows new ordinary-browser evidence; final 150-command gate and publication checks pending. Authorised by the overnight website-review request.
 
 Outcome: publish release 0.25 with one reader comparison of the three CoExplorer maps and two submitted Anselm reading lists, precise source-access records, and a comparison of relation meanings. Credit Peter Tuddenham, the College of Exploration, and the CoExplorer project through their own attribution page. Separate checked map descriptions, primary-paper passages, editorial comparisons, and unread sources.
 
@@ -61,3 +61,8 @@ Scope: sources/maps-2026-09-19/, scripts/apply_maps_review.py, scripts/validate_
 No complete third-party dataset import, new canonical graph relationships, copied diagrams, or claims of full-text review beyond the named passages. Preserve the reviewed comparator's exact bytes. The external-map register is separate from canonical graph source coverage.
 
 Acceptance: full make validate equivalent; source-status and graph-invariance assertions; desktop/mobile comparison, source links, navigation, and feedback controls; successful deployment and exact live identity. Stop after these checks or record a named blocker. One implementation pass and at most one correction for a failed check; no agents. Wider map reconciliation remains open.
+
+
+## Anselm source-access amendment, 19 September 2026
+
+Both submitted articles became readable through ordinary Chrome access at about 08:27 BST. No access restriction was bypassed. Amend the existing 0.25 source records and reader page to reflect the actual reading, compare purpose and operability with map genealogy, and distinguish reading recommendations from verification of the works recommended. Record Anselm Hook's stated AI assistance for the field guide. Preserve all canonical records, source-owner rights, and the original chapter's unread status. This is newly available evidence within the authorised five-URL packet. Run the full gate and required mobile/desktop publication checks; stop on successful final verification.

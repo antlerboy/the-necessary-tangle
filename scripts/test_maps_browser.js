@@ -34,7 +34,7 @@ async function main(){
       await page.locator('a[href="/prior-maps/coexplorer/"]').click();
       await page.getByRole('heading',{name:'Reading the CoExplorer maps',exact:true}).waitFor();
       assert.equal(await page.locator('article.source').count(),9);
-      assert.equal(await page.locator('.status').filter({hasText:'Submitted; unread (HTTP 403)'}).count(),2);
+      assert.equal(await page.locator('.status').filter({hasText:'Article read through ordinary browser; individual entries unverified'}).count(),2);
       assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),'Overflow: '+width);
       assert(await page.getByRole('link',{name:'Open updates',exact:true}).isVisible());
       report.checks.push({route,width,navigation:true,sourceLabels:true,containment:true});

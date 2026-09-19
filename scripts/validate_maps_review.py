@@ -25,7 +25,7 @@ for name,sha in [('comparator-systemic-evolution.json',COMPARATOR_SHA256),('syst
     assert hashlib.sha256(original).hexdigest()==sha
     assert original==(root/'docs/assets'/name).read_bytes()
 assert len(packet['sources'])==9
-assert len([s for s in packet['sources'] if 'unread (HTTP 403)' in s['access']])==2
+assert len([s for s in packet['sources'] if s['id'].startswith('anselm-') and s['access']=='Article read through ordinary browser; individual entries unverified'])==2
 class Links(HTMLParser):
     def __init__(self):super().__init__();self.links=[]
     def handle_starttag(self,tag,attrs):
@@ -33,6 +33,8 @@ class Links(HTMLParser):
 page=(root/'docs/prior-maps/coexplorer/index.html').read_text(encoding='utf-8')
 assert 'Independent specialist review is not recorded' in page
 assert 'Open updates' in page and 'Peter Tuddenham' in page
+assert 'People to encounter, things to try' in page and 'substantial AI assistance' in page
+assert 'Submitted; unread (HTTP 403)' not in page
 assert 'Curt McNamara' in page and 'full chapter remains unread' in page
 parser=Links();parser.feed(page)
 for href in parser.links:

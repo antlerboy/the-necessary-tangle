@@ -15,7 +15,7 @@ def main():
     data['map_source_review'] = packet
     data['meta'].update(release=packet['release'], generated=DATE, release_digest_url=URL,
         latest_map_review_url=URL, iteration_focus='Submitted map comparison and evidence boundaries',
-        release_note='Three map descriptions, two unread reading lists, and a scoped primary-paper comparison. Canonical graph unchanged.')
+        release_note='Three map descriptions, two curated reading routes, and a scoped primary-paper comparison. Canonical graph unchanged.')
     for key in ['reading_list_inventory', 'reading_list_coverage', 'core_systems_practice', 'relational_depth', 'ai_observations']:
         data[key]['release'] = packet['release']
     write(data)
@@ -41,7 +41,7 @@ def main():
     path=ROOT/'docs/sitemap.xml';text=path.read_text(encoding='utf-8')
     if URL not in text:text=text.replace('</urlset>','<url><loc>'+URL+'</loc><lastmod>'+DATE+'</lastmod></url></urlset>')
     path.write_text(text,encoding='utf-8',newline='\n')
-    note='Release 0.25 adds a source-scoped CoExplorer comparison and records the two unread Anselm submissions. Canonical graph counts remain 785 public entries, 912 total nodes, 2,112 statements, 315 sources, and 173 profiles. No new canonical claims or complete external datasets are imported. See '+URL+' and sources/maps-2026-09-19/. Dataset reconciliation and specialist review remain open.'
+    note='Release 0.25 adds a source-scoped CoExplorer comparison and compares the two Anselm articles, with their individual recommendations still unverified. Canonical graph counts remain 785 public entries, 912 total nodes, 2,112 statements, 315 sources, and 173 profiles. No new canonical claims or complete external datasets are imported. See '+URL+' and sources/maps-2026-09-19/. Dataset reconciliation and specialist review remain open.'
     for name,heading in [('README.md','## Release 0.25'),('CHANGELOG.md','## 0.25 - 19 September 2026')]:
         path=ROOT/name;text=path.read_text(encoding='utf-8')
         if heading not in text:path.write_text(text.rstrip()+'\n\n'+heading+'\n\n'+note+'\n',encoding='utf-8',newline='\n')

@@ -113,7 +113,7 @@
     "counted_map_link_count": 1856,
     "counted_map_raw_reference_string_count_published": 0,
     "nigel_williams_contribution_url": "https://transduction.systems/contributors/nigel-williams/",
-    "release_note": "Three map descriptions, two unread reading lists, and a scoped primary-paper comparison. Canonical graph unchanged.",
+    "release_note": "Three map descriptions, two curated reading routes, and a scoped primary-paper comparison. Canonical graph unchanged.",
     "systemic_evolution_review_package": "systemic-evolution-2026-08-26-review-1",
     "systemic_evolution_review_archive_sha256": "cc0aaa4adc58a91c56f04555d5cd6885d025cdf4d546e4da8e7a692ce55c3cf6",
     "systemic_evolution_source_owner_reviewed_at": "2026-08-31",
@@ -126,8 +126,8 @@
     "practice_lab_count": 26,
     "connection_pass": "september_connections_2026",
     "connection_pass_url": "https://transduction.systems/updates/2026-09-09/",
-    "latest_intake_url": "https://transduction.systems/updates/2026-09-18/",
-    "latest_map_review_url": "https://transduction.systems/prior-maps/coexplorer/"
+    "latest_map_review_url": "https://transduction.systems/prior-maps/coexplorer/",
+    "latest_intake_url": "https://transduction.systems/updates/2026-09-18/"
   },
   "nodes": [
     {
@@ -115971,6 +115971,88 @@
     "caution": "A guest appearance or co-occurrence is not evidence of influence, agreement, priority or truth.",
     "deep_review_status": "staged_by_question_and_existing_atlas_gap"
   },
+  "map_source_review": {
+    "release": "0.25",
+    "checked": "2026-09-19",
+    "issue_url": "https://github.com/antlerboy/the-necessary-tangle/issues/2",
+    "status": "source_comparison_published; dataset_reconciliation_open",
+    "editorial_status": "Prepared with AI assistance. Independent specialist review is not recorded.",
+    "sources": [
+      {
+        "id": "cybernetics-map",
+        "title": "CoExplorer cybernetics map",
+        "url": "https://cybernetics.coexplorer.org/index.html",
+        "access": "Page read; underlying dataset not audited",
+        "locator": "Home-page counters and explorer link",
+        "note": "The home page displays 217 concepts, 287 relationships, and seven thinkers; its explorer link says 312 concepts. These are displayed claims, not a reconciled dataset count."
+      },
+      {
+        "id": "systems-map",
+        "title": "CoExplorer systems map",
+        "url": "https://systems.coexplorer.org/index.html",
+        "access": "Page read; underlying dataset not audited",
+        "locator": "Knowledge traditions and genealogy explanation",
+        "note": "This map distinguishes knowledge traditions and a Western genealogy. Its account of earlier regulatory practices does not by itself establish a historical transmission into later cybernetics."
+      },
+      {
+        "id": "troncale-map",
+        "title": "CoExplorer Troncale map",
+        "url": "https://systems.coexplorer.org/troncale.html",
+        "access": "Page read; cited internal documents unavailable",
+        "locator": "Principal concepts, concept packets, counters, and source notes",
+        "note": "Its text describes 57 concepts, 142 linkage propositions, and eight concept packets, while counters show 51 and 129+. A packet is a grouping of concepts. The historical totals and displayed subset need separate reconciliation."
+      },
+      {
+        "id": "anselm-guide",
+        "title": "Anselm Hook: A field guide to the systems thinkers (11 September 2026)",
+        "url": "https://anselm.substack.com/p/a-field-guide-to-the-systems-thinkers",
+        "access": "Article read through ordinary browser; individual entries unverified",
+        "locator": "Introduction; organising questions; field collectors; omissions",
+        "note": "The guide groups thinkers by purpose and by whether an outsider can use their model, tool, or practice. Hook states that it was largely compiled with AI assistance and suggestions from friends. It is a curated discovery aid, not primary verification of its historical or biographical claims. Its inclusion of Tangle is not independent validation of this atlas."
+      },
+      {
+        "id": "anselm-media",
+        "title": "Anselm Hook: Systems thinking media to consume (10 September 2026)",
+        "url": "https://anselm.substack.com/p/systems-thinking-media-to-consume",
+        "access": "Article read through ordinary browser; individual entries unverified",
+        "locator": "Suggested starting route; reading, viewing, listening, and tools",
+        "note": "The list combines introductory reading with lectures, podcasts, simulations, and tools. Reading the list does not mean its recommended books have been read, recordings watched, or tools tested. Individual recommendations remain candidates for source-level review."
+      },
+      {
+        "id": "coexplorer-guide",
+        "title": "CoExplorer knowledge-graph guide",
+        "url": "https://cybernetics.coexplorer.org/guide.html",
+        "access": "Page read; individual relationship examples not primary-verified",
+        "locator": "The 12 relationship types; five dimensions",
+        "note": "The guide instead gives 408 concepts, six thinkers, and 283 relationships. Its twelve relation types distinguish logical dependence, levels of abstraction, possibilities and limits, comparison, and functional or cross-author connections. The counts conflict with the home page."
+      },
+      {
+        "id": "coexplorer-credit",
+        "title": "Peter Tuddenham: CoExplorer cybernetics modules",
+        "url": "https://coexplorer.org/modules/cybernetics/",
+        "access": "Attribution and rights statement checked",
+        "locator": "Project credits and copyright notice",
+        "note": "Credits Peter Tuddenham, the College of Exploration, and the CoExplorer project. The page permits quotation and teaching use and requires permission for commercial reproduction. This review links to the project; it does not reproduce its maps, modules, or datasets."
+      },
+      {
+        "id": "troncale-1978",
+        "title": "L. Raphael Troncale: Linkage Propositions between Fifty Principal Systems Concepts (1978)",
+        "url": "https://link.springer.com/chapter/10.1007/978-1-4757-0555-3_2",
+        "access": "Publisher metadata, abstract, and references read; full chapter unread",
+        "locator": "Abstract; chapter pp. 29–52; DOI 10.1007/978-1-4757-0555-3_2",
+        "note": "The abstract identifies fragmented terminology and the need to organise relations among systems concepts. The chapter title's 'Fifty' does not independently verify any map's numerical totals. The author-hosted full text could not be retrieved."
+      },
+      {
+        "id": "mcnamara-troncale-2012",
+        "title": "Curt McNamara and Len Troncale: SPT II, How to Find and Map Linkage Propositions (2012)",
+        "url": "https://journals.isss.org/index.php/proceedings56th/article/view/2153",
+        "pdf_url": "https://journals.isss.org/index.php/proceedings56th/article/viewFile/2153/679",
+        "access": "Abstract and criteria passage read; not a full-paper review",
+        "locator": "PDF pp. 3–4, What is a Linkage Proposition? Criteria for LPs",
+        "note": "The authors distinguish a particular observed relation from its proposed wider applicability. A proposition specifies systems processes and an operator; its direction may be one-way or mutual. They require experimental or simulation evidence in a manifest system and further work to establish the range of validity. Their paper therefore does not make every mapped proposition a universal law."
+      }
+    ]
+  },
   "early_cybernetics_corpus": {
     "release": "0.22",
     "captured": "2026-09-05",
@@ -118352,87 +118434,5 @@
     ],
     "scope": "Seven profiles and twelve specific statements; wider submissions remain open.",
     "independent_review": "not_recorded"
-  },
-  "map_source_review": {
-    "release": "0.25",
-    "checked": "2026-09-19",
-    "issue_url": "https://github.com/antlerboy/the-necessary-tangle/issues/2",
-    "status": "source_comparison_published; dataset_reconciliation_open",
-    "editorial_status": "Prepared with AI assistance. Independent specialist review is not recorded.",
-    "sources": [
-      {
-        "id": "cybernetics-map",
-        "title": "CoExplorer cybernetics map",
-        "url": "https://cybernetics.coexplorer.org/index.html",
-        "access": "Page read; underlying dataset not audited",
-        "locator": "Home-page counters and explorer link",
-        "note": "The home page displays 217 concepts, 287 relationships, and seven thinkers; its explorer link says 312 concepts. These are displayed claims, not a reconciled dataset count."
-      },
-      {
-        "id": "systems-map",
-        "title": "CoExplorer systems map",
-        "url": "https://systems.coexplorer.org/index.html",
-        "access": "Page read; underlying dataset not audited",
-        "locator": "Knowledge traditions and genealogy explanation",
-        "note": "This map distinguishes knowledge traditions and a Western genealogy. Its account of earlier regulatory practices does not by itself establish a historical transmission into later cybernetics."
-      },
-      {
-        "id": "troncale-map",
-        "title": "CoExplorer Troncale map",
-        "url": "https://systems.coexplorer.org/troncale.html",
-        "access": "Page read; cited internal documents unavailable",
-        "locator": "Principal concepts, concept packets, counters, and source notes",
-        "note": "Its text describes 57 concepts, 142 linkage propositions, and eight concept packets, while counters show 51 and 129+. A packet is a grouping of concepts. The historical totals and displayed subset need separate reconciliation."
-      },
-      {
-        "id": "anselm-guide",
-        "title": "Anselm's field guide to systems thinkers",
-        "url": "https://anselm.substack.com/p/a-field-guide-to-the-systems-thinkers",
-        "access": "Submitted; unread (HTTP 403)",
-        "locator": "Submitted URL only",
-        "note": "No description of the article's argument, coverage, or recommendations is inferred from its title."
-      },
-      {
-        "id": "anselm-media",
-        "title": "Anselm's systems-thinking media list",
-        "url": "https://anselm.substack.com/p/systems-thinking-media-to-consume",
-        "access": "Submitted; unread (HTTP 403)",
-        "locator": "Submitted URL only",
-        "note": "The reading and viewing recommendations have not been checked or added to the atlas as reviewed sources."
-      },
-      {
-        "id": "coexplorer-guide",
-        "title": "CoExplorer knowledge-graph guide",
-        "url": "https://cybernetics.coexplorer.org/guide.html",
-        "access": "Page read; individual relationship examples not primary-verified",
-        "locator": "The 12 relationship types; five dimensions",
-        "note": "The guide instead gives 408 concepts, six thinkers, and 283 relationships. Its twelve relation types distinguish logical dependence, levels of abstraction, possibilities and limits, comparison, and functional or cross-author connections. The counts conflict with the home page."
-      },
-      {
-        "id": "coexplorer-credit",
-        "title": "Peter Tuddenham: CoExplorer cybernetics modules",
-        "url": "https://coexplorer.org/modules/cybernetics/",
-        "access": "Attribution and rights statement checked",
-        "locator": "Project credits and copyright notice",
-        "note": "Credits Peter Tuddenham, the College of Exploration, and the CoExplorer project. The page permits quotation and teaching use and requires permission for commercial reproduction. This review links to the project; it does not reproduce its maps, modules, or datasets."
-      },
-      {
-        "id": "troncale-1978",
-        "title": "L. Raphael Troncale: Linkage Propositions between Fifty Principal Systems Concepts (1978)",
-        "url": "https://link.springer.com/chapter/10.1007/978-1-4757-0555-3_2",
-        "access": "Publisher metadata, abstract, and references read; full chapter unread",
-        "locator": "Abstract; chapter pp. 29–52; DOI 10.1007/978-1-4757-0555-3_2",
-        "note": "The abstract identifies fragmented terminology and the need to organise relations among systems concepts. The chapter title's 'Fifty' does not independently verify any map's numerical totals. The author-hosted full text could not be retrieved."
-      },
-      {
-        "id": "mcnamara-troncale-2012",
-        "title": "Curt McNamara and Len Troncale: SPT II, How to Find and Map Linkage Propositions (2012)",
-        "url": "https://journals.isss.org/index.php/proceedings56th/article/view/2153",
-        "pdf_url": "https://journals.isss.org/index.php/proceedings56th/article/viewFile/2153/679",
-        "access": "Abstract and criteria passage read; not a full-paper review",
-        "locator": "PDF pp. 3–4, What is a Linkage Proposition? Criteria for LPs",
-        "note": "The authors distinguish a particular observed relation from its proposed wider applicability. A proposition specifies systems processes and an operator; its direction may be one-way or mutual. They require experimental or simulation evidence in a manifest system and further work to establish the range of validity. Their paper therefore does not make every mapped proposition a universal law."
-      }
-    ]
   }
 }

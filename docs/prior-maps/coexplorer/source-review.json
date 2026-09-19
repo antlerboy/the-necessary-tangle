@@ -31,19 +31,19 @@
     },
     {
       "id": "anselm-guide",
-      "title": "Anselm's field guide to systems thinkers",
+      "title": "Anselm Hook: A field guide to the systems thinkers (11 September 2026)",
       "url": "https://anselm.substack.com/p/a-field-guide-to-the-systems-thinkers",
-      "access": "Submitted; unread (HTTP 403)",
-      "locator": "Submitted URL only",
-      "note": "No description of the article's argument, coverage, or recommendations is inferred from its title."
+      "access": "Article read through ordinary browser; individual entries unverified",
+      "locator": "Introduction; organising questions; field collectors; omissions",
+      "note": "The guide groups thinkers by purpose and by whether an outsider can use their model, tool, or practice. Hook states that it was largely compiled with AI assistance and suggestions from friends. It is a curated discovery aid, not primary verification of its historical or biographical claims. Its inclusion of Tangle is not independent validation of this atlas."
     },
     {
       "id": "anselm-media",
-      "title": "Anselm's systems-thinking media list",
+      "title": "Anselm Hook: Systems thinking media to consume (10 September 2026)",
       "url": "https://anselm.substack.com/p/systems-thinking-media-to-consume",
-      "access": "Submitted; unread (HTTP 403)",
-      "locator": "Submitted URL only",
-      "note": "The reading and viewing recommendations have not been checked or added to the atlas as reviewed sources."
+      "access": "Article read through ordinary browser; individual entries unverified",
+      "locator": "Suggested starting route; reading, viewing, listening, and tools",
+      "note": "The list combines introductory reading with lectures, podcasts, simulations, and tools. Reading the list does not mean its recommended books have been read, recordings watched, or tools tested. Individual recommendations remain candidates for source-level review."
     },
     {
       "id": "coexplorer-guide",
