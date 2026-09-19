@@ -36,6 +36,8 @@ def apply(data,records,source,newnode,edge):
     credit_sources=[]
     for title in authored_titles:
         item=record(title);s=sid(item);credit_sources.append(s)
+        item['authors']=['Benjamin P Taylor']
+        next(record for record in data['sources'] if record['id']==s)['creators']=enc(item['authors'])
         edge(item['atlas_id'],person,'authored_by','documentary','is authored or presented by',[s],'PDF page 1: named author or presenter','The title page names Benjamin Taylor. Co-authors and other credited intellectual sources retain their attribution; this does not claim sole authorship or origination of methods taught.')
         item['connections'].append(dict(target=person,label='Benjamin P Taylor',kind='authorship',locator='PDF page 1: named author or presenter',status='Public title-page credit checked'))
     degrees=record('Degrees of relationality')

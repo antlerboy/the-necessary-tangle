@@ -8,10 +8,10 @@ Generated: `2026-08-14`
 
 The atlas now treats relational richness as maintained data, not a visual impression. Every canonical public entry has a structural connection band and a separate evidence band. This makes it possible to add provisional routes without pretending that repetition, plausibility or graph density is proof.
 
-- 1123 of 1166 entries have at least one reader connection.
-- 82 are structurally rich, 240 developing, 801 thin and 43 unconnected.
-- 508 have at least one non-documentary semantic, historical, human, identity, practice, influence or contestation route.
-- Evidence is 206 supported, 270 mixed, 647 provisional and 43 absent at entry level.
+- 1154 of 1196 entries have at least one reader connection.
+- 93 are structurally rich, 239 developing, 822 thin and 42 unconnected.
+- 515 have at least one non-documentary semantic, historical, human, identity, practice, influence or contestation route.
+- Evidence is 205 supported, 271 mixed, 678 provisional and 42 absent at entry level.
 
 ## What counts
 
@@ -43,21 +43,21 @@ The template is an editorial checklist, not an invitation to fill six slots with
 | --- | ---: | ---: | ---: | ---: | ---: |
 | approach family | 6 | 3 | 3 | 0 | 0 |
 | comparator corpus | 6 | 0 | 1 | 5 | 0 |
-| concept | 101 | 29 | 35 | 33 | 4 |
-| corpus | 15 | 0 | 2 | 13 | 0 |
+| concept | 101 | 29 | 36 | 33 | 3 |
+| corpus | 16 | 0 | 2 | 14 | 0 |
 | intervention skill | 47 | 3 | 44 | 0 | 0 |
 | knowledge domain | 1 | 0 | 1 | 0 | 0 |
 | law or principle | 33 | 17 | 16 | 0 | 0 |
-| method or methodology | 97 | 13 | 11 | 73 | 0 |
+| method or methodology | 97 | 15 | 9 | 73 | 0 |
 | organisation | 14 | 1 | 2 | 9 | 2 |
-| person | 270 | 5 | 63 | 165 | 37 |
-| practice | 26 | 8 | 11 | 7 | 0 |
-| publication | 246 | 1 | 22 | 223 | 0 |
-| source | 274 | 0 | 6 | 268 | 0 |
+| person | 270 | 6 | 63 | 164 | 37 |
+| practice | 26 | 10 | 9 | 7 | 0 |
+| publication | 275 | 3 | 23 | 249 | 0 |
+| source | 274 | 3 | 7 | 264 | 0 |
 | technology | 1 | 0 | 1 | 0 | 0 |
 | theory | 1 | 0 | 1 | 0 | 0 |
-| tool | 14 | 1 | 12 | 1 | 0 |
-| tradition | 14 | 1 | 9 | 4 | 0 |
+| tool | 14 | 2 | 11 | 1 | 0 |
+| tradition | 14 | 1 | 10 | 3 | 0 |
 
 ## How enrichment proceeds
 
@@ -108,7 +108,6 @@ The queue below is generated from current structure. Low degree and low relation
 | Margaret Mead | person | unconnected | none | 0 | 0 |
 | Marvin Weisbord | person | unconnected | none | 0 | 0 |
 | NTL Institute | organisation | unconnected | none | 0 | 0 |
-| Network theory | concept | unconnected | none | 0 | 0 |
 | Nicholas A. Christakis | person | unconnected | none | 0 | 0 |
 | Niklas Luhmann | person | unconnected | none | 0 | 0 |
 | Noam Chomsky | person | unconnected | none | 0 | 0 |
@@ -130,6 +129,7 @@ The queue below is generated from current structure. Low degree and low relation
 | David L. Hawk | person | thin | provisional | 1 | 1 |
 | Decolonial systems thinking | concept | thin | mixed | 1 | 1 |
 | Epistemic injustice | concept | thin | mixed | 1 | 1 |
+| Flawless Consulting: A Guide to Getting Your Expertise Used | publication | thin | mixed | 1 | 1 |
 
 ## First enrichment cohort in this release
 

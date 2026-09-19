@@ -1,0 +1,5 @@
+/* Keep focused labels legible when the SVG is fitted to the available space. */
+#graphSvg.map-focused-reading .graph-label { font-size: var(--focused-label-size, 16px); }
+#graphSvg.map-focused-reading .graph-edge-label { font-size: calc(var(--focused-label-size, 16px) * .92); }
+#graphSvg.map-focused-reading .graph-edge.focus-edge { stroke-opacity: .65; }
+#graphSvg.map-focused-reading .graph-edge.context-edge { stroke-opacity: .2 !important; }

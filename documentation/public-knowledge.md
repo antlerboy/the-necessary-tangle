@@ -12540,6 +12540,17 @@ A manifesto for public services built around relationship, judgement and shared 
 
 - A manifesto for relational public services — https://docs.google.com/document/d/1R5f-5HSls8f5PfOhetzctXvSgI4wRJeITUMD4LJc0vs/edit?usp=sharing
 
+## Public resource: A Response to paper “Systems Thinking” by D. Cabrera et al.: Next steps, a human service program system exemplar
+
+Type: Publication
+Public depth: described
+
+Publisher-deposited bibliographic record matched to the opening title of the supplied source. Concept links below are text-location aids; they do not establish influence or agreement. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- A Response to paper “Systems Thinking” by D. Cabrera et al.: Next steps, a human service program system exemplar — https://doi.org/10.1016/j.evalprogplan.2008.04.006
+
 ## Public resource: A simplification of the Viable System Model
 
 Type: Source
@@ -12562,6 +12573,17 @@ Benjamin Taylor and Kate Cooper; The MJ. Publisher access terms apply. This reco
 
 - A surprising new role for local government — https://www.themj.co.uk/surprising-role-local-government
 
+## Public resource: A systemic approach to processes of power in learning organizations
+
+Type: Publication
+Public depth: described
+
+Publisher-deposited bibliographic record matched to the opening title of the supplied source. Concept links below are text-location aids; they do not establish influence or agreement. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- A systemic approach to processes of power in learning organizations — https://doi.org/10.1108/TLO-10-2017-0101
+
 ## Public resource: Action Learning and Practice; The John Seddon Method for public sector transformation
 
 Type: Source
@@ -12583,6 +12605,17 @@ A detailed session on people, leadership practices, and operational excellence. 
 ### Sources
 
 - All about the people: five core leadership practices for OpEx — https://www.youtube.com/watch?v=kOGSLtGTyUw
+
+## Public resource: An ecology of bad ideas: approaching human relations with wider nature from an ecological-complexity perspective
+
+Type: Publication
+Public depth: described
+
+Publisher-deposited bibliographic record matched to the opening title of the supplied source. Concept links below are text-location aids; they do not establish influence or agreement. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- An ecology of bad ideas: approaching human relations with wider nature from an ecological-complexity perspective — https://doi.org/10.38140/aa.v56i2.8974
 
 ## Public resource: An ecosystem approach for sustainability: addressing the challenge of complexity
 
@@ -12782,17 +12815,6 @@ An extended teaching deck. This record identifies the cited public resource; cat
 
 - Clarity practices: five core practices — https://antlerboy.com/library/files/talks/clarity-practices.pdf
 
-## Public resource: Clinical applications of recasting : review and theory
-
-Type: Publication
-Public depth: described
-
-Publisher-deposited bibliographic record matched to the opening title of the supplied source. Concept links below are text-location aids; they do not establish influence or agreement. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
-
-### Sources
-
-- Clinical applications of recasting : review and theory — https://doi.org/10.1177/026565908700300308
-
 ## Public resource: Coaching entrepreneurs using VSM and systems patterns
 
 Type: Source
@@ -12891,17 +12913,6 @@ Publisher-deposited bibliographic record matched to the opening title of the sup
 ### Sources
 
 - Complexity theory and leadership practice: A review, a critique, and some recommendations — https://doi.org/10.1016/j.leaqua.2019.07.002
-
-## Public resource: Conceptual Foundations for Environmental Ethics
-
-Type: Publication
-Public depth: described
-
-Publisher-deposited bibliographic record matched to the opening title of the supplied source. Concept links below are text-location aids; they do not establish influence or agreement. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
-
-### Sources
-
-- Conceptual Foundations for Environmental Ethics — https://doi.org/10.5840/enviroethics200325317
 
 ## Public resource: Conflict Transformation Circles
 
@@ -13035,6 +13046,28 @@ Supported by RedQuadrant. This record identifies the cited public resource; cata
 
 - Customer Transformation Club — https://www.linkedin.com/groups/6546498
 
+## Public resource: Cybernetic Big Five Theory
+
+Type: Publication
+Public depth: described
+
+Publisher-deposited bibliographic record matched to the opening title of the supplied source. Concept links below are text-location aids; they do not establish influence or agreement. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Cybernetic Big Five Theory — https://doi.org/10.1016/j.jrp.2014.07.004
+
+## Public resource: Cybernetics and Landscape
+
+Type: Publication
+Public depth: described
+
+Publisher-deposited bibliographic record matched to the opening title of the supplied source. Concept links below are text-location aids; they do not establish influence or agreement. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Cybernetics and Landscape — https://doi.org/10.4324/9781003320852-13
+
 ## Public resource: Cybernetics is not the banana
 
 Type: Source
@@ -13079,6 +13112,17 @@ The OR63 presentation on cybernetics, representation and practice transfer in pu
 
 - Cybernetics is not the banana; a story of practice transfer — https://www.dropbox.com/scl/fi/4w3c7i5e8hmzibiuosnmb/2021-08-01-Benjamin-Taylor-for-OR63-Cybernetics-is-not-the-banana-a-story-of-practice-transfer-in-public-service-transformation-consultancy-v1.8BT.pdf?rlkey=hswugiqmfwtgrvzgedx082tt5&dl=0
 
+## Public resource: Definitions and Development of Systems Thinking
+
+Type: Publication
+Public depth: described
+
+Publisher-deposited bibliographic record matched to the opening title of the supplied source. Concept links below are text-location aids; they do not establish influence or agreement. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Definitions and Development of Systems Thinking — https://doi.org/10.1007/978-3-319-53571-5_2
+
 ## Public resource: Degrees of relationality
 
 Type: Source
@@ -13101,7 +13145,7 @@ A RedQuadrant whole-system demand reference. This record identifies the cited pu
 
 - Demand management sampler — https://antlerboy.com/library/files/reference/redquadrant-demand-management-sampler.pdf
 
-## Public resource: Design for social change and design education: Social challenges versus teacher-centred pedagogies
+## Public resource: Designing interagency responses to wicked problems: A viable system model board game
 
 Type: Publication
 Public depth: described
@@ -13110,7 +13154,7 @@ Publisher-deposited bibliographic record matched to the opening title of the sup
 
 ### Sources
 
-- Design for social change and design education: Social challenges versus teacher-centred pedagogies — https://doi.org/10.1080/14606925.2017.1353037
+- Designing interagency responses to wicked problems: A viable system model board game — https://doi.org/10.1016/j.ejor.2023.06.040
 
 ## Public resource: Designing Social Systems in a Changing World
 
@@ -13122,6 +13166,17 @@ Publisher-deposited bibliographic record matched to the opening title of the sup
 ### Sources
 
 - Designing Social Systems in a Changing World — https://doi.org/10.1007/978-1-4757-9981-1
+
+## Public resource: Distinctions, systems, relationships, and perspectives (DSRP): A theory of thinking and of things
+
+Type: Publication
+Public depth: described
+
+Publisher-deposited bibliographic record matched to the opening title of the supplied source. Concept links below are text-location aids; they do not establish influence or agreement. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Distinctions, systems, relationships, and perspectives (DSRP): A theory of thinking and of things — https://doi.org/10.1016/j.evalprogplan.2008.04.001
 
 ## Public resource: Drawing systems; a primer
 
@@ -13145,17 +13200,6 @@ Publisher-deposited bibliographic record matched to the opening title of the sup
 
 - Early-warning signals for critical transitions — https://doi.org/10.1038/nature08227
 
-## Public resource: Editorial: living with environmental change: adaptation as social learning
-
-Type: Publication
-Public depth: described
-
-Publisher-deposited bibliographic record matched to the opening title of the supplied source. Concept links below are text-location aids; they do not establish influence or agreement. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
-
-### Sources
-
-- Editorial: living with environmental change: adaptation as social learning — https://doi.org/10.1002/eet.520
-
 ## Public resource: Embedding systems thinking into service transformation
 
 Type: Source
@@ -13177,6 +13221,17 @@ Named as a further example in the teaching material. A developed comparison or a
 ### Sources
 
 - Encounter groups — https://antlerboy.com/library/large-group-processes/#encounter-groups
+
+## Public resource: Encyclopedia of Systems Biology
+
+Type: Publication
+Public depth: described
+
+Publisher-deposited bibliographic record matched to the opening title of the supplied source. Concept links below are text-location aids; they do not establish influence or agreement. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Encyclopedia of Systems Biology — https://doi.org/10.1007/978-1-4419-9863-7
 
 ## Public resource: Epistemological and empirical challenges of Niklas Luhmann’s systems theory: an interview with professors Álvaro Pires and Lukas Sosoe
 
@@ -13398,6 +13453,39 @@ Presentation and session material. This record identifies the cited public resou
 
 - Future of Work Scotland — https://www.dropbox.com/scl/fi/uxleu09urdq09q4j36mdf/2022-07-13-Benjamin-Taylor-RedQuadrant-Future-of-Work-Scotland-presentation.pdf?rlkey=gq1znzjnkle9f0btntzwaw910&dl=0
 
+## Public resource: Gaia Theory: Between Autopoiesis and Sympoiesis
+
+Type: Publication
+Public depth: described
+
+Publisher-deposited bibliographic record matched to the opening title of the supplied source. Concept links below are text-location aids; they do not establish influence or agreement. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Gaia Theory: Between Autopoiesis and Sympoiesis — https://doi.org/10.15388/Problemos.98.13
+
+## Public resource: General Morphological Analysis (GMA)
+
+Type: Publication
+Public depth: described
+
+Publisher-deposited bibliographic record matched to the opening title of the supplied source. Concept links below are text-location aids; they do not establish influence or agreement. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- General Morphological Analysis (GMA) — https://doi.org/10.1007/978-3-642-19653-9_2
+
+## Public resource: Governance for intelligent organizations: a cybernetic contribution
+
+Type: Publication
+Public depth: described
+
+Publisher-deposited bibliographic record matched to the opening title of the supplied source. Concept links below are text-location aids; they do not establish influence or agreement. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Governance for intelligent organizations: a cybernetic contribution — https://doi.org/10.1108/K-01-2018-0019
+
 ## Public resource: Government After Shock; build back better in the days after
 
 Type: Source
@@ -13573,6 +13661,28 @@ Use repeated paired conversations to share challenges and notice patterns across
 ### Sources
 
 - Impromptu Networking — https://antlerboy.com/library/large-group-processes/#impromptu-networking
+
+## Public resource: Improving practice in safeguarding at the interface between hospital services and children’s social care: a mixed-methods case study
+
+Type: Publication
+Public depth: described
+
+Publisher-deposited bibliographic record matched to the opening title of the supplied source. Concept links below are text-location aids; they do not establish influence or agreement. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Improving practice in safeguarding at the interface between hospital services and children’s social care: a mixed-methods case study — https://doi.org/10.3310/hsdr03040
+
+## Public resource: Improving the Systems Thinking Skills of the Systems Architect via Aesthetic Interpretation of Art
+
+Type: Publication
+Public depth: described
+
+Publisher-deposited bibliographic record matched to the opening title of the supplied source. Concept links below are text-location aids; they do not establish influence or agreement. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Improving the Systems Thinking Skills of the Systems Architect via Aesthetic Interpretation of Art — https://doi.org/10.1002/j.2334-5837.2017.00432.x
 
 ## Public resource: Interrogate the large-group-process mentor
 
@@ -13750,6 +13860,17 @@ Co-owned by Benjamin Taylor. This record identifies the cited public resource; c
 
 - Lean Six Sigma — https://www.linkedin.com/groups/37987
 
+## Public resource: Learning as an activity of interdependent people
+
+Type: Publication
+Public depth: described
+
+Publisher-deposited bibliographic record matched to the opening title of the supplied source. Concept links below are text-location aids; they do not establish influence or agreement. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Learning as an activity of interdependent people — https://doi.org/10.1108/09696470310497159
+
 ## Public resource: Learning community to build back better in the days after
 
 Type: Source
@@ -13760,6 +13881,17 @@ A learning-community proposition for public-service renewal. This record identif
 ### Sources
 
 - Learning community to build back better in the days after — https://www.dropbox.com/scl/fi/8de89g6xqxttsq0xbktbf/2021-07-23-PSTA-learning-community-to-build-back-better-in-the-days-after-v1.0BT-with-notes.pdf?rlkey=ugl94iry1f77ui2wta560oyac&dl=0
+
+## Public resource: Learning to appreciate learning systems for environmental decision making: a ‘work‐in‐progress’ perspective
+
+Type: Publication
+Public depth: described
+
+Publisher-deposited bibliographic record matched to the opening title of the supplied source. Concept links below are text-location aids; they do not establish influence or agreement. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Learning to appreciate learning systems for environmental decision making: a ‘work‐in‐progress’ perspective — https://doi.org/10.1002/sres.697
 
 ## Public resource: Legislative Theatre
 
@@ -13959,6 +14091,28 @@ Publisher-deposited bibliographic record matched to the opening title of the sup
 
 - New development: The paradox of outcomes—the more we measure, the less we understand — https://doi.org/10.1080/09540962.2013.785707
 
+## Public resource: On Control and Communication: Self-regulation and Coordination of Actions
+
+Type: Publication
+Public depth: described
+
+Publisher-deposited bibliographic record matched to the opening title of the supplied source. Concept links below are text-location aids; they do not establish influence or agreement. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- On Control and Communication: Self-regulation and Coordination of Actions — https://doi.org/10.1007/978-3-642-19109-1_2
+
+## Public resource: On the Implications of the Practice–Institution Distinction: Macintyre and the Application of Modern Virtue Ethics to Business
+
+Type: Publication
+Public depth: described
+
+Publisher-deposited bibliographic record matched to the opening title of the supplied source. Concept links below are text-location aids; they do not establish influence or agreement. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- On the Implications of the Practice–Institution Distinction: Macintyre and the Application of Modern Virtue Ethics to Business — https://doi.org/10.2307/3857646
+
 ## Public resource: One-way only won’t work
 
 Type: Source
@@ -14124,17 +14278,6 @@ Hosted shows, guest appearances and full programme archives. This record identif
 
 - Podcasts — https://antlerboy.com/library/podcasts/
 
-## Public resource: Policy Entrepreneurship at the White House
-
-Type: Publication
-Public depth: described
-
-Publisher-deposited bibliographic record matched to the opening title of the supplied source. Concept links below are text-location aids; they do not establish influence or agreement. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
-
-### Sources
-
-- Policy Entrepreneurship at the White House — https://doi.org/10.1162/inov_a_00253
-
 ## Public resource: Positive dynamics of differentiation and integration; ISSS
 
 Type: Source
@@ -14178,6 +14321,17 @@ Current substantial manuscripts shared before or outside formal publication. Thi
 ### Sources
 
 - Preprints and working papers — https://antlerboy.com/library/preprints-and-working-papers/
+
+## Public resource: Presencing the Future of Democracy and Governance
+
+Type: Publication
+Public depth: described
+
+Publisher-deposited bibliographic record matched to the opening title of the supplied source. Concept links below are text-location aids; they do not establish influence or agreement. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Presencing the Future of Democracy and Governance — https://doi.org/10.47061/jasc.v6i1.13060
 
 ## Public resource: Productive conversations
 
@@ -14299,6 +14453,17 @@ An unofficial employees and alumni group. This record identifies the cited publi
 ### Sources
 
 - PwC employees and alumni — https://www.linkedin.com/groups/27813
+
+## Public resource: Quantifying the Complexity of Socio-technical Systems – A Generic, Interdisciplinary Approach
+
+Type: Publication
+Public depth: described
+
+Publisher-deposited bibliographic record matched to the opening title of the supplied source. Concept links below are text-location aids; they do not establish influence or agreement. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Quantifying the Complexity of Socio-technical Systems – A Generic, Interdisciplinary Approach — https://doi.org/10.1016/j.procs.2015.03.019
 
 ## Public resource: Rainmaking: Observed with social systems theory
 
@@ -14442,6 +14607,28 @@ The two-day conference on the four realms of requisite agility. This record iden
 ### Sources
 
 - Requisite Agility Unleashed conference — https://www.scrum.org/events/53026/requisite-agility-unleashed-conference
+
+## Public resource: Response to paper “Systems Thinking” by D. Cabrera et al.: Systems thinking from a critical systems perspective
+
+Type: Publication
+Public depth: described
+
+Publisher-deposited bibliographic record matched to the opening title of the supplied source. Concept links below are text-location aids; they do not establish influence or agreement. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Response to paper “Systems Thinking” by D. Cabrera et al.: Systems thinking from a critical systems perspective — https://doi.org/10.1016/j.evalprogplan.2008.04.004
+
+## Public resource: RETHINKING THE UNITY OF SCIENCE
+
+Type: Publication
+Public depth: described
+
+Publisher-deposited bibliographic record matched to the opening title of the supplied source. Concept links below are text-location aids; they do not establish influence or agreement. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- RETHINKING THE UNITY OF SCIENCE — https://doi.org/10.1080/03081070108960713
 
 ## Public resource: Rough draft systems thinking reading list v1.1
 
@@ -14707,7 +14894,7 @@ A video presentation of the 2019 survey results. This record identifies the cite
 
 - State of Transformation survey results 2019 — https://www.youtube.com/watch?v=UnzMHz6uMuQ&t=234s
 
-## Public resource: Strategic knowledge acquisition: a case study of learning through prototyping
+## Public resource: Stewardship Theory of Corporate Governance and Value System: The Case of a Family-owned Business Group in India
 
 Type: Publication
 Public depth: described
@@ -14716,7 +14903,7 @@ Publisher-deposited bibliographic record matched to the opening title of the sup
 
 ### Sources
 
-- Strategic knowledge acquisition: a case study of learning through prototyping — https://doi.org/10.1016/s0950-7051(98)00086-0
+- Stewardship Theory of Corporate Governance and Value System: The Case of a Family-owned Business Group in India — https://doi.org/10.1177/0974686218776026
 
 ## Public resource: Systemic consulting: rethinking the consultant’s role
 
@@ -14728,6 +14915,28 @@ Workshop at SysPrac25. This record identifies the cited public resource; catalog
 ### Sources
 
 - Systemic consulting: rethinking the consultant’s role — https://www.systemspractice.org/resources/systemic-consulting-rethinking-consultants-role-workshop-sysprac25
+
+## Public resource: SYSTEMIC INTERVENTION IN CREATIVE MANAGING PROBLEMS IN ENTERPRISES
+
+Type: Publication
+Public depth: described
+
+Publisher-deposited bibliographic record matched to the opening title of the supplied source. Concept links below are text-location aids; they do not establish influence or agreement. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- SYSTEMIC INTERVENTION IN CREATIVE MANAGING PROBLEMS IN ENTERPRISES — https://doi.org/10.3846/16111699.2013.833546
+
+## Public resource: Systems Approaches to Managing Change: A Practical Guide
+
+Type: Publication
+Public depth: described
+
+Publisher-deposited bibliographic record matched to the opening title of the supplied source. Concept links below are text-location aids; they do not establish influence or agreement. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Systems Approaches to Managing Change: A Practical Guide — https://doi.org/10.1007/978-1-84882-809-4
 
 ## Public resource: Systems archetypes; a primer
 
@@ -14916,6 +15125,17 @@ A group for systems sciences. This record identifies the cited public resource; 
 
 - Systems sciences — https://www.facebook.com/groups/2391509563
 
+## Public resource: Systems theory: forgotten legacy and future prospects
+
+Type: Publication
+Public depth: described
+
+Publisher-deposited bibliographic record matched to the opening title of the supplied source. Concept links below are text-location aids; they do not establish influence or agreement. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Systems theory: forgotten legacy and future prospects — https://doi.org/10.4337/9781786439017.00014
+
 ## Public resource: Systems thinking and consultancy - panel, part one
 
 Type: Source
@@ -14959,6 +15179,17 @@ Owned on behalf of the collective. This record identifies the cited public resou
 ### Sources
 
 - Systems Thinking Network — https://www.linkedin.com/groups/2639211
+
+## Public resource: Systems thinking: taming complexity in project management
+
+Type: Publication
+Public depth: described
+
+Publisher-deposited bibliographic record matched to the opening title of the supplied source. Concept links below are text-location aids; they do not establish influence or agreement. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Systems thinking: taming complexity in project management — https://doi.org/10.1108/10748121211235787
 
 ## Public resource: Systems, complexity and cybernetics reading
 
@@ -15191,6 +15422,17 @@ A visual account of systems that move work, failure and responsibility around. T
 
 - The great big shit-shovelling machine — https://www.dropbox.com/scl/fi/trv2tre8b8gwk92bh4npa/The-great-big-shit-shovelling-machine.pdf?rlkey=u65y7o3r85ii14epj6da0p9kh&dl=0
 
+## Public resource: The history and future of projects as a transition innovation: Towards a sustainable project management framework
+
+Type: Publication
+Public depth: described
+
+Publisher-deposited bibliographic record matched to the opening title of the supplied source. Concept links below are text-location aids; they do not establish influence or agreement. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- The history and future of projects as a transition innovation: Towards a sustainable project management framework — https://doi.org/10.1002/sres.2814
+
 ## Public resource: The Human Current 038 - A philosophical look at company culture
 
 Type: Source
@@ -15400,6 +15642,17 @@ Named as a further example in the teaching material. A developed comparison or a
 
 - Theatre of the Oppressed — https://antlerboy.com/library/large-group-processes/#theatre-of-the-oppressed
 
+## Public resource: Thinking: Lessons from John Dewey’s How We Think
+
+Type: Publication
+Public depth: described
+
+Publisher-deposited bibliographic record matched to the opening title of the supplied source. Concept links below are text-location aids; they do not establish influence or agreement. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Thinking: Lessons from John Dewey’s How We Think — https://doi.org/10.5901/ajis.2013.v2n2p51
+
 ## Public resource: Tips on making place-based working work
 
 Type: Source
@@ -15421,6 +15674,17 @@ Named as a further example in the teaching material. A developed comparison or a
 ### Sources
 
 - Tony Robbins workshops — https://antlerboy.com/library/large-group-processes/#tony-robbins-workshops
+
+## Public resource: Toward a neuroscience of natural behavior
+
+Type: Publication
+Public depth: described
+
+Publisher-deposited bibliographic record matched to the opening title of the supplied source. Concept links below are text-location aids; they do not establish influence or agreement. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Toward a neuroscience of natural behavior — https://doi.org/10.1016/j.conb.2024.102859
 
 ## Public resource: Transduction
 
@@ -15488,6 +15752,28 @@ Work in threes so each person can present a challenge and listen to two colleagu
 
 - Troika Consulting — https://antlerboy.com/library/large-group-processes/#troika-consulting
 
+## Public resource: Turing’s Theory of Morphogenesis: Where We Started, Where We Are and Where We Want to Go
+
+Type: Publication
+Public depth: described
+
+Publisher-deposited bibliographic record matched to the opening title of the supplied source. Concept links below are text-location aids; they do not establish influence or agreement. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Turing’s Theory of Morphogenesis: Where We Started, Where We Are and Where We Want to Go — https://doi.org/10.1007/978-3-319-43669-2_13
+
+## Public resource: U.S. Urban Water Prices: Cheaper When Drier
+
+Type: Publication
+Public depth: described
+
+Publisher-deposited bibliographic record matched to the opening title of the supplied source. Concept links below are text-location aids; they do not establish influence or agreement. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- U.S. Urban Water Prices: Cheaper When Drier — https://doi.org/10.1029/2018WR023258
+
 ## Public resource: Ubuntu Circles
 
 Type: Source
@@ -15509,6 +15795,17 @@ A conversation about professionalism, judgement, competence and difficult truths
 ### Sources
 
 - Unprofessionalism episode 018 — https://chosen-path.org/2026/06/10/professionalism-can-support-judgement-competence-and-care-but-it-often-means-knowing-how-to-keep-difficult-truths-in-a-socially-acceptable-form/
+
+## Public resource: Unsettling appearances: Diane Arbus, Erving Goffman and the sociological eye
+
+Type: Publication
+Public depth: described
+
+Publisher-deposited bibliographic record matched to the opening title of the supplied source. Concept links below are text-location aids; they do not establish influence or agreement. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Unsettling appearances: Diane Arbus, Erving Goffman and the sociological eye — https://doi.org/10.1177/0011392118823828
 
 ## Public resource: User Experience Fishbowl
 
@@ -15653,6 +15950,17 @@ A collaborative account of the idea. This record identifies the cited public res
 
 - What is Requisite Agility? — https://docs.google.com/document/d/1y3PBh_AndHJIt4uu2B1jl3_1afsp-c3KERYu5ISVQRM/edit?usp=sharing
 
+## Public resource: What is the first documented use of the term, "Systems Thinking"?
+
+Type: Publication
+Public depth: described
+
+Publisher-deposited bibliographic record matched to the opening title of the supplied source. Concept links below are text-location aids; they do not establish influence or agreement. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- What is the first documented use of the term, "Systems Thinking"? — https://doi.org/10.54120/jost.v1i1.1383
+
 ## Public resource: What the boundary cannot carry alone
 
 Type: Source
@@ -15696,6 +16004,17 @@ A conversation about service design, government and public services. This record
 ### Sources
 
 - Why Service Design Thinking - Service design in government and public services — https://podcasts.apple.com/us/podcast/service-design-in-government-and-public-services/id1104134900?i=1000384105616
+
+## Public resource: Wickedness and the anatomy of complexity
+
+Type: Publication
+Public depth: described
+
+Publisher-deposited bibliographic record matched to the opening title of the supplied source. Concept links below are text-location aids; they do not establish influence or agreement. This record identifies the cited public resource; catalogue inclusion does not establish authorship or independent endorsement.
+
+### Sources
+
+- Wickedness and the anatomy of complexity — https://doi.org/10.1016/j.futures.2017.11.001
 
 ## Public resource: Will you come to a conference that does not have all the answers?
 
@@ -16607,6 +16926,17 @@ The slogan is often used to justify more choice, more management or decentralisa
 - Biography: W. Ross Ashby (1903–1972) — https://ashby.info/biography.html
 - Every Good Regulator of a System Must Be a Model of That System — https://doi.org/10.1080/00207727008920220
 - Viable System Model - The VSM in 1000 words — https://metaphorum.org/staffords-work/viable-system-model
+
+## Research bibliography
+
+Type: Corpus
+Public depth: described
+
+A developing register of publicly identifiable systems research publications, reconciled from the supplied source collection. Public publisher records and located source passages are distinct from the private collection and from claims of complete scholarly review.
+
+### Sources
+
+- Public research bibliography — https://transduction.systems/library/?collection=Research%20bibliography
 
 ## Resilience
 

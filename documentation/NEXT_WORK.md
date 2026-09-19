@@ -98,6 +98,9 @@ Scope: the public Antlerboy manifest, catalogue, training PDFs, shared large-gro
 
 Acceptance: reconcile each located item to an included record, a duplicate/version, or an explicit restriction/access gap; evidence locators for concept links; full make validate equivalent; functional search, counts, keyboard access, links, and 390px/1440px browser checks; successful deployment and exact live identity for both domains. Record remaining unread material honestly. Benjamin also requires his own entry to represent his public work and its documented relationships, and new source connections to propagate into existing entries, source routes, and maps. The shared entry-to-map action must preserve its advertised neighbourhood scale. No additional agents. Stop when these checks pass or a named source-access/editorial blocker prevents further independent progress.
 
+
+Further user request, 19 September: review all dimensions of connection and map presentation. Include source-located arguments and disagreements, teaching, collaboration, lineage, and institutional roles; repair map scale, layer/family filtering, shareable filters, readable labels, and path navigation where verified. Test the actual controls at desktop and mobile widths. No generic related-to statements or unsupported intellectual lineage.
+
 ## Systems methods practice, 7 September 2026
 
 26 original practice pages; 42 source-labelled resource routes; 746 public atlas entries after the additive resource integration. All 13 core approaches and three theory rows have an explicit rehearsal, with depth limits. Ten further pages support systemic inquiry and intervention.

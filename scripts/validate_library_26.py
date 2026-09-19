@@ -17,7 +17,7 @@ for r in c['records']:
     if r.get('atlas_id'):assert r['atlas_id'] in ids
     for x in r['connections']:
         assert x['target'] in ids,(r['title'],x['target'])
-        assert x['kind'] in ['identity','title_match','text_mention','teaching_account','authorship']
+        assert x['kind'] in ['identity','title_match','text_mention','teaching_account','authorship','argument']
         assert x.get('locator'),r['title']
         for page in x.get('pages',[]):assert isinstance(page,int) and page>0 and page<=r.get('pages',10000)
     if r['collection']=='SysCoi':assert 'author' in c['authorship'].lower()
@@ -25,7 +25,7 @@ for e in d['edges']:
     if e.get('connection_pass')!='library_20260919':continue
     assert e['source'] in ids and e['target'] in ids
     assert e['claim_status']=='candidate' and not e.get('reviewed_by') and not e.get('reviewed_at')
-    assert e['relation_family'] in ['documentary','teaching','practice','human','historical']
+    assert e['relation_family'] in ['documentary','teaching','practice','human','historical','conceptual','contestation']
 for update in p['source_updates']:
     s=next(s for s in d['sources'] if s['id']==update['id'])
     assert s['url']==update['url'] and s['access']=='public'

@@ -32,6 +32,7 @@
     practice: 'Practice and application',
     contestation: 'Confusion and disagreement',
     human: 'Human transmission',
+    teaching: 'Teaching and learning',
     identity: 'Identity and affiliation',
     documentary: 'Works, authorship and presentation',
     classification: 'Collection structure',
@@ -377,7 +378,7 @@
     if (layer === 'all') return true;
     if (layer === 'substantive') return substantiveEdge(edge);
     if (layer === 'conceptual') return edge.relation_family === 'conceptual';
-    if (layer === 'human') return ['human', 'influence', 'historical'].includes(edge.relation_family);
+    if (layer === 'human') return ['human', 'teaching', 'influence', 'historical'].includes(edge.relation_family);
     if (layer === 'practice') return edge.relation_family === 'practice';
     if (layer === 'contestation') return edge.relation_family === 'contestation'
       || ['disputed', 'challenged'].includes(edge.claim_status);
@@ -392,7 +393,7 @@
   function mapLayerDescription() {
     const descriptions = {
       all: 'Everything includes conceptual, human, practice, contestation, authorship, evidence and collection structure.',
-      substantive: 'The reader map focuses on conceptual, historical, human, identity, practice and contestation relationships. Authorship, presentation, collection structure and evidence registration remain available in full entries and the complete graph.',
+      substantive: 'The reader map focuses on conceptual, historical, human, teaching, identity, practice, and contestation relationships. Authorship, presentation, collection structure and evidence registration remain available in full entries and the complete graph.',
       conceptual: 'Conceptual lines show definitions, prerequisites, specialisation and explanatory relationships.',
       human: 'Human lineage combines teaching, collaboration, influence and historical transmission. The line type still matters.',
       practice: 'Practice lines connect ideas, methods, interventions and documented use.',
@@ -402,7 +403,20 @@
     return descriptions[$('mapLayer')?.value || 'all'];
   }
 
+  // map-dimensions-26-start
+  function updateMapFamilyOptions() {
+    const control = $('mapFamily');
+    if (!control) return;
+    const selected = control.value;
+    const families = unique(canonicalEdges.filter(edgeInLayer).map((edge) => edge.relation_family).filter(Boolean)).sort();
+    control.innerHTML = '<option value="all">All connection types in this layer</option>'
+      + families.map((family) => `<option value="${esc(family)}">${esc(relationFamilyLabel(family))}</option>`).join('');
+    control.value = families.includes(selected) ? selected : 'all';
+  }
+  // map-dimensions-26-end
+
   function updateMapLayerNote() {
+    updateMapFamilyOptions();
     const note = $('mapLayerNote');
     if (note) note.textContent = mapLayerDescription();
   }
@@ -526,7 +540,10 @@
       const depth = sp.get('depth');
       if (layer && [...$('mapLayer').options].some((option) => option.value === layer)) $('mapLayer').value = layer;
       if (depth && [...$('mapDepth').options].some((option) => option.value === depth)) $('mapDepth').value = depth;
-      if (sp.get('edge')) mapSelectedEdge = sp.get('edge');
+      updateMapFamilyOptions();
+      const family = sp.get('family') || 'all';
+      $('mapFamily').value = [...$('mapFamily').options].some((option) => option.value === family) ? family : 'all';
+      mapSelectedEdge = sp.get('edge') || null;
       if (sp.get('focus')) {
         mapFocus = canonicalId(sp.get('focus'));
         const focus = nodeById.get(mapFocus);
@@ -609,15 +626,8 @@
     const sections = [];
     // library-source-links-start
     const sourceRegisterCount = DATA.library_integration?.concept_counts?.[node.id] || 0;
-    if (sourceRegisterCount) sections.push(`<section class="entry-section source-register-route"><h2>Sources and teaching</h2><p><a href="/library/?concept=${encodeURIComponent(node.id)}">Explore ${sourceRegisterCount} source records connected to this entry</a>. Each result distinguishes title-page credit, a teaching account, an identity link, a located text mention, and an automatic title match.</p></section>`);
+    if (sourceRegisterCount) sections.push(`<section class="entry-section source-register-route"><h2>Sources and teaching</h2><p><a href="/library/?concept=${encodeURIComponent(node.id)}">Explore ${sourceRegisterCount} source records connected to this entry</a>. Each result distinguishes a located argument, title-page credit, a teaching account, an identity link, a text mention, and an automatic title match.</p></section>`);
     // library-source-links-end
-
-
-
-
-
-
-
 
     if (profile?.why_it_matters) {
       sections.push(`<section class="entry-section"><h2>Why it matters</h2><p>${linkifyKnownText(profile.why_it_matters, [node.id])}</p></section>`);
@@ -737,6 +747,8 @@
       const destination = new URLSearchParams(new URL(button.href).hash.slice(1));
       $('mapLayer').value = destination.get('layer') || 'substantive';
       $('mapDepth').value = destination.get('depth') || 'constellation';
+      $('mapFamily').value = 'all';
+      updateMapLayerNote();
       showView('map');
       setHash({ view: 'map', focus: mapFocus, layer: $('mapLayer').value, depth: $('mapDepth').value });
       renderMap({ fit: true });
@@ -930,9 +942,7 @@
     $('browseTag').innerHTML = '<option value="all">All fields</option>'
       + tags.map((tag) => `<option value="${esc(tag)}">${esc(titleCase(tag))}</option>`).join('');
 
-    const families = unique(canonicalEdges.filter(substantiveEdge).map((edge) => edge.relation_family).filter(Boolean)).sort();
-    $('mapFamily').innerHTML = '<option value="all">All connection types</option>'
-      + families.map((family) => `<option value="${esc(family)}">${esc(relationFamilyLabel(family))}</option>`).join('');
+    updateMapFamilyOptions();
   }
 
   function renderBrowse() {
@@ -1123,7 +1133,7 @@
     while (queue.length) {
       const id = queue.shift();
       for (const edge of (edgesByNode.get(id) || [])) {
-        if (!substantiveEdge(edge)) continue;
+        if (!edgeInLayer(edge) || ($('mapFamily').value !== 'all' && edge.relation_family !== $('mapFamily').value)) continue;
         const other = edge.source === id ? edge.target : edge.source;
         if (!ids.has(other) || distance.has(other)) continue;
         distance.set(other, distance.get(id) + 1);
@@ -1275,6 +1285,21 @@
     setHash({ view: 'map', focus: mapFocus, layer: $('mapLayer').value, depth: $('mapDepth').value });
   }
 
+  // map-labels-26-start
+  function mapNodeLabel(node, x) {
+    const words = node.label.replace(/^Public resource: /, '').split(/\s+/);
+    const lines = [''];
+    for (const word of words) {
+      const last = lines.length - 1;
+      if (lines[last] && (lines[last] + ' ' + word).length > 30) lines.push(word);
+      else lines[last] += (lines[last] ? ' ' : '') + word;
+    }
+    const shown = lines.slice(0, 2);
+    if (lines.length > 2) shown[1] += '…';
+    return `<title>${esc(node.label)}</title>` + shown.map((line, index) => `<tspan x="${x}" dy="${index ? '1.15em' : '0'}">${esc(line)}</tspan>`).join('');
+  }
+  // map-labels-26-end
+
   function renderMap(options = {}) {
     const ids = graphSelection();
     if (!ids.has(mapFocus) && ids.size) mapFocus = [...ids][0];
@@ -1355,7 +1380,7 @@
       ].filter(Boolean).join(' ');
       return `<a class="graph-node-link" href="${internalHref('item', { id: node.id, from: 'map' })}"><g class="${classes}" data-id="${esc(node.id)}" data-label-priority="${labelPriority}" tabindex="0" role="button" aria-label="Open ${esc(node.label)}">
         ${graphNodeMark(node, position, radius)}
-        <text class="graph-label ${showLabel ? '' : 'dense-hidden'}" data-priority="${labelPriority}" text-anchor="${labelAnchor}" x="${labelX}" y="${position.y + 4}">${esc(node.label)}</text>
+        <text class="graph-label ${showLabel ? '' : 'dense-hidden'}" data-priority="${labelPriority}" text-anchor="${labelAnchor}" x="${labelX}" y="${position.y + 4}">${mapNodeLabel(node, labelX)}</text>
       </g></a>`;
     }).join('');
 
@@ -1425,6 +1450,11 @@
     const band = semanticZoomBand();
     svg.classList.remove('map-zoom-overview', 'map-zoom-neighbourhood', 'map-zoom-detail');
     svg.classList.add(`map-zoom-${band}`);
+    const focusedView = !['all', 'profiles'].includes($('mapDepth')?.value);
+    svg.classList.toggle('map-focused-reading', focusedView);
+    const matrix = $('graphRoot').getScreenCTM();
+    const screenScale = matrix ? Math.hypot(matrix.a, matrix.b) : 1;
+    svg.style.setProperty('--focused-label-size', `${Math.min(80, 13 / Math.max(screenScale, 0.1))}px`);
     const label = $('mapScaleMode');
     if (label) {
       const depth = $('mapDepth')?.value;
@@ -1985,6 +2015,7 @@
         else await wrap.requestFullscreen();
       } catch (_) { /* Fullscreen may be blocked by the browser. */ }
     });
+    window.addEventListener('resize', () => { if (baseView === 'map') updateMapSemanticZoom(); });
     document.addEventListener('fullscreenchange', () => {
       const button = $('mapFullscreen');
       if (!button) return;
@@ -2030,6 +2061,7 @@
       if (id !== 'mapDepth' || $('mapDepth').value !== 'path') mapPath = [];
       mapSelectedEdge = null;
       if (id === 'mapLayer') updateMapLayerNote();
+      setHash({ view: 'map', focus: mapFocus, layer: $('mapLayer').value, depth: $('mapDepth').value, family: $('mapFamily').value });
       renderMap({ fit: true });
     }));
 
@@ -2050,7 +2082,7 @@
       $('mapDepth').value = 'path';
       mapFocus = from.id;
       mapSelectedEdge = null;
-      if (id === 'mapLayer') updateMapLayerNote();
+      updateMapLayerNote();
       renderMap({ fit: true });
     });
   }
@@ -2161,5 +2193,13 @@
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', initConstellationControls);
   else initConstellationControls();
 })();
+
+
+
+
+
+
+
+
 
 /* 0.18 navigable map and link contract */

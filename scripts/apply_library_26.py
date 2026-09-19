@@ -1,6 +1,7 @@
 """Connect the public library without turning catalogue matches into scholarly claims."""
 from pathlib import Path
 from apply_taylor_profile_26 import apply as apply_taylor_profile
+from apply_library_arguments_26 import apply as apply_arguments
 from patch_library_navigation_26 import patch as patch_navigation
 import hashlib,html,json,re
 from apply_iteration_17 import enc,parse,upsert,source_record,node_record,edge_record,relation_record,merge_encoded
@@ -34,6 +35,8 @@ def main():
         upsert(data['sources'],[s],'id');sources[sid]=s;return sid
     manifest_sid=source('src_antlerboy_manifest_20260919','Antlerboy public library manifest','https://antlerboy.com/library/manifest.json','Public catalogue membership and supplied descriptions, not proof of authorship of linked works.')
     corpus=newnode('corpus_antlerboy_public_library','Antlerboy public work library','corpus','A public collection of writing, teaching, recordings, tools, and community links maintained by Benjamin P Taylor. Linked materials retain their individual authorship and source terms.',[manifest_sid])
+    research_sid=source('src_public_research_bibliography_20260919','Public research bibliography','https://transduction.systems/library/?collection=Research%20bibliography','Public bibliographic identities reconciled against the supplied research collection. The underlying collection remains private; this register links to publisher records.')
+    research_corpus=newnode('corpus_public_research_bibliography','Research bibliography','corpus','A developing register of publicly identifiable systems research publications, reconciled from the supplied source collection. Public publisher records and located source passages are distinct from the private collection and from claims of complete scholarly review.',[research_sid])
     types=[('catalogues_resource','documentary','is_catalogued_by','A specific item in the dated public catalogue','catalogues this public resource'),('teaching_account_of','teaching','has_teaching_account','A located teaching page that presents the named method','presents a teaching account of'),('source_text_mentions','documentary','is_mentioned_in_source','An exact phrase and page in the cited source; does not assert meaning or influence','contains a located mention of')]
     for typ,fam,inv,minimum,phrase in types:
         upsert(data['relation_types'],[relation_record(typ,fam,inv,minimum,phrase)],'relation_type')
@@ -68,7 +71,8 @@ def main():
             n=newnode(nid,label,'method_or_methodology' if method and method['collection']=='Overview' else ('publication' if item['collection']=='Research bibliography' else 'source'),description,[sid])
             current_labels[slug(label)]=nid
         item['atlas_id']=nid
-        edge(corpus['id'],nid,'catalogues_resource','documentary','catalogues this public resource',[manifest_sid],item['title']+'; URL '+item['url'],'Catalogue membership only. This is not a conceptual dependency, influence claim, or authorship assertion.')
+        collection_node,collection_source=(research_corpus,research_sid) if item['collection']=='Research bibliography' else (corpus,manifest_sid)
+        edge(collection_node['id'],nid,'catalogues_resource','documentary','catalogues this public resource',[collection_source],item['title']+'; URL '+item['url'],'Catalogue membership only. This is not a conceptual dependency, influence claim, or authorship assertion.')
         for connection in item['connections']:
             if connection['kind']!='text_mention' or not connection.get('locator'):continue
             edge(nid,connection['target'],'source_text_mentions','documentary','contains a located mention of '+connection['term'],[sid],connection['locator'],'Exact phrase in extracted source text; page-level checking may remain pending as recorded by the locator. Its appearance may be in discussion, a quotation, a reference, or a critical comparison. No semantic or historical claim is inferred.')
@@ -87,17 +91,20 @@ def main():
         edge(item['atlas_id'],target,'teaching_account_of','teaching','presents a teaching account of',[sid],loc,'The linked public teaching source treats the named practice or model. The relation records teaching coverage, not origin, influence, or universal applicability.')
         item['connections'].append(dict(target=target,label=nodes[target]['label'],kind='teaching_account',locator=loc,status='Located public teaching account; independent review not recorded'))
     apply_taylor_profile(data,records,source,newnode,edge)
+    apply_arguments(data,records,edge)
     # Recalculate source accessibility after the eight corrections, including old nodes.
     for node in data['nodes']:
         ss=[sources[s] for s in parse(node.get('source_ids')) if s in sources]
         node['public_source_count']=sum(s.get('public_link_status')=='public_link' for s in ss)
         node['no_public_link_count']=sum(s.get('public_link_status')!='public_link' for s in ss)
     packet['counts'].update(research_bibliographic_records=len(research['records']),source_register_records=len(records))
+    packet['research_collection'].update(extracted_files=research['retrieved_files'],public_bibliographic_records=len(research['records']))
+    packet['research_collection']['status']=str(research['retrieved_files'])+' files have readable text extracted at this release snapshot; '+str(len(research['records']))+' distinct publications have matched public bibliographic identities. Other files require extraction, identity reconciliation, or restrictions review. Text indexing is not a claim of full scholarly reading. Unindexed and binary files remain outside the inventory completeness claim.'
     data['library_integration']={k:packet[k] for k in ['release','date','scope','authorship','interpretation','counts','research_collection']}
     data['library_integration']['url']=URL
     concepts={}
     for record in records:
-        for target in {c['target'] for c in record['connections']}:concepts[target]=concepts.get(target,0)+1
+        for target in sorted({c['target'] for c in record['connections']}):concepts[target]=concepts.get(target,0)+1
     data['library_integration']['concept_counts']=concepts
     introduced={n['id'] for n in data['nodes'] if n.get('inclusion_reason')==MARK}
     linked={e[end] for e in data['edges'] if e.get('connection_pass')==MARK for end in ['source','target']}
@@ -122,6 +129,8 @@ def main():
         if anchor not in s:raise ValueError('Missing main landmark: '+name)
         s=s.replace(anchor,'<!-- library-26 -->'+section+'<!-- /library-26 -->'+anchor,1);p.write_text(s,encoding='utf-8',newline='\n')
     p=R/'docs/index.html';s=p.read_text(encoding='utf-8')
+    if 'map-presentation.css' not in s:s=s.replace('</head>','<link rel="stylesheet" href="/assets/map-presentation.css?v=0.26">\n</head>',1)
+    (R/'docs/assets/map-presentation.css').write_text((R/'sources/library-2026-09-19/map-presentation.css').read_text(encoding='utf-8'),encoding='utf-8',newline='\n')
     s=re.sub(r'(<span id="releaseBadge">)Release [^<]+',r'\g<1>Release 0.26',s)
     if 'data-library-nav' not in s:s=s.replace('<nav class="main-nav" aria-label="Main navigation">','<nav class="main-nav" aria-label="Main navigation"><a data-library-nav class="static-nav-link" href="/library/">Sources</a>',1)
     p.write_text(s,encoding='utf-8',newline='\n')
@@ -131,7 +140,7 @@ def main():
     if anchor not in s:raise ValueError('Entry section insertion point missing')
     s=s.replace(anchor,anchor+'\n'+'''    // library-source-links-start
     const sourceRegisterCount = DATA.library_integration?.concept_counts?.[node.id] || 0;
-    if (sourceRegisterCount) sections.push(`<section class="entry-section source-register-route"><h2>Sources and teaching</h2><p><a href="/library/?concept=${encodeURIComponent(node.id)}">Explore ${sourceRegisterCount} source records connected to this entry</a>. Each result distinguishes title-page credit, a teaching account, an identity link, a located text mention, and an automatic title match.</p></section>`);
+    if (sourceRegisterCount) sections.push(`<section class="entry-section source-register-route"><h2>Sources and teaching</h2><p><a href="/library/?concept=${encodeURIComponent(node.id)}">Explore ${sourceRegisterCount} source records connected to this entry</a>. Each result distinguishes a located argument, title-page credit, a teaching account, an identity link, a text mention, and an automatic title match.</p></section>`);
     // library-source-links-end
 ''',1)
     p.write_text(s,encoding='utf-8',newline='\n')
