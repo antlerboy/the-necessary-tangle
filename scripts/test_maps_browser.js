@@ -57,7 +57,8 @@ async function main(){
     assert(await page.locator('#graphSvg [data-id]').count()>0);
     for(const category of categories){
       await select.selectOption(category.curated_category_id);
-      assert((await page.locator('#mapCategoryNote').textContent()).includes(category.curated_label));
+      const visibleLabel=await select.locator('option:checked').textContent();
+      assert((await page.locator('#mapCategoryNote').textContent()).includes(visibleLabel),'Selection note must match its visible option, including the reader typography rules');
       assert(await page.locator('#graphSvg').evaluate((svg,members)=>Array.from(svg.querySelectorAll('[data-id]')).every(node=>node.classList.contains('category-halo')===members.includes(node.dataset.id)&&node.classList.contains('category-muted')===!members.includes(node.dataset.id)),category.member_node_ids));
     }
     await select.selectOption('');
