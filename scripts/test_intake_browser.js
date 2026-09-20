@@ -6,6 +6,7 @@ const path = require('node:path');
 const http = require('node:http');
 const root = path.resolve(__dirname, '../docs');
 const packet = require('../sources/intake-2026-09-18/entries.json');
+const sourceById = new Map(packet.sources.map(source => [source.id, source]));
 const output = path.resolve(__dirname, '../validation/intake-browser');
 fs.mkdirSync(output, { recursive: true });
 let server, browser;
@@ -34,7 +35,13 @@ async function main() {
       await drawer.getByRole('heading', { name: entry.label, exact: true }).waitFor();
       await drawer.getByRole('heading', { name: 'Editorial status', exact: true }).waitFor();
       assert.match(await drawer.innerText(), /Independent specialist review is not recorded/);
-      assert.equal(await drawer.locator('.entry-section').filter({ has: page.getByRole('heading', { name: 'Sources', exact: true }) }).getByRole('link').count(), entry.sources.length);
+      const sourceSection = drawer.locator('.entry-section').filter({ has: page.getByRole('heading', { name: 'Sources', exact: true }) });
+      assert(await sourceSection.getByRole('link').count() >= entry.sources.length, entry.id + ': original intake sources were lost');
+      for (const sourceId of entry.sources) {
+        const source = sourceById.get(sourceId);
+        assert(source, entry.id + ': unknown source ' + sourceId);
+        assert.equal(await sourceSection.getByRole('link', { name: source.title, exact: true }).count(), 1, entry.id + ': missing original source ' + sourceId);
+      }
       await page.waitForFunction(() => {
         const el = document.querySelector('#entryDrawer');
         const rect = el.getBoundingClientRect();
