@@ -1,7 +1,7 @@
 {
   "schema_version": "1.1",
-  "generated": "2026-09-19",
-  "release": "0.26",
+  "generated": "2026-09-20",
+  "release": "0.27",
   "purpose": "Machine-readable relationship-quality result after the evidence-led relationship review.",
   "contract": {
     "human_readable_rationale": "A relation has a plain phrase and either notes, scope conditions or an inference method.",
@@ -29,31 +29,31 @@
   "current": {
     "public_entries": 1196,
     "all_nodes": 1323,
-    "all_edges": 3006,
-    "sources": 715,
+    "all_edges": 3013,
+    "sources": 737,
     "claims": 34,
     "evidence_records": 37,
-    "profiles": 174,
+    "profiles": 182,
     "journeys": 24,
     "external_corpora_reviewed": 12,
     "internal_sources_reviewed": 18,
-    "reader_connected_entries": 1154,
-    "semantic_connected_entries": 515,
-    "semantic_gap_entries": 681,
+    "reader_connected_entries": 1155,
+    "semantic_connected_entries": 516,
+    "semantic_gap_entries": 680,
     "connection_bands": {
-      "developing": 239,
+      "developing": 240,
       "rich": 93,
       "thin": 822,
-      "unconnected": 42
+      "unconnected": 41
     },
     "evidence_bands": {
       "mixed": 271,
-      "none": 42,
-      "provisional": 678,
+      "none": 41,
+      "provisional": 679,
       "supported": 205
     },
-    "reader_statements": 2382,
-    "semantic_statements": 1049
+    "reader_statements": 2389,
+    "semantic_statements": 1050
   },
   "changes_from_baseline": {
     "generic_relation_review_targets": {
@@ -66,60 +66,60 @@
     },
     "sources": {
       "before": 153,
-      "after": 715
+      "after": 737
     },
     "semantic_connected_entries": {
       "before": 329,
-      "after": 515,
+      "after": 516,
       "note": "A generic journal-to-tradition edge was replaced by a narrower documentary scope claim; unsupported semantic reach was not preserved."
     },
     "substantive_edge_count": {
       "before": 750,
-      "after": 1052
+      "after": 1053
     },
     "isolated_semantic_nodes": {
       "before": 167,
-      "after": 681
+      "after": 680
     }
   },
   "criteria": {
     "typed": {
-      "passing": 3006,
-      "total": 3006
+      "passing": 3013,
+      "total": 3013
     },
     "directed": {
-      "passing": 2905,
-      "total": 3006,
+      "passing": 2912,
+      "total": 3013,
       "undirected": 101
     },
     "human_readable_phrase": {
-      "passing": 3006,
-      "total": 3006
+      "passing": 3013,
+      "total": 3013
     },
     "explicit_rationale": {
-      "passing": 2707,
-      "total": 3006
+      "passing": 2714,
+      "total": 3013
     },
     "source_identifier": {
-      "passing": 3006,
-      "total": 3006
+      "passing": 3013,
+      "total": 3013
     },
     "locator_present": {
-      "passing": 2603,
-      "total": 3006
+      "passing": 2610,
+      "total": 3013
     },
     "precision_shaped_locator": {
       "passing": 556,
-      "total": 3006,
+      "total": 3013,
       "note": "Conservative text-pattern measure; manual review is still required."
     },
     "epistemic_fields_present": {
-      "passing": 3006,
-      "total": 3006
+      "passing": 3013,
+      "total": 3013
     },
     "generic_related_to": {
-      "passing": 3006,
-      "total": 3006,
+      "passing": 3013,
+      "total": 3013,
       "review_target_count": 0
     },
     "three_or_more_relation_families": {
@@ -292,25 +292,6 @@
       "label": "Edgar Morin",
       "entity_type": "person",
       "publication_level": "research_stub",
-      "connection_band": "unconnected",
-      "evidence_band": "none",
-      "visible_connections": 0,
-      "visible_statements": 0,
-      "reader_connections": 0,
-      "reader_statements": 0,
-      "semantic_connections": 0,
-      "semantic_statements": 0,
-      "documentary_statements": 0,
-      "accepted_reader_statements": 0,
-      "provisional_reader_statements": 0,
-      "distinct_reader_families": 0,
-      "reader_families": []
-    },
-    {
-      "node_id": "person_eric_trist",
-      "label": "Eric Trist",
-      "entity_type": "person",
-      "publication_level": "described",
       "connection_band": "unconnected",
       "evidence_band": "none",
       "visible_connections": 0,
@@ -1100,6 +1081,27 @@
       ]
     },
     {
+      "node_id": "person_eric_trist",
+      "label": "Eric L. Trist",
+      "entity_type": "person",
+      "publication_level": "profile",
+      "connection_band": "thin",
+      "evidence_band": "provisional",
+      "visible_connections": 1,
+      "visible_statements": 1,
+      "reader_connections": 1,
+      "reader_statements": 1,
+      "semantic_connections": 1,
+      "semantic_statements": 1,
+      "documentary_statements": 0,
+      "accepted_reader_statements": 0,
+      "provisional_reader_statements": 1,
+      "distinct_reader_families": 1,
+      "reader_families": [
+        "historical"
+      ]
+    },
+    {
       "node_id": "publication_flawless_consulting",
       "label": "Flawless Consulting: A Guide to Getting Your Expertise Used",
       "entity_type": "publication",
@@ -1139,6 +1141,27 @@
       "distinct_reader_families": 1,
       "reader_families": [
         "conceptual"
+      ]
+    },
+    {
+      "node_id": "organisation_ifsr",
+      "label": "International Federation for Systems Research",
+      "entity_type": "organisation",
+      "publication_level": "profile",
+      "connection_band": "thin",
+      "evidence_band": "provisional",
+      "visible_connections": 1,
+      "visible_statements": 1,
+      "reader_connections": 1,
+      "reader_statements": 1,
+      "semantic_connections": 1,
+      "semantic_statements": 1,
+      "documentary_statements": 0,
+      "accepted_reader_statements": 0,
+      "provisional_reader_statements": 1,
+      "distinct_reader_families": 1,
+      "reader_families": [
+        "institutional"
       ]
     },
     {
@@ -2551,27 +2574,6 @@
     {
       "node_id": "person_fpcs_g_parisi",
       "label": "G. Parisi",
-      "entity_type": "person",
-      "publication_level": "described",
-      "connection_band": "thin",
-      "evidence_band": "mixed",
-      "visible_connections": 1,
-      "visible_statements": 1,
-      "reader_connections": 1,
-      "reader_statements": 1,
-      "semantic_connections": 0,
-      "semantic_statements": 0,
-      "documentary_statements": 1,
-      "accepted_reader_statements": 1,
-      "provisional_reader_statements": 0,
-      "distinct_reader_families": 1,
-      "reader_families": [
-        "documentary"
-      ]
-    },
-    {
-      "node_id": "person_fpcs_g_r_price",
-      "label": "G. R. Price",
       "entity_type": "person",
       "publication_level": "described",
       "connection_band": "thin",
