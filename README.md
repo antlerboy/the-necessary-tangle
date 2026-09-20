@@ -135,3 +135,7 @@ Release 0.25 adds a source-scoped CoExplorer comparison and compares the two Ans
 ## Release 0.26
 
 Release 0.26 connects 324 public-library resource records, 114 large-group entries, and eight now-public teaching-source URLs. The source register also includes Chosen Path and SysCoi post metadata, with automated discovery matches explicitly separated from located teaching claims. The private research inventory contains 2,943 indexed records; public bibliographic reconciliation is tracked separately. Current atlas: 1196 public entries, 1323 nodes, 3006 statements, and 715 sources. No independent specialist review is claimed. See https://transduction.systems/library/.
+
+## Release 0.27
+
+Release 0.27 reviews all fifteen open missing-entry reports from issues 69–86. Every report now resolves to a public profile with evidence boundaries, report provenance, and explicit open checks. Seven bounded office or contribution statements were added; no teacher–student, generic influence, priority, or effectiveness relation was inferred. Current atlas: 1196 public entries. See https://transduction.systems/updates/2026-09-20/.

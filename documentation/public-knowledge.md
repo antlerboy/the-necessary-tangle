@@ -1,7 +1,7 @@
 # The Necessary Tangle: public knowledge file
 
 Curated by Benjamin P Taylor — https://www.antlerboy.com/
-Generated from public release 0.26 on 2026-09-19.
+Generated from public release 0.27 on 2026-09-20.
 
 A living evidence atlas of systems | cybernetics | complexity.
 Every connection must say what it means. Historical sequence, logical dependence, influence, teaching, collaboration, practical use, comparison and dispute are not interchangeable.
@@ -656,23 +656,24 @@ His co-authorship is part of the book's intellectual and practical provenance an
 Type: Person
 Public depth: profile
 
-Allenna Leonard is a practitioner of organisational cybernetics. Her 2014 conference biography describes using the Viable System Model and Team Syntegrity and working with Stafford Beer. The American Society for Cybernetics records her presidency in 2002–2004.
+Allenna Leonard is a practitioner of organisational cybernetics. Her 2014 conference biography describes using the Viable System Model and Team Syntegrity and working with Stafford Beer. ASC records her 2002–04 presidency, and ISSS records her later presidency.
 
 ### Summary
 
-Allenna Leonard is a practitioner of organisational cybernetics. Her 2014 conference biography describes using the Viable System Model and Team Syntegrity and working with Stafford Beer. The American Society for Cybernetics records her presidency in 2002–2004.
+Allenna Leonard is a practitioner of organisational cybernetics. Her 2014 conference biography describes using the Viable System Model and Team Syntegrity and working with Stafford Beer. ASC records her 2002–04 presidency, and ISSS records her later presidency.
 
 ### Why it matters
 
-Her account provides a route from organisational cybernetics to reported consulting and facilitation practice.
+Leonard provides a documented route from management cybernetics into organisational consulting, facilitation, and the stewardship of cybernetics institutions.
 
 ### Key distinctions
 
-- Using a method, collaborating with its originator, and originating the method are different claims.
+- Using and adapting a method is distinct from originating it.
+- Institutional leadership and theoretical contribution need separate evidence.
 
 ### Historical development
 
-[]
+- Management cybernetics, the Viable System Model, Team Syntegrity, and professional societies.
 
 ### Ideas it depends on
 
@@ -684,21 +685,22 @@ Her account provides a route from organisational cybernetics to reported consult
 
 ### Connections to practice
 
-[]
+- Use VSM and Team Syntegrity as explicit practices whose application and consequences can be examined, not as prestige labels.
 
 ### Common confusions
 
-[]
+- The entry does not infer every named collaboration or claim of method refinement from a conference biography.
 
 ### Open questions and checks
 
-- The biography is a practitioner account, not an independent evaluation of effectiveness.
-- Detailed case studies, further institutional roles, and the wider submission still require source-level review.
+- Metaphorum, Systems Thinking Ontario, IFSR Conversation, and later publication claims need their own organisational or publication records.
 
 ### Sources
 
 - Allenna Leonard: 2014 ASC conference biography — https://asc-cybernetics.org/2014/?page_id=934
 - ASC Executive Board and past presidents — https://asc-cybernetics.org/executive-board/
+- Past presidents of the ISSS — https://www.isss.org/past-presidents/
+- Missing-entry report #84: Allenna Leonard — https://github.com/antlerboy/the-necessary-tangle/issues/84
 
 ## American Society for Cybernetics
 
@@ -3656,23 +3658,24 @@ The atlas needs lineages that are documented rather than merely asserted. Ing’
 Type: Person
 Public depth: profile
 
-David L. Hawk wrote the 2020 proceedings paper Socio-technical-natural systems thinking. Its abstract revisits socio-technical concerns through industrial activity's environmental context and identifies Trist's work as a point of departure.
+David L. Hawk wrote the 2020 proceedings paper Socio-technical-natural systems thinking. Its abstract revisits socio-technical concerns through the environmental context of industrial activity and identifies Trist's work as a point of departure.
 
 ### Summary
 
-David L. Hawk wrote the 2020 proceedings paper Socio-technical-natural systems thinking. Its abstract revisits socio-technical concerns through industrial activity's environmental context and identifies Trist's work as a point of departure.
+David L. Hawk wrote the 2020 proceedings paper Socio-technical-natural systems thinking. Its abstract revisits socio-technical concerns through the environmental context of industrial activity and identifies Trist's work as a point of departure.
 
 ### Why it matters
 
-The abstract offers a question for further reading: how should socio-technical inquiry account for its environmental setting?
+Hawk's paper asks what is omitted when a sociotechnical frame treats the natural environment as background rather than as part of the system under consideration.
 
 ### Key distinctions
 
-- A paper's discussion of Ackoff and Trist is not evidence that its author studied under either person.
+- Citing or discussing Trist and Ackoff is not evidence of studying under them.
+- A publication abstract supports the paper's stated concern, not every biographical claim in the report.
 
 ### Historical development
 
-[]
+- A proposed extension from sociotechnical to socio-technical-natural inquiry.
 
 ### Ideas it depends on
 
@@ -3684,19 +3687,20 @@ The abstract offers a question for further reading: how should socio-technical i
 
 ### Connections to practice
 
-[]
+- Test whether an organisational intervention has pushed ecological effects outside its chosen boundary.
 
 ### Common confusions
 
-[]
+- The entry does not present Hawk as a simple conduit from a single Penn lineage.
 
 ### Open questions and checks
 
-- The institutional record provides an abstract and citation; the full paper was not reviewed. Claims about Hawk's training and wider contribution remain open.
+- The full paper and primary records for the Penn, Stockholm, and named collaborator claims remain to be reviewed.
 
 ### Sources
 
 - Socio-technical-natural systems thinking (STN) — https://digitalcommons.njit.edu/fac_pubs/5582/
+- Missing-entry report #72: David L. Hawk — https://github.com/antlerboy/the-necessary-tangle/issues/72
 
 ## Decision structure design
 
@@ -4711,16 +4715,55 @@ Miranda Fricker's account of testimonial and hermeneutical injustice, connecting
 
 - Epistemic Injustice: Power and the Ethics of Knowing — https://academic.oup.com/book/32817
 
-## Eric Trist
+## Eric L. Trist
 
 Type: Person
-Public depth: described
+Public depth: profile
 
-Eric Lansdown Trist (1909–1993) worked on sociotechnical systems and organisation design. The cited chapter abstract also describes action research and his work with Fred Emery.
+Eric Lansdown Trist was a central figure in the development of sociotechnical systems and organisation design. The cited chapter abstract connects his work with action research and Fred Emery; a public practice source provides a route into his account of the evolution of the sociotechnical systems idea.
+
+### Summary
+
+Eric Lansdown Trist was a central figure in the development of sociotechnical systems and organisation design. The cited chapter abstract connects his work with action research and Fred Emery; a public practice source provides a route into his account of the evolution of the sociotechnical systems idea.
+
+### Why it matters
+
+Trist's work makes the design of work inseparable from the design of its technologies and social arrangements.
+
+### Key distinctions
+
+- Sociotechnical inquiry is not a request to optimise a social subsystem and a technical subsystem separately.
+- Collaboration with Fred Emery does not make every later sociotechnical claim jointly authored.
+
+### Historical development
+
+- Tavistock action research and the development of sociotechnical systems.
+
+### Ideas it depends on
+
+[]
+
+### What develops from it
+
+[]
+
+### Connections to practice
+
+- Examine the work system, technical arrangements, discretion, and coordination together.
+
+### Common confusions
+
+- The sources support contribution and collaboration, not the report's stronger language of proof or sole invention.
+
+### Open questions and checks
+
+- The full Palgrave chapter was not read in this pass; detailed Penn, York, Ackoff, and Hawk lineage claims need their own primary locators.
 
 ### Sources
 
 - Eric Trist: An American/North American View — https://link.springer.com/referenceworkentry/10.1007/978-3-319-49820-1_27-1
+- Eric Trist: the evolution of socio-technical systems — https://www.systemspractice.org/resources/evolution-socio-technical-systems-conceptual-framework-and-action-research-program
+- Missing-entry report #69: Eric L. Trist — https://github.com/antlerboy/the-necessary-tangle/issues/69
 
 ## Essential Balances
 
@@ -5770,13 +5813,53 @@ Named in the overview's solutions-design column; the deck does not supply a sepa
 ## Gary S. Metcalf
 
 Type: Person
-Public depth: described
+Public depth: profile
 
-Co-editor of the 2021 Handbook of Systems Sciences. This initial entry records the publisher-verified contribution; a fuller intellectual profile remains open.
+Gary S. Metcalf is a systems researcher and co-editor of the 2021 Handbook of Systems Sciences. ISSS records his presidency, while IFSR lists him among its fellows; these records establish editorial and institutional roles without substituting them for analysis of his published arguments.
+
+### Summary
+
+Gary S. Metcalf is a systems researcher and co-editor of the 2021 Handbook of Systems Sciences. ISSS records his presidency, while IFSR lists him among its fellows; these records establish editorial and institutional roles without substituting them for analysis of his published arguments.
+
+### Why it matters
+
+His documented roles give readers an entrance into contemporary attempts to connect systems-science traditions, education, and practice.
+
+### Key distinctions
+
+- Editing a handbook is a contribution to a field's conversation, not authorship of every chapter.
+- Institutional office and intellectual merit require separate evidence.
+
+### Historical development
+
+- Contemporary systems-sciences publishing and professional institutions.
+
+### Ideas it depends on
+
+[]
+
+### What develops from it
+
+[]
+
+### Connections to practice
+
+- Use the Handbook as a plural collection, retaining differences between its contributors rather than treating it as one doctrine.
+
+### Common confusions
+
+- The entry does not reproduce the report's broad claims about second-wave systems thinking without named publications.
+
+### Open questions and checks
+
+- The report's claims about social systems design, Banathy, and specific philosophical contributions remain publication-level research tasks.
 
 ### Sources
 
 - Handbook of Systems Sciences — https://link.springer.com/referencework/10.1007/978-981-15-0720-5
+- Past presidents of the ISSS — https://www.isss.org/past-presidents/
+- About the IFSR — https://ifsr.org/about-ifsr/
+- Missing-entry report #74: Gary S. Metcalf — https://github.com/antlerboy/the-necessary-tangle/issues/74
 
 ## Gemba Kaizen
 
@@ -5836,16 +5919,54 @@ Named in the public 0.18 coverage audit. A source-specific profile and typed lin
 ## Gerald Midgley
 
 Type: Person
-Public depth: described
+Public depth: profile
 
-Systems researcher associated with systemic intervention, boundary critique, methodological pluralism and the study of marginalisation.
+Gerald Midgley is a systems researcher associated with systemic intervention, boundary critique, methodological pluralism, and the study of marginalisation. His own account of systemic intervention and institutional profiles establish these areas of work; ANU and ISSS also record his 2013–14 presidency of ISSS.
+
+### Summary
+
+Gerald Midgley is a systems researcher associated with systemic intervention, boundary critique, methodological pluralism, and the study of marginalisation. His own account of systemic intervention and institutional profiles establish these areas of work; ANU and ISSS also record his 2013–14 presidency of ISSS.
+
+### Why it matters
+
+Midgley's work connects choices about system boundaries and methods with questions of value, marginalisation, and who participates in an intervention.
+
+### Key distinctions
+
+- Methodological pluralism requires a rationale for combining methods; it is not a miscellaneous toolkit.
+- Boundary choices are practical and ethical judgements, not merely diagram edges.
+
+### Historical development
+
+- Critical systems thinking, boundary critique, and systemic intervention.
+
+### Ideas it depends on
+
+[]
+
+### What develops from it
+
+[]
+
+### Connections to practice
+
+- Ask whose concerns are centred, whose are marginalised, and how method choice changes the intervention.
+
+### Common confusions
+
+- The profile does not attribute every later framework influenced by Midgley to him as its author.
+
+### Open questions and checks
+
+- Claims of collaboration or influence outside the cited records remain separate, source-specific questions.
 
 ### Sources
 
 - The Systemic Intervention Approach — https://doi.org/10.1002/sres.2819
-- Lineages of Systems Practice — Damian Allen — No public link
-- Damian Allen follow-up correspondence on lineage and UTSI — No public link
 - Professor Gerald Midgley — University of Hull — https://www.hull.ac.uk/staff-directory/gerald-midgley
+- Gerald Midgley: ANU School of Cybernetics profile — https://cybernetics.anu.edu.au/people/gerald-midgley/
+- Past presidents of the ISSS — https://www.isss.org/past-presidents/
+- Missing-entry report #81: Gerald Midgley — https://github.com/antlerboy/the-necessary-tangle/issues/81
 
 ## Giant Brains, or Machines That Think
 
@@ -6311,13 +6432,52 @@ A bibliographic first-pass person entry for I. Prigogine, listed by the official
 ## Ian I. Mitroff
 
 Type: Person
-Public depth: described
+Public depth: profile
 
-Credited author of Tools, Exercises, and Strategies for Coping With Complexity. This entry records a publication credit; wider biographical research remains open.
+Ian I. Mitroff worked across crisis management, organisational inquiry, wicked problems, and applied epistemology. Berkeley's Center for Catastrophic Risk Management records his senior research affiliation and describes a career concerned with preparing organisations for multiple kinds of crisis; he is also a credited author of Tools, Exercises, and Strategies for Coping With Complexity.
+
+### Summary
+
+Ian I. Mitroff worked across crisis management, organisational inquiry, wicked problems, and applied epistemology. Berkeley's Center for Catastrophic Risk Management records his senior research affiliation and describes a career concerned with preparing organisations for multiple kinds of crisis; he is also a credited author of Tools, Exercises, and Strategies for Coping With Complexity.
+
+### Why it matters
+
+Mitroff's work keeps inquiry into what problem is being addressed close to the organisational capacity to anticipate, contain, recover from, and learn through crises.
+
+### Key distinctions
+
+- A named crisis-management framework is not identical to a general theory of systems.
+- Asking whether the right problem has been formulated is distinct from finding a better solution to the stated problem.
+
+### Historical development
+
+- Systems inquiry, organisational crisis management, and wicked-problem research.
+
+### Ideas it depends on
+
+[]
+
+### What develops from it
+
+[]
+
+### Connections to practice
+
+- Before solving a declared problem, test the assumptions which made that problem formulation appear natural.
+
+### Common confusions
+
+- The profile does not confer sole authorship of every idea later associated with crisis management or Type III error.
+
+### Open questions and checks
+
+- Specific framework stages, Churchman lineage, and claims of priority require publication-level locators.
 
 ### Sources
 
 - Tools, Exercises, and Strategies for Coping With Complexity — https://www.igi-global.com/book/tools-exercises-strategies-coping-complexity/302472
+- Remembering CCRM Senior Research Associate Ian Mitroff — https://ccrm.berkeley.edu/remembering-ccrm-senior-research-associate-ian-mitroff
+- Missing-entry report #73: Ian I. Mitroff — https://github.com/antlerboy/the-necessary-tangle/issues/73
 
 ## ICA Strategic Planning Process
 
@@ -6842,24 +7002,105 @@ The condition in which elements and contexts affect one another through relation
 ## International Federation for Systems Research
 
 Type: Organisation
-Public depth: described
+Public depth: profile
 
-A federation connecting systems-research organisations. The linked member record establishes its relationship with ISSS; broader institutional history remains a separate research task.
+The International Federation for Systems Research is a federation of systems and cybernetics organisations founded in 1980. Its official account describes a mission to advance research, support practice, connect member organisations, convene conversations, and promote international cooperation and publication.
+
+### Summary
+
+The International Federation for Systems Research is a federation of systems and cybernetics organisations founded in 1980. Its official account describes a mission to advance research, support practice, connect member organisations, convene conversations, and promote international cooperation and publication.
+
+### Why it matters
+
+IFSR gives the field a network-of-organisations form and a recurring setting for cross-tradition conversation which no single member society could supply alone.
+
+### Key distinctions
+
+- A peak-body claim describes an institutional role, not authority over the whole field.
+- Membership, collaboration, journal relationships, and control of a publication are different relations.
+
+### Historical development
+
+- International federation-building across systems science and cybernetics since 1980.
+
+### Ideas it depends on
+
+[]
+
+### What develops from it
+
+[]
+
+### Connections to practice
+
+- Use federation records to locate organisations and conversations while preserving differences among members.
+
+### Common confusions
+
+- The report's claims about preventing duplication, academic standards, encyclopaedia maintenance, and a single contemporary agenda exceed the located evidence.
+
+### Open questions and checks
+
+- Founding-member records, the full journal relationship, book-series governance, and leadership chronology need document-level verification.
 
 ### Sources
 
+- About the IFSR — https://ifsr.org/about-ifsr/
+- IFSR Conversations Legacy — https://ifsr.org/systems-research/ifsr-conversations-legacy/
 - ISSS: IFSR member record — https://ifsr.org/member/international-society-for-the-systems-sciences-isss/
+- Missing-entry report #86: International Federation for Systems Research — https://github.com/antlerboy/the-necessary-tangle/issues/86
 
 ## International Society for the Systems Sciences
 
 Type: Organisation
-Public depth: described
+Public depth: profile
 
-An interdisciplinary systems-sciences society, previously named the Society for General Systems Research. Its IFSR member record describes both theoretical inquiry and exchange among practitioners.
+The International Society for the Systems Sciences is an interdisciplinary society whose own history traces its origin to the Society for General Systems Research and mid-1950s meetings associated with the AAAS. It convenes annual meetings, records a long succession of presidents, and is an IFSR member organisation.
+
+### Summary
+
+The International Society for the Systems Sciences is an interdisciplinary society whose own history traces its origin to the Society for General Systems Research and mid-1950s meetings associated with the AAAS. It convenes annual meetings, records a long succession of presidents, and is an IFSR member organisation.
+
+### Why it matters
+
+ISSS is one of the durable institutional places through which systems-science traditions have met, argued, published, and reproduced themselves.
+
+### Key distinctions
+
+- A society can host a field without speaking for all of it.
+- Institutional continuity does not establish one unified systems doctrine or an unbroken line from the Macy conferences.
+
+### Historical development
+
+- The Society for General Systems Research, annual systems-sciences meetings, and later ISSS institutional history.
+
+### Ideas it depends on
+
+[]
+
+### What develops from it
+
+[]
+
+### Connections to practice
+
+- Use the society's records to locate people, meetings, and publications, while checking substantive claims in their primary texts.
+
+### Common confusions
+
+- The report's claims that ISSS unified the field, eliminated duplication, or created a shared language are institutional aspirations, not demonstrated outcomes.
+
+### Open questions and checks
+
+- The exact constitutional history, AAAS affiliation, founders, name-change dates, and the claimed relationship to the Macy conferences merit a separate archival pass.
 
 ### Sources
 
+- About the ISSS — https://www.isss.org/about-isss/
+- ISSS Meeting History — https://www.isss.org/meeting-history/
+- Past presidents of the ISSS — https://www.isss.org/past-presidents/
 - ISSS: IFSR member record — https://ifsr.org/member/international-society-for-the-systems-sciences-isss/
+- Missing-entry report #85: International Society for the Systems Sciences — https://github.com/antlerboy/the-necessary-tangle/issues/85
 
 ## Interrelationships
 
@@ -7202,23 +7443,24 @@ Physicist whose 1868 analysis of centrifugal governors is a historical precursor
 Type: Person
 Public depth: profile
 
-James J. Kay worked in environment and resource studies at the University of Waterloo. The Ecosystem Approach credits him with chapters on systems thinking, system description, and management, and a joint chapter with Michelle Boyle on self-organising, holarchic, open systems.
+James J. Kay worked in environment and resource studies at the University of Waterloo. The Ecosystem Approach credits him with chapters on systems thinking, system description, management, and self-organising holarchic open systems.
 
 ### Summary
 
-James J. Kay worked in environment and resource studies at the University of Waterloo. The Ecosystem Approach credits him with chapters on systems thinking, system description, and management, and a joint chapter with Michelle Boyle on self-organising, holarchic, open systems.
+James J. Kay worked in environment and resource studies at the University of Waterloo. The Ecosystem Approach credits him with chapters on systems thinking, system description, management, and self-organising holarchic open systems.
 
 ### Why it matters
 
-The publisher's contents provide a reading route into his contributions to ecosystem inquiry.
+Kay offers a route into ecological inquiry which joins systems description, uncertainty, self-organisation, and the practical problem of managing for sustainability.
 
 ### Key distinctions
 
-- A chapter credit supports attribution; the chapter's title alone cannot establish a complete method.
+- A chapter title establishes authorship and topic, not the truth of a thermodynamic law or a complete method.
+- Ecosystem self-organisation and policy prescription are different kinds of claim.
 
 ### Historical development
 
-[]
+- Ecological systems, complexity, thermodynamics, and the ecosystem approach.
 
 ### Ideas it depends on
 
@@ -7230,19 +7472,20 @@ The publisher's contents provide a reading route into his contributions to ecosy
 
 ### Connections to practice
 
-[]
+- Treat descriptions of an ecosystem, choices about management, and claims about sustainability as connected but non-identical.
 
 ### Common confusions
 
-[]
+- The submitted influence list is not reproduced as a verified intellectual genealogy.
 
 ### Open questions and checks
 
-- The full chapters and the submission's wider thermodynamic and intellectual-lineage claims remain to be examined.
+- Full-text review is still needed for the proposed Prigogine, Odum, Wicken, Koestler, Funtowicz, and Ravetz connections.
 
 ### Sources
 
 - The Ecosystem Approach: Complexity, Uncertainty, and Managing for Sustainability — https://cup.columbia.edu/book/the-ecosystem-approach/9780231507202/
+- Missing-entry report #70: James J. Kay — https://github.com/antlerboy/the-necessary-tangle/issues/70
 
 ## James Lovelock
 
@@ -7328,23 +7571,24 @@ A Chilean biologist who co-authored the natural-drift account of evolutionary di
 Type: Person
 Public depth: profile
 
-Judith Rosen contributed an introduction and a short story about Robert Rosen to the second edition of his Anticipatory Systems (2012). Springer identifies Robert Rosen as the book's author.
+Judith Rosen contributed an introduction and a short story about Robert Rosen to the second edition of Anticipatory Systems (2012). Springer identifies Robert Rosen as the book's author and describes her contributions separately.
 
 ### Summary
 
-Judith Rosen contributed an introduction and a short story about Robert Rosen to the second edition of his Anticipatory Systems (2012). Springer identifies Robert Rosen as the book's author.
+Judith Rosen contributed an introduction and a short story about Robert Rosen to the second edition of Anticipatory Systems (2012). Springer identifies Robert Rosen as the book's author and describes her contributions separately.
 
 ### Why it matters
 
-The edition offers a specific reading route into her contribution to presenting Robert Rosen's work.
+Her credited contributions form part of how a later edition presents Robert Rosen's work and its personal and intellectual context.
 
 ### Key distinctions
 
-- A contribution to an edition is distinct from authorship of the whole book or a formally credited editorial role.
+- Contributing to an edition is not authorship of the original book or its central theory.
+- Family relationship, editorial labour, scholarship, and theoretical extension are distinct claims.
 
 ### Historical development
 
-[]
+- The publication and reception history of Robert Rosen's Anticipatory Systems.
 
 ### Ideas it depends on
 
@@ -7356,19 +7600,20 @@ The edition offers a specific reading route into her contribution to presenting 
 
 ### Connections to practice
 
-[]
+- Credit the contribution named by the publisher without inflating or erasing it.
 
 ### Common confusions
 
-[]
+- The report's wider claims about preservation, translation, ecology, cognition, and health are not established by the publisher record.
 
 ### Open questions and checks
 
-- This entry establishes the publisher's contribution credits. It does not yet assess Judith Rosen's wider scholarship or infer authorship of Robert Rosen's theory.
+- Judith Rosen's wider publications and any Rosen Enterprises archive role need separate, public, publication-level evidence.
 
 ### Sources
 
 - Anticipatory Systems, second edition — https://link.springer.com/book/10.1007/978-1-4614-1269-4
+- Missing-entry report #82: Judith Rosen — https://github.com/antlerboy/the-necessary-tangle/issues/82
 
 ## Julian Bigelow
 
@@ -7541,16 +7786,56 @@ Kurt Gödel was a logician whose work on completeness, incompleteness and set th
 - SCiO SysBoK - Recursion v1 — No public link
 - Kurt Gödel — https://plato.stanford.edu/entries/goedel/
 
-## Kyoichi Kijima
+## Kyoichi (Jim) Kijima
 
 Type: Person
-Public depth: described
+Public depth: profile
 
-Co-editor of the 2021 Handbook of Systems Sciences. This initial entry records the publisher-verified contribution; a fuller intellectual profile remains open.
+Kyoichi Kijima is a systems scientist working across systems methodology, decision systems, and service systems. He co-edited the 2021 Handbook of Systems Sciences, and ISSS records his presidency; his laboratory biosketch supplies an author-maintained account of his research and institutional work.
+
+### Summary
+
+Kyoichi Kijima is a systems scientist working across systems methodology, decision systems, and service systems. He co-edited the 2021 Handbook of Systems Sciences, and ISSS records his presidency; his laboratory biosketch supplies an author-maintained account of his research and institutional work.
+
+### Why it matters
+
+Kijima's documented work gives readers a route from systems-science institutions and methods into the study of service and decision systems.
+
+### Key distinctions
+
+- Service science is not reducible to customer service or to one systems methodology.
+- A handbook editorship and presidency are roles, not proof of conceptual priority.
+
+### Historical development
+
+- Systems methodology, decision systems, service systems, and systems-sciences institutions.
+
+### Ideas it depends on
+
+[]
+
+### What develops from it
+
+[]
+
+### Connections to practice
+
+- Treat service as a system of interacting actors, resources, purposes, and institutional arrangements.
+
+### Common confusions
+
+- The report's claims of foundational status and global expansion are not retained as settled rankings.
+
+### Open questions and checks
+
+- Specific methods, collaborations, and claimed service-science innovations need close reading of named publications.
 
 ### Sources
 
 - Handbook of Systems Sciences — https://link.springer.com/referencework/10.1007/978-981-15-0720-5
+- Kyoichi Kijima: overview and biosketch — https://www.kijima-lab.com/overview-biosketch/
+- Past presidents of the ISSS — https://www.isss.org/past-presidents/
+- Missing-entry report #80: Kyoichi (Jim) Kijima — https://github.com/antlerboy/the-necessary-tangle/issues/80
 
 ## L. Allen
 
@@ -8866,23 +9151,24 @@ Education scholar whose 'system thinkers in action' formulation is recalled by D
 Type: Person
 Public depth: profile
 
-Michael Lissack served as president of the American Society for Cybernetics from 2014 to 2020, according to the society's record of past presidents.
+Michael Lissack describes his work as applied philosophy, cybernetics, and second-order science, with attention to the observer, modelling, anticipation, and unexamined presuppositions. The American Society for Cybernetics records his presidency from 2014 to 2020.
 
 ### Summary
 
-Michael Lissack served as president of the American Society for Cybernetics from 2014 to 2020, according to the society's record of past presidents.
+Michael Lissack describes his work as applied philosophy, cybernetics, and second-order science, with attention to the observer, modelling, anticipation, and unexamined presuppositions. The American Society for Cybernetics records his presidency from 2014 to 2020.
 
 ### Why it matters
 
-This institutional record establishes a documented role in the cybernetics community and a starting point for further research.
+His current programme makes the observer's commitments, exclusions, and consequences part of the inquiry rather than invisible background.
 
 ### Key distinctions
 
-- Institutional leadership is distinct from the content or validity of a scholarly contribution.
+- An author-maintained profile establishes his stated programme, not independent acceptance of its concepts.
+- Second-order inquiry is not permission to make evidence optional.
 
 ### Historical development
 
-[]
+- Second-order cybernetics, anticipatory systems, and philosophy of inquiry.
 
 ### Ideas it depends on
 
@@ -8894,19 +9180,21 @@ This institutional record establishes a documented role in the cybernetics commu
 
 ### Connections to practice
 
-[]
+- Surface the presuppositions which allow a model or explanation to count as adequate for its observer.
 
 ### Common confusions
 
-[]
+- The profile does not accept the report's broad claims about complexity theory without source-level argument review.
 
 ### Open questions and checks
 
-- The submitted account of Lissack's research needs close reading of named publications. This profile does not substitute an office-holding record for that work.
+- Individual concepts and current in-press work need their published texts before stronger conceptual edges are added.
 
 ### Sources
 
 - ASC Executive Board and past presidents — https://asc-cybernetics.org/executive-board/
+- Michael Lissack: academic profile — https://lissack.com/
+- Missing-entry report #77: Michael Lissack — https://github.com/antlerboy/the-necessary-tangle/issues/77
 
 ## Miguel Pantaleon
 
@@ -10587,23 +10875,24 @@ His work makes a basic systems distinction operational: systems can be used as d
 Type: Person
 Public depth: profile
 
-Peter Jones works in systemic design, healthcare design, and dialogic inquiry. OCAD University's sLab profile names him as a co-founder of the Systemic Design Association. Tecnológico de Monterrey announced his arrival in its Faculty of Excellence in March 2024.
+Peter H. Jones works in systemic design, healthcare design, and dialogic inquiry. OCAD University identifies him as a co-founder of the Systemic Design Association and describes work on information services and complex social systems; Tecnológico de Monterrey announced his Faculty of Excellence appointment in March 2024.
 
 ### Summary
 
-Peter Jones works in systemic design, healthcare design, and dialogic inquiry. OCAD University's sLab profile names him as a co-founder of the Systemic Design Association. Tecnológico de Monterrey announced his arrival in its Faculty of Excellence in March 2024.
+Peter H. Jones works in systemic design, healthcare design, and dialogic inquiry. OCAD University identifies him as a co-founder of the Systemic Design Association and describes work on information services and complex social systems; Tecnológico de Monterrey announced his Faculty of Excellence appointment in March 2024.
 
 ### Why it matters
 
-His institutional profiles connect systemic design with the design of information services and collective inquiry.
+Jones's work supplies a concrete bridge between systems inquiry and design practice in services, policy, healthcare, and collective deliberation.
 
 ### Key distinctions
 
-- A dated appointment announcement and an undated institutional biography need separate treatment; neither proves an unchanged current role.
+- Systemic design is not established as one person's invention by a co-founder role.
+- A dated appointment announcement and an undated institutional biography do not establish permanent current roles.
 
 ### Historical development
 
-[]
+- Systemic design, dialogic design, service design, and healthcare design.
 
 ### Ideas it depends on
 
@@ -10615,20 +10904,21 @@ His institutional profiles connect systemic design with the design of informatio
 
 ### Connections to practice
 
-[]
+- Bring boundary, stakeholder, service, and information questions into the design process rather than treating design as object production alone.
 
 ### Common confusions
 
-[]
+- The submitted description's language of a foundational figure and codification is treated as a proposal, not an accepted ranking.
 
 ### Open questions and checks
 
-- Research interests and institutional roles are documented here. Detailed claims about methods, influence, or effectiveness require the relevant publications.
+- Claims about founding priority, named collaborations, and method development need publication or organisational records.
 
 ### Sources
 
 - Peter Jones: sLab institutional profile — https://slab.ocadu.ca/people/peter-jones
 - Peter Jones: the futurist systems expert joining the Tec — https://conecta.tec.mx/en/news/national/education/peter-jones-futurist-systems-expert-joining-tec
+- Missing-entry report #76: Peter H. Jones — https://github.com/antlerboy/the-necessary-tangle/issues/76
 
 ## Phase transition
 
@@ -17052,13 +17342,54 @@ Named in the historical reading list as an author or editor of The Transmission 
 ## Robert Rosen
 
 Type: Person
-Public depth: described
+Public depth: profile
 
-A biologist whose archive provides access to work across biology, complexity, mathematics and epistemology. This entry identifies the collection; the submitted claims about anticipatory systems require a separate close-reading pass.
+Robert Rosen was a theoretical biologist whose work addressed relational biology, anticipatory systems, modelling, and the organisation of living systems. His scientific-work archive provides routes into the corpus; Springer identifies him as the author of Anticipatory Systems, and ISSS records his presidency in 1980–81.
+
+### Summary
+
+Robert Rosen was a theoretical biologist whose work addressed relational biology, anticipatory systems, modelling, and the organisation of living systems. His scientific-work archive provides routes into the corpus; Springer identifies him as the author of Anticipatory Systems, and ISSS records his presidency in 1980–81.
+
+### Why it matters
+
+Rosen matters to systems inquiry because he treated modelling and anticipation as constitutive questions for living organisation, not merely as techniques for forecasting it.
+
+### Key distinctions
+
+- Anticipation is not the same as prediction.
+- A modelling relation is not interchangeable with a computer simulation.
+- An archive landing page locates a corpus; it does not settle interpretations of Rosen's mathematics.
+
+### Historical development
+
+- Relational biology, mathematical biology, and anticipatory systems.
+
+### Ideas it depends on
+
+[]
+
+### What develops from it
+
+[]
+
+### Connections to practice
+
+- Distinguish a model used by an anticipatory organisation from an observer's external simulation of that organisation.
+
+### Common confusions
+
+- The entry does not repeat the report's claim that Rosen proved living systems cannot be simulated; that stronger formulation needs exact textual and mathematical treatment.
+
+### Open questions and checks
+
+- A close-reading pass is still required for the modelling relation, (M,R)-systems, closure to efficient causation, and claims about complexity.
 
 ### Sources
 
 - Robert Rosen scientific-work archive — https://www.rosenlife.org/
+- Anticipatory Systems, second edition — https://link.springer.com/book/10.1007/978-1-4614-1269-4
+- Past presidents of the ISSS — https://www.isss.org/past-presidents/
+- Missing-entry report #83: Robert Rosen — https://github.com/antlerboy/the-necessary-tangle/issues/83
 
 ## Roger C. Conant
 
@@ -20697,23 +21028,24 @@ Bill Sharpe's book presenting the Three Horizons pattern for transformative futu
 Type: Person
 Public depth: profile
 
-T. F. H. Allen co-authored Hierarchy Theory: A Vision, Vocabulary, and Epistemology with Valerie Ahl (1996). The contents of The Ecosystem Approach also credit Tim Allen with a chapter on scale and type.
+Timothy F. H. Allen was a biological theorist of complexity whose University of Wisconsin profile identifies hierarchy theory, ecological economics, and sustainability among his concerns. He co-authored Hierarchy Theory with Valerie Ahl, contributed a chapter on scale and type to The Ecosystem Approach, and served as ISSS president in 2008–09.
 
 ### Summary
 
-T. F. H. Allen co-authored Hierarchy Theory: A Vision, Vocabulary, and Epistemology with Valerie Ahl (1996). The contents of The Ecosystem Approach also credit Tim Allen with a chapter on scale and type.
+Timothy F. H. Allen was a biological theorist of complexity whose University of Wisconsin profile identifies hierarchy theory, ecological economics, and sustainability among his concerns. He co-authored Hierarchy Theory with Valerie Ahl, contributed a chapter on scale and type to The Ecosystem Approach, and served as ISSS president in 2008–09.
 
 ### Why it matters
 
-These publication records give readers two concrete routes into Allen's work on hierarchy and ecological complexity.
+Allen's work offers a disciplined way to ask how the scale, rate, and observer's chosen level alter what counts as a system and what can be said about it.
 
 ### Key distinctions
 
-- Publication metadata locates work; it does not by itself establish the meaning or practical validity of the argument.
+- Hierarchy theory concerns observation and organisation across scales; it need not imply a chain of command.
+- Allen's contribution must retain Valerie Ahl's co-authorship.
 
 ### Historical development
 
-[]
+- Hierarchy theory, ecology, complexity, and systems science.
 
 ### Ideas it depends on
 
@@ -20725,20 +21057,23 @@ These publication records give readers two concrete routes into Allen's work on 
 
 ### Connections to practice
 
-[]
+- State the scale and rate at which a pattern is being observed before drawing conclusions across levels.
 
 ### Common confusions
 
-[]
+- The profile does not turn a university expert summary into a complete account of hierarchy theory.
 
 ### Open questions and checks
 
-- The books' full arguments, any claimed intellectual lineage, and the wider biographical submission remain to be reviewed.
+- The books' arguments and the submitted claims about influence on other named scholars still require close reading.
 
 ### Sources
 
 - Hierarchy Theory: A Vision, Vocabulary, and Epistemology — https://cup.columbia.edu/book/hierarchy-theory/9780231084802/
 - The Ecosystem Approach: Complexity, Uncertainty, and Managing for Sustainability — https://cup.columbia.edu/book/the-ecosystem-approach/9780231507202/
+- Timothy Allen: UW–Madison expert profile — https://experts.news.wisc.edu/experts/timothy-allen
+- Past presidents of the ISSS — https://www.isss.org/past-presidents/
+- Missing-entry report #75: Timothy F. H. Allen — https://github.com/antlerboy/the-necessary-tangle/issues/75
 
 ## TIP - The Integral Process
 

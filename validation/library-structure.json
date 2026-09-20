@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "release": "0.26",
+  "records": 6669,
+  "teaching_connections": 50,
+  "privacy_boundary": "No private source addresses or local paths in public packets",
+  "reviewed_package": "All three approved hashes preserved"
+}

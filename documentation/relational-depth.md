@@ -8,10 +8,10 @@ Generated: `2026-08-14`
 
 The atlas now treats relational richness as maintained data, not a visual impression. Every canonical public entry has a structural connection band and a separate evidence band. This makes it possible to add provisional routes without pretending that repetition, plausibility or graph density is proof.
 
-- 1154 of 1196 entries have at least one reader connection.
-- 93 are structurally rich, 239 developing, 822 thin and 42 unconnected.
-- 515 have at least one non-documentary semantic, historical, human, identity, practice, influence or contestation route.
-- Evidence is 205 supported, 271 mixed, 678 provisional and 42 absent at entry level.
+- 1155 of 1196 entries have at least one reader connection.
+- 93 are structurally rich, 240 developing, 822 thin and 41 unconnected.
+- 516 have at least one non-documentary semantic, historical, human, identity, practice, influence or contestation route.
+- Evidence is 205 supported, 271 mixed, 679 provisional and 41 absent at entry level.
 
 ## What counts
 
@@ -49,8 +49,8 @@ The template is an editorial checklist, not an invitation to fill six slots with
 | knowledge domain | 1 | 0 | 1 | 0 | 0 |
 | law or principle | 33 | 17 | 16 | 0 | 0 |
 | method or methodology | 97 | 15 | 9 | 73 | 0 |
-| organisation | 14 | 1 | 2 | 9 | 2 |
-| person | 270 | 6 | 63 | 164 | 37 |
+| organisation | 14 | 1 | 3 | 8 | 2 |
+| person | 270 | 6 | 63 | 165 | 36 |
 | practice | 26 | 10 | 9 | 7 | 0 |
 | publication | 275 | 3 | 23 | 249 | 0 |
 | source | 274 | 3 | 7 | 264 | 0 |
@@ -88,7 +88,6 @@ The queue below is generated from current structure. Low degree and low relation
 | Claude Bernard | person | unconnected | none | 0 | 0 |
 | David Hilbert | person | unconnected | none | 0 | 0 |
 | Edgar Morin | person | unconnected | none | 0 | 0 |
-| Eric Trist | person | unconnected | none | 0 | 0 |
 | Frank Rosenblatt | person | unconnected | none | 0 | 0 |
 | Fritjof Capra | person | unconnected | none | 0 | 0 |
 | George Spencer-Brown | person | unconnected | none | 0 | 0 |
@@ -129,6 +128,7 @@ The queue below is generated from current structure. Low degree and low relation
 | David L. Hawk | person | thin | provisional | 1 | 1 |
 | Decolonial systems thinking | concept | thin | mixed | 1 | 1 |
 | Epistemic injustice | concept | thin | mixed | 1 | 1 |
+| Eric L. Trist | person | thin | provisional | 1 | 1 |
 | Flawless Consulting: A Guide to Getting Your Expertise Used | publication | thin | mixed | 1 | 1 |
 
 ## First enrichment cohort in this release
