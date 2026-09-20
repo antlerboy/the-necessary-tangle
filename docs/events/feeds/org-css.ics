@@ -82,18 +82,36 @@ SUMMARY:COMPLEX NETWORKS 2026 – 15th International Conference on Complex
   Networks and Their Applications
 DTSTART;VALUE=DATE:20261202
 DTEND;VALUE=DATE:20261205
-DTSTAMP:20260906T191842Z
+DTSTAMP:20260909T085810Z
 UID:3c7f267a057b86293598c301@systemsmap.antlerboy.com
-SEQUENCE:1
+SEQUENCE:3
 CATEGORIES:Complexity
 DESCRIPTION:Complex Systems Society\n\nLanguage: Not specified\nLanguage r
  equirements: Not specified\nInterpretation: Not specified\nAccess: See org
  aniser\nhttps://cssociety.org/event/48d831be-35b8-4789-81ed-6ef517743032/
  \nDate-only listing\; check the organiser for session times.
-LAST-MODIFIED:20260906T191842Z
+LAST-MODIFIED:20260909T085810Z
 LOCATION:Spain\, Granada
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 URL:https://cssociety.org/event/48d831be-35b8-4789-81ed-6ef517743032/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Winter Workshop on Complex Systems - Application process OPEN!
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270123
+DTSTAMP:20260916T092203Z
+UID:f2af5be36a914c6de0b4e644@systemsmap.antlerboy.com
+SEQUENCE:0
+CATEGORIES:Complexity
+DESCRIPTION:Complex Systems Society\n\nLanguage: Not specified\nLanguage r
+ equirements: Not specified\nInterpretation: Not specified\nAccess: See org
+ aniser\nhttps://cssociety.org/event/a8ad6479-58ac-4e93-8807-cba7de02ccbe/
+ \nDate-only listing\; check the organiser for session times.
+LAST-MODIFIED:20260916T092203Z
+LOCATION:Briançon\, France\, Le Clos du Vas
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://cssociety.org/event/a8ad6479-58ac-4e93-8807-cba7de02ccbe/
 END:VEVENT
 END:VCALENDAR

@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-06T19:20:30+00:00",
+  "checkedAt": "2026-09-18T09:04:03+00:00",
   "sources": [
     {
       "id": "scio",
@@ -12,10 +12,10 @@
       ],
       "region": "International",
       "timezone": "Europe/London",
-      "checkedAt": "2026-09-06T19:20:30+00:00",
+      "checkedAt": "2026-09-18T09:04:03+00:00",
       "status": "ok",
       "message": "Collecting dated events",
-      "events": 16,
+      "events": 15,
       "feedsFound": [],
       "pagesChecked": 1,
       "errors": []
@@ -30,7 +30,7 @@
       ],
       "region": "International",
       "timezone": "Europe/London",
-      "checkedAt": "2026-09-06T19:20:30+00:00",
+      "checkedAt": "2026-09-18T09:04:03+00:00",
       "status": "needs-review",
       "message": "No dated events extracted; a working page is not proof of complete coverage",
       "events": 0,
@@ -52,7 +52,7 @@
       "region": "International",
       "timezone": "America/New_York",
       "feedsExclusive": true,
-      "checkedAt": "2026-09-06T19:20:30+00:00",
+      "checkedAt": "2026-09-18T09:04:03+00:00",
       "status": "ok",
       "message": "Collecting dated events",
       "events": 1,
@@ -77,10 +77,10 @@
       "region": "International",
       "timezone": "UTC",
       "feedsExclusive": true,
-      "checkedAt": "2026-09-06T19:20:30+00:00",
+      "checkedAt": "2026-09-18T09:04:03+00:00",
       "status": "ok",
       "message": "Collecting dated events",
-      "events": 38,
+      "events": 32,
       "feedsFound": [
         "https://ics.teamup.com/feed/ksok8ra1xif3viq4no/0.ics"
       ],
@@ -101,15 +101,15 @@
       ],
       "region": "International",
       "timezone": "Europe/Vienna",
-      "checkedAt": "2026-09-06T19:20:30+00:00",
+      "checkedAt": "2026-09-18T09:04:03+00:00",
       "status": "ok",
       "message": "Collecting dated events",
-      "events": 4,
+      "events": 8,
       "feedsFound": [
         "https://ifsr.org/events/?ical=1",
         "https://ifsr.org/events/month/?ical=1"
       ],
-      "pagesChecked": 11,
+      "pagesChecked": 15,
       "errors": []
     },
     {
@@ -121,7 +121,7 @@
         "systems"
       ],
       "region": "International",
-      "checkedAt": "2026-09-06T19:20:30+00:00",
+      "checkedAt": "2026-09-18T09:04:03+00:00",
       "status": "needs-review",
       "message": "No dated events extracted; a working page is not proof of complete coverage",
       "events": 0,
@@ -139,7 +139,7 @@
       ],
       "region": "International",
       "timezone": "America/New_York",
-      "checkedAt": "2026-09-06T19:20:30+00:00",
+      "checkedAt": "2026-09-18T09:04:03+00:00",
       "status": "failed",
       "message": "Source could not be collected",
       "events": 0,
@@ -159,7 +159,7 @@
       ],
       "region": "United Kingdom / online",
       "timezone": "Europe/London",
-      "checkedAt": "2026-09-06T19:20:30+00:00",
+      "checkedAt": "2026-09-18T09:04:03+00:00",
       "status": "needs-review",
       "message": "No dated events extracted; a working page is not proof of complete coverage",
       "events": 0,
@@ -177,7 +177,7 @@
         "complexity"
       ],
       "region": "International",
-      "checkedAt": "2026-09-06T19:20:30+00:00",
+      "checkedAt": "2026-09-18T09:04:03+00:00",
       "status": "needs-review",
       "message": "No dated events extracted; a working page is not proof of complete coverage",
       "events": 0,
@@ -195,10 +195,10 @@
       ],
       "region": "International",
       "timezone": "America/New_York",
-      "checkedAt": "2026-09-06T19:20:30+00:00",
+      "checkedAt": "2026-09-18T09:04:03+00:00",
       "status": "ok",
       "message": "Collecting dated events",
-      "events": 74,
+      "events": 76,
       "feedsFound": [
         "https://systemdynamics.org/events/?ical=1",
         "https://systemdynamics.org/events/list/?ical=1"
@@ -216,7 +216,7 @@
       ],
       "region": "United States / international",
       "timezone": "America/Denver",
-      "checkedAt": "2026-09-06T19:20:30+00:00",
+      "checkedAt": "2026-09-18T09:04:03+00:00",
       "status": "needs-review",
       "message": "No dated events extracted; a working page is not proof of complete coverage",
       "events": 0,
@@ -234,12 +234,12 @@
       ],
       "region": "Austria / international",
       "timezone": "Europe/Vienna",
-      "checkedAt": "2026-09-06T19:20:30+00:00",
+      "checkedAt": "2026-09-18T09:04:03+00:00",
       "status": "ok",
       "message": "Collecting dated events",
-      "events": 8,
+      "events": 7,
       "feedsFound": [],
-      "pagesChecked": 9,
+      "pagesChecked": 8,
       "errors": []
     },
     {
@@ -251,10 +251,10 @@
         "complexity"
       ],
       "region": "International",
-      "checkedAt": "2026-09-06T19:20:30+00:00",
+      "checkedAt": "2026-09-18T09:04:03+00:00",
       "status": "ok",
       "message": "Collecting dated events",
-      "events": 5,
+      "events": 6,
       "feedsFound": [],
       "pagesChecked": 13,
       "errors": []
@@ -269,10 +269,10 @@
         "cybernetics"
       ],
       "region": "International",
-      "checkedAt": "2026-09-06T19:20:30+00:00",
+      "checkedAt": "2026-09-18T09:04:03+00:00",
       "status": "ok",
       "message": "Collecting dated events",
-      "events": 2,
+      "events": 1,
       "feedsFound": [
         "https://metaphorum.org/events-list/?ical=1"
       ],
@@ -289,7 +289,7 @@
         "cybernetics"
       ],
       "region": "International",
-      "checkedAt": "2026-09-06T19:20:30+00:00",
+      "checkedAt": "2026-09-18T09:04:03+00:00",
       "status": "needs-review",
       "message": "No dated events extracted; a working page is not proof of complete coverage",
       "events": 0,
@@ -308,7 +308,7 @@
       ],
       "region": "International",
       "submission": "https://github.com/antlerboy/systemsmap/issues/3",
-      "checkedAt": "2026-09-06T19:20:30+00:00",
+      "checkedAt": "2026-09-18T09:04:03+00:00",
       "status": "needs-review",
       "message": "No dated events extracted; a working page is not proof of complete coverage",
       "events": 0,
@@ -325,7 +325,7 @@
         "systemic-design"
       ],
       "region": "International",
-      "checkedAt": "2026-09-06T19:20:30+00:00",
+      "checkedAt": "2026-09-18T09:04:03+00:00",
       "status": "needs-review",
       "message": "No dated events extracted; a working page is not proof of complete coverage",
       "events": 0,
@@ -343,7 +343,7 @@
       ],
       "region": "United Kingdom",
       "timezone": "Europe/London",
-      "checkedAt": "2026-09-06T19:20:30+00:00",
+      "checkedAt": "2026-09-18T09:04:03+00:00",
       "status": "needs-review",
       "message": "No dated events extracted; a working page is not proof of complete coverage",
       "events": 0,
@@ -360,7 +360,7 @@
         "systems"
       ],
       "region": "Australia and New Zealand",
-      "checkedAt": "2026-09-06T19:20:30+00:00",
+      "checkedAt": "2026-09-18T09:04:03+00:00",
       "status": "needs-review",
       "message": "No dated events extracted; a working page is not proof of complete coverage",
       "events": 0,
@@ -380,7 +380,7 @@
       ],
       "region": "United States / international",
       "timezone": "America/New_York",
-      "checkedAt": "2026-09-06T19:20:30+00:00",
+      "checkedAt": "2026-09-18T09:04:03+00:00",
       "status": "failed",
       "message": "Source could not be collected",
       "events": 0,
@@ -401,10 +401,10 @@
       ],
       "region": "United Kingdom",
       "timezone": "Europe/London",
-      "checkedAt": "2026-09-06T19:20:30+00:00",
+      "checkedAt": "2026-09-18T09:04:03+00:00",
       "status": "ok",
       "message": "Collecting dated events",
-      "events": 3,
+      "events": 2,
       "feedsFound": [],
       "pagesChecked": 1,
       "errors": []
@@ -419,10 +419,10 @@
       ],
       "region": "France / international",
       "timezone": "Europe/Paris",
-      "checkedAt": "2026-09-06T19:20:30+00:00",
+      "checkedAt": "2026-09-18T09:04:03+00:00",
       "status": "ok",
       "message": "Collecting dated events",
-      "events": 9,
+      "events": 4,
       "feedsFound": [
         "https://iscpif.fr/evenements/?lang=en%2F&ical=1"
       ],
@@ -439,7 +439,7 @@
       ],
       "region": "Australia",
       "timezone": "Australia/Brisbane",
-      "checkedAt": "2026-09-06T19:20:30+00:00",
+      "checkedAt": "2026-09-18T09:04:03+00:00",
       "status": "failed",
       "message": "Source could not be collected",
       "events": 0,
@@ -459,7 +459,7 @@
       ],
       "region": "United States / online",
       "timezone": "America/New_York",
-      "checkedAt": "2026-09-06T19:20:30+00:00",
+      "checkedAt": "2026-09-18T09:04:03+00:00",
       "status": "needs-review",
       "message": "No dated events extracted; a working page is not proof of complete coverage",
       "events": 0,
@@ -477,7 +477,7 @@
       ],
       "region": "United States / online",
       "timezone": "America/Phoenix",
-      "checkedAt": "2026-09-06T19:20:30+00:00",
+      "checkedAt": "2026-09-18T09:04:03+00:00",
       "status": "needs-review",
       "message": "No dated events extracted; a working page is not proof of complete coverage",
       "events": 0,
@@ -495,7 +495,7 @@
       ],
       "region": "International",
       "timezone": "Europe/London",
-      "checkedAt": "2026-09-06T19:20:30+00:00",
+      "checkedAt": "2026-09-18T09:04:03+00:00",
       "status": "needs-review",
       "message": "No dated events extracted; a working page is not proof of complete coverage",
       "events": 0,
@@ -514,12 +514,12 @@
       ],
       "region": "International",
       "timezone": "Europe/London",
-      "checkedAt": "2026-09-06T19:20:30+00:00",
+      "checkedAt": "2026-09-18T09:04:03+00:00",
       "status": "needs-review",
       "message": "No dated events extracted; a working page is not proof of complete coverage",
       "events": 0,
       "feedsFound": [],
-      "pagesChecked": 4,
+      "pagesChecked": 3,
       "errors": []
     },
     {
@@ -532,7 +532,7 @@
       ],
       "region": "International",
       "timezone": "America/New_York",
-      "checkedAt": "2026-09-06T19:20:30+00:00",
+      "checkedAt": "2026-09-18T09:04:03+00:00",
       "status": "ok",
       "message": "Collecting dated events",
       "events": 28,
@@ -552,7 +552,7 @@
         "systems"
       ],
       "region": "International",
-      "checkedAt": "2026-09-06T19:20:30+00:00",
+      "checkedAt": "2026-09-18T09:04:03+00:00",
       "status": "failed",
       "message": "Source could not be collected",
       "events": 0,
@@ -572,7 +572,7 @@
       ],
       "region": "Japan",
       "timezone": "Asia/Tokyo",
-      "checkedAt": "2026-09-06T19:20:30+00:00",
+      "checkedAt": "2026-09-18T09:04:03+00:00",
       "status": "failed",
       "message": "Source could not be collected",
       "events": 0,
@@ -580,6 +580,119 @@
       "pagesChecked": 0,
       "errors": [
         "[Errno -2] Name or service not known"
+      ]
+    },
+    {
+      "id": "syscoi",
+      "name": "Systems Community of Inquiry: event discovery",
+      "url": "https://public-api.wordpress.com/rest/v1.1/sites/stream.syscoi.com/posts/?number=100",
+      "adapter": "wordpress_discovery",
+      "topics": [
+        "systems"
+      ],
+      "region": "International",
+      "timezone": "Europe/London",
+      "website": "https://stream.syscoi.com/",
+      "checkedAt": "2026-09-18T09:04:03+00:00",
+      "status": "failed",
+      "message": "Source could not be collected",
+      "events": 0,
+      "feedsFound": [],
+      "pagesChecked": 0,
+      "errors": [
+        "Disallowed by robots.txt"
+      ]
+    },
+    {
+      "id": "hls",
+      "name": "Human Learning Systems",
+      "url": "https://www.humanlearning.systems/events/",
+      "adapter": "auto",
+      "topics": [
+        "relational-public-services"
+      ],
+      "region": "International",
+      "timezone": "Europe/London",
+      "checkedAt": "2026-09-18T09:04:03+00:00",
+      "status": "needs-review",
+      "message": "No dated events extracted; a working page is not proof of complete coverage",
+      "events": 0,
+      "feedsFound": [],
+      "pagesChecked": 17,
+      "errors": []
+    },
+    {
+      "id": "thempra-relational",
+      "name": "ThemPra: Relational Leadership",
+      "url": "https://www.thempra.org.uk/thempra/our-courses/relational-leadership/",
+      "adapter": "thempra",
+      "topics": [
+        "relational-public-services"
+      ],
+      "region": "International",
+      "timezone": "Europe/London",
+      "checkedAt": "2026-09-18T09:04:03+00:00",
+      "status": "ok",
+      "message": "Collecting dated events",
+      "events": 9,
+      "feedsFound": [],
+      "pagesChecked": 1,
+      "errors": []
+    },
+    {
+      "id": "thempra-learning",
+      "name": "ThemPra: Leading with Learning",
+      "url": "https://www.thempra.org.uk/thempra/our-courses/leading-with-learning/",
+      "adapter": "thempra",
+      "topics": [
+        "relational-public-services"
+      ],
+      "region": "International",
+      "timezone": "Europe/London",
+      "checkedAt": "2026-09-18T09:04:03+00:00",
+      "status": "ok",
+      "message": "Collecting dated events",
+      "events": 6,
+      "feedsFound": [],
+      "pagesChecked": 1,
+      "errors": []
+    },
+    {
+      "id": "q-community",
+      "name": "Q Community: health and care improvement",
+      "url": "https://q.thenhsalliance.org/get-involved/events",
+      "adapter": "auto",
+      "topics": [
+        "relational-public-services"
+      ],
+      "region": "International",
+      "timezone": "Europe/London",
+      "checkedAt": "2026-09-18T09:04:03+00:00",
+      "status": "needs-review",
+      "message": "No dated events extracted; a working page is not proof of complete coverage",
+      "events": 0,
+      "feedsFound": [],
+      "pagesChecked": 12,
+      "errors": []
+    },
+    {
+      "id": "nick-ananin",
+      "name": "Nick Ananin’s systems events and learning map",
+      "url": "https://www.google.com/maps/d/u/0/viewer?mid=1KiZfEQGwEaAsOiEBjTdPN9LC5Pk",
+      "adapter": "auto",
+      "topics": [
+        "systems"
+      ],
+      "region": "International",
+      "notes": "51 map entries reviewed on 9 September: one dated conference, 50 undated resources. See resources/ and data/nick-ananin-resources.json.",
+      "checkedAt": "2026-09-18T09:04:03+00:00",
+      "status": "failed",
+      "message": "Source could not be collected",
+      "events": 0,
+      "feedsFound": [],
+      "pagesChecked": 0,
+      "errors": [
+        "Disallowed by robots.txt"
       ]
     }
   ]

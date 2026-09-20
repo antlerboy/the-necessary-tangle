@@ -20,7 +20,9 @@ DESCRIPTION:Institut des systèmes complexes Paris Île-de-France\nJourné
  3_0.pdf\nLanguage: Not specified\nLanguage requirements: Not specified\nIn
  terpretation: Not specified\nAccess: See organiser\nhttps://iscpif.fr/even
  ements/journee-integration-master-immunotherapies-and-systems-immunology-i
- tsi/
+ tsi/\nNo longer found in the latest source listing\; confirmation needed.
+ \nSource could not be fully rechecked.\nThis event could not be rechecked 
+ on the latest collection. Confirm with the organiser.
 LAST-MODIFIED:20260906T191842Z
 LOCATION:ISC-PIF\, 113 rue Nationale\, Paris\, Paris\, 75013\, France
 STATUS:CONFIRMED
@@ -41,7 +43,10 @@ DESCRIPTION:Institut des systèmes complexes Paris Île-de-France\nRéunio
  nnovations technologiques » de l’infrastructure de recherche France Lif
  e Imaging. Accueil\nLanguage: Not specified\nLanguage requirements: Not sp
  ecified\nInterpretation: Not specified\nAccess: See organiser\nhttps://isc
- pif.fr/evenements/copil-re2-france-life-imaging/
+ pif.fr/evenements/copil-re2-france-life-imaging/\nNo longer found in the l
+ atest source listing\; confirmation needed.\nSource could not be fully rec
+ hecked.\nThis event could not be rechecked on the latest collection. Confi
+ rm with the organiser.
 LAST-MODIFIED:20260906T191842Z
 LOCATION:ISC-PIF\, 113 rue Nationale\, Paris\, Paris\, 75013\, France
 STATUS:CONFIRMED
@@ -52,28 +57,50 @@ BEGIN:VEVENT
 SUMMARY:Conseil d'administration de l AFSCET
 DTSTART:20260910T123000Z
 DTEND:20260910T143000Z
-DTSTAMP:20260906T191842Z
+DTSTAMP:20260909T085810Z
 UID:16add3561fd02630fbcb9f07@systemsmap.antlerboy.com
-SEQUENCE:1
+SEQUENCE:2
 CATEGORIES:Complexity
 DESCRIPTION:Institut des systèmes complexes Paris Île-de-France\nConseil
   d’administration de l AFSCET https://afscet.asso.fr\nLanguage: Not spec
  ified\nLanguage requirements: Not specified\nInterpretation: Not specified
  \nAccess: See organiser\nhttps://iscpif.fr/evenements/conseil-dadministrat
- ion-de-l-afscet-2/
-LAST-MODIFIED:20260906T191842Z
+ ion-de-l-afscet-2/\nNo longer found in the latest source listing\; confirm
+ ation needed.\nThis event could not be rechecked on the latest collection.
+  Confirm with the organiser.
+LAST-MODIFIED:20260909T085810Z
 LOCATION:ISC-PIF\, 113 rue Nationale\, Paris\, Paris\, 75013\, France
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 URL:https://iscpif.fr/evenements/conseil-dadministration-de-l-afscet-2/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Réunion Jugement majoritaire
+DTSTART:20260914T160000Z
+DTEND:20260914T183000Z
+DTSTAMP:20260909T085810Z
+UID:f4309fe7301a1c02cf6be496@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Complexity
+DESCRIPTION:Institut des systèmes complexes Paris Île-de-France\n\nLangu
+ age: Not specified\nLanguage requirements: Not specified\nInterpretation: 
+ Not specified\nAccess: See organiser\nhttps://iscpif.fr/evenements/reunion
+ -jugement-majoritaire-2/\nNo longer found in the latest source listing\; c
+ onfirmation needed.\nThis event could not be rechecked on the latest colle
+ ction. Confirm with the organiser.
+LAST-MODIFIED:20260909T085810Z
+LOCATION:ISC-PIF\, 113 rue Nationale\, Paris\, Paris\, 75013\, France
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://iscpif.fr/evenements/reunion-jugement-majoritaire-2/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Formation Gestion de données de phenotypage
 DTSTART:20260915T060000Z
 DTEND:20260915T140000Z
-DTSTAMP:20260906T191842Z
+DTSTAMP:20260909T085810Z
 UID:eb2d0279e9c15b722b8806c3@systemsmap.antlerboy.com
-SEQUENCE:1
+SEQUENCE:2
 CATEGORIES:Complexity
 DESCRIPTION:Institut des systèmes complexes Paris Île-de-France\nL’inf
  rastructure nationale de recherche Phenome-Emphasis met à disposition son
@@ -84,8 +111,10 @@ DESCRIPTION:Institut des systèmes complexes Paris Île-de-France\nL’inf
  iabiliser\, valoriser et sécuriser leurs fl\nLanguage: Not specified\nLan
  guage requirements: Not specified\nInterpretation: Not specified\nAccess: 
  See organiser\nhttps://iscpif.fr/evenements/formation-gestion-de-donnees-d
- e-phenotypage/
-LAST-MODIFIED:20260906T191842Z
+ e-phenotypage/\nNo longer found in the latest source listing\; confirmatio
+ n needed.\nThis event could not be rechecked on the latest collection. Con
+ firm with the organiser.
+LAST-MODIFIED:20260909T085810Z
 LOCATION:ISC-PIF\, 113 rue Nationale\, Paris\, Paris\, 75013\, France
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -96,16 +125,18 @@ BEGIN:VEVENT
 SUMMARY:Conseil d'Administration de l AFSCET
 DTSTART:20260916T050000Z
 DTEND:20260916T140000Z
-DTSTAMP:20260906T191842Z
+DTSTAMP:20260909T085810Z
 UID:62db5db07e0233109879489b@systemsmap.antlerboy.com
-SEQUENCE:1
+SEQUENCE:2
 CATEGORIES:Complexity
 DESCRIPTION:Institut des systèmes complexes Paris Île-de-France\nConseil
   d’administration de l AFSCET Discussion des futures orientations de l a
  ssociation\nLanguage: Not specified\nLanguage requirements: Not specified
  \nInterpretation: Not specified\nAccess: See organiser\nhttps://iscpif.fr/
- evenements/conseil-dadministration-de-l-afscet/
-LAST-MODIFIED:20260906T191842Z
+ evenements/conseil-dadministration-de-l-afscet/\nNo longer found in the la
+ test source listing\; confirmation needed.\nThis event could not be rechec
+ ked on the latest collection. Confirm with the organiser.
+LAST-MODIFIED:20260909T085810Z
 LOCATION:ISC-PIF\, 113 rue Nationale\, Paris\, Paris\, 75013\, France
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -115,9 +146,9 @@ BEGIN:VEVENT
 SUMMARY:Journée de rentrée
 DTSTART:20260918T060000Z
 DTEND:20260918T140000Z
-DTSTAMP:20260906T191842Z
+DTSTAMP:20260909T085810Z
 UID:93403190c4cbaf025caf7d7e@systemsmap.antlerboy.com
-SEQUENCE:1
+SEQUENCE:2
 CATEGORIES:Complexity
 DESCRIPTION:Institut des systèmes complexes Paris Île-de-France\nLa jour
  née de rentrée est l’occasion pour l’ensemble des membres du laborat
@@ -128,7 +159,7 @@ DESCRIPTION:Institut des systèmes complexes Paris Île-de-France\nLa jour
  é.e extérieur. https://sphere.cnrs.fr\nLanguage: Not specified\nLanguage
   requirements: Not specified\nInterpretation: Not specified\nAccess: See o
  rganiser\nhttps://iscpif.fr/evenements/journee-de-rentree/
-LAST-MODIFIED:20260906T191842Z
+LAST-MODIFIED:20260909T085810Z
 LOCATION:ISC-PIF\, 113 rue Nationale\, Paris\, Paris\, 75013\, France
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -138,9 +169,9 @@ BEGIN:VEVENT
 SUMMARY:TwinFarms : comité de suivi à 18 mois
 DTSTART:20260924T060000Z
 DTEND:20260924T150000Z
-DTSTAMP:20260906T191842Z
+DTSTAMP:20260909T085810Z
 UID:4ea7881787bfa0b2c8810aab@systemsmap.antlerboy.com
-SEQUENCE:1
+SEQUENCE:2
 CATEGORIES:Complexity
 DESCRIPTION:Institut des systèmes complexes Paris Île-de-France\nTwinFar
  ms : déployer des jumeaux numériques pour favoriser l’innovation agro
@@ -148,7 +179,7 @@ DESCRIPTION:Institut des systèmes complexes Paris Île-de-France\nTwinFar
   à 18 mois\nLanguage: Not specified\nLanguage requirements: Not specified
  \nInterpretation: Not specified\nAccess: See organiser\nhttps://iscpif.fr/
  evenements/twinfarms-comite-de-suivi-a-18-mois/
-LAST-MODIFIED:20260906T191842Z
+LAST-MODIFIED:20260909T085810Z
 LOCATION:ISC-PIF\, 113 rue Nationale\, Paris\, Paris\, 75013\, France
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -158,9 +189,9 @@ BEGIN:VEVENT
 SUMMARY:Réunion plénière finale du projet système complexe BEECOME2
 DTSTART:20260924T063000Z
 DTEND:20260924T143000Z
-DTSTAMP:20260906T191842Z
+DTSTAMP:20260909T085810Z
 UID:468e7de53a14c5ab0ca80ccf@systemsmap.antlerboy.com
-SEQUENCE:1
+SEQUENCE:2
 CATEGORIES:Complexity
 DESCRIPTION:Institut des systèmes complexes Paris Île-de-France\nRestitu
  tion des résultats du projet BEECOME2 sur la modélisation des trajectoir
@@ -168,7 +199,7 @@ DESCRIPTION:Institut des systèmes complexes Paris Île-de-France\nRestitu
  ified\nInterpretation: Not specified\nAccess: See organiser\nhttps://iscpi
  f.fr/evenements/reunion-pleniere-finale-du-projet-systeme-complexe-beecome
  2/
-LAST-MODIFIED:20260906T191842Z
+LAST-MODIFIED:20260909T085810Z
 LOCATION:ISC-PIF\, 113 rue Nationale\, Paris\, Paris\, 75013\, France
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -179,15 +210,15 @@ BEGIN:VEVENT
 SUMMARY:CSIIT
 DTSTART:20260930T060000Z
 DTEND:20261001T140000Z
-DTSTAMP:20260906T191842Z
+DTSTAMP:20260909T085810Z
 UID:14c3b3401a97be7701b308eb@systemsmap.antlerboy.com
-SEQUENCE:1
+SEQUENCE:2
 CATEGORIES:Complexity
 DESCRIPTION:Institut des systèmes complexes Paris Île-de-France\nRéunio
  n de la CSIIT\nLanguage: Not specified\nLanguage requirements: Not specifi
  ed\nInterpretation: Not specified\nAccess: See organiser\nhttps://iscpif.f
  r/evenements/csiit/
-LAST-MODIFIED:20260906T191842Z
+LAST-MODIFIED:20260909T085810Z
 LOCATION:ISC-PIF\, 113 rue Nationale\, Paris\, Paris\, 75013\, France
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
