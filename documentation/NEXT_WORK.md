@@ -115,7 +115,7 @@ Publication is explicitly authorised. See `sources/practice-pack/PACKET.md`, the
 
 ## Submission implementation, 25 September 2026
 
-Status: implemented; local production gate sequence passed. Publication and desktop/mobile CI verification pending.
+Status: complete and published. Local production gate sequence, 390px/1440px reader checks, deployment, and live verification passed. Content commit efbaf7a8d200d1a21bb6cf351b27e01415c5fd4c; Actions 36107448762. Live route: https://transduction.systems/systems-sciences/. The approved role is recorded; invitation and repository permissions remain separate, unauthorised actions.
 
 Benjamin requests all flagged site updates implemented and published, and explicitly approves David Ing as Systems Sciences domain steward.
 
