@@ -1,0 +1,67 @@
+{
+  "date": "2026-09-25",
+  "curator": "Benjamin P Taylor",
+  "publication_authorised": true,
+  "steward": {
+    "name": "David Ing",
+    "github": "coevolving",
+    "area": "Systems Sciences",
+    "status": "approved",
+    "approved_on": "2026-09-25",
+    "approved_by": "Benjamin P Taylor",
+    "scope": "Helps review a named area while keeping rival accounts and uncertainty visible.",
+    "access_changes": "none",
+    "invitation_sent": false
+  },
+  "submissions": [
+    {
+      "issue": 68,
+      "status": "published_source_guide",
+      "result": "Encyclopedia reading route with editor, edition, custodian and access limits; no full-text ingestion."
+    },
+    {
+      "issue": 71,
+      "status": "published_and_role_approved",
+      "result": "Source-scoped Systems Sciences introduction; David Ing approved as domain steward."
+    },
+    {
+      "issue": 78,
+      "status": "published_scoped_contribution",
+      "result": "Jackson reading route uses existing canonical identity and primary publisher descriptions; broad priority and institutional claims not established."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bcsss-encyclopedia",
+      "url": "https://www.bcsss.org/program/international-encyclopedia-of-systems-and-cybernetics/",
+      "locator": "International Encyclopedia of Systems and Cybernetics, two introductory paragraphs",
+      "checked": "2026-09-25",
+      "supports": "Charles François; first edition 1997; online version based on second edition 2004; transfer of stewardship requested in 2018",
+      "access": "Programme page read; complete encyclopedia not reviewed"
+    },
+    {
+      "id": "isss-purpose",
+      "url": "https://www.isss.org/about-isss/",
+      "locator": "Purpose, four aims and subsequent paragraph",
+      "checked": "2026-09-25",
+      "supports": "Interdisciplinary inquiry, isomorphy, transfer, theoretical models, reduced duplication, communication and practical applications",
+      "access": "Full public page read"
+    },
+    {
+      "id": "jackson-complexity",
+      "url": "https://www.wiley.com/en-us/Critical%2BSystems%2BThinking%2Band%2Bthe%2BManagement%2Bof%2BComplexity-p-9781119118398",
+      "locator": "Description and About the Author",
+      "checked": "2026-09-25",
+      "supports": "Jackson's authorship and treatment of systems approaches and complex interventions",
+      "access": "Publisher metadata and description; full book not reviewed"
+    },
+    {
+      "id": "flood-jackson-tsi",
+      "url": "https://www.wiley.com/en-us/Creative%2BProblem%2BSolving%3A%2BTotal%2BSystems%2BIntervention-p-9780471930525",
+      "locator": "Title, authors and Description",
+      "checked": "2026-09-25",
+      "supports": "Flood and Jackson co-authorship; complementary use of systems methodologies",
+      "access": "Publisher metadata and description; full book not reviewed"
+    }
+  ]
+}

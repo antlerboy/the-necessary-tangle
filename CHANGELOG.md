@@ -194,3 +194,9 @@ Release 0.26 connects 324 public-library resource records, 114 large-group entri
 ## 0.27 - 20 September 2026
 
 Release 0.27 reviews all fifteen open missing-entry reports from issues 69–86. Every report now resolves to a public profile with evidence boundaries, report provenance, and explicit open checks. Seven bounded office or contribution statements were added; no teacher–student, generic influence, priority, or effectiveness relation was inferred. Current atlas: 1196 public entries. See https://transduction.systems/updates/2026-09-20/.
+
+## 25 September 2026 — reader and stewardship update to 0.27
+
+- Published the Systems Sciences reading route: ISSS purpose, the François encyclopedia and Michael C. Jackson's methodological-choice work, with precise source scopes.
+- Reconciled submissions #68, #71 and #78 without duplicating canonical identities or creating speculative graph relationships.
+- Recorded Benjamin P Taylor's approval of David Ing as Systems Sciences domain steward. No access changes or invitation are implied.

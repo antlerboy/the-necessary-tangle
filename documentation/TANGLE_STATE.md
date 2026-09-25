@@ -92,3 +92,7 @@ Release 0.26 connects 324 public-library resource records, 114 large-group entri
 ## Missing-entry report closure, 20 September 2026
 
 Release 0.27 reviews all fifteen open missing-entry reports from issues 69–86. Every report now resolves to a public profile with evidence boundaries, report provenance, and explicit open checks. Seven bounded office or contribution statements were added; no teacher–student, generic influence, priority, or effectiveness relation was inferred. Current atlas: 1196 public entries. See https://transduction.systems/updates/2026-09-20/.
+
+## Reader and stewardship update, 25 September 2026
+
+The Systems Sciences route at /systems-sciences/ publishes bounded responses to #68, #71 and #78. David Ing's domain-steward appointment is approved by Benjamin P Taylor. Primary institutional and publisher descriptions are distinguished from full-text review. Canonical graph data and the reviewed comparator remain unchanged. Evidence and decision ledger: sources/submissions-2026-09-25/review.json. GitHub access and communication are separate tasks.

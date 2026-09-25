@@ -1,6 +1,6 @@
 .PHONY: build build-base apply-current apply-practice apply-missing-entry-reports validate serve clean
 
-build: build-base apply-current apply-practice apply-september apply-intake apply-maps apply-library apply-missing-entry-reports
+build: build-base apply-current apply-practice apply-september apply-intake apply-maps apply-library apply-missing-entry-reports apply-submission-review
 
 # Historical validators assert historical release identifiers. Rebuild that
 # baseline, run its gates, then apply and validate the current release.
@@ -157,6 +157,7 @@ validate: build-base
 	python3 scripts/validate_public.py
 	python3 scripts/validate_missing_entry_reports_27.py
 	./scripts/check_javascript.sh
+	$(MAKE) apply-submission-review
 
 apply-missing-entry-reports:
 	python3 scripts/apply_missing_entry_reports_27.py
@@ -194,3 +195,6 @@ serve: build
 
 clean:
 	rm -rf validation/*.png validation/*.txt
+
+apply-submission-review:
+	python3 scripts/apply_submission_review_20260925.py

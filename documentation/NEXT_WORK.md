@@ -112,3 +112,15 @@ Reader-path correction: documentary connection inspection links used the substan
 Published route: https://transduction.systems/systems-thinking/practice/
 
 Publication is explicitly authorised. See `sources/practice-pack/PACKET.md`, the public coverage page and `documentation/practice-pack.md`. No independent specialist pedagogical review is recorded; this remains an open review task. Existing unrelated work below or above remains open.
+
+## Submission implementation, 25 September 2026
+
+Status: implemented; local production gate sequence passed. Publication and desktop/mobile CI verification pending.
+
+Benjamin requests all flagged site updates implemented and published, and explicitly approves David Ing as Systems Sciences domain steward.
+
+Outcome: a source-scoped Systems Sciences reader route covering #68, #71 and #78, with public stewardship and decision records. Existing canonical identities and graph remain unchanged; no unsupported influence edges or access permissions added.
+
+Scope: sources/submissions-2026-09-25/, scripts/apply_submission_review_20260925.py, scripts/test_submission_review_browser.js, Makefile, publication workflow, generated reader pages, dated update, state and changelog. Primary sources: BCSSS encyclopedia programme, ISSS About and Wiley publisher descriptions. Preserve exact reviewed comparator bytes and Open updates control.
+
+Acceptance: production make validate gate sequence; unchanged canonical-data and idempotence assertions; desktop/mobile CI review; successful publication and live verification. Local historical stages passed; current stages resumed successfully after installing the workflow's pinned events checkout. Role approval does not grant GitHub access or authorise sending an invitation.
