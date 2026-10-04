@@ -13,6 +13,12 @@ const root=path.resolve(__dirname,'../docs');
   const data=await (await page.request.get(base+'/assets/public-data.json')).json();assert.equal(data.edges.filter(e=>e.connection_pass==='weaver_20261004').length,4);
   const out=path.resolve(__dirname,'../validation/weaver-browser');fs.mkdirSync(out,{recursive:true});await page.screenshot({path:path.join(out,'reader-'+width+'.png'),fullPage:true});
   await page.goto(base+'/#view=item&id=publication_fpcs_010');await page.waitForTimeout(600);assert(await page.getByText('1948 essay distinguishes kinds of scientific problem and examines both the promise and limits of scientific inquiry.',{exact:false}).count()>0);
+  for(const edge of data.edges.filter(e=>e.connection_pass==='weaver_20261004')){
+   await page.goto(base+'/#view=map&layer=substantive&depth=constellation&focus=publication_fpcs_010&edge='+edge.id);
+   await page.waitForFunction(()=>document.querySelector('#graphEdges .graph-edge.selected'));
+   assert.equal(await page.locator('#mapDepth').inputValue(),'constellation');
+   assert((await page.locator('#mapInspector').textContent()).includes('PDF page '));
+  }
   await page.close();
  }console.log('Weaver reader, four public graph claims, existing atlas profile, keyboard disclosure, and mobile/desktop containment passed.');}finally{await browser.close();server.close();}
 })().catch(e=>{console.error(e);process.exit(1)});
