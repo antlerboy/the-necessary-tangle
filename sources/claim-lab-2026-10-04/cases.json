@@ -1,0 +1,100 @@
+{
+  "release": "0.28",
+  "date": "2026-10-04",
+  "status": "Original editorial exercises, derived from the maintained practice pack. No new primary-source review or independent pedagogical review is claimed.",
+  "cases": [
+    {
+      "id": "successful-for-whom", "title": "Successful for whom?", "method": "systems-concepts", "pair": "critical-systems-heuristics", "relation": "Boundary comparison",
+      "claim": "Our booking service is performing better: it allocated 120 appointments instead of 100.",
+      "case": "A fictional advice service has increased appointment allocations. It has no comparable record of completed advice, abandoned bookings, repeat contacts, or people who could not use the booking form. The manager asks whether to move another adviser onto booking administration.",
+      "task": "Write two possible purposes for the service. For each, specify who is inside your evidence boundary and one observation that would make the staffing proposal look worse.",
+      "worked": "Allocating appointments and resolving people's problems are different purposes. The allocation count supports a claim about recorded output. It does not establish access or resolution. Ask what happens between an allocated appointment and useful advice, and who cannot obtain an appointment at all. Compare a small staffing change with completed advice, repeat contacts, and the work displaced onto other organisations. Do not subtract unlinked counts as though every record described a different person.",
+      "counterexample": "If booked appointments reliably led to timely resolution, excluded demand was measured, and administration was the actual bottleneck, improving allocation could be useful. Critiquing a measure does not establish that it is useless.",
+      "changed": "The service now measures completed advice, but only for people who attend. Name the remaining exclusion and a proportionate way to investigate it.",
+      "changed_answer": "People deterred by the booking process or unable to attend are still missing. Offer an accessible route to hear from non-attenders and people supported elsewhere. Do not infer their experiences from those who completed the service.",
+      "locator": "systems-concepts: rounds 1–4, repair, and retry; critical-systems-heuristics: repair and retry"
+    },
+    {
+      "id": "the-queue-has-shrunk", "title": "The queue has shrunk. Has the work?", "method": "system-dynamics", "pair": "evaluation-and-reflexivity", "relation": "Accounting check followed by evaluation",
+      "claim": "We closed 80 cases this month, so the backlog must have fallen by 80.",
+      "case": "A fictional team begins with 200 open cases. During the month, 70 new cases arrive, 80 are closed, and 20 previously closed cases reopen. All counts refer to the same boundary and period; reopened cases are additional to new arrivals.",
+      "task": "Calculate the closing backlog. Then write one claim the calculation supports and one causal claim it cannot support.",
+      "worked": "The closing backlog is 200 + 70 − 80 + 20 = 210 cases. The stock increased by ten despite eighty closures. The calculation checks the supplied accounting identity. It cannot establish why cases reopened, whether closures were appropriate, or which intervention would improve resolution. Investigate the closure and reopening rules before treating gross activity as capacity.",
+      "counterexample": "An eighty-case reduction would follow if there were no arrivals or reopenings and no other changes to the boundary. That is a different set of assumptions, not an arithmetic alternative.",
+      "changed": "Twenty cases are transferred to another team and removed from this backlog. Calculate the local total and state what is still unknown.",
+      "changed_answer": "The local backlog is now 190. The receiving team's burden and the people's total wait remain unknown. A smaller local stock can coexist with unchanged or worse end-to-end performance.",
+      "locator": "system-dynamics: stock-flow exercise, repair, and retry; evaluation-and-reflexivity: repair"
+    },
+    {
+      "id": "more-options-more-variety", "title": "More options, more capability?", "method": "systems-laws", "pair": "viable-system-model", "relation": "Regulation question followed by organisational diagnosis",
+      "claim": "We need a separate procedure for every kind of request: requisite variety demands it.",
+      "case": "A fictional housing service receives requests in six categories. Two categories require an urgent authorised response. Three can begin with the same investigation, which subsequently distinguishes their causes. The remaining category belongs to another service. A proposed form offers six buttons but every choice reaches the same untrained queue.",
+      "task": "Separate distinctions in a form from effective responses. Identify what must be known at first contact and what can safely be distinguished later.",
+      "worked": "Six labels do not establish six effective responses. Preserve the distinction needed to recognise and route urgency, establish a reliable route for the out-of-scope request, and check whether the investigation can handle its three categories in time. The relevant capacity includes authority, knowledge, coordination, and action after the first screen. State which differences matter to the desired outcome before counting categories.",
+      "counterexample": "A common initial investigation could fail if an urgent condition is indistinguishable until too late. Combining categories is defensible only when the proposed process can discover and handle the consequential differences.",
+      "changed": "The urgent team has expertise but cannot authorise the necessary action. Which part of the supposed response capability is missing?",
+      "changed_answer": "Expertise alone is insufficient: the route needs timely authority and access to action. Investigate the actual decision channel rather than adding another form category.",
+      "locator": "systems-laws: repair and retry; viable-system-model: focus, scope, and repair"
+    },
+    {
+      "id": "the-chief-executive-is-system-five", "title": "A job title is not a function", "method": "viable-system-model", "pair": "systems-concepts", "relation": "Functional diagnosis checked against the chosen boundary",
+      "claim": "The chief executive is System 5, so we have found the organisation's policy function.",
+      "case": "Three fictional advice centres make local case decisions. A rota forum resolves shared interpreter conflicts. A finance group negotiates shared resources. A research group examines changing demand. The chief executive chairs some meetings but has delegated several decisions to a partnership board.",
+      "task": "Choose the organisation being diagnosed. Identify evidence of coordination, resource negotiation, future inquiry, and policy decisions without assigning each person one permanent number.",
+      "worked": "The rota forum offers evidence of coordination; the finance and research groups suggest different management functions. Find where identity, authority, and the present/future balance are actually decided. Check the centres' autonomy, environments, and channels. The partnership board may matter, but its name does not settle whether it can legitimately make policy for the chosen system. One person can take part in several functions.",
+      "counterexample": "A chief executive may perform policy work. The objection is to inferring function from rank without observing decisions, responsibilities, and channels.",
+      "changed": "Each centre is an independently governed charity. What must be reconsidered before drawing one common metasystem?",
+      "changed_answer": "The focal boundary, mandate, and legitimate scope of shared decisions need reconsideration. A collaboration need not have a single authority over all participants. Model what they have actually agreed, including unresolved limits.",
+      "locator": "viable-system-model: scope, repair, and retry; systems-concepts: rounds 1–2"
+    },
+    {
+      "id": "everyone-was-consulted", "title": "Everyone was consulted", "method": "critical-systems-heuristics", "pair": "participative-inquiry", "relation": "Boundary critique followed by inquiry design",
+      "claim": "The workshop was representative because every stakeholder group received an invitation.",
+      "case": "A fictional transport consultation invites operators, passengers, and a disability group. The disability group declines the evening workshop. The savings target and available options are fixed before anyone arrives. Participants may comment on presentation but cannot challenge the criteria.",
+      "task": "Distinguish invitation, attendance, evidence, and decision authority. Identify one change that would allow an affected group to challenge the terms of the inquiry.",
+      "worked": "An invitation records an invitation. It does not establish accessible participation, representation, or influence. Ask why the group declined without treating absence as consent. Offer a format they can use and explain what their evidence can change. Keep the sponsor's retained authority explicit. A seat at the table does not resolve an inability to question the table's agenda.",
+      "counterexample": "Some constraints may be legitimate and fixed. Participation can still be worthwhile if those constraints and their basis are stated, and participants can genuinely affect the remaining decisions. Do not promise shared authority that has not been granted.",
+      "changed": "The group submits evidence through its own representative but cannot attend. What would count as a substantive response?",
+      "changed_answer": "Record how the evidence changes options, criteria, or the decision, or explain specifically why it does not. Attendance and a thank-you letter are not adequate proxies for that response.",
+      "locator": "critical-systems-heuristics: repair and retry; participative-inquiry: repair and retry"
+    },
+    {
+      "id": "four-methods-one-answer", "title": "Four methods, one answer?", "method": "multi-methodology", "pair": "soft-systems", "relation": "Method transition with an explicit change of claim",
+      "claim": "We used four systems methods, so the recommendation has four times the support.",
+      "case": "A fictional improvement team makes a rich picture, a purposeful activity model, a stock-flow model, and a boundary critique. It then treats every arrow as a causal link and merges them into a master diagram. People who disagree with the preferred purpose disappear from the summary.",
+      "task": "Select two methods. Write the distinct question each addresses, the output passed between them, and an assumption that must be tested at the transition.",
+      "worked": "An activity model can help ask what would be necessary for a stated purpose. It does not establish observed causal behaviour. A stock-flow model requires definitions, quantities, timing, and tested assumptions that an activity model cannot supply by itself. A boundary critique can expose whose purpose and evidence were excluded. Keep disagreement visible rather than treating a merged diagram as corroboration.",
+      "counterexample": "Different methods can strengthen an inquiry when they address complementary questions and expose weaknesses in one another. Counting methods alone tells us little about the resulting evidence.",
+      "changed": "The causal model predicts improvement, but the participation work reveals that a group bears the cost. Which result cancels the other?",
+      "changed_answer": "Neither automatically cancels the other. Revisit the purpose, distribution of effects, assumptions, and authority to decide. Predictive adequacy and legitimacy answer different questions.",
+      "locator": "multi-methodology: scope, repair, and retry; soft-systems: activity-model practice"
+    },
+    {
+      "id": "the-average-improved", "title": "The average improved", "method": "evaluation-and-reflexivity", "pair": "system-dynamics", "relation": "Evaluation challenged by boundary and weighting checks",
+      "claim": "Average waiting time fell to ten days, proving that the pilot worked.",
+      "case": "A fictional pilot reports ten days' mean wait for eighty completed cases. Twenty cases transferred elsewhere have a mean wait of fifty days, measured on the same basis. The report excludes them. There is no comparable baseline covering both groups.",
+      "task": "Calculate the combined mean. State what this correction does and does not tell you about the pilot.",
+      "worked": "The combined mean is (80 × 10 + 20 × 50) / 100 = 18 days. Averaging the two means equally would give thirty and would be wrong here. Eighteen corrects this supplied reporting boundary. It does not establish improvement or deterioration without a comparable baseline, nor prove causation. Examine distributions, who waited, transfer appropriateness, and alternative explanations.",
+      "counterexample": "If the groups had equal numbers and comparable definitions, the unweighted average of their means would equal the combined mean. That condition does not hold in this case.",
+      "changed": "Transferred cases include time before transfer; the ten-day measure starts after triage. Can you still combine them?",
+      "changed_answer": "Not as a comparable end-to-end wait. Align start and end definitions or present the measures separately with their limitations. Arithmetic cannot repair incompatible meanings.",
+      "locator": "evaluation-and-reflexivity: repair and retry; system-dynamics: scope"
+    },
+    {
+      "id": "the-map-proves-the-cause", "title": "The map proves the cause", "method": "systems-concepts", "pair": "evaluation-and-reflexivity", "relation": "Hypothesis generation followed by evidence design",
+      "claim": "Everybody recognised the feedback loop, so it must explain the problem.",
+      "case": "A fictional library team draws a loop: less assistance leads to incomplete applications, which lead to repeat visits, which consume assistance time. Staff recognise the story. No repeat-visit data have been collected. A software failure and a change in eligibility rules occurred during the same period.",
+      "task": "Turn the loop into a bounded hypothesis. Specify one observation that would challenge it and one competing explanation worth investigating.",
+      "worked": "Recognition makes the hypothesis worth examining; it does not establish the mechanism. State which visitors, period, and assistance changes the claim covers. Examine whether incomplete applications actually precede repeat visits and whether repeats consume the relevant capacity. A decline in repeats despite reduced assistance would challenge the proposed loop, although changed access could complicate interpretation. Investigate the software and eligibility changes rather than crediting one familiar story with every effect.",
+      "counterexample": "Shared practitioner recognition can be useful evidence of experience. It becomes stronger when specific observations and contradictory cases can be inspected. Dismissing it merely because it is qualitative would lose relevant information.",
+      "changed": "Your new reporting makes staff record repeat visits more carefully. Recorded repeats rise. What belongs in the observer note?",
+      "changed_answer": "The measurement intervention changed recording behaviour, so a rise may partly reflect ascertainment. Explain your role, retain the definition change, and seek comparable evidence before interpreting it as a worsening service.",
+      "locator": "systems-concepts: rounds 3–4; evaluation-and-reflexivity: scope and repair"
+    }
+  ],
+  "journeys": [
+    {"title":"Before approving an improvement claim", "cases":["successful-for-whom","the-average-improved","the-map-proves-the-cause"]},
+    {"title":"Before redesigning a service", "cases":["the-queue-has-shrunk","more-options-more-variety","the-chief-executive-is-system-five"]},
+    {"title":"Before commissioning a systems workshop", "cases":["everyone-was-consulted","four-methods-one-answer","successful-for-whom"]}
+  ]
+}

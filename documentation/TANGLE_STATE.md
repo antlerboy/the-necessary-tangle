@@ -96,3 +96,8 @@ Release 0.27 reviews all fifteen open missing-entry reports from issues 69–86.
 ## Reader and stewardship update, 25 September 2026
 
 The Systems Sciences route at /systems-sciences/ publishes bounded responses to #68, #71 and #78. David Ing's domain-steward appointment is approved by Benjamin P Taylor. Primary institutional and publisher descriptions are distinguished from full-text review. Canonical graph data and the reviewed comparator remain unchanged. Evidence and decision ledger: sources/submissions-2026-09-25/review.json. GitHub access and communication are separate tasks.
+
+
+## Claim-testing practice, 4 October 2026
+
+Release 0.28 adds eight original cases, counterexamples, worked repairs, three decision-led journeys, and task-only sheets at `/systems-thinking/claim-lab/`. This is a reader release; canonical graph data and the approved comparator are unchanged. The active packet, source limits, acceptance checks, publication gate, and remaining source work are recorded in `sources/claim-lab-2026-10-04/PACKET.md`. No independent pedagogical review or new primary-source review is claimed.

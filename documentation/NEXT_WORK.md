@@ -124,3 +124,8 @@ Outcome: a source-scoped Systems Sciences reader route covering #68, #71 and #78
 Scope: sources/submissions-2026-09-25/, scripts/apply_submission_review_20260925.py, scripts/test_submission_review_browser.js, Makefile, publication workflow, generated reader pages, dated update, state and changelog. Primary sources: BCSSS encyclopedia programme, ISSS About and Wiley publisher descriptions. Preserve exact reviewed comparator bytes and Open updates control.
 
 Acceptance: production make validate gate sequence; unchanged canonical-data and idempotence assertions; desktop/mobile CI review; successful publication and live verification. Local historical stages passed; current stages resumed successfully after installing the workflow's pinned events checkout. Role approval does not grant GitHub access or authorise sending an invitation.
+
+
+## Claim-testing practice, 4 October 2026
+
+Release 0.28 adds eight original cases, counterexamples, worked repairs, three decision-led journeys, and task-only sheets at `/systems-thinking/claim-lab/`. This is a reader release; canonical graph data and the approved comparator are unchanged. The active packet, source limits, acceptance checks, publication gate, and remaining source work are recorded in `sources/claim-lab-2026-10-04/PACKET.md`. No independent pedagogical review or new primary-source review is claimed.
