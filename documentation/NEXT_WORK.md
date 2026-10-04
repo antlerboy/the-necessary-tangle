@@ -129,3 +129,8 @@ Acceptance: production make validate gate sequence; unchanged canonical-data and
 ## Claim-testing practice, 4 October 2026
 
 Release 0.28 adds eight original cases, counterexamples, worked repairs, three decision-led journeys, and task-only sheets at `/systems-thinking/claim-lab/`. This is a reader release; canonical graph data and the approved comparator are unchanged. The active packet, source limits, acceptance checks, publication gate, and remaining source work are recorded in `sources/claim-lab-2026-10-04/PACKET.md`. No independent pedagogical review or new primary-source review is claimed.
+
+
+## Weaver source pass, 4 October 2026
+
+Release 0.29 adds four selected-passage statements using existing identities and relation types, one publication profile, and a source/application comparison. Transcription quality and actual PDF locators are explicit. Packet and acceptance checks: sources/weaver-2026-10-04/PACKET.md. No original-edition review, new lineage, or independent specialist review is claimed.

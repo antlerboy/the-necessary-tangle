@@ -33,7 +33,7 @@ jobs:
       - name: Test learner interactions, mobile layout and offline access
         env:
           NODE_PATH: /tmp/practice-browser/node_modules
-        run: node scripts/test_practice_browser.js && node scripts/test_practice_presentation.js && node scripts/test_intake_browser.js && node scripts/test_maps_browser.js && node scripts/test_library_browser.js && node scripts/test_submission_review_browser.js && node scripts/test_claim_lab_browser.js
+        run: node scripts/test_practice_browser.js && node scripts/test_practice_presentation.js && node scripts/test_intake_browser.js && node scripts/test_maps_browser.js && node scripts/test_library_browser.js && node scripts/test_submission_review_browser.js && node scripts/test_claim_lab_browser.js && node scripts/test_weaver_browser.js
       - name: Preserve practice test results
         if: always()
         uses: actions/upload-artifact@v4
@@ -46,4 +46,5 @@ jobs:
             validation/practice-browser/*.png
             validation/practice-browser/attempt.md
             validation/claim-lab-browser/
+            validation/weaver-browser/
           if-no-files-found: ignore

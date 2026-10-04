@@ -170,12 +170,16 @@
       "theme": "complexity",
       "transcribed_entry": "Weaver, Warren. ‘Science and Complexity,’ American Scientist, Vol. 36, No. 4, 536–544.",
       "source_paragraph": 9,
-      "review_status": "bibliographic_entry_transcribed",
+      "review_status": "selected_passages_reviewed",
       "full_text_reviewed": false,
-      "notes": [],
+      "notes": [
+        "The opening discussion on PDF page 1 appears truncated, and the transcript contains OCR defects. Do not use it for word-perfect quotations or claim complete original-edition review."
+      ],
       "source_url": "https://stream.syscoi.com/2026/09/05/28544/",
       "node_id": "publication_fpcs_010",
-      "reconciliation": "existing_atlas_work"
+      "reconciliation": "existing_atlas_work",
+      "primary_url": "https://patterns.architexturez.net/system/files/WEAVER1947.pdf",
+      "review_locator": "Later transcription PDF pages 3, 4, 8, and 10; original journal pagination unverified"
     },
     {
       "id": "wiener-07",
