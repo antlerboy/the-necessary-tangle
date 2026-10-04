@@ -1,7 +1,7 @@
 {
   "schema_version": "1.1",
-  "generated": "2026-09-20",
-  "release": "0.27",
+  "generated": "2026-10-04",
+  "release": "0.29",
   "purpose": "Machine-readable relationship-quality result after the evidence-led relationship review.",
   "contract": {
     "human_readable_rationale": "A relation has a plain phrase and either notes, scope conditions or an inference method.",
@@ -29,31 +29,31 @@
   "current": {
     "public_entries": 1196,
     "all_nodes": 1323,
-    "all_edges": 3013,
-    "sources": 737,
-    "claims": 34,
-    "evidence_records": 37,
-    "profiles": 182,
+    "all_edges": 3017,
+    "sources": 738,
+    "claims": 38,
+    "evidence_records": 41,
+    "profiles": 183,
     "journeys": 24,
     "external_corpora_reviewed": 12,
     "internal_sources_reviewed": 18,
     "reader_connected_entries": 1155,
-    "semantic_connected_entries": 516,
-    "semantic_gap_entries": 680,
+    "semantic_connected_entries": 517,
+    "semantic_gap_entries": 679,
     "connection_bands": {
-      "developing": 240,
-      "rich": 93,
-      "thin": 822,
+      "developing": 238,
+      "rich": 96,
+      "thin": 821,
       "unconnected": 41
     },
     "evidence_bands": {
-      "mixed": 271,
+      "mixed": 272,
       "none": 41,
       "provisional": 679,
-      "supported": 205
+      "supported": 204
     },
-    "reader_statements": 2389,
-    "semantic_statements": 1050
+    "reader_statements": 2393,
+    "semantic_statements": 1054
   },
   "changes_from_baseline": {
     "generic_relation_review_targets": {
@@ -66,68 +66,68 @@
     },
     "sources": {
       "before": 153,
-      "after": 737
+      "after": 738
     },
     "semantic_connected_entries": {
       "before": 329,
-      "after": 516,
+      "after": 517,
       "note": "A generic journal-to-tradition edge was replaced by a narrower documentary scope claim; unsupported semantic reach was not preserved."
     },
     "substantive_edge_count": {
       "before": 750,
-      "after": 1053
+      "after": 1057
     },
     "isolated_semantic_nodes": {
       "before": 167,
-      "after": 680
+      "after": 679
     }
   },
   "criteria": {
     "typed": {
-      "passing": 3013,
-      "total": 3013
+      "passing": 3017,
+      "total": 3017
     },
     "directed": {
-      "passing": 2912,
-      "total": 3013,
+      "passing": 2916,
+      "total": 3017,
       "undirected": 101
     },
     "human_readable_phrase": {
-      "passing": 3013,
-      "total": 3013
+      "passing": 3017,
+      "total": 3017
     },
     "explicit_rationale": {
-      "passing": 2714,
-      "total": 3013
+      "passing": 2718,
+      "total": 3017
     },
     "source_identifier": {
-      "passing": 3013,
-      "total": 3013
+      "passing": 3017,
+      "total": 3017
     },
     "locator_present": {
-      "passing": 2610,
-      "total": 3013
+      "passing": 2614,
+      "total": 3017
     },
     "precision_shaped_locator": {
-      "passing": 556,
-      "total": 3013,
+      "passing": 560,
+      "total": 3017,
       "note": "Conservative text-pattern measure; manual review is still required."
     },
     "epistemic_fields_present": {
-      "passing": 3013,
-      "total": 3013
+      "passing": 3017,
+      "total": 3017
     },
     "generic_related_to": {
-      "passing": 3013,
-      "total": 3013,
+      "passing": 3017,
+      "total": 3017,
       "review_target_count": 0
     },
     "three_or_more_relation_families": {
-      "passing": 146,
+      "passing": 149,
       "total": 1196
     },
     "one_relation_family": {
-      "count": 714,
+      "count": 713,
       "total": 1196
     },
     "external_corpus_records": {

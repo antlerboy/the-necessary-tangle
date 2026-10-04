@@ -1,10 +1,11 @@
 .PHONY: build build-base apply-current apply-practice apply-missing-entry-reports validate serve clean
 
-build: build-base apply-current apply-practice apply-september apply-intake apply-maps apply-library apply-missing-entry-reports apply-submission-review apply-claim-lab
+build: build-base apply-current apply-practice apply-september apply-intake apply-maps apply-library apply-missing-entry-reports apply-submission-review apply-claim-lab apply-weaver
 
 # Historical validators assert historical release identifiers. Rebuild that
 # baseline, run its gates, then apply and validate the current release.
 build-base:
+	python3 scripts/prepare_weaver_29_baseline.py
 	python3 scripts/prepare_missing_entry_reports_27_baseline.py
 	python3 scripts/prepare_library_26_baseline.py
 	python3 scripts/prepare_intake_20260918_baseline.py
@@ -160,6 +161,9 @@ validate: build-base
 	$(MAKE) apply-submission-review
 	$(MAKE) apply-claim-lab
 	python3 scripts/validate_claim_lab.py
+	$(MAKE) apply-weaver
+	python3 scripts/validate_public.py
+	python3 scripts/validate_weaver_29.py
 
 apply-missing-entry-reports:
 	python3 scripts/apply_missing_entry_reports_27.py
@@ -203,3 +207,7 @@ apply-submission-review:
 
 apply-claim-lab:
 	python3 scripts/build_claim_lab.py
+
+apply-weaver:
+	python3 scripts/apply_weaver_29.py
+	python3 scripts/build_public_knowledge.py

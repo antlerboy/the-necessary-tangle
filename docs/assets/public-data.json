@@ -3,16 +3,16 @@
     "project": "The Necessary Tangle",
     "subtitle": "A living evidence atlas of systems | cybernetics | complexity",
     "tagline": "Every connection must say what it means.",
-    "release": "0.27",
-    "generated": "2026-09-20",
+    "release": "0.29",
+    "generated": "2026-10-04",
     "status": "public alpha on GitHub Pages",
     "namespace": "scc_bok",
     "node_count": 1323,
-    "edge_count": 3013,
-    "source_count": 737,
+    "edge_count": 3017,
+    "source_count": 738,
     "claim_count": 34,
     "evidence_count": 37,
-    "profile_count": 182,
+    "profile_count": 183,
     "journey_count": 24,
     "review_queue_count": 115,
     "author": "Benjamin P Taylor",
@@ -22,7 +22,7 @@
     "public_entry_count": 1196,
     "described_entry_count": 1196,
     "stub_entry_count": 0,
-    "public_link_source_count": 721,
+    "public_link_source_count": 722,
     "no_public_link_source_count": 16,
     "repository_url": "https://github.com/antlerboy/the-necessary-tangle",
     "author_role": "curator",
@@ -63,10 +63,10 @@
     "relational_crosswalk_connection_count": 289,
     "source_backed_author_link_count": 17,
     "reader_connected_entry_count": 1155,
-    "semantic_connected_entry_count": 516,
-    "rich_entry_count": 93,
-    "developing_entry_count": 240,
-    "thin_entry_count": 822,
+    "semantic_connected_entry_count": 517,
+    "rich_entry_count": 96,
+    "developing_entry_count": 238,
+    "thin_entry_count": 821,
     "unconnected_entry_count": 41,
     "relational_depth_url": "https://github.com/antlerboy/the-necessary-tangle/blob/main/documentation/relational-depth.md",
     "external_corpus_review_count": 12,
@@ -85,7 +85,7 @@
     "living_mark_count": 84,
     "complexity_podcast_episode_count": 119,
     "visual_identity_contract": "living-marks-v1",
-    "semantic_gap_entry_count": 680,
+    "semantic_gap_entry_count": 679,
     "typed_edge_count": 1548,
     "substantive_edge_count": 858,
     "castellani_map_url": "https://art-sciencefactory.com/complexity-map_feb09.html",
@@ -121,7 +121,7 @@
     "early_cybernetics_entry_count": 48,
     "early_cybernetics_url": "https://transduction.systems/corpora/early-cybernetics/",
     "systems_thinking_intro_url": "https://transduction.systems/systems-thinking/",
-    "release_digest_url": "https://transduction.systems/updates/2026-09-20/",
+    "release_digest_url": "https://transduction.systems/reading/weaver-complexity/",
     "practice_pack_url": "https://transduction.systems/systems-thinking/practice/",
     "practice_lab_count": 26,
     "connection_pass": "september_connections_2026",
@@ -10271,31 +10271,31 @@
       "id": "publication_fpcs_010",
       "label": "Science and Complexity",
       "entity_type": "publication",
-      "description": "W. Weaver, ‘Science and Complexity’ (1948); item 10 in volume 1 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.",
+      "description": "Weaver’s 1948 essay distinguishes kinds of scientific problem and examines both the promise and limits of scientific inquiry. Selected passages have been read in a later transcription; the original journal text and pagination have not been checked.",
       "aliases": "[]",
       "boundary_ring": "1",
       "inclusion_reason": "named_public_corpus",
       "status": "accepted",
-      "source_ids": "[\"src_fpcs_official_toc\", \"src_wiener_reading_lists_2026\"]",
+      "source_ids": "[\"src_fpcs_official_toc\", \"src_wiener_reading_lists_2026\", \"src_weaver_complexity_transcription_1948\"]",
       "set_tags": "[\"complexity\", \"foundational_papers\", \"volume_1\", \"release_0_8_expansion\", \"reviewed_seed_candidate\", \"foundational_papers_complexity_science\", \"fpcs_volume_1\"]",
       "espoused_labels": "[]",
       "observed_clusters": "[]",
-      "canonical_definition": "W. Weaver, ‘Science and Complexity’ (1948); item 10 in volume 1 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.",
+      "canonical_definition": "Weaver’s 1948 essay distinguishes kinds of scientific problem and examines both the promise and limits of scientific inquiry. Selected passages have been read in a later transcription; the original journal text and pagination have not been checked.",
       "valid_from": "",
       "valid_to": "",
       "external_ids": "{\"fpcs_number\": 10, \"fpcs_volume\": 1}",
       "geographies": "[]",
       "licence": "source_terms",
-      "review_status": "official_toc_bibliographic_inventory",
+      "review_status": "selected_passages_checked_transcription_not_facsimile",
       "reviewed_by": "Benjamin P Taylor",
       "reviewed_at": "2026-08-10",
       "x": -0.6025735421375199,
       "y": -0.25859852380784165,
       "canonical_id": "publication_fpcs_010",
       "public_visibility": "public",
-      "publication_level": "described",
+      "publication_level": "profile",
       "public_stub_text": "",
-      "public_source_count": 2,
+      "public_source_count": 3,
       "no_public_link_count": 0
     },
     {
@@ -117370,6 +117370,110 @@
       "plain_phrase": "served as president of",
       "public_review_label": "Located source statement; independent review not recorded",
       "connection_pass": "missing_entry_reports_20260920"
+    },
+    {
+      "id": "e29_weaver_conditions_on_averages",
+      "source": "publication_fpcs_010",
+      "target": "concept_modelling",
+      "relation_type": "uses_in_argument",
+      "relation_family": "conceptual",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "",
+      "claim_status": "candidate",
+      "source_ids": "[\"src_weaver_complexity_transcription_1948\"]",
+      "evidence_ids": "[\"ev29_weaver-conditions-on-averages\"]",
+      "source_locator": "PDF page 3; Problems of Disorganized Complexity; paragraph beginning 'Earlier it was stated'",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Weaver makes the billiard-ball statistical example conditional on how the balls are distributed and move; a deliberately aligned arrangement breaks the example. Source account only; contemporary organisational applications are editorial. Later transcription, not original journal pagination.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "claim29_weaver-conditions-on-averages",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "makes the statistical example conditional on",
+      "public_review_label": "Source passage located; curator review pending",
+      "connection_pass": "weaver_20261004"
+    },
+    {
+      "id": "e29_weaver_organisation_not_count",
+      "source": "publication_fpcs_010",
+      "target": "concept_complexity",
+      "relation_type": "presents_account_of",
+      "relation_family": "conceptual",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "",
+      "claim_status": "candidate",
+      "source_ids": "[\"src_weaver_complexity_transcription_1948\"]",
+      "evidence_ids": "[\"ev29_weaver-organisation-not-count\"]",
+      "source_locator": "PDF page 4; Problems of Organized Complexity; first paragraph",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "His distinction concerns organisation, not simply a moderate number of variables. Source account only; contemporary organisational applications are editorial. Later transcription, not original journal pagination.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "claim29_weaver-organisation-not-count",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "distinguishes organisation from variable count in",
+      "public_review_label": "Source passage located; curator review pending",
+      "connection_pass": "weaver_20261004"
+    },
+    {
+      "id": "e29_weaver_collaboration_not_exclusive",
+      "source": "publication_fpcs_010",
+      "target": "concept_modelling",
+      "relation_type": "qualifies_practice_claim",
+      "relation_family": "contestation",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "",
+      "claim_status": "candidate",
+      "source_ids": "[\"src_weaver_complexity_transcription_1948\"]",
+      "evidence_ids": "[\"ev29_weaver-collaboration-not-exclusive\"]",
+      "source_locator": "PDF page 8; paragraph beginning 'It is tempting to forecast'",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "He favours mixed teams and computation while explicitly preserving other ways of working, including solitary inquiry. Source account only; contemporary organisational applications are editorial. Later transcription, not original journal pagination.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "claim29_weaver-collaboration-not-exclusive",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "rejects an exclusive mixed-team pattern for",
+      "public_review_label": "Source passage located; curator review pending",
+      "connection_pass": "weaver_20261004"
+    },
+    {
+      "id": "e29_weaver_science_and_values",
+      "source": "publication_fpcs_010",
+      "target": "concept_purpose",
+      "relation_type": "qualifies_practice_claim",
+      "relation_family": "contestation",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "",
+      "claim_status": "candidate",
+      "source_ids": "[\"src_weaver_complexity_transcription_1948\"]",
+      "evidence_ids": "[\"ev29_weaver-science-and-values\"]",
+      "source_locator": "PDF page 10; The Boundaries of Science; paragraph beginning 'Yes, science is a powerful tool'",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "He rejects the expectation that scientific control alone settles social emergencies or supplies a moral code. Source account only; contemporary organisational applications are editorial. Later transcription, not original journal pagination.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "claim29_weaver-science-and-values",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "limits the authority of science to settle",
+      "public_review_label": "Source passage located; curator review pending",
+      "connection_pass": "weaver_20261004"
     }
   ],
   "sources": [
@@ -132904,6 +133008,27 @@
       "last_checked": "2026-09-20",
       "public_link_status": "public_link",
       "connection_pass": "missing_entry_reports_20260920"
+    },
+    {
+      "id": "src_weaver_complexity_transcription_1948",
+      "title": "Science and Complexity: selected passages in a later transcription",
+      "source_type": "primary_text_transcription",
+      "quality_tier": "B",
+      "access": "public_full_text",
+      "url": "https://patterns.architexturez.net/system/files/WEAVER1947.pdf",
+      "date": "1948",
+      "notes": "Eleven-page printout of a Ceptual Institute HTML transcription, dated 24 January 2008. This is the author's text in a later transcription, not a facsimile of the original journal pages. Selected passages on PDF pages 3, 4, 8, and 10 read. Original journal pagination not verified. The opening discussion on PDF page 1 appears truncated, and the transcript contains OCR defects. Do not use it for word-perfect quotations or claim complete original-edition review.",
+      "creators": "[\"Warren Weaver\"]",
+      "doi": "",
+      "isbn": "",
+      "publisher": "Original: American Scientist; later transcription hosted by Architexturez",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "selected_passages_checked_transcription_not_facsimile",
+      "last_checked": "2026-10-04",
+      "public_link_status": "public_link",
+      "connection_pass": "weaver_20261004"
     }
   ],
   "evidence": [
@@ -133350,6 +133475,58 @@
       "review_status": "research_pass_needs_editor",
       "content_hash": "",
       "public_evidence_status": "public"
+    },
+    {
+      "id": "ev29_weaver-conditions-on-averages",
+      "source_id": "src_weaver_complexity_transcription_1948",
+      "locator": "PDF page 3; Problems of Disorganized Complexity; paragraph beginning 'Earlier it was stated'",
+      "excerpt_or_summary": "Weaver makes the billiard-ball statistical example conditional on how the balls are distributed and move; a deliberately aligned arrangement breaks the example.",
+      "evidence_type": "located_primary_text_transcription",
+      "quality_tier": "B",
+      "licence": "see_source",
+      "review_status": "research_pass_needs_editor",
+      "content_hash": "",
+      "public_evidence_status": "public",
+      "connection_pass": "weaver_20261004"
+    },
+    {
+      "id": "ev29_weaver-organisation-not-count",
+      "source_id": "src_weaver_complexity_transcription_1948",
+      "locator": "PDF page 4; Problems of Organized Complexity; first paragraph",
+      "excerpt_or_summary": "His distinction concerns organisation, not simply a moderate number of variables.",
+      "evidence_type": "located_primary_text_transcription",
+      "quality_tier": "B",
+      "licence": "see_source",
+      "review_status": "research_pass_needs_editor",
+      "content_hash": "",
+      "public_evidence_status": "public",
+      "connection_pass": "weaver_20261004"
+    },
+    {
+      "id": "ev29_weaver-collaboration-not-exclusive",
+      "source_id": "src_weaver_complexity_transcription_1948",
+      "locator": "PDF page 8; paragraph beginning 'It is tempting to forecast'",
+      "excerpt_or_summary": "He favours mixed teams and computation while explicitly preserving other ways of working, including solitary inquiry.",
+      "evidence_type": "located_primary_text_transcription",
+      "quality_tier": "B",
+      "licence": "see_source",
+      "review_status": "research_pass_needs_editor",
+      "content_hash": "",
+      "public_evidence_status": "public",
+      "connection_pass": "weaver_20261004"
+    },
+    {
+      "id": "ev29_weaver-science-and-values",
+      "source_id": "src_weaver_complexity_transcription_1948",
+      "locator": "PDF page 10; The Boundaries of Science; paragraph beginning 'Yes, science is a powerful tool'",
+      "excerpt_or_summary": "He rejects the expectation that scientific control alone settles social emergencies or supplies a moral code.",
+      "evidence_type": "located_primary_text_transcription",
+      "quality_tier": "B",
+      "licence": "see_source",
+      "review_status": "research_pass_needs_editor",
+      "content_hash": "",
+      "public_evidence_status": "public",
+      "connection_pass": "weaver_20261004"
     }
   ],
   "claims": [
@@ -133896,6 +134073,74 @@
       "review_status": "research_pass_needs_editor",
       "reviewed_by": "",
       "reviewed_at": ""
+    },
+    {
+      "id": "claim29_weaver-conditions-on-averages",
+      "statement": "Weaver makes the billiard-ball statistical example conditional on how the balls are distributed and move; a deliberately aligned arrangement breaks the example.",
+      "subject_id": "publication_fpcs_010",
+      "predicate": "uses_in_argument",
+      "object_id": "concept_modelling",
+      "status": "candidate",
+      "supporting_source_ids": "[\"src_weaver_complexity_transcription_1948\"]",
+      "supporting_evidence_ids": "[\"ev29_weaver-conditions-on-averages\"]",
+      "contradicting_source_ids": "[]",
+      "contradicting_evidence_ids": "[]",
+      "notes": "Selected passage of a later transcription. Curator review pending; no original-edition or lineage claim.",
+      "review_status": "research_pass_needs_editor",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "connection_pass": "weaver_20261004"
+    },
+    {
+      "id": "claim29_weaver-organisation-not-count",
+      "statement": "His distinction concerns organisation, not simply a moderate number of variables.",
+      "subject_id": "publication_fpcs_010",
+      "predicate": "presents_account_of",
+      "object_id": "concept_complexity",
+      "status": "candidate",
+      "supporting_source_ids": "[\"src_weaver_complexity_transcription_1948\"]",
+      "supporting_evidence_ids": "[\"ev29_weaver-organisation-not-count\"]",
+      "contradicting_source_ids": "[]",
+      "contradicting_evidence_ids": "[]",
+      "notes": "Selected passage of a later transcription. Curator review pending; no original-edition or lineage claim.",
+      "review_status": "research_pass_needs_editor",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "connection_pass": "weaver_20261004"
+    },
+    {
+      "id": "claim29_weaver-collaboration-not-exclusive",
+      "statement": "He favours mixed teams and computation while explicitly preserving other ways of working, including solitary inquiry.",
+      "subject_id": "publication_fpcs_010",
+      "predicate": "qualifies_practice_claim",
+      "object_id": "concept_modelling",
+      "status": "candidate",
+      "supporting_source_ids": "[\"src_weaver_complexity_transcription_1948\"]",
+      "supporting_evidence_ids": "[\"ev29_weaver-collaboration-not-exclusive\"]",
+      "contradicting_source_ids": "[]",
+      "contradicting_evidence_ids": "[]",
+      "notes": "Selected passage of a later transcription. Curator review pending; no original-edition or lineage claim.",
+      "review_status": "research_pass_needs_editor",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "connection_pass": "weaver_20261004"
+    },
+    {
+      "id": "claim29_weaver-science-and-values",
+      "statement": "He rejects the expectation that scientific control alone settles social emergencies or supplies a moral code.",
+      "subject_id": "publication_fpcs_010",
+      "predicate": "qualifies_practice_claim",
+      "object_id": "concept_purpose",
+      "status": "candidate",
+      "supporting_source_ids": "[\"src_weaver_complexity_transcription_1948\"]",
+      "supporting_evidence_ids": "[\"ev29_weaver-science-and-values\"]",
+      "contradicting_source_ids": "[]",
+      "contradicting_evidence_ids": "[]",
+      "notes": "Selected passage of a later transcription. Curator review pending; no original-edition or lineage claim.",
+      "review_status": "research_pass_needs_editor",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "connection_pass": "weaver_20261004"
     }
   ],
   "relation_types": [
@@ -139164,6 +139409,26 @@
       "reviewed_at": "",
       "report_issue": 86,
       "report_outcome": "full_profile_added; mission, foundation, membership, and conversations retained; unsupported governance claims excluded"
+    },
+    {
+      "node_id": "publication_fpcs_010",
+      "summary": "Weaver’s 1948 essay distinguishes kinds of scientific problem and examines both the promise and limits of scientific inquiry. Selected passages have been read in a later transcription; the original journal text and pagination have not been checked.",
+      "canonical_definition": "Weaver’s 1948 essay distinguishes kinds of scientific problem and examines both the promise and limits of scientific inquiry. Selected passages have been read in a later transcription; the original journal text and pagination have not been checked.",
+      "why_it_matters": "Use the source to question a methodological choice, rather than treating a historical classification as a universal sorting rule.",
+      "key_distinctions": "[\"source text vs organisational application\", \"transcription page vs original journal page\"]",
+      "historical_lineage": "[]",
+      "logical_antecedents": "[]",
+      "dependent_subsequents": "[]",
+      "practice_connections": "[\"State what the model must explain and which observations could challenge it.\"]",
+      "common_misreadings": "[]",
+      "open_checks": "[\"Compare the transcription with an original journal facsimile.\", \"Extend review beyond the four named passages.\"]",
+      "source_ids": "[\"src_fpcs_official_toc\", \"src_wiener_reading_lists_2026\", \"src_weaver_complexity_transcription_1948\"]",
+      "context_and_lineage": "Selected passages: PDF pages 3, 4, 8, and 10 of the 2008 printout.",
+      "editorial_note": "Prepared with AI assistance. Four scoped statements; no independent specialist review or complete original-text review claimed.",
+      "last_researched": "2026-10-04",
+      "title": "Science and Complexity",
+      "profile_status": "evidence_deepened_research_pass",
+      "review_status": "research_pass_needs_editor"
     }
   ],
   "maturity": [
@@ -141068,12 +141333,12 @@
   },
   "graph_snapshot": {
     "public_node_count": 1196,
-    "substantive_edge_count": 1053,
-    "substantive_pair_count": 1028,
-    "connected_node_count": 516,
-    "isolated_node_count": 680,
-    "component_count": 705,
-    "largest_component_node_count": 445,
+    "substantive_edge_count": 1057,
+    "substantive_pair_count": 1031,
+    "connected_node_count": 517,
+    "isolated_node_count": 679,
+    "component_count": 704,
+    "largest_component_node_count": 446,
     "isolates_by_entity_type": {
       "comparator_corpus": 5,
       "concept": 14,
@@ -141081,7 +141346,7 @@
       "method_or_methodology": 36,
       "organisation": 4,
       "person": 145,
-      "publication": 203,
+      "publication": 202,
       "source": 261
     }
   },
@@ -141291,12 +141556,12 @@
     }
   ],
   "ai_observations": {
-    "release": "0.27",
-    "generated": "2026-09-20",
+    "release": "0.29",
+    "generated": "2026-10-04",
     "method_note": "Measurements come from the generated public graph. Interpretations concern this atlas and its current source and interface choices; they are not measurements of the field itself.",
     "metrics": {
       "public_entries": 1196,
-      "developed_profiles": 182,
+      "developed_profiles": 183,
       "entity_counts": {
         "approach_family": 6,
         "comparator_corpus": 6,
@@ -141316,14 +141581,14 @@
         "tool": 14,
         "tradition": 14
       },
-      "sources": 737,
-      "sources_with_public_links": 721,
-      "typed_edges": 2679,
-      "substantive_edges": 1053,
-      "substantive_connected_nodes": 516,
-      "substantive_isolated_nodes": 680,
-      "substantive_components": 705,
-      "largest_substantive_component": 445,
+      "sources": 738,
+      "sources_with_public_links": 722,
+      "typed_edges": 2683,
+      "substantive_edges": 1057,
+      "substantive_connected_nodes": 517,
+      "substantive_isolated_nodes": 679,
+      "substantive_components": 704,
+      "largest_substantive_component": 446,
       "largest_all_edge_component": 1127,
       "isolates_by_type": {
         "comparator_corpus": 5,
@@ -141332,13 +141597,13 @@
         "method_or_methodology": 36,
         "organisation": 4,
         "person": 145,
-        "publication": 203,
+        "publication": 202,
         "source": 261
       },
       "layers": {
         "conceptual": {
-          "edges": 398,
-          "nodes": 261
+          "edges": 400,
+          "nodes": 262
         },
         "human_lineage": {
           "edges": 201,
@@ -141349,8 +141614,8 @@
           "nodes": 266
         },
         "contestation": {
-          "edges": 20,
-          "nodes": 32
+          "edges": 22,
+          "nodes": 35
         },
         "provenance": {
           "edges": 1616,
@@ -141414,7 +141679,7 @@
           "id": "concept_complexity",
           "label": "Complexity",
           "entity_type": "concept",
-          "degree": 24
+          "degree": 25
         },
         {
           "id": "approach_family_systems_change",
@@ -141426,13 +141691,13 @@
           "id": "concept_purpose",
           "label": "Purpose",
           "entity_type": "concept",
-          "degree": 20
+          "degree": 21
         },
         {
           "id": "concept_modelling",
           "label": "Modelling",
           "entity_type": "concept",
-          "degree": 19
+          "degree": 20
         }
       ],
       "source_concentration": [
@@ -141501,14 +141766,14 @@
       "people_total": 270,
       "published_neighbourhoods": 6,
       "published_neighbourhood_members": 77,
-      "connected_nodes_outside_neighbourhoods": 451
+      "connected_nodes_outside_neighbourhoods": 452
     },
     "observations": [
       {
         "id": "breadth_outpaces_depth",
         "title": "Breadth has outrun depth",
         "kind": "measurement plus interpretation",
-        "measurement": "The atlas has 1196 public entries and 182 developed profiles. Only 15.2% of entries have the fuller profile structure.",
+        "measurement": "The atlas has 1196 public entries and 183 developed profiles. Only 15.3% of entries have the fuller profile structure.",
         "interpretation": "It is now better at showing that something belongs in the territory than at explaining what the thing means, why it matters, where it is contested and how it enters practice.",
         "implication": "Next depth work should follow reader demand, bridge concepts and high-risk ambiguities rather than adding another undifferentiated tranche of names.",
         "test": "This observation weakens when developed profiles and item-level source coverage grow without sacrificing the breadth inventory."
@@ -141517,7 +141782,7 @@
         "id": "two_graph_regimes",
         "title": "One interface contains two different graphs",
         "kind": "measurement plus design inference",
-        "measurement": "There are 2679 typed public edges, but 1053 are conceptual, historical, human, practice or contestation relations. The substantive share is 39.3%.",
+        "measurement": "There are 2683 typed public edges, but 1057 are conceptual, historical, human, practice or contestation relations. The substantive share is 39.4%.",
         "interpretation": "Authorship, collection membership and other provenance lines answer different questions from influence, dependence or use. Combining them without visible layers makes bibliographic density look like intellectual agreement.",
         "implication": "The interface should let readers choose conceptual, human-lineage, practice, contestation and provenance layers explicitly.",
         "test": "Readers should be able to explain what became visible or hidden when they change layer, without learning database vocabulary first."
@@ -141571,7 +141836,7 @@
         "id": "neighbourhoods_are_stale",
         "title": "The published neighbourhoods are a historical snapshot, not the present graph",
         "kind": "measurement plus model warning",
-        "measurement": "Six published neighbourhoods contain 77 unique nodes, while 516 nodes are now connected; 451 connected nodes sit outside the old grouping pass.",
+        "measurement": "Six published neighbourhoods contain 77 unique nodes, while 517 nodes are now connected; 452 connected nodes sit outside the old grouping pass.",
         "interpretation": "An algorithmic cluster is produced by the current edges, exclusions, resolution setting and seed. It is not a natural school waiting to be discovered.",
         "implication": "Recompute neighbourhoods at each suitable release, record the algorithm and version, and retain change over time rather than silently replacing one partition with another.",
         "test": "A reader should be able to inspect why two entries share a neighbourhood and see when that grouping changed."
@@ -141589,7 +141854,7 @@
         "id": "map_of_attention",
         "title": "The gaps map the curator's attention as much as they map the field",
         "kind": "second-order observation",
-        "measurement": "680 entries are isolated in the substantive graph, while the largest substantive component contains 445 entries.",
+        "measurement": "679 entries are isolated in the substantive graph, while the largest substantive component contains 446 entries.",
         "interpretation": "Isolation does not mean an idea is naturally peripheral. It often means the current source set, relation vocabulary or research history has not yet made its connections visible.",
         "implication": "Treat isolates as hypotheses about missing work, not as evidence that the field itself has no connections there.",
         "test": "Source programmes from different traditions should alter which entries appear central, peripheral or absent."
@@ -141957,7 +142222,7 @@
     }
   },
   "reading_list_coverage": {
-    "release": "0.27",
+    "release": "0.29",
     "status": "item_level_inventory_with_developed_subset_full_critical_audit_open",
     "item_count": 110,
     "developed_profile_count": 29,
@@ -143081,7 +143346,7 @@
         "coverage_status": "inventory_only"
       }
     ],
-    "release": "0.27",
+    "release": "0.29",
     "generated": "2026-08-25",
     "counts": {
       "developed_profile": 29,
@@ -143092,7 +143357,7 @@
     "coverage_note": "Every captured item is visible. Developed profile means the atlas has a sourced interpretive profile; represented means a canonical entry exists but remains thinner; inventory only means the item is recorded without pretending it has been critically developed."
   },
   "core_systems_practice": {
-    "release": "0.27",
+    "release": "0.29",
     "node_id": "practice_core_systems_practice_spine",
     "major_approaches": [
       "method_or_methodology_critical_systems_heuristics_csh",
@@ -143108,8 +143373,8 @@
     "practice_pack_url": "https://transduction.systems/systems-thinking/practice/"
   },
   "relational_depth": {
-    "release": "0.27",
-    "generated": "2026-09-20",
+    "release": "0.29",
+    "generated": "2026-10-04",
     "purpose": "Make relational breadth, multiplexity and evidential strength inspectable for every public entry.",
     "contract": {
       "visible_connection": "Any non-legacy typed statement between two canonical public entries.",
@@ -143125,21 +143390,21 @@
       "public_entries": 1196,
       "visible_connected_entries": 1158,
       "reader_connected_entries": 1155,
-      "semantic_connected_entries": 516,
+      "semantic_connected_entries": 517,
       "connection_bands": {
-        "developing": 240,
-        "rich": 93,
-        "thin": 822,
+        "developing": 238,
+        "rich": 96,
+        "thin": 821,
         "unconnected": 41
       },
       "evidence_bands": {
-        "mixed": 271,
+        "mixed": 272,
         "none": 41,
         "provisional": 679,
-        "supported": 205
+        "supported": 204
       },
-      "reader_statements": 2389,
-      "semantic_statements": 1050
+      "reader_statements": 2393,
+      "semantic_statements": 1054
     },
     "by_entity_type": {
       "approach_family": {
@@ -143153,8 +143418,8 @@
         "total": 6
       },
       "concept": {
-        "developing": 36,
-        "rich": 29,
+        "developing": 34,
+        "rich": 31,
         "thin": 33,
         "total": 101,
         "unconnected": 3
@@ -143206,8 +143471,8 @@
       },
       "publication": {
         "developing": 23,
-        "rich": 3,
-        "thin": 249,
+        "rich": 4,
+        "thin": 248,
         "total": 275
       },
       "source": {
@@ -145792,14 +146057,14 @@
         "connection_band": "rich",
         "evidence_band": "mixed",
         "visible_connections": 29,
-        "visible_statements": 30,
-        "reader_connections": 24,
-        "reader_statements": 25,
-        "semantic_connections": 24,
-        "semantic_statements": 25,
+        "visible_statements": 31,
+        "reader_connections": 25,
+        "reader_statements": 26,
+        "semantic_connections": 25,
+        "semantic_statements": 26,
         "documentary_statements": 0,
         "accepted_reader_statements": 4,
-        "provisional_reader_statements": 21,
+        "provisional_reader_statements": 22,
         "distinct_reader_families": 3,
         "reader_families": [
           "conceptual",
@@ -146113,20 +146378,21 @@
         ]
       },
       "concept_modelling": {
-        "connection_band": "developing",
+        "connection_band": "rich",
         "evidence_band": "provisional",
-        "visible_connections": 19,
-        "visible_statements": 21,
-        "reader_connections": 19,
-        "reader_statements": 21,
-        "semantic_connections": 19,
-        "semantic_statements": 21,
+        "visible_connections": 20,
+        "visible_statements": 23,
+        "reader_connections": 20,
+        "reader_statements": 23,
+        "semantic_connections": 20,
+        "semantic_statements": 23,
         "documentary_statements": 0,
         "accepted_reader_statements": 0,
-        "provisional_reader_statements": 21,
-        "distinct_reader_families": 2,
+        "provisional_reader_statements": 23,
+        "distinct_reader_families": 3,
         "reader_families": [
           "conceptual",
+          "contestation",
           "practice"
         ]
       },
@@ -146265,20 +146531,21 @@
         ]
       },
       "concept_purpose": {
-        "connection_band": "developing",
+        "connection_band": "rich",
         "evidence_band": "mixed",
-        "visible_connections": 20,
-        "visible_statements": 20,
-        "reader_connections": 20,
-        "reader_statements": 20,
-        "semantic_connections": 20,
-        "semantic_statements": 20,
+        "visible_connections": 21,
+        "visible_statements": 21,
+        "reader_connections": 21,
+        "reader_statements": 21,
+        "semantic_connections": 21,
+        "semantic_statements": 21,
         "documentary_statements": 0,
         "accepted_reader_statements": 2,
-        "provisional_reader_statements": 18,
-        "distinct_reader_families": 2,
+        "provisional_reader_statements": 19,
+        "distinct_reader_families": 3,
         "reader_families": [
           "conceptual",
+          "contestation",
           "practice"
         ]
       },
@@ -149660,19 +149927,21 @@
         ]
       },
       "publication_fpcs_010": {
-        "connection_band": "thin",
-        "evidence_band": "supported",
-        "visible_connections": 5,
-        "visible_statements": 7,
-        "reader_connections": 4,
-        "reader_statements": 4,
-        "semantic_connections": 0,
-        "semantic_statements": 0,
+        "connection_band": "rich",
+        "evidence_band": "mixed",
+        "visible_connections": 7,
+        "visible_statements": 11,
+        "reader_connections": 7,
+        "reader_statements": 8,
+        "semantic_connections": 3,
+        "semantic_statements": 4,
         "documentary_statements": 4,
         "accepted_reader_statements": 3,
-        "provisional_reader_statements": 1,
-        "distinct_reader_families": 1,
+        "provisional_reader_statements": 5,
+        "distinct_reader_families": 3,
         "reader_families": [
+          "conceptual",
+          "contestation",
           "documentary"
         ]
       },
@@ -171694,5 +171963,12 @@
     ],
     "source_rule": "The reports are prompts for research, not evidence. Only claims supported by the cited public records enter the profiles or graph.",
     "independent_review": "not_recorded"
+  },
+  "weaver_20261004": {
+    "release": "0.29",
+    "source_id": "src_weaver_complexity_transcription_1948",
+    "claim_count": 4,
+    "review_scope": "Selected passages on PDF pages 3, 4, 8, and 10 read. Original journal pagination not verified.",
+    "reader_url": "/reading/weaver-complexity/"
   }
 }

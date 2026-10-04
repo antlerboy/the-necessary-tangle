@@ -1,0 +1,97 @@
+{
+  "packet": "Weaver: scope and limits of organised complexity",
+  "status": "Selected-passage source release; published statements retain curator-review labels.",
+  "prepared_on": "2026-10-04",
+  "existing_publication_id": "publication_fpcs_010",
+  "existing_intake_entry": "wiener-06",
+  "existing_review_status": "bibliographic_entry_transcribed",
+  "source": {
+    "title": "Science and Complexity",
+    "author": "Warren Weaver",
+    "original_record": "American Scientist 36(4), 1948, pp. 536–544",
+    "access_url": "https://patterns.architexturez.net/system/files/WEAVER1947.pdf",
+    "accessed_on": "2026-10-04",
+    "representation": "Eleven-page printout of a Ceptual Institute HTML transcription, dated 24 January 2008. This is the author's text in a later transcription, not a facsimile of the original journal pages.",
+    "review_scope": "Selected passages on PDF pages 3, 4, 8, and 10 read. Original journal pagination not verified.",
+    "integrity_note": "The opening discussion on PDF page 1 appears truncated, and the transcript contains OCR defects. Do not use it for word-perfect quotations or claim complete original-edition review.",
+    "permission": "Link and short paraphrase only; no source PDF or transcription copied into the public repository."
+  },
+  "claims": [
+    {
+      "id": "weaver-conditions-on-averages",
+      "subject_id": "publication_fpcs_010",
+      "relation_kind": "qualifies_application",
+      "target_label": "Statistical treatment of disorganised complexity",
+      "reader_statement": "Weaver makes the billiard-ball statistical example conditional on how the balls are distributed and move; a deliberately aligned arrangement breaks the example.",
+      "locator": "PDF page 3; Problems of Disorganized Complexity; paragraph beginning 'Earlier it was stated'",
+      "status": "Source passage located; curator review pending",
+      "target_id": "concept_modelling",
+      "relation_type": "uses_in_argument",
+      "relation_family": "conceptual",
+      "plain_phrase": "makes the statistical example conditional on"
+    },
+    {
+      "id": "weaver-organisation-not-count",
+      "subject_id": "publication_fpcs_010",
+      "relation_kind": "distinguishes",
+      "target_label": "Organisation and number of variables",
+      "reader_statement": "His distinction concerns organisation, not simply a moderate number of variables.",
+      "locator": "PDF page 4; Problems of Organized Complexity; first paragraph",
+      "status": "Source passage located; curator review pending",
+      "target_id": "concept_complexity",
+      "relation_type": "presents_account_of",
+      "relation_family": "conceptual",
+      "plain_phrase": "distinguishes organisation from variable count in"
+    },
+    {
+      "id": "weaver-collaboration-not-exclusive",
+      "subject_id": "publication_fpcs_010",
+      "relation_kind": "limits_scope_of_recommendation",
+      "target_label": "Mixed teams and computation",
+      "reader_statement": "He favours mixed teams and computation while explicitly preserving other ways of working, including solitary inquiry.",
+      "locator": "PDF page 8; paragraph beginning 'It is tempting to forecast'",
+      "status": "Source passage located; curator review pending",
+      "target_id": "concept_modelling",
+      "relation_type": "qualifies_practice_claim",
+      "relation_family": "contestation",
+      "plain_phrase": "rejects an exclusive mixed-team pattern for"
+    },
+    {
+      "id": "weaver-science-and-values",
+      "subject_id": "publication_fpcs_010",
+      "relation_kind": "limits_claim_of_authority",
+      "target_label": "Scientific competence and moral judgement",
+      "reader_statement": "He rejects the expectation that scientific control alone settles social emergencies or supplies a moral code.",
+      "locator": "PDF page 10; The Boundaries of Science; paragraph beginning 'Yes, science is a powerful tool'",
+      "status": "Source passage located; curator review pending",
+      "target_id": "concept_purpose",
+      "relation_type": "qualifies_practice_claim",
+      "relation_family": "contestation",
+      "plain_phrase": "limits the authority of science to settle"
+    }
+  ],
+  "source_triage": [
+    {
+      "url": "https://casci.binghamton.edu/academics/i501/pdfs/i501_paul.pdf",
+      "outcome": "Rejected as a primary-text source: ten teaching slides about Weaver, not Weaver's article."
+    },
+    {
+      "url": "https://fernandonogueiracosta.files.wordpress.com/2015/08/warren-weaver-science-and-complexity-1948.pdf",
+      "outcome": "Browser extraction could not open this copy. No claim about its text or access restrictions."
+    },
+    {
+      "url": "https://ashby.info/bibliography.html",
+      "outcome": "Bibliographic entry 22 confirms the fuller 1946 equilibrium-paper title and journal pages. No full text located through that entry; existing metadata-only status remains appropriate."
+    }
+  ],
+  "integration_plan": [
+    "Use the existing Weaver publication identity and preserve its bibliographic history.",
+    "Record the selected-passage status, transcription limitation, and actual PDF locators in the early-cybernetics catalogue.",
+    "Resolve target labels against maintained concepts before adding any canonical statements; do not invent broad related-to edges.",
+    "Build one comparison explaining what the passages permit and what an organisational application adds; distinguish interpretation from source claims.",
+    "Obtain a journal facsimile before claiming original page locators or complete text review.",
+    "Run the production and reader gates before publishing a separately numbered source release."
+  ],
+  "completion_check": "Four distinct claims have public source locators, scope labels, and no unsupported lineage. The research packet is complete within this selected-passage boundary. Integration is queued, not completed.",
+  "release": "0.29"
+}

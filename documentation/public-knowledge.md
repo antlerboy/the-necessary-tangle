@@ -1,7 +1,7 @@
 # The Necessary Tangle: public knowledge file
 
 Curated by Benjamin P Taylor — https://www.antlerboy.com/
-Generated from public release 0.27 on 2026-09-20.
+Generated from public release 0.29 on 2026-10-04.
 
 A living evidence atlas of systems | cybernetics | complexity.
 Every connection must say what it means. Historical sequence, logical dependence, influence, teaching, collaboration, practical use, comparison and dispute are not interchangeable.
@@ -17642,14 +17642,53 @@ Explore several plausible futures and test what they would mean for present choi
 ## Science and Complexity
 
 Type: Publication
-Public depth: described
+Public depth: profile
 
-W. Weaver, ‘Science and Complexity’ (1948); item 10 in volume 1 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+Weaver’s 1948 essay distinguishes kinds of scientific problem and examines both the promise and limits of scientific inquiry. Selected passages have been read in a later transcription; the original journal text and pagination have not been checked.
+
+### Summary
+
+Weaver’s 1948 essay distinguishes kinds of scientific problem and examines both the promise and limits of scientific inquiry. Selected passages have been read in a later transcription; the original journal text and pagination have not been checked.
+
+### Why it matters
+
+Use the source to question a methodological choice, rather than treating a historical classification as a universal sorting rule.
+
+### Key distinctions
+
+- source text vs organisational application
+- transcription page vs original journal page
+
+### Historical development
+
+[]
+
+### Ideas it depends on
+
+[]
+
+### What develops from it
+
+[]
+
+### Connections to practice
+
+- State what the model must explain and which observations could challenge it.
+
+### Common confusions
+
+[]
+
+### Open questions and checks
+
+- Compare the transcription with an original journal facsimile.
+- Extend review beyond the four named passages.
 
 ### Sources
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
 - Wiener’s selected readings on cybernetics, 1951, 1952, 1956 — https://stream.syscoi.com/2026/09/05/28544/
+- Science and Complexity: selected passages in a later transcription — https://patterns.architexturez.net/system/files/WEAVER1947.pdf
 
 ## Science and Information Theory
 
