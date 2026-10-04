@@ -17,7 +17,7 @@ jobs:
         uses: actions/checkout@v7
         with:
           repository: antlerboy/systemsmap
-          ref: 12a9afaa87f5b7727164136bec793d5a76de1fc2
+          ref: e051f9d6c12baa5021d52c83b6a4e5b05be70c8c
           path: _systemsmap
           persist-credentials: false
       - name: Install media inspection dependency
@@ -33,7 +33,7 @@ jobs:
       - name: Test learner interactions, mobile layout and offline access
         env:
           NODE_PATH: /tmp/practice-browser/node_modules
-        run: node scripts/test_practice_browser.js
+        run: node scripts/test_practice_browser.js && node scripts/test_practice_presentation.js && node scripts/test_intake_browser.js && node scripts/test_maps_browser.js && node scripts/test_library_browser.js && node scripts/test_submission_review_browser.js && node scripts/test_claim_lab_browser.js
       - name: Preserve practice test results
         if: always()
         uses: actions/upload-artifact@v4
@@ -45,4 +45,5 @@ jobs:
             validation/practice-browser/report.json
             validation/practice-browser/*.png
             validation/practice-browser/attempt.md
+            validation/claim-lab-browser/
           if-no-files-found: ignore
