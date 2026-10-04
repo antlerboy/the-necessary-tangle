@@ -92,6 +92,6 @@
     "Obtain a journal facsimile before claiming original page locators or complete text review.",
     "Run the production and reader gates before publishing a separately numbered source release."
   ],
-  "completion_check": "Four distinct claims have public source locators, scope labels, and no unsupported lineage. The research packet is complete within this selected-passage boundary. Integration is queued, not completed.",
+  "completion_check": "Four distinct statements retain public locators, transcription limits, and candidate review labels. Integrated under release 0.29; publication is established by deployment identity and CI, not this source record.",
   "release": "0.29"
 }
