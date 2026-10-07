@@ -6,24 +6,6 @@ X-WR-CALNAME:Complex Systems Society
 REFRESH-INTERVAL:P1D
 X-PUBLISHED-TTL:PT24H
 BEGIN:VEVENT
-SUMMARY:NetLogo Conference 2026
-DTSTART;VALUE=DATE:20260629
-DTEND;VALUE=DATE:20260702
-DTSTAMP:20260906T191842Z
-UID:e9509aff3d5137eb6362e5eb@systemsmap.antlerboy.com
-SEQUENCE:1
-CATEGORIES:Complexity
-DESCRIPTION:Complex Systems Society\n\nLanguage: Not specified\nLanguage r
- equirements: Not specified\nInterpretation: Not specified\nAccess: See org
- aniser\nhttps://cssociety.org/event/5e704c78-1f96-44d2-a917-12e60df5c1cb/
- \nDate-only listing\; check the organiser for session times.
-LAST-MODIFIED:20260906T191842Z
-LOCATION:Chicago\, United States
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-URL:https://cssociety.org/event/5e704c78-1f96-44d2-a917-12e60df5c1cb/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Social Simulation Conference 2026
 DTSTART;VALUE=DATE:20260824
 DTEND;VALUE=DATE:20260829

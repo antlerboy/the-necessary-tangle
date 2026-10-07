@@ -1,3 +1,9 @@
+## Current release packet: 0.30, 7 October 2026
+
+Authorised by the explicit user request to update The Necessary Tangle with Schot, all recent SysCoI additions, events and queued content. Source packet: sources/update-2026-10-07/PACKET.md. Includes all 31 posts after 19 September, source-located transition statements, OrgLens, a special-issue reading lead and four reviewed public event submissions. Events are pinned to the maintained 7 October collection. Bibliographic discovery is distinct from full-text and empirical review. The personal discussion informs a labelled original exercise; private notes are not published.
+
+Acceptance: make validate; focused mobile/desktop browser checks before deployment and on the live site; deployment.json identifies the release commit. Previous specialist, comparator reconciliation and full-text research remain queued. No access rights or invitations are changed. The source-owner-reviewed comparator is preserved.
+
 ## 9 September 2026 source connection pass
 
 Added 45 typed, source-scoped statements; OCAD reading entrance, FEM applications, Taylor/Boxer paper and Benjamin P Taylor entry. Publication was explicitly requested. AI authorship and unreviewed interpretation are labelled. The complete OCAD pro forma could not be retrieved; module-level close reading, the larger source-submission claims and participation roles remain open. See the public dated update and sources/september-2026/queue.json.

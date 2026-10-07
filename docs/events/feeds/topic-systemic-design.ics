@@ -30,9 +30,9 @@ BEGIN:VEVENT
 SUMMARY:RSD15 / RSDX-ASC: Conversational Confluences online series
 DTSTART;VALUE=DATE:20260824
 DTEND;VALUE=DATE:20260828
-DTSTAMP:20260918T090403Z
+DTSTAMP:20261007T221454Z
 UID:99e564f66eea2967812a7cf4@systemsmap.antlerboy.com
-SEQUENCE:16
+SEQUENCE:44
 CATEGORIES:Cybernetics,Systemic design,Systems thinking
 DESCRIPTION:American Society for Cybernetics and Systemic Design Associati
  on\nThe online RSD15 programme continuing conversations from the ASC confe
@@ -43,7 +43,7 @@ DESCRIPTION:American Society for Cybernetics and Systemic Design Associati
  fficial programme checked 7 September 2026: 24-27 August. Calendar end dat
  e is exclusive.\nDate-only listing\; check the organiser for session times
  .
-LAST-MODIFIED:20260918T090403Z
+LAST-MODIFIED:20261007T221454Z
 LOCATION:Online
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -53,9 +53,9 @@ BEGIN:VEVENT
 SUMMARY:Designing AI’s Boundaries: Respecting Human Agency
 DTSTART;VALUE=DATE:20260926
 DTEND;VALUE=DATE:20260930
-DTSTAMP:20260918T090403Z
+DTSTAMP:20261007T221454Z
 UID:53fe868f7f0be1ba79b3dafe@systemsmap.antlerboy.com
-SEQUENCE:12
+SEQUENCE:40
 CATEGORIES:Complexity,Cybernetics,Systemic design
 DESCRIPTION:World Design Cities Conference / SUES and Tongji University\nD
  ialogue event chaired by Michael Lissack\, with remote participation descr
@@ -64,11 +64,207 @@ DESCRIPTION:World Design Cities Conference / SUES and Tongji University\nD
  guage requirements: Not specified\nInterpretation: Not specified\nAccess: 
  See organiser\nhttps://alwaysquestion.ai/\nDate-only listing\; check the o
  rganiser for session times.
-LAST-MODIFIED:20260918T090403Z
+LAST-MODIFIED:20261007T221454Z
 LOCATION:Shanghai\, China
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 URL:https://alwaysquestion.ai/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:RSD15: Mapping Inclusive Learning: Pre-K to HE
+DTSTART:20260928T150000Z
+DTEND:20260928T160000Z
+DTSTAMP:20261007T221454Z
+UID:161d0319dc2bbfa5b0d3a661@systemsmap.antlerboy.com
+SEQUENCE:20
+CATEGORIES:Systemic design,Systems thinking
+DESCRIPTION:RSD15 / Systemic Design Association\nA separately scheduled se
+ ssion in the RSD15 Communication Perspectives hub. Listed contributors: Ma
+ ri Suoheimo\, Michalina Fidos\, Neha Mandlik and other contributors. Times
+  transcribed from the public Zoom programme\, displayed in PDT. See the se
+ ssion programme for content\, participation details and registration.\nLan
+ guage: Not specified\nLanguage requirements: Not specified\nInterpretation
+ : Not specified\nAccess: Registration through the organiser’s Zoom event
+  page\nhttps://events.zoom.us/ev/Avz8lNCiH3NBw-EJbAEc9XTHcaVfk3_BgFs9GAl8I
+ G1558rJOmfX~Ar1jNoZLQXdODdV70tNswR8vSqW21K7vF5ufO-vZ3kqQUvwJR0RxDujL4A
+LAST-MODIFIED:20261007T221454Z
+LOCATION:Online
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://events.zoom.us/ev/Avz8lNCiH3NBw-EJbAEc9XTHcaVfk3_BgFs9GAl8IG15
+ 58rJOmfX~Ar1jNoZLQXdODdV70tNswR8vSqW21K7vF5ufO-vZ3kqQUvwJR0RxDujL4A
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:RSD15 Communications Perspectives: Coordinated Management of Meani
+ ng
+DTSTART:20260929T153000Z
+DTEND:20260930T000000Z
+DTSTAMP:20261007T221454Z
+UID:55230e3a3adac1c04b3eefd2@systemsmap.antlerboy.com
+SEQUENCE:21
+CATEGORIES:Systemic design,Systems thinking
+DESCRIPTION:CMM Institute / Relating Systems Thinking and Design\nSeventee
+ n half-hour sessions exploring Coordinated Management of Meaning across fi
+ elds and practices\, hosted by Abbie VanMeter. The published Zoom programm
+ e runs 08:30–17:00 PDT on 29 September. Each session combines a presenta
+ tion and discussion. The wider hub booking window includes separate worksh
+ ops on 28 and 30 September\; it is not a continuous CMM event. Full sessio
+ n schedule: https://events\nLanguage: Not specified\nLanguage requirements
+ : Not specified\nInterpretation: Not specified\nAccess: Registration via t
+ he organiser’s event page\nhttps://rsdsymposium.org/rsd15-cmmi/
+LAST-MODIFIED:20261007T221454Z
+LOCATION:Online
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://rsdsymposium.org/rsd15-cmmi/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:RSD15: SystemicStories AI: An AI-enabled systemic design atlas for
+  Singapore’s health & care sector
+DTSTART:20260930T070000Z
+DTEND:20260930T090000Z
+DTSTAMP:20261007T221454Z
+UID:5b0a5f27d08fd0d9ccb716ec@systemsmap.antlerboy.com
+SEQUENCE:20
+CATEGORIES:Systemic design,Systems thinking
+DESCRIPTION:RSD15 / Systemic Design Association\nA separately scheduled se
+ ssion in the RSD15 Communication Perspectives hub. Listed contributors: Ye
+ uk Fan Ng\, Tamsin Greulich Smith\, Brian Ng and other contributors. Times
+  transcribed from the public Zoom programme\, displayed in PDT. See the se
+ ssion programme for content\, participation details and registration.\nLan
+ guage: Not specified\nLanguage requirements: Not specified\nInterpretation
+ : Not specified\nAccess: Registration through the organiser’s Zoom event
+  page\nhttps://events.zoom.us/ev/Avz8lNCiH3NBw-EJbAEc9XTHcaVfk3_BgFs9GAl8I
+ G1558rJOmfX~Ar1jNoZLQXdODdV70tNswR8vSqW21K7vF5ufO-vZ3kqQUvwJR0RxDujL4A
+LAST-MODIFIED:20261007T221454Z
+LOCATION:Online
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://events.zoom.us/ev/Avz8lNCiH3NBw-EJbAEc9XTHcaVfk3_BgFs9GAl8IG15
+ 58rJOmfX~Ar1jNoZLQXdODdV70tNswR8vSqW21K7vF5ufO-vZ3kqQUvwJR0RxDujL4A
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:RSD15: Mind the Gap: Transitions between systems and getting lost 
+ in the void
+DTSTART:20260930T140000Z
+DTEND:20260930T160000Z
+DTSTAMP:20261007T221454Z
+UID:a343a1cced48ec66eeac78c2@systemsmap.antlerboy.com
+SEQUENCE:18
+CATEGORIES:Systemic design,Systems thinking
+DESCRIPTION:RSD15 / Systemic Design Association\nA separately scheduled se
+ ssion in the RSD15 Communication Perspectives hub. Listed contributors: Ma
+ rit Askbo\, Omri Geiger and Thomas Gundersen. Times transcribed from the p
+ ublic Zoom programme\, displayed in PDT. See the session programme for con
+ tent\, participation details and registration.\nLanguage: Not specified\nL
+ anguage requirements: Not specified\nInterpretation: Not specified\nAccess
+ : Registration through the organiser’s Zoom event page\nhttps://events.z
+ oom.us/ev/Avz8lNCiH3NBw-EJbAEc9XTHcaVfk3_BgFs9GAl8IG1558rJOmfX~Ar1jNoZLQXd
+ ODdV70tNswR8vSqW21K7vF5ufO-vZ3kqQUvwJR0RxDujL4A
+LAST-MODIFIED:20261007T221454Z
+LOCATION:Online
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://events.zoom.us/ev/Avz8lNCiH3NBw-EJbAEc9XTHcaVfk3_BgFs9GAl8IG15
+ 58rJOmfX~Ar1jNoZLQXdODdV70tNswR8vSqW21K7vF5ufO-vZ3kqQUvwJR0RxDujL4A
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:RSD15: Fieldkeeper’s Log: entry [number]—exploring relational 
+ technologies through dramaturgy\, poetics\, and metaphor
+DTSTART:20260930T160000Z
+DTEND:20260930T180000Z
+DTSTAMP:20261007T221454Z
+UID:994bbbc560923c11e3acb383@systemsmap.antlerboy.com
+SEQUENCE:18
+CATEGORIES:Systemic design,Systems thinking
+DESCRIPTION:RSD15 / Systemic Design Association\nA separately scheduled se
+ ssion in the RSD15 Communication Perspectives hub. Listed contributors: Wi
+ llow Gatewood. Times transcribed from the public Zoom programme\, displaye
+ d in PDT. See the session programme for content\, participation details an
+ d registration.\nLanguage: Not specified\nLanguage requirements: Not speci
+ fied\nInterpretation: Not specified\nAccess: Registration through the orga
+ niser’s Zoom event page\nhttps://events.zoom.us/ev/Avz8lNCiH3NBw-EJbAEc9
+ XTHcaVfk3_BgFs9GAl8IG1558rJOmfX~Ar1jNoZLQXdODdV70tNswR8vSqW21K7vF5ufO-vZ3k
+ qQUvwJR0RxDujL4A
+LAST-MODIFIED:20261007T221454Z
+LOCATION:Online
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://events.zoom.us/ev/Avz8lNCiH3NBw-EJbAEc9XTHcaVfk3_BgFs9GAl8IG15
+ 58rJOmfX~Ar1jNoZLQXdODdV70tNswR8vSqW21K7vF5ufO-vZ3kqQUvwJR0RxDujL4A
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:RSD15: All Tomorrow’s Policies: Methods for Dual-Timeframe Polic
+ y Innovation
+DTSTART:20260930T210000Z
+DTEND:20260930T223000Z
+DTSTAMP:20261007T221454Z
+UID:d74cfd32e1c60bf309d98a0a@systemsmap.antlerboy.com
+SEQUENCE:18
+CATEGORIES:Systemic design,Systems thinking
+DESCRIPTION:RSD15 / Systemic Design Association\nA separately scheduled se
+ ssion in the RSD15 Communication Perspectives hub. Listed contributors: Ch
+ elsea Mauldin and Natalia Radywyl. Times transcribed from the public Zoom 
+ programme\, displayed in PDT. See the session programme for content\, part
+ icipation details and registration.\nLanguage: Not specified\nLanguage req
+ uirements: Not specified\nInterpretation: Not specified\nAccess: Registrat
+ ion through the organiser’s Zoom event page\nhttps://events.zoom.us/ev/A
+ vz8lNCiH3NBw-EJbAEc9XTHcaVfk3_BgFs9GAl8IG1558rJOmfX~Ar1jNoZLQXdODdV70tNswR
+ 8vSqW21K7vF5ufO-vZ3kqQUvwJR0RxDujL4A
+LAST-MODIFIED:20261007T221454Z
+LOCATION:Online
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://events.zoom.us/ev/Avz8lNCiH3NBw-EJbAEc9XTHcaVfk3_BgFs9GAl8IG15
+ 58rJOmfX~Ar1jNoZLQXdODdV70tNswR8vSqW21K7vF5ufO-vZ3kqQUvwJR0RxDujL4A
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:RSD15: Shades of Metadesign: Diversity and coherence in emergence
+DTSTART:20261007T100000Z
+DTEND:20261007T113000Z
+DTSTAMP:20261007T221454Z
+UID:1aaa464fcb3790f5da9f9360@systemsmap.antlerboy.com
+SEQUENCE:19
+CATEGORIES:Complexity,Systemic design,Systems thinking
+DESCRIPTION:RSD15 / Systemic Design Association\nA separately scheduled se
+ ssion in the RSD15 Streaming Knowledge programme. Listed contributors: Mat
+ hilda Tham and Hannah Jones. Times transcribed from the public Zoom progra
+ mme\, displayed in PDT. See the programme for participation details and re
+ gistration.\nLanguage: Not specified\nLanguage requirements: Not specified
+ \nInterpretation: Not specified\nAccess: Registration through the organise
+ r’s Zoom event page\nhttps://events.zoom.us/ev/AsJqkev_ZcUPAGluSOWc6DjQx
+ YaYQGd9kagT_Drg23D5OITbNgOX~ArynT6gEsXmOQjjkOI_WuC2x3_EmtEFsynXLVcvT57PukT
+ lDQGXyaqccCA
+LAST-MODIFIED:20261007T221454Z
+LOCATION:Online
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://events.zoom.us/ev/AsJqkev_ZcUPAGluSOWc6DjQxYaYQGd9kagT_Drg23D5
+ OITbNgOX~ArynT6gEsXmOQjjkOI_WuC2x3_EmtEFsynXLVcvT57PukTlDQGXyaqccCA
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:RSD15: CMM Office Hours
+DTSTART:20261007T160000Z
+DTEND:20261007T170000Z
+DTSTAMP:20261007T221454Z
+UID:7637781ec999a366aac88dd3@systemsmap.antlerboy.com
+SEQUENCE:18
+CATEGORIES:Systemic design,Systems thinking
+DESCRIPTION:RSD15 / Systemic Design Association\nA separately scheduled se
+ ssion in the RSD15 Streaming Knowledge programme. Listed contributors: Abb
+ ie VanMeter and Bart Buechner. Times transcribed from the public Zoom prog
+ ramme\, displayed in PDT. See the programme for participation details and 
+ registration.\nLanguage: Not specified\nLanguage requirements: Not specifi
+ ed\nInterpretation: Not specified\nAccess: Registration through the organi
+ ser’s Zoom event page\nhttps://events.zoom.us/ev/AsJqkev_ZcUPAGluSOWc6Dj
+ QxYaYQGd9kagT_Drg23D5OITbNgOX~ArynT6gEsXmOQjjkOI_WuC2x3_EmtEFsynXLVcvT57Pu
+ kTlDQGXyaqccCA
+LAST-MODIFIED:20261007T221454Z
+LOCATION:Online
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://events.zoom.us/ev/AsJqkev_ZcUPAGluSOWc6DjQxYaYQGd9kagT_Drg23D5
+ OITbNgOX~ArynT6gEsXmOQjjkOI_WuC2x3_EmtEFsynXLVcvT57PukTlDQGXyaqccCA
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:RSD15: Online paper talks
@@ -129,5 +325,28 @@ LOCATION:Ostana\, Italy
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 URL:https://rsdsymposium.org/rsd15-mon-viso/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Method Showcase: Logosofia\, Software for Collective Inquiry and D
+ ecision-Making
+DTSTART:20261021T223000Z
+DTEND:20261022T001500Z
+DTSTAMP:20261007T221454Z
+UID:cdf675220425a68c547b6750@systemsmap.antlerboy.com
+SEQUENCE:0
+CATEGORIES:Systems thinking,Systemic design
+DESCRIPTION:Systems Thinking Ontario\nPeter Jones presents Logosofia for s
+ tructured collective inquiry\; Su Lynn Myat discusses a participatory tech
+ nology assessment application.\nLanguage: Not specified\nLanguage requirem
+ ents: Not specified\nInterpretation: Not specified\nAccess: Registration r
+ equired\; virtual link sent to registered attendees\nhttps://guild.host/ev
+ ents/method-showcase-logosofia-tu5ovo\nChecked 7 October 2026: organiser p
+ rose gives 21 October\, 18:30–20:15 local time\; structured dates are 22
+ :30–00:15 UTC. The UTC date crossing is preserved.
+LAST-MODIFIED:20261007T221454Z
+LOCATION:OCAD University\, 205 Richmond St W\, Room 115\, Toronto\, Canada
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://guild.host/events/method-showcase-logosofia-tu5ovo
 END:VEVENT
 END:VCALENDAR

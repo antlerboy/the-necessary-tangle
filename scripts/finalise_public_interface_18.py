@@ -94,7 +94,9 @@ def main() -> None:
     )
     forbidden = [before.casefold() for before, _ in REPLACEMENTS]
     lower = public_text.casefold()
-    remaining = sorted({phrase for phrase in forbidden if phrase in lower})
+    # Match whole phrases: a source title such as “Four Conversations” is not
+    # production-chat residue and must retain its original wording.
+    remaining = sorted({phrase for phrase in forbidden if re.search(r'\b'+re.escape(phrase)+r'\b',lower)})
     if remaining:
         raise SystemExit("Production-chat residue remains: " + ", ".join(remaining))
 

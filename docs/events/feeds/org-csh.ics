@@ -178,7 +178,9 @@ DESCRIPTION:Digital Innovation School\nStatistical Mechanics for Complex S
  r\nLanguage: Not specified\nLanguage requirements: Not specified\nInterpre
  tation: Not specified\nAccess: See organiser\nhttps://csh.ac.at/events/dis
  -master-class-nonadditive-entropies/\nDate-only listing\; check the organi
- ser for session times.
+ ser for session times.\nNo longer found in the latest source listing\; con
+ firmation needed.\nThis event could not be rechecked on the latest collect
+ ion. Confirm with the organiser.
 LAST-MODIFIED:20260909T085810Z
 LOCATION:Complexity Science Hub Complexity Science Hub\, Metternichgasse 8
  \, 1030 Vienna
@@ -203,7 +205,9 @@ DESCRIPTION:Complexity Science Hub\nThis Crash Course on Data Visualizatio
  e is led by data visualization expert Liuhuaying Yang\, recipient of\nLang
  uage: Not specified\nLanguage requirements: Not specified\nInterpretation:
   Not specified\nAccess: See organiser\nhttps://csh.ac.at/events/postdoc-ap
- preciation-week-austria-paw-data-visualization-crash-course/
+ preciation-week-austria-paw-data-visualization-crash-course/\nNo longer fo
+ und in the latest source listing\; confirmation needed.\nThis event could 
+ not be rechecked on the latest collection. Confirm with the organiser.
 LAST-MODIFIED:20260909T085810Z
 LOCATION:CSH Salon
 STATUS:CONFIRMED
@@ -227,7 +231,9 @@ DESCRIPTION:Complexity Science Hub\nLarge language models are increasingly
  havioral experiments\, which predicts decisions better than establishe\nLa
  nguage: Not specified\nLanguage requirements: Not specified\nInterpretatio
  n: Not specified\nAccess: See organiser\nhttps://csh.ac.at/events/two-rout
- es-to-silicon-sampling/
+ es-to-silicon-sampling/\nNo longer found in the latest source listing\; co
+ nfirmation needed.\nThis event could not be rechecked on the latest collec
+ tion. Confirm with the organiser.
 LAST-MODIFIED:20260915T092934Z
 LOCATION:CSH Salon
 STATUS:CONFIRMED
@@ -251,13 +257,44 @@ DESCRIPTION:Complexity Science Hub\nThe underrepresentation of women in ST
  ted. Our study examines the evolution of gender diversity among attend\nLa
  nguage: Not specified\nLanguage requirements: Not specified\nInterpretatio
  n: Not specified\nAccess: See organiser\nhttps://csh.ac.at/events/evolutio
- n-of-gender-diversity-in-computer-science-and-physics-conferences/
+ n-of-gender-diversity-in-computer-science-and-physics-conferences/\nNo lon
+ ger found in the latest source listing\; confirmation needed.\nThis event 
+ could not be rechecked on the latest collection. Confirm with the organise
+ r.
 LAST-MODIFIED:20260909T085810Z
 LOCATION:Library Metternichgasse 8\, 1030 Vienna
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 URL:https://csh.ac.at/events/evolution-of-gender-diversity-in-computer-sci
  ence-and-physics-conferences/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Who gets noticed? Equity in network rankings and computer science 
+ conferences
+DTSTART:20260928T150000Z
+DTEND:20260928T160000Z
+DTSTAMP:20260928T110239Z
+UID:0ed01399e4e38a0f9240f389@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Complexity
+DESCRIPTION:Complexity Science Hub\nThe underrepresentation of women in ST
+ EM fields remains a critical challenge. Even though increasing women’s v
+ isibility might inspire and encourage young scholars\, the study of the ev
+ olution of gender representation in STEM conferences is scarce. Despite it
+ s importance\, the study of gender representation in such settings is limi
+ ted. Our study examines the evolution of gender diversity among attend\nLa
+ nguage: Not specified\nLanguage requirements: Not specified\nInterpretatio
+ n: Not specified\nAccess: See organiser\nhttps://csh.ac.at/events/who-gets
+ -noticed-equity-in-network-rankings-and-computer-science-conferences/\nNo 
+ longer found in the latest source listing\; confirmation needed.\nThis eve
+ nt could not be rechecked on the latest collection. Confirm with the organ
+ iser.
+LAST-MODIFIED:20260928T110239Z
+LOCATION:S8
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://csh.ac.at/events/who-gets-noticed-equity-in-network-rankings-a
+ nd-computer-science-conferences/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:5th INTERPOL New Technologies Forum (NTF)
@@ -276,13 +313,42 @@ DESCRIPTION:INTERPOL\, Complexity Science Hub & the Bavarian State Ministr
  llenges and working solutions to address\nLanguage: Not specified\nLanguag
  e requirements: Not specified\nInterpretation: Not specified\nAccess: See 
  organiser\nhttps://csh.ac.at/events/5th-interpol-new-technologies-forum-nt
- f/\nDate-only listing\; check the organiser for session times.
+ f/\nDate-only listing\; check the organiser for session times.\nNo longer 
+ found in the latest source listing\; confirmation needed.\nThis event coul
+ d not be rechecked on the latest collection. Confirm with the organiser.
 LAST-MODIFIED:20260909T085810Z
 LOCATION:Complexity Science Hub Complexity Science Hub\, Metternichgasse 8
  \, 1030 Vienna
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 URL:https://csh.ac.at/events/5th-interpol-new-technologies-forum-ntf/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Spatial Relativity: How Local Selection Shapes Urban Growth Across
+  Scales
+DTSTART:20260930T150000Z
+DTEND:20260930T160000Z
+DTSTAMP:20260929T104630Z
+UID:2d09acbf722efc6cbbdf25f8@systemsmap.antlerboy.com
+SEQUENCE:0
+CATEGORIES:Complexity
+DESCRIPTION:Complexity Science Hub\nGrowth in human societies is an inhere
+ ntly multiscale phenomenon\, emerging from socioeconomic and demographic c
+ hanges across nested spatial units. Yet standard macroeconomic indicators 
+ obscure these dynamics by averaging over heterogeneity in both place and p
+ opulation. This talk introduces a framework based on the Price equation th
+ at decomposes aggregate growth exactly into two components: endogen\nLangu
+ age: Not specified\nLanguage requirements: Not specified\nInterpretation: 
+ Not specified\nAccess: See organiser\nhttps://csh.ac.at/events/spatial-rel
+ ativity-how-local-selection-shapes-urban-growth-across-scales/\nNo longer 
+ found in the latest source listing\; confirmation needed.\nThis event coul
+ d not be rechecked on the latest collection. Confirm with the organiser.
+LAST-MODIFIED:20260929T104630Z
+LOCATION:Library Metternichgasse 8\, 1030 Vienna
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://csh.ac.at/events/spatial-relativity-how-local-selection-shapes
+ -urban-growth-across-scales/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:From Fear to Forecast: Understanding AI Swarms
@@ -301,13 +367,91 @@ DESCRIPTION:Complexity Science Hub\nAgentic artificial intelligence\, bett
   \nLanguage: Not specified\nLanguage requirements: Not specified\nInterpre
  tation: Not specified\nAccess: See organiser\nhttps://csh.ac.at/events/fro
  m-fear-to-forecast-understanding-ai-swarms/\nDate-only listing\; check the
-  organiser for session times.
+  organiser for session times.\nNo longer found in the latest source listin
+ g\; confirmation needed.\nThis event could not be rechecked on the latest 
+ collection. Confirm with the organiser.
 LAST-MODIFIED:20260909T085810Z
 LOCATION:Library Metternichgasse 8\, 1030 Vienna
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 URL:https://csh.ac.at/events/from-fear-to-forecast-understanding-ai-swarms
  /
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Bringing the Byzantine Generals Back to Life!
+DTSTART:20261006T123000Z
+DTEND:20261006T130000Z
+DTSTAMP:20261002T103500Z
+UID:72c6d44a25e2de1a9cfe64fa@systemsmap.antlerboy.com
+SEQUENCE:0
+CATEGORIES:Complexity
+DESCRIPTION:Complexity Science Hub\nThe Byzantine Generals Problem is a cl
+ assic problem in theoretical computer science: how can a distributed group
+  reach a consistent decision when some of its members may communicate fals
+ e or contradictory information? Introduced by Lamport\, Shostak\, and Peas
+ e\, the problem has become foundational in distributed computing\, cyberse
+ curity\, and blockchain consensus. Yet its original formulation also de\nL
+ anguage: Not specified\nLanguage requirements: Not specified\nInterpretati
+ on: Not specified\nAccess: See organiser\nhttps://csh.ac.at/events/bringin
+ g-the-byzantine-generals-back-to-life/\nNo longer found in the latest sour
+ ce listing\; confirmation needed.\nThis event could not be rechecked on th
+ e latest collection. Confirm with the organiser.
+LAST-MODIFIED:20261002T103500Z
+LOCATION:CSH Salon
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://csh.ac.at/events/bringing-the-byzantine-generals-back-to-life/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Identifying the Archetypes of Historical Crisis
+DTSTART:20261006T130000Z
+DTEND:20261006T133000Z
+DTSTAMP:20261002T103500Z
+UID:911ad125f57e09f7d795bf88@systemsmap.antlerboy.com
+SEQUENCE:0
+CATEGORIES:Complexity
+DESCRIPTION:Complexity Science Hub\nOnce set into motion\, how have the cr
+ ises of the past played out? The Seshat databank's Consequences of Crisis 
+ (CrisisDB) data set aims to help answer this question by providing codings
+  for the qualitative outcomes of 168 crises from around the world and thro
+ ughout the historical record. Despite the rich body of information present
+ ed\, it remains hard to draw conclusions from the data due to its hi\nLang
+ uage: Not specified\nLanguage requirements: Not specified\nInterpretation:
+  Not specified\nAccess: See organiser\nhttps://csh.ac.at/events/identifyin
+ g-the-archetypes-of-historical-crisis/\nNo longer found in the latest sour
+ ce listing\; confirmation needed.\nThis event could not be rechecked on th
+ e latest collection. Confirm with the organiser.
+LAST-MODIFIED:20261002T103500Z
+LOCATION:CSH Salon
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://csh.ac.at/events/identifying-the-archetypes-of-historical-cris
+ is/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:WEdnesday SALON – How Fireflies Sync Their Rhythm
+DTSTART:20261007T180000Z
+DTEND:20261007T192000Z
+DTSTAMP:20260926T092514Z
+UID:7e2c8a903525823654eddc40@systemsmap.antlerboy.com
+SEQUENCE:2
+CATEGORIES:Complexity
+DESCRIPTION:Complexity Science Hub\nFireflies use flashes of light to find
+  mates. Each species has its own pattern\, a kind of Morse code in light. 
+ In some species\, thousands synchronize across an entire forest\, though e
+ ach firefly can only see a few neighbors. How does a swarm coordinate with
+ out a leader? Fireflies offer a rare glimpse into animal communication. Ea
+ ch species flashes its own pattern of light to advertise itself to po\nLan
+ guage: Not specified\nLanguage requirements: Not specified\nInterpretation
+ : Not specified\nAccess: See organiser\nhttps://csh.ac.at/events/wednesday
+ -salon-with-orit-peleg/\nNo longer found in the latest source listing\; co
+ nfirmation needed.\nThis event could not be rechecked on the latest collec
+ tion. Confirm with the organiser.
+LAST-MODIFIED:20260926T092514Z
+LOCATION:CSH Salon
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://csh.ac.at/events/wednesday-salon-with-orit-peleg/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A Bridge from Collective Motion to Social Behavior\, Migration\, a
@@ -334,5 +478,201 @@ STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 URL:https://csh.ac.at/events/a-bridge-from-collective-motion-to-social-beh
  avior-migration-and-collective-decisions/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:What are Programmers doing on GitHub? Inferring Software Skills fr
+ om API on GitHub
+DTSTART:20261013T123000Z
+DTEND:20261013T130000Z
+DTSTAMP:20261007T220943Z
+UID:22eb7bab03d6959fd176cefd@systemsmap.antlerboy.com
+SEQUENCE:0
+CATEGORIES:Complexity
+DESCRIPTION:Complexity Science Hub\nSkills are central to labor market res
+ earch\, yet for software work they are usually measured through coarse pro
+ xies such as job titles\, self-reported keywords\, or the names of program
+ ming languages and libraries. We propose a bottom-up measure of software s
+ kills derived directly from what developers write. Using 1.7 million publi
+ c Python repositories on GitHub\, we parse every function\, class\, and \n
+ Language: Not specified\nLanguage requirements: Not specified\nInterpretat
+ ion: Not specified\nAccess: See organiser\nhttps://csh.ac.at/events/what-a
+ re-programmers-doing-on-github-inferring-software-skills-from-api-on-githu
+ b/
+LAST-MODIFIED:20261007T220943Z
+LOCATION:CSH Salon
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://csh.ac.at/events/what-are-programmers-doing-on-github-inferrin
+ g-software-skills-from-api-on-github/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Taking the Complexity of Misinformation Susceptibility into Accoun
+ t
+DTSTART:20261014T150000Z
+DTEND:20261014T160000Z
+DTSTAMP:20261007T220943Z
+UID:aa4a57ba470a010134b297d9@systemsmap.antlerboy.com
+SEQUENCE:0
+CATEGORIES:Complexity
+DESCRIPTION:Complexity Science Hub\nMisinformation is often described as o
+ ne of the biggest challenges of our time. At the same time\, misinformatio
+ n is only a small part of people's media diet\, and misbeliefs are often h
+ ighly concentrated among susceptible audiences. In this talk\, I will argu
+ e that this seeming contradiction can be partially explained by researcher
+ s focusing on different levels of a complex multilevel system through\nLan
+ guage: Not specified\nLanguage requirements: Not specified\nInterpretation
+ : Not specified\nAccess: See organiser\nhttps://csh.ac.at/events/taking-th
+ e-complexity-of-misinformation-susceptibility-into-account/
+LAST-MODIFIED:20261007T220943Z
+LOCATION:CSH Salon
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://csh.ac.at/events/taking-the-complexity-of-misinformation-susce
+ ptibility-into-account/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Art & Science with Markus Hofer & Peter Ertl: “The Characteristi
+ cs of Viewing Conditions”
+DTSTART:20261103T183000Z
+DTEND:20261103T213000Z
+DTSTAMP:20261007T111029Z
+UID:ce767e19c96d5c7f07ee9d3a@systemsmap.antlerboy.com
+SEQUENCE:0
+CATEGORIES:Complexity
+DESCRIPTION:Complexity Science Hub\nArt by Markus Hofer: "The Characterist
+ ics of Viewing Conditions" Markus Hofer looks at things and turns their or
+ iginal form and function into something new that doesn’t lose the tie wi
+ th the original object from which it drifts. His interventions\, very spec
+ ific in their refined aesthetic aspect\, use those characteristics as a st
+ arting point. The meanings are upgraded\, emphasized\, multiplied. The e\n
+ Language: Not specified\nLanguage requirements: Not specified\nInterpretat
+ ion: Not specified\nAccess: See organiser\nhttps://csh.ac.at/events/art-sc
+ ience-with-markus-hofer-peter-ertl-the-characteristics-of-viewing-conditio
+ ns/
+LAST-MODIFIED:20261007T111029Z
+LOCATION:CSH Salon
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://csh.ac.at/events/art-science-with-markus-hofer-peter-ertl-the-
+ characteristics-of-viewing-conditions/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Crisis and Resilience in Historical and Modern Societies
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261106
+DTSTAMP:20260924T092314Z
+UID:e69b74067f1f25252f5405df@systemsmap.antlerboy.com
+SEQUENCE:0
+CATEGORIES:Complexity
+DESCRIPTION:Complexity Science Hub\nWhat makes societies resilient? What m
+ akes them susceptible to crisis? Can we learn from history how to steer ou
+ r way towards more peaceful\, equitable and prosperous outcomes? The overa
+ ll goal of this workshop is to foster both existing and new collaborations
+  between researchers studying crisis and resilience in a broad range of ca
+ se studies\, both historical and contemporary. The workshop will tak\nLang
+ uage: Not specified\nLanguage requirements: Not specified\nInterpretation:
+  Not specified\nAccess: See organiser\nhttps://csh.ac.at/events/crisis-and
+ -resilience-in-historical-and-modern-societies/\nDate-only listing\; check
+  the organiser for session times.
+LAST-MODIFIED:20260924T092314Z
+LOCATION:CSH Salon
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://csh.ac.at/events/crisis-and-resilience-in-historical-and-moder
+ n-societies/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Geld. Macht. Vertrauen
+DTSTART:20261111T173000Z
+DTEND:20261111T190000Z
+DTSTAMP:20260924T092314Z
+UID:d90350f5afd769ab03f7d3b7@systemsmap.antlerboy.com
+SEQUENCE:0
+CATEGORIES:Complexity
+DESCRIPTION:Complexity Science Hub & Kunsthistorisches Museum Wien\nVon Kr
+ oisos zu digitalen TokensEine Abendveranstaltung des Kunsthistorischen Mus
+ eums Wien (Münzkabinett) und des Complexity Science Hub (CSH).Geld ist me
+ hr als ein Tauschmittel: Es ist Träger von Macht\, Vertrauen und Informat
+ ion. Das Münzkabinett des KHM beherbergt eine der bedeutendsten numismati
+ schen Sammlungen der Welt. Der Complexity Science Hub untersucht digitale 
+ Geld- und Zahlungssysteme wi\nLanguage: Not specified\nLanguage requiremen
+ ts: Not specified\nInterpretation: Not specified\nAccess: See organiser\nh
+ ttps://csh.ac.at/events/geld-macht-vertrauen/
+LAST-MODIFIED:20260924T092314Z
+LOCATION:Kunsthistorisches Museum Wien Maria-Theresien-Platz\, 1010 Wien
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://csh.ac.at/events/geld-macht-vertrauen/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:13 November 2026 Doomsday Conference – On the Sense and Nonsense
+  of End-of-the-World Predictions
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+DTSTAMP:20260930T103411Z
+UID:12cb1fa648ac4a1ff9b2b533@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Complexity
+DESCRIPTION:Complexity Science Hub\nFriday\, November 13\, 2026 is the end
+  of the world as predicted by Heinz von Foerster et al. in a scientific ar
+ ticle published in Science in 1960. According to the article\, on this day
+  the world population will run into a singularity and end. Just before tha
+ t happens\, we discuss the value of attempts such as von Foerster’s and 
+ the nonsense in them. We confront von Foerster’s with the actual state o
+ \nLanguage: Not specified\nLanguage requirements: Not specified\nInterpret
+ ation: Not specified\nAccess: See organiser\nhttps://csh.ac.at/events/doom
+ sday-conference-on-the-sense-and-nonsense-of-end-of-the-world-predictions/
+ \nDate-only listing\; check the organiser for session times.
+LAST-MODIFIED:20260930T103411Z
+LOCATION:Complexity Science Hub Complexity Science Hub\, Metternichgasse 8
+ \, 1030 Vienna
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://csh.ac.at/events/doomsday-conference-on-the-sense-and-nonsense
+ -of-end-of-the-world-predictions/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Public Panel Discussion: How to Survive Doomsdays
+DTSTART:20261112T170000Z
+DTEND:20261112T183000Z
+DTSTAMP:20261006T112159Z
+UID:141854d1afc83679f856855e@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Complexity
+DESCRIPTION:Complexity Science Hub\nWelcome: Stefan Thurner Panel Discussa
+ nts: Pearl Dykstra\, Jesse Ausubel\, Geoffrey West\, more participants tbd
+  Moderator: Helga Nowotny more information will follow.\nLanguage: Not spe
+ cified\nLanguage requirements: Not specified\nInterpretation: Not specifie
+ d\nAccess: See organiser\nhttps://csh.ac.at/events/public-panel-discussion
+ -how-to-survive-doomsdays/
+LAST-MODIFIED:20261006T112159Z
+LOCATION:CSH Salon
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://csh.ac.at/events/public-panel-discussion-how-to-survive-doomsd
+ ays/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:WEdnesday SALON – with Gerd Gigerenzer
+DTSTART:20261123T180000Z
+DTEND:20261123T192000Z
+DTSTAMP:20261007T111029Z
+UID:c58d30077f596439a12f9271@systemsmap.antlerboy.com
+SEQUENCE:0
+CATEGORIES:Complexity
+DESCRIPTION:Complexity Science Hub\ntbcAbout Gerd GigerenzerGerd Gigerenze
+ r is a long-time director at the Max Planck Institute for Human Developmen
+ t\, heads the Harding Center for Risk Literacy at the University of Potsda
+ m\, and served as Vice President of the European Research Council (ERC).He
+  researches how people deal with risk and uncertainty and has trained mana
+ gers\, doctors\, and U.S. federal judges in this field. His award-winn\nLa
+ nguage: Not specified\nLanguage requirements: Not specified\nInterpretatio
+ n: Not specified\nAccess: See organiser\nhttps://csh.ac.at/events/wednesda
+ y-salon-with-gerd-gigerenzer/
+LAST-MODIFIED:20261007T111029Z
+LOCATION:CSH Salon
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://csh.ac.at/events/wednesday-salon-with-gerd-gigerenzer/
 END:VEVENT
 END:VCALENDAR

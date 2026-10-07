@@ -186,6 +186,11 @@ Release 0.24 adds seven profiles and twelve scoped statements from eight primary
 ## 0.25 - 19 September 2026
 
 Release 0.25 adds a source-scoped CoExplorer comparison and compares the two Anselm articles, with their individual recommendations still unverified. Canonical graph counts remain 785 public entries, 912 total nodes, 2,112 statements, 315 sources, and 173 profiles. No new canonical claims or complete external datasets are imported. See https://transduction.systems/prior-maps/coexplorer/ and sources/maps-2026-09-19/. Dataset reconciliation and specialist review remain open.
+## 25 September 2026 — reader and stewardship update to 0.27
+
+- Published the Systems Sciences reading route: ISSS purpose, the François encyclopedia and Michael C. Jackson's methodological-choice work, with precise source scopes.
+- Reconciled submissions #68, #71 and #78 without duplicating canonical identities or creating speculative graph relationships.
+- Recorded Benjamin P Taylor's approval of David Ing as Systems Sciences domain steward. No access changes or invitation are implied.
 
 ## 0.26 - 19 September 2026
 
@@ -195,8 +200,6 @@ Release 0.26 connects 324 public-library resource records, 114 large-group entri
 
 Release 0.27 reviews all fifteen open missing-entry reports from issues 69–86. Every report now resolves to a public profile with evidence boundaries, report provenance, and explicit open checks. Seven bounded office or contribution statements were added; no teacher–student, generic influence, priority, or effectiveness relation was inferred. Current atlas: 1196 public entries. See https://transduction.systems/updates/2026-09-20/.
 
-## 25 September 2026 — reader and stewardship update to 0.27
+## 0.30 — 7 October 2026
 
-- Published the Systems Sciences reading route: ISSS purpose, the François encyclopedia and Michael C. Jackson's methodological-choice work, with precise source scopes.
-- Reconciled submissions #68, #71 and #78 without duplicating canonical identities or creating speculative graph relationships.
-- Recorded Benjamin P Taylor's approval of David Ing as Systems Sciences domain steward. No access changes or invitation are implied.
+Complete recent SysCoI discovery intake (31 posts), Schot transition sources and exercise, OrgLens with fictional-test limits, Coding Society special-issue lead, updated events and public queue dispositions. Historical source-title checks now distinguish quoted catalogue material from production framing while retaining full privacy and credential scans.

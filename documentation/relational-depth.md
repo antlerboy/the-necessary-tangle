@@ -8,10 +8,10 @@ Generated: `2026-08-14`
 
 The atlas now treats relational richness as maintained data, not a visual impression. Every canonical public entry has a structural connection band and a separate evidence band. This makes it possible to add provisional routes without pretending that repetition, plausibility or graph density is proof.
 
-- 1155 of 1196 entries have at least one reader connection.
-- 96 are structurally rich, 238 developing, 821 thin and 41 unconnected.
-- 517 have at least one non-documentary semantic, historical, human, identity, practice, influence or contestation route.
-- Evidence is 204 supported, 272 mixed, 679 provisional and 41 absent at entry level.
+- 1196 of 1238 entries have at least one reader connection.
+- 96 are structurally rich, 240 developing, 860 thin and 42 unconnected.
+- 523 have at least one non-documentary semantic, historical, human, identity, practice, influence or contestation route.
+- Evidence is 204 supported, 272 mixed, 720 provisional and 42 absent at entry level.
 
 ## What counts
 
@@ -42,21 +42,23 @@ The template is an editorial checklist, not an invitation to fill six slots with
 | Entity type | Total | Rich | Developing | Thin | Unconnected |
 | --- | ---: | ---: | ---: | ---: | ---: |
 | approach family | 6 | 3 | 3 | 0 | 0 |
+| collection | 1 | 0 | 0 | 1 | 0 |
 | comparator corpus | 6 | 0 | 1 | 5 | 0 |
-| concept | 101 | 31 | 34 | 33 | 3 |
+| concept | 102 | 31 | 34 | 34 | 3 |
 | corpus | 16 | 0 | 2 | 14 | 0 |
+| framework | 2 | 0 | 0 | 2 | 0 |
 | intervention skill | 47 | 3 | 44 | 0 | 0 |
 | knowledge domain | 1 | 0 | 1 | 0 | 0 |
 | law or principle | 33 | 17 | 16 | 0 | 0 |
 | method or methodology | 97 | 15 | 9 | 73 | 0 |
 | organisation | 14 | 1 | 3 | 8 | 2 |
-| person | 270 | 6 | 63 | 165 | 36 |
+| person | 273 | 6 | 63 | 168 | 36 |
 | practice | 26 | 10 | 9 | 7 | 0 |
-| publication | 275 | 4 | 23 | 248 | 0 |
+| publication | 309 | 4 | 25 | 279 | 1 |
 | source | 274 | 3 | 7 | 264 | 0 |
 | technology | 1 | 0 | 1 | 0 | 0 |
 | theory | 1 | 0 | 1 | 0 | 0 |
-| tool | 14 | 2 | 11 | 1 | 0 |
+| tool | 15 | 2 | 11 | 2 | 0 |
 | tradition | 14 | 1 | 10 | 3 | 0 |
 
 ## How enrichment proceeds
@@ -80,6 +82,7 @@ The queue below is generated from current structure. Low degree and low relation
 
 | Entry | Type | Structure | Evidence | Reader neighbours | Families |
 | --- | --- | --- | --- | ---: | ---: |
+| Coding Society: Programmatic Encounters Between Information Systems and Social Theory | publication | unconnected | none | 0 | 0 |
 | Alasdair MacIntyre | person | unconnected | none | 0 | 0 |
 | Albert-László Barabási | person | unconnected | none | 0 | 0 |
 | Anatol Rapoport | person | unconnected | none | 0 | 0 |
@@ -121,15 +124,14 @@ The queue below is generated from current structure. Low degree and low relation
 | System | concept | unconnected | none | 0 | 0 |
 | The Tavistock Institute of Human Relations | organisation | unconnected | none | 0 | 0 |
 | Walter Pitts | person | unconnected | none | 0 | 0 |
+| #SysPrac26 – Day 1 – Doug Belshaw | publication | thin | provisional | 1 | 1 |
+| (1) The map nobody knows about \| LinkedIn | publication | thin | provisional | 1 | 1 |
+| 100 Years of Stafford Beer: Organisational Cybernetics – a legacy whose time has come – Eds Espinosa, Schwaninger, Perez-Rios (2026) | publication | thin | provisional | 1 | 1 |
 | 32 Key Concepts in Systems Thinking and Complexity Theory | publication | thin | mixed | 1 | 1 |
+| A second look at the fly-bottle? – O’Rourke (2026) | publication | thin | provisional | 1 | 1 |
+| AGLX \| OODA Loop Cybernetics: John Boyd’s Cybernetic Engine | publication | thin | provisional | 1 | 1 |
 | Alessandro Rancati | person | thin | mixed | 1 | 1 |
 | Alfonso Reyes | person | thin | mixed | 1 | 1 |
-| Arthur Battram | person | thin | mixed | 1 | 1 |
-| David L. Hawk | person | thin | provisional | 1 | 1 |
-| Decolonial systems thinking | concept | thin | mixed | 1 | 1 |
-| Epistemic injustice | concept | thin | mixed | 1 | 1 |
-| Eric L. Trist | person | thin | provisional | 1 | 1 |
-| Flawless Consulting: A Guide to Getting Your Expertise Used | publication | thin | mixed | 1 | 1 |
 
 ## First enrichment cohort in this release
 

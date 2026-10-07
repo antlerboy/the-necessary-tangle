@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-18T09:04:49+00:00",
+  "checkedAt": "2026-10-07T22:15:38+00:00",
   "submissions": [
     {
       "id": "af54c356-c0b6-4732-bcbe-e868d622e5b2",
@@ -30,6 +30,33 @@
       },
       "createdAt": "2026-09-07T16:03:40.747Z",
       "status": "published"
+    },
+    {
+      "id": "0258894e-74cd-44b9-a14c-35f71a99fa01",
+      "url": "https://guild.host/events/method-showcase-logosofia-tu5ovo",
+      "proposal": {
+        "kind": "auto",
+        "url": "https://guild.host/events/method-showcase-logosofia-tu5ovo"
+      },
+      "createdAt": "2026-10-07T19:10:51.406Z",
+      "status": "published"
+    },
+    {
+      "id": "78a81066-e5e5-4aa8-8e31-051def33a27b",
+      "url": "https://derroth.com/2026/10/05/release-special-issue-of-itp-on-coding-society-programmatic-encounters-between-information-systems-and-social-theory/",
+      "proposal": {
+        "kind": "page",
+        "url": "https://derroth.com/2026/10/05/release-special-issue-of-itp-on-coding-society-programmatic-encounters-between-information-systems-and-social-theory/",
+        "title": "Coding Society: Programmatic Encounters Between Information Systems and Social Theory",
+        "organiser": "Information Technology & People"
+      },
+      "createdAt": "2026-10-07T19:17:32.747Z",
+      "notes": [
+        "Reviewed as a special issue announcement, not an event. Added to The Necessary Tangle October reading intake. No event date inferred from its publication date."
+      ],
+      "status": "reading-resource",
+      "checkedAt": "2026-10-07T22:10:27+00:00",
+      "reviewedAt": "2026-10-07"
     }
   ]
 }

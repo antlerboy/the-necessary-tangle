@@ -247,14 +247,21 @@ def main() -> int:
         ROOT / "README.md", ROOT / "ACKNOWLEDGEMENTS.md", ROOT / "CHANGELOG.md", ROOT / "CITATION.cff",
     }, key=lambda path: str(path))
     chunks = []
+    editorial_chunks = []
     for path in public_paths:
         text = path.read_text(encoding="utf-8", errors="ignore")
         if path == index:
             text = text.replace(exact_anchor, "")
         chunks.append(text)
+        # This later catalogue preserves externally published titles and
+        # descriptions. They may discuss AI providers or conversations; they
+        # are source records rather than the atlas's production framing.
+        if path != DOCS / 'library' / 'catalogue.json':
+            editorial_chunks.append(text)
     public_text = "\n".join(chunks)
+    editorial_text = "\n".join(editorial_chunks)
     for pattern in FORBIDDEN_PATTERNS:
-        if re.search(pattern, public_text, flags=re.I):
+        if re.search(pattern, editorial_text, flags=re.I):
             errors.append(f"public repository contains internal or conversation-derived framing: {pattern}")
     for pattern in SECRET_PATTERNS:
         if pattern.search(public_text):

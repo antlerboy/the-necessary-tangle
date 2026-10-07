@@ -1,0 +1,441 @@
+{
+  "release": "0.30",
+  "date": "2026-10-07",
+  "scope": "All published SysCoI posts after 19 September 2026 through this collection. Discovery records do not establish the claims in linked materials.",
+  "api": "https://public-api.wordpress.com/rest/v1.1/sites/syscoi.wordpress.com/posts/?number=100&after=2026-09-19T00:00:00Z&order=ASC",
+  "found": 31,
+  "posts": [
+    {
+      "id": 28818,
+      "date": "2026-09-21T03:15:21-05:00",
+      "title": "My apologies for #SysPrac26 — and two online workshops",
+      "url": "https://stream.syscoi.com/2026/09/21/my-apologies-for-sysprac26-and-two-online-workshops/",
+      "links": [
+        "https://antlerboy.com/sysprac26/"
+      ],
+      "status": "discovery_record_not_full_text_review"
+    },
+    {
+      "id": 28822,
+      "date": "2026-09-21T05:27:27-05:00",
+      "title": "Making our way – Tim Ingold",
+      "url": "https://stream.syscoi.com/2026/09/21/making-our-way-tim-ingold/",
+      "links": [
+        "https://www.linkedin.com/company/house-of-complexity/",
+        "https://lnkd.in/p/eRS3pyeY"
+      ],
+      "status": "discovery_record_not_full_text_review"
+    },
+    {
+      "id": 28825,
+      "date": "2026-09-21T05:32:27-05:00",
+      "title": "Cybernetics, interoception, and the art of embodiment | Nature Machine Intelligence",
+      "url": "https://stream.syscoi.com/2026/09/21/cybernetics-interoception-and-the-art-of-embodiment-nature-machine-intelligence/",
+      "links": [
+        "https://www.nature.com/articles/s42256-026-01312-x"
+      ],
+      "status": "discovery_record_not_full_text_review"
+    },
+    {
+      "id": 28828,
+      "date": "2026-09-21T05:34:43-05:00",
+      "title": "inControl",
+      "url": "https://stream.syscoi.com/2026/09/21/incontrol/",
+      "links": [],
+      "status": "discovery_record_not_full_text_review"
+    },
+    {
+      "id": 28840,
+      "date": "2026-09-22T01:55:02-05:00",
+      "title": "The system is inside the practice: making relational, place-based public services ordinary – Benjamin P Taylor, Thursday 8 October 2026, 12:30-14:00, online, free",
+      "url": "https://stream.syscoi.com/2026/09/22/the-system-is-inside-the-practice-making-relational-place-based-public-services-ordinary-benjamin-p-taylor-thursday-8-october-2026-1230-1400-online-free/",
+      "links": [
+        "https://antlerboy.com/sysprac26/"
+      ],
+      "status": "discovery_record_not_full_text_review"
+    },
+    {
+      "id": 28841,
+      "date": "2026-09-22T01:55:57-05:00",
+      "title": "The consultant is in the system: a practice lab for helping without taking over – Benjamin P Taylor, Wednesday 30 September 2026, 12:15-13:45, online, free",
+      "url": "https://stream.syscoi.com/2026/09/22/the-consultant-is-in-the-system-a-practice-lab-for-helping-without-taking-over-benjamin-p-taylor-wednesday-30-september-2026-1215-1345-online-free/",
+      "links": [
+        "https://antlerboy.com/sysprac26/"
+      ],
+      "status": "discovery_record_not_full_text_review"
+    },
+    {
+      "id": 28842,
+      "date": "2026-09-22T02:44:24-05:00",
+      "title": "The fly-bottle is where the work happens: systems | cybernetics | complexity, and changing the world from inside the world",
+      "url": "https://stream.syscoi.com/2026/09/22/the-fly-bottle-is-where-the-work-happens-systems-cybernetics-complexity-and-changing-the-world-from-inside-the-world/",
+      "links": [
+        "http://chosen-path.org/2026/09/08/a-more-useful-fly-bottle-systems-cybernetics-complexity-in-six-diagrams/",
+        "https://stream.syscoi.com/2026/09/11/a-critique-of-taylors-a-more-useful-fly-bottle-systems-cybernetics-complexity-in-six-diagrams-also-taylor-2026/",
+        "https://thecynefin.co/an-inhibiting-constraint/"
+      ],
+      "status": "discovery_record_not_full_text_review"
+    },
+    {
+      "id": 28846,
+      "date": "2026-09-22T05:03:46-05:00",
+      "title": "https://www.linkedin.com/posts/lukecraven_it-turns-out-systems-change-people-love-a-share-7508018582304337920-5rLM/",
+      "url": "https://stream.syscoi.com/2026/09/22/https-www-linkedin-com-posts-lukecraven_it-turns-out-systems-change-people-love-a-share-7508018582304337920-5rlm/",
+      "links": [],
+      "status": "discovery_record_not_full_text_review"
+    },
+    {
+      "id": 28848,
+      "date": "2026-09-22T05:06:20-05:00",
+      "title": "Systems Practice: Patrick Hoverstadt",
+      "url": "https://stream.syscoi.com/2026/09/22/systems-practice-patrick-hoverstadt-2/",
+      "links": [
+        "https://www.cyb3rsyn.com/p/systems-practice-patrick-hoverstadt"
+      ],
+      "status": "discovery_record_not_full_text_review"
+    },
+    {
+      "id": 28850,
+      "date": "2026-09-22T05:08:03-05:00",
+      "title": "Systems Thinking?",
+      "url": "https://stream.syscoi.com/2026/09/22/systems-thinking/",
+      "links": [
+        "https://davidmcara.substack.com/p/systems-thinking?r=3y61j&utm_campaign=post&utm_medium=web"
+      ],
+      "status": "discovery_record_not_full_text_review"
+    },
+    {
+      "id": 28852,
+      "date": "2026-09-22T05:48:15-05:00",
+      "title": "Objects, Models, Theories • 4",
+      "url": "https://stream.syscoi.com/2026/09/22/objects-models-theories-4/",
+      "links": [
+        "https://inquiryintoinquiry.com/2026/09/10/objects-models-theories-1-a/",
+        "https://inquiryintoinquiry.com/2026/09/12/objects-models-theories-2-a/",
+        "https://inquiryintoinquiry.com/2026/09/14/objects-models-theories-3-a/",
+        "https://oeis.org/wiki/Functional_Logic_%E2%80%A2_Inquiry_and_Analogy#Aristotle's_Paradigm",
+        "https://oeis.org/wiki/Functional_Logic_%E2%80%A2_Inquiry_and_Analogy",
+        "https://inquiryintoinquiry.com/2025/05/01/survey-of-abduction-deduction-induction-analogy-inquiry-5/",
+        "https://www.academia.edu/community/la0XMw",
+        "https://groups.google.com/g/cybcom/c/36I4pZL7JgQ",
+        "https://groups.io/g/lawsofform/topic/objects_models_theories/121183021",
+        "https://mathstodon.xyz/@Inquiry/117310273142339450",
+        "https://www.researchgate.net/post/Objects_Models_Theories",
+        "https://groups.google.com/g/structural-modeling/c/m8ib1-jVy3I",
+        "https://groups.google.com/g/syssciwg/c/MNeeGYtblIc",
+        "https://stream.syscoi.com/2026/09/22/objects-models-theories-4/"
+      ],
+      "status": "discovery_record_not_full_text_review"
+    },
+    {
+      "id": 28862,
+      "date": "2026-09-22T17:46:46-05:00",
+      "title": "Machines of Loving Grace",
+      "url": "https://stream.syscoi.com/2026/09/22/machines-of-loving-grace/",
+      "links": [
+        "https://www.burningshore.com/p/machines-of-loving-grace?r=slo6&utm_medium=ios&triedRedirect=true"
+      ],
+      "status": "discovery_record_not_full_text_review"
+    },
+    {
+      "id": 28877,
+      "date": "2026-09-24T04:15:31-05:00",
+      "title": "#SysPrac26 – Day 1 – Doug Belshaw",
+      "url": "https://stream.syscoi.com/2026/09/24/sysprac26-day-1-doug-belshaw/",
+      "links": [
+        "https://substrate.dougbelshaw.com/sysprac26-day-1",
+        "https://www.linkedin.com/search/results/all/?keywords=sysprac26&origin=TYPEAHEAD_HISTORY&position=0",
+        "https://stream.syscoi.com/2026/09/21/my-apologies-for-sysprac26-and-two-online-workshops/ )"
+      ],
+      "status": "discovery_record_not_full_text_review"
+    },
+    {
+      "id": 28881,
+      "date": "2026-09-24T04:22:45-05:00",
+      "title": "The Second Law of Technodynamics – Velitchkov (2026)",
+      "url": "https://stream.syscoi.com/2026/09/24/the-second-law-of-technodynamics-velitchknov-2026/",
+      "links": [
+        "https://kvistgaard.github.io/slides/ac/sysprac-2026"
+      ],
+      "status": "discovery_record_not_full_text_review"
+    },
+    {
+      "id": 28883,
+      "date": "2026-09-24T04:24:49-05:00",
+      "title": "Celebrating 100 Years of Stafford Beer: playing the POSIWID cards",
+      "url": "https://stream.syscoi.com/2026/09/24/celebrating-100-years-of-stafford-beer-playing-the-posiwid-cards/",
+      "links": [
+        "https://cybernetics.anu.edu.au/news/2026/09/17/wdss"
+      ],
+      "status": "discovery_record_not_full_text_review"
+    },
+    {
+      "id": 28910,
+      "date": "2026-09-25T06:03:29-05:00",
+      "title": "Peter Block: relationships, resistance and the relevance of ‘Flawless Consulting’",
+      "url": "https://stream.syscoi.com/2026/09/25/peter-block-relationships-resistance-and-the-relevance-of-flawless-consulting/",
+      "links": [],
+      "status": "discovery_record_not_full_text_review"
+    },
+    {
+      "id": 28917,
+      "date": "2026-09-25T14:41:24-05:00",
+      "title": "100 Years of Stafford Beer: Organisational Cybernetics – a legacy whose time has come – Eds Espinosa, Schwaninger, Perez-Rios (2026)",
+      "url": "https://stream.syscoi.com/2026/09/25/100-years-of-stafford-beer-organisational-cybernetics-a-legacy-whose-time-has-come-eds-espinosa-schwaninger-perez-rios-2026/",
+      "links": [
+        "https://staffordbeer100.com/festschrift"
+      ],
+      "status": "discovery_record_not_full_text_review"
+    },
+    {
+      "id": 28942,
+      "date": "2026-09-26T10:50:34-05:00",
+      "title": "Hundred Years of Stafford Beer (Documentary) – Metaphorum and Boyan Angelov",
+      "url": "https://stream.syscoi.com/2026/09/26/hundred-years-of-stafford-beer-documentary-metaphorum-and-boyan-angelov/",
+      "links": [
+        "https://www.youtube.com/watch?v=H0WMwPEOqJY"
+      ],
+      "status": "discovery_record_not_full_text_review"
+    },
+    {
+      "id": 28959,
+      "date": "2026-09-28T14:08:30-05:00",
+      "title": "Rationality and Reason Today",
+      "url": "https://stream.syscoi.com/2026/09/28/rationality-and-reason-today/",
+      "links": [
+        "https://www.welsch.uni-jena.de/papers/W_Welsch_Rationality_and_Reason_Today.html"
+      ],
+      "status": "discovery_record_not_full_text_review"
+    },
+    {
+      "id": 28962,
+      "date": "2026-09-28T14:09:39-05:00",
+      "title": "AGLX | OODA Loop Cybernetics: John Boyd’s Cybernetic Engine",
+      "url": "https://stream.syscoi.com/2026/09/28/aglx-ooda-loop-cybernetics-john-boyds-cybernetic-engine/",
+      "links": [
+        "https://www.aglx.com/aglx-thinking/the-ooda-loops-cybernetic-engine/"
+      ],
+      "status": "discovery_record_not_full_text_review"
+    },
+    {
+      "id": 28985,
+      "date": "2026-09-29T12:51:23-05:00",
+      "title": "RIP Luc Hoebeke, 27 December 1941 – 26 September 2026",
+      "url": "https://stream.syscoi.com/2026/09/29/rip-luc-hoebeke-27-december-1941-26-september-2026/",
+      "links": [
+        "https://philippevandenbroeck.medium.com/luc-hoebeke-making-work-systems-better-1994-a201fb476aa",
+        "https://stream.syscoi.com/2018/12/10/making-work-systems-better-a-practitioners-reflections-luc-hoebeke/",
+        "https://stream.syscoi.com/2024/08/31/the-emergent-properties-of-ssm-in-use-a-symposium-by-reflective-practitioners-hoebeke-2000/"
+      ],
+      "status": "discovery_record_not_full_text_review"
+    },
+    {
+      "id": 29014,
+      "date": "2026-10-01T09:38:56-05:00",
+      "title": "(1) The map nobody knows about | LinkedIn",
+      "url": "https://stream.syscoi.com/2026/10/01/1-the-map-nobody-knows-about-linkedin/",
+      "links": [
+        "https://www.linkedin.com/pulse/map-nobody-knows-trond-hjorteland-8roxe"
+      ],
+      "status": "discovery_record_not_full_text_review"
+    },
+    {
+      "id": 29030,
+      "date": "2026-10-02T05:20:42-05:00",
+      "title": "A second look at the fly-bottle? – O’Rourke (2026)",
+      "url": "https://stream.syscoi.com/2026/10/02/a-second-look-at-the-fly-bottle-orourke-2026/",
+      "links": [
+        "https://rsorourke.substack.com/p/a-second-look-at-the-fly-bottle"
+      ],
+      "status": "discovery_record_not_full_text_review"
+    },
+    {
+      "id": 29033,
+      "date": "2026-10-02T05:22:16-05:00",
+      "title": "Article 9: Beyond Frameworks – Becoming a Systems Practitioner",
+      "url": "https://stream.syscoi.com/2026/10/02/article-9-beyond-frameworks-becoming-a-systems-practitioner/",
+      "links": [
+        "https://gradientdissident.substack.com/p/article-9-beyond-frameworks-becoming"
+      ],
+      "status": "discovery_record_not_full_text_review"
+    },
+    {
+      "id": 29037,
+      "date": "2026-10-02T05:23:13-05:00",
+      "title": "Systems Insight Team",
+      "url": "https://stream.syscoi.com/2026/10/02/systems-insight-team/",
+      "links": [
+        "https://www.gov.uk/government/news/systems-insight-team"
+      ],
+      "status": "discovery_record_not_full_text_review"
+    },
+    {
+      "id": 29077,
+      "date": "2026-10-06T11:19:09-05:00",
+      "title": "Why research needs complexity entrepreneurs, by Gabriele Bammer and Jean Boulton",
+      "url": "https://stream.syscoi.com/2026/10/06/why-research-needs-complexity-entrepreneurs-by-gabriele-bammer-and-jean-boulton/",
+      "links": [
+        "https://i2insights.org/2026/10/06/complexity-entrepreneurs/"
+      ],
+      "status": "discovery_record_not_full_text_review"
+    },
+    {
+      "id": 29080,
+      "date": "2026-10-06T11:20:54-05:00",
+      "title": "Harish’s Notebook: Euthyphro’s Complexity",
+      "url": "https://stream.syscoi.com/2026/10/06/harishs-notebook-euthyphros-complexity/",
+      "links": [
+        "https://harishsnotebook.com/2026/10/05/euthyphros-complexity/"
+      ],
+      "status": "discovery_record_not_full_text_review"
+    },
+    {
+      "id": 29086,
+      "date": "2026-10-07T03:00:54-05:00",
+      "title": "Myron Rogers shares Myron’s Maxims and offers a workshop",
+      "url": "https://stream.syscoi.com/2026/10/07/myron-rogers-shares-myrons-maxims-and-offers-a-workshop/",
+      "links": [
+        "https://www.linkedin.com/posts/myronrogers_in-case-you-havent-come-across-them-here-share-7513192185484165120-Y1Ar/",
+        "https://www.linkedin.com/posts/myronrogers_in-case-you-havent-come-across-them-here-share-7513192185484165120-Y1Ar"
+      ],
+      "status": "discovery_record_not_full_text_review"
+    },
+    {
+      "id": 29091,
+      "date": "2026-10-07T06:01:28-05:00",
+      "title": "BI 247 Maxim Raginsky: A Control Theory View on Brains and AI",
+      "url": "https://stream.syscoi.com/2026/10/07/bi-247-maxim-raginsky-a-control-theory-view-on-brains-and-ai/",
+      "links": [
+        "https://braininspired.co/podcast/247/"
+      ],
+      "status": "discovery_record_not_full_text_review"
+    },
+    {
+      "id": 29094,
+      "date": "2026-10-07T10:42:13-05:00",
+      "title": "Myron’s maxims: participation, power, and the work of change – Taylor (2026)",
+      "url": "https://stream.syscoi.com/2026/10/07/myrons-maxims-participation-power-and-the-work-of-change-taylor-2026/",
+      "links": [
+        "https://stream.syscoi.com/2026/10/07/myron-rogers-shares-myrons-maxims-and-offers-a-workshop/",
+        "https://weneedsocial.com/change-in-the-workplace",
+        "https://wulrich.com/csh.html",
+        "https://www.margaretwheatley.com/articles/life.html",
+        "https://mail.panarchy.org/ashby/variety.1956.html"
+      ],
+      "status": "discovery_record_not_full_text_review"
+    },
+    {
+      "id": 29101,
+      "date": "2026-10-07T16:51:09-05:00",
+      "title": "Johan Schot: socio-technical transitions, the multi-level perspective, and Deep Transitions",
+      "url": "https://stream.syscoi.com/2026/10/07/johan-schot-socio-technical-transitions-the-multi-level-perspective-and-deep-transitions/",
+      "links": [
+        "https://deeptransitions.net/publication/a-guide-to-deep-transitions/",
+        "https://www.johanschot.com/publications/typology-of-sociotechnical-transition-pathways/",
+        "https://doi.org/10.1017/9781009437318.004",
+        "https://doi.org/10.1017/9781009437318.009",
+        "https://tipconsortium.net/publication/three-frames-for-innovation-policy-rd-systems-of-innovation-and-transformative-change/",
+        "http://stream.syscoi.com/2018/11/22/co-evolutionary-and-multi-level-dynamics-in-transitions-system-innovation-geels/",
+        "http://stream.syscoi.com/2022/08/12/the-dynamics-of-transitions-in-socio-technical-systems-a-multi-level-analysis-of-the-transition-pathway-from-horse-drawn-carriages-to-automobiles-1860-1930-geels-2006/",
+        "http://stream.syscoi.com/2019/06/25/leading-systems-change-nine-strategies-to-transform-the-way-the-world-works-forum-for-the-future/"
+      ],
+      "status": "discovery_record_not_full_text_review"
+    }
+  ],
+  "queue": [
+    {
+      "item": "September issue queue #68–86",
+      "status": "previously incorporated or scoped",
+      "result": "Previous intake and submission review remain visible; no duplicate identities or unverified priority claims created.",
+      "url": "/updates/2026-09-18/"
+    },
+    {
+      "item": "OrgLens, formerly VSMkit",
+      "status": "incorporated",
+      "result": "Current README identifies three lenses and explicitly limits evidence to fictional organisations. Added as a tool, with claims attributed to its maintainers.",
+      "url": "https://framagit.org/dynamicskillset/orglens"
+    },
+    {
+      "item": "W. Ross Ashby Digital Archive",
+      "status": "already incorporated",
+      "result": "Existing archive biography, bibliography and digital journal sources retained.",
+      "url": "https://ashby.info/"
+    },
+    {
+      "item": "FEM toolkit",
+      "status": "already incorporated",
+      "result": "Existing toolkit and model practice sources retained; current official toolkit page checked.",
+      "url": "https://fractalmodel.blogs.dsv.su.se/fem-toolkit/"
+    },
+    {
+      "item": "Systemspedia and Systems Sciences stewardship",
+      "status": "previously incorporated",
+      "result": "Source guide and approved review role retained. Access rights and invitations are separate.",
+      "url": "/submissions/"
+    },
+    {
+      "item": "Winn and Rysenbry practice lineages; CoExplorer and earlier maps",
+      "status": "partly incorporated",
+      "result": "Existing comparator readers retained. Dataset reconciliation and further source-located relations remain queued.",
+      "url": "/prior-maps/"
+    },
+    {
+      "item": "Mortimer practice feedback on purpose, authority and constraints",
+      "status": "incorporated in exercise",
+      "result": "The Schot exercise asks who sets purposes, who can change rules and what observations could challenge an intervention; this is editorial application, not historical attribution.",
+      "url": "/reading/socio-technical-transitions/"
+    },
+    {
+      "item": "Complete private teaching and paper collections; OCAD reading syllabus",
+      "status": "partly incorporated; further review queued",
+      "result": "Previous public library catalogue remains. A full-text review of every teaching resource and paper is not established by this intake.",
+      "url": "/library/"
+    },
+    {
+      "item": "Map navigation and stable links",
+      "status": "existing interaction contract retained",
+      "result": "Focused browser verification covers newly added profiles and selected edges. No wider interaction redesign in this content packet.",
+      "url": "/#view=map"
+    },
+    {
+      "item": "Myron Rogers workshop",
+      "status": "awaiting date",
+      "result": "Announcement has no published date or time; included in the reading collection, omitted from timed calendar listings.",
+      "url": "https://stream.syscoi.com/2026/10/07/myron-rogers-shares-myrons-maxims-and-offers-a-workshop/"
+    },
+    {
+      "item": "Durable public events inbox",
+      "status": "reviewed through maintained workflow",
+      "result": "Direct access returned 403, but the maintained collection workflow refreshed all four public submissions. Logosofia is accepted as a dated event; Coding Society is classified as reading material. The two earlier published entries remain.",
+      "url": "/events/submissions.html"
+    },
+    {
+      "item": "Schot reading and personal reflection",
+      "status": "incorporated",
+      "result": "Source-led reading route, typed claims and an explicitly labelled public-service exercise. Private personal notes are not published.",
+      "url": "/reading/socio-technical-transitions/"
+    },
+    {
+      "item": "Logosofia showcase submission",
+      "status": "incorporated as event",
+      "result": "Official organiser prose and structured dates agree: 21 October, 18:30–20:15 America/Toronto, hybrid. Calendar preserves the UTC date crossing.",
+      "url": "https://guild.host/events/method-showcase-logosofia-tu5ovo"
+    },
+    {
+      "item": "Coding Society special issue submission",
+      "status": "incorporated as reading",
+      "result": "Special issue of Information Technology & People, volume 39, issue 6. Bibliographic metadata and the announcement checked; individual articles have not been reviewed. No event date inferred.",
+      "url": "https://derroth.com/2026/10/05/release-special-issue-of-itp-on-coding-society-programmatic-encounters-between-information-systems-and-social-theory/"
+    }
+  ],
+  "events": {
+    "checkedAt": "2026-10-07T22:14:54+00:00",
+    "events": 230,
+    "upcoming": 130,
+    "sources": 36,
+    "collecting": 13,
+    "failed": 7,
+    "source_revision": "22f68feb88286ea9896174ff5ed9a1f8b1533daa",
+    "scope": "Maintained collection snapshot after event approvals."
+  }
+}

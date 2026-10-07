@@ -22,7 +22,9 @@ DESCRIPTION:American Society for Cybernetics\nConversational Confluences\,
  uiry and experimentation\, where […]\nLanguage: Not specified\nLanguage 
  requirements: Not specified\nInterpretation: Not specified\nAccess: See or
  ganiser\nhttps://ifsr.org/event/conversational-confluences-american-societ
- y-for-cybernetics-conference-2026/
+ y-for-cybernetics-conference-2026/\nSource could not be fully rechecked.\n
+ This event could not be rechecked on the latest collection. Confirm with t
+ he organiser.
 LAST-MODIFIED:20260909T085810Z
 LOCATION:Ouro Preto\, Brazil\, Ouro Preto\, Brazil
 STATUS:CONFIRMED
@@ -35,21 +37,20 @@ SUMMARY:100 Years of Stafford Beer: Celebrating his Life\, his Legacy and
  Beyond
 DTSTART:20260917T070000Z
 DTEND:20260919T140000Z
-DTSTAMP:20260906T191842Z
-UID:da94efc5fcf22b82681dc9ea@systemsmap.antlerboy.com
+DTSTAMP:20261001T110212Z
+UID:e529dc46fad5aa884b1fa9d2@systemsmap.antlerboy.com
 SEQUENCE:1
-CATEGORIES:Complexity,Cybernetics,Systems thinking
-DESCRIPTION:International Federation for Systems Research (IFSR)\nMetaphor
- um 2026 marks the centenary of Stafford Beer with a landmark international
-  gathering dedicated to celebrating his life\, legacy\, and continuing inf
- luence on organisational cybernetics. More than fifty years after the Viab
- le System Model and Team Syntegrity reshaped the field\, Beer’s ideas re
- main urgently relevant as organisations and societies confront escalating 
- complexity\, ecological limi\nLanguage: Not specified\nLanguage requiremen
- ts: Not specified\nInterpretation: Not specified\nAccess: See organiser\nh
- ttps://ifsr.org/event/100-years-of-stafford-beer-celebrating-his-life-his-
- legacy-and-beyond/
-LAST-MODIFIED:20260906T191842Z
+CATEGORIES:Systems thinking,Cybernetics,Complexity
+DESCRIPTION:Metaphorum\nMetaphorum 2026 marks the centenary of Stafford Be
+ er with a landmark international gathering dedicated to celebrating his li
+ fe\, legacy\, and continuing influence on organisational cybernetics. More
+  than fifty years after the Viable System Model and Team Syntegrity reshap
+ ed the field\, Beer’s ideas remain urgently relevant as organisations an
+ d societies confront escalating complexity\, ecological limi\nLanguage: No
+ t specified\nLanguage requirements: Not specified\nInterpretation: Not spe
+ cified\nAccess: See organiser\nhttps://ifsr.org/event/100-years-of-staffor
+ d-beer-celebrating-his-life-his-legacy-and-beyond/
+LAST-MODIFIED:20261001T110212Z
 LOCATION:Alliance Manchester Business School\, Manchester\, United Kingdom
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -60,21 +61,20 @@ BEGIN:VEVENT
 SUMMARY:SysPrac26 – The Systems Thinking Practitioners Conference
 DTSTART:20260921T060000Z
 DTEND:20260922T150000Z
-DTSTAMP:20260910T223446Z
-UID:a018a46a8352008249863516@systemsmap.antlerboy.com
-SEQUENCE:0
-CATEGORIES:Complexity,Cybernetics,Systems thinking
-DESCRIPTION:International Federation for Systems Research (IFSR)\nSysPrac2
- 6 – The Systems Thinking Practitioner Conference will take place on 21st
-  & 22nd September 2026 in Cranfield As the challenges facing organisations
- \, communities and society become increasingly interconnected and complex
- \, the need for practical systems thinking has never been greater. SysPrac
- 26 takes place on 21–22 September 2026 at Cranfield University – two d
- ays of systems thinking in prac\nLanguage: Not specified\nLanguage require
- ments: Not specified\nInterpretation: Not specified\nAccess: See organiser
- \nhttps://ifsr.org/event/sysprac26-the-systems-thinking-practitioners-conf
- erence/
-LAST-MODIFIED:20260910T223446Z
+DTSTAMP:20261001T110212Z
+UID:4d6727709c3d174e0fafefbd@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Systems thinking,Cybernetics,Complexity
+DESCRIPTION:SCiO\nSysPrac26 – The Systems Thinking Practitioner Conferen
+ ce will take place on 21st & 22nd September 2026 in Cranfield As the chall
+ enges facing organisations\, communities and society become increasingly i
+ nterconnected and complex\, the need for practical systems thinking has ne
+ ver been greater. SysPrac26 takes place on 21–22 September 2026 at Cranf
+ ield University – two days of systems thinking in […]\nLanguage: Not s
+ pecified\nLanguage requirements: Not specified\nInterpretation: Not specif
+ ied\nAccess: See organiser\nhttps://ifsr.org/event/sysprac26-the-systems-t
+ hinking-practitioners-conference/
+LAST-MODIFIED:20261001T110212Z
 LOCATION:Location not published
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -86,18 +86,20 @@ SUMMARY:25th International Symposium on Knowledge and Systems Sciences (KS
  S2026)
 DTSTART:20261113T070000Z
 DTEND:20261115T160000Z
-DTSTAMP:20260910T223446Z
+DTSTAMP:20261001T110212Z
 UID:16b9aa66622c39bc177766a3@systemsmap.antlerboy.com
-SEQUENCE:0
-CATEGORIES:Systems thinking,Cybernetics
-DESCRIPTION:SESC\n<p>The 25th International Symposium on Knowledge and Sys
- tems Sciences (KSS2026) will take place from 13–15 November 2026 at Auck
- land University of Technology\, Auckland\, New Zealand. This year\\'s symp
- osium will explore […]</p>\\n\nLanguage: Not specified\nLanguage require
- ments: Not specified\nInterpretation: Not specified\nAccess: See organiser
- \nhttps://ifsr.org/event/25th-international-symposium-on-knowledge-and-sys
- tems-sciences-kss2026/
-LAST-MODIFIED:20260910T223446Z
+SEQUENCE:1
+CATEGORIES:Cybernetics,Systems thinking
+DESCRIPTION:SESC\nThe 25th International Symposium on Knowledge and System
+ s Sciences (KSS2026) will take place from 13–15 November 2026 at Aucklan
+ d University of Technology\, Auckland\, New Zealand. This year’s symposi
+ um will explore the theme “Knowledge Systems Sciences in the Era of Agen
+ tic AI”\, bringing together perspectives across knowledge and systems sc
+ iences in response to emerging developments in […]\nLanguage: Not specif
+ ied\nLanguage requirements: Not specified\nInterpretation: Not specified\n
+ Access: See organiser\nhttps://ifsr.org/event/25th-international-symposium
+ -on-knowledge-and-systems-sciences-kss2026/
+LAST-MODIFIED:20261001T110212Z
 LOCATION:Location not published
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT

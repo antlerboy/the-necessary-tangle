@@ -83,6 +83,31 @@ TRANSP:TRANSPARENT
 URL:https://ics.teamup.com/feed/ksok8ra1xif3viq4no/0.ics
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:100 Years of Stafford Beer: Celebrating his Life\, his Legacy and 
+ Beyond
+DTSTART:20260917T070000Z
+DTEND:20260919T140000Z
+DTSTAMP:20261001T110212Z
+UID:e529dc46fad5aa884b1fa9d2@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Systems thinking,Cybernetics,Complexity
+DESCRIPTION:Metaphorum\nMetaphorum 2026 marks the centenary of Stafford Be
+ er with a landmark international gathering dedicated to celebrating his li
+ fe\, legacy\, and continuing influence on organisational cybernetics. More
+  than fifty years after the Viable System Model and Team Syntegrity reshap
+ ed the field\, Beer’s ideas remain urgently relevant as organisations an
+ d societies confront escalating complexity\, ecological limi\nLanguage: No
+ t specified\nLanguage requirements: Not specified\nInterpretation: Not spe
+ cified\nAccess: See organiser\nhttps://ifsr.org/event/100-years-of-staffor
+ d-beer-celebrating-his-life-his-legacy-and-beyond/
+LAST-MODIFIED:20261001T110212Z
+LOCATION:Alliance Manchester Business School\, Manchester\, United Kingdom
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://ifsr.org/event/100-years-of-stafford-beer-celebrating-his-life
+ -his-legacy-and-beyond/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:VSM-AI Special Integration Group
 DTSTART:20261021T160000Z
 DTEND:20261021T173000Z
@@ -98,6 +123,31 @@ LOCATION:Location not published
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 URL:https://ics.teamup.com/feed/ksok8ra1xif3viq4no/0.ics
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Zertifizierter VSM Coach 26.\, 28. und 30. Oktober 2026 • Züric
+ h
+DTSTART:20261026T080000Z
+DTEND:20261030T180000Z
+DTSTAMP:20261002T103500Z
+UID:60ae1a54766e001acaaeca94@systemsmap.antlerboy.com
+SEQUENCE:0
+CATEGORIES:Systems thinking,Cybernetics
+DESCRIPTION:Metaphorum\nDas Seminar für Unternehmer:innen\, Unternehmensl
+ enker:innen\, Unternehmensentwickler:innen und Organisationsentwickler:inn
+ en. mit Pascal A. Miserez\, Certified VSM Trainer Ungewissheit\, Volatilit
+ ät und Komplexität nehmen weiterhin zu. Und damit die Anforderungen an w
+ irkungsvolle Führung und Steuerung. Das dreitägige Seminar zum zertifizi
+ erten VSM Coach (Metaphorum) bietet eine umfassende Einführung \nLanguage
+ : Not specified\nLanguage requirements: Not specified\nInterpretation: Not
+  specified\nAccess: See organiser\nhttps://metaphorum.org/event/zertifizie
+ rter-vsm-coach-26-28-und-30-oktober-2026-zurich
+LAST-MODIFIED:20261002T103500Z
+LOCATION:Zürich\, Switzerland
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://metaphorum.org/event/zertifizierter-vsm-coach-26-28-und-30-okt
+ ober-2026-zurich
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:VSM Coach Training 26. bis 28. Oktober 2026 • Stuttgart
@@ -135,6 +185,54 @@ LOCATION:Location not published
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 URL:https://ics.teamup.com/feed/ksok8ra1xif3viq4no/0.ics
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Viable System Model: Theory and Application
+DTSTART:20261203T130000Z
+DTEND:20261211T180000Z
+DTSTAMP:20261003T095602Z
+UID:aef1d7235b3105035f29c15b@systemsmap.antlerboy.com
+SEQUENCE:0
+CATEGORIES:Systems thinking,Cybernetics,Complexity
+DESCRIPTION:Metaphorum\nIn this VSM Course [ 4 (5-hour) days]\, you’ll l
+ earn about the Viable System Model\, one of the most popular systemic appr
+ oaches to management\, pioneered by Stafford Beer. You will be immersed in
+  the theory through practical examples on how to manage complexity in orga
+ nisations\, and you will learn how to put it into practice by following a 
+ systemic methodology – the Self-Transformation Methodology’.\nLanguage
+ : Not specified\nLanguage requirements: Not specified\nInterpretation: Not
+  specified\nAccess: See organiser\nhttps://metaphorum.org/event/the-viable
+ -system-model-theory-and-application
+LAST-MODIFIED:20261003T095602Z
+LOCATION:Location not published
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://metaphorum.org/event/the-viable-system-model-theory-and-applic
+ ation
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VSM Coach Course (online)\, by Angela Espinosa
+DTSTART:20261203T130000Z
+DTEND:20261211T180000Z
+DTSTAMP:20261002T103500Z
+UID:a38884a844fb06fdd53f946b@systemsmap.antlerboy.com
+SEQUENCE:0
+CATEGORIES:Systems thinking,Cybernetics,Complexity
+DESCRIPTION:Metaphorum\nThe Viable System Model: Theory and Application In
+  this VSM Coach Course [4 -5-hour days]\, you’ll learn about the Viable 
+ System Model\, one of the most popular systemic approaches to management\,
+  pioneered by Stafford Beer. You will be immersed in the theory through pr
+ actical examples on how to manage complexity in organisations\, and you wi
+ ll learn how to put it into practice by following a systemic\nLanguage: No
+ t specified\nLanguage requirements: Not specified\nInterpretation: Not spe
+ cified\nAccess: See organiser\nhttps://metaphorum.org/event/vsm-coach-cour
+ se-online-by-angela-espinosa
+LAST-MODIFIED:20261002T103500Z
+LOCATION:Location not published
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://metaphorum.org/event/vsm-coach-course-online-by-angela-espinos
+ a
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:VSM-AI Special Integration Group

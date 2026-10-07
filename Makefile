@@ -1,10 +1,11 @@
 .PHONY: build build-base apply-current apply-practice apply-missing-entry-reports validate serve clean
 
-build: build-base apply-current apply-practice apply-september apply-intake apply-maps apply-library apply-missing-entry-reports apply-submission-review apply-claim-lab apply-weaver
+build: build-base apply-current apply-practice apply-september apply-intake apply-maps apply-library apply-missing-entry-reports apply-submission-review apply-claim-lab apply-weaver apply-update-30
 
 # Historical validators assert historical release identifiers. Rebuild that
 # baseline, run its gates, then apply and validate the current release.
 build-base:
+	python3 scripts/prepare_update_30_baseline.py
 	python3 scripts/prepare_weaver_29_baseline.py
 	python3 scripts/prepare_missing_entry_reports_27_baseline.py
 	python3 scripts/prepare_library_26_baseline.py
@@ -82,6 +83,7 @@ build-base:
 	python3 scripts/apply_release_21.py
 	python3 scripts/build_public_knowledge.py
 	python3 scripts/prepare_reader_21_deployment.py
+	python3 -c "from pathlib import Path; Path('documentation/publication-risks.md').unlink(missing_ok=True)"
 
 apply-current:
 	python3 scripts/apply_release_22.py
@@ -164,6 +166,9 @@ validate: build-base
 	$(MAKE) apply-weaver
 	python3 scripts/validate_public.py
 	python3 scripts/validate_weaver_29.py
+	$(MAKE) apply-update-30
+	python3 scripts/validate_public.py
+	python3 scripts/validate_update_30.py
 
 apply-missing-entry-reports:
 	python3 scripts/apply_missing_entry_reports_27.py
@@ -210,4 +215,8 @@ apply-claim-lab:
 
 apply-weaver:
 	python3 scripts/apply_weaver_29.py
+	python3 scripts/build_public_knowledge.py
+
+apply-update-30:
+	python3 scripts/apply_update_30.py
 	python3 scripts/build_public_knowledge.py

@@ -158,7 +158,9 @@ DESCRIPTION:Institut des systèmes complexes Paris Île-de-France\nLa jour
  x séminaires. La journée s’achève par une conférence d’un.e invit
  é.e extérieur. https://sphere.cnrs.fr\nLanguage: Not specified\nLanguage
   requirements: Not specified\nInterpretation: Not specified\nAccess: See o
- rganiser\nhttps://iscpif.fr/evenements/journee-de-rentree/
+ rganiser\nhttps://iscpif.fr/evenements/journee-de-rentree/\nNo longer foun
+ d in the latest source listing\; confirmation needed.\nThis event could no
+ t be rechecked on the latest collection. Confirm with the organiser.
 LAST-MODIFIED:20260909T085810Z
 LOCATION:ISC-PIF\, 113 rue Nationale\, Paris\, Paris\, 75013\, France
 STATUS:CONFIRMED
@@ -178,7 +180,9 @@ DESCRIPTION:Institut des systèmes complexes Paris Île-de-France\nTwinFar
  écologique. Projet du PEPR Agroécologie et Numérique\, comité de suivi
   à 18 mois\nLanguage: Not specified\nLanguage requirements: Not specified
  \nInterpretation: Not specified\nAccess: See organiser\nhttps://iscpif.fr/
- evenements/twinfarms-comite-de-suivi-a-18-mois/
+ evenements/twinfarms-comite-de-suivi-a-18-mois/\nNo longer found in the la
+ test source listing\; confirmation needed.\nThis event could not be rechec
+ ked on the latest collection. Confirm with the organiser.
 LAST-MODIFIED:20260909T085810Z
 LOCATION:ISC-PIF\, 113 rue Nationale\, Paris\, Paris\, 75013\, France
 STATUS:CONFIRMED
@@ -198,7 +202,9 @@ DESCRIPTION:Institut des systèmes complexes Paris Île-de-France\nRestitu
  es de transition\nLanguage: Not specified\nLanguage requirements: Not spec
  ified\nInterpretation: Not specified\nAccess: See organiser\nhttps://iscpi
  f.fr/evenements/reunion-pleniere-finale-du-projet-systeme-complexe-beecome
- 2/
+ 2/\nNo longer found in the latest source listing\; confirmation needed.\nT
+ his event could not be rechecked on the latest collection. Confirm with th
+ e organiser.
 LAST-MODIFIED:20260909T085810Z
 LOCATION:ISC-PIF\, 113 rue Nationale\, Paris\, Paris\, 75013\, France
 STATUS:CONFIRMED
@@ -217,11 +223,123 @@ CATEGORIES:Complexity
 DESCRIPTION:Institut des systèmes complexes Paris Île-de-France\nRéunio
  n de la CSIIT\nLanguage: Not specified\nLanguage requirements: Not specifi
  ed\nInterpretation: Not specified\nAccess: See organiser\nhttps://iscpif.f
- r/evenements/csiit/
+ r/evenements/csiit/\nNo longer found in the latest source listing\; confir
+ mation needed.\nThis event could not be rechecked on the latest collection
+ . Confirm with the organiser.
 LAST-MODIFIED:20260909T085810Z
 LOCATION:ISC-PIF\, 113 rue Nationale\, Paris\, Paris\, 75013\, France
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 URL:https://iscpif.fr/evenements/csiit/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Soutenance de thèse
+DTSTART:20261005T110000Z
+DTEND:20261005T163000Z
+DTSTAMP:20261001T110212Z
+UID:13324b3a34c7e1774041b7f2@systemsmap.antlerboy.com
+SEQUENCE:0
+CATEGORIES:Complexity
+DESCRIPTION:Institut des systèmes complexes Paris Île-de-France\nSoutena
+ nce de thèse en immunologie laboratoire I3 UMRS959\nLanguage: Not specifi
+ ed\nLanguage requirements: Not specified\nInterpretation: Not specified\nA
+ ccess: See organiser\nhttps://iscpif.fr/evenements/soutenance-de-these-7/
+ \nNo longer found in the latest source listing\; confirmation needed.\nThi
+ s event could not be rechecked on the latest collection. Confirm with the 
+ organiser.
+LAST-MODIFIED:20261001T110212Z
+LOCATION:ISC-PIF\, 113 rue Nationale\, Paris\, Paris\, 75013\, France
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://iscpif.fr/evenements/soutenance-de-these-7/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Séminaires Légumineuses d'INRAE
+DTSTART:20261006T060000Z
+DTEND:20261006T133000Z
+DTSTAMP:20261001T110212Z
+UID:6a93245943107545fbac1ad5@systemsmap.antlerboy.com
+SEQUENCE:0
+CATEGORIES:Complexity
+DESCRIPTION:Institut des systèmes complexes Paris Île-de-France\nV150626
+  Diffusion Programme Seminaire Légumineuses 6oct26 Séminaire annuel qui 
+ réunit les chercheurs d’INRAE travaillant sur les légumineuses.\nLangu
+ age: Not specified\nLanguage requirements: Not specified\nInterpretation: 
+ Not specified\nAccess: See organiser\nhttps://iscpif.fr/evenements/seminai
+ res-legumineuses-dinrae/\nNo longer found in the latest source listing\; c
+ onfirmation needed.\nThis event could not be rechecked on the latest colle
+ ction. Confirm with the organiser.
+LAST-MODIFIED:20261001T110212Z
+LOCATION:ISC-PIF\, 113 rue Nationale\, Paris\, Paris\, 75013\, France
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://iscpif.fr/evenements/seminaires-legumineuses-dinrae/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AG projet QUINTET du programme TRACCS (PEPR Climat)
+DTSTART:20261007T060000Z
+DTEND:20261007T150000Z
+DTSTAMP:20261001T110212Z
+UID:7c29d10d3575883dda81f7c7@systemsmap.antlerboy.com
+SEQUENCE:0
+CATEGORIES:Complexity
+DESCRIPTION:Institut des systèmes complexes Paris Île-de-France\nLe prog
+ ramme TRACCS (PEPR Climat\, financement France 2030) vise à transformer l
+ es sciences du climat pour mieux répondre aux questions sociétales relat
+ ives au changement climatique. Le projet QUINTET qui en fait partie\, vise
+  à quantifier les incertitudes des modèles de climat. Pour ce faire\, no
+ us mettons en oeuvre des techniques statistiques avancées et des méthode
+ s d’apprentissage (IA)\, sur des h\nLanguage: Not specified\nLanguage re
+ quirements: Not specified\nInterpretation: Not specified\nAccess: See orga
+ niser\nhttps://iscpif.fr/evenements/ag-projet-quintet-du-programme-traccs-
+ pepr-climat/\nNo longer found in the latest source listing\; confirmation 
+ needed.\nThis event could not be rechecked on the latest collection. Confi
+ rm with the organiser.
+LAST-MODIFIED:20261001T110212Z
+LOCATION:ISC-PIF\, 113 rue Nationale\, Paris\, Paris\, 75013\, France
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://iscpif.fr/evenements/ag-projet-quintet-du-programme-traccs-pep
+ r-climat/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Unarchive Complexity
+DTSTART;VALUE=DATE:20261008
+DTEND;VALUE=DATE:20261010
+DTSTAMP:20261001T110212Z
+UID:e611d865e87ebd5a1f4b3e86@systemsmap.antlerboy.com
+SEQUENCE:0
+CATEGORIES:Complexity
+DESCRIPTION:Institut des systèmes complexes Paris Île-de-France\nhttps:/
+ /iscpif.fr/unarchive-complexity-accueil/\nLanguage: Not specified\nLanguag
+ e requirements: Not specified\nInterpretation: Not specified\nAccess: See 
+ organiser\nhttps://iscpif.fr/evenements/unarchive-complexity/\nDate-only l
+ isting\; check the organiser for session times.
+LAST-MODIFIED:20261001T110212Z
+LOCATION:ISC-PIF\, 113 rue Nationale\, Paris\, Paris\, 75013\, France
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://iscpif.fr/evenements/unarchive-complexity/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Comité d'évaluation LEFE - Programme National INSU
+DTSTART:20261013T060000Z
+DTEND:20261015T140000Z
+DTSTAMP:20261001T110212Z
+UID:3c1eb8685481d94adaa5a89d@systemsmap.antlerboy.com
+SEQUENCE:0
+CATEGORIES:Complexity
+DESCRIPTION:Institut des systèmes complexes Paris Île-de-France\nComité
+  d’évaluation pour les projets LEFE déposés à l’appel à projets 2
+ 027 de CNRS Terre & Univers\nLanguage: Not specified\nLanguage requirement
+ s: Not specified\nInterpretation: Not specified\nAccess: See organiser\nht
+ tps://iscpif.fr/evenements/comite-devaluation-lefe-programme-national-insu
+ /
+LAST-MODIFIED:20261001T110212Z
+LOCATION:ISC-PIF\, 113 rue Nationale\, Paris\, Paris\, 75013\, France
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://iscpif.fr/evenements/comite-devaluation-lefe-programme-nationa
+ l-insu/
 END:VEVENT
 END:VCALENDAR

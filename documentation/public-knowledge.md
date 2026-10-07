@@ -1,7 +1,7 @@
 # The Necessary Tangle: public knowledge file
 
 Curated by Benjamin P Taylor — https://www.antlerboy.com/
-Generated from public release 0.29 on 2026-10-04.
+Generated from public release 0.30 on 2026-10-07.
 
 A living evidence atlas of systems | cybernetics | complexity.
 Every connection must say what it means. Historical sequence, logical dependence, influence, teaching, collaboration, practical use, comparison and dispute are not interchangeable.
@@ -11,6 +11,39 @@ Use this file as orientation and public source context, not as final scholarly c
 ## Public source policy
 
 Every URL in this file is public. Published books and archive items without an open web copy are marked ‘No public link’. Private email, internal documents and company-system URLs are not included.
+
+## #SysPrac26 – Day 1 – Doug Belshaw
+
+Type: Publication
+Public depth: profile
+
+SysCoI reading or event lead published 2026-09-24. This atlas record points to the public post and its source links. It does not certify claims in the linked material or infer authorship from a title.
+
+### Sources
+
+- #SysPrac26 – Day 1 – Doug Belshaw — https://stream.syscoi.com/2026/09/24/sysprac26-day-1-doug-belshaw/
+
+## (1) The map nobody knows about | LinkedIn
+
+Type: Publication
+Public depth: profile
+
+SysCoI reading or event lead published 2026-10-01. This atlas record points to the public post and its source links. It does not certify claims in the linked material or infer authorship from a title.
+
+### Sources
+
+- (1) The map nobody knows about | LinkedIn — https://stream.syscoi.com/2026/10/01/1-the-map-nobody-knows-about-linkedin/
+
+## 100 Years of Stafford Beer: Organisational Cybernetics – a legacy whose time has come – Eds Espinosa, Schwaninger, Perez-Rios (2026)
+
+Type: Publication
+Public depth: profile
+
+SysCoI reading or event lead published 2026-09-25. This atlas record points to the public post and its source links. It does not certify claims in the linked material or infer authorship from a title.
+
+### Sources
+
+- 100 Years of Stafford Beer: Organisational Cybernetics – a legacy whose time has come – Eds Espinosa, Schwaninger, Perez-Rios (2026) — https://stream.syscoi.com/2026/09/25/100-years-of-stafford-beer-organisational-cybernetics-a-legacy-whose-time-has-come-eds-espinosa-schwaninger-perez-rios-2026/
 
 ## 32 Key Concepts in Systems Thinking and Complexity Theory
 
@@ -296,6 +329,17 @@ J. D. Farmer, ‘A Rosetta Stone for Connectionism’ (1990); item 69 in volume 
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
 
+## A second look at the fly-bottle? – O’Rourke (2026)
+
+Type: Publication
+Public depth: profile
+
+SysCoI reading or event lead published 2026-10-02. This atlas record points to the public post and its source links. It does not certify claims in the linked material or infer authorship from a title.
+
+### Sources
+
+- A second look at the fly-bottle? – O’Rourke (2026) — https://stream.syscoi.com/2026/10/02/a-second-look-at-the-fly-bottle-orourke-2026/
+
 ## A System–Theoretic Model of Biogenesis (Ein systemtheoretisches Modell zur Biogenese)
 
 Type: Publication
@@ -504,6 +548,17 @@ Agile project management organises work through short feedback cycles, increment
 
 - SCiO CF Resources v9 draft — No public link
 - SCiO Professional Accreditation and Competency Framework — https://www.systemspractice.org/professional-accreditation
+
+## AGLX | OODA Loop Cybernetics: John Boyd’s Cybernetic Engine
+
+Type: Publication
+Public depth: profile
+
+SysCoI reading or event lead published 2026-09-28. This atlas record points to the public post and its source links. It does not certify claims in the linked material or infer authorship from a title.
+
+### Sources
+
+- AGLX | OODA Loop Cybernetics: John Boyd’s Cybernetic Engine — https://stream.syscoi.com/2026/09/28/aglx-ooda-loop-cybernetics-john-boyds-cybernetic-engine/
 
 ## Alan Turing
 
@@ -938,6 +993,17 @@ Battram provides a practical bridge from complexity theory to management action,
 
 - Navigating Complexity — https://www.systemspractice.org/resources/navigating-complexity
 
+## Article 9: Beyond Frameworks – Becoming a Systems Practitioner
+
+Type: Publication
+Public depth: profile
+
+SysCoI reading or event lead published 2026-10-02. This atlas record points to the public post and its source links. It does not certify claims in the linked material or infer authorship from a title.
+
+### Sources
+
+- Article 9: Beyond Frameworks – Becoming a Systems Practitioner — https://stream.syscoi.com/2026/10/02/article-9-beyond-frameworks-becoming-a-systems-practitioner/
+
 ## Artificial Adaptive Agents in Economic Theory
 
 Type: Publication
@@ -1299,6 +1365,17 @@ Philosopher and public intellectual appearing by name in Damian Allen's self-aut
 ### Sources
 
 - Lineages of Systems Practice — Damian Allen — No public link
+
+## BI 247 Maxim Raginsky: A Control Theory View on Brains and AI
+
+Type: Publication
+Public depth: profile
+
+SysCoI reading or event lead published 2026-10-07. This atlas record points to the public post and its source links. It does not certify claims in the linked material or infer authorship from a title.
+
+### Sources
+
+- BI 247 Maxim Raginsky: A Control Theory View on Brains and AI — https://stream.syscoi.com/2026/10/07/bi-247-maxim-raginsky-a-control-theory-view-on-brains-and-ai/
 
 ## Bill Sharpe
 
@@ -1782,6 +1859,17 @@ In Jurgen Appelo's unFIX synthesis, causal loop diagrams are visual models of re
 
 - 32 Key Concepts in Systems Thinking and Complexity Theory — https://unfix.com/blog/32-key-concepts
 
+## Celebrating 100 Years of Stafford Beer: playing the POSIWID cards
+
+Type: Publication
+Public depth: profile
+
+SysCoI reading or event lead published 2026-09-24. This atlas record points to the public post and its source links. It does not certify claims in the linked material or infer authorship from a title.
+
+### Sources
+
+- Celebrating 100 Years of Stafford Beer: playing the POSIWID cards — https://stream.syscoi.com/2026/09/24/celebrating-100-years-of-stafford-beer-playing-the-posiwid-cards/
+
 ## Centre for Systems Studies
 
 Type: Organisation
@@ -1998,6 +2086,17 @@ Coaching is a structured helping relationship that supports a person or group to
 
 - SCiO CF Resources v9 draft — No public link
 - SCiO Professional Accreditation and Competency Framework — https://www.systemspractice.org/professional-accreditation
+
+## Coding Society: Programmatic Encounters Between Information Systems and Social Theory
+
+Type: Publication
+Public depth: profile
+
+A 2026 special issue of Information Technology & People, volume 39, issue 6, announced by Steffen Roth. This record establishes the publication lead and bibliographic scope; it does not claim review of the individual articles or classify publication as an event.
+
+### Sources
+
+- Coding Society special issue: release announcement — https://derroth.com/2026/10/05/release-special-issue-of-itp-on-coding-society-programmatic-encounters-between-information-systems-and-social-theory/
 
 ## Coevolving Innovations
 
@@ -2907,6 +3006,17 @@ Cybernetics, a New Discipline. Listed in Wiener’s historical cybernetics readi
 
 - Wiener’s selected readings on cybernetics, 1951, 1952, 1956 — https://stream.syscoi.com/2026/09/05/28544/
 
+## Cybernetics, interoception, and the art of embodiment | Nature Machine Intelligence
+
+Type: Publication
+Public depth: profile
+
+SysCoI reading or event lead published 2026-09-21. This atlas record points to the public post and its source links. It does not certify claims in the linked material or infer authorship from a title.
+
+### Sources
+
+- Cybernetics, interoception, and the art of embodiment | Nature Machine Intelligence — https://stream.syscoi.com/2026/09/21/cybernetics-interoception-and-the-art-of-embodiment-nature-machine-intelligence/
+
 ## Cybernetics: Or Control and Communication in the Animal and the Machine
 
 Type: Publication
@@ -3783,6 +3893,104 @@ Surface minority views and work with the tensions around a majority decision. Ov
 ### Sources
 
 - Deep Democracy (Lewis Method) — https://antlerboy.com/library/large-group-processes/#deep-democracy-lewis-method
+
+## Deep Transitions
+
+Type: Framework
+Public depth: profile
+
+A research framework for long-term change across multiple socio-technical systems. Shared rules help explain common directions such as fossil-fuel dependence; a proposed Second Deep Transition towards sustainability and justice remains an ambition and research proposition.
+
+### Summary
+
+A research framework for long-term change across multiple socio-technical systems. Shared rules help explain common directions such as fossil-fuel dependence; a proposed Second Deep Transition towards sustainability and justice remains an ambition and research proposition.
+
+### Why it matters
+
+Use the cited source to distinguish an analytical account from a proposed intervention.
+
+### Key distinctions
+
+- source account vs editorial application
+- single-system change vs cross-system rules
+
+### Historical development
+
+[]
+
+### Ideas it depends on
+
+[]
+
+### What develops from it
+
+[]
+
+### Connections to practice
+
+- Specify the rule, its enforcement and who can change it.
+
+### Common confusions
+
+- Treating transition levels as VSM systems or organisational ranks.
+
+### Open questions and checks
+
+- Independent expert review and further empirical comparison remain open.
+
+### Sources
+
+- Deep transitions: Emergence, acceleration, stabilization and directionality — https://deeptransitions.net/wp-content/uploads/2022/11/Deep-Transitions_Emergence-acceleration-stabilization-and-directionality.pdf
+- Deep Transitions — https://doi.org/10.1017/9781009437318.009
+- A Guide to Deep Transitions — https://deeptransitions.net/publication/a-guide-to-deep-transitions/
+
+## Deep transitions: Emergence, acceleration, stabilization and directionality (2018)
+
+Type: Publication
+Public depth: profile
+
+Johan Schot and Laur Kanger propose an account of connected historical change across socio-technical systems. The framework distinguishes rules within a system from rules shared across systems.
+
+### Summary
+
+Johan Schot and Laur Kanger propose an account of connected historical change across socio-technical systems. The framework distinguishes rules within a system from rules shared across systems.
+
+### Why it matters
+
+Use the cited source to distinguish an analytical account from a proposed intervention.
+
+### Key distinctions
+
+- source account vs editorial application
+- single-system change vs cross-system rules
+
+### Historical development
+
+[]
+
+### Ideas it depends on
+
+[]
+
+### What develops from it
+
+[]
+
+### Connections to practice
+
+- Specify the rule, its enforcement and who can change it.
+
+### Common confusions
+
+- Treating transition levels as VSM systems or organisational ranks.
+
+### Open questions and checks
+
+- Independent expert review and further empirical comparison remain open.
+
+### Sources
+
+- Deep transitions: Emergence, acceleration, stabilization and directionality — https://deeptransitions.net/wp-content/uploads/2022/11/Deep-Transitions_Emergence-acceleration-stabilization-and-directionality.pdf
 
 ## Delphi Method
 
@@ -5655,6 +5863,55 @@ Chilean biologist and cybernetician who developed work on autopoiesis, cognition
 
 - SCiO SysBoK - Recursion v1 — No public link
 
+## Frank Geels
+
+Type: Person
+Public depth: profile
+
+Transition researcher, author of the 2026 multi-level perspective overview and co-author with Johan Schot of the 2007 transition pathways paper.
+
+### Summary
+
+Transition researcher, author of the 2026 multi-level perspective overview and co-author with Johan Schot of the 2007 transition pathways paper.
+
+### Why it matters
+
+Use the cited source to distinguish an analytical account from a proposed intervention.
+
+### Key distinctions
+
+- source account vs editorial application
+- single-system change vs cross-system rules
+
+### Historical development
+
+[]
+
+### Ideas it depends on
+
+[]
+
+### What develops from it
+
+[]
+
+### Connections to practice
+
+- Specify the rule, its enforcement and who can change it.
+
+### Common confusions
+
+- Treating transition levels as VSM systems or organisational ranks.
+
+### Open questions and checks
+
+- Independent expert review and further empirical comparison remain open.
+
+### Sources
+
+- The Multi-level Perspective on Sustainability Transitions — https://doi.org/10.1017/9781009437318.004
+- Typology of Sociotechnical Transition Pathways — https://www.johanschot.com/publications/typology-of-sociotechnical-transition-pathways/
+
 ## Frank Rosenblatt
 
 Type: Person
@@ -6105,6 +6362,17 @@ Public-service complexity researcher and Human Learning Systems co-author named 
 - Human Learning Systems and the Liberated Method — https://www.humanlearning.systems/uploads/HLSandLiberatedMethod.pdf
 - Harnessing Complexity for Better Outcomes in Public and Non-profit Services — https://e-space.mmu.ac.uk/637313/
 
+## Harish’s Notebook: Euthyphro’s Complexity
+
+Type: Publication
+Public depth: profile
+
+SysCoI reading or event lead published 2026-10-06. This atlas record points to the public post and its source links. It does not certify claims in the linked material or infer authorship from a title.
+
+### Sources
+
+- Harish’s Notebook: Euthyphro’s Complexity — https://stream.syscoi.com/2026/10/06/harishs-notebook-euthyphros-complexity/
+
 ## Harnessing Complexity for Better Outcomes in Public and Non-profit Services
 
 Type: Publication
@@ -6322,6 +6590,17 @@ How U.S. Cities Can Prepare for Atomic War. Listed in Wiener’s historical cybe
 
 - Wiener’s selected readings on cybernetics, 1951, 1952, 1956 — https://stream.syscoi.com/2026/09/05/28544/
 
+## https://www.linkedin.com/posts/lukecraven_it-turns-out-systems-change-people-love-a-share-7508018582304337920-5rLM/
+
+Type: Publication
+Public depth: profile
+
+SysCoI reading or event lead published 2026-09-22. This atlas record points to the public post and its source links. It does not certify claims in the linked material or infer authorship from a title.
+
+### Sources
+
+- https://www.linkedin.com/posts/lukecraven_it-turns-out-systems-change-people-love-a-share-7508018582304337920-5rLM/ — https://stream.syscoi.com/2026/09/22/https-www-linkedin-com-posts-lukecraven_it-turns-out-systems-change-people-love-a-share-7508018582304337920-5rlm/
+
 ## Human Learning Systems
 
 Type: Practice
@@ -6406,6 +6685,17 @@ Chilean biologist and cybernetician whose work on autopoiesis, cognition, langua
 ### Sources
 
 - SCiO SysBoK - Recursion v1 — No public link
+
+## Hundred Years of Stafford Beer (Documentary) – Metaphorum and Boyan Angelov
+
+Type: Publication
+Public depth: profile
+
+SysCoI reading or event lead published 2026-09-26. This atlas record points to the public post and its source links. It does not certify claims in the linked material or infer authorship from a title.
+
+### Sources
+
+- Hundred Years of Stafford Beer (Documentary) – Metaphorum and Boyan Angelov — https://stream.syscoi.com/2026/09/26/hundred-years-of-stafford-beer-documentary-metaphorum-and-boyan-angelov/
 
 ## I. L. Hofacker
 
@@ -6637,6 +6927,17 @@ In Man’s Image. Listed in Wiener’s historical cybernetics reading material; 
 ### Sources
 
 - Wiener’s selected readings on cybernetics, 1951, 1952, 1956 — https://stream.syscoi.com/2026/09/05/28544/
+
+## inControl
+
+Type: Publication
+Public depth: profile
+
+SysCoI reading or event lead published 2026-09-21. This atlas record points to the public post and its source links. It does not certify claims in the linked material or infer authorship from a title.
+
+### Sources
+
+- inControl — https://stream.syscoi.com/2026/09/21/incontrol/
 
 ## Inductive Reasoning and Bounded Rationality
 
@@ -7544,6 +7845,68 @@ A feminist scholar, organiser and author whose critique of structurelessness sho
 
 - The Tyranny of Structurelessness — https://www.jofreeman.com/joreen/tyranny.htm
 
+## Johan Schot
+
+Type: Person
+Public depth: profile
+
+Historian working on socio-technical change and sustainability transitions. His official profile identifies him as Professor of Global History and Sustainability Transitions at Utrecht University.
+
+### Summary
+
+Historian working on socio-technical change and sustainability transitions. His official profile identifies him as Professor of Global History and Sustainability Transitions at Utrecht University.
+
+### Why it matters
+
+Use the cited source to distinguish an analytical account from a proposed intervention.
+
+### Key distinctions
+
+- source account vs editorial application
+- single-system change vs cross-system rules
+
+### Historical development
+
+[]
+
+### Ideas it depends on
+
+[]
+
+### What develops from it
+
+[]
+
+### Connections to practice
+
+- Specify the rule, its enforcement and who can change it.
+
+### Common confusions
+
+- Treating transition levels as VSM systems or organisational ranks.
+
+### Open questions and checks
+
+- Independent expert review and further empirical comparison remain open.
+
+### Sources
+
+- Johan Schot: official profile — https://www.johanschot.com/
+- Typology of Sociotechnical Transition Pathways — https://www.johanschot.com/publications/typology-of-sociotechnical-transition-pathways/
+- Deep Transitions — https://doi.org/10.1017/9781009437318.009
+- Deep transitions: Emergence, acceleration, stabilization and directionality — https://deeptransitions.net/wp-content/uploads/2022/11/Deep-Transitions_Emergence-acceleration-stabilization-and-directionality.pdf
+
+## Johan Schot: socio-technical transitions, the multi-level perspective, and Deep Transitions
+
+Type: Publication
+Public depth: profile
+
+SysCoI reading or event lead published 2026-10-07. This atlas record points to the public post and its source links. It does not certify claims in the linked material or infer authorship from a title.
+
+### Sources
+
+- Johan Schot: socio-technical transitions, the multi-level perspective, and Deep Transitions — https://stream.syscoi.com/2026/10/07/johan-schot-socio-technical-transitions-the-multi-level-perspective-and-deep-transitions/
+
 ## John von Neumann
 
 Type: Person
@@ -7928,6 +8291,54 @@ Bring many stakeholders into shared planning and decisions about change. Overvie
 ### Sources
 
 - Large-Scale Interactive Process (LSIP) — https://antlerboy.com/library/large-group-processes/#large-scale-interactive-process-lsip
+
+## Laur Kanger
+
+Type: Person
+Public depth: profile
+
+Co-author with Johan Schot of the 2018 Deep Transitions framework paper. This entry establishes that contribution without claiming sole origin of the wider research field.
+
+### Summary
+
+Co-author with Johan Schot of the 2018 Deep Transitions framework paper. This entry establishes that contribution without claiming sole origin of the wider research field.
+
+### Why it matters
+
+Use the cited source to distinguish an analytical account from a proposed intervention.
+
+### Key distinctions
+
+- source account vs editorial application
+- single-system change vs cross-system rules
+
+### Historical development
+
+[]
+
+### Ideas it depends on
+
+[]
+
+### What develops from it
+
+[]
+
+### Connections to practice
+
+- Specify the rule, its enforcement and who can change it.
+
+### Common confusions
+
+- Treating transition levels as VSM systems or organisational ranks.
+
+### Open questions and checks
+
+- Independent expert review and further empirical comparison remain open.
+
+### Sources
+
+- Deep transitions: Emergence, acceleration, stabilization and directionality — https://deeptransitions.net/wp-content/uploads/2022/11/Deep-Transitions_Emergence-acceleration-stabilization-and-directionality.pdf
 
 ## Laura Winn
 
@@ -8717,6 +9128,17 @@ Machine Translation of Languages. Listed in Wiener’s historical cybernetics re
 
 - Wiener’s selected readings on cybernetics, 1951, 1952, 1956 — https://stream.syscoi.com/2026/09/05/28544/
 
+## Machines of Loving Grace
+
+Type: Publication
+Public depth: profile
+
+SysCoI reading or event lead published 2026-09-22. This atlas record points to the public post and its source links. It does not certify claims in the linked material or infer authorship from a title.
+
+### Sources
+
+- Machines of Loving Grace — https://stream.syscoi.com/2026/09/22/machines-of-loving-grace/
+
 ## Machines that Think
 
 Type: Publication
@@ -8793,6 +9215,17 @@ His work makes canon construction part of systems practice rather than treating 
 - Systems Thinkers, second edition — https://link.springer.com/book/10.1007/978-1-4471-7475-2
 - On boundaries and disciplines: constructing a set of key systems thinkers — https://oro.open.ac.uk/5446/
 - Systems Thinkers — https://link.springer.com/book/10.1007/978-1-4471-7475-2
+
+## Making our way – Tim Ingold
+
+Type: Publication
+Public depth: profile
+
+SysCoI reading or event lead published 2026-09-21. This atlas record points to the public post and its source links. It does not certify claims in the linked material or infer authorship from a title.
+
+### Sources
+
+- Making our way – Tim Ingold — https://stream.syscoi.com/2026/09/21/making-our-way-tim-ingold/
 
 ## Managing complexity (and chaos) in times of crisis
 
@@ -9011,6 +9444,55 @@ Generate, arrange, and prioritise contributions to a shared discussion. Overview
 ### Sources
 
 - Meta-Planning — https://antlerboy.com/library/large-group-processes/#meta-planning
+
+## Meta-rules in Deep Transitions
+
+Type: Concept
+Public depth: profile
+
+In Deep Transitions, a meta-rule is a rule shared across more than one socio-technical system. A meta-regime is a shared rule-set. These technical terms concern cross-system directionality rather than any general rule about rules.
+
+### Summary
+
+In Deep Transitions, a meta-rule is a rule shared across more than one socio-technical system. A meta-regime is a shared rule-set. These technical terms concern cross-system directionality rather than any general rule about rules.
+
+### Why it matters
+
+Use the cited source to distinguish an analytical account from a proposed intervention.
+
+### Key distinctions
+
+- source account vs editorial application
+- single-system change vs cross-system rules
+
+### Historical development
+
+[]
+
+### Ideas it depends on
+
+[]
+
+### What develops from it
+
+[]
+
+### Connections to practice
+
+- Specify the rule, its enforcement and who can change it.
+
+### Common confusions
+
+- Treating transition levels as VSM systems or organisational ranks.
+
+### Open questions and checks
+
+- Independent expert review and further empirical comparison remain open.
+
+### Sources
+
+- Deep transitions: Emergence, acceleration, stabilization and directionality — https://deeptransitions.net/wp-content/uploads/2022/11/Deep-Transitions_Emergence-acceleration-stabilization-and-directionality.pdf
+- Deep Transitions — https://doi.org/10.1017/9781009437318.009
 
 ## Metabolic Stability and Epigenesis in Randomly Constructed Genetic Nets
 
@@ -9297,6 +9779,55 @@ Mosaic Transformation is a systemic approach to large-scale change that sequence
 - SCiO CF Resources v9 draft — No public link
 - Mosaic transformation in organisations — https://www.systemspractice.org/resources/mosaic-transformation-organisations
 
+## Multi-level perspective on socio-technical transitions
+
+Type: Framework
+Public depth: profile
+
+An analytical account of transitions through interactions among protected innovation niches, established socio-technical regimes, and wider landscape pressures. The levels describe different forms of structuration, not an organisational hierarchy or a sequence of implementation stages.
+
+### Summary
+
+An analytical account of transitions through interactions among protected innovation niches, established socio-technical regimes, and wider landscape pressures. The levels describe different forms of structuration, not an organisational hierarchy or a sequence of implementation stages.
+
+### Why it matters
+
+Use the cited source to distinguish an analytical account from a proposed intervention.
+
+### Key distinctions
+
+- source account vs editorial application
+- single-system change vs cross-system rules
+
+### Historical development
+
+[]
+
+### Ideas it depends on
+
+[]
+
+### What develops from it
+
+[]
+
+### Connections to practice
+
+- Specify the rule, its enforcement and who can change it.
+
+### Common confusions
+
+- Treating transition levels as VSM systems or organisational ranks.
+
+### Open questions and checks
+
+- Independent expert review and further empirical comparison remain open.
+
+### Sources
+
+- The Multi-level Perspective on Sustainability Transitions — https://doi.org/10.1017/9781009437318.004
+- Typology of Sociotechnical Transition Pathways — https://www.johanschot.com/publications/typology-of-sociotechnical-transition-pathways/
+
 ## Multi-methodology including SOSM
 
 Type: Method or methodology
@@ -9388,6 +9919,39 @@ The atlas currently contains many methods and intervention skills with almost no
 ### Sources
 
 - About Murmurations: Journal of Transformative Systemic Practice — https://murmurations.cloud/index.php/pub/about
+
+## My apologies for #SysPrac26 — and two online workshops
+
+Type: Publication
+Public depth: profile
+
+SysCoI reading or event lead published 2026-09-21. This atlas record points to the public post and its source links. It does not certify claims in the linked material or infer authorship from a title.
+
+### Sources
+
+- My apologies for #SysPrac26 — and two online workshops — https://stream.syscoi.com/2026/09/21/my-apologies-for-sysprac26-and-two-online-workshops/
+
+## Myron Rogers shares Myron’s Maxims and offers a workshop
+
+Type: Publication
+Public depth: profile
+
+SysCoI reading or event lead published 2026-10-07. This atlas record points to the public post and its source links. It does not certify claims in the linked material or infer authorship from a title.
+
+### Sources
+
+- Myron Rogers shares Myron’s Maxims and offers a workshop — https://stream.syscoi.com/2026/10/07/myron-rogers-shares-myrons-maxims-and-offers-a-workshop/
+
+## Myron’s maxims: participation, power, and the work of change – Taylor (2026)
+
+Type: Publication
+Public depth: profile
+
+SysCoI reading or event lead published 2026-10-07. This atlas record points to the public post and its source links. It does not certify claims in the linked material or infer authorship from a title.
+
+### Sources
+
+- Myron’s maxims: participation, power, and the work of change – Taylor (2026) — https://stream.syscoi.com/2026/10/07/myrons-maxims-participation-power-and-the-work-of-change-taylor-2026/
 
 ## N. Eldredge
 
@@ -9940,6 +10504,17 @@ A bibliographic first-pass person entry for O. E. Rössler, listed by the offici
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
 
+## Objects, Models, Theories • 4
+
+Type: Publication
+Public depth: profile
+
+SysCoI reading or event lead published 2026-09-22. This atlas record points to the public post and its source links. It does not certify claims in the linked material or infer authorship from a title.
+
+### Sources
+
+- Objects, Models, Theories • 4 — https://stream.syscoi.com/2026/09/22/objects-models-theories-4/
+
 ## Observer
 
 Type: Concept
@@ -10381,6 +10956,17 @@ H. A. Simon, ‘Organizations and Markets’ (1991); item 74 in volume 4 of the 
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
 
+## OrgLens (formerly VSMkit)
+
+Type: Tool
+Public depth: profile
+
+An experimental organisational health-check tool. Its README describes lenses for feedback loops, the Viable System Model, and perspectives and boundaries using SSM and CSH. Reported trials use fictional organisations, simulated participants and AI judges; real-organisation effectiveness is not established.
+
+### Sources
+
+- OrgLens README — https://framagit.org/dynamicskillset/orglens
+
 ## Outline for a Logical Theory of Adaptive Systems
 
 Type: Publication
@@ -10802,6 +11388,17 @@ Named in the public 0.18 coverage audit. A source-specific profile and typed lin
 ### Sources
 
 - Running feedback after release 0.17 — https://github.com/antlerboy/the-necessary-tangle/issues/2
+
+## Peter Block: relationships, resistance and the relevance of ‘Flawless Consulting’
+
+Type: Publication
+Public depth: profile
+
+SysCoI reading or event lead published 2026-09-25. This atlas record points to the public post and its source links. It does not certify claims in the linked material or infer authorship from a title.
+
+### Sources
+
+- Peter Block: relationships, resistance and the relevance of ‘Flawless Consulting’ — https://stream.syscoi.com/2026/09/25/peter-block-relationships-resistance-and-the-relevance-of-flawless-consulting/
 
 ## Peter Checkland
 
@@ -16645,6 +17242,17 @@ Bring relevant people together for focused decisions, process redesign, and prac
 
 - Rapid Improvement Events / GE Work-Out — https://antlerboy.com/library/large-group-processes/#rapid-improvement-events-ge-work-out
 
+## Rationality and Reason Today
+
+Type: Publication
+Public depth: profile
+
+SysCoI reading or event lead published 2026-09-28. This atlas record points to the public post and its source links. It does not certify claims in the linked material or infer authorship from a title.
+
+### Sources
+
+- Rationality and Reason Today — https://stream.syscoi.com/2026/09/28/rationality-and-reason-today/
+
 ## Raul Espejo
 
 Type: Person
@@ -17304,6 +17912,17 @@ Mathematician reported by the Stanford Encyclopedia of Philosophy as an early fo
 ### Sources
 
 - Recursive Functions — https://plato.stanford.edu/entries/recursive-functions/
+
+## RIP Luc Hoebeke, 27 December 1941 – 26 September 2026
+
+Type: Publication
+Public depth: profile
+
+SysCoI reading or event lead published 2026-09-29. This atlas record points to the public post and its source links. It does not certify claims in the linked material or infer authorship from a title.
+
+### Sources
+
+- RIP Luc Hoebeke, 27 December 1941 – 26 September 2026 — https://stream.syscoi.com/2026/09/29/rip-luc-hoebeke-27-december-1941-26-september-2026/
 
 ## Robert Axelrod
 
@@ -18698,6 +19317,17 @@ Team Syntegrity is Stafford Beer's democratic large-group process for organising
 - SCiO CF Resources v9 draft — No public link
 - Syntegration / Team Syntegrity — https://antlerboy.com/library/large-group-processes/#syntegration-team-syntegrity
 
+## SysCoI: recent additions, October 2026
+
+Type: Collection
+Public depth: profile
+
+A dated collection of all 31 posts returned for the period after 19 September through 7 October 2026. It includes announcements, commentary and reading leads; collection membership does not validate a post’s substantive claims.
+
+### Sources
+
+- SysCoI recent additions: 21 September–7 October 2026 — https://public-api.wordpress.com/rest/v1.1/sites/syscoi.wordpress.com/posts/?number=100&after=2026-09-19T00:00:00Z&order=ASC
+
 ## System
 
 Type: Concept
@@ -19313,6 +19943,17 @@ It names work that is often real but invisible. It also needs protection from be
 - Systems convening and boundaries core slides — https://antlerboy.com/library/files/talks/systems-convening-and-boundaries.pdf
 - What do systems leadership and systems change mean to you? — https://chosen-path.org/2022/07/11/what-do-systems-leadership-and-systems-change-mean-to-you-what-questions-would-you-like-me-to-answer/
 
+## Systems Insight Team
+
+Type: Publication
+Public depth: profile
+
+SysCoI reading or event lead published 2026-10-02. This atlas record points to the public post and its source links. It does not certify claims in the linked material or infer authorship from a title.
+
+### Sources
+
+- Systems Insight Team — https://stream.syscoi.com/2026/10/02/systems-insight-team/
+
 ## Systems intelligence
 
 Type: Concept
@@ -19601,6 +20242,17 @@ Systems practice is wider than systems mapping and wider than any single methodo
 - What do systems leadership and systems change mean to you? — https://chosen-path.org/2022/07/11/what-do-systems-leadership-and-systems-change-mean-to-you-what-questions-would-you-like-me-to-answer/
 - Systems Thinking Practitioner apprenticeship standard ST0787 v1.2 — https://skillsengland.education.gov.uk/apprenticeships/st0787-v1-2
 
+## Systems Practice: Patrick Hoverstadt
+
+Type: Publication
+Public depth: profile
+
+SysCoI reading or event lead published 2026-09-22. This atlas record points to the public post and its source links. It does not certify claims in the linked material or infer authorship from a title.
+
+### Sources
+
+- Systems Practice: Patrick Hoverstadt — https://stream.syscoi.com/2026/09/22/systems-practice-patrick-hoverstadt-2/
+
 ## Systems theory
 
 Type: Tradition
@@ -19799,6 +20451,17 @@ It is a primary route into why SSM was developed, what it was designed to avoid 
 
 - Systems Thinking, Systems Practice: includes a 30-year retrospective — https://research.lancaster-university.uk/en/publications/systems-thinking-systems-practice-includes-a-30-year-retrospectiv/
 - Systems Thinking, Systems Practice — Wiley publisher page — https://www.wiley-vch.de/en/areas-interest/finance-economics-law/systems-thinking-systems-practice-978-0-471-98606-5
+
+## Systems Thinking?
+
+Type: Publication
+Public depth: profile
+
+SysCoI reading or event lead published 2026-09-22. This atlas record points to the public post and its source links. It does not certify claims in the linked material or infer authorship from a title.
+
+### Sources
+
+- Systems Thinking? — https://stream.syscoi.com/2026/09/22/systems-thinking/
 
 ## Systems weaving
 
@@ -20067,6 +20730,17 @@ It is a substantial public, transcript-backed record of how one leading complexi
 - COMPLEXITY — https://complexity.simplecast.com/
 - COMPLEXITY RSS feed — https://feeds.simplecast.com/OzDH_At2
 
+## The consultant is in the system: a practice lab for helping without taking over – Benjamin P Taylor, Wednesday 30 September 2026, 12:15-13:45, online, free
+
+Type: Publication
+Public depth: profile
+
+SysCoI reading or event lead published 2026-09-22. This atlas record points to the public post and its source links. It does not certify claims in the linked material or infer authorship from a title.
+
+### Sources
+
+- The consultant is in the system: a practice lab for helping without taking over – Benjamin P Taylor, Wednesday 30 September 2026, 12:15-13:45, online, free — https://stream.syscoi.com/2026/09/22/the-consultant-is-in-the-system-a-practice-lab-for-helping-without-taking-over-benjamin-p-taylor-wednesday-30-september-2026-1215-1345-online-free/
+
 ## The Cynefin Company
 
 Type: Organisation
@@ -20185,6 +20859,17 @@ R. Axelrod and W. D. Hamilton, ‘The Evolution of Cooperation’ (1981); item 5
 ### Sources
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## The fly-bottle is where the work happens: systems | cybernetics | complexity, and changing the world from inside the world
+
+Type: Publication
+Public depth: profile
+
+SysCoI reading or event lead published 2026-09-22. This atlas record points to the public post and its source links. It does not certify claims in the linked material or infer authorship from a title.
+
+### Sources
+
+- The fly-bottle is where the work happens: systems | cybernetics | complexity, and changing the world from inside the world — https://stream.syscoi.com/2026/09/22/the-fly-bottle-is-where-the-work-happens-systems-cybernetics-complexity-and-changing-the-world-from-inside-the-world/
 
 ## The Forms of Capital
 
@@ -20759,6 +21444,17 @@ S. Wright, ‘The Roles of Mutation, Inbreeding, Crossbreeding, and Selection in
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
 
+## The Second Law of Technodynamics – Velitchkov (2026)
+
+Type: Publication
+Public depth: profile
+
+SysCoI reading or event lead published 2026-09-24. This atlas record points to the public post and its source links. It does not certify claims in the linked material or infer authorship from a title.
+
+### Sources
+
+- The Second Law of Technodynamics – Velitchkov (2026) — https://stream.syscoi.com/2026/09/24/the-second-law-of-technodynamics-velitchknov-2026/
+
 ## The Strength of Weak Ties
 
 Type: Publication
@@ -20769,6 +21465,17 @@ M. S. Granovetter, ‘The Strength of Weak Ties’ (1973); item 44 in volume 2 o
 ### Sources
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## The system is inside the practice: making relational, place-based public services ordinary – Benjamin P Taylor, Thursday 8 October 2026, 12:30-14:00, online, free
+
+Type: Publication
+Public depth: profile
+
+SysCoI reading or event lead published 2026-09-22. This atlas record points to the public post and its source links. It does not certify claims in the linked material or infer authorship from a title.
+
+### Sources
+
+- The system is inside the practice: making relational, place-based public services ordinary – Benjamin P Taylor, Thursday 8 October 2026, 12:30-14:00, online, free — https://stream.syscoi.com/2026/09/22/the-system-is-inside-the-practice-making-relational-place-based-public-services-ordinary-benjamin-p-taylor-thursday-8-october-2026-1230-1400-online-free/
 
 ## The Systems Thinker
 
@@ -21430,6 +22137,54 @@ Trust mapping examines where reliance, confidence and vulnerability sit in a sys
 
 - SCiO CF Resources v9 draft — No public link
 - SCiO Professional Accreditation and Competency Framework — https://www.systemspractice.org/professional-accreditation
+
+## Typology of sociotechnical transition pathways (2007)
+
+Type: Publication
+Public depth: profile
+
+Frank Geels and Johan Schot distinguish transformation, reconfiguration, technological substitution, and de-alignment and re-alignment. The abstract relates their differences to timing and nature of multi-level interactions.
+
+### Summary
+
+Frank Geels and Johan Schot distinguish transformation, reconfiguration, technological substitution, and de-alignment and re-alignment. The abstract relates their differences to timing and nature of multi-level interactions.
+
+### Why it matters
+
+Use the cited source to distinguish an analytical account from a proposed intervention.
+
+### Key distinctions
+
+- source account vs editorial application
+- single-system change vs cross-system rules
+
+### Historical development
+
+[]
+
+### Ideas it depends on
+
+[]
+
+### What develops from it
+
+[]
+
+### Connections to practice
+
+- Specify the rule, its enforcement and who can change it.
+
+### Common confusions
+
+- Treating transition levels as VSM systems or organisational ranks.
+
+### Open questions and checks
+
+- Independent expert review and further empirical comparison remain open.
+
+### Sources
+
+- Typology of Sociotechnical Transition Pathways — https://www.johanschot.com/publications/typology-of-sociotechnical-transition-pathways/
 
 ## Ultrastability
 
@@ -22506,6 +23261,17 @@ Bring a cross-section of a system together to plan and take ownership of change.
 ### Sources
 
 - Whole-Scale Change — https://antlerboy.com/library/large-group-processes/#whole-scale-change
+
+## Why research needs complexity entrepreneurs, by Gabriele Bammer and Jean Boulton
+
+Type: Publication
+Public depth: profile
+
+SysCoI reading or event lead published 2026-10-06. This atlas record points to the public post and its source links. It does not certify claims in the linked material or infer authorship from a title.
+
+### Sources
+
+- Why research needs complexity entrepreneurs, by Gabriele Bammer and Jean Boulton — https://stream.syscoi.com/2026/10/06/why-research-needs-complexity-entrepreneurs-by-gabriele-bammer-and-jean-boulton/
 
 ## Will a Large Complex System Be Stable?
 
