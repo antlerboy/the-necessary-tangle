@@ -490,7 +490,17 @@
     route();
   }
 
+  function mapHref(params = {}) {
+    const current = new URLSearchParams(location.hash.slice(1));
+    return internalHref('map', { layer: $('mapLayer').value, depth: params.focus && $('mapDepth').value === 'path' ? '1' : $('mapDepth').value, family: $('mapFamily').value, focus: mapFocus, ...($('mapDepth').value === 'path' && !params.focus && mapPath.length > 1 ? { pathFrom: mapPath[0], pathTo: mapPath[mapPath.length - 1] } : {}), ...(current.get('display') ? { display: current.get('display') } : {}), ...params });
+  }
+
   function setHash(params) {
+    if (params.view === 'map') {
+      const current = new URLSearchParams(location.hash.slice(1));
+      params = { ...params, family: params.family ?? $('mapFamily').value, ...(params.display || current.get('display') ? { display: params.display || current.get('display') } : {}) };
+    }
+    if (params.view === 'map' && params.depth === 'path' && mapPath.length > 1) params = { ...params, pathFrom: mapPath[0], pathTo: mapPath[mapPath.length - 1] };
     const sp = new URLSearchParams(params);
     const hash = sp.toString();
     if (location.hash.slice(1) !== hash) history.pushState(null, '', `#${hash}`);
@@ -543,6 +553,14 @@
       updateMapFamilyOptions();
       const family = sp.get('family') || 'all';
       $('mapFamily').value = [...$('mapFamily').options].some((option) => option.value === family) ? family : 'all';
+      if (depth === 'path' && nodeById.has(sp.get('pathFrom')) && nodeById.has(sp.get('pathTo'))) {
+        mapPath = shortestPath(sp.get('pathFrom'), sp.get('pathTo'));
+        $('pathFrom').value = nodeById.get(sp.get('pathFrom')).label;
+        $('pathTo').value = nodeById.get(sp.get('pathTo')).label;
+        $('pathFrom').dataset.selectedId = sp.get('pathFrom');
+        $('pathTo').dataset.selectedId = sp.get('pathTo');
+        $('pathResult').innerHTML = mapPath.map(id => `<a class="chip" href="${internalHref('item', { id, from: 'map' })}">${esc(nodeById.get(id)?.label || id)}</a>`).join(' → ');
+      }
       mapSelectedEdge = sp.get('edge') || null;
       if (sp.get('focus')) {
         mapFocus = canonicalId(sp.get('focus'));
@@ -1276,7 +1294,7 @@
     mapFocus = id;
     if (options.history !== false) recordMapFocus(id);
     mapSelectedEdge = null;
-    if (!$('mapDepth').value || ['path', 'profiles', 'all'].includes($('mapDepth').value)) $('mapDepth').value = '1';
+    if (!$('mapDepth').value || $('mapDepth').value === 'path') $('mapDepth').value = '1';
     mapPath = [];
     $('mapSearch').value = nodeById.get(mapFocus)?.label || '';
     const keepsWholeMap = ['all', 'profiles'].includes($('mapDepth').value);
@@ -1341,7 +1359,7 @@
       const midpointY = (source.y + target.y) / 2;
       const showFocusLabel = !wideView && focusEdge && focusEdges.length <= 6;
       const labelClass = selected || inPath || showFocusLabel ? 'visible' : '';
-      return `<a class="graph-edge-link" href="${internalHref('map', { layer: $('mapLayer').value, depth: $('mapDepth').value, focus: edge.source, edge: edge.id })}"><g class="graph-edge-group" data-edge="${esc(edge.id)}" tabindex="0" role="button" aria-label="${esc(title)}">
+      return `<a class="graph-edge-link" href="${mapHref({ edge: edge.id })}"><g class="graph-edge-group" data-edge="${esc(edge.id)}" tabindex="0" role="button" aria-label="${esc(title)}">
         <line class="graph-edge-hit" x1="${source.x}" y1="${source.y}" x2="${target.x}" y2="${target.y}"></line>
         <line class="${classes}" x1="${source.x}" y1="${source.y}" x2="${target.x}" y2="${target.y}"><title>${esc(title)}</title></line>
         <text class="graph-edge-label ${labelClass}" x="${midpointX}" y="${midpointY - 7}">${esc(edge.plain_phrase || titleCase(edge.relation_type))}</text>
@@ -1378,7 +1396,7 @@
         neighbour ? 'focus-neighbour' : '',
         contextNode ? 'context-node' : ''
       ].filter(Boolean).join(' ');
-      return `<a class="graph-node-link" href="${internalHref('item', { id: node.id, from: 'map' })}"><g class="${classes}" data-id="${esc(node.id)}" data-label-priority="${labelPriority}" tabindex="0" role="button" aria-label="Open ${esc(node.label)}">
+      return `<a class="graph-node-link" href="${mapHref({ focus: node.id })}"><g class="${classes}" data-id="${esc(node.id)}" data-label-priority="${labelPriority}" tabindex="0" role="button" aria-label="Open ${esc(node.label)}">
         ${graphNodeMark(node, position, radius)}
         <text class="graph-label ${showLabel ? '' : 'dense-hidden'}" data-priority="${labelPriority}" text-anchor="${labelAnchor}" x="${labelX}" y="${position.y + 4}">${mapNodeLabel(node, labelX)}</text>
       </g></a>`;
@@ -1389,9 +1407,9 @@
     if (focusStatus) {
       const depth = $('mapDepth').value;
       focusStatus.textContent = depth === 'all'
-        ? `Full overview · ${nodes.length} entries · select a node to open its neighbourhood`
+        ? `Full overview · ${nodes.length} entries · select a node to highlight its connections`
         : depth === 'profiles'
-          ? `Developed overview · ${nodes.length} entries · select a node to open its neighbourhood`
+          ? `Developed overview · ${nodes.length} entries · select a node to highlight its connections`
           : `Focus: ${nodeById.get(mapFocus)?.label || mapFocus} · ${focusEdges.length} visible connection${focusEdges.length === 1 ? '' : 's'}`;
     }
     renderMapMiniMap(positions, edges);
@@ -1400,6 +1418,8 @@
 
     $$('.graph-node-group', $('graphNodes')).forEach((group) => {
       const open = (event) => {
+        if (event.type === 'click' && !plainLeftClick(event)) return;
+        if (event.type === 'keydown' && (event.ctrlKey || event.metaKey || event.shiftKey || event.altKey)) return;
         event.preventDefault();
         event.stopPropagation();
         if (mapPointerDragged) return;
@@ -1416,12 +1436,15 @@
 
     $$('.graph-edge-group', $('graphEdges')).forEach((group) => {
       const open = (event) => {
+        if (event.type === 'click' && !plainLeftClick(event)) return;
+        if (event.type === 'keydown' && (event.ctrlKey || event.metaKey || event.shiftKey || event.altKey)) return;
         event.preventDefault();
         event.stopPropagation();
         if (mapPointerDragged) return;
         mapSelectedEdge = group.dataset.edge;
-        inspectEdge(mapSelectedEdge, false);
+        setHash({ view: 'map', focus: mapFocus, layer: $('mapLayer').value, depth: $('mapDepth').value, edge: mapSelectedEdge });
         renderMap({ fit: false });
+        inspectEdge(mapSelectedEdge, false);
       };
       group.addEventListener('click', open);
       group.addEventListener('keydown', (event) => {
@@ -2083,6 +2106,7 @@
       $('mapDepth').value = 'path';
       mapFocus = from.id;
       mapSelectedEdge = null;
+      setHash({ view: 'map', focus: mapFocus, layer: $('mapLayer').value, depth: 'path' });
       updateMapLayerNote();
       renderMap({ fit: true });
     });
@@ -2194,6 +2218,8 @@
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', initConstellationControls);
   else initConstellationControls();
 })();
+
+
 
 
 

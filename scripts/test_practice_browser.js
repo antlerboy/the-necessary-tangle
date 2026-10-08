@@ -80,9 +80,9 @@ async function main(){
  report.checks.push('gateway/home/navigation routes','existing SSM item practice link');
  if(!process.env.PRACTICE_BASE_URL){
   const offline=path.join(output,'offline');fs.mkdirSync(offline,{recursive:true});
-  const extract=spawnSync('python3',['-m','zipfile','-e',path.join(root,'systems-thinking/practice/downloads/systems-methods-practice.zip'),offline]);assert.equal(extract.status,0);
-  await page.goto('file://'+path.join(offline,'index.html'));assert.equal(await page.locator('[data-lab-card]').count(),26);
-  await page.goto('file://'+path.join(offline,'system-dynamics/index.html'));await page.locator('[data-check]').first().locator('input[type=radio]').nth(1).check();await page.locator('[data-check]').first().locator('button').click();assert.equal(await page.locator('[data-check]').first().locator('[data-result]').getAttribute('data-outcome'),'correct');
+  const extract=spawnSync(process.env.PYTHON || (process.platform === 'win32' ? 'python' : 'python3'),['-m','zipfile','-e',path.join(root,'systems-thinking/practice/downloads/systems-methods-practice.zip'),offline]);assert.equal(extract.status,0);
+  await page.goto(require('node:url').pathToFileURL(path.join(offline,'index.html')).href);assert.equal(await page.locator('[data-lab-card]').count(),26);
+  await page.goto(require('node:url').pathToFileURL(path.join(offline,'system-dynamics/index.html')).href);await page.locator('[data-check]').first().locator('input[type=radio]').nth(1).check();await page.locator('[data-check]').first().locator('button').click();assert.equal(await page.locator('[data-check]').first().locator('[data-result]').getAttribute('data-outcome'),'correct');
   report.checks.push('offline HTML and interactive answer check');
  }
  assert.equal(errors.length,0,JSON.stringify(errors));report.status='passed';

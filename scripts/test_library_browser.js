@@ -38,7 +38,7 @@ async function main(){
   await page.getByRole('link',{name:'Explore on the map',exact:true}).click();
   if(width===390){
    await page.locator('#graphWrap.map-card-mode').waitFor();
-   await page.getByRole('button',{name:'Graph view',exact:true}).click();
+   await page.getByRole('link',{name:'Switch to graph view',exact:true}).click();
   }
   await page.locator('#graphSvg [data-id]').first().waitFor();
   assert(await page.locator('#graphSvg [data-id]').count()>1);
@@ -59,7 +59,7 @@ async function main(){
   assert.equal(await page.locator('#graphEdges .graph-edge.selected').count(),1,'The copied inspection route survives reload');
   await page.goto(base+'/#view=item&id=person_benjamin_p_taylor&from=home',{waitUntil:'networkidle'});
   await page.getByRole('link',{name:'Place in the tangle',exact:true}).click();
-  if(width===390 && await page.locator('#mapCardToggle').getAttribute('aria-pressed')==='true') await page.getByRole('button',{name:'Graph view',exact:true}).click();
+  if(await page.locator('#graphWrap').evaluate(el=>el.classList.contains('map-card-mode'))) await page.getByRole('link',{name:'Switch to graph view',exact:true}).click();
   await page.waitForURL('**/#view=map*');
   assert.equal(await page.locator('#mapDepth').inputValue(),'constellation','Entry map action preserves its advertised scale');
   assert.equal(await page.locator('#mapLayer').inputValue(),'substantive');
@@ -71,7 +71,7 @@ async function main(){
   assert(await page.locator('#graphNodes .graph-label').first().evaluate(el=>{const m=el.getScreenCTM();return parseFloat(getComputedStyle(el).fontSize)*Math.hypot(m.a,m.b)>=12;}),'Focused map labels retain readable screen size');
   assert(new URL(page.url()).hash.includes('family=teaching'),'Connection dimension is shareable');
   await page.reload({waitUntil:'networkidle'});
-  if(width===390) await page.getByRole('button',{name:'Graph view',exact:true}).click();
+  if(await page.locator('#graphWrap').evaluate(el=>el.classList.contains('map-card-mode'))) await page.getByRole('link',{name:'Switch to graph view',exact:true}).click();
   assert.equal(await page.locator('#mapFamily').inputValue(),'teaching','Reload preserves the selected dimension');
   await page.locator('#mapLayer').selectOption('provenance');
   assert.equal(await page.locator('#mapFamily').inputValue(),'all','Incompatible filters reset on layer change');
@@ -91,8 +91,14 @@ async function main(){
   assert.notEqual(await page.locator('#mapZoomStatus').textContent(),beforeZoom);
   await page.locator('#mapFit').click();
   assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),'Map controls fit the viewport');
-  await page.getByRole('button',{name:'Card view',exact:true}).click();
+  await page.getByRole('link',{name:'Switch to card view',exact:true}).click();
+  await page.waitForFunction(()=>document.querySelector('#graphWrap').classList.contains('map-card-mode') && document.querySelectorAll('#mapCardView .map-card-relation').length>0);
   assert.equal(await page.locator('#mapCardView .map-card-relation').count(),6,'Cards and graph expose the same teaching relationships');
+  assert.equal(await page.locator('#mapDepth').inputValue(),'path','Changing representation preserves path scale');
+  assert(new URL(page.url()).hash.includes('pathFrom=person_benjamin_p_taylor'));
+  await page.reload({waitUntil:'networkidle'});
+  await page.waitForFunction(()=>document.querySelectorAll('#mapCardView .map-card-relation').length===6);
+  assert((await page.locator('#pathResult').textContent()).includes('Viable System Model'),'Reload restores the chosen path');
   assert((await page.locator('#mapCardView h3').textContent()).includes('Teaching and learning'));
   const evidence=page.locator('#mapCardView .map-card-evidence').first();
   await evidence.locator('summary').click();

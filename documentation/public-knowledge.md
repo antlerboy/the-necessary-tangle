@@ -1,7 +1,7 @@
 # The Necessary Tangle: public knowledge file
 
 Curated by Benjamin P Taylor — https://www.antlerboy.com/
-Generated from public release 0.30 on 2026-10-07.
+Generated from public release 0.31 on 2026-10-08.
 
 A living evidence atlas of systems | cybernetics | complexity.
 Every connection must say what it means. Historical sequence, logical dependence, influence, teaching, collaboration, practical use, comparison and dispute are not interchangeable.
@@ -649,6 +649,55 @@ The field guide is an institutional and collaborative translation of Cynefin int
 
 - Managing complexity (and chaos) in times of crisis: a field guide for decision makers inspired by the Cynefin framework — https://publications.jrc.ec.europa.eu/repository/handle/JRC123629
 
+## Alexander Bogdanov
+
+Type: Person
+Public depth: profile
+
+The Alexander Bogdanov researcher module provides a secondary account of this thinker’s work. This entry establishes the reading route; it does not assign authorship of Challoner’s reconstruction to its subject.
+
+### Summary
+
+The Alexander Bogdanov researcher module provides a secondary account of this thinker’s work. This entry establishes the reading route; it does not assign authorship of Challoner’s reconstruction to its subject.
+
+### Why it matters
+
+Inspect the passage and the stated domain before using a term in a new setting.
+
+### Key distinctions
+
+- source account vs editorial interpretation
+- material exchange vs causal openness
+- bibliographic access vs full-text evidence
+
+### Historical development
+
+[]
+
+### Ideas it depends on
+
+[]
+
+### What develops from it
+
+[]
+
+### Connections to practice
+
+- Name the domain, conditions, and observation that could challenge the proposed connection.
+
+### Common confusions
+
+- Treating a shared term as proof that two accounts are equivalent.
+
+### Open questions and checks
+
+- Original-source verification and human editorial review remain open.
+
+### Sources
+
+- Bogdanov: organisation and its changing boundaries: researcher module — https://rational-understanding.com/wp-content/uploads/2026/10/bogdanov-researcher-module.pdf
+
 ## Alfonso Reyes
 
 Type: Person
@@ -1027,6 +1076,55 @@ Physiologist and co-author of the 1943 account connecting purposive behaviour, i
 - SCiO SysBoK - Feedback v1 — No public link
 - Behavior, Purpose and Teleology — https://doi.org/10.1086/286788
 
+## Ashby: selection, regulation, and variety (Challoner, 2026)
+
+Type: Publication
+Public depth: profile
+
+Challoner reconstructs Ashby through selected variables, transformations, constraints, and regulation. Read the general definitions before the specialised regulatory claims. The good-regulator result has formal conditions; it is not a licence to assume every manager has an adequate model.
+
+### Summary
+
+Challoner reconstructs Ashby through selected variables, transformations, constraints, and regulation. Read the general definitions before the specialised regulatory claims. The good-regulator result has formal conditions; it is not a licence to assume every manager has an adequate model.
+
+### Why it matters
+
+Inspect the passage and the stated domain before using a term in a new setting.
+
+### Key distinctions
+
+- source account vs editorial interpretation
+- material exchange vs causal openness
+- bibliographic access vs full-text evidence
+
+### Historical development
+
+[]
+
+### Ideas it depends on
+
+[]
+
+### What develops from it
+
+[]
+
+### Connections to practice
+
+- Name the domain, conditions, and observation that could challenge the proposed connection.
+
+### Common confusions
+
+- Treating a shared term as proof that two accounts are equivalent.
+
+### Open questions and checks
+
+- Original-source verification and human editorial review remain open.
+
+### Sources
+
+- Ashby: selection, regulation, and variety: researcher module — https://rational-understanding.com/wp-content/uploads/2026/10/ashby-researcher-module.pdf
+
 ## Asset-Based Community Development
 
 Type: Practice
@@ -1355,6 +1453,55 @@ The contribution represented here is the work of translating, combining, testing
 - Large-group processes — https://antlerboy.com/library/files/talks/large-group-processes.pdf
 - Better conversations for better realities: learning loops to break the devil's bargain — https://antlerboy.com/library/files/talks/better-conversations-for-better-realities.pdf
 
+## Bertalanffy: organisation, openness, and equifinality (Challoner, 2026)
+
+Type: Publication
+Public depth: profile
+
+Challoner distinguishes organised relations from additive collections and cross-domain isomorphism from reduction to one discipline. Open-system accounts of organisms support specific claims about steady states and equifinality. Neither term means every route always reaches the same outcome.
+
+### Summary
+
+Challoner distinguishes organised relations from additive collections and cross-domain isomorphism from reduction to one discipline. Open-system accounts of organisms support specific claims about steady states and equifinality. Neither term means every route always reaches the same outcome.
+
+### Why it matters
+
+Inspect the passage and the stated domain before using a term in a new setting.
+
+### Key distinctions
+
+- source account vs editorial interpretation
+- material exchange vs causal openness
+- bibliographic access vs full-text evidence
+
+### Historical development
+
+[]
+
+### Ideas it depends on
+
+[]
+
+### What develops from it
+
+[]
+
+### Connections to practice
+
+- Name the domain, conditions, and observation that could challenge the proposed connection.
+
+### Common confusions
+
+- Treating a shared term as proof that two accounts are equivalent.
+
+### Open questions and checks
+
+- Original-source verification and human editorial review remain open.
+
+### Sources
+
+- Bertalanffy: organisation, openness, and equifinality: researcher module — https://rational-understanding.com/wp-content/uploads/2026/10/von-bertalanffy-researcher-module.pdf
+
 ## Bertrand Russell
 
 Type: Person
@@ -1366,6 +1513,55 @@ Philosopher and public intellectual appearing by name in Damian Allen's self-aut
 
 - Lineages of Systems Practice — Damian Allen — No public link
 
+## Bhaskar: mechanisms in open systems (Challoner, 2026)
+
+Type: Publication
+Public depth: profile
+
+Challoner distinguishes what exists, what happens, and what is experienced. Mechanisms can operate without producing an isolated regularity. Social structures and agency are interdependent but distinct; this does not turn every retrospective explanation into a demonstrated mechanism.
+
+### Summary
+
+Challoner distinguishes what exists, what happens, and what is experienced. Mechanisms can operate without producing an isolated regularity. Social structures and agency are interdependent but distinct; this does not turn every retrospective explanation into a demonstrated mechanism.
+
+### Why it matters
+
+Inspect the passage and the stated domain before using a term in a new setting.
+
+### Key distinctions
+
+- source account vs editorial interpretation
+- material exchange vs causal openness
+- bibliographic access vs full-text evidence
+
+### Historical development
+
+[]
+
+### Ideas it depends on
+
+[]
+
+### What develops from it
+
+[]
+
+### Connections to practice
+
+- Name the domain, conditions, and observation that could challenge the proposed connection.
+
+### Common confusions
+
+- Treating a shared term as proof that two accounts are equivalent.
+
+### Open questions and checks
+
+- Original-source verification and human editorial review remain open.
+
+### Sources
+
+- Bhaskar: mechanisms in open systems: researcher module — https://rational-understanding.com/wp-content/uploads/2026/10/bhaskar-researcher-module.pdf
+
 ## BI 247 Maxim Raginsky: A Control Theory View on Brains and AI
 
 Type: Publication
@@ -1376,6 +1572,55 @@ SysCoI reading or event lead published 2026-10-07. This atlas record points to t
 ### Sources
 
 - BI 247 Maxim Raginsky: A Control Theory View on Brains and AI — https://stream.syscoi.com/2026/10/07/bi-247-maxim-raginsky-a-control-theory-view-on-brains-and-ai/
+
+## Bifurcation
+
+Type: Concept
+Public depth: profile
+
+A branching of possible behaviours as conditions change in a dynamical account. The Prigogine route concerns specified non-linear systems; the word alone is not an explanation of a social turning point.
+
+### Summary
+
+A branching of possible behaviours as conditions change in a dynamical account. The Prigogine route concerns specified non-linear systems; the word alone is not an explanation of a social turning point.
+
+### Why it matters
+
+Inspect the passage and the stated domain before using a term in a new setting.
+
+### Key distinctions
+
+- source account vs editorial interpretation
+- material exchange vs causal openness
+- bibliographic access vs full-text evidence
+
+### Historical development
+
+[]
+
+### Ideas it depends on
+
+[]
+
+### What develops from it
+
+[]
+
+### Connections to practice
+
+- Name the domain, conditions, and observation that could challenge the proposed connection.
+
+### Common confusions
+
+- Treating a shared term as proof that two accounts are equivalent.
+
+### Open questions and checks
+
+- Original-source verification and human editorial review remain open.
+
+### Sources
+
+- Prigogine: order under non-equilibrium conditions: researcher module — https://rational-understanding.com/wp-content/uploads/2026/10/prigogine-researcher-module.pdf
 
 ## Bill Sharpe
 
@@ -1401,6 +1646,55 @@ A black box is a system treated through observable inputs, outputs and behaviour
 - An Introduction to Cybernetics — https://ashby.info/bibliography.html
 - The Grammar of Systems II: From Order to Chaos and Back Again, 2nd edition — https://www.systemspractice.org/resources/grammar-systems-ii-order-chaos-back-again-2nd-ed
 - The Grammar of Systems - SCiO presentation — https://www.systemspractice.org/resources/grammar-systems
+
+## Bogdanov: organisation and its changing boundaries (Challoner, 2026)
+
+Type: Publication
+Public depth: profile
+
+Challoner presents complexes through activities and resistances, with organisation as a practical relation. Joining, separation, selection, and changing boundaries matter to persistence. Egression and degression distinguish concentration around a centre from stabilising forms.
+
+### Summary
+
+Challoner presents complexes through activities and resistances, with organisation as a practical relation. Joining, separation, selection, and changing boundaries matter to persistence. Egression and degression distinguish concentration around a centre from stabilising forms.
+
+### Why it matters
+
+Inspect the passage and the stated domain before using a term in a new setting.
+
+### Key distinctions
+
+- source account vs editorial interpretation
+- material exchange vs causal openness
+- bibliographic access vs full-text evidence
+
+### Historical development
+
+[]
+
+### Ideas it depends on
+
+[]
+
+### What develops from it
+
+[]
+
+### Connections to practice
+
+- Name the domain, conditions, and observation that could challenge the proposed connection.
+
+### Common confusions
+
+- Treating a shared term as proof that two accounts are equivalent.
+
+### Open questions and checks
+
+- Original-source verification and human editorial review remain open.
+
+### Sources
+
+- Bogdanov: organisation and its changing boundaries: researcher module — https://rational-understanding.com/wp-content/uploads/2026/10/bogdanov-researcher-module.pdf
 
 ## Boundary
 
@@ -1858,6 +2152,55 @@ In Jurgen Appelo's unFIX synthesis, causal loop diagrams are visual models of re
 ### Sources
 
 - 32 Key Concepts in Systems Thinking and Complexity Theory — https://unfix.com/blog/32-key-concepts
+
+## Causal powers
+
+Type: Concept
+Public depth: profile
+
+Capacities attributed to structured entities in critical realist explanation. A proposed capacity still needs an account of its operation and evidence; observing an outcome alone does not establish its mechanism.
+
+### Summary
+
+Capacities attributed to structured entities in critical realist explanation. A proposed capacity still needs an account of its operation and evidence; observing an outcome alone does not establish its mechanism.
+
+### Why it matters
+
+Inspect the passage and the stated domain before using a term in a new setting.
+
+### Key distinctions
+
+- source account vs editorial interpretation
+- material exchange vs causal openness
+- bibliographic access vs full-text evidence
+
+### Historical development
+
+[]
+
+### Ideas it depends on
+
+[]
+
+### What develops from it
+
+[]
+
+### Connections to practice
+
+- Name the domain, conditions, and observation that could challenge the proposed connection.
+
+### Common confusions
+
+- Treating a shared term as proof that two accounts are equivalent.
+
+### Open questions and checks
+
+- Original-source verification and human editorial review remain open.
+
+### Sources
+
+- Bhaskar: mechanisms in open systems: researcher module — https://rational-understanding.com/wp-content/uploads/2026/10/bhaskar-researcher-module.pdf
 
 ## Celebrating 100 Years of Stafford Beer: playing the POSIWID cards
 
@@ -4166,6 +4509,55 @@ A difference is a distinguishable contrast between possible states, descriptions
 - The Grammar of Systems - SCiO presentation — https://www.systemspractice.org/resources/grammar-systems
 - The Grammar of Systems II: From Order to Chaos and Back Again, 2nd edition — https://www.systemspractice.org/resources/grammar-systems-ii-order-chaos-back-again-2nd-ed
 
+## Dissipative structure
+
+Type: Concept
+Public depth: profile
+
+An organised physical pattern sustained under non-equilibrium conditions through continuing exchanges. Application to social or organisational life needs its own mechanism and evidence rather than resemblance alone.
+
+### Summary
+
+An organised physical pattern sustained under non-equilibrium conditions through continuing exchanges. Application to social or organisational life needs its own mechanism and evidence rather than resemblance alone.
+
+### Why it matters
+
+Inspect the passage and the stated domain before using a term in a new setting.
+
+### Key distinctions
+
+- source account vs editorial interpretation
+- material exchange vs causal openness
+- bibliographic access vs full-text evidence
+
+### Historical development
+
+[]
+
+### Ideas it depends on
+
+[]
+
+### What develops from it
+
+[]
+
+### Connections to practice
+
+- Name the domain, conditions, and observation that could challenge the proposed connection.
+
+### Common confusions
+
+- Treating a shared term as proof that two accounts are equivalent.
+
+### Open questions and checks
+
+- Original-source verification and human editorial review remain open.
+
+### Sources
+
+- Prigogine: order under non-equilibrium conditions: researcher module — https://rational-understanding.com/wp-content/uploads/2026/10/prigogine-researcher-module.pdf
+
 ## Distinction
 
 Type: Concept
@@ -4520,6 +4912,55 @@ In Jurgen Appelo's unFIX synthesis, dynamic complexity arises when causes and ef
 
 - 32 Key Concepts in Systems Thinking and Complexity Theory — https://unfix.com/blog/32-key-concepts
 
+## Dynamic equilibrium in tektology
+
+Type: Concept
+Public depth: profile
+
+Persistence sustained through continuing activity and changing relations in a tektological account. The domain qualifier matters: the term is not used here as a synonym for thermodynamic equilibrium.
+
+### Summary
+
+Persistence sustained through continuing activity and changing relations in a tektological account. The domain qualifier matters: the term is not used here as a synonym for thermodynamic equilibrium.
+
+### Why it matters
+
+Inspect the passage and the stated domain before using a term in a new setting.
+
+### Key distinctions
+
+- source account vs editorial interpretation
+- material exchange vs causal openness
+- bibliographic access vs full-text evidence
+
+### Historical development
+
+[]
+
+### Ideas it depends on
+
+[]
+
+### What develops from it
+
+[]
+
+### Connections to practice
+
+- Name the domain, conditions, and observation that could challenge the proposed connection.
+
+### Common confusions
+
+- Treating a shared term as proof that two accounts are equivalent.
+
+### Open questions and checks
+
+- Original-source verification and human editorial review remain open.
+
+### Sources
+
+- Bogdanov: organisation and its changing boundaries: researcher module — https://rational-understanding.com/wp-content/uploads/2026/10/bogdanov-researcher-module.pdf
+
 ## Dynamic Models of Segregation
 
 Type: Publication
@@ -4653,6 +5094,55 @@ A contested metaphor and hypothesis concerning adaptive behaviour near a transit
 ### Sources
 
 - 32 Key Concepts in Systems Thinking and Complexity Theory — https://unfix.com/blog/32-key-concepts
+
+## Egression and degression
+
+Type: Concept
+Public depth: profile
+
+Bogdanov’s distinction between organisation around a centre and relatively stable supporting forms, as presented in Challoner’s researcher module. These are analytical distinctions rather than recommended management structures.
+
+### Summary
+
+Bogdanov’s distinction between organisation around a centre and relatively stable supporting forms, as presented in Challoner’s researcher module. These are analytical distinctions rather than recommended management structures.
+
+### Why it matters
+
+Inspect the passage and the stated domain before using a term in a new setting.
+
+### Key distinctions
+
+- source account vs editorial interpretation
+- material exchange vs causal openness
+- bibliographic access vs full-text evidence
+
+### Historical development
+
+[]
+
+### Ideas it depends on
+
+[]
+
+### What develops from it
+
+[]
+
+### Connections to practice
+
+- Name the domain, conditions, and observation that could challenge the proposed connection.
+
+### Common confusions
+
+- Treating a shared term as proof that two accounts are equivalent.
+
+### Open questions and checks
+
+- Original-source verification and human editorial review remain open.
+
+### Sources
+
+- Bogdanov: organisation and its changing boundaries: researcher module — https://rational-understanding.com/wp-content/uploads/2026/10/bogdanov-researcher-module.pdf
 
 ## Eilhard von Domarus
 
@@ -4922,6 +5412,55 @@ Miranda Fricker's account of testimonial and hermeneutical injustice, connecting
 ### Sources
 
 - Epistemic Injustice: Power and the Ethics of Knowing — https://academic.oup.com/book/32817
+
+## Equifinality
+
+Type: Concept
+Public depth: profile
+
+The possibility of reaching the same final state from different initial conditions in specified open-system accounts. It is a conditional claim, not a guarantee that any intervention can achieve any desired outcome.
+
+### Summary
+
+The possibility of reaching the same final state from different initial conditions in specified open-system accounts. It is a conditional claim, not a guarantee that any intervention can achieve any desired outcome.
+
+### Why it matters
+
+Inspect the passage and the stated domain before using a term in a new setting.
+
+### Key distinctions
+
+- source account vs editorial interpretation
+- material exchange vs causal openness
+- bibliographic access vs full-text evidence
+
+### Historical development
+
+[]
+
+### Ideas it depends on
+
+[]
+
+### What develops from it
+
+[]
+
+### Connections to practice
+
+- Name the domain, conditions, and observation that could challenge the proposed connection.
+
+### Common confusions
+
+- Treating a shared term as proof that two accounts are equivalent.
+
+### Open questions and checks
+
+- Original-source verification and human editorial review remain open.
+
+### Sources
+
+- Bertalanffy: organisation, openness, and equifinality: researcher module — https://rational-understanding.com/wp-content/uploads/2026/10/von-bertalanffy-researcher-module.pdf
 
 ## Eric L. Trist
 
@@ -7459,6 +7998,104 @@ Named in the historical reading list as an author or editor of Mind in Matter. T
 
 - Wiener’s selected readings on cybernetics, 1951, 1952, 1956 — https://stream.syscoi.com/2026/09/05/28544/
 
+## Isomorphism across systems
+
+Type: Concept
+Public depth: profile
+
+A specified correspondence of formal structure across domains. A useful correspondence preserves identified relations; it does not establish that the compared systems have the same material properties or social purposes.
+
+### Summary
+
+A specified correspondence of formal structure across domains. A useful correspondence preserves identified relations; it does not establish that the compared systems have the same material properties or social purposes.
+
+### Why it matters
+
+Inspect the passage and the stated domain before using a term in a new setting.
+
+### Key distinctions
+
+- source account vs editorial interpretation
+- material exchange vs causal openness
+- bibliographic access vs full-text evidence
+
+### Historical development
+
+[]
+
+### Ideas it depends on
+
+[]
+
+### What develops from it
+
+[]
+
+### Connections to practice
+
+- Name the domain, conditions, and observation that could challenge the proposed connection.
+
+### Common confusions
+
+- Treating a shared term as proof that two accounts are equivalent.
+
+### Open questions and checks
+
+- Original-source verification and human editorial review remain open.
+
+### Sources
+
+- Bertalanffy: organisation, openness, and equifinality: researcher module — https://rational-understanding.com/wp-content/uploads/2026/10/von-bertalanffy-researcher-module.pdf
+
+## ISSS student reading and resource guide
+
+Type: Collection
+Public depth: profile
+
+A source-located guide to the ISSS student resource page: software, training leads, and 57 bibliography entries in seven categories. The collection leans towards modelling; it is one route through systems sciences, not a complete field boundary.
+
+### Summary
+
+A source-located guide to the ISSS student resource page: software, training leads, and 57 bibliography entries in seven categories. The collection leans towards modelling; it is one route through systems sciences, not a complete field boundary.
+
+### Why it matters
+
+Inspect the passage and the stated domain before using a term in a new setting.
+
+### Key distinctions
+
+- source account vs editorial interpretation
+- material exchange vs causal openness
+- bibliographic access vs full-text evidence
+
+### Historical development
+
+[]
+
+### Ideas it depends on
+
+[]
+
+### What develops from it
+
+[]
+
+### Connections to practice
+
+- Name the domain, conditions, and observation that could challenge the proposed connection.
+
+### Common confusions
+
+- Treating a shared term as proof that two accounts are equivalent.
+
+### Open questions and checks
+
+- Original-source verification and human editorial review remain open.
+
+### Sources
+
+- ISSS education resources — https://www.isss.org/students/
+
 ## Ivo Velitchkov
 
 Type: Person
@@ -9423,6 +10060,55 @@ The HBR article shaped wide managerial circulation of Cynefin. Authorship and po
 
 - A Leader's Framework for Decision Making — https://hbr.org/2007/11/a-leaders-framework-for-decision-making
 
+## Materially open system
+
+Type: Concept
+Public depth: profile
+
+A system that exchanges matter across its boundary; thermodynamic accounts also attend to energy exchange. Material openness is distinct from Bhaskar’s causal openness and from an invitation to organisational participation.
+
+### Summary
+
+A system that exchanges matter across its boundary; thermodynamic accounts also attend to energy exchange. Material openness is distinct from Bhaskar’s causal openness and from an invitation to organisational participation.
+
+### Why it matters
+
+Inspect the passage and the stated domain before using a term in a new setting.
+
+### Key distinctions
+
+- source account vs editorial interpretation
+- material exchange vs causal openness
+- bibliographic access vs full-text evidence
+
+### Historical development
+
+[]
+
+### Ideas it depends on
+
+[]
+
+### What develops from it
+
+[]
+
+### Connections to practice
+
+- Name the domain, conditions, and observation that could challenge the proposed connection.
+
+### Common confusions
+
+- Treating a shared term as proof that two accounts are equivalent.
+
+### Open questions and checks
+
+- Original-source verification and human editorial review remain open.
+
+### Sources
+
+- Bertalanffy: organisation, openness, and equifinality: researcher module — https://rational-understanding.com/wp-content/uploads/2026/10/von-bertalanffy-researcher-module.pdf
+
 ## Mental models
 
 Type: Concept
@@ -10630,6 +11316,55 @@ G. J. Chaitin, ‘On the Length of Programs for Computing Finite Binary Sequence
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
 
+## Open causal system
+
+Type: Concept
+Public depth: profile
+
+A system in which several mechanisms can act together, so an observed outcome need not express any one mechanism in isolation. This critical realist use of openness differs from a claim about material exchange.
+
+### Summary
+
+A system in which several mechanisms can act together, so an observed outcome need not express any one mechanism in isolation. This critical realist use of openness differs from a claim about material exchange.
+
+### Why it matters
+
+Inspect the passage and the stated domain before using a term in a new setting.
+
+### Key distinctions
+
+- source account vs editorial interpretation
+- material exchange vs causal openness
+- bibliographic access vs full-text evidence
+
+### Historical development
+
+[]
+
+### Ideas it depends on
+
+[]
+
+### What develops from it
+
+[]
+
+### Connections to practice
+
+- Name the domain, conditions, and observation that could challenge the proposed connection.
+
+### Common confusions
+
+- Treating a shared term as proof that two accounts are equivalent.
+
+### Open questions and checks
+
+- Original-source verification and human editorial review remain open.
+
+### Sources
+
+- Bhaskar: mechanisms in open systems: researcher module — https://rational-understanding.com/wp-content/uploads/2026/10/bhaskar-researcher-module.pdf
+
 ## Open Dialogue
 
 Type: Method or methodology
@@ -10789,6 +11524,55 @@ It provides a non-individualising explanation of recurrent experiences of burden
 
 - The Organic Systems Framework — https://www.triarchypress.net/osf.html
 - Barry Oshry — author profile — https://www.triarchypress.net/barry-oshry.html
+
+## Organisation as relations
+
+Type: Concept
+Public depth: profile
+
+Organisation considered through relations among components and their effects. The concept supports inquiry into what a decomposition preserves or loses; it does not imply that every whole possesses the same kind of organisation.
+
+### Summary
+
+Organisation considered through relations among components and their effects. The concept supports inquiry into what a decomposition preserves or loses; it does not imply that every whole possesses the same kind of organisation.
+
+### Why it matters
+
+Inspect the passage and the stated domain before using a term in a new setting.
+
+### Key distinctions
+
+- source account vs editorial interpretation
+- material exchange vs causal openness
+- bibliographic access vs full-text evidence
+
+### Historical development
+
+[]
+
+### Ideas it depends on
+
+[]
+
+### What develops from it
+
+[]
+
+### Connections to practice
+
+- Name the domain, conditions, and observation that could challenge the proposed connection.
+
+### Common confusions
+
+- Treating a shared term as proof that two accounts are equivalent.
+
+### Open questions and checks
+
+- Original-source verification and human editorial review remain open.
+
+### Sources
+
+- Bertalanffy: organisation, openness, and equifinality: researcher module — https://rational-understanding.com/wp-content/uploads/2026/10/von-bertalanffy-researcher-module.pdf
 
 ## Organisational recursion
 
@@ -10966,6 +11750,7 @@ An experimental organisational health-check tool. Its README describes lenses fo
 ### Sources
 
 - OrgLens README — https://framagit.org/dynamicskillset/orglens
+- OrgLens 2: making an organisational health check people can actually use — https://substrate.dougbelshaw.com/orglens-2-making-an-organisational-health-check-people-can-actually-use
 
 ## Outline for a Logical Theory of Adaptive Systems
 
@@ -13222,6 +14007,55 @@ Presentation design selects and arranges words, images, sequence and interaction
 
 - SCiO CF Resources v9 draft — No public link
 - SCiO Professional Accreditation and Competency Framework — https://www.systemspractice.org/professional-accreditation
+
+## Prigogine: order under non-equilibrium conditions (Challoner, 2026)
+
+Type: Publication
+Public depth: profile
+
+Challoner separates equilibrium, stationary states, and far-from-equilibrium behaviour. Sustained exchange, instability, and fluctuations help explain dissipative structures in specified physical systems. These propositions require separate argument and evidence before application to organisations.
+
+### Summary
+
+Challoner separates equilibrium, stationary states, and far-from-equilibrium behaviour. Sustained exchange, instability, and fluctuations help explain dissipative structures in specified physical systems. These propositions require separate argument and evidence before application to organisations.
+
+### Why it matters
+
+Inspect the passage and the stated domain before using a term in a new setting.
+
+### Key distinctions
+
+- source account vs editorial interpretation
+- material exchange vs causal openness
+- bibliographic access vs full-text evidence
+
+### Historical development
+
+[]
+
+### Ideas it depends on
+
+[]
+
+### What develops from it
+
+[]
+
+### Connections to practice
+
+- Name the domain, conditions, and observation that could challenge the proposed connection.
+
+### Common confusions
+
+- Treating a shared term as proof that two accounts are equivalent.
+
+### Open questions and checks
+
+- Original-source verification and human editorial review remain open.
+
+### Sources
+
+- Prigogine: order under non-equilibrium conditions: researcher module — https://rational-understanding.com/wp-content/uploads/2026/10/prigogine-researcher-module.pdf
 
 ## Principia Cybernetica Project
 
@@ -18034,6 +18868,55 @@ The Root Structuring Theorem proposes that structural complexity can be reduced 
 - The Grammar of Systems II: From Order to Chaos and Back Again, 2nd edition — https://www.systemspractice.org/resources/grammar-systems-ii-order-chaos-back-again-2nd-ed
 - Cybersecurity Lessons from The Grammar of Systems, part 3 — https://www.linkedin.com/pulse/cybersecurity-lessons-from-grammar-systems-order-chaos-osama-salah-2f
 
+## Roy Bhaskar
+
+Type: Person
+Public depth: profile
+
+The Roy Bhaskar researcher module provides a secondary account of this thinker’s work. This entry establishes the reading route; it does not assign authorship of Challoner’s reconstruction to its subject.
+
+### Summary
+
+The Roy Bhaskar researcher module provides a secondary account of this thinker’s work. This entry establishes the reading route; it does not assign authorship of Challoner’s reconstruction to its subject.
+
+### Why it matters
+
+Inspect the passage and the stated domain before using a term in a new setting.
+
+### Key distinctions
+
+- source account vs editorial interpretation
+- material exchange vs causal openness
+- bibliographic access vs full-text evidence
+
+### Historical development
+
+[]
+
+### Ideas it depends on
+
+[]
+
+### What develops from it
+
+[]
+
+### Connections to practice
+
+- Name the domain, conditions, and observation that could challenge the proposed connection.
+
+### Common confusions
+
+- Treating a shared term as proof that two accounts are equivalent.
+
+### Open questions and checks
+
+- Original-source verification and human editorial review remain open.
+
+### Sources
+
+- Bhaskar: mechanisms in open systems: researcher module — https://rational-understanding.com/wp-content/uploads/2026/10/bhaskar-researcher-module.pdf
+
 ## Rupert Suckling
 
 Type: Person
@@ -19203,6 +20086,55 @@ The Structural Viability Theorem says that a system and its constituent sub-syst
 - The Grammar of Systems - SCiO presentation — https://www.systemspractice.org/resources/grammar-systems
 - The Grammar of Systems II: From Order to Chaos and Back Again, 2nd edition — https://www.systemspractice.org/resources/grammar-systems-ii-order-chaos-back-again-2nd-ed
 - Cybersecurity Lessons from The Grammar of Systems, part 3 — https://www.linkedin.com/pulse/cybersecurity-lessons-from-grammar-systems-order-chaos-osama-salah-2f
+
+## Structure and agency
+
+Type: Concept
+Public depth: profile
+
+A distinction between social conditions and the actions that reproduce or transform them. Their interdependence does not make the concepts interchangeable or settle who can act in a particular setting.
+
+### Summary
+
+A distinction between social conditions and the actions that reproduce or transform them. Their interdependence does not make the concepts interchangeable or settle who can act in a particular setting.
+
+### Why it matters
+
+Inspect the passage and the stated domain before using a term in a new setting.
+
+### Key distinctions
+
+- source account vs editorial interpretation
+- material exchange vs causal openness
+- bibliographic access vs full-text evidence
+
+### Historical development
+
+[]
+
+### Ideas it depends on
+
+[]
+
+### What develops from it
+
+[]
+
+### Connections to practice
+
+- Name the domain, conditions, and observation that could challenge the proposed connection.
+
+### Common confusions
+
+- Treating a shared term as proof that two accounts are equivalent.
+
+### Open questions and checks
+
+- Original-source verification and human editorial review remain open.
+
+### Sources
+
+- Bhaskar: mechanisms in open systems: researcher module — https://rational-understanding.com/wp-content/uploads/2026/10/bhaskar-researcher-module.pdf
 
 ## Structurelessness
 
@@ -20611,6 +21543,55 @@ A family of structured facilitation practices; its component methods have differ
 ### Sources
 
 - Technology of Participation (ToP) — https://antlerboy.com/library/large-group-processes/#technology-of-participation-top
+
+## Tektological complex
+
+Type: Concept
+Public depth: profile
+
+In Challoner’s reconstruction of Bogdanov, an organisational complex is investigated through activities and resistances, including the processes that join or separate complexes.
+
+### Summary
+
+In Challoner’s reconstruction of Bogdanov, an organisational complex is investigated through activities and resistances, including the processes that join or separate complexes.
+
+### Why it matters
+
+Inspect the passage and the stated domain before using a term in a new setting.
+
+### Key distinctions
+
+- source account vs editorial interpretation
+- material exchange vs causal openness
+- bibliographic access vs full-text evidence
+
+### Historical development
+
+[]
+
+### Ideas it depends on
+
+[]
+
+### What develops from it
+
+[]
+
+### Connections to practice
+
+- Name the domain, conditions, and observation that could challenge the proposed connection.
+
+### Common confusions
+
+- Treating a shared term as proof that two accounts are equivalent.
+
+### Open questions and checks
+
+- Original-source verification and human editorial review remain open.
+
+### Sources
+
+- Bogdanov: organisation and its changing boundaries: researcher module — https://rational-understanding.com/wp-content/uploads/2026/10/bogdanov-researcher-module.pdf
 
 ## The Architecture of Complexity
 
@@ -22256,6 +23237,7 @@ A guided entrance to the six resources identified in David Ing’s recommendatio
 
 - David Ing: core readings for Understanding Systems — https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5558769097
 - Understanding Systems: SFIN-6011 winter 2026 pro forma — https://coevolving.com/ocadu/202601-sfin-6011/pro-forma/Whole_2026_SFIN6011_pro-forma_v0101a.html
+- Understanding Systems: 2026 SFIN-6011 pro forma — https://coevolving.com/ocadu/202601-sfin-6011/pro-forma/Whole_2026_SFIN6011_pro-forma_v0101a.html
 
 ## Understanding Understanding
 

@@ -1,0 +1,11 @@
+# Release 0.31: feedback and source update
+
+Authorised by Benjamin's 8 October 2026 request for a full update through issue #2 and its issues and actions. Primary deliverable: a validated, published Tangle update with a complete feedback disposition ledger, working reader routes, source-scoped additions, and exact remaining acceptance conditions.
+
+Scope: reconcile all 85 current notebook comments and all 14 open issues; exercise and repair map refocusing, connection links, card view, and responsive navigation; establish a findable training home; read the ISSS student resource list, each Rational Understanding researcher module, and the submitted map-principle sources; inspect the available maps/library inventory; deepen justified conceptual connections; refresh AI observations, release state, and public progress records. Include dated source registers, the additive release builder and baseline reset, validation/browser scripts, Makefile and publication workflow, generated public projections, and current documentation.
+
+Preserve source-established relationships separately from original comparisons and proposed logical connections. Do not treat bibliographic indexing or source-map adjacency as primary reading or proven influence. Retain the exact approved Systemic Evolution package and the fixed Open updates dot. Private source locations, extracts, and access logs stay outside the public repository. Existing event collection remains at its verified snapshot unless a current event correction is found. No access grants or invitations.
+
+Acceptance: every current comment and open issue has an evidence-backed disposition; new source records have locators and review limits; new navigational routes are actual links; desktop and mobile map, search, source, training, and feedback journeys pass; idempotent current build; full make validate or command-equivalent sequence; approved comparator checksums unchanged; successful Pages deployment and exact live identity. Record any unavailable source or independent review as an explicit residual requirement, never as completed work. Save a verified Dropbox recovery copy and change digest.
+
+One implementation pass, a verification pass, and corrections to named failures. No additional agents. Direct publication is authorised under AGENTS.md after validation.

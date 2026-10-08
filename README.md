@@ -1,5 +1,8 @@
 # The Necessary Tangle
 
+<!-- current-31 -->
+Current release: **0.31, 8 October 2026**. [Read the complete update](https://transduction.systems/updates/2026-10-08/), [learning directory](https://transduction.systems/learning/), and [remaining work](https://transduction.systems/updates/2026-10-08/#issues).
+<!-- /current-31 -->
 ## Release 0.23
 
 26 original practice pages; 42 source-labelled resource routes; 746 public atlas entries after the additive resource integration. All 13 core approaches and three theory rows have an explicit rehearsal, with depth limits. Ten further pages support systemic inquiry and intervention. [Open the practice pack](https://transduction.systems/systems-thinking/practice/). The previous release accounts remain below as history.

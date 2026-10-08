@@ -1,0 +1,3541 @@
+{
+  "release": "0.31",
+  "date": "2026-10-08",
+  "curator": "Benjamin P Taylor",
+  "research_status": "AI-assisted source reading; human editorial review remains pending for new graph claims.",
+  "modules": [
+    {
+      "id": "ashby",
+      "title": "Ashby: selection, regulation, and variety",
+      "person": "person_w_ross_ashby",
+      "summary": "Challoner reconstructs Ashby through selected variables, transformations, constraints, and regulation. Read the general definitions before the specialised regulatory claims. The good-regulator result has formal conditions; it is not a licence to assume every manager has an adequate model.",
+      "distinction": "A system selected for inquiry is not identical with the object being investigated.",
+      "pages": 6,
+      "concepts": [
+        [
+          "concept_variety",
+          "p. 3, DG4 and PG4",
+          "presents_account_of",
+          "Variety counts distinguishable possibilities; information concerns eliminated alternatives."
+        ],
+        [
+          "concept_regulation",
+          "p. 4, DS1 and PS1",
+          "presents_account_of",
+          "Regulation concerns the effects of disturbances on specified essential variables."
+        ],
+        [
+          "concept_ultrastability",
+          "p. 4, DS3; p. 5, PS4",
+          "presents_account_of",
+          "Ultrastability changes parameters when essential variables leave their limits."
+        ],
+        [
+          "law_or_principle_conant_ashby_theorem",
+          "p. 5, PS6",
+          "presents_account_of",
+          "The good-regulator proposition is presented with stated mathematical qualifications."
+        ]
+      ],
+      "url": "https://rational-understanding.com/wp-content/uploads/2026/10/ashby-researcher-module.pdf",
+      "sha256": "82f4be02d8ef575245c734d826a9a65993f6eba96d42c4ec67204b6f6931776e",
+      "author": "John A Challoner",
+      "version": "1, 30 September 2026",
+      "status": "All pages read; secondary reconstruction, not a new verification of every original citation"
+    },
+    {
+      "id": "bhaskar",
+      "title": "Bhaskar: mechanisms in open systems",
+      "person": "person_roy_bhaskar",
+      "summary": "Challoner distinguishes what exists, what happens, and what is experienced. Mechanisms can operate without producing an isolated regularity. Social structures and agency are interdependent but distinct; this does not turn every retrospective explanation into a demonstrated mechanism.",
+      "distinction": "Causal openness means interacting mechanisms, whereas material openness means exchange across a boundary.",
+      "pages": 7,
+      "concepts": [
+        [
+          "concept_causal_powers",
+          "pp. 3–4, DG4–DG8",
+          "introduces_distinction",
+          "Causal powers concern capacities of structured entities; emergence involves differentiated levels."
+        ],
+        [
+          "concept_open_causal_system",
+          "p. 3, DG6; p. 6, PS4",
+          "introduces_distinction",
+          "Multiple mechanisms can jointly shape an outcome in an open causal system."
+        ],
+        [
+          "concept_emergence",
+          "p. 4, PG4",
+          "presents_account_of",
+          "Emergent powers depend on underlying organisation without being reduced to it."
+        ],
+        [
+          "concept_structure_agency",
+          "pp. 5–6, DS1–DS2 and PS1–PS3",
+          "introduces_distinction",
+          "Social structures depend on activity while conditioning the agency that reproduces or transforms them."
+        ]
+      ],
+      "url": "https://rational-understanding.com/wp-content/uploads/2026/10/bhaskar-researcher-module.pdf",
+      "sha256": "06ee89f8fbe01db4d9803b3579cc86359b3ccb34da86e0c7ab77e868900f0155",
+      "author": "John A Challoner",
+      "version": "1, 30 September 2026",
+      "status": "All pages read; secondary reconstruction, not a new verification of every original citation"
+    },
+    {
+      "id": "bogdanov",
+      "title": "Bogdanov: organisation and its changing boundaries",
+      "person": "person_alexander_bogdanov",
+      "summary": "Challoner presents complexes through activities and resistances, with organisation as a practical relation. Joining, separation, selection, and changing boundaries matter to persistence. Egression and degression distinguish concentration around a centre from stabilising forms.",
+      "distinction": "Least relative resistance concerns a specified disturbance; it is not a universal weakest-link slogan.",
+      "pages": 7,
+      "concepts": [
+        [
+          "concept_tektological_complex",
+          "pp. 2–3, DG1–DG8",
+          "introduces_distinction",
+          "A complex is considered through activities, resistances, conjunction, and separation."
+        ],
+        [
+          "concept_dynamic_equilibrium",
+          "p. 3, DG10; p. 4, PG5",
+          "presents_account_of",
+          "Persistence can involve continuing activity rather than an absence of change."
+        ],
+        [
+          "concept_boundary",
+          "p. 3, DG8; p. 4, PG4",
+          "presents_account_of",
+          "A tektological boundary arises within organisational interactions."
+        ],
+        [
+          "concept_egression_degression",
+          "pp. 6–7, DS1–DS3 and PS3",
+          "introduces_distinction",
+          "Egression concerns organisation around a centre; degression concerns relatively stable supporting forms."
+        ]
+      ],
+      "url": "https://rational-understanding.com/wp-content/uploads/2026/10/bogdanov-researcher-module.pdf",
+      "sha256": "7a8fc7cf51ad4f92932c3e08ebd31649508f30304a9e48215fe86b0c893d9546",
+      "author": "John A Challoner",
+      "version": "1, 30 September 2026",
+      "status": "All pages read; secondary reconstruction, not a new verification of every original citation"
+    },
+    {
+      "id": "prigogine",
+      "title": "Prigogine: order under non-equilibrium conditions",
+      "person": "person_ilya_prigogine",
+      "summary": "Challoner separates equilibrium, stationary states, and far-from-equilibrium behaviour. Sustained exchange, instability, and fluctuations help explain dissipative structures in specified physical systems. These propositions require separate argument and evidence before application to organisations.",
+      "distinction": "Stationarity can coexist with irreversible processes and flows; stationarity is not thermodynamic equilibrium.",
+      "pages": 7,
+      "concepts": [
+        [
+          "concept_material_open_system",
+          "pp. 2–3, DG1 and PG2",
+          "presents_account_of",
+          "Matter or energy exchange can maintain non-equilibrium conditions."
+        ],
+        [
+          "concept_dissipative_structure",
+          "p. 4, DS5; p. 6, PS5–PS7",
+          "introduces_distinction",
+          "A dissipative structure persists under non-equilibrium conditions maintained by exchange."
+        ],
+        [
+          "concept_bifurcation",
+          "p. 4, DS4; pp. 5–6, PS2–PS4",
+          "introduces_distinction",
+          "Instability can produce branching alternatives in a system’s development."
+        ],
+        [
+          "concept_self_organisation",
+          "p. 5, DS7–DS8; p. 6, PS8–PS10",
+          "presents_account_of",
+          "Fluctuations can be amplified under particular non-linear, non-equilibrium conditions."
+        ]
+      ],
+      "url": "https://rational-understanding.com/wp-content/uploads/2026/10/prigogine-researcher-module.pdf",
+      "sha256": "441ea5669cb3706fe0142647b0133c0f98df06237540eb349244521c322d12b5",
+      "author": "John A Challoner",
+      "version": "1, 30 September 2026",
+      "status": "All pages read; secondary reconstruction, not a new verification of every original citation"
+    },
+    {
+      "id": "von-bertalanffy",
+      "title": "Bertalanffy: organisation, openness, and equifinality",
+      "person": "person_ludwig_von_bertalanffy",
+      "summary": "Challoner distinguishes organised relations from additive collections and cross-domain isomorphism from reduction to one discipline. Open-system accounts of organisms support specific claims about steady states and equifinality. Neither term means every route always reaches the same outcome.",
+      "distinction": "A steady state sustained by flows differs from closed-system equilibrium.",
+      "pages": 5,
+      "concepts": [
+        [
+          "concept_material_open_system",
+          "pp. 3–4, DS1–DS4 and PS1–PS2",
+          "presents_account_of",
+          "Open systems exchange matter and can maintain steady states away from equilibrium."
+        ],
+        [
+          "concept_equifinality",
+          "p. 4, DS4 and PS3",
+          "introduces_distinction",
+          "Different initial conditions can lead to the same final state under specified open-system conditions."
+        ],
+        [
+          "concept_isomorphism",
+          "pp. 2–3, DG3 and PG3–PG4",
+          "introduces_distinction",
+          "Cross-domain formal correspondences do not remove substantive differences between domains."
+        ],
+        [
+          "concept_organisation",
+          "pp. 2–3, DG1 and PG1–PG2",
+          "presents_account_of",
+          "Organisation depends on relations that an additive account of parts can miss."
+        ]
+      ],
+      "url": "https://rational-understanding.com/wp-content/uploads/2026/10/von-bertalanffy-researcher-module.pdf",
+      "sha256": "31ce4b15eacf5aff18e011bd26ce76c9fc877c236270f4efefebe874b00ad3f1",
+      "author": "John A Challoner",
+      "version": "1, 30 September 2026",
+      "status": "All pages read; secondary reconstruction, not a new verification of every original citation"
+    }
+  ],
+  "new_concepts": [
+    [
+      "concept_causal_powers",
+      "Causal powers",
+      "Capacities attributed to structured entities in critical realist explanation. A proposed capacity still needs an account of its operation and evidence; observing an outcome alone does not establish its mechanism.",
+      "bhaskar"
+    ],
+    [
+      "concept_open_causal_system",
+      "Open causal system",
+      "A system in which several mechanisms can act together, so an observed outcome need not express any one mechanism in isolation. This critical realist use of openness differs from a claim about material exchange.",
+      "bhaskar"
+    ],
+    [
+      "concept_structure_agency",
+      "Structure and agency",
+      "A distinction between social conditions and the actions that reproduce or transform them. Their interdependence does not make the concepts interchangeable or settle who can act in a particular setting.",
+      "bhaskar"
+    ],
+    [
+      "concept_tektological_complex",
+      "Tektological complex",
+      "In Challoner’s reconstruction of Bogdanov, an organisational complex is investigated through activities and resistances, including the processes that join or separate complexes.",
+      "bogdanov"
+    ],
+    [
+      "concept_dynamic_equilibrium",
+      "Dynamic equilibrium in tektology",
+      "Persistence sustained through continuing activity and changing relations in a tektological account. The domain qualifier matters: the term is not used here as a synonym for thermodynamic equilibrium.",
+      "bogdanov"
+    ],
+    [
+      "concept_egression_degression",
+      "Egression and degression",
+      "Bogdanov’s distinction between organisation around a centre and relatively stable supporting forms, as presented in Challoner’s researcher module. These are analytical distinctions rather than recommended management structures.",
+      "bogdanov"
+    ],
+    [
+      "concept_material_open_system",
+      "Materially open system",
+      "A system that exchanges matter across its boundary; thermodynamic accounts also attend to energy exchange. Material openness is distinct from Bhaskar’s causal openness and from an invitation to organisational participation.",
+      "von-bertalanffy"
+    ],
+    [
+      "concept_dissipative_structure",
+      "Dissipative structure",
+      "An organised physical pattern sustained under non-equilibrium conditions through continuing exchanges. Application to social or organisational life needs its own mechanism and evidence rather than resemblance alone.",
+      "prigogine"
+    ],
+    [
+      "concept_bifurcation",
+      "Bifurcation",
+      "A branching of possible behaviours as conditions change in a dynamical account. The Prigogine route concerns specified non-linear systems; the word alone is not an explanation of a social turning point.",
+      "prigogine"
+    ],
+    [
+      "concept_equifinality",
+      "Equifinality",
+      "The possibility of reaching the same final state from different initial conditions in specified open-system accounts. It is a conditional claim, not a guarantee that any intervention can achieve any desired outcome.",
+      "von-bertalanffy"
+    ],
+    [
+      "concept_isomorphism",
+      "Isomorphism across systems",
+      "A specified correspondence of formal structure across domains. A useful correspondence preserves identified relations; it does not establish that the compared systems have the same material properties or social purposes.",
+      "von-bertalanffy"
+    ],
+    [
+      "concept_organisation",
+      "Organisation as relations",
+      "Organisation considered through relations among components and their effects. The concept supports inquiry into what a decomposition preserves or loses; it does not imply that every whole possesses the same kind of organisation.",
+      "von-bertalanffy"
+    ]
+  ],
+  "concept_edges": [
+    [
+      "concept_regulation",
+      "concept_variety",
+      "constrains",
+      "ashby",
+      "pp. 4–5, PS1–PS2",
+      "In the module’s regulatory setting, blocking disturbance variety protects specified essential variables."
+    ],
+    [
+      "concept_ultrastability",
+      "concept_regulation",
+      "specialises",
+      "ashby",
+      "p. 4, DS3; p. 5, PS4",
+      "Ultrastability adds parameter change when essential variables leave acceptable limits."
+    ],
+    [
+      "concept_tektological_complex",
+      "concept_boundary",
+      "introduces_distinction",
+      "bogdanov",
+      "p. 3, DG8; p. 4, PG4",
+      "The tektological account treats boundary formation as part of organisational interaction."
+    ],
+    [
+      "concept_material_open_system",
+      "concept_dissipative_structure",
+      "explanatory_prerequisite",
+      "prigogine",
+      "p. 6, PS5–PS6",
+      "The module’s dissipative structures require sustained exchanges under non-equilibrium conditions; openness alone is insufficient."
+    ],
+    [
+      "concept_material_open_system",
+      "concept_equifinality",
+      "explanatory_prerequisite",
+      "von-bertalanffy",
+      "p. 4, DS4 and PS3",
+      "The module locates equifinality within specified open-system conditions, not an unrestricted management claim."
+    ]
+  ],
+  "ocad": {
+    "url": "https://coevolving.com/ocadu/202601-sfin-6011/pro-forma/Whole_2026_SFIN6011_pro-forma_v0101a.html",
+    "author": "David Ing",
+    "licence": "CC BY, 2026, David Ing",
+    "status": "Published pro forma for discussion; not evidence that every suggestion entered the launched syllabus.",
+    "modules": [
+      {
+        "number": 1,
+        "title": "Form a learning group",
+        "summary": "Systems, designing, and visualisation; conversations for action and group commitments.",
+        "exercise": "What will your group be able to notice together that each member might miss?",
+        "source_url": "https://coevolving.com/ocadu/202601-sfin-6011/pro-forma/Whole_2026_SFIN6011_pro-forma_v0101a.html#Module_01",
+        "links": [
+          {
+            "title": "https://doi.org/10.1007/978-981-15-0720-5_60",
+            "url": "https://doi.org/10.1007/978-981-15-0720-5_60"
+          },
+          {
+            "title": "https://doi.org/10.4018/978-1-6684-6563-9",
+            "url": "https://doi.org/10.4018/978-1-6684-6563-9"
+          },
+          {
+            "title": "https://doi.org/10.1007/978-1-4471-7472-1_1",
+            "url": "https://doi.org/10.1007/978-1-4471-7472-1_1"
+          },
+          {
+            "title": "https://doi.org/10.1145/637069.637096",
+            "url": "https://doi.org/10.1145/637069.637096"
+          },
+          {
+            "title": "https://doi.org/10.1145/1649475.1649493",
+            "url": "https://doi.org/10.1145/1649475.1649493"
+          },
+          {
+            "title": "http://systemspedia.bcsss.org",
+            "url": "http://systemspedia.bcsss.org"
+          },
+          {
+            "title": "https://sebokwiki.org/wiki/Foundations_of_Systems_Engineering",
+            "url": "https://sebokwiki.org/wiki/Foundations_of_Systems_Engineering"
+          },
+          {
+            "title": "https://www.systemicdesigntoolkit.org/download",
+            "url": "https://www.systemicdesigntoolkit.org/download"
+          },
+          {
+            "title": "https://www.systemicdesigntoolkit.org/book",
+            "url": "https://www.systemicdesigntoolkit.org/book"
+          },
+          {
+            "title": "\"Systemic Design Toolkit\" Google Drive",
+            "url": "https://drive.google.com/open?id=1JN15M4ZrCv8CTuwpj020yAbV8mhmT9Lg"
+          },
+          {
+            "title": "https://doi.org/10.7577/formakademisk.787",
+            "url": "https://doi.org/10.7577/formakademisk.787"
+          },
+          {
+            "title": "https://open.alberta.ca/publications/follow-the-rabbit-a-field-guide-to-systemic-design",
+            "url": "https://open.alberta.ca/publications/follow-the-rabbit-a-field-guide-to-systemic-design"
+          },
+          {
+            "title": "https://doi.org/10.1145/504729.504731",
+            "url": "https://doi.org/10.1145/504729.504731"
+          },
+          {
+            "title": "https://web.archive.org/web/20100414202411/http://www.eclipse.org/epf/general/EPFComposerOverviewPart1.pdf",
+            "url": "https://web.archive.org/web/20100414202411/http://www.eclipse.org/epf/general/EPFComposerOverviewPart1.pdf"
+          },
+          {
+            "title": "https://patents.google.com/patent/US6950802B1/en",
+            "url": "https://patents.google.com/patent/US6950802B1/en"
+          },
+          {
+            "title": "https://doi.org/10.1016/j.sheji.2019.05.002",
+            "url": "https://doi.org/10.1016/j.sheji.2019.05.002"
+          },
+          {
+            "title": "https://doi.org/10.1007/978-4-431-54478-4_4",
+            "url": "https://doi.org/10.1007/978-4-431-54478-4_4"
+          },
+          {
+            "title": "https://ocadu.alma.exlibrisgroup.com/leganto/public/01OCUL_OCAD/citation/3096379570007481?auth=SAML",
+            "url": "https://ocadu.alma.exlibrisgroup.com/leganto/public/01OCUL_OCAD/citation/3096379570007481?auth=SAML"
+          },
+          {
+            "title": "https://doi.org/10.1016/j.sheji.2017.11.001",
+            "url": "https://doi.org/10.1016/j.sheji.2017.11.001"
+          },
+          {
+            "title": "https://doi.org/10.7577/formakademisk.1755",
+            "url": "https://doi.org/10.7577/formakademisk.1755"
+          },
+          {
+            "title": "http://journals.isss.org/index.php/proceedings55th/article/view/1650",
+            "url": "http://journals.isss.org/index.php/proceedings55th/article/view/1650"
+          },
+          {
+            "title": "http://article.sapub.org/10.5923.j.ajss.20150401.02.html",
+            "url": "http://article.sapub.org/10.5923.j.ajss.20150401.02.html"
+          },
+          {
+            "title": "http://systemspedia.bcsss.org/?title=systems+science",
+            "url": "http://systemspedia.bcsss.org/?title=systems+science"
+          },
+          {
+            "title": "https://doi.org/10.1002/sres.2229",
+            "url": "https://doi.org/10.1002/sres.2229"
+          },
+          {
+            "title": "https://www.strategy-business.com/article/09406",
+            "url": "https://www.strategy-business.com/article/09406"
+          },
+          {
+            "title": "http://coevolving.com/commons/2008_Systemist_v30_n2_p154_Ing_Offerings-Language-Action",
+            "url": "http://coevolving.com/commons/2008_Systemist_v30_n2_p154_Ing_Offerings-Language-Action"
+          },
+          {
+            "title": "https://www.wcu.edu/pmi/2001/21154.PDF",
+            "url": "https://www.wcu.edu/pmi/2001/21154.PDF"
+          },
+          {
+            "title": "https://doi.org/10.1145/1125944.1125978",
+            "url": "https://doi.org/10.1145/1125944.1125978"
+          },
+          {
+            "title": "https://doi.org/10.1147/sj.321.0080",
+            "url": "https://doi.org/10.1147/sj.321.0080"
+          },
+          {
+            "title": "https://hbr.org/2007/04/promise-based-management-the-essence-of-execution",
+            "url": "https://hbr.org/2007/04/promise-based-management-the-essence-of-execution"
+          },
+          {
+            "title": "https://www.researchgate.net/publication/6396628_Promise-based_management_The_essence_of_execution",
+            "url": "https://www.researchgate.net/publication/6396628_Promise-based_management_The_essence_of_execution"
+          },
+          {
+            "title": "https://doi.org/10.1145/1125944.1125974",
+            "url": "https://doi.org/10.1145/1125944.1125974"
+          },
+          {
+            "title": "https://www.youtube.com/watch?v=abSORY3nH14",
+            "url": "https://www.youtube.com/watch?v=abSORY3nH14"
+          },
+          {
+            "title": "https://www.youtube.com/watch?v=QUzJR7DPEdU",
+            "url": "https://www.youtube.com/watch?v=QUzJR7DPEdU"
+          },
+          {
+            "title": "https://www.youtube.com/watch?v=lVJ2YgyyzEA",
+            "url": "https://www.youtube.com/watch?v=lVJ2YgyyzEA"
+          },
+          {
+            "title": "https://www.youtube.com/watch?v=f25kLZCGC4Y",
+            "url": "https://www.youtube.com/watch?v=f25kLZCGC4Y"
+          },
+          {
+            "title": "https://www.youtube.com/watch?v=tJEMJUnVbbw",
+            "url": "https://www.youtube.com/watch?v=tJEMJUnVbbw"
+          },
+          {
+            "title": "https://www.youtube.com/watch?v=-MwTyDtG_1U",
+            "url": "https://www.youtube.com/watch?v=-MwTyDtG_1U"
+          },
+          {
+            "title": "https://www.youtube.com/watch?v=f9U1vuNCQfc",
+            "url": "https://www.youtube.com/watch?v=f9U1vuNCQfc"
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Make inquiry inspectable",
+        "summary": "Assumptions, inquiry, Object-Process Methodology, and tools for intelligence augmentation.",
+        "exercise": "Choose a diagram: which assertions are observations, and which are assumptions?",
+        "source_url": "https://coevolving.com/ocadu/202601-sfin-6011/pro-forma/Whole_2026_SFIN6011_pro-forma_v0101a.html#Module_02",
+        "links": [
+          {
+            "title": "https://www.perplexity.ai/students",
+            "url": "https://www.perplexity.ai/students"
+          },
+          {
+            "title": "https://gemini.google/students/",
+            "url": "https://gemini.google/students/"
+          },
+          {
+            "title": "https://www.opcloud.tech/",
+            "url": "https://www.opcloud.tech/"
+          },
+          {
+            "title": "https://opcloud-sandbox.web.app/",
+            "url": "https://opcloud-sandbox.web.app/"
+          },
+          {
+            "title": "https://esml.technion.ac.il/opm/opcat-installation/",
+            "url": "https://esml.technion.ac.il/opm/opcat-installation/"
+          },
+          {
+            "title": "https://app.diagrams.net",
+            "url": "https://app.diagrams.net"
+          },
+          {
+            "title": "https://canvascloud.ocadu.ca",
+            "url": "https://canvascloud.ocadu.ca"
+          },
+          {
+            "title": "https://m365.cloud.microsoft/chat/",
+            "url": "https://m365.cloud.microsoft/chat/"
+          },
+          {
+            "title": "https://gemini.google.com/canvas",
+            "url": "https://gemini.google.com/canvas"
+          },
+          {
+            "title": "https://chat.qwen.ai/",
+            "url": "https://chat.qwen.ai/"
+          },
+          {
+            "title": "https://mermaid.live",
+            "url": "https://mermaid.live"
+          },
+          {
+            "title": "https://www.vanderbilt.edu/generative-ai/prompt-patterns/",
+            "url": "https://www.vanderbilt.edu/generative-ai/prompt-patterns/"
+          },
+          {
+            "title": "https://www.theglobeandmail.com/business/article-vibe-coding-ai-tools-software-app-development/",
+            "url": "https://www.theglobeandmail.com/business/article-vibe-coding-ai-tools-software-app-development/"
+          },
+          {
+            "title": "https://doi.org/10.4018/978-1-6684-6563-9",
+            "url": "https://doi.org/10.4018/978-1-6684-6563-9"
+          },
+          {
+            "title": "https://doi.org/10.1007/978-1-4471-7475-2_13",
+            "url": "https://doi.org/10.1007/978-1-4471-7475-2_13"
+          },
+          {
+            "title": "https://integral-review.org/backissue/issue-2-jun-2006/",
+            "url": "https://integral-review.org/backissue/issue-2-jun-2006/"
+          },
+          {
+            "title": "https://integral-review.org/issues/issue_2_volckmann_interview_with_mitroff.pdf",
+            "url": "https://integral-review.org/issues/issue_2_volckmann_interview_with_mitroff.pdf"
+          },
+          {
+            "title": "https://doi.org/10.4018/978-1-59904-931-1.ch116",
+            "url": "https://doi.org/10.4018/978-1-59904-931-1.ch116"
+          },
+          {
+            "title": "https://dovdori.technion.ac.il/wp-content/uploads/2022/05/Modeling-Knowledge-with-Object-Process-Methodology.pdf",
+            "url": "https://dovdori.technion.ac.il/wp-content/uploads/2022/05/Modeling-Knowledge-with-Object-Process-Methodology.pdf"
+          },
+          {
+            "title": "https://doi.org/10.1109/TSMCC.2009.2037133",
+            "url": "https://doi.org/10.1109/TSMCC.2009.2037133"
+          },
+          {
+            "title": "https://doi.org/10.1002/sys.21499",
+            "url": "https://doi.org/10.1002/sys.21499"
+          },
+          {
+            "title": "https://www.coursera.org/learn/prompt-engineering",
+            "url": "https://www.coursera.org/learn/prompt-engineering"
+          },
+          {
+            "title": "https://www.youtube.com/watch?v=TQwA9krV8EA",
+            "url": "https://www.youtube.com/watch?v=TQwA9krV8EA"
+          },
+          {
+            "title": "https://www.youtube.com/watch?v=LCEmiRjPEtQ",
+            "url": "https://www.youtube.com/watch?v=LCEmiRjPEtQ"
+          },
+          {
+            "title": "https://www.youtube.com/watch?v=C9or3s7_IXI",
+            "url": "https://www.youtube.com/watch?v=C9or3s7_IXI"
+          },
+          {
+            "title": "http://archive.org/details/Index_20180206_1053",
+            "url": "http://archive.org/details/Index_20180206_1053"
+          },
+          {
+            "title": "https://youtu.be/NfGcN9H21Tc?si=ZEWJyD570tjI6gc6&t=169",
+            "url": "https://youtu.be/NfGcN9H21Tc?si=ZEWJyD570tjI6gc6&t=169"
+          },
+          {
+            "title": "https://www.youtube.com/watch?v=UgsIZD_oheE",
+            "url": "https://www.youtube.com/watch?v=UgsIZD_oheE"
+          },
+          {
+            "title": "https://www.youtube.com/watch?v=Ne-j_U2Vkfw",
+            "url": "https://www.youtube.com/watch?v=Ne-j_U2Vkfw"
+          },
+          {
+            "title": "https://www.youtube.com/watch?v=1GggrzZy5YU",
+            "url": "https://www.youtube.com/watch?v=1GggrzZy5YU"
+          },
+          {
+            "title": "https://www.youtube.com/watch?v=QDZDPnTYOZg",
+            "url": "https://www.youtube.com/watch?v=QDZDPnTYOZg"
+          },
+          {
+            "title": "https://www.youtube.com/watch?v=KbeUrYyuZbI",
+            "url": "https://www.youtube.com/watch?v=KbeUrYyuZbI"
+          },
+          {
+            "title": "https://www.youtube.com/watch?v=roAgU69oDdI",
+            "url": "https://www.youtube.com/watch?v=roAgU69oDdI"
+          },
+          {
+            "title": "https://www.youtube.com/watch?v=emFMHH2Bfvo",
+            "url": "https://www.youtube.com/watch?v=emFMHH2Bfvo"
+          },
+          {
+            "title": "https://www.youtube.com/watch?v=NAOetzchDng",
+            "url": "https://www.youtube.com/watch?v=NAOetzchDng"
+          },
+          {
+            "title": "https://www.youtube.com/watch?v=Le_pYcn0i9w",
+            "url": "https://www.youtube.com/watch?v=Le_pYcn0i9w"
+          },
+          {
+            "title": "https://www.youtube.com/watch?v=3iC6B3EruT0",
+            "url": "https://www.youtube.com/watch?v=3iC6B3EruT0"
+          },
+          {
+            "title": "https://www.youtube.com/watch?v=e5uzvrQKXX4",
+            "url": "https://www.youtube.com/watch?v=e5uzvrQKXX4"
+          },
+          {
+            "title": "https://www.youtube.com/playlist?list=PL9dgg099E8S1wnnowfIFp9uoBMMQF6O8F",
+            "url": "https://www.youtube.com/playlist?list=PL9dgg099E8S1wnnowfIFp9uoBMMQF6O8F"
+          },
+          {
+            "title": "https://www.youtube.com/watch?v=oucVaMPc5vI",
+            "url": "https://www.youtube.com/watch?v=oucVaMPc5vI"
+          },
+          {
+            "title": "https://youtube.com/playlist?list=PLnmxk2xwn3zHBlTxEZfWnNl05j5Lvfg_Y&si=hzFVHNjYSbp3NS0_",
+            "url": "https://youtube.com/playlist?list=PLnmxk2xwn3zHBlTxEZfWnNl05j5Lvfg_Y&si=hzFVHNjYSbp3NS0_"
+          },
+          {
+            "title": "https://www.youtube.com/watch?v=iU2KLIaxPPQ",
+            "url": "https://www.youtube.com/watch?v=iU2KLIaxPPQ"
+          },
+          {
+            "title": "https://www.youtube.com/watch?v=7q65hIaxaZ8",
+            "url": "https://www.youtube.com/watch?v=7q65hIaxaZ8"
+          },
+          {
+            "title": "https://www.youtube.com/watch?v=Gb3dt8itWRo",
+            "url": "https://www.youtube.com/watch?v=Gb3dt8itWRo"
+          },
+          {
+            "title": "https://www.youtube.com/watch?v=XPI8SfmB0ho",
+            "url": "https://www.youtube.com/watch?v=XPI8SfmB0ho"
+          },
+          {
+            "title": "https://www.youtube.com/watch?v=qGsQolMh9zE",
+            "url": "https://www.youtube.com/watch?v=qGsQolMh9zE"
+          },
+          {
+            "title": "https://www.youtube.com/watch?v=KVPxPS5nAsA",
+            "url": "https://www.youtube.com/watch?v=KVPxPS5nAsA"
+          },
+          {
+            "title": "https://www.youtube.com/watch?v=yfHrZ5x_y9M",
+            "url": "https://www.youtube.com/watch?v=yfHrZ5x_y9M"
+          },
+          {
+            "title": "https://www.youtube.com/watch?v=Vl2WSfdgeC0",
+            "url": "https://www.youtube.com/watch?v=Vl2WSfdgeC0"
+          },
+          {
+            "title": "https://www.youtube.com/watch?v=Hjj5Z-zblWQ",
+            "url": "https://www.youtube.com/watch?v=Hjj5Z-zblWQ"
+          },
+          {
+            "title": "https://www.youtube.com/watch?v=XzeXELTd84s",
+            "url": "https://www.youtube.com/watch?v=XzeXELTd84s"
+          },
+          {
+            "title": "https://www.youtube.com/watch?v=H4cEKbDfeL4",
+            "url": "https://www.youtube.com/watch?v=H4cEKbDfeL4"
+          },
+          {
+            "title": "https://www.youtube.com/watch?v=a3SAZpDAd-o",
+            "url": "https://www.youtube.com/watch?v=a3SAZpDAd-o"
+          },
+          {
+            "title": "https://www.youtube.com/watch?v=_WnhoIbfcoM",
+            "url": "https://www.youtube.com/watch?v=_WnhoIbfcoM"
+          },
+          {
+            "title": "https://www.youtube.com/watch?v=R6bFj4eq_fs",
+            "url": "https://www.youtube.com/watch?v=R6bFj4eq_fs"
+          },
+          {
+            "title": "https://www.youtube.com/watch?v=3IDl1Gxonxo",
+            "url": "https://www.youtube.com/watch?v=3IDl1Gxonxo"
+          },
+          {
+            "title": "https://www.youtube.com/watch?v=OfgU9f1KHAE",
+            "url": "https://www.youtube.com/watch?v=OfgU9f1KHAE"
+          },
+          {
+            "title": "https://www.youtube.com/watch?v=voGpd9tuOuI&list=PLCUdZD8xQ449G9w4PzfcBL4Q8u0X89jg2",
+            "url": "https://www.youtube.com/watch?v=voGpd9tuOuI&list=PLCUdZD8xQ449G9w4PzfcBL4Q8u0X89jg2"
+          },
+          {
+            "title": "https://www.youtube.com/playlist?list=PLUeYh4kvkGKXb6-v9Ry5k5tOVML4RP587",
+            "url": "https://www.youtube.com/playlist?list=PLUeYh4kvkGKXb6-v9Ry5k5tOVML4RP587"
+          },
+          {
+            "title": "https://www.youtube.com/watch?v=FTFnf6y0HiA",
+            "url": "https://www.youtube.com/watch?v=FTFnf6y0HiA"
+          },
+          {
+            "title": "https://www.youtube.com/watch?v=Rfe46QzguF8",
+            "url": "https://www.youtube.com/watch?v=Rfe46QzguF8"
+          },
+          {
+            "title": "https://www.youtube.com/watch?v=1hf8OC39-to",
+            "url": "https://www.youtube.com/watch?v=1hf8OC39-to"
+          },
+          {
+            "title": "https://doi.org/10.5555/3721041.3721046",
+            "url": "https://doi.org/10.5555/3721041.3721046"
+          },
+          {
+            "title": "https://doi.org/10.1007/978-3-030-71764-3_3",
+            "url": "https://doi.org/10.1007/978-3-030-71764-3_3"
+          },
+          {
+            "title": "https://doi.org/10.1007/978-3-030-71764-3",
+            "url": "https://doi.org/10.1007/978-3-030-71764-3"
+          },
+          {
+            "title": "https://doi.org/10.1007/978-3-030-71764-3_5",
+            "url": "https://doi.org/10.1007/978-3-030-71764-3_5"
+          },
+          {
+            "title": "https://doi.org/10.1007/978-3-030-71764-3_7",
+            "url": "https://doi.org/10.1007/978-3-030-71764-3_7"
+          },
+          {
+            "title": "http://doi.org/10.1093/acprof:oso/9780195102888.001.0001",
+            "url": "http://doi.org/10.1093/acprof:oso/9780195102888.001.0001"
+          },
+          {
+            "title": "https://doi.org/10.1371/journal.pone.0051430",
+            "url": "https://doi.org/10.1371/journal.pone.0051430"
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Design from a desired situation",
+        "summary": "Idealised design, socio-technical systems, and socio-ecological questions.",
+        "exercise": "Separate what you would design now from constraints you assume cannot change.",
+        "source_url": "https://coevolving.com/ocadu/202601-sfin-6011/pro-forma/Whole_2026_SFIN6011_pro-forma_v0101a.html#Module_03",
+        "links": [
+          {
+            "title": "https://doi.org/10.1093/oso/9780195123876.003.0004",
+            "url": "https://doi.org/10.1093/oso/9780195123876.003.0004"
+          },
+          {
+            "title": "https://doi.org/10.1093/oso/9780195123876.003.0005",
+            "url": "https://doi.org/10.1093/oso/9780195123876.003.0005"
+          },
+          {
+            "title": "https://coevolving.com/blogs/index.php/archive/doing-not-doing-errors-of-commission-errors-of-omission/",
+            "url": "https://coevolving.com/blogs/index.php/archive/doing-not-doing-errors-of-commission-errors-of-omission/"
+          },
+          {
+            "title": "https://doi.org/10.1007/978-1-4471-7475-2_14",
+            "url": "https://doi.org/10.1007/978-1-4471-7475-2_14"
+          },
+          {
+            "title": "https://doi.org/10.1108/S0897-301620210000029004",
+            "url": "https://doi.org/10.1108/S0897-301620210000029004"
+          },
+          {
+            "title": "https://ingbrief.wordpress.com/2012/03/02/genotypical-organization-design-principles-dp1-and-dp2-merrelyn-emery/",
+            "url": "https://ingbrief.wordpress.com/2012/03/02/genotypical-organization-design-principles-dp1-and-dp2-merrelyn-emery/"
+          },
+          {
+            "title": "https://doi.org/10.1007/978-1-4471-7475-2_26",
+            "url": "https://doi.org/10.1007/978-1-4471-7475-2_26"
+          },
+          {
+            "title": "https://doi.org/10.1007/978-1-4471-7475-2_27",
+            "url": "https://doi.org/10.1007/978-1-4471-7475-2_27"
+          },
+          {
+            "title": "https://www.youtube.com/watch?v=iCmSrNH9LFE",
+            "url": "https://www.youtube.com/watch?v=iCmSrNH9LFE"
+          },
+          {
+            "title": "http://www.youtube.com/playlist?list=PLuaY9h4uylrUHgHiuXXTF56gqXd27AAL2",
+            "url": "http://www.youtube.com/playlist?list=PLuaY9h4uylrUHgHiuXXTF56gqXd27AAL2"
+          },
+          {
+            "title": "http://www.youtube.com/playlist?list=PLuaY9h4uylrX2tr9ld6jmoaEgruuj0DhI",
+            "url": "http://www.youtube.com/playlist?list=PLuaY9h4uylrX2tr9ld6jmoaEgruuj0DhI"
+          },
+          {
+            "title": "https://daviding.wordpress.com/2025/12/28/russell-l-ackoff-seminars-the-deming-cooperative-2003-2004-2005-2006/",
+            "url": "https://daviding.wordpress.com/2025/12/28/russell-l-ackoff-seminars-the-deming-cooperative-2003-2004-2005-2006/"
+          },
+          {
+            "title": "https://www.youtube.com/watch?v=CQylYgQVgZ8",
+            "url": "https://www.youtube.com/watch?v=CQylYgQVgZ8"
+          },
+          {
+            "title": "https://www.youtube.com/watch?v=KbNH3xAfe3c",
+            "url": "https://www.youtube.com/watch?v=KbNH3xAfe3c"
+          },
+          {
+            "title": "https://www.youtube.com/watch?v=FM4TsoajLPQ",
+            "url": "https://www.youtube.com/watch?v=FM4TsoajLPQ"
+          },
+          {
+            "title": "https://www.systemicdesigntoolkit.org/download",
+            "url": "https://www.systemicdesigntoolkit.org/download"
+          },
+          {
+            "title": "https://www.systemicdesigntoolkit.org/book",
+            "url": "https://www.systemicdesigntoolkit.org/book"
+          },
+          {
+            "title": "https://doi.org/10.1016/B978-0-12-385915-0.00005-2",
+            "url": "https://doi.org/10.1016/B978-0-12-385915-0.00005-2"
+          },
+          {
+            "title": "https://doi.org/10.1002/(SICI)1099-1735(199603)13:1%253C13::AID-SRES66%253E3.0.CO;2-O",
+            "url": "https://doi.org/10.1002/(SICI)1099-1735(199603)13:1%253C13::AID-SRES66%253E3.0.CO;2-O"
+          },
+          {
+            "title": "https://archive.org/details/39120320010110",
+            "url": "https://archive.org/details/39120320010110"
+          },
+          {
+            "title": "https://coevolving.com/commons/201209-revisiting-the-socio-ecological-social-technical-and-socio-psychological-perspectives",
+            "url": "https://coevolving.com/commons/201209-revisiting-the-socio-ecological-social-technical-and-socio-psychological-perspectives"
+          },
+          {
+            "title": "https://www.researchgate.net/publication/267340010_Strategic_Planning_in_Turbulent_Environments_A_Social_Ecology_Approach_to_Scenarios",
+            "url": "https://www.researchgate.net/publication/267340010_Strategic_Planning_in_Turbulent_Environments_A_Social_Ecology_Approach_to_Scenarios"
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "title": "Explore feedback",
+        "summary": "Causal loop diagrams, archetypes, and distinctions between qualitative and quantitative modelling.",
+        "exercise": "Choose a loop: what observation could change its sign, delay, or boundary?",
+        "source_url": "https://coevolving.com/ocadu/202601-sfin-6011/pro-forma/Whole_2026_SFIN6011_pro-forma_v0101a.html#Module_04",
+        "links": [
+          {
+            "title": "https://prsm.uk/",
+            "url": "https://prsm.uk/"
+          },
+          {
+            "title": "https://github.com/micrology/prsm",
+            "url": "https://github.com/micrology/prsm"
+          },
+          {
+            "title": "https://doi.org/10.1177/1356389020976153",
+            "url": "https://doi.org/10.1177/1356389020976153"
+          },
+          {
+            "title": "https://www.systemssciencelab.com",
+            "url": "https://www.systemssciencelab.com"
+          },
+          {
+            "title": "https://proceedings.systemdynamics.org/2025/abstracts/1084.html",
+            "url": "https://proceedings.systemdynamics.org/2025/abstracts/1084.html"
+          },
+          {
+            "title": "https://www.sdcourses.com/silico-guide",
+            "url": "https://www.sdcourses.com/silico-guide"
+          },
+          {
+            "title": "https://app.pathfwd.io/tutorials/demo",
+            "url": "https://app.pathfwd.io/tutorials/demo"
+          },
+          {
+            "title": "https://www.youtube.com/watch?v=NPzfXofYsS4",
+            "url": "https://www.youtube.com/watch?v=NPzfXofYsS4"
+          },
+          {
+            "title": "https://systemdynamics.org/tools/web-based-tools/",
+            "url": "https://systemdynamics.org/tools/web-based-tools/"
+          },
+          {
+            "title": "https://thesystemsthinker.com/applying-systems-archetypes/",
+            "url": "https://thesystemsthinker.com/applying-systems-archetypes/"
+          },
+          {
+            "title": "https://www.chelseagreen.com/product/thinking-in-systems/",
+            "url": "https://www.chelseagreen.com/product/thinking-in-systems/"
+          },
+          {
+            "title": "https://donellameadows.org/archives/leverage-points-places-to-intervene-in-a-system/",
+            "url": "https://donellameadows.org/archives/leverage-points-places-to-intervene-in-a-system/"
+          },
+          {
+            "title": "https://doi.org/10.1007/978-1-4471-7475-2_11",
+            "url": "https://doi.org/10.1007/978-1-4471-7475-2_11"
+          },
+          {
+            "title": "https://doi.org/10.1057/palgrave.jors.2600864",
+            "url": "https://doi.org/10.1057/palgrave.jors.2600864"
+          },
+          {
+            "title": "https://doi.org/10.1002/sres.826",
+            "url": "https://doi.org/10.1002/sres.826"
+          },
+          {
+            "title": "https://doi.org/10.1007/978-1-4471-7472-1_2",
+            "url": "https://doi.org/10.1007/978-1-4471-7472-1_2"
+          },
+          {
+            "title": "https://doi.org/10.1007/978-1-4471-7475-2_10",
+            "url": "https://doi.org/10.1007/978-1-4471-7475-2_10"
+          },
+          {
+            "title": "https://vimeo.com/121156138",
+            "url": "https://vimeo.com/121156138"
+          },
+          {
+            "title": "https://thesystemsthinker.com/video-introduction-to-causal-loops/",
+            "url": "https://thesystemsthinker.com/video-introduction-to-causal-loops/"
+          },
+          {
+            "title": "https://www.youtube.com/watch?v=XRf_OaoJpCs",
+            "url": "https://www.youtube.com/watch?v=XRf_OaoJpCs"
+          },
+          {
+            "title": "https://vimeo.com/102640536",
+            "url": "https://vimeo.com/102640536"
+          },
+          {
+            "title": "https://www.youtube.com/watch?v=o-Yp8A7BPE8",
+            "url": "https://www.youtube.com/watch?v=o-Yp8A7BPE8"
+          },
+          {
+            "title": "https://www.youtube.com/playlist?list=PLWTEBISypYFsePqK3R7AoQFLmPdhbxmeJ",
+            "url": "https://www.youtube.com/playlist?list=PLWTEBISypYFsePqK3R7AoQFLmPdhbxmeJ"
+          },
+          {
+            "title": "https://www.youtube.com/watch?v=XL_lOoomRTA",
+            "url": "https://www.youtube.com/watch?v=XL_lOoomRTA"
+          },
+          {
+            "title": "https://www.youtube.com/watch?v=fXc2A4DXhjs",
+            "url": "https://www.youtube.com/watch?v=fXc2A4DXhjs"
+          },
+          {
+            "title": "https://www.systemicdesigntoolkit.org/download",
+            "url": "https://www.systemicdesigntoolkit.org/download"
+          },
+          {
+            "title": "https://www.systemicdesigntoolkit.org/book",
+            "url": "https://www.systemicdesigntoolkit.org/book"
+          },
+          {
+            "title": "https://systemsorienteddesign.net/leverage-points/",
+            "url": "https://systemsorienteddesign.net/leverage-points/"
+          },
+          {
+            "title": "https://systemsorienteddesign.net/zip-clustering/",
+            "url": "https://systemsorienteddesign.net/zip-clustering/"
+          },
+          {
+            "title": "https://doi.org/10.3390/en18154200",
+            "url": "https://doi.org/10.3390/en18154200"
+          },
+          {
+            "title": "https://thesystemsthinker.com/systems-thinking-tools-a-users-reference-guide/",
+            "url": "https://thesystemsthinker.com/systems-thinking-tools-a-users-reference-guide/"
+          },
+          {
+            "title": "https://thesystemsthinker.com/pocket-guide-guidelines-for-drawing-causal-loop-diagrams/",
+            "url": "https://thesystemsthinker.com/pocket-guide-guidelines-for-drawing-causal-loop-diagrams/"
+          },
+          {
+            "title": "https://thesystemsthinker.com/systems-archetypes-i-diagnosing-systemic-issues-and-designing-interventions/",
+            "url": "https://thesystemsthinker.com/systems-archetypes-i-diagnosing-systemic-issues-and-designing-interventions/"
+          },
+          {
+            "title": "https://thesystemsthinker.com/systems-archetypes-ii-using-systems-archetypes-to-take-effective-action/",
+            "url": "https://thesystemsthinker.com/systems-archetypes-ii-using-systems-archetypes-to-take-effective-action/"
+          },
+          {
+            "title": "https://thesystemsthinker.com/systems-archetypes-iii-understanding-patterns-of-behavior-and-delay/",
+            "url": "https://thesystemsthinker.com/systems-archetypes-iii-understanding-patterns-of-behavior-and-delay/"
+          },
+          {
+            "title": "https://thesystemsthinker.com/pocket-guide-using-the-archetypes/",
+            "url": "https://thesystemsthinker.com/pocket-guide-using-the-archetypes/"
+          },
+          {
+            "title": "https://doi.org/10.1111/dmj.12068",
+            "url": "https://doi.org/10.1111/dmj.12068"
+          },
+          {
+            "title": "https://doi.org/10.1007/s11235-011-9425-4",
+            "url": "https://doi.org/10.1007/s11235-011-9425-4"
+          },
+          {
+            "title": "https://www.researchgate.net/publication/226448753_On_the_Validation_of_System_Dynamics_Type_Simulation_Models",
+            "url": "https://www.researchgate.net/publication/226448753_On_the_Validation_of_System_Dynamics_Type_Simulation_Models"
+          },
+          {
+            "title": "https://doi.org/10.1016/j.procs.2025.03.200",
+            "url": "https://doi.org/10.1016/j.procs.2025.03.200"
+          },
+          {
+            "title": "https://elenip.com/publication/2024-9/",
+            "url": "https://elenip.com/publication/2024-9/"
+          },
+          {
+            "title": "https://dspace.mit.edu/handle/1721.1/102741",
+            "url": "https://dspace.mit.edu/handle/1721.1/102741"
+          },
+          {
+            "title": "https://doi.org/10.1007/978-1-4471-7475-2_12",
+            "url": "https://doi.org/10.1007/978-1-4471-7475-2_12"
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "title": "Read a situation through several accounts",
+        "summary": "Rich pictures and Soft Systems Methodology.",
+        "exercise": "Draw two accounts of the same situation and locate the disagreement about purpose.",
+        "source_url": "https://coevolving.com/ocadu/202601-sfin-6011/pro-forma/Whole_2026_SFIN6011_pro-forma_v0101a.html#Module_05",
+        "links": [
+          {
+            "title": "https://doi.org/10.1002/sd.497",
+            "url": "https://doi.org/10.1002/sd.497"
+          },
+          {
+            "title": "https://doi.org/10.1007/978-1-4471-7472-1_5",
+            "url": "https://doi.org/10.1007/978-1-4471-7472-1_5"
+          },
+          {
+            "title": "https://doi.org/10.1007/978-1-4471-7475-2_15",
+            "url": "https://doi.org/10.1007/978-1-4471-7475-2_15"
+          },
+          {
+            "title": "https://www.youtube.com/watch?v=Gb6eDQ9dRVc",
+            "url": "https://www.youtube.com/watch?v=Gb6eDQ9dRVc"
+          },
+          {
+            "title": "http://www.youtube.com/playlist?list=PLhQpDGfX5e7CFc5BQ8rW6SnKrnle-9Kgb",
+            "url": "http://www.youtube.com/playlist?list=PLhQpDGfX5e7CFc5BQ8rW6SnKrnle-9Kgb"
+          },
+          {
+            "title": "https://www.youtube.com/watch?v=JpjsLtqU4lw",
+            "url": "https://www.youtube.com/watch?v=JpjsLtqU4lw"
+          },
+          {
+            "title": "https://www.systemicdesigntoolkit.org/download",
+            "url": "https://www.systemicdesigntoolkit.org/download"
+          },
+          {
+            "title": "https://www.systemicdesigntoolkit.org/book",
+            "url": "https://www.systemicdesigntoolkit.org/book"
+          },
+          {
+            "title": "https://www.youtube.com/watch?v=G9PC3d9UK2o",
+            "url": "https://www.youtube.com/watch?v=G9PC3d9UK2o"
+          },
+          {
+            "title": "https://doi.org/10.1145/274430.274434",
+            "url": "https://doi.org/10.1145/274430.274434"
+          },
+          {
+            "title": "https://doi.org/10.1057/jors.1992.47",
+            "url": "https://doi.org/10.1057/jors.1992.47"
+          },
+          {
+            "title": "https://www.researchgate.net/publication/397786227_The_Development_of_Soft_Systems_Methodology_through_the_Lens_of_the_FMA_Framework",
+            "url": "https://www.researchgate.net/publication/397786227_The_Development_of_Soft_Systems_Methodology_through_the_Lens_of_the_FMA_Framework"
+          },
+          {
+            "title": "https://doi.org/10.2307/2582171",
+            "url": "https://doi.org/10.2307/2582171"
+          },
+          {
+            "title": "https://doi.org/10.1002/sres.692",
+            "url": "https://doi.org/10.1002/sres.692"
+          },
+          {
+            "title": "https://doi.org/10.1007/978-1-4471-7475-2_8",
+            "url": "https://doi.org/10.1007/978-1-4471-7475-2_8"
+          }
+        ]
+      },
+      {
+        "number": 6,
+        "title": "Make relationships visible",
+        "summary": "Synthesis maps, gigamapping, and systemic design.",
+        "exercise": "Give every line a meaning. Which lines merely show your current uncertainty?",
+        "source_url": "https://coevolving.com/ocadu/202601-sfin-6011/pro-forma/Whole_2026_SFIN6011_pro-forma_v0101a.html#Module_06",
+        "links": [
+          {
+            "title": "https://printshop.ocadu.ca/large-format-printing/wide-format-dynamic-sizing-test-2-112/",
+            "url": "https://printshop.ocadu.ca/large-format-printing/wide-format-dynamic-sizing-test-2-112/"
+          },
+          {
+            "title": "https://printshop.ocadu.ca/large-format-printing/wide-format-dynamic-sizing/",
+            "url": "https://printshop.ocadu.ca/large-format-printing/wide-format-dynamic-sizing/"
+          },
+          {
+            "title": "https://doi.org/10.1016/j.sheji.2016.01.002",
+            "url": "https://doi.org/10.1016/j.sheji.2016.01.002"
+          },
+          {
+            "title": "https://www.designcouncil.org.uk/our-resources/systemic-design-framework/",
+            "url": "https://www.designcouncil.org.uk/our-resources/systemic-design-framework/"
+          },
+          {
+            "title": "https://www.designcouncil.org.uk/our-resources/framework-for-innovation/",
+            "url": "https://www.designcouncil.org.uk/our-resources/framework-for-innovation/"
+          },
+          {
+            "title": "https://www.systemicdesigntoolkit.org/book",
+            "url": "https://www.systemicdesigntoolkit.org/book"
+          },
+          {
+            "title": "https://doi.org/10.1016/j.sheji.2023.05.003",
+            "url": "https://doi.org/10.1016/j.sheji.2023.05.003"
+          },
+          {
+            "title": "https://doi.org/10.1007/978-4-431-55639-8_8",
+            "url": "https://doi.org/10.1007/978-4-431-55639-8_8"
+          },
+          {
+            "title": "https://ocadu.alma.exlibrisgroup.com/leganto/public/01OCUL_OCAD/citation/3097200200007481?auth=SAML",
+            "url": "https://ocadu.alma.exlibrisgroup.com/leganto/public/01OCUL_OCAD/citation/3097200200007481?auth=SAML"
+          },
+          {
+            "title": "https://www.youtube.com/watch?v=0UYh9ul3h28",
+            "url": "https://www.youtube.com/watch?v=0UYh9ul3h28"
+          },
+          {
+            "title": "https://www.youtube.com/watch?v=5FpKuJSCbx0",
+            "url": "https://www.youtube.com/watch?v=5FpKuJSCbx0"
+          },
+          {
+            "title": "https://www.youtube.com/watch?v=_XfwfAdHaWY",
+            "url": "https://www.youtube.com/watch?v=_XfwfAdHaWY"
+          },
+          {
+            "title": "https://rsdsymposium.org/roundtable-on-mapping/",
+            "url": "https://rsdsymposium.org/roundtable-on-mapping/"
+          },
+          {
+            "title": "https://www.youtube.com/watch?v=ADpYw4964Z8",
+            "url": "https://www.youtube.com/watch?v=ADpYw4964Z8"
+          },
+          {
+            "title": "https://www.youtube.com/watch?v=oN_PuXRzkhQ",
+            "url": "https://www.youtube.com/watch?v=oN_PuXRzkhQ"
+          },
+          {
+            "title": "https://www.youtube.com/watch?v=ZJJQ7WUckek",
+            "url": "https://www.youtube.com/watch?v=ZJJQ7WUckek"
+          },
+          {
+            "title": "https://www.youtube.com/watch?v=VQ2K26qQjd8",
+            "url": "https://www.youtube.com/watch?v=VQ2K26qQjd8"
+          },
+          {
+            "title": "https://www.youtube.com/watch?v=8R8EiC8KnFc",
+            "url": "https://www.youtube.com/watch?v=8R8EiC8KnFc"
+          },
+          {
+            "title": "https://www.youtube.com/watch?v=rgXhuKLO9U8",
+            "url": "https://www.youtube.com/watch?v=rgXhuKLO9U8"
+          },
+          {
+            "title": "https://www.systemicdesigntoolkit.org/download",
+            "url": "https://www.systemicdesigntoolkit.org/download"
+          },
+          {
+            "title": "https://systemsorienteddesign.net/how-to-gigamap/",
+            "url": "https://systemsorienteddesign.net/how-to-gigamap/"
+          },
+          {
+            "title": "https://systemsorienteddesign.net/library-of-systemic-relations/",
+            "url": "https://systemsorienteddesign.net/library-of-systemic-relations/"
+          },
+          {
+            "title": "https://doi.org/10.1080/17493460601110525",
+            "url": "https://doi.org/10.1080/17493460601110525"
+          },
+          {
+            "title": "https://www.researchgate.net/publication/254443548_Designing_for_Emergence_and_Innovation_Redesigning_Design",
+            "url": "https://www.researchgate.net/publication/254443548_Designing_for_Emergence_and_Innovation_Redesigning_Design"
+          },
+          {
+            "title": "https://doi.org/10.2752/146069203790219344",
+            "url": "https://doi.org/10.2752/146069203790219344"
+          },
+          {
+            "title": "https://www.designcouncil.org.uk/our-resources/archive/reports-resources/download-our-systems-shifting-design-report-1/",
+            "url": "https://www.designcouncil.org.uk/our-resources/archive/reports-resources/download-our-systems-shifting-design-report-1/"
+          },
+          {
+            "title": "https://doi.org/10.1016/j.sheji.2017.12.001",
+            "url": "https://doi.org/10.1016/j.sheji.2017.12.001"
+          },
+          {
+            "title": "https://systemic-design.net/rsd-symposia/rsd5-2016/rsd5-theory-method/",
+            "url": "https://systemic-design.net/rsd-symposia/rsd5-2016/rsd5-theory-method/"
+          },
+          {
+            "title": "https://systemsorienteddesign.net/practicing-systems-oriented-design/",
+            "url": "https://systemsorienteddesign.net/practicing-systems-oriented-design/"
+          },
+          {
+            "title": "https://systemsorienteddesign.net/the-sod-picture-book/",
+            "url": "https://systemsorienteddesign.net/the-sod-picture-book/"
+          },
+          {
+            "title": "https://archive.nordes.org/index.php/n13/article/view/104",
+            "url": "https://archive.nordes.org/index.php/n13/article/view/104"
+          },
+          {
+            "title": "https://doi.org/10.18848/978-1-86335-262-8/CGP",
+            "url": "https://doi.org/10.18848/978-1-86335-262-8/CGP"
+          },
+          {
+            "title": "https://ocadu.alma.exlibrisgroup.com/leganto/public/01OCUL_OCAD/citation/3097227990007481?auth=SAML",
+            "url": "https://ocadu.alma.exlibrisgroup.com/leganto/public/01OCUL_OCAD/citation/3097227990007481?auth=SAML"
+          }
+        ]
+      },
+      {
+        "number": 7,
+        "title": "Recognise recurring traps",
+        "summary": "Double binds, schismogenesis, wicked problems, polycrisis, and viable organisation.",
+        "exercise": "Could obeying one demand make another demand impossible to meet?",
+        "source_url": "https://coevolving.com/ocadu/202601-sfin-6011/pro-forma/Whole_2026_SFIN6011_pro-forma_v0101a.html#Module_07",
+        "links": [
+          {
+            "title": "https://intelligente-organisationen.de/downloads",
+            "url": "https://intelligente-organisationen.de/downloads"
+          },
+          {
+            "title": "https://doi.org/10.1002/jhbs.10112",
+            "url": "https://doi.org/10.1002/jhbs.10112"
+          },
+          {
+            "title": "https://openresearch.ocadu.ca/id/eprint/2744/",
+            "url": "https://openresearch.ocadu.ca/id/eprint/2744/"
+          },
+          {
+            "title": "https://doi.org/10.1016/j.sheji.2024.03.002",
+            "url": "https://doi.org/10.1016/j.sheji.2024.03.002"
+          },
+          {
+            "title": "https://doi.org/10.2139/ssrn.4483556",
+            "url": "https://doi.org/10.2139/ssrn.4483556"
+          },
+          {
+            "title": "https://doi.org/10.1007/978-1-4471-7472-1_3",
+            "url": "https://doi.org/10.1007/978-1-4471-7472-1_3"
+          },
+          {
+            "title": "https://doi.org/10.1007/978-1-4471-7475-2_19",
+            "url": "https://doi.org/10.1007/978-1-4471-7475-2_19"
+          },
+          {
+            "title": "https://wiki.st-on.org/2022-02-21",
+            "url": "https://wiki.st-on.org/2022-02-21"
+          },
+          {
+            "title": "https://www.youtube.com/watch?v=3ekzHzRMjOk",
+            "url": "https://www.youtube.com/watch?v=3ekzHzRMjOk"
+          },
+          {
+            "title": "https://www.youtube.com/watch?v=FZrh7gOSBc8",
+            "url": "https://www.youtube.com/watch?v=FZrh7gOSBc8"
+          },
+          {
+            "title": "https://www.youtube.com/watch?v=PyfpA1WSHcI",
+            "url": "https://www.youtube.com/watch?v=PyfpA1WSHcI"
+          },
+          {
+            "title": "https://www.youtube.com/watch?v=P3QlL7911b0",
+            "url": "https://www.youtube.com/watch?v=P3QlL7911b0"
+          },
+          {
+            "title": "https://www.systemicdesigntoolkit.org/download",
+            "url": "https://www.systemicdesigntoolkit.org/download"
+          },
+          {
+            "title": "https://www.systemicdesigntoolkit.org/book",
+            "url": "https://www.systemicdesigntoolkit.org/book"
+          },
+          {
+            "title": "https://doi.org/10.1007/BF01405730",
+            "url": "https://doi.org/10.1007/BF01405730"
+          },
+          {
+            "title": "https://doi.org/10.1007/978-981-15-0720-5_67",
+            "url": "https://doi.org/10.1007/978-981-15-0720-5_67"
+          },
+          {
+            "title": "https://doi.org/10.1007/978-981-15-0720-5_66",
+            "url": "https://doi.org/10.1007/978-981-15-0720-5_66"
+          },
+          {
+            "title": "https://doi.org/10.1007/978-981-15-0720-5_2",
+            "url": "https://doi.org/10.1007/978-981-15-0720-5_2"
+          },
+          {
+            "title": "https://doi.org/10.1007/978-1-4471-7475-2_5",
+            "url": "https://doi.org/10.1007/978-1-4471-7475-2_5"
+          },
+          {
+            "title": "https://doi.org/10.1007/978-1-4471-7475-2_18",
+            "url": "https://doi.org/10.1007/978-1-4471-7475-2_18"
+          },
+          {
+            "title": "https://doi.org/10.1108/03684920610675012",
+            "url": "https://doi.org/10.1108/03684920610675012"
+          },
+          {
+            "title": "https://www.researchgate.net/publication/36381544_Design_for_Viable_Organizations_the_Diagnostic_Power_of_the_Viable_System_Model",
+            "url": "https://www.researchgate.net/publication/36381544_Design_for_Viable_Organizations_the_Diagnostic_Power_of_the_Viable_System_Model"
+          },
+          {
+            "title": "https://doi.org/10.1007/s11213-009-9126-z",
+            "url": "https://doi.org/10.1007/s11213-009-9126-z"
+          },
+          {
+            "title": "https://www.academia.edu/80280504/The_Viable_System_Model_and_Its_Application_to_Complex_Organizations",
+            "url": "https://www.academia.edu/80280504/The_Viable_System_Model_and_Its_Application_to_Complex_Organizations"
+          },
+          {
+            "title": "https://doi.org/10.1002/sres.937",
+            "url": "https://doi.org/10.1002/sres.937"
+          },
+          {
+            "title": "https://doi.org/10.1023/A:1009546721353",
+            "url": "https://doi.org/10.1023/A:1009546721353"
+          },
+          {
+            "title": "https://www.academia.edu/126606769/Managing_Complexity_The_Path_Toward_Intelligent_Organizations",
+            "url": "https://www.academia.edu/126606769/Managing_Complexity_The_Path_Toward_Intelligent_Organizations"
+          },
+          {
+            "title": "http://journals.isss.org/index.php/proceedings50th/article/viewArticle/307",
+            "url": "http://journals.isss.org/index.php/proceedings50th/article/viewArticle/307"
+          },
+          {
+            "title": "https://www.researchgate.net/publication/323495667_Systemic_design_for_sustainability",
+            "url": "https://www.researchgate.net/publication/323495667_Systemic_design_for_sustainability"
+          },
+          {
+            "title": "https://doi.org/10.1108/03684920710747057",
+            "url": "https://doi.org/10.1108/03684920710747057"
+          }
+        ]
+      },
+      {
+        "number": 8,
+        "title": "Work with changing regimes",
+        "summary": "Ecological complexity, panarchy, and anticipation.",
+        "exercise": "Compare persistence with transformation. Whose continuity would each protect?",
+        "source_url": "https://coevolving.com/ocadu/202601-sfin-6011/pro-forma/Whole_2026_SFIN6011_pro-forma_v0101a.html#Module_08",
+        "links": [
+          {
+            "title": "https://systemsorienteddesign.net/evaluation-tools/",
+            "url": "https://systemsorienteddesign.net/evaluation-tools/"
+          },
+          {
+            "title": "https://doi.org/10.17226/4919",
+            "url": "https://doi.org/10.17226/4919"
+          },
+          {
+            "title": "https://www.nationalacademies.org/read/4919/chapter/4",
+            "url": "https://www.nationalacademies.org/read/4919/chapter/4"
+          },
+          {
+            "title": "https://doi.org/10.1126/science.aat7850",
+            "url": "https://doi.org/10.1126/science.aat7850"
+          },
+          {
+            "title": "https://www.biorxiv.org/content/10.1101/364620v1.full",
+            "url": "https://www.biorxiv.org/content/10.1101/364620v1.full"
+          },
+          {
+            "title": "http://www.ecologyandsociety.org/vol9/iss2/art5/",
+            "url": "http://www.ecologyandsociety.org/vol9/iss2/art5/"
+          },
+          {
+            "title": "https://doi.org/10.1002/sres.2429",
+            "url": "https://doi.org/10.1002/sres.2429"
+          },
+          {
+            "title": "https://doi.org/j.ecocom.2017.05.004",
+            "url": "https://doi.org/j.ecocom.2017.05.004"
+          },
+          {
+            "title": "https://www.academia.edu/113332203/Mapping_degrees_of_complexity_complicatedness_and_emergent_complexity",
+            "url": "https://www.academia.edu/113332203/Mapping_degrees_of_complexity_complicatedness_and_emergent_complexity"
+          },
+          {
+            "title": "https://doi.org/10.3390/math10224172",
+            "url": "https://doi.org/10.3390/math10224172"
+          },
+          {
+            "title": "https://www.youtube.com/watch?v=jbFBm7Hd0dk",
+            "url": "https://www.youtube.com/watch?v=jbFBm7Hd0dk"
+          },
+          {
+            "title": "https://www.youtube.com/watch?v=FhfmaXZPKEY",
+            "url": "https://www.youtube.com/watch?v=FhfmaXZPKEY"
+          },
+          {
+            "title": "https://www.youtube.com/watch?v=57rJ4N0yPXw",
+            "url": "https://www.youtube.com/watch?v=57rJ4N0yPXw"
+          },
+          {
+            "title": "https://www.youtube.com/watch?v=d6zirdtpzJI",
+            "url": "https://www.youtube.com/watch?v=d6zirdtpzJI"
+          },
+          {
+            "title": "https://www.youtube.com/watch?v=rhVlJDH3pTE",
+            "url": "https://www.youtube.com/watch?v=rhVlJDH3pTE"
+          },
+          {
+            "title": "https://www.youtube.com/watch?v=_Ol5Q12G7P4",
+            "url": "https://www.youtube.com/watch?v=_Ol5Q12G7P4"
+          },
+          {
+            "title": "https://www.systemicdesigntoolkit.org/download",
+            "url": "https://www.systemicdesigntoolkit.org/download"
+          },
+          {
+            "title": "https://www.systemicdesigntoolkit.org/book",
+            "url": "https://www.systemicdesigntoolkit.org/book"
+          },
+          {
+            "title": "https://doi.org/10.1146/annurev.es.04.110173.000245",
+            "url": "https://doi.org/10.1146/annurev.es.04.110173.000245"
+          },
+          {
+            "title": "https://pure.iiasa.ac.at/id/eprint/26/",
+            "url": "https://pure.iiasa.ac.at/id/eprint/26/"
+          },
+          {
+            "title": "https://doi.org/10.5751/ES-13374-270321",
+            "url": "https://doi.org/10.5751/ES-13374-270321"
+          },
+          {
+            "title": "https://www.resalliance.org/discussion-papers",
+            "url": "https://www.resalliance.org/discussion-papers"
+          },
+          {
+            "title": "https://doi.org/10.1002/sres.998",
+            "url": "https://doi.org/10.1002/sres.998"
+          },
+          {
+            "title": "https://doi.org/10.1016/S2542-5196(22)00305-9",
+            "url": "https://doi.org/10.1016/S2542-5196(22)00305-9"
+          },
+          {
+            "title": "https://doi.org/10.3138/9781487524142.007",
+            "url": "https://doi.org/10.3138/9781487524142.007"
+          },
+          {
+            "title": "https://doi.org/10.1002/sres.715",
+            "url": "https://doi.org/10.1002/sres.715"
+          },
+          {
+            "title": "https://doi.org/10.1287/mnsc.2.3.197",
+            "url": "https://doi.org/10.1287/mnsc.2.3.197"
+          },
+          {
+            "title": "https://doi.org/10.1007/978-1-4471-7475-2_7",
+            "url": "https://doi.org/10.1007/978-1-4471-7475-2_7"
+          }
+        ]
+      },
+      {
+        "number": 9,
+        "title": "Examine boundaries and participation",
+        "summary": "Critical systems practice, boundary critique, systemic intervention, and dialogue.",
+        "exercise": "Who can change the purpose, and who bears consequences without that authority?",
+        "source_url": "https://coevolving.com/ocadu/202601-sfin-6011/pro-forma/Whole_2026_SFIN6011_pro-forma_v0101a.html#Module_09",
+        "links": [
+          {
+            "title": "https://doi.org/10.1007/978-1-4471-7472-1_6",
+            "url": "https://doi.org/10.1007/978-1-4471-7472-1_6"
+          },
+          {
+            "title": "https://www.wiley.com/en-ca/Critical+Systems+Thinking+and+the+Management+of+Complexity-p-9781119118398",
+            "url": "https://www.wiley.com/en-ca/Critical+Systems+Thinking+and+the+Management+of+Complexity-p-9781119118398"
+          },
+          {
+            "title": "https://ocadu.alma.exlibrisgroup.com/leganto/public/01OCUL_OCAD/citation/3081327610007481?auth=SAML",
+            "url": "https://ocadu.alma.exlibrisgroup.com/leganto/public/01OCUL_OCAD/citation/3081327610007481?auth=SAML"
+          },
+          {
+            "title": "https://doi.org/10.1002/sres.2746",
+            "url": "https://doi.org/10.1002/sres.2746"
+          },
+          {
+            "title": "https://www.researchgate.net/publication/344363189_Critical_systems_practice_1_Explore-Starting_a_multimethodological_intervention",
+            "url": "https://www.researchgate.net/publication/344363189_Critical_systems_practice_1_Explore-Starting_a_multimethodological_intervention"
+          },
+          {
+            "title": "https://doi.org/10.4135/9781473921290",
+            "url": "https://doi.org/10.4135/9781473921290"
+          },
+          {
+            "title": "https://www.researchgate.net/publication/309153397_Systemic_Intervention",
+            "url": "https://www.researchgate.net/publication/309153397_Systemic_Intervention"
+          },
+          {
+            "title": "https://doi.org/10.1007/978-1-4471-7475-2_17",
+            "url": "https://doi.org/10.1007/978-1-4471-7475-2_17"
+          },
+          {
+            "title": "https://doi.org/10.1007/978-4-431-55639-8_1",
+            "url": "https://doi.org/10.1007/978-4-431-55639-8_1"
+          },
+          {
+            "title": "https://www.researchgate.net/publication/330607794_Contexts_of_Co-creation_Designing_with_System_Stakeholders_Theory_Methods_and_Practice",
+            "url": "https://www.researchgate.net/publication/330607794_Contexts_of_Co-creation_Designing_with_System_Stakeholders_Theory_Methods_and_Practice"
+          },
+          {
+            "title": "https://doi.org/10.1002/sres.2971",
+            "url": "https://doi.org/10.1002/sres.2971"
+          },
+          {
+            "title": "https://doi.org/10.1016/0263-2373(96)00028-X",
+            "url": "https://doi.org/10.1016/0263-2373(96)00028-X"
+          },
+          {
+            "title": "https://www.academia.edu/80280498/Team_syntegrity_A_new_methodology_for_group_work",
+            "url": "https://www.academia.edu/80280498/Team_syntegrity_A_new_methodology_for_group_work"
+          },
+          {
+            "title": "http://constructivist.info/11/1/042",
+            "url": "http://constructivist.info/11/1/042"
+          },
+          {
+            "title": "https://www.researchgate.net/publication/284738114_The_Banathy_Conversation_Methodology",
+            "url": "https://www.researchgate.net/publication/284738114_The_Banathy_Conversation_Methodology"
+          },
+          {
+            "title": "https://www.youtube.com/watch?v=zJZDIA5UCxw",
+            "url": "https://www.youtube.com/watch?v=zJZDIA5UCxw"
+          },
+          {
+            "title": "https://www.youtube.com/watch?v=lzou4syVyzE",
+            "url": "https://www.youtube.com/watch?v=lzou4syVyzE"
+          },
+          {
+            "title": "https://vimeo.com/189864748",
+            "url": "https://vimeo.com/189864748"
+          },
+          {
+            "title": "https://www.youtube.com/watch?v=tTN_9mJIWNw",
+            "url": "https://www.youtube.com/watch?v=tTN_9mJIWNw"
+          },
+          {
+            "title": "https://vimeo.com/189999777",
+            "url": "https://vimeo.com/189999777"
+          },
+          {
+            "title": "https://www.systemicdesigntoolkit.org/download",
+            "url": "https://www.systemicdesigntoolkit.org/download"
+          },
+          {
+            "title": "https://www.systemicdesigntoolkit.org/book",
+            "url": "https://www.systemicdesigntoolkit.org/book"
+          },
+          {
+            "title": "https://doi.org/10.1002/sres.1020",
+            "url": "https://doi.org/10.1002/sres.1020"
+          },
+          {
+            "title": "https://www.researchgate.net/publication/230157929_Reflections_on_the_Development_and_Contribution_of_Critical_Systems_Thinking_and_Practice",
+            "url": "https://www.researchgate.net/publication/230157929_Reflections_on_the_Development_and_Contribution_of_Critical_Systems_Thinking_and_Practice"
+          },
+          {
+            "title": "https://doi.org/10.1002/sres.2909",
+            "url": "https://doi.org/10.1002/sres.2909"
+          },
+          {
+            "title": "https://www.researchgate.net/publication/364075558_Critical_systems_practice_3_Intervene-Flexibly_executing_a_multimethodological_intervention",
+            "url": "https://www.researchgate.net/publication/364075558_Critical_systems_practice_3_Intervene-Flexibly_executing_a_multimethodological_intervention"
+          },
+          {
+            "title": "https://doi.org/10.1002/sres.2912",
+            "url": "https://doi.org/10.1002/sres.2912"
+          },
+          {
+            "title": "https://www.researchgate.net/publication/364301177_Critical_systems_practice_4_Check-Evaluating_and_reflecting_on_a_multimethodological_intervention",
+            "url": "https://www.researchgate.net/publication/364301177_Critical_systems_practice_4_Check-Evaluating_and_reflecting_on_a_multimethodological_intervention"
+          },
+          {
+            "title": "https://doi.org/10.1007/978-981-13-0370-8_7-1",
+            "url": "https://doi.org/10.1007/978-981-13-0370-8_7-1"
+          },
+          {
+            "title": "https://www.researchgate.net/publication/333118236_Critical_Systems_Thinking_Systemic_Intervention_and_Beyond",
+            "url": "https://www.researchgate.net/publication/333118236_Critical_Systems_Thinking_Systemic_Intervention_and_Beyond"
+          },
+          {
+            "title": "https://doi.org/10.1007/BF01059855",
+            "url": "https://doi.org/10.1007/BF01059855"
+          },
+          {
+            "title": "https://www.academia.edu/23198804/Ulrich_W_1988_Systems_thinking_systems_practice_and_practical_philosophy_a_program_of_research",
+            "url": "https://www.academia.edu/23198804/Ulrich_W_1988_Systems_thinking_systems_practice_and_practical_philosophy_a_program_of_research"
+          },
+          {
+            "title": "http://dx.doi.org/10.1007/978-1-84882-525-3_17",
+            "url": "http://dx.doi.org/10.1007/978-1-84882-525-3_17"
+          },
+          {
+            "title": "https://doi.org/10.1016/j.techfore.2013.08.016",
+            "url": "https://doi.org/10.1016/j.techfore.2013.08.016"
+          },
+          {
+            "title": "https://www.researchgate.net/publication/262564679_Collaborative_foresight_Complementing_long-horizon_strategic_planning",
+            "url": "https://www.researchgate.net/publication/262564679_Collaborative_foresight_Complementing_long-horizon_strategic_planning"
+          },
+          {
+            "title": "https://doi.org/10.1002/sres.3006",
+            "url": "https://doi.org/10.1002/sres.3006"
+          },
+          {
+            "title": "https://www.researchgate.net/publication/379547678_Assessing_the_viability_of_virtual_structured_democratic_dialogue",
+            "url": "https://www.researchgate.net/publication/379547678_Assessing_the_viability_of_virtual_structured_democratic_dialogue"
+          },
+          {
+            "title": "http://journals.isss.org/index.php/proceedings50th/article/viewArticle/307",
+            "url": "http://journals.isss.org/index.php/proceedings50th/article/viewArticle/307"
+          }
+        ]
+      },
+      {
+        "number": 10,
+        "title": "Learn across traditions",
+        "summary": "Systems Changes Learning, pacing, and Indigenous contributions.",
+        "exercise": "What responsibilities accompany borrowing a practice from another tradition?",
+        "source_url": "https://coevolving.com/ocadu/202601-sfin-6011/pro-forma/Whole_2026_SFIN6011_pro-forma_v0101a.html#Module_10",
+        "links": [
+          {
+            "title": "https://systemsorienteddesign.net/timelines-scenarios-stories/",
+            "url": "https://systemsorienteddesign.net/timelines-scenarios-stories/"
+          },
+          {
+            "title": "https://doi.org/10.54808/JSCI.20.07.11",
+            "url": "https://doi.org/10.54808/JSCI.20.07.11"
+          },
+          {
+            "title": "https://coevolving.com/commons/2023-02-recasting-and-reifying-rhythmic-shifts",
+            "url": "https://coevolving.com/commons/2023-02-recasting-and-reifying-rhythmic-shifts"
+          },
+          {
+            "title": "https://coevolving.com/blogs/index.php/archive/systems-thinking-through-changes/",
+            "url": "https://coevolving.com/blogs/index.php/archive/systems-thinking-through-changes/"
+          },
+          {
+            "title": "https://doi.org/10.1080/26395916.2025.2469859",
+            "url": "https://doi.org/10.1080/26395916.2025.2469859"
+          },
+          {
+            "title": "https://doi.org/10.1080/26395916.2024.2370539",
+            "url": "https://doi.org/10.1080/26395916.2024.2370539"
+          },
+          {
+            "title": "https://doi.org/10.47061/jabsc.v1i1.577",
+            "url": "https://doi.org/10.47061/jabsc.v1i1.577"
+          },
+          {
+            "title": "https://coevolving.com/blogs/index.php/archive/pacing-changes-scio-finland/",
+            "url": "https://coevolving.com/blogs/index.php/archive/pacing-changes-scio-finland/"
+          },
+          {
+            "title": "https://coevolving.com/blogs/index.php/archive/from-unfreezing-refreezing-eq-lab/",
+            "url": "https://coevolving.com/blogs/index.php/archive/from-unfreezing-refreezing-eq-lab/"
+          },
+          {
+            "title": "https://coevolving.com/blogs/index.php/archive/yinyang-and-daojia-into-systems-thinking/",
+            "url": "https://coevolving.com/blogs/index.php/archive/yinyang-and-daojia-into-systems-thinking/"
+          },
+          {
+            "title": "https://www.youtube.com/watch?v=ncLv9Gk7XrI",
+            "url": "https://www.youtube.com/watch?v=ncLv9Gk7XrI"
+          },
+          {
+            "title": "https://www.youtube.com/watch?v=HvxkawMpjE0",
+            "url": "https://www.youtube.com/watch?v=HvxkawMpjE0"
+          },
+          {
+            "title": "https://www.youtube.com/watch?v=Ge95e05vfUQ",
+            "url": "https://www.youtube.com/watch?v=Ge95e05vfUQ"
+          },
+          {
+            "title": "https://doi.org/10.25918/thesis.194",
+            "url": "https://doi.org/10.25918/thesis.194"
+          },
+          {
+            "title": "https://ceur-ws.org/Vol-3857/",
+            "url": "https://ceur-ws.org/Vol-3857/"
+          },
+          {
+            "title": "https://coevolving.com/commons/2024-08-reifying-socio-technical-socio-ecological-stpis",
+            "url": "https://coevolving.com/commons/2024-08-reifying-socio-technical-socio-ecological-stpis"
+          },
+          {
+            "title": "https://ebookcentral.proquest.com/lib/oculocad-ebooks/reader.action?docID=166183&ppg=204&c=UERG",
+            "url": "https://ebookcentral.proquest.com/lib/oculocad-ebooks/reader.action?docID=166183&ppg=204&c=UERG"
+          },
+          {
+            "title": "https://doi.org/10.1111/1467-9655.12541",
+            "url": "https://doi.org/10.1111/1467-9655.12541"
+          },
+          {
+            "title": "https://doi.org/10.5406/21543682.53.1.02",
+            "url": "https://doi.org/10.5406/21543682.53.1.02"
+          },
+          {
+            "title": "https://www.researchgate.net/publication/380260265_Sand_Talk_Process_Philosophy_and_Indigenous_Knowledges",
+            "url": "https://www.researchgate.net/publication/380260265_Sand_Talk_Process_Philosophy_and_Indigenous_Knowledges"
+          },
+          {
+            "title": "https://doi.org/10.1177/00076503251356471",
+            "url": "https://doi.org/10.1177/00076503251356471"
+          }
+        ]
+      },
+      {
+        "number": 11,
+        "title": "Review a synthesis, first round",
+        "summary": "Draft synthesis-map review and development.",
+        "exercise": "Ask another group to interpret a relationship without your explanation.",
+        "source_url": "https://coevolving.com/ocadu/202601-sfin-6011/pro-forma/Whole_2026_SFIN6011_pro-forma_v0101a.html#Module_11",
+        "links": []
+      },
+      {
+        "number": 12,
+        "title": "Review a synthesis, second round",
+        "summary": "Further synthesis-map review and development.",
+        "exercise": "Record what changed after criticism and what disagreement remains.",
+        "source_url": "https://coevolving.com/ocadu/202601-sfin-6011/pro-forma/Whole_2026_SFIN6011_pro-forma_v0101a.html#Module_12",
+        "links": []
+      }
+    ],
+    "method_links": [
+      [
+        "method_lg26_systemic_design",
+        1
+      ],
+      [
+        "concept_unfix_causal_loop_diagrams",
+        4
+      ],
+      [
+        "tool_rich_picture",
+        5
+      ],
+      [
+        "method_or_methodology_soft_systems_methodology_ssm",
+        5
+      ],
+      [
+        "concept_double_bind",
+        7
+      ],
+      [
+        "method_or_methodology_viable_system_model_vsm",
+        7
+      ],
+      [
+        "concept_boundary_critique",
+        9
+      ],
+      [
+        "method_or_methodology_critical_systems_heuristics_csh",
+        9
+      ],
+      [
+        "approach_family_systems_changes_learning",
+        10
+      ]
+    ]
+  },
+  "training": [
+    {
+      "id": "necessary-tangle",
+      "title": "Systems practice laboratory",
+      "provider": "The Necessary Tangle",
+      "url": "/systems-thinking/practice/",
+      "access": "Open materials",
+      "format": "Self-study",
+      "topic": "practice",
+      "summary": "Worked examples, exercises, and feedback across systems methods.",
+      "checked": "2026-10-08"
+    },
+    {
+      "id": "leading-transformation",
+      "title": "Leading Transformation: both module sequences",
+      "provider": "The Necessary Tangle / PSTA",
+      "url": "/learning/leading-transformation/",
+      "access": "Open materials",
+      "format": "Curriculum guide",
+      "topic": "public services",
+      "summary": "Original and revised 24-module structures, with an explicit crosswalk.",
+      "checked": "2026-10-08"
+    },
+    {
+      "id": "ocad",
+      "title": "Understanding Systems pro forma",
+      "provider": "David Ing / OCAD",
+      "url": "/corpora/ing-ocad/",
+      "access": "Open materials",
+      "format": "Curriculum guide",
+      "topic": "design",
+      "summary": "Twelve modules, source links, and editorial inquiry prompts; not an enrolment notice.",
+      "checked": "2026-10-08"
+    },
+    {
+      "id": "scio",
+      "title": "Systems practice professional development",
+      "provider": "SCiO",
+      "url": "https://www.systemspractice.org/professional-development",
+      "access": "Provider terms",
+      "format": "Courses and recordings",
+      "topic": "practice",
+      "summary": "Methods and intervention courses. Check the provider for current cohorts, recordings, and charges.",
+      "checked": "2026-10-08"
+    },
+    {
+      "id": "scio-resources",
+      "title": "SCiO resources",
+      "provider": "SCiO",
+      "url": "https://www.systemspractice.org/resources",
+      "access": "Mixed access",
+      "format": "Talks and resources",
+      "topic": "practice",
+      "summary": "Public and member resources; use source categories to inspect availability.",
+      "checked": "2026-10-08"
+    },
+    {
+      "id": "psta-lt",
+      "title": "Leading Transformation",
+      "provider": "PSTA",
+      "url": "https://www.publicservicetransformation.org/programmes/leading-transformation/",
+      "access": "Provider terms",
+      "format": "Programme",
+      "topic": "public services",
+      "summary": "Capability development for public service transformation; current arrangements belong to the provider.",
+      "checked": "2026-10-08"
+    },
+    {
+      "id": "psta-ca",
+      "title": "National Commissioning Academy",
+      "provider": "PSTA",
+      "url": "https://www.publicservicetransformation.org/programmes/national-commissioning-academy/",
+      "access": "Provider terms",
+      "format": "Programme",
+      "topic": "public services",
+      "summary": "A route into commissioning practice and capability.",
+      "checked": "2026-10-08"
+    },
+    {
+      "id": "psta-ci",
+      "title": "Commissioning and innovation",
+      "provider": "PSTA",
+      "url": "https://www.publicservicetransformation.org/programmes/commissioning-and-innovation/",
+      "access": "Provider terms",
+      "format": "Programme",
+      "topic": "public services",
+      "summary": "Commissioning, innovation, and learning in public services.",
+      "checked": "2026-10-08"
+    },
+    {
+      "id": "psta-inhouse",
+      "title": "In-house programmes",
+      "provider": "PSTA",
+      "url": "https://www.publicservicetransformation.org/in-house/",
+      "access": "Provider terms",
+      "format": "Organisation programme",
+      "topic": "public services",
+      "summary": "Programmes developed with organisations and partnerships.",
+      "checked": "2026-10-08"
+    },
+    {
+      "id": "rq",
+      "title": "Training and development",
+      "provider": "RedQuadrant",
+      "url": "https://www.redquadrant.com/training-and-development/",
+      "access": "Provider terms",
+      "format": "Organisation programme",
+      "topic": "practice",
+      "summary": "Consultancy and training routes; catalogue and arrangements are maintained by RedQuadrant.",
+      "checked": "2026-10-08"
+    },
+    {
+      "id": "rq-tools",
+      "title": "Toolshed",
+      "provider": "RedQuadrant",
+      "url": "https://www.redquadrant.com/toolshed/",
+      "access": "Mixed access",
+      "format": "Tools and resources",
+      "topic": "practice",
+      "summary": "Practical resources; inspect the individual resource and its conditions.",
+      "checked": "2026-10-08"
+    },
+    {
+      "id": "complexity",
+      "title": "Complexity Explorer",
+      "provider": "Santa Fe Institute",
+      "url": "https://www.complexityexplorer.org/courses",
+      "access": "Free courses listed",
+      "format": "Online courses",
+      "topic": "complexity",
+      "summary": "Self-paced courses and scheduled cohorts. Dates and tutorial availability vary.",
+      "checked": "2026-10-08"
+    },
+    {
+      "id": "openlearn",
+      "title": "Mastering systems thinking in practice",
+      "provider": "Open University",
+      "url": "https://www.open.edu/openlearn/science-maths-technology/mastering-systems-thinking-practice/",
+      "access": "Free",
+      "format": "Self-study",
+      "topic": "practice",
+      "summary": "An open course introducing systems thinking in practice; follow the current course page.",
+      "checked": "2026-10-08"
+    },
+    {
+      "id": "ou-resources",
+      "title": "Systems thinking in practice resources",
+      "provider": "Open University",
+      "url": "https://www5.open.ac.uk/stem/engineering-and-innovation/teaching/systems-thinking-practice/systems-thinking-practice-resources",
+      "access": "Mixed access",
+      "format": "University resources",
+      "topic": "practice",
+      "summary": "Open learning routes alongside formal study options; distinguish course access from credit-bearing enrolment.",
+      "checked": "2026-10-08"
+    },
+    {
+      "id": "isss",
+      "title": "ISSS education resources",
+      "provider": "ISSS",
+      "url": "/learning/isss/",
+      "access": "Open bibliography",
+      "format": "Resource guide",
+      "topic": "systems science",
+      "summary": "Software, training leads, and a classified reading list. Listing does not establish current availability.",
+      "checked": "2026-10-08"
+    },
+    {
+      "id": "isss-home",
+      "title": "ISSS learning collections",
+      "provider": "ISSS",
+      "url": "https://www.isss.org/home/",
+      "access": "Mixed access",
+      "format": "Society resources",
+      "topic": "systems science",
+      "summary": "Routes to proceedings, the primer, wiki, and contributed learning maps.",
+      "checked": "2026-10-08"
+    },
+    {
+      "id": "ru",
+      "title": "Researcher modules",
+      "provider": "Rational Understanding",
+      "url": "/reading/researcher-modules/",
+      "access": "Open reading",
+      "format": "Self-study",
+      "topic": "systems science",
+      "summary": "Five source-based guides with explicit limits on translation between fields.",
+      "checked": "2026-10-08"
+    }
+  ],
+  "isss": {
+    "url": "https://www.isss.org/students/",
+    "status": "Bibliography and resource list read; listed books and articles have not all been read. Source spellings and edition ambiguities remain reviewable.",
+    "readings": [
+      {
+        "category": "General overviews of systems methods",
+        "citation": "Garson, G. D. 2009. Computerized simulation in the social sciences: A survey and evaluation. Simulation & Gaming 40.2: 267–279.",
+        "links": [],
+        "status": "Bibliographic lead; full-text review pending"
+      },
+      {
+        "category": "General overviews of systems methods",
+        "citation": "Gilbert, N., and K. G. Troitzsch. 1999. Simulation for the social scientist. Philadelphia: Open Univ. Press.",
+        "links": [],
+        "status": "Bibliographic lead; full-text review pending"
+      },
+      {
+        "category": "General overviews of systems methods",
+        "citation": "Lansing, J. S. 2003. Complex adaptive systems. Annual Review of Anthropology 32:183–204.",
+        "links": [],
+        "status": "Bibliographic lead; full-text review pending"
+      },
+      {
+        "category": "General overviews of systems methods",
+        "citation": "Miller, J. H., and S. E. Page. 2007. Complex adaptive systems: An introduction to computational models of social life. Princeton, NJ: Princeton Univ. Press.",
+        "links": [],
+        "status": "Bibliographic lead; full-text review pending"
+      },
+      {
+        "category": "General overviews of systems methods",
+        "citation": "Mitchell, M. 2011. Complexity: A guided tour. New York: Oxford Univ. Press.",
+        "links": [],
+        "status": "Bibliographic lead; full-text review pending"
+      },
+      {
+        "category": "General overviews of systems methods",
+        "citation": "Shalizi, C. R. 2006. Methods and techniques of complex systems science: An overview. In Complex systems science in biomedicine . Edited by T. S. Deisboeck and J. Yasha Kresh, 33–114. New York: Springer.",
+        "links": [],
+        "status": "Bibliographic lead; full-text review pending"
+      },
+      {
+        "category": "Modelling methods",
+        "citation": "de Savigny, D., and T. Adam, eds. 2009. Systems thinking for health systems strengthening. Geneva, Switzerland: World Health Organization.",
+        "links": [],
+        "status": "Bibliographic lead; full-text review pending"
+      },
+      {
+        "category": "Modelling methods",
+        "citation": "Epstein, J. M. & Axtell, R. (1996). Growing Artificial Societies: Social Science from the Bottom Up. Washington, DC: The Brookings Institution.",
+        "links": [],
+        "status": "Bibliographic lead; full-text review pending"
+      },
+      {
+        "category": "Modelling methods",
+        "citation": "Finegood, D. T., L. Johnston, P. Giabbanelli, et al. 2012. Complexity and systems theory . Oxford Bibliographies: Public Health. New York: Oxford Univ. Press.",
+        "links": [
+          "http://www.oxfordbibliographies.com/view/document/obo-9780199756797/obo-9780199756797-0049.xml"
+        ],
+        "status": "Bibliographic lead; full-text review pending"
+      },
+      {
+        "category": "Modelling methods",
+        "citation": "Galea, S., M. Riddle, and G. A. Kaplan. 2010. Causal thinking and complex system approaches in epidemiology. International Journal of Epidemiology 39:97–106.",
+        "links": [],
+        "status": "Bibliographic lead; full-text review pending"
+      },
+      {
+        "category": "Modelling methods",
+        "citation": "Gilbert, N. & Troitzsch, Klaus G. (2005) Simulation for the Social Scientist . (Second Edition). New York: Open University Press.",
+        "links": [],
+        "status": "Bibliographic lead; full-text review pending"
+      },
+      {
+        "category": "Modelling methods",
+        "citation": "Heppenstall, A. J., Crooks, A. T., See, L. M., Batty, M. (Eds.) (2012). Agent-Based Models of Geographical Systems . Dordrecht: Springer.",
+        "links": [],
+        "status": "Bibliographic lead; full-text review pending"
+      },
+      {
+        "category": "Modelling methods",
+        "citation": "Janssen, M.A. (2015). Introduction to Agent Based Modeling.",
+        "links": [],
+        "status": "Bibliographic lead; full-text review pending"
+      },
+      {
+        "category": "Modelling methods",
+        "citation": "Leischow, S. J., A. Best, W. M. Trochim, et al. 2008. Systems thinking to improve the public’s health. American Journal of Preventive Medicine 35.2: S196–S203.",
+        "links": [],
+        "status": "Bibliographic lead; full-text review pending"
+      },
+      {
+        "category": "Modelling methods",
+        "citation": "Luke, D. A., and K. A. Stamatakis. 2012. Systems science methods in public health: Dynamics, networks and agents. Annual Review of Public Health 33:357–376.",
+        "links": [],
+        "status": "Bibliographic lead; full-text review pending"
+      },
+      {
+        "category": "Modelling methods",
+        "citation": "Norman, C. D. 2009. Health promotion as a systems science and practice. Journal of Evaluation in Clinical Practice 15.5: 868–872.",
+        "links": [],
+        "status": "Bibliographic lead; full-text review pending"
+      },
+      {
+        "category": "Modelling methods",
+        "citation": "Plsek, P. E., and T. Greenhalgh. 2001. The challenge of complexity in health care. British Medical Journal 323:625–628.",
+        "links": [],
+        "status": "Bibliographic lead; full-text review pending"
+      },
+      {
+        "category": "Modelling methods",
+        "citation": "Railsback, S. F. & Grimm, V. (2012). Agent-Based and Individual-Based Modeling . Princeton: Princeton University Press.",
+        "links": [],
+        "status": "Bibliographic lead; full-text review pending"
+      },
+      {
+        "category": "Modelling methods",
+        "citation": "Shoham, Y. & Leyton-Brown, K. (2009). Multiagent Systems: Algorithmic, Game-Theoretic, and Logical Foundations . New York: Cambridge University Press.",
+        "links": [],
+        "status": "Bibliographic lead; full-text review pending"
+      },
+      {
+        "category": "Modelling methods",
+        "citation": "Weiss, G. (Ed.) (1999). Multiagent Systems: A Modern Approach to Distributed Artificial Intelligence . Cambridge, MA: The MIT Press.",
+        "links": [],
+        "status": "Bibliographic lead; full-text review pending"
+      },
+      {
+        "category": "Modelling methods",
+        "citation": "Wilensky, U. & Rand, W. (2015). An Introduction to Agent-Based Modeling: Modeling Natural, Social, and Engineered Complex Systems with NetLogo . Cambridge, MA: The MIT Press.",
+        "links": [],
+        "status": "Bibliographic lead; full-text review pending"
+      },
+      {
+        "category": "Modelling methods",
+        "citation": "Willis, C. D., C. Mitton, J. Gordon, and A. Best. 2012. Systems tools for systems change. BMJ Quality and Safety 21.3: 250–262.",
+        "links": [],
+        "status": "Bibliographic lead; full-text review pending"
+      },
+      {
+        "category": "Agent-based models",
+        "citation": "Auchincloss, A. H., and A. V. Diez Roux. 2008. A new tool for epidemiology: The usefulness of dynamic-agent models in understanding place effects on health. American Journal of Epidemiology 168.1: 1–8.",
+        "links": [],
+        "status": "Bibliographic lead; full-text review pending"
+      },
+      {
+        "category": "Agent-based models",
+        "citation": "Berk, R. 2008. How you can tell if the simulations in computational criminology are any good. Journal of Experimental Criminology 4:289–308.",
+        "links": [],
+        "status": "Bibliographic lead; full-text review pending"
+      },
+      {
+        "category": "Agent-based models",
+        "citation": "Epstein, J. M. 2006. Generative social science: Studies in agent-based computational modeling. Princeton, NJ: Princeton Univ. Press.",
+        "links": [],
+        "status": "Bibliographic lead; full-text review pending"
+      },
+      {
+        "category": "Agent-based models",
+        "citation": "Galea, S., C. Hall, and G. A. Kaplan. 2008. Social epidemiology and complex system dynamic modeling as applied to health behavior and drug use research. International Journal of Drug Policy 20.3: 209–216.",
+        "links": [],
+        "status": "Bibliographic lead; full-text review pending"
+      },
+      {
+        "category": "Agent-based models",
+        "citation": "Gilbert, N. 2008. Agent-based models. Thousand Oaks, CA: SAGE.",
+        "links": [],
+        "status": "Bibliographic lead; full-text review pending"
+      },
+      {
+        "category": "Agent-based models",
+        "citation": "Grimm, V., U. Berger, F. Bastiansen, et al. 2006. A standard protocol for describing individual-based and agent-based models. Ecological Modeling 198:115–126.",
+        "links": [],
+        "status": "Bibliographic lead; full-text review pending"
+      },
+      {
+        "category": "Agent-based models",
+        "citation": "Israel, N., and M. Wolf-Branigin. 2011. Nonlinearity in social service evaluation: A primer on agent-based modeling. Social Work Research 35.1: 20–24.",
+        "links": [],
+        "status": "Bibliographic lead; full-text review pending"
+      },
+      {
+        "category": "Agent-based models",
+        "citation": "Railsback, S. F., and V. Grimm. 2012. Agent-based and individual-based modeling: A practical introduction. Princeton, NJ: Princeton Univ. Press.",
+        "links": [],
+        "status": "Bibliographic lead; full-text review pending"
+      },
+      {
+        "category": "Social network models",
+        "citation": "Borgatti, S. P., A. Mehra, D. J. Brass, and G. Labianca. 2009. Network analysis in the social sciences. Science Magazine 323:892–895.",
+        "links": [],
+        "status": "Bibliographic lead; full-text review pending"
+      },
+      {
+        "category": "Social network models",
+        "citation": "Christakis, N. A., and J. H. Fowler. 2009. Social network visualization in epidemiology. Norsk Epidemiology 19.1: 5–16.",
+        "links": [],
+        "status": "Bibliographic lead; full-text review pending"
+      },
+      {
+        "category": "Social network models",
+        "citation": "Hawe, P., C. Webster, and A. Shiell. 2004. A glossary of terms for navigating the field of social network analysis. Journal of Epidemiological and Community Health 58:971–975.",
+        "links": [],
+        "status": "Bibliographic lead; full-text review pending"
+      },
+      {
+        "category": "Social network models",
+        "citation": "Knoke, D., and S. Yang. 2008. Social network analysis. 2nd ed. Thousand Oaks, CA: SAGE.",
+        "links": [],
+        "status": "Bibliographic lead; full-text review pending"
+      },
+      {
+        "category": "Social network models",
+        "citation": "Luke, D. A., and J. K. Harris. 2007. Social network analysis in public health: History, methods, and applications. Annual Review of Public Health 28:69–93.",
+        "links": [],
+        "status": "Bibliographic lead; full-text review pending"
+      },
+      {
+        "category": "Social network models",
+        "citation": "Smith, K. P., and N. A. Christakis. 2008. Social networks and health. Annual Review of Sociology 34:405–429.",
+        "links": [],
+        "status": "Bibliographic lead; full-text review pending"
+      },
+      {
+        "category": "Social network models",
+        "citation": "Valente, T. W. 2010. Social networks and health: Models, methods, and applications. New York: Oxford Univ. Press.",
+        "links": [],
+        "status": "Bibliographic lead; full-text review pending"
+      },
+      {
+        "category": "Social network models",
+        "citation": "Wasserman, S., and K. Faust. 1994. Social network analysis: Methods and applications. New York: Cambridge Univ. Press.",
+        "links": [],
+        "status": "Bibliographic lead; full-text review pending"
+      },
+      {
+        "category": "System dynamics models",
+        "citation": "Forrester, J. W. 2007. System dynamics—a personal view of the first fifty years. System Dynamics Review 23.2–3: 345–358.",
+        "links": [],
+        "status": "Bibliographic lead; full-text review pending"
+      },
+      {
+        "category": "System dynamics models",
+        "citation": "Groesser, S. N., and M. Schwaninger. 2012. Contributions to model validation: Hierarchy, process, and cessation. System Dynamics Review 28.2: 157–181.",
+        "links": [],
+        "status": "Bibliographic lead; full-text review pending"
+      },
+      {
+        "category": "System dynamics models",
+        "citation": "Homer, J. B., and G. B. Hirsch. 2006. System dynamics modeling for public health: Background and opportunities. American Journal of Public Health 3:452–458.",
+        "links": [],
+        "status": "Bibliographic lead; full-text review pending"
+      },
+      {
+        "category": "System dynamics models",
+        "citation": "Rahmandad, H., and J. D. Sterman. 2012. Reporting guidelines for simulation-based research in social sciences. System Dynamics Review 28.4: 396–411.",
+        "links": [],
+        "status": "Bibliographic lead; full-text review pending"
+      },
+      {
+        "category": "System dynamics models",
+        "citation": "Richardson, G. P. 1991. Feedback thought in social science and systems theory. Waltham, MA: Pegasus.",
+        "links": [],
+        "status": "Bibliographic lead; full-text review pending"
+      },
+      {
+        "category": "System dynamics models",
+        "citation": "Sterman, J. D. 2000. Business dynamics: Systems thinking and modeling for a complex world. Boston: McGraw Hill.",
+        "links": [],
+        "status": "Bibliographic lead; full-text review pending"
+      },
+      {
+        "category": "System dynamics models",
+        "citation": "Sterman, J. D. 2006. Learning from evidence in a complex world. American Journal of Public Health 96.3: 505–514.",
+        "links": [],
+        "status": "Bibliographic lead; full-text review pending"
+      },
+      {
+        "category": "Underlying theoretical constructs",
+        "citation": "Cederman, L.-K. 2005. Computational models of social forms: Advancing generative process theory. American Journal of Sociology 110:864–893.",
+        "links": [],
+        "status": "Bibliographic lead; full-text review pending"
+      },
+      {
+        "category": "Underlying theoretical constructs",
+        "citation": "Centola, D., and M. Macy. 2007. Complex contagions and the weakness of long ties. American Journal of Sociology 113.3: 702–734.",
+        "links": [],
+        "status": "Bibliographic lead; full-text review pending"
+      },
+      {
+        "category": "Underlying theoretical constructs",
+        "citation": "Granovetter, M. S. 1973. The strength of weak ties. American Journal of Sociology 78.6: 1360–1380.",
+        "links": [],
+        "status": "Bibliographic lead; full-text review pending"
+      },
+      {
+        "category": "Underlying theoretical constructs",
+        "citation": "Groesser, S. N., and M. Schaffernicht. 2012. Mental models of dynamic systems: Taking stock and looking ahead. System Dynamics Review 28.1: 46–68.",
+        "links": [],
+        "status": "Bibliographic lead; full-text review pending"
+      },
+      {
+        "category": "Underlying theoretical constructs",
+        "citation": "Hedstrom, P., and P. Ylikoski. 2010. Causal mechanisms in the social sciences. Annual Review of Sociology 36:49–67.",
+        "links": [],
+        "status": "Bibliographic lead; full-text review pending"
+      },
+      {
+        "category": "Underlying theoretical constructs",
+        "citation": "Richardson, G. P. 2011. Reflections on the foundations of system dynamics. System Dynamics Review 27.3: 219–243.",
+        "links": [],
+        "status": "Bibliographic lead; full-text review pending"
+      },
+      {
+        "category": "Underlying theoretical constructs",
+        "citation": "Watts, D. J. 2004. The “new” science of networks. Annual Review of Sociology 30:243–270.",
+        "links": [],
+        "status": "Bibliographic lead; full-text review pending"
+      },
+      {
+        "category": "Underlying theoretical constructs",
+        "citation": "Wolstenholme, E. F. 1992. The definition and application of a stepwise approach to model conceptualisation and analysis. European Journal of Operational Research 59:123–136.",
+        "links": [],
+        "status": "Bibliographic lead; full-text review pending"
+      },
+      {
+        "category": "Comparing and combining methods",
+        "citation": "Bobashev, G. V., J. M. Epstein, D. M. Goedecke, and F. Yu. 2007. A hybrid epidemic model: Combining the advantages of agent- based and equation-based approaches. In Proceedings of the Winter Simulation Conference , 9–12 December 2007, Washington, DC. Edited by S. G. Henderson, N. Niller, M.-H. Hsieh, J. Shortle, J. D. Tew, and R. R. Barton, 1532–1537. New York: Association for Computing Machinery.",
+        "links": [
+          "http://www.informs-sim.org/wsc07papers/186.pdf"
+        ],
+        "status": "Bibliographic lead; full-text review pending"
+      },
+      {
+        "category": "Comparing and combining methods",
+        "citation": "Borshchev, A., and A. Filippov. 2004. From system dynamics and discrete event to practical agent based modeling: Reasons, techniques, tools. In Proceedings of the 22nd International Conference of the System Dynamics Society , 25–29 July 2004, Oxford, England. Edited by M. Kennedy, G. W. Winch, R. S. Langer, J. I. Rowe, and J. M. Yanni. Albany, NY: Systems Dynamics Society.",
+        "links": [
+          "http://www2.econ.iastate.edu/tesfatsi/systemdyndiscreteeventabmcompared.borshchevfilippov04.pdf"
+        ],
+        "status": "Bibliographic lead; full-text review pending"
+      },
+      {
+        "category": "Comparing and combining methods",
+        "citation": "El-Sayed, A., P. Scarborough, L. Seemann, and S. Galea. 2012. Social network analysis and agent-based modeling in social epidemiology. Epidemiologic Perspectives and Innovations 9:1.",
+        "links": [
+          "http://archive.biomedcentral.com/content/pdf/1742-5573-9-1.pdf"
+        ],
+        "status": "Bibliographic lead; full-text review pending"
+      },
+      {
+        "category": "Comparing and combining methods",
+        "citation": "Epstein, J. M., J. Parker, D. Cummings, and R. A. Hammond. 2008. Coupled dynamics of fear and disease: Mathematical and computational explorations. PLoS ONE 3.12: e3955.",
+        "links": [
+          "http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0003955"
+        ],
+        "status": "Bibliographic lead; full-text review pending"
+      }
+    ],
+    "resources": [
+      {
+        "title": "CoMSES Net's Job Board",
+        "url": "https://www.comses.net/jobs/"
+      },
+      {
+        "title": "Insight Maker",
+        "url": "https://insightmaker.com/"
+      },
+      {
+        "title": "MATLAB",
+        "url": "https://www.mathworks.com/products/matlab.html"
+      },
+      {
+        "title": "AnyLogic",
+        "url": "https://www.anylogic.com/"
+      },
+      {
+        "title": "Enthought Python Distribution",
+        "url": "http://www.enthought.com/products/epd.php"
+      },
+      {
+        "title": "NetLogo",
+        "url": "https://ccl.northwestern.edu/netlogo/"
+      },
+      {
+        "title": "Stella / iThink",
+        "url": "https://www.iseesystems.com/store/products/ithink.aspx"
+      },
+      {
+        "title": "Vensim",
+        "url": "https://vensim.com/"
+      },
+      {
+        "title": "Payjek",
+        "url": "http://vlado.fmf.uni-lj.si/pub/networks/pajek/"
+      },
+      {
+        "title": "RePast.",
+        "url": "http://repast.sourceforge.net/"
+      },
+      {
+        "title": "https://cadcad.org/",
+        "url": "https://cadcad.org/"
+      },
+      {
+        "title": "Santa Fe Institute",
+        "url": "https://www.santafe.edu/engage/learn/courses"
+      },
+      {
+        "title": "Model Thinking",
+        "url": "https://class.coursera.org/modelthinking/lecture/index"
+      },
+      {
+        "title": "Software Carpentry",
+        "url": "https://software-carpentry.org/workshops/"
+      },
+      {
+        "title": "Complexity Explorer",
+        "url": "https://www.complexityexplorer.org/courses"
+      },
+      {
+        "title": "CoMSES Net's Calendar",
+        "url": "http://www.comses.net/events/calendar/"
+      },
+      {
+        "title": "Complexity Weekend http://complexityweekend.com/",
+        "url": "http://complexityweekend.com/"
+      },
+      {
+        "title": "Computational Modeling Journals",
+        "url": "https://www.comses.net/resources/journals/"
+      },
+      {
+        "title": "Modeling Platforms",
+        "url": "https://www.comses.net/resources/modeling-platforms/"
+      },
+      {
+        "title": "Agent-based Model Documentation Protocol",
+        "url": "https://www.comses.net/resources/standards/ "
+      },
+      {
+        "title": "Guides to Good Practice",
+        "url": "https://www.comses.net/resources/guides-to-good-practice/"
+      },
+      {
+        "title": "CoMSES",
+        "url": "https://www.comses.net/codebases/"
+      },
+      {
+        "title": "Net Code Library",
+        "url": "https://www.comses.net/codebases/"
+      }
+    ]
+  },
+  "principles": [
+    [
+      "State what a map is for",
+      "A diagram is an argument made for a purpose and audience. Record its boundary, omissions, date, author, and intended use."
+    ],
+    [
+      "Let traditions overlap",
+      "Systems thinking, complexity, and cybernetics have overlapping histories and diverse internal positions. Do not turn a convenient region into a closed disciplinary border."
+    ],
+    [
+      "Explain every relationship",
+      "A line might record citation, teaching, collaboration, a formal dependence, or an author’s interpretation. Direction, evidence, and scope must travel with the line."
+    ],
+    [
+      "Keep alternatives inspectable",
+      "Readers should be able to change focus, filters, scale, and representation without losing their place. A textual account must remain available alongside a visual one."
+    ],
+    [
+      "Treat inheritance as a responsibility",
+      "Attribution is more than attaching a famous name. Attend to translation, borrowing, exclusion, recovery, and the conditions under which a practice is shared."
+    ],
+    [
+      "Distinguish absence from unimportance",
+      "Coverage reflects access, languages, source selection, and editorial effort. A sparse region is a research question, not proof of a peripheral tradition."
+    ],
+    [
+      "Compare without flattening",
+      "A shared word or similar shape does not establish equivalence. Keep domain-specific meanings and disagreements visible; justify each proposed correspondence."
+    ],
+    [
+      "Keep a map revisable",
+      "Expose corrections and uncertain interpretations. Preserve source maps separately from the atlas claims that further evidence may justify."
+    ]
+  ],
+  "principle_sources": [
+    {
+      "title": "Why I hope we could do better than the Castellani complexity map | Systems Community of Inquiry",
+      "url": "https://stream.syscoi.com/2019/12/21/why-i-hope-we-could-do-better-than-the-castellani-complexity-map/"
+    },
+    {
+      "title": "Bringing together some recent and old threads on #systemsthinking is #complexity is #cybernetics | Systems Community of Inquiry",
+      "url": "https://stream.syscoi.com/2020/04/21/bringing-together-some-reason-and-old-threads-on-systemsthinking-is-complexity-is-cybernetics/"
+    },
+    {
+      "title": "Lineages of Systems Practices - School of System Change",
+      "url": "https://www.schoolofsystemchange.org/blog/lineages-of-systems-practices"
+    }
+  ],
+  "maps": [
+    [
+      "Map of Systemic Evolution",
+      "Benjamin Hadorn",
+      "/prior-maps/systemic-evolution/",
+      "Source-owner-reviewed package preserved: 650 nodes and 1,320 source links. Existing reconciliation is not automatic equivalence.",
+      "Independent evidence for selected influences; further human reconciliation requires a finite cohort and named reviewer."
+    ],
+    [
+      "Map of the Complexity Sciences",
+      "Brian Castellani",
+      "/prior-maps/castellani/",
+      "307 outward destinations retained. This release records a fresh reachability check without changing source-published labels.",
+      "Review 28 alt/title disagreements and interpret destination mismatches; HTTP success does not settle accuracy."
+    ],
+    [
+      "Counted map",
+      "Public bibliometric comparator",
+      "/prior-maps/counted-map/",
+      "98 nodes and 1,856 aggregate signals remain a separate comparator.",
+      "Recover the lawful input manifest and missing shrink step before claiming independent reproducibility."
+    ],
+    [
+      "CoExplorer maps",
+      "CoExplorer source collections",
+      "/prior-maps/coexplorer/",
+      "Existing nine-source review preserves the distinction between article reading and individual entry verification.",
+      "Reconcile individual propositions only where their sources justify a controlled relation."
+    ],
+    [
+      "Lineages of systems practices",
+      "Laura Winn and Saskia Rysenbry",
+      "https://www.schoolofsystemchange.org/blog/lineages-of-systems-practices",
+      "The authors describe a situated, non-exhaustive visual exploration of overlapping currents and inheritances.",
+      "Keep its situated and non-exhaustive scope; do not impose precise dates on its currents."
+    ],
+    [
+      "Some streams of systemic thought",
+      "Eric Schwarz / IIGSS, May 2001",
+      "https://www.iigss.net/",
+      "Several available copies share this extracted heading, including filenames suggesting other authors. Filenames are insufficient evidence of authorship.",
+      "Locate the source image and licence; compare versions before treating files as duplicates."
+    ],
+    [
+      "The genesis of complexity",
+      "Ralph H. Abraham, draft dated 31 July 2002",
+      "",
+      "A draft historical account was identified in the available map materials.",
+      "Confirm an authoritative public edition and distinguish historical argument from a relation dataset."
+    ],
+    [
+      "Foundations: history timeline",
+      "American Society for Cybernetics",
+      "https://asc-cybernetics.org/foundations/timeline.htm",
+      "A public chronology provides dated historical leads.",
+      "Each proposed teaching, influence, or collaboration relation needs its own evidence."
+    ],
+    [
+      "Systems Science: An Atlas",
+      "Lynn Rasmussen, 21 November 2020",
+      "https://vimeo.com/485567409",
+      "The inspected text-only copy identifies Rasmussen and acknowledges Troncale and Tuddenham.",
+      "Recover the diagrams and their stated semantics before mapping individual relationships."
+    ],
+    [
+      "Field of systems thinking",
+      "Clare Wright, 2012, figure 12",
+      "",
+      "The inspected extract attributes the figure to Wright and describes inspiration from Castellani.",
+      "Locate the complete thesis and figure; avoid attributing the work from a storage filename."
+    ],
+    [
+      "History of ideas: cybernetics and systems science",
+      "Version 1.0, 2006; attribution to verify",
+      "",
+      "A diagram was identified in the available source material.",
+      "Resolve authorship, rights, and the meaning of connectors before transcription."
+    ],
+    [
+      "Linkage propositions map",
+      "Len Troncale, 1978",
+      "",
+      "Its caption distinguishes concept-to-packet or packet-to-packet solid lines from concept-to-concept dotted lines; crossings do not establish junctions.",
+      "Locate the complete figure and Table I together, then transcribe the specified relation types."
+    ],
+    [
+      "Systems Maps collection",
+      "Collection attribution to verify",
+      "",
+      "A collection overview was inspected; a text-search result is not a complete inventory of image-only files.",
+      "Obtain a complete file listing and reconcile image-only items without publishing private storage details."
+    ]
+  ],
+  "actions": [
+    {
+      "id": "corpora",
+      "title": "Corpus programme",
+      "status": "Partly complete",
+      "url": "/library/",
+      "result": "Inventories and reading routes exist; complete item-by-item reading of all private holdings, FPCS, Monoskop, SysCoI/model.report, and the SFI podcast remains a research programme."
+    },
+    {
+      "id": "map",
+      "title": "Map navigation and representations",
+      "status": "Implemented in 0.31",
+      "url": "/#view=map",
+      "result": "Refocus preserves layer, family, and scale. Graph and card state has real links, edge selection survives reload, and modified clicks keep browser behaviour."
+    },
+    {
+      "id": "reading",
+      "title": "Canonical reading and developed entries",
+      "status": "Partly complete",
+      "url": "/reading-list.html",
+      "result": "Canonical and named-entry coverage exists. Further primary-source depth and editorial review are required; presence is not a full-text-reading claim."
+    },
+    {
+      "id": "governance",
+      "title": "Editorial roles and participation",
+      "status": "Available; stewardship work remains",
+      "url": "/#view=contribute",
+      "result": "Email corrections work without a GitHub account. Public issue status remains visible. Named stewards and curators, rather than AI, own acceptance decisions; no access rights or invitations changed."
+    },
+    {
+      "id": "identity",
+      "title": "Attribution, visibility, and lineage",
+      "status": "Partly complete",
+      "url": "/prior-maps/principles/",
+      "result": "The reader now states map principles explicitly. Documentary visibility is separated from identity inference; human lineage and exclusion claims still require evidence."
+    },
+    {
+      "id": "logos",
+      "title": "Living marks",
+      "status": "Implemented previously",
+      "url": "/",
+      "result": "Still and moving marks, playback control, random selection, and reduced-motion handling remain available."
+    },
+    {
+      "id": "editorial",
+      "title": "Public wording and source precision",
+      "status": "Implemented; continuing audit",
+      "url": "/#view=about",
+      "result": "Standalone prose, full names, source locators, and explicit candidate labels are retained. New route copy follows these constraints."
+    },
+    {
+      "id": "observations",
+      "title": "Iteration observations",
+      "status": "Refreshed in 0.31",
+      "url": "/#view=ai-observations",
+      "result": "Graph measurements are recalculated. The new observation distinguishes bibliographic access, conceptual evidence, and human review."
+    },
+    {
+      "id": "prior",
+      "title": "Comparator programme",
+      "status": "Partly complete",
+      "url": "/prior-maps/review-2026-10/",
+      "result": "Existing comparators preserved; all 307 Castellani destinations checked. Rights, 28 label disagreements, reconciliation, and reproducibility limits remain explicit."
+    },
+    {
+      "id": "named",
+      "title": "Named missing entries and method lists",
+      "status": "Covered by prior releases; depth varies",
+      "url": "/coverage/named/",
+      "result": "Named coverage and unFIX 32 have published registers. These establish admission and coverage, not equal depth or universal endorsement."
+    },
+    {
+      "id": "training",
+      "title": "Training and learning home",
+      "status": "Implemented in 0.31",
+      "url": "/learning/",
+      "result": "Dedicated directory connects SCiO, PSTA, RedQuadrant, university and free learning, both Leading Transformation sequences, and source-led guides."
+    },
+    {
+      "id": "ocad",
+      "title": "David Ing and Understanding Systems",
+      "status": "Deepened in 0.31",
+      "url": "/corpora/ing-ocad/",
+      "result": "The full published pro forma is now read and linked module by module. It is a proposal for discussion; linked books are not all represented as read."
+    },
+    {
+      "id": "practice",
+      "title": "Practice criticisms and teaching routes",
+      "status": "Addressed with bounded applications",
+      "url": "/systems-thinking/claim-lab/",
+      "result": "Exercises distinguish a useful inquiry from a universal claim about methods, purposes, or organisations. Practitioner disagreements are attributed."
+    },
+    {
+      "id": "isss",
+      "title": "ISSS resources and Systems Sciences stewardship",
+      "status": "Deepened in 0.31",
+      "url": "/learning/isss/",
+      "result": "The student bibliography is extracted by category, with modelling tools and wider society routes. David Ing stewardship approval is recorded; human adoption remains distinct from AI assistance."
+    },
+    {
+      "id": "modules",
+      "title": "Rational Understanding researcher modules",
+      "status": "Read and integrated in 0.31",
+      "url": "/reading/researcher-modules/",
+      "result": "All five PDFs, 32 pages, were read. Typed, located candidate claims distinguish Challoner’s reconstruction from direct original-author evidence."
+    },
+    {
+      "id": "orglens",
+      "title": "OrgLens",
+      "status": "Deepened in 0.31",
+      "url": "/reading/orglens/",
+      "result": "The requested second development article is read. Plain-language reporting and evidence checks are documented; fictional cases and AI readers do not establish effectiveness with real organisations."
+    },
+    {
+      "id": "history",
+      "title": "Historical release report",
+      "status": "Historical record",
+      "url": "/updates/",
+      "result": "A release or deployment report, retained as history rather than counted as a new unresolved request."
+    },
+    {
+      "id": "principles",
+      "title": "Guiding principles and map inheritance",
+      "status": "Implemented, with source gaps recorded",
+      "url": "/prior-maps/principles/",
+      "result": "The map critiques inform explicit editorial principles. The available map texts are reconciled by bibliographic identity; the full image-only folder inventory remains unverified."
+    }
+  ],
+  "comments": [
+    {
+      "number": 1,
+      "id": 5232911064,
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5232911064",
+      "actions": [
+        "corpora",
+        "prior",
+        "governance",
+        "editorial"
+      ]
+    },
+    {
+      "number": 2,
+      "id": 5233949591,
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5233949591",
+      "actions": [
+        "history"
+      ]
+    },
+    {
+      "number": 3,
+      "id": 5234077667,
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5234077667",
+      "actions": [
+        "reading",
+        "governance",
+        "map"
+      ]
+    },
+    {
+      "number": 4,
+      "id": 5237268232,
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5237268232",
+      "actions": [
+        "reading",
+        "editorial",
+        "map"
+      ]
+    },
+    {
+      "number": 5,
+      "id": 5237712005,
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5237712005",
+      "actions": [
+        "history"
+      ]
+    },
+    {
+      "number": 6,
+      "id": 5237839688,
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5237839688",
+      "actions": [
+        "editorial"
+      ]
+    },
+    {
+      "number": 7,
+      "id": 5242092193,
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5242092193",
+      "actions": [
+        "history"
+      ]
+    },
+    {
+      "number": 8,
+      "id": 5242341677,
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5242341677",
+      "actions": [
+        "reading",
+        "corpora",
+        "governance"
+      ]
+    },
+    {
+      "number": 9,
+      "id": 5242357644,
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5242357644",
+      "actions": [
+        "corpora"
+      ]
+    },
+    {
+      "number": 10,
+      "id": 5242434538,
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5242434538",
+      "actions": [
+        "identity",
+        "map"
+      ]
+    },
+    {
+      "number": 11,
+      "id": 5242462365,
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5242462365",
+      "actions": [
+        "map"
+      ]
+    },
+    {
+      "number": 12,
+      "id": 5242772526,
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5242772526",
+      "actions": [
+        "history"
+      ]
+    },
+    {
+      "number": 13,
+      "id": 5242900935,
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5242900935",
+      "actions": [
+        "history"
+      ]
+    },
+    {
+      "number": 14,
+      "id": 5243114201,
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5243114201",
+      "actions": [
+        "reading",
+        "corpora",
+        "map"
+      ]
+    },
+    {
+      "number": 15,
+      "id": 5243137282,
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5243137282",
+      "actions": [
+        "corpora",
+        "reading"
+      ]
+    },
+    {
+      "number": 16,
+      "id": 5244357239,
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5244357239",
+      "actions": [
+        "history"
+      ]
+    },
+    {
+      "number": 17,
+      "id": 5252486244,
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5252486244",
+      "actions": [
+        "map",
+        "identity"
+      ]
+    },
+    {
+      "number": 18,
+      "id": 5283303787,
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5283303787",
+      "actions": [
+        "history"
+      ]
+    },
+    {
+      "number": 19,
+      "id": 5293738689,
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5293738689",
+      "actions": [
+        "map"
+      ]
+    },
+    {
+      "number": 20,
+      "id": 5307996884,
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5307996884",
+      "actions": [
+        "governance"
+      ]
+    },
+    {
+      "number": 21,
+      "id": 5307998777,
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5307998777",
+      "actions": [
+        "map"
+      ]
+    },
+    {
+      "number": 22,
+      "id": 5345080297,
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5345080297",
+      "actions": [
+        "identity",
+        "corpora"
+      ]
+    },
+    {
+      "number": 23,
+      "id": 5345119282,
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5345119282",
+      "actions": [
+        "identity"
+      ]
+    },
+    {
+      "number": 24,
+      "id": 5352012985,
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5352012985",
+      "actions": [
+        "history"
+      ]
+    },
+    {
+      "number": 25,
+      "id": 5352057997,
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5352057997",
+      "actions": [
+        "map"
+      ]
+    },
+    {
+      "number": 26,
+      "id": 5352106928,
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5352106928",
+      "actions": [
+        "reading"
+      ]
+    },
+    {
+      "number": 27,
+      "id": 5352129184,
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5352129184",
+      "actions": [
+        "editorial"
+      ]
+    },
+    {
+      "number": 28,
+      "id": 5352133159,
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5352133159",
+      "actions": [
+        "logos"
+      ]
+    },
+    {
+      "number": 29,
+      "id": 5352168146,
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5352168146",
+      "actions": [
+        "observations",
+        "editorial"
+      ]
+    },
+    {
+      "number": 30,
+      "id": 5352183496,
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5352183496",
+      "actions": [
+        "map"
+      ]
+    },
+    {
+      "number": 31,
+      "id": 5353887919,
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5353887919",
+      "actions": [
+        "identity"
+      ]
+    },
+    {
+      "number": 32,
+      "id": 5356492402,
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5356492402",
+      "actions": [
+        "map"
+      ]
+    },
+    {
+      "number": 33,
+      "id": 5356679159,
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5356679159",
+      "actions": [
+        "named"
+      ]
+    },
+    {
+      "number": 34,
+      "id": 5358533033,
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5358533033",
+      "actions": [
+        "named"
+      ]
+    },
+    {
+      "number": 35,
+      "id": 5375326171,
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5375326171",
+      "actions": [
+        "editorial"
+      ]
+    },
+    {
+      "number": 36,
+      "id": 5385000811,
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5385000811",
+      "actions": [
+        "history"
+      ]
+    },
+    {
+      "number": 37,
+      "id": 5393088475,
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5393088475",
+      "actions": [
+        "corpora"
+      ]
+    },
+    {
+      "number": 38,
+      "id": 5396668478,
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5396668478",
+      "actions": [
+        "logos"
+      ]
+    },
+    {
+      "number": 39,
+      "id": 5410170473,
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5410170473",
+      "actions": [
+        "prior",
+        "corpora"
+      ]
+    },
+    {
+      "number": 40,
+      "id": 5414952362,
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5414952362",
+      "actions": [
+        "logos"
+      ]
+    },
+    {
+      "number": 41,
+      "id": 5424930678,
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5424930678",
+      "actions": [
+        "prior",
+        "governance"
+      ]
+    },
+    {
+      "number": 42,
+      "id": 5424959629,
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5424959629",
+      "actions": [
+        "history"
+      ]
+    },
+    {
+      "number": 43,
+      "id": 5424995044,
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5424995044",
+      "actions": [
+        "map",
+        "reading"
+      ]
+    },
+    {
+      "number": 44,
+      "id": 5425573833,
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5425573833",
+      "actions": [
+        "governance"
+      ]
+    },
+    {
+      "number": 45,
+      "id": 5426313307,
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5426313307",
+      "actions": [
+        "editorial",
+        "reading"
+      ]
+    },
+    {
+      "number": 46,
+      "id": 5443808611,
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5443808611",
+      "actions": [
+        "logos"
+      ]
+    },
+    {
+      "number": 47,
+      "id": 5460522649,
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5460522649",
+      "actions": [
+        "map"
+      ]
+    },
+    {
+      "number": 48,
+      "id": 5464920765,
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5464920765",
+      "actions": [
+        "training",
+        "corpora"
+      ]
+    },
+    {
+      "number": 49,
+      "id": 5465271322,
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5465271322",
+      "actions": [
+        "corpora"
+      ]
+    },
+    {
+      "number": 50,
+      "id": 5470702938,
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5470702938",
+      "actions": [
+        "history"
+      ]
+    },
+    {
+      "number": 51,
+      "id": 5470949718,
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5470949718",
+      "actions": [
+        "history"
+      ]
+    },
+    {
+      "number": 52,
+      "id": 5471026177,
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5471026177",
+      "actions": [
+        "history"
+      ]
+    },
+    {
+      "number": 53,
+      "id": 5484912291,
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5484912291",
+      "actions": [
+        "history"
+      ]
+    },
+    {
+      "number": 54,
+      "id": 5551503205,
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5551503205",
+      "actions": [
+        "reading"
+      ]
+    },
+    {
+      "number": 55,
+      "id": 5551840127,
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5551840127",
+      "actions": [
+        "history"
+      ]
+    },
+    {
+      "number": 56,
+      "id": 5551943168,
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5551943168",
+      "actions": [
+        "corpora",
+        "identity"
+      ]
+    },
+    {
+      "number": 57,
+      "id": 5551955232,
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5551955232",
+      "actions": [
+        "prior"
+      ]
+    },
+    {
+      "number": 58,
+      "id": 5551968129,
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5551968129",
+      "actions": [
+        "history"
+      ]
+    },
+    {
+      "number": 59,
+      "id": 5553281242,
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5553281242",
+      "actions": [
+        "training"
+      ]
+    },
+    {
+      "number": 60,
+      "id": 5554837728,
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5554837728",
+      "actions": [
+        "logos"
+      ]
+    },
+    {
+      "number": 61,
+      "id": 5558769097,
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5558769097",
+      "actions": [
+        "ocad"
+      ]
+    },
+    {
+      "number": 62,
+      "id": 5559015178,
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5559015178",
+      "actions": [
+        "training"
+      ]
+    },
+    {
+      "number": 63,
+      "id": 5561615484,
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5561615484",
+      "actions": [
+        "logos",
+        "governance"
+      ]
+    },
+    {
+      "number": 64,
+      "id": 5567336936,
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5567336936",
+      "actions": [
+        "corpora"
+      ]
+    },
+    {
+      "number": 65,
+      "id": 5569548833,
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5569548833",
+      "actions": [
+        "named"
+      ]
+    },
+    {
+      "number": 66,
+      "id": 5572469551,
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5572469551",
+      "actions": [
+        "isss",
+        "governance"
+      ]
+    },
+    {
+      "number": 67,
+      "id": 5572547464,
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5572547464",
+      "actions": [
+        "ocad"
+      ]
+    },
+    {
+      "number": 68,
+      "id": 5572601811,
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5572601811",
+      "actions": [
+        "prior"
+      ]
+    },
+    {
+      "number": 69,
+      "id": 5572801991,
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5572801991",
+      "actions": [
+        "practice"
+      ]
+    },
+    {
+      "number": 70,
+      "id": 5598359753,
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5598359753",
+      "actions": [
+        "reading"
+      ]
+    },
+    {
+      "number": 71,
+      "id": 5655752703,
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5655752703",
+      "actions": [
+        "prior"
+      ]
+    },
+    {
+      "number": 72,
+      "id": 5740479900,
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5740479900",
+      "actions": [
+        "corpora"
+      ]
+    },
+    {
+      "number": 73,
+      "id": 5740497358,
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5740497358",
+      "actions": [
+        "corpora"
+      ]
+    },
+    {
+      "number": 74,
+      "id": 5745607212,
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5745607212",
+      "actions": [
+        "map"
+      ]
+    },
+    {
+      "number": 75,
+      "id": 5846591463,
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5846591463",
+      "actions": [
+        "reading"
+      ]
+    },
+    {
+      "number": 76,
+      "id": 5849065933,
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5849065933",
+      "actions": [
+        "corpora",
+        "observations"
+      ]
+    },
+    {
+      "number": 77,
+      "id": 5911953159,
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5911953159",
+      "actions": [
+        "orglens"
+      ]
+    },
+    {
+      "number": 78,
+      "id": 5911959828,
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5911959828",
+      "actions": [
+        "map"
+      ]
+    },
+    {
+      "number": 79,
+      "id": 5911963068,
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5911963068",
+      "actions": [
+        "map"
+      ]
+    },
+    {
+      "number": 80,
+      "id": 6055851886,
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-6055851886",
+      "actions": [
+        "training"
+      ]
+    },
+    {
+      "number": 81,
+      "id": 6056288160,
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-6056288160",
+      "actions": [
+        "isss"
+      ]
+    },
+    {
+      "number": 82,
+      "id": 6056291885,
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-6056291885",
+      "actions": [
+        "corpora"
+      ]
+    },
+    {
+      "number": 83,
+      "id": 6056312091,
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-6056312091",
+      "actions": [
+        "modules"
+      ]
+    },
+    {
+      "number": 84,
+      "id": 6056345303,
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-6056345303",
+      "actions": [
+        "orglens"
+      ]
+    },
+    {
+      "number": 85,
+      "id": 6069468165,
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-6069468165",
+      "actions": [
+        "principles",
+        "prior"
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "number": 79,
+      "title": "[Source] Michael C. Jackson vs. Dave Snowden — Building on 2023 U Hull lecture and discussion",
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/79",
+      "status": "Open",
+      "next": "Compare located published responses and video timestamps before accepting the submitted interpretation."
+    },
+    {
+      "number": 78,
+      "title": "Participation: Michael C. Jackson and the Systems Sciences",
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/78",
+      "status": "Open",
+      "next": "Verify each substantive claim and scope the comparison; retain unresolved disputed assertions."
+    },
+    {
+      "number": 71,
+      "title": "Participation: Systems Sciences",
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/71",
+      "status": "Open",
+      "next": "David Ing’s approval is recorded; actual stewardship decisions and reviews remain human work."
+    },
+    {
+      "number": 68,
+      "title": "[Source] International Encyclopedia of Systems and Cybernetics",
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/68",
+      "status": "Open",
+      "next": "Precise bibliographic and proposition-level reconciliation with the atlas."
+    },
+    {
+      "number": 12,
+      "title": "Corpus pass: Principia Cybernetica and canonical public source register",
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/12",
+      "status": "Open",
+      "next": "Maintain the existing register and deepen source-specific coverage rather than equating listing with reading."
+    },
+    {
+      "number": 11,
+      "title": "Map v2: richer layers, usable zoom and emergent neighbourhoods",
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/11",
+      "status": "Open",
+      "next": "Navigation repairs are delivered; further emergent grouping requires justified semantics and reader evaluation."
+    },
+    {
+      "number": 10,
+      "title": "Governance: membership roles, access and agent-assisted contributions",
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/10",
+      "status": "Open",
+      "next": "Human decisions on membership and responsibility; no changes to GitHub access."
+    },
+    {
+      "number": 8,
+      "title": "Discovery pass: company knowledge and public-source replacement",
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/8",
+      "status": "Open",
+      "next": "Complete folder inventory and lawful public replacements; private holdings remain private."
+    },
+    {
+      "number": 7,
+      "title": "Lineage model: map practitioner influence constellations, teaching and collaboration",
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/7",
+      "status": "Open",
+      "next": "Source-located teaching, collaboration, correspondence, and influence claims; no automated identity inference."
+    },
+    {
+      "number": 6,
+      "title": "Comparator pass: prior maps, bodies of knowledge and the Castellani complexity map critique",
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/6",
+      "status": "Open",
+      "next": "Human reconciliation and independent evidence for proposed canonical relations."
+    },
+    {
+      "number": 5,
+      "title": "Archive pass: SysCoI and model.report as historical evidence and discovery corpora",
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/5",
+      "status": "Open",
+      "next": "Repeatable complete-archive ingestion and item-level review, beyond recent-post intake."
+    },
+    {
+      "number": 4,
+      "title": "Corpus pass: relevant Monoskop material for systems | cybernetics | complexity",
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/4",
+      "status": "Open",
+      "next": "A finite admission/exclusion register for relevant source items, with locators."
+    },
+    {
+      "number": 3,
+      "title": "Corpus pass: Foundational Papers in Complexity Science",
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/3",
+      "status": "Open",
+      "next": "Complete primary-paper reading and claim-level review beyond the existing inventory."
+    },
+    {
+      "number": 2,
+      "title": "Running feedback for the next iteration",
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/2",
+      "status": "Open",
+      "next": "Full comment-by-comment disposition is now published; open actions remain linked."
+    }
+  ]
+}
