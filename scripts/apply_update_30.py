@@ -96,10 +96,17 @@ digest+='</section><p><a href="review.json">Download the intake and queue record
 (DOCS/'updates/2026-10-07/review.json').write_text(json.dumps(P,ensure_ascii=False,indent=2)+'\n')
 for route in ['reading-list.html','updates/index.html']:
     p=DOCS/route;t=p.read_text();t=re.sub('<!-- '+MARK+' -->.*?<!-- /'+MARK+' -->','',t,flags=re.S);t=t.replace('</main>','<!-- '+MARK+' --><section><h2>Latest intake: 7 October 2026</h2><p><a href="/updates/2026-10-07/">31 recent SysCoI additions, Schot, OrgLens, events and queue review</a> · <a href="/reading/socio-technical-transitions/">Read socio-technical transitions</a></p></section><!-- /'+MARK+' --></main>',1);p.write_text(t)
-p=DOCS/'index.html';t=p.read_text();t=re.sub(r'assets/public-data.js\?v=[^"\s]+','assets/public-data.js?v=0.30',t);p.write_text(t)
+p=DOCS/'index.html';t=p.read_text()
+t=re.sub(r'assets/public-data.js\?v=[^"\s]+','assets/public-data.js?v=0.30',t)
+t=re.sub(r'<span id="releaseBadge">Release [^<]+</span>',f'<span id="releaseBadge">Release {RELEASE}</span>',t,count=1)
+latest_note='<p class="release-note-inline"><strong>Updated for 0.30:</strong> 31 recent SysCoI discovery records, a source-led Johan Schot transitions reading route and exercise, OrgLens with explicit evidence limits, refreshed events, and transparent queue decisions. <a href="/updates/2026-10-07/">Inspect the dated intake and what remains open.</a></p>'
+t=re.sub(r'<p class="release-note-inline"><strong>Updated for [^<]+:</strong>.*?</p>',latest_note,t,count=1,flags=re.S)
+p.write_text(t)
 p=DOCS/'sitemap.xml';t=p.read_text()
 for route in ['/updates/2026-10-07/','/reading/socio-technical-transitions/']:
     if 'https://transduction.systems'+route not in t:t=t.replace('</urlset>','<url><loc>https://transduction.systems'+route+'</loc><lastmod>'+DATE+'</lastmod></url></urlset>')
+t=re.sub(r'(<url><loc>https://transduction\.systems/</loc><lastmod>)[^<]+(</lastmod></url>)',r'\g<1>2026-10-08\2',t,count=1)
+t=re.sub(r'<url><loc>https://transduction\.systems/events/</loc>(?:<lastmod>[^<]+</lastmod>)?</url>','<url><loc>https://transduction.systems/events/</loc><lastmod>'+DATE+'</lastmod></url>',t,count=1)
 p.write_text(t)
 p=ROOT/'CITATION.cff';t=p.read_text();t=re.sub(r'(?m)^version:.*$',"version: '0.30'",t);t=re.sub(r'(?m)^date-released:.*$',"date-released: '2026-10-07'",t);p.write_text(t)
 print('Applied release 0.30: 31 discovery records, 7 transition statements, OrgLens and explicit queue dispositions.')
