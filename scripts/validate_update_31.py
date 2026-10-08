@@ -16,6 +16,9 @@ assert len(json.loads((S/'castellani-link-audit.json').read_text())['links'])==3
 nodes={n['id']:n for n in d['nodes']};sources={s['id']:s for s in d['sources']}
 edges=[e for e in d['edges'] if e.get('connection_pass')==M]
 assert len(edges)==41
+assert nodes['concept_physical_exchange']['id'] != nodes['concept_material_open_system']['id']
+assert next(e for e in edges if e['id']=='e31_module_prigogine_1')['target']=='concept_physical_exchange'
+assert next(e for e in edges if e['target']=='concept_dissipative_structure' and e['relation_type']=='explanatory_prerequisite')['source']=='concept_physical_exchange'
 for e in edges:
  assert e['source'] in nodes and e['target'] in nodes
  assert e['source_locator'] and e['scope_conditions'] and e['claim_status']=='candidate' and not e['reviewed_by']

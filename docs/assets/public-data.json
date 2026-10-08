@@ -7,20 +7,20 @@
     "generated": "2026-10-08",
     "status": "public alpha on GitHub Pages",
     "namespace": "scc_bok",
-    "node_count": 1385,
+    "node_count": 1386,
     "edge_count": 3097,
     "source_count": 787,
     "claim_count": 34,
     "evidence_count": 37,
-    "profile_count": 211,
+    "profile_count": 212,
     "journey_count": 24,
     "review_queue_count": 115,
     "author": "Benjamin P Taylor",
     "author_url": "https://www.antlerboy.com/",
     "project_url": "https://transduction.systems/",
     "source_policy": "Public links are used where they exist. Published material without an open copy is cited as 'No public link'. Private research may identify leads, but private URLs and extracts are not published.",
-    "public_entry_count": 1258,
-    "described_entry_count": 1258,
+    "public_entry_count": 1259,
+    "described_entry_count": 1259,
     "stub_entry_count": 0,
     "public_link_source_count": 771,
     "no_public_link_source_count": 16,
@@ -62,11 +62,11 @@
     "original_vision_audit_url": "https://github.com/antlerboy/the-necessary-tangle/blob/main/documentation/original-vision-audit.md",
     "relational_crosswalk_connection_count": 289,
     "source_backed_author_link_count": 17,
-    "reader_connected_entry_count": 1217,
-    "semantic_connected_entry_count": 546,
+    "reader_connected_entry_count": 1218,
+    "semantic_connected_entry_count": 547,
     "rich_entry_count": 98,
     "developing_entry_count": 239,
-    "thin_entry_count": 880,
+    "thin_entry_count": 881,
     "unconnected_entry_count": 41,
     "relational_depth_url": "https://github.com/antlerboy/the-necessary-tangle/blob/main/documentation/relational-depth.md",
     "external_corpus_review_count": 12,
@@ -43120,6 +43120,38 @@
       "x": 0.532351,
       "y": 0.25078,
       "canonical_id": "collection_isss_students_2026",
+      "public_visibility": "public",
+      "publication_level": "profile",
+      "public_stub_text": "",
+      "public_source_count": 1,
+      "no_public_link_count": 0,
+      "connection_pass": "update_20261008"
+    },
+    {
+      "id": "concept_physical_exchange",
+      "label": "Physical exchange with the environment",
+      "entity_type": "concept",
+      "description": "Matter or energy transferred across a physical system boundary. In Challoner’s Prigogine module, either kind of exchange enters the account of non-equilibrium organisation; energy exchange alone does not establish material openness.",
+      "aliases": "[]",
+      "boundary_ring": "0",
+      "inclusion_reason": "update_20261008",
+      "status": "candidate",
+      "source_ids": "[\"src_u31_prigogine\"]",
+      "set_tags": "[\"systems\", \"release_0_31\", \"researcher-modules\"]",
+      "espoused_labels": "[]",
+      "observed_clusters": "[]",
+      "canonical_definition": "Matter or energy transferred across a physical system boundary. In Challoner’s Prigogine module, either kind of exchange enters the account of non-equilibrium organisation; energy exchange alone does not establish material openness.",
+      "valid_from": "",
+      "valid_to": "",
+      "external_ids": "{}",
+      "geographies": "[]",
+      "licence": "",
+      "review_status": "research_pass_needs_editor",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "x": 0.74517,
+      "y": 0.49369,
+      "canonical_id": "concept_physical_exchange",
       "public_visibility": "public",
       "publication_level": "profile",
       "public_stub_text": "",
@@ -120918,7 +120950,7 @@
     {
       "id": "e31_module_prigogine_1",
       "source": "publication_u31_prigogine",
-      "target": "concept_material_open_system",
+      "target": "concept_physical_exchange",
       "relation_type": "presents_account_of",
       "relation_family": "conceptual",
       "directed": "true",
@@ -121203,7 +121235,7 @@
     },
     {
       "id": "e31_concept_4",
-      "source": "concept_material_open_system",
+      "source": "concept_physical_exchange",
       "target": "concept_dissipative_structure",
       "relation_type": "explanatory_prerequisite",
       "relation_family": "conceptual",
@@ -141291,7 +141323,7 @@
       "statement": "In Challoner’s reconstruction: Matter or energy exchange can maintain non-equilibrium conditions.",
       "subject_id": "publication_u31_prigogine",
       "predicate": "presents_account_of",
-      "object_id": "concept_material_open_system",
+      "object_id": "concept_physical_exchange",
       "status": "candidate",
       "supporting_source_ids": "[\"src_u31_prigogine\"]",
       "supporting_evidence_ids": "[\"ev_e31_module_prigogine_1\"]",
@@ -141476,7 +141508,7 @@
     {
       "id": "claim_e31_concept_4",
       "statement": "Source-scoped reading of Challoner’s module: The module’s dissipative structures require sustained exchanges under non-equilibrium conditions; openness alone is insufficient.",
-      "subject_id": "concept_material_open_system",
+      "subject_id": "concept_physical_exchange",
       "predicate": "explanatory_prerequisite",
       "object_id": "concept_dissipative_structure",
       "status": "candidate",
@@ -147569,6 +147601,27 @@
       "title": "ISSS student reading and resource guide",
       "review_status": "research_pass_needs_editor",
       "profile_status": "evidence_deepened_research_pass"
+    },
+    {
+      "node_id": "concept_physical_exchange",
+      "summary": "Matter or energy transferred across a physical system boundary. In Challoner’s Prigogine module, either kind of exchange enters the account of non-equilibrium organisation; energy exchange alone does not establish material openness.",
+      "canonical_definition": "Matter or energy transferred across a physical system boundary. In Challoner’s Prigogine module, either kind of exchange enters the account of non-equilibrium organisation; energy exchange alone does not establish material openness.",
+      "why_it_matters": "Inspect the passage and the stated domain before using a term in a new setting.",
+      "key_distinctions": "[\"source account vs editorial interpretation\", \"material exchange vs causal openness\", \"bibliographic access vs full-text evidence\"]",
+      "historical_lineage": "[]",
+      "logical_antecedents": "[]",
+      "dependent_subsequents": "[]",
+      "practice_connections": "[\"Name the domain, conditions, and observation that could challenge the proposed connection.\"]",
+      "common_misreadings": "[\"Treating a shared term as proof that two accounts are equivalent.\"]",
+      "open_checks": "[\"Original-source verification and human editorial review remain open.\"]",
+      "source_ids": "[\"src_u31_prigogine\"]",
+      "context_and_lineage": "",
+      "editorial_note": "AI-assisted source reading. Human curator: Benjamin P Taylor. New claims remain candidates.",
+      "last_researched": "2026-10-08",
+      "connection_pass": "update_20261008",
+      "title": "Physical exchange with the environment",
+      "review_status": "research_pass_needs_editor",
+      "profile_status": "evidence_deepened_research_pass"
     }
   ],
   "maturity": [
@@ -149472,13 +149525,13 @@
     "note": "Automated systems may assist research and propose changes, but a human sponsor owns the contribution and the curator controls release acceptance."
   },
   "graph_snapshot": {
-    "public_node_count": 1258,
+    "public_node_count": 1259,
     "substantive_edge_count": 1102,
     "substantive_pair_count": 1076,
-    "connected_node_count": 546,
+    "connected_node_count": 547,
     "isolated_node_count": 712,
-    "component_count": 739,
-    "largest_component_node_count": 470,
+    "component_count": 740,
+    "largest_component_node_count": 465,
     "isolates_by_entity_type": {
       "collection": 2,
       "comparator_corpus": 5,
@@ -149701,13 +149754,13 @@
     "generated": "2026-10-08",
     "method_note": "Measurements come from the generated public graph. Interpretations concern this atlas and its current source and interface choices; they are not measurements of the field itself.",
     "metrics": {
-      "public_entries": 1258,
-      "developed_profiles": 211,
+      "public_entries": 1259,
+      "developed_profiles": 212,
       "entity_counts": {
         "approach_family": 6,
         "collection": 2,
         "comparator_corpus": 6,
-        "concept": 114,
+        "concept": 115,
         "corpus": 16,
         "framework": 2,
         "intervention_skill": 47,
@@ -149728,11 +149781,11 @@
       "sources_with_public_links": 771,
       "typed_edges": 2763,
       "substantive_edges": 1102,
-      "substantive_connected_nodes": 546,
+      "substantive_connected_nodes": 547,
       "substantive_isolated_nodes": 712,
-      "substantive_components": 739,
-      "largest_substantive_component": 470,
-      "largest_all_edge_component": 1149,
+      "substantive_components": 740,
+      "largest_substantive_component": 465,
+      "largest_all_edge_component": 1144,
       "isolates_by_type": {
         "collection": 2,
         "comparator_corpus": 5,
@@ -149747,7 +149800,7 @@
       "layers": {
         "conceptual": {
           "edges": 433,
-          "nodes": 289
+          "nodes": 290
         },
         "human_lineage": {
           "edges": 201,
@@ -149910,14 +149963,14 @@
       "people_total": 275,
       "published_neighbourhoods": 6,
       "published_neighbourhood_members": 77,
-      "connected_nodes_outside_neighbourhoods": 481
+      "connected_nodes_outside_neighbourhoods": 482
     },
     "observations": [
       {
         "id": "breadth_outpaces_depth",
         "title": "Breadth has outrun depth",
         "kind": "measurement plus interpretation",
-        "measurement": "The atlas has 1258 public entries and 211 developed profiles. Only 16.8% of entries have the fuller profile structure.",
+        "measurement": "The atlas has 1259 public entries and 212 developed profiles. Only 16.8% of entries have the fuller profile structure.",
         "interpretation": "It is now better at showing that something belongs in the territory than at explaining what the thing means, why it matters, where it is contested and how it enters practice.",
         "implication": "Next depth work should follow reader demand, bridge concepts and high-risk ambiguities rather than adding another undifferentiated tranche of names.",
         "test": "This observation weakens when developed profiles and item-level source coverage grow without sacrificing the breadth inventory."
@@ -149980,7 +150033,7 @@
         "id": "neighbourhoods_are_stale",
         "title": "The published neighbourhoods are a historical snapshot, not the present graph",
         "kind": "measurement plus model warning",
-        "measurement": "Six published neighbourhoods contain 77 unique nodes, while 546 nodes are now connected; 481 connected nodes sit outside the old grouping pass.",
+        "measurement": "Six published neighbourhoods contain 77 unique nodes, while 547 nodes are now connected; 482 connected nodes sit outside the old grouping pass.",
         "interpretation": "An algorithmic cluster is produced by the current edges, exclusions, resolution setting and seed. It is not a natural school waiting to be discovered.",
         "implication": "Recompute neighbourhoods at each suitable release, record the algorithm and version, and retain change over time rather than silently replacing one partition with another.",
         "test": "A reader should be able to inspect why two entries share a neighbourhood and see when that grouping changed."
@@ -149998,7 +150051,7 @@
         "id": "map_of_attention",
         "title": "The gaps map the curator's attention as much as they map the field",
         "kind": "second-order observation",
-        "measurement": "712 entries are isolated in the substantive graph, while the largest substantive component contains 470 entries.",
+        "measurement": "712 entries are isolated in the substantive graph, while the largest substantive component contains 465 entries.",
         "interpretation": "Isolation does not mean an idea is naturally peripheral. It often means the current source set, relation vocabulary or research history has not yet made its connections visible.",
         "implication": "Treat isolates as hypotheses about missing work, not as evidence that the field itself has no connections there.",
         "test": "Source programmes from different traditions should alter which entries appear central, peripheral or absent."
@@ -151540,20 +151593,20 @@
       "evidence_note": "Structural depth and evidence depth are separate. Provisional crosswalks do not become accepted merely by increasing degree."
     },
     "aggregate": {
-      "public_entries": 1258,
-      "visible_connected_entries": 1220,
-      "reader_connected_entries": 1217,
-      "semantic_connected_entries": 546,
+      "public_entries": 1259,
+      "visible_connected_entries": 1221,
+      "reader_connected_entries": 1218,
+      "semantic_connected_entries": 547,
       "connection_bands": {
         "developing": 239,
         "rich": 98,
-        "thin": 880,
+        "thin": 881,
         "unconnected": 41
       },
       "evidence_bands": {
         "mixed": 273,
         "none": 41,
-        "provisional": 741,
+        "provisional": 742,
         "supported": 203
       },
       "reader_statements": 2473,
@@ -151578,8 +151631,8 @@
       "concept": {
         "developing": 33,
         "rich": 32,
-        "thin": 46,
-        "total": 114,
+        "thin": 47,
+        "total": 115,
         "unconnected": 3
       },
       "corpus": {
@@ -175956,15 +176009,15 @@
       "concept_material_open_system": {
         "connection_band": "thin",
         "evidence_band": "provisional",
-        "visible_connections": 4,
-        "visible_statements": 4,
-        "reader_connections": 4,
-        "reader_statements": 4,
-        "semantic_connections": 4,
-        "semantic_statements": 4,
+        "visible_connections": 2,
+        "visible_statements": 2,
+        "reader_connections": 2,
+        "reader_statements": 2,
+        "semantic_connections": 2,
+        "semantic_statements": 2,
         "documentary_statements": 0,
         "accepted_reader_statements": 0,
-        "provisional_reader_statements": 4,
+        "provisional_reader_statements": 2,
         "distinct_reader_families": 1,
         "reader_families": [
           "conceptual"
@@ -176069,6 +176122,23 @@
         "provisional_reader_statements": 0,
         "distinct_reader_families": 0,
         "reader_families": []
+      },
+      "concept_physical_exchange": {
+        "connection_band": "thin",
+        "evidence_band": "provisional",
+        "visible_connections": 2,
+        "visible_statements": 2,
+        "reader_connections": 2,
+        "reader_statements": 2,
+        "semantic_connections": 2,
+        "semantic_statements": 2,
+        "documentary_statements": 0,
+        "accepted_reader_statements": 0,
+        "provisional_reader_statements": 2,
+        "distinct_reader_families": 1,
+        "reader_families": [
+          "conceptual"
+        ]
       }
     }
   },

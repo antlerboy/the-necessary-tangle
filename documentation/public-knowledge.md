@@ -12335,6 +12335,55 @@ A self-reported strand naming Stephen Jay Gould and Bertrand Russell; it records
 
 - Lineages of Systems Practice — Damian Allen — No public link
 
+## Physical exchange with the environment
+
+Type: Concept
+Public depth: profile
+
+Matter or energy transferred across a physical system boundary. In Challoner’s Prigogine module, either kind of exchange enters the account of non-equilibrium organisation; energy exchange alone does not establish material openness.
+
+### Summary
+
+Matter or energy transferred across a physical system boundary. In Challoner’s Prigogine module, either kind of exchange enters the account of non-equilibrium organisation; energy exchange alone does not establish material openness.
+
+### Why it matters
+
+Inspect the passage and the stated domain before using a term in a new setting.
+
+### Key distinctions
+
+- source account vs editorial interpretation
+- material exchange vs causal openness
+- bibliographic access vs full-text evidence
+
+### Historical development
+
+[]
+
+### Ideas it depends on
+
+[]
+
+### What develops from it
+
+[]
+
+### Connections to practice
+
+- Name the domain, conditions, and observation that could challenge the proposed connection.
+
+### Common confusions
+
+- Treating a shared term as proof that two accounts are equivalent.
+
+### Open questions and checks
+
+- Original-source verification and human editorial review remain open.
+
+### Sources
+
+- Prigogine: order under non-equilibrium conditions: researcher module — https://rational-understanding.com/wp-content/uploads/2026/10/prigogine-researcher-module.pdf
+
 ## Pierre Bourdieu
 
 Type: Person

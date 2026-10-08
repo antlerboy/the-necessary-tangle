@@ -6,16 +6,16 @@ Measurements come from the generated public graph. Interpretations concern this 
 
 ## Measured state
 
-- 1258 public entries; 211 developed profiles.
+- 1259 public entries; 212 developed profiles.
 - 2763 typed public edges; 1102 substantive edges.
-- 546 substantively connected entries and 712 substantive isolates.
+- 547 substantively connected entries and 712 substantive isolates.
 - 787 sources, of which 771 have public links.
 
 ## Breadth has outrun depth
 
 **Basis:** measurement plus interpretation.
 
-**Measured:** The atlas has 1258 public entries and 211 developed profiles. Only 16.8% of entries have the fuller profile structure.
+**Measured:** The atlas has 1259 public entries and 212 developed profiles. Only 16.8% of entries have the fuller profile structure.
 
 **Interpretation:** It is now better at showing that something belongs in the territory than at explaining what the thing means, why it matters, where it is contested and how it enters practice.
 
@@ -99,7 +99,7 @@ Measurements come from the generated public graph. Interpretations concern this 
 
 **Basis:** measurement plus model warning.
 
-**Measured:** Six published neighbourhoods contain 77 unique nodes, while 546 nodes are now connected; 481 connected nodes sit outside the old grouping pass.
+**Measured:** Six published neighbourhoods contain 77 unique nodes, while 547 nodes are now connected; 482 connected nodes sit outside the old grouping pass.
 
 **Interpretation:** An algorithmic cluster is produced by the current edges, exclusions, resolution setting and seed. It is not a natural school waiting to be discovered.
 
@@ -123,7 +123,7 @@ Measurements come from the generated public graph. Interpretations concern this 
 
 **Basis:** second-order observation.
 
-**Measured:** 712 entries are isolated in the substantive graph, while the largest substantive component contains 470 entries.
+**Measured:** 712 entries are isolated in the substantive graph, while the largest substantive component contains 465 entries.
 
 **Interpretation:** Isolation does not mean an idea is naturally peripheral. It often means the current source set, relation vocabulary or research history has not yet made its connections visible.
 
