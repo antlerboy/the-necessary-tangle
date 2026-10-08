@@ -27,29 +27,29 @@
     "semantic_statements": 747
   },
   "current": {
-    "public_entries": 1258,
-    "all_nodes": 1385,
+    "public_entries": 1259,
+    "all_nodes": 1386,
     "all_edges": 3097,
     "sources": 787,
     "claims": 118,
     "evidence_records": 121,
-    "profiles": 211,
+    "profiles": 212,
     "journeys": 24,
     "external_corpora_reviewed": 12,
     "internal_sources_reviewed": 18,
-    "reader_connected_entries": 1217,
-    "semantic_connected_entries": 546,
+    "reader_connected_entries": 1218,
+    "semantic_connected_entries": 547,
     "semantic_gap_entries": 712,
     "connection_bands": {
       "developing": 239,
       "rich": 98,
-      "thin": 880,
+      "thin": 881,
       "unconnected": 41
     },
     "evidence_bands": {
       "mixed": 273,
       "none": 41,
-      "provisional": 741,
+      "provisional": 742,
       "supported": 203
     },
     "reader_statements": 2473,
@@ -70,7 +70,7 @@
     },
     "semantic_connected_entries": {
       "before": 329,
-      "after": 546,
+      "after": 547,
       "note": "A generic journal-to-tradition edge was replaced by a narrower documentary scope claim; unsupported semantic reach was not preserved."
     },
     "substantive_edge_count": {
@@ -124,11 +124,11 @@
     },
     "three_or_more_relation_families": {
       "passing": 149,
-      "total": 1258
+      "total": 1259
     },
     "one_relation_family": {
-      "count": 771,
-      "total": 1258
+      "count": 772,
+      "total": 1259
     },
     "external_corpus_records": {
       "passing": 12,

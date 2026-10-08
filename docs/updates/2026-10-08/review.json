@@ -130,7 +130,7 @@
       "pages": 7,
       "concepts": [
         [
-          "concept_material_open_system",
+          "concept_physical_exchange",
           "pp. 2–3, DG1 and PG2",
           "presents_account_of",
           "Matter or energy exchange can maintain non-equilibrium conditions."
@@ -272,6 +272,12 @@
       "Organisation as relations",
       "Organisation considered through relations among components and their effects. The concept supports inquiry into what a decomposition preserves or loses; it does not imply that every whole possesses the same kind of organisation.",
       "von-bertalanffy"
+    ],
+    [
+      "concept_physical_exchange",
+      "Physical exchange with the environment",
+      "Matter or energy transferred across a physical system boundary. In Challoner’s Prigogine module, either kind of exchange enters the account of non-equilibrium organisation; energy exchange alone does not establish material openness.",
+      "prigogine"
     ]
   ],
   "concept_edges": [
@@ -300,7 +306,7 @@
       "The tektological account treats boundary formation as part of organisational interaction."
     ],
     [
-      "concept_material_open_system",
+      "concept_physical_exchange",
       "concept_dissipative_structure",
       "explanatory_prerequisite",
       "prigogine",

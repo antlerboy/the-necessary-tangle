@@ -8,10 +8,10 @@ Generated: `2026-08-14`
 
 The atlas now treats relational richness as maintained data, not a visual impression. Every canonical public entry has a structural connection band and a separate evidence band. This makes it possible to add provisional routes without pretending that repetition, plausibility or graph density is proof.
 
-- 1217 of 1258 entries have at least one reader connection.
-- 98 are structurally rich, 239 developing, 880 thin and 41 unconnected.
-- 546 have at least one non-documentary semantic, historical, human, identity, practice, influence or contestation route.
-- Evidence is 203 supported, 273 mixed, 741 provisional and 41 absent at entry level.
+- 1218 of 1259 entries have at least one reader connection.
+- 98 are structurally rich, 239 developing, 881 thin and 41 unconnected.
+- 547 have at least one non-documentary semantic, historical, human, identity, practice, influence or contestation route.
+- Evidence is 203 supported, 273 mixed, 742 provisional and 41 absent at entry level.
 
 ## What counts
 
@@ -44,7 +44,7 @@ The template is an editorial checklist, not an invitation to fill six slots with
 | approach family | 6 | 4 | 2 | 0 | 0 |
 | collection | 2 | 0 | 0 | 1 | 1 |
 | comparator corpus | 6 | 0 | 1 | 5 | 0 |
-| concept | 114 | 32 | 33 | 46 | 3 |
+| concept | 115 | 32 | 33 | 47 | 3 |
 | corpus | 16 | 0 | 3 | 13 | 0 |
 | framework | 2 | 0 | 0 | 2 | 0 |
 | intervention skill | 47 | 3 | 44 | 0 | 0 |
