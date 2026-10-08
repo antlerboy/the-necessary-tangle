@@ -19,7 +19,13 @@ for e in edges:
 page=(R/'docs/updates/2026-10-07/index.html').read_text();assert page.count('<article id="post-')==31
 reader=(R/'docs/reading/socio-technical-transitions/index.html').read_text()
 for marker in ['Editorial application','not a case studied by Schot','meta-rule','Open updates','Compare a possible response']:assert marker in reader
-paths=[R/'data/public-data.json',R/'docs/assets/public-data.json',R/'docs/reading/socio-technical-transitions/index.html',R/'docs/updates/2026-10-07/index.html',R/'sources/systemic-evolution/review-1/review-manifest.json']
+home=(R/'docs/index.html').read_text()
+assert '<span id="releaseBadge">Release 0.30</span>' in home
+assert '<strong>Updated for 0.30:</strong>' in home and 'href="/updates/2026-10-07/"' in home
+sitemap=(R/'docs/sitemap.xml').read_text()
+assert '<loc>https://transduction.systems/</loc><lastmod>2026-10-08</lastmod>' in sitemap
+assert '<loc>https://transduction.systems/events/</loc><lastmod>2026-10-07</lastmod>' in sitemap
+paths=[R/'data/public-data.json',R/'docs/assets/public-data.json',R/'docs/index.html',R/'docs/sitemap.xml',R/'docs/reading/socio-technical-transitions/index.html',R/'docs/updates/2026-10-07/index.html',R/'sources/systemic-evolution/review-1/review-manifest.json']
 hashes=lambda:{str(p):hashlib.sha256(p.read_bytes()).hexdigest() for p in paths}
 before=hashes();subprocess.run([sys.executable,str(R/'scripts/apply_update_30.py')],check=True,cwd=R);assert before==hashes(),'Idempotence or comparator integrity failed'
 print('Release 0.30: complete discovery intake, 39 scoped statements, evidence records, candidate labels and idempotence passed.')
