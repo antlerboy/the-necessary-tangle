@@ -1,21 +1,21 @@
 # AI observations
 
-Generated for release `0.30` on 2026-10-07.
+Generated for release `0.31` on 2026-10-08.
 
 Measurements come from the generated public graph. Interpretations concern this atlas and its current source and interface choices; they are not measurements of the field itself.
 
 ## Measured state
 
-- 1238 public entries; 191 developed profiles.
-- 2722 typed public edges; 1061 substantive edges.
-- 523 substantively connected entries and 715 substantive isolates.
-- 779 sources, of which 763 have public links.
+- 1258 public entries; 211 developed profiles.
+- 2763 typed public edges; 1102 substantive edges.
+- 546 substantively connected entries and 712 substantive isolates.
+- 787 sources, of which 771 have public links.
 
 ## Breadth has outrun depth
 
 **Basis:** measurement plus interpretation.
 
-**Measured:** The atlas has 1238 public entries and 191 developed profiles. Only 15.4% of entries have the fuller profile structure.
+**Measured:** The atlas has 1258 public entries and 211 developed profiles. Only 16.8% of entries have the fuller profile structure.
 
 **Interpretation:** It is now better at showing that something belongs in the territory than at explaining what the thing means, why it matters, where it is contested and how it enters practice.
 
@@ -27,7 +27,7 @@ Measurements come from the generated public graph. Interpretations concern this 
 
 **Basis:** measurement plus design inference.
 
-**Measured:** There are 2722 typed public edges, but 1061 are conceptual, historical, human, practice or contestation relations. The substantive share is 39.0%.
+**Measured:** There are 2763 typed public edges, but 1102 are conceptual, historical, human, practice or contestation relations. The substantive share is 39.9%.
 
 **Interpretation:** Authorship, collection membership and other provenance lines answer different questions from influence, dependence or use. Combining them without visible layers makes bibliographic density look like intellectual agreement.
 
@@ -87,7 +87,7 @@ Measurements come from the generated public graph. Interpretations concern this 
 
 **Basis:** measurement plus data-quality risk.
 
-**Measured:** 124 of 273 people — 45.4% — are currently represented by initial-form labels.
+**Measured:** 124 of 275 people — 45.1% — are currently represented by initial-form labels.
 
 **Interpretation:** Initials are enough to inventory an authorship string, but not enough to guarantee a unique person. They invite duplicate records, mistaken mergers and false career or influence connections.
 
@@ -99,7 +99,7 @@ Measurements come from the generated public graph. Interpretations concern this 
 
 **Basis:** measurement plus model warning.
 
-**Measured:** Six published neighbourhoods contain 77 unique nodes, while 523 nodes are now connected; 458 connected nodes sit outside the old grouping pass.
+**Measured:** Six published neighbourhoods contain 77 unique nodes, while 546 nodes are now connected; 481 connected nodes sit outside the old grouping pass.
 
 **Interpretation:** An algorithmic cluster is produced by the current edges, exclusions, resolution setting and seed. It is not a natural school waiting to be discovered.
 
@@ -123,7 +123,7 @@ Measurements come from the generated public graph. Interpretations concern this 
 
 **Basis:** second-order observation.
 
-**Measured:** 715 entries are isolated in the substantive graph, while the largest substantive component contains 447 entries.
+**Measured:** 712 entries are isolated in the substantive graph, while the largest substantive component contains 470 entries.
 
 **Interpretation:** Isolation does not mean an idea is naturally peripheral. It often means the current source set, relation vocabulary or research history has not yet made its connections visible.
 
@@ -466,6 +466,18 @@ Measurements come from the generated public graph. Interpretations concern this 
 **Implication:** Preserve attempts, revisions, scope limits and the need for observed practice.
 
 **Test:** Can a learner distinguish a case check from a professional assessment?
+
+## Access, reading, and review are different forms of progress
+
+**Basis:** editorial observation.
+
+**Measured:** This pass read 5 complete researcher PDFs (32 pages), the 12-module OCAD pro forma, and the ISSS resource list (57 bibliographic entries). All 85 notebook comments and 14 open issues have a disposition.
+
+**Interpretation:** A longer bibliography increases discoverability. It does not show that the works have been read or that the claims have received human review. New graph claims retain candidate status.
+
+**Implication:** Prioritise primary-source verification and human review where a new distinction affects practice. Do not use link or node counts as a proxy for confidence.
+
+**Test:** Sample the new claims against their page locators; ask a human editor to accept, qualify, or reject them. Check whether a reader can distinguish original text, secondary reconstruction, and editorial application.
 
 ## Publication controls
 

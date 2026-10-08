@@ -191,6 +191,13 @@ Release 0.25 adds a source-scoped CoExplorer comparison and compares the two Ans
 - Published the Systems Sciences reading route: ISSS purpose, the François encyclopedia and Michael C. Jackson's methodological-choice work, with precise source scopes.
 - Reconciled submissions #68, #71 and #78 without duplicating canonical identities or creating speculative graph relationships.
 - Recorded Benjamin P Taylor's approval of David Ing as Systems Sciences domain steward. No access changes or invitation are implied.
+## 0.30 — 7 October 2026
+
+Complete recent SysCoI discovery intake (31 posts), Schot transition sources and exercise, OrgLens with fictional-test limits, Coding Society special-issue lead, updated events and public queue dispositions. Historical source-title checks now distinguish quoted catalogue material from production framing while retaining full privacy and credential scans.
+
+## 0.31 — 8 October 2026
+
+Map refocus, modified clicks, edge selection, and shareable card views repaired. Dedicated learning directory, twelve-module OCAD guide, ISSS bibliography (57 entries), five complete researcher-module readings (32 pages), OrgLens follow-up, map principles, and a 307-destination comparator audit. All 85 notebook comments and 14 open issues have explicit dispositions. New graph statements remain candidates with sources, locators, and scope.
 
 ## 0.26 - 19 September 2026
 
@@ -199,7 +206,3 @@ Release 0.26 connects 324 public-library resource records, 114 large-group entri
 ## 0.27 - 20 September 2026
 
 Release 0.27 reviews all fifteen open missing-entry reports from issues 69–86. Every report now resolves to a public profile with evidence boundaries, report provenance, and explicit open checks. Seven bounded office or contribution statements were added; no teacher–student, generic influence, priority, or effectiveness relation was inferred. Current atlas: 1196 public entries. See https://transduction.systems/updates/2026-09-20/.
-
-## 0.30 — 7 October 2026
-
-Complete recent SysCoI discovery intake (31 posts), Schot transition sources and exercise, OrgLens with fictional-test limits, Coding Society special-issue lead, updated events and public queue dispositions. Historical source-title checks now distinguish quoted catalogue material from production framing while retaining full privacy and credential scans.

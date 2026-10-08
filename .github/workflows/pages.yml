@@ -39,7 +39,7 @@ jobs:
       - name: Test practice pages before publication
         env:
           NODE_PATH: /tmp/practice-browser/node_modules
-        run: node scripts/test_practice_browser.js && node scripts/test_practice_presentation.js && node scripts/test_intake_browser.js && node scripts/test_maps_browser.js && node scripts/test_library_browser.js && node scripts/test_submission_review_browser.js && node scripts/test_claim_lab_browser.js && node scripts/test_weaver_browser.js && node scripts/test_update_30_browser.js
+        run: node scripts/test_practice_browser.js && node scripts/test_practice_presentation.js && node scripts/test_intake_browser.js && node scripts/test_maps_browser.js && node scripts/test_library_browser.js && node scripts/test_submission_review_browser.js && node scripts/test_claim_lab_browser.js && node scripts/test_weaver_browser.js && node scripts/test_update_30_browser.js && node scripts/test_update_31_browser.js
       - name: Record the exact deployed release and test summary
         env:
           DEPLOY_COMMIT: ${{ github.sha }}
@@ -51,7 +51,7 @@ jobs:
           from pathlib import Path
           data = json.loads(Path('data/public-data.json').read_text(encoding='utf-8'))
           manifest = {'release': data['meta']['release'], 'commit': os.environ['DEPLOY_COMMIT'], 'workflow_run_id': os.environ['DEPLOY_RUN_ID'], 'deployed_at': datetime.now(timezone.utc).isoformat()}
-          manifest['reader_release'] = json.loads(Path('sources/update-2026-10-07/review.json').read_text())['release']
+          manifest['reader_release'] = json.loads(Path('sources/update-2026-10-08/review.json').read_text())['release']
           Path('docs/deployment.json').write_text(json.dumps(manifest, indent=2) + '\n', encoding='utf-8')
           tests = {name: json.loads(Path(path).read_text()) for name, path in {'structure': 'validation/practice-structure.json', 'models': 'validation/practice-models.json', 'browser': 'validation/practice-browser/report.json', 'presentation': 'validation/practice-browser/presentation-report.json'}.items()}
           tests['commit'] = os.environ['DEPLOY_COMMIT']
@@ -78,6 +78,7 @@ jobs:
             validation/claim-lab-browser/
             validation/weaver-browser/
             validation/update-30-browser/
+            validation/update-31-browser/
           if-no-files-found: ignore
       - name: Restore narrated Encounters film
         id: encounters-cache
@@ -159,7 +160,7 @@ jobs:
           LIBRARY_BASE_URL: https://transduction.systems
           WEAVER_BASE_URL: https://transduction.systems
           UPDATE_BASE_URL: https://transduction.systems
-        run: node scripts/test_practice_browser.js && node scripts/test_practice_presentation.js && node scripts/test_maps_browser.js && node scripts/test_library_browser.js && node scripts/test_weaver_browser.js && node scripts/test_update_30_browser.js
+        run: node scripts/test_practice_browser.js && node scripts/test_practice_presentation.js && node scripts/test_maps_browser.js && node scripts/test_library_browser.js && node scripts/test_weaver_browser.js && node scripts/test_update_30_browser.js && node scripts/test_update_31_browser.js
       - name: Preserve live verification evidence and downloaded pack
         if: always()
         uses: actions/upload-artifact@v4
@@ -170,6 +171,7 @@ jobs:
             validation/library-browser/
             validation/encounters-live/
             validation/update-30-browser/
+            validation/update-31-browser/
             validation/practice-browser/*.json
             validation/practice-browser/*.png
           if-no-files-found: ignore

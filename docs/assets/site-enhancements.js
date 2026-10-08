@@ -342,11 +342,11 @@
       target: canonicalId(edge.target, redirects)
     })).filter((edge) => publicNode(edge.source) && publicNode(edge.target) && edge.source !== edge.target);
 
-    const toggle = document.createElement('button');
+    const toggle = document.createElement('a');
     toggle.id = 'mapCardToggle';
-    toggle.type = 'button';
+    toggle.href = '#view=map&display=cards';
     toggle.className = 'map-card-toggle';
-    toggle.setAttribute('aria-pressed', 'false');
+    toggle.setAttribute('aria-label', 'Switch to card view');
     toggle.textContent = 'Card view';
     const fullscreenButton = document.getElementById('mapFullscreen');
     toolbar.insertBefore(toggle, fullscreenButton || null);
@@ -368,6 +368,8 @@
       }
       const layer = document.getElementById('mapLayer')?.value || sp.get('layer') || 'substantive';
       const family = document.getElementById('mapFamily')?.value || 'all';
+      const selectedDepth = document.getElementById('mapDepth')?.value || sp.get('depth') || '1';
+      const depth = selectedDepth === 'path' ? '1' : selectedDepth;
       const relations = edges
         .filter((edge) => edge.source === focusId || edge.target === focusId)
         .filter((edge) => layerAllows(edge, layer))
@@ -400,7 +402,7 @@
               const evidenceSources = parseList(edge.source_ids).map((id) => sources.get(id)).filter(Boolean);
               const sourceCount = evidenceSources.length;
               return `<article class="map-card-relation">
-                <p><a href="#view=map&layer=${encodeURIComponent(layer)}&family=${encodeURIComponent(family)}&depth=1&focus=${encodeURIComponent(otherId)}"><strong>${esc(other?.label || otherId)}</strong></a><br><span>${esc(sentence)}</span></p>
+                <p><a href="#view=map&layer=${encodeURIComponent(layer)}&family=${encodeURIComponent(family)}&depth=${encodeURIComponent(depth)}&display=cards&focus=${encodeURIComponent(otherId)}"><strong>${esc(other?.label || otherId)}</strong></a><br><span>${esc(sentence)}</span></p>
                 <p class="map-card-meta">${esc(publicStatus(edge.claim_status))}${sourceCount ? ` · ${sourceCount} source${sourceCount === 1 ? '' : 's'}` : ''}</p>
                 <details class="map-card-evidence"><summary>Sources and wording</summary><p>${esc(edge.scope_conditions || edge.notes || 'No further scope recorded.')}</p><p>${esc(edge.source_locator || edge.evidence_locator || 'See the linked source and the full entry for the recorded evidence.')}</p><ul>${evidenceSources.map(source => `<li>${source.url && source.public_link_status === 'public_link' ? `<a href="${esc(source.url)}">${esc(source.title)}</a>` : esc(source.title)}</li>`).join('')}</ul></details>
               </article>`;
@@ -419,25 +421,28 @@
 
     function setCardMode(enabled) {
       graphWrap.classList.toggle('map-card-mode', enabled);
-      toggle.setAttribute('aria-pressed', String(enabled));
+      toggle.setAttribute('aria-label', enabled ? 'Switch to graph view' : 'Switch to card view');
       toggle.textContent = enabled ? 'Graph view' : 'Card view';
+      const params = new URLSearchParams(location.hash.slice(1));
+      params.set('view', 'map');
+      params.set('display', enabled ? 'graph' : 'cards');
+      toggle.href = '#' + params.toString();
       if (enabled) renderCards();
       window.dispatchEvent(new Event('tangle-map-view-change'));
     }
 
-    let chosenView = false;
-    toggle.addEventListener('click', () => {
-      chosenView = true;
-      setCardMode(!graphWrap.classList.contains('map-card-mode'));
-    });
     const narrowScreen = window.matchMedia('(max-width: 600px)');
-    const responsiveView = () => { if (!chosenView) setCardMode(narrowScreen.matches); };
+    const responsiveView = () => {
+      const display = new URLSearchParams(location.hash.slice(1)).get('display');
+      setCardMode(display === 'cards' || (display !== 'graph' && narrowScreen.matches));
+    };
     narrowScreen.addEventListener('change', responsiveView);
     responsiveView();
     // Focus also changes through search and controls that use pushState.
-    new MutationObserver(() => window.requestAnimationFrame(renderCards))
+    new MutationObserver(() => window.requestAnimationFrame(responsiveView))
       .observe(document.getElementById('graphNodes'), { childList: true });
-    window.addEventListener('hashchange', () => window.requestAnimationFrame(renderCards));
+    window.addEventListener('hashchange', () => window.requestAnimationFrame(responsiveView));
+    window.addEventListener('popstate', () => window.requestAnimationFrame(responsiveView));
     document.getElementById('mapLayer')?.addEventListener('change', () => window.requestAnimationFrame(renderCards));
     document.getElementById('mapFamily')?.addEventListener('change', () => window.requestAnimationFrame(renderCards));
   }
