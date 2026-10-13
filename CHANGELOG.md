@@ -198,6 +198,9 @@ Complete recent SysCoI discovery intake (31 posts), Schot transition sources and
 ## 0.31 — 8 October 2026
 
 Map refocus, modified clicks, edge selection, and shareable card views repaired. Dedicated learning directory, twelve-module OCAD guide, ISSS bibliography (57 entries), five complete researcher-module readings (32 pages), OrgLens follow-up, map principles, and a 307-destination comparator audit. All 85 notebook comments and 14 open issues have explicit dispositions. New graph statements remain candidates with sources, locators, and scope.
+## 0.32 — 13 October 2026
+
+Rewritten reader-first About, practical and evidence guides, eleven attributed map and collection routes, and eight selected Design Horizon resources with source links and editorial questions. Duplicate map copies grouped; unavailable originals and intake-enumeration limits exposed. No canonical graph relationships or approved Systemic Evolution files changed.
 
 ## 0.26 - 19 September 2026
 

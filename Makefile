@@ -1,10 +1,11 @@
 .PHONY: build build-base apply-current apply-practice apply-missing-entry-reports validate serve clean
 
-build: build-base apply-current apply-practice apply-september apply-intake apply-maps apply-library apply-missing-entry-reports apply-submission-review apply-claim-lab apply-weaver apply-update-30 apply-update-31
+build: build-base apply-current apply-practice apply-september apply-intake apply-maps apply-library apply-missing-entry-reports apply-submission-review apply-claim-lab apply-weaver apply-update-30 apply-update-31 apply-update-32
 
 # Historical validators assert historical release identifiers. Rebuild that
 # baseline, run its gates, then apply and validate the current release.
 build-base:
+	python3 scripts/prepare_update_32_baseline.py
 	python3 scripts/prepare_update_31_baseline.py
 	python3 scripts/patch_reader_31.py --reverse
 	python3 scripts/prepare_update_30_baseline.py
@@ -174,6 +175,9 @@ validate: build-base
 	$(MAKE) apply-update-31
 	python3 scripts/validate_public.py
 	python3 scripts/validate_update_31.py
+	$(MAKE) apply-update-32
+	python3 scripts/validate_public.py
+	python3 scripts/validate_update_32.py
 
 apply-missing-entry-reports:
 	python3 scripts/apply_missing_entry_reports_27.py
@@ -230,3 +234,7 @@ apply-update-31:
 	python3 scripts/apply_update_31.py
 	python3 scripts/build_public_knowledge.py
 	python3 scripts/patch_reader_31.py
+
+apply-update-32:
+	python3 scripts/apply_update_32.py
+	python3 scripts/build_public_knowledge.py

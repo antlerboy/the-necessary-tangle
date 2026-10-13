@@ -1,37 +1,25 @@
 # How to read The Necessary Tangle
 
-Start with a question, an entry or a guided journey. Do not start by trying to absorb the full map.
+Start with one question or entry. The full map can wait. The public [how-to guide](https://transduction.systems/about/how-to-use/) gives a worked route through feedback; [sources and uncertainty](https://transduction.systems/about/evidence/) explains the evidence labels.
 
-## Entries
+## Choose a route
 
-An entry may be:
+Explore searches people, concepts, methods and works. Guided journeys explain a short sequence of connected entries. Map shows recorded connections, with filters and card view. Ask helps locate entries and prepare inspectable source context; it doesn't send a question to an AI service automatically.
 
-- **Developed entry** — a fuller research pass with distinctions, history, dependencies, practice connections, confusions and open checks;
-- **Brief entry** — a readable orientation with sources;
-- **Outline only** — included in the map but not yet responsibly described.
+## Read an entry and its connections
 
-These are measures of curatorial depth, not ranks of importance.
+A developed entry has received a fuller research pass; a brief entry offers shorter orientation. Neither label ranks importance or establishes final consensus. Open the entry's sources and select a connection to read its exact wording, direction, scope and status. Authorship, teaching, citation, influence, comparison and disagreement are different claims.
 
-## Connections
+## Read evidence carefully
 
-A line is a sentence with a direction, type, scope, status and evidence. Select the line to inspect it.
+A bibliography proves that a work was cited, not that its argument was adopted. Candidate and provisional statements require further checking; accepted statements remain limited to their wording and evidence. Disputed accounts can stay visible. Layout and number of links don't prove importance or influence.
 
-A line may mean, for example:
+Public links may still lead to access restrictions. No public link means an identifiable published work is cited without an open copy, not that private correspondence has become public evidence.
 
-- concept A is required to define concept B;
-- A was a historical precursor to B;
-- a publication explicitly influenced a later author;
-- one person taught or supervised another;
-- a method uses a concept in practice;
-- two ideas are often confused;
-- an asserted connection is disputed.
+## Compare earlier maps
 
-One meaning must not be silently substituted for another.
+The [maps directory](https://transduction.systems/prior-maps/sources/) keeps author, date, purpose, reference and access status together. A source map's historical lines aren't automatically accepted into the atlas. The [Design Horizon selections](https://transduction.systems/reading/design-horizon/) provide another route into practice, with editorial questions and original source links.
 
-## Sources
+## Suggest a correction
 
-‘Public link’ means the source can be opened from the website. ‘No public link’ means a legitimate published or archived item has been cited but no open copy is supplied. It does not mean the source is private email or an internal company document.
-
-## Status
-
-Accepted, provisional, disputed and superseded records can all be visible. The status applies to the exact wording and scope of the record, not necessarily to every wider statement someone might derive from it.
+Name the entry or connection, the proposed change and the source or passage. The contribution form prepares an email or issue; the contributor decides whether to send it. Review comes before publication.

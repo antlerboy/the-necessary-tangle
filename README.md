@@ -1,7 +1,7 @@
 # The Necessary Tangle
 
 <!-- current-31 -->
-Current release: **0.31, 8 October 2026**. [Read the complete update](https://transduction.systems/updates/2026-10-08/), [learning directory](https://transduction.systems/learning/), and [remaining work](https://transduction.systems/updates/2026-10-08/#issues).
+Current release: **0.32, 13 October 2026**. [About](https://transduction.systems/#view=about), [how to use the atlas](https://transduction.systems/about/how-to-use/), [referenced maps](https://transduction.systems/prior-maps/sources/), and [Design Horizon reading routes](https://transduction.systems/reading/design-horizon/). [Read the update and remaining work](https://transduction.systems/updates/2026-10-13/).
 <!-- /current-31 -->
 ## Release 0.23
 
@@ -134,6 +134,10 @@ Release 0.24 adds seven profiles and twelve scoped statements from eight primary
 ## Release 0.25
 
 Release 0.25 adds a source-scoped CoExplorer comparison and compares the two Anselm articles, with their individual recommendations still unverified. Canonical graph counts remain 785 public entries, 912 total nodes, 2,112 statements, 315 sources, and 173 profiles. No new canonical claims or complete external datasets are imported. See https://transduction.systems/prior-maps/coexplorer/ and sources/maps-2026-09-19/. Dataset reconciliation and specialist review remain open.
+## Current intake: release 0.30
+
+Read https://transduction.systems/updates/2026-10-07/ for the complete dated intake and queue decisions, and https://transduction.systems/reading/socio-technical-transitions/ for Schot sources and the labelled practice exercise. The maintained event snapshot includes 230 listings, 130 upcoming; source failures remain visible.
+
 ## Release 0.26
 
 Release 0.26 connects 324 public-library resource records, 114 large-group entries, and eight now-public teaching-source URLs. The source register also includes Chosen Path and SysCoi post metadata, with automated discovery matches explicitly separated from located teaching claims. The private research inventory contains 2,943 indexed records; public bibliographic reconciliation is tracked separately. Current atlas: 1196 public entries, 1323 nodes, 3006 statements, and 715 sources. No independent specialist review is claimed. See https://transduction.systems/library/.
@@ -141,7 +145,3 @@ Release 0.26 connects 324 public-library resource records, 114 large-group entri
 ## Release 0.27
 
 Release 0.27 reviews all fifteen open missing-entry reports from issues 69–86. Every report now resolves to a public profile with evidence boundaries, report provenance, and explicit open checks. Seven bounded office or contribution statements were added; no teacher–student, generic influence, priority, or effectiveness relation was inferred. Current atlas: 1196 public entries. See https://transduction.systems/updates/2026-09-20/.
-
-## Current intake: release 0.30
-
-Read https://transduction.systems/updates/2026-10-07/ for the complete dated intake and queue decisions, and https://transduction.systems/reading/socio-technical-transitions/ for Schot sources and the labelled practice exercise. The maintained event snapshot includes 230 listings, 130 upcoming; source failures remain visible.
