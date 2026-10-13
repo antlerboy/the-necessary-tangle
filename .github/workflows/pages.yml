@@ -51,7 +51,7 @@ jobs:
           from pathlib import Path
           data = json.loads(Path('data/public-data.json').read_text(encoding='utf-8'))
           manifest = {'release': data['meta']['release'], 'commit': os.environ['DEPLOY_COMMIT'], 'workflow_run_id': os.environ['DEPLOY_RUN_ID'], 'deployed_at': datetime.now(timezone.utc).isoformat()}
-          manifest['reader_release'] = json.loads(Path('sources/update-2026-10-08/review.json').read_text())['release']
+          manifest['reader_release'] = data['meta']['release']
           Path('docs/deployment.json').write_text(json.dumps(manifest, indent=2) + '\n', encoding='utf-8')
           tests = {name: json.loads(Path(path).read_text()) for name, path in {'structure': 'validation/practice-structure.json', 'models': 'validation/practice-models.json', 'browser': 'validation/practice-browser/report.json', 'presentation': 'validation/practice-browser/presentation-report.json'}.items()}
           tests['commit'] = os.environ['DEPLOY_COMMIT']
