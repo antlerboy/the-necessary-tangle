@@ -21,7 +21,7 @@ jobs:
         uses: actions/checkout@v7
         with:
           repository: antlerboy/systemsmap
-          ref: 22f68feb88286ea9896174ff5ed9a1f8b1533daa
+          ref: 9badbbf172c4bda75ed1e5494a48880e05b1dc50
           path: _systemsmap
           persist-credentials: false
       - name: Install media inspection dependency
@@ -39,7 +39,7 @@ jobs:
       - name: Test practice pages before publication
         env:
           NODE_PATH: /tmp/practice-browser/node_modules
-        run: node scripts/test_practice_browser.js && node scripts/test_practice_presentation.js && node scripts/test_intake_browser.js && node scripts/test_maps_browser.js && node scripts/test_library_browser.js && node scripts/test_submission_review_browser.js && node scripts/test_claim_lab_browser.js && node scripts/test_weaver_browser.js && node scripts/test_update_30_browser.js && node scripts/test_update_31_browser.js && node scripts/test_update_32_browser.js
+        run: node scripts/test_events_browser.js && node scripts/test_practice_browser.js && node scripts/test_practice_presentation.js && node scripts/test_intake_browser.js && node scripts/test_maps_browser.js && node scripts/test_library_browser.js && node scripts/test_submission_review_browser.js && node scripts/test_claim_lab_browser.js && node scripts/test_weaver_browser.js && node scripts/test_update_30_browser.js && node scripts/test_update_31_browser.js && node scripts/test_update_32_browser.js
       - name: Record the exact deployed release and test summary
         env:
           DEPLOY_COMMIT: ${{ github.sha }}
@@ -160,7 +160,8 @@ jobs:
           LIBRARY_BASE_URL: https://transduction.systems
           WEAVER_BASE_URL: https://transduction.systems
           UPDATE_BASE_URL: https://transduction.systems
-        run: node scripts/test_practice_browser.js && node scripts/test_practice_presentation.js && node scripts/test_maps_browser.js && node scripts/test_library_browser.js && node scripts/test_weaver_browser.js && node scripts/test_update_30_browser.js && node scripts/test_update_31_browser.js && node scripts/test_update_32_browser.js
+          EVENTS_BASE_URL: https://transduction.systems
+        run: node scripts/test_events_browser.js && node scripts/test_practice_browser.js && node scripts/test_practice_presentation.js && node scripts/test_maps_browser.js && node scripts/test_library_browser.js && node scripts/test_weaver_browser.js && node scripts/test_update_30_browser.js && node scripts/test_update_31_browser.js && node scripts/test_update_32_browser.js
       - name: Preserve live verification evidence and downloaded pack
         if: always()
         uses: actions/upload-artifact@v4

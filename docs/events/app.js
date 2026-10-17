@@ -43,7 +43,7 @@
   }
   function render(){
     filtered=events.filter(match);$('#count').textContent=`${filtered.length} event${filtered.length===1?'':'s'}`;
-    $('#category-title').textContent=$('#topics input:checked').value==='relational-public-services'?'Relational public services':'Systems, cybernetics and complexity events';
+    $('#category-title').textContent=$('#topics input:checked').value==='relational-public-services'?'Relational public services':'systems | cybernetics | complexity events';
     $('#results').innerHTML=filtered.length?filtered.slice(0,limit).map(card).join(''):'<div class="empty"><strong>No events match these filters.</strong><p>Try a wider date range, another subject, or fewer filters. The sources register shows where coverage is still incomplete.</p><button class="secondary" data-reset>Clear filters</button></div>';
     $('#more').textContent=`Show more (${Math.min(limit,filtered.length)} of ${filtered.length} shown)`;$('#more').hidden=filtered.length<=limit;$('#export').disabled=!filtered.some(e=>e.calendarEligible);
     renderPins();saveFilters();
