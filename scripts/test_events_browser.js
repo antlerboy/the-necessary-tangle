@@ -44,6 +44,11 @@ async function main(){
   assert(await page.locator('[aria-label="Open updates"]').isVisible());
   const overflow=await page.evaluate(()=>[...document.querySelectorAll('body *')].filter(element=>{const box=element.getBoundingClientRect();return box.width>0&&box.right>innerWidth+1&&getComputedStyle(element).position!=='absolute';}).map(element=>({tag:element.tagName,id:element.id,className:typeof element.className==='string'?element.className:'',right:Math.round(element.getBoundingClientRect().right)})).slice(0,12));
   assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),'Events overflow '+width+' '+JSON.stringify(overflow));
+  const localToday=await page.evaluate(()=>{const d=new Date();return [d.getFullYear(),String(d.getMonth()+1).padStart(2,'0'),String(d.getDate()).padStart(2,'0')].join('-');});
+  const visibleIds=await page.locator('#results .event-card').evaluateAll(cards=>cards.map(card=>card.id.slice('event-'.length)));
+  for(const event of eventData.events.filter(event=>visibleIds.includes(event.id))){
+   assert(!(event.allDay&&event.end&&event.end.slice(0,10)<=localToday),'Ended all-day event shown as upcoming: '+event.title);
+  }
   await page.locator('#period').selectOption('all');
   for(const query of ['systems','cybernetics','complexity']){
    await page.locator('#q').fill(query);

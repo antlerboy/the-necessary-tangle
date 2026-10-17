@@ -10,7 +10,7 @@ Scope: systemsmap frontend, README and interface tests; this repository's events
 
 Sources: systemsmap issue #7; CSH Lasmi Marbun 20 October event JSON-LD; maintained JSON and ICS. The organiser's explicit 15:00–15:30 +02:00 agrees with the exported 13:00–13:30 UTC. No reschedule or time correction is established.
 
-Acceptance: 17 Python calendar/submission tests, Node interface/three-label tests and systemsmap asset validation passed. The complete make validate gate passed after a clean corrective rebuild. The supported local preview was unavailable because its process sandbox could not mount /proc; no substitute browser installed. Publishing CI now checks the events page and queue at 1440px/390px, the three label searches, feedback, and a downloaded CSH ICS before deployment and on the live page. No test form submitted. Exact deployed commit and CI outcome are recorded in deployment.json and the Publish workflow.
+Acceptance: 18 Python calendar/submission tests, Node interface/three-label tests and systemsmap asset validation passed. The complete make validate gate passed after a clean corrective rebuild. The supported local preview was unavailable because its process sandbox could not mount /proc; no substitute browser installed. Publishing CI now checks the events page and queue at 1440px/390px, the three label searches, feedback, and a downloaded CSH ICS before deployment and on the live page. No test form submitted. Exact deployed commit and CI outcome are recorded in deployment.json and the Publish workflow.
 
 Stop after successful deployment and live checks. Maximum one corrective pass for a named failure. Further source research or unrelated graph work is outside this packet.
 

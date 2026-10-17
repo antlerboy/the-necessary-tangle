@@ -37,7 +37,7 @@
     const language=$('#language').value;
     const q=$('#q').value.trim().toLocaleLowerCase(), p=$('#period').value, org=$('#org').value, fmt=$('#format').value, country=$('#country').value, topic=$('#topics input:checked').value;
     const ends=e.end||e.start;
-    if(p!=='all' && (e.allDay?ends.slice(0,10)<today():new Date(ends)<new Date()))return false;
+    if(p!=='all' && (e.allDay?(e.end?ends.slice(0,10)<=today():ends.slice(0,10)<today()):new Date(ends)<new Date()))return false;
     if(/^\d+$/.test(p) && dateOnly(e.start)>new Date(Date.now()+Number(p)*86400000))return false;
     return (!q||[e.title,e.description,e.organiser,e.location,e.country,e.language,e.languageRequirement,e.interpretation,e.access,...focus(e),...e.topics.map(t=>labels[t])].join(' ').toLocaleLowerCase().includes(q))&&(!language||languages(e).includes(language))&&(!org||e.organisationIds.includes(org))&&(!fmt||e.format===fmt)&&(!country||e.country===country||focus(e).includes(country))&&(!topic||e.topics.includes(topic));
   }
