@@ -1,6 +1,6 @@
 """Publish the maintained systemsmap interface inside The Necessary Tangle."""
 from pathlib import Path
-import json,shutil,re,html
+import json,shutil,re,html,hashlib
 root=Path(__file__).resolve().parents[1]
 source=next((p for p in [root/'_systemsmap/dist',root.parent/'systemsmap/dist'] if (p/'index.html').exists()),None)
 if source is None:raise SystemExit('Clone antlerboy/systemsmap into _systemsmap before building the events integration.')
@@ -35,3 +35,11 @@ assert (target/'submissions.html').exists() and (target/'submissions.js').exists
 print('Integrated systems events at /events/; collector, stable feeds, and submission queue remain in systemsmap.')
 
 assert re.search(r"Quick submission\s*[—,;:-]\s*just a link", (target/"index.html").read_text())
+
+# New HTML must not reuse a returning visitor's cached interface or stylesheet.
+for page in [target/'index.html',target/'submissions.html']:
+ text=page.read_text()
+ for asset in ['app.js','style.css','submissions.js']:
+  digest=hashlib.sha256((target/asset).read_bytes()).hexdigest()[:12]
+  text=re.sub(r'((?:src|href)=\")'+re.escape(asset)+r'(?:\?[^\"]*)?(\")',lambda m:m[1]+asset+'?v='+digest+m[2],text)
+ page.write_text(text)
