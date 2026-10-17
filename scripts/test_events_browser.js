@@ -33,7 +33,7 @@ async function main(){
   assert.equal(await page.title(),title);
   assert.equal(await page.locator('h1').textContent(),title);
   assert((await page.locator('meta[name="description"]').getAttribute('content')).startsWith(title));
-  assert(await page.getByRole('link',{name:'Open updates',exact:true}).isVisible());
+  assert(await page.locator('[aria-label="Open updates"]').isVisible());
   assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),'Events overflow '+width);
   await page.locator('#period').selectOption('all');
   for(const query of ['systems','cybernetics','complexity']){
