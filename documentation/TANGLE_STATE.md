@@ -18,7 +18,7 @@ Rewritten About and two practical reader guides. The referenced maps directory c
 
 ## Events interface update, 17 October 2026
 
-Systemsmap revision `9badbbf172c4bda75ed1e5494a48880e05b1dc50` implements issue #7's 'systems | cybernetics | complexity events' public naming and verifies that all three subject labels are searchable independently of title text. The integrated page, social/structured metadata and queue use the same name. Publishing, validation and backup use the same reviewed pin. Event JSON and subscriptions continue to load from maintained systemsmap main; the existing redirect/submission service is preserved.
+Systemsmap revision `69faaf8d54786977e75817f8b5e07085c8ad21d3` implements issue #7's 'systems | cybernetics | complexity events' public naming and verifies that all three subject labels are searchable independently of title text. The integrated page, social/structured metadata and queue use the same name. Publishing, validation and backup use the same reviewed pin. Event JSON and subscriptions continue to load from maintained systemsmap main; the existing redirect/submission service is preserved.
 
 The CSH 20 October Lasmi Marbun event's structured start/end explicitly give 15:00–15:30 +02:00; its stable-UID calendar exports 13:00–13:30 UTC. These agree. The organiser's visible clock lacks a time-zone label, so no two-hour move or reschedule is inferred. The public repository review records this source distinction. The systemsmap refresh workflow has completed a new collection and publication.
 

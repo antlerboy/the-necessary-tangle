@@ -42,7 +42,8 @@ async function main(){
   assert.equal(await page.locator('h1').textContent(),title);
   assert((await page.locator('meta[name="description"]').getAttribute('content')).startsWith(title));
   assert(await page.locator('[aria-label="Open updates"]').isVisible());
-  assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),'Events overflow '+width);
+  const overflow=await page.evaluate(()=>[...document.querySelectorAll('body *')].filter(element=>{const box=element.getBoundingClientRect();return box.width>0&&box.right>innerWidth+1&&getComputedStyle(element).position!=='absolute';}).map(element=>({tag:element.tagName,id:element.id,className:typeof element.className==='string'?element.className:'',right:Math.round(element.getBoundingClientRect().right)})).slice(0,12));
+  assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),'Events overflow '+width+' '+JSON.stringify(overflow));
   await page.locator('#period').selectOption('all');
   for(const query of ['systems','cybernetics','complexity']){
    await page.locator('#q').fill(query);
