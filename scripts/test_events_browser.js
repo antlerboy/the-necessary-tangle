@@ -17,6 +17,14 @@ async function main(){
   await new Promise(resolve=>server.listen(0,'127.0.0.1',resolve));
   base='http://127.0.0.1:'+server.address().port;
  }
+ const eventData=process.env.EVENTS_BASE_URL
+  ? await fetch('https://raw.githubusercontent.com/antlerboy/systemsmap/main/dist/data/events.json').then(response=>{assert(response.ok);return response.json();})
+  : JSON.parse(fs.readFileSync(path.join(root,'events/data/events.json'),'utf8'));
+ // Use the reported CSH case while retained, then a current timed event. Do not
+ // turn an expired event into a permanent publication blocker.
+ const example=eventData.events.find(event=>event.id==='0c75ea1398ff9f9ccd5553f1')||eventData.events.find(event=>event.calendarEligible&&!event.allDay);
+ assert(example,'A timed event is available for calendar export');
+ const utc=value=>new Date(value).toISOString().replace(/[-:]/g,'').replace(/\.\d{3}/,'');
  browser=await chromium.launch();
  for(const width of [1440,390]){
   const page=await browser.newPage({viewport:{width,height:900},reducedMotion:'reduce'});
@@ -41,21 +49,25 @@ async function main(){
    await page.waitForFunction(()=>parseInt(document.querySelector('#count').textContent)>0);
    assert(await page.locator('#results .event-card').count()>0,query+' results at '+width);
   }
-  await page.locator('#q').fill('anticonformity');
-  await page.getByRole('button',{name:'Experimental Testing of Anticonformity to Depolarize Social System',exact:true}).click();
+  await page.locator('#q').fill(example.title);
+  await page.locator('[data-event="'+example.id+'"]').click();
   const download=page.waitForEvent('download');
   await page.getByRole('button',{name:'Add to calendar',exact:true}).click();
   const file=await download;
   const ics=fs.readFileSync(await file.path(),'utf8').replace(/\r\n /g,'');
-  assert(ics.includes('UID:0c75ea1398ff9f9ccd5553f1@systemsmap.antlerboy.com'));
-  assert(ics.includes('DTSTART:20261020T130000Z'));
-  assert(ics.includes('DTEND:20261020T133000Z'));
+  assert(ics.includes('UID:'+example.id+'@systemsmap.antlerboy.com'));
+  assert(ics.includes('DTSTART:'+utc(example.start)));
+  if(example.end)assert(ics.includes('DTEND:'+utc(example.end)));
+  if(example.id==='0c75ea1398ff9f9ccd5553f1'){
+   assert(ics.includes('DTSTART:20261020T130000Z'));
+   assert(ics.includes('DTEND:20261020T133000Z'));
+  }
   await page.locator('#detail .close').click();
   await page.goto(base+'/events/submissions.html');
   assert((await page.title()).includes(title));
   assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),'Queue overflow '+width);
   await page.close();
  }
- console.log('Events checks passed: naming/metadata, three subject searches, stable CSH calendar time/UID, queue, feedback, desktop and mobile. No form submitted.');
+ console.log('Events checks passed: naming/metadata, three subject searches, stable calendar time/UID (CSH while retained), queue, feedback, desktop and mobile. No form submitted.');
 }
 main().catch(error=>{console.error(error);process.exitCode=1;}).finally(async()=>{if(browser)await browser.close();if(server)await new Promise(resolve=>server.close(resolve));});
