@@ -2,7 +2,7 @@
 from pathlib import Path
 from html.parser import HTMLParser
 from urllib.parse import urlsplit, unquote, parse_qs
-import hashlib, json, subprocess, sys
+import hashlib, json, subprocess, sys, re
 R=Path(__file__).resolve().parents[1]; D=R/'docs'; S=R/'sources/update-2026-10-18'
 p=json.loads((S/'syscoi-review.json').read_text(encoding='utf-8'))
 a=json.loads((S/'ashby-review.json').read_text(encoding='utf-8'))
@@ -45,6 +45,10 @@ assert text.count('<article id="chapter-')==4
 assert a['url'] in text and a['book_url'] in text and a['bibliography_url'] in text
 assert a['url']+'#' not in text
 assert 'unrestricted code licence' in text and 'full interactive correctness' in text
+from validate_iteration_14 import editorial_framing_text
+assert not re.search(r'\bChatGPT\b', editorial_framing_text(a['url']), re.I)
+assert re.search(r'\bChatGPT\b', editorial_framing_text('Production notes mention ChatGPT.'), re.I)
+assert re.search(r'\bChatGPT\b', editorial_framing_text('https://another.chatgpt.site/'), re.I)
 from apply_release_21 import COMPARATOR_SHA256, RECONCILIATION_SHA256
 for name,expected in [('comparator-systemic-evolution.json',COMPARATOR_SHA256),('systemic-evolution-reconciliation.json',RECONCILIATION_SHA256)]:
     assert hashlib.sha256((R/'data'/name).read_bytes()).hexdigest()==expected

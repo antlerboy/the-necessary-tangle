@@ -77,6 +77,13 @@ SECRET_PATTERNS = (
 )
 
 
+def editorial_framing_text(text: str) -> str:
+    # This verified public resource URL names its host, not the atlas's
+    # production process. Only the exact URL is omitted from the prose check;
+    # the complete text still receives every secret and private-marker scan.
+    return text.replace("https://ashby-laboratory.benjaming98765.chatgpt.site/", "")
+
+
 def parse(value, fallback=None):
     if fallback is None:
         fallback = []
@@ -257,7 +264,7 @@ def main() -> int:
         # descriptions. They may discuss AI providers or conversations; they
         # are source records rather than the atlas's production framing.
         if path != DOCS / 'library' / 'catalogue.json':
-            editorial_chunks.append(text)
+            editorial_chunks.append(editorial_framing_text(text))
     public_text = "\n".join(chunks)
     editorial_text = "\n".join(editorial_chunks)
     for pattern in FORBIDDEN_PATTERNS:

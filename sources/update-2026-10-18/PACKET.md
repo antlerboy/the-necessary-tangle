@@ -12,4 +12,6 @@ Scope: dated source manifests, additive release generator/baseline and outputs, 
 
 Acceptance: make validate in the existing Linux CI environment; current-intake reconciliation, links, attribution, candidate scope and idempotence; desktop/mobile reader checks before publication and on the live site; exact remote commit and deployment.json identity. The event collector must pass calendar/interface/asset checks and retain original organisers, stable UIDs and visible source failures.
 
+The first complete build identified a prose-check false positive in the verified laboratory hostname. The corrective change omits only that exact URL from the production-framing scan; all original text remains subject to credential and private-path checks. Regression assertions retain detection of production prose and other hostnames.
+
 Stop after publication and verified live identity. Further primary-source review, independent exercise QA and disputed historical or policy claims remain open. Direct publication is authorised by the current request and AGENTS.md; access controls remain in force.
