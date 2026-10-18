@@ -1,10 +1,20 @@
 # Current Tangle state
 
-Last verified: 13 October 2026 (complete build and source checks; deployment identity and live reader checks are recorded by deployment.json and CI).
+Last verified: 18 October 2026 (bounded source intake and event publication; the complete build, exact deployment identity and live reader checks remain recorded by deployment.json and CI).
 
 Public site: https://transduction.systems/
 
-Release 0.32. 1259 public entries, 3097 recorded edges, 787 sources, and 212 profiles. Counts describe the dataset, not universal coverage or human acceptance. Machine quality snapshot: data/relationship-quality.json.
+Release 0.33. 1281 public entries, 3122 recorded edges, 809 sources, and 212 profiles. Counts describe the dataset, not universal coverage or human acceptance. Machine quality snapshot: data/relationship-quality.json.
+
+## Bounded refresh, 18 October 2026
+
+The source packet is sources/update-2026-10-18/PACKET.md. All 27 SysCoI posts published 8–18 October are accounted for: 20 new discovery records and seven announcements linked to existing resources. Original destinations and SysCoI provenance remain visible. Twenty new edges document collection membership; five source-scoped candidate statements describe the laboratory's educational coverage, without inferring historical influence or effectiveness.
+
+The attributed Ashby Laboratory route covers four pathways through chapters 3–6, 56 exercises and a 45-entry glossary. Links open the root app and identify chapters/exercises; unsupported deep links are not invented. The primary book and bibliography use the public Ashby archive. App content and engine were inspected; independent interactive correctness testing and unrestricted code rights are not claimed.
+
+The maintained events workflow 39172843606 succeeded on 18 October. Its collection has 252 listings, 112 upcoming, with 11 of 36 sources yielding dated events and seven failures retained visibly. The new Bernhard Sterchi / Complexity Lounge talk is 20 October, 17:00–19:00 Europe/London, online; organiser JSON-LD gives equivalent 12:00–14:00 -04:00. Calendar exports use 16:00–18:00 UTC. Subscription identity is 713d6c13ee642d282c8f0e07@systemsmap.antlerboy.com.
+
+Full primary reading of every new lead, exercise QA and historical attribution disputes remain open. Curator responsibility, private-source boundaries and the source-owner-approved Systemic Evolution package are preserved.
 
 The current source packet is sources/update-2026-10-08/PACKET.md and review.json. It accounts for all 85 update-notebook comments and 14 open issues at the start of the pass. The public result is /updates/2026-10-08/. New graph statements are source-located candidates awaiting human editorial decisions. The source-owner-reviewed Systemic Evolution comparator remains unchanged.
 

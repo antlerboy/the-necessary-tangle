@@ -1,0 +1,50 @@
+{
+  "title": "Ashby Laboratory",
+  "url": "https://ashby-laboratory.benjaming98765.chatgpt.site/",
+  "checked": "2026-10-18",
+  "attribution": "An independent interactive learning resource adapting concepts from W. Ross Ashby's An Introduction to Cybernetics (1956). Authorship of the original book belongs to Ashby; the modern exercises are adaptations.",
+  "scope": "56 exercises across chapters 3–6 and 45 glossary entries. Public content.js, app.js and engine.js inspected; full interactive correctness and accessibility testing are not claimed.",
+  "navigation": "Open the root application, choose the chapter, then the named exercise. The application does not implement stable exercise URLs.",
+  "rights": "Links and original editorial descriptions only. No unrestricted code licence was established; no app code, diagrams, answers or substantial source passages are reproduced.",
+  "book_url": "https://ashby.info/Ashby-Introduction-to-Cybernetics.pdf",
+  "bibliography_url": "https://ashby.info/bibliography.html",
+  "chapters": [
+    {
+      "chapter": 3,
+      "exercises": 12,
+      "title": "Describe states and follow transformations",
+      "locator": "Chapter 3 exercise collection",
+      "summary": "Explore whether a state description is sufficient to predict the next state. Compare transformations, closure, trajectories, basins, equilibria and cycles; distinguish a phase plot from a time plot, determinism from reversibility, and convergence from finite arrival. Vector updates happen simultaneously.",
+      "question": "Would two systems with the same recorded state always have the same next recorded state?",
+      "atlas_ids": ["concept_modelling", "concept_observer"]
+    },
+    {
+      "chapter": 4,
+      "exercises": 17,
+      "title": "Investigate inputs, coupling and boundaries",
+      "locator": "Chapter 4; Whose input is it?; Two graphs, two questions",
+      "summary": "Inputs select transformations, and different controls may produce the same result. Test clamping, coupling, rewiring, transients, delays and reachability. Compare a diagram of component dependencies with a graph of complete states. What counts as input or output depends on the chosen boundary.",
+      "question": "Which boundary makes this quantity an input, and which graph answers your question?",
+      "atlas_ids": ["concept_boundary", "concept_feedback", "concept_modelling"]
+    },
+    {
+      "chapter": 5,
+      "exercises": 13,
+      "title": "Test what stability means",
+      "locator": "Chapter 5 stability exercises, including bus bunching",
+      "summary": "A set can remain stable while its members continue to move. Explore closure under composition, stability relative to specified disturbances, neutral equilibrium and bus bunching. The sign of a feedback loop alone does not establish the stability of the whole system.",
+      "question": "Stable with respect to which disturbance, and over which set of states?",
+      "atlas_ids": ["law_or_principle_system_stability_principle", "concept_feedback", "concept_negative_feedback"]
+    },
+    {
+      "chapter": 6,
+      "exercises": 14,
+      "title": "Learn from a black box without inventing its behaviour",
+      "locator": "Chapter 6; A blank is not a self-loop; Choose a revealing experiment; Why this simplification breaks; Let yesterday reveal a hidden state",
+      "summary": "Build observation protocols and choose experiments that distinguish competing accounts. Keep unknown transitions unknown and distinguish inaccessible states from untested ones. Compare isomorphism with coarse-graining, test which distinctions a weak model loses, and use observation history when the current recorded state is insufficient.",
+      "question": "Which next observation would distinguish the models, and what has your simplification hidden?",
+      "atlas_ids": ["concept_black_box", "concept_isomorphism", "concept_observer", "concept_modelling"]
+    }
+  ],
+  "limits": "The app covers chapters 3–6. It is not a complete reproduction of the book. Requisite variety, the Good Regulator theorem, ultrastability and the Homeostat are not presented as demonstrations in this application. Editorial comparison links do not establish historical influence or equivalence between accounts."
+}

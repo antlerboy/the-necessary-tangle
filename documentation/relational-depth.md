@@ -8,10 +8,10 @@ Generated: `2026-08-14`
 
 The atlas now treats relational richness as maintained data, not a visual impression. Every canonical public entry has a structural connection band and a separate evidence band. This makes it possible to add provisional routes without pretending that repetition, plausibility or graph density is proof.
 
-- 1218 of 1259 entries have at least one reader connection.
-- 98 are structurally rich, 239 developing, 881 thin and 41 unconnected.
-- 547 have at least one non-documentary semantic, historical, human, identity, practice, influence or contestation route.
-- Evidence is 203 supported, 273 mixed, 742 provisional and 41 absent at entry level.
+- 1240 of 1281 entries have at least one reader connection.
+- 99 are structurally rich, 238 developing, 903 thin and 41 unconnected.
+- 548 have at least one non-documentary semantic, historical, human, identity, practice, influence or contestation route.
+- Evidence is 203 supported, 273 mixed, 764 provisional and 41 absent at entry level.
 
 ## What counts
 
@@ -42,9 +42,9 @@ The template is an editorial checklist, not an invitation to fill six slots with
 | Entity type | Total | Rich | Developing | Thin | Unconnected |
 | --- | ---: | ---: | ---: | ---: | ---: |
 | approach family | 6 | 4 | 2 | 0 | 0 |
-| collection | 2 | 0 | 0 | 1 | 1 |
+| collection | 3 | 0 | 0 | 2 | 1 |
 | comparator corpus | 6 | 0 | 1 | 5 | 0 |
-| concept | 115 | 32 | 33 | 47 | 3 |
+| concept | 115 | 33 | 32 | 47 | 3 |
 | corpus | 16 | 0 | 3 | 13 | 0 |
 | framework | 2 | 0 | 0 | 2 | 0 |
 | intervention skill | 47 | 3 | 44 | 0 | 0 |
@@ -54,11 +54,11 @@ The template is an editorial checklist, not an invitation to fill six slots with
 | organisation | 14 | 1 | 3 | 8 | 2 |
 | person | 275 | 6 | 63 | 172 | 34 |
 | practice | 26 | 10 | 9 | 7 | 0 |
-| publication | 314 | 4 | 25 | 284 | 1 |
+| publication | 334 | 4 | 25 | 304 | 1 |
 | source | 274 | 3 | 7 | 264 | 0 |
 | technology | 1 | 0 | 1 | 0 | 0 |
 | theory | 1 | 0 | 1 | 0 | 0 |
-| tool | 15 | 2 | 11 | 2 | 0 |
+| tool | 16 | 2 | 11 | 3 | 0 |
 | tradition | 14 | 1 | 10 | 3 | 0 |
 
 ## How enrichment proceeds
@@ -123,15 +123,15 @@ The queue below is generated from current structure. Low degree and low relation
 | System | concept | unconnected | none | 0 | 0 |
 | The Tavistock Institute of Human Relations | organisation | unconnected | none | 0 | 0 |
 | Walter Pitts | person | unconnected | none | 0 | 0 |
+| #95 Inventing Temperature, Operational Coherence, Activist Realism and Active Knowledge with Cambridge philosopher Hasok Chang | publication | thin | provisional | 1 | 1 |
 | #SysPrac26 – Day 1 – Doug Belshaw | publication | thin | provisional | 1 | 1 |
 | (1) The map nobody knows about \| LinkedIn | publication | thin | provisional | 1 | 1 |
 | 100 Years of Stafford Beer: Organisational Cybernetics – a legacy whose time has come – Eds Espinosa, Schwaninger, Perez-Rios (2026) | publication | thin | provisional | 1 | 1 |
 | 32 Key Concepts in Systems Thinking and Complexity Theory | publication | thin | mixed | 1 | 1 |
+| 42 \| The Systemic Review- a publication of SCiO | publication | thin | provisional | 1 | 1 |
 | A second look at the fly-bottle? – O’Rourke (2026) | publication | thin | provisional | 1 | 1 |
 | AGLX \| OODA Loop Cybernetics: John Boyd’s Cybernetic Engine | publication | thin | provisional | 1 | 1 |
-| Alessandro Rancati | person | thin | mixed | 1 | 1 |
-| Alexander Bogdanov | person | thin | provisional | 1 | 1 |
-| Alfonso Reyes | person | thin | mixed | 1 | 1 |
+| AI Agents Gone Wild, and the Dangers of Inference | publication | thin | provisional | 1 | 1 |
 
 ## First enrichment cohort in this release
 

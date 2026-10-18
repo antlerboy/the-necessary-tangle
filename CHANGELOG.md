@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.33 — 18 October 2026
+
+Reconciled 27 recent SysCoI posts: 20 new reading records and seven announcements routed to existing material. Added the attributed Ashby Laboratory and four chapter pathways covering states, inputs, stability and black-box inquiry, with primary Ashby archive links and explicit review limits. Refreshed events through the maintained collector: 252 listings, 112 upcoming, including the verified 20 October Complexity Lounge talk. New graph statements document collection membership and candidate educational coverage; no historical influence or empirical effectiveness is inferred.
+
 ## 0.21 — 31 August 2026
 
 - Published Benjamin Hadorn's source-owner-reviewed Systemic Evolution package, preserving all 650 source nodes and 1,320 source-reported major-influence links.

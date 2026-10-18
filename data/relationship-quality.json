@@ -1,7 +1,7 @@
 {
   "schema_version": "1.1",
-  "generated": "2026-10-13",
-  "release": "0.32",
+  "generated": "2026-10-18",
+  "release": "0.33",
   "purpose": "Machine-readable relationship-quality result after the evidence-led relationship review.",
   "contract": {
     "human_readable_rationale": "A relation has a plain phrase and either notes, scope conditions or an inference method.",
@@ -27,33 +27,33 @@
     "semantic_statements": 747
   },
   "current": {
-    "public_entries": 1259,
-    "all_nodes": 1386,
-    "all_edges": 3097,
-    "sources": 787,
+    "public_entries": 1281,
+    "all_nodes": 1408,
+    "all_edges": 3122,
+    "sources": 809,
     "claims": 118,
     "evidence_records": 121,
     "profiles": 212,
     "journeys": 24,
     "external_corpora_reviewed": 12,
     "internal_sources_reviewed": 18,
-    "reader_connected_entries": 1218,
-    "semantic_connected_entries": 547,
-    "semantic_gap_entries": 712,
+    "reader_connected_entries": 1240,
+    "semantic_connected_entries": 548,
+    "semantic_gap_entries": 733,
     "connection_bands": {
-      "developing": 239,
-      "rich": 98,
-      "thin": 881,
+      "developing": 238,
+      "rich": 99,
+      "thin": 903,
       "unconnected": 41
     },
     "evidence_bands": {
       "mixed": 273,
       "none": 41,
-      "provisional": 742,
+      "provisional": 764,
       "supported": 203
     },
-    "reader_statements": 2473,
-    "semantic_statements": 1099
+    "reader_statements": 2498,
+    "semantic_statements": 1104
   },
   "changes_from_baseline": {
     "generic_relation_review_targets": {
@@ -66,69 +66,69 @@
     },
     "sources": {
       "before": 153,
-      "after": 787
+      "after": 809
     },
     "semantic_connected_entries": {
       "before": 329,
-      "after": 547,
+      "after": 548,
       "note": "A generic journal-to-tradition edge was replaced by a narrower documentary scope claim; unsupported semantic reach was not preserved."
     },
     "substantive_edge_count": {
       "before": 750,
-      "after": 1102
+      "after": 1107
     },
     "isolated_semantic_nodes": {
       "before": 167,
-      "after": 712
+      "after": 733
     }
   },
   "criteria": {
     "typed": {
-      "passing": 3097,
-      "total": 3097
+      "passing": 3122,
+      "total": 3122
     },
     "directed": {
-      "passing": 2996,
-      "total": 3097,
+      "passing": 3021,
+      "total": 3122,
       "undirected": 101
     },
     "human_readable_phrase": {
-      "passing": 3097,
-      "total": 3097
+      "passing": 3122,
+      "total": 3122
     },
     "explicit_rationale": {
-      "passing": 2798,
-      "total": 3097
+      "passing": 2823,
+      "total": 3122
     },
     "source_identifier": {
-      "passing": 3097,
-      "total": 3097
+      "passing": 3122,
+      "total": 3122
     },
     "locator_present": {
-      "passing": 2694,
-      "total": 3097
+      "passing": 2719,
+      "total": 3122
     },
     "precision_shaped_locator": {
-      "passing": 593,
-      "total": 3097,
+      "passing": 597,
+      "total": 3122,
       "note": "Conservative text-pattern measure; manual review is still required."
     },
     "epistemic_fields_present": {
-      "passing": 3097,
-      "total": 3097
+      "passing": 3122,
+      "total": 3122
     },
     "generic_related_to": {
-      "passing": 3097,
-      "total": 3097,
+      "passing": 3122,
+      "total": 3122,
       "review_target_count": 0
     },
     "three_or_more_relation_families": {
       "passing": 149,
-      "total": 1259
+      "total": 1281
     },
     "one_relation_family": {
-      "count": 772,
-      "total": 1259
+      "count": 794,
+      "total": 1281
     },
     "external_corpus_records": {
       "passing": 12,
@@ -934,6 +934,27 @@
       "reader_families": []
     },
     {
+      "node_id": "publication_syscoi_post_29132",
+      "label": "#95 Inventing Temperature, Operational Coherence, Activist Realism and Active Knowledge with Cambridge philosopher Hasok Chang",
+      "entity_type": "publication",
+      "publication_level": "profile",
+      "connection_band": "thin",
+      "evidence_band": "provisional",
+      "visible_connections": 1,
+      "visible_statements": 1,
+      "reader_connections": 1,
+      "reader_statements": 1,
+      "semantic_connections": 0,
+      "semantic_statements": 0,
+      "documentary_statements": 1,
+      "accepted_reader_statements": 0,
+      "provisional_reader_statements": 1,
+      "distinct_reader_families": 1,
+      "reader_families": [
+        "documentary"
+      ]
+    },
+    {
       "node_id": "publication_syscoi_post_28877",
       "label": "#SysPrac26 – Day 1 – Doug Belshaw",
       "entity_type": "publication",
@@ -1018,6 +1039,27 @@
       ]
     },
     {
+      "node_id": "publication_syscoi_post_29172",
+      "label": "42 | The Systemic Review- a publication of SCiO",
+      "entity_type": "publication",
+      "publication_level": "profile",
+      "connection_band": "thin",
+      "evidence_band": "provisional",
+      "visible_connections": 1,
+      "visible_statements": 1,
+      "reader_connections": 1,
+      "reader_statements": 1,
+      "semantic_connections": 0,
+      "semantic_statements": 0,
+      "documentary_statements": 1,
+      "accepted_reader_statements": 0,
+      "provisional_reader_statements": 1,
+      "distinct_reader_families": 1,
+      "reader_families": [
+        "documentary"
+      ]
+    },
+    {
       "node_id": "publication_syscoi_post_29030",
       "label": "A second look at the fly-bottle? – O’Rourke (2026)",
       "entity_type": "publication",
@@ -1041,6 +1083,27 @@
     {
       "node_id": "publication_syscoi_post_28962",
       "label": "AGLX | OODA Loop Cybernetics: John Boyd’s Cybernetic Engine",
+      "entity_type": "publication",
+      "publication_level": "profile",
+      "connection_band": "thin",
+      "evidence_band": "provisional",
+      "visible_connections": 1,
+      "visible_statements": 1,
+      "reader_connections": 1,
+      "reader_statements": 1,
+      "semantic_connections": 0,
+      "semantic_statements": 0,
+      "documentary_statements": 1,
+      "accepted_reader_statements": 0,
+      "provisional_reader_statements": 1,
+      "distinct_reader_families": 1,
+      "reader_families": [
+        "documentary"
+      ]
+    },
+    {
+      "node_id": "publication_syscoi_post_29283",
+      "label": "AI Agents Gone Wild, and the Dangers of Inference",
       "entity_type": "publication",
       "publication_level": "profile",
       "connection_band": "thin",
@@ -1186,6 +1249,27 @@
       ]
     },
     {
+      "node_id": "publication_syscoi_post_29297",
+      "label": "Bernhard Sterchi – Complexity Theory and Neo-Kantian Theory of Science – Tuesday, Oct 20 · 5:00pm UK time, The Complexity Lounge, online",
+      "entity_type": "publication",
+      "publication_level": "profile",
+      "connection_band": "thin",
+      "evidence_band": "provisional",
+      "visible_connections": 1,
+      "visible_statements": 1,
+      "reader_connections": 1,
+      "reader_statements": 1,
+      "semantic_connections": 0,
+      "semantic_statements": 0,
+      "documentary_statements": 1,
+      "accepted_reader_statements": 0,
+      "provisional_reader_statements": 1,
+      "distinct_reader_families": 1,
+      "reader_families": [
+        "documentary"
+      ]
+    },
+    {
       "node_id": "concept_bifurcation",
       "label": "Bifurcation",
       "entity_type": "concept",
@@ -1204,6 +1288,27 @@
       "distinct_reader_families": 1,
       "reader_families": [
         "conceptual"
+      ]
+    },
+    {
+      "node_id": "publication_syscoi_post_29134",
+      "label": "Call for Thematic Sessions – – FedCSIS 2027",
+      "entity_type": "publication",
+      "publication_level": "profile",
+      "connection_band": "thin",
+      "evidence_band": "provisional",
+      "visible_connections": 1,
+      "visible_statements": 1,
+      "reader_connections": 1,
+      "reader_statements": 1,
+      "semantic_connections": 0,
+      "semantic_statements": 0,
+      "documentary_statements": 1,
+      "accepted_reader_statements": 0,
+      "provisional_reader_statements": 1,
+      "distinct_reader_families": 1,
+      "reader_families": [
+        "documentary"
       ]
     },
     {
@@ -1333,6 +1438,27 @@
       ]
     },
     {
+      "node_id": "publication_syscoi_post_29166",
+      "label": "Doing Serious Systems Thinking Means Getting Rid of Elephants, Icebergs and Leverage Points – Jackson (2026) on LinkedIn",
+      "entity_type": "publication",
+      "publication_level": "profile",
+      "connection_band": "thin",
+      "evidence_band": "provisional",
+      "visible_connections": 1,
+      "visible_statements": 1,
+      "reader_connections": 1,
+      "reader_statements": 1,
+      "semantic_connections": 0,
+      "semantic_statements": 0,
+      "documentary_statements": 1,
+      "accepted_reader_statements": 0,
+      "provisional_reader_statements": 1,
+      "distinct_reader_families": 1,
+      "reader_families": [
+        "documentary"
+      ]
+    },
+    {
       "node_id": "concept_dynamic_equilibrium",
       "label": "Dynamic equilibrium in tektology",
       "entity_type": "concept",
@@ -1372,6 +1498,27 @@
       "distinct_reader_families": 1,
       "reader_families": [
         "conceptual"
+      ]
+    },
+    {
+      "node_id": "publication_syscoi_post_29286",
+      "label": "Epiplexity (epistemic complexity)",
+      "entity_type": "publication",
+      "publication_level": "profile",
+      "connection_band": "thin",
+      "evidence_band": "provisional",
+      "visible_connections": 1,
+      "visible_statements": 1,
+      "reader_connections": 1,
+      "reader_statements": 1,
+      "semantic_connections": 0,
+      "semantic_statements": 0,
+      "documentary_statements": 1,
+      "accepted_reader_statements": 0,
+      "provisional_reader_statements": 1,
+      "distinct_reader_families": 1,
+      "reader_families": [
+        "documentary"
       ]
     },
     {
@@ -1480,6 +1627,27 @@
       ]
     },
     {
+      "node_id": "publication_syscoi_post_29300",
+      "label": "Hezen 2.0 – Treister (2009-2011) | cybernetic tarot",
+      "entity_type": "publication",
+      "publication_level": "profile",
+      "connection_band": "thin",
+      "evidence_band": "provisional",
+      "visible_connections": 1,
+      "visible_statements": 1,
+      "reader_connections": 1,
+      "reader_statements": 1,
+      "semantic_connections": 0,
+      "semantic_statements": 0,
+      "documentary_statements": 1,
+      "accepted_reader_statements": 0,
+      "provisional_reader_statements": 1,
+      "distinct_reader_families": 1,
+      "reader_families": [
+        "documentary"
+      ]
+    },
+    {
       "node_id": "publication_syscoi_post_28942",
       "label": "Hundred Years of Stafford Beer (Documentary) – Metaphorum and Boyan Angelov",
       "entity_type": "publication",
@@ -1540,27 +1708,6 @@
       "distinct_reader_families": 1,
       "reader_families": [
         "institutional"
-      ]
-    },
-    {
-      "node_id": "concept_isomorphism",
-      "label": "Isomorphism across systems",
-      "entity_type": "concept",
-      "publication_level": "profile",
-      "connection_band": "thin",
-      "evidence_band": "provisional",
-      "visible_connections": 1,
-      "visible_statements": 1,
-      "reader_connections": 1,
-      "reader_statements": 1,
-      "semantic_connections": 1,
-      "semantic_statements": 1,
-      "documentary_statements": 0,
-      "accepted_reader_statements": 0,
-      "provisional_reader_statements": 1,
-      "distinct_reader_families": 1,
-      "reader_families": [
-        "conceptual"
       ]
     },
     {
@@ -1630,6 +1777,27 @@
       "node_id": "person_laur_kanger",
       "label": "Laur Kanger",
       "entity_type": "person",
+      "publication_level": "profile",
+      "connection_band": "thin",
+      "evidence_band": "provisional",
+      "visible_connections": 1,
+      "visible_statements": 1,
+      "reader_connections": 1,
+      "reader_statements": 1,
+      "semantic_connections": 0,
+      "semantic_statements": 0,
+      "documentary_statements": 1,
+      "accepted_reader_statements": 0,
+      "provisional_reader_statements": 1,
+      "distinct_reader_families": 1,
+      "reader_families": [
+        "documentary"
+      ]
+    },
+    {
+      "node_id": "publication_syscoi_post_29130",
+      "label": "Love & Philosophy – Andrea Hiott",
+      "entity_type": "publication",
       "publication_level": "profile",
       "connection_band": "thin",
       "evidence_band": "provisional",
@@ -1774,6 +1942,48 @@
       ]
     },
     {
+      "node_id": "publication_syscoi_post_29197",
+      "label": "Modelling Prevention Policy Impacts on Local Authority-Funded Social Care Services in England: A System Dynamics Modelling Approach",
+      "entity_type": "publication",
+      "publication_level": "profile",
+      "connection_band": "thin",
+      "evidence_band": "provisional",
+      "visible_connections": 1,
+      "visible_statements": 1,
+      "reader_connections": 1,
+      "reader_statements": 1,
+      "semantic_connections": 0,
+      "semantic_statements": 0,
+      "documentary_statements": 1,
+      "accepted_reader_statements": 0,
+      "provisional_reader_statements": 1,
+      "distinct_reader_families": 1,
+      "reader_families": [
+        "documentary"
+      ]
+    },
+    {
+      "node_id": "publication_syscoi_post_29114",
+      "label": "Modern supply chains must balance operational efficiency, resilience and sustainability, within increasingly complex and interconnected environments – Meriel Davies",
+      "entity_type": "publication",
+      "publication_level": "profile",
+      "connection_band": "thin",
+      "evidence_band": "provisional",
+      "visible_connections": 1,
+      "visible_statements": 1,
+      "reader_connections": 1,
+      "reader_statements": 1,
+      "semantic_connections": 0,
+      "semantic_statements": 0,
+      "documentary_statements": 1,
+      "accepted_reader_statements": 0,
+      "provisional_reader_statements": 1,
+      "distinct_reader_families": 1,
+      "reader_families": [
+        "documentary"
+      ]
+    },
+    {
       "node_id": "framework_multi_level_perspective",
       "label": "Multi-level perspective on socio-technical transitions",
       "entity_type": "framework",
@@ -1879,6 +2089,27 @@
       ]
     },
     {
+      "node_id": "publication_syscoi_post_29170",
+      "label": "Nonchaotic model reveals how predictability can emerge from seemingly unpredictable dynamics by Daniel Inafuku",
+      "entity_type": "publication",
+      "publication_level": "profile",
+      "connection_band": "thin",
+      "evidence_band": "provisional",
+      "visible_connections": 1,
+      "visible_statements": 1,
+      "reader_connections": 1,
+      "reader_statements": 1,
+      "semantic_connections": 0,
+      "semantic_statements": 0,
+      "documentary_statements": 1,
+      "accepted_reader_statements": 0,
+      "provisional_reader_statements": 1,
+      "distinct_reader_families": 1,
+      "reader_families": [
+        "documentary"
+      ]
+    },
+    {
       "node_id": "publication_syscoi_post_28852",
       "label": "Objects, Models, Theories • 4",
       "entity_type": "publication",
@@ -1939,6 +2170,27 @@
       "distinct_reader_families": 1,
       "reader_families": [
         "conceptual"
+      ]
+    },
+    {
+      "node_id": "publication_syscoi_post_29158",
+      "label": "Our minds aren’t equipped to handle AI",
+      "entity_type": "publication",
+      "publication_level": "profile",
+      "connection_band": "thin",
+      "evidence_band": "provisional",
+      "visible_connections": 1,
+      "visible_statements": 1,
+      "reader_connections": 1,
+      "reader_statements": 1,
+      "semantic_connections": 0,
+      "semantic_statements": 0,
+      "documentary_statements": 1,
+      "accepted_reader_statements": 0,
+      "provisional_reader_statements": 1,
+      "distinct_reader_families": 1,
+      "reader_families": [
+        "documentary"
       ]
     },
     {
@@ -2068,6 +2320,27 @@
       ]
     },
     {
+      "node_id": "publication_syscoi_post_29183",
+      "label": "Richard S O’Rourke – Two entropies, two cornerstones",
+      "entity_type": "publication",
+      "publication_level": "profile",
+      "connection_band": "thin",
+      "evidence_band": "provisional",
+      "visible_connections": 1,
+      "visible_statements": 1,
+      "reader_connections": 1,
+      "reader_statements": 1,
+      "semantic_connections": 0,
+      "semantic_statements": 0,
+      "documentary_statements": 1,
+      "accepted_reader_statements": 0,
+      "provisional_reader_statements": 1,
+      "distinct_reader_families": 1,
+      "reader_families": [
+        "documentary"
+      ]
+    },
+    {
       "node_id": "person_roy_bhaskar",
       "label": "Roy Bhaskar",
       "entity_type": "person",
@@ -2104,6 +2377,27 @@
       "documentary_statements": 1,
       "accepted_reader_statements": 1,
       "provisional_reader_statements": 0,
+      "distinct_reader_families": 1,
+      "reader_families": [
+        "documentary"
+      ]
+    },
+    {
+      "node_id": "publication_syscoi_post_29292",
+      "label": "Steven Hertzberg on LinkedIn – ‘AI research has rediscovered the Macy Conferences, and again without any attribution’",
+      "entity_type": "publication",
+      "publication_level": "profile",
+      "connection_band": "thin",
+      "evidence_band": "provisional",
+      "visible_connections": 1,
+      "visible_statements": 1,
+      "reader_connections": 1,
+      "reader_statements": 1,
+      "semantic_connections": 0,
+      "semantic_statements": 0,
+      "documentary_statements": 1,
+      "accepted_reader_statements": 0,
+      "provisional_reader_statements": 1,
       "distinct_reader_families": 1,
       "reader_families": [
         "documentary"
@@ -2257,6 +2551,27 @@
       ]
     },
     {
+      "node_id": "publication_syscoi_post_29190",
+      "label": "The Strategy Dynamics Insights Library",
+      "entity_type": "publication",
+      "publication_level": "profile",
+      "connection_band": "thin",
+      "evidence_band": "provisional",
+      "visible_connections": 1,
+      "visible_statements": 1,
+      "reader_connections": 1,
+      "reader_statements": 1,
+      "semantic_connections": 0,
+      "semantic_statements": 0,
+      "documentary_statements": 1,
+      "accepted_reader_statements": 0,
+      "provisional_reader_statements": 1,
+      "distinct_reader_families": 1,
+      "reader_families": [
+        "documentary"
+      ]
+    },
+    {
       "node_id": "publication_syscoi_post_28841",
       "label": "The consultant is in the system: a practice lab for helping without taking over – Benjamin P Taylor, Wednesday 30 September 2026, 12:15-13:45, online, free",
       "entity_type": "publication",
@@ -2275,321 +2590,6 @@
       "distinct_reader_families": 1,
       "reader_families": [
         "documentary"
-      ]
-    },
-    {
-      "node_id": "publication_syscoi_post_28842",
-      "label": "The fly-bottle is where the work happens: systems | cybernetics | complexity, and changing the world from inside the world",
-      "entity_type": "publication",
-      "publication_level": "profile",
-      "connection_band": "thin",
-      "evidence_band": "provisional",
-      "visible_connections": 1,
-      "visible_statements": 1,
-      "reader_connections": 1,
-      "reader_statements": 1,
-      "semantic_connections": 0,
-      "semantic_statements": 0,
-      "documentary_statements": 1,
-      "accepted_reader_statements": 0,
-      "provisional_reader_statements": 1,
-      "distinct_reader_families": 1,
-      "reader_families": [
-        "documentary"
-      ]
-    },
-    {
-      "node_id": "publication_syscoi_post_28840",
-      "label": "The system is inside the practice: making relational, place-based public services ordinary – Benjamin P Taylor, Thursday 8 October 2026, 12:30-14:00, online, free",
-      "entity_type": "publication",
-      "publication_level": "profile",
-      "connection_band": "thin",
-      "evidence_band": "provisional",
-      "visible_connections": 1,
-      "visible_statements": 1,
-      "reader_connections": 1,
-      "reader_statements": 1,
-      "semantic_connections": 0,
-      "semantic_statements": 0,
-      "documentary_statements": 1,
-      "accepted_reader_statements": 0,
-      "provisional_reader_statements": 1,
-      "distinct_reader_families": 1,
-      "reader_families": [
-        "documentary"
-      ]
-    },
-    {
-      "node_id": "person_tony_korycki",
-      "label": "Tony Korycki",
-      "entity_type": "person",
-      "publication_level": "profile",
-      "connection_band": "thin",
-      "evidence_band": "mixed",
-      "visible_connections": 1,
-      "visible_statements": 1,
-      "reader_connections": 1,
-      "reader_statements": 1,
-      "semantic_connections": 0,
-      "semantic_statements": 0,
-      "documentary_statements": 1,
-      "accepted_reader_statements": 1,
-      "provisional_reader_statements": 0,
-      "distinct_reader_families": 1,
-      "reader_families": [
-        "documentary"
-      ]
-    },
-    {
-      "node_id": "publication_understanding_understanding",
-      "label": "Understanding Understanding",
-      "entity_type": "publication",
-      "publication_level": "profile",
-      "connection_band": "thin",
-      "evidence_band": "mixed",
-      "visible_connections": 1,
-      "visible_statements": 1,
-      "reader_connections": 1,
-      "reader_statements": 1,
-      "semantic_connections": 0,
-      "semantic_statements": 0,
-      "documentary_statements": 1,
-      "accepted_reader_statements": 1,
-      "provisional_reader_statements": 0,
-      "distinct_reader_families": 1,
-      "reader_families": [
-        "documentary"
-      ]
-    },
-    {
-      "node_id": "publication_syscoi_post_29077",
-      "label": "Why research needs complexity entrepreneurs, by Gabriele Bammer and Jean Boulton",
-      "entity_type": "publication",
-      "publication_level": "profile",
-      "connection_band": "thin",
-      "evidence_band": "provisional",
-      "visible_connections": 1,
-      "visible_statements": 1,
-      "reader_connections": 1,
-      "reader_statements": 1,
-      "semantic_connections": 0,
-      "semantic_statements": 0,
-      "documentary_statements": 1,
-      "accepted_reader_statements": 0,
-      "provisional_reader_statements": 1,
-      "distinct_reader_families": 1,
-      "reader_families": [
-        "documentary"
-      ]
-    },
-    {
-      "node_id": "publication_syscoi_post_28846",
-      "label": "https://www.linkedin.com/posts/lukecraven_it-turns-out-systems-change-people-love-a-share-7508018582304337920-5rLM/",
-      "entity_type": "publication",
-      "publication_level": "profile",
-      "connection_band": "thin",
-      "evidence_band": "provisional",
-      "visible_connections": 1,
-      "visible_statements": 1,
-      "reader_connections": 1,
-      "reader_statements": 1,
-      "semantic_connections": 0,
-      "semantic_statements": 0,
-      "documentary_statements": 1,
-      "accepted_reader_statements": 0,
-      "provisional_reader_statements": 1,
-      "distinct_reader_families": 1,
-      "reader_families": [
-        "documentary"
-      ]
-    },
-    {
-      "node_id": "publication_syscoi_post_28828",
-      "label": "inControl",
-      "entity_type": "publication",
-      "publication_level": "profile",
-      "connection_band": "thin",
-      "evidence_band": "provisional",
-      "visible_connections": 1,
-      "visible_statements": 1,
-      "reader_connections": 1,
-      "reader_statements": 1,
-      "semantic_connections": 0,
-      "semantic_statements": 0,
-      "documentary_statements": 1,
-      "accepted_reader_statements": 0,
-      "provisional_reader_statements": 1,
-      "distinct_reader_families": 1,
-      "reader_families": [
-        "documentary"
-      ]
-    },
-    {
-      "node_id": "person_fpcs_a_cobham",
-      "label": "A. Cobham",
-      "entity_type": "person",
-      "publication_level": "described",
-      "connection_band": "thin",
-      "evidence_band": "mixed",
-      "visible_connections": 1,
-      "visible_statements": 1,
-      "reader_connections": 1,
-      "reader_statements": 1,
-      "semantic_connections": 0,
-      "semantic_statements": 0,
-      "documentary_statements": 1,
-      "accepted_reader_statements": 1,
-      "provisional_reader_statements": 0,
-      "distinct_reader_families": 1,
-      "reader_families": [
-        "documentary"
-      ]
-    },
-    {
-      "node_id": "person_early_a_d_booth",
-      "label": "A. D. Booth",
-      "entity_type": "person",
-      "publication_level": "described",
-      "connection_band": "thin",
-      "evidence_band": "provisional",
-      "visible_connections": 1,
-      "visible_statements": 1,
-      "reader_connections": 1,
-      "reader_statements": 1,
-      "semantic_connections": 0,
-      "semantic_statements": 0,
-      "documentary_statements": 1,
-      "accepted_reader_statements": 0,
-      "provisional_reader_statements": 1,
-      "distinct_reader_families": 1,
-      "reader_families": [
-        "documentary"
-      ]
-    },
-    {
-      "node_id": "person_fpcs_a_j_lotka",
-      "label": "A. J. Lotka",
-      "entity_type": "person",
-      "publication_level": "described",
-      "connection_band": "thin",
-      "evidence_band": "mixed",
-      "visible_connections": 1,
-      "visible_statements": 1,
-      "reader_connections": 1,
-      "reader_statements": 1,
-      "semantic_connections": 0,
-      "semantic_statements": 0,
-      "documentary_statements": 1,
-      "accepted_reader_statements": 1,
-      "provisional_reader_statements": 0,
-      "distinct_reader_families": 1,
-      "reader_families": [
-        "documentary"
-      ]
-    },
-    {
-      "node_id": "person_fpcs_a_n_kolmogorov",
-      "label": "A. N. Kolmogorov",
-      "entity_type": "person",
-      "publication_level": "described",
-      "connection_band": "thin",
-      "evidence_band": "mixed",
-      "visible_connections": 1,
-      "visible_statements": 1,
-      "reader_connections": 1,
-      "reader_statements": 1,
-      "semantic_connections": 0,
-      "semantic_statements": 0,
-      "documentary_statements": 1,
-      "accepted_reader_statements": 1,
-      "provisional_reader_statements": 0,
-      "distinct_reader_families": 1,
-      "reader_families": [
-        "documentary"
-      ]
-    },
-    {
-      "node_id": "person_early_a_standen",
-      "label": "A. Standen",
-      "entity_type": "person",
-      "publication_level": "described",
-      "connection_band": "thin",
-      "evidence_band": "provisional",
-      "visible_connections": 1,
-      "visible_statements": 1,
-      "reader_connections": 1,
-      "reader_statements": 1,
-      "semantic_connections": 0,
-      "semantic_statements": 0,
-      "documentary_statements": 1,
-      "accepted_reader_statements": 0,
-      "provisional_reader_statements": 1,
-      "distinct_reader_families": 1,
-      "reader_families": [
-        "documentary"
-      ]
-    },
-    {
-      "node_id": "method_lg26_americaspeaks_21st_century_town_meeting",
-      "label": "AmericaSpeaks 21st Century Town Meeting",
-      "entity_type": "method_or_methodology",
-      "publication_level": "described",
-      "connection_band": "thin",
-      "evidence_band": "provisional",
-      "visible_connections": 1,
-      "visible_statements": 1,
-      "reader_connections": 1,
-      "reader_statements": 1,
-      "semantic_connections": 0,
-      "semantic_statements": 0,
-      "documentary_statements": 1,
-      "accepted_reader_statements": 0,
-      "provisional_reader_statements": 1,
-      "distinct_reader_families": 1,
-      "reader_families": [
-        "documentary"
-      ]
-    },
-    {
-      "node_id": "person_fpcs_b_b_mandelbrot",
-      "label": "B. B. Mandelbrot",
-      "entity_type": "person",
-      "publication_level": "described",
-      "connection_band": "thin",
-      "evidence_band": "mixed",
-      "visible_connections": 1,
-      "visible_statements": 1,
-      "reader_connections": 1,
-      "reader_statements": 1,
-      "semantic_connections": 0,
-      "semantic_statements": 0,
-      "documentary_statements": 1,
-      "accepted_reader_statements": 1,
-      "provisional_reader_statements": 0,
-      "distinct_reader_families": 1,
-      "reader_families": [
-        "documentary"
-      ]
-    },
-    {
-      "node_id": "person_bertrand_russell",
-      "label": "Bertrand Russell",
-      "entity_type": "person",
-      "publication_level": "described",
-      "connection_band": "thin",
-      "evidence_band": "mixed",
-      "visible_connections": 2,
-      "visible_statements": 2,
-      "reader_connections": 1,
-      "reader_statements": 1,
-      "semantic_connections": 1,
-      "semantic_statements": 1,
-      "documentary_statements": 0,
-      "accepted_reader_statements": 1,
-      "provisional_reader_statements": 0,
-      "distinct_reader_families": 1,
-      "reader_families": [
-        "identity"
       ]
     }
   ],

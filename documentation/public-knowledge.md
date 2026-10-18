@@ -1,7 +1,7 @@
 # The Necessary Tangle: public knowledge file
 
 Curated by Benjamin P Taylor — https://www.antlerboy.com/
-Generated from public release 0.32 on 2026-10-13.
+Generated from public release 0.33 on 2026-10-18.
 
 A living evidence atlas of systems | cybernetics | complexity.
 Every connection must say what it means. Historical sequence, logical dependence, influence, teaching, collaboration, practical use, comparison and dispute are not interchangeable.
@@ -11,6 +11,17 @@ Use this file as orientation and public source context, not as final scholarly c
 ## Public source policy
 
 Every URL in this file is public. Published books and archive items without an open web copy are marked ‘No public link’. Private email, internal documents and company-system URLs are not included.
+
+## #95 Inventing Temperature, Operational Coherence, Activist Realism and Active Knowledge with Cambridge philosopher Hasok Chang
+
+Type: Publication
+Public depth: profile
+
+A Love & Philosophy conversation with Hasok Chang about temperature, operational coherence and scientific knowledge. This is a specific episode, distinct from the wider podcast collection.
+
+### Sources
+
+- #95 Inventing Temperature, Operational Coherence, Activist Realism and Active Knowledge with Cambridge philosopher Hasok Chang — https://stream.syscoi.com/2026/10/08/95-inventing-temperature-operational-coherence-activist-realism-and-active-knowledge-with-cambridge-philosopher-hasok-chang/
 
 ## #SysPrac26 – Day 1 – Doug Belshaw
 
@@ -99,6 +110,17 @@ It is useful for testing atlas coverage and search language. It is not evidence 
 ### Sources
 
 - 32 Key Concepts in Systems Thinking and Complexity Theory — https://unfix.com/blog/32-key-concepts
+
+## 42 | The Systemic Review- a publication of SCiO
+
+Type: Publication
+Public depth: profile
+
+A SCiO publication offering analyses of public problems through systems principles. Its papers and editorial account are linked as a collection; individual policy claims remain separately assessable.
+
+### Sources
+
+- 42 | The Systemic Review- a publication of SCiO — https://stream.syscoi.com/2026/10/13/42-the-systemic-review-a-publication-of-scio/
 
 ## A Bibliography of Cybernetics (Barrett and Shepard, 1951)
 
@@ -559,6 +581,17 @@ SysCoI reading or event lead published 2026-09-28. This atlas record points to t
 ### Sources
 
 - AGLX | OODA Loop Cybernetics: John Boyd’s Cybernetic Engine — https://stream.syscoi.com/2026/09/28/aglx-ooda-loop-cybernetics-john-boyds-cybernetic-engine/
+
+## AI Agents Gone Wild, and the Dangers of Inference
+
+Type: Publication
+Public depth: profile
+
+An essay on autonomous AI agents and inference. The reading lead invites examination of assumptions and evidence; it is not an empirical endorsement of the essay’s conclusions.
+
+### Sources
+
+- AI Agents Gone Wild, and the Dangers of Inference — https://stream.syscoi.com/2026/10/15/ai-agents-gone-wild-and-the-dangers-of-inference/
 
 ## Alan Turing
 
@@ -1076,6 +1109,17 @@ Physiologist and co-author of the 1943 account connecting purposive behaviour, i
 - SCiO SysBoK - Feedback v1 — No public link
 - Behavior, Purpose and Teleology — https://doi.org/10.1086/286788
 
+## Ashby Laboratory
+
+Type: Tool
+Public depth: profile
+
+An independent interactive learning resource adapting chapters 3–6 of W. Ross Ashby’s An Introduction to Cybernetics. Its 56 exercises and 45 glossary entries support inquiry into states, transformations, inputs, stability, black boxes and models. Exercise correctness has not been independently certified.
+
+### Sources
+
+- Ashby Laboratory — https://ashby-laboratory.benjaming98765.chatgpt.site/
+
 ## Ashby: selection, regulation, and variety (Challoner, 2026)
 
 Type: Publication
@@ -1452,6 +1496,17 @@ The contribution represented here is the work of translating, combining, testing
 - Clarity practices: five core practices — https://antlerboy.com/library/files/talks/clarity-practices.pdf
 - Large-group processes — https://antlerboy.com/library/files/talks/large-group-processes.pdf
 - Better conversations for better realities: learning loops to break the devil's bargain — https://antlerboy.com/library/files/talks/better-conversations-for-better-realities.pdf
+
+## Bernhard Sterchi – Complexity Theory and Neo-Kantian Theory of Science – Tuesday, Oct 20 · 5:00pm UK time, The Complexity Lounge, online
+
+Type: Publication
+Public depth: profile
+
+An online Complexity Lounge talk by Bernhard Sterchi comparing complexity theory and Neo-Kantian approaches to science. The organiser’s event page provides the current booking and timing details.
+
+### Sources
+
+- Bernhard Sterchi – Complexity Theory and Neo-Kantian Theory of Science – Tuesday, Oct 20 · 5:00pm UK time, The Complexity Lounge, online — https://stream.syscoi.com/2026/10/18/bernhard-sterchi-complexity-theory-and-neo-kantian-theory-of-science-tuesday-oct-20-%c2%b7-500pm-uk-time-the-complexity-lounge-online/
 
 ## Bertalanffy: organisation, openness, and equifinality (Challoner, 2026)
 
@@ -2047,6 +2102,17 @@ Named in the public 0.18 coverage audit. A source-specific profile and typed lin
 ### Sources
 
 - Running feedback after release 0.17 — https://github.com/antlerboy/the-necessary-tangle/issues/2
+
+## Call for Thematic Sessions – – FedCSIS 2027
+
+Type: Publication
+Public depth: profile
+
+A call for proposed thematic sessions at FedCSIS 2027. The accessible lead does not establish a dated, bookable session, so it remains reading and announcement material.
+
+### Sources
+
+- Call for Thematic Sessions – – FedCSIS 2027 — https://stream.syscoi.com/2026/10/08/call-for-thematic-sessions-fedcsis-2027/
 
 ## Canalization of Development and the Inheritance of Acquired Characters
 
@@ -4741,6 +4807,17 @@ It extends Booth Sweeney's systems-literacy work into the material cycles throug
 
 - Do Bees Pee? — https://www.lindaboothsweeney.com/
 
+## Doing Serious Systems Thinking Means Getting Rid of Elephants, Icebergs and Leverage Points – Jackson (2026) on LinkedIn
+
+Type: Publication
+Public depth: profile
+
+Michael C. Jackson’s critique of common systems-thinking metaphors and intervention shortcuts. The critical argument remains attributed to Jackson and can be compared with the approaches he discusses.
+
+### Sources
+
+- Doing Serious Systems Thinking Means Getting Rid of Elephants, Icebergs and Leverage Points – Jackson (2026) on LinkedIn — https://stream.syscoi.com/2026/10/13/doing-serious-systems-thinking-means-getting-rid-of-elephants-icebergs-and-leverage-points-jackson-2026-on-linkedin/
+
 ## Doncaster Thrive
 
 Type: Practice
@@ -5270,6 +5347,17 @@ S. Bowles, ‘Endogenous Preferences: The Cultural Consequences of Markets and O
 ### Sources
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## Epiplexity (epistemic complexity)
+
+Type: Publication
+Public depth: profile
+
+A research lead about learnable structure for computationally bounded observers, with a paper, code and lecture. Epiplexity is not silently equated with Shannon entropy or an established general systems law.
+
+### Sources
+
+- Epiplexity (epistemic complexity) — https://stream.syscoi.com/2026/10/16/epiplexity-epistemic-complexity/
 
 ## Epistemic closure
 
@@ -6970,6 +7058,17 @@ American scholar of organisations, decision-making, artificial intelligence and 
 ### Sources
 
 - SCiO SysBoK - Recursion v1 — No public link
+
+## Hezen 2.0 – Treister (2009-2011) | cybernetic tarot
+
+Type: Publication
+Public depth: profile
+
+Suzanne Treister’s HEXEN 2.0 artwork brings cybernetic histories into a tarot-based artistic exploration. It is recorded as an attributed art and interpretation resource, not a validated divination or historical method.
+
+### Sources
+
+- Hezen 2.0 – Treister (2009-2011) | cybernetic tarot — https://stream.syscoi.com/2026/10/18/hezen-2-0-treister-2009-2011-cybernetic-tarot/
 
 ## Hierarchy
 
@@ -9511,6 +9610,17 @@ Named in the public 0.18 coverage audit. A source-specific profile and typed lin
 
 - Running feedback after release 0.17 — https://github.com/antlerboy/the-necessary-tangle/issues/2
 
+## Love & Philosophy – Andrea Hiott
+
+Type: Publication
+Public depth: profile
+
+Andrea Hiott’s Love & Philosophy podcast collection, offering a route into philosophical conversations. Individual episodes and their claims require their own review.
+
+### Sources
+
+- Love & Philosophy – Andrea Hiott — https://stream.syscoi.com/2026/10/08/love-philosophy-andrea-hiott/
+
 ## Lucy Loh
 
 Type: Person
@@ -10420,6 +10530,28 @@ Modelling is the purposeful construction and use of a selective representation. 
 - The Grammar of Systems - SCiO presentation — https://www.systemspractice.org/resources/grammar-systems
 - The Grammar of Systems II: From Order to Chaos and Back Again, 2nd edition — https://www.systemspractice.org/resources/grammar-systems-ii-order-chaos-back-again-2nd-ed
 
+## Modelling Prevention Policy Impacts on Local Authority-Funded Social Care Services in England: A System Dynamics Modelling Approach
+
+Type: Publication
+Public depth: profile
+
+An Applied Sciences paper applying system dynamics to prevention and local-authority-funded social care in England. Publication and modelling scope are recorded without treating simulated outcomes as observed policy effects.
+
+### Sources
+
+- Modelling Prevention Policy Impacts on Local Authority-Funded Social Care Services in England: A System Dynamics Modelling Approach — https://stream.syscoi.com/2026/10/15/modelling-prevention-policy-impacts-on-local-authority-funded-social-care-services-in-england-a-system-dynamics-modelling-approach/
+
+## Modern supply chains must balance operational efficiency, resilience and sustainability, within increasingly complex and interconnected environments – Meriel Davies
+
+Type: Publication
+Public depth: profile
+
+A practitioner discussion of the competing requirements placed on supply chains. The post is a reading lead; it does not establish measured outcomes or a generally effective intervention.
+
+### Sources
+
+- Modern supply chains must balance operational efficiency, resilience and sustainability, within increasingly complex and interconnected environments – Meriel Davies — https://stream.syscoi.com/2026/10/08/modern-supply-chains-must-balance-operational-efficiency-resilience-and-sustainability-within-increasingly-complex-and-interconnected-environments-meriel-davies/
+
 ## Molecular Quasi-Species
 
 Type: Publication
@@ -11144,6 +11276,17 @@ A relation is non-linear when effects do not change in simple proportion to caus
 
 - Systems Thinking Practitioner apprenticeship standard ST0787 v1.2 — https://skillsengland.education.gov.uk/apprenticeships/st0787-v1-2
 
+## Nonchaotic model reveals how predictability can emerge from seemingly unpredictable dynamics by Daniel Inafuku
+
+Type: Publication
+Public depth: profile
+
+A science-news account of research on predictable patterns in nonchaotic dynamics. Follow its cited research before treating the report as evidence for a general claim about complex systems.
+
+### Sources
+
+- Nonchaotic model reveals how predictability can emerge from seemingly unpredictable dynamics by Daniel Inafuku — https://stream.syscoi.com/2026/10/13/nonchaotic-model-reveals-how-predictability-can-emerge-from-seemingly-unpredictable-dynamics-by-daniel-inafuku/
+
 ## Norbert Wiener
 
 Type: Person
@@ -11751,6 +11894,17 @@ An experimental organisational health-check tool. Its README describes lenses fo
 
 - OrgLens README — https://framagit.org/dynamicskillset/orglens
 - OrgLens 2: making an organisational health check people can actually use — https://substrate.dougbelshaw.com/orglens-2-making-an-organisational-health-check-people-can-actually-use
+
+## Our minds aren’t equipped to handle AI
+
+Type: Publication
+Public depth: profile
+
+An article considering how people understand and use artificial intelligence. This records a public discussion lead, without adopting its psychological claims as established atlas evidence.
+
+### Sources
+
+- Our minds aren’t equipped to handle AI — https://stream.syscoi.com/2026/10/12/our-minds-arent-equipped-to-handle-ai/
 
 ## Outline for a Logical Theory of Adaptive Systems
 
@@ -18796,6 +18950,17 @@ Mathematician reported by the Stanford Encyclopedia of Philosophy as an early fo
 
 - Recursive Functions — https://plato.stanford.edu/entries/recursive-functions/
 
+## Richard S O’Rourke – Two entropies, two cornerstones
+
+Type: Publication
+Public depth: profile
+
+Richard S O’Rourke’s writing connects questions in thermodynamics, cybernetics and political economy. This route preserves the author’s account without equating distinct uses of entropy.
+
+### Sources
+
+- Richard S O’Rourke – Two entropies, two cornerstones — https://stream.syscoi.com/2026/10/14/richard-s-orourke-two-entropies-two-cornerstones/
+
 ## RIP Luc Hoebeke, 27 December 1941 – 26 September 2026
 
 Type: Publication
@@ -20035,6 +20200,17 @@ M. Minsky, ‘Steps Toward Artificial Intelligence’ (1961); item 17 in volume 
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
 
+## Steven Hertzberg on LinkedIn – ‘AI research has rediscovered the Macy Conferences, and again without any attribution’
+
+Type: Publication
+Public depth: profile
+
+Steven Hertzberg’s commentary raises an attribution question about AI research and the Macy conferences. The allegation is recorded as commentary and does not establish either borrowing or an intellectual lineage.
+
+### Sources
+
+- Steven Hertzberg on LinkedIn – ‘AI research has rediscovered the Macy Conferences, and again without any attribution’ — https://stream.syscoi.com/2026/10/17/steven-hertzberg-on-linkedin-ai-research-has-rediscovered-the-macy-conferences-and-again-without-any-attribution/
+
 ## Stochastic Climate Models Part I. Theory
 
 Type: Publication
@@ -20297,6 +20473,17 @@ Team Syntegrity is Stafford Beer's democratic large-group process for organising
 
 - SCiO CF Resources v9 draft — No public link
 - Syntegration / Team Syntegrity — https://antlerboy.com/library/large-group-processes/#syntegration-team-syntegrity
+
+## SysCoI additions: 8–18 October 2026
+
+Type: Collection
+Public depth: profile
+
+A dated discovery collection accounting for 27 published posts. Twenty reading leads receive new records; seven announcements link to material already represented. Collection membership documents discovery, not agreement or historical influence.
+
+### Sources
+
+- SysCoI additions, 8–18 October 2026 — https://public-api.wordpress.com/rest/v1.1/sites/stream.syscoi.com/posts/?after=2026-10-07T23:59:59&number=100&order=ASC
 
 ## SysCoI: recent additions, October 2026
 
@@ -22485,6 +22672,17 @@ SysCoI reading or event lead published 2026-09-24. This atlas record points to t
 
 - The Second Law of Technodynamics – Velitchkov (2026) — https://stream.syscoi.com/2026/09/24/the-second-law-of-technodynamics-velitchknov-2026/
 
+## The Strategy Dynamics Insights Library
+
+Type: Publication
+Public depth: profile
+
+A library of Strategy Dynamics articles and practical explanations. The collection is a learning route; its size or presence does not establish the effectiveness of every application.
+
+### Sources
+
+- The Strategy Dynamics Insights Library — https://stream.syscoi.com/2026/10/15/the-strategy-dynamics-insights-library/
+
 ## The Strength of Weak Ties
 
 Type: Publication
@@ -23451,6 +23649,17 @@ Unpredictability is the inability to make a sufficiently reliable forecast at a 
 
 - Systems Thinking Practitioner apprenticeship standard ST0787 v1.2 — https://skillsengland.education.gov.uk/apprenticeships/st0787-v1-2
 
+## Unstable systems demand fast reflexes
+
+Type: Publication
+Public depth: profile
+
+A systems essay about response speed in unstable systems. Compare its argument with specified disturbances, delays and stability conditions rather than inferring a universal management rule.
+
+### Sources
+
+- Unstable systems demand fast reflexes — https://stream.syscoi.com/2026/10/14/unstable-systems-demand-fast-reflexes/
+
 ## Urie Bronfenbrenner
 
 Type: Person
@@ -24107,6 +24316,17 @@ American neurophysiologist, philosopher and cybernetician whose work on neural n
 
 - Sean Manion: cybernetics, meaning, teleology and phenomenology — https://www.linkedin.com/posts/sean-manionphd_cybernetics-meaning-teleology-activity-7394125204354129921-eCiB
 
+## Warren McCulloch, chairman [sic] of the Macy Conferences on Cybernetics, in a letter to the cybernetics group before the tenth and final conference, 1953. Discovered and shared by Sean Manion.
+
+Type: Publication
+Public depth: profile
+
+A route to an image of a McCulloch letter associated with the final Macy conference. The image attribution and historical context require archival verification before any new lineage claim.
+
+### Sources
+
+- Warren McCulloch, chairman [sic] of the Macy Conferences on Cybernetics, in a letter to the cybernetics group before the tenth and final conference, 1953. Discovered and shared by Sean Manion. — https://stream.syscoi.com/2026/10/08/warren-mcculloch-chairman-sic-of-the-macy-conferences-on-cybernetics-in-a-letter-to-the-cybernetics-group-before-the-tenth-and-final-conference-1953-discovered-and-shared-by-sean-manion/
+
 ## Warren Weaver
 
 Type: Person
@@ -24260,6 +24480,17 @@ It makes the organisational demands behind relational practice explicit, includi
 
 - What the boundary cannot carry alone, working redraft v3 — https://antlerboy.com/library/what-the-boundary-cannot-carry-alone/
 
+## What’s in a name? From Norbert Wiener’s Teleology to Artificial Intelligence
+
+Type: Publication
+Public depth: profile
+
+A SCiO resource examining the terminology connecting Wiener’s teleology and artificial intelligence. Historical and conceptual claims remain attributable to the resource and need passage-level review.
+
+### Sources
+
+- What’s in a name? From Norbert Wiener’s Teleology to Artificial Intelligence — https://stream.syscoi.com/2026/10/15/whats-in-a-name-from-norbert-wieners-teleology-to-artificial-intelligence/
+
 ## When Cultures Meet / Encounters With The Other
 
 Type: Method or methodology
@@ -24270,6 +24501,17 @@ Explore the experience of cultural difference and the possibility of working tog
 ### Sources
 
 - When Cultures Meet / Encounters With The Other — https://antlerboy.com/library/large-group-processes/#when-cultures-meet-encounters-with-the-other
+
+## Where are the systems in ‘systems leadership’?  Leaderism, personal development, and the work of changing systems – Taylor (2026)
+
+Type: Publication
+Public depth: profile
+
+Benjamin P Taylor questions how systems leadership relates to changing the conditions that generate outcomes. The original essay is the canonical reading source; agreement or demonstrated effectiveness is not inferred.
+
+### Sources
+
+- Where are the systems in ‘systems leadership’?  Leaderism, personal development, and the work of changing systems – Taylor (2026) — https://stream.syscoi.com/2026/10/18/where-are-the-systems-in-systems-leadership-leaderism-personal-development-and-the-work-of-changing-systems-taylor-2026/
 
 ## Whole Systems Approach
 
