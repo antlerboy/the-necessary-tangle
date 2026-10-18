@@ -1,5 +1,19 @@
 # Next work
 
+## Bounded content refresh — 18 October 2026
+
+Status: **Implementation complete; publication is gated by validation and live checks.** Owner: Benjamin P Taylor. The current explicit request authorises refreshed events, missing SysCoI items and useful attributed Ashby Laboratory material. Packet: sources/update-2026-10-18/PACKET.md.
+
+Outcome: publish release 0.33 with 20 new reading leads, seven reused resource routes, an Ashby Laboratory entry and four chapter pathways. The established systemsmap workflow has published 252 events, 112 upcoming, including the verified 20 October Complexity Lounge talk.
+
+Scope: dated source accounts, additive generator and outputs, Learning/reading/update links, release metadata, concise state and relevant verification. No redesign, access changes, private sources, wholesale app copying, unsupported historical influence or changes to the approved Systemic Evolution package.
+
+Acceptance: the event repository's 18 Python tests, interface and asset checks; make validate in Linux CI; current-intake reconciliation, attribution, links, comparator checksums and idempotence; desktop/mobile browser checks before publication and live; exact deployment.json commit. This Windows host has no make or ffmpeg command, so the complete historical build gate remains in the existing Linux workflow.
+
+Stop after successful publication and live identity verification. Full linked-work review, independent exercise QA and disputed historical or policy claims remain open. Independent read-only source inventory was separated from implementation; no continuing research packet is automatically active.
+
+## Previous packets — historical
+
 ## Systems events update — 17 October 2026
 
 Status: **Implementation and source validation complete; automatic publication and live verification follow the main-branch workflow.** Owner: Benjamin P Taylor. Explicit authorised request: 'Update systems events'. No extra human approval or delegated agents.

@@ -1,7 +1,7 @@
 # The Necessary Tangle
 
 <!-- current-31 -->
-Current release: **0.32, 13 October 2026**. [About](https://transduction.systems/#view=about), [how to use the atlas](https://transduction.systems/about/how-to-use/), [referenced maps](https://transduction.systems/prior-maps/sources/), and [Design Horizon reading routes](https://transduction.systems/reading/design-horizon/). [Read the update and remaining work](https://transduction.systems/updates/2026-10-13/).
+Current release: **0.33, 18 October 2026**. [Current events, recent SysCoI reading and the Ashby Laboratory](https://transduction.systems/updates/2026-10-18/). [Four Ashby Laboratory learning pathways](https://transduction.systems/reading/ashby-laboratory/).
 <!-- /current-31 -->
 ## Release 0.23
 

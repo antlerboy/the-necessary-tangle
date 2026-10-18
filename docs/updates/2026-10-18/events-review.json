@@ -1,0 +1,30 @@
+{
+  "checked": "2026-10-18",
+  "summary": "The maintained collection now contains 252 events, 112 upcoming. 11 of 36 checked sources yielded dated events; 7 sources failed and retain visible health warnings. One newly announced Complexity Lounge event was added after checking the organiser's structured times.",
+  "health": {
+    "checkedAt": "2026-10-18T22:34:58+00:00",
+    "events": 252,
+    "upcoming": 112,
+    "sources": 36,
+    "collecting": 11,
+    "failed": 7
+  },
+  "commit": "dead3aed6b4fbf1fd1b4982c6ea342c63a62cbd8",
+  "workflow_url": "https://github.com/antlerboy/systemsmap/actions/runs/39172843606",
+  "workflow_conclusion": "success",
+  "new_event": {
+    "title": "Bernhard Sterchi - Complexity Theory and Neo-Kantian Theory of Science",
+    "url": "https://www.meetup.com/complexitylounge/events/316861213/",
+    "display_time": "Tuesday 20 October 2026, 17:00–19:00 Europe/London, online",
+    "id": "713d6c13ee642d282c8f0e07",
+    "start": "2026-10-20T17:00:00+01:00",
+    "end": "2026-10-20T19:00:00+01:00",
+    "organiser_jsonld_start": "2026-10-20T12:00:00-04:00",
+    "organiser_jsonld_end": "2026-10-20T14:00:00-04:00",
+    "calendar_utc_start": "20261020T160000Z",
+    "calendar_utc_end": "20261020T180000Z",
+    "source_locator": "Organiser page Event JSON-LD; online-event details; SysCoI title dated 18 October"
+  },
+  "tests": "18 Python calendar/submission tests, Node interface checks, collector and publication validation passed. Local 251-event baseline validated; the successful workflow validated the new 252-event collection.",
+  "limits": "The previous morning collection was already healthy. A rerun at its old head passed collection but could not fast-forward its output; the standard push-triggered run at the current approved-event commit succeeded. No forced update or overwrite was used."
+}
