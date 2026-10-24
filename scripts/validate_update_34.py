@@ -9,6 +9,9 @@ p=json.loads((S/'syscoi-review.json').read_text(encoding='utf-8'))
 assert d['meta']['release']=='0.34'
 assert len(p['posts'])==p['found']==9
 assert len({r['id'] for r in p['posts']})==9
+for row in p['posts']:
+    assert len(row['links'])==len(set(row['links']))
+    assert 'https://ashby-laboratory.benjaming98765.chatgpt.site' not in row['links'], 'Use the verified canonical resource URL'
 new=[r for r in p['posts'] if r['status']=='new_discovery']; old=[r for r in p['posts'] if r['status']=='already_represented']
 assert len(new)==5 and len(old)==4
 nodes={n['id'] for n in d['nodes']}
@@ -27,6 +30,8 @@ routes=['reading/orglens','reading/42-systemic-review','reading/systems-leadersh
 for route in routes:
     text=(D/route/'index.html').read_text(encoding='utf-8'); parser=Links();parser.feed(text)
     assert 'aria-label="Open updates"' in text
+    from validate_iteration_14 import editorial_framing_text
+    assert 'chatgpt' not in editorial_framing_text(text).lower(), 'Public resource hostname must not become production framing'
     for token in ['graph.microsoft','mail.google','file://','sandbox:','redquadrantltd']:assert token not in text
     for href in parser.links:
         u=urlsplit(href)
