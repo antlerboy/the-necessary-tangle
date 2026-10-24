@@ -307,20 +307,19 @@ BEGIN:VEVENT
 SUMMARY:Free introduction: What is sociocracy?
 DTSTART:20261009T160000Z
 DTEND:20261009T170000Z
-DTSTAMP:20260909T085810Z
-UID:b3235464d6e293baf43b6304@systemsmap.antlerboy.com
-SEQUENCE:2
+DTSTAMP:20261010T104118Z
+UID:5dd46b91dd69260ad8741eb3@systemsmap.antlerboy.com
+SEQUENCE:0
 CATEGORIES:Systems thinking
-DESCRIPTION:Sociocracy For All\nAre you tired of power games in your organ
- izations? Do you have hope that collaboration in organizations could bring
-  out the best in people? Do you think organizations could be places of syn
- ergy\, collaboration\, growth\, and deep and authentic connection? This we
- binar is giving an overview of sociocracy. We will talk about: better list
- ening consent decision making and circle structure examples from \nLanguag
- e: Not specified\nLanguage requirements: Not specified\nInterpretation: No
- t specified\nAccess: See organiser\nhttps://www.sociocracyforall.org/event
- /free-info-session-october-2026/
-LAST-MODIFIED:20260909T085810Z
+DESCRIPTION:Sociocracy For All\n<p>This is a free sociocracy info session.
+  We will look at what self-management is trying to achieve\, how sociocrac
+ y works\, and what kind of organizations are using sociocracy. </p>\\n\nLa
+ nguage: Not specified\nLanguage requirements: Not specified\nInterpretatio
+ n: Not specified\nAccess: See organiser\nhttps://www.sociocracyforall.org/
+ event/free-info-session-october-2026/\nNo longer found in the latest sourc
+ e listing\; confirmation needed.\nThis event could not be rechecked on the
+  latest collection. Confirm with the organiser.
+LAST-MODIFIED:20261010T104118Z
 LOCATION:Location not published
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -330,20 +329,18 @@ BEGIN:VEVENT
 SUMMARY:Sociocracy & Permaculture Community of Practice
 DTSTART:20261022T010000Z
 DTEND:20261022T020000Z
-DTSTAMP:20260925T071905Z
-UID:aa054da842439e3dfc737acc@systemsmap.antlerboy.com
-SEQUENCE:0
+DTSTAMP:20261023T092514Z
+UID:80e32e1799aa8d3a1a234a0d@systemsmap.antlerboy.com
+SEQUENCE:1
 CATEGORIES:Systems thinking
-DESCRIPTION:Sociocracy For All\nCommunity of Practice — Sociocracy & Per
- maculture Join the Sociocracy & Permaculture Community of Practice! The ne
- xt gatherings will take place on: October 21 at 23:00 UTC | 7PM Eastern | 
- 4PM Pacific December 16 at 15:00 UTC | 10AM Eastern | 7AM Pacific | 16:00 
- CET and will be hosted by Rhonda Baird from the Sociocracy in Permaculture
-  Circle. Register to the event Notice: JavaScript is required fo\nLanguage
- : Not specified\nLanguage requirements: Not specified\nInterpretation: Not
-  specified\nAccess: See organiser\nhttps://www.sociocracyforall.org/event/
- sociocracy-permaculture-community-of-practice/2026-10-22/
-LAST-MODIFIED:20260925T071905Z
+DESCRIPTION:Sociocracy For All\n<p>Join the Sociocracy & Permaculture Comm
+ unity of Practice! The next gatherings will take place on: and will be hos
+ ted by Rhonda Baird from the Sociocracy in Permaculture Circle. Register t
+ o the event</p>\\n\nLanguage: Not specified\nLanguage requirements: Not sp
+ ecified\nInterpretation: Not specified\nAccess: See organiser\nhttps://www
+ .sociocracyforall.org/event/sociocracy-permaculture-community-of-practice/
+ 2026-10-22/
+LAST-MODIFIED:20261023T092514Z
 LOCATION:Location not published
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -354,19 +351,21 @@ BEGIN:VEVENT
 SUMMARY:Introduction to Sociocracy in Intentional Communities
 DTSTART:20261022T190000Z
 DTEND:20261022T223000Z
-DTSTAMP:20260915T092934Z
-UID:6284cd4393ef96f4761d9c85@systemsmap.antlerboy.com
-SEQUENCE:3
+DTSTAMP:20261017T083913Z
+UID:08e2ca6103cecac874af3edd@systemsmap.antlerboy.com
+SEQUENCE:0
 CATEGORIES:Systems thinking
-DESCRIPTION:Sociocracy For All\nExplore the foundations of sociocracy for 
- intentional communities—consent-based decisions\, circle structure\, and
-  tools for transparent\, collaborative governance. Led by facilitator Adam
-  Barnfather\, who helps communities thrive through dynamic governance. 
- 👆 Click the title above to register.\nLanguage: Not specified\nLanguage
-  requirements: Not specified\nInterpretation: Not specified\nAccess: See o
- rganiser\nhttps://www.sociocracyforall.org/event/introduction-to-sociocrac
- y-in-intentional-communities-live-webinar/
-LAST-MODIFIED:20260915T092934Z
+DESCRIPTION:Sociocracy For All\n<p>Explore the foundations of sociocracy f
+ or intentional communities—consent-based decisions\, circle structure\, 
+ and tools for transparent\, collaborative governance. Led by facilitator A
+ dam Barnfather\, who helps communities thrive through dynamic governance. 
+ 👆 […]</p>\\n\nLanguage: Not specified\nLanguage requirements: Not spe
+ cified\nInterpretation: Not specified\nAccess: See organiser\nhttps://www.
+ sociocracyforall.org/event/introduction-to-sociocracy-in-intentional-commu
+ nities-live-webinar/\nNo longer found in the latest source listing\; confi
+ rmation needed.\nThis event could not be rechecked on the latest collectio
+ n. Confirm with the organiser.
+LAST-MODIFIED:20261017T083913Z
 LOCATION:Location not published
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -463,6 +462,30 @@ URL:https://www.sociocracyforall.org/event/intentional-communities-confere
  nce-2026/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Free introduction: What is sociocracy?
+DTSTART:20261202T220000Z
+DTEND:20261202T230000Z
+DTSTAMP:20261023T092514Z
+UID:5cf402535dac49060734b929@systemsmap.antlerboy.com
+SEQUENCE:0
+CATEGORIES:Systems thinking
+DESCRIPTION:Sociocracy For All\nAre you tired of power games in your organ
+ izations? Do you have hope that collaboration in organizations could bring
+  out the best in people? Do you think organizations could be places of syn
+ ergy\, collaboration\, growth\, and deep and authentic connection? This we
+ binar is giving an overview of sociocracy. We will talk about: better list
+ ening consent decision making and circle structure examples from \nLanguag
+ e: Not specified\nLanguage requirements: Not specified\nInterpretation: No
+ t specified\nAccess: See organiser\nhttps://www.sociocracyforall.org/event
+ /free-info-session-december-2026/
+LAST-MODIFIED:20261023T092514Z
+LOCATION:Location not published
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.sociocracyforall.org/event/free-info-session-december-2026
+ /
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Sociocracy in Cooperatives Community of Practice
 DTSTART:20261208T190000Z
 DTEND:20261208T200000Z
@@ -485,6 +508,30 @@ STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 URL:https://www.sociocracyforall.org/event/sociocracy-in-cooperatives-comm
  unity-of-practice/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Connections: A Sociocracy and Transformative Communication Webinar
+DTSTART:20261210T200000Z
+DTEND:20261210T213000Z
+DTSTAMP:20261022T092918Z
+UID:0395b545e451022be13c85e1@systemsmap.antlerboy.com
+SEQUENCE:0
+CATEGORIES:Systems thinking
+DESCRIPTION:Sociocracy For All\nDescription Kelly Leonard and Stefani Dane
+ s of Rachel Carson EcoVillage share their community’s practice of “Tra
+ nsformative Communication” — blending sociocracy and Non-Violent Commu
+ nication to strengthen relationships and support collective action. This w
+ ill be an interactive session with hands-on practice Duration and time zon
+ e DATE: December 10\, 2026 TIME: 20:00 – 21:30 UTC CHECK YOUR LOCAL TIM
+ \nLanguage: Not specified\nLanguage requirements: Not specified\nInterpret
+ ation: Not specified\nAccess: See organiser\nhttps://www.sociocracyforall.
+ org/event/sociocracy-and-transformative-communication-dec/
+LAST-MODIFIED:20261022T092918Z
+LOCATION:Location not published
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.sociocracyforall.org/event/sociocracy-and-transformative-c
+ ommunication-dec/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Sociocracy & Permaculture Community of Practice

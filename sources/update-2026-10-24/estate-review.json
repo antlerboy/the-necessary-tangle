@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-24",
+  "homepage_destinations_checked": 84,
+  "failed_destinations": [],
+  "sites": [
+    "https://antlerboy.com/",
+    "https://publicservicetransformation.org/",
+    "https://redquadrant.com/",
+    "https://chosen-path.org/",
+    "https://greebling.com/"
+  ],
+  "syscoi": "Main address redirects successfully to https://stream.syscoi.com/ in the browser; automated root requests returned 403. No domain or hosting change made.",
+  "quick_updates": [
+    "Antlerboy: direct routes to the current atlas update, event map, and quick contribution form; practical systems-leadership guide added to the existing collection.",
+    "SysCoI: dated update prepared for the pinned August announcement; historical launch counts labelled as historical."
+  ],
+  "limits": "This is a bounded homepage-navigation and current-content review, not an exhaustive archive, form-submission, infrastructure, or security audit."
+}

@@ -60,6 +60,61 @@ TRANSP:TRANSPARENT
 URL:https://cssociety.org/event/5ea1ef85-35de-4e54-9a0c-772f4dcd0185/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Complex Systems and Contemplative Studies @ CCS26
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+DTSTAMP:20261014T093553Z
+UID:1371bb79e01db423519d56ef@systemsmap.antlerboy.com
+SEQUENCE:0
+CATEGORIES:Complexity
+DESCRIPTION:Complex Systems Society\n\nLanguage: Not specified\nLanguage r
+ equirements: Not specified\nInterpretation: Not specified\nAccess: See org
+ aniser\nhttps://cssociety.org/event/9c489a0c-f18a-4960-b95c-dfb865807d46/
+ \nDate-only listing\; check the organiser for session times.
+LAST-MODIFIED:20261014T093553Z
+LOCATION:USA\, BInghamton University\, New York + online
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://cssociety.org/event/9c489a0c-f18a-4960-b95c-dfb865807d46/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Complexity\, Asian Medicine\, and the Intelligence of Healing‍ -
+  a CCS26 Co-located Symposium
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+DTSTAMP:20261014T093553Z
+UID:3b7bc2899570ce9ae4650da3@systemsmap.antlerboy.com
+SEQUENCE:0
+CATEGORIES:Complexity
+DESCRIPTION:Complex Systems Society\n\nLanguage: Not specified\nLanguage r
+ equirements: Not specified\nInterpretation: Not specified\nAccess: See org
+ aniser\nhttps://cssociety.org/event/ddd282c1-1830-468c-83f6-04eae91724f3/
+ \nDate-only listing\; check the organiser for session times.
+LAST-MODIFIED:20261014T093553Z
+LOCATION:USA\, https://us02web.zoom.us/j/86238160060 Online Event: Yes
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://cssociety.org/event/ddd282c1-1830-468c-83f6-04eae91724f3/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Infrastructure of the Economic System - A Complexity Lens
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+DTSTAMP:20261014T093553Z
+UID:fa588bcc70a95035fa5b11d1@systemsmap.antlerboy.com
+SEQUENCE:0
+CATEGORIES:Complexity
+DESCRIPTION:Complex Systems Society\n\nLanguage: Not specified\nLanguage r
+ equirements: Not specified\nInterpretation: Not specified\nAccess: See org
+ aniser\nhttps://cssociety.org/event/72e9b78b-9bd6-4014-9bf2-ac15441cf3d5/
+ \nDate-only listing\; check the organiser for session times.
+LAST-MODIFIED:20261014T093553Z
+LOCATION:USA\, https://us02web.zoom.us/j/86938659832 Online Event: Yes
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://cssociety.org/event/72e9b78b-9bd6-4014-9bf2-ac15441cf3d5/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:COMPLEX NETWORKS 2026 – 15th International Conference on Complex
   Networks and Their Applications
 DTSTART;VALUE=DATE:20261202
@@ -95,5 +150,23 @@ LOCATION:Briançon\, France\, Le Clos du Vas
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 URL:https://cssociety.org/event/a8ad6479-58ac-4e93-8807-cba7de02ccbe/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Latin American Conference on Complex Networks (LANET 2027)
+DTSTART;VALUE=DATE:20270726
+DTEND;VALUE=DATE:20270731
+DTSTAMP:20261014T093553Z
+UID:020c3e14cbbfe9c9ddd6fd72@systemsmap.antlerboy.com
+SEQUENCE:0
+CATEGORIES:Complexity
+DESCRIPTION:Complex Systems Society\n\nLanguage: Not specified\nLanguage r
+ equirements: Not specified\nInterpretation: Not specified\nAccess: See org
+ aniser\nhttps://cssociety.org/event/5bc59df7-f92a-47d3-8f82-c4f18928f4f6/
+ \nDate-only listing\; check the organiser for session times.
+LAST-MODIFIED:20261014T093553Z
+LOCATION:Brazil\, Porto Alegre
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://cssociety.org/event/5bc59df7-f92a-47d3-8f82-c4f18928f4f6/
 END:VEVENT
 END:VCALENDAR

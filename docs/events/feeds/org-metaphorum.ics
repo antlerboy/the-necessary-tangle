@@ -7,23 +7,6 @@ REFRESH-INTERVAL:P1D
 X-PUBLISHED-TTL:PT24H
 BEGIN:VEVENT
 SUMMARY:VSM-AI Special Integration Group
-DTSTART:20260715T160000Z
-DTEND:20260715T173000Z
-DTSTAMP:20260909T082311Z
-UID:743419255f36b0886d4f5d36@systemsmap.antlerboy.com
-SEQUENCE:2
-CATEGORIES:Cybernetics,Systems thinking
-DESCRIPTION:Metaphorum\n\nLanguage: Not specified\nLanguage requirements: 
- Not specified\nInterpretation: Not specified\nAccess: See organiser\nhttps
- ://ics.teamup.com/feed/ksok8ra1xif3viq4no/0.ics
-LAST-MODIFIED:20260909T082311Z
-LOCATION:Location not published
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-URL:https://ics.teamup.com/feed/ksok8ra1xif3viq4no/0.ics
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:VSM-AI Special Integration Group
 DTSTART:20260819T160000Z
 DTEND:20260819T173000Z
 DTSTAMP:20260909T082311Z
@@ -226,7 +209,9 @@ DESCRIPTION:Metaphorum\nThe Viable System Model: Theory and Application In
  ll learn how to put it into practice by following a systemic\nLanguage: No
  t specified\nLanguage requirements: Not specified\nInterpretation: Not spe
  cified\nAccess: See organiser\nhttps://metaphorum.org/event/vsm-coach-cour
- se-online-by-angela-espinosa
+ se-online-by-angela-espinosa\nNo longer found in the latest source listing
+ \; confirmation needed.\nThis event could not be rechecked on the latest c
+ ollection. Confirm with the organiser.
 LAST-MODIFIED:20261002T103500Z
 LOCATION:Location not published
 STATUS:CONFIRMED
@@ -501,6 +486,23 @@ DESCRIPTION:Metaphorum\n\nLanguage: Not specified\nLanguage requirements:
  Not specified\nInterpretation: Not specified\nAccess: See organiser\nhttps
  ://ics.teamup.com/feed/ksok8ra1xif3viq4no/0.ics
 LAST-MODIFIED:20260913T093647Z
+LOCATION:Location not published
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://ics.teamup.com/feed/ksok8ra1xif3viq4no/0.ics
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VSM-AI Special Integration Group
+DTSTART:20280419T160000Z
+DTEND:20280419T173000Z
+DTSTAMP:20261017T223529Z
+UID:5ee5a16338b06265d288f6b6@systemsmap.antlerboy.com
+SEQUENCE:0
+CATEGORIES:Cybernetics,Systems thinking
+DESCRIPTION:Metaphorum\n\nLanguage: Not specified\nLanguage requirements: 
+ Not specified\nInterpretation: Not specified\nAccess: See organiser\nhttps
+ ://ics.teamup.com/feed/ksok8ra1xif3viq4no/0.ics
+LAST-MODIFIED:20261017T223529Z
 LOCATION:Location not published
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT

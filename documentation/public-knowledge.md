@@ -1,7 +1,7 @@
 # The Necessary Tangle: public knowledge file
 
 Curated by Benjamin P Taylor — https://www.antlerboy.com/
-Generated from public release 0.33 on 2026-10-18.
+Generated from public release 0.34 on 2026-10-24.
 
 A living evidence atlas of systems | cybernetics | complexity.
 Every connection must say what it means. Historical sequence, logical dependence, influence, teaching, collaboration, practical use, comparison and dispute are not interchangeable.
@@ -110,6 +110,17 @@ It is useful for testing atlas coverage and search language. It is not evidence 
 ### Sources
 
 - 32 Key Concepts in Systems Thinking and Complexity Theory — https://unfix.com/blog/32-key-concepts
+
+## 42 The Systemic Review
+
+Type: Publication
+Public depth: profile
+
+SCiO’s publication and policy-engagement programme. Reviews state a system of concern, distinguish evidence from interpretation, and apply selected systems principles to a policy problem. These are attributed analyses open to challenge, not an exhaustive or independently validated canon.
+
+### Sources
+
+- 42 The Systemic Review: purpose and process — https://42systemicreview.org/about/
 
 ## 42 | The Systemic Review- a publication of SCiO
 
@@ -1567,6 +1578,17 @@ Philosopher and public intellectual appearing by name in Damian Allen's self-aut
 ### Sources
 
 - Lineages of Systems Practice — Damian Allen — No public link
+
+## Between the Boxes — 42 The Systemic Review
+
+Type: Publication
+Public depth: profile
+
+The review examines how a bounded air-traffic-control failure can propagate through a wider aviation system. Its system boundary and account of cross-organisational responsibility are analytical choices, separate from a technical incident investigation.
+
+### Sources
+
+- Between the Boxes — https://42systemicreview.org/papers/between-the-boxes
 
 ## Bhaskar: mechanisms in open systems (Challoner, 2026)
 
@@ -9409,6 +9431,17 @@ A repertoire of participation formats that can be combined for different purpose
 
 - Liberating Structures — https://antlerboy.com/library/large-group-processes/#liberating-structures
 
+## Life finds a way: Emergence of cooperative structures in adaptive threshold networks
+
+Type: Publication
+Public depth: profile
+
+A research-paper discovery on cooperative structures in adaptive threshold networks. The title and publisher destination are recorded; the full paper and its results have not been independently assessed.
+
+### Sources
+
+- Life finds a way: Emergence of cooperative structures in adaptive threshold networks — https://stream.syscoi.com/2026/10/20/life-finds-a-way-emergence-of-cooperative-structures-in-adaptive-threshold-networks/
+
 ## Life, Thermodynamics, and Cybernetics
 
 Type: Publication
@@ -11069,6 +11102,17 @@ The phrase is often used as if negative means criticism or undesirable effects. 
 - Behavior, Purpose and Teleology — https://doi.org/10.1086/286788
 - Feedback - IEEE Technology Navigator — https://technav.ieee.org/topic/feedback/
 
+## Neighbourhood Health and Care: Building the System Before the Structure — 42 The Systemic Review
+
+Type: Publication
+Public depth: profile
+
+The review treats neighbourhood working as the formation of a viable system across established organisations. It examines autonomy, coordination, and stabilising organisational feedback; its policy and causal claims remain attributed to the paper.
+
+### Sources
+
+- Neighbourhood Health and Care: Building the System Before the Structure — https://42systemicreview.org/papers/neighbourhood-health-and-care
+
 ## Nested Minimum Viable Systems
 
 Type: Concept
@@ -11160,6 +11204,17 @@ Named in the public 0.18 coverage audit. A source-specific profile and typed lin
 ### Sources
 
 - Running feedback after release 0.17 — https://github.com/antlerboy/the-necessary-tangle/issues/2
+
+## Nick Land, Ryan Haecker, and the Problem of Cybernetic Consciousness
+
+Type: Publication
+Public depth: profile
+
+A commentary on Nick Land, Ryan Haecker, and cybernetic consciousness. Keep this interpretation separate from Haecker’s own text and from empirical claims about consciousness.
+
+### Sources
+
+- Nick Land, Ryan Haecker, and the Problem of Cybernetic Consciousness — https://stream.syscoi.com/2026/10/19/nick-land-ryan-haecker-and-the-problem-of-cybernetic-consciousness/
 
 ## Niklas Luhmann
 
@@ -19154,6 +19209,17 @@ Named in the public 0.18 coverage audit. A source-specific profile and typed lin
 
 - Running feedback after release 0.17 — https://github.com/antlerboy/the-necessary-tangle/issues/2
 
+## Ryan Haecker – Breaking the Cybernetic Silence
+
+Type: Publication
+Public depth: profile
+
+Ryan Haecker’s essay on cybernetics and philosophical theology. An attributed argument to examine, rather than an accepted account of consciousness.
+
+### Sources
+
+- Ryan Haecker – Breaking the Cybernetic Silence — https://stream.syscoi.com/2026/10/19/ryan-haecker-breaking-the-cybernetic-silence/
+
 ## S. Amari
 
 Type: Person
@@ -20473,6 +20539,17 @@ Team Syntegrity is Stafford Beer's democratic large-group process for organising
 
 - SCiO CF Resources v9 draft — No public link
 - Syntegration / Team Syntegrity — https://antlerboy.com/library/large-group-processes/#syntegration-team-syntegrity
+
+## SysCoI additions: 18–24 October 2026
+
+Type: Collection
+Public depth: profile
+
+Nine public posts reconciled: five new reading leads and four routes to already represented resources. Discovery does not establish agreement, historical influence, or empirical effectiveness.
+
+### Sources
+
+- SysCoI additions, 18–24 October 2026 — https://public-api.wordpress.com/rest/v1.1/sites/stream.syscoi.com/posts/?after=2026-10-18T00:00:00&before=2026-10-25T00:00:00&number=100
 
 ## SysCoI additions: 8–18 October 2026
 
@@ -22066,6 +22143,17 @@ M. I. Budyko, ‘The Effect of Solar Radiation Variations on the Climate of the 
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
 
+## The Equilibrium of Delay — 42 The Systemic Review
+
+Type: Publication
+Public depth: profile
+
+The review interprets Playford’s capital-works backlog through accumulated commitments, a planning/design constraint, and delayed work consuming delivery attention. Its proposed mechanism and capacity claims need comparison with the cited council evidence.
+
+### Sources
+
+- The Equilibrium of Delay — https://42systemicreview.org/papers/the-equilibrium-of-delay
+
 ## The Evolution of Cooperation
 
 Type: Publication
@@ -22076,6 +22164,17 @@ R. Axelrod and W. D. Hamilton, ‘The Evolution of Cooperation’ (1981); item 5
 ### Sources
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## The Firm Grip and the Light Hand – Jose (2026)
+
+Type: Publication
+Public depth: profile
+
+Harish Jose’s introductory essay on cybernetic constructivism: meaning is constructed through experience and tested against constraints. This is an attributed philosophical account, not an empirical result or proof of the historical claims it cites.
+
+### Sources
+
+- The Firm Grip and the Light Hand – Jose (2026) — https://stream.syscoi.com/2026/10/18/the-firm-grip-and-the-light-hand-jose-2026/
 
 ## The fly-bottle is where the work happens: systems | cybernetics | complexity, and changing the world from inside the world
 
@@ -22808,6 +22907,17 @@ F. A. Hayek, ‘The Use of Knowledge in Society’ (1945); item 7 in volume 1 of
 ### Sources
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+
+## The Viable Change Framework: Linking Theory of Change and Organisational Viability for Quality Enhancement in Higher Education
+
+Type: Publication
+Public depth: profile
+
+A proposed framework connecting Theory of Change with organisational viability in higher education. The discovery records the paper and its stated scope; implementation and outcome claims need full-text review.
+
+### Sources
+
+- The Viable Change Framework: Linking Theory of Change and Organisational Viability for Quality Enhancement in Higher Education — https://stream.syscoi.com/2026/10/19/the-viable-change-framework-linking-theory-of-change-and-organisational-viability-for-quality-enhancement-in-higher-education/
 
 ## The Wisdom of the Body
 

@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.34 — 24 October 2026
+
+Five new SysCoI reading leads and four existing routes reconciled. Developed OrgLens and 42 guides, a systems-leadership action route, 21 source-scoped candidate connections, current events, and a quick plain-text contribution form with optional private follow-up email. Full source validation and the service/calendar tests pass; publication and live browser checks are recorded by the deployment workflow.
+
+
 ## 0.33 — 18 October 2026
 
 Reconciled 27 recent SysCoI posts: 20 new reading records and seven announcements routed to existing material. Added the attributed Ashby Laboratory and four chapter pathways covering states, inputs, stability and black-box inquiry, with primary Ashby archive links and explicit review limits. Refreshed events through the maintained collector: 252 listings, 112 upcoming, including the verified 20 October Complexity Lounge talk. New graph statements document collection membership and candidate educational coverage; no historical influence or empirical effectiveness is inferred.
@@ -205,7 +210,6 @@ Map refocus, modified clicks, edge selection, and shareable card views repaired.
 ## 0.32 — 13 October 2026
 
 Rewritten reader-first About, practical and evidence guides, eleven attributed map and collection routes, and eight selected Design Horizon resources with source links and editorial questions. Duplicate map copies grouped; unavailable originals and intake-enumeration limits exposed. No canonical graph relationships or approved Systemic Evolution files changed.
-
 ## 0.26 - 19 September 2026
 
 Release 0.26 connects 324 public-library resource records, 114 large-group entries, and eight now-public teaching-source URLs. The source register also includes Chosen Path and SysCoi post metadata, with automated discovery matches explicitly separated from located teaching claims. The private research inventory contains 2,943 indexed records; public bibliographic reconciliation is tracked separately. Current atlas: 1196 public entries, 1323 nodes, 3006 statements, and 715 sources. No independent specialist review is claimed. See https://transduction.systems/library/.

@@ -8,9 +8,9 @@ X-PUBLISHED-TTL:PT24H
 BEGIN:VEVENT
 SUMMARY:ISSS Board of Directors meeting
 DTSTART:20260911T200000Z
-DTSTAMP:20261007T221454Z
+DTSTAMP:20261024T204503Z
 UID:03c306f9fde126bcae14d368@systemsmap.antlerboy.com
-SEQUENCE:39
+SEQUENCE:63
 CATEGORIES:Systems thinking
 DESCRIPTION:International Society for the Systems Sciences (ISSS)\nPublish
  ed on the official ISSS events page. Check registration and participation 
@@ -18,7 +18,7 @@ DESCRIPTION:International Society for the Systems Sciences (ISSS)\nPublish
  ot specified\nInterpretation: Not specified\nAccess: Registration required
  \; ISSS membership rules apply\nhttps://wiki.lab.isss.org/events\nEnd time
   not published.
-LAST-MODIFIED:20261007T221454Z
+LAST-MODIFIED:20261024T204503Z
 LOCATION:Online
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -27,9 +27,9 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ISSS Annual General Meeting
 DTSTART:20260918T200000Z
-DTSTAMP:20261007T221454Z
+DTSTAMP:20261024T204503Z
 UID:a1f3b2af02e11db18a32b82e@systemsmap.antlerboy.com
-SEQUENCE:39
+SEQUENCE:63
 CATEGORIES:Systems thinking
 DESCRIPTION:International Society for the Systems Sciences (ISSS)\nPublish
  ed on the official ISSS events page. Check registration and participation 
@@ -37,7 +37,7 @@ DESCRIPTION:International Society for the Systems Sciences (ISSS)\nPublish
  ot specified\nInterpretation: Not specified\nAccess: Registration required
  \; ISSS membership rules apply\nhttps://wiki.lab.isss.org/events\nEnd time
   not published.
-LAST-MODIFIED:20261007T221454Z
+LAST-MODIFIED:20261024T204503Z
 LOCATION:Online
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT

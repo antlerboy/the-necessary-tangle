@@ -6,29 +6,6 @@ X-WR-CALNAME:System dynamics
 REFRESH-INTERVAL:P1D
 X-PUBLISHED-TTL:PT24H
 BEGIN:VEVENT
-SUMMARY:Systems Practice Forum @ ISDC2026
-DTSTART:20260724T070000Z
-DTEND:20260724T160000Z
-DTSTAMP:20260906T191842Z
-UID:205d507841e8734b00a5bf0b@systemsmap.antlerboy.com
-SEQUENCE:1
-CATEGORIES:System dynamics
-DESCRIPTION:MIT System Dynamics Group\n<p>Explore real-world applications
- \, interactive workshops\, and case studies to enhance your organization\
- \'s impact through System Dynamics and systems thinking.</p>\\n\nLanguage:
-  Not specified\nLanguage requirements: Not specified\nInterpretation: Not 
- specified\nAccess: See organiser\nhttps://systemdynamics.org/event/systems
- -practice-forum-isdc2026/\nSource could not be fully rechecked.\nNo longer
-  found in the latest source listing\; confirmation needed.\nThis event cou
- ld not be rechecked on the latest collection. Confirm with the organiser.
-LAST-MODIFIED:20260906T191842Z
-LOCATION:TU Delft\, Aula Conference Center\, Mekelweg 5\, 2628 CC\, Delft
- \, Netherlands
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-URL:https://systemdynamics.org/event/systems-practice-forum-isdc2026/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:System Dynamics Learning Hub 2026 – SASDC – Stream 3 (Pollutio
  n Dynamics): Session 1
 DTSTART:20260804T160000Z
@@ -47,8 +24,8 @@ DESCRIPTION:The South Africa System Dynamics Chapter (SASDC)\n<p>The Learn
  \nInterpretation: Not specified\nAccess: See organiser\nhttps://systemdyna
  mics.org/event/system-dynamics-learning-hub-2026-sasdc-stream-3-pollution-
  dynamics-session-1/\nNo longer found in the latest source listing\; confir
- mation needed.\nThis event could not be rechecked on the latest collection
- . Confirm with the organiser.
+ mation needed.\nSource could not be fully rechecked.\nThis event could not
+  be rechecked on the latest collection. Confirm with the organiser.
 LAST-MODIFIED:20260910T090026Z
 LOCATION:Location not published
 STATUS:CONFIRMED
@@ -70,8 +47,9 @@ DESCRIPTION:System Dynamics Society\n<p>Monthly meeting led by the AI in S
  uirements: Not specified\nInterpretation: Not specified\nAccess: See organ
  iser\nhttps://systemdynamics.org/event/ai-in-system-dynamics-education-tas
  k-force-monthly-meeting-2/2026-08-11/\nNo longer found in the latest sourc
- e listing\; confirmation needed.\nThis event could not be rechecked on the
-  latest collection. Confirm with the organiser.
+ e listing\; confirmation needed.\nSource could not be fully rechecked.\nTh
+ is event could not be rechecked on the latest collection. Confirm with the
+  organiser.
 LAST-MODIFIED:20260910T090026Z
 LOCATION:Online
 STATUS:CONFIRMED
@@ -95,8 +73,8 @@ DESCRIPTION:System Dynamics Society\n<p>Monthly meetings of the Policy Cou
  nguage requirements: Not specified\nInterpretation: Not specified\nAccess:
   See organiser\nhttps://systemdynamics.org/event/sds-policy-council-meetin
  g-august-2026/\nNo longer found in the latest source listing\; confirmatio
- n needed.\nThis event could not be rechecked on the latest collection. Con
- firm with the organiser.
+ n needed.\nSource could not be fully rechecked.\nThis event could not be r
+ echecked on the latest collection. Confirm with the organiser.
 LAST-MODIFIED:20260910T090026Z
 LOCATION:Online
 STATUS:CONFIRMED
@@ -116,8 +94,8 @@ DESCRIPTION:System Dynamics Society\n\nLanguage: Not specified\nLanguage r
  equirements: Not specified\nInterpretation: Not specified\nAccess: See org
  aniser\nhttps://systemdynamics.org/event/xmile-technical-committee-meeting
  -august-2026/\nNo longer found in the latest source listing\; confirmation
-  needed.\nThis event could not be rechecked on the latest collection. Conf
- irm with the organiser.
+  needed.\nSource could not be fully rechecked.\nThis event could not be re
+ checked on the latest collection. Confirm with the organiser.
 LAST-MODIFIED:20260910T090026Z
 LOCATION:Online
 STATUS:CONFIRMED
@@ -137,8 +115,8 @@ DESCRIPTION:System Dynamics Society\n\nLanguage: Not specified\nLanguage r
  equirements: Not specified\nInterpretation: Not specified\nAccess: See org
  aniser\nhttps://systemdynamics.org/event/sd-tools-xmile-users-group-august
  -2026/\nNo longer found in the latest source listing\; confirmation needed
- .\nThis event could not be rechecked on the latest collection. Confirm wit
- h the organiser.
+ .\nSource could not be fully rechecked.\nThis event could not be rechecked
+  on the latest collection. Confirm with the organiser.
 LAST-MODIFIED:20260910T090026Z
 LOCATION:Online
 STATUS:CONFIRMED
@@ -163,8 +141,9 @@ DESCRIPTION:Psychology and Human Behavior SIG\n<p>Please join us for our a
   Not specified\nLanguage requirements: Not specified\nInterpretation: Not 
  specified\nAccess: See organiser\nhttps://systemdynamics.org/event/psychol
  ogy-and-human-behavior-sig-meeting-august-2026/\nNo longer found in the la
- test source listing\; confirmation needed.\nThis event could not be rechec
- ked on the latest collection. Confirm with the organiser.
+ test source listing\; confirmation needed.\nSource could not be fully rech
+ ecked.\nThis event could not be rechecked on the latest collection. Confir
+ m with the organiser.
 LAST-MODIFIED:20260910T090026Z
 LOCATION:Online
 STATUS:CONFIRMED
@@ -186,8 +165,8 @@ DESCRIPTION:System Dynamics Society\n<p>Eva Gladek shares lessons from 14
  equirements: Not specified\nInterpretation: Not specified\nAccess: See org
  aniser\nhttps://systemdynamics.org/event/place-poly-capital-and-the-power-
  to-change-systems/\nNo longer found in the latest source listing\; confirm
- ation needed.\nThis event could not be rechecked on the latest collection.
-  Confirm with the organiser.
+ ation needed.\nSource could not be fully rechecked.\nThis event could not 
+ be rechecked on the latest collection. Confirm with the organiser.
 LAST-MODIFIED:20260910T090026Z
 LOCATION:Online
 STATUS:CONFIRMED
@@ -212,8 +191,8 @@ DESCRIPTION:Water SIG\n<p>Please join us on Thursday\, August 27th at 11am
  ified\nLanguage requirements: Not specified\nInterpretation: Not specified
  \nAccess: See organiser\nhttps://systemdynamics.org/event/water-sig-meetin
  g-august-2026/\nNo longer found in the latest source listing\; confirmatio
- n needed.\nThis event could not be rechecked on the latest collection. Con
- firm with the organiser.
+ n needed.\nSource could not be fully rechecked.\nThis event could not be r
+ echecked on the latest collection. Confirm with the organiser.
 LAST-MODIFIED:20260910T090026Z
 LOCATION:Online
 STATUS:CONFIRMED
@@ -237,8 +216,9 @@ DESCRIPTION:Pre College Education SIG\n<p>Dear Colleagues\, We would like
  cified\nLanguage requirements: Not specified\nInterpretation: Not specifie
  d\nAccess: See organiser\nhttps://systemdynamics.org/event/pre-college-edu
  cation-sig-meeting-august-2026/\nNo longer found in the latest source list
- ing\; confirmation needed.\nThis event could not be rechecked on the lates
- t collection. Confirm with the organiser.
+ ing\; confirmation needed.\nSource could not be fully rechecked.\nThis eve
+ nt could not be rechecked on the latest collection. Confirm with the organ
+ iser.
 LAST-MODIFIED:20260910T090026Z
 LOCATION:Online
 STATUS:CONFIRMED
@@ -262,8 +242,9 @@ DESCRIPTION:Student Chapter\n<p>During this meeting\, we will follow up on
  \nLanguage: Not specified\nLanguage requirements: Not specified\nInterpret
  ation: Not specified\nAccess: See organiser\nhttps://systemdynamics.org/ev
  ent/student-chapter-general-meeting/\nNo longer found in the latest source
-  listing\; confirmation needed.\nThis event could not be rechecked on the 
- latest collection. Confirm with the organiser.
+  listing\; confirmation needed.\nSource could not be fully rechecked.\nThi
+ s event could not be rechecked on the latest collection. Confirm with the 
+ organiser.
 LAST-MODIFIED:20260910T090026Z
 LOCATION:Online
 STATUS:CONFIRMED
@@ -285,8 +266,9 @@ DESCRIPTION:System Dynamics Society\nExplore five practical roles AI can p
  ified\nLanguage requirements: Not specified\nInterpretation: Not specified
  \nAccess: See organiser\nhttps://systemdynamics.org/event/system-mapping-m
  eets-ai-practical-ways-ai-can-support-your-mapping-process/\nNo longer fou
- nd in the latest source listing\; confirmation needed.\nThis event could n
- ot be rechecked on the latest collection. Confirm with the organiser.
+ nd in the latest source listing\; confirmation needed.\nSource could not b
+ e fully rechecked.\nThis event could not be rechecked on the latest collec
+ tion. Confirm with the organiser.
 LAST-MODIFIED:20260910T090026Z
 LOCATION:Online
 STATUS:CONFIRMED
@@ -308,8 +290,9 @@ DESCRIPTION:System Dynamics Society\nMonthly meeting led by the AI in Syst
   Not specified\nInterpretation: Not specified\nAccess: See organiser\nhttp
  s://systemdynamics.org/event/ai-in-system-dynamics-education-task-force-mo
  nthly-meeting-2/2026-09-08/\nNo longer found in the latest source listing
- \; confirmation needed.\nThis event could not be rechecked on the latest c
- ollection. Confirm with the organiser.
+ \; confirmation needed.\nSource could not be fully rechecked.\nThis event 
+ could not be rechecked on the latest collection. Confirm with the organise
+ r.
 LAST-MODIFIED:20260910T090026Z
 LOCATION:Online
 STATUS:CONFIRMED
@@ -334,8 +317,9 @@ DESCRIPTION:System Dynamics Society\nTuesday\, September 15 at 11 am New Y
  on\nLanguage: Not specified\nLanguage requirements: Not specified\nInterpr
  etation: Not specified\nAccess: See organiser\nhttps://systemdynamics.org/
  event/implementing-the-self-managing-enterprise-with-agentic-ai/\nNo longe
- r found in the latest source listing\; confirmation needed.\nThis event co
- uld not be rechecked on the latest collection. Confirm with the organiser.
+ r found in the latest source listing\; confirmation needed.\nSource could 
+ not be fully rechecked.\nThis event could not be rechecked on the latest c
+ ollection. Confirm with the organiser.
 LAST-MODIFIED:20260910T090026Z
 LOCATION:https://us02web.zoom.us/j/87049920798
 STATUS:CONFIRMED
@@ -360,8 +344,8 @@ DESCRIPTION:System Dynamics Society\nLast day for authors to update submis
  uage requirements: Not specified\nInterpretation: Not specified\nAccess: S
  ee organiser\nhttps://systemdynamics.org/event/2026-conference-proceedings
  -submission-deadline/\nNo longer found in the latest source listing\; conf
- irmation needed.\nThis event could not be rechecked on the latest collecti
- on. Confirm with the organiser.
+ irmation needed.\nSource could not be fully rechecked.\nThis event could n
+ ot be rechecked on the latest collection. Confirm with the organiser.
 LAST-MODIFIED:20260916T092203Z
 LOCATION:Location not published
 STATUS:CONFIRMED
@@ -384,8 +368,9 @@ DESCRIPTION:Economics SIG of the System Dynamics Society\nEconomics SIG On
  mics”\nLanguage: Not specified\nLanguage requirements: Not specified\nIn
  terpretation: Not specified\nAccess: See organiser\nhttps://systemdynamics
  .org/event/economics-sig-online-seminar/\nNo longer found in the latest so
- urce listing\; confirmation needed.\nThis event could not be rechecked on 
- the latest collection. Confirm with the organiser.
+ urce listing\; confirmation needed.\nSource could not be fully rechecked.
+ \nThis event could not be rechecked on the latest collection. Confirm with
+  the organiser.
 LAST-MODIFIED:20260917T093127Z
 LOCATION:Online
 STATUS:CONFIRMED
@@ -408,8 +393,8 @@ DESCRIPTION:System Dynamics Society\nMonthly meetings of the Policy Counci
  uirements: Not specified\nInterpretation: Not specified\nAccess: See organ
  iser\nhttps://systemdynamics.org/event/sds-policy-council-meeting-septembe
  r-2026/\nNo longer found in the latest source listing\; confirmation neede
- d.\nThis event could not be rechecked on the latest collection. Confirm wi
- th the organiser.
+ d.\nSource could not be fully rechecked.\nThis event could not be rechecke
+ d on the latest collection. Confirm with the organiser.
 LAST-MODIFIED:20260918T090403Z
 LOCATION:Online
 STATUS:CONFIRMED
@@ -433,8 +418,8 @@ DESCRIPTION:System Dynamics Society\nJoin the System Dynamics Society’s
   requirements: Not specified\nInterpretation: Not specified\nAccess: See o
  rganiser\nhttps://systemdynamics.org/event/health-policy-sig-annual-member
  ship-meeting/\nNo longer found in the latest source listing\; confirmation
-  needed.\nThis event could not be rechecked on the latest collection. Conf
- irm with the organiser.
+  needed.\nSource could not be fully rechecked.\nThis event could not be re
+ checked on the latest collection. Confirm with the organiser.
 LAST-MODIFIED:20260914T095825Z
 LOCATION:https://systemdynamics.org/event/health-policy-sig-annual-members
  hip-meeting/
@@ -462,8 +447,9 @@ DESCRIPTION:System Dynamics Society\nDear Colleagues\, We are excited to i
  retation: Not specified\nAccess: See organiser\nhttps://systemdynamics.org
  /event/systems-thinking-in-k-12-education-experiences-from-south-korea-tai
  wan-and-turkiye-asia-pacific/\nNo longer found in the latest source listin
- g\; confirmation needed.\nThis event could not be rechecked on the latest 
- collection. Confirm with the organiser.
+ g\; confirmation needed.\nSource could not be fully rechecked.\nThis event
+  could not be rechecked on the latest collection. Confirm with the organis
+ er.
 LAST-MODIFIED:20260914T095825Z
 LOCATION:https://systemdynamics.org/event/systems-thinking-in-k-12-educati
  on-experiences-from-south-korea-taiwan-and-turkiye-asia-pacific/
@@ -491,8 +477,9 @@ DESCRIPTION:System Dynamics Society\nDear Colleagues\, We are excited to i
  retation: Not specified\nAccess: See organiser\nhttps://systemdynamics.org
  /event/systems-thinking-in-k-12-education-experiences-from-south-korea-tai
  wan-and-turkiye-africa-americas-europe/\nNo longer found in the latest sou
- rce listing\; confirmation needed.\nThis event could not be rechecked on t
- he latest collection. Confirm with the organiser.
+ rce listing\; confirmation needed.\nSource could not be fully rechecked.\n
+ This event could not be rechecked on the latest collection. Confirm with t
+ he organiser.
 LAST-MODIFIED:20260914T095825Z
 LOCATION:https://systemdynamics.org/event/systems-thinking-in-k-12-educati
  on-experiences-from-south-korea-taiwan-and-turkiye-africa-americas-europe/
@@ -520,8 +507,9 @@ DESCRIPTION:System Dynamics Society\nDear Colleagues\, We are excited to i
  retation: Not specified\nAccess: See organiser\nhttps://systemdynamics.org
  /event/systems-thinking-in-k-12-education-experiences-from-south-korea-tai
  wan-and-turkiye-asia-pacific/\nNo longer found in the latest source listin
- g\; confirmation needed.\nThis event could not be rechecked on the latest 
- collection. Confirm with the organiser.
+ g\; confirmation needed.\nSource could not be fully rechecked.\nThis event
+  could not be rechecked on the latest collection. Confirm with the organis
+ er.
 LAST-MODIFIED:20260925T071905Z
 LOCATION:https://systemdynamics.org/event/systems-thinking-in-k-12-educati
  on-experiences-from-south-korea-taiwan-and-turkiye-asia-pacific/
@@ -549,8 +537,8 @@ DESCRIPTION:System Dynamics Society\nSeptember 29\, 2026 at 11 am New York
  ion: Not specified\nAccess: See organiser\nhttps://systemdynamics.org/even
  t/from-bees-to-feedback-loops-building-systems-literacy-from-childhood-to-
  leadership/\nNo longer found in the latest source listing\; confirmation n
- eeded.\nThis event could not be rechecked on the latest collection. Confir
- m with the organiser.
+ eeded.\nSource could not be fully rechecked.\nThis event could not be rech
+ ecked on the latest collection. Confirm with the organiser.
 LAST-MODIFIED:20260910T090026Z
 LOCATION:https://systemdynamics.org/event/from-bees-to-feedback-loops-buil
  ding-systems-literacy-from-childhood-to-leadership/
@@ -578,8 +566,9 @@ DESCRIPTION:System Dynamics Society\nPlease join the Water SIG\, Nigerian
  pretation: Not specified\nAccess: See organiser\nhttps://systemdynamics.or
  g/event/participatory-modelling-of-the-wef-nexus-through-causal-loop-diagr
  ams-in-a-cassava-processing-hub-in-nigeria/\nNo longer found in the latest
-  source listing\; confirmation needed.\nThis event could not be rechecked 
- on the latest collection. Confirm with the organiser.
+  source listing\; confirmation needed.\nSource could not be fully rechecke
+ d.\nThis event could not be rechecked on the latest collection. Confirm wi
+ th the organiser.
 LAST-MODIFIED:20260910T090026Z
 LOCATION:https://systemdynamics.org/event/participatory-modelling-of-the-w
  ef-nexus-through-causal-loop-diagrams-in-a-cassava-processing-hub-in-niger
@@ -608,8 +597,9 @@ DESCRIPTION:System Dynamics Society\nHello\, You are invited to attend the
  retation: Not specified\nAccess: See organiser\nhttps://systemdynamics.org
  /event/mit-system-dynamics-seminar-ai-augmented-experiments-more-precise-c
  ausal-inference-with-human-subjects/\nNo longer found in the latest source
-  listing\; confirmation needed.\nThis event could not be rechecked on the 
- latest collection. Confirm with the organiser.
+  listing\; confirmation needed.\nSource could not be fully rechecked.\nThi
+ s event could not be rechecked on the latest collection. Confirm with the 
+ organiser.
 LAST-MODIFIED:20260926T092514Z
 LOCATION:Location not published
 STATUS:CONFIRMED
@@ -636,8 +626,8 @@ DESCRIPTION:System Dynamics Society\nEvent Website: https://www.mit-alumni
  etation: Not specified\nAccess: See organiser\nhttps://systemdynamics.org/
  event/transforming-food-systems-and-markets-todays-realities-tomorrows-nee
  ds/\nNo longer found in the latest source listing\; confirmation needed.\n
- This event could not be rechecked on the latest collection. Confirm with t
- he organiser.
+ Source could not be fully rechecked.\nThis event could not be rechecked on
+  the latest collection. Confirm with the organiser.
 LAST-MODIFIED:20261002T103500Z
 LOCATION:https://us02web.zoom.us/j/88050863400?pwd=yROebm94EU6qsdgCQ0XKI9D
  ARECaal.1&jst=1
@@ -662,7 +652,10 @@ DESCRIPTION:System Dynamics Society\nThe Oceania Chapter of the System Dyn
  referred climate solutions to the test! The Oceania Chapter is excited to
  \nLanguage: Not specified\nLanguage requirements: Not specified\nInterpret
  ation: Not specified\nAccess: See organiser\nhttps://systemdynamics.org/ev
- ent/webinar-en-roads-climate-workshop/
+ ent/webinar-en-roads-climate-workshop/\nNo longer found in the latest sour
+ ce listing\; confirmation needed.\nSource could not be fully rechecked.\nT
+ his event could not be rechecked on the latest collection. Confirm with th
+ e organiser.
 LAST-MODIFIED:20260925T071905Z
 LOCATION:https://uni-sydney.zoom.us/j/82670013782
 STATUS:CONFIRMED
@@ -684,7 +677,10 @@ DESCRIPTION:System Dynamics Society\nThe student chapter is pleased to hos
  nt will take place by zoom on Thursday\, October 8th\, at 12pm (noon) NY t
  ime.\nLanguage: Not specified\nLanguage requirements: Not specified\nInter
  pretation: Not specified\nAccess: See organiser\nhttps://systemdynamics.or
- g/event/student-chapter-meeting-guest-speaker-dr-nishita-dsouza/
+ g/event/student-chapter-meeting-guest-speaker-dr-nishita-dsouza/\nNo longe
+ r found in the latest source listing\; confirmation needed.\nSource could 
+ not be fully rechecked.\nThis event could not be rechecked on the latest c
+ ollection. Confirm with the organiser.
 LAST-MODIFIED:20261007T111029Z
 LOCATION:https://us02web.zoom.us/j/83483036517
 STATUS:CONFIRMED
@@ -708,7 +704,10 @@ DESCRIPTION:System Dynamics Society\nTime: 11:00 a.m. New York | 4:00 p.m.
  ovide a space to collaborate on the responsible integration of artifi\nLan
  guage: Not specified\nLanguage requirements: Not specified\nInterpretation
  : Not specified\nAccess: See organiser\nhttps://systemdynamics.org/event/a
- i-in-system-dynamics-education-task-force-monthly-meeting-2/2026-10-13/
+ i-in-system-dynamics-education-task-force-monthly-meeting-2/2026-10-13/\nS
+ ource could not be fully rechecked.\nNo longer found in the latest source 
+ listing\; confirmation needed.\nThis event could not be rechecked on the l
+ atest collection. Confirm with the organiser.
 LAST-MODIFIED:20260910T090026Z
 LOCATION:https://systemdynamics.org/event/ai-in-system-dynamics-education-
  task-force-monthly-meeting-2/2026-10-13/
@@ -734,9 +733,9 @@ DESCRIPTION:System Dynamics Society\nTuesday\, October 13 at 11 am New Yor
  n a\nLanguage: Not specified\nLanguage requirements: Not specified\nInterp
  retation: Not specified\nAccess: See organiser\nhttps://systemdynamics.org
  /event/implementing-the-self-managing-enterprise-with-agentic-ai/\nNo long
- er found in the latest source listing\; confirmation needed.\nThis event c
- ould not be rechecked on the latest collection. Confirm with the organiser
- .
+ er found in the latest source listing\; confirmation needed.\nSource could
+  not be fully rechecked.\nThis event could not be rechecked on the latest 
+ collection. Confirm with the organiser.
 LAST-MODIFIED:20260917T093127Z
 LOCATION:https://us02web.zoom.us/j/87049920798
 STATUS:CONFIRMED
@@ -762,13 +761,44 @@ DESCRIPTION:System Dynamics Society\nThe Learning Hub is an interactive\,
  guage: Not specified\nLanguage requirements: Not specified\nInterpretation
  : Not specified\nAccess: See organiser\nhttps://systemdynamics.org/event/s
  ystem-dynamics-learning-hub-2026-sasdc-stream-4-multi-echelon-supply-chain
- -dynamics-session-1/
+ -dynamics-session-1/\nSource could not be fully rechecked.\nNo longer foun
+ d in the latest source listing\; confirmation needed.\nThis event could no
+ t be rechecked on the latest collection. Confirm with the organiser.
 LAST-MODIFIED:20260910T090026Z
 LOCATION:Location not published
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 URL:https://systemdynamics.org/event/system-dynamics-learning-hub-2026-sas
  dc-stream-4-multi-echelon-supply-chain-dynamics-session-1/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Systems Modeling and Food Systems: Theory\, Applications\, and Fro
+ ntiers for Research
+DTSTART:20261014T180000Z
+DTEND:20261014T190000Z
+DTSTAMP:20261014T093553Z
+UID:00aa8fddb1a6f34321f99fd4@systemsmap.antlerboy.com
+SEQUENCE:0
+CATEGORIES:System dynamics
+DESCRIPTION:System Dynamics Society\nThe presentation will motivate the th
+ eory and application of systems modeling in food systems\, drawing on the 
+ author’s experience in designing a range of models in agricultural and l
+ ivestock value chains in the developing world. The use of participatory pr
+ ocesses as a data collection\, triangulation\, and team building tool will
+  be highlighted. New areas of research\, particularly with regards to ins
+ \nLanguage: Not specified\nLanguage requirements: Not specified\nInterpret
+ ation: Not specified\nAccess: See organiser\nhttps://systemdynamics.org/ev
+ ent/systems-modeling-and-food-systems-theory-applications-and-frontiers-fo
+ r-research/\nNo longer found in the latest source listing\; confirmation n
+ eeded.\nSource could not be fully rechecked.\nThis event could not be rech
+ ecked on the latest collection. Confirm with the organiser.
+LAST-MODIFIED:20261014T093553Z
+LOCATION:Virginia Tech\, Virginia Polytechnic Institute and State Universi
+ ty\, Blacksburg\, VA\, United States
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://systemdynamics.org/event/systems-modeling-and-food-systems-the
+ ory-applications-and-frontiers-for-research/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:The iSD model from Millennium Institute: a Sustainable Development
@@ -788,7 +818,9 @@ DESCRIPTION:System Dynamics Society\nThe Integrated Sustainable Developmen
  nguage: Not specified\nLanguage requirements: Not specified\nInterpretatio
  n: Not specified\nAccess: See organiser\nhttps://systemdynamics.org/event/
  the-isd-model-from-millenium-institute-a-sustainable-development-simulator
- /
+ /\nNo longer found in the latest source listing\; confirmation needed.\nSo
+ urce could not be fully rechecked.\nThis event could not be rechecked on t
+ he latest collection. Confirm with the organiser.
 LAST-MODIFIED:20261002T103500Z
 LOCATION:https://us02web.zoom.us/j/83989986859
 STATUS:CONFIRMED
@@ -811,7 +843,9 @@ DESCRIPTION:System Dynamics Society\nMonthly meetings of the Policy Counci
   prior to the start of the meeting.\nLanguage: Not specified\nLanguage req
  uirements: Not specified\nInterpretation: Not specified\nAccess: See organ
  iser\nhttps://systemdynamics.org/event/sds-policy-council-meeting-october-
- 2026/
+ 2026/\nNo longer found in the latest source listing\; confirmation needed.
+ \nSource could not be fully rechecked.\nThis event could not be rechecked 
+ on the latest collection. Confirm with the organiser.
 LAST-MODIFIED:20261002T103500Z
 LOCATION:https://us02web.zoom.us/j/89954043089
 STATUS:CONFIRMED
@@ -837,7 +871,9 @@ DESCRIPTION:System Dynamics Society\nWelcome to the next Chapter meeting!
  me\nLanguage: Not specified\nLanguage requirements: Not specified\nInterpr
  etation: Not specified\nAccess: See organiser\nhttps://systemdynamics.org/
  event/the-earth-has-humans-but-what-kind-endogenizing-behaviour-in-climate
- -models/
+ -models/\nNo longer found in the latest source listing\; confirmation need
+ ed.\nSource could not be fully rechecked.\nThis event could not be recheck
+ ed on the latest collection. Confirm with the organiser.
 LAST-MODIFIED:20261001T110212Z
 LOCATION:https://kth-se.zoom.us/j/62254134636
 STATUS:CONFIRMED
@@ -850,9 +886,9 @@ SUMMARY:The 40th annual European Simulation and Modelling Conference - ESM
   '2026
 DTSTART;VALUE=DATE:20261021
 DTEND;VALUE=DATE:20261024
-DTSTAMP:20260910T090026Z
+DTSTAMP:20261017T083913Z
 UID:04088520338aeb58c1cb587d@systemsmap.antlerboy.com
-SEQUENCE:0
+SEQUENCE:2
 CATEGORIES:System dynamics
 DESCRIPTION:System Dynamics Society\nESM®’2026 October 21-23\, 2026\, N
  ational Engineering School (ENIM)\, Metz\, France CONFERENCE PAGE LINK: ht
@@ -863,8 +899,11 @@ DESCRIPTION:System Dynamics Society\nESM®’2026 October 21-23\, 2026\, N
   sim\nLanguage: Not specified\nLanguage requirements: Not specified\nInter
  pretation: Not specified\nAccess: See organiser\nhttps://systemdynamics.or
  g/event/the-40th-annual-european-simulation-and-modelling-conference-esm-2
- 026/\nDate-only listing\; check the organiser for session times.
-LAST-MODIFIED:20260910T090026Z
+ 026/\nDate-only listing\; check the organiser for session times.\nNo longe
+ r found in the latest source listing\; confirmation needed.\nSource could 
+ not be fully rechecked.\nThis event could not be rechecked on the latest c
+ ollection. Confirm with the organiser.
+LAST-MODIFIED:20261017T083913Z
 LOCATION:Location not published
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -885,7 +924,10 @@ DESCRIPTION:System Dynamics Society\nEconomics SIG Online Seminar Presente
  tober 21\, 2026 Time: 12 pm New York | 5 pm London | 6 pm Rome | 7 pm Ista
  nbul\nLanguage: Not specified\nLanguage requirements: Not specified\nInter
  pretation: Not specified\nAccess: See organiser\nhttps://systemdynamics.or
- g/event/economics-sig-online-seminar-2/
+ g/event/economics-sig-online-seminar-2/\nNo longer found in the latest sou
+ rce listing\; confirmation needed.\nSource could not be fully rechecked.\n
+ This event could not be rechecked on the latest collection. Confirm with t
+ he organiser.
 LAST-MODIFIED:20261007T111029Z
 LOCATION:https://systemdynamics.org/event/economics-sig-online-seminar-2/
 STATUS:CONFIRMED
@@ -908,7 +950,10 @@ DESCRIPTION:System Dynamics Society\nOn Thursday\, October 22nd @ 5pm New
  l Interest Group (SIG) Affiliation 4. Click “Update Profile” at the bo
  t\nLanguage: Not specified\nLanguage requirements: Not specified\nInterpre
  tation: Not specified\nAccess: See organiser\nhttps://systemdynamics.org/e
- vent/strategic-planning-meeting-for-2027-and-networking/
+ vent/strategic-planning-meeting-for-2027-and-networking/\nNo longer found 
+ in the latest source listing\; confirmation needed.\nSource could not be f
+ ully rechecked.\nThis event could not be rechecked on the latest collectio
+ n. Confirm with the organiser.
 LAST-MODIFIED:20261003T095602Z
 LOCATION:https://nmsu.zoom.us/j/89089874054
 STATUS:CONFIRMED
@@ -932,7 +977,9 @@ DESCRIPTION:System Dynamics Society\nTuesday\, October 27 at 11 am New Yor
  rview This webinar goes on to explain the mechanisms by which collaboratio
  n a\nLanguage: Not specified\nLanguage requirements: Not specified\nInterp
  retation: Not specified\nAccess: See organiser\nhttps://systemdynamics.org
- /event/implementing-the-self-managing-enterprise-with-agentic-ai/
+ /event/implementing-the-self-managing-enterprise-with-agentic-ai/\nSource 
+ could not be fully rechecked.\nThis event could not be rechecked on the la
+ test collection. Confirm with the organiser.
 LAST-MODIFIED:20260922T092210Z
 LOCATION:https://us02web.zoom.us/j/87049920798
 STATUS:CONFIRMED
@@ -941,15 +988,68 @@ URL:https://systemdynamics.org/event/implementing-the-self-managing-enterp
  rise-with-agentic-ai/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:A New Face for the Creative Learning Exchange
+DTSTART:20261029T170000Z
+DTEND:20261029T180000Z
+DTSTAMP:20261012T121048Z
+UID:fa288c07a0345ebcc5927228@systemsmap.antlerboy.com
+SEQUENCE:0
+CATEGORIES:System dynamics
+DESCRIPTION:System Dynamics Society\nDear Colleagues\, We invite you to th
+ e upcoming System Dynamics Society Pre-College Special Interest Group meet
+ ing focused on “A New Face for the Creative Learning Exchange.” This p
+ resentation will start with a brief history of the Creative Learning Excha
+ nge (CLE) and its current status. The main focus will be on a guided tour 
+ through the new\, revised website with time for questions and discussion.
+ \nLanguage: Not specified\nLanguage requirements: Not specified\nInterpret
+ ation: Not specified\nAccess: See organiser\nhttps://systemdynamics.org/ev
+ ent/a-new-face-for-the-creative-learning-exchange/\nSource could not be fu
+ lly rechecked.\nThis event could not be rechecked on the latest collection
+ . Confirm with the organiser.
+LAST-MODIFIED:20261012T121048Z
+LOCATION:https://systemdynamics.org/event/a-new-face-for-the-creative-lear
+ ning-exchange/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://systemdynamics.org/event/a-new-face-for-the-creative-learning-
+ exchange/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SD Journal Club: Student Chapter Monthly Meetup
+DTSTART:20261102T150000Z
+DTEND:20261102T160000Z
+DTSTAMP:20261009T112400Z
+UID:316339c0c4970c4e3bcec0af@systemsmap.antlerboy.com
+SEQUENCE:0
+CATEGORIES:System dynamics
+DESCRIPTION:System Dynamics Society\nOn November 2\, the Student Chapter w
+ elcomes anyone interested to discuss Recent and Interesting journal articl
+ es related to system dynamics and systems thinking. If you want to recomme
+ nd a recent (published in 2026) peer-reviewed paper to us to discuss\, ple
+ ase email your suggestion to studentchapter@systemdynamics.org . We will a
+ nnounce and share the chosen articles to Student Chapter members 2 we\nLan
+ guage: Not specified\nLanguage requirements: Not specified\nInterpretation
+ : Not specified\nAccess: See organiser\nhttps://systemdynamics.org/event/s
+ d-journal-club-student-chapter-monthly-meetup/\nSource could not be fully 
+ rechecked.\nThis event could not be rechecked on the latest collection. Co
+ nfirm with the organiser.
+LAST-MODIFIED:20261009T112400Z
+LOCATION:https://us02web.zoom.us/j/85956496724
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://systemdynamics.org/event/sd-journal-club-student-chapter-month
+ ly-meetup/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Combining System Dynamics with Discrete Event and Agent-Based Meth
  ods: Why and How
 DTSTART:20261103T160000Z
 DTEND:20261103T170000Z
-DTSTAMP:20261006T112159Z
+DTSTAMP:20261014T093553Z
 UID:9c76f0ea4afed21f99b5f97c@systemsmap.antlerboy.com
-SEQUENCE:0
+SEQUENCE:1
 CATEGORIES:Complexity,System dynamics
-DESCRIPTION:System Dynamics Society\nDecember 3\, 2026 at 11 am New York |
+DESCRIPTION:System Dynamics Society\nNovember 3\, 2026 at 11 am New York |
   4 pm London | Check your timezone This webinar explores different modelin
  g methods and how they can be combined to address complex problems at diff
  erent levels of abstraction. We will compare System Dynamics (SD)\, Agent-
@@ -958,8 +1058,9 @@ DESCRIPTION:System Dynamics Society\nDecember 3\, 2026 at 11 am New York |
  anguage: Not specified\nLanguage requirements: Not specified\nInterpretati
  on: Not specified\nAccess: See organiser\nhttps://systemdynamics.org/event
  /combining-system-dynamics-with-discrete-event-and-agent-based-methods-why
- -and-how/
-LAST-MODIFIED:20261006T112159Z
+ -and-how/\nSource could not be fully rechecked.\nThis event could not be r
+ echecked on the latest collection. Confirm with the organiser.
+LAST-MODIFIED:20261014T093553Z
 LOCATION:https://us02web.zoom.us/j/81778033881
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -982,7 +1083,9 @@ DESCRIPTION:System Dynamics Society\nTime: 11:00 a.m. New York | 4:00 p.m.
  ovide a space to collaborate on the responsible integration of artifi\nLan
  guage: Not specified\nLanguage requirements: Not specified\nInterpretation
  : Not specified\nAccess: See organiser\nhttps://systemdynamics.org/event/a
- i-in-system-dynamics-education-task-force-monthly-meeting-2/2026-11-10/
+ i-in-system-dynamics-education-task-force-monthly-meeting-2/2026-11-10/\nS
+ ource could not be fully rechecked.\nThis event could not be rechecked on 
+ the latest collection. Confirm with the organiser.
 LAST-MODIFIED:20260910T090026Z
 LOCATION:https://systemdynamics.org/event/ai-in-system-dynamics-education-
  task-force-monthly-meeting-2/2026-11-10/
@@ -990,6 +1093,33 @@ STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 URL:https://systemdynamics.org/event/ai-in-system-dynamics-education-task-
  force-monthly-meeting-2/2026-11-10/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Webinar: Community-Based System Dynamics - from Principles to Prac
+ tice
+DTSTART:20261117T010000Z
+DTEND:20261117T020000Z
+DTSTAMP:20261021T092622Z
+UID:dad853adc1ff5e97773ff3c7@systemsmap.antlerboy.com
+SEQUENCE:0
+CATEGORIES:Complexity,System dynamics
+DESCRIPTION:System Dynamics Society\nThe Oceania Chapter of the System Dyn
+ amics Society Webinar Series. Community-Based System Dynamics – from Pri
+ nciples to Practice Speakers: Tiana Felmingham\, Lee Coller\, and Andrew B
+ rownJointly applied CBSD across regional and rural Victoria for 10+ years 
+ Abstract: Community-based system dynamics (CBSD) brings together system dy
+ namics modelling with participatory approaches that centre the knowledg\nL
+ anguage: Not specified\nLanguage requirements: Not specified\nInterpretati
+ on: Not specified\nAccess: See organiser\nhttps://systemdynamics.org/event
+ /webinar-community-based-system-dynamics/\nSource could not be fully reche
+ cked.\nThis event could not be rechecked on the latest collection. Confirm
+  with the organiser.
+LAST-MODIFIED:20261021T092622Z
+LOCATION:https://uni-sydney.zoom.us/j/83804988911
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://systemdynamics.org/event/webinar-community-based-system-dynami
+ cs/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Economics SIG Online Seminar
@@ -1005,7 +1135,9 @@ DESCRIPTION:System Dynamics Society\nEconomics SIG Online Seminar Presente
   November 18\, 2026 Time: 12 pm New York | 5 pm London | 6 pm Rome | 8 pm 
  Istanbul\nLanguage: Not specified\nLanguage requirements: Not specified\nI
  nterpretation: Not specified\nAccess: See organiser\nhttps://systemdynamic
- s.org/event/economics-sig-online-seminar-3/
+ s.org/event/economics-sig-online-seminar-3/\nSource could not be fully rec
+ hecked.\nThis event could not be rechecked on the latest collection. Confi
+ rm with the organiser.
 LAST-MODIFIED:20261007T111029Z
 LOCATION:https://us02web.zoom.us/j/85988794484
 STATUS:CONFIRMED
@@ -1026,7 +1158,9 @@ DESCRIPTION:System Dynamics Society\nMonthly meetings of the Policy Counci
  to access the zoom link which will be displayed here to members 15 minutes
   prior to the start of the meeting.\nLanguage: Not specified\nLanguage req
  uirements: Not specified\nInterpretation: Not specified\nAccess: See organ
- iser\nhttps://systemdynamics.org/event/sds-policy-council-november/
+ iser\nhttps://systemdynamics.org/event/sds-policy-council-november/\nSourc
+ e could not be fully rechecked.\nThis event could not be rechecked on the 
+ latest collection. Confirm with the organiser.
 LAST-MODIFIED:20261002T103500Z
 LOCATION:https://us02web.zoom.us/j/89954043089?pwd=1gUGprni0qTmsnAtgvw4LrT
  huKzTLT.1
@@ -1042,7 +1176,7 @@ DTEND:20261124T170000Z
 DTSTAMP:20260914T095825Z
 UID:9461af3c6b41bf4463fbc834@systemsmap.antlerboy.com
 SEQUENCE:1
-CATEGORIES:System dynamics,Complexity
+CATEGORIES:Complexity,System dynamics
 DESCRIPTION:System Dynamics Society\nNovember 24\, 2026 at 11 am NY | 4 pm
   London | Check Your Time Zone As systems mapping has grown in popularity
  \, an important challenge remains: once a map has been created\, where sho
@@ -1051,7 +1185,9 @@ DESCRIPTION:System Dynamics Society\nNovember 24\, 2026 at 11 am NY | 4 pm
  s this question by enabling users to map\, explore\, and analyse complex 
  \nLanguage: Not specified\nLanguage requirements: Not specified\nInterpret
  ation: Not specified\nAccess: See organiser\nhttps://systemdynamics.org/ev
- ent/the-next-generation-of-systems-mapping-from-insight-to-intervention/
+ ent/the-next-generation-of-systems-mapping-from-insight-to-intervention/\n
+ Source could not be fully rechecked.\nThis event could not be rechecked on
+  the latest collection. Confirm with the organiser.
 LAST-MODIFIED:20260914T095825Z
 LOCATION:https://systemdynamics.org/event/the-next-generation-of-systems-m
  apping-from-insight-to-intervention/
@@ -1068,7 +1204,7 @@ DTEND:20261201T170000Z
 DTSTAMP:20260922T092210Z
 UID:0129130f4b87dca11288953f@systemsmap.antlerboy.com
 SEQUENCE:0
-CATEGORIES:System dynamics,Complexity
+CATEGORIES:Complexity,System dynamics
 DESCRIPTION:System Dynamics Society\nDecember 1\, 2026 at 11 am New York |
   4 pm London | Check Your Timezone Reliable parameter estimation is critic
  al for using dynamic simulation models to test theory\, quantify mechanism
@@ -1078,7 +1214,8 @@ DESCRIPTION:System Dynamics Society\nDecember 1\, 2026 at 11 am New York |
  Language: Not specified\nLanguage requirements: Not specified\nInterpretat
  ion: Not specified\nAccess: See organiser\nhttps://systemdynamics.org/even
  t/benchmarking-estimation-of-dynamic-models-in-social-and-behavioral-scien
- ces/
+ ces/\nSource could not be fully rechecked.\nThis event could not be rechec
+ ked on the latest collection. Confirm with the organiser.
 LAST-MODIFIED:20260922T092210Z
 LOCATION:https://us02web.zoom.us/j/88212739370
 STATUS:CONFIRMED
@@ -1090,9 +1227,9 @@ BEGIN:VEVENT
 SUMMARY:Winter Simulation Conference - WSC 2026
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261210
-DTSTAMP:20260914T095825Z
+DTSTAMP:20261017T083913Z
 UID:84ba6ab1cc55be569a831beb@systemsmap.antlerboy.com
-SEQUENCE:2
+SEQUENCE:4
 CATEGORIES:System dynamics
 DESCRIPTION:System Dynamics Society\nStarts: Dec 6\, 2026 09:00 (UTC) Ends
  : Dec 9\, 2026 17:00 (UTC) Location: Scottish Event Campus | SEC Centre Ex
@@ -1102,8 +1239,10 @@ DESCRIPTION:System Dynamics Society\nStarts: Dec 6\, 2026 09:00 (UTC) Ends
  ity-events\nLanguage: Not specified\nLanguage requirements: Not specified
  \nInterpretation: Not specified\nAccess: See organiser\nhttps://systemdyna
  mics.org/event/winter-simulation-conference-wsc-2026/\nDate-only listing\;
-  check the organiser for session times.
-LAST-MODIFIED:20260914T095825Z
+  check the organiser for session times.\nSource could not be fully recheck
+ ed.\nThis event could not be rechecked on the latest collection. Confirm w
+ ith the organiser.
+LAST-MODIFIED:20261017T083913Z
 LOCATION:Location not published
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1126,7 +1265,9 @@ DESCRIPTION:System Dynamics Society\nTime: 11:00 a.m. New York | 4:00 p.m.
  ovide a space to collaborate on the responsible integration of artifi\nLan
  guage: Not specified\nLanguage requirements: Not specified\nInterpretation
  : Not specified\nAccess: See organiser\nhttps://systemdynamics.org/event/a
- i-in-system-dynamics-education-task-force-monthly-meeting-2/2026-12-08/
+ i-in-system-dynamics-education-task-force-monthly-meeting-2/2026-12-08/\nS
+ ource could not be fully rechecked.\nThis event could not be rechecked on 
+ the latest collection. Confirm with the organiser.
 LAST-MODIFIED:20260914T095825Z
 LOCATION:https://systemdynamics.org/event/ai-in-system-dynamics-education-
  task-force-monthly-meeting-2/2026-12-08/
@@ -1153,6 +1294,8 @@ DESCRIPTION:System Dynamics Society\nDecember 15\, 2026 at 11 am New York
  anguage: Not specified\nLanguage requirements: Not specified\nInterpretati
  on: Not specified\nAccess: See organiser\nhttps://systemdynamics.org/event
  /using-laboratory-experiments-to-study-decision-making-in-dynamic-systems/
+ \nSource could not be fully rechecked.\nThis event could not be rechecked 
+ on the latest collection. Confirm with the organiser.
 LAST-MODIFIED:20260914T095825Z
 LOCATION:https://us02web.zoom.us/j/86747150832
 STATUS:CONFIRMED
@@ -1174,7 +1317,9 @@ DESCRIPTION:System Dynamics Society\nMonthly meetings of the Policy Counci
  to access the zoom link which will be displayed here to members 15 minutes
   prior to the start of the meeting.\nLanguage: Not specified\nLanguage req
  uirements: Not specified\nInterpretation: Not specified\nAccess: See organ
- iser\nhttps://systemdynamics.org/event/sds-policy-council-december/
+ iser\nhttps://systemdynamics.org/event/sds-policy-council-december/\nSourc
+ e could not be fully rechecked.\nThis event could not be rechecked on the 
+ latest collection. Confirm with the organiser.
 LAST-MODIFIED:20261002T103500Z
 LOCATION:https://us02web.zoom.us/j/89954043089?pwd=1gUGprni0qTmsnAtgvw4LrT
  huKzTLT.1
@@ -1186,9 +1331,9 @@ BEGIN:VEVENT
 SUMMARY:Systems Young Investigator Award Deadline
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270101
-DTSTAMP:20260914T095825Z
+DTSTAMP:20261017T083913Z
 UID:5a4e9833c2d8e2a0f2c34269@systemsmap.antlerboy.com
-SEQUENCE:4
+SEQUENCE:6
 CATEGORIES:System dynamics
 DESCRIPTION:System Dynamics Society\nYoung Investigator Award This award w
  ill be given to one young investigator in recognition of their excellence 
@@ -1199,8 +1344,10 @@ DESCRIPTION:System Dynamics Society\nYoung Investigator Award This award w
  nve\nLanguage: Not specified\nLanguage requirements: Not specified\nInterp
  retation: Not specified\nAccess: See organiser\nhttps://systemdynamics.org
  /event/systems-young-investigator-award-deadline/\nDate-only listing\; che
- ck the organiser for session times.
-LAST-MODIFIED:20260914T095825Z
+ ck the organiser for session times.\nSource could not be fully rechecked.
+ \nThis event could not be rechecked on the latest collection. Confirm with
+  the organiser.
+LAST-MODIFIED:20261017T083913Z
 LOCATION:Location not published
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1225,7 +1372,8 @@ DESCRIPTION:System Dynamics Society\nJanuary 5\, 2027 at 11 am New York |
  nguage: Not specified\nLanguage requirements: Not specified\nInterpretatio
  n: Not specified\nAccess: See organiser\nhttps://systemdynamics.org/event/
  when-money-isnt-fungible-a-stock-and-flow-interpretation-of-mental-account
- ing/
+ ing/\nSource could not be fully rechecked.\nThis event could not be rechec
+ ked on the latest collection. Confirm with the organiser.
 LAST-MODIFIED:20260929T104630Z
 LOCATION:https://us02web.zoom.us/j/87032804571
 STATUS:CONFIRMED
@@ -1249,7 +1397,9 @@ DESCRIPTION:System Dynamics Society\nTime: 11:00 a.m. New York | 4:00 p.m.
  ovide a space to collaborate on the responsible integration of artifi\nLan
  guage: Not specified\nLanguage requirements: Not specified\nInterpretation
  : Not specified\nAccess: See organiser\nhttps://systemdynamics.org/event/a
- i-in-system-dynamics-education-task-force-monthly-meeting-2/2027-01-12/
+ i-in-system-dynamics-education-task-force-monthly-meeting-2/2027-01-12/\nS
+ ource could not be fully rechecked.\nThis event could not be rechecked on 
+ the latest collection. Confirm with the organiser.
 LAST-MODIFIED:20260914T095825Z
 LOCATION:https://systemdynamics.org/event/ai-in-system-dynamics-education-
  task-force-monthly-meeting-2/2027-01-12/
@@ -1275,7 +1425,9 @@ DESCRIPTION:System Dynamics Society\nJanuary 12\, 2027 at 11 am New York |
   simulated agents to interpret context\, form intentions\, and interact\nL
  anguage: Not specified\nLanguage requirements: Not specified\nInterpretati
  on: Not specified\nAccess: See organiser\nhttps://systemdynamics.org/event
- /generative-agent-based-models-simulating-quasi-autonomous-ai-agents/
+ /generative-agent-based-models-simulating-quasi-autonomous-ai-agents/\nSou
+ rce could not be fully rechecked.\nThis event could not be rechecked on th
+ e latest collection. Confirm with the organiser.
 LAST-MODIFIED:20260914T095825Z
 LOCATION:https://us02web.zoom.us/j/89002602905
 STATUS:CONFIRMED
@@ -1297,7 +1449,9 @@ DESCRIPTION:System Dynamics Society\nSubmissions to the International Conf
  ns page.\nLanguage: Not specified\nLanguage requirements: Not specified\nI
  nterpretation: Not specified\nAccess: See organiser\nhttps://systemdynamic
  s.org/event/2027-conference-submission-window-opens/\nDate-only listing\; 
- check the organiser for session times.
+ check the organiser for session times.\nSource could not be fully rechecke
+ d.\nThis event could not be rechecked on the latest collection. Confirm wi
+ th the organiser.
 LAST-MODIFIED:20261003T095602Z
 LOCATION:https://systemdynamics.org/event/2027-conference-submission-windo
  w-opens/
@@ -1324,7 +1478,8 @@ DESCRIPTION:System Dynamics Society\nHybrid Event The event can be followe
  namics\nLanguage: Not specified\nLanguage requirements: Not specified\nInt
  erpretation: Not specified\nAccess: See organiser\nhttps://systemdynamics.
  org/event/the-dynamics-of-sustainability-transitions-can-we-go-faster-shou
- ld-we-slow-down/
+ ld-we-slow-down/\nSource could not be fully rechecked.\nThis event could n
+ ot be rechecked on the latest collection. Confirm with the organiser.
 LAST-MODIFIED:20261006T112159Z
 LOCATION:Aula\, Netherlands
 STATUS:CONFIRMED
@@ -1348,7 +1503,9 @@ DESCRIPTION:System Dynamics Society\nTime: 11:00 a.m. New York | 4:00 p.m.
  ovide a space to collaborate on the responsible integration of artifi\nLan
  guage: Not specified\nLanguage requirements: Not specified\nInterpretation
  : Not specified\nAccess: See organiser\nhttps://systemdynamics.org/event/a
- i-in-system-dynamics-education-task-force-monthly-meeting-2/2027-02-09/
+ i-in-system-dynamics-education-task-force-monthly-meeting-2/2027-02-09/\nS
+ ource could not be fully rechecked.\nThis event could not be rechecked on 
+ the latest collection. Confirm with the organiser.
 LAST-MODIFIED:20260914T095825Z
 LOCATION:https://systemdynamics.org/event/ai-in-system-dynamics-education-
  task-force-monthly-meeting-2/2027-02-09/
@@ -1373,7 +1530,9 @@ DESCRIPTION:System Dynamics Society\nHYBRID EVENT 12 February 2027\, 10:00
  ocation In person: UNSW Canberra City Lecture Theatre 00.25\, Ground floo
  \nLanguage: Not specified\nLanguage requirements: Not specified\nInterpret
  ation: Not specified\nAccess: See organiser\nhttps://systemdynamics.org/ev
- ent/oceania-chapter-2027-systems-thinking-modelling-symposium/
+ ent/oceania-chapter-2027-systems-thinking-modelling-symposium/\nSource cou
+ ld not be fully rechecked.\nThis event could not be rechecked on the lates
+ t collection. Confirm with the organiser.
 LAST-MODIFIED:20260914T095825Z
 LOCATION:UNSW canberra\, UNSW Canberra City\, 37 Constitution Ave\, Reid A
  CT 2612\, Australia\, ACT\, 2612\, Australia
@@ -1398,7 +1557,9 @@ DESCRIPTION:System Dynamics Society\nTime: 11:00 a.m. New York | 4:00 p.m.
  ovide a space to collaborate on the responsible integration of artifi\nLan
  guage: Not specified\nLanguage requirements: Not specified\nInterpretation
  : Not specified\nAccess: See organiser\nhttps://systemdynamics.org/event/a
- i-in-system-dynamics-education-task-force-monthly-meeting-2/2027-03-09/
+ i-in-system-dynamics-education-task-force-monthly-meeting-2/2027-03-09/\nS
+ ource could not be fully rechecked.\nThis event could not be rechecked on 
+ the latest collection. Confirm with the organiser.
 LAST-MODIFIED:20260914T095825Z
 LOCATION:https://systemdynamics.org/event/ai-in-system-dynamics-education-
  task-force-monthly-meeting-2/2027-03-09/
@@ -1411,19 +1572,18 @@ BEGIN:VEVENT
 SUMMARY:2027 Conference Submission Deadline
 DTSTART:20270317T035900Z
 DTEND:20270317T035900Z
-DTSTAMP:20261003T095602Z
+DTSTAMP:20261014T093553Z
 UID:3bad789045d7fb03e9d3d2a9@systemsmap.antlerboy.com
-SEQUENCE:0
+SEQUENCE:2
 CATEGORIES:System dynamics
 DESCRIPTION:System Dynamics Society\nSubmissions to the International Syst
  em Dynamics Conference are due today. For more details about the conferenc
  e\, please visit our conference page.\nLanguage: Not specified\nLanguage r
  equirements: Not specified\nInterpretation: Not specified\nAccess: See org
  aniser\nhttps://systemdynamics.org/event/2026-conference-submission-deadli
- ne/\nNo longer found in the latest source listing\; confirmation needed.\n
- This event could not be rechecked on the latest collection. Confirm with t
- he organiser.
-LAST-MODIFIED:20261003T095602Z
+ ne/\nSource could not be fully rechecked.\nThis event could not be recheck
+ ed on the latest collection. Confirm with the organiser.
+LAST-MODIFIED:20261014T093553Z
 LOCATION:United States\, United States
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1433,9 +1593,9 @@ BEGIN:VEVENT
 SUMMARY:Systems Travel Award Deadline
 DTSTART;VALUE=DATE:20270331
 DTEND;VALUE=DATE:20270401
-DTSTAMP:20260914T095825Z
+DTSTAMP:20261017T083913Z
 UID:8571c909cf05e38e5ae4501f@systemsmap.antlerboy.com
-SEQUENCE:4
+SEQUENCE:6
 CATEGORIES:System dynamics
 DESCRIPTION:System Dynamics Society\nThis award provides financial support
   for one PhD student or postdoctoral fellow to attend an international con
@@ -1446,10 +1606,10 @@ DESCRIPTION:System Dynamics Society\nThis award provides financial support
  st\nLanguage: Not specified\nLanguage requirements: Not specified\nInterpr
  etation: Not specified\nAccess: See organiser\nhttps://systemdynamics.org/
  event/systems-travel-award-deadline/\nDate-only listing\; check the organi
- ser for session times.\nNo longer found in the latest source listing\; con
- firmation needed.\nThis event could not be rechecked on the latest collect
- ion. Confirm with the organiser.
-LAST-MODIFIED:20260914T095825Z
+ ser for session times.\nSource could not be fully rechecked.\nThis event c
+ ould not be rechecked on the latest collection. Confirm with the organiser
+ .
+LAST-MODIFIED:20261017T083913Z
 LOCATION:Location not published
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1459,9 +1619,9 @@ BEGIN:VEVENT
 SUMMARY:AI in System Dynamics Education | Task Force Monthly Meeting
 DTSTART:20270413T150000Z
 DTEND:20270413T160000Z
-DTSTAMP:20260914T095825Z
+DTSTAMP:20261016T090631Z
 UID:ad52d10e476e16654760f737@systemsmap.antlerboy.com
-SEQUENCE:4
+SEQUENCE:5
 CATEGORIES:System dynamics
 DESCRIPTION:System Dynamics Society\nTime: 11:00 a.m. New York | 4:00 p.m.
   London | 11:00 p.m. BeijingWhen: First Tuesday of every month Please logi
@@ -1471,11 +1631,10 @@ DESCRIPTION:System Dynamics Society\nTime: 11:00 a.m. New York | 4:00 p.m.
  ovide a space to collaborate on the responsible integration of artifi\nLan
  guage: Not specified\nLanguage requirements: Not specified\nInterpretation
  : Not specified\nAccess: See organiser\nhttps://systemdynamics.org/event/a
- i-in-system-dynamics-education-task-force-monthly-meeting-2/2027-04-13/\nN
- o longer found in the latest source listing\; confirmation needed.\nThis e
- vent could not be rechecked on the latest collection. Confirm with the org
- aniser.
-LAST-MODIFIED:20260914T095825Z
+ i-in-system-dynamics-education-task-force-monthly-meeting-2/2027-04-13/\nS
+ ource could not be fully rechecked.\nThis event could not be rechecked on 
+ the latest collection. Confirm with the organiser.
+LAST-MODIFIED:20261016T090631Z
 LOCATION:https://systemdynamics.org/event/ai-in-system-dynamics-education-
  task-force-monthly-meeting-2/2027-04-13/
 STATUS:CONFIRMED
@@ -1487,9 +1646,9 @@ BEGIN:VEVENT
 SUMMARY:2027 Conference Scholarship Application Deadline
 DTSTART:20270415T040000Z
 DTEND:20270416T035900Z
-DTSTAMP:20261003T095602Z
+DTSTAMP:20261016T090631Z
 UID:16941fd20d461c3e691cccff@systemsmap.antlerboy.com
-SEQUENCE:0
+SEQUENCE:1
 CATEGORIES:System dynamics
 DESCRIPTION:System Dynamics Society\nCONFERENCE SCHOLARSHIP Partial schola
  rships are available that pay conference registration fees. Scholarships a
@@ -1499,10 +1658,10 @@ DESCRIPTION:System Dynamics Society\nCONFERENCE SCHOLARSHIP Partial schola
   “Award and Scholarship Information”. If you would like to apply for a
  \nLanguage: Not specified\nLanguage requirements: Not specified\nInterpret
  ation: Not specified\nAccess: See organiser\nhttps://systemdynamics.org/ev
- ent/2027-conference-scholarship-application-deadline/\nNo longer found in 
- the latest source listing\; confirmation needed.\nThis event could not be 
- rechecked on the latest collection. Confirm with the organiser.
-LAST-MODIFIED:20261003T095602Z
+ ent/2027-conference-scholarship-application-deadline/\nSource could not be
+  fully rechecked.\nThis event could not be rechecked on the latest collect
+ ion. Confirm with the organiser.
+LAST-MODIFIED:20261016T090631Z
 LOCATION:United States\, United States
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1513,36 +1672,8 @@ BEGIN:VEVENT
 SUMMARY:AI in System Dynamics Education | Task Force Monthly Meeting
 DTSTART:20270511T150000Z
 DTEND:20270511T160000Z
-DTSTAMP:20260914T095825Z
+DTSTAMP:20261022T092918Z
 UID:f52766894bb0c2230687cc43@systemsmap.antlerboy.com
-SEQUENCE:4
-CATEGORIES:System dynamics
-DESCRIPTION:System Dynamics Society\nTime: 11:00 a.m. New York | 4:00 p.m.
-  London | 11:00 p.m. BeijingWhen: First Tuesday of every month Please logi
- n to see the Zoom link. A button to join the meeting will be shown to logg
- ed in users. These monthly meetings\, led by the AI in System Dynamics Edu
- cation Task Force of the Pre-College Education Special Interest Group\, pr
- ovide a space to collaborate on the responsible integration of artifi\nLan
- guage: Not specified\nLanguage requirements: Not specified\nInterpretation
- : Not specified\nAccess: See organiser\nhttps://systemdynamics.org/event/a
- i-in-system-dynamics-education-task-force-monthly-meeting-2/2027-05-11/\nN
- o longer found in the latest source listing\; confirmation needed.\nThis e
- vent could not be rechecked on the latest collection. Confirm with the org
- aniser.
-LAST-MODIFIED:20260914T095825Z
-LOCATION:https://systemdynamics.org/event/ai-in-system-dynamics-education-
- task-force-monthly-meeting-2/2027-05-11/
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-URL:https://systemdynamics.org/event/ai-in-system-dynamics-education-task-
- force-monthly-meeting-2/2027-05-11/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:AI in System Dynamics Education | Task Force Monthly Meeting
-DTSTART:20270608T150000Z
-DTEND:20270608T160000Z
-DTSTAMP:20260930T103411Z
-UID:635bb73c200d85eac1ac3db2@systemsmap.antlerboy.com
 SEQUENCE:5
 CATEGORIES:System dynamics
 DESCRIPTION:System Dynamics Society\nTime: 11:00 a.m. New York | 4:00 p.m.
@@ -1553,11 +1684,60 @@ DESCRIPTION:System Dynamics Society\nTime: 11:00 a.m. New York | 4:00 p.m.
  ovide a space to collaborate on the responsible integration of artifi\nLan
  guage: Not specified\nLanguage requirements: Not specified\nInterpretation
  : Not specified\nAccess: See organiser\nhttps://systemdynamics.org/event/a
- i-in-system-dynamics-education-task-force-monthly-meeting-2/2027-06-08/\nN
- o longer found in the latest source listing\; confirmation needed.\nThis e
- vent could not be rechecked on the latest collection. Confirm with the org
- aniser.
-LAST-MODIFIED:20260930T103411Z
+ i-in-system-dynamics-education-task-force-monthly-meeting-2/2027-05-11/\nS
+ ource could not be fully rechecked.\nThis event could not be rechecked on 
+ the latest collection. Confirm with the organiser.
+LAST-MODIFIED:20261022T092918Z
+LOCATION:https://systemdynamics.org/event/ai-in-system-dynamics-education-
+ task-force-monthly-meeting-2/2027-05-11/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://systemdynamics.org/event/ai-in-system-dynamics-education-task-
+ force-monthly-meeting-2/2027-05-11/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Presenter Registration Deadline ISDC2027
+DTSTART:20270601T040000Z
+DTEND:20270602T035900Z
+DTSTAMP:20261023T092514Z
+UID:1983a65b8ec688ecebf21828@systemsmap.antlerboy.com
+SEQUENCE:0
+CATEGORIES:System dynamics
+DESCRIPTION:System Dynamics Society\nAuthors who are designated presenters
+  for the International System Dynamics Conference are required to register
+  for the conference by today. Submissions without a registered author will
+  be removed from the program.\nLanguage: Not specified\nLanguage requireme
+ nts: Not specified\nInterpretation: Not specified\nAccess: See organiser\n
+ https://systemdynamics.org/event/presenter-registration-deadline-isdc2027/
+ \nSource could not be fully rechecked.\nThis event could not be rechecked 
+ on the latest collection. Confirm with the organiser.
+LAST-MODIFIED:20261023T092514Z
+LOCATION:Location not published
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://systemdynamics.org/event/presenter-registration-deadline-isdc2
+ 027/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AI in System Dynamics Education | Task Force Monthly Meeting
+DTSTART:20270608T150000Z
+DTEND:20270608T160000Z
+DTSTAMP:20261024T085707Z
+UID:635bb73c200d85eac1ac3db2@systemsmap.antlerboy.com
+SEQUENCE:6
+CATEGORIES:System dynamics
+DESCRIPTION:System Dynamics Society\nTime: 11:00 a.m. New York | 4:00 p.m.
+  London | 11:00 p.m. BeijingWhen: First Tuesday of every month Please logi
+ n to see the Zoom link. A button to join the meeting will be shown to logg
+ ed in users. These monthly meetings\, led by the AI in System Dynamics Edu
+ cation Task Force of the Pre-College Education Special Interest Group\, pr
+ ovide a space to collaborate on the responsible integration of artifi\nLan
+ guage: Not specified\nLanguage requirements: Not specified\nInterpretation
+ : Not specified\nAccess: See organiser\nhttps://systemdynamics.org/event/a
+ i-in-system-dynamics-education-task-force-monthly-meeting-2/2027-06-08/\nS
+ ource could not be fully rechecked.\nThis event could not be rechecked on 
+ the latest collection. Confirm with the organiser.
+LAST-MODIFIED:20261024T085707Z
 LOCATION:https://systemdynamics.org/event/ai-in-system-dynamics-education-
  task-force-monthly-meeting-2/2027-06-08/
 STATUS:CONFIRMED
@@ -1582,9 +1762,9 @@ DESCRIPTION:System Dynamics Society\nTime: 11:00 a.m. New York | 4:00 p.m.
  guage: Not specified\nLanguage requirements: Not specified\nInterpretation
  : Not specified\nAccess: See organiser\nhttps://systemdynamics.org/event/a
  i-in-system-dynamics-education-task-force-monthly-meeting-2/2027-07-13/\nN
- o longer found in the latest source listing\; confirmation needed.\nThis e
- vent could not be rechecked on the latest collection. Confirm with the org
- aniser.
+ o longer found in the latest source listing\; confirmation needed.\nSource
+  could not be fully rechecked.\nThis event could not be rechecked on the l
+ atest collection. Confirm with the organiser.
 LAST-MODIFIED:20260915T092934Z
 LOCATION:https://systemdynamics.org/event/ai-in-system-dynamics-education-
  task-force-monthly-meeting-2/2027-07-13/
@@ -1610,9 +1790,9 @@ DESCRIPTION:System Dynamics Society\nTime: 11:00 a.m. New York | 4:00 p.m.
  guage: Not specified\nLanguage requirements: Not specified\nInterpretation
  : Not specified\nAccess: See organiser\nhttps://systemdynamics.org/event/a
  i-in-system-dynamics-education-task-force-monthly-meeting-2/2027-08-10/\nN
- o longer found in the latest source listing\; confirmation needed.\nThis e
- vent could not be rechecked on the latest collection. Confirm with the org
- aniser.
+ o longer found in the latest source listing\; confirmation needed.\nSource
+  could not be fully rechecked.\nThis event could not be rechecked on the l
+ atest collection. Confirm with the organiser.
 LAST-MODIFIED:20260925T071905Z
 LOCATION:https://systemdynamics.org/event/ai-in-system-dynamics-education-
  task-force-monthly-meeting-2/2027-08-10/
@@ -1638,8 +1818,9 @@ DESCRIPTION:System Dynamics Society\nMonthly meetings of the Policy Counci
  equirements: Not specified\nInterpretation: Not specified\nAccess: See org
  aniser\nhttps://systemdynamics.org/event/ai-in-system-dynamics-education-t
  ask-force-monthly-meeting-2/2027-09-14/\nNo longer found in the latest sou
- rce listing\; confirmation needed.\nThis event could not be rechecked on t
- he latest collection. Confirm with the organiser.
+ rce listing\; confirmation needed.\nSource could not be fully rechecked.\n
+ This event could not be rechecked on the latest collection. Confirm with t
+ he organiser.
 LAST-MODIFIED:20260910T223446Z
 LOCATION:https://systemdynamics.org/event/ai-in-system-dynamics-education-
  task-force-monthly-meeting-2/2027-09-14/
@@ -1665,9 +1846,9 @@ DESCRIPTION:System Dynamics Society\nTime: 11:00 a.m. New York | 4:00 p.m.
  guage: Not specified\nLanguage requirements: Not specified\nInterpretation
  : Not specified\nAccess: See organiser\nhttps://systemdynamics.org/event/a
  i-in-system-dynamics-education-task-force-monthly-meeting-2/2027-10-12/\nN
- o longer found in the latest source listing\; confirmation needed.\nThis e
- vent could not be rechecked on the latest collection. Confirm with the org
- aniser.
+ o longer found in the latest source listing\; confirmation needed.\nSource
+  could not be fully rechecked.\nThis event could not be rechecked on the l
+ atest collection. Confirm with the organiser.
 LAST-MODIFIED:20260910T090026Z
 LOCATION:https://systemdynamics.org/event/ai-in-system-dynamics-education-
  task-force-monthly-meeting-2/2027-10-12/
@@ -1693,9 +1874,9 @@ DESCRIPTION:System Dynamics Society\nTime: 11:00 a.m. New York | 4:00 p.m.
  guage: Not specified\nLanguage requirements: Not specified\nInterpretation
  : Not specified\nAccess: See organiser\nhttps://systemdynamics.org/event/a
  i-in-system-dynamics-education-task-force-monthly-meeting-2/2027-11-09/\nN
- o longer found in the latest source listing\; confirmation needed.\nThis e
- vent could not be rechecked on the latest collection. Confirm with the org
- aniser.
+ o longer found in the latest source listing\; confirmation needed.\nSource
+  could not be fully rechecked.\nThis event could not be rechecked on the l
+ atest collection. Confirm with the organiser.
 LAST-MODIFIED:20260910T090026Z
 LOCATION:https://systemdynamics.org/event/ai-in-system-dynamics-education-
  task-force-monthly-meeting-2/2027-11-09/
@@ -1721,9 +1902,9 @@ DESCRIPTION:System Dynamics Society\nTime: 11:00 a.m. New York | 4:00 p.m.
  guage: Not specified\nLanguage requirements: Not specified\nInterpretation
  : Not specified\nAccess: See organiser\nhttps://systemdynamics.org/event/a
  i-in-system-dynamics-education-task-force-monthly-meeting-2/2027-12-14/\nN
- o longer found in the latest source listing\; confirmation needed.\nThis e
- vent could not be rechecked on the latest collection. Confirm with the org
- aniser.
+ o longer found in the latest source listing\; confirmation needed.\nSource
+  could not be fully rechecked.\nThis event could not be rechecked on the l
+ atest collection. Confirm with the organiser.
 LAST-MODIFIED:20260910T090026Z
 LOCATION:https://systemdynamics.org/event/ai-in-system-dynamics-education-
  task-force-monthly-meeting-2/2027-12-14/

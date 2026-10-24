@@ -76,17 +76,17 @@ BEGIN:VEVENT
 SUMMARY:Making relational\, place-based public services ordinary
 DTSTART:20260921T124500Z
 DTEND:20260921T141500Z
-DTSTAMP:20261007T221454Z
+DTSTAMP:20261024T204503Z
 UID:8c00d12aaf979855624fa772@systemsmap.antlerboy.com
-SEQUENCE:40
+SEQUENCE:64
 CATEGORIES:Relational public services,Systems thinking
-DESCRIPTION:SCiO / SysPrac26\nBenjamin Taylor’s workshop at SysPrac26. C
- onference booking required.\nLanguage: Not specified\nLanguage requirement
- s: Not specified\nInterpretation: Not specified\nAccess: See organiser\nht
- tps://www.systemspractice.org/Schedule26\nPresenter withdrew from the conf
- erence session\; organiser’s follow-up offers separate online workshops.
-  Checked 7 October 2026.
-LAST-MODIFIED:20261007T221454Z
+DESCRIPTION:SCiO / SysPrac26\nBenjamin Taylor's workshop at SysPrac26. Con
+ ference booking required.\nLanguage: Not specified\nLanguage requirements:
+  Not specified\nInterpretation: Not specified\nAccess: See organiser\nhttp
+ s://www.systemspractice.org/Schedule26\nPresenter withdrew from the confer
+ ence session\; organiser's follow-up offers separate online workshops. Che
+ cked 7 October 2026.
+LAST-MODIFIED:20261024T204503Z
 LOCATION:LR4\, Vincent Building\, Cranfield University\, United Kingdom
 STATUS:CANCELLED
 TRANSP:TRANSPARENT
@@ -125,34 +125,15 @@ CATEGORIES:Systems thinking,Cybernetics
 DESCRIPTION:SCiO UK\n\nLanguage: English\nLanguage requirements: Not speci
  fied\nInterpretation: Not specified\nAccess: Members only\nhttps://www.sys
  temspractice.org/events/scio-uk-virtual-development-event-october-2026\nNo
-  longer found in the latest source listing\; confirmation needed.\nThis ev
- ent could not be rechecked on the latest collection. Confirm with the orga
- niser.
+  longer found in the latest source listing\; confirmation needed.\nSource 
+ could not be fully rechecked.\nThis event could not be rechecked on the la
+ test collection. Confirm with the organiser.
 LAST-MODIFIED:20261006T112159Z
 LOCATION:Online event
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 URL:https://www.systemspractice.org/events/scio-uk-virtual-development-eve
  nt-october-2026
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Deep Dive Intervisie: Critical Systems Heuristics
-DTSTART:20261013T170000Z
-DTEND:20261013T190000Z
-DTSTAMP:20261006T112159Z
-UID:4722c0fc20f597ddb501599a@systemsmap.antlerboy.com
-SEQUENCE:7
-CATEGORIES:Systems thinking,Cybernetics
-DESCRIPTION:SCiO Belgium\n\nGeographic focus: Belgium\nLanguage: Dutch\nLa
- nguage requirements: Not specified\nInterpretation: Not specified\nAccess:
-  Members only + Guests\nhttps://www.systemspractice.org/events/deep-dive-i
- ntervisie-critical-systems-heuristics
-LAST-MODIFIED:20261006T112159Z
-LOCATION:tbc\, Belgium
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-URL:https://www.systemspractice.org/events/deep-dive-intervisie-critical-s
- ystems-heuristics
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Systeemisalonki: Toimiminen kompleksisessa ympäristössä
@@ -165,13 +146,61 @@ CATEGORIES:Systems thinking,Cybernetics
 DESCRIPTION:SCiO Finland\n\nLanguage: Finnish\nLanguage requirements: Not 
  specified\nInterpretation: Not specified\nAccess: All welcome\nhttps://www
  .systemspractice.org/events/systeemisalonki-toimiminen-kompleksisessa-ympa
- ristossa
+ ristossa\nNo longer found in the latest source listing\; confirmation need
+ ed.\nSource could not be fully rechecked.\nThis event could not be recheck
+ ed on the latest collection. Confirm with the organiser.
 LAST-MODIFIED:20261006T112159Z
 LOCATION:Online event
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 URL:https://www.systemspractice.org/events/systeemisalonki-toimiminen-komp
  leksisessa-ymparistossa
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:A co\, jeśli największym ograniczeniem organizacji jest sposób
+ \, w jaki o niej myślimy? O złożoności\, modelach i odkrywaniu nowych 
+ możliwości rozwoju.
+DTSTART:20261015T160000Z
+DTEND:20261015T173000Z
+DTSTAMP:20261009T112400Z
+UID:23bddf0959a88bc6d2fc0bd3@systemsmap.antlerboy.com
+SEQUENCE:0
+CATEGORIES:Systems thinking,Cybernetics
+DESCRIPTION:SCiO Polska\n\nGeographic focus: Poland\nLanguage: Polish\nLan
+ guage requirements: Not specified\nInterpretation: Not specified\nAccess: 
+ All welcome\nhttps://www.systemspractice.org/events/co-jesli-najwiekszym-o
+ graniczeniem-organizacji-jest-sposob-w-jaki-o-niej-myslimy-o\nNo longer fo
+ und in the latest source listing\; confirmation needed.\nSource could not 
+ be fully rechecked.\nThis event could not be rechecked on the latest colle
+ ction. Confirm with the organiser.
+LAST-MODIFIED:20261009T112400Z
+LOCATION:Online event
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.systemspractice.org/events/co-jesli-najwiekszym-ograniczen
+ iem-organizacji-jest-sposob-w-jaki-o-niej-myslimy-o
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Deep Dive Intervisie: Critical Systems Heuristics
+DTSTART:20261015T170000Z
+DTEND:20261015T190000Z
+DTSTAMP:20261013T115559Z
+UID:4722c0fc20f597ddb501599a@systemsmap.antlerboy.com
+SEQUENCE:8
+CATEGORIES:Systems thinking,Cybernetics
+DESCRIPTION:SCiO Belgium\n\nGeographic focus: Belgium\nLanguage: Dutch\nLa
+ nguage requirements: Not specified\nInterpretation: Not specified\nAccess:
+  Members only + Guests\nhttps://www.systemspractice.org/events/deep-dive-i
+ ntervisie-critical-systems-heuristics\nNo longer found in the latest sourc
+ e listing\; confirmation needed.\nSource could not be fully rechecked.\nTh
+ is event could not be rechecked on the latest collection. Confirm with the
+  organiser.
+LAST-MODIFIED:20261013T115559Z
+LOCATION:tbc\, Belgium
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.systemspractice.org/events/deep-dive-intervisie-critical-s
+ ystems-heuristics
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:SCIO-NL monthly meeting October 2025 (live WOERDEN and in Dutch)
@@ -185,7 +214,10 @@ DESCRIPTION:SCiO NL\n\nGeographic focus: Netherlands\nLanguage: Dutch\nLan
  guage requirements: Not specified\nInterpretation: Not specified\nAccess: 
  NL Members + Guests\nhttps://www.systemspractice.org/events/scio-nl-monthl
  y-meeting-october-2025-live-woerden-and-dutch\nTitle year differs from the
-  published date. Check with the organiser.
+  published date. Check with the organiser.\nSource could not be fully rech
+ ecked.\nNo longer found in the latest source listing\; confirmation needed
+ .\nThis event could not be rechecked on the latest collection. Confirm wit
+ h the organiser.
 LAST-MODIFIED:20261006T112159Z
 LOCATION:Woerden\, Netherlands
 STATUS:CONFIRMED
@@ -195,17 +227,17 @@ URL:https://www.systemspractice.org/events/scio-nl-monthly-meeting-october
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Deep Dive Intervisie: Critical Systems Heuristics
-DTSTART:20261110T180000Z
-DTEND:20261110T200000Z
-DTSTAMP:20261006T112159Z
+DTSTART:20261112T180000Z
+DTEND:20261112T200000Z
+DTSTAMP:20261017T223529Z
 UID:32f1ffca50f269104da5d02b@systemsmap.antlerboy.com
-SEQUENCE:7
+SEQUENCE:9
 CATEGORIES:Systems thinking,Cybernetics
 DESCRIPTION:SCiO Belgium\n\nGeographic focus: Belgium\nLanguage: Dutch\nLa
  nguage requirements: Not specified\nInterpretation: Not specified\nAccess:
   Members only + Guests\nhttps://www.systemspractice.org/events/deep-dive-i
  ntervisie-critical-systems-heuristics-2
-LAST-MODIFIED:20261006T112159Z
+LAST-MODIFIED:20261017T223529Z
 LOCATION:tbc\, Belgium
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -216,16 +248,16 @@ BEGIN:VEVENT
 SUMMARY:SCIO-NL monthly meeting November 2025 (live WOERDEN and in Dutch)
 DTSTART:20261113T113000Z
 DTEND:20261113T153000Z
-DTSTAMP:20261006T112159Z
+DTSTAMP:20261017T223529Z
 UID:570ac10828f23cadb271793e@systemsmap.antlerboy.com
-SEQUENCE:7
+SEQUENCE:8
 CATEGORIES:Systems thinking,Cybernetics
 DESCRIPTION:SCiO NL\n\nGeographic focus: Netherlands\nLanguage: Dutch\nLan
  guage requirements: Not specified\nInterpretation: Not specified\nAccess: 
  NL Members + Guests\nhttps://www.systemspractice.org/events/scio-nl-monthl
  y-meeting-november-2025-live-woerden-and-dutch-0\nTitle year differs from 
  the published date. Check with the organiser.
-LAST-MODIFIED:20261006T112159Z
+LAST-MODIFIED:20261017T223529Z
 LOCATION:Woerden\, Netherlands
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -236,14 +268,14 @@ BEGIN:VEVENT
 SUMMARY:SCiO UK Virtual Open Meeting - November 2026
 DTSTART:20261116T183000Z
 DTEND:20261116T210000Z
-DTSTAMP:20261006T112159Z
+DTSTAMP:20261017T223529Z
 UID:76da874472c5593ae9184169@systemsmap.antlerboy.com
-SEQUENCE:7
+SEQUENCE:8
 CATEGORIES:Systems thinking,Cybernetics
 DESCRIPTION:SCiO UK\n\nLanguage: English\nLanguage requirements: Not speci
  fied\nInterpretation: Not specified\nAccess: All welcome\nhttps://www.syst
  emspractice.org/events/scio-uk-virtual-open-meeting-november-2026
-LAST-MODIFIED:20261006T112159Z
+LAST-MODIFIED:20261017T223529Z
 LOCATION:Online event
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -254,14 +286,14 @@ BEGIN:VEVENT
 SUMMARY:SCiO UK Virtual Development Event - December 2026
 DTSTART:20261208T130000Z
 DTEND:20261208T150000Z
-DTSTAMP:20261006T112159Z
+DTSTAMP:20261017T223529Z
 UID:9a71e30f2369435c79121f27@systemsmap.antlerboy.com
-SEQUENCE:1
+SEQUENCE:2
 CATEGORIES:Systems thinking,Cybernetics
 DESCRIPTION:SCiO UK\n\nLanguage: English\nLanguage requirements: Not speci
  fied\nInterpretation: Not specified\nAccess: Members only\nhttps://www.sys
  temspractice.org/events/scio-uk-virtual-development-event-december-2026
-LAST-MODIFIED:20261006T112159Z
+LAST-MODIFIED:20261017T223529Z
 LOCATION:Online event
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -270,17 +302,17 @@ URL:https://www.systemspractice.org/events/scio-uk-virtual-development-eve
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Deep Dive Intervisie: Critical Systems Heuristics
-DTSTART:20261208T180000Z
-DTEND:20261208T200000Z
-DTSTAMP:20261006T112159Z
+DTSTART:20261210T180000Z
+DTEND:20261210T200000Z
+DTSTAMP:20261017T223529Z
 UID:a48deb0769c42fcaa1cbdc3b@systemsmap.antlerboy.com
-SEQUENCE:7
+SEQUENCE:9
 CATEGORIES:Systems thinking,Cybernetics
 DESCRIPTION:SCiO Belgium\n\nGeographic focus: Belgium\nLanguage: Dutch\nLa
  nguage requirements: Not specified\nInterpretation: Not specified\nAccess:
   Members only + Guests\nhttps://www.systemspractice.org/events/deep-dive-i
  ntervisie-critical-systems-heuristics-0
-LAST-MODIFIED:20261006T112159Z
+LAST-MODIFIED:20261017T223529Z
 LOCATION:tbc\, Belgium
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -291,16 +323,16 @@ BEGIN:VEVENT
 SUMMARY:SCIO-NL monthly meeting December 2025 (live WOERDEN and in Dutch)
 DTSTART:20261211T113000Z
 DTEND:20261211T153000Z
-DTSTAMP:20261006T112159Z
+DTSTAMP:20261017T223529Z
 UID:64ff49efa8bf5c6e00b488d4@systemsmap.antlerboy.com
-SEQUENCE:7
+SEQUENCE:8
 CATEGORIES:Systems thinking,Cybernetics
 DESCRIPTION:SCiO NL\n\nGeographic focus: Netherlands\nLanguage: Dutch\nLan
  guage requirements: Not specified\nInterpretation: Not specified\nAccess: 
  NL Members + Guests\nhttps://www.systemspractice.org/events/scio-nl-monthl
  y-meeting-december-2025-live-woerden-and-dutch\nTitle year differs from th
  e published date. Check with the organiser.
-LAST-MODIFIED:20261006T112159Z
+LAST-MODIFIED:20261017T223529Z
 LOCATION:Woerden\, Netherlands
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -311,15 +343,15 @@ BEGIN:VEVENT
 SUMMARY:Kybernetik-Stammtisch - Jahresabschluss - offene Beiträge
 DTSTART:20261217T180000Z
 DTEND:20261217T193000Z
-DTSTAMP:20261006T112159Z
+DTSTAMP:20261017T223529Z
 UID:1a0badea163b9e590bf3ffa3@systemsmap.antlerboy.com
-SEQUENCE:7
+SEQUENCE:8
 CATEGORIES:Systems thinking,Cybernetics
 DESCRIPTION:SCiO DACH\n\nGeographic focus: Germany\, Austria\, Switzerland
  \, DACH\nLanguage: German\nLanguage requirements: Not specified\nInterpret
  ation: Not specified\nAccess: Members only + Guests\nhttps://www.systemspr
  actice.org/events/kybernetik-stammtisch-jahresabschluss-offene-beitrage-1
-LAST-MODIFIED:20261006T112159Z
+LAST-MODIFIED:20261017T223529Z
 LOCATION:Online event
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -328,17 +360,17 @@ URL:https://www.systemspractice.org/events/kybernetik-stammtisch-jahresabs
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Deep Dive Intervisie: Critical Systems Heuristics
-DTSTART:20270112T180000Z
-DTEND:20270112T200000Z
-DTSTAMP:20261006T112159Z
+DTSTART:20270114T180000Z
+DTEND:20270114T200000Z
+DTSTAMP:20261017T223529Z
 UID:6d4ee2410e6cd5ea0561b8c7@systemsmap.antlerboy.com
-SEQUENCE:7
+SEQUENCE:9
 CATEGORIES:Systems thinking,Cybernetics
 DESCRIPTION:SCiO Belgium\n\nGeographic focus: Belgium\nLanguage: Dutch\nLa
  nguage requirements: Not specified\nInterpretation: Not specified\nAccess:
   Members only + Guests\nhttps://www.systemspractice.org/events/deep-dive-i
  ntervisie-critical-systems-heuristics-1
-LAST-MODIFIED:20261006T112159Z
+LAST-MODIFIED:20261017T223529Z
 LOCATION:tbc\, Belgium
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -347,17 +379,17 @@ URL:https://www.systemspractice.org/events/deep-dive-intervisie-critical-s
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Deep Dive Intervisie: Critical Systems Heuristics
-DTSTART:20270209T180000Z
-DTEND:20270209T200000Z
-DTSTAMP:20261006T112159Z
+DTSTART:20270211T180000Z
+DTEND:20270211T200000Z
+DTSTAMP:20261017T223529Z
 UID:b4274dd5f114f839848e70ee@systemsmap.antlerboy.com
-SEQUENCE:7
+SEQUENCE:9
 CATEGORIES:Systems thinking,Cybernetics
 DESCRIPTION:SCiO Belgium\n\nGeographic focus: Belgium\nLanguage: Dutch\nLa
  nguage requirements: Not specified\nInterpretation: Not specified\nAccess:
   Members only + Guests\nhttps://www.systemspractice.org/events/deep-dive-i
  ntervisie-critical-systems-heuristics-3
-LAST-MODIFIED:20261006T112159Z
+LAST-MODIFIED:20261017T223529Z
 LOCATION:tbc\, Belgium
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -366,17 +398,17 @@ URL:https://www.systemspractice.org/events/deep-dive-intervisie-critical-s
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Deep Dive Intervisie: Critical Systems Heuristics
-DTSTART:20270309T180000Z
-DTEND:20270309T200000Z
-DTSTAMP:20261006T112159Z
+DTSTART:20270311T180000Z
+DTEND:20270311T200000Z
+DTSTAMP:20261017T223529Z
 UID:71bffb597c7ac4b49224cacf@systemsmap.antlerboy.com
-SEQUENCE:7
+SEQUENCE:9
 CATEGORIES:Systems thinking,Cybernetics
 DESCRIPTION:SCiO Belgium\n\nGeographic focus: Belgium\nLanguage: Dutch\nLa
  nguage requirements: Not specified\nInterpretation: Not specified\nAccess:
   Members only + Guests\nhttps://www.systemspractice.org/events/deep-dive-i
  ntervisie-critical-systems-heuristics-4
-LAST-MODIFIED:20261006T112159Z
+LAST-MODIFIED:20261017T223529Z
 LOCATION:tbc\, Belgium
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -385,17 +417,17 @@ URL:https://www.systemspractice.org/events/deep-dive-intervisie-critical-s
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Deep Dive Intervisie: Critical Systems Heuristics
-DTSTART:20270511T170000Z
-DTEND:20270511T190000Z
-DTSTAMP:20261006T112159Z
+DTSTART:20270513T170000Z
+DTEND:20270513T190000Z
+DTSTAMP:20261017T223529Z
 UID:a625dfec133b92f5abdc8e12@systemsmap.antlerboy.com
-SEQUENCE:7
+SEQUENCE:9
 CATEGORIES:Systems thinking,Cybernetics
 DESCRIPTION:SCiO Belgium\n\nGeographic focus: Belgium\nLanguage: Dutch\nLa
  nguage requirements: Not specified\nInterpretation: Not specified\nAccess:
   Members only + Guests\nhttps://www.systemspractice.org/events/deep-dive-i
  ntervisie-critical-systems-heuristics-5
-LAST-MODIFIED:20261006T112159Z
+LAST-MODIFIED:20261017T223529Z
 LOCATION:tbc\, Belgium
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT

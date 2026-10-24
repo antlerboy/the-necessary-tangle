@@ -1,7 +1,7 @@
 {
   "schema_version": "1.1",
-  "generated": "2026-10-18",
-  "release": "0.33",
+  "generated": "2026-10-24",
+  "release": "0.34",
   "purpose": "Machine-readable relationship-quality result after the evidence-led relationship review.",
   "contract": {
     "human_readable_rationale": "A relation has a plain phrase and either notes, scope conditions or an inference method.",
@@ -27,33 +27,33 @@
     "semantic_statements": 747
   },
   "current": {
-    "public_entries": 1281,
-    "all_nodes": 1408,
-    "all_edges": 3122,
-    "sources": 809,
+    "public_entries": 1291,
+    "all_nodes": 1418,
+    "all_edges": 3143,
+    "sources": 821,
     "claims": 118,
     "evidence_records": 121,
     "profiles": 212,
     "journeys": 24,
     "external_corpora_reviewed": 12,
     "internal_sources_reviewed": 18,
-    "reader_connected_entries": 1240,
-    "semantic_connected_entries": 548,
-    "semantic_gap_entries": 733,
+    "reader_connected_entries": 1250,
+    "semantic_connected_entries": 552,
+    "semantic_gap_entries": 739,
     "connection_bands": {
-      "developing": 238,
+      "developing": 241,
       "rich": 99,
-      "thin": 903,
+      "thin": 910,
       "unconnected": 41
     },
     "evidence_bands": {
       "mixed": 273,
       "none": 41,
-      "provisional": 764,
+      "provisional": 774,
       "supported": 203
     },
-    "reader_statements": 2498,
-    "semantic_statements": 1104
+    "reader_statements": 2519,
+    "semantic_statements": 1117
   },
   "changes_from_baseline": {
     "generic_relation_review_targets": {
@@ -66,69 +66,69 @@
     },
     "sources": {
       "before": 153,
-      "after": 809
+      "after": 821
     },
     "semantic_connected_entries": {
       "before": 329,
-      "after": 548,
+      "after": 552,
       "note": "A generic journal-to-tradition edge was replaced by a narrower documentary scope claim; unsupported semantic reach was not preserved."
     },
     "substantive_edge_count": {
       "before": 750,
-      "after": 1107
+      "after": 1120
     },
     "isolated_semantic_nodes": {
       "before": 167,
-      "after": 733
+      "after": 739
     }
   },
   "criteria": {
     "typed": {
-      "passing": 3122,
-      "total": 3122
+      "passing": 3143,
+      "total": 3143
     },
     "directed": {
-      "passing": 3021,
-      "total": 3122,
+      "passing": 3042,
+      "total": 3143,
       "undirected": 101
     },
     "human_readable_phrase": {
-      "passing": 3122,
-      "total": 3122
+      "passing": 3143,
+      "total": 3143
     },
     "explicit_rationale": {
-      "passing": 2823,
-      "total": 3122
+      "passing": 2844,
+      "total": 3143
     },
     "source_identifier": {
-      "passing": 3122,
-      "total": 3122
+      "passing": 3143,
+      "total": 3143
     },
     "locator_present": {
-      "passing": 2719,
-      "total": 3122
+      "passing": 2740,
+      "total": 3143
     },
     "precision_shaped_locator": {
       "passing": 597,
-      "total": 3122,
+      "total": 3143,
       "note": "Conservative text-pattern measure; manual review is still required."
     },
     "epistemic_fields_present": {
-      "passing": 3122,
-      "total": 3122
+      "passing": 3143,
+      "total": 3143
     },
     "generic_related_to": {
-      "passing": 3122,
-      "total": 3122,
+      "passing": 3143,
+      "total": 3143,
       "review_target_count": 0
     },
     "three_or_more_relation_families": {
       "passing": 149,
-      "total": 1281
+      "total": 1291
     },
     "one_relation_family": {
-      "count": 794,
-      "total": 1281
+      "count": 800,
+      "total": 1291
     },
     "external_corpus_records": {
       "passing": 12,
@@ -1795,6 +1795,27 @@
       ]
     },
     {
+      "node_id": "publication_syscoi_post_29319",
+      "label": "Life finds a way: Emergence of cooperative structures in adaptive threshold networks",
+      "entity_type": "publication",
+      "publication_level": "profile",
+      "connection_band": "thin",
+      "evidence_band": "provisional",
+      "visible_connections": 1,
+      "visible_statements": 1,
+      "reader_connections": 1,
+      "reader_statements": 1,
+      "semantic_connections": 0,
+      "semantic_statements": 0,
+      "documentary_statements": 1,
+      "accepted_reader_statements": 0,
+      "provisional_reader_statements": 1,
+      "distinct_reader_families": 1,
+      "reader_families": [
+        "documentary"
+      ]
+    },
+    {
       "node_id": "publication_syscoi_post_29130",
       "label": "Love & Philosophy – Andrea Hiott",
       "entity_type": "publication",
@@ -2089,6 +2110,27 @@
       ]
     },
     {
+      "node_id": "publication_syscoi_post_29314",
+      "label": "Nick Land, Ryan Haecker, and the Problem of Cybernetic Consciousness",
+      "entity_type": "publication",
+      "publication_level": "profile",
+      "connection_band": "thin",
+      "evidence_band": "provisional",
+      "visible_connections": 1,
+      "visible_statements": 1,
+      "reader_connections": 1,
+      "reader_statements": 1,
+      "semantic_connections": 0,
+      "semantic_statements": 0,
+      "documentary_statements": 1,
+      "accepted_reader_statements": 0,
+      "provisional_reader_statements": 1,
+      "distinct_reader_families": 1,
+      "reader_families": [
+        "documentary"
+      ]
+    },
+    {
       "node_id": "publication_syscoi_post_29170",
       "label": "Nonchaotic model reveals how predictability can emerge from seemingly unpredictable dynamics by Daniel Inafuku",
       "entity_type": "publication",
@@ -2362,6 +2404,27 @@
       ]
     },
     {
+      "node_id": "publication_syscoi_post_29316",
+      "label": "Ryan Haecker – Breaking the Cybernetic Silence",
+      "entity_type": "publication",
+      "publication_level": "profile",
+      "connection_band": "thin",
+      "evidence_band": "provisional",
+      "visible_connections": 1,
+      "visible_statements": 1,
+      "reader_connections": 1,
+      "reader_statements": 1,
+      "semantic_connections": 0,
+      "semantic_statements": 0,
+      "documentary_statements": 1,
+      "accepted_reader_statements": 0,
+      "provisional_reader_statements": 1,
+      "distinct_reader_families": 1,
+      "reader_families": [
+        "documentary"
+      ]
+    },
+    {
       "node_id": "publication_steps_to_ecology_of_mind",
       "label": "Steps to an Ecology of Mind",
       "entity_type": "publication",
@@ -2527,69 +2590,6 @@
       "distinct_reader_families": 1,
       "reader_families": [
         "provenance"
-      ]
-    },
-    {
-      "node_id": "publication_syscoi_post_28881",
-      "label": "The Second Law of Technodynamics – Velitchkov (2026)",
-      "entity_type": "publication",
-      "publication_level": "profile",
-      "connection_band": "thin",
-      "evidence_band": "provisional",
-      "visible_connections": 1,
-      "visible_statements": 1,
-      "reader_connections": 1,
-      "reader_statements": 1,
-      "semantic_connections": 0,
-      "semantic_statements": 0,
-      "documentary_statements": 1,
-      "accepted_reader_statements": 0,
-      "provisional_reader_statements": 1,
-      "distinct_reader_families": 1,
-      "reader_families": [
-        "documentary"
-      ]
-    },
-    {
-      "node_id": "publication_syscoi_post_29190",
-      "label": "The Strategy Dynamics Insights Library",
-      "entity_type": "publication",
-      "publication_level": "profile",
-      "connection_band": "thin",
-      "evidence_band": "provisional",
-      "visible_connections": 1,
-      "visible_statements": 1,
-      "reader_connections": 1,
-      "reader_statements": 1,
-      "semantic_connections": 0,
-      "semantic_statements": 0,
-      "documentary_statements": 1,
-      "accepted_reader_statements": 0,
-      "provisional_reader_statements": 1,
-      "distinct_reader_families": 1,
-      "reader_families": [
-        "documentary"
-      ]
-    },
-    {
-      "node_id": "publication_syscoi_post_28841",
-      "label": "The consultant is in the system: a practice lab for helping without taking over – Benjamin P Taylor, Wednesday 30 September 2026, 12:15-13:45, online, free",
-      "entity_type": "publication",
-      "publication_level": "profile",
-      "connection_band": "thin",
-      "evidence_band": "provisional",
-      "visible_connections": 1,
-      "visible_statements": 1,
-      "reader_connections": 1,
-      "reader_statements": 1,
-      "semantic_connections": 0,
-      "semantic_statements": 0,
-      "documentary_statements": 1,
-      "accepted_reader_statements": 0,
-      "provisional_reader_statements": 1,
-      "distinct_reader_families": 1,
-      "reader_families": [
-        "documentary"
       ]
     }
   ],

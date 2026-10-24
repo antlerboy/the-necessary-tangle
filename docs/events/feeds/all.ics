@@ -6,46 +6,6 @@ X-WR-CALNAME:All systems, cybernetics, and complexity events
 REFRESH-INTERVAL:P1D
 X-PUBLISHED-TTL:PT24H
 BEGIN:VEVENT
-SUMMARY:VSM-AI Special Integration Group
-DTSTART:20260715T160000Z
-DTEND:20260715T173000Z
-DTSTAMP:20260909T082311Z
-UID:743419255f36b0886d4f5d36@systemsmap.antlerboy.com
-SEQUENCE:2
-CATEGORIES:Cybernetics,Systems thinking
-DESCRIPTION:Metaphorum\n\nLanguage: Not specified\nLanguage requirements: 
- Not specified\nInterpretation: Not specified\nAccess: See organiser\nhttps
- ://ics.teamup.com/feed/ksok8ra1xif3viq4no/0.ics
-LAST-MODIFIED:20260909T082311Z
-LOCATION:Location not published
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-URL:https://ics.teamup.com/feed/ksok8ra1xif3viq4no/0.ics
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Systems Practice Forum @ ISDC2026
-DTSTART:20260724T070000Z
-DTEND:20260724T160000Z
-DTSTAMP:20260906T191842Z
-UID:205d507841e8734b00a5bf0b@systemsmap.antlerboy.com
-SEQUENCE:1
-CATEGORIES:System dynamics
-DESCRIPTION:MIT System Dynamics Group\n<p>Explore real-world applications
- \, interactive workshops\, and case studies to enhance your organization\
- \'s impact through System Dynamics and systems thinking.</p>\\n\nLanguage:
-  Not specified\nLanguage requirements: Not specified\nInterpretation: Not 
- specified\nAccess: See organiser\nhttps://systemdynamics.org/event/systems
- -practice-forum-isdc2026/\nSource could not be fully rechecked.\nNo longer
-  found in the latest source listing\; confirmation needed.\nThis event cou
- ld not be rechecked on the latest collection. Confirm with the organiser.
-LAST-MODIFIED:20260906T191842Z
-LOCATION:TU Delft\, Aula Conference Center\, Mekelweg 5\, 2628 CC\, Delft
- \, Netherlands
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-URL:https://systemdynamics.org/event/systems-practice-forum-isdc2026/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Conversational Confluences\, American Society for Cybernetics Conf
  erence 2026
 DTSTART:20260802T220000Z
@@ -91,8 +51,8 @@ DESCRIPTION:The South Africa System Dynamics Chapter (SASDC)\n<p>The Learn
  \nInterpretation: Not specified\nAccess: See organiser\nhttps://systemdyna
  mics.org/event/system-dynamics-learning-hub-2026-sasdc-stream-3-pollution-
  dynamics-session-1/\nNo longer found in the latest source listing\; confir
- mation needed.\nThis event could not be rechecked on the latest collection
- . Confirm with the organiser.
+ mation needed.\nSource could not be fully rechecked.\nThis event could not
+  be rechecked on the latest collection. Confirm with the organiser.
 LAST-MODIFIED:20260910T090026Z
 LOCATION:Location not published
 STATUS:CONFIRMED
@@ -136,8 +96,9 @@ DESCRIPTION:System Dynamics Society\n<p>Monthly meeting led by the AI in S
  uirements: Not specified\nInterpretation: Not specified\nAccess: See organ
  iser\nhttps://systemdynamics.org/event/ai-in-system-dynamics-education-tas
  k-force-monthly-meeting-2/2026-08-11/\nNo longer found in the latest sourc
- e listing\; confirmation needed.\nThis event could not be rechecked on the
-  latest collection. Confirm with the organiser.
+ e listing\; confirmation needed.\nSource could not be fully rechecked.\nTh
+ is event could not be rechecked on the latest collection. Confirm with the
+  organiser.
 LAST-MODIFIED:20260910T090026Z
 LOCATION:Online
 STATUS:CONFIRMED
@@ -199,8 +160,8 @@ DESCRIPTION:System Dynamics Society\n<p>Monthly meetings of the Policy Cou
  nguage requirements: Not specified\nInterpretation: Not specified\nAccess:
   See organiser\nhttps://systemdynamics.org/event/sds-policy-council-meetin
  g-august-2026/\nNo longer found in the latest source listing\; confirmatio
- n needed.\nThis event could not be rechecked on the latest collection. Con
- firm with the organiser.
+ n needed.\nSource could not be fully rechecked.\nThis event could not be r
+ echecked on the latest collection. Confirm with the organiser.
 LAST-MODIFIED:20260910T090026Z
 LOCATION:Online
 STATUS:CONFIRMED
@@ -220,8 +181,8 @@ DESCRIPTION:System Dynamics Society\n\nLanguage: Not specified\nLanguage r
  equirements: Not specified\nInterpretation: Not specified\nAccess: See org
  aniser\nhttps://systemdynamics.org/event/xmile-technical-committee-meeting
  -august-2026/\nNo longer found in the latest source listing\; confirmation
-  needed.\nThis event could not be rechecked on the latest collection. Conf
- irm with the organiser.
+  needed.\nSource could not be fully rechecked.\nThis event could not be re
+ checked on the latest collection. Confirm with the organiser.
 LAST-MODIFIED:20260910T090026Z
 LOCATION:Online
 STATUS:CONFIRMED
@@ -241,8 +202,8 @@ DESCRIPTION:System Dynamics Society\n\nLanguage: Not specified\nLanguage r
  equirements: Not specified\nInterpretation: Not specified\nAccess: See org
  aniser\nhttps://systemdynamics.org/event/sd-tools-xmile-users-group-august
  -2026/\nNo longer found in the latest source listing\; confirmation needed
- .\nThis event could not be rechecked on the latest collection. Confirm wit
- h the organiser.
+ .\nSource could not be fully rechecked.\nThis event could not be rechecked
+  on the latest collection. Confirm with the organiser.
 LAST-MODIFIED:20260910T090026Z
 LOCATION:Online
 STATUS:CONFIRMED
@@ -254,9 +215,9 @@ BEGIN:VEVENT
 SUMMARY:RSD15 / RSDX-ASC: Conversational Confluences online series
 DTSTART;VALUE=DATE:20260824
 DTEND;VALUE=DATE:20260828
-DTSTAMP:20261007T221454Z
+DTSTAMP:20261024T204503Z
 UID:99e564f66eea2967812a7cf4@systemsmap.antlerboy.com
-SEQUENCE:44
+SEQUENCE:68
 CATEGORIES:Cybernetics,Systemic design,Systems thinking
 DESCRIPTION:American Society for Cybernetics and Systemic Design Associati
  on\nThe online RSD15 programme continuing conversations from the ASC confe
@@ -267,7 +228,7 @@ DESCRIPTION:American Society for Cybernetics and Systemic Design Associati
  fficial programme checked 7 September 2026: 24-27 August. Calendar end dat
  e is exclusive.\nDate-only listing\; check the organiser for session times
  .
-LAST-MODIFIED:20261007T221454Z
+LAST-MODIFIED:20261024T204503Z
 LOCATION:Online
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -332,8 +293,9 @@ DESCRIPTION:Psychology and Human Behavior SIG\n<p>Please join us for our a
   Not specified\nLanguage requirements: Not specified\nInterpretation: Not 
  specified\nAccess: See organiser\nhttps://systemdynamics.org/event/psychol
  ogy-and-human-behavior-sig-meeting-august-2026/\nNo longer found in the la
- test source listing\; confirmation needed.\nThis event could not be rechec
- ked on the latest collection. Confirm with the organiser.
+ test source listing\; confirmation needed.\nSource could not be fully rech
+ ecked.\nThis event could not be rechecked on the latest collection. Confir
+ m with the organiser.
 LAST-MODIFIED:20260910T090026Z
 LOCATION:Online
 STATUS:CONFIRMED
@@ -378,8 +340,8 @@ DESCRIPTION:System Dynamics Society\n<p>Eva Gladek shares lessons from 14
  equirements: Not specified\nInterpretation: Not specified\nAccess: See org
  aniser\nhttps://systemdynamics.org/event/place-poly-capital-and-the-power-
  to-change-systems/\nNo longer found in the latest source listing\; confirm
- ation needed.\nThis event could not be rechecked on the latest collection.
-  Confirm with the organiser.
+ ation needed.\nSource could not be fully rechecked.\nThis event could not 
+ be rechecked on the latest collection. Confirm with the organiser.
 LAST-MODIFIED:20260910T090026Z
 LOCATION:Online
 STATUS:CONFIRMED
@@ -404,8 +366,8 @@ DESCRIPTION:Water SIG\n<p>Please join us on Thursday\, August 27th at 11am
  ified\nLanguage requirements: Not specified\nInterpretation: Not specified
  \nAccess: See organiser\nhttps://systemdynamics.org/event/water-sig-meetin
  g-august-2026/\nNo longer found in the latest source listing\; confirmatio
- n needed.\nThis event could not be rechecked on the latest collection. Con
- firm with the organiser.
+ n needed.\nSource could not be fully rechecked.\nThis event could not be r
+ echecked on the latest collection. Confirm with the organiser.
 LAST-MODIFIED:20260910T090026Z
 LOCATION:Online
 STATUS:CONFIRMED
@@ -429,8 +391,9 @@ DESCRIPTION:Pre College Education SIG\n<p>Dear Colleagues\, We would like
  cified\nLanguage requirements: Not specified\nInterpretation: Not specifie
  d\nAccess: See organiser\nhttps://systemdynamics.org/event/pre-college-edu
  cation-sig-meeting-august-2026/\nNo longer found in the latest source list
- ing\; confirmation needed.\nThis event could not be rechecked on the lates
- t collection. Confirm with the organiser.
+ ing\; confirmation needed.\nSource could not be fully rechecked.\nThis eve
+ nt could not be rechecked on the latest collection. Confirm with the organ
+ iser.
 LAST-MODIFIED:20260910T090026Z
 LOCATION:Online
 STATUS:CONFIRMED
@@ -454,8 +417,9 @@ DESCRIPTION:Student Chapter\n<p>During this meeting\, we will follow up on
  \nLanguage: Not specified\nLanguage requirements: Not specified\nInterpret
  ation: Not specified\nAccess: See organiser\nhttps://systemdynamics.org/ev
  ent/student-chapter-general-meeting/\nNo longer found in the latest source
-  listing\; confirmation needed.\nThis event could not be rechecked on the 
- latest collection. Confirm with the organiser.
+  listing\; confirmation needed.\nSource could not be fully rechecked.\nThi
+ s event could not be rechecked on the latest collection. Confirm with the 
+ organiser.
 LAST-MODIFIED:20260910T090026Z
 LOCATION:Online
 STATUS:CONFIRMED
@@ -477,8 +441,9 @@ DESCRIPTION:System Dynamics Society\nExplore five practical roles AI can p
  ified\nLanguage requirements: Not specified\nInterpretation: Not specified
  \nAccess: See organiser\nhttps://systemdynamics.org/event/system-mapping-m
  eets-ai-practical-ways-ai-can-support-your-mapping-process/\nNo longer fou
- nd in the latest source listing\; confirmation needed.\nThis event could n
- ot be rechecked on the latest collection. Confirm with the organiser.
+ nd in the latest source listing\; confirmation needed.\nSource could not b
+ e fully rechecked.\nThis event could not be rechecked on the latest collec
+ tion. Confirm with the organiser.
 LAST-MODIFIED:20260910T090026Z
 LOCATION:Online
 STATUS:CONFIRMED
@@ -601,8 +566,9 @@ DESCRIPTION:System Dynamics Society\nMonthly meeting led by the AI in Syst
   Not specified\nInterpretation: Not specified\nAccess: See organiser\nhttp
  s://systemdynamics.org/event/ai-in-system-dynamics-education-task-force-mo
  nthly-meeting-2/2026-09-08/\nNo longer found in the latest source listing
- \; confirmation needed.\nThis event could not be rechecked on the latest c
- ollection. Confirm with the organiser.
+ \; confirmation needed.\nSource could not be fully rechecked.\nThis event 
+ could not be rechecked on the latest collection. Confirm with the organise
+ r.
 LAST-MODIFIED:20260910T090026Z
 LOCATION:Online
 STATUS:CONFIRMED
@@ -656,22 +622,22 @@ TRANSP:TRANSPARENT
 URL:https://csh.ac.at/events/copenhagen-health-complexity-center-talks/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Cybernetics in the Annex: Commemorating Stafford Beer’s Centenar
- y + Summer Conferences Recap
+SUMMARY:Cybernetics in the Annex: Commemorating Stafford Beer's Centenary 
+ + Summer Conferences Recap
 DTSTART:20260908T223000Z
 DTEND:20260909T001500Z
-DTSTAMP:20261007T221454Z
+DTSTAMP:20261024T204503Z
 UID:2e96c1af7848b3132733a6fb@systemsmap.antlerboy.com
-SEQUENCE:49
+SEQUENCE:73
 CATEGORIES:Cybernetics,Systems thinking
 DESCRIPTION:Systems Thinking Ontario\nAllenna Leonard discusses Stafford B
- eer’s work on organisational viability and participatory decision-making
- \, followed by a discussion of recent systems conferences. Moderated by Za
- id Khan.\nGeographic focus: Canada\, Ontario\nLanguage: Not specified\nLan
- guage requirements: Not specified\nInterpretation: Not specified\nAccess: 
- Register for in-person attendance or the online link\nhttps://guild.host/e
- vents/cybernetics-in-the-annex-tbara6
-LAST-MODIFIED:20261007T221454Z
+ eer's work on organisational viability and participatory decision-making\,
+  followed by a discussion of recent systems conferences. Moderated by Zaid
+  Khan.\nGeographic focus: Canada\, Ontario\nLanguage: Not specified\nLangu
+ age requirements: Not specified\nInterpretation: Not specified\nAccess: Re
+ gister for in-person attendance or the online link\nhttps://guild.host/eve
+ nts/cybernetics-in-the-annex-tbara6
+LAST-MODIFIED:20261024T204503Z
 LOCATION:OCAD University\, 205 Richmond St W\, Room 115\, Toronto\, Canada
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -765,8 +731,8 @@ DESCRIPTION:Institut des systèmes complexes Paris Île-de-France\nConseil
  ified\nLanguage requirements: Not specified\nInterpretation: Not specified
  \nAccess: See organiser\nhttps://iscpif.fr/evenements/conseil-dadministrat
  ion-de-l-afscet-2/\nNo longer found in the latest source listing\; confirm
- ation needed.\nThis event could not be rechecked on the latest collection.
-  Confirm with the organiser.
+ ation needed.\nSource could not be fully rechecked.\nThis event could not 
+ be rechecked on the latest collection. Confirm with the organiser.
 LAST-MODIFIED:20260909T085810Z
 LOCATION:ISC-PIF\, 113 rue Nationale\, Paris\, Paris\, 75013\, France
 STATUS:CONFIRMED
@@ -776,9 +742,9 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ISSS Board of Directors meeting
 DTSTART:20260911T200000Z
-DTSTAMP:20261007T221454Z
+DTSTAMP:20261024T204503Z
 UID:03c306f9fde126bcae14d368@systemsmap.antlerboy.com
-SEQUENCE:39
+SEQUENCE:63
 CATEGORIES:Systems thinking
 DESCRIPTION:International Society for the Systems Sciences (ISSS)\nPublish
  ed on the official ISSS events page. Check registration and participation 
@@ -786,7 +752,7 @@ DESCRIPTION:International Society for the Systems Sciences (ISSS)\nPublish
  ot specified\nInterpretation: Not specified\nAccess: Registration required
  \; ISSS membership rules apply\nhttps://wiki.lab.isss.org/events\nEnd time
   not published.
-LAST-MODIFIED:20261007T221454Z
+LAST-MODIFIED:20261024T204503Z
 LOCATION:Online
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -829,8 +795,8 @@ DESCRIPTION:Institut des systèmes complexes Paris Île-de-France\n\nLangu
  age: Not specified\nLanguage requirements: Not specified\nInterpretation: 
  Not specified\nAccess: See organiser\nhttps://iscpif.fr/evenements/reunion
  -jugement-majoritaire-2/\nNo longer found in the latest source listing\; c
- onfirmation needed.\nThis event could not be rechecked on the latest colle
- ction. Confirm with the organiser.
+ onfirmation needed.\nSource could not be fully rechecked.\nThis event coul
+ d not be rechecked on the latest collection. Confirm with the organiser.
 LAST-MODIFIED:20260909T085810Z
 LOCATION:ISC-PIF\, 113 rue Nationale\, Paris\, Paris\, 75013\, France
 STATUS:CONFIRMED
@@ -855,8 +821,8 @@ DESCRIPTION:Institut des systèmes complexes Paris Île-de-France\nL’inf
  guage requirements: Not specified\nInterpretation: Not specified\nAccess: 
  See organiser\nhttps://iscpif.fr/evenements/formation-gestion-de-donnees-d
  e-phenotypage/\nNo longer found in the latest source listing\; confirmatio
- n needed.\nThis event could not be rechecked on the latest collection. Con
- firm with the organiser.
+ n needed.\nSource could not be fully rechecked.\nThis event could not be r
+ echecked on the latest collection. Confirm with the organiser.
 LAST-MODIFIED:20260909T085810Z
 LOCATION:ISC-PIF\, 113 rue Nationale\, Paris\, Paris\, 75013\, France
 STATUS:CONFIRMED
@@ -865,19 +831,19 @@ URL:https://iscpif.fr/evenements/formation-gestion-de-donnees-de-phenotypa
  ge/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Relational Leadership · session 1
+SUMMARY:Relational Leadership � session 1
 DTSTART:20260915T083000Z
 DTEND:20260915T113000Z
-DTSTAMP:20261007T221454Z
+DTSTAMP:20261024T204503Z
 UID:4e7b926f96306901c1d0da21@systemsmap.antlerboy.com
-SEQUENCE:40
+SEQUENCE:64
 CATEGORIES:Relational public services,Systems thinking
 DESCRIPTION:ThemPra Social Pedagogy\nApplied learning connected to Human L
  earning Systems and relational public services.\nLanguage: Not specified\n
  Language requirements: Not specified\nInterpretation: Not specified\nAcces
  s: Full-course registration required\nhttps://www.thempra.org.uk/thempra/o
  ur-courses/relational-leadership/
-LAST-MODIFIED:20261007T221454Z
+LAST-MODIFIED:20261024T204503Z
 LOCATION:Online
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -900,8 +866,9 @@ DESCRIPTION:System Dynamics Society\nTuesday\, September 15 at 11 am New Y
  on\nLanguage: Not specified\nLanguage requirements: Not specified\nInterpr
  etation: Not specified\nAccess: See organiser\nhttps://systemdynamics.org/
  event/implementing-the-self-managing-enterprise-with-agentic-ai/\nNo longe
- r found in the latest source listing\; confirmation needed.\nThis event co
- uld not be rechecked on the latest collection. Confirm with the organiser.
+ r found in the latest source listing\; confirmation needed.\nSource could 
+ not be fully rechecked.\nThis event could not be rechecked on the latest c
+ ollection. Confirm with the organiser.
 LAST-MODIFIED:20260910T090026Z
 LOCATION:https://us02web.zoom.us/j/87049920798
 STATUS:CONFIRMED
@@ -974,8 +941,8 @@ DESCRIPTION:System Dynamics Society\nLast day for authors to update submis
  uage requirements: Not specified\nInterpretation: Not specified\nAccess: S
  ee organiser\nhttps://systemdynamics.org/event/2026-conference-proceedings
  -submission-deadline/\nNo longer found in the latest source listing\; conf
- irmation needed.\nThis event could not be rechecked on the latest collecti
- on. Confirm with the organiser.
+ irmation needed.\nSource could not be fully rechecked.\nThis event could n
+ ot be rechecked on the latest collection. Confirm with the organiser.
 LAST-MODIFIED:20260916T092203Z
 LOCATION:Location not published
 STATUS:CONFIRMED
@@ -996,8 +963,9 @@ DESCRIPTION:Institut des systèmes complexes Paris Île-de-France\nConseil
  ssociation\nLanguage: Not specified\nLanguage requirements: Not specified
  \nInterpretation: Not specified\nAccess: See organiser\nhttps://iscpif.fr/
  evenements/conseil-dadministration-de-l-afscet/\nNo longer found in the la
- test source listing\; confirmation needed.\nThis event could not be rechec
- ked on the latest collection. Confirm with the organiser.
+ test source listing\; confirmation needed.\nSource could not be fully rech
+ ecked.\nThis event could not be rechecked on the latest collection. Confir
+ m with the organiser.
 LAST-MODIFIED:20260909T085810Z
 LOCATION:ISC-PIF\, 113 rue Nationale\, Paris\, Paris\, 75013\, France
 STATUS:CONFIRMED
@@ -1005,19 +973,19 @@ TRANSP:TRANSPARENT
 URL:https://iscpif.fr/evenements/conseil-dadministration-de-l-afscet/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Relational Leadership · session 2
+SUMMARY:Relational Leadership � session 2
 DTSTART:20260916T083000Z
 DTEND:20260916T113000Z
-DTSTAMP:20261007T221454Z
+DTSTAMP:20261024T204503Z
 UID:0df209cfb40823db80b351a7@systemsmap.antlerboy.com
-SEQUENCE:40
+SEQUENCE:64
 CATEGORIES:Relational public services,Systems thinking
 DESCRIPTION:ThemPra Social Pedagogy\nApplied learning connected to Human L
  earning Systems and relational public services.\nLanguage: Not specified\n
  Language requirements: Not specified\nInterpretation: Not specified\nAcces
  s: Full-course registration required\nhttps://www.thempra.org.uk/thempra/o
  ur-courses/relational-leadership/
-LAST-MODIFIED:20261007T221454Z
+LAST-MODIFIED:20261024T204503Z
 LOCATION:Online
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1038,8 +1006,9 @@ DESCRIPTION:Economics SIG of the System Dynamics Society\nEconomics SIG On
  mics”\nLanguage: Not specified\nLanguage requirements: Not specified\nIn
  terpretation: Not specified\nAccess: See organiser\nhttps://systemdynamics
  .org/event/economics-sig-online-seminar/\nNo longer found in the latest so
- urce listing\; confirmation needed.\nThis event could not be rechecked on 
- the latest collection. Confirm with the organiser.
+ urce listing\; confirmation needed.\nSource could not be fully rechecked.
+ \nThis event could not be rechecked on the latest collection. Confirm with
+  the organiser.
 LAST-MODIFIED:20260917T093127Z
 LOCATION:Online
 STATUS:CONFIRMED
@@ -1129,8 +1098,8 @@ DESCRIPTION:System Dynamics Society\nMonthly meetings of the Policy Counci
  uirements: Not specified\nInterpretation: Not specified\nAccess: See organ
  iser\nhttps://systemdynamics.org/event/sds-policy-council-meeting-septembe
  r-2026/\nNo longer found in the latest source listing\; confirmation neede
- d.\nThis event could not be rechecked on the latest collection. Confirm wi
- th the organiser.
+ d.\nSource could not be fully rechecked.\nThis event could not be rechecke
+ d on the latest collection. Confirm with the organiser.
 LAST-MODIFIED:20260918T090403Z
 LOCATION:Online
 STATUS:CONFIRMED
@@ -1155,8 +1124,9 @@ DESCRIPTION:Institut des systèmes complexes Paris Île-de-France\nLa jour
  é.e extérieur. https://sphere.cnrs.fr\nLanguage: Not specified\nLanguage
   requirements: Not specified\nInterpretation: Not specified\nAccess: See o
  rganiser\nhttps://iscpif.fr/evenements/journee-de-rentree/\nNo longer foun
- d in the latest source listing\; confirmation needed.\nThis event could no
- t be rechecked on the latest collection. Confirm with the organiser.
+ d in the latest source listing\; confirmation needed.\nSource could not be
+  fully rechecked.\nThis event could not be rechecked on the latest collect
+ ion. Confirm with the organiser.
 LAST-MODIFIED:20260909T085810Z
 LOCATION:ISC-PIF\, 113 rue Nationale\, Paris\, Paris\, 75013\, France
 STATUS:CONFIRMED
@@ -1166,9 +1136,9 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ISSS Annual General Meeting
 DTSTART:20260918T200000Z
-DTSTAMP:20261007T221454Z
+DTSTAMP:20261024T204503Z
 UID:a1f3b2af02e11db18a32b82e@systemsmap.antlerboy.com
-SEQUENCE:39
+SEQUENCE:63
 CATEGORIES:Systems thinking
 DESCRIPTION:International Society for the Systems Sciences (ISSS)\nPublish
  ed on the official ISSS events page. Check registration and participation 
@@ -1176,7 +1146,7 @@ DESCRIPTION:International Society for the Systems Sciences (ISSS)\nPublish
  ot specified\nInterpretation: Not specified\nAccess: Registration required
  \; ISSS membership rules apply\nhttps://wiki.lab.isss.org/events\nEnd time
   not published.
-LAST-MODIFIED:20261007T221454Z
+LAST-MODIFIED:20261024T204503Z
 LOCATION:Online
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1275,17 +1245,17 @@ BEGIN:VEVENT
 SUMMARY:Making relational\, place-based public services ordinary
 DTSTART:20260921T124500Z
 DTEND:20260921T141500Z
-DTSTAMP:20261007T221454Z
+DTSTAMP:20261024T204503Z
 UID:8c00d12aaf979855624fa772@systemsmap.antlerboy.com
-SEQUENCE:40
+SEQUENCE:64
 CATEGORIES:Relational public services,Systems thinking
-DESCRIPTION:SCiO / SysPrac26\nBenjamin Taylor’s workshop at SysPrac26. C
- onference booking required.\nLanguage: Not specified\nLanguage requirement
- s: Not specified\nInterpretation: Not specified\nAccess: See organiser\nht
- tps://www.systemspractice.org/Schedule26\nPresenter withdrew from the conf
- erence session\; organiser’s follow-up offers separate online workshops.
-  Checked 7 October 2026.
-LAST-MODIFIED:20261007T221454Z
+DESCRIPTION:SCiO / SysPrac26\nBenjamin Taylor's workshop at SysPrac26. Con
+ ference booking required.\nLanguage: Not specified\nLanguage requirements:
+  Not specified\nInterpretation: Not specified\nAccess: See organiser\nhttp
+ s://www.systemspractice.org/Schedule26\nPresenter withdrew from the confer
+ ence session\; organiser's follow-up offers separate online workshops. Che
+ cked 7 October 2026.
+LAST-MODIFIED:20261024T204503Z
 LOCATION:LR4\, Vincent Building\, Cranfield University\, United Kingdom
 STATUS:CANCELLED
 TRANSP:TRANSPARENT
@@ -1365,16 +1335,16 @@ BEGIN:VEVENT
 SUMMARY:Exploring the role of the Knowledge Weaver
 DTSTART:20260922T120000Z
 DTEND:20260922T130000Z
-DTSTAMP:20261007T221454Z
+DTSTAMP:20261024T204503Z
 UID:e4ccdfd6cb1fb968ada0d1b3@systemsmap.antlerboy.com
-SEQUENCE:40
+SEQUENCE:64
 CATEGORIES:Relational public services,Systems thinking
 DESCRIPTION:Q Network Weaving group / COPE Scotland\nA conversation with J
  une Holley about knowledge weaving and collective learning in health and c
  are.\nLanguage: Not specified\nLanguage requirements: Not specified\nInter
  pretation: Not specified\nAccess: See organiser\nhttps://q.thenhsalliance.
  org/get-involved/events/exploring-the-role-of-the-knowledge-weaver
-LAST-MODIFIED:20261007T221454Z
+LAST-MODIFIED:20261024T204503Z
 LOCATION:Online
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1406,19 +1376,19 @@ URL:https://www.sociocracyforall.org/event/unitarian-universalist-sociocra
  cy/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Leading with Learning · session 1
+SUMMARY:Leading with Learning � session 1
 DTSTART:20260923T083000Z
 DTEND:20260923T113000Z
-DTSTAMP:20261007T221454Z
+DTSTAMP:20261024T204503Z
 UID:2c6644602391deac77173c72@systemsmap.antlerboy.com
-SEQUENCE:40
+SEQUENCE:64
 CATEGORIES:Relational public services,Systems thinking
 DESCRIPTION:ThemPra Social Pedagogy\nApplied learning connected to Human L
  earning Systems and relational public services.\nLanguage: Not specified\n
  Language requirements: Not specified\nInterpretation: Not specified\nAcces
  s: Full-course registration required\nhttps://www.thempra.org.uk/thempra/o
  ur-courses/leading-with-learning/
-LAST-MODIFIED:20261007T221454Z
+LAST-MODIFIED:20261024T204503Z
 LOCATION:Online
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1428,9 +1398,9 @@ BEGIN:VEVENT
 SUMMARY:Participatory design principles to heal\, not hinder
 DTSTART:20260923T111500Z
 DTEND:20260923T120000Z
-DTSTAMP:20261007T221454Z
+DTSTAMP:20261024T204503Z
 UID:8b4d4021180540e2e6cf7947@systemsmap.antlerboy.com
-SEQUENCE:40
+SEQUENCE:64
 CATEGORIES:Relational public services
 DESCRIPTION:Service Design in Government\nJodie Chan and Sarah Hancock on 
  psychologically informed participatory design. Conference booking required
@@ -1438,7 +1408,7 @@ DESCRIPTION:Service Design in Government\nJodie Chan and Sarah Hancock on
  tation: Not specified\nAccess: See organiser\nhttps://govservicedesign.net
  /programme/participatory-design-principles-heal-not-hinder-importance-psyc
  hologically-informed
-LAST-MODIFIED:20261007T221454Z
+LAST-MODIFIED:20261024T204503Z
 LOCATION:John McIntyre Conference Centre\, Edinburgh\, United Kingdom
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1484,8 +1454,9 @@ DESCRIPTION:Institut des systèmes complexes Paris Île-de-France\nTwinFar
   à 18 mois\nLanguage: Not specified\nLanguage requirements: Not specified
  \nInterpretation: Not specified\nAccess: See organiser\nhttps://iscpif.fr/
  evenements/twinfarms-comite-de-suivi-a-18-mois/\nNo longer found in the la
- test source listing\; confirmation needed.\nThis event could not be rechec
- ked on the latest collection. Confirm with the organiser.
+ test source listing\; confirmation needed.\nSource could not be fully rech
+ ecked.\nThis event could not be rechecked on the latest collection. Confir
+ m with the organiser.
 LAST-MODIFIED:20260909T085810Z
 LOCATION:ISC-PIF\, 113 rue Nationale\, Paris\, Paris\, 75013\, France
 STATUS:CONFIRMED
@@ -1505,9 +1476,9 @@ DESCRIPTION:Institut des systèmes complexes Paris Île-de-France\nRestitu
  es de transition\nLanguage: Not specified\nLanguage requirements: Not spec
  ified\nInterpretation: Not specified\nAccess: See organiser\nhttps://iscpi
  f.fr/evenements/reunion-pleniere-finale-du-projet-systeme-complexe-beecome
- 2/\nNo longer found in the latest source listing\; confirmation needed.\nT
- his event could not be rechecked on the latest collection. Confirm with th
- e organiser.
+ 2/\nNo longer found in the latest source listing\; confirmation needed.\nS
+ ource could not be fully rechecked.\nThis event could not be rechecked on 
+ the latest collection. Confirm with the organiser.
 LAST-MODIFIED:20260909T085810Z
 LOCATION:ISC-PIF\, 113 rue Nationale\, Paris\, Paris\, 75013\, France
 STATUS:CONFIRMED
@@ -1531,8 +1502,8 @@ DESCRIPTION:System Dynamics Society\nJoin the System Dynamics Society’s
   requirements: Not specified\nInterpretation: Not specified\nAccess: See o
  rganiser\nhttps://systemdynamics.org/event/health-policy-sig-annual-member
  ship-meeting/\nNo longer found in the latest source listing\; confirmation
-  needed.\nThis event could not be rechecked on the latest collection. Conf
- irm with the organiser.
+  needed.\nSource could not be fully rechecked.\nThis event could not be re
+ checked on the latest collection. Confirm with the organiser.
 LAST-MODIFIED:20260914T095825Z
 LOCATION:https://systemdynamics.org/event/health-policy-sig-annual-members
  hip-meeting/
@@ -1545,16 +1516,16 @@ BEGIN:VEVENT
 SUMMARY:Who gets to decide? Sharing power in public services
 DTSTART:20260924T101500Z
 DTEND:20260924T114500Z
-DTSTAMP:20261007T221454Z
+DTSTAMP:20261024T204503Z
 UID:db751f022c1f33a84adaa953@systemsmap.antlerboy.com
-SEQUENCE:40
+SEQUENCE:64
 CATEGORIES:Relational public services
 DESCRIPTION:Service Design in Government\nSophie Horrocks\, Helix Centre. 
  Conference workshop on sharing decision-making power\; conference booking 
  required.\nLanguage: Not specified\nLanguage requirements: Not specified\n
  Interpretation: Not specified\nAccess: See organiser\nhttps://govservicede
  sign.net/programme/who-gets-decide-sharing-power-public-services
-LAST-MODIFIED:20261007T221454Z
+LAST-MODIFIED:20261024T204503Z
 LOCATION:John McIntyre Conference Centre\, Edinburgh\, United Kingdom
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1565,18 +1536,18 @@ BEGIN:VEVENT
 SUMMARY:Fire and Ice: The Conception\, Birth and Infancy of Cybernetics.
 DTSTART:20260924T120000Z
 DTEND:20260924T140000Z
-DTSTAMP:20261007T221454Z
+DTSTAMP:20261024T204503Z
 UID:79561815b13dfb8aa2a33fdb@systemsmap.antlerboy.com
-SEQUENCE:49
+SEQUENCE:73
 CATEGORIES:Cybernetics,Systems thinking
 DESCRIPTION:Digital Futures\, University of Manchester\nThe opening semina
- r in the nine-part ‘Meat the Machine’ series on the history of cyberne
- tics and its implications for society and technology.\nLanguage: Not speci
- fied\nLanguage requirements: Not specified\nInterpretation: Not specified
- \nAccess: General public welcome\; registration required\nhttps://events.m
- anchester.ac.uk/event/event:r2y-ms8q8jbe-n4ev9n/fire-and-ice-the-conceptio
- n-birth-and-infancy-of-cybernetics
-LAST-MODIFIED:20261007T221454Z
+ r in the nine-part 'Meat the Machine' series on the history of cybernetics
+  and its implications for society and technology.\nLanguage: Not specified
+ \nLanguage requirements: Not specified\nInterpretation: Not specified\nAcc
+ ess: General public welcome\; registration required\nhttps://events.manche
+ ster.ac.uk/event/event:r2y-ms8q8jbe-n4ev9n/fire-and-ice-the-conception-bir
+ th-and-infancy-of-cybernetics
+LAST-MODIFIED:20261024T204503Z
 LOCATION:University of Manchester\, Manchester\, United Kingdom
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1602,8 +1573,9 @@ DESCRIPTION:System Dynamics Society\nDear Colleagues\, We are excited to i
  retation: Not specified\nAccess: See organiser\nhttps://systemdynamics.org
  /event/systems-thinking-in-k-12-education-experiences-from-south-korea-tai
  wan-and-turkiye-asia-pacific/\nNo longer found in the latest source listin
- g\; confirmation needed.\nThis event could not be rechecked on the latest 
- collection. Confirm with the organiser.
+ g\; confirmation needed.\nSource could not be fully rechecked.\nThis event
+  could not be rechecked on the latest collection. Confirm with the organis
+ er.
 LAST-MODIFIED:20260914T095825Z
 LOCATION:https://systemdynamics.org/event/systems-thinking-in-k-12-educati
  on-experiences-from-south-korea-taiwan-and-turkiye-asia-pacific/
@@ -1631,8 +1603,9 @@ DESCRIPTION:System Dynamics Society\nDear Colleagues\, We are excited to i
  retation: Not specified\nAccess: See organiser\nhttps://systemdynamics.org
  /event/systems-thinking-in-k-12-education-experiences-from-south-korea-tai
  wan-and-turkiye-africa-americas-europe/\nNo longer found in the latest sou
- rce listing\; confirmation needed.\nThis event could not be rechecked on t
- he latest collection. Confirm with the organiser.
+ rce listing\; confirmation needed.\nSource could not be fully rechecked.\n
+ This event could not be rechecked on the latest collection. Confirm with t
+ he organiser.
 LAST-MODIFIED:20260914T095825Z
 LOCATION:https://systemdynamics.org/event/systems-thinking-in-k-12-educati
  on-experiences-from-south-korea-taiwan-and-turkiye-africa-americas-europe/
@@ -1668,9 +1641,9 @@ BEGIN:VEVENT
 SUMMARY:SPROCKET Systems Practice Seminar 1: Choice and Choosables
 DTSTART:20260925T090000Z
 DTEND:20260925T100000Z
-DTSTAMP:20261007T221454Z
+DTSTAMP:20261024T204503Z
 UID:541a60db34040c11df667d76@systemsmap.antlerboy.com
-SEQUENCE:40
+SEQUENCE:64
 CATEGORIES:Systems thinking
 DESCRIPTION:UCL SPROCKET\nJeremy Hilton explores making choices and unders
  tanding different perspectives in innovation.\nLanguage: Not specified\nLa
@@ -1678,7 +1651,7 @@ DESCRIPTION:UCL SPROCKET\nJeremy Hilton explores making choices and unders
   Open to all\; registration required\nhttps://www.ucl.ac.uk/mathematical-p
  hysical-sciences/events/2026/sep/sprocket-systems-practice-seminar-1-choic
  e-and-choosables
-LAST-MODIFIED:20261007T221454Z
+LAST-MODIFIED:20261024T204503Z
 LOCATION:Online
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1704,8 +1677,9 @@ DESCRIPTION:System Dynamics Society\nDear Colleagues\, We are excited to i
  retation: Not specified\nAccess: See organiser\nhttps://systemdynamics.org
  /event/systems-thinking-in-k-12-education-experiences-from-south-korea-tai
  wan-and-turkiye-asia-pacific/\nNo longer found in the latest source listin
- g\; confirmation needed.\nThis event could not be rechecked on the latest 
- collection. Confirm with the organiser.
+ g\; confirmation needed.\nSource could not be fully rechecked.\nThis event
+  could not be rechecked on the latest collection. Confirm with the organis
+ er.
 LAST-MODIFIED:20260925T071905Z
 LOCATION:https://systemdynamics.org/event/systems-thinking-in-k-12-educati
  on-experiences-from-south-korea-taiwan-and-turkiye-asia-pacific/
@@ -1738,21 +1712,21 @@ URL:https://www.sociocracyforall.org/event/psychological-safety-and-confli
  ct-resolution-planning/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Designing AI’s Boundaries: Respecting Human Agency
+SUMMARY:Designing AI's Boundaries: Respecting Human Agency
 DTSTART;VALUE=DATE:20260926
 DTEND;VALUE=DATE:20260930
-DTSTAMP:20261007T221454Z
+DTSTAMP:20261024T204503Z
 UID:53fe868f7f0be1ba79b3dafe@systemsmap.antlerboy.com
-SEQUENCE:40
+SEQUENCE:64
 CATEGORIES:Complexity,Cybernetics,Systemic design
 DESCRIPTION:World Design Cities Conference / SUES and Tongji University\nD
  ialogue event chaired by Michael Lissack\, with remote participation descr
- ibed by the organiser. Headline dates span 26–29 September\; consult the
-  detailed programme for individual sessions.\nLanguage: Not specified\nLan
- guage requirements: Not specified\nInterpretation: Not specified\nAccess: 
- See organiser\nhttps://alwaysquestion.ai/\nDate-only listing\; check the o
- rganiser for session times.
-LAST-MODIFIED:20261007T221454Z
+ ibed by the organiser. Headline dates span 26-29 September\; consult the d
+ etailed programme for individual sessions.\nLanguage: Not specified\nLangu
+ age requirements: Not specified\nInterpretation: Not specified\nAccess: Se
+ e organiser\nhttps://alwaysquestion.ai/\nDate-only listing\; check the org
+ aniser for session times.
+LAST-MODIFIED:20261024T204503Z
 LOCATION:Shanghai\, China
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1762,9 +1736,9 @@ BEGIN:VEVENT
 SUMMARY:RSD15: Mapping Inclusive Learning: Pre-K to HE
 DTSTART:20260928T150000Z
 DTEND:20260928T160000Z
-DTSTAMP:20261007T221454Z
+DTSTAMP:20261024T204503Z
 UID:161d0319dc2bbfa5b0d3a661@systemsmap.antlerboy.com
-SEQUENCE:20
+SEQUENCE:44
 CATEGORIES:Systemic design,Systems thinking
 DESCRIPTION:RSD15 / Systemic Design Association\nA separately scheduled se
  ssion in the RSD15 Communication Perspectives hub. Listed contributors: Ma
@@ -1772,10 +1746,10 @@ DESCRIPTION:RSD15 / Systemic Design Association\nA separately scheduled se
   transcribed from the public Zoom programme\, displayed in PDT. See the se
  ssion programme for content\, participation details and registration.\nLan
  guage: Not specified\nLanguage requirements: Not specified\nInterpretation
- : Not specified\nAccess: Registration through the organiser’s Zoom event
-  page\nhttps://events.zoom.us/ev/Avz8lNCiH3NBw-EJbAEc9XTHcaVfk3_BgFs9GAl8I
- G1558rJOmfX~Ar1jNoZLQXdODdV70tNswR8vSqW21K7vF5ufO-vZ3kqQUvwJR0RxDujL4A
-LAST-MODIFIED:20261007T221454Z
+ : Not specified\nAccess: Registration through the organiser's Zoom event p
+ age\nhttps://events.zoom.us/ev/Avz8lNCiH3NBw-EJbAEc9XTHcaVfk3_BgFs9GAl8IG1
+ 558rJOmfX~Ar1jNoZLQXdODdV70tNswR8vSqW21K7vF5ufO-vZ3kqQUvwJR0RxDujL4A
+LAST-MODIFIED:20261024T204503Z
 LOCATION:Online
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1870,20 +1844,20 @@ SUMMARY:RSD15 Communications Perspectives: Coordinated Management of Meani
  ng
 DTSTART:20260929T153000Z
 DTEND:20260930T000000Z
-DTSTAMP:20261007T221454Z
+DTSTAMP:20261024T204503Z
 UID:55230e3a3adac1c04b3eefd2@systemsmap.antlerboy.com
-SEQUENCE:21
+SEQUENCE:45
 CATEGORIES:Systemic design,Systems thinking
 DESCRIPTION:CMM Institute / Relating Systems Thinking and Design\nSeventee
  n half-hour sessions exploring Coordinated Management of Meaning across fi
  elds and practices\, hosted by Abbie VanMeter. The published Zoom programm
- e runs 08:30–17:00 PDT on 29 September. Each session combines a presenta
- tion and discussion. The wider hub booking window includes separate worksh
- ops on 28 and 30 September\; it is not a continuous CMM event. Full sessio
- n schedule: https://events\nLanguage: Not specified\nLanguage requirements
- : Not specified\nInterpretation: Not specified\nAccess: Registration via t
- he organiser’s event page\nhttps://rsdsymposium.org/rsd15-cmmi/
-LAST-MODIFIED:20261007T221454Z
+ e runs 08:30-17:00 PDT on 29 September. Each session combines a presentati
+ on and discussion. The wider hub booking window includes separate workshop
+ s on 28 and 30 September\; it is not a continuous CMM event. Full session 
+ schedule: https://events\nLanguage: Not specified\nLanguage requirements: 
+ Not specified\nInterpretation: Not specified\nAccess: Registration via the
+  organiser's event page\nhttps://rsdsymposium.org/rsd15-cmmi/
+LAST-MODIFIED:20261024T204503Z
 LOCATION:Online
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1908,8 +1882,8 @@ DESCRIPTION:System Dynamics Society\nSeptember 29\, 2026 at 11 am New York
  ion: Not specified\nAccess: See organiser\nhttps://systemdynamics.org/even
  t/from-bees-to-feedback-loops-building-systems-literacy-from-childhood-to-
  leadership/\nNo longer found in the latest source listing\; confirmation n
- eeded.\nThis event could not be rechecked on the latest collection. Confir
- m with the organiser.
+ eeded.\nSource could not be fully rechecked.\nThis event could not be rech
+ ecked on the latest collection. Confirm with the organiser.
 LAST-MODIFIED:20260910T090026Z
 LOCATION:https://systemdynamics.org/event/from-bees-to-feedback-loops-buil
  ding-systems-literacy-from-childhood-to-leadership/
@@ -1938,12 +1912,12 @@ URL:https://cssociety.org/event/7fc28031-3253-4626-8492-06700bb5428a/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:RSD15: SystemicStories AI: An AI-enabled systemic design atlas for
-  Singapore’s health & care sector
+  Singapore's health & care sector
 DTSTART:20260930T070000Z
 DTEND:20260930T090000Z
-DTSTAMP:20261007T221454Z
+DTSTAMP:20261024T204503Z
 UID:5b0a5f27d08fd0d9ccb716ec@systemsmap.antlerboy.com
-SEQUENCE:20
+SEQUENCE:44
 CATEGORIES:Systemic design,Systems thinking
 DESCRIPTION:RSD15 / Systemic Design Association\nA separately scheduled se
  ssion in the RSD15 Communication Perspectives hub. Listed contributors: Ye
@@ -1951,10 +1925,10 @@ DESCRIPTION:RSD15 / Systemic Design Association\nA separately scheduled se
   transcribed from the public Zoom programme\, displayed in PDT. See the se
  ssion programme for content\, participation details and registration.\nLan
  guage: Not specified\nLanguage requirements: Not specified\nInterpretation
- : Not specified\nAccess: Registration through the organiser’s Zoom event
-  page\nhttps://events.zoom.us/ev/Avz8lNCiH3NBw-EJbAEc9XTHcaVfk3_BgFs9GAl8I
- G1558rJOmfX~Ar1jNoZLQXdODdV70tNswR8vSqW21K7vF5ufO-vZ3kqQUvwJR0RxDujL4A
-LAST-MODIFIED:20261007T221454Z
+ : Not specified\nAccess: Registration through the organiser's Zoom event p
+ age\nhttps://events.zoom.us/ev/Avz8lNCiH3NBw-EJbAEc9XTHcaVfk3_BgFs9GAl8IG1
+ 558rJOmfX~Ar1jNoZLQXdODdV70tNswR8vSqW21K7vF5ufO-vZ3kqQUvwJR0RxDujL4A
+LAST-MODIFIED:20261024T204503Z
 LOCATION:Online
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1966,9 +1940,9 @@ SUMMARY:RSD15: Mind the Gap: Transitions between systems and getting lost
  in the void
 DTSTART:20260930T140000Z
 DTEND:20260930T160000Z
-DTSTAMP:20261007T221454Z
+DTSTAMP:20261024T204503Z
 UID:a343a1cced48ec66eeac78c2@systemsmap.antlerboy.com
-SEQUENCE:18
+SEQUENCE:42
 CATEGORIES:Systemic design,Systems thinking
 DESCRIPTION:RSD15 / Systemic Design Association\nA separately scheduled se
  ssion in the RSD15 Communication Perspectives hub. Listed contributors: Ma
@@ -1976,10 +1950,10 @@ DESCRIPTION:RSD15 / Systemic Design Association\nA separately scheduled se
  ublic Zoom programme\, displayed in PDT. See the session programme for con
  tent\, participation details and registration.\nLanguage: Not specified\nL
  anguage requirements: Not specified\nInterpretation: Not specified\nAccess
- : Registration through the organiser’s Zoom event page\nhttps://events.z
- oom.us/ev/Avz8lNCiH3NBw-EJbAEc9XTHcaVfk3_BgFs9GAl8IG1558rJOmfX~Ar1jNoZLQXd
- ODdV70tNswR8vSqW21K7vF5ufO-vZ3kqQUvwJR0RxDujL4A
-LAST-MODIFIED:20261007T221454Z
+ : Registration through the organiser's Zoom event page\nhttps://events.zoo
+ m.us/ev/Avz8lNCiH3NBw-EJbAEc9XTHcaVfk3_BgFs9GAl8IG1558rJOmfX~Ar1jNoZLQXdOD
+ dV70tNswR8vSqW21K7vF5ufO-vZ3kqQUvwJR0RxDujL4A
+LAST-MODIFIED:20261024T204503Z
 LOCATION:Online
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1998,8 +1972,8 @@ DESCRIPTION:Institut des systèmes complexes Paris Île-de-France\nRéunio
  n de la CSIIT\nLanguage: Not specified\nLanguage requirements: Not specifi
  ed\nInterpretation: Not specified\nAccess: See organiser\nhttps://iscpif.f
  r/evenements/csiit/\nNo longer found in the latest source listing\; confir
- mation needed.\nThis event could not be rechecked on the latest collection
- . Confirm with the organiser.
+ mation needed.\nSource could not be fully rechecked.\nThis event could not
+  be rechecked on the latest collection. Confirm with the organiser.
 LAST-MODIFIED:20260909T085810Z
 LOCATION:ISC-PIF\, 113 rue Nationale\, Paris\, Paris\, 75013\, France
 STATUS:CONFIRMED
@@ -2007,13 +1981,13 @@ TRANSP:TRANSPARENT
 URL:https://iscpif.fr/evenements/csiit/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:RSD15: Fieldkeeper’s Log: entry [number]—exploring relational 
- technologies through dramaturgy\, poetics\, and metaphor
+SUMMARY:RSD15: Fieldkeeper's Log: entry [number]-exploring relational tech
+ nologies through dramaturgy\, poetics\, and metaphor
 DTSTART:20260930T160000Z
 DTEND:20260930T180000Z
-DTSTAMP:20261007T221454Z
+DTSTAMP:20261024T204503Z
 UID:994bbbc560923c11e3acb383@systemsmap.antlerboy.com
-SEQUENCE:18
+SEQUENCE:42
 CATEGORIES:Systemic design,Systems thinking
 DESCRIPTION:RSD15 / Systemic Design Association\nA separately scheduled se
  ssion in the RSD15 Communication Perspectives hub. Listed contributors: Wi
@@ -2021,10 +1995,10 @@ DESCRIPTION:RSD15 / Systemic Design Association\nA separately scheduled se
  d in PDT. See the session programme for content\, participation details an
  d registration.\nLanguage: Not specified\nLanguage requirements: Not speci
  fied\nInterpretation: Not specified\nAccess: Registration through the orga
- niser’s Zoom event page\nhttps://events.zoom.us/ev/Avz8lNCiH3NBw-EJbAEc9
- XTHcaVfk3_BgFs9GAl8IG1558rJOmfX~Ar1jNoZLQXdODdV70tNswR8vSqW21K7vF5ufO-vZ3k
- qQUvwJR0RxDujL4A
-LAST-MODIFIED:20261007T221454Z
+ niser's Zoom event page\nhttps://events.zoom.us/ev/Avz8lNCiH3NBw-EJbAEc9XT
+ HcaVfk3_BgFs9GAl8IG1558rJOmfX~Ar1jNoZLQXdODdV70tNswR8vSqW21K7vF5ufO-vZ3kqQ
+ UvwJR0RxDujL4A
+LAST-MODIFIED:20261024T204503Z
 LOCATION:Online
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -2035,29 +2009,29 @@ BEGIN:VEVENT
 SUMMARY:Systemic consulting: helping without taking over
 DTSTART:20260930T111500Z
 DTEND:20260930T124500Z
-DTSTAMP:20261007T221454Z
+DTSTAMP:20261024T204503Z
 UID:3059d51c802280a2cf5f9dff@systemsmap.antlerboy.com
-SEQUENCE:1
+SEQUENCE:25
 CATEGORIES:Relational public services,Systems thinking
-DESCRIPTION:Benjamin P Taylor\nSession has taken place\; organiser’s pag
- e links the guide and session account.\nLanguage: English\nLanguage requir
- ements: Not specified\nInterpretation: Not specified\nAccess: Registration
-  required\nhttps://antlerboy.com/sysprac26/\nOrganiser page checked 7 Octo
- ber 2026. Separate from the cancelled conference appearance.
-LAST-MODIFIED:20261007T221454Z
+DESCRIPTION:Benjamin P Taylor\nSession has taken place\; organiser's page 
+ links the guide and session account.\nLanguage: English\nLanguage requirem
+ ents: Not specified\nInterpretation: Not specified\nAccess: Registration r
+ equired\nhttps://antlerboy.com/sysprac26/\nOrganiser page checked 7 Octobe
+ r 2026. Separate from the cancelled conference appearance.
+LAST-MODIFIED:20261024T204503Z
 LOCATION:Online
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 URL:https://antlerboy.com/sysprac26/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:RSD15: All Tomorrow’s Policies: Methods for Dual-Timeframe Polic
- y Innovation
+SUMMARY:RSD15: All Tomorrow's Policies: Methods for Dual-Timeframe Policy 
+ Innovation
 DTSTART:20260930T210000Z
 DTEND:20260930T223000Z
-DTSTAMP:20261007T221454Z
+DTSTAMP:20261024T204503Z
 UID:d74cfd32e1c60bf309d98a0a@systemsmap.antlerboy.com
-SEQUENCE:18
+SEQUENCE:42
 CATEGORIES:Systemic design,Systems thinking
 DESCRIPTION:RSD15 / Systemic Design Association\nA separately scheduled se
  ssion in the RSD15 Communication Perspectives hub. Listed contributors: Ch
@@ -2065,10 +2039,10 @@ DESCRIPTION:RSD15 / Systemic Design Association\nA separately scheduled se
  programme\, displayed in PDT. See the session programme for content\, part
  icipation details and registration.\nLanguage: Not specified\nLanguage req
  uirements: Not specified\nInterpretation: Not specified\nAccess: Registrat
- ion through the organiser’s Zoom event page\nhttps://events.zoom.us/ev/A
- vz8lNCiH3NBw-EJbAEc9XTHcaVfk3_BgFs9GAl8IG1558rJOmfX~Ar1jNoZLQXdODdV70tNswR
- 8vSqW21K7vF5ufO-vZ3kqQUvwJR0RxDujL4A
-LAST-MODIFIED:20261007T221454Z
+ ion through the organiser's Zoom event page\nhttps://events.zoom.us/ev/Avz
+ 8lNCiH3NBw-EJbAEc9XTHcaVfk3_BgFs9GAl8IG1558rJOmfX~Ar1jNoZLQXdODdV70tNswR8v
+ SqW21K7vF5ufO-vZ3kqQUvwJR0RxDujL4A
+LAST-MODIFIED:20261024T204503Z
 LOCATION:Online
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -2121,8 +2095,9 @@ DESCRIPTION:System Dynamics Society\nPlease join the Water SIG\, Nigerian
  pretation: Not specified\nAccess: See organiser\nhttps://systemdynamics.or
  g/event/participatory-modelling-of-the-wef-nexus-through-causal-loop-diagr
  ams-in-a-cassava-processing-hub-in-nigeria/\nNo longer found in the latest
-  source listing\; confirmation needed.\nThis event could not be rechecked 
- on the latest collection. Confirm with the organiser.
+  source listing\; confirmation needed.\nSource could not be fully rechecke
+ d.\nThis event could not be rechecked on the latest collection. Confirm wi
+ th the organiser.
 LAST-MODIFIED:20260910T090026Z
 LOCATION:https://systemdynamics.org/event/participatory-modelling-of-the-w
  ef-nexus-through-causal-loop-diagrams-in-a-cassava-processing-hub-in-niger
@@ -2173,8 +2148,9 @@ DESCRIPTION:System Dynamics Society\nHello\, You are invited to attend the
  retation: Not specified\nAccess: See organiser\nhttps://systemdynamics.org
  /event/mit-system-dynamics-seminar-ai-augmented-experiments-more-precise-c
  ausal-inference-with-human-subjects/\nNo longer found in the latest source
-  listing\; confirmation needed.\nThis event could not be rechecked on the 
- latest collection. Confirm with the organiser.
+  listing\; confirmation needed.\nSource could not be fully rechecked.\nThi
+ s event could not be rechecked on the latest collection. Confirm with the 
+ organiser.
 LAST-MODIFIED:20260926T092514Z
 LOCATION:Location not published
 STATUS:CONFIRMED
@@ -2201,8 +2177,8 @@ DESCRIPTION:System Dynamics Society\nEvent Website: https://www.mit-alumni
  etation: Not specified\nAccess: See organiser\nhttps://systemdynamics.org/
  event/transforming-food-systems-and-markets-todays-realities-tomorrows-nee
  ds/\nNo longer found in the latest source listing\; confirmation needed.\n
- This event could not be rechecked on the latest collection. Confirm with t
- he organiser.
+ Source could not be fully rechecked.\nThis event could not be rechecked on
+  the latest collection. Confirm with the organiser.
 LAST-MODIFIED:20261002T103500Z
 LOCATION:https://us02web.zoom.us/j/88050863400?pwd=yROebm94EU6qsdgCQ0XKI9D
  ARECaal.1&jst=1
@@ -2250,9 +2226,9 @@ DESCRIPTION:Institut des systèmes complexes Paris Île-de-France\nSoutena
  nce de thèse en immunologie laboratoire I3 UMRS959\nLanguage: Not specifi
  ed\nLanguage requirements: Not specified\nInterpretation: Not specified\nA
  ccess: See organiser\nhttps://iscpif.fr/evenements/soutenance-de-these-7/
- \nNo longer found in the latest source listing\; confirmation needed.\nThi
- s event could not be rechecked on the latest collection. Confirm with the 
- organiser.
+ \nNo longer found in the latest source listing\; confirmation needed.\nSou
+ rce could not be fully rechecked.\nThis event could not be rechecked on th
+ e latest collection. Confirm with the organiser.
 LAST-MODIFIED:20261001T110212Z
 LOCATION:ISC-PIF\, 113 rue Nationale\, Paris\, Paris\, 75013\, France
 STATUS:CONFIRMED
@@ -2273,8 +2249,8 @@ DESCRIPTION:Institut des systèmes complexes Paris Île-de-France\nV150626
  age: Not specified\nLanguage requirements: Not specified\nInterpretation: 
  Not specified\nAccess: See organiser\nhttps://iscpif.fr/evenements/seminai
  res-legumineuses-dinrae/\nNo longer found in the latest source listing\; c
- onfirmation needed.\nThis event could not be rechecked on the latest colle
- ction. Confirm with the organiser.
+ onfirmation needed.\nSource could not be fully rechecked.\nThis event coul
+ d not be rechecked on the latest collection. Confirm with the organiser.
 LAST-MODIFIED:20261001T110212Z
 LOCATION:ISC-PIF\, 113 rue Nationale\, Paris\, Paris\, 75013\, France
 STATUS:CONFIRMED
@@ -2282,19 +2258,19 @@ TRANSP:TRANSPARENT
 URL:https://iscpif.fr/evenements/seminaires-legumineuses-dinrae/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Relational Leadership · session 3
+SUMMARY:Relational Leadership � session 3
 DTSTART:20261006T083000Z
 DTEND:20261006T113000Z
-DTSTAMP:20261007T221454Z
+DTSTAMP:20261024T204503Z
 UID:27ef6321e5a0a805c80342b2@systemsmap.antlerboy.com
-SEQUENCE:40
+SEQUENCE:64
 CATEGORIES:Relational public services,Systems thinking
 DESCRIPTION:ThemPra Social Pedagogy\nApplied learning connected to Human L
  earning Systems and relational public services.\nLanguage: Not specified\n
  Language requirements: Not specified\nInterpretation: Not specified\nAcces
  s: Full-course registration required\nhttps://www.thempra.org.uk/thempra/o
  ur-courses/relational-leadership/
-LAST-MODIFIED:20261007T221454Z
+LAST-MODIFIED:20261024T204503Z
 LOCATION:Online
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -2311,9 +2287,9 @@ CATEGORIES:Systems thinking,Cybernetics
 DESCRIPTION:SCiO UK\n\nLanguage: English\nLanguage requirements: Not speci
  fied\nInterpretation: Not specified\nAccess: Members only\nhttps://www.sys
  temspractice.org/events/scio-uk-virtual-development-event-october-2026\nNo
-  longer found in the latest source listing\; confirmation needed.\nThis ev
- ent could not be rechecked on the latest collection. Confirm with the orga
- niser.
+  longer found in the latest source listing\; confirmation needed.\nSource 
+ could not be fully rechecked.\nThis event could not be rechecked on the la
+ test collection. Confirm with the organiser.
 LAST-MODIFIED:20261006T112159Z
 LOCATION:Online event
 STATUS:CONFIRMED
@@ -2376,9 +2352,9 @@ BEGIN:VEVENT
 SUMMARY:RSD15: Shades of Metadesign: Diversity and coherence in emergence
 DTSTART:20261007T100000Z
 DTEND:20261007T113000Z
-DTSTAMP:20261007T221454Z
+DTSTAMP:20261024T204503Z
 UID:1aaa464fcb3790f5da9f9360@systemsmap.antlerboy.com
-SEQUENCE:19
+SEQUENCE:43
 CATEGORIES:Complexity,Systemic design,Systems thinking
 DESCRIPTION:RSD15 / Systemic Design Association\nA separately scheduled se
  ssion in the RSD15 Streaming Knowledge programme. Listed contributors: Mat
@@ -2386,10 +2362,10 @@ DESCRIPTION:RSD15 / Systemic Design Association\nA separately scheduled se
  mme\, displayed in PDT. See the programme for participation details and re
  gistration.\nLanguage: Not specified\nLanguage requirements: Not specified
  \nInterpretation: Not specified\nAccess: Registration through the organise
- r’s Zoom event page\nhttps://events.zoom.us/ev/AsJqkev_ZcUPAGluSOWc6DjQx
- YaYQGd9kagT_Drg23D5OITbNgOX~ArynT6gEsXmOQjjkOI_WuC2x3_EmtEFsynXLVcvT57PukT
- lDQGXyaqccCA
-LAST-MODIFIED:20261007T221454Z
+ r's Zoom event page\nhttps://events.zoom.us/ev/AsJqkev_ZcUPAGluSOWc6DjQxYa
+ YQGd9kagT_Drg23D5OITbNgOX~ArynT6gEsXmOQjjkOI_WuC2x3_EmtEFsynXLVcvT57PukTlD
+ QGXyaqccCA
+LAST-MODIFIED:20261024T204503Z
 LOCATION:Online
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -2414,8 +2390,8 @@ DESCRIPTION:Institut des systèmes complexes Paris Île-de-France\nLe prog
  quirements: Not specified\nInterpretation: Not specified\nAccess: See orga
  niser\nhttps://iscpif.fr/evenements/ag-projet-quintet-du-programme-traccs-
  pepr-climat/\nNo longer found in the latest source listing\; confirmation 
- needed.\nThis event could not be rechecked on the latest collection. Confi
- rm with the organiser.
+ needed.\nSource could not be fully rechecked.\nThis event could not be rec
+ hecked on the latest collection. Confirm with the organiser.
 LAST-MODIFIED:20261001T110212Z
 LOCATION:ISC-PIF\, 113 rue Nationale\, Paris\, Paris\, 75013\, France
 STATUS:CONFIRMED
@@ -2427,9 +2403,9 @@ BEGIN:VEVENT
 SUMMARY:RSD15: CMM Office Hours
 DTSTART:20261007T160000Z
 DTEND:20261007T170000Z
-DTSTAMP:20261007T221454Z
+DTSTAMP:20261024T204503Z
 UID:7637781ec999a366aac88dd3@systemsmap.antlerboy.com
-SEQUENCE:18
+SEQUENCE:42
 CATEGORIES:Systemic design,Systems thinking
 DESCRIPTION:RSD15 / Systemic Design Association\nA separately scheduled se
  ssion in the RSD15 Streaming Knowledge programme. Listed contributors: Abb
@@ -2437,10 +2413,10 @@ DESCRIPTION:RSD15 / Systemic Design Association\nA separately scheduled se
  ramme\, displayed in PDT. See the programme for participation details and 
  registration.\nLanguage: Not specified\nLanguage requirements: Not specifi
  ed\nInterpretation: Not specified\nAccess: Registration through the organi
- ser’s Zoom event page\nhttps://events.zoom.us/ev/AsJqkev_ZcUPAGluSOWc6Dj
- QxYaYQGd9kagT_Drg23D5OITbNgOX~ArynT6gEsXmOQjjkOI_WuC2x3_EmtEFsynXLVcvT57Pu
- kTlDQGXyaqccCA
-LAST-MODIFIED:20261007T221454Z
+ ser's Zoom event page\nhttps://events.zoom.us/ev/AsJqkev_ZcUPAGluSOWc6DjQx
+ YaYQGd9kagT_Drg23D5OITbNgOX~ArynT6gEsXmOQjjkOI_WuC2x3_EmtEFsynXLVcvT57PukT
+ lDQGXyaqccCA
+LAST-MODIFIED:20261024T204503Z
 LOCATION:Online
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -2448,38 +2424,38 @@ URL:https://events.zoom.us/ev/AsJqkev_ZcUPAGluSOWc6DjQxYaYQGd9kagT_Drg23D5
  OITbNgOX~ArynT6gEsXmOQjjkOI_WuC2x3_EmtEFsynXLVcvT57PukTlDQGXyaqccCA
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Leading with Learning · session 2
+SUMMARY:Leading with Learning � session 2
 DTSTART:20261007T083000Z
 DTEND:20261007T113000Z
-DTSTAMP:20261007T221454Z
+DTSTAMP:20261024T204503Z
 UID:ea4027a061514d8c4dadc838@systemsmap.antlerboy.com
-SEQUENCE:40
+SEQUENCE:64
 CATEGORIES:Relational public services,Systems thinking
 DESCRIPTION:ThemPra Social Pedagogy\nApplied learning connected to Human L
  earning Systems and relational public services.\nLanguage: Not specified\n
  Language requirements: Not specified\nInterpretation: Not specified\nAcces
  s: Full-course registration required\nhttps://www.thempra.org.uk/thempra/o
  ur-courses/leading-with-learning/
-LAST-MODIFIED:20261007T221454Z
+LAST-MODIFIED:20261024T204503Z
 LOCATION:Online
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 URL:https://www.thempra.org.uk/thempra/our-courses/leading-with-learning/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Relational Leadership · session 4
+SUMMARY:Relational Leadership � session 4
 DTSTART:20261007T083000Z
 DTEND:20261007T113000Z
-DTSTAMP:20261007T221454Z
+DTSTAMP:20261024T204503Z
 UID:df002fc665aa7ccc34ed74ab@systemsmap.antlerboy.com
-SEQUENCE:40
+SEQUENCE:64
 CATEGORIES:Relational public services,Systems thinking
 DESCRIPTION:ThemPra Social Pedagogy\nApplied learning connected to Human L
  earning Systems and relational public services.\nLanguage: Not specified\n
  Language requirements: Not specified\nInterpretation: Not specified\nAcces
  s: Full-course registration required\nhttps://www.thempra.org.uk/thempra/o
  ur-courses/relational-leadership/
-LAST-MODIFIED:20261007T221454Z
+LAST-MODIFIED:20261024T204503Z
 LOCATION:Online
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -2551,7 +2527,10 @@ DESCRIPTION:System Dynamics Society\nThe Oceania Chapter of the System Dyn
  referred climate solutions to the test! The Oceania Chapter is excited to
  \nLanguage: Not specified\nLanguage requirements: Not specified\nInterpret
  ation: Not specified\nAccess: See organiser\nhttps://systemdynamics.org/ev
- ent/webinar-en-roads-climate-workshop/
+ ent/webinar-en-roads-climate-workshop/\nNo longer found in the latest sour
+ ce listing\; confirmation needed.\nSource could not be fully rechecked.\nT
+ his event could not be rechecked on the latest collection. Confirm with th
+ e organiser.
 LAST-MODIFIED:20260925T071905Z
 LOCATION:https://uni-sydney.zoom.us/j/82670013782
 STATUS:CONFIRMED
@@ -2601,7 +2580,10 @@ DESCRIPTION:Complexity Science Hub\nRapid\, unanticipated shifts in migran
  \nLanguage: Not specified\nLanguage requirements: Not specified\nInterpret
  ation: Not specified\nAccess: See organiser\nhttps://csh.ac.at/events/a-br
  idge-from-collective-motion-to-social-behavior-migration-and-collective-de
- cisions/\nDate-only listing\; check the organiser for session times.
+ cisions/\nDate-only listing\; check the organiser for session times.\nNo l
+ onger found in the latest source listing\; confirmation needed.\nThis even
+ t could not be rechecked on the latest collection. Confirm with the organi
+ ser.
 LAST-MODIFIED:20260917T093127Z
 LOCATION:CSH Salon
 STATUS:CONFIRMED
@@ -2641,7 +2623,10 @@ DESCRIPTION:Institut des systèmes complexes Paris Île-de-France\nhttps:/
  /iscpif.fr/unarchive-complexity-accueil/\nLanguage: Not specified\nLanguag
  e requirements: Not specified\nInterpretation: Not specified\nAccess: See 
  organiser\nhttps://iscpif.fr/evenements/unarchive-complexity/\nDate-only l
- isting\; check the organiser for session times.
+ isting\; check the organiser for session times.\nNo longer found in the la
+ test source listing\; confirmation needed.\nSource could not be fully rech
+ ecked.\nThis event could not be rechecked on the latest collection. Confir
+ m with the organiser.
 LAST-MODIFIED:20261001T110212Z
 LOCATION:ISC-PIF\, 113 rue Nationale\, Paris\, Paris\, 75013\, France
 STATUS:CONFIRMED
@@ -2663,7 +2648,10 @@ DESCRIPTION:System Dynamics Society\nThe student chapter is pleased to hos
  nt will take place by zoom on Thursday\, October 8th\, at 12pm (noon) NY t
  ime.\nLanguage: Not specified\nLanguage requirements: Not specified\nInter
  pretation: Not specified\nAccess: See organiser\nhttps://systemdynamics.or
- g/event/student-chapter-meeting-guest-speaker-dr-nishita-dsouza/
+ g/event/student-chapter-meeting-guest-speaker-dr-nishita-dsouza/\nNo longe
+ r found in the latest source listing\; confirmation needed.\nSource could 
+ not be fully rechecked.\nThis event could not be rechecked on the latest c
+ ollection. Confirm with the organiser.
 LAST-MODIFIED:20261007T111029Z
 LOCATION:https://us02web.zoom.us/j/83483036517
 STATUS:CONFIRMED
@@ -2675,17 +2663,16 @@ BEGIN:VEVENT
 SUMMARY:Making relational\, place-based public services ordinary
 DTSTART:20261008T113000Z
 DTEND:20261008T130000Z
-DTSTAMP:20261007T221454Z
+DTSTAMP:20261024T204503Z
 UID:404260241b69921dac1f85d6@systemsmap.antlerboy.com
-SEQUENCE:1
+SEQUENCE:25
 CATEGORIES:Relational public services,Systems thinking
-DESCRIPTION:Benjamin P Taylor\nBenjamin P Taylor’s replacement online wo
- rkshop\; registration through the organiser’s page.\nLanguage: English\n
- Language requirements: Not specified\nInterpretation: Not specified\nAcces
- s: Registration required\nhttps://antlerboy.com/sysprac26/\nOrganiser page
-  checked 7 October 2026. Separate from the cancelled conference appearance
- .
-LAST-MODIFIED:20261007T221454Z
+DESCRIPTION:Benjamin P Taylor\nBenjamin P Taylor's replacement online work
+ shop\; registration through the organiser's page.\nLanguage: English\nLang
+ uage requirements: Not specified\nInterpretation: Not specified\nAccess: R
+ egistration required\nhttps://antlerboy.com/sysprac26/\nOrganiser page che
+ cked 7 October 2026. Separate from the cancelled conference appearance.
+LAST-MODIFIED:20261024T204503Z
 LOCATION:Online
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -2713,20 +2700,19 @@ BEGIN:VEVENT
 SUMMARY:Free introduction: What is sociocracy?
 DTSTART:20261009T160000Z
 DTEND:20261009T170000Z
-DTSTAMP:20260909T085810Z
-UID:b3235464d6e293baf43b6304@systemsmap.antlerboy.com
-SEQUENCE:2
+DTSTAMP:20261010T104118Z
+UID:5dd46b91dd69260ad8741eb3@systemsmap.antlerboy.com
+SEQUENCE:0
 CATEGORIES:Systems thinking
-DESCRIPTION:Sociocracy For All\nAre you tired of power games in your organ
- izations? Do you have hope that collaboration in organizations could bring
-  out the best in people? Do you think organizations could be places of syn
- ergy\, collaboration\, growth\, and deep and authentic connection? This we
- binar is giving an overview of sociocracy. We will talk about: better list
- ening consent decision making and circle structure examples from \nLanguag
- e: Not specified\nLanguage requirements: Not specified\nInterpretation: No
- t specified\nAccess: See organiser\nhttps://www.sociocracyforall.org/event
- /free-info-session-october-2026/
-LAST-MODIFIED:20260909T085810Z
+DESCRIPTION:Sociocracy For All\n<p>This is a free sociocracy info session.
+  We will look at what self-management is trying to achieve\, how sociocrac
+ y works\, and what kind of organizations are using sociocracy. </p>\\n\nLa
+ nguage: Not specified\nLanguage requirements: Not specified\nInterpretatio
+ n: Not specified\nAccess: See organiser\nhttps://www.sociocracyforall.org/
+ event/free-info-session-october-2026/\nNo longer found in the latest sourc
+ e listing\; confirmation needed.\nThis event could not be rechecked on the
+  latest collection. Confirm with the organiser.
+LAST-MODIFIED:20261010T104118Z
 LOCATION:Location not published
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -2765,13 +2751,35 @@ DESCRIPTION:Institut des systèmes complexes Paris Île-de-France\nComité
  027 de CNRS Terre & Univers\nLanguage: Not specified\nLanguage requirement
  s: Not specified\nInterpretation: Not specified\nAccess: See organiser\nht
  tps://iscpif.fr/evenements/comite-devaluation-lefe-programme-national-insu
- /
+ /\nNo longer found in the latest source listing\; confirmation needed.\nSo
+ urce could not be fully rechecked.\nThis event could not be rechecked on t
+ he latest collection. Confirm with the organiser.
 LAST-MODIFIED:20261001T110212Z
 LOCATION:ISC-PIF\, 113 rue Nationale\, Paris\, Paris\, 75013\, France
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 URL:https://iscpif.fr/evenements/comite-devaluation-lefe-programme-nationa
  l-insu/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:TRACCS AG DEMO CLIMAT amphi
+DTSTART:20261013T060000Z
+DTEND:20261014T140000Z
+DTSTAMP:20261008T112743Z
+UID:793521b870c493e30cc10323@systemsmap.antlerboy.com
+SEQUENCE:0
+CATEGORIES:Complexity
+DESCRIPTION:Institut des systèmes complexes Paris Île-de-France\n\nLangu
+ age: Not specified\nLanguage requirements: Not specified\nInterpretation: 
+ Not specified\nAccess: See organiser\nhttps://iscpif.fr/evenements/traccs-
+ ag-demo-climat-2/\nNo longer found in the latest source listing\; confirma
+ tion needed.\nSource could not be fully rechecked.\nThis event could not b
+ e rechecked on the latest collection. Confirm with the organiser.
+LAST-MODIFIED:20261008T112743Z
+LOCATION:ISC-PIF\, 113 rue Nationale\, Paris\, Paris\, 75013\, France
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://iscpif.fr/evenements/traccs-ag-demo-climat-2/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:AI in System Dynamics Education | Task Force Monthly Meeting
@@ -2789,7 +2797,10 @@ DESCRIPTION:System Dynamics Society\nTime: 11:00 a.m. New York | 4:00 p.m.
  ovide a space to collaborate on the responsible integration of artifi\nLan
  guage: Not specified\nLanguage requirements: Not specified\nInterpretation
  : Not specified\nAccess: See organiser\nhttps://systemdynamics.org/event/a
- i-in-system-dynamics-education-task-force-monthly-meeting-2/2026-10-13/
+ i-in-system-dynamics-education-task-force-monthly-meeting-2/2026-10-13/\nS
+ ource could not be fully rechecked.\nNo longer found in the latest source 
+ listing\; confirmation needed.\nThis event could not be rechecked on the l
+ atest collection. Confirm with the organiser.
 LAST-MODIFIED:20260910T090026Z
 LOCATION:https://systemdynamics.org/event/ai-in-system-dynamics-education-
  task-force-monthly-meeting-2/2026-10-13/
@@ -2815,9 +2826,9 @@ DESCRIPTION:System Dynamics Society\nTuesday\, October 13 at 11 am New Yor
  n a\nLanguage: Not specified\nLanguage requirements: Not specified\nInterp
  retation: Not specified\nAccess: See organiser\nhttps://systemdynamics.org
  /event/implementing-the-self-managing-enterprise-with-agentic-ai/\nNo long
- er found in the latest source listing\; confirmation needed.\nThis event c
- ould not be rechecked on the latest collection. Confirm with the organiser
- .
+ er found in the latest source listing\; confirmation needed.\nSource could
+  not be fully rechecked.\nThis event could not be rechecked on the latest 
+ collection. Confirm with the organiser.
 LAST-MODIFIED:20260917T093127Z
 LOCATION:https://us02web.zoom.us/j/87049920798
 STATUS:CONFIRMED
@@ -2830,9 +2841,9 @@ SUMMARY:What are Programmers doing on GitHub? Inferring Software Skills fr
  om API on GitHub
 DTSTART:20261013T123000Z
 DTEND:20261013T130000Z
-DTSTAMP:20261007T220943Z
+DTSTAMP:20261009T112400Z
 UID:22eb7bab03d6959fd176cefd@systemsmap.antlerboy.com
-SEQUENCE:0
+SEQUENCE:1
 CATEGORIES:Complexity
 DESCRIPTION:Complexity Science Hub\nSkills are central to labor market res
  earch\, yet for software work they are usually measured through coarse pro
@@ -2843,13 +2854,43 @@ DESCRIPTION:Complexity Science Hub\nSkills are central to labor market res
  Language: Not specified\nLanguage requirements: Not specified\nInterpretat
  ion: Not specified\nAccess: See organiser\nhttps://csh.ac.at/events/what-a
  re-programmers-doing-on-github-inferring-software-skills-from-api-on-githu
- b/
-LAST-MODIFIED:20261007T220943Z
-LOCATION:CSH Salon
+ b/\nNo longer found in the latest source listing\; confirmation needed.\nT
+ his event could not be rechecked on the latest collection. Confirm with th
+ e organiser.
+LAST-MODIFIED:20261009T112400Z
+LOCATION:Library Metternichgasse 8\, 1030 Vienna
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 URL:https://csh.ac.at/events/what-are-programmers-doing-on-github-inferrin
  g-software-skills-from-api-on-github/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tracing OEM Supply Chain Strategies in the EV Transition: Prelimin
+ ary Evidence from Press Releases
+DTSTART:20261013T130000Z
+DTEND:20261013T133000Z
+DTSTAMP:20261009T112400Z
+UID:4ac4bf61def495f2eb9bf28c@systemsmap.antlerboy.com
+SEQUENCE:0
+CATEGORIES:Complexity
+DESCRIPTION:Complexity Science Hub\nThe transition to electric vehicles ch
+ allenges incumbent automakers to rethink their strategies and supply chain
+ s. In this talk\, Leonardo will present ongoing work on how established OE
+ Ms have responded\, using a new dataset built from the historical archives
+  of their press releases. The aim is to identify investments\, strategic d
+ ecisions and the nature of supplier relationships. He will present th\nLan
+ guage: Not specified\nLanguage requirements: Not specified\nInterpretation
+ : Not specified\nAccess: See organiser\nhttps://csh.ac.at/events/tracing-o
+ em-supply-chain-strategies-in-the-ev-transition-preliminary-evidence-from-
+ press-releases/\nNo longer found in the latest source listing\; confirmati
+ on needed.\nThis event could not be rechecked on the latest collection. Co
+ nfirm with the organiser.
+LAST-MODIFIED:20261009T112400Z
+LOCATION:Library Metternichgasse 8\, 1030 Vienna
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://csh.ac.at/events/tracing-oem-supply-chain-strategies-in-the-ev
+ -transition-preliminary-evidence-from-press-releases/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:System Dynamics Learning Hub 2026 - SASDC - Stream 4 (Multi-echelo
@@ -2869,7 +2910,9 @@ DESCRIPTION:System Dynamics Society\nThe Learning Hub is an interactive\,
  guage: Not specified\nLanguage requirements: Not specified\nInterpretation
  : Not specified\nAccess: See organiser\nhttps://systemdynamics.org/event/s
  ystem-dynamics-learning-hub-2026-sasdc-stream-4-multi-echelon-supply-chain
- -dynamics-session-1/
+ -dynamics-session-1/\nSource could not be fully rechecked.\nNo longer foun
+ d in the latest source listing\; confirmation needed.\nThis event could no
+ t be rechecked on the latest collection. Confirm with the organiser.
 LAST-MODIFIED:20260910T090026Z
 LOCATION:Location not published
 STATUS:CONFIRMED
@@ -2878,23 +2921,53 @@ URL:https://systemdynamics.org/event/system-dynamics-learning-hub-2026-sas
  dc-stream-4-multi-echelon-supply-chain-dynamics-session-1/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Deep Dive Intervisie: Critical Systems Heuristics
-DTSTART:20261013T170000Z
-DTEND:20261013T190000Z
-DTSTAMP:20261006T112159Z
-UID:4722c0fc20f597ddb501599a@systemsmap.antlerboy.com
-SEQUENCE:7
-CATEGORIES:Systems thinking,Cybernetics
-DESCRIPTION:SCiO Belgium\n\nGeographic focus: Belgium\nLanguage: Dutch\nLa
- nguage requirements: Not specified\nInterpretation: Not specified\nAccess:
-  Members only + Guests\nhttps://www.systemspractice.org/events/deep-dive-i
- ntervisie-critical-systems-heuristics
-LAST-MODIFIED:20261006T112159Z
-LOCATION:tbc\, Belgium
+SUMMARY:TRACCS AG DEMO CLIMAT
+DTSTART:20261014T110000Z
+DTEND:20261014T150000Z
+DTSTAMP:20261008T112743Z
+UID:a610c44e72d608f21f61c2f5@systemsmap.antlerboy.com
+SEQUENCE:0
+CATEGORIES:Complexity
+DESCRIPTION:Institut des systèmes complexes Paris Île-de-France\n\nLangu
+ age: Not specified\nLanguage requirements: Not specified\nInterpretation: 
+ Not specified\nAccess: See organiser\nhttps://iscpif.fr/evenements/traccs-
+ ag-demo-climat/\nNo longer found in the latest source listing\; confirmati
+ on needed.\nSource could not be fully rechecked.\nThis event could not be 
+ rechecked on the latest collection. Confirm with the organiser.
+LAST-MODIFIED:20261008T112743Z
+LOCATION:ISC-PIF\, 113 rue Nationale\, Paris\, Paris\, 75013\, France
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
-URL:https://www.systemspractice.org/events/deep-dive-intervisie-critical-s
- ystems-heuristics
+URL:https://iscpif.fr/evenements/traccs-ag-demo-climat/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Systems Modeling and Food Systems: Theory\, Applications\, and Fro
+ ntiers for Research
+DTSTART:20261014T180000Z
+DTEND:20261014T190000Z
+DTSTAMP:20261014T093553Z
+UID:00aa8fddb1a6f34321f99fd4@systemsmap.antlerboy.com
+SEQUENCE:0
+CATEGORIES:System dynamics
+DESCRIPTION:System Dynamics Society\nThe presentation will motivate the th
+ eory and application of systems modeling in food systems\, drawing on the 
+ author’s experience in designing a range of models in agricultural and l
+ ivestock value chains in the developing world. The use of participatory pr
+ ocesses as a data collection\, triangulation\, and team building tool will
+  be highlighted. New areas of research\, particularly with regards to ins
+ \nLanguage: Not specified\nLanguage requirements: Not specified\nInterpret
+ ation: Not specified\nAccess: See organiser\nhttps://systemdynamics.org/ev
+ ent/systems-modeling-and-food-systems-theory-applications-and-frontiers-fo
+ r-research/\nNo longer found in the latest source listing\; confirmation n
+ eeded.\nSource could not be fully rechecked.\nThis event could not be rech
+ ecked on the latest collection. Confirm with the organiser.
+LAST-MODIFIED:20261014T093553Z
+LOCATION:Virginia Tech\, Virginia Polytechnic Institute and State Universi
+ ty\, Blacksburg\, VA\, United States
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://systemdynamics.org/event/systems-modeling-and-food-systems-the
+ ory-applications-and-frontiers-for-research/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Taking the Complexity of Misinformation Susceptibility into Accoun
@@ -2913,13 +2986,90 @@ DESCRIPTION:Complexity Science Hub\nMisinformation is often described as o
  s focusing on different levels of a complex multilevel system through\nLan
  guage: Not specified\nLanguage requirements: Not specified\nInterpretation
  : Not specified\nAccess: See organiser\nhttps://csh.ac.at/events/taking-th
- e-complexity-of-misinformation-susceptibility-into-account/
+ e-complexity-of-misinformation-susceptibility-into-account/\nNo longer fou
+ nd in the latest source listing\; confirmation needed.\nThis event could n
+ ot be rechecked on the latest collection. Confirm with the organiser.
 LAST-MODIFIED:20261007T220943Z
 LOCATION:CSH Salon
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 URL:https://csh.ac.at/events/taking-the-complexity-of-misinformation-susce
  ptibility-into-account/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Complex Systems and Contemplative Studies @ CCS26
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+DTSTAMP:20261014T093553Z
+UID:1371bb79e01db423519d56ef@systemsmap.antlerboy.com
+SEQUENCE:0
+CATEGORIES:Complexity
+DESCRIPTION:Complex Systems Society\n\nLanguage: Not specified\nLanguage r
+ equirements: Not specified\nInterpretation: Not specified\nAccess: See org
+ aniser\nhttps://cssociety.org/event/9c489a0c-f18a-4960-b95c-dfb865807d46/
+ \nDate-only listing\; check the organiser for session times.
+LAST-MODIFIED:20261014T093553Z
+LOCATION:USA\, BInghamton University\, New York + online
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://cssociety.org/event/9c489a0c-f18a-4960-b95c-dfb865807d46/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Complexity\, Asian Medicine\, and the Intelligence of Healing‍ -
+  a CCS26 Co-located Symposium
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+DTSTAMP:20261014T093553Z
+UID:3b7bc2899570ce9ae4650da3@systemsmap.antlerboy.com
+SEQUENCE:0
+CATEGORIES:Complexity
+DESCRIPTION:Complex Systems Society\n\nLanguage: Not specified\nLanguage r
+ equirements: Not specified\nInterpretation: Not specified\nAccess: See org
+ aniser\nhttps://cssociety.org/event/ddd282c1-1830-468c-83f6-04eae91724f3/
+ \nDate-only listing\; check the organiser for session times.
+LAST-MODIFIED:20261014T093553Z
+LOCATION:USA\, https://us02web.zoom.us/j/86238160060 Online Event: Yes
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://cssociety.org/event/ddd282c1-1830-468c-83f6-04eae91724f3/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Infrastructure of the Economic System - A Complexity Lens
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+DTSTAMP:20261014T093553Z
+UID:fa588bcc70a95035fa5b11d1@systemsmap.antlerboy.com
+SEQUENCE:0
+CATEGORIES:Complexity
+DESCRIPTION:Complex Systems Society\n\nLanguage: Not specified\nLanguage r
+ equirements: Not specified\nInterpretation: Not specified\nAccess: See org
+ aniser\nhttps://cssociety.org/event/72e9b78b-9bd6-4014-9bf2-ac15441cf3d5/
+ \nDate-only listing\; check the organiser for session times.
+LAST-MODIFIED:20261014T093553Z
+LOCATION:USA\, https://us02web.zoom.us/j/86938659832 Online Event: Yes
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://cssociety.org/event/72e9b78b-9bd6-4014-9bf2-ac15441cf3d5/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:PEPR TRACCS - AG INVEST
+DTSTART:20261015T060000Z
+DTEND:20261015T143000Z
+DTSTAMP:20261012T121048Z
+UID:b46a242aa43761496bff3a88@systemsmap.antlerboy.com
+SEQUENCE:0
+CATEGORIES:Complexity
+DESCRIPTION:Institut des systèmes complexes Paris Île-de-France\n\nLangu
+ age: Not specified\nLanguage requirements: Not specified\nInterpretation: 
+ Not specified\nAccess: See organiser\nhttps://iscpif.fr/evenements/pepr-tr
+ accs-ag-invest/\nNo longer found in the latest source listing\; confirmati
+ on needed.\nSource could not be fully rechecked.\nThis event could not be 
+ rechecked on the latest collection. Confirm with the organiser.
+LAST-MODIFIED:20261012T121048Z
+LOCATION:ISC-PIF\, 113 rue Nationale\, Paris\, Paris\, 75013\, France
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://iscpif.fr/evenements/pepr-traccs-ag-invest/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:The iSD model from Millennium Institute: a Sustainable Development
@@ -2939,7 +3089,9 @@ DESCRIPTION:System Dynamics Society\nThe Integrated Sustainable Developmen
  nguage: Not specified\nLanguage requirements: Not specified\nInterpretatio
  n: Not specified\nAccess: See organiser\nhttps://systemdynamics.org/event/
  the-isd-model-from-millenium-institute-a-sustainable-development-simulator
- /
+ /\nNo longer found in the latest source listing\; confirmation needed.\nSo
+ urce could not be fully rechecked.\nThis event could not be rechecked on t
+ he latest collection. Confirm with the organiser.
 LAST-MODIFIED:20261002T103500Z
 LOCATION:https://us02web.zoom.us/j/83989986859
 STATUS:CONFIRMED
@@ -2962,7 +3114,9 @@ DESCRIPTION:System Dynamics Society\nMonthly meetings of the Policy Counci
   prior to the start of the meeting.\nLanguage: Not specified\nLanguage req
  uirements: Not specified\nInterpretation: Not specified\nAccess: See organ
  iser\nhttps://systemdynamics.org/event/sds-policy-council-meeting-october-
- 2026/
+ 2026/\nNo longer found in the latest source listing\; confirmation needed.
+ \nSource could not be fully rechecked.\nThis event could not be rechecked 
+ on the latest collection. Confirm with the organiser.
 LAST-MODIFIED:20261002T103500Z
 LOCATION:https://us02web.zoom.us/j/89954043089
 STATUS:CONFIRMED
@@ -2990,6 +3144,29 @@ URL:https://www.cecan.ac.uk/events/cecan-webinar-place-based-evaluation-is
  -missing-the-point-about-place/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Cybernetics Live - Ashby\, Fuzzy\, and Me (Dr Steve Morlidge)
+DTSTART:20261015T160000Z
+DTEND:20261015T180000Z
+DTSTAMP:20261016T090631Z
+UID:30ab72722fcd45cdf7189b63@systemsmap.antlerboy.com
+SEQUENCE:0
+CATEGORIES:Cybernetics,Systems thinking
+DESCRIPTION:The Cybernetics Society (CybSoc)\nWho: Dr Steve Morlidge 1700-
+ 1900 UK Cybernetics Live online seminar. Taking variety engineering beyond
+  the conventional reading of Ashby’s Law — why matching variety is nec
+ essary but not sufficient\, and why viable organisation needs an account o
+ f energy (in organisations\, money) as well as information. https://us06we
+ b.zoom.us/meeting/register/P2vyZNSyQ4KAsPhCcICcbg\nLanguage: Not specified
+ \nLanguage requirements: Not specified\nInterpretation: Not specified\nAcc
+ ess: See organiser\nhttps://teamup.com/ksok8ra1xif3viq4no/events/218777008
+ 2
+LAST-MODIFIED:20261016T090631Z
+LOCATION:Zoom
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://teamup.com/ksok8ra1xif3viq4no/events/2187770082
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Systeemisalonki: Toimiminen kompleksisessa ympäristössä
 DTSTART:20261015T153000Z
 DTEND:20261015T170000Z
@@ -3000,13 +3177,83 @@ CATEGORIES:Systems thinking,Cybernetics
 DESCRIPTION:SCiO Finland\n\nLanguage: Finnish\nLanguage requirements: Not 
  specified\nInterpretation: Not specified\nAccess: All welcome\nhttps://www
  .systemspractice.org/events/systeemisalonki-toimiminen-kompleksisessa-ympa
- ristossa
+ ristossa\nNo longer found in the latest source listing\; confirmation need
+ ed.\nSource could not be fully rechecked.\nThis event could not be recheck
+ ed on the latest collection. Confirm with the organiser.
 LAST-MODIFIED:20261006T112159Z
 LOCATION:Online event
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 URL:https://www.systemspractice.org/events/systeemisalonki-toimiminen-komp
  leksisessa-ymparistossa
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ashby\, Fuzzy\, and Me
+DTSTART:20261015T160000Z
+DTEND:20261015T180000Z
+DTSTAMP:20261024T204503Z
+UID:e86c94bf15bd90e1ab47f5ac@systemsmap.antlerboy.com
+SEQUENCE:15
+CATEGORIES:Cybernetics,Systems thinking
+DESCRIPTION:The Cybernetics Society (CybSoc)\nDr Steve Morlidge examines w
+ hy matching regulatory variety is necessary but insufficient\, considering
+  scale\, interdependence\, and the resources needed for viable organisatio
+ n.\nLanguage: Not specified\nLanguage requirements: Not specified\nInterpr
+ etation: Not specified\nAccess: Registration required\nhttps://us06web.zoo
+ m.us/meeting/register/P2vyZNSyQ4KAsPhCcICcbg\nDate\, time\, speaker\, and 
+ Zoom registration checked against the organiser's event page on 15 October
+  2026.
+LAST-MODIFIED:20261024T204503Z
+LOCATION:Online via Zoom
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://us06web.zoom.us/meeting/register/P2vyZNSyQ4KAsPhCcICcbg
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:A co\, jeśli największym ograniczeniem organizacji jest sposób
+ \, w jaki o niej myślimy? O złożoności\, modelach i odkrywaniu nowych 
+ możliwości rozwoju.
+DTSTART:20261015T160000Z
+DTEND:20261015T173000Z
+DTSTAMP:20261009T112400Z
+UID:23bddf0959a88bc6d2fc0bd3@systemsmap.antlerboy.com
+SEQUENCE:0
+CATEGORIES:Systems thinking,Cybernetics
+DESCRIPTION:SCiO Polska\n\nGeographic focus: Poland\nLanguage: Polish\nLan
+ guage requirements: Not specified\nInterpretation: Not specified\nAccess: 
+ All welcome\nhttps://www.systemspractice.org/events/co-jesli-najwiekszym-o
+ graniczeniem-organizacji-jest-sposob-w-jaki-o-niej-myslimy-o\nNo longer fo
+ und in the latest source listing\; confirmation needed.\nSource could not 
+ be fully rechecked.\nThis event could not be rechecked on the latest colle
+ ction. Confirm with the organiser.
+LAST-MODIFIED:20261009T112400Z
+LOCATION:Online event
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.systemspractice.org/events/co-jesli-najwiekszym-ograniczen
+ iem-organizacji-jest-sposob-w-jaki-o-niej-myslimy-o
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Deep Dive Intervisie: Critical Systems Heuristics
+DTSTART:20261015T170000Z
+DTEND:20261015T190000Z
+DTSTAMP:20261013T115559Z
+UID:4722c0fc20f597ddb501599a@systemsmap.antlerboy.com
+SEQUENCE:8
+CATEGORIES:Systems thinking,Cybernetics
+DESCRIPTION:SCiO Belgium\n\nGeographic focus: Belgium\nLanguage: Dutch\nLa
+ nguage requirements: Not specified\nInterpretation: Not specified\nAccess:
+  Members only + Guests\nhttps://www.systemspractice.org/events/deep-dive-i
+ ntervisie-critical-systems-heuristics\nNo longer found in the latest sourc
+ e listing\; confirmation needed.\nSource could not be fully rechecked.\nTh
+ is event could not be rechecked on the latest collection. Confirm with the
+  organiser.
+LAST-MODIFIED:20261013T115559Z
+LOCATION:tbc\, Belgium
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.systemspractice.org/events/deep-dive-intervisie-critical-s
+ ystems-heuristics
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:SCIO-NL monthly meeting October 2025 (live WOERDEN and in Dutch)
@@ -3020,7 +3267,10 @@ DESCRIPTION:SCiO NL\n\nGeographic focus: Netherlands\nLanguage: Dutch\nLan
  guage requirements: Not specified\nInterpretation: Not specified\nAccess: 
  NL Members + Guests\nhttps://www.systemspractice.org/events/scio-nl-monthl
  y-meeting-october-2025-live-woerden-and-dutch\nTitle year differs from the
-  published date. Check with the organiser.
+  published date. Check with the organiser.\nSource could not be fully rech
+ ecked.\nNo longer found in the latest source listing\; confirmation needed
+ .\nThis event could not be rechecked on the latest collection. Confirm wit
+ h the organiser.
 LAST-MODIFIED:20261006T112159Z
 LOCATION:Woerden\, Netherlands
 STATUS:CONFIRMED
@@ -3084,7 +3334,9 @@ DESCRIPTION:System Dynamics Society\nWelcome to the next Chapter meeting!
  me\nLanguage: Not specified\nLanguage requirements: Not specified\nInterpr
  etation: Not specified\nAccess: See organiser\nhttps://systemdynamics.org/
  event/the-earth-has-humans-but-what-kind-endogenizing-behaviour-in-climate
- -models/
+ -models/\nNo longer found in the latest source listing\; confirmation need
+ ed.\nSource could not be fully rechecked.\nThis event could not be recheck
+ ed on the latest collection. Confirm with the organiser.
 LAST-MODIFIED:20261001T110212Z
 LOCATION:https://kth-se.zoom.us/j/62254134636
 STATUS:CONFIRMED
@@ -3093,13 +3345,90 @@ URL:https://systemdynamics.org/event/the-earth-has-humans-but-what-kind-en
  dogenizing-behaviour-in-climate-models/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Walkers Scattered in Street Networks: Robust Decentralized Gatheri
+ ngs
+DTSTART:20261020T123000Z
+DTEND:20261020T130000Z
+DTSTAMP:20261015T092300Z
+UID:321a88607bb39d2bd4249050@systemsmap.antlerboy.com
+SEQUENCE:0
+CATEGORIES:Complexity
+DESCRIPTION:Complexity Science Hub\nHow to meet if we are dispersed in a c
+ ity? Coordinating\, by exchanging our positions thanks to modern means of 
+ communication\, seems easy. But how to achieve the same result if communic
+ ations are impossible and no meeting point is identifiable? This is the ca
+ se\, for example\, during a repressed social movement. In this talk\, Guil
+ laume Moinard models protesters as random walks\, on a street network\, w
+ \nLanguage: Not specified\nLanguage requirements: Not specified\nInterpret
+ ation: Not specified\nAccess: See organiser\nhttps://csh.ac.at/events/walk
+ ers-scattered-in-street-networks-robust-decentralized-gatherings/\nNo long
+ er found in the latest source listing\; confirmation needed.\nThis event c
+ ould not be rechecked on the latest collection. Confirm with the organiser
+ .
+LAST-MODIFIED:20261015T092300Z
+LOCATION:CSH Salon
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://csh.ac.at/events/walkers-scattered-in-street-networks-robust-d
+ ecentralized-gatherings/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Experimental Testing of Anticonformity to Depolarize Social System
+DTSTART:20261020T130000Z
+DTEND:20261020T133000Z
+DTSTAMP:20261016T090631Z
+UID:0c75ea1398ff9f9ccd5553f1@systemsmap.antlerboy.com
+SEQUENCE:0
+CATEGORIES:Complexity
+DESCRIPTION:Complexity Science Hub\nAnticonformity\, or going against the 
+ group norm\, as a form of social response has been studied in computationa
+ l models. But empirically\, we still don't know if anticonformity can be e
+ ncouraged to a level sufficient to reduce polarization of opinions. They i
+ nvestigate this using an interactive group experiments where we gave some 
+ people an encouragement to stand out to help their group reconsiders \nLan
+ guage: Not specified\nLanguage requirements: Not specified\nInterpretation
+ : Not specified\nAccess: See organiser\nhttps://csh.ac.at/events/experimen
+ tal-testing-of-anticonformity-to-depolarize-social-system/\nNo longer foun
+ d in the latest source listing\; confirmation needed.\nThis event could no
+ t be rechecked on the latest collection. Confirm with the organiser.
+LAST-MODIFIED:20261016T090631Z
+LOCATION:CSH Salon
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://csh.ac.at/events/experimental-testing-of-anticonformity-to-dep
+ olarize-social-system/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Bernhard Sterchi - Complexity Theory and Neo-Kantian Theory of Sci
+ ence
+DTSTART:20261020T160000Z
+DTEND:20261020T180000Z
+DTSTAMP:20261024T204503Z
+UID:713d6c13ee642d282c8f0e07@systemsmap.antlerboy.com
+SEQUENCE:8
+CATEGORIES:Complexity,Cybernetics,Systems thinking
+DESCRIPTION:The Complexity Lounge\nAn online talk comparing complexity the
+ ory with Neo-Kantian approaches to scientific explanation\, followed by di
+ scussion. The organiser is the authoritative source for attendance details
+ .\nLanguage: Not specified\nLanguage requirements: Not specified\nInterpre
+ tation: Not specified\nAccess: Register with the organiser for the online 
+ event\nhttps://www.meetup.com/complexitylounge/events/316861213/\nOrganise
+ r JSON-LD checked 18 October 2026: 12:00-14:00 -04:00\, equivalent to 17:0
+ 0-19:00 Europe/London.
+LAST-MODIFIED:20261024T204503Z
+LOCATION:Online
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.meetup.com/complexitylounge/events/316861213/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:The 40th annual European Simulation and Modelling Conference - ESM
   '2026
 DTSTART;VALUE=DATE:20261021
 DTEND;VALUE=DATE:20261024
-DTSTAMP:20260910T090026Z
+DTSTAMP:20261017T083913Z
 UID:04088520338aeb58c1cb587d@systemsmap.antlerboy.com
-SEQUENCE:0
+SEQUENCE:2
 CATEGORIES:System dynamics
 DESCRIPTION:System Dynamics Society\nESM®’2026 October 21-23\, 2026\, N
  ational Engineering School (ENIM)\, Metz\, France CONFERENCE PAGE LINK: ht
@@ -3110,8 +3439,11 @@ DESCRIPTION:System Dynamics Society\nESM®’2026 October 21-23\, 2026\, N
   sim\nLanguage: Not specified\nLanguage requirements: Not specified\nInter
  pretation: Not specified\nAccess: See organiser\nhttps://systemdynamics.or
  g/event/the-40th-annual-european-simulation-and-modelling-conference-esm-2
- 026/\nDate-only listing\; check the organiser for session times.
-LAST-MODIFIED:20260910T090026Z
+ 026/\nDate-only listing\; check the organiser for session times.\nNo longe
+ r found in the latest source listing\; confirmation needed.\nSource could 
+ not be fully rechecked.\nThis event could not be rechecked on the latest c
+ ollection. Confirm with the organiser.
+LAST-MODIFIED:20261017T083913Z
 LOCATION:Location not published
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -3119,19 +3451,39 @@ URL:https://systemdynamics.org/event/the-40th-annual-european-simulation-a
  nd-modelling-conference-esm-2026/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Leading with Learning · session 3
+SUMMARY:OpenAlex
+DTSTART:20261021T060000Z
+DTEND:20261021T123000Z
+DTSTAMP:20261020T093032Z
+UID:747cdd4273d967ffea962e53@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Complexity
+DESCRIPTION:Institut des systèmes complexes Paris Île-de-France\n\nLangu
+ age: Not specified\nLanguage requirements: Not specified\nInterpretation: 
+ Not specified\nAccess: See organiser\nhttps://iscpif.fr/evenements/openale
+ x/\nNo longer found in the latest source listing\; confirmation needed.\nS
+ ource could not be fully rechecked.\nThis event could not be rechecked on 
+ the latest collection. Confirm with the organiser.
+LAST-MODIFIED:20261020T093032Z
+LOCATION:ISC-PIF\, 113 rue Nationale\, Paris\, Paris\, 75013\, France
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://iscpif.fr/evenements/openalex/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Leading with Learning � session 3
 DTSTART:20261021T083000Z
 DTEND:20261021T113000Z
-DTSTAMP:20261007T221454Z
+DTSTAMP:20261024T204503Z
 UID:81f69c86530c1e56426a9ffa@systemsmap.antlerboy.com
-SEQUENCE:40
+SEQUENCE:64
 CATEGORIES:Relational public services,Systems thinking
 DESCRIPTION:ThemPra Social Pedagogy\nApplied learning connected to Human L
  earning Systems and relational public services.\nLanguage: Not specified\n
  Language requirements: Not specified\nInterpretation: Not specified\nAcces
  s: Full-course registration required\nhttps://www.thempra.org.uk/thempra/o
  ur-courses/leading-with-learning/
-LAST-MODIFIED:20261007T221454Z
+LAST-MODIFIED:20261024T204503Z
 LOCATION:Online
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -3151,7 +3503,10 @@ DESCRIPTION:System Dynamics Society\nEconomics SIG Online Seminar Presente
  tober 21\, 2026 Time: 12 pm New York | 5 pm London | 6 pm Rome | 7 pm Ista
  nbul\nLanguage: Not specified\nLanguage requirements: Not specified\nInter
  pretation: Not specified\nAccess: See organiser\nhttps://systemdynamics.or
- g/event/economics-sig-online-seminar-2/
+ g/event/economics-sig-online-seminar-2/\nNo longer found in the latest sou
+ rce listing\; confirmation needed.\nSource could not be fully rechecked.\n
+ This event could not be rechecked on the latest collection. Confirm with t
+ he organiser.
 LAST-MODIFIED:20261007T111029Z
 LOCATION:https://systemdynamics.org/event/economics-sig-online-seminar-2/
 STATUS:CONFIRMED
@@ -3176,23 +3531,51 @@ TRANSP:TRANSPARENT
 URL:https://ics.teamup.com/feed/ksok8ra1xif3viq4no/0.ics
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Why Model? Computational Approaches to Complex Socio-Ecological-Te
+ chnological Systems
+DTSTART:20261021T150000Z
+DTEND:20261021T160000Z
+DTSTAMP:20261010T104118Z
+UID:f494ce4c2992f62146b8949a@systemsmap.antlerboy.com
+SEQUENCE:0
+CATEGORIES:Complexity
+DESCRIPTION:Complexity Science Hub\nModeling in inherent in human percepti
+ on of and communication about our world. And while powerful\, our innate m
+ odeling abilities are often insufficient to understand and manage the comp
+ lex world in which we live. Human socio-ecological-technological systems (
+ SETS) have evolved into highly complex systems at planetary scale. The sca
+ le and dimensionality of human SETS\, their interconnections\, teleco\nLan
+ guage: Not specified\nLanguage requirements: Not specified\nInterpretation
+ : Not specified\nAccess: See organiser\nhttps://csh.ac.at/events/why-model
+ -computational-approaches-to-complex-socio-ecological-technological-system
+ s/\nNo longer found in the latest source listing\; confirmation needed.\nT
+ his event could not be rechecked on the latest collection. Confirm with th
+ e organiser.
+LAST-MODIFIED:20261010T104118Z
+LOCATION:Library Metternichgasse 8\, 1030 Vienna
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://csh.ac.at/events/why-model-computational-approaches-to-complex
+ -socio-ecological-technological-systems/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Method Showcase: Logosofia\, Software for Collective Inquiry and D
  ecision-Making
 DTSTART:20261021T223000Z
 DTEND:20261022T001500Z
-DTSTAMP:20261007T221454Z
+DTSTAMP:20261024T204503Z
 UID:cdf675220425a68c547b6750@systemsmap.antlerboy.com
-SEQUENCE:0
-CATEGORIES:Systems thinking,Systemic design
+SEQUENCE:24
+CATEGORIES:Systemic design,Systems thinking
 DESCRIPTION:Systems Thinking Ontario\nPeter Jones presents Logosofia for s
  tructured collective inquiry\; Su Lynn Myat discusses a participatory tech
  nology assessment application.\nLanguage: Not specified\nLanguage requirem
  ents: Not specified\nInterpretation: Not specified\nAccess: Registration r
  equired\; virtual link sent to registered attendees\nhttps://guild.host/ev
  ents/method-showcase-logosofia-tu5ovo\nChecked 7 October 2026: organiser p
- rose gives 21 October\, 18:30–20:15 local time\; structured dates are 22
- :30–00:15 UTC. The UTC date crossing is preserved.
-LAST-MODIFIED:20261007T221454Z
+ rose gives 21 October\, 18:30-20:15 local time\; structured dates are 22:3
+ 0-00:15 UTC. The UTC date crossing is preserved.
+LAST-MODIFIED:20261024T204503Z
 LOCATION:OCAD University\, 205 Richmond St W\, Room 115\, Toronto\, Canada
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -3202,20 +3585,18 @@ BEGIN:VEVENT
 SUMMARY:Sociocracy & Permaculture Community of Practice
 DTSTART:20261022T010000Z
 DTEND:20261022T020000Z
-DTSTAMP:20260925T071905Z
-UID:aa054da842439e3dfc737acc@systemsmap.antlerboy.com
-SEQUENCE:0
+DTSTAMP:20261023T092514Z
+UID:80e32e1799aa8d3a1a234a0d@systemsmap.antlerboy.com
+SEQUENCE:1
 CATEGORIES:Systems thinking
-DESCRIPTION:Sociocracy For All\nCommunity of Practice — Sociocracy & Per
- maculture Join the Sociocracy & Permaculture Community of Practice! The ne
- xt gatherings will take place on: October 21 at 23:00 UTC | 7PM Eastern | 
- 4PM Pacific December 16 at 15:00 UTC | 10AM Eastern | 7AM Pacific | 16:00 
- CET and will be hosted by Rhonda Baird from the Sociocracy in Permaculture
-  Circle. Register to the event Notice: JavaScript is required fo\nLanguage
- : Not specified\nLanguage requirements: Not specified\nInterpretation: Not
-  specified\nAccess: See organiser\nhttps://www.sociocracyforall.org/event/
- sociocracy-permaculture-community-of-practice/2026-10-22/
-LAST-MODIFIED:20260925T071905Z
+DESCRIPTION:Sociocracy For All\n<p>Join the Sociocracy & Permaculture Comm
+ unity of Practice! The next gatherings will take place on: and will be hos
+ ted by Rhonda Baird from the Sociocracy in Permaculture Circle. Register t
+ o the event</p>\\n\nLanguage: Not specified\nLanguage requirements: Not sp
+ ecified\nInterpretation: Not specified\nAccess: See organiser\nhttps://www
+ .sociocracyforall.org/event/sociocracy-permaculture-community-of-practice/
+ 2026-10-22/
+LAST-MODIFIED:20261023T092514Z
 LOCATION:Location not published
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -3226,19 +3607,21 @@ BEGIN:VEVENT
 SUMMARY:Introduction to Sociocracy in Intentional Communities
 DTSTART:20261022T190000Z
 DTEND:20261022T223000Z
-DTSTAMP:20260915T092934Z
-UID:6284cd4393ef96f4761d9c85@systemsmap.antlerboy.com
-SEQUENCE:3
+DTSTAMP:20261017T083913Z
+UID:08e2ca6103cecac874af3edd@systemsmap.antlerboy.com
+SEQUENCE:0
 CATEGORIES:Systems thinking
-DESCRIPTION:Sociocracy For All\nExplore the foundations of sociocracy for 
- intentional communities—consent-based decisions\, circle structure\, and
-  tools for transparent\, collaborative governance. Led by facilitator Adam
-  Barnfather\, who helps communities thrive through dynamic governance. 
- 👆 Click the title above to register.\nLanguage: Not specified\nLanguage
-  requirements: Not specified\nInterpretation: Not specified\nAccess: See o
- rganiser\nhttps://www.sociocracyforall.org/event/introduction-to-sociocrac
- y-in-intentional-communities-live-webinar/
-LAST-MODIFIED:20260915T092934Z
+DESCRIPTION:Sociocracy For All\n<p>Explore the foundations of sociocracy f
+ or intentional communities—consent-based decisions\, circle structure\, 
+ and tools for transparent\, collaborative governance. Led by facilitator A
+ dam Barnfather\, who helps communities thrive through dynamic governance. 
+ 👆 […]</p>\\n\nLanguage: Not specified\nLanguage requirements: Not spe
+ cified\nInterpretation: Not specified\nAccess: See organiser\nhttps://www.
+ sociocracyforall.org/event/introduction-to-sociocracy-in-intentional-commu
+ nities-live-webinar/\nNo longer found in the latest source listing\; confi
+ rmation needed.\nThis event could not be rechecked on the latest collectio
+ n. Confirm with the organiser.
+LAST-MODIFIED:20261017T083913Z
 LOCATION:Location not published
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -3261,13 +3644,38 @@ DESCRIPTION:System Dynamics Society\nOn Thursday\, October 22nd @ 5pm New
  l Interest Group (SIG) Affiliation 4. Click “Update Profile” at the bo
  t\nLanguage: Not specified\nLanguage requirements: Not specified\nInterpre
  tation: Not specified\nAccess: See organiser\nhttps://systemdynamics.org/e
- vent/strategic-planning-meeting-for-2027-and-networking/
+ vent/strategic-planning-meeting-for-2027-and-networking/\nNo longer found 
+ in the latest source listing\; confirmation needed.\nSource could not be f
+ ully rechecked.\nThis event could not be rechecked on the latest collectio
+ n. Confirm with the organiser.
 LAST-MODIFIED:20261003T095602Z
 LOCATION:https://nmsu.zoom.us/j/89089874054
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 URL:https://systemdynamics.org/event/strategic-planning-meeting-for-2027-a
  nd-networking/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Répétition chorale du CNRS
+DTSTART:20261022T150000Z
+DTEND:20261022T180000Z
+DTSTAMP:20261020T093032Z
+UID:0df84d55b0b4c2fef2458722@systemsmap.antlerboy.com
+SEQUENCE:0
+CATEGORIES:Complexity
+DESCRIPTION:Institut des systèmes complexes Paris Île-de-France\nEn rais
+ on des blocages de l’Université Paris Cité où nous répétons habitue
+ llement\, nous avons besoin d’une solution de repli pour une ou plusieur
+ s séances en fonction de la durée du mouvement étudiant.\nLanguage: Not
+  specified\nLanguage requirements: Not specified\nInterpretation: Not spec
+ ified\nAccess: See organiser\nhttps://iscpif.fr/evenements/repetition-chor
+ ale-du-cnrs/\nSource could not be fully rechecked.\nThis event could not b
+ e rechecked on the latest collection. Confirm with the organiser.
+LAST-MODIFIED:20261020T093032Z
+LOCATION:ISC-PIF\, 113 rue Nationale\, Paris\, Paris\, 75013\, France
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://iscpif.fr/evenements/repetition-chorale-du-cnrs/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Zertifizierter VSM Coach 26.\, 28. und 30. Oktober 2026 • Züric
@@ -3315,6 +3723,30 @@ TRANSP:TRANSPARENT
 URL:https://metaphorum.org/event/vsm-coach-training-26-bis-28-oktober-2026
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Mind the System 2026 — Evento Nazionale AISE
+DTSTART;VALUE=DATE:20261027
+DTEND;VALUE=DATE:20261029
+DTSTAMP:20261024T204503Z
+UID:3fdee112247ab6f335871aa7@systemsmap.antlerboy.com
+SEQUENCE:7
+CATEGORIES:Systems thinking
+DESCRIPTION:AISE / INCOSE Italy\nAISE national systems engineering event o
+ n human factors as a core systems engineering discipline.\nLanguage: Not s
+ pecified\nLanguage requirements: Not specified\nInterpretation: Not specif
+ ied\nAccess: See organiser for registration and current programme\nhttps:/
+ /www.aise-incose-eventi.it/MindTheSystem2026.html\nPublished days are 27
+ –28 October. Canonical programme and global listing have different clock
+  envelopes\; dates only are exported.\nOfficial organiser page and locatio
+ n checked 18 October 2026.\nDate-only listing\; check the organiser for se
+ ssion times.
+LAST-MODIFIED:20261024T204503Z
+LOCATION:Salone delle Colonne\, Piazza Guglielmo Marconi 26/C\, EUR\, Rome
+ \, Italy
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.aise-incose-eventi.it/MindTheSystem2026.html
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Implementing the Self-Managing Enterprise with Agentic AI
 DTSTART:20261027T150000Z
 DTEND:20261027T160000Z
@@ -3330,7 +3762,9 @@ DESCRIPTION:System Dynamics Society\nTuesday\, October 27 at 11 am New Yor
  rview This webinar goes on to explain the mechanisms by which collaboratio
  n a\nLanguage: Not specified\nLanguage requirements: Not specified\nInterp
  retation: Not specified\nAccess: See organiser\nhttps://systemdynamics.org
- /event/implementing-the-self-managing-enterprise-with-agentic-ai/
+ /event/implementing-the-self-managing-enterprise-with-agentic-ai/\nSource 
+ could not be fully rechecked.\nThis event could not be rechecked on the la
+ test collection. Confirm with the organiser.
 LAST-MODIFIED:20260922T092210Z
 LOCATION:https://us02web.zoom.us/j/87049920798
 STATUS:CONFIRMED
@@ -3339,19 +3773,176 @@ URL:https://systemdynamics.org/event/implementing-the-self-managing-enterp
  rise-with-agentic-ai/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Relational Leadership · session 5
+SUMMARY:Living in Complexity: an STS Perspective on the Complexity Science
+  Hub
+DTSTART:20261027T123000Z
+DTEND:20261027T130000Z
+DTSTAMP:20261016T090631Z
+UID:5b91e6ae0fd6893e515b559d@systemsmap.antlerboy.com
+SEQUENCE:0
+CATEGORIES:Complexity
+DESCRIPTION:Complexity Science Hub\nDespite existing as a scientific label
+  for roughly four decades\, complexity science has never fully institution
+ alized as a discipline and has instead been described by scholars as a ‘
+ quasi-discipline’ or a ‘scientific platform’. Complexity science com
+ bines an antireductionist stance with the formal acknowledgement of uncert
+ ainty – stressing the importance of ‘emerging’ properties of systems
+  over t\nLanguage: Not specified\nLanguage requirements: Not specified\nIn
+ terpretation: Not specified\nAccess: See organiser\nhttps://csh.ac.at/even
+ ts/living-in-complexity-an-sts-perspective-on-the-complexity-science-hub/
+LAST-MODIFIED:20261016T090631Z
+LOCATION:CSH Salon
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://csh.ac.at/events/living-in-complexity-an-sts-perspective-on-th
+ e-complexity-science-hub/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Network Motifs: Fingerprints of Design\, or Statistical Echoes?
+DTSTART:20261027T130000Z
+DTEND:20261027T133000Z
+DTSTAMP:20261023T092514Z
+UID:54b3efaf62aee6be878b5e4e@systemsmap.antlerboy.com
+SEQUENCE:0
+CATEGORIES:Complexity
+DESCRIPTION:Complexity Science Hub\nNetwork motifs are small subgraphs tha
+ t occur more often than expected by chance\, and they have been proposed a
+ s the building blocks of complex networks. They have been studied extensiv
+ ely in biological and social systems\, and more recently in inter-firm and
+  supply networks\, where significant triads have been related to the buyer
+ –supplier–supplier relationships. A standard method compares the freq
+ \nLanguage: Not specified\nLanguage requirements: Not specified\nInterpret
+ ation: Not specified\nAccess: See organiser\nhttps://csh.ac.at/events/netw
+ ork-motifs-fingerprints-of-design-or-statistical-echoes/
+LAST-MODIFIED:20261023T092514Z
+LOCATION:CSH Salon
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://csh.ac.at/events/network-motifs-fingerprints-of-design-or-stat
+ istical-echoes/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Structure\, Agency and Systemic Resilience: How Network Structure
+ \, Political Agency and Influence Mechanisms shape the Absorption of Shock
+ s in Simulated Policy Networks
+DTSTART:20261028T150000Z
+DTEND:20261028T160000Z
+DTSTAMP:20261021T092622Z
+UID:51fb66e9729a19abee9726fe@systemsmap.antlerboy.com
+SEQUENCE:0
+CATEGORIES:Complexity
+DESCRIPTION:Complexity Science Hub\nDoes the resilience of a policy networ
+ k depend on its structure\, on what is transferred through ties\, or on th
+ e actions of political agents? In this paper systemic shocks\, such as the
+  sudden dissolution of ties and regime shift impact networks of policy act
+ ors. An agent-based model is calibrated on ten published influence and col
+ laboration networks. Three experiments vary network architecture\, whi\nLa
+ nguage: Not specified\nLanguage requirements: Not specified\nInterpretatio
+ n: Not specified\nAccess: See organiser\nhttps://csh.ac.at/events/structur
+ e-agency-and-systemic-resilience-how-network-structure-political-agency-an
+ d-influence-mechanisms-shape-the-absorption-of-shocks-in-simulated-policy-
+ networks/
+LAST-MODIFIED:20261021T092622Z
+LOCATION:Library Metternichgasse 8\, 1030 Vienna
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://csh.ac.at/events/structure-agency-and-systemic-resilience-how-
+ network-structure-political-agency-and-influence-mechanisms-shape-the-abso
+ rption-of-shocks-in-simulated-policy-networks/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:A New Face for the Creative Learning Exchange
+DTSTART:20261029T170000Z
+DTEND:20261029T180000Z
+DTSTAMP:20261012T121048Z
+UID:fa288c07a0345ebcc5927228@systemsmap.antlerboy.com
+SEQUENCE:0
+CATEGORIES:System dynamics
+DESCRIPTION:System Dynamics Society\nDear Colleagues\, We invite you to th
+ e upcoming System Dynamics Society Pre-College Special Interest Group meet
+ ing focused on “A New Face for the Creative Learning Exchange.” This p
+ resentation will start with a brief history of the Creative Learning Excha
+ nge (CLE) and its current status. The main focus will be on a guided tour 
+ through the new\, revised website with time for questions and discussion.
+ \nLanguage: Not specified\nLanguage requirements: Not specified\nInterpret
+ ation: Not specified\nAccess: See organiser\nhttps://systemdynamics.org/ev
+ ent/a-new-face-for-the-creative-learning-exchange/\nSource could not be fu
+ lly rechecked.\nThis event could not be rechecked on the latest collection
+ . Confirm with the organiser.
+LAST-MODIFIED:20261012T121048Z
+LOCATION:https://systemdynamics.org/event/a-new-face-for-the-creative-lear
+ ning-exchange/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://systemdynamics.org/event/a-new-face-for-the-creative-learning-
+ exchange/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The impact of network structure on social contagion and neural ODE
+  generalization
+DTSTART:20261030T150000Z
+DTEND:20261030T160000Z
+DTSTAMP:20261024T085707Z
+UID:9c6805ab7e20b84c420557f7@systemsmap.antlerboy.com
+SEQUENCE:0
+CATEGORIES:Complexity
+DESCRIPTION:Complexity Science Hub\nA complex system’s structure\, often
+  represented as a network\, shapes not only how dynamical processes unfold
+  but also how well we can learn and predict them. First\, I will explore t
+ he influence of structure on dynamics in the context of systems that exhib
+ it both homophily\, i.e.\, a preference of individuals that are similar to
+  interact\, and group interactions\, represented as hyperedges that connec
+ t\nLanguage: Not specified\nLanguage requirements: Not specified\nInterpre
+ tation: Not specified\nAccess: See organiser\nhttps://csh.ac.at/events/the
+ -impact-of-network-structure-on-social-contagion-and-neural-ode-generaliza
+ tion/
+LAST-MODIFIED:20261024T085707Z
+LOCATION:CSH Salon
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://csh.ac.at/events/the-impact-of-network-structure-on-social-con
+ tagion-and-neural-ode-generalization/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SD Journal Club: Student Chapter Monthly Meetup
+DTSTART:20261102T150000Z
+DTEND:20261102T160000Z
+DTSTAMP:20261009T112400Z
+UID:316339c0c4970c4e3bcec0af@systemsmap.antlerboy.com
+SEQUENCE:0
+CATEGORIES:System dynamics
+DESCRIPTION:System Dynamics Society\nOn November 2\, the Student Chapter w
+ elcomes anyone interested to discuss Recent and Interesting journal articl
+ es related to system dynamics and systems thinking. If you want to recomme
+ nd a recent (published in 2026) peer-reviewed paper to us to discuss\, ple
+ ase email your suggestion to studentchapter@systemdynamics.org . We will a
+ nnounce and share the chosen articles to Student Chapter members 2 we\nLan
+ guage: Not specified\nLanguage requirements: Not specified\nInterpretation
+ : Not specified\nAccess: See organiser\nhttps://systemdynamics.org/event/s
+ d-journal-club-student-chapter-monthly-meetup/\nSource could not be fully 
+ rechecked.\nThis event could not be rechecked on the latest collection. Co
+ nfirm with the organiser.
+LAST-MODIFIED:20261009T112400Z
+LOCATION:https://us02web.zoom.us/j/85956496724
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://systemdynamics.org/event/sd-journal-club-student-chapter-month
+ ly-meetup/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Relational Leadership � session 5
 DTSTART:20261103T093000Z
 DTEND:20261103T123000Z
-DTSTAMP:20261007T221454Z
+DTSTAMP:20261024T204503Z
 UID:a62f61c2b48e0ec75c97329f@systemsmap.antlerboy.com
-SEQUENCE:40
+SEQUENCE:64
 CATEGORIES:Relational public services,Systems thinking
 DESCRIPTION:ThemPra Social Pedagogy\nApplied learning connected to Human L
  earning Systems and relational public services.\nLanguage: Not specified\n
  Language requirements: Not specified\nInterpretation: Not specified\nAcces
  s: Full-course registration required\nhttps://www.thempra.org.uk/thempra/o
  ur-courses/relational-leadership/
-LAST-MODIFIED:20261007T221454Z
+LAST-MODIFIED:20261024T204503Z
 LOCATION:Online
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -3362,11 +3953,11 @@ SUMMARY:Combining System Dynamics with Discrete Event and Agent-Based Meth
  ods: Why and How
 DTSTART:20261103T160000Z
 DTEND:20261103T170000Z
-DTSTAMP:20261006T112159Z
+DTSTAMP:20261014T093553Z
 UID:9c76f0ea4afed21f99b5f97c@systemsmap.antlerboy.com
-SEQUENCE:0
+SEQUENCE:1
 CATEGORIES:Complexity,System dynamics
-DESCRIPTION:System Dynamics Society\nDecember 3\, 2026 at 11 am New York |
+DESCRIPTION:System Dynamics Society\nNovember 3\, 2026 at 11 am New York |
   4 pm London | Check your timezone This webinar explores different modelin
  g methods and how they can be combined to address complex problems at diff
  erent levels of abstraction. We will compare System Dynamics (SD)\, Agent-
@@ -3375,8 +3966,9 @@ DESCRIPTION:System Dynamics Society\nDecember 3\, 2026 at 11 am New York |
  anguage: Not specified\nLanguage requirements: Not specified\nInterpretati
  on: Not specified\nAccess: See organiser\nhttps://systemdynamics.org/event
  /combining-system-dynamics-with-discrete-event-and-agent-based-methods-why
- -and-how/
-LAST-MODIFIED:20261006T112159Z
+ -and-how/\nSource could not be fully rechecked.\nThis event could not be r
+ echecked on the latest collection. Confirm with the organiser.
+LAST-MODIFIED:20261014T093553Z
 LOCATION:https://us02web.zoom.us/j/81778033881
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -3388,21 +3980,21 @@ SUMMARY:Art & Science with Markus Hofer & Peter Ertl: “The Characteristi
  cs of Viewing Conditions”
 DTSTART:20261103T183000Z
 DTEND:20261103T213000Z
-DTSTAMP:20261007T111029Z
+DTSTAMP:20261020T093032Z
 UID:ce767e19c96d5c7f07ee9d3a@systemsmap.antlerboy.com
-SEQUENCE:0
+SEQUENCE:1
 CATEGORIES:Complexity
-DESCRIPTION:Complexity Science Hub\nArt by Markus Hofer: "The Characterist
- ics of Viewing Conditions" Markus Hofer looks at things and turns their or
- iginal form and function into something new that doesn’t lose the tie wi
- th the original object from which it drifts. His interventions\, very spec
- ific in their refined aesthetic aspect\, use those characteristics as a st
- arting point. The meanings are upgraded\, emphasized\, multiplied. The e\n
- Language: Not specified\nLanguage requirements: Not specified\nInterpretat
- ion: Not specified\nAccess: See organiser\nhttps://csh.ac.at/events/art-sc
- ience-with-markus-hofer-peter-ertl-the-characteristics-of-viewing-conditio
- ns/
-LAST-MODIFIED:20261007T111029Z
+DESCRIPTION:Complexity Science Hub\nOn 3 November\, the Complexity Science
+  Hub (CSH) opens its next exhibition as part of our Art & Science program.
+  This time\, we’re showing works by artist Markus Hofer\, who turns ever
+ yday objects into something new. Scientist Peter Ertl\, Vice Rector for Re
+ search\, Innovation and International Affairs at TU Wien\, will add a pers
+ pective from science.The exhibition opening is open to everyone interested
+ \nLanguage: Not specified\nLanguage requirements: Not specified\nInterpret
+ ation: Not specified\nAccess: See organiser\nhttps://csh.ac.at/events/art-
+ science-with-markus-hofer-peter-ertl-the-characteristics-of-viewing-condit
+ ions/
+LAST-MODIFIED:20261020T093032Z
 LOCATION:CSH Salon
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -3410,42 +4002,66 @@ URL:https://csh.ac.at/events/art-science-with-markus-hofer-peter-ertl-the-
  characteristics-of-viewing-conditions/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Leading with Learning · session 4
+SUMMARY:Leading with Learning � session 4
 DTSTART:20261104T093000Z
 DTEND:20261104T123000Z
-DTSTAMP:20261007T221454Z
+DTSTAMP:20261024T204503Z
 UID:a036d2c3c5cc49a4e03bb29e@systemsmap.antlerboy.com
-SEQUENCE:40
+SEQUENCE:64
 CATEGORIES:Relational public services,Systems thinking
 DESCRIPTION:ThemPra Social Pedagogy\nApplied learning connected to Human L
  earning Systems and relational public services.\nLanguage: Not specified\n
  Language requirements: Not specified\nInterpretation: Not specified\nAcces
  s: Full-course registration required\nhttps://www.thempra.org.uk/thempra/o
  ur-courses/leading-with-learning/
-LAST-MODIFIED:20261007T221454Z
+LAST-MODIFIED:20261024T204503Z
 LOCATION:Online
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 URL:https://www.thempra.org.uk/thempra/our-courses/leading-with-learning/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Relational Leadership · session 6
+SUMMARY:Relational Leadership � session 6
 DTSTART:20261104T093000Z
 DTEND:20261104T123000Z
-DTSTAMP:20261007T221454Z
+DTSTAMP:20261024T204503Z
 UID:633dab02a32699e1cc0fd2eb@systemsmap.antlerboy.com
-SEQUENCE:40
+SEQUENCE:64
 CATEGORIES:Relational public services,Systems thinking
 DESCRIPTION:ThemPra Social Pedagogy\nApplied learning connected to Human L
  earning Systems and relational public services.\nLanguage: Not specified\n
  Language requirements: Not specified\nInterpretation: Not specified\nAcces
  s: Full-course registration required\nhttps://www.thempra.org.uk/thempra/o
  ur-courses/relational-leadership/
-LAST-MODIFIED:20261007T221454Z
+LAST-MODIFIED:20261024T204503Z
 LOCATION:Online
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 URL:https://www.thempra.org.uk/thempra/our-courses/relational-leadership/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Causality at Machine Learning Scale and Complexity
+DTSTART:20261104T150000Z
+DTEND:20261104T160000Z
+DTSTAMP:20261024T085707Z
+UID:8152cef96c1c683deb0369fd@systemsmap.antlerboy.com
+SEQUENCE:0
+CATEGORIES:Complexity
+DESCRIPTION:Complexity Science Hub\nDistinguishing coincidence from cause-
+ and-effect relationships is a central challenge in AI (and science): which
+  patterns just co-occur\, and which signal causality? Statistical causalit
+ y offers a rigorous framework for this question\, but it assumes clean\, l
+ ow-dimensional\, structured data\, which clashes with the raw\, high-dimen
+ sional observations of machine learning applications\, including in scien
+ \nLanguage: Not specified\nLanguage requirements: Not specified\nInterpret
+ ation: Not specified\nAccess: See organiser\nhttps://csh.ac.at/events/caus
+ ality-at-machine-learning-scale-and-complexity/
+LAST-MODIFIED:20261024T085707Z
+LOCATION:CSH Salon
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://csh.ac.at/events/causality-at-machine-learning-scale-and-compl
+ exity/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Free introduction: What is sociocracy?
@@ -3533,7 +4149,9 @@ DESCRIPTION:System Dynamics Society\nTime: 11:00 a.m. New York | 4:00 p.m.
  ovide a space to collaborate on the responsible integration of artifi\nLan
  guage: Not specified\nLanguage requirements: Not specified\nInterpretation
  : Not specified\nAccess: See organiser\nhttps://systemdynamics.org/event/a
- i-in-system-dynamics-education-task-force-monthly-meeting-2/2026-11-10/
+ i-in-system-dynamics-education-task-force-monthly-meeting-2/2026-11-10/\nS
+ ource could not be fully rechecked.\nThis event could not be rechecked on 
+ the latest collection. Confirm with the organiser.
 LAST-MODIFIED:20260910T090026Z
 LOCATION:https://systemdynamics.org/event/ai-in-system-dynamics-education-
  task-force-monthly-meeting-2/2026-11-10/
@@ -3565,25 +4183,6 @@ LOCATION:Location not published
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 URL:https://www.sociocracyforall.org/event/permission-to-lead/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Deep Dive Intervisie: Critical Systems Heuristics
-DTSTART:20261110T180000Z
-DTEND:20261110T200000Z
-DTSTAMP:20261006T112159Z
-UID:32f1ffca50f269104da5d02b@systemsmap.antlerboy.com
-SEQUENCE:7
-CATEGORIES:Systems thinking,Cybernetics
-DESCRIPTION:SCiO Belgium\n\nGeographic focus: Belgium\nLanguage: Dutch\nLa
- nguage requirements: Not specified\nInterpretation: Not specified\nAccess:
-  Members only + Guests\nhttps://www.systemspractice.org/events/deep-dive-i
- ntervisie-critical-systems-heuristics-2
-LAST-MODIFIED:20261006T112159Z
-LOCATION:tbc\, Belgium
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-URL:https://www.systemspractice.org/events/deep-dive-intervisie-critical-s
- ystems-heuristics-2
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Geld. Macht. Vertrauen
@@ -3636,25 +4235,94 @@ URL:https://csh.ac.at/events/doomsday-conference-on-the-sense-and-nonsense
  -of-end-of-the-world-predictions/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Public Panel Discussion: How to Survive Doomsdays
+SUMMARY:The Dutch Systems Engineering Days 2026
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261114
+DTSTAMP:20261024T204503Z
+UID:9dadb04025a3a5ad21f2fe39@systemsmap.antlerboy.com
+SEQUENCE:7
+CATEGORIES:Systems thinking
+DESCRIPTION:INCOSE Netherlands\nA two-day systems engineering programme ma
+ rking thirty years of INCOSE in the Netherlands.\nLanguage: Not specified
+ \nLanguage requirements: Not specified\nInterpretation: Not specified\nAcc
+ ess: See organiser for registration and current programme\nhttps://incose.
+ nl/en/the-dutch-systems-engineering-days-2026/\nPublished days are 12–13
+  November. Local programme hours lack an explicit timezone and include eve
+ ning activities\; dates only are exported.\nOfficial organiser page and lo
+ cation checked 18 October 2026.\nDate-only listing\; check the organiser f
+ or session times.
+LAST-MODIFIED:20261024T204503Z
+LOCATION:Van der Valk Eindhoven-Best\, Eindhovenseweg Zuid 144\, 5683 PX B
+ est\, Netherlands
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://incose.nl/en/the-dutch-systems-engineering-days-2026/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:2026 NE INCOSE Annual Fall Workshop — AI for SE Workflows
+DTSTART:20261112T130000Z
+DTEND:20261112T210000Z
+DTSTAMP:20261024T204503Z
+UID:b90a2d6ef45daf0d4531b3eb@systemsmap.antlerboy.com
+SEQUENCE:7
+CATEGORIES:Systems thinking
+DESCRIPTION:INCOSE New England Chapter\nA chapter workshop on AI for syste
+ ms engineering workflows\, hosted at Worcester Polytechnic Institute.\nLan
+ guage: Not specified\nLanguage requirements: Not specified\nInterpretation
+ : Not specified\nAccess: See organiser for registration and current progra
+ mme\nhttps://www.neincose.org/events/2026-ne-incose-annual-fall-workshop\n
+ The canonical chapter page explicitly states 08:00–16:00 EST. This takes
+  precedence over conflicting EDT/UTC labels on the global listing.\nOffici
+ al organiser page and location checked 18 October 2026.
+LAST-MODIFIED:20261024T204503Z
+LOCATION:Higgins House at Worcester Polytechnic Institute\, 100 Institute 
+ Road\, Worcester\, Massachusetts 01609\, United States
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.neincose.org/events/2026-ne-incose-annual-fall-workshop
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:How to Survive Doomsdays
 DTSTART:20261112T170000Z
 DTEND:20261112T183000Z
-DTSTAMP:20261006T112159Z
+DTSTAMP:20261024T085707Z
 UID:141854d1afc83679f856855e@systemsmap.antlerboy.com
-SEQUENCE:1
+SEQUENCE:3
 CATEGORIES:Complexity
-DESCRIPTION:Complexity Science Hub\nWelcome: Stefan Thurner Panel Discussa
- nts: Pearl Dykstra\, Jesse Ausubel\, Geoffrey West\, more participants tbd
-  Moderator: Helga Nowotny more information will follow.\nLanguage: Not spe
- cified\nLanguage requirements: Not specified\nInterpretation: Not specifie
- d\nAccess: See organiser\nhttps://csh.ac.at/events/public-panel-discussion
- -how-to-survive-doomsdays/
-LAST-MODIFIED:20261006T112159Z
+DESCRIPTION:Complexity Science Hub\nOn the sense and nonsense of end-of-th
+ e-world predictions In 1960\, Vienna-born physicist Heinz von Foerster and
+  colleagues calculated the end of the world: 13 November 2026\, when popul
+ ation would reach infinity. A deliberately provocative way to make a serio
+ us point. We take the date as a cue to look at where population is really 
+ heading\, and what that means for us. Welcome: Stefan Thurner Panel D\nLan
+ guage: Not specified\nLanguage requirements: Not specified\nInterpretation
+ : Not specified\nAccess: See organiser\nhttps://csh.ac.at/events/public-pa
+ nel-discussion-how-to-survive-doomsdays/
+LAST-MODIFIED:20261024T085707Z
 LOCATION:CSH Salon
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 URL:https://csh.ac.at/events/public-panel-discussion-how-to-survive-doomsd
  ays/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Deep Dive Intervisie: Critical Systems Heuristics
+DTSTART:20261112T180000Z
+DTEND:20261112T200000Z
+DTSTAMP:20261017T223529Z
+UID:32f1ffca50f269104da5d02b@systemsmap.antlerboy.com
+SEQUENCE:9
+CATEGORIES:Systems thinking,Cybernetics
+DESCRIPTION:SCiO Belgium\n\nGeographic focus: Belgium\nLanguage: Dutch\nLa
+ nguage requirements: Not specified\nInterpretation: Not specified\nAccess:
+  Members only + Guests\nhttps://www.systemspractice.org/events/deep-dive-i
+ ntervisie-critical-systems-heuristics-2
+LAST-MODIFIED:20261017T223529Z
+LOCATION:tbc\, Belgium
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.systemspractice.org/events/deep-dive-intervisie-critical-s
+ ystems-heuristics-2
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:25th International Symposium on Knowledge and Systems Sciences (KS
@@ -3685,16 +4353,16 @@ BEGIN:VEVENT
 SUMMARY:SCIO-NL monthly meeting November 2025 (live WOERDEN and in Dutch)
 DTSTART:20261113T113000Z
 DTEND:20261113T153000Z
-DTSTAMP:20261006T112159Z
+DTSTAMP:20261017T223529Z
 UID:570ac10828f23cadb271793e@systemsmap.antlerboy.com
-SEQUENCE:7
+SEQUENCE:8
 CATEGORIES:Systems thinking,Cybernetics
 DESCRIPTION:SCiO NL\n\nGeographic focus: Netherlands\nLanguage: Dutch\nLan
  guage requirements: Not specified\nInterpretation: Not specified\nAccess: 
  NL Members + Guests\nhttps://www.systemspractice.org/events/scio-nl-monthl
  y-meeting-november-2025-live-woerden-and-dutch-0\nTitle year differs from 
  the published date. Check with the organiser.
-LAST-MODIFIED:20261006T112159Z
+LAST-MODIFIED:20261017T223529Z
 LOCATION:Woerden\, Netherlands
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -3702,17 +4370,33 @@ URL:https://www.systemspractice.org/events/scio-nl-monthly-meeting-novembe
  r-2025-live-woerden-and-dutch-0
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Speaker Series 7#3: Time\, Language\, Emotion\, and Experience
+DTSTART:20261115T170000Z
+DTSTAMP:20261024T085707Z
+UID:2c40789335cd43fbb1460bcf@systemsmap.antlerboy.com
+SEQUENCE:0
+CATEGORIES:Cybernetics
+DESCRIPTION:American Society for Cybernetics (ASC)\n\nLanguage: Not specif
+ ied\nLanguage requirements: Not specified\nInterpretation: Not specified\n
+ Access: See organiser\nhttps://asc-cybernetics.org/?page_id=2733
+LAST-MODIFIED:20261024T085707Z
+LOCATION:Online
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://asc-cybernetics.org/?page_id=2733
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:SCiO UK Virtual Open Meeting - November 2026
 DTSTART:20261116T183000Z
 DTEND:20261116T210000Z
-DTSTAMP:20261006T112159Z
+DTSTAMP:20261017T223529Z
 UID:76da874472c5593ae9184169@systemsmap.antlerboy.com
-SEQUENCE:7
+SEQUENCE:8
 CATEGORIES:Systems thinking,Cybernetics
 DESCRIPTION:SCiO UK\n\nLanguage: English\nLanguage requirements: Not speci
  fied\nInterpretation: Not specified\nAccess: All welcome\nhttps://www.syst
  emspractice.org/events/scio-uk-virtual-open-meeting-november-2026
-LAST-MODIFIED:20261006T112159Z
+LAST-MODIFIED:20261017T223529Z
 LOCATION:Online event
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -3720,19 +4404,70 @@ URL:https://www.systemspractice.org/events/scio-uk-virtual-open-meeting-no
  vember-2026
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Leading with Learning · session 5
+SUMMARY:Tag des Systems Engineering 2026 — TdSE
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261121
+DTSTAMP:20261024T204503Z
+UID:d590981531b1d2be8fc24c1f@systemsmap.antlerboy.com
+SEQUENCE:7
+CATEGORIES:Systems thinking
+DESCRIPTION:GfSE / INCOSE Germany\nThe German systems engineering gatherin
+ g includes tutorials on 17 and 20 November and the main conference on 18
+ –19 November.\nLanguage: Not specified\nLanguage requirements: Not speci
+ fied\nInterpretation: Not specified\nAccess: See organiser for registratio
+ n and current programme\nhttps://tdse.org/programm/vortragsprogramm.html\n
+ The full published programme runs 17–20 November. Tutorial days and main
+  conference days are distinguished\; dates only are exported.\nOfficial or
+ ganiser page and location checked 18 October 2026.\nVenue reference: https
+ ://tdse.org/informationen/allgemeines.html\nDate-only listing\; check the 
+ organiser for session times.
+LAST-MODIFIED:20261024T204503Z
+LOCATION:Kongress Dortmund\, Strobelallee 45\, 44139 Dortmund\, Germany
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://tdse.org/programm/vortragsprogramm.html
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Webinar: Community-Based System Dynamics - from Principles to Prac
+ tice
+DTSTART:20261117T010000Z
+DTEND:20261117T020000Z
+DTSTAMP:20261021T092622Z
+UID:dad853adc1ff5e97773ff3c7@systemsmap.antlerboy.com
+SEQUENCE:0
+CATEGORIES:Complexity,System dynamics
+DESCRIPTION:System Dynamics Society\nThe Oceania Chapter of the System Dyn
+ amics Society Webinar Series. Community-Based System Dynamics – from Pri
+ nciples to Practice Speakers: Tiana Felmingham\, Lee Coller\, and Andrew B
+ rownJointly applied CBSD across regional and rural Victoria for 10+ years 
+ Abstract: Community-based system dynamics (CBSD) brings together system dy
+ namics modelling with participatory approaches that centre the knowledg\nL
+ anguage: Not specified\nLanguage requirements: Not specified\nInterpretati
+ on: Not specified\nAccess: See organiser\nhttps://systemdynamics.org/event
+ /webinar-community-based-system-dynamics/\nSource could not be fully reche
+ cked.\nThis event could not be rechecked on the latest collection. Confirm
+  with the organiser.
+LAST-MODIFIED:20261021T092622Z
+LOCATION:https://uni-sydney.zoom.us/j/83804988911
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://systemdynamics.org/event/webinar-community-based-system-dynami
+ cs/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Leading with Learning � session 5
 DTSTART:20261118T093000Z
 DTEND:20261118T123000Z
-DTSTAMP:20261007T221454Z
+DTSTAMP:20261024T204503Z
 UID:0e34140cb434858ca2cc25e9@systemsmap.antlerboy.com
-SEQUENCE:40
+SEQUENCE:64
 CATEGORIES:Relational public services,Systems thinking
 DESCRIPTION:ThemPra Social Pedagogy\nApplied learning connected to Human L
  earning Systems and relational public services.\nLanguage: Not specified\n
  Language requirements: Not specified\nInterpretation: Not specified\nAcces
  s: Full-course registration required\nhttps://www.thempra.org.uk/thempra/o
  ur-courses/leading-with-learning/
-LAST-MODIFIED:20261007T221454Z
+LAST-MODIFIED:20261024T204503Z
 LOCATION:Online
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -3752,7 +4487,9 @@ DESCRIPTION:System Dynamics Society\nEconomics SIG Online Seminar Presente
   November 18\, 2026 Time: 12 pm New York | 5 pm London | 6 pm Rome | 8 pm 
  Istanbul\nLanguage: Not specified\nLanguage requirements: Not specified\nI
  nterpretation: Not specified\nAccess: See organiser\nhttps://systemdynamic
- s.org/event/economics-sig-online-seminar-3/
+ s.org/event/economics-sig-online-seminar-3/\nSource could not be fully rec
+ hecked.\nThis event could not be rechecked on the latest collection. Confi
+ rm with the organiser.
 LAST-MODIFIED:20261007T111029Z
 LOCATION:https://us02web.zoom.us/j/85988794484
 STATUS:CONFIRMED
@@ -3790,7 +4527,9 @@ DESCRIPTION:System Dynamics Society\nMonthly meetings of the Policy Counci
  to access the zoom link which will be displayed here to members 15 minutes
   prior to the start of the meeting.\nLanguage: Not specified\nLanguage req
  uirements: Not specified\nInterpretation: Not specified\nAccess: See organ
- iser\nhttps://systemdynamics.org/event/sds-policy-council-november/
+ iser\nhttps://systemdynamics.org/event/sds-policy-council-november/\nSourc
+ e could not be fully rechecked.\nThis event could not be rechecked on the 
+ latest collection. Confirm with the organiser.
 LAST-MODIFIED:20261002T103500Z
 LOCATION:https://us02web.zoom.us/j/89954043089?pwd=1gUGprni0qTmsnAtgvw4LrT
  huKzTLT.1
@@ -3819,27 +4558,55 @@ URL:https://www.sociocracyforall.org/event/intentional-communities-confere
  nce-2026/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:WEdnesday SALON – with Gerd Gigerenzer
+SUMMARY:WEdnesday SALON – When to Trust AI and When to Think for Ourselv
+ es
 DTSTART:20261123T180000Z
 DTEND:20261123T192000Z
-DTSTAMP:20261007T111029Z
+DTSTAMP:20261021T092622Z
 UID:c58d30077f596439a12f9271@systemsmap.antlerboy.com
-SEQUENCE:0
+SEQUENCE:2
 CATEGORIES:Complexity
-DESCRIPTION:Complexity Science Hub\ntbcAbout Gerd GigerenzerGerd Gigerenze
- r is a long-time director at the Max Planck Institute for Human Developmen
- t\, heads the Harding Center for Risk Literacy at the University of Potsda
- m\, and served as Vice President of the European Research Council (ERC).He
-  researches how people deal with risk and uncertainty and has trained mana
- gers\, doctors\, and U.S. federal judges in this field. His award-winn\nLa
- nguage: Not specified\nLanguage requirements: Not specified\nInterpretatio
- n: Not specified\nAccess: See organiser\nhttps://csh.ac.at/events/wednesda
- y-salon-with-gerd-gigerenzer/
-LAST-MODIFIED:20261007T111029Z
+DESCRIPTION:Complexity Science Hub\nStaying smart in a smart world. From d
+ ating apps to self-driving cars\, AI promises to make life easier and deci
+ sions better. But what can algorithms really do – and when should we tru
+ st our own judgment? Join Gerd Gigerenzer (exceptionally not on a WEdnesda
+ y but on a Monday) for a look at AI hype\, human intelligence\, and why si
+ mple rules can sometimes outperform complex systems. Artificial intelli\nL
+ anguage: Not specified\nLanguage requirements: Not specified\nInterpretati
+ on: Not specified\nAccess: See organiser\nhttps://csh.ac.at/events/wednesd
+ ay-salon-with-gerd-gigerenzer/\nNo longer found in the latest source listi
+ ng\; confirmation needed.\nThis event could not be rechecked on the latest
+  collection. Confirm with the organiser.
+LAST-MODIFIED:20261021T092622Z
 LOCATION:CSH Salon
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 URL:https://csh.ac.at/events/wednesday-salon-with-gerd-gigerenzer/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Annual Systems Engineering Conference 2026 — ASEC
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261126
+DTSTAMP:20261024T204503Z
+UID:952bd21415eebf2c2fc17aff@systemsmap.antlerboy.com
+SEQUENCE:7
+CATEGORIES:Systems thinking
+DESCRIPTION:Institute for Systems Engineering (IfSE)\nThe UK Annual System
+ s Engineering Conference explores the theme Purposeful Transformation.\nLa
+ nguage: Not specified\nLanguage requirements: Not specified\nInterpretatio
+ n: Not specified\nAccess: See organiser for registration and current progr
+ amme\nhttps://www.asec2026.org.uk/Pages/Standard/Home\nThe canonical event
+  site confirms 24–25 November and the Telford venue. Dates only are expo
+ rted\; consult the local programme for session times.\nOfficial organiser 
+ page and location checked 18 October 2026.\nVenue reference: https://www.a
+ sec2026.org.uk/Pages/Standard/General_Information/Venue\nDate-only listing
+ \; check the organiser for session times.
+LAST-MODIFIED:20261024T204503Z
+LOCATION:Telford International Centre\, International Way\, Telford TF3 4J
+ H\, United Kingdom
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.asec2026.org.uk/Pages/Standard/Home
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:The Next Generation of Systems Mapping: From Insight to Interventi
@@ -3849,7 +4616,7 @@ DTEND:20261124T170000Z
 DTSTAMP:20260914T095825Z
 UID:9461af3c6b41bf4463fbc834@systemsmap.antlerboy.com
 SEQUENCE:1
-CATEGORIES:System dynamics,Complexity
+CATEGORIES:Complexity,System dynamics
 DESCRIPTION:System Dynamics Society\nNovember 24\, 2026 at 11 am NY | 4 pm
   London | Check Your Time Zone As systems mapping has grown in popularity
  \, an important challenge remains: once a map has been created\, where sho
@@ -3858,7 +4625,9 @@ DESCRIPTION:System Dynamics Society\nNovember 24\, 2026 at 11 am NY | 4 pm
  s this question by enabling users to map\, explore\, and analyse complex 
  \nLanguage: Not specified\nLanguage requirements: Not specified\nInterpret
  ation: Not specified\nAccess: See organiser\nhttps://systemdynamics.org/ev
- ent/the-next-generation-of-systems-mapping-from-insight-to-intervention/
+ ent/the-next-generation-of-systems-mapping-from-insight-to-intervention/\n
+ Source could not be fully rechecked.\nThis event could not be rechecked on
+  the latest collection. Confirm with the organiser.
 LAST-MODIFIED:20260914T095825Z
 LOCATION:https://systemdynamics.org/event/the-next-generation-of-systems-m
  apping-from-insight-to-intervention/
@@ -3868,23 +4637,50 @@ URL:https://systemdynamics.org/event/the-next-generation-of-systems-mappin
  g-from-insight-to-intervention/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Relational Leadership · session 7
+SUMMARY:Relational Leadership � session 7
 DTSTART:20261125T093000Z
 DTEND:20261125T123000Z
-DTSTAMP:20261007T221454Z
+DTSTAMP:20261024T204503Z
 UID:a22486a9dbb015ee640a4e8a@systemsmap.antlerboy.com
-SEQUENCE:40
+SEQUENCE:64
 CATEGORIES:Relational public services,Systems thinking
 DESCRIPTION:ThemPra Social Pedagogy\nApplied learning connected to Human L
  earning Systems and relational public services.\nLanguage: Not specified\n
  Language requirements: Not specified\nInterpretation: Not specified\nAcces
  s: Full-course registration required\nhttps://www.thempra.org.uk/thempra/o
  ur-courses/relational-leadership/
-LAST-MODIFIED:20261007T221454Z
+LAST-MODIFIED:20261024T204503Z
 LOCATION:Online
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 URL:https://www.thempra.org.uk/thempra/our-courses/relational-leadership/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:From Research to Entrepreneurship: Exploring Career Paths Beyond A
+ cademia
+DTSTART:20261125T143000Z
+DTEND:20261125T160000Z
+DTSTAMP:20261021T092622Z
+UID:a0b70c1cdcf1d05c69d5198a@systemsmap.antlerboy.com
+SEQUENCE:0
+CATEGORIES:Complexity
+DESCRIPTION:Complexity Science Hub\nCan you be both a scientist and an ent
+ repreneur? What does it take to turn a research idea into a successful bus
+ iness? In this panel discussion\, three scientists who have founded their 
+ own companies will share their experiences of moving from research into en
+ trepreneurship. They will introduce their businesses\, discuss how their i
+ deas emerged\, and reflect on the opportunities and challenges they e\nLan
+ guage: Not specified\nLanguage requirements: Not specified\nInterpretation
+ : Not specified\nAccess: See organiser\nhttps://csh.ac.at/events/from-rese
+ arch-to-entrepreneurship-exploring-career-paths-beyond-academia/\nNo longe
+ r found in the latest source listing\; confirmation needed.\nThis event co
+ uld not be rechecked on the latest collection. Confirm with the organiser.
+LAST-MODIFIED:20261021T092622Z
+LOCATION:CSH Salon
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://csh.ac.at/events/from-research-to-entrepreneurship-exploring-c
+ areer-paths-beyond-academia/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Benchmarking Estimation of Dynamic Models in Social and Behavioral
@@ -3894,7 +4690,7 @@ DTEND:20261201T170000Z
 DTSTAMP:20260922T092210Z
 UID:0129130f4b87dca11288953f@systemsmap.antlerboy.com
 SEQUENCE:0
-CATEGORIES:System dynamics,Complexity
+CATEGORIES:Complexity,System dynamics
 DESCRIPTION:System Dynamics Society\nDecember 1\, 2026 at 11 am New York |
   4 pm London | Check Your Timezone Reliable parameter estimation is critic
  al for using dynamic simulation models to test theory\, quantify mechanism
@@ -3904,7 +4700,8 @@ DESCRIPTION:System Dynamics Society\nDecember 1\, 2026 at 11 am New York |
  Language: Not specified\nLanguage requirements: Not specified\nInterpretat
  ion: Not specified\nAccess: See organiser\nhttps://systemdynamics.org/even
  t/benchmarking-estimation-of-dynamic-models-in-social-and-behavioral-scien
- ces/
+ ces/\nSource could not be fully rechecked.\nThis event could not be rechec
+ ked on the latest collection. Confirm with the organiser.
 LAST-MODIFIED:20260922T092210Z
 LOCATION:https://us02web.zoom.us/j/88212739370
 STATUS:CONFIRMED
@@ -3932,23 +4729,73 @@ TRANSP:TRANSPARENT
 URL:https://cssociety.org/event/48d831be-35b8-4789-81ed-6ef517743032/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Leading with Learning · session 6
+SUMMARY:Leading with Learning � session 6
 DTSTART:20261202T093000Z
 DTEND:20261202T123000Z
-DTSTAMP:20261007T221454Z
+DTSTAMP:20261024T204503Z
 UID:ee91b2a9fcce228d13d506bb@systemsmap.antlerboy.com
-SEQUENCE:40
+SEQUENCE:64
 CATEGORIES:Relational public services,Systems thinking
 DESCRIPTION:ThemPra Social Pedagogy\nApplied learning connected to Human L
  earning Systems and relational public services.\nLanguage: Not specified\n
  Language requirements: Not specified\nInterpretation: Not specified\nAcces
  s: Full-course registration required\nhttps://www.thempra.org.uk/thempra/o
  ur-courses/leading-with-learning/
-LAST-MODIFIED:20261007T221454Z
+LAST-MODIFIED:20261024T204503Z
 LOCATION:Online
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 URL:https://www.thempra.org.uk/thempra/our-courses/leading-with-learning/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:WEdnesday Salon – Re-Inventing Democracy in the Age of AI
+DTSTART:20261202T180000Z
+DTEND:20261202T192000Z
+DTSTAMP:20261022T092918Z
+UID:fb232060ffe098009f9ac364@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Complexity
+DESCRIPTION:Complexity Science Hub\nFor everyone to benefit from technolog
+ ical innovation\, social innovation is needed too – from new ways of vot
+ ing and giving people a say in how public money is spent to making better 
+ use of people’s knowledge and ideas. What could digital-age democracy lo
+ ok like? Everyone is talking about new technology and how it can change ou
+ r lives. But technology is only part of the picture. Today\, the digital\n
+ Language: Not specified\nLanguage requirements: Not specified\nInterpretat
+ ion: Not specified\nAccess: See organiser\nhttps://csh.ac.at/events/wednes
+ day-salon-with-dirk-helbing/\nNo longer found in the latest source listing
+ \; confirmation needed.\nThis event could not be rechecked on the latest c
+ ollection. Confirm with the organiser.
+LAST-MODIFIED:20261022T092918Z
+LOCATION:Complexity Science Hub Complexity Science Hub\, Metternichgasse 8
+ \, 1030 Vienna
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://csh.ac.at/events/wednesday-salon-with-dirk-helbing/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Free introduction: What is sociocracy?
+DTSTART:20261202T220000Z
+DTEND:20261202T230000Z
+DTSTAMP:20261023T092514Z
+UID:5cf402535dac49060734b929@systemsmap.antlerboy.com
+SEQUENCE:0
+CATEGORIES:Systems thinking
+DESCRIPTION:Sociocracy For All\nAre you tired of power games in your organ
+ izations? Do you have hope that collaboration in organizations could bring
+  out the best in people? Do you think organizations could be places of syn
+ ergy\, collaboration\, growth\, and deep and authentic connection? This we
+ binar is giving an overview of sociocracy. We will talk about: better list
+ ening consent decision making and circle structure examples from \nLanguag
+ e: Not specified\nLanguage requirements: Not specified\nInterpretation: No
+ t specified\nAccess: See organiser\nhttps://www.sociocracyforall.org/event
+ /free-info-session-december-2026/
+LAST-MODIFIED:20261023T092514Z
+LOCATION:Location not published
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.sociocracyforall.org/event/free-info-session-december-2026
+ /
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:The Viable System Model: Theory and Application
@@ -3990,7 +4837,9 @@ DESCRIPTION:Metaphorum\nThe Viable System Model: Theory and Application In
  ll learn how to put it into practice by following a systemic\nLanguage: No
  t specified\nLanguage requirements: Not specified\nInterpretation: Not spe
  cified\nAccess: See organiser\nhttps://metaphorum.org/event/vsm-coach-cour
- se-online-by-angela-espinosa
+ se-online-by-angela-espinosa\nNo longer found in the latest source listing
+ \; confirmation needed.\nThis event could not be rechecked on the latest c
+ ollection. Confirm with the organiser.
 LAST-MODIFIED:20261002T103500Z
 LOCATION:Location not published
 STATUS:CONFIRMED
@@ -4002,9 +4851,9 @@ BEGIN:VEVENT
 SUMMARY:Winter Simulation Conference - WSC 2026
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261210
-DTSTAMP:20260914T095825Z
+DTSTAMP:20261017T083913Z
 UID:84ba6ab1cc55be569a831beb@systemsmap.antlerboy.com
-SEQUENCE:2
+SEQUENCE:4
 CATEGORIES:System dynamics
 DESCRIPTION:System Dynamics Society\nStarts: Dec 6\, 2026 09:00 (UTC) Ends
  : Dec 9\, 2026 17:00 (UTC) Location: Scottish Event Campus | SEC Centre Ex
@@ -4014,8 +4863,10 @@ DESCRIPTION:System Dynamics Society\nStarts: Dec 6\, 2026 09:00 (UTC) Ends
  ity-events\nLanguage: Not specified\nLanguage requirements: Not specified
  \nInterpretation: Not specified\nAccess: See organiser\nhttps://systemdyna
  mics.org/event/winter-simulation-conference-wsc-2026/\nDate-only listing\;
-  check the organiser for session times.
-LAST-MODIFIED:20260914T095825Z
+  check the organiser for session times.\nSource could not be fully recheck
+ ed.\nThis event could not be rechecked on the latest collection. Confirm w
+ ith the organiser.
+LAST-MODIFIED:20261017T083913Z
 LOCATION:Location not published
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -4038,7 +4889,9 @@ DESCRIPTION:System Dynamics Society\nTime: 11:00 a.m. New York | 4:00 p.m.
  ovide a space to collaborate on the responsible integration of artifi\nLan
  guage: Not specified\nLanguage requirements: Not specified\nInterpretation
  : Not specified\nAccess: See organiser\nhttps://systemdynamics.org/event/a
- i-in-system-dynamics-education-task-force-monthly-meeting-2/2026-12-08/
+ i-in-system-dynamics-education-task-force-monthly-meeting-2/2026-12-08/\nS
+ ource could not be fully rechecked.\nThis event could not be rechecked on 
+ the latest collection. Confirm with the organiser.
 LAST-MODIFIED:20260914T095825Z
 LOCATION:https://systemdynamics.org/event/ai-in-system-dynamics-education-
  task-force-monthly-meeting-2/2026-12-08/
@@ -4051,14 +4904,14 @@ BEGIN:VEVENT
 SUMMARY:SCiO UK Virtual Development Event - December 2026
 DTSTART:20261208T130000Z
 DTEND:20261208T150000Z
-DTSTAMP:20261006T112159Z
+DTSTAMP:20261017T223529Z
 UID:9a71e30f2369435c79121f27@systemsmap.antlerboy.com
-SEQUENCE:1
+SEQUENCE:2
 CATEGORIES:Systems thinking,Cybernetics
 DESCRIPTION:SCiO UK\n\nLanguage: English\nLanguage requirements: Not speci
  fied\nInterpretation: Not specified\nAccess: Members only\nhttps://www.sys
  temspractice.org/events/scio-uk-virtual-development-event-december-2026
-LAST-MODIFIED:20261006T112159Z
+LAST-MODIFIED:20261017T223529Z
 LOCATION:Online event
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -4090,18 +4943,37 @@ URL:https://www.sociocracyforall.org/event/sociocracy-in-cooperatives-comm
  unity-of-practice/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Relational Leadership � session 8
+DTSTART:20261209T093000Z
+DTEND:20261209T123000Z
+DTSTAMP:20261024T204503Z
+UID:0c81a6c32154049c3fdd2fb4@systemsmap.antlerboy.com
+SEQUENCE:64
+CATEGORIES:Relational public services,Systems thinking
+DESCRIPTION:ThemPra Social Pedagogy\nApplied learning connected to Human L
+ earning Systems and relational public services.\nLanguage: Not specified\n
+ Language requirements: Not specified\nInterpretation: Not specified\nAcces
+ s: Full-course registration required\nhttps://www.thempra.org.uk/thempra/o
+ ur-courses/relational-leadership/
+LAST-MODIFIED:20261024T204503Z
+LOCATION:Online
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.thempra.org.uk/thempra/our-courses/relational-leadership/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Deep Dive Intervisie: Critical Systems Heuristics
-DTSTART:20261208T180000Z
-DTEND:20261208T200000Z
-DTSTAMP:20261006T112159Z
+DTSTART:20261210T180000Z
+DTEND:20261210T200000Z
+DTSTAMP:20261017T223529Z
 UID:a48deb0769c42fcaa1cbdc3b@systemsmap.antlerboy.com
-SEQUENCE:7
+SEQUENCE:9
 CATEGORIES:Systems thinking,Cybernetics
 DESCRIPTION:SCiO Belgium\n\nGeographic focus: Belgium\nLanguage: Dutch\nLa
  nguage requirements: Not specified\nInterpretation: Not specified\nAccess:
   Members only + Guests\nhttps://www.systemspractice.org/events/deep-dive-i
  ntervisie-critical-systems-heuristics-0
-LAST-MODIFIED:20261006T112159Z
+LAST-MODIFIED:20261017T223529Z
 LOCATION:tbc\, Belgium
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -4109,38 +4981,43 @@ URL:https://www.systemspractice.org/events/deep-dive-intervisie-critical-s
  ystems-heuristics-0
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Relational Leadership · session 8
-DTSTART:20261209T093000Z
-DTEND:20261209T123000Z
-DTSTAMP:20261007T221454Z
-UID:0c81a6c32154049c3fdd2fb4@systemsmap.antlerboy.com
-SEQUENCE:40
-CATEGORIES:Relational public services,Systems thinking
-DESCRIPTION:ThemPra Social Pedagogy\nApplied learning connected to Human L
- earning Systems and relational public services.\nLanguage: Not specified\n
- Language requirements: Not specified\nInterpretation: Not specified\nAcces
- s: Full-course registration required\nhttps://www.thempra.org.uk/thempra/o
- ur-courses/relational-leadership/
-LAST-MODIFIED:20261007T221454Z
-LOCATION:Online
+SUMMARY:Connections: A Sociocracy and Transformative Communication Webinar
+DTSTART:20261210T200000Z
+DTEND:20261210T213000Z
+DTSTAMP:20261022T092918Z
+UID:0395b545e451022be13c85e1@systemsmap.antlerboy.com
+SEQUENCE:0
+CATEGORIES:Systems thinking
+DESCRIPTION:Sociocracy For All\nDescription Kelly Leonard and Stefani Dane
+ s of Rachel Carson EcoVillage share their community’s practice of “Tra
+ nsformative Communication” — blending sociocracy and Non-Violent Commu
+ nication to strengthen relationships and support collective action. This w
+ ill be an interactive session with hands-on practice Duration and time zon
+ e DATE: December 10\, 2026 TIME: 20:00 – 21:30 UTC CHECK YOUR LOCAL TIM
+ \nLanguage: Not specified\nLanguage requirements: Not specified\nInterpret
+ ation: Not specified\nAccess: See organiser\nhttps://www.sociocracyforall.
+ org/event/sociocracy-and-transformative-communication-dec/
+LAST-MODIFIED:20261022T092918Z
+LOCATION:Location not published
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
-URL:https://www.thempra.org.uk/thempra/our-courses/relational-leadership/
+URL:https://www.sociocracyforall.org/event/sociocracy-and-transformative-c
+ ommunication-dec/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:SCIO-NL monthly meeting December 2025 (live WOERDEN and in Dutch)
 DTSTART:20261211T113000Z
 DTEND:20261211T153000Z
-DTSTAMP:20261006T112159Z
+DTSTAMP:20261017T223529Z
 UID:64ff49efa8bf5c6e00b488d4@systemsmap.antlerboy.com
-SEQUENCE:7
+SEQUENCE:8
 CATEGORIES:Systems thinking,Cybernetics
 DESCRIPTION:SCiO NL\n\nGeographic focus: Netherlands\nLanguage: Dutch\nLan
  guage requirements: Not specified\nInterpretation: Not specified\nAccess: 
  NL Members + Guests\nhttps://www.systemspractice.org/events/scio-nl-monthl
  y-meeting-december-2025-live-woerden-and-dutch\nTitle year differs from th
  e published date. Check with the organiser.
-LAST-MODIFIED:20261006T112159Z
+LAST-MODIFIED:20261017T223529Z
 LOCATION:Woerden\, Netherlands
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -4165,6 +5042,8 @@ DESCRIPTION:System Dynamics Society\nDecember 15\, 2026 at 11 am New York
  anguage: Not specified\nLanguage requirements: Not specified\nInterpretati
  on: Not specified\nAccess: See organiser\nhttps://systemdynamics.org/event
  /using-laboratory-experiments-to-study-decision-making-in-dynamic-systems/
+ \nSource could not be fully rechecked.\nThis event could not be rechecked 
+ on the latest collection. Confirm with the organiser.
 LAST-MODIFIED:20260914T095825Z
 LOCATION:https://us02web.zoom.us/j/86747150832
 STATUS:CONFIRMED
@@ -4227,7 +5106,9 @@ DESCRIPTION:System Dynamics Society\nMonthly meetings of the Policy Counci
  to access the zoom link which will be displayed here to members 15 minutes
   prior to the start of the meeting.\nLanguage: Not specified\nLanguage req
  uirements: Not specified\nInterpretation: Not specified\nAccess: See organ
- iser\nhttps://systemdynamics.org/event/sds-policy-council-december/
+ iser\nhttps://systemdynamics.org/event/sds-policy-council-december/\nSourc
+ e could not be fully rechecked.\nThis event could not be rechecked on the 
+ latest collection. Confirm with the organiser.
 LAST-MODIFIED:20261002T103500Z
 LOCATION:https://us02web.zoom.us/j/89954043089?pwd=1gUGprni0qTmsnAtgvw4LrT
  huKzTLT.1
@@ -4239,15 +5120,15 @@ BEGIN:VEVENT
 SUMMARY:Kybernetik-Stammtisch - Jahresabschluss - offene Beiträge
 DTSTART:20261217T180000Z
 DTEND:20261217T193000Z
-DTSTAMP:20261006T112159Z
+DTSTAMP:20261017T223529Z
 UID:1a0badea163b9e590bf3ffa3@systemsmap.antlerboy.com
-SEQUENCE:7
+SEQUENCE:8
 CATEGORIES:Systems thinking,Cybernetics
 DESCRIPTION:SCiO DACH\n\nGeographic focus: Germany\, Austria\, Switzerland
  \, DACH\nLanguage: German\nLanguage requirements: Not specified\nInterpret
  ation: Not specified\nAccess: Members only + Guests\nhttps://www.systemspr
  actice.org/events/kybernetik-stammtisch-jahresabschluss-offene-beitrage-1
-LAST-MODIFIED:20261006T112159Z
+LAST-MODIFIED:20261017T223529Z
 LOCATION:Online event
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -4258,9 +5139,9 @@ BEGIN:VEVENT
 SUMMARY:Systems Young Investigator Award Deadline
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270101
-DTSTAMP:20260914T095825Z
+DTSTAMP:20261017T083913Z
 UID:5a4e9833c2d8e2a0f2c34269@systemsmap.antlerboy.com
-SEQUENCE:4
+SEQUENCE:6
 CATEGORIES:System dynamics
 DESCRIPTION:System Dynamics Society\nYoung Investigator Award This award w
  ill be given to one young investigator in recognition of their excellence 
@@ -4271,8 +5152,10 @@ DESCRIPTION:System Dynamics Society\nYoung Investigator Award This award w
  nve\nLanguage: Not specified\nLanguage requirements: Not specified\nInterp
  retation: Not specified\nAccess: See organiser\nhttps://systemdynamics.org
  /event/systems-young-investigator-award-deadline/\nDate-only listing\; che
- ck the organiser for session times.
-LAST-MODIFIED:20260914T095825Z
+ ck the organiser for session times.\nSource could not be fully rechecked.
+ \nThis event could not be rechecked on the latest collection. Confirm with
+  the organiser.
+LAST-MODIFIED:20261017T083913Z
 LOCATION:Location not published
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -4297,7 +5180,8 @@ DESCRIPTION:System Dynamics Society\nJanuary 5\, 2027 at 11 am New York |
  nguage: Not specified\nLanguage requirements: Not specified\nInterpretatio
  n: Not specified\nAccess: See organiser\nhttps://systemdynamics.org/event/
  when-money-isnt-fungible-a-stock-and-flow-interpretation-of-mental-account
- ing/
+ ing/\nSource could not be fully rechecked.\nThis event could not be rechec
+ ked on the latest collection. Confirm with the organiser.
 LAST-MODIFIED:20260929T104630Z
 LOCATION:https://us02web.zoom.us/j/87032804571
 STATUS:CONFIRMED
@@ -4321,7 +5205,9 @@ DESCRIPTION:System Dynamics Society\nTime: 11:00 a.m. New York | 4:00 p.m.
  ovide a space to collaborate on the responsible integration of artifi\nLan
  guage: Not specified\nLanguage requirements: Not specified\nInterpretation
  : Not specified\nAccess: See organiser\nhttps://systemdynamics.org/event/a
- i-in-system-dynamics-education-task-force-monthly-meeting-2/2027-01-12/
+ i-in-system-dynamics-education-task-force-monthly-meeting-2/2027-01-12/\nS
+ ource could not be fully rechecked.\nThis event could not be rechecked on 
+ the latest collection. Confirm with the organiser.
 LAST-MODIFIED:20260914T095825Z
 LOCATION:https://systemdynamics.org/event/ai-in-system-dynamics-education-
  task-force-monthly-meeting-2/2027-01-12/
@@ -4347,7 +5233,9 @@ DESCRIPTION:System Dynamics Society\nJanuary 12\, 2027 at 11 am New York |
   simulated agents to interpret context\, form intentions\, and interact\nL
  anguage: Not specified\nLanguage requirements: Not specified\nInterpretati
  on: Not specified\nAccess: See organiser\nhttps://systemdynamics.org/event
- /generative-agent-based-models-simulating-quasi-autonomous-ai-agents/
+ /generative-agent-based-models-simulating-quasi-autonomous-ai-agents/\nSou
+ rce could not be fully rechecked.\nThis event could not be rechecked on th
+ e latest collection. Confirm with the organiser.
 LAST-MODIFIED:20260914T095825Z
 LOCATION:https://us02web.zoom.us/j/89002602905
 STATUS:CONFIRMED
@@ -4356,42 +5244,42 @@ URL:https://systemdynamics.org/event/generative-agent-based-models-simulat
  ing-quasi-autonomous-ai-agents/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Deep Dive Intervisie: Critical Systems Heuristics
-DTSTART:20270112T180000Z
-DTEND:20270112T200000Z
-DTSTAMP:20261006T112159Z
-UID:6d4ee2410e6cd5ea0561b8c7@systemsmap.antlerboy.com
-SEQUENCE:7
-CATEGORIES:Systems thinking,Cybernetics
-DESCRIPTION:SCiO Belgium\n\nGeographic focus: Belgium\nLanguage: Dutch\nLa
- nguage requirements: Not specified\nInterpretation: Not specified\nAccess:
-  Members only + Guests\nhttps://www.systemspractice.org/events/deep-dive-i
- ntervisie-critical-systems-heuristics-1
-LAST-MODIFIED:20261006T112159Z
-LOCATION:tbc\, Belgium
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-URL:https://www.systemspractice.org/events/deep-dive-intervisie-critical-s
- ystems-heuristics-1
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Relational Leadership · session 9
+SUMMARY:Relational Leadership � session 9
 DTSTART:20270113T093000Z
 DTEND:20270113T123000Z
-DTSTAMP:20261007T221454Z
+DTSTAMP:20261024T204503Z
 UID:caf49aa274590bf1d9f905bd@systemsmap.antlerboy.com
-SEQUENCE:40
+SEQUENCE:64
 CATEGORIES:Relational public services,Systems thinking
 DESCRIPTION:ThemPra Social Pedagogy\nApplied learning connected to Human L
  earning Systems and relational public services.\nLanguage: Not specified\n
  Language requirements: Not specified\nInterpretation: Not specified\nAcces
  s: Full-course registration required\nhttps://www.thempra.org.uk/thempra/o
  ur-courses/relational-leadership/
-LAST-MODIFIED:20261007T221454Z
+LAST-MODIFIED:20261024T204503Z
 LOCATION:Online
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 URL:https://www.thempra.org.uk/thempra/our-courses/relational-leadership/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Deep Dive Intervisie: Critical Systems Heuristics
+DTSTART:20270114T180000Z
+DTEND:20270114T200000Z
+DTSTAMP:20261017T223529Z
+UID:6d4ee2410e6cd5ea0561b8c7@systemsmap.antlerboy.com
+SEQUENCE:9
+CATEGORIES:Systems thinking,Cybernetics
+DESCRIPTION:SCiO Belgium\n\nGeographic focus: Belgium\nLanguage: Dutch\nLa
+ nguage requirements: Not specified\nInterpretation: Not specified\nAccess:
+  Members only + Guests\nhttps://www.systemspractice.org/events/deep-dive-i
+ ntervisie-critical-systems-heuristics-1
+LAST-MODIFIED:20261017T223529Z
+LOCATION:tbc\, Belgium
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.systemspractice.org/events/deep-dive-intervisie-critical-s
+ ystems-heuristics-1
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Winter Workshop on Complex Systems - Application process OPEN!
@@ -4425,7 +5313,9 @@ DESCRIPTION:System Dynamics Society\nSubmissions to the International Conf
  ns page.\nLanguage: Not specified\nLanguage requirements: Not specified\nI
  nterpretation: Not specified\nAccess: See organiser\nhttps://systemdynamic
  s.org/event/2027-conference-submission-window-opens/\nDate-only listing\; 
- check the organiser for session times.
+ check the organiser for session times.\nSource could not be fully rechecke
+ d.\nThis event could not be rechecked on the latest collection. Confirm wi
+ th the organiser.
 LAST-MODIFIED:20261003T095602Z
 LOCATION:https://systemdynamics.org/event/2027-conference-submission-windo
  w-opens/
@@ -4469,13 +5359,39 @@ DESCRIPTION:System Dynamics Society\nHybrid Event The event can be followe
  namics\nLanguage: Not specified\nLanguage requirements: Not specified\nInt
  erpretation: Not specified\nAccess: See organiser\nhttps://systemdynamics.
  org/event/the-dynamics-of-sustainability-transitions-can-we-go-faster-shou
- ld-we-slow-down/
+ ld-we-slow-down/\nSource could not be fully rechecked.\nThis event could n
+ ot be rechecked on the latest collection. Confirm with the organiser.
 LAST-MODIFIED:20261006T112159Z
 LOCATION:Aula\, Netherlands
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 URL:https://systemdynamics.org/event/the-dynamics-of-sustainability-transi
  tions-can-we-go-faster-should-we-slow-down/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:INCOSE International Workshop 2027
+DTSTART;VALUE=DATE:20270130
+DTEND;VALUE=DATE:20270203
+DTSTAMP:20261024T204503Z
+UID:043f3fc354ac8095f3db9b2c@systemsmap.antlerboy.com
+SEQUENCE:7
+CATEGORIES:Systems thinking
+DESCRIPTION:INCOSE\nINCOSE working sessions for systems engineers and work
+ ing groups. The organiser distinguishes the workshop from a paper-presenta
+ tion conference.\nLanguage: Not specified\nLanguage requirements: Not spec
+ ified\nInterpretation: Not specified\nAccess: See organiser for registrati
+ on and current programme\nhttps://www.incose.org/events-education/internat
+ ional-workshop/\nPublished date range and venue checked. The detailed 2027
+  event platform is marked Coming Soon\; daily session times and remote par
+ ticipation are not established.\nOfficial organiser page and location chec
+ ked 18 October 2026.\nDate-only listing\; check the organiser for session 
+ times.
+LAST-MODIFIED:20261024T204503Z
+LOCATION:Torrance Marriott Redondo Beach\, 3635 Fashion Way\, Torrance\, C
+ alifornia 90503\, United States
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.incose.org/events-education/international-workshop/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:AI in System Dynamics Education | Task Force Monthly Meeting
@@ -4493,7 +5409,9 @@ DESCRIPTION:System Dynamics Society\nTime: 11:00 a.m. New York | 4:00 p.m.
  ovide a space to collaborate on the responsible integration of artifi\nLan
  guage: Not specified\nLanguage requirements: Not specified\nInterpretation
  : Not specified\nAccess: See organiser\nhttps://systemdynamics.org/event/a
- i-in-system-dynamics-education-task-force-monthly-meeting-2/2027-02-09/
+ i-in-system-dynamics-education-task-force-monthly-meeting-2/2027-02-09/\nS
+ ource could not be fully rechecked.\nThis event could not be rechecked on 
+ the latest collection. Confirm with the organiser.
 LAST-MODIFIED:20260914T095825Z
 LOCATION:https://systemdynamics.org/event/ai-in-system-dynamics-education-
  task-force-monthly-meeting-2/2027-02-09/
@@ -4501,25 +5419,6 @@ STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 URL:https://systemdynamics.org/event/ai-in-system-dynamics-education-task-
  force-monthly-meeting-2/2027-02-09/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Deep Dive Intervisie: Critical Systems Heuristics
-DTSTART:20270209T180000Z
-DTEND:20270209T200000Z
-DTSTAMP:20261006T112159Z
-UID:b4274dd5f114f839848e70ee@systemsmap.antlerboy.com
-SEQUENCE:7
-CATEGORIES:Systems thinking,Cybernetics
-DESCRIPTION:SCiO Belgium\n\nGeographic focus: Belgium\nLanguage: Dutch\nLa
- nguage requirements: Not specified\nInterpretation: Not specified\nAccess:
-  Members only + Guests\nhttps://www.systemspractice.org/events/deep-dive-i
- ntervisie-critical-systems-heuristics-3
-LAST-MODIFIED:20261006T112159Z
-LOCATION:tbc\, Belgium
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-URL:https://www.systemspractice.org/events/deep-dive-intervisie-critical-s
- ystems-heuristics-3
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Oceania Chapter: 2027 Systems Thinking & Modelling Symposium​
@@ -4537,7 +5436,9 @@ DESCRIPTION:System Dynamics Society\nHYBRID EVENT 12 February 2027\, 10:00
  ocation In person: UNSW Canberra City Lecture Theatre 00.25\, Ground floo
  \nLanguage: Not specified\nLanguage requirements: Not specified\nInterpret
  ation: Not specified\nAccess: See organiser\nhttps://systemdynamics.org/ev
- ent/oceania-chapter-2027-systems-thinking-modelling-symposium/
+ ent/oceania-chapter-2027-systems-thinking-modelling-symposium/\nSource cou
+ ld not be fully rechecked.\nThis event could not be rechecked on the lates
+ t collection. Confirm with the organiser.
 LAST-MODIFIED:20260914T095825Z
 LOCATION:UNSW canberra\, UNSW Canberra City\, 37 Constitution Ave\, Reid A
  CT 2612\, Australia\, ACT\, 2612\, Australia
@@ -4545,6 +5446,25 @@ STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 URL:https://systemdynamics.org/event/oceania-chapter-2027-systems-thinking
  -modelling-symposium/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Deep Dive Intervisie: Critical Systems Heuristics
+DTSTART:20270211T180000Z
+DTEND:20270211T200000Z
+DTSTAMP:20261017T223529Z
+UID:b4274dd5f114f839848e70ee@systemsmap.antlerboy.com
+SEQUENCE:9
+CATEGORIES:Systems thinking,Cybernetics
+DESCRIPTION:SCiO Belgium\n\nGeographic focus: Belgium\nLanguage: Dutch\nLa
+ nguage requirements: Not specified\nInterpretation: Not specified\nAccess:
+  Members only + Guests\nhttps://www.systemspractice.org/events/deep-dive-i
+ ntervisie-critical-systems-heuristics-3
+LAST-MODIFIED:20261017T223529Z
+LOCATION:tbc\, Belgium
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.systemspractice.org/events/deep-dive-intervisie-critical-s
+ ystems-heuristics-3
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:VSM-AI Special Integration Group
@@ -4564,6 +5484,31 @@ TRANSP:TRANSPARENT
 URL:https://ics.teamup.com/feed/ksok8ra1xif3viq4no/0.ics
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Winter School 2027
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270305
+DTSTAMP:20261015T091351Z
+UID:8a01d8d95b35fce685bbe6b4@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Complexity
+DESCRIPTION:Digital Innovation School\nHealthcare & Medicine Details of th
+ e Winter School program are forthcoming. Find more information on the Wint
+ er School program page. The booking form is exclusively for candidates who
+  have received a message with registration and payment instructions.\nLang
+ uage: Not specified\nLanguage requirements: Not specified\nInterpretation:
+  Not specified\nAccess: See organiser\nhttps://csh.ac.at/events/winter-sch
+ ool-2027/\nDate-only listing\; check the organiser for session times.\nNo 
+ longer found in the latest source listing\; confirmation needed.\nThis eve
+ nt could not be rechecked on the latest collection. Confirm with the organ
+ iser.
+LAST-MODIFIED:20261015T091351Z
+LOCATION:Complexity Science Hub Complexity Science Hub\, Metternichgasse 8
+ \, 1030 Vienna
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://csh.ac.at/events/winter-school-2027/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:AI in System Dynamics Education | Task Force Monthly Meeting
 DTSTART:20270309T160000Z
 DTEND:20270309T170000Z
@@ -4579,7 +5524,9 @@ DESCRIPTION:System Dynamics Society\nTime: 11:00 a.m. New York | 4:00 p.m.
  ovide a space to collaborate on the responsible integration of artifi\nLan
  guage: Not specified\nLanguage requirements: Not specified\nInterpretation
  : Not specified\nAccess: See organiser\nhttps://systemdynamics.org/event/a
- i-in-system-dynamics-education-task-force-monthly-meeting-2/2027-03-09/
+ i-in-system-dynamics-education-task-force-monthly-meeting-2/2027-03-09/\nS
+ ource could not be fully rechecked.\nThis event could not be rechecked on 
+ the latest collection. Confirm with the organiser.
 LAST-MODIFIED:20260914T095825Z
 LOCATION:https://systemdynamics.org/event/ai-in-system-dynamics-education-
  task-force-monthly-meeting-2/2027-03-09/
@@ -4590,17 +5537,17 @@ URL:https://systemdynamics.org/event/ai-in-system-dynamics-education-task-
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Deep Dive Intervisie: Critical Systems Heuristics
-DTSTART:20270309T180000Z
-DTEND:20270309T200000Z
-DTSTAMP:20261006T112159Z
+DTSTART:20270311T180000Z
+DTEND:20270311T200000Z
+DTSTAMP:20261017T223529Z
 UID:71bffb597c7ac4b49224cacf@systemsmap.antlerboy.com
-SEQUENCE:7
+SEQUENCE:9
 CATEGORIES:Systems thinking,Cybernetics
 DESCRIPTION:SCiO Belgium\n\nGeographic focus: Belgium\nLanguage: Dutch\nLa
  nguage requirements: Not specified\nInterpretation: Not specified\nAccess:
   Members only + Guests\nhttps://www.systemspractice.org/events/deep-dive-i
  ntervisie-critical-systems-heuristics-4
-LAST-MODIFIED:20261006T112159Z
+LAST-MODIFIED:20261017T223529Z
 LOCATION:tbc\, Belgium
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -4611,19 +5558,18 @@ BEGIN:VEVENT
 SUMMARY:2027 Conference Submission Deadline
 DTSTART:20270317T035900Z
 DTEND:20270317T035900Z
-DTSTAMP:20261003T095602Z
+DTSTAMP:20261014T093553Z
 UID:3bad789045d7fb03e9d3d2a9@systemsmap.antlerboy.com
-SEQUENCE:0
+SEQUENCE:2
 CATEGORIES:System dynamics
 DESCRIPTION:System Dynamics Society\nSubmissions to the International Syst
  em Dynamics Conference are due today. For more details about the conferenc
  e\, please visit our conference page.\nLanguage: Not specified\nLanguage r
  equirements: Not specified\nInterpretation: Not specified\nAccess: See org
  aniser\nhttps://systemdynamics.org/event/2026-conference-submission-deadli
- ne/\nNo longer found in the latest source listing\; confirmation needed.\n
- This event could not be rechecked on the latest collection. Confirm with t
- he organiser.
-LAST-MODIFIED:20261003T095602Z
+ ne/\nSource could not be fully rechecked.\nThis event could not be recheck
+ ed on the latest collection. Confirm with the organiser.
+LAST-MODIFIED:20261014T093553Z
 LOCATION:United States\, United States
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -4650,9 +5596,9 @@ BEGIN:VEVENT
 SUMMARY:Systems Travel Award Deadline
 DTSTART;VALUE=DATE:20270331
 DTEND;VALUE=DATE:20270401
-DTSTAMP:20260914T095825Z
+DTSTAMP:20261017T083913Z
 UID:8571c909cf05e38e5ae4501f@systemsmap.antlerboy.com
-SEQUENCE:4
+SEQUENCE:6
 CATEGORIES:System dynamics
 DESCRIPTION:System Dynamics Society\nThis award provides financial support
   for one PhD student or postdoctoral fellow to attend an international con
@@ -4663,22 +5609,46 @@ DESCRIPTION:System Dynamics Society\nThis award provides financial support
  st\nLanguage: Not specified\nLanguage requirements: Not specified\nInterpr
  etation: Not specified\nAccess: See organiser\nhttps://systemdynamics.org/
  event/systems-travel-award-deadline/\nDate-only listing\; check the organi
- ser for session times.\nNo longer found in the latest source listing\; con
- firmation needed.\nThis event could not be rechecked on the latest collect
- ion. Confirm with the organiser.
-LAST-MODIFIED:20260914T095825Z
+ ser for session times.\nSource could not be fully rechecked.\nThis event c
+ ould not be rechecked on the latest collection. Confirm with the organiser
+ .
+LAST-MODIFIED:20261017T083913Z
 LOCATION:Location not published
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 URL:https://systemdynamics.org/event/systems-travel-award-deadline/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Conference on Systems Engineering Research 2027 — CSER
+DTSTART;VALUE=DATE:20270411
+DTEND;VALUE=DATE:20270415
+DTSTAMP:20261024T204503Z
+UID:976fd7f0f7d7a4c40be2d4bb@systemsmap.antlerboy.com
+SEQUENCE:7
+CATEGORIES:Systems thinking
+DESCRIPTION:INCOSE / Conference on Systems Engineering Research\nA confere
+ nce for systems engineering research\, bringing together researchers\, pra
+ ctitioners and educators.\nLanguage: Not specified\nLanguage requirements:
+  Not specified\nInterpretation: Not specified\nAccess: See organiser for r
+ egistration and current programme\nhttps://www.incose.org/cser/\nPublished
+  date range and venue checked. The detailed 2027 event platform is marked 
+ Coming Soon\; daily session times and remote participation are not establi
+ shed.\nOfficial organiser page and location checked 18 October 2026.\nDate
+ -only listing\; check the organiser for session times.
+LAST-MODIFIED:20261024T204503Z
+LOCATION:Von Braun Center\, 700 Monroe St SW\, Huntsville\, Alabama 35801
+ \, United States
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.incose.org/cser/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:AI in System Dynamics Education | Task Force Monthly Meeting
 DTSTART:20270413T150000Z
 DTEND:20270413T160000Z
-DTSTAMP:20260914T095825Z
+DTSTAMP:20261016T090631Z
 UID:ad52d10e476e16654760f737@systemsmap.antlerboy.com
-SEQUENCE:4
+SEQUENCE:5
 CATEGORIES:System dynamics
 DESCRIPTION:System Dynamics Society\nTime: 11:00 a.m. New York | 4:00 p.m.
   London | 11:00 p.m. BeijingWhen: First Tuesday of every month Please logi
@@ -4688,11 +5658,10 @@ DESCRIPTION:System Dynamics Society\nTime: 11:00 a.m. New York | 4:00 p.m.
  ovide a space to collaborate on the responsible integration of artifi\nLan
  guage: Not specified\nLanguage requirements: Not specified\nInterpretation
  : Not specified\nAccess: See organiser\nhttps://systemdynamics.org/event/a
- i-in-system-dynamics-education-task-force-monthly-meeting-2/2027-04-13/\nN
- o longer found in the latest source listing\; confirmation needed.\nThis e
- vent could not be rechecked on the latest collection. Confirm with the org
- aniser.
-LAST-MODIFIED:20260914T095825Z
+ i-in-system-dynamics-education-task-force-monthly-meeting-2/2027-04-13/\nS
+ ource could not be fully rechecked.\nThis event could not be rechecked on 
+ the latest collection. Confirm with the organiser.
+LAST-MODIFIED:20261016T090631Z
 LOCATION:https://systemdynamics.org/event/ai-in-system-dynamics-education-
  task-force-monthly-meeting-2/2027-04-13/
 STATUS:CONFIRMED
@@ -4704,9 +5673,9 @@ BEGIN:VEVENT
 SUMMARY:2027 Conference Scholarship Application Deadline
 DTSTART:20270415T040000Z
 DTEND:20270416T035900Z
-DTSTAMP:20261003T095602Z
+DTSTAMP:20261016T090631Z
 UID:16941fd20d461c3e691cccff@systemsmap.antlerboy.com
-SEQUENCE:0
+SEQUENCE:1
 CATEGORIES:System dynamics
 DESCRIPTION:System Dynamics Society\nCONFERENCE SCHOLARSHIP Partial schola
  rships are available that pay conference registration fees. Scholarships a
@@ -4716,10 +5685,10 @@ DESCRIPTION:System Dynamics Society\nCONFERENCE SCHOLARSHIP Partial schola
   “Award and Scholarship Information”. If you would like to apply for a
  \nLanguage: Not specified\nLanguage requirements: Not specified\nInterpret
  ation: Not specified\nAccess: See organiser\nhttps://systemdynamics.org/ev
- ent/2027-conference-scholarship-application-deadline/\nNo longer found in 
- the latest source listing\; confirmation needed.\nThis event could not be 
- rechecked on the latest collection. Confirm with the organiser.
-LAST-MODIFIED:20261003T095602Z
+ ent/2027-conference-scholarship-application-deadline/\nSource could not be
+  fully rechecked.\nThis event could not be rechecked on the latest collect
+ ion. Confirm with the organiser.
+LAST-MODIFIED:20261016T090631Z
 LOCATION:United States\, United States
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -4747,9 +5716,9 @@ BEGIN:VEVENT
 SUMMARY:AI in System Dynamics Education | Task Force Monthly Meeting
 DTSTART:20270511T150000Z
 DTEND:20270511T160000Z
-DTSTAMP:20260914T095825Z
+DTSTAMP:20261022T092918Z
 UID:f52766894bb0c2230687cc43@systemsmap.antlerboy.com
-SEQUENCE:4
+SEQUENCE:5
 CATEGORIES:System dynamics
 DESCRIPTION:System Dynamics Society\nTime: 11:00 a.m. New York | 4:00 p.m.
   London | 11:00 p.m. BeijingWhen: First Tuesday of every month Please logi
@@ -4759,11 +5728,10 @@ DESCRIPTION:System Dynamics Society\nTime: 11:00 a.m. New York | 4:00 p.m.
  ovide a space to collaborate on the responsible integration of artifi\nLan
  guage: Not specified\nLanguage requirements: Not specified\nInterpretation
  : Not specified\nAccess: See organiser\nhttps://systemdynamics.org/event/a
- i-in-system-dynamics-education-task-force-monthly-meeting-2/2027-05-11/\nN
- o longer found in the latest source listing\; confirmation needed.\nThis e
- vent could not be rechecked on the latest collection. Confirm with the org
- aniser.
-LAST-MODIFIED:20260914T095825Z
+ i-in-system-dynamics-education-task-force-monthly-meeting-2/2027-05-11/\nS
+ ource could not be fully rechecked.\nThis event could not be rechecked on 
+ the latest collection. Confirm with the organiser.
+LAST-MODIFIED:20261022T092918Z
 LOCATION:https://systemdynamics.org/event/ai-in-system-dynamics-education-
  task-force-monthly-meeting-2/2027-05-11/
 STATUS:CONFIRMED
@@ -4773,17 +5741,17 @@ URL:https://systemdynamics.org/event/ai-in-system-dynamics-education-task-
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Deep Dive Intervisie: Critical Systems Heuristics
-DTSTART:20270511T170000Z
-DTEND:20270511T190000Z
-DTSTAMP:20261006T112159Z
+DTSTART:20270513T170000Z
+DTEND:20270513T190000Z
+DTSTAMP:20261017T223529Z
 UID:a625dfec133b92f5abdc8e12@systemsmap.antlerboy.com
-SEQUENCE:7
+SEQUENCE:9
 CATEGORIES:Systems thinking,Cybernetics
 DESCRIPTION:SCiO Belgium\n\nGeographic focus: Belgium\nLanguage: Dutch\nLa
  nguage requirements: Not specified\nInterpretation: Not specified\nAccess:
   Members only + Guests\nhttps://www.systemspractice.org/events/deep-dive-i
  ntervisie-critical-systems-heuristics-5
-LAST-MODIFIED:20261006T112159Z
+LAST-MODIFIED:20261017T223529Z
 LOCATION:tbc\, Belgium
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -4808,12 +5776,35 @@ TRANSP:TRANSPARENT
 URL:https://ics.teamup.com/feed/ksok8ra1xif3viq4no/0.ics
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Presenter Registration Deadline ISDC2027
+DTSTART:20270601T040000Z
+DTEND:20270602T035900Z
+DTSTAMP:20261023T092514Z
+UID:1983a65b8ec688ecebf21828@systemsmap.antlerboy.com
+SEQUENCE:0
+CATEGORIES:System dynamics
+DESCRIPTION:System Dynamics Society\nAuthors who are designated presenters
+  for the International System Dynamics Conference are required to register
+  for the conference by today. Submissions without a registered author will
+  be removed from the program.\nLanguage: Not specified\nLanguage requireme
+ nts: Not specified\nInterpretation: Not specified\nAccess: See organiser\n
+ https://systemdynamics.org/event/presenter-registration-deadline-isdc2027/
+ \nSource could not be fully rechecked.\nThis event could not be rechecked 
+ on the latest collection. Confirm with the organiser.
+LAST-MODIFIED:20261023T092514Z
+LOCATION:Location not published
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://systemdynamics.org/event/presenter-registration-deadline-isdc2
+ 027/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:AI in System Dynamics Education | Task Force Monthly Meeting
 DTSTART:20270608T150000Z
 DTEND:20270608T160000Z
-DTSTAMP:20260930T103411Z
+DTSTAMP:20261024T085707Z
 UID:635bb73c200d85eac1ac3db2@systemsmap.antlerboy.com
-SEQUENCE:5
+SEQUENCE:6
 CATEGORIES:System dynamics
 DESCRIPTION:System Dynamics Society\nTime: 11:00 a.m. New York | 4:00 p.m.
   London | 11:00 p.m. BeijingWhen: First Tuesday of every month Please logi
@@ -4823,11 +5814,10 @@ DESCRIPTION:System Dynamics Society\nTime: 11:00 a.m. New York | 4:00 p.m.
  ovide a space to collaborate on the responsible integration of artifi\nLan
  guage: Not specified\nLanguage requirements: Not specified\nInterpretation
  : Not specified\nAccess: See organiser\nhttps://systemdynamics.org/event/a
- i-in-system-dynamics-education-task-force-monthly-meeting-2/2027-06-08/\nN
- o longer found in the latest source listing\; confirmation needed.\nThis e
- vent could not be rechecked on the latest collection. Confirm with the org
- aniser.
-LAST-MODIFIED:20260930T103411Z
+ i-in-system-dynamics-education-task-force-monthly-meeting-2/2027-06-08/\nS
+ ource could not be fully rechecked.\nThis event could not be rechecked on 
+ the latest collection. Confirm with the organiser.
+LAST-MODIFIED:20261024T085707Z
 LOCATION:https://systemdynamics.org/event/ai-in-system-dynamics-education-
  task-force-monthly-meeting-2/2027-06-08/
 STATUS:CONFIRMED
@@ -4839,17 +5829,17 @@ BEGIN:VEVENT
 SUMMARY:WOSC Congress: Addressing Planetary Challenges
 DTSTART:20270616T070000Z
 DTEND:20270618T140000Z
-DTSTAMP:20261007T221454Z
+DTSTAMP:20261024T204503Z
 UID:99998e0fda728e162d4a9f6c@systemsmap.antlerboy.com
-SEQUENCE:40
+SEQUENCE:64
 CATEGORIES:Cybernetics,Systems thinking
 DESCRIPTION:World Organisation of Systems and Cybernetics (WOSC)\n\nLangua
  ge: Not specified\nLanguage requirements: Not specified\nInterpretation: N
  ot specified\nAccess: See organiser\nhttps://www.wosc.world/event-details/
  wosc-congress-2026-addressing-planetary-challenges\nThe page title and URL
-  retain 2026\, but its current Time & Location explicitly gives 16–18 Ju
- ne 2027. Confirm this discrepancy with WOSC before booking.
-LAST-MODIFIED:20261007T221454Z
+  retain 2026\, but its current Time & Location explicitly gives 16-18 June
+  2027. Confirm this discrepancy with WOSC before booking.
+LAST-MODIFIED:20261024T204503Z
 LOCATION:Ekonomsko-poslovna fakulteta UM\, Razlagova ulica 20\, Maribor\, 
  Slovenia
 STATUS:CONFIRMED
@@ -4875,6 +5865,29 @@ TRANSP:TRANSPARENT
 URL:https://ics.teamup.com/feed/ksok8ra1xif3viq4no/0.ics
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:18th Annual International Religious Tourism and Pilgrimage (IRTP) 
+ Conference
+DTSTART:20270623T110000Z
+DTEND:20270626T090000Z
+DTSTAMP:20261021T092622Z
+UID:cbbdfc19224671355ddbaa0c@systemsmap.antlerboy.com
+SEQUENCE:0
+CATEGORIES:Cybernetics,Systems thinking
+DESCRIPTION:Cybernetics and Systems Community Calendar\nThe International 
+ Religious Tourism and Pilgrimage Conference (IRTP)\, organised by the Inst
+ itute for Religious Tourism and Pilgrimage (IRTP) in conjunction with the 
+ International Journal of Religious Tourism and Pilgrimage (IJRTP) and host
+ ed by the University of Primorska\, Faculty of Tourism Studies\nLanguage: 
+ Not specified\nLanguage requirements: Not specified\nInterpretation: Not s
+ pecified\nAccess: See organiser\nhttps://teamup.com/ksok8ra1xif3viq4no/eve
+ nts/2191231031
+LAST-MODIFIED:20261021T092622Z
+LOCATION:Obala 11a\, 6320 Portorož\, Slovenija
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://teamup.com/ksok8ra1xif3viq4no/events/2191231031
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:AI in System Dynamics Education | Task Force Monthly Meeting
 DTSTART:20270713T150000Z
 DTEND:20270713T160000Z
@@ -4891,9 +5904,9 @@ DESCRIPTION:System Dynamics Society\nTime: 11:00 a.m. New York | 4:00 p.m.
  guage: Not specified\nLanguage requirements: Not specified\nInterpretation
  : Not specified\nAccess: See organiser\nhttps://systemdynamics.org/event/a
  i-in-system-dynamics-education-task-force-monthly-meeting-2/2027-07-13/\nN
- o longer found in the latest source listing\; confirmation needed.\nThis e
- vent could not be rechecked on the latest collection. Confirm with the org
- aniser.
+ o longer found in the latest source listing\; confirmation needed.\nSource
+  could not be fully rechecked.\nThis event could not be rechecked on the l
+ atest collection. Confirm with the organiser.
 LAST-MODIFIED:20260915T092934Z
 LOCATION:https://systemdynamics.org/event/ai-in-system-dynamics-education-
  task-force-monthly-meeting-2/2027-07-13/
@@ -4901,6 +5914,30 @@ STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 URL:https://systemdynamics.org/event/ai-in-system-dynamics-education-task-
  force-monthly-meeting-2/2027-07-13/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:INCOSE International Symposium 2027
+DTSTART;VALUE=DATE:20270717
+DTEND;VALUE=DATE:20270723
+DTSTAMP:20261024T204503Z
+UID:d1eb6db9a8d7b5ee53e28f80@systemsmap.antlerboy.com
+SEQUENCE:7
+CATEGORIES:Complexity,Systems thinking
+DESCRIPTION:INCOSE\nThe 37th INCOSE International Symposium\, with the ann
+ ounced theme Architecting Intelligence: Engineering Complex Systems.\nLang
+ uage: Not specified\nLanguage requirements: Not specified\nInterpretation:
+  Not specified\nAccess: See organiser for registration and current program
+ me\nhttps://www.incose.org/events-education/international-symposium/\nPubl
+ ished date range and venue checked. The detailed 2027 event platform is ma
+ rked Coming Soon\; daily session times and remote participation are not es
+ tablished.\nOfficial organiser page and location checked 18 October 2026.
+ \nDate-only listing\; check the organiser for session times.
+LAST-MODIFIED:20261024T204503Z
+LOCATION:Omni Shoreham Hotel\, 2500 Calvert St NW\, Washington\, DC 20008
+ \, United States
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.incose.org/events-education/international-symposium/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:VSM-AI Special Integration Group
@@ -4920,6 +5957,24 @@ TRANSP:TRANSPARENT
 URL:https://ics.teamup.com/feed/ksok8ra1xif3viq4no/0.ics
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Latin American Conference on Complex Networks (LANET 2027)
+DTSTART;VALUE=DATE:20270726
+DTEND;VALUE=DATE:20270731
+DTSTAMP:20261014T093553Z
+UID:020c3e14cbbfe9c9ddd6fd72@systemsmap.antlerboy.com
+SEQUENCE:0
+CATEGORIES:Complexity
+DESCRIPTION:Complex Systems Society\n\nLanguage: Not specified\nLanguage r
+ equirements: Not specified\nInterpretation: Not specified\nAccess: See org
+ aniser\nhttps://cssociety.org/event/5bc59df7-f92a-47d3-8f82-c4f18928f4f6/
+ \nDate-only listing\; check the organiser for session times.
+LAST-MODIFIED:20261014T093553Z
+LOCATION:Brazil\, Porto Alegre
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://cssociety.org/event/5bc59df7-f92a-47d3-8f82-c4f18928f4f6/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:AI in System Dynamics Education | Task Force Monthly Meeting
 DTSTART:20270810T150000Z
 DTEND:20270810T160000Z
@@ -4936,9 +5991,9 @@ DESCRIPTION:System Dynamics Society\nTime: 11:00 a.m. New York | 4:00 p.m.
  guage: Not specified\nLanguage requirements: Not specified\nInterpretation
  : Not specified\nAccess: See organiser\nhttps://systemdynamics.org/event/a
  i-in-system-dynamics-education-task-force-monthly-meeting-2/2027-08-10/\nN
- o longer found in the latest source listing\; confirmation needed.\nThis e
- vent could not be rechecked on the latest collection. Confirm with the org
- aniser.
+ o longer found in the latest source listing\; confirmation needed.\nSource
+  could not be fully rechecked.\nThis event could not be rechecked on the l
+ atest collection. Confirm with the organiser.
 LAST-MODIFIED:20260925T071905Z
 LOCATION:https://systemdynamics.org/event/ai-in-system-dynamics-education-
  task-force-monthly-meeting-2/2027-08-10/
@@ -4981,8 +6036,9 @@ DESCRIPTION:System Dynamics Society\nMonthly meetings of the Policy Counci
  equirements: Not specified\nInterpretation: Not specified\nAccess: See org
  aniser\nhttps://systemdynamics.org/event/ai-in-system-dynamics-education-t
  ask-force-monthly-meeting-2/2027-09-14/\nNo longer found in the latest sou
- rce listing\; confirmation needed.\nThis event could not be rechecked on t
- he latest collection. Confirm with the organiser.
+ rce listing\; confirmation needed.\nSource could not be fully rechecked.\n
+ This event could not be rechecked on the latest collection. Confirm with t
+ he organiser.
 LAST-MODIFIED:20260910T223446Z
 LOCATION:https://systemdynamics.org/event/ai-in-system-dynamics-education-
  task-force-monthly-meeting-2/2027-09-14/
@@ -5025,9 +6081,9 @@ DESCRIPTION:System Dynamics Society\nTime: 11:00 a.m. New York | 4:00 p.m.
  guage: Not specified\nLanguage requirements: Not specified\nInterpretation
  : Not specified\nAccess: See organiser\nhttps://systemdynamics.org/event/a
  i-in-system-dynamics-education-task-force-monthly-meeting-2/2027-10-12/\nN
- o longer found in the latest source listing\; confirmation needed.\nThis e
- vent could not be rechecked on the latest collection. Confirm with the org
- aniser.
+ o longer found in the latest source listing\; confirmation needed.\nSource
+  could not be fully rechecked.\nThis event could not be rechecked on the l
+ atest collection. Confirm with the organiser.
 LAST-MODIFIED:20260910T090026Z
 LOCATION:https://systemdynamics.org/event/ai-in-system-dynamics-education-
  task-force-monthly-meeting-2/2027-10-12/
@@ -5070,9 +6126,9 @@ DESCRIPTION:System Dynamics Society\nTime: 11:00 a.m. New York | 4:00 p.m.
  guage: Not specified\nLanguage requirements: Not specified\nInterpretation
  : Not specified\nAccess: See organiser\nhttps://systemdynamics.org/event/a
  i-in-system-dynamics-education-task-force-monthly-meeting-2/2027-11-09/\nN
- o longer found in the latest source listing\; confirmation needed.\nThis e
- vent could not be rechecked on the latest collection. Confirm with the org
- aniser.
+ o longer found in the latest source listing\; confirmation needed.\nSource
+  could not be fully rechecked.\nThis event could not be rechecked on the l
+ atest collection. Confirm with the organiser.
 LAST-MODIFIED:20260910T090026Z
 LOCATION:https://systemdynamics.org/event/ai-in-system-dynamics-education-
  task-force-monthly-meeting-2/2027-11-09/
@@ -5115,9 +6171,9 @@ DESCRIPTION:System Dynamics Society\nTime: 11:00 a.m. New York | 4:00 p.m.
  guage: Not specified\nLanguage requirements: Not specified\nInterpretation
  : Not specified\nAccess: See organiser\nhttps://systemdynamics.org/event/a
  i-in-system-dynamics-education-task-force-monthly-meeting-2/2027-12-14/\nN
- o longer found in the latest source listing\; confirmation needed.\nThis e
- vent could not be rechecked on the latest collection. Confirm with the org
- aniser.
+ o longer found in the latest source listing\; confirmation needed.\nSource
+  could not be fully rechecked.\nThis event could not be rechecked on the l
+ atest collection. Confirm with the organiser.
 LAST-MODIFIED:20260910T090026Z
 LOCATION:https://systemdynamics.org/event/ai-in-system-dynamics-education-
  task-force-monthly-meeting-2/2027-12-14/
@@ -5217,6 +6273,23 @@ DESCRIPTION:Metaphorum\n\nLanguage: Not specified\nLanguage requirements:
  Not specified\nInterpretation: Not specified\nAccess: See organiser\nhttps
  ://ics.teamup.com/feed/ksok8ra1xif3viq4no/0.ics
 LAST-MODIFIED:20260913T093647Z
+LOCATION:Location not published
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://ics.teamup.com/feed/ksok8ra1xif3viq4no/0.ics
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VSM-AI Special Integration Group
+DTSTART:20280419T160000Z
+DTEND:20280419T173000Z
+DTSTAMP:20261017T223529Z
+UID:5ee5a16338b06265d288f6b6@systemsmap.antlerboy.com
+SEQUENCE:0
+CATEGORIES:Cybernetics,Systems thinking
+DESCRIPTION:Metaphorum\n\nLanguage: Not specified\nLanguage requirements: 
+ Not specified\nInterpretation: Not specified\nAccess: See organiser\nhttps
+ ://ics.teamup.com/feed/ksok8ra1xif3viq4no/0.ics
+LAST-MODIFIED:20261017T223529Z
 LOCATION:Location not published
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT

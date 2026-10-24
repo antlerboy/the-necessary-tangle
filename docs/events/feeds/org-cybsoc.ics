@@ -5,4 +5,49 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:The Cybernetics Society (CybSoc)
 REFRESH-INTERVAL:P1D
 X-PUBLISHED-TTL:PT24H
+BEGIN:VEVENT
+SUMMARY:Cybernetics Live - Ashby\, Fuzzy\, and Me (Dr Steve Morlidge)
+DTSTART:20261015T160000Z
+DTEND:20261015T180000Z
+DTSTAMP:20261016T090631Z
+UID:30ab72722fcd45cdf7189b63@systemsmap.antlerboy.com
+SEQUENCE:0
+CATEGORIES:Cybernetics,Systems thinking
+DESCRIPTION:The Cybernetics Society (CybSoc)\nWho: Dr Steve Morlidge 1700-
+ 1900 UK Cybernetics Live online seminar. Taking variety engineering beyond
+  the conventional reading of Ashby’s Law — why matching variety is nec
+ essary but not sufficient\, and why viable organisation needs an account o
+ f energy (in organisations\, money) as well as information. https://us06we
+ b.zoom.us/meeting/register/P2vyZNSyQ4KAsPhCcICcbg\nLanguage: Not specified
+ \nLanguage requirements: Not specified\nInterpretation: Not specified\nAcc
+ ess: See organiser\nhttps://teamup.com/ksok8ra1xif3viq4no/events/218777008
+ 2
+LAST-MODIFIED:20261016T090631Z
+LOCATION:Zoom
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://teamup.com/ksok8ra1xif3viq4no/events/2187770082
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ashby\, Fuzzy\, and Me
+DTSTART:20261015T160000Z
+DTEND:20261015T180000Z
+DTSTAMP:20261024T204503Z
+UID:e86c94bf15bd90e1ab47f5ac@systemsmap.antlerboy.com
+SEQUENCE:15
+CATEGORIES:Cybernetics,Systems thinking
+DESCRIPTION:The Cybernetics Society (CybSoc)\nDr Steve Morlidge examines w
+ hy matching regulatory variety is necessary but insufficient\, considering
+  scale\, interdependence\, and the resources needed for viable organisatio
+ n.\nLanguage: Not specified\nLanguage requirements: Not specified\nInterpr
+ etation: Not specified\nAccess: Registration required\nhttps://us06web.zoo
+ m.us/meeting/register/P2vyZNSyQ4KAsPhCcICcbg\nDate\, time\, speaker\, and 
+ Zoom registration checked against the organiser's event page on 15 October
+  2026.
+LAST-MODIFIED:20261024T204503Z
+LOCATION:Online via Zoom
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://us06web.zoom.us/meeting/register/P2vyZNSyQ4KAsPhCcICcbg
+END:VEVENT
 END:VCALENDAR

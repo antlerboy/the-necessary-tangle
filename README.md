@@ -1,7 +1,7 @@
 # The Necessary Tangle
 
 <!-- current-31 -->
-Current release: **0.33, 18 October 2026**. [Current events, recent SysCoI reading and the Ashby Laboratory](https://transduction.systems/updates/2026-10-18/). [Four Ashby Laboratory learning pathways](https://transduction.systems/reading/ashby-laboratory/).
+Current release: **0.34, 24 October 2026**. [Current reading, practice, events, and contributions](https://transduction.systems/updates/2026-10-24/). [Quick contribute](https://transduction.systems/contribute/).
 <!-- /current-31 -->
 ## Release 0.23
 
@@ -137,7 +137,6 @@ Release 0.25 adds a source-scoped CoExplorer comparison and compares the two Ans
 ## Current intake: release 0.30
 
 Read https://transduction.systems/updates/2026-10-07/ for the complete dated intake and queue decisions, and https://transduction.systems/reading/socio-technical-transitions/ for Schot sources and the labelled practice exercise. The maintained event snapshot includes 230 listings, 130 upcoming; source failures remain visible.
-
 ## Release 0.26
 
 Release 0.26 connects 324 public-library resource records, 114 large-group entries, and eight now-public teaching-source URLs. The source register also includes Chosen Path and SysCoi post metadata, with automated discovery matches explicitly separated from located teaching claims. The private research inventory contains 2,943 indexed records; public bibliographic reconciliation is tracked separately. Current atlas: 1196 public entries, 1323 nodes, 3006 statements, and 715 sources. No independent specialist review is claimed. See https://transduction.systems/library/.

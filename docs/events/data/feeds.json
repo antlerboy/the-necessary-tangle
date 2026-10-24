@@ -2,32 +2,32 @@
   {
     "id": "all",
     "name": "All systems, cybernetics, and complexity events",
-    "events": 230
+    "events": 271
   },
   {
     "id": "online",
     "name": "Online events",
-    "events": 83
+    "events": 93
   },
   {
     "id": "topic-systems",
     "name": "Systems thinking",
-    "events": 110
+    "events": 125
   },
   {
     "id": "topic-cybernetics",
     "name": "Cybernetics",
-    "events": 59
+    "events": 65
   },
   {
     "id": "topic-complexity",
     "name": "Complexity",
-    "events": 68
+    "events": 92
   },
   {
     "id": "topic-system-dynamics",
     "name": "System dynamics",
-    "events": 69
+    "events": 73
   },
   {
     "id": "topic-systemic-design",
@@ -42,7 +42,7 @@
   {
     "id": "org-scio",
     "name": "SCiO — international chapters",
-    "events": 20
+    "events": 21
   },
   {
     "id": "org-scio-courses",
@@ -52,12 +52,12 @@
   {
     "id": "org-asc",
     "name": "American Society for Cybernetics (ASC)",
-    "events": 4
+    "events": 5
   },
   {
     "id": "org-community",
     "name": "Cybernetics and Systems Community Calendar",
-    "events": 25
+    "events": 27
   },
   {
     "id": "org-ifsr",
@@ -77,7 +77,7 @@
   {
     "id": "org-cybsoc",
     "name": "The Cybernetics Society (CybSoc)",
-    "events": 0
+    "events": 2
   },
   {
     "id": "org-systems-innovation",
@@ -87,7 +87,7 @@
   {
     "id": "org-system-dynamics",
     "name": "System Dynamics Society",
-    "events": 69
+    "events": 73
   },
   {
     "id": "org-santa-fe",
@@ -97,12 +97,12 @@
   {
     "id": "org-csh",
     "name": "Complexity Science Hub",
-    "events": 26
+    "events": 38
   },
   {
     "id": "org-css",
     "name": "Complex Systems Society",
-    "events": 5
+    "events": 9
   },
   {
     "id": "org-metaphorum",
@@ -147,7 +147,7 @@
   {
     "id": "org-iscpif",
     "name": "Institut des systèmes complexes Paris Île-de-France",
-    "events": 15
+    "events": 20
   },
   {
     "id": "org-griffith",
@@ -177,12 +177,12 @@
   {
     "id": "org-sociocracy",
     "name": "Sociocracy For All",
-    "events": 22
+    "events": 24
   },
   {
     "id": "org-incose",
     "name": "INCOSE — events",
-    "events": 0
+    "events": 8
   },
   {
     "id": "org-isss-japan",
@@ -192,7 +192,7 @@
   {
     "id": "org-syscoi",
     "name": "Systems Community of Inquiry: event discovery",
-    "events": 5
+    "events": 6
   },
   {
     "id": "org-hls",

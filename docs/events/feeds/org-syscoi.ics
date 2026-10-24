@@ -6,22 +6,22 @@ X-WR-CALNAME:Systems Community of Inquiry: event discovery
 REFRESH-INTERVAL:P1D
 X-PUBLISHED-TTL:PT24H
 BEGIN:VEVENT
-SUMMARY:Cybernetics in the Annex: Commemorating Stafford Beer’s Centenar
- y + Summer Conferences Recap
+SUMMARY:Cybernetics in the Annex: Commemorating Stafford Beer's Centenary 
+ + Summer Conferences Recap
 DTSTART:20260908T223000Z
 DTEND:20260909T001500Z
-DTSTAMP:20261007T221454Z
+DTSTAMP:20261024T204503Z
 UID:2e96c1af7848b3132733a6fb@systemsmap.antlerboy.com
-SEQUENCE:49
+SEQUENCE:73
 CATEGORIES:Cybernetics,Systems thinking
 DESCRIPTION:Systems Thinking Ontario\nAllenna Leonard discusses Stafford B
- eer’s work on organisational viability and participatory decision-making
- \, followed by a discussion of recent systems conferences. Moderated by Za
- id Khan.\nGeographic focus: Canada\, Ontario\nLanguage: Not specified\nLan
- guage requirements: Not specified\nInterpretation: Not specified\nAccess: 
- Register for in-person attendance or the online link\nhttps://guild.host/e
- vents/cybernetics-in-the-annex-tbara6
-LAST-MODIFIED:20261007T221454Z
+ eer's work on organisational viability and participatory decision-making\,
+  followed by a discussion of recent systems conferences. Moderated by Zaid
+  Khan.\nGeographic focus: Canada\, Ontario\nLanguage: Not specified\nLangu
+ age requirements: Not specified\nInterpretation: Not specified\nAccess: Re
+ gister for in-person attendance or the online link\nhttps://guild.host/eve
+ nts/cybernetics-in-the-annex-tbara6
+LAST-MODIFIED:20261024T204503Z
 LOCATION:OCAD University\, 205 Richmond St W\, Room 115\, Toronto\, Canada
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -31,17 +31,17 @@ BEGIN:VEVENT
 SUMMARY:Making relational\, place-based public services ordinary
 DTSTART:20260921T124500Z
 DTEND:20260921T141500Z
-DTSTAMP:20261007T221454Z
+DTSTAMP:20261024T204503Z
 UID:8c00d12aaf979855624fa772@systemsmap.antlerboy.com
-SEQUENCE:40
+SEQUENCE:64
 CATEGORIES:Relational public services,Systems thinking
-DESCRIPTION:SCiO / SysPrac26\nBenjamin Taylor’s workshop at SysPrac26. C
- onference booking required.\nLanguage: Not specified\nLanguage requirement
- s: Not specified\nInterpretation: Not specified\nAccess: See organiser\nht
- tps://www.systemspractice.org/Schedule26\nPresenter withdrew from the conf
- erence session\; organiser’s follow-up offers separate online workshops.
-  Checked 7 October 2026.
-LAST-MODIFIED:20261007T221454Z
+DESCRIPTION:SCiO / SysPrac26\nBenjamin Taylor's workshop at SysPrac26. Con
+ ference booking required.\nLanguage: Not specified\nLanguage requirements:
+  Not specified\nInterpretation: Not specified\nAccess: See organiser\nhttp
+ s://www.systemspractice.org/Schedule26\nPresenter withdrew from the confer
+ ence session\; organiser's follow-up offers separate online workshops. Che
+ cked 7 October 2026.
+LAST-MODIFIED:20261024T204503Z
 LOCATION:LR4\, Vincent Building\, Cranfield University\, United Kingdom
 STATUS:CANCELLED
 TRANSP:TRANSPARENT
@@ -51,16 +51,16 @@ BEGIN:VEVENT
 SUMMARY:Exploring the role of the Knowledge Weaver
 DTSTART:20260922T120000Z
 DTEND:20260922T130000Z
-DTSTAMP:20261007T221454Z
+DTSTAMP:20261024T204503Z
 UID:e4ccdfd6cb1fb968ada0d1b3@systemsmap.antlerboy.com
-SEQUENCE:40
+SEQUENCE:64
 CATEGORIES:Relational public services,Systems thinking
 DESCRIPTION:Q Network Weaving group / COPE Scotland\nA conversation with J
  une Holley about knowledge weaving and collective learning in health and c
  are.\nLanguage: Not specified\nLanguage requirements: Not specified\nInter
  pretation: Not specified\nAccess: See organiser\nhttps://q.thenhsalliance.
  org/get-involved/events/exploring-the-role-of-the-knowledge-weaver
-LAST-MODIFIED:20261007T221454Z
+LAST-MODIFIED:20261024T204503Z
 LOCATION:Online
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -68,41 +68,64 @@ URL:https://q.thenhsalliance.org/get-involved/events/exploring-the-role-of
  -the-knowledge-weaver
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Designing AI’s Boundaries: Respecting Human Agency
+SUMMARY:Designing AI's Boundaries: Respecting Human Agency
 DTSTART;VALUE=DATE:20260926
 DTEND;VALUE=DATE:20260930
-DTSTAMP:20261007T221454Z
+DTSTAMP:20261024T204503Z
 UID:53fe868f7f0be1ba79b3dafe@systemsmap.antlerboy.com
-SEQUENCE:40
+SEQUENCE:64
 CATEGORIES:Complexity,Cybernetics,Systemic design
 DESCRIPTION:World Design Cities Conference / SUES and Tongji University\nD
  ialogue event chaired by Michael Lissack\, with remote participation descr
- ibed by the organiser. Headline dates span 26–29 September\; consult the
-  detailed programme for individual sessions.\nLanguage: Not specified\nLan
- guage requirements: Not specified\nInterpretation: Not specified\nAccess: 
- See organiser\nhttps://alwaysquestion.ai/\nDate-only listing\; check the o
- rganiser for session times.
-LAST-MODIFIED:20261007T221454Z
+ ibed by the organiser. Headline dates span 26-29 September\; consult the d
+ etailed programme for individual sessions.\nLanguage: Not specified\nLangu
+ age requirements: Not specified\nInterpretation: Not specified\nAccess: Se
+ e organiser\nhttps://alwaysquestion.ai/\nDate-only listing\; check the org
+ aniser for session times.
+LAST-MODIFIED:20261024T204503Z
 LOCATION:Shanghai\, China
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 URL:https://alwaysquestion.ai/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Bernhard Sterchi - Complexity Theory and Neo-Kantian Theory of Sci
+ ence
+DTSTART:20261020T160000Z
+DTEND:20261020T180000Z
+DTSTAMP:20261024T204503Z
+UID:713d6c13ee642d282c8f0e07@systemsmap.antlerboy.com
+SEQUENCE:8
+CATEGORIES:Complexity,Cybernetics,Systems thinking
+DESCRIPTION:The Complexity Lounge\nAn online talk comparing complexity the
+ ory with Neo-Kantian approaches to scientific explanation\, followed by di
+ scussion. The organiser is the authoritative source for attendance details
+ .\nLanguage: Not specified\nLanguage requirements: Not specified\nInterpre
+ tation: Not specified\nAccess: Register with the organiser for the online 
+ event\nhttps://www.meetup.com/complexitylounge/events/316861213/\nOrganise
+ r JSON-LD checked 18 October 2026: 12:00-14:00 -04:00\, equivalent to 17:0
+ 0-19:00 Europe/London.
+LAST-MODIFIED:20261024T204503Z
+LOCATION:Online
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.meetup.com/complexitylounge/events/316861213/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:WOSC Congress: Addressing Planetary Challenges
 DTSTART:20270616T070000Z
 DTEND:20270618T140000Z
-DTSTAMP:20261007T221454Z
+DTSTAMP:20261024T204503Z
 UID:99998e0fda728e162d4a9f6c@systemsmap.antlerboy.com
-SEQUENCE:40
+SEQUENCE:64
 CATEGORIES:Cybernetics,Systems thinking
 DESCRIPTION:World Organisation of Systems and Cybernetics (WOSC)\n\nLangua
  ge: Not specified\nLanguage requirements: Not specified\nInterpretation: N
  ot specified\nAccess: See organiser\nhttps://www.wosc.world/event-details/
  wosc-congress-2026-addressing-planetary-challenges\nThe page title and URL
-  retain 2026\, but its current Time & Location explicitly gives 16–18 Ju
- ne 2027. Confirm this discrepancy with WOSC before booking.
-LAST-MODIFIED:20261007T221454Z
+  retain 2026\, but its current Time & Location explicitly gives 16-18 June
+  2027. Confirm this discrepancy with WOSC before booking.
+LAST-MODIFIED:20261024T204503Z
 LOCATION:Ekonomsko-poslovna fakulteta UM\, Razlagova ulica 20\, Maribor\, 
  Slovenia
 STATUS:CONFIRMED

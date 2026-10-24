@@ -471,7 +471,10 @@ DESCRIPTION:Complexity Science Hub\nRapid\, unanticipated shifts in migran
  \nLanguage: Not specified\nLanguage requirements: Not specified\nInterpret
  ation: Not specified\nAccess: See organiser\nhttps://csh.ac.at/events/a-br
  idge-from-collective-motion-to-social-behavior-migration-and-collective-de
- cisions/\nDate-only listing\; check the organiser for session times.
+ cisions/\nDate-only listing\; check the organiser for session times.\nNo l
+ onger found in the latest source listing\; confirmation needed.\nThis even
+ t could not be rechecked on the latest collection. Confirm with the organi
+ ser.
 LAST-MODIFIED:20260917T093127Z
 LOCATION:CSH Salon
 STATUS:CONFIRMED
@@ -484,9 +487,9 @@ SUMMARY:What are Programmers doing on GitHub? Inferring Software Skills fr
  om API on GitHub
 DTSTART:20261013T123000Z
 DTEND:20261013T130000Z
-DTSTAMP:20261007T220943Z
+DTSTAMP:20261009T112400Z
 UID:22eb7bab03d6959fd176cefd@systemsmap.antlerboy.com
-SEQUENCE:0
+SEQUENCE:1
 CATEGORIES:Complexity
 DESCRIPTION:Complexity Science Hub\nSkills are central to labor market res
  earch\, yet for software work they are usually measured through coarse pro
@@ -497,13 +500,43 @@ DESCRIPTION:Complexity Science Hub\nSkills are central to labor market res
  Language: Not specified\nLanguage requirements: Not specified\nInterpretat
  ion: Not specified\nAccess: See organiser\nhttps://csh.ac.at/events/what-a
  re-programmers-doing-on-github-inferring-software-skills-from-api-on-githu
- b/
-LAST-MODIFIED:20261007T220943Z
-LOCATION:CSH Salon
+ b/\nNo longer found in the latest source listing\; confirmation needed.\nT
+ his event could not be rechecked on the latest collection. Confirm with th
+ e organiser.
+LAST-MODIFIED:20261009T112400Z
+LOCATION:Library Metternichgasse 8\, 1030 Vienna
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 URL:https://csh.ac.at/events/what-are-programmers-doing-on-github-inferrin
  g-software-skills-from-api-on-github/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tracing OEM Supply Chain Strategies in the EV Transition: Prelimin
+ ary Evidence from Press Releases
+DTSTART:20261013T130000Z
+DTEND:20261013T133000Z
+DTSTAMP:20261009T112400Z
+UID:4ac4bf61def495f2eb9bf28c@systemsmap.antlerboy.com
+SEQUENCE:0
+CATEGORIES:Complexity
+DESCRIPTION:Complexity Science Hub\nThe transition to electric vehicles ch
+ allenges incumbent automakers to rethink their strategies and supply chain
+ s. In this talk\, Leonardo will present ongoing work on how established OE
+ Ms have responded\, using a new dataset built from the historical archives
+  of their press releases. The aim is to identify investments\, strategic d
+ ecisions and the nature of supplier relationships. He will present th\nLan
+ guage: Not specified\nLanguage requirements: Not specified\nInterpretation
+ : Not specified\nAccess: See organiser\nhttps://csh.ac.at/events/tracing-o
+ em-supply-chain-strategies-in-the-ev-transition-preliminary-evidence-from-
+ press-releases/\nNo longer found in the latest source listing\; confirmati
+ on needed.\nThis event could not be rechecked on the latest collection. Co
+ nfirm with the organiser.
+LAST-MODIFIED:20261009T112400Z
+LOCATION:Library Metternichgasse 8\, 1030 Vienna
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://csh.ac.at/events/tracing-oem-supply-chain-strategies-in-the-ev
+ -transition-preliminary-evidence-from-press-releases/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Taking the Complexity of Misinformation Susceptibility into Accoun
@@ -522,7 +555,9 @@ DESCRIPTION:Complexity Science Hub\nMisinformation is often described as o
  s focusing on different levels of a complex multilevel system through\nLan
  guage: Not specified\nLanguage requirements: Not specified\nInterpretation
  : Not specified\nAccess: See organiser\nhttps://csh.ac.at/events/taking-th
- e-complexity-of-misinformation-susceptibility-into-account/
+ e-complexity-of-misinformation-susceptibility-into-account/\nNo longer fou
+ nd in the latest source listing\; confirmation needed.\nThis event could n
+ ot be rechecked on the latest collection. Confirm with the organiser.
 LAST-MODIFIED:20261007T220943Z
 LOCATION:CSH Salon
 STATUS:CONFIRMED
@@ -531,30 +566,240 @@ URL:https://csh.ac.at/events/taking-the-complexity-of-misinformation-susce
  ptibility-into-account/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Walkers Scattered in Street Networks: Robust Decentralized Gatheri
+ ngs
+DTSTART:20261020T123000Z
+DTEND:20261020T130000Z
+DTSTAMP:20261015T092300Z
+UID:321a88607bb39d2bd4249050@systemsmap.antlerboy.com
+SEQUENCE:0
+CATEGORIES:Complexity
+DESCRIPTION:Complexity Science Hub\nHow to meet if we are dispersed in a c
+ ity? Coordinating\, by exchanging our positions thanks to modern means of 
+ communication\, seems easy. But how to achieve the same result if communic
+ ations are impossible and no meeting point is identifiable? This is the ca
+ se\, for example\, during a repressed social movement. In this talk\, Guil
+ laume Moinard models protesters as random walks\, on a street network\, w
+ \nLanguage: Not specified\nLanguage requirements: Not specified\nInterpret
+ ation: Not specified\nAccess: See organiser\nhttps://csh.ac.at/events/walk
+ ers-scattered-in-street-networks-robust-decentralized-gatherings/\nNo long
+ er found in the latest source listing\; confirmation needed.\nThis event c
+ ould not be rechecked on the latest collection. Confirm with the organiser
+ .
+LAST-MODIFIED:20261015T092300Z
+LOCATION:CSH Salon
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://csh.ac.at/events/walkers-scattered-in-street-networks-robust-d
+ ecentralized-gatherings/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Experimental Testing of Anticonformity to Depolarize Social System
+DTSTART:20261020T130000Z
+DTEND:20261020T133000Z
+DTSTAMP:20261016T090631Z
+UID:0c75ea1398ff9f9ccd5553f1@systemsmap.antlerboy.com
+SEQUENCE:0
+CATEGORIES:Complexity
+DESCRIPTION:Complexity Science Hub\nAnticonformity\, or going against the 
+ group norm\, as a form of social response has been studied in computationa
+ l models. But empirically\, we still don't know if anticonformity can be e
+ ncouraged to a level sufficient to reduce polarization of opinions. They i
+ nvestigate this using an interactive group experiments where we gave some 
+ people an encouragement to stand out to help their group reconsiders \nLan
+ guage: Not specified\nLanguage requirements: Not specified\nInterpretation
+ : Not specified\nAccess: See organiser\nhttps://csh.ac.at/events/experimen
+ tal-testing-of-anticonformity-to-depolarize-social-system/\nNo longer foun
+ d in the latest source listing\; confirmation needed.\nThis event could no
+ t be rechecked on the latest collection. Confirm with the organiser.
+LAST-MODIFIED:20261016T090631Z
+LOCATION:CSH Salon
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://csh.ac.at/events/experimental-testing-of-anticonformity-to-dep
+ olarize-social-system/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Why Model? Computational Approaches to Complex Socio-Ecological-Te
+ chnological Systems
+DTSTART:20261021T150000Z
+DTEND:20261021T160000Z
+DTSTAMP:20261010T104118Z
+UID:f494ce4c2992f62146b8949a@systemsmap.antlerboy.com
+SEQUENCE:0
+CATEGORIES:Complexity
+DESCRIPTION:Complexity Science Hub\nModeling in inherent in human percepti
+ on of and communication about our world. And while powerful\, our innate m
+ odeling abilities are often insufficient to understand and manage the comp
+ lex world in which we live. Human socio-ecological-technological systems (
+ SETS) have evolved into highly complex systems at planetary scale. The sca
+ le and dimensionality of human SETS\, their interconnections\, teleco\nLan
+ guage: Not specified\nLanguage requirements: Not specified\nInterpretation
+ : Not specified\nAccess: See organiser\nhttps://csh.ac.at/events/why-model
+ -computational-approaches-to-complex-socio-ecological-technological-system
+ s/\nNo longer found in the latest source listing\; confirmation needed.\nT
+ his event could not be rechecked on the latest collection. Confirm with th
+ e organiser.
+LAST-MODIFIED:20261010T104118Z
+LOCATION:Library Metternichgasse 8\, 1030 Vienna
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://csh.ac.at/events/why-model-computational-approaches-to-complex
+ -socio-ecological-technological-systems/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Living in Complexity: an STS Perspective on the Complexity Science
+  Hub
+DTSTART:20261027T123000Z
+DTEND:20261027T130000Z
+DTSTAMP:20261016T090631Z
+UID:5b91e6ae0fd6893e515b559d@systemsmap.antlerboy.com
+SEQUENCE:0
+CATEGORIES:Complexity
+DESCRIPTION:Complexity Science Hub\nDespite existing as a scientific label
+  for roughly four decades\, complexity science has never fully institution
+ alized as a discipline and has instead been described by scholars as a ‘
+ quasi-discipline’ or a ‘scientific platform’. Complexity science com
+ bines an antireductionist stance with the formal acknowledgement of uncert
+ ainty – stressing the importance of ‘emerging’ properties of systems
+  over t\nLanguage: Not specified\nLanguage requirements: Not specified\nIn
+ terpretation: Not specified\nAccess: See organiser\nhttps://csh.ac.at/even
+ ts/living-in-complexity-an-sts-perspective-on-the-complexity-science-hub/
+LAST-MODIFIED:20261016T090631Z
+LOCATION:CSH Salon
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://csh.ac.at/events/living-in-complexity-an-sts-perspective-on-th
+ e-complexity-science-hub/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Network Motifs: Fingerprints of Design\, or Statistical Echoes?
+DTSTART:20261027T130000Z
+DTEND:20261027T133000Z
+DTSTAMP:20261023T092514Z
+UID:54b3efaf62aee6be878b5e4e@systemsmap.antlerboy.com
+SEQUENCE:0
+CATEGORIES:Complexity
+DESCRIPTION:Complexity Science Hub\nNetwork motifs are small subgraphs tha
+ t occur more often than expected by chance\, and they have been proposed a
+ s the building blocks of complex networks. They have been studied extensiv
+ ely in biological and social systems\, and more recently in inter-firm and
+  supply networks\, where significant triads have been related to the buyer
+ –supplier–supplier relationships. A standard method compares the freq
+ \nLanguage: Not specified\nLanguage requirements: Not specified\nInterpret
+ ation: Not specified\nAccess: See organiser\nhttps://csh.ac.at/events/netw
+ ork-motifs-fingerprints-of-design-or-statistical-echoes/
+LAST-MODIFIED:20261023T092514Z
+LOCATION:CSH Salon
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://csh.ac.at/events/network-motifs-fingerprints-of-design-or-stat
+ istical-echoes/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Structure\, Agency and Systemic Resilience: How Network Structure
+ \, Political Agency and Influence Mechanisms shape the Absorption of Shock
+ s in Simulated Policy Networks
+DTSTART:20261028T150000Z
+DTEND:20261028T160000Z
+DTSTAMP:20261021T092622Z
+UID:51fb66e9729a19abee9726fe@systemsmap.antlerboy.com
+SEQUENCE:0
+CATEGORIES:Complexity
+DESCRIPTION:Complexity Science Hub\nDoes the resilience of a policy networ
+ k depend on its structure\, on what is transferred through ties\, or on th
+ e actions of political agents? In this paper systemic shocks\, such as the
+  sudden dissolution of ties and regime shift impact networks of policy act
+ ors. An agent-based model is calibrated on ten published influence and col
+ laboration networks. Three experiments vary network architecture\, whi\nLa
+ nguage: Not specified\nLanguage requirements: Not specified\nInterpretatio
+ n: Not specified\nAccess: See organiser\nhttps://csh.ac.at/events/structur
+ e-agency-and-systemic-resilience-how-network-structure-political-agency-an
+ d-influence-mechanisms-shape-the-absorption-of-shocks-in-simulated-policy-
+ networks/
+LAST-MODIFIED:20261021T092622Z
+LOCATION:Library Metternichgasse 8\, 1030 Vienna
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://csh.ac.at/events/structure-agency-and-systemic-resilience-how-
+ network-structure-political-agency-and-influence-mechanisms-shape-the-abso
+ rption-of-shocks-in-simulated-policy-networks/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The impact of network structure on social contagion and neural ODE
+  generalization
+DTSTART:20261030T150000Z
+DTEND:20261030T160000Z
+DTSTAMP:20261024T085707Z
+UID:9c6805ab7e20b84c420557f7@systemsmap.antlerboy.com
+SEQUENCE:0
+CATEGORIES:Complexity
+DESCRIPTION:Complexity Science Hub\nA complex system’s structure\, often
+  represented as a network\, shapes not only how dynamical processes unfold
+  but also how well we can learn and predict them. First\, I will explore t
+ he influence of structure on dynamics in the context of systems that exhib
+ it both homophily\, i.e.\, a preference of individuals that are similar to
+  interact\, and group interactions\, represented as hyperedges that connec
+ t\nLanguage: Not specified\nLanguage requirements: Not specified\nInterpre
+ tation: Not specified\nAccess: See organiser\nhttps://csh.ac.at/events/the
+ -impact-of-network-structure-on-social-contagion-and-neural-ode-generaliza
+ tion/
+LAST-MODIFIED:20261024T085707Z
+LOCATION:CSH Salon
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://csh.ac.at/events/the-impact-of-network-structure-on-social-con
+ tagion-and-neural-ode-generalization/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Art & Science with Markus Hofer & Peter Ertl: “The Characteristi
  cs of Viewing Conditions”
 DTSTART:20261103T183000Z
 DTEND:20261103T213000Z
-DTSTAMP:20261007T111029Z
+DTSTAMP:20261020T093032Z
 UID:ce767e19c96d5c7f07ee9d3a@systemsmap.antlerboy.com
-SEQUENCE:0
+SEQUENCE:1
 CATEGORIES:Complexity
-DESCRIPTION:Complexity Science Hub\nArt by Markus Hofer: "The Characterist
- ics of Viewing Conditions" Markus Hofer looks at things and turns their or
- iginal form and function into something new that doesn’t lose the tie wi
- th the original object from which it drifts. His interventions\, very spec
- ific in their refined aesthetic aspect\, use those characteristics as a st
- arting point. The meanings are upgraded\, emphasized\, multiplied. The e\n
- Language: Not specified\nLanguage requirements: Not specified\nInterpretat
- ion: Not specified\nAccess: See organiser\nhttps://csh.ac.at/events/art-sc
- ience-with-markus-hofer-peter-ertl-the-characteristics-of-viewing-conditio
- ns/
-LAST-MODIFIED:20261007T111029Z
+DESCRIPTION:Complexity Science Hub\nOn 3 November\, the Complexity Science
+  Hub (CSH) opens its next exhibition as part of our Art & Science program.
+  This time\, we’re showing works by artist Markus Hofer\, who turns ever
+ yday objects into something new. Scientist Peter Ertl\, Vice Rector for Re
+ search\, Innovation and International Affairs at TU Wien\, will add a pers
+ pective from science.The exhibition opening is open to everyone interested
+ \nLanguage: Not specified\nLanguage requirements: Not specified\nInterpret
+ ation: Not specified\nAccess: See organiser\nhttps://csh.ac.at/events/art-
+ science-with-markus-hofer-peter-ertl-the-characteristics-of-viewing-condit
+ ions/
+LAST-MODIFIED:20261020T093032Z
 LOCATION:CSH Salon
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 URL:https://csh.ac.at/events/art-science-with-markus-hofer-peter-ertl-the-
  characteristics-of-viewing-conditions/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Causality at Machine Learning Scale and Complexity
+DTSTART:20261104T150000Z
+DTEND:20261104T160000Z
+DTSTAMP:20261024T085707Z
+UID:8152cef96c1c683deb0369fd@systemsmap.antlerboy.com
+SEQUENCE:0
+CATEGORIES:Complexity
+DESCRIPTION:Complexity Science Hub\nDistinguishing coincidence from cause-
+ and-effect relationships is a central challenge in AI (and science): which
+  patterns just co-occur\, and which signal causality? Statistical causalit
+ y offers a rigorous framework for this question\, but it assumes clean\, l
+ ow-dimensional\, structured data\, which clashes with the raw\, high-dimen
+ sional observations of machine learning applications\, including in scien
+ \nLanguage: Not specified\nLanguage requirements: Not specified\nInterpret
+ ation: Not specified\nAccess: See organiser\nhttps://csh.ac.at/events/caus
+ ality-at-machine-learning-scale-and-complexity/
+LAST-MODIFIED:20261024T085707Z
+LOCATION:CSH Salon
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://csh.ac.at/events/causality-at-machine-learning-scale-and-compl
+ exity/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Crisis and Resilience in Historical and Modern Societies
@@ -632,20 +877,23 @@ URL:https://csh.ac.at/events/doomsday-conference-on-the-sense-and-nonsense
  -of-end-of-the-world-predictions/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Public Panel Discussion: How to Survive Doomsdays
+SUMMARY:How to Survive Doomsdays
 DTSTART:20261112T170000Z
 DTEND:20261112T183000Z
-DTSTAMP:20261006T112159Z
+DTSTAMP:20261024T085707Z
 UID:141854d1afc83679f856855e@systemsmap.antlerboy.com
-SEQUENCE:1
+SEQUENCE:3
 CATEGORIES:Complexity
-DESCRIPTION:Complexity Science Hub\nWelcome: Stefan Thurner Panel Discussa
- nts: Pearl Dykstra\, Jesse Ausubel\, Geoffrey West\, more participants tbd
-  Moderator: Helga Nowotny more information will follow.\nLanguage: Not spe
- cified\nLanguage requirements: Not specified\nInterpretation: Not specifie
- d\nAccess: See organiser\nhttps://csh.ac.at/events/public-panel-discussion
- -how-to-survive-doomsdays/
-LAST-MODIFIED:20261006T112159Z
+DESCRIPTION:Complexity Science Hub\nOn the sense and nonsense of end-of-th
+ e-world predictions In 1960\, Vienna-born physicist Heinz von Foerster and
+  colleagues calculated the end of the world: 13 November 2026\, when popul
+ ation would reach infinity. A deliberately provocative way to make a serio
+ us point. We take the date as a cue to look at where population is really 
+ heading\, and what that means for us. Welcome: Stefan Thurner Panel D\nLan
+ guage: Not specified\nLanguage requirements: Not specified\nInterpretation
+ : Not specified\nAccess: See organiser\nhttps://csh.ac.at/events/public-pa
+ nel-discussion-how-to-survive-doomsdays/
+LAST-MODIFIED:20261024T085707Z
 LOCATION:CSH Salon
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -653,26 +901,107 @@ URL:https://csh.ac.at/events/public-panel-discussion-how-to-survive-doomsd
  ays/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:WEdnesday SALON – with Gerd Gigerenzer
+SUMMARY:WEdnesday SALON – When to Trust AI and When to Think for Ourselv
+ es
 DTSTART:20261123T180000Z
 DTEND:20261123T192000Z
-DTSTAMP:20261007T111029Z
+DTSTAMP:20261021T092622Z
 UID:c58d30077f596439a12f9271@systemsmap.antlerboy.com
-SEQUENCE:0
+SEQUENCE:2
 CATEGORIES:Complexity
-DESCRIPTION:Complexity Science Hub\ntbcAbout Gerd GigerenzerGerd Gigerenze
- r is a long-time director at the Max Planck Institute for Human Developmen
- t\, heads the Harding Center for Risk Literacy at the University of Potsda
- m\, and served as Vice President of the European Research Council (ERC).He
-  researches how people deal with risk and uncertainty and has trained mana
- gers\, doctors\, and U.S. federal judges in this field. His award-winn\nLa
- nguage: Not specified\nLanguage requirements: Not specified\nInterpretatio
- n: Not specified\nAccess: See organiser\nhttps://csh.ac.at/events/wednesda
- y-salon-with-gerd-gigerenzer/
-LAST-MODIFIED:20261007T111029Z
+DESCRIPTION:Complexity Science Hub\nStaying smart in a smart world. From d
+ ating apps to self-driving cars\, AI promises to make life easier and deci
+ sions better. But what can algorithms really do – and when should we tru
+ st our own judgment? Join Gerd Gigerenzer (exceptionally not on a WEdnesda
+ y but on a Monday) for a look at AI hype\, human intelligence\, and why si
+ mple rules can sometimes outperform complex systems. Artificial intelli\nL
+ anguage: Not specified\nLanguage requirements: Not specified\nInterpretati
+ on: Not specified\nAccess: See organiser\nhttps://csh.ac.at/events/wednesd
+ ay-salon-with-gerd-gigerenzer/\nNo longer found in the latest source listi
+ ng\; confirmation needed.\nThis event could not be rechecked on the latest
+  collection. Confirm with the organiser.
+LAST-MODIFIED:20261021T092622Z
 LOCATION:CSH Salon
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 URL:https://csh.ac.at/events/wednesday-salon-with-gerd-gigerenzer/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:From Research to Entrepreneurship: Exploring Career Paths Beyond A
+ cademia
+DTSTART:20261125T143000Z
+DTEND:20261125T160000Z
+DTSTAMP:20261021T092622Z
+UID:a0b70c1cdcf1d05c69d5198a@systemsmap.antlerboy.com
+SEQUENCE:0
+CATEGORIES:Complexity
+DESCRIPTION:Complexity Science Hub\nCan you be both a scientist and an ent
+ repreneur? What does it take to turn a research idea into a successful bus
+ iness? In this panel discussion\, three scientists who have founded their 
+ own companies will share their experiences of moving from research into en
+ trepreneurship. They will introduce their businesses\, discuss how their i
+ deas emerged\, and reflect on the opportunities and challenges they e\nLan
+ guage: Not specified\nLanguage requirements: Not specified\nInterpretation
+ : Not specified\nAccess: See organiser\nhttps://csh.ac.at/events/from-rese
+ arch-to-entrepreneurship-exploring-career-paths-beyond-academia/\nNo longe
+ r found in the latest source listing\; confirmation needed.\nThis event co
+ uld not be rechecked on the latest collection. Confirm with the organiser.
+LAST-MODIFIED:20261021T092622Z
+LOCATION:CSH Salon
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://csh.ac.at/events/from-research-to-entrepreneurship-exploring-c
+ areer-paths-beyond-academia/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:WEdnesday Salon – Re-Inventing Democracy in the Age of AI
+DTSTART:20261202T180000Z
+DTEND:20261202T192000Z
+DTSTAMP:20261022T092918Z
+UID:fb232060ffe098009f9ac364@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Complexity
+DESCRIPTION:Complexity Science Hub\nFor everyone to benefit from technolog
+ ical innovation\, social innovation is needed too – from new ways of vot
+ ing and giving people a say in how public money is spent to making better 
+ use of people’s knowledge and ideas. What could digital-age democracy lo
+ ok like? Everyone is talking about new technology and how it can change ou
+ r lives. But technology is only part of the picture. Today\, the digital\n
+ Language: Not specified\nLanguage requirements: Not specified\nInterpretat
+ ion: Not specified\nAccess: See organiser\nhttps://csh.ac.at/events/wednes
+ day-salon-with-dirk-helbing/\nNo longer found in the latest source listing
+ \; confirmation needed.\nThis event could not be rechecked on the latest c
+ ollection. Confirm with the organiser.
+LAST-MODIFIED:20261022T092918Z
+LOCATION:Complexity Science Hub Complexity Science Hub\, Metternichgasse 8
+ \, 1030 Vienna
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://csh.ac.at/events/wednesday-salon-with-dirk-helbing/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Winter School 2027
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270305
+DTSTAMP:20261015T091351Z
+UID:8a01d8d95b35fce685bbe6b4@systemsmap.antlerboy.com
+SEQUENCE:1
+CATEGORIES:Complexity
+DESCRIPTION:Digital Innovation School\nHealthcare & Medicine Details of th
+ e Winter School program are forthcoming. Find more information on the Wint
+ er School program page. The booking form is exclusively for candidates who
+  have received a message with registration and payment instructions.\nLang
+ uage: Not specified\nLanguage requirements: Not specified\nInterpretation:
+  Not specified\nAccess: See organiser\nhttps://csh.ac.at/events/winter-sch
+ ool-2027/\nDate-only listing\; check the organiser for session times.\nNo 
+ longer found in the latest source listing\; confirmation needed.\nThis eve
+ nt could not be rechecked on the latest collection. Confirm with the organ
+ iser.
+LAST-MODIFIED:20261015T091351Z
+LOCATION:Complexity Science Hub Complexity Science Hub\, Metternichgasse 8
+ \, 1030 Vienna
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://csh.ac.at/events/winter-school-2027/
 END:VEVENT
 END:VCALENDAR

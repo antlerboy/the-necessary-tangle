@@ -7,23 +7,6 @@ REFRESH-INTERVAL:P1D
 X-PUBLISHED-TTL:PT24H
 BEGIN:VEVENT
 SUMMARY:VSM-AI Special Integration Group
-DTSTART:20260715T160000Z
-DTEND:20260715T173000Z
-DTSTAMP:20260909T082311Z
-UID:743419255f36b0886d4f5d36@systemsmap.antlerboy.com
-SEQUENCE:2
-CATEGORIES:Cybernetics,Systems thinking
-DESCRIPTION:Metaphorum\n\nLanguage: Not specified\nLanguage requirements: 
- Not specified\nInterpretation: Not specified\nAccess: See organiser\nhttps
- ://ics.teamup.com/feed/ksok8ra1xif3viq4no/0.ics
-LAST-MODIFIED:20260909T082311Z
-LOCATION:Location not published
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-URL:https://ics.teamup.com/feed/ksok8ra1xif3viq4no/0.ics
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:VSM-AI Special Integration Group
 DTSTART:20260819T160000Z
 DTEND:20260819T173000Z
 DTSTAMP:20260909T082311Z
@@ -116,6 +99,29 @@ LOCATION:Turin\, Italy
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 URL:https://rsdsymposium.org/rsd15-turin/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Cybernetics Live - Ashby\, Fuzzy\, and Me (Dr Steve Morlidge)
+DTSTART:20261015T160000Z
+DTEND:20261015T180000Z
+DTSTAMP:20261016T090631Z
+UID:30ab72722fcd45cdf7189b63@systemsmap.antlerboy.com
+SEQUENCE:0
+CATEGORIES:Cybernetics,Systems thinking
+DESCRIPTION:The Cybernetics Society (CybSoc)\nWho: Dr Steve Morlidge 1700-
+ 1900 UK Cybernetics Live online seminar. Taking variety engineering beyond
+  the conventional reading of Ashby’s Law — why matching variety is nec
+ essary but not sufficient\, and why viable organisation needs an account o
+ f energy (in organisations\, money) as well as information. https://us06we
+ b.zoom.us/meeting/register/P2vyZNSyQ4KAsPhCcICcbg\nLanguage: Not specified
+ \nLanguage requirements: Not specified\nInterpretation: Not specified\nAcc
+ ess: See organiser\nhttps://teamup.com/ksok8ra1xif3viq4no/events/218777008
+ 2
+LAST-MODIFIED:20261016T090631Z
+LOCATION:Zoom
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://teamup.com/ksok8ra1xif3viq4no/events/2187770082
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:RSD15: Ostana retreat
@@ -291,6 +297,29 @@ TRANSP:TRANSPARENT
 URL:https://ics.teamup.com/feed/ksok8ra1xif3viq4no/0.ics
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:18th Annual International Religious Tourism and Pilgrimage (IRTP) 
+ Conference
+DTSTART:20270623T110000Z
+DTEND:20270626T090000Z
+DTSTAMP:20261021T092622Z
+UID:cbbdfc19224671355ddbaa0c@systemsmap.antlerboy.com
+SEQUENCE:0
+CATEGORIES:Cybernetics,Systems thinking
+DESCRIPTION:Cybernetics and Systems Community Calendar\nThe International 
+ Religious Tourism and Pilgrimage Conference (IRTP)\, organised by the Inst
+ itute for Religious Tourism and Pilgrimage (IRTP) in conjunction with the 
+ International Journal of Religious Tourism and Pilgrimage (IJRTP) and host
+ ed by the University of Primorska\, Faculty of Tourism Studies\nLanguage: 
+ Not specified\nLanguage requirements: Not specified\nInterpretation: Not s
+ pecified\nAccess: See organiser\nhttps://teamup.com/ksok8ra1xif3viq4no/eve
+ nts/2191231031
+LAST-MODIFIED:20261021T092622Z
+LOCATION:Obala 11a\, 6320 Portorož\, Slovenija
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://teamup.com/ksok8ra1xif3viq4no/events/2191231031
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:VSM-AI Special Integration Group
 DTSTART:20270721T160000Z
 DTEND:20270721T173000Z
@@ -438,6 +467,23 @@ DESCRIPTION:Metaphorum\n\nLanguage: Not specified\nLanguage requirements:
  Not specified\nInterpretation: Not specified\nAccess: See organiser\nhttps
  ://ics.teamup.com/feed/ksok8ra1xif3viq4no/0.ics
 LAST-MODIFIED:20260913T093647Z
+LOCATION:Location not published
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://ics.teamup.com/feed/ksok8ra1xif3viq4no/0.ics
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VSM-AI Special Integration Group
+DTSTART:20280419T160000Z
+DTEND:20280419T173000Z
+DTSTAMP:20261017T223529Z
+UID:5ee5a16338b06265d288f6b6@systemsmap.antlerboy.com
+SEQUENCE:0
+CATEGORIES:Cybernetics,Systems thinking
+DESCRIPTION:Metaphorum\n\nLanguage: Not specified\nLanguage requirements: 
+ Not specified\nInterpretation: Not specified\nAccess: See organiser\nhttps
+ ://ics.teamup.com/feed/ksok8ra1xif3viq4no/0.ics
+LAST-MODIFIED:20261017T223529Z
 LOCATION:Location not published
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT

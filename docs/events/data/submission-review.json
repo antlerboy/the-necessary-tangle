@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-07T22:15:38+00:00",
+  "checkedAt": "2026-10-24T20:47:24+00:00",
   "submissions": [
     {
       "id": "af54c356-c0b6-4732-bcbe-e868d622e5b2",
@@ -57,6 +57,30 @@
       "status": "reading-resource",
       "checkedAt": "2026-10-07T22:10:27+00:00",
       "reviewedAt": "2026-10-07"
+    },
+    {
+      "id": "c2a3c4ff-ce46-49e3-b598-d5382dc6a727",
+      "url": "https://www.facebook.com/events/1831475148274386/",
+      "proposal": {
+        "kind": "auto",
+        "url": "https://www.facebook.com/events/1831475148274386/"
+      },
+      "createdAt": "2026-10-08T18:46:47.296Z",
+      "status": "needs-review",
+      "notes": [
+        "Could not extract this link: Disallowed by robots.txt"
+      ],
+      "checkedAt": "2026-10-09T11:24:50+00:00"
+    },
+    {
+      "id": "e0a0ca20-8c4e-452b-b190-ba645d9facde",
+      "url": "https://www.meetup.com/complexitylounge/events/316861213/",
+      "proposal": {
+        "kind": "auto",
+        "url": "https://www.meetup.com/complexitylounge/events/316861213/"
+      },
+      "createdAt": "2026-10-18T20:28:27.265Z",
+      "status": "published"
     }
   ]
 }

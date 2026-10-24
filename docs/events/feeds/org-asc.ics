@@ -36,9 +36,9 @@ BEGIN:VEVENT
 SUMMARY:RSD15 / RSDX-ASC: Conversational Confluences online series
 DTSTART;VALUE=DATE:20260824
 DTEND;VALUE=DATE:20260828
-DTSTAMP:20261007T221454Z
+DTSTAMP:20261024T204503Z
 UID:99e564f66eea2967812a7cf4@systemsmap.antlerboy.com
-SEQUENCE:44
+SEQUENCE:68
 CATEGORIES:Cybernetics,Systemic design,Systems thinking
 DESCRIPTION:American Society for Cybernetics and Systemic Design Associati
  on\nThe online RSD15 programme continuing conversations from the ASC confe
@@ -49,7 +49,7 @@ DESCRIPTION:American Society for Cybernetics and Systemic Design Associati
  fficial programme checked 7 September 2026: 24-27 August. Calendar end dat
  e is exclusive.\nDate-only listing\; check the organiser for session times
  .
-LAST-MODIFIED:20261007T221454Z
+LAST-MODIFIED:20261024T204503Z
 LOCATION:Online
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -90,5 +90,21 @@ LOCATION:Online
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 URL:https://asc-cybernetics.org/speaker-series-season-72/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Speaker Series 7#3: Time\, Language\, Emotion\, and Experience
+DTSTART:20261115T170000Z
+DTSTAMP:20261024T085707Z
+UID:2c40789335cd43fbb1460bcf@systemsmap.antlerboy.com
+SEQUENCE:0
+CATEGORIES:Cybernetics
+DESCRIPTION:American Society for Cybernetics (ASC)\n\nLanguage: Not specif
+ ied\nLanguage requirements: Not specified\nInterpretation: Not specified\n
+ Access: See organiser\nhttps://asc-cybernetics.org/?page_id=2733
+LAST-MODIFIED:20261024T085707Z
+LOCATION:Online
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://asc-cybernetics.org/?page_id=2733
 END:VEVENT
 END:VCALENDAR

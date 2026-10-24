@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-24",
+  "collection": {
+    "checkedAt": "2026-10-24T20:45:03+00:00",
+    "events": 271,
+    "upcoming": 115,
+    "sources": 36,
+    "collecting": 9,
+    "failed": 9
+  },
+  "review_queue_count": 6,
+  "limitations": "Nine sources could not be collected in this run. Previously verified events are retained and flagged; missing listings are not cancellations. Calendar UIDs are preserved. Six public link submissions have been reconciled; no automatic event acceptance.",
+  "source": "https://raw.githubusercontent.com/antlerboy/systemsmap/main/dist/data/health.json"
+}
