@@ -1,28 +1,783 @@
 {
   "page": "https://transduction.systems/saidtosomeone/",
-  "edition": "1.0",
+  "edition": "1.1",
   "checked": "2026-10-29",
-  "scope": "Selected sayings, firsthand recollections, and public resources. Exact wording, paraphrases, anthology membership, and imaginative writing remain distinct. One deliberately invented marginal saying is identified by its dagger and explanatory note. No claim of exhaustive coverage or first use.",
-  "deliberate_invention": {"id":"uninvited-observer","text":"The observer you forgot to invite has already rearranged the chairs.","status":"Invented for this page; not a recorded Heinz von Foerster saying","disclosure":"Visible contains hallucinations warning and dagger link to #hallucination-note"},
+  "scope": "Complete topic index of the 1995 anthology, all 12 main propositions of Notes on an Epistemology for Living Things, every visible numbered proposition in the checked Luhmann chapter, and independently checked primary-paper additions and variants. No claim to contain every utterance by von Foerster.",
+  "deliberate_invention": {
+    "id": "uninvited-observer",
+    "text": "The observer you forgot to invite has already rearranged the chairs.",
+    "status": "Invented for this page; not a recorded Heinz von Foerster saying",
+    "disclosure": "Visible contains hallucinations warning and dagger link to #hallucination-note"
+  },
   "sources": [
-    {"id":"festschrift-2001","title":"Human Becoming—Becoming Human","url":"https://constructivist.info/proponents/vonfoerster/festschrift/toc.html","bibliography":"https://constructivist.info/riegler/pub/?orderby=Category","type":"online festschrift edited by Monika Bröcker and Alexander Riegler","locator":"Table of contents; Riegler’s publications, edited volumes, item 17","supports":["Collection of personal recollections","Editors and 2001 publication date"],"review":"Contents and editor’s bibliography inspected"},
-    {"id":"story-glasersfeld","title":"Heinz and the Force of Gravity","author":"Ernst von Glasersfeld","url":"https://constructivist.info/proponents/vonfoerster/festschrift/evg.html","type":"firsthand recollection including remembered speech","locator":"Opening Toledo episode; signed Amherst, April 2000","supports":["Proposed Institute of Free Research and downhill encounter","Short excerpt of speech as remembered by the author"],"review":"Full text inspected; the institute remained a dream. The second, wasp-related episode is explicitly secondhand and is not used here."},
-    {"id":"story-maturana","title":"Remembrances","author":"Humberto Maturana","url":"https://constructivist.info/proponents/vonfoerster/festschrift/maturana.html","type":"firsthand recollection","locator":"1978 Stanford visit and tractor episode; signed 29 April 2000","supports":["Tractor accident avoided and Chicho’s Promenade","Short excerpt"],"review":"Full text inspected; remembered French title and Monod attribution are not relied on"},
-    {"id":"story-kreitman","title":"Some Heinz Stories","author":"Kevin Kreitman","url":"https://constructivist.info/proponents/vonfoerster/festschrift/kreitman.html","type":"firsthand recollection including remembered speech","locator":"Opening account of von Foerster’s 76th birthday","supports":["Retirement understood as continuing the work without payment","Short excerpt of speech as remembered by the author"],"review":"Full text inspected; no individual writing date given"},
-    {"id":"story-bunnell","title":"Natural Magic on Rattlesnake Hill","author":"Pille Bunnell","url":"https://constructivist.info/proponents/vonfoerster/festschrift/bunnell.html","type":"firsthand visit and personal reflection","locator":"October 2000 visit, raccoon encounter, changed route, and reflection on the observer’s participation","supports":["Visit and reconsidered travel plans","Short excerpt of Bunnell’s own reflection"],"review":"Full text inspected; an omen is described as the author’s interpretation, not a verified supernatural event or a von Foerster maxim"},
-    {"id":"anthology-1995","title":"Cybernetics and Circularity: The Heinz von Foerster Aphorisms","url":"https://archive.cybsoc.org/heinz.htm","type":"author-compiled anthology, archived transcription","locator":"Introduction; numbered entries 4 and 5; closing attribution and editorial notes","supports":["The existing collection, its conference context, and borrowed material","Hearer and blind-spot sayings"],"review":"Text inspected; transcription qualifications retained"},
-    {"id":"cybernetics-of-cybernetics-1979","title":"Cybernetics of Cybernetics","url":"https://cepa.info/fulltexts/1707.pdf","type":"primary paper","locator":"First PDF page; original publication pp. 5–8","supports":["Von Foerster’s corollary and its explicit distinction from Maturana’s proposition"],"review":"Text inspected"},
-    {"id":"constructing-reality-1973","title":"On Constructing a Reality","url":"https://pespmc1.vub.ac.be/books/Foerster-constructingreality.pdf","type":"primary paper","locator":"First-page lecture note; final page, ethical and aesthetical imperatives","supports":["Exact wording of both imperatives","Paper and lecture context"],"review":"Text inspected; distinct from the AUM recording"},
-    {"id":"responsibilities-1972","title":"Responsibilities of Competence","url":"https://www.jlombardi.net/pdf/HvFresponsibilty_competence.pdf","type":"primary paper","locator":"BCL #223; p. 1, opening theorem and Beer reference, followed by the second theorem and reduction argument","supports":["Ignored-problem theorem","Documented Beer connection","Labelled summary of the hard/soft sciences argument"],"review":"Text inspected; does not authenticate the variant about ignoring subjects and feigning success or a private exchange with Beer"},
-    {"id":"ethics-2003-reprint","title":"Ethics and Second-Order Cybernetics","url":"https://www.pangaro.com/hciiseminar2019/Heinz_Von_Foerster-Ethics_and_Second-order_Cybernetics.pdf","type":"primary chapter, with other book extracts","locator":"Understanding Understanding (2003), pp. 288–289 and 293; publication note and bibliography","supports":["Undecidable questions","Ethics and moral commands","1991 French publication and 1992 English journal version"],"review":"Text inspected; linked PDF is not the complete book"},
-    {"id":"certainty-dialogue","title":"The Certainty of Uncertainty","url":"https://api.pageplace.de/preview/DT0400.9781845404703_A25107910/preview-9781845404703_A25107910.pdf","type":"publisher preview of Bernhard Poerksen’s dialogues","locator":"Printed p. 3, interviewer’s quotation and von Foerster’s response","supports":["Objectivity saying as discussed in this conversation"],"review":"Text inspected; original first use not established"},
-    {"id":"truth-book","title":"Truth is the invention of a liar: Conversations on Epistemology and Ethics","url":"https://www.carl-auer.com/product/truth-is-the-invention-of-a-liar/","type":"publisher record","locator":"Title, authors, subtitle, and description","supports":["Book title and joint authorship"],"review":"Publisher record inspected; no first-use or edition-date claim"},
-    {"id":"illinois-video","title":"Understanding Complexity: A Cybernetic Approach","url":"https://mediaspace.illinois.edu/playlist/dedicated/59489761/0_4bs8ano4/0_m3lg5xab","catalogue":"https://archon.library.illinois.edu/archives/index.php?id=7966&p=digitallibrary/digitalcontent","type":"archival video playlist","locator":"University of Illinois catalogue description and outgoing playlist link","supports":["Participants, conference, year, and broadcaster"],"review":"Institutional metadata and playlist page checked; complete playback not audited"},
-    {"id":"understanding-videos-1980","title":"Understanding Understanding lecture recordings","url":"https://stream.syscoi.com/2023/09/19/videos-of-heinz-von-foerster-lectures-understanding-understanding-recorded-at-est-and-originally-introduced-by-werner-erhard/","type":"digitiser’s provenance note and recording links","locator":"Paul Schroeder’s note, version 20211106, reproduced on SysCoI","supports":["Four 1980 lectures, approximate length, missing opening, and tape-quality limitations"],"review":"Provenance page inspected; individual Drive recordings not fully played"},
-    {"id":"portland-audio-1975","title":"The Curious Behavior of Complex Systems: Lessons from Biology","url":"https://pdxscholar.library.pdx.edu/orspeakers/125/","type":"institutional audio archive and transcript record","locator":"Date, length, notes, streaming-media section, and additional-file listing","supports":["28 February 1975; 53 minutes; audio and transcript availability"],"review":"Catalogue inspected; media linked at host under its access terms; transcript download was unavailable to the retrieval client"},
-    {"id":"aum-audio-1973","title":"Computing a Reality","url":"https://www.kurtvonmeier.com/blog-1/2018/9/22/heinz-von-foerster-on-computing-a-reality","type":"recordist’s archive","locator":"Larry Barnett’s recording introduction and audio title","supports":["AUM conference at Esalen, 1973; Kurt von Meier’s recording; approximate duration"],"review":"Archive page inspected; full audio not audited"},
-    {"id":"aum-transcript-2008","title":"Computing a Reality: Heinz von Foerster’s Lecture at the A.U.M Conference in 1973","url":"https://constructivist.info/4/1/062.foerster","type":"journal publication record","locator":"Constructivist Foundations 4(1), pp. 62–69, author and editor record, access notice","supports":["2008 edited transcript; full text requires free registration"],"review":"Public bibliographic record inspected"},
-    {"id":"understanding-book-2003","title":"Understanding Understanding: Essays on Cybernetics and Cognition","url":"https://link.springer.com/book/10.1007/b97451","type":"publisher book record","locator":"Publication year, contents, and access information","supports":["2003 essay collection and access route"],"review":"Publisher record inspected; not described as a transcript of the 1980 lectures"},
-    {"id":"flight-of-fancy-2024","title":"Bird on fire, tide at rest: paint spilled in the desert","url":"https://chosen-path.org/2024/12/24/bird-on-fire-tide-at-rest-paint-spilled-in-the-desert/","type":"Benjamin P Taylor’s imaginative writing","locator":"Title, date, and imagined dialogue","supports":["Link to the requested Heinz von Foerster / Don Van Vliet flight of fancy"],"review":"Full public text inspected; explicitly separated from documentary quotations"}
-  ]
+    {
+      "id": "festschrift-2001",
+      "title": "Human Becoming—Becoming Human",
+      "url": "https://constructivist.info/proponents/vonfoerster/festschrift/toc.html",
+      "bibliography": "https://constructivist.info/riegler/pub/?orderby=Category",
+      "type": "online festschrift edited by Monika Bröcker and Alexander Riegler",
+      "locator": "Table of contents; Riegler’s publications, edited volumes, item 17",
+      "supports": [
+        "Collection of personal recollections",
+        "Editors and 2001 publication date"
+      ],
+      "review": "Contents and editor’s bibliography inspected",
+      "register_entries": []
+    },
+    {
+      "id": "story-glasersfeld",
+      "title": "Heinz and the Force of Gravity",
+      "author": "Ernst von Glasersfeld",
+      "url": "https://constructivist.info/proponents/vonfoerster/festschrift/evg.html",
+      "type": "firsthand recollection including remembered speech",
+      "locator": "Opening Toledo episode; signed Amherst, April 2000",
+      "supports": [
+        "Proposed Institute of Free Research and downhill encounter",
+        "Short excerpt of speech as remembered by the author"
+      ],
+      "review": "Full text inspected; the institute remained a dream. The second, wasp-related episode is explicitly secondhand and is not used here.",
+      "register_entries": []
+    },
+    {
+      "id": "story-maturana",
+      "title": "Remembrances",
+      "author": "Humberto Maturana",
+      "url": "https://constructivist.info/proponents/vonfoerster/festschrift/maturana.html",
+      "type": "firsthand recollection",
+      "locator": "1978 Stanford visit and tractor episode; signed 29 April 2000",
+      "supports": [
+        "Tractor accident avoided and Chicho’s Promenade",
+        "Short excerpt"
+      ],
+      "review": "Full text inspected; remembered French title and Monod attribution are not relied on",
+      "register_entries": []
+    },
+    {
+      "id": "story-kreitman",
+      "title": "Some Heinz Stories",
+      "author": "Kevin Kreitman",
+      "url": "https://constructivist.info/proponents/vonfoerster/festschrift/kreitman.html",
+      "type": "firsthand recollection including remembered speech",
+      "locator": "Opening account of von Foerster’s 76th birthday",
+      "supports": [
+        "Retirement understood as continuing the work without payment",
+        "Short excerpt of speech as remembered by the author"
+      ],
+      "review": "Full text inspected; no individual writing date given",
+      "register_entries": [
+        "not-knowing-at-an-examination"
+      ]
+    },
+    {
+      "id": "story-bunnell",
+      "title": "Natural Magic on Rattlesnake Hill",
+      "author": "Pille Bunnell",
+      "url": "https://constructivist.info/proponents/vonfoerster/festschrift/bunnell.html",
+      "type": "firsthand visit and personal reflection",
+      "locator": "October 2000 visit, raccoon encounter, changed route, and reflection on the observer’s participation",
+      "supports": [
+        "Visit and reconsidered travel plans",
+        "Short excerpt of Bunnell’s own reflection"
+      ],
+      "review": "Full text inspected; an omen is described as the author’s interpretation, not a verified supernatural event or a von Foerster maxim",
+      "register_entries": []
+    },
+    {
+      "id": "anthology-1995",
+      "title": "Cybernetics and Circularity: The Heinz von Foerster Aphorisms",
+      "url": "https://archive.cybsoc.org/heinz.htm",
+      "type": "author-compiled anthology, archived transcription",
+      "locator": "Items 1–29; seven subitems of 29; unnumbered worldview diagrams; repeated 26; editorial notes. Direct quotations here are restricted to items 4 and 5.",
+      "supports": [
+        "The existing collection, its conference context, and borrowed material",
+        "Hearer and blind-spot sayings"
+      ],
+      "review": "Text inspected; transcription qualifications retained",
+      "register_entries": [
+        "the-hearer",
+        "blind-spots"
+      ]
+    },
+    {
+      "id": "cybernetics-of-cybernetics-1979",
+      "title": "Cybernetics of Cybernetics",
+      "url": "https://cepa.info/fulltexts/1707.pdf",
+      "type": "primary paper",
+      "locator": "First PDF page; original publication pp. 5–8",
+      "supports": [
+        "Von Foerster’s corollary and its explicit distinction from Maturana’s proposition"
+      ],
+      "review": "Text inspected",
+      "register_entries": [
+        "said-to-an-observer"
+      ]
+    },
+    {
+      "id": "constructing-reality-1973",
+      "title": "On Constructing a Reality",
+      "url": "https://pespmc1.vub.ac.be/books/Foerster-constructingreality.pdf",
+      "type": "primary paper",
+      "locator": "First-page lecture note; final page, ethical and aesthetical imperatives",
+      "supports": [
+        "Exact wording of both imperatives",
+        "Paper and lecture context"
+      ],
+      "review": "Text inspected; distinct from the AUM recording",
+      "register_entries": [
+        "choices",
+        "seeing-and-acting",
+        "reality-and-community",
+        "world-as-invention",
+        "stable-reality"
+      ]
+    },
+    {
+      "id": "responsibilities-1972",
+      "title": "Responsibilities of Competence",
+      "url": "https://www.jlombardi.net/pdf/HvFresponsibilty_competence.pdf",
+      "type": "primary paper",
+      "locator": "BCL #223; p. 1, opening theorem and Beer reference, followed by the second theorem and reduction argument",
+      "supports": [
+        "Ignored-problem theorem",
+        "Documented Beer connection",
+        "Labelled summary of the hard/soft sciences argument"
+      ],
+      "review": "Text inspected; does not authenticate the variant about ignoring subjects and feigning success or a private exchange with Beer",
+      "register_entries": [
+        "fame-and-success",
+        "hard-problems",
+        "the-scientist-in-the-theory"
+      ]
+    },
+    {
+      "id": "ethics-2003-reprint",
+      "title": "Ethics and Second-Order Cybernetics",
+      "url": "https://www.pangaro.com/hciiseminar2019/Heinz_Von_Foerster-Ethics_and_Second-order_Cybernetics.pdf",
+      "type": "primary chapter, with other book extracts",
+      "locator": "Understanding Understanding (2003), pp. 288–289 and 293; publication note and bibliography",
+      "supports": [
+        "Undecidable questions",
+        "Ethics and moral commands",
+        "1991 French publication and 1992 English journal version"
+      ],
+      "review": "Text inspected; linked PDF is not the complete book",
+      "register_entries": [
+        "choices",
+        "undecidable-questions"
+      ]
+    },
+    {
+      "id": "certainty-dialogue",
+      "title": "The Certainty of Uncertainty",
+      "url": "https://api.pageplace.de/preview/DT0400.9781845404703_A25107910/preview-9781845404703_A25107910.pdf",
+      "type": "publisher preview of Bernhard Poerksen’s dialogues",
+      "locator": "Printed p. 3, interviewer’s quotation and von Foerster’s response",
+      "supports": [
+        "Objectivity saying as discussed in this conversation"
+      ],
+      "review": "Text inspected; original first use not established",
+      "register_entries": [
+        "objectivity"
+      ]
+    },
+    {
+      "id": "truth-book",
+      "title": "Truth is the invention of a liar: Conversations on Epistemology and Ethics",
+      "url": "https://www.carl-auer.com/product/truth-is-the-invention-of-a-liar/",
+      "type": "publisher record",
+      "locator": "Title, authors, subtitle, and description",
+      "supports": [
+        "Book title and joint authorship"
+      ],
+      "review": "Publisher record inspected; no first-use or edition-date claim",
+      "register_entries": [
+        "truth"
+      ]
+    },
+    {
+      "id": "illinois-video",
+      "title": "Understanding Complexity: A Cybernetic Approach",
+      "url": "https://mediaspace.illinois.edu/playlist/dedicated/59489761/0_4bs8ano4/0_m3lg5xab",
+      "catalogue": "https://archon.library.illinois.edu/archives/index.php?id=7966&p=digitallibrary/digitalcontent",
+      "type": "archival video playlist",
+      "locator": "University of Illinois catalogue description and outgoing playlist link",
+      "supports": [
+        "Participants, conference, year, and broadcaster"
+      ],
+      "review": "Institutional metadata and playlist page checked; complete playback not audited",
+      "register_entries": []
+    },
+    {
+      "id": "understanding-videos-1980",
+      "title": "Understanding Understanding lecture recordings",
+      "url": "https://stream.syscoi.com/2023/09/19/videos-of-heinz-von-foerster-lectures-understanding-understanding-recorded-at-est-and-originally-introduced-by-werner-erhard/",
+      "type": "digitiser’s provenance note and recording links",
+      "locator": "Paul Schroeder’s note, version 20211106, reproduced on SysCoI",
+      "supports": [
+        "Four 1980 lectures, approximate length, missing opening, and tape-quality limitations"
+      ],
+      "review": "Provenance page inspected; individual Drive recordings not fully played",
+      "register_entries": []
+    },
+    {
+      "id": "portland-audio-1975",
+      "title": "The Curious Behavior of Complex Systems: Lessons from Biology",
+      "url": "https://pdxscholar.library.pdx.edu/orspeakers/125/",
+      "type": "institutional audio archive and transcript record",
+      "locator": "Date, length, notes, streaming-media section, and additional-file listing",
+      "supports": [
+        "28 February 1975; 53 minutes; audio and transcript availability"
+      ],
+      "review": "Catalogue inspected; media linked at host under its access terms; transcript download was unavailable to the retrieval client",
+      "register_entries": []
+    },
+    {
+      "id": "aum-audio-1973",
+      "title": "Computing a Reality",
+      "url": "https://www.kurtvonmeier.com/blog-1/2018/9/22/heinz-von-foerster-on-computing-a-reality",
+      "type": "recordist’s archive",
+      "locator": "Larry Barnett’s recording introduction and audio title",
+      "supports": [
+        "AUM conference at Esalen, 1973; Kurt von Meier’s recording; approximate duration"
+      ],
+      "review": "Archive page inspected; full audio not audited",
+      "register_entries": []
+    },
+    {
+      "id": "aum-transcript-2008",
+      "title": "Computing a Reality: Heinz von Foerster’s Lecture at the A.U.M Conference in 1973",
+      "url": "https://constructivist.info/4/1/062.foerster",
+      "type": "journal publication record",
+      "locator": "Constructivist Foundations 4(1), pp. 62–69, author and editor record, access notice",
+      "supports": [
+        "2008 edited transcript; full text requires free registration"
+      ],
+      "review": "Public bibliographic record inspected",
+      "register_entries": []
+    },
+    {
+      "id": "understanding-book-2003",
+      "title": "Understanding Understanding: Essays on Cybernetics and Cognition",
+      "url": "https://link.springer.com/book/10.1007/b97451",
+      "type": "publisher book record",
+      "locator": "Publication year, contents, and access information",
+      "supports": [
+        "2003 essay collection and access route"
+      ],
+      "review": "Publisher record inspected; not described as a transcript of the 1980 lectures",
+      "register_entries": []
+    },
+    {
+      "id": "flight-of-fancy-2024",
+      "title": "Bird on fire, tide at rest: paint spilled in the desert",
+      "url": "https://chosen-path.org/2024/12/24/bird-on-fire-tide-at-rest-paint-spilled-in-the-desert/",
+      "type": "Benjamin P Taylor’s imaginative writing",
+      "locator": "Title, date, and imagined dialogue",
+      "supports": [
+        "Link to the requested Heinz von Foerster / Don Van Vliet flight of fancy"
+      ],
+      "review": "Full public text inspected; explicitly separated from documentary quotations",
+      "register_entries": []
+    },
+    {
+      "id": "disorder_1984",
+      "title": "Disorder/Order: Discovery or Invention?",
+      "url": "https://asc-cybernetics.org/2011/wp-content/uploads/2011/08/HvF_Disorder_Order_Discovery_or_Invention.pdf",
+      "date": "1984",
+      "type": "Primary text",
+      "locator": "PDF p. 6, final paragraph before Discussion; reprint p. 282; PDF p. 5, second proposition",
+      "review": "Do not add full quotations of the chance/necessity formulations: chosen exact excerpts already use 19 words.",
+      "register_entries": [
+        "choices",
+        "objectivity",
+        "describing-order",
+        "necessity-and-chance",
+        "closure-and-openness"
+      ]
+    },
+    {
+      "id": "perception_1972",
+      "title": "Perception of the Future and the Future of Perception",
+      "url": "https://asc-cybernetics.org/2011/wp-content/uploads/2011/08/HvF_Perception_of_the_Future_and_the_Future_of_Perception.pdf",
+      "date": "Address 29 March 1971; journal publication 1972",
+      "type": "Primary text",
+      "locator": "PDF p. 6, Future, proposition 2; PDF p. 6, Future, proposition 3; PDF p. 7, final line before References",
+      "review": "Three chosen quotations total 24 words. Keep the unknown-answer distinction credited to Brün as reported here. The paper’s abstract is a quotation from Brün, not HvF’s original maxim.",
+      "register_entries": [
+        "legitimate-questions",
+        "better-off-together",
+        "vision-and-light",
+        "education-and-predictability",
+        "acting-towards-a-future"
+      ]
+    },
+    {
+      "id": "epistemology_1972",
+      "title": "Notes on an Epistemology for Living Things",
+      "url": "https://cepa.info/fulltexts/1655.pdf",
+      "date": "BCL Report No. 9.3, 1972; later French publication 1974",
+      "type": "Primary typescript",
+      "locator": "§8.45; printed p. 19, PDF p. 21; §11; printed p. 23, PDF p. 25",
+      "review": "Chosen quotations total 21 words by whitespace count. The typescript cover carries 8 September 1972 and its inner title page 30 November 1972; cite the year without asserting a unique completion date.",
+      "register_entries": [
+        "observing-myself",
+        "environment-and-information",
+        "communication-and-messages",
+        "movement-and-logic",
+        "constancy-and-change"
+      ],
+      "main_propositions": [
+        {
+          "number": "1",
+          "topic": "Perceived surroundings and changing things",
+          "locator": "§1; printed p. 11, PDF p. 13"
+        },
+        {
+          "number": "2",
+          "topic": "Constancy and alteration belong to representations",
+          "locator": "§2; printed p. 11, PDF p. 13"
+        },
+        {
+          "number": "3",
+          "topic": "Formal representations across entities and instants",
+          "locator": "§3; printed p. 11, PDF p. 13"
+        },
+        {
+          "number": "4",
+          "topic": "Relations between representations",
+          "locator": "§4; printed p. 12, PDF p. 14"
+        },
+        {
+          "number": "5",
+          "topic": "Objects and events as represented relations",
+          "locator": "§5; printed p. 13, PDF p. 15"
+        },
+        {
+          "number": "6",
+          "topic": "Computation as representation",
+          "locator": "§6; printed p. 15, PDF p. 17"
+        },
+        {
+          "number": "7",
+          "topic": "Living systems maintain their own organisation",
+          "locator": "§7; printed p. 17, PDF p. 19",
+          "attribution": "Uses the recursive definition developed by Maturana and Varela; expressly acknowledged in the introduction, printed p. 8, PDF p. 10."
+        },
+        {
+          "number": "8",
+          "topic": "Communication theory must explain messages",
+          "locator": "§8; printed p. 18, PDF p. 20"
+        },
+        {
+          "number": "9",
+          "topic": "Descriptions enacted through movement",
+          "locator": "§9; printed p. 19, PDF p. 21"
+        },
+        {
+          "number": "10",
+          "topic": "Information depends on the observer",
+          "locator": "§10; printed p. 22, PDF p. 24"
+        },
+        {
+          "number": "11",
+          "topic": "Surroundings contain no inherent information",
+          "locator": "§11; printed p. 23, PDF p. 25"
+        },
+        {
+          "number": "12",
+          "topic": "Return to the opening proposition",
+          "locator": "§12; printed p. 23, PDF p. 25"
+        }
+      ]
+    },
+    {
+      "id": "objects_1976",
+      "title": "Objects: Tokens for (Eigen-)Behaviors",
+      "url": "https://monoskop.org/images/b/bf/Von_Foerster_Heinz_2003_Objects_Tokens_for_Eigen-Behaviors.pdf",
+      "date": "Presented 29 June 1976; reprint 2003",
+      "type": "Primary essay; 2003 reprint",
+      "locator": "p. 266; PDF p. 6, following expression (12); p. 261; PDF p. 1",
+      "review": "The whole/parts sentence is an excerpt from a longer sentence, not a freestanding original sentence. Together chosen excerpts use 22 words.",
+      "register_entries": [
+        "whole-and-parts",
+        "objects-and-behaviour"
+      ]
+    },
+    {
+      "id": "metaphysics_1995",
+      "title": "Metaphysics of an Experimental Epistemologist",
+      "url": "https://www.vordenker.de/metaphysics/metaphysics.htm",
+      "date": "1995 conference; online/print dates vary between 1995 and 1996",
+      "type": "Author text reproduced by Vordenker",
+      "locator": "Metaphysics section, paragraph beginning with the range of cultural answers; Final section, paragraph beginning with the collapse of hierarchy",
+      "review": "Chosen excerpts total 19 words. Stories about McCulloch, Wittgenstein, and Don Juan contain other people’s reported words; preserve those attributions. Do not label the text 1976.",
+      "register_entries": [
+        "tell-me-your-universe",
+        "ethics-and-responsibility"
+      ]
+    },
+    {
+      "id": "stanford_1995",
+      "title": "Interview with Heinz von Foerster",
+      "url": "https://www.informationphilosopher.com/solutions/scientists/foerster/interview.html",
+      "date": "1995",
+      "type": "Primary interview, mirrored; Stefano Franchi, Güven Güzeldere, and Eric Minch",
+      "locator": "Opening answer; Opening answer, after the biophysicist example",
+      "review": "Two quotations total 20 words. Original publication Stanford Humanities Review 4(2), pp. 288–307, verified against interviewer’s bibliography.",
+      "register_entries": [
+        "no-disciplines"
+      ]
+    },
+    {
+      "id": "luhmann_1993",
+      "title": "For Niklas Luhmann: How Recursive is Communication?",
+      "url": "https://www.alice.id.tue.nl/references/foerster-2003.pdf#page=318",
+      "date": "Lecture 5 February 1993, Bielefeld; German publication 1993; checked English translation by Richard Howe in Understanding Understanding (2003), pp. 305–323",
+      "type": "Primary lecture in an attributed translation",
+      "locator": "Proposition 00, printed p. 308, PDF p. 321; repeated printed p. 321, PDF p. 334",
+      "review": "This whole-book URL is also used for the eight-word self-organising-systems quotation: combined chosen exact words are 11. All public text derived from this PDF, across those entries and this index, should remain within 200 words. Do not reproduce the complete long formulation at 10 in addition to other full-book quotes without recounting.",
+      "register_entries": [
+        "communication-as-recursion"
+      ],
+      "numbered_index": [
+        {
+          "number": "00",
+          "topic": "Communication through recursion",
+          "locator": "p. 308; PDF p. 321",
+          "status": "HvF proposal; repeated at p. 321"
+        },
+        {
+          "number": "01",
+          "topic": "Predictable, history-independent mechanisms",
+          "locator": "p. 309; PDF p. 322",
+          "status": "HvF technical definition"
+        },
+        {
+          "number": "02",
+          "topic": "Mechanisms with internal histories",
+          "locator": "p. 311; PDF p. 324",
+          "status": "HvF technical definition; wording anomaly noted below"
+        },
+        {
+          "number": "03",
+          "topic": "Counting possible mechanisms",
+          "locator": "p. 312; PDF p. 325",
+          "status": "HvF formula/table, not a standalone aphorism"
+        },
+        {
+          "number": "0.5",
+          "topic": "Operations upon functions",
+          "locator": "p. 317; PDF p. 330",
+          "status": "Technical definition; preserve printed label"
+        },
+        {
+          "number": "06",
+          "topic": "Compositions change system properties",
+          "locator": "p. 318; PDF p. 331",
+          "status": "HvF proposition; related to the whole/parts formulation in Objects"
+        },
+        {
+          "number": "07",
+          "topic": "McCulloch: heterarchical neural circuits",
+          "locator": "p. 320; PDF p. 333",
+          "status": "Explicitly credited to McCulloch (1945); not an original HvF aphorism"
+        },
+        {
+          "number": "08",
+          "topic": "Coupled neural and hormonal cycles",
+          "locator": "p. 320; PDF p. 333",
+          "status": "Technical diagram and description"
+        },
+        {
+          "number": "09",
+          "topic": "Varela/Goguen: closure yields stable behaviour",
+          "locator": "p. 321; PDF p. 334",
+          "status": "HvF explicitly selects Varela and Goguen’s formulation"
+        },
+        {
+          "number": "10",
+          "topic": "Communication through double closure",
+          "locator": "p. 322; PDF p. 335",
+          "status": "HvF refinement of 00; crosslink, do not inflate the count with its repeated short form"
+        },
+        {
+          "number": "11",
+          "topic": "Busch: depth beyond easy certainty",
+          "locator": "p. 322; PDF p. 335",
+          "status": "Quotation of Wilhelm Busch; do not attribute poem to HvF"
+        }
+      ],
+      "source_anomalies": [
+        "Eleven distinct visible labels: 00, 01, 02, 03, 0.5, 06, 07, 08, 09, 10, 11. No 04 found in the extracted chapter. Do not claim an uninterrupted 12-item sequence.",
+        "The printed/extracted label is 0.5, not 05.",
+        "02 reads analytically determinable although its context and discussion describe analytic intractability. Index the topic and flag this source wording instead of silently repairing an exact quotation.",
+        "The extracted bibliography/title sometimes misspells heterarchy as hetarchy; use the recognised topic name in paraphrase, without representing it as exact transcription."
+      ],
+      "translation": "Richard Howe"
+    },
+    {
+      "id": "reported-waters",
+      "title": "Invitation to Dance: A Conversation with Heinz von Foerster",
+      "author": "Christina Waters",
+      "url": "https://constructivist.info/proponents/vonfoerster/festschrift/waters.html",
+      "date": "Signed Santa Cruz, November 1999; reproduced in the 2001 festschrift",
+      "type": "Published interview",
+      "review": "Interview answers, not merely Waters's recollections. The Stanford journalism anecdote is HvF's account.",
+      "register_entries": [
+        "waters-language-dance",
+        "waters-tell-it",
+        "questions-and-responsibility"
+      ]
+    },
+    {
+      "id": "reported-poerksen",
+      "title": "Beyond Distinctions: Memories of a conversation on Rattlesnake Hill about George Spencer-Brown and mystics",
+      "author": "Bernhard Pörksen",
+      "url": "https://constructivist.info/proponents/vonfoerster/festschrift/poerksen.html",
+      "date": "Conversation August 1998; published in the 2001 festschrift",
+      "type": "Authored report or recollection",
+      "review": "Author explicitly mentions his tape recordings. The English text contains translation-like wording; recording itself was not inspected.",
+      "register_entries": [
+        "poerksen-see"
+      ]
+    },
+    {
+      "id": "reported-inselberg",
+      "title": "HvF Recursion … or was it Magic?",
+      "author": "Alfred Inselberg",
+      "url": "https://constructivist.info/proponents/vonfoerster/festschrift/inselberg.html",
+      "date": "2001 festschrift; recollections begin in May 1959",
+      "type": "Authored report or recollection",
+      "review": "Former BCL researcher writing personally about exchanges with HvF.",
+      "register_entries": [
+        "inselberg-learning",
+        "inselberg-fortune"
+      ]
+    },
+    {
+      "id": "reported-rebitzer",
+      "title": "Doing Science",
+      "author": "Robert S. Rebitzer",
+      "url": "https://constructivist.info/proponents/vonfoerster/festschrift/rebitzer.html",
+      "date": "2001 festschrift; individual contribution undated",
+      "type": "Authored report or recollection",
+      "review": "The line about reading difficult material in the next paragraph is indirect report, not a direct quotation.",
+      "register_entries": [
+        "rebitzer-implicit",
+        "reading-beyond-understanding"
+      ]
+    },
+    {
+      "id": "reported-scott",
+      "title": "Co-Creators: To Heinz from Bernard",
+      "author": "Bernard Scott",
+      "url": "https://constructivist.info/proponents/vonfoerster/festschrift/scott.html",
+      "date": "Signed August 2001; telegram followed Scott's 1979 appreciation",
+      "type": "Authored report or recollection",
+      "review": "Recipient reproduces the telegram. The contribution also reproduces a separately dated 25 April 1994 letter; do not transfer that date to the telegram.",
+      "register_entries": [
+        "scott-fathers"
+      ]
+    },
+    {
+      "id": "reported-baecker",
+      "title": "The Eye of the Coyote",
+      "author": "Dirk Baecker",
+      "url": "https://constructivist.info/proponents/vonfoerster/festschrift/baecker.html",
+      "date": "2001 festschrift; account of visits during 1990–1991",
+      "type": "Authored report or recollection",
+      "review": "Quoted maxim is within a first-person essay. Exact date of utterance is unspecified.",
+      "register_entries": [
+        "baecker-complexity"
+      ]
+    },
+    {
+      "id": "reported-clough",
+      "title": "“Getting” Heinz",
+      "author": "Rodney Clough",
+      "url": "https://constructivist.info/proponents/vonfoerster/festschrift/clough.html",
+      "date": "2001 festschrift; reconstructed exchanges from June 1971",
+      "type": "Authored report or recollection",
+      "review": "Opening explicitly discloses reconstruction from 29 years earlier. Must retain this lower-confidence wording status.",
+      "register_entries": [
+        "clough-observer"
+      ]
+    },
+    {
+      "id": "reported-galuszka",
+      "title": "Perplexity",
+      "author": "Frank Galuszka",
+      "url": "https://constructivist.info/proponents/vonfoerster/festschrift/galuszka.html",
+      "date": "2001 festschrift; encounter in the mid 1980s",
+      "type": "Authored report or recollection",
+      "review": "Only phrase recalled as HvF's is proposed. Author's own later interpretation and symptoms are not HvF maxims.",
+      "register_entries": [
+        "galuszka-sculpture"
+      ]
+    },
+    {
+      "id": "reported-schroeder",
+      "title": "A Grasshopper Reflects",
+      "author": "Paul Schroeder",
+      "url": "https://constructivist.info/proponents/vonfoerster/festschrift/schroeder.html",
+      "date": "2001 festschrift; author uncertain whether separate nighttime episode was in 1971 or 1974",
+      "type": "Authored report or recollection",
+      "review": "Classroom red-light illustration has no exact date. Don't date it from the uncertain nighttime anecdote.",
+      "register_entries": [
+        "schroeder-green"
+      ]
+    },
+    {
+      "id": "reported-sloan",
+      "title": "Metagames",
+      "author": "Steve Sloan / reproduced student scribe and metascribe notes",
+      "url": "https://constructivist.info/proponents/vonfoerster/festschrift/sloan.html",
+      "date": "Class-project material copyright 1972; reproduced in the 2001 festschrift",
+      "type": "Authored report or recollection",
+      "review": "The attribution belongs to the scribe's account. Nearby communication-breakdown maxim is explicitly Charlie's, not HvF's.",
+      "register_entries": [
+        "sloan-relating"
+      ]
+    },
+    {
+      "id": "reported-telfener",
+      "title": "An interview to Heinz von Foerster (U.T.)",
+      "author": "Umberta Telfener",
+      "url": "https://www.systemics.eu/an-interview-to-heinz-von-foerster-u-t/",
+      "date": "Website post 20 February 2013; interview date unspecified and necessarily before HvF's death in 2002",
+      "type": "Published interview",
+      "review": "Interviewer publishes the transcript on her own site. Do not call this a 2013 interview. Non-native phrasing suggests editing/translation but translator/language not stated.",
+      "register_entries": [
+        "telfener-dialogue",
+        "telfener-information",
+        "questions-that-invite-invention",
+        "knowledge-and-the-reader"
+      ]
+    },
+    {
+      "id": "self-organising-1960",
+      "title": "On Self-Organizing Systems and Their Environments",
+      "url": "https://www.alice.id.tue.nl/references/foerster-2003.pdf",
+      "date": "1960; reprinted 2003",
+      "type": "Primary essay in collected volume",
+      "locator": "Printed p. 1; PDF p. 14",
+      "review": "Opening claim and its environment-dependent qualification checked. The book is not reproduced here.",
+      "register_entries": [
+        "self-organisation-and-environment"
+      ]
+    },
+    {
+      "id": "reported-winter",
+      "title": "Everything is now and here",
+      "author": "Wolfgang Winter",
+      "url": "https://constructivist.info/proponents/vonfoerster/festschrift/winter.html",
+      "date": "November 2001",
+      "type": "Reader’s memory of an unspecified book",
+      "locator": "Opening paragraphs",
+      "review": "Winter explicitly says he never met von Foerster. The primary book and passage are unidentified.",
+      "register_entries": [
+        "now-and-here"
+      ]
+    },
+    {
+      "id": "initiating-discussion",
+      "title": "Discussion that prompted Said to someone",
+      "url": "https://bsky.app/profile/antlerboy.com/post/3myxbambxhv2t",
+      "type": "Wording supplied by the curator from a public discussion",
+      "locator": "Benjamin’s post and Christian’s reply, supplied in the initiating request",
+      "review": "Used as evidence of a circulating formulation, not proof of von Foerster’s exact words or a private exchange with Stafford Beer.",
+      "register_entries": [
+        "said-to-an-observer",
+        "choices",
+        "fame-and-success"
+      ]
+    }
+  ],
+  "coverage": {
+    "register_entries": 54,
+    "anthology_numbered_items": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29
+    ],
+    "anthology_additions": [
+      "29.1–29.7",
+      "unnumbered worldview diagrams",
+      "repeated 26",
+      "editorial notes"
+    ],
+    "method": "No numerical cap. Variants stay with their maxim; indexes use short topic summaries and link to original wording. Authorship, primary text, interview, remembered speech, paraphrase, and unlocated primary attribution remain distinct.",
+    "anthology_main_numbers": 29,
+    "anthology_subitems_under_29": 7,
+    "anthology_extra_trailing_26": 1,
+    "anthology_additional_coverage": "Unnumbered worldview illustrations and editorial notes; no unique-maxim total asserted.",
+    "epistemology_main_propositions": 12,
+    "epistemology_total_notes_in_author_description": 80,
+    "epistemology_audit_limit": "All main propositions plus selected subnotes; not a claim to index every one of the 80 notes.",
+    "luhmann_visible_numbered_entries": 11,
+    "luhmann_numbering_gap": "04 not located; 0.5 preserved; 00 repeated once but counted once.",
+    "responsibilities_numbered_theorems": 3,
+    "perception_future_numbered_propositions": 3,
+    "no_grand_total_reason": "The collections repeat and reformulate ideas, incorporate others’ work, and include equations or diagrams. Adding their item counts would misrepresent the number of distinct HvF maxims.",
+    "register_kinds": {
+      "primary": 26,
+      "reported": 13,
+      "paraphrase": 14,
+      "attribution": 1
+    }
+  },
+  "open_leads": [
+    {
+      "source": "reported-winter",
+      "gap": "The small book and exact original passage have not been identified."
+    },
+    {
+      "source": "initiating-discussion",
+      "gap": "No primary passage found for the feigning-success variant or its attribution to a private exchange with Beer."
+    },
+    {
+      "source": "anthology-1995",
+      "gap": "Original booklet has not been compared against the transcription. Geometry at28 and arithmetic at15 remain transcription issues."
+    },
+    {
+      "gap": "No end-to-end transcription audit of the linked recordings; no complete multilingual collation of KybernEthik, Wissen und Gewissen, Shortcuts, or every interview and private conversation."
+    },
+    {
+      "source": "luhmann_1993",
+      "url": "https://homepages.math.uic.edu/~kauffman/Luhmann.pdf",
+      "gap": "25-page standalone translation opens, but returns no extracted text. Screenshot responses were placeholders in this tool interface, so no visual verification was possible. Do not assert its numbering or translation matches the 2003 Howe version."
+    }
+  ],
+  "review": {
+    "date": "2026-10-29",
+    "method": "Independent primary and reported-source reviews; quotations checked per authored work, including mirrors and multiple page entries.",
+    "findings": "Reader-facing drafting instructions removed; choices-to-ethics source mapping completed. No remaining material source discrepancy identified in the reviewed records.",
+    "scope": "Review covers the named sources and indexes. It does not certify global completeness or the truth of every philosophical proposition."
+  }
 }

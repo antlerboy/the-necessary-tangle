@@ -1,5 +1,10 @@
 # Changelog
 
+## Said to someone 1.1 — 29 October 2026
+
+Expanded /saidtosomeone/ from ten selections to 54 source-led entries, without a numerical cap. Indexed all 29 items of the 1995 anthology, its subitems and source anomalies, all 12 main Notes propositions, every visible numbered Luhmann entry, and the complete three-theorem and three-education sequences. Kept exact formulations, variants, paraphrases, witnesses, borrowed attributions, and unlocated primary wording distinct. Added a searchable register and same-site living-mark animation, pause, motif changes, keyboard control, and reduced-motion support. Existing stories, media, imaginative dialogue, disclosed invention, and Open updates route remain. Atlas dataset release 0.34 and graph counts are unchanged.
+
+
 ## Said to someone 1.0 — 29 October 2026
 
 Added /saidtosomeone/ with a large existing TNT mark, the credited 1995 HvF anthology, ten sourced entries, the documented Beer connection, four firsthand recollections with short excerpts, video and audio routes, primary writing, and the Chosen Path HvF/Don Van Vliet imagined dialogue. One deliberate marginal invention has a dagger, explicit source note, and contains hallucinations warning. Homepage and source-library links make the page discoverable. A deterministic build and source ledger preserve the page and attribution distinctions. Atlas dataset release 0.34 and graph counts are unchanged.
