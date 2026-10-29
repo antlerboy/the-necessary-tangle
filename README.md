@@ -3,6 +3,9 @@
 <!-- current-31 -->
 Current release: **0.34, 24 October 2026**. [Current reading, practice, events, and contributions](https://transduction.systems/updates/2026-10-24/). [Quick contribute](https://transduction.systems/contribute/).
 <!-- /current-31 -->
+<!-- saidtosomeone-readme-1 -->
+Companion page, edition **1.0, 29 October 2026**: [Heinz von Foerster’s maxims, talks, and writing](https://transduction.systems/saidtosomeone/). The existing 1995 anthology, ten source-checked entries, four firsthand recollections, recordings, papers, and Benjamin’s imagined conversation with Don Van Vliet. One deliberately invented marginal saying is identified by a dagger and a visible contains hallucinations warning. Atlas dataset release and counts are unchanged.
+<!-- /saidtosomeone-readme-1 -->
 ## Release 0.23
 
 26 original practice pages; 42 source-labelled resource routes; 746 public atlas entries after the additive resource integration. All 13 core approaches and three theory rows have an explicit rehearsal, with depth limits. Ten further pages support systemic inquiry and intervention. [Open the practice pack](https://transduction.systems/systems-thinking/practice/). The previous release accounts remain below as history.
