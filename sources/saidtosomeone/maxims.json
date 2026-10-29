@@ -1,0 +1,875 @@
+{
+  "edition": "1.1",
+  "entries": [
+    {
+      "id": "said-to-an-observer",
+      "title": "Said to an observer",
+      "kind": "primary",
+      "source_ids": [
+        "cybernetics-of-cybernetics-1979",
+        "initiating-discussion"
+      ],
+      "locator": "First PDF page, pp. 5–8",
+      "body_html": "<blockquote cite=\"https://cepa.info/fulltexts/1707.pdf\">‘Anything said is said to an observer.’</blockquote>\n          <p>Von Foerster adds this to Humberto Maturana’s proposition, <q cite=\"https://cepa.info/fulltexts/1707.pdf\">Anything said is said by an observer.</q> The person speaking and the person addressed both belong in the account. What happens between them matters.</p>\n          <p class=\"source\">Heinz von Foerster, <a href=\"https://cepa.info/fulltexts/1707.pdf#page=1\">Cybernetics of Cybernetics (1979)</a>, pp. 5–8; first page of the linked PDF. He explicitly credits Maturana for the first proposition and presents the second as his own corollary.</p><aside class=\"attribution-note\"><h4>The familiar wording</h4><p>“Everything said is said to someone” is the formulation in the discussion that prompted this page. It’s a useful paraphrase; the quotation above retains the paper’s wording.</p></aside>"
+    },
+    {
+      "id": "choices",
+      "title": "The ethical imperative",
+      "kind": "primary",
+      "source_ids": [
+        "constructing-reality-1973",
+        "disorder_1984",
+        "initiating-discussion",
+        "ethics-2003-reprint"
+      ],
+      "locator": "Final PDF page 13",
+      "body_html": "<blockquote cite=\"https://pespmc1.vub.ac.be/books/Foerster-constructingreality.pdf\">‘Act always so as to increase the number of choices.’</blockquote>\n          <p>Ask what your action makes possible, and for whom. My increased freedom may come at somebody else’s expense. Counting the options on a menu won’t settle that.</p>\n          <p class=\"source\"><a href=\"https://pespmc1.vub.ac.be/books/Foerster-constructingreality.pdf#page=13\">On Constructing a Reality (1973)</a>, final page. His later <a href=\"https://www.pangaro.com/hciiseminar2019/Heinz_Von_Foerster-Ethics_and_Second-order_Cybernetics.pdf\">Ethics and Second-Order Cybernetics</a>, pp. 288–289, distinguishes ethical commitments I make from moral commands imposed on others.</p><aside class=\"attribution-note\"><h4>A first-person formulation</h4><blockquote cite=\"https://asc-cybernetics.org/2011/wp-content/uploads/2011/08/HvF_Disorder_Order_Discovery_or_Invention.pdf\">‘I shall act always so as to increase the total number of choices.’</blockquote><p>This version makes the commitment personal. The circulating “Always increase the number of options” compresses the wording.</p><p class=\"source\"><a href=\"https://asc-cybernetics.org/2011/wp-content/uploads/2011/08/HvF_Disorder_Order_Discovery_or_Invention.pdf\">Disorder/Order: Discovery or Invention?</a>. 1984, PDF p. 6, final paragraph before the discussion.</p></aside>"
+    },
+    {
+      "id": "seeing-and-acting",
+      "title": "The aesthetical imperative",
+      "kind": "primary",
+      "source_ids": [
+        "constructing-reality-1973"
+      ],
+      "locator": "Final PDF page 13",
+      "body_html": "<blockquote cite=\"https://pespmc1.vub.ac.be/books/Foerster-constructingreality.pdf\">‘If you desire to see, learn how to act.’</blockquote>\n          <p>What we can perceive develops through what we do. Participate, vary the action, and notice what becomes available to observation.</p>\n          <p class=\"source\"><a href=\"https://pespmc1.vub.ac.be/books/Foerster-constructingreality.pdf#page=13\">On Constructing a Reality (1973)</a>, final page. This accompanies the ethical imperative in the same closing passage.</p>"
+    },
+    {
+      "id": "the-hearer",
+      "title": "Meaning and the hearer",
+      "kind": "primary",
+      "source_ids": [
+        "anthology-1995"
+      ],
+      "locator": "Item 4",
+      "body_html": "<blockquote cite=\"https://archive.cybsoc.org/heinz.htm\">‘The hearer, not the speaker determines the meaning of an utterance.’</blockquote>\n          <p>Intending to communicate something doesn’t establish that it has been understood. Ask what the other person made of it. Their response changes what you can say next.</p>\n          <p class=\"source\"><a href=\"https://archive.cybsoc.org/heinz.htm\">The 1995 anthology</a>, item 4. This doesn’t release the speaker from responsibility for what they say.</p>"
+    },
+    {
+      "id": "blind-spots",
+      "title": "Not seeing the absence",
+      "kind": "primary",
+      "source_ids": [
+        "anthology-1995"
+      ],
+      "locator": "Item 5",
+      "body_html": "<blockquote cite=\"https://archive.cybsoc.org/heinz.htm\">‘One does not see what one does not see.’</blockquote>\n          <p>A blind spot doesn’t announce itself as a hole. Another person, a changed position, or an unexpected result may expose something your account had no place for.</p>\n          <p class=\"source\"><a href=\"https://archive.cybsoc.org/heinz.htm\">The 1995 anthology</a>, item 5, on the blind spot.</p>"
+    },
+    {
+      "id": "undecidable-questions",
+      "title": "Deciding the undecidable",
+      "kind": "primary",
+      "source_ids": [
+        "ethics-2003-reprint"
+      ],
+      "locator": "Understanding Understanding, p. 293",
+      "body_html": "<blockquote cite=\"https://www.pangaro.com/hciiseminar2019/Heinz_Von_Foerster-Ethics_and_Second-order_Cybernetics.pdf\">‘Only those questions that are in principle undecidable, we can decide.’</blockquote>\n          <p>Where an agreed framework compels the answer, it has already settled the question. Where it cannot, we have to choose and take responsibility. Evidence still matters; it cannot relieve us of every judgement.</p>\n          <p class=\"source\"><a href=\"https://www.pangaro.com/hciiseminar2019/Heinz_Von_Foerster-Ethics_and_Second-order_Cybernetics.pdf\">Ethics and Second-Order Cybernetics</a>, in Understanding Understanding (2003), p. 293. First published in French in 1991; the English journal version appeared in 1992.</p>"
+    },
+    {
+      "id": "objectivity",
+      "title": "The missing observer",
+      "kind": "reported",
+      "source_ids": [
+        "certainty-dialogue",
+        "disorder_1984"
+      ],
+      "locator": "Printed p. 3",
+      "body_html": "<blockquote cite=\"https://api.pageplace.de/preview/DT0400.9781845404703_A25107910/preview-9781845404703_A25107910.pdf\">‘Objectivity is a subject’s delusion that observing can be done without him.’</blockquote>\n          <p>The observer’s position, distinctions, and means of observing belong in the account. Acknowledging them creates obligations to explain and test a claim.</p>\n          <p class=\"source\">Bernhard Poerksen, <a href=\"https://api.pageplace.de/preview/DT0400.9781845404703_A25107910/preview-9781845404703_A25107910.pdf\">The Certainty of Uncertainty</a>, p. 3. Poerksen puts this attributed saying to von Foerster, who develops the argument in their conversation. This is the checked dialogue source, not a claim to have located its first use.</p><p class=\"variant-note\">The 1984 essay also connects removing the observer from an account with avoiding responsibility. <a href=\"https://asc-cybernetics.org/2011/wp-content/uploads/2011/08/HvF_Disorder_Order_Discovery_or_Invention.pdf#page=6\">Read that argument, PDF p. 6.</a></p>"
+    },
+    {
+      "id": "fame-and-success",
+      "title": "Ignored problems, fame, and success",
+      "kind": "primary",
+      "source_ids": [
+        "responsibilities-1972",
+        "initiating-discussion"
+      ],
+      "locator": "BCL #223, p. 1",
+      "body_html": "<blockquote cite=\"https://www.jlombardi.net/pdf/HvFresponsibilty_competence.pdf\">‘The more profound the problem that is ignored, the greater are the chances for fame and success.’</blockquote>\n          <p>A pointed question for any account of success: what had to be left outside it?</p>\n          <p class=\"source\"><a href=\"https://www.jlombardi.net/pdf/HvFresponsibilty_competence.pdf#page=1\">Responsibilities of Competence (1972)</a>, BCL #223, p. 1.</p>\n          <aside class=\"attribution-note\"><h4>The Stafford Beer connection</h4><p>Von Foerster says he presented the theorem at an earlier symposium and that Beer subsequently gave it its numbered name. The paper doesn’t establish a private exchange using the variant about ignoring more subjects and feigning success. That variant changes the wording and should be treated as a paraphrase.</p></aside><aside class=\"attribution-note\"><h4>The reported variant</h4><p>“The more subjects you ignore, the greater your chance of feigning success” appears in <a href=\"https://bsky.app/profile/antlerboy.com/post/3myxbambxhv2t\">Benjamin’s initiating post</a>, attributed there to Heinz speaking to Beer. No primary passage for that wording has been located. It remains a reported variant.</p></aside>"
+    },
+    {
+      "id": "hard-problems",
+      "title": "Hard sciences, hard problems",
+      "kind": "paraphrase",
+      "source_ids": [
+        "responsibilities-1972"
+      ],
+      "locator": "BCL #223, p. 1",
+      "body_html": "<p class=\"paraphrase\">The “hard” sciences succeed with comparatively tractable problems; the “soft” sciences face harder ones.</p><p>His second theorem challenges an easy ranking of disciplines. Simplifying a social problem may remove the interactions that matter.</p><p class=\"source\"><a href=\"https://www.jlombardi.net/pdf/HvFresponsibilty_competence.pdf\">Responsibilities of Competence</a>. 1972, p. 1, Theorem Number Two. Paraphrase of his contrast; the exact formulation is in the paper.</p>"
+    },
+    {
+      "id": "truth",
+      "title": "Truth and the liar",
+      "kind": "primary",
+      "source_ids": [
+        "truth-book"
+      ],
+      "locator": "Book title and publisher record",
+      "body_html": "<blockquote cite=\"https://www.carl-auer.com/product/truth-is-the-invention-of-a-liar/\">‘Truth is the invention of a liar.’</blockquote>\n          <p>Follow this into the conversation about knowledge, certainty, and ethics. Using it as permission to disregard evidence would give the phrase rather too easy a life.</p>\n          <p class=\"source\">The title of <a href=\"https://www.carl-auer.com/product/truth-is-the-invention-of-a-liar/\">Heinz von Foerster and Bernhard Poerksen’s book</a>, subtitled Conversations on Epistemology and Ethics. The link is to the publisher’s record.</p>"
+    },
+    {
+      "id": "the-scientist-in-the-theory",
+      "title": "The biologist belongs in the theory",
+      "kind": "paraphrase",
+      "source_ids": [
+        "responsibilities-1972"
+      ],
+      "locator": "The Single-Brain Problem, Theorem Number Three; reprinted on p. 195.",
+      "body_html": "<p class=\"paraphrase\">A biological account must also account for the living person who produces it.</p><p>This completes the paper’s three explicitly numbered theorems. A theory made by an organism must be able to accommodate that activity.</p><p class=\"source\"><a href=\"https://www.jlombardi.net/pdf/HvFresponsibilty_competence.pdf\">Responsibilities of Competence</a>. The Single-Brain Problem, Theorem Number Three; reprinted on p. 195.</p>"
+    },
+    {
+      "id": "reality-and-community",
+      "title": "Reality and community",
+      "kind": "primary",
+      "source_ids": [
+        "constructing-reality-1973"
+      ],
+      "locator": "Final PDF page 13, just before the two imperatives.",
+      "body_html": "<blockquote cite=\"https://pespmc1.vub.ac.be/books/Foerster-constructingreality.pdf\">‘Reality = Community’</blockquote><p>The closing equation makes room for other people in the account of reality. It precedes the ethical and aesthetical imperatives.</p><p class=\"source\"><a href=\"https://pespmc1.vub.ac.be/books/Foerster-constructingreality.pdf\">On Constructing a Reality</a>. Final PDF page 13, just before the two imperatives.</p>"
+    },
+    {
+      "id": "world-as-invention",
+      "title": "The perceived world as invention",
+      "kind": "paraphrase",
+      "source_ids": [
+        "constructing-reality-1973"
+      ],
+      "locator": "Opening sentence, PDF p. 1.",
+      "body_html": "<p class=\"paraphrase\">The world we perceive is something we participate in producing.</p><p>This paraphrases the essay’s opening claim. The linked page preserves his precise formulation.</p><p class=\"source\"><a href=\"https://pespmc1.vub.ac.be/books/Foerster-constructingreality.pdf\">On Constructing a Reality</a>. Opening sentence, PDF p. 1.</p>"
+    },
+    {
+      "id": "describing-order",
+      "title": "The language of order",
+      "kind": "primary",
+      "source_ids": [
+        "disorder_1984"
+      ],
+      "locator": "PDF p. 5, concluding sequence of propositions.",
+      "body_html": "<blockquote cite=\"https://asc-cybernetics.org/2011/wp-content/uploads/2011/08/HvF_Disorder_Order_Discovery_or_Invention.pdf\">‘The length of descriptions is language-dependent.’</blockquote><p>He links order and complexity to the descriptions an observer can produce. A changed descriptive language can change the apparent order.</p><p class=\"source\"><a href=\"https://asc-cybernetics.org/2011/wp-content/uploads/2011/08/HvF_Disorder_Order_Discovery_or_Invention.pdf\">Disorder/Order: Discovery or Invention?</a>. PDF p. 5, concluding sequence of propositions.</p>"
+    },
+    {
+      "id": "necessity-and-chance",
+      "title": "Necessity and chance",
+      "kind": "paraphrase",
+      "source_ids": [
+        "disorder_1984"
+      ],
+      "locator": "PDF p. 6, first paragraph; also anthology items 24–25.",
+      "body_html": "<p class=\"paraphrase\">Deductive certainty and inductive uncertainty concern our inference-making capacities.</p><p>His contrast places the observer’s abilities within the explanation of what appears necessary or accidental.</p><p class=\"source\"><a href=\"https://asc-cybernetics.org/2011/wp-content/uploads/2011/08/HvF_Disorder_Order_Discovery_or_Invention.pdf\">Disorder/Order: Discovery or Invention?</a>. PDF p. 6, first paragraph; also anthology items 24–25.</p>"
+    },
+    {
+      "id": "closure-and-openness",
+      "title": "Closed organisation, open exchanges",
+      "kind": "paraphrase",
+      "source_ids": [
+        "disorder_1984"
+      ],
+      "locator": "PDF p. 6, discussion of autopoiesis.",
+      "body_html": "<p class=\"paraphrase\">An organisation can maintain its own organisation while exchanging energy with its surroundings.</p><p>Von Foerster explicitly credits Maturana, Varela, and Uribe in this discussion. Closure in one respect needn’t mean isolation in every respect.</p><p class=\"source\"><a href=\"https://asc-cybernetics.org/2011/wp-content/uploads/2011/08/HvF_Disorder_Order_Discovery_or_Invention.pdf\">Disorder/Order: Discovery or Invention?</a>. PDF p. 6, discussion of autopoiesis.</p>"
+    },
+    {
+      "id": "legitimate-questions",
+      "title": "Learning to ask questions",
+      "kind": "primary",
+      "source_ids": [
+        "perception_1972"
+      ],
+      "locator": "PDF p. 6, Future, propositions 1–2 and preceding paragraph. Address 1971; publication 1972.",
+      "body_html": "<blockquote cite=\"https://asc-cybernetics.org/2011/wp-content/uploads/2011/08/HvF_Perception_of_the_Future_and_the_Future_of_Perception.pdf\">‘Education is learning to ask legitimate questions.’</blockquote><p>Here the answer is not prescribed in advance. He credits Herbert Brün for this distinction and presents education as a necessity, beyond entitlement or privilege.</p><p class=\"source\"><a href=\"https://asc-cybernetics.org/2011/wp-content/uploads/2011/08/HvF_Perception_of_the_Future_and_the_Future_of_Perception.pdf\">Perception of the Future and the Future of Perception</a>. PDF p. 6, Future, propositions 1–2 and preceding paragraph. Address 1971; publication 1972.</p>"
+    },
+    {
+      "id": "better-off-together",
+      "title": "Better off together",
+      "kind": "primary",
+      "source_ids": [
+        "perception_1972"
+      ],
+      "locator": "PDF p. 6, Future, proposition 3.",
+      "body_html": "<blockquote cite=\"https://asc-cybernetics.org/2011/wp-content/uploads/2011/08/HvF_Perception_of_the_Future_and_the_Future_of_Perception.pdf\">‘A is better off when B is better off.’</blockquote><p>The third proposition follows his account of education. Whose improvement is being pursued, and what happens to the other person?</p><p class=\"source\"><a href=\"https://asc-cybernetics.org/2011/wp-content/uploads/2011/08/HvF_Perception_of_the_Future_and_the_Future_of_Perception.pdf\">Perception of the Future and the Future of Perception</a>. PDF p. 6, Future, proposition 3.</p>"
+    },
+    {
+      "id": "vision-and-light",
+      "title": "Vision and light",
+      "kind": "primary",
+      "source_ids": [
+        "perception_1972"
+      ],
+      "locator": "PDF p. 7, final sentence before the references.",
+      "body_html": "<blockquote cite=\"https://asc-cybernetics.org/2011/wp-content/uploads/2011/08/HvF_Perception_of_the_Future_and_the_Future_of_Perception.pdf\">‘Let there be vision: and there was light.’</blockquote><p>He closes by reversing the familiar order: what becomes visible depends on the capacity to see.</p><p class=\"source\"><a href=\"https://asc-cybernetics.org/2011/wp-content/uploads/2011/08/HvF_Perception_of_the_Future_and_the_Future_of_Perception.pdf\">Perception of the Future and the Future of Perception</a>. PDF p. 7, final sentence before the references.</p>"
+    },
+    {
+      "id": "education-and-predictability",
+      "title": "Education and predictable answers",
+      "kind": "paraphrase",
+      "source_ids": [
+        "perception_1972"
+      ],
+      "locator": "PDF p. 6, educational trivialisation before Future.",
+      "body_html": "<p class=\"paraphrase\">Testing only for prescribed answers measures how predictable a student has become.</p><p>The paper questions making predictability an ideal for people simply because it is useful in manufactured devices.</p><p class=\"source\"><a href=\"https://asc-cybernetics.org/2011/wp-content/uploads/2011/08/HvF_Perception_of_the_Future_and_the_Future_of_Perception.pdf\">Perception of the Future and the Future of Perception</a>. PDF p. 6, educational trivialisation before Future.</p>"
+    },
+    {
+      "id": "acting-towards-a-future",
+      "title": "Acting towards a future",
+      "kind": "paraphrase",
+      "source_ids": [
+        "perception_1972"
+      ],
+      "locator": "PDF pp. 1 and 4.",
+      "body_html": "<p class=\"paraphrase\">An imagined future can orient present action; failing to act leaves others to act upon us.</p><p class=\"source\"><a href=\"https://asc-cybernetics.org/2011/wp-content/uploads/2011/08/HvF_Perception_of_the_Future_and_the_Future_of_Perception.pdf\">Perception of the Future and the Future of Perception</a>. PDF pp. 1 and 4.</p>"
+    },
+    {
+      "id": "observing-myself",
+      "title": "Observing myself",
+      "kind": "primary",
+      "source_ids": [
+        "epistemology_1972"
+      ],
+      "locator": "§8.45, printed p. 19; PDF p. 21.",
+      "body_html": "<blockquote cite=\"https://cepa.info/fulltexts/1655.pdf\">‘I am the observed relation between myself and observing myself.’</blockquote><p>A formulation of self-reference: the description includes the act of describing oneself.</p><p class=\"source\"><a href=\"https://cepa.info/fulltexts/1655.pdf\">Notes on an Epistemology for Living Things</a>. §8.45, printed p. 19; PDF p. 21.</p>"
+    },
+    {
+      "id": "environment-and-information",
+      "title": "The environment and information",
+      "kind": "primary",
+      "source_ids": [
+        "epistemology_1972"
+      ],
+      "locator": "§11, printed p. 23; PDF p. 25. Read alongside §10, PDF p. 24.",
+      "body_html": "<blockquote cite=\"https://cepa.info/fulltexts/1655.pdf\">‘The environment contains no information. The environment is as it is.’</blockquote><p>In §10, information depends on what an observer can infer from a description. The two propositions belong together.</p><p class=\"source\"><a href=\"https://cepa.info/fulltexts/1655.pdf\">Notes on an Epistemology for Living Things</a>. §11, printed p. 23; PDF p. 25. Read alongside §10, PDF p. 24.</p>"
+    },
+    {
+      "id": "communication-and-messages",
+      "title": "Accounting for messages",
+      "kind": "paraphrase",
+      "source_ids": [
+        "epistemology_1972"
+      ],
+      "locator": "§8 and §8.4, printed p. 18; PDF p. 20.",
+      "body_html": "<p class=\"paraphrase\">A communication theory must explain how messages arise, including the observer who identifies an interaction as communication.</p><p class=\"source\"><a href=\"https://cepa.info/fulltexts/1655.pdf\">Notes on an Epistemology for Living Things</a>. §8 and §8.4, printed p. 18; PDF p. 20.</p>"
+    },
+    {
+      "id": "movement-and-logic",
+      "title": "Movement and logic",
+      "kind": "paraphrase",
+      "source_ids": [
+        "epistemology_1972"
+      ],
+      "locator": "§9, printed p. 19; PDF p. 21.",
+      "body_html": "<p class=\"paraphrase\">Logical descriptions arise through organisms’ movements.</p><p class=\"source\"><a href=\"https://cepa.info/fulltexts/1655.pdf\">Notes on an Epistemology for Living Things</a>. §9, printed p. 19; PDF p. 21.</p>"
+    },
+    {
+      "id": "constancy-and-change",
+      "title": "Constancy and change",
+      "kind": "paraphrase",
+      "source_ids": [
+        "epistemology_1972"
+      ],
+      "locator": "§1.1, printed p. 11; PDF p. 13.",
+      "body_html": "<p class=\"paraphrase\">Constancy and alteration require each other.</p><p class=\"source\"><a href=\"https://cepa.info/fulltexts/1655.pdf\">Notes on an Epistemology for Living Things</a>. §1.1, printed p. 11; PDF p. 13.</p>"
+    },
+    {
+      "id": "whole-and-parts",
+      "title": "The whole and its parts",
+      "kind": "primary",
+      "source_ids": [
+        "objects_1976"
+      ],
+      "locator": "Printed p. 266; PDF p. 6, after expression (12). Excerpt from a longer sentence.",
+      "body_html": "<blockquote cite=\"https://monoskop.org/images/b/bf/Von_Foerster_Heinz_2003_Objects_Tokens_for_Eigen-Behaviors.pdf\">‘the whole is neither more nor is it less than the sum of its parts: it is different.’</blockquote><p>He is discussing the relationship between a recursive expression and the finite forms it entails. The difference matters more here than an arithmetic claim of superiority.</p><p class=\"source\"><a href=\"https://monoskop.org/images/b/bf/Von_Foerster_Heinz_2003_Objects_Tokens_for_Eigen-Behaviors.pdf\">Objects: Tokens for (Eigen-)Behaviors</a>. Printed p. 266; PDF p. 6, after expression (12). Excerpt from a longer sentence.</p>"
+    },
+    {
+      "id": "objects-and-behaviour",
+      "title": "Objects and stable behaviour",
+      "kind": "primary",
+      "source_ids": [
+        "objects_1976"
+      ],
+      "locator": "Printed p. 261; PDF p. 1. Presented in 1976; reprinted in 2003.",
+      "body_html": "<blockquote cite=\"https://monoskop.org/images/b/bf/Von_Foerster_Heinz_2003_Objects_Tokens_for_Eigen-Behaviors.pdf\">‘tokens for stable behaviors’</blockquote><p>This is his phrase for objects in an account that includes the observer. Repeated sensorimotor coordination gives a route into the apparent stability of things.</p><p class=\"source\"><a href=\"https://monoskop.org/images/b/bf/Von_Foerster_Heinz_2003_Objects_Tokens_for_Eigen-Behaviors.pdf\">Objects: Tokens for (Eigen-)Behaviors</a>. Printed p. 261; PDF p. 1. Presented in 1976; reprinted in 2003.</p>"
+    },
+    {
+      "id": "tell-me-your-universe",
+      "title": "Tell me your universe",
+      "kind": "primary",
+      "source_ids": [
+        "metaphysics_1995"
+      ],
+      "locator": "Metaphysics section, after the range of cultural accounts of origins.",
+      "body_html": "<blockquote cite=\"https://www.vordenker.de/metaphysics/metaphysics.htm\">‘Tell me how the Universe came about, and I tell you who you are!’</blockquote><p>Accounts of the world also disclose their speaker. The question invites attention to the person making the account.</p><p class=\"source\"><a href=\"https://www.vordenker.de/metaphysics/metaphysics.htm\">Metaphysics of an Experimental Epistemologist</a>. Metaphysics section, after the range of cultural accounts of origins.</p>"
+    },
+    {
+      "id": "ethics-and-responsibility",
+      "title": "Implicit ethics, explicit responsibility",
+      "kind": "primary",
+      "source_ids": [
+        "metaphysics_1995"
+      ],
+      "locator": "Closing section, paragraph about the collapse of hierarchy.",
+      "body_html": "<blockquote cite=\"https://www.vordenker.de/metaphysics/metaphysics.htm\">‘ethics becomes implicit, responsibility explicit.’</blockquote><p>His choice of language is part of how ethics is practised. The observer’s participation can’t be handed off to an external authority.</p><p class=\"source\"><a href=\"https://www.vordenker.de/metaphysics/metaphysics.htm\">Metaphysics of an Experimental Epistemologist</a>. Closing section, paragraph about the collapse of hierarchy.</p>"
+    },
+    {
+      "id": "no-disciplines",
+      "title": "Expertise without disciplines",
+      "kind": "primary",
+      "source_ids": [
+        "stanford_1995"
+      ],
+      "locator": "Opening answer. Stefano Franchi, Güven Güzeldere, and Eric Minch; Stanford Humanities Review 4(2), 1995. Public transcript mirror.",
+      "body_html": "<blockquote cite=\"https://www.informationphilosopher.com/solutions/scientists/foerster/interview.html\">‘I don&#x27;t know where my expertise is; my expertise is no disciplines.’</blockquote><p>Academic labels can restrict what someone is allowed to investigate.</p><blockquote cite=\"https://www.informationphilosopher.com/solutions/scientists/foerster/interview.html\">‘Disciplines are an aftereffect of the institutional situation.’</blockquote><p class=\"source\"><a href=\"https://www.informationphilosopher.com/solutions/scientists/foerster/interview.html\">Interview with Heinz von Foerster</a>. Opening answer. Stefano Franchi, Güven Güzeldere, and Eric Minch; Stanford Humanities Review 4(2), 1995. Public transcript mirror.</p>"
+    },
+    {
+      "id": "self-organisation-and-environment",
+      "title": "Self-organisation needs an environment",
+      "kind": "primary",
+      "source_ids": [
+        "self-organising-1960"
+      ],
+      "locator": "Opening, printed p. 1; PDF p. 14. Essay published 1960, reprinted 2003.",
+      "body_html": "<blockquote cite=\"https://www.alice.id.tue.nl/references/foerster-2003.pdf\">‘There are no such things as self-organizing systems!’</blockquote><p>The provocation challenges a system treated independently of the environment that supports it. Read the qualification with the sentence.</p><p class=\"source\"><a href=\"https://www.alice.id.tue.nl/references/foerster-2003.pdf\">On Self-Organizing Systems and Their Environments</a>. Opening, printed p. 1; PDF p. 14. Essay published 1960, reprinted 2003.</p>"
+    },
+    {
+      "id": "waters-language-dance",
+      "title": "Language as an invitation to dance",
+      "kind": "primary",
+      "source_ids": [
+        "reported-waters"
+      ],
+      "locator": "Answer to the question about reinventing language. Signed Santa Cruz, November 1999; reproduced in the 2001 festschrift.",
+      "body_html": "<blockquote cite=\"https://constructivist.info/proponents/vonfoerster/festschrift/waters.html\">‘Language for me is an invitation to dance.’</blockquote><p>Language is a joint activity in which both partners help shape the next step.</p><p class=\"source\"><a href=\"https://constructivist.info/proponents/vonfoerster/festschrift/waters.html\">Christina Waters, Invitation to Dance: A Conversation with Heinz von Foerster</a>. Answer to the question about reinventing language. Signed Santa Cruz, November 1999; reproduced in the 2001 festschrift.</p>"
+    },
+    {
+      "id": "waters-tell-it",
+      "title": "It is how you tell it",
+      "kind": "primary",
+      "source_ids": [
+        "reported-waters"
+      ],
+      "locator": "Opening discussion of discovery and invention, after the journalism-school banner. Signed Santa Cruz, November 1999; reproduced in the 2001 festschrift.",
+      "body_html": "<blockquote cite=\"https://constructivist.info/proponents/vonfoerster/festschrift/waters.html\">‘Nobody knows how it is. It is how you tell it.’</blockquote><p>He uses this to insist on a writer’s responsibility for a description.</p><p class=\"source\"><a href=\"https://constructivist.info/proponents/vonfoerster/festschrift/waters.html\">Christina Waters, Invitation to Dance: A Conversation with Heinz von Foerster</a>. Opening discussion of discovery and invention, after the journalism-school banner. Signed Santa Cruz, November 1999; reproduced in the 2001 festschrift.</p>"
+    },
+    {
+      "id": "poerksen-see",
+      "title": "Inviting someone to see",
+      "kind": "reported",
+      "source_ids": [
+        "reported-poerksen"
+      ],
+      "locator": "Paragraph beginning 'The breaks of our conversation'. Conversation August 1998; published in the 2001 festschrift.",
+      "body_html": "<blockquote cite=\"https://constructivist.info/proponents/vonfoerster/festschrift/poerksen.html\">‘What matters to me is the invitation to see.’</blockquote><p>Pörksen quotes this August 1998 conversation and says he recorded it. These are the words of the published English account; the recording itself has not been checked.</p><blockquote cite=\"https://constructivist.info/proponents/vonfoerster/festschrift/poerksen.html\">‘What the other sees is his business.’</blockquote><p class=\"source\"><a href=\"https://constructivist.info/proponents/vonfoerster/festschrift/poerksen.html\">Bernhard Pörksen, Beyond Distinctions: Memories of a conversation on Rattlesnake Hill about George Spencer-Brown and mystics</a>. Paragraph beginning &#x27;The breaks of our conversation&#x27;. Conversation August 1998; published in the 2001 festschrift.</p>"
+    },
+    {
+      "id": "inselberg-learning",
+      "title": "Learning how to learn",
+      "kind": "reported",
+      "source_ids": [
+        "reported-inselberg"
+      ],
+      "locator": "Section 'Non-causality', paragraph beginning 'Just prior to course registration'. 2001 festschrift; recollections begin in May 1959.",
+      "body_html": "<blockquote cite=\"https://constructivist.info/proponents/vonfoerster/festschrift/inselberg.html\">‘Learn how to Learn’</blockquote><p>Inselberg asked what courses to take; this is the response he remembers.</p><p class=\"source\"><a href=\"https://constructivist.info/proponents/vonfoerster/festschrift/inselberg.html\">Alfred Inselberg, HvF Recursion … or was it Magic?</a>. Section &#x27;Non-causality&#x27;, paragraph beginning &#x27;Just prior to course registration&#x27;. 2001 festschrift; recollections begin in May 1959.</p>"
+    },
+    {
+      "id": "inselberg-fortune",
+      "title": "Helpful accidents",
+      "kind": "reported",
+      "source_ids": [
+        "reported-inselberg"
+      ],
+      "locator": "Opening section 'Skillful Good Fortune', paragraph beginning 'My timely arrival'. 2001 festschrift; recollections begin in May 1959.",
+      "body_html": "<blockquote cite=\"https://constructivist.info/proponents/vonfoerster/festschrift/inselberg.html\">‘skillful good fortune’</blockquote><p>Inselberg says HvF regularly used the expression for helpful, otherwise mysterious coincidences. A characteristic phrase rather than a formal maxim.</p><p class=\"source\"><a href=\"https://constructivist.info/proponents/vonfoerster/festschrift/inselberg.html\">Alfred Inselberg, HvF Recursion … or was it Magic?</a>. Opening section &#x27;Skillful Good Fortune&#x27;, paragraph beginning &#x27;My timely arrival&#x27;. 2001 festschrift; recollections begin in May 1959.</p>"
+    },
+    {
+      "id": "rebitzer-implicit",
+      "title": "Cherishing what is implicit",
+      "kind": "reported",
+      "source_ids": [
+        "reported-rebitzer"
+      ],
+      "locator": "Paragraph beginning 'I remember many moments'. 2001 festschrift; individual contribution undated.",
+      "body_html": "<blockquote cite=\"https://constructivist.info/proponents/vonfoerster/festschrift/rebitzer.html\">‘you must learn to cherish what&#x27;s implicit in things’</blockquote><p>Rebitzer recalls this advice in response to his persistent probing questions. The lowercase opening follows his text.</p><p class=\"source\"><a href=\"https://constructivist.info/proponents/vonfoerster/festschrift/rebitzer.html\">Robert S. Rebitzer, Doing Science</a>. Paragraph beginning &#x27;I remember many moments&#x27;. 2001 festschrift; individual contribution undated.</p>"
+    },
+    {
+      "id": "scott-fathers",
+      "title": "The sons creating the fathers",
+      "kind": "reported",
+      "source_ids": [
+        "reported-scott"
+      ],
+      "locator": "Paragraph immediately after Scott describes his 1979 appreciation. Signed August 2001; telegram followed Scott's 1979 appreciation.",
+      "body_html": "<blockquote cite=\"https://constructivist.info/proponents/vonfoerster/festschrift/scott.html\">‘Congratulations! You have reversed evolution. Now the sons are creating the fathers!’</blockquote><p>Response to Scott&#x27;s tribute about cybernetics&#x27; founders. A joke about how later accounts create a field&#x27;s ancestors, not a biological proposition.</p><p class=\"source\"><a href=\"https://constructivist.info/proponents/vonfoerster/festschrift/scott.html\">Bernard Scott, Co-Creators: To Heinz from Bernard</a>. Paragraph immediately after Scott describes his 1979 appreciation. Signed August 2001; telegram followed Scott&#x27;s 1979 appreciation.</p>"
+    },
+    {
+      "id": "baecker-complexity",
+      "title": "Complexity and recursion",
+      "kind": "reported",
+      "source_ids": [
+        "reported-baecker"
+      ],
+      "locator": "Paragraph contrasting recursivity and complexity, beginning 'Heinz looked on Luhmann's oeuvre'. 2001 festschrift; account of visits during 1990–1991.",
+      "body_html": "<blockquote cite=\"https://constructivist.info/proponents/vonfoerster/festschrift/baecker.html\">‘If somebody is ignorant enough to want to deal with complexity, he will stay that way’</blockquote><p>Baecker places the remark in a discussion of recursive operations and Heinz’s response to Luhmann’s work.</p><p class=\"source\"><a href=\"https://constructivist.info/proponents/vonfoerster/festschrift/baecker.html\">Dirk Baecker, The Eye of the Coyote</a>. Paragraph contrasting recursivity and complexity, beginning &#x27;Heinz looked on Luhmann&#x27;s oeuvre&#x27;. 2001 festschrift; account of visits during 1990–1991.</p>"
+    },
+    {
+      "id": "clough-observer",
+      "title": "The value of another observer",
+      "kind": "reported",
+      "source_ids": [
+        "reported-clough"
+      ],
+      "locator": "Section III, paragraph beginning 'Earlier before the seminar'. 2001 festschrift; reconstructed exchanges from June 1971.",
+      "body_html": "<blockquote cite=\"https://constructivist.info/proponents/vonfoerster/festschrift/clough.html\">‘You are very valuable, because you see, you can be an observer.’</blockquote><p>Welcoming a late arrival to the 1971 CIDOC seminar. Author explicitly warns at the beginning that he reconstructed conversations 29 years later.</p><p class=\"source\"><a href=\"https://constructivist.info/proponents/vonfoerster/festschrift/clough.html\">Rodney Clough, “Getting” Heinz</a>. Section III, paragraph beginning &#x27;Earlier before the seminar&#x27;. 2001 festschrift; reconstructed exchanges from June 1971.</p>"
+    },
+    {
+      "id": "galuszka-sculpture",
+      "title": "An idea as a sculpture",
+      "kind": "reported",
+      "source_ids": [
+        "reported-galuszka"
+      ],
+      "locator": "Opening paragraph, within parentheses. 2001 festschrift; encounter in the mid 1980s.",
+      "body_html": "<blockquote cite=\"https://constructivist.info/proponents/vonfoerster/festschrift/galuszka.html\">‘an idea should be a sculpture!’</blockquote><p>Galuszka remembers the phrase from their first meeting in the mid 1980s. His account leaves it unexplained.</p><p class=\"source\"><a href=\"https://constructivist.info/proponents/vonfoerster/festschrift/galuszka.html\">Frank Galuszka, Perplexity</a>. Opening paragraph, within parentheses. 2001 festschrift; encounter in the mid 1980s.</p>"
+    },
+    {
+      "id": "schroeder-green",
+      "title": "Turning towards the green light",
+      "kind": "reported",
+      "source_ids": [
+        "reported-schroeder"
+      ],
+      "locator": "Paragraph beginning 'Heinz was arguing'. 2001 festschrift; author uncertain whether separate nighttime episode was in 1971 or 1974.",
+      "body_html": "<blockquote cite=\"https://constructivist.info/proponents/vonfoerster/festschrift/schroeder.html\">‘then I simply turn and go in the direction that is green.’</blockquote><p>Schroeder remembers a classroom illustration: when a traffic light blocks a route, Heinz turns towards an open crossing. These words are the final clause of the recalled remark, offered as a way around an institutional confrontation.</p><p class=\"source\"><a href=\"https://constructivist.info/proponents/vonfoerster/festschrift/schroeder.html\">Paul Schroeder, A Grasshopper Reflects</a>. Paragraph beginning &#x27;Heinz was arguing&#x27;. 2001 festschrift; author uncertain whether separate nighttime episode was in 1971 or 1974.</p>"
+    },
+    {
+      "id": "sloan-relating",
+      "title": "How, why, and what",
+      "kind": "reported",
+      "source_ids": [
+        "reported-sloan"
+      ],
+      "locator": "Scribe column, paragraph beginning 'He carried this into Pask's models'. Class-project material copyright 1972; reproduced in the 2001 festschrift.",
+      "body_html": "<blockquote cite=\"https://constructivist.info/proponents/vonfoerster/festschrift/sloan.html\">‘How, why and what refer to three different ways of relating things.’</blockquote><p>Reproduced class-project material carrying a 1972 copyright. It is a scribe&#x27;s account rather than an audio transcript.</p><p class=\"source\"><a href=\"https://constructivist.info/proponents/vonfoerster/festschrift/sloan.html\">Steve Sloan / reproduced student scribe and metascribe notes, Metagames</a>. Scribe column, paragraph beginning &#x27;He carried this into Pask&#x27;s models&#x27;. Class-project material copyright 1972; reproduced in the 2001 festschrift.</p>"
+    },
+    {
+      "id": "telfener-dialogue",
+      "title": "Talking to myself through you",
+      "kind": "primary",
+      "source_ids": [
+        "reported-telfener"
+      ],
+      "locator": "Answer following the question about Maturana's languaging. Website post 20 February 2013; interview date unspecified and necessarily before HvF's death in 2002.",
+      "body_html": "<blockquote cite=\"https://www.systemics.eu/an-interview-to-heinz-von-foerster-u-t/\">‘In a dialogue I am talking to me through you.’</blockquote><p>Understanding changes as one&#x27;s language returns through another person&#x27;s response. English wording as published; interview date is not supplied.</p><p class=\"source\"><a href=\"https://www.systemics.eu/an-interview-to-heinz-von-foerster-u-t/\">Umberta Telfener, An interview to Heinz von Foerster (U.T.)</a>. Answer following the question about Maturana&#x27;s languaging. Website post 20 February 2013; interview date unspecified and necessarily before HvF&#x27;s death in 2002.</p>"
+    },
+    {
+      "id": "telfener-information",
+      "title": "Information as a change in relationship",
+      "kind": "primary",
+      "source_ids": [
+        "reported-telfener"
+      ],
+      "locator": "Last paragraph before the concluding Taoist story. Website post 20 February 2013; interview date unspecified and necessarily before HvF's death in 2002.",
+      "body_html": "<blockquote cite=\"https://www.systemics.eu/an-interview-to-heinz-von-foerster-u-t/\">‘Information is the way one changes after a relationship with someone.’</blockquote><p>The interview treats information as a change in the person participating in a relationship.</p><p class=\"source\"><a href=\"https://www.systemics.eu/an-interview-to-heinz-von-foerster-u-t/\">Umberta Telfener, An interview to Heinz von Foerster (U.T.)</a>. Last paragraph before the concluding Taoist story. Website post 20 February 2013; interview date unspecified and necessarily before HvF&#x27;s death in 2002.</p>"
+    },
+    {
+      "id": "questions-that-invite-invention",
+      "title": "Questions that invite invention",
+      "kind": "paraphrase",
+      "source_ids": [
+        "reported-telfener"
+      ],
+      "locator": "Answers about therapeutic questions. Posted 20 February 2013; interview date unspecified.",
+      "body_html": "<p class=\"paraphrase\">Unexpected questions can require the answerer to invent a response and thereby become a poet.</p><p class=\"source\"><a href=\"https://www.systemics.eu/an-interview-to-heinz-von-foerster-u-t/\">Umberta Telfener, An interview to Heinz von Foerster (U.T.)</a>. Answers about therapeutic questions. Posted 20 February 2013; interview date unspecified.</p>"
+    },
+    {
+      "id": "knowledge-and-the-reader",
+      "title": "Knowledge and the reader",
+      "kind": "paraphrase",
+      "source_ids": [
+        "reported-telfener"
+      ],
+      "locator": "Answer on scientific and individual knowledge, before the concluding story.",
+      "body_html": "<p class=\"paraphrase\">Knowledge depends on the person interpreting a book, rather than passing intact from its pages.</p><p class=\"source\"><a href=\"https://www.systemics.eu/an-interview-to-heinz-von-foerster-u-t/\">Umberta Telfener, An interview to Heinz von Foerster (U.T.)</a>. Answer on scientific and individual knowledge, before the concluding story.</p>"
+    },
+    {
+      "id": "reading-beyond-understanding",
+      "title": "Reading beyond current understanding",
+      "kind": "reported",
+      "source_ids": [
+        "reported-rebitzer"
+      ],
+      "locator": "Final anecdote in Doing Science; the source itself uses indirect speech.",
+      "body_html": "<p class=\"paraphrase\">Rebitzer reports that Heinz recommended occasionally reading work beyond one’s current understanding.</p><p>There is no exact maxim to reproduce in this account. This is reported advice, retained as indirect speech.</p><p class=\"source\"><a href=\"https://constructivist.info/proponents/vonfoerster/festschrift/rebitzer.html\">Robert S. Rebitzer, Doing Science</a>. Final anecdote in Doing Science; the source itself uses indirect speech.</p>"
+    },
+    {
+      "id": "questions-and-responsibility",
+      "title": "Questions, answers, and responsibility",
+      "kind": "paraphrase",
+      "source_ids": [
+        "reported-waters"
+      ],
+      "locator": "Early answers on inventing and avoiding responsibility, before the language-as-dance passage.",
+      "body_html": "<p class=\"paraphrase\">He challenges the dismissal of questions as foolish, and criticises hierarchy and claims of having no choice as ways to evade responsibility.</p><p class=\"source\"><a href=\"https://constructivist.info/proponents/vonfoerster/festschrift/waters.html\">Christina Waters, Invitation to Dance: A Conversation with Heinz von Foerster</a>. Early answers on inventing and avoiding responsibility, before the language-as-dance passage.</p>"
+    },
+    {
+      "id": "now-and-here",
+      "title": "Now and here — a reader’s attribution",
+      "kind": "attribution",
+      "source_ids": [
+        "reported-winter"
+      ],
+      "locator": "Opening paragraphs; November 2001.",
+      "body_html": "<blockquote cite=\"https://constructivist.info/proponents/vonfoerster/festschrift/winter.html\">‘everything is now and here’</blockquote><p>Winter attributes this phrase to a small book he doesn’t identify and says he never met Heinz. The report is locatable; the book passage remains an open lead.</p><p class=\"source\"><a href=\"https://constructivist.info/proponents/vonfoerster/festschrift/winter.html\">Wolfgang Winter, Everything is now and here</a>. Opening paragraphs; November 2001.</p>"
+    },
+    {
+      "id": "not-knowing-at-an-examination",
+      "title": "Not knowing at an examination",
+      "kind": "reported",
+      "source_ids": [
+        "story-kreitman"
+      ],
+      "locator": "Oral-examination anecdote, after the retirement story.",
+      "body_html": "<blockquote cite=\"https://constructivist.info/proponents/vonfoerster/festschrift/kreitman.html\">‘I DON&#x27;T KNOW’</blockquote><p>Kreitman recalls Heinz’s teasing advice to a doctoral candidate: let the examiners have the pleasure of explaining something. This is a remembered joke in a particular situation.</p><p class=\"source\"><a href=\"https://constructivist.info/proponents/vonfoerster/festschrift/kreitman.html\">Kevin Kreitman, Some Heinz Stories</a>. Oral-examination anecdote, after the retirement story.</p>"
+    },
+    {
+      "id": "stable-reality",
+      "title": "Computing a stable reality",
+      "kind": "paraphrase",
+      "source_ids": [
+        "constructing-reality-1973"
+      ],
+      "locator": "PDF p. 11, Postulate of Cognitive Homeostasis",
+      "body_html": "<p class=\"paraphrase\">The nervous system’s organisation produces stability in experienced reality.</p><p class=\"source\"><a href=\"https://pespmc1.vub.ac.be/books/Foerster-constructingreality.pdf#page=11\">On Constructing a Reality (1973)</a>, PDF p. 11, Postulate of Cognitive Homeostasis. See also anthology item 22.</p>"
+    },
+    {
+      "id": "communication-as-recursion",
+      "title": "Communication as recursion",
+      "kind": "primary",
+      "source_ids": [
+        "luhmann_1993"
+      ],
+      "locator": "Proposal 00, printed p. 308; PDF p. 321",
+      "body_html": "<blockquote cite=\"https://www.alice.id.tue.nl/references/foerster-2003.pdf\">‘Communication is recursion.’</blockquote><p>The lecture develops this proposal into an account of mutual participation and stable patterns. <a href=\"#luhmann-series\">Follow its numbered sequence.</a></p><p class=\"source\"><a href=\"https://www.alice.id.tue.nl/references/foerster-2003.pdf#page=321\">For Niklas Luhmann: How Recursive is Communication?</a>, proposal 00, p. 308. Richard Howe’s translation of the 1993 lecture, reprinted 2003.</p>"
+    }
+  ],
+  "anthology": {
+    "url": "https://archive.cybsoc.org/heinz.htm",
+    "index": [
+      [
+        "1",
+        "Knowing one’s ignorance"
+      ],
+      [
+        "2",
+        "Unfilled quotation"
+      ],
+      [
+        "3",
+        "Expanding possible actions"
+      ],
+      [
+        "4",
+        "Meaning for the listener"
+      ],
+      [
+        "5",
+        "Unnoticed gaps in seeing"
+      ],
+      [
+        "6",
+        "Visual experiment"
+      ],
+      [
+        "7",
+        "Choosing without decisive rules"
+      ],
+      [
+        "8",
+        "Piaget: organising experience"
+      ],
+      [
+        "9",
+        "Experience constructs world"
+      ],
+      [
+        "10",
+        "World produces experience"
+      ],
+      [
+        "11",
+        "Hypotheses across observers"
+      ],
+      [
+        "12",
+        "Ways of explaining"
+      ],
+      [
+        "13",
+        "Relating descriptions"
+      ],
+      [
+        "14",
+        "Predictable mechanisms"
+      ],
+      [
+        "15",
+        "Mechanism diagram"
+      ],
+      [
+        "16",
+        "History-sensitive mechanisms"
+      ],
+      [
+        "17",
+        "Stateful mechanism diagram"
+      ],
+      [
+        "18",
+        "Recurrence and stable outcomes"
+      ],
+      [
+        "19",
+        "Recurrence diagram"
+      ],
+      [
+        "20",
+        "Self-counting sentence"
+      ],
+      [
+        "21",
+        "Maturana/Varela: closure and drift"
+      ],
+      [
+        "22",
+        "Neural stability"
+      ],
+      [
+        "23",
+        "Description and logic"
+      ],
+      [
+        "24",
+        "Deductive certainty"
+      ],
+      [
+        "25",
+        "Inductive uncertainty"
+      ],
+      [
+        "26",
+        "Paradox through time"
+      ],
+      [
+        "27",
+        "Truth and lying"
+      ],
+      [
+        "28",
+        "Pouloide: conic geometry"
+      ],
+      [
+        "29",
+        "Unsettled questions"
+      ],
+      [
+        "29.1",
+        "Formal decision"
+      ],
+      [
+        "29.2",
+        "Machine analysis"
+      ],
+      [
+        "29.3",
+        "Halting"
+      ],
+      [
+        "29.4",
+        "Origins"
+      ],
+      [
+        "29.5",
+        "Participation"
+      ],
+      [
+        "29.6",
+        "Motion"
+      ],
+      [
+        "29.7",
+        "Feedback"
+      ],
+      [
+        "unnumbered",
+        "Worldview illustrations"
+      ],
+      [
+        "26 again",
+        "Chemical and lexical loops"
+      ],
+      [
+        "editorial notes",
+        "Personal ethical wording; corrected deduction; uncertain geometry"
+      ]
+    ],
+    "crosslinks": {
+      "3": "choices",
+      "4": "the-hearer",
+      "5": "blind-spots",
+      "7": "undecidable-questions",
+      "9": "world-as-invention",
+      "18": "objects-and-behaviour",
+      "22": "stable-reality",
+      "24": "necessity-and-chance",
+      "25": "necessity-and-chance",
+      "27": "truth"
+    }
+  },
+  "other_series": [
+    {
+      "id": "epistemology-series",
+      "title": "Notes on an Epistemology for Living Things — all 12 main propositions",
+      "intro_html": "The 1972 paper has 80 notes, organised around these 12 main propositions. Item 12 returns to item 1. This index covers the main sequence; the full text includes its subsidiary notes.",
+      "index": [
+        [
+          "1",
+          "Perceived surroundings and changing things"
+        ],
+        [
+          "2",
+          "Constancy and alteration belong to representations"
+        ],
+        [
+          "3",
+          "Formal representations across entities and instants"
+        ],
+        [
+          "4",
+          "Relations between representations"
+        ],
+        [
+          "5",
+          "Objects and events as represented relations"
+        ],
+        [
+          "6",
+          "Computation as representation"
+        ],
+        [
+          "7",
+          "Living systems maintain their own organisation"
+        ],
+        [
+          "8",
+          "Communication theory must explain messages"
+        ],
+        [
+          "9",
+          "Descriptions enacted through movement"
+        ],
+        [
+          "10",
+          "Information depends on the observer"
+        ],
+        [
+          "11",
+          "Surroundings contain no inherent information"
+        ],
+        [
+          "12",
+          "Return to the opening proposition"
+        ]
+      ],
+      "source_html": "<a href=\"https://cepa.info/fulltexts/1655.pdf#page=13\">Read the original sequence</a>, printed pp. 11–23 (PDF pp. 13–25). Proposition 7 draws on Maturana and Varela."
+    },
+    {
+      "id": "luhmann-series",
+      "title": "For Niklas Luhmann — every visible numbered entry",
+      "intro_html": "The 1993 lecture’s checked 2003 translation has these eleven distinct labels. The repeated 00 stays one entry.",
+      "index": [
+        [
+          "00",
+          "Communication through recursion"
+        ],
+        [
+          "01",
+          "Predictable, history-independent mechanisms"
+        ],
+        [
+          "02",
+          "Mechanisms with internal histories"
+        ],
+        [
+          "03",
+          "Counting possible mechanisms"
+        ],
+        [
+          "0.5",
+          "Operations upon functions"
+        ],
+        [
+          "06",
+          "Compositions change system properties"
+        ],
+        [
+          "07",
+          "McCulloch: heterarchical neural circuits"
+        ],
+        [
+          "08",
+          "Coupled neural and hormonal cycles"
+        ],
+        [
+          "09",
+          "Varela/Goguen: closure yields stable behaviour"
+        ],
+        [
+          "10",
+          "Communication through double closure"
+        ],
+        [
+          "11",
+          "Busch: depth beyond easy certainty"
+        ]
+      ],
+      "source_html": "<a href=\"https://www.alice.id.tue.nl/references/foerster-2003.pdf#page=318\">Read the full chapter</a>, pp. 305–323. No 04 was located; 0.5 is preserved. Entry 02 has inconsistent determinability wording. Intervening discussions cover closure and stable outcomes. Borrowed material retains its named authors."
+    },
+    {
+      "id": "theorems-series",
+      "title": "Responsibilities of Competence — all three numbered theorems",
+      "intro_html": "Read the sequence together: <a href=\"#fame-and-success\">ignored problems and success</a>, <a href=\"#hard-problems\">the difficulty of scientific problems</a>, and <a href=\"#the-scientist-in-the-theory\">the biologist within a theory of biology</a>.",
+      "index": [
+        [
+          "1",
+          "Ignored problems and success"
+        ],
+        [
+          "2",
+          "Hard and soft sciences"
+        ],
+        [
+          "3",
+          "A theory including its author"
+        ]
+      ],
+      "source_html": "<a href=\"https://www.jlombardi.net/pdf/HvFresponsibilty_competence.pdf\">Responsibilities of Competence (1972)</a>, opening and The Single-Brain Problem."
+    },
+    {
+      "id": "education-series",
+      "title": "Perception of the Future — all three closing propositions",
+      "intro_html": "The closing education sequence links <a href=\"#legitimate-questions\">inquiry</a> with <a href=\"#better-off-together\">how people fare together</a>.",
+      "index": [
+        [
+          "1",
+          "Education as a necessity"
+        ],
+        [
+          "2",
+          "Learning to ask genuine questions"
+        ],
+        [
+          "3",
+          "Mutual wellbeing"
+        ]
+      ],
+      "source_html": "<a href=\"https://asc-cybernetics.org/2011/wp-content/uploads/2011/08/HvF_Perception_of_the_Future_and_the_Future_of_Perception.pdf#page=6\">Perception of the Future and the Future of Perception</a>, PDF p. 6, Future."
+    }
+  ],
+  "scope": "Complete topic index of the 1995 anthology, all 12 main propositions of Notes on an Epistemology for Living Things, every visible numbered proposition in the checked Luhmann chapter, and independently checked primary-paper additions and variants. No claim to contain every utterance by von Foerster."
+}

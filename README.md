@@ -4,7 +4,7 @@
 Current release: **0.35, 29 October 2026**. [Deeper references and connections](https://transduction.systems/updates/2026-10-29/). [Read the connected source guide](https://transduction.systems/reading/connections/).
 <!-- /current-31 -->
 <!-- saidtosomeone-readme-1 -->
-Companion page, edition **1.0, 29 October 2026**: [Heinz von Foerster’s maxims, talks, and writing](https://transduction.systems/saidtosomeone/). The existing 1995 anthology, ten source-checked entries, four firsthand recollections, recordings, papers, and Benjamin’s imagined conversation with Don Van Vliet. One deliberately invented marginal saying is identified by a dagger and a visible contains hallucinations warning. Atlas dataset release and counts are unchanged.
+Companion page, edition **1.1, 29 October 2026**: [Heinz von Foerster’s maxims, talks, and writing](https://transduction.systems/saidtosomeone/). All 29 anthology items indexed; 54 register entries distinguish primary formulations, reported sayings, paraphrases, and variants. Further numbered collections, four firsthand recollections, recordings, papers, and Benjamin’s imagined conversation with Don Van Vliet. The large TNT mark animates, pauses, and changes using the main site’s asset family. One deliberately invented marginal saying is identified by a dagger and a visible contains hallucinations warning. Atlas dataset release and counts are unchanged.
 <!-- /saidtosomeone-readme-1 -->
 ## Release 0.23
 
