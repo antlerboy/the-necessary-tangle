@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.35 — 29 October 2026
+
+Primary references and scoped connections across regulation, models, learning, transduction, and living organisation. 11 profiles deepened or developed, 18 connections, 9 source records, and three guided journeys. Passage locators and evidence records distinguish exposition from editorial comparison. A connected reading guide, evidence download, homepage and library routes, and reproducible baseline accompany the release. Exact publication and live verification are recorded by the Publish workflow and deployment.json.
+
+
 ## Said to someone 1.0 — 29 October 2026
 
 Added /saidtosomeone/ with a large existing TNT mark, the credited 1995 HvF anthology, ten sourced entries, the documented Beer connection, four firsthand recollections with short excerpts, video and audio routes, primary writing, and the Chosen Path HvF/Don Van Vliet imagined dialogue. One deliberate marginal invention has a dagger, explicit source note, and contains hallucinations warning. Homepage and source-library links make the page discoverable. A deterministic build and source ledger preserve the page and attribution distinctions. Atlas dataset release 0.34 and graph counts are unchanged.

@@ -1,0 +1,203 @@
+{
+  "packet": "Boundary conversion, boundary production, and individuation",
+  "checked": "2026-10-29",
+  "scope": "Primary passages for three distinct accounts of how systems and their surroundings relate. No historical influence between Beer, Simondon, and autopoiesis is inferred.",
+  "sources": [
+    {
+      "id": "src_u35_simondon_ontogenesis_2009",
+      "title": "The Position of the Problem of Ontogenesis",
+      "authors": ["Gilbert Simondon"],
+      "translator": "Gregory Flanders",
+      "date": "2009",
+      "url": "https://www.parrhesiajournal.org/parrhesia07/parrhesia07_simondon1.pdf",
+      "publisher": "Parrhesia 7, pp. 4–16",
+      "locator": "Printed pp. 9–12, especially p. 11, definition of transduction and crystallisation example; p. 12, distinction from deduction and induction",
+      "verified": "Publisher-hosted translation inspected. Printed p. 11 is PDF page 8. The definition and example are in Simondon's text, not the translator's explanatory notes.",
+      "limits": "2009 dates this translation, not the origin of Simondon's theory. Intermittent publisher timeouts occurred after successful reading. No priority or influence claim is made. Link and paraphrase only."
+    },
+    {
+      "id": "src_u35_varela_maturana_uribe_1974",
+      "title": "Autopoiesis: The Organization of Living Systems, Its Characterization and a Model",
+      "authors": ["F. G. Varela", "H. R. Maturana", "R. Uribe"],
+      "date": "1974",
+      "url": "https://homepages.math.uic.edu/~kauffman/MUV.pdf",
+      "doi": "10.1016/0303-2647(74)90031-8",
+      "publisher": "BioSystems 5(4), pp. 187–196",
+      "locator": "Sections 2–4, pp. 187–189; section 7, pp. 191–192; section 9, pp. 192–193",
+      "verified": "Full ten-page primary-paper scan inspected on Louis Kauffman's University of Illinois Chicago page. Section 3 defines the organisation; section 9 gives an operational identification key.",
+      "limits": "The model is an illustration of the proposed organisation, not empirical validation of all biological or social applications. The paper's algorithm was not independently rerun. Publisher redirect was inaccessible; university-hosted scan worked. Existing publication_fpcs_048 is reused."
+    },
+    {
+      "id": "src_u35_maturana_organisation_living_1975",
+      "title": "The Organization of the Living: A Theory of the Living Organization",
+      "authors": ["Humberto R. Maturana"],
+      "date": "1975",
+      "url": "https://biologyofcognition.wordpress.com/wp-content/uploads/2008/06/maturana1975organizationlivingtheorylivingorganization.pdf",
+      "doi": "10.1016/S0020-7373(75)80015-0",
+      "publisher": "Original: International Journal of Man-Machine Studies 7(3), pp. 313–332; inspected reprint: International Journal of Human-Computer Studies 51 (1999), pp. 149–168",
+      "locator": "Inspected 1999 reprint: 'Preliminary concepts', pp. 151–152; 'Implicit requirements' and 'Plasticity and structural coupling', pp. 155–156; 'Descriptive fallacy', pp. 157–158; 'Structural coupling', pp. 162–163",
+      "verified": "Full primary text read from the Biology of Cognition Lab's publication list. All passage locators here use the printed pagination of the 1999 reprint, not the original 1975 article.",
+      "limits": "The source presents Maturana's theoretical account. It does not establish that an organisation, service, or institution is literally an autopoietic biological system. Link and paraphrase only."
+    }
+  ],
+  "nodes": [
+    {
+      "id": "concept_transduction_simondon",
+      "label": "Transduction in Simondon",
+      "entity_type": "concept",
+      "summary": "Simondon's account of individuation through progressive structuring: each formed region helps constitute the next. It differs from converting signals across an organisational boundary.",
+      "source_ids": ["src_u35_simondon_ontogenesis_2009"],
+      "tags": ["individuation", "transduction", "philosophy"]
+    },
+    {
+      "id": "person_gilbert_simondon",
+      "label": "Gilbert Simondon",
+      "entity_type": "person",
+      "summary": "Author of the account of individuation and transduction presented here through Gregory Flanders's 2009 translation of his introduction.",
+      "source_ids": ["src_u35_simondon_ontogenesis_2009"],
+      "tags": ["individuation", "philosophy"]
+    },
+    {
+      "id": "concept_autopoiesis",
+      "label": "Autopoiesis",
+      "entity_type": "concept",
+      "summary": "A network produces components that regenerate that network and constitute it as a distinguishable unity. The 1974 paper makes this a specific organisational condition, not a synonym for persistence.",
+      "source_ids": ["src_u35_varela_maturana_uribe_1974", "src_u35_maturana_organisation_living_1975"],
+      "tags": ["cybernetics", "biology", "autonomy"]
+    }
+  ],
+  "profiles": [
+    {
+      "node_id": "concept_transduction_simondon",
+      "canonical_definition": "Progressive structuring through which an individual takes form; constituted structure enables further structuring.",
+      "summary": "Crystallisation is Simondon's simplest example. His question concerns the coming-into-being of individuals and relations, rather than starting with two already constituted domains.",
+      "why_it_matters": "Readers can ask whether an intervention changes a connection between established parties or changes what the parties become. This practical question is an editorial comparison.",
+      "key_distinctions": ["Individuation versus signal conversion", "A philosophical account versus a demonstrated organisational mechanism"],
+      "practice_connections": ["Name which meaning of transduction an argument requires."],
+      "common_misreadings": ["The shared word establishes a shared theory or historical influence."],
+      "open_checks": ["Applications require their own evidence; this route does not establish a Beer–Simondon lineage."],
+      "source_ids": ["src_u35_simondon_ontogenesis_2009"],
+      "locators": [{"source_id": "src_u35_simondon_ontogenesis_2009", "locator": "Printed p. 11 (PDF page 8)", "claim": "Definition, crystallisation example, and the status of terms arising through transduction."}]
+    },
+    {
+      "node_id": "concept_autopoiesis",
+      "canonical_definition": "Self-production of a unity through a recursively constituted network of component production.",
+      "summary": "The biological account includes the production of a boundary that enables the processes producing it. Material turnover is compatible with the persistence of this organisation.",
+      "why_it_matters": "A boundary drawn by an analyst and a boundary produced by a living system make different claims.",
+      "key_distinctions": ["Self-production versus reproduction", "Organisation versus particular components", "Organisational closure versus material isolation"],
+      "practice_connections": ["Before applying the term, identify components, production processes, and boundary formation."],
+      "common_misreadings": ["Any durable feedback loop is autopoietic.", "Calling an institution living establishes biological autopoiesis."],
+      "open_checks": ["Social applications need an explicit account of what is being produced."],
+      "source_ids": ["src_u35_varela_maturana_uribe_1974", "src_u35_maturana_organisation_living_1975"],
+      "locators": [
+        {"source_id": "src_u35_varela_maturana_uribe_1974", "locator": "Section 3, p. 188; section 7, pp. 191–192; section 9, pp. 192–193", "claim": "Definition, boundary-production condition, and identification criteria."},
+        {"source_id": "src_u35_maturana_organisation_living_1975", "locator": "1999 reprint, 'Implicit requirements', p. 155", "claim": "The living unity depends on a medium and exchanges elements with it."}
+      ]
+    },
+    {
+      "node_id": "publication_fpcs_048",
+      "canonical_definition": "Varela, Maturana, and Uribe's 1974 paper specifying autopoietic organisation and illustrating it with a tessellation model.",
+      "summary": "The paper specifies a self-producing organisation, illustrates it with a tessellation model, and gives six criteria for identifying an autopoietic unity. Its boundary must arise through the system's own processes.",
+      "why_it_matters": "The paper makes the claim inspectable against explicit conditions.",
+      "key_distinctions": ["An illustrative model versus empirical confirmation"],
+      "practice_connections": ["Use section 9 to examine a proposed application."],
+      "common_misreadings": ["Publication in a foundational collection settles every later application."],
+      "open_checks": ["Independent reproduction of the model remains outside this review."],
+      "source_ids": ["src_fpcs_official_toc", "src_u35_varela_maturana_uribe_1974"],
+      "locators": [{"source_id": "src_u35_varela_maturana_uribe_1974", "locator": "Sections 3, 6–7, and 9; appendix", "claim": "Definition, model, and identification key."}]
+    },
+    {
+      "node_id": "concept_structural_coupling",
+      "canonical_definition": "Repeated interactions through which systems and their environments shape the structures governing later interactions. In Maturana's biological account, these structural changes conserve the system's defining organisation.",
+      "summary": "Maturana distinguishes a perturbation that triggers change from an instruction that specifies it: the current structure determines the response. Fractal Enterprise Model practice uses structural coupling to examine consequential enterprise–environment relationships; that application requires its own account of the participating systems and interactions.",
+      "why_it_matters": "A repeated message can meet a changing recipient. Communication problems may involve the history of the relationship as well as the message.",
+      "key_distinctions": ["Triggering versus specifying a change", "Biological account versus enterprise-modelling use"],
+      "practice_connections": ["Trace how repeated interactions alter the parties' capacity to respond; treat this as an interpretive question, not a biological diagnosis."],
+      "common_misreadings": ["Coupling implies agreement.", "An external message determines the recipient's response."],
+      "open_checks": ["Evidence is needed for any proposed organisational application."],
+      "source_ids": ["src_fem_structural_coupling", "src_u35_maturana_organisation_living_1975"],
+      "locators": [{"source_id": "src_u35_maturana_organisation_living_1975", "locator": "1999 reprint, 'Plasticity and structural coupling', pp. 155–156; 'Descriptive fallacy', pp. 157–158; 'Structural coupling', pp. 162–163", "claim": "History, structural determination, and the distinction from semantic instruction."}]
+    }
+  ],
+  "edges": [
+    {
+      "id": "e35_simondon_transduction_author",
+      "source": "concept_transduction_simondon",
+      "target": "person_gilbert_simondon",
+      "relation_type": "formulated_by",
+      "label": "is formulated in this account by",
+      "source_ids": ["src_u35_simondon_ontogenesis_2009"],
+      "locator": "Printed p. 11; author and translator identified on p. 4",
+      "scope": "Simondon formulates transduction as progressive structuring through which individuation occurs. This attributes the inspected account without claiming that he originated the word.",
+      "basis": "source_exposition"
+    },
+    {
+      "id": "e35_transduction_distinct_senses",
+      "source": "concept_transduction_simondon",
+      "target": "concept_transduction",
+      "relation_type": "distinguishes_from",
+      "label": "concerns individuation rather than the boundary conversion described by",
+      "source_ids": ["src_u35_simondon_ontogenesis_2009", "src_u35_beer_vsm_1989"],
+      "locator": "Simondon, printed pp. 11–12; Beer, 2002 electronic edition of the 1989 text, PDF pp. 6–8 and Appendix 2, p. 16, third principle",
+      "scope": "Simondon examines individuation through progressive structuring; Beer examines conversion at organisational boundaries and the variety a transducer must handle. This editorial comparison distinguishes the questions addressed without inferring direct influence or equivalence.",
+      "basis": "editorial_comparison"
+    },
+    {
+      "id": "e35_autopoiesis_paper_account",
+      "source": "publication_fpcs_048",
+      "target": "concept_autopoiesis",
+      "relation_type": "presents_account_of",
+      "label": "defines and models",
+      "source_ids": ["src_u35_varela_maturana_uribe_1974"],
+      "locator": "Section 3, p. 188; section 6, pp. 189–191",
+      "scope": "The paper defines autopoiesis through a network of component production and illustrates that organisation in a tessellation model. The illustration does not itself establish later biological or social applications.",
+      "basis": "source_exposition"
+    },
+    {
+      "id": "e35_autopoiesis_boundary_condition",
+      "source": "publication_fpcs_048",
+      "target": "concept_boundary",
+      "relation_type": "proposes_condition_for",
+      "label": "requires an autopoietic unity to produce its",
+      "source_ids": ["src_u35_varela_maturana_uribe_1974"],
+      "locator": "Section 7, pp. 191–192; section 9, points 4–6, p. 193",
+      "scope": "The paper requires an autopoietic unity's boundary to be generated by its component interactions and sustained by the processes it enables. An analyst's selected boundary alone does not meet that condition.",
+      "basis": "source_exposition"
+    },
+    {
+      "id": "e35_autopoiesis_autonomy",
+      "source": "concept_autopoiesis",
+      "target": "concept_autonomy",
+      "relation_type": "explains",
+      "label": "grounds the biological sense of",
+      "source_ids": ["src_u35_varela_maturana_uribe_1974"],
+      "locator": "Section 4, p. 188",
+      "scope": "Varela, Maturana, and Uribe explain biological autonomy through the continued production of the organisation constituting the unity. This sense of autonomy differs from managerial discretion or political independence.",
+      "basis": "source_exposition"
+    },
+    {
+      "id": "e35_coupling_transduction_comparison",
+      "source": "concept_structural_coupling",
+      "target": "concept_transduction",
+      "relation_type": "complements",
+      "label": "adds a question about the changing recipient to",
+      "source_ids": ["src_u35_maturana_organisation_living_1975", "src_u35_beer_vsm_1989"],
+      "locator": "Maturana, 1999 reprint, pp. 162–163; Beer, 2002 electronic edition of the 1989 text, PDF pp. 6–8 and Appendix 2, p. 16, third principle",
+      "scope": "Maturana's account asks how interactions alter the structures determining future responses; Beer's account asks how a boundary transducer handles the distinctions carried by a channel. Comparing them raises a practical question about changes in the recipient as well as the message, without equating the concepts.",
+      "basis": "editorial_comparison"
+    }
+  ],
+  "reader_route": {
+    "title": "What happens at a boundary?",
+    "node_ids": ["concept_transduction", "concept_structural_coupling", "concept_autopoiesis", "publication_fpcs_048", "concept_transduction_simondon"],
+    "question": "Does the account concern a message changing form, parties changing through interaction, a unity producing its boundary, or an individual taking form?",
+    "editorial_note": "Use the same practical situation to ask different questions. Do not use the sequence as a genealogy, or merge the meanings because their vocabulary overlaps."
+  },
+  "integration_notes": [
+    "Preserve the existing transduction profile's Beer and practice focus; add the explicitly distinguished Simondon reading route.",
+    "Keep existing source IDs when deepening profiles and existing node status unchanged unless the release's editorial policy explicitly changes it.",
+    "Existing Maturana, Varela, and Uribe authorship edges need no duplication. This packet deepens the paper rather than adding duplicate authorship.",
+    "The archival PDFs remain externally linked; no third-party source files are copied into the public repository.",
+    "The source passages support the comparisons' ingredients. The comparisons themselves must remain labelled editorial."
+  ]
+}

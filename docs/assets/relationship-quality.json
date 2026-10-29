@@ -1,7 +1,7 @@
 {
   "schema_version": "1.1",
-  "generated": "2026-10-24",
-  "release": "0.34",
+  "generated": "2026-10-29",
+  "release": "0.35",
   "purpose": "Machine-readable relationship-quality result after the evidence-led relationship review.",
   "contract": {
     "human_readable_rationale": "A relation has a plain phrase and either notes, scope conditions or an inference method.",
@@ -27,33 +27,33 @@
     "semantic_statements": 747
   },
   "current": {
-    "public_entries": 1291,
-    "all_nodes": 1418,
-    "all_edges": 3143,
-    "sources": 821,
-    "claims": 118,
-    "evidence_records": 121,
-    "profiles": 212,
-    "journeys": 24,
+    "public_entries": 1295,
+    "all_nodes": 1422,
+    "all_edges": 3154,
+    "sources": 827,
+    "claims": 136,
+    "evidence_records": 156,
+    "profiles": 220,
+    "journeys": 27,
     "external_corpora_reviewed": 12,
     "internal_sources_reviewed": 18,
-    "reader_connected_entries": 1250,
-    "semantic_connected_entries": 552,
-    "semantic_gap_entries": 739,
+    "reader_connected_entries": 1254,
+    "semantic_connected_entries": 559,
+    "semantic_gap_entries": 736,
     "connection_bands": {
-      "developing": 241,
-      "rich": 99,
-      "thin": 910,
+      "developing": 243,
+      "rich": 100,
+      "thin": 911,
       "unconnected": 41
     },
     "evidence_bands": {
       "mixed": 273,
       "none": 41,
-      "provisional": 774,
+      "provisional": 778,
       "supported": 203
     },
-    "reader_statements": 2519,
-    "semantic_statements": 1117
+    "reader_statements": 2531,
+    "semantic_statements": 1129
   },
   "changes_from_baseline": {
     "generic_relation_review_targets": {
@@ -66,69 +66,69 @@
     },
     "sources": {
       "before": 153,
-      "after": 821
+      "after": 827
     },
     "semantic_connected_entries": {
       "before": 329,
-      "after": 552,
+      "after": 559,
       "note": "A generic journal-to-tradition edge was replaced by a narrower documentary scope claim; unsupported semantic reach was not preserved."
     },
     "substantive_edge_count": {
       "before": 750,
-      "after": 1120
+      "after": 1132
     },
     "isolated_semantic_nodes": {
       "before": 167,
-      "after": 739
+      "after": 736
     }
   },
   "criteria": {
     "typed": {
-      "passing": 3143,
-      "total": 3143
+      "passing": 3154,
+      "total": 3154
     },
     "directed": {
-      "passing": 3042,
-      "total": 3143,
+      "passing": 3053,
+      "total": 3154,
       "undirected": 101
     },
     "human_readable_phrase": {
-      "passing": 3143,
-      "total": 3143
+      "passing": 3154,
+      "total": 3154
     },
     "explicit_rationale": {
-      "passing": 2844,
-      "total": 3143
+      "passing": 2855,
+      "total": 3154
     },
     "source_identifier": {
-      "passing": 3143,
-      "total": 3143
+      "passing": 3154,
+      "total": 3154
     },
     "locator_present": {
-      "passing": 2740,
-      "total": 3143
+      "passing": 2752,
+      "total": 3154
     },
     "precision_shaped_locator": {
-      "passing": 597,
-      "total": 3143,
+      "passing": 612,
+      "total": 3154,
       "note": "Conservative text-pattern measure; manual review is still required."
     },
     "epistemic_fields_present": {
-      "passing": 3143,
-      "total": 3143
+      "passing": 3154,
+      "total": 3154
     },
     "generic_related_to": {
-      "passing": 3143,
-      "total": 3143,
+      "passing": 3154,
+      "total": 3154,
       "review_target_count": 0
     },
     "three_or_more_relation_families": {
-      "passing": 149,
-      "total": 1291
+      "passing": 150,
+      "total": 1295
     },
     "one_relation_family": {
       "count": 800,
-      "total": 1291
+      "total": 1295
     },
     "external_corpus_records": {
       "passing": 12,
@@ -1606,6 +1606,27 @@
       ]
     },
     {
+      "node_id": "person_gilbert_simondon",
+      "label": "Gilbert Simondon",
+      "entity_type": "person",
+      "publication_level": "profile",
+      "connection_band": "thin",
+      "evidence_band": "provisional",
+      "visible_connections": 1,
+      "visible_statements": 1,
+      "reader_connections": 1,
+      "reader_statements": 1,
+      "semantic_connections": 1,
+      "semantic_statements": 1,
+      "documentary_statements": 0,
+      "accepted_reader_statements": 0,
+      "provisional_reader_statements": 1,
+      "distinct_reader_families": 1,
+      "reader_families": [
+        "historical"
+      ]
+    },
+    {
       "node_id": "publication_syscoi_post_29080",
       "label": "Harish’s Notebook: Euthyphro’s Complexity",
       "entity_type": "publication",
@@ -2419,27 +2440,6 @@
       "documentary_statements": 1,
       "accepted_reader_statements": 0,
       "provisional_reader_statements": 1,
-      "distinct_reader_families": 1,
-      "reader_families": [
-        "documentary"
-      ]
-    },
-    {
-      "node_id": "publication_steps_to_ecology_of_mind",
-      "label": "Steps to an Ecology of Mind",
-      "entity_type": "publication",
-      "publication_level": "profile",
-      "connection_band": "thin",
-      "evidence_band": "mixed",
-      "visible_connections": 1,
-      "visible_statements": 1,
-      "reader_connections": 1,
-      "reader_statements": 1,
-      "semantic_connections": 0,
-      "semantic_statements": 0,
-      "documentary_statements": 1,
-      "accepted_reader_statements": 1,
-      "provisional_reader_statements": 0,
       "distinct_reader_families": 1,
       "reader_families": [
         "documentary"

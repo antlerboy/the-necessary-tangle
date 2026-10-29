@@ -1,5 +1,12 @@
 # Current Tangle state
 
+<!-- depth_20261029 -->
+## Current release 0.35
+
+29 October 2026. 1295 public entries, 3154 edges, 827 sources, and 220 profiles. This release deepens 11 profiles, adds 11 scoped connections, revises 7, and adds three journeys. The source packet is documentation/research-2026-10-29/. Reader route: https://transduction.systems/reading/connections/. Publication identity and live test completion belong to deployment.json and the Publish workflow. Source exposition and editorial comparison remain candidates for editorial acceptance; no historical influence is inferred from resemblance. The previous release account and companion-page record below remain historical context.
+<!-- /depth_20261029 -->
+
+
 Last verified: 24 October 2026 — full source gate, current source review, private contribution service, and event/calendar checks. Exact publication identity and final live reader checks are recorded by deployment.json and the Publish workflow.
 
 Public site: https://transduction.systems/
