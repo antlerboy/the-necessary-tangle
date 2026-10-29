@@ -8,10 +8,10 @@ Generated: `2026-08-14`
 
 The atlas now treats relational richness as maintained data, not a visual impression. Every canonical public entry has a structural connection band and a separate evidence band. This makes it possible to add provisional routes without pretending that repetition, plausibility or graph density is proof.
 
-- 1250 of 1291 entries have at least one reader connection.
-- 99 are structurally rich, 241 developing, 910 thin and 41 unconnected.
-- 552 have at least one non-documentary semantic, historical, human, identity, practice, influence or contestation route.
-- Evidence is 203 supported, 273 mixed, 774 provisional and 41 absent at entry level.
+- 1254 of 1295 entries have at least one reader connection.
+- 100 are structurally rich, 243 developing, 911 thin and 41 unconnected.
+- 559 have at least one non-documentary semantic, historical, human, identity, practice, influence or contestation route.
+- Evidence is 203 supported, 273 mixed, 778 provisional and 41 absent at entry level.
 
 ## What counts
 
@@ -44,7 +44,7 @@ The template is an editorial checklist, not an invitation to fill six slots with
 | approach family | 6 | 4 | 2 | 0 | 0 |
 | collection | 4 | 0 | 0 | 3 | 1 |
 | comparator corpus | 6 | 0 | 1 | 5 | 0 |
-| concept | 115 | 33 | 32 | 47 | 3 |
+| concept | 118 | 34 | 32 | 49 | 3 |
 | corpus | 16 | 0 | 3 | 13 | 0 |
 | framework | 2 | 0 | 0 | 2 | 0 |
 | intervention skill | 47 | 3 | 44 | 0 | 0 |
@@ -52,9 +52,9 @@ The template is an editorial checklist, not an invitation to fill six slots with
 | law or principle | 33 | 17 | 16 | 0 | 0 |
 | method or methodology | 97 | 15 | 9 | 73 | 0 |
 | organisation | 14 | 1 | 3 | 8 | 2 |
-| person | 275 | 6 | 63 | 172 | 34 |
+| person | 276 | 6 | 63 | 173 | 34 |
 | practice | 26 | 10 | 9 | 7 | 0 |
-| publication | 343 | 4 | 28 | 310 | 1 |
+| publication | 343 | 4 | 30 | 308 | 1 |
 | source | 274 | 3 | 7 | 264 | 0 |
 | technology | 1 | 0 | 1 | 0 | 0 |
 | theory | 1 | 0 | 1 | 0 | 0 |

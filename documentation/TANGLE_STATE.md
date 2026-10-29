@@ -1,5 +1,12 @@
 # Current Tangle state
 
+<!-- depth_20261029 -->
+## Current release 0.35
+
+29 October 2026. 1295 public entries, 3154 edges, 827 sources, and 220 profiles. This release deepens 11 profiles, adds 11 scoped connections, revises 7, and adds three journeys. The source packet is documentation/research-2026-10-29/. Reader route: https://transduction.systems/reading/connections/. Publication identity and live test completion belong to deployment.json and the Publish workflow. Source exposition and editorial comparison remain candidates for editorial acceptance; no historical influence is inferred from resemblance. The previous release account and companion-page record below remain historical context.
+<!-- /depth_20261029 -->
+
+
 Last verified: 24 October 2026 — full source gate, current source review, private contribution service, and event/calendar checks. Exact publication identity and final live reader checks are recorded by deployment.json and the Publish workflow.
 
 Public site: https://transduction.systems/
@@ -18,6 +25,6 @@ The full historical corpus reviews, exact inventory of private map collections, 
 
 ## Companion page: Said to someone
 
-Edition 1.1, 29 October 2026. /saidtosomeone/ has 54 entries with exact and reported wording, paraphrases, and variants. It indexes all 29 anthology items and supplementary material, the 12 main Notes propositions, all 11 visible Luhmann labels, and two three-item sequences. It also has four firsthand recollections, video, audio, primary writing, and Benjamin’s imagined conversation with Don Van Vliet. One deliberate marginal invention is identified by a dagger, explicit source note, and contains hallucinations warning. The page reuses the main site’s mark family with animation, pause, motif changes, keyboard control, and reduced-motion support. It is linked from the home page and source library. The source ledger distinguishes text verification from full playback; it makes no exhaustive-collection or first-use claim. The atlas graph and release 0.34 counts are unchanged. Source packet: sources/saidtosomeone/PACKET.md. The current Publish workflow and deployment.json identify validation and the deployed revision.
+Edition 1.1, 29 October 2026. /saidtosomeone/ has 54 entries with exact and reported wording, paraphrases, and variants. It indexes all 29 anthology items and supplementary material, the 12 main Notes propositions, all 11 visible Luhmann labels, and two three-item sequences. It also has four firsthand recollections, video, audio, primary writing, and Benjamin’s imagined conversation with Don Van Vliet. One deliberate marginal invention is identified by a dagger, explicit source note, and contains hallucinations warning. The page reuses the main site’s mark family with animation, pause, motif changes, keyboard control, and reduced-motion support. It is linked from the home page and source library. The source ledger distinguishes text verification from full playback; it makes no exhaustive-collection or first-use claim. This companion update does not change the atlas graph or counts. Source packet: sources/saidtosomeone/PACKET.md. The current Publish workflow and deployment.json identify validation and the deployed revision.
 
 <!-- /saidtosomeone-state-1 -->

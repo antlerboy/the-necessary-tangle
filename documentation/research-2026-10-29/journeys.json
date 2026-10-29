@@ -1,0 +1,45 @@
+[
+  {
+    "id": "journey_regulation_distinctions",
+    "title": "Which distinctions can this system act on?",
+    "subtitle": "Regulation, models, channels, and transducers",
+    "summary": "Trace what must survive between a disturbance and an effective response.",
+    "audience": "practitioners and readers of cybernetics",
+    "duration_minutes": 12,
+    "steps": [
+      {"node_id": "concept_requisite_variety", "heading": "Specify the outcomes to be protected", "narrative": "List the disturbances that matter, the responses available, and the outcomes to keep within bounds. Ashby's section 11/9 allows the transformation itself to remove variety: raw environmental complexity is not the quantity a regulator must simply copy."},
+      {"node_id": "law_or_principle_conant_ashby_theorem", "heading": "Ask what the model has to do", "narrative": "Conant and Ashby derive a condition for a simplest optimal regulator under a specified probability model and entropy criterion. Their mapping need not be a diagram or conscious simulation. The criterion of success remains part of the setup."},
+      {"node_id": "concept_transduction", "heading": "Follow the distinctions across the boundary", "narrative": "Beer examines the capacities of operations, communication channels, and boundary transducers separately. A distinction available at one end may disappear when the message changes form. Read the 1989 text's third principle on PDF page 16."},
+      {"node_id": "method_or_methodology_viable_system_model_vsm", "heading": "Locate the capacity to respond", "narrative": "Follow the translated signal to an operation or management function able to respond. Beer's recursive account concerns viable functions at embedded levels. This reading route is an editorial sequence, not a new claim of historical derivation."}
+    ]
+  },
+  {
+    "id": "journey_learning_changes",
+    "title": "What changed when we learned?",
+    "subtitle": "Information, learning levels, and governing assumptions",
+    "summary": "Distinguish a changed response from changes to the premises through which responses are chosen.",
+    "audience": "facilitators, educators, and organisational practitioners",
+    "duration_minutes": 10,
+    "steps": [
+      {"node_id": "concept_information", "heading": "Find the difference taken up", "narrative": "Bateson's account directs attention to differences selected within receiving pathways. Trace what changed in expectation or action when a report arrived. This question differs from measuring a channel's information capacity."},
+      {"node_id": "concept_bateson_learning_levels", "heading": "Describe the kind of change", "narrative": "Learning I corrects choices within a set of alternatives; Learning II changes aspects of that process, including the set or the punctuation of experience. The levels classify changes. They do not certify that a new premise is desirable."},
+      {"node_id": "concept_single_loop_learning", "heading": "Improve action within a framework", "narrative": "In Argyris's organisational account, error can be corrected while governing values and arrangements remain in place. Many tasks need this capacity. Count what changed in practice, rather than the number of feedback arrows drawn."},
+      {"node_id": "concept_double_loop_learning", "heading": "Make governing assumptions open to inquiry", "narrative": "Examine whether action can change the governing framework itself. Compare espoused commitments with theories-in-use, including what happens when someone challenges the rules. Comparing this with Bateson is useful, but Learning II and double-loop learning are not interchangeable labels."}
+    ]
+  },
+  {
+    "id": "journey_boundaries_becoming",
+    "title": "What happens at a boundary?",
+    "subtitle": "Conversion, coupling, self-production, and individuation",
+    "summary": "Compare four accounts of boundaries without collapsing their different questions.",
+    "audience": "readers moving between cybernetics, biology, and philosophy",
+    "duration_minutes": 14,
+    "steps": [
+      {"node_id": "concept_transduction", "heading": "A signal changes form", "narrative": "Start with Beer's organisational account. A boundary transducer converts what crosses between domains. Ask which distinctions can survive, and whether the receiving side can register and act on them."},
+      {"node_id": "concept_structural_coupling", "heading": "Interaction changes the participants", "narrative": "Maturana's account adds the history of structural change through recurrent interaction while the organisation defining each unity is conserved. A perturbation triggers a change whose form depends on the recipient's structure. This comparison is editorial; it does not assert a Beer–Maturana lineage."},
+      {"node_id": "concept_autopoiesis", "heading": "The unity produces its boundary", "narrative": "In the biological account, a network produces components that regenerate the network and constitute its unity. A boundary is part of this production. The term requires more than endurance, a feedback loop, or a metaphor of organisational life."},
+      {"node_id": "publication_fpcs_048", "heading": "Read the conditions before extending the analogy", "narrative": "Varela, Maturana, and Uribe's 1974 paper offers a definition, an illustrative model, and a six-point identification key. The final questions concern whether boundary and other components participate in the network of production."},
+      {"node_id": "concept_transduction_simondon", "heading": "An individual takes form", "narrative": "Simondon asks how individuation proceeds. In his crystallisation example, each structured region enables further structuring. This use of transduction concerns the formation of individuals and relations, not just translation between already constituted domains. The sequence is a comparison of questions, not a genealogy."}
+    ]
+  }
+]

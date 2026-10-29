@@ -1,10 +1,13 @@
 """Publish the maintained systemsmap interface inside The Necessary Tangle."""
 from pathlib import Path
-import json,shutil,re,html,hashlib
+import json,re,html,hashlib
+from events_snapshot import copy_events_interface
 root=Path(__file__).resolve().parents[1]
 source=next((p for p in [root/'_systemsmap/dist',root.parent/'systemsmap/dist'] if (p/'index.html').exists()),None)
 if source is None:raise SystemExit('Clone antlerboy/systemsmap into _systemsmap before building the events integration.')
-target=root/'docs/events';shutil.copytree(source,target,dirs_exist_ok=True)
+target=root/'docs/events'
+if copy_events_interface(source,target):
+ print('Retained the newer event data and calendar-feed snapshot while updating the interface.')
 canonical='https://transduction.systems/events/'
 s=(target/'index.html').read_text().replace('<html lang="en">','<html lang="en-GB">')
 s=s.replace('</head>','<link rel="canonical" href="'+canonical+'"><meta property="og:title" content="systems | cybernetics | complexity events | The Necessary Tangle"><meta property="og:description" content="Explore systems | cybernetics | complexity events worldwide and subscribe to maintained calendars."><meta property="og:url" content="'+canonical+'"><meta property="og:type" content="website"><meta name="twitter:card" content="summary"><link rel="stylesheet" href="tangle-context.css"></head>')

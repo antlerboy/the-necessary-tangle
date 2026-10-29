@@ -111,7 +111,7 @@ if heading not in text:
         'Indexed all 29 items of the 1995 anthology, its subitems and source anomalies, all 12 main Notes propositions, every visible numbered Luhmann entry, '
         'and the complete three-theorem and three-education sequences. Kept exact formulations, variants, paraphrases, witnesses, borrowed attributions, and unlocated primary wording distinct. '
         'Added a searchable register and same-site living-mark animation, pause, motif changes, keyboard control, and reduced-motion support. '
-        'Existing stories, media, imaginative dialogue, disclosed invention, and Open updates route remain. Atlas dataset release 0.34 and graph counts are unchanged.\n', 1)
+        'Existing stories, media, imaginative dialogue, disclosed invention, and Open updates route remain. This companion update does not change the atlas dataset or graph counts.\n', 1)
 path.write_text(text, encoding='utf-8')
 
 state = ROOT / 'documentation/TANGLE_STATE.md'
@@ -124,14 +124,14 @@ note = (start + '\n\n## Companion page: Said to someone\n\n'
     'One deliberate marginal invention is identified by a dagger, explicit source note, and contains hallucinations warning. '
     'The page reuses the main site’s mark family with animation, pause, motif changes, keyboard control, and reduced-motion support. It is linked from the home page and source library. '
     'The source ledger distinguishes text verification from full playback; it makes no exhaustive-collection or first-use claim. '
-    'The atlas graph and release 0.34 counts are unchanged. Source packet: sources/saidtosomeone/PACKET.md. '
+    'This companion update does not change the atlas graph or counts. Source packet: sources/saidtosomeone/PACKET.md. '
     'The current Publish workflow and deployment.json identify validation and the deployed revision.\n\n' + end + '\n')
 if start in text:
     text = re.sub(re.escape(start) + r'.*?' + re.escape(end) + r'\n?', lambda _: note, text, flags=re.S)
 else:
     text = text.rstrip() + '\n\n' + note
 state.write_text(text, encoding='utf-8')
-(ROOT / 'documentation/NEXT_WORK.md').write_bytes((SOURCE / 'PACKET.md').read_bytes())
+# The companion packet stays in SOURCE; the current atlas release owns NEXT_WORK.md.
 
 ledger = json.loads((DEST / 'source-ledger.json').read_text(encoding='utf-8'))
 print(f'Built Said to someone {ledger["edition"]}: {len(entries)} register entries, full anthology index, {len(ledger["sources"])} source records, and two atlas entry points. Dataset unchanged.')

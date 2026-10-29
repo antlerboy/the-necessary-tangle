@@ -1,0 +1,288 @@
+{
+  "packet": "Regulation, transduction, and learning: primary-source deepening for release 0.35",
+  "checked_at": "2026-10-29",
+  "editorial_status": "Research proposals. Source exposition is distinguished from editorial comparison; human acceptance is not implied.",
+  "sources": [
+    {
+      "id": "src_ashby_intro_cybernetics_1956",
+      "action": "enrich_existing",
+      "title": "An Introduction to Cybernetics",
+      "authors": ["W. Ross Ashby"],
+      "date": "1956",
+      "url": "https://ashby.info/Ashby-Introduction-to-Cybernetics.pdf",
+      "publisher": "Chapman & Hall",
+      "locator": "1957 second impression; sections 11/5–11/11, printed pp. 205–209; PDF pp. 109–111",
+      "verified": "Primary text opened and inspected. Title page identifies the 1957 second impression of the 1956 book.",
+      "limits": "Use section numbers as the stable locator: the electronic PDF places two printed pages on each PDF page. Rights statement permits educational and research distribution with its notice; this packet links and paraphrases."
+    },
+    {
+      "id": "src_conant_ashby_good_regulator_1970",
+      "action": "enrich_existing",
+      "title": "Every Good Regulator of a System Must Be a Model of That System",
+      "authors": ["Roger C. Conant", "W. Ross Ashby"],
+      "date": "1970",
+      "url": "https://doi.org/10.1080/00207727008920220",
+      "reading_url": "https://pespmc1.vub.ac.be/books/Conant_Ashby.pdf",
+      "publisher": "International Journal of Systems Science 1(2), 89–97",
+      "locator": "Theorem, proof, and subsequent comments, electronic PDF pp. 8–9; section 5, Discussion",
+      "verified": "Primary article text opened and inspected at Principia Cybernetica.",
+      "limits": "Electronic transcription contains formatting errors in some equations. Locators here identify its PDF pages, not invented original journal page correspondence."
+    },
+    {
+      "id": "src_u35_bateson_steps_1987",
+      "action": "add_edition_source",
+      "title": "Steps to an Ecology of Mind (1987 reprint)",
+      "authors": ["Gregory Bateson"],
+      "date": "1987",
+      "url": "https://ejcj.orfaleacenter.ucsb.edu/wp-content/uploads/2017/06/1972.-Gregory-Bateson-Steps-to-an-Ecology-of-Mind.pdf",
+      "publisher": "Jason Aronson; original collection published by Chandler in 1972",
+      "locator": "The Logical Categories of Learning and Communication: printed pp. 297–299 and 305–307 (PDF pp. 311–313 and 319–321); Form, Substance, and Difference: printed pp. 459–460 (PDF pp. 473–474)",
+      "verified": "Primary book opened and inspected. Copyright and catalogue pages identify the 1987 reprint, despite the filename beginning 1972.",
+      "limits": "Do not reuse these page numbers for the Chicago edition without checking. Copyright retained; link and brief paraphrases only. Existing book node publication_steps_to_ecology_of_mind is reused."
+    },
+    {
+      "id": "src_u35_beer_vsm_1989",
+      "action": "add",
+      "title": "The Viable System Model: its provenance, development, methodology and pathology",
+      "authors": ["Stafford Beer"],
+      "date": "1989",
+      "url": "https://kybernetik.ch/dwn/Viable_System_Model.pdf",
+      "publisher": "Cwarel Isaf Institute, electronic edition 2002; cover dates the text 1989",
+      "locator": "Provenance, PDF pp. 3–4; On mapping and measuring complexity, pp. 6–8; The Viable System Model, pp. 10–11; Appendix 2, p. 16",
+      "verified": "Primary text opened and inspected. The cover says 1989; Appendix 2 explicitly gives page references to The Heart of Enterprise (1979).",
+      "limits": "Do not silently identify this edition with the 1984 JORS paper. It is Beer's own methodological and historical account, not independent effectiveness evidence. Copyright 2002 Cwarel Isaf Institute."
+    },
+    {
+      "id": "src_shannon_communication_1948",
+      "action": "enrich_existing",
+      "title": "A Mathematical Theory of Communication",
+      "authors": ["Claude E. Shannon"],
+      "date": "1948",
+      "url": "https://doi.org/10.1002/j.1538-7305.1948.tb01338.x",
+      "reading_url": "https://people.math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf",
+      "publisher": "Bell System Technical Journal 27, 379–423 and 623–656",
+      "locator": "Introduction, corrected reprint PDF p. 1",
+      "verified": "Primary text opened and inspected; reprint header identifies the original 1948 publication.",
+      "limits": "This locator uses the corrected reprint's pagination. The engineering model expressly brackets semantic aspects."
+    },
+    {
+      "id": "src_u35_argyris_loops_1976",
+      "action": "add",
+      "title": "Single-Loop and Double-Loop Models in Research on Decision Making",
+      "authors": ["Chris Argyris"],
+      "date": "1976-09",
+      "url": "https://doi.org/10.2307/2391848",
+      "reading_url": "https://www.scribd.com/document/292149027/Angyris-s-Single-and-Double-Loop-Learning",
+      "publisher": "Administrative Science Quarterly 21(3), 363–375",
+      "locator": "Printed p. 367, Single-Loop and Double-Loop; pp. 368–370, Double-Loop Model and Transitional Model",
+      "verified": "JSTOR issue contents confirm author, title, date, and pp. 363–375. The article's page-marked transcription was inspected separately; the Scribd AI-enhanced description was not used.",
+      "limits": "Publisher access may be restricted. Reading copy is a third-party transcription. No claims of Bateson-to-Argyris influence are inferred from this comparison."
+    }
+  ],
+  "profiles": [
+    {
+      "node_id": "concept_requisite_variety",
+      "action": "deepen_existing",
+      "summary": "Ashby's bound depends on the disturbance–response table. Section 11/9 also allows the transformation itself to remove variety.",
+      "canonical_definition": "A lower bound on the effective response variety needed for a specified restriction of outcomes, under stated conditions.",
+      "why_it_matters": "Count responses that can actually be selected and act, rather than nominal options.",
+      "key_distinctions": ["raw disturbance variety versus variety reaching the regulated outcome", "available options versus effective responses"],
+      "practice_connections": ["Specify disturbances, responses, and acceptable outcomes before applying the inequality."],
+      "common_misreadings": ["The regulator must reproduce every environmental detail."],
+      "open_checks": ["Test any organisational mapping against the formal assumptions."],
+      "source_ids": ["src_ashby_intro_cybernetics_1956"],
+      "locators": [{"source_id": "src_ashby_intro_cybernetics_1956", "locator": "Sections 11/5–11/11, especially 11/9", "claim": "Includes a transformation that already reduces outcome variety."}]
+    },
+    {
+      "node_id": "law_or_principle_conant_ashby_theorem",
+      "action": "add_profile_for_existing_node",
+      "summary": "The result concerns the simplest regulator among those minimising outcome entropy. Its model is a mapping from reguland events to regulatory actions.",
+      "canonical_definition": "Under the paper's assumptions, a simplest optimal regulator is representable by a mapping h: S → R.",
+      "why_it_matters": "A diagram or forecast is not sufficient evidence that an organisation regulates successfully.",
+      "key_distinctions": ["optimality versus simplicity", "an embodied mapping versus an explicit representation", "a theorem's assumptions versus an organisational analogy"],
+      "practice_connections": ["State which outcomes count as successful before invoking optimality."],
+      "common_misreadings": ["Every regulator is optimal.", "The model must be a conscious simulation."],
+      "open_checks": ["Assess how the theorem's fixed distribution and outcome criterion fit the proposed application."],
+      "source_ids": ["src_conant_ashby_good_regulator_1970"],
+      "locators": [{"source_id": "src_conant_ashby_good_regulator_1970", "locator": "Theorem and proof, PDF pp. 8–9; Discussion", "claim": "The paper distinguishes optimal regulators from simplest optimal regulators, and permits implicitly developed models."}]
+    },
+    {
+      "node_id": "concept_information",
+      "action": "append_located_account_to_existing_profile",
+      "summary": "Bateson's formulation selects differences through their effects within a circuit. It does not turn the mathematical quantity of information into a measure of meaning.",
+      "canonical_definition": null,
+      "why_it_matters": "Ask what changed for the recipient, not merely what was transmitted.",
+      "key_distinctions": ["difference available versus difference taken up"],
+      "practice_connections": ["Trace a report through the action it enables, blocks, or fails to change."],
+      "common_misreadings": ["Sending a message proves it informed someone."],
+      "open_checks": ["Keep the several meanings of information explicit."],
+      "source_ids": ["src_u35_bateson_steps_1987", "src_shannon_communication_1948"],
+      "locators": [{"source_id": "src_u35_bateson_steps_1987", "locator": "Form, Substance, and Difference, printed pp. 459–460; PDF pp. 473–474", "claim": "Selected differences become information through the receiving pathways."}]
+    },
+    {
+      "node_id": "concept_bateson_learning_levels",
+      "action": "new_node_and_profile",
+      "summary": "Bateson distinguishes correcting a choice within alternatives from changing the alternatives or the way experience is punctuated.",
+      "canonical_definition": "A logical classification of changes in learning processes, including Learning I, II, and III.",
+      "why_it_matters": "A changed answer and a changed way of constructing the question need different evidence.",
+      "key_distinctions": ["change within a set versus change of the set", "learning level versus improvement"],
+      "practice_connections": ["Describe the changed pattern before assigning it a level."],
+      "common_misreadings": ["Higher levels are automatically healthier.", "Learning II simply means a better decision."],
+      "open_checks": ["The comparison with organisational learning below is editorial, not an identity claim."],
+      "source_ids": ["src_u35_bateson_steps_1987"],
+      "locators": [{"source_id": "src_u35_bateson_steps_1987", "locator": "The Logical Categories of Learning and Communication, printed pp. 297–299 and 305–307", "claim": "Defines levels, context punctuation, and the persistence of acquired premises."}]
+    },
+    {
+      "node_id": "concept_double_loop_learning",
+      "action": "add_profile_for_existing_node",
+      "summary": "Argyris distinguishes learning within an organisation's governing framework from inquiry that can change that framework.",
+      "canonical_definition": "Learning that can question and alter governing values, assumptions, or organisational arrangements, rather than only improve action within them.",
+      "why_it_matters": "A team can discuss reflection fluently while keeping the same behaviour.",
+      "key_distinctions": ["espoused theory versus theory-in-use", "inquiry versus unilateral control", "knowing the vocabulary versus changing conduct"],
+      "practice_connections": ["Compare stated rules with recorded decisions and responses to challenge."],
+      "common_misreadings": ["A second feedback loop necessarily demonstrates double-loop learning.", "Removing all structure produces inquiry."],
+      "open_checks": ["Check the conditions under which changed governing assumptions persist."],
+      "source_ids": ["src_u35_argyris_loops_1976"],
+      "locators": [{"source_id": "src_u35_argyris_loops_1976", "locator": "pp. 367–370", "claim": "Distinguishes the two loops, theories-in-use, and the difficulty of changing behaviour."}]
+    },
+    {
+      "node_id": "concept_transduction",
+      "action": "append_located_account_to_existing_profile",
+      "summary": "Beer distinguishes a channel's capacity from the transducer's capacity at a boundary. His third principle requires the latter to match at least the former.",
+      "canonical_definition": null,
+      "why_it_matters": "Translation can discard a distinction that the communication channel could carry.",
+      "key_distinctions": ["channel capacity versus transducer capacity"],
+      "practice_connections": ["Compare the distinctions arriving at a boundary with those available after translation."],
+      "common_misreadings": ["A wider communication channel repairs every translation failure."],
+      "open_checks": ["Specify the relevant variety before applying this organisational principle elsewhere."],
+      "source_ids": ["src_u35_beer_vsm_1989"],
+      "locators": [{"source_id": "src_u35_beer_vsm_1989", "locator": "PDF pp. 7–8; Appendix 2, p. 16, third principle", "claim": "Separates channel and transducer capacity within the VSM."}]
+    },
+    {
+      "node_id": "person_stafford_beer",
+      "action": "add_profile_for_existing_node",
+      "summary": "Beer's account connects organisational viability with variety in operations, channels, and boundary transducers.",
+      "canonical_definition": null,
+      "why_it_matters": "A capable team can still fail through a channel or translation bottleneck.",
+      "key_distinctions": ["operational variety versus transmission capacity", "recursive functions versus reporting levels"],
+      "practice_connections": ["Check the whole route from local distinction to authorised response."],
+      "common_misreadings": ["The VSM is an organisation chart."],
+      "open_checks": ["This source is Beer's retrospective account; independent outcome evidence remains separate."],
+      "source_ids": ["src_u35_beer_vsm_1989"],
+      "locators": [{"source_id": "src_u35_beer_vsm_1989", "locator": "PDF pp. 6–8, 10–11, and 16", "claim": "Sets out these distinctions within his account of the VSM."}]
+    }
+  ],
+  "nodes": [
+    {"id": "concept_bateson_learning_levels", "label": "Bateson's levels of learning", "entity_type": "concept", "summary": "A logical classification of changes in learning processes.", "source_ids": ["src_u35_bateson_steps_1987"], "tags": ["cybernetics", "learning"]}
+  ],
+  "edges": [
+    {
+      "id": "e16_grammar_crosswalk_163", "action": "enrich_existing",
+      "source": "law_or_principle_conant_ashby_theorem", "target": "concept_regulation", "relation_type": "formalises",
+      "label": "states a model condition for simplest optimal regulation",
+      "source_ids": ["src_conant_ashby_good_regulator_1970"], "locator": "Theorem and proof, PDF pp. 8–9",
+      "scope": "The theorem gives a mapping condition for a simplest entropy-minimising regulator under its probability assumptions; organisational effectiveness is not thereby established.", "basis": "source_exposition"
+    },
+    {
+      "id": "e16_grammar_crosswalk_162", "action": "enrich_existing",
+      "source": "concept_modelling", "target": "law_or_principle_conant_ashby_theorem", "relation_type": "explanatory_prerequisite",
+      "label": "supplies the mapping meaning required to interpret",
+      "source_ids": ["src_conant_ashby_good_regulator_1970"], "locator": "Models discussion and theorem, PDF pp. 5–8",
+      "scope": "Interpreting the theorem requires its specified mapping from reguland events to regulator actions; arbitrary resemblance does not meet that definition.", "basis": "source_exposition"
+    },
+    {
+      "id": "e35_variety_information_theory", "action": "add",
+      "source": "law_or_principle_law_of_requisite_variety", "target": "concept_information_theory", "relation_type": "uses_in_argument",
+      "label": "has an entropy derivation using",
+      "source_ids": ["src_ashby_intro_cybernetics_1956"], "locator": "Section 11/8, printed pp. 207–208",
+      "scope": "Ashby derives a requisite-variety bound using conditional entropies; this mathematical formulation does not measure semantic meaning.", "basis": "source_exposition"
+    },
+    {
+      "id": "e_v03_vsm_transduction", "action": "enrich_existing",
+      "source": "method_or_methodology_viable_system_model_vsm", "target": "concept_transduction", "relation_type": "uses",
+      "label": "requires adequate boundary transduction",
+      "source_ids": ["src_u35_beer_vsm_1989"], "locator": "PDF p. 7; Appendix 2, p. 16, third principle (citing The Heart of Enterprise, p. 101)",
+      "scope": "Beer makes boundary transducer capacity a condition of VSM communication; the claim concerns his organisational use of transduction.", "basis": "source_exposition"
+    },
+    {
+      "id": "e35_variety_transduction", "action": "add",
+      "source": "concept_requisite_variety", "target": "concept_transduction", "relation_type": "constrains",
+      "label": "sets a capacity requirement for",
+      "source_ids": ["src_u35_beer_vsm_1989"], "locator": "Appendix 2, PDF p. 16, third principle",
+      "scope": "Beer's third principle requires transducer variety to be at least equivalent to channel variety at a boundary; this is a capacity requirement, not proof of successful interpretation.", "basis": "source_exposition"
+    },
+    {
+      "id": "e_0349", "action": "enrich_existing",
+      "source": "method_or_methodology_viable_system_model_vsm", "target": "concept_organisational_recursion", "relation_type": "uses",
+      "label": "uses repeated viable organisation across embedded levels",
+      "source_ids": ["src_u35_beer_vsm_1989"], "locator": "PDF pp. 10–11; Appendix 2, p. 16, recursive system theorem (citing The Heart of Enterprise, p. 118)",
+      "scope": "The VSM embeds viable systems within viable systems; this is functional recursion in Beer's model, not an inference from repeated box shapes.", "basis": "source_exposition"
+    },
+    {
+      "id": "e16_relational_crosswalk_223", "action": "enrich_existing",
+      "source": "person_stafford_beer", "target": "method_or_methodology_viable_system_model_vsm", "relation_type": "developed",
+      "label": "developed",
+      "source_ids": ["src_u35_beer_vsm_1989"], "locator": "Provenance, PDF pp. 3–4",
+      "scope": "Beer describes developing the VSM through successive formulations; his retrospective account does not independently establish every historical or validity claim.", "basis": "source_exposition"
+    },
+    {
+      "id": "e35_steps_learning_levels", "action": "add",
+      "source": "publication_steps_to_ecology_of_mind", "target": "concept_bateson_learning_levels", "relation_type": "presents_account_of",
+      "label": "sets out a logical classification of",
+      "source_ids": ["src_u35_bateson_steps_1987"], "locator": "The Logical Categories of Learning and Communication, printed pp. 297–299",
+      "scope": "The collection distinguishes changes within alternatives from changes to learning contexts; Bateson's logical types are not a universal scale of personal development.", "basis": "source_exposition"
+    },
+    {
+      "id": "e35_learning_levels_double_loop", "action": "add_editorial_comparison",
+      "source": "concept_bateson_learning_levels", "target": "concept_double_loop_learning", "relation_type": "compares_method",
+      "label": "offers a comparison of changed learning premises with",
+      "source_ids": ["src_u35_bateson_steps_1987", "src_u35_argyris_loops_1976"], "locator": "Bateson, printed pp. 297–299; Argyris, p. 367",
+      "scope": "Both accounts distinguish change within a framework from change involving that framework. This editorial comparison establishes neither equivalence nor historical influence.", "basis": "editorial_comparison"
+    },
+    {
+      "id": "e35_double_loop_single_loop", "action": "add",
+      "source": "concept_double_loop_learning", "target": "concept_single_loop_learning", "relation_type": "compares_method",
+      "label": "questions the framework retained in",
+      "source_ids": ["src_u35_argyris_loops_1976"], "locator": "Printed p. 367",
+      "scope": "Argyris allows double-loop inquiry to question an organisation's governing framework, while single-loop learning operates within it; the distinction is not a count of feedback arrows.", "basis": "source_exposition"
+    },
+    {
+      "id": "e_fpcs_topic_034_concept_requisite_variety", "action": "repair_existing",
+      "source": "concept_requisite_variety", "target": "publication_fpcs_034", "relation_type": "compares_method",
+      "label": "can be compared with the distinct model requirement in",
+      "source_ids": ["src_ashby_intro_cybernetics_1956", "src_conant_ashby_good_regulator_1970"], "locator": "Ashby, sections 11/5–11/9; Conant and Ashby, theorem and proof, PDF pp. 8–9",
+      "scope": "Requisite variety bounds response capacity; the good-regulator article derives a mapping requirement for a simplest optimal regulator. This editorial comparison does not identify the two results.", "basis": "editorial_comparison"
+    },
+    {
+      "id": "e_v03_information_theory_information", "action": "repair_existing",
+      "source": "concept_information_theory", "target": "concept_information", "relation_type": "formalises",
+      "label": "formalises the mathematical quantity of",
+      "source_ids": ["src_shannon_communication_1948", "src_u35_bateson_steps_1987"], "locator": "Shannon, Introduction, corrected reprint PDF p. 1; Bateson, Form, Substance, and Difference, printed pp. 459–460",
+      "scope": "Shannon formalises message selection and uncertainty while bracketing semantics. This edge concerns that mathematical sense, not a formal derivation of Bateson's account of consequential differences.", "basis": "source_exposition"
+    }
+  ],
+  "evidence_proposals": [
+    {"id": "ev_u35_ashby_transform", "source_id": "src_ashby_intro_cybernetics_1956", "locator": "Section 11/9, printed p. 208", "excerpt_or_summary": "Extends the bound for pre-existing reduction by the transformation."},
+    {"id": "ev_u35_good_regulator_assumptions", "source_id": "src_conant_ashby_good_regulator_1970", "locator": "Theorem and proof, PDF pp. 8–9", "excerpt_or_summary": "Specifies distributions, outcome entropy, and simplicity."},
+    {"id": "ev_u35_beer_transducers", "source_id": "src_u35_beer_vsm_1989", "locator": "PDF p. 16, third principle", "excerpt_or_summary": "States a variety requirement for boundary transducers."},
+    {"id": "ev_u35_beer_recursion", "source_id": "src_u35_beer_vsm_1989", "locator": "PDF pp. 10–11 and 16", "excerpt_or_summary": "States recursive viable embedding and rejects a unique chain."},
+    {"id": "ev_u35_bateson_levels", "source_id": "src_u35_bateson_steps_1987", "locator": "Printed pp. 297–299", "excerpt_or_summary": "Differentiates changes in responses and learning contexts."},
+    {"id": "ev_u35_argyris_loops", "source_id": "src_u35_argyris_loops_1976", "locator": "Printed pp. 367–370", "excerpt_or_summary": "Distinguishes governing frameworks from action within them."},
+    {"id": "ev_u35_shannon_semantic_scope", "source_id": "src_shannon_communication_1948", "locator": "Introduction, corrected reprint PDF p. 1", "excerpt_or_summary": "Separates the engineering problem of message selection and reproduction from semantic aspects."}
+  ],
+  "reader_prose": {
+    "heading": "What survives the crossing?",
+    "text": "Follow one signal across a service boundary. Which distinctions survive its translation? Who can act on it? Which rules can they question? These are different problems. A readable report can reach someone who has no authority to respond; an authorised response can still pursue an unexamined aim. The sources below let readers inspect each connection separately.",
+    "basis": "Original editorial practice questions, not an empirical finding or historical influence claim."
+  },
+  "deduplication_and_cautions": [
+    "The existing information, requisite variety, transduction, and organisational recursion profiles already contain useful explanations. Append located evidence rather than replacing fuller text with these short proposals.",
+    "Eight edges above enrich or repair existing IDs. Preserve their previous provenance where relevant; do not add duplicate lines solely for new citations.",
+    "The repair of e_fpcs_topic_034_concept_requisite_variety replaces the unsupported foundational-treatment wording with an explicit editorial comparison. Collection membership remains intact.",
+    "The repair of e_v03_information_theory_information supplies a narrow mathematical scope. Its existing linked claim_information_theory_formalises_information already states the semantic limitation correctly and should be retained.",
+    "The original legacy recursion association e_0300 is not automatically resolved by these citations. Prefer the already-maintained organisational-recursion relation e_0349.",
+    "Beer Appendix 2 directly quotes The Heart of Enterprise page numbers. Describe these as locators supplied in the inspected later source; do not claim the original 1979 book itself was inspected.",
+    "Keep the Bateson-to-Argyris comparison as an editorial candidate. A separate primary lineage investigation would be needed for an influence edge.",
+    "No full text, image, or long quotation is copied into this packet. Reading-copy permissions are not republication permissions."
+  ]
+}

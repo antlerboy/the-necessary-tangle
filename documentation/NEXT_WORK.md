@@ -1,27 +1,27 @@
 # Next work
 
-Status: implemented — Said to someone edition 1.1, authorised by Benjamin P Taylor on 29 October 2026. Release validation and publication evidence are recorded in the associated pull request and GitHub Pages workflow.
+Status: release 0.35 implemented and source-validated under the user's 29 October 2026 request. The Publish workflow and deployment.json record the exact published revision and live acceptance. No continuing research packet is automatically active.
 
 ## Outcome
 
-Expand https://transduction.systems/saidtosomeone/ beyond its ten selected entries into a source-led register covering every numbered item of Heinz von Foerster's 1995 anthology, its additional circularity material, and further sayings and reported variants established by public papers, interviews, and firsthand accounts. Make the large TNT logo animate and change using the same living-mark behaviour as the main site.
+Give readers precise primary-source routes through regulation, models, learning, transduction, and living organisation, with meaningful, inspectable connections between existing entries.
 
-## Authority and scope
+## In scope
 
-The user's explicit follow-up is the authorised work packet under AGENTS.md. Named areas: sources/saidtosomeone/, docs/saidtosomeone/, scripts/build_saidtosomeone.py, scripts/test_saidtosomeone_browser.js, .github/workflows/validate.yml, .github/workflows/pages.yml, existing sources/living-mark-*.js and docs/assets/living-marks/ for reuse, main-site markup/styles needed to understand the existing controls, Makefile, validation/browser checks as needed, docs/index.html, docs/library/index.html, docs/sitemap.xml, README.md, CHANGELOG.md, and documentation/NEXT_WORK.md and TANGLE_STATE.md. The companion page has its own numbered edition; atlas dataset release 0.34 remains unchanged.
+One bounded evidence and reading release. Named areas: documentation/research-2026-10-29/, scripts/apply_update_35.py, scripts/prepare_update_35_baseline.py, scripts/validate_update_35.py, scripts/test_update_35_browser.js, Makefile, publication workflow, generated data and knowledge projections, docs/reading/connections/, docs/updates/2026-10-29/, homepage and library/learning/updates entry points, sitemap, release metadata, and durable state. Preserve earlier source packets and the companion page. Prevent the pinned events interface build from replacing a newer retained event snapshot and its calendars with older data; this is regression protection, not a collection refresh. Prevent the pinned events interface build from replacing a newer retained event snapshot and its calendars with older data; this is regression protection, not a collection refresh. Deepen existing profiles where possible; distinguish primary-source exposition from editorial comparisons. Include source locators and explicit access limits.
 
-No arbitrary numerical cap. Coverage is measured against inspected collections and documented sources, not claimed for everything Heinz ever said. Exact quotations, wording variants, paraphrases, borrowed attributions, reports, and unsupported circulating claims remain distinct. Preserve third-party source permissions: a complete anthology topic index can link to original wordings and diagrams without wholesale reproduction. Preserve the four stories, media and reading routes, Benjamin's imagined Don Van Vliet conversation, and exactly one disclosed marginal invention with the visible 'contains hallucinations' warning. Use the existing mark assets and interaction design. Preserve reduced-motion support and the bottom-right Open updates control.
+## Out of scope
+
+No private material, correspondence, event refresh, access changes, contribution inbox publication, new generic relationship types, automatic acceptance of contested claims, or changes to the source-owner-reviewed Systemic Evolution artefact.
 
 ## Acceptance checks
 
-Run make validate and the relevant browser checks. Verify full anthology item coverage, unique stable IDs, source-level quote budgets and locators, source ledger consistency, build reproducibility, valid internal paths and anchors, responsive layout, accessible controls, both animation and mark-changing actions, reduced motion, and exact live publication after the existing GitHub Pages workflow succeeds. Publication must refer to the tested commit.
+Run make validate or its complete equivalent on the available host, then the established publication gate. Check idempotent generation, restored historical baselines, public-safe URLs, exact source locators, valid graph endpoints, duplicate statements, meaningful source-to-claim links, desktop/mobile reader routes, keyboard links, the bottom-right Open updates control, preserved comparator checksums, and the exact live deployment revision. Add the new reader checks to both pre-publication and live workflows.
 
-## Execution and stop conditions
+## Model route
 
-Independent research tasks cover the anthology/primary texts and reported sayings. A separate logo task can reuse the existing implementation while the owner integrates content and verifies publication. One implementation pass and one verification pass; corrections address named failures. No wider atlas review, private disclosure, or external correspondence. Stop after successful required checks and live publication. Record concrete remaining source gaps without inventing contents or treating an inaccessible source as verified.
+Codex implementation with independent bounded primary-source research and build-integration tasks. The parent integrates and reviews the claims, verifies the complete release, and publishes under the standing authorisation in AGENTS.md.
 
-## Verification record
+## Stop conditions
 
-Primary-source and reported-speech reviews completed independently. The register has 54 entries with linked locators, 40 source records, a complete index of the 29-item anthology and its supplementary material, and four further numbered-series indexes. Source corrections were integrated before release. Structural checks passed for unique IDs, internal paths and anchors, source mappings, and source-level quotation limits. The builder produces identical companion outputs on repeated runs.
-
-The browser preview verified animation/pause, motif changes by button and keyboard, combined search and evidence filters, and phone/tablet/desktop layouts without horizontal overflow. The new browser regression checks these behaviours and reduced-motion defaults in PR validation, the pre-publication build, and the live deployment. Required `make validate` and the full browser suite remain release gates; the workflow records their result for the tested commit.
+Stop after the numbered release passes validation and the exact live revision and changed reader paths are verified. Correct only named failures. Further corpus expansion needs a new finite packet. No further human approval is required for this authorised public-source update; editorial acceptance remains distinct from publication of attributed research and comparisons.

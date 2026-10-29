@@ -1,7 +1,7 @@
 # The Necessary Tangle: public knowledge file
 
 Curated by Benjamin P Taylor — https://www.antlerboy.com/
-Generated from public release 0.34 on 2026-10-24.
+Generated from public release 0.35 on 2026-10-29.
 
 A living evidence atlas of systems | cybernetics | complexity.
 Every connection must say what it means. Historical sequence, logical dependence, influence, teaching, collaboration, practical use, comparison and dispute are not interchangeable.
@@ -1285,16 +1285,80 @@ Local variety usually outruns central knowledge. Suppressing autonomy can make t
 - Viable System Model - Metaphorum — https://metaphorum.org/staffords-work/viable-system-model
 - Benjamin Taylor VSM lecture — https://antlerboy.com/library/files/talks/viable-system-model-lecture.pdf
 
+## Autopoiesis
+
+Type: Concept
+Public depth: profile
+
+Self-production of a unity through a recursively constituted network of component production.
+
+### Summary
+
+The biological account includes the production of a boundary that enables the processes producing it. Material turnover is compatible with the persistence of this organisation.
+
+### Why it matters
+
+A boundary drawn by an analyst and a boundary produced by a living system make different claims.
+
+### Key distinctions
+
+- Self-production versus reproduction
+- Organisation versus particular components
+- Organisational closure versus material isolation
+
+### Connections to practice
+
+- Before applying the term, identify components, production processes, and boundary formation.
+
+### Common confusions
+
+- Any durable feedback loop is autopoietic.
+- Calling an institution living establishes biological autopoiesis.
+
+### Open questions and checks
+
+- Social applications need an explicit account of what is being produced.
+
+### Sources
+
+- Autopoiesis: The Organization of Living Systems, Its Characterization and a Model — https://homepages.math.uic.edu/~kauffman/MUV.pdf
+- The Organization of the Living: A Theory of the Living Organization — https://biologyofcognition.wordpress.com/wp-content/uploads/2008/06/maturana1975organizationlivingtheorylivingorganization.pdf
+
 ## Autopoiesis: The Organization of Living Systems, Its Characterization, and a Model
 
 Type: Publication
-Public depth: described
+Public depth: profile
 
-F. G. Varela, H. R. Maturana, and R. Uribe, ‘Autopoiesis: The Organization of Living Systems, Its Characterization, and a Model’ (1974); item 48 in volume 3 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+Varela, Maturana, and Uribe's 1974 paper specifying autopoietic organisation and illustrating it with a tessellation model.
+
+### Summary
+
+The paper specifies a self-producing organisation, illustrates it with a tessellation model, and gives six criteria for identifying an autopoietic unity. Its boundary must arise through the system's own processes.
+
+### Why it matters
+
+The paper makes the claim inspectable against explicit conditions.
+
+### Key distinctions
+
+- An illustrative model versus empirical confirmation
+
+### Connections to practice
+
+- Use section 9 to examine a proposed application.
+
+### Common confusions
+
+- Publication in a foundational collection settles every later application.
+
+### Open questions and checks
+
+- Independent reproduction of the model remains outside this review.
 
 ### Sources
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+- Autopoiesis: The Organization of Living Systems, Its Characterization and a Model — https://homepages.math.uic.edu/~kauffman/MUV.pdf
 
 ## Axelrod Conference Model
 
@@ -1406,6 +1470,43 @@ His work explains how recurring relational positions and whole-system processes 
 
 - Barry Oshry — author profile — https://www.triarchypress.net/barry-oshry.html
 - The Organic Systems Framework — https://www.triarchypress.net/osf.html
+
+## Bateson's levels of learning
+
+Type: Concept
+Public depth: profile
+
+A logical classification of changes in learning processes, including Learning I, II, and III.
+
+### Summary
+
+Bateson distinguishes correcting a choice within alternatives from changing the alternatives or the way experience is punctuated.
+
+### Why it matters
+
+A changed answer and a changed way of constructing the question need different evidence.
+
+### Key distinctions
+
+- change within a set versus change of the set
+- learning level versus improvement
+
+### Connections to practice
+
+- Describe the changed pattern before assigning it a level.
+
+### Common confusions
+
+- Higher levels are automatically healthier.
+- Learning II simply means a better decision.
+
+### Open questions and checks
+
+- The comparison with organisational learning below is editorial, not an identity claim.
+
+### Sources
+
+- Steps to an Ecology of Mind (1987 reprint) — https://ejcj.orfaleacenter.ucsb.edu/wp-content/uploads/2017/06/1972.-Gregory-Bateson-Steps-to-an-Ecology-of-Mind.pdf
 
 ## Behavior, Purpose, and Teleology
 
@@ -1720,7 +1821,7 @@ A black box is a system treated through observable inputs, outputs and behaviour
 
 ### Sources
 
-- An Introduction to Cybernetics — https://ashby.info/bibliography.html
+- An Introduction to Cybernetics — https://ashby.info/Ashby-Introduction-to-Cybernetics.pdf
 - The Grammar of Systems II: From Order to Chaos and Back Again, 2nd edition — https://www.systemspractice.org/resources/grammar-systems-ii-order-chaos-back-again-2nd-ed
 - The Grammar of Systems - SCiO presentation — https://www.systemspractice.org/resources/grammar-systems
 
@@ -2977,9 +3078,36 @@ A. M. Turing, ‘Computing Machinery and Intelligence’ (1950); item 11 in volu
 ## Conant-Ashby Theorem
 
 Type: Law or principle
-Public depth: described
+Public depth: profile
 
-Under the 1970 paper's explicit assumptions and entropy-minimising criterion, the simplest optimal regulator's actions are mapped versions of the reguland's events. The theorem does not license every popular claim about internal models.
+Under the paper's assumptions, a simplest optimal regulator is representable by a mapping h: S → R.
+
+### Summary
+
+The result concerns the simplest regulator among those minimising outcome entropy. Its model is a mapping from reguland events to regulatory actions.
+
+### Why it matters
+
+A diagram or forecast is not sufficient evidence that an organisation regulates successfully.
+
+### Key distinctions
+
+- optimality versus simplicity
+- an embodied mapping versus an explicit representation
+- a theorem's assumptions versus an organisational analogy
+
+### Connections to practice
+
+- State which outcomes count as successful before invoking optimality.
+
+### Common confusions
+
+- Every regulator is optimal.
+- The model must be a conscious simulation.
+
+### Open questions and checks
+
+- Assess how the theorem's fixed distribution and outcome criterion fit the proposed application.
 
 ### Sources
 
@@ -4992,13 +5120,41 @@ A double bind is a recurring communication situation in which a person receives 
 ## Double-loop learning
 
 Type: Concept
-Public depth: described
+Public depth: profile
 
-Double-loop learning changes not only an action but the governing assumptions, values or rules by which the action was chosen. It is distinguished from correcting performance while leaving those rules intact.
+Learning that can question and alter governing values, assumptions, or organisational arrangements, rather than only improve action within them.
+
+### Summary
+
+Argyris distinguishes learning within an organisation's governing framework from inquiry that can change that framework.
+
+### Why it matters
+
+A team can discuss reflection fluently while keeping the same behaviour.
+
+### Key distinctions
+
+- espoused theory versus theory-in-use
+- inquiry versus unilateral control
+- knowing the vocabulary versus changing conduct
+
+### Connections to practice
+
+- Compare stated rules with recorded decisions and responses to challenge.
+
+### Common confusions
+
+- A second feedback loop necessarily demonstrates double-loop learning.
+- Removing all structure produces inquiry.
+
+### Open questions and checks
+
+- Check the conditions under which changed governing assumptions persist.
 
 ### Sources
 
 - SCiO SysBoK - Feedback v1 — No public link
+- Single-Loop and Double-Loop Models in Research on Decision Making — https://doi.org/10.2307/2391848
 
 ## Dynamic complexity
 
@@ -6885,6 +7041,17 @@ Giant Brains, or Machines That Think. Listed in Wiener’s historical cybernetic
 
 - Wiener’s selected readings on cybernetics, 1951, 1952, 1956 — https://stream.syscoi.com/2026/09/05/28544/
 
+## Gilbert Simondon
+
+Type: Person
+Public depth: profile
+
+Author of the account of individuation and transduction presented here through Gregory Flanders's 2009 translation of his introduction.
+
+### Sources
+
+- The Position of the Problem of Ontogenesis — https://www.parrhesiajournal.org/parrhesia07/parrhesia07_simondon1.pdf
+
 ## Giorgio de Santillana
 
 Type: Person
@@ -7654,11 +7821,11 @@ A difference selected and taken up within an organised context so that it can al
 
 ### Summary
 
-Information is not raw stuff that flows unchanged through channels. A signal becomes information only within some receiving organisation, code, concern or capacity to respond.
+Information is not raw stuff that flows unchanged through channels. A signal becomes information only within some receiving organisation, code, concern or capacity to respond. Bateson's formulation selects differences through their effects within a circuit. It does not turn the mathematical quantity of information into a measure of meaning.
 
 ### Why it matters
 
-Public and organisational systems routinely confuse data volume with understanding. The key questions are what differences are sensed, how they are coded, who can interpret them and what action they enable.
+Public and organisational systems routinely confuse data volume with understanding. The key questions are what differences are sensed, how they are coded, who can interpret them and what action they enable. Ask what changed for the recipient, not merely what was transmitted.
 
 ### Key distinctions
 
@@ -7667,6 +7834,7 @@ Public and organisational systems routinely confuse data volume with understandi
 - signal vs noise
 - information vs knowledge
 - availability vs actionability
+- difference available versus difference taken up
 
 ### Historical development
 
@@ -7696,6 +7864,7 @@ Public and organisational systems routinely confuse data volume with understandi
 - check whether the receiver has a code and response repertoire
 - trace losses and transformations
 - reduce reporting that cannot affect action
+- Trace a report through the action it enables, blocks, or fails to change.
 
 ### Common confusions
 
@@ -7703,6 +7872,7 @@ Public and organisational systems routinely confuse data volume with understandi
 - more data means more information
 - signals cross boundaries unchanged
 - information automatically produces learning
+- Sending a message proves it informed someone.
 
 ### Open questions and checks
 
@@ -7710,6 +7880,7 @@ Public and organisational systems routinely confuse data volume with understandi
 - semantic information
 - algorithmic information
 - information and affordance
+- Keep the several meanings of information explicit.
 
 ### Sources
 
@@ -7717,6 +7888,7 @@ Public and organisational systems routinely confuse data volume with understandi
 - A Mathematical Theory of Communication — https://doi.org/10.1002/j.1538-7305.1948.tb01338.x
 - Transduction - a powerful and important concept that few have heard of — https://chosen-path.org/2021/10/06/transduction-a-powerful-and-important-concept-that-few-have-heard-of/
 - Core Thinking Integration — No public link
+- Steps to an Ecology of Mind (1987 reprint) — https://ejcj.orfaleacenter.ucsb.edu/wp-content/uploads/2017/06/1972.-Gregory-Bateson-Steps-to-an-Ecology-of-Mind.pdf
 
 ## Information coding
 
@@ -7846,7 +8018,7 @@ Systems and cybernetics use information in several senses. Confusing Shannon inf
 - A Mathematical Theory of Communication — https://doi.org/10.1002/j.1538-7305.1948.tb01338.x
 - Lineages of Systems Practice — Damian Allen — No public link
 - Cybernetics or Control and Communication in the Animal and the Machine — https://mitpress.mit.edu/9780262537841/cybernetics-or-control-and-communication-in-the-animal-and-the-machine/
-- An Introduction to Cybernetics — https://ashby.info/bibliography.html
+- An Introduction to Cybernetics — https://ashby.info/Ashby-Introduction-to-Cybernetics.pdf
 
 ## Information Theory (Goldman)
 
@@ -9161,7 +9333,7 @@ For a specified regulation problem, the achievable reduction in outcome variety 
 
 - The Grammar of Systems - SCiO presentation — https://www.systemspractice.org/resources/grammar-systems
 - The Grammar of Systems II: From Order to Chaos and Back Again, 2nd edition — https://www.systemspractice.org/resources/grammar-systems-ii-order-chaos-back-again-2nd-ed
-- An Introduction to Cybernetics — https://ashby.info/bibliography.html
+- An Introduction to Cybernetics — https://ashby.info/Ashby-Introduction-to-Cybernetics.pdf
 - Biography: W. Ross Ashby (1903–1972) — https://ashby.info/biography.html
 - Cybersecurity Lessons from The Grammar of Systems, part 1 — https://www.linkedin.com/pulse/cybersecurity-lessons-from-grammar-systems-order-chaos-osama-salah/
 
@@ -18715,7 +18887,7 @@ Regulation is often collapsed into command and control. Ashby instead asks what 
 
 ### Sources
 
-- An Introduction to Cybernetics — https://ashby.info/bibliography.html
+- An Introduction to Cybernetics — https://ashby.info/Ashby-Introduction-to-Cybernetics.pdf
 - Every Good Regulator of a System Must Be a Model of That System — https://doi.org/10.1080/00207727008920220
 - Cybernetics or Control and Communication in the Animal and the Machine — https://mitpress.mit.edu/9780262537841/cybernetics-or-control-and-communication-in-the-animal-and-the-machine/
 
@@ -18853,11 +19025,11 @@ The variety needed in a regulator, given disturbances, transformations and accep
 
 ### Summary
 
-Ashby's law sets a limit on regulation. Disturbance variety can only be reduced to the extent that the regulator has relevant, selectable and effective response variety within the transformation being regulated.
+Ashby's law sets a limit on regulation. Disturbance variety can only be reduced to the extent that the regulator has relevant, selectable and effective response variety within the transformation being regulated. Ashby's bound depends on the disturbance–response table. Section 11/9 also allows the transformation itself to remove variety.
 
 ### Why it matters
 
-The slogan is often used to justify more choice, more management or decentralisation in the abstract. The law asks a harder question: which responses can distinguish and counter which disturbances, under what communication and resource constraints?
+The slogan is often used to justify more choice, more management or decentralisation in the abstract. The law asks a harder question: which responses can distinguish and counter which disturbances, under what communication and resource constraints? Count responses that can actually be selected and act, rather than nominal options.
 
 ### Key distinctions
 
@@ -18866,6 +19038,8 @@ The slogan is often used to justify more choice, more management or decentralisa
 - attenuation and amplification vs maximal complication
 - law of requisite variety vs good regulator theorem
 - necessary regulatory capacity vs a universal organisational prescription
+- raw disturbance variety versus variety reaching the regulated outcome
+- available options versus effective responses
 
 ### Historical development
 
@@ -18896,6 +19070,7 @@ The slogan is often used to justify more choice, more management or decentralisa
 - increase response repertoire only where it can affect outcomes
 - reduce avoidable disturbance rather than merely adding control
 - protect local autonomy where it carries relevant knowledge
+- Specify disturbances, responses, and acceptable outcomes before applying the inequality.
 
 ### Common confusions
 
@@ -18903,16 +19078,18 @@ The slogan is often used to justify more choice, more management or decentralisa
 - more choice is always better
 - the theorem proves decentralisation in every case
 - the good regulator theorem is the same theorem
+- The regulator must reproduce every environmental detail.
 
 ### Open questions and checks
 
 - exact provenance of absorb variety wording
 - Beer primary application pages
 - empirical organisational applications
+- Test any organisational mapping against the formal assumptions.
 
 ### Sources
 
-- An Introduction to Cybernetics — https://ashby.info/bibliography.html
+- An Introduction to Cybernetics — https://ashby.info/Ashby-Introduction-to-Cybernetics.pdf
 - Biography: W. Ross Ashby (1903–1972) — https://ashby.info/biography.html
 - Every Good Regulator of a System Must Be a Model of That System — https://doi.org/10.1080/00207727008920220
 - Viable System Model - The VSM in 1000 words — https://metaphorum.org/staffords-work/viable-system-model
@@ -20126,9 +20303,34 @@ D. Sherrington and S. Kirkpatrick, ‘Solvable Model of a Spin-Glass’ (1975); 
 ## Stafford Beer
 
 Type: Person
-Public depth: described
+Public depth: profile
 
-British cybernetician and management thinker who developed the Viable System Model, Team Syntegrity and a practice of organisational cybernetics concerned with managing complexity and preserving operational autonomy.
+Beer's account connects organisational viability with variety in operations, channels, and boundary transducers.
+
+### Summary
+
+Beer's account connects organisational viability with variety in operations, channels, and boundary transducers.
+
+### Why it matters
+
+A capable team can still fail through a channel or translation bottleneck.
+
+### Key distinctions
+
+- operational variety versus transmission capacity
+- recursive functions versus reporting levels
+
+### Connections to practice
+
+- Check the whole route from local distinction to authorised response.
+
+### Common confusions
+
+- The VSM is an organisation chart.
+
+### Open questions and checks
+
+- This source is Beer's retrospective account; independent outcome evidence remains separate.
 
 ### Sources
 
@@ -20136,6 +20338,7 @@ British cybernetician and management thinker who developed the Viable System Mod
 - Diagnosing the System for Organizations — https://www.wiley-vch.de/en/areas-interest/finance-economics-law/diagnosing-the-system-for-organizations-978-0-471-95136-0
 - Viable System Model - The VSM in 1000 words — https://metaphorum.org/staffords-work/viable-system-model
 - Lineages of Systems Practice — Damian Allen — No public link
+- The Viable System Model: its provenance, development, methodology and pathology — https://kybernetik.ch/dwn/Viable_System_Model.pdf
 
 ## Stakeholder analysis
 
@@ -20357,13 +20560,40 @@ The point above which learning from an encounter cannot alter the rules, resourc
 ## Structural coupling
 
 Type: Concept
-Public depth: described
+Public depth: profile
 
-Repeated system-environment interaction can shape the structures through which further interaction occurs. The FEM project uses this idea to identify consequential enterprise-environment relationships; that application is narrower than the biological concept.
+Repeated interactions through which systems and their environments shape the structures governing later interactions. In Maturana's biological account, these structural changes conserve the system's defining organisation.
+
+### Summary
+
+Maturana distinguishes a perturbation that triggers change from an instruction that specifies it: the current structure determines the response. Fractal Enterprise Model practice uses structural coupling to examine consequential enterprise–environment relationships; that application requires its own account of the participating systems and interactions.
+
+### Why it matters
+
+A repeated message can meet a changing recipient. Communication problems may involve the history of the relationship as well as the message.
+
+### Key distinctions
+
+- Triggering versus specifying a change
+- Biological account versus enterprise-modelling use
+
+### Connections to practice
+
+- Trace how repeated interactions alter the parties' capacity to respond; treat this as an interpretive question, not a biological diagnosis.
+
+### Common confusions
+
+- Coupling implies agreement.
+- An external message determines the recipient's response.
+
+### Open questions and checks
+
+- Evidence is needed for any proposed organisational application.
 
 ### Sources
 
 - Structural coupling through FEM — https://fractalmodel.blogs.dsv.su.se/structural-coupling-2/
+- The Organization of the Living: A Theory of the Living Organization — https://biologyofcognition.wordpress.com/wp-content/uploads/2008/06/maturana1975organizationlivingtheorylivingorganization.pdf
 
 ## Structural Viability Theorem
 
@@ -23391,11 +23621,11 @@ A boundary process that transforms signals, meanings or varieties from one domai
 
 ### Summary
 
-Transduction explains why a citizen's life becomes a case, a need becomes a code, work becomes a metric and strategy becomes a local instruction. The message is changed by the receiving world's categories and capacities.
+Transduction explains why a citizen's life becomes a case, a need becomes a code, work becomes a metric and strategy becomes a local instruction. The message is changed by the receiving world's categories and capacities. Beer distinguishes a channel's capacity from the transducer's capacity at a boundary. His third principle requires the latter to match at least the former.
 
 ### Why it matters
 
-Transformation often fails at boundaries rather than within units. Seeing transduction reveals where meaning is lost, invented, protected or made actionable.
+Transformation often fails at boundaries rather than within units. Seeing transduction reveals where meaning is lost, invented, protected or made actionable. Translation can discard a distinction that the communication channel could carry.
 
 ### Key distinctions
 
@@ -23404,6 +23634,7 @@ Transformation often fails at boundaries rather than within units. Seeing transd
 - signal preservation vs useful transformation
 - boundary protection vs distortion
 - attenuation vs amplification
+- channel capacity versus transducer capacity
 
 ### Historical development
 
@@ -23432,6 +23663,7 @@ Transformation often fails at boundaries rather than within units. Seeing transd
 - compare the sending and receiving codes
 - ask what is lost and newly created
 - design two-way transduction rather than one-way reporting
+- Compare the distinctions arriving at a boundary with those available after translation.
 
 ### Common confusions
 
@@ -23439,6 +23671,7 @@ Transformation often fails at boundaries rather than within units. Seeing transd
 - loss is always failure
 - a common dashboard removes interpretation
 - the same information exists on both sides
+- A wider communication channel repairs every translation failure.
 
 ### Open questions and checks
 
@@ -23446,12 +23679,50 @@ Transformation often fails at boundaries rather than within units. Seeing transd
 - biological transduction
 - technical versus semantic uses
 - worked public-service cases
+- Specify the relevant variety before applying this organisational principle elsewhere.
 
 ### Sources
 
 - Transduction - a powerful and important concept that few have heard of — https://chosen-path.org/2021/10/06/transduction-a-powerful-and-important-concept-that-few-have-heard-of/
 - Core Thinking Integration — No public link
 - Benjamin Taylor VSM lecture — https://antlerboy.com/library/files/talks/viable-system-model-lecture.pdf
+- The Viable System Model: its provenance, development, methodology and pathology — https://kybernetik.ch/dwn/Viable_System_Model.pdf
+
+## Transduction in Simondon
+
+Type: Concept
+Public depth: profile
+
+Progressive structuring through which an individual takes form; constituted structure enables further structuring.
+
+### Summary
+
+Crystallisation is Simondon's simplest example. His question concerns the coming-into-being of individuals and relations, rather than starting with two already constituted domains.
+
+### Why it matters
+
+Readers can ask whether an intervention changes a connection between established parties or changes what the parties become. This practical question is an editorial comparison.
+
+### Key distinctions
+
+- Individuation versus signal conversion
+- A philosophical account versus a demonstrated organisational mechanism
+
+### Connections to practice
+
+- Name which meaning of transduction an argument requires.
+
+### Common confusions
+
+- The shared word establishes a shared theory or historical influence.
+
+### Open questions and checks
+
+- Applications require their own evidence; this route does not establish a Beer–Simondon lineage.
+
+### Sources
+
+- The Position of the Problem of Ontogenesis — https://www.parrhesiajournal.org/parrhesia07/parrhesia07_simondon1.pdf
 
 ## Triple Task Approach
 
@@ -23893,7 +24164,7 @@ Variety turns vague talk about complexity into a question about differences that
 
 ### Sources
 
-- An Introduction to Cybernetics — https://ashby.info/bibliography.html
+- An Introduction to Cybernetics — https://ashby.info/Ashby-Introduction-to-Cybernetics.pdf
 - A Mathematical Theory of Communication — https://doi.org/10.1002/j.1538-7305.1948.tb01338.x
 
 ## Variety amplification
@@ -23963,7 +24234,7 @@ When the environment cannot responsibly be simplified, the system must improve i
 
 ### Sources
 
-- An Introduction to Cybernetics — https://ashby.info/bibliography.html
+- An Introduction to Cybernetics — https://ashby.info/Ashby-Introduction-to-Cybernetics.pdf
 - Benjamin Taylor VSM lecture — https://antlerboy.com/library/files/talks/viable-system-model-lecture.pdf
 
 ## Variety attenuation
@@ -24033,7 +24304,7 @@ Forms, triage, standards, thresholds and dashboards are attenuation devices. The
 
 ### Sources
 
-- An Introduction to Cybernetics — https://ashby.info/bibliography.html
+- An Introduction to Cybernetics — https://ashby.info/Ashby-Introduction-to-Cybernetics.pdf
 - Benjamin Taylor VSM lecture — https://antlerboy.com/library/files/talks/viable-system-model-lecture.pdf
 - Core Thinking Integration — No public link
 
@@ -24387,7 +24658,7 @@ Cybernetician who developed the Law of Requisite Variety and wrote An Introducti
 
 ### Sources
 
-- An Introduction to Cybernetics — https://ashby.info/bibliography.html
+- An Introduction to Cybernetics — https://ashby.info/Ashby-Introduction-to-Cybernetics.pdf
 - Biography: W. Ross Ashby (1903–1972) — https://ashby.info/biography.html
 - Lineages of Systems Practice — Damian Allen — No public link
 - Wiener’s selected readings on cybernetics, 1951, 1952, 1956 — https://stream.syscoi.com/2026/09/05/28544/
