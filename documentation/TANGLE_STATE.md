@@ -13,3 +13,11 @@ Quick contributions are received at /api/contributions on the existing events se
 The 24 October collection has 271 event listings, 115 upcoming, from 36 checked sources. Nine sources yielded dated events and nine failed. Six public link submissions were reconciled. The maintained systemsmap workflow owns live collection data; calendar subscription identity and explicit source failures remain visible.
 
 The full historical corpus reviews, exact inventory of private map collections, historical attribution disputes, real-organisation OrgLens effectiveness, and independent exercise QA remain open. Public-safe sources only; the source-owner-reviewed Systemic Evolution package is unchanged. Curator: Benjamin P Taylor. No external correspondence, access, membership, or invitations changed.
+
+<!-- saidtosomeone-state-1 -->
+
+## Companion page: Said to someone
+
+Edition 1.0, 29 October 2026. /saidtosomeone/ brings the existing Heinz von Foerster anthology together with ten selected entries, checked attribution, four firsthand recollections, video, audio, primary writing, and Benjamin’s imagined conversation with Don Van Vliet. One deliberate marginal invention is identified by a dagger, explicit source note, and contains hallucinations warning. The page reuses a large existing TNT mark and is linked from the home page and source library. The source ledger distinguishes text verification from full playback; it makes no exhaustive-collection or first-use claim. The atlas graph and release 0.34 counts are unchanged. Source packet: sources/saidtosomeone/PACKET.md. The current Publish workflow and deployment.json identify validation and the deployed revision.
+
+<!-- /saidtosomeone-state-1 -->

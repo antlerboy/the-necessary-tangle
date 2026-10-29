@@ -1,5 +1,10 @@
 # Changelog
 
+## Said to someone 1.0 — 29 October 2026
+
+Added /saidtosomeone/ with a large existing TNT mark, the credited 1995 HvF anthology, ten sourced entries, the documented Beer connection, four firsthand recollections with short excerpts, video and audio routes, primary writing, and the Chosen Path HvF/Don Van Vliet imagined dialogue. One deliberate marginal invention has a dagger, explicit source note, and contains hallucinations warning. Homepage and source-library links make the page discoverable. A deterministic build and source ledger preserve the page and attribution distinctions. Atlas dataset release 0.34 and graph counts are unchanged.
+
+
 ## 0.34 — 24 October 2026
 
 Five new SysCoI reading leads and four existing routes reconciled. Developed OrgLens and 42 guides, a systems-leadership action route, 21 source-scoped candidate connections, current events, and a quick plain-text contribution form with optional private follow-up email. Full source validation and the service/calendar tests pass; publication and live browser checks are recorded by the deployment workflow.
