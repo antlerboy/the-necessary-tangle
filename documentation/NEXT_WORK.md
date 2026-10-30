@@ -1,27 +1,19 @@
 # Next work
 
-Status: release 0.35 implemented and source-validated under the user's 29 October 2026 request. The Publish workflow and deployment.json record the exact published revision and live acceptance. No continuing research packet is automatically active.
+Status: the authorised 30 October 2026 ISSS wiki companion update is implemented and locally validated. Publication and final live acceptance are recorded by the existing Publish workflow and deployment.json. No continuing corpus-expansion packet is automatically active.
 
-## Outcome
+## Delivered outcome
 
-Give readers precise primary-source routes through regulation, models, learning, transduction, and living organisation, with meaningful, inspectable connections between existing entries.
+Seven question-led routes at /reading/isss-wiki/, a complete dated 704-page main-namespace inventory, 19 full wiki-page readings, and 212 deduplicated searchable wiki descriptions. Existing ISSS bibliography, graph release 0.35, source-owner-reviewed artefacts and backup process are preserved. Sources and actual coverage: sources/isss-wiki/PACKET.md, inventory.json and routes.json.
 
-## In scope
+## Verification
 
-One bounded evidence and reading release. Named areas: documentation/research-2026-10-29/, scripts/apply_update_35.py, scripts/prepare_update_35_baseline.py, scripts/validate_update_35.py, scripts/test_update_35_browser.js, Makefile, publication workflow, generated data and knowledge projections, docs/reading/connections/, docs/updates/2026-10-29/, homepage and library/learning/updates entry points, sitemap, release metadata, and durable state. Preserve earlier source packets and the companion page. Prevent the pinned events interface build from replacing a newer retained event snapshot and its calendars with older data; this is regression protection, not a collection refresh. Prevent the pinned events interface build from replacing a newer retained event snapshot and its calendars with older data; this is regression protection, not a collection refresh. Deepen existing profiles where possible; distinguish primary-source exposition from editorial comparisons. Include source locators and explicit access limits.
+The clean full make validate gate, idempotent companion generation and scripts/test_isss_wiki_browser.js passed locally. Publication runs the same reader checks before deployment and against the live site, then records its exact deployed commit. Confirm that live identity before reporting the update as published.
 
-## Out of scope
+## Remaining work and boundary
 
-No private material, correspondence, event refresh, access changes, contribution inbox publication, new generic relationship types, automatic acceptance of contested claims, or changes to the source-owner-reviewed Systemic Evolution artefact.
+The complete inventory is not completion of substantive reading of every wiki page or of its linked works. Only the 19 listed pages have full wiki-page reading recorded; books, papers, slides and recordings were not read or watched for this packet. A further finite reading cohort should select the source and question it can resolve. Preserve unsettled source inconsistencies and human editorial responsibility. Do not manufacture graph claims, acceptance, current software availability or programme outcomes from descriptions.
 
-## Acceptance checks
+## Stop condition
 
-Run make validate or its complete equivalent on the available host, then the established publication gate. Check idempotent generation, restored historical baselines, public-safe URLs, exact source locators, valid graph endpoints, duplicate statements, meaningful source-to-claim links, desktop/mobile reader routes, keyboard links, the bottom-right Open updates control, preserved comparator checksums, and the exact live deployment revision. Add the new reader checks to both pre-publication and live workflows.
-
-## Model route
-
-Codex implementation with independent bounded primary-source research and build-integration tasks. The parent integrates and reviews the claims, verifies the complete release, and publishes under the standing authorisation in AGENTS.md.
-
-## Stop conditions
-
-Stop after the numbered release passes validation and the exact live revision and changed reader paths are verified. Correct only named failures. Further corpus expansion needs a new finite packet. No further human approval is required for this authorised public-source update; editorial acceptance remains distinct from publication of attributed research and comparisons.
+Stop after the exact live publication and changed reader paths pass. Correct only named failed checks. No new research, access changes, correspondence, private disclosures or event refresh is implied.

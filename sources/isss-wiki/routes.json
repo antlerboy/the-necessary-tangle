@@ -1,0 +1,71 @@
+{
+  "routes": [
+    {
+      "id": "organisation",
+      "title": "What makes a system more than an aggregate?",
+      "summary": "The wiki’s Bertalanffy account presents organisation, open systems, steady states and equifinality. Kineman’s R-Theory account instead foregrounds relational organisation, anticipation and closure to efficient causation. These accounts offer different starting points; a shared vocabulary of wholes does not make their claims interchangeable.",
+      "question": "What is exchanged with the environment, what organisation is maintained, and what kind of closure is being claimed? Keep thermodynamic openness separate from causal closure.",
+      "sources": [1106, 1070, 1071],
+      "limits": "These are wiki expositions and a paper abstract. The cited Bertalanffy book, historical studies and Kineman papers were not read for this guide. The relational-science claims require their own argument and evidence."
+    },
+    {
+      "id": "boundaries",
+      "title": "Whose purposes and boundaries shape an intervention?",
+      "summary": "The description of Gerald Midgley’s Systemic Intervention links values, boundary judgements and methodological pluralism. The Michael C. Jackson book entry places critical systems practice alongside the history and application of systems thinking. The Critical Systems Thinking group page invites dialogue across systems and social disciplines.",
+      "question": "Whose concerns define the problem, whose experience could challenge that boundary, and what would make a different method appropriate?",
+      "sources": [589, 72, 725],
+      "limits": "Book descriptions are not a substitute for reading the books. The group page retains placeholders and tentative late-2026 chair wording; this guide does not certify its current leadership.",
+      "compare": [{"url":"/#view=item&id=concept_boundary_critique","label":"Boundary critique in the atlas"},{"url":"/#view=item&id=method_or_methodology_systemic_intervention","label":"Systemic Intervention in the atlas"}]
+    },
+    {
+      "id": "dialogue",
+      "title": "How does dialogue become a shared account of influence?",
+      "summary": "The Christakis and Bausch book description connects diverse participation with clarifying meanings, exploring relationships and agreeing action. The Flanagan and Bausch workbook applies structured dialogue to the Global Problématique. Laouris and Dye’s paper abstract distinguishes five generations of practice through physical, virtual and hybrid participation and synchronous or asynchronous stages.",
+      "question": "Who generates the ideas, who clarifies them, and how do participants decide that one issue influences another? Inspect those steps before treating a map as a collective finding.",
+      "sources": [15, 1055, 61, 798],
+      "limits": "The wiki supplies descriptions and an abstract, including claims about benefits. This guide does not independently verify those outcomes, institutional endorsements or the full paper’s historical account."
+    },
+    {
+      "id": "tools",
+      "title": "What depends on the process, and what depends on its software?",
+      "summary": "The Cogniscope V2 page describes an obsolete proprietary tool and incompatibility with current Windows versions. The V3 page gives a 2013 release account, design history and licensing statements. These are historical source descriptions, rather than verified current installation or purchase advice.",
+      "question": "Can participants inspect and challenge the modelling decisions independently of a particular application? Check current support and terms directly before relying on the software.",
+      "sources": [52, 53],
+      "limits": "Neither version was installed or tested. Current availability, compatibility, prices and licence conditions have not been independently checked."
+    },
+    {
+      "id": "action",
+      "title": "What connects a programme’s intentions to evidence of action?",
+      "summary": "The Action Research group page brings practical inquiry and reflection together and lists methodological reading. The 2026 Reimagining Our World Systemically page describes a dialogue process moving from obstacles to purposeful action. It lists seven Phase 1 recordings; its action-session section has no recording links in this snapshot.",
+      "question": "Which results were intended, which were produced, and what evidence would show that the resulting priorities changed action? Keep the influence map, the implementation and the outcomes separate.",
+      "sources": [675, 1101],
+      "limits": "The March–April and 29–30 June 2026 programme dates are historical. Planned results and endorsements are source claims, not verified delivery or a current invitation. The recordings were not played.",
+      "compare": [{"url":"/#view=item&id=intervention_skill_action_research","label":"Action research in the atlas"}]
+    },
+    {
+      "id": "praxis",
+      "title": "How might cybernetics inform participation and design?",
+      "summary": "Paul Pangaro’s 9 October 2025 abstract asks what a laboratory for effective action could do and proposes praxis-sourcing across organisations. The two Coming Home to Life pages describe Tom Flanagan and Daniel Christian Wahl exploring participation in nested complexity. Mick Ashby’s page supplies a recording title about ethical systems and third-order cybernetics, with little accompanying argument.",
+      "question": "What can the available abstract support, and what would you need to hear in the recording before adopting its practical or theoretical claims?",
+      "sources": [799, 1069, 1075, 758],
+      "limits": "Only wiki text was read. No recording, slide deck or linked course was watched or read. The January Flanagan page is internally inconsistent: its title says 21 January 2026 while the infobox says 18 January. Both are retained in the inventory.",
+      "compare": [{"url":"/reading/cybernetic-sources/","label":"Sayings, regulation and conversation"}]
+    },
+    {
+      "id": "differentiation",
+      "title": "How do differentiation and integration enter the conversation?",
+      "summary": "The wiki lists Benjamin Taylor’s 26 October 2024 mini-symposium, How Can We Engage Positive Dynamics of Differentiation and Integration in Developing Systems | Cybernetics | Complexity?, with a Vimeo recording. Its abstract and biography sections are empty.",
+      "question": "Use the recording to examine what differentiation and integration mean in this account and how the proposed dynamics might be recognised in practice.",
+      "sources": [849],
+      "limits": "The title, presenter, date and recording link are the evidence available here. The recording was not watched, so this guide does not invent a summary of its argument.",
+      "compare": [{"url":"/#view=item&id=resource_lib26_27069bfd21e1b3b0","label":"Existing differentiation and integration resource in the atlas"}]
+    }
+  ],
+  "source_gaps": [
+    {"page_id":250,"finding":"Benjamin Taylor’s biography is an unfinished template. It cannot establish a joining year, affiliation, qualifications or biographical claims."},
+    {"page_id":1069,"finding":"The January 2026 Flanagan recording page has conflicting dates in its title and infobox. No date is silently chosen as authoritative."},
+    {"page_id":1071,"finding":"The paper infobox says John Kinema; the citation and abstract identify John Kineman. The credited name follows the citation, with the discrepancy retained."},
+    {"page_id":725,"finding":"The group page uses tentative chair wording and has unfinished fields. It is a research lead, not a current contact directory."},
+    {"page_id":1101,"finding":"The 2026 programme’s expected results are distinct from evidence of delivery. Seven Phase 1 recordings are listed; no action-session recording is linked in the snapshot."}
+  ]
+}
