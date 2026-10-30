@@ -1,6 +1,6 @@
 .PHONY: build build-base apply-current apply-practice apply-missing-entry-reports validate serve clean
 
-build: build-base apply-current apply-practice apply-september apply-intake apply-maps apply-library apply-missing-entry-reports apply-submission-review apply-claim-lab apply-weaver apply-update-30 apply-update-31 apply-update-32 apply-update-33 apply-update-34 apply-saidtosomeone apply-update-35
+build: build-base apply-current apply-practice apply-september apply-intake apply-maps apply-library apply-missing-entry-reports apply-submission-review apply-claim-lab apply-weaver apply-update-30 apply-update-31 apply-update-32 apply-update-33 apply-update-34 apply-saidtosomeone apply-update-35 apply-cybernetic-readings
 
 # Historical validators assert historical release identifiers. Rebuild that
 # baseline, run its gates, then apply and validate the current release.
@@ -192,6 +192,7 @@ validate: build-base
 	$(MAKE) apply-update-35
 	python3 scripts/validate_public.py
 	python3 scripts/validate_update_35.py
+	$(MAKE) apply-cybernetic-readings
 
 apply-missing-entry-reports:
 	python3 scripts/apply_missing_entry_reports_27.py
@@ -269,3 +270,7 @@ apply-saidtosomeone:
 apply-update-35:
 	python3 scripts/apply_update_35.py
 	python3 scripts/build_public_knowledge.py
+
+.PHONY: apply-cybernetic-readings
+apply-cybernetic-readings:
+	python3 scripts/build_cybernetic_readings.py

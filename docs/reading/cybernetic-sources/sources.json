@@ -1,0 +1,110 @@
+{
+  "edition": "1.0",
+  "checked": "2026-10-30",
+  "sources": [
+    {
+      "id": "cybernetic_reading_hvf",
+      "title": "Heinz von Foerster: said to someone",
+      "url": "https://transduction.systems/saidtosomeone/",
+      "authors": [
+        "Heinz von Foerster",
+        "Benjamin P Taylor (curator)"
+      ],
+      "locator": "Source ledger and evidence labels beside each entry",
+      "date": "2026-10-29",
+      "summary": "The existing companion register separates published wording, reported recollections, paraphrases and uncertain attributions. Its source ledger distinguishes a text check from listening to a complete recording. One deliberate invention is explicitly identified.",
+      "question": "Before using a memorable saying, can you tell whether it is an exact quotation, a recollection or a paraphrase? Follow the entry’s source rather than treating a polished sentence as self-authenticating.",
+      "limits": "This is a curated register, not an exhaustive collection or a claim to first use. The imagined conversation and marked invention are not evidence about von Foerster.",
+      "connections": [
+        {
+          "target": "person_heinz_von_foerster",
+          "label": "Heinz von Foerster",
+          "kind": "argument",
+          "locator": "Companion page: evidence labels and source ledger",
+          "phrase": "The register distinguishes forms of attribution to von Foerster",
+          "scope": "This describes editorial handling of sources; it does not authenticate every reported saying."
+        }
+      ]
+    },
+    {
+      "id": "cybernetic_reading_ashby",
+      "title": "Ashby Says — classroom aphorisms",
+      "url": "https://rsorourke.com/ashby-says",
+      "authors": [
+        "W. Ross Ashby",
+        "Richard S O’Rourke (transcription)"
+      ],
+      "locator": "Source note; On Science; On Learning; On Intelligence",
+      "date": "1981 reprint; web transcription checked 30 October 2026",
+      "summary": "O’Rourke presents a transcription of an Ashby classroom handout, citing Roger Conant’s edited collection Mechanisms of Intelligence (1981), pages 425–427. The sayings challenge assumptions about observation, learning and context-dependent intelligence. They are prompts for inquiry, rather than proofs of Ashby’s formal results.",
+      "question": "What changes when you change the observer’s variables or the environment in which performance is judged? Use a saying to open that question, then follow the formal account of regulation.",
+      "limits": "The source note identifies a reprint and transcription; the original typescript has not been independently collated here. This guide does not reproduce the collection of aphorisms.",
+      "connections": [
+        {
+          "target": "person_w_ross_ashby",
+          "label": "W. Ross Ashby",
+          "kind": "authorship",
+          "locator": "Ashby Says: Source note, citing Conant (ed.), 1981, pp. 425–427",
+          "phrase": "The web transcription attributes the classroom handout to Ashby",
+          "scope": "Bibliographic attribution in the source, not an independent manuscript authentication."
+        }
+      ]
+    },
+    {
+      "id": "cybernetic_reading_orourke",
+      "title": "Richard S O’Rourke — thermodynamics, cybernetics and political economy",
+      "url": "https://rsorourke.com/",
+      "authors": [
+        "Richard S O’Rourke"
+      ],
+      "locator": "The foundations; The programme; A bet on Cybernetics; Research & writing",
+      "date": "Undated living research hub; checked 30 October 2026",
+      "summary": "O’Rourke sets out a sustainability research programme connecting physical flows, regulation and political economy. The homepage places thermodynamic entropy alongside information entropy and links a sequence through Lotka, Ashby and economic theory. Its research list distinguishes working drafts from published work; the AI prediction has a separate evidence trail.",
+      "question": "When moving from physical resource flows to information and regulation, which quantities are measured and which connection is being proposed? Follow the individual argument before treating the shared word entropy as an equivalence.",
+      "limits": "This is an author’s account of a developing programme, not evidence of agreement across the named fields. Publication and prediction labels belong to the author; this review does not evaluate every linked paper or the prediction.",
+      "connections": [
+        {
+          "target": "publication_syscoi_post_29183",
+          "label": "Two entropies, two cornerstones — discovery route",
+          "kind": "identity",
+          "locator": "Existing SysCoI source record: original_urls points to rsorourke.com",
+          "phrase": "The existing SysCoI discovery record points to this original research hub",
+          "scope": "A provenance route to the original author, not an additional claim that distinct entropies are equivalent."
+        }
+      ]
+    },
+    {
+      "id": "cybernetic_reading_pangaro",
+      "title": "Paul Pangaro — cybernetics, conversation and design",
+      "url": "https://www.pangaro.com/",
+      "authors": [
+        "Paul Pangaro"
+      ],
+      "locator": "Selected Presentations; Cybernetics — A Definition: Getting Started and Limits to knowing; Gordon Pask collection",
+      "date": "Living catalogue; definition records 2006 revisions and 2013 copyright; checked 30 October 2026",
+      "summary": "Pangaro’s site offers routes into cybernetics through goals, action and feedback, then conversation and design. His definition includes the observer in the description. The separate Pask collection distinguishes Pangaro’s explanations from texts by Gordon Pask and credits the Colloquy 2018 project jointly to Pangaro and TJ McLeish.",
+      "question": "Who can propose or revise the goal, and how do participants find out whether they understand one another? This is a reading question for comparing a feedback account with a conversational design practice.",
+      "limits": "This guide checks the index and the linked definition and archive descriptions, not every slide deck, paper or recording. Coauthored work keeps its credits. The reading question is an editorial comparison, not an asserted lineage.",
+      "further": [
+        {
+          "title": "Cybernetics — A Definition",
+          "url": "https://www.pangaro.com/definition-cybernetics.html"
+        },
+        {
+          "title": "Gordon Pask: texts, recordings and archive routes",
+          "url": "https://www.pangaro.com/pask-pdfs.html"
+        }
+      ],
+      "connections": [
+        {
+          "target": "concept_feedback",
+          "label": "Feedback",
+          "kind": "argument",
+          "locator": "Pangaro, Cybernetics — A Definition: Getting Started guide",
+          "phrase": "Pangaro’s introduction connects feedback with action directed towards a goal",
+          "scope": "A source-specific introductory account; it does not make all contemporary AI equivalent to cybernetics."
+        }
+      ]
+    }
+  ]
+}
