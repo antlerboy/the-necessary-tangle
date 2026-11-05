@@ -1,0 +1,277 @@
+{
+  "schema_version": "1.0",
+  "canonical_url": "https://transduction.systems/entries/person_karen_shipp/",
+  "release": "0.35",
+  "citation": "Taylor, B. P. (2026). Karen Shipp. The Necessary Tangle, release 0.35. https://transduction.systems/entries/person_karen_shipp/",
+  "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
+  "entry": {
+    "id": "person_karen_shipp",
+    "label": "Karen Shipp",
+    "entity_type": "person",
+    "description": "An educator and facilitator who developed interactive systems learning at The Open University and co-authored Systems Thinkers, connecting biographies, ideas, practice and the problem of selecting a systems canon.",
+    "aliases": [],
+    "boundary_ring": "0",
+    "inclusion_reason": "feedback_led_release_0_17",
+    "status": "accepted",
+    "source_ids": [
+      "src_springer_systems_thinkers_2ed_2020",
+      "src_oro_systems_thinkers_2020",
+      "src_oro_boundaries_disciplines_2006",
+      "src_sep_systems_thinkers_ramage_shipp"
+    ],
+    "set_tags": [
+      "systems",
+      "lineage",
+      "release_0_17",
+      "systems-history",
+      "education",
+      "open-university"
+    ],
+    "espoused_labels": [],
+    "observed_clusters": [],
+    "canonical_definition": "An educator and facilitator who developed interactive systems learning at The Open University and co-authored Systems Thinkers, connecting biographies, ideas, practice and the problem of selecting a systems canon.",
+    "valid_from": "",
+    "valid_to": "",
+    "external_ids": "{}",
+    "geographies": [],
+    "licence": "",
+    "review_status": "curator_checked_public_sources",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-19",
+    "x": -0.01,
+    "y": 0.41,
+    "canonical_id": "person_karen_shipp",
+    "public_visibility": "public",
+    "publication_level": "profile",
+    "public_stub_text": "",
+    "public_source_count": 4,
+    "no_public_link_count": 0
+  },
+  "profile": {
+    "node_id": "person_karen_shipp",
+    "summary": "Shipp brought long experience of interactive and transformative systems education into the Systems Thinkers project and its people-centred account of the field.",
+    "canonical_definition": "Shipp brought long experience of interactive and transformative systems education into the Systems Thinkers project and its people-centred account of the field.",
+    "why_it_matters": "Her role prevents the book being treated as Ramage's individual classification exercise and connects canon construction to actual teaching practice at The Open University.",
+    "key_distinctions": [
+      "co-authorship versus supporting role",
+      "education and facilitation versus abstract history",
+      "life-and-practice account versus disembodied ideas"
+    ],
+    "historical_lineage": [
+      "The Open University Systems Group",
+      "interactive systems education",
+      "facilitation",
+      "Systems Thinkers project"
+    ],
+    "logical_antecedents": [
+      "systems education",
+      "biographical inquiry",
+      "facilitation"
+    ],
+    "dependent_subsequents": [
+      "Systems Thinkers",
+      "people-centred systems history"
+    ],
+    "practice_connections": [
+      "learning design",
+      "facilitation",
+      "systems-history teaching"
+    ],
+    "common_misreadings": [
+      "Reducing Shipp to a secondary co-author repeats the visibility problem the canon review is intended to expose."
+    ],
+    "open_checks": [
+      "Locate further public records of Shipp's systems teaching and facilitation work."
+    ],
+    "source_ids": [
+      "src_springer_systems_thinkers_2ed_2020",
+      "src_oro_systems_thinkers_2020",
+      "src_oro_boundaries_disciplines_2006"
+    ],
+    "context_and_lineage": "Institutional and intellectual context: The Open University Systems Group; interactive and transformative learning; facilitation. No personal heritage is inferred.",
+    "editorial_note": "",
+    "last_researched": "2026-08-19"
+  },
+  "connections": [
+    {
+      "id": "e17_shipp_authored_systems_thinkers",
+      "source": "person_karen_shipp",
+      "target": "publication_systems_thinkers_ramage_shipp",
+      "relation_type": "authored",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.94",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_springer_systems_thinkers_2ed_2020",
+        "src_oro_systems_thinkers_2020"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Springer authors and Open University repository record",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Authorship only; it does not establish that every selection or interpretation in the book is uncontested.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-19",
+      "notes": "",
+      "plain_phrase": "co-authored",
+      "public_review_label": "source-backed statement"
+    },
+    {
+      "id": "e17_shipp_open_university",
+      "source": "person_karen_shipp",
+      "target": "organisation_the_open_university",
+      "relation_type": "associated_with",
+      "relation_family": "human",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.94",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_springer_systems_thinkers_2ed_2020"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Springer author biography",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Historical institutional association described by the publisher record.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-19",
+      "notes": "",
+      "plain_phrase": "developed systems learning at",
+      "public_review_label": "source-backed statement"
+    },
+    {
+      "id": "e24_publication_systems_thinkers_ramage_shipp_authored_by_person_karen_shipp",
+      "source": "publication_systems_thinkers_ramage_shipp",
+      "target": "person_karen_shipp",
+      "relation_type": "authored_by",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "",
+      "claim_status": "candidate",
+      "source_ids": [
+        "src_sep_systems_thinkers_ramage_shipp"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Publisher author/editor metadata",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Bibliographic credit only.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "is authored by",
+      "public_review_label": "Located source statement; independent review not recorded"
+    }
+  ],
+  "claims": [],
+  "sources": [
+    {
+      "id": "src_springer_systems_thinkers_2ed_2020",
+      "title": "Systems Thinkers, second edition",
+      "source_type": "publisher_record",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://link.springer.com/book/10.1007/978-1-4471-7475-2",
+      "date": "2020",
+      "notes": "Springer record for the 2020 second edition, its thirty biographical chapters, authorship, scope and bibliographic metadata.",
+      "creators": [
+        "Magnus Ramage",
+        "Karen Shipp"
+      ],
+      "doi": "10.1007/978-1-4471-7475-2",
+      "isbn": "978-1-4471-7475-2",
+      "publisher": "Springer London",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-19",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_oro_systems_thinkers_2020",
+      "title": "Systems Thinkers (2nd edition) — Open Research Online",
+      "source_type": "official_institutional_repository_record",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://oro.open.ac.uk/69810/",
+      "date": "2020",
+      "notes": "Open University repository record describing the book as a biographical history of systems thinking which connects lives, ideas and practice.",
+      "creators": [
+        "Magnus Ramage",
+        "Karen Shipp"
+      ],
+      "doi": "10.1007/978-1-4471-7475-2",
+      "isbn": "",
+      "publisher": "The Open University",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-19",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_oro_boundaries_disciplines_2006",
+      "title": "On boundaries and disciplines: constructing a set of key systems thinkers",
+      "source_type": "institutional_repository_article_record",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://oro.open.ac.uk/5446/",
+      "date": "2006",
+      "notes": "Open University repository record for Ramage and Shipp's article on the choices and boundary questions involved in constructing a set of key systems thinkers.",
+      "creators": [
+        "Magnus Ramage",
+        "Karen Shipp"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "The Systemist / The Open University",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-19",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_sep_systems_thinkers_ramage_shipp",
+      "title": "Systems Thinkers",
+      "source_type": "publisher_record",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://link.springer.com/book/10.1007/978-1-4471-7475-2",
+      "date": "2026-09-09",
+      "notes": "Second edition, 2020. Ramage and Shipp are credited by the publisher as authors.",
+      "creators": [
+        "Magnus Ramage",
+        "Karen Shipp"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Springer",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "source_scope_checked",
+      "last_checked": "2026-09-09",
+      "public_link_status": "public_link",
+      "connection_pass": "september_connections_2026"
+    }
+  ],
+  "evidence_locators": [],
+  "reuse_note": "Preserve source attribution, scope, and review status. Source documents and evidence excerpts are excluded."
+}

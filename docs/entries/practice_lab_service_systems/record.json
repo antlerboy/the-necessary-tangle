@@ -1,0 +1,252 @@
+{
+  "schema_version": "1.0",
+  "canonical_url": "https://transduction.systems/entries/practice_lab_service_systems/",
+  "release": "0.35",
+  "citation": "Taylor, B. P. (2026). Practice: Service systems: follow demand and distinguish activity from resolution. The Necessary Tangle, release 0.35. https://transduction.systems/entries/practice_lab_service_systems/",
+  "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
+  "entry": {
+    "id": "practice_lab_service_systems",
+    "label": "Practice: Service systems: follow demand and distinguish activity from resolution",
+    "entity_type": "publication",
+    "description": "Classify a small demand sample, trace end-to-end work, and design a prediction-led test. A bridge to systemic service improvement, not a full Vanguard, Lean or Six Sigma course. These traditions are distinct; this exercise does not validate statistical process-control competence.",
+    "aliases": [],
+    "boundary_ring": "0",
+    "inclusion_reason": "authorised_systems_methods_practice_pack",
+    "status": "candidate",
+    "source_ids": [
+      "src_practice_lab_service_systems",
+      "src_practice_external_deming_free",
+      "src_practice_external_scio_reading",
+      "src_scio_professional_development_current"
+    ],
+    "set_tags": [
+      "systems",
+      "practice",
+      "learning",
+      "apprenticeship"
+    ],
+    "espoused_labels": [],
+    "observed_clusters": [],
+    "canonical_definition": "Classify a small demand sample, trace end-to-end work, and design a prediction-led test. A bridge to systemic service improvement, not a full Vanguard, Lean or Six Sigma course. These traditions are distinct; this exercise does not validate statistical process-control competence.",
+    "valid_from": "",
+    "valid_to": "",
+    "external_ids": "{\"practice_url\": \"https://transduction.systems/systems-thinking/practice/service-systems/\"}",
+    "geographies": [],
+    "licence": "",
+    "review_status": "original_practice_material_specialist_review_not_recorded",
+    "reviewed_by": "",
+    "reviewed_at": "",
+    "x": 0.38,
+    "y": 0.34,
+    "canonical_id": "practice_lab_service_systems",
+    "public_visibility": "public",
+    "publication_level": "profile",
+    "public_stub_text": "",
+    "public_source_count": 4,
+    "no_public_link_count": 0
+  },
+  "profile": {
+    "node_id": "practice_lab_service_systems",
+    "summary": "Classify a small demand sample, trace end-to-end work, and design a prediction-led test. A bridge to systemic service improvement, not a full Vanguard, Lean or Six Sigma course. These traditions are distinct; this exercise does not validate statistical process-control competence.",
+    "canonical_definition": "Classify a small demand sample, trace end-to-end work, and design a prediction-led test. A bridge to systemic service improvement, not a full Vanguard, Lean or Six Sigma course. These traditions are distinct; this exercise does not validate statistical process-control competence.",
+    "why_it_matters": "A concrete rehearsal with a fictional case, explicit outputs and a way to inspect the result.",
+    "key_distinctions": [
+      "Mechanical correctness is distinct from judgement in an open situation.",
+      "Training-case application is distinct from competent organisational practice."
+    ],
+    "historical_lineage": [],
+    "logical_antecedents": [],
+    "dependent_subsequents": [],
+    "practice_connections": [
+      "Classify the demand using the reason for contact.",
+      "Trace value, waiting and rework end to end.",
+      "Design a PDSA test rather than a rollout."
+    ],
+    "common_misreadings": [
+      "A worked comparison is not the only acceptable answer to an open question."
+    ],
+    "open_checks": [
+      "A bridge to systemic service improvement, not a full Vanguard, Lean or Six Sigma course. These traditions are distinct; this exercise does not validate statistical process-control competence.",
+      "Compare an independent attempt before revealing the worked answer."
+    ],
+    "source_ids": [
+      "src_practice_lab_service_systems",
+      "src_practice_external_deming_free",
+      "src_practice_external_scio_reading",
+      "src_scio_professional_development_current"
+    ],
+    "context_and_lineage": "Original educational resource, 7 September 2026.",
+    "editorial_note": "Prepared with AI assistance. Publication authorised by Benjamin P Taylor. No independent specialist review or source-provider endorsement is claimed.",
+    "last_researched": "2026-09-07",
+    "title": "Practice: Service systems: follow demand and distinguish activity from resolution",
+    "profile_status": "original_practice_resource",
+    "review_status": "specialist_review_not_recorded"
+  },
+  "connections": [
+    {
+      "id": "practice_edge_b37f54c6eff044246c",
+      "source": "practice_systems_methods_pack",
+      "target": "practice_lab_service_systems",
+      "relation_type": "includes_practice_resource",
+      "relation_family": "practice",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "",
+      "claim_status": "candidate",
+      "source_ids": [
+        "src_systems_methods_practice_pack"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Named exercise and its scope statement",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Resource inventory only; completing a page is not accreditation.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "includes practice resource",
+      "public_review_label": "Editorial practice connection, not accreditation or intellectual influence"
+    },
+    {
+      "id": "practice_edge_1f2b1ee7f3cb86018f",
+      "source": "practice_lab_service_systems",
+      "target": "intervention_skill_vanguard_method",
+      "relation_type": "provides_practice_for",
+      "relation_family": "practice",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "",
+      "claim_status": "candidate",
+      "source_ids": [
+        "src_practice_lab_service_systems"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Named exercise and its scope statement",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "A bridge to systemic service improvement, not a full Vanguard, Lean or Six Sigma course. These traditions are distinct; this exercise does not validate statistical process-control competence.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "provides a practice route for",
+      "public_review_label": "Editorial practice connection, not accreditation or intellectual influence"
+    }
+  ],
+  "claims": [],
+  "sources": [
+    {
+      "id": "src_practice_lab_service_systems",
+      "title": "Service systems: follow demand and distinguish activity from resolution",
+      "source_type": "practice_resource",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://transduction.systems/systems-thinking/practice/service-systems/",
+      "date": "2026-09-07",
+      "notes": "Original fictional exercise. A bridge to systemic service improvement, not a full Vanguard, Lean or Six Sigma course. These traditions are distinct; this exercise does not validate statistical process-control competence.",
+      "creators": [
+        "The Necessary Tangle editorial practice pack"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "The Necessary Tangle",
+      "licence": "Original practice text CC BY-SA 4.0; external material retains source terms",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "original_material_and_source_boundary_recorded",
+      "last_checked": "2026-09-07",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_practice_external_deming_free",
+      "title": "Deming Institute: PDSA cycle",
+      "source_type": "public_learning_resource",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://deming.org/explore/pdsa/",
+      "date": "2026-09-07",
+      "notes": "The Institute's account of prediction, study and theory revision inspected. It distinguishes PDSA from a simple implementation check. Use: Write a prediction before a change and compare observation with it. The service and evaluation cases here give a small exercise and answers.",
+      "creators": [],
+      "doi": "",
+      "isbn": "",
+      "publisher": "deming.org",
+      "licence": "External source terms; linked, not reproduced",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "specific_access_and_content_limit_recorded",
+      "last_checked": "2026-09-07",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_practice_external_scio_reading",
+      "title": "SCiO competency framework resource guide (PDF)",
+      "source_type": "public_learning_resource",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://www.dropbox.com/scl/fi/v5vl9o1e9gtwxbqiyb2no/SCiO-CF-Resources.pdf?rlkey=a9d5ckhbsdjld7ab3sp60jaj9&dl=0",
+      "date": "2026-09-07",
+      "notes": "Public sharing confirmed; approach and theory bibliography inspected. The presence of a reference does not establish that it contains self-check exercises. Use: Further reading for each framework row, including the separate references associated with transposing theory.",
+      "creators": [],
+      "doi": "",
+      "isbn": "",
+      "publisher": "www.dropbox.com",
+      "licence": "External source terms; linked, not reproduced",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "specific_access_and_content_limit_recorded",
+      "last_checked": "2026-09-07",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_scio_professional_development_current",
+      "title": "SCiO Professional Development",
+      "source_type": "official_training_page",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://www.systemspractice.org/professional-development",
+      "date": "",
+      "notes": "Official SCiO page describing systems-practice and intervention training, delivery formats and the relationship between methods and intervention skills.",
+      "creators": [
+        "SCiO - Systems and Complexity in Organisation"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "SCiO",
+      "licence": "source_terms",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-10",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_systems_methods_practice_pack",
+      "title": "Systemic systems methods practice for systems practice (alpha)",
+      "source_type": "practice_resource",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://transduction.systems/systems-thinking/practice/",
+      "date": "2026-09-07",
+      "notes": "Alpha version. The original teaching material has not had independent specialist pedagogical review. These exercises support technical learning; they do not establish professional competence or accreditation.",
+      "creators": [
+        "Benjamin P Taylor"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "The Necessary Tangle",
+      "licence": "Original practice text CC BY-SA 4.0; external material retains source terms",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "original_material_and_source_boundary_recorded",
+      "last_checked": "2026-09-07",
+      "public_link_status": "public_link"
+    }
+  ],
+  "evidence_locators": [],
+  "reuse_note": "Preserve source attribution, scope, and review status. Source documents and evidence excerpts are excluded."
+}

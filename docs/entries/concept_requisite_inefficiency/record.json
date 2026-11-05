@@ -1,0 +1,211 @@
+{
+  "schema_version": "1.0",
+  "canonical_url": "https://transduction.systems/entries/concept_requisite_inefficiency/",
+  "release": "0.35",
+  "citation": "Taylor, B. P. (2026). Requisite inefficiency. The Necessary Tangle, release 0.35. https://transduction.systems/entries/concept_requisite_inefficiency/",
+  "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
+  "entry": {
+    "id": "concept_requisite_inefficiency",
+    "label": "Requisite inefficiency",
+    "entity_type": "concept",
+    "description": "The proposal that some slack, redundancy or apparently unused variety is necessary if a system is to retain the capacity to respond and remain viable under conditions not already anticipated.",
+    "aliases": [],
+    "boundary_ring": "0",
+    "inclusion_reason": "practitioner_expertise_coverage_release_0_12",
+    "status": "accepted",
+    "source_ids": [
+      "src_scio_requisite_inefficiency_2014"
+    ],
+    "set_tags": [
+      "systems",
+      "practice",
+      "human_lineage",
+      "release_0_12"
+    ],
+    "espoused_labels": [],
+    "observed_clusters": [],
+    "canonical_definition": "The proposal that some slack, redundancy or apparently unused variety is necessary if a system is to retain the capacity to respond and remain viable under conditions not already anticipated.",
+    "valid_from": "",
+    "valid_to": "",
+    "external_ids": "{}",
+    "geographies": [],
+    "licence": "",
+    "review_status": "curator_checked_public_sources",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-10",
+    "x": -0.24,
+    "y": 0.18,
+    "canonical_id": "concept_requisite_inefficiency",
+    "public_visibility": "public",
+    "publication_level": "profile",
+    "public_stub_text": "",
+    "public_source_count": 1,
+    "no_public_link_count": 0
+  },
+  "profile": {
+    "node_id": "concept_requisite_inefficiency",
+    "title": "Requisite inefficiency",
+    "profile_status": "curator_checked_public_sources",
+    "canonical_definition": "The proposal that some slack, redundancy or apparently unused variety is necessary if a system is to retain the capacity to respond and remain viable under conditions not already anticipated.",
+    "summary": "Requisite inefficiency names the possibility that unused capacity, redundancy, variation or slack may be regulatory resource rather than waste.",
+    "why_it_matters": "Efficiency programmes can remove the very variety needed to absorb disturbance, learn, experiment and respond. The concept forces an explicit question: inefficient relative to which purpose, boundary and timescale?",
+    "key_distinctions": [
+      "slack vs waste",
+      "short-term utilisation vs long-term viability",
+      "redundancy vs duplication without purpose",
+      "efficiency for one part vs capacity of the whole"
+    ],
+    "historical_lineage": [
+      "Ashby's requisite variety",
+      "management cybernetics",
+      "organisational resilience and slack"
+    ],
+    "logical_antecedents": [
+      "requisite variety",
+      "viability",
+      "adaptation",
+      "timescale"
+    ],
+    "dependent_subsequents": [
+      "capacity buffers",
+      "experimentation",
+      "resilient organisation"
+    ],
+    "practice_connections": [
+      "resource decisions",
+      "operational excellence",
+      "resilience",
+      "portfolio and workforce design"
+    ],
+    "espoused_lineages": [],
+    "observed_clusters": [],
+    "common_misreadings": [
+      "all inefficiency is good",
+      "buffers need no purpose",
+      "efficiency and viability are opposites"
+    ],
+    "open_checks": [
+      "seek independent applications and criticism",
+      "distinguish related concepts such as slack, redundancy and reserve variety"
+    ],
+    "source_ids": [
+      "src_scio_requisite_inefficiency_2014"
+    ],
+    "evidence_ids": [],
+    "last_researched": "2026-08-10",
+    "review_status": "curator_checked_public_sources",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-10",
+    "editorial_note": "Developed from cited public sources. The entry remains open to correction, rival accounts and stronger evidence."
+  },
+  "connections": [
+    {
+      "id": "e_12_req_ineff_coined",
+      "source": "concept_requisite_inefficiency",
+      "target": "person_ivo_velitchkov",
+      "relation_type": "coined_by",
+      "relation_family": "historical",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.88",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_scio_requisite_inefficiency_2014"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Release 0.12 public practitioner and publication sources",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "The wording is limited to the named public sources. Bibliographic inclusion and organisational association do not establish wider intellectual influence.",
+      "assertion_mode": "asserted",
+      "inference_method": "curatorial synthesis of public primary, scholarly and professional-body sources",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-10",
+      "notes": "The SCiO record presents the phrase as Ivo Velitchkov's proposal.",
+      "plain_phrase": "was coined by",
+      "public_review_label": "supported working statement"
+    },
+    {
+      "id": "e_12_req_ineff_variety",
+      "source": "concept_requisite_inefficiency",
+      "target": "concept_requisite_variety",
+      "relation_type": "explanatory_prerequisite",
+      "relation_family": "conceptual",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.88",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_scio_requisite_inefficiency_2014"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Release 0.12 public practitioner and publication sources",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "The wording is limited to the named public sources. Bibliographic inclusion and organisational association do not establish wider intellectual influence.",
+      "assertion_mode": "asserted",
+      "inference_method": "curatorial synthesis of public primary, scholarly and professional-body sources",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-10",
+      "notes": "The proposal depends on retaining sufficient variety to respond over time.",
+      "plain_phrase": "has explanatory prerequisite",
+      "public_review_label": "supported working statement"
+    },
+    {
+      "id": "e_12_req_ineff_viability",
+      "source": "concept_requisite_inefficiency",
+      "target": "concept_viability",
+      "relation_type": "constrains",
+      "relation_family": "conceptual",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.94",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_scio_requisite_inefficiency_2014"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Resource description, paragraphs beginning “Driven by market forces…” and “Both organisms and the social systems…”",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "This records Velitchkov's proposal that excess variety may be required for long-run viability; it is not presented as a generally established theorem.",
+      "assertion_mode": "asserted",
+      "inference_method": "close reading of the official talk description",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-10",
+      "notes": "The SCiO description says removing all apparent inefficiency can undermine survival and that excess variety is needed for requisite variety and long-run viability.",
+      "plain_phrase": "states an excess-variety condition on",
+      "public_review_label": "source-established practitioner proposal"
+    }
+  ],
+  "claims": [],
+  "sources": [
+    {
+      "id": "src_scio_requisite_inefficiency_2014",
+      "title": "Requisite inefficiency",
+      "source_type": "official_professional_body_talk_page",
+      "quality_tier": "B",
+      "access": "public",
+      "url": "https://www.systemspractice.org/resources/requisite-inefficiency",
+      "date": "2014-09",
+      "notes": "SCiO record of Ivo Velitchkov's proposal that some apparent inefficiency preserves excess variety needed for longer-term viability.",
+      "creators": [
+        "Ivo Velitchkov"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "SCiO",
+      "licence": "site_terms",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-10",
+      "public_link_status": "public_link"
+    }
+  ],
+  "evidence_locators": [],
+  "reuse_note": "Preserve source attribution, scope, and review status. Source documents and evidence excerpts are excluded."
+}

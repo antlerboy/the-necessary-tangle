@@ -1,0 +1,187 @@
+{
+  "schema_version": "1.0",
+  "canonical_url": "https://transduction.systems/entries/person_eric_trist/",
+  "release": "0.35",
+  "citation": "Taylor, B. P. (2026). Eric L. Trist. The Necessary Tangle, release 0.35. https://transduction.systems/entries/person_eric_trist/",
+  "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
+  "entry": {
+    "id": "person_eric_trist",
+    "label": "Eric L. Trist",
+    "entity_type": "person",
+    "description": "Eric Lansdown Trist was a central figure in the development of sociotechnical systems and organisation design. The cited chapter abstract connects his work with action research and Fred Emery; a public practice source provides a route into his account of the evolution of the sociotechnical systems idea.",
+    "aliases": [
+      "Eric L. Trist",
+      "Eric Lansdown Trist"
+    ],
+    "boundary_ring": "0",
+    "inclusion_reason": "september_connections_2026",
+    "status": "candidate",
+    "source_ids": [
+      "src_trist_palgrave_2017",
+      "src_practice_external_trist",
+      "src_reports27_issue_69"
+    ],
+    "set_tags": [
+      "sociotechnical",
+      "organisation",
+      "september_connections_2026"
+    ],
+    "espoused_labels": [],
+    "observed_clusters": [],
+    "canonical_definition": "Eric Lansdown Trist was a central figure in the development of sociotechnical systems and organisation design. The cited chapter abstract connects his work with action research and Fred Emery; a public practice source provides a route into his account of the evolution of the sociotechnical systems idea.",
+    "valid_from": "",
+    "valid_to": "",
+    "external_ids": "{}",
+    "geographies": [],
+    "licence": "",
+    "review_status": "source_scoped_report_review_complete",
+    "reviewed_by": "",
+    "reviewed_at": "",
+    "x": -0.358,
+    "y": 0.05600000000000005,
+    "canonical_id": "person_eric_trist",
+    "public_visibility": "public",
+    "publication_level": "profile",
+    "public_stub_text": "",
+    "public_source_count": 3,
+    "no_public_link_count": 0
+  },
+  "profile": {
+    "node_id": "person_eric_trist",
+    "summary": "Eric Lansdown Trist was a central figure in the development of sociotechnical systems and organisation design. The cited chapter abstract connects his work with action research and Fred Emery; a public practice source provides a route into his account of the evolution of the sociotechnical systems idea.",
+    "canonical_definition": "Eric Lansdown Trist was a central figure in the development of sociotechnical systems and organisation design. The cited chapter abstract connects his work with action research and Fred Emery; a public practice source provides a route into his account of the evolution of the sociotechnical systems idea.",
+    "why_it_matters": "Trist's work makes the design of work inseparable from the design of its technologies and social arrangements.",
+    "key_distinctions": [
+      "Sociotechnical inquiry is not a request to optimise a social subsystem and a technical subsystem separately.",
+      "Collaboration with Fred Emery does not make every later sociotechnical claim jointly authored."
+    ],
+    "historical_lineage": [
+      "Tavistock action research and the development of sociotechnical systems."
+    ],
+    "logical_antecedents": [],
+    "dependent_subsequents": [],
+    "practice_connections": [
+      "Examine the work system, technical arrangements, discretion, and coordination together."
+    ],
+    "common_misreadings": [
+      "The sources support contribution and collaboration, not the report's stronger language of proof or sole invention."
+    ],
+    "open_checks": [
+      "The full Palgrave chapter was not read in this pass; detailed Penn, York, Ackoff, and Hawk lineage claims need their own primary locators."
+    ],
+    "source_ids": [
+      "src_trist_palgrave_2017",
+      "src_practice_external_trist",
+      "src_reports27_issue_69"
+    ],
+    "context_and_lineage": "Reviewed from public report #69. The report is a research prompt; the profile retains only claims bounded by the cited records.",
+    "editorial_note": "Prepared with AI assistance from the named public records and the public report. The report review is complete; open checks are future research, not missing entry work. Independent specialist review is not recorded.",
+    "last_researched": "2026-09-20",
+    "title": "Eric L. Trist",
+    "profile_status": "source_scoped_report_review_complete",
+    "review_status": "independent_review_not_recorded",
+    "reviewed_by": "",
+    "reviewed_at": "",
+    "report_issue": 69,
+    "report_outcome": "profile_deepened; bounded contribution retained; unverified academic-lineage claims excluded"
+  },
+  "connections": [
+    {
+      "id": "e27_f408e42a2f9c8767805d",
+      "source": "person_eric_trist",
+      "target": "method_or_methodology_socio_technical_systems",
+      "relation_type": "developed_or_extended",
+      "relation_family": "historical",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "",
+      "claim_status": "candidate",
+      "source_ids": [
+        "src_trist_palgrave_2017"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Abstract: sociotechnical systems, organisation design, action research, and work with Fred Emery",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Contribution to the development of sociotechnical systems; not a sole-origin claim.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "helped develop",
+      "public_review_label": "Located source statement; independent review not recorded",
+      "connection_pass": "missing_entry_reports_20260920"
+    }
+  ],
+  "claims": [],
+  "sources": [
+    {
+      "id": "src_trist_palgrave_2017",
+      "title": "Eric Trist: An American/North American View",
+      "source_type": "chapter_abstract",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://link.springer.com/referenceworkentry/10.1007/978-3-319-49820-1_27-1",
+      "date": "2026-09-09",
+      "notes": "Abstract and bibliographic metadata inspected; full subscription chapter not reviewed. The abstract discusses sociotechnical systems, organisation design, action research and work with Fred Emery.",
+      "creators": [],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Springer / Palgrave",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "source_scope_checked",
+      "last_checked": "2026-09-09",
+      "public_link_status": "public_link",
+      "connection_pass": "september_connections_2026"
+    },
+    {
+      "id": "src_practice_external_trist",
+      "title": "Eric Trist: the evolution of socio-technical systems",
+      "source_type": "public_learning_resource",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://www.systemspractice.org/resources/evolution-socio-technical-systems-conceptual-framework-and-action-research-program",
+      "date": "2026-09-07",
+      "notes": "Public resource page and article attachment listing inspected. Historic work, not a ready-made answer key. Use: Read the primary-work-system discussion alongside the joint-design exercise. Keep technical arrangements and human work interdependent.",
+      "creators": [],
+      "doi": "",
+      "isbn": "",
+      "publisher": "www.systemspractice.org",
+      "licence": "External source terms; linked, not reproduced",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "specific_access_and_content_limit_recorded",
+      "last_checked": "2026-09-07",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_reports27_issue_69",
+      "title": "Missing-entry report #69: Eric L. Trist",
+      "source_type": "public_submission",
+      "quality_tier": "B",
+      "access": "public",
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/69",
+      "date": "2026-09-20",
+      "notes": "Public report by David Ing. The report prompted research but is not treated as evidence for its own claims.",
+      "creators": [
+        "David Ing"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "The Necessary Tangle public intake",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "report_reviewed_against_public_sources",
+      "last_checked": "2026-09-20",
+      "public_link_status": "public_link",
+      "connection_pass": "missing_entry_reports_20260920"
+    }
+  ],
+  "evidence_locators": [],
+  "reuse_note": "Preserve source attribution, scope, and review status. Source documents and evidence excerpts are excluded."
+}

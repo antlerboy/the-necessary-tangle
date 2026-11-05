@@ -1,0 +1,185 @@
+{
+  "schema_version": "1.0",
+  "canonical_url": "https://transduction.systems/entries/publication_organic_systems_framework/",
+  "release": "0.35",
+  "citation": "Taylor, B. P. (2026). The Organic Systems Framework. The Necessary Tangle, release 0.35. https://transduction.systems/entries/publication_organic_systems_framework/",
+  "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
+  "entry": {
+    "id": "publication_organic_systems_framework",
+    "label": "The Organic Systems Framework",
+    "entity_type": "publication",
+    "description": "Barry Oshry's concise case for a framework of recurring whole-system relationships and processes, including individuation, integration, differentiation and homogenisation.",
+    "aliases": [
+      "The Organic Systems Framework: A New Paradigm for Understanding and Intervening in Organizational Life"
+    ],
+    "boundary_ring": "0",
+    "inclusion_reason": "expertise_and_public_sources_release_0_13",
+    "status": "accepted",
+    "source_ids": [
+      "src_triarchy_organic_systems_framework_2019"
+    ],
+    "set_tags": [
+      "systems",
+      "human_lineage",
+      "expertise",
+      "release_0_13"
+    ],
+    "espoused_labels": [],
+    "observed_clusters": [],
+    "canonical_definition": "Barry Oshry's concise case for a framework of recurring whole-system relationships and processes, including individuation, integration, differentiation and homogenisation.",
+    "valid_from": "",
+    "valid_to": "",
+    "external_ids": "{}",
+    "geographies": [],
+    "licence": "",
+    "review_status": "curator_checked_public_sources",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-11",
+    "x": 0.09,
+    "y": -0.27,
+    "canonical_id": "publication_organic_systems_framework",
+    "public_visibility": "public",
+    "publication_level": "profile",
+    "public_stub_text": "",
+    "public_source_count": 1,
+    "no_public_link_count": 0
+  },
+  "profile": {
+    "node_id": "publication_organic_systems_framework",
+    "title": "The Organic Systems Framework",
+    "profile_status": "curator_checked_public_sources",
+    "canonical_definition": "Barry Oshry's concise case for a framework of recurring whole-system relationships and processes, including individuation, integration, differentiation and homogenisation.",
+    "summary": "The Organic Systems Framework argues for a coherent pattern language of whole-system relationships and processes in human systems.",
+    "why_it_matters": "It supplies a compact account of individuation, integration, differentiation and homogenisation and connects those processes to recurring positions, power and partnership.",
+    "key_distinctions": [
+      "whole-system process vs role behaviour",
+      "differentiation vs individuation",
+      "integration vs homogenisation"
+    ],
+    "historical_lineage": [
+      "Oshry's experiential programmes",
+      "human systems thinking",
+      "organisation development"
+    ],
+    "logical_antecedents": [
+      "whole",
+      "part",
+      "position",
+      "relationship",
+      "context"
+    ],
+    "dependent_subsequents": [
+      "research and application of OSF",
+      "system-sight practice"
+    ],
+    "practice_connections": [
+      "organisation workshops",
+      "leadership",
+      "partnership",
+      "system diagnosis"
+    ],
+    "espoused_lineages": [],
+    "observed_clusters": [],
+    "common_misreadings": [
+      "paradigm is used merely as a synonym for idea",
+      "the framework predicts individual behaviour"
+    ],
+    "open_checks": [
+      "map the full framework",
+      "add research applications",
+      "compare with other human-systems accounts"
+    ],
+    "source_ids": [
+      "src_triarchy_organic_systems_framework_2019"
+    ],
+    "evidence_ids": [],
+    "last_researched": "2026-08-11",
+    "review_status": "curator_checked_public_sources",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-11",
+    "editorial_note": "Developed from public primary, institutional and publisher sources. Open to correction, rival interpretation and stronger evidence."
+  },
+  "connections": [
+    {
+      "id": "e_13_osf_pub_method",
+      "source": "publication_organic_systems_framework",
+      "target": "method_or_methodology_organic_systems_framework",
+      "relation_type": "presents",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.88",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_triarchy_organic_systems_framework_2019"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Release 0.13 public primary, institutional and publisher sources",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "The wording is limited to the named public sources. Authorship, methodological development, conceptual dependence and practical use remain distinct claims.",
+      "assertion_mode": "asserted",
+      "inference_method": "curatorial synthesis of public primary, institutional and publisher sources",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-11",
+      "notes": "The book presents the Organic Systems Framework and its core processes.",
+      "plain_phrase": "presents",
+      "public_review_label": "supported working statement"
+    },
+    {
+      "id": "e_13_osf_pub_oshry",
+      "source": "publication_organic_systems_framework",
+      "target": "person_barry_oshry",
+      "relation_type": "authored_by",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.88",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_triarchy_organic_systems_framework_2019"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Release 0.13 public primary, institutional and publisher sources",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "The wording is limited to the named public sources. Authorship, methodological development, conceptual dependence and practical use remain distinct claims.",
+      "assertion_mode": "asserted",
+      "inference_method": "curatorial synthesis of public primary, institutional and publisher sources",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-11",
+      "notes": "The publisher identifies Barry Oshry as author.",
+      "plain_phrase": "was authored by",
+      "public_review_label": "supported working statement"
+    }
+  ],
+  "claims": [],
+  "sources": [
+    {
+      "id": "src_triarchy_organic_systems_framework_2019",
+      "title": "The Organic Systems Framework",
+      "source_type": "official_publisher_book_page",
+      "quality_tier": "A",
+      "access": "public_metadata",
+      "url": "https://www.triarchypress.net/osf.html",
+      "date": "2019",
+      "notes": "Triarchy Press describes Barry Oshry's Organic Systems Framework as a pattern language for whole-system relationships and processes, including differentiation, integration, individuation and homogenisation.",
+      "creators": [
+        "Barry Oshry"
+      ],
+      "doi": "",
+      "isbn": "978-1-911193-61-6",
+      "publisher": "Triarchy Press",
+      "licence": "publisher_terms",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-11",
+      "public_link_status": "public_link"
+    }
+  ],
+  "evidence_locators": [],
+  "reuse_note": "Preserve source attribution, scope, and review status. Source documents and evidence excerpts are excluded."
+}

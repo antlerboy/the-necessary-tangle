@@ -1,0 +1,219 @@
+{
+  "schema_version": "1.0",
+  "canonical_url": "https://transduction.systems/entries/framework_deep_transitions/",
+  "release": "0.35",
+  "citation": "Taylor, B. P. (2026). Deep Transitions. The Necessary Tangle, release 0.35. https://transduction.systems/entries/framework_deep_transitions/",
+  "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
+  "entry": {
+    "id": "framework_deep_transitions",
+    "label": "Deep Transitions",
+    "entity_type": "framework",
+    "description": "A research framework for long-term change across multiple socio-technical systems. Shared rules help explain common directions such as fossil-fuel dependence; a proposed Second Deep Transition towards sustainability and justice remains an ambition and research proposition.",
+    "aliases": [],
+    "boundary_ring": "0",
+    "inclusion_reason": "update_20261007",
+    "status": "candidate",
+    "source_ids": [
+      "src_u30_dt_founding",
+      "src_u30_dt_chapter",
+      "src_u30_dt_guide"
+    ],
+    "set_tags": [
+      "systems",
+      "release_0_30",
+      "transitions"
+    ],
+    "espoused_labels": [],
+    "observed_clusters": [],
+    "canonical_definition": "A research framework for long-term change across multiple socio-technical systems. Shared rules help explain common directions such as fossil-fuel dependence; a proposed Second Deep Transition towards sustainability and justice remains an ambition and research proposition.",
+    "valid_from": "",
+    "valid_to": "",
+    "external_ids": "{}",
+    "geographies": [],
+    "licence": "",
+    "review_status": "research_pass_needs_editor",
+    "reviewed_by": "",
+    "reviewed_at": "",
+    "x": 0.557828,
+    "y": 0.649847,
+    "canonical_id": "framework_deep_transitions",
+    "public_visibility": "public",
+    "publication_level": "profile",
+    "public_stub_text": "",
+    "public_source_count": 3,
+    "no_public_link_count": 0,
+    "connection_pass": "update_20261007"
+  },
+  "profile": {
+    "node_id": "framework_deep_transitions",
+    "summary": "A research framework for long-term change across multiple socio-technical systems. Shared rules help explain common directions such as fossil-fuel dependence; a proposed Second Deep Transition towards sustainability and justice remains an ambition and research proposition.",
+    "canonical_definition": "A research framework for long-term change across multiple socio-technical systems. Shared rules help explain common directions such as fossil-fuel dependence; a proposed Second Deep Transition towards sustainability and justice remains an ambition and research proposition.",
+    "why_it_matters": "Use the cited source to distinguish an analytical account from a proposed intervention.",
+    "key_distinctions": [
+      "source account vs editorial application",
+      "single-system change vs cross-system rules"
+    ],
+    "historical_lineage": [],
+    "logical_antecedents": [],
+    "dependent_subsequents": [],
+    "practice_connections": [
+      "Specify the rule, its enforcement and who can change it."
+    ],
+    "common_misreadings": [
+      "Treating transition levels as VSM systems or organisational ranks."
+    ],
+    "open_checks": [
+      "Independent expert review and further empirical comparison remain open."
+    ],
+    "source_ids": [
+      "src_u30_dt_founding",
+      "src_u30_dt_chapter",
+      "src_u30_dt_guide"
+    ],
+    "context_and_lineage": "",
+    "editorial_note": "Prepared with AI assistance; source-scoped first pass. Curator: Benjamin P Taylor.",
+    "last_researched": "2026-10-07",
+    "connection_pass": "update_20261007",
+    "title": "Deep Transitions",
+    "review_status": "research_pass_needs_editor",
+    "profile_status": "evidence_deepened_research_pass"
+  },
+  "connections": [
+    {
+      "id": "e30_found_dt",
+      "source": "publication_schot_kanger_deep_transitions_2018",
+      "target": "framework_deep_transitions",
+      "relation_type": "presents_account_of",
+      "relation_family": "conceptual",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "",
+      "claim_status": "candidate",
+      "source_ids": [
+        "src_u30_dt_founding"
+      ],
+      "evidence_ids": [
+        "ev_e30_found_dt"
+      ],
+      "source_locator": "Abstract and framework discussion",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "The paper proposes the Deep Transitions framework; this relation does not establish that the whole theory has been empirically confirmed.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "claim_e30_found_dt",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "presents account of",
+      "public_review_label": "Located source statement; curator review pending",
+      "connection_pass": "update_20261007"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_e30_found_dt",
+      "statement": "The paper proposes the Deep Transitions framework; this relation does not establish that the whole theory has been empirically confirmed.",
+      "subject_id": "publication_schot_kanger_deep_transitions_2018",
+      "predicate": "presents_account_of",
+      "object_id": "framework_deep_transitions",
+      "status": "candidate",
+      "supporting_source_ids": [
+        "src_u30_dt_founding"
+      ],
+      "supporting_evidence_ids": [
+        "ev_e30_found_dt"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_evidence_ids": [],
+      "notes": "Scope is limited to the identified source passage.",
+      "review_status": "research_pass_needs_editor",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "connection_pass": "update_20261007"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src_u30_dt_founding",
+      "title": "Deep transitions: Emergence, acceleration, stabilization and directionality",
+      "source_type": "public_source",
+      "quality_tier": "B",
+      "access": "public",
+      "url": "https://deeptransitions.net/wp-content/uploads/2022/11/Deep-Transitions_Emergence-acceleration-stabilization-and-directionality.pdf",
+      "date": "2018",
+      "notes": "Founding framework paper. Shared rules are distinguished from rule-sets; the proposed sustainable transition is not a predicted certainty.",
+      "creators": [
+        "Johan Schot",
+        "Laur Kanger"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Research Policy",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "source_scoped_research_pass",
+      "last_checked": "2026-10-07",
+      "public_link_status": "public_link",
+      "connection_pass": "update_20261007",
+      "source_locator": "PDF page 9: rules, meta-rules, regimes and meta-regimes"
+    },
+    {
+      "id": "src_u30_dt_chapter",
+      "title": "Deep Transitions",
+      "source_type": "public_source",
+      "quality_tier": "B",
+      "access": "public",
+      "url": "https://doi.org/10.1017/9781009437318.009",
+      "date": "2026",
+      "notes": "Open chapter: multi-system change, shared rules, criticisms and further research.",
+      "creators": [
+        "Jack Davies",
+        "Johan Schot"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Cambridge University Press",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "source_scoped_research_pass",
+      "last_checked": "2026-10-07",
+      "public_link_status": "public_link",
+      "connection_pass": "update_20261007",
+      "source_locator": "Chapter 7, sections 7.1, 7.2 and 7.3.5"
+    },
+    {
+      "id": "src_u30_dt_guide",
+      "title": "A Guide to Deep Transitions",
+      "source_type": "public_source",
+      "quality_tier": "B",
+      "access": "public",
+      "url": "https://deeptransitions.net/publication/a-guide-to-deep-transitions/",
+      "date": "2026",
+      "notes": "Project introduction and glossary; a reading starting point, not independent validation.",
+      "creators": [],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Deep Transitions",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "source_scoped_research_pass",
+      "last_checked": "2026-10-07",
+      "public_link_status": "public_link",
+      "connection_pass": "update_20261007",
+      "source_locator": "Guide introduction and linked glossary"
+    }
+  ],
+  "evidence_locators": [
+    {
+      "id": "ev_e30_found_dt",
+      "source_id": "src_u30_dt_founding",
+      "locator": "Abstract and framework discussion",
+      "review_status": "research_pass_needs_editor"
+    }
+  ],
+  "reuse_note": "Preserve source attribution, scope, and review status. Source documents and evidence excerpts are excluded."
+}

@@ -1,0 +1,182 @@
+{
+  "schema_version": "1.0",
+  "canonical_url": "https://transduction.systems/entries/publication_mini_primer_critical_systems_heuristics/",
+  "release": "0.35",
+  "citation": "Taylor, B. P. (2026). A Mini-Primer of Critical Systems Heuristics. The Necessary Tangle, release 0.35. https://transduction.systems/entries/publication_mini_primer_critical_systems_heuristics/",
+  "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
+  "entry": {
+    "id": "publication_mini_primer_critical_systems_heuristics",
+    "label": "A Mini-Primer of Critical Systems Heuristics",
+    "entity_type": "publication",
+    "description": "Werner Ulrich's maintained introduction to Critical Systems Heuristics, boundary critique and the twelve questions used to examine reference systems and claims to improvement.",
+    "aliases": [
+      "A Mini-Primer of CSH"
+    ],
+    "boundary_ring": "0",
+    "inclusion_reason": "expertise_and_public_sources_release_0_13",
+    "status": "accepted",
+    "source_ids": [
+      "src_ulrich_csh_mini_primer_2023"
+    ],
+    "set_tags": [
+      "systems",
+      "human_lineage",
+      "expertise",
+      "release_0_13"
+    ],
+    "espoused_labels": [],
+    "observed_clusters": [],
+    "canonical_definition": "Werner Ulrich's maintained introduction to Critical Systems Heuristics, boundary critique and the twelve questions used to examine reference systems and claims to improvement.",
+    "valid_from": "",
+    "valid_to": "",
+    "external_ids": "{}",
+    "geographies": [],
+    "licence": "",
+    "review_status": "curator_checked_public_sources",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-11",
+    "x": 0.12,
+    "y": 0.29,
+    "canonical_id": "publication_mini_primer_critical_systems_heuristics",
+    "public_visibility": "public",
+    "publication_level": "profile",
+    "public_stub_text": "",
+    "public_source_count": 1,
+    "no_public_link_count": 0
+  },
+  "profile": {
+    "node_id": "publication_mini_primer_critical_systems_heuristics",
+    "title": "A Mini-Primer of Critical Systems Heuristics",
+    "profile_status": "curator_checked_public_sources",
+    "canonical_definition": "Werner Ulrich's maintained introduction to Critical Systems Heuristics, boundary critique and the twelve questions used to examine reference systems and claims to improvement.",
+    "summary": "The mini-primer gives a concise primary account of CSH, its philosophical basis, boundary critique and the uses of the twelve boundary questions.",
+    "why_it_matters": "It is a public, maintained source that states what CSH is and is not, reducing reliance on second-hand summaries and method labels.",
+    "key_distinctions": [
+      "heuristic vs algorithm",
+      "reflection vs boundary critique",
+      "cooperative vs emancipatory use"
+    ],
+    "historical_lineage": [
+      "Critical Heuristics of Social Planning",
+      "CSH primers and later revisions"
+    ],
+    "logical_antecedents": [
+      "practical philosophy",
+      "systems thinking",
+      "boundary judgement"
+    ],
+    "dependent_subsequents": [
+      "boundary categories",
+      "twelve boundary questions",
+      "critical professional practice"
+    ],
+    "practice_connections": [
+      "action research",
+      "policy and programme evaluation",
+      "citizen challenge"
+    ],
+    "espoused_lineages": [],
+    "observed_clusters": [],
+    "common_misreadings": [
+      "a mini-primer replaces the full methodology",
+      "boundary questions generate one correct answer"
+    ],
+    "open_checks": [
+      "add companion primer to boundary critique",
+      "record revision history",
+      "link page-level claims"
+    ],
+    "source_ids": [
+      "src_ulrich_csh_mini_primer_2023"
+    ],
+    "evidence_ids": [],
+    "last_researched": "2026-08-11",
+    "review_status": "curator_checked_public_sources",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-11",
+    "editorial_note": "Developed from public primary, institutional and publisher sources. Open to correction, rival interpretation and stronger evidence."
+  },
+  "connections": [
+    {
+      "id": "e_13_primer_csh",
+      "source": "publication_mini_primer_critical_systems_heuristics",
+      "target": "method_or_methodology_critical_systems_heuristics_csh",
+      "relation_type": "explains",
+      "relation_family": "conceptual",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.88",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_ulrich_csh_mini_primer_2023"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Release 0.13 public primary, institutional and publisher sources",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "The wording is limited to the named public sources. Authorship, methodological development, conceptual dependence and practical use remain distinct claims.",
+      "assertion_mode": "asserted",
+      "inference_method": "curatorial synthesis of public primary, institutional and publisher sources",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-11",
+      "notes": "The mini-primer is a maintained primary introduction to CSH.",
+      "plain_phrase": "explains",
+      "public_review_label": "supported working statement"
+    },
+    {
+      "id": "e_13_primer_ulrich",
+      "source": "publication_mini_primer_critical_systems_heuristics",
+      "target": "person_werner_ulrich",
+      "relation_type": "authored_by",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.88",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_ulrich_csh_mini_primer_2023"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Release 0.13 public primary, institutional and publisher sources",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "The wording is limited to the named public sources. Authorship, methodological development, conceptual dependence and practical use remain distinct claims.",
+      "assertion_mode": "asserted",
+      "inference_method": "curatorial synthesis of public primary, institutional and publisher sources",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-11",
+      "notes": "The primary author page identifies Werner Ulrich and provides the suggested citation.",
+      "plain_phrase": "was authored by",
+      "public_review_label": "supported working statement"
+    }
+  ],
+  "claims": [],
+  "sources": [
+    {
+      "id": "src_ulrich_csh_mini_primer_2023",
+      "title": "A Mini-Primer of Critical Systems Heuristics",
+      "source_type": "primary_author_method_page",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://wulrich.com/csh.html",
+      "date": "2005; updated 2023-05-20",
+      "notes": "Werner Ulrich's maintained primary account defines Critical Systems Heuristics as reflective practice centred on systematic boundary critique and twelve critical boundary questions.",
+      "creators": [
+        "Werner Ulrich"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Werner Ulrich",
+      "licence": "noncommercial_distribution_and_citation_with_attribution",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-11",
+      "public_link_status": "public_link"
+    }
+  ],
+  "evidence_locators": [],
+  "reuse_note": "Preserve source attribution, scope, and review status. Source documents and evidence excerpts are excluded."
+}

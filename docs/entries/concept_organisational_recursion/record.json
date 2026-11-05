@@ -1,0 +1,606 @@
+{
+  "schema_version": "1.0",
+  "canonical_url": "https://transduction.systems/entries/concept_organisational_recursion/",
+  "release": "0.35",
+  "citation": "Taylor, B. P. (2026). Organisational recursion. The Necessary Tangle, release 0.35. https://transduction.systems/entries/concept_organisational_recursion/",
+  "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
+  "entry": {
+    "id": "concept_organisational_recursion",
+    "label": "Organisational recursion",
+    "entity_type": "concept",
+    "description": "A domain-specific use of recursion in which operational units may themselves be treated as viable systems with corresponding requirements at another level. Visual nesting alone is not enough.",
+    "aliases": [
+      "organizational recursion"
+    ],
+    "boundary_ring": "0",
+    "inclusion_reason": "evidence_deepening_pilot",
+    "status": "provisional",
+    "source_ids": [
+      "src_beer_diagnosing_system_1985",
+      "src_metaphorum_vsm_2026"
+    ],
+    "set_tags": [
+      "systems",
+      "cybernetics",
+      "recursion_pilot",
+      "organisation",
+      "core_cluster"
+    ],
+    "espoused_labels": [],
+    "observed_clusters": [],
+    "canonical_definition": "A domain-specific use of recursion in which an organisational system contains operational units that may themselves be treated as systems with structurally corresponding viability requirements at another level.",
+    "valid_from": "",
+    "valid_to": "",
+    "external_ids": "{}",
+    "geographies": [],
+    "licence": "",
+    "review_status": "research_pass_needs_editor",
+    "reviewed_by": "",
+    "reviewed_at": "",
+    "x": -0.298894,
+    "y": 0.15927,
+    "canonical_id": "concept_organisational_recursion",
+    "public_visibility": "public",
+    "publication_level": "profile",
+    "public_stub_text": "",
+    "public_source_count": 2,
+    "no_public_link_count": 0
+  },
+  "profile": {
+    "node_id": "concept_organisational_recursion",
+    "title": "Organisational recursion",
+    "profile_status": "evidence_deepened_research_pass",
+    "canonical_definition": "A domain-specific use of recursion in which an organisational system contains operational units that may themselves be treated as systems with structurally corresponding viability requirements at another level.",
+    "summary": "In the VSM tradition, a viable operational unit may itself contain operations and meta-systemic functions. The same broad viability requirements recur, while purpose, environment, scale and implementation differ at each level.",
+    "why_it_matters": "Organisations often centralise decisions that require local variety or mistake reporting lines for system levels. Recursion helps locate the system-in-focus and test whether each operational unit has sufficient autonomy and regulatory support.",
+    "key_distinctions": [
+      "recursive viability vs repeated organisation chart",
+      "system-in-focus vs fixed hierarchy level",
+      "structural correspondence vs identical implementation",
+      "autonomy vs independence",
+      "recursion vs decomposition"
+    ],
+    "historical_lineage": [
+      "Stafford Beer developed recursive viability within management cybernetics",
+      "Diagnosing the System for Organizations made the model operational",
+      "later VSM practice developed recursive mapping techniques"
+    ],
+    "logical_antecedents": [
+      "recursion",
+      "viability",
+      "operational autonomy",
+      "system-environment distinction",
+      "meta-systemic regulation"
+    ],
+    "dependent_subsequents": [
+      "recursive VSM diagnosis",
+      "multi-level governance",
+      "autonomy-cohesion design",
+      "escalation and exception principles"
+    ],
+    "practice_connections": [
+      "choose the system-in-focus before mapping",
+      "test whether operational units are genuinely viable or merely departments",
+      "map environments at each level",
+      "avoid forcing one diagram onto every scale"
+    ],
+    "espoused_lineages": [
+      "management cybernetics",
+      "Viable System Model",
+      "organisation design"
+    ],
+    "observed_clusters": [],
+    "common_misreadings": [
+      "every hierarchy is recursive",
+      "recursion means the same five departments at every level",
+      "autonomy means no coordination",
+      "one VSM diagram represents the whole organisation once and for all"
+    ],
+    "open_checks": [
+      "exact Beer primary passages",
+      "comparative practice evidence",
+      "limits and critiques of recursive mapping"
+    ],
+    "source_ids": [
+      "src_beer_diagnosing_system_1985",
+      "src_metaphorum_vsm_2026"
+    ],
+    "evidence_ids": [
+      "ev_metaphorum_vsm_bases"
+    ],
+    "last_researched": "2026-08-09",
+    "review_status": "research_pass_needs_editor",
+    "editorial_note": "Readable orientation and evidence-backed first pass. Not accepted scholarly consensus until named review is recorded."
+  },
+  "connections": [
+    {
+      "id": "e16_grammar_crosswalk_060",
+      "source": "concept_organisational_recursion",
+      "target": "law_or_principle_power_structuration_theorem",
+      "relation_type": "explanatory_prerequisite",
+      "relation_family": "conceptual",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.76",
+      "claim_status": "provisional",
+      "source_ids": [
+        "src_grammar_presentation_2022",
+        "src_grammar_2ed_2025",
+        "src_salah_grammar_part2_2022"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Crosswalk from the maintained law description and cited Grammar sources to the target entry's maintained definition",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "This is an interpretive conceptual crosswalk. It does not assert direct historical influence, formal equivalence or universal validity. The wording should be challenged or strengthened with page-level evidence.",
+      "assertion_mode": "interpreted",
+      "inference_method": "curator-requested semantic crosswalk of public descriptions",
+      "claim_id": "",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "supplies the levels across which",
+      "public_review_label": "provisional conceptual crosswalk"
+    },
+    {
+      "id": "e16_grammar_crosswalk_121",
+      "source": "law_or_principle_root_structuring_theorem",
+      "target": "concept_organisational_recursion",
+      "relation_type": "explains",
+      "relation_family": "conceptual",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.76",
+      "claim_status": "provisional",
+      "source_ids": [
+        "src_grammar_presentation_2022",
+        "src_grammar_2ed_2025",
+        "src_salah_grammar_part3_2022"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Crosswalk from the maintained law description and cited Grammar sources to the target entry's maintained definition",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "This is an interpretive conceptual crosswalk. It does not assert direct historical influence, formal equivalence or universal validity. The wording should be challenged or strengthened with page-level evidence.",
+      "assertion_mode": "interpreted",
+      "inference_method": "curator-requested semantic crosswalk of public descriptions",
+      "claim_id": "",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "offers a grouping heuristic for",
+      "public_review_label": "provisional conceptual crosswalk"
+    },
+    {
+      "id": "e16_grammar_crosswalk_129",
+      "source": "concept_organisational_recursion",
+      "target": "law_or_principle_structural_viability_theorem",
+      "relation_type": "explanatory_prerequisite",
+      "relation_family": "conceptual",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.76",
+      "claim_status": "provisional",
+      "source_ids": [
+        "src_grammar_presentation_2022",
+        "src_grammar_2ed_2025",
+        "src_salah_grammar_part3_2022"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Crosswalk from the maintained law description and cited Grammar sources to the target entry's maintained definition",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "This is an interpretive conceptual crosswalk. It does not assert direct historical influence, formal equivalence or universal validity. The wording should be challenged or strengthened with page-level evidence.",
+      "assertion_mode": "interpreted",
+      "inference_method": "curator-requested semantic crosswalk of public descriptions",
+      "claim_id": "",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "supplies the levels compared by",
+      "public_review_label": "provisional conceptual crosswalk"
+    },
+    {
+      "id": "e16_grammar_crosswalk_136",
+      "source": "concept_organisational_recursion",
+      "target": "law_or_principle_steady_state_principle",
+      "relation_type": "explanatory_prerequisite",
+      "relation_family": "conceptual",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.76",
+      "claim_status": "provisional",
+      "source_ids": [
+        "src_grammar_presentation_2022",
+        "src_grammar_2ed_2025",
+        "src_salah_grammar_part3_2022"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Crosswalk from the maintained law description and cited Grammar sources to the target entry's maintained definition",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "This is an interpretive conceptual crosswalk. It does not assert direct historical influence, formal equivalence or universal validity. The wording should be challenged or strengthened with page-level evidence.",
+      "assertion_mode": "interpreted",
+      "inference_method": "curator-requested semantic crosswalk of public descriptions",
+      "claim_id": "",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "supplies the whole-and-part levels compared by",
+      "public_review_label": "provisional conceptual crosswalk"
+    },
+    {
+      "id": "e16_grammar_crosswalk_146",
+      "source": "law_or_principle_fractal_principle",
+      "target": "concept_organisational_recursion",
+      "relation_type": "explains",
+      "relation_family": "conceptual",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.76",
+      "claim_status": "provisional",
+      "source_ids": [
+        "src_grammar_presentation_2022",
+        "src_grammar_2ed_2025",
+        "src_salah_grammar_part3_2022"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Crosswalk from the maintained law description and cited Grammar sources to the target entry's maintained definition",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "This is an interpretive conceptual crosswalk. It does not assert direct historical influence, formal equivalence or universal validity. The wording should be challenged or strengthened with page-level evidence.",
+      "assertion_mode": "interpreted",
+      "inference_method": "curator-requested semantic crosswalk of public descriptions",
+      "claim_id": "",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "describes recurring form across levels of",
+      "public_review_label": "provisional conceptual crosswalk"
+    },
+    {
+      "id": "e_0348",
+      "source": "concept_organisational_recursion",
+      "target": "concept_recursion",
+      "relation_type": "specialises",
+      "relation_family": "conceptual",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.68",
+      "claim_status": "provisional",
+      "source_ids": [
+        "src_beer_diagnosing_system_1985",
+        "src_metaphorum_vsm_2026"
+      ],
+      "evidence_ids": [
+        "ev_metaphorum_vsm_bases"
+      ],
+      "source_locator": "Metaphorum theoretical-bases paragraph; primary Beer pages pending",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "Domain-specific extension; not yet promoted to corroborated.",
+      "plain_phrase": "is a more specific form of",
+      "public_review_label": "provisional"
+    },
+    {
+      "id": "e_0349",
+      "source": "method_or_methodology_viable_system_model_vsm",
+      "target": "concept_organisational_recursion",
+      "relation_type": "uses",
+      "relation_family": "practice",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "",
+      "claim_status": "candidate",
+      "source_ids": [
+        "src_u35_beer_vsm_1989"
+      ],
+      "evidence_ids": [
+        "ev35_edge_e_0349_1"
+      ],
+      "source_locator": "PDF pp. 10–11; Appendix 2, p. 16, recursive system theorem (citing The Heart of Enterprise, p. 118)",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "The VSM embeds viable systems within viable systems; this is functional recursion in Beer's model, not an inference from repeated box shapes.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "claim35_e_0349",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "Earlier wording and provenance are retained in this release's original-record ledger. This statement uses the sources and scope shown here.",
+      "plain_phrase": "uses repeated viable organisation across embedded levels",
+      "public_review_label": "Primary-source exposition; editorial acceptance open",
+      "connection_pass": "depth_20261029",
+      "previous_source_ids": "[\"src_beer_diagnosing_system_1985\", \"src_metaphorum_vsm_2026\"]",
+      "previous_evidence_ids": "[\"ev_metaphorum_vsm_bases\"]"
+    },
+    {
+      "id": "e16_relational_crosswalk_050",
+      "source": "intervention_skill_fractal_enterprise_model_and_capabilities",
+      "target": "concept_organisational_recursion",
+      "relation_type": "applies",
+      "relation_family": "practice",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.72",
+      "claim_status": "provisional",
+      "source_ids": [
+        "src_scio_cf_resources_2022",
+        "src_scio_accreditation_current",
+        "src_beer_diagnosing_system_1985",
+        "src_metaphorum_vsm_2026"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Interpretive comparison of the two maintained public descriptions and their cited source records",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "This is a provisional semantic or practice crosswalk. It does not establish historical influence, equivalence, efficacy or universal applicability. Item-level source review and curator acceptance are still required.",
+      "assertion_mode": "interpreted",
+      "inference_method": "curator-requested relational crosswalk of maintained public descriptions",
+      "claim_id": "",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "examines capability across levels of",
+      "public_review_label": "provisional relational crosswalk"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_vsm_recursive_basis",
+      "statement": "The VSM is publicly described by Metaphorum as drawing on the mathematics of recursive systems; the precise organisational-recursion formulation still requires primary Beer page locators.",
+      "subject_id": "method_or_methodology_viable_system_model_vsm",
+      "predicate": "uses",
+      "object_id": "concept_organisational_recursion",
+      "status": "provisional",
+      "supporting_source_ids": [
+        "src_metaphorum_vsm_2026",
+        "src_beer_diagnosing_system_1985"
+      ],
+      "supporting_evidence_ids": [
+        "ev_metaphorum_vsm_bases"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_evidence_ids": [],
+      "notes": "Do not promote until primary-book text is located.",
+      "review_status": "research_pass_needs_editor",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    {
+      "id": "claim35_e_0349",
+      "statement": "The VSM embeds viable systems within viable systems; this is functional recursion in Beer's model, not an inference from repeated box shapes.",
+      "subject_id": "method_or_methodology_viable_system_model_vsm",
+      "predicate": "uses",
+      "object_id": "concept_organisational_recursion",
+      "status": "candidate",
+      "supporting_source_ids": [
+        "src_u35_beer_vsm_1989"
+      ],
+      "supporting_evidence_ids": [
+        "ev35_edge_e_0349_1"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_evidence_ids": [],
+      "notes": "Primary-source exposition; editorial acceptance open",
+      "review_status": "research_pass_needs_editor",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "connection_pass": "depth_20261029"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src_beer_diagnosing_system_1985",
+      "title": "Diagnosing the System for Organizations",
+      "source_type": "primary_book",
+      "quality_tier": "A",
+      "access": "public_metadata",
+      "url": "https://www.wiley-vch.de/en/areas-interest/finance-economics-law/diagnosing-the-system-for-organizations-978-0-471-95136-0",
+      "date": "1985-01-01",
+      "notes": "Stafford Beer's guide to diagnosing organisations with the Viable System Model. The exact primary-book pages for the recursive-system theorem remain to be located before the organisational-recursion relation is promoted.",
+      "creators": [
+        "Stafford Beer"
+      ],
+      "doi": "",
+      "isbn": "9780471951360",
+      "publisher": "Wiley",
+      "licence": "publisher_terms",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "research_pass_needs_editor",
+      "last_checked": "2026-08-09",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_metaphorum_vsm_2026",
+      "title": "Viable System Model - The VSM in 1000 words",
+      "source_type": "professional_community_explainer",
+      "quality_tier": "C",
+      "access": "public",
+      "url": "https://metaphorum.org/staffords-work/viable-system-model",
+      "date": "2026-08-09",
+      "notes": "Metaphorum explainer identifying Ashby's requisite variety, Wiener's cybernetics and the mathematics of recursive systems among the VSM's theoretical bases. Used as a public bridge source pending exact primary-book locators.",
+      "creators": [
+        "Metaphorum"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Metaphorum",
+      "licence": "site_terms",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "research_pass_needs_editor",
+      "last_checked": "2026-08-09",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_grammar_presentation_2022",
+      "title": "The Grammar of Systems - SCiO presentation",
+      "source_type": "presentation",
+      "quality_tier": "C",
+      "access": "public",
+      "url": "https://www.systemspractice.org/resources/grammar-systems",
+      "date": "2022-03-21",
+      "notes": "Lists 33 systems laws and principles and describes nine patterns of thinking.",
+      "creators": [
+        "Patrick Hoverstadt"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "SCiO",
+      "licence": "site_terms",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-10",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_grammar_2ed_2025",
+      "title": "The Grammar of Systems II: From Order to Chaos and Back Again, 2nd edition",
+      "source_type": "book",
+      "quality_tier": "B",
+      "access": "public_metadata",
+      "url": "https://www.systemspractice.org/resources/grammar-systems-ii-order-chaos-back-again-2nd-ed",
+      "date": "2025-08-01",
+      "notes": "Current second-edition metadata. The book presents nine systems-thinking patterns and 33 systems laws and principles.",
+      "creators": [
+        "Patrick Hoverstadt"
+      ],
+      "doi": "",
+      "isbn": "979-8298960878",
+      "publisher": "SCiO",
+      "licence": "publisher_terms",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-10",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_salah_grammar_part2_2022",
+      "title": "Cybersecurity Lessons from The Grammar of Systems, part 2",
+      "source_type": "public_secondary_summary",
+      "quality_tier": "C",
+      "access": "public",
+      "url": "https://www.linkedin.com/pulse/cybersecurity-lessons-from-grammar-systems-order-chaos-osama-salah-1f",
+      "date": "2022-05-23",
+      "notes": "Public secondary summary of Grammar of Systems items 12–22. Used as an accessible orientation aid; the book remains the controlling source.",
+      "creators": [
+        "Osama Salah"
+      ],
+      "publisher": "LinkedIn",
+      "licence": "publisher_terms",
+      "review_status": "checked",
+      "last_checked": "2026-08-09",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_salah_grammar_part3_2022",
+      "title": "Cybersecurity Lessons from The Grammar of Systems, part 3",
+      "source_type": "public_secondary_summary",
+      "quality_tier": "C",
+      "access": "public",
+      "url": "https://www.linkedin.com/pulse/cybersecurity-lessons-from-grammar-systems-order-chaos-osama-salah-2f",
+      "date": "2022-06-01",
+      "notes": "Public secondary summary of Grammar of Systems items 23–33. Used as an accessible orientation aid; the book remains the controlling source.",
+      "creators": [
+        "Osama Salah"
+      ],
+      "publisher": "LinkedIn",
+      "licence": "publisher_terms",
+      "review_status": "checked",
+      "last_checked": "2026-08-09",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_u35_beer_vsm_1989",
+      "title": "The Viable System Model: its provenance, development, methodology and pathology",
+      "source_type": "primary_text",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://kybernetik.ch/dwn/Viable_System_Model.pdf",
+      "date": "1989",
+      "notes": "Primary text opened and inspected. The cover says 1989; Appendix 2 explicitly gives page references to The Heart of Enterprise (1979). Do not silently identify this edition with the 1984 JORS paper. It is Beer's own methodological and historical account, not independent effectiveness evidence. Copyright 2002 Cwarel Isaf Institute.",
+      "creators": [
+        "Stafford Beer"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Cwarel Isaf Institute, electronic edition 2002; cover dates the text 1989",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "passage_checked_research_pass",
+      "last_checked": "2026-10-29",
+      "public_link_status": "public_link",
+      "connection_pass": "depth_20261029",
+      "source_locator": "Provenance, PDF pp. 3–4; On mapping and measuring complexity, pp. 6–8; The Viable System Model, pp. 10–11; Appendix 2, p. 16",
+      "access_note": "Do not silently identify this edition with the 1984 JORS paper. It is Beer's own methodological and historical account, not independent effectiveness evidence. Copyright 2002 Cwarel Isaf Institute."
+    },
+    {
+      "id": "src_scio_cf_resources_2022",
+      "title": "SCiO CF Resources v9 draft",
+      "source_type": "professional_framework_resource_guide",
+      "quality_tier": "C",
+      "access": "no_public_link",
+      "url": "",
+      "date": "2022-09-15",
+      "notes": "SCiO internal competency-resource draft; no public link. Public SCiO accreditation pages are linked separately where possible.",
+      "creators": [
+        "SCiO"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "",
+      "licence": "",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "pass4_legacy_internal_register_audit",
+      "last_checked": "2026-08-14",
+      "public_link_status": "no_public_link"
+    },
+    {
+      "id": "src_scio_accreditation_current",
+      "title": "SCiO Professional Accreditation and Competency Framework",
+      "source_type": "professional_body_page",
+      "quality_tier": "C",
+      "access": "public",
+      "url": "https://www.systemspractice.org/professional-accreditation",
+      "date": "2026-08-09",
+      "notes": "Current framework fields and assessment process.",
+      "creators": [],
+      "doi": "",
+      "isbn": "",
+      "publisher": "",
+      "licence": "",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-09",
+      "public_link_status": "public_link"
+    }
+  ],
+  "evidence_locators": [
+    {
+      "id": "ev_metaphorum_vsm_bases",
+      "source_id": "src_metaphorum_vsm_2026",
+      "locator": "The VSM in 1000 words, paragraphs 2-3",
+      "review_status": "research_pass_needs_editor"
+    },
+    {
+      "id": "ev35_edge_e_0349_1",
+      "source_id": "src_u35_beer_vsm_1989",
+      "locator": "PDF pp. 10–11; Appendix 2, p. 16, recursive system theorem (citing The Heart of Enterprise, p. 118)",
+      "review_status": "research_pass_needs_editor"
+    }
+  ],
+  "reuse_note": "Preserve source attribution, scope, and review status. Source documents and evidence excerpts are excluded."
+}

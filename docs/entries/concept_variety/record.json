@@ -1,0 +1,753 @@
+{
+  "schema_version": "1.0",
+  "canonical_url": "https://transduction.systems/entries/concept_variety/",
+  "release": "0.35",
+  "citation": "Taylor, B. P. (2026). Variety. The Necessary Tangle, release 0.35. https://transduction.systems/entries/concept_variety/",
+  "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
+  "entry": {
+    "id": "concept_variety",
+    "label": "Variety",
+    "entity_type": "concept",
+    "description": "The number of distinguishable possibilities in a specified set. Variety depends on which distinctions are available to an observer for a purpose; it is not a synonym for vague complexity.",
+    "aliases": [],
+    "boundary_ring": "0",
+    "inclusion_reason": "direct_core_contribution",
+    "status": "accepted",
+    "source_ids": [
+      "src_ashby_intro_cybernetics_1956"
+    ],
+    "set_tags": [
+      "systems",
+      "cybernetics",
+      "requisite_variety_pilot",
+      "core_cluster"
+    ],
+    "espoused_labels": [],
+    "observed_clusters": [],
+    "canonical_definition": "The number of distinguishable elements or possible states in a specified set, sometimes expressed logarithmically; the distinctions and observer must be stated.",
+    "valid_from": "",
+    "valid_to": "",
+    "external_ids": "{}",
+    "geographies": [],
+    "licence": "",
+    "review_status": "research_pass_needs_editor",
+    "reviewed_by": "",
+    "reviewed_at": "",
+    "x": -0.230264,
+    "y": -0.07818,
+    "canonical_id": "concept_variety",
+    "public_visibility": "public",
+    "publication_level": "profile",
+    "public_stub_text": "",
+    "public_source_count": 1,
+    "no_public_link_count": 0
+  },
+  "profile": {
+    "node_id": "concept_variety",
+    "title": "Variety",
+    "profile_status": "evidence_deepened_research_pass",
+    "canonical_definition": "The number of distinguishable elements or possible states in a specified set, sometimes expressed logarithmically; the distinctions and observer must be stated.",
+    "summary": "Variety counts distinguishable possibilities. A system may have many physical states but little usable variety if the observer cannot distinguish them or the regulator cannot select among effective responses.",
+    "why_it_matters": "Variety turns vague talk about complexity into a question about differences that matter for regulation. It also makes the observer visible: what counts as a different state depends on purpose, sensing and classification.",
+    "key_distinctions": [
+      "physical states vs distinguishable states",
+      "nominal options vs usable responses",
+      "variety vs diversity as a value",
+      "variety vs semantic richness",
+      "count vs logarithmic measure"
+    ],
+    "historical_lineage": [
+      "Ashby developed variety as a central cybernetic measure",
+      "information theory provided related logarithmic tools",
+      "management cybernetics applied attenuation and amplification of variety"
+    ],
+    "logical_antecedents": [
+      "a specified set",
+      "criteria of distinction",
+      "an observer or measuring apparatus",
+      "a purpose or regulatory question"
+    ],
+    "dependent_subsequents": [
+      "law of requisite variety",
+      "variety engineering",
+      "attenuation and amplification",
+      "regulatory capacity analysis"
+    ],
+    "practice_connections": [
+      "state whose distinctions count",
+      "separate the variety seen by citizens, frontline workers and management",
+      "ask which options can actually change outcomes",
+      "do not add reporting variety that no one can absorb"
+    ],
+    "espoused_lineages": [
+      "cybernetics",
+      "information theory",
+      "management cybernetics"
+    ],
+    "observed_clusters": [],
+    "common_misreadings": [
+      "variety is objective and observer-free",
+      "more variety is always better",
+      "variety means diversity or complexity in general",
+      "every available option is usable"
+    ],
+    "open_checks": [
+      "formal relation to Shannon entropy",
+      "later variety engineering methods"
+    ],
+    "source_ids": [
+      "src_ashby_intro_cybernetics_1956",
+      "src_shannon_communication_1948"
+    ],
+    "evidence_ids": [
+      "ev_ashby_variety_definition",
+      "ev_shannon_information_theory"
+    ],
+    "last_researched": "2026-08-09",
+    "review_status": "research_pass_needs_editor",
+    "editorial_note": "Readable orientation and evidence-backed first pass. Not accepted scholarly consensus until named review is recorded."
+  },
+  "connections": [
+    {
+      "id": "e16_grammar_crosswalk_022",
+      "source": "concept_variety",
+      "target": "law_or_principle_law_of_requisite_variety",
+      "relation_type": "explanatory_prerequisite",
+      "relation_family": "conceptual",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.76",
+      "claim_status": "provisional",
+      "source_ids": [
+        "src_grammar_presentation_2022",
+        "src_grammar_2ed_2025",
+        "src_ashby_intro_cybernetics_1956",
+        "src_ashby_archive_biography",
+        "src_salah_grammar_part1_2022"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Crosswalk from the maintained law description and cited Grammar sources to the target entry's maintained definition",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "This is an interpretive conceptual crosswalk. It does not assert direct historical influence, formal equivalence or universal validity. The wording should be challenged or strengthened with page-level evidence.",
+      "assertion_mode": "interpreted",
+      "inference_method": "curator-requested semantic crosswalk of public descriptions",
+      "claim_id": "",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "is an explanatory prerequisite for",
+      "public_review_label": "provisional conceptual crosswalk"
+    },
+    {
+      "id": "e16_grammar_crosswalk_101",
+      "source": "concept_variety",
+      "target": "law_or_principle_second_black_box_principle",
+      "relation_type": "explanatory_prerequisite",
+      "relation_family": "conceptual",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.76",
+      "claim_status": "provisional",
+      "source_ids": [
+        "src_grammar_presentation_2022",
+        "src_grammar_2ed_2025",
+        "src_salah_grammar_part2_2022"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Crosswalk from the maintained law description and cited Grammar sources to the target entry's maintained definition",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "This is an interpretive conceptual crosswalk. It does not assert direct historical influence, formal equivalence or universal validity. The wording should be challenged or strengthened with page-level evidence.",
+      "assertion_mode": "interpreted",
+      "inference_method": "curator-requested semantic crosswalk of public descriptions",
+      "claim_id": "",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "is an explanatory prerequisite for",
+      "public_review_label": "provisional conceptual crosswalk"
+    },
+    {
+      "id": "e_0327",
+      "source": "concept_variety",
+      "target": "concept_requisite_variety",
+      "relation_type": "definitional_prerequisite",
+      "relation_family": "conceptual",
+      "directed": "true",
+      "dependency_kind": "definitional",
+      "confidence": "0.98",
+      "claim_status": "corroborated",
+      "source_ids": [
+        "src_ashby_intro_cybernetics_1956"
+      ],
+      "evidence_ids": [
+        "ev_ashby_variety_definition",
+        "ev_ashby_requisite_variety"
+      ],
+      "source_locator": "chapters 7–11",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "claim_variety_prerequisite",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "definitional prerequisite",
+      "public_review_label": "supported"
+    },
+    {
+      "id": "e_v03_amplification_variety",
+      "source": "concept_variety_amplification",
+      "target": "concept_variety",
+      "relation_type": "specialises",
+      "relation_family": "conceptual",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.77",
+      "claim_status": "provisional",
+      "source_ids": [
+        "src_ashby_intro_cybernetics_1956",
+        "src_taylor_vsm_lecture_2025"
+      ],
+      "evidence_ids": [
+        "ev_ashby_requisite_variety",
+        "ev_taylor_vsm_viability"
+      ],
+      "source_locator": "Ashby 1956 variety chapters; VSM lecture",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "",
+      "assertion_mode": "asserted",
+      "inference_method": "editorial synthesis from cited evidence",
+      "claim_id": "",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "is a more specific form of",
+      "public_review_label": "provisional"
+    },
+    {
+      "id": "e_v03_attenuation_variety",
+      "source": "concept_variety_attenuation",
+      "target": "concept_variety",
+      "relation_type": "specialises",
+      "relation_family": "conceptual",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.77",
+      "claim_status": "provisional",
+      "source_ids": [
+        "src_ashby_intro_cybernetics_1956",
+        "src_taylor_vsm_lecture_2025"
+      ],
+      "evidence_ids": [
+        "ev_ashby_requisite_variety",
+        "ev_taylor_vsm_viability"
+      ],
+      "source_locator": "Ashby 1956 variety chapters; VSM lecture",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "",
+      "assertion_mode": "asserted",
+      "inference_method": "editorial synthesis from cited evidence",
+      "claim_id": "",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "is a more specific form of",
+      "public_review_label": "provisional"
+    },
+    {
+      "id": "e16_source_crosswalk_011",
+      "source": "method_or_methodology_viable_system_model_vsm",
+      "target": "concept_variety",
+      "relation_type": "uses",
+      "relation_family": "practice",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.90",
+      "claim_status": "provisional",
+      "source_ids": [
+        "src_taylor_vsm_simplification_2023"
+      ],
+      "evidence_ids": [],
+      "source_locator": "slide 2",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "A deliberate teaching simplification should not be mistaken for the full formal Viable System Model.",
+      "assertion_mode": "asserted",
+      "inference_method": "direct reading of supplied author material",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-14",
+      "notes": "Slide 2 asks whether organisational capacity, capability and connectedness provide enough response variety.",
+      "plain_phrase": "examines capacity to respond through",
+      "public_review_label": "source-backed author synthesis; no public link"
+    },
+    {
+      "id": "e16_relational_crosswalk_173",
+      "source": "method_or_methodology_mosaic_transformation",
+      "target": "concept_variety",
+      "relation_type": "uses",
+      "relation_family": "practice",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.72",
+      "claim_status": "provisional",
+      "source_ids": [
+        "src_scio_cf_resources_2022",
+        "src_scio_mosaic_2013",
+        "src_ashby_intro_cybernetics_1956"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Interpretive comparison of the two maintained public descriptions and their cited source records",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "This is a provisional semantic or practice crosswalk. It does not establish historical influence, equivalence, efficacy or universal applicability. Item-level source review and curator acceptance are still required.",
+      "assertion_mode": "interpreted",
+      "inference_method": "curator-requested relational crosswalk of maintained public descriptions",
+      "claim_id": "",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "distributes change to preserve",
+      "public_review_label": "provisional relational crosswalk"
+    },
+    {
+      "id": "e31_module_ashby_1",
+      "source": "publication_u31_ashby",
+      "target": "concept_variety",
+      "relation_type": "presents_account_of",
+      "relation_family": "conceptual",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "",
+      "claim_status": "candidate",
+      "source_ids": [
+        "src_u31_ashby"
+      ],
+      "evidence_ids": [
+        "ev_e31_module_ashby_1"
+      ],
+      "source_locator": "p. 3, DG4 and PG4",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "In Challoner’s reconstruction: Variety counts distinguishable possibilities; information concerns eliminated alternatives.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "claim_e31_module_ashby_1",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "presents account of",
+      "public_review_label": "Located source statement; curator review pending",
+      "connection_pass": "update_20261008"
+    },
+    {
+      "id": "e31_concept_1",
+      "source": "concept_regulation",
+      "target": "concept_variety",
+      "relation_type": "constrains",
+      "relation_family": "conceptual",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "",
+      "claim_status": "candidate",
+      "source_ids": [
+        "src_u31_ashby"
+      ],
+      "evidence_ids": [
+        "ev_e31_concept_1"
+      ],
+      "source_locator": "pp. 4–5, PS1–PS2",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Source-scoped reading of Challoner’s module: In the module’s regulatory setting, blocking disturbance variety protects specified essential variables.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "claim_e31_concept_1",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "constrains",
+      "public_review_label": "Located source statement; curator review pending",
+      "connection_pass": "update_20261008"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_variety_prerequisite",
+      "statement": "Ashby's concept of variety is a definitional prerequisite for requisite variety.",
+      "subject_id": "concept_variety",
+      "predicate": "definitional_prerequisite",
+      "object_id": "concept_requisite_variety",
+      "status": "corroborated",
+      "supporting_source_ids": [
+        "src_ashby_intro_cybernetics_1956"
+      ],
+      "supporting_evidence_ids": [
+        "ev_ashby_variety_definition",
+        "ev_ashby_requisite_variety"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_evidence_ids": [],
+      "notes": "Evidence records: ev_ashby_variety_definition, ev_ashby_requisite_variety. Research pass requires named editorial review before public canonical status.",
+      "review_status": "research_pass_needs_editor",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    {
+      "id": "claim_e31_module_ashby_1",
+      "statement": "In Challoner’s reconstruction: Variety counts distinguishable possibilities; information concerns eliminated alternatives.",
+      "subject_id": "publication_u31_ashby",
+      "predicate": "presents_account_of",
+      "object_id": "concept_variety",
+      "status": "candidate",
+      "supporting_source_ids": [
+        "src_u31_ashby"
+      ],
+      "supporting_evidence_ids": [
+        "ev_e31_module_ashby_1"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_evidence_ids": [],
+      "notes": "Source-scoped interpretation. Human editorial acceptance remains pending.",
+      "review_status": "research_pass_needs_editor",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "connection_pass": "update_20261008"
+    },
+    {
+      "id": "claim_e31_concept_1",
+      "statement": "Source-scoped reading of Challoner’s module: In the module’s regulatory setting, blocking disturbance variety protects specified essential variables.",
+      "subject_id": "concept_regulation",
+      "predicate": "constrains",
+      "object_id": "concept_variety",
+      "status": "candidate",
+      "supporting_source_ids": [
+        "src_u31_ashby"
+      ],
+      "supporting_evidence_ids": [
+        "ev_e31_concept_1"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_evidence_ids": [],
+      "notes": "Source-scoped interpretation. Human editorial acceptance remains pending.",
+      "review_status": "research_pass_needs_editor",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "connection_pass": "update_20261008"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src_ashby_intro_cybernetics_1956",
+      "title": "An Introduction to Cybernetics",
+      "source_type": "primary_text",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://ashby.info/Ashby-Introduction-to-Cybernetics.pdf",
+      "date": "1956",
+      "notes": "Primary text opened and inspected. Title page identifies the 1957 second impression of the 1956 book. Use section numbers as the stable locator: the electronic PDF places two printed pages on each PDF page. Rights statement permits educational and research distribution with its notice; this packet links and paraphrases.",
+      "creators": [
+        "W. Ross Ashby"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Chapman & Hall",
+      "licence": "archive_access_check_reuse",
+      "archived_url": "https://www.ashby.info/",
+      "content_hash": "",
+      "review_status": "passage_checked_research_pass",
+      "last_checked": "2026-10-29",
+      "public_link_status": "public_link",
+      "connection_pass": "depth_20261029",
+      "source_locator": "1957 second impression; sections 11/5–11/11, printed pp. 205–209; PDF pp. 109–111",
+      "access_note": "Use section numbers as the stable locator: the electronic PDF places two printed pages on each PDF page. Rights statement permits educational and research distribution with its notice; this packet links and paraphrases."
+    },
+    {
+      "id": "src_shannon_communication_1948",
+      "title": "A Mathematical Theory of Communication",
+      "source_type": "primary_text",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://doi.org/10.1002/j.1538-7305.1948.tb01338.x",
+      "date": "1948",
+      "notes": "Primary text opened and inspected; reprint header identifies the original 1948 publication. This locator uses the corrected reprint's pagination. The engineering model expressly brackets semantic aspects.",
+      "creators": [
+        "Claude E. Shannon"
+      ],
+      "doi": "10.1002/j.1538-7305.1948.tb01338.x",
+      "isbn": "",
+      "publisher": "Bell System Technical Journal 27, 379–423 and 623–656",
+      "licence": "publisher_terms",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "passage_checked_research_pass",
+      "last_checked": "2026-10-29",
+      "public_link_status": "public_link",
+      "reading_url": "https://people.math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf",
+      "connection_pass": "depth_20261029",
+      "source_locator": "Introduction, corrected reprint PDF p. 1",
+      "access_note": "This locator uses the corrected reprint's pagination. The engineering model expressly brackets semantic aspects."
+    },
+    {
+      "id": "src_grammar_presentation_2022",
+      "title": "The Grammar of Systems - SCiO presentation",
+      "source_type": "presentation",
+      "quality_tier": "C",
+      "access": "public",
+      "url": "https://www.systemspractice.org/resources/grammar-systems",
+      "date": "2022-03-21",
+      "notes": "Lists 33 systems laws and principles and describes nine patterns of thinking.",
+      "creators": [
+        "Patrick Hoverstadt"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "SCiO",
+      "licence": "site_terms",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-10",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_grammar_2ed_2025",
+      "title": "The Grammar of Systems II: From Order to Chaos and Back Again, 2nd edition",
+      "source_type": "book",
+      "quality_tier": "B",
+      "access": "public_metadata",
+      "url": "https://www.systemspractice.org/resources/grammar-systems-ii-order-chaos-back-again-2nd-ed",
+      "date": "2025-08-01",
+      "notes": "Current second-edition metadata. The book presents nine systems-thinking patterns and 33 systems laws and principles.",
+      "creators": [
+        "Patrick Hoverstadt"
+      ],
+      "doi": "",
+      "isbn": "979-8298960878",
+      "publisher": "SCiO",
+      "licence": "publisher_terms",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-10",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_ashby_archive_biography",
+      "title": "Biography: W. Ross Ashby (1903–1972)",
+      "source_type": "family_archive_history",
+      "quality_tier": "B",
+      "access": "public",
+      "url": "https://ashby.info/biography.html",
+      "date": "2008-01-01",
+      "notes": "Biography by Ashby's daughter Jill, using Ashby's autobiographical notebook, family research and memories. It dates development of requisite variety to 1952–1953 and the writing of An Introduction to Cybernetics to 1952–1956.",
+      "creators": [
+        "Jill Ashby"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "W. Ross Ashby Digital Archive",
+      "licence": "site_terms",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "research_pass_needs_editor",
+      "last_checked": "2026-08-09",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_salah_grammar_part1_2022",
+      "title": "Cybersecurity Lessons from The Grammar of Systems, part 1",
+      "source_type": "public_secondary_summary",
+      "quality_tier": "C",
+      "access": "public",
+      "url": "https://www.linkedin.com/pulse/cybersecurity-lessons-from-grammar-systems-order-chaos-osama-salah/",
+      "date": "2022-05-16",
+      "notes": "Public secondary summary of Grammar of Systems items 1–11. Used as an accessible orientation aid; the book remains the controlling source.",
+      "creators": [
+        "Osama Salah"
+      ],
+      "publisher": "LinkedIn",
+      "licence": "publisher_terms",
+      "review_status": "checked",
+      "last_checked": "2026-08-09",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_salah_grammar_part2_2022",
+      "title": "Cybersecurity Lessons from The Grammar of Systems, part 2",
+      "source_type": "public_secondary_summary",
+      "quality_tier": "C",
+      "access": "public",
+      "url": "https://www.linkedin.com/pulse/cybersecurity-lessons-from-grammar-systems-order-chaos-osama-salah-1f",
+      "date": "2022-05-23",
+      "notes": "Public secondary summary of Grammar of Systems items 12–22. Used as an accessible orientation aid; the book remains the controlling source.",
+      "creators": [
+        "Osama Salah"
+      ],
+      "publisher": "LinkedIn",
+      "licence": "publisher_terms",
+      "review_status": "checked",
+      "last_checked": "2026-08-09",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_taylor_vsm_lecture_2025",
+      "title": "Benjamin Taylor VSM lecture",
+      "source_type": "public_teaching_material",
+      "quality_tier": "C",
+      "access": "public",
+      "url": "https://antlerboy.com/library/files/talks/viable-system-model-lecture.pdf",
+      "date": "2025-05-10",
+      "notes": "Public teaching presentation. Public PDF linked on 2026-09-19; the earlier unpublished access description is superseded.",
+      "creators": [
+        "Benjamin P Taylor"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Benjamin P Taylor public work library",
+      "licence": "not_publicly_licensed",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "public_file_identity_checked",
+      "last_checked": "2026-09-19",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_taylor_vsm_simplification_2023",
+      "title": "Organisations need to deal with complexity: a simplification of the Viable System Model",
+      "source_type": "public_teaching_material",
+      "quality_tier": "C",
+      "access": "public",
+      "url": "https://antlerboy.com/library/files/talks/simplifying-the-viable-system-model.pdf",
+      "date": "2023-03-01",
+      "notes": "Public author teaching deck relating organisational capacity, capability, connectedness and variety to operational, environmental and future complexity. Public PDF linked on 2026-09-19; the earlier unpublished access description is superseded.",
+      "creators": [
+        "Benjamin P Taylor"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Benjamin P Taylor public work library",
+      "licence": "not_publicly_licensed",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "public_file_identity_checked",
+      "last_checked": "2026-09-19",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_scio_cf_resources_2022",
+      "title": "SCiO CF Resources v9 draft",
+      "source_type": "professional_framework_resource_guide",
+      "quality_tier": "C",
+      "access": "no_public_link",
+      "url": "",
+      "date": "2022-09-15",
+      "notes": "SCiO internal competency-resource draft; no public link. Public SCiO accreditation pages are linked separately where possible.",
+      "creators": [
+        "SCiO"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "",
+      "licence": "",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "pass4_legacy_internal_register_audit",
+      "last_checked": "2026-08-14",
+      "public_link_status": "no_public_link"
+    },
+    {
+      "id": "src_scio_mosaic_2013",
+      "title": "Mosaic transformation in organisations",
+      "source_type": "research_article_metadata",
+      "quality_tier": "B",
+      "access": "public_metadata",
+      "url": "https://www.systemspractice.org/resources/mosaic-transformation-organisations",
+      "date": "2013-09-01",
+      "notes": "SCiO record for Patrick Hoverstadt's article developing Mosaic Transformation from complexity, variety, the VSM and empirical study of organisation-wide change.",
+      "creators": [
+        "Patrick Hoverstadt"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Journal of Organisational Transformation & Social Change",
+      "licence": "publisher_terms",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-09",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_u31_ashby",
+      "title": "Ashby: selection, regulation, and variety: researcher module",
+      "source_type": "public_source",
+      "quality_tier": "B",
+      "access": "public",
+      "url": "https://rational-understanding.com/wp-content/uploads/2026/10/ashby-researcher-module.pdf",
+      "date": "2026",
+      "notes": "John A Challoner’s version 1 reconstruction, 30 September 2026. General and specialised definitions/propositions are labelled separately; original-author wording is not implied.",
+      "creators": [
+        "John A Challoner"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Rational Understanding",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "82f4be02d8ef575245c734d826a9a65993f6eba96d42c4ec67204b6f6931776e",
+      "review_status": "source_scoped_research_pass",
+      "last_checked": "2026-10-08",
+      "public_link_status": "public_link",
+      "connection_pass": "update_20261008",
+      "source_locator": "Complete PDF, 6 pages; specific claims carry page and proposition references",
+      "source_role": "secondary reconstruction",
+      "pages_read": 6
+    }
+  ],
+  "evidence_locators": [
+    {
+      "id": "ev_ashby_variety_definition",
+      "source_id": "src_ashby_intro_cybernetics_1956",
+      "locator": "chapters 7–8; official archive bibliography entry 56",
+      "review_status": "research_pass_needs_editor"
+    },
+    {
+      "id": "ev_shannon_information_theory",
+      "source_id": "src_shannon_communication_1948",
+      "locator": "Bell System Technical Journal 27, pp. 379-423 and 623-656",
+      "review_status": "research_pass_needs_editor"
+    },
+    {
+      "id": "ev_ashby_requisite_variety",
+      "source_id": "src_ashby_intro_cybernetics_1956",
+      "locator": "chapter 11, especially sections 11/7–11/13",
+      "review_status": "research_pass_needs_editor"
+    },
+    {
+      "id": "ev_taylor_vsm_viability",
+      "source_id": "src_taylor_vsm_lecture_2025",
+      "locator": "sections on viability, adaptation, identity, autonomy, cohesion and transduction",
+      "review_status": "research_pass_needs_editor"
+    },
+    {
+      "id": "ev_e31_module_ashby_1",
+      "source_id": "src_u31_ashby",
+      "locator": "p. 3, DG4 and PG4",
+      "review_status": "research_pass_needs_editor"
+    },
+    {
+      "id": "ev_e31_concept_1",
+      "source_id": "src_u31_ashby",
+      "locator": "pp. 4–5, PS1–PS2",
+      "review_status": "research_pass_needs_editor"
+    }
+  ],
+  "reuse_note": "Preserve source attribution, scope, and review status. Source documents and evidence excerpts are excluded."
+}

@@ -1,0 +1,240 @@
+{
+  "schema_version": "1.0",
+  "canonical_url": "https://transduction.systems/entries/publication_hidden_power_systems_thinking/",
+  "release": "0.35",
+  "citation": "Taylor, B. P. (2026). The Hidden Power of Systems Thinking. The Necessary Tangle, release 0.35. https://transduction.systems/entries/publication_hidden_power_systems_thinking/",
+  "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
+  "entry": {
+    "id": "publication_hidden_power_systems_thinking",
+    "label": "The Hidden Power of Systems Thinking",
+    "entity_type": "publication",
+    "description": "Ray Ison and Ed Straw's account of systems thinking in governance, focused on institutional obstacles, systemic governing and practical principles for acting amid climate and biodiversity emergencies.",
+    "aliases": [
+      "The Hidden Power of Systems Thinking: Governance in a Climate Emergency"
+    ],
+    "boundary_ring": "0",
+    "inclusion_reason": "expertise_and_public_sources_release_0_13",
+    "status": "accepted",
+    "source_ids": [
+      "src_routledge_hidden_power_2020"
+    ],
+    "set_tags": [
+      "systems",
+      "human_lineage",
+      "expertise",
+      "release_0_13"
+    ],
+    "espoused_labels": [],
+    "observed_clusters": [],
+    "canonical_definition": "Ray Ison and Ed Straw's account of systems thinking in governance, focused on institutional obstacles, systemic governing and practical principles for acting amid climate and biodiversity emergencies.",
+    "valid_from": "",
+    "valid_to": "",
+    "external_ids": "{}",
+    "geographies": [],
+    "licence": "",
+    "review_status": "curator_checked_public_sources",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-11",
+    "x": 0.35,
+    "y": 0.23,
+    "canonical_id": "publication_hidden_power_systems_thinking",
+    "public_visibility": "public",
+    "publication_level": "profile",
+    "public_stub_text": "",
+    "public_source_count": 1,
+    "no_public_link_count": 0
+  },
+  "profile": {
+    "node_id": "publication_hidden_power_systems_thinking",
+    "title": "The Hidden Power of Systems Thinking",
+    "profile_status": "curator_checked_public_sources",
+    "canonical_definition": "Ray Ison and Ed Straw's account of systems thinking in governance, focused on institutional obstacles, systemic governing and practical principles for acting amid climate and biodiversity emergencies.",
+    "summary": "The Hidden Power of Systems Thinking connects systems practice to failures and possibilities of governance under climate and biodiversity emergency.",
+    "why_it_matters": "It moves systems thinking from diagnosis of complex problems to the design of governing relationships, institutions, constitutional arrangements and learning capacity.",
+    "key_distinctions": [
+      "government vs governance",
+      "institutional reform vs isolated intervention",
+      "whole-system change vs programme delivery"
+    ],
+    "historical_lineage": [
+      "Systems Thinking in Practice",
+      "systemic governance",
+      "public administration and institutional reform"
+    ],
+    "logical_antecedents": [
+      "governance",
+      "systems practice",
+      "institution",
+      "climate emergency"
+    ],
+    "dependent_subsequents": [
+      "principles for systemic governing",
+      "institutional innovation",
+      "governance capability"
+    ],
+    "practice_connections": [
+      "public administration",
+      "constitutional design",
+      "climate governance",
+      "collective action"
+    ],
+    "espoused_lineages": [],
+    "observed_clusters": [],
+    "common_misreadings": [
+      "systems thinking itself supplies political legitimacy",
+      "governance can be redesigned from one centre"
+    ],
+    "open_checks": [
+      "map the stated principles",
+      "add reviews and critical responses",
+      "connect public-service cases"
+    ],
+    "source_ids": [
+      "src_routledge_hidden_power_2020"
+    ],
+    "evidence_ids": [],
+    "last_researched": "2026-08-11",
+    "review_status": "curator_checked_public_sources",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-11",
+    "editorial_note": "Developed from public primary, institutional and publisher sources. Open to correction, rival interpretation and stronger evidence."
+  },
+  "connections": [
+    {
+      "id": "e_13_hidden_governance",
+      "source": "publication_hidden_power_systems_thinking",
+      "target": "concept_systemic_governance",
+      "relation_type": "develops",
+      "relation_family": "conceptual",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.88",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_routledge_hidden_power_2020"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Release 0.13 public primary, institutional and publisher sources",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "The wording is limited to the named public sources. Authorship, methodological development, conceptual dependence and practical use remain distinct claims.",
+      "assertion_mode": "asserted",
+      "inference_method": "curatorial synthesis of public primary, institutional and publisher sources",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-11",
+      "notes": "The book develops principles and institutional implications for systemic governing.",
+      "plain_phrase": "develops",
+      "public_review_label": "supported working statement"
+    },
+    {
+      "id": "e_13_hidden_ison",
+      "source": "publication_hidden_power_systems_thinking",
+      "target": "person_ray_ison",
+      "relation_type": "authored_by",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.88",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_routledge_hidden_power_2020"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Release 0.13 public primary, institutional and publisher sources",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "The wording is limited to the named public sources. Authorship, methodological development, conceptual dependence and practical use remain distinct claims.",
+      "assertion_mode": "asserted",
+      "inference_method": "curatorial synthesis of public primary, institutional and publisher sources",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-11",
+      "notes": "Routledge identifies Ray Ison as co-author.",
+      "plain_phrase": "was authored by",
+      "public_review_label": "supported working statement"
+    },
+    {
+      "id": "e_13_hidden_practice",
+      "source": "publication_hidden_power_systems_thinking",
+      "target": "practice_systems_practice",
+      "relation_type": "operationalises",
+      "relation_family": "practice",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.88",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_routledge_hidden_power_2020"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Release 0.13 public primary, institutional and publisher sources",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "The wording is limited to the named public sources. Authorship, methodological development, conceptual dependence and practical use remain distinct claims.",
+      "assertion_mode": "asserted",
+      "inference_method": "curatorial synthesis of public primary, institutional and publisher sources",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-11",
+      "notes": "The publisher describes the book as an applied systems-thinking account of governance and change.",
+      "plain_phrase": "puts into practical form",
+      "public_review_label": "supported working statement"
+    },
+    {
+      "id": "e_13_hidden_straw",
+      "source": "publication_hidden_power_systems_thinking",
+      "target": "person_ed_straw",
+      "relation_type": "authored_by",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.88",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_routledge_hidden_power_2020"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Release 0.13 public primary, institutional and publisher sources",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "The wording is limited to the named public sources. Authorship, methodological development, conceptual dependence and practical use remain distinct claims.",
+      "assertion_mode": "asserted",
+      "inference_method": "curatorial synthesis of public primary, institutional and publisher sources",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-11",
+      "notes": "Routledge identifies Ed Straw as co-author.",
+      "plain_phrase": "was authored by",
+      "public_review_label": "supported working statement"
+    }
+  ],
+  "claims": [],
+  "sources": [
+    {
+      "id": "src_routledge_hidden_power_2020",
+      "title": "The Hidden Power of Systems Thinking: Governance in a Climate Emergency",
+      "source_type": "official_publisher_book_page",
+      "quality_tier": "A",
+      "access": "public_metadata",
+      "url": "https://www.routledge.com/The-Hidden-Power-of-Systems-Thinking-Governance-in-a-Climate-Emergency/Ison-Straw/p/book/9781138493995",
+      "date": "2020",
+      "notes": "Routledge's page records Ray Ison and Ed Straw as authors and describes the book's focus on systems thinking, systemic governing and institutional change in the climate emergency.",
+      "creators": [
+        "Ray Ison",
+        "Ed Straw"
+      ],
+      "doi": "",
+      "isbn": "978-1-138-49399-5",
+      "publisher": "Routledge",
+      "licence": "publisher_terms",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-11",
+      "public_link_status": "public_link"
+    }
+  ],
+  "evidence_locators": [],
+  "reuse_note": "Preserve source attribution, scope, and review status. Source documents and evidence excerpts are excluded."
+}

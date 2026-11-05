@@ -1,0 +1,236 @@
+{
+  "schema_version": "1.0",
+  "canonical_url": "https://transduction.systems/entries/method_or_methodology_estuarine_mapping/",
+  "release": "0.35",
+  "citation": "Taylor, B. P. (2026). Estuarine Mapping. The Necessary Tangle, release 0.35. https://transduction.systems/entries/method_or_methodology_estuarine_mapping/",
+  "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
+  "entry": {
+    "id": "method_or_methodology_estuarine_mapping",
+    "label": "Estuarine Mapping",
+    "entity_type": "method_or_methodology",
+    "description": "Strategy and change method that maps constraints and the energy or effort required to shift them, favouring navigation and modulation over fixed end-state planning.",
+    "aliases": [
+      "Estuarine mapping"
+    ],
+    "boundary_ring": "0",
+    "inclusion_reason": "snowden_cynefin_canonical_sources_release_0_14",
+    "status": "accepted",
+    "source_ids": [
+      "src_cynefin_estuarine_mapping_2022"
+    ],
+    "set_tags": [
+      "complexity",
+      "sensemaking",
+      "expertise",
+      "release_0_14",
+      "practice"
+    ],
+    "espoused_labels": [],
+    "observed_clusters": [],
+    "canonical_definition": "Strategy and change method that maps constraints and the energy or effort required to shift them, favouring navigation and modulation over fixed end-state planning.",
+    "valid_from": "",
+    "valid_to": "",
+    "external_ids": "{}",
+    "geographies": [],
+    "licence": "",
+    "review_status": "curator_checked_public_sources",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-11",
+    "x": 0.34,
+    "y": -0.44,
+    "canonical_id": "method_or_methodology_estuarine_mapping",
+    "public_visibility": "public",
+    "publication_level": "profile",
+    "public_stub_text": "",
+    "public_source_count": 1,
+    "no_public_link_count": 0
+  },
+  "profile": {
+    "node_id": "method_or_methodology_estuarine_mapping",
+    "title": "Estuarine Mapping",
+    "profile_status": "curator_checked_public_sources",
+    "canonical_definition": "Strategy and change method that maps constraints and the energy or effort required to shift them, favouring navigation and modulation over fixed end-state planning.",
+    "summary": "Estuarine Mapping represents constraints and the energy required to change them, supporting strategy as navigation through a shifting possibility space rather than movement towards a fully specified future state.",
+    "why_it_matters": "It directs attention to what can be modulated now, what is costly or slow to change, and how the landscape changes as action proceeds.",
+    "key_distinctions": [
+      "navigation vs end-state planning",
+      "constraints vs goals alone",
+      "energy to change vs importance",
+      "current method version vs every earlier sketch"
+    ],
+    "historical_lineage": [
+      "Cynefin dynamics",
+      "constraint mapping",
+      "naturalising sense-making"
+    ],
+    "logical_antecedents": [
+      "constraints",
+      "affordances",
+      "energy",
+      "direction of travel"
+    ],
+    "dependent_subsequents": [
+      "portfolio of interventions",
+      "continuous remapping",
+      "strategy under uncertainty"
+    ],
+    "practice_connections": [
+      "strategy",
+      "change",
+      "policy",
+      "portfolio management"
+    ],
+    "espoused_lineages": [],
+    "observed_clusters": [],
+    "common_misreadings": [
+      "the map predicts the future",
+      "all constraints should be removed",
+      "energy estimates are objective facts"
+    ],
+    "open_checks": [
+      "record subsequent versions",
+      "add worked public cases",
+      "compare with force-field, Wardley and systems maps"
+    ],
+    "source_ids": [
+      "src_cynefin_estuarine_mapping_2022"
+    ],
+    "evidence_ids": [],
+    "last_researched": "2026-08-11",
+    "review_status": "curator_checked_public_sources",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-11",
+    "editorial_note": "Developed from public primary, institutional, publisher and project sources. First-party source roles and independent evidential limits are stated explicitly."
+  },
+  "connections": [
+    {
+      "id": "e_14_estuarine_boundary",
+      "source": "method_or_methodology_estuarine_mapping",
+      "target": "concept_boundary",
+      "relation_type": "uses",
+      "relation_family": "conceptual",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.88",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_cynefin_estuarine_mapping_2022"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Release 0.14 public primary, official, institutional and publisher sources",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "The statement is limited to the named sources and their evidential role. First-party definition, authorship, historical development, application and independent evaluation remain distinct claims.",
+      "assertion_mode": "asserted",
+      "inference_method": "curatorial synthesis of public sources",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-11",
+      "notes": "The method works through the constraints shaping a possibility space.",
+      "plain_phrase": "maps constraints and boundaries",
+      "public_review_label": "supported working statement"
+    },
+    {
+      "id": "e_14_estuarine_dave",
+      "source": "person_dave_snowden",
+      "target": "method_or_methodology_estuarine_mapping",
+      "relation_type": "developed",
+      "relation_family": "historical",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.88",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_cynefin_estuarine_mapping_2022"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Release 0.14 public primary, official, institutional and publisher sources",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "The statement is limited to the named sources and their evidential role. First-party definition, authorship, historical development, application and independent evaluation remain distinct claims.",
+      "assertion_mode": "asserted",
+      "inference_method": "curatorial synthesis of public sources",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-11",
+      "notes": "The primary method page is authored by Snowden.",
+      "plain_phrase": "developed",
+      "public_review_label": "supported working statement"
+    },
+    {
+      "id": "e16_relational_crosswalk_282",
+      "source": "method_or_methodology_estuarine_mapping",
+      "target": "tool_systems_mapping",
+      "relation_type": "uses",
+      "relation_family": "practice",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.72",
+      "claim_status": "provisional",
+      "source_ids": [
+        "src_cynefin_estuarine_mapping_2022",
+        "src_go_science_toolkit_2023"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Interpretive comparison of the two maintained public descriptions and their cited source records",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "This is a provisional semantic or practice crosswalk. It does not establish historical influence, equivalence, efficacy or universal applicability. Item-level source review and curator acceptance are still required.",
+      "assertion_mode": "interpreted",
+      "inference_method": "curator-requested relational crosswalk of maintained public descriptions",
+      "claim_id": "",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "is a specialised form of",
+      "public_review_label": "provisional relational crosswalk"
+    }
+  ],
+  "claims": [],
+  "sources": [
+    {
+      "id": "src_cynefin_estuarine_mapping_2022",
+      "title": "Estuarine Mapping — The Cynefin Company",
+      "source_type": "primary_author_method_page",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://thecynefin.co/estuarine-mapping/",
+      "date": "2022",
+      "notes": "Primary public introduction to Estuarine Mapping and its treatment of constraints and change. Later method material may supersede details; date and version should remain visible.",
+      "creators": [
+        "Dave Snowden"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "The Cynefin Company",
+      "licence": "site_terms",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-11",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_go_science_toolkit_2023",
+      "title": "An introductory systems thinking toolkit for civil servants",
+      "source_type": "government_toolkit",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://www.gov.uk/government/publications/systems-thinking-for-civil-servants/toolkit",
+      "date": "2023-01-12",
+      "notes": "Official UK government introductory toolkit containing eleven named systems tools; explicitly non-comprehensive.",
+      "creators": [],
+      "doi": "",
+      "isbn": "",
+      "publisher": "",
+      "licence": "",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-09",
+      "public_link_status": "public_link"
+    }
+  ],
+  "evidence_locators": [],
+  "reuse_note": "Preserve source attribution, scope, and review status. Source documents and evidence excerpts are excluded."
+}

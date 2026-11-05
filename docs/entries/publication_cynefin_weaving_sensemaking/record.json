@@ -1,0 +1,180 @@
+{
+  "schema_version": "1.0",
+  "canonical_url": "https://transduction.systems/entries/publication_cynefin_weaving_sensemaking/",
+  "release": "0.35",
+  "citation": "Taylor, B. P. (2026). Cynefin: Weaving Sense-Making into the Fabric of Our World. The Necessary Tangle, release 0.35. https://transduction.systems/entries/publication_cynefin_weaving_sensemaking/",
+  "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
+  "entry": {
+    "id": "publication_cynefin_weaving_sensemaking",
+    "label": "Cynefin: Weaving Sense-Making into the Fabric of Our World",
+    "entity_type": "publication",
+    "description": "Multi-author 2020 volume presenting retrospective, conceptual and practice accounts of Cynefin and its development.",
+    "aliases": [
+      "Cynefin — Weaving Sense-Making into the Fabric of Our World"
+    ],
+    "boundary_ring": "0",
+    "inclusion_reason": "snowden_cynefin_canonical_sources_release_0_14",
+    "status": "accepted",
+    "source_ids": [
+      "src_cynefin_weaving_book_2020"
+    ],
+    "set_tags": [
+      "complexity",
+      "sensemaking",
+      "expertise",
+      "release_0_14"
+    ],
+    "espoused_labels": [],
+    "observed_clusters": [],
+    "canonical_definition": "Multi-author 2020 volume presenting retrospective, conceptual and practice accounts of Cynefin and its development.",
+    "valid_from": "",
+    "valid_to": "",
+    "external_ids": "{}",
+    "geographies": [],
+    "licence": "",
+    "review_status": "curator_checked_public_sources",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-11",
+    "x": 0.9,
+    "y": 0.72,
+    "canonical_id": "publication_cynefin_weaving_sensemaking",
+    "public_visibility": "public",
+    "publication_level": "profile",
+    "public_stub_text": "",
+    "public_source_count": 1,
+    "no_public_link_count": 0
+  },
+  "profile": {
+    "node_id": "publication_cynefin_weaving_sensemaking",
+    "title": "Cynefin: Weaving Sense-Making into the Fabric of Our World",
+    "profile_status": "curator_checked_public_sources",
+    "canonical_definition": "Multi-author 2020 volume presenting retrospective, conceptual and practice accounts of Cynefin and its development.",
+    "summary": "The 2020 Cynefin volume gathers retrospective and practice accounts from Dave Snowden and other contributors around the framework's first two decades.",
+    "why_it_matters": "It is a canonical internal retrospective and an important source for declared history. Chapter authorship must remain visible, and retrospective memory should be checked against dated records.",
+    "key_distinctions": [
+      "multi-author collection vs single-author work",
+      "retrospective history vs contemporaneous record",
+      "open preview vs whole-book rights"
+    ],
+    "historical_lineage": [
+      "twenty-one years of Cynefin",
+      "community and practice reflections"
+    ],
+    "logical_antecedents": [
+      "Cynefin history",
+      "sense-making",
+      "practice"
+    ],
+    "dependent_subsequents": [
+      "later Cynefin teaching",
+      "retrospective framing"
+    ],
+    "practice_connections": [
+      "orientation",
+      "training",
+      "method history"
+    ],
+    "espoused_lineages": [],
+    "observed_clusters": [],
+    "common_misreadings": [
+      "all chapters speak with one voice",
+      "retrospective sequence is uncontested history"
+    ],
+    "open_checks": [
+      "map chapter authors and claims",
+      "compare with dated papers and blog posts"
+    ],
+    "source_ids": [
+      "src_cynefin_weaving_book_2020"
+    ],
+    "evidence_ids": [],
+    "last_researched": "2026-08-11",
+    "review_status": "curator_checked_public_sources",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-11",
+    "editorial_note": "Developed from public primary, institutional, publisher and project sources. First-party source roles and independent evidential limits are stated explicitly."
+  },
+  "connections": [
+    {
+      "id": "e_14_book_cynefin",
+      "source": "publication_cynefin_weaving_sensemaking",
+      "target": "method_or_methodology_cynefin_framework",
+      "relation_type": "presents",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.88",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_cynefin_weaving_book_2020"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Release 0.14 public primary, official, institutional and publisher sources",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "The statement is limited to the named sources and their evidential role. First-party definition, authorship, historical development, application and independent evaluation remain distinct claims.",
+      "assertion_mode": "asserted",
+      "inference_method": "curatorial synthesis of public sources",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-11",
+      "notes": "The volume presents retrospective and practice accounts of Cynefin.",
+      "plain_phrase": "presents retrospective accounts of",
+      "public_review_label": "supported working statement"
+    },
+    {
+      "id": "e_14_book_dave",
+      "source": "publication_cynefin_weaving_sensemaking",
+      "target": "person_dave_snowden",
+      "relation_type": "authored_by",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.88",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_cynefin_weaving_book_2020"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Release 0.14 public primary, official, institutional and publisher sources",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "The statement is limited to the named sources and their evidential role. First-party definition, authorship, historical development, application and independent evaluation remain distinct claims.",
+      "assertion_mode": "asserted",
+      "inference_method": "curatorial synthesis of public sources",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-11",
+      "notes": "The official record identifies Snowden and multiple contributors.",
+      "plain_phrase": "includes work by",
+      "public_review_label": "supported working statement"
+    }
+  ],
+  "claims": [],
+  "sources": [
+    {
+      "id": "src_cynefin_weaving_book_2020",
+      "title": "Cynefin: Weaving Sense-Making into the Fabric of Our World",
+      "source_type": "official_book_record",
+      "quality_tier": "A",
+      "access": "public_metadata_and_preview",
+      "url": "https://thecynefin.co/library/cynefin-weaving-sense-making-into-the-fabric-of-our-world/",
+      "date": "2020",
+      "notes": "Official publication record for the multi-author Cynefin volume, used for the framework's retrospective history and later articulation. Chapter-level claims should identify the particular contributor.",
+      "creators": [
+        "Dave Snowden and contributors"
+      ],
+      "doi": "",
+      "isbn": "978-1-7353799-0-6",
+      "publisher": "Cognitive Edge",
+      "licence": "publisher_terms; selected open preview material",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-11",
+      "public_link_status": "public_link"
+    }
+  ],
+  "evidence_locators": [],
+  "reuse_note": "Preserve source attribution, scope, and review status. Source documents and evidence excerpts are excluded."
+}

@@ -1,0 +1,105 @@
+{
+  "schema_version": "1.0",
+  "canonical_url": "https://transduction.systems/entries/collection_isss_students_2026/",
+  "release": "0.35",
+  "citation": "Taylor, B. P. (2026). ISSS student reading and resource guide. The Necessary Tangle, release 0.35. https://transduction.systems/entries/collection_isss_students_2026/",
+  "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
+  "entry": {
+    "id": "collection_isss_students_2026",
+    "label": "ISSS student reading and resource guide",
+    "entity_type": "collection",
+    "description": "A source-located guide to the ISSS student resource page: software, training leads, and 57 bibliography entries in seven categories. The collection leans towards modelling; it is one route through systems sciences, not a complete field boundary.",
+    "aliases": [],
+    "boundary_ring": "0",
+    "inclusion_reason": "update_20261008",
+    "status": "candidate",
+    "source_ids": [
+      "src_u31_isss_students"
+    ],
+    "set_tags": [
+      "systems",
+      "release_0_31"
+    ],
+    "espoused_labels": [],
+    "observed_clusters": [],
+    "canonical_definition": "A source-located guide to the ISSS student resource page: software, training leads, and 57 bibliography entries in seven categories. The collection leans towards modelling; it is one route through systems sciences, not a complete field boundary.",
+    "valid_from": "",
+    "valid_to": "",
+    "external_ids": "{}",
+    "geographies": [],
+    "licence": "",
+    "review_status": "research_pass_needs_editor",
+    "reviewed_by": "",
+    "reviewed_at": "",
+    "x": 0.532351,
+    "y": 0.25078,
+    "canonical_id": "collection_isss_students_2026",
+    "public_visibility": "public",
+    "publication_level": "profile",
+    "public_stub_text": "",
+    "public_source_count": 1,
+    "no_public_link_count": 0,
+    "connection_pass": "update_20261008"
+  },
+  "profile": {
+    "node_id": "collection_isss_students_2026",
+    "summary": "A source-located guide to the ISSS student resource page: software, training leads, and 57 bibliography entries in seven categories. The collection leans towards modelling; it is one route through systems sciences, not a complete field boundary.",
+    "canonical_definition": "A source-located guide to the ISSS student resource page: software, training leads, and 57 bibliography entries in seven categories. The collection leans towards modelling; it is one route through systems sciences, not a complete field boundary.",
+    "why_it_matters": "Inspect the passage and the stated domain before using a term in a new setting.",
+    "key_distinctions": [
+      "source account vs editorial interpretation",
+      "material exchange vs causal openness",
+      "bibliographic access vs full-text evidence"
+    ],
+    "historical_lineage": [],
+    "logical_antecedents": [],
+    "dependent_subsequents": [],
+    "practice_connections": [
+      "Name the domain, conditions, and observation that could challenge the proposed connection."
+    ],
+    "common_misreadings": [
+      "Treating a shared term as proof that two accounts are equivalent."
+    ],
+    "open_checks": [
+      "Original-source verification and human editorial review remain open."
+    ],
+    "source_ids": [
+      "src_u31_isss_students"
+    ],
+    "context_and_lineage": "",
+    "editorial_note": "AI-assisted source reading. Human curator: Benjamin P Taylor. New claims remain candidates.",
+    "last_researched": "2026-10-08",
+    "connection_pass": "update_20261008",
+    "title": "ISSS student reading and resource guide",
+    "review_status": "research_pass_needs_editor",
+    "profile_status": "evidence_deepened_research_pass"
+  },
+  "connections": [],
+  "claims": [],
+  "sources": [
+    {
+      "id": "src_u31_isss_students",
+      "title": "ISSS education resources",
+      "source_type": "public_source",
+      "quality_tier": "B",
+      "access": "public",
+      "url": "https://www.isss.org/students/",
+      "date": "2026",
+      "notes": "Student-facing tools, training leads, and 57 bibliographic entries transcribed into seven source categories. Full-text reading of the listed works is not claimed.",
+      "creators": [],
+      "doi": "",
+      "isbn": "",
+      "publisher": "ISSS",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "source_scoped_research_pass",
+      "last_checked": "2026-10-08",
+      "public_link_status": "public_link",
+      "connection_pass": "update_20261008",
+      "source_locator": "Systems Modeling Software; Courses; Readings to Get Started"
+    }
+  ],
+  "evidence_locators": [],
+  "reuse_note": "Preserve source attribution, scope, and review status. Source documents and evidence excerpts are excluded."
+}

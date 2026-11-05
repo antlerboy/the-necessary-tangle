@@ -1,0 +1,177 @@
+{
+  "schema_version": "1.0",
+  "canonical_url": "https://transduction.systems/entries/publication_complex_acts_of_knowing/",
+  "release": "0.35",
+  "citation": "Taylor, B. P. (2026). Complex Acts of Knowing. The Necessary Tangle, release 0.35. https://transduction.systems/entries/publication_complex_acts_of_knowing/",
+  "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
+  "entry": {
+    "id": "publication_complex_acts_of_knowing",
+    "label": "Complex Acts of Knowing",
+    "entity_type": "publication",
+    "description": "Snowden's 2002 article on paradox, descriptive self-awareness, knowledge management and the early Cynefin framework.",
+    "aliases": [
+      "Complex Acts of Knowing: Paradox and Descriptive Self-Awareness"
+    ],
+    "boundary_ring": "0",
+    "inclusion_reason": "snowden_cynefin_canonical_sources_release_0_14",
+    "status": "accepted",
+    "source_ids": [
+      "src_cynefin_complex_acts_2002"
+    ],
+    "set_tags": [
+      "complexity",
+      "sensemaking",
+      "expertise",
+      "release_0_14"
+    ],
+    "espoused_labels": [],
+    "observed_clusters": [],
+    "canonical_definition": "Snowden's 2002 article on paradox, descriptive self-awareness, knowledge management and the early Cynefin framework.",
+    "valid_from": "",
+    "valid_to": "",
+    "external_ids": "{}",
+    "geographies": [],
+    "licence": "",
+    "review_status": "curator_checked_public_sources",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-11",
+    "x": 0.72,
+    "y": 0.52,
+    "canonical_id": "publication_complex_acts_of_knowing",
+    "public_visibility": "public",
+    "publication_level": "profile",
+    "public_stub_text": "",
+    "public_source_count": 1,
+    "no_public_link_count": 0
+  },
+  "profile": {
+    "node_id": "publication_complex_acts_of_knowing",
+    "title": "Complex Acts of Knowing",
+    "profile_status": "curator_checked_public_sources",
+    "canonical_definition": "Snowden's 2002 article on paradox, descriptive self-awareness, knowledge management and the early Cynefin framework.",
+    "summary": "Complex Acts of Knowing is an early primary text linking knowledge management, descriptive self-awareness and the development of Cynefin.",
+    "why_it_matters": "It provides a dated scholarly anchor for claims that otherwise drift into retrospective brand history.",
+    "key_distinctions": [
+      "early framework wording vs later Cynefin",
+      "primary article vs retrospective summary"
+    ],
+    "historical_lineage": [
+      "knowledge management",
+      "early Cynefin"
+    ],
+    "logical_antecedents": [
+      "knowledge",
+      "paradox",
+      "sense-making"
+    ],
+    "dependent_subsequents": [
+      "Cynefin development",
+      "descriptive self-awareness"
+    ],
+    "practice_connections": [
+      "knowledge management",
+      "organisational decision support"
+    ],
+    "espoused_lineages": [],
+    "observed_clusters": [],
+    "common_misreadings": [
+      "later domain language appears unchanged in the early article"
+    ],
+    "open_checks": [
+      "add article-level summary with locators",
+      "compare with later versions"
+    ],
+    "source_ids": [
+      "src_cynefin_complex_acts_2002"
+    ],
+    "evidence_ids": [],
+    "last_researched": "2026-08-11",
+    "review_status": "curator_checked_public_sources",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-11",
+    "editorial_note": "Developed from public primary, institutional, publisher and project sources. First-party source roles and independent evidential limits are stated explicitly."
+  },
+  "connections": [
+    {
+      "id": "e_14_complex_acts_cynefin",
+      "source": "publication_complex_acts_of_knowing",
+      "target": "method_or_methodology_cynefin_framework",
+      "relation_type": "develops",
+      "relation_family": "conceptual",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.88",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_cynefin_complex_acts_2002"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Release 0.14 public primary, official, institutional and publisher sources",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "The statement is limited to the named sources and their evidential role. First-party definition, authorship, historical development, application and independent evaluation remain distinct claims.",
+      "assertion_mode": "asserted",
+      "inference_method": "curatorial synthesis of public sources",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-11",
+      "notes": "The paper is a dated primary source for early Cynefin.",
+      "plain_phrase": "develops",
+      "public_review_label": "supported working statement"
+    },
+    {
+      "id": "e_14_complex_acts_dave",
+      "source": "publication_complex_acts_of_knowing",
+      "target": "person_dave_snowden",
+      "relation_type": "authored_by",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.88",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_cynefin_complex_acts_2002"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Release 0.14 public primary, official, institutional and publisher sources",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "The statement is limited to the named sources and their evidential role. First-party definition, authorship, historical development, application and independent evaluation remain distinct claims.",
+      "assertion_mode": "asserted",
+      "inference_method": "curatorial synthesis of public sources",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-11",
+      "notes": "The official article record identifies Snowden as author.",
+      "plain_phrase": "was authored by",
+      "public_review_label": "supported working statement"
+    }
+  ],
+  "claims": [],
+  "sources": [
+    {
+      "id": "src_cynefin_complex_acts_2002",
+      "title": "Complex Acts of Knowing: Paradox and Descriptive Self-Awareness",
+      "source_type": "primary_article_record",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://thecynefin.co/library/complex-acts-of-knowing-paradox-and-descriptive-self-awareness/",
+      "date": "2002",
+      "notes": "Official library record for Snowden's article, with bibliographic details and DOI. Use the article itself for arguments and exact terminology.",
+      "creators": [
+        "Dave Snowden"
+      ],
+      "doi": "10.1108/13673270210424639",
+      "isbn": "",
+      "publisher": "Journal of Knowledge Management",
+      "licence": "article licence as stated by host",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-11",
+      "public_link_status": "public_link"
+    }
+  ],
+  "evidence_locators": [],
+  "reuse_note": "Preserve source attribution, scope, and review status. Source documents and evidence excerpts are excluded."
+}

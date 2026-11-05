@@ -1,0 +1,168 @@
+{
+  "schema_version": "1.0",
+  "canonical_url": "https://transduction.systems/entries/publication_complexity_key_idea_business_society/",
+  "release": "0.35",
+  "citation": "Taylor, B. P. (2026). Complexity: A Key Idea for Business and Society. The Necessary Tangle, release 0.35. https://transduction.systems/entries/publication_complexity_key_idea_business_society/",
+  "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
+  "entry": {
+    "id": "publication_complexity_key_idea_business_society",
+    "label": "Complexity: A Key Idea for Business and Society",
+    "entity_type": "publication",
+    "description": "Chris Mowles's 2022 book distinguishing several meanings of complexity and developing a social theory of action that resists treating complexity as another instrument for prediction and control.",
+    "aliases": [],
+    "boundary_ring": "1",
+    "inclusion_reason": "public_source_and_depth_pass",
+    "status": "accepted",
+    "source_ids": [
+      "src_mowles_complexity_key_idea_2022"
+    ],
+    "set_tags": [
+      "complexity",
+      "practice",
+      "release_0_9_source_depth"
+    ],
+    "espoused_labels": [],
+    "observed_clusters": [],
+    "canonical_definition": "",
+    "valid_from": "",
+    "valid_to": "",
+    "external_ids": "{}",
+    "geographies": [],
+    "licence": "",
+    "review_status": "curator_checked_public_sources",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-10",
+    "x": 0.17,
+    "y": 0.27,
+    "canonical_id": "publication_complexity_key_idea_business_society",
+    "public_visibility": "public",
+    "publication_level": "profile",
+    "public_stub_text": "",
+    "public_source_count": 1,
+    "no_public_link_count": 0
+  },
+  "profile": {
+    "node_id": "publication_complexity_key_idea_business_society",
+    "summary": "A book-length critical orientation to several meanings of complexity and their implications for business, society, organising, communication and action.",
+    "why_it_matters": "The atlas risks treating complexity science as a single body of ideas and then transferring those ideas directly into social practice. This book makes the plurality of meanings and the limits of that transfer visible.",
+    "key_distinctions": [
+      "Mathematical, natural-scientific and social complexity are not interchangeable.",
+      "Models can sharpen judgement without determining action.",
+      "Predictable unpredictability is not a licence for vague claims about anything being complex."
+    ],
+    "historical_lineage": [
+      "Written from the complex-responsive-processes community of inquiry and a critical-management perspective."
+    ],
+    "logical_antecedents": [
+      "Complexity",
+      "Emergence",
+      "Complex responsive processes"
+    ],
+    "dependent_subsequents": [
+      "Critical complexity practice",
+      "Complexity approaches to leadership and evaluation"
+    ],
+    "practice_connections": [
+      "Management",
+      "Leadership",
+      "Evaluation",
+      "Organisational change"
+    ],
+    "common_misreadings": [
+      "That it offers a universal complexity method for managers."
+    ],
+    "open_checks": [
+      "Add chapter-level locators and connect each distinct form of complexity to primary sources and critics."
+    ],
+    "source_ids": [
+      "src_mowles_complexity_key_idea_2022"
+    ],
+    "evidence_ids": [],
+    "review_status": "curator_checked_public_sources",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-10"
+  },
+  "connections": [
+    {
+      "id": "e_09_book_complex_responsive",
+      "source": "publication_complexity_key_idea_business_society",
+      "target": "tradition_complex_responsive_processes",
+      "relation_type": "developed_or_extended",
+      "relation_family": "influence",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.88",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_mowles_complexity_key_idea_2022"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Release 0.9 public source pass",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "First-pass wording based on the named public sources; stronger historical or conceptual claims remain open to review.",
+      "assertion_mode": "asserted",
+      "inference_method": "curatorial synthesis of public publisher, journal and institutional records",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-10",
+      "notes": "The book develops a contemporary account of complexity and organising from this community of inquiry.",
+      "plain_phrase": "developed or extended",
+      "public_review_label": "supported"
+    },
+    {
+      "id": "e_09_mowles_authored_complexity_key_idea",
+      "source": "publication_complexity_key_idea_business_society",
+      "target": "person_chris_mowles",
+      "relation_type": "authored_by",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.88",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_mowles_complexity_key_idea_2022"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Release 0.9 public source pass",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "First-pass wording based on the named public sources; stronger historical or conceptual claims remain open to review.",
+      "assertion_mode": "asserted",
+      "inference_method": "curatorial synthesis of public publisher, journal and institutional records",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-10",
+      "notes": "The publisher record names Chris Mowles as author.",
+      "plain_phrase": "authored by",
+      "public_review_label": "supported"
+    }
+  ],
+  "claims": [],
+  "sources": [
+    {
+      "id": "src_mowles_complexity_key_idea_2022",
+      "title": "Complexity: A Key Idea for Business and Society",
+      "source_type": "publisher_book_page",
+      "quality_tier": "B",
+      "access": "public_metadata",
+      "url": "https://www.routledge.com/Complexity-A-Key-Idea-for-Business-and-Society/Mowles/p/book/9780367425685",
+      "date": "2022",
+      "notes": "Publisher record for Chris Mowles's book. The page supports bibliographic facts and the author's stated framing; it is not a substitute for page-level use of the book.",
+      "creators": [
+        "Chris Mowles"
+      ],
+      "doi": "",
+      "isbn": "9780367425685",
+      "publisher": "Routledge",
+      "licence": "publisher_terms",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-10",
+      "public_link_status": "public_link"
+    }
+  ],
+  "evidence_locators": [],
+  "reuse_note": "Preserve source attribution, scope, and review status. Source documents and evidence excerpts are excluded."
+}

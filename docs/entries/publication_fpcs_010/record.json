@@ -1,0 +1,576 @@
+{
+  "schema_version": "1.0",
+  "canonical_url": "https://transduction.systems/entries/publication_fpcs_010/",
+  "release": "0.35",
+  "citation": "Taylor, B. P. (2026). Science and Complexity. The Necessary Tangle, release 0.35. https://transduction.systems/entries/publication_fpcs_010/",
+  "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
+  "entry": {
+    "id": "publication_fpcs_010",
+    "label": "Science and Complexity",
+    "entity_type": "publication",
+    "description": "Weaver’s 1948 essay distinguishes kinds of scientific problem and examines both the promise and limits of scientific inquiry. Selected passages have been read in a later transcription; the original journal text and pagination have not been checked.",
+    "aliases": [],
+    "boundary_ring": "1",
+    "inclusion_reason": "named_public_corpus",
+    "status": "accepted",
+    "source_ids": [
+      "src_fpcs_official_toc",
+      "src_wiener_reading_lists_2026",
+      "src_weaver_complexity_transcription_1948"
+    ],
+    "set_tags": [
+      "complexity",
+      "foundational_papers",
+      "volume_1",
+      "release_0_8_expansion",
+      "reviewed_seed_candidate",
+      "foundational_papers_complexity_science",
+      "fpcs_volume_1"
+    ],
+    "espoused_labels": [],
+    "observed_clusters": [],
+    "canonical_definition": "Weaver’s 1948 essay distinguishes kinds of scientific problem and examines both the promise and limits of scientific inquiry. Selected passages have been read in a later transcription; the original journal text and pagination have not been checked.",
+    "valid_from": "",
+    "valid_to": "",
+    "external_ids": "{\"fpcs_number\": 10, \"fpcs_volume\": 1}",
+    "geographies": [],
+    "licence": "source_terms",
+    "review_status": "selected_passages_checked_transcription_not_facsimile",
+    "reviewed_by": "",
+    "reviewed_at": "",
+    "x": -0.6025735421375199,
+    "y": -0.25859852380784165,
+    "canonical_id": "publication_fpcs_010",
+    "public_visibility": "public",
+    "publication_level": "profile",
+    "public_stub_text": "",
+    "public_source_count": 3,
+    "no_public_link_count": 0
+  },
+  "profile": {
+    "node_id": "publication_fpcs_010",
+    "summary": "Weaver’s 1948 essay distinguishes kinds of scientific problem and examines both the promise and limits of scientific inquiry. Selected passages have been read in a later transcription; the original journal text and pagination have not been checked.",
+    "canonical_definition": "Weaver’s 1948 essay distinguishes kinds of scientific problem and examines both the promise and limits of scientific inquiry. Selected passages have been read in a later transcription; the original journal text and pagination have not been checked.",
+    "why_it_matters": "Use the source to question a methodological choice, rather than treating a historical classification as a universal sorting rule.",
+    "key_distinctions": [
+      "source text vs organisational application",
+      "transcription page vs original journal page"
+    ],
+    "historical_lineage": [],
+    "logical_antecedents": [],
+    "dependent_subsequents": [],
+    "practice_connections": [
+      "State what the model must explain and which observations could challenge it."
+    ],
+    "common_misreadings": [],
+    "open_checks": [
+      "Compare the transcription with an original journal facsimile.",
+      "Extend review beyond the four named passages."
+    ],
+    "source_ids": [
+      "src_fpcs_official_toc",
+      "src_wiener_reading_lists_2026",
+      "src_weaver_complexity_transcription_1948"
+    ],
+    "context_and_lineage": "Selected passages: PDF pages 3, 4, 8, and 10 of the 2008 printout.",
+    "editorial_note": "Prepared with AI assistance. Four scoped statements; no independent specialist review or complete original-text review claimed.",
+    "last_researched": "2026-10-04",
+    "title": "Science and Complexity",
+    "profile_status": "evidence_deepened_research_pass",
+    "review_status": "research_pass_needs_editor"
+  },
+  "connections": [
+    {
+      "id": "e_08_fpcs_authored_010_01",
+      "source": "publication_fpcs_010",
+      "target": "person_fpcs_w_weaver",
+      "relation_type": "authored_by",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.96",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_fpcs_official_toc"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Official Foundational Papers in Complexity Science table of contents",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Bibliographic first pass: records authorship or collection structure, not a full evaluation of the work or influence.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-10",
+      "notes": "The official collection table of contents lists W. Weaver as an author of this paper.",
+      "plain_phrase": "authored by",
+      "public_review_label": "official bibliographic record"
+    },
+    {
+      "id": "e_08_fpcs_paper_volume_010",
+      "source": "publication_fpcs_010",
+      "target": "publication_fpcs_volume_1",
+      "relation_type": "part_of",
+      "relation_family": "classification",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.96",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_fpcs_official_toc"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Official Foundational Papers in Complexity Science table of contents",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Bibliographic first pass: records authorship or collection structure, not a full evaluation of the work or influence.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-10",
+      "notes": "Paper 10 is listed in volume 1 of the official collection.",
+      "plain_phrase": "is part of",
+      "public_review_label": "official bibliographic record"
+    },
+    {
+      "id": "e_fpcs_part_010",
+      "source": "publication_fpcs_010",
+      "target": "corpus_foundational_papers_2024",
+      "relation_type": "part_of",
+      "relation_family": "classification",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.9",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_fpcs_official_toc"
+      ],
+      "evidence_ids": [],
+      "source_locator": "",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Official table of contents, volume 1, item 10.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-10",
+      "notes": "Official table of contents, volume 1, item 10. Candidate relation retained after endpoint and source validation.",
+      "plain_phrase": "is item in",
+      "public_review_label": "accepted in bibliographic first pass"
+    },
+    {
+      "id": "e_fpcs_topic_010_concept_complexity",
+      "source": "concept_complexity",
+      "target": "publication_fpcs_010",
+      "relation_type": "described_by",
+      "relation_family": "evidence",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.65",
+      "claim_status": "provisional",
+      "source_ids": [
+        "src_fpcs_official_toc"
+      ],
+      "evidence_ids": [],
+      "source_locator": "",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "A cautious first-pass topic link based on the paper title and collection placement; substantive review remains pending.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-10",
+      "notes": "A cautious first-pass topic link based on the paper title and collection placement; substantive review remains pending. Candidate relation retained after endpoint and source validation.",
+      "plain_phrase": "has a foundational treatment in",
+      "public_review_label": "provisional"
+    },
+    {
+      "id": "e16_fpcs_contents_010",
+      "source": "publication_fpcs_volume_1",
+      "target": "publication_fpcs_010",
+      "relation_type": "presents",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.98",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_fpcs_official_toc"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Official collection table of contents",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "This records documentary collection structure only. Inclusion does not by itself establish conceptual influence, agreement, importance or validity.",
+      "assertion_mode": "asserted",
+      "inference_method": "direct collection membership statement",
+      "claim_id": "",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "presents as a constituent paper",
+      "public_review_label": "source-backed contents statement"
+    },
+    {
+      "id": "e16_fpcs_contents_103",
+      "source": "corpus_foundational_papers_2024",
+      "target": "publication_fpcs_010",
+      "relation_type": "presents",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.98",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_fpcs_official_toc"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Official collection table of contents",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "This records documentary collection structure only. Inclusion does not by itself establish conceptual influence, agreement, importance or validity.",
+      "assertion_mode": "asserted",
+      "inference_method": "direct collection membership statement",
+      "claim_id": "",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "presents as a constituent paper",
+      "public_review_label": "source-backed contents statement"
+    },
+    {
+      "id": "e22_publication_fpcs_010_listed_in_bibliography_bibliography_wiener_selected_1952",
+      "source": "publication_fpcs_010",
+      "target": "bibliography_wiener_selected_1952",
+      "relation_type": "listed_in_bibliography",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "",
+      "claim_status": "candidate",
+      "source_ids": [
+        "src_wiener_reading_lists_2026"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Selected readings, 21 March 1952; Weaver, Warren. ‘Science and Complexity,’ American Scientist, Vol. 36, No. 4, 536–544.",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Bibliographic selection only. No influence, endorsement, or full-text coverage is implied.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "is listed in",
+      "public_review_label": "Source located; curator review pending"
+    },
+    {
+      "id": "e29_weaver_conditions_on_averages",
+      "source": "publication_fpcs_010",
+      "target": "concept_modelling",
+      "relation_type": "uses_in_argument",
+      "relation_family": "conceptual",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "",
+      "claim_status": "candidate",
+      "source_ids": [
+        "src_weaver_complexity_transcription_1948"
+      ],
+      "evidence_ids": [
+        "ev29_weaver-conditions-on-averages"
+      ],
+      "source_locator": "PDF page 3; Problems of Disorganized Complexity; paragraph beginning 'Earlier it was stated'",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Weaver makes the billiard-ball statistical example conditional on how the balls are distributed and move; a deliberately aligned arrangement breaks the example. Source account only; contemporary organisational applications are editorial. Later transcription, not original journal pagination.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "claim29_weaver-conditions-on-averages",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "makes the statistical example conditional on",
+      "public_review_label": "Source passage located; curator review pending",
+      "connection_pass": "weaver_20261004"
+    },
+    {
+      "id": "e29_weaver_organisation_not_count",
+      "source": "publication_fpcs_010",
+      "target": "concept_complexity",
+      "relation_type": "presents_account_of",
+      "relation_family": "conceptual",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "",
+      "claim_status": "candidate",
+      "source_ids": [
+        "src_weaver_complexity_transcription_1948"
+      ],
+      "evidence_ids": [
+        "ev29_weaver-organisation-not-count"
+      ],
+      "source_locator": "PDF page 4; Problems of Organized Complexity; first paragraph",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "His distinction concerns organisation, not simply a moderate number of variables. Source account only; contemporary organisational applications are editorial. Later transcription, not original journal pagination.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "claim29_weaver-organisation-not-count",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "distinguishes organisation from variable count in",
+      "public_review_label": "Source passage located; curator review pending",
+      "connection_pass": "weaver_20261004"
+    },
+    {
+      "id": "e29_weaver_collaboration_not_exclusive",
+      "source": "publication_fpcs_010",
+      "target": "concept_modelling",
+      "relation_type": "qualifies_practice_claim",
+      "relation_family": "contestation",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "",
+      "claim_status": "candidate",
+      "source_ids": [
+        "src_weaver_complexity_transcription_1948"
+      ],
+      "evidence_ids": [
+        "ev29_weaver-collaboration-not-exclusive"
+      ],
+      "source_locator": "PDF page 8; paragraph beginning 'It is tempting to forecast'",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "He favours mixed teams and computation while explicitly preserving other ways of working, including solitary inquiry. Source account only; contemporary organisational applications are editorial. Later transcription, not original journal pagination.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "claim29_weaver-collaboration-not-exclusive",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "rejects an exclusive mixed-team pattern for",
+      "public_review_label": "Source passage located; curator review pending",
+      "connection_pass": "weaver_20261004"
+    },
+    {
+      "id": "e29_weaver_science_and_values",
+      "source": "publication_fpcs_010",
+      "target": "concept_purpose",
+      "relation_type": "qualifies_practice_claim",
+      "relation_family": "contestation",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "",
+      "claim_status": "candidate",
+      "source_ids": [
+        "src_weaver_complexity_transcription_1948"
+      ],
+      "evidence_ids": [
+        "ev29_weaver-science-and-values"
+      ],
+      "source_locator": "PDF page 10; The Boundaries of Science; paragraph beginning 'Yes, science is a powerful tool'",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "He rejects the expectation that scientific control alone settles social emergencies or supplies a moral code. Source account only; contemporary organisational applications are editorial. Later transcription, not original journal pagination.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "claim29_weaver-science-and-values",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "limits the authority of science to settle",
+      "public_review_label": "Source passage located; curator review pending",
+      "connection_pass": "weaver_20261004"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim29_weaver-conditions-on-averages",
+      "statement": "Weaver makes the billiard-ball statistical example conditional on how the balls are distributed and move; a deliberately aligned arrangement breaks the example.",
+      "subject_id": "publication_fpcs_010",
+      "predicate": "uses_in_argument",
+      "object_id": "concept_modelling",
+      "status": "candidate",
+      "supporting_source_ids": [
+        "src_weaver_complexity_transcription_1948"
+      ],
+      "supporting_evidence_ids": [
+        "ev29_weaver-conditions-on-averages"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_evidence_ids": [],
+      "notes": "Selected passage of a later transcription. Curator review pending; no original-edition or lineage claim.",
+      "review_status": "research_pass_needs_editor",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "connection_pass": "weaver_20261004"
+    },
+    {
+      "id": "claim29_weaver-organisation-not-count",
+      "statement": "His distinction concerns organisation, not simply a moderate number of variables.",
+      "subject_id": "publication_fpcs_010",
+      "predicate": "presents_account_of",
+      "object_id": "concept_complexity",
+      "status": "candidate",
+      "supporting_source_ids": [
+        "src_weaver_complexity_transcription_1948"
+      ],
+      "supporting_evidence_ids": [
+        "ev29_weaver-organisation-not-count"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_evidence_ids": [],
+      "notes": "Selected passage of a later transcription. Curator review pending; no original-edition or lineage claim.",
+      "review_status": "research_pass_needs_editor",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "connection_pass": "weaver_20261004"
+    },
+    {
+      "id": "claim29_weaver-collaboration-not-exclusive",
+      "statement": "He favours mixed teams and computation while explicitly preserving other ways of working, including solitary inquiry.",
+      "subject_id": "publication_fpcs_010",
+      "predicate": "qualifies_practice_claim",
+      "object_id": "concept_modelling",
+      "status": "candidate",
+      "supporting_source_ids": [
+        "src_weaver_complexity_transcription_1948"
+      ],
+      "supporting_evidence_ids": [
+        "ev29_weaver-collaboration-not-exclusive"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_evidence_ids": [],
+      "notes": "Selected passage of a later transcription. Curator review pending; no original-edition or lineage claim.",
+      "review_status": "research_pass_needs_editor",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "connection_pass": "weaver_20261004"
+    },
+    {
+      "id": "claim29_weaver-science-and-values",
+      "statement": "He rejects the expectation that scientific control alone settles social emergencies or supplies a moral code.",
+      "subject_id": "publication_fpcs_010",
+      "predicate": "qualifies_practice_claim",
+      "object_id": "concept_purpose",
+      "status": "candidate",
+      "supporting_source_ids": [
+        "src_weaver_complexity_transcription_1948"
+      ],
+      "supporting_evidence_ids": [
+        "ev29_weaver-science-and-values"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_evidence_ids": [],
+      "notes": "Selected passage of a later transcription. Curator review pending; no original-edition or lineage claim.",
+      "review_status": "research_pass_needs_editor",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "connection_pass": "weaver_20261004"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src_fpcs_official_toc",
+      "title": "Foundational Papers in Complexity Science — official tables of contents",
+      "source_type": "publisher_table_of_contents",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://www.foundationalpapersincomplexityscience.org/tables-of-contents",
+      "date": "2024",
+      "notes": "Official item-level contents for the four-volume Santa Fe Institute Press collection. It supports the bibliographic inventory, not the substantive claims of all 89 original papers.",
+      "creators": [
+        "Santa Fe Institute Press",
+        "David C. Krakauer (editor)"
+      ],
+      "publisher": "Santa Fe Institute Press",
+      "licence": "source_terms",
+      "review_status": "checked_primary_register",
+      "last_checked": "2026-08-09",
+      "public_link_status": "public_link",
+      "doi": "",
+      "isbn": "",
+      "archived_url": "",
+      "content_hash": ""
+    },
+    {
+      "id": "src_wiener_reading_lists_2026",
+      "title": "Wiener’s selected readings on cybernetics, 1951, 1952, 1956",
+      "source_type": "historical_bibliography_transcription",
+      "quality_tier": "B",
+      "access": "public",
+      "url": "https://stream.syscoi.com/2026/09/05/28544/",
+      "date": "2026-09-05",
+      "notes": "Three historical lists shared by Sean Manion, @TheUnjournaling, transcribed by Systems Community of Inquiry. Records inclusion and bibliographic wording; it does not prove influence or full-text review. The reported 1956 list contains a 1957 item.",
+      "creators": [
+        "Norbert Wiener"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Systems Community of Inquiry",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "bibliographic_or_source_boundary_checked",
+      "last_checked": "2026-09-05",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_weaver_complexity_transcription_1948",
+      "title": "Science and Complexity: selected passages in a later transcription",
+      "source_type": "primary_text_transcription",
+      "quality_tier": "B",
+      "access": "public_full_text",
+      "url": "https://patterns.architexturez.net/system/files/WEAVER1947.pdf",
+      "date": "1948",
+      "notes": "Eleven-page printout of a Ceptual Institute HTML transcription, dated 24 January 2008. This is the author's text in a later transcription, not a facsimile of the original journal pages. Selected passages on PDF pages 3, 4, 8, and 10 read. Original journal pagination not verified. The opening discussion on PDF page 1 appears truncated, and the transcript contains OCR defects. Do not use it for word-perfect quotations or claim complete original-edition review.",
+      "creators": [
+        "Warren Weaver"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Original: American Scientist; later transcription hosted by Architexturez",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "selected_passages_checked_transcription_not_facsimile",
+      "last_checked": "2026-10-04",
+      "public_link_status": "public_link",
+      "connection_pass": "weaver_20261004"
+    }
+  ],
+  "evidence_locators": [
+    {
+      "id": "ev29_weaver-conditions-on-averages",
+      "source_id": "src_weaver_complexity_transcription_1948",
+      "locator": "PDF page 3; Problems of Disorganized Complexity; paragraph beginning 'Earlier it was stated'",
+      "review_status": "research_pass_needs_editor"
+    },
+    {
+      "id": "ev29_weaver-organisation-not-count",
+      "source_id": "src_weaver_complexity_transcription_1948",
+      "locator": "PDF page 4; Problems of Organized Complexity; first paragraph",
+      "review_status": "research_pass_needs_editor"
+    },
+    {
+      "id": "ev29_weaver-collaboration-not-exclusive",
+      "source_id": "src_weaver_complexity_transcription_1948",
+      "locator": "PDF page 8; paragraph beginning 'It is tempting to forecast'",
+      "review_status": "research_pass_needs_editor"
+    },
+    {
+      "id": "ev29_weaver-science-and-values",
+      "source_id": "src_weaver_complexity_transcription_1948",
+      "locator": "PDF page 10; The Boundaries of Science; paragraph beginning 'Yes, science is a powerful tool'",
+      "review_status": "research_pass_needs_editor"
+    }
+  ],
+  "reuse_note": "Preserve source attribution, scope, and review status. Source documents and evidence excerpts are excluded."
+}

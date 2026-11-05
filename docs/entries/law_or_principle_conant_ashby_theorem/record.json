@@ -1,0 +1,793 @@
+{
+  "schema_version": "1.0",
+  "canonical_url": "https://transduction.systems/entries/law_or_principle_conant_ashby_theorem/",
+  "release": "0.35",
+  "citation": "Taylor, B. P. (2026). Conant-Ashby Theorem. The Necessary Tangle, release 0.35. https://transduction.systems/entries/law_or_principle_conant_ashby_theorem/",
+  "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
+  "entry": {
+    "id": "law_or_principle_conant_ashby_theorem",
+    "label": "Conant-Ashby Theorem",
+    "entity_type": "law_or_principle",
+    "description": "The Conant–Ashby theorem states, under the assumptions of the original formal paper, that the simplest optimal regulator must embody a model of what it regulates. Popular uses should not erase those assumptions or turn every useful representation into a proof of optimal control.",
+    "aliases": [
+      "good regulator theorem"
+    ],
+    "boundary_ring": "0",
+    "inclusion_reason": "seed_corpus",
+    "status": "accepted",
+    "source_ids": [
+      "src_grammar_presentation_2022",
+      "src_grammar_2ed_2025",
+      "src_conant_ashby_good_regulator_1970",
+      "src_salah_grammar_part3_2022"
+    ],
+    "set_tags": [
+      "systems",
+      "grammar_of_systems",
+      "requisite_variety_pilot"
+    ],
+    "espoused_labels": [],
+    "observed_clusters": [],
+    "canonical_definition": "Under the paper's assumptions, a simplest optimal regulator is representable by a mapping h: S → R.",
+    "valid_from": "",
+    "valid_to": "",
+    "external_ids": "{}",
+    "geographies": [],
+    "licence": "",
+    "review_status": "research_pass_needs_editor",
+    "reviewed_by": "",
+    "reviewed_at": "",
+    "x": -0.077374,
+    "y": -0.293478,
+    "canonical_id": "law_or_principle_conant_ashby_theorem",
+    "public_visibility": "public",
+    "publication_level": "profile",
+    "public_stub_text": "",
+    "public_source_count": 4,
+    "no_public_link_count": 0,
+    "connection_pass": "depth_20261029"
+  },
+  "profile": {
+    "node_id": "law_or_principle_conant_ashby_theorem",
+    "title": "Conant-Ashby Theorem",
+    "summary": "The result concerns the simplest regulator among those minimising outcome entropy. Its model is a mapping from reguland events to regulatory actions.",
+    "canonical_definition": "Under the paper's assumptions, a simplest optimal regulator is representable by a mapping h: S → R.",
+    "why_it_matters": "A diagram or forecast is not sufficient evidence that an organisation regulates successfully.",
+    "key_distinctions": [
+      "optimality versus simplicity",
+      "an embodied mapping versus an explicit representation",
+      "a theorem's assumptions versus an organisational analogy"
+    ],
+    "practice_connections": [
+      "State which outcomes count as successful before invoking optimality."
+    ],
+    "common_misreadings": [
+      "Every regulator is optimal.",
+      "The model must be a conscious simulation."
+    ],
+    "open_checks": [
+      "Assess how the theorem's fixed distribution and outcome criterion fit the proposed application."
+    ],
+    "source_ids": [
+      "src_conant_ashby_good_regulator_1970"
+    ],
+    "evidence_ids": [
+      "ev35_law_or_principle_conant_ashby_theorem_1"
+    ],
+    "connection_pass": "depth_20261029",
+    "profile_status": "evidence_deepened_research_pass",
+    "last_researched": "2026-10-29",
+    "review_status": "research_pass_needs_editor",
+    "editorial_note": "Primary passages checked for this bounded research pass. Exposition and editorial comparisons remain distinct; named editorial acceptance is not implied by publication."
+  },
+  "connections": [
+    {
+      "id": "e16_grammar_crosswalk_162",
+      "source": "concept_modelling",
+      "target": "law_or_principle_conant_ashby_theorem",
+      "relation_type": "explanatory_prerequisite",
+      "relation_family": "conceptual",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "",
+      "claim_status": "candidate",
+      "source_ids": [
+        "src_conant_ashby_good_regulator_1970"
+      ],
+      "evidence_ids": [
+        "ev35_edge_e16_grammar_crosswalk_162_1"
+      ],
+      "source_locator": "Models discussion and theorem, PDF pp. 5–8",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Interpreting the theorem requires its specified mapping from reguland events to regulator actions; arbitrary resemblance does not meet that definition.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "claim35_e16_grammar_crosswalk_162",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "Earlier wording and provenance are retained in this release's original-record ledger. This statement uses the sources and scope shown here.",
+      "plain_phrase": "supplies the mapping meaning required to interpret",
+      "public_review_label": "Primary-source exposition; editorial acceptance open",
+      "connection_pass": "depth_20261029",
+      "previous_source_ids": "[\"src_grammar_presentation_2022\", \"src_grammar_2ed_2025\", \"src_conant_ashby_good_regulator_1970\", \"src_salah_grammar_part3_2022\"]",
+      "previous_evidence_ids": "[]"
+    },
+    {
+      "id": "e16_grammar_crosswalk_163",
+      "source": "law_or_principle_conant_ashby_theorem",
+      "target": "concept_regulation",
+      "relation_type": "formalises",
+      "relation_family": "conceptual",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "",
+      "claim_status": "candidate",
+      "source_ids": [
+        "src_conant_ashby_good_regulator_1970"
+      ],
+      "evidence_ids": [
+        "ev35_edge_e16_grammar_crosswalk_163_1"
+      ],
+      "source_locator": "Theorem and proof, PDF pp. 8–9",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "The theorem gives a mapping condition for a simplest entropy-minimising regulator under its probability assumptions; organisational effectiveness is not thereby established.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "claim35_e16_grammar_crosswalk_163",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "Earlier wording and provenance are retained in this release's original-record ledger. This statement uses the sources and scope shown here.",
+      "plain_phrase": "states a model condition for simplest optimal regulation",
+      "public_review_label": "Primary-source exposition; editorial acceptance open",
+      "connection_pass": "depth_20261029",
+      "previous_source_ids": "[\"src_grammar_presentation_2022\", \"src_grammar_2ed_2025\", \"src_conant_ashby_good_regulator_1970\", \"src_salah_grammar_part3_2022\"]",
+      "previous_evidence_ids": "[]"
+    },
+    {
+      "id": "e16_grammar_crosswalk_164",
+      "source": "method_or_methodology_viable_system_model_vsm",
+      "target": "law_or_principle_conant_ashby_theorem",
+      "relation_type": "uses",
+      "relation_family": "practice",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.76",
+      "claim_status": "provisional",
+      "source_ids": [
+        "src_grammar_presentation_2022",
+        "src_grammar_2ed_2025",
+        "src_conant_ashby_good_regulator_1970",
+        "src_salah_grammar_part3_2022"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Crosswalk from the maintained law description and cited Grammar sources to the target entry's maintained definition",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "This is an interpretive conceptual crosswalk. It does not assert direct historical influence, formal equivalence or universal validity. The wording should be challenged or strengthened with page-level evidence.",
+      "assertion_mode": "interpreted",
+      "inference_method": "curator-requested semantic crosswalk of public descriptions",
+      "claim_id": "",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "uses the regulator-model concern expressed by",
+      "public_review_label": "provisional conceptual crosswalk"
+    },
+    {
+      "id": "e16_grammar_crosswalk_165",
+      "source": "law_or_principle_darkness_principle",
+      "target": "law_or_principle_conant_ashby_theorem",
+      "relation_type": "constrains",
+      "relation_family": "conceptual",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.76",
+      "claim_status": "provisional",
+      "source_ids": [
+        "src_grammar_presentation_2022",
+        "src_grammar_2ed_2025",
+        "src_salah_grammar_part2_2022"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Crosswalk from the maintained law description and cited Grammar sources to the target entry's maintained definition",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "This is an interpretive conceptual crosswalk. It does not assert direct historical influence, formal equivalence or universal validity. The wording should be challenged or strengthened with page-level evidence.",
+      "assertion_mode": "interpreted",
+      "inference_method": "curator-requested semantic crosswalk of public descriptions",
+      "claim_id": "",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "limits claims of complete knowledge when interpreting",
+      "public_review_label": "provisional conceptual crosswalk"
+    },
+    {
+      "id": "e16_grammar_crosswalk_166",
+      "source": "law_or_principle_conant_ashby_theorem",
+      "target": "concept_modelling",
+      "relation_type": "develops",
+      "relation_family": "conceptual",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.76",
+      "claim_status": "provisional",
+      "source_ids": [
+        "src_grammar_presentation_2022",
+        "src_grammar_2ed_2025",
+        "src_conant_ashby_good_regulator_1970",
+        "src_salah_grammar_part3_2022"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Crosswalk from the maintained law description and cited Grammar sources to the target entry's maintained definition",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "This is an interpretive conceptual crosswalk. It does not assert direct historical influence, formal equivalence or universal validity. The wording should be challenged or strengthened with page-level evidence.",
+      "assertion_mode": "interpreted",
+      "inference_method": "curator-requested semantic crosswalk of public descriptions",
+      "claim_id": "",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "develops the Grammar pattern of",
+      "public_review_label": "provisional conceptual crosswalk"
+    },
+    {
+      "id": "e16_grammar_presents_conant_ashby_theorem",
+      "source": "publication_grammar_of_systems_ii",
+      "target": "law_or_principle_conant_ashby_theorem",
+      "relation_type": "presents",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.96",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_grammar_presentation_2022",
+        "src_grammar_2ed_2025",
+        "src_conant_ashby_good_regulator_1970",
+        "src_salah_grammar_part3_2022"
+      ],
+      "evidence_ids": [],
+      "source_locator": "The Grammar of Systems presentation and second-edition contents",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "This states collection placement only. It does not make the book the sole source or final authority for the principle.",
+      "assertion_mode": "asserted",
+      "inference_method": "direct source-set membership",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-10",
+      "notes": "",
+      "plain_phrase": "presents as one of its 33 laws and principles",
+      "public_review_label": "source-backed collection statement"
+    },
+    {
+      "id": "e_0332",
+      "source": "law_or_principle_conant_ashby_theorem",
+      "target": "person_roger_c_conant",
+      "relation_type": "formulated_by",
+      "relation_family": "historical",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.99",
+      "claim_status": "corroborated",
+      "source_ids": [
+        "src_conant_ashby_good_regulator_1970"
+      ],
+      "evidence_ids": [
+        "ev_conant_ashby_theorem"
+      ],
+      "source_locator": "pp. 89–97",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "claim_good_regulator_formulation",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "formulated by",
+      "public_review_label": "supported"
+    },
+    {
+      "id": "e_0333",
+      "source": "law_or_principle_conant_ashby_theorem",
+      "target": "person_w_ross_ashby",
+      "relation_type": "formulated_by",
+      "relation_family": "historical",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.99",
+      "claim_status": "corroborated",
+      "source_ids": [
+        "src_conant_ashby_good_regulator_1970"
+      ],
+      "evidence_ids": [
+        "ev_conant_ashby_theorem"
+      ],
+      "source_locator": "pp. 89–97",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "claim_good_regulator_formulation_ashby",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "formulated by",
+      "public_review_label": "supported"
+    },
+    {
+      "id": "e_0335",
+      "source": "law_or_principle_law_of_requisite_variety",
+      "target": "law_or_principle_conant_ashby_theorem",
+      "relation_type": "complements",
+      "relation_family": "conceptual",
+      "directed": "false",
+      "dependency_kind": "",
+      "confidence": "0.80",
+      "claim_status": "corroborated",
+      "source_ids": [
+        "src_ashby_intro_cybernetics_1956",
+        "src_conant_ashby_good_regulator_1970"
+      ],
+      "evidence_ids": [
+        "ev_ashby_requisite_variety",
+        "ev_conant_ashby_theorem"
+      ],
+      "source_locator": "Ashby chapter 11; Conant & Ashby pp. 89–97",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "Editorial comparison: both concern limits and requirements of regulation, but they are distinct results.",
+      "plain_phrase": "complements",
+      "public_review_label": "supported"
+    },
+    {
+      "id": "e26_9785882d424befb8658965",
+      "source": "resource_lib26_3d2e2710c49aaf3d",
+      "target": "law_or_principle_conant_ashby_theorem",
+      "relation_type": "source_text_mentions",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "",
+      "claim_status": "candidate",
+      "source_ids": [
+        "src_lib26_3d2e2710c49aaf3d"
+      ],
+      "evidence_ids": [],
+      "source_locator": "PDF page 24",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Exact phrase in extracted source text; page-level checking may remain pending as recorded by the locator. Its appearance may be in discussion, a quotation, a reference, or a critical comparison. No semantic or historical claim is inferred.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "contains a located mention of good regulator theorem",
+      "public_review_label": "Located source statement; independent review not recorded",
+      "connection_pass": "library_20260919"
+    },
+    {
+      "id": "e26_bf8dc0b103e9f143406775",
+      "source": "resource_lib26_d5d4589745bab39e",
+      "target": "law_or_principle_conant_ashby_theorem",
+      "relation_type": "source_text_mentions",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "",
+      "claim_status": "candidate",
+      "source_ids": [
+        "src_taylor_vsm_lecture_2025"
+      ],
+      "evidence_ids": [],
+      "source_locator": "PDF page 49",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Exact phrase in extracted source text; page-level checking may remain pending as recorded by the locator. Its appearance may be in discussion, a quotation, a reference, or a critical comparison. No semantic or historical claim is inferred.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "contains a located mention of Conant-Ashby Theorem",
+      "public_review_label": "Located source statement; independent review not recorded",
+      "connection_pass": "library_20260919"
+    },
+    {
+      "id": "e31_module_ashby_4",
+      "source": "publication_u31_ashby",
+      "target": "law_or_principle_conant_ashby_theorem",
+      "relation_type": "presents_account_of",
+      "relation_family": "conceptual",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "",
+      "claim_status": "candidate",
+      "source_ids": [
+        "src_u31_ashby"
+      ],
+      "evidence_ids": [
+        "ev_e31_module_ashby_4"
+      ],
+      "source_locator": "p. 5, PS6",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "In Challoner’s reconstruction: The good-regulator proposition is presented with stated mathematical qualifications.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "claim_e31_module_ashby_4",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "presents account of",
+      "public_review_label": "Located source statement; curator review pending",
+      "connection_pass": "update_20261008"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_good_regulator_formulation",
+      "statement": "Roger C. Conant and W. Ross Ashby jointly formulated the good regulator theorem in their 1970 paper.",
+      "subject_id": "law_or_principle_conant_ashby_theorem",
+      "predicate": "formulated_by",
+      "object_id": "person_roger_c_conant",
+      "status": "corroborated",
+      "supporting_source_ids": [
+        "src_conant_ashby_good_regulator_1970"
+      ],
+      "supporting_evidence_ids": [
+        "ev_conant_ashby_theorem"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_evidence_ids": [],
+      "notes": "Evidence records: ev_conant_ashby_theorem. Research pass requires named editorial review before public canonical status.",
+      "review_status": "research_pass_needs_editor",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    {
+      "id": "claim_good_regulator_formulation_ashby",
+      "statement": "Roger C. Conant and W. Ross Ashby jointly formulated the good regulator theorem in their 1970 paper.",
+      "subject_id": "law_or_principle_conant_ashby_theorem",
+      "predicate": "formulated_by",
+      "object_id": "person_w_ross_ashby",
+      "status": "corroborated",
+      "supporting_source_ids": [
+        "src_conant_ashby_good_regulator_1970"
+      ],
+      "supporting_evidence_ids": [
+        "ev_conant_ashby_theorem"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_evidence_ids": [],
+      "notes": "Evidence records: ev_conant_ashby_theorem. Research pass requires named editorial review before public canonical status.",
+      "review_status": "research_pass_needs_editor",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    {
+      "id": "claim_e31_module_ashby_4",
+      "statement": "In Challoner’s reconstruction: The good-regulator proposition is presented with stated mathematical qualifications.",
+      "subject_id": "publication_u31_ashby",
+      "predicate": "presents_account_of",
+      "object_id": "law_or_principle_conant_ashby_theorem",
+      "status": "candidate",
+      "supporting_source_ids": [
+        "src_u31_ashby"
+      ],
+      "supporting_evidence_ids": [
+        "ev_e31_module_ashby_4"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_evidence_ids": [],
+      "notes": "Source-scoped interpretation. Human editorial acceptance remains pending.",
+      "review_status": "research_pass_needs_editor",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "connection_pass": "update_20261008"
+    },
+    {
+      "id": "claim35_e16_grammar_crosswalk_163",
+      "statement": "The theorem gives a mapping condition for a simplest entropy-minimising regulator under its probability assumptions; organisational effectiveness is not thereby established.",
+      "subject_id": "law_or_principle_conant_ashby_theorem",
+      "predicate": "formalises",
+      "object_id": "concept_regulation",
+      "status": "candidate",
+      "supporting_source_ids": [
+        "src_conant_ashby_good_regulator_1970"
+      ],
+      "supporting_evidence_ids": [
+        "ev35_edge_e16_grammar_crosswalk_163_1"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_evidence_ids": [],
+      "notes": "Primary-source exposition; editorial acceptance open",
+      "review_status": "research_pass_needs_editor",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "connection_pass": "depth_20261029"
+    },
+    {
+      "id": "claim35_e16_grammar_crosswalk_162",
+      "statement": "Interpreting the theorem requires its specified mapping from reguland events to regulator actions; arbitrary resemblance does not meet that definition.",
+      "subject_id": "concept_modelling",
+      "predicate": "explanatory_prerequisite",
+      "object_id": "law_or_principle_conant_ashby_theorem",
+      "status": "candidate",
+      "supporting_source_ids": [
+        "src_conant_ashby_good_regulator_1970"
+      ],
+      "supporting_evidence_ids": [
+        "ev35_edge_e16_grammar_crosswalk_162_1"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_evidence_ids": [],
+      "notes": "Primary-source exposition; editorial acceptance open",
+      "review_status": "research_pass_needs_editor",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "connection_pass": "depth_20261029"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src_grammar_presentation_2022",
+      "title": "The Grammar of Systems - SCiO presentation",
+      "source_type": "presentation",
+      "quality_tier": "C",
+      "access": "public",
+      "url": "https://www.systemspractice.org/resources/grammar-systems",
+      "date": "2022-03-21",
+      "notes": "Lists 33 systems laws and principles and describes nine patterns of thinking.",
+      "creators": [
+        "Patrick Hoverstadt"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "SCiO",
+      "licence": "site_terms",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-10",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_grammar_2ed_2025",
+      "title": "The Grammar of Systems II: From Order to Chaos and Back Again, 2nd edition",
+      "source_type": "book",
+      "quality_tier": "B",
+      "access": "public_metadata",
+      "url": "https://www.systemspractice.org/resources/grammar-systems-ii-order-chaos-back-again-2nd-ed",
+      "date": "2025-08-01",
+      "notes": "Current second-edition metadata. The book presents nine systems-thinking patterns and 33 systems laws and principles.",
+      "creators": [
+        "Patrick Hoverstadt"
+      ],
+      "doi": "",
+      "isbn": "979-8298960878",
+      "publisher": "SCiO",
+      "licence": "publisher_terms",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-10",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_conant_ashby_good_regulator_1970",
+      "title": "Every Good Regulator of a System Must Be a Model of That System",
+      "source_type": "primary_text",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://doi.org/10.1080/00207727008920220",
+      "date": "1970",
+      "notes": "Primary article text opened and inspected at Principia Cybernetica. Electronic transcription contains formatting errors in some equations. Locators here identify its PDF pages, not invented original journal page correspondence.",
+      "creators": [
+        "Roger C. Conant",
+        "W. Ross Ashby"
+      ],
+      "doi": "10.1080/00207727008920220",
+      "isbn": "",
+      "publisher": "International Journal of Systems Science 1(2), 89–97",
+      "licence": "publisher_terms",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "passage_checked_research_pass",
+      "last_checked": "2026-10-29",
+      "public_link_status": "public_link",
+      "reading_url": "https://pespmc1.vub.ac.be/books/Conant_Ashby.pdf",
+      "connection_pass": "depth_20261029",
+      "source_locator": "Theorem, proof, and subsequent comments, electronic PDF pp. 8–9; section 5, Discussion",
+      "access_note": "Electronic transcription contains formatting errors in some equations. Locators here identify its PDF pages, not invented original journal page correspondence."
+    },
+    {
+      "id": "src_salah_grammar_part3_2022",
+      "title": "Cybersecurity Lessons from The Grammar of Systems, part 3",
+      "source_type": "public_secondary_summary",
+      "quality_tier": "C",
+      "access": "public",
+      "url": "https://www.linkedin.com/pulse/cybersecurity-lessons-from-grammar-systems-order-chaos-osama-salah-2f",
+      "date": "2022-06-01",
+      "notes": "Public secondary summary of Grammar of Systems items 23–33. Used as an accessible orientation aid; the book remains the controlling source.",
+      "creators": [
+        "Osama Salah"
+      ],
+      "publisher": "LinkedIn",
+      "licence": "publisher_terms",
+      "review_status": "checked",
+      "last_checked": "2026-08-09",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_salah_grammar_part2_2022",
+      "title": "Cybersecurity Lessons from The Grammar of Systems, part 2",
+      "source_type": "public_secondary_summary",
+      "quality_tier": "C",
+      "access": "public",
+      "url": "https://www.linkedin.com/pulse/cybersecurity-lessons-from-grammar-systems-order-chaos-osama-salah-1f",
+      "date": "2022-05-23",
+      "notes": "Public secondary summary of Grammar of Systems items 12–22. Used as an accessible orientation aid; the book remains the controlling source.",
+      "creators": [
+        "Osama Salah"
+      ],
+      "publisher": "LinkedIn",
+      "licence": "publisher_terms",
+      "review_status": "checked",
+      "last_checked": "2026-08-09",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_ashby_intro_cybernetics_1956",
+      "title": "An Introduction to Cybernetics",
+      "source_type": "primary_text",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://ashby.info/Ashby-Introduction-to-Cybernetics.pdf",
+      "date": "1956",
+      "notes": "Primary text opened and inspected. Title page identifies the 1957 second impression of the 1956 book. Use section numbers as the stable locator: the electronic PDF places two printed pages on each PDF page. Rights statement permits educational and research distribution with its notice; this packet links and paraphrases.",
+      "creators": [
+        "W. Ross Ashby"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Chapman & Hall",
+      "licence": "archive_access_check_reuse",
+      "archived_url": "https://www.ashby.info/",
+      "content_hash": "",
+      "review_status": "passage_checked_research_pass",
+      "last_checked": "2026-10-29",
+      "public_link_status": "public_link",
+      "connection_pass": "depth_20261029",
+      "source_locator": "1957 second impression; sections 11/5–11/11, printed pp. 205–209; PDF pp. 109–111",
+      "access_note": "Use section numbers as the stable locator: the electronic PDF places two printed pages on each PDF page. Rights statement permits educational and research distribution with its notice; this packet links and paraphrases."
+    },
+    {
+      "id": "src_lib26_3d2e2710c49aaf3d",
+      "title": "Systems leadership, change, theory and practice",
+      "source_type": "public_catalogue_record",
+      "quality_tier": "C",
+      "access": "public",
+      "url": "https://antlerboy.com/library/files/talks/systems-leadership-change-theory-and-practice.pdf",
+      "date": "2026-09-19",
+      "notes": "Public Antlerboy manifest. PDF text indexed; located concept terms, not a full scholarly review. Identity and located teaching relationships are separated from automatic title matches and exact text mentions. A term appearing in a source is not proof of its definition, endorsement, influence, or logical dependence.",
+      "creators": [
+        "Benjamin P Taylor"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Benjamin P Taylor public work library",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "located_public_record",
+      "last_checked": "2026-09-19",
+      "public_link_status": "public_link",
+      "connection_pass": "library_20260919",
+      "year": "2023"
+    },
+    {
+      "id": "src_taylor_vsm_lecture_2025",
+      "title": "Benjamin Taylor VSM lecture",
+      "source_type": "public_teaching_material",
+      "quality_tier": "C",
+      "access": "public",
+      "url": "https://antlerboy.com/library/files/talks/viable-system-model-lecture.pdf",
+      "date": "2025-05-10",
+      "notes": "Public teaching presentation. Public PDF linked on 2026-09-19; the earlier unpublished access description is superseded.",
+      "creators": [
+        "Benjamin P Taylor"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Benjamin P Taylor public work library",
+      "licence": "not_publicly_licensed",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "public_file_identity_checked",
+      "last_checked": "2026-09-19",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_u31_ashby",
+      "title": "Ashby: selection, regulation, and variety: researcher module",
+      "source_type": "public_source",
+      "quality_tier": "B",
+      "access": "public",
+      "url": "https://rational-understanding.com/wp-content/uploads/2026/10/ashby-researcher-module.pdf",
+      "date": "2026",
+      "notes": "John A Challoner’s version 1 reconstruction, 30 September 2026. General and specialised definitions/propositions are labelled separately; original-author wording is not implied.",
+      "creators": [
+        "John A Challoner"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Rational Understanding",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "82f4be02d8ef575245c734d826a9a65993f6eba96d42c4ec67204b6f6931776e",
+      "review_status": "source_scoped_research_pass",
+      "last_checked": "2026-10-08",
+      "public_link_status": "public_link",
+      "connection_pass": "update_20261008",
+      "source_locator": "Complete PDF, 6 pages; specific claims carry page and proposition references",
+      "source_role": "secondary reconstruction",
+      "pages_read": 6
+    }
+  ],
+  "evidence_locators": [
+    {
+      "id": "ev35_law_or_principle_conant_ashby_theorem_1",
+      "source_id": "src_conant_ashby_good_regulator_1970",
+      "locator": "Theorem and proof, PDF pp. 8–9; Discussion",
+      "review_status": "research_pass_needs_editor"
+    },
+    {
+      "id": "ev35_edge_e16_grammar_crosswalk_162_1",
+      "source_id": "src_conant_ashby_good_regulator_1970",
+      "locator": "Models discussion and theorem, PDF pp. 5–8",
+      "review_status": "research_pass_needs_editor"
+    },
+    {
+      "id": "ev35_edge_e16_grammar_crosswalk_163_1",
+      "source_id": "src_conant_ashby_good_regulator_1970",
+      "locator": "Theorem and proof, PDF pp. 8–9",
+      "review_status": "research_pass_needs_editor"
+    },
+    {
+      "id": "ev_conant_ashby_theorem",
+      "source_id": "src_conant_ashby_good_regulator_1970",
+      "locator": "International Journal of Systems Science 1(2), abstract and pp. 89–97",
+      "review_status": "research_pass_needs_editor"
+    },
+    {
+      "id": "ev_ashby_requisite_variety",
+      "source_id": "src_ashby_intro_cybernetics_1956",
+      "locator": "chapter 11, especially sections 11/7–11/13",
+      "review_status": "research_pass_needs_editor"
+    },
+    {
+      "id": "ev_e31_module_ashby_4",
+      "source_id": "src_u31_ashby",
+      "locator": "p. 5, PS6",
+      "review_status": "research_pass_needs_editor"
+    }
+  ],
+  "reuse_note": "Preserve source attribution, scope, and review status. Source documents and evidence excerpts are excluded."
+}

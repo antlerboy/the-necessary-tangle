@@ -1,0 +1,145 @@
+{
+  "schema_version": "1.0",
+  "canonical_url": "https://transduction.systems/entries/publication_murmurations_journal/",
+  "release": "0.35",
+  "citation": "Taylor, B. P. (2026). Murmurations: Journal of Transformative Systemic Practice. The Necessary Tangle, release 0.35. https://transduction.systems/entries/publication_murmurations_journal/",
+  "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
+  "entry": {
+    "id": "publication_murmurations_journal",
+    "label": "Murmurations: Journal of Transformative Systemic Practice",
+    "entity_type": "publication",
+    "description": "An independent, peer-reviewed, open-access journal for relationally attuned systemic social-constructionist practitioners and practitioner-researchers across therapy, organisations, leadership, education, health and community work.",
+    "aliases": [],
+    "boundary_ring": "1",
+    "inclusion_reason": "public_source_and_depth_pass",
+    "status": "accepted",
+    "source_ids": [
+      "src_murmurations_about"
+    ],
+    "set_tags": [
+      "complexity",
+      "practice",
+      "release_0_9_source_depth"
+    ],
+    "espoused_labels": [],
+    "observed_clusters": [],
+    "canonical_definition": "",
+    "valid_from": "",
+    "valid_to": "",
+    "external_ids": "{}",
+    "geographies": [],
+    "licence": "",
+    "review_status": "curator_checked_public_sources",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-10",
+    "x": 0.21,
+    "y": 0.36,
+    "canonical_id": "publication_murmurations_journal",
+    "public_visibility": "public",
+    "publication_level": "profile",
+    "public_stub_text": "",
+    "public_source_count": 1,
+    "no_public_link_count": 0
+  },
+  "profile": {
+    "node_id": "publication_murmurations_journal",
+    "summary": "Murmurations publishes open-access practitioner research in systemic, relational and social-constructionist practice. It provides a route into practice domains and voices that a concept-first systems map easily neglects.",
+    "why_it_matters": "The atlas currently contains many methods and intervention skills with almost no substantive practice connections. A journal organised around practitioner inquiry can help connect ideas to situated work without pretending that publication in the journal settles a claim.",
+    "key_distinctions": [
+      "The journal is a publication venue and community, not one coherent theory.",
+      "Systemic social constructionist practice overlaps with but is not identical to systems science or cybernetics.",
+      "Open access improves inspectability but does not remove the need for article-level appraisal."
+    ],
+    "historical_lineage": [
+      "Published by Everything is Connected Press with an independent editorial and review model."
+    ],
+    "logical_antecedents": [
+      "Systemic practice",
+      "Social constructionism",
+      "Reflexivity",
+      "Relational practice"
+    ],
+    "dependent_subsequents": [
+      "Article-level practice examples",
+      "Practitioner-researcher constellations",
+      "Revival-paper conversations"
+    ],
+    "practice_connections": [
+      "Therapy",
+      "Leadership and organisational consultancy",
+      "Education",
+      "Health and social care",
+      "Community practice"
+    ],
+    "common_misreadings": [
+      "That every article belongs in the core atlas because the journal calls itself systemic.",
+      "That a journal's stated scope demonstrates a conceptual or historical connection for each paper."
+    ],
+    "open_checks": [
+      "Inventory relevant articles, authors, DOI records and cited sources; record exclusions as well as admissions."
+    ],
+    "source_ids": [
+      "src_murmurations_about"
+    ],
+    "evidence_ids": [],
+    "review_status": "curator_checked_public_sources",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-10"
+  },
+  "connections": [
+    {
+      "id": "e_09_murmurations_complex_responsive",
+      "source": "publication_murmurations_journal",
+      "target": "practice_systems_practice",
+      "relation_type": "presents",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.97",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_murmurations_about"
+      ],
+      "evidence_ids": [],
+      "source_locator": "About the Journal, paragraphs 22–36, especially the scope and reflexive-inquiry statements",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "The official scope establishes a venue for systemic practitioners and practice-based reflexive inquiry; it does not establish adherence to complex responsive processes.",
+      "assertion_mode": "asserted",
+      "inference_method": "close reading of the official journal scope",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-10",
+      "notes": "The journal describes itself as a venue for relationally attuned systemic practitioners and asks contributors to speak from within as well as about practice.",
+      "plain_phrase": "publishes reflexive inquiry from within",
+      "public_review_label": "source-established journal scope"
+    }
+  ],
+  "claims": [],
+  "sources": [
+    {
+      "id": "src_murmurations_about",
+      "title": "About Murmurations: Journal of Transformative Systemic Practice",
+      "source_type": "official_journal_page",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://murmurations.cloud/index.php/pub/about",
+      "date": "",
+      "notes": "Official journal description, scope, publishing model, archive arrangements, ISSN, DOI prefix and licensing statement.",
+      "creators": [
+        "Murmurations editorial collective"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Everything is Connected Press",
+      "licence": "CC BY-NC-ND 4.0",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-10",
+      "public_link_status": "public_link"
+    }
+  ],
+  "evidence_locators": [],
+  "reuse_note": "Preserve source attribution, scope, and review status. Source documents and evidence excerpts are excluded."
+}

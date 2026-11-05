@@ -1,0 +1,173 @@
+{
+  "schema_version": "1.0",
+  "canonical_url": "https://transduction.systems/entries/publication_flawless_consulting/",
+  "release": "0.35",
+  "citation": "Taylor, B. P. (2026). Flawless Consulting: A Guide to Getting Your Expertise Used. The Necessary Tangle, release 0.35. https://transduction.systems/entries/publication_flawless_consulting/",
+  "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
+  "entry": {
+    "id": "publication_flawless_consulting",
+    "label": "Flawless Consulting: A Guide to Getting Your Expertise Used",
+    "entity_type": "publication",
+    "description": "Peter Block’s practice text on the consulting relationship, including contracting, discovery, feedback, engagement and implementation as conditions for getting expertise used.",
+    "aliases": [],
+    "boundary_ring": "0",
+    "inclusion_reason": "iteration_0_15_depth_and_practice",
+    "status": "accepted",
+    "source_ids": [
+      "src_block_flawless_wiley",
+      "src_taylor_reading_list_current"
+    ],
+    "set_tags": [
+      "systems",
+      "practice",
+      "release_0_15",
+      "reading-list",
+      "intervention"
+    ],
+    "espoused_labels": [],
+    "observed_clusters": [],
+    "canonical_definition": "Peter Block’s practice text on the consulting relationship, including contracting, discovery, feedback, engagement and implementation as conditions for getting expertise used.",
+    "valid_from": "",
+    "valid_to": "",
+    "external_ids": "{}",
+    "geographies": [],
+    "licence": "",
+    "review_status": "curator_checked_public_sources",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-14",
+    "x": 0.12,
+    "y": 0.39,
+    "canonical_id": "publication_flawless_consulting",
+    "public_visibility": "public",
+    "publication_level": "profile",
+    "public_stub_text": "",
+    "public_source_count": 2,
+    "no_public_link_count": 0
+  },
+  "profile": {
+    "node_id": "publication_flawless_consulting",
+    "title": "Flawless Consulting: A Guide to Getting Your Expertise Used",
+    "profile_status": "curator_checked_public_sources",
+    "canonical_definition": "Peter Block’s practice text on the consulting relationship, including contracting, discovery, feedback, engagement and implementation as conditions for getting expertise used.",
+    "summary": "Block treats consulting as a relationship and contracting practice rather than the transfer of expert answers.",
+    "why_it_matters": "Systems interventions fail as often through contracting, ownership and implementation relations as through weak technical models.",
+    "key_distinctions": [
+      "consulting relationship versus expert delivery",
+      "authentic contracting versus covert control",
+      "engagement versus compliance"
+    ],
+    "historical_lineage": [
+      "organisation development",
+      "consulting practice"
+    ],
+    "logical_antecedents": [
+      "helping relationships",
+      "organisation development"
+    ],
+    "dependent_subsequents": [
+      "consulting and facilitation practice"
+    ],
+    "practice_connections": [
+      "contracting",
+      "feedback",
+      "implementation",
+      "stakeholder work"
+    ],
+    "espoused_lineages": [],
+    "observed_clusters": [],
+    "common_misreadings": [
+      "It is not a systems methodology; it supports the intervention relationship around one."
+    ],
+    "open_checks": [
+      "Link to helping, facilitation and power traditions."
+    ],
+    "source_ids": [
+      "src_block_flawless_wiley",
+      "src_taylor_reading_list_current"
+    ],
+    "evidence_ids": [],
+    "last_researched": "2026-08-14",
+    "review_status": "curator_checked_public_sources",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-14",
+    "editorial_note": "Public account based on named sources; documentary provenance, interpretation and evaluative claims are kept distinct."
+  },
+  "connections": [
+    {
+      "id": "e15_flawless_supports_intervention",
+      "source": "intervention_skill_flawless_consulting",
+      "target": "publication_flawless_consulting",
+      "relation_type": "supported_by",
+      "relation_family": "practice",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.88",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_block_flawless_wiley"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Release 0.15 public sources",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Limited to the named sources. Documentary connection, conceptual influence, teaching use and effectiveness are distinct claims.",
+      "assertion_mode": "asserted",
+      "inference_method": "curatorial synthesis of public sources",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-14",
+      "notes": "",
+      "plain_phrase": "is supported by",
+      "public_review_label": "supported working statement"
+    }
+  ],
+  "claims": [],
+  "sources": [
+    {
+      "id": "src_block_flawless_wiley",
+      "title": "Flawless Consulting — Wiley record",
+      "source_type": "publisher_record",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://www.wiley.com/en-us/Flawless+Consulting%3A+A+Guide+to+Getting+Your+Expertise+Used%2C+4th+Edition-p-9781394177318",
+      "date": "checked 2026-08-14",
+      "notes": "Publisher record for Peter Block’s consulting practice, focused on helping expertise get used through contracting, discovery, feedback, engagement and implementation.",
+      "creators": [
+        "Peter Block"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Wiley",
+      "licence": "site terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-14",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_taylor_reading_list_current",
+      "title": "Updated rough draft systems | complexity | cybernetics reading list",
+      "source_type": "public_curated_reading_list",
+      "quality_tier": "B",
+      "access": "public",
+      "url": "https://stream.syscoi.com/2024/10/01/updated-rough-draft-systems-complexity-cybernetics-reading-list/",
+      "date": "2024-10-01",
+      "notes": "Curator framing for the supplied 110-item inventory. It states that the list is partial and context-dependent and names a small set of practical starting points. It is evidence of intended coverage, not evidence for relationships among the listed works.",
+      "creators": [
+        "Benjamin P Taylor"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Systems Community of Inquiry",
+      "licence": "source_terms",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked_primary_curator_record",
+      "last_checked": "2026-08-14",
+      "public_link_status": "public_link"
+    }
+  ],
+  "evidence_locators": [],
+  "reuse_note": "Preserve source attribution, scope, and review status. Source documents and evidence excerpts are excluded."
+}

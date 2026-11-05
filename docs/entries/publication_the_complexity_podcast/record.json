@@ -1,0 +1,201 @@
+{
+  "schema_version": "1.0",
+  "canonical_url": "https://transduction.systems/entries/publication_the_complexity_podcast/",
+  "release": "0.35",
+  "citation": "Taylor, B. P. (2026). The Complexity Podcast. The Necessary Tangle, release 0.35. https://transduction.systems/entries/publication_the_complexity_podcast/",
+  "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
+  "entry": {
+    "id": "publication_the_complexity_podcast",
+    "label": "The Complexity Podcast",
+    "entity_type": "publication",
+    "description": "The official Santa Fe Institute podcast and transcript archive: a dated public record of conversations across complexity science, its applications and disputes. The corpus is evidence of what participants said and what SFI chose to publish, not automatic proof of a statement's truth or a guest's influence.",
+    "aliases": [
+      "COMPLEXITY podcast",
+      "Santa Fe Institute Complexity podcast"
+    ],
+    "boundary_ring": "0",
+    "inclusion_reason": "post_0_18_curator_corpus_request",
+    "status": "accepted",
+    "source_ids": [
+      "src_sfi_complexity_podcast_archive_2026",
+      "src_sfi_complexity_simplecast_2026",
+      "src_sfi_complexity_rss_2026"
+    ],
+    "set_tags": [
+      "systems",
+      "complexity",
+      "podcast",
+      "transcript-corpus",
+      "source-corpus",
+      "release_0_19"
+    ],
+    "espoused_labels": [],
+    "observed_clusters": [],
+    "canonical_definition": "The official Santa Fe Institute podcast and transcript archive: a dated public record of conversations across complexity science, its applications and disputes. The corpus is evidence of what participants said and what SFI chose to publish, not automatic proof of a statement's truth or a guest's influence.",
+    "valid_from": "",
+    "valid_to": "",
+    "external_ids": "{}",
+    "geographies": [],
+    "licence": "",
+    "review_status": "curator_checked_public_sources",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-25",
+    "x": -620.0,
+    "y": -430.0,
+    "canonical_id": "publication_the_complexity_podcast",
+    "public_visibility": "public",
+    "publication_level": "profile",
+    "public_stub_text": "",
+    "public_source_count": 3,
+    "no_public_link_count": 0
+  },
+  "profile": {
+    "node_id": "publication_the_complexity_podcast",
+    "summary": "The official Santa Fe Institute podcast and transcript archive: a dated public record of conversations across complexity science, its applications and disputes. The corpus is evidence of what participants said and what SFI chose to publish, not automatic proof of a statement's truth or a guest's influence.",
+    "canonical_definition": "The official Santa Fe Institute podcast and transcript archive: a dated public record of conversations across complexity science, its applications and disputes. The corpus is evidence of what participants said and what SFI chose to publish, not automatic proof of a statement's truth or a guest's influence.",
+    "why_it_matters": "It is a substantial public, transcript-backed record of how one leading complexity-science institution frames questions, hosts disagreement and connects research domains over time.",
+    "key_distinctions": [
+      "An episode transcript supports a located account of what was said; it is not independent corroboration.",
+      "A guest appearance documents participation, not intellectual priority, endorsement or field-wide importance.",
+      "Show notes are discovery routes. Their linked papers and books must be checked directly before supporting stronger claims.",
+      "The complete corpus can be registered before every episode has received a deep interpretive pass."
+    ],
+    "historical_lineage": [
+      "Published by the Santa Fe Institute from 2019 to 2024.",
+      "The official archive points readers to a full transcript for every episode at Simplecast.",
+      "Release 0.19 records the complete feed as a bounded corpus and starts a question-led review rather than a bulk edge-generation exercise."
+    ],
+    "logical_antecedents": [
+      "Complexity science",
+      "Public scholarship",
+      "Transcript-backed source corpora"
+    ],
+    "dependent_subsequents": [
+      "Episode-level claims with timestamp or transcript locators",
+      "Named works and institutional links checked at their primary sources"
+    ],
+    "practice_connections": [
+      "Use transcript search to locate explicit definitions, disagreements, intellectual debts and practical examples.",
+      "Use the RSS feed for inventory and dates, and the transcript page for the actual claim."
+    ],
+    "common_misreadings": [
+      "Treating the whole corpus as one coherent theory.",
+      "Turning proximity to SFI into a proxy for truth or importance.",
+      "Adding generic connections merely because two terms occur in the same conversation."
+    ],
+    "open_checks": [
+      "Complete an episode-level inventory with stable transcript URLs and guests.",
+      "Deep-read priority episodes against existing atlas gaps before adding new claims.",
+      "Record disagreements and source-role limits alongside any resulting edge."
+    ],
+    "source_ids": [
+      "src_sfi_complexity_podcast_archive_2026",
+      "src_sfi_complexity_simplecast_2026",
+      "src_sfi_complexity_rss_2026"
+    ],
+    "context_and_lineage": "A public source corpus at the intersection of institutional communication, research conversation and field formation.",
+    "editorial_note": "Registered as a complete corpus in 0.19; episode-level interpretation remains deliberately staged and source-located.",
+    "last_researched": "2026-08-25"
+  },
+  "connections": [
+    {
+      "id": "e19_sfi_publishes_complexity_podcast",
+      "source": "organisation_santa_fe_institute",
+      "target": "publication_the_complexity_podcast",
+      "relation_type": "publishes_source_corpus",
+      "relation_family": "provenance",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.94",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_sfi_complexity_podcast_archive_2026",
+        "src_sfi_complexity_simplecast_2026"
+      ],
+      "evidence_ids": [],
+      "source_locator": "SFI Podcast Archive: Complexity; Simplecast series landing page",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "This establishes institutional publication and transcript availability. It does not establish the truth or influence of any episode claim.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-19",
+      "notes": "",
+      "plain_phrase": "publishes as a public source corpus",
+      "public_review_label": "source-backed statement"
+    }
+  ],
+  "claims": [],
+  "sources": [
+    {
+      "id": "src_sfi_complexity_podcast_archive_2026",
+      "title": "Podcast Archive — Complexity",
+      "source_type": "official_institutional_archive",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://web-prod.santafe.edu/culture/podcast-archive",
+      "date": "checked 2026-08-25",
+      "notes": "The Santa Fe Institute's official podcast archive establishes COMPLEXITY as an SFI podcast and states that full transcripts for every episode are available through Simplecast.",
+      "creators": [
+        "Santa Fe Institute"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Santa Fe Institute",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-25",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_sfi_complexity_simplecast_2026",
+      "title": "COMPLEXITY",
+      "source_type": "official_podcast_archive",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://complexity.simplecast.com/",
+      "date": "2019-2024; checked 2026-08-25",
+      "notes": "The public Simplecast archive supplies episode pages, notes and transcript pages. A transcript establishes what was said in that episode; it does not independently establish the truth, priority or influence of the claim.",
+      "creators": [
+        "Santa Fe Institute"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Santa Fe Institute / Simplecast",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-25",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_sfi_complexity_rss_2026",
+      "title": "COMPLEXITY RSS feed",
+      "source_type": "official_syndication_feed",
+      "quality_tier": "B",
+      "access": "public",
+      "url": "https://feeds.simplecast.com/OzDH_At2",
+      "date": "2019-2024; checked 2026-08-25",
+      "notes": "The official syndication feed is the machine-readable episode inventory. The 0.19 intake records 119 current feed items without converting every appearance or show-note link into a graph claim.",
+      "creators": [
+        "Santa Fe Institute"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Santa Fe Institute / Simplecast",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-25",
+      "public_link_status": "public_link"
+    }
+  ],
+  "evidence_locators": [],
+  "reuse_note": "Preserve source attribution, scope, and review status. Source documents and evidence excerpts are excluded."
+}

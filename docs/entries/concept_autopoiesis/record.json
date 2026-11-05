@@ -1,0 +1,270 @@
+{
+  "schema_version": "1.0",
+  "canonical_url": "https://transduction.systems/entries/concept_autopoiesis/",
+  "release": "0.35",
+  "citation": "Taylor, B. P. (2026). Autopoiesis. The Necessary Tangle, release 0.35. https://transduction.systems/entries/concept_autopoiesis/",
+  "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
+  "entry": {
+    "id": "concept_autopoiesis",
+    "label": "Autopoiesis",
+    "entity_type": "concept",
+    "description": "A network produces components that regenerate that network and constitute it as a distinguishable unity. The 1974 paper makes this a specific organisational condition, not a synonym for persistence.",
+    "aliases": [],
+    "boundary_ring": "0",
+    "inclusion_reason": "depth_20261029",
+    "status": "candidate",
+    "source_ids": [
+      "src_u35_varela_maturana_uribe_1974",
+      "src_u35_maturana_organisation_living_1975"
+    ],
+    "set_tags": [
+      "systems",
+      "release_0_35",
+      "cybernetics",
+      "biology",
+      "autonomy"
+    ],
+    "espoused_labels": [],
+    "observed_clusters": [],
+    "canonical_definition": "Self-production of a unity through a recursively constituted network of component production.",
+    "valid_from": "",
+    "valid_to": "",
+    "external_ids": "{}",
+    "geographies": [],
+    "licence": "",
+    "review_status": "research_pass_needs_editor",
+    "reviewed_by": "",
+    "reviewed_at": "",
+    "x": 0.545777,
+    "y": 0.305309,
+    "canonical_id": "concept_autopoiesis",
+    "public_visibility": "public",
+    "publication_level": "profile",
+    "public_stub_text": "",
+    "public_source_count": 2,
+    "no_public_link_count": 0,
+    "connection_pass": "depth_20261029"
+  },
+  "profile": {
+    "node_id": "concept_autopoiesis",
+    "title": "Autopoiesis",
+    "summary": "The biological account includes the production of a boundary that enables the processes producing it. Material turnover is compatible with the persistence of this organisation.",
+    "canonical_definition": "Self-production of a unity through a recursively constituted network of component production.",
+    "why_it_matters": "A boundary drawn by an analyst and a boundary produced by a living system make different claims.",
+    "key_distinctions": [
+      "Self-production versus reproduction",
+      "Organisation versus particular components",
+      "Organisational closure versus material isolation"
+    ],
+    "practice_connections": [
+      "Before applying the term, identify components, production processes, and boundary formation."
+    ],
+    "common_misreadings": [
+      "Any durable feedback loop is autopoietic.",
+      "Calling an institution living establishes biological autopoiesis."
+    ],
+    "open_checks": [
+      "Social applications need an explicit account of what is being produced."
+    ],
+    "source_ids": [
+      "src_u35_varela_maturana_uribe_1974",
+      "src_u35_maturana_organisation_living_1975"
+    ],
+    "evidence_ids": [
+      "ev35_concept_autopoiesis_1",
+      "ev35_concept_autopoiesis_2"
+    ],
+    "connection_pass": "depth_20261029",
+    "profile_status": "evidence_deepened_research_pass",
+    "last_researched": "2026-10-29",
+    "review_status": "research_pass_needs_editor",
+    "editorial_note": "Primary passages checked for this bounded research pass. Exposition and editorial comparisons remain distinct; named editorial acceptance is not implied by publication."
+  },
+  "connections": [
+    {
+      "id": "e35_autopoiesis_paper_account",
+      "source": "publication_fpcs_048",
+      "target": "concept_autopoiesis",
+      "relation_type": "presents_account_of",
+      "relation_family": "conceptual",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "",
+      "claim_status": "candidate",
+      "source_ids": [
+        "src_u35_varela_maturana_uribe_1974"
+      ],
+      "evidence_ids": [
+        "ev35_edge_e35_autopoiesis_paper_account_1"
+      ],
+      "source_locator": "Section 3, p. 188; section 6, pp. 189–191",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "The paper defines autopoiesis through a network of component production and illustrates that organisation in a tessellation model. The illustration does not itself establish later biological or social applications.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "claim35_e35_autopoiesis_paper_account",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "defines and models",
+      "public_review_label": "Primary-source exposition; editorial acceptance open",
+      "connection_pass": "depth_20261029"
+    },
+    {
+      "id": "e35_autopoiesis_autonomy",
+      "source": "concept_autopoiesis",
+      "target": "concept_autonomy",
+      "relation_type": "explains",
+      "relation_family": "conceptual",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "",
+      "claim_status": "candidate",
+      "source_ids": [
+        "src_u35_varela_maturana_uribe_1974"
+      ],
+      "evidence_ids": [
+        "ev35_edge_e35_autopoiesis_autonomy_1"
+      ],
+      "source_locator": "Section 4, p. 188",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Varela, Maturana, and Uribe explain biological autonomy through the continued production of the organisation constituting the unity. This sense of autonomy differs from managerial discretion or political independence.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "claim35_e35_autopoiesis_autonomy",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "grounds the biological sense of",
+      "public_review_label": "Primary-source exposition; editorial acceptance open",
+      "connection_pass": "depth_20261029"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim35_e35_autopoiesis_paper_account",
+      "statement": "The paper defines autopoiesis through a network of component production and illustrates that organisation in a tessellation model. The illustration does not itself establish later biological or social applications.",
+      "subject_id": "publication_fpcs_048",
+      "predicate": "presents_account_of",
+      "object_id": "concept_autopoiesis",
+      "status": "candidate",
+      "supporting_source_ids": [
+        "src_u35_varela_maturana_uribe_1974"
+      ],
+      "supporting_evidence_ids": [
+        "ev35_edge_e35_autopoiesis_paper_account_1"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_evidence_ids": [],
+      "notes": "Primary-source exposition; editorial acceptance open",
+      "review_status": "research_pass_needs_editor",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "connection_pass": "depth_20261029"
+    },
+    {
+      "id": "claim35_e35_autopoiesis_autonomy",
+      "statement": "Varela, Maturana, and Uribe explain biological autonomy through the continued production of the organisation constituting the unity. This sense of autonomy differs from managerial discretion or political independence.",
+      "subject_id": "concept_autopoiesis",
+      "predicate": "explains",
+      "object_id": "concept_autonomy",
+      "status": "candidate",
+      "supporting_source_ids": [
+        "src_u35_varela_maturana_uribe_1974"
+      ],
+      "supporting_evidence_ids": [
+        "ev35_edge_e35_autopoiesis_autonomy_1"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_evidence_ids": [],
+      "notes": "Primary-source exposition; editorial acceptance open",
+      "review_status": "research_pass_needs_editor",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "connection_pass": "depth_20261029"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src_u35_varela_maturana_uribe_1974",
+      "title": "Autopoiesis: The Organization of Living Systems, Its Characterization and a Model",
+      "source_type": "primary_text",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://homepages.math.uic.edu/~kauffman/MUV.pdf",
+      "date": "1974",
+      "notes": "Full ten-page primary-paper scan inspected on Louis Kauffman's University of Illinois Chicago page. Section 3 defines the organisation; section 9 gives an operational identification key. The model is an illustration of the proposed organisation, not empirical validation of all biological or social applications. The paper's algorithm was not independently rerun. Publisher redirect was inaccessible; university-hosted scan worked. Existing publication_fpcs_048 is reused.",
+      "creators": [
+        "F. G. Varela",
+        "H. R. Maturana",
+        "R. Uribe"
+      ],
+      "doi": "10.1016/0303-2647(74)90031-8",
+      "isbn": "",
+      "publisher": "BioSystems 5(4), pp. 187–196",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "passage_checked_research_pass",
+      "last_checked": "2026-10-29",
+      "public_link_status": "public_link",
+      "connection_pass": "depth_20261029",
+      "source_locator": "Sections 2–4, pp. 187–189; section 7, pp. 191–192; section 9, pp. 192–193",
+      "access_note": "The model is an illustration of the proposed organisation, not empirical validation of all biological or social applications. The paper's algorithm was not independently rerun. Publisher redirect was inaccessible; university-hosted scan worked. Existing publication_fpcs_048 is reused."
+    },
+    {
+      "id": "src_u35_maturana_organisation_living_1975",
+      "title": "The Organization of the Living: A Theory of the Living Organization",
+      "source_type": "primary_text",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://biologyofcognition.wordpress.com/wp-content/uploads/2008/06/maturana1975organizationlivingtheorylivingorganization.pdf",
+      "date": "1975",
+      "notes": "Full primary text read from the Biology of Cognition Lab's publication list. All passage locators here use the printed pagination of the 1999 reprint, not the original 1975 article. The source presents Maturana's theoretical account. It does not establish that an organisation, service, or institution is literally an autopoietic biological system. Link and paraphrase only.",
+      "creators": [
+        "Humberto R. Maturana"
+      ],
+      "doi": "10.1016/S0020-7373(75)80015-0",
+      "isbn": "",
+      "publisher": "Original: International Journal of Man-Machine Studies 7(3), pp. 313–332; inspected reprint: International Journal of Human-Computer Studies 51 (1999), pp. 149–168",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "passage_checked_research_pass",
+      "last_checked": "2026-10-29",
+      "public_link_status": "public_link",
+      "connection_pass": "depth_20261029",
+      "source_locator": "Inspected 1999 reprint: 'Preliminary concepts', pp. 151–152; 'Implicit requirements' and 'Plasticity and structural coupling', pp. 155–156; 'Descriptive fallacy', pp. 157–158; 'Structural coupling', pp. 162–163",
+      "access_note": "The source presents Maturana's theoretical account. It does not establish that an organisation, service, or institution is literally an autopoietic biological system. Link and paraphrase only."
+    }
+  ],
+  "evidence_locators": [
+    {
+      "id": "ev35_concept_autopoiesis_1",
+      "source_id": "src_u35_varela_maturana_uribe_1974",
+      "locator": "Section 3, p. 188; section 7, pp. 191–192; section 9, pp. 192–193",
+      "review_status": "research_pass_needs_editor"
+    },
+    {
+      "id": "ev35_concept_autopoiesis_2",
+      "source_id": "src_u35_maturana_organisation_living_1975",
+      "locator": "1999 reprint, 'Implicit requirements', p. 155",
+      "review_status": "research_pass_needs_editor"
+    },
+    {
+      "id": "ev35_edge_e35_autopoiesis_paper_account_1",
+      "source_id": "src_u35_varela_maturana_uribe_1974",
+      "locator": "Section 3, p. 188; section 6, pp. 189–191",
+      "review_status": "research_pass_needs_editor"
+    },
+    {
+      "id": "ev35_edge_e35_autopoiesis_autonomy_1",
+      "source_id": "src_u35_varela_maturana_uribe_1974",
+      "locator": "Section 4, p. 188",
+      "review_status": "research_pass_needs_editor"
+    }
+  ],
+  "reuse_note": "Preserve source attribution, scope, and review status. Source documents and evidence excerpts are excluded."
+}

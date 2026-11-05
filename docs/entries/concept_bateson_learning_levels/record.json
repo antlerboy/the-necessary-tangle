@@ -1,0 +1,268 @@
+{
+  "schema_version": "1.0",
+  "canonical_url": "https://transduction.systems/entries/concept_bateson_learning_levels/",
+  "release": "0.35",
+  "citation": "Taylor, B. P. (2026). Bateson's levels of learning. The Necessary Tangle, release 0.35. https://transduction.systems/entries/concept_bateson_learning_levels/",
+  "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
+  "entry": {
+    "id": "concept_bateson_learning_levels",
+    "label": "Bateson's levels of learning",
+    "entity_type": "concept",
+    "description": "A logical classification of changes in learning processes.",
+    "aliases": [],
+    "boundary_ring": "0",
+    "inclusion_reason": "depth_20261029",
+    "status": "candidate",
+    "source_ids": [
+      "src_u35_bateson_steps_1987"
+    ],
+    "set_tags": [
+      "systems",
+      "release_0_35",
+      "cybernetics",
+      "learning"
+    ],
+    "espoused_labels": [],
+    "observed_clusters": [],
+    "canonical_definition": "A logical classification of changes in learning processes, including Learning I, II, and III.",
+    "valid_from": "",
+    "valid_to": "",
+    "external_ids": "{}",
+    "geographies": [],
+    "licence": "",
+    "review_status": "research_pass_needs_editor",
+    "reviewed_by": "",
+    "reviewed_at": "",
+    "x": 0.695692,
+    "y": 0.541285,
+    "canonical_id": "concept_bateson_learning_levels",
+    "public_visibility": "public",
+    "publication_level": "profile",
+    "public_stub_text": "",
+    "public_source_count": 1,
+    "no_public_link_count": 0,
+    "connection_pass": "depth_20261029"
+  },
+  "profile": {
+    "node_id": "concept_bateson_learning_levels",
+    "title": "Bateson's levels of learning",
+    "summary": "Bateson distinguishes correcting a choice within alternatives from changing the alternatives or the way experience is punctuated.",
+    "canonical_definition": "A logical classification of changes in learning processes, including Learning I, II, and III.",
+    "why_it_matters": "A changed answer and a changed way of constructing the question need different evidence.",
+    "key_distinctions": [
+      "change within a set versus change of the set",
+      "learning level versus improvement"
+    ],
+    "practice_connections": [
+      "Describe the changed pattern before assigning it a level."
+    ],
+    "common_misreadings": [
+      "Higher levels are automatically healthier.",
+      "Learning II simply means a better decision."
+    ],
+    "open_checks": [
+      "The comparison with organisational learning below is editorial, not an identity claim."
+    ],
+    "source_ids": [
+      "src_u35_bateson_steps_1987"
+    ],
+    "evidence_ids": [
+      "ev35_concept_bateson_learning_levels_1"
+    ],
+    "connection_pass": "depth_20261029",
+    "profile_status": "evidence_deepened_research_pass",
+    "last_researched": "2026-10-29",
+    "review_status": "research_pass_needs_editor",
+    "editorial_note": "Primary passages checked for this bounded research pass. Exposition and editorial comparisons remain distinct; named editorial acceptance is not implied by publication."
+  },
+  "connections": [
+    {
+      "id": "e35_steps_learning_levels",
+      "source": "publication_steps_to_ecology_of_mind",
+      "target": "concept_bateson_learning_levels",
+      "relation_type": "presents_account_of",
+      "relation_family": "conceptual",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "",
+      "claim_status": "candidate",
+      "source_ids": [
+        "src_u35_bateson_steps_1987"
+      ],
+      "evidence_ids": [
+        "ev35_edge_e35_steps_learning_levels_1"
+      ],
+      "source_locator": "The Logical Categories of Learning and Communication, printed pp. 297–299",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "The collection distinguishes changes within alternatives from changes to learning contexts; Bateson's logical types are not a universal scale of personal development.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "claim35_e35_steps_learning_levels",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "sets out a logical classification of",
+      "public_review_label": "Primary-source exposition; editorial acceptance open",
+      "connection_pass": "depth_20261029"
+    },
+    {
+      "id": "e35_learning_levels_double_loop",
+      "source": "concept_bateson_learning_levels",
+      "target": "concept_double_loop_learning",
+      "relation_type": "compares_method",
+      "relation_family": "conceptual",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "",
+      "claim_status": "candidate",
+      "source_ids": [
+        "src_u35_bateson_steps_1987",
+        "src_u35_argyris_loops_1976"
+      ],
+      "evidence_ids": [
+        "ev35_edge_e35_learning_levels_double_loop_1",
+        "ev35_edge_e35_learning_levels_double_loop_2"
+      ],
+      "source_locator": "Bateson, printed pp. 297–299; Argyris, p. 367",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Both accounts distinguish change within a framework from change involving that framework. This editorial comparison establishes neither equivalence nor historical influence.",
+      "assertion_mode": "inferred",
+      "inference_method": "curatorial comparison of the cited public sources",
+      "claim_id": "claim35_e35_learning_levels_double_loop",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "offers a comparison of changed learning premises with",
+      "public_review_label": "Editorial comparison; no historical influence asserted",
+      "connection_pass": "depth_20261029"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim35_e35_steps_learning_levels",
+      "statement": "The collection distinguishes changes within alternatives from changes to learning contexts; Bateson's logical types are not a universal scale of personal development.",
+      "subject_id": "publication_steps_to_ecology_of_mind",
+      "predicate": "presents_account_of",
+      "object_id": "concept_bateson_learning_levels",
+      "status": "candidate",
+      "supporting_source_ids": [
+        "src_u35_bateson_steps_1987"
+      ],
+      "supporting_evidence_ids": [
+        "ev35_edge_e35_steps_learning_levels_1"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_evidence_ids": [],
+      "notes": "Primary-source exposition; editorial acceptance open",
+      "review_status": "research_pass_needs_editor",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "connection_pass": "depth_20261029"
+    },
+    {
+      "id": "claim35_e35_learning_levels_double_loop",
+      "statement": "Both accounts distinguish change within a framework from change involving that framework. This editorial comparison establishes neither equivalence nor historical influence.",
+      "subject_id": "concept_bateson_learning_levels",
+      "predicate": "compares_method",
+      "object_id": "concept_double_loop_learning",
+      "status": "candidate",
+      "supporting_source_ids": [
+        "src_u35_bateson_steps_1987",
+        "src_u35_argyris_loops_1976"
+      ],
+      "supporting_evidence_ids": [
+        "ev35_edge_e35_learning_levels_double_loop_1",
+        "ev35_edge_e35_learning_levels_double_loop_2"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_evidence_ids": [],
+      "notes": "Editorial comparison; no historical influence asserted",
+      "review_status": "research_pass_needs_editor",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "connection_pass": "depth_20261029"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src_u35_bateson_steps_1987",
+      "title": "Steps to an Ecology of Mind (1987 reprint)",
+      "source_type": "primary_text",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://ejcj.orfaleacenter.ucsb.edu/wp-content/uploads/2017/06/1972.-Gregory-Bateson-Steps-to-an-Ecology-of-Mind.pdf",
+      "date": "1987",
+      "notes": "Primary book opened and inspected. Copyright and catalogue pages identify the 1987 reprint, despite the filename beginning 1972. Do not reuse these page numbers for the Chicago edition without checking. Copyright retained; link and brief paraphrases only. Existing book node publication_steps_to_ecology_of_mind is reused.",
+      "creators": [
+        "Gregory Bateson"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Jason Aronson; original collection published by Chandler in 1972",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "passage_checked_research_pass",
+      "last_checked": "2026-10-29",
+      "public_link_status": "public_link",
+      "connection_pass": "depth_20261029",
+      "source_locator": "The Logical Categories of Learning and Communication: printed pp. 297–299 and 305–307 (PDF pp. 311–313 and 319–321); Form, Substance, and Difference: printed pp. 459–460 (PDF pp. 473–474)",
+      "access_note": "Do not reuse these page numbers for the Chicago edition without checking. Copyright retained; link and brief paraphrases only. Existing book node publication_steps_to_ecology_of_mind is reused."
+    },
+    {
+      "id": "src_u35_argyris_loops_1976",
+      "title": "Single-Loop and Double-Loop Models in Research on Decision Making",
+      "source_type": "primary_text",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://doi.org/10.2307/2391848",
+      "date": "1976-09",
+      "notes": "JSTOR issue contents confirm author, title, date, and pp. 363–375. The article's page-marked transcription was inspected separately; the Scribd AI-enhanced description was not used. Publisher access may be restricted. Reading copy is a third-party transcription. No claims of Bateson-to-Argyris influence are inferred from this comparison.",
+      "creators": [
+        "Chris Argyris"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Administrative Science Quarterly 21(3), 363–375",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "passage_checked_research_pass",
+      "last_checked": "2026-10-29",
+      "public_link_status": "public_link",
+      "reading_url": "https://www.scribd.com/document/292149027/Angyris-s-Single-and-Double-Loop-Learning",
+      "connection_pass": "depth_20261029",
+      "source_locator": "Printed p. 367, Single-Loop and Double-Loop; pp. 368–370, Double-Loop Model and Transitional Model",
+      "access_note": "Publisher access may be restricted. Reading copy is a third-party transcription. No claims of Bateson-to-Argyris influence are inferred from this comparison."
+    }
+  ],
+  "evidence_locators": [
+    {
+      "id": "ev35_concept_bateson_learning_levels_1",
+      "source_id": "src_u35_bateson_steps_1987",
+      "locator": "The Logical Categories of Learning and Communication, printed pp. 297–299 and 305–307",
+      "review_status": "research_pass_needs_editor"
+    },
+    {
+      "id": "ev35_edge_e35_steps_learning_levels_1",
+      "source_id": "src_u35_bateson_steps_1987",
+      "locator": "The Logical Categories of Learning and Communication, printed pp. 297–299",
+      "review_status": "research_pass_needs_editor"
+    },
+    {
+      "id": "ev35_edge_e35_learning_levels_double_loop_1",
+      "source_id": "src_u35_bateson_steps_1987",
+      "locator": "Bateson, printed pp. 297–299; Argyris, p. 367",
+      "review_status": "research_pass_needs_editor"
+    },
+    {
+      "id": "ev35_edge_e35_learning_levels_double_loop_2",
+      "source_id": "src_u35_argyris_loops_1976",
+      "locator": "Bateson, printed pp. 297–299; Argyris, p. 367",
+      "review_status": "research_pass_needs_editor"
+    }
+  ],
+  "reuse_note": "Preserve source attribution, scope, and review status. Source documents and evidence excerpts are excluded."
+}

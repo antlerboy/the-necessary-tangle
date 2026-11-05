@@ -1,0 +1,211 @@
+{
+  "schema_version": "1.0",
+  "canonical_url": "https://transduction.systems/entries/organisation_ifsr/",
+  "release": "0.35",
+  "citation": "Taylor, B. P. (2026). International Federation for Systems Research. The Necessary Tangle, release 0.35. https://transduction.systems/entries/organisation_ifsr/",
+  "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
+  "entry": {
+    "id": "organisation_ifsr",
+    "label": "International Federation for Systems Research",
+    "entity_type": "organisation",
+    "description": "The International Federation for Systems Research is a federation of systems and cybernetics organisations founded in 1980. Its official account describes a mission to advance research, support practice, connect member organisations, convene conversations, and promote international cooperation and publication.",
+    "aliases": [
+      "IFSR"
+    ],
+    "boundary_ring": "0",
+    "inclusion_reason": "september_connections_2026",
+    "status": "candidate",
+    "source_ids": [
+      "src_reports27_ifsr_about",
+      "src_ifsr_conversations_legacy",
+      "src_ifsr_isss_member_2026",
+      "src_reports27_issue_86"
+    ],
+    "set_tags": [
+      "systems",
+      "september_connections_2026"
+    ],
+    "espoused_labels": [],
+    "observed_clusters": [],
+    "canonical_definition": "The International Federation for Systems Research is a federation of systems and cybernetics organisations founded in 1980. Its official account describes a mission to advance research, support practice, connect member organisations, convene conversations, and promote international cooperation and publication.",
+    "valid_from": "",
+    "valid_to": "",
+    "external_ids": "{}",
+    "geographies": [],
+    "licence": "",
+    "review_status": "source_scoped_report_review_complete",
+    "reviewed_by": "",
+    "reviewed_at": "",
+    "x": -0.421,
+    "y": -0.14,
+    "canonical_id": "organisation_ifsr",
+    "public_visibility": "public",
+    "publication_level": "profile",
+    "public_stub_text": "",
+    "public_source_count": 4,
+    "no_public_link_count": 0
+  },
+  "profile": {
+    "node_id": "organisation_ifsr",
+    "summary": "The International Federation for Systems Research is a federation of systems and cybernetics organisations founded in 1980. Its official account describes a mission to advance research, support practice, connect member organisations, convene conversations, and promote international cooperation and publication.",
+    "canonical_definition": "The International Federation for Systems Research is a federation of systems and cybernetics organisations founded in 1980. Its official account describes a mission to advance research, support practice, connect member organisations, convene conversations, and promote international cooperation and publication.",
+    "why_it_matters": "IFSR gives the field a network-of-organisations form and a recurring setting for cross-tradition conversation which no single member society could supply alone.",
+    "key_distinctions": [
+      "A peak-body claim describes an institutional role, not authority over the whole field.",
+      "Membership, collaboration, journal relationships, and control of a publication are different relations."
+    ],
+    "historical_lineage": [
+      "International federation-building across systems science and cybernetics since 1980."
+    ],
+    "logical_antecedents": [],
+    "dependent_subsequents": [],
+    "practice_connections": [
+      "Use federation records to locate organisations and conversations while preserving differences among members."
+    ],
+    "common_misreadings": [
+      "The report's claims about preventing duplication, academic standards, encyclopaedia maintenance, and a single contemporary agenda exceed the located evidence."
+    ],
+    "open_checks": [
+      "Founding-member records, the full journal relationship, book-series governance, and leadership chronology need document-level verification."
+    ],
+    "source_ids": [
+      "src_reports27_ifsr_about",
+      "src_ifsr_conversations_legacy",
+      "src_ifsr_isss_member_2026",
+      "src_reports27_issue_86"
+    ],
+    "context_and_lineage": "Reviewed from public report #86. The report is a research prompt; the profile retains only claims bounded by the cited records.",
+    "editorial_note": "Prepared with AI assistance from the named public records and the public report. The report review is complete; open checks are future research, not missing entry work. Independent specialist review is not recorded.",
+    "last_researched": "2026-09-20",
+    "title": "International Federation for Systems Research",
+    "profile_status": "source_scoped_report_review_complete",
+    "review_status": "independent_review_not_recorded",
+    "reviewed_by": "",
+    "reviewed_at": "",
+    "report_issue": 86,
+    "report_outcome": "full_profile_added; mission, foundation, membership, and conversations retained; unsupported governance claims excluded"
+  },
+  "connections": [
+    {
+      "id": "e24_organisation_isss_member_of_organisation_ifsr",
+      "source": "organisation_isss",
+      "target": "organisation_ifsr",
+      "relation_type": "member_of",
+      "relation_family": "institutional",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "",
+      "claim_status": "candidate",
+      "source_ids": [
+        "src_ifsr_isss_member_2026"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Member-page heading and Back to Members context",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Membership recorded on the IFSR site.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "is a member of",
+      "public_review_label": "Located source statement; independent review not recorded"
+    }
+  ],
+  "claims": [],
+  "sources": [
+    {
+      "id": "src_reports27_ifsr_about",
+      "title": "About the IFSR",
+      "source_type": "primary_public_record",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://ifsr.org/about-ifsr/",
+      "date": "2026-09-20",
+      "notes": "Vision and mission; legacy; governance: The federation's account of its 1980 foundation, mission, conversations, journal relationship, and governance. Claims of impact remain the organisation's own account.",
+      "creators": [],
+      "doi": "",
+      "isbn": "",
+      "publisher": "International Federation for Systems Research",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "source_scope_checked",
+      "last_checked": "2026-09-20",
+      "public_link_status": "public_link",
+      "connection_pass": "missing_entry_reports_20260920"
+    },
+    {
+      "id": "src_ifsr_conversations_legacy",
+      "title": "IFSR Conversations Legacy",
+      "source_type": "federation_programme_archive",
+      "quality_tier": "B",
+      "access": "public",
+      "url": "https://ifsr.org/systems-research/ifsr-conversations-legacy/",
+      "date": "",
+      "notes": "Official programme history describing small, non-hierarchical, cross-tradition dialogues as second-order reflective practice. Used for programme design, not as evidence that every conversation achieved integration or consensus.",
+      "creators": [
+        "International Federation for Systems Research"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "International Federation for Systems Research",
+      "licence": "source_terms",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked_programme_history",
+      "last_checked": "2026-08-14",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_ifsr_isss_member_2026",
+      "title": "ISSS: IFSR member record",
+      "source_type": "institutional_record",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://ifsr.org/member/international-society-for-the-systems-sciences-isss/",
+      "date": "2026-09-09",
+      "notes": "IFSR member page inspected: interdisciplinary inquiry, society name history and practical exchange. Membership supports a specific institutional connection, not consensus across the field.",
+      "creators": [
+        "IFSR"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "IFSR",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "source_scope_checked",
+      "last_checked": "2026-09-09",
+      "public_link_status": "public_link",
+      "connection_pass": "september_connections_2026"
+    },
+    {
+      "id": "src_reports27_issue_86",
+      "title": "Missing-entry report #86: International Federation for Systems Research",
+      "source_type": "public_submission",
+      "quality_tier": "B",
+      "access": "public",
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/86",
+      "date": "2026-09-20",
+      "notes": "Public report by David Ing. The report prompted research but is not treated as evidence for its own claims.",
+      "creators": [
+        "David Ing"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "The Necessary Tangle public intake",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "report_reviewed_against_public_sources",
+      "last_checked": "2026-09-20",
+      "public_link_status": "public_link",
+      "connection_pass": "missing_entry_reports_20260920"
+    }
+  ],
+  "evidence_locators": [],
+  "reuse_note": "Preserve source attribution, scope, and review status. Source documents and evidence excerpts are excluded."
+}

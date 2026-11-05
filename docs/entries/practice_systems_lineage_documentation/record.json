@@ -1,0 +1,351 @@
+{
+  "schema_version": "1.0",
+  "canonical_url": "https://transduction.systems/entries/practice_systems_lineage_documentation/",
+  "release": "0.35",
+  "citation": "Taylor, B. P. (2026). Systems lineage documentation. The Necessary Tangle, release 0.35. https://transduction.systems/entries/practice_systems_lineage_documentation/",
+  "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
+  "entry": {
+    "id": "practice_systems_lineage_documentation",
+    "label": "Systems lineage documentation",
+    "entity_type": "practice",
+    "description": "The practice of preserving how ideas, people, institutions, teaching events and publications connect over time, while distinguishing documented contact or citation from stronger claims of intellectual influence.",
+    "aliases": [],
+    "boundary_ring": "0",
+    "inclusion_reason": "iteration_0_15_depth_and_practice",
+    "status": "accepted",
+    "source_ids": [
+      "src_ing_coevolving_publications_2026",
+      "src_ing_knowing_better_2022",
+      "src_isss_ing_presidential_address_2011"
+    ],
+    "set_tags": [
+      "systems",
+      "practice",
+      "release_0_15",
+      "lineage",
+      "documentation"
+    ],
+    "espoused_labels": [],
+    "observed_clusters": [],
+    "canonical_definition": "The practice of preserving how ideas, people, institutions, teaching events and publications connect over time, while distinguishing documented contact or citation from stronger claims of intellectual influence.",
+    "valid_from": "",
+    "valid_to": "",
+    "external_ids": "{}",
+    "geographies": [],
+    "licence": "",
+    "review_status": "curator_checked_public_sources",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-14",
+    "x": 0.4,
+    "y": 0.01,
+    "canonical_id": "practice_systems_lineage_documentation",
+    "public_visibility": "public",
+    "publication_level": "profile",
+    "public_stub_text": "",
+    "public_source_count": 3,
+    "no_public_link_count": 0
+  },
+  "profile": {
+    "node_id": "practice_systems_lineage_documentation",
+    "title": "Systems lineage documentation",
+    "profile_status": "curator_checked_public_sources",
+    "canonical_definition": "The practice of preserving how ideas, people, institutions, teaching events and publications connect over time, while distinguishing documented contact or citation from stronger claims of intellectual influence.",
+    "summary": "A documentary practice for making intellectual and practitioner histories inspectable without turning every contact into a genealogy.",
+    "why_it_matters": "Systems fields are unusually vulnerable to compressed origin stories. Public trails of events, citations, courses and collaborations permit stronger and weaker lineage claims to be separated.",
+    "key_distinctions": [
+      "contact versus influence",
+      "citation versus adoption",
+      "shared institution versus shared theory",
+      "primary archive versus independent history"
+    ],
+    "historical_lineage": [
+      "history of ideas",
+      "archival practice",
+      "systems-community documentation"
+    ],
+    "logical_antecedents": [
+      "source criticism",
+      "provenance"
+    ],
+    "dependent_subsequents": [
+      "better lineage maps",
+      "contestable historical claims"
+    ],
+    "practice_connections": [
+      "research",
+      "curation",
+      "teaching"
+    ],
+    "espoused_lineages": [],
+    "observed_clusters": [],
+    "common_misreadings": [
+      "A dense network of documented associations is not itself a school."
+    ],
+    "open_checks": [
+      "Add more archival and oral-history sources from outside current well-documented networks."
+    ],
+    "source_ids": [
+      "src_ing_coevolving_publications_2026",
+      "src_ing_knowing_better_2022",
+      "src_isss_ing_presidential_address_2011"
+    ],
+    "evidence_ids": [],
+    "last_researched": "2026-08-14",
+    "review_status": "curator_checked_public_sources",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-14",
+    "editorial_note": "Public account based on named sources; documentary provenance, interpretation and evaluative claims are kept distinct."
+  },
+  "connections": [
+    {
+      "id": "e15_coevolving_supports_lineage",
+      "source": "practice_systems_lineage_documentation",
+      "target": "corpus_coevolving_innovations",
+      "relation_type": "supported_by",
+      "relation_family": "practice",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.88",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_ing_coevolving_publications_2026"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Release 0.15 public sources",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Limited to the named sources. Documentary connection, conceptual influence, teaching use and effectiveness are distinct claims.",
+      "assertion_mode": "asserted",
+      "inference_method": "curatorial synthesis of public sources",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-14",
+      "notes": "",
+      "plain_phrase": "is supported by",
+      "public_review_label": "supported working statement"
+    },
+    {
+      "id": "e15_ing_practises_lineage_documentation",
+      "source": "person_david_ing",
+      "target": "practice_systems_lineage_documentation",
+      "relation_type": "uses",
+      "relation_family": "practice",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.88",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_ing_coevolving_publications_2026",
+        "src_ing_knowing_better_2022"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Release 0.15 public sources",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Limited to the named sources. Documentary connection, conceptual influence, teaching use and effectiveness are distinct claims.",
+      "assertion_mode": "asserted",
+      "inference_method": "curatorial synthesis of public sources",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-14",
+      "notes": "",
+      "plain_phrase": "uses",
+      "public_review_label": "supported working statement"
+    },
+    {
+      "id": "e15_systems_thinkers_supports_lineage",
+      "source": "practice_systems_lineage_documentation",
+      "target": "publication_systems_thinkers_ramage_shipp",
+      "relation_type": "supported_by",
+      "relation_family": "conceptual",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.88",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_systems_thinkers_springer"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Release 0.15 public sources",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Limited to the named sources. Documentary connection, conceptual influence, teaching use and effectiveness are distinct claims.",
+      "assertion_mode": "asserted",
+      "inference_method": "curatorial synthesis of public sources",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-14",
+      "notes": "",
+      "plain_phrase": "is supported by",
+      "public_review_label": "supported working statement"
+    },
+    {
+      "id": "e17_lineage_documentation_supports_recovery",
+      "source": "practice_systems_lineage_documentation",
+      "target": "practice_lineage_recovery",
+      "relation_type": "develops",
+      "relation_family": "practice",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.94",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_oro_boundaries_disciplines_2006",
+        "src_tangle_issue2_canon_feedback_2026"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Public systems-lineage and editorial sources",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "This is an atlas practice connection, not a claim that one named author originated lineage recovery.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-19",
+      "notes": "",
+      "plain_phrase": "provides typed documentary methods for",
+      "public_review_label": "source-backed statement"
+    }
+  ],
+  "claims": [],
+  "sources": [
+    {
+      "id": "src_ing_coevolving_publications_2026",
+      "title": "David Ing — Coevolving Innovations publications",
+      "source_type": "primary_author_publication_index",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://coevolving.com/commons/publications",
+      "date": "checked 2026-08-14",
+      "notes": "Primary index for David Ing’s systems, service-systems and education publications and presentations. Useful for chronology and authorship; not independent evaluation.",
+      "creators": [
+        "David Ing"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Coevolving Innovations",
+      "licence": "site terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-14",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_ing_knowing_better_2022",
+      "title": "Knowing Better via Systems Thinking",
+      "source_type": "primary_publication_record",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://systemschanges.com/online/presentations/20221010-knowing-better-via-systems-thinking",
+      "date": "checked 2026-08-14",
+      "notes": "Primary account that explicitly places contemporary systems approaches in longer systems-sciences traditions and uses that lineage as part of teaching systems thinking.",
+      "creators": [
+        "David Ing"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Systems Changes",
+      "licence": "site terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-14",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_isss_ing_presidential_address_2011",
+      "title": "David Ing — ISSS presidential address",
+      "source_type": "institutional_archive",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://www.isss.org/presidential-addresses/",
+      "date": "checked 2026-08-14",
+      "notes": "ISSS archive for Ing’s 2011 incoming presidential address, ‘Service Systems, Natural Systems: Sciences in Synthesis’, documenting his leadership role and service-systems synthesis.",
+      "creators": [
+        "International Society for the Systems Sciences"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "ISSS",
+      "licence": "site terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-14",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_systems_thinkers_springer",
+      "title": "Systems Thinkers — Springer record",
+      "source_type": "publisher_record",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://link.springer.com/book/10.1007/978-1-84882-525-3",
+      "date": "checked 2026-08-14",
+      "notes": "Publisher record for Magnus Ramage and Karen Shipp’s systems-thinkers text, developed from an Open University course and organised around people and traditions in the systems field.",
+      "creators": [
+        "Magnus Ramage",
+        "Karen Shipp"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Springer",
+      "licence": "site terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-14",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_oro_boundaries_disciplines_2006",
+      "title": "On boundaries and disciplines: constructing a set of key systems thinkers",
+      "source_type": "institutional_repository_article_record",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://oro.open.ac.uk/5446/",
+      "date": "2006",
+      "notes": "Open University repository record for Ramage and Shipp's article on the choices and boundary questions involved in constructing a set of key systems thinkers.",
+      "creators": [
+        "Magnus Ramage",
+        "Karen Shipp"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "The Systemist / The Open University",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-19",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_tangle_issue2_canon_feedback_2026",
+      "title": "The Necessary Tangle running feedback: canon, closure and patriarchy",
+      "source_type": "public_curator_discussion",
+      "quality_tier": "B",
+      "access": "public",
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5345119282",
+      "date": "2026-08",
+      "notes": "Public curator note recording the challenge about a predominantly white male visual canon and the resulting editorial requirement to expose canonisation, exclusion, appropriation and recovery rather than repair the map through portraits alone.",
+      "creators": [
+        "Benjamin P Taylor",
+        "Ida Rose Florez"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "The Necessary Tangle",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-19",
+      "public_link_status": "public_link"
+    }
+  ],
+  "evidence_locators": [],
+  "reuse_note": "Preserve source attribution, scope, and review status. Source documents and evidence excerpts are excluded."
+}

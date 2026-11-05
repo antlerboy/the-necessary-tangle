@@ -1,0 +1,177 @@
+{
+  "schema_version": "1.0",
+  "canonical_url": "https://transduction.systems/entries/publication_early_wiener_close/",
+  "release": "0.35",
+  "citation": "Taylor, B. P. (2026). Too Damn Close. The Necessary Tangle, release 0.35. https://transduction.systems/entries/publication_early_wiener_close/",
+  "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
+  "entry": {
+    "id": "publication_early_wiener_close",
+    "label": "Too Damn Close",
+    "entity_type": "publication",
+    "description": "Wiener examines scientific responsibility, changing weapons capability, and the way authority can suppress warnings.",
+    "aliases": [],
+    "boundary_ring": "0",
+    "inclusion_reason": "early_cybernetics_bibliographic_intake_0_22",
+    "status": "candidate",
+    "source_ids": [
+      "src_wiener_reading_lists_2026",
+      "src_wiener_too_damn_close_1950"
+    ],
+    "set_tags": [
+      "cybernetics",
+      "history",
+      "release_0_22"
+    ],
+    "espoused_labels": [],
+    "observed_clusters": [],
+    "canonical_definition": "Wiener examines scientific responsibility, changing weapons capability, and the way authority can suppress warnings.",
+    "valid_from": "",
+    "valid_to": "",
+    "external_ids": "{}",
+    "geographies": [],
+    "licence": "",
+    "review_status": "research_pass_needs_editor",
+    "reviewed_by": "",
+    "reviewed_at": "",
+    "x": 0.1,
+    "y": 0.1,
+    "canonical_id": "publication_early_wiener_close",
+    "public_visibility": "public",
+    "publication_level": "profile",
+    "public_stub_text": "",
+    "public_source_count": 2,
+    "no_public_link_count": 0
+  },
+  "profile": {
+    "node_id": "publication_early_wiener_close",
+    "summary": "Wiener examines scientific responsibility, changing weapons capability, and the way authority can suppress warnings.",
+    "canonical_definition": "Wiener examines scientific responsibility, changing weapons capability, and the way authority can suppress warnings.",
+    "why_it_matters": "Ask whether people able to detect a danger can get those with power to act on it.",
+    "key_distinctions": [
+      "A historical argument, with historical estimates"
+    ],
+    "historical_lineage": [],
+    "logical_antecedents": [],
+    "dependent_subsequents": [],
+    "practice_connections": [],
+    "common_misreadings": [],
+    "open_checks": [
+      "Extend the evidence pass beyond the cited passages."
+    ],
+    "source_ids": [
+      "src_wiener_too_damn_close_1950",
+      "src_wiener_reading_lists_2026"
+    ],
+    "context_and_lineage": "Sections 1–2",
+    "editorial_note": "Source passages inspected for this account. Practice questions are editorial applications. Curator review pending.",
+    "last_researched": "2026-09-05",
+    "title": "Too Damn Close",
+    "profile_status": "evidence_deepened_research_pass",
+    "review_status": "research_pass_needs_editor"
+  },
+  "connections": [
+    {
+      "id": "e22_publication_early_wiener_close_listed_in_bibliography_bibliography_wiener_popular_wiener",
+      "source": "publication_early_wiener_close",
+      "target": "bibliography_wiener_popular_wiener",
+      "relation_type": "listed_in_bibliography",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "",
+      "claim_status": "candidate",
+      "source_ids": [
+        "src_wiener_reading_lists_2026"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Popular treatments by Wiener; ‘Too Damn Close,’ Atlantic Monthly, July 1950.",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Bibliographic selection only. No influence, endorsement, or full-text coverage is implied.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "is listed in",
+      "public_review_label": "Source located; curator review pending"
+    },
+    {
+      "id": "e22_publication_early_wiener_close_authored_by_person_norbert_wiener",
+      "source": "publication_early_wiener_close",
+      "target": "person_norbert_wiener",
+      "relation_type": "authored_by",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "",
+      "claim_status": "candidate",
+      "source_ids": [
+        "src_wiener_reading_lists_2026"
+      ],
+      "evidence_ids": [],
+      "source_locator": "‘Too Damn Close,’ Atlantic Monthly, July 1950.",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Bibliographic attribution as listed; a credit is not an influence claim.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "credits",
+      "public_review_label": "Source located; curator review pending"
+    }
+  ],
+  "claims": [],
+  "sources": [
+    {
+      "id": "src_wiener_reading_lists_2026",
+      "title": "Wiener’s selected readings on cybernetics, 1951, 1952, 1956",
+      "source_type": "historical_bibliography_transcription",
+      "quality_tier": "B",
+      "access": "public",
+      "url": "https://stream.syscoi.com/2026/09/05/28544/",
+      "date": "2026-09-05",
+      "notes": "Three historical lists shared by Sean Manion, @TheUnjournaling, transcribed by Systems Community of Inquiry. Records inclusion and bibliographic wording; it does not prove influence or full-text review. The reported 1956 list contains a 1957 item.",
+      "creators": [
+        "Norbert Wiener"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Systems Community of Inquiry",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "bibliographic_or_source_boundary_checked",
+      "last_checked": "2026-09-05",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_wiener_too_damn_close_1950",
+      "title": "Too Damn Close",
+      "source_type": "primary_article",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://www.theatlantic.com/magazine/archive/1950/07/too-damn-close/639607/",
+      "date": "1950-07",
+      "notes": "Publisher’s complete historical text inspected, sections 1 and 2. Historical political arguments and estimates are not presented as current facts.",
+      "creators": [
+        "Norbert Wiener"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "The Atlantic",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "passage_checked",
+      "last_checked": "2026-09-05",
+      "public_link_status": "public_link"
+    }
+  ],
+  "evidence_locators": [],
+  "reuse_note": "Preserve source attribution, scope, and review status. Source documents and evidence excerpts are excluded."
+}

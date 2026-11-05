@@ -1,0 +1,170 @@
+{
+  "schema_version": "1.0",
+  "canonical_url": "https://transduction.systems/entries/concept_open_causal_system/",
+  "release": "0.35",
+  "citation": "Taylor, B. P. (2026). Open causal system. The Necessary Tangle, release 0.35. https://transduction.systems/entries/concept_open_causal_system/",
+  "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
+  "entry": {
+    "id": "concept_open_causal_system",
+    "label": "Open causal system",
+    "entity_type": "concept",
+    "description": "A system in which several mechanisms can act together, so an observed outcome need not express any one mechanism in isolation. This critical realist use of openness differs from a claim about material exchange.",
+    "aliases": [],
+    "boundary_ring": "0",
+    "inclusion_reason": "update_20261008",
+    "status": "candidate",
+    "source_ids": [
+      "src_u31_bhaskar"
+    ],
+    "set_tags": [
+      "systems",
+      "release_0_31",
+      "researcher-modules"
+    ],
+    "espoused_labels": [],
+    "observed_clusters": [],
+    "canonical_definition": "A system in which several mechanisms can act together, so an observed outcome need not express any one mechanism in isolation. This critical realist use of openness differs from a claim about material exchange.",
+    "valid_from": "",
+    "valid_to": "",
+    "external_ids": "{}",
+    "geographies": [],
+    "licence": "",
+    "review_status": "research_pass_needs_editor",
+    "reviewed_by": "",
+    "reviewed_at": "",
+    "x": 0.661568,
+    "y": 0.61599,
+    "canonical_id": "concept_open_causal_system",
+    "public_visibility": "public",
+    "publication_level": "profile",
+    "public_stub_text": "",
+    "public_source_count": 1,
+    "no_public_link_count": 0,
+    "connection_pass": "update_20261008"
+  },
+  "profile": {
+    "node_id": "concept_open_causal_system",
+    "summary": "A system in which several mechanisms can act together, so an observed outcome need not express any one mechanism in isolation. This critical realist use of openness differs from a claim about material exchange.",
+    "canonical_definition": "A system in which several mechanisms can act together, so an observed outcome need not express any one mechanism in isolation. This critical realist use of openness differs from a claim about material exchange.",
+    "why_it_matters": "Inspect the passage and the stated domain before using a term in a new setting.",
+    "key_distinctions": [
+      "source account vs editorial interpretation",
+      "material exchange vs causal openness",
+      "bibliographic access vs full-text evidence"
+    ],
+    "historical_lineage": [],
+    "logical_antecedents": [],
+    "dependent_subsequents": [],
+    "practice_connections": [
+      "Name the domain, conditions, and observation that could challenge the proposed connection."
+    ],
+    "common_misreadings": [
+      "Treating a shared term as proof that two accounts are equivalent."
+    ],
+    "open_checks": [
+      "Original-source verification and human editorial review remain open."
+    ],
+    "source_ids": [
+      "src_u31_bhaskar"
+    ],
+    "context_and_lineage": "",
+    "editorial_note": "AI-assisted source reading. Human curator: Benjamin P Taylor. New claims remain candidates.",
+    "last_researched": "2026-10-08",
+    "connection_pass": "update_20261008",
+    "title": "Open causal system",
+    "review_status": "research_pass_needs_editor",
+    "profile_status": "evidence_deepened_research_pass"
+  },
+  "connections": [
+    {
+      "id": "e31_module_bhaskar_2",
+      "source": "publication_u31_bhaskar",
+      "target": "concept_open_causal_system",
+      "relation_type": "introduces_distinction",
+      "relation_family": "conceptual",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "",
+      "claim_status": "candidate",
+      "source_ids": [
+        "src_u31_bhaskar"
+      ],
+      "evidence_ids": [
+        "ev_e31_module_bhaskar_2"
+      ],
+      "source_locator": "p. 3, DG6; p. 6, PS4",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "In Challoner’s reconstruction: Multiple mechanisms can jointly shape an outcome in an open causal system.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "claim_e31_module_bhaskar_2",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "introduces distinction",
+      "public_review_label": "Located source statement; curator review pending",
+      "connection_pass": "update_20261008"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_e31_module_bhaskar_2",
+      "statement": "In Challoner’s reconstruction: Multiple mechanisms can jointly shape an outcome in an open causal system.",
+      "subject_id": "publication_u31_bhaskar",
+      "predicate": "introduces_distinction",
+      "object_id": "concept_open_causal_system",
+      "status": "candidate",
+      "supporting_source_ids": [
+        "src_u31_bhaskar"
+      ],
+      "supporting_evidence_ids": [
+        "ev_e31_module_bhaskar_2"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_evidence_ids": [],
+      "notes": "Source-scoped interpretation. Human editorial acceptance remains pending.",
+      "review_status": "research_pass_needs_editor",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "connection_pass": "update_20261008"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src_u31_bhaskar",
+      "title": "Bhaskar: mechanisms in open systems: researcher module",
+      "source_type": "public_source",
+      "quality_tier": "B",
+      "access": "public",
+      "url": "https://rational-understanding.com/wp-content/uploads/2026/10/bhaskar-researcher-module.pdf",
+      "date": "2026",
+      "notes": "John A Challoner’s version 1 reconstruction, 30 September 2026. General and specialised definitions/propositions are labelled separately; original-author wording is not implied.",
+      "creators": [
+        "John A Challoner"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Rational Understanding",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "06ee89f8fbe01db4d9803b3579cc86359b3ccb34da86e0c7ab77e868900f0155",
+      "review_status": "source_scoped_research_pass",
+      "last_checked": "2026-10-08",
+      "public_link_status": "public_link",
+      "connection_pass": "update_20261008",
+      "source_locator": "Complete PDF, 7 pages; specific claims carry page and proposition references",
+      "source_role": "secondary reconstruction",
+      "pages_read": 7
+    }
+  ],
+  "evidence_locators": [
+    {
+      "id": "ev_e31_module_bhaskar_2",
+      "source_id": "src_u31_bhaskar",
+      "locator": "p. 3, DG6; p. 6, PS4",
+      "review_status": "research_pass_needs_editor"
+    }
+  ],
+  "reuse_note": "Preserve source attribution, scope, and review status. Source documents and evidence excerpts are excluded."
+}

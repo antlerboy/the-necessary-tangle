@@ -1,0 +1,159 @@
+{
+  "schema_version": "1.0",
+  "canonical_url": "https://transduction.systems/entries/person_judith_rosen/",
+  "release": "0.35",
+  "citation": "Taylor, B. P. (2026). Judith Rosen. The Necessary Tangle, release 0.35. https://transduction.systems/entries/person_judith_rosen/",
+  "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
+  "entry": {
+    "id": "person_judith_rosen",
+    "label": "Judith Rosen",
+    "entity_type": "person",
+    "description": "Judith Rosen contributed an introduction and a short story about Robert Rosen to the second edition of Anticipatory Systems (2012). Springer identifies Robert Rosen as the book's author and describes her contributions separately.",
+    "aliases": [],
+    "boundary_ring": "0",
+    "inclusion_reason": "source_intake_20260918",
+    "status": "candidate",
+    "source_ids": [
+      "src_intake26_anticipatory2012",
+      "src_reports27_issue_82"
+    ],
+    "set_tags": [
+      "systems"
+    ],
+    "espoused_labels": [],
+    "observed_clusters": [],
+    "canonical_definition": "Judith Rosen contributed an introduction and a short story about Robert Rosen to the second edition of Anticipatory Systems (2012). Springer identifies Robert Rosen as the book's author and describes her contributions separately.",
+    "valid_from": "",
+    "valid_to": "",
+    "external_ids": "{}",
+    "geographies": [],
+    "licence": "",
+    "review_status": "source_scoped_report_review_complete",
+    "reviewed_by": "",
+    "reviewed_at": "",
+    "x": 0.256,
+    "y": 0.493,
+    "canonical_id": "person_judith_rosen",
+    "public_visibility": "public",
+    "publication_level": "profile",
+    "public_stub_text": "",
+    "public_source_count": 2,
+    "no_public_link_count": 0
+  },
+  "profile": {
+    "node_id": "person_judith_rosen",
+    "summary": "Judith Rosen contributed an introduction and a short story about Robert Rosen to the second edition of Anticipatory Systems (2012). Springer identifies Robert Rosen as the book's author and describes her contributions separately.",
+    "canonical_definition": "Judith Rosen contributed an introduction and a short story about Robert Rosen to the second edition of Anticipatory Systems (2012). Springer identifies Robert Rosen as the book's author and describes her contributions separately.",
+    "why_it_matters": "Her credited contributions form part of how a later edition presents Robert Rosen's work and its personal and intellectual context.",
+    "key_distinctions": [
+      "Contributing to an edition is not authorship of the original book or its central theory.",
+      "Family relationship, editorial labour, scholarship, and theoretical extension are distinct claims."
+    ],
+    "historical_lineage": [
+      "The publication and reception history of Robert Rosen's Anticipatory Systems."
+    ],
+    "logical_antecedents": [],
+    "dependent_subsequents": [],
+    "practice_connections": [
+      "Credit the contribution named by the publisher without inflating or erasing it."
+    ],
+    "common_misreadings": [
+      "The report's wider claims about preservation, translation, ecology, cognition, and health are not established by the publisher record."
+    ],
+    "open_checks": [
+      "Judith Rosen's wider publications and any Rosen Enterprises archive role need separate, public, publication-level evidence."
+    ],
+    "source_ids": [
+      "src_intake26_anticipatory2012",
+      "src_reports27_issue_82"
+    ],
+    "context_and_lineage": "Reviewed from public report #82. The report is a research prompt; the profile retains only claims bounded by the cited records.",
+    "editorial_note": "Prepared with AI assistance from the named public records and the public report. The report review is complete; open checks are future research, not missing entry work. Independent specialist review is not recorded.",
+    "last_researched": "2026-09-20",
+    "title": "Judith Rosen",
+    "profile_status": "source_scoped_report_review_complete",
+    "review_status": "independent_review_not_recorded",
+    "reviewed_by": "",
+    "reviewed_at": "",
+    "report_issue": 82,
+    "report_outcome": "profile_deepened; exact contribution retained; wider scholarly claims deferred"
+  },
+  "connections": [
+    {
+      "id": "e25_person_judith_rosen_contributed_to_publication_anticipatory_systems_2012",
+      "source": "person_judith_rosen",
+      "target": "publication_anticipatory_systems_2012",
+      "relation_type": "contributed_to",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "",
+      "claim_status": "candidate",
+      "source_ids": [
+        "src_intake26_anticipatory2012"
+      ],
+      "evidence_ids": [],
+      "source_locator": "About this book, second and third paragraphs",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Introduction and short story only; not authorship of the whole book.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "contributed to",
+      "public_review_label": "Located source statement; independent review not recorded"
+    }
+  ],
+  "claims": [],
+  "sources": [
+    {
+      "id": "src_intake26_anticipatory2012",
+      "title": "Anticipatory Systems, second edition",
+      "source_type": "primary_public_record",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://link.springer.com/book/10.1007/978-1-4614-1269-4",
+      "date": "2012",
+      "notes": "About this book; Authors; Bibliographic information: Publisher credits Robert Rosen as author and Judith Rosen with an introduction and a short story. Metadata and description inspected; full book not read in this pass.",
+      "creators": [],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Springer",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "source_scope_checked",
+      "last_checked": "2026-09-18",
+      "public_link_status": "public_link",
+      "connection_pass": "source_intake_20260918"
+    },
+    {
+      "id": "src_reports27_issue_82",
+      "title": "Missing-entry report #82: Judith Rosen",
+      "source_type": "public_submission",
+      "quality_tier": "B",
+      "access": "public",
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/82",
+      "date": "2026-09-20",
+      "notes": "Public report by David Ing. The report prompted research but is not treated as evidence for its own claims.",
+      "creators": [
+        "David Ing"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "The Necessary Tangle public intake",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "report_reviewed_against_public_sources",
+      "last_checked": "2026-09-20",
+      "public_link_status": "public_link",
+      "connection_pass": "missing_entry_reports_20260920"
+    }
+  ],
+  "evidence_locators": [],
+  "reuse_note": "Preserve source attribution, scope, and review status. Source documents and evidence excerpts are excluded."
+}

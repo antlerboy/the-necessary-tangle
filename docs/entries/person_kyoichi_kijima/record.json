@@ -1,0 +1,241 @@
+{
+  "schema_version": "1.0",
+  "canonical_url": "https://transduction.systems/entries/person_kyoichi_kijima/",
+  "release": "0.35",
+  "citation": "Taylor, B. P. (2026). Kyoichi (Jim) Kijima. The Necessary Tangle, release 0.35. https://transduction.systems/entries/person_kyoichi_kijima/",
+  "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
+  "entry": {
+    "id": "person_kyoichi_kijima",
+    "label": "Kyoichi (Jim) Kijima",
+    "entity_type": "person",
+    "description": "Kyoichi Kijima is a systems scientist working across systems methodology, decision systems, and service systems. He co-edited the 2021 Handbook of Systems Sciences, and ISSS records his presidency; his laboratory biosketch supplies an author-maintained account of his research and institutional work.",
+    "aliases": [
+      "Kyoichi (Jim) Kijima",
+      "Jim Kijima"
+    ],
+    "boundary_ring": "0",
+    "inclusion_reason": "september_connections_2026",
+    "status": "candidate",
+    "source_ids": [
+      "src_handbook_systems_sciences_2021",
+      "src_reports27_kijima_biosketch",
+      "src_reports27_isss_presidents",
+      "src_reports27_issue_80"
+    ],
+    "set_tags": [
+      "systems",
+      "september_connections_2026"
+    ],
+    "espoused_labels": [],
+    "observed_clusters": [],
+    "canonical_definition": "Kyoichi Kijima is a systems scientist working across systems methodology, decision systems, and service systems. He co-edited the 2021 Handbook of Systems Sciences, and ISSS records his presidency; his laboratory biosketch supplies an author-maintained account of his research and institutional work.",
+    "valid_from": "",
+    "valid_to": "",
+    "external_ids": "{}",
+    "geographies": [],
+    "licence": "",
+    "review_status": "source_scoped_report_review_complete",
+    "reviewed_by": "",
+    "reviewed_at": "",
+    "x": -0.274,
+    "y": -0.16599999999999998,
+    "canonical_id": "person_kyoichi_kijima",
+    "public_visibility": "public",
+    "publication_level": "profile",
+    "public_stub_text": "",
+    "public_source_count": 4,
+    "no_public_link_count": 0
+  },
+  "profile": {
+    "node_id": "person_kyoichi_kijima",
+    "summary": "Kyoichi Kijima is a systems scientist working across systems methodology, decision systems, and service systems. He co-edited the 2021 Handbook of Systems Sciences, and ISSS records his presidency; his laboratory biosketch supplies an author-maintained account of his research and institutional work.",
+    "canonical_definition": "Kyoichi Kijima is a systems scientist working across systems methodology, decision systems, and service systems. He co-edited the 2021 Handbook of Systems Sciences, and ISSS records his presidency; his laboratory biosketch supplies an author-maintained account of his research and institutional work.",
+    "why_it_matters": "Kijima's documented work gives readers a route from systems-science institutions and methods into the study of service and decision systems.",
+    "key_distinctions": [
+      "Service science is not reducible to customer service or to one systems methodology.",
+      "A handbook editorship and presidency are roles, not proof of conceptual priority."
+    ],
+    "historical_lineage": [
+      "Systems methodology, decision systems, service systems, and systems-sciences institutions."
+    ],
+    "logical_antecedents": [],
+    "dependent_subsequents": [],
+    "practice_connections": [
+      "Treat service as a system of interacting actors, resources, purposes, and institutional arrangements."
+    ],
+    "common_misreadings": [
+      "The report's claims of foundational status and global expansion are not retained as settled rankings."
+    ],
+    "open_checks": [
+      "Specific methods, collaborations, and claimed service-science innovations need close reading of named publications."
+    ],
+    "source_ids": [
+      "src_handbook_systems_sciences_2021",
+      "src_reports27_kijima_biosketch",
+      "src_reports27_isss_presidents",
+      "src_reports27_issue_80"
+    ],
+    "context_and_lineage": "Reviewed from public report #80. The report is a research prompt; the profile retains only claims bounded by the cited records.",
+    "editorial_note": "Prepared with AI assistance from the named public records and the public report. The report review is complete; open checks are future research, not missing entry work. Independent specialist review is not recorded.",
+    "last_researched": "2026-09-20",
+    "title": "Kyoichi (Jim) Kijima",
+    "profile_status": "source_scoped_report_review_complete",
+    "review_status": "independent_review_not_recorded",
+    "reviewed_by": "",
+    "reviewed_at": "",
+    "report_issue": 80,
+    "report_outcome": "full_profile_added; research areas, editorship, and office retained; ranking claims excluded"
+  },
+  "connections": [
+    {
+      "id": "e24_publication_handbook_systems_sciences_2021_edited_by_person_kyoichi_kijima",
+      "source": "publication_handbook_systems_sciences_2021",
+      "target": "person_kyoichi_kijima",
+      "relation_type": "edited_by",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "",
+      "claim_status": "candidate",
+      "source_ids": [
+        "src_handbook_systems_sciences_2021"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Editors and bibliographic information",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Role in this volume; no claim about relative influence or current institutional office.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "is edited by",
+      "public_review_label": "Located source statement; independent review not recorded"
+    },
+    {
+      "id": "e27_b87ab788fb499cbb3f6c",
+      "source": "person_kyoichi_kijima",
+      "target": "organisation_isss",
+      "relation_type": "served_as_president_of",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "",
+      "claim_status": "candidate",
+      "source_ids": [
+        "src_reports27_isss_presidents"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Past-presidents list, Kyoichi Kijima",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Historical office-holding only.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "served as president of",
+      "public_review_label": "Located source statement; independent review not recorded",
+      "connection_pass": "missing_entry_reports_20260920"
+    }
+  ],
+  "claims": [],
+  "sources": [
+    {
+      "id": "src_handbook_systems_sciences_2021",
+      "title": "Handbook of Systems Sciences",
+      "source_type": "publisher_record",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://link.springer.com/referencework/10.1007/978-981-15-0720-5",
+      "date": "2026-09-09",
+      "notes": "Publisher metadata and overview inspected. Editorial credits establish roles in this volume; the whole handbook has not been read.",
+      "creators": [
+        "Gary S. Metcalf",
+        "Kyoichi Kijima",
+        "Hiroshi Deguchi"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Springer",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "source_scope_checked",
+      "last_checked": "2026-09-09",
+      "public_link_status": "public_link",
+      "connection_pass": "september_connections_2026"
+    },
+    {
+      "id": "src_reports27_kijima_biosketch",
+      "title": "Kyoichi Kijima: overview and biosketch",
+      "source_type": "primary_public_record",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://www.kijima-lab.com/overview-biosketch/",
+      "date": "2026-09-20",
+      "notes": "Overview and biosketch: Author-maintained biographical and research account covering systems science, service systems, and institutional roles. Self-description is retained as such.",
+      "creators": [],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Kijima Laboratory",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "source_scope_checked",
+      "last_checked": "2026-09-20",
+      "public_link_status": "public_link",
+      "connection_pass": "missing_entry_reports_20260920"
+    },
+    {
+      "id": "src_reports27_isss_presidents",
+      "title": "Past presidents of the ISSS",
+      "source_type": "primary_public_record",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://www.isss.org/past-presidents/",
+      "date": "2026-09-20",
+      "notes": "Chronological list of past presidents: Institutional office-holding record. Presidency establishes a formal role, not agreement with every position taken by the society or proof of intellectual influence.",
+      "creators": [],
+      "doi": "",
+      "isbn": "",
+      "publisher": "International Society for the Systems Sciences",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "source_scope_checked",
+      "last_checked": "2026-09-20",
+      "public_link_status": "public_link",
+      "connection_pass": "missing_entry_reports_20260920"
+    },
+    {
+      "id": "src_reports27_issue_80",
+      "title": "Missing-entry report #80: Kyoichi (Jim) Kijima",
+      "source_type": "public_submission",
+      "quality_tier": "B",
+      "access": "public",
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/80",
+      "date": "2026-09-20",
+      "notes": "Public report by David Ing. The report prompted research but is not treated as evidence for its own claims.",
+      "creators": [
+        "David Ing"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "The Necessary Tangle public intake",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "report_reviewed_against_public_sources",
+      "last_checked": "2026-09-20",
+      "public_link_status": "public_link",
+      "connection_pass": "missing_entry_reports_20260920"
+    }
+  ],
+  "evidence_locators": [],
+  "reuse_note": "Preserve source attribution, scope, and review status. Source documents and evidence excerpts are excluded."
+}

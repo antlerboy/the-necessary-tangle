@@ -710,6 +710,7 @@
         <a class="button ask-entry" href="${internalHref('ask', { seed: node.id })}" data-id="${esc(node.id)}">Ask about this</a>
         <a class="button contribute-entry" href="${internalHref('contribute', { entry: node.id })}" data-id="${esc(node.id)}">Suggest a change</a>
         <a class="button" href="${esc(CONFIG.discussionsUrl || `${CONFIG.repositoryUrl}/discussions`)}" target="_blank" rel="noopener">Discuss</a>
+        ${profile ? `<a class="button" href="/entries/${encodeURIComponent(node.id)}/">Read or cite this entry</a>` : ''}
         <button id="copyEntryLink">Copy link</button>
       </div>
     </article>
@@ -1020,6 +1021,7 @@
       <a href="${internalHref('item', { id: node?.id, from: 'journeys' })}" class="button primary open-card internal-entry-link" data-id="${esc(node?.id)}">Open the full entry</a>
     </div>
     <div class="journey-actions">
+      <a class="button" href="/journeys/${encodeURIComponent(journey.id)}/">Read the whole journey</a>
       <button id="journeyPrev" ${activeStep === 0 ? 'disabled' : ''}>Previous</button>
       <button id="journeyNext" class="primary" ${activeStep === journey.steps.length - 1 ? 'disabled' : ''}>Next</button>
     </div>`;
@@ -2218,6 +2220,8 @@
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', initConstellationControls);
   else initConstellationControls();
 })();
+
+
 
 
 

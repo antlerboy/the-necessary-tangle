@@ -1,0 +1,250 @@
+{
+  "schema_version": "1.0",
+  "canonical_url": "https://transduction.systems/entries/concept_canon_formation/",
+  "release": "0.35",
+  "citation": "Taylor, B. P. (2026). Canon formation. The Necessary Tangle, release 0.35. https://transduction.systems/entries/concept_canon_formation/",
+  "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
+  "entry": {
+    "id": "concept_canon_formation",
+    "label": "Canon formation",
+    "entity_type": "concept",
+    "description": "The social and editorial processes through which some people, works and traditions become the recognised centre of a field while others become marginal, derivative, invisible or difficult to retrieve.",
+    "aliases": [],
+    "boundary_ring": "0",
+    "inclusion_reason": "feedback_led_release_0_17",
+    "status": "accepted",
+    "source_ids": [
+      "src_oro_boundaries_disciplines_2006",
+      "src_tangle_issue2_canon_feedback_2026"
+    ],
+    "set_tags": [
+      "systems",
+      "lineage",
+      "release_0_17",
+      "canon",
+      "power",
+      "lineage"
+    ],
+    "espoused_labels": [],
+    "observed_clusters": [],
+    "canonical_definition": "The social and editorial processes through which some people, works and traditions become the recognised centre of a field while others become marginal, derivative, invisible or difficult to retrieve.",
+    "valid_from": "",
+    "valid_to": "",
+    "external_ids": "{}",
+    "geographies": [],
+    "licence": "",
+    "review_status": "curator_checked_public_sources",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-19",
+    "x": 0.07,
+    "y": 0.45,
+    "canonical_id": "concept_canon_formation",
+    "public_visibility": "public",
+    "publication_level": "profile",
+    "public_stub_text": "",
+    "public_source_count": 2,
+    "no_public_link_count": 0
+  },
+  "profile": {
+    "node_id": "concept_canon_formation",
+    "summary": "Canon formation is the production of a recognised centre and periphery in a field through selection, teaching, citation, institutional power and repetition.",
+    "canonical_definition": "Canon formation is the production of a recognised centre and periphery in a field through selection, teaching, citation, institutional power and repetition.",
+    "why_it_matters": "The atlas cannot criticise other maps for false neutrality while leaving its own visibility choices implicit.",
+    "key_distinctions": [
+      "canon versus exhaustive field",
+      "visibility versus intellectual value",
+      "citation versus influence",
+      "recovery versus decorative inclusion"
+    ],
+    "historical_lineage": [
+      "historiography",
+      "disciplinary boundary making",
+      "curriculum and anthology construction"
+    ],
+    "logical_antecedents": [
+      "selection",
+      "institutional authority",
+      "publication and teaching"
+    ],
+    "dependent_subsequents": [
+      "epistemic exclusion",
+      "lineage recovery",
+      "rival genealogies"
+    ],
+    "practice_connections": [
+      "coverage audits",
+      "source comparison",
+      "teaching-history research",
+      "public challenge"
+    ],
+    "common_misreadings": [
+      "A canon is not simply a list of the objectively best people.",
+      "Replacing one closed list with another does not remove boundary choices."
+    ],
+    "open_checks": [
+      "Add explicit cases of exclusion, appropriation, canonisation and recovery only where public evidence supports the precise relation."
+    ],
+    "source_ids": [
+      "src_oro_boundaries_disciplines_2006",
+      "src_tangle_issue2_canon_feedback_2026"
+    ],
+    "context_and_lineage": "",
+    "editorial_note": "",
+    "last_researched": "2026-08-19"
+  },
+  "connections": [
+    {
+      "id": "e17_canon_can_exclude",
+      "source": "concept_canon_formation",
+      "target": "concept_epistemic_exclusion",
+      "relation_type": "can_exclude",
+      "relation_family": "contestation",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.74",
+      "claim_status": "provisional",
+      "source_ids": [
+        "src_oro_boundaries_disciplines_2006",
+        "src_oup_fricker_epistemic_injustice_2007",
+        "src_tangle_issue2_canon_feedback_2026"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Boundary-selection article, epistemic-injustice account and public editorial reflection",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Provisional bridge between disciplinary selection and social epistemology; particular cases require their own evidence.",
+      "assertion_mode": "interpreted",
+      "inference_method": "curatorial comparison of the cited public sources",
+      "claim_id": "",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "can produce",
+      "public_review_label": "provisional conceptual interpretation"
+    },
+    {
+      "id": "e17_systems_thinkers_canon",
+      "source": "publication_systems_thinkers_ramage_shipp",
+      "target": "concept_canon_formation",
+      "relation_type": "participates_in_canon_formation",
+      "relation_family": "historical",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.94",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_oro_boundaries_disciplines_2006",
+        "src_springer_systems_thinkers_2ed_2020"
+      ],
+      "evidence_ids": [],
+      "source_locator": "2006 article title and abstract; second-edition scope and contents",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "This does not dismiss the book as arbitrary. It states that a useful selection remains a selection with boundaries.",
+      "assertion_mode": "interpreted",
+      "inference_method": "curatorial comparison of the cited public sources",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-19",
+      "notes": "",
+      "plain_phrase": "makes a documented selection of key systems thinkers and therefore participates in forming a canon through",
+      "public_review_label": "source-backed curatorial interpretation"
+    }
+  ],
+  "claims": [],
+  "sources": [
+    {
+      "id": "src_oro_boundaries_disciplines_2006",
+      "title": "On boundaries and disciplines: constructing a set of key systems thinkers",
+      "source_type": "institutional_repository_article_record",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://oro.open.ac.uk/5446/",
+      "date": "2006",
+      "notes": "Open University repository record for Ramage and Shipp's article on the choices and boundary questions involved in constructing a set of key systems thinkers.",
+      "creators": [
+        "Magnus Ramage",
+        "Karen Shipp"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "The Systemist / The Open University",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-19",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_tangle_issue2_canon_feedback_2026",
+      "title": "The Necessary Tangle running feedback: canon, closure and patriarchy",
+      "source_type": "public_curator_discussion",
+      "quality_tier": "B",
+      "access": "public",
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5345119282",
+      "date": "2026-08",
+      "notes": "Public curator note recording the challenge about a predominantly white male visual canon and the resulting editorial requirement to expose canonisation, exclusion, appropriation and recovery rather than repair the map through portraits alone.",
+      "creators": [
+        "Benjamin P Taylor",
+        "Ida Rose Florez"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "The Necessary Tangle",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-19",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_oup_fricker_epistemic_injustice_2007",
+      "title": "Epistemic Injustice: Power and the Ethics of Knowing",
+      "source_type": "publisher_record",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://academic.oup.com/book/32817",
+      "date": "2007",
+      "notes": "Oxford Academic record for Miranda Fricker's account of testimonial and hermeneutical injustice and the relation between knowing, prejudice and social power.",
+      "creators": [
+        "Miranda Fricker"
+      ],
+      "doi": "10.1093/acprof:oso/9780198237907.001.0001",
+      "isbn": "9780198237907",
+      "publisher": "Oxford University Press",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-19",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_springer_systems_thinkers_2ed_2020",
+      "title": "Systems Thinkers, second edition",
+      "source_type": "publisher_record",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://link.springer.com/book/10.1007/978-1-4471-7475-2",
+      "date": "2020",
+      "notes": "Springer record for the 2020 second edition, its thirty biographical chapters, authorship, scope and bibliographic metadata.",
+      "creators": [
+        "Magnus Ramage",
+        "Karen Shipp"
+      ],
+      "doi": "10.1007/978-1-4471-7475-2",
+      "isbn": "978-1-4471-7475-2",
+      "publisher": "Springer London",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-19",
+      "public_link_status": "public_link"
+    }
+  ],
+  "evidence_locators": [],
+  "reuse_note": "Preserve source attribution, scope, and review status. Source documents and evidence excerpts are excluded."
+}

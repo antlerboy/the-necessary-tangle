@@ -1,0 +1,161 @@
+{
+  "schema_version": "1.0",
+  "canonical_url": "https://transduction.systems/entries/person_james_j_kay/",
+  "release": "0.35",
+  "citation": "Taylor, B. P. (2026). James J. Kay. The Necessary Tangle, release 0.35. https://transduction.systems/entries/person_james_j_kay/",
+  "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
+  "entry": {
+    "id": "person_james_j_kay",
+    "label": "James J. Kay",
+    "entity_type": "person",
+    "description": "James J. Kay worked in environment and resource studies at the University of Waterloo. The Ecosystem Approach credits him with chapters on systems thinking, system description, management, and self-organising holarchic open systems.",
+    "aliases": [
+      "James Kay"
+    ],
+    "boundary_ring": "0",
+    "inclusion_reason": "source_intake_20260918",
+    "status": "candidate",
+    "source_ids": [
+      "src_intake26_ecosystem2008",
+      "src_reports27_issue_70"
+    ],
+    "set_tags": [
+      "systems"
+    ],
+    "espoused_labels": [],
+    "observed_clusters": [],
+    "canonical_definition": "James J. Kay worked in environment and resource studies at the University of Waterloo. The Ecosystem Approach credits him with chapters on systems thinking, system description, management, and self-organising holarchic open systems.",
+    "valid_from": "",
+    "valid_to": "",
+    "external_ids": "{}",
+    "geographies": [],
+    "licence": "",
+    "review_status": "source_scoped_report_review_complete",
+    "reviewed_by": "",
+    "reviewed_at": "",
+    "x": 0.138,
+    "y": 0.363,
+    "canonical_id": "person_james_j_kay",
+    "public_visibility": "public",
+    "publication_level": "profile",
+    "public_stub_text": "",
+    "public_source_count": 2,
+    "no_public_link_count": 0
+  },
+  "profile": {
+    "node_id": "person_james_j_kay",
+    "summary": "James J. Kay worked in environment and resource studies at the University of Waterloo. The Ecosystem Approach credits him with chapters on systems thinking, system description, management, and self-organising holarchic open systems.",
+    "canonical_definition": "James J. Kay worked in environment and resource studies at the University of Waterloo. The Ecosystem Approach credits him with chapters on systems thinking, system description, management, and self-organising holarchic open systems.",
+    "why_it_matters": "Kay offers a route into ecological inquiry which joins systems description, uncertainty, self-organisation, and the practical problem of managing for sustainability.",
+    "key_distinctions": [
+      "A chapter title establishes authorship and topic, not the truth of a thermodynamic law or a complete method.",
+      "Ecosystem self-organisation and policy prescription are different kinds of claim."
+    ],
+    "historical_lineage": [
+      "Ecological systems, complexity, thermodynamics, and the ecosystem approach."
+    ],
+    "logical_antecedents": [],
+    "dependent_subsequents": [],
+    "practice_connections": [
+      "Treat descriptions of an ecosystem, choices about management, and claims about sustainability as connected but non-identical."
+    ],
+    "common_misreadings": [
+      "The submitted influence list is not reproduced as a verified intellectual genealogy."
+    ],
+    "open_checks": [
+      "Full-text review is still needed for the proposed Prigogine, Odum, Wicken, Koestler, Funtowicz, and Ravetz connections."
+    ],
+    "source_ids": [
+      "src_intake26_ecosystem2008",
+      "src_reports27_issue_70"
+    ],
+    "context_and_lineage": "Reviewed from public report #70. The report is a research prompt; the profile retains only claims bounded by the cited records.",
+    "editorial_note": "Prepared with AI assistance from the named public records and the public report. The report review is complete; open checks are future research, not missing entry work. Independent specialist review is not recorded.",
+    "last_researched": "2026-09-20",
+    "title": "James J. Kay",
+    "profile_status": "source_scoped_report_review_complete",
+    "review_status": "independent_review_not_recorded",
+    "reviewed_by": "",
+    "reviewed_at": "",
+    "report_issue": 70,
+    "report_outcome": "profile_deepened; publication contribution retained; broad influence claims deferred"
+  },
+  "connections": [
+    {
+      "id": "e25_person_james_j_kay_contributed_to_publication_ecosystem_approach_2008",
+      "source": "person_james_j_kay",
+      "target": "publication_ecosystem_approach_2008",
+      "relation_type": "contributed_to",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "",
+      "claim_status": "candidate",
+      "source_ids": [
+        "src_intake26_ecosystem2008"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Contents, chapters 1, 2, 4, and 5",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Specific chapter credits, including chapter 4 jointly with Michelle Boyle.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "contributed to",
+      "public_review_label": "Located source statement; independent review not recorded"
+    }
+  ],
+  "claims": [],
+  "sources": [
+    {
+      "id": "src_intake26_ecosystem2008",
+      "title": "The Ecosystem Approach: Complexity, Uncertainty, and Managing for Sustainability",
+      "source_type": "primary_public_record",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://cup.columbia.edu/book/the-ecosystem-approach/9780231507202/",
+      "date": "2008",
+      "notes": "Contents, chapters 1–5; About the Author: Publisher's contents credit James Kay with several chapters and Tim Allen with chapter 3. Biography identifies Kay's Waterloo work. Full chapters not reviewed.",
+      "creators": [],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Columbia University Press",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "source_scope_checked",
+      "last_checked": "2026-09-18",
+      "public_link_status": "public_link",
+      "connection_pass": "source_intake_20260918"
+    },
+    {
+      "id": "src_reports27_issue_70",
+      "title": "Missing-entry report #70: James J. Kay",
+      "source_type": "public_submission",
+      "quality_tier": "B",
+      "access": "public",
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/70",
+      "date": "2026-09-20",
+      "notes": "Public report by David Ing. The report prompted research but is not treated as evidence for its own claims.",
+      "creators": [
+        "David Ing"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "The Necessary Tangle public intake",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "report_reviewed_against_public_sources",
+      "last_checked": "2026-09-20",
+      "public_link_status": "public_link",
+      "connection_pass": "missing_entry_reports_20260920"
+    }
+  ],
+  "evidence_locators": [],
+  "reuse_note": "Preserve source attribution, scope, and review status. Source documents and evidence excerpts are excluded."
+}

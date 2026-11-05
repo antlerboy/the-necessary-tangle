@@ -1,0 +1,188 @@
+{
+  "schema_version": "1.0",
+  "canonical_url": "https://transduction.systems/entries/publication_fractal_organisation_manual/",
+  "release": "0.35",
+  "citation": "Taylor, B. P. (2026). The Fractal Organisation Manual. The Necessary Tangle, release 0.35. https://transduction.systems/entries/publication_fractal_organisation_manual/",
+  "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
+  "entry": {
+    "id": "publication_fractal_organisation_manual",
+    "label": "The Fractal Organisation Manual",
+    "entity_type": "publication",
+    "description": "Patrick Hoverstadt's practice manual for using the Viable System Model in organisational diagnosis, design, governance and the development of organisational agility.",
+    "aliases": [
+      "The Fractal Organisation Manual: How to diagnose & design organisations using the Viable System Model"
+    ],
+    "boundary_ring": "0",
+    "inclusion_reason": "practitioner_expertise_coverage_release_0_12",
+    "status": "accepted",
+    "source_ids": [
+      "src_scio_fractal_organisation_manual_2026"
+    ],
+    "set_tags": [
+      "systems",
+      "practice",
+      "human_lineage",
+      "release_0_12"
+    ],
+    "espoused_labels": [],
+    "observed_clusters": [],
+    "canonical_definition": "Patrick Hoverstadt's practice manual for using the Viable System Model in organisational diagnosis, design, governance and the development of organisational agility.",
+    "valid_from": "",
+    "valid_to": "",
+    "external_ids": "{}",
+    "geographies": [],
+    "licence": "",
+    "review_status": "curator_checked_public_sources",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-10",
+    "x": -0.37,
+    "y": -0.09,
+    "canonical_id": "publication_fractal_organisation_manual",
+    "public_visibility": "public",
+    "publication_level": "profile",
+    "public_stub_text": "",
+    "public_source_count": 1,
+    "no_public_link_count": 0
+  },
+  "profile": {
+    "node_id": "publication_fractal_organisation_manual",
+    "title": "The Fractal Organisation Manual",
+    "profile_status": "curator_checked_public_sources",
+    "canonical_definition": "Patrick Hoverstadt's practice manual for using the Viable System Model in organisational diagnosis, design, governance and the development of organisational agility.",
+    "summary": "The Fractal Organisation Manual turns long practice with the Viable System Model into explicit approaches for organisational diagnosis, design, governance and agility.",
+    "why_it_matters": "The atlas was strong on VSM concepts but weak on current practitioner manuals and documented method transfer. This book is an important bridge from model to use.",
+    "key_distinctions": [
+      "recursive organisation vs repeated organisation chart",
+      "diagnosis vs design",
+      "governance vs central control"
+    ],
+    "historical_lineage": [
+      "Stafford Beer",
+      "Viable System Model",
+      "The Fractal Organization",
+      "applied organisational cybernetics"
+    ],
+    "logical_antecedents": [
+      "viability",
+      "recursion",
+      "autonomy",
+      "cohesion",
+      "requisite variety"
+    ],
+    "dependent_subsequents": [
+      "VSM diagnostic approaches",
+      "VSM design approaches",
+      "governance approaches"
+    ],
+    "practice_connections": [
+      "organisation design",
+      "governance",
+      "agility",
+      "multi-organisational diagnosis"
+    ],
+    "espoused_lineages": [],
+    "observed_clusters": [],
+    "common_misreadings": [
+      "fractal means visually self-similar boxes",
+      "the VSM specifies one organisation structure",
+      "diagnosis can ignore purpose and environment"
+    ],
+    "open_checks": [
+      "review the full text",
+      "map its nine practical approaches",
+      "add independently described cases"
+    ],
+    "source_ids": [
+      "src_scio_fractal_organisation_manual_2026"
+    ],
+    "evidence_ids": [],
+    "last_researched": "2026-08-10",
+    "review_status": "curator_checked_public_sources",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-10",
+    "editorial_note": "Developed from cited public sources. The entry remains open to correction, rival accounts and stronger evidence."
+  },
+  "connections": [
+    {
+      "id": "e_12_fractal_patrick",
+      "source": "publication_fractal_organisation_manual",
+      "target": "person_patrick_hoverstadt",
+      "relation_type": "authored_by",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.88",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_scio_fractal_organisation_manual_2026"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Release 0.12 public practitioner and publication sources",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "The wording is limited to the named public sources. Bibliographic inclusion and organisational association do not establish wider intellectual influence.",
+      "assertion_mode": "asserted",
+      "inference_method": "curatorial synthesis of public primary, scholarly and professional-body sources",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-10",
+      "notes": "The official page identifies Patrick Hoverstadt as author.",
+      "plain_phrase": "was authored by",
+      "public_review_label": "supported working statement"
+    },
+    {
+      "id": "e_12_fractal_vsm",
+      "source": "publication_fractal_organisation_manual",
+      "target": "method_or_methodology_viable_system_model_vsm",
+      "relation_type": "operationalises",
+      "relation_family": "practice",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.88",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_scio_fractal_organisation_manual_2026"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Release 0.12 public practitioner and publication sources",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "The wording is limited to the named public sources. Bibliographic inclusion and organisational association do not establish wider intellectual influence.",
+      "assertion_mode": "asserted",
+      "inference_method": "curatorial synthesis of public primary, scholarly and professional-body sources",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-10",
+      "notes": "The manual provides diagnosis, design and governance approaches using VSM.",
+      "plain_phrase": "puts into practical form",
+      "public_review_label": "supported working statement"
+    }
+  ],
+  "claims": [],
+  "sources": [
+    {
+      "id": "src_scio_fractal_organisation_manual_2026",
+      "title": "The Fractal Organisation Manual: How to diagnose & design organisations using the Viable System Model",
+      "source_type": "official_professional_body_book_page",
+      "quality_tier": "B",
+      "access": "public_metadata",
+      "url": "https://www.systemspractice.org/resources/fractal-organisation-manual-how-diagnose-design-organisations-using-viable-system-model",
+      "date": "2026-04",
+      "notes": "SCiO book page for Patrick Hoverstadt's practice manual, described as distilling thirty years of VSM diagnosis, design and governance work.",
+      "creators": [
+        "Patrick Hoverstadt"
+      ],
+      "doi": "",
+      "isbn": "979-8250847018",
+      "publisher": "SCiO",
+      "licence": "publisher_terms",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-10",
+      "public_link_status": "public_link"
+    }
+  ],
+  "evidence_locators": [],
+  "reuse_note": "Preserve source attribution, scope, and review status. Source documents and evidence excerpts are excluded."
+}

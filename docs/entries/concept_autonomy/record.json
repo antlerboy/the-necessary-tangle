@@ -1,0 +1,680 @@
+{
+  "schema_version": "1.0",
+  "canonical_url": "https://transduction.systems/entries/concept_autonomy/",
+  "release": "0.35",
+  "citation": "Taylor, B. P. (2026). Autonomy. The Necessary Tangle, release 0.35. https://transduction.systems/entries/concept_autonomy/",
+  "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
+  "entry": {
+    "id": "concept_autonomy",
+    "label": "Autonomy",
+    "entity_type": "concept",
+    "description": "Autonomy is not independence. A viable part needs discretion, information and resources, while remaining connected to wider identity and constraints.",
+    "aliases": [],
+    "boundary_ring": "0",
+    "inclusion_reason": "v0_3_coherent_cluster",
+    "status": "accepted",
+    "source_ids": [
+      "src_metaphorum_vsm_current",
+      "src_taylor_vsm_lecture_2025"
+    ],
+    "set_tags": [
+      "systems",
+      "management_cybernetics",
+      "organisation",
+      "core_cluster"
+    ],
+    "espoused_labels": [],
+    "observed_clusters": [],
+    "canonical_definition": "The operational freedom and regulatory capacity of a part to respond to its local environment without being reduced to a passive execution point of the whole.",
+    "valid_from": "",
+    "valid_to": "",
+    "external_ids": "{}",
+    "geographies": [],
+    "licence": "",
+    "review_status": "research_pass_needs_editor",
+    "reviewed_by": "",
+    "reviewed_at": "",
+    "x": -0.303428,
+    "y": 0.034462,
+    "canonical_id": "concept_autonomy",
+    "public_visibility": "public",
+    "publication_level": "profile",
+    "public_stub_text": "",
+    "public_source_count": 2,
+    "no_public_link_count": 0
+  },
+  "profile": {
+    "node_id": "concept_autonomy",
+    "title": "Autonomy",
+    "profile_status": "evidence_deepened_research_pass",
+    "canonical_definition": "The operational freedom and regulatory capacity of a part to respond to its local environment without being reduced to a passive execution point of the whole.",
+    "summary": "Autonomy is not independence. A viable part needs discretion, information and resources, while remaining connected to wider identity and constraints.",
+    "why_it_matters": "Local variety usually outruns central knowledge. Suppressing autonomy can make the whole legible to the centre while making it less able to respond where the work happens.",
+    "key_distinctions": [
+      "autonomy vs independence",
+      "discretion vs abandonment",
+      "local regulation vs central permission",
+      "part autonomy vs whole viability"
+    ],
+    "historical_lineage": [
+      "cybernetics and distributed regulation",
+      "VSM System 1",
+      "socio-technical systems",
+      "agile and team design"
+    ],
+    "logical_antecedents": [
+      "local environment",
+      "response repertoire",
+      "resources and information",
+      "agreed constraints"
+    ],
+    "dependent_subsequents": [
+      "requisite variety",
+      "delegation",
+      "accountability",
+      "innovation",
+      "cohesion"
+    ],
+    "practice_connections": [
+      "locate decisions with relevant variety",
+      "give parts resources as well as responsibility",
+      "define non-negotiable whole-system constraints",
+      "monitor outcomes without scripting every action"
+    ],
+    "espoused_lineages": [
+      "management cybernetics",
+      "socio-technical systems",
+      "organisation design"
+    ],
+    "observed_clusters": [],
+    "common_misreadings": [
+      "autonomy means no rules",
+      "delegation alone creates autonomy",
+      "every unit should optimise itself",
+      "central visibility equals local control"
+    ],
+    "open_checks": [
+      "Beer System 1 autonomy",
+      "redundancy of potential command",
+      "subsidiarity",
+      "psychological safety and discretion"
+    ],
+    "source_ids": [
+      "src_metaphorum_vsm_current",
+      "src_taylor_vsm_lecture_2025"
+    ],
+    "evidence_ids": [
+      "ev_metaphorum_vsm_foundations",
+      "ev_taylor_vsm_viability"
+    ],
+    "last_researched": "2026-08-09",
+    "review_status": "research_pass_needs_editor",
+    "editorial_note": "Readable orientation and evidence-backed first pass. Named editorial review is still required before canonical acceptance."
+  },
+  "connections": [
+    {
+      "id": "e16_grammar_crosswalk_007",
+      "source": "concept_autonomy",
+      "target": "law_or_principle_viability_principle",
+      "relation_type": "explanatory_prerequisite",
+      "relation_family": "conceptual",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.76",
+      "claim_status": "provisional",
+      "source_ids": [
+        "src_grammar_presentation_2022",
+        "src_grammar_2ed_2025",
+        "src_salah_grammar_part1_2022"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Crosswalk from the maintained law description and cited Grammar sources to the target entry's maintained definition",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "This is an interpretive conceptual crosswalk. It does not assert direct historical influence, formal equivalence or universal validity. The wording should be challenged or strengthened with page-level evidence.",
+      "assertion_mode": "interpreted",
+      "inference_method": "curator-requested semantic crosswalk of public descriptions",
+      "claim_id": "",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "is an explanatory prerequisite for",
+      "public_review_label": "provisional conceptual crosswalk"
+    },
+    {
+      "id": "e16_grammar_crosswalk_058",
+      "source": "concept_autonomy",
+      "target": "law_or_principle_power_structuration_theorem",
+      "relation_type": "explanatory_prerequisite",
+      "relation_family": "conceptual",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.76",
+      "claim_status": "provisional",
+      "source_ids": [
+        "src_grammar_presentation_2022",
+        "src_grammar_2ed_2025",
+        "src_salah_grammar_part2_2022"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Crosswalk from the maintained law description and cited Grammar sources to the target entry's maintained definition",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "This is an interpretive conceptual crosswalk. It does not assert direct historical influence, formal equivalence or universal validity. The wording should be challenged or strengthened with page-level evidence.",
+      "assertion_mode": "interpreted",
+      "inference_method": "curator-requested semantic crosswalk of public descriptions",
+      "claim_id": "",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "is one side of the balance examined by",
+      "public_review_label": "provisional conceptual crosswalk"
+    },
+    {
+      "id": "e16_grammar_crosswalk_117",
+      "source": "concept_autonomy",
+      "target": "law_or_principle_redundancy_of_potential_command_principle",
+      "relation_type": "explanatory_prerequisite",
+      "relation_family": "conceptual",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.76",
+      "claim_status": "provisional",
+      "source_ids": [
+        "src_grammar_presentation_2022",
+        "src_grammar_2ed_2025",
+        "src_salah_grammar_part3_2022"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Crosswalk from the maintained law description and cited Grammar sources to the target entry's maintained definition",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "This is an interpretive conceptual crosswalk. It does not assert direct historical influence, formal equivalence or universal validity. The wording should be challenged or strengthened with page-level evidence.",
+      "assertion_mode": "interpreted",
+      "inference_method": "curator-requested semantic crosswalk of public descriptions",
+      "claim_id": "",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "is an explanatory prerequisite for distributed action in",
+      "public_review_label": "provisional conceptual crosswalk"
+    },
+    {
+      "id": "e_12_essential_autonomy",
+      "source": "publication_essential_balances",
+      "target": "concept_autonomy",
+      "relation_type": "uses",
+      "relation_family": "practice",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.88",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_scio_essential_balances_2020"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Release 0.12 public practitioner and publication sources",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "The wording is limited to the named public sources. Bibliographic inclusion and organisational association do not establish wider intellectual influence.",
+      "assertion_mode": "asserted",
+      "inference_method": "curatorial synthesis of public primary, scholarly and professional-body sources",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-10",
+      "notes": "Autonomy is one pole of the first named balance.",
+      "plain_phrase": "uses",
+      "public_review_label": "supported working statement"
+    },
+    {
+      "id": "e_v03_autonomy_cohesion",
+      "source": "concept_autonomy",
+      "target": "concept_cohesion",
+      "relation_type": "complements",
+      "relation_family": "conceptual",
+      "directed": "false",
+      "dependency_kind": "",
+      "confidence": "0.79",
+      "claim_status": "provisional",
+      "source_ids": [
+        "src_metaphorum_vsm_current",
+        "src_taylor_vsm_lecture_2025"
+      ],
+      "evidence_ids": [
+        "ev_metaphorum_vsm_foundations",
+        "ev_taylor_vsm_viability"
+      ],
+      "source_locator": "Metaphorum VSM orientation; VSM lecture",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "",
+      "assertion_mode": "asserted",
+      "inference_method": "editorial synthesis from cited evidence",
+      "claim_id": "claim_autonomy_complements_cohesion",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "complements",
+      "public_review_label": "provisional"
+    },
+    {
+      "id": "e_v03_vsm_autonomy",
+      "source": "method_or_methodology_viable_system_model_vsm",
+      "target": "concept_autonomy",
+      "relation_type": "uses",
+      "relation_family": "practice",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.80",
+      "claim_status": "provisional",
+      "source_ids": [
+        "src_metaphorum_vsm_current",
+        "src_taylor_vsm_lecture_2025"
+      ],
+      "evidence_ids": [
+        "ev_metaphorum_vsm_foundations",
+        "ev_taylor_vsm_viability"
+      ],
+      "source_locator": "Metaphorum VSM orientation; VSM lecture",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "",
+      "assertion_mode": "asserted",
+      "inference_method": "editorial synthesis from cited evidence",
+      "claim_id": "",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "uses",
+      "public_review_label": "provisional"
+    },
+    {
+      "id": "e16_source_crosswalk_007",
+      "source": "method_or_methodology_organic_systems_framework",
+      "target": "concept_autonomy",
+      "relation_type": "uses",
+      "relation_family": "practice",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.90",
+      "claim_status": "provisional",
+      "source_ids": [
+        "src_taylor_four_dynamics_2023"
+      ],
+      "evidence_ids": [],
+      "source_locator": "slides 10, 12-13 and 18",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "The four-dynamics model is an author framework, not a field-wide taxonomy or efficacy study.",
+      "assertion_mode": "asserted",
+      "inference_method": "direct reading of supplied author material",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-14",
+      "notes": "The cited slides connect empowerment with distributed discretion while keeping it in balance with the other organisational dynamics.",
+      "plain_phrase": "holds individual empowerment in balance through",
+      "public_review_label": "source-backed author synthesis; no public link"
+    },
+    {
+      "id": "e34_42_health_concept_autonomy",
+      "source": "publication_42_health",
+      "target": "concept_autonomy",
+      "relation_type": "uses_in_argument",
+      "relation_family": "conceptual",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "",
+      "claim_status": "candidate",
+      "source_ids": [
+        "src_u34_42_health"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Findings 1–2; new system formation and autonomy/cohesion at nested levels",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "This records the paper’s use of a concept in its analysis, without treating the diagnosis as independently verified.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "uses in argument",
+      "public_review_label": "Source-scoped candidate; editorial review remains open",
+      "connection_pass": "update_20261024"
+    },
+    {
+      "id": "e35_autopoiesis_autonomy",
+      "source": "concept_autopoiesis",
+      "target": "concept_autonomy",
+      "relation_type": "explains",
+      "relation_family": "conceptual",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "",
+      "claim_status": "candidate",
+      "source_ids": [
+        "src_u35_varela_maturana_uribe_1974"
+      ],
+      "evidence_ids": [
+        "ev35_edge_e35_autopoiesis_autonomy_1"
+      ],
+      "source_locator": "Section 4, p. 188",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Varela, Maturana, and Uribe explain biological autonomy through the continued production of the organisation constituting the unity. This sense of autonomy differs from managerial discretion or political independence.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "claim35_e35_autopoiesis_autonomy",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "grounds the biological sense of",
+      "public_review_label": "Primary-source exposition; editorial acceptance open",
+      "connection_pass": "depth_20261029"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_autonomy_complements_cohesion",
+      "statement": "In viable organisation, autonomy of operational parts and cohesion of the whole are complementary requirements rather than alternatives.",
+      "subject_id": "concept_autonomy",
+      "predicate": "complements",
+      "object_id": "concept_cohesion",
+      "status": "provisional",
+      "supporting_source_ids": [
+        "src_metaphorum_vsm_current",
+        "src_taylor_vsm_lecture_2025"
+      ],
+      "supporting_evidence_ids": [
+        "ev_metaphorum_vsm_foundations",
+        "ev_taylor_vsm_viability"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_evidence_ids": [],
+      "notes": "Scope is deliberately narrow. Named editorial review is required.",
+      "review_status": "research_pass_needs_editor",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    {
+      "id": "claim35_e35_autopoiesis_autonomy",
+      "statement": "Varela, Maturana, and Uribe explain biological autonomy through the continued production of the organisation constituting the unity. This sense of autonomy differs from managerial discretion or political independence.",
+      "subject_id": "concept_autopoiesis",
+      "predicate": "explains",
+      "object_id": "concept_autonomy",
+      "status": "candidate",
+      "supporting_source_ids": [
+        "src_u35_varela_maturana_uribe_1974"
+      ],
+      "supporting_evidence_ids": [
+        "ev35_edge_e35_autopoiesis_autonomy_1"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_evidence_ids": [],
+      "notes": "Primary-source exposition; editorial acceptance open",
+      "review_status": "research_pass_needs_editor",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "connection_pass": "depth_20261029"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src_metaphorum_vsm_current",
+      "title": "Viable System Model - Metaphorum",
+      "source_type": "professional_body_reference",
+      "quality_tier": "B",
+      "access": "public",
+      "url": "https://metaphorum.org/staffords-work/viable-system-model",
+      "date": "2026-08-09",
+      "notes": "Metaphorum's public orientation to Stafford Beer's Viable System Model and its grounding in cybernetics, requisite variety and recursion.",
+      "creators": [
+        "Metaphorum"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Metaphorum",
+      "licence": "site_terms",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "research_pass_needs_editor",
+      "last_checked": "2026-08-09",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_taylor_vsm_lecture_2025",
+      "title": "Benjamin Taylor VSM lecture",
+      "source_type": "public_teaching_material",
+      "quality_tier": "C",
+      "access": "public",
+      "url": "https://antlerboy.com/library/files/talks/viable-system-model-lecture.pdf",
+      "date": "2025-05-10",
+      "notes": "Public teaching presentation. Public PDF linked on 2026-09-19; the earlier unpublished access description is superseded.",
+      "creators": [
+        "Benjamin P Taylor"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Benjamin P Taylor public work library",
+      "licence": "not_publicly_licensed",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "public_file_identity_checked",
+      "last_checked": "2026-09-19",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_grammar_presentation_2022",
+      "title": "The Grammar of Systems - SCiO presentation",
+      "source_type": "presentation",
+      "quality_tier": "C",
+      "access": "public",
+      "url": "https://www.systemspractice.org/resources/grammar-systems",
+      "date": "2022-03-21",
+      "notes": "Lists 33 systems laws and principles and describes nine patterns of thinking.",
+      "creators": [
+        "Patrick Hoverstadt"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "SCiO",
+      "licence": "site_terms",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-10",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_grammar_2ed_2025",
+      "title": "The Grammar of Systems II: From Order to Chaos and Back Again, 2nd edition",
+      "source_type": "book",
+      "quality_tier": "B",
+      "access": "public_metadata",
+      "url": "https://www.systemspractice.org/resources/grammar-systems-ii-order-chaos-back-again-2nd-ed",
+      "date": "2025-08-01",
+      "notes": "Current second-edition metadata. The book presents nine systems-thinking patterns and 33 systems laws and principles.",
+      "creators": [
+        "Patrick Hoverstadt"
+      ],
+      "doi": "",
+      "isbn": "979-8298960878",
+      "publisher": "SCiO",
+      "licence": "publisher_terms",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-10",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_salah_grammar_part1_2022",
+      "title": "Cybersecurity Lessons from The Grammar of Systems, part 1",
+      "source_type": "public_secondary_summary",
+      "quality_tier": "C",
+      "access": "public",
+      "url": "https://www.linkedin.com/pulse/cybersecurity-lessons-from-grammar-systems-order-chaos-osama-salah/",
+      "date": "2022-05-16",
+      "notes": "Public secondary summary of Grammar of Systems items 1–11. Used as an accessible orientation aid; the book remains the controlling source.",
+      "creators": [
+        "Osama Salah"
+      ],
+      "publisher": "LinkedIn",
+      "licence": "publisher_terms",
+      "review_status": "checked",
+      "last_checked": "2026-08-09",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_salah_grammar_part2_2022",
+      "title": "Cybersecurity Lessons from The Grammar of Systems, part 2",
+      "source_type": "public_secondary_summary",
+      "quality_tier": "C",
+      "access": "public",
+      "url": "https://www.linkedin.com/pulse/cybersecurity-lessons-from-grammar-systems-order-chaos-osama-salah-1f",
+      "date": "2022-05-23",
+      "notes": "Public secondary summary of Grammar of Systems items 12–22. Used as an accessible orientation aid; the book remains the controlling source.",
+      "creators": [
+        "Osama Salah"
+      ],
+      "publisher": "LinkedIn",
+      "licence": "publisher_terms",
+      "review_status": "checked",
+      "last_checked": "2026-08-09",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_salah_grammar_part3_2022",
+      "title": "Cybersecurity Lessons from The Grammar of Systems, part 3",
+      "source_type": "public_secondary_summary",
+      "quality_tier": "C",
+      "access": "public",
+      "url": "https://www.linkedin.com/pulse/cybersecurity-lessons-from-grammar-systems-order-chaos-osama-salah-2f",
+      "date": "2022-06-01",
+      "notes": "Public secondary summary of Grammar of Systems items 23–33. Used as an accessible orientation aid; the book remains the controlling source.",
+      "creators": [
+        "Osama Salah"
+      ],
+      "publisher": "LinkedIn",
+      "licence": "publisher_terms",
+      "review_status": "checked",
+      "last_checked": "2026-08-09",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_scio_essential_balances_2020",
+      "title": "Essential Balances: Stop Looking and Start Seeing What Makes Organizations Work",
+      "source_type": "official_professional_body_book_page",
+      "quality_tier": "B",
+      "access": "public_metadata",
+      "url": "https://www.systemspractice.org/resources/essential-balances-stop-looking-and-start-seeing-what-makes-organizations-work",
+      "date": "2020-11",
+      "notes": "SCiO bibliographic and descriptive page for Ivo Velitchkov's book. It supports the three named balances and publication metadata; page-level claims still require the book itself.",
+      "creators": [
+        "Ivo Velitchkov"
+      ],
+      "doi": "",
+      "isbn": "978-1838338619",
+      "publisher": "KVISTGAARD",
+      "licence": "publisher_terms",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-10",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_taylor_four_dynamics_2023",
+      "title": "Four dynamics for effective organisation",
+      "source_type": "public_teaching_material",
+      "quality_tier": "C",
+      "access": "public",
+      "url": "https://antlerboy.com/library/files/talks/introduction-to-four-dynamics.pdf",
+      "date": "2023-10-10",
+      "notes": "Public author teaching deck presenting segment, blend, empower and harmonise as dynamics to hold in balance, with associated organisational practices. Public PDF linked on 2026-09-19; the earlier unpublished access description is superseded.",
+      "creators": [
+        "Benjamin P Taylor"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Benjamin P Taylor public work library",
+      "licence": "not_publicly_licensed",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "public_file_identity_checked",
+      "last_checked": "2026-09-19",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_u34_42_health",
+      "title": "Neighbourhood Health and Care: Building the System Before the Structure",
+      "source_type": "public_source",
+      "quality_tier": "B",
+      "access": "public",
+      "url": "https://42systemicreview.org/papers/neighbourhood-health-and-care",
+      "date": "2026",
+      "notes": "The review treats neighbourhood working as the formation of a viable system across established organisations. It examines autonomy, coordination, and stabilising organisational feedback; its policy and causal claims remain attributed to the paper.",
+      "creators": [],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Original author or publisher",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "source_scoped_research_pass",
+      "last_checked": "2026-10-24",
+      "public_link_status": "public_link",
+      "connection_pass": "update_20261024",
+      "source_locator": "Executive Summary; Findings; System Framing and Method"
+    },
+    {
+      "id": "src_u35_varela_maturana_uribe_1974",
+      "title": "Autopoiesis: The Organization of Living Systems, Its Characterization and a Model",
+      "source_type": "primary_text",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://homepages.math.uic.edu/~kauffman/MUV.pdf",
+      "date": "1974",
+      "notes": "Full ten-page primary-paper scan inspected on Louis Kauffman's University of Illinois Chicago page. Section 3 defines the organisation; section 9 gives an operational identification key. The model is an illustration of the proposed organisation, not empirical validation of all biological or social applications. The paper's algorithm was not independently rerun. Publisher redirect was inaccessible; university-hosted scan worked. Existing publication_fpcs_048 is reused.",
+      "creators": [
+        "F. G. Varela",
+        "H. R. Maturana",
+        "R. Uribe"
+      ],
+      "doi": "10.1016/0303-2647(74)90031-8",
+      "isbn": "",
+      "publisher": "BioSystems 5(4), pp. 187–196",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "passage_checked_research_pass",
+      "last_checked": "2026-10-29",
+      "public_link_status": "public_link",
+      "connection_pass": "depth_20261029",
+      "source_locator": "Sections 2–4, pp. 187–189; section 7, pp. 191–192; section 9, pp. 192–193",
+      "access_note": "The model is an illustration of the proposed organisation, not empirical validation of all biological or social applications. The paper's algorithm was not independently rerun. Publisher redirect was inaccessible; university-hosted scan worked. Existing publication_fpcs_048 is reused."
+    }
+  ],
+  "evidence_locators": [
+    {
+      "id": "ev_metaphorum_vsm_foundations",
+      "source_id": "src_metaphorum_vsm_current",
+      "locator": "VSM orientation page",
+      "review_status": "research_pass_needs_editor"
+    },
+    {
+      "id": "ev_taylor_vsm_viability",
+      "source_id": "src_taylor_vsm_lecture_2025",
+      "locator": "sections on viability, adaptation, identity, autonomy, cohesion and transduction",
+      "review_status": "research_pass_needs_editor"
+    },
+    {
+      "id": "ev35_edge_e35_autopoiesis_autonomy_1",
+      "source_id": "src_u35_varela_maturana_uribe_1974",
+      "locator": "Section 4, p. 188",
+      "review_status": "research_pass_needs_editor"
+    }
+  ],
+  "reuse_note": "Preserve source attribution, scope, and review status. Source documents and evidence excerpts are excluded."
+}

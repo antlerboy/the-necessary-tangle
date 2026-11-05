@@ -1,0 +1,173 @@
+{
+  "schema_version": "1.0",
+  "canonical_url": "https://transduction.systems/entries/publication_understanding_understanding/",
+  "release": "0.35",
+  "citation": "Taylor, B. P. (2026). Understanding Understanding. The Necessary Tangle, release 0.35. https://transduction.systems/entries/publication_understanding_understanding/",
+  "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
+  "entry": {
+    "id": "publication_understanding_understanding",
+    "label": "Understanding Understanding",
+    "entity_type": "publication",
+    "description": "Heinz von Foerster’s collected essays on cybernetics and cognition, centring the observer, knowing, self-reference and the ethical implications of constructing descriptions.",
+    "aliases": [],
+    "boundary_ring": "0",
+    "inclusion_reason": "iteration_0_15_depth_and_practice",
+    "status": "accepted",
+    "source_ids": [
+      "src_von_foerster_understanding_springer",
+      "src_taylor_reading_list_current"
+    ],
+    "set_tags": [
+      "systems",
+      "practice",
+      "release_0_15",
+      "reading-list",
+      "cybernetics"
+    ],
+    "espoused_labels": [],
+    "observed_clusters": [],
+    "canonical_definition": "Heinz von Foerster’s collected essays on cybernetics and cognition, centring the observer, knowing, self-reference and the ethical implications of constructing descriptions.",
+    "valid_from": "",
+    "valid_to": "",
+    "external_ids": "{}",
+    "geographies": [],
+    "licence": "",
+    "review_status": "curator_checked_public_sources",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-14",
+    "x": -0.36,
+    "y": 0.27,
+    "canonical_id": "publication_understanding_understanding",
+    "public_visibility": "public",
+    "publication_level": "profile",
+    "public_stub_text": "",
+    "public_source_count": 2,
+    "no_public_link_count": 0
+  },
+  "profile": {
+    "node_id": "publication_understanding_understanding",
+    "title": "Understanding Understanding",
+    "profile_status": "curator_checked_public_sources",
+    "canonical_definition": "Heinz von Foerster’s collected essays on cybernetics and cognition, centring the observer, knowing, self-reference and the ethical implications of constructing descriptions.",
+    "summary": "Von Foerster’s essays develop a cybernetics in which observation, knowing and description cannot be treated as external to the system being discussed.",
+    "why_it_matters": "It provides a direct route into second-order cybernetics and the ethical consequences of taking the observer seriously.",
+    "key_distinctions": [
+      "observed systems versus observing systems",
+      "description versus world-in-itself",
+      "responsibility of the observer"
+    ],
+    "historical_lineage": [
+      "Biological Computer Laboratory",
+      "second-order cybernetics"
+    ],
+    "logical_antecedents": [
+      "cybernetics",
+      "constructivist epistemology"
+    ],
+    "dependent_subsequents": [
+      "second-order systems practice",
+      "constructivist approaches"
+    ],
+    "practice_connections": [
+      "reflexivity",
+      "ethics",
+      "observer-aware inquiry"
+    ],
+    "espoused_lineages": [],
+    "observed_clusters": [],
+    "common_misreadings": [
+      "Constructed descriptions do not imply that any description is equally useful or consequence-free."
+    ],
+    "open_checks": [
+      "Add essay-level links to ethics, self-reference and computation."
+    ],
+    "source_ids": [
+      "src_von_foerster_understanding_springer",
+      "src_taylor_reading_list_current"
+    ],
+    "evidence_ids": [],
+    "last_researched": "2026-08-14",
+    "review_status": "curator_checked_public_sources",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-14",
+    "editorial_note": "Public account based on named sources; documentary provenance, interpretation and evaluative claims are kept distinct."
+  },
+  "connections": [
+    {
+      "id": "e15_understanding_authored_vonfoerster",
+      "source": "publication_understanding_understanding",
+      "target": "person_heinz_von_foerster",
+      "relation_type": "authored_by",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.88",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_von_foerster_understanding_springer"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Release 0.15 public sources",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Limited to the named sources. Documentary connection, conceptual influence, teaching use and effectiveness are distinct claims.",
+      "assertion_mode": "asserted",
+      "inference_method": "curatorial synthesis of public sources",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-14",
+      "notes": "",
+      "plain_phrase": "was authored by",
+      "public_review_label": "supported working statement"
+    }
+  ],
+  "claims": [],
+  "sources": [
+    {
+      "id": "src_von_foerster_understanding_springer",
+      "title": "Understanding Understanding — Springer record",
+      "source_type": "publisher_record",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://link.springer.com/book/10.1007/b97451",
+      "date": "checked 2026-08-14",
+      "notes": "Publisher record for Heinz von Foerster’s essays on cybernetics, cognition, knowledge and the observer.",
+      "creators": [
+        "Heinz von Foerster"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Springer",
+      "licence": "site terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-14",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_taylor_reading_list_current",
+      "title": "Updated rough draft systems | complexity | cybernetics reading list",
+      "source_type": "public_curated_reading_list",
+      "quality_tier": "B",
+      "access": "public",
+      "url": "https://stream.syscoi.com/2024/10/01/updated-rough-draft-systems-complexity-cybernetics-reading-list/",
+      "date": "2024-10-01",
+      "notes": "Curator framing for the supplied 110-item inventory. It states that the list is partial and context-dependent and names a small set of practical starting points. It is evidence of intended coverage, not evidence for relationships among the listed works.",
+      "creators": [
+        "Benjamin P Taylor"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Systems Community of Inquiry",
+      "licence": "source_terms",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked_primary_curator_record",
+      "last_checked": "2026-08-14",
+      "public_link_status": "public_link"
+    }
+  ],
+  "evidence_locators": [],
+  "reuse_note": "Preserve source attribution, scope, and review status. Source documents and evidence excerpts are excluded."
+}

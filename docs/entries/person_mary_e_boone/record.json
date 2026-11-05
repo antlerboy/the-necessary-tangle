@@ -1,0 +1,150 @@
+{
+  "schema_version": "1.0",
+  "canonical_url": "https://transduction.systems/entries/person_mary_e_boone/",
+  "release": "0.35",
+  "citation": "Taylor, B. P. (2026). Mary E. Boone. The Necessary Tangle, release 0.35. https://transduction.systems/entries/person_mary_e_boone/",
+  "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
+  "entry": {
+    "id": "person_mary_e_boone",
+    "label": "Mary E. Boone",
+    "entity_type": "person",
+    "description": "Author and leadership practitioner who co-authored A Leader's Framework for Decision Making with Dave Snowden.",
+    "aliases": [
+      "Mary Boone"
+    ],
+    "boundary_ring": "0",
+    "inclusion_reason": "snowden_cynefin_canonical_sources_release_0_14",
+    "status": "accepted",
+    "source_ids": [
+      "src_hbr_leaders_framework_2007"
+    ],
+    "set_tags": [
+      "complexity",
+      "sensemaking",
+      "expertise",
+      "release_0_14"
+    ],
+    "espoused_labels": [],
+    "observed_clusters": [],
+    "canonical_definition": "Author and leadership practitioner who co-authored A Leader's Framework for Decision Making with Dave Snowden.",
+    "valid_from": "",
+    "valid_to": "",
+    "external_ids": "{}",
+    "geographies": [],
+    "licence": "",
+    "review_status": "curator_checked_public_sources",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-11",
+    "x": 1.04,
+    "y": 0.18,
+    "canonical_id": "person_mary_e_boone",
+    "public_visibility": "public",
+    "publication_level": "profile",
+    "public_stub_text": "",
+    "public_source_count": 1,
+    "no_public_link_count": 0
+  },
+  "profile": {
+    "node_id": "person_mary_e_boone",
+    "title": "Mary E. Boone",
+    "profile_status": "curator_checked_public_sources",
+    "canonical_definition": "Author and leadership practitioner who co-authored A Leader's Framework for Decision Making with Dave Snowden.",
+    "summary": "Mary E. Boone co-authored A Leader's Framework for Decision Making, a prominent practice-facing presentation of Cynefin for leaders.",
+    "why_it_matters": "The HBR article shaped wide managerial circulation of Cynefin. Authorship and popularisation should be represented distinctly from the framework's earlier development.",
+    "key_distinctions": [
+      "co-authorship vs framework creation",
+      "popularisation vs complete theoretical account"
+    ],
+    "historical_lineage": [
+      "leadership practice",
+      "management publishing"
+    ],
+    "logical_antecedents": [
+      "decision-making",
+      "context",
+      "leadership"
+    ],
+    "dependent_subsequents": [
+      "A Leader's Framework for Decision Making"
+    ],
+    "practice_connections": [
+      "leadership development",
+      "decision support"
+    ],
+    "espoused_lineages": [],
+    "observed_clusters": [],
+    "common_misreadings": [
+      "the HBR article is the full Cynefin corpus"
+    ],
+    "open_checks": [
+      "add biographical and practice sources",
+      "trace documented uptake without inferring it from citation alone"
+    ],
+    "source_ids": [
+      "src_hbr_leaders_framework_2007"
+    ],
+    "evidence_ids": [],
+    "last_researched": "2026-08-11",
+    "review_status": "curator_checked_public_sources",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-11",
+    "editorial_note": "Developed from public primary, institutional, publisher and project sources. First-party source roles and independent evidential limits are stated explicitly."
+  },
+  "connections": [
+    {
+      "id": "e_14_hbr_boone",
+      "source": "publication_leaders_framework_decision_making",
+      "target": "person_mary_e_boone",
+      "relation_type": "authored_by",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.88",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_hbr_leaders_framework_2007"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Release 0.14 public primary, official, institutional and publisher sources",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "The statement is limited to the named sources and their evidential role. First-party definition, authorship, historical development, application and independent evaluation remain distinct claims.",
+      "assertion_mode": "asserted",
+      "inference_method": "curatorial synthesis of public sources",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-11",
+      "notes": "The HBR record names Mary E. Boone.",
+      "plain_phrase": "was co-authored by",
+      "public_review_label": "supported working statement"
+    }
+  ],
+  "claims": [],
+  "sources": [
+    {
+      "id": "src_hbr_leaders_framework_2007",
+      "title": "A Leader's Framework for Decision Making",
+      "source_type": "publisher_article_record",
+      "quality_tier": "A",
+      "access": "public_metadata",
+      "url": "https://hbr.org/2007/11/a-leaders-framework-for-decision-making",
+      "date": "2007-11",
+      "notes": "Harvard Business Review record for the article by David J. Snowden and Mary E. Boone. It is a widely circulated practice-facing account of Cynefin; use it alongside earlier and later framework sources rather than as the entire theory.",
+      "creators": [
+        "David J. Snowden",
+        "Mary E. Boone"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Harvard Business Review",
+      "licence": "publisher_terms",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-11",
+      "public_link_status": "public_link"
+    }
+  ],
+  "evidence_locators": [],
+  "reuse_note": "Preserve source attribution, scope, and review status. Source documents and evidence excerpts are excluded."
+}

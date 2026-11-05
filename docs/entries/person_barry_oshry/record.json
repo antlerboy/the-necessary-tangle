@@ -1,0 +1,264 @@
+{
+  "schema_version": "1.0",
+  "canonical_url": "https://transduction.systems/entries/person_barry_oshry/",
+  "release": "0.35",
+  "citation": "Taylor, B. P. (2026). Barry Oshry. The Necessary Tangle, release 0.35. https://transduction.systems/entries/person_barry_oshry/",
+  "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
+  "entry": {
+    "id": "person_barry_oshry",
+    "label": "Barry Oshry",
+    "entity_type": "person",
+    "description": "A human-systems practitioner and author whose work develops system-sight through recurring relational positions, whole-system processes, power, love, differentiation and integration.",
+    "aliases": [],
+    "boundary_ring": "0",
+    "inclusion_reason": "expertise_and_public_sources_release_0_13",
+    "status": "accepted",
+    "source_ids": [
+      "src_triarchy_barry_oshry_profile",
+      "src_triarchy_organic_systems_framework_2019"
+    ],
+    "set_tags": [
+      "systems",
+      "human_lineage",
+      "expertise",
+      "release_0_13"
+    ],
+    "espoused_labels": [],
+    "observed_clusters": [],
+    "canonical_definition": "A human-systems practitioner and author whose work develops system-sight through recurring relational positions, whole-system processes, power, love, differentiation and integration.",
+    "valid_from": "",
+    "valid_to": "",
+    "external_ids": "{}",
+    "geographies": [],
+    "licence": "",
+    "review_status": "curator_checked_public_sources",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-11",
+    "x": 0.05,
+    "y": -0.24,
+    "canonical_id": "person_barry_oshry",
+    "public_visibility": "public",
+    "publication_level": "profile",
+    "public_stub_text": "",
+    "public_source_count": 2,
+    "no_public_link_count": 0
+  },
+  "profile": {
+    "node_id": "person_barry_oshry",
+    "title": "Barry Oshry",
+    "profile_status": "curator_checked_public_sources",
+    "canonical_definition": "A human-systems practitioner and author whose work develops system-sight through recurring relational positions, whole-system processes, power, love, differentiation and integration.",
+    "summary": "Barry Oshry develops experiential and conceptual resources for moving from system-blindness to system-sight in human systems.",
+    "why_it_matters": "His work explains how recurring relational positions and whole-system processes generate predictable experiences without reducing people to personality types or formal roles.",
+    "key_distinctions": [
+      "position vs personality",
+      "system-blindness vs system-sight",
+      "differentiation vs individuation",
+      "integration vs homogenisation"
+    ],
+    "historical_lineage": [
+      "human systems practice",
+      "Power Lab",
+      "Organization Workshop",
+      "Organic Systems Framework"
+    ],
+    "logical_antecedents": [
+      "context",
+      "position",
+      "power",
+      "whole and part",
+      "relationship"
+    ],
+    "dependent_subsequents": [
+      "Tops, Middles, Bottoms and Customers",
+      "Power and Love",
+      "Organic Systems Framework"
+    ],
+    "practice_connections": [
+      "leadership development",
+      "organisation development",
+      "partnership",
+      "power and system dynamics"
+    ],
+    "espoused_lineages": [],
+    "observed_clusters": [],
+    "common_misreadings": [
+      "Tops, Middles and Bottoms are personality types",
+      "system position removes personal responsibility",
+      "integration means agreement"
+    ],
+    "open_checks": [
+      "map primary books and programmes",
+      "connect empirical research",
+      "develop relation to schismogenesis and power"
+    ],
+    "source_ids": [
+      "src_triarchy_barry_oshry_profile",
+      "src_triarchy_organic_systems_framework_2019"
+    ],
+    "evidence_ids": [],
+    "last_researched": "2026-08-11",
+    "review_status": "curator_checked_public_sources",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-11",
+    "editorial_note": "Developed from public primary, institutional and publisher sources. Open to correction, rival interpretation and stronger evidence."
+  },
+  "connections": [
+    {
+      "id": "e_13_osf_pub_oshry",
+      "source": "publication_organic_systems_framework",
+      "target": "person_barry_oshry",
+      "relation_type": "authored_by",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.88",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_triarchy_organic_systems_framework_2019"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Release 0.13 public primary, institutional and publisher sources",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "The wording is limited to the named public sources. Authorship, methodological development, conceptual dependence and practical use remain distinct claims.",
+      "assertion_mode": "asserted",
+      "inference_method": "curatorial synthesis of public primary, institutional and publisher sources",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-11",
+      "notes": "The publisher identifies Barry Oshry as author.",
+      "plain_phrase": "was authored by",
+      "public_review_label": "supported working statement"
+    },
+    {
+      "id": "e_13_oshry_osf",
+      "source": "person_barry_oshry",
+      "target": "method_or_methodology_organic_systems_framework",
+      "relation_type": "developed",
+      "relation_family": "historical",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.88",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_triarchy_organic_systems_framework_2019",
+        "src_triarchy_barry_oshry_profile"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Release 0.13 public primary, institutional and publisher sources",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "The wording is limited to the named public sources. Authorship, methodological development, conceptual dependence and practical use remain distinct claims.",
+      "assertion_mode": "asserted",
+      "inference_method": "curatorial synthesis of public primary, institutional and publisher sources",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-11",
+      "notes": "The publisher and author profile describe OSF as Oshry's framework.",
+      "plain_phrase": "developed",
+      "public_review_label": "supported working statement"
+    },
+    {
+      "id": "e26_a322c5ee2956168a300c16",
+      "source": "model_taylor_four_dynamics",
+      "target": "person_barry_oshry",
+      "relation_type": "draws_on_in_synthesis",
+      "relation_family": "historical",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "",
+      "claim_status": "candidate",
+      "source_ids": [
+        "src_lib26_27069bfd21e1b3b0"
+      ],
+      "evidence_ids": [],
+      "source_locator": "PDF page 3: What I want to cover",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Taylor explicitly names the three people whose ideas he draws on for this model. This does not assert personal contact, mentorship, or exclusive intellectual ancestry.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "draws on work by",
+      "public_review_label": "Located source statement; independent review not recorded",
+      "connection_pass": "library_20260919"
+    }
+  ],
+  "claims": [],
+  "sources": [
+    {
+      "id": "src_triarchy_barry_oshry_profile",
+      "title": "Barry Oshry — author profile",
+      "source_type": "official_publisher_author_profile",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://www.triarchypress.net/barry-oshry.html",
+      "date": "current",
+      "notes": "Triarchy Press describes Oshry's work on human systems, system-blindness and system-sight and lists his principal programmes and publications.",
+      "creators": [
+        "Triarchy Press"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Triarchy Press",
+      "licence": "site_terms",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-11",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_triarchy_organic_systems_framework_2019",
+      "title": "The Organic Systems Framework",
+      "source_type": "official_publisher_book_page",
+      "quality_tier": "A",
+      "access": "public_metadata",
+      "url": "https://www.triarchypress.net/osf.html",
+      "date": "2019",
+      "notes": "Triarchy Press describes Barry Oshry's Organic Systems Framework as a pattern language for whole-system relationships and processes, including differentiation, integration, individuation and homogenisation.",
+      "creators": [
+        "Barry Oshry"
+      ],
+      "doi": "",
+      "isbn": "978-1-911193-61-6",
+      "publisher": "Triarchy Press",
+      "licence": "publisher_terms",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-11",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_lib26_27069bfd21e1b3b0",
+      "title": "Positive dynamics of differentiation and integration; ISSS",
+      "source_type": "public_catalogue_record",
+      "quality_tier": "C",
+      "access": "public",
+      "url": "https://antlerboy.com/library/files/talks/positive-dynamics-differentiation-and-integration.pdf",
+      "date": "2026-09-19",
+      "notes": "Public Antlerboy manifest. PDF text indexed; located concept terms, not a full scholarly review. Identity and located teaching relationships are separated from automatic title matches and exact text mentions. A term appearing in a source is not proof of its definition, endorsement, influence, or logical dependence.",
+      "creators": [
+        "Benjamin P Taylor"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Benjamin P Taylor public work library",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "located_public_record",
+      "last_checked": "2026-09-19",
+      "public_link_status": "public_link",
+      "connection_pass": "library_20260919",
+      "year": "2024"
+    }
+  ],
+  "evidence_locators": [],
+  "reuse_note": "Preserve source attribution, scope, and review status. Source documents and evidence excerpts are excluded."
+}

@@ -1,0 +1,255 @@
+{
+  "schema_version": "1.0",
+  "canonical_url": "https://transduction.systems/entries/practice_lab_ethics_and_power/",
+  "release": "0.35",
+  "citation": "Taylor, B. P. (2026). Practice: Ethics and power: make an intervention's authority and effects explicit. The Necessary Tangle, release 0.35. https://transduction.systems/entries/practice_lab_ethics_and_power/",
+  "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
+  "entry": {
+    "id": "practice_lab_ethics_and_power",
+    "label": "Practice: Ethics and power: make an intervention's authority and effects explicit",
+    "entity_type": "publication",
+    "description": "Distinguish permission, participation and legitimacy, then design a reversible intervention with an accessible challenge route. A generic ethical reasoning exercise. It cannot establish compliance with sector-specific law, safeguarding or professional requirements. Those require qualified, contextual checks before real action.",
+    "aliases": [],
+    "boundary_ring": "0",
+    "inclusion_reason": "authorised_systems_methods_practice_pack",
+    "status": "candidate",
+    "source_ids": [
+      "src_practice_lab_ethics_and_power",
+      "src_ulrich_csh_mini_primer_2023",
+      "src_go_science_toolkit_2023",
+      "src_scio_professional_development_current"
+    ],
+    "set_tags": [
+      "systems",
+      "practice",
+      "learning",
+      "apprenticeship"
+    ],
+    "espoused_labels": [],
+    "observed_clusters": [],
+    "canonical_definition": "Distinguish permission, participation and legitimacy, then design a reversible intervention with an accessible challenge route. A generic ethical reasoning exercise. It cannot establish compliance with sector-specific law, safeguarding or professional requirements. Those require qualified, contextual checks before real action.",
+    "valid_from": "",
+    "valid_to": "",
+    "external_ids": "{\"practice_url\": \"https://transduction.systems/systems-thinking/practice/ethics-and-power/\"}",
+    "geographies": [],
+    "licence": "",
+    "review_status": "original_practice_material_specialist_review_not_recorded",
+    "reviewed_by": "",
+    "reviewed_at": "",
+    "x": 0.38,
+    "y": 0.34,
+    "canonical_id": "practice_lab_ethics_and_power",
+    "public_visibility": "public",
+    "publication_level": "profile",
+    "public_stub_text": "",
+    "public_source_count": 4,
+    "no_public_link_count": 0
+  },
+  "profile": {
+    "node_id": "practice_lab_ethics_and_power",
+    "summary": "Distinguish permission, participation and legitimacy, then design a reversible intervention with an accessible challenge route. A generic ethical reasoning exercise. It cannot establish compliance with sector-specific law, safeguarding or professional requirements. Those require qualified, contextual checks before real action.",
+    "canonical_definition": "Distinguish permission, participation and legitimacy, then design a reversible intervention with an accessible challenge route. A generic ethical reasoning exercise. It cannot establish compliance with sector-specific law, safeguarding or professional requirements. Those require qualified, contextual checks before real action.",
+    "why_it_matters": "A concrete rehearsal with a fictional case, explicit outputs and a way to inspect the result.",
+    "key_distinctions": [
+      "Mechanical correctness is distinct from judgement in an open situation.",
+      "Training-case application is distinct from competent organisational practice."
+    ],
+    "historical_lineage": [],
+    "logical_antecedents": [],
+    "dependent_subsequents": [],
+    "practice_connections": [
+      "Map authority and affectedness.",
+      "Separate observations, labels and causal claims.",
+      "Design an ethically defensible next inquiry.",
+      "Prepare a constructive challenge to the sponsor."
+    ],
+    "common_misreadings": [
+      "A worked comparison is not the only acceptable answer to an open question."
+    ],
+    "open_checks": [
+      "A generic ethical reasoning exercise. It cannot establish compliance with sector-specific law, safeguarding or professional requirements. Those require qualified, contextual checks before real action.",
+      "Compare an independent attempt before revealing the worked answer."
+    ],
+    "source_ids": [
+      "src_practice_lab_ethics_and_power",
+      "src_ulrich_csh_mini_primer_2023",
+      "src_go_science_toolkit_2023",
+      "src_scio_professional_development_current"
+    ],
+    "context_and_lineage": "Original educational resource, 7 September 2026.",
+    "editorial_note": "Prepared with AI assistance. Publication authorised by Benjamin P Taylor. No independent specialist review or source-provider endorsement is claimed.",
+    "last_researched": "2026-09-07",
+    "title": "Practice: Ethics and power: make an intervention's authority and effects explicit",
+    "profile_status": "original_practice_resource",
+    "review_status": "specialist_review_not_recorded"
+  },
+  "connections": [
+    {
+      "id": "practice_edge_b88ff778f4aa58bb3f",
+      "source": "practice_systems_methods_pack",
+      "target": "practice_lab_ethics_and_power",
+      "relation_type": "includes_practice_resource",
+      "relation_family": "practice",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "",
+      "claim_status": "candidate",
+      "source_ids": [
+        "src_systems_methods_practice_pack"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Named exercise and its scope statement",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Resource inventory only; completing a page is not accreditation.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "includes practice resource",
+      "public_review_label": "Editorial practice connection, not accreditation or intellectual influence"
+    },
+    {
+      "id": "practice_edge_96733d7a67da75f2d8",
+      "source": "practice_lab_ethics_and_power",
+      "target": "method_or_methodology_critical_systems_heuristics_csh",
+      "relation_type": "provides_practice_for",
+      "relation_family": "practice",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "",
+      "claim_status": "candidate",
+      "source_ids": [
+        "src_practice_lab_ethics_and_power"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Named exercise and its scope statement",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "A generic ethical reasoning exercise. It cannot establish compliance with sector-specific law, safeguarding or professional requirements. Those require qualified, contextual checks before real action.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "provides a practice route for",
+      "public_review_label": "Editorial practice connection, not accreditation or intellectual influence"
+    }
+  ],
+  "claims": [],
+  "sources": [
+    {
+      "id": "src_practice_lab_ethics_and_power",
+      "title": "Ethics and power: make an intervention's authority and effects explicit",
+      "source_type": "practice_resource",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://transduction.systems/systems-thinking/practice/ethics-and-power/",
+      "date": "2026-09-07",
+      "notes": "Original fictional exercise. A generic ethical reasoning exercise. It cannot establish compliance with sector-specific law, safeguarding or professional requirements. Those require qualified, contextual checks before real action.",
+      "creators": [
+        "The Necessary Tangle editorial practice pack"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "The Necessary Tangle",
+      "licence": "Original practice text CC BY-SA 4.0; external material retains source terms",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "original_material_and_source_boundary_recorded",
+      "last_checked": "2026-09-07",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_ulrich_csh_mini_primer_2023",
+      "title": "A Mini-Primer of Critical Systems Heuristics",
+      "source_type": "primary_author_method_page",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://wulrich.com/csh.html",
+      "date": "2005; updated 2023-05-20",
+      "notes": "Werner Ulrich's maintained primary account defines Critical Systems Heuristics as reflective practice centred on systematic boundary critique and twelve critical boundary questions.",
+      "creators": [
+        "Werner Ulrich"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Werner Ulrich",
+      "licence": "noncommercial_distribution_and_citation_with_attribution",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-11",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_go_science_toolkit_2023",
+      "title": "An introductory systems thinking toolkit for civil servants",
+      "source_type": "government_toolkit",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://www.gov.uk/government/publications/systems-thinking-for-civil-servants/toolkit",
+      "date": "2023-01-12",
+      "notes": "Official UK government introductory toolkit containing eleven named systems tools; explicitly non-comprehensive.",
+      "creators": [],
+      "doi": "",
+      "isbn": "",
+      "publisher": "",
+      "licence": "",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-09",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_scio_professional_development_current",
+      "title": "SCiO Professional Development",
+      "source_type": "official_training_page",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://www.systemspractice.org/professional-development",
+      "date": "",
+      "notes": "Official SCiO page describing systems-practice and intervention training, delivery formats and the relationship between methods and intervention skills.",
+      "creators": [
+        "SCiO - Systems and Complexity in Organisation"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "SCiO",
+      "licence": "source_terms",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-10",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_systems_methods_practice_pack",
+      "title": "Systemic systems methods practice for systems practice (alpha)",
+      "source_type": "practice_resource",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://transduction.systems/systems-thinking/practice/",
+      "date": "2026-09-07",
+      "notes": "Alpha version. The original teaching material has not had independent specialist pedagogical review. These exercises support technical learning; they do not establish professional competence or accreditation.",
+      "creators": [
+        "Benjamin P Taylor"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "The Necessary Tangle",
+      "licence": "Original practice text CC BY-SA 4.0; external material retains source terms",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "original_material_and_source_boundary_recorded",
+      "last_checked": "2026-09-07",
+      "public_link_status": "public_link"
+    }
+  ],
+  "evidence_locators": [],
+  "reuse_note": "Preserve source attribution, scope, and review status. Source documents and evidence excerpts are excluded."
+}

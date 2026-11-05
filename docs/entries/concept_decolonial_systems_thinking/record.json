@@ -1,0 +1,173 @@
+{
+  "schema_version": "1.0",
+  "canonical_url": "https://transduction.systems/entries/concept_decolonial_systems_thinking/",
+  "release": "0.35",
+  "citation": "Taylor, B. P. (2026). Decolonial systems thinking. The Necessary Tangle, release 0.35. https://transduction.systems/entries/concept_decolonial_systems_thinking/",
+  "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
+  "entry": {
+    "id": "concept_decolonial_systems_thinking",
+    "label": "Decolonial systems thinking",
+    "entity_type": "concept",
+    "description": "Work which examines how colonial histories, institutions, categories and knowledge hierarchies shape systems practice, and seeks forms of inquiry in which marginalised standpoints can alter the boundary and the account of the system.",
+    "aliases": [],
+    "boundary_ring": "0",
+    "inclusion_reason": "feedback_led_release_0_17",
+    "status": "accepted",
+    "source_ids": [
+      "src_ou_magnus_ramage_profile_2026",
+      "src_tangle_issue2_canon_feedback_2026"
+    ],
+    "set_tags": [
+      "systems",
+      "lineage",
+      "release_0_17",
+      "decolonial",
+      "critical-systems",
+      "power"
+    ],
+    "espoused_labels": [],
+    "observed_clusters": [],
+    "canonical_definition": "Work which examines how colonial histories, institutions, categories and knowledge hierarchies shape systems practice, and seeks forms of inquiry in which marginalised standpoints can alter the boundary and the account of the system.",
+    "valid_from": "",
+    "valid_to": "",
+    "external_ids": "{}",
+    "geographies": [],
+    "licence": "",
+    "review_status": "curator_checked_public_sources",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-19",
+    "x": 0.03,
+    "y": 0.49,
+    "canonical_id": "concept_decolonial_systems_thinking",
+    "public_visibility": "public",
+    "publication_level": "profile",
+    "public_stub_text": "",
+    "public_source_count": 2,
+    "no_public_link_count": 0
+  },
+  "profile": {
+    "node_id": "concept_decolonial_systems_thinking",
+    "summary": "Decolonial systems thinking asks how colonial histories and knowledge hierarchies shape the system, observer, method and canon, and whether marginalised standpoints can alter those terms.",
+    "canonical_definition": "Decolonial systems thinking asks how colonial histories and knowledge hierarchies shape the system, observer, method and canon, and whether marginalised standpoints can alter those terms.",
+    "why_it_matters": "It shifts inclusion from demographic display to the construction of knowledge, institutional authority and the right to redefine the problem.",
+    "key_distinctions": [
+      "decolonisation versus diversification",
+      "standpoint versus demographic proxy",
+      "historical power versus abstract plurality"
+    ],
+    "historical_lineage": [
+      "decolonial thought",
+      "critical systems thinking",
+      "systems thinking from the margins"
+    ],
+    "logical_antecedents": [
+      "colonial history",
+      "epistemic power",
+      "boundary critique"
+    ],
+    "dependent_subsequents": [
+      "revised systems education",
+      "lineage recovery",
+      "alternative genealogies"
+    ],
+    "practice_connections": [
+      "curriculum review",
+      "participatory boundary critique",
+      "source and canon audits"
+    ],
+    "common_misreadings": [
+      "Decolonial systems thinking is not a label for any systems work done outside Europe or North America.",
+      "Personal identity alone does not establish a decolonial argument."
+    ],
+    "open_checks": [
+      "Add primary published work from practitioners and scholars who explicitly identify their work as decolonial systems thinking."
+    ],
+    "source_ids": [
+      "src_ou_magnus_ramage_profile_2026",
+      "src_tangle_issue2_canon_feedback_2026"
+    ],
+    "context_and_lineage": "",
+    "editorial_note": "",
+    "last_researched": "2026-08-19"
+  },
+  "connections": [
+    {
+      "id": "e17_ramage_researches_decolonial",
+      "source": "person_magnus_ramage",
+      "target": "concept_decolonial_systems_thinking",
+      "relation_type": "researches",
+      "relation_family": "practice",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.94",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_ou_magnus_ramage_profile_2026"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Open University profile, research and scholarship interests",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "The profile states a research interest and work in progress; it does not establish a completed decolonial systems doctrine.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-19",
+      "notes": "",
+      "plain_phrase": "researches critical and decolonial approaches to",
+      "public_review_label": "source-backed statement"
+    }
+  ],
+  "claims": [],
+  "sources": [
+    {
+      "id": "src_ou_magnus_ramage_profile_2026",
+      "title": "Dr Magnus Ramage — Open University profile",
+      "source_type": "official_institutional_profile",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://profiles.open.ac.uk/magnus-ramage",
+      "date": "checked 2026-08-19",
+      "notes": "Official profile establishing Ramage's Open University role and his research on systems history, information, decolonial and critical approaches, and systems thinking from the margins. It is a primary institutional record, not independent evaluation.",
+      "creators": [
+        "The Open University",
+        "Magnus Ramage"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "The Open University",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-19",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_tangle_issue2_canon_feedback_2026",
+      "title": "The Necessary Tangle running feedback: canon, closure and patriarchy",
+      "source_type": "public_curator_discussion",
+      "quality_tier": "B",
+      "access": "public",
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5345119282",
+      "date": "2026-08",
+      "notes": "Public curator note recording the challenge about a predominantly white male visual canon and the resulting editorial requirement to expose canonisation, exclusion, appropriation and recovery rather than repair the map through portraits alone.",
+      "creators": [
+        "Benjamin P Taylor",
+        "Ida Rose Florez"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "The Necessary Tangle",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-19",
+      "public_link_status": "public_link"
+    }
+  ],
+  "evidence_locators": [],
+  "reuse_note": "Preserve source attribution, scope, and review status. Source documents and evidence excerpts are excluded."
+}

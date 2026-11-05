@@ -1,0 +1,261 @@
+{
+  "schema_version": "1.0",
+  "canonical_url": "https://transduction.systems/entries/publication_steps_to_ecology_of_mind/",
+  "release": "0.35",
+  "citation": "Taylor, B. P. (2026). Steps to an Ecology of Mind. The Necessary Tangle, release 0.35. https://transduction.systems/entries/publication_steps_to_ecology_of_mind/",
+  "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
+  "entry": {
+    "id": "publication_steps_to_ecology_of_mind",
+    "label": "Steps to an Ecology of Mind",
+    "entity_type": "publication",
+    "description": "Gregory Bateson’s collection of essays linking anthropology, psychiatry, cybernetics, learning, communication, evolution and epistemology.",
+    "aliases": [],
+    "boundary_ring": "0",
+    "inclusion_reason": "iteration_0_15_depth_and_practice",
+    "status": "accepted",
+    "source_ids": [
+      "src_bateson_steps_ecology_1972",
+      "src_taylor_reading_list_current"
+    ],
+    "set_tags": [
+      "systems",
+      "practice",
+      "release_0_15",
+      "reading-list",
+      "cybernetics"
+    ],
+    "espoused_labels": [],
+    "observed_clusters": [],
+    "canonical_definition": "Gregory Bateson’s collection of essays linking anthropology, psychiatry, cybernetics, learning, communication, evolution and epistemology.",
+    "valid_from": "",
+    "valid_to": "",
+    "external_ids": "{}",
+    "geographies": [],
+    "licence": "",
+    "review_status": "curator_checked_public_sources",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-14",
+    "x": -0.31,
+    "y": 0.19,
+    "canonical_id": "publication_steps_to_ecology_of_mind",
+    "public_visibility": "public",
+    "publication_level": "profile",
+    "public_stub_text": "",
+    "public_source_count": 2,
+    "no_public_link_count": 0
+  },
+  "profile": {
+    "node_id": "publication_steps_to_ecology_of_mind",
+    "title": "Steps to an Ecology of Mind",
+    "profile_status": "curator_checked_public_sources",
+    "canonical_definition": "Gregory Bateson’s collection of essays linking anthropology, psychiatry, cybernetics, learning, communication, evolution and epistemology.",
+    "summary": "Bateson’s essays connect communication, learning, psychiatry, anthropology, evolution and cybernetics through recurring concern with relation, pattern and epistemology.",
+    "why_it_matters": "Many later systems and complexity practices borrow Batesonian vocabulary while losing the epistemological argument that makes it difficult.",
+    "key_distinctions": [
+      "relation versus isolated thing",
+      "levels of learning",
+      "ecology of ideas",
+      "difference and information"
+    ],
+    "historical_lineage": [
+      "cybernetics",
+      "anthropology",
+      "communication theory"
+    ],
+    "logical_antecedents": [
+      "Wiener-era cybernetics",
+      "anthropological fieldwork"
+    ],
+    "dependent_subsequents": [
+      "family therapy",
+      "second-order cybernetics",
+      "ecological and systemic epistemologies"
+    ],
+    "practice_connections": [
+      "learning",
+      "framing",
+      "communication",
+      "double bind"
+    ],
+    "espoused_lineages": [],
+    "observed_clusters": [],
+    "common_misreadings": [
+      "Bateson is not simply a source of systems aphorisms."
+    ],
+    "open_checks": [
+      "Develop essay-level entries where they are used as bridge concepts."
+    ],
+    "source_ids": [
+      "src_bateson_steps_ecology_1972",
+      "src_taylor_reading_list_current"
+    ],
+    "evidence_ids": [],
+    "last_researched": "2026-08-14",
+    "review_status": "curator_checked_public_sources",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-14",
+    "editorial_note": "Public account based on named sources; documentary provenance, interpretation and evaluative claims are kept distinct."
+  },
+  "connections": [
+    {
+      "id": "e15_steps_authored_bateson",
+      "source": "publication_steps_to_ecology_of_mind",
+      "target": "person_gregory_bateson",
+      "relation_type": "authored_by",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.88",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_bateson_steps_ecology_1972"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Release 0.15 public sources",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Limited to the named sources. Documentary connection, conceptual influence, teaching use and effectiveness are distinct claims.",
+      "assertion_mode": "asserted",
+      "inference_method": "curatorial synthesis of public sources",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-14",
+      "notes": "",
+      "plain_phrase": "was authored by",
+      "public_review_label": "supported working statement"
+    },
+    {
+      "id": "e35_steps_learning_levels",
+      "source": "publication_steps_to_ecology_of_mind",
+      "target": "concept_bateson_learning_levels",
+      "relation_type": "presents_account_of",
+      "relation_family": "conceptual",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "",
+      "claim_status": "candidate",
+      "source_ids": [
+        "src_u35_bateson_steps_1987"
+      ],
+      "evidence_ids": [
+        "ev35_edge_e35_steps_learning_levels_1"
+      ],
+      "source_locator": "The Logical Categories of Learning and Communication, printed pp. 297–299",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "The collection distinguishes changes within alternatives from changes to learning contexts; Bateson's logical types are not a universal scale of personal development.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "claim35_e35_steps_learning_levels",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "sets out a logical classification of",
+      "public_review_label": "Primary-source exposition; editorial acceptance open",
+      "connection_pass": "depth_20261029"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim35_e35_steps_learning_levels",
+      "statement": "The collection distinguishes changes within alternatives from changes to learning contexts; Bateson's logical types are not a universal scale of personal development.",
+      "subject_id": "publication_steps_to_ecology_of_mind",
+      "predicate": "presents_account_of",
+      "object_id": "concept_bateson_learning_levels",
+      "status": "candidate",
+      "supporting_source_ids": [
+        "src_u35_bateson_steps_1987"
+      ],
+      "supporting_evidence_ids": [
+        "ev35_edge_e35_steps_learning_levels_1"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_evidence_ids": [],
+      "notes": "Primary-source exposition; editorial acceptance open",
+      "review_status": "research_pass_needs_editor",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "connection_pass": "depth_20261029"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src_bateson_steps_ecology_1972",
+      "title": "Steps to an Ecology of Mind",
+      "source_type": "primary_book",
+      "quality_tier": "A",
+      "access": "public_metadata",
+      "url": "https://press.uchicago.edu/ucp/books/book/chicago/S/bo3620295.html",
+      "date": "1972-01-01",
+      "notes": "Gregory Bateson's collected essays spanning cybernetic explanation, learning, communication, conscious purpose, ecology and form.",
+      "creators": [
+        "Gregory Bateson"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "University of Chicago Press",
+      "licence": "publisher_terms",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "research_pass_needs_editor",
+      "last_checked": "2026-08-09",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_taylor_reading_list_current",
+      "title": "Updated rough draft systems | complexity | cybernetics reading list",
+      "source_type": "public_curated_reading_list",
+      "quality_tier": "B",
+      "access": "public",
+      "url": "https://stream.syscoi.com/2024/10/01/updated-rough-draft-systems-complexity-cybernetics-reading-list/",
+      "date": "2024-10-01",
+      "notes": "Curator framing for the supplied 110-item inventory. It states that the list is partial and context-dependent and names a small set of practical starting points. It is evidence of intended coverage, not evidence for relationships among the listed works.",
+      "creators": [
+        "Benjamin P Taylor"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Systems Community of Inquiry",
+      "licence": "source_terms",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked_primary_curator_record",
+      "last_checked": "2026-08-14",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_u35_bateson_steps_1987",
+      "title": "Steps to an Ecology of Mind (1987 reprint)",
+      "source_type": "primary_text",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://ejcj.orfaleacenter.ucsb.edu/wp-content/uploads/2017/06/1972.-Gregory-Bateson-Steps-to-an-Ecology-of-Mind.pdf",
+      "date": "1987",
+      "notes": "Primary book opened and inspected. Copyright and catalogue pages identify the 1987 reprint, despite the filename beginning 1972. Do not reuse these page numbers for the Chicago edition without checking. Copyright retained; link and brief paraphrases only. Existing book node publication_steps_to_ecology_of_mind is reused.",
+      "creators": [
+        "Gregory Bateson"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Jason Aronson; original collection published by Chandler in 1972",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "passage_checked_research_pass",
+      "last_checked": "2026-10-29",
+      "public_link_status": "public_link",
+      "connection_pass": "depth_20261029",
+      "source_locator": "The Logical Categories of Learning and Communication: printed pp. 297–299 and 305–307 (PDF pp. 311–313 and 319–321); Form, Substance, and Difference: printed pp. 459–460 (PDF pp. 473–474)",
+      "access_note": "Do not reuse these page numbers for the Chicago edition without checking. Copyright retained; link and brief paraphrases only. Existing book node publication_steps_to_ecology_of_mind is reused."
+    }
+  ],
+  "evidence_locators": [
+    {
+      "id": "ev35_edge_e35_steps_learning_levels_1",
+      "source_id": "src_u35_bateson_steps_1987",
+      "locator": "The Logical Categories of Learning and Communication, printed pp. 297–299",
+      "review_status": "research_pass_needs_editor"
+    }
+  ],
+  "reuse_note": "Preserve source attribution, scope, and review status. Source documents and evidence excerpts are excluded."
+}

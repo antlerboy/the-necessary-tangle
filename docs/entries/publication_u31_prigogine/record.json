@@ -1,0 +1,398 @@
+{
+  "schema_version": "1.0",
+  "canonical_url": "https://transduction.systems/entries/publication_u31_prigogine/",
+  "release": "0.35",
+  "citation": "Taylor, B. P. (2026). Prigogine: order under non-equilibrium conditions (Challoner, 2026). The Necessary Tangle, release 0.35. https://transduction.systems/entries/publication_u31_prigogine/",
+  "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
+  "entry": {
+    "id": "publication_u31_prigogine",
+    "label": "Prigogine: order under non-equilibrium conditions (Challoner, 2026)",
+    "entity_type": "publication",
+    "description": "Challoner separates equilibrium, stationary states, and far-from-equilibrium behaviour. Sustained exchange, instability, and fluctuations help explain dissipative structures in specified physical systems. These propositions require separate argument and evidence before application to organisations.",
+    "aliases": [],
+    "boundary_ring": "0",
+    "inclusion_reason": "update_20261008",
+    "status": "candidate",
+    "source_ids": [
+      "src_u31_prigogine"
+    ],
+    "set_tags": [
+      "systems",
+      "release_0_31",
+      "researcher-modules"
+    ],
+    "espoused_labels": [],
+    "observed_clusters": [],
+    "canonical_definition": "Challoner separates equilibrium, stationary states, and far-from-equilibrium behaviour. Sustained exchange, instability, and fluctuations help explain dissipative structures in specified physical systems. These propositions require separate argument and evidence before application to organisations.",
+    "valid_from": "",
+    "valid_to": "",
+    "external_ids": "{}",
+    "geographies": [],
+    "licence": "",
+    "review_status": "research_pass_needs_editor",
+    "reviewed_by": "",
+    "reviewed_at": "",
+    "x": 0.746662,
+    "y": 0.48639,
+    "canonical_id": "publication_u31_prigogine",
+    "public_visibility": "public",
+    "publication_level": "profile",
+    "public_stub_text": "",
+    "public_source_count": 1,
+    "no_public_link_count": 0,
+    "connection_pass": "update_20261008"
+  },
+  "profile": {
+    "node_id": "publication_u31_prigogine",
+    "summary": "Challoner separates equilibrium, stationary states, and far-from-equilibrium behaviour. Sustained exchange, instability, and fluctuations help explain dissipative structures in specified physical systems. These propositions require separate argument and evidence before application to organisations.",
+    "canonical_definition": "Challoner separates equilibrium, stationary states, and far-from-equilibrium behaviour. Sustained exchange, instability, and fluctuations help explain dissipative structures in specified physical systems. These propositions require separate argument and evidence before application to organisations.",
+    "why_it_matters": "Inspect the passage and the stated domain before using a term in a new setting.",
+    "key_distinctions": [
+      "source account vs editorial interpretation",
+      "material exchange vs causal openness",
+      "bibliographic access vs full-text evidence"
+    ],
+    "historical_lineage": [],
+    "logical_antecedents": [],
+    "dependent_subsequents": [],
+    "practice_connections": [
+      "Name the domain, conditions, and observation that could challenge the proposed connection."
+    ],
+    "common_misreadings": [
+      "Treating a shared term as proof that two accounts are equivalent."
+    ],
+    "open_checks": [
+      "Original-source verification and human editorial review remain open."
+    ],
+    "source_ids": [
+      "src_u31_prigogine"
+    ],
+    "context_and_lineage": "",
+    "editorial_note": "AI-assisted source reading. Human curator: Benjamin P Taylor. New claims remain candidates.",
+    "last_researched": "2026-10-08",
+    "connection_pass": "update_20261008",
+    "title": "Prigogine: order under non-equilibrium conditions (Challoner, 2026)",
+    "review_status": "research_pass_needs_editor",
+    "profile_status": "evidence_deepened_research_pass"
+  },
+  "connections": [
+    {
+      "id": "e31_subject_prigogine",
+      "source": "publication_u31_prigogine",
+      "target": "person_ilya_prigogine",
+      "relation_type": "presents_account_of",
+      "relation_family": "conceptual",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "",
+      "claim_status": "candidate",
+      "source_ids": [
+        "src_u31_prigogine"
+      ],
+      "evidence_ids": [
+        "ev_e31_subject_prigogine"
+      ],
+      "source_locator": "PDF p. 1: researcher and source basis",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Challoner’s module presents this thinker’s work. Its reconstructions are secondary interpretations, not new direct testimony from the original author.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "claim_e31_subject_prigogine",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "presents account of",
+      "public_review_label": "Located source statement; curator review pending",
+      "connection_pass": "update_20261008"
+    },
+    {
+      "id": "e31_module_prigogine_1",
+      "source": "publication_u31_prigogine",
+      "target": "concept_physical_exchange",
+      "relation_type": "presents_account_of",
+      "relation_family": "conceptual",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "",
+      "claim_status": "candidate",
+      "source_ids": [
+        "src_u31_prigogine"
+      ],
+      "evidence_ids": [
+        "ev_e31_module_prigogine_1"
+      ],
+      "source_locator": "pp. 2–3, DG1 and PG2",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "In Challoner’s reconstruction: Matter or energy exchange can maintain non-equilibrium conditions.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "claim_e31_module_prigogine_1",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "presents account of",
+      "public_review_label": "Located source statement; curator review pending",
+      "connection_pass": "update_20261008"
+    },
+    {
+      "id": "e31_module_prigogine_2",
+      "source": "publication_u31_prigogine",
+      "target": "concept_dissipative_structure",
+      "relation_type": "introduces_distinction",
+      "relation_family": "conceptual",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "",
+      "claim_status": "candidate",
+      "source_ids": [
+        "src_u31_prigogine"
+      ],
+      "evidence_ids": [
+        "ev_e31_module_prigogine_2"
+      ],
+      "source_locator": "p. 4, DS5; p. 6, PS5–PS7",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "In Challoner’s reconstruction: A dissipative structure persists under non-equilibrium conditions maintained by exchange.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "claim_e31_module_prigogine_2",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "introduces distinction",
+      "public_review_label": "Located source statement; curator review pending",
+      "connection_pass": "update_20261008"
+    },
+    {
+      "id": "e31_module_prigogine_3",
+      "source": "publication_u31_prigogine",
+      "target": "concept_bifurcation",
+      "relation_type": "introduces_distinction",
+      "relation_family": "conceptual",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "",
+      "claim_status": "candidate",
+      "source_ids": [
+        "src_u31_prigogine"
+      ],
+      "evidence_ids": [
+        "ev_e31_module_prigogine_3"
+      ],
+      "source_locator": "p. 4, DS4; pp. 5–6, PS2–PS4",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "In Challoner’s reconstruction: Instability can produce branching alternatives in a system’s development.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "claim_e31_module_prigogine_3",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "introduces distinction",
+      "public_review_label": "Located source statement; curator review pending",
+      "connection_pass": "update_20261008"
+    },
+    {
+      "id": "e31_module_prigogine_4",
+      "source": "publication_u31_prigogine",
+      "target": "concept_self_organisation",
+      "relation_type": "presents_account_of",
+      "relation_family": "conceptual",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "",
+      "claim_status": "candidate",
+      "source_ids": [
+        "src_u31_prigogine"
+      ],
+      "evidence_ids": [
+        "ev_e31_module_prigogine_4"
+      ],
+      "source_locator": "p. 5, DS7–DS8; p. 6, PS8–PS10",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "In Challoner’s reconstruction: Fluctuations can be amplified under particular non-linear, non-equilibrium conditions.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "claim_e31_module_prigogine_4",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "presents account of",
+      "public_review_label": "Located source statement; curator review pending",
+      "connection_pass": "update_20261008"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_e31_subject_prigogine",
+      "statement": "Challoner’s module presents this thinker’s work. Its reconstructions are secondary interpretations, not new direct testimony from the original author.",
+      "subject_id": "publication_u31_prigogine",
+      "predicate": "presents_account_of",
+      "object_id": "person_ilya_prigogine",
+      "status": "candidate",
+      "supporting_source_ids": [
+        "src_u31_prigogine"
+      ],
+      "supporting_evidence_ids": [
+        "ev_e31_subject_prigogine"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_evidence_ids": [],
+      "notes": "Source-scoped interpretation. Human editorial acceptance remains pending.",
+      "review_status": "research_pass_needs_editor",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "connection_pass": "update_20261008"
+    },
+    {
+      "id": "claim_e31_module_prigogine_1",
+      "statement": "In Challoner’s reconstruction: Matter or energy exchange can maintain non-equilibrium conditions.",
+      "subject_id": "publication_u31_prigogine",
+      "predicate": "presents_account_of",
+      "object_id": "concept_physical_exchange",
+      "status": "candidate",
+      "supporting_source_ids": [
+        "src_u31_prigogine"
+      ],
+      "supporting_evidence_ids": [
+        "ev_e31_module_prigogine_1"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_evidence_ids": [],
+      "notes": "Source-scoped interpretation. Human editorial acceptance remains pending.",
+      "review_status": "research_pass_needs_editor",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "connection_pass": "update_20261008"
+    },
+    {
+      "id": "claim_e31_module_prigogine_2",
+      "statement": "In Challoner’s reconstruction: A dissipative structure persists under non-equilibrium conditions maintained by exchange.",
+      "subject_id": "publication_u31_prigogine",
+      "predicate": "introduces_distinction",
+      "object_id": "concept_dissipative_structure",
+      "status": "candidate",
+      "supporting_source_ids": [
+        "src_u31_prigogine"
+      ],
+      "supporting_evidence_ids": [
+        "ev_e31_module_prigogine_2"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_evidence_ids": [],
+      "notes": "Source-scoped interpretation. Human editorial acceptance remains pending.",
+      "review_status": "research_pass_needs_editor",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "connection_pass": "update_20261008"
+    },
+    {
+      "id": "claim_e31_module_prigogine_3",
+      "statement": "In Challoner’s reconstruction: Instability can produce branching alternatives in a system’s development.",
+      "subject_id": "publication_u31_prigogine",
+      "predicate": "introduces_distinction",
+      "object_id": "concept_bifurcation",
+      "status": "candidate",
+      "supporting_source_ids": [
+        "src_u31_prigogine"
+      ],
+      "supporting_evidence_ids": [
+        "ev_e31_module_prigogine_3"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_evidence_ids": [],
+      "notes": "Source-scoped interpretation. Human editorial acceptance remains pending.",
+      "review_status": "research_pass_needs_editor",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "connection_pass": "update_20261008"
+    },
+    {
+      "id": "claim_e31_module_prigogine_4",
+      "statement": "In Challoner’s reconstruction: Fluctuations can be amplified under particular non-linear, non-equilibrium conditions.",
+      "subject_id": "publication_u31_prigogine",
+      "predicate": "presents_account_of",
+      "object_id": "concept_self_organisation",
+      "status": "candidate",
+      "supporting_source_ids": [
+        "src_u31_prigogine"
+      ],
+      "supporting_evidence_ids": [
+        "ev_e31_module_prigogine_4"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_evidence_ids": [],
+      "notes": "Source-scoped interpretation. Human editorial acceptance remains pending.",
+      "review_status": "research_pass_needs_editor",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "connection_pass": "update_20261008"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src_u31_prigogine",
+      "title": "Prigogine: order under non-equilibrium conditions: researcher module",
+      "source_type": "public_source",
+      "quality_tier": "B",
+      "access": "public",
+      "url": "https://rational-understanding.com/wp-content/uploads/2026/10/prigogine-researcher-module.pdf",
+      "date": "2026",
+      "notes": "John A Challoner’s version 1 reconstruction, 30 September 2026. General and specialised definitions/propositions are labelled separately; original-author wording is not implied.",
+      "creators": [
+        "John A Challoner"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Rational Understanding",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "441ea5669cb3706fe0142647b0133c0f98df06237540eb349244521c322d12b5",
+      "review_status": "source_scoped_research_pass",
+      "last_checked": "2026-10-08",
+      "public_link_status": "public_link",
+      "connection_pass": "update_20261008",
+      "source_locator": "Complete PDF, 7 pages; specific claims carry page and proposition references",
+      "source_role": "secondary reconstruction",
+      "pages_read": 7
+    }
+  ],
+  "evidence_locators": [
+    {
+      "id": "ev_e31_subject_prigogine",
+      "source_id": "src_u31_prigogine",
+      "locator": "PDF p. 1: researcher and source basis",
+      "review_status": "research_pass_needs_editor"
+    },
+    {
+      "id": "ev_e31_module_prigogine_1",
+      "source_id": "src_u31_prigogine",
+      "locator": "pp. 2–3, DG1 and PG2",
+      "review_status": "research_pass_needs_editor"
+    },
+    {
+      "id": "ev_e31_module_prigogine_2",
+      "source_id": "src_u31_prigogine",
+      "locator": "p. 4, DS5; p. 6, PS5–PS7",
+      "review_status": "research_pass_needs_editor"
+    },
+    {
+      "id": "ev_e31_module_prigogine_3",
+      "source_id": "src_u31_prigogine",
+      "locator": "p. 4, DS4; pp. 5–6, PS2–PS4",
+      "review_status": "research_pass_needs_editor"
+    },
+    {
+      "id": "ev_e31_module_prigogine_4",
+      "source_id": "src_u31_prigogine",
+      "locator": "p. 5, DS7–DS8; p. 6, PS8–PS10",
+      "review_status": "research_pass_needs_editor"
+    }
+  ],
+  "reuse_note": "Preserve source attribution, scope, and review status. Source documents and evidence excerpts are excluded."
+}

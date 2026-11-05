@@ -1,0 +1,152 @@
+{
+  "schema_version": "1.0",
+  "canonical_url": "https://transduction.systems/entries/person_alfonso_reyes/",
+  "release": "0.35",
+  "citation": "Taylor, B. P. (2026). Alfonso Reyes. The Necessary Tangle, release 0.35. https://transduction.systems/entries/person_alfonso_reyes/",
+  "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
+  "entry": {
+    "id": "person_alfonso_reyes",
+    "label": "Alfonso Reyes",
+    "entity_type": "person",
+    "description": "A systems scholar and co-author of Organizational Systems, contributing to its account of complexity, organisational cybernetics, the Viable System Model and systemic methodology.",
+    "aliases": [],
+    "boundary_ring": "0",
+    "inclusion_reason": "expertise_and_public_sources_release_0_13",
+    "status": "accepted",
+    "source_ids": [
+      "src_springer_organizational_systems_2011"
+    ],
+    "set_tags": [
+      "systems",
+      "human_lineage",
+      "expertise",
+      "release_0_13"
+    ],
+    "espoused_labels": [],
+    "observed_clusters": [],
+    "canonical_definition": "A systems scholar and co-author of Organizational Systems, contributing to its account of complexity, organisational cybernetics, the Viable System Model and systemic methodology.",
+    "valid_from": "",
+    "valid_to": "",
+    "external_ids": "{}",
+    "geographies": [],
+    "licence": "",
+    "review_status": "curator_checked_public_sources",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-11",
+    "x": -0.23,
+    "y": 0.13,
+    "canonical_id": "person_alfonso_reyes",
+    "public_visibility": "public",
+    "publication_level": "profile",
+    "public_stub_text": "",
+    "public_source_count": 1,
+    "no_public_link_count": 0
+  },
+  "profile": {
+    "node_id": "person_alfonso_reyes",
+    "title": "Alfonso Reyes",
+    "profile_status": "curator_checked_public_sources",
+    "canonical_definition": "A systems scholar and co-author of Organizational Systems, contributing to its account of complexity, organisational cybernetics, the Viable System Model and systemic methodology.",
+    "summary": "Alfonso Reyes co-developed Organizational Systems as a synthesis of complexity, organisational cybernetics, VSM and methodology.",
+    "why_it_matters": "His co-authorship is part of the book's intellectual and practical provenance and should not disappear behind a single-author account of organisational cybernetics.",
+    "key_distinctions": [
+      "co-authorship vs editorial assistance",
+      "systemic methodology vs model application"
+    ],
+    "historical_lineage": [
+      "organisational cybernetics",
+      "VSM",
+      "systems methodology"
+    ],
+    "logical_antecedents": [
+      "complexity",
+      "organisation",
+      "methodology"
+    ],
+    "dependent_subsequents": [
+      "Organizational Systems",
+      "teaching and application of VSM"
+    ],
+    "practice_connections": [
+      "organisational analysis",
+      "systems education",
+      "institutional design"
+    ],
+    "espoused_lineages": [],
+    "observed_clusters": [],
+    "common_misreadings": [
+      "the book is solely Espejo's work",
+      "VSM application is methodologically neutral"
+    ],
+    "open_checks": [
+      "develop independent profile sources",
+      "map wider publications and collaborations"
+    ],
+    "source_ids": [
+      "src_springer_organizational_systems_2011"
+    ],
+    "evidence_ids": [],
+    "last_researched": "2026-08-11",
+    "review_status": "curator_checked_public_sources",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-11",
+    "editorial_note": "Developed from public primary, institutional and publisher sources. Open to correction, rival interpretation and stronger evidence."
+  },
+  "connections": [
+    {
+      "id": "e_13_orgsys_reyes",
+      "source": "publication_organizational_systems_vsm",
+      "target": "person_alfonso_reyes",
+      "relation_type": "authored_by",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.88",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_springer_organizational_systems_2011"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Release 0.13 public primary, institutional and publisher sources",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "The wording is limited to the named public sources. Authorship, methodological development, conceptual dependence and practical use remain distinct claims.",
+      "assertion_mode": "asserted",
+      "inference_method": "curatorial synthesis of public primary, institutional and publisher sources",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-11",
+      "notes": "Springer identifies Alfonso Reyes as co-author.",
+      "plain_phrase": "was authored by",
+      "public_review_label": "supported working statement"
+    }
+  ],
+  "claims": [],
+  "sources": [
+    {
+      "id": "src_springer_organizational_systems_2011",
+      "title": "Organizational Systems: Managing Complexity with the Viable System Model",
+      "source_type": "official_publisher_book_page",
+      "quality_tier": "A",
+      "access": "public_metadata",
+      "url": "https://link.springer.com/book/10.1007/978-3-642-19109-1",
+      "date": "2011",
+      "notes": "Springer's page records Raul Espejo and Alfonso Reyes as authors and describes the book's treatment of organisational cybernetics, the Viable System Model, Viplan, diagnosis, design and implementation.",
+      "creators": [
+        "Raul Espejo",
+        "Alfonso Reyes"
+      ],
+      "doi": "10.1007/978-3-642-19109-1",
+      "isbn": "978-3-642-19109-1",
+      "publisher": "Springer Berlin Heidelberg",
+      "licence": "publisher_terms",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-11",
+      "public_link_status": "public_link"
+    }
+  ],
+  "evidence_locators": [],
+  "reuse_note": "Preserve source attribution, scope, and review status. Source documents and evidence excerpts are excluded."
+}

@@ -1,0 +1,382 @@
+{
+  "schema_version": "1.0",
+  "canonical_url": "https://transduction.systems/entries/person_david_ing/",
+  "release": "0.35",
+  "citation": "Taylor, B. P. (2026). David Ing. The Necessary Tangle, release 0.35. https://transduction.systems/entries/person_david_ing/",
+  "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
+  "entry": {
+    "id": "person_david_ing",
+    "label": "David Ing",
+    "entity_type": "person",
+    "description": "Systems researcher, educator and practitioner whose work connects service systems, systems thinking education, pattern language, systems changes and the documentation of systems lineages.",
+    "aliases": [],
+    "boundary_ring": "0",
+    "inclusion_reason": "iteration_0_15_depth_and_practice",
+    "status": "accepted",
+    "source_ids": [
+      "src_ing_coevolving_publications_2026",
+      "src_isss_ing_presidential_address_2011"
+    ],
+    "set_tags": [
+      "systems",
+      "practice",
+      "release_0_15",
+      "lineage",
+      "education"
+    ],
+    "espoused_labels": [],
+    "observed_clusters": [],
+    "canonical_definition": "Systems researcher, educator and practitioner whose work connects service systems, systems thinking education, pattern language, systems changes and the documentation of systems lineages.",
+    "valid_from": "",
+    "valid_to": "",
+    "external_ids": "{}",
+    "geographies": [],
+    "licence": "",
+    "review_status": "curator_checked_public_sources",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-14",
+    "x": 0.38,
+    "y": -0.09,
+    "canonical_id": "person_david_ing",
+    "public_visibility": "public",
+    "publication_level": "profile",
+    "public_stub_text": "",
+    "public_source_count": 2,
+    "no_public_link_count": 0
+  },
+  "profile": {
+    "node_id": "person_david_ing",
+    "title": "David Ing",
+    "profile_status": "source_scoped_research_pass",
+    "canonical_definition": "Systems researcher, educator and practitioner whose work connects service systems, systems thinking education, pattern language, systems changes and the documentation of systems lineages.",
+    "summary": "Ing’s public work includes service-systems research, systems-changes learning, teaching and documentation of systems scholarship. The linked source records identify the basis and limits of this account.",
+    "why_it_matters": "The atlas needs lineages that are documented rather than merely asserted. Ing’s publication archives, teaching records and ISSS work connect contemporary practice to longer systems traditions while also contributing his own approaches.",
+    "key_distinctions": [
+      "service systems are relational rather than reducible to service transactions",
+      "systems changes are not assumed to follow unfreeze-change-refreeze",
+      "documented association is weaker than demonstrated intellectual influence",
+      "systems traditions are plural and historically situated"
+    ],
+    "historical_lineage": [
+      "ISSS leadership and systems-sciences community",
+      "service systems science",
+      "systems thinking education",
+      "pattern-language research",
+      "Systems Changes Learning Circle"
+    ],
+    "logical_antecedents": [
+      "systems sciences",
+      "service science",
+      "Gregory Bateson’s ecological epistemology",
+      "Christopher Alexander’s pattern language",
+      "learning and action inquiry"
+    ],
+    "dependent_subsequents": [
+      "service systems thinking teaching",
+      "Systems Changes Learning",
+      "pattern-language experiments for services",
+      "lineage-rich public systems archives"
+    ],
+    "practice_connections": [
+      "teaching systems thinking",
+      "learning circles",
+      "service-system inquiry",
+      "public documentation of conferences and sources"
+    ],
+    "espoused_lineages": [],
+    "observed_clusters": [],
+    "common_misreadings": [
+      "Documented association is not by itself evidence of intellectual influence."
+    ],
+    "open_checks": [
+      "Add more independent scholarship evaluating the service-systems and systems-changes contributions."
+    ],
+    "source_ids": [
+      "src_ing_coevolving_publications_2026",
+      "src_isss_ing_presidential_address_2011"
+    ],
+    "evidence_ids": [],
+    "last_researched": "2026-09-09",
+    "review_status": "source_scoped_research_pass",
+    "reviewed_by": "",
+    "reviewed_at": "",
+    "editorial_note": "This account and its framing were prepared with AI assistance. The source records support documentary claims; evaluative and practice interpretations are editorial and open to challenge. No new independent review or contributor role is implied."
+  },
+  "connections": [
+    {
+      "id": "e15_ing_authors_pattern_manual",
+      "source": "publication_pattern_manual_service_systems_thinking",
+      "target": "person_david_ing",
+      "relation_type": "authored_by",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.88",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_ing_pattern_manual_2016"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Release 0.15 public sources",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Limited to the named sources. Documentary connection, conceptual influence, teaching use and effectiveness are distinct claims.",
+      "assertion_mode": "asserted",
+      "inference_method": "curatorial synthesis of public sources",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-14",
+      "notes": "",
+      "plain_phrase": "was authored by",
+      "public_review_label": "supported working statement"
+    },
+    {
+      "id": "e15_ing_develops_service_systems",
+      "source": "person_david_ing",
+      "target": "approach_family_service_systems_thinking",
+      "relation_type": "developed",
+      "relation_family": "human",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.97",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_ing_pattern_manual_2016",
+        "src_ing_coevolving_publications_2026"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Coevolving Publications index, Service Systems section; Pattern Manual paper, title, abstract and pp. 12-14",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Authorship and development are established from Ing's own publication record; this does not establish sole authorship of the wider field.",
+      "assertion_mode": "asserted",
+      "inference_method": "author-index chronology and work-level verification",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-14",
+      "notes": "The index documents a sustained sequence of service-systems-thinking work and the paper states the specific pattern-language development.",
+      "plain_phrase": "develops a documented strand of",
+      "public_review_label": "source-established authorship and development"
+    },
+    {
+      "id": "e15_ing_develops_systems_changes",
+      "source": "person_david_ing",
+      "target": "approach_family_systems_changes_learning",
+      "relation_type": "developed",
+      "relation_family": "human",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.97",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_ing_systems_changes_learning_2022",
+        "src_ing_systems_changes_learning_2023"
+      ],
+      "evidence_ids": [],
+      "source_locator": "2023 author record, abstract and citation; published article pp. 11-73; 2022 Systems Changes presentation",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "These first-party records establish Ing's authorship and formulation, not independent validation of the approach.",
+      "assertion_mode": "asserted",
+      "inference_method": "author-index chronology and published-work verification",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-14",
+      "notes": "The 2023 record locates the contextural-action-learning, rhythmic-shifts and doing-thinking-making formulation in a published article.",
+      "plain_phrase": "develops and publishes",
+      "public_review_label": "source-established authorship and development"
+    },
+    {
+      "id": "e15_ing_maintains_coevolving",
+      "source": "person_david_ing",
+      "target": "corpus_coevolving_innovations",
+      "relation_type": "maintains",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.88",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_ing_coevolving_publications_2026"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Release 0.15 public sources",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Limited to the named sources. Documentary connection, conceptual influence, teaching use and effectiveness are distinct claims.",
+      "assertion_mode": "asserted",
+      "inference_method": "curatorial synthesis of public sources",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-14",
+      "notes": "",
+      "plain_phrase": "maintains",
+      "public_review_label": "supported working statement"
+    },
+    {
+      "id": "e15_ing_practises_lineage_documentation",
+      "source": "person_david_ing",
+      "target": "practice_systems_lineage_documentation",
+      "relation_type": "uses",
+      "relation_family": "practice",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.88",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_ing_coevolving_publications_2026",
+        "src_ing_knowing_better_2022"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Release 0.15 public sources",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Limited to the named sources. Documentary connection, conceptual influence, teaching use and effectiveness are distinct claims.",
+      "assertion_mode": "asserted",
+      "inference_method": "curatorial synthesis of public sources",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-14",
+      "notes": "",
+      "plain_phrase": "uses",
+      "public_review_label": "supported working statement"
+    }
+  ],
+  "claims": [],
+  "sources": [
+    {
+      "id": "src_ing_coevolving_publications_2026",
+      "title": "David Ing — Coevolving Innovations publications",
+      "source_type": "primary_author_publication_index",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://coevolving.com/commons/publications",
+      "date": "checked 2026-08-14",
+      "notes": "Primary index for David Ing’s systems, service-systems and education publications and presentations. Useful for chronology and authorship; not independent evaluation.",
+      "creators": [
+        "David Ing"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Coevolving Innovations",
+      "licence": "site terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-14",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_isss_ing_presidential_address_2011",
+      "title": "David Ing — ISSS presidential address",
+      "source_type": "institutional_archive",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://www.isss.org/presidential-addresses/",
+      "date": "checked 2026-08-14",
+      "notes": "ISSS archive for Ing’s 2011 incoming presidential address, ‘Service Systems, Natural Systems: Sciences in Synthesis’, documenting his leadership role and service-systems synthesis.",
+      "creators": [
+        "International Society for the Systems Sciences"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "ISSS",
+      "licence": "site terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-14",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_ing_pattern_manual_2016",
+      "title": "Pattern Manual for Service Systems Thinking",
+      "source_type": "primary_publication_record",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://coevolving.com/commons/20161028-pattern-manual-for-service-systems-thinking",
+      "date": "checked 2026-08-14",
+      "notes": "Primary record of Ing’s 2016 proposal to adapt generative pattern-language practice for service systems thinking, including the alternative pattern form of voices, values and spatio-temporal frames.",
+      "creators": [
+        "David Ing"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Coevolving Innovations",
+      "licence": "site terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-14",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_ing_systems_changes_learning_2022",
+      "title": "When Unfreeze-Move-Refreeze Isn’t Working",
+      "source_type": "primary_publication_record",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://systemschanges.com/online/presentations/20220711-when-unfreeze-move-refreeze-isnt-working",
+      "date": "checked 2026-08-14",
+      "notes": "Primary account of Systems Changes Learning, including rhythmic shifts, texture/contexture, propensity, contextual-dyadic thinking and action learning.",
+      "creators": [
+        "David Ing"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Systems Changes",
+      "licence": "site terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-14",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_ing_systems_changes_learning_2023",
+      "title": "Systems Changes Learning: Recasting and reifying rhythmic shifts",
+      "source_type": "primary_author_publication_record",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://coevolving.com/commons/2023-02-recasting-and-reifying-rhythmic-shifts",
+      "date": "2023-02-28",
+      "notes": "Author record, abstract and published article for contextural action learning, rhythmic shifts and the doing-thinking-making triad.",
+      "creators": [
+        "David Ing"
+      ],
+      "doi": "10.54808/JSCI.20.07.11",
+      "isbn": "",
+      "publisher": "Journal of Systemics, Cybernetics and Informatics / Coevolving Innovations",
+      "licence": "CC BY-NC-SA 4.0",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked_primary_author_record",
+      "last_checked": "2026-08-14",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_ing_knowing_better_2022",
+      "title": "Knowing Better via Systems Thinking",
+      "source_type": "primary_publication_record",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://systemschanges.com/online/presentations/20221010-knowing-better-via-systems-thinking",
+      "date": "checked 2026-08-14",
+      "notes": "Primary account that explicitly places contemporary systems approaches in longer systems-sciences traditions and uses that lineage as part of teaching systems thinking.",
+      "creators": [
+        "David Ing"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Systems Changes",
+      "licence": "site terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-14",
+      "public_link_status": "public_link"
+    }
+  ],
+  "evidence_locators": [],
+  "reuse_note": "Preserve source attribution, scope, and review status. Source documents and evidence excerpts are excluded."
+}

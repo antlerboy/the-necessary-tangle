@@ -1,0 +1,216 @@
+{
+  "schema_version": "1.0",
+  "canonical_url": "https://transduction.systems/entries/person_peter_checkland/",
+  "release": "0.35",
+  "citation": "Taylor, B. P. (2026). Peter Checkland. The Necessary Tangle, release 0.35. https://transduction.systems/entries/person_peter_checkland/",
+  "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
+  "entry": {
+    "id": "person_peter_checkland",
+    "label": "Peter Checkland",
+    "entity_type": "person",
+    "description": "A systems scholar and practitioner who developed Soft Systems Methodology through action research on messy, contested situations and the relation between systems thinking and systems practice.",
+    "aliases": [
+      "Checkland"
+    ],
+    "boundary_ring": "0",
+    "inclusion_reason": "expertise_and_public_sources_release_0_13",
+    "status": "accepted",
+    "source_ids": [
+      "src_lancaster_checkland_stsp_1999",
+      "src_wiley_checkland_stsp_1999"
+    ],
+    "set_tags": [
+      "systems",
+      "human_lineage",
+      "expertise",
+      "release_0_13",
+      "named-coverage-audit",
+      "release_0_18"
+    ],
+    "espoused_labels": [],
+    "observed_clusters": [],
+    "canonical_definition": "A systems scholar and practitioner who developed Soft Systems Methodology through action research on messy, contested situations and the relation between systems thinking and systems practice.",
+    "valid_from": "",
+    "valid_to": "",
+    "external_ids": "{}",
+    "geographies": [],
+    "licence": "",
+    "review_status": "curator_checked_public_sources",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-11",
+    "x": 0.18,
+    "y": 0.16,
+    "canonical_id": "person_peter_checkland",
+    "public_visibility": "public",
+    "publication_level": "profile",
+    "public_stub_text": "",
+    "public_source_count": 2,
+    "no_public_link_count": 0
+  },
+  "profile": {
+    "node_id": "person_peter_checkland",
+    "title": "Peter Checkland",
+    "profile_status": "curator_checked_public_sources",
+    "canonical_definition": "A systems scholar and practitioner who developed Soft Systems Methodology through action research on messy, contested situations and the relation between systems thinking and systems practice.",
+    "summary": "Peter Checkland developed Soft Systems Methodology through sustained action research in situations where purposes, boundaries and improvements are contested rather than given.",
+    "why_it_matters": "His work makes a basic systems distinction operational: systems can be used as devices for inquiry into a situation without assuming that the situation itself is one objectively specified system.",
+    "key_distinctions": [
+      "system as ontology vs system as epistemological device",
+      "hard problem solving vs inquiry into problem situations",
+      "model of purposeful activity vs model of the world"
+    ],
+    "historical_lineage": [
+      "systems engineering",
+      "action research at Lancaster",
+      "Soft Systems Methodology",
+      "later systems practice"
+    ],
+    "logical_antecedents": [
+      "purpose",
+      "boundary",
+      "worldview",
+      "learning",
+      "human activity system"
+    ],
+    "dependent_subsequents": [
+      "Soft Systems Methodology",
+      "rich pictures",
+      "root definitions",
+      "conceptual activity models"
+    ],
+    "practice_connections": [
+      "organisational inquiry",
+      "public-service problem structuring",
+      "participative learning",
+      "feasible and desirable change"
+    ],
+    "espoused_lineages": [],
+    "observed_clusters": [],
+    "common_misreadings": [
+      "SSM is a softer version of optimisation",
+      "a conceptual model describes the real organisation",
+      "consensus is required before action"
+    ],
+    "open_checks": [
+      "add Learning for Action",
+      "map Checkland's collaborators and students",
+      "develop criticism and later adaptations"
+    ],
+    "source_ids": [
+      "src_lancaster_checkland_stsp_1999",
+      "src_wiley_checkland_stsp_1999"
+    ],
+    "evidence_ids": [],
+    "last_researched": "2026-08-11",
+    "review_status": "curator_checked_public_sources",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-11",
+    "editorial_note": "Developed from public primary, institutional and publisher sources. Open to correction, rival interpretation and stronger evidence."
+  },
+  "connections": [
+    {
+      "id": "e_13_checkland_ssm",
+      "source": "person_peter_checkland",
+      "target": "method_or_methodology_soft_systems_methodology_ssm",
+      "relation_type": "developed",
+      "relation_family": "historical",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.88",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_wiley_checkland_stsp_1999"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Release 0.13 public primary, institutional and publisher sources",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "The wording is limited to the named public sources. Authorship, methodological development, conceptual dependence and practical use remain distinct claims.",
+      "assertion_mode": "asserted",
+      "inference_method": "curatorial synthesis of public primary, institutional and publisher sources",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-11",
+      "notes": "The publisher account describes SSM as emerging from Checkland and collaborators' action research.",
+      "plain_phrase": "developed",
+      "public_review_label": "supported working statement"
+    },
+    {
+      "id": "e_13_stsp_checkland",
+      "source": "publication_systems_thinking_systems_practice",
+      "target": "person_peter_checkland",
+      "relation_type": "authored_by",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.88",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_lancaster_checkland_stsp_1999",
+        "src_wiley_checkland_stsp_1999"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Release 0.13 public primary, institutional and publisher sources",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "The wording is limited to the named public sources. Authorship, methodological development, conceptual dependence and practical use remain distinct claims.",
+      "assertion_mode": "asserted",
+      "inference_method": "curatorial synthesis of public primary, institutional and publisher sources",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-11",
+      "notes": "Official university and publisher records identify Peter Checkland as author.",
+      "plain_phrase": "was authored by",
+      "public_review_label": "supported working statement"
+    }
+  ],
+  "claims": [],
+  "sources": [
+    {
+      "id": "src_lancaster_checkland_stsp_1999",
+      "title": "Systems Thinking, Systems Practice: includes a 30-year retrospective",
+      "source_type": "official_university_research_record",
+      "quality_tier": "A",
+      "access": "public_metadata",
+      "url": "https://research.lancaster-university.uk/en/publications/systems-thinking-systems-practice-includes-a-30-year-retrospectiv/",
+      "date": "1999",
+      "notes": "Lancaster University's research record establishes Peter Checkland's authorship, the 1999 retrospective edition, publisher and bibliographic details.",
+      "creators": [
+        "Peter Checkland"
+      ],
+      "doi": "",
+      "isbn": "978-0-471-98606-5",
+      "publisher": "John Wiley and Sons Ltd",
+      "licence": "source_terms",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-11",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_wiley_checkland_stsp_1999",
+      "title": "Systems Thinking, Systems Practice — Wiley publisher page",
+      "source_type": "official_publisher_book_page",
+      "quality_tier": "A",
+      "access": "public_metadata",
+      "url": "https://www.wiley-vch.de/en/areas-interest/finance-economics-law/systems-thinking-systems-practice-978-0-471-98606-5",
+      "date": "1999-07",
+      "notes": "The publisher describes the book as the culmination of action research using systems ideas in ill-structured real-world situations and records the 30-year retrospective edition.",
+      "creators": [
+        "Peter Checkland"
+      ],
+      "doi": "",
+      "isbn": "978-0-471-98606-5",
+      "publisher": "John Wiley and Sons Ltd",
+      "licence": "publisher_terms",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-11",
+      "public_link_status": "public_link"
+    }
+  ],
+  "evidence_locators": [],
+  "reuse_note": "Preserve source attribution, scope, and review status. Source documents and evidence excerpts are excluded."
+}

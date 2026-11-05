@@ -1,0 +1,149 @@
+{
+  "schema_version": "1.0",
+  "canonical_url": "https://transduction.systems/entries/person_lucy_loh/",
+  "release": "0.35",
+  "citation": "Taylor, B. P. (2026). Lucy Loh. The Necessary Tangle, release 0.35. https://transduction.systems/entries/person_lucy_loh/",
+  "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
+  "entry": {
+    "id": "person_lucy_loh",
+    "label": "Lucy Loh",
+    "entity_type": "person",
+    "description": "A systems and strategy practitioner who co-developed Patterns of Strategy with Patrick Hoverstadt and co-authored the book presenting the approach.",
+    "aliases": [],
+    "boundary_ring": "0",
+    "inclusion_reason": "practitioner_expertise_coverage_release_0_12",
+    "status": "accepted",
+    "source_ids": [
+      "src_scio_patterns_strategy_book_2016"
+    ],
+    "set_tags": [
+      "systems",
+      "practice",
+      "human_lineage",
+      "release_0_12"
+    ],
+    "espoused_labels": [],
+    "observed_clusters": [],
+    "canonical_definition": "A systems and strategy practitioner who co-developed Patterns of Strategy with Patrick Hoverstadt and co-authored the book presenting the approach.",
+    "valid_from": "",
+    "valid_to": "",
+    "external_ids": "{}",
+    "geographies": [],
+    "licence": "",
+    "review_status": "curator_checked_public_sources",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-10",
+    "x": -0.51,
+    "y": -0.18,
+    "canonical_id": "person_lucy_loh",
+    "public_visibility": "public",
+    "publication_level": "profile",
+    "public_stub_text": "",
+    "public_source_count": 1,
+    "no_public_link_count": 0
+  },
+  "profile": {
+    "node_id": "person_lucy_loh",
+    "title": "Lucy Loh",
+    "profile_status": "curator_checked_public_sources",
+    "canonical_definition": "A systems and strategy practitioner who co-developed Patterns of Strategy with Patrick Hoverstadt and co-authored the book presenting the approach.",
+    "summary": "Lucy Loh co-developed Patterns of Strategy and co-authored its main publication, bringing systemic and management-science practice to strategic fit and manoeuvre.",
+    "why_it_matters": "Crediting a method to only one visible practitioner would reproduce the very false lineage problem the atlas is meant to resist.",
+    "key_distinctions": [
+      "co-development vs secondary association",
+      "relational strategy vs internal planning"
+    ],
+    "historical_lineage": [
+      "systems practice",
+      "management science",
+      "structural coupling and strategic fit"
+    ],
+    "logical_antecedents": [
+      "strategy",
+      "structural coupling",
+      "power",
+      "time"
+    ],
+    "dependent_subsequents": [
+      "Patterns of Strategy"
+    ],
+    "practice_connections": [
+      "strategy development",
+      "competitive and collaborative ecosystems"
+    ],
+    "espoused_lineages": [],
+    "observed_clusters": [],
+    "common_misreadings": [
+      "Patterns of Strategy is solely Patrick Hoverstadt's work"
+    ],
+    "open_checks": [
+      "develop Lucy Loh's broader practitioner profile and case history"
+    ],
+    "source_ids": [
+      "src_scio_patterns_strategy_book_2016"
+    ],
+    "evidence_ids": [],
+    "last_researched": "2026-08-10",
+    "review_status": "curator_checked_public_sources",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-10",
+    "editorial_note": "Developed from cited public sources. The entry remains open to correction, rival accounts and stronger evidence."
+  },
+  "connections": [
+    {
+      "id": "e_12_pos_lucy",
+      "source": "method_or_methodology_patterns_of_strategy",
+      "target": "person_lucy_loh",
+      "relation_type": "co_developed_with",
+      "relation_family": "human",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.88",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_scio_patterns_strategy_book_2016"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Release 0.12 public practitioner and publication sources",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "The wording is limited to the named public sources. Bibliographic inclusion and organisational association do not establish wider intellectual influence.",
+      "assertion_mode": "asserted",
+      "inference_method": "curatorial synthesis of public primary, scholarly and professional-body sources",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-10",
+      "notes": "Lucy Loh is identified as co-developer and co-author.",
+      "plain_phrase": "was co-developed with",
+      "public_review_label": "supported working statement"
+    }
+  ],
+  "claims": [],
+  "sources": [
+    {
+      "id": "src_scio_patterns_strategy_book_2016",
+      "title": "Patterns of Strategy",
+      "source_type": "official_professional_body_book_page",
+      "quality_tier": "B",
+      "access": "public_metadata",
+      "url": "https://www.systemspractice.org/resources/patterns-strategy-0",
+      "date": "2016-12",
+      "notes": "SCiO bibliographic page for Patrick Hoverstadt and Lucy Loh's book, which presents eighty strategy patterns for examining collaboration and competition in a strategic ecosystem.",
+      "creators": [
+        "Patrick Hoverstadt",
+        "Lucy Loh"
+      ],
+      "doi": "",
+      "isbn": "978-1138242678",
+      "publisher": "Routledge",
+      "licence": "publisher_terms",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-10",
+      "public_link_status": "public_link"
+    }
+  ],
+  "evidence_locators": [],
+  "reuse_note": "Preserve source attribution, scope, and review status. Source documents and evidence excerpts are excluded."
+}

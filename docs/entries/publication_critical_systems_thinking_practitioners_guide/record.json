@@ -1,0 +1,206 @@
+{
+  "schema_version": "1.0",
+  "canonical_url": "https://transduction.systems/entries/publication_critical_systems_thinking_practitioners_guide/",
+  "release": "0.35",
+  "citation": "Taylor, B. P. (2026). Critical Systems Thinking: A Practitioner's Guide. The Necessary Tangle, release 0.35. https://transduction.systems/entries/publication_critical_systems_thinking_practitioners_guide/",
+  "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
+  "entry": {
+    "id": "publication_critical_systems_thinking_practitioners_guide",
+    "label": "Critical Systems Thinking: A Practitioner's Guide",
+    "entity_type": "publication",
+    "description": "Michael C. Jackson's guide to critical systems thinking and critical systems practice, treating methodological diversity as a resource for working with multidimensional complexity rather than as a choice of one universal method.",
+    "aliases": [],
+    "boundary_ring": "0",
+    "inclusion_reason": "practitioner_expertise_coverage_release_0_12",
+    "status": "accepted",
+    "source_ids": [
+      "src_scio_critical_systems_thinking_2024"
+    ],
+    "set_tags": [
+      "systems",
+      "practice",
+      "human_lineage",
+      "release_0_12"
+    ],
+    "espoused_labels": [],
+    "observed_clusters": [],
+    "canonical_definition": "Michael C. Jackson's guide to critical systems thinking and critical systems practice, treating methodological diversity as a resource for working with multidimensional complexity rather than as a choice of one universal method.",
+    "valid_from": "",
+    "valid_to": "",
+    "external_ids": "{}",
+    "geographies": [],
+    "licence": "",
+    "review_status": "curator_checked_public_sources",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-10",
+    "x": 0.23,
+    "y": 0.34,
+    "canonical_id": "publication_critical_systems_thinking_practitioners_guide",
+    "public_visibility": "public",
+    "publication_level": "profile",
+    "public_stub_text": "",
+    "public_source_count": 1,
+    "no_public_link_count": 0
+  },
+  "profile": {
+    "node_id": "publication_critical_systems_thinking_practitioners_guide",
+    "title": "Critical Systems Thinking: A Practitioner's Guide",
+    "profile_status": "curator_checked_public_sources",
+    "canonical_definition": "Michael C. Jackson's guide to critical systems thinking and critical systems practice, treating methodological diversity as a resource for working with multidimensional complexity rather than as a choice of one universal method.",
+    "summary": "A contemporary guide to the foundations, mindset, methodologies and practical conduct of critical systems practice.",
+    "why_it_matters": "It is one of the curator's four strongest current reading recommendations and directly addresses how a practitioner can use methodological diversity without hiding ethical and political choices.",
+    "key_distinctions": [
+      "critical systems thinking vs generic critical thinking",
+      "critical systems practice vs multi-method recipe",
+      "complexity dimensions vs one problem type"
+    ],
+    "historical_lineage": [
+      "critical systems thinking",
+      "creative holism",
+      "systems methodologies"
+    ],
+    "logical_antecedents": [
+      "systems practice",
+      "pluralism",
+      "power",
+      "methodology critique"
+    ],
+    "dependent_subsequents": [
+      "critical systems practice"
+    ],
+    "practice_connections": [
+      "wicked problems",
+      "leadership",
+      "methodological choice and combination"
+    ],
+    "espoused_lineages": [],
+    "observed_clusters": [],
+    "common_misreadings": [
+      "the book recommends one best method",
+      "critical systems practice can be reduced to a matrix"
+    ],
+    "open_checks": [
+      "add page-level sources and cases",
+      "map each methodology discussed to existing entries"
+    ],
+    "source_ids": [
+      "src_scio_critical_systems_thinking_2024"
+    ],
+    "evidence_ids": [],
+    "last_researched": "2026-08-10",
+    "review_status": "curator_checked_public_sources",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-10",
+    "editorial_note": "Developed from cited public sources. The entry remains open to correction, rival accounts and stronger evidence."
+  },
+  "connections": [
+    {
+      "id": "e_12_cst_book_jackson",
+      "source": "publication_critical_systems_thinking_practitioners_guide",
+      "target": "person_michael_c_jackson",
+      "relation_type": "authored_by",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.88",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_scio_critical_systems_thinking_2024"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Release 0.12 public practitioner and publication sources",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "The wording is limited to the named public sources. Bibliographic inclusion and organisational association do not establish wider intellectual influence.",
+      "assertion_mode": "asserted",
+      "inference_method": "curatorial synthesis of public primary, scholarly and professional-body sources",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-10",
+      "notes": "The official page identifies Michael C. Jackson as author.",
+      "plain_phrase": "was authored by",
+      "public_review_label": "supported working statement"
+    },
+    {
+      "id": "e_12_cst_book_multi",
+      "source": "publication_critical_systems_thinking_practitioners_guide",
+      "target": "method_or_methodology_multi_methodology_including_sosm",
+      "relation_type": "uses",
+      "relation_family": "practice",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.88",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_scio_critical_systems_thinking_2024"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Release 0.12 public practitioner and publication sources",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "The wording is limited to the named public sources. Bibliographic inclusion and organisational association do not establish wider intellectual influence.",
+      "assertion_mode": "asserted",
+      "inference_method": "curatorial synthesis of public primary, scholarly and professional-body sources",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-10",
+      "notes": "The guide addresses the critical selection and combination of systems methodologies.",
+      "plain_phrase": "uses",
+      "public_review_label": "supported working statement"
+    },
+    {
+      "id": "e_12_cst_book_practice",
+      "source": "publication_critical_systems_thinking_practitioners_guide",
+      "target": "practice_systems_practice",
+      "relation_type": "operationalises",
+      "relation_family": "practice",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.88",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_scio_critical_systems_thinking_2024"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Release 0.12 public practitioner and publication sources",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "The wording is limited to the named public sources. Bibliographic inclusion and organisational association do not establish wider intellectual influence.",
+      "assertion_mode": "asserted",
+      "inference_method": "curatorial synthesis of public primary, scholarly and professional-body sources",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-10",
+      "notes": "The book presents critical systems practice as a way to use methodological diversity.",
+      "plain_phrase": "puts into practical form",
+      "public_review_label": "supported working statement"
+    }
+  ],
+  "claims": [],
+  "sources": [
+    {
+      "id": "src_scio_critical_systems_thinking_2024",
+      "title": "Critical Systems Thinking: A Practitioner's Guide",
+      "source_type": "official_professional_body_book_page",
+      "quality_tier": "B",
+      "access": "public_metadata",
+      "url": "https://www.systemspractice.org/resources/critical-systems-thinking-practitioners-guide",
+      "date": "2024-06",
+      "notes": "SCiO bibliographic and descriptive page for Michael C. Jackson's guide to critical systems thinking and critical systems practice.",
+      "creators": [
+        "Michael C. Jackson"
+      ],
+      "doi": "",
+      "isbn": "978-1394203574",
+      "publisher": "Wiley",
+      "licence": "publisher_terms",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-10",
+      "public_link_status": "public_link"
+    }
+  ],
+  "evidence_locators": [],
+  "reuse_note": "Preserve source attribution, scope, and review status. Source documents and evidence excerpts are excluded."
+}

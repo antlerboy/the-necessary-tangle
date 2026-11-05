@@ -1,0 +1,271 @@
+{
+  "schema_version": "1.0",
+  "canonical_url": "https://transduction.systems/entries/person_donella_meadows/",
+  "release": "0.35",
+  "citation": "Taylor, B. P. (2026). Donella Meadows. The Necessary Tangle, release 0.35. https://transduction.systems/entries/person_donella_meadows/",
+  "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
+  "entry": {
+    "id": "person_donella_meadows",
+    "label": "Donella Meadows",
+    "entity_type": "person",
+    "description": "A systems analyst, author and educator whose work joined system dynamics, environmental analysis and practical disciplines for understanding, intervening in and living with complex systems.",
+    "aliases": [
+      "Dana Meadows",
+      "Donella H. Meadows",
+      "Donella Meadows",
+      "Donna Meadows",
+      "Meadows"
+    ],
+    "boundary_ring": "0",
+    "inclusion_reason": "expertise_and_public_sources_release_0_13",
+    "status": "accepted",
+    "source_ids": [
+      "src_prh_thinking_in_systems_2008",
+      "src_meadows_dancing_with_systems",
+      "src_meadows_leverage_points"
+    ],
+    "set_tags": [
+      "systems",
+      "human_lineage",
+      "expertise",
+      "release_0_13",
+      "named-coverage-audit",
+      "release_0_18"
+    ],
+    "espoused_labels": [],
+    "observed_clusters": [],
+    "canonical_definition": "A systems analyst, author and educator whose work joined system dynamics, environmental analysis and practical disciplines for understanding, intervening in and living with complex systems.",
+    "valid_from": "",
+    "valid_to": "",
+    "external_ids": "{}",
+    "geographies": [],
+    "licence": "",
+    "review_status": "curator_checked_public_sources",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-11",
+    "x": 0.48,
+    "y": 0.02,
+    "canonical_id": "person_donella_meadows",
+    "public_visibility": "public",
+    "publication_level": "profile",
+    "public_stub_text": "",
+    "public_source_count": 3,
+    "no_public_link_count": 0
+  },
+  "profile": {
+    "node_id": "person_donella_meadows",
+    "title": "Donella Meadows",
+    "profile_status": "curator_checked_public_sources",
+    "canonical_definition": "A systems analyst, author and educator whose work joined system dynamics, environmental analysis and practical disciplines for understanding, intervening in and living with complex systems.",
+    "summary": "Donella Meadows connected rigorous system dynamics with lucid public explanation and practical disciplines for intervention, learning and responsible action.",
+    "why_it_matters": "Her work brings feedback, stocks, flows, delays, resilience and leverage into public and organisational practice while repeatedly warning against the fantasy of complete prediction and control.",
+    "key_distinctions": [
+      "understanding vs control",
+      "event vs behaviour over time",
+      "parameter change vs structural leverage",
+      "measurement vs value"
+    ],
+    "historical_lineage": [
+      "MIT system dynamics",
+      "Limits to Growth",
+      "sustainability analysis",
+      "systems education"
+    ],
+    "logical_antecedents": [
+      "stocks and flows",
+      "feedback",
+      "delay",
+      "nonlinearity",
+      "goal"
+    ],
+    "dependent_subsequents": [
+      "Thinking in Systems",
+      "Leverage Points",
+      "Dancing With Systems"
+    ],
+    "practice_connections": [
+      "policy modelling",
+      "sustainability",
+      "organisational learning",
+      "intervention design"
+    ],
+    "espoused_lineages": [],
+    "observed_clusters": [],
+    "common_misreadings": [
+      "leverage points are a universal recipe",
+      "systems analysis enables control",
+      "only quantifiable variables matter"
+    ],
+    "open_checks": [
+      "develop system-dynamics lineage",
+      "connect Limits to Growth",
+      "map criticism and later applications"
+    ],
+    "source_ids": [
+      "src_prh_thinking_in_systems_2008",
+      "src_meadows_dancing_with_systems",
+      "src_meadows_leverage_points"
+    ],
+    "evidence_ids": [],
+    "last_researched": "2026-08-11",
+    "review_status": "curator_checked_public_sources",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-11",
+    "editorial_note": "Developed from public primary, institutional and publisher sources. Open to correction, rival interpretation and stronger evidence."
+  },
+  "connections": [
+    {
+      "id": "e_13_dancing_meadows",
+      "source": "publication_dancing_with_systems",
+      "target": "person_donella_meadows",
+      "relation_type": "authored_by",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.88",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_meadows_dancing_with_systems"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Release 0.13 public primary, institutional and publisher sources",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "The wording is limited to the named public sources. Authorship, methodological development, conceptual dependence and practical use remain distinct claims.",
+      "assertion_mode": "asserted",
+      "inference_method": "curatorial synthesis of public primary, institutional and publisher sources",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-11",
+      "notes": "The Donella Meadows Project identifies Meadows as author.",
+      "plain_phrase": "was authored by",
+      "public_review_label": "supported working statement"
+    },
+    {
+      "id": "e_13_leverage_meadows",
+      "source": "publication_leverage_points_meadows",
+      "target": "person_donella_meadows",
+      "relation_type": "authored_by",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.88",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_meadows_leverage_points"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Release 0.13 public primary, institutional and publisher sources",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "The wording is limited to the named public sources. Authorship, methodological development, conceptual dependence and practical use remain distinct claims.",
+      "assertion_mode": "asserted",
+      "inference_method": "curatorial synthesis of public primary, institutional and publisher sources",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-11",
+      "notes": "The Donella Meadows Project identifies Meadows as author.",
+      "plain_phrase": "was authored by",
+      "public_review_label": "supported working statement"
+    },
+    {
+      "id": "e_13_thinking_meadows",
+      "source": "publication_thinking_in_systems",
+      "target": "person_donella_meadows",
+      "relation_type": "authored_by",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.88",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_prh_thinking_in_systems_2008"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Release 0.13 public primary, institutional and publisher sources",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "The wording is limited to the named public sources. Authorship, methodological development, conceptual dependence and practical use remain distinct claims.",
+      "assertion_mode": "asserted",
+      "inference_method": "curatorial synthesis of public primary, institutional and publisher sources",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-11",
+      "notes": "The publisher identifies Donella Meadows as author.",
+      "plain_phrase": "was authored by",
+      "public_review_label": "supported working statement"
+    }
+  ],
+  "claims": [],
+  "sources": [
+    {
+      "id": "src_prh_thinking_in_systems_2008",
+      "title": "Thinking in Systems: A Primer",
+      "source_type": "official_publisher_book_page",
+      "quality_tier": "A",
+      "access": "public_metadata",
+      "url": "https://www.penguinrandomhouse.com/books/801035/thinking-in-systems-by-donella-meadows/",
+      "date": "2008-12-05",
+      "notes": "The publisher records Donella Meadows as author and Diana Wright as editor and describes the book as a practice-facing introduction to systems structures, feedback and intervention.",
+      "creators": [
+        "Donella Meadows",
+        "Diana Wright"
+      ],
+      "doi": "",
+      "isbn": "978-1-60358-055-7",
+      "publisher": "Chelsea Green",
+      "licence": "publisher_terms",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-11",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_meadows_dancing_with_systems",
+      "title": "Dancing With Systems",
+      "source_type": "primary_author_archive",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://donellameadows.org/archives/dancing-with-systems/",
+      "date": "2004; archived current",
+      "notes": "The Donella Meadows Project publishes the essay and its practical disciplines for acting with feedback-rich, nonlinear and partly unpredictable systems.",
+      "creators": [
+        "Donella Meadows"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "The Donella Meadows Project",
+      "licence": "source_terms",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-11",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_meadows_leverage_points",
+      "title": "Leverage Points: Places to Intervene in a System",
+      "source_type": "primary_author_archive",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://donellameadows.org/archives/leverage-points-places-to-intervene-in-a-system/",
+      "date": "1999; archived current",
+      "notes": "The Donella Meadows Project publishes Meadows's ordered list of places to intervene, together with her cautions about context, resistance, uncertainty and paradigm flexibility.",
+      "creators": [
+        "Donella Meadows"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "The Donella Meadows Project",
+      "licence": "source_terms",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-11",
+      "public_link_status": "public_link"
+    }
+  ],
+  "evidence_locators": [],
+  "reuse_note": "Preserve source attribution, scope, and review status. Source documents and evidence excerpts are excluded."
+}

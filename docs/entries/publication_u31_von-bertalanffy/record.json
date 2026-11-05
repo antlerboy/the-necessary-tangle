@@ -1,0 +1,398 @@
+{
+  "schema_version": "1.0",
+  "canonical_url": "https://transduction.systems/entries/publication_u31_von-bertalanffy/",
+  "release": "0.35",
+  "citation": "Taylor, B. P. (2026). Bertalanffy: organisation, openness, and equifinality (Challoner, 2026). The Necessary Tangle, release 0.35. https://transduction.systems/entries/publication_u31_von-bertalanffy/",
+  "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
+  "entry": {
+    "id": "publication_u31_von-bertalanffy",
+    "label": "Bertalanffy: organisation, openness, and equifinality (Challoner, 2026)",
+    "entity_type": "publication",
+    "description": "Challoner distinguishes organised relations from additive collections and cross-domain isomorphism from reduction to one discipline. Open-system accounts of organisms support specific claims about steady states and equifinality. Neither term means every route always reaches the same outcome.",
+    "aliases": [],
+    "boundary_ring": "0",
+    "inclusion_reason": "update_20261008",
+    "status": "candidate",
+    "source_ids": [
+      "src_u31_von-bertalanffy"
+    ],
+    "set_tags": [
+      "systems",
+      "release_0_31",
+      "researcher-modules"
+    ],
+    "espoused_labels": [],
+    "observed_clusters": [],
+    "canonical_definition": "Challoner distinguishes organised relations from additive collections and cross-domain isomorphism from reduction to one discipline. Open-system accounts of organisms support specific claims about steady states and equifinality. Neither term means every route always reaches the same outcome.",
+    "valid_from": "",
+    "valid_to": "",
+    "external_ids": "{}",
+    "geographies": [],
+    "licence": "",
+    "review_status": "research_pass_needs_editor",
+    "reviewed_by": "",
+    "reviewed_at": "",
+    "x": 0.414696,
+    "y": 0.302715,
+    "canonical_id": "publication_u31_von-bertalanffy",
+    "public_visibility": "public",
+    "publication_level": "profile",
+    "public_stub_text": "",
+    "public_source_count": 1,
+    "no_public_link_count": 0,
+    "connection_pass": "update_20261008"
+  },
+  "profile": {
+    "node_id": "publication_u31_von-bertalanffy",
+    "summary": "Challoner distinguishes organised relations from additive collections and cross-domain isomorphism from reduction to one discipline. Open-system accounts of organisms support specific claims about steady states and equifinality. Neither term means every route always reaches the same outcome.",
+    "canonical_definition": "Challoner distinguishes organised relations from additive collections and cross-domain isomorphism from reduction to one discipline. Open-system accounts of organisms support specific claims about steady states and equifinality. Neither term means every route always reaches the same outcome.",
+    "why_it_matters": "Inspect the passage and the stated domain before using a term in a new setting.",
+    "key_distinctions": [
+      "source account vs editorial interpretation",
+      "material exchange vs causal openness",
+      "bibliographic access vs full-text evidence"
+    ],
+    "historical_lineage": [],
+    "logical_antecedents": [],
+    "dependent_subsequents": [],
+    "practice_connections": [
+      "Name the domain, conditions, and observation that could challenge the proposed connection."
+    ],
+    "common_misreadings": [
+      "Treating a shared term as proof that two accounts are equivalent."
+    ],
+    "open_checks": [
+      "Original-source verification and human editorial review remain open."
+    ],
+    "source_ids": [
+      "src_u31_von-bertalanffy"
+    ],
+    "context_and_lineage": "",
+    "editorial_note": "AI-assisted source reading. Human curator: Benjamin P Taylor. New claims remain candidates.",
+    "last_researched": "2026-10-08",
+    "connection_pass": "update_20261008",
+    "title": "Bertalanffy: organisation, openness, and equifinality (Challoner, 2026)",
+    "review_status": "research_pass_needs_editor",
+    "profile_status": "evidence_deepened_research_pass"
+  },
+  "connections": [
+    {
+      "id": "e31_subject_von-bertalanffy",
+      "source": "publication_u31_von-bertalanffy",
+      "target": "person_ludwig_von_bertalanffy",
+      "relation_type": "presents_account_of",
+      "relation_family": "conceptual",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "",
+      "claim_status": "candidate",
+      "source_ids": [
+        "src_u31_von-bertalanffy"
+      ],
+      "evidence_ids": [
+        "ev_e31_subject_von-bertalanffy"
+      ],
+      "source_locator": "PDF p. 1: researcher and source basis",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Challoner’s module presents this thinker’s work. Its reconstructions are secondary interpretations, not new direct testimony from the original author.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "claim_e31_subject_von-bertalanffy",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "presents account of",
+      "public_review_label": "Located source statement; curator review pending",
+      "connection_pass": "update_20261008"
+    },
+    {
+      "id": "e31_module_von-bertalanffy_1",
+      "source": "publication_u31_von-bertalanffy",
+      "target": "concept_material_open_system",
+      "relation_type": "presents_account_of",
+      "relation_family": "conceptual",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "",
+      "claim_status": "candidate",
+      "source_ids": [
+        "src_u31_von-bertalanffy"
+      ],
+      "evidence_ids": [
+        "ev_e31_module_von-bertalanffy_1"
+      ],
+      "source_locator": "pp. 3–4, DS1–DS4 and PS1–PS2",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "In Challoner’s reconstruction: Open systems exchange matter and can maintain steady states away from equilibrium.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "claim_e31_module_von-bertalanffy_1",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "presents account of",
+      "public_review_label": "Located source statement; curator review pending",
+      "connection_pass": "update_20261008"
+    },
+    {
+      "id": "e31_module_von-bertalanffy_2",
+      "source": "publication_u31_von-bertalanffy",
+      "target": "concept_equifinality",
+      "relation_type": "introduces_distinction",
+      "relation_family": "conceptual",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "",
+      "claim_status": "candidate",
+      "source_ids": [
+        "src_u31_von-bertalanffy"
+      ],
+      "evidence_ids": [
+        "ev_e31_module_von-bertalanffy_2"
+      ],
+      "source_locator": "p. 4, DS4 and PS3",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "In Challoner’s reconstruction: Different initial conditions can lead to the same final state under specified open-system conditions.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "claim_e31_module_von-bertalanffy_2",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "introduces distinction",
+      "public_review_label": "Located source statement; curator review pending",
+      "connection_pass": "update_20261008"
+    },
+    {
+      "id": "e31_module_von-bertalanffy_3",
+      "source": "publication_u31_von-bertalanffy",
+      "target": "concept_isomorphism",
+      "relation_type": "introduces_distinction",
+      "relation_family": "conceptual",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "",
+      "claim_status": "candidate",
+      "source_ids": [
+        "src_u31_von-bertalanffy"
+      ],
+      "evidence_ids": [
+        "ev_e31_module_von-bertalanffy_3"
+      ],
+      "source_locator": "pp. 2–3, DG3 and PG3–PG4",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "In Challoner’s reconstruction: Cross-domain formal correspondences do not remove substantive differences between domains.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "claim_e31_module_von-bertalanffy_3",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "introduces distinction",
+      "public_review_label": "Located source statement; curator review pending",
+      "connection_pass": "update_20261008"
+    },
+    {
+      "id": "e31_module_von-bertalanffy_4",
+      "source": "publication_u31_von-bertalanffy",
+      "target": "concept_organisation",
+      "relation_type": "presents_account_of",
+      "relation_family": "conceptual",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "",
+      "claim_status": "candidate",
+      "source_ids": [
+        "src_u31_von-bertalanffy"
+      ],
+      "evidence_ids": [
+        "ev_e31_module_von-bertalanffy_4"
+      ],
+      "source_locator": "pp. 2–3, DG1 and PG1–PG2",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "In Challoner’s reconstruction: Organisation depends on relations that an additive account of parts can miss.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "claim_e31_module_von-bertalanffy_4",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "presents account of",
+      "public_review_label": "Located source statement; curator review pending",
+      "connection_pass": "update_20261008"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_e31_subject_von-bertalanffy",
+      "statement": "Challoner’s module presents this thinker’s work. Its reconstructions are secondary interpretations, not new direct testimony from the original author.",
+      "subject_id": "publication_u31_von-bertalanffy",
+      "predicate": "presents_account_of",
+      "object_id": "person_ludwig_von_bertalanffy",
+      "status": "candidate",
+      "supporting_source_ids": [
+        "src_u31_von-bertalanffy"
+      ],
+      "supporting_evidence_ids": [
+        "ev_e31_subject_von-bertalanffy"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_evidence_ids": [],
+      "notes": "Source-scoped interpretation. Human editorial acceptance remains pending.",
+      "review_status": "research_pass_needs_editor",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "connection_pass": "update_20261008"
+    },
+    {
+      "id": "claim_e31_module_von-bertalanffy_1",
+      "statement": "In Challoner’s reconstruction: Open systems exchange matter and can maintain steady states away from equilibrium.",
+      "subject_id": "publication_u31_von-bertalanffy",
+      "predicate": "presents_account_of",
+      "object_id": "concept_material_open_system",
+      "status": "candidate",
+      "supporting_source_ids": [
+        "src_u31_von-bertalanffy"
+      ],
+      "supporting_evidence_ids": [
+        "ev_e31_module_von-bertalanffy_1"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_evidence_ids": [],
+      "notes": "Source-scoped interpretation. Human editorial acceptance remains pending.",
+      "review_status": "research_pass_needs_editor",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "connection_pass": "update_20261008"
+    },
+    {
+      "id": "claim_e31_module_von-bertalanffy_2",
+      "statement": "In Challoner’s reconstruction: Different initial conditions can lead to the same final state under specified open-system conditions.",
+      "subject_id": "publication_u31_von-bertalanffy",
+      "predicate": "introduces_distinction",
+      "object_id": "concept_equifinality",
+      "status": "candidate",
+      "supporting_source_ids": [
+        "src_u31_von-bertalanffy"
+      ],
+      "supporting_evidence_ids": [
+        "ev_e31_module_von-bertalanffy_2"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_evidence_ids": [],
+      "notes": "Source-scoped interpretation. Human editorial acceptance remains pending.",
+      "review_status": "research_pass_needs_editor",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "connection_pass": "update_20261008"
+    },
+    {
+      "id": "claim_e31_module_von-bertalanffy_3",
+      "statement": "In Challoner’s reconstruction: Cross-domain formal correspondences do not remove substantive differences between domains.",
+      "subject_id": "publication_u31_von-bertalanffy",
+      "predicate": "introduces_distinction",
+      "object_id": "concept_isomorphism",
+      "status": "candidate",
+      "supporting_source_ids": [
+        "src_u31_von-bertalanffy"
+      ],
+      "supporting_evidence_ids": [
+        "ev_e31_module_von-bertalanffy_3"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_evidence_ids": [],
+      "notes": "Source-scoped interpretation. Human editorial acceptance remains pending.",
+      "review_status": "research_pass_needs_editor",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "connection_pass": "update_20261008"
+    },
+    {
+      "id": "claim_e31_module_von-bertalanffy_4",
+      "statement": "In Challoner’s reconstruction: Organisation depends on relations that an additive account of parts can miss.",
+      "subject_id": "publication_u31_von-bertalanffy",
+      "predicate": "presents_account_of",
+      "object_id": "concept_organisation",
+      "status": "candidate",
+      "supporting_source_ids": [
+        "src_u31_von-bertalanffy"
+      ],
+      "supporting_evidence_ids": [
+        "ev_e31_module_von-bertalanffy_4"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_evidence_ids": [],
+      "notes": "Source-scoped interpretation. Human editorial acceptance remains pending.",
+      "review_status": "research_pass_needs_editor",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "connection_pass": "update_20261008"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src_u31_von-bertalanffy",
+      "title": "Bertalanffy: organisation, openness, and equifinality: researcher module",
+      "source_type": "public_source",
+      "quality_tier": "B",
+      "access": "public",
+      "url": "https://rational-understanding.com/wp-content/uploads/2026/10/von-bertalanffy-researcher-module.pdf",
+      "date": "2026",
+      "notes": "John A Challoner’s version 1 reconstruction, 30 September 2026. General and specialised definitions/propositions are labelled separately; original-author wording is not implied.",
+      "creators": [
+        "John A Challoner"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Rational Understanding",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "31ce4b15eacf5aff18e011bd26ce76c9fc877c236270f4efefebe874b00ad3f1",
+      "review_status": "source_scoped_research_pass",
+      "last_checked": "2026-10-08",
+      "public_link_status": "public_link",
+      "connection_pass": "update_20261008",
+      "source_locator": "Complete PDF, 5 pages; specific claims carry page and proposition references",
+      "source_role": "secondary reconstruction",
+      "pages_read": 5
+    }
+  ],
+  "evidence_locators": [
+    {
+      "id": "ev_e31_subject_von-bertalanffy",
+      "source_id": "src_u31_von-bertalanffy",
+      "locator": "PDF p. 1: researcher and source basis",
+      "review_status": "research_pass_needs_editor"
+    },
+    {
+      "id": "ev_e31_module_von-bertalanffy_1",
+      "source_id": "src_u31_von-bertalanffy",
+      "locator": "pp. 3–4, DS1–DS4 and PS1–PS2",
+      "review_status": "research_pass_needs_editor"
+    },
+    {
+      "id": "ev_e31_module_von-bertalanffy_2",
+      "source_id": "src_u31_von-bertalanffy",
+      "locator": "p. 4, DS4 and PS3",
+      "review_status": "research_pass_needs_editor"
+    },
+    {
+      "id": "ev_e31_module_von-bertalanffy_3",
+      "source_id": "src_u31_von-bertalanffy",
+      "locator": "pp. 2–3, DG3 and PG3–PG4",
+      "review_status": "research_pass_needs_editor"
+    },
+    {
+      "id": "ev_e31_module_von-bertalanffy_4",
+      "source_id": "src_u31_von-bertalanffy",
+      "locator": "pp. 2–3, DG1 and PG1–PG2",
+      "review_status": "research_pass_needs_editor"
+    }
+  ],
+  "reuse_note": "Preserve source attribution, scope, and review status. Source documents and evidence excerpts are excluded."
+}

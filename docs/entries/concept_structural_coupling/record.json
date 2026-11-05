@@ -1,0 +1,470 @@
+{
+  "schema_version": "1.0",
+  "canonical_url": "https://transduction.systems/entries/concept_structural_coupling/",
+  "release": "0.35",
+  "citation": "Taylor, B. P. (2026). Structural coupling. The Necessary Tangle, release 0.35. https://transduction.systems/entries/concept_structural_coupling/",
+  "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
+  "entry": {
+    "id": "concept_structural_coupling",
+    "label": "Structural coupling",
+    "entity_type": "concept",
+    "description": "Repeated system-environment interaction can shape the structures through which further interaction occurs. The FEM project uses this idea to identify consequential enterprise-environment relationships; that application is narrower than the biological concept.",
+    "aliases": [],
+    "boundary_ring": "0",
+    "inclusion_reason": "september_connections_2026",
+    "status": "candidate",
+    "source_ids": [
+      "src_fem_structural_coupling",
+      "src_u35_maturana_organisation_living_1975"
+    ],
+    "set_tags": [
+      "cybernetics",
+      "september_connections_2026"
+    ],
+    "espoused_labels": [],
+    "observed_clusters": [],
+    "canonical_definition": "Repeated interactions through which systems and their environments shape the structures governing later interactions. In Maturana's biological account, these structural changes conserve the system's defining organisation.",
+    "valid_from": "",
+    "valid_to": "",
+    "external_ids": "{}",
+    "geographies": [],
+    "licence": "",
+    "review_status": "source_scoped_research_pass",
+    "reviewed_by": "",
+    "reviewed_at": "",
+    "x": -0.246,
+    "y": 0.363,
+    "canonical_id": "concept_structural_coupling",
+    "public_visibility": "public",
+    "publication_level": "profile",
+    "public_stub_text": "",
+    "public_source_count": 2,
+    "no_public_link_count": 0,
+    "connection_pass": "depth_20261029"
+  },
+  "profile": {
+    "node_id": "concept_structural_coupling",
+    "title": "Structural coupling",
+    "summary": "Maturana distinguishes a perturbation that triggers change from an instruction that specifies it: the current structure determines the response. Fractal Enterprise Model practice uses structural coupling to examine consequential enterprise–environment relationships; that application requires its own account of the participating systems and interactions.",
+    "canonical_definition": "Repeated interactions through which systems and their environments shape the structures governing later interactions. In Maturana's biological account, these structural changes conserve the system's defining organisation.",
+    "why_it_matters": "A repeated message can meet a changing recipient. Communication problems may involve the history of the relationship as well as the message.",
+    "key_distinctions": [
+      "Triggering versus specifying a change",
+      "Biological account versus enterprise-modelling use"
+    ],
+    "practice_connections": [
+      "Trace how repeated interactions alter the parties' capacity to respond; treat this as an interpretive question, not a biological diagnosis."
+    ],
+    "common_misreadings": [
+      "Coupling implies agreement.",
+      "An external message determines the recipient's response."
+    ],
+    "open_checks": [
+      "Evidence is needed for any proposed organisational application."
+    ],
+    "source_ids": [
+      "src_fem_structural_coupling",
+      "src_u35_maturana_organisation_living_1975"
+    ],
+    "evidence_ids": [
+      "ev35_concept_structural_coupling_1"
+    ],
+    "connection_pass": "depth_20261029",
+    "profile_status": "evidence_deepened_research_pass",
+    "last_researched": "2026-10-29",
+    "review_status": "research_pass_needs_editor",
+    "editorial_note": "Primary passages checked for this bounded research pass. Exposition and editorial comparisons remain distinct; named editorial acceptance is not implied by publication."
+  },
+  "connections": [
+    {
+      "id": "e24_intervention_skill_fractal_enterprise_model_and_capabilities_helps_identify_concept_structural_coupling",
+      "source": "intervention_skill_fractal_enterprise_model_and_capabilities",
+      "target": "concept_structural_coupling",
+      "relation_type": "helps_identify",
+      "relation_family": "practical",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "",
+      "claim_status": "candidate",
+      "source_ids": [
+        "src_fem_structural_coupling"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Final explanatory paragraph and higher-education example",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "The author’s proposed enterprise-modelling use. No proof that every structural coupling will be found.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "helps identify",
+      "public_review_label": "Located source statement; independent review not recorded"
+    },
+    {
+      "id": "e26_c19b1a861db1cb89a56b5f",
+      "source": "resource_sp26_30f36de6718c38e2",
+      "target": "concept_structural_coupling",
+      "relation_type": "source_text_mentions",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "",
+      "claim_status": "candidate",
+      "source_ids": [
+        "src_sp26_30f36de6718c38e2"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Extracted source text, character 37505; page-level locator pending",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Exact phrase in extracted source text; page-level checking may remain pending as recorded by the locator. Its appearance may be in discussion, a quotation, a reference, or a critical comparison. No semantic or historical claim is inferred.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "contains a located mention of Structural coupling",
+      "public_review_label": "Located source statement; independent review not recorded",
+      "connection_pass": "library_20260919"
+    },
+    {
+      "id": "e26_aa4fe76a73bf39d60739c1",
+      "source": "resource_sp26_a63f52d3fe0bc7c0",
+      "target": "concept_structural_coupling",
+      "relation_type": "source_text_mentions",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "",
+      "claim_status": "candidate",
+      "source_ids": [
+        "src_sp26_a63f52d3fe0bc7c0"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Extracted source text, character 352776; page-level locator pending",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Exact phrase in extracted source text; page-level checking may remain pending as recorded by the locator. Its appearance may be in discussion, a quotation, a reference, or a critical comparison. No semantic or historical claim is inferred.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "contains a located mention of Structural coupling",
+      "public_review_label": "Located source statement; independent review not recorded",
+      "connection_pass": "library_20260919"
+    },
+    {
+      "id": "e26_217b9d0d5d69b82504c805",
+      "source": "resource_sp26_70ea58555bf5f8be",
+      "target": "concept_structural_coupling",
+      "relation_type": "source_text_mentions",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "",
+      "claim_status": "candidate",
+      "source_ids": [
+        "src_sp26_70ea58555bf5f8be"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Extracted source text, character 14532; page-level locator pending",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Exact phrase in extracted source text; page-level checking may remain pending as recorded by the locator. Its appearance may be in discussion, a quotation, a reference, or a critical comparison. No semantic or historical claim is inferred.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "contains a located mention of Structural coupling",
+      "public_review_label": "Located source statement; independent review not recorded",
+      "connection_pass": "library_20260919"
+    },
+    {
+      "id": "e26_2e15df264292f4f5ffab86",
+      "source": "resource_sp26_f06c847f82eb7786",
+      "target": "concept_structural_coupling",
+      "relation_type": "source_text_mentions",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "",
+      "claim_status": "candidate",
+      "source_ids": [
+        "src_sp26_f06c847f82eb7786"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Extracted source text, character 37058; page-level locator pending",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Exact phrase in extracted source text; page-level checking may remain pending as recorded by the locator. Its appearance may be in discussion, a quotation, a reference, or a critical comparison. No semantic or historical claim is inferred.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "contains a located mention of Structural coupling",
+      "public_review_label": "Located source statement; independent review not recorded",
+      "connection_pass": "library_20260919"
+    },
+    {
+      "id": "e35_coupling_transduction_comparison",
+      "source": "concept_structural_coupling",
+      "target": "concept_transduction",
+      "relation_type": "complements",
+      "relation_family": "conceptual",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "",
+      "claim_status": "candidate",
+      "source_ids": [
+        "src_u35_maturana_organisation_living_1975",
+        "src_u35_beer_vsm_1989"
+      ],
+      "evidence_ids": [
+        "ev35_edge_e35_coupling_transduction_comparison_1",
+        "ev35_edge_e35_coupling_transduction_comparison_2"
+      ],
+      "source_locator": "Maturana, 1999 reprint, pp. 162–163; Beer, 2002 electronic edition of the 1989 text, PDF pp. 6–8 and Appendix 2, p. 16, third principle",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Maturana's account asks how interactions alter the structures determining future responses; Beer's account asks how a boundary transducer handles the distinctions carried by a channel. Comparing them raises a practical question about changes in the recipient as well as the message, without equating the concepts.",
+      "assertion_mode": "inferred",
+      "inference_method": "curatorial comparison of the cited public sources",
+      "claim_id": "claim35_e35_coupling_transduction_comparison",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "adds a question about the changing recipient to",
+      "public_review_label": "Editorial comparison; no historical influence asserted",
+      "connection_pass": "depth_20261029"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim35_e35_coupling_transduction_comparison",
+      "statement": "Maturana's account asks how interactions alter the structures determining future responses; Beer's account asks how a boundary transducer handles the distinctions carried by a channel. Comparing them raises a practical question about changes in the recipient as well as the message, without equating the concepts.",
+      "subject_id": "concept_structural_coupling",
+      "predicate": "complements",
+      "object_id": "concept_transduction",
+      "status": "candidate",
+      "supporting_source_ids": [
+        "src_u35_maturana_organisation_living_1975",
+        "src_u35_beer_vsm_1989"
+      ],
+      "supporting_evidence_ids": [
+        "ev35_edge_e35_coupling_transduction_comparison_1",
+        "ev35_edge_e35_coupling_transduction_comparison_2"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_evidence_ids": [],
+      "notes": "Editorial comparison; no historical influence asserted",
+      "review_status": "research_pass_needs_editor",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "connection_pass": "depth_20261029"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src_fem_structural_coupling",
+      "title": "Structural coupling through FEM",
+      "source_type": "primary_public_webpage",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://fractalmodel.blogs.dsv.su.se/structural-coupling-2/",
+      "date": "2026-09-09",
+      "notes": "Inspected project account of identifying enterprise-environment couplings. It attributes the term to Maturana and Varela and cites Hoverstadt’s strategy application; those historical claims remain attributed.",
+      "creators": [
+        "Fractal Enterprise Model project"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Stockholm University project site",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "source_scope_checked",
+      "last_checked": "2026-09-09",
+      "public_link_status": "public_link",
+      "connection_pass": "september_connections_2026"
+    },
+    {
+      "id": "src_u35_maturana_organisation_living_1975",
+      "title": "The Organization of the Living: A Theory of the Living Organization",
+      "source_type": "primary_text",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://biologyofcognition.wordpress.com/wp-content/uploads/2008/06/maturana1975organizationlivingtheorylivingorganization.pdf",
+      "date": "1975",
+      "notes": "Full primary text read from the Biology of Cognition Lab's publication list. All passage locators here use the printed pagination of the 1999 reprint, not the original 1975 article. The source presents Maturana's theoretical account. It does not establish that an organisation, service, or institution is literally an autopoietic biological system. Link and paraphrase only.",
+      "creators": [
+        "Humberto R. Maturana"
+      ],
+      "doi": "10.1016/S0020-7373(75)80015-0",
+      "isbn": "",
+      "publisher": "Original: International Journal of Man-Machine Studies 7(3), pp. 313–332; inspected reprint: International Journal of Human-Computer Studies 51 (1999), pp. 149–168",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "passage_checked_research_pass",
+      "last_checked": "2026-10-29",
+      "public_link_status": "public_link",
+      "connection_pass": "depth_20261029",
+      "source_locator": "Inspected 1999 reprint: 'Preliminary concepts', pp. 151–152; 'Implicit requirements' and 'Plasticity and structural coupling', pp. 155–156; 'Descriptive fallacy', pp. 157–158; 'Structural coupling', pp. 162–163",
+      "access_note": "The source presents Maturana's theoretical account. It does not establish that an organisation, service, or institution is literally an autopoietic biological system. Link and paraphrase only."
+    },
+    {
+      "id": "src_sp26_30f36de6718c38e2",
+      "title": "Epistemological and empirical challenges of Niklas Luhmann’s systems theory: an interview with professors Álvaro Pires and Lukas Sosoe",
+      "source_type": "public_catalogue_record",
+      "quality_tier": "C",
+      "access": "public",
+      "url": "https://doi.org/10.1590/2317-6172202109",
+      "date": "2026-09-19",
+      "notes": "Opening title and DOI; Crossref publisher metadata. Bibliographic identity matched; source text indexed. Identity and located teaching relationships are separated from automatic title matches and exact text mentions. A term appearing in a source is not proof of its definition, endorsement, influence, or logical dependence.",
+      "creators": [
+        "Álvaro Pires",
+        "Lukas Sosoe",
+        "Lucas Fucci Amato",
+        "Marco Antonio Loschiavo Leme de Barros",
+        "Gabriel Ferreira da Fonseca"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "FapUNIFESP (SciELO)",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "located_public_record",
+      "last_checked": "2026-09-19",
+      "public_link_status": "public_link",
+      "connection_pass": "library_20260919",
+      "year": "2021"
+    },
+    {
+      "id": "src_sp26_a63f52d3fe0bc7c0",
+      "title": "Systems Approaches to Managing Change: A Practical Guide",
+      "source_type": "public_catalogue_record",
+      "quality_tier": "C",
+      "access": "public",
+      "url": "https://doi.org/10.1007/978-1-84882-809-4",
+      "date": "2026-09-19",
+      "notes": "Opening title and DOI; Crossref publisher metadata. Bibliographic identity matched; source text indexed. Identity and located teaching relationships are separated from automatic title matches and exact text mentions. A term appearing in a source is not proof of its definition, endorsement, influence, or logical dependence.",
+      "creators": [],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Springer London",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "located_public_record",
+      "last_checked": "2026-09-19",
+      "public_link_status": "public_link",
+      "connection_pass": "library_20260919",
+      "year": "2010"
+    },
+    {
+      "id": "src_sp26_70ea58555bf5f8be",
+      "title": "Gaia Theory: Between Autopoiesis and Sympoiesis",
+      "source_type": "public_catalogue_record",
+      "quality_tier": "C",
+      "access": "public",
+      "url": "https://doi.org/10.15388/Problemos.98.13",
+      "date": "2026-09-19",
+      "notes": "Opening title and DOI; Crossref publisher metadata. Bibliographic identity matched; source text indexed. Identity and located teaching relationships are separated from automatic title matches and exact text mentions. A term appearing in a source is not proof of its definition, endorsement, influence, or logical dependence.",
+      "creators": [
+        "Audronė Žukauskaitė"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Vilnius University Press",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "located_public_record",
+      "last_checked": "2026-09-19",
+      "public_link_status": "public_link",
+      "connection_pass": "library_20260919",
+      "year": "2020"
+    },
+    {
+      "id": "src_sp26_f06c847f82eb7786",
+      "title": "Cybernetics and Landscape",
+      "source_type": "public_catalogue_record",
+      "quality_tier": "C",
+      "access": "public",
+      "url": "https://doi.org/10.4324/9781003320852-13",
+      "date": "2026-09-19",
+      "notes": "Opening title and DOI; Crossref publisher metadata. Bibliographic identity matched; source text indexed. Identity and located teaching relationships are separated from automatic title matches and exact text mentions. A term appearing in a source is not proof of its definition, endorsement, influence, or logical dependence.",
+      "creators": [
+        "Zhang Zihao"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Routledge",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "located_public_record",
+      "last_checked": "2026-09-19",
+      "public_link_status": "public_link",
+      "connection_pass": "library_20260919",
+      "year": "2024"
+    },
+    {
+      "id": "src_u35_beer_vsm_1989",
+      "title": "The Viable System Model: its provenance, development, methodology and pathology",
+      "source_type": "primary_text",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://kybernetik.ch/dwn/Viable_System_Model.pdf",
+      "date": "1989",
+      "notes": "Primary text opened and inspected. The cover says 1989; Appendix 2 explicitly gives page references to The Heart of Enterprise (1979). Do not silently identify this edition with the 1984 JORS paper. It is Beer's own methodological and historical account, not independent effectiveness evidence. Copyright 2002 Cwarel Isaf Institute.",
+      "creators": [
+        "Stafford Beer"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Cwarel Isaf Institute, electronic edition 2002; cover dates the text 1989",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "passage_checked_research_pass",
+      "last_checked": "2026-10-29",
+      "public_link_status": "public_link",
+      "connection_pass": "depth_20261029",
+      "source_locator": "Provenance, PDF pp. 3–4; On mapping and measuring complexity, pp. 6–8; The Viable System Model, pp. 10–11; Appendix 2, p. 16",
+      "access_note": "Do not silently identify this edition with the 1984 JORS paper. It is Beer's own methodological and historical account, not independent effectiveness evidence. Copyright 2002 Cwarel Isaf Institute."
+    }
+  ],
+  "evidence_locators": [
+    {
+      "id": "ev35_concept_structural_coupling_1",
+      "source_id": "src_u35_maturana_organisation_living_1975",
+      "locator": "1999 reprint, 'Plasticity and structural coupling', pp. 155–156; 'Descriptive fallacy', pp. 157–158; 'Structural coupling', pp. 162–163",
+      "review_status": "research_pass_needs_editor"
+    },
+    {
+      "id": "ev35_edge_e35_coupling_transduction_comparison_1",
+      "source_id": "src_u35_maturana_organisation_living_1975",
+      "locator": "Maturana, 1999 reprint, pp. 162–163; Beer, 2002 electronic edition of the 1989 text, PDF pp. 6–8 and Appendix 2, p. 16, third principle",
+      "review_status": "research_pass_needs_editor"
+    },
+    {
+      "id": "ev35_edge_e35_coupling_transduction_comparison_2",
+      "source_id": "src_u35_beer_vsm_1989",
+      "locator": "Maturana, 1999 reprint, pp. 162–163; Beer, 2002 electronic edition of the 1989 text, PDF pp. 6–8 and Appendix 2, p. 16, third principle",
+      "review_status": "research_pass_needs_editor"
+    }
+  ],
+  "reuse_note": "Preserve source attribution, scope, and review status. Source documents and evidence excerpts are excluded."
+}

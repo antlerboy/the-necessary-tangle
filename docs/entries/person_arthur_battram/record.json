@@ -1,0 +1,152 @@
+{
+  "schema_version": "1.0",
+  "canonical_url": "https://transduction.systems/entries/person_arthur_battram/",
+  "release": "0.35",
+  "citation": "Taylor, B. P. (2026). Arthur Battram. The Necessary Tangle, release 0.35. https://transduction.systems/entries/person_arthur_battram/",
+  "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
+  "entry": {
+    "id": "person_arthur_battram",
+    "label": "Arthur Battram",
+    "entity_type": "person",
+    "description": "A complexity practitioner and author whose work translated complexity ideas into organisational and local-government practice, including Navigating Complexity and the Learning from Complexity materials.",
+    "aliases": [],
+    "boundary_ring": "0",
+    "inclusion_reason": "practitioner_expertise_coverage_release_0_12",
+    "status": "accepted",
+    "source_ids": [
+      "src_scio_navigating_complexity_2014"
+    ],
+    "set_tags": [
+      "systems",
+      "practice",
+      "human_lineage",
+      "release_0_12"
+    ],
+    "espoused_labels": [],
+    "observed_clusters": [],
+    "canonical_definition": "A complexity practitioner and author whose work translated complexity ideas into organisational and local-government practice, including Navigating Complexity and the Learning from Complexity materials.",
+    "valid_from": "",
+    "valid_to": "",
+    "external_ids": "{}",
+    "geographies": [],
+    "licence": "",
+    "review_status": "curator_checked_public_sources",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-10",
+    "x": 0.48,
+    "y": 0.18,
+    "canonical_id": "person_arthur_battram",
+    "public_visibility": "public",
+    "publication_level": "profile",
+    "public_stub_text": "",
+    "public_source_count": 1,
+    "no_public_link_count": 0
+  },
+  "profile": {
+    "node_id": "person_arthur_battram",
+    "title": "Arthur Battram",
+    "profile_status": "curator_checked_public_sources",
+    "canonical_definition": "A complexity practitioner and author whose work translated complexity ideas into organisational and local-government practice, including Navigating Complexity and the Learning from Complexity materials.",
+    "summary": "Arthur Battram translated complexity ideas into organisational and local-government practice while resisting both command-and-control simplification and fashionable complexity incantation.",
+    "why_it_matters": "Battram provides a practical bridge from complexity theory to management action, emphasising navigation, experimentation and judgement rather than the fantasy of complete control.",
+    "key_distinctions": [
+      "complexity as practice resource vs management fashion",
+      "people-centred management vs machine assumptions"
+    ],
+    "historical_lineage": [
+      "complexity theory",
+      "organisational learning",
+      "local-government management"
+    ],
+    "logical_antecedents": [
+      "complexity",
+      "self-organisation",
+      "learning"
+    ],
+    "dependent_subsequents": [
+      "Navigating Complexity",
+      "Learning from Complexity materials"
+    ],
+    "practice_connections": [
+      "local government",
+      "organisational change",
+      "management development"
+    ],
+    "espoused_lineages": [],
+    "observed_clusters": [],
+    "common_misreadings": [
+      "complexity licenses managerial passivity",
+      "natural management is a complete method"
+    ],
+    "open_checks": [
+      "itemise the Learning from Complexity pack",
+      "add public bibliographic and archival sources",
+      "trace influence in UK public services"
+    ],
+    "source_ids": [
+      "src_scio_navigating_complexity_2014"
+    ],
+    "evidence_ids": [],
+    "last_researched": "2026-08-10",
+    "review_status": "curator_checked_public_sources",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-10",
+    "editorial_note": "Developed from cited public sources. The entry remains open to correction, rival accounts and stronger evidence."
+  },
+  "connections": [
+    {
+      "id": "e_12_battram_book",
+      "source": "publication_navigating_complexity_battram",
+      "target": "person_arthur_battram",
+      "relation_type": "authored_by",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.88",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_scio_navigating_complexity_2014"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Release 0.12 public practitioner and publication sources",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "The wording is limited to the named public sources. Bibliographic inclusion and organisational association do not establish wider intellectual influence.",
+      "assertion_mode": "asserted",
+      "inference_method": "curatorial synthesis of public primary, scholarly and professional-body sources",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-10",
+      "notes": "The SCiO resource identifies Arthur Battram and his book.",
+      "plain_phrase": "was authored by",
+      "public_review_label": "supported working statement"
+    }
+  ],
+  "claims": [],
+  "sources": [
+    {
+      "id": "src_scio_navigating_complexity_2014",
+      "title": "Navigating Complexity",
+      "source_type": "official_professional_body_talk_page",
+      "quality_tier": "B",
+      "access": "public",
+      "url": "https://www.systemspractice.org/resources/navigating-complexity",
+      "date": "2014-04",
+      "notes": "SCiO resource page for Arthur Battram's Navigating Complexity and his practice-oriented account of managing as if people mattered.",
+      "creators": [
+        "Arthur Battram"
+      ],
+      "doi": "",
+      "isbn": "185835899X",
+      "publisher": "The Industrial Society / SCiO resource page",
+      "licence": "source_terms",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-10",
+      "public_link_status": "public_link"
+    }
+  ],
+  "evidence_locators": [],
+  "reuse_note": "Preserve source attribution, scope, and review status. Source documents and evidence excerpts are excluded."
+}

@@ -1,0 +1,214 @@
+{
+  "schema_version": "1.0",
+  "canonical_url": "https://transduction.systems/entries/method_or_methodology_viplan/",
+  "release": "0.35",
+  "citation": "Taylor, B. P. (2026). Viplan. The Necessary Tangle, release 0.35. https://transduction.systems/entries/method_or_methodology_viplan/",
+  "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
+  "entry": {
+    "id": "method_or_methodology_viplan",
+    "label": "Viplan",
+    "entity_type": "method_or_methodology",
+    "description": "Viplan is Raul Espejo's method and methodology for using organisational cybernetics and the Viable System Model in diagnosis, design and implementation work.",
+    "aliases": [
+      "Viplan method",
+      "Viplan methodology"
+    ],
+    "boundary_ring": "0",
+    "inclusion_reason": "expertise_and_public_sources_release_0_13",
+    "status": "accepted",
+    "source_ids": [
+      "src_springer_organizational_systems_2011"
+    ],
+    "set_tags": [
+      "systems",
+      "human_lineage",
+      "expertise",
+      "release_0_13",
+      "practice"
+    ],
+    "espoused_labels": [],
+    "observed_clusters": [],
+    "canonical_definition": "Viplan is Raul Espejo's method and methodology for using organisational cybernetics and the Viable System Model in diagnosis, design and implementation work.",
+    "valid_from": "",
+    "valid_to": "",
+    "external_ids": "{}",
+    "geographies": [],
+    "licence": "",
+    "review_status": "curator_checked_public_sources",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-11",
+    "x": -0.19,
+    "y": 0.08,
+    "canonical_id": "method_or_methodology_viplan",
+    "public_visibility": "public",
+    "publication_level": "profile",
+    "public_stub_text": "",
+    "public_source_count": 1,
+    "no_public_link_count": 0
+  },
+  "profile": {
+    "node_id": "method_or_methodology_viplan",
+    "title": "Viplan",
+    "profile_status": "curator_checked_public_sources",
+    "canonical_definition": "Viplan is Raul Espejo's method and methodology for using organisational cybernetics and the Viable System Model in diagnosis, design and implementation work.",
+    "summary": "Viplan combines organisational cybernetics, identity work and the VSM in a method and methodology for diagnosis, design and implementation.",
+    "why_it_matters": "It makes the move from a cybernetic model to organised inquiry and intervention explicit, reducing the common error of treating the VSM diagram itself as a complete method.",
+    "key_distinctions": [
+      "VSM model vs Viplan method",
+      "method vs methodology",
+      "identity clarification vs structural redesign"
+    ],
+    "historical_lineage": [
+      "Stafford Beer",
+      "Raul Espejo",
+      "organisational cybernetics"
+    ],
+    "logical_antecedents": [
+      "VSM",
+      "identity",
+      "requisite variety",
+      "recursion"
+    ],
+    "dependent_subsequents": [
+      "organisational diagnosis",
+      "organisation design",
+      "implementation methodology"
+    ],
+    "practice_connections": [
+      "governance design",
+      "organisational transformation",
+      "capability diagnosis"
+    ],
+    "espoused_lineages": [],
+    "observed_clusters": [],
+    "common_misreadings": [
+      "Viplan is a drawing template",
+      "all organisations have one obvious system in focus"
+    ],
+    "open_checks": [
+      "add primary method sources",
+      "document variants and cases",
+      "compare with other VSM methodologies"
+    ],
+    "source_ids": [
+      "src_springer_organizational_systems_2011"
+    ],
+    "evidence_ids": [],
+    "last_researched": "2026-08-11",
+    "review_status": "curator_checked_public_sources",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-11",
+    "editorial_note": "Developed from public primary, institutional and publisher sources. Open to correction, rival interpretation and stronger evidence."
+  },
+  "connections": [
+    {
+      "id": "e_13_espejo_viplan",
+      "source": "person_raul_espejo",
+      "target": "method_or_methodology_viplan",
+      "relation_type": "developed",
+      "relation_family": "historical",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.88",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_springer_organizational_systems_2011"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Release 0.13 public primary, institutional and publisher sources",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "The wording is limited to the named public sources. Authorship, methodological development, conceptual dependence and practical use remain distinct claims.",
+      "assertion_mode": "asserted",
+      "inference_method": "curatorial synthesis of public primary, institutional and publisher sources",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-11",
+      "notes": "Springer describes Viplan as Espejo's method and methodology.",
+      "plain_phrase": "developed",
+      "public_review_label": "supported working statement"
+    },
+    {
+      "id": "e_13_orgsys_viplan",
+      "source": "publication_organizational_systems_vsm",
+      "target": "method_or_methodology_viplan",
+      "relation_type": "presents",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.88",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_springer_organizational_systems_2011"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Release 0.13 public primary, institutional and publisher sources",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "The wording is limited to the named public sources. Authorship, methodological development, conceptual dependence and practical use remain distinct claims.",
+      "assertion_mode": "asserted",
+      "inference_method": "curatorial synthesis of public primary, institutional and publisher sources",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-11",
+      "notes": "Springer's contents describe the Viplan method and methodology.",
+      "plain_phrase": "presents",
+      "public_review_label": "supported working statement"
+    },
+    {
+      "id": "e_13_viplan_vsm",
+      "source": "method_or_methodology_viplan",
+      "target": "method_or_methodology_viable_system_model_vsm",
+      "relation_type": "operationalises",
+      "relation_family": "practice",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.88",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_springer_organizational_systems_2011"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Release 0.13 public primary, institutional and publisher sources",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "The wording is limited to the named public sources. Authorship, methodological development, conceptual dependence and practical use remain distinct claims.",
+      "assertion_mode": "asserted",
+      "inference_method": "curatorial synthesis of public primary, institutional and publisher sources",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-11",
+      "notes": "Viplan organises diagnosis, design and implementation using organisational cybernetics and VSM.",
+      "plain_phrase": "puts into practical form",
+      "public_review_label": "supported working statement"
+    }
+  ],
+  "claims": [],
+  "sources": [
+    {
+      "id": "src_springer_organizational_systems_2011",
+      "title": "Organizational Systems: Managing Complexity with the Viable System Model",
+      "source_type": "official_publisher_book_page",
+      "quality_tier": "A",
+      "access": "public_metadata",
+      "url": "https://link.springer.com/book/10.1007/978-3-642-19109-1",
+      "date": "2011",
+      "notes": "Springer's page records Raul Espejo and Alfonso Reyes as authors and describes the book's treatment of organisational cybernetics, the Viable System Model, Viplan, diagnosis, design and implementation.",
+      "creators": [
+        "Raul Espejo",
+        "Alfonso Reyes"
+      ],
+      "doi": "10.1007/978-3-642-19109-1",
+      "isbn": "978-3-642-19109-1",
+      "publisher": "Springer Berlin Heidelberg",
+      "licence": "publisher_terms",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-11",
+      "public_link_status": "public_link"
+    }
+  ],
+  "evidence_locators": [],
+  "reuse_note": "Preserve source attribution, scope, and review status. Source documents and evidence excerpts are excluded."
+}

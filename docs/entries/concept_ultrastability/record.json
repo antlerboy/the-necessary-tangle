@@ -1,0 +1,320 @@
+{
+  "schema_version": "1.0",
+  "canonical_url": "https://transduction.systems/entries/concept_ultrastability/",
+  "release": "0.35",
+  "citation": "Taylor, B. P. (2026). Ultrastability. The Necessary Tangle, release 0.35. https://transduction.systems/entries/concept_ultrastability/",
+  "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
+  "entry": {
+    "id": "concept_ultrastability",
+    "label": "Ultrastability",
+    "entity_type": "concept",
+    "description": "Ashby models a system that changes its parameters when its existing dynamics cross critical conditions.",
+    "aliases": [],
+    "boundary_ring": "0",
+    "inclusion_reason": "early_cybernetics_bibliographic_intake_0_22",
+    "status": "candidate",
+    "source_ids": [
+      "src_ashby_design_brain_1952"
+    ],
+    "set_tags": [
+      "cybernetics",
+      "history",
+      "release_0_22"
+    ],
+    "espoused_labels": [],
+    "observed_clusters": [],
+    "canonical_definition": "Ashby models a system that changes its parameters when its existing dynamics cross critical conditions.",
+    "valid_from": "",
+    "valid_to": "",
+    "external_ids": "{}",
+    "geographies": [],
+    "licence": "",
+    "review_status": "research_pass_needs_editor",
+    "reviewed_by": "",
+    "reviewed_at": "",
+    "x": 0.1,
+    "y": 0.1,
+    "canonical_id": "concept_ultrastability",
+    "public_visibility": "public",
+    "publication_level": "profile",
+    "public_stub_text": "",
+    "public_source_count": 1,
+    "no_public_link_count": 0
+  },
+  "profile": {
+    "node_id": "concept_ultrastability",
+    "summary": "Ashby models a system that changes its parameters when its existing dynamics cross critical conditions.",
+    "canonical_definition": "Ashby models a system that changes its parameters when its existing dynamics cross critical conditions.",
+    "why_it_matters": "Ask when changing the response rule becomes necessary, and what constrains that change.",
+    "key_distinctions": [],
+    "historical_lineage": [],
+    "logical_antecedents": [],
+    "dependent_subsequents": [],
+    "practice_connections": [],
+    "common_misreadings": [],
+    "open_checks": [
+      "Extend the evidence pass beyond the cited passages."
+    ],
+    "source_ids": [
+      "src_ashby_design_brain_1952"
+    ],
+    "context_and_lineage": "Design for a Brain, 3/14 and 8/4–8/7",
+    "editorial_note": "Source passages inspected for this account. Practice questions are editorial applications. Curator review pending.",
+    "last_researched": "2026-09-05",
+    "title": "Ultrastability",
+    "profile_status": "evidence_deepened_research_pass",
+    "review_status": "research_pass_needs_editor"
+  },
+  "connections": [
+    {
+      "id": "e22_publication_early_ashby_brain_presents_account_of_concept_ultrastability",
+      "source": "publication_early_ashby_brain",
+      "target": "concept_ultrastability",
+      "relation_type": "presents_account_of",
+      "relation_family": "conceptual",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "",
+      "claim_status": "candidate",
+      "source_ids": [
+        "src_ashby_design_brain_1952"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Chapter 8, sections 8/4–8/7",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Limited to the identified passage. A practice analogy needs its own assumptions and evidence.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "presents an account of",
+      "public_review_label": "Source located; curator review pending"
+    },
+    {
+      "id": "e22_concept_ultrastability_formalises_concept_essential_variables",
+      "source": "concept_ultrastability",
+      "target": "concept_essential_variables",
+      "relation_type": "formalises",
+      "relation_family": "conceptual",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "",
+      "claim_status": "candidate",
+      "source_ids": [
+        "src_ashby_design_brain_1952"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Sections 3/14 and 8/4–8/7",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Read in the context of Ashby’s particular model.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "uses critical limits on",
+      "public_review_label": "Source located; curator review pending"
+    },
+    {
+      "id": "e22_concept_ultrastability_presents_account_of_concept_adaptation",
+      "source": "concept_ultrastability",
+      "target": "concept_adaptation",
+      "relation_type": "presents_account_of",
+      "relation_family": "conceptual",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "",
+      "claim_status": "candidate",
+      "source_ids": [
+        "src_ashby_design_brain_1952"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Preface and chapter 8",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "A proposed mechanism, not an assertion that all adaptation is ultrastable.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "models a mechanism for",
+      "public_review_label": "Source located; curator review pending"
+    },
+    {
+      "id": "e31_module_ashby_3",
+      "source": "publication_u31_ashby",
+      "target": "concept_ultrastability",
+      "relation_type": "presents_account_of",
+      "relation_family": "conceptual",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "",
+      "claim_status": "candidate",
+      "source_ids": [
+        "src_u31_ashby"
+      ],
+      "evidence_ids": [
+        "ev_e31_module_ashby_3"
+      ],
+      "source_locator": "p. 4, DS3; p. 5, PS4",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "In Challoner’s reconstruction: Ultrastability changes parameters when essential variables leave their limits.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "claim_e31_module_ashby_3",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "presents account of",
+      "public_review_label": "Located source statement; curator review pending",
+      "connection_pass": "update_20261008"
+    },
+    {
+      "id": "e31_concept_2",
+      "source": "concept_ultrastability",
+      "target": "concept_regulation",
+      "relation_type": "specialises",
+      "relation_family": "conceptual",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "",
+      "claim_status": "candidate",
+      "source_ids": [
+        "src_u31_ashby"
+      ],
+      "evidence_ids": [
+        "ev_e31_concept_2"
+      ],
+      "source_locator": "p. 4, DS3; p. 5, PS4",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Source-scoped reading of Challoner’s module: Ultrastability adds parameter change when essential variables leave acceptable limits.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "claim_e31_concept_2",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "specialises",
+      "public_review_label": "Located source statement; curator review pending",
+      "connection_pass": "update_20261008"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_e31_module_ashby_3",
+      "statement": "In Challoner’s reconstruction: Ultrastability changes parameters when essential variables leave their limits.",
+      "subject_id": "publication_u31_ashby",
+      "predicate": "presents_account_of",
+      "object_id": "concept_ultrastability",
+      "status": "candidate",
+      "supporting_source_ids": [
+        "src_u31_ashby"
+      ],
+      "supporting_evidence_ids": [
+        "ev_e31_module_ashby_3"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_evidence_ids": [],
+      "notes": "Source-scoped interpretation. Human editorial acceptance remains pending.",
+      "review_status": "research_pass_needs_editor",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "connection_pass": "update_20261008"
+    },
+    {
+      "id": "claim_e31_concept_2",
+      "statement": "Source-scoped reading of Challoner’s module: Ultrastability adds parameter change when essential variables leave acceptable limits.",
+      "subject_id": "concept_ultrastability",
+      "predicate": "specialises",
+      "object_id": "concept_regulation",
+      "status": "candidate",
+      "supporting_source_ids": [
+        "src_u31_ashby"
+      ],
+      "supporting_evidence_ids": [
+        "ev_e31_concept_2"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_evidence_ids": [],
+      "notes": "Source-scoped interpretation. Human editorial acceptance remains pending.",
+      "review_status": "research_pass_needs_editor",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "connection_pass": "update_20261008"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src_ashby_design_brain_1952",
+      "title": "Design for a Brain — 1954 corrected reprint of the 1952 edition",
+      "source_type": "primary_book",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://ia801406.us.archive.org/18/items/designforbrain00ashb/designforbrain00ashb.pdf",
+      "date": "1952; reprint 1954",
+      "notes": "Inspected title/edition pages, preface, section 3/14, and sections 8/4–8/7. Chapter numbering refers to this early edition. This is not a claim to have reviewed the whole book.",
+      "creators": [
+        "W. Ross Ashby"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "John Wiley & Sons",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "passage_checked",
+      "last_checked": "2026-09-05",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_u31_ashby",
+      "title": "Ashby: selection, regulation, and variety: researcher module",
+      "source_type": "public_source",
+      "quality_tier": "B",
+      "access": "public",
+      "url": "https://rational-understanding.com/wp-content/uploads/2026/10/ashby-researcher-module.pdf",
+      "date": "2026",
+      "notes": "John A Challoner’s version 1 reconstruction, 30 September 2026. General and specialised definitions/propositions are labelled separately; original-author wording is not implied.",
+      "creators": [
+        "John A Challoner"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Rational Understanding",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "82f4be02d8ef575245c734d826a9a65993f6eba96d42c4ec67204b6f6931776e",
+      "review_status": "source_scoped_research_pass",
+      "last_checked": "2026-10-08",
+      "public_link_status": "public_link",
+      "connection_pass": "update_20261008",
+      "source_locator": "Complete PDF, 6 pages; specific claims carry page and proposition references",
+      "source_role": "secondary reconstruction",
+      "pages_read": 6
+    }
+  ],
+  "evidence_locators": [
+    {
+      "id": "ev_e31_module_ashby_3",
+      "source_id": "src_u31_ashby",
+      "locator": "p. 4, DS3; p. 5, PS4",
+      "review_status": "research_pass_needs_editor"
+    },
+    {
+      "id": "ev_e31_concept_2",
+      "source_id": "src_u31_ashby",
+      "locator": "p. 4, DS3; p. 5, PS4",
+      "review_status": "research_pass_needs_editor"
+    }
+  ],
+  "reuse_note": "Preserve source attribution, scope, and review status. Source documents and evidence excerpts are excluded."
+}

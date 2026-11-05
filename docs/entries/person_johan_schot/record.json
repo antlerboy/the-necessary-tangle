@@ -1,0 +1,305 @@
+{
+  "schema_version": "1.0",
+  "canonical_url": "https://transduction.systems/entries/person_johan_schot/",
+  "release": "0.35",
+  "citation": "Taylor, B. P. (2026). Johan Schot. The Necessary Tangle, release 0.35. https://transduction.systems/entries/person_johan_schot/",
+  "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
+  "entry": {
+    "id": "person_johan_schot",
+    "label": "Johan Schot",
+    "entity_type": "person",
+    "description": "Historian working on socio-technical change and sustainability transitions. His official profile identifies him as Professor of Global History and Sustainability Transitions at Utrecht University.",
+    "aliases": [],
+    "boundary_ring": "0",
+    "inclusion_reason": "update_20261007",
+    "status": "candidate",
+    "source_ids": [
+      "src_u30_schot_bio",
+      "src_u30_transition_pathways",
+      "src_u30_dt_chapter",
+      "src_u30_dt_founding"
+    ],
+    "set_tags": [
+      "systems",
+      "release_0_30",
+      "transitions"
+    ],
+    "espoused_labels": [],
+    "observed_clusters": [],
+    "canonical_definition": "Historian working on socio-technical change and sustainability transitions. His official profile identifies him as Professor of Global History and Sustainability Transitions at Utrecht University.",
+    "valid_from": "",
+    "valid_to": "",
+    "external_ids": "{}",
+    "geographies": [],
+    "licence": "",
+    "review_status": "research_pass_needs_editor",
+    "reviewed_by": "",
+    "reviewed_at": "",
+    "x": 0.352541,
+    "y": 0.481778,
+    "canonical_id": "person_johan_schot",
+    "public_visibility": "public",
+    "publication_level": "profile",
+    "public_stub_text": "",
+    "public_source_count": 4,
+    "no_public_link_count": 0,
+    "connection_pass": "update_20261007"
+  },
+  "profile": {
+    "node_id": "person_johan_schot",
+    "summary": "Historian working on socio-technical change and sustainability transitions. His official profile identifies him as Professor of Global History and Sustainability Transitions at Utrecht University.",
+    "canonical_definition": "Historian working on socio-technical change and sustainability transitions. His official profile identifies him as Professor of Global History and Sustainability Transitions at Utrecht University.",
+    "why_it_matters": "Use the cited source to distinguish an analytical account from a proposed intervention.",
+    "key_distinctions": [
+      "source account vs editorial application",
+      "single-system change vs cross-system rules"
+    ],
+    "historical_lineage": [],
+    "logical_antecedents": [],
+    "dependent_subsequents": [],
+    "practice_connections": [
+      "Specify the rule, its enforcement and who can change it."
+    ],
+    "common_misreadings": [
+      "Treating transition levels as VSM systems or organisational ranks."
+    ],
+    "open_checks": [
+      "Independent expert review and further empirical comparison remain open."
+    ],
+    "source_ids": [
+      "src_u30_schot_bio",
+      "src_u30_transition_pathways",
+      "src_u30_dt_chapter",
+      "src_u30_dt_founding"
+    ],
+    "context_and_lineage": "",
+    "editorial_note": "Prepared with AI assistance; source-scoped first pass. Curator: Benjamin P Taylor.",
+    "last_researched": "2026-10-07",
+    "connection_pass": "update_20261007",
+    "title": "Johan Schot",
+    "review_status": "research_pass_needs_editor",
+    "profile_status": "evidence_deepened_research_pass"
+  },
+  "connections": [
+    {
+      "id": "e30_auth_publication_geels_schot_pathways_2007_person_johan_schot",
+      "source": "publication_geels_schot_pathways_2007",
+      "target": "person_johan_schot",
+      "relation_type": "authored_by",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "",
+      "claim_status": "candidate",
+      "source_ids": [
+        "src_u30_transition_pathways"
+      ],
+      "evidence_ids": [
+        "ev_e30_auth_publication_geels_schot_pathways_2007_person_johan_schot"
+      ],
+      "source_locator": "Citation",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Authorship of this named publication only; no general lineage or priority claim.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "claim_e30_auth_publication_geels_schot_pathways_2007_person_johan_schot",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "authored by",
+      "public_review_label": "Located source statement; curator review pending",
+      "connection_pass": "update_20261007"
+    },
+    {
+      "id": "e30_auth_publication_schot_kanger_deep_transitions_2018_person_johan_schot",
+      "source": "publication_schot_kanger_deep_transitions_2018",
+      "target": "person_johan_schot",
+      "relation_type": "authored_by",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "",
+      "claim_status": "candidate",
+      "source_ids": [
+        "src_u30_dt_founding"
+      ],
+      "evidence_ids": [
+        "ev_e30_auth_publication_schot_kanger_deep_transitions_2018_person_johan_schot"
+      ],
+      "source_locator": "PDF page 1: authors",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Authorship of this named publication only; no general lineage or priority claim.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "claim_e30_auth_publication_schot_kanger_deep_transitions_2018_person_johan_schot",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "authored by",
+      "public_review_label": "Located source statement; curator review pending",
+      "connection_pass": "update_20261007"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_e30_auth_publication_geels_schot_pathways_2007_person_johan_schot",
+      "statement": "Authorship of this named publication only; no general lineage or priority claim.",
+      "subject_id": "publication_geels_schot_pathways_2007",
+      "predicate": "authored_by",
+      "object_id": "person_johan_schot",
+      "status": "candidate",
+      "supporting_source_ids": [
+        "src_u30_transition_pathways"
+      ],
+      "supporting_evidence_ids": [
+        "ev_e30_auth_publication_geels_schot_pathways_2007_person_johan_schot"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_evidence_ids": [],
+      "notes": "Scope is limited to the identified source passage.",
+      "review_status": "research_pass_needs_editor",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "connection_pass": "update_20261007"
+    },
+    {
+      "id": "claim_e30_auth_publication_schot_kanger_deep_transitions_2018_person_johan_schot",
+      "statement": "Authorship of this named publication only; no general lineage or priority claim.",
+      "subject_id": "publication_schot_kanger_deep_transitions_2018",
+      "predicate": "authored_by",
+      "object_id": "person_johan_schot",
+      "status": "candidate",
+      "supporting_source_ids": [
+        "src_u30_dt_founding"
+      ],
+      "supporting_evidence_ids": [
+        "ev_e30_auth_publication_schot_kanger_deep_transitions_2018_person_johan_schot"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_evidence_ids": [],
+      "notes": "Scope is limited to the identified source passage.",
+      "review_status": "research_pass_needs_editor",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "connection_pass": "update_20261007"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src_u30_schot_bio",
+      "title": "Johan Schot: official profile",
+      "source_type": "public_source",
+      "quality_tier": "B",
+      "access": "public",
+      "url": "https://www.johanschot.com/",
+      "date": "2026",
+      "notes": "Official professional profile; self-description, not independent evaluation.",
+      "creators": [
+        "Johan Schot"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Johan Schot",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "source_scoped_research_pass",
+      "last_checked": "2026-10-07",
+      "public_link_status": "public_link",
+      "connection_pass": "update_20261007",
+      "source_locator": "Opening professional biography"
+    },
+    {
+      "id": "src_u30_transition_pathways",
+      "title": "Typology of Sociotechnical Transition Pathways",
+      "source_type": "public_source",
+      "quality_tier": "B",
+      "access": "public",
+      "url": "https://www.johanschot.com/publications/typology-of-sociotechnical-transition-pathways/",
+      "date": "2007",
+      "notes": "Author publication page and abstract: four pathways differentiated by timing and nature of interactions.",
+      "creators": [
+        "Frank Geels",
+        "Johan Schot"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Research Policy",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "source_scoped_research_pass",
+      "last_checked": "2026-10-07",
+      "public_link_status": "public_link",
+      "connection_pass": "update_20261007",
+      "source_locator": "Abstract and citation"
+    },
+    {
+      "id": "src_u30_dt_chapter",
+      "title": "Deep Transitions",
+      "source_type": "public_source",
+      "quality_tier": "B",
+      "access": "public",
+      "url": "https://doi.org/10.1017/9781009437318.009",
+      "date": "2026",
+      "notes": "Open chapter: multi-system change, shared rules, criticisms and further research.",
+      "creators": [
+        "Jack Davies",
+        "Johan Schot"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Cambridge University Press",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "source_scoped_research_pass",
+      "last_checked": "2026-10-07",
+      "public_link_status": "public_link",
+      "connection_pass": "update_20261007",
+      "source_locator": "Chapter 7, sections 7.1, 7.2 and 7.3.5"
+    },
+    {
+      "id": "src_u30_dt_founding",
+      "title": "Deep transitions: Emergence, acceleration, stabilization and directionality",
+      "source_type": "public_source",
+      "quality_tier": "B",
+      "access": "public",
+      "url": "https://deeptransitions.net/wp-content/uploads/2022/11/Deep-Transitions_Emergence-acceleration-stabilization-and-directionality.pdf",
+      "date": "2018",
+      "notes": "Founding framework paper. Shared rules are distinguished from rule-sets; the proposed sustainable transition is not a predicted certainty.",
+      "creators": [
+        "Johan Schot",
+        "Laur Kanger"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Research Policy",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "source_scoped_research_pass",
+      "last_checked": "2026-10-07",
+      "public_link_status": "public_link",
+      "connection_pass": "update_20261007",
+      "source_locator": "PDF page 9: rules, meta-rules, regimes and meta-regimes"
+    }
+  ],
+  "evidence_locators": [
+    {
+      "id": "ev_e30_auth_publication_geels_schot_pathways_2007_person_johan_schot",
+      "source_id": "src_u30_transition_pathways",
+      "locator": "Citation",
+      "review_status": "research_pass_needs_editor"
+    },
+    {
+      "id": "ev_e30_auth_publication_schot_kanger_deep_transitions_2018_person_johan_schot",
+      "source_id": "src_u30_dt_founding",
+      "locator": "PDF page 1: authors",
+      "review_status": "research_pass_needs_editor"
+    }
+  ],
+  "reuse_note": "Preserve source attribution, scope, and review status. Source documents and evidence excerpts are excluded."
+}

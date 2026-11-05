@@ -1,0 +1,243 @@
+{
+  "schema_version": "1.0",
+  "canonical_url": "https://transduction.systems/entries/publication_the_noisy_puddle/",
+  "release": "0.35",
+  "citation": "Taylor, B. P. (2026). The Noisy Puddle. The Necessary Tangle, release 0.35. https://transduction.systems/entries/publication_the_noisy_puddle/",
+  "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
+  "entry": {
+    "id": "publication_the_noisy_puddle",
+    "label": "The Noisy Puddle",
+    "entity_type": "publication",
+    "description": "A picture book about the seasonal ecology of a vernal pool, using close observation of changing relations among habitat and species.",
+    "aliases": [],
+    "boundary_ring": "0",
+    "inclusion_reason": "post_0_17_feedback_coverage",
+    "status": "accepted",
+    "source_ids": [
+      "src_linda_noisy_puddle_2026",
+      "src_massbook_noisy_puddle_award_2025"
+    ],
+    "set_tags": [
+      "systems",
+      "lineage",
+      "release_0_17",
+      "systems-literacy",
+      "ecology",
+      "children",
+      "release_0_18"
+    ],
+    "espoused_labels": [],
+    "observed_clusters": [],
+    "canonical_definition": "A picture book about the seasonal ecology of a vernal pool, using close observation of changing relations among habitat and species.",
+    "valid_from": "",
+    "valid_to": "",
+    "external_ids": "{}",
+    "geographies": [],
+    "licence": "",
+    "review_status": "curator_checked_public_sources",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-19",
+    "x": 0.11,
+    "y": 0.49,
+    "canonical_id": "publication_the_noisy_puddle",
+    "public_visibility": "public",
+    "publication_level": "profile",
+    "public_stub_text": "",
+    "public_source_count": 2,
+    "no_public_link_count": 0
+  },
+  "profile": {
+    "node_id": "publication_the_noisy_puddle",
+    "summary": "The Noisy Puddle follows the changing ecology of a vernal pool and makes a web of seasonal interdependence observable to younger readers.",
+    "canonical_definition": "The Noisy Puddle follows the changing ecology of a vernal pool and makes a web of seasonal interdependence observable to younger readers.",
+    "why_it_matters": "It offers an example of systems literacy through attention to relations and change rather than through formal systems terminology.",
+    "key_distinctions": [
+      "The book is a literary and educational work, not evidence for a general theory of ecosystems."
+    ],
+    "historical_lineage": [
+      "nature writing",
+      "children's science education",
+      "systems literacy"
+    ],
+    "logical_antecedents": [
+      "ecology",
+      "interconnectedness",
+      "observation through time"
+    ],
+    "dependent_subsequents": [
+      "classroom and family inquiry into living relations"
+    ],
+    "practice_connections": [
+      "systems education through story"
+    ],
+    "common_misreadings": [
+      "An award establishes recognition, not educational effectiveness."
+    ],
+    "open_checks": [
+      "Add classroom studies or educator accounts beyond promotional material."
+    ],
+    "source_ids": [
+      "src_linda_noisy_puddle_2026",
+      "src_massbook_noisy_puddle_award_2025"
+    ],
+    "context_and_lineage": "",
+    "editorial_note": "",
+    "last_researched": "2026-08-19"
+  },
+  "connections": [
+    {
+      "id": "e18_linda_authored_noisy_puddle",
+      "source": "person_linda_booth_sweeney",
+      "target": "publication_the_noisy_puddle",
+      "relation_type": "authored",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.94",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_linda_noisy_puddle_2026"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Book page and creator credit",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Authorship of the book text; illustration is separately credited to Miki Sato.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-19",
+      "notes": "",
+      "plain_phrase": "authored",
+      "public_review_label": "source-backed statement"
+    },
+    {
+      "id": "e18_linda_teaches_through_noisy",
+      "source": "person_linda_booth_sweeney",
+      "target": "publication_the_noisy_puddle",
+      "relation_type": "teaches_through",
+      "relation_family": "practice",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.94",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_linda_booth_sweeney_profile_2026",
+        "src_linda_noisy_puddle_2026"
+      ],
+      "evidence_ids": [],
+      "source_locator": "For Children & Educators; book description",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "The relation records the author's stated systems-literacy practice, not a measured learning outcome.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-19",
+      "notes": "",
+      "plain_phrase": "teaches systems ideas through",
+      "public_review_label": "source-backed statement"
+    },
+    {
+      "id": "e18_noisy_interconnectedness",
+      "source": "publication_the_noisy_puddle",
+      "target": "concept_interconnectedness",
+      "relation_type": "illustrates",
+      "relation_family": "practice",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.88",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_linda_noisy_puddle_2026"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Book description: web of interrelationships",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Curatorial interpretation of the book's explicit treatment of ecological interrelationships.",
+      "assertion_mode": "interpreted",
+      "inference_method": "curatorial comparison of the cited public sources",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-19",
+      "notes": "",
+      "plain_phrase": "illustrates",
+      "public_review_label": "curatorial interpretation"
+    }
+  ],
+  "claims": [],
+  "sources": [
+    {
+      "id": "src_linda_noisy_puddle_2026",
+      "title": "The Noisy Puddle",
+      "source_type": "official_author_book_page",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://www.lindaboothsweeney.com/the-noisy-puddle",
+      "date": "checked 2026-08-23",
+      "notes": "Author-maintained page describing the book's treatment of the seasonal ecology and interrelationships of a vernal pool.",
+      "creators": [
+        "Linda Booth Sweeney",
+        "Miki Sato"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Toggle Labs",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-19",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_massbook_noisy_puddle_award_2025",
+      "title": "Massachusetts Book Awards — previous winners",
+      "source_type": "official_award_record",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://www.massbook.org/previous-winners",
+      "date": "2025",
+      "notes": "Official Massachusetts Center for the Book record listing The Noisy Puddle as the 2025 Picture Book / Early Reader winner.",
+      "creators": [
+        "Massachusetts Center for the Book"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Massachusetts Center for the Book",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-19",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_linda_booth_sweeney_profile_2026",
+      "title": "Meet Linda Booth Sweeney",
+      "source_type": "official_author_profile",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://www.lindaboothsweeney.com/meet-linda-booth-sweeney",
+      "date": "checked 2026-08-23",
+      "notes": "Author-maintained profile establishing Booth Sweeney's systems education, writing, leadership laboratories and listed publications. It records her own account rather than an independent evaluation.",
+      "creators": [
+        "Linda Booth Sweeney"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Toggle Labs",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-19",
+      "public_link_status": "public_link"
+    }
+  ],
+  "evidence_locators": [],
+  "reuse_note": "Preserve source attribution, scope, and review status. Source documents and evidence excerpts are excluded."
+}

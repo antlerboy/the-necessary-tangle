@@ -1,0 +1,124 @@
+{
+  "schema_version": "1.0",
+  "canonical_url": "https://transduction.systems/entries/concept_information_coding/",
+  "release": "0.35",
+  "citation": "Taylor, B. P. (2026). Information coding. The Necessary Tangle, release 0.35. https://transduction.systems/entries/concept_information_coding/",
+  "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
+  "entry": {
+    "id": "concept_information_coding",
+    "label": "Information coding",
+    "entity_type": "concept",
+    "description": "Fano studies how messages can be recoded to use fewer selections on average in a noiseless system.",
+    "aliases": [],
+    "boundary_ring": "0",
+    "inclusion_reason": "early_cybernetics_bibliographic_intake_0_22",
+    "status": "candidate",
+    "source_ids": [
+      "src_fano_tr65_1949"
+    ],
+    "set_tags": [
+      "cybernetics",
+      "history",
+      "release_0_22"
+    ],
+    "espoused_labels": [],
+    "observed_clusters": [],
+    "canonical_definition": "Fano studies how messages can be recoded to use fewer selections on average in a noiseless system.",
+    "valid_from": "",
+    "valid_to": "",
+    "external_ids": "{}",
+    "geographies": [],
+    "licence": "",
+    "review_status": "research_pass_needs_editor",
+    "reviewed_by": "",
+    "reviewed_at": "",
+    "x": 0.1,
+    "y": 0.1,
+    "canonical_id": "concept_information_coding",
+    "public_visibility": "public",
+    "publication_level": "profile",
+    "public_stub_text": "",
+    "public_source_count": 1,
+    "no_public_link_count": 0
+  },
+  "profile": {
+    "node_id": "concept_information_coding",
+    "summary": "Fano studies how messages can be recoded to use fewer selections on average in a noiseless system.",
+    "canonical_definition": "Fano studies how messages can be recoded to use fewer selections on average in a noiseless system.",
+    "why_it_matters": "Ask which distinctions a code preserves and what the receiver needs to interpret them.",
+    "key_distinctions": [],
+    "historical_lineage": [],
+    "logical_antecedents": [],
+    "dependent_subsequents": [],
+    "practice_connections": [],
+    "common_misreadings": [],
+    "open_checks": [
+      "Extend the evidence pass beyond the cited passages."
+    ],
+    "source_ids": [
+      "src_fano_tr65_1949"
+    ],
+    "context_and_lineage": "TR 65, abstract and sections I–III",
+    "editorial_note": "Source passages inspected for this account. Practice questions are editorial applications. Curator review pending.",
+    "last_researched": "2026-09-05",
+    "title": "Information coding",
+    "profile_status": "evidence_deepened_research_pass",
+    "review_status": "research_pass_needs_editor"
+  },
+  "connections": [
+    {
+      "id": "e22_publication_early_fano_transmission_presents_account_of_concept_information_coding",
+      "source": "publication_early_fano_transmission",
+      "target": "concept_information_coding",
+      "relation_type": "presents_account_of",
+      "relation_family": "conceptual",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "",
+      "claim_status": "candidate",
+      "source_ids": [
+        "src_fano_tr65_1949"
+      ],
+      "evidence_ids": [],
+      "source_locator": "TR 65, abstract; sections I–III",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Limited to the identified passage. A practice analogy needs its own assumptions and evidence.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "presents an account of",
+      "public_review_label": "Source located; curator review pending"
+    }
+  ],
+  "claims": [],
+  "sources": [
+    {
+      "id": "src_fano_tr65_1949",
+      "title": "The Transmission of Information, Technical Report No. 65",
+      "source_type": "primary_research_report",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://hcs64.com/files/fano-tr65-ocr.pdf",
+      "date": "1949-03-17",
+      "notes": "Primary report inspected: title page, abstract, introduction, and sections I–III. 17 March 1949. Public mirror of the MIT report. TR 149 is mentioned by the reading list but was not inspected.",
+      "creators": [
+        "Robert M. Fano"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "MIT Research Laboratory of Electronics",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "passage_checked",
+      "last_checked": "2026-09-05",
+      "public_link_status": "public_link"
+    }
+  ],
+  "evidence_locators": [],
+  "reuse_note": "Preserve source attribution, scope, and review status. Source documents and evidence excerpts are excluded."
+}

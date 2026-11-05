@@ -1,0 +1,268 @@
+{
+  "schema_version": "1.0",
+  "canonical_url": "https://transduction.systems/entries/concept_transduction_simondon/",
+  "release": "0.35",
+  "citation": "Taylor, B. P. (2026). Transduction in Simondon. The Necessary Tangle, release 0.35. https://transduction.systems/entries/concept_transduction_simondon/",
+  "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
+  "entry": {
+    "id": "concept_transduction_simondon",
+    "label": "Transduction in Simondon",
+    "entity_type": "concept",
+    "description": "Simondon's account of individuation through progressive structuring: each formed region helps constitute the next. It differs from converting signals across an organisational boundary.",
+    "aliases": [],
+    "boundary_ring": "0",
+    "inclusion_reason": "depth_20261029",
+    "status": "candidate",
+    "source_ids": [
+      "src_u35_simondon_ontogenesis_2009"
+    ],
+    "set_tags": [
+      "systems",
+      "release_0_35",
+      "individuation",
+      "transduction",
+      "philosophy"
+    ],
+    "espoused_labels": [],
+    "observed_clusters": [],
+    "canonical_definition": "Progressive structuring through which an individual takes form; constituted structure enables further structuring.",
+    "valid_from": "",
+    "valid_to": "",
+    "external_ids": "{}",
+    "geographies": [],
+    "licence": "",
+    "review_status": "research_pass_needs_editor",
+    "reviewed_by": "",
+    "reviewed_at": "",
+    "x": 0.302511,
+    "y": 0.468407,
+    "canonical_id": "concept_transduction_simondon",
+    "public_visibility": "public",
+    "publication_level": "profile",
+    "public_stub_text": "",
+    "public_source_count": 1,
+    "no_public_link_count": 0,
+    "connection_pass": "depth_20261029"
+  },
+  "profile": {
+    "node_id": "concept_transduction_simondon",
+    "title": "Transduction in Simondon",
+    "summary": "Crystallisation is Simondon's simplest example. His question concerns the coming-into-being of individuals and relations, rather than starting with two already constituted domains.",
+    "canonical_definition": "Progressive structuring through which an individual takes form; constituted structure enables further structuring.",
+    "why_it_matters": "Readers can ask whether an intervention changes a connection between established parties or changes what the parties become. This practical question is an editorial comparison.",
+    "key_distinctions": [
+      "Individuation versus signal conversion",
+      "A philosophical account versus a demonstrated organisational mechanism"
+    ],
+    "practice_connections": [
+      "Name which meaning of transduction an argument requires."
+    ],
+    "common_misreadings": [
+      "The shared word establishes a shared theory or historical influence."
+    ],
+    "open_checks": [
+      "Applications require their own evidence; this route does not establish a Beer–Simondon lineage."
+    ],
+    "source_ids": [
+      "src_u35_simondon_ontogenesis_2009"
+    ],
+    "evidence_ids": [
+      "ev35_concept_transduction_simondon_1"
+    ],
+    "connection_pass": "depth_20261029",
+    "profile_status": "evidence_deepened_research_pass",
+    "last_researched": "2026-10-29",
+    "review_status": "research_pass_needs_editor",
+    "editorial_note": "Primary passages checked for this bounded research pass. Exposition and editorial comparisons remain distinct; named editorial acceptance is not implied by publication."
+  },
+  "connections": [
+    {
+      "id": "e35_simondon_transduction_author",
+      "source": "concept_transduction_simondon",
+      "target": "person_gilbert_simondon",
+      "relation_type": "formulated_by",
+      "relation_family": "historical",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "",
+      "claim_status": "candidate",
+      "source_ids": [
+        "src_u35_simondon_ontogenesis_2009"
+      ],
+      "evidence_ids": [
+        "ev35_edge_e35_simondon_transduction_author_1"
+      ],
+      "source_locator": "Printed p. 11; author and translator identified on p. 4",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Simondon formulates transduction as progressive structuring through which individuation occurs. This attributes the inspected account without claiming that he originated the word.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "claim35_e35_simondon_transduction_author",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "is formulated in this account by",
+      "public_review_label": "Primary-source exposition; editorial acceptance open",
+      "connection_pass": "depth_20261029"
+    },
+    {
+      "id": "e35_transduction_distinct_senses",
+      "source": "concept_transduction_simondon",
+      "target": "concept_transduction",
+      "relation_type": "distinguishes_from",
+      "relation_family": "conceptual",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "",
+      "claim_status": "candidate",
+      "source_ids": [
+        "src_u35_simondon_ontogenesis_2009",
+        "src_u35_beer_vsm_1989"
+      ],
+      "evidence_ids": [
+        "ev35_edge_e35_transduction_distinct_senses_1",
+        "ev35_edge_e35_transduction_distinct_senses_2"
+      ],
+      "source_locator": "Simondon, printed pp. 11–12; Beer, 2002 electronic edition of the 1989 text, PDF pp. 6–8 and Appendix 2, p. 16, third principle",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Simondon examines individuation through progressive structuring; Beer examines conversion at organisational boundaries and the variety a transducer must handle. This editorial comparison distinguishes the questions addressed without inferring direct influence or equivalence.",
+      "assertion_mode": "inferred",
+      "inference_method": "curatorial comparison of the cited public sources",
+      "claim_id": "claim35_e35_transduction_distinct_senses",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "concerns individuation rather than the boundary conversion described by",
+      "public_review_label": "Editorial comparison; no historical influence asserted",
+      "connection_pass": "depth_20261029"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim35_e35_simondon_transduction_author",
+      "statement": "Simondon formulates transduction as progressive structuring through which individuation occurs. This attributes the inspected account without claiming that he originated the word.",
+      "subject_id": "concept_transduction_simondon",
+      "predicate": "formulated_by",
+      "object_id": "person_gilbert_simondon",
+      "status": "candidate",
+      "supporting_source_ids": [
+        "src_u35_simondon_ontogenesis_2009"
+      ],
+      "supporting_evidence_ids": [
+        "ev35_edge_e35_simondon_transduction_author_1"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_evidence_ids": [],
+      "notes": "Primary-source exposition; editorial acceptance open",
+      "review_status": "research_pass_needs_editor",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "connection_pass": "depth_20261029"
+    },
+    {
+      "id": "claim35_e35_transduction_distinct_senses",
+      "statement": "Simondon examines individuation through progressive structuring; Beer examines conversion at organisational boundaries and the variety a transducer must handle. This editorial comparison distinguishes the questions addressed without inferring direct influence or equivalence.",
+      "subject_id": "concept_transduction_simondon",
+      "predicate": "distinguishes_from",
+      "object_id": "concept_transduction",
+      "status": "candidate",
+      "supporting_source_ids": [
+        "src_u35_simondon_ontogenesis_2009",
+        "src_u35_beer_vsm_1989"
+      ],
+      "supporting_evidence_ids": [
+        "ev35_edge_e35_transduction_distinct_senses_1",
+        "ev35_edge_e35_transduction_distinct_senses_2"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_evidence_ids": [],
+      "notes": "Editorial comparison; no historical influence asserted",
+      "review_status": "research_pass_needs_editor",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "connection_pass": "depth_20261029"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src_u35_simondon_ontogenesis_2009",
+      "title": "The Position of the Problem of Ontogenesis",
+      "source_type": "primary_text",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://www.parrhesiajournal.org/parrhesia07/parrhesia07_simondon1.pdf",
+      "date": "2009",
+      "notes": "Publisher-hosted translation inspected. Printed p. 11 is PDF page 8. The definition and example are in Simondon's text, not the translator's explanatory notes. 2009 dates this translation, not the origin of Simondon's theory. Intermittent publisher timeouts occurred after successful reading. No priority or influence claim is made. Link and paraphrase only.",
+      "creators": [
+        "Gilbert Simondon"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Parrhesia 7, pp. 4–16",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "passage_checked_research_pass",
+      "last_checked": "2026-10-29",
+      "public_link_status": "public_link",
+      "translator": "Gregory Flanders",
+      "connection_pass": "depth_20261029",
+      "source_locator": "Printed pp. 9–12, especially p. 11, definition of transduction and crystallisation example; p. 12, distinction from deduction and induction",
+      "access_note": "2009 dates this translation, not the origin of Simondon's theory. Intermittent publisher timeouts occurred after successful reading. No priority or influence claim is made. Link and paraphrase only."
+    },
+    {
+      "id": "src_u35_beer_vsm_1989",
+      "title": "The Viable System Model: its provenance, development, methodology and pathology",
+      "source_type": "primary_text",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://kybernetik.ch/dwn/Viable_System_Model.pdf",
+      "date": "1989",
+      "notes": "Primary text opened and inspected. The cover says 1989; Appendix 2 explicitly gives page references to The Heart of Enterprise (1979). Do not silently identify this edition with the 1984 JORS paper. It is Beer's own methodological and historical account, not independent effectiveness evidence. Copyright 2002 Cwarel Isaf Institute.",
+      "creators": [
+        "Stafford Beer"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Cwarel Isaf Institute, electronic edition 2002; cover dates the text 1989",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "passage_checked_research_pass",
+      "last_checked": "2026-10-29",
+      "public_link_status": "public_link",
+      "connection_pass": "depth_20261029",
+      "source_locator": "Provenance, PDF pp. 3–4; On mapping and measuring complexity, pp. 6–8; The Viable System Model, pp. 10–11; Appendix 2, p. 16",
+      "access_note": "Do not silently identify this edition with the 1984 JORS paper. It is Beer's own methodological and historical account, not independent effectiveness evidence. Copyright 2002 Cwarel Isaf Institute."
+    }
+  ],
+  "evidence_locators": [
+    {
+      "id": "ev35_concept_transduction_simondon_1",
+      "source_id": "src_u35_simondon_ontogenesis_2009",
+      "locator": "Printed p. 11 (PDF page 8)",
+      "review_status": "research_pass_needs_editor"
+    },
+    {
+      "id": "ev35_edge_e35_simondon_transduction_author_1",
+      "source_id": "src_u35_simondon_ontogenesis_2009",
+      "locator": "Printed p. 11; author and translator identified on p. 4",
+      "review_status": "research_pass_needs_editor"
+    },
+    {
+      "id": "ev35_edge_e35_transduction_distinct_senses_1",
+      "source_id": "src_u35_simondon_ontogenesis_2009",
+      "locator": "Simondon, printed pp. 11–12; Beer, 2002 electronic edition of the 1989 text, PDF pp. 6–8 and Appendix 2, p. 16, third principle",
+      "review_status": "research_pass_needs_editor"
+    },
+    {
+      "id": "ev35_edge_e35_transduction_distinct_senses_2",
+      "source_id": "src_u35_beer_vsm_1989",
+      "locator": "Simondon, printed pp. 11–12; Beer, 2002 electronic edition of the 1989 text, PDF pp. 6–8 and Appendix 2, p. 16, third principle",
+      "review_status": "research_pass_needs_editor"
+    }
+  ],
+  "reuse_note": "Preserve source attribution, scope, and review status. Source documents and evidence excerpts are excluded."
+}

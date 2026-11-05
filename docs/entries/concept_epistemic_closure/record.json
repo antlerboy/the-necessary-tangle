@@ -1,0 +1,226 @@
+{
+  "schema_version": "1.0",
+  "canonical_url": "https://transduction.systems/entries/concept_epistemic_closure/",
+  "release": "0.35",
+  "citation": "Taylor, B. P. (2026). Epistemic closure. The Necessary Tangle, release 0.35. https://transduction.systems/entries/concept_epistemic_closure/",
+  "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
+  "entry": {
+    "id": "concept_epistemic_closure",
+    "label": "Epistemic closure",
+    "entity_type": "concept",
+    "description": "The operational closure by which a knowledge system distinguishes admissible questions, evidence, categories and knowers. Closure is necessary for coherence, but becomes dangerous when those affected cannot perturb or revise its distinctions.",
+    "aliases": [],
+    "boundary_ring": "0",
+    "inclusion_reason": "feedback_led_release_0_17",
+    "status": "accepted",
+    "source_ids": [
+      "src_tangle_issue2_canon_feedback_2026",
+      "src_oup_fricker_epistemic_injustice_2007"
+    ],
+    "set_tags": [
+      "systems",
+      "lineage",
+      "release_0_17",
+      "epistemology",
+      "boundaries",
+      "power"
+    ],
+    "espoused_labels": [],
+    "observed_clusters": [],
+    "canonical_definition": "The operational closure by which a knowledge system distinguishes admissible questions, evidence, categories and knowers. Closure is necessary for coherence, but becomes dangerous when those affected cannot perturb or revise its distinctions.",
+    "valid_from": "",
+    "valid_to": "",
+    "external_ids": "{}",
+    "geographies": [],
+    "licence": "",
+    "review_status": "curator_checked_public_sources",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-19",
+    "x": 0.13,
+    "y": 0.46,
+    "canonical_id": "concept_epistemic_closure",
+    "public_visibility": "public",
+    "publication_level": "profile",
+    "public_stub_text": "",
+    "public_source_count": 2,
+    "no_public_link_count": 0
+  },
+  "profile": {
+    "node_id": "concept_epistemic_closure",
+    "summary": "Knowledge practices need closure enough to distinguish signal from noise, but closure also determines which people, experiences and perturbations can change the account.",
+    "canonical_definition": "Knowledge practices need closure enough to distinguish signal from noise, but closure also determines which people, experiences and perturbations can change the account.",
+    "why_it_matters": "The relevant question is not whether a system is open or closed in the abstract, but who can affect its boundary and whether it can revise the categories through which it learns.",
+    "key_distinctions": [
+      "operational closure versus social exclusion",
+      "coherence versus impermeability",
+      "openness versus accountability",
+      "perturbation versus token consultation"
+    ],
+    "historical_lineage": [
+      "cybernetic epistemology",
+      "boundary critique",
+      "social epistemology"
+    ],
+    "logical_antecedents": [
+      "distinction",
+      "observer",
+      "boundary",
+      "criteria of admissibility"
+    ],
+    "dependent_subsequents": [
+      "epistemic exclusion",
+      "learning failure",
+      "canon rigidity"
+    ],
+    "practice_connections": [
+      "boundary review",
+      "participatory inquiry",
+      "evidence policy"
+    ],
+    "common_misreadings": [
+      "Closure is not inherently patriarchal or oppressive.",
+      "Indiscriminate openness does not abolish informal power."
+    ],
+    "open_checks": [
+      "Develop historical cases linking particular systems of closure to patriarchal, colonial or professional power without making closure itself the cause."
+    ],
+    "source_ids": [
+      "src_tangle_issue2_canon_feedback_2026",
+      "src_oup_fricker_epistemic_injustice_2007",
+      "src_freeman_tyranny_structurelessness"
+    ],
+    "context_and_lineage": "",
+    "editorial_note": "",
+    "last_researched": "2026-08-19"
+  },
+  "connections": [
+    {
+      "id": "e17_closure_can_exclude",
+      "source": "concept_epistemic_closure",
+      "target": "concept_epistemic_exclusion",
+      "relation_type": "can_exclude",
+      "relation_family": "contestation",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.76",
+      "claim_status": "provisional",
+      "source_ids": [
+        "src_tangle_issue2_canon_feedback_2026",
+        "src_oup_fricker_epistemic_injustice_2007"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Public curator reflection read alongside Fricker's account of epistemic exclusion",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Provisional systems interpretation: closure is not inherently oppressive; exclusion depends on how admissibility and revision are organised.",
+      "assertion_mode": "interpreted",
+      "inference_method": "curatorial comparison of the cited public sources",
+      "claim_id": "",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "can produce",
+      "public_review_label": "provisional conceptual interpretation"
+    },
+    {
+      "id": "e17_structurelessness_checks_openness",
+      "source": "concept_structurelessness",
+      "target": "concept_epistemic_closure",
+      "relation_type": "critiques",
+      "relation_family": "contestation",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.72",
+      "claim_status": "provisional",
+      "source_ids": [
+        "src_freeman_tyranny_structurelessness",
+        "src_tangle_issue2_canon_feedback_2026"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Freeman's formal/informal structure argument and public editorial reflection",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Interpretive transfer from group structure to knowledge governance; it does not make the concepts equivalent.",
+      "assertion_mode": "interpreted",
+      "inference_method": "curatorial comparison of the cited public sources",
+      "claim_id": "",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "complicates a simple open-versus-closed reading of",
+      "public_review_label": "provisional conceptual interpretation"
+    }
+  ],
+  "claims": [],
+  "sources": [
+    {
+      "id": "src_tangle_issue2_canon_feedback_2026",
+      "title": "The Necessary Tangle running feedback: canon, closure and patriarchy",
+      "source_type": "public_curator_discussion",
+      "quality_tier": "B",
+      "access": "public",
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5345119282",
+      "date": "2026-08",
+      "notes": "Public curator note recording the challenge about a predominantly white male visual canon and the resulting editorial requirement to expose canonisation, exclusion, appropriation and recovery rather than repair the map through portraits alone.",
+      "creators": [
+        "Benjamin P Taylor",
+        "Ida Rose Florez"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "The Necessary Tangle",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-19",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_oup_fricker_epistemic_injustice_2007",
+      "title": "Epistemic Injustice: Power and the Ethics of Knowing",
+      "source_type": "publisher_record",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://academic.oup.com/book/32817",
+      "date": "2007",
+      "notes": "Oxford Academic record for Miranda Fricker's account of testimonial and hermeneutical injustice and the relation between knowing, prejudice and social power.",
+      "creators": [
+        "Miranda Fricker"
+      ],
+      "doi": "10.1093/acprof:oso/9780198237907.001.0001",
+      "isbn": "9780198237907",
+      "publisher": "Oxford University Press",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-19",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_freeman_tyranny_structurelessness",
+      "title": "The Tyranny of Structurelessness",
+      "source_type": "primary_author_text",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://www.jofreeman.com/joreen/tyranny.htm",
+      "date": "1970-1973",
+      "notes": "Jo Freeman's author-hosted text arguing that groups cannot abolish structure, only leave it implicit, and that invisible structure can conceal unaccountable power.",
+      "creators": [
+        "Jo Freeman"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Jo Freeman",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-19",
+      "public_link_status": "public_link"
+    }
+  ],
+  "evidence_locators": [],
+  "reuse_note": "Preserve source attribution, scope, and review status. Source documents and evidence excerpts are excluded."
+}

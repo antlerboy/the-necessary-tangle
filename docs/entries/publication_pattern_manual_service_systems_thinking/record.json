@@ -1,0 +1,200 @@
+{
+  "schema_version": "1.0",
+  "canonical_url": "https://transduction.systems/entries/publication_pattern_manual_service_systems_thinking/",
+  "release": "0.35",
+  "citation": "Taylor, B. P. (2026). Pattern Manual for Service Systems Thinking. The Necessary Tangle, release 0.35. https://transduction.systems/entries/publication_pattern_manual_service_systems_thinking/",
+  "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
+  "entry": {
+    "id": "publication_pattern_manual_service_systems_thinking",
+    "label": "Pattern Manual for Service Systems Thinking",
+    "entity_type": "publication",
+    "description": "David Ing’s 2016 proposal to translate lessons from generative pattern languages into service systems thinking, reframing patterns around voices on issues, affording values and spatio-temporal frames.",
+    "aliases": [],
+    "boundary_ring": "0",
+    "inclusion_reason": "iteration_0_15_depth_and_practice",
+    "status": "accepted",
+    "source_ids": [
+      "src_ing_pattern_manual_2016"
+    ],
+    "set_tags": [
+      "systems",
+      "practice",
+      "release_0_15",
+      "publication",
+      "pattern-language"
+    ],
+    "espoused_labels": [],
+    "observed_clusters": [],
+    "canonical_definition": "David Ing’s 2016 proposal to translate lessons from generative pattern languages into service systems thinking, reframing patterns around voices on issues, affording values and spatio-temporal frames.",
+    "valid_from": "",
+    "valid_to": "",
+    "external_ids": "{}",
+    "geographies": [],
+    "licence": "",
+    "review_status": "curator_checked_public_sources",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-14",
+    "x": 0.25,
+    "y": -0.08,
+    "canonical_id": "publication_pattern_manual_service_systems_thinking",
+    "public_visibility": "public",
+    "publication_level": "profile",
+    "public_stub_text": "",
+    "public_source_count": 1,
+    "no_public_link_count": 0
+  },
+  "profile": {
+    "node_id": "publication_pattern_manual_service_systems_thinking",
+    "title": "Pattern Manual for Service Systems Thinking",
+    "profile_status": "curator_checked_public_sources",
+    "canonical_definition": "David Ing’s 2016 proposal to translate lessons from generative pattern languages into service systems thinking, reframing patterns around voices on issues, affording values and spatio-temporal frames.",
+    "summary": "A proposal for carrying generative pattern-language learning into service systems.",
+    "why_it_matters": "It shows how a method can be translated between domains only by changing its ontology and pattern form.",
+    "key_distinctions": [
+      "context-problem-solution versus voices-values-spatio-temporal frames",
+      "translation versus copying"
+    ],
+    "historical_lineage": [
+      "Alexander and pattern language",
+      "service systems thinking"
+    ],
+    "logical_antecedents": [
+      "generative pattern languages",
+      "service systems"
+    ],
+    "dependent_subsequents": [
+      "service-systems pattern work"
+    ],
+    "practice_connections": [
+      "pattern workshops",
+      "service design"
+    ],
+    "espoused_lineages": [],
+    "observed_clusters": [],
+    "common_misreadings": [
+      "It does not claim the built-environment pattern form can simply be reused unchanged."
+    ],
+    "open_checks": [
+      "Trace later adoption and critique."
+    ],
+    "source_ids": [
+      "src_ing_pattern_manual_2016"
+    ],
+    "evidence_ids": [],
+    "last_researched": "2026-08-14",
+    "review_status": "curator_checked_public_sources",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-14",
+    "editorial_note": "Public account based on named sources; documentary provenance, interpretation and evaluative claims are kept distinct."
+  },
+  "connections": [
+    {
+      "id": "e15_ing_authors_pattern_manual",
+      "source": "publication_pattern_manual_service_systems_thinking",
+      "target": "person_david_ing",
+      "relation_type": "authored_by",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.88",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_ing_pattern_manual_2016"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Release 0.15 public sources",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Limited to the named sources. Documentary connection, conceptual influence, teaching use and effectiveness are distinct claims.",
+      "assertion_mode": "asserted",
+      "inference_method": "curatorial synthesis of public sources",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-14",
+      "notes": "",
+      "plain_phrase": "was authored by",
+      "public_review_label": "supported working statement"
+    },
+    {
+      "id": "e15_pattern_manual_develops_service_systems",
+      "source": "publication_pattern_manual_service_systems_thinking",
+      "target": "approach_family_service_systems_thinking",
+      "relation_type": "develops",
+      "relation_family": "conceptual",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.97",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_ing_pattern_manual_2016"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Pattern Manual paper, pp. 12-14, comparison of Alexandrian form with voices on issues, affording values and spatio-temporal frames",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "The paper advances a proposal for discussion and explicitly frames it as an adaptation and extension, not a settled standard.",
+      "assertion_mode": "asserted",
+      "inference_method": "close reading of the author paper and publication record",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-14",
+      "notes": "The proposed format changes the unit of a pattern from context-problem-solution to voices/issues, affording values and spatio-temporal frames for service systems.",
+      "plain_phrase": "develops a pattern form for",
+      "public_review_label": "source-established author proposal"
+    },
+    {
+      "id": "e_overnight_pattern_manual_multiple_perspectives",
+      "source": "publication_pattern_manual_service_systems_thinking",
+      "target": "concept_multiple_perspectives",
+      "relation_type": "operationalises",
+      "relation_family": "practice",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.92",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_ing_pattern_manual_2016"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Pattern Manual paper, p. 13, paragraph beginning 'Extending issues to explicitly identify voices'",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "The paper operationalises perspectives as named voices around an issue; it does not guarantee that every affected perspective will be represented.",
+      "assertion_mode": "asserted",
+      "inference_method": "close reading of the author paper",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-14",
+      "notes": "Ing makes voices explicit in the service-systems pattern form so collective and individual perspectives are represented before action decisions.",
+      "plain_phrase": "operationalises named voices as",
+      "public_review_label": "source-established design move"
+    }
+  ],
+  "claims": [],
+  "sources": [
+    {
+      "id": "src_ing_pattern_manual_2016",
+      "title": "Pattern Manual for Service Systems Thinking",
+      "source_type": "primary_publication_record",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://coevolving.com/commons/20161028-pattern-manual-for-service-systems-thinking",
+      "date": "checked 2026-08-14",
+      "notes": "Primary record of Ing’s 2016 proposal to adapt generative pattern-language practice for service systems thinking, including the alternative pattern form of voices, values and spatio-temporal frames.",
+      "creators": [
+        "David Ing"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Coevolving Innovations",
+      "licence": "site terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-14",
+      "public_link_status": "public_link"
+    }
+  ],
+  "evidence_locators": [],
+  "reuse_note": "Preserve source attribution, scope, and review status. Source documents and evidence excerpts are excluded."
+}

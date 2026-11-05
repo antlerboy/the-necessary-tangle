@@ -1,0 +1,257 @@
+{
+  "schema_version": "1.0",
+  "canonical_url": "https://transduction.systems/entries/method_or_methodology_distributed_ethnography/",
+  "release": "0.35",
+  "citation": "Taylor, B. P. (2026). Distributed ethnography. The Necessary Tangle, release 0.35. https://transduction.systems/entries/method_or_methodology_distributed_ethnography/",
+  "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
+  "entry": {
+    "id": "method_or_methodology_distributed_ethnography",
+    "label": "Distributed ethnography",
+    "entity_type": "method_or_methodology",
+    "description": "Participative research approach in which many people contribute situated observations or micro-narratives and interpret their own material, reducing sole dependence on an external analyst's coding scheme.",
+    "aliases": [],
+    "boundary_ring": "0",
+    "inclusion_reason": "snowden_cynefin_canonical_sources_release_0_14",
+    "status": "accepted",
+    "source_ids": [
+      "src_cynefin_sensemaker_official_2026",
+      "src_cynefin_dave_profile_2026"
+    ],
+    "set_tags": [
+      "complexity",
+      "sensemaking",
+      "expertise",
+      "release_0_14",
+      "practice"
+    ],
+    "espoused_labels": [],
+    "observed_clusters": [],
+    "canonical_definition": "Participative research approach in which many people contribute situated observations or micro-narratives and interpret their own material, reducing sole dependence on an external analyst's coding scheme.",
+    "valid_from": "",
+    "valid_to": "",
+    "external_ids": "{}",
+    "geographies": [],
+    "licence": "",
+    "review_status": "curator_checked_public_sources",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-11",
+    "x": 0.62,
+    "y": -0.44,
+    "canonical_id": "method_or_methodology_distributed_ethnography",
+    "public_visibility": "public",
+    "publication_level": "profile",
+    "public_stub_text": "",
+    "public_source_count": 2,
+    "no_public_link_count": 0
+  },
+  "profile": {
+    "node_id": "method_or_methodology_distributed_ethnography",
+    "title": "Distributed ethnography",
+    "profile_status": "curator_checked_public_sources",
+    "canonical_definition": "Participative research approach in which many people contribute situated observations or micro-narratives and interpret their own material, reducing sole dependence on an external analyst's coding scheme.",
+    "summary": "Distributed ethnography spreads observation and interpretation across many situated participants rather than reserving both to a small external research team.",
+    "why_it_matters": "It can increase contextual variety and reduce some analyst-imposed categories, while raising new sampling, ethics, inclusion and interpretation questions.",
+    "key_distinctions": [
+      "distributed contribution vs representative sample",
+      "participant interpretation vs absence of research design",
+      "ethnographic sensibility vs software feature"
+    ],
+    "historical_lineage": [
+      "ethnography",
+      "participatory research",
+      "narrative inquiry",
+      "SenseMaker"
+    ],
+    "logical_antecedents": [
+      "situated observation",
+      "participation",
+      "self-interpretation"
+    ],
+    "dependent_subsequents": [
+      "distributed narrative datasets",
+      "participative sensing"
+    ],
+    "practice_connections": [
+      "community research",
+      "organisational listening",
+      "monitoring and evaluation"
+    ],
+    "espoused_lineages": [],
+    "observed_clusters": [],
+    "common_misreadings": [
+      "distribution removes power",
+      "self-interpretation eliminates researcher choices",
+      "volume supplies validity"
+    ],
+    "open_checks": [
+      "add methodological papers",
+      "map ethics and consent",
+      "compare with conventional and digital ethnography"
+    ],
+    "source_ids": [
+      "src_cynefin_sensemaker_official_2026",
+      "src_cynefin_dave_profile_2026"
+    ],
+    "evidence_ids": [],
+    "last_researched": "2026-08-11",
+    "review_status": "curator_checked_public_sources",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-11",
+    "editorial_note": "Developed from public primary, institutional, publisher and project sources. First-party source roles and independent evidential limits are stated explicitly."
+  },
+  "connections": [
+    {
+      "id": "e_14_ethnography_practice",
+      "source": "method_or_methodology_distributed_ethnography",
+      "target": "practice_systems_practice",
+      "relation_type": "operationalises",
+      "relation_family": "practice",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.88",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_cynefin_sensemaker_official_2026"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Release 0.14 public primary, official, institutional and publisher sources",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "The statement is limited to the named sources and their evidential role. First-party definition, authorship, historical development, application and independent evaluation remain distinct claims.",
+      "assertion_mode": "asserted",
+      "inference_method": "curatorial synthesis of public sources",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-11",
+      "notes": "Distributed narrative inquiry supplies situated material for systems practice.",
+      "plain_phrase": "supports inquiry in",
+      "public_review_label": "supported working statement"
+    },
+    {
+      "id": "e_14_sensemaker_ethnography",
+      "source": "tool_sensemaker",
+      "target": "method_or_methodology_distributed_ethnography",
+      "relation_type": "operationalises",
+      "relation_family": "practice",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.88",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_cynefin_dave_profile_2026",
+        "src_cynefin_sensemaker_official_2026"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Release 0.14 public primary, official, institutional and publisher sources",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "The statement is limited to the named sources and their evidential role. First-party definition, authorship, historical development, application and independent evaluation remain distinct claims.",
+      "assertion_mode": "asserted",
+      "inference_method": "curatorial synthesis of public sources",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-11",
+      "notes": "The official profile describes SenseMaker as a distributed ethnography tool.",
+      "plain_phrase": "supports",
+      "public_review_label": "supported working statement"
+    },
+    {
+      "id": "e16_relational_crosswalk_283",
+      "source": "method_or_methodology_distributed_ethnography",
+      "target": "concept_multiple_perspectives",
+      "relation_type": "complements",
+      "relation_family": "conceptual",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.72",
+      "claim_status": "provisional",
+      "source_ids": [
+        "src_cynefin_sensemaker_official_2026",
+        "src_cynefin_dave_profile_2026",
+        "src_skills_england_st0787_v12"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Interpretive comparison of the two maintained public descriptions and their cited source records",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "This is a provisional semantic or practice crosswalk. It does not establish historical influence, equivalence, efficacy or universal applicability. Item-level source review and curator acceptance are still required.",
+      "assertion_mode": "interpreted",
+      "inference_method": "curator-requested relational crosswalk of maintained public descriptions",
+      "claim_id": "",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "develops accounts across distributed",
+      "public_review_label": "provisional relational crosswalk"
+    }
+  ],
+  "claims": [],
+  "sources": [
+    {
+      "id": "src_cynefin_sensemaker_official_2026",
+      "title": "SenseMaker — The Cynefin Company",
+      "source_type": "official_product_and_method_page",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://thecynefin.co/sensemaker/",
+      "date": "current; checked 2026-08-11",
+      "notes": "Canonical first-party description of SenseMaker and its use of self-interpreted micro-narratives. Use project reports and independent evaluations for claims about results in particular settings.",
+      "creators": [
+        "The Cynefin Company"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "The Cynefin Company",
+      "licence": "site_terms",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-11",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_cynefin_dave_profile_2026",
+      "title": "Dave Snowden — The Cynefin Company profile",
+      "source_type": "official_professional_profile",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://thecynefin.co/team/dave-snowden/",
+      "date": "current; checked 2026-08-11",
+      "notes": "Canonical first-party source for Dave Snowden's present roles and the organisation's own account of his creation of Cynefin and origination of SenseMaker. It does not independently establish influence, efficacy or priority beyond those declared facts.",
+      "creators": [
+        "The Cynefin Company"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "The Cynefin Company",
+      "licence": "site_terms",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-11",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_skills_england_st0787_v12",
+      "title": "Systems Thinking Practitioner apprenticeship standard ST0787 v1.2",
+      "source_type": "government_standard",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://skillsengland.education.gov.uk/apprenticeships/st0787-v1-2",
+      "date": "2025-02-20",
+      "notes": "Current approved standard; requires concepts, laws, provenance, schools, ontology, epistemology, approaches, intervention, ethics and evaluation.",
+      "creators": [],
+      "doi": "",
+      "isbn": "",
+      "publisher": "",
+      "licence": "",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-09",
+      "public_link_status": "public_link"
+    }
+  ],
+  "evidence_locators": [],
+  "reuse_note": "Preserve source attribution, scope, and review status. Source documents and evidence excerpts are excluded."
+}

@@ -1,0 +1,125 @@
+{
+  "schema_version": "1.0",
+  "canonical_url": "https://transduction.systems/entries/concept_communication_levels/",
+  "release": "0.35",
+  "citation": "Taylor, B. P. (2026). Technical, semantic, and effectiveness questions. The Necessary Tangle, release 0.35. https://transduction.systems/entries/concept_communication_levels/",
+  "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
+  "entry": {
+    "id": "concept_communication_levels",
+    "label": "Technical, semantic, and effectiveness questions",
+    "entity_type": "concept",
+    "description": "Weaver separates accurate transmission, intended meaning, and effects on conduct. Shannon’s engineering problem brackets semantics.",
+    "aliases": [],
+    "boundary_ring": "0",
+    "inclusion_reason": "early_cybernetics_bibliographic_intake_0_22",
+    "status": "candidate",
+    "source_ids": [
+      "src_shannon_weaver_book_1949"
+    ],
+    "set_tags": [
+      "cybernetics",
+      "history",
+      "release_0_22"
+    ],
+    "espoused_labels": [],
+    "observed_clusters": [],
+    "canonical_definition": "Weaver separates accurate transmission, intended meaning, and effects on conduct. Shannon’s engineering problem brackets semantics.",
+    "valid_from": "",
+    "valid_to": "",
+    "external_ids": "{}",
+    "geographies": [],
+    "licence": "",
+    "review_status": "research_pass_needs_editor",
+    "reviewed_by": "",
+    "reviewed_at": "",
+    "x": 0.1,
+    "y": 0.1,
+    "canonical_id": "concept_communication_levels",
+    "public_visibility": "public",
+    "publication_level": "profile",
+    "public_stub_text": "",
+    "public_source_count": 1,
+    "no_public_link_count": 0
+  },
+  "profile": {
+    "node_id": "concept_communication_levels",
+    "summary": "Weaver separates accurate transmission, intended meaning, and effects on conduct. Shannon’s engineering problem brackets semantics.",
+    "canonical_definition": "Weaver separates accurate transmission, intended meaning, and effects on conduct. Shannon’s engineering problem brackets semantics.",
+    "why_it_matters": "A message can arrive accurately and still be misunderstood or fail to change anything.",
+    "key_distinctions": [],
+    "historical_lineage": [],
+    "logical_antecedents": [],
+    "dependent_subsequents": [],
+    "practice_connections": [],
+    "common_misreadings": [],
+    "open_checks": [
+      "Extend the evidence pass beyond the cited passages."
+    ],
+    "source_ids": [
+      "src_shannon_weaver_book_1949"
+    ],
+    "context_and_lineage": "Weaver pp. 95–99; Shannon introduction pp. 3–5",
+    "editorial_note": "Source passages inspected for this account. Practice questions are editorial applications. Curator review pending.",
+    "last_researched": "2026-09-05",
+    "title": "Technical, semantic, and effectiveness questions",
+    "profile_status": "evidence_deepened_research_pass",
+    "review_status": "research_pass_needs_editor"
+  },
+  "connections": [
+    {
+      "id": "e22_publication_early_shannon_weaver_book_presents_account_of_concept_communication_levels",
+      "source": "publication_early_shannon_weaver_book",
+      "target": "concept_communication_levels",
+      "relation_type": "presents_account_of",
+      "relation_family": "conceptual",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "",
+      "claim_status": "candidate",
+      "source_ids": [
+        "src_shannon_weaver_book_1949"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Weaver pp. 95–99",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Limited to the identified passage. A practice analogy needs its own assumptions and evidence.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "presents an account of",
+      "public_review_label": "Source located; curator review pending"
+    }
+  ],
+  "claims": [],
+  "sources": [
+    {
+      "id": "src_shannon_weaver_book_1949",
+      "title": "The Mathematical Theory of Communication — 1949 volume",
+      "source_type": "primary_book",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://ia801403.us.archive.org/25/items/in.ernet.dli.2015.503815/2015.503815.The-Mathematical_text.pdf",
+      "date": "1949",
+      "notes": "Inspected preface, contents, Shannon introduction pp. 3–5, and Weaver pp. 95–99. The volume contains separately attributed papers, with distinct technical and wider questions.",
+      "creators": [
+        "Claude E. Shannon",
+        "Warren Weaver"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "University of Illinois Press",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "passage_checked",
+      "last_checked": "2026-09-05",
+      "public_link_status": "public_link"
+    }
+  ],
+  "evidence_locators": [],
+  "reuse_note": "Preserve source attribution, scope, and review status. Source documents and evidence excerpts are excluded."
+}

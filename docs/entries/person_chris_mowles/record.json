@@ -1,0 +1,298 @@
+{
+  "schema_version": "1.0",
+  "canonical_url": "https://transduction.systems/entries/person_chris_mowles/",
+  "release": "0.35",
+  "citation": "Taylor, B. P. (2026). Chris Mowles. The Necessary Tangle, release 0.35. https://transduction.systems/entries/person_chris_mowles/",
+  "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
+  "entry": {
+    "id": "person_chris_mowles",
+    "label": "Chris Mowles",
+    "entity_type": "person",
+    "description": "A scholar and practitioner of complexity and management whose work argues for a radically social account of organisational continuity and change, with attention to interaction, power, uncertainty and practical judgement.",
+    "aliases": [],
+    "boundary_ring": "1",
+    "inclusion_reason": "public_source_and_depth_pass",
+    "status": "accepted",
+    "source_ids": [
+      "src_mowles_resources_social_complexity",
+      "src_mowles_complexity_key_idea_2022",
+      "src_mowles_complex_not_quite_2014",
+      "src_mowles_practice_complexity_nhs_2010"
+    ],
+    "set_tags": [
+      "complexity",
+      "practice",
+      "release_0_9_source_depth"
+    ],
+    "espoused_labels": [],
+    "observed_clusters": [],
+    "canonical_definition": "",
+    "valid_from": "",
+    "valid_to": "",
+    "external_ids": "{}",
+    "geographies": [],
+    "licence": "",
+    "review_status": "curator_checked_public_sources",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-10",
+    "x": 0.13,
+    "y": 0.31,
+    "canonical_id": "person_chris_mowles",
+    "public_visibility": "public",
+    "publication_level": "profile",
+    "public_stub_text": "",
+    "public_source_count": 4,
+    "no_public_link_count": 0
+  },
+  "profile": {
+    "node_id": "person_chris_mowles",
+    "summary": "Chris Mowles develops a critical and practice-facing account of complexity in social and organisational life. His work presses against the idea that complexity thinking supplies managers with a better control technology.",
+    "why_it_matters": "The atlas is much stronger on formal and cybernetic concepts than on the difficulty of moving from models of natural complex systems to accounts of human interaction. Mowles provides a documented challenge to that transfer and a route into power, politics, improvisation and practical judgement.",
+    "key_distinctions": [
+      "Complexity as a description of social life is not the same as complexity science used as a managerial toolkit.",
+      "Unpredictability does not remove responsibility or practical judgement.",
+      "Organisations are ongoing patterns of interaction, not containers standing apart from the people who constitute them."
+    ],
+    "historical_lineage": [
+      "The work continues the University of Hertfordshire community of inquiry associated with Ralph Stacey and complex responsive processes.",
+      "It draws critically on complexity sciences while also using pragmatic, sociological, psychodynamic and organisational traditions."
+    ],
+    "logical_antecedents": [
+      "Complexity",
+      "Emergence",
+      "Power",
+      "Interaction"
+    ],
+    "dependent_subsequents": [
+      "Complex responsive processes",
+      "Practical judgement",
+      "Relational accounts of organising"
+    ],
+    "practice_connections": [
+      "Leadership and management development",
+      "Evaluation and public-service change",
+      "Reflexive inquiry into organisational experience"
+    ],
+    "common_misreadings": [
+      "That accepting unpredictability means giving up on deliberate action.",
+      "That complex responsive processes is simply another systems model of an organisation.",
+      "That a critique of control is a claim that power disappears."
+    ],
+    "open_checks": [
+      "Develop the wider Hertfordshire community constellation and document disagreement within and around it.",
+      "Compare Mowles's use of complexity with systems-practice, critical-systems and complexity-leadership traditions."
+    ],
+    "source_ids": [
+      "src_mowles_resources_social_complexity",
+      "src_mowles_complexity_key_idea_2022",
+      "src_mowles_complex_not_quite_2014",
+      "src_mowles_practice_complexity_nhs_2010"
+    ],
+    "evidence_ids": [],
+    "review_status": "curator_checked_public_sources",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-10"
+  },
+  "connections": [
+    {
+      "id": "e_09_mowles_authored_complexity_key_idea",
+      "source": "publication_complexity_key_idea_business_society",
+      "target": "person_chris_mowles",
+      "relation_type": "authored_by",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.88",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_mowles_complexity_key_idea_2022"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Release 0.9 public source pass",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "First-pass wording based on the named public sources; stronger historical or conceptual claims remain open to review.",
+      "assertion_mode": "asserted",
+      "inference_method": "curatorial synthesis of public publisher, journal and institutional records",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-10",
+      "notes": "The publisher record names Chris Mowles as author.",
+      "plain_phrase": "authored by",
+      "public_review_label": "supported"
+    },
+    {
+      "id": "e_09_mowles_complex_responsive",
+      "source": "person_chris_mowles",
+      "target": "tradition_complex_responsive_processes",
+      "relation_type": "developed_or_extended",
+      "relation_family": "influence",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.88",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_mowles_organising_complex_responsive_2022",
+        "src_mowles_complexity_key_idea_2022"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Release 0.9 public source pass",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "First-pass wording based on the named public sources; stronger historical or conceptual claims remain open to review.",
+      "assertion_mode": "asserted",
+      "inference_method": "curatorial synthesis of public publisher, journal and institutional records",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-10",
+      "notes": "Mowles describes his work as part of the continuing community of inquiry developing complex responsive processes.",
+      "plain_phrase": "developed or extended",
+      "public_review_label": "supported"
+    },
+    {
+      "id": "e_09_mowles_complexity_science",
+      "source": "person_chris_mowles",
+      "target": "concept_complexity",
+      "relation_type": "critiques",
+      "relation_family": "contestation",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.88",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_mowles_complex_not_quite_2014",
+        "src_mowles_complexity_key_idea_2022"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Release 0.9 public source pass",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "First-pass wording based on the named public sources; stronger historical or conceptual claims remain open to review.",
+      "assertion_mode": "asserted",
+      "inference_method": "curatorial synthesis of public publisher, journal and institutional records",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-10",
+      "notes": "Mowles criticises over- and under-claiming when complexity sciences are transferred into evaluation and social explanation; this is a critique of uses, not a rejection of the sciences.",
+      "plain_phrase": "critiques",
+      "public_review_label": "supported"
+    }
+  ],
+  "claims": [],
+  "sources": [
+    {
+      "id": "src_mowles_resources_social_complexity",
+      "title": "Resources on the complexity of social life",
+      "source_type": "public_curated_resource_guide",
+      "quality_tier": "C",
+      "access": "public",
+      "url": "https://chrismowles.substack.com/p/resources-on-the-complexity-of-social",
+      "date": "2026",
+      "notes": "Chris Mowles's public resource guide is used as a discovery route into social and organisational complexity. Items reached through it still require their own source records and review.",
+      "creators": [
+        "Chris Mowles"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Complexity and Management / Substack",
+      "licence": "source_terms",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "registered_for_source_mining",
+      "last_checked": "2026-08-10",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_mowles_complexity_key_idea_2022",
+      "title": "Complexity: A Key Idea for Business and Society",
+      "source_type": "publisher_book_page",
+      "quality_tier": "B",
+      "access": "public_metadata",
+      "url": "https://www.routledge.com/Complexity-A-Key-Idea-for-Business-and-Society/Mowles/p/book/9780367425685",
+      "date": "2022",
+      "notes": "Publisher record for Chris Mowles's book. The page supports bibliographic facts and the author's stated framing; it is not a substitute for page-level use of the book.",
+      "creators": [
+        "Chris Mowles"
+      ],
+      "doi": "",
+      "isbn": "9780367425685",
+      "publisher": "Routledge",
+      "licence": "publisher_terms",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-10",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_mowles_complex_not_quite_2014",
+      "title": "Complex, but not quite complex enough: The turn to the complexity sciences in evaluation scholarship",
+      "source_type": "publisher_article_page",
+      "quality_tier": "B",
+      "access": "public_abstract",
+      "url": "https://journals.sagepub.com/doi/10.1177/1356389014527885",
+      "date": "2014",
+      "notes": "Peer-reviewed article in Evaluation. It criticises indiscriminate appeals to complexity science in evaluation and argues for a more radically social interpretation of emergence and interaction.",
+      "creators": [
+        "Chris Mowles"
+      ],
+      "doi": "10.1177/1356389014527885",
+      "isbn": "",
+      "publisher": "SAGE / Evaluation",
+      "licence": "publisher_terms",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-10",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_mowles_practice_complexity_nhs_2010",
+      "title": "The practice of complexity: Review, change and service improvement in an NHS department",
+      "source_type": "institutional_repository_article",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://uhra.herts.ac.uk/id/eprint/63/",
+      "date": "2010",
+      "notes": "Institutional repository record and public manuscript for an applied account of complex responsive processes in NHS review and service improvement.",
+      "creators": [
+        "Chris Mowles",
+        "Anna van der Gaag",
+        "John Fox"
+      ],
+      "doi": "10.1108/14777261011047318",
+      "isbn": "",
+      "publisher": "University of Hertfordshire Research Archive",
+      "licence": "source_terms",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-10",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_mowles_organising_complex_responsive_2022",
+      "title": "Organising as complex responsive processes of relating",
+      "source_type": "public_author_page",
+      "quality_tier": "B",
+      "access": "public",
+      "url": "https://complexityandmanagement.com/2022/02/07/organising-as-complex-responsive-processes-of-relating/",
+      "date": "2022-02-07",
+      "notes": "Chris Mowles's public account of the continuing community of inquiry around complex responsive processes and organising.",
+      "creators": [
+        "Chris Mowles"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Complexity and Management Centre",
+      "licence": "source_terms",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-10",
+      "public_link_status": "public_link"
+    }
+  ],
+  "evidence_locators": [],
+  "reuse_note": "Preserve source attribution, scope, and review status. Source documents and evidence excerpts are excluded."
+}

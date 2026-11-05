@@ -1,0 +1,204 @@
+{
+  "schema_version": "1.0",
+  "canonical_url": "https://transduction.systems/entries/practice_lineage_recovery/",
+  "release": "0.35",
+  "citation": "Taylor, B. P. (2026). Lineage recovery. The Necessary Tangle, release 0.35. https://transduction.systems/entries/practice_lineage_recovery/",
+  "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
+  "entry": {
+    "id": "practice_lineage_recovery",
+    "label": "Lineage recovery",
+    "entity_type": "practice",
+    "description": "The evidence-led practice of recovering neglected people, traditions, institutions and transmissions while stating whether the relation is authorship, teaching, collaboration, appropriation, exclusion, canonisation or later rediscovery.",
+    "aliases": [],
+    "boundary_ring": "0",
+    "inclusion_reason": "feedback_led_release_0_17",
+    "status": "accepted",
+    "source_ids": [
+      "src_tangle_issue2_canon_feedback_2026",
+      "src_oro_boundaries_disciplines_2006"
+    ],
+    "set_tags": [
+      "systems",
+      "lineage",
+      "release_0_17",
+      "lineage",
+      "recovery",
+      "evidence"
+    ],
+    "espoused_labels": [],
+    "observed_clusters": [],
+    "canonical_definition": "The evidence-led practice of recovering neglected people, traditions, institutions and transmissions while stating whether the relation is authorship, teaching, collaboration, appropriation, exclusion, canonisation or later rediscovery.",
+    "valid_from": "",
+    "valid_to": "",
+    "external_ids": "{}",
+    "geographies": [],
+    "licence": "",
+    "review_status": "curator_checked_public_sources",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-19",
+    "x": 0.27,
+    "y": 0.4,
+    "canonical_id": "practice_lineage_recovery",
+    "public_visibility": "public",
+    "publication_level": "profile",
+    "public_stub_text": "",
+    "public_source_count": 2,
+    "no_public_link_count": 0
+  },
+  "profile": {
+    "node_id": "practice_lineage_recovery",
+    "summary": "Lineage recovery finds and types neglected transmissions without turning every resemblance, shared identity or later citation into influence.",
+    "canonical_definition": "Lineage recovery finds and types neglected transmissions without turning every resemblance, shared identity or later citation into influence.",
+    "why_it_matters": "It makes the history of visibility part of the atlas rather than treating omissions as empty space around an otherwise neutral canon.",
+    "key_distinctions": [
+      "recovery versus retrospective invention",
+      "appropriation versus influence",
+      "teaching versus citation",
+      "identity context versus identity inference"
+    ],
+    "historical_lineage": [
+      "archival research",
+      "feminist and decolonial historiography",
+      "systems lineage documentation"
+    ],
+    "logical_antecedents": [
+      "typed relations",
+      "public evidence",
+      "boundary critique"
+    ],
+    "dependent_subsequents": [
+      "revised canons",
+      "rival genealogies",
+      "documented exclusions"
+    ],
+    "practice_connections": [
+      "archive work",
+      "oral history",
+      "citation tracing",
+      "curriculum review"
+    ],
+    "common_misreadings": [
+      "Recovery is not achieved by adding portraits to an unchanged structure.",
+      "Shared heritage is not evidence of conceptual influence."
+    ],
+    "open_checks": [
+      "Develop gold-standard examples of exclusion, appropriation, canonisation and recovery with page-level evidence."
+    ],
+    "source_ids": [
+      "src_tangle_issue2_canon_feedback_2026",
+      "src_oro_boundaries_disciplines_2006"
+    ],
+    "context_and_lineage": "",
+    "editorial_note": "",
+    "last_researched": "2026-08-19"
+  },
+  "connections": [
+    {
+      "id": "e17_lineage_documentation_supports_recovery",
+      "source": "practice_systems_lineage_documentation",
+      "target": "practice_lineage_recovery",
+      "relation_type": "develops",
+      "relation_family": "practice",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.94",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_oro_boundaries_disciplines_2006",
+        "src_tangle_issue2_canon_feedback_2026"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Public systems-lineage and editorial sources",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "This is an atlas practice connection, not a claim that one named author originated lineage recovery.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-19",
+      "notes": "",
+      "plain_phrase": "provides typed documentary methods for",
+      "public_review_label": "source-backed statement"
+    },
+    {
+      "id": "e17_recovery_responds_exclusion",
+      "source": "practice_lineage_recovery",
+      "target": "concept_epistemic_exclusion",
+      "relation_type": "responds_to",
+      "relation_family": "practice",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.94",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_tangle_issue2_canon_feedback_2026",
+        "src_oro_boundaries_disciplines_2006"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Public editorial requirement and systems-thinkers boundary article",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "The practice does not presume every absence is an exclusion; it investigates the history and relation type.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-19",
+      "notes": "",
+      "plain_phrase": "is an evidence-led response to",
+      "public_review_label": "source-backed statement"
+    }
+  ],
+  "claims": [],
+  "sources": [
+    {
+      "id": "src_tangle_issue2_canon_feedback_2026",
+      "title": "The Necessary Tangle running feedback: canon, closure and patriarchy",
+      "source_type": "public_curator_discussion",
+      "quality_tier": "B",
+      "access": "public",
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5345119282",
+      "date": "2026-08",
+      "notes": "Public curator note recording the challenge about a predominantly white male visual canon and the resulting editorial requirement to expose canonisation, exclusion, appropriation and recovery rather than repair the map through portraits alone.",
+      "creators": [
+        "Benjamin P Taylor",
+        "Ida Rose Florez"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "The Necessary Tangle",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-19",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_oro_boundaries_disciplines_2006",
+      "title": "On boundaries and disciplines: constructing a set of key systems thinkers",
+      "source_type": "institutional_repository_article_record",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://oro.open.ac.uk/5446/",
+      "date": "2006",
+      "notes": "Open University repository record for Ramage and Shipp's article on the choices and boundary questions involved in constructing a set of key systems thinkers.",
+      "creators": [
+        "Magnus Ramage",
+        "Karen Shipp"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "The Systemist / The Open University",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-19",
+      "public_link_status": "public_link"
+    }
+  ],
+  "evidence_locators": [],
+  "reuse_note": "Preserve source attribution, scope, and review status. Source documents and evidence excerpts are excluded."
+}

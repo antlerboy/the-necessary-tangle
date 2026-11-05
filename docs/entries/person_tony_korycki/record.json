@@ -1,0 +1,199 @@
+{
+  "schema_version": "1.0",
+  "canonical_url": "https://transduction.systems/entries/person_tony_korycki/",
+  "release": "0.35",
+  "citation": "Taylor, B. P. (2026). Tony Korycki. The Necessary Tangle, release 0.35. https://transduction.systems/entries/person_tony_korycki/",
+  "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
+  "entry": {
+    "id": "person_tony_korycki",
+    "label": "Tony Korycki",
+    "entity_type": "person",
+    "description": "A systems practitioner, educator and SCiO contributor associated with the early SysBoK, Critical Systems Heuristics, systems laws practice and Opening the Box.",
+    "aliases": [],
+    "boundary_ring": "0",
+    "inclusion_reason": "practitioner_expertise_coverage_release_0_12",
+    "status": "accepted",
+    "source_ids": [
+      "src_korycki_2014",
+      "src_scio_opening_box_2024",
+      "src_scio_sysbok_current"
+    ],
+    "set_tags": [
+      "systems",
+      "practice",
+      "human_lineage",
+      "release_0_12"
+    ],
+    "espoused_labels": [],
+    "observed_clusters": [],
+    "canonical_definition": "A systems practitioner, educator and SCiO contributor associated with the early SysBoK, Critical Systems Heuristics, systems laws practice and Opening the Box.",
+    "valid_from": "",
+    "valid_to": "",
+    "external_ids": "{}",
+    "geographies": [],
+    "licence": "",
+    "review_status": "curator_checked_public_sources",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-10",
+    "x": 0.3,
+    "y": 0.43,
+    "canonical_id": "person_tony_korycki",
+    "public_visibility": "public",
+    "publication_level": "profile",
+    "public_stub_text": "",
+    "public_source_count": 2,
+    "no_public_link_count": 1
+  },
+  "profile": {
+    "node_id": "person_tony_korycki",
+    "title": "Tony Korycki",
+    "profile_status": "curator_checked_public_sources",
+    "canonical_definition": "A systems practitioner, educator and SCiO contributor associated with the early SysBoK, Critical Systems Heuristics, systems laws practice and Opening the Box.",
+    "summary": "Tony Korycki connects systems-practice education, Critical Systems Heuristics, systems-law practice, SCiO's early SysBoK work and accessible public communication.",
+    "why_it_matters": "The repository already cited a Tony Korycki SysBoK source but had no public person entry. This hid a contributor behind a document node.",
+    "key_distinctions": [
+      "body-of-knowledge contribution vs sole authorship",
+      "systems law practice vs recital",
+      "critical heuristic vs generic checklist"
+    ],
+    "historical_lineage": [
+      "SCiO",
+      "critical systems heuristics",
+      "systems-practice education"
+    ],
+    "logical_antecedents": [
+      "boundary critique",
+      "systems laws",
+      "intervention skill"
+    ],
+    "dependent_subsequents": [
+      "Opening the Box",
+      "SCiO SysBoK contributions"
+    ],
+    "practice_connections": [
+      "systems education",
+      "supply-chain diagnosis",
+      "critical reflection"
+    ],
+    "espoused_lineages": [],
+    "observed_clusters": [],
+    "common_misreadings": [
+      "a competency-framework contributor owns the whole framework"
+    ],
+    "open_checks": [
+      "develop the wider contributor network around the SCiO SysBoK"
+    ],
+    "source_ids": [
+      "src_korycki_2014",
+      "src_scio_opening_box_2024",
+      "src_scio_sysbok_current"
+    ],
+    "evidence_ids": [],
+    "last_researched": "2026-08-10",
+    "review_status": "curator_checked_public_sources",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-10",
+    "editorial_note": "Developed from cited public sources. The entry remains open to correction, rival accounts and stronger evidence."
+  },
+  "connections": [
+    {
+      "id": "e_12_opening_tony",
+      "source": "publication_opening_the_box",
+      "target": "person_tony_korycki",
+      "relation_type": "authored_by",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.88",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_scio_opening_box_2024"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Release 0.12 public practitioner and publication sources",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "The wording is limited to the named public sources. Bibliographic inclusion and organisational association do not establish wider intellectual influence.",
+      "assertion_mode": "asserted",
+      "inference_method": "curatorial synthesis of public primary, scholarly and professional-body sources",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-10",
+      "notes": "Official publication metadata lists Tony Korycki.",
+      "plain_phrase": "was authored by",
+      "public_review_label": "supported working statement"
+    }
+  ],
+  "claims": [],
+  "sources": [
+    {
+      "id": "src_korycki_2014",
+      "title": "Tony Korycki - Systems Thinking Body of Knowledge",
+      "source_type": "presentation",
+      "quality_tier": "C",
+      "access": "no_public_link",
+      "url": "",
+      "date": "2014-09-18",
+      "notes": "SCiO internal presentation on the original SysBoK; no public link.",
+      "creators": [
+        "Tony Korycki"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "",
+      "licence": "",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "pass4_legacy_internal_register_audit",
+      "last_checked": "2026-08-14",
+      "public_link_status": "no_public_link"
+    },
+    {
+      "id": "src_scio_opening_box_2024",
+      "title": "Opening the Box: Systems Thinking for Transformative Conversations",
+      "source_type": "official_professional_body_book_page",
+      "quality_tier": "B",
+      "access": "public_metadata",
+      "url": "https://www.systemspractice.org/resources/opening-box-systems-thinking-transformative-conversations",
+      "date": "2024-09",
+      "notes": "SCiO page for a short dialogical introduction to four layers of systems thinking: parts and wholes, nascent development, coherence and metamorphosis.",
+      "creators": [
+        "Jan De Visch",
+        "Miguel Pantaleon",
+        "Namrata Arora",
+        "Tony Korycki"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "SCiO Publications",
+      "licence": "publisher_terms",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-10",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_scio_sysbok_current",
+      "title": "SysBoK, from SCiO",
+      "source_type": "professional_body_page",
+      "quality_tier": "C",
+      "access": "public",
+      "url": "https://www.systemspractice.org/sysbok-from-scio",
+      "date": "2026-08-09",
+      "notes": "Current public description of SysBoK as incomplete; precedents, dependent derivatives, examples and references.",
+      "creators": [],
+      "doi": "",
+      "isbn": "",
+      "publisher": "",
+      "licence": "",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-09",
+      "public_link_status": "public_link"
+    }
+  ],
+  "evidence_locators": [],
+  "reuse_note": "Preserve source attribution, scope, and review status. Source documents and evidence excerpts are excluded."
+}

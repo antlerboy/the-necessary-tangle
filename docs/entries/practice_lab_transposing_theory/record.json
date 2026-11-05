@@ -1,0 +1,225 @@
+{
+  "schema_version": "1.0",
+  "canonical_url": "https://transduction.systems/entries/practice_lab_transposing_theory/",
+  "release": "0.35",
+  "citation": "Taylor, B. P. (2026). Practice: Transposing theory: move up to a pattern and back down. The Necessary Tangle, release 0.35. https://transduction.systems/entries/practice_lab_transposing_theory/",
+  "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
+  "entry": {
+    "id": "practice_lab_transposing_theory",
+    "label": "Practice: Transposing theory: move up to a pattern and back down",
+    "entity_type": "publication",
+    "description": "Test a structural analogy rather than importing a solution because two situations sound alike. A basic abstraction-and-return rehearsal for the framework's transposing-theory row. Its resource list also cites Yi Lin's systemic yoyo; this exercise does not teach or validate that distinct formal model. The terminology and intended depth should be checked with your tutor.",
+    "aliases": [],
+    "boundary_ring": "0",
+    "inclusion_reason": "authorised_systems_methods_practice_pack",
+    "status": "candidate",
+    "source_ids": [
+      "src_practice_lab_transposing_theory",
+      "src_practice_external_scio_reading",
+      "src_practice_external_ou_maps",
+      "src_scio_professional_development_current"
+    ],
+    "set_tags": [
+      "systems",
+      "practice",
+      "learning",
+      "apprenticeship"
+    ],
+    "espoused_labels": [],
+    "observed_clusters": [],
+    "canonical_definition": "Test a structural analogy rather than importing a solution because two situations sound alike. A basic abstraction-and-return rehearsal for the framework's transposing-theory row. Its resource list also cites Yi Lin's systemic yoyo; this exercise does not teach or validate that distinct formal model. The terminology and intended depth should be checked with your tutor.",
+    "valid_from": "",
+    "valid_to": "",
+    "external_ids": "{\"practice_url\": \"https://transduction.systems/systems-thinking/practice/transposing-theory/\"}",
+    "geographies": [],
+    "licence": "",
+    "review_status": "original_practice_material_specialist_review_not_recorded",
+    "reviewed_by": "",
+    "reviewed_at": "",
+    "x": 0.38,
+    "y": 0.34,
+    "canonical_id": "practice_lab_transposing_theory",
+    "public_visibility": "public",
+    "publication_level": "profile",
+    "public_stub_text": "",
+    "public_source_count": 4,
+    "no_public_link_count": 0
+  },
+  "profile": {
+    "node_id": "practice_lab_transposing_theory",
+    "summary": "Test a structural analogy rather than importing a solution because two situations sound alike. A basic abstraction-and-return rehearsal for the framework's transposing-theory row. Its resource list also cites Yi Lin's systemic yoyo; this exercise does not teach or validate that distinct formal model. The terminology and intended depth should be checked with your tutor.",
+    "canonical_definition": "Test a structural analogy rather than importing a solution because two situations sound alike. A basic abstraction-and-return rehearsal for the framework's transposing-theory row. Its resource list also cites Yi Lin's systemic yoyo; this exercise does not teach or validate that distinct formal model. The terminology and intended depth should be checked with your tutor.",
+    "why_it_matters": "A concrete rehearsal with a fictional case, explicit outputs and a way to inspect the result.",
+    "key_distinctions": [
+      "Mechanical correctness is distinct from judgement in an open situation.",
+      "Training-case application is distinct from competent organisational practice."
+    ],
+    "historical_lineage": [],
+    "logical_antecedents": [],
+    "dependent_subsequents": [],
+    "practice_connections": [
+      "Write the common structural pattern without using warehouse or council nouns.",
+      "Map the abstract elements into case B.",
+      "Derive a modest intervention and a falsification test."
+    ],
+    "common_misreadings": [
+      "A worked comparison is not the only acceptable answer to an open question."
+    ],
+    "open_checks": [
+      "A basic abstraction-and-return rehearsal for the framework's transposing-theory row. Its resource list also cites Yi Lin's systemic yoyo; this exercise does not teach or validate that distinct formal model. The terminology and intended depth should be checked with your tutor.",
+      "Compare an independent attempt before revealing the worked answer."
+    ],
+    "source_ids": [
+      "src_practice_lab_transposing_theory",
+      "src_practice_external_scio_reading",
+      "src_practice_external_ou_maps",
+      "src_scio_professional_development_current"
+    ],
+    "context_and_lineage": "Original educational resource, 7 September 2026.",
+    "editorial_note": "Prepared with AI assistance. Publication authorised by Benjamin P Taylor. No independent specialist review or source-provider endorsement is claimed.",
+    "last_researched": "2026-09-07",
+    "title": "Practice: Transposing theory: move up to a pattern and back down",
+    "profile_status": "original_practice_resource",
+    "review_status": "specialist_review_not_recorded"
+  },
+  "connections": [
+    {
+      "id": "practice_edge_ad62fe4aa81e35e2a6",
+      "source": "practice_systems_methods_pack",
+      "target": "practice_lab_transposing_theory",
+      "relation_type": "includes_practice_resource",
+      "relation_family": "practice",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "",
+      "claim_status": "candidate",
+      "source_ids": [
+        "src_systems_methods_practice_pack"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Named exercise and its scope statement",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Resource inventory only; completing a page is not accreditation.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "includes practice resource",
+      "public_review_label": "Editorial practice connection, not accreditation or intellectual influence"
+    }
+  ],
+  "claims": [],
+  "sources": [
+    {
+      "id": "src_practice_lab_transposing_theory",
+      "title": "Transposing theory: move up to a pattern and back down",
+      "source_type": "practice_resource",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://transduction.systems/systems-thinking/practice/transposing-theory/",
+      "date": "2026-09-07",
+      "notes": "Original fictional exercise. A basic abstraction-and-return rehearsal for the framework's transposing-theory row. Its resource list also cites Yi Lin's systemic yoyo; this exercise does not teach or validate that distinct formal model. The terminology and intended depth should be checked with your tutor.",
+      "creators": [
+        "The Necessary Tangle editorial practice pack"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "The Necessary Tangle",
+      "licence": "Original practice text CC BY-SA 4.0; external material retains source terms",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "original_material_and_source_boundary_recorded",
+      "last_checked": "2026-09-07",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_practice_external_scio_reading",
+      "title": "SCiO competency framework resource guide (PDF)",
+      "source_type": "public_learning_resource",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://www.dropbox.com/scl/fi/v5vl9o1e9gtwxbqiyb2no/SCiO-CF-Resources.pdf?rlkey=a9d5ckhbsdjld7ab3sp60jaj9&dl=0",
+      "date": "2026-09-07",
+      "notes": "Public sharing confirmed; approach and theory bibliography inspected. The presence of a reference does not establish that it contains self-check exercises. Use: Further reading for each framework row, including the separate references associated with transposing theory.",
+      "creators": [],
+      "doi": "",
+      "isbn": "",
+      "publisher": "www.dropbox.com",
+      "licence": "External source terms; linked, not reproduced",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "specific_access_and_content_limit_recorded",
+      "last_checked": "2026-09-07",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_practice_external_ou_maps",
+      "title": "OU: drawing systems maps, SAQ 3 and Activities 19-22",
+      "source_type": "public_learning_resource",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://www.open.edu/openlearn/digital-computing/managing-complexity-a-systems-approach-introduction/content-section-9.3",
+      "date": "2026-09-07",
+      "notes": "Tasks, defective maps, answer text and worked revisions inspected. Historic Child Support Agency case, not current policy guidance. Use: Attempt SAQ 3 before opening its answer. Draw your own map for Activities 19-22, then compare the author's choices. Different justified boundaries need not match the example.",
+      "creators": [],
+      "doi": "",
+      "isbn": "",
+      "publisher": "www.open.edu",
+      "licence": "External source terms; linked, not reproduced",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "specific_access_and_content_limit_recorded",
+      "last_checked": "2026-09-07",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_scio_professional_development_current",
+      "title": "SCiO Professional Development",
+      "source_type": "official_training_page",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://www.systemspractice.org/professional-development",
+      "date": "",
+      "notes": "Official SCiO page describing systems-practice and intervention training, delivery formats and the relationship between methods and intervention skills.",
+      "creators": [
+        "SCiO - Systems and Complexity in Organisation"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "SCiO",
+      "licence": "source_terms",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-10",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_systems_methods_practice_pack",
+      "title": "Systemic systems methods practice for systems practice (alpha)",
+      "source_type": "practice_resource",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://transduction.systems/systems-thinking/practice/",
+      "date": "2026-09-07",
+      "notes": "Alpha version. The original teaching material has not had independent specialist pedagogical review. These exercises support technical learning; they do not establish professional competence or accreditation.",
+      "creators": [
+        "Benjamin P Taylor"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "The Necessary Tangle",
+      "licence": "Original practice text CC BY-SA 4.0; external material retains source terms",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "original_material_and_source_boundary_recorded",
+      "last_checked": "2026-09-07",
+      "public_link_status": "public_link"
+    }
+  ],
+  "evidence_locators": [],
+  "reuse_note": "Preserve source attribution, scope, and review status. Source documents and evidence excerpts are excluded."
+}

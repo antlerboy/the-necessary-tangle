@@ -1,0 +1,372 @@
+{
+  "schema_version": "1.0",
+  "canonical_url": "https://transduction.systems/entries/concept_bounded_applicability/",
+  "release": "0.35",
+  "citation": "Taylor, B. P. (2026). Bounded applicability. The Necessary Tangle, release 0.35. https://transduction.systems/entries/concept_bounded_applicability/",
+  "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
+  "entry": {
+    "id": "concept_bounded_applicability",
+    "label": "Bounded applicability",
+    "entity_type": "concept",
+    "description": "Principle that approaches have conditions under which they are useful and should not be treated as context-free universal solutions.",
+    "aliases": [],
+    "boundary_ring": "0",
+    "inclusion_reason": "snowden_cynefin_canonical_sources_release_0_14",
+    "status": "accepted",
+    "source_ids": [
+      "src_cynefin_io_framework_2026"
+    ],
+    "set_tags": [
+      "complexity",
+      "sensemaking",
+      "expertise",
+      "release_0_14"
+    ],
+    "espoused_labels": [],
+    "observed_clusters": [],
+    "canonical_definition": "Principle that approaches have conditions under which they are useful and should not be treated as context-free universal solutions.",
+    "valid_from": "",
+    "valid_to": "",
+    "external_ids": "{}",
+    "geographies": [],
+    "licence": "",
+    "review_status": "curator_checked_public_sources",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-11",
+    "x": 0.12,
+    "y": 0.48,
+    "canonical_id": "concept_bounded_applicability",
+    "public_visibility": "public",
+    "publication_level": "profile",
+    "public_stub_text": "",
+    "public_source_count": 1,
+    "no_public_link_count": 0
+  },
+  "profile": {
+    "node_id": "concept_bounded_applicability",
+    "title": "Bounded applicability",
+    "profile_status": "curator_checked_public_sources",
+    "canonical_definition": "Principle that approaches have conditions under which they are useful and should not be treated as context-free universal solutions.",
+    "summary": "Bounded applicability says that a method or explanation earns validity within specified conditions rather than by being asserted as a context-free solution.",
+    "why_it_matters": "It is a useful antidote to method fundamentalism. It also imposes work: the boundary, evidence and transition conditions must be made explicit rather than invoked as a general escape clause.",
+    "key_distinctions": [
+      "context-sensitive validity vs relativism",
+      "boundary conditions vs disclaimer",
+      "usefulness here vs truth everywhere"
+    ],
+    "historical_lineage": [
+      "Cynefin",
+      "contingency and contextual reasoning",
+      "systems boundary work"
+    ],
+    "logical_antecedents": [
+      "context",
+      "boundary",
+      "causal conditions"
+    ],
+    "dependent_subsequents": [
+      "method selection",
+      "domain transitions",
+      "scope conditions"
+    ],
+    "practice_connections": [
+      "choosing methods",
+      "reviewing assumptions",
+      "ending failed transfer"
+    ],
+    "espoused_lineages": [],
+    "observed_clusters": [],
+    "common_misreadings": [
+      "every claim is equally valid somewhere",
+      "scope never needs evidence",
+      "contexts are fixed and self-evident"
+    ],
+    "open_checks": [
+      "compare with boundary critique",
+      "connect to affordances and context of use",
+      "develop examples of invalid transfer"
+    ],
+    "source_ids": [
+      "src_cynefin_io_framework_2026"
+    ],
+    "evidence_ids": [],
+    "last_researched": "2026-08-11",
+    "review_status": "curator_checked_public_sources",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-11",
+    "editorial_note": "Developed from public primary, institutional, publisher and project sources. First-party source roles and independent evidential limits are stated explicitly."
+  },
+  "connections": [
+    {
+      "id": "e_14_bounded_boundary",
+      "source": "concept_boundary",
+      "target": "concept_bounded_applicability",
+      "relation_type": "definitional_prerequisite",
+      "relation_family": "conceptual",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.96",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_cynefin_io_framework_2026"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Cynefin wiki, opening definition (paragraphs 6–10) and “How it Works” (paragraphs 49–52)",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "The source's bounded-applicability claim concerns the validity of approaches within contexts; it does not make every boundary equally useful or legitimate.",
+      "assertion_mode": "asserted",
+      "inference_method": "close reading of the first-party framework definition",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-11",
+      "notes": "The maintained Cynefin account defines bounded applicability through the boundaries within which context-specific approaches are valid.",
+      "plain_phrase": "is a definitional prerequisite for",
+      "public_review_label": "source-established framework definition"
+    },
+    {
+      "id": "e_14_cynefin_bounded",
+      "source": "method_or_methodology_cynefin_framework",
+      "target": "concept_bounded_applicability",
+      "relation_type": "uses",
+      "relation_family": "conceptual",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.88",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_cynefin_io_framework_2026"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Release 0.14 public primary, official, institutional and publisher sources",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "The statement is limited to the named sources and their evidential role. First-party definition, authorship, historical development, application and independent evaluation remain distinct claims.",
+      "assertion_mode": "asserted",
+      "inference_method": "curatorial synthesis of public sources",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-11",
+      "notes": "The framework's own account identifies bounded applicability as a core principle.",
+      "plain_phrase": "uses",
+      "public_review_label": "supported working statement"
+    },
+    {
+      "id": "e16_relational_crosswalk_281",
+      "source": "practice_systems_practice",
+      "target": "concept_bounded_applicability",
+      "relation_type": "applies",
+      "relation_family": "practice",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.72",
+      "claim_status": "provisional",
+      "source_ids": [
+        "src_scio_professional_body_current",
+        "src_scio_professional_development_current",
+        "src_scio_accreditation_current",
+        "src_taylor_systems_terms_2022",
+        "src_cynefin_io_framework_2026"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Interpretive comparison of the two maintained public descriptions and their cited source records",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "This is a provisional semantic or practice crosswalk. It does not establish historical influence, equivalence, efficacy or universal applicability. Item-level source review and curator acceptance are still required.",
+      "assertion_mode": "interpreted",
+      "inference_method": "curator-requested relational crosswalk of maintained public descriptions",
+      "claim_id": "",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "states limits through",
+      "public_review_label": "provisional relational crosswalk"
+    },
+    {
+      "id": "e16_relational_crosswalk_285",
+      "source": "approach_family_naturalising_sense_making",
+      "target": "concept_bounded_applicability",
+      "relation_type": "complements",
+      "relation_family": "conceptual",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.72",
+      "claim_status": "provisional",
+      "source_ids": [
+        "src_cynefin_io_naturalising_2026",
+        "src_cynefin_dave_profile_2026",
+        "src_cynefin_io_framework_2026"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Interpretive comparison of the two maintained public descriptions and their cited source records",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "This is a provisional semantic or practice crosswalk. It does not establish historical influence, equivalence, efficacy or universal applicability. Item-level source review and curator acceptance are still required.",
+      "assertion_mode": "interpreted",
+      "inference_method": "curator-requested relational crosswalk of maintained public descriptions",
+      "claim_id": "",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "emphasises contextual limits through",
+      "public_review_label": "provisional relational crosswalk"
+    }
+  ],
+  "claims": [],
+  "sources": [
+    {
+      "id": "src_cynefin_io_framework_2026",
+      "title": "Cynefin — Cynefin.io",
+      "source_type": "official_collaborative_wiki_page",
+      "quality_tier": "B",
+      "access": "public",
+      "url": "https://cynefin.io/wiki/Cynefin",
+      "date": "current page; checked 2026-08-11",
+      "notes": "First-party maintained account of Cynefin as a decision-support framework based on bounded applicability, its domains, dynamics and development. Appropriate for the framework's own definitions; pair with the named papers for historical and scholarly claims.",
+      "creators": [
+        "Cynefin.io contributors"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Cynefin.io",
+      "licence": "CC BY-SA unless otherwise indicated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-11",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_scio_professional_body_current",
+      "title": "What is SCiO?",
+      "source_type": "official_professional_body_page",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://www.systemspractice.org/professional-body",
+      "date": "",
+      "notes": "Official SCiO account of its role, competency framework, professional standards and support for systems practitioners.",
+      "creators": [
+        "SCiO - Systems and Complexity in Organisation"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "SCiO",
+      "licence": "source_terms",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-10",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_scio_professional_development_current",
+      "title": "SCiO Professional Development",
+      "source_type": "official_training_page",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://www.systemspractice.org/professional-development",
+      "date": "",
+      "notes": "Official SCiO page describing systems-practice and intervention training, delivery formats and the relationship between methods and intervention skills.",
+      "creators": [
+        "SCiO - Systems and Complexity in Organisation"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "SCiO",
+      "licence": "source_terms",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-10",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_scio_accreditation_current",
+      "title": "SCiO Professional Accreditation and Competency Framework",
+      "source_type": "professional_body_page",
+      "quality_tier": "C",
+      "access": "public",
+      "url": "https://www.systemspractice.org/professional-accreditation",
+      "date": "2026-08-09",
+      "notes": "Current framework fields and assessment process.",
+      "creators": [],
+      "doi": "",
+      "isbn": "",
+      "publisher": "",
+      "licence": "",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-09",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_taylor_systems_terms_2022",
+      "title": "What do systems leadership and systems change mean to you?",
+      "source_type": "public_curator_article",
+      "quality_tier": "B",
+      "access": "public",
+      "url": "https://chosen-path.org/2022/07/11/what-do-systems-leadership-and-systems-change-mean-to-you-what-questions-would-you-like-me-to-answer/",
+      "date": "2022-07-11",
+      "notes": "A public statement of Benjamin P Taylor's distinctions among systems leadership, systems change, systems theory, systems practice and systems convening. It is treated as a curatorial framing open to challenge.",
+      "creators": [
+        "Benjamin P Taylor"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "chosen path",
+      "licence": "source_terms",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-10",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_cynefin_io_naturalising_2026",
+      "title": "Naturalising sense-making — Cynefin.io",
+      "source_type": "official_collaborative_wiki_page",
+      "quality_tier": "B",
+      "access": "public",
+      "url": "https://cynefin.io/index.php/Naturalising_sense-making",
+      "date": "current page; checked 2026-08-11",
+      "notes": "First-party maintained definition of naturalising sense-making, including its use of natural science as a constraint and its links to Cynefin, SenseMaker and anthro-complexity.",
+      "creators": [
+        "Cynefin.io contributors"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Cynefin.io",
+      "licence": "CC BY-SA unless otherwise indicated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-11",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_cynefin_dave_profile_2026",
+      "title": "Dave Snowden — The Cynefin Company profile",
+      "source_type": "official_professional_profile",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://thecynefin.co/team/dave-snowden/",
+      "date": "current; checked 2026-08-11",
+      "notes": "Canonical first-party source for Dave Snowden's present roles and the organisation's own account of his creation of Cynefin and origination of SenseMaker. It does not independently establish influence, efficacy or priority beyond those declared facts.",
+      "creators": [
+        "The Cynefin Company"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "The Cynefin Company",
+      "licence": "site_terms",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-11",
+      "public_link_status": "public_link"
+    }
+  ],
+  "evidence_locators": [],
+  "reuse_note": "Preserve source attribution, scope, and review status. Source documents and evidence excerpts are excluded."
+}

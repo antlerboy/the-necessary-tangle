@@ -1,0 +1,240 @@
+{
+  "schema_version": "1.0",
+  "canonical_url": "https://transduction.systems/entries/person_gary_s_metcalf/",
+  "release": "0.35",
+  "citation": "Taylor, B. P. (2026). Gary S. Metcalf. The Necessary Tangle, release 0.35. https://transduction.systems/entries/person_gary_s_metcalf/",
+  "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
+  "entry": {
+    "id": "person_gary_s_metcalf",
+    "label": "Gary S. Metcalf",
+    "entity_type": "person",
+    "description": "Gary S. Metcalf is a systems researcher and co-editor of the 2021 Handbook of Systems Sciences. ISSS records his presidency, while IFSR lists him among its fellows; these records establish editorial and institutional roles without substituting them for analysis of his published arguments.",
+    "aliases": [
+      "Gary Metcalf"
+    ],
+    "boundary_ring": "0",
+    "inclusion_reason": "september_connections_2026",
+    "status": "candidate",
+    "source_ids": [
+      "src_handbook_systems_sciences_2021",
+      "src_reports27_isss_presidents",
+      "src_reports27_ifsr_about",
+      "src_reports27_issue_74"
+    ],
+    "set_tags": [
+      "systems",
+      "september_connections_2026"
+    ],
+    "espoused_labels": [],
+    "observed_clusters": [],
+    "canonical_definition": "Gary S. Metcalf is a systems researcher and co-editor of the 2021 Handbook of Systems Sciences. ISSS records his presidency, while IFSR lists him among its fellows; these records establish editorial and institutional roles without substituting them for analysis of his published arguments.",
+    "valid_from": "",
+    "valid_to": "",
+    "external_ids": "{}",
+    "geographies": [],
+    "licence": "",
+    "review_status": "source_scoped_report_review_complete",
+    "reviewed_by": "",
+    "reviewed_at": "",
+    "x": -0.403,
+    "y": 0.45599999999999996,
+    "canonical_id": "person_gary_s_metcalf",
+    "public_visibility": "public",
+    "publication_level": "profile",
+    "public_stub_text": "",
+    "public_source_count": 4,
+    "no_public_link_count": 0
+  },
+  "profile": {
+    "node_id": "person_gary_s_metcalf",
+    "summary": "Gary S. Metcalf is a systems researcher and co-editor of the 2021 Handbook of Systems Sciences. ISSS records his presidency, while IFSR lists him among its fellows; these records establish editorial and institutional roles without substituting them for analysis of his published arguments.",
+    "canonical_definition": "Gary S. Metcalf is a systems researcher and co-editor of the 2021 Handbook of Systems Sciences. ISSS records his presidency, while IFSR lists him among its fellows; these records establish editorial and institutional roles without substituting them for analysis of his published arguments.",
+    "why_it_matters": "His documented roles give readers an entrance into contemporary attempts to connect systems-science traditions, education, and practice.",
+    "key_distinctions": [
+      "Editing a handbook is a contribution to a field's conversation, not authorship of every chapter.",
+      "Institutional office and intellectual merit require separate evidence."
+    ],
+    "historical_lineage": [
+      "Contemporary systems-sciences publishing and professional institutions."
+    ],
+    "logical_antecedents": [],
+    "dependent_subsequents": [],
+    "practice_connections": [
+      "Use the Handbook as a plural collection, retaining differences between its contributors rather than treating it as one doctrine."
+    ],
+    "common_misreadings": [
+      "The entry does not reproduce the report's broad claims about second-wave systems thinking without named publications."
+    ],
+    "open_checks": [
+      "The report's claims about social systems design, Banathy, and specific philosophical contributions remain publication-level research tasks."
+    ],
+    "source_ids": [
+      "src_handbook_systems_sciences_2021",
+      "src_reports27_isss_presidents",
+      "src_reports27_ifsr_about",
+      "src_reports27_issue_74"
+    ],
+    "context_and_lineage": "Reviewed from public report #74. The report is a research prompt; the profile retains only claims bounded by the cited records.",
+    "editorial_note": "Prepared with AI assistance from the named public records and the public report. The report review is complete; open checks are future research, not missing entry work. Independent specialist review is not recorded.",
+    "last_researched": "2026-09-20",
+    "title": "Gary S. Metcalf",
+    "profile_status": "source_scoped_report_review_complete",
+    "review_status": "independent_review_not_recorded",
+    "reviewed_by": "",
+    "reviewed_at": "",
+    "report_issue": 74,
+    "report_outcome": "full_profile_added; editorial and office roles retained; broad intellectual claims deferred"
+  },
+  "connections": [
+    {
+      "id": "e24_publication_handbook_systems_sciences_2021_edited_by_person_gary_s_metcalf",
+      "source": "publication_handbook_systems_sciences_2021",
+      "target": "person_gary_s_metcalf",
+      "relation_type": "edited_by",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "",
+      "claim_status": "candidate",
+      "source_ids": [
+        "src_handbook_systems_sciences_2021"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Editors and bibliographic information",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Role in this volume; no claim about relative influence or current institutional office.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "is edited by",
+      "public_review_label": "Located source statement; independent review not recorded"
+    },
+    {
+      "id": "e27_9d58f88a0d5ca1120d1a",
+      "source": "person_gary_s_metcalf",
+      "target": "organisation_isss",
+      "relation_type": "served_as_president_of",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "",
+      "claim_status": "candidate",
+      "source_ids": [
+        "src_reports27_isss_presidents"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Past-presidents list, Gary S. Metcalf",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Historical office-holding only.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "served as president of",
+      "public_review_label": "Located source statement; independent review not recorded",
+      "connection_pass": "missing_entry_reports_20260920"
+    }
+  ],
+  "claims": [],
+  "sources": [
+    {
+      "id": "src_handbook_systems_sciences_2021",
+      "title": "Handbook of Systems Sciences",
+      "source_type": "publisher_record",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://link.springer.com/referencework/10.1007/978-981-15-0720-5",
+      "date": "2026-09-09",
+      "notes": "Publisher metadata and overview inspected. Editorial credits establish roles in this volume; the whole handbook has not been read.",
+      "creators": [
+        "Gary S. Metcalf",
+        "Kyoichi Kijima",
+        "Hiroshi Deguchi"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Springer",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "source_scope_checked",
+      "last_checked": "2026-09-09",
+      "public_link_status": "public_link",
+      "connection_pass": "september_connections_2026"
+    },
+    {
+      "id": "src_reports27_isss_presidents",
+      "title": "Past presidents of the ISSS",
+      "source_type": "primary_public_record",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://www.isss.org/past-presidents/",
+      "date": "2026-09-20",
+      "notes": "Chronological list of past presidents: Institutional office-holding record. Presidency establishes a formal role, not agreement with every position taken by the society or proof of intellectual influence.",
+      "creators": [],
+      "doi": "",
+      "isbn": "",
+      "publisher": "International Society for the Systems Sciences",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "source_scope_checked",
+      "last_checked": "2026-09-20",
+      "public_link_status": "public_link",
+      "connection_pass": "missing_entry_reports_20260920"
+    },
+    {
+      "id": "src_reports27_ifsr_about",
+      "title": "About the IFSR",
+      "source_type": "primary_public_record",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://ifsr.org/about-ifsr/",
+      "date": "2026-09-20",
+      "notes": "Vision and mission; legacy; governance: The federation's account of its 1980 foundation, mission, conversations, journal relationship, and governance. Claims of impact remain the organisation's own account.",
+      "creators": [],
+      "doi": "",
+      "isbn": "",
+      "publisher": "International Federation for Systems Research",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "source_scope_checked",
+      "last_checked": "2026-09-20",
+      "public_link_status": "public_link",
+      "connection_pass": "missing_entry_reports_20260920"
+    },
+    {
+      "id": "src_reports27_issue_74",
+      "title": "Missing-entry report #74: Gary S. Metcalf",
+      "source_type": "public_submission",
+      "quality_tier": "B",
+      "access": "public",
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/74",
+      "date": "2026-09-20",
+      "notes": "Public report by David Ing. The report prompted research but is not treated as evidence for its own claims.",
+      "creators": [
+        "David Ing"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "The Necessary Tangle public intake",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "report_reviewed_against_public_sources",
+      "last_checked": "2026-09-20",
+      "public_link_status": "public_link",
+      "connection_pass": "missing_entry_reports_20260920"
+    }
+  ],
+  "evidence_locators": [],
+  "reuse_note": "Preserve source attribution, scope, and review status. Source documents and evidence excerpts are excluded."
+}

@@ -1,0 +1,184 @@
+{
+  "schema_version": "1.0",
+  "canonical_url": "https://transduction.systems/entries/publication_dancing_with_systems/",
+  "release": "0.35",
+  "citation": "Taylor, B. P. (2026). Dancing With Systems. The Necessary Tangle, release 0.35. https://transduction.systems/entries/publication_dancing_with_systems/",
+  "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
+  "entry": {
+    "id": "publication_dancing_with_systems",
+    "label": "Dancing With Systems",
+    "entity_type": "publication",
+    "description": "Donella Meadows's practical disciplines for acting with feedback-rich and partly unpredictable systems: observe, listen, expose assumptions, learn, protect information and work for the good of the whole.",
+    "aliases": [],
+    "boundary_ring": "0",
+    "inclusion_reason": "expertise_and_public_sources_release_0_13",
+    "status": "accepted",
+    "source_ids": [
+      "src_meadows_dancing_with_systems"
+    ],
+    "set_tags": [
+      "systems",
+      "human_lineage",
+      "expertise",
+      "release_0_13"
+    ],
+    "espoused_labels": [],
+    "observed_clusters": [],
+    "canonical_definition": "Donella Meadows's practical disciplines for acting with feedback-rich and partly unpredictable systems: observe, listen, expose assumptions, learn, protect information and work for the good of the whole.",
+    "valid_from": "",
+    "valid_to": "",
+    "external_ids": "{}",
+    "geographies": [],
+    "licence": "",
+    "review_status": "curator_checked_public_sources",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-11",
+    "x": 0.56,
+    "y": 0.06,
+    "canonical_id": "publication_dancing_with_systems",
+    "public_visibility": "public",
+    "publication_level": "profile",
+    "public_stub_text": "",
+    "public_source_count": 1,
+    "no_public_link_count": 0
+  },
+  "profile": {
+    "node_id": "publication_dancing_with_systems",
+    "title": "Dancing With Systems",
+    "profile_status": "curator_checked_public_sources",
+    "canonical_definition": "Donella Meadows's practical disciplines for acting with feedback-rich and partly unpredictable systems: observe, listen, expose assumptions, learn, protect information and work for the good of the whole.",
+    "summary": "Dancing With Systems presents practical disciplines for acting with systems whose behaviour cannot be fully predicted or controlled.",
+    "why_it_matters": "It connects systems knowledge to conduct: observation, humility, learning, information integrity, responsibility, time horizons and care for the whole.",
+    "key_distinctions": [
+      "participation vs control",
+      "learning vs bluffing",
+      "important vs merely quantifiable"
+    ],
+    "historical_lineage": [
+      "system dynamics practice",
+      "Meadows's modelling and teaching",
+      "Thinking in Systems"
+    ],
+    "logical_antecedents": [
+      "feedback",
+      "uncertainty",
+      "learning",
+      "responsibility"
+    ],
+    "dependent_subsequents": [
+      "systems practice disciplines",
+      "adaptive intervention",
+      "systems ethics"
+    ],
+    "practice_connections": [
+      "management",
+      "government",
+      "community action",
+      "personal practice"
+    ],
+    "espoused_lineages": [],
+    "observed_clusters": [],
+    "common_misreadings": [
+      "dancing means passivity",
+      "uncertainty means analysis is useless",
+      "humility means avoiding judgement"
+    ],
+    "open_checks": [
+      "connect each discipline to practice cases",
+      "compare with cybernetic ethics",
+      "map relation to Thinking in Systems"
+    ],
+    "source_ids": [
+      "src_meadows_dancing_with_systems"
+    ],
+    "evidence_ids": [],
+    "last_researched": "2026-08-11",
+    "review_status": "curator_checked_public_sources",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-11",
+    "editorial_note": "Developed from public primary, institutional and publisher sources. Open to correction, rival interpretation and stronger evidence."
+  },
+  "connections": [
+    {
+      "id": "e_13_dancing_meadows",
+      "source": "publication_dancing_with_systems",
+      "target": "person_donella_meadows",
+      "relation_type": "authored_by",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.88",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_meadows_dancing_with_systems"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Release 0.13 public primary, institutional and publisher sources",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "The wording is limited to the named public sources. Authorship, methodological development, conceptual dependence and practical use remain distinct claims.",
+      "assertion_mode": "asserted",
+      "inference_method": "curatorial synthesis of public primary, institutional and publisher sources",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-11",
+      "notes": "The Donella Meadows Project identifies Meadows as author.",
+      "plain_phrase": "was authored by",
+      "public_review_label": "supported working statement"
+    },
+    {
+      "id": "e_13_dancing_practice",
+      "source": "publication_dancing_with_systems",
+      "target": "practice_systems_practice",
+      "relation_type": "operationalises",
+      "relation_family": "practice",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.88",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_meadows_dancing_with_systems"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Release 0.13 public primary, institutional and publisher sources",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "The wording is limited to the named public sources. Authorship, methodological development, conceptual dependence and practical use remain distinct claims.",
+      "assertion_mode": "asserted",
+      "inference_method": "curatorial synthesis of public primary, institutional and publisher sources",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-11",
+      "notes": "The essay presents disciplines for acting with systems under uncertainty.",
+      "plain_phrase": "puts into practical form",
+      "public_review_label": "supported working statement"
+    }
+  ],
+  "claims": [],
+  "sources": [
+    {
+      "id": "src_meadows_dancing_with_systems",
+      "title": "Dancing With Systems",
+      "source_type": "primary_author_archive",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://donellameadows.org/archives/dancing-with-systems/",
+      "date": "2004; archived current",
+      "notes": "The Donella Meadows Project publishes the essay and its practical disciplines for acting with feedback-rich, nonlinear and partly unpredictable systems.",
+      "creators": [
+        "Donella Meadows"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "The Donella Meadows Project",
+      "licence": "source_terms",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-11",
+      "public_link_status": "public_link"
+    }
+  ],
+  "evidence_locators": [],
+  "reuse_note": "Preserve source attribution, scope, and review status. Source documents and evidence excerpts are excluded."
+}

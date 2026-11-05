@@ -1,0 +1,146 @@
+{
+  "schema_version": "1.0",
+  "canonical_url": "https://transduction.systems/entries/concept_epistemic_injustice/",
+  "release": "0.35",
+  "citation": "Taylor, B. P. (2026). Epistemic injustice. The Necessary Tangle, release 0.35. https://transduction.systems/entries/concept_epistemic_injustice/",
+  "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
+  "entry": {
+    "id": "concept_epistemic_injustice",
+    "label": "Epistemic injustice",
+    "entity_type": "concept",
+    "description": "Wrong done to someone in their capacity as a knower, including credibility being unfairly reduced and gaps in shared interpretive resources that prevent experience being made intelligible.",
+    "aliases": [],
+    "boundary_ring": "0",
+    "inclusion_reason": "feedback_led_release_0_17",
+    "status": "accepted",
+    "source_ids": [
+      "src_oup_fricker_epistemic_injustice_2007"
+    ],
+    "set_tags": [
+      "systems",
+      "lineage",
+      "release_0_17",
+      "epistemology",
+      "justice",
+      "power"
+    ],
+    "espoused_labels": [],
+    "observed_clusters": [],
+    "canonical_definition": "Wrong done to someone in their capacity as a knower, including credibility being unfairly reduced and gaps in shared interpretive resources that prevent experience being made intelligible.",
+    "valid_from": "",
+    "valid_to": "",
+    "external_ids": "{}",
+    "geographies": [],
+    "licence": "",
+    "review_status": "curator_checked_public_sources",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-19",
+    "x": 0.18,
+    "y": 0.43,
+    "canonical_id": "concept_epistemic_injustice",
+    "public_visibility": "public",
+    "publication_level": "profile",
+    "public_stub_text": "",
+    "public_source_count": 1,
+    "no_public_link_count": 0
+  },
+  "profile": {
+    "node_id": "concept_epistemic_injustice",
+    "summary": "Epistemic injustice names wrongs within knowing: prejudice can reduce a person's credibility, and unequal interpretive resources can prevent experience becoming intelligible.",
+    "canonical_definition": "Epistemic injustice names wrongs within knowing: prejudice can reduce a person's credibility, and unequal interpretive resources can prevent experience becoming intelligible.",
+    "why_it_matters": "It gives the atlas a sharper way to examine whose evidence is admitted and which absences are produced by the field's own categories.",
+    "key_distinctions": [
+      "testimonial injustice",
+      "hermeneutical injustice",
+      "ignorance versus structured absence",
+      "representation versus authority to know"
+    ],
+    "historical_lineage": [
+      "social epistemology",
+      "virtue epistemology",
+      "feminist philosophy"
+    ],
+    "logical_antecedents": [
+      "testimony",
+      "interpretive resources",
+      "social power"
+    ],
+    "dependent_subsequents": [
+      "epistemic exclusion",
+      "corrective epistemic practices"
+    ],
+    "practice_connections": [
+      "participation design",
+      "source policy",
+      "canon review"
+    ],
+    "common_misreadings": [
+      "Adding more speakers does not by itself change credibility rules or interpretive resources."
+    ],
+    "open_checks": [
+      "Connect to standpoint, situated knowledge and decolonial epistemologies through primary sources."
+    ],
+    "source_ids": [
+      "src_oup_fricker_epistemic_injustice_2007"
+    ],
+    "context_and_lineage": "",
+    "editorial_note": "",
+    "last_researched": "2026-08-19"
+  },
+  "connections": [
+    {
+      "id": "e17_book_develops_epistemic_injustice",
+      "source": "publication_epistemic_injustice",
+      "target": "concept_epistemic_injustice",
+      "relation_type": "develops",
+      "relation_family": "conceptual",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.94",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_oup_fricker_epistemic_injustice_2007"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Oxford Academic abstract and contents",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Uses the book's own conceptual vocabulary.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-19",
+      "notes": "",
+      "plain_phrase": "develops the distinction of",
+      "public_review_label": "source-backed statement"
+    }
+  ],
+  "claims": [],
+  "sources": [
+    {
+      "id": "src_oup_fricker_epistemic_injustice_2007",
+      "title": "Epistemic Injustice: Power and the Ethics of Knowing",
+      "source_type": "publisher_record",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://academic.oup.com/book/32817",
+      "date": "2007",
+      "notes": "Oxford Academic record for Miranda Fricker's account of testimonial and hermeneutical injustice and the relation between knowing, prejudice and social power.",
+      "creators": [
+        "Miranda Fricker"
+      ],
+      "doi": "10.1093/acprof:oso/9780198237907.001.0001",
+      "isbn": "9780198237907",
+      "publisher": "Oxford University Press",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-19",
+      "public_link_status": "public_link"
+    }
+  ],
+  "evidence_locators": [],
+  "reuse_note": "Preserve source attribution, scope, and review status. Source documents and evidence excerpts are excluded."
+}

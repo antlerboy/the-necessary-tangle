@@ -1,0 +1,334 @@
+{
+  "schema_version": "1.0",
+  "canonical_url": "https://transduction.systems/entries/organisation_the_cynefin_company/",
+  "release": "0.35",
+  "citation": "Taylor, B. P. (2026). The Cynefin Company. The Necessary Tangle, release 0.35. https://transduction.systems/entries/organisation_the_cynefin_company/",
+  "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
+  "entry": {
+    "id": "organisation_the_cynefin_company",
+    "label": "The Cynefin Company",
+    "entity_type": "organisation",
+    "description": "Organisation developing and applying Cynefin, SenseMaker and naturalising sense-making across strategy, decision-making, research and practice.",
+    "aliases": [
+      "Cognitive Edge"
+    ],
+    "boundary_ring": "0",
+    "inclusion_reason": "snowden_cynefin_canonical_sources_release_0_14",
+    "status": "accepted",
+    "source_ids": [
+      "src_cynefin_company_home_2026",
+      "src_cynefin_dave_profile_2026"
+    ],
+    "set_tags": [
+      "complexity",
+      "sensemaking",
+      "expertise",
+      "release_0_14"
+    ],
+    "espoused_labels": [],
+    "observed_clusters": [],
+    "canonical_definition": "Organisation developing and applying Cynefin, SenseMaker and naturalising sense-making across strategy, decision-making, research and practice.",
+    "valid_from": "",
+    "valid_to": "",
+    "external_ids": "{}",
+    "geographies": [],
+    "licence": "",
+    "review_status": "curator_checked_public_sources",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-11",
+    "x": 0.66,
+    "y": -0.06,
+    "canonical_id": "organisation_the_cynefin_company",
+    "public_visibility": "public",
+    "publication_level": "profile",
+    "public_stub_text": "",
+    "public_source_count": 2,
+    "no_public_link_count": 0
+  },
+  "profile": {
+    "node_id": "organisation_the_cynefin_company",
+    "title": "The Cynefin Company",
+    "profile_status": "curator_checked_public_sources",
+    "canonical_definition": "Organisation developing and applying Cynefin, SenseMaker and naturalising sense-making across strategy, decision-making, research and practice.",
+    "summary": "The Cynefin Company is the organisational home for current development, teaching and application of Cynefin, SenseMaker and associated naturalising sense-making methods.",
+    "why_it_matters": "Organisations carry methods through products, training, communities, archives and revision. The organisational source is canonical for current self-description but cannot stand as independent evidence of its own impact.",
+    "key_distinctions": [
+      "organisation vs intellectual tradition",
+      "current host vs sole historical source",
+      "official description vs independent evaluation"
+    ],
+    "historical_lineage": [
+      "Cognitive Edge",
+      "The Cynefin Company",
+      "Cynefin Centre"
+    ],
+    "logical_antecedents": [
+      "institutional maintenance",
+      "research and development",
+      "practice community"
+    ],
+    "dependent_subsequents": [
+      "public library",
+      "training",
+      "SenseMaker",
+      "blog archive"
+    ],
+    "practice_connections": [
+      "strategy",
+      "organisational decision-making",
+      "research",
+      "facilitation"
+    ],
+    "espoused_lineages": [],
+    "observed_clusters": [],
+    "common_misreadings": [
+      "the organisation and the whole field are the same",
+      "a current product page supplies independent outcome evidence"
+    ],
+    "open_checks": [
+      "map organisational chronology",
+      "separate company, centre and community roles",
+      "add independent evaluations"
+    ],
+    "source_ids": [
+      "src_cynefin_company_home_2026",
+      "src_cynefin_dave_profile_2026"
+    ],
+    "evidence_ids": [],
+    "last_researched": "2026-08-11",
+    "review_status": "curator_checked_public_sources",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-11",
+    "editorial_note": "Developed from public primary, institutional, publisher and project sources. First-party source roles and independent evidential limits are stated explicitly."
+  },
+  "connections": [
+    {
+      "id": "e_14_company_blog",
+      "source": "organisation_the_cynefin_company",
+      "target": "corpus_dave_snowden_blog",
+      "relation_type": "maintains",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.88",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_cynefin_dave_blog_archive_2026",
+        "src_cynefin_company_home_2026"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Release 0.14 public primary, official, institutional and publisher sources",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "The statement is limited to the named sources and their evidential role. First-party definition, authorship, historical development, application and independent evaluation remain distinct claims.",
+      "assertion_mode": "asserted",
+      "inference_method": "curatorial synthesis of public sources",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-11",
+      "notes": "The author archive is hosted and maintained on the organisation's site.",
+      "plain_phrase": "maintains",
+      "public_review_label": "supported working statement"
+    },
+    {
+      "id": "e_14_company_sensemaker",
+      "source": "organisation_the_cynefin_company",
+      "target": "tool_sensemaker",
+      "relation_type": "maintains",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.88",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_cynefin_company_home_2026",
+        "src_cynefin_sensemaker_official_2026"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Release 0.14 public primary, official, institutional and publisher sources",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "The statement is limited to the named sources and their evidential role. First-party definition, authorship, historical development, application and independent evaluation remain distinct claims.",
+      "assertion_mode": "asserted",
+      "inference_method": "curatorial synthesis of public sources",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-11",
+      "notes": "SenseMaker is presented and supported by The Cynefin Company.",
+      "plain_phrase": "develops and maintains",
+      "public_review_label": "supported working statement"
+    },
+    {
+      "id": "e_14_dave_company",
+      "source": "person_dave_snowden",
+      "target": "organisation_the_cynefin_company",
+      "relation_type": "founded",
+      "relation_family": "human",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.88",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_cynefin_dave_profile_2026",
+        "src_cynefin_company_home_2026"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Release 0.14 public primary, official, institutional and publisher sources",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "The statement is limited to the named sources and their evidential role. First-party definition, authorship, historical development, application and independent evaluation remain distinct claims.",
+      "assertion_mode": "asserted",
+      "inference_method": "curatorial synthesis of public sources",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-11",
+      "notes": "The official profile identifies Snowden as founder and Chief Scientific Officer.",
+      "plain_phrase": "founded",
+      "public_review_label": "supported working statement"
+    },
+    {
+      "id": "e16_relational_crosswalk_230",
+      "source": "organisation_the_cynefin_company",
+      "target": "corpus_cynefin_io_wiki",
+      "relation_type": "maintains",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.72",
+      "claim_status": "provisional",
+      "source_ids": [
+        "src_cynefin_company_home_2026",
+        "src_cynefin_dave_profile_2026",
+        "src_cynefin_io_main_2026"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Interpretive comparison of the two maintained public descriptions and their cited source records",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "This is a provisional semantic or practice crosswalk. It does not establish historical influence, equivalence, efficacy or universal applicability. Item-level source review and curator acceptance are still required.",
+      "assertion_mode": "interpreted",
+      "inference_method": "curator-requested relational crosswalk of maintained public descriptions",
+      "claim_id": "",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "maintains",
+      "public_review_label": "provisional relational crosswalk"
+    }
+  ],
+  "claims": [],
+  "sources": [
+    {
+      "id": "src_cynefin_company_home_2026",
+      "title": "The Cynefin Company",
+      "source_type": "official_organisation_site",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://thecynefin.co/",
+      "date": "current; checked 2026-08-11",
+      "notes": "Canonical first-party source for the organisation's current identity, offers and public library. Use independent sources for evaluative claims about impact or standing.",
+      "creators": [
+        "The Cynefin Company"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "The Cynefin Company",
+      "licence": "site_terms",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-11",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_cynefin_dave_profile_2026",
+      "title": "Dave Snowden — The Cynefin Company profile",
+      "source_type": "official_professional_profile",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://thecynefin.co/team/dave-snowden/",
+      "date": "current; checked 2026-08-11",
+      "notes": "Canonical first-party source for Dave Snowden's present roles and the organisation's own account of his creation of Cynefin and origination of SenseMaker. It does not independently establish influence, efficacy or priority beyond those declared facts.",
+      "creators": [
+        "The Cynefin Company"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "The Cynefin Company",
+      "licence": "site_terms",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-11",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_cynefin_dave_blog_archive_2026",
+      "title": "Dave Snowden author archive — The Cynefin Company",
+      "source_type": "primary_author_blog_archive",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://thecynefin.co/author/dave-snowden/",
+      "date": "current archive; checked 2026-08-11",
+      "notes": "Canonical first-party route to Snowden's dated public essays. Individual posts support his own evolving terminology and positions; the archive as a whole is not independent corroboration or one internally uniform theory text.",
+      "creators": [
+        "Dave Snowden"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "The Cynefin Company",
+      "licence": "site_terms",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-11",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_cynefin_sensemaker_official_2026",
+      "title": "SenseMaker — The Cynefin Company",
+      "source_type": "official_product_and_method_page",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://thecynefin.co/sensemaker/",
+      "date": "current; checked 2026-08-11",
+      "notes": "Canonical first-party description of SenseMaker and its use of self-interpreted micro-narratives. Use project reports and independent evaluations for claims about results in particular settings.",
+      "creators": [
+        "The Cynefin Company"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "The Cynefin Company",
+      "licence": "site_terms",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-11",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_cynefin_io_main_2026",
+      "title": "Cynefin.io — Naturalising Sense-Making wiki",
+      "source_type": "official_collaborative_wiki",
+      "quality_tier": "B",
+      "access": "public",
+      "url": "https://cynefin.io/wiki/Main_Page",
+      "date": "current; checked 2026-08-11",
+      "notes": "Canonical project wiki and discovery source for current naturalising sense-making terminology, methods and internal cross-links. Pages are collaboratively editable and should be cited with page title, revision and stronger sources for disputed history or efficacy. The wiki states CC BY-SA availability unless a page says otherwise.",
+      "creators": [
+        "Cynefin.io contributors"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Cynefin.io",
+      "licence": "CC BY-SA unless otherwise indicated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-11",
+      "public_link_status": "public_link"
+    }
+  ],
+  "evidence_locators": [],
+  "reuse_note": "Preserve source attribution, scope, and review status. Source documents and evidence excerpts are excluded."
+}

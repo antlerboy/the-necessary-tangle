@@ -1,0 +1,161 @@
+{
+  "schema_version": "1.0",
+  "canonical_url": "https://transduction.systems/entries/person_david_l_hawk/",
+  "release": "0.35",
+  "citation": "Taylor, B. P. (2026). David L. Hawk. The Necessary Tangle, release 0.35. https://transduction.systems/entries/person_david_l_hawk/",
+  "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
+  "entry": {
+    "id": "person_david_l_hawk",
+    "label": "David L. Hawk",
+    "entity_type": "person",
+    "description": "David L. Hawk wrote the 2020 proceedings paper Socio-technical-natural systems thinking. Its abstract revisits socio-technical concerns through the environmental context of industrial activity and identifies Trist's work as a point of departure.",
+    "aliases": [
+      "David Hawk"
+    ],
+    "boundary_ring": "0",
+    "inclusion_reason": "source_intake_20260918",
+    "status": "candidate",
+    "source_ids": [
+      "src_intake26_hawk2020",
+      "src_reports27_issue_72"
+    ],
+    "set_tags": [
+      "systems"
+    ],
+    "espoused_labels": [],
+    "observed_clusters": [],
+    "canonical_definition": "David L. Hawk wrote the 2020 proceedings paper Socio-technical-natural systems thinking. Its abstract revisits socio-technical concerns through the environmental context of industrial activity and identifies Trist's work as a point of departure.",
+    "valid_from": "",
+    "valid_to": "",
+    "external_ids": "{}",
+    "geographies": [],
+    "licence": "",
+    "review_status": "source_scoped_report_review_complete",
+    "reviewed_by": "",
+    "reviewed_at": "",
+    "x": 0.07599999999999996,
+    "y": -0.16099999999999998,
+    "canonical_id": "person_david_l_hawk",
+    "public_visibility": "public",
+    "publication_level": "profile",
+    "public_stub_text": "",
+    "public_source_count": 2,
+    "no_public_link_count": 0
+  },
+  "profile": {
+    "node_id": "person_david_l_hawk",
+    "summary": "David L. Hawk wrote the 2020 proceedings paper Socio-technical-natural systems thinking. Its abstract revisits socio-technical concerns through the environmental context of industrial activity and identifies Trist's work as a point of departure.",
+    "canonical_definition": "David L. Hawk wrote the 2020 proceedings paper Socio-technical-natural systems thinking. Its abstract revisits socio-technical concerns through the environmental context of industrial activity and identifies Trist's work as a point of departure.",
+    "why_it_matters": "Hawk's paper asks what is omitted when a sociotechnical frame treats the natural environment as background rather than as part of the system under consideration.",
+    "key_distinctions": [
+      "Citing or discussing Trist and Ackoff is not evidence of studying under them.",
+      "A publication abstract supports the paper's stated concern, not every biographical claim in the report."
+    ],
+    "historical_lineage": [
+      "A proposed extension from sociotechnical to socio-technical-natural inquiry."
+    ],
+    "logical_antecedents": [],
+    "dependent_subsequents": [],
+    "practice_connections": [
+      "Test whether an organisational intervention has pushed ecological effects outside its chosen boundary."
+    ],
+    "common_misreadings": [
+      "The entry does not present Hawk as a simple conduit from a single Penn lineage."
+    ],
+    "open_checks": [
+      "The full paper and primary records for the Penn, Stockholm, and named collaborator claims remain to be reviewed."
+    ],
+    "source_ids": [
+      "src_intake26_hawk2020",
+      "src_reports27_issue_72"
+    ],
+    "context_and_lineage": "Reviewed from public report #72. The report is a research prompt; the profile retains only claims bounded by the cited records.",
+    "editorial_note": "Prepared with AI assistance from the named public records and the public report. The report review is complete; open checks are future research, not missing entry work. Independent specialist review is not recorded.",
+    "last_researched": "2026-09-20",
+    "title": "David L. Hawk",
+    "profile_status": "source_scoped_report_review_complete",
+    "review_status": "independent_review_not_recorded",
+    "reviewed_by": "",
+    "reviewed_at": "",
+    "report_issue": 72,
+    "report_outcome": "profile_deepened; paper-level claim retained; teacher-student and collaboration claims deferred"
+  },
+  "connections": [
+    {
+      "id": "e25_publication_hawk_stn_2020_authored_by_person_david_l_hawk",
+      "source": "publication_hawk_stn_2020",
+      "target": "person_david_l_hawk",
+      "relation_type": "authored_by",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "",
+      "claim_status": "candidate",
+      "source_ids": [
+        "src_intake26_hawk2020"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Authors and recommended citation",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Publication credit only; no claim about training or influence.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "is authored by",
+      "public_review_label": "Located source statement; independent review not recorded"
+    }
+  ],
+  "claims": [],
+  "sources": [
+    {
+      "id": "src_intake26_hawk2020",
+      "title": "Socio-technical-natural systems thinking (STN)",
+      "source_type": "primary_public_record",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://digitalcommons.njit.edu/fac_pubs/5582/",
+      "date": "2020",
+      "notes": "Authors; Abstract; Recommended Citation: 2020 proceedings record and abstract. The abstract starts from Trist's work and considers industrial activity within its environmental context. It does not establish Hawk's teacher–student lineage.",
+      "creators": [],
+      "doi": "",
+      "isbn": "",
+      "publisher": "New Jersey Institute of Technology",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "source_scope_checked",
+      "last_checked": "2026-09-18",
+      "public_link_status": "public_link",
+      "connection_pass": "source_intake_20260918"
+    },
+    {
+      "id": "src_reports27_issue_72",
+      "title": "Missing-entry report #72: David L. Hawk",
+      "source_type": "public_submission",
+      "quality_tier": "B",
+      "access": "public",
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/72",
+      "date": "2026-09-20",
+      "notes": "Public report by David Ing. The report prompted research but is not treated as evidence for its own claims.",
+      "creators": [
+        "David Ing"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "The Necessary Tangle public intake",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "report_reviewed_against_public_sources",
+      "last_checked": "2026-09-20",
+      "public_link_status": "public_link",
+      "connection_pass": "missing_entry_reports_20260920"
+    }
+  ],
+  "evidence_locators": [],
+  "reuse_note": "Preserve source attribution, scope, and review status. Source documents and evidence excerpts are excluded."
+}

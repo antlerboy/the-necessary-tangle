@@ -1,0 +1,270 @@
+{
+  "schema_version": "1.0",
+  "canonical_url": "https://transduction.systems/entries/person_michael_c_jackson/",
+  "release": "0.35",
+  "citation": "Taylor, B. P. (2026). Michael C. Jackson. The Necessary Tangle, release 0.35. https://transduction.systems/entries/person_michael_c_jackson/",
+  "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
+  "entry": {
+    "id": "person_michael_c_jackson",
+    "label": "Michael C. Jackson",
+    "entity_type": "person",
+    "description": "A systems scholar and practitioner central to the development of critical systems thinking, creative holism and critical systems practice, including the purposeful selection and combination of methods under conditions of complexity, pluralism and power.",
+    "aliases": [
+      "Mike Jackson",
+      "Michael Jackson (systems scholar)"
+    ],
+    "boundary_ring": "0",
+    "inclusion_reason": "practitioner_expertise_coverage_release_0_12",
+    "status": "accepted",
+    "source_ids": [
+      "src_scio_critical_systems_thinking_2024",
+      "src_ou_mike_jackson_cst_2022",
+      "src_hull_centre_systems_studies_2026"
+    ],
+    "set_tags": [
+      "systems",
+      "practice",
+      "human_lineage",
+      "release_0_12",
+      "release_0_17",
+      "critical-systems",
+      "methodological-pluralism",
+      "hull"
+    ],
+    "espoused_labels": [],
+    "observed_clusters": [],
+    "canonical_definition": "A systems scholar and practitioner central to the development of critical systems thinking, creative holism and critical systems practice, including the purposeful selection and combination of methods under conditions of complexity, pluralism and power.",
+    "valid_from": "",
+    "valid_to": "",
+    "external_ids": "{}",
+    "geographies": [],
+    "licence": "",
+    "review_status": "curator_checked_public_sources",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-19",
+    "x": 0.17,
+    "y": 0.32,
+    "canonical_id": "person_michael_c_jackson",
+    "public_visibility": "public",
+    "publication_level": "profile",
+    "public_stub_text": "",
+    "public_source_count": 3,
+    "no_public_link_count": 0
+  },
+  "profile": {
+    "node_id": "person_michael_c_jackson",
+    "title": "Michael C. Jackson",
+    "profile_status": "curator_checked_public_sources",
+    "canonical_definition": "Jackson's critical systems programme treats the diversity of systems approaches as a resource to be selected and combined critically rather than a contest to identify one universally correct method.",
+    "summary": "Jackson's critical systems programme treats the diversity of systems approaches as a resource to be selected and combined critically rather than a contest to identify one universally correct method.",
+    "why_it_matters": "It provides a central route from philosophy and methodological pluralism into practical intervention, while keeping power, interests and emancipation discussable.",
+    "key_distinctions": [
+      "critical pluralism versus method relativism",
+      "creative holism versus indiscriminate method mixing",
+      "complexity and pluralism versus one-dimensional diagnosis",
+      "method selection versus brand loyalty"
+    ],
+    "historical_lineage": [
+      "Hull Centre for Systems Studies",
+      "UK systems movement",
+      "critical systems thinking",
+      "critical systems practice"
+    ],
+    "logical_antecedents": [
+      "systems methodologies",
+      "critical theory",
+      "methodological pluralism",
+      "power and emancipation"
+    ],
+    "dependent_subsequents": [
+      "critical systems practice",
+      "creative holism",
+      "multimethodology"
+    ],
+    "practice_connections": [
+      "method selection",
+      "multimethod intervention",
+      "critical reflection",
+      "complex organisational inquiry"
+    ],
+    "espoused_lineages": [],
+    "observed_clusters": [],
+    "common_misreadings": [
+      "Critical systems thinking is not merely a catalogue of methods.",
+      "Pluralism does not mean every method or combination is equally warranted."
+    ],
+    "open_checks": [
+      "Add page-level links between Jackson's frameworks, individual methodologies and documented applications.",
+      "Develop criticism of the programme from within and outside critical systems traditions."
+    ],
+    "source_ids": [
+      "src_scio_critical_systems_thinking_2024",
+      "src_ou_mike_jackson_cst_2022",
+      "src_hull_centre_systems_studies_2026"
+    ],
+    "evidence_ids": [],
+    "last_researched": "2026-08-19",
+    "review_status": "curator_checked_public_sources",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-10",
+    "editorial_note": "",
+    "context_and_lineage": "Institutional and intellectual context: the Hull critical systems programme and the wider UK systems movement. This is an intellectual lineage, not an inferred personal identity."
+  },
+  "connections": [
+    {
+      "id": "e17_jackson_develops_cst",
+      "source": "person_michael_c_jackson",
+      "target": "tradition_critical_systems_thinking",
+      "relation_type": "develops",
+      "relation_family": "conceptual",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.94",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_ou_mike_jackson_cst_2022",
+        "src_scio_critical_systems_thinking_2024"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Open University event account and SCiO publication record",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "This states a central documented role, not sole authorship of the whole critical systems tradition.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-19",
+      "notes": "",
+      "plain_phrase": "is a central developer of",
+      "public_review_label": "source-backed statement"
+    },
+    {
+      "id": "e17_jackson_hull_centre",
+      "source": "person_michael_c_jackson",
+      "target": "organisation_centre_for_systems_studies_hull",
+      "relation_type": "associated_with",
+      "relation_family": "human",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.94",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_hull_centre_systems_studies_2026",
+        "src_ou_mike_jackson_cst_2022"
+      ],
+      "evidence_ids": [],
+      "source_locator": "University of Hull centre page and Open University event account",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Institutional association and programme history only.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-19",
+      "notes": "",
+      "plain_phrase": "developed and practised systems work through",
+      "public_review_label": "source-backed statement"
+    },
+    {
+      "id": "e_12_cst_book_jackson",
+      "source": "publication_critical_systems_thinking_practitioners_guide",
+      "target": "person_michael_c_jackson",
+      "relation_type": "authored_by",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.88",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_scio_critical_systems_thinking_2024"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Release 0.12 public practitioner and publication sources",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "The wording is limited to the named public sources. Bibliographic inclusion and organisational association do not establish wider intellectual influence.",
+      "assertion_mode": "asserted",
+      "inference_method": "curatorial synthesis of public primary, scholarly and professional-body sources",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-10",
+      "notes": "The official page identifies Michael C. Jackson as author.",
+      "plain_phrase": "was authored by",
+      "public_review_label": "supported working statement"
+    }
+  ],
+  "claims": [],
+  "sources": [
+    {
+      "id": "src_scio_critical_systems_thinking_2024",
+      "title": "Critical Systems Thinking: A Practitioner's Guide",
+      "source_type": "official_professional_body_book_page",
+      "quality_tier": "B",
+      "access": "public_metadata",
+      "url": "https://www.systemspractice.org/resources/critical-systems-thinking-practitioners-guide",
+      "date": "2024-06",
+      "notes": "SCiO bibliographic and descriptive page for Michael C. Jackson's guide to critical systems thinking and critical systems practice.",
+      "creators": [
+        "Michael C. Jackson"
+      ],
+      "doi": "",
+      "isbn": "978-1394203574",
+      "publisher": "Wiley",
+      "licence": "publisher_terms",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-10",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_ou_mike_jackson_cst_2022",
+      "title": "Critical Systems Thinking and Practice: what has been done and what needs doing",
+      "source_type": "official_institutional_event_record",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://university.open.ac.uk/stem/engineering-and-innovation/news/22nd-june-third-50th-birthday-celebrations-systems-teaching-ou",
+      "date": "2022",
+      "notes": "Open University account of Michael C. Jackson's role in developing the critical systems thinking and practice research programme at Hull, including its relation to the wider UK systems field.",
+      "creators": [
+        "The Open University",
+        "Michael C. Jackson"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "The Open University",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-19",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_hull_centre_systems_studies_2026",
+      "title": "Centre for Systems Studies",
+      "source_type": "official_institutional_page",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://www.hull.ac.uk/research/centres/centre-for-systems-studies",
+      "date": "checked 2026-08-19",
+      "notes": "University of Hull page for the Centre for Systems Studies and its continuing systems-thinking mission and practice programme.",
+      "creators": [
+        "University of Hull"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "University of Hull",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-19",
+      "public_link_status": "public_link"
+    }
+  ],
+  "evidence_locators": [],
+  "reuse_note": "Preserve source attribution, scope, and review status. Source documents and evidence excerpts are excluded."
+}

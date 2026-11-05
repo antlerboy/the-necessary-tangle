@@ -1,0 +1,318 @@
+{
+  "schema_version": "1.0",
+  "canonical_url": "https://transduction.systems/entries/tradition_anthro_complexity/",
+  "release": "0.35",
+  "citation": "Taylor, B. P. (2026). Anthro-complexity. The Necessary Tangle, release 0.35. https://transduction.systems/entries/tradition_anthro_complexity/",
+  "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
+  "entry": {
+    "id": "tradition_anthro_complexity",
+    "label": "Anthro-complexity",
+    "entity_type": "tradition",
+    "description": "A body of theory and practice concerned with complexity in human systems, foregrounding meaning, intentionality, identity, narrative and the limits of treating people as interchangeable agents.",
+    "aliases": [
+      "Anthro-Complexity"
+    ],
+    "boundary_ring": "0",
+    "inclusion_reason": "snowden_cynefin_canonical_sources_release_0_14",
+    "status": "accepted",
+    "source_ids": [
+      "src_cynefin_io_anthro_complexity_2026",
+      "src_cynefin_dave_profile_2026"
+    ],
+    "set_tags": [
+      "complexity",
+      "sensemaking",
+      "expertise",
+      "release_0_14"
+    ],
+    "espoused_labels": [],
+    "observed_clusters": [],
+    "canonical_definition": "A body of theory and practice concerned with complexity in human systems, foregrounding meaning, intentionality, identity, narrative and the limits of treating people as interchangeable agents.",
+    "valid_from": "",
+    "valid_to": "",
+    "external_ids": "{}",
+    "geographies": [],
+    "licence": "",
+    "review_status": "curator_checked_public_sources",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-11",
+    "x": 0.14,
+    "y": -0.02,
+    "canonical_id": "tradition_anthro_complexity",
+    "public_visibility": "public",
+    "publication_level": "profile",
+    "public_stub_text": "",
+    "public_source_count": 2,
+    "no_public_link_count": 0
+  },
+  "profile": {
+    "node_id": "tradition_anthro_complexity",
+    "title": "Anthro-complexity",
+    "profile_status": "curator_checked_public_sources",
+    "canonical_definition": "A body of theory and practice concerned with complexity in human systems, foregrounding meaning, intentionality, identity, narrative and the limits of treating people as interchangeable agents.",
+    "summary": "Anthro-complexity addresses complexity in human systems without treating people as simple agents analogous to insects, particles or interchangeable units. It foregrounds meaning, play, making, narrative, identity and intentionality.",
+    "why_it_matters": "Human beings can act on descriptions, change identity, contest purposes and alter the rules. These capacities affect what can be carried across from computational or biological complexity models.",
+    "key_distinctions": [
+      "human sense-making vs agent simulation",
+      "meaning and identity vs behaviour alone",
+      "natural science constraint vs direct social analogy",
+      "anthro-complexity vs all complexity science"
+    ],
+    "historical_lineage": [
+      "naturalising sense-making",
+      "complex adaptive systems",
+      "anthropology",
+      "narrative practice"
+    ],
+    "logical_antecedents": [
+      "identity",
+      "intentionality",
+      "intelligence",
+      "narrative",
+      "abstraction"
+    ],
+    "dependent_subsequents": [
+      "human-system intervention principles",
+      "complex facilitation",
+      "SenseMaker practice"
+    ],
+    "practice_connections": [
+      "organisational decision-making",
+      "public policy",
+      "participative research",
+      "strategy"
+    ],
+    "espoused_lineages": [],
+    "observed_clusters": [],
+    "common_misreadings": [
+      "human systems are exempt from material constraint",
+      "computational complexity is rejected rather than bounded",
+      "anthro-complexity is the only account of social complexity"
+    ],
+    "open_checks": [
+      "add peer-reviewed and independent accounts",
+      "compare with complex responsive processes and social complexity traditions",
+      "clarify relation to cybernetics and systems dynamics"
+    ],
+    "source_ids": [
+      "src_cynefin_io_anthro_complexity_2026",
+      "src_cynefin_dave_profile_2026"
+    ],
+    "evidence_ids": [],
+    "last_researched": "2026-08-11",
+    "review_status": "curator_checked_public_sources",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-11",
+    "editorial_note": "Developed from public primary, institutional, publisher and project sources. First-party source roles and independent evidential limits are stated explicitly."
+  },
+  "connections": [
+    {
+      "id": "e_14_anthro_complexity",
+      "source": "tradition_anthro_complexity",
+      "target": "concept_complexity",
+      "relation_type": "specialises",
+      "relation_family": "conceptual",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.88",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_cynefin_io_anthro_complexity_2026"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Release 0.14 public primary, official, institutional and publisher sources",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "The statement is limited to the named sources and their evidential role. First-party definition, authorship, historical development, application and independent evaluation remain distinct claims.",
+      "assertion_mode": "asserted",
+      "inference_method": "curatorial synthesis of public sources",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-11",
+      "notes": "Anthro-complexity is the project's account of complexity in human systems.",
+      "plain_phrase": "specialises complexity for human systems",
+      "public_review_label": "supported working statement"
+    },
+    {
+      "id": "e_14_anthro_identity",
+      "source": "tradition_anthro_complexity",
+      "target": "concept_identity",
+      "relation_type": "uses",
+      "relation_family": "conceptual",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.88",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_cynefin_io_anthro_complexity_2026"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Release 0.14 public primary, official, institutional and publisher sources",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "The statement is limited to the named sources and their evidential role. First-party definition, authorship, historical development, application and independent evaluation remain distinct claims.",
+      "assertion_mode": "asserted",
+      "inference_method": "curatorial synthesis of public sources",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-11",
+      "notes": "Identity is one of the 3Is in the project's account.",
+      "plain_phrase": "foregrounds",
+      "public_review_label": "supported working statement"
+    },
+    {
+      "id": "e_14_dave_anthro",
+      "source": "person_dave_snowden",
+      "target": "tradition_anthro_complexity",
+      "relation_type": "developed",
+      "relation_family": "historical",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.88",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_cynefin_dave_profile_2026",
+        "src_cynefin_io_anthro_complexity_2026"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Release 0.14 public primary, official, institutional and publisher sources",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "The statement is limited to the named sources and their evidential role. First-party definition, authorship, historical development, application and independent evaluation remain distinct claims.",
+      "assertion_mode": "asserted",
+      "inference_method": "curatorial synthesis of public sources",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-11",
+      "notes": "The official sources identify anthro-complexity as a substantial strand of Snowden's work.",
+      "plain_phrase": "developed",
+      "public_review_label": "supported working statement"
+    },
+    {
+      "id": "e_14_naturalising_anthro",
+      "source": "approach_family_naturalising_sense_making",
+      "target": "tradition_anthro_complexity",
+      "relation_type": "includes",
+      "relation_family": "classification",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.88",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_cynefin_io_anthro_complexity_2026",
+        "src_cynefin_io_naturalising_2026"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Release 0.14 public primary, official, institutional and publisher sources",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "The statement is limited to the named sources and their evidential role. First-party definition, authorship, historical development, application and independent evaluation remain distinct claims.",
+      "assertion_mode": "asserted",
+      "inference_method": "curatorial synthesis of public sources",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-11",
+      "notes": "The wiki describes anthro-complexity as a subset of naturalising sense-making.",
+      "plain_phrase": "includes",
+      "public_review_label": "supported working statement"
+    },
+    {
+      "id": "e_14_wiki_anthro",
+      "source": "corpus_cynefin_io_wiki",
+      "target": "tradition_anthro_complexity",
+      "relation_type": "described_by",
+      "relation_family": "evidence",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.88",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_cynefin_io_anthro_complexity_2026"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Release 0.14 public primary, official, institutional and publisher sources",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "The statement is limited to the named sources and their evidential role. First-party definition, authorship, historical development, application and independent evaluation remain distinct claims.",
+      "assertion_mode": "asserted",
+      "inference_method": "curatorial synthesis of public sources",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-11",
+      "notes": "The dedicated wiki page supplies the project's current anthro-complexity account.",
+      "plain_phrase": "describes",
+      "public_review_label": "supported working statement"
+    }
+  ],
+  "claims": [],
+  "sources": [
+    {
+      "id": "src_cynefin_io_anthro_complexity_2026",
+      "title": "Anthro-complexity — Cynefin.io",
+      "source_type": "official_collaborative_wiki_page",
+      "quality_tier": "B",
+      "access": "public",
+      "url": "https://cynefin.io/wiki/Anthro-complexity",
+      "date": "current page; checked 2026-08-11",
+      "notes": "First-party maintained account of anthro-complexity as a body of theory and practice concerning human sense-making and action. Use it for declared scope and vocabulary, not as independent adjudication of contested theoretical claims.",
+      "creators": [
+        "Cynefin.io contributors"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Cynefin.io",
+      "licence": "CC BY-SA unless otherwise indicated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-11",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_cynefin_dave_profile_2026",
+      "title": "Dave Snowden — The Cynefin Company profile",
+      "source_type": "official_professional_profile",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://thecynefin.co/team/dave-snowden/",
+      "date": "current; checked 2026-08-11",
+      "notes": "Canonical first-party source for Dave Snowden's present roles and the organisation's own account of his creation of Cynefin and origination of SenseMaker. It does not independently establish influence, efficacy or priority beyond those declared facts.",
+      "creators": [
+        "The Cynefin Company"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "The Cynefin Company",
+      "licence": "site_terms",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-11",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_cynefin_io_naturalising_2026",
+      "title": "Naturalising sense-making — Cynefin.io",
+      "source_type": "official_collaborative_wiki_page",
+      "quality_tier": "B",
+      "access": "public",
+      "url": "https://cynefin.io/index.php/Naturalising_sense-making",
+      "date": "current page; checked 2026-08-11",
+      "notes": "First-party maintained definition of naturalising sense-making, including its use of natural science as a constraint and its links to Cynefin, SenseMaker and anthro-complexity.",
+      "creators": [
+        "Cynefin.io contributors"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Cynefin.io",
+      "licence": "CC BY-SA unless otherwise indicated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-11",
+      "public_link_status": "public_link"
+    }
+  ],
+  "evidence_locators": [],
+  "reuse_note": "Preserve source attribution, scope, and review status. Source documents and evidence excerpts are excluded."
+}

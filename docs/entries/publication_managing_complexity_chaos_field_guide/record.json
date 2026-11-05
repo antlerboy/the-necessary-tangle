@@ -1,0 +1,236 @@
+{
+  "schema_version": "1.0",
+  "canonical_url": "https://transduction.systems/entries/publication_managing_complexity_chaos_field_guide/",
+  "release": "0.35",
+  "citation": "Taylor, B. P. (2026). Managing complexity (and chaos) in times of crisis. The Necessary Tangle, release 0.35. https://transduction.systems/entries/publication_managing_complexity_chaos_field_guide/",
+  "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
+  "entry": {
+    "id": "publication_managing_complexity_chaos_field_guide",
+    "label": "Managing complexity (and chaos) in times of crisis",
+    "entity_type": "publication",
+    "description": "European Commission Joint Research Centre field guide by Dave Snowden and Alessandro Rancati, using Cynefin to support crisis assessment, sensing, repurposing and learning.",
+    "aliases": [
+      "EU Cynefin field guide"
+    ],
+    "boundary_ring": "0",
+    "inclusion_reason": "snowden_cynefin_canonical_sources_release_0_14",
+    "status": "accepted",
+    "source_ids": [
+      "src_jrc_complexity_crisis_2021",
+      "src_cynefin_field_guide_library_2021"
+    ],
+    "set_tags": [
+      "complexity",
+      "sensemaking",
+      "expertise",
+      "release_0_14"
+    ],
+    "espoused_labels": [],
+    "observed_clusters": [],
+    "canonical_definition": "European Commission Joint Research Centre field guide by Dave Snowden and Alessandro Rancati, using Cynefin to support crisis assessment, sensing, repurposing and learning.",
+    "valid_from": "",
+    "valid_to": "",
+    "external_ids": "{}",
+    "geographies": [],
+    "licence": "",
+    "review_status": "curator_checked_public_sources",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-11",
+    "x": 1.16,
+    "y": 0.26,
+    "canonical_id": "publication_managing_complexity_chaos_field_guide",
+    "public_visibility": "public",
+    "publication_level": "profile",
+    "public_stub_text": "",
+    "public_source_count": 2,
+    "no_public_link_count": 0
+  },
+  "profile": {
+    "node_id": "publication_managing_complexity_chaos_field_guide",
+    "title": "Managing complexity (and chaos) in times of crisis",
+    "profile_status": "curator_checked_public_sources",
+    "canonical_definition": "European Commission Joint Research Centre field guide by Dave Snowden and Alessandro Rancati, using Cynefin to support crisis assessment, sensing, repurposing and learning.",
+    "summary": "The JRC field guide offers a four-stage crisis approach informed by Cynefin: assess and respond, build sensing networks, repurpose structures for innovation, and formalise learning and resilience.",
+    "why_it_matters": "It is a public institutional translation into crisis practice, with explicit attention to boundaries, informal structures, options and distributed engagement.",
+    "key_distinctions": [
+      "field guide vs universal procedure",
+      "complexity vs chaos",
+      "sensing network vs central information pipeline"
+    ],
+    "historical_lineage": [
+      "Cynefin",
+      "European Commission Joint Research Centre",
+      "crisis practice"
+    ],
+    "logical_antecedents": [
+      "context assessment",
+      "boundaries",
+      "sensing",
+      "options"
+    ],
+    "dependent_subsequents": [
+      "crisis action stages",
+      "institutional learning"
+    ],
+    "practice_connections": [
+      "government",
+      "crisis response",
+      "resilience",
+      "innovation"
+    ],
+    "espoused_lineages": [],
+    "observed_clusters": [],
+    "common_misreadings": [
+      "four stages imply a linear programme",
+      "a guide removes the need for situated judgement"
+    ],
+    "open_checks": [
+      "add evaluations and cases",
+      "compare with emergency-management doctrine",
+      "trace later revisions"
+    ],
+    "source_ids": [
+      "src_jrc_complexity_crisis_2021",
+      "src_cynefin_field_guide_library_2021"
+    ],
+    "evidence_ids": [],
+    "last_researched": "2026-08-11",
+    "review_status": "curator_checked_public_sources",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-11",
+    "editorial_note": "Developed from public primary, institutional, publisher and project sources. First-party source roles and independent evidential limits are stated explicitly."
+  },
+  "connections": [
+    {
+      "id": "e_14_field_cynefin",
+      "source": "publication_managing_complexity_chaos_field_guide",
+      "target": "method_or_methodology_cynefin_framework",
+      "relation_type": "applies",
+      "relation_family": "practice",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.88",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_jrc_complexity_crisis_2021"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Release 0.14 public primary, official, institutional and publisher sources",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "The statement is limited to the named sources and their evidential role. First-party definition, authorship, historical development, application and independent evaluation remain distinct claims.",
+      "assertion_mode": "asserted",
+      "inference_method": "curatorial synthesis of public sources",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-11",
+      "notes": "The field guide explicitly draws on Cynefin for crisis decision support.",
+      "plain_phrase": "applies",
+      "public_review_label": "supported working statement"
+    },
+    {
+      "id": "e_14_field_dave",
+      "source": "publication_managing_complexity_chaos_field_guide",
+      "target": "person_dave_snowden",
+      "relation_type": "authored_by",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.88",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_jrc_complexity_crisis_2021"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Release 0.14 public primary, official, institutional and publisher sources",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "The statement is limited to the named sources and their evidential role. First-party definition, authorship, historical development, application and independent evaluation remain distinct claims.",
+      "assertion_mode": "asserted",
+      "inference_method": "curatorial synthesis of public sources",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-11",
+      "notes": "The JRC record names Dave Snowden.",
+      "plain_phrase": "was co-authored by",
+      "public_review_label": "supported working statement"
+    },
+    {
+      "id": "e_14_field_rancati",
+      "source": "publication_managing_complexity_chaos_field_guide",
+      "target": "person_alessandro_rancati",
+      "relation_type": "authored_by",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.88",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_jrc_complexity_crisis_2021"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Release 0.14 public primary, official, institutional and publisher sources",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "The statement is limited to the named sources and their evidential role. First-party definition, authorship, historical development, application and independent evaluation remain distinct claims.",
+      "assertion_mode": "asserted",
+      "inference_method": "curatorial synthesis of public sources",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-11",
+      "notes": "The JRC record names Alessandro Rancati.",
+      "plain_phrase": "was co-authored by",
+      "public_review_label": "supported working statement"
+    }
+  ],
+  "claims": [],
+  "sources": [
+    {
+      "id": "src_jrc_complexity_crisis_2021",
+      "title": "Managing complexity (and chaos) in times of crisis: a field guide for decision makers inspired by the Cynefin framework",
+      "source_type": "official_publication_record",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://publications.jrc.ec.europa.eu/repository/handle/JRC123629",
+      "date": "2021-02-12",
+      "notes": "European Commission Joint Research Centre record and public field guide by Dave Snowden and Alessandro Rancati. It supports the guide's authorship, four-stage crisis approach and explicit attention to boundaries, sensing networks, distributed engagement and options.",
+      "creators": [
+        "Dave Snowden",
+        "Alessandro Rancati"
+      ],
+      "doi": "10.2760/353",
+      "isbn": "978-92-76-28844-2",
+      "publisher": "Publications Office of the European Union",
+      "licence": "public EU document",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-11",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_cynefin_field_guide_library_2021",
+      "title": "Managing complexity and chaos in times of crisis — Cynefin library record",
+      "source_type": "official_project_library_record",
+      "quality_tier": "B",
+      "access": "public",
+      "url": "https://thecynefin.co/library/managing-complexity-and-chaos-in-times-of-crisis/",
+      "date": "2021",
+      "notes": "First-party project record for the EU field guide and its relation to Cynefin practice. The JRC record is preferred for bibliographic facts and public-document status.",
+      "creators": [
+        "The Cynefin Company"
+      ],
+      "doi": "10.2760/353",
+      "isbn": "",
+      "publisher": "The Cynefin Company",
+      "licence": "site_terms",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-11",
+      "public_link_status": "public_link"
+    }
+  ],
+  "evidence_locators": [],
+  "reuse_note": "Preserve source attribution, scope, and review status. Source documents and evidence excerpts are excluded."
+}

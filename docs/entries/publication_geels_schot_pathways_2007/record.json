@@ -1,0 +1,281 @@
+{
+  "schema_version": "1.0",
+  "canonical_url": "https://transduction.systems/entries/publication_geels_schot_pathways_2007/",
+  "release": "0.35",
+  "citation": "Taylor, B. P. (2026). Typology of sociotechnical transition pathways (2007). The Necessary Tangle, release 0.35. https://transduction.systems/entries/publication_geels_schot_pathways_2007/",
+  "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
+  "entry": {
+    "id": "publication_geels_schot_pathways_2007",
+    "label": "Typology of sociotechnical transition pathways (2007)",
+    "entity_type": "publication",
+    "description": "Frank Geels and Johan Schot distinguish transformation, reconfiguration, technological substitution, and de-alignment and re-alignment. The abstract relates their differences to timing and nature of multi-level interactions.",
+    "aliases": [],
+    "boundary_ring": "0",
+    "inclusion_reason": "update_20261007",
+    "status": "candidate",
+    "source_ids": [
+      "src_u30_transition_pathways"
+    ],
+    "set_tags": [
+      "systems",
+      "release_0_30"
+    ],
+    "espoused_labels": [],
+    "observed_clusters": [],
+    "canonical_definition": "Frank Geels and Johan Schot distinguish transformation, reconfiguration, technological substitution, and de-alignment and re-alignment. The abstract relates their differences to timing and nature of multi-level interactions.",
+    "valid_from": "",
+    "valid_to": "",
+    "external_ids": "{}",
+    "geographies": [],
+    "licence": "",
+    "review_status": "research_pass_needs_editor",
+    "reviewed_by": "",
+    "reviewed_at": "",
+    "x": 0.351582,
+    "y": 0.424891,
+    "canonical_id": "publication_geels_schot_pathways_2007",
+    "public_visibility": "public",
+    "publication_level": "profile",
+    "public_stub_text": "",
+    "public_source_count": 1,
+    "no_public_link_count": 0,
+    "connection_pass": "update_20261007"
+  },
+  "profile": {
+    "node_id": "publication_geels_schot_pathways_2007",
+    "summary": "Frank Geels and Johan Schot distinguish transformation, reconfiguration, technological substitution, and de-alignment and re-alignment. The abstract relates their differences to timing and nature of multi-level interactions.",
+    "canonical_definition": "Frank Geels and Johan Schot distinguish transformation, reconfiguration, technological substitution, and de-alignment and re-alignment. The abstract relates their differences to timing and nature of multi-level interactions.",
+    "why_it_matters": "Use the cited source to distinguish an analytical account from a proposed intervention.",
+    "key_distinctions": [
+      "source account vs editorial application",
+      "single-system change vs cross-system rules"
+    ],
+    "historical_lineage": [],
+    "logical_antecedents": [],
+    "dependent_subsequents": [],
+    "practice_connections": [
+      "Specify the rule, its enforcement and who can change it."
+    ],
+    "common_misreadings": [
+      "Treating transition levels as VSM systems or organisational ranks."
+    ],
+    "open_checks": [
+      "Independent expert review and further empirical comparison remain open."
+    ],
+    "source_ids": [
+      "src_u30_transition_pathways"
+    ],
+    "context_and_lineage": "",
+    "editorial_note": "Prepared with AI assistance; source-scoped first pass. Curator: Benjamin P Taylor.",
+    "last_researched": "2026-10-07",
+    "connection_pass": "update_20261007",
+    "title": "Typology of sociotechnical transition pathways (2007)",
+    "review_status": "research_pass_needs_editor",
+    "profile_status": "evidence_deepened_research_pass"
+  },
+  "connections": [
+    {
+      "id": "e30_auth_publication_geels_schot_pathways_2007_person_johan_schot",
+      "source": "publication_geels_schot_pathways_2007",
+      "target": "person_johan_schot",
+      "relation_type": "authored_by",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "",
+      "claim_status": "candidate",
+      "source_ids": [
+        "src_u30_transition_pathways"
+      ],
+      "evidence_ids": [
+        "ev_e30_auth_publication_geels_schot_pathways_2007_person_johan_schot"
+      ],
+      "source_locator": "Citation",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Authorship of this named publication only; no general lineage or priority claim.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "claim_e30_auth_publication_geels_schot_pathways_2007_person_johan_schot",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "authored by",
+      "public_review_label": "Located source statement; curator review pending",
+      "connection_pass": "update_20261007"
+    },
+    {
+      "id": "e30_auth_publication_geels_schot_pathways_2007_person_frank_geels",
+      "source": "publication_geels_schot_pathways_2007",
+      "target": "person_frank_geels",
+      "relation_type": "authored_by",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "",
+      "claim_status": "candidate",
+      "source_ids": [
+        "src_u30_transition_pathways"
+      ],
+      "evidence_ids": [
+        "ev_e30_auth_publication_geels_schot_pathways_2007_person_frank_geels"
+      ],
+      "source_locator": "Citation",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Authorship of this named publication only; no general lineage or priority claim.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "claim_e30_auth_publication_geels_schot_pathways_2007_person_frank_geels",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "authored by",
+      "public_review_label": "Located source statement; curator review pending",
+      "connection_pass": "update_20261007"
+    },
+    {
+      "id": "e30_pathways_mlp",
+      "source": "publication_geels_schot_pathways_2007",
+      "target": "framework_multi_level_perspective",
+      "relation_type": "presents_account_of",
+      "relation_family": "conceptual",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "",
+      "claim_status": "candidate",
+      "source_ids": [
+        "src_u30_transition_pathways"
+      ],
+      "evidence_ids": [
+        "ev_e30_pathways_mlp"
+      ],
+      "source_locator": "Abstract",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "The paper refines the multi-level perspective and distinguishes four transition pathways; full case-by-case reassessment is not claimed.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "claim_e30_pathways_mlp",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "presents account of",
+      "public_review_label": "Located source statement; curator review pending",
+      "connection_pass": "update_20261007"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_e30_auth_publication_geels_schot_pathways_2007_person_johan_schot",
+      "statement": "Authorship of this named publication only; no general lineage or priority claim.",
+      "subject_id": "publication_geels_schot_pathways_2007",
+      "predicate": "authored_by",
+      "object_id": "person_johan_schot",
+      "status": "candidate",
+      "supporting_source_ids": [
+        "src_u30_transition_pathways"
+      ],
+      "supporting_evidence_ids": [
+        "ev_e30_auth_publication_geels_schot_pathways_2007_person_johan_schot"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_evidence_ids": [],
+      "notes": "Scope is limited to the identified source passage.",
+      "review_status": "research_pass_needs_editor",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "connection_pass": "update_20261007"
+    },
+    {
+      "id": "claim_e30_auth_publication_geels_schot_pathways_2007_person_frank_geels",
+      "statement": "Authorship of this named publication only; no general lineage or priority claim.",
+      "subject_id": "publication_geels_schot_pathways_2007",
+      "predicate": "authored_by",
+      "object_id": "person_frank_geels",
+      "status": "candidate",
+      "supporting_source_ids": [
+        "src_u30_transition_pathways"
+      ],
+      "supporting_evidence_ids": [
+        "ev_e30_auth_publication_geels_schot_pathways_2007_person_frank_geels"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_evidence_ids": [],
+      "notes": "Scope is limited to the identified source passage.",
+      "review_status": "research_pass_needs_editor",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "connection_pass": "update_20261007"
+    },
+    {
+      "id": "claim_e30_pathways_mlp",
+      "statement": "The paper refines the multi-level perspective and distinguishes four transition pathways; full case-by-case reassessment is not claimed.",
+      "subject_id": "publication_geels_schot_pathways_2007",
+      "predicate": "presents_account_of",
+      "object_id": "framework_multi_level_perspective",
+      "status": "candidate",
+      "supporting_source_ids": [
+        "src_u30_transition_pathways"
+      ],
+      "supporting_evidence_ids": [
+        "ev_e30_pathways_mlp"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_evidence_ids": [],
+      "notes": "Scope is limited to the identified source passage.",
+      "review_status": "research_pass_needs_editor",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "connection_pass": "update_20261007"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src_u30_transition_pathways",
+      "title": "Typology of Sociotechnical Transition Pathways",
+      "source_type": "public_source",
+      "quality_tier": "B",
+      "access": "public",
+      "url": "https://www.johanschot.com/publications/typology-of-sociotechnical-transition-pathways/",
+      "date": "2007",
+      "notes": "Author publication page and abstract: four pathways differentiated by timing and nature of interactions.",
+      "creators": [
+        "Frank Geels",
+        "Johan Schot"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Research Policy",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "source_scoped_research_pass",
+      "last_checked": "2026-10-07",
+      "public_link_status": "public_link",
+      "connection_pass": "update_20261007",
+      "source_locator": "Abstract and citation"
+    }
+  ],
+  "evidence_locators": [
+    {
+      "id": "ev_e30_auth_publication_geels_schot_pathways_2007_person_johan_schot",
+      "source_id": "src_u30_transition_pathways",
+      "locator": "Citation",
+      "review_status": "research_pass_needs_editor"
+    },
+    {
+      "id": "ev_e30_auth_publication_geels_schot_pathways_2007_person_frank_geels",
+      "source_id": "src_u30_transition_pathways",
+      "locator": "Citation",
+      "review_status": "research_pass_needs_editor"
+    },
+    {
+      "id": "ev_e30_pathways_mlp",
+      "source_id": "src_u30_transition_pathways",
+      "locator": "Abstract",
+      "review_status": "research_pass_needs_editor"
+    }
+  ],
+  "reuse_note": "Preserve source attribution, scope, and review status. Source documents and evidence excerpts are excluded."
+}

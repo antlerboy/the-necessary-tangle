@@ -1,0 +1,210 @@
+{
+  "schema_version": "1.0",
+  "canonical_url": "https://transduction.systems/entries/publication_new_dynamics_of_strategy/",
+  "release": "0.35",
+  "citation": "Taylor, B. P. (2026). The New Dynamics of Strategy. The Necessary Tangle, release 0.35. https://transduction.systems/entries/publication_new_dynamics_of_strategy/",
+  "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
+  "entry": {
+    "id": "publication_new_dynamics_of_strategy",
+    "label": "The New Dynamics of Strategy",
+    "entity_type": "publication",
+    "description": "2003 article by Cynthia F. Kurtz and David J. Snowden connecting narrative, sense-making and Cynefin dynamics in complex and complicated contexts.",
+    "aliases": [
+      "The New Dynamics of Strategy: Sense-making in a Complex and Complicated World"
+    ],
+    "boundary_ring": "0",
+    "inclusion_reason": "snowden_cynefin_canonical_sources_release_0_14",
+    "status": "accepted",
+    "source_ids": [
+      "src_cynefin_new_dynamics_2003"
+    ],
+    "set_tags": [
+      "complexity",
+      "sensemaking",
+      "expertise",
+      "release_0_14"
+    ],
+    "espoused_labels": [],
+    "observed_clusters": [],
+    "canonical_definition": "2003 article by Cynthia F. Kurtz and David J. Snowden connecting narrative, sense-making and Cynefin dynamics in complex and complicated contexts.",
+    "valid_from": "",
+    "valid_to": "",
+    "external_ids": "{}",
+    "geographies": [],
+    "licence": "",
+    "review_status": "curator_checked_public_sources",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-11",
+    "x": 0.92,
+    "y": 0.56,
+    "canonical_id": "publication_new_dynamics_of_strategy",
+    "public_visibility": "public",
+    "publication_level": "profile",
+    "public_stub_text": "",
+    "public_source_count": 1,
+    "no_public_link_count": 0
+  },
+  "profile": {
+    "node_id": "publication_new_dynamics_of_strategy",
+    "title": "The New Dynamics of Strategy",
+    "profile_status": "curator_checked_public_sources",
+    "canonical_definition": "2003 article by Cynthia F. Kurtz and David J. Snowden connecting narrative, sense-making and Cynefin dynamics in complex and complicated contexts.",
+    "summary": "The New Dynamics of Strategy is an early co-authored scholarly account of narrative, sense-making and movement among Cynefin contexts.",
+    "why_it_matters": "It grounds both the collaborative development and the dynamic, rather than merely classificatory, character of early Cynefin practice.",
+    "key_distinctions": [
+      "complex vs complicated",
+      "dynamics vs static taxonomy",
+      "co-authored development vs sole authorship"
+    ],
+    "historical_lineage": [
+      "IBM knowledge management",
+      "narrative inquiry",
+      "Cynefin"
+    ],
+    "logical_antecedents": [
+      "sense-making",
+      "narrative",
+      "context"
+    ],
+    "dependent_subsequents": [
+      "Cynefin dynamics",
+      "strategy practice"
+    ],
+    "practice_connections": [
+      "strategy",
+      "organisational narrative",
+      "decision support"
+    ],
+    "espoused_lineages": [],
+    "observed_clusters": [],
+    "common_misreadings": [
+      "the diagram is the whole argument",
+      "the domains are static sectors"
+    ],
+    "open_checks": [
+      "summarise with exact page locators",
+      "trace later revisions",
+      "map reception and criticism"
+    ],
+    "source_ids": [
+      "src_cynefin_new_dynamics_2003"
+    ],
+    "evidence_ids": [],
+    "last_researched": "2026-08-11",
+    "review_status": "curator_checked_public_sources",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-11",
+    "editorial_note": "Developed from public primary, institutional, publisher and project sources. First-party source roles and independent evidential limits are stated explicitly."
+  },
+  "connections": [
+    {
+      "id": "e_14_new_dynamics_cynefin",
+      "source": "publication_new_dynamics_of_strategy",
+      "target": "method_or_methodology_cynefin_framework",
+      "relation_type": "develops",
+      "relation_family": "conceptual",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.88",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_cynefin_new_dynamics_2003"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Release 0.14 public primary, official, institutional and publisher sources",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "The statement is limited to the named sources and their evidential role. First-party definition, authorship, historical development, application and independent evaluation remain distinct claims.",
+      "assertion_mode": "asserted",
+      "inference_method": "curatorial synthesis of public sources",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-11",
+      "notes": "The article develops early Cynefin dynamics rather than only a static classification.",
+      "plain_phrase": "develops the dynamics of",
+      "public_review_label": "supported working statement"
+    },
+    {
+      "id": "e_14_new_dynamics_dave",
+      "source": "publication_new_dynamics_of_strategy",
+      "target": "person_dave_snowden",
+      "relation_type": "authored_by",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.88",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_cynefin_new_dynamics_2003"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Release 0.14 public primary, official, institutional and publisher sources",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "The statement is limited to the named sources and their evidential role. First-party definition, authorship, historical development, application and independent evaluation remain distinct claims.",
+      "assertion_mode": "asserted",
+      "inference_method": "curatorial synthesis of public sources",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-11",
+      "notes": "The publication record names David J. Snowden.",
+      "plain_phrase": "was co-authored by",
+      "public_review_label": "supported working statement"
+    },
+    {
+      "id": "e_14_new_dynamics_kurtz",
+      "source": "publication_new_dynamics_of_strategy",
+      "target": "person_cynthia_f_kurtz",
+      "relation_type": "authored_by",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.88",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_cynefin_new_dynamics_2003"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Release 0.14 public primary, official, institutional and publisher sources",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "The statement is limited to the named sources and their evidential role. First-party definition, authorship, historical development, application and independent evaluation remain distinct claims.",
+      "assertion_mode": "asserted",
+      "inference_method": "curatorial synthesis of public sources",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-11",
+      "notes": "The publication record names Cynthia F. Kurtz.",
+      "plain_phrase": "was co-authored by",
+      "public_review_label": "supported working statement"
+    }
+  ],
+  "claims": [],
+  "sources": [
+    {
+      "id": "src_cynefin_new_dynamics_2003",
+      "title": "The New Dynamics of Strategy: Sense-making in a Complex and Complicated World",
+      "source_type": "primary_article_record",
+      "quality_tier": "A",
+      "access": "public_metadata",
+      "url": "https://thecynefin.co/library/the-new-dynamics-of-strategy-sense-making-in-a-complex-and-complicated-world/",
+      "date": "2003",
+      "notes": "Official library record for the article by Cynthia F. Kurtz and David J. Snowden. The article is a principal scholarly source for early Cynefin dynamics and narrative sense-making.",
+      "creators": [
+        "Cynthia F. Kurtz",
+        "David J. Snowden"
+      ],
+      "doi": "10.1147/sj.423.0462",
+      "isbn": "",
+      "publisher": "IBM Systems Journal",
+      "licence": "publisher_terms",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-11",
+      "public_link_status": "public_link"
+    }
+  ],
+  "evidence_locators": [],
+  "reuse_note": "Preserve source attribution, scope, and review status. Source documents and evidence excerpts are excluded."
+}

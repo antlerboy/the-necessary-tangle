@@ -1,0 +1,215 @@
+{
+  "schema_version": "1.0",
+  "canonical_url": "https://transduction.systems/entries/publication_thinking_in_systems/",
+  "release": "0.35",
+  "citation": "Taylor, B. P. (2026). Thinking in Systems. The Necessary Tangle, release 0.35. https://transduction.systems/entries/publication_thinking_in_systems/",
+  "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
+  "entry": {
+    "id": "publication_thinking_in_systems",
+    "label": "Thinking in Systems",
+    "entity_type": "publication",
+    "description": "Donella Meadows's concise introduction to stocks, flows, feedback, delays, resilience, self-organisation and the practical discipline of seeing systems without assuming prediction and control.",
+    "aliases": [
+      "Thinking in Systems: A Primer"
+    ],
+    "boundary_ring": "0",
+    "inclusion_reason": "expertise_and_public_sources_release_0_13",
+    "status": "accepted",
+    "source_ids": [
+      "src_prh_thinking_in_systems_2008"
+    ],
+    "set_tags": [
+      "systems",
+      "human_lineage",
+      "expertise",
+      "release_0_13"
+    ],
+    "espoused_labels": [],
+    "observed_clusters": [],
+    "canonical_definition": "Donella Meadows's concise introduction to stocks, flows, feedback, delays, resilience, self-organisation and the practical discipline of seeing systems without assuming prediction and control.",
+    "valid_from": "",
+    "valid_to": "",
+    "external_ids": "{}",
+    "geographies": [],
+    "licence": "",
+    "review_status": "curator_checked_public_sources",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-11",
+    "x": 0.45,
+    "y": 0.07,
+    "canonical_id": "publication_thinking_in_systems",
+    "public_visibility": "public",
+    "publication_level": "profile",
+    "public_stub_text": "",
+    "public_source_count": 1,
+    "no_public_link_count": 0
+  },
+  "profile": {
+    "node_id": "publication_thinking_in_systems",
+    "title": "Thinking in Systems",
+    "profile_status": "curator_checked_public_sources",
+    "canonical_definition": "Donella Meadows's concise introduction to stocks, flows, feedback, delays, resilience, self-organisation and the practical discipline of seeing systems without assuming prediction and control.",
+    "summary": "Thinking in Systems introduces system structures and behaviours through ordinary examples while retaining the discipline of stocks, flows, feedback, delays and resilience.",
+    "why_it_matters": "It is a widely used route into systems thinking that combines technical clarity with cautions about boundaries, values, surprise and control.",
+    "key_distinctions": [
+      "stock vs flow",
+      "reinforcing vs balancing feedback",
+      "event vs pattern",
+      "resilience vs efficiency"
+    ],
+    "historical_lineage": [
+      "system dynamics",
+      "Donella Meadows's teaching and essays",
+      "Diana Wright's editorial work"
+    ],
+    "logical_antecedents": [
+      "feedback",
+      "stock",
+      "flow",
+      "delay",
+      "system boundary"
+    ],
+    "dependent_subsequents": [
+      "public systems literacy",
+      "leverage-point practice",
+      "systems education"
+    ],
+    "practice_connections": [
+      "policy",
+      "management",
+      "environmental systems",
+      "personal and community action"
+    ],
+    "espoused_lineages": [],
+    "observed_clusters": [],
+    "common_misreadings": [
+      "all systems can be reduced to one diagram",
+      "the text offers prediction rather than disciplined inquiry"
+    ],
+    "open_checks": [
+      "map chapter concepts",
+      "connect to primary essays",
+      "add critiques from non-system-dynamics traditions"
+    ],
+    "source_ids": [
+      "src_prh_thinking_in_systems_2008"
+    ],
+    "evidence_ids": [],
+    "last_researched": "2026-08-11",
+    "review_status": "curator_checked_public_sources",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-11",
+    "editorial_note": "Developed from public primary, institutional and publisher sources. Open to correction, rival interpretation and stronger evidence."
+  },
+  "connections": [
+    {
+      "id": "e_13_thinking_meadows",
+      "source": "publication_thinking_in_systems",
+      "target": "person_donella_meadows",
+      "relation_type": "authored_by",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.88",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_prh_thinking_in_systems_2008"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Release 0.13 public primary, institutional and publisher sources",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "The wording is limited to the named public sources. Authorship, methodological development, conceptual dependence and practical use remain distinct claims.",
+      "assertion_mode": "asserted",
+      "inference_method": "curatorial synthesis of public primary, institutional and publisher sources",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-11",
+      "notes": "The publisher identifies Donella Meadows as author.",
+      "plain_phrase": "was authored by",
+      "public_review_label": "supported working statement"
+    },
+    {
+      "id": "e_13_thinking_sd",
+      "source": "publication_thinking_in_systems",
+      "target": "method_or_methodology_system_dynamics",
+      "relation_type": "translates_for_practice",
+      "relation_family": "practice",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.88",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_prh_thinking_in_systems_2008"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Release 0.13 public primary, institutional and publisher sources",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "The wording is limited to the named public sources. Authorship, methodological development, conceptual dependence and practical use remain distinct claims.",
+      "assertion_mode": "asserted",
+      "inference_method": "curatorial synthesis of public primary, institutional and publisher sources",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-11",
+      "notes": "The book brings system-dynamics concepts into accessible practice-facing form.",
+      "plain_phrase": "translates for practice",
+      "public_review_label": "supported working statement"
+    },
+    {
+      "id": "e_13_thinking_wright",
+      "source": "publication_thinking_in_systems",
+      "target": "person_diana_wright",
+      "relation_type": "edited_by",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.88",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_prh_thinking_in_systems_2008"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Release 0.13 public primary, institutional and publisher sources",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "The wording is limited to the named public sources. Authorship, methodological development, conceptual dependence and practical use remain distinct claims.",
+      "assertion_mode": "asserted",
+      "inference_method": "curatorial synthesis of public primary, institutional and publisher sources",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-11",
+      "notes": "The publisher identifies Diana Wright as editor.",
+      "plain_phrase": "was edited by",
+      "public_review_label": "supported working statement"
+    }
+  ],
+  "claims": [],
+  "sources": [
+    {
+      "id": "src_prh_thinking_in_systems_2008",
+      "title": "Thinking in Systems: A Primer",
+      "source_type": "official_publisher_book_page",
+      "quality_tier": "A",
+      "access": "public_metadata",
+      "url": "https://www.penguinrandomhouse.com/books/801035/thinking-in-systems-by-donella-meadows/",
+      "date": "2008-12-05",
+      "notes": "The publisher records Donella Meadows as author and Diana Wright as editor and describes the book as a practice-facing introduction to systems structures, feedback and intervention.",
+      "creators": [
+        "Donella Meadows",
+        "Diana Wright"
+      ],
+      "doi": "",
+      "isbn": "978-1-60358-055-7",
+      "publisher": "Chelsea Green",
+      "licence": "publisher_terms",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-11",
+      "public_link_status": "public_link"
+    }
+  ],
+  "evidence_locators": [],
+  "reuse_note": "Preserve source attribution, scope, and review status. Source documents and evidence excerpts are excluded."
+}

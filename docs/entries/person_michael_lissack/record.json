@@ -1,0 +1,182 @@
+{
+  "schema_version": "1.0",
+  "canonical_url": "https://transduction.systems/entries/person_michael_lissack/",
+  "release": "0.35",
+  "citation": "Taylor, B. P. (2026). Michael Lissack. The Necessary Tangle, release 0.35. https://transduction.systems/entries/person_michael_lissack/",
+  "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
+  "entry": {
+    "id": "person_michael_lissack",
+    "label": "Michael Lissack",
+    "entity_type": "person",
+    "description": "Michael Lissack describes his work as applied philosophy, cybernetics, and second-order science, with attention to the observer, modelling, anticipation, and unexamined presuppositions. The American Society for Cybernetics records his presidency from 2014 to 2020.",
+    "aliases": [],
+    "boundary_ring": "0",
+    "inclusion_reason": "source_intake_20260918",
+    "status": "candidate",
+    "source_ids": [
+      "src_intake26_asc_board",
+      "src_reports27_lissack_profile",
+      "src_reports27_issue_77"
+    ],
+    "set_tags": [
+      "systems"
+    ],
+    "espoused_labels": [],
+    "observed_clusters": [],
+    "canonical_definition": "Michael Lissack describes his work as applied philosophy, cybernetics, and second-order science, with attention to the observer, modelling, anticipation, and unexamined presuppositions. The American Society for Cybernetics records his presidency from 2014 to 2020.",
+    "valid_from": "",
+    "valid_to": "",
+    "external_ids": "{}",
+    "geographies": [],
+    "licence": "",
+    "review_status": "source_scoped_report_review_complete",
+    "reviewed_by": "",
+    "reviewed_at": "",
+    "x": -0.124,
+    "y": -0.067,
+    "canonical_id": "person_michael_lissack",
+    "public_visibility": "public",
+    "publication_level": "profile",
+    "public_stub_text": "",
+    "public_source_count": 3,
+    "no_public_link_count": 0
+  },
+  "profile": {
+    "node_id": "person_michael_lissack",
+    "summary": "Michael Lissack describes his work as applied philosophy, cybernetics, and second-order science, with attention to the observer, modelling, anticipation, and unexamined presuppositions. The American Society for Cybernetics records his presidency from 2014 to 2020.",
+    "canonical_definition": "Michael Lissack describes his work as applied philosophy, cybernetics, and second-order science, with attention to the observer, modelling, anticipation, and unexamined presuppositions. The American Society for Cybernetics records his presidency from 2014 to 2020.",
+    "why_it_matters": "His current programme makes the observer's commitments, exclusions, and consequences part of the inquiry rather than invisible background.",
+    "key_distinctions": [
+      "An author-maintained profile establishes his stated programme, not independent acceptance of its concepts.",
+      "Second-order inquiry is not permission to make evidence optional."
+    ],
+    "historical_lineage": [
+      "Second-order cybernetics, anticipatory systems, and philosophy of inquiry."
+    ],
+    "logical_antecedents": [],
+    "dependent_subsequents": [],
+    "practice_connections": [
+      "Surface the presuppositions which allow a model or explanation to count as adequate for its observer."
+    ],
+    "common_misreadings": [
+      "The profile does not accept the report's broad claims about complexity theory without source-level argument review."
+    ],
+    "open_checks": [
+      "Individual concepts and current in-press work need their published texts before stronger conceptual edges are added."
+    ],
+    "source_ids": [
+      "src_intake26_asc_board",
+      "src_reports27_lissack_profile",
+      "src_reports27_issue_77"
+    ],
+    "context_and_lineage": "Reviewed from public report #77. The report is a research prompt; the profile retains only claims bounded by the cited records.",
+    "editorial_note": "Prepared with AI assistance from the named public records and the public report. The report review is complete; open checks are future research, not missing entry work. Independent specialist review is not recorded.",
+    "last_researched": "2026-09-20",
+    "title": "Michael Lissack",
+    "profile_status": "source_scoped_report_review_complete",
+    "review_status": "independent_review_not_recorded",
+    "reviewed_by": "",
+    "reviewed_at": "",
+    "report_issue": 77,
+    "report_outcome": "profile_deepened; self-described programme and office record retained; theoretical validation left open"
+  },
+  "connections": [
+    {
+      "id": "e25_person_michael_lissack_served_as_president_of_organisation_asc",
+      "source": "person_michael_lissack",
+      "target": "organisation_asc",
+      "relation_type": "served_as_president_of",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "",
+      "claim_status": "candidate",
+      "source_ids": [
+        "src_intake26_asc_board"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Past Presidents, 2014–2020",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "The society's dated office-holding record.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "served as president of",
+      "public_review_label": "Located source statement; independent review not recorded"
+    }
+  ],
+  "claims": [],
+  "sources": [
+    {
+      "id": "src_intake26_asc_board",
+      "title": "ASC Executive Board and past presidents",
+      "source_type": "primary_public_record",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://asc-cybernetics.org/executive-board/",
+      "date": "",
+      "notes": "Past Presidents of the ASC: Institutional office-holding: Leonard 2002–2004; Lissack 2014–2020. Holding office does not establish the merits of a theory.",
+      "creators": [],
+      "doi": "",
+      "isbn": "",
+      "publisher": "American Society for Cybernetics",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "source_scope_checked",
+      "last_checked": "2026-09-18",
+      "public_link_status": "public_link",
+      "connection_pass": "source_intake_20260918"
+    },
+    {
+      "id": "src_reports27_lissack_profile",
+      "title": "Michael Lissack: academic profile",
+      "source_type": "primary_public_record",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://lissack.com/",
+      "date": "2026-09-20",
+      "notes": "About, positions, and working inquiries: Author-maintained account of Lissack's second-order science work, institutional roles, and current inquiries. It supports self-description and documented roles, not independent validation of the theories.",
+      "creators": [],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Michael Lissack",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "source_scope_checked",
+      "last_checked": "2026-09-20",
+      "public_link_status": "public_link",
+      "connection_pass": "missing_entry_reports_20260920"
+    },
+    {
+      "id": "src_reports27_issue_77",
+      "title": "Missing-entry report #77: Michael Lissack",
+      "source_type": "public_submission",
+      "quality_tier": "B",
+      "access": "public",
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/77",
+      "date": "2026-09-20",
+      "notes": "Public report by David Ing. The report prompted research but is not treated as evidence for its own claims.",
+      "creators": [
+        "David Ing"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "The Necessary Tangle public intake",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "report_reviewed_against_public_sources",
+      "last_checked": "2026-09-20",
+      "public_link_status": "public_link",
+      "connection_pass": "missing_entry_reports_20260920"
+    }
+  ],
+  "evidence_locators": [],
+  "reuse_note": "Preserve source attribution, scope, and review status. Source documents and evidence excerpts are excluded."
+}

@@ -1,0 +1,476 @@
+{
+  "schema_version": "1.0",
+  "canonical_url": "https://transduction.systems/entries/publication_fpcs_048/",
+  "release": "0.35",
+  "citation": "Taylor, B. P. (2026). Autopoiesis: The Organization of Living Systems, Its Characterization, and a Model. The Necessary Tangle, release 0.35. https://transduction.systems/entries/publication_fpcs_048/",
+  "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
+  "entry": {
+    "id": "publication_fpcs_048",
+    "label": "Autopoiesis: The Organization of Living Systems, Its Characterization, and a Model",
+    "entity_type": "publication",
+    "description": "F. G. Varela, H. R. Maturana, and R. Uribe, ‘Autopoiesis: The Organization of Living Systems, Its Characterization, and a Model’ (1974); item 48 in volume 3 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.",
+    "aliases": [],
+    "boundary_ring": "1",
+    "inclusion_reason": "named_public_corpus",
+    "status": "accepted",
+    "source_ids": [
+      "src_fpcs_official_toc",
+      "src_u35_varela_maturana_uribe_1974"
+    ],
+    "set_tags": [
+      "complexity",
+      "foundational_papers",
+      "volume_3",
+      "release_0_8_expansion",
+      "reviewed_seed_candidate",
+      "foundational_papers_complexity_science",
+      "fpcs_volume_3"
+    ],
+    "espoused_labels": [],
+    "observed_clusters": [],
+    "canonical_definition": "Varela, Maturana, and Uribe's 1974 paper specifying autopoietic organisation and illustrating it with a tessellation model.",
+    "valid_from": "",
+    "valid_to": "",
+    "external_ids": "{\"fpcs_number\": 48, \"fpcs_volume\": 3}",
+    "geographies": [],
+    "licence": "source_terms",
+    "review_status": "official_toc_bibliographic_inventory",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-10",
+    "x": -0.4328151617453818,
+    "y": 0.3711529211007917,
+    "canonical_id": "publication_fpcs_048",
+    "public_visibility": "public",
+    "publication_level": "profile",
+    "public_stub_text": "",
+    "public_source_count": 2,
+    "no_public_link_count": 0,
+    "connection_pass": "depth_20261029"
+  },
+  "profile": {
+    "node_id": "publication_fpcs_048",
+    "title": "Autopoiesis: The Organization of Living Systems, Its Characterization, and a Model",
+    "summary": "The paper specifies a self-producing organisation, illustrates it with a tessellation model, and gives six criteria for identifying an autopoietic unity. Its boundary must arise through the system's own processes.",
+    "canonical_definition": "Varela, Maturana, and Uribe's 1974 paper specifying autopoietic organisation and illustrating it with a tessellation model.",
+    "why_it_matters": "The paper makes the claim inspectable against explicit conditions.",
+    "key_distinctions": [
+      "An illustrative model versus empirical confirmation"
+    ],
+    "practice_connections": [
+      "Use section 9 to examine a proposed application."
+    ],
+    "common_misreadings": [
+      "Publication in a foundational collection settles every later application."
+    ],
+    "open_checks": [
+      "Independent reproduction of the model remains outside this review."
+    ],
+    "source_ids": [
+      "src_fpcs_official_toc",
+      "src_u35_varela_maturana_uribe_1974"
+    ],
+    "evidence_ids": [
+      "ev35_publication_fpcs_048_1"
+    ],
+    "connection_pass": "depth_20261029",
+    "profile_status": "evidence_deepened_research_pass",
+    "last_researched": "2026-10-29",
+    "review_status": "research_pass_needs_editor",
+    "editorial_note": "Primary passages checked for this bounded research pass. Exposition and editorial comparisons remain distinct; named editorial acceptance is not implied by publication."
+  },
+  "connections": [
+    {
+      "id": "e_08_fpcs_authored_048_01",
+      "source": "publication_fpcs_048",
+      "target": "person_francisco_varela",
+      "relation_type": "authored_by",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.96",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_fpcs_official_toc"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Official table of contents, Volume 3, item 48, ‘Autopoiesis: The Organization of Living Systems, Its Characterization, and a Model’",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Bibliographic first pass: records authorship or collection structure, not a full evaluation of the work or influence.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-10",
+      "notes": "The official collection table of contents lists F. G. Varela as an author of this paper.",
+      "plain_phrase": "authored by",
+      "public_review_label": "official bibliographic record"
+    },
+    {
+      "id": "e_08_fpcs_authored_048_02",
+      "source": "publication_fpcs_048",
+      "target": "person_humberto_maturana",
+      "relation_type": "authored_by",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.96",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_fpcs_official_toc"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Official table of contents, Volume 3, item 48, ‘Autopoiesis: The Organization of Living Systems, Its Characterization, and a Model’",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Bibliographic first pass: records authorship or collection structure, not a full evaluation of the work or influence.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-10",
+      "notes": "The official collection table of contents lists H. R. Maturana as an author of this paper.",
+      "plain_phrase": "authored by",
+      "public_review_label": "official bibliographic record"
+    },
+    {
+      "id": "e_08_fpcs_authored_048_03",
+      "source": "publication_fpcs_048",
+      "target": "person_fpcs_r_uribe",
+      "relation_type": "authored_by",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.96",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_fpcs_official_toc"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Official table of contents, Volume 3, item 48, ‘Autopoiesis: The Organization of Living Systems, Its Characterization, and a Model’",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Bibliographic first pass: records authorship or collection structure, not a full evaluation of the work or influence.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-10",
+      "notes": "The official collection table of contents lists R. Uribe as an author of this paper.",
+      "plain_phrase": "authored by",
+      "public_review_label": "official bibliographic record"
+    },
+    {
+      "id": "e_08_fpcs_paper_volume_048",
+      "source": "publication_fpcs_048",
+      "target": "publication_fpcs_volume_3",
+      "relation_type": "part_of",
+      "relation_family": "classification",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.96",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_fpcs_official_toc"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Official Foundational Papers in Complexity Science table of contents",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Bibliographic first pass: records authorship or collection structure, not a full evaluation of the work or influence.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-10",
+      "notes": "Paper 48 is listed in volume 3 of the official collection.",
+      "plain_phrase": "is part of",
+      "public_review_label": "official bibliographic record"
+    },
+    {
+      "id": "e_fpcs_part_048",
+      "source": "publication_fpcs_048",
+      "target": "corpus_foundational_papers_2024",
+      "relation_type": "part_of",
+      "relation_family": "classification",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.9",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_fpcs_official_toc"
+      ],
+      "evidence_ids": [],
+      "source_locator": "",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Official table of contents, volume 3, item 48.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-10",
+      "notes": "Official table of contents, volume 3, item 48. Candidate relation retained after endpoint and source validation.",
+      "plain_phrase": "is item in",
+      "public_review_label": "accepted in bibliographic first pass"
+    },
+    {
+      "id": "e_fpcs_topic_048_concept_self_organisation",
+      "source": "concept_self_organisation",
+      "target": "publication_fpcs_048",
+      "relation_type": "described_by",
+      "relation_family": "evidence",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.65",
+      "claim_status": "provisional",
+      "source_ids": [
+        "src_fpcs_official_toc"
+      ],
+      "evidence_ids": [],
+      "source_locator": "",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "A cautious first-pass topic link based on the paper title and collection placement; substantive review remains pending.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-10",
+      "notes": "A cautious first-pass topic link based on the paper title and collection placement; substantive review remains pending. Candidate relation retained after endpoint and source validation.",
+      "plain_phrase": "has a foundational treatment in",
+      "public_review_label": "provisional"
+    },
+    {
+      "id": "e16_fpcs_contents_048",
+      "source": "publication_fpcs_volume_3",
+      "target": "publication_fpcs_048",
+      "relation_type": "presents",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.98",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_fpcs_official_toc"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Official collection table of contents",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "This records documentary collection structure only. Inclusion does not by itself establish conceptual influence, agreement, importance or validity.",
+      "assertion_mode": "asserted",
+      "inference_method": "direct collection membership statement",
+      "claim_id": "",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "presents as a constituent paper",
+      "public_review_label": "source-backed contents statement"
+    },
+    {
+      "id": "e16_fpcs_contents_141",
+      "source": "corpus_foundational_papers_2024",
+      "target": "publication_fpcs_048",
+      "relation_type": "presents",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.98",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_fpcs_official_toc"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Official collection table of contents",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "This records documentary collection structure only. Inclusion does not by itself establish conceptual influence, agreement, importance or validity.",
+      "assertion_mode": "asserted",
+      "inference_method": "direct collection membership statement",
+      "claim_id": "",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "presents as a constituent paper",
+      "public_review_label": "source-backed contents statement"
+    },
+    {
+      "id": "e35_autopoiesis_paper_account",
+      "source": "publication_fpcs_048",
+      "target": "concept_autopoiesis",
+      "relation_type": "presents_account_of",
+      "relation_family": "conceptual",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "",
+      "claim_status": "candidate",
+      "source_ids": [
+        "src_u35_varela_maturana_uribe_1974"
+      ],
+      "evidence_ids": [
+        "ev35_edge_e35_autopoiesis_paper_account_1"
+      ],
+      "source_locator": "Section 3, p. 188; section 6, pp. 189–191",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "The paper defines autopoiesis through a network of component production and illustrates that organisation in a tessellation model. The illustration does not itself establish later biological or social applications.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "claim35_e35_autopoiesis_paper_account",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "defines and models",
+      "public_review_label": "Primary-source exposition; editorial acceptance open",
+      "connection_pass": "depth_20261029"
+    },
+    {
+      "id": "e35_autopoiesis_boundary_condition",
+      "source": "publication_fpcs_048",
+      "target": "concept_boundary",
+      "relation_type": "proposes_condition_for",
+      "relation_family": "conceptual",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "",
+      "claim_status": "candidate",
+      "source_ids": [
+        "src_u35_varela_maturana_uribe_1974"
+      ],
+      "evidence_ids": [
+        "ev35_edge_e35_autopoiesis_boundary_condition_1"
+      ],
+      "source_locator": "Section 7, pp. 191–192; section 9, points 4–6, p. 193",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "The paper requires an autopoietic unity's boundary to be generated by its component interactions and sustained by the processes it enables. An analyst's selected boundary alone does not meet that condition.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "claim35_e35_autopoiesis_boundary_condition",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "requires an autopoietic unity to produce its",
+      "public_review_label": "Primary-source exposition; editorial acceptance open",
+      "connection_pass": "depth_20261029"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim35_e35_autopoiesis_paper_account",
+      "statement": "The paper defines autopoiesis through a network of component production and illustrates that organisation in a tessellation model. The illustration does not itself establish later biological or social applications.",
+      "subject_id": "publication_fpcs_048",
+      "predicate": "presents_account_of",
+      "object_id": "concept_autopoiesis",
+      "status": "candidate",
+      "supporting_source_ids": [
+        "src_u35_varela_maturana_uribe_1974"
+      ],
+      "supporting_evidence_ids": [
+        "ev35_edge_e35_autopoiesis_paper_account_1"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_evidence_ids": [],
+      "notes": "Primary-source exposition; editorial acceptance open",
+      "review_status": "research_pass_needs_editor",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "connection_pass": "depth_20261029"
+    },
+    {
+      "id": "claim35_e35_autopoiesis_boundary_condition",
+      "statement": "The paper requires an autopoietic unity's boundary to be generated by its component interactions and sustained by the processes it enables. An analyst's selected boundary alone does not meet that condition.",
+      "subject_id": "publication_fpcs_048",
+      "predicate": "proposes_condition_for",
+      "object_id": "concept_boundary",
+      "status": "candidate",
+      "supporting_source_ids": [
+        "src_u35_varela_maturana_uribe_1974"
+      ],
+      "supporting_evidence_ids": [
+        "ev35_edge_e35_autopoiesis_boundary_condition_1"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_evidence_ids": [],
+      "notes": "Primary-source exposition; editorial acceptance open",
+      "review_status": "research_pass_needs_editor",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "connection_pass": "depth_20261029"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src_fpcs_official_toc",
+      "title": "Foundational Papers in Complexity Science — official tables of contents",
+      "source_type": "publisher_table_of_contents",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://www.foundationalpapersincomplexityscience.org/tables-of-contents",
+      "date": "2024",
+      "notes": "Official item-level contents for the four-volume Santa Fe Institute Press collection. It supports the bibliographic inventory, not the substantive claims of all 89 original papers.",
+      "creators": [
+        "Santa Fe Institute Press",
+        "David C. Krakauer (editor)"
+      ],
+      "publisher": "Santa Fe Institute Press",
+      "licence": "source_terms",
+      "review_status": "checked_primary_register",
+      "last_checked": "2026-08-09",
+      "public_link_status": "public_link",
+      "doi": "",
+      "isbn": "",
+      "archived_url": "",
+      "content_hash": ""
+    },
+    {
+      "id": "src_u35_varela_maturana_uribe_1974",
+      "title": "Autopoiesis: The Organization of Living Systems, Its Characterization and a Model",
+      "source_type": "primary_text",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://homepages.math.uic.edu/~kauffman/MUV.pdf",
+      "date": "1974",
+      "notes": "Full ten-page primary-paper scan inspected on Louis Kauffman's University of Illinois Chicago page. Section 3 defines the organisation; section 9 gives an operational identification key. The model is an illustration of the proposed organisation, not empirical validation of all biological or social applications. The paper's algorithm was not independently rerun. Publisher redirect was inaccessible; university-hosted scan worked. Existing publication_fpcs_048 is reused.",
+      "creators": [
+        "F. G. Varela",
+        "H. R. Maturana",
+        "R. Uribe"
+      ],
+      "doi": "10.1016/0303-2647(74)90031-8",
+      "isbn": "",
+      "publisher": "BioSystems 5(4), pp. 187–196",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "passage_checked_research_pass",
+      "last_checked": "2026-10-29",
+      "public_link_status": "public_link",
+      "connection_pass": "depth_20261029",
+      "source_locator": "Sections 2–4, pp. 187–189; section 7, pp. 191–192; section 9, pp. 192–193",
+      "access_note": "The model is an illustration of the proposed organisation, not empirical validation of all biological or social applications. The paper's algorithm was not independently rerun. Publisher redirect was inaccessible; university-hosted scan worked. Existing publication_fpcs_048 is reused."
+    }
+  ],
+  "evidence_locators": [
+    {
+      "id": "ev35_publication_fpcs_048_1",
+      "source_id": "src_u35_varela_maturana_uribe_1974",
+      "locator": "Sections 3, 6–7, and 9; appendix",
+      "review_status": "research_pass_needs_editor"
+    },
+    {
+      "id": "ev35_edge_e35_autopoiesis_paper_account_1",
+      "source_id": "src_u35_varela_maturana_uribe_1974",
+      "locator": "Section 3, p. 188; section 6, pp. 189–191",
+      "review_status": "research_pass_needs_editor"
+    },
+    {
+      "id": "ev35_edge_e35_autopoiesis_boundary_condition_1",
+      "source_id": "src_u35_varela_maturana_uribe_1974",
+      "locator": "Section 7, pp. 191–192; section 9, points 4–6, p. 193",
+      "review_status": "research_pass_needs_editor"
+    }
+  ],
+  "reuse_note": "Preserve source attribution, scope, and review status. Source documents and evidence excerpts are excluded."
+}

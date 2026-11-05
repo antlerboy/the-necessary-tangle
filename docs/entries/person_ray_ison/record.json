@@ -1,0 +1,259 @@
+{
+  "schema_version": "1.0",
+  "canonical_url": "https://transduction.systems/entries/person_ray_ison/",
+  "release": "0.35",
+  "citation": "Taylor, B. P. (2026). Ray Ison. The Necessary Tangle, release 0.35. https://transduction.systems/entries/person_ray_ison/",
+  "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
+  "entry": {
+    "id": "person_ray_ison",
+    "label": "Ray Ison",
+    "entity_type": "person",
+    "description": "A systems scholar and educator whose work develops Systems Thinking in Practice, systems praxeology, social learning, institutional innovation and systemic governance.",
+    "aliases": [
+      "Raymond Ison"
+    ],
+    "boundary_ring": "0",
+    "inclusion_reason": "expertise_and_public_sources_release_0_13",
+    "status": "accepted",
+    "source_ids": [
+      "src_ou_ray_ison_profile_2026",
+      "src_routledge_hidden_power_2020",
+      "src_ison_cybersystemics_2025",
+      "src_ou_stip_2025"
+    ],
+    "set_tags": [
+      "systems",
+      "human_lineage",
+      "expertise",
+      "release_0_13"
+    ],
+    "espoused_labels": [],
+    "observed_clusters": [],
+    "canonical_definition": "A systems scholar and educator whose work develops Systems Thinking in Practice, systems praxeology, social learning, institutional innovation and systemic governance.",
+    "valid_from": "",
+    "valid_to": "",
+    "external_ids": "{}",
+    "geographies": [],
+    "licence": "",
+    "review_status": "curator_checked_public_sources",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-11",
+    "x": 0.31,
+    "y": 0.25,
+    "canonical_id": "person_ray_ison",
+    "public_visibility": "public",
+    "publication_level": "profile",
+    "public_stub_text": "",
+    "public_source_count": 4,
+    "no_public_link_count": 0
+  },
+  "profile": {
+    "node_id": "person_ray_ison",
+    "title": "Ray Ison",
+    "profile_status": "curator_checked_public_sources",
+    "canonical_definition": "A systems scholar and educator whose work develops Systems Thinking in Practice, systems praxeology, social learning, institutional innovation and systemic governance.",
+    "summary": "Ray Ison's work treats systems thinking as an enacted practice involving situation, practitioner, concepts, methods, traditions and institutional conditions.",
+    "why_it_matters": "Systems praxeology and systemic governance keep attention on how ways of knowing and acting are performed, learned and institutionalised rather than treating systems thinking as a detachable tool kit.",
+    "key_distinctions": [
+      "systems thinking about practice vs Systems Thinking in Practice",
+      "governance vs government",
+      "social learning vs knowledge transfer"
+    ],
+    "historical_lineage": [
+      "Open University systems teaching",
+      "systems agriculture",
+      "social learning",
+      "systems praxeology",
+      "systemic governance"
+    ],
+    "logical_antecedents": [
+      "practice",
+      "learning",
+      "institution",
+      "governance",
+      "reflexivity"
+    ],
+    "dependent_subsequents": [
+      "STiP pedagogy",
+      "systems praxeology",
+      "systemic governance research"
+    ],
+    "practice_connections": [
+      "climate adaptation",
+      "water governance",
+      "public administration",
+      "systems education"
+    ],
+    "espoused_lineages": [],
+    "observed_clusters": [],
+    "common_misreadings": [
+      "STiP is a collection of methods",
+      "governance means government machinery",
+      "social learning is consultation"
+    ],
+    "open_checks": [
+      "add Systems Practice editions",
+      "map collaborators and programmes",
+      "develop cybersystemics work"
+    ],
+    "source_ids": [
+      "src_ou_ray_ison_profile_2026",
+      "src_routledge_hidden_power_2020",
+      "src_ison_cybersystemics_2025",
+      "src_ou_stip_2025"
+    ],
+    "evidence_ids": [],
+    "last_researched": "2026-08-11",
+    "review_status": "curator_checked_public_sources",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-11",
+    "editorial_note": "Developed from public primary, institutional and publisher sources. Open to correction, rival interpretation and stronger evidence."
+  },
+  "connections": [
+    {
+      "id": "e_13_hidden_ison",
+      "source": "publication_hidden_power_systems_thinking",
+      "target": "person_ray_ison",
+      "relation_type": "authored_by",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.88",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_routledge_hidden_power_2020"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Release 0.13 public primary, institutional and publisher sources",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "The wording is limited to the named public sources. Authorship, methodological development, conceptual dependence and practical use remain distinct claims.",
+      "assertion_mode": "asserted",
+      "inference_method": "curatorial synthesis of public primary, institutional and publisher sources",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-11",
+      "notes": "Routledge identifies Ray Ison as co-author.",
+      "plain_phrase": "was authored by",
+      "public_review_label": "supported working statement"
+    },
+    {
+      "id": "e_13_ison_governance",
+      "source": "person_ray_ison",
+      "target": "concept_systemic_governance",
+      "relation_type": "developed",
+      "relation_family": "historical",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.88",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_ou_ray_ison_profile_2026",
+        "src_routledge_hidden_power_2020"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Release 0.13 public primary, institutional and publisher sources",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "The wording is limited to the named public sources. Authorship, methodological development, conceptual dependence and practical use remain distinct claims.",
+      "assertion_mode": "asserted",
+      "inference_method": "curatorial synthesis of public primary, institutional and publisher sources",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-11",
+      "notes": "The official profile and publisher page associate Ison's work with systemic governance.",
+      "plain_phrase": "develops",
+      "public_review_label": "supported working statement"
+    }
+  ],
+  "claims": [],
+  "sources": [
+    {
+      "id": "src_ou_ray_ison_profile_2026",
+      "title": "Ray Ison — Open University profile",
+      "source_type": "official_university_profile",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://profiles.open.ac.uk/ray-ison",
+      "date": "current",
+      "notes": "The Open University profile records Ray Ison's work in Systems Thinking in Practice, systems praxeology, social learning, systemic governance and systems education.",
+      "creators": [
+        "The Open University"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "The Open University",
+      "licence": "site_terms",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-11",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_routledge_hidden_power_2020",
+      "title": "The Hidden Power of Systems Thinking: Governance in a Climate Emergency",
+      "source_type": "official_publisher_book_page",
+      "quality_tier": "A",
+      "access": "public_metadata",
+      "url": "https://www.routledge.com/The-Hidden-Power-of-Systems-Thinking-Governance-in-a-Climate-Emergency/Ison-Straw/p/book/9781138493995",
+      "date": "2020",
+      "notes": "Routledge's page records Ray Ison and Ed Straw as authors and describes the book's focus on systems thinking, systemic governing and institutional change in the climate emergency.",
+      "creators": [
+        "Ray Ison",
+        "Ed Straw"
+      ],
+      "doi": "",
+      "isbn": "978-1-138-49399-5",
+      "publisher": "Routledge",
+      "licence": "publisher_terms",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-11",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_ison_cybersystemics_2025",
+      "title": "Reimagining Systems Thinking as Cybersystemic Researching",
+      "source_type": "peer_reviewed_article",
+      "quality_tier": "B",
+      "access": "public_metadata",
+      "url": "https://doi.org/10.1002/sres.3189",
+      "date": "2025-10-13",
+      "notes": "Recent cybersystemic framing and co-inquiry.",
+      "creators": [],
+      "doi": "",
+      "isbn": "",
+      "publisher": "",
+      "licence": "",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-09",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_ou_stip_2025",
+      "title": "Understanding systems thinking in practice (Open University)",
+      "source_type": "university_course",
+      "quality_tier": "B",
+      "access": "public",
+      "url": "https://www.open.edu/openlearn/science-maths-technology/understanding-systems-thinking-practice-stip",
+      "date": "2025-09-01",
+      "notes": "Official Open University course covering five systems approaches and traditions of practice: SD, VSM, SODA, SSM and CSH.",
+      "creators": [],
+      "doi": "",
+      "isbn": "",
+      "publisher": "",
+      "licence": "",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-09",
+      "public_link_status": "public_link"
+    }
+  ],
+  "evidence_locators": [],
+  "reuse_note": "Preserve source attribution, scope, and review status. Source documents and evidence excerpts are excluded."
+}

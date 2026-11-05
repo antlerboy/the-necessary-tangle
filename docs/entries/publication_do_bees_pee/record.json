@@ -1,0 +1,171 @@
+{
+  "schema_version": "1.0",
+  "canonical_url": "https://transduction.systems/entries/publication_do_bees_pee/",
+  "release": "0.35",
+  "citation": "Taylor, B. P. (2026). Do Bees Pee?. The Necessary Tangle, release 0.35. https://transduction.systems/entries/publication_do_bees_pee/",
+  "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
+  "entry": {
+    "id": "publication_do_bees_pee",
+    "label": "Do Bees Pee?",
+    "entity_type": "publication",
+    "description": "A 2026 children's book using questions about animal waste to introduce ecological cycles, reuse and circular-economy thinking.",
+    "aliases": [
+      "Do Bees Pee"
+    ],
+    "boundary_ring": "0",
+    "inclusion_reason": "post_0_17_feedback_coverage",
+    "status": "accepted",
+    "source_ids": [
+      "src_linda_do_bees_pee_2026"
+    ],
+    "set_tags": [
+      "systems",
+      "lineage",
+      "release_0_17",
+      "systems-literacy",
+      "circular-economy",
+      "children",
+      "release_0_18"
+    ],
+    "espoused_labels": [],
+    "observed_clusters": [],
+    "canonical_definition": "A 2026 children's book using questions about animal waste to introduce ecological cycles, reuse and circular-economy thinking.",
+    "valid_from": "",
+    "valid_to": "",
+    "external_ids": "{}",
+    "geographies": [],
+    "licence": "",
+    "review_status": "curator_checked_public_sources",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-19",
+    "x": 0.14,
+    "y": 0.46,
+    "canonical_id": "publication_do_bees_pee",
+    "public_visibility": "public",
+    "publication_level": "profile",
+    "public_stub_text": "",
+    "public_source_count": 1,
+    "no_public_link_count": 0
+  },
+  "profile": {
+    "node_id": "publication_do_bees_pee",
+    "summary": "Do Bees Pee? uses questions about animal waste and ecological reuse to introduce closed-loop processes and circular-economy thinking.",
+    "canonical_definition": "Do Bees Pee? uses questions about animal waste and ecological reuse to introduce closed-loop processes and circular-economy thinking.",
+    "why_it_matters": "It extends Booth Sweeney's systems-literacy work into the material cycles through which one organism's output becomes another process's resource.",
+    "key_distinctions": [
+      "The June 2026 publication fact and framing are established by the author's current publication notice."
+    ],
+    "historical_lineage": [
+      "children's science communication",
+      "ecological cycles",
+      "circular economy"
+    ],
+    "logical_antecedents": [
+      "material cycles",
+      "interdependence",
+      "waste as resource"
+    ],
+    "dependent_subsequents": [
+      "systems literacy for younger readers"
+    ],
+    "practice_connections": [
+      "question-led learning",
+      "circular-economy education"
+    ],
+    "common_misreadings": [
+      "A closed loop is a useful model, not a claim that material systems have no losses or externalities."
+    ],
+    "open_checks": [
+      "Add the publisher record and independent reviews after publication where available."
+    ],
+    "source_ids": [
+      "src_linda_do_bees_pee_2026"
+    ],
+    "context_and_lineage": "",
+    "editorial_note": "",
+    "last_researched": "2026-08-19"
+  },
+  "connections": [
+    {
+      "id": "e18_bees_circular_economy",
+      "source": "publication_do_bees_pee",
+      "target": "practice_circular_economy",
+      "relation_type": "introduces",
+      "relation_family": "practice",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.94",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_linda_do_bees_pee_2026"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Author publication notice",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "The author explicitly frames the book as an introduction to sustainability and circular-economy thinking.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-19",
+      "notes": "",
+      "plain_phrase": "introduces",
+      "public_review_label": "source-backed statement"
+    },
+    {
+      "id": "e18_linda_authored_do_bees_pee",
+      "source": "person_linda_booth_sweeney",
+      "target": "publication_do_bees_pee",
+      "relation_type": "authored",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.94",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_linda_do_bees_pee_2026"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Publication notice",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Authorship and current publication notice.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-19",
+      "notes": "",
+      "plain_phrase": "authored",
+      "public_review_label": "source-backed statement"
+    }
+  ],
+  "claims": [],
+  "sources": [
+    {
+      "id": "src_linda_do_bees_pee_2026",
+      "title": "Do Bees Pee?",
+      "source_type": "official_author_publication_notice",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://www.lindaboothsweeney.com/",
+      "date": "2026",
+      "notes": "Author-maintained site presenting Do Bees Pee? as a new children's book and describing its treatment of closed-loop ecological processes and circular-economy thinking. The separate author-profile source records the HarperCollins and June 2026 listing.",
+      "creators": [
+        "Linda Booth Sweeney"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Toggle Labs / HarperCollins",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-19",
+      "public_link_status": "public_link"
+    }
+  ],
+  "evidence_locators": [],
+  "reuse_note": "Preserve source attribution, scope, and review status. Source documents and evidence excerpts are excluded."
+}

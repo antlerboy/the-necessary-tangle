@@ -1,0 +1,389 @@
+{
+  "schema_version": "1.0",
+  "canonical_url": "https://transduction.systems/entries/concept_feedforward/",
+  "release": "0.35",
+  "citation": "Taylor, B. P. (2026). Feedforward. The Necessary Tangle, release 0.35. https://transduction.systems/entries/concept_feedforward/",
+  "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
+  "entry": {
+    "id": "concept_feedforward",
+    "label": "Feedforward",
+    "entity_type": "concept",
+    "description": "Anticipatory action based on a desired future, a measured disturbance or a model of likely effects, taken before the resulting output is available for correction.",
+    "aliases": [
+      "feed-forward"
+    ],
+    "boundary_ring": "0",
+    "inclusion_reason": "v0_3_content_deepening",
+    "status": "accepted",
+    "source_ids": [
+      "src_ieee_feedforward_topic"
+    ],
+    "set_tags": [
+      "systems",
+      "cybernetics",
+      "control",
+      "core_cluster"
+    ],
+    "espoused_labels": [],
+    "observed_clusters": [],
+    "canonical_definition": "A control or coordination relation in which information about intended conditions or measured disturbances is used to act before the resulting output is observed; effectiveness depends on the adequacy of the model or prediction.",
+    "valid_from": "",
+    "valid_to": "",
+    "external_ids": "{}",
+    "geographies": [],
+    "licence": "",
+    "review_status": "research_pass_needs_editor",
+    "reviewed_by": "",
+    "reviewed_at": "",
+    "x": -0.473143,
+    "y": -0.129888,
+    "canonical_id": "concept_feedforward",
+    "public_visibility": "public",
+    "publication_level": "profile",
+    "public_stub_text": "",
+    "public_source_count": 1,
+    "no_public_link_count": 0
+  },
+  "profile": {
+    "node_id": "concept_feedforward",
+    "title": "Feedforward",
+    "profile_status": "evidence_deepened_research_pass",
+    "canonical_definition": "A control or coordination relation in which information about intended conditions or measured disturbances is used to act before the resulting output is observed; effectiveness depends on the adequacy of the model or prediction.",
+    "summary": "Feedforward acts before the result is available to be measured. It uses intention, forecast or measured disturbance to shape action in advance. It is usually strongest when combined with feedback that corrects modelling error and surprise.",
+    "why_it_matters": "Waiting for failure before responding is often costly. Feedforward can prepare capacity, prevent deviation and make intentions interpretable. Its weakness is that it depends on the quality of the model, forecast and disturbance sensing.",
+    "key_distinctions": [
+      "anticipatory action vs reaction to output",
+      "feedforward vs open-loop command",
+      "forecast or model vs certainty",
+      "feedforward information vs feedback correction"
+    ],
+    "historical_lineage": [
+      "anticipatory control developed alongside feedback control",
+      "the term also developed a communication meaning in cybernetic discussions",
+      "modern engineering commonly combines feedforward with feedback"
+    ],
+    "logical_antecedents": [
+      "a sensed or anticipated disturbance",
+      "a model or expectation of effects",
+      "capacity to act before output changes"
+    ],
+    "dependent_subsequents": [
+      "predictive control",
+      "advance capacity planning",
+      "briefing and expectation-setting",
+      "combined feedforward-feedback architectures"
+    ],
+    "practice_connections": [
+      "ask what can be known early enough to matter",
+      "state the assumptions in the predictive model",
+      "retain feedback for unmeasured disturbances",
+      "distinguish preparation from premature control"
+    ],
+    "espoused_lineages": [
+      "control engineering",
+      "cybernetics",
+      "communication",
+      "management"
+    ],
+    "observed_clusters": [],
+    "common_misreadings": [
+      "feedback supplied early",
+      "perfect prediction",
+      "a substitute for feedback",
+      "any plan is feedforward"
+    ],
+    "open_checks": [
+      "I. A. Richards and Macy lineage",
+      "management-cybernetics uses",
+      "predictive control literature"
+    ],
+    "source_ids": [
+      "src_ieee_feedforward_topic"
+    ],
+    "evidence_ids": [
+      "ev_ieee_feedforward"
+    ],
+    "last_researched": "2026-08-09",
+    "review_status": "research_pass_needs_editor",
+    "editorial_note": "Readable orientation and evidence-backed first pass. Not accepted scholarly consensus until named review is recorded."
+  },
+  "connections": [
+    {
+      "id": "e_v03_feedforward_complements_feedback",
+      "source": "concept_feedforward",
+      "target": "concept_feedback",
+      "relation_type": "complements",
+      "relation_family": "conceptual",
+      "directed": "false",
+      "dependency_kind": "",
+      "confidence": "0.88",
+      "claim_status": "corroborated",
+      "source_ids": [
+        "src_ieee_feedforward_topic",
+        "src_ieee_feedback_topic"
+      ],
+      "evidence_ids": [
+        "ev_ieee_feedforward",
+        "ev_ieee_feedback_types"
+      ],
+      "source_locator": "IEEE topic definitions",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "",
+      "assertion_mode": "editorial_research_pass",
+      "inference_method": "source_comparison",
+      "claim_id": "",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "Feedforward anticipates disturbances; feedback responds to observed consequences. They are often combined.",
+      "plain_phrase": "complements",
+      "public_review_label": "supported"
+    },
+    {
+      "id": "e16_relational_crosswalk_240",
+      "source": "concept_feedforward",
+      "target": "concept_regulation",
+      "relation_type": "explains",
+      "relation_family": "conceptual",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.72",
+      "claim_status": "provisional",
+      "source_ids": [
+        "src_ieee_feedforward_topic",
+        "src_ashby_intro_cybernetics_1956",
+        "src_conant_ashby_good_regulator_1970"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Interpretive comparison of the two maintained public descriptions and their cited source records",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "This is a provisional semantic or practice crosswalk. It does not establish historical influence, equivalence, efficacy or universal applicability. Item-level source review and curator acceptance are still required.",
+      "assertion_mode": "interpreted",
+      "inference_method": "curator-requested relational crosswalk of maintained public descriptions",
+      "claim_id": "",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "provides an anticipatory mechanism for",
+      "public_review_label": "provisional relational crosswalk"
+    },
+    {
+      "id": "e16_relational_crosswalk_241",
+      "source": "tradition_control_theory",
+      "target": "concept_feedforward",
+      "relation_type": "uses",
+      "relation_family": "practice",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.72",
+      "claim_status": "provisional",
+      "source_ids": [
+        "src_sysbok_feedback_2013",
+        "src_ieee_what_control",
+        "src_ieee_control_history",
+        "src_ieee_feedforward_topic"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Interpretive comparison of the two maintained public descriptions and their cited source records",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "This is a provisional semantic or practice crosswalk. It does not establish historical influence, equivalence, efficacy or universal applicability. Item-level source review and curator acceptance are still required.",
+      "assertion_mode": "interpreted",
+      "inference_method": "curator-requested relational crosswalk of maintained public descriptions",
+      "claim_id": "",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "uses anticipatory control through",
+      "public_review_label": "provisional relational crosswalk"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_v03_feedforward_model_dependent",
+      "statement": "Feedforward acts before output error is observed and therefore depends on adequate disturbance measurement, forecasting or a model of likely effects.",
+      "subject_id": "concept_feedforward",
+      "predicate": "requires",
+      "object_id": "concept_information_theory",
+      "status": "provisional",
+      "supporting_source_ids": [
+        "src_ieee_feedforward_topic"
+      ],
+      "supporting_evidence_ids": [
+        "ev_ieee_feedforward"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_evidence_ids": [],
+      "notes": "The object is a placeholder for informational/model dependence, not a claim that Shannon information theory is always required.",
+      "review_status": "research_pass_needs_editor",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    }
+  ],
+  "sources": [
+    {
+      "id": "src_ieee_feedforward_topic",
+      "title": "Feedforward systems - IEEE Technology Navigator",
+      "source_type": "professional_technical_reference",
+      "quality_tier": "B",
+      "access": "public",
+      "url": "https://technav.ieee.org/topic/feedforward-systems/",
+      "date": "2026-08-09",
+      "notes": "Technical overview of feedforward architectures, anticipatory disturbance response and dependence on models or disturbance measurement.",
+      "creators": [
+        "IEEE Technology Navigator"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "IEEE",
+      "licence": "site_terms",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "research_pass_needs_editor",
+      "last_checked": "2026-08-09",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_ieee_feedback_topic",
+      "title": "Feedback - IEEE Technology Navigator",
+      "source_type": "professional_technical_reference",
+      "quality_tier": "B",
+      "access": "public",
+      "url": "https://technav.ieee.org/topic/feedback/",
+      "date": "2026-08-09",
+      "notes": "Technical overview distinguishing negative and positive feedback and describing their different effects. Used as an orientation source, not as the sole historical authority.",
+      "creators": [
+        "IEEE Technology Navigator"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "IEEE",
+      "licence": "site_terms",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "research_pass_needs_editor",
+      "last_checked": "2026-08-09",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_ashby_intro_cybernetics_1956",
+      "title": "An Introduction to Cybernetics",
+      "source_type": "primary_text",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://ashby.info/Ashby-Introduction-to-Cybernetics.pdf",
+      "date": "1956",
+      "notes": "Primary text opened and inspected. Title page identifies the 1957 second impression of the 1956 book. Use section numbers as the stable locator: the electronic PDF places two printed pages on each PDF page. Rights statement permits educational and research distribution with its notice; this packet links and paraphrases.",
+      "creators": [
+        "W. Ross Ashby"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Chapman & Hall",
+      "licence": "archive_access_check_reuse",
+      "archived_url": "https://www.ashby.info/",
+      "content_hash": "",
+      "review_status": "passage_checked_research_pass",
+      "last_checked": "2026-10-29",
+      "public_link_status": "public_link",
+      "connection_pass": "depth_20261029",
+      "source_locator": "1957 second impression; sections 11/5–11/11, printed pp. 205–209; PDF pp. 109–111",
+      "access_note": "Use section numbers as the stable locator: the electronic PDF places two printed pages on each PDF page. Rights statement permits educational and research distribution with its notice; this packet links and paraphrases."
+    },
+    {
+      "id": "src_conant_ashby_good_regulator_1970",
+      "title": "Every Good Regulator of a System Must Be a Model of That System",
+      "source_type": "primary_text",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://doi.org/10.1080/00207727008920220",
+      "date": "1970",
+      "notes": "Primary article text opened and inspected at Principia Cybernetica. Electronic transcription contains formatting errors in some equations. Locators here identify its PDF pages, not invented original journal page correspondence.",
+      "creators": [
+        "Roger C. Conant",
+        "W. Ross Ashby"
+      ],
+      "doi": "10.1080/00207727008920220",
+      "isbn": "",
+      "publisher": "International Journal of Systems Science 1(2), 89–97",
+      "licence": "publisher_terms",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "passage_checked_research_pass",
+      "last_checked": "2026-10-29",
+      "public_link_status": "public_link",
+      "reading_url": "https://pespmc1.vub.ac.be/books/Conant_Ashby.pdf",
+      "connection_pass": "depth_20261029",
+      "source_locator": "Theorem, proof, and subsequent comments, electronic PDF pp. 8–9; section 5, Discussion",
+      "access_note": "Electronic transcription contains formatting errors in some equations. Locators here identify its PDF pages, not invented original journal page correspondence."
+    },
+    {
+      "id": "src_sysbok_feedback_2013",
+      "title": "SCiO SysBoK - Feedback v1",
+      "source_type": "legacy_map_presentation",
+      "quality_tier": "C",
+      "access": "no_public_link",
+      "url": "",
+      "date": "2013-04-01",
+      "notes": "Legacy SCiO SysBoK working presentation; no public link.",
+      "creators": [
+        "SCiO"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "",
+      "licence": "",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "pass4_legacy_internal_register_audit",
+      "last_checked": "2026-08-14",
+      "public_link_status": "no_public_link"
+    },
+    {
+      "id": "src_ieee_what_control",
+      "title": "What is Control?",
+      "source_type": "professional_society_explainer",
+      "quality_tier": "B",
+      "access": "public",
+      "url": "https://ieeecss.org/about/what-control",
+      "date": "2026-08-09",
+      "notes": "Public IEEE Control Systems Society introduction to control.",
+      "creators": [],
+      "publisher": "IEEE Control Systems Society",
+      "review_status": "checked",
+      "last_checked": "2026-08-09",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_ieee_control_history",
+      "title": "History of Control",
+      "source_type": "professional_society_history",
+      "quality_tier": "B",
+      "access": "public",
+      "url": "https://www.ieeecss.org/history",
+      "date": "2026-08-09",
+      "notes": "Public IEEE history linking governors and Maxwell's analysis to mathematical control.",
+      "creators": [],
+      "publisher": "IEEE Control Systems Society",
+      "review_status": "checked",
+      "last_checked": "2026-08-09",
+      "public_link_status": "public_link"
+    }
+  ],
+  "evidence_locators": [
+    {
+      "id": "ev_ieee_feedforward",
+      "source_id": "src_ieee_feedforward_topic",
+      "locator": "Section: What Are Feedforward Systems?",
+      "review_status": "research_pass_needs_editor"
+    },
+    {
+      "id": "ev_ieee_feedback_types",
+      "source_id": "src_ieee_feedback_topic",
+      "locator": "Sections: What Is Feedback?; Negative and Positive Feedback",
+      "review_status": "research_pass_needs_editor"
+    }
+  ],
+  "reuse_note": "Preserve source attribution, scope, and review status. Source documents and evidence excerpts are excluded."
+}

@@ -1,0 +1,237 @@
+{
+  "schema_version": "1.0",
+  "canonical_url": "https://transduction.systems/entries/publication_essential_balances/",
+  "release": "0.35",
+  "citation": "Taylor, B. P. (2026). Essential Balances. The Necessary Tangle, release 0.35. https://transduction.systems/entries/publication_essential_balances/",
+  "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
+  "entry": {
+    "id": "publication_essential_balances",
+    "label": "Essential Balances",
+    "entity_type": "publication",
+    "description": "Ivo Velitchkov's book on three recurrent organisational tensions: autonomy and cohesion, stability and diversity, and exploration and exploitation, treated as dynamic balances rather than choices to settle once.",
+    "aliases": [
+      "Essential Balances: Stop Looking and Start Seeing What Makes Organizations Work"
+    ],
+    "boundary_ring": "0",
+    "inclusion_reason": "practitioner_expertise_coverage_release_0_12",
+    "status": "accepted",
+    "source_ids": [
+      "src_scio_essential_balances_2020",
+      "src_velitchkov_home_current"
+    ],
+    "set_tags": [
+      "systems",
+      "practice",
+      "human_lineage",
+      "release_0_12"
+    ],
+    "espoused_labels": [],
+    "observed_clusters": [],
+    "canonical_definition": "Ivo Velitchkov's book on three recurrent organisational tensions: autonomy and cohesion, stability and diversity, and exploration and exploitation, treated as dynamic balances rather than choices to settle once.",
+    "valid_from": "",
+    "valid_to": "",
+    "external_ids": "{}",
+    "geographies": [],
+    "licence": "",
+    "review_status": "curator_checked_public_sources",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-10",
+    "x": -0.1,
+    "y": 0.21,
+    "canonical_id": "publication_essential_balances",
+    "public_visibility": "public",
+    "publication_level": "profile",
+    "public_stub_text": "",
+    "public_source_count": 2,
+    "no_public_link_count": 0
+  },
+  "profile": {
+    "node_id": "publication_essential_balances",
+    "title": "Essential Balances",
+    "profile_status": "curator_checked_public_sources",
+    "canonical_definition": "Ivo Velitchkov's book on three recurrent organisational tensions: autonomy and cohesion, stability and diversity, and exploration and exploitation, treated as dynamic balances rather than choices to settle once.",
+    "summary": "Essential Balances invites readers to notice three recurrent organisational tensions and cultivate the ability to keep adjusting them rather than seek one permanently correct point.",
+    "why_it_matters": "It provides a practitioner bridge between management cybernetics and ordinary organisational judgement, while resisting the tendency to treat one pole of a tension as the solution.",
+    "key_distinctions": [
+      "autonomy and cohesion",
+      "stability and diversity",
+      "exploration and exploitation",
+      "dynamic adjustment vs midpoint compromise"
+    ],
+    "historical_lineage": [
+      "management cybernetics",
+      "organisational paradox",
+      "ambidexterity and exploration/exploitation"
+    ],
+    "logical_antecedents": [
+      "autonomy",
+      "cohesion",
+      "viability",
+      "variety"
+    ],
+    "dependent_subsequents": [
+      "organisational diagnostic habits",
+      "balance-aware intervention"
+    ],
+    "practice_connections": [
+      "leadership reflection",
+      "organisation design",
+      "strategy",
+      "team and institutional diagnosis"
+    ],
+    "espoused_lineages": [],
+    "observed_clusters": [],
+    "common_misreadings": [
+      "balance means eliminating tension",
+      "the three balances are independent",
+      "one snapshot can establish the right balance"
+    ],
+    "open_checks": [
+      "add page-level citations from the book",
+      "compare with Barry Oshry and Stafford Beer without collapsing the traditions",
+      "document cases and criticism"
+    ],
+    "source_ids": [
+      "src_scio_essential_balances_2020",
+      "src_velitchkov_home_current"
+    ],
+    "evidence_ids": [],
+    "last_researched": "2026-08-10",
+    "review_status": "curator_checked_public_sources",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-10",
+    "editorial_note": "Developed from cited public sources. The entry remains open to correction, rival accounts and stronger evidence."
+  },
+  "connections": [
+    {
+      "id": "e_12_essential_autonomy",
+      "source": "publication_essential_balances",
+      "target": "concept_autonomy",
+      "relation_type": "uses",
+      "relation_family": "practice",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.88",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_scio_essential_balances_2020"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Release 0.12 public practitioner and publication sources",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "The wording is limited to the named public sources. Bibliographic inclusion and organisational association do not establish wider intellectual influence.",
+      "assertion_mode": "asserted",
+      "inference_method": "curatorial synthesis of public primary, scholarly and professional-body sources",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-10",
+      "notes": "Autonomy is one pole of the first named balance.",
+      "plain_phrase": "uses",
+      "public_review_label": "supported working statement"
+    },
+    {
+      "id": "e_12_essential_cohesion",
+      "source": "publication_essential_balances",
+      "target": "concept_cohesion",
+      "relation_type": "uses",
+      "relation_family": "practice",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.88",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_scio_essential_balances_2020"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Release 0.12 public practitioner and publication sources",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "The wording is limited to the named public sources. Bibliographic inclusion and organisational association do not establish wider intellectual influence.",
+      "assertion_mode": "asserted",
+      "inference_method": "curatorial synthesis of public primary, scholarly and professional-body sources",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-10",
+      "notes": "Cohesion is the other pole of the first named balance.",
+      "plain_phrase": "uses",
+      "public_review_label": "supported working statement"
+    },
+    {
+      "id": "e_12_ivo_essential_author",
+      "source": "publication_essential_balances",
+      "target": "person_ivo_velitchkov",
+      "relation_type": "authored_by",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.88",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_scio_essential_balances_2020"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Release 0.12 public practitioner and publication sources",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "The wording is limited to the named public sources. Bibliographic inclusion and organisational association do not establish wider intellectual influence.",
+      "assertion_mode": "asserted",
+      "inference_method": "curatorial synthesis of public primary, scholarly and professional-body sources",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-10",
+      "notes": "The official book page identifies Ivo Velitchkov as author.",
+      "plain_phrase": "was authored by",
+      "public_review_label": "supported working statement"
+    }
+  ],
+  "claims": [],
+  "sources": [
+    {
+      "id": "src_scio_essential_balances_2020",
+      "title": "Essential Balances: Stop Looking and Start Seeing What Makes Organizations Work",
+      "source_type": "official_professional_body_book_page",
+      "quality_tier": "B",
+      "access": "public_metadata",
+      "url": "https://www.systemspractice.org/resources/essential-balances-stop-looking-and-start-seeing-what-makes-organizations-work",
+      "date": "2020-11",
+      "notes": "SCiO bibliographic and descriptive page for Ivo Velitchkov's book. It supports the three named balances and publication metadata; page-level claims still require the book itself.",
+      "creators": [
+        "Ivo Velitchkov"
+      ],
+      "doi": "",
+      "isbn": "978-1838338619",
+      "publisher": "KVISTGAARD",
+      "licence": "publisher_terms",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-10",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_velitchkov_home_current",
+      "title": "Ivo Velitchkov",
+      "source_type": "primary_author_page",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://velitchkov.eu/",
+      "date": "",
+      "notes": "Ivo Velitchkov's public home page links his books, blogs, public slide decks and other work. It establishes authorship and discovery routes, not independent evaluation.",
+      "creators": [
+        "Ivo Velitchkov"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Ivo Velitchkov",
+      "licence": "source_terms",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-10",
+      "public_link_status": "public_link"
+    }
+  ],
+  "evidence_locators": [],
+  "reuse_note": "Preserve source attribution, scope, and review status. Source documents and evidence excerpts are excluded."
+}

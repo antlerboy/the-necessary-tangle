@@ -1,0 +1,238 @@
+{
+  "schema_version": "1.0",
+  "canonical_url": "https://transduction.systems/entries/person_robert_rosen/",
+  "release": "0.35",
+  "citation": "Taylor, B. P. (2026). Robert Rosen. The Necessary Tangle, release 0.35. https://transduction.systems/entries/person_robert_rosen/",
+  "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
+  "entry": {
+    "id": "person_robert_rosen",
+    "label": "Robert Rosen",
+    "entity_type": "person",
+    "description": "Robert Rosen was a theoretical biologist whose work addressed relational biology, anticipatory systems, modelling, and the organisation of living systems. His scientific-work archive provides routes into the corpus; Springer identifies him as the author of Anticipatory Systems, and ISSS records his presidency in 1980–81.",
+    "aliases": [],
+    "boundary_ring": "0",
+    "inclusion_reason": "september_connections_2026",
+    "status": "candidate",
+    "source_ids": [
+      "src_robert_rosen_archive_2026",
+      "src_intake26_anticipatory2012",
+      "src_reports27_isss_presidents",
+      "src_reports27_issue_83"
+    ],
+    "set_tags": [
+      "biology",
+      "systems",
+      "september_connections_2026"
+    ],
+    "espoused_labels": [],
+    "observed_clusters": [],
+    "canonical_definition": "Robert Rosen was a theoretical biologist whose work addressed relational biology, anticipatory systems, modelling, and the organisation of living systems. His scientific-work archive provides routes into the corpus; Springer identifies him as the author of Anticipatory Systems, and ISSS records his presidency in 1980–81.",
+    "valid_from": "",
+    "valid_to": "",
+    "external_ids": "{}",
+    "geographies": [],
+    "licence": "",
+    "review_status": "source_scoped_report_review_complete",
+    "reviewed_by": "",
+    "reviewed_at": "",
+    "x": 0.253,
+    "y": -0.11699999999999999,
+    "canonical_id": "person_robert_rosen",
+    "public_visibility": "public",
+    "publication_level": "profile",
+    "public_stub_text": "",
+    "public_source_count": 4,
+    "no_public_link_count": 0
+  },
+  "profile": {
+    "node_id": "person_robert_rosen",
+    "summary": "Robert Rosen was a theoretical biologist whose work addressed relational biology, anticipatory systems, modelling, and the organisation of living systems. His scientific-work archive provides routes into the corpus; Springer identifies him as the author of Anticipatory Systems, and ISSS records his presidency in 1980–81.",
+    "canonical_definition": "Robert Rosen was a theoretical biologist whose work addressed relational biology, anticipatory systems, modelling, and the organisation of living systems. His scientific-work archive provides routes into the corpus; Springer identifies him as the author of Anticipatory Systems, and ISSS records his presidency in 1980–81.",
+    "why_it_matters": "Rosen matters to systems inquiry because he treated modelling and anticipation as constitutive questions for living organisation, not merely as techniques for forecasting it.",
+    "key_distinctions": [
+      "Anticipation is not the same as prediction.",
+      "A modelling relation is not interchangeable with a computer simulation.",
+      "An archive landing page locates a corpus; it does not settle interpretations of Rosen's mathematics."
+    ],
+    "historical_lineage": [
+      "Relational biology, mathematical biology, and anticipatory systems."
+    ],
+    "logical_antecedents": [],
+    "dependent_subsequents": [],
+    "practice_connections": [
+      "Distinguish a model used by an anticipatory organisation from an observer's external simulation of that organisation."
+    ],
+    "common_misreadings": [
+      "The entry does not repeat the report's claim that Rosen proved living systems cannot be simulated; that stronger formulation needs exact textual and mathematical treatment."
+    ],
+    "open_checks": [
+      "A close-reading pass is still required for the modelling relation, (M,R)-systems, closure to efficient causation, and claims about complexity."
+    ],
+    "source_ids": [
+      "src_robert_rosen_archive_2026",
+      "src_intake26_anticipatory2012",
+      "src_reports27_isss_presidents",
+      "src_reports27_issue_83"
+    ],
+    "context_and_lineage": "Reviewed from public report #83. The report is a research prompt; the profile retains only claims bounded by the cited records.",
+    "editorial_note": "Prepared with AI assistance from the named public records and the public report. The report review is complete; open checks are future research, not missing entry work. Independent specialist review is not recorded.",
+    "last_researched": "2026-09-20",
+    "title": "Robert Rosen",
+    "profile_status": "source_scoped_report_review_complete",
+    "review_status": "independent_review_not_recorded",
+    "reviewed_by": "",
+    "reviewed_at": "",
+    "report_issue": 83,
+    "report_outcome": "full_profile_added; corpus, authorship, and office retained; strong mathematical claims reserved for close reading"
+  },
+  "connections": [
+    {
+      "id": "e25_publication_anticipatory_systems_2012_authored_by_person_robert_rosen",
+      "source": "publication_anticipatory_systems_2012",
+      "target": "person_robert_rosen",
+      "relation_type": "authored_by",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "",
+      "claim_status": "candidate",
+      "source_ids": [
+        "src_intake26_anticipatory2012"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Authors; Bibliographic information",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Robert Rosen is the publisher's credited book author.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "is authored by",
+      "public_review_label": "Located source statement; independent review not recorded"
+    },
+    {
+      "id": "e27_a4e9951d57d44591b0e9",
+      "source": "person_robert_rosen",
+      "target": "organisation_isss",
+      "relation_type": "served_as_president_of",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "",
+      "claim_status": "candidate",
+      "source_ids": [
+        "src_reports27_isss_presidents"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Past-presidents list, Robert Rosen",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Historical office-holding only.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "served as president of",
+      "public_review_label": "Located source statement; independent review not recorded",
+      "connection_pass": "missing_entry_reports_20260920"
+    }
+  ],
+  "claims": [],
+  "sources": [
+    {
+      "id": "src_robert_rosen_archive_2026",
+      "title": "Robert Rosen scientific-work archive",
+      "source_type": "author_archive",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://www.rosenlife.org/",
+      "date": "2026-09-09",
+      "notes": "Archive landing page inspected; identifies Rosen as a biologist and provides routes into the scientific-work collection. Detailed theoretical claims in the submission remain unreviewed.",
+      "creators": [
+        "Robert Rosen archive"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Rosenlife",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "source_scope_checked",
+      "last_checked": "2026-09-09",
+      "public_link_status": "public_link",
+      "connection_pass": "september_connections_2026"
+    },
+    {
+      "id": "src_intake26_anticipatory2012",
+      "title": "Anticipatory Systems, second edition",
+      "source_type": "primary_public_record",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://link.springer.com/book/10.1007/978-1-4614-1269-4",
+      "date": "2012",
+      "notes": "About this book; Authors; Bibliographic information: Publisher credits Robert Rosen as author and Judith Rosen with an introduction and a short story. Metadata and description inspected; full book not read in this pass.",
+      "creators": [],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Springer",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "source_scope_checked",
+      "last_checked": "2026-09-18",
+      "public_link_status": "public_link",
+      "connection_pass": "source_intake_20260918"
+    },
+    {
+      "id": "src_reports27_isss_presidents",
+      "title": "Past presidents of the ISSS",
+      "source_type": "primary_public_record",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://www.isss.org/past-presidents/",
+      "date": "2026-09-20",
+      "notes": "Chronological list of past presidents: Institutional office-holding record. Presidency establishes a formal role, not agreement with every position taken by the society or proof of intellectual influence.",
+      "creators": [],
+      "doi": "",
+      "isbn": "",
+      "publisher": "International Society for the Systems Sciences",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "source_scope_checked",
+      "last_checked": "2026-09-20",
+      "public_link_status": "public_link",
+      "connection_pass": "missing_entry_reports_20260920"
+    },
+    {
+      "id": "src_reports27_issue_83",
+      "title": "Missing-entry report #83: Robert Rosen",
+      "source_type": "public_submission",
+      "quality_tier": "B",
+      "access": "public",
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/83",
+      "date": "2026-09-20",
+      "notes": "Public report by David Ing. The report prompted research but is not treated as evidence for its own claims.",
+      "creators": [
+        "David Ing"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "The Necessary Tangle public intake",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "report_reviewed_against_public_sources",
+      "last_checked": "2026-09-20",
+      "public_link_status": "public_link",
+      "connection_pass": "missing_entry_reports_20260920"
+    }
+  ],
+  "evidence_locators": [],
+  "reuse_note": "Preserve source attribution, scope, and review status. Source documents and evidence excerpts are excluded."
+}

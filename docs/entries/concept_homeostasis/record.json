@@ -1,0 +1,552 @@
+{
+  "schema_version": "1.0",
+  "canonical_url": "https://transduction.systems/entries/concept_homeostasis/",
+  "release": "0.35",
+  "citation": "Taylor, B. P. (2026). Homeostasis. The Necessary Tangle, release 0.35. https://transduction.systems/entries/concept_homeostasis/",
+  "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
+  "entry": {
+    "id": "concept_homeostasis",
+    "label": "Homeostasis",
+    "entity_type": "concept",
+    "description": "Dynamic maintenance or restoration of internal variables within viable ranges despite disturbance. It is neither immobility nor a synonym for a single feedback loop.",
+    "aliases": [],
+    "boundary_ring": "0",
+    "inclusion_reason": "seed_corpus",
+    "status": "candidate",
+    "source_ids": [
+      "src_sysbok_feedback_2013",
+      "src_cannon_homeostasis_1929"
+    ],
+    "set_tags": [
+      "legacy_sysbok",
+      "feedback_pilot",
+      "core_cluster"
+    ],
+    "espoused_labels": [],
+    "observed_clusters": [],
+    "canonical_definition": "The organised maintenance of internal variables within viable ranges despite disturbance; the relevant variables, ranges, mechanisms and time scales must be specified.",
+    "valid_from": "",
+    "valid_to": "",
+    "external_ids": "{}",
+    "geographies": [],
+    "licence": "",
+    "review_status": "research_pass_needs_editor",
+    "reviewed_by": "",
+    "reviewed_at": "",
+    "x": -0.421274,
+    "y": -0.196561,
+    "canonical_id": "concept_homeostasis",
+    "public_visibility": "public",
+    "publication_level": "profile",
+    "public_stub_text": "",
+    "public_source_count": 1,
+    "no_public_link_count": 1
+  },
+  "profile": {
+    "node_id": "concept_homeostasis",
+    "title": "Homeostasis",
+    "profile_status": "evidence_deepened_research_pass",
+    "canonical_definition": "The organised maintenance of internal variables within viable ranges despite disturbance; the relevant variables, ranges, mechanisms and time scales must be specified.",
+    "summary": "Homeostasis is dynamic maintenance, not stillness. A living system keeps selected internal variables within viable ranges while energy, matter and information continue to flow and conditions continue to change.",
+    "why_it_matters": "The idea is useful for understanding stability and resistance to disturbance. In organisations it is often used metaphorically; the metaphor only earns its keep when the variables, ranges and mechanisms being maintained are named.",
+    "key_distinctions": [
+      "homeostasis vs stasis",
+      "maintained condition vs one feedback loop",
+      "viable range vs exact set point",
+      "physiological concept vs organisational analogy"
+    ],
+    "historical_lineage": [
+      "Claude Bernard: internal milieu as precursor",
+      "Walter Cannon 1929: physiological homeostasis formulation",
+      "cybernetics connected homeostasis with regulation and feedback"
+    ],
+    "logical_antecedents": [
+      "essential variables",
+      "viable ranges",
+      "disturbance",
+      "regulatory processes",
+      "energy and material exchange"
+    ],
+    "dependent_subsequents": [
+      "adaptive regulation",
+      "organisational homeostasis metaphors",
+      "resilience and viability debates"
+    ],
+    "practice_connections": [
+      "ask what the system is working to keep unchanged",
+      "distinguish survival from flourishing",
+      "look for hidden work that maintains dysfunction",
+      "identify who benefits from the maintained state"
+    ],
+    "espoused_lineages": [
+      "physiology",
+      "biology",
+      "cybernetics",
+      "organisation studies"
+    ],
+    "observed_clusters": [],
+    "common_misreadings": [
+      "nothing changes",
+      "homeostasis is always desirable",
+      "all resistance is irrational",
+      "feedback and homeostasis are synonyms"
+    ],
+    "open_checks": [
+      "Bernard primary lineage",
+      "allostasis and adaptive ranges",
+      "responsible use in social systems"
+    ],
+    "source_ids": [
+      "src_cannon_homeostasis_1929",
+      "src_sysbok_feedback_2013"
+    ],
+    "evidence_ids": [
+      "ev_cannon_homeostasis_bibliography"
+    ],
+    "last_researched": "2026-08-09",
+    "review_status": "research_pass_needs_editor",
+    "editorial_note": "Readable orientation and evidence-backed first pass. Not accepted scholarly consensus until named review is recorded."
+  },
+  "connections": [
+    {
+      "id": "e16_grammar_crosswalk_012",
+      "source": "law_or_principle_homeostasis_principle",
+      "target": "concept_homeostasis",
+      "relation_type": "formalises",
+      "relation_family": "conceptual",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.76",
+      "claim_status": "provisional",
+      "source_ids": [
+        "src_grammar_presentation_2022",
+        "src_grammar_2ed_2025",
+        "src_salah_grammar_part1_2022"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Crosswalk from the maintained law description and cited Grammar sources to the target entry's maintained definition",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "This is an interpretive conceptual crosswalk. It does not assert direct historical influence, formal equivalence or universal validity. The wording should be challenged or strengthened with page-level evidence.",
+      "assertion_mode": "interpreted",
+      "inference_method": "curator-requested semantic crosswalk of public descriptions",
+      "claim_id": "",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "offers a systems-law formulation of",
+      "public_review_label": "provisional conceptual crosswalk"
+    },
+    {
+      "id": "e16_grammar_crosswalk_035",
+      "source": "law_or_principle_second_circular_causality_principle",
+      "target": "concept_homeostasis",
+      "relation_type": "explains",
+      "relation_family": "conceptual",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.76",
+      "claim_status": "provisional",
+      "source_ids": [
+        "src_grammar_presentation_2022",
+        "src_grammar_2ed_2025",
+        "src_salah_grammar_part1_2022"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Crosswalk from the maintained law description and cited Grammar sources to the target entry's maintained definition",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "This is an interpretive conceptual crosswalk. It does not assert direct historical influence, formal equivalence or universal validity. The wording should be challenged or strengthened with page-level evidence.",
+      "assertion_mode": "interpreted",
+      "inference_method": "curator-requested semantic crosswalk of public descriptions",
+      "claim_id": "",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "describes a corrective process which may sustain",
+      "public_review_label": "provisional conceptual crosswalk"
+    },
+    {
+      "id": "e16_grammar_crosswalk_134",
+      "source": "concept_homeostasis",
+      "target": "law_or_principle_steady_state_principle",
+      "relation_type": "explanatory_prerequisite",
+      "relation_family": "conceptual",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.76",
+      "claim_status": "provisional",
+      "source_ids": [
+        "src_grammar_presentation_2022",
+        "src_grammar_2ed_2025",
+        "src_salah_grammar_part3_2022"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Crosswalk from the maintained law description and cited Grammar sources to the target entry's maintained definition",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "This is an interpretive conceptual crosswalk. It does not assert direct historical influence, formal equivalence or universal validity. The wording should be challenged or strengthened with page-level evidence.",
+      "assertion_mode": "interpreted",
+      "inference_method": "curator-requested semantic crosswalk of public descriptions",
+      "claim_id": "",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "is an explanatory prerequisite for",
+      "public_review_label": "provisional conceptual crosswalk"
+    },
+    {
+      "id": "e16_grammar_crosswalk_151",
+      "source": "concept_homeostasis",
+      "target": "law_or_principle_relaxation_time_principle",
+      "relation_type": "explanatory_prerequisite",
+      "relation_family": "conceptual",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.76",
+      "claim_status": "provisional",
+      "source_ids": [
+        "src_grammar_presentation_2022",
+        "src_grammar_2ed_2025",
+        "src_salah_grammar_part3_2022"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Crosswalk from the maintained law description and cited Grammar sources to the target entry's maintained definition",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "This is an interpretive conceptual crosswalk. It does not assert direct historical influence, formal equivalence or universal validity. The wording should be challenged or strengthened with page-level evidence.",
+      "assertion_mode": "interpreted",
+      "inference_method": "curator-requested semantic crosswalk of public descriptions",
+      "claim_id": "",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "sets the recovery process examined by",
+      "public_review_label": "provisional conceptual crosswalk"
+    },
+    {
+      "id": "e_0271",
+      "source": "concept_feedback",
+      "target": "concept_homeostasis",
+      "relation_type": "legacy_association_unspecified",
+      "relation_family": "legacy",
+      "directed": "false",
+      "dependency_kind": "",
+      "confidence": "0.4",
+      "claim_status": "legacy_unverified",
+      "source_ids": [
+        "src_sysbok_feedback_2013"
+      ],
+      "evidence_ids": [],
+      "source_locator": "",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "",
+      "assertion_mode": "inherited",
+      "inference_method": "",
+      "claim_id": "",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "Legacy relation 'conceptually_related_to' retained for audit; semantics unresolved or invalid. | Legacy relation 'legacy_association_unspecified' retained for audit; semantics unresolved or invalid. | Legacy relation 'legacy_association_unspecified' retained for audit; semantics unresolved or invalid. | Legacy relation 'legacy_association_unspecified' retained for audit; semantics unresolved or invalid. | Legacy relation 'legacy_association_unspecified' retained for audit; semantics unresolved or invalid. | Legacy relation 'legacy_association_unspecified' retained for audit; semantics unresolved or invalid. | Legacy relation 'legacy_association_unspecified' retained for audit; semantics unresolved or invalid. | Legacy relation 'legacy_association_unspecified' retained for audit; semantics unresolved or invalid.",
+      "plain_phrase": "was linked in an inherited map, but the meaning of the link is unresolved",
+      "public_review_label": "legacy_unverified"
+    },
+    {
+      "id": "e_v03_homeostasis_combined_negative",
+      "source": "concept_homeostasis",
+      "target": "concept_negative_feedback",
+      "relation_type": "commonly_combined_with",
+      "relation_family": "practice",
+      "directed": "false",
+      "dependency_kind": "",
+      "confidence": "0.75",
+      "claim_status": "provisional",
+      "source_ids": [
+        "src_cannon_homeostasis_1929",
+        "src_ieee_feedback_topic"
+      ],
+      "evidence_ids": [
+        "ev_cannon_homeostasis_bibliography",
+        "ev_ieee_feedback_types"
+      ],
+      "source_locator": "Cannon 1929; IEEE feedback overview",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "",
+      "assertion_mode": "editorial_research_pass",
+      "inference_method": "source_comparison",
+      "claim_id": "",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "Many homeostatic accounts use negative feedback, but homeostasis names a maintained condition and organisation, not one universal mechanism.",
+      "plain_phrase": "commonly combined with",
+      "public_review_label": "provisional"
+    },
+    {
+      "id": "e16_relational_crosswalk_226",
+      "source": "person_walter_b_cannon",
+      "target": "concept_homeostasis",
+      "relation_type": "developed",
+      "relation_family": "historical",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.72",
+      "claim_status": "provisional",
+      "source_ids": [
+        "src_cannon_homeostasis_1929",
+        "src_sysbok_feedback_2013"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Interpretive comparison of the two maintained public descriptions and their cited source records",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "This is a provisional semantic or practice crosswalk. It does not establish historical influence, equivalence, efficacy or universal applicability. Item-level source review and curator acceptance are still required.",
+      "assertion_mode": "interpreted",
+      "inference_method": "curator-requested relational crosswalk of maintained public descriptions",
+      "claim_id": "",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "developed the physiological account named",
+      "public_review_label": "provisional relational crosswalk"
+    },
+    {
+      "id": "e26_fbf36562d75366a3b627c5",
+      "source": "resource_sp26_24a7d0cd7a17ecba",
+      "target": "concept_homeostasis",
+      "relation_type": "source_text_mentions",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "",
+      "claim_status": "candidate",
+      "source_ids": [
+        "src_sp26_24a7d0cd7a17ecba"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Extracted source text, character 19625; page-level locator pending",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Exact phrase in extracted source text; page-level checking may remain pending as recorded by the locator. Its appearance may be in discussion, a quotation, a reference, or a critical comparison. No semantic or historical claim is inferred.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "contains a located mention of Homeostasis",
+      "public_review_label": "Located source statement; independent review not recorded",
+      "connection_pass": "library_20260919"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_cannon_homeostasis",
+      "statement": "Cannon's 1929 article is the checked primary anchor for the physiological concept of homeostasis in this release.",
+      "subject_id": "concept_homeostasis",
+      "predicate": "first_documented_in",
+      "object_id": "src_cannon_homeostasis_1929",
+      "status": "corroborated",
+      "supporting_source_ids": [
+        "src_cannon_homeostasis_1929"
+      ],
+      "supporting_evidence_ids": [
+        "ev_cannon_homeostasis_bibliography"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_evidence_ids": [],
+      "notes": "This is the earliest checked anchor in the present corpus, not an exhaustive global first-use claim.",
+      "review_status": "research_pass_needs_editor",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    }
+  ],
+  "sources": [
+    {
+      "id": "src_sysbok_feedback_2013",
+      "title": "SCiO SysBoK - Feedback v1",
+      "source_type": "legacy_map_presentation",
+      "quality_tier": "C",
+      "access": "no_public_link",
+      "url": "",
+      "date": "2013-04-01",
+      "notes": "Legacy SCiO SysBoK working presentation; no public link.",
+      "creators": [
+        "SCiO"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "",
+      "licence": "",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "pass4_legacy_internal_register_audit",
+      "last_checked": "2026-08-14",
+      "public_link_status": "no_public_link"
+    },
+    {
+      "id": "src_cannon_homeostasis_1929",
+      "title": "Organization for Physiological Homeostasis",
+      "source_type": "primary_research_article",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://doi.org/10.1152/physrev.1929.9.3.399",
+      "date": "1929-07-01",
+      "notes": "Walter B. Cannon, Physiological Reviews 9(3), pp. 399-431. Primary article establishing the physiological homeostasis formulation. This release uses bibliographic and article-level evidence and does not reduce homeostasis to feedback.",
+      "creators": [
+        "Walter B. Cannon"
+      ],
+      "doi": "10.1152/physrev.1929.9.3.399",
+      "isbn": "",
+      "publisher": "American Physiological Society",
+      "licence": "publisher_terms",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "research_pass_needs_editor",
+      "last_checked": "2026-08-09",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_grammar_presentation_2022",
+      "title": "The Grammar of Systems - SCiO presentation",
+      "source_type": "presentation",
+      "quality_tier": "C",
+      "access": "public",
+      "url": "https://www.systemspractice.org/resources/grammar-systems",
+      "date": "2022-03-21",
+      "notes": "Lists 33 systems laws and principles and describes nine patterns of thinking.",
+      "creators": [
+        "Patrick Hoverstadt"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "SCiO",
+      "licence": "site_terms",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-10",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_grammar_2ed_2025",
+      "title": "The Grammar of Systems II: From Order to Chaos and Back Again, 2nd edition",
+      "source_type": "book",
+      "quality_tier": "B",
+      "access": "public_metadata",
+      "url": "https://www.systemspractice.org/resources/grammar-systems-ii-order-chaos-back-again-2nd-ed",
+      "date": "2025-08-01",
+      "notes": "Current second-edition metadata. The book presents nine systems-thinking patterns and 33 systems laws and principles.",
+      "creators": [
+        "Patrick Hoverstadt"
+      ],
+      "doi": "",
+      "isbn": "979-8298960878",
+      "publisher": "SCiO",
+      "licence": "publisher_terms",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-10",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_salah_grammar_part1_2022",
+      "title": "Cybersecurity Lessons from The Grammar of Systems, part 1",
+      "source_type": "public_secondary_summary",
+      "quality_tier": "C",
+      "access": "public",
+      "url": "https://www.linkedin.com/pulse/cybersecurity-lessons-from-grammar-systems-order-chaos-osama-salah/",
+      "date": "2022-05-16",
+      "notes": "Public secondary summary of Grammar of Systems items 1–11. Used as an accessible orientation aid; the book remains the controlling source.",
+      "creators": [
+        "Osama Salah"
+      ],
+      "publisher": "LinkedIn",
+      "licence": "publisher_terms",
+      "review_status": "checked",
+      "last_checked": "2026-08-09",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_salah_grammar_part3_2022",
+      "title": "Cybersecurity Lessons from The Grammar of Systems, part 3",
+      "source_type": "public_secondary_summary",
+      "quality_tier": "C",
+      "access": "public",
+      "url": "https://www.linkedin.com/pulse/cybersecurity-lessons-from-grammar-systems-order-chaos-osama-salah-2f",
+      "date": "2022-06-01",
+      "notes": "Public secondary summary of Grammar of Systems items 23–33. Used as an accessible orientation aid; the book remains the controlling source.",
+      "creators": [
+        "Osama Salah"
+      ],
+      "publisher": "LinkedIn",
+      "licence": "publisher_terms",
+      "review_status": "checked",
+      "last_checked": "2026-08-09",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_ieee_feedback_topic",
+      "title": "Feedback - IEEE Technology Navigator",
+      "source_type": "professional_technical_reference",
+      "quality_tier": "B",
+      "access": "public",
+      "url": "https://technav.ieee.org/topic/feedback/",
+      "date": "2026-08-09",
+      "notes": "Technical overview distinguishing negative and positive feedback and describing their different effects. Used as an orientation source, not as the sole historical authority.",
+      "creators": [
+        "IEEE Technology Navigator"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "IEEE",
+      "licence": "site_terms",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "research_pass_needs_editor",
+      "last_checked": "2026-08-09",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_sp26_24a7d0cd7a17ecba",
+      "title": "Introduction‐“Chaordic systems thinking” for learning organizations",
+      "source_type": "public_catalogue_record",
+      "quality_tier": "C",
+      "access": "public",
+      "url": "https://doi.org/10.1108/09696470410548773",
+      "date": "2026-09-19",
+      "notes": "Opening title and DOI; Crossref publisher metadata. Bibliographic identity matched; source text indexed. Identity and located teaching relationships are separated from automatic title matches and exact text mentions. A term appearing in a source is not proof of its definition, endorsement, influence, or logical dependence.",
+      "creators": [
+        "Frans M. van Eijnatten",
+        "Goran D. Putnik"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Emerald",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "located_public_record",
+      "last_checked": "2026-09-19",
+      "public_link_status": "public_link",
+      "connection_pass": "library_20260919",
+      "year": "2004"
+    }
+  ],
+  "evidence_locators": [
+    {
+      "id": "ev_cannon_homeostasis_bibliography",
+      "source_id": "src_cannon_homeostasis_1929",
+      "locator": "Physiological Reviews 9(3), pp. 399-431",
+      "review_status": "research_pass_needs_editor"
+    },
+    {
+      "id": "ev_ieee_feedback_types",
+      "source_id": "src_ieee_feedback_topic",
+      "locator": "Sections: What Is Feedback?; Negative and Positive Feedback",
+      "review_status": "research_pass_needs_editor"
+    }
+  ],
+  "reuse_note": "Preserve source attribution, scope, and review status. Source documents and evidence excerpts are excluded."
+}

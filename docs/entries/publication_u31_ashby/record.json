@@ -1,0 +1,398 @@
+{
+  "schema_version": "1.0",
+  "canonical_url": "https://transduction.systems/entries/publication_u31_ashby/",
+  "release": "0.35",
+  "citation": "Taylor, B. P. (2026). Ashby: selection, regulation, and variety (Challoner, 2026). The Necessary Tangle, release 0.35. https://transduction.systems/entries/publication_u31_ashby/",
+  "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
+  "entry": {
+    "id": "publication_u31_ashby",
+    "label": "Ashby: selection, regulation, and variety (Challoner, 2026)",
+    "entity_type": "publication",
+    "description": "Challoner reconstructs Ashby through selected variables, transformations, constraints, and regulation. Read the general definitions before the specialised regulatory claims. The good-regulator result has formal conditions; it is not a licence to assume every manager has an adequate model.",
+    "aliases": [],
+    "boundary_ring": "0",
+    "inclusion_reason": "update_20261008",
+    "status": "candidate",
+    "source_ids": [
+      "src_u31_ashby"
+    ],
+    "set_tags": [
+      "systems",
+      "release_0_31",
+      "researcher-modules"
+    ],
+    "espoused_labels": [],
+    "observed_clusters": [],
+    "canonical_definition": "Challoner reconstructs Ashby through selected variables, transformations, constraints, and regulation. Read the general definitions before the specialised regulatory claims. The good-regulator result has formal conditions; it is not a licence to assume every manager has an adequate model.",
+    "valid_from": "",
+    "valid_to": "",
+    "external_ids": "{}",
+    "geographies": [],
+    "licence": "",
+    "review_status": "research_pass_needs_editor",
+    "reviewed_by": "",
+    "reviewed_at": "",
+    "x": 0.37223,
+    "y": 0.35836,
+    "canonical_id": "publication_u31_ashby",
+    "public_visibility": "public",
+    "publication_level": "profile",
+    "public_stub_text": "",
+    "public_source_count": 1,
+    "no_public_link_count": 0,
+    "connection_pass": "update_20261008"
+  },
+  "profile": {
+    "node_id": "publication_u31_ashby",
+    "summary": "Challoner reconstructs Ashby through selected variables, transformations, constraints, and regulation. Read the general definitions before the specialised regulatory claims. The good-regulator result has formal conditions; it is not a licence to assume every manager has an adequate model.",
+    "canonical_definition": "Challoner reconstructs Ashby through selected variables, transformations, constraints, and regulation. Read the general definitions before the specialised regulatory claims. The good-regulator result has formal conditions; it is not a licence to assume every manager has an adequate model.",
+    "why_it_matters": "Inspect the passage and the stated domain before using a term in a new setting.",
+    "key_distinctions": [
+      "source account vs editorial interpretation",
+      "material exchange vs causal openness",
+      "bibliographic access vs full-text evidence"
+    ],
+    "historical_lineage": [],
+    "logical_antecedents": [],
+    "dependent_subsequents": [],
+    "practice_connections": [
+      "Name the domain, conditions, and observation that could challenge the proposed connection."
+    ],
+    "common_misreadings": [
+      "Treating a shared term as proof that two accounts are equivalent."
+    ],
+    "open_checks": [
+      "Original-source verification and human editorial review remain open."
+    ],
+    "source_ids": [
+      "src_u31_ashby"
+    ],
+    "context_and_lineage": "",
+    "editorial_note": "AI-assisted source reading. Human curator: Benjamin P Taylor. New claims remain candidates.",
+    "last_researched": "2026-10-08",
+    "connection_pass": "update_20261008",
+    "title": "Ashby: selection, regulation, and variety (Challoner, 2026)",
+    "review_status": "research_pass_needs_editor",
+    "profile_status": "evidence_deepened_research_pass"
+  },
+  "connections": [
+    {
+      "id": "e31_subject_ashby",
+      "source": "publication_u31_ashby",
+      "target": "person_w_ross_ashby",
+      "relation_type": "presents_account_of",
+      "relation_family": "conceptual",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "",
+      "claim_status": "candidate",
+      "source_ids": [
+        "src_u31_ashby"
+      ],
+      "evidence_ids": [
+        "ev_e31_subject_ashby"
+      ],
+      "source_locator": "PDF p. 1: researcher and source basis",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Challoner’s module presents this thinker’s work. Its reconstructions are secondary interpretations, not new direct testimony from the original author.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "claim_e31_subject_ashby",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "presents account of",
+      "public_review_label": "Located source statement; curator review pending",
+      "connection_pass": "update_20261008"
+    },
+    {
+      "id": "e31_module_ashby_1",
+      "source": "publication_u31_ashby",
+      "target": "concept_variety",
+      "relation_type": "presents_account_of",
+      "relation_family": "conceptual",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "",
+      "claim_status": "candidate",
+      "source_ids": [
+        "src_u31_ashby"
+      ],
+      "evidence_ids": [
+        "ev_e31_module_ashby_1"
+      ],
+      "source_locator": "p. 3, DG4 and PG4",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "In Challoner’s reconstruction: Variety counts distinguishable possibilities; information concerns eliminated alternatives.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "claim_e31_module_ashby_1",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "presents account of",
+      "public_review_label": "Located source statement; curator review pending",
+      "connection_pass": "update_20261008"
+    },
+    {
+      "id": "e31_module_ashby_2",
+      "source": "publication_u31_ashby",
+      "target": "concept_regulation",
+      "relation_type": "presents_account_of",
+      "relation_family": "conceptual",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "",
+      "claim_status": "candidate",
+      "source_ids": [
+        "src_u31_ashby"
+      ],
+      "evidence_ids": [
+        "ev_e31_module_ashby_2"
+      ],
+      "source_locator": "p. 4, DS1 and PS1",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "In Challoner’s reconstruction: Regulation concerns the effects of disturbances on specified essential variables.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "claim_e31_module_ashby_2",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "presents account of",
+      "public_review_label": "Located source statement; curator review pending",
+      "connection_pass": "update_20261008"
+    },
+    {
+      "id": "e31_module_ashby_3",
+      "source": "publication_u31_ashby",
+      "target": "concept_ultrastability",
+      "relation_type": "presents_account_of",
+      "relation_family": "conceptual",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "",
+      "claim_status": "candidate",
+      "source_ids": [
+        "src_u31_ashby"
+      ],
+      "evidence_ids": [
+        "ev_e31_module_ashby_3"
+      ],
+      "source_locator": "p. 4, DS3; p. 5, PS4",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "In Challoner’s reconstruction: Ultrastability changes parameters when essential variables leave their limits.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "claim_e31_module_ashby_3",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "presents account of",
+      "public_review_label": "Located source statement; curator review pending",
+      "connection_pass": "update_20261008"
+    },
+    {
+      "id": "e31_module_ashby_4",
+      "source": "publication_u31_ashby",
+      "target": "law_or_principle_conant_ashby_theorem",
+      "relation_type": "presents_account_of",
+      "relation_family": "conceptual",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "",
+      "claim_status": "candidate",
+      "source_ids": [
+        "src_u31_ashby"
+      ],
+      "evidence_ids": [
+        "ev_e31_module_ashby_4"
+      ],
+      "source_locator": "p. 5, PS6",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "In Challoner’s reconstruction: The good-regulator proposition is presented with stated mathematical qualifications.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "claim_e31_module_ashby_4",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "presents account of",
+      "public_review_label": "Located source statement; curator review pending",
+      "connection_pass": "update_20261008"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_e31_subject_ashby",
+      "statement": "Challoner’s module presents this thinker’s work. Its reconstructions are secondary interpretations, not new direct testimony from the original author.",
+      "subject_id": "publication_u31_ashby",
+      "predicate": "presents_account_of",
+      "object_id": "person_w_ross_ashby",
+      "status": "candidate",
+      "supporting_source_ids": [
+        "src_u31_ashby"
+      ],
+      "supporting_evidence_ids": [
+        "ev_e31_subject_ashby"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_evidence_ids": [],
+      "notes": "Source-scoped interpretation. Human editorial acceptance remains pending.",
+      "review_status": "research_pass_needs_editor",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "connection_pass": "update_20261008"
+    },
+    {
+      "id": "claim_e31_module_ashby_1",
+      "statement": "In Challoner’s reconstruction: Variety counts distinguishable possibilities; information concerns eliminated alternatives.",
+      "subject_id": "publication_u31_ashby",
+      "predicate": "presents_account_of",
+      "object_id": "concept_variety",
+      "status": "candidate",
+      "supporting_source_ids": [
+        "src_u31_ashby"
+      ],
+      "supporting_evidence_ids": [
+        "ev_e31_module_ashby_1"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_evidence_ids": [],
+      "notes": "Source-scoped interpretation. Human editorial acceptance remains pending.",
+      "review_status": "research_pass_needs_editor",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "connection_pass": "update_20261008"
+    },
+    {
+      "id": "claim_e31_module_ashby_2",
+      "statement": "In Challoner’s reconstruction: Regulation concerns the effects of disturbances on specified essential variables.",
+      "subject_id": "publication_u31_ashby",
+      "predicate": "presents_account_of",
+      "object_id": "concept_regulation",
+      "status": "candidate",
+      "supporting_source_ids": [
+        "src_u31_ashby"
+      ],
+      "supporting_evidence_ids": [
+        "ev_e31_module_ashby_2"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_evidence_ids": [],
+      "notes": "Source-scoped interpretation. Human editorial acceptance remains pending.",
+      "review_status": "research_pass_needs_editor",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "connection_pass": "update_20261008"
+    },
+    {
+      "id": "claim_e31_module_ashby_3",
+      "statement": "In Challoner’s reconstruction: Ultrastability changes parameters when essential variables leave their limits.",
+      "subject_id": "publication_u31_ashby",
+      "predicate": "presents_account_of",
+      "object_id": "concept_ultrastability",
+      "status": "candidate",
+      "supporting_source_ids": [
+        "src_u31_ashby"
+      ],
+      "supporting_evidence_ids": [
+        "ev_e31_module_ashby_3"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_evidence_ids": [],
+      "notes": "Source-scoped interpretation. Human editorial acceptance remains pending.",
+      "review_status": "research_pass_needs_editor",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "connection_pass": "update_20261008"
+    },
+    {
+      "id": "claim_e31_module_ashby_4",
+      "statement": "In Challoner’s reconstruction: The good-regulator proposition is presented with stated mathematical qualifications.",
+      "subject_id": "publication_u31_ashby",
+      "predicate": "presents_account_of",
+      "object_id": "law_or_principle_conant_ashby_theorem",
+      "status": "candidate",
+      "supporting_source_ids": [
+        "src_u31_ashby"
+      ],
+      "supporting_evidence_ids": [
+        "ev_e31_module_ashby_4"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_evidence_ids": [],
+      "notes": "Source-scoped interpretation. Human editorial acceptance remains pending.",
+      "review_status": "research_pass_needs_editor",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "connection_pass": "update_20261008"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src_u31_ashby",
+      "title": "Ashby: selection, regulation, and variety: researcher module",
+      "source_type": "public_source",
+      "quality_tier": "B",
+      "access": "public",
+      "url": "https://rational-understanding.com/wp-content/uploads/2026/10/ashby-researcher-module.pdf",
+      "date": "2026",
+      "notes": "John A Challoner’s version 1 reconstruction, 30 September 2026. General and specialised definitions/propositions are labelled separately; original-author wording is not implied.",
+      "creators": [
+        "John A Challoner"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Rational Understanding",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "82f4be02d8ef575245c734d826a9a65993f6eba96d42c4ec67204b6f6931776e",
+      "review_status": "source_scoped_research_pass",
+      "last_checked": "2026-10-08",
+      "public_link_status": "public_link",
+      "connection_pass": "update_20261008",
+      "source_locator": "Complete PDF, 6 pages; specific claims carry page and proposition references",
+      "source_role": "secondary reconstruction",
+      "pages_read": 6
+    }
+  ],
+  "evidence_locators": [
+    {
+      "id": "ev_e31_subject_ashby",
+      "source_id": "src_u31_ashby",
+      "locator": "PDF p. 1: researcher and source basis",
+      "review_status": "research_pass_needs_editor"
+    },
+    {
+      "id": "ev_e31_module_ashby_1",
+      "source_id": "src_u31_ashby",
+      "locator": "p. 3, DG4 and PG4",
+      "review_status": "research_pass_needs_editor"
+    },
+    {
+      "id": "ev_e31_module_ashby_2",
+      "source_id": "src_u31_ashby",
+      "locator": "p. 4, DS1 and PS1",
+      "review_status": "research_pass_needs_editor"
+    },
+    {
+      "id": "ev_e31_module_ashby_3",
+      "source_id": "src_u31_ashby",
+      "locator": "p. 4, DS3; p. 5, PS4",
+      "review_status": "research_pass_needs_editor"
+    },
+    {
+      "id": "ev_e31_module_ashby_4",
+      "source_id": "src_u31_ashby",
+      "locator": "p. 5, PS6",
+      "review_status": "research_pass_needs_editor"
+    }
+  ],
+  "reuse_note": "Preserve source attribution, scope, and review status. Source documents and evidence excerpts are excluded."
+}

@@ -1,0 +1,196 @@
+{
+  "schema_version": "1.0",
+  "canonical_url": "https://transduction.systems/entries/concept_structurelessness/",
+  "release": "0.35",
+  "citation": "Taylor, B. P. (2026). Structurelessness. The Necessary Tangle, release 0.35. https://transduction.systems/entries/concept_structurelessness/",
+  "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
+  "entry": {
+    "id": "concept_structurelessness",
+    "label": "Structurelessness",
+    "entity_type": "concept",
+    "description": "The claim or aspiration that a group can operate without structure. Freeman's critique is that structure persists informally, often making power less visible and less accountable rather than removing it.",
+    "aliases": [],
+    "boundary_ring": "0",
+    "inclusion_reason": "feedback_led_release_0_17",
+    "status": "accepted",
+    "source_ids": [
+      "src_freeman_tyranny_structurelessness"
+    ],
+    "set_tags": [
+      "systems",
+      "lineage",
+      "release_0_17",
+      "organisation",
+      "power",
+      "feminist-practice"
+    ],
+    "espoused_labels": [],
+    "observed_clusters": [],
+    "canonical_definition": "The claim or aspiration that a group can operate without structure. Freeman's critique is that structure persists informally, often making power less visible and less accountable rather than removing it.",
+    "valid_from": "",
+    "valid_to": "",
+    "external_ids": "{}",
+    "geographies": [],
+    "licence": "",
+    "review_status": "curator_checked_public_sources",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-19",
+    "x": 0.31,
+    "y": 0.34,
+    "canonical_id": "concept_structurelessness",
+    "public_visibility": "public",
+    "publication_level": "profile",
+    "public_stub_text": "",
+    "public_source_count": 1,
+    "no_public_link_count": 0
+  },
+  "profile": {
+    "node_id": "concept_structurelessness",
+    "summary": "Structurelessness is an impossible organisational condition when people continue to interact; the practical choice is whether structure and authority are explicit, revisable and accountable.",
+    "canonical_definition": "Structurelessness is an impossible organisational condition when people continue to interact; the practical choice is whether structure and authority are explicit, revisable and accountable.",
+    "why_it_matters": "It prevents the response to closed canons becoming a fantasy that removing all boundaries will remove power.",
+    "key_distinctions": [
+      "formal versus informal structure",
+      "openness versus hidden elite",
+      "authority versus accountability"
+    ],
+    "historical_lineage": [
+      "women's liberation organising",
+      "feminist organisational critique"
+    ],
+    "logical_antecedents": [
+      "interaction",
+      "informal networks",
+      "resource and information asymmetry"
+    ],
+    "dependent_subsequents": [
+      "explicit governance",
+      "accountable participation"
+    ],
+    "practice_connections": [
+      "group design",
+      "participation policy",
+      "systems convening"
+    ],
+    "common_misreadings": [
+      "Formal structure is not the only source of domination.",
+      "A boundary can enable participation when its rules are visible and revisable."
+    ],
+    "open_checks": [
+      "Connect the argument to contemporary decentralised and networked organising through strong sources."
+    ],
+    "source_ids": [
+      "src_freeman_tyranny_structurelessness"
+    ],
+    "context_and_lineage": "",
+    "editorial_note": "",
+    "last_researched": "2026-08-19"
+  },
+  "connections": [
+    {
+      "id": "e17_structurelessness_checks_openness",
+      "source": "concept_structurelessness",
+      "target": "concept_epistemic_closure",
+      "relation_type": "critiques",
+      "relation_family": "contestation",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.72",
+      "claim_status": "provisional",
+      "source_ids": [
+        "src_freeman_tyranny_structurelessness",
+        "src_tangle_issue2_canon_feedback_2026"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Freeman's formal/informal structure argument and public editorial reflection",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Interpretive transfer from group structure to knowledge governance; it does not make the concepts equivalent.",
+      "assertion_mode": "interpreted",
+      "inference_method": "curatorial comparison of the cited public sources",
+      "claim_id": "",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "complicates a simple open-versus-closed reading of",
+      "public_review_label": "provisional conceptual interpretation"
+    },
+    {
+      "id": "e17_tyranny_critiques_structurelessness",
+      "source": "publication_tyranny_of_structurelessness",
+      "target": "concept_structurelessness",
+      "relation_type": "critiques",
+      "relation_family": "contestation",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.94",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_freeman_tyranny_structurelessness"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Author-hosted text, formal and informal structures section",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "The critique arose from feminist movement organising and should not be detached from that setting.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-19",
+      "notes": "",
+      "plain_phrase": "critiques the organisational claim of",
+      "public_review_label": "source-backed statement"
+    }
+  ],
+  "claims": [],
+  "sources": [
+    {
+      "id": "src_freeman_tyranny_structurelessness",
+      "title": "The Tyranny of Structurelessness",
+      "source_type": "primary_author_text",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://www.jofreeman.com/joreen/tyranny.htm",
+      "date": "1970-1973",
+      "notes": "Jo Freeman's author-hosted text arguing that groups cannot abolish structure, only leave it implicit, and that invisible structure can conceal unaccountable power.",
+      "creators": [
+        "Jo Freeman"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Jo Freeman",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-19",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_tangle_issue2_canon_feedback_2026",
+      "title": "The Necessary Tangle running feedback: canon, closure and patriarchy",
+      "source_type": "public_curator_discussion",
+      "quality_tier": "B",
+      "access": "public",
+      "url": "https://github.com/antlerboy/the-necessary-tangle/issues/2#issuecomment-5345119282",
+      "date": "2026-08",
+      "notes": "Public curator note recording the challenge about a predominantly white male visual canon and the resulting editorial requirement to expose canonisation, exclusion, appropriation and recovery rather than repair the map through portraits alone.",
+      "creators": [
+        "Benjamin P Taylor",
+        "Ida Rose Florez"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "The Necessary Tangle",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-19",
+      "public_link_status": "public_link"
+    }
+  ],
+  "evidence_locators": [],
+  "reuse_note": "Preserve source attribution, scope, and review status. Source documents and evidence excerpts are excluded."
+}

@@ -1,0 +1,180 @@
+{
+  "schema_version": "1.0",
+  "canonical_url": "https://transduction.systems/entries/publication_navigating_complexity_battram/",
+  "release": "0.35",
+  "citation": "Taylor, B. P. (2026). Navigating Complexity. The Necessary Tangle, release 0.35. https://transduction.systems/entries/publication_navigating_complexity_battram/",
+  "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
+  "entry": {
+    "id": "publication_navigating_complexity_battram",
+    "label": "Navigating Complexity",
+    "entity_type": "publication",
+    "description": "Arthur Battram's practice-facing guide to complexity theory in business and management, developed from work that brought complexity ideas into organisational and local-government settings.",
+    "aliases": [
+      "Navigating Complexity: The Essential Guide to Complexity Theory in Business and Management"
+    ],
+    "boundary_ring": "0",
+    "inclusion_reason": "practitioner_expertise_coverage_release_0_12",
+    "status": "accepted",
+    "source_ids": [
+      "src_scio_navigating_complexity_2014"
+    ],
+    "set_tags": [
+      "systems",
+      "practice",
+      "human_lineage",
+      "release_0_12"
+    ],
+    "espoused_labels": [],
+    "observed_clusters": [],
+    "canonical_definition": "Arthur Battram's practice-facing guide to complexity theory in business and management, developed from work that brought complexity ideas into organisational and local-government settings.",
+    "valid_from": "",
+    "valid_to": "",
+    "external_ids": "{}",
+    "geographies": [],
+    "licence": "",
+    "review_status": "curator_checked_public_sources",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-10",
+    "x": 0.52,
+    "y": 0.22,
+    "canonical_id": "publication_navigating_complexity_battram",
+    "public_visibility": "public",
+    "publication_level": "profile",
+    "public_stub_text": "",
+    "public_source_count": 1,
+    "no_public_link_count": 0
+  },
+  "profile": {
+    "node_id": "publication_navigating_complexity_battram",
+    "title": "Navigating Complexity",
+    "profile_status": "curator_checked_public_sources",
+    "canonical_definition": "Arthur Battram's practice-facing guide to complexity theory in business and management, developed from work that brought complexity ideas into organisational and local-government settings.",
+    "summary": "A late-1990s guide that brought complexity theory into business and management practice, associated with Arthur Battram's work in local government and organisational development.",
+    "why_it_matters": "It is a longstanding source in Benjamin's own thinking and helps explain a practitioner lineage which is not captured by complexity-science paper collections alone.",
+    "key_distinctions": [
+      "complexity theory vs complication",
+      "practical translation vs original scientific research"
+    ],
+    "historical_lineage": [
+      "complexity science popularisation",
+      "organisational learning",
+      "UK management practice"
+    ],
+    "logical_antecedents": [
+      "complexity",
+      "emergence",
+      "self-organisation"
+    ],
+    "dependent_subsequents": [
+      "complexity-informed management practice"
+    ],
+    "practice_connections": [
+      "management",
+      "local government",
+      "organisation change"
+    ],
+    "espoused_lineages": [],
+    "observed_clusters": [],
+    "common_misreadings": [
+      "the book is a current scientific synthesis",
+      "a business guide settles complexity theory"
+    ],
+    "open_checks": [
+      "obtain and review the full text",
+      "record edition metadata and citations",
+      "compare with contemporary complexity-management texts"
+    ],
+    "source_ids": [
+      "src_scio_navigating_complexity_2014"
+    ],
+    "evidence_ids": [],
+    "last_researched": "2026-08-10",
+    "review_status": "curator_checked_public_sources",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-10",
+    "editorial_note": "Developed from cited public sources. The entry remains open to correction, rival accounts and stronger evidence."
+  },
+  "connections": [
+    {
+      "id": "e_12_battram_book",
+      "source": "publication_navigating_complexity_battram",
+      "target": "person_arthur_battram",
+      "relation_type": "authored_by",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.88",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_scio_navigating_complexity_2014"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Release 0.12 public practitioner and publication sources",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "The wording is limited to the named public sources. Bibliographic inclusion and organisational association do not establish wider intellectual influence.",
+      "assertion_mode": "asserted",
+      "inference_method": "curatorial synthesis of public primary, scholarly and professional-body sources",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-10",
+      "notes": "The SCiO resource identifies Arthur Battram and his book.",
+      "plain_phrase": "was authored by",
+      "public_review_label": "supported working statement"
+    },
+    {
+      "id": "e_12_battram_complexity",
+      "source": "publication_navigating_complexity_battram",
+      "target": "concept_complexity",
+      "relation_type": "operationalises",
+      "relation_family": "practice",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.88",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_scio_navigating_complexity_2014"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Release 0.12 public practitioner and publication sources",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "The wording is limited to the named public sources. Bibliographic inclusion and organisational association do not establish wider intellectual influence.",
+      "assertion_mode": "asserted",
+      "inference_method": "curatorial synthesis of public primary, scholarly and professional-body sources",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-10",
+      "notes": "The publication translates complexity ideas into organisational practice rather than serving as primary complexity science.",
+      "plain_phrase": "puts into practical form",
+      "public_review_label": "supported working statement"
+    }
+  ],
+  "claims": [],
+  "sources": [
+    {
+      "id": "src_scio_navigating_complexity_2014",
+      "title": "Navigating Complexity",
+      "source_type": "official_professional_body_talk_page",
+      "quality_tier": "B",
+      "access": "public",
+      "url": "https://www.systemspractice.org/resources/navigating-complexity",
+      "date": "2014-04",
+      "notes": "SCiO resource page for Arthur Battram's Navigating Complexity and his practice-oriented account of managing as if people mattered.",
+      "creators": [
+        "Arthur Battram"
+      ],
+      "doi": "",
+      "isbn": "185835899X",
+      "publisher": "The Industrial Society / SCiO resource page",
+      "licence": "source_terms",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-10",
+      "public_link_status": "public_link"
+    }
+  ],
+  "evidence_locators": [],
+  "reuse_note": "Preserve source attribution, scope, and review status. Source documents and evidence excerpts are excluded."
+}

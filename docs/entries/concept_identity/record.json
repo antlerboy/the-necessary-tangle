@@ -1,0 +1,465 @@
+{
+  "schema_version": "1.0",
+  "canonical_url": "https://transduction.systems/entries/concept_identity/",
+  "release": "0.35",
+  "citation": "Taylor, B. P. (2026). Identity. The Necessary Tangle, release 0.35. https://transduction.systems/entries/concept_identity/",
+  "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
+  "entry": {
+    "id": "concept_identity",
+    "label": "Identity",
+    "entity_type": "concept",
+    "description": "Identity is continuity through change, not the absence of change. It is enacted through boundaries, narratives, roles, purposes, memory and repeated relations.",
+    "aliases": [],
+    "boundary_ring": "0",
+    "inclusion_reason": "v0_3_coherent_cluster",
+    "status": "accepted",
+    "source_ids": [
+      "src_taylor_core_thinking_2026",
+      "src_taylor_vsm_lecture_2025",
+      "src_metaphorum_vsm_current"
+    ],
+    "set_tags": [
+      "systems",
+      "cybernetics",
+      "viability",
+      "core_cluster"
+    ],
+    "espoused_labels": [],
+    "observed_clusters": [],
+    "canonical_definition": "A maintained pattern of distinctions, relationships and commitments through which a system remains recognisable across adaptation without requiring unchanging components.",
+    "valid_from": "",
+    "valid_to": "",
+    "external_ids": "{}",
+    "geographies": [],
+    "licence": "",
+    "review_status": "research_pass_needs_editor",
+    "reviewed_by": "",
+    "reviewed_at": "",
+    "x": -0.457022,
+    "y": 0.070333,
+    "canonical_id": "concept_identity",
+    "public_visibility": "public",
+    "publication_level": "profile",
+    "public_stub_text": "",
+    "public_source_count": 2,
+    "no_public_link_count": 1
+  },
+  "profile": {
+    "node_id": "concept_identity",
+    "title": "Identity",
+    "profile_status": "evidence_deepened_research_pass",
+    "canonical_definition": "A maintained pattern of distinctions, relationships and commitments through which a system remains recognisable across adaptation without requiring unchanging components.",
+    "summary": "Identity is continuity through change, not the absence of change. It is enacted through boundaries, narratives, roles, purposes, memory and repeated relations.",
+    "why_it_matters": "Organisations can adapt so little that they cease to fit their environment, or change so incoherently that they can no longer say who they are. Viability needs both continuity and movement.",
+    "key_distinctions": [
+      "identity vs fixed essence",
+      "self-description vs external attribution",
+      "continuity vs sameness",
+      "identity of whole vs identities of parts"
+    ],
+    "historical_lineage": [
+      "cybernetics and self-reference",
+      "organisational identity",
+      "narrative and practice traditions",
+      "VSM System 5"
+    ],
+    "logical_antecedents": [
+      "distinction and boundary",
+      "memory and pattern",
+      "purpose and recognition"
+    ],
+    "dependent_subsequents": [
+      "viability",
+      "legitimacy",
+      "cohesion",
+      "adaptation",
+      "accountability"
+    ],
+    "practice_connections": [
+      "ask what must continue and what may change",
+      "compare official identity with repeated practice",
+      "look for identity conflict across levels",
+      "make identity learning explicit"
+    ],
+    "espoused_lineages": [
+      "management cybernetics",
+      "organisation theory",
+      "narrative ethics",
+      "constructivism"
+    ],
+    "observed_clusters": [],
+    "common_misreadings": [
+      "identity is branding",
+      "identity means fixed structure",
+      "a whole has only one identity",
+      "adaptation threatens all identity"
+    ],
+    "open_checks": [
+      "Beer and System 5",
+      "autopoiesis",
+      "organisational identity research",
+      "MacIntyre and narrative identity"
+    ],
+    "source_ids": [
+      "src_taylor_core_thinking_2026",
+      "src_taylor_vsm_lecture_2025",
+      "src_metaphorum_vsm_current"
+    ],
+    "evidence_ids": [
+      "ev_taylor_core_distinctions_boundaries",
+      "ev_taylor_vsm_viability",
+      "ev_metaphorum_vsm_foundations"
+    ],
+    "last_researched": "2026-08-09",
+    "review_status": "research_pass_needs_editor",
+    "editorial_note": "Readable orientation and evidence-backed first pass. Named editorial review is still required before canonical acceptance."
+  },
+  "connections": [
+    {
+      "id": "e_14_anthro_identity",
+      "source": "tradition_anthro_complexity",
+      "target": "concept_identity",
+      "relation_type": "uses",
+      "relation_family": "conceptual",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.88",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_cynefin_io_anthro_complexity_2026"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Release 0.14 public primary, official, institutional and publisher sources",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "The statement is limited to the named sources and their evidential role. First-party definition, authorship, historical development, application and independent evaluation remain distinct claims.",
+      "assertion_mode": "asserted",
+      "inference_method": "curatorial synthesis of public sources",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-11",
+      "notes": "Identity is one of the 3Is in the project's account.",
+      "plain_phrase": "foregrounds",
+      "public_review_label": "supported working statement"
+    },
+    {
+      "id": "e_v03_identity_viability",
+      "source": "concept_identity",
+      "target": "concept_viability",
+      "relation_type": "explanatory_prerequisite",
+      "relation_family": "conceptual",
+      "directed": "true",
+      "dependency_kind": "explanatory",
+      "confidence": "0.76",
+      "claim_status": "provisional",
+      "source_ids": [
+        "src_taylor_vsm_lecture_2025",
+        "src_metaphorum_vsm_current"
+      ],
+      "evidence_ids": [
+        "ev_taylor_vsm_viability",
+        "ev_metaphorum_vsm_foundations"
+      ],
+      "source_locator": "VSM lecture identity/viability sections; Metaphorum VSM orientation",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "",
+      "assertion_mode": "asserted",
+      "inference_method": "editorial synthesis from cited evidence",
+      "claim_id": "claim_viability_identity_adaptation",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "explanatory prerequisite",
+      "public_review_label": "provisional"
+    },
+    {
+      "id": "e16_relational_crosswalk_245",
+      "source": "approach_family_systems_change",
+      "target": "concept_identity",
+      "relation_type": "uses",
+      "relation_family": "practice",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.72",
+      "claim_status": "provisional",
+      "source_ids": [
+        "src_taylor_systems_leadership_schema_2021",
+        "src_taylor_systems_terms_2022",
+        "src_taylor_boundaries_convening_2025",
+        "src_taylor_core_thinking_2026",
+        "src_taylor_vsm_lecture_2025",
+        "src_metaphorum_vsm_current"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Interpretive comparison of the two maintained public descriptions and their cited source records",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "This is a provisional semantic or practice crosswalk. It does not establish historical influence, equivalence, efficacy or universal applicability. Item-level source review and curator acceptance are still required.",
+      "assertion_mode": "interpreted",
+      "inference_method": "curator-requested relational crosswalk of maintained public descriptions",
+      "claim_id": "",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "learns about and may reframe",
+      "public_review_label": "provisional relational crosswalk"
+    },
+    {
+      "id": "e16_relational_crosswalk_246",
+      "source": "practice_systems_convening",
+      "target": "concept_identity",
+      "relation_type": "applies",
+      "relation_family": "practice",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.72",
+      "claim_status": "provisional",
+      "source_ids": [
+        "src_wenger_trayner_systems_convening",
+        "src_taylor_boundaries_convening_2025",
+        "src_taylor_systems_terms_2022",
+        "src_taylor_core_thinking_2026",
+        "src_taylor_vsm_lecture_2025",
+        "src_metaphorum_vsm_current"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Interpretive comparison of the two maintained public descriptions and their cited source records",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "This is a provisional semantic or practice crosswalk. It does not establish historical influence, equivalence, efficacy or universal applicability. Item-level source review and curator acceptance are still required.",
+      "assertion_mode": "interpreted",
+      "inference_method": "curator-requested relational crosswalk of maintained public descriptions",
+      "claim_id": "",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "works across and sometimes reshapes",
+      "public_review_label": "provisional relational crosswalk"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_viability_identity_adaptation",
+      "statement": "Viability requires both continuity of identity and capacity to adapt under changing environmental conditions.",
+      "subject_id": "concept_identity",
+      "predicate": "explanatory_prerequisite",
+      "object_id": "concept_viability",
+      "status": "provisional",
+      "supporting_source_ids": [
+        "src_taylor_vsm_lecture_2025",
+        "src_metaphorum_vsm_current"
+      ],
+      "supporting_evidence_ids": [
+        "ev_taylor_vsm_viability",
+        "ev_metaphorum_vsm_foundations"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_evidence_ids": [],
+      "notes": "Scope is deliberately narrow. Named editorial review is required.",
+      "review_status": "research_pass_needs_editor",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    }
+  ],
+  "sources": [
+    {
+      "id": "src_taylor_core_thinking_2026",
+      "title": "Core Thinking Integration",
+      "source_type": "unpublished_working_synthesis",
+      "quality_tier": "C",
+      "access": "no_public_link",
+      "url": "",
+      "date": "2026-08-09",
+      "notes": "Unpublished working synthesis; no public link.",
+      "creators": [
+        "Benjamin P Taylor"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Unpublished author material",
+      "licence": "not_publicly_licensed",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "pass4_prior_material_register_review",
+      "last_checked": "2026-08-14",
+      "public_link_status": "no_public_link"
+    },
+    {
+      "id": "src_taylor_vsm_lecture_2025",
+      "title": "Benjamin Taylor VSM lecture",
+      "source_type": "public_teaching_material",
+      "quality_tier": "C",
+      "access": "public",
+      "url": "https://antlerboy.com/library/files/talks/viable-system-model-lecture.pdf",
+      "date": "2025-05-10",
+      "notes": "Public teaching presentation. Public PDF linked on 2026-09-19; the earlier unpublished access description is superseded.",
+      "creators": [
+        "Benjamin P Taylor"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Benjamin P Taylor public work library",
+      "licence": "not_publicly_licensed",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "public_file_identity_checked",
+      "last_checked": "2026-09-19",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_metaphorum_vsm_current",
+      "title": "Viable System Model - Metaphorum",
+      "source_type": "professional_body_reference",
+      "quality_tier": "B",
+      "access": "public",
+      "url": "https://metaphorum.org/staffords-work/viable-system-model",
+      "date": "2026-08-09",
+      "notes": "Metaphorum's public orientation to Stafford Beer's Viable System Model and its grounding in cybernetics, requisite variety and recursion.",
+      "creators": [
+        "Metaphorum"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Metaphorum",
+      "licence": "site_terms",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "research_pass_needs_editor",
+      "last_checked": "2026-08-09",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_cynefin_io_anthro_complexity_2026",
+      "title": "Anthro-complexity — Cynefin.io",
+      "source_type": "official_collaborative_wiki_page",
+      "quality_tier": "B",
+      "access": "public",
+      "url": "https://cynefin.io/wiki/Anthro-complexity",
+      "date": "current page; checked 2026-08-11",
+      "notes": "First-party maintained account of anthro-complexity as a body of theory and practice concerning human sense-making and action. Use it for declared scope and vocabulary, not as independent adjudication of contested theoretical claims.",
+      "creators": [
+        "Cynefin.io contributors"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Cynefin.io",
+      "licence": "CC BY-SA unless otherwise indicated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-11",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_taylor_systems_leadership_schema_2021",
+      "title": "A schema for better understanding systems leadership and systems change",
+      "source_type": "public_curator_article",
+      "quality_tier": "B",
+      "access": "public",
+      "url": "https://stream.syscoi.com/2021/06/21/a-schema-for-better-understanding-systems-leadership-and-systems-change/",
+      "date": "2021-06-21",
+      "notes": "Benjamin P Taylor's public working classification of six forms of systems leadership and its overlap with systems change. It is used as an explicit curatorial account, not as field-wide consensus.",
+      "creators": [
+        "Benjamin P Taylor"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Systems Community of Inquiry",
+      "licence": "source_terms",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-10",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_taylor_systems_terms_2022",
+      "title": "What do systems leadership and systems change mean to you?",
+      "source_type": "public_curator_article",
+      "quality_tier": "B",
+      "access": "public",
+      "url": "https://chosen-path.org/2022/07/11/what-do-systems-leadership-and-systems-change-mean-to-you-what-questions-would-you-like-me-to-answer/",
+      "date": "2022-07-11",
+      "notes": "A public statement of Benjamin P Taylor's distinctions among systems leadership, systems change, systems theory, systems practice and systems convening. It is treated as a curatorial framing open to challenge.",
+      "creators": [
+        "Benjamin P Taylor"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "chosen path",
+      "licence": "source_terms",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-10",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_taylor_boundaries_convening_2025",
+      "title": "Systems convening and boundaries core slides",
+      "source_type": "public_teaching_material",
+      "quality_tier": "C",
+      "access": "public",
+      "url": "https://antlerboy.com/library/files/talks/systems-convening-and-boundaries.pdf",
+      "date": "2025-04-01",
+      "notes": "Public teaching slides; no public link. Public PDF linked on 2026-09-19; the earlier unpublished access description is superseded.",
+      "creators": [
+        "Benjamin P Taylor"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Benjamin P Taylor public work library",
+      "licence": "not_publicly_licensed",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "public_file_identity_checked",
+      "last_checked": "2026-09-19",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_wenger_trayner_systems_convening",
+      "title": "Systems convening: the art of convening diverse voices across difficult boundaries",
+      "source_type": "primary_author_page",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://www.wenger-trayner.com/systems-convening/",
+      "date": "",
+      "notes": "Primary public account by Beverly and Etienne Wenger-Trayner of systems convening as social-learning leadership across boundaries. Their FAQ explicitly says the work did not spring from systems theory.",
+      "creators": [
+        "Beverly Wenger-Trayner",
+        "Etienne Wenger-Trayner"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Wenger-Trayner",
+      "licence": "CC 4.0 source terms",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-10",
+      "public_link_status": "public_link"
+    }
+  ],
+  "evidence_locators": [
+    {
+      "id": "ev_taylor_core_distinctions_boundaries",
+      "source_id": "src_taylor_core_thinking_2026",
+      "locator": "sections beginning 'systems work is not mapping the system' and 'a system boundary is not innocent'",
+      "review_status": "research_pass_needs_editor"
+    },
+    {
+      "id": "ev_taylor_vsm_viability",
+      "source_id": "src_taylor_vsm_lecture_2025",
+      "locator": "sections on viability, adaptation, identity, autonomy, cohesion and transduction",
+      "review_status": "research_pass_needs_editor"
+    },
+    {
+      "id": "ev_metaphorum_vsm_foundations",
+      "source_id": "src_metaphorum_vsm_current",
+      "locator": "VSM orientation page",
+      "review_status": "research_pass_needs_editor"
+    }
+  ],
+  "reuse_note": "Preserve source attribution, scope, and review status. Source documents and evidence excerpts are excluded."
+}

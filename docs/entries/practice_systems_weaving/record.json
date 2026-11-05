@@ -1,0 +1,339 @@
+{
+  "schema_version": "1.0",
+  "canonical_url": "https://transduction.systems/entries/practice_systems_weaving/",
+  "release": "0.35",
+  "citation": "Taylor, B. P. (2026). Systems weaving. The Necessary Tangle, release 0.35. https://transduction.systems/entries/practice_systems_weaving/",
+  "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
+  "entry": {
+    "id": "practice_systems_weaving",
+    "label": "Systems weaving",
+    "entity_type": "practice",
+    "description": "Relational and network-building work that notices, connects and strengthens people, groups and resources so new collaboration and self-organisation become possible. It overlaps with systems convening but usually puts more emphasis on network health and connection.",
+    "aliases": [],
+    "boundary_ring": "0",
+    "inclusion_reason": "planned_systems_work_distinctions",
+    "status": "accepted",
+    "source_ids": [
+      "src_network_weaver_current",
+      "src_taylor_systems_terms_2022",
+      "src_taylor_boundaries_convening_2025"
+    ],
+    "set_tags": [
+      "systems",
+      "practice",
+      "leadership",
+      "release_0_10"
+    ],
+    "espoused_labels": [],
+    "observed_clusters": [],
+    "canonical_definition": "",
+    "valid_from": "",
+    "valid_to": "",
+    "external_ids": "{}",
+    "geographies": [],
+    "licence": "",
+    "review_status": "curator_checked_public_sources",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-10",
+    "x": 0.2,
+    "y": 0.4,
+    "canonical_id": "practice_systems_weaving",
+    "public_visibility": "public",
+    "publication_level": "profile",
+    "public_stub_text": "",
+    "public_source_count": 3,
+    "no_public_link_count": 0
+  },
+  "profile": {
+    "node_id": "practice_systems_weaving",
+    "title": "Systems weaving",
+    "profile_status": "curator_checked_public_sources",
+    "canonical_definition": "Relational and network-building work that notices, connects and strengthens people, groups and resources so new collaboration and self-organisation become possible. It overlaps with systems convening but usually puts more emphasis on network health and connection.",
+    "summary": "Systems weaving is used here for practical work which strengthens relationships, closes useful triangles, connects resources and helps networks become more capable of self-organisation and coordinated action.",
+    "why_it_matters": "It brings attention to the relational infrastructure of change. The term is less standardised than network weaving and can easily become decorative language unless the actual connections and effects are shown.",
+    "key_distinctions": [
+      "network health vs one-off stakeholder engagement",
+      "connection and brokerage vs formal coordination",
+      "weaving vs convening a specific learning space",
+      "enabling self-organisation vs centrally directing a network"
+    ],
+    "historical_lineage": [
+      "network weaving and community network practice",
+      "social-capital and brokerage traditions",
+      "movement and ecosystem organising",
+      "systems-change practice"
+    ],
+    "logical_antecedents": [
+      "Networks",
+      "Relation",
+      "Trust",
+      "Agency"
+    ],
+    "dependent_subsequents": [
+      "Collaboration",
+      "Self-organisation",
+      "Network leadership",
+      "Collective action"
+    ],
+    "practice_connections": [
+      "notice disconnected people and resources",
+      "make strategic introductions and close triangles",
+      "support shared infrastructure and communication",
+      "watch who remains excluded from the network"
+    ],
+    "espoused_lineages": [],
+    "observed_clusters": [],
+    "common_misreadings": [
+      "that more connections are always better",
+      "that a visible network has no power centre",
+      "that weaving is a substitute for purpose or accountability",
+      "that systems weaving has one settled definition"
+    ],
+    "open_checks": [
+      "clarify how practitioners distinguish systems weaving from network weaving",
+      "add evidence on network overload, exclusion and brokerage power"
+    ],
+    "source_ids": [
+      "src_network_weaver_current",
+      "src_taylor_systems_terms_2022",
+      "src_taylor_boundaries_convening_2025"
+    ],
+    "evidence_ids": [],
+    "last_researched": "2026-08-10",
+    "review_status": "curator_checked_public_sources",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-10",
+    "editorial_note": "A developed working distinction for this release. The term remains contested and should be tested against rival usage and practice."
+  },
+  "connections": [
+    {
+      "id": "e_10_weaving_applies_networks",
+      "source": "practice_systems_weaving",
+      "target": "concept_networks",
+      "relation_type": "applies",
+      "relation_family": "practice",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.86",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_network_weaver_current"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Release 0.10 public systems-work distinctions",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Working distinction based on the named public sources and curator materials; rival usage remains admissible.",
+      "assertion_mode": "asserted",
+      "inference_method": "curatorial synthesis of public primary, professional-body and practitioner sources",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-10",
+      "notes": "Network weaving works explicitly with the quality, diversity and pattern of connections in a network.",
+      "plain_phrase": "applies",
+      "public_review_label": "supported working distinction"
+    },
+    {
+      "id": "e_10_weaving_combined_change",
+      "source": "practice_systems_weaving",
+      "target": "approach_family_systems_change",
+      "relation_type": "commonly_combined_with",
+      "relation_family": "practice",
+      "directed": "false",
+      "dependency_kind": "",
+      "confidence": "0.86",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_network_weaver_current",
+        "src_taylor_systems_terms_2022"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Release 0.10 public systems-work distinctions",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Working distinction based on the named public sources and curator materials; rival usage remains admissible.",
+      "assertion_mode": "asserted",
+      "inference_method": "curatorial synthesis of public primary, professional-body and practitioner sources",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-10",
+      "notes": "Weaving is often used in systems-change efforts as relational infrastructure, but it is not sufficient evidence of change by itself.",
+      "plain_phrase": "commonly combined with",
+      "public_review_label": "supported working distinction"
+    },
+    {
+      "id": "e_10_weaving_complements_convening",
+      "source": "practice_systems_weaving",
+      "target": "practice_systems_convening",
+      "relation_type": "complements",
+      "relation_family": "conceptual",
+      "directed": "false",
+      "dependency_kind": "",
+      "confidence": "0.86",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_network_weaver_current",
+        "src_wenger_trayner_systems_convening"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Release 0.10 public systems-work distinctions",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Working distinction based on the named public sources and curator materials; rival usage remains admissible.",
+      "assertion_mode": "asserted",
+      "inference_method": "curatorial synthesis of public primary, professional-body and practitioner sources",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-10",
+      "notes": "Both work across relationships and boundaries; weaving emphasises network connection while convening emphasises learning capability across a landscape.",
+      "plain_phrase": "complements",
+      "public_review_label": "supported working distinction"
+    },
+    {
+      "id": "e26_56cbd19dc0f168005620af",
+      "source": "resource_lib26_3d2e2710c49aaf3d",
+      "target": "practice_systems_weaving",
+      "relation_type": "source_text_mentions",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "",
+      "claim_status": "candidate",
+      "source_ids": [
+        "src_lib26_3d2e2710c49aaf3d"
+      ],
+      "evidence_ids": [],
+      "source_locator": "PDF page 4",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Exact phrase in extracted source text; page-level checking may remain pending as recorded by the locator. Its appearance may be in discussion, a quotation, a reference, or a critical comparison. No semantic or historical claim is inferred.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "contains a located mention of Systems weaving",
+      "public_review_label": "Located source statement; independent review not recorded",
+      "connection_pass": "library_20260919"
+    }
+  ],
+  "claims": [],
+  "sources": [
+    {
+      "id": "src_network_weaver_current",
+      "title": "Network Weaving",
+      "source_type": "official_practice_resource_page",
+      "quality_tier": "B",
+      "access": "public",
+      "url": "https://networkweaver.com/network-weaving/",
+      "date": "",
+      "notes": "Public orientation to network weaving and the Network Weaver resource library. It supports the network-building meaning of weaving; it is not evidence that all uses of 'systems weaving' share one definition.",
+      "creators": [
+        "Network Weaver"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Network Weaver",
+      "licence": "source_terms",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-10",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_taylor_systems_terms_2022",
+      "title": "What do systems leadership and systems change mean to you?",
+      "source_type": "public_curator_article",
+      "quality_tier": "B",
+      "access": "public",
+      "url": "https://chosen-path.org/2022/07/11/what-do-systems-leadership-and-systems-change-mean-to-you-what-questions-would-you-like-me-to-answer/",
+      "date": "2022-07-11",
+      "notes": "A public statement of Benjamin P Taylor's distinctions among systems leadership, systems change, systems theory, systems practice and systems convening. It is treated as a curatorial framing open to challenge.",
+      "creators": [
+        "Benjamin P Taylor"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "chosen path",
+      "licence": "source_terms",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-10",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_taylor_boundaries_convening_2025",
+      "title": "Systems convening and boundaries core slides",
+      "source_type": "public_teaching_material",
+      "quality_tier": "C",
+      "access": "public",
+      "url": "https://antlerboy.com/library/files/talks/systems-convening-and-boundaries.pdf",
+      "date": "2025-04-01",
+      "notes": "Public teaching slides; no public link. Public PDF linked on 2026-09-19; the earlier unpublished access description is superseded.",
+      "creators": [
+        "Benjamin P Taylor"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Benjamin P Taylor public work library",
+      "licence": "not_publicly_licensed",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "public_file_identity_checked",
+      "last_checked": "2026-09-19",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_wenger_trayner_systems_convening",
+      "title": "Systems convening: the art of convening diverse voices across difficult boundaries",
+      "source_type": "primary_author_page",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://www.wenger-trayner.com/systems-convening/",
+      "date": "",
+      "notes": "Primary public account by Beverly and Etienne Wenger-Trayner of systems convening as social-learning leadership across boundaries. Their FAQ explicitly says the work did not spring from systems theory.",
+      "creators": [
+        "Beverly Wenger-Trayner",
+        "Etienne Wenger-Trayner"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Wenger-Trayner",
+      "licence": "CC 4.0 source terms",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-10",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_lib26_3d2e2710c49aaf3d",
+      "title": "Systems leadership, change, theory and practice",
+      "source_type": "public_catalogue_record",
+      "quality_tier": "C",
+      "access": "public",
+      "url": "https://antlerboy.com/library/files/talks/systems-leadership-change-theory-and-practice.pdf",
+      "date": "2026-09-19",
+      "notes": "Public Antlerboy manifest. PDF text indexed; located concept terms, not a full scholarly review. Identity and located teaching relationships are separated from automatic title matches and exact text mentions. A term appearing in a source is not proof of its definition, endorsement, influence, or logical dependence.",
+      "creators": [
+        "Benjamin P Taylor"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Benjamin P Taylor public work library",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "located_public_record",
+      "last_checked": "2026-09-19",
+      "public_link_status": "public_link",
+      "connection_pass": "library_20260919",
+      "year": "2023"
+    }
+  ],
+  "evidence_locators": [],
+  "reuse_note": "Preserve source attribution, scope, and review status. Source documents and evidence excerpts are excluded."
+}

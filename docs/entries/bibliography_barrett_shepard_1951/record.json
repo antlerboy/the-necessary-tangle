@@ -1,0 +1,240 @@
+{
+  "schema_version": "1.0",
+  "canonical_url": "https://transduction.systems/entries/bibliography_barrett_shepard_1951/",
+  "release": "0.35",
+  "citation": "Taylor, B. P. (2026). A Bibliography of Cybernetics (Barrett and Shepard, 1951). The Necessary Tangle, release 0.35. https://transduction.systems/entries/bibliography_barrett_shepard_1951/",
+  "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
+  "entry": {
+    "id": "bibliography_barrett_shepard_1951",
+    "label": "A Bibliography of Cybernetics (Barrett and Shepard, 1951)",
+    "entity_type": "comparator_corpus",
+    "description": "The introduction frames cybernetics for social scientists through information and control. It declares six categories and acknowledges selective inclusion.",
+    "aliases": [
+      "Barrett and Shephard bibliography",
+      "Barrett–Shepard bibliography"
+    ],
+    "boundary_ring": "0",
+    "inclusion_reason": "early_cybernetics_bibliographic_intake_0_22",
+    "status": "candidate",
+    "source_ids": [
+      "src_barrett_shepard_intro_1951"
+    ],
+    "set_tags": [
+      "cybernetics",
+      "history",
+      "release_0_22"
+    ],
+    "espoused_labels": [],
+    "observed_clusters": [],
+    "canonical_definition": "The introduction frames cybernetics for social scientists through information and control. It declares six categories and acknowledges selective inclusion.",
+    "valid_from": "",
+    "valid_to": "",
+    "external_ids": "{}",
+    "geographies": [],
+    "licence": "",
+    "review_status": "research_pass_needs_editor",
+    "reviewed_by": "",
+    "reviewed_at": "",
+    "x": 0.1,
+    "y": 0.1,
+    "canonical_id": "bibliography_barrett_shepard_1951",
+    "public_visibility": "public",
+    "publication_level": "profile",
+    "public_stub_text": "",
+    "public_source_count": 1,
+    "no_public_link_count": 0
+  },
+  "profile": {
+    "node_id": "bibliography_barrett_shepard_1951",
+    "summary": "The introduction frames cybernetics for social scientists through information and control. It declares six categories and acknowledges selective inclusion.",
+    "canonical_definition": "The introduction frames cybernetics for social scientists through information and control. It declares six categories and acknowledges selective inclusion.",
+    "why_it_matters": "The stated audience helps explain the bibliography’s boundary.",
+    "key_distinctions": [
+      "Available introduction versus missing bibliography"
+    ],
+    "historical_lineage": [],
+    "logical_antecedents": [],
+    "dependent_subsequents": [],
+    "practice_connections": [
+      "Whose work would this selection rule make visible?"
+    ],
+    "common_misreadings": [],
+    "open_checks": [
+      "Recover the bibliography pages before claiming an item-level review of the full work."
+    ],
+    "source_ids": [
+      "src_barrett_shepard_intro_1951"
+    ],
+    "context_and_lineage": "Introduction, pages 1–3",
+    "editorial_note": "Source passages inspected for this account. Practice questions are editorial applications. Curator review pending.",
+    "last_researched": "2026-09-05",
+    "title": "A Bibliography of Cybernetics (Barrett and Shepard, 1951)",
+    "profile_status": "evidence_deepened_research_pass",
+    "review_status": "research_pass_needs_editor"
+  },
+  "connections": [
+    {
+      "id": "e22_bibliography_barrett_shepard_1951_authored_by_person_f_dermot_barrett",
+      "source": "bibliography_barrett_shepard_1951",
+      "target": "person_f_dermot_barrett",
+      "relation_type": "authored_by",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "",
+      "claim_status": "candidate",
+      "source_ids": [
+        "src_barrett_shepard_intro_1951"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Title and byline",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Compiler credit only; biographical research remains open.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "is compiled by",
+      "public_review_label": "Source located; curator review pending"
+    },
+    {
+      "id": "e22_bibliography_barrett_shepard_1951_authored_by_person_herbert_a_shepard",
+      "source": "bibliography_barrett_shepard_1951",
+      "target": "person_herbert_a_shepard",
+      "relation_type": "authored_by",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "",
+      "claim_status": "candidate",
+      "source_ids": [
+        "src_barrett_shepard_intro_1951"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Title and byline",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Compiler credit only; biographical research remains open.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "is compiled by",
+      "public_review_label": "Source located; curator review pending"
+    },
+    {
+      "id": "e22_bibliography_barrett_shepard_1951_discusses_in_introduction_publication_early_the_wisdom_of_the_body",
+      "source": "bibliography_barrett_shepard_1951",
+      "target": "publication_early_the_wisdom_of_the_body",
+      "relation_type": "discusses_in_introduction",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "",
+      "claim_status": "candidate",
+      "source_ids": [
+        "src_barrett_shepard_intro_1951"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Introduction, page 3, final paragraph",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Preserves the compilers’ unequal assessments of the two works.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "discusses in its introduction",
+      "public_review_label": "Source located; curator review pending"
+    },
+    {
+      "id": "e22_bibliography_barrett_shepard_1951_discusses_in_introduction_publication_early_the_functions_of_the_executive",
+      "source": "bibliography_barrett_shepard_1951",
+      "target": "publication_early_the_functions_of_the_executive",
+      "relation_type": "discusses_in_introduction",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "",
+      "claim_status": "candidate",
+      "source_ids": [
+        "src_barrett_shepard_intro_1951"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Introduction, page 3, final paragraph",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Preserves the compilers’ unequal assessments of the two works.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "discusses in its introduction",
+      "public_review_label": "Source located; curator review pending"
+    },
+    {
+      "id": "e22_bibliography_barrett_shepard_1951_presents_account_of_tradition_cybernetics",
+      "source": "bibliography_barrett_shepard_1951",
+      "target": "tradition_cybernetics",
+      "relation_type": "presents_account_of",
+      "relation_family": "conceptual",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "",
+      "claim_status": "candidate",
+      "source_ids": [
+        "src_barrett_shepard_intro_1951"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Introduction, pages 1–2",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Limited to the identified passage. A practice analogy needs its own assumptions and evidence.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "presents an account of",
+      "public_review_label": "Source located; curator review pending"
+    }
+  ],
+  "claims": [],
+  "sources": [
+    {
+      "id": "src_barrett_shepard_intro_1951",
+      "title": "A Bibliography of Cybernetics — introduction",
+      "source_type": "historical_bibliography_transcription",
+      "quality_tier": "B",
+      "access": "public",
+      "url": "https://stream.syscoi.com/2026/09/05/a-bibliography-of-cybernetics-dermot-barrett-and-shephard-mit-1951/",
+      "date": "1951",
+      "notes": "F. Dermot Barrett and Herbert A. Shepard, MIT, 1951 as reported by the source. Shared by Sean Manion, @TheUnjournaling. Only the three-page introduction is available in this transcription; the bibliography pages are missing.",
+      "creators": [
+        "F. Dermot Barrett",
+        "Herbert A. Shepard"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Systems Community of Inquiry",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "bibliographic_or_source_boundary_checked",
+      "last_checked": "2026-09-05",
+      "public_link_status": "public_link"
+    }
+  ],
+  "evidence_locators": [],
+  "reuse_note": "Preserve source attribution, scope, and review status. Source documents and evidence excerpts are excluded."
+}

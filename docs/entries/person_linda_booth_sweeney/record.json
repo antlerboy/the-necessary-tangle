@@ -1,0 +1,277 @@
+{
+  "schema_version": "1.0",
+  "canonical_url": "https://transduction.systems/entries/person_linda_booth_sweeney/",
+  "release": "0.35",
+  "citation": "Taylor, B. P. (2026). Linda Booth Sweeney. The Necessary Tangle, release 0.35. https://transduction.systems/entries/person_linda_booth_sweeney/",
+  "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
+  "entry": {
+    "id": "person_linda_booth_sweeney",
+    "label": "Linda Booth Sweeney",
+    "entity_type": "person",
+    "description": "A systems educator, writer and strategist whose work makes systems thinking usable through games, leadership laboratories, visual practice and books for adults and children.",
+    "aliases": [
+      "Linda Sweeney",
+      "Linda B. Sweeney",
+      "Dr Linda Booth Sweeney"
+    ],
+    "boundary_ring": "0",
+    "inclusion_reason": "post_0_17_feedback_coverage",
+    "status": "accepted",
+    "source_ids": [
+      "src_linda_booth_sweeney_profile_2026"
+    ],
+    "set_tags": [
+      "systems",
+      "lineage",
+      "release_0_17",
+      "systems-education",
+      "systems-literacy",
+      "practice",
+      "named-coverage-audit",
+      "release_0_18"
+    ],
+    "espoused_labels": [],
+    "observed_clusters": [],
+    "canonical_definition": "A systems educator, writer and strategist whose work makes systems thinking usable through games, leadership laboratories, visual practice and books for adults and children.",
+    "valid_from": "",
+    "valid_to": "",
+    "external_ids": "{}",
+    "geographies": [],
+    "licence": "",
+    "review_status": "curator_checked_public_sources",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-19",
+    "x": 0.05,
+    "y": 0.46,
+    "canonical_id": "person_linda_booth_sweeney",
+    "public_visibility": "public",
+    "publication_level": "profile",
+    "public_stub_text": "",
+    "public_source_count": 1,
+    "no_public_link_count": 0
+  },
+  "profile": {
+    "node_id": "person_linda_booth_sweeney",
+    "summary": "Linda Booth Sweeney makes systems ideas learnable through embodied exercises, stories, visualisation and leadership practice across adult and children's education.",
+    "canonical_definition": "Linda Booth Sweeney makes systems ideas learnable through embodied exercises, stories, visualisation and leadership practice across adult and children's education.",
+    "why_it_matters": "Her work is a route from abstract systems vocabulary into experiences which let people notice interdependence, feedback, delay and unintended effects for themselves.",
+    "key_distinctions": [
+      "Systems literacy is treated as a capability developed through practice, not as a list of definitions.",
+      "First-party descriptions establish her intent and current work; they do not by themselves establish independent effectiveness claims."
+    ],
+    "historical_lineage": [
+      "MIT organisational-learning and system-dynamics settings",
+      "systems education",
+      "learning through games and stories"
+    ],
+    "logical_antecedents": [
+      "systems thinking",
+      "experiential learning",
+      "systems literacy"
+    ],
+    "dependent_subsequents": [
+      "The Systems Thinking Playbook",
+      "The Climate Change Playbook",
+      "The Noisy Puddle",
+      "Do Bees Pee?"
+    ],
+    "practice_connections": [
+      "systems learning games",
+      "leadership laboratories",
+      "children's systems education"
+    ],
+    "common_misreadings": [
+      "Accessible explanation is not the same as simplification without limits."
+    ],
+    "open_checks": [
+      "Add independent studies of use and outcomes where available."
+    ],
+    "source_ids": [
+      "src_linda_booth_sweeney_profile_2026",
+      "src_massbook_noisy_puddle_award_2025",
+      "src_linda_noisy_puddle_2026",
+      "src_linda_do_bees_pee_2026"
+    ],
+    "context_and_lineage": "",
+    "editorial_note": "",
+    "last_researched": "2026-08-19"
+  },
+  "connections": [
+    {
+      "id": "e18_linda_authored_do_bees_pee",
+      "source": "person_linda_booth_sweeney",
+      "target": "publication_do_bees_pee",
+      "relation_type": "authored",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.94",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_linda_do_bees_pee_2026"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Publication notice",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Authorship and current publication notice.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-19",
+      "notes": "",
+      "plain_phrase": "authored",
+      "public_review_label": "source-backed statement"
+    },
+    {
+      "id": "e18_linda_authored_noisy_puddle",
+      "source": "person_linda_booth_sweeney",
+      "target": "publication_the_noisy_puddle",
+      "relation_type": "authored",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.94",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_linda_noisy_puddle_2026"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Book page and creator credit",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Authorship of the book text; illustration is separately credited to Miki Sato.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-19",
+      "notes": "",
+      "plain_phrase": "authored",
+      "public_review_label": "source-backed statement"
+    },
+    {
+      "id": "e18_linda_teaches_through_noisy",
+      "source": "person_linda_booth_sweeney",
+      "target": "publication_the_noisy_puddle",
+      "relation_type": "teaches_through",
+      "relation_family": "practice",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.94",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_linda_booth_sweeney_profile_2026",
+        "src_linda_noisy_puddle_2026"
+      ],
+      "evidence_ids": [],
+      "source_locator": "For Children & Educators; book description",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "The relation records the author's stated systems-literacy practice, not a measured learning outcome.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-19",
+      "notes": "",
+      "plain_phrase": "teaches systems ideas through",
+      "public_review_label": "source-backed statement"
+    }
+  ],
+  "claims": [],
+  "sources": [
+    {
+      "id": "src_linda_booth_sweeney_profile_2026",
+      "title": "Meet Linda Booth Sweeney",
+      "source_type": "official_author_profile",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://www.lindaboothsweeney.com/meet-linda-booth-sweeney",
+      "date": "checked 2026-08-23",
+      "notes": "Author-maintained profile establishing Booth Sweeney's systems education, writing, leadership laboratories and listed publications. It records her own account rather than an independent evaluation.",
+      "creators": [
+        "Linda Booth Sweeney"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Toggle Labs",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-19",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_massbook_noisy_puddle_award_2025",
+      "title": "Massachusetts Book Awards — previous winners",
+      "source_type": "official_award_record",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://www.massbook.org/previous-winners",
+      "date": "2025",
+      "notes": "Official Massachusetts Center for the Book record listing The Noisy Puddle as the 2025 Picture Book / Early Reader winner.",
+      "creators": [
+        "Massachusetts Center for the Book"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Massachusetts Center for the Book",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-19",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_linda_noisy_puddle_2026",
+      "title": "The Noisy Puddle",
+      "source_type": "official_author_book_page",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://www.lindaboothsweeney.com/the-noisy-puddle",
+      "date": "checked 2026-08-23",
+      "notes": "Author-maintained page describing the book's treatment of the seasonal ecology and interrelationships of a vernal pool.",
+      "creators": [
+        "Linda Booth Sweeney",
+        "Miki Sato"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Toggle Labs",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-19",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_linda_do_bees_pee_2026",
+      "title": "Do Bees Pee?",
+      "source_type": "official_author_publication_notice",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://www.lindaboothsweeney.com/",
+      "date": "2026",
+      "notes": "Author-maintained site presenting Do Bees Pee? as a new children's book and describing its treatment of closed-loop ecological processes and circular-economy thinking. The separate author-profile source records the HarperCollins and June 2026 listing.",
+      "creators": [
+        "Linda Booth Sweeney"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Toggle Labs / HarperCollins",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-19",
+      "public_link_status": "public_link"
+    }
+  ],
+  "evidence_locators": [],
+  "reuse_note": "Preserve source attribution, scope, and review status. Source documents and evidence excerpts are excluded."
+}

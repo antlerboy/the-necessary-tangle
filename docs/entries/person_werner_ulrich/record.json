@@ -1,0 +1,187 @@
+{
+  "schema_version": "1.0",
+  "canonical_url": "https://transduction.systems/entries/person_werner_ulrich/",
+  "release": "0.35",
+  "citation": "Taylor, B. P. (2026). Werner Ulrich. The Necessary Tangle, release 0.35. https://transduction.systems/entries/person_werner_ulrich/",
+  "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
+  "entry": {
+    "id": "person_werner_ulrich",
+    "label": "Werner Ulrich",
+    "entity_type": "person",
+    "description": "A systems scholar whose Critical Systems Heuristics develops practical and philosophical resources for examining boundary judgements, knowledge claims, values and the standing of those affected.",
+    "aliases": [],
+    "boundary_ring": "0",
+    "inclusion_reason": "expertise_and_public_sources_release_0_13",
+    "status": "accepted",
+    "source_ids": [
+      "src_ulrich_csh_mini_primer_2023"
+    ],
+    "set_tags": [
+      "systems",
+      "human_lineage",
+      "expertise",
+      "release_0_13"
+    ],
+    "espoused_labels": [],
+    "observed_clusters": [],
+    "canonical_definition": "A systems scholar whose Critical Systems Heuristics develops practical and philosophical resources for examining boundary judgements, knowledge claims, values and the standing of those affected.",
+    "valid_from": "",
+    "valid_to": "",
+    "external_ids": "{}",
+    "geographies": [],
+    "licence": "",
+    "review_status": "curator_checked_public_sources",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-11",
+    "x": 0.08,
+    "y": 0.26,
+    "canonical_id": "person_werner_ulrich",
+    "public_visibility": "public",
+    "publication_level": "profile",
+    "public_stub_text": "",
+    "public_source_count": 1,
+    "no_public_link_count": 0
+  },
+  "profile": {
+    "node_id": "person_werner_ulrich",
+    "title": "Werner Ulrich",
+    "profile_status": "curator_checked_public_sources",
+    "canonical_definition": "A systems scholar whose Critical Systems Heuristics develops practical and philosophical resources for examining boundary judgements, knowledge claims, values and the standing of those affected.",
+    "summary": "Werner Ulrich developed Critical Systems Heuristics as a framework for reflective and critical practice centred on boundary judgements and the relation between expertise, values and those affected.",
+    "why_it_matters": "CSH gives boundary critique a disciplined form. It makes the normative assumptions of claims to knowledge and improvement discussable without requiring everyone to become a technical specialist.",
+    "key_distinctions": [
+      "involved vs affected",
+      "is vs ought",
+      "boundary judgement vs neutral fact",
+      "critique vs denunciation"
+    ],
+    "historical_lineage": [
+      "C. West Churchman",
+      "practical philosophy",
+      "critical systems thinking",
+      "Critical Systems Heuristics"
+    ],
+    "logical_antecedents": [
+      "boundary",
+      "purpose",
+      "legitimacy",
+      "knowledge",
+      "power"
+    ],
+    "dependent_subsequents": [
+      "twelve boundary questions",
+      "emancipatory boundary critique",
+      "citizen competence"
+    ],
+    "practice_connections": [
+      "policy appraisal",
+      "evaluation",
+      "participatory inquiry",
+      "professional and citizen critique"
+    ],
+    "espoused_lineages": [],
+    "observed_clusters": [],
+    "common_misreadings": [
+      "CSH finds the correct boundary",
+      "only marginalised groups can use boundary critique",
+      "the twelve questions are a survey instrument"
+    ],
+    "open_checks": [
+      "map Churchman lineage",
+      "add primary book sources",
+      "develop applications and criticism"
+    ],
+    "source_ids": [
+      "src_ulrich_csh_mini_primer_2023"
+    ],
+    "evidence_ids": [],
+    "last_researched": "2026-08-11",
+    "review_status": "curator_checked_public_sources",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-11",
+    "editorial_note": "Developed from public primary, institutional and publisher sources. Open to correction, rival interpretation and stronger evidence."
+  },
+  "connections": [
+    {
+      "id": "e_13_primer_ulrich",
+      "source": "publication_mini_primer_critical_systems_heuristics",
+      "target": "person_werner_ulrich",
+      "relation_type": "authored_by",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.88",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_ulrich_csh_mini_primer_2023"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Release 0.13 public primary, institutional and publisher sources",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "The wording is limited to the named public sources. Authorship, methodological development, conceptual dependence and practical use remain distinct claims.",
+      "assertion_mode": "asserted",
+      "inference_method": "curatorial synthesis of public primary, institutional and publisher sources",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-11",
+      "notes": "The primary author page identifies Werner Ulrich and provides the suggested citation.",
+      "plain_phrase": "was authored by",
+      "public_review_label": "supported working statement"
+    },
+    {
+      "id": "e_13_ulrich_csh",
+      "source": "person_werner_ulrich",
+      "target": "method_or_methodology_critical_systems_heuristics_csh",
+      "relation_type": "developed",
+      "relation_family": "historical",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.88",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_ulrich_csh_mini_primer_2023"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Release 0.13 public primary, institutional and publisher sources",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "The wording is limited to the named public sources. Authorship, methodological development, conceptual dependence and practical use remain distinct claims.",
+      "assertion_mode": "asserted",
+      "inference_method": "curatorial synthesis of public primary, institutional and publisher sources",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-11",
+      "notes": "Ulrich's primary account traces CSH to his 1983 work.",
+      "plain_phrase": "developed",
+      "public_review_label": "supported working statement"
+    }
+  ],
+  "claims": [],
+  "sources": [
+    {
+      "id": "src_ulrich_csh_mini_primer_2023",
+      "title": "A Mini-Primer of Critical Systems Heuristics",
+      "source_type": "primary_author_method_page",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://wulrich.com/csh.html",
+      "date": "2005; updated 2023-05-20",
+      "notes": "Werner Ulrich's maintained primary account defines Critical Systems Heuristics as reflective practice centred on systematic boundary critique and twelve critical boundary questions.",
+      "creators": [
+        "Werner Ulrich"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Werner Ulrich",
+      "licence": "noncommercial_distribution_and_citation_with_attribution",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-11",
+      "public_link_status": "public_link"
+    }
+  ],
+  "evidence_locators": [],
+  "reuse_note": "Preserve source attribution, scope, and review status. Source documents and evidence excerpts are excluded."
+}

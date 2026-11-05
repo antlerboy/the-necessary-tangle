@@ -1,0 +1,236 @@
+{
+  "schema_version": "1.0",
+  "canonical_url": "https://transduction.systems/entries/concept_natural_drift/",
+  "release": "0.35",
+  "citation": "Taylor, B. P. (2026). Natural drift. The Necessary Tangle, release 0.35. https://transduction.systems/entries/concept_natural_drift/",
+  "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
+  "entry": {
+    "id": "concept_natural_drift",
+    "label": "Natural drift",
+    "entity_type": "concept",
+    "description": "Maturana and Mpodozis's account of evolution as the conservation and diversification of organism–niche relations through structural drift, with natural selection treated as a consequence of that history rather than its directing mechanism.",
+    "aliases": [
+      "natural phylogenic drift",
+      "natural evolutionary drift"
+    ],
+    "boundary_ring": "0",
+    "inclusion_reason": "practitioner_expertise_coverage_release_0_12",
+    "status": "accepted",
+    "source_ids": [
+      "src_maturana_mpodozis_natural_drift_2000"
+    ],
+    "set_tags": [
+      "systems",
+      "practice",
+      "human_lineage",
+      "release_0_12"
+    ],
+    "espoused_labels": [],
+    "observed_clusters": [],
+    "canonical_definition": "Maturana and Mpodozis's account of evolution as the conservation and diversification of organism–niche relations through structural drift, with natural selection treated as a consequence of that history rather than its directing mechanism.",
+    "valid_from": "",
+    "valid_to": "",
+    "external_ids": "{}",
+    "geographies": [],
+    "licence": "",
+    "review_status": "curator_checked_public_sources",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-10",
+    "x": 0.04,
+    "y": 0.12,
+    "canonical_id": "concept_natural_drift",
+    "public_visibility": "public",
+    "publication_level": "profile",
+    "public_stub_text": "",
+    "public_source_count": 1,
+    "no_public_link_count": 0
+  },
+  "profile": {
+    "node_id": "concept_natural_drift",
+    "title": "Natural drift",
+    "profile_status": "curator_checked_public_sources",
+    "canonical_definition": "Maturana and Mpodozis's account of evolution as the conservation and diversification of organism–niche relations through structural drift, with natural selection treated as a consequence of that history rather than its directing mechanism.",
+    "summary": "Natural drift is Maturana and Mpodozis's evolutionary account centred on the conservation and diversification of organism–niche relations. It explicitly contests accounts which make natural selection the directing mechanism.",
+    "why_it_matters": "Natural drift offers a specific theoretical account of evolutionary diversification in which conservation of organisation and structural change are central. It is included as a scoped and contestable account, not as field-wide biological consensus.",
+    "key_distinctions": [
+      "viability vs comparative fitness",
+      "structural drift vs externally directing pressure",
+      "organism–niche relation vs organism alone",
+      "theory proposal vs consensus"
+    ],
+    "historical_lineage": [
+      "Maturana and Mpodozis",
+      "autopoiesis",
+      "structural coupling",
+      "biology of cognition"
+    ],
+    "logical_antecedents": [
+      "autopoiesis",
+      "adaptation",
+      "structural coupling",
+      "lineage"
+    ],
+    "dependent_subsequents": [
+      "natural phylogenic drift",
+      "co-drift",
+      "survival of the viable formulation"
+    ],
+    "practice_connections": [
+      "caution in importing evolutionary metaphors into organisations",
+      "distinguishing persistence from optimisation"
+    ],
+    "espoused_lineages": [],
+    "observed_clusters": [],
+    "common_misreadings": [
+      "natural drift is ordinary genetic drift",
+      "the article abolishes selection as an observed consequence",
+      "the theory can be transferred directly to organisations"
+    ],
+    "open_checks": [
+      "add contemporary biological criticism and reception",
+      "separate the 1992 and 2000 formulations",
+      "trace uses in cybernetics without laundering metaphor into fact"
+    ],
+    "source_ids": [
+      "src_maturana_mpodozis_natural_drift_2000"
+    ],
+    "evidence_ids": [],
+    "last_researched": "2026-08-11",
+    "review_status": "curator_checked_public_sources",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-11",
+    "editorial_note": "Developed from the cited primary scholarly source and presented with an explicit contestation note."
+  },
+  "connections": [
+    {
+      "id": "e_12_natural_drift_maturana",
+      "source": "concept_natural_drift",
+      "target": "person_humberto_maturana",
+      "relation_type": "formulated_by",
+      "relation_family": "historical",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.88",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_maturana_mpodozis_natural_drift_2000"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Release 0.12 public practitioner and publication sources",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "The wording is limited to the named public sources. Bibliographic inclusion and organisational association do not establish wider intellectual influence.",
+      "assertion_mode": "asserted",
+      "inference_method": "curatorial synthesis of public primary, scholarly and professional-body sources",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-10",
+      "notes": "The article is co-authored by Humberto Maturana.",
+      "plain_phrase": "was formulated by",
+      "public_review_label": "supported working statement"
+    },
+    {
+      "id": "e_12_natural_drift_mpodozis",
+      "source": "concept_natural_drift",
+      "target": "person_jorge_mpodozis",
+      "relation_type": "formulated_by",
+      "relation_family": "historical",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.88",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_maturana_mpodozis_natural_drift_2000"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Release 0.12 public practitioner and publication sources",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "The wording is limited to the named public sources. Bibliographic inclusion and organisational association do not establish wider intellectual influence.",
+      "assertion_mode": "asserted",
+      "inference_method": "curatorial synthesis of public primary, scholarly and professional-body sources",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-10",
+      "notes": "The article is co-authored by Jorge Mpodozis.",
+      "plain_phrase": "was formulated by",
+      "public_review_label": "supported working statement"
+    },
+    {
+      "id": "e_12_natural_drift_viability",
+      "source": "concept_natural_drift",
+      "target": "tradition_evolutionary_cybernetics",
+      "relation_type": "challenges",
+      "relation_family": "contestation",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.91",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_maturana_mpodozis_natural_drift_2000",
+        "src_principia_intro"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Maturana & Mpodozis abstract, paragraphs 35–36; Principia introduction, paragraphs 4–5",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Natural drift challenges natural selection as the generative mechanism of evolutionary history. This comparison does not imply that it rejects every claim in evolutionary cybernetics.",
+      "assertion_mode": "interpreted",
+      "inference_method": "direct comparison of two explicit mechanism claims",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-10",
+      "notes": "Principia describes evolution as self-organisation based on variation and natural selection; Maturana and Mpodozis argue that natural selection is a consequence of natural drift rather than the mechanism generating evolutionary history.",
+      "plain_phrase": "challenges the selection mechanism assumed by",
+      "public_review_label": "interpreted tension between primary claims"
+    }
+  ],
+  "claims": [],
+  "sources": [
+    {
+      "id": "src_maturana_mpodozis_natural_drift_2000",
+      "title": "The origin of species by means of natural drift",
+      "source_type": "peer_reviewed_article",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://revistaschilenas.uchile.cl/handle/2250/62395",
+      "date": "2000",
+      "notes": "Primary scholarly article in which Humberto Maturana and Jorge Mpodozis propose natural drift as the generative mechanism of evolutionary diversification and treat natural selection as a consequence rather than the mechanism. This is a particular theoretical account, not field-wide consensus.",
+      "creators": [
+        "Humberto Maturana",
+        "Jorge Mpodozis"
+      ],
+      "doi": "10.4067/S0716-078X2000000200005",
+      "isbn": "",
+      "publisher": "Revista Chilena de Historia Natural",
+      "licence": "source_terms",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked_with_contestation_note",
+      "last_checked": "2026-08-10",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_principia_intro",
+      "title": "Introduction to Principia Cybernetica",
+      "source_type": "primary_project_page",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://pespmc1.vub.ac.be/INTRO.html",
+      "date": "",
+      "notes": "Primary project-authored orientation page.",
+      "creators": [],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Principia Cybernetica Project",
+      "licence": "source_terms",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-10",
+      "public_link_status": "public_link"
+    }
+  ],
+  "evidence_locators": [],
+  "reuse_note": "Preserve source attribution, scope, and review status. Source documents and evidence excerpts are excluded."
+}

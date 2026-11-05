@@ -1,0 +1,505 @@
+{
+  "schema_version": "1.0",
+  "canonical_url": "https://transduction.systems/entries/approach_family_systems_changes_learning/",
+  "release": "0.35",
+  "citation": "Taylor, B. P. (2026). Systems Changes Learning. The Necessary Tangle, release 0.35. https://transduction.systems/entries/approach_family_systems_changes_learning/",
+  "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
+  "entry": {
+    "id": "approach_family_systems_changes_learning",
+    "label": "Systems Changes Learning",
+    "entity_type": "approach_family",
+    "description": "A learning approach associated with David Ing and collaborators that treats changes in living systems through rhythmic shifts, texture/contexture, propensity and knowing from within rather than a simple unfreeze-change-refreeze sequence.",
+    "aliases": [],
+    "boundary_ring": "0",
+    "inclusion_reason": "iteration_0_15_depth_and_practice",
+    "status": "accepted",
+    "source_ids": [
+      "src_ing_systems_changes_learning_2022"
+    ],
+    "set_tags": [
+      "systems",
+      "practice",
+      "release_0_15",
+      "learning",
+      "living-systems"
+    ],
+    "espoused_labels": [],
+    "observed_clusters": [],
+    "canonical_definition": "A learning approach associated with David Ing and collaborators that treats changes in living systems through rhythmic shifts, texture/contexture, propensity and knowing from within rather than a simple unfreeze-change-refreeze sequence.",
+    "valid_from": "",
+    "valid_to": "",
+    "external_ids": "{}",
+    "geographies": [],
+    "licence": "",
+    "review_status": "curator_checked_public_sources",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-14",
+    "x": 0.34,
+    "y": -0.16,
+    "canonical_id": "approach_family_systems_changes_learning",
+    "public_visibility": "public",
+    "publication_level": "profile",
+    "public_stub_text": "",
+    "public_source_count": 1,
+    "no_public_link_count": 0
+  },
+  "profile": {
+    "node_id": "approach_family_systems_changes_learning",
+    "title": "Systems Changes Learning",
+    "profile_status": "curator_checked_public_sources",
+    "canonical_definition": "A learning approach associated with David Ing and collaborators that treats changes in living systems through rhythmic shifts, texture/contexture, propensity and knowing from within rather than a simple unfreeze-change-refreeze sequence.",
+    "summary": "An action-learning approach for attending to changes in living systems through rhythm, texture/contexture and propensity.",
+    "why_it_matters": "It resists both static system descriptions and staged change assumptions.",
+    "key_distinctions": [
+      "living temporality versus frozen state",
+      "propensity versus deterministic forecast",
+      "knowing from within versus detached diagnosis"
+    ],
+    "historical_lineage": [
+      "Systems Changes Learning Circle",
+      "Bateson",
+      "Ingold"
+    ],
+    "logical_antecedents": [
+      "ecological epistemology",
+      "action learning"
+    ],
+    "dependent_subsequents": [
+      "learning-circle practices"
+    ],
+    "practice_connections": [
+      "change inquiry",
+      "group learning",
+      "contextual diagnosis"
+    ],
+    "espoused_lineages": [],
+    "observed_clusters": [],
+    "common_misreadings": [
+      "The vocabulary is not a relabelling of Lewinian stage change."
+    ],
+    "open_checks": [
+      "Add case evidence beyond author-maintained sources."
+    ],
+    "source_ids": [
+      "src_ing_systems_changes_learning_2022"
+    ],
+    "evidence_ids": [],
+    "last_researched": "2026-08-14",
+    "review_status": "curator_checked_public_sources",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-14",
+    "editorial_note": "Public account based on named sources; documentary provenance, interpretation and evaluative claims are kept distinct."
+  },
+  "connections": [
+    {
+      "id": "e15_ing_develops_systems_changes",
+      "source": "person_david_ing",
+      "target": "approach_family_systems_changes_learning",
+      "relation_type": "developed",
+      "relation_family": "human",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.97",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_ing_systems_changes_learning_2022",
+        "src_ing_systems_changes_learning_2023"
+      ],
+      "evidence_ids": [],
+      "source_locator": "2023 author record, abstract and citation; published article pp. 11-73; 2022 Systems Changes presentation",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "These first-party records establish Ing's authorship and formulation, not independent validation of the approach.",
+      "assertion_mode": "asserted",
+      "inference_method": "author-index chronology and published-work verification",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-14",
+      "notes": "The 2023 record locates the contextural-action-learning, rhythmic-shifts and doing-thinking-making formulation in a published article.",
+      "plain_phrase": "develops and publishes",
+      "public_review_label": "source-established authorship and development"
+    },
+    {
+      "id": "e15_systems_changes_documented_in",
+      "source": "approach_family_systems_changes_learning",
+      "target": "corpus_systems_changes",
+      "relation_type": "first_documented_in",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.88",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_ing_systems_changes_learning_2022"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Release 0.15 public sources",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Limited to the named sources. Documentary connection, conceptual influence, teaching use and effectiveness are distinct claims.",
+      "assertion_mode": "asserted",
+      "inference_method": "curatorial synthesis of public sources",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-14",
+      "notes": "",
+      "plain_phrase": "is documented in",
+      "public_review_label": "supported working statement"
+    },
+    {
+      "id": "e_overnight_systems_changes_action_learning",
+      "source": "approach_family_systems_changes_learning",
+      "target": "intervention_skill_action_learning",
+      "relation_type": "specialises",
+      "relation_family": "practice",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.94",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_ing_systems_changes_learning_2023"
+      ],
+      "evidence_ids": [],
+      "source_locator": "2023 author record, abstract; published article pp. 11-73, contextural action learning and three learning levels",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "This records the paper's contextural-action-learning formulation, not equivalence with all action-learning traditions.",
+      "assertion_mode": "asserted",
+      "inference_method": "close reading of the author abstract and published article record",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-14",
+      "notes": "The approach is explicitly framed as contextural action learning, developed through educating attention, learning for co-relating and learning for articulating.",
+      "plain_phrase": "specialises a contextural form of",
+      "public_review_label": "source-established author formulation"
+    },
+    {
+      "id": "e16_relational_crosswalk_287",
+      "source": "corpus_systems_changes",
+      "target": "approach_family_systems_changes_learning",
+      "relation_type": "presents",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.72",
+      "claim_status": "provisional",
+      "source_ids": [
+        "src_ing_systems_changes_learning_2022",
+        "src_ing_knowing_better_2022"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Interpretive comparison of the two maintained public descriptions and their cited source records",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "This is a provisional semantic or practice crosswalk. It does not establish historical influence, equivalence, efficacy or universal applicability. Item-level source review and curator acceptance are still required.",
+      "assertion_mode": "interpreted",
+      "inference_method": "curator-requested relational crosswalk of maintained public descriptions",
+      "claim_id": "",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "documents work associated with",
+      "public_review_label": "provisional relational crosswalk"
+    },
+    {
+      "id": "e16_relational_crosswalk_290",
+      "source": "approach_family_systems_changes_learning",
+      "target": "concept_double_loop_learning",
+      "relation_type": "uses",
+      "relation_family": "practice",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.72",
+      "claim_status": "provisional",
+      "source_ids": [
+        "src_ing_systems_changes_learning_2022",
+        "src_sysbok_feedback_2013"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Interpretive comparison of the two maintained public descriptions and their cited source records",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "This is a provisional semantic or practice crosswalk. It does not establish historical influence, equivalence, efficacy or universal applicability. Item-level source review and curator acceptance are still required.",
+      "assertion_mode": "interpreted",
+      "inference_method": "curator-requested relational crosswalk of maintained public descriptions",
+      "claim_id": "",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "supports learning about governing frames through",
+      "public_review_label": "provisional relational crosswalk"
+    },
+    {
+      "id": "e16_relational_crosswalk_291",
+      "source": "approach_family_systems_changes_learning",
+      "target": "approach_family_systems_change",
+      "relation_type": "complements",
+      "relation_family": "conceptual",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.72",
+      "claim_status": "provisional",
+      "source_ids": [
+        "src_ing_systems_changes_learning_2022",
+        "src_taylor_systems_leadership_schema_2021",
+        "src_taylor_systems_terms_2022",
+        "src_taylor_boundaries_convening_2025"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Interpretive comparison of the two maintained public descriptions and their cited source records",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "This is a provisional semantic or practice crosswalk. It does not establish historical influence, equivalence, efficacy or universal applicability. Item-level source review and curator acceptance are still required.",
+      "assertion_mode": "interpreted",
+      "inference_method": "curator-requested relational crosswalk of maintained public descriptions",
+      "claim_id": "",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "adds an explicit learning orientation to",
+      "public_review_label": "provisional relational crosswalk"
+    },
+    {
+      "id": "e31_ocad_10_approach_family_systems_changes_learning",
+      "source": "approach_family_systems_changes_learning",
+      "target": "corpus_ing_ocad_reading_route_2026",
+      "relation_type": "taught_in",
+      "relation_family": "practice",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "",
+      "claim_status": "candidate",
+      "source_ids": [
+        "src_u31_ocad_proforma"
+      ],
+      "evidence_ids": [
+        "ev_e31_ocad_10_approach_family_systems_changes_learning"
+      ],
+      "source_locator": "Module_10",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Included as a proposed teaching topic in this published pro forma. This does not establish delivery, enrolment availability, or endorsement of every associated claim.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "claim_e31_ocad_10_approach_family_systems_changes_learning",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "taught in",
+      "public_review_label": "Located source statement; curator review pending",
+      "connection_pass": "update_20261008"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_e31_ocad_10_approach_family_systems_changes_learning",
+      "statement": "Included as a proposed teaching topic in this published pro forma. This does not establish delivery, enrolment availability, or endorsement of every associated claim.",
+      "subject_id": "approach_family_systems_changes_learning",
+      "predicate": "taught_in",
+      "object_id": "corpus_ing_ocad_reading_route_2026",
+      "status": "candidate",
+      "supporting_source_ids": [
+        "src_u31_ocad_proforma"
+      ],
+      "supporting_evidence_ids": [
+        "ev_e31_ocad_10_approach_family_systems_changes_learning"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_evidence_ids": [],
+      "notes": "Source-scoped interpretation. Human editorial acceptance remains pending.",
+      "review_status": "research_pass_needs_editor",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "connection_pass": "update_20261008"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src_ing_systems_changes_learning_2022",
+      "title": "When Unfreeze-Move-Refreeze Isn’t Working",
+      "source_type": "primary_publication_record",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://systemschanges.com/online/presentations/20220711-when-unfreeze-move-refreeze-isnt-working",
+      "date": "checked 2026-08-14",
+      "notes": "Primary account of Systems Changes Learning, including rhythmic shifts, texture/contexture, propensity, contextual-dyadic thinking and action learning.",
+      "creators": [
+        "David Ing"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Systems Changes",
+      "licence": "site terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-14",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_ing_systems_changes_learning_2023",
+      "title": "Systems Changes Learning: Recasting and reifying rhythmic shifts",
+      "source_type": "primary_author_publication_record",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://coevolving.com/commons/2023-02-recasting-and-reifying-rhythmic-shifts",
+      "date": "2023-02-28",
+      "notes": "Author record, abstract and published article for contextural action learning, rhythmic shifts and the doing-thinking-making triad.",
+      "creators": [
+        "David Ing"
+      ],
+      "doi": "10.54808/JSCI.20.07.11",
+      "isbn": "",
+      "publisher": "Journal of Systemics, Cybernetics and Informatics / Coevolving Innovations",
+      "licence": "CC BY-NC-SA 4.0",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked_primary_author_record",
+      "last_checked": "2026-08-14",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_ing_knowing_better_2022",
+      "title": "Knowing Better via Systems Thinking",
+      "source_type": "primary_publication_record",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://systemschanges.com/online/presentations/20221010-knowing-better-via-systems-thinking",
+      "date": "checked 2026-08-14",
+      "notes": "Primary account that explicitly places contemporary systems approaches in longer systems-sciences traditions and uses that lineage as part of teaching systems thinking.",
+      "creators": [
+        "David Ing"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Systems Changes",
+      "licence": "site terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-14",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_sysbok_feedback_2013",
+      "title": "SCiO SysBoK - Feedback v1",
+      "source_type": "legacy_map_presentation",
+      "quality_tier": "C",
+      "access": "no_public_link",
+      "url": "",
+      "date": "2013-04-01",
+      "notes": "Legacy SCiO SysBoK working presentation; no public link.",
+      "creators": [
+        "SCiO"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "",
+      "licence": "",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "pass4_legacy_internal_register_audit",
+      "last_checked": "2026-08-14",
+      "public_link_status": "no_public_link"
+    },
+    {
+      "id": "src_taylor_systems_leadership_schema_2021",
+      "title": "A schema for better understanding systems leadership and systems change",
+      "source_type": "public_curator_article",
+      "quality_tier": "B",
+      "access": "public",
+      "url": "https://stream.syscoi.com/2021/06/21/a-schema-for-better-understanding-systems-leadership-and-systems-change/",
+      "date": "2021-06-21",
+      "notes": "Benjamin P Taylor's public working classification of six forms of systems leadership and its overlap with systems change. It is used as an explicit curatorial account, not as field-wide consensus.",
+      "creators": [
+        "Benjamin P Taylor"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Systems Community of Inquiry",
+      "licence": "source_terms",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-10",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_taylor_systems_terms_2022",
+      "title": "What do systems leadership and systems change mean to you?",
+      "source_type": "public_curator_article",
+      "quality_tier": "B",
+      "access": "public",
+      "url": "https://chosen-path.org/2022/07/11/what-do-systems-leadership-and-systems-change-mean-to-you-what-questions-would-you-like-me-to-answer/",
+      "date": "2022-07-11",
+      "notes": "A public statement of Benjamin P Taylor's distinctions among systems leadership, systems change, systems theory, systems practice and systems convening. It is treated as a curatorial framing open to challenge.",
+      "creators": [
+        "Benjamin P Taylor"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "chosen path",
+      "licence": "source_terms",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-10",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_taylor_boundaries_convening_2025",
+      "title": "Systems convening and boundaries core slides",
+      "source_type": "public_teaching_material",
+      "quality_tier": "C",
+      "access": "public",
+      "url": "https://antlerboy.com/library/files/talks/systems-convening-and-boundaries.pdf",
+      "date": "2025-04-01",
+      "notes": "Public teaching slides; no public link. Public PDF linked on 2026-09-19; the earlier unpublished access description is superseded.",
+      "creators": [
+        "Benjamin P Taylor"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Benjamin P Taylor public work library",
+      "licence": "not_publicly_licensed",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "public_file_identity_checked",
+      "last_checked": "2026-09-19",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_u31_ocad_proforma",
+      "title": "Understanding Systems: 2026 SFIN-6011 pro forma",
+      "source_type": "public_source",
+      "quality_tier": "B",
+      "access": "public",
+      "url": "https://coevolving.com/ocadu/202601-sfin-6011/pro-forma/Whole_2026_SFIN6011_pro-forma_v0101a.html",
+      "date": "2026",
+      "notes": "Complete twelve-module discussion pro forma read. Suggestions may not have entered the launched course. Module-linked works remain bibliographic leads unless separately reviewed.",
+      "creators": [
+        "David Ing"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Coevolving / OCAD",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "source_scoped_research_pass",
+      "last_checked": "2026-10-08",
+      "public_link_status": "public_link",
+      "connection_pass": "update_20261008",
+      "source_locator": "Module_01 through Module_12; introductory status and CC BY notice"
+    }
+  ],
+  "evidence_locators": [
+    {
+      "id": "ev_e31_ocad_10_approach_family_systems_changes_learning",
+      "source_id": "src_u31_ocad_proforma",
+      "locator": "Module_10",
+      "review_status": "research_pass_needs_editor"
+    }
+  ],
+  "reuse_note": "Preserve source attribution, scope, and review status. Source documents and evidence excerpts are excluded."
+}

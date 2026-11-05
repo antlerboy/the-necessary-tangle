@@ -1,0 +1,186 @@
+{
+  "schema_version": "1.0",
+  "canonical_url": "https://transduction.systems/entries/publication_leverage_points_meadows/",
+  "release": "0.35",
+  "citation": "Taylor, B. P. (2026). Leverage Points: Places to Intervene in a System. The Necessary Tangle, release 0.35. https://transduction.systems/entries/publication_leverage_points_meadows/",
+  "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
+  "entry": {
+    "id": "publication_leverage_points_meadows",
+    "label": "Leverage Points: Places to Intervene in a System",
+    "entity_type": "publication",
+    "description": "Donella Meadows's ordered account of places to intervene in systems, ranging from parameters and feedback structures to goals, paradigms and the capacity to remain unattached to paradigms.",
+    "aliases": [
+      "Leverage Points essay"
+    ],
+    "boundary_ring": "0",
+    "inclusion_reason": "expertise_and_public_sources_release_0_13",
+    "status": "accepted",
+    "source_ids": [
+      "src_meadows_leverage_points"
+    ],
+    "set_tags": [
+      "systems",
+      "human_lineage",
+      "expertise",
+      "release_0_13"
+    ],
+    "espoused_labels": [],
+    "observed_clusters": [],
+    "canonical_definition": "Donella Meadows's ordered account of places to intervene in systems, ranging from parameters and feedback structures to goals, paradigms and the capacity to remain unattached to paradigms.",
+    "valid_from": "",
+    "valid_to": "",
+    "external_ids": "{}",
+    "geographies": [],
+    "licence": "",
+    "review_status": "curator_checked_public_sources",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-11",
+    "x": 0.51,
+    "y": 0.1,
+    "canonical_id": "publication_leverage_points_meadows",
+    "public_visibility": "public",
+    "publication_level": "profile",
+    "public_stub_text": "",
+    "public_source_count": 1,
+    "no_public_link_count": 0
+  },
+  "profile": {
+    "node_id": "publication_leverage_points_meadows",
+    "title": "Leverage Points: Places to Intervene in a System",
+    "profile_status": "curator_checked_public_sources",
+    "canonical_definition": "Donella Meadows's ordered account of places to intervene in systems, ranging from parameters and feedback structures to goals, paradigms and the capacity to remain unattached to paradigms.",
+    "summary": "Leverage Points orders potential interventions from parameters through feedback and rules to goals, paradigms and the ability to move among paradigms.",
+    "why_it_matters": "The essay is useful precisely because it combines a memorable hierarchy with repeated cautions: leverage depends on direction and context, systems resist change, and the list is not a recipe.",
+    "key_distinctions": [
+      "leverage point vs preferred solution",
+      "location vs direction",
+      "parameter vs information vs rule vs goal"
+    ],
+    "historical_lineage": [
+      "system dynamics",
+      "Jay Forrester",
+      "Donella Meadows's policy and teaching work"
+    ],
+    "logical_antecedents": [
+      "feedback",
+      "information flow",
+      "rule",
+      "goal",
+      "paradigm"
+    ],
+    "dependent_subsequents": [
+      "intervention heuristics",
+      "paradigm practice",
+      "systems-change discourse"
+    ],
+    "practice_connections": [
+      "policy design",
+      "organisational change",
+      "sustainability intervention"
+    ],
+    "espoused_lineages": [],
+    "observed_clusters": [],
+    "common_misreadings": [
+      "higher is always easier",
+      "the list identifies one best intervention",
+      "paradigm change can be commanded"
+    ],
+    "open_checks": [
+      "map all twelve levels",
+      "connect empirical cases",
+      "compare with other intervention frameworks"
+    ],
+    "source_ids": [
+      "src_meadows_leverage_points"
+    ],
+    "evidence_ids": [],
+    "last_researched": "2026-08-11",
+    "review_status": "curator_checked_public_sources",
+    "reviewed_by": "Benjamin P Taylor",
+    "reviewed_at": "2026-08-11",
+    "editorial_note": "Developed from public primary, institutional and publisher sources. Open to correction, rival interpretation and stronger evidence."
+  },
+  "connections": [
+    {
+      "id": "e_13_leverage_concept",
+      "source": "publication_leverage_points_meadows",
+      "target": "concept_leverage_points",
+      "relation_type": "develops",
+      "relation_family": "conceptual",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.88",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_meadows_leverage_points"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Release 0.13 public primary, institutional and publisher sources",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "The wording is limited to the named public sources. Authorship, methodological development, conceptual dependence and practical use remain distinct claims.",
+      "assertion_mode": "asserted",
+      "inference_method": "curatorial synthesis of public primary, institutional and publisher sources",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-11",
+      "notes": "The essay presents and qualifies an ordered set of places to intervene.",
+      "plain_phrase": "develops",
+      "public_review_label": "supported working statement"
+    },
+    {
+      "id": "e_13_leverage_meadows",
+      "source": "publication_leverage_points_meadows",
+      "target": "person_donella_meadows",
+      "relation_type": "authored_by",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.88",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_meadows_leverage_points"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Release 0.13 public primary, institutional and publisher sources",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "The wording is limited to the named public sources. Authorship, methodological development, conceptual dependence and practical use remain distinct claims.",
+      "assertion_mode": "asserted",
+      "inference_method": "curatorial synthesis of public primary, institutional and publisher sources",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-11",
+      "notes": "The Donella Meadows Project identifies Meadows as author.",
+      "plain_phrase": "was authored by",
+      "public_review_label": "supported working statement"
+    }
+  ],
+  "claims": [],
+  "sources": [
+    {
+      "id": "src_meadows_leverage_points",
+      "title": "Leverage Points: Places to Intervene in a System",
+      "source_type": "primary_author_archive",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://donellameadows.org/archives/leverage-points-places-to-intervene-in-a-system/",
+      "date": "1999; archived current",
+      "notes": "The Donella Meadows Project publishes Meadows's ordered list of places to intervene, together with her cautions about context, resistance, uncertainty and paradigm flexibility.",
+      "creators": [
+        "Donella Meadows"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "The Donella Meadows Project",
+      "licence": "source_terms",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-11",
+      "public_link_status": "public_link"
+    }
+  ],
+  "evidence_locators": [],
+  "reuse_note": "Preserve source attribution, scope, and review status. Source documents and evidence excerpts are excluded."
+}
