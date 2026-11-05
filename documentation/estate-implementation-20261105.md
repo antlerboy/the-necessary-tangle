@@ -46,3 +46,7 @@ Codex implementation; use the current task model. No model change or fresh resea
 The new wrapper copy was reviewed against the two writing records selected by the user, with the current writing instructions taking precedence. Headings now describe the material directly. Actions identify what a reader can do; responsibility identifies the curator, contributors, maintainers, and the checks they use. The reading entrance no longer claims general reliability. Existing profile, journey, source, claim, and evidence prose remains unchanged.
 
 The copy lives in `scripts/build_readable_atlas.py`; generated pages and matching browser assertions are updated from it. The publication task is authorised to push after the final checks and verify the resulting deployment.
+
+The original Benjamin writing style skill was subsequently supplied and read. The new wrapper copy needs no organisation-name corrections under its naming rule. Exact original source titles, records, and profile text are preserved.
+
+The browser runner now closes its own persistent HTTP connections during teardown. Local assertions also ran against a newer installed Chromium; the publication workflow installs the browser version matching its pinned Playwright runner.

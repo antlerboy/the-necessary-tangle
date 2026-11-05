@@ -67,4 +67,10 @@ async function main() {
   fs.writeFileSync(path.join(output, 'report.json'), JSON.stringify({ release: manifest.release, entry_count: manifest.entry_count, journey_count: manifest.journey_count, checked }, null, 2));
   console.log('Readable atlas browser checks passed: static access, sourced download, keyboard entry, mobile containment, practical routes, and interactive link.');
 }
-main().catch(error => { console.error(error); process.exitCode = 1; }).finally(async () => { if (browser) await browser.close(); if (server) await new Promise(resolve => server.close(resolve)); });
+main().catch(error => { console.error(error); process.exitCode = 1; }).finally(async () => {
+  if (browser) await browser.close();
+  if (server) {
+    server.closeAllConnections?.();
+    await new Promise(resolve => server.close(resolve));
+  }
+});
