@@ -1,8 +1,8 @@
 # Readable atlas implementation
 
-Status: implemented and locally verified, 5 November 2026. Publication is held pending the exact Benjamin writing-style skill pass and coordination with the estate task.
+Status: implemented and locally verified, 5 November 2026. New copy has been reviewed against the user-selected writing references and current writing instructions. Publication is authorised by the coordinating estate task after the checks pass.
 
-Owner: Benjamin P Taylor. This packet follows the user's authorisation to implement the web-estate recommendations, excluding independent teaching review. It supersedes the previous completed packet for this bounded change. Publication is held for coordination with the parent task.
+Owner: Benjamin P Taylor. This packet follows the user's authorisation to implement the web-estate recommendations, excluding independent teaching review. It supersedes the previous completed packet for this bounded change. Publication follows the coordinating task’s authorisation after verification.
 
 ## Outcome
 
@@ -41,6 +41,8 @@ Codex implementation; use the current task model. No model change or fresh resea
 - `scripts/test_readable_atlas_browser.js` passed at 1,440 px and 390 px, including JavaScript-disabled reading, keyboard entry, mobile containment, sourced downloads, practical home links, and interactive-to-readable links. Desktop and mobile screenshots were inspected.
 - JavaScript syntax checks passed. The canonical dataset and its public projection have no changes. Unrelated rebuild cache hashes, cross-platform churn, and missing companion-state prose were restored to the checked-out baseline.
 
-## New-copy pass still required
+## Copy review completed
 
-Read the exact Benjamin writing-style skill once it is available, then review the shared page navigation/footer, new entry section/action labels, journey orientation, index descriptions, stewardship text, and three practical entrance cards in `scripts/build_readable_atlas.py`. The two interactive action labels are patched from the same generator. Regenerate after edits; preserve existing profile, journey, source, claim, and evidence prose. No push or deployment has been performed.
+The new wrapper copy was reviewed against the two writing records selected by the user, with the current writing instructions taking precedence. Headings now describe the material directly. Actions identify what a reader can do; responsibility identifies the curator, contributors, maintainers, and the checks they use. The reading entrance no longer claims general reliability. Existing profile, journey, source, claim, and evidence prose remains unchanged.
+
+The copy lives in `scripts/build_readable_atlas.py`; generated pages and matching browser assertions are updated from it. The publication task is authorised to push after the final checks and verify the resulting deployment.

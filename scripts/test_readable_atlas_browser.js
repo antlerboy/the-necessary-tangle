@@ -51,7 +51,7 @@ async function main() {
       checked.push({ route, width, javaScript: false });
     }
     await page.goto(base + '/');
-    for (const name of ['Check a transformation claim', 'Practise a systems method', 'Find reliable reading']) assert(await page.getByRole('link', { name, exact: true }).isVisible());
+    for (const name of ['Check a transformation claim', 'Practise a systems method', 'Read the entries and sources']) assert(await page.getByRole('link', { name, exact: true }).isVisible());
     assert(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth + 1), 'Home-route overflow at ' + width);
     await page.locator('#practical-routes').scrollIntoViewIfNeeded();
     await page.screenshot({ path: path.join(output, `home-routes-${width}.png`) });

@@ -81,7 +81,7 @@ def page(title, description, path, body, release):
 </head><body class="readable-atlas"><a class="skip-link" href="#main">Skip to content</a>
 <header><a class="brand" href="/">The Necessary Tangle</a><nav aria-label="Main navigation"><a href="/entries/">Entries</a><a href="/journeys/">Reading journeys</a><a href="/systems-thinking/claim-lab/">Test a claim</a><a href="/systems-thinking/practice/">Practice</a><a href="/library/">Sources</a></nav></header>
 <main id="main"><p class="eyebrow">Readable atlas · Release {esc(release)}</p><h1>{esc(title)}</h1>{body}</main>
-<footer><p>Curated by <a href="https://antlerboy.com/">Benjamin P Taylor</a>. AI-assisted research and publishing. These pages preserve the atlas's recorded review status; generation is not independent review.</p>
+<footer><p><a href="https://antlerboy.com/">Benjamin P Taylor</a> is responsible for the atlas’s editorial decisions. AI assists with research and publishing.</p>
 <p>Original atlas text and data: <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>. Linked works retain their authorship and terms. <a href="/stewardship/">Responsibility and maintenance</a> · <a href="/#view=contribute">Suggest a correction</a>.</p></footer>
 <a class="update-thread-dot" href="https://github.com/antlerboy/the-necessary-tangle/issues/2" target="_blank" rel="noopener" aria-label="Open updates"></a></body></html>'''
 
@@ -113,7 +113,7 @@ def main():
         title = '<a href="' + esc(url) + '">' + esc(source['title']) + '</a>' if url.startswith(('https://', 'http://')) else esc(source['title']) + ' · No public link'
         return '<li>' + title + ' <small>(' + esc(human(source.get('review_status'))) + ')</small></li>'
 
-    sections = [('Summary', 'summary'), ('Why use this distinction?', 'why_it_matters'), ('Key distinctions', 'key_distinctions'), ('Historical development', 'historical_lineage'), ('Ideas it depends on', 'logical_antecedents'), ('What develops from it', 'dependent_subsequents'), ('Connections to practice', 'practice_connections'), ('Common confusions', 'common_misreadings'), ('Open questions', 'open_checks')]
+    sections = [('Summary', 'summary'), ('Implications for practice', 'why_it_matters'), ('Key distinctions', 'key_distinctions'), ('Historical development', 'historical_lineage'), ('Ideas it depends on', 'logical_antecedents'), ('Further developments', 'dependent_subsequents'), ('Connections to practice', 'practice_connections'), ('Common confusions', 'common_misreadings'), ('Further checks', 'open_checks')]
     for ident, profile in sorted(profiles.items(), key=lambda pair: nodes[pair[0]]['label'].casefold()):
         node = nodes[ident]
         title = node['label']
@@ -134,7 +134,7 @@ def main():
             if value:
                 values = unpack(value)
                 body += '<section><h2>' + heading + '</h2>' + ('<ul>' + ''.join('<li>' + esc(v) + '</li>' for v in values) + '</ul>' if values else paragraph(value)) + '</section>'
-        body += '<section><h2>Recorded connections</h2><p>Each statement keeps its direction, scope, and recorded status. A connection is not automatically an accepted conclusion.</p><ul class="connections">'
+        body += '<section><h2>Recorded connections</h2><p>Check the wording, direction, scope, sources, and status of a connection before relying on it.</p><ul class="connections">'
         for edge in attached:
             other = edge['target'] if edge['source'] == ident else edge['source']
             wording = nodes[edge['source']]['label'] + ' ' + (edge.get('plain_phrase') or human(edge.get('relation_type'))) + ' ' + nodes[edge['target']]['label']
@@ -156,7 +156,7 @@ def main():
         locators = [{'id': eid, 'source_id': evidence[eid]['source_id'], 'locator': evidence[eid].get('locator', ''), 'review_status': evidence[eid].get('review_status', '')} for eid in evidence_ids if eid in evidence]
         body += '<ul>' + ''.join('<li>' + esc(sources.get(e['source_id'], {}).get('title', e['source_id'])) + ': ' + esc(e['locator'] or 'No precise locator recorded') + ' · ' + esc(human(e['review_status'])) + '</li>' for e in locators) + '</ul></section>'
         citation = f'Taylor, B. P. (2026). {title}. The Necessary Tangle, release {release}. {BASE}{path}'
-        body += '<section><h2>Cite this entry</h2>' + paragraph(citation) + '<p>Retain the release and review status when quoting or reusing this account.</p></section>'
+        body += '<section><h2>Cite this entry</h2>' + paragraph(citation) + '<p>Include the release and review status when you quote or reuse this account.</p></section>'
         record = {'schema_version': '1.0', 'canonical_url': BASE + path, 'release': release, 'citation': citation, 'licence': 'CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms', 'entry': node, 'profile': profile, 'connections': attached, 'claims': claims, 'sources': [sources[sid] for sid in source_ids if sid in sources], 'evidence_locators': locators, 'reuse_note': 'Preserve source attribution, scope, and review status. Source documents and evidence excerpts are excluded.'}
         for key in ('entry', 'profile'):
             record[key] = structured(record[key])
@@ -170,7 +170,7 @@ def main():
         path = route('journeys', journey['id'])
         urls.append(path)
         body = paragraph(journey.get('subtitle')) + paragraph(journey.get('summary'))
-        body += '<aside class="status"><p>This is an editorial reading route through maintained entries. Its sequence does not establish influence, logical dependence, or independent review. Check each entry\'s sources and status.</p></aside>'
+        body += '<aside class="status"><p>This is an editorial reading route. Claims about influence or dependence need the evidence recorded against the relevant connection.</p></aside>'
         body += '<p><a href="/#view=journeys&amp;id=' + esc(journey['id']) + '&amp;step=0">Follow this journey interactively</a></p><ol class="journey">'
         for step in journey.get('steps', []):
             ident = step['node_id']
@@ -178,19 +178,32 @@ def main():
         body += '</ol>' + paragraph(f'Taylor, B. P. (2026). {journey["title"]}. The Necessary Tangle, release {release}. {BASE}{path}')
         write(path.strip('/') + '/index.html', page(journey['title'], journey.get('summary', journey['title']), path, body, release))
 
-    entry_list = '<p>Developed profiles from the current public release, readable without JavaScript. Development depth and editorial acceptance are different things; each page retains its recorded status.</p><p><a download href="developed-records.json">Download all developed records (JSON)</a> · <a href="/journeys/">Choose a reading journey</a></p><ul class="entry-index">'
+    entry_list = '<p>These are fuller accounts of ideas, people, methods, and publications, with sources and review status.</p><p><a download href="developed-records.json">Download the developed entries (JSON)</a> · <a href="/journeys/">Choose a reading journey</a></p><ul class="entry-index">'
     entry_list += ''.join('<li><a href="' + route('entries', ident) + '">' + esc(nodes[ident]['label']) + '</a> <small>· ' + esc(human(profile.get('review_status') or profile.get('profile_status'))) + '</small></li>' for ident, profile in sorted(profiles.items(), key=lambda p: nodes[p[0]]['label'].casefold())) + '</ul>'
-    write('entries/index.html', page('Read the developed entries', 'Readable, citable systems, cybernetics, and complexity entries with sources and review status.', '/entries/', entry_list, release))
+    write('entries/index.html', page('Developed entries', 'Systems, cybernetics, and complexity entries, with sources and review status.', '/entries/', entry_list, release))
     write('entries/developed-records.json', json.dumps({'schema_version': '1.0', 'release': release, 'record_count': len(records), 'records': records}, ensure_ascii=False, indent=2) + '\n')
-    journey_list = '<p>Choose a question and read the whole route without JavaScript. Follow a named entry to inspect its sources and status.</p><ul>' + ''.join('<li><h2><a href="' + route('journeys', j['id']) + '">' + esc(j['title']) + '</a></h2>' + paragraph(j.get('summary')) + '</li>' for j in journeys) + '</ul>'
+    journey_list = '<p>The journeys connect several entries around a question. Each entry links to its sources and records its review status.</p><ul>' + ''.join('<li><h2><a href="' + route('journeys', j['id']) + '">' + esc(j['title']) + '</a></h2>' + paragraph(j.get('summary')) + '</li>' for j in journeys) + '</ul>'
     write('journeys/index.html', page('Choose a reading journey', 'Question-led reading routes through the evidence atlas.', '/journeys/', journey_list, release))
-    stewardship = '<p>Benjamin P Taylor is the curator and remains responsible for editorial acceptance and publication. Reviewer names and decisions belong on the records they have reviewed. The roles below describe responsibilities, rather than appointments or publishing permissions.</p><h2>Contribute a bounded review</h2><p>Choose one entry, source passage, or connection. Give its URL, the exact statement, what should change, the evidence and locator, and any relevant limits or competing interpretation. A proposal does not grant publishing access.</p><p><a href="/#view=contribute">Send a correction or review proposal</a>.</p><h2>What maintenance involves</h2><p>The static entry and journey pages are generated from the existing public projection. They do not form a second evidence store. Corrections belong in the maintained atlas records and their release generator.</p><p>Sources, recorded status, passage locators, interactive routes, and calendar subscriptions must survive a release. A failed source check is a maintenance problem, not permission to remove uncertainty or invent a replacement.</p><h2>Maintenance responsibilities</h2><ul><li>Curator: acceptance, wording, disputed claims, and release decisions.</li><li>Contributors: a specific attributed proposal, source, and locator.</li><li>Maintainers: generation, links, sitemap, accessibility, downloads, and preservation of existing interactive behaviour.</li><li>Automated checks: defects and consistency only; they cannot confer truth, competence, or editorial acceptance.</li></ul><h2>Reuse</h2><p>Entry downloads contain existing original atlas records, source metadata, and locators. They exclude source documents and evidence excerpts. Retain attribution, scope, release, and review status; linked third-party works keep their own terms.</p>'
-    write('stewardship/index.html', page('Responsibility and maintenance', 'Who maintains the atlas, how to propose a bounded review, and what its reusable records contain.', '/stewardship/', stewardship, release))
+    stewardship = """<p>Benjamin P Taylor curates the atlas and is responsible for its editorial decisions and publication.</p>
+<h2>Correct an entry or connection</h2>
+<p>A question, a missing source, or a specific correction can start a review. Give the URL and the statement you’re questioning. Add your proposed change, the source and passage that support it, and any limits or competing interpretations that affect the claim.</p>
+<p><a href="/#view=contribute">Send a correction or question</a>.</p>
+<h2>Maintaining the record</h2>
+<p>Corrections belong in the maintained atlas data or the release script that generates it. The reading pages, interactive atlas, and downloads are built from that data.</p>
+<p>A release needs its source and review records, existing interactive links, and calendar subscriptions to remain intact. Record failed source checks and unresolved questions.</p>
+<h2>Responsibilities</h2>
+<ul><li>Curator: decides what enters a release and remains responsible for its wording.</li>
+<li>Contributors: identify the statement, propose a change, and give sources and locators where available.</li>
+<li>Maintainers: build the pages and downloads, check links and accessibility, and preserve existing interactive routes.</li>
+<li>Automated checks: test structure, consistency, links, and page behaviour.</li></ul>
+<h2>Reuse</h2>
+<p>Original atlas text and data use CC BY-SA 4.0. Entry downloads contain entries, connections, source metadata, and passage locators. Keep attribution, scope, release, and review status with reused records. Source documents and evidence excerpts aren’t included. Linked works keep their own terms.</p>"""
+    write('stewardship/index.html', page('Responsibility and maintenance', 'Editorial responsibility, corrections, maintenance, and reuse of atlas records.', '/stewardship/', stewardship, release))
 
     home_path = DOCS / 'index.html'
     home = home_path.read_text(encoding='utf-8')
     home = re.sub(r'<!-- ' + MARKER + r' -->.*?<!-- /' + MARKER + r' -->', '', home, flags=re.S)
-    cards = f'''<!-- {MARKER} --><section class="resource-pathways" aria-labelledby="practicalRoutesTitle" id="practical-routes"><h2 id="practicalRoutesTitle">What are you working on?</h2><div class="grid card-grid three"><article class="card"><h3><a href="/systems-thinking/claim-lab/">Check a transformation claim</a></h3><p>Test an improvement claim, a service redesign, or a workshop brief against a short case and counterexample.</p></article><article class="card"><h3><a href="/systems-thinking/practice/">Practise a systems method</a></h3><p>Try a fictional case, compare your reasoning, and repair a model before returning to live work.</p></article><article class="card"><h3><a href="/entries/">Find reliable reading</a></h3><p>Read developed entries, inspect their sources and status, or <a href="/journeys/">follow a complete reading journey</a>.</p></article></div></section><!-- /{MARKER} -->'''
+    cards = f'''<!-- {MARKER} --><section class="resource-pathways" aria-labelledby="practicalRoutesTitle" id="practical-routes"><h2 id="practicalRoutesTitle">Claims, methods, and sources</h2><div class="grid card-grid three"><article class="card"><h3><a href="/systems-thinking/claim-lab/">Check a transformation claim</a></h3><p>Test a claim about improvement, service redesign, or a workshop. Work through a short case and compare your answer with a counterexample.</p></article><article class="card"><h3><a href="/systems-thinking/practice/">Practise a systems method</a></h3><p>Try a fictional case. Compare your reasoning with the worked example, then try again with changed conditions.</p></article><article class="card"><h3><a href="/entries/">Read the entries and sources</a></h3><p>Read about an idea, method, or practitioner. Check its sources and review status, or <a href="/journeys/">follow a reading journey</a>.</p></article></div></section><!-- /{MARKER} -->'''
     anchor = '<!-- depth_20261029 -->'
     if anchor not in home:
         raise ValueError('Practical-route insertion point is missing')
