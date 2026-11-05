@@ -50,3 +50,5 @@ The copy lives in `scripts/build_readable_atlas.py`; generated pages and matchin
 The original Benjamin writing style skill was subsequently supplied and read. The new wrapper copy needs no organisation-name corrections under its naming rule. Exact original source titles, records, and profile text are preserved.
 
 The browser runner now closes its own persistent HTTP connections during teardown. Local assertions also ran against a newer installed Chromium; the publication workflow installs the browser version matching its pinned Playwright runner.
+
+The first publication run passed the complete build and validation, then failed because `ubuntu-latest` had moved to Ubuntu 26.04, unsupported by the existing pinned Playwright 1.55.0 dependency installer. Publication and validation jobs are now pinned to supported Ubuntu 24.04; the browser runner version and atlas content are unchanged.

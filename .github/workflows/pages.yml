@@ -13,7 +13,7 @@ concurrency:
   cancel-in-progress: true
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - name: Check out repository
         uses: actions/checkout@v7
@@ -126,7 +126,7 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     needs: build
     steps:
       - name: Deploy to GitHub Pages
@@ -134,7 +134,7 @@ jobs:
         uses: actions/deploy-pages@v5
   verify-live:
     name: Verify the live practice pages
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     needs: deploy
     permissions:
       contents: read
