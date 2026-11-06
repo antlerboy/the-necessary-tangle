@@ -1,14 +1,14 @@
 {
   "schema_version": "1.0",
   "canonical_url": "https://transduction.systems/entries/practice_lab_critical_systems_heuristics/",
-  "release": "0.35",
-  "citation": "Taylor, B. P. (2026). Practice: Critical Systems Heuristics: inspect all twelve boundary categories. The Necessary Tangle, release 0.35. https://transduction.systems/entries/practice_lab_critical_systems_heuristics/",
+  "release": "0.36",
+  "citation": "Taylor, B. P. (2026). Practice: Critical Systems Heuristics: inspect all twelve boundary categories. The Necessary Tangle, release 0.36. https://transduction.systems/entries/practice_lab_critical_systems_heuristics/",
   "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
   "entry": {
     "id": "practice_lab_critical_systems_heuristics",
     "label": "Practice: Critical Systems Heuristics: inspect all twelve boundary categories",
     "entity_type": "publication",
-    "description": "Build an is/ought boundary critique and show how a change in boundary alters a judgement. This exercise checks the completeness and consistency of boundary reasoning. It does not supply a morally unique answer or pretend that the practitioner represents every affected person.",
+    "description": "Build an is/ought boundary critique, show how it changes a claim, and respond when a sponsor excludes the challenge. This exercise checks the completeness and consistency of boundary reasoning. It does not supply a morally unique answer or pretend that the practitioner represents every affected person. The later rounds are original fictional applications, not a source-prescribed sequence. Ulrich's linked introduction, section 3, treats boundary critique as reflective and emancipatory practice, not a technique that settles the correct boundary.",
     "aliases": [],
     "boundary_ring": "0",
     "inclusion_reason": "authorised_systems_methods_practice_pack",
@@ -27,7 +27,7 @@
     ],
     "espoused_labels": [],
     "observed_clusters": [],
-    "canonical_definition": "Build an is/ought boundary critique and show how a change in boundary alters a judgement. This exercise checks the completeness and consistency of boundary reasoning. It does not supply a morally unique answer or pretend that the practitioner represents every affected person.",
+    "canonical_definition": "Build an is/ought boundary critique, show how it changes a claim, and respond when a sponsor excludes the challenge. This exercise checks the completeness and consistency of boundary reasoning. It does not supply a morally unique answer or pretend that the practitioner represents every affected person. The later rounds are original fictional applications, not a source-prescribed sequence. Ulrich's linked introduction, section 3, treats boundary critique as reflective and emancipatory practice, not a technique that settles the correct boundary.",
     "valid_from": "",
     "valid_to": "",
     "external_ids": "{\"practice_url\": \"https://transduction.systems/systems-thinking/practice/critical-systems-heuristics/\"}",
@@ -47,8 +47,8 @@
   },
   "profile": {
     "node_id": "practice_lab_critical_systems_heuristics",
-    "summary": "Build an is/ought boundary critique and show how a change in boundary alters a judgement. This exercise checks the completeness and consistency of boundary reasoning. It does not supply a morally unique answer or pretend that the practitioner represents every affected person.",
-    "canonical_definition": "Build an is/ought boundary critique and show how a change in boundary alters a judgement. This exercise checks the completeness and consistency of boundary reasoning. It does not supply a morally unique answer or pretend that the practitioner represents every affected person.",
+    "summary": "Build an is/ought boundary critique, show how it changes a claim, and respond when a sponsor excludes the challenge. This exercise checks the completeness and consistency of boundary reasoning. It does not supply a morally unique answer or pretend that the practitioner represents every affected person. The later rounds are original fictional applications, not a source-prescribed sequence. Ulrich's linked introduction, section 3, treats boundary critique as reflective and emancipatory practice, not a technique that settles the correct boundary.",
+    "canonical_definition": "Build an is/ought boundary critique, show how it changes a claim, and respond when a sponsor excludes the challenge. This exercise checks the completeness and consistency of boundary reasoning. It does not supply a morally unique answer or pretend that the practitioner represents every affected person. The later rounds are original fictional applications, not a source-prescribed sequence. Ulrich's linked introduction, section 3, treats boundary critique as reflective and emancipatory practice, not a technique that settles the correct boundary.",
     "why_it_matters": "A concrete rehearsal with a fictional case, explicit outputs and a way to inspect the result.",
     "key_distinctions": [
       "Mechanical correctness is distinct from judgement in an open situation.",
@@ -61,13 +61,15 @@
       "Complete the four groups of boundary categories in the descriptive 'is' mode.",
       "Write an 'ought' counterpart for each category.",
       "Trace one boundary change into the evaluation.",
-      "Design a challenge that an affected person can actually use."
+      "Design a challenge that an affected person can actually use.",
+      "State a finding under two rival boundaries, then decide what could change it.",
+      "Continue the critique when the sponsor rules out discussion of assistance."
     ],
     "common_misreadings": [
       "A worked comparison is not the only acceptable answer to an open question."
     ],
     "open_checks": [
-      "This exercise checks the completeness and consistency of boundary reasoning. It does not supply a morally unique answer or pretend that the practitioner represents every affected person.",
+      "This exercise checks the completeness and consistency of boundary reasoning. It does not supply a morally unique answer or pretend that the practitioner represents every affected person. The later rounds are original fictional applications, not a source-prescribed sequence. Ulrich's linked introduction, section 3, treats boundary critique as reflective and emancipatory practice, not a technique that settles the correct boundary.",
       "Compare an independent attempt before revealing the worked answer."
     ],
     "source_ids": [
@@ -128,7 +130,7 @@
       "source_locator": "Named exercise and its scope statement",
       "valid_from": "",
       "valid_to": "",
-      "scope_conditions": "This exercise checks the completeness and consistency of boundary reasoning. It does not supply a morally unique answer or pretend that the practitioner represents every affected person.",
+      "scope_conditions": "This exercise checks the completeness and consistency of boundary reasoning. It does not supply a morally unique answer or pretend that the practitioner represents every affected person. The later rounds are original fictional applications, not a source-prescribed sequence. Ulrich's linked introduction, section 3, treats boundary critique as reflective and emancipatory practice, not a technique that settles the correct boundary.",
       "assertion_mode": "asserted",
       "inference_method": "",
       "claim_id": "",
@@ -155,7 +157,7 @@
       "source_locator": "Named exercise and its scope statement",
       "valid_from": "",
       "valid_to": "",
-      "scope_conditions": "This exercise checks the completeness and consistency of boundary reasoning. It does not supply a morally unique answer or pretend that the practitioner represents every affected person.",
+      "scope_conditions": "This exercise checks the completeness and consistency of boundary reasoning. It does not supply a morally unique answer or pretend that the practitioner represents every affected person. The later rounds are original fictional applications, not a source-prescribed sequence. Ulrich's linked introduction, section 3, treats boundary critique as reflective and emancipatory practice, not a technique that settles the correct boundary.",
       "assertion_mode": "asserted",
       "inference_method": "",
       "claim_id": "",
@@ -176,7 +178,7 @@
       "access": "public",
       "url": "https://transduction.systems/systems-thinking/practice/critical-systems-heuristics/",
       "date": "2026-09-07",
-      "notes": "Original fictional exercise. This exercise checks the completeness and consistency of boundary reasoning. It does not supply a morally unique answer or pretend that the practitioner represents every affected person.",
+      "notes": "Original fictional exercise. This exercise checks the completeness and consistency of boundary reasoning. It does not supply a morally unique answer or pretend that the practitioner represents every affected person. The later rounds are original fictional applications, not a source-prescribed sequence. Ulrich's linked introduction, section 3, treats boundary critique as reflective and emancipatory practice, not a technique that settles the correct boundary.",
       "creators": [
         "The Necessary Tangle editorial practice pack"
       ],
@@ -193,24 +195,27 @@
     {
       "id": "src_ulrich_csh_mini_primer_2023",
       "title": "A Mini-Primer of Critical Systems Heuristics",
-      "source_type": "primary_author_method_page",
+      "source_type": "primary_text",
       "quality_tier": "A",
       "access": "public",
       "url": "https://wulrich.com/csh.html",
-      "date": "2005; updated 2023-05-20",
-      "notes": "Werner Ulrich's maintained primary account defines Critical Systems Heuristics as reflective practice centred on systematic boundary critique and twelve critical boundary questions.",
+      "date": "checked 2026-08-19",
+      "notes": "Author's page body inspected on 6 November 2026. It identifies normative boundary assumptions, cooperative and emancipatory uses, and limits on unique right answers. Enrich the existing record; retain its bibliographic history. Do not infer a fixed procedure from this primer or treat its account of CSH as evidence that another tradition is equivalent.",
       "creators": [
         "Werner Ulrich"
       ],
       "doi": "",
       "isbn": "",
-      "publisher": "Werner Ulrich",
+      "publisher": "",
       "licence": "noncommercial_distribution_and_citation_with_attribution",
       "archived_url": "",
       "content_hash": "",
-      "review_status": "checked",
-      "last_checked": "2026-08-11",
-      "public_link_status": "public_link"
+      "review_status": "passage_checked_research_pass",
+      "last_checked": "2026-11-06",
+      "public_link_status": "public_link",
+      "connection_pass": "depth_20261106",
+      "source_locator": "Main text beginning Critical systems heuristics; paragraphs beginning A critical approach, The first two applications, and In short; final Summary",
+      "access_note": "Enrich the existing record; retain its bibliographic history. Do not infer a fixed procedure from this primer or treat its account of CSH as evidence that another tradition is equivalent."
     },
     {
       "id": "src_practice_external_csh_evaluation",

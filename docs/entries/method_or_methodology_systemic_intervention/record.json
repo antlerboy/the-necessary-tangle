@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0",
   "canonical_url": "https://transduction.systems/entries/method_or_methodology_systemic_intervention/",
-  "release": "0.35",
-  "citation": "Taylor, B. P. (2026). Systemic Intervention. The Necessary Tangle, release 0.35. https://transduction.systems/entries/method_or_methodology_systemic_intervention/",
+  "release": "0.36",
+  "citation": "Taylor, B. P. (2026). Systemic Intervention. The Necessary Tangle, release 0.36. https://transduction.systems/entries/method_or_methodology_systemic_intervention/",
   "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
   "entry": {
     "id": "method_or_methodology_systemic_intervention",
@@ -299,7 +299,7 @@
       "source_locator": "Named exercise and its scope statement",
       "valid_from": "",
       "valid_to": "",
-      "scope_conditions": "A basic methodological design exercise. There is no universal correct sequence. The checks concern fit, assumptions and transitions, not allegiance to one classification of methods.",
+      "scope_conditions": "A basic methodological design exercise. There is no universal correct sequence. The checks concern fit, assumptions and transitions, not allegiance to one classification of methods. The numerical handoff and trial below are original fictional applications. The linked government toolkit supplies boundary, stock-flow, and evaluation prompts; it does not prescribe this CSH–SSM–SD sequence.",
       "assertion_mode": "asserted",
       "inference_method": "",
       "claim_id": "",
@@ -673,7 +673,7 @@
       "access": "public",
       "url": "https://transduction.systems/systems-thinking/practice/multi-methodology/",
       "date": "2026-09-07",
-      "notes": "Original fictional exercise. A basic methodological design exercise. There is no universal correct sequence. The checks concern fit, assumptions and transitions, not allegiance to one classification of methods.",
+      "notes": "Original fictional exercise. A basic methodological design exercise. There is no universal correct sequence. The checks concern fit, assumptions and transitions, not allegiance to one classification of methods. The numerical handoff and trial below are original fictional applications. The linked government toolkit supplies boundary, stock-flow, and evaluation prompts; it does not prescribe this CSH–SSM–SD sequence.",
       "creators": [
         "The Necessary Tangle editorial practice pack"
       ],

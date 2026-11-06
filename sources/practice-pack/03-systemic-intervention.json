@@ -81,19 +81,118 @@
 "criteria":["Scenarios and forecasts are distinguished.","Capacity arithmetic and response delays are correct.","Options are not ranked without criteria and missing assumptions.","Probes test distinct possibilities and have real safeguards."]
 },
 {
-"id":"ethics-and-power","title":"Ethics and power: make an intervention's authority and effects explicit","section":"Systemic intervention","standard":"Multi-agency intervention; Values mapping and integration; Managing deflection / resistance & challenge","ksb":["K4","K3","S5","S7","S8","S10","B2","B4","B7"],"time":40,"focus":"Distinguish permission, participation and legitimacy, then design a reversible intervention with an accessible challenge route.","scope":"A generic ethical reasoning exercise. It cannot establish compliance with sector-specific law, safeguarding or professional requirements. Those require qualified, contextual checks before real action.","atlas":["Ethics","Power","Critical Systems Heuristics"],"resources":["ulrich","government-toolkit"],"paid":["scio-development"],
-"scenario":"Fictional case: a sponsor asks an analyst to rank families for extra support using attendance records. The sponsor controls the project budget but does not control the schools' data. Families have not been told about the proposed use. The analyst suspects that absence may reflect transport barriers, caring responsibilities or illness, but no inquiry has tested those explanations. The sponsor says consultation will slow delivery and asks for a hidden pilot.",
-"rounds":[
-{"task":"Map authority and affectedness.","output":"A distinction between budget authority, data rights and effects on people.","answer":"The sponsor's budget authority does not automatically authorise access to school data or a new use of it. Families are affected even if they do not control the project. Identify the actual accountable organisations and required data, professional and safeguarding checks rather than inventing legal permission."},
-{"task":"Separate observations, labels and causal claims.","output":"Three typed statements and alternative explanations.","answer":"Recorded attendance is an observation with possible data-quality limits. 'Disengaged family' is an interpretation. 'Low attendance means low motivation' is a causal claim not established here. Transport, caring and illness are competing hypotheses, not facts about any family."},
-{"task":"Design an ethically defensible next inquiry.","output":"A narrower action with permission, safeguards and a stop condition.","answer":"First clarify lawful authority and purpose with the relevant professionals. Seek a proportionate, transparent inquiry that includes affected families and does not determine support from an untested proxy alone. Use minimised or synthetic data for the modelling rehearsal. Establish how people can correct information or challenge an interpretation. A hidden pilot is not made acceptable by being small."},
-{"task":"Prepare a constructive challenge to the sponsor.","output":"A short statement that names the risk and a workable alternative.","answer":"For example: 'We can test the model with synthetic cases now. Using identifiable attendance to rank families needs authority and a way to test the proxy with affected people. Otherwise the model may direct support away from the people facing the largest barriers.' Keep the challenge specific; do not accuse the sponsor of a motive the evidence does not establish."}
-],
-"checks":[{"q":"Does budget ownership automatically authorise the proposed data use?","options":["Yes","No","Only during a pilot"],"correct":1,"explanation":"Different authorities and obligations may apply. This exercise provides no sector-specific legal determination."},{"q":"What is the status of 'absence means low motivation'?","options":["An established fact","An untested causal interpretation","A harmless administrative label"],"correct":1,"explanation":"The same observation can arise from different conditions. A consequential proxy requires evidence and challenge."}],
-"repair":{"broken":"The ethical review says 'all stakeholders consulted' because the sponsor approved the model.","fix":"Name who actually participated, who was affected but absent, what could be changed through participation, and who had decision rights. Approval and legitimacy are not interchangeable."},
-"retry":{"task":"Families agree to discuss barriers but decline automated ranking. What follows?","answer":"Consent to one activity does not imply consent or authorisation for another. Redesign the inquiry and decision process within applicable obligations. Their refusal is evidence about the intervention's acceptability, not a modelling error to overcome."},
-"criteria":["Authority, influence, affectedness and permission are distinct.","Proxies and causal claims are not treated as established truth.","The intervention has transparency, safeguards and a challenge route.","Sector-specific compliance is explicitly left for qualified checking."]
-},
+    "id": "ethics-and-power",
+    "title": "Ethics and power: make an intervention's authority and effects explicit",
+    "section": "Systemic intervention",
+    "standard": "Multi-agency intervention; Values mapping and integration; Managing deflection / resistance & challenge",
+    "ksb": [
+      "K4",
+      "K3",
+      "S5",
+      "S7",
+      "S8",
+      "S10",
+      "B2",
+      "B4",
+      "B7"
+    ],
+    "time": 60,
+    "focus": "Distinguish permission, participation, and legitimacy, then specify who can change or stop an intervention when its assumptions fail.",
+    "scope": "A generic ethical reasoning exercise. It cannot establish compliance with sector-specific law, safeguarding or professional requirements. Those require qualified, contextual checks before real action. The decision record and changed situation are original fictional applications, not legal advice or a universal approval procedure.",
+    "atlas": [
+      "Ethics",
+      "Power",
+      "Critical Systems Heuristics"
+    ],
+    "resources": [
+      "ulrich",
+      "government-toolkit"
+    ],
+    "paid": [
+      "scio-development"
+    ],
+    "scenario": "Fictional case: a sponsor asks an analyst to rank families for extra support using attendance records. The sponsor controls the project budget but does not control the schools' data. Families have not been told about the proposed use. The analyst suspects that absence may reflect transport barriers, caring responsibilities or illness, but no inquiry has tested those explanations. The sponsor says consultation will slow delivery and asks for a hidden pilot.",
+    "rounds": [
+      {
+        "task": "Map authority and affectedness.",
+        "output": "A distinction between budget authority, data rights and effects on people.",
+        "answer": "The sponsor's budget authority does not automatically authorise access to school data or a new use of it. Families are affected even if they do not control the project. Identify the actual accountable organisations and required data, professional and safeguarding checks rather than inventing legal permission."
+      },
+      {
+        "task": "Separate observations, labels and causal claims.",
+        "output": "Three typed statements and alternative explanations.",
+        "answer": "Recorded attendance is an observation with possible data-quality limits. 'Disengaged family' is an interpretation. 'Low attendance means low motivation' is a causal claim not established here. Transport, caring and illness are competing hypotheses, not facts about any family."
+      },
+      {
+        "task": "Design an ethically defensible next inquiry.",
+        "output": "A narrower action with permission, safeguards and a stop condition.",
+        "answer": "First clarify lawful authority and purpose with the relevant professionals. Seek a proportionate, transparent inquiry that includes affected families and does not determine support from an untested proxy alone. Use minimised or synthetic data for the modelling rehearsal. Establish how people can correct information or challenge an interpretation. A hidden pilot is not made acceptable by being small."
+      },
+      {
+        "task": "Prepare a constructive challenge to the sponsor.",
+        "output": "A short statement that names the risk and a workable alternative.",
+        "answer": "For example: 'We can test the model with synthetic cases now. Using identifiable attendance to rank families needs authority and a way to test the proxy with affected people. Otherwise the model may direct support away from the people facing the largest barriers.' Keep the challenge specific; do not accuse the sponsor of a motive the evidence does not establish."
+      },
+      {
+        "task": "Turn the proposed safeguards into decisions someone can actually take.",
+        "output": "A short record naming the next action, decision-holder, evidence limit, pause condition, and route to resume.",
+        "answer": "One defensible record is: 'The analyst may rehearse alternative interpretations with invented cases and disclose the assumptions; no family is ranked or has support changed through this rehearsal. The sponsor must make time available without silently removing existing support appointments. The organisations responsible for data and support decisions must resolve the proposed real use before it proceeds. Pause if the rehearsal starts using identifiable records, directing actual support, or consuming time promised to families. Resume only after the changed activity and its consequences have been considered by people with the relevant responsibilities, with a usable challenge route for those affected.' A pause belongs to an activity and a reason; a general instruction to 'be ethical' does not tell anyone what to do."
+      },
+      {
+        "task": "Change the problem when families challenge what the intervention is for.",
+        "output": "A revised inquiry question, one alternative to ranking, and what would now count against your preferred approach.",
+        "answer": "Families say the central problem is unreliable transport and the risk of losing help when they miss appointments; they want those conditions investigated rather than a better motivation score. Reframe the question as 'What prevents people from reaching useful support, and which conditions can we change?' An alternative is to investigate routes, appointment conditions, and accounts from both attending and absent families, without making individual support contingent on a new score. Record the practical authority and resources needed for any change. Evidence that transport is not the main barrier should alter this inquiry too. Family involvement has then changed the question; it has not merely supplied labels for a model whose purpose the sponsor fixed in advance."
+      }
+    ],
+    "checks": [
+      {
+        "q": "Does budget ownership automatically authorise the proposed data use?",
+        "options": [
+          "Yes",
+          "No",
+          "Only during a pilot"
+        ],
+        "correct": 1,
+        "explanation": "Different authorities and obligations may apply. This exercise provides no sector-specific legal determination."
+      },
+      {
+        "q": "What is the status of 'absence means low motivation'?",
+        "options": [
+          "An established fact",
+          "An untested causal interpretation",
+          "A harmless administrative label"
+        ],
+        "correct": 1,
+        "explanation": "The same observation can arise from different conditions. A consequential proxy requires evidence and challenge."
+      },
+      {
+        "q": "Families identify transport and support conditions as the problem. Which response permits a change of framing?",
+        "options": [
+          "Use their accounts only to improve the motivation weights",
+          "Reconsider the inquiry question and investigate barriers and support conditions",
+          "Treat disagreement as proof that the families need ranking"
+        ],
+        "correct": 1,
+        "explanation": "Participation can change the problem being investigated. Restricting it to parameters leaves the original purpose beyond challenge."
+      }
+    ],
+    "repair": {
+      "broken": "The ethical review says 'all stakeholders consulted' because the sponsor approved the model.",
+      "fix": "Name who actually participated, who was affected but absent, what could be changed through participation, and who had decision rights. Approval and legitimacy are not interchangeable."
+    },
+    "retry": {
+      "task": "Families agree to discuss barriers but decline automated ranking. What follows?",
+      "answer": "Consent to one activity does not imply consent or authorisation for another. Redesign the inquiry and decision process within applicable obligations. Their refusal is evidence about the intervention's acceptability, not a modelling error to overcome."
+    },
+    "criteria": [
+      "Authority, influence, affectedness and permission are distinct.",
+      "Proxies and causal claims are not treated as established truth.",
+      "The intervention has transparency, safeguards and a challenge route.",
+      "Sector-specific compliance is explicitly left for qualified checking.",
+      "The pause condition names an activity, a decision-holder, and what is needed to resume.",
+      "Affected people can change the inquiry question, not only contribute data to a fixed classification."
+    ]
+  },
 {
 "id":"evaluation-and-reflexivity","title":"Evaluation and reflexivity: test the claim you are tempted to make","section":"Systemic intervention","standard":"Action research; Scientific Theory & Evidence; Learning design & learning conversations","ksb":["K5","K3","S6","S9","S11","B1","B3","B5"],"time":40,"focus":"Distinguish a measured change from a causal claim and use evaluation to revise both intervention and framing.","scope":"A basic mixed-evidence evaluation rehearsal. It is not a complete impact evaluation, statistical inference course or assessment of real practitioner behaviour.","atlas":["Evaluation","Action research","Reflexivity","Double-loop learning"],"resources":["government-toolkit","deming-free","social-learning-free"],"paid":["deming-paid","social-learning-paid"],
 "scenario":"Fictional case: after a new triage process, recorded average waiting time falls from 20 to 12 days. During the same period, 30 difficult cases are moved to another team and excluded from the report. Staff report less duplicated work. Three residents describe improved clarity; two describe feeling dismissed. The analyst designed the change and chose the waiting-time measure. There is no comparison group and no information about seasonal demand.",

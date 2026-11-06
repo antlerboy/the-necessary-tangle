@@ -1,0 +1,838 @@
+{
+  "packet": "Observing, perspectives, boundaries, and social action: conceptual deepening for release 0.36",
+  "checked_at": "2026-11-06",
+  "baseline_commit": "50740423a0b4b553e4ff4a8f503bc599071143a7",
+  "editorial_status": "Ready-to-apply research candidates. Primary source exposition, editorial comparison, and original practical applications are explicitly separated. Human acceptance is not implied.",
+  "integration_contract": {
+    "scope": "Exactly four existing nodes, three existing profiles, one new profile, five source records (four new), eight new evidence records, four new edges/claims, and one existing edge/claim correction.",
+    "profile_fields": "Replace specified prose and list fields. Do not attribute the revised text to the earlier human reviewer; blank review identity/date are deliberate.",
+    "source_lists": "Union source IDs with existing node/profile source IDs. The prose claims added in this pass are supported by the public primary locators here; retained older references are not newly verified.",
+    "schema": "Arrays are real JSON arrays in this patch packet; serialise using the repository's canonical CSV/JSON conventions on integration. Use existing relation families from the relation type registry.",
+    "status": "Keep existing node acceptance/candidate status. New profile and all new or revised claims remain research_pass_needs_editor; no curator_checked label should be inherited.",
+    "boundary_cohort": "Practice-pack lab files and the biological/managerial autonomy correction are owned by other agents and are not changed here."
+  },
+  "sources": [
+    {
+      "id": "src_u36_von_foerster_ethics_2003",
+      "action": "add_new",
+      "title": "Ethics and Second-Order Cybernetics",
+      "authors": [
+        "Heinz von Foerster"
+      ],
+      "creators": [
+        "Heinz von Foerster"
+      ],
+      "date": "2003",
+      "source_type": "primary_author_chapter",
+      "quality_tier": "A",
+      "access": "public_full_text",
+      "url": "https://link.springer.com/chapter/10.1007/0-387-21722-3_14",
+      "doi": "10.1007/0-387-21722-3_14",
+      "reading_url": "https://www.pangaro.com/hciiseminar2019/Heinz_Von_Foerster-Ethics_and_Second-order_Cybernetics.pdf",
+      "publisher": "Springer, Understanding Understanding, pp. 287–304",
+      "locator": "Printed pp. 288–289, 292–294, and 300–302; in the 54-page reading PDF, pp. 15–16, 19–21, and 27–29",
+      "verified": "Primary chapter body inspected through the web PDF reader; Springer chapter and book records confirm the chapter, pages, and reprint edition.",
+      "limits": "The 2003 chapter reprints an earlier address and interview. Its first-page footnote identifies a 1991 French publication. This record dates the edition inspected, not the origin of every idea. The metaphysical postulate and ethical imperative are von Foerster's philosophical proposals, not empirical or mathematical results. Local byte download returned HTTP 406; no local PDF hash is claimed.",
+      "licence": "publisher_terms; linked and paraphrased",
+      "review_status": "research_pass_needs_editor",
+      "last_checked": "2026-11-06",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_u36_checkland_retrospective_2000",
+      "action": "add_new",
+      "title": "Soft systems methodology: a thirty year retrospective",
+      "authors": [
+        "Peter Checkland"
+      ],
+      "creators": [
+        "Peter Checkland"
+      ],
+      "date": "2000",
+      "source_type": "primary_author_research_article",
+      "quality_tier": "A",
+      "access": "public_full_text",
+      "url": "https://doi.org/10.1002/1099-1743(200011)17:1+<::AID-SRES374>3.0.CO;2-O",
+      "doi": "10.1002/1099-1743(200011)17:1+<::AID-SRES374>3.0.CO;2-O",
+      "reading_url": "https://cdn.blot.im/folder/v-972dcafb/blog_2f78a95c02c14630961fdd8473cdfc33/files/_checkland-2000-systems_research_and_behavioral_science.pdf",
+      "publisher": "Systems Research and Behavioral Science 17(S1), S11–S58",
+      "locator": "Printed pp. S21, S32–S34, and S53; PDF pp. 11, 22–24, and 43",
+      "verified": "Primary article opened and relevant body passages inspected; 48-page PDF preserved privately with SHA-256 5848546f326e42c02c79c181aaee21998b9438cd08e81489c924e6db78800fd1. Publisher record confirms author, year, DOI, and reproduction note.",
+      "limits": "Checkland's account of SSM is evidence for that methodology. It does not establish that every form of pluralism follows SSM, that accommodation is fair, or that an account of a situation abolishes material constraints.",
+      "licence": "publisher_terms; linked and paraphrased",
+      "review_status": "research_pass_needs_editor",
+      "last_checked": "2026-11-06",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_ulrich_csh_mini_primer_2023",
+      "action": "enrich_existing",
+      "title": "A Mini-Primer of Critical Systems Heuristics",
+      "authors": [
+        "Werner Ulrich"
+      ],
+      "url": "https://wulrich.com/csh.html",
+      "locator": "Main text beginning Critical systems heuristics; paragraphs beginning A critical approach, The first two applications, and In short; final Summary",
+      "verified": "Author's page body inspected on 6 November 2026. It identifies normative boundary assumptions, cooperative and emancipatory uses, and limits on unique right answers.",
+      "limits": "Enrich the existing record; retain its bibliographic history. Do not infer a fixed procedure from this primer or treat its account of CSH as evidence that another tradition is equivalent.",
+      "review_status": "research_pass_needs_editor",
+      "last_checked": "2026-11-06"
+    },
+    {
+      "id": "src_u36_ulrich_boundaries_2022",
+      "action": "add_new",
+      "title": "Assessing assumptions about boundaries with critical systems heuristics",
+      "authors": [
+        "Werner Ulrich"
+      ],
+      "creators": [
+        "Werner Ulrich"
+      ],
+      "date": "2022-05-24",
+      "source_type": "primary_author_method_article",
+      "quality_tier": "A",
+      "access": "public_full_text",
+      "url": "https://i2insights.org/2022/05/24/critical-systems-heuristics/",
+      "reading_url": "https://wulrich.com/downloads/ulrich_2022_CSH_blog.pdf",
+      "publisher": "Integration and Implementation Insights",
+      "locator": "Questions 4–6 and 10–12; the four paragraphs immediately following question 12; author's PDF, page 1, before comments",
+      "verified": "Article body inspected in HTML and visually on page 1 of the author-hosted PDF. PDF SHA-256 8066b8226259a16ec531333469a73d1a419d486a1172e04fb7e65d722f81daf1.",
+      "limits": "The two-page PDF is a very tall webpage print, not a conventional paginated article. Its text mapping is damaged; the relevant page was visually checked. Later reader comments are excluded. The live page also displays an April 2025 update date; May 2022 is the original publication date confirmed by the preserved print.",
+      "licence": "source_terms; linked and paraphrased",
+      "review_status": "research_pass_needs_editor",
+      "last_checked": "2026-11-06",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_u36_bhaskar_persons_2020",
+      "action": "add_new",
+      "title": "Critical realism and the ontology of persons",
+      "authors": [
+        "Roy Bhaskar"
+      ],
+      "creators": [
+        "Roy Bhaskar"
+      ],
+      "date": "2020-03-16",
+      "source_type": "primary_author_article_posthumous",
+      "quality_tier": "A",
+      "access": "public_indexed_body",
+      "url": "https://doi.org/10.1080/14767430.2020.1734736",
+      "doi": "10.1080/14767430.2020.1734736",
+      "reading_url": "https://www.tandfonline.com/doi/abs/10.1080/14767430.2020.1734736",
+      "publisher": "Journal of Critical Realism 19(2), 113–120",
+      "locator": "Section 3, Contexts of persons: opening paragraphs on social domains and TMSA; paragraphs on conceptuality; concrete utopianism and the conditions of transition",
+      "verified": "Substantial publisher-indexed section 3 body inspected, with the publisher's presentation/publication note. Presented 25 July 2011 and published posthumously in 2020 with executors' permission.",
+      "limits": "Direct HTML/PDF opening returned HTTP 403 during this pass; no local PDF or page-by-page inspection is claimed. The inspected indexed body supplies the section locator. This is Bhaskar's later retrospective account, not a verified reading of the 1979 book. His comparison with Giddens is attributed to him and is not adopted as an independently checked account of Giddens or Archer. Later metaReality claims are outside this packet.",
+      "licence": "publisher_terms; linked and paraphrased",
+      "review_status": "research_pass_needs_editor",
+      "last_checked": "2026-11-06",
+      "public_link_status": "public_link"
+    }
+  ],
+  "profiles": [
+    {
+      "node_id": "concept_observer",
+      "action": "deepen_existing",
+      "title": "Observer",
+      "profile_status": "evidence_deepened_research_pass",
+      "canonical_definition": "A participant in knowing whose distinctions, descriptions, and actions are themselves open to observation and question.",
+      "summary": "In von Foerster's second-order cybernetics, an account of observing must include the activity of its observer. Ask what a description lets its user notice and do, and what the use of that description changes.",
+      "why_it_matters": "A problem can be sustained by the way it is described. Changing the question may disclose an action that an established description has ruled out.",
+      "key_distinctions": [
+        "observing a situation versus examining how it is being observed",
+        "a description's effects versus its author's intentions",
+        "acknowledging one's participation versus being authorised to represent others"
+      ],
+      "historical_lineage": [
+        "Von Foerster's cybernetics of observing systems; this profile uses the 2003 reprint of an earlier address and interview."
+      ],
+      "logical_antecedents": [
+        "distinguishing",
+        "description",
+        "participation"
+      ],
+      "dependent_subsequents": [
+        "reframing",
+        "responsibility for an account",
+        "questioning purposes"
+      ],
+      "practice_connections": [
+        "Keep one observation fixed and change the question asked of it. What becomes possible?",
+        "Ask what work a stated purpose is doing: which actions does it permit, excuse, or hide?",
+        "Name a person who could challenge this description, the evidence they could offer, and what would change if they were right."
+      ],
+      "espoused_lineages": [],
+      "observed_clusters": [],
+      "common_misreadings": [
+        "Self-reference makes every account equally adequate.",
+        "Including myself in an account proves that I have included everyone affected.",
+        "Von Foerster's ethical proposals are demonstrated laws of nature."
+      ],
+      "open_checks": [
+        "The practice questions are editorial applications, not a prescribed von Foerster procedure.",
+        "Test observer claims against specific research practices; do not replace empirical checking with a declaration of reflexivity."
+      ],
+      "source_ids": [
+        "src_u36_von_foerster_ethics_2003"
+      ],
+      "evidence_ids": [
+        "ev_u36_hvf_observing",
+        "ev_u36_hvf_purpose"
+      ],
+      "locators": [
+        {
+          "source_id": "src_u36_von_foerster_ethics_2003",
+          "locator": "pp. 288–289 and 300–302",
+          "claim": "Observer participation and questions about the use of purpose are source exposition."
+        }
+      ],
+      "last_researched": "2026-11-06",
+      "review_status": "research_pass_needs_editor",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "editorial_note": "The definition and practice questions are editorial formulations informed by von Foerster. The comparison with representation and legitimacy is an editorial distinction, not a claim of equivalence with CSH. No new human approval is implied."
+    },
+    {
+      "node_id": "concept_multiple_perspectives",
+      "action": "add_new",
+      "title": "Multiple perspectives",
+      "profile_status": "evidence_deepened_research_pass",
+      "canonical_definition": "Inquiry into how a situation changes when participants' purposes, boundaries, evidence, and possibilities for action are described from different positions.",
+      "summary": "Different accounts may expose a disagreement about what is happening, what matters, or whose action is possible. SSM uses declared worldviews and models to structure inquiry; CSH questions the facts and values made relevant by a boundary. These are distinct ways of working with differences.",
+      "why_it_matters": "An inquiry needs to test alternative accounts and allow them to challenge its framing. That test may justify keeping the original question, changing a proposed action, or exposing a conflict that still requires a decision.",
+      "key_distinctions": [
+        "different observations versus different criteria of improvement",
+        "comparing accounts versus merging them into one model",
+        "accommodation for action versus identical worldviews",
+        "opportunity to contribute versus authority to decide"
+      ],
+      "historical_lineage": [
+        "This entry compares Checkland's SSM and Ulrich's CSH without claiming either exhausts the idea or that one descends from the other."
+      ],
+      "logical_antecedents": [
+        "situated accounts",
+        "purposes",
+        "boundary judgements"
+      ],
+      "dependent_subsequents": [
+        "revised problem definitions",
+        "contested improvements",
+        "workable action across disagreement"
+      ],
+      "practice_connections": [
+        "Write two coherent accounts of the same proposed change, including what would count as success in each.",
+        "Keep a disagreement that changes the action visible. Record who must decide it and whose objection remains.",
+        "Test an alternative framing by naming an action it makes available and the evidence that would justify trying it."
+      ],
+      "espoused_lineages": [],
+      "observed_clusters": [],
+      "common_misreadings": [
+        "A larger list of views guarantees fairness or completeness.",
+        "Respect for people requires treating every factual claim as equally supported.",
+        "Agreement to a course of action means the participants now share one interpretation."
+      ],
+      "open_checks": [
+        "The practice questions are editorial applications, not a combined SSM–CSH method.",
+        "Whether people can object safely, and whether an accommodation is legitimate, need evidence from the actual setting."
+      ],
+      "source_ids": [
+        "src_u36_checkland_retrospective_2000",
+        "src_ulrich_csh_mini_primer_2023",
+        "src_u36_ulrich_boundaries_2022"
+      ],
+      "evidence_ids": [
+        "ev_u36_checkland_models",
+        "ev_u36_checkland_accommodation",
+        "ev_u36_ulrich_critique"
+      ],
+      "locators": [
+        {
+          "source_id": "src_u36_checkland_retrospective_2000",
+          "locator": "pp. S21, S32–S34, and S53",
+          "claim": "Worldview-declared models structure debate and a search for accommodations permitting action."
+        },
+        {
+          "source_id": "src_ulrich_csh_mini_primer_2023",
+          "locator": "Paragraphs on the first two applications and the emancipatory third application",
+          "claim": "Boundary reflection can help explain different judgements of fact and value and can support critique."
+        }
+      ],
+      "last_researched": "2026-11-06",
+      "review_status": "research_pass_needs_editor",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "editorial_note": "New profile. Source exposition is attributed to the relevant method; the general definition, comparison, and practice questions are editorial synthesis. The apprenticeship standard remains coverage evidence on the node, not proof of these theoretical claims."
+    },
+    {
+      "node_id": "concept_boundary_critique",
+      "action": "deepen_existing",
+      "title": "Boundary critique",
+      "profile_status": "evidence_deepened_research_pass",
+      "canonical_definition": "Critical examination of the judgements that make some facts, values, people, and consequences relevant to a claim while excluding or subordinating others.",
+      "summary": "Ulrich's CSH examines motivation, power, knowledge, and legitimation. Comparing existing and proposed boundary judgements can expose whose version of improvement a claim serves; it does not compute the uniquely right boundary.",
+      "why_it_matters": "A technically defensible proposal may leave the people bearing its costs unable to question its purpose. Examining that exclusion changes what the proposal can legitimately claim.",
+      "key_distinctions": [
+        "validity within an account versus legitimacy of its use for action",
+        "people involved in deciding versus people affected by the decision",
+        "asking what is the case versus asking what ought to be the case",
+        "surfacing a judgement versus settling it"
+      ],
+      "historical_lineage": [
+        "Ulrich's Critical Systems Heuristics; the normative focus is explicit in his author primer and 2022 account."
+      ],
+      "logical_antecedents": [
+        "relevance",
+        "valuation",
+        "purpose",
+        "authority"
+      ],
+      "dependent_subsequents": [
+        "qualified improvement claims",
+        "challenges to exclusion",
+        "public justification of decisions"
+      ],
+      "practice_connections": [
+        "Take one claimed improvement. Name its beneficiary, measure of success, decision-maker, and person bearing a consequence outside that measure.",
+        "Change one of those judgements and identify which evidence or recommendation changes with it.",
+        "Record how those affected can challenge the premises, and who has authority to act on that challenge."
+      ],
+      "espoused_lineages": [],
+      "observed_clusters": [],
+      "common_misreadings": [
+        "Boundary critique is a stakeholder list or a wider diagram.",
+        "Completing twelve questions establishes the right boundary.",
+        "People attending an inquiry thereby authorise its conclusions.",
+        "One fixed ordering of is and ought questions is compulsory."
+      ],
+      "open_checks": [
+        "The practice questions are editorial applications, not a replacement twelve-question framework.",
+        "A route for legitimate decision and contest remains necessary; the questions alone do not establish it."
+      ],
+      "source_ids": [
+        "src_ulrich_csh_mini_primer_2023",
+        "src_u36_ulrich_boundaries_2022"
+      ],
+      "evidence_ids": [
+        "ev_u36_ulrich_critique",
+        "ev_u36_ulrich_power_legitimation"
+      ],
+      "locators": [
+        {
+          "source_id": "src_ulrich_csh_mini_primer_2023",
+          "locator": "Paragraph beginning In short and Summary",
+          "claim": "CSH focuses on normative boundary assumptions."
+        },
+        {
+          "source_id": "src_u36_ulrich_boundaries_2022",
+          "locator": "Questions 4–6 and 10–12; paragraphs after question 12",
+          "claim": "Power, affected parties, contingent ordering, and the distinction between disclosing assumptions and legitimating action."
+        }
+      ],
+      "last_researched": "2026-11-06",
+      "review_status": "research_pass_needs_editor",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "editorial_note": "The previous profile was curator checked in August 2026. This proposed revision is a new research pass and carries no inherited human sign-off. Practical examples and the comparison with the observer are editorial applications."
+    },
+    {
+      "node_id": "concept_structure_agency",
+      "action": "deepen_existing",
+      "title": "Structure and agency",
+      "profile_status": "evidence_deepened_research_pass",
+      "canonical_definition": "The relation between conditions of social action and the activities through which those conditions are reproduced or changed.",
+      "summary": "In Bhaskar's transformational model, a round of action starts within social forms it did not create, while their continuation depends on activity. Reproduction and transformation are both possible; recognising their relation does not tell us which change a particular actor can achieve.",
+      "why_it_matters": "Reframing a problem may change what people consider doing while leaving a contract, resource allocation, or authority relation in place. A proposal needs an account of how those conditions could actually change.",
+      "key_distinctions": [
+        "conditions inherited before an action versus outcomes produced through it",
+        "structural conditioning versus complete determination",
+        "acting intentionally versus intending every social consequence",
+        "imagining an alternative versus meeting the conditions of transition"
+      ],
+      "historical_lineage": [
+        "Bhaskar's later retrospective account of his transformational model; Challoner's researcher module remains a separate secondary reconstruction."
+      ],
+      "logical_antecedents": [
+        "social relations",
+        "historical conditions",
+        "human activity"
+      ],
+      "dependent_subsequents": [
+        "reproduction or transformation",
+        "transition conditions",
+        "limits and possibilities of action"
+      ],
+      "practice_connections": [
+        "Name a condition that predates the current initiative and the activity that keeps it in force.",
+        "Specify which actors could change it, with what authority and resources, and through which sequence of actions.",
+        "Distinguish an account that has changed from a social relation that has changed; seek evidence for each."
+      ],
+      "espoused_lineages": [],
+      "observed_clusters": [],
+      "common_misreadings": [
+        "Structures exist wholly independently of human activity.",
+        "Because people reproduce structures, any individual can choose to remove them.",
+        "Bhaskar's TMSA, Giddens's structuration, and Archer's analytical dualism are interchangeable names.",
+        "An abstract ontology supplies a ready-made intervention."
+      ],
+      "open_checks": [
+        "Giddens and Archer have not been independently source-checked in this pass. Bhaskar's own comparison cannot settle their differences.",
+        "The 1979 book itself has not been inspected here; the primary account is a 2011 presentation published in 2020.",
+        "Test the proposed mechanism and transition conditions in the setting; the general account does not establish them."
+      ],
+      "source_ids": [
+        "src_u36_bhaskar_persons_2020",
+        "src_u31_bhaskar"
+      ],
+      "evidence_ids": [
+        "ev_u36_bhaskar_tmsa",
+        "ev_u36_bhaskar_transition"
+      ],
+      "locators": [
+        {
+          "source_id": "src_u36_bhaskar_persons_2020",
+          "locator": "Section 3, opening paragraphs and discussion following KQ4",
+          "claim": "Pre-existing social forms, their reproduction/transformation, and the additional conditions needed for transition."
+        }
+      ],
+      "last_researched": "2026-11-06",
+      "review_status": "research_pass_needs_editor",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "editorial_note": "Replaces generic placeholder distinctions with a source-specific account. The contracts/resources example and practice questions are editorial applications. The source is not treated as a neutral adjudication of rival social theories."
+    }
+  ],
+  "nodes": [
+    {
+      "id": "concept_observer",
+      "action": "enrich_existing",
+      "canonical_definition": "A participant in knowing whose distinctions, descriptions, and actions are themselves open to observation and question.",
+      "description": "In von Foerster's second-order cybernetics, an account of observing must include the activity of its observer. Ask what a description lets its user notice and do, and what the use of that description changes.",
+      "source_ids": [
+        "src_u36_von_foerster_ethics_2003"
+      ],
+      "publication_level": "profile",
+      "review_status": "research_pass_needs_editor",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    {
+      "id": "concept_multiple_perspectives",
+      "action": "enrich_existing",
+      "canonical_definition": "Inquiry into how a situation changes when participants' purposes, boundaries, evidence, and possibilities for action are described from different positions.",
+      "description": "Different accounts may expose a disagreement about what is happening, what matters, or whose action is possible. SSM uses declared worldviews and models to structure inquiry; CSH questions the facts and values made relevant by a boundary. These are distinct ways of working with differences.",
+      "source_ids": [
+        "src_u36_checkland_retrospective_2000",
+        "src_ulrich_csh_mini_primer_2023",
+        "src_u36_ulrich_boundaries_2022"
+      ],
+      "publication_level": "profile",
+      "review_status": "research_pass_needs_editor",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    {
+      "id": "concept_boundary_critique",
+      "action": "enrich_existing",
+      "canonical_definition": "Critical examination of the judgements that make some facts, values, people, and consequences relevant to a claim while excluding or subordinating others.",
+      "description": "Ulrich's CSH examines motivation, power, knowledge, and legitimation. Comparing existing and proposed boundary judgements can expose whose version of improvement a claim serves; it does not compute the uniquely right boundary.",
+      "source_ids": [
+        "src_ulrich_csh_mini_primer_2023",
+        "src_u36_ulrich_boundaries_2022"
+      ],
+      "publication_level": "profile",
+      "review_status": "research_pass_needs_editor",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    {
+      "id": "concept_structure_agency",
+      "action": "enrich_existing",
+      "canonical_definition": "The relation between conditions of social action and the activities through which those conditions are reproduced or changed.",
+      "description": "In Bhaskar's transformational model, a round of action starts within social forms it did not create, while their continuation depends on activity. Reproduction and transformation are both possible; recognising their relation does not tell us which change a particular actor can achieve.",
+      "source_ids": [
+        "src_u36_bhaskar_persons_2020",
+        "src_u31_bhaskar"
+      ],
+      "publication_level": "profile",
+      "review_status": "research_pass_needs_editor",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    }
+  ],
+  "edges": [
+    {
+      "id": "e36_ssm_multiple_perspectives",
+      "action": "add_new",
+      "source": "method_or_methodology_soft_systems_methodology_ssm",
+      "target": "concept_multiple_perspectives",
+      "relation_type": "operationalises",
+      "label": "uses worldview-declared models to structure inquiry across differences",
+      "plain_phrase": "uses worldview-declared models to structure inquiry across differences",
+      "source_ids": [
+        "src_u36_checkland_retrospective_2000"
+      ],
+      "evidence_ids": [
+        "ev_u36_checkland_models",
+        "ev_u36_checkland_accommodation"
+      ],
+      "locator": "Checkland 2000, pp. S21, S32–S34, and S53",
+      "source_locator": "Checkland 2000, pp. S21, S32–S34, and S53",
+      "scope": "An account of SSM, not a claim that all multiple-perspective work is SSM. The models support discussion and accommodations for action; their use does not establish fairness or erase conflicting interests.",
+      "scope_conditions": "An account of SSM, not a claim that all multiple-perspective work is SSM. The models support discussion and accommodations for action; their use does not establish fairness or erase conflicting interests.",
+      "basis": "source_exposition",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_status": "candidate",
+      "review_status": "research_pass_needs_editor",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "public_review_label": "Located source statement; curator review pending",
+      "claim_id": "claim_e36_ssm_multiple_perspectives"
+    },
+    {
+      "id": "e36_boundary_critique_multiple_perspectives",
+      "action": "add_new",
+      "source": "concept_boundary_critique",
+      "target": "concept_multiple_perspectives",
+      "relation_type": "operationalises",
+      "label": "examines how boundary judgements condition differing facts and values",
+      "plain_phrase": "examines how boundary judgements condition differing facts and values",
+      "source_ids": [
+        "src_ulrich_csh_mini_primer_2023",
+        "src_u36_ulrich_boundaries_2022"
+      ],
+      "evidence_ids": [
+        "ev_u36_ulrich_critique",
+        "ev_u36_ulrich_power_legitimation"
+      ],
+      "locator": "Ulrich mini-primer, applications 1–3; Ulrich 2022, Q10–12 and closing paragraphs",
+      "source_locator": "Ulrich mini-primer, applications 1–3; Ulrich 2022, Q10–12 and closing paragraphs",
+      "scope": "Ulrich describes cooperative and emancipatory uses. Exposing differing reference systems need not yield agreement or establish which boundary should govern action.",
+      "scope_conditions": "Ulrich describes cooperative and emancipatory uses. Exposing differing reference systems need not yield agreement or establish which boundary should govern action.",
+      "basis": "source_exposition",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_status": "candidate",
+      "review_status": "research_pass_needs_editor",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "public_review_label": "Located source statement; curator review pending",
+      "claim_id": "claim_e36_boundary_critique_multiple_perspectives"
+    },
+    {
+      "id": "e36_observer_boundary_critique",
+      "action": "add_new",
+      "source": "concept_observer",
+      "target": "concept_boundary_critique",
+      "relation_type": "complements",
+      "label": "can be coupled with scrutiny of whose concerns a framing admits",
+      "plain_phrase": "can be coupled with scrutiny of whose concerns a framing admits",
+      "source_ids": [
+        "src_u36_von_foerster_ethics_2003",
+        "src_ulrich_csh_mini_primer_2023",
+        "src_u36_ulrich_boundaries_2022"
+      ],
+      "evidence_ids": [
+        "ev_u36_hvf_observing",
+        "ev_u36_ulrich_critique",
+        "ev_u36_ulrich_power_legitimation"
+      ],
+      "locator": "Von Foerster 2003, pp. 288–289; Ulrich mini-primer, normative focus; Ulrich 2022, Q10–12",
+      "source_locator": "Von Foerster 2003, pp. 288–289; Ulrich mini-primer, normative focus; Ulrich 2022, Q10–12",
+      "scope": "Editorial comparison: including one's activity in observing and justifying the boundary of an intervention ask distinguishable questions. Neither supplies the other automatically. No lineage, equivalence, or formally necessary dependency is asserted.",
+      "scope_conditions": "Editorial comparison: including one's activity in observing and justifying the boundary of an intervention ask distinguishable questions. Neither supplies the other automatically. No lineage, equivalence, or formally necessary dependency is asserted.",
+      "basis": "editorial_synthesis",
+      "assertion_mode": "inferred",
+      "inference_method": "bounded editorial comparison of the cited primary accounts",
+      "claim_status": "candidate",
+      "review_status": "research_pass_needs_editor",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "public_review_label": "Editorial comparison; curator review pending",
+      "claim_id": "claim_e36_observer_boundary_critique"
+    },
+    {
+      "id": "e36_structure_agency_multiple_perspectives",
+      "action": "add_new",
+      "source": "concept_structure_agency",
+      "target": "concept_multiple_perspectives",
+      "relation_type": "qualifies_practice_claim",
+      "label": "requires more than a changed account to establish a changed social condition",
+      "plain_phrase": "requires more than a changed account to establish a changed social condition",
+      "source_ids": [
+        "src_u36_bhaskar_persons_2020",
+        "src_u36_checkland_retrospective_2000"
+      ],
+      "evidence_ids": [
+        "ev_u36_bhaskar_tmsa",
+        "ev_u36_bhaskar_transition",
+        "ev_u36_checkland_accommodation"
+      ],
+      "locator": "Bhaskar 2020, section 3, TMSA and transition; Checkland 2000, pp. S33–S34",
+      "source_locator": "Bhaskar 2020, section 3, TMSA and transition; Checkland 2000, pp. S33–S34",
+      "scope": "Editorial practice comparison: altered interpretations may matter, but a claim of structural change needs evidence of changes to the conditions of action. This does not claim that SSM ignores power or that the two authors share an ontology.",
+      "scope_conditions": "Editorial practice comparison: altered interpretations may matter, but a claim of structural change needs evidence of changes to the conditions of action. This does not claim that SSM ignores power or that the two authors share an ontology.",
+      "basis": "editorial_synthesis",
+      "assertion_mode": "inferred",
+      "inference_method": "bounded editorial comparison of the cited primary accounts",
+      "claim_status": "candidate",
+      "review_status": "research_pass_needs_editor",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "public_review_label": "Editorial comparison; curator review pending",
+      "claim_id": "claim_e36_structure_agency_multiple_perspectives"
+    },
+    {
+      "id": "e31_module_bhaskar_4",
+      "action": "enrich_existing",
+      "source": "publication_u31_bhaskar",
+      "target": "concept_structure_agency",
+      "relation_type": "presents_account_of",
+      "label": "presents a reconstructed account of structural conditioning and social activity",
+      "plain_phrase": "presents a reconstructed account of structural conditioning and social activity",
+      "source_ids": [
+        "src_u31_bhaskar"
+      ],
+      "evidence_ids": [
+        "ev_e31_module_bhaskar_4"
+      ],
+      "locator": "pp. 5–6, DS1–DS2 and PS1–PS3",
+      "source_locator": "pp. 5–6, DS1–DS2 and PS1–PS3",
+      "scope": "Challoner's secondary reconstruction. No claim that the module or Bhaskar originated the general structure–agency distinction.",
+      "scope_conditions": "Challoner's secondary reconstruction. No claim that the module or Bhaskar originated the general structure–agency distinction.",
+      "basis": "secondary_reconstruction",
+      "claim_status": "candidate",
+      "claim_id": "claim_e31_module_bhaskar_4",
+      "review_status": "research_pass_needs_editor",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    }
+  ],
+  "evidence_proposals": [
+    {
+      "id": "ev_u36_hvf_observing",
+      "action": "add_new",
+      "source_id": "src_u36_von_foerster_ethics_2003",
+      "locator": "Printed pp. 288–289; reading PDF pp. 15–16",
+      "excerpt_or_summary": "Von Foerster includes the cybernetician's own activity in an account of cybernetics and contrasts spectator and participant positions.",
+      "evidence_type": "located_primary_author_text",
+      "quality_tier": "A",
+      "licence": "see_source",
+      "review_status": "research_pass_needs_editor",
+      "public_evidence_status": "public"
+    },
+    {
+      "id": "ev_u36_hvf_purpose",
+      "action": "add_new",
+      "source_id": "src_u36_von_foerster_ethics_2003",
+      "locator": "Printed pp. 300–302; reading PDF pp. 27–29",
+      "excerpt_or_summary": "The interview asks what the use of purpose does in explanation, including its capacity to excuse means. The short first-/second-order distinction appears on p. 302.",
+      "evidence_type": "located_primary_author_text",
+      "quality_tier": "A",
+      "licence": "see_source",
+      "review_status": "research_pass_needs_editor",
+      "public_evidence_status": "public"
+    },
+    {
+      "id": "ev_u36_checkland_models",
+      "action": "add_new",
+      "source_id": "src_u36_checkland_retrospective_2000",
+      "locator": "Printed pp. S32 and S53; PDF pp. 22 and 43",
+      "excerpt_or_summary": "Checkland treats SSM activity models as devices built from declared worldviews for organising inquiry, not straightforward descriptions of an existing organisation.",
+      "evidence_type": "located_primary_author_text",
+      "quality_tier": "A",
+      "licence": "see_source",
+      "review_status": "research_pass_needs_editor",
+      "public_evidence_status": "public"
+    },
+    {
+      "id": "ev_u36_checkland_accommodation",
+      "action": "add_new",
+      "source_id": "src_u36_checkland_retrospective_2000",
+      "locator": "Printed pp. S21 and S33–S34; PDF pp. 11 and 23–24",
+      "excerpt_or_summary": "Debate seeks accommodations between conflicting interests that permit desirable and culturally feasible action; inquiry can also serve sense-making.",
+      "evidence_type": "located_primary_author_text",
+      "quality_tier": "A",
+      "licence": "see_source",
+      "review_status": "research_pass_needs_editor",
+      "public_evidence_status": "public"
+    },
+    {
+      "id": "ev_u36_ulrich_critique",
+      "action": "add_new",
+      "source_id": "src_ulrich_csh_mini_primer_2023",
+      "locator": "Paragraphs on the first two applications, emancipatory boundary critique, and the normative focus of CSH",
+      "excerpt_or_summary": "Ulrich distinguishes cooperative exploration of reference systems from critique of unqualified claims; normative assumptions are part of both.",
+      "evidence_type": "located_primary_author_text",
+      "quality_tier": "A",
+      "licence": "see_source",
+      "review_status": "research_pass_needs_editor",
+      "public_evidence_status": "public"
+    },
+    {
+      "id": "ev_u36_ulrich_power_legitimation",
+      "action": "add_new",
+      "source_id": "src_u36_ulrich_boundaries_2022",
+      "locator": "Questions 4–6 and 10–12; final four paragraphs after question 12; author PDF p. 1",
+      "excerpt_or_summary": "Ulrich addresses decision power, resources, and affected parties. He rejects a unique boundary-setting recipe and distinguishes making assumptions discussable from legitimating a boundary for action.",
+      "evidence_type": "located_primary_author_text",
+      "quality_tier": "A",
+      "licence": "see_source",
+      "review_status": "research_pass_needs_editor",
+      "public_evidence_status": "public"
+    },
+    {
+      "id": "ev_u36_bhaskar_tmsa",
+      "action": "add_new",
+      "source_id": "src_u36_bhaskar_persons_2020",
+      "locator": "Section 3, Contexts of persons, opening paragraphs on TMSA and conceptuality",
+      "excerpt_or_summary": "Bhaskar presents social forms as preceding a round of agency while depending on activity for reproduction or change. His account gives social life conceptual and material dimensions.",
+      "evidence_type": "located_primary_author_text",
+      "quality_tier": "A",
+      "licence": "see_source",
+      "review_status": "research_pass_needs_editor",
+      "public_evidence_status": "public"
+    },
+    {
+      "id": "ev_u36_bhaskar_transition",
+      "action": "add_new",
+      "source_id": "src_u36_bhaskar_persons_2020",
+      "locator": "Section 3, discussion of concrete utopianism, KQ4, and the paragraphs preceding KQ5",
+      "excerpt_or_summary": "Bhaskar separates detailed consideration of alternatives from the additional theory and conditions of transition, and calls for work specific enough to inform a field of practice.",
+      "evidence_type": "located_primary_author_text",
+      "quality_tier": "A",
+      "licence": "see_source",
+      "review_status": "research_pass_needs_editor",
+      "public_evidence_status": "public"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_e36_ssm_multiple_perspectives",
+      "action": "add_new",
+      "statement": "An account of SSM, not a claim that all multiple-perspective work is SSM. The models support discussion and accommodations for action; their use does not establish fairness or erase conflicting interests.",
+      "subject_id": "method_or_methodology_soft_systems_methodology_ssm",
+      "predicate": "operationalises",
+      "object_id": "concept_multiple_perspectives",
+      "status": "candidate",
+      "supporting_source_ids": [
+        "src_u36_checkland_retrospective_2000"
+      ],
+      "supporting_evidence_ids": [
+        "ev_u36_checkland_models",
+        "ev_u36_checkland_accommodation"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_evidence_ids": [],
+      "notes": "source_exposition; no human editorial acceptance implied.",
+      "review_status": "research_pass_needs_editor",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    {
+      "id": "claim_e36_boundary_critique_multiple_perspectives",
+      "action": "add_new",
+      "statement": "Ulrich describes cooperative and emancipatory uses. Exposing differing reference systems need not yield agreement or establish which boundary should govern action.",
+      "subject_id": "concept_boundary_critique",
+      "predicate": "operationalises",
+      "object_id": "concept_multiple_perspectives",
+      "status": "candidate",
+      "supporting_source_ids": [
+        "src_ulrich_csh_mini_primer_2023",
+        "src_u36_ulrich_boundaries_2022"
+      ],
+      "supporting_evidence_ids": [
+        "ev_u36_ulrich_critique",
+        "ev_u36_ulrich_power_legitimation"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_evidence_ids": [],
+      "notes": "source_exposition; no human editorial acceptance implied.",
+      "review_status": "research_pass_needs_editor",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    {
+      "id": "claim_e36_observer_boundary_critique",
+      "action": "add_new",
+      "statement": "Editorial comparison: including one's activity in observing and justifying the boundary of an intervention ask distinguishable questions. Neither supplies the other automatically. No lineage, equivalence, or formally necessary dependency is asserted.",
+      "subject_id": "concept_observer",
+      "predicate": "complements",
+      "object_id": "concept_boundary_critique",
+      "status": "candidate",
+      "supporting_source_ids": [
+        "src_u36_von_foerster_ethics_2003",
+        "src_ulrich_csh_mini_primer_2023",
+        "src_u36_ulrich_boundaries_2022"
+      ],
+      "supporting_evidence_ids": [
+        "ev_u36_hvf_observing",
+        "ev_u36_ulrich_critique",
+        "ev_u36_ulrich_power_legitimation"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_evidence_ids": [],
+      "notes": "editorial_synthesis; no human editorial acceptance implied.",
+      "review_status": "research_pass_needs_editor",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    {
+      "id": "claim_e36_structure_agency_multiple_perspectives",
+      "action": "add_new",
+      "statement": "Editorial practice comparison: altered interpretations may matter, but a claim of structural change needs evidence of changes to the conditions of action. This does not claim that SSM ignores power or that the two authors share an ontology.",
+      "subject_id": "concept_structure_agency",
+      "predicate": "qualifies_practice_claim",
+      "object_id": "concept_multiple_perspectives",
+      "status": "candidate",
+      "supporting_source_ids": [
+        "src_u36_bhaskar_persons_2020",
+        "src_u36_checkland_retrospective_2000"
+      ],
+      "supporting_evidence_ids": [
+        "ev_u36_bhaskar_tmsa",
+        "ev_u36_bhaskar_transition",
+        "ev_u36_checkland_accommodation"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_evidence_ids": [],
+      "notes": "editorial_synthesis; no human editorial acceptance implied.",
+      "review_status": "research_pass_needs_editor",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    {
+      "id": "claim_e31_module_bhaskar_4",
+      "action": "enrich_existing",
+      "predicate": "presents_account_of",
+      "statement": "Challoner's researcher module presents a reconstructed account in which social structures condition activity while depending on activity for reproduction or transformation.",
+      "notes": "Secondary reconstruction, not a historical priority claim. Existing supporting source and evidence IDs are retained.",
+      "review_status": "research_pass_needs_editor",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    }
+  ],
+  "reader_prose": {
+    "heading": "What would have to change?",
+    "text": "A service team describes repeated contact as failure to follow instructions. A different account treats it as evidence that the route to help doesn't fit people's circumstances. Each description suggests different observations and actions. The team can ask what its first description has made hard to notice, and what evidence would change its judgement.\n\nThat is an original example of an observer question. Bringing in other accounts may change the team's understanding, but a meeting doesn't establish whose concerns should govern a decision. Ulrich's boundary critique asks about that judgement: who benefits, who controls the means of change, and who can challenge a claim made on their behalf? Making a boundary visible gives people something to question; it doesn't itself make the boundary legitimate.\n\nCheckland's SSM offers models built from declared worldviews to structure inquiry and seek accommodations for action. Participants may act together while differences remain. Whether a particular accommodation is fair, or whether someone can refuse it without penalty, still needs examination. Neither a diagram nor agreement among those present settles that.\n\nA further question concerns what must change outside the conversation. Bhaskar's account starts each round of action within inherited social conditions. If the team identifies a better route but cannot alter the contract, resources, or decision rights that sustain the present one, it needs a way to change those conditions. The account of the situation and the conditions of action can change at different rates. Evidence is needed for both.\n\nThese traditions can inform the same inquiry without becoming one theory. The example and practical connections are editorial applications; they don't establish that the authors share an ontology or that one method guarantees the next step.",
+    "basis": "Original fictional service example and editorial comparison, with attributed source exposition. No private client case or empirical outcome is implied.",
+    "source_ids": [
+      "src_u36_von_foerster_ethics_2003",
+      "src_u36_checkland_retrospective_2000",
+      "src_ulrich_csh_mini_primer_2023",
+      "src_u36_ulrich_boundaries_2022",
+      "src_u36_bhaskar_persons_2020"
+    ]
+  },
+  "deduplication_and_cautions": [
+    "Adds depth to four existing nodes, not new conceptual nodes. The 29 October regulation/learning/transduction/autopoiesis cohort is unchanged.",
+    "The 5 November generated atlas pages/journeys are not rewritten here; root must regenerate through the established pipeline after integrating source data.",
+    "No generic related-to edge, historical influence, formal dependency, or equivalence is inferred from resemblance.",
+    "The existing Challoner edge and claim must be changed together to avoid retaining a misleading historical-priority reading in the claim table.",
+    "Bhaskar's comparison with Giddens is not repeated as settled fact. Independent readings of Giddens and Archer remain outside this bounded pass.",
+    "No Maturana/objectivity-in-parentheses or Gibson/affordance claim is newly verified. Earlier open checks are not silently marked complete.",
+    "Do not conflate epistemic plurality, normative legitimacy, agreement to act, or capacity to change a condition.",
+    "New sources are cited and paraphrased; no permission to republish the source documents is asserted."
+  ]
+}

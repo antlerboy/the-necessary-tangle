@@ -89,23 +89,138 @@
 "criteria":["Capacity is counted once and release timing is explicit.","Dependencies and contribution are distinguished.","Released capacity is tested in actual work.","The bubble has boundaries, interfaces and exit conditions."]
 },
 {
-"id":"multi-methodology","title":"Multi-methodology: justify the move from one method to another","section":"Core methods","standard":"Multi-methodology (Rosenhead, Jackson, Ison)","ksb":["K1","K2","K3","S2","S3","S7","S9"],"time":50,"focus":"Design a short inquiry in which each method answers a different question and its output is translated carefully into the next.","scope":"A basic methodological design exercise. There is no universal correct sequence. The checks concern fit, assumptions and transitions, not allegiance to one classification of methods.","atlas":["Multi-methodology","Critical systems thinking","Systemic intervention"],"resources":["scio-other","scio-reading"],"paid":["scio-development"],
-"scenario":"Fictional case: a regional advice partnership faces rising waits. The sponsor calls this a capacity problem. Residents say they are referred repeatedly without help. Charities argue that eligibility rules exclude the people most in need. Service leads disagree about who can change the rules. Reliable arrival and completion counts exist for two services, but not for the whole partnership. The sponsor wants a recommendation in four weeks.",
-"rounds":[
-{"task":"Separate the questions that require different kinds of inquiry.","output":"Four questions, each with a needed output.","answer":"Whose purpose and experience count? A boundary and perspective account. What purposeful activity is relevant? Alternative activity models and comparison questions. How do queues behave under stated rules? A bounded stock-flow model with tested data. Who can coordinate, allocate resources and adapt? A governance-function diagnosis. A single diagram need not answer all four."},
-{"task":"Choose a justified three-method sequence.","output":"Method, question, output and limitation for each stage.","answer":"One defensible sequence is CSH to expose beneficiary and evidence boundaries; SSM to explore competing purposeful activities; then SD to test a particular queue mechanism where data support it. Another defensible design might use CSH, VSM and SD if governance failure is central. The order depends on what is learned. State what your choice omits and why that is tolerable for this inquiry."},
-{"task":"Specify the transition into the numerical model.","output":"One translation rule and one thing that must not be translated automatically.","answer":"Use an agreed operational definition of a case, entry, completion and time period before constructing flows. An SSM activity named 'support a resident to obtain help' is not automatically a measured outflow. Normative CSH claims are not parameter estimates. Keep excluded people and disputed purposes visible beside the quantitative boundary."},
-{"task":"Set a trigger to change your method design.","output":"A revision trigger and a stopping rule.","answer":"If case tracing shows that apparent completions are referrals that return elsewhere, revise the SD boundary and data plan. If no legitimate decision-maker can act on a proposed change, investigate governance and authority rather than producing more forecasts. Stop adding methods when they no longer change the decision or inquiry; document residual uncertainty."}
-],
-"checks":[
-{"q":"Which is a sound reason to add a method?","options":["It makes the report look comprehensive","It answers an important question the current approach cannot adequately address","It is the facilitator's favourite"],"correct":1,"explanation":"Method selection needs a purpose and a limit. More methods do not by themselves create a better inquiry."},
-{"q":"Can a purposeful activity from SSM be treated immediately as a calibrated SD variable?","options":["Yes, both are systems methods","No, its meaning, measurement and modelling role must be established","Yes, provided the label is unchanged"],"correct":1,"explanation":"The representations perform different jobs. Translation requires operational definitions and evidence, not shared vocabulary alone."},
-{"q":"Two learners choose different method sequences. Must one be wrong?","options":["Yes","No, compare their purposes, assumptions, omissions and revision rules","No, every sequence is equally useful"],"correct":1,"explanation":"Multiple designs can be defensible, but they are not beyond criticism. Inspect what each makes possible and what it misses."}
-],
-"repair":{"broken":"'We will do SSM, VSM, SD and CSH, then combine the diagrams into one master model.'","fix":"State the distinct question each approach serves, how its result informs the next, what assumptions change in translation, and how disagreement will survive. A pile of methods is not an integrated inquiry."},
-"retry":{"task":"The sponsor withdraws access to residents but still asks for a whole-system recommendation. What changes?","answer":"The participation and evidence boundary has materially narrowed. State the limitation, challenge it constructively and seek a workable alternative such as supported independent input. A staff-only exercise can continue with a narrower claim; it cannot honestly become the residents' validated account."},
-"criteria":["Every selected method has a distinct inquiry purpose.","Limitations and omitted questions are explicit.","Transitions preserve differences between normative, conceptual and empirical claims.","New evidence can change the sequence and scope."]
-},
+    "id": "multi-methodology",
+    "title": "Multi-methodology: justify the move from one method to another",
+    "section": "Core methods",
+    "standard": "Multi-methodology (Rosenhead, Jackson, Ison)",
+    "ksb": [
+      "K1",
+      "K2",
+      "K3",
+      "S2",
+      "S3",
+      "S7",
+      "S9"
+    ],
+    "time": 75,
+    "focus": "Justify a method sequence, carry a disputed claim through it, and test whether the numerical model still counts the thing that matters.",
+    "scope": "A basic methodological design exercise. There is no universal correct sequence. The checks concern fit, assumptions and transitions, not allegiance to one classification of methods. The numerical handoff and trial below are original fictional applications. The linked government toolkit supplies boundary, stock-flow, and evaluation prompts; it does not prescribe this CSH–SSM–SD sequence.",
+    "atlas": [
+      "Multi-methodology",
+      "Critical systems thinking",
+      "Systemic intervention"
+    ],
+    "resources": [
+      "scio-other",
+      "scio-reading",
+      "ulrich",
+      "government-toolkit"
+    ],
+    "paid": [
+      "scio-development"
+    ],
+    "scenario": "Fictional case: a regional advice partnership faces rising waits. The sponsor calls this a capacity problem. Residents say they are referred repeatedly without help. Charities argue that eligibility rules exclude the people most in need. Service leads disagree about who can change the rules. Reliable arrival and completion counts exist for two services, but not for the whole partnership. The sponsor wants a recommendation in four weeks. A later case trace supplies a deliberately simplified week: 100 unresolved cases in one service at the start, 30 new distinct cases, and 40 local records closed. Twelve of those closures are transfers that remain unresolved at a partner; the other 28 are confirmed resolutions. For this calculation only, assume there are no other unresolved cases elsewhere in the partnership at the start, and no other arrivals or resolutions that week. These are stipulated modelling assumptions, not new evidence filling the gaps in the partnership data. Eight repeat contacts come from those same unresolved transferred cases, not eight additional cases. All organisations, counts, and events in this exercise are invented.",
+    "rounds": [
+      {
+        "task": "Separate the questions that require different kinds of inquiry.",
+        "output": "Four questions, each with a needed output.",
+        "answer": "Whose purpose and experience count? A boundary and perspective account. What purposeful activity is relevant? Alternative activity models and comparison questions. How do queues behave under stated rules? A bounded stock-flow model with tested data. Who can coordinate, allocate resources and adapt? A governance-function diagnosis. A single diagram need not answer all four."
+      },
+      {
+        "task": "Choose a justified three-method sequence.",
+        "output": "Method, question, output and limitation for each stage.",
+        "answer": "One defensible sequence is CSH to expose beneficiary and evidence boundaries; SSM to explore competing purposeful activities; then SD to test a particular queue mechanism where data support it. Another defensible design might use CSH, VSM and SD if governance failure is central. The order depends on what is learned. State what your choice omits and why that is tolerable for this inquiry."
+      },
+      {
+        "task": "Specify the transition into the numerical model.",
+        "output": "One translation rule and one thing that must not be translated automatically.",
+        "answer": "Use an agreed operational definition of a case, entry, completion and time period before constructing flows. An SSM activity named 'support a resident to obtain help' is not automatically a measured outflow. Normative CSH claims are not parameter estimates. Keep excluded people and disputed purposes visible beside the quantitative boundary."
+      },
+      {
+        "task": "Set a trigger to change your method design.",
+        "output": "A revision trigger and a stopping rule.",
+        "answer": "If case tracing shows that apparent completions are referrals that return elsewhere, revise the SD boundary and data plan. If no legitimate decision-maker can act on a proposed change, investigate governance and authority rather than producing more forecasts. Stop adding methods when they no longer change the decision or inquiry; document residual uncertainty."
+      },
+      {
+        "task": "Reconcile the numerical model with the boundary argument.",
+        "output": "Two end-of-week stocks, separate contact and case units, and a statement of what these figures do not predict.",
+        "answer": "The local record queue ends at 100 + 30 - 40 = 90 cases. Unresolved cases across the stated partnership boundary end at 100 + 30 - 28 = 102. The 12 transfers leave the local queue but do not leave the wider unresolved stock. The eight repeat contacts add work; they do not add eight distinct cases. Keep these as separate quantities with their units. This accounting example exposes a definition problem; it is not a calibrated dynamic simulation or evidence that every referral is waste. Before forecasting, establish the time pattern, transfer and resolution definitions, and which pathways the data actually cover. An apparent local improvement can coexist with a growing unresolved stock."
+      },
+      {
+        "task": "Choose the next inquiry after the sponsor asks for a capacity forecast anyway.",
+        "output": "A justified move, an observable prediction, who can act, and a result that would make you change course.",
+        "answer": "One defensible move is to trace the 12 transfers before extending the capacity model. Ask whether each reached an organisation able to help, what prevented resolution, and what residents experienced. The service leads can agree a small handoff trial within their existing decision rights; they cannot silently rewrite another organisation's eligibility rules. Predict that confirming a receiving owner will reduce unowned transfers; compare the subsequent traces and accounts, including burdens moved to the partner. If transfers were appropriate and delay lies elsewhere, revise the mechanism rather than defending the trial. If no receiving organisation can authorise the change, the immediate problem concerns authority or service provision; adding another forecast does not resolve it. A conditional forecast may still be useful if its local boundary and unresolved exclusions remain explicit."
+      }
+    ],
+    "checks": [
+      {
+        "q": "Which is a sound reason to add a method?",
+        "options": [
+          "It makes the report look comprehensive",
+          "It answers an important question the current approach cannot adequately address",
+          "It is the facilitator's favourite"
+        ],
+        "correct": 1,
+        "explanation": "Method selection needs a purpose and a limit. More methods do not by themselves create a better inquiry."
+      },
+      {
+        "q": "Can a purposeful activity from SSM be treated immediately as a calibrated SD variable?",
+        "options": [
+          "Yes, both are systems methods",
+          "No, its meaning, measurement and modelling role must be established",
+          "Yes, provided the label is unchanged"
+        ],
+        "correct": 1,
+        "explanation": "The representations perform different jobs. Translation requires operational definitions and evidence, not shared vocabulary alone."
+      },
+      {
+        "q": "Two learners choose different method sequences. Must one be wrong?",
+        "options": [
+          "Yes",
+          "No, compare their purposes, assumptions, omissions and revision rules",
+          "No, every sequence is equally useful"
+        ],
+        "correct": 1,
+        "explanation": "Multiple designs can be defensible, but they are not beyond criticism. Inspect what each makes possible and what it misses."
+      },
+      {
+        "q": "Under the fictional week's stated assumptions, how many cases remain unresolved across the partnership?",
+        "options": [
+          "90",
+          "102",
+          "110"
+        ],
+        "correct": 1,
+        "explanation": "Only 28 of the 40 local closures resolve a case across this boundary. Thus 100 + 30 - 28 = 102. Repeat contacts are not additional distinct cases."
+      },
+      {
+        "q": "What must change when a local closure is translated into an outflow from a partnership-wide unresolved stock?",
+        "options": [
+          "Nothing: the shared label guarantees equivalence",
+          "The operational definition and evidence must establish resolution across that boundary",
+          "Treat the eight contacts as eight resolved cases"
+        ],
+        "correct": 1,
+        "explanation": "A label can survive the handoff while its meaning changes. A transfer is an outflow from one local queue but may remain inside the wider stock."
+      }
+    ],
+    "repair": {
+      "broken": "'We will do SSM, VSM, SD and CSH, then combine the diagrams into one master model.'",
+      "fix": "State the distinct question each approach serves, how its result informs the next, what assumptions change in translation, and how disagreement will survive. A pile of methods is not an integrated inquiry."
+    },
+    "retry": {
+      "task": "The sponsor withdraws access to residents but still asks for a whole-system recommendation. What changes?",
+      "answer": "The participation and evidence boundary has materially narrowed. State the limitation, challenge it constructively and seek a workable alternative such as supported independent input. A staff-only exercise can continue with a narrower claim; it cannot honestly become the residents' validated account."
+    },
+    "criteria": [
+      "Every selected method has a distinct inquiry purpose.",
+      "Limitations and omitted questions are explicit.",
+      "Transitions preserve differences between normative, conceptual and empirical claims.",
+      "New evidence can change the sequence and scope.",
+      "Stocks, flows, contact events, and distinct cases keep their units and stated boundaries.",
+      "The next method or action changes when the evidence challenges the original capacity problem."
+    ]
+  },
 {
 "id":"patterns-of-strategy","title":"Patterns of Strategy: model dependence, fit and timing","section":"Core methods","standard":"Patterns of Strategy (Hoverstadt & Loh)","ksb":["K2","S2","S3","S4","S7"],"time":45,"focus":"Analyse a strategic relationship and test a proposed move against relative dependence and response time.","scope":"An original introductory relationship exercise. It does not reproduce the book's pattern catalogue or claim that one numerical ratio captures strategic power.","atlas":["Patterns of Strategy","Strategy"],"resources":["patterns","scio-reading"],"paid":["patterns-paid"],
 "scenario":"Fictional case: a local repair network needs a specialist supplier to complete 60% of its jobs. The network accounts for only 5% of that supplier's sales. Finding and qualifying an alternative supplier would take six months. The network has promised residents completion within one month. The supplier can change its delivery terms with two months' notice. Neighbouring networks use the same supplier but have not agreed to cooperate. A proposal says 'negotiate harder because we are a large organisation'.",

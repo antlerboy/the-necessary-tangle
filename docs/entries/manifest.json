@@ -1,7 +1,7 @@
 {
-  "release": "0.35",
-  "entry_count": 220,
-  "journey_count": 27,
+  "release": "0.36",
+  "entry_count": 221,
+  "journey_count": 28,
   "routes": [
     "/entries/",
     "/journeys/",
@@ -113,6 +113,7 @@
     "/entries/person_michael_c_jackson/",
     "/entries/person_michael_lissack/",
     "/entries/framework_multi_level_perspective/",
+    "/entries/concept_multiple_perspectives/",
     "/entries/publication_murmurations_journal/",
     "/entries/concept_natural_drift/",
     "/entries/approach_family_naturalising_sense_making/",
@@ -252,6 +253,7 @@
     "/journeys/journey_bibliography_boundaries/",
     "/journeys/journey_regulation_distinctions/",
     "/journeys/journey_learning_changes/",
-    "/journeys/journey_boundaries_becoming/"
+    "/journeys/journey_boundaries_becoming/",
+    "/journeys/journey_observation_judgement_action/"
   ]
 }

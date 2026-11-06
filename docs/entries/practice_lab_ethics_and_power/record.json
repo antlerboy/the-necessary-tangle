@@ -1,14 +1,14 @@
 {
   "schema_version": "1.0",
   "canonical_url": "https://transduction.systems/entries/practice_lab_ethics_and_power/",
-  "release": "0.35",
-  "citation": "Taylor, B. P. (2026). Practice: Ethics and power: make an intervention's authority and effects explicit. The Necessary Tangle, release 0.35. https://transduction.systems/entries/practice_lab_ethics_and_power/",
+  "release": "0.36",
+  "citation": "Taylor, B. P. (2026). Practice: Ethics and power: make an intervention's authority and effects explicit. The Necessary Tangle, release 0.36. https://transduction.systems/entries/practice_lab_ethics_and_power/",
   "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
   "entry": {
     "id": "practice_lab_ethics_and_power",
     "label": "Practice: Ethics and power: make an intervention's authority and effects explicit",
     "entity_type": "publication",
-    "description": "Distinguish permission, participation and legitimacy, then design a reversible intervention with an accessible challenge route. A generic ethical reasoning exercise. It cannot establish compliance with sector-specific law, safeguarding or professional requirements. Those require qualified, contextual checks before real action.",
+    "description": "Distinguish permission, participation, and legitimacy, then specify who can change or stop an intervention when its assumptions fail. A generic ethical reasoning exercise. It cannot establish compliance with sector-specific law, safeguarding or professional requirements. Those require qualified, contextual checks before real action. The decision record and changed situation are original fictional applications, not legal advice or a universal approval procedure.",
     "aliases": [],
     "boundary_ring": "0",
     "inclusion_reason": "authorised_systems_methods_practice_pack",
@@ -27,7 +27,7 @@
     ],
     "espoused_labels": [],
     "observed_clusters": [],
-    "canonical_definition": "Distinguish permission, participation and legitimacy, then design a reversible intervention with an accessible challenge route. A generic ethical reasoning exercise. It cannot establish compliance with sector-specific law, safeguarding or professional requirements. Those require qualified, contextual checks before real action.",
+    "canonical_definition": "Distinguish permission, participation, and legitimacy, then specify who can change or stop an intervention when its assumptions fail. A generic ethical reasoning exercise. It cannot establish compliance with sector-specific law, safeguarding or professional requirements. Those require qualified, contextual checks before real action. The decision record and changed situation are original fictional applications, not legal advice or a universal approval procedure.",
     "valid_from": "",
     "valid_to": "",
     "external_ids": "{\"practice_url\": \"https://transduction.systems/systems-thinking/practice/ethics-and-power/\"}",
@@ -47,8 +47,8 @@
   },
   "profile": {
     "node_id": "practice_lab_ethics_and_power",
-    "summary": "Distinguish permission, participation and legitimacy, then design a reversible intervention with an accessible challenge route. A generic ethical reasoning exercise. It cannot establish compliance with sector-specific law, safeguarding or professional requirements. Those require qualified, contextual checks before real action.",
-    "canonical_definition": "Distinguish permission, participation and legitimacy, then design a reversible intervention with an accessible challenge route. A generic ethical reasoning exercise. It cannot establish compliance with sector-specific law, safeguarding or professional requirements. Those require qualified, contextual checks before real action.",
+    "summary": "Distinguish permission, participation, and legitimacy, then specify who can change or stop an intervention when its assumptions fail. A generic ethical reasoning exercise. It cannot establish compliance with sector-specific law, safeguarding or professional requirements. Those require qualified, contextual checks before real action. The decision record and changed situation are original fictional applications, not legal advice or a universal approval procedure.",
+    "canonical_definition": "Distinguish permission, participation, and legitimacy, then specify who can change or stop an intervention when its assumptions fail. A generic ethical reasoning exercise. It cannot establish compliance with sector-specific law, safeguarding or professional requirements. Those require qualified, contextual checks before real action. The decision record and changed situation are original fictional applications, not legal advice or a universal approval procedure.",
     "why_it_matters": "A concrete rehearsal with a fictional case, explicit outputs and a way to inspect the result.",
     "key_distinctions": [
       "Mechanical correctness is distinct from judgement in an open situation.",
@@ -61,13 +61,15 @@
       "Map authority and affectedness.",
       "Separate observations, labels and causal claims.",
       "Design an ethically defensible next inquiry.",
-      "Prepare a constructive challenge to the sponsor."
+      "Prepare a constructive challenge to the sponsor.",
+      "Turn the proposed safeguards into decisions someone can actually take.",
+      "Change the problem when families challenge what the intervention is for."
     ],
     "common_misreadings": [
       "A worked comparison is not the only acceptable answer to an open question."
     ],
     "open_checks": [
-      "A generic ethical reasoning exercise. It cannot establish compliance with sector-specific law, safeguarding or professional requirements. Those require qualified, contextual checks before real action.",
+      "A generic ethical reasoning exercise. It cannot establish compliance with sector-specific law, safeguarding or professional requirements. Those require qualified, contextual checks before real action. The decision record and changed situation are original fictional applications, not legal advice or a universal approval procedure.",
       "Compare an independent attempt before revealing the worked answer."
     ],
     "source_ids": [
@@ -128,7 +130,7 @@
       "source_locator": "Named exercise and its scope statement",
       "valid_from": "",
       "valid_to": "",
-      "scope_conditions": "A generic ethical reasoning exercise. It cannot establish compliance with sector-specific law, safeguarding or professional requirements. Those require qualified, contextual checks before real action.",
+      "scope_conditions": "A generic ethical reasoning exercise. It cannot establish compliance with sector-specific law, safeguarding or professional requirements. Those require qualified, contextual checks before real action. The decision record and changed situation are original fictional applications, not legal advice or a universal approval procedure.",
       "assertion_mode": "asserted",
       "inference_method": "",
       "claim_id": "",
@@ -149,7 +151,7 @@
       "access": "public",
       "url": "https://transduction.systems/systems-thinking/practice/ethics-and-power/",
       "date": "2026-09-07",
-      "notes": "Original fictional exercise. A generic ethical reasoning exercise. It cannot establish compliance with sector-specific law, safeguarding or professional requirements. Those require qualified, contextual checks before real action.",
+      "notes": "Original fictional exercise. A generic ethical reasoning exercise. It cannot establish compliance with sector-specific law, safeguarding or professional requirements. Those require qualified, contextual checks before real action. The decision record and changed situation are original fictional applications, not legal advice or a universal approval procedure.",
       "creators": [
         "The Necessary Tangle editorial practice pack"
       ],
@@ -166,24 +168,27 @@
     {
       "id": "src_ulrich_csh_mini_primer_2023",
       "title": "A Mini-Primer of Critical Systems Heuristics",
-      "source_type": "primary_author_method_page",
+      "source_type": "primary_text",
       "quality_tier": "A",
       "access": "public",
       "url": "https://wulrich.com/csh.html",
-      "date": "2005; updated 2023-05-20",
-      "notes": "Werner Ulrich's maintained primary account defines Critical Systems Heuristics as reflective practice centred on systematic boundary critique and twelve critical boundary questions.",
+      "date": "checked 2026-08-19",
+      "notes": "Author's page body inspected on 6 November 2026. It identifies normative boundary assumptions, cooperative and emancipatory uses, and limits on unique right answers. Enrich the existing record; retain its bibliographic history. Do not infer a fixed procedure from this primer or treat its account of CSH as evidence that another tradition is equivalent.",
       "creators": [
         "Werner Ulrich"
       ],
       "doi": "",
       "isbn": "",
-      "publisher": "Werner Ulrich",
+      "publisher": "",
       "licence": "noncommercial_distribution_and_citation_with_attribution",
       "archived_url": "",
       "content_hash": "",
-      "review_status": "checked",
-      "last_checked": "2026-08-11",
-      "public_link_status": "public_link"
+      "review_status": "passage_checked_research_pass",
+      "last_checked": "2026-11-06",
+      "public_link_status": "public_link",
+      "connection_pass": "depth_20261106",
+      "source_locator": "Main text beginning Critical systems heuristics; paragraphs beginning A critical approach, The first two applications, and In short; final Summary",
+      "access_note": "Enrich the existing record; retain its bibliographic history. Do not infer a fixed procedure from this primer or treat its account of CSH as evidence that another tradition is equivalent."
     },
     {
       "id": "src_go_science_toolkit_2023",

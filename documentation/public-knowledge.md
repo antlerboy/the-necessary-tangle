@@ -1,7 +1,7 @@
 # The Necessary Tangle: public knowledge file
 
 Curated by Benjamin P Taylor — https://www.antlerboy.com/
-Generated from public release 0.35 on 2026-10-29.
+Generated from public release 0.36 on 2026-11-06.
 
 A living evidence atlas of systems | cybernetics | complexity.
 Every connection must say what it means. Historical sequence, logical dependence, influence, teaching, collaboration, practical use, comparison and dispute are not interchangeable.
@@ -1224,7 +1224,7 @@ The operational freedom and regulatory capacity of a part to respond to its loca
 
 ### Summary
 
-Autonomy is not independence. A viable part needs discretion, information and resources, while remaining connected to wider identity and constraints.
+Autonomy is not independence. A viable part needs discretion, information and resources, while remaining connected to wider identity and constraints. This entry concerns operational discretion within wider constraints. A claim about biological self-production neither assigns that discretion nor shows who may decide what.
 
 ### Why it matters
 
@@ -1236,6 +1236,7 @@ Local variety usually outruns central knowledge. Suppressing autonomy can make t
 - discretion vs abandonment
 - local regulation vs central permission
 - part autonomy vs whole viability
+- Operational discretion versus biological self-production
 
 ### Historical development
 
@@ -1279,11 +1280,13 @@ Local variety usually outruns central knowledge. Suppressing autonomy can make t
 - redundancy of potential command
 - subsidiarity
 - psychological safety and discretion
+- Do not infer delegated authority from an account of self-production.
 
 ### Sources
 
 - Viable System Model - Metaphorum — https://metaphorum.org/staffords-work/viable-system-model
 - Benjamin Taylor VSM lecture — https://antlerboy.com/library/files/talks/viable-system-model-lecture.pdf
+- Autopoiesis: The Organization of Living Systems, Its Characterization and a Model — https://homepages.math.uic.edu/~kauffman/MUV.pdf
 
 ## Autopoiesis
 
@@ -1294,7 +1297,7 @@ Self-production of a unity through a recursively constituted network of componen
 
 ### Summary
 
-The biological account includes the production of a boundary that enables the processes producing it. Material turnover is compatible with the persistence of this organisation.
+The biological account includes the production of a boundary that enables the processes producing it. Material turnover is compatible with the persistence of this organisation. The paper's biological use of autonomy concerns self-production of a unity. It doesn't establish the decision rights of its parts.
 
 ### Why it matters
 
@@ -1305,6 +1308,7 @@ A boundary drawn by an analyst and a boundary produced by a living system make d
 - Self-production versus reproduction
 - Organisation versus particular components
 - Organisational closure versus material isolation
+- Biological self-production versus managerial discretion
 
 ### Connections to practice
 
@@ -1318,11 +1322,13 @@ A boundary drawn by an analyst and a boundary produced by a living system make d
 ### Open questions and checks
 
 - Social applications need an explicit account of what is being produced.
+- Any organisational application must state its components, production processes, unit of analysis, and decision rights separately.
 
 ### Sources
 
 - Autopoiesis: The Organization of Living Systems, Its Characterization and a Model — https://homepages.math.uic.edu/~kauffman/MUV.pdf
 - The Organization of the Living: A Theory of the Living Organization — https://biologyofcognition.wordpress.com/wp-content/uploads/2008/06/maturana1975organizationlivingtheorylivingorganization.pdf
+- Benjamin Taylor VSM lecture — https://antlerboy.com/library/files/talks/viable-system-model-lecture.pdf
 
 ## Autopoiesis: The Organization of Living Systems, Its Characterization, and a Model
 
@@ -1951,63 +1957,62 @@ Boundaries decide who counts, what becomes a cost, which outcomes are visible an
 Type: Concept
 Public depth: profile
 
-Boundary critique is the systematic examination of judgements about what and whom a situation, inquiry or proposal treats as relevant, including the facts, values, interests and voices those judgements admit or exclude.
+Critical examination of the judgements that make some facts, values, people, and consequences relevant to a claim while excluding or subordinating others.
 
 ### Summary
 
-Boundary critique asks how judgements about relevance shape what counts as fact, value, improvement, expertise and legitimate participation.
+Ulrich's CSH examines motivation, power, knowledge, and legitimation. Comparing existing and proposed boundary judgements can expose whose version of improvement a claim serves; it does not compute the uniquely right boundary.
 
 ### Why it matters
 
-Every systems intervention draws a boundary. Making that boundary discussable is a condition for responsible inquiry, especially when benefits and harms fall on people who did not define the system of concern.
+A technically defensible proposal may leave the people bearing its costs unable to question its purpose. Examining that exclusion changes what the proposal can legitimately claim.
 
 ### Key distinctions
 
-- boundary vs perimeter
-- relevance vs existence
-- involved vs affected
-- fact and value as boundary-conditioned
+- validity within an account versus legitimacy of its use for action
+- people involved in deciding versus people affected by the decision
+- asking what is the case versus asking what ought to be the case
+- surfacing a judgement versus settling it
 
 ### Historical development
 
-- Churchman's systems approach
-- Ulrich's Critical Systems Heuristics
-- systemic intervention
+- Ulrich's Critical Systems Heuristics; the normative focus is explicit in his author primer and 2022 account.
 
 ### Ideas it depends on
 
-- boundary
+- relevance
+- valuation
 - purpose
-- stakeholder
-- legitimacy
+- authority
 
 ### What develops from it
 
-- twelve boundary questions
-- systemic marginalisation
-- critical evaluation
+- qualified improvement claims
+- challenges to exclusion
+- public justification of decisions
 
 ### Connections to practice
 
-- framing policy questions
-- testing beneficiaries and victims
-- reviewing expertise claims
+- Take one claimed improvement. Name its beneficiary, measure of success, decision-maker, and person bearing a consequence outside that measure.
+- Change one of those judgements and identify which evidence or recommendation changes with it.
+- Record how those affected can challenge the premises, and who has authority to act on that challenge.
 
 ### Common confusions
 
-- wider is always better
-- all boundaries can be eliminated
-- boundary critique guarantees inclusion
+- Boundary critique is a stakeholder list or a wider diagram.
+- Completing twelve questions establishes the right boundary.
+- People attending an inquiry thereby authorise its conclusions.
+- One fixed ordering of is and ought questions is compulsory.
 
 ### Open questions and checks
 
-- connect Midgley's systemic marginalisation
-- add cases of boundary change
-- map rival boundary practices
+- The practice questions are editorial applications, not a replacement twelve-question framework.
+- A route for legitimate decision and contest remains necessary; the questions alone do not establish it.
 
 ### Sources
 
 - A Mini-Primer of Critical Systems Heuristics — https://wulrich.com/csh.html
+- Assessing assumptions about boundaries with critical systems heuristics — https://i2insights.org/2022/05/24/critical-systems-heuristics/
 
 ## Boundary Critique (Critical Systems Heuristics)
 
@@ -10865,13 +10870,64 @@ Multi-methodology combines methods deliberately rather than treating one approac
 ## Multiple perspectives
 
 Type: Concept
-Public depth: described
+Public depth: profile
 
-Multiple perspectives work compares how different participants or observers define the situation, its boundaries, purposes, evidence and possible actions. The differences are evidence, not noise to be averaged away automatically.
+Inquiry into how a situation changes when participants' purposes, boundaries, evidence, and possibilities for action are described from different positions.
+
+### Summary
+
+Different accounts may expose a disagreement about what is happening, what matters, or whose action is possible. SSM uses declared worldviews and models to structure inquiry; CSH questions the facts and values made relevant by a boundary. These are distinct ways of working with differences.
+
+### Why it matters
+
+An inquiry needs to test alternative accounts and allow them to challenge its framing. That test may justify keeping the original question, changing a proposed action, or exposing a conflict that still requires a decision.
+
+### Key distinctions
+
+- different observations versus different criteria of improvement
+- comparing accounts versus merging them into one model
+- accommodation for action versus identical worldviews
+- opportunity to contribute versus authority to decide
+
+### Historical development
+
+- This entry compares Checkland's SSM and Ulrich's CSH without claiming either exhausts the idea or that one descends from the other.
+
+### Ideas it depends on
+
+- situated accounts
+- purposes
+- boundary judgements
+
+### What develops from it
+
+- revised problem definitions
+- contested improvements
+- workable action across disagreement
+
+### Connections to practice
+
+- Write two coherent accounts of the same proposed change, including what would count as success in each.
+- Keep a disagreement that changes the action visible. Record who must decide it and whose objection remains.
+- Test an alternative framing by naming an action it makes available and the evidence that would justify trying it.
+
+### Common confusions
+
+- A larger list of views guarantees fairness or completeness.
+- Respect for people requires treating every factual claim as equally supported.
+- Agreement to a course of action means the participants now share one interpretation.
+
+### Open questions and checks
+
+- The practice questions are editorial applications, not a combined SSM–CSH method.
+- Whether people can object safely, and whether an accommodation is legitimate, need evidence from the actual setting.
 
 ### Sources
 
 - Systems Thinking Practitioner apprenticeship standard ST0787 v1.2 — https://skillsengland.education.gov.uk/apprenticeships/st0787-v1-2
+- Soft systems methodology: a thirty year retrospective — https://doi.org/10.1002/1099-1743(200011)17:1+<::AID-SRES374>3.0.CO;2-O
+- A Mini-Primer of Critical Systems Heuristics — https://wulrich.com/csh.html
+- Assessing assumptions about boundaries with critical systems heuristics — https://i2insights.org/2022/05/24/critical-systems-heuristics/
 
 ## Municipal brain
 
@@ -11576,71 +11632,61 @@ SysCoI reading or event lead published 2026-09-22. This atlas record points to t
 Type: Concept
 Public depth: profile
 
-A situated participant in knowing and acting whose capacities and distinctions partly constitute the world available for description and intervention.
+A participant in knowing whose distinctions, descriptions, and actions are themselves open to observation and question.
 
 ### Summary
 
-The observer is not an optional spectator outside the system. Sensors, language, history, interests and position shape what becomes signal, object, boundary and possible action.
+In von Foerster's second-order cybernetics, an account of observing must include the activity of its observer. Ask what a description lets its user notice and do, and what the use of that description changes.
 
 ### Why it matters
 
-Systems work that excludes the observer often turns a local view into an apparently objective system. Including the observer makes responsibility, limitation and alternative views visible.
+A problem can be sustained by the way it is described. Changing the question may disclose an action that an established description has ruled out.
 
 ### Key distinctions
 
-- observer vs detached spectator
-- first-order observation vs observation of observing
-- sensor limits vs subjective whim
-- participation vs total control
+- observing a situation versus examining how it is being observed
+- a description's effects versus its author's intentions
+- acknowledging one's participation versus being authorised to represent others
 
 ### Historical development
 
-- cybernetics of observing systems
-- constructivism
-- ecological and enactive perception
-- second-order systems practice
+- Von Foerster's cybernetics of observing systems; this profile uses the 2003 reprint of an earlier address and interview.
 
 ### Ideas it depends on
 
-- capacity to distinguish
-- sensorium and embodiment
-- history and context
-- purposes and stakes
+- distinguishing
+- description
+- participation
 
 ### What develops from it
 
-- boundary choice
-- framing
-- information selection
-- ethics of intervention
-- multiple perspectives
+- reframing
+- responsibility for an account
+- questioning purposes
 
 ### Connections to practice
 
-- state who is observing and for what
-- add views from different positions
-- look for what the current sensors cannot register
-- treat surprise as information about the observer as well as the observed
+- Keep one observation fixed and change the question asked of it. What becomes possible?
+- Ask what work a stated purpose is doing: which actions does it permit, excuse, or hide?
+- Name a person who could challenge this description, the evidence they could offer, and what would change if they were right.
 
 ### Common confusions
 
-- observer-inclusion means anything goes
-- all accounts are equally useful
-- the observer creates material reality at will
-- objectivity requires pretending the observer is absent
+- Self-reference makes every account equally adequate.
+- Including myself in an account proves that I have included everyone affected.
+- Von Foerster's ethical proposals are demonstrated laws of nature.
 
 ### Open questions and checks
 
-- von Foerster primary texts
-- Maturana's objectivity in parentheses
-- Gibson and affordances
-- power and authorised observation
+- The practice questions are editorial applications, not a prescribed von Foerster procedure.
+- Test observer claims against specific research practices; do not replace empirical checking with a declaration of reflexivity.
 
 ### Sources
 
 - Computing a Reality: Heinz von Foerster's 1973 lecture — https://constructivist.info/4/1/062.foerster
 - Core Thinking Integration — No public link
 - Systems complexity cybernetics operating manual — No public link
+- Ethics and Second-Order Cybernetics — https://link.springer.com/chapter/10.1007/0-387-21722-3_14
 
 ## On Human Communication
 
@@ -13097,11 +13143,11 @@ A concrete rehearsal with a fictional case, explicit outputs and a way to inspec
 Type: Publication
 Public depth: profile
 
-Build an is/ought boundary critique and show how a change in boundary alters a judgement. This exercise checks the completeness and consistency of boundary reasoning. It does not supply a morally unique answer or pretend that the practitioner represents every affected person.
+Build an is/ought boundary critique, show how it changes a claim, and respond when a sponsor excludes the challenge. This exercise checks the completeness and consistency of boundary reasoning. It does not supply a morally unique answer or pretend that the practitioner represents every affected person. The later rounds are original fictional applications, not a source-prescribed sequence. Ulrich's linked introduction, section 3, treats boundary critique as reflective and emancipatory practice, not a technique that settles the correct boundary.
 
 ### Summary
 
-Build an is/ought boundary critique and show how a change in boundary alters a judgement. This exercise checks the completeness and consistency of boundary reasoning. It does not supply a morally unique answer or pretend that the practitioner represents every affected person.
+Build an is/ought boundary critique, show how it changes a claim, and respond when a sponsor excludes the challenge. This exercise checks the completeness and consistency of boundary reasoning. It does not supply a morally unique answer or pretend that the practitioner represents every affected person. The later rounds are original fictional applications, not a source-prescribed sequence. Ulrich's linked introduction, section 3, treats boundary critique as reflective and emancipatory practice, not a technique that settles the correct boundary.
 
 ### Why it matters
 
@@ -13130,6 +13176,8 @@ A concrete rehearsal with a fictional case, explicit outputs and a way to inspec
 - Write an 'ought' counterpart for each category.
 - Trace one boundary change into the evaluation.
 - Design a challenge that an affected person can actually use.
+- State a finding under two rival boundaries, then decide what could change it.
+- Continue the critique when the sponsor rules out discussion of assistance.
 
 ### Common confusions
 
@@ -13137,7 +13185,7 @@ A concrete rehearsal with a fictional case, explicit outputs and a way to inspec
 
 ### Open questions and checks
 
-- This exercise checks the completeness and consistency of boundary reasoning. It does not supply a morally unique answer or pretend that the practitioner represents every affected person.
+- This exercise checks the completeness and consistency of boundary reasoning. It does not supply a morally unique answer or pretend that the practitioner represents every affected person. The later rounds are original fictional applications, not a source-prescribed sequence. Ulrich's linked introduction, section 3, treats boundary critique as reflective and emancipatory practice, not a technique that settles the correct boundary.
 - Compare an independent attempt before revealing the worked answer.
 
 ### Sources
@@ -13152,11 +13200,11 @@ A concrete rehearsal with a fictional case, explicit outputs and a way to inspec
 Type: Publication
 Public depth: profile
 
-Distinguish permission, participation and legitimacy, then design a reversible intervention with an accessible challenge route. A generic ethical reasoning exercise. It cannot establish compliance with sector-specific law, safeguarding or professional requirements. Those require qualified, contextual checks before real action.
+Distinguish permission, participation, and legitimacy, then specify who can change or stop an intervention when its assumptions fail. A generic ethical reasoning exercise. It cannot establish compliance with sector-specific law, safeguarding or professional requirements. Those require qualified, contextual checks before real action. The decision record and changed situation are original fictional applications, not legal advice or a universal approval procedure.
 
 ### Summary
 
-Distinguish permission, participation and legitimacy, then design a reversible intervention with an accessible challenge route. A generic ethical reasoning exercise. It cannot establish compliance with sector-specific law, safeguarding or professional requirements. Those require qualified, contextual checks before real action.
+Distinguish permission, participation, and legitimacy, then specify who can change or stop an intervention when its assumptions fail. A generic ethical reasoning exercise. It cannot establish compliance with sector-specific law, safeguarding or professional requirements. Those require qualified, contextual checks before real action. The decision record and changed situation are original fictional applications, not legal advice or a universal approval procedure.
 
 ### Why it matters
 
@@ -13185,6 +13233,8 @@ A concrete rehearsal with a fictional case, explicit outputs and a way to inspec
 - Separate observations, labels and causal claims.
 - Design an ethically defensible next inquiry.
 - Prepare a constructive challenge to the sponsor.
+- Turn the proposed safeguards into decisions someone can actually take.
+- Change the problem when families challenge what the intervention is for.
 
 ### Common confusions
 
@@ -13192,7 +13242,7 @@ A concrete rehearsal with a fictional case, explicit outputs and a way to inspec
 
 ### Open questions and checks
 
-- A generic ethical reasoning exercise. It cannot establish compliance with sector-specific law, safeguarding or professional requirements. Those require qualified, contextual checks before real action.
+- A generic ethical reasoning exercise. It cannot establish compliance with sector-specific law, safeguarding or professional requirements. Those require qualified, contextual checks before real action. The decision record and changed situation are original fictional applications, not legal advice or a universal approval procedure.
 - Compare an independent attempt before revealing the worked answer.
 
 ### Sources
@@ -13595,11 +13645,11 @@ A concrete rehearsal with a fictional case, explicit outputs and a way to inspec
 Type: Publication
 Public depth: profile
 
-Design a short inquiry in which each method answers a different question and its output is translated carefully into the next. A basic methodological design exercise. There is no universal correct sequence. The checks concern fit, assumptions and transitions, not allegiance to one classification of methods.
+Justify a method sequence, carry a disputed claim through it, and test whether the numerical model still counts the thing that matters. A basic methodological design exercise. There is no universal correct sequence. The checks concern fit, assumptions and transitions, not allegiance to one classification of methods. The numerical handoff and trial below are original fictional applications. The linked government toolkit supplies boundary, stock-flow, and evaluation prompts; it does not prescribe this CSH–SSM–SD sequence.
 
 ### Summary
 
-Design a short inquiry in which each method answers a different question and its output is translated carefully into the next. A basic methodological design exercise. There is no universal correct sequence. The checks concern fit, assumptions and transitions, not allegiance to one classification of methods.
+Justify a method sequence, carry a disputed claim through it, and test whether the numerical model still counts the thing that matters. A basic methodological design exercise. There is no universal correct sequence. The checks concern fit, assumptions and transitions, not allegiance to one classification of methods. The numerical handoff and trial below are original fictional applications. The linked government toolkit supplies boundary, stock-flow, and evaluation prompts; it does not prescribe this CSH–SSM–SD sequence.
 
 ### Why it matters
 
@@ -13628,6 +13678,8 @@ A concrete rehearsal with a fictional case, explicit outputs and a way to inspec
 - Choose a justified three-method sequence.
 - Specify the transition into the numerical model.
 - Set a trigger to change your method design.
+- Reconcile the numerical model with the boundary argument.
+- Choose the next inquiry after the sponsor asks for a capacity forecast anyway.
 
 ### Common confusions
 
@@ -13635,7 +13687,7 @@ A concrete rehearsal with a fictional case, explicit outputs and a way to inspec
 
 ### Open questions and checks
 
-- A basic methodological design exercise. There is no universal correct sequence. The checks concern fit, assumptions and transitions, not allegiance to one classification of methods.
+- A basic methodological design exercise. There is no universal correct sequence. The checks concern fit, assumptions and transitions, not allegiance to one classification of methods. The numerical handoff and trial below are original fictional applications. The linked government toolkit supplies boundary, stock-flow, and evaluation prompts; it does not prescribe this CSH–SSM–SD sequence.
 - Compare an independent attempt before revealing the worked answer.
 
 ### Sources
@@ -13643,6 +13695,8 @@ A concrete rehearsal with a fictional case, explicit outputs and a way to inspec
 - Multi-methodology: justify the move from one method to another — https://transduction.systems/systems-thinking/practice/multi-methodology/
 - SCiO: Mosaic, multi-methodology, CONAN and INFORMED — https://www.systemspractice.org/why-practice-systems-thinking/other-methods
 - SCiO competency framework resource guide (PDF) — https://www.dropbox.com/scl/fi/v5vl9o1e9gtwxbqiyb2no/SCiO-CF-Resources.pdf?rlkey=a9d5ckhbsdjld7ab3sp60jaj9&dl=0
+- A Mini-Primer of Critical Systems Heuristics — https://wulrich.com/csh.html
+- An introductory systems thinking toolkit for civil servants — https://www.gov.uk/government/publications/systems-thinking-for-civil-servants/toolkit
 - SCiO Professional Development — https://www.systemspractice.org/professional-development
 
 ## Practice: Participative inquiry: test who your evidence leaves out
@@ -20613,49 +20667,62 @@ The Structural Viability Theorem says that a system and its constituent sub-syst
 Type: Concept
 Public depth: profile
 
-A distinction between social conditions and the actions that reproduce or transform them. Their interdependence does not make the concepts interchangeable or settle who can act in a particular setting.
+The relation between conditions of social action and the activities through which those conditions are reproduced or changed.
 
 ### Summary
 
-A distinction between social conditions and the actions that reproduce or transform them. Their interdependence does not make the concepts interchangeable or settle who can act in a particular setting.
+In Bhaskar's transformational model, a round of action starts within social forms it did not create, while their continuation depends on activity. Reproduction and transformation are both possible; recognising their relation does not tell us which change a particular actor can achieve.
 
 ### Why it matters
 
-Inspect the passage and the stated domain before using a term in a new setting.
+Reframing a problem may change what people consider doing while leaving a contract, resource allocation, or authority relation in place. A proposal needs an account of how those conditions could actually change.
 
 ### Key distinctions
 
-- source account vs editorial interpretation
-- material exchange vs causal openness
-- bibliographic access vs full-text evidence
+- conditions inherited before an action versus outcomes produced through it
+- structural conditioning versus complete determination
+- acting intentionally versus intending every social consequence
+- imagining an alternative versus meeting the conditions of transition
 
 ### Historical development
 
-[]
+- Bhaskar's later retrospective account of his transformational model; Challoner's researcher module remains a separate secondary reconstruction.
 
 ### Ideas it depends on
 
-[]
+- social relations
+- historical conditions
+- human activity
 
 ### What develops from it
 
-[]
+- reproduction or transformation
+- transition conditions
+- limits and possibilities of action
 
 ### Connections to practice
 
-- Name the domain, conditions, and observation that could challenge the proposed connection.
+- Name a condition that predates the current initiative and the activity that keeps it in force.
+- Specify which actors could change it, with what authority and resources, and through which sequence of actions.
+- Distinguish an account that has changed from a social relation that has changed; seek evidence for each.
 
 ### Common confusions
 
-- Treating a shared term as proof that two accounts are equivalent.
+- Structures exist wholly independently of human activity.
+- Because people reproduce structures, any individual can choose to remove them.
+- Bhaskar's TMSA, Giddens's structuration, and Archer's analytical dualism are interchangeable names.
+- An abstract ontology supplies a ready-made intervention.
 
 ### Open questions and checks
 
-- Original-source verification and human editorial review remain open.
+- Giddens and Archer have not been independently source-checked in this pass. Bhaskar's own comparison cannot settle their differences.
+- The 1979 book itself has not been inspected here; the primary account is a 2011 presentation published in 2020.
+- Test the proposed mechanism and transition conditions in the setting; the general account does not establish them.
 
 ### Sources
 
 - Bhaskar: mechanisms in open systems: researcher module — https://rational-understanding.com/wp-content/uploads/2026/10/bhaskar-researcher-module.pdf
+- Critical realism and the ontology of persons — https://doi.org/10.1080/14767430.2020.1734736
 
 ## Structurelessness
 

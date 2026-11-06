@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.36 — 6 November 2026
+
+Source-located distinctions across observation, plural perspectives, boundary critique, structure and agency, plus deeper practice labs and an explicit autonomy comparison. 6 profiles deepened or developed, 6 connections, 5 source records, and one guided journey. Passage locators and evidence records distinguish exposition from editorial comparison. A connected reading guide, evidence download, homepage and library routes, and reproducible baseline accompany the release. Exact publication and live verification are recorded by the Publish workflow and deployment.json.
+
+
 ## Said to someone 1.1 — 29 October 2026
 
 Expanded /saidtosomeone/ from ten selections to 54 source-led entries, without a numerical cap. Indexed all 29 items of the 1995 anthology, its subitems and source anomalies, all 12 main Notes propositions, every visible numbered Luhmann entry, and the complete three-theorem and three-education sequences. Kept exact formulations, variants, paraphrases, witnesses, borrowed attributions, and unlocated primary wording distinct. Added a searchable register and same-site living-mark animation, pause, motif changes, keyboard control, and reduced-motion support. Existing stories, media, imaginative dialogue, disclosed invention, and Open updates route remain. This companion update does not change the atlas dataset or graph counts.

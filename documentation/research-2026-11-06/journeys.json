@@ -1,0 +1,18 @@
+[
+  {
+    "id": "journey_observation_judgement_action",
+    "title": "From observation to an action someone can take",
+    "subtitle": "Situated accounts, boundary judgement, methods, and authority",
+    "summary": "Follow different accounts of a situation through the question of who can judge, challenge, and act. This is an editorial sequence, not a historical lineage.",
+    "audience": "people designing or challenging a practical systems inquiry",
+    "duration_minutes": 16,
+    "steps": [
+      {"node_id": "concept_observer", "heading": "Name the distinction", "narrative": "What has to be selected for this observation to exist? State the category, the excluded population, and what would make you revise the account. Observer-dependence doesn't make evidence irrelevant."},
+      {"node_id": "concept_multiple_perspectives", "heading": "Keep differences available", "narrative": "What changes when another account enters the inquiry? Distinguish new evidence, a different purpose, and a disagreement about values. More perspectives don't imply consensus."},
+      {"node_id": "concept_boundary_critique", "heading": "Make the judgement contestable", "narrative": "Who defines improvement, controls resources, supplies expertise, and can challenge what counts? Keep those affected visible even when they aren't among those deciding."},
+      {"node_id": "practice_lab_critical_systems_heuristics", "heading": "Try the boundary dispute", "narrative": "Use the constructed case to compare actual and ought accounts. Record unresolved disagreement and what the inquiry can inform without claiming authority to settle the dispute."},
+      {"node_id": "concept_structure_agency", "heading": "Trace conditions for action", "narrative": "Which existing rules, resources, relationships, and practices enable or constrain the proposed action? Ask how the action might reproduce or change those conditions rather than explain everything through an isolated choice."},
+      {"node_id": "practice_lab_multi_methodology", "heading": "Justify the next method", "narrative": "Carry the question, evidence, participants' meanings, and unresolved disagreement across the transition. Name the authority for the next action and a reason to revise or stop. The sequence connects questions without making the underlying theories interchangeable."}
+    ]
+  }
+]

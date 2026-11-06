@@ -619,9 +619,9 @@
         "S7",
         "S9"
       ],
-      "time": 60,
-      "focus": "Build an is/ought boundary critique and show how a change in boundary alters a judgement.",
-      "scope": "This exercise checks the completeness and consistency of boundary reasoning. It does not supply a morally unique answer or pretend that the practitioner represents every affected person.",
+      "time": 80,
+      "focus": "Build an is/ought boundary critique, show how it changes a claim, and respond when a sponsor excludes the challenge.",
+      "scope": "This exercise checks the completeness and consistency of boundary reasoning. It does not supply a morally unique answer or pretend that the practitioner represents every affected person. The later rounds are original fictional applications, not a source-prescribed sequence. Ulrich's linked introduction, section 3, treats boundary critique as reflective and emancipatory practice, not a technique that settles the correct boundary.",
       "atlas": [
         "Critical Systems Heuristics",
         "Boundary critique"
@@ -654,6 +654,16 @@
           "task": "Design a challenge that an affected person can actually use.",
           "output": "One route to contest the proposal without accepting its framing.",
           "answer": "Invite independently supported evidence from people unable to use the digital route, permit oral or assisted submissions, explain how challenges affect the decision, and provide a route to disagree after a meeting. Do not require a person to complete an online consultation to prove that online access is a barrier. Representation and practical ability to challenge are different questions."
+        },
+        {
+          "task": "State a finding under two rival boundaries, then decide what could change it.",
+          "output": "Two conditional findings, the missing evidence for each, and one decision each could support.",
+          "answer": "For the council's administrative process: 'The proposal may reduce the cost of processing applications that reach the digital service; we still need the cost and completion evidence.' For access to entitlement: 'We cannot yet judge improvement because people unable to start, their effort, and replacement assistance are outside the evidence.' The second account could justify testing assisted access before closing the desk; the first could support a narrower process-cost comparison. Neither makes the analyst the legitimate decision-maker. Finding evidence that non-starters obtain suitable help would change the access judgement; a better online completion rate alone would not settle it."
+        },
+        {
+          "task": "Continue the critique when the sponsor rules out discussion of assistance.",
+          "output": "A bounded next action, an unresolved disagreement, and a claim you will not sign off.",
+          "answer": "The sponsor now says savings are fixed and the tenants' group may comment only on screen layout. Record that as a restriction on what can change, rather than reporting agreement about the service's purpose. A defensible response is to compare costs within the stated remit while giving the excluded-access argument its own clear place, using available evidence and explicit alternative assumptions. Do not sign off the stronger claim that all applicants' access has been assessed. Seek a decision route able to consider assistance, but do not make permission from the sponsor a prerequisite for questioning the sponsor's boundary. The affected people need not adopt the analyst's preferred alternative to expose a limitation in the proposal."
         }
       ],
       "checks": [
@@ -686,6 +696,16 @@
           ],
           "correct": 1,
           "explanation": "A rate among people already inside the process can exclude those who cannot enter it. The denominator is a boundary decision."
+        },
+        {
+          "q": "The sponsor allows comments on screen layout but forbids questioning closure of the assisted desk. What has been established?",
+          "options": [
+            "The beneficiary boundary is now legitimate",
+            "A limited opportunity to comment, with the decisive boundary still closed to challenge",
+            "The tenants agree that assistance is unnecessary"
+          ],
+          "correct": 1,
+          "explanation": "An invitation can restrict which questions count. It does not establish agreement, represent everyone affected, or justify the excluded consequences."
         }
       ],
       "repair": {
@@ -701,7 +721,9 @@
         "Evidence, absence and normative proposals are distinguishable.",
         "An affected voice is not silently replaced by an expert or the practitioner.",
         "A boundary change alters a concrete evaluation or action.",
-        "The answer includes a practicable route for challenge."
+        "The answer includes a practicable route for challenge.",
+        "Two different reference systems change what the same evidence can support.",
+        "A refused challenge remains visible without turning the analyst's alternative into everyone's authorised position."
       ]
     },
     {
@@ -1200,9 +1222,9 @@
         "S7",
         "S9"
       ],
-      "time": 50,
-      "focus": "Design a short inquiry in which each method answers a different question and its output is translated carefully into the next.",
-      "scope": "A basic methodological design exercise. There is no universal correct sequence. The checks concern fit, assumptions and transitions, not allegiance to one classification of methods.",
+      "time": 75,
+      "focus": "Justify a method sequence, carry a disputed claim through it, and test whether the numerical model still counts the thing that matters.",
+      "scope": "A basic methodological design exercise. There is no universal correct sequence. The checks concern fit, assumptions and transitions, not allegiance to one classification of methods. The numerical handoff and trial below are original fictional applications. The linked government toolkit supplies boundary, stock-flow, and evaluation prompts; it does not prescribe this CSH–SSM–SD sequence.",
       "atlas": [
         "Multi-methodology",
         "Critical systems thinking",
@@ -1210,12 +1232,14 @@
       ],
       "resources": [
         "scio-other",
-        "scio-reading"
+        "scio-reading",
+        "ulrich",
+        "government-toolkit"
       ],
       "paid": [
         "scio-development"
       ],
-      "scenario": "Fictional case: a regional advice partnership faces rising waits. The sponsor calls this a capacity problem. Residents say they are referred repeatedly without help. Charities argue that eligibility rules exclude the people most in need. Service leads disagree about who can change the rules. Reliable arrival and completion counts exist for two services, but not for the whole partnership. The sponsor wants a recommendation in four weeks.",
+      "scenario": "Fictional case: a regional advice partnership faces rising waits. The sponsor calls this a capacity problem. Residents say they are referred repeatedly without help. Charities argue that eligibility rules exclude the people most in need. Service leads disagree about who can change the rules. Reliable arrival and completion counts exist for two services, but not for the whole partnership. The sponsor wants a recommendation in four weeks. A later case trace supplies a deliberately simplified week: 100 unresolved cases in one service at the start, 30 new distinct cases, and 40 local records closed. Twelve of those closures are transfers that remain unresolved at a partner; the other 28 are confirmed resolutions. For this calculation only, assume there are no other unresolved cases elsewhere in the partnership at the start, and no other arrivals or resolutions that week. These are stipulated modelling assumptions, not new evidence filling the gaps in the partnership data. Eight repeat contacts come from those same unresolved transferred cases, not eight additional cases. All organisations, counts, and events in this exercise are invented.",
       "rounds": [
         {
           "task": "Separate the questions that require different kinds of inquiry.",
@@ -1236,6 +1260,16 @@
           "task": "Set a trigger to change your method design.",
           "output": "A revision trigger and a stopping rule.",
           "answer": "If case tracing shows that apparent completions are referrals that return elsewhere, revise the SD boundary and data plan. If no legitimate decision-maker can act on a proposed change, investigate governance and authority rather than producing more forecasts. Stop adding methods when they no longer change the decision or inquiry; document residual uncertainty."
+        },
+        {
+          "task": "Reconcile the numerical model with the boundary argument.",
+          "output": "Two end-of-week stocks, separate contact and case units, and a statement of what these figures do not predict.",
+          "answer": "The local record queue ends at 100 + 30 - 40 = 90 cases. Unresolved cases across the stated partnership boundary end at 100 + 30 - 28 = 102. The 12 transfers leave the local queue but do not leave the wider unresolved stock. The eight repeat contacts add work; they do not add eight distinct cases. Keep these as separate quantities with their units. This accounting example exposes a definition problem; it is not a calibrated dynamic simulation or evidence that every referral is waste. Before forecasting, establish the time pattern, transfer and resolution definitions, and which pathways the data actually cover. An apparent local improvement can coexist with a growing unresolved stock."
+        },
+        {
+          "task": "Choose the next inquiry after the sponsor asks for a capacity forecast anyway.",
+          "output": "A justified move, an observable prediction, who can act, and a result that would make you change course.",
+          "answer": "One defensible move is to trace the 12 transfers before extending the capacity model. Ask whether each reached an organisation able to help, what prevented resolution, and what residents experienced. The service leads can agree a small handoff trial within their existing decision rights; they cannot silently rewrite another organisation's eligibility rules. Predict that confirming a receiving owner will reduce unowned transfers; compare the subsequent traces and accounts, including burdens moved to the partner. If transfers were appropriate and delay lies elsewhere, revise the mechanism rather than defending the trial. If no receiving organisation can authorise the change, the immediate problem concerns authority or service provision; adding another forecast does not resolve it. A conditional forecast may still be useful if its local boundary and unresolved exclusions remain explicit."
         }
       ],
       "checks": [
@@ -1268,6 +1302,26 @@
           ],
           "correct": 1,
           "explanation": "Multiple designs can be defensible, but they are not beyond criticism. Inspect what each makes possible and what it misses."
+        },
+        {
+          "q": "Under the fictional week's stated assumptions, how many cases remain unresolved across the partnership?",
+          "options": [
+            "90",
+            "102",
+            "110"
+          ],
+          "correct": 1,
+          "explanation": "Only 28 of the 40 local closures resolve a case across this boundary. Thus 100 + 30 - 28 = 102. Repeat contacts are not additional distinct cases."
+        },
+        {
+          "q": "What must change when a local closure is translated into an outflow from a partnership-wide unresolved stock?",
+          "options": [
+            "Nothing: the shared label guarantees equivalence",
+            "The operational definition and evidence must establish resolution across that boundary",
+            "Treat the eight contacts as eight resolved cases"
+          ],
+          "correct": 1,
+          "explanation": "A label can survive the handoff while its meaning changes. A transfer is an outflow from one local queue but may remain inside the wider stock."
         }
       ],
       "repair": {
@@ -1282,7 +1336,9 @@
         "Every selected method has a distinct inquiry purpose.",
         "Limitations and omitted questions are explicit.",
         "Transitions preserve differences between normative, conceptual and empirical claims.",
-        "New evidence can change the sequence and scope."
+        "New evidence can change the sequence and scope.",
+        "Stocks, flows, contact events, and distinct cases keep their units and stated boundaries.",
+        "The next method or action changes when the evidence challenges the original capacity problem."
       ]
     },
     {
@@ -2128,9 +2184,9 @@
         "B4",
         "B7"
       ],
-      "time": 40,
-      "focus": "Distinguish permission, participation and legitimacy, then design a reversible intervention with an accessible challenge route.",
-      "scope": "A generic ethical reasoning exercise. It cannot establish compliance with sector-specific law, safeguarding or professional requirements. Those require qualified, contextual checks before real action.",
+      "time": 60,
+      "focus": "Distinguish permission, participation, and legitimacy, then specify who can change or stop an intervention when its assumptions fail.",
+      "scope": "A generic ethical reasoning exercise. It cannot establish compliance with sector-specific law, safeguarding or professional requirements. Those require qualified, contextual checks before real action. The decision record and changed situation are original fictional applications, not legal advice or a universal approval procedure.",
       "atlas": [
         "Ethics",
         "Power",
@@ -2164,6 +2220,16 @@
           "task": "Prepare a constructive challenge to the sponsor.",
           "output": "A short statement that names the risk and a workable alternative.",
           "answer": "For example: 'We can test the model with synthetic cases now. Using identifiable attendance to rank families needs authority and a way to test the proxy with affected people. Otherwise the model may direct support away from the people facing the largest barriers.' Keep the challenge specific; do not accuse the sponsor of a motive the evidence does not establish."
+        },
+        {
+          "task": "Turn the proposed safeguards into decisions someone can actually take.",
+          "output": "A short record naming the next action, decision-holder, evidence limit, pause condition, and route to resume.",
+          "answer": "One defensible record is: 'The analyst may rehearse alternative interpretations with invented cases and disclose the assumptions; no family is ranked or has support changed through this rehearsal. The sponsor must make time available without silently removing existing support appointments. The organisations responsible for data and support decisions must resolve the proposed real use before it proceeds. Pause if the rehearsal starts using identifiable records, directing actual support, or consuming time promised to families. Resume only after the changed activity and its consequences have been considered by people with the relevant responsibilities, with a usable challenge route for those affected.' A pause belongs to an activity and a reason; a general instruction to 'be ethical' does not tell anyone what to do."
+        },
+        {
+          "task": "Change the problem when families challenge what the intervention is for.",
+          "output": "A revised inquiry question, one alternative to ranking, and what would now count against your preferred approach.",
+          "answer": "Families say the central problem is unreliable transport and the risk of losing help when they miss appointments; they want those conditions investigated rather than a better motivation score. Reframe the question as 'What prevents people from reaching useful support, and which conditions can we change?' An alternative is to investigate routes, appointment conditions, and accounts from both attending and absent families, without making individual support contingent on a new score. Record the practical authority and resources needed for any change. Evidence that transport is not the main barrier should alter this inquiry too. Family involvement has then changed the question; it has not merely supplied labels for a model whose purpose the sponsor fixed in advance."
         }
       ],
       "checks": [
@@ -2186,6 +2252,16 @@
           ],
           "correct": 1,
           "explanation": "The same observation can arise from different conditions. A consequential proxy requires evidence and challenge."
+        },
+        {
+          "q": "Families identify transport and support conditions as the problem. Which response permits a change of framing?",
+          "options": [
+            "Use their accounts only to improve the motivation weights",
+            "Reconsider the inquiry question and investigate barriers and support conditions",
+            "Treat disagreement as proof that the families need ranking"
+          ],
+          "correct": 1,
+          "explanation": "Participation can change the problem being investigated. Restricting it to parameters leaves the original purpose beyond challenge."
         }
       ],
       "repair": {
@@ -2200,7 +2276,9 @@
         "Authority, influence, affectedness and permission are distinct.",
         "Proxies and causal claims are not treated as established truth.",
         "The intervention has transparency, safeguards and a challenge route.",
-        "Sector-specific compliance is explicitly left for qualified checking."
+        "Sector-specific compliance is explicitly left for qualified checking.",
+        "The pause condition names an activity, a decision-holder, and what is needed to resume.",
+        "Affected people can change the inquiry question, not only contribute data to a fixed classification."
       ]
     },
     {

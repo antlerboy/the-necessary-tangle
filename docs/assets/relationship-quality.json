@@ -1,7 +1,7 @@
 {
   "schema_version": "1.1",
-  "generated": "2026-10-29",
-  "release": "0.35",
+  "generated": "2026-11-06",
+  "release": "0.36",
   "purpose": "Machine-readable relationship-quality result after the evidence-led relationship review.",
   "contract": {
     "human_readable_rationale": "A relation has a plain phrase and either notes, scope conditions or an inference method.",
@@ -29,12 +29,12 @@
   "current": {
     "public_entries": 1295,
     "all_nodes": 1422,
-    "all_edges": 3154,
-    "sources": 827,
-    "claims": 136,
-    "evidence_records": 156,
-    "profiles": 220,
-    "journeys": 27,
+    "all_edges": 3158,
+    "sources": 831,
+    "claims": 140,
+    "evidence_records": 166,
+    "profiles": 221,
+    "journeys": 28,
     "external_corpora_reviewed": 12,
     "internal_sources_reviewed": 18,
     "reader_connected_entries": 1254,
@@ -52,8 +52,8 @@
       "provisional": 778,
       "supported": 203
     },
-    "reader_statements": 2531,
-    "semantic_statements": 1129
+    "reader_statements": 2535,
+    "semantic_statements": 1133
   },
   "changes_from_baseline": {
     "generic_relation_review_targets": {
@@ -66,7 +66,7 @@
     },
     "sources": {
       "before": 153,
-      "after": 827
+      "after": 831
     },
     "semantic_connected_entries": {
       "before": 329,
@@ -75,7 +75,7 @@
     },
     "substantive_edge_count": {
       "before": 750,
-      "after": 1132
+      "after": 1136
     },
     "isolated_semantic_nodes": {
       "before": 167,
@@ -84,42 +84,42 @@
   },
   "criteria": {
     "typed": {
-      "passing": 3154,
-      "total": 3154
+      "passing": 3158,
+      "total": 3158
     },
     "directed": {
-      "passing": 3053,
-      "total": 3154,
+      "passing": 3057,
+      "total": 3158,
       "undirected": 101
     },
     "human_readable_phrase": {
-      "passing": 3154,
-      "total": 3154
+      "passing": 3158,
+      "total": 3158
     },
     "explicit_rationale": {
-      "passing": 2855,
-      "total": 3154
+      "passing": 2859,
+      "total": 3158
     },
     "source_identifier": {
-      "passing": 3154,
-      "total": 3154
+      "passing": 3158,
+      "total": 3158
     },
     "locator_present": {
-      "passing": 2752,
-      "total": 3154
+      "passing": 2756,
+      "total": 3158
     },
     "precision_shaped_locator": {
-      "passing": 612,
-      "total": 3154,
+      "passing": 615,
+      "total": 3158,
       "note": "Conservative text-pattern measure; manual review is still required."
     },
     "epistemic_fields_present": {
-      "passing": 3154,
-      "total": 3154
+      "passing": 3158,
+      "total": 3158
     },
     "generic_related_to": {
-      "passing": 3154,
-      "total": 3154,
+      "passing": 3158,
+      "total": 3158,
       "review_target_count": 0
     },
     "three_or_more_relation_families": {
@@ -127,7 +127,7 @@
       "total": 1295
     },
     "one_relation_family": {
-      "count": 800,
+      "count": 799,
       "total": 1295
     },
     "external_corpus_records": {
@@ -2467,27 +2467,6 @@
       ]
     },
     {
-      "node_id": "concept_structure_agency",
-      "label": "Structure and agency",
-      "entity_type": "concept",
-      "publication_level": "profile",
-      "connection_band": "thin",
-      "evidence_band": "provisional",
-      "visible_connections": 1,
-      "visible_statements": 1,
-      "reader_connections": 1,
-      "reader_statements": 1,
-      "semantic_connections": 1,
-      "semantic_statements": 1,
-      "documentary_statements": 0,
-      "accepted_reader_statements": 0,
-      "provisional_reader_statements": 1,
-      "distinct_reader_families": 1,
-      "reader_families": [
-        "conceptual"
-      ]
-    },
-    {
       "node_id": "publication_syscoi_post_29037",
       "label": "Systems Insight Team",
       "entity_type": "publication",
@@ -2590,6 +2569,27 @@
       "distinct_reader_families": 1,
       "reader_families": [
         "provenance"
+      ]
+    },
+    {
+      "node_id": "publication_syscoi_post_29305",
+      "label": "The Firm Grip and the Light Hand – Jose (2026)",
+      "entity_type": "publication",
+      "publication_level": "profile",
+      "connection_band": "thin",
+      "evidence_band": "provisional",
+      "visible_connections": 1,
+      "visible_statements": 1,
+      "reader_connections": 1,
+      "reader_statements": 1,
+      "semantic_connections": 0,
+      "semantic_statements": 0,
+      "documentary_statements": 1,
+      "accepted_reader_statements": 0,
+      "provisional_reader_statements": 1,
+      "distinct_reader_families": 1,
+      "reader_families": [
+        "documentary"
       ]
     }
   ],

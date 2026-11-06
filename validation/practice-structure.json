@@ -6,10 +6,10 @@
   "theory_rows": 3,
   "supporting_areas": 10,
   "resource_routes": 42,
-  "questions": 69,
-  "worked_steps": 102,
+  "questions": 73,
+  "worked_steps": 108,
   "local_links": "all checked",
-  "offline_archive_bytes": 331103,
-  "offline_archive_sha256": "115d69309a43986cbd21237a6878b60ba5b99f20be52a4f6392c421a85706dbb",
+  "offline_archive_bytes": 343332,
+  "offline_archive_sha256": "92910b2a10c817d31ba1da758f05f08af9bb643e3c973e6b819eb20b9dd55c9b",
   "specialist_pedagogical_review": "not recorded"
 }

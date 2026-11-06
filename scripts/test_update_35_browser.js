@@ -29,10 +29,11 @@ async function main() {
   const response = await request.request.get(base + '/assets/public-data.json');
   assert.equal(response.status(), 200);
   const data = await response.json();
-  assert.equal(data.meta.release, '0.35');
+  assert(data.depth_20261029, 'The historical October cohort must remain recorded');
   const journeys = data.journeys.filter(row => row.connection_pass === 'depth_20261029');
   const profiles = data.profiles.filter(row => row.connection_pass === 'depth_20261029');
   assert(profiles.length > 0);
+  assert(journeys.length > 0);
   await request.close();
   const checked = [];
   for (const width of [1440, 390]) {
@@ -56,7 +57,7 @@ async function main() {
       checked.push({ route, width });
     }
     await page.goto(base + '/');
-    assert.equal(await page.locator('#releaseBadge').innerText(), 'Release 0.35');
+    assert.equal(await page.locator('#releaseBadge').innerText(), 'Release ' + data.meta.release);
     assert(await page.locator('a[href^="/reading/connections/"]').count() > 0, 'Home needs a route to the deeper reading');
     for (const journey of journeys) {
       await page.goto(base + '/#view=journeys&id=' + encodeURIComponent(journey.id) + '&step=0');
@@ -78,7 +79,7 @@ async function main() {
     assert.deepEqual(errors, [], 'Browser errors at ' + width);
     await page.close();
   }
-  fs.writeFileSync(path.join(output, 'report.json'), JSON.stringify({ release: '0.35', base, routes: checked, journeys: journeys.map(row => row.id), profiles: profiles.map(row => row.node_id), passed: true }, null, 2) + '\n');
+  fs.writeFileSync(path.join(output, 'report.json'), JSON.stringify({ release: data.meta.release, historical_cohort: 'depth_20261029', historical_release: '0.35', base, routes: checked, journeys: journeys.map(row => row.id), profiles: profiles.map(row => row.node_id), passed: true }, null, 2) + '\n');
   console.log('0.35 browser passed: source routes, linked reading, keyboard entry, atlas profiles, journey progression, desktop/mobile containment, and protected updates control.');
 }
 main().catch(error => { console.error(error); process.exitCode = 1; }).finally(async () => {

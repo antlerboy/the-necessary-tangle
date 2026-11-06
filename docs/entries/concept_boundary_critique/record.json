@@ -1,14 +1,14 @@
 {
   "schema_version": "1.0",
   "canonical_url": "https://transduction.systems/entries/concept_boundary_critique/",
-  "release": "0.35",
-  "citation": "Taylor, B. P. (2026). Boundary critique. The Necessary Tangle, release 0.35. https://transduction.systems/entries/concept_boundary_critique/",
+  "release": "0.36",
+  "citation": "Taylor, B. P. (2026). Boundary critique. The Necessary Tangle, release 0.36. https://transduction.systems/entries/concept_boundary_critique/",
   "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
   "entry": {
     "id": "concept_boundary_critique",
     "label": "Boundary critique",
     "entity_type": "concept",
-    "description": "Boundary critique is the systematic examination of judgements about what and whom a situation, inquiry or proposal treats as relevant, including the facts, values, interests and voices those judgements admit or exclude.",
+    "description": "Ulrich's CSH examines motivation, power, knowledge, and legitimation. Comparing existing and proposed boundary judgements can expose whose version of improvement a claim serves; it does not compute the uniquely right boundary.",
     "aliases": [
       "critical boundary reflection"
     ],
@@ -16,7 +16,8 @@
     "inclusion_reason": "expertise_and_public_sources_release_0_13",
     "status": "accepted",
     "source_ids": [
-      "src_ulrich_csh_mini_primer_2023"
+      "src_ulrich_csh_mini_primer_2023",
+      "src_u36_ulrich_boundaries_2022"
     ],
     "set_tags": [
       "systems",
@@ -26,79 +27,83 @@
     ],
     "espoused_labels": [],
     "observed_clusters": [],
-    "canonical_definition": "Boundary critique is the systematic examination of judgements about what and whom a situation, inquiry or proposal treats as relevant, including the facts, values, interests and voices those judgements admit or exclude.",
+    "canonical_definition": "Critical examination of the judgements that make some facts, values, people, and consequences relevant to a claim while excluding or subordinating others.",
     "valid_from": "",
     "valid_to": "",
     "external_ids": "{}",
     "geographies": [],
     "licence": "",
-    "review_status": "curator_checked_public_sources",
-    "reviewed_by": "Benjamin P Taylor",
-    "reviewed_at": "2026-08-11",
+    "review_status": "research_pass_needs_editor",
+    "reviewed_by": "",
+    "reviewed_at": "",
     "x": 0.02,
     "y": 0.22,
     "canonical_id": "concept_boundary_critique",
     "public_visibility": "public",
     "publication_level": "profile",
     "public_stub_text": "",
-    "public_source_count": 1,
-    "no_public_link_count": 0
+    "public_source_count": 2,
+    "no_public_link_count": 0,
+    "connection_pass": "depth_20261106"
   },
   "profile": {
     "node_id": "concept_boundary_critique",
     "title": "Boundary critique",
-    "profile_status": "curator_checked_public_sources",
-    "canonical_definition": "Boundary critique is the systematic examination of judgements about what and whom a situation, inquiry or proposal treats as relevant, including the facts, values, interests and voices those judgements admit or exclude.",
-    "summary": "Boundary critique asks how judgements about relevance shape what counts as fact, value, improvement, expertise and legitimate participation.",
-    "why_it_matters": "Every systems intervention draws a boundary. Making that boundary discussable is a condition for responsible inquiry, especially when benefits and harms fall on people who did not define the system of concern.",
+    "profile_status": "evidence_deepened_research_pass",
+    "canonical_definition": "Critical examination of the judgements that make some facts, values, people, and consequences relevant to a claim while excluding or subordinating others.",
+    "summary": "Ulrich's CSH examines motivation, power, knowledge, and legitimation. Comparing existing and proposed boundary judgements can expose whose version of improvement a claim serves; it does not compute the uniquely right boundary.",
+    "why_it_matters": "A technically defensible proposal may leave the people bearing its costs unable to question its purpose. Examining that exclusion changes what the proposal can legitimately claim.",
     "key_distinctions": [
-      "boundary vs perimeter",
-      "relevance vs existence",
-      "involved vs affected",
-      "fact and value as boundary-conditioned"
+      "validity within an account versus legitimacy of its use for action",
+      "people involved in deciding versus people affected by the decision",
+      "asking what is the case versus asking what ought to be the case",
+      "surfacing a judgement versus settling it"
     ],
     "historical_lineage": [
-      "Churchman's systems approach",
-      "Ulrich's Critical Systems Heuristics",
-      "systemic intervention"
+      "Ulrich's Critical Systems Heuristics; the normative focus is explicit in his author primer and 2022 account."
     ],
     "logical_antecedents": [
-      "boundary",
+      "relevance",
+      "valuation",
       "purpose",
-      "stakeholder",
-      "legitimacy"
+      "authority"
     ],
     "dependent_subsequents": [
-      "twelve boundary questions",
-      "systemic marginalisation",
-      "critical evaluation"
+      "qualified improvement claims",
+      "challenges to exclusion",
+      "public justification of decisions"
     ],
     "practice_connections": [
-      "framing policy questions",
-      "testing beneficiaries and victims",
-      "reviewing expertise claims"
+      "Take one claimed improvement. Name its beneficiary, measure of success, decision-maker, and person bearing a consequence outside that measure.",
+      "Change one of those judgements and identify which evidence or recommendation changes with it.",
+      "Record how those affected can challenge the premises, and who has authority to act on that challenge."
     ],
     "espoused_lineages": [],
     "observed_clusters": [],
     "common_misreadings": [
-      "wider is always better",
-      "all boundaries can be eliminated",
-      "boundary critique guarantees inclusion"
+      "Boundary critique is a stakeholder list or a wider diagram.",
+      "Completing twelve questions establishes the right boundary.",
+      "People attending an inquiry thereby authorise its conclusions.",
+      "One fixed ordering of is and ought questions is compulsory."
     ],
     "open_checks": [
-      "connect Midgley's systemic marginalisation",
-      "add cases of boundary change",
-      "map rival boundary practices"
+      "The practice questions are editorial applications, not a replacement twelve-question framework.",
+      "A route for legitimate decision and contest remains necessary; the questions alone do not establish it."
     ],
     "source_ids": [
-      "src_ulrich_csh_mini_primer_2023"
+      "src_ulrich_csh_mini_primer_2023",
+      "src_u36_ulrich_boundaries_2022"
     ],
-    "evidence_ids": [],
-    "last_researched": "2026-08-11",
-    "review_status": "curator_checked_public_sources",
-    "reviewed_by": "Benjamin P Taylor",
-    "reviewed_at": "2026-08-11",
-    "editorial_note": "Developed from public primary, institutional and publisher sources. Open to correction, rival interpretation and stronger evidence."
+    "evidence_ids": [
+      "ev_u36_ulrich_critique",
+      "ev_u36_ulrich_power_legitimation"
+    ],
+    "last_researched": "2026-11-06",
+    "review_status": "research_pass_needs_editor",
+    "reviewed_by": "",
+    "reviewed_at": "",
+    "editorial_note": "The previous profile was curator checked in August 2026. This proposed revision is a new research pass and carries no inherited human sign-off. Practical examples and the comparison with the observer are editorial applications.",
+    "connection_pass": "depth_20261106"
   },
   "connections": [
     {
@@ -375,7 +380,7 @@
       "source_locator": "Named exercise and its scope statement",
       "valid_from": "",
       "valid_to": "",
-      "scope_conditions": "This exercise checks the completeness and consistency of boundary reasoning. It does not supply a morally unique answer or pretend that the practitioner represents every affected person.",
+      "scope_conditions": "This exercise checks the completeness and consistency of boundary reasoning. It does not supply a morally unique answer or pretend that the practitioner represents every affected person. The later rounds are original fictional applications, not a source-prescribed sequence. Ulrich's linked introduction, section 3, treats boundary critique as reflective and emancipatory practice, not a technique that settles the correct boundary.",
       "assertion_mode": "asserted",
       "inference_method": "",
       "claim_id": "",
@@ -609,6 +614,74 @@
       "plain_phrase": "taught in",
       "public_review_label": "Located source statement; curator review pending",
       "connection_pass": "update_20261008"
+    },
+    {
+      "id": "e36_boundary_critique_multiple_perspectives",
+      "source": "concept_boundary_critique",
+      "target": "concept_multiple_perspectives",
+      "relation_type": "operationalises",
+      "relation_family": "practice",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "",
+      "claim_status": "candidate",
+      "source_ids": [
+        "src_ulrich_csh_mini_primer_2023",
+        "src_u36_ulrich_boundaries_2022"
+      ],
+      "evidence_ids": [
+        "ev_u36_ulrich_critique",
+        "ev_u36_ulrich_power_legitimation"
+      ],
+      "source_locator": "Ulrich mini-primer, applications 1–3; Ulrich 2022, Q10–12 and closing paragraphs",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Ulrich describes cooperative and emancipatory uses. Exposing differing reference systems need not yield agreement or establish which boundary should govern action.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "claim_e36_boundary_critique_multiple_perspectives",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "examines how boundary judgements condition differing facts and values",
+      "public_review_label": "Located source statement; curator review pending",
+      "connection_pass": "depth_20261106",
+      "review_status": "research_pass_needs_editor"
+    },
+    {
+      "id": "e36_observer_boundary_critique",
+      "source": "concept_observer",
+      "target": "concept_boundary_critique",
+      "relation_type": "complements",
+      "relation_family": "conceptual",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "",
+      "claim_status": "candidate",
+      "source_ids": [
+        "src_u36_von_foerster_ethics_2003",
+        "src_ulrich_csh_mini_primer_2023",
+        "src_u36_ulrich_boundaries_2022"
+      ],
+      "evidence_ids": [
+        "ev_u36_hvf_observing",
+        "ev_u36_ulrich_critique",
+        "ev_u36_ulrich_power_legitimation"
+      ],
+      "source_locator": "Von Foerster 2003, pp. 288–289; Ulrich mini-primer, normative focus; Ulrich 2022, Q10–12",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Editorial comparison: including one's activity in observing and justifying the boundary of an intervention ask distinguishable questions. Neither supplies the other automatically. No lineage, equivalence, or formally necessary dependency is asserted.",
+      "assertion_mode": "inferred",
+      "inference_method": "bounded editorial comparison of the cited primary accounts",
+      "claim_id": "claim_e36_observer_boundary_critique",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "can be coupled with scrutiny of whose concerns a framing admits",
+      "public_review_label": "Editorial comparison; curator review pending",
+      "connection_pass": "depth_20261106",
+      "review_status": "research_pass_needs_editor"
     }
   ],
   "claims": [
@@ -632,30 +705,107 @@
       "reviewed_by": "",
       "reviewed_at": "",
       "connection_pass": "update_20261008"
+    },
+    {
+      "id": "claim_e36_boundary_critique_multiple_perspectives",
+      "statement": "Ulrich describes cooperative and emancipatory uses. Exposing differing reference systems need not yield agreement or establish which boundary should govern action.",
+      "subject_id": "concept_boundary_critique",
+      "predicate": "operationalises",
+      "object_id": "concept_multiple_perspectives",
+      "status": "candidate",
+      "supporting_source_ids": [
+        "src_ulrich_csh_mini_primer_2023",
+        "src_u36_ulrich_boundaries_2022"
+      ],
+      "supporting_evidence_ids": [
+        "ev_u36_ulrich_critique",
+        "ev_u36_ulrich_power_legitimation"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_evidence_ids": [],
+      "notes": "source_exposition; no human editorial acceptance implied.",
+      "review_status": "research_pass_needs_editor",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "connection_pass": "depth_20261106"
+    },
+    {
+      "id": "claim_e36_observer_boundary_critique",
+      "statement": "Editorial comparison: including one's activity in observing and justifying the boundary of an intervention ask distinguishable questions. Neither supplies the other automatically. No lineage, equivalence, or formally necessary dependency is asserted.",
+      "subject_id": "concept_observer",
+      "predicate": "complements",
+      "object_id": "concept_boundary_critique",
+      "status": "candidate",
+      "supporting_source_ids": [
+        "src_u36_von_foerster_ethics_2003",
+        "src_ulrich_csh_mini_primer_2023",
+        "src_u36_ulrich_boundaries_2022"
+      ],
+      "supporting_evidence_ids": [
+        "ev_u36_hvf_observing",
+        "ev_u36_ulrich_critique",
+        "ev_u36_ulrich_power_legitimation"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_evidence_ids": [],
+      "notes": "editorial_synthesis; no human editorial acceptance implied.",
+      "review_status": "research_pass_needs_editor",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "connection_pass": "depth_20261106"
     }
   ],
   "sources": [
     {
       "id": "src_ulrich_csh_mini_primer_2023",
       "title": "A Mini-Primer of Critical Systems Heuristics",
-      "source_type": "primary_author_method_page",
+      "source_type": "primary_text",
       "quality_tier": "A",
       "access": "public",
       "url": "https://wulrich.com/csh.html",
-      "date": "2005; updated 2023-05-20",
-      "notes": "Werner Ulrich's maintained primary account defines Critical Systems Heuristics as reflective practice centred on systematic boundary critique and twelve critical boundary questions.",
+      "date": "checked 2026-08-19",
+      "notes": "Author's page body inspected on 6 November 2026. It identifies normative boundary assumptions, cooperative and emancipatory uses, and limits on unique right answers. Enrich the existing record; retain its bibliographic history. Do not infer a fixed procedure from this primer or treat its account of CSH as evidence that another tradition is equivalent.",
       "creators": [
         "Werner Ulrich"
       ],
       "doi": "",
       "isbn": "",
-      "publisher": "Werner Ulrich",
+      "publisher": "",
       "licence": "noncommercial_distribution_and_citation_with_attribution",
       "archived_url": "",
       "content_hash": "",
-      "review_status": "checked",
-      "last_checked": "2026-08-11",
-      "public_link_status": "public_link"
+      "review_status": "passage_checked_research_pass",
+      "last_checked": "2026-11-06",
+      "public_link_status": "public_link",
+      "connection_pass": "depth_20261106",
+      "source_locator": "Main text beginning Critical systems heuristics; paragraphs beginning A critical approach, The first two applications, and In short; final Summary",
+      "access_note": "Enrich the existing record; retain its bibliographic history. Do not infer a fixed procedure from this primer or treat its account of CSH as evidence that another tradition is equivalent."
+    },
+    {
+      "id": "src_u36_ulrich_boundaries_2022",
+      "title": "Assessing assumptions about boundaries with critical systems heuristics",
+      "source_type": "primary_author_method_article",
+      "quality_tier": "A",
+      "access": "public_full_text",
+      "url": "https://i2insights.org/2022/05/24/critical-systems-heuristics/",
+      "date": "2022-05-24",
+      "notes": "Article body inspected in HTML and visually on page 1 of the author-hosted PDF. PDF SHA-256 8066b8226259a16ec531333469a73d1a419d486a1172e04fb7e65d722f81daf1. The two-page PDF is a very tall webpage print, not a conventional paginated article. Its text mapping is damaged; the relevant page was visually checked. Later reader comments are excluded. The live page also displays an April 2025 update date; May 2022 is the original publication date confirmed by the preserved print.",
+      "creators": [
+        "Werner Ulrich"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Integration and Implementation Insights",
+      "licence": "source_terms; linked and paraphrased",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "passage_checked_research_pass",
+      "last_checked": "2026-11-06",
+      "public_link_status": "public_link",
+      "reading_url": "https://wulrich.com/downloads/ulrich_2022_CSH_blog.pdf",
+      "connection_pass": "depth_20261106",
+      "source_locator": "Questions 4–6 and 10–12; the four paragraphs immediately following question 12; author's PDF, page 1, before comments",
+      "access_note": "The two-page PDF is a very tall webpage print, not a conventional paginated article. Its text mapping is damaged; the relevant page was visually checked. Later reader comments are excluded. The live page also displays an April 2025 update date; May 2022 is the original publication date confirmed by the preserved print."
     },
     {
       "id": "src_grammar_presentation_2022",
@@ -789,7 +939,7 @@
       "access": "public",
       "url": "https://transduction.systems/systems-thinking/practice/critical-systems-heuristics/",
       "date": "2026-09-07",
-      "notes": "Original fictional exercise. This exercise checks the completeness and consistency of boundary reasoning. It does not supply a morally unique answer or pretend that the practitioner represents every affected person.",
+      "notes": "Original fictional exercise. This exercise checks the completeness and consistency of boundary reasoning. It does not supply a morally unique answer or pretend that the practitioner represents every affected person. The later rounds are original fictional applications, not a source-prescribed sequence. Ulrich's linked introduction, section 3, treats boundary critique as reflective and emancipatory practice, not a technique that settles the correct boundary.",
       "creators": [
         "The Necessary Tangle editorial practice pack"
       ],
@@ -993,13 +1143,57 @@
       "public_link_status": "public_link",
       "connection_pass": "update_20261008",
       "source_locator": "Module_01 through Module_12; introductory status and CC BY notice"
+    },
+    {
+      "id": "src_u36_von_foerster_ethics_2003",
+      "title": "Ethics and Second-Order Cybernetics",
+      "source_type": "primary_author_chapter",
+      "quality_tier": "A",
+      "access": "public_full_text",
+      "url": "https://link.springer.com/chapter/10.1007/0-387-21722-3_14",
+      "date": "2003",
+      "notes": "Primary chapter body inspected through the web PDF reader; Springer chapter and book records confirm the chapter, pages, and reprint edition. The 2003 chapter reprints an earlier address and interview. Its first-page footnote identifies a 1991 French publication. This record dates the edition inspected, not the origin of every idea. The metaphysical postulate and ethical imperative are von Foerster's philosophical proposals, not empirical or mathematical results. Local byte download returned HTTP 406; no local PDF hash is claimed.",
+      "creators": [
+        "Heinz von Foerster"
+      ],
+      "doi": "10.1007/0-387-21722-3_14",
+      "isbn": "",
+      "publisher": "Springer, Understanding Understanding, pp. 287–304",
+      "licence": "publisher_terms; linked and paraphrased",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "passage_checked_research_pass",
+      "last_checked": "2026-11-06",
+      "public_link_status": "public_link",
+      "reading_url": "https://www.pangaro.com/hciiseminar2019/Heinz_Von_Foerster-Ethics_and_Second-order_Cybernetics.pdf",
+      "connection_pass": "depth_20261106",
+      "source_locator": "Printed pp. 288–289, 292–294, and 300–302; in the 54-page reading PDF, pp. 15–16, 19–21, and 27–29",
+      "access_note": "The 2003 chapter reprints an earlier address and interview. Its first-page footnote identifies a 1991 French publication. This record dates the edition inspected, not the origin of every idea. The metaphysical postulate and ethical imperative are von Foerster's philosophical proposals, not empirical or mathematical results. Local byte download returned HTTP 406; no local PDF hash is claimed."
     }
   ],
   "evidence_locators": [
     {
+      "id": "ev_u36_ulrich_critique",
+      "source_id": "src_ulrich_csh_mini_primer_2023",
+      "locator": "Paragraphs on the first two applications, emancipatory boundary critique, and the normative focus of CSH",
+      "review_status": "research_pass_needs_editor"
+    },
+    {
+      "id": "ev_u36_ulrich_power_legitimation",
+      "source_id": "src_u36_ulrich_boundaries_2022",
+      "locator": "Questions 4–6 and 10–12; final four paragraphs after question 12; author PDF p. 1",
+      "review_status": "research_pass_needs_editor"
+    },
+    {
       "id": "ev_e31_ocad_9_concept_boundary_critique",
       "source_id": "src_u31_ocad_proforma",
       "locator": "Module_09",
+      "review_status": "research_pass_needs_editor"
+    },
+    {
+      "id": "ev_u36_hvf_observing",
+      "source_id": "src_u36_von_foerster_ethics_2003",
+      "locator": "Printed pp. 288–289; reading PDF pp. 15–16",
       "review_status": "research_pass_needs_editor"
     }
   ],
