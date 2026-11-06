@@ -1,7 +1,7 @@
 # The Necessary Tangle: public knowledge file
 
 Curated by Benjamin P Taylor — https://www.antlerboy.com/
-Generated from public release 0.38 on 2026-11-06.
+Generated from public release 0.39 on 2026-11-06.
 
 A living evidence atlas of systems | cybernetics | complexity.
 Every connection must say what it means. Historical sequence, logical dependence, influence, teaching, collaboration, practical use, comparison and dispute are not interchangeable.
@@ -23469,16 +23469,58 @@ S. Wright, ‘The Roles of Mutation, Inbreeding, Crossbreeding, and Selection in
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
 
-## The Second Law of Technodynamics – Velitchkov (2026)
+## The Second Law of Technodynamics — Velitchkov (2026)
 
 Type: Publication
 Public depth: profile
 
-SysCoI reading or event lead published 2026-09-24. This atlas record points to the public post and its source links. It does not certify claims in the linked material or infer authorship from a title.
+An attributed proposal by Ivo Velitchkov concerning the concentration of control over coordination terms.
+
+### Summary
+
+Velitchkov proposes that coordination control tends to concentrate without counter-action. Control concerns the ability to set or change terms on which others depend and which they cannot readily replace. Counter-action can itself create another concentration.
+
+### Why it matters
+
+The proposal asks who can change participation terms, and what an effective alternative would require.
+
+### Key distinctions
+
+- Participatory discretion and the opportunities enabled by participation are distinct.
+- The thermodynamics comparison is a mnemonic, not a physical equivalence.
+- The full article does not establish concentration alone as a cause of collapse.
+
+### Historical development
+
+[]
+
+### Ideas it depends on
+
+[]
+
+### What develops from it
+
+[]
+
+### Connections to practice
+
+[]
+
+### Common confusions
+
+- A proposed tendency is not a demonstrated universal law.
+
+### Open questions and checks
+
+- Audio and on-screen visuals have not been independently checked against the auto-generated captions.
+- Human editorial acceptance remains pending.
 
 ### Sources
 
 - The Second Law of Technodynamics – Velitchkov (2026) — https://stream.syscoi.com/2026/09/24/the-second-law-of-technodynamics-velitchknov-2026/
+- The Second Law of Technodynamics — https://www.youtube.com/watch?v=wus7m9l6g6I
+- Second Law of Technodynamics — https://www.linkandth.ink/p/second-law-of-technodynamics
+- Cohesion Spectrum v.2 — https://www.linkandth.ink/p/cohesion-spectrum-v2
 
 ## The Strategy Dynamics Insights Library
 

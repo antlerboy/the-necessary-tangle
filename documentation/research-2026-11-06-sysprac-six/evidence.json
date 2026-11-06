@@ -1,0 +1,249 @@
+{
+  "sources": [
+    {
+      "id": "src_u39_s30",
+      "title": "Internalized Liabilities",
+      "authors": [
+        "Kai-Uwe Radde"
+      ],
+      "publisher": "Systems Practice",
+      "source_type": "video",
+      "url": "https://www.youtube.com/watch?v=OfRfpuKoLw8",
+      "locator": "09:49–10:33; 17:06–18:13; 29:12–31:04",
+      "verified": "Public resource description and recovered auto-generated captions read.",
+      "limits": "Caption-based account; audio and on-screen visuals not independently checked."
+    },
+    {
+      "id": "src_u39_s33",
+      "title": "Reducing Complexity or Relocating It?",
+      "authors": [
+        "Max Shein"
+      ],
+      "publisher": "Systems Practice",
+      "source_type": "video",
+      "url": "https://www.youtube.com/watch?v=C8k3DJcRt3k",
+      "locator": "11:10–11:58; 13:07–15:19; 18:32–22:28",
+      "verified": "Public resource description and recovered auto-generated captions read.",
+      "limits": "Caption-based account; audio and on-screen visuals not independently checked."
+    },
+    {
+      "id": "src_u39_s34",
+      "title": "The Second Law of Technodynamics",
+      "authors": [
+        "Ivo Velitchkov"
+      ],
+      "publisher": "Systems Practice",
+      "source_type": "video",
+      "url": "https://www.youtube.com/watch?v=wus7m9l6g6I",
+      "locator": "12:31–17:19; 20:45–24:21",
+      "verified": "Public resource description and recovered auto-generated captions read.",
+      "limits": "Caption-based account; audio and on-screen visuals not independently checked."
+    },
+    {
+      "id": "src_u39_s35",
+      "title": "Beyond Sustainability",
+      "authors": [
+        "Jan De Visch"
+      ],
+      "publisher": "Systems Practice",
+      "source_type": "video",
+      "url": "https://www.youtube.com/watch?v=OzgfwbsFnxA",
+      "locator": "11:55–15:24; 21:53–22:54",
+      "verified": "Public resource description and recovered auto-generated captions read.",
+      "limits": "Caption-based account; audio and on-screen visuals not independently checked."
+    },
+    {
+      "id": "src_u39_s38",
+      "title": "Systems, purpose and the pursuit of shared meaning",
+      "authors": [
+        "Steve Whitla"
+      ],
+      "publisher": "Systems Practice",
+      "source_type": "video",
+      "url": "https://www.youtube.com/watch?v=2rVoAPcc9Rk",
+      "locator": "09:38–12:40; 14:15–19:00; 20:00–24:18",
+      "verified": "Public resource description and recovered auto-generated captions read.",
+      "limits": "Caption-based account; audio and on-screen visuals not independently checked."
+    },
+    {
+      "id": "src_u39_s41",
+      "title": "The application of Deep Uncertainty approaches",
+      "authors": [
+        "Mark Workman"
+      ],
+      "publisher": "Systems Practice",
+      "source_type": "video",
+      "url": "https://www.youtube.com/watch?v=pn4FMKBTe2Y",
+      "locator": "05:33–06:50; 11:49–14:01; 20:09–25:49",
+      "verified": "Public resource description and recovered auto-generated captions read.",
+      "limits": "Caption-based account; audio and on-screen visuals not independently checked."
+    },
+    {
+      "id": "src_u39_technodynamics_article",
+      "title": "Second Law of Technodynamics",
+      "authors": [
+        "Ivo Velitchkov"
+      ],
+      "publisher": "Link and Think",
+      "source_type": "primary_webpage",
+      "url": "https://www.linkandth.ink/p/second-law-of-technodynamics",
+      "locator": "Coordination control; Counter-actions; Endgames",
+      "verified": "Full article read.",
+      "limits": "The proposed law is attributed and contestable."
+    },
+    {
+      "id": "src_u39_cohesion_spectrum",
+      "title": "Cohesion Spectrum v.2",
+      "authors": [
+        "Ivo Velitchkov",
+        "John Grant"
+      ],
+      "publisher": "Link and Think",
+      "source_type": "primary_webpage",
+      "url": "https://www.linkandth.ink/p/cohesion-spectrum-v2",
+      "locator": "Autonomy definitions; Nominal and Effective Autonomy",
+      "verified": "Full article read.",
+      "limits": "The autonomy plane concerns coordination mechanisms."
+    }
+  ],
+  "evidence_proposals": [
+    {
+      "id": "ev_u39_s30",
+      "source_id": "src_u39_s30",
+      "locator": "09:49–10:33; 17:06–18:13; 29:12–31:04",
+      "excerpt_or_summary": "Radde presents six kinds of deferred organisational work and a subjective influence map, and reports a team questioning and follow-up process.",
+      "evidence_type": "located_public_source",
+      "quality_tier": "B",
+      "licence": "source terms",
+      "review_status": "research_pass_needs_editor",
+      "content_hash": "",
+      "public_evidence_status": "public"
+    },
+    {
+      "id": "ev_u39_s33",
+      "source_id": "src_u39_s33",
+      "locator": "11:10–11:58; 13:07–15:19; 18:32–22:28",
+      "excerpt_or_summary": "Shein offers situated hypotheses about transfer of responsibilities and distinguishes recognising a problem from sustaining priority and action.",
+      "evidence_type": "located_public_source",
+      "quality_tier": "B",
+      "licence": "source terms",
+      "review_status": "research_pass_needs_editor",
+      "content_hash": "",
+      "public_evidence_status": "public"
+    },
+    {
+      "id": "ev_u39_s34",
+      "source_id": "src_u39_s34",
+      "locator": "12:31–17:19; 20:45–24:21",
+      "excerpt_or_summary": "Velitchkov distinguishes discretion within a coordination arrangement from opportunities arising through participation, and proposes that control over coordination tends to concentrate.",
+      "evidence_type": "located_public_source",
+      "quality_tier": "B",
+      "licence": "source terms",
+      "review_status": "research_pass_needs_editor",
+      "content_hash": "",
+      "public_evidence_status": "public"
+    },
+    {
+      "id": "ev_u39_s35",
+      "source_id": "src_u39_s35",
+      "locator": "11:55–15:24; 21:53–22:54",
+      "excerpt_or_summary": "De Visch asks which relationships sustain value creation and frames autonomy and cohesion in human-developmental terms.",
+      "evidence_type": "located_public_source",
+      "quality_tier": "B",
+      "licence": "source terms",
+      "review_status": "research_pass_needs_editor",
+      "content_hash": "",
+      "public_evidence_status": "public"
+    },
+    {
+      "id": "ev_u39_s38",
+      "source_id": "src_u39_s38",
+      "locator": "09:38–12:40; 14:15–19:00; 20:00–24:18",
+      "excerpt_or_summary": "Whitla distinguishes substantive meaning from the identity and belonging communicated by using or challenging a representation.",
+      "evidence_type": "located_public_source",
+      "quality_tier": "B",
+      "licence": "source terms",
+      "review_status": "research_pass_needs_editor",
+      "content_hash": "",
+      "public_evidence_status": "public"
+    },
+    {
+      "id": "ev_u39_s41",
+      "source_id": "src_u39_s41",
+      "locator": "05:33–06:50; 11:49–14:01; 20:09–25:49",
+      "excerpt_or_summary": "Workman presents an approach to testing conditions under which a strategy fails stakeholder goals, with assumptions open to challenge.",
+      "evidence_type": "located_public_source",
+      "quality_tier": "B",
+      "licence": "source terms",
+      "review_status": "research_pass_needs_editor",
+      "content_hash": "",
+      "public_evidence_status": "public"
+    },
+    {
+      "id": "ev_u39_technodynamics_article",
+      "source_id": "src_u39_technodynamics_article",
+      "locator": "Coordination control; Counter-actions; Endgames",
+      "excerpt_or_summary": "The article describes coordination control and counter-actions, and rejects concentration alone as an evidenced explanation of collapse.",
+      "evidence_type": "primary_text_paraphrase",
+      "quality_tier": "A",
+      "licence": "source terms",
+      "review_status": "research_pass_needs_editor",
+      "content_hash": "",
+      "public_evidence_status": "public"
+    }
+  ],
+  "profiles": [
+    {
+      "node_id": "publication_syscoi_post_28881",
+      "title": "The Second Law of Technodynamics",
+      "canonical_definition": "An attributed proposal by Ivo Velitchkov concerning the concentration of control over coordination terms.",
+      "summary": "Velitchkov proposes that coordination control tends to concentrate without counter-action. Control concerns the ability to set or change terms on which others depend and which they cannot readily replace. Counter-action can itself create another concentration.",
+      "why_it_matters": "The proposal asks who can change participation terms, and what an effective alternative would require.",
+      "key_distinctions": [
+        "Participatory discretion and the opportunities enabled by participation are distinct.",
+        "The thermodynamics comparison is a mnemonic, not a physical equivalence.",
+        "The full article does not establish concentration alone as a cause of collapse."
+      ],
+      "context_and_lineage": "The SysCoI discovery record is retained. The conference account and two public articles provide a more detailed, attributed account.",
+      "historical_lineage": [],
+      "logical_antecedents": [],
+      "dependent_subsequents": [],
+      "practice_connections": [],
+      "espoused_lineages": [],
+      "observed_clusters": [],
+      "common_misreadings": [
+        "A proposed tendency is not a demonstrated universal law."
+      ],
+      "open_checks": [
+        "Audio and on-screen visuals have not been independently checked against the auto-generated captions.",
+        "Human editorial acceptance remains pending."
+      ],
+      "source_ids": [
+        "src_u39_s34",
+        "src_u39_technodynamics_article",
+        "src_u39_cohesion_spectrum"
+      ],
+      "evidence_ids": [
+        "ev_u39_s34",
+        "ev_u39_technodynamics_article"
+      ],
+      "editorial_note": "The older linked Productive Organisational Paradoxes deck is a different presentation. De Visch uses autonomy in a distinct human-developmental sense."
+    }
+  ],
+  "nodes": [
+    {
+      "id": "publication_syscoi_post_28881",
+      "label": "The Second Law of Technodynamics — Velitchkov (2026)",
+      "canonical_definition": "An attributed proposal by Ivo Velitchkov concerning the concentration of control over coordination terms.",
+      "description": "Velitchkov proposes that control over coordination terms tends to concentrate without counter-action. Counter-action may itself create another concentration. The proposed tendency is contestable; the article does not establish concentration alone as a cause of collapse.",
+      "source_ids": [
+        "src_u39_s34",
+        "src_u39_technodynamics_article",
+        "src_u39_cohesion_spectrum"
+      ],
+      "review_status": "research_pass_needs_editor",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    }
+  ]
+}
