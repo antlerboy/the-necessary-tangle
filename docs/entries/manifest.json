@@ -1,6 +1,6 @@
 {
-  "release": "0.38",
-  "entry_count": 232,
+  "release": "0.39",
+  "entry_count": 233,
   "journey_count": 30,
   "routes": [
     "/entries/",
@@ -218,6 +218,7 @@
     "/entries/publication_new_dynamics_of_strategy/",
     "/entries/publication_the_noisy_puddle/",
     "/entries/publication_organic_systems_framework/",
+    "/entries/publication_syscoi_post_28881/",
     "/entries/publication_early_fano_transmission/",
     "/entries/publication_thinking_in_systems/",
     "/entries/person_timothy_f_h_allen/",

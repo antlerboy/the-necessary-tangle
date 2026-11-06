@@ -1,29 +1,19 @@
 # Next work
 
-Status: source and reader implementation verified, 6 November 2026. Necessary publication recovery is active: give each build a unique Pages artifact name and pass that build output to deployment. Source content remains complete; actual Ubuntu checks and deployment.json record publication identity.
+Status: active, 6 November 2026. The explicit six-session SysPrac26 source and reader packet supersedes the completed Principia publication-recovery packet.
 
 ## Outcome and deliverable
 
-Give readers a source-located account of what Principia Cybernetica implemented, proposed, and left incomplete, separating its hypertext architecture from its evolutionary philosophy. Deliver one checked numbered content release with a fixed 15-page register, two linked primary-text traces where available, corrections/development of existing records, and one bounded comparison.
+Produce one public-safe, source-located release and reader guide comparing action conditions, autonomy, shared meaning, and strategy under uncertainty across six selected sessions. Reconcile existing records, including Technodynamics, rather than duplicating them. Human editorial acceptance remains pending.
 
-## Frozen cohort
+## Frozen cohort and boundaries
 
-The exact 15 primary project pages are recorded in documentation/research-2026-11-06-principia/cohort.json. Routes: INTRO, SERVER, NUTSHELL, HISTORY, MANIFESTO, MSTT, MST, EVOLCYB, SEMNET, NODEORG, LINKTYPE, ANNOHELP, COLL, ASC/INDEXASC, and ETHICS. Do not substitute inaccessible pages silently. Two linked author-primary texts are a separately declared extension; source boundaries remain explicit.
+S30 Radde, S33 Shein, S34 Velitchkov, S35 De Visch, S38 Whitla, and S41 Workman. Use the six selected recovery records and public source URLs only; do not expand to a corpus review. Give each an explicit admission or deferral, distinguish caption-derived claims from audio or visual verification, and note unavailable member slides and the mismatched older S34 deck. Preserve differing speaker meanings and defer unsupported theoretical attributions. No private paths, full captions, member material, or usage data in public outputs. No generic relationships, inferred influence, or unsupported performance claims.
 
-## Files and ownership
+## Areas and checks
 
-Source/reader inputs: documentation/research-2026-11-06-principia/. Existing record targets: organisation_principia_cybernetica_project, publication_principia_cybernetica_web, concept_semantic_network, comparator_corpus_principia_cybernetica_web_dictionary, tradition_evolutionary_cybernetics, concept_metasystem_transition, and approach_family_metasystem_transition_theory. No new nodes, graph edges, or biographical dossiers. Existing membership/collaboration lines are reused. A build worker owns update 38 application/baseline/validation/browser scripts, Makefile/workflow integration, generated public projections, release metadata, and material durable state. Root coordinates and publishes. Researchers own disjoint source packets until integration.
-
-## Constraints and checks
-
-Record exact page authorship, displayed creation/revision dates, and source-declared versus observed completeness. Assess implementation claims using technical pages, not aspiration alone. Mark dated self-reports as dated, and do not test or submit annotation forms. Trace philosophical claims to their authors and separate descriptive mechanisms from normative choices; no consensus or historical influence from resemblance. Keep provenance, dictionary voices, access failures, and editorial research status visible. Human editorial acceptance is pending. Public-safe original paraphrase only, with no full source copies, private paths, account data, or source-owner-reviewed changes.
-
-Run full make validate or its exact ordered local equivalent plus actual Ubuntu gate. Check restoration/idempotence and protected source-owner hashes. Inspect new guide/digest/journey and developed entries at desktop/mobile widths; preserve genuine hrefs and fixed Open updates control. Publish under standing AGENTS permission after checks, then verify exact live deployment and routes.
+Source packet: documentation/research-2026-11-06-sysprac-six/. Use established source-application and reader-generation patterns for a numbered release, preserving prior content, source-owner Systemic Evolution bytes, genuine hrefs, and the Open updates control. Run full make validate or its ordered equivalent, actual Ubuntu CI, and inspect named reader paths at 390 and 1440 pixels. Preserve public/private boundaries and pending editorial status.
 
 ## Stop
 
-One implementation and verification pass; a corrective pass addresses a named failure. Stop at a checked release, source/access boundary, packet limit, or an editorial decision. Do not claim full-site review or deployed functionality that was not tested.
-
-## Publication recovery
-
-The first Pages deployment timed out while syncing files. A deployment-only retry returned cancelled status. Rebuilding produced duplicate default artifact names in one workflow run, and deploy-pages correctly rejected the ambiguity. The recovery changes only the publisher naming contract: build once chooses a unique run/attempt artifact name, upload uses it, and deployment consumes the retained build-job output. Existing artifacts, source content, Pages settings, and access controls are preserved. Files: .github/workflows/pages.yml and documentation/publication-recovery-20261106.md. Run focused YAML/linkage checks plus actual Ubuntu PR validation before merge; then verify public deployment and live routes.
+One implementation and verification pass; a third pass only addresses a named failed check. Stop at a checked release, a source boundary, a material editorial decision, or the packet limit. Root coordinates final checks and publication.

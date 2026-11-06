@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.39 — 6 November 2026
+
+Six attributed SysPrac26 accounts and an editorial guide to conditions for action. Human editorial acceptance remains pending.
+
+
 ## 0.38 — 6 November 2026
 
 Seven existing entries gain source-located Principia Cybernetica profiles and an editorial reading journey. New exposition awaits editorial acceptance.

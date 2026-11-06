@@ -1,7 +1,7 @@
 # The Necessary Tangle
 
 <!-- current-31 -->
-Current release: **0.38, 6 November 2026**. [Knowledge and worldviews](https://transduction.systems/updates/2026-11-06-principia/). [Read the source guide](https://transduction.systems/reading/knowledge-and-worldviews/).
+Current release: **0.39, 6 November 2026**. [Conditions for action](https://transduction.systems/updates/2026-11-06-sysprac-six/). [Read the guide](https://transduction.systems/reading/conditions-for-action/).
 <!-- /current-31 -->
 <!-- saidtosomeone-readme-1 -->
 Companion page, edition **1.1, 29 October 2026**: [Heinz von Foerster’s maxims, talks, and writing](https://transduction.systems/saidtosomeone/). All 29 anthology items indexed; 54 register entries distinguish primary formulations, reported sayings, paraphrases, and variants. Further numbered collections, four firsthand recollections, recordings, papers, and Benjamin’s imagined conversation with Don Van Vliet. The large TNT mark animates, pauses, and changes using the main site’s asset family. One deliberately invented marginal saying is identified by a dagger and a visible contains hallucinations warning. Atlas dataset release and counts are unchanged.
