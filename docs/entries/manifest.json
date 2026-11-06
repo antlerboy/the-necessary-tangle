@@ -1,7 +1,7 @@
 {
-  "release": "0.37",
-  "entry_count": 225,
-  "journey_count": 29,
+  "release": "0.38",
+  "entry_count": 232,
+  "journey_count": 30,
   "routes": [
     "/entries/",
     "/journeys/",
@@ -76,6 +76,7 @@
     "/entries/publication_essential_balances/",
     "/entries/concept_essential_variables/",
     "/entries/method_or_methodology_estuarine_mapping/",
+    "/entries/tradition_evolutionary_cybernetics/",
     "/entries/concept_explicit_semantics/",
     "/entries/concept_feedback/",
     "/entries/concept_feedforward/",
@@ -112,6 +113,8 @@
     "/entries/person_mary_e_boone/",
     "/entries/concept_material_open_system/",
     "/entries/concept_transition_meta_rules/",
+    "/entries/concept_metasystem_transition/",
+    "/entries/approach_family_metasystem_transition_theory/",
     "/entries/person_michael_c_jackson/",
     "/entries/person_michael_lissack/",
     "/entries/framework_multi_level_perspective/",
@@ -163,6 +166,8 @@
     "/entries/practice_lab_transposing_theory/",
     "/entries/practice_lab_viable_system_model/",
     "/entries/publication_u31_prigogine/",
+    "/entries/organisation_principia_cybernetica_project/",
+    "/entries/publication_principia_cybernetica_web/",
     "/entries/concept_purpose/",
     "/entries/person_raul_espejo/",
     "/entries/person_ray_ison/",
@@ -175,6 +180,7 @@
     "/entries/publication_fpcs_010/",
     "/entries/organisation_scio_systems_and_complexity_in_organisation/",
     "/entries/concept_self_organisation/",
+    "/entries/concept_semantic_network/",
     "/entries/tool_sensemaker/",
     "/entries/approach_family_service_systems_thinking/",
     "/entries/method_or_methodology_soft_systems_methodology_ssm/",
@@ -229,6 +235,7 @@
     "/entries/concept_viability/",
     "/entries/method_or_methodology_viable_system_model_vsm/",
     "/entries/method_or_methodology_viplan/",
+    "/entries/comparator_corpus_principia_cybernetica_web_dictionary/",
     "/entries/person_werner_ulrich/",
     "/entries/publication_boundary_cannot_carry_alone/",
     "/journeys/journey_emergence_self_org/",
@@ -259,6 +266,7 @@
     "/journeys/journey_learning_changes/",
     "/journeys/journey_boundaries_becoming/",
     "/journeys/journey_observation_judgement_action/",
-    "/journeys/journey_models_and_patterns/"
+    "/journeys/journey_models_and_patterns/",
+    "/journeys/journey_principia_knowledge_and_worldviews/"
   ]
 }

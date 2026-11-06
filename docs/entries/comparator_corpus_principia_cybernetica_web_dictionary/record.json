@@ -1,0 +1,180 @@
+{
+  "schema_version": "1.0",
+  "canonical_url": "https://transduction.systems/entries/comparator_corpus_principia_cybernetica_web_dictionary/",
+  "release": "0.38",
+  "citation": "Taylor, B. P. (2026). Web Dictionary of Cybernetics and Systems. The Necessary Tangle, release 0.38. https://transduction.systems/entries/comparator_corpus_principia_cybernetica_web_dictionary/",
+  "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
+  "entry": {
+    "id": "comparator_corpus_principia_cybernetica_web_dictionary",
+    "label": "Web Dictionary of Cybernetics and Systems",
+    "entity_type": "comparator_corpus",
+    "description": "The index says it combines the ASC Glossary, Krippendorff’s Dictionary, and Hornung’s Glossary with permission, and attributes definitions individually. It credits Francis Heylighen with compilation and hypertext conversion, assisted by An Vranckx.",
+    "aliases": [
+      "Principia Cybernetica Web Dictionary"
+    ],
+    "boundary_ring": "1",
+    "inclusion_reason": "named_public_corpus",
+    "status": "accepted",
+    "source_ids": [
+      "src_principia_dictionary"
+    ],
+    "set_tags": [
+      "cybernetics",
+      "systems",
+      "principia",
+      "dictionary",
+      "comparator",
+      "release_0_8_expansion",
+      "reviewed_seed_candidate"
+    ],
+    "espoused_labels": [],
+    "observed_clusters": [],
+    "canonical_definition": "An alphabetical index to a composite cybernetics and systems dictionary hosted within the Principia Cybernetica Web.",
+    "valid_from": "",
+    "valid_to": "",
+    "external_ids": "{}",
+    "geographies": [],
+    "licence": "source_terms",
+    "review_status": "research_pass_needs_editor",
+    "reviewed_by": "",
+    "reviewed_at": "",
+    "x": 0.84,
+    "y": -0.26,
+    "canonical_id": "comparator_corpus_principia_cybernetica_web_dictionary",
+    "public_visibility": "public",
+    "publication_level": "profile",
+    "public_stub_text": "",
+    "public_source_count": 1,
+    "no_public_link_count": 0,
+    "connection_pass": "principia_20261106"
+  },
+  "profile": {
+    "node_id": "comparator_corpus_principia_cybernetica_web_dictionary",
+    "title": "Web Dictionary of Cybernetics and Systems",
+    "summary": "The index says it combines the ASC Glossary, Krippendorff’s Dictionary, and Hornung’s Glossary with permission, and attributes definitions individually. It credits Francis Heylighen with compilation and hypertext conversion, assisted by An Vranckx.",
+    "canonical_definition": "An alphabetical index to a composite cybernetics and systems dictionary hosted within the Principia Cybernetica Web.",
+    "why_it_matters": "An index combining attributed definitions is not a single consensus vocabulary. Individual entries were not examined in this pass.",
+    "context_and_lineage": "Source exposition located at Dictionary index: author field and introductory paragraph.",
+    "editorial_note": "Source-located research exposition; comparison is editorial, not a claim of influence. Earlier review remains preserved separately.",
+    "reviewed_by": "",
+    "reviewed_at": "",
+    "key_distinctions": [
+      "An index combining attributed definitions is not a single consensus vocabulary. Individual entries were not examined in this pass."
+    ],
+    "historical_lineage": [],
+    "logical_antecedents": [],
+    "dependent_subsequents": [],
+    "practice_connections": [],
+    "espoused_lineages": [],
+    "observed_clusters": [],
+    "common_misreadings": [],
+    "open_checks": [
+      "Human editorial acceptance remains pending."
+    ],
+    "source_ids": [
+      "src_principia_dictionary"
+    ],
+    "evidence_ids": [
+      "ev_u38_pcp_asc"
+    ],
+    "connection_pass": "principia_20261106",
+    "profile_status": "evidence_deepened_research_pass",
+    "last_researched": "2026-11-06",
+    "review_status": "research_pass_needs_editor"
+  },
+  "connections": [
+    {
+      "id": "e_principia_02",
+      "source": "comparator_corpus_principia_cybernetica_web_dictionary",
+      "target": "publication_principia_cybernetica_web",
+      "relation_type": "part_of",
+      "relation_family": "classification",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.9",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_principia_dictionary"
+      ],
+      "evidence_ids": [],
+      "source_locator": "",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "The dictionary identifies itself as part of Principia Cybernetica Web.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-10",
+      "notes": "The dictionary identifies itself as part of Principia Cybernetica Web. Candidate relation retained after endpoint and source validation.",
+      "plain_phrase": "is part of",
+      "public_review_label": "accepted in bibliographic first pass"
+    },
+    {
+      "id": "e_principia_12",
+      "source": "comparator_corpus_principia_cybernetica_web_dictionary",
+      "target": "person_francis_heylighen",
+      "relation_type": "authored_by",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.9",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_principia_dictionary"
+      ],
+      "evidence_ids": [],
+      "source_locator": "",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "The dictionary page credits Francis Heylighen, helped by An Vranckx.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-10",
+      "notes": "The dictionary page credits Francis Heylighen, helped by An Vranckx. Candidate relation retained after endpoint and source validation.",
+      "plain_phrase": "was compiled and converted to hypertext by",
+      "public_review_label": "accepted in bibliographic first pass"
+    }
+  ],
+  "claims": [],
+  "sources": [
+    {
+      "id": "src_principia_dictionary",
+      "title": "Web Dictionary of Cybernetics and Systems",
+      "source_type": "primary_webpage",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://pespmc1.vub.ac.be/ASC/INDEXASC.html",
+      "date": "checked 2026-08-19",
+      "notes": "Primary page read on 6 November 2026. Index combines several attributed sources; individual entries were not reviewed.",
+      "creators": [
+        "F. Heylighen"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Principia Cybernetica",
+      "licence": "source_terms",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "research_pass_needs_editor",
+      "last_checked": "2026-11-06",
+      "public_link_status": "public_link",
+      "connection_pass": "principia_20261106",
+      "source_locator": "Author field; introductory paragraph; Defined Terms",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "access_note": "Index combines several attributed sources; individual entries were not reviewed."
+    }
+  ],
+  "evidence_locators": [
+    {
+      "id": "ev_u38_pcp_asc",
+      "source_id": "src_principia_dictionary",
+      "locator": "Author field; introductory paragraph; Defined Terms",
+      "review_status": "research_pass_needs_editor"
+    }
+  ],
+  "reuse_note": "Preserve source attribution, scope, and review status. Source documents and evidence excerpts are excluded."
+}

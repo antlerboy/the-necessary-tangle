@@ -1,0 +1,477 @@
+{
+  "packet": "principia-architecture-20261106",
+  "sources": [
+    {
+      "id": "src_principia_intro",
+      "title": "Introduction to Principia Cybernetica",
+      "authors": [
+        "Heylighen",
+        "Joslyn",
+        "Turchin"
+      ],
+      "date": "Jan 9, 2003",
+      "publisher": "Principia Cybernetica",
+      "source_type": "primary_webpage",
+      "url": "https://pespmc1.vub.ac.be/INTRO.html",
+      "locator": "Opening paragraphs; footer",
+      "verified": "Primary page read on 6 November 2026.",
+      "limits": "Dated self-report; present-day functionality not tested.",
+      "content_hash": ""
+    },
+    {
+      "id": "src_principia_server",
+      "title": "About the Principia Cybernetica Server",
+      "authors": [
+        "F. Heylighen"
+      ],
+      "date": "Mar 15, 2002",
+      "publisher": "Principia Cybernetica",
+      "source_type": "primary_webpage",
+      "url": "https://pespmc1.vub.ac.be/SERVER.html",
+      "locator": "Opening paragraphs; footer",
+      "verified": "Primary page read on 6 November 2026.",
+      "limits": "Dated self-report; present-day functionality not tested.",
+      "content_hash": ""
+    },
+    {
+      "id": "src_principia_nutshell",
+      "title": "Overview of Principia Cybernetica",
+      "authors": [
+        "F. Heylighen",
+        "C. Joslyn",
+        "V. Turchin"
+      ],
+      "date": "Jan 16, 2001",
+      "publisher": "Principia Cybernetica",
+      "source_type": "primary_webpage",
+      "url": "https://pespmc1.vub.ac.be/NUTSHELL.html",
+      "locator": "Tools; Structure; Practical organization; footer",
+      "verified": "Primary page read on 6 November 2026.",
+      "limits": "Dated self-report; present-day functionality not tested.",
+      "content_hash": ""
+    },
+    {
+      "id": "src_principia_project_history",
+      "title": "History of the Principia Cybernetica Project",
+      "authors": [
+        "Heylighen",
+        "Joslyn",
+        "Turchin"
+      ],
+      "date": "Jun 19, 1998",
+      "publisher": "Principia Cybernetica",
+      "source_type": "primary_webpage",
+      "url": "https://pespmc1.vub.ac.be/HISTORY.html",
+      "locator": "Origin of the Project; (Electronic) Publications; footer",
+      "verified": "Primary page read on 6 November 2026.",
+      "limits": "Dated self-report; present-day functionality not tested.",
+      "content_hash": ""
+    },
+    {
+      "id": "src_u38_principia_semnet",
+      "title": "Hypertext web as a semantic network",
+      "authors": [
+        "C. Joslyn",
+        "F. Heylighen"
+      ],
+      "date": "Oct 26, 1993",
+      "publisher": "Principia Cybernetica",
+      "source_type": "primary_webpage",
+      "url": "https://pespmc1.vub.ac.be/SEMNET.html",
+      "locator": "Opening paragraphs; footer",
+      "verified": "Primary page read on 6 November 2026.",
+      "limits": "Dated self-report; present-day functionality not tested.",
+      "content_hash": ""
+    },
+    {
+      "id": "src_u38_principia_nodeorg",
+      "title": "Node Organization",
+      "authors": [
+        "C. Joslyn",
+        "F. Heylighen"
+      ],
+      "date": "Apr 6, 2000",
+      "publisher": "Principia Cybernetica",
+      "source_type": "primary_webpage",
+      "url": "https://pespmc1.vub.ac.be/NODEORG.html",
+      "locator": "Opening paragraphs; Standard Nodes; footer",
+      "verified": "Primary page read on 6 November 2026.",
+      "limits": "Dated self-report; present-day functionality not tested.",
+      "content_hash": ""
+    },
+    {
+      "id": "src_u38_principia_linktype",
+      "title": "Links and Link Types",
+      "authors": [
+        "C. Joslyn",
+        "F. Heylighen"
+      ],
+      "date": "Jun 29, 1995",
+      "publisher": "Principia Cybernetica",
+      "source_type": "primary_webpage",
+      "url": "https://pespmc1.vub.ac.be/LINKTYPE.html",
+      "locator": "Opening paragraphs; footer",
+      "verified": "Primary page read on 6 November 2026.",
+      "limits": "Dated self-report; present-day functionality not tested.",
+      "content_hash": ""
+    },
+    {
+      "id": "src_u38_principia_annohelp",
+      "title": "Guidelines for making annotations",
+      "authors": [
+        "F. Heylighen"
+      ],
+      "date": "Feb 5, 1996",
+      "publisher": "Principia Cybernetica",
+      "source_type": "primary_webpage",
+      "url": "https://pespmc1.vub.ac.be/ANNOHELP.html",
+      "locator": "Opening paragraphs; Password and Choose type of annotation fields; footer",
+      "verified": "Primary page read on 6 November 2026.",
+      "limits": "Dated self-report; present-day functionality not tested.",
+      "content_hash": ""
+    },
+    {
+      "id": "src_u38_principia_coll",
+      "title": "Collaborators Needed",
+      "authors": [
+        "F. Heylighen",
+        "C. Joslyn"
+      ],
+      "date": "Jan 19, 1998",
+      "publisher": "Principia Cybernetica",
+      "source_type": "primary_webpage",
+      "url": "https://pespmc1.vub.ac.be/COLL.html",
+      "locator": "Opening paragraphs; footer",
+      "verified": "Primary page read on 6 November 2026.",
+      "limits": "Dated self-report; present-day functionality not tested.",
+      "content_hash": ""
+    },
+    {
+      "id": "src_principia_dictionary",
+      "title": "Web Dictionary of Cybernetics and Systems",
+      "authors": [
+        "F. Heylighen"
+      ],
+      "date": "",
+      "publisher": "Principia Cybernetica",
+      "source_type": "primary_webpage",
+      "url": "https://pespmc1.vub.ac.be/ASC/INDEXASC.html",
+      "locator": "Author field; introductory paragraph; Defined Terms",
+      "verified": "Primary page read on 6 November 2026.",
+      "limits": "Index combines several attributed sources; individual entries were not reviewed.",
+      "content_hash": ""
+    }
+  ],
+  "evidence_proposals": [
+    {
+      "id": "ev_u38_pcp_intro",
+      "source_id": "src_principia_intro",
+      "locator": "Opening paragraphs; footer",
+      "excerpt_or_summary": "The introduction proposes a linked philosophical system and reports a 1993 web implementation.",
+      "evidence_type": "primary_text_paraphrase",
+      "quality_tier": "A",
+      "licence": "source_terms",
+      "review_status": "research_pass_needs_editor",
+      "content_hash": "",
+      "public_evidence_status": "public"
+    },
+    {
+      "id": "ev_u38_pcp_server",
+      "source_id": "src_principia_server",
+      "locator": "Opening paragraphs; footer",
+      "excerpt_or_summary": "The server page says [empty] identifies a menu with no text and reports historical server use.",
+      "evidence_type": "primary_text_paraphrase",
+      "quality_tier": "A",
+      "licence": "source_terms",
+      "review_status": "research_pass_needs_editor",
+      "content_hash": "",
+      "public_evidence_status": "public"
+    },
+    {
+      "id": "ev_u38_pcp_nutshell",
+      "source_id": "src_principia_nutshell",
+      "locator": "Tools; Structure; Practical organization; footer",
+      "excerpt_or_summary": "The overview describes a collaborative philosophy, a conceptual network, and the tools intended to support it.",
+      "evidence_type": "primary_text_paraphrase",
+      "quality_tier": "A",
+      "licence": "source_terms",
+      "review_status": "research_pass_needs_editor",
+      "content_hash": "",
+      "public_evidence_status": "public"
+    },
+    {
+      "id": "ev_u38_pcp_history",
+      "source_id": "src_principia_project_history",
+      "locator": "Origin of the Project; (Electronic) Publications; footer",
+      "excerpt_or_summary": "The project history reports a July 1993 web server and a September 1994 experimental adaptive semantic hypertext.",
+      "evidence_type": "primary_text_paraphrase",
+      "quality_tier": "A",
+      "licence": "source_terms",
+      "review_status": "research_pass_needs_editor",
+      "content_hash": "",
+      "public_evidence_status": "public"
+    },
+    {
+      "id": "ev_u38_pcp_semnet",
+      "source_id": "src_u38_principia_semnet",
+      "locator": "Opening paragraphs; footer",
+      "excerpt_or_summary": "The proposed conceptual network combines nodes, semantic relations, hierarchical access, and formal and informal aspects of meaning.",
+      "evidence_type": "primary_text_paraphrase",
+      "quality_tier": "A",
+      "licence": "source_terms",
+      "review_status": "research_pass_needs_editor",
+      "content_hash": "",
+      "public_evidence_status": "public"
+    },
+    {
+      "id": "ev_u38_pcp_nodeorg",
+      "source_id": "src_u38_principia_nodeorg",
+      "locator": "Opening paragraphs; Standard Nodes; footer",
+      "excerpt_or_summary": "The page says node types were not really implemented and collaborative status was not fully implemented.",
+      "evidence_type": "primary_text_paraphrase",
+      "quality_tier": "A",
+      "licence": "source_terms",
+      "review_status": "research_pass_needs_editor",
+      "content_hash": "",
+      "public_evidence_status": "public"
+    },
+    {
+      "id": "ev_u38_pcp_linktype",
+      "source_id": "src_u38_principia_linktype",
+      "locator": "Opening paragraphs; footer",
+      "excerpt_or_summary": "The page lists proposed pragmatic and semantic relations but says only one link type was then implemented.",
+      "evidence_type": "primary_text_paraphrase",
+      "quality_tier": "A",
+      "licence": "source_terms",
+      "review_status": "research_pass_needs_editor",
+      "content_hash": "",
+      "public_evidence_status": "public"
+    },
+    {
+      "id": "ev_u38_pcp_annohelp",
+      "source_id": "src_u38_principia_annohelp",
+      "locator": "Opening paragraphs; Password and Choose type of annotation fields; footer",
+      "excerpt_or_summary": "The guide describes annotation creation, says editing was not implemented, and says type labels described annotations without system semantics.",
+      "evidence_type": "primary_text_paraphrase",
+      "quality_tier": "A",
+      "licence": "source_terms",
+      "review_status": "research_pass_needs_editor",
+      "content_hash": "",
+      "public_evidence_status": "public"
+    },
+    {
+      "id": "ev_u38_pcp_coll",
+      "source_id": "src_u38_principia_coll",
+      "locator": "Opening paragraphs; footer",
+      "excerpt_or_summary": "The invitation seeks readers, contributors, reviewers, technical help, and administrative support.",
+      "evidence_type": "primary_text_paraphrase",
+      "quality_tier": "A",
+      "licence": "source_terms",
+      "review_status": "research_pass_needs_editor",
+      "content_hash": "",
+      "public_evidence_status": "public"
+    },
+    {
+      "id": "ev_u38_pcp_asc",
+      "source_id": "src_principia_dictionary",
+      "locator": "Author field; introductory paragraph; Defined Terms",
+      "excerpt_or_summary": "The index combines three named glossaries or dictionaries with permission and attributes definitions individually; Heylighen compiled and converted the texts with An Vranckx.",
+      "evidence_type": "primary_text_paraphrase",
+      "quality_tier": "A",
+      "licence": "source_terms",
+      "review_status": "research_pass_needs_editor",
+      "content_hash": "",
+      "public_evidence_status": "public"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "organisation_principia_cybernetica_project",
+      "canonical_definition": "A collaborative project seeking to develop a cybernetic and evolutionary philosophy with computer support.",
+      "description": "The project history attributes the early project to Turchin and Joslyn and reports Heylighen joining the editorial board in 1990. Its overview describes a board, contributors, publications, meetings, and electronic lists. These are dated project self-reports.",
+      "source_ids": [
+        "src_principia_project_history",
+        "src_principia_nutshell",
+        "src_u38_principia_coll"
+      ],
+      "review_status": "research_pass_needs_editor",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    {
+      "id": "publication_principia_cybernetica_web",
+      "canonical_definition": "A hypertext publication and conceptual network associated with the Principia Cybernetica Project.",
+      "description": "The project history reports a web server in July 1993 and an experimental adaptive semantic hypertext in September 1994. Its annotation guide describes a historical submission process; present operation was not tested. The server page explains that an [empty] node has a menu but no text.",
+      "source_ids": [
+        "src_principia_project_history",
+        "src_principia_server",
+        "src_u38_principia_annohelp"
+      ],
+      "review_status": "research_pass_needs_editor",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    {
+      "id": "concept_semantic_network",
+      "canonical_definition": "A representation in which nodes are connected by relations whose types can convey meaning.",
+      "description": "Joslyn and Heylighen describe a conceptual network with multiple hierarchies and both formal and reader-interpreted meaning. Their technical pages distinguish the proposal from implementation: node types were not really implemented, collaborative status was incomplete, and only one link type was implemented at the time described.",
+      "source_ids": [
+        "src_u38_principia_semnet",
+        "src_u38_principia_nodeorg",
+        "src_u38_principia_linktype"
+      ],
+      "review_status": "research_pass_needs_editor",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    {
+      "id": "comparator_corpus_principia_cybernetica_web_dictionary",
+      "canonical_definition": "An alphabetical index to a composite cybernetics and systems dictionary hosted within the Principia Cybernetica Web.",
+      "description": "The index says it combines the ASC Glossary, Krippendorff\u2019s Dictionary, and Hornung\u2019s Glossary with permission, and attributes definitions individually. It credits Francis Heylighen with compilation and hypertext conversion, assisted by An Vranckx.",
+      "source_ids": [
+        "src_principia_dictionary"
+      ],
+      "review_status": "research_pass_needs_editor",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    }
+  ],
+  "profiles": [
+    {
+      "node_id": "organisation_principia_cybernetica_project",
+      "title": "Principia Cybernetica Project",
+      "canonical_definition": "A collaborative project seeking to develop a cybernetic and evolutionary philosophy with computer support.",
+      "summary": "The project history attributes the early project to Turchin and Joslyn and reports Heylighen joining the editorial board in 1990. Its overview describes a board, contributors, publications, meetings, and electronic lists. These are dated project self-reports.",
+      "why_it_matters": "The project is an organisation and philosophical undertaking; its web is a medium and corpus, not the whole undertaking.",
+      "key_distinctions": [
+        "The project is an organisation and philosophical undertaking; its web is a medium and corpus, not the whole undertaking."
+      ],
+      "context_and_lineage": "Source exposition located at History: Origin of the Project; Overview: Practical organization; Collaborators Needed: opening paragraphs.",
+      "historical_lineage": [],
+      "logical_antecedents": [],
+      "dependent_subsequents": [],
+      "practice_connections": [],
+      "espoused_lineages": [],
+      "observed_clusters": [],
+      "common_misreadings": [],
+      "open_checks": [
+        "Human editorial acceptance remains pending."
+      ],
+      "source_ids": [
+        "src_principia_project_history",
+        "src_principia_nutshell",
+        "src_u38_principia_coll"
+      ],
+      "evidence_ids": [
+        "ev_u38_pcp_history",
+        "ev_u38_pcp_nutshell",
+        "ev_u38_pcp_coll"
+      ],
+      "editorial_note": "Source-located research exposition; comparison is editorial, not a claim of influence. Earlier review remains preserved separately.",
+      "review_status": "research_pass_needs_editor",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    {
+      "node_id": "publication_principia_cybernetica_web",
+      "title": "Principia Cybernetica Web",
+      "canonical_definition": "A hypertext publication and conceptual network associated with the Principia Cybernetica Project.",
+      "summary": "The project history reports a web server in July 1993 and an experimental adaptive semantic hypertext in September 1994. Its annotation guide describes a historical submission process; present operation was not tested. The server page explains that an [empty] node has a menu but no text.",
+      "why_it_matters": "The proposed architecture, a historical experiment, and current working functionality are distinct.",
+      "key_distinctions": [
+        "The proposed architecture, a historical experiment, and current working functionality are distinct."
+      ],
+      "context_and_lineage": "Source exposition located at History: (Electronic) Publications; Server: opening paragraphs; Annotation guidelines: opening paragraphs.",
+      "historical_lineage": [],
+      "logical_antecedents": [],
+      "dependent_subsequents": [],
+      "practice_connections": [],
+      "espoused_lineages": [],
+      "observed_clusters": [],
+      "common_misreadings": [],
+      "open_checks": [
+        "Human editorial acceptance remains pending."
+      ],
+      "source_ids": [
+        "src_principia_project_history",
+        "src_principia_server",
+        "src_u38_principia_annohelp"
+      ],
+      "evidence_ids": [
+        "ev_u38_pcp_history",
+        "ev_u38_pcp_server",
+        "ev_u38_pcp_annohelp"
+      ],
+      "editorial_note": "Source-located research exposition; comparison is editorial, not a claim of influence. Earlier review remains preserved separately.",
+      "review_status": "research_pass_needs_editor",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    {
+      "node_id": "concept_semantic_network",
+      "title": "Semantic network",
+      "canonical_definition": "A representation in which nodes are connected by relations whose types can convey meaning.",
+      "summary": "Joslyn and Heylighen describe a conceptual network with multiple hierarchies and both formal and reader-interpreted meaning. Their technical pages distinguish the proposal from implementation: node types were not really implemented, collaborative status was incomplete, and only one link type was implemented at the time described.",
+      "why_it_matters": "A proposed typed relation is not proof that its semantics were implemented.",
+      "key_distinctions": [
+        "A proposed typed relation is not proof that its semantics were implemented."
+      ],
+      "context_and_lineage": "Source exposition located at Semantic network: opening paragraphs; Node Organization: opening and Collaborative Status; Links and Link Types: opening.",
+      "historical_lineage": [],
+      "logical_antecedents": [],
+      "dependent_subsequents": [],
+      "practice_connections": [],
+      "espoused_lineages": [],
+      "observed_clusters": [],
+      "common_misreadings": [],
+      "open_checks": [
+        "Human editorial acceptance remains pending."
+      ],
+      "source_ids": [
+        "src_u38_principia_semnet",
+        "src_u38_principia_nodeorg",
+        "src_u38_principia_linktype"
+      ],
+      "evidence_ids": [
+        "ev_u38_pcp_semnet",
+        "ev_u38_pcp_nodeorg",
+        "ev_u38_pcp_linktype"
+      ],
+      "editorial_note": "Source-located research exposition; comparison is editorial, not a claim of influence. Earlier review remains preserved separately.",
+      "review_status": "research_pass_needs_editor",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    {
+      "node_id": "comparator_corpus_principia_cybernetica_web_dictionary",
+      "title": "Web Dictionary of Cybernetics and Systems",
+      "canonical_definition": "An alphabetical index to a composite cybernetics and systems dictionary hosted within the Principia Cybernetica Web.",
+      "summary": "The index says it combines the ASC Glossary, Krippendorff\u2019s Dictionary, and Hornung\u2019s Glossary with permission, and attributes definitions individually. It credits Francis Heylighen with compilation and hypertext conversion, assisted by An Vranckx.",
+      "why_it_matters": "An index combining attributed definitions is not a single consensus vocabulary. Individual entries were not examined in this pass.",
+      "key_distinctions": [
+        "An index combining attributed definitions is not a single consensus vocabulary. Individual entries were not examined in this pass."
+      ],
+      "context_and_lineage": "Source exposition located at Dictionary index: author field and introductory paragraph.",
+      "historical_lineage": [],
+      "logical_antecedents": [],
+      "dependent_subsequents": [],
+      "practice_connections": [],
+      "espoused_lineages": [],
+      "observed_clusters": [],
+      "common_misreadings": [],
+      "open_checks": [
+        "Human editorial acceptance remains pending."
+      ],
+      "source_ids": [
+        "src_principia_dictionary"
+      ],
+      "evidence_ids": [
+        "ev_u38_pcp_asc"
+      ],
+      "editorial_note": "Source-located research exposition; comparison is editorial, not a claim of influence. Earlier review remains preserved separately.",
+      "review_status": "research_pass_needs_editor",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    }
+  ]
+}

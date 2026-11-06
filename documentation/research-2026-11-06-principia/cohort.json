@@ -1,0 +1,84 @@
+{
+  "frozen_at": "2026-11-06T18:27:45.154021+00:00",
+  "baseline_commit": "8891064ff2966f64eea7043640f3ad28a3c1c1b3",
+  "pages": [
+    {
+      "number": 1,
+      "url": "https://pespmc1.vub.ac.be/INTRO.html",
+      "path": "INTRO.html"
+    },
+    {
+      "number": 2,
+      "url": "https://pespmc1.vub.ac.be/SERVER.html",
+      "path": "SERVER.html"
+    },
+    {
+      "number": 3,
+      "url": "https://pespmc1.vub.ac.be/NUTSHELL.html",
+      "path": "NUTSHELL.html"
+    },
+    {
+      "number": 4,
+      "url": "https://pespmc1.vub.ac.be/HISTORY.html",
+      "path": "HISTORY.html"
+    },
+    {
+      "number": 5,
+      "url": "https://pespmc1.vub.ac.be/MANIFESTO.html",
+      "path": "MANIFESTO.html"
+    },
+    {
+      "number": 6,
+      "url": "https://pespmc1.vub.ac.be/MSTT.html",
+      "path": "MSTT.html"
+    },
+    {
+      "number": 7,
+      "url": "https://pespmc1.vub.ac.be/MST.html",
+      "path": "MST.html"
+    },
+    {
+      "number": 8,
+      "url": "https://pespmc1.vub.ac.be/EVOLCYB.html",
+      "path": "EVOLCYB.html"
+    },
+    {
+      "number": 9,
+      "url": "https://pespmc1.vub.ac.be/SEMNET.html",
+      "path": "SEMNET.html"
+    },
+    {
+      "number": 10,
+      "url": "https://pespmc1.vub.ac.be/NODEORG.html",
+      "path": "NODEORG.html"
+    },
+    {
+      "number": 11,
+      "url": "https://pespmc1.vub.ac.be/LINKTYPE.html",
+      "path": "LINKTYPE.html"
+    },
+    {
+      "number": 12,
+      "url": "https://pespmc1.vub.ac.be/ANNOHELP.html",
+      "path": "ANNOHELP.html"
+    },
+    {
+      "number": 13,
+      "url": "https://pespmc1.vub.ac.be/COLL.html",
+      "path": "COLL.html"
+    },
+    {
+      "number": 14,
+      "url": "https://pespmc1.vub.ac.be/ASC/INDEXASC.html",
+      "path": "ASC/INDEXASC.html"
+    },
+    {
+      "number": 15,
+      "url": "https://pespmc1.vub.ac.be/ETHICS.html",
+      "path": "ETHICS.html"
+    }
+  ],
+  "count": 15,
+  "source_status_rule": "Distinguish source-declared empty/incomplete from observed substantive text, menu only, and retrieval failure. Text present does not prove finished. No replacement page silently added.",
+  "primary_text_extension": "Two linked author-primary texts only, discovered from this cohort and separately identified; no full-corpus or whole-book reading claim."
+}

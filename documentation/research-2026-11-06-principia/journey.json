@@ -1,0 +1,45 @@
+{
+  "id": "journey_principia_knowledge_and_worldviews",
+  "title": "What does a knowledge web commit us to?",
+  "subtitle": "Architecture, participation, and evolutionary philosophy",
+  "summary": "An editorial route through seven existing records, asking what was proposed, what was implemented, whose meanings are retained, and which values guide the programme. It asserts no historical influence.",
+  "audience": "readers evaluating a knowledge network or an evolutionary argument",
+  "duration_minutes": 20,
+  "steps": [
+    {
+      "node_id": "organisation_principia_cybernetica_project",
+      "heading": "What is the project trying to build?",
+      "narrative": "Separate the collaborative undertaking and its philosophical commitments from its publishing medium."
+    },
+    {
+      "node_id": "publication_principia_cybernetica_web",
+      "heading": "What was implemented?",
+      "narrative": "Read the dated technical admissions alongside the proposed features; no present annotation service was tested."
+    },
+    {
+      "node_id": "concept_semantic_network",
+      "heading": "What does a typed link assert?",
+      "narrative": "Distinguish a proposed relation system, actual implementation, and a reader interpretation."
+    },
+    {
+      "node_id": "comparator_corpus_principia_cybernetica_web_dictionary",
+      "heading": "Whose definition is this?",
+      "narrative": "Keep the constituent glossary authors visible; this pass covers the introductory index, not all entries."
+    },
+    {
+      "node_id": "concept_metasystem_transition",
+      "heading": "What new control appears?",
+      "narrative": "Identify the controlling mechanism. A larger aggregate alone does not establish a transition."
+    },
+    {
+      "node_id": "approach_family_metasystem_transition_theory",
+      "heading": "Which kind of claim is being made?",
+      "narrative": "Distinguish a transition definition from the wider philosophy, historical interpretations, forecasts, and ethics."
+    },
+    {
+      "node_id": "tradition_evolutionary_cybernetics",
+      "heading": "Which values enter the programme?",
+      "narrative": "Examine attributed commitments and domain-specific evidence without treating the programme as field consensus."
+    }
+  ]
+}
