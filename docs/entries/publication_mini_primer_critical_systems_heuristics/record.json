@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0",
   "canonical_url": "https://transduction.systems/entries/publication_mini_primer_critical_systems_heuristics/",
-  "release": "0.35",
-  "citation": "Taylor, B. P. (2026). A Mini-Primer of Critical Systems Heuristics. The Necessary Tangle, release 0.35. https://transduction.systems/entries/publication_mini_primer_critical_systems_heuristics/",
+  "release": "0.36",
+  "citation": "Taylor, B. P. (2026). A Mini-Primer of Critical Systems Heuristics. The Necessary Tangle, release 0.36. https://transduction.systems/entries/publication_mini_primer_critical_systems_heuristics/",
   "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
   "entry": {
     "id": "publication_mini_primer_critical_systems_heuristics",
@@ -157,24 +157,27 @@
     {
       "id": "src_ulrich_csh_mini_primer_2023",
       "title": "A Mini-Primer of Critical Systems Heuristics",
-      "source_type": "primary_author_method_page",
+      "source_type": "primary_text",
       "quality_tier": "A",
       "access": "public",
       "url": "https://wulrich.com/csh.html",
-      "date": "2005; updated 2023-05-20",
-      "notes": "Werner Ulrich's maintained primary account defines Critical Systems Heuristics as reflective practice centred on systematic boundary critique and twelve critical boundary questions.",
+      "date": "checked 2026-08-19",
+      "notes": "Author's page body inspected on 6 November 2026. It identifies normative boundary assumptions, cooperative and emancipatory uses, and limits on unique right answers. Enrich the existing record; retain its bibliographic history. Do not infer a fixed procedure from this primer or treat its account of CSH as evidence that another tradition is equivalent.",
       "creators": [
         "Werner Ulrich"
       ],
       "doi": "",
       "isbn": "",
-      "publisher": "Werner Ulrich",
+      "publisher": "",
       "licence": "noncommercial_distribution_and_citation_with_attribution",
       "archived_url": "",
       "content_hash": "",
-      "review_status": "checked",
-      "last_checked": "2026-08-11",
-      "public_link_status": "public_link"
+      "review_status": "passage_checked_research_pass",
+      "last_checked": "2026-11-06",
+      "public_link_status": "public_link",
+      "connection_pass": "depth_20261106",
+      "source_locator": "Main text beginning Critical systems heuristics; paragraphs beginning A critical approach, The first two applications, and In short; final Summary",
+      "access_note": "Enrich the existing record; retain its bibliographic history. Do not infer a fixed procedure from this primer or treat its account of CSH as evidence that another tradition is equivalent."
     }
   ],
   "evidence_locators": [],

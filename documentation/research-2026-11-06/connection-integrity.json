@@ -1,0 +1,589 @@
+{
+  "packet": "Connection integrity and counterexamples",
+  "checked_on": "2026-11-06",
+  "baseline_commit": "50740423a0b4b553e4ff4a8f503bc599071143a7",
+  "baseline_public_data_sha256": "9ebb80abb990c9a49fb6bd83be107149259b87d681a0dd0e960336b3ce10debb",
+  "scope": "All 18 connections and 11 profiles changed in the completed 29 October deepening; immediate endpoint senses; the newly named conceptual/practice cohort when its packets are ready. This is not a semantic review of all 3154 graph edges or an independent proof of the cited theories.",
+  "editorial_status": "Research and integration proposals. Root integrates shared data; named human acceptance remains open.",
+  "baseline_checks": {
+    "release": "0.35",
+    "total_edges": 3154,
+    "changed_edges": 18,
+    "changed_profiles": 11,
+    "unique_identifiers": {
+      "nodes": true,
+      "edges": true,
+      "sources": true,
+      "evidence": true,
+      "claims": true,
+      "journeys": true
+    },
+    "all_targeted_mechanical_checks_pass": true,
+    "duplicate_typed_pairs_in_targeted_cohort": 0,
+    "semantic_defects_proposed_for_repair": 1
+  },
+  "edge_review": [
+    {
+      "edge_id": "e16_grammar_crosswalk_162",
+      "source_id": "concept_modelling",
+      "target_id": "law_or_principle_conant_ashby_theorem",
+      "type": "explanatory_prerequisite",
+      "assertion_mode": "asserted",
+      "mechanical_errors": [],
+      "duplicate_typed_pairs": [],
+      "semantic_disposition": "retain scoped candidate; no new canonical acceptance"
+    },
+    {
+      "edge_id": "e16_grammar_crosswalk_163",
+      "source_id": "law_or_principle_conant_ashby_theorem",
+      "target_id": "concept_regulation",
+      "type": "formalises",
+      "assertion_mode": "asserted",
+      "mechanical_errors": [],
+      "duplicate_typed_pairs": [],
+      "semantic_disposition": "retain scoped candidate; no new canonical acceptance"
+    },
+    {
+      "edge_id": "e_0349",
+      "source_id": "method_or_methodology_viable_system_model_vsm",
+      "target_id": "concept_organisational_recursion",
+      "type": "uses",
+      "assertion_mode": "asserted",
+      "mechanical_errors": [],
+      "duplicate_typed_pairs": [],
+      "semantic_disposition": "retain scoped candidate; no new canonical acceptance"
+    },
+    {
+      "edge_id": "e_fpcs_topic_034_concept_requisite_variety",
+      "source_id": "concept_requisite_variety",
+      "target_id": "publication_fpcs_034",
+      "type": "compares_method",
+      "assertion_mode": "inferred",
+      "mechanical_errors": [],
+      "duplicate_typed_pairs": [],
+      "semantic_disposition": "retain scoped candidate; no new canonical acceptance"
+    },
+    {
+      "edge_id": "e_v03_information_theory_information",
+      "source_id": "concept_information_theory",
+      "target_id": "concept_information",
+      "type": "formalises",
+      "assertion_mode": "asserted",
+      "mechanical_errors": [],
+      "duplicate_typed_pairs": [],
+      "semantic_disposition": "retain scoped candidate; no new canonical acceptance"
+    },
+    {
+      "edge_id": "e_v03_vsm_transduction",
+      "source_id": "method_or_methodology_viable_system_model_vsm",
+      "target_id": "concept_transduction",
+      "type": "uses",
+      "assertion_mode": "asserted",
+      "mechanical_errors": [],
+      "duplicate_typed_pairs": [],
+      "semantic_disposition": "retain scoped candidate; no new canonical acceptance"
+    },
+    {
+      "edge_id": "e16_relational_crosswalk_223",
+      "source_id": "person_stafford_beer",
+      "target_id": "method_or_methodology_viable_system_model_vsm",
+      "type": "developed",
+      "assertion_mode": "asserted",
+      "mechanical_errors": [],
+      "duplicate_typed_pairs": [],
+      "semantic_disposition": "retain scoped candidate; no new canonical acceptance"
+    },
+    {
+      "edge_id": "e35_variety_information_theory",
+      "source_id": "law_or_principle_law_of_requisite_variety",
+      "target_id": "concept_information_theory",
+      "type": "uses_in_argument",
+      "assertion_mode": "asserted",
+      "mechanical_errors": [],
+      "duplicate_typed_pairs": [],
+      "semantic_disposition": "retain scoped candidate; no new canonical acceptance"
+    },
+    {
+      "edge_id": "e35_variety_transduction",
+      "source_id": "concept_requisite_variety",
+      "target_id": "concept_transduction",
+      "type": "constrains",
+      "assertion_mode": "asserted",
+      "mechanical_errors": [],
+      "duplicate_typed_pairs": [],
+      "semantic_disposition": "retain scoped candidate; no new canonical acceptance"
+    },
+    {
+      "edge_id": "e35_steps_learning_levels",
+      "source_id": "publication_steps_to_ecology_of_mind",
+      "target_id": "concept_bateson_learning_levels",
+      "type": "presents_account_of",
+      "assertion_mode": "asserted",
+      "mechanical_errors": [],
+      "duplicate_typed_pairs": [],
+      "semantic_disposition": "retain scoped candidate; no new canonical acceptance"
+    },
+    {
+      "edge_id": "e35_learning_levels_double_loop",
+      "source_id": "concept_bateson_learning_levels",
+      "target_id": "concept_double_loop_learning",
+      "type": "compares_method",
+      "assertion_mode": "inferred",
+      "mechanical_errors": [],
+      "duplicate_typed_pairs": [],
+      "semantic_disposition": "retain scoped candidate; no new canonical acceptance"
+    },
+    {
+      "edge_id": "e35_double_loop_single_loop",
+      "source_id": "concept_double_loop_learning",
+      "target_id": "concept_single_loop_learning",
+      "type": "compares_method",
+      "assertion_mode": "asserted",
+      "mechanical_errors": [],
+      "duplicate_typed_pairs": [],
+      "semantic_disposition": "retain scoped candidate; no new canonical acceptance"
+    },
+    {
+      "edge_id": "e35_simondon_transduction_author",
+      "source_id": "concept_transduction_simondon",
+      "target_id": "person_gilbert_simondon",
+      "type": "formulated_by",
+      "assertion_mode": "asserted",
+      "mechanical_errors": [],
+      "duplicate_typed_pairs": [],
+      "semantic_disposition": "retain scoped candidate; no new canonical acceptance"
+    },
+    {
+      "edge_id": "e35_transduction_distinct_senses",
+      "source_id": "concept_transduction_simondon",
+      "target_id": "concept_transduction",
+      "type": "distinguishes_from",
+      "assertion_mode": "inferred",
+      "mechanical_errors": [],
+      "duplicate_typed_pairs": [],
+      "semantic_disposition": "retain scoped candidate; no new canonical acceptance"
+    },
+    {
+      "edge_id": "e35_autopoiesis_paper_account",
+      "source_id": "publication_fpcs_048",
+      "target_id": "concept_autopoiesis",
+      "type": "presents_account_of",
+      "assertion_mode": "asserted",
+      "mechanical_errors": [],
+      "duplicate_typed_pairs": [],
+      "semantic_disposition": "retain scoped candidate; no new canonical acceptance"
+    },
+    {
+      "edge_id": "e35_autopoiesis_boundary_condition",
+      "source_id": "publication_fpcs_048",
+      "target_id": "concept_boundary",
+      "type": "proposes_condition_for",
+      "assertion_mode": "asserted",
+      "mechanical_errors": [],
+      "duplicate_typed_pairs": [],
+      "semantic_disposition": "retain scoped candidate; no new canonical acceptance"
+    },
+    {
+      "edge_id": "e35_autopoiesis_autonomy",
+      "source_id": "concept_autopoiesis",
+      "target_id": "concept_autonomy",
+      "type": "explains",
+      "assertion_mode": "asserted",
+      "mechanical_errors": [],
+      "duplicate_typed_pairs": [],
+      "semantic_disposition": "repair endpoint-sense mismatch"
+    },
+    {
+      "edge_id": "e35_coupling_transduction_comparison",
+      "source_id": "concept_structural_coupling",
+      "target_id": "concept_transduction",
+      "type": "complements",
+      "assertion_mode": "inferred",
+      "mechanical_errors": [],
+      "duplicate_typed_pairs": [],
+      "semantic_disposition": "retain scoped candidate; no new canonical acceptance"
+    }
+  ],
+  "profile_review": [
+    {
+      "node_id": "concept_information",
+      "status": "research_pass_needs_editor",
+      "disposition": "Retain prior depth and explicit limits; do not count a reread as a new enrichment."
+    },
+    {
+      "node_id": "concept_requisite_variety",
+      "status": "research_pass_needs_editor",
+      "disposition": "Retain prior depth and explicit limits; do not count a reread as a new enrichment."
+    },
+    {
+      "node_id": "concept_transduction",
+      "status": "research_pass_needs_editor",
+      "disposition": "Retain prior depth and explicit limits; do not count a reread as a new enrichment."
+    },
+    {
+      "node_id": "law_or_principle_conant_ashby_theorem",
+      "status": "research_pass_needs_editor",
+      "disposition": "Retain prior depth and explicit limits; do not count a reread as a new enrichment."
+    },
+    {
+      "node_id": "concept_bateson_learning_levels",
+      "status": "research_pass_needs_editor",
+      "disposition": "Retain prior depth and explicit limits; do not count a reread as a new enrichment."
+    },
+    {
+      "node_id": "concept_double_loop_learning",
+      "status": "research_pass_needs_editor",
+      "disposition": "Retain prior depth and explicit limits; do not count a reread as a new enrichment."
+    },
+    {
+      "node_id": "person_stafford_beer",
+      "status": "research_pass_needs_editor",
+      "disposition": "Retain prior depth and explicit limits; do not count a reread as a new enrichment."
+    },
+    {
+      "node_id": "concept_transduction_simondon",
+      "status": "research_pass_needs_editor",
+      "disposition": "Retain prior depth and explicit limits; do not count a reread as a new enrichment."
+    },
+    {
+      "node_id": "concept_autopoiesis",
+      "status": "research_pass_needs_editor",
+      "disposition": "Retain prior depth and explicit limits; do not count a reread as a new enrichment."
+    },
+    {
+      "node_id": "publication_fpcs_048",
+      "status": "research_pass_needs_editor",
+      "disposition": "Retain prior depth and explicit limits; do not count a reread as a new enrichment."
+    },
+    {
+      "node_id": "concept_structural_coupling",
+      "status": "research_pass_needs_editor",
+      "disposition": "Retain prior depth and explicit limits; do not count a reread as a new enrichment."
+    }
+  ],
+  "finding": {
+    "id": "autonomy-endpoint-sense",
+    "edge_id": "e35_autopoiesis_autonomy",
+    "current_source": "concept_autopoiesis",
+    "current_target": "concept_autonomy",
+    "problem": "The line qualifies its assertion as biological autonomy, but the endpoint has an exclusively managerial definition. A reader following the line can infer that self-production explains operational discretion even though the scope note denies that inference.",
+    "preferred_repair": "Keep existing entry IDs and counts. Make the line an explicitly editorial distinction, and add reciprocal scope notes to the existing two profiles. A separate biological-autonomy node is unnecessary for this reader need.",
+    "rejected_shortcuts": [
+      "Do not rename managerial autonomy to encompass all senses without developing them.",
+      "Do not infer that the biological theory grants staff decision rights.",
+      "Do not add a new node merely to change a coverage count.",
+      "Do not convert the distinction into historical influence."
+    ]
+  },
+  "edge_updates": [
+    {
+      "id": "e35_autopoiesis_autonomy",
+      "source": "concept_autopoiesis",
+      "target": "concept_autonomy",
+      "relation_type": "distinguishes_from",
+      "relation_family": "conceptual",
+      "directed": "true",
+      "claim_status": "candidate",
+      "plain_phrase": "uses self-production in a sense distinct from the operational discretion described by",
+      "scope_conditions": "The 1974 biological account concerns maintaining the organisation constituting a unity. The target entry concerns operational discretion within wider constraints. This is an editorial distinction between those uses, not a derivation of management rights from self-production.",
+      "assertion_mode": "inferred",
+      "inference_method": "Editorial comparison of separately located biological and management accounts",
+      "source_ids": [
+        "src_u35_varela_maturana_uribe_1974",
+        "src_taylor_vsm_lecture_2025"
+      ],
+      "evidence_ids": [
+        "ev36_biological_autonomy_scope",
+        "ev36_managerial_autonomy_scope"
+      ],
+      "source_locator": "Varela, Maturana, and Uribe, sections 3–4, printed p. 188; Taylor, 10 May 2025 lecture, PDF p. 8 (bounded discretion) and p. 55 (autonomy and cohesion)",
+      "claim_id": "claim35_e35_autopoiesis_autonomy",
+      "public_review_label": "Editorial distinction; neither equivalence nor historical influence asserted",
+      "provenance_instruction": "Preserve the prior record in the new release original-record ledger. Retain the existing edge ID so saved links remain valid; current provenance is not silently erased."
+    }
+  ],
+  "claim_updates": [
+    {
+      "id": "claim35_e35_autopoiesis_autonomy",
+      "subject_id": "concept_autopoiesis",
+      "predicate": "distinguishes_from",
+      "object_id": "concept_autonomy",
+      "statement": "The 1974 biological account concerns maintaining the organisation constituting a unity. The target entry concerns operational discretion within wider constraints. This is an editorial distinction between those uses, not a derivation of management rights from self-production.",
+      "status": "candidate",
+      "supporting_source_ids": [
+        "src_u35_varela_maturana_uribe_1974",
+        "src_taylor_vsm_lecture_2025"
+      ],
+      "supporting_evidence_ids": [
+        "ev36_biological_autonomy_scope",
+        "ev36_managerial_autonomy_scope"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_evidence_ids": [],
+      "review_status": "research_pass_needs_editor",
+      "notes": "Editorial distinction; preserve both senses and their units of analysis. No theory of management autonomy is derived from the biological source."
+    }
+  ],
+  "evidence_additions": [
+    {
+      "id": "ev36_biological_autonomy_scope",
+      "source_id": "src_u35_varela_maturana_uribe_1974",
+      "locator": "Sections 3–4, printed p. 188 (PDF p. 2)",
+      "excerpt_or_summary": "The authors explain autonomy through the continued operation of the organisation constituting a unity, including component production.",
+      "evidence_type": "source_summary",
+      "quality_tier": "A",
+      "public_evidence_status": "public",
+      "licence": "see_source",
+      "review_status": "passage_checked_research_pass"
+    },
+    {
+      "id": "ev36_managerial_autonomy_scope",
+      "source_id": "src_taylor_vsm_lecture_2025",
+      "locator": "PDF p. 8; PDF p. 55",
+      "excerpt_or_summary": "Taylor's teaching account places freedom to act within boundaries and balances organisational autonomy with cohesion.",
+      "evidence_type": "source_summary",
+      "quality_tier": "C",
+      "public_evidence_status": "public",
+      "licence": "see_source",
+      "review_status": "passage_checked_research_pass"
+    }
+  ],
+  "profile_updates": [
+    {
+      "node_id": "concept_autopoiesis",
+      "append_to_summary": "The paper's biological use of autonomy concerns self-production of a unity. It doesn't establish the decision rights of its parts.",
+      "append_key_distinctions": [
+        "Biological self-production versus managerial discretion"
+      ],
+      "append_open_checks": [
+        "Any organisational application must state its components, production processes, unit of analysis, and decision rights separately."
+      ],
+      "source_ids_to_add": [
+        "src_u35_varela_maturana_uribe_1974",
+        "src_taylor_vsm_lecture_2025"
+      ],
+      "evidence_ids_to_add": [
+        "ev36_biological_autonomy_scope",
+        "ev36_managerial_autonomy_scope"
+      ],
+      "status": "research_pass_needs_editor"
+    },
+    {
+      "node_id": "concept_autonomy",
+      "append_to_summary": "This entry concerns operational discretion within wider constraints. A claim about biological self-production neither assigns that discretion nor shows who may decide what.",
+      "append_key_distinctions": [
+        "Operational discretion versus biological self-production"
+      ],
+      "append_open_checks": [
+        "Do not infer delegated authority from an account of self-production."
+      ],
+      "source_ids_to_add": [
+        "src_u35_varela_maturana_uribe_1974",
+        "src_taylor_vsm_lecture_2025"
+      ],
+      "evidence_ids_to_add": [
+        "ev36_biological_autonomy_scope",
+        "ev36_managerial_autonomy_scope"
+      ],
+      "status": "research_pass_needs_editor"
+    }
+  ],
+  "source_rechecks": [
+    {
+      "source_id": "src_u35_varela_maturana_uribe_1974",
+      "url": "https://homepages.math.uic.edu/~kauffman/MUV.pdf",
+      "read_on": "2026-11-06",
+      "read_scope": "Sections 3–4 and the six-part identification key in section 9; not the algorithm appendix or a model reproduction.",
+      "locator": "Printed pp. 188 and 192–193"
+    },
+    {
+      "source_id": "src_taylor_vsm_lecture_2025",
+      "url": "https://antlerboy.com/library/files/talks/viable-system-model-lecture.pdf",
+      "read_on": "2026-11-06",
+      "read_scope": "Title/date, bounded discretion on PDF p. 8, and autonomy/cohesion on PDF p. 55; not all 224 pages.",
+      "locator": "PDF pp. 1, 8, and 55"
+    },
+    {
+      "source_id": "src_u35_beer_vsm_1989",
+      "url": "https://kybernetik.ch/dwn/Viable_System_Model.pdf",
+      "read_on": "2026-11-06",
+      "read_scope": "The distinction among operational, channel, and transducer capacity, and the limitations discussion.",
+      "locator": "PDF pp. 6–8"
+    }
+  ],
+  "counterexamples": [
+    {
+      "id": "capacity-is-not-authority",
+      "status": "Constructed editorial stress test; not an empirical case",
+      "scenario": "A referral reaches the receiving team with every relevant distinction intact. The team can understand it but may authorise none of the responses it requires.",
+      "inference_that_fails": "Adequate communication/transduction capacity establishes effective action.",
+      "reader_check": "Identify the available actions, resources, and authority after the signal arrives.",
+      "protects": [
+        "e_v03_vsm_transduction",
+        "e35_variety_transduction"
+      ],
+      "basis": "Beer, PDF pp. 6–8, distinguishes capacities; Taylor, PDF p. 8, makes freedom to act part of the work account. The referral itself is invented."
+    },
+    {
+      "id": "stable-outline-is-not-self-production",
+      "status": "Constructed editorial stress test; not an empirical case",
+      "scenario": "An analyst draws a durable box around an externally maintained machine and calls its continued operation self-production.",
+      "inference_that_fails": "A stable boundary, repeated operation, or survival alone meets the autopoiesis criteria.",
+      "reader_check": "Specify which processes produce the components and boundary, and whether they belong to the unity being described.",
+      "protects": [
+        "e35_autopoiesis_boundary_condition",
+        "e35_autopoiesis_paper_account"
+      ],
+      "basis": "Varela, Maturana, and Uribe, section 9, printed pp. 192–193. The machine is invented."
+    },
+    {
+      "id": "whole-does-not-assign-part-discretion",
+      "status": "Constructed logical scope test; not an empirical claim",
+      "scenario": "A claim about how a unity maintains itself is used to conclude that a particular organisational part should be free to choose its work.",
+      "inference_that_fails": "A property asserted of the unity supplies a decision-rights arrangement for its parts.",
+      "reader_check": "Keep the unit of analysis and the meaning of autonomy explicit at both endpoints.",
+      "protects": [
+        "e35_autopoiesis_autonomy"
+      ],
+      "basis": "Comparison of the biological account on printed p. 188 with Taylor PDF pp. 8 and 55."
+    },
+    {
+      "id": "shared-word-is-not-lineage",
+      "status": "Constructed logical scope test; not a historical finding",
+      "scenario": "Two authors use 'transduction', but one investigates individuation and the other conversion at an organisational boundary.",
+      "inference_that_fails": "A shared term or useful comparison establishes shared mechanism, equivalence, or historical influence.",
+      "reader_check": "Read the different questions each source answers; require separate historical evidence for transmission.",
+      "protects": [
+        "e35_transduction_distinct_senses",
+        "e35_coupling_transduction_comparison"
+      ],
+      "basis": "The completed 29 October transduction packet, with its source locators and explicit limits. No new full-text reading is claimed here."
+    },
+    {
+      "id": "reflection-vocabulary-is-not-changed-premise",
+      "status": "Constructed editorial stress test; not an empirical case",
+      "scenario": "A team adds a reflection meeting but its governing assumptions and decisions remain unaltered.",
+      "inference_that_fails": "Another feedback meeting establishes double-loop learning or a higher Bateson learning level.",
+      "reader_check": "Find the changed governing assumption or altered process of learning, rather than count meetings or arrows.",
+      "protects": [
+        "e35_learning_levels_double_loop",
+        "e35_double_loop_single_loop"
+      ],
+      "basis": "The completed 29 October regulation/learning packet. The team is invented and the different classifications remain distinct."
+    },
+    {
+      "id": "forecast-is-not-regulator",
+      "status": "Constructed editorial stress test; not an empirical case",
+      "scenario": "An accurate forecast is attached to an organisation that has no specified response mapping or outcome criterion.",
+      "inference_that_fails": "Possessing a model or prediction establishes the good-regulator theorem’s assumptions or organisational optimality.",
+      "reader_check": "State the outcome criterion and regulatory mapping before invoking the theorem.",
+      "protects": [
+        "e16_grammar_crosswalk_162",
+        "e16_grammar_crosswalk_163"
+      ],
+      "basis": "The completed 29 October primary-source packet, Conant and Ashby electronic PDF pp. 5–9. No new theorem proof is claimed."
+    }
+  ],
+  "reader_route": {
+    "title": "What changes when you follow this line?",
+    "steps": [
+      "Read both endpoint definitions, not just their names.",
+      "Identify the unit of analysis and the sense of the shared term.",
+      "Read the source locator, scope, and recorded review status.",
+      "Try the named counterexample before transferring the claim to a service or institution.",
+      "Keep an editorial comparison separate from historical influence or demonstrated effectiveness."
+    ],
+    "autonomy_note": "Follow the contrast between self-production of a unity and operational discretion within a wider organisation. Neither question settles the other."
+  },
+  "new_cohort_review": {
+    "status": "Conceptual and practice compatibility checks passed; coordinated shared-data integration and full release gate remain with root.",
+    "conceptual_nodes": [
+      "concept_observer",
+      "concept_multiple_perspectives",
+      "concept_boundary_critique",
+      "concept_structure_agency"
+    ],
+    "practice_labs": [
+      "critical-systems-heuristics",
+      "multi-methodology",
+      "ethics-and-power"
+    ],
+    "practice": {
+      "status": "compatible; no concrete semantic defect found",
+      "reviewed_on": "2026-11-06",
+      "scope": "All six added rounds plus the three changed scope statements, criteria, answer checks, case assumptions, and source ledger. No full specialist teaching review is implied.",
+      "findings": [
+        "Local ending stock90 and partnership ending stock102 are correct under the explicitly stipulated zero-other-stock assumptions.",
+        "Eight repeat contacts remain a separate workload/event quantity, not eight additional distinct cases.",
+        "Continuing boundary critique does not depend on sponsor permission; the exercise does not confer authority to intervene.",
+        "Affected participants can reframe the purpose, not only adjust parameters.",
+        "Activity-specific pause conditions retain the stated contextual/legal limits.",
+        "No new graph assertion or equivalence is introduced by the method handoff."
+      ],
+      "reviewed_files": [
+        {
+          "path": "documentation/research-2026-11-06/practice-deepening.json",
+          "sha256": "e71e0db009469c82a0cb57effde3ba7427c76b451ca104512a09e0bcf97db5e1"
+        },
+        {
+          "path": "sources/practice-pack/01-foundations-and-core.json",
+          "sha256": "de0d7230fa53acc81c34c504c65e67d7806f1d7bc71c3ac67f776fda9e0c68c5"
+        },
+        {
+          "path": "sources/practice-pack/02-further-core.json",
+          "sha256": "2dd03b8d229ef5219fa41679452d5d01918addf6ccfb22d09c3d144cb516d742"
+        },
+        {
+          "path": "sources/practice-pack/03-systemic-intervention.json",
+          "sha256": "582d704a9306589185dd71953f1af1e6f40a13c1e5a485a5a6bfb213f2d6b223"
+        }
+      ]
+    },
+    "conceptual": {
+      "status": "compatible after one named wording correction",
+      "reviewed_on": "2026-11-06",
+      "scope": "All four profile proposals, five source records and access limits, eight evidence proposals, four new edges/claims, matched existing Bhaskar edge/claim correction, and reader prose. This is source/connection compatibility review, not a duplicate full-text primary-source or specialist review.",
+      "counts": {
+        "profiles": 4,
+        "source_records": 5,
+        "new_source_records": 4,
+        "new_evidence_records": 8,
+        "new_edge_claim_pairs": 4,
+        "revised_edge_claim_pairs": 1
+      },
+      "mechanical_checks": [
+        "All endpoints and registered relation types exist.",
+        "Proposed new source/evidence IDs are unique against the recovered baseline.",
+        "Source/evidence bindings and exact locators are present.",
+        "Claims match their edge endpoints, predicate, and candidate status.",
+        "No proposed typed source-target pair duplicates another baseline line.",
+        "Revised profiles carry no inherited human sign-off."
+      ],
+      "semantic_checks": [
+        "Observer participation does not establish representation or legitimacy.",
+        "Multiple perspectives, accommodation, and agreement are kept distinct.",
+        "Boundary critique does not compute a uniquely right boundary or confer authority to intervene.",
+        "A changed account and changed conditions of social action require different evidence.",
+        "Bhaskar is not used to adjudicate Giddens or Archer without independent reading; indexed-body access limits are explicit."
+      ],
+      "named_correction": {
+        "field": "concept_multiple_perspectives.why_it_matters",
+        "problem": "Unchanged initial framing was treated as evidence of little inquiry value.",
+        "resolution": "The revised field allows comparison to justify retaining the original question while improving its evidence and limits.",
+        "status": "corrected and checked"
+      },
+      "reviewed_file": {
+        "path": "documentation/research-2026-11-06/conceptual-deepening.json",
+        "sha256": "f0c5c23b17e99e21da5bb0cc62b49cd654e8e6f2c3898ff2f70c1c5fbed06fb9"
+      }
+    }
+  },
+  "acceptance": [
+    "Preserve the existing edge ID and historical record.",
+    "Keep the revised edge and its claim in exact endpoint/type/status agreement.",
+    "Both evidence records resolve to existing public source IDs and exact passages.",
+    "Retain candidate/editorial status; add no influence or generic related-to lines.",
+    "No new node or blanket definition change is required.",
+    "Root runs full release validation, idempotence, source-owner checksums, and desktop/mobile reader checks after integration."
+  ]
+}

@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0",
   "canonical_url": "https://transduction.systems/entries/publication_u31_bhaskar/",
-  "release": "0.35",
-  "citation": "Taylor, B. P. (2026). Bhaskar: mechanisms in open systems (Challoner, 2026). The Necessary Tangle, release 0.35. https://transduction.systems/entries/publication_u31_bhaskar/",
+  "release": "0.36",
+  "citation": "Taylor, B. P. (2026). Bhaskar: mechanisms in open systems (Challoner, 2026). The Necessary Tangle, release 0.36. https://transduction.systems/entries/publication_u31_bhaskar/",
   "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
   "entry": {
     "id": "publication_u31_bhaskar",
@@ -200,7 +200,7 @@
       "id": "e31_module_bhaskar_4",
       "source": "publication_u31_bhaskar",
       "target": "concept_structure_agency",
-      "relation_type": "introduces_distinction",
+      "relation_type": "presents_account_of",
       "relation_family": "conceptual",
       "directed": "true",
       "dependency_kind": "",
@@ -215,16 +215,19 @@
       "source_locator": "pp. 5–6, DS1–DS2 and PS1–PS3",
       "valid_from": "",
       "valid_to": "",
-      "scope_conditions": "In Challoner’s reconstruction: Social structures depend on activity while conditioning the agency that reproduces or transforms them.",
+      "scope_conditions": "Challoner's secondary reconstruction. No claim that the module or Bhaskar originated the general structure–agency distinction.",
       "assertion_mode": "asserted",
       "inference_method": "",
       "claim_id": "claim_e31_module_bhaskar_4",
       "reviewed_by": "",
       "reviewed_at": "",
-      "notes": "",
-      "plain_phrase": "introduces distinction",
-      "public_review_label": "Located source statement; curator review pending",
-      "connection_pass": "update_20261008"
+      "notes": "Earlier wording and provenance are retained in this release original-record ledger.",
+      "plain_phrase": "presents a reconstructed account of structural conditioning and social activity",
+      "public_review_label": "Secondary reconstruction; no historical priority claimed",
+      "connection_pass": "depth_20261106",
+      "review_status": "research_pass_needs_editor",
+      "previous_source_ids": "[\"src_u31_bhaskar\"]",
+      "previous_evidence_ids": "[\"ev_e31_module_bhaskar_4\"]"
     }
   ],
   "claims": [
@@ -314,9 +317,9 @@
     },
     {
       "id": "claim_e31_module_bhaskar_4",
-      "statement": "In Challoner’s reconstruction: Social structures depend on activity while conditioning the agency that reproduces or transforms them.",
+      "statement": "Challoner's researcher module presents a reconstructed account in which social structures condition activity while depending on activity for reproduction or transformation.",
       "subject_id": "publication_u31_bhaskar",
-      "predicate": "introduces_distinction",
+      "predicate": "presents_account_of",
       "object_id": "concept_structure_agency",
       "status": "candidate",
       "supporting_source_ids": [
@@ -327,11 +330,11 @@
       ],
       "contradicting_source_ids": [],
       "contradicting_evidence_ids": [],
-      "notes": "Source-scoped interpretation. Human editorial acceptance remains pending.",
+      "notes": "Secondary reconstruction, not a historical priority claim. Existing supporting source and evidence IDs are retained.",
       "review_status": "research_pass_needs_editor",
       "reviewed_by": "",
       "reviewed_at": "",
-      "connection_pass": "update_20261008"
+      "connection_pass": "depth_20261106"
     }
   ],
   "sources": [

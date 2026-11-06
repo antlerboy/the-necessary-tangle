@@ -1,20 +1,21 @@
 {
   "schema_version": "1.0",
   "canonical_url": "https://transduction.systems/entries/concept_structure_agency/",
-  "release": "0.35",
-  "citation": "Taylor, B. P. (2026). Structure and agency. The Necessary Tangle, release 0.35. https://transduction.systems/entries/concept_structure_agency/",
+  "release": "0.36",
+  "citation": "Taylor, B. P. (2026). Structure and agency. The Necessary Tangle, release 0.36. https://transduction.systems/entries/concept_structure_agency/",
   "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
   "entry": {
     "id": "concept_structure_agency",
     "label": "Structure and agency",
     "entity_type": "concept",
-    "description": "A distinction between social conditions and the actions that reproduce or transform them. Their interdependence does not make the concepts interchangeable or settle who can act in a particular setting.",
+    "description": "In Bhaskar's transformational model, a round of action starts within social forms it did not create, while their continuation depends on activity. Reproduction and transformation are both possible; recognising their relation does not tell us which change a particular actor can achieve.",
     "aliases": [],
     "boundary_ring": "0",
     "inclusion_reason": "update_20261008",
     "status": "candidate",
     "source_ids": [
-      "src_u31_bhaskar"
+      "src_u31_bhaskar",
+      "src_u36_bhaskar_persons_2020"
     ],
     "set_tags": [
       "systems",
@@ -23,7 +24,7 @@
     ],
     "espoused_labels": [],
     "observed_clusters": [],
-    "canonical_definition": "A distinction between social conditions and the actions that reproduce or transform them. Their interdependence does not make the concepts interchangeable or settle who can act in a particular setting.",
+    "canonical_definition": "The relation between conditions of social action and the activities through which those conditions are reproduced or changed.",
     "valid_from": "",
     "valid_to": "",
     "external_ids": "{}",
@@ -38,49 +39,76 @@
     "public_visibility": "public",
     "publication_level": "profile",
     "public_stub_text": "",
-    "public_source_count": 1,
+    "public_source_count": 2,
     "no_public_link_count": 0,
-    "connection_pass": "update_20261008"
+    "connection_pass": "depth_20261106"
   },
   "profile": {
     "node_id": "concept_structure_agency",
-    "summary": "A distinction between social conditions and the actions that reproduce or transform them. Their interdependence does not make the concepts interchangeable or settle who can act in a particular setting.",
-    "canonical_definition": "A distinction between social conditions and the actions that reproduce or transform them. Their interdependence does not make the concepts interchangeable or settle who can act in a particular setting.",
-    "why_it_matters": "Inspect the passage and the stated domain before using a term in a new setting.",
+    "summary": "In Bhaskar's transformational model, a round of action starts within social forms it did not create, while their continuation depends on activity. Reproduction and transformation are both possible; recognising their relation does not tell us which change a particular actor can achieve.",
+    "canonical_definition": "The relation between conditions of social action and the activities through which those conditions are reproduced or changed.",
+    "why_it_matters": "Reframing a problem may change what people consider doing while leaving a contract, resource allocation, or authority relation in place. A proposal needs an account of how those conditions could actually change.",
     "key_distinctions": [
-      "source account vs editorial interpretation",
-      "material exchange vs causal openness",
-      "bibliographic access vs full-text evidence"
+      "conditions inherited before an action versus outcomes produced through it",
+      "structural conditioning versus complete determination",
+      "acting intentionally versus intending every social consequence",
+      "imagining an alternative versus meeting the conditions of transition"
     ],
-    "historical_lineage": [],
-    "logical_antecedents": [],
-    "dependent_subsequents": [],
+    "historical_lineage": [
+      "Bhaskar's later retrospective account of his transformational model; Challoner's researcher module remains a separate secondary reconstruction."
+    ],
+    "logical_antecedents": [
+      "social relations",
+      "historical conditions",
+      "human activity"
+    ],
+    "dependent_subsequents": [
+      "reproduction or transformation",
+      "transition conditions",
+      "limits and possibilities of action"
+    ],
     "practice_connections": [
-      "Name the domain, conditions, and observation that could challenge the proposed connection."
+      "Name a condition that predates the current initiative and the activity that keeps it in force.",
+      "Specify which actors could change it, with what authority and resources, and through which sequence of actions.",
+      "Distinguish an account that has changed from a social relation that has changed; seek evidence for each."
     ],
     "common_misreadings": [
-      "Treating a shared term as proof that two accounts are equivalent."
+      "Structures exist wholly independently of human activity.",
+      "Because people reproduce structures, any individual can choose to remove them.",
+      "Bhaskar's TMSA, Giddens's structuration, and Archer's analytical dualism are interchangeable names.",
+      "An abstract ontology supplies a ready-made intervention."
     ],
     "open_checks": [
-      "Original-source verification and human editorial review remain open."
+      "Giddens and Archer have not been independently source-checked in this pass. Bhaskar's own comparison cannot settle their differences.",
+      "The 1979 book itself has not been inspected here; the primary account is a 2011 presentation published in 2020.",
+      "Test the proposed mechanism and transition conditions in the setting; the general account does not establish them."
     ],
     "source_ids": [
-      "src_u31_bhaskar"
+      "src_u31_bhaskar",
+      "src_u36_bhaskar_persons_2020"
     ],
     "context_and_lineage": "",
-    "editorial_note": "AI-assisted source reading. Human curator: Benjamin P Taylor. New claims remain candidates.",
-    "last_researched": "2026-10-08",
-    "connection_pass": "update_20261008",
+    "editorial_note": "Replaces generic placeholder distinctions with a source-specific account. The contracts/resources example and practice questions are editorial applications. The source is not treated as a neutral adjudication of rival social theories.",
+    "last_researched": "2026-11-06",
+    "connection_pass": "depth_20261106",
     "title": "Structure and agency",
     "review_status": "research_pass_needs_editor",
-    "profile_status": "evidence_deepened_research_pass"
+    "profile_status": "evidence_deepened_research_pass",
+    "reviewed_by": "",
+    "reviewed_at": "",
+    "espoused_lineages": [],
+    "observed_clusters": [],
+    "evidence_ids": [
+      "ev_u36_bhaskar_tmsa",
+      "ev_u36_bhaskar_transition"
+    ]
   },
   "connections": [
     {
       "id": "e31_module_bhaskar_4",
       "source": "publication_u31_bhaskar",
       "target": "concept_structure_agency",
-      "relation_type": "introduces_distinction",
+      "relation_type": "presents_account_of",
       "relation_family": "conceptual",
       "directed": "true",
       "dependency_kind": "",
@@ -95,24 +123,61 @@
       "source_locator": "pp. 5–6, DS1–DS2 and PS1–PS3",
       "valid_from": "",
       "valid_to": "",
-      "scope_conditions": "In Challoner’s reconstruction: Social structures depend on activity while conditioning the agency that reproduces or transforms them.",
+      "scope_conditions": "Challoner's secondary reconstruction. No claim that the module or Bhaskar originated the general structure–agency distinction.",
       "assertion_mode": "asserted",
       "inference_method": "",
       "claim_id": "claim_e31_module_bhaskar_4",
       "reviewed_by": "",
       "reviewed_at": "",
+      "notes": "Earlier wording and provenance are retained in this release original-record ledger.",
+      "plain_phrase": "presents a reconstructed account of structural conditioning and social activity",
+      "public_review_label": "Secondary reconstruction; no historical priority claimed",
+      "connection_pass": "depth_20261106",
+      "review_status": "research_pass_needs_editor",
+      "previous_source_ids": "[\"src_u31_bhaskar\"]",
+      "previous_evidence_ids": "[\"ev_e31_module_bhaskar_4\"]"
+    },
+    {
+      "id": "e36_structure_agency_multiple_perspectives",
+      "source": "concept_structure_agency",
+      "target": "concept_multiple_perspectives",
+      "relation_type": "qualifies_practice_claim",
+      "relation_family": "contestation",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "",
+      "claim_status": "candidate",
+      "source_ids": [
+        "src_u36_bhaskar_persons_2020",
+        "src_u36_checkland_retrospective_2000"
+      ],
+      "evidence_ids": [
+        "ev_u36_bhaskar_tmsa",
+        "ev_u36_bhaskar_transition",
+        "ev_u36_checkland_accommodation"
+      ],
+      "source_locator": "Bhaskar 2020, section 3, TMSA and transition; Checkland 2000, pp. S33–S34",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Editorial practice comparison: altered interpretations may matter, but a claim of structural change needs evidence of changes to the conditions of action. This does not claim that SSM ignores power or that the two authors share an ontology.",
+      "assertion_mode": "inferred",
+      "inference_method": "bounded editorial comparison of the cited primary accounts",
+      "claim_id": "claim_e36_structure_agency_multiple_perspectives",
+      "reviewed_by": "",
+      "reviewed_at": "",
       "notes": "",
-      "plain_phrase": "introduces distinction",
-      "public_review_label": "Located source statement; curator review pending",
-      "connection_pass": "update_20261008"
+      "plain_phrase": "requires more than a changed account to establish a changed social condition",
+      "public_review_label": "Editorial comparison; curator review pending",
+      "connection_pass": "depth_20261106",
+      "review_status": "research_pass_needs_editor"
     }
   ],
   "claims": [
     {
       "id": "claim_e31_module_bhaskar_4",
-      "statement": "In Challoner’s reconstruction: Social structures depend on activity while conditioning the agency that reproduces or transforms them.",
+      "statement": "Challoner's researcher module presents a reconstructed account in which social structures condition activity while depending on activity for reproduction or transformation.",
       "subject_id": "publication_u31_bhaskar",
-      "predicate": "introduces_distinction",
+      "predicate": "presents_account_of",
       "object_id": "concept_structure_agency",
       "status": "candidate",
       "supporting_source_ids": [
@@ -123,11 +188,35 @@
       ],
       "contradicting_source_ids": [],
       "contradicting_evidence_ids": [],
-      "notes": "Source-scoped interpretation. Human editorial acceptance remains pending.",
+      "notes": "Secondary reconstruction, not a historical priority claim. Existing supporting source and evidence IDs are retained.",
       "review_status": "research_pass_needs_editor",
       "reviewed_by": "",
       "reviewed_at": "",
-      "connection_pass": "update_20261008"
+      "connection_pass": "depth_20261106"
+    },
+    {
+      "id": "claim_e36_structure_agency_multiple_perspectives",
+      "statement": "Editorial practice comparison: altered interpretations may matter, but a claim of structural change needs evidence of changes to the conditions of action. This does not claim that SSM ignores power or that the two authors share an ontology.",
+      "subject_id": "concept_structure_agency",
+      "predicate": "qualifies_practice_claim",
+      "object_id": "concept_multiple_perspectives",
+      "status": "candidate",
+      "supporting_source_ids": [
+        "src_u36_bhaskar_persons_2020",
+        "src_u36_checkland_retrospective_2000"
+      ],
+      "supporting_evidence_ids": [
+        "ev_u36_bhaskar_tmsa",
+        "ev_u36_bhaskar_transition",
+        "ev_u36_checkland_accommodation"
+      ],
+      "contradicting_source_ids": [],
+      "contradicting_evidence_ids": [],
+      "notes": "editorial_synthesis; no human editorial acceptance implied.",
+      "review_status": "research_pass_needs_editor",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "connection_pass": "depth_20261106"
     }
   ],
   "sources": [
@@ -156,13 +245,83 @@
       "source_locator": "Complete PDF, 7 pages; specific claims carry page and proposition references",
       "source_role": "secondary reconstruction",
       "pages_read": 7
+    },
+    {
+      "id": "src_u36_bhaskar_persons_2020",
+      "title": "Critical realism and the ontology of persons",
+      "source_type": "primary_author_article_posthumous",
+      "quality_tier": "A",
+      "access": "public_indexed_body",
+      "url": "https://doi.org/10.1080/14767430.2020.1734736",
+      "date": "2020-03-16",
+      "notes": "Substantial publisher-indexed section 3 body inspected, with the publisher's presentation/publication note. Presented 25 July 2011 and published posthumously in 2020 with executors' permission. Direct HTML/PDF opening returned HTTP 403 during this pass; no local PDF or page-by-page inspection is claimed. The inspected indexed body supplies the section locator. This is Bhaskar's later retrospective account, not a verified reading of the 1979 book. His comparison with Giddens is attributed to him and is not adopted as an independently checked account of Giddens or Archer. Later metaReality claims are outside this packet.",
+      "creators": [
+        "Roy Bhaskar"
+      ],
+      "doi": "10.1080/14767430.2020.1734736",
+      "isbn": "",
+      "publisher": "Journal of Critical Realism 19(2), 113–120",
+      "licence": "publisher_terms; linked and paraphrased",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "passage_checked_research_pass",
+      "last_checked": "2026-11-06",
+      "public_link_status": "public_link",
+      "reading_url": "https://www.tandfonline.com/doi/abs/10.1080/14767430.2020.1734736",
+      "connection_pass": "depth_20261106",
+      "source_locator": "Section 3, Contexts of persons: opening paragraphs on social domains and TMSA; paragraphs on conceptuality; concrete utopianism and the conditions of transition",
+      "access_note": "Direct HTML/PDF opening returned HTTP 403 during this pass; no local PDF or page-by-page inspection is claimed. The inspected indexed body supplies the section locator. This is Bhaskar's later retrospective account, not a verified reading of the 1979 book. His comparison with Giddens is attributed to him and is not adopted as an independently checked account of Giddens or Archer. Later metaReality claims are outside this packet."
+    },
+    {
+      "id": "src_u36_checkland_retrospective_2000",
+      "title": "Soft systems methodology: a thirty year retrospective",
+      "source_type": "primary_author_research_article",
+      "quality_tier": "A",
+      "access": "public_full_text",
+      "url": "https://doi.org/10.1002/1099-1743(200011)17:1+<::AID-SRES374>3.0.CO;2-O",
+      "date": "2000",
+      "notes": "Primary article opened and relevant body passages inspected; 48-page PDF preserved privately with SHA-256 5848546f326e42c02c79c181aaee21998b9438cd08e81489c924e6db78800fd1. Publisher record confirms author, year, DOI, and reproduction note. Checkland's account of SSM is evidence for that methodology. It does not establish that every form of pluralism follows SSM, that accommodation is fair, or that an account of a situation abolishes material constraints.",
+      "creators": [
+        "Peter Checkland"
+      ],
+      "doi": "10.1002/1099-1743(200011)17:1+<::AID-SRES374>3.0.CO;2-O",
+      "isbn": "",
+      "publisher": "Systems Research and Behavioral Science 17(S1), S11–S58",
+      "licence": "publisher_terms; linked and paraphrased",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "passage_checked_research_pass",
+      "last_checked": "2026-11-06",
+      "public_link_status": "public_link",
+      "reading_url": "https://cdn.blot.im/folder/v-972dcafb/blog_2f78a95c02c14630961fdd8473cdfc33/files/_checkland-2000-systems_research_and_behavioral_science.pdf",
+      "connection_pass": "depth_20261106",
+      "source_locator": "Printed pp. S21, S32–S34, and S53; PDF pp. 11, 22–24, and 43",
+      "access_note": "Checkland's account of SSM is evidence for that methodology. It does not establish that every form of pluralism follows SSM, that accommodation is fair, or that an account of a situation abolishes material constraints."
     }
   ],
   "evidence_locators": [
     {
+      "id": "ev_u36_bhaskar_tmsa",
+      "source_id": "src_u36_bhaskar_persons_2020",
+      "locator": "Section 3, Contexts of persons, opening paragraphs on TMSA and conceptuality",
+      "review_status": "research_pass_needs_editor"
+    },
+    {
+      "id": "ev_u36_bhaskar_transition",
+      "source_id": "src_u36_bhaskar_persons_2020",
+      "locator": "Section 3, discussion of concrete utopianism, KQ4, and the paragraphs preceding KQ5",
+      "review_status": "research_pass_needs_editor"
+    },
+    {
       "id": "ev_e31_module_bhaskar_4",
       "source_id": "src_u31_bhaskar",
       "locator": "pp. 5–6, DS1–DS2 and PS1–PS3",
+      "review_status": "research_pass_needs_editor"
+    },
+    {
+      "id": "ev_u36_checkland_accommodation",
+      "source_id": "src_u36_checkland_retrospective_2000",
+      "locator": "Printed pp. S21 and S33–S34; PDF pp. 11 and 23–24",
       "review_status": "research_pass_needs_editor"
     }
   ],

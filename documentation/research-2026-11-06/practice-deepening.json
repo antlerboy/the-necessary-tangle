@@ -1,0 +1,175 @@
+{
+  "packet": "practice-deepening-2026-11-06",
+  "date": "2026-11-06",
+  "base_commit": "50740423a0b4b553e4ff4a8f503bc599071143a7",
+  "status": "focused_checks_passed_ready_for_coordinated_integration",
+  "curator": "Benjamin P Taylor",
+  "outcome": "Readers can carry a boundary dispute into a bounded inquiry, preserve meaning across a method transition, and revise an intervention when authority or purpose changes.",
+  "content_changes": [
+    {
+      "file": "sources/practice-pack/01-foundations-and-core.json",
+      "lab_id": "critical-systems-heuristics",
+      "added_rounds": 2,
+      "added_checks": 1,
+      "changed_fields": [
+        "time",
+        "focus",
+        "scope",
+        "rounds",
+        "checks",
+        "criteria"
+      ]
+    },
+    {
+      "file": "sources/practice-pack/02-further-core.json",
+      "lab_id": "multi-methodology",
+      "added_rounds": 2,
+      "added_checks": 2,
+      "changed_fields": [
+        "time",
+        "focus",
+        "scope",
+        "resources",
+        "scenario",
+        "rounds",
+        "checks",
+        "criteria"
+      ]
+    },
+    {
+      "file": "sources/practice-pack/03-systemic-intervention.json",
+      "lab_id": "ethics-and-power",
+      "added_rounds": 2,
+      "added_checks": 1,
+      "changed_fields": [
+        "time",
+        "focus",
+        "scope",
+        "rounds",
+        "checks",
+        "criteria"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "resource_id": "ulrich",
+      "title": "A Mini-Primer of Critical Systems Heuristics",
+      "authors": [
+        "Werner Ulrich"
+      ],
+      "url": "https://wulrich.com/csh.html",
+      "locator": "Abstract, paragraphs1Ã¢â‚¬â€œ3",
+      "checked_on": "2026-11-06",
+      "access": "Public author HTML; linked introductory paper also inspected in the cited sections.",
+      "claims": [
+        {
+          "claim": "Boundary judgements condition the observations and values treated as relevant; people affected need not be among those defining them.",
+          "basis": "source_exposition",
+          "applied_to": [
+            "critical-systems-heuristics",
+            "ethics-and-power"
+          ]
+        }
+      ]
+    },
+    {
+      "resource_id": "ulrich",
+      "title": "A Brief Introduction to Critical Systems Heuristics",
+      "authors": [
+        "Werner Ulrich"
+      ],
+      "url": "https://wulrich.com/downloads/ulrich_2005f.pdf",
+      "locator": "Section2, printedpage3; section3, printedpages4Ã¢â‚¬â€œ5",
+      "checked_on": "2026-11-06",
+      "access": "Author PDF; relevant sections read, not a claim to a complete15-page review.",
+      "claims": [
+        {
+          "claim": "Ulrich distinguishes reflective and emancipatory critique, allows disagreement to remain, and rejects treating critique as a technique for settling the correct boundary or legitimising decisions.",
+          "basis": "source_exposition",
+          "applied_to": [
+            "critical-systems-heuristics"
+          ]
+        }
+      ]
+    },
+    {
+      "resource_id": "government-toolkit",
+      "title": "An introductory systems thinking toolkit for civil servants",
+      "authors": [
+        "Government Office for Science"
+      ],
+      "url": "https://www.gov.uk/government/publications/systems-thinking-for-civil-servants/toolkit",
+      "locator": "Use of data and data visualisation tools; Tool3 Context diagrams; Tool9 Stock and flow diagrams, How1Ã¢â‚¬â€œ4; Tool11 Monitoring and evaluation strategy, How1Ã¢â‚¬â€œ8",
+      "checked_on": "2026-11-06",
+      "access": "Official public HTML. Named sections inspected; the toolkit explicitly excludes full CSH and SSM teaching from scope.",
+      "claims": [
+        {
+          "claim": "The toolkit separates control from influence, asks for stock and flow units, cautions about uneven evidence, and connects monitoring to assumptions, wider effects, detection, and mitigation.",
+          "basis": "source_exposition",
+          "applied_to": [
+            "multi-methodology",
+            "ethics-and-power"
+          ]
+        }
+      ]
+    }
+  ],
+  "editorial_synthesis": [
+    {
+      "lab_id": "critical-systems-heuristics",
+      "claim": "The two conditional findings and sponsor-refusal response are original applications, not Ulrich's prescribed solution or evidence from a real council.",
+      "basis": "original_fictional_practice"
+    },
+    {
+      "lab_id": "multi-methodology",
+      "claim": "The selected CSHÃ¢â‚¬â€œSSMÃ¢â‚¬â€œSD sequence, numerical queue reconciliation, and transfer trial are original teaching constructions. Neither primary source prescribes this sequence or validates its use in a real partnership.",
+      "basis": "original_fictional_practice"
+    },
+    {
+      "lab_id": "ethics-and-power",
+      "claim": "The activity-specific pause record, resource-displacement condition, and family-led reframing are original teaching constructions. They do not determine lawful authority or statutory obligations.",
+      "basis": "original_fictional_practice"
+    }
+  ],
+  "case_arithmetic": {
+    "starting_unresolved": 100,
+    "new_distinct_cases": 30,
+    "local_closures": 40,
+    "unresolved_partner_transfers_within_closures": 12,
+    "confirmed_resolutions": 28,
+    "local_ending": 90,
+    "partnership_ending": 102,
+    "repeat_contacts_from_existing_transferred_cases": 8,
+    "assumptions": "The100starting unresolved cases are in one service; there are no other starting unresolved cases elsewhere in the partnership, arrivals, or resolutions. These are stipulated toy-model assumptions, not evidence filling original data gaps. Transfers stay unresolved; contacts and cases are different units. This is accounting, not a calibrated forecast."
+  },
+  "graph_changes": [],
+  "private_material_used": false,
+  "new_source_text_reproduced": false,
+  "specialist_teaching_review": "not recorded",
+  "verification_plan": [
+    "Only three named lab objects change; other23lab objects unchanged.",
+    "JSON schema remains compatible with existing practice generator.",
+    "Independent arithmetic and answer-index checks.",
+    "Private generated previews at desktop/mobile with challenge, handoff, and intervention rounds visible.",
+    "Root owns full make validate equivalent, shared generation, and release integration."
+  ],
+  "publication": "No public mutation in this pass; coordinated handoff only.",
+  "verification_result": {
+    "changed_lab_objects": 3,
+    "unchanged_lab_objects": 23,
+    "new_rounds": 6,
+    "new_checks": 4,
+    "schema_compatible": true,
+    "private_generation_idempotent": true,
+    "task_answer_separation": true,
+    "desktop_mobile_widths": [
+      1440,
+      390
+    ],
+    "visually_inspected_round_images": 12,
+    "browser_page_errors": 0,
+    "graph_changes": 0,
+    "full_release_gate": "coordinating task"
+  }
+}

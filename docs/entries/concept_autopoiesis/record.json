@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0",
   "canonical_url": "https://transduction.systems/entries/concept_autopoiesis/",
-  "release": "0.35",
-  "citation": "Taylor, B. P. (2026). Autopoiesis. The Necessary Tangle, release 0.35. https://transduction.systems/entries/concept_autopoiesis/",
+  "release": "0.36",
+  "citation": "Taylor, B. P. (2026). Autopoiesis. The Necessary Tangle, release 0.36. https://transduction.systems/entries/concept_autopoiesis/",
   "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
   "entry": {
     "id": "concept_autopoiesis",
@@ -15,7 +15,8 @@
     "status": "candidate",
     "source_ids": [
       "src_u35_varela_maturana_uribe_1974",
-      "src_u35_maturana_organisation_living_1975"
+      "src_u35_maturana_organisation_living_1975",
+      "src_taylor_vsm_lecture_2025"
     ],
     "set_tags": [
       "systems",
@@ -41,20 +42,21 @@
     "public_visibility": "public",
     "publication_level": "profile",
     "public_stub_text": "",
-    "public_source_count": 2,
+    "public_source_count": 3,
     "no_public_link_count": 0,
-    "connection_pass": "depth_20261029"
+    "connection_pass": "depth_20261106"
   },
   "profile": {
     "node_id": "concept_autopoiesis",
     "title": "Autopoiesis",
-    "summary": "The biological account includes the production of a boundary that enables the processes producing it. Material turnover is compatible with the persistence of this organisation.",
+    "summary": "The biological account includes the production of a boundary that enables the processes producing it. Material turnover is compatible with the persistence of this organisation. The paper's biological use of autonomy concerns self-production of a unity. It doesn't establish the decision rights of its parts.",
     "canonical_definition": "Self-production of a unity through a recursively constituted network of component production.",
     "why_it_matters": "A boundary drawn by an analyst and a boundary produced by a living system make different claims.",
     "key_distinctions": [
       "Self-production versus reproduction",
       "Organisation versus particular components",
-      "Organisational closure versus material isolation"
+      "Organisational closure versus material isolation",
+      "Biological self-production versus managerial discretion"
     ],
     "practice_connections": [
       "Before applying the term, identify components, production processes, and boundary formation."
@@ -64,21 +66,27 @@
       "Calling an institution living establishes biological autopoiesis."
     ],
     "open_checks": [
-      "Social applications need an explicit account of what is being produced."
+      "Social applications need an explicit account of what is being produced.",
+      "Any organisational application must state its components, production processes, unit of analysis, and decision rights separately."
     ],
     "source_ids": [
       "src_u35_varela_maturana_uribe_1974",
-      "src_u35_maturana_organisation_living_1975"
+      "src_u35_maturana_organisation_living_1975",
+      "src_taylor_vsm_lecture_2025"
     ],
     "evidence_ids": [
       "ev35_concept_autopoiesis_1",
-      "ev35_concept_autopoiesis_2"
+      "ev35_concept_autopoiesis_2",
+      "ev36_biological_autonomy_scope",
+      "ev36_managerial_autonomy_scope"
     ],
-    "connection_pass": "depth_20261029",
+    "connection_pass": "depth_20261106",
     "profile_status": "evidence_deepened_research_pass",
-    "last_researched": "2026-10-29",
+    "last_researched": "2026-11-06",
     "review_status": "research_pass_needs_editor",
-    "editorial_note": "Primary passages checked for this bounded research pass. Exposition and editorial comparisons remain distinct; named editorial acceptance is not implied by publication."
+    "editorial_note": "Biological self-production and operational discretion are compared explicitly. This source-located distinction remains a candidate for editorial acceptance.",
+    "reviewed_by": "",
+    "reviewed_at": ""
   },
   "connections": [
     {
@@ -115,31 +123,34 @@
       "id": "e35_autopoiesis_autonomy",
       "source": "concept_autopoiesis",
       "target": "concept_autonomy",
-      "relation_type": "explains",
+      "relation_type": "distinguishes_from",
       "relation_family": "conceptual",
       "directed": "true",
       "dependency_kind": "",
       "confidence": "",
       "claim_status": "candidate",
       "source_ids": [
-        "src_u35_varela_maturana_uribe_1974"
+        "src_u35_varela_maturana_uribe_1974",
+        "src_taylor_vsm_lecture_2025"
       ],
       "evidence_ids": [
-        "ev35_edge_e35_autopoiesis_autonomy_1"
+        "ev36_biological_autonomy_scope",
+        "ev36_managerial_autonomy_scope"
       ],
-      "source_locator": "Section 4, p. 188",
+      "source_locator": "Varela, Maturana, and Uribe, sections 3–4, printed p. 188; Taylor, 10 May 2025 lecture, PDF p. 8 (bounded discretion) and p. 55 (autonomy and cohesion)",
       "valid_from": "",
       "valid_to": "",
-      "scope_conditions": "Varela, Maturana, and Uribe explain biological autonomy through the continued production of the organisation constituting the unity. This sense of autonomy differs from managerial discretion or political independence.",
-      "assertion_mode": "asserted",
-      "inference_method": "",
+      "scope_conditions": "The 1974 biological account concerns maintaining the organisation constituting a unity. The target entry concerns operational discretion within wider constraints. This is an editorial distinction between those uses, not a derivation of management rights from self-production.",
+      "assertion_mode": "inferred",
+      "inference_method": "Editorial comparison of separately located biological and management accounts",
       "claim_id": "claim35_e35_autopoiesis_autonomy",
       "reviewed_by": "",
       "reviewed_at": "",
-      "notes": "",
-      "plain_phrase": "grounds the biological sense of",
-      "public_review_label": "Primary-source exposition; editorial acceptance open",
-      "connection_pass": "depth_20261029"
+      "notes": "The previous statement and its provenance are retained in this release original-record ledger.",
+      "plain_phrase": "uses self-production in a sense distinct from the operational discretion described by",
+      "public_review_label": "Editorial distinction; neither equivalence nor historical influence asserted",
+      "connection_pass": "depth_20261106",
+      "review_status": "research_pass_needs_editor"
     }
   ],
   "claims": [
@@ -166,24 +177,26 @@
     },
     {
       "id": "claim35_e35_autopoiesis_autonomy",
-      "statement": "Varela, Maturana, and Uribe explain biological autonomy through the continued production of the organisation constituting the unity. This sense of autonomy differs from managerial discretion or political independence.",
+      "statement": "The 1974 biological account concerns maintaining the organisation constituting a unity. The target entry concerns operational discretion within wider constraints. This is an editorial distinction between those uses, not a derivation of management rights from self-production.",
       "subject_id": "concept_autopoiesis",
-      "predicate": "explains",
+      "predicate": "distinguishes_from",
       "object_id": "concept_autonomy",
       "status": "candidate",
       "supporting_source_ids": [
-        "src_u35_varela_maturana_uribe_1974"
+        "src_u35_varela_maturana_uribe_1974",
+        "src_taylor_vsm_lecture_2025"
       ],
       "supporting_evidence_ids": [
-        "ev35_edge_e35_autopoiesis_autonomy_1"
+        "ev36_biological_autonomy_scope",
+        "ev36_managerial_autonomy_scope"
       ],
       "contradicting_source_ids": [],
       "contradicting_evidence_ids": [],
-      "notes": "Primary-source exposition; editorial acceptance open",
+      "notes": "Editorial distinction; preserve both senses and their units of analysis. No theory of management autonomy is derived from the biological source.",
       "review_status": "research_pass_needs_editor",
       "reviewed_by": "",
       "reviewed_at": "",
-      "connection_pass": "depth_20261029"
+      "connection_pass": "depth_20261106"
     }
   ],
   "sources": [
@@ -238,6 +251,28 @@
       "connection_pass": "depth_20261029",
       "source_locator": "Inspected 1999 reprint: 'Preliminary concepts', pp. 151–152; 'Implicit requirements' and 'Plasticity and structural coupling', pp. 155–156; 'Descriptive fallacy', pp. 157–158; 'Structural coupling', pp. 162–163",
       "access_note": "The source presents Maturana's theoretical account. It does not establish that an organisation, service, or institution is literally an autopoietic biological system. Link and paraphrase only."
+    },
+    {
+      "id": "src_taylor_vsm_lecture_2025",
+      "title": "Benjamin Taylor VSM lecture",
+      "source_type": "public_teaching_material",
+      "quality_tier": "C",
+      "access": "public",
+      "url": "https://antlerboy.com/library/files/talks/viable-system-model-lecture.pdf",
+      "date": "2025-05-10",
+      "notes": "Public teaching presentation. Public PDF linked on 2026-09-19; the earlier unpublished access description is superseded.",
+      "creators": [
+        "Benjamin P Taylor"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Benjamin P Taylor public work library",
+      "licence": "not_publicly_licensed",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "public_file_identity_checked",
+      "last_checked": "2026-09-19",
+      "public_link_status": "public_link"
     }
   ],
   "evidence_locators": [
@@ -254,15 +289,21 @@
       "review_status": "research_pass_needs_editor"
     },
     {
+      "id": "ev36_biological_autonomy_scope",
+      "source_id": "src_u35_varela_maturana_uribe_1974",
+      "locator": "Sections 3–4, printed p. 188 (PDF p. 2)",
+      "review_status": "passage_checked_research_pass"
+    },
+    {
+      "id": "ev36_managerial_autonomy_scope",
+      "source_id": "src_taylor_vsm_lecture_2025",
+      "locator": "PDF p. 8; PDF p. 55",
+      "review_status": "passage_checked_research_pass"
+    },
+    {
       "id": "ev35_edge_e35_autopoiesis_paper_account_1",
       "source_id": "src_u35_varela_maturana_uribe_1974",
       "locator": "Section 3, p. 188; section 6, pp. 189–191",
-      "review_status": "research_pass_needs_editor"
-    },
-    {
-      "id": "ev35_edge_e35_autopoiesis_autonomy_1",
-      "source_id": "src_u35_varela_maturana_uribe_1974",
-      "locator": "Section 4, p. 188",
       "review_status": "research_pass_needs_editor"
     }
   ],

@@ -1,7 +1,14 @@
 # Current Tangle state
 
+<!-- depth_20261106 -->
+## Current release 0.36
+
+6 November 2026. 1295 public entries, 3158 edges, 831 sources, and 221 profiles. This release deepens 6 profiles, adds 4 scoped connections, revises 2, and adds one journey. The source packet is documentation/research-2026-11-06/. Reader route: https://transduction.systems/reading/from-observation-to-action/. Publication identity and live test completion belong to deployment.json and the Publish workflow. Source exposition and editorial comparison remain candidates for editorial acceptance; no historical influence is inferred from resemblance. The previous release account and companion-page record below remain historical context.
+<!-- /depth_20261106 -->
+
+
 <!-- depth_20261029 -->
-## Current release 0.35
+## Previous graph release 0.35
 
 29 October 2026. 1295 public entries, 3154 edges, 827 sources, and 220 profiles. This release deepens 11 profiles, adds 11 scoped connections, revises 7, and adds three journeys. The source packet is documentation/research-2026-10-29/. Reader route: https://transduction.systems/reading/connections/. Publication identity and live test completion belong to deployment.json and the Publish workflow. Source exposition and editorial comparison remain candidates for editorial acceptance; no historical influence is inferred from resemblance. The previous release account and companion-page record below remain historical context.
 <!-- /depth_20261029 -->
@@ -29,16 +36,8 @@ Edition 1.1, 29 October 2026. /saidtosomeone/ has 54 entries with exact and repo
 
 <!-- /saidtosomeone-state-1 -->
 
-## Companion reading guide: sayings, regulation and conversation
-
-30 October 2026. Edition 1.0 adds four attributed reading routes and searchable library records: the existing von Foerster companion, Ashby Says via Richard S O’Rourke, O’Rourke’s research hub and Paul Pangaro’s catalogue. Source locators, access limits and editorial questions are explicit. The atlas graph remains release 0.35; no new accepted graph relationships are claimed. Source packet: sources/cybernetic-readings/PACKET.md. Full make validate and companion idempotence passed locally; exact publication and live acceptance follow the Publish workflow and deployment.json.
-
-## Companion guide: reading the ISSS wiki
-
-30 October 2026. Edition 1.0 at /reading/isss-wiki/ adds seven question-led reading routes, a complete dated main-namespace inventory (704 pages, including 202 redirects and 194 unfinished profile templates), and 212 deduplicated wiki-description records in the existing source library. All current main-namespace revision texts were retrieved; full substantive wiki-page reading is recorded for 19 pages. Underlying books, papers, slides and recordings were not read or watched for this packet. Source revisions, contributor histories, CC BY 4.0 attribution, source-listed credits, date disagreements and access/reading limits remain explicit. The prior 57-entry ISSS student bibliography is preserved and cross-linked. No new atlas facts or relationships are introduced: 3154 edges, 827 sources and 220 profiles match the baseline; source-owner artefact hashes and the backup workflow are unchanged. The clean full make validate gate, companion idempotence, and focused desktop/mobile tests passed locally. Exact publication identity and final live acceptance follow the existing Publish workflow and deployment.json. Deeper reading beyond the recorded cohort remains open; retrieval is not substantive review. Source packet: sources/isss-wiki/PACKET.md.
-
 <!-- readable-atlas-state -->
-## Readable atlas editions: 5 November 2026
+## Readable atlas editions, introduced 5 November 2026
 
-The existing public projection now generates 220 developed entry pages and 27 complete reading journeys, each with a stable URL. Entries preserve recorded status, sources, passage locators, claims, and typed connections. Sourced JSON downloads omit evidence excerpts and retain attribution and licence boundaries. Practical home routes, readable indexes, interactive edition links, a stewardship page, and sitemap entries are generated from the same maintained data. Graph release 0.35 and its claims remain unchanged. No independent teaching review or reviewer appointment is implied. Verification and publication are separate records; see documentation/estate-implementation-20261105.md.
+The maintained public projection generates 221 developed entry pages and 28 complete reading journeys, each with a stable URL. Entries preserve recorded status, sources, passage locators, claims, and typed connections. Sourced JSON downloads omit evidence excerpts and retain attribution and licence boundaries. Practical home routes, readable indexes, interactive edition links, a stewardship page, and sitemap entries are generated from the same maintained data. These reader projections use graph release 0.36; the reader generator introduces no new claims. No independent teaching review or reviewer appointment is implied. The original implementation is recorded in documentation/estate-implementation-20261105.md; later content releases have their own evidence and publication records.
 <!-- /readable-atlas-state -->

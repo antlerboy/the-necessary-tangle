@@ -110,21 +110,126 @@
 "criteria":["The recursion and system of interest are explicit.","Operational units include operation, management and environment.","Systems 2, 3, 3*, 4 and 5 are differentiated by function.","The diagnosis tests channels and evidence, not just missing boxes.","Corrections consider autonomy, legitimacy and timely response."]
 },
 {
-"id":"critical-systems-heuristics","title":"Critical Systems Heuristics: inspect all twelve boundary categories","section":"Core methods","standard":"Critical System Heuristics (CSH: Ulrich, Reynolds)","ksb":["K1","K2","K4","S2","S3","S5","S6","S7","S9"],"time":60,"focus":"Build an is/ought boundary critique and show how a change in boundary alters a judgement.","scope":"This exercise checks the completeness and consistency of boundary reasoning. It does not supply a morally unique answer or pretend that the practitioner represents every affected person.","atlas":["Critical Systems Heuristics","Boundary critique"],"resources":["ulrich","csh-evaluation"],"paid":["scio-courses"],
-"scenario":"Fictional case: a council proposes replacing its assisted benefits-application desk with a digital service. The finance director sponsors the proposal and counts annual administrative cost as success. A vendor controls the software design. The council controls staffing and opening hours. An analyst advises using completion rates from current online users. People unable to start online are absent from that dataset. A tenants' group has asked to be heard but has no place in the decision meetings. The project document says 'digital by default is modern and fair'. No replacement assistance or appeal route has been agreed.",
-"rounds":[
-{"task":"Complete the four groups of boundary categories in the descriptive 'is' mode.","output":"Twelve labelled entries, separating case evidence from unknowns.","answer":"Motivation: beneficiary, purpose, measure. The sponsor prioritises administrative savings; whether all applicants benefit is unestablished. Control: decision-maker, controlled resources, decision environment. Council staffing decisions and vendor software control differ; applicants' internet access is not simply a project-controlled resource. Knowledge: expert, relevant expertise, guarantor of success. Analyst/vendor knowledge dominates; current online completion is treated as assurance, but excludes non-starters. Legitimacy: witness for affected people, emancipation or opportunity to challenge, and worldview. The tenants' group is not yet represented; an appeal route is absent; 'modern and fair' is a contested framing. Use 'unknown' where the case does not specify a fact."},
-{"task":"Write an 'ought' counterpart for each category.","output":"Twelve proposals with the person or group whose judgement they express.","answer":"One defensible account includes all eligible applicants as intended beneficiaries; successful access to entitlement as purpose; cost, completion, exclusion and effort as measures; explicit council accountability and vendor constraints; assisted access resources; knowledge from applicants and frontline staff; assurance through disaggregated evidence and challenge; an independent voice for affected non-participants; accessible contest and redress; and a worldview in which access is not conditional on digital confidence. These are proposals to discuss, not automatically legitimate claims made on others' behalf."},
-{"task":"Trace one boundary change into the evaluation.","output":"A before-and-after judgement with a changed evidence requirement.","answer":"If the beneficiary boundary expands from current online users to all eligible applicants, the online completion rate is no longer sufficient. Count failed starts and people using or needing assistance, and ask about effort and exclusion. An apparently cheaper process may transfer cost or prevent access. The new judgement requires evidence; it is not proof that digital service is necessarily bad."},
-{"task":"Design a challenge that an affected person can actually use.","output":"One route to contest the proposal without accepting its framing.","answer":"Invite independently supported evidence from people unable to use the digital route, permit oral or assisted submissions, explain how challenges affect the decision, and provide a route to disagree after a meeting. Do not require a person to complete an online consultation to prove that online access is a barrier. Representation and practical ability to challenge are different questions."}
-],
-"checks":[
-{"q":"Does the analyst's involvement resolve the legitimacy questions?","options":["Yes: expertise represents everyone","No: expertise and the voice of affected people are different categories","Yes: the data are numerical"],"correct":1,"explanation":"Expertise can inform an inquiry without supplying a witness for affected people or the practical freedom to challenge its assumptions."},
-{"q":"What does 'ought' mean in this exercise?","options":["A hidden fact waiting to be discovered","An explicit normative boundary proposal open to challenge","The tutor's mandatory policy preference"],"correct":1,"explanation":"The task is to make values and boundary choices discussable. A model answer illustrates reasoning, not an authorised settlement of people's interests."},
-{"q":"Who is missing from the stated online completion measure?","options":["Only the vendor","People unable to start the online process","No one, because all applications are digital"],"correct":1,"explanation":"A rate among people already inside the process can exclude those who cannot enter it. The denominator is a boundary decision."}
-],
-"repair":{"broken":"A stakeholder list has twelve names and is labelled 'the twelve CSH questions answered'.","fix":"People are not boundary categories. Examine motivation, control, knowledge and legitimacy in both descriptive and normative modes. A single actor may occupy several roles; a crucial role may have no credible representative."},
-"retry":{"task":"The tenants' group gets one seat but cannot alter the agenda or challenge the savings target. Which part of the critique remains open?","answer":"Witness or representation may have improved, but emancipation and worldview remain contested. Attendance is not sufficient opportunity to question the terms of the decision. Ask whether dissent can alter evidence, criteria or the decision itself."},
-"criteria":["All twelve categories are addressed in both is and ought modes.","Evidence, absence and normative proposals are distinguishable.","An affected voice is not silently replaced by an expert or the practitioner.","A boundary change alters a concrete evaluation or action.","The answer includes a practicable route for challenge."]
-}
+    "id": "critical-systems-heuristics",
+    "title": "Critical Systems Heuristics: inspect all twelve boundary categories",
+    "section": "Core methods",
+    "standard": "Critical System Heuristics (CSH: Ulrich, Reynolds)",
+    "ksb": [
+      "K1",
+      "K2",
+      "K4",
+      "S2",
+      "S3",
+      "S5",
+      "S6",
+      "S7",
+      "S9"
+    ],
+    "time": 80,
+    "focus": "Build an is/ought boundary critique, show how it changes a claim, and respond when a sponsor excludes the challenge.",
+    "scope": "This exercise checks the completeness and consistency of boundary reasoning. It does not supply a morally unique answer or pretend that the practitioner represents every affected person. The later rounds are original fictional applications, not a source-prescribed sequence. Ulrich's linked introduction, section 3, treats boundary critique as reflective and emancipatory practice, not a technique that settles the correct boundary.",
+    "atlas": [
+      "Critical Systems Heuristics",
+      "Boundary critique"
+    ],
+    "resources": [
+      "ulrich",
+      "csh-evaluation"
+    ],
+    "paid": [
+      "scio-courses"
+    ],
+    "scenario": "Fictional case: a council proposes replacing its assisted benefits-application desk with a digital service. The finance director sponsors the proposal and counts annual administrative cost as success. A vendor controls the software design. The council controls staffing and opening hours. An analyst advises using completion rates from current online users. People unable to start online are absent from that dataset. A tenants' group has asked to be heard but has no place in the decision meetings. The project document says 'digital by default is modern and fair'. No replacement assistance or appeal route has been agreed.",
+    "rounds": [
+      {
+        "task": "Complete the four groups of boundary categories in the descriptive 'is' mode.",
+        "output": "Twelve labelled entries, separating case evidence from unknowns.",
+        "answer": "Motivation: beneficiary, purpose, measure. The sponsor prioritises administrative savings; whether all applicants benefit is unestablished. Control: decision-maker, controlled resources, decision environment. Council staffing decisions and vendor software control differ; applicants' internet access is not simply a project-controlled resource. Knowledge: expert, relevant expertise, guarantor of success. Analyst/vendor knowledge dominates; current online completion is treated as assurance, but excludes non-starters. Legitimacy: witness for affected people, emancipation or opportunity to challenge, and worldview. The tenants' group is not yet represented; an appeal route is absent; 'modern and fair' is a contested framing. Use 'unknown' where the case does not specify a fact."
+      },
+      {
+        "task": "Write an 'ought' counterpart for each category.",
+        "output": "Twelve proposals with the person or group whose judgement they express.",
+        "answer": "One defensible account includes all eligible applicants as intended beneficiaries; successful access to entitlement as purpose; cost, completion, exclusion and effort as measures; explicit council accountability and vendor constraints; assisted access resources; knowledge from applicants and frontline staff; assurance through disaggregated evidence and challenge; an independent voice for affected non-participants; accessible contest and redress; and a worldview in which access is not conditional on digital confidence. These are proposals to discuss, not automatically legitimate claims made on others' behalf."
+      },
+      {
+        "task": "Trace one boundary change into the evaluation.",
+        "output": "A before-and-after judgement with a changed evidence requirement.",
+        "answer": "If the beneficiary boundary expands from current online users to all eligible applicants, the online completion rate is no longer sufficient. Count failed starts and people using or needing assistance, and ask about effort and exclusion. An apparently cheaper process may transfer cost or prevent access. The new judgement requires evidence; it is not proof that digital service is necessarily bad."
+      },
+      {
+        "task": "Design a challenge that an affected person can actually use.",
+        "output": "One route to contest the proposal without accepting its framing.",
+        "answer": "Invite independently supported evidence from people unable to use the digital route, permit oral or assisted submissions, explain how challenges affect the decision, and provide a route to disagree after a meeting. Do not require a person to complete an online consultation to prove that online access is a barrier. Representation and practical ability to challenge are different questions."
+      },
+      {
+        "task": "State a finding under two rival boundaries, then decide what could change it.",
+        "output": "Two conditional findings, the missing evidence for each, and one decision each could support.",
+        "answer": "For the council's administrative process: 'The proposal may reduce the cost of processing applications that reach the digital service; we still need the cost and completion evidence.' For access to entitlement: 'We cannot yet judge improvement because people unable to start, their effort, and replacement assistance are outside the evidence.' The second account could justify testing assisted access before closing the desk; the first could support a narrower process-cost comparison. Neither makes the analyst the legitimate decision-maker. Finding evidence that non-starters obtain suitable help would change the access judgement; a better online completion rate alone would not settle it."
+      },
+      {
+        "task": "Continue the critique when the sponsor rules out discussion of assistance.",
+        "output": "A bounded next action, an unresolved disagreement, and a claim you will not sign off.",
+        "answer": "The sponsor now says savings are fixed and the tenants' group may comment only on screen layout. Record that as a restriction on what can change, rather than reporting agreement about the service's purpose. A defensible response is to compare costs within the stated remit while giving the excluded-access argument its own clear place, using available evidence and explicit alternative assumptions. Do not sign off the stronger claim that all applicants' access has been assessed. Seek a decision route able to consider assistance, but do not make permission from the sponsor a prerequisite for questioning the sponsor's boundary. The affected people need not adopt the analyst's preferred alternative to expose a limitation in the proposal."
+      }
+    ],
+    "checks": [
+      {
+        "q": "Does the analyst's involvement resolve the legitimacy questions?",
+        "options": [
+          "Yes: expertise represents everyone",
+          "No: expertise and the voice of affected people are different categories",
+          "Yes: the data are numerical"
+        ],
+        "correct": 1,
+        "explanation": "Expertise can inform an inquiry without supplying a witness for affected people or the practical freedom to challenge its assumptions."
+      },
+      {
+        "q": "What does 'ought' mean in this exercise?",
+        "options": [
+          "A hidden fact waiting to be discovered",
+          "An explicit normative boundary proposal open to challenge",
+          "The tutor's mandatory policy preference"
+        ],
+        "correct": 1,
+        "explanation": "The task is to make values and boundary choices discussable. A model answer illustrates reasoning, not an authorised settlement of people's interests."
+      },
+      {
+        "q": "Who is missing from the stated online completion measure?",
+        "options": [
+          "Only the vendor",
+          "People unable to start the online process",
+          "No one, because all applications are digital"
+        ],
+        "correct": 1,
+        "explanation": "A rate among people already inside the process can exclude those who cannot enter it. The denominator is a boundary decision."
+      },
+      {
+        "q": "The sponsor allows comments on screen layout but forbids questioning closure of the assisted desk. What has been established?",
+        "options": [
+          "The beneficiary boundary is now legitimate",
+          "A limited opportunity to comment, with the decisive boundary still closed to challenge",
+          "The tenants agree that assistance is unnecessary"
+        ],
+        "correct": 1,
+        "explanation": "An invitation can restrict which questions count. It does not establish agreement, represent everyone affected, or justify the excluded consequences."
+      }
+    ],
+    "repair": {
+      "broken": "A stakeholder list has twelve names and is labelled 'the twelve CSH questions answered'.",
+      "fix": "People are not boundary categories. Examine motivation, control, knowledge and legitimacy in both descriptive and normative modes. A single actor may occupy several roles; a crucial role may have no credible representative."
+    },
+    "retry": {
+      "task": "The tenants' group gets one seat but cannot alter the agenda or challenge the savings target. Which part of the critique remains open?",
+      "answer": "Witness or representation may have improved, but emancipation and worldview remain contested. Attendance is not sufficient opportunity to question the terms of the decision. Ask whether dissent can alter evidence, criteria or the decision itself."
+    },
+    "criteria": [
+      "All twelve categories are addressed in both is and ought modes.",
+      "Evidence, absence and normative proposals are distinguishable.",
+      "An affected voice is not silently replaced by an expert or the practitioner.",
+      "A boundary change alters a concrete evaluation or action.",
+      "The answer includes a practicable route for challenge.",
+      "Two different reference systems change what the same evidence can support.",
+      "A refused challenge remains visible without turning the analyst's alternative into everyone's authorised position."
+    ]
+  }
 ]

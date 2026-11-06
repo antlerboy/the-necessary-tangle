@@ -1,14 +1,14 @@
 {
   "schema_version": "1.0",
   "canonical_url": "https://transduction.systems/entries/practice_lab_multi_methodology/",
-  "release": "0.35",
-  "citation": "Taylor, B. P. (2026). Practice: Multi-methodology: justify the move from one method to another. The Necessary Tangle, release 0.35. https://transduction.systems/entries/practice_lab_multi_methodology/",
+  "release": "0.36",
+  "citation": "Taylor, B. P. (2026). Practice: Multi-methodology: justify the move from one method to another. The Necessary Tangle, release 0.36. https://transduction.systems/entries/practice_lab_multi_methodology/",
   "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
   "entry": {
     "id": "practice_lab_multi_methodology",
     "label": "Practice: Multi-methodology: justify the move from one method to another",
     "entity_type": "publication",
-    "description": "Design a short inquiry in which each method answers a different question and its output is translated carefully into the next. A basic methodological design exercise. There is no universal correct sequence. The checks concern fit, assumptions and transitions, not allegiance to one classification of methods.",
+    "description": "Justify a method sequence, carry a disputed claim through it, and test whether the numerical model still counts the thing that matters. A basic methodological design exercise. There is no universal correct sequence. The checks concern fit, assumptions and transitions, not allegiance to one classification of methods. The numerical handoff and trial below are original fictional applications. The linked government toolkit supplies boundary, stock-flow, and evaluation prompts; it does not prescribe this CSH–SSM–SD sequence.",
     "aliases": [],
     "boundary_ring": "0",
     "inclusion_reason": "authorised_systems_methods_practice_pack",
@@ -17,6 +17,8 @@
       "src_practice_lab_multi_methodology",
       "src_practice_external_scio_other",
       "src_practice_external_scio_reading",
+      "src_ulrich_csh_mini_primer_2023",
+      "src_go_science_toolkit_2023",
       "src_scio_professional_development_current"
     ],
     "set_tags": [
@@ -27,7 +29,7 @@
     ],
     "espoused_labels": [],
     "observed_clusters": [],
-    "canonical_definition": "Design a short inquiry in which each method answers a different question and its output is translated carefully into the next. A basic methodological design exercise. There is no universal correct sequence. The checks concern fit, assumptions and transitions, not allegiance to one classification of methods.",
+    "canonical_definition": "Justify a method sequence, carry a disputed claim through it, and test whether the numerical model still counts the thing that matters. A basic methodological design exercise. There is no universal correct sequence. The checks concern fit, assumptions and transitions, not allegiance to one classification of methods. The numerical handoff and trial below are original fictional applications. The linked government toolkit supplies boundary, stock-flow, and evaluation prompts; it does not prescribe this CSH–SSM–SD sequence.",
     "valid_from": "",
     "valid_to": "",
     "external_ids": "{\"practice_url\": \"https://transduction.systems/systems-thinking/practice/multi-methodology/\"}",
@@ -42,13 +44,13 @@
     "public_visibility": "public",
     "publication_level": "profile",
     "public_stub_text": "",
-    "public_source_count": 4,
+    "public_source_count": 6,
     "no_public_link_count": 0
   },
   "profile": {
     "node_id": "practice_lab_multi_methodology",
-    "summary": "Design a short inquiry in which each method answers a different question and its output is translated carefully into the next. A basic methodological design exercise. There is no universal correct sequence. The checks concern fit, assumptions and transitions, not allegiance to one classification of methods.",
-    "canonical_definition": "Design a short inquiry in which each method answers a different question and its output is translated carefully into the next. A basic methodological design exercise. There is no universal correct sequence. The checks concern fit, assumptions and transitions, not allegiance to one classification of methods.",
+    "summary": "Justify a method sequence, carry a disputed claim through it, and test whether the numerical model still counts the thing that matters. A basic methodological design exercise. There is no universal correct sequence. The checks concern fit, assumptions and transitions, not allegiance to one classification of methods. The numerical handoff and trial below are original fictional applications. The linked government toolkit supplies boundary, stock-flow, and evaluation prompts; it does not prescribe this CSH–SSM–SD sequence.",
+    "canonical_definition": "Justify a method sequence, carry a disputed claim through it, and test whether the numerical model still counts the thing that matters. A basic methodological design exercise. There is no universal correct sequence. The checks concern fit, assumptions and transitions, not allegiance to one classification of methods. The numerical handoff and trial below are original fictional applications. The linked government toolkit supplies boundary, stock-flow, and evaluation prompts; it does not prescribe this CSH–SSM–SD sequence.",
     "why_it_matters": "A concrete rehearsal with a fictional case, explicit outputs and a way to inspect the result.",
     "key_distinctions": [
       "Mechanical correctness is distinct from judgement in an open situation.",
@@ -61,19 +63,23 @@
       "Separate the questions that require different kinds of inquiry.",
       "Choose a justified three-method sequence.",
       "Specify the transition into the numerical model.",
-      "Set a trigger to change your method design."
+      "Set a trigger to change your method design.",
+      "Reconcile the numerical model with the boundary argument.",
+      "Choose the next inquiry after the sponsor asks for a capacity forecast anyway."
     ],
     "common_misreadings": [
       "A worked comparison is not the only acceptable answer to an open question."
     ],
     "open_checks": [
-      "A basic methodological design exercise. There is no universal correct sequence. The checks concern fit, assumptions and transitions, not allegiance to one classification of methods.",
+      "A basic methodological design exercise. There is no universal correct sequence. The checks concern fit, assumptions and transitions, not allegiance to one classification of methods. The numerical handoff and trial below are original fictional applications. The linked government toolkit supplies boundary, stock-flow, and evaluation prompts; it does not prescribe this CSH–SSM–SD sequence.",
       "Compare an independent attempt before revealing the worked answer."
     ],
     "source_ids": [
       "src_practice_lab_multi_methodology",
       "src_practice_external_scio_other",
       "src_practice_external_scio_reading",
+      "src_ulrich_csh_mini_primer_2023",
+      "src_go_science_toolkit_2023",
       "src_scio_professional_development_current"
     ],
     "context_and_lineage": "Original educational resource, 7 September 2026.",
@@ -128,7 +134,7 @@
       "source_locator": "Named exercise and its scope statement",
       "valid_from": "",
       "valid_to": "",
-      "scope_conditions": "A basic methodological design exercise. There is no universal correct sequence. The checks concern fit, assumptions and transitions, not allegiance to one classification of methods.",
+      "scope_conditions": "A basic methodological design exercise. There is no universal correct sequence. The checks concern fit, assumptions and transitions, not allegiance to one classification of methods. The numerical handoff and trial below are original fictional applications. The linked government toolkit supplies boundary, stock-flow, and evaluation prompts; it does not prescribe this CSH–SSM–SD sequence.",
       "assertion_mode": "asserted",
       "inference_method": "",
       "claim_id": "",
@@ -155,7 +161,7 @@
       "source_locator": "Named exercise and its scope statement",
       "valid_from": "",
       "valid_to": "",
-      "scope_conditions": "A basic methodological design exercise. There is no universal correct sequence. The checks concern fit, assumptions and transitions, not allegiance to one classification of methods.",
+      "scope_conditions": "A basic methodological design exercise. There is no universal correct sequence. The checks concern fit, assumptions and transitions, not allegiance to one classification of methods. The numerical handoff and trial below are original fictional applications. The linked government toolkit supplies boundary, stock-flow, and evaluation prompts; it does not prescribe this CSH–SSM–SD sequence.",
       "assertion_mode": "asserted",
       "inference_method": "",
       "claim_id": "",
@@ -182,7 +188,7 @@
       "source_locator": "Named exercise and its scope statement",
       "valid_from": "",
       "valid_to": "",
-      "scope_conditions": "A basic methodological design exercise. There is no universal correct sequence. The checks concern fit, assumptions and transitions, not allegiance to one classification of methods.",
+      "scope_conditions": "A basic methodological design exercise. There is no universal correct sequence. The checks concern fit, assumptions and transitions, not allegiance to one classification of methods. The numerical handoff and trial below are original fictional applications. The linked government toolkit supplies boundary, stock-flow, and evaluation prompts; it does not prescribe this CSH–SSM–SD sequence.",
       "assertion_mode": "asserted",
       "inference_method": "",
       "claim_id": "",
@@ -203,7 +209,7 @@
       "access": "public",
       "url": "https://transduction.systems/systems-thinking/practice/multi-methodology/",
       "date": "2026-09-07",
-      "notes": "Original fictional exercise. A basic methodological design exercise. There is no universal correct sequence. The checks concern fit, assumptions and transitions, not allegiance to one classification of methods.",
+      "notes": "Original fictional exercise. A basic methodological design exercise. There is no universal correct sequence. The checks concern fit, assumptions and transitions, not allegiance to one classification of methods. The numerical handoff and trial below are original fictional applications. The linked government toolkit supplies boundary, stock-flow, and evaluation prompts; it does not prescribe this CSH–SSM–SD sequence.",
       "creators": [
         "The Necessary Tangle editorial practice pack"
       ],
@@ -255,6 +261,51 @@
       "content_hash": "",
       "review_status": "specific_access_and_content_limit_recorded",
       "last_checked": "2026-09-07",
+      "public_link_status": "public_link"
+    },
+    {
+      "id": "src_ulrich_csh_mini_primer_2023",
+      "title": "A Mini-Primer of Critical Systems Heuristics",
+      "source_type": "primary_text",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://wulrich.com/csh.html",
+      "date": "checked 2026-08-19",
+      "notes": "Author's page body inspected on 6 November 2026. It identifies normative boundary assumptions, cooperative and emancipatory uses, and limits on unique right answers. Enrich the existing record; retain its bibliographic history. Do not infer a fixed procedure from this primer or treat its account of CSH as evidence that another tradition is equivalent.",
+      "creators": [
+        "Werner Ulrich"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "",
+      "licence": "noncommercial_distribution_and_citation_with_attribution",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "passage_checked_research_pass",
+      "last_checked": "2026-11-06",
+      "public_link_status": "public_link",
+      "connection_pass": "depth_20261106",
+      "source_locator": "Main text beginning Critical systems heuristics; paragraphs beginning A critical approach, The first two applications, and In short; final Summary",
+      "access_note": "Enrich the existing record; retain its bibliographic history. Do not infer a fixed procedure from this primer or treat its account of CSH as evidence that another tradition is equivalent."
+    },
+    {
+      "id": "src_go_science_toolkit_2023",
+      "title": "An introductory systems thinking toolkit for civil servants",
+      "source_type": "government_toolkit",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://www.gov.uk/government/publications/systems-thinking-for-civil-servants/toolkit",
+      "date": "2023-01-12",
+      "notes": "Official UK government introductory toolkit containing eleven named systems tools; explicitly non-comprehensive.",
+      "creators": [],
+      "doi": "",
+      "isbn": "",
+      "publisher": "",
+      "licence": "",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "checked",
+      "last_checked": "2026-08-09",
       "public_link_status": "public_link"
     },
     {
