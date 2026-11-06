@@ -1,7 +1,14 @@
 # Current Tangle state
 
+<!-- foundational_20261106 -->
+## Current release 0.37
+
+6 November 2026. 1295 public entries, 3158 edges, 835 sources, and 225 profiles. Four existing publication entries have source-located profiles and one editorial reading journey. The source packet is documentation/research-2026-11-06-foundational/. Reader route: https://transduction.systems/reading/models-and-patterns/. New exposition awaits editorial acceptance. Deployment identity and live checks belong to deployment.json and the Publish workflow.
+<!-- /foundational_20261106 -->
+
+
 <!-- depth_20261106 -->
-## Current release 0.36
+## Previous graph release 0.36
 
 6 November 2026. 1295 public entries, 3158 edges, 831 sources, and 221 profiles. This release deepens 6 profiles, adds 4 scoped connections, revises 2, and adds one journey. The source packet is documentation/research-2026-11-06/. Reader route: https://transduction.systems/reading/from-observation-to-action/. Publication identity and live test completion belong to deployment.json and the Publish workflow. Source exposition and editorial comparison remain candidates for editorial acceptance; no historical influence is inferred from resemblance. The previous release account and companion-page record below remain historical context.
 <!-- /depth_20261106 -->
@@ -39,5 +46,5 @@ Edition 1.1, 29 October 2026. /saidtosomeone/ has 54 entries with exact and repo
 <!-- readable-atlas-state -->
 ## Readable atlas editions, introduced 5 November 2026
 
-The maintained public projection generates 221 developed entry pages and 28 complete reading journeys, each with a stable URL. Entries preserve recorded status, sources, passage locators, claims, and typed connections. Sourced JSON downloads omit evidence excerpts and retain attribution and licence boundaries. Practical home routes, readable indexes, interactive edition links, a stewardship page, and sitemap entries are generated from the same maintained data. These reader projections use graph release 0.36; the reader generator introduces no new claims. No independent teaching review or reviewer appointment is implied. The original implementation is recorded in documentation/estate-implementation-20261105.md; later content releases have their own evidence and publication records.
+The maintained public projection generates 225 developed entry pages and 29 complete reading journeys, each with a stable URL. Entries preserve recorded status, sources, passage locators, claims, and typed connections. Sourced JSON downloads omit evidence excerpts and retain attribution and licence boundaries. Practical home routes, readable indexes, interactive edition links, a stewardship page, and sitemap entries are generated from the same maintained data. These reader projections use graph release 0.37; the reader generator introduces no new claims. No independent teaching review or reviewer appointment is implied. The original implementation is recorded in documentation/estate-implementation-20261105.md; later content releases have their own evidence and publication records.
 <!-- /readable-atlas-state -->

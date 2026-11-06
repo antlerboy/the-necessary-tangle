@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.37 — 6 November 2026
+
+Four existing foundational-paper entries gain primary-source-located profiles and an editorial reading journey. Model rules, examples, and limits remain visible; new exposition awaits editorial acceptance. The earlier 6 November digest is retained.
+
+
 ## 0.36 — 6 November 2026
 
 Source-located distinctions across observation, plural perspectives, boundary critique, structure and agency, plus deeper practice labs and an explicit autonomy comparison. 6 profiles deepened or developed, 6 connections, 5 source records, and one guided journey. Passage locators and evidence records distinguish exposition from editorial comparison. A connected reading guide, evidence download, homepage and library routes, and reproducible baseline accompany the release. Exact publication and live verification are recorded by the Publish workflow and deployment.json.

@@ -1,0 +1,337 @@
+{
+  "schema_version": "1.0",
+  "canonical_url": "https://transduction.systems/entries/publication_fpcs_023/",
+  "release": "0.37",
+  "citation": "Taylor, B. P. (2026). Deterministic Nonperiodic Flow. The Necessary Tangle, release 0.37. https://transduction.systems/entries/publication_fpcs_023/",
+  "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
+  "entry": {
+    "id": "publication_fpcs_023",
+    "label": "Deterministic Nonperiodic Flow",
+    "entity_type": "publication",
+    "description": "Lorenz retains three coupled equations from an idealised convection expansion. In the chosen regime, numerical motion remains bounded but irregular and nearby initial states can separate. The paper qualifies its finite-segment inference and does not establish a prediction horizon for the actual atmosphere.",
+    "aliases": [],
+    "boundary_ring": "1",
+    "inclusion_reason": "named_public_corpus",
+    "status": "accepted",
+    "source_ids": [
+      "src_fpcs_official_toc",
+      "src_u37_lorenz_1963"
+    ],
+    "set_tags": [
+      "complexity",
+      "foundational_papers",
+      "volume_2",
+      "release_0_8_expansion",
+      "reviewed_seed_candidate",
+      "foundational_papers_complexity_science",
+      "fpcs_volume_2"
+    ],
+    "espoused_labels": [],
+    "observed_clusters": [],
+    "canonical_definition": "A study of bounded deterministic nonlinear flow in a severely truncated convection model, and of the limits that state uncertainty can place on detailed prediction.",
+    "valid_from": "",
+    "valid_to": "",
+    "external_ids": "{\"fpcs_number\": 23, \"fpcs_volume\": 2}",
+    "geographies": [],
+    "licence": "source_terms",
+    "review_status": "research_pass_needs_editor",
+    "reviewed_by": "",
+    "reviewed_at": "",
+    "x": 0.845,
+    "y": -0.8365063509461097,
+    "canonical_id": "publication_fpcs_023",
+    "public_visibility": "public",
+    "publication_level": "profile",
+    "public_stub_text": "",
+    "public_source_count": 2,
+    "no_public_link_count": 0,
+    "connection_pass": "foundational_20261106"
+  },
+  "profile": {
+    "node_id": "publication_fpcs_023",
+    "title": "Deterministic Nonperiodic Flow",
+    "summary": "Lorenz retains three coupled equations from an idealised convection expansion. In the chosen regime, numerical motion remains bounded but irregular and nearby initial states can separate. The paper qualifies its finite-segment inference and does not establish a prediction horizon for the actual atmosphere.",
+    "canonical_definition": "A study of bounded deterministic nonlinear flow in a severely truncated convection model, and of the limits that state uncertainty can place on detailed prediction.",
+    "why_it_matters": "Known rules, accurate observations, and a useful forecasting horizon are different requirements. The relevant practical question is which quantities can be predicted within the tolerance a decision needs.",
+    "context_and_lineage": "The paper explicitly draws on Saltzman's convection expansion and acknowledges Fetter's numerical work. Those documented relationships do not establish a lineage to the other models in this reading route.",
+    "editorial_note": "Primary-source exposition and original model examples are distinguished from the explicitly fictional editorial inquiries and transfer questions. These new accounts await human editorial acceptance. The earlier catalogue review supported membership only.",
+    "reviewed_by": "",
+    "reviewed_at": "",
+    "key_distinctions": [
+      "A deterministic rule is not a promise of a precise long-range trajectory from imprecise measurements.",
+      "Bounded trajectories need not approach a fixed point. State uncertainty and parameter uncertainty are distinct.",
+      "A three-variable truncation of convection is not a faithful description of strong convection or of an organisation."
+    ],
+    "historical_lineage": [],
+    "logical_antecedents": [],
+    "dependent_subsequents": [],
+    "practice_connections": [
+      "Original model example: σ=10, b=8/3, and r=28 lie above the stated steady-convection threshold r=470/19≈24.74. The paper integrates with step 0.01 and examines successive maxima. These are dimensionless model choices, not weather-forecast units.",
+      "Fictional editorial inquiry: perturb the measured initial demand, capacity, and backlog in an explicitly specified service model. Compare how long projections stay within a decision-relevant tolerance, and whether aggregate measures behave differently.",
+      "Editorial transfer limit: first justify the state variables, causal equations, measurement errors, and decision threshold. The convection calculation supplies none of those organisational facts."
+    ],
+    "espoused_lineages": [],
+    "observed_clusters": [],
+    "common_misreadings": [
+      "Sensitivity makes every forecast or statistical statement useless.",
+      "Bounded means that motion must settle at one point.",
+      "The numerical example establishes a real-world weather or organisational forecasting horizon."
+    ],
+    "open_checks": [
+      "The article says its finite numerical argument does not mathematically prove the detailed instability/nonperiodicity conclusions; this account preserves that qualification.",
+      "No claim about present-day weather forecasting or later mathematical proofs is made."
+    ],
+    "source_ids": [
+      "src_u37_lorenz_1963",
+      "src_fpcs_official_toc"
+    ],
+    "evidence_ids": [
+      "ev_u37_lorenz_1963_equations",
+      "ev_u37_lorenz_1963_example",
+      "ev_u37_lorenz_1963_limits"
+    ],
+    "connection_pass": "foundational_20261106",
+    "profile_status": "evidence_deepened_research_pass",
+    "last_researched": "2026-11-06",
+    "review_status": "research_pass_needs_editor"
+  },
+  "connections": [
+    {
+      "id": "e_08_fpcs_authored_023_01",
+      "source": "publication_fpcs_023",
+      "target": "person_fpcs_e_n_lorenz",
+      "relation_type": "authored_by",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.96",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_fpcs_official_toc"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Official Foundational Papers in Complexity Science table of contents",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Bibliographic first pass: records authorship or collection structure, not a full evaluation of the work or influence.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-10",
+      "notes": "The official collection table of contents lists E. N. Lorenz as an author of this paper.",
+      "plain_phrase": "authored by",
+      "public_review_label": "official bibliographic record"
+    },
+    {
+      "id": "e_08_fpcs_paper_volume_023",
+      "source": "publication_fpcs_023",
+      "target": "publication_fpcs_volume_2",
+      "relation_type": "part_of",
+      "relation_family": "classification",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.96",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_fpcs_official_toc"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Official Foundational Papers in Complexity Science table of contents",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Bibliographic first pass: records authorship or collection structure, not a full evaluation of the work or influence.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-10",
+      "notes": "Paper 23 is listed in volume 2 of the official collection.",
+      "plain_phrase": "is part of",
+      "public_review_label": "official bibliographic record"
+    },
+    {
+      "id": "e_fpcs_part_023",
+      "source": "publication_fpcs_023",
+      "target": "corpus_foundational_papers_2024",
+      "relation_type": "part_of",
+      "relation_family": "classification",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.9",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_fpcs_official_toc"
+      ],
+      "evidence_ids": [],
+      "source_locator": "",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Official table of contents, volume 2, item 23.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-10",
+      "notes": "Official table of contents, volume 2, item 23. Candidate relation retained after endpoint and source validation.",
+      "plain_phrase": "is item in",
+      "public_review_label": "accepted in bibliographic first pass"
+    },
+    {
+      "id": "e_fpcs_topic_023_concept_complexity",
+      "source": "concept_complexity",
+      "target": "publication_fpcs_023",
+      "relation_type": "described_by",
+      "relation_family": "evidence",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.65",
+      "claim_status": "provisional",
+      "source_ids": [
+        "src_fpcs_official_toc"
+      ],
+      "evidence_ids": [],
+      "source_locator": "",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "A cautious first-pass topic link based on the paper title and collection placement; substantive review remains pending.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-10",
+      "notes": "A cautious first-pass topic link based on the paper title and collection placement; substantive review remains pending. Candidate relation retained after endpoint and source validation.",
+      "plain_phrase": "has a foundational treatment in",
+      "public_review_label": "provisional"
+    },
+    {
+      "id": "e16_fpcs_contents_023",
+      "source": "publication_fpcs_volume_2",
+      "target": "publication_fpcs_023",
+      "relation_type": "presents",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.98",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_fpcs_official_toc"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Official collection table of contents",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "This records documentary collection structure only. Inclusion does not by itself establish conceptual influence, agreement, importance or validity.",
+      "assertion_mode": "asserted",
+      "inference_method": "direct collection membership statement",
+      "claim_id": "",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "presents as a constituent paper",
+      "public_review_label": "source-backed contents statement"
+    },
+    {
+      "id": "e16_fpcs_contents_116",
+      "source": "corpus_foundational_papers_2024",
+      "target": "publication_fpcs_023",
+      "relation_type": "presents",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.98",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_fpcs_official_toc"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Official collection table of contents",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "This records documentary collection structure only. Inclusion does not by itself establish conceptual influence, agreement, importance or validity.",
+      "assertion_mode": "asserted",
+      "inference_method": "direct collection membership statement",
+      "claim_id": "",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "presents as a constituent paper",
+      "public_review_label": "source-backed contents statement"
+    }
+  ],
+  "claims": [],
+  "sources": [
+    {
+      "id": "src_fpcs_official_toc",
+      "title": "Foundational Papers in Complexity Science — official tables of contents",
+      "source_type": "publisher_table_of_contents",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://www.foundationalpapersincomplexityscience.org/tables-of-contents",
+      "date": "2024",
+      "notes": "Official item-level contents for the four-volume Santa Fe Institute Press collection. It supports the bibliographic inventory, not the substantive claims of all 89 original papers.",
+      "creators": [
+        "Santa Fe Institute Press",
+        "David C. Krakauer (editor)"
+      ],
+      "publisher": "Santa Fe Institute Press",
+      "licence": "source_terms",
+      "review_status": "checked_primary_register",
+      "last_checked": "2026-08-09",
+      "public_link_status": "public_link",
+      "doi": "",
+      "isbn": "",
+      "archived_url": "",
+      "content_hash": ""
+    },
+    {
+      "id": "src_u37_lorenz_1963",
+      "title": "Deterministic Nonperiodic Flow",
+      "source_type": "primary_text",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://doi.org/10.1175/1520-0469(1963)020%3C0130:DNF%3E2.0.CO;2",
+      "date": "1963",
+      "notes": "Primary university-hosted article read. Equation truncation, parameter regime, finite numerical argument, and forecast qualification were checked. The numerical argument carries the paper's own qualification that its conclusions are not mathematically proven. No later proof, real-atmosphere horizon, or organisational dynamics is inferred. PDF rights remain with the source.",
+      "creators": [
+        "Edward N. Lorenz"
+      ],
+      "doi": "10.1175/1520-0469(1963)020<0130:DNF>2.0.CO;2",
+      "isbn": "",
+      "publisher": "American Meteorological Society",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "35cbe8a9e3ac36f210031376989b3b838de85ca3ba0290ba44131dcfd204cc2f",
+      "review_status": "research_pass_needs_editor",
+      "last_checked": "2026-11-06",
+      "public_link_status": "public_link",
+      "reading_url": "https://cdanfort.w3.uvm.edu/research/lorenz-1963.pdf",
+      "connection_pass": "foundational_20261106",
+      "source_locator": "pp. 130–141; §§ 5–8, equations 23–34, tables 1–2, and figure 4",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "access_note": "The numerical argument carries the paper's own qualification that its conclusions are not mathematically proven. No later proof, real-atmosphere horizon, or organisational dynamics is inferred. PDF rights remain with the source."
+    }
+  ],
+  "evidence_locators": [
+    {
+      "id": "ev_u37_lorenz_1963_equations",
+      "source_id": "src_u37_lorenz_1963",
+      "locator": "pp. 134–136, §§ 5–6, equations 23–34",
+      "review_status": "research_pass_needs_editor"
+    },
+    {
+      "id": "ev_u37_lorenz_1963_example",
+      "source_id": "src_u37_lorenz_1963",
+      "locator": "p. 136, § 7, tables 1–2; pp. 138–140, figure 4",
+      "review_status": "research_pass_needs_editor"
+    },
+    {
+      "id": "ev_u37_lorenz_1963_limits",
+      "source_id": "src_u37_lorenz_1963",
+      "locator": "pp. 139–141, §§ 7–8",
+      "review_status": "research_pass_needs_editor"
+    }
+  ],
+  "reuse_note": "Preserve source attribution, scope, and review status. Source documents and evidence excerpts are excluded."
+}

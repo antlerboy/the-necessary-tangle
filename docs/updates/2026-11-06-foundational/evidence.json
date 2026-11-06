@@ -1,0 +1,489 @@
+{
+  "date": "2026-11-06",
+  "scope": "Located primary exposition and editorial questions; the sequence does not assert influence.",
+  "packet": {
+    "packet": "foundational-four-20261106",
+    "baseline_commit": "bec038d6d398a0b51e763b8109e27506fed5f6b4",
+    "editorial_status": "Source-located research candidates; no new curator acceptance",
+    "sources": [
+      {
+        "id": "src_u37_turing_1952",
+        "title": "The Chemical Basis of Morphogenesis",
+        "authors": [
+          "A. M. Turing"
+        ],
+        "date": "1952",
+        "publisher": "The Royal Society",
+        "source_type": "primary_text",
+        "url": "https://doi.org/10.1098/rstb.1952.0012",
+        "reading_url": "https://www.damtp.cam.ac.uk/user/gold/pdfs/teaching/turing1952.pdf",
+        "doi": "10.1098/rstb.1952.0012",
+        "locator": "pp. 37–72; especially §§ 6–10, equations 6.1–8.2, table 1 and figure 3, and § 11",
+        "verified": "Primary university-hosted article read. The linear analysis, hypothetical twenty-cell example, and stated modelling limits were checked.",
+        "limits": "Public reading access does not grant republication of the PDF. Biological suggestions are not treated as experimental confirmation. The two-species Jacobian shorthand in the research notes is an editorial reconstruction, not an extra verbatim theorem.",
+        "content_hash": "f1683df83d12c7079b7d60c046a59cddba951aa297abb29c2358afa374b10f56"
+      },
+      {
+        "id": "src_u37_lorenz_1963",
+        "title": "Deterministic Nonperiodic Flow",
+        "authors": [
+          "Edward N. Lorenz"
+        ],
+        "date": "1963",
+        "publisher": "American Meteorological Society",
+        "source_type": "primary_text",
+        "url": "https://doi.org/10.1175/1520-0469(1963)020%3C0130:DNF%3E2.0.CO;2",
+        "reading_url": "https://cdanfort.w3.uvm.edu/research/lorenz-1963.pdf",
+        "doi": "10.1175/1520-0469(1963)020<0130:DNF>2.0.CO;2",
+        "locator": "pp. 130–141; §§ 5–8, equations 23–34, tables 1–2, and figure 4",
+        "verified": "Primary university-hosted article read. Equation truncation, parameter regime, finite numerical argument, and forecast qualification were checked.",
+        "limits": "The numerical argument carries the paper's own qualification that its conclusions are not mathematically proven. No later proof, real-atmosphere horizon, or organisational dynamics is inferred. PDF rights remain with the source.",
+        "content_hash": "35cbe8a9e3ac36f210031376989b3b838de85ca3ba0290ba44131dcfd204cc2f"
+      },
+      {
+        "id": "src_u37_schelling_1971",
+        "title": "Dynamic Models of Segregation",
+        "authors": [
+          "Thomas C. Schelling"
+        ],
+        "date": "1971",
+        "publisher": "Journal of Mathematical Sociology",
+        "source_type": "primary_text",
+        "url": "https://doi.org/10.1080/0022250X.1971.9989794",
+        "reading_url": "https://acoustique.ec-lyon.fr/chaos/Schelling71.pdf",
+        "doi": "10.1080/0022250X.1971.9989794",
+        "locator": "pp. 143–186; model distinctions pp. 148–150; proximity examples pp. 155–164, figures 7, 9, and 11–14; later compartment and tipping models",
+        "verified": "The complete university-hosted primary PDF was read during the source pass. The grid rules, illustrated outcome, model variants, and limits were checked.",
+        "limits": "Local PDF download timed out and its byte hash is unavailable. A later coordinator retrieval also timed out. The university URL is a reading route, not an open-licence grant. Source exposition is based on the checked article, not a claim that every later checkerboard variant uses these rules.",
+        "content_hash": ""
+      },
+      {
+        "id": "src_u37_axelrod_hamilton_1981",
+        "title": "The Evolution of Cooperation",
+        "authors": [
+          "Robert Axelrod",
+          "William D. Hamilton"
+        ],
+        "date": "1981",
+        "publisher": "Science",
+        "source_type": "primary_text",
+        "url": "https://doi.org/10.1126/science.7466396",
+        "reading_url": "https://public.websites.umich.edu/~axe/research/Axelrod%20and%20Hamilton%20EC%201981.pdf",
+        "doi": "10.1126/science.7466396",
+        "locator": "pp. 1390–1396; figure 1, equation 1, Robustness, Stability, and Initial viability sections",
+        "verified": "The author-hosted primary PDF was read in the source pass. Payoffs, tournament setting, continuation-probability conditions, and invasion/recognition limits were checked.",
+        "limits": "Local download timed out, so a byte hash is unavailable; a later coordinator request returned 403. No full PDF is republished. Tournament performance, the paper's stability formulation, and initial viability remain distinct.",
+        "content_hash": ""
+      }
+    ],
+    "profiles": [
+      {
+        "node_id": "publication_fpcs_013",
+        "title": "The Chemical Basis of Morphogenesis",
+        "canonical_definition": "A mathematical proposal for how local chemical reactions and diffusion can destabilise a nearly homogeneous state and generate spatial concentration patterns.",
+        "summary": "Turing tests which spatial disturbances grow when reaction rates and diffusion couple locations. The calculation concerns onset near equilibrium; nonlinear development and geometry matter for the eventual form. The mechanism is proposed through idealised chemistry, not established for a particular organism.",
+        "why_it_matters": "It prompts a precise question: which interactions could amplify a difference that was initially small? A pattern need not have been specified as a whole for a model to produce it.",
+        "key_distinctions": [
+          "Stability against a uniform change differs from stability against spatial modes. Diffusion does not make every reacting system unstable.",
+          "A fastest-growing mode concerns early growth; it does not alone determine the final large-amplitude form.",
+          "Disturbances seed departures, while the reaction, diffusion, and permitted geometry constrain their growth."
+        ],
+        "context_and_lineage": "The paper treats discrete cells and a continuum as alternative idealisations. Its ring is chosen for mathematical convenience. The suggested biological interpretations remain hypotheses in this source account.",
+        "historical_lineage": [],
+        "logical_antecedents": [],
+        "dependent_subsequents": [],
+        "practice_connections": [
+          "Original model example: § 10 uses twenty cells and two hypothetical reacting substances. Its numerical run varies a catalyst parameter; at the final γ=0 a slightly stable uniform state and stable patterned equilibria coexist. This is a constructed calculation, not an observed embryo.",
+          "Fictional editorial inquiry: specify a local workload-amplification rule and cross-team exchange rule for initially similar service teams. Name the units, network, disturbance, and observation that could falsify the proposed mechanism.",
+          "Editorial transfer limit: people, institutions, strategic responses, and meanings do not become chemical substances. Establish an actual exchange law before borrowing diffusion mathematics."
+        ],
+        "espoused_lineages": [],
+        "observed_clusters": [],
+        "common_misreadings": [
+          "Noise by itself explains the resulting pattern.",
+          "Every kind of diffusion creates spatial structure.",
+          "The paper experimentally proves that an actual biological form was produced by the proposed chemistry."
+        ],
+        "open_checks": [
+          "This account checks the 1952 model and its qualifications, not later experimental morphogenesis research.",
+          "The organisational inquiry is fictional editorial work; it supplies no intervention-effectiveness evidence."
+        ],
+        "source_ids": [
+          "src_u37_turing_1952",
+          "src_fpcs_official_toc"
+        ],
+        "evidence_ids": [
+          "ev_u37_turing_1952_instability",
+          "ev_u37_turing_1952_example",
+          "ev_u37_turing_1952_limits"
+        ],
+        "editorial_note": "Primary-source exposition and original model examples are distinguished from the explicitly fictional editorial inquiries and transfer questions. These new accounts await human editorial acceptance. The earlier catalogue review supported membership only.",
+        "review_status": "research_pass_needs_editor",
+        "reviewed_by": "",
+        "reviewed_at": ""
+      },
+      {
+        "node_id": "publication_fpcs_023",
+        "title": "Deterministic Nonperiodic Flow",
+        "canonical_definition": "A study of bounded deterministic nonlinear flow in a severely truncated convection model, and of the limits that state uncertainty can place on detailed prediction.",
+        "summary": "Lorenz retains three coupled equations from an idealised convection expansion. In the chosen regime, numerical motion remains bounded but irregular and nearby initial states can separate. The paper qualifies its finite-segment inference and does not establish a prediction horizon for the actual atmosphere.",
+        "why_it_matters": "Known rules, accurate observations, and a useful forecasting horizon are different requirements. The relevant practical question is which quantities can be predicted within the tolerance a decision needs.",
+        "key_distinctions": [
+          "A deterministic rule is not a promise of a precise long-range trajectory from imprecise measurements.",
+          "Bounded trajectories need not approach a fixed point. State uncertainty and parameter uncertainty are distinct.",
+          "A three-variable truncation of convection is not a faithful description of strong convection or of an organisation."
+        ],
+        "context_and_lineage": "The paper explicitly draws on Saltzman's convection expansion and acknowledges Fetter's numerical work. Those documented relationships do not establish a lineage to the other models in this reading route.",
+        "historical_lineage": [],
+        "logical_antecedents": [],
+        "dependent_subsequents": [],
+        "practice_connections": [
+          "Original model example: σ=10, b=8/3, and r=28 lie above the stated steady-convection threshold r=470/19≈24.74. The paper integrates with step 0.01 and examines successive maxima. These are dimensionless model choices, not weather-forecast units.",
+          "Fictional editorial inquiry: perturb the measured initial demand, capacity, and backlog in an explicitly specified service model. Compare how long projections stay within a decision-relevant tolerance, and whether aggregate measures behave differently.",
+          "Editorial transfer limit: first justify the state variables, causal equations, measurement errors, and decision threshold. The convection calculation supplies none of those organisational facts."
+        ],
+        "espoused_lineages": [],
+        "observed_clusters": [],
+        "common_misreadings": [
+          "Sensitivity makes every forecast or statistical statement useless.",
+          "Bounded means that motion must settle at one point.",
+          "The numerical example establishes a real-world weather or organisational forecasting horizon."
+        ],
+        "open_checks": [
+          "The article says its finite numerical argument does not mathematically prove the detailed instability/nonperiodicity conclusions; this account preserves that qualification.",
+          "No claim about present-day weather forecasting or later mathematical proofs is made."
+        ],
+        "source_ids": [
+          "src_u37_lorenz_1963",
+          "src_fpcs_official_toc"
+        ],
+        "evidence_ids": [
+          "ev_u37_lorenz_1963_equations",
+          "ev_u37_lorenz_1963_example",
+          "ev_u37_lorenz_1963_limits"
+        ],
+        "editorial_note": "Primary-source exposition and original model examples are distinguished from the explicitly fictional editorial inquiries and transfer questions. These new accounts await human editorial acceptance. The earlier catalogue review supported membership only.",
+        "review_status": "research_pass_needs_editor",
+        "reviewed_by": "",
+        "reviewed_at": ""
+      },
+      {
+        "node_id": "publication_fpcs_037",
+        "title": "Dynamic Models of Segregation",
+        "canonical_definition": "An investigation of how local composition requirements, movement rules, and interaction can produce aggregate segregation patterns, using several distinct abstract models.",
+        "summary": "A move changes the neighbours and possible moves of others. The article examines line, spatial-grid, compartment, and tipping models; its outcomes depend on how neighbourhoods, thresholds, vacancies, groups, and movement are specified. A board result is not a quantitative estimate for an actual community.",
+        "why_it_matters": "A visible aggregate pattern does not by itself identify the motives, constraints, or feedbacks that produced it. A model can separate rival mechanisms without establishing which one operates in a place.",
+        "key_distinctions": [
+          "An acceptance threshold, a movement rule, and a measured spatial outcome are different parts of the explanation.",
+          "A position-relative neighbourhood differs from a shared fixed compartment. The article is not one universal checkerboard algorithm.",
+          "Satisfaction with a stipulated rule is not justice. Composition preferences in these examples can be discriminatory even when complete separation is not demanded."
+        ],
+        "context_and_lineage": "The article identifies a 1969 RAND version. Its multiple model structures should be retained rather than replaced by an unattributed later classroom variant. No influence between this paper and the other route entries is inferred.",
+        "historical_lineage": [],
+        "logical_antecedents": [],
+        "dependent_subsequents": [],
+        "practice_connections": [
+          "Original model example: the illustrated 13×16 grid uses up to eight surrounding squares and a requirement that at least half of occupied neighbours have the resident's type. In the reported run, residents without an opposite-type neighbour rise from 13 of 138 to 54 of 138. This is one artificial-board outcome.",
+          "Fictional editorial inquiry: define an abstract token-placement rule, vacancies, boundary cases, tie-breaking order, and a move limit. Vary the starting arrangement and acceptance threshold; record cycles or lack of a suitable vacancy rather than assume convergence.",
+          "Editorial transfer limit: investigate actual categories, institutional constraints, unequal power, coercion, and alternative causes. A similar-looking distribution is not evidence that the board mechanism explains it."
+        ],
+        "espoused_lineages": [],
+        "observed_clusters": [],
+        "common_misreadings": [
+          "The model shows that racism and institutions are irrelevant to actual segregation.",
+          "A threshold allowing some mixture is a demand for complete separation.",
+          "One illustrated run supplies a general forecast or a measure of social desirability."
+        ],
+        "open_checks": [
+          "The source PDF was read but a local byte hash could not be obtained.",
+          "The source account preserves multiple models; no empirical claim about a particular population is made."
+        ],
+        "source_ids": [
+          "src_u37_schelling_1971",
+          "src_fpcs_official_toc"
+        ],
+        "evidence_ids": [
+          "ev_u37_schelling_1971_variants",
+          "ev_u37_schelling_1971_example",
+          "ev_u37_schelling_1971_limits"
+        ],
+        "editorial_note": "Primary-source exposition and original model examples are distinguished from the explicitly fictional editorial inquiries and transfer questions. These new accounts await human editorial acceptance. The earlier catalogue review supported membership only.",
+        "review_status": "research_pass_needs_editor",
+        "reviewed_by": "",
+        "reviewed_at": ""
+      },
+      {
+        "node_id": "publication_fpcs_055",
+        "title": "The Evolution of Cooperation",
+        "canonical_definition": "A game-theoretic and tournament study of conditions under which reciprocal cooperation can perform well, resist invasion, and gain a foothold in repeated prisoner's-dilemma interaction.",
+        "summary": "Tit for Tat cooperates first, then copies its partner's previous move. The paper distinguishes tournament performance, stability against invasion, and initial viability. Its results depend on payoffs, repeated encounters, recognition, and the strategies and interaction patterns present; persistent defection can also remain stable.",
+        "why_it_matters": "A result about cooperation has to identify the environment that supports it. Reciprocity is a conditional mechanism to examine, not a general instruction to retaliate.",
+        "key_distinctions": [
+          "A tournament score, resistance to invasion, and entry into an established population are distinct tests.",
+          "A constant probability of another encounter differs from a known final round. Recognition and memory, or functional equivalents, matter for partner-contingent responses.",
+          "Relatedness and preferential interaction are different mechanisms; neither automatic cooperation nor the irrelevance of kinship follows."
+        ],
+        "context_and_lineage": "The article discusses kinship and reciprocation, reports Axelrod's tournaments, and credits Rapoport with submitting Tit for Tat. No intellectual connection to the other route papers is inferred from chronology.",
+        "historical_lineage": [],
+        "logical_antecedents": [],
+        "dependent_subsequents": [],
+        "practice_connections": [
+          "Original-model arithmetic: figure 1 uses T=5,R=3,P=1,S=0. Equation1 requires continuation probability w to meet both (T−R)/(T−P) and (T−R)/(R−S) thresholds for the stated stability result: 1/2 and 2/3. Thus w=0.8 meets both; w=0.5 does not. The arithmetic is editorial, using the paper's payoffs.",
+          "Fictional editorial inquiry: give two abstract players those stipulated points and a 0.8 chance of another round. Compare Tit for Tat with itself and unconditional defection; then explicitly add observation error as a new variant and compare the result. No service-team outcomes are measured.",
+          "Editorial transfer limit: test whether encounters, observable choices, power, multi-party effects, and payoffs really fit this two-player model. A tournament victory is no evidence for mechanically retaliating against colleagues or service users."
+        ],
+        "espoused_lineages": [],
+        "observed_clusters": [],
+        "common_misreadings": [
+          "Tit for Tat is universally optimal.",
+          "A cooperative population necessarily emerges from any initial state.",
+          "A tournament result settles noisy, changing-partner, or unequal-power organisational cases."
+        ],
+        "open_checks": [
+          "The paper's own evolutionary-stability formulation is retained, rather than silently substituted with every later game-theoretic definition.",
+          "The author-hosted PDF was read in the source pass; a byte hash is unavailable, and the later coordinator request returned 403."
+        ],
+        "source_ids": [
+          "src_u37_axelrod_hamilton_1981",
+          "src_fpcs_official_toc"
+        ],
+        "evidence_ids": [
+          "ev_u37_axelrod_hamilton_1981_game",
+          "ev_u37_axelrod_hamilton_1981_thresholds",
+          "ev_u37_axelrod_hamilton_1981_limits"
+        ],
+        "editorial_note": "Primary-source exposition and original model examples are distinguished from the explicitly fictional editorial inquiries and transfer questions. These new accounts await human editorial acceptance. The earlier catalogue review supported membership only.",
+        "review_status": "research_pass_needs_editor",
+        "reviewed_by": "",
+        "reviewed_at": ""
+      }
+    ],
+    "nodes": [
+      {
+        "id": "publication_fpcs_013",
+        "canonical_definition": "A mathematical proposal for how local chemical reactions and diffusion can destabilise a nearly homogeneous state and generate spatial concentration patterns.",
+        "description": "Turing tests which spatial disturbances grow when reaction rates and diffusion couple locations. The calculation concerns onset near equilibrium; nonlinear development and geometry matter for the eventual form. The mechanism is proposed through idealised chemistry, not established for a particular organism.",
+        "source_ids": [
+          "src_u37_turing_1952"
+        ],
+        "review_status": "research_pass_needs_editor",
+        "reviewed_by": "",
+        "reviewed_at": ""
+      },
+      {
+        "id": "publication_fpcs_023",
+        "canonical_definition": "A study of bounded deterministic nonlinear flow in a severely truncated convection model, and of the limits that state uncertainty can place on detailed prediction.",
+        "description": "Lorenz retains three coupled equations from an idealised convection expansion. In the chosen regime, numerical motion remains bounded but irregular and nearby initial states can separate. The paper qualifies its finite-segment inference and does not establish a prediction horizon for the actual atmosphere.",
+        "source_ids": [
+          "src_u37_lorenz_1963"
+        ],
+        "review_status": "research_pass_needs_editor",
+        "reviewed_by": "",
+        "reviewed_at": ""
+      },
+      {
+        "id": "publication_fpcs_037",
+        "canonical_definition": "An investigation of how local composition requirements, movement rules, and interaction can produce aggregate segregation patterns, using several distinct abstract models.",
+        "description": "A move changes the neighbours and possible moves of others. The article examines line, spatial-grid, compartment, and tipping models; its outcomes depend on how neighbourhoods, thresholds, vacancies, groups, and movement are specified. A board result is not a quantitative estimate for an actual community.",
+        "source_ids": [
+          "src_u37_schelling_1971"
+        ],
+        "review_status": "research_pass_needs_editor",
+        "reviewed_by": "",
+        "reviewed_at": ""
+      },
+      {
+        "id": "publication_fpcs_055",
+        "canonical_definition": "A game-theoretic and tournament study of conditions under which reciprocal cooperation can perform well, resist invasion, and gain a foothold in repeated prisoner's-dilemma interaction.",
+        "description": "Tit for Tat cooperates first, then copies its partner's previous move. The paper distinguishes tournament performance, stability against invasion, and initial viability. Its results depend on payoffs, repeated encounters, recognition, and the strategies and interaction patterns present; persistent defection can also remain stable.",
+        "source_ids": [
+          "src_u37_axelrod_hamilton_1981"
+        ],
+        "review_status": "research_pass_needs_editor",
+        "reviewed_by": "",
+        "reviewed_at": ""
+      }
+    ],
+    "evidence_proposals": [
+      {
+        "id": "ev_u37_turing_1952_instability",
+        "source_id": "src_u37_turing_1952",
+        "locator": "pp. 46–52, §§ 6–8, especially equations 6.1–8.2",
+        "excerpt_or_summary": "The paper resolves small disturbances into spatial modes and examines parameter-dependent growth near a homogeneous equilibrium.",
+        "evidence_type": "primary_text_paraphrase",
+        "quality_tier": "A",
+        "licence": "source_terms",
+        "review_status": "research_pass_needs_editor",
+        "content_hash": "",
+        "public_evidence_status": "public"
+      },
+      {
+        "id": "ev_u37_turing_1952_example",
+        "source_id": "src_u37_turing_1952",
+        "locator": "pp. 60–64, § 10, table 1 and figure 3",
+        "excerpt_or_summary": "The twenty-cell example uses hypothetical reactions and a varying catalyst parameter; final patterned equilibria and a slightly stable homogeneous equilibrium can coexist.",
+        "evidence_type": "primary_text_paraphrase",
+        "quality_tier": "A",
+        "licence": "source_terms",
+        "review_status": "research_pass_needs_editor",
+        "content_hash": "",
+        "public_evidence_status": "public"
+      },
+      {
+        "id": "ev_u37_turing_1952_limits",
+        "source_id": "src_u37_turing_1952",
+        "locator": "pp. 58–59, § 9; pp. 66–69, § 11",
+        "excerpt_or_summary": "Linearisation limits the early-growth analysis; biological interpretations are proposed, not experimentally established by these calculations.",
+        "evidence_type": "primary_text_paraphrase",
+        "quality_tier": "A",
+        "licence": "source_terms",
+        "review_status": "research_pass_needs_editor",
+        "content_hash": "",
+        "public_evidence_status": "public"
+      },
+      {
+        "id": "ev_u37_lorenz_1963_equations",
+        "source_id": "src_u37_lorenz_1963",
+        "locator": "pp. 134–136, §§ 5–6, equations 23–34",
+        "excerpt_or_summary": "Three retained expansion terms give the nonlinear convection equations; the paper states the truncation's limited realism and parameter-dependent equilibria.",
+        "evidence_type": "primary_text_paraphrase",
+        "quality_tier": "A",
+        "licence": "source_terms",
+        "review_status": "research_pass_needs_editor",
+        "content_hash": "",
+        "public_evidence_status": "public"
+      },
+      {
+        "id": "ev_u37_lorenz_1963_example",
+        "source_id": "src_u37_lorenz_1963",
+        "locator": "p. 136, § 7, tables 1–2; pp. 138–140, figure 4",
+        "excerpt_or_summary": "The numerical example chooses σ=10,b=8/3,r=28 and step 0.01; successive maxima are used in a finite numerical argument.",
+        "evidence_type": "primary_text_paraphrase",
+        "quality_tier": "A",
+        "licence": "source_terms",
+        "review_status": "research_pass_needs_editor",
+        "content_hash": "",
+        "public_evidence_status": "public"
+      },
+      {
+        "id": "ev_u37_lorenz_1963_limits",
+        "source_id": "src_u37_lorenz_1963",
+        "locator": "pp. 139–141, §§ 7–8",
+        "excerpt_or_summary": "Lorenz qualifies the mathematical status of the finite numerical inference and does not establish the actual atmosphere's forecast horizon.",
+        "evidence_type": "primary_text_paraphrase",
+        "quality_tier": "A",
+        "licence": "source_terms",
+        "review_status": "research_pass_needs_editor",
+        "content_hash": "",
+        "public_evidence_status": "public"
+      },
+      {
+        "id": "ev_u37_schelling_1971_variants",
+        "source_id": "src_u37_schelling_1971",
+        "locator": "pp. 143–150, especially pp. 148–150 and figure 1",
+        "excerpt_or_summary": "The article distinguishes line/proximity, spatial, compartment, and tipping models rather than presenting one universal movement algorithm.",
+        "evidence_type": "primary_text_paraphrase",
+        "quality_tier": "A",
+        "licence": "source_terms",
+        "review_status": "research_pass_needs_editor",
+        "content_hash": "",
+        "public_evidence_status": "public"
+      },
+      {
+        "id": "ev_u37_schelling_1971_example",
+        "source_id": "src_u37_schelling_1971",
+        "locator": "pp. 155–159, figures 7, 9, and 11",
+        "excerpt_or_summary": "The grid example uses specified composition and vacancy rules;13 of 138 versus 54 of 138 without an opposite-type neighbour is a particular illustrated outcome.",
+        "evidence_type": "primary_text_paraphrase",
+        "quality_tier": "A",
+        "licence": "source_terms",
+        "review_status": "research_pass_needs_editor",
+        "content_hash": "",
+        "public_evidence_status": "public"
+      },
+      {
+        "id": "ev_u37_schelling_1971_limits",
+        "source_id": "src_u37_schelling_1971",
+        "locator": "pp. 143–145 and 158–164",
+        "excerpt_or_summary": "Other mechanisms, model variants, small artificial samples, and density/reference choices limit what can be inferred about actual populations.",
+        "evidence_type": "primary_text_paraphrase",
+        "quality_tier": "A",
+        "licence": "source_terms",
+        "review_status": "research_pass_needs_editor",
+        "content_hash": "",
+        "public_evidence_status": "public"
+      },
+      {
+        "id": "ev_u37_axelrod_hamilton_1981_game",
+        "source_id": "src_u37_axelrod_hamilton_1981",
+        "locator": "pp. 1391–1393, figure 1, Robustness and Stability",
+        "excerpt_or_summary": "The repeated two-player game and specified payoffs underlie the reported tournament and stability comparisons.",
+        "evidence_type": "primary_text_paraphrase",
+        "quality_tier": "A",
+        "licence": "source_terms",
+        "review_status": "research_pass_needs_editor",
+        "content_hash": "",
+        "public_evidence_status": "public"
+      },
+      {
+        "id": "ev_u37_axelrod_hamilton_1981_thresholds",
+        "source_id": "src_u37_axelrod_hamilton_1981",
+        "locator": "pp. 1392–1393, equation 1",
+        "excerpt_or_summary": "The stability result gives two continuation-probability conditions. Unconditional defection also remains stable in the authors' formulation.",
+        "evidence_type": "primary_text_paraphrase",
+        "quality_tier": "A",
+        "licence": "source_terms",
+        "review_status": "research_pass_needs_editor",
+        "content_hash": "",
+        "public_evidence_status": "public"
+      },
+      {
+        "id": "ev_u37_axelrod_hamilton_1981_limits",
+        "source_id": "src_u37_axelrod_hamilton_1981",
+        "locator": "pp. 1393–1396, Initial viability and biological applications",
+        "excerpt_or_summary": "Clustering and repeated encounters affect initial viability; recognition/discrimination limits and speculative biological applications are acknowledged.",
+        "evidence_type": "primary_text_paraphrase",
+        "quality_tier": "A",
+        "licence": "source_terms",
+        "review_status": "research_pass_needs_editor",
+        "content_hash": "",
+        "public_evidence_status": "public"
+      }
+    ],
+    "edges": [],
+    "claims": [],
+    "journeys": [
+      {
+        "id": "journey_models_and_patterns",
+        "title": "What is producing the pattern?",
+        "subtitle": "Four models, four different explanatory jobs",
+        "summary": "Compare spatial instability, temporal sensitivity, movement feedback, and repeated-game cooperation by asking what each model actually assumes and explains. This is an editorial sequence, not a historical lineage or a common organisational law.",
+        "audience": "readers building, using, or challenging a model",
+        "duration_minutes": 18,
+        "steps": [
+          {
+            "node_id": "publication_fpcs_013",
+            "heading": "What amplifies a spatial difference?",
+            "narrative": "Distinguish a growing spatial mode from the eventual nonlinear form. Specify a local process, exchange mechanism, geometry, and possible falsifying observation before transferring the model."
+          },
+          {
+            "node_id": "publication_fpcs_023",
+            "heading": "How long is a detailed projection useful?",
+            "narrative": "Separate deterministic rules from state precision and a decision-relevant prediction horizon. The paper's truncated convection example provides no organisational horizon."
+          },
+          {
+            "node_id": "publication_fpcs_037",
+            "heading": "Which local rules produce this distribution?",
+            "narrative": "Distinguish preference, feasible movement, reference neighbourhood, and aggregate outcome. Keep institutional causes and unequal power available; visual resemblance does not identify a cause."
+          },
+          {
+            "node_id": "publication_fpcs_055",
+            "heading": "What sustains a reciprocal response?",
+            "narrative": "Name the payoffs, probability of another encounter, recognition, and interaction ecology. Test tournament success, stability, and initial viability separately rather than call one strategy universally best."
+          }
+        ]
+      }
+    ],
+    "scope": "Four existing bibliographic entries developed; no generic connections, historical influence claims, or empirical organisational laws."
+  }
+}

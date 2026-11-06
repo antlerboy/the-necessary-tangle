@@ -1,7 +1,7 @@
 {
-  "release": "0.36",
-  "entry_count": 221,
-  "journey_count": 28,
+  "release": "0.37",
+  "entry_count": 225,
+  "journey_count": 29,
   "routes": [
     "/entries/",
     "/journeys/",
@@ -57,6 +57,7 @@
     "/entries/framework_deep_transitions/",
     "/entries/publication_schot_kanger_deep_transitions_2018/",
     "/entries/publication_early_ashby_brain/",
+    "/entries/publication_fpcs_023/",
     "/entries/concept_dissipative_structure/",
     "/entries/concept_distinction/",
     "/entries/method_or_methodology_distributed_ethnography/",
@@ -65,6 +66,7 @@
     "/entries/person_donella_meadows/",
     "/entries/concept_double_loop_learning/",
     "/entries/concept_dynamic_equilibrium/",
+    "/entries/publication_fpcs_037/",
     "/entries/concept_egression_degression/",
     "/entries/concept_emergence/",
     "/entries/concept_epistemic_closure/",
@@ -199,8 +201,10 @@
     "/entries/practice_systems_weaving/",
     "/entries/concept_communication_levels/",
     "/entries/concept_tektological_complex/",
+    "/entries/publication_fpcs_013/",
     "/entries/publication_the_complexity_podcast/",
     "/entries/organisation_the_cynefin_company/",
+    "/entries/publication_fpcs_055/",
     "/entries/publication_fractal_organisation_manual/",
     "/entries/publication_grammar_of_systems_ii/",
     "/entries/publication_hidden_power_systems_thinking/",
@@ -254,6 +258,7 @@
     "/journeys/journey_regulation_distinctions/",
     "/journeys/journey_learning_changes/",
     "/journeys/journey_boundaries_becoming/",
-    "/journeys/journey_observation_judgement_action/"
+    "/journeys/journey_observation_judgement_action/",
+    "/journeys/journey_models_and_patterns/"
   ]
 }
