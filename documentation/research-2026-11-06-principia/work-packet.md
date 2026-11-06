@@ -1,6 +1,6 @@
 # Next work
 
-Status: implemented and locally verified, 6 November 2026. This finite Principia Cybernetica packet is complete locally; no further implementation is active. Actual Ubuntu workflow checks and deployment.json record final publication identity separately.
+Status: source and reader implementation verified, 6 November 2026. Necessary publication recovery is active: give each build a unique Pages artifact name and pass that build output to deployment. Source content remains complete; actual Ubuntu checks and deployment.json record publication identity.
 
 ## Outcome and deliverable
 
@@ -23,3 +23,7 @@ Run full make validate or its exact ordered local equivalent plus actual Ubuntu 
 ## Stop
 
 One implementation and verification pass; a corrective pass addresses a named failure. Stop at a checked release, source/access boundary, packet limit, or an editorial decision. Do not claim full-site review or deployed functionality that was not tested.
+
+## Publication recovery
+
+The first Pages deployment timed out while syncing files. A deployment-only retry returned cancelled status. Rebuilding produced duplicate default artifact names in one workflow run, and deploy-pages correctly rejected the ambiguity. The recovery changes only the publisher naming contract: build once chooses a unique run/attempt artifact name, upload uses it, and deployment consumes the retained build-job output. Existing artifacts, source content, Pages settings, and access controls are preserved. Files: .github/workflows/pages.yml and documentation/publication-recovery-20261106.md. Run focused YAML/linkage checks plus actual Ubuntu PR validation before merge; then verify public deployment and live routes.
