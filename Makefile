@@ -1,10 +1,11 @@
 .PHONY: build build-base apply-current apply-practice apply-missing-entry-reports validate serve clean
 
-build: build-base apply-current apply-practice apply-september apply-intake apply-maps apply-library apply-missing-entry-reports apply-submission-review apply-claim-lab apply-weaver apply-update-30 apply-update-31 apply-update-32 apply-update-33 apply-update-34 apply-saidtosomeone apply-update-35 apply-cybernetic-readings apply-isss-wiki apply-update-36 apply-readable-atlas
+build: build-base apply-current apply-practice apply-september apply-intake apply-maps apply-library apply-missing-entry-reports apply-submission-review apply-claim-lab apply-weaver apply-update-30 apply-update-31 apply-update-32 apply-update-33 apply-update-34 apply-saidtosomeone apply-update-35 apply-cybernetic-readings apply-isss-wiki apply-update-36 apply-update-37 apply-readable-atlas
 
 # Historical validators assert historical release identifiers. Rebuild that
 # baseline, run its gates, then apply and validate the current release.
 build-base:
+	python3 scripts/prepare_update_37_baseline.py
 	python3 scripts/prepare_update_36_baseline.py
 	python3 scripts/prepare_update_35_baseline.py
 	python3 scripts/prepare_update_34_baseline.py
@@ -198,6 +199,9 @@ validate: build-base
 	$(MAKE) apply-update-36
 	$(MAKE) apply-readable-atlas
 	python3 scripts/validate_update_36.py
+	$(MAKE) apply-update-37
+	$(MAKE) apply-readable-atlas
+	python3 scripts/validate_update_37.py
 	python3 scripts/validate_readable_atlas.py
 	python3 scripts/validate_public.py
 
@@ -293,4 +297,9 @@ apply-readable-atlas:
 .PHONY: apply-update-36
 apply-update-36:
 	python3 scripts/apply_update_36.py
+	python3 scripts/build_public_knowledge.py
+
+.PHONY: apply-update-37
+apply-update-37:
+	python3 scripts/apply_update_37.py
 	python3 scripts/build_public_knowledge.py

@@ -1,0 +1,338 @@
+{
+  "schema_version": "1.0",
+  "canonical_url": "https://transduction.systems/entries/publication_fpcs_055/",
+  "release": "0.37",
+  "citation": "Taylor, B. P. (2026). The Evolution of Cooperation. The Necessary Tangle, release 0.37. https://transduction.systems/entries/publication_fpcs_055/",
+  "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
+  "entry": {
+    "id": "publication_fpcs_055",
+    "label": "The Evolution of Cooperation",
+    "entity_type": "publication",
+    "description": "Tit for Tat cooperates first, then copies its partner's previous move. The paper distinguishes tournament performance, stability against invasion, and initial viability. Its results depend on payoffs, repeated encounters, recognition, and the strategies and interaction patterns present; persistent defection can also remain stable.",
+    "aliases": [],
+    "boundary_ring": "1",
+    "inclusion_reason": "named_public_corpus",
+    "status": "accepted",
+    "source_ids": [
+      "src_fpcs_official_toc",
+      "src_u37_axelrod_hamilton_1981"
+    ],
+    "set_tags": [
+      "complexity",
+      "foundational_papers",
+      "volume_3",
+      "release_0_8_expansion",
+      "reviewed_seed_candidate",
+      "foundational_papers_complexity_science",
+      "fpcs_volume_3"
+    ],
+    "espoused_labels": [],
+    "observed_clusters": [],
+    "canonical_definition": "A game-theoretic and tournament study of conditions under which reciprocal cooperation can perform well, resist invasion, and gain a foothold in repeated prisoner's-dilemma interaction.",
+    "valid_from": "",
+    "valid_to": "",
+    "external_ids": "{\"fpcs_number\": 55, \"fpcs_volume\": 3}",
+    "geographies": [],
+    "licence": "source_terms",
+    "review_status": "research_pass_needs_editor",
+    "reviewed_by": "",
+    "reviewed_at": "",
+    "x": -0.6495668607896425,
+    "y": 0.8598732434036244,
+    "canonical_id": "publication_fpcs_055",
+    "public_visibility": "public",
+    "publication_level": "profile",
+    "public_stub_text": "",
+    "public_source_count": 2,
+    "no_public_link_count": 0,
+    "connection_pass": "foundational_20261106"
+  },
+  "profile": {
+    "node_id": "publication_fpcs_055",
+    "title": "The Evolution of Cooperation",
+    "summary": "Tit for Tat cooperates first, then copies its partner's previous move. The paper distinguishes tournament performance, stability against invasion, and initial viability. Its results depend on payoffs, repeated encounters, recognition, and the strategies and interaction patterns present; persistent defection can also remain stable.",
+    "canonical_definition": "A game-theoretic and tournament study of conditions under which reciprocal cooperation can perform well, resist invasion, and gain a foothold in repeated prisoner's-dilemma interaction.",
+    "why_it_matters": "A result about cooperation has to identify the environment that supports it. Reciprocity is a conditional mechanism to examine, not a general instruction to retaliate.",
+    "context_and_lineage": "The article discusses kinship and reciprocation, reports Axelrod's tournaments, and credits Rapoport with submitting Tit for Tat. No intellectual connection to the other route papers is inferred from chronology.",
+    "editorial_note": "Primary-source exposition and original model examples are distinguished from the explicitly fictional editorial inquiries and transfer questions. These new accounts await human editorial acceptance. The earlier catalogue review supported membership only.",
+    "reviewed_by": "",
+    "reviewed_at": "",
+    "key_distinctions": [
+      "A tournament score, resistance to invasion, and entry into an established population are distinct tests.",
+      "A constant probability of another encounter differs from a known final round. Recognition and memory, or functional equivalents, matter for partner-contingent responses.",
+      "Relatedness and preferential interaction are different mechanisms; neither automatic cooperation nor the irrelevance of kinship follows."
+    ],
+    "historical_lineage": [],
+    "logical_antecedents": [],
+    "dependent_subsequents": [],
+    "practice_connections": [
+      "Original-model arithmetic: figure 1 uses T=5,R=3,P=1,S=0. Equation1 requires continuation probability w to meet both (T−R)/(T−P) and (T−R)/(R−S) thresholds for the stated stability result: 1/2 and 2/3. Thus w=0.8 meets both; w=0.5 does not. The arithmetic is editorial, using the paper's payoffs.",
+      "Fictional editorial inquiry: give two abstract players those stipulated points and a 0.8 chance of another round. Compare Tit for Tat with itself and unconditional defection; then explicitly add observation error as a new variant and compare the result. No service-team outcomes are measured.",
+      "Editorial transfer limit: test whether encounters, observable choices, power, multi-party effects, and payoffs really fit this two-player model. A tournament victory is no evidence for mechanically retaliating against colleagues or service users."
+    ],
+    "espoused_lineages": [],
+    "observed_clusters": [],
+    "common_misreadings": [
+      "Tit for Tat is universally optimal.",
+      "A cooperative population necessarily emerges from any initial state.",
+      "A tournament result settles noisy, changing-partner, or unequal-power organisational cases."
+    ],
+    "open_checks": [
+      "The paper's own evolutionary-stability formulation is retained, rather than silently substituted with every later game-theoretic definition.",
+      "The author-hosted PDF was read in the source pass; a byte hash is unavailable, and the later coordinator request returned 403."
+    ],
+    "source_ids": [
+      "src_u37_axelrod_hamilton_1981",
+      "src_fpcs_official_toc"
+    ],
+    "evidence_ids": [
+      "ev_u37_axelrod_hamilton_1981_game",
+      "ev_u37_axelrod_hamilton_1981_thresholds",
+      "ev_u37_axelrod_hamilton_1981_limits"
+    ],
+    "connection_pass": "foundational_20261106",
+    "profile_status": "evidence_deepened_research_pass",
+    "last_researched": "2026-11-06",
+    "review_status": "research_pass_needs_editor"
+  },
+  "connections": [
+    {
+      "id": "e_08_fpcs_authored_055_01",
+      "source": "publication_fpcs_055",
+      "target": "person_fpcs_r_axelrod",
+      "relation_type": "authored_by",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.96",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_fpcs_official_toc"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Official Foundational Papers in Complexity Science table of contents",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Bibliographic first pass: records authorship or collection structure, not a full evaluation of the work or influence.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-10",
+      "notes": "The official collection table of contents lists R. Axelrod as an author of this paper.",
+      "plain_phrase": "authored by",
+      "public_review_label": "official bibliographic record"
+    },
+    {
+      "id": "e_08_fpcs_authored_055_02",
+      "source": "publication_fpcs_055",
+      "target": "person_fpcs_w_d_hamilton",
+      "relation_type": "authored_by",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.96",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_fpcs_official_toc"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Official Foundational Papers in Complexity Science table of contents",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Bibliographic first pass: records authorship or collection structure, not a full evaluation of the work or influence.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-10",
+      "notes": "The official collection table of contents lists W. D. Hamilton as an author of this paper.",
+      "plain_phrase": "authored by",
+      "public_review_label": "official bibliographic record"
+    },
+    {
+      "id": "e_08_fpcs_paper_volume_055",
+      "source": "publication_fpcs_055",
+      "target": "publication_fpcs_volume_3",
+      "relation_type": "part_of",
+      "relation_family": "classification",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.96",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_fpcs_official_toc"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Official Foundational Papers in Complexity Science table of contents",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Bibliographic first pass: records authorship or collection structure, not a full evaluation of the work or influence.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-10",
+      "notes": "Paper 55 is listed in volume 3 of the official collection.",
+      "plain_phrase": "is part of",
+      "public_review_label": "official bibliographic record"
+    },
+    {
+      "id": "e_fpcs_part_055",
+      "source": "publication_fpcs_055",
+      "target": "corpus_foundational_papers_2024",
+      "relation_type": "part_of",
+      "relation_family": "classification",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.9",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_fpcs_official_toc"
+      ],
+      "evidence_ids": [],
+      "source_locator": "",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Official table of contents, volume 3, item 55.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-10",
+      "notes": "Official table of contents, volume 3, item 55. Candidate relation retained after endpoint and source validation.",
+      "plain_phrase": "is item in",
+      "public_review_label": "accepted in bibliographic first pass"
+    },
+    {
+      "id": "e16_fpcs_contents_055",
+      "source": "publication_fpcs_volume_3",
+      "target": "publication_fpcs_055",
+      "relation_type": "presents",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.98",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_fpcs_official_toc"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Official collection table of contents",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "This records documentary collection structure only. Inclusion does not by itself establish conceptual influence, agreement, importance or validity.",
+      "assertion_mode": "asserted",
+      "inference_method": "direct collection membership statement",
+      "claim_id": "",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "presents as a constituent paper",
+      "public_review_label": "source-backed contents statement"
+    },
+    {
+      "id": "e16_fpcs_contents_148",
+      "source": "corpus_foundational_papers_2024",
+      "target": "publication_fpcs_055",
+      "relation_type": "presents",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.98",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_fpcs_official_toc"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Official collection table of contents",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "This records documentary collection structure only. Inclusion does not by itself establish conceptual influence, agreement, importance or validity.",
+      "assertion_mode": "asserted",
+      "inference_method": "direct collection membership statement",
+      "claim_id": "",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "presents as a constituent paper",
+      "public_review_label": "source-backed contents statement"
+    }
+  ],
+  "claims": [],
+  "sources": [
+    {
+      "id": "src_fpcs_official_toc",
+      "title": "Foundational Papers in Complexity Science — official tables of contents",
+      "source_type": "publisher_table_of_contents",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://www.foundationalpapersincomplexityscience.org/tables-of-contents",
+      "date": "2024",
+      "notes": "Official item-level contents for the four-volume Santa Fe Institute Press collection. It supports the bibliographic inventory, not the substantive claims of all 89 original papers.",
+      "creators": [
+        "Santa Fe Institute Press",
+        "David C. Krakauer (editor)"
+      ],
+      "publisher": "Santa Fe Institute Press",
+      "licence": "source_terms",
+      "review_status": "checked_primary_register",
+      "last_checked": "2026-08-09",
+      "public_link_status": "public_link",
+      "doi": "",
+      "isbn": "",
+      "archived_url": "",
+      "content_hash": ""
+    },
+    {
+      "id": "src_u37_axelrod_hamilton_1981",
+      "title": "The Evolution of Cooperation",
+      "source_type": "primary_text",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://doi.org/10.1126/science.7466396",
+      "date": "1981",
+      "notes": "The author-hosted primary PDF was read in the source pass. Payoffs, tournament setting, continuation-probability conditions, and invasion/recognition limits were checked. Local download timed out, so a byte hash is unavailable; a later coordinator request returned 403. No full PDF is republished. Tournament performance, the paper's stability formulation, and initial viability remain distinct.",
+      "creators": [
+        "Robert Axelrod",
+        "William D. Hamilton"
+      ],
+      "doi": "10.1126/science.7466396",
+      "isbn": "",
+      "publisher": "Science",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "research_pass_needs_editor",
+      "last_checked": "2026-11-06",
+      "public_link_status": "public_link",
+      "reading_url": "https://public.websites.umich.edu/~axe/research/Axelrod%20and%20Hamilton%20EC%201981.pdf",
+      "connection_pass": "foundational_20261106",
+      "source_locator": "pp. 1390–1396; figure 1, equation 1, Robustness, Stability, and Initial viability sections",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "access_note": "Local download timed out, so a byte hash is unavailable; a later coordinator request returned 403. No full PDF is republished. Tournament performance, the paper's stability formulation, and initial viability remain distinct."
+    }
+  ],
+  "evidence_locators": [
+    {
+      "id": "ev_u37_axelrod_hamilton_1981_game",
+      "source_id": "src_u37_axelrod_hamilton_1981",
+      "locator": "pp. 1391–1393, figure 1, Robustness and Stability",
+      "review_status": "research_pass_needs_editor"
+    },
+    {
+      "id": "ev_u37_axelrod_hamilton_1981_thresholds",
+      "source_id": "src_u37_axelrod_hamilton_1981",
+      "locator": "pp. 1392–1393, equation 1",
+      "review_status": "research_pass_needs_editor"
+    },
+    {
+      "id": "ev_u37_axelrod_hamilton_1981_limits",
+      "source_id": "src_u37_axelrod_hamilton_1981",
+      "locator": "pp. 1393–1396, Initial viability and biological applications",
+      "review_status": "research_pass_needs_editor"
+    }
+  ],
+  "reuse_note": "Preserve source attribution, scope, and review status. Source documents and evidence excerpts are excluded."
+}

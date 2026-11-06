@@ -368,6 +368,14 @@
     <lastmod>2026-11-06</lastmod>
   </url>
   <url>
+    <loc>https://transduction.systems/reading/models-and-patterns/</loc>
+    <lastmod>2026-11-06</lastmod>
+  </url>
+  <url>
+    <loc>https://transduction.systems/updates/2026-11-06-foundational/</loc>
+    <lastmod>2026-11-06</lastmod>
+  </url>
+  <url>
     <loc>https://transduction.systems/entries/</loc>
   </url>
   <url>
@@ -530,6 +538,9 @@
     <loc>https://transduction.systems/entries/publication_early_ashby_brain/</loc>
   </url>
   <url>
+    <loc>https://transduction.systems/entries/publication_fpcs_023/</loc>
+  </url>
+  <url>
     <loc>https://transduction.systems/entries/concept_dissipative_structure/</loc>
   </url>
   <url>
@@ -552,6 +563,9 @@
   </url>
   <url>
     <loc>https://transduction.systems/entries/concept_dynamic_equilibrium/</loc>
+  </url>
+  <url>
+    <loc>https://transduction.systems/entries/publication_fpcs_037/</loc>
   </url>
   <url>
     <loc>https://transduction.systems/entries/concept_egression_degression/</loc>
@@ -956,10 +970,16 @@
     <loc>https://transduction.systems/entries/concept_tektological_complex/</loc>
   </url>
   <url>
+    <loc>https://transduction.systems/entries/publication_fpcs_013/</loc>
+  </url>
+  <url>
     <loc>https://transduction.systems/entries/publication_the_complexity_podcast/</loc>
   </url>
   <url>
     <loc>https://transduction.systems/entries/organisation_the_cynefin_company/</loc>
+  </url>
+  <url>
+    <loc>https://transduction.systems/entries/publication_fpcs_055/</loc>
   </url>
   <url>
     <loc>https://transduction.systems/entries/publication_fractal_organisation_manual/</loc>
@@ -1122,5 +1142,8 @@
   </url>
   <url>
     <loc>https://transduction.systems/journeys/journey_observation_judgement_action/</loc>
+  </url>
+  <url>
+    <loc>https://transduction.systems/journeys/journey_models_and_patterns/</loc>
   </url>
 </urlset>

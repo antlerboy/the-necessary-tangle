@@ -1,0 +1,310 @@
+{
+  "schema_version": "1.0",
+  "canonical_url": "https://transduction.systems/entries/publication_fpcs_013/",
+  "release": "0.37",
+  "citation": "Taylor, B. P. (2026). The Chemical Basis of Morphogenesis. The Necessary Tangle, release 0.37. https://transduction.systems/entries/publication_fpcs_013/",
+  "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
+  "entry": {
+    "id": "publication_fpcs_013",
+    "label": "The Chemical Basis of Morphogenesis",
+    "entity_type": "publication",
+    "description": "Turing tests which spatial disturbances grow when reaction rates and diffusion couple locations. The calculation concerns onset near equilibrium; nonlinear development and geometry matter for the eventual form. The mechanism is proposed through idealised chemistry, not established for a particular organism.",
+    "aliases": [],
+    "boundary_ring": "1",
+    "inclusion_reason": "named_public_corpus",
+    "status": "accepted",
+    "source_ids": [
+      "src_fpcs_official_toc",
+      "src_u37_turing_1952"
+    ],
+    "set_tags": [
+      "complexity",
+      "foundational_papers",
+      "volume_1",
+      "release_0_8_expansion",
+      "reviewed_seed_candidate",
+      "foundational_papers_complexity_science",
+      "fpcs_volume_1"
+    ],
+    "espoused_labels": [],
+    "observed_clusters": [],
+    "canonical_definition": "A mathematical proposal for how local chemical reactions and diffusion can destabilise a nearly homogeneous state and generate spatial concentration patterns.",
+    "valid_from": "",
+    "valid_to": "",
+    "external_ids": "{\"fpcs_number\": 13, \"fpcs_volume\": 1}",
+    "geographies": [],
+    "licence": "source_terms",
+    "review_status": "research_pass_needs_editor",
+    "reviewed_by": "",
+    "reviewed_at": "",
+    "x": -0.8669463130731182,
+    "y": -0.41774575140626313,
+    "canonical_id": "publication_fpcs_013",
+    "public_visibility": "public",
+    "publication_level": "profile",
+    "public_stub_text": "",
+    "public_source_count": 2,
+    "no_public_link_count": 0,
+    "connection_pass": "foundational_20261106"
+  },
+  "profile": {
+    "node_id": "publication_fpcs_013",
+    "title": "The Chemical Basis of Morphogenesis",
+    "summary": "Turing tests which spatial disturbances grow when reaction rates and diffusion couple locations. The calculation concerns onset near equilibrium; nonlinear development and geometry matter for the eventual form. The mechanism is proposed through idealised chemistry, not established for a particular organism.",
+    "canonical_definition": "A mathematical proposal for how local chemical reactions and diffusion can destabilise a nearly homogeneous state and generate spatial concentration patterns.",
+    "why_it_matters": "It prompts a precise question: which interactions could amplify a difference that was initially small? A pattern need not have been specified as a whole for a model to produce it.",
+    "context_and_lineage": "The paper treats discrete cells and a continuum as alternative idealisations. Its ring is chosen for mathematical convenience. The suggested biological interpretations remain hypotheses in this source account.",
+    "editorial_note": "Primary-source exposition and original model examples are distinguished from the explicitly fictional editorial inquiries and transfer questions. These new accounts await human editorial acceptance. The earlier catalogue review supported membership only.",
+    "reviewed_by": "",
+    "reviewed_at": "",
+    "key_distinctions": [
+      "Stability against a uniform change differs from stability against spatial modes. Diffusion does not make every reacting system unstable.",
+      "A fastest-growing mode concerns early growth; it does not alone determine the final large-amplitude form.",
+      "Disturbances seed departures, while the reaction, diffusion, and permitted geometry constrain their growth."
+    ],
+    "historical_lineage": [],
+    "logical_antecedents": [],
+    "dependent_subsequents": [],
+    "practice_connections": [
+      "Original model example: § 10 uses twenty cells and two hypothetical reacting substances. Its numerical run varies a catalyst parameter; at the final γ=0 a slightly stable uniform state and stable patterned equilibria coexist. This is a constructed calculation, not an observed embryo.",
+      "Fictional editorial inquiry: specify a local workload-amplification rule and cross-team exchange rule for initially similar service teams. Name the units, network, disturbance, and observation that could falsify the proposed mechanism.",
+      "Editorial transfer limit: people, institutions, strategic responses, and meanings do not become chemical substances. Establish an actual exchange law before borrowing diffusion mathematics."
+    ],
+    "espoused_lineages": [],
+    "observed_clusters": [],
+    "common_misreadings": [
+      "Noise by itself explains the resulting pattern.",
+      "Every kind of diffusion creates spatial structure.",
+      "The paper experimentally proves that an actual biological form was produced by the proposed chemistry."
+    ],
+    "open_checks": [
+      "This account checks the 1952 model and its qualifications, not later experimental morphogenesis research.",
+      "The organisational inquiry is fictional editorial work; it supplies no intervention-effectiveness evidence."
+    ],
+    "source_ids": [
+      "src_u37_turing_1952",
+      "src_fpcs_official_toc"
+    ],
+    "evidence_ids": [
+      "ev_u37_turing_1952_instability",
+      "ev_u37_turing_1952_example",
+      "ev_u37_turing_1952_limits"
+    ],
+    "connection_pass": "foundational_20261106",
+    "profile_status": "evidence_deepened_research_pass",
+    "last_researched": "2026-11-06",
+    "review_status": "research_pass_needs_editor"
+  },
+  "connections": [
+    {
+      "id": "e_08_fpcs_authored_013_01",
+      "source": "publication_fpcs_013",
+      "target": "person_alan_turing",
+      "relation_type": "authored_by",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.96",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_fpcs_official_toc"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Official table of contents, Volume 1, item 13, ‘The Chemical Basis of Morphogenesis’",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Bibliographic first pass: records authorship or collection structure, not a full evaluation of the work or influence.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-10",
+      "notes": "The official collection table of contents lists A. M. Turing as an author of this paper.",
+      "plain_phrase": "authored by",
+      "public_review_label": "official bibliographic record"
+    },
+    {
+      "id": "e_08_fpcs_paper_volume_013",
+      "source": "publication_fpcs_013",
+      "target": "publication_fpcs_volume_1",
+      "relation_type": "part_of",
+      "relation_family": "classification",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.96",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_fpcs_official_toc"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Official Foundational Papers in Complexity Science table of contents",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Bibliographic first pass: records authorship or collection structure, not a full evaluation of the work or influence.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-10",
+      "notes": "Paper 13 is listed in volume 1 of the official collection.",
+      "plain_phrase": "is part of",
+      "public_review_label": "official bibliographic record"
+    },
+    {
+      "id": "e_fpcs_part_013",
+      "source": "publication_fpcs_013",
+      "target": "corpus_foundational_papers_2024",
+      "relation_type": "part_of",
+      "relation_family": "classification",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.9",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_fpcs_official_toc"
+      ],
+      "evidence_ids": [],
+      "source_locator": "",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Official table of contents, volume 1, item 13.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-10",
+      "notes": "Official table of contents, volume 1, item 13. Candidate relation retained after endpoint and source validation.",
+      "plain_phrase": "is item in",
+      "public_review_label": "accepted in bibliographic first pass"
+    },
+    {
+      "id": "e16_fpcs_contents_013",
+      "source": "publication_fpcs_volume_1",
+      "target": "publication_fpcs_013",
+      "relation_type": "presents",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.98",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_fpcs_official_toc"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Official collection table of contents",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "This records documentary collection structure only. Inclusion does not by itself establish conceptual influence, agreement, importance or validity.",
+      "assertion_mode": "asserted",
+      "inference_method": "direct collection membership statement",
+      "claim_id": "",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "presents as a constituent paper",
+      "public_review_label": "source-backed contents statement"
+    },
+    {
+      "id": "e16_fpcs_contents_106",
+      "source": "corpus_foundational_papers_2024",
+      "target": "publication_fpcs_013",
+      "relation_type": "presents",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.98",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_fpcs_official_toc"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Official collection table of contents",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "This records documentary collection structure only. Inclusion does not by itself establish conceptual influence, agreement, importance or validity.",
+      "assertion_mode": "asserted",
+      "inference_method": "direct collection membership statement",
+      "claim_id": "",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "presents as a constituent paper",
+      "public_review_label": "source-backed contents statement"
+    }
+  ],
+  "claims": [],
+  "sources": [
+    {
+      "id": "src_fpcs_official_toc",
+      "title": "Foundational Papers in Complexity Science — official tables of contents",
+      "source_type": "publisher_table_of_contents",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://www.foundationalpapersincomplexityscience.org/tables-of-contents",
+      "date": "2024",
+      "notes": "Official item-level contents for the four-volume Santa Fe Institute Press collection. It supports the bibliographic inventory, not the substantive claims of all 89 original papers.",
+      "creators": [
+        "Santa Fe Institute Press",
+        "David C. Krakauer (editor)"
+      ],
+      "publisher": "Santa Fe Institute Press",
+      "licence": "source_terms",
+      "review_status": "checked_primary_register",
+      "last_checked": "2026-08-09",
+      "public_link_status": "public_link",
+      "doi": "",
+      "isbn": "",
+      "archived_url": "",
+      "content_hash": ""
+    },
+    {
+      "id": "src_u37_turing_1952",
+      "title": "The Chemical Basis of Morphogenesis",
+      "source_type": "primary_text",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://doi.org/10.1098/rstb.1952.0012",
+      "date": "1952",
+      "notes": "Primary university-hosted article read. The linear analysis, hypothetical twenty-cell example, and stated modelling limits were checked. Public reading access does not grant republication of the PDF. Biological suggestions are not treated as experimental confirmation. The two-species Jacobian shorthand in the research notes is an editorial reconstruction, not an extra verbatim theorem.",
+      "creators": [
+        "A. M. Turing"
+      ],
+      "doi": "10.1098/rstb.1952.0012",
+      "isbn": "",
+      "publisher": "The Royal Society",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "f1683df83d12c7079b7d60c046a59cddba951aa297abb29c2358afa374b10f56",
+      "review_status": "research_pass_needs_editor",
+      "last_checked": "2026-11-06",
+      "public_link_status": "public_link",
+      "reading_url": "https://www.damtp.cam.ac.uk/user/gold/pdfs/teaching/turing1952.pdf",
+      "connection_pass": "foundational_20261106",
+      "source_locator": "pp. 37–72; especially §§ 6–10, equations 6.1–8.2, table 1 and figure 3, and § 11",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "access_note": "Public reading access does not grant republication of the PDF. Biological suggestions are not treated as experimental confirmation. The two-species Jacobian shorthand in the research notes is an editorial reconstruction, not an extra verbatim theorem."
+    }
+  ],
+  "evidence_locators": [
+    {
+      "id": "ev_u37_turing_1952_instability",
+      "source_id": "src_u37_turing_1952",
+      "locator": "pp. 46–52, §§ 6–8, especially equations 6.1–8.2",
+      "review_status": "research_pass_needs_editor"
+    },
+    {
+      "id": "ev_u37_turing_1952_example",
+      "source_id": "src_u37_turing_1952",
+      "locator": "pp. 60–64, § 10, table 1 and figure 3",
+      "review_status": "research_pass_needs_editor"
+    },
+    {
+      "id": "ev_u37_turing_1952_limits",
+      "source_id": "src_u37_turing_1952",
+      "locator": "pp. 58–59, § 9; pp. 66–69, § 11",
+      "review_status": "research_pass_needs_editor"
+    }
+  ],
+  "reuse_note": "Preserve source attribution, scope, and review status. Source documents and evidence excerpts are excluded."
+}

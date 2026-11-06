@@ -1,7 +1,7 @@
 # The Necessary Tangle: public knowledge file
 
 Curated by Benjamin P Taylor — https://www.antlerboy.com/
-Generated from public release 0.36 on 2026-11-06.
+Generated from public release 0.37 on 2026-11-06.
 
 A living evidence atlas of systems | cybernetics | complexity.
 Every connection must say what it means. Historical sequence, logical dependence, influence, teaching, collaboration, practical use, comparison and dispute are not interchangeable.
@@ -4699,13 +4699,57 @@ Work on undiscussables identifies issues people cannot safely raise and the defe
 ## Deterministic Nonperiodic Flow
 
 Type: Publication
-Public depth: described
+Public depth: profile
 
-E. N. Lorenz, ‘Deterministic Nonperiodic Flow’ (1963); item 23 in volume 2 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+A study of bounded deterministic nonlinear flow in a severely truncated convection model, and of the limits that state uncertainty can place on detailed prediction.
+
+### Summary
+
+Lorenz retains three coupled equations from an idealised convection expansion. In the chosen regime, numerical motion remains bounded but irregular and nearby initial states can separate. The paper qualifies its finite-segment inference and does not establish a prediction horizon for the actual atmosphere.
+
+### Why it matters
+
+Known rules, accurate observations, and a useful forecasting horizon are different requirements. The relevant practical question is which quantities can be predicted within the tolerance a decision needs.
+
+### Key distinctions
+
+- A deterministic rule is not a promise of a precise long-range trajectory from imprecise measurements.
+- Bounded trajectories need not approach a fixed point. State uncertainty and parameter uncertainty are distinct.
+- A three-variable truncation of convection is not a faithful description of strong convection or of an organisation.
+
+### Historical development
+
+[]
+
+### Ideas it depends on
+
+[]
+
+### What develops from it
+
+[]
+
+### Connections to practice
+
+- Original model example: σ=10, b=8/3, and r=28 lie above the stated steady-convection threshold r=470/19≈24.74. The paper integrates with step 0.01 and examines successive maxima. These are dimensionless model choices, not weather-forecast units.
+- Fictional editorial inquiry: perturb the measured initial demand, capacity, and backlog in an explicitly specified service model. Compare how long projections stay within a decision-relevant tolerance, and whether aggregate measures behave differently.
+- Editorial transfer limit: first justify the state variables, causal equations, measurement errors, and decision threshold. The convection calculation supplies none of those organisational facts.
+
+### Common confusions
+
+- Sensitivity makes every forecast or statistical statement useless.
+- Bounded means that motion must settle at one point.
+- The numerical example establishes a real-world weather or organisational forecasting horizon.
+
+### Open questions and checks
+
+- The article says its finite numerical argument does not mathematically prove the detailed instability/nonperiodicity conclusions; this account preserves that qualification.
+- No claim about present-day weather forecasting or later mathematical proofs is made.
 
 ### Sources
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+- Deterministic Nonperiodic Flow — https://doi.org/10.1175/1520-0469(1963)020%3C0130:DNF%3E2.0.CO;2
 
 ## Diana Wright
 
@@ -5224,13 +5268,57 @@ Inspect the passage and the stated domain before using a term in a new setting.
 ## Dynamic Models of Segregation
 
 Type: Publication
-Public depth: described
+Public depth: profile
 
-T. C. Schelling, ‘Dynamic Models of Segregation’ (1971); item 37 in volume 2 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+An investigation of how local composition requirements, movement rules, and interaction can produce aggregate segregation patterns, using several distinct abstract models.
+
+### Summary
+
+A move changes the neighbours and possible moves of others. The article examines line, spatial-grid, compartment, and tipping models; its outcomes depend on how neighbourhoods, thresholds, vacancies, groups, and movement are specified. A board result is not a quantitative estimate for an actual community.
+
+### Why it matters
+
+A visible aggregate pattern does not by itself identify the motives, constraints, or feedbacks that produced it. A model can separate rival mechanisms without establishing which one operates in a place.
+
+### Key distinctions
+
+- An acceptance threshold, a movement rule, and a measured spatial outcome are different parts of the explanation.
+- A position-relative neighbourhood differs from a shared fixed compartment. The article is not one universal checkerboard algorithm.
+- Satisfaction with a stipulated rule is not justice. Composition preferences in these examples can be discriminatory even when complete separation is not demanded.
+
+### Historical development
+
+[]
+
+### Ideas it depends on
+
+[]
+
+### What develops from it
+
+[]
+
+### Connections to practice
+
+- Original model example: the illustrated 13×16 grid uses up to eight surrounding squares and a requirement that at least half of occupied neighbours have the resident's type. In the reported run, residents without an opposite-type neighbour rise from 13 of 138 to 54 of 138. This is one artificial-board outcome.
+- Fictional editorial inquiry: define an abstract token-placement rule, vacancies, boundary cases, tie-breaking order, and a move limit. Vary the starting arrangement and acceptance threshold; record cycles or lack of a suitable vacancy rather than assume convergence.
+- Editorial transfer limit: investigate actual categories, institutional constraints, unequal power, coercion, and alternative causes. A similar-looking distribution is not evidence that the board mechanism explains it.
+
+### Common confusions
+
+- The model shows that racism and institutions are irrelevant to actual segregation.
+- A threshold allowing some mixture is a demand for complete separation.
+- One illustrated run supplies a general forecast or a measure of social desirability.
+
+### Open questions and checks
+
+- The source PDF was read but a local byte hash could not be obtained.
+- The source account preserves multiple models; no empirical claim about a particular population is made.
 
 ### Sources
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+- Dynamic Models of Segregation — https://doi.org/10.1080/0022250X.1971.9989794
 
 ## Dynamics
 
@@ -22240,13 +22328,57 @@ J. P. Crutchfield, ‘The Calculi of Emergence: Computation, Dynamics, and Induc
 ## The Chemical Basis of Morphogenesis
 
 Type: Publication
-Public depth: described
+Public depth: profile
 
-A. M. Turing, ‘The Chemical Basis of Morphogenesis’ (1952); item 13 in volume 1 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+A mathematical proposal for how local chemical reactions and diffusion can destabilise a nearly homogeneous state and generate spatial concentration patterns.
+
+### Summary
+
+Turing tests which spatial disturbances grow when reaction rates and diffusion couple locations. The calculation concerns onset near equilibrium; nonlinear development and geometry matter for the eventual form. The mechanism is proposed through idealised chemistry, not established for a particular organism.
+
+### Why it matters
+
+It prompts a precise question: which interactions could amplify a difference that was initially small? A pattern need not have been specified as a whole for a model to produce it.
+
+### Key distinctions
+
+- Stability against a uniform change differs from stability against spatial modes. Diffusion does not make every reacting system unstable.
+- A fastest-growing mode concerns early growth; it does not alone determine the final large-amplitude form.
+- Disturbances seed departures, while the reaction, diffusion, and permitted geometry constrain their growth.
+
+### Historical development
+
+[]
+
+### Ideas it depends on
+
+[]
+
+### What develops from it
+
+[]
+
+### Connections to practice
+
+- Original model example: § 10 uses twenty cells and two hypothetical reacting substances. Its numerical run varies a catalyst parameter; at the final γ=0 a slightly stable uniform state and stable patterned equilibria coexist. This is a constructed calculation, not an observed embryo.
+- Fictional editorial inquiry: specify a local workload-amplification rule and cross-team exchange rule for initially similar service teams. Name the units, network, disturbance, and observation that could falsify the proposed mechanism.
+- Editorial transfer limit: people, institutions, strategic responses, and meanings do not become chemical substances. Establish an actual exchange law before borrowing diffusion mathematics.
+
+### Common confusions
+
+- Noise by itself explains the resulting pattern.
+- Every kind of diffusion creates spatial structure.
+- The paper experimentally proves that an actual biological form was produced by the proposed chemistry.
+
+### Open questions and checks
+
+- This account checks the 1952 model and its qualifications, not later experimental morphogenesis research.
+- The organisational inquiry is fictional editorial work; it supplies no intervention-effectiveness evidence.
 
 ### Sources
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+- The Chemical Basis of Morphogenesis — https://doi.org/10.1098/rstb.1952.0012
 
 ## The Complexity of Simplicity
 
@@ -22454,13 +22586,57 @@ The review interprets Playford’s capital-works backlog through accumulated com
 ## The Evolution of Cooperation
 
 Type: Publication
-Public depth: described
+Public depth: profile
 
-R. Axelrod and W. D. Hamilton, ‘The Evolution of Cooperation’ (1981); item 55 in volume 3 of the 2024 Foundational Papers in Complexity Science collection. This is a bibliographic first-pass entry, not yet a substantive summary.
+A game-theoretic and tournament study of conditions under which reciprocal cooperation can perform well, resist invasion, and gain a foothold in repeated prisoner's-dilemma interaction.
+
+### Summary
+
+Tit for Tat cooperates first, then copies its partner's previous move. The paper distinguishes tournament performance, stability against invasion, and initial viability. Its results depend on payoffs, repeated encounters, recognition, and the strategies and interaction patterns present; persistent defection can also remain stable.
+
+### Why it matters
+
+A result about cooperation has to identify the environment that supports it. Reciprocity is a conditional mechanism to examine, not a general instruction to retaliate.
+
+### Key distinctions
+
+- A tournament score, resistance to invasion, and entry into an established population are distinct tests.
+- A constant probability of another encounter differs from a known final round. Recognition and memory, or functional equivalents, matter for partner-contingent responses.
+- Relatedness and preferential interaction are different mechanisms; neither automatic cooperation nor the irrelevance of kinship follows.
+
+### Historical development
+
+[]
+
+### Ideas it depends on
+
+[]
+
+### What develops from it
+
+[]
+
+### Connections to practice
+
+- Original-model arithmetic: figure 1 uses T=5,R=3,P=1,S=0. Equation1 requires continuation probability w to meet both (T−R)/(T−P) and (T−R)/(R−S) thresholds for the stated stability result: 1/2 and 2/3. Thus w=0.8 meets both; w=0.5 does not. The arithmetic is editorial, using the paper's payoffs.
+- Fictional editorial inquiry: give two abstract players those stipulated points and a 0.8 chance of another round. Compare Tit for Tat with itself and unconditional defection; then explicitly add observation error as a new variant and compare the result. No service-team outcomes are measured.
+- Editorial transfer limit: test whether encounters, observable choices, power, multi-party effects, and payoffs really fit this two-player model. A tournament victory is no evidence for mechanically retaliating against colleagues or service users.
+
+### Common confusions
+
+- Tit for Tat is universally optimal.
+- A cooperative population necessarily emerges from any initial state.
+- A tournament result settles noisy, changing-partner, or unequal-power organisational cases.
+
+### Open questions and checks
+
+- The paper's own evolutionary-stability formulation is retained, rather than silently substituted with every later game-theoretic definition.
+- The author-hosted PDF was read in the source pass; a byte hash is unavailable, and the later coordinator request returned 403.
 
 ### Sources
 
 - Foundational Papers in Complexity Science — official tables of contents — https://www.foundationalpapersincomplexityscience.org/tables-of-contents
+- The Evolution of Cooperation — https://doi.org/10.1126/science.7466396
 
 ## The Firm Grip and the Light Hand – Jose (2026)
 

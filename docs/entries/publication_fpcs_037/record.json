@@ -1,0 +1,310 @@
+{
+  "schema_version": "1.0",
+  "canonical_url": "https://transduction.systems/entries/publication_fpcs_037/",
+  "release": "0.37",
+  "citation": "Taylor, B. P. (2026). Dynamic Models of Segregation. The Necessary Tangle, release 0.37. https://transduction.systems/entries/publication_fpcs_037/",
+  "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
+  "entry": {
+    "id": "publication_fpcs_037",
+    "label": "Dynamic Models of Segregation",
+    "entity_type": "publication",
+    "description": "A move changes the neighbours and possible moves of others. The article examines line, spatial-grid, compartment, and tipping models; its outcomes depend on how neighbourhoods, thresholds, vacancies, groups, and movement are specified. A board result is not a quantitative estimate for an actual community.",
+    "aliases": [],
+    "boundary_ring": "1",
+    "inclusion_reason": "named_public_corpus",
+    "status": "accepted",
+    "source_ids": [
+      "src_fpcs_official_toc",
+      "src_u37_schelling_1971"
+    ],
+    "set_tags": [
+      "complexity",
+      "foundational_papers",
+      "volume_2",
+      "release_0_8_expansion",
+      "reviewed_seed_candidate",
+      "foundational_papers_complexity_science",
+      "fpcs_volume_2"
+    ],
+    "espoused_labels": [],
+    "observed_clusters": [],
+    "canonical_definition": "An investigation of how local composition requirements, movement rules, and interaction can produce aggregate segregation patterns, using several distinct abstract models.",
+    "valid_from": "",
+    "valid_to": "",
+    "external_ids": "{\"fpcs_number\": 37, \"fpcs_volume\": 2}",
+    "geographies": [],
+    "licence": "source_terms",
+    "review_status": "research_pass_needs_editor",
+    "reviewed_by": "",
+    "reviewed_at": "",
+    "x": 0.5034936490538904,
+    "y": -0.4949999999999999,
+    "canonical_id": "publication_fpcs_037",
+    "public_visibility": "public",
+    "publication_level": "profile",
+    "public_stub_text": "",
+    "public_source_count": 2,
+    "no_public_link_count": 0,
+    "connection_pass": "foundational_20261106"
+  },
+  "profile": {
+    "node_id": "publication_fpcs_037",
+    "title": "Dynamic Models of Segregation",
+    "summary": "A move changes the neighbours and possible moves of others. The article examines line, spatial-grid, compartment, and tipping models; its outcomes depend on how neighbourhoods, thresholds, vacancies, groups, and movement are specified. A board result is not a quantitative estimate for an actual community.",
+    "canonical_definition": "An investigation of how local composition requirements, movement rules, and interaction can produce aggregate segregation patterns, using several distinct abstract models.",
+    "why_it_matters": "A visible aggregate pattern does not by itself identify the motives, constraints, or feedbacks that produced it. A model can separate rival mechanisms without establishing which one operates in a place.",
+    "context_and_lineage": "The article identifies a 1969 RAND version. Its multiple model structures should be retained rather than replaced by an unattributed later classroom variant. No influence between this paper and the other route entries is inferred.",
+    "editorial_note": "Primary-source exposition and original model examples are distinguished from the explicitly fictional editorial inquiries and transfer questions. These new accounts await human editorial acceptance. The earlier catalogue review supported membership only.",
+    "reviewed_by": "",
+    "reviewed_at": "",
+    "key_distinctions": [
+      "An acceptance threshold, a movement rule, and a measured spatial outcome are different parts of the explanation.",
+      "A position-relative neighbourhood differs from a shared fixed compartment. The article is not one universal checkerboard algorithm.",
+      "Satisfaction with a stipulated rule is not justice. Composition preferences in these examples can be discriminatory even when complete separation is not demanded."
+    ],
+    "historical_lineage": [],
+    "logical_antecedents": [],
+    "dependent_subsequents": [],
+    "practice_connections": [
+      "Original model example: the illustrated 13×16 grid uses up to eight surrounding squares and a requirement that at least half of occupied neighbours have the resident's type. In the reported run, residents without an opposite-type neighbour rise from 13 of 138 to 54 of 138. This is one artificial-board outcome.",
+      "Fictional editorial inquiry: define an abstract token-placement rule, vacancies, boundary cases, tie-breaking order, and a move limit. Vary the starting arrangement and acceptance threshold; record cycles or lack of a suitable vacancy rather than assume convergence.",
+      "Editorial transfer limit: investigate actual categories, institutional constraints, unequal power, coercion, and alternative causes. A similar-looking distribution is not evidence that the board mechanism explains it."
+    ],
+    "espoused_lineages": [],
+    "observed_clusters": [],
+    "common_misreadings": [
+      "The model shows that racism and institutions are irrelevant to actual segregation.",
+      "A threshold allowing some mixture is a demand for complete separation.",
+      "One illustrated run supplies a general forecast or a measure of social desirability."
+    ],
+    "open_checks": [
+      "The source PDF was read but a local byte hash could not be obtained.",
+      "The source account preserves multiple models; no empirical claim about a particular population is made."
+    ],
+    "source_ids": [
+      "src_u37_schelling_1971",
+      "src_fpcs_official_toc"
+    ],
+    "evidence_ids": [
+      "ev_u37_schelling_1971_variants",
+      "ev_u37_schelling_1971_example",
+      "ev_u37_schelling_1971_limits"
+    ],
+    "connection_pass": "foundational_20261106",
+    "profile_status": "evidence_deepened_research_pass",
+    "last_researched": "2026-11-06",
+    "review_status": "research_pass_needs_editor"
+  },
+  "connections": [
+    {
+      "id": "e_08_fpcs_authored_037_01",
+      "source": "publication_fpcs_037",
+      "target": "person_fpcs_t_c_schelling",
+      "relation_type": "authored_by",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.96",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_fpcs_official_toc"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Official Foundational Papers in Complexity Science table of contents",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Bibliographic first pass: records authorship or collection structure, not a full evaluation of the work or influence.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-10",
+      "notes": "The official collection table of contents lists T. C. Schelling as an author of this paper.",
+      "plain_phrase": "authored by",
+      "public_review_label": "official bibliographic record"
+    },
+    {
+      "id": "e_08_fpcs_paper_volume_037",
+      "source": "publication_fpcs_037",
+      "target": "publication_fpcs_volume_2",
+      "relation_type": "part_of",
+      "relation_family": "classification",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.96",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_fpcs_official_toc"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Official Foundational Papers in Complexity Science table of contents",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Bibliographic first pass: records authorship or collection structure, not a full evaluation of the work or influence.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-10",
+      "notes": "Paper 37 is listed in volume 2 of the official collection.",
+      "plain_phrase": "is part of",
+      "public_review_label": "official bibliographic record"
+    },
+    {
+      "id": "e_fpcs_part_037",
+      "source": "publication_fpcs_037",
+      "target": "corpus_foundational_papers_2024",
+      "relation_type": "part_of",
+      "relation_family": "classification",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.9",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_fpcs_official_toc"
+      ],
+      "evidence_ids": [],
+      "source_locator": "",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "Official table of contents, volume 2, item 37.",
+      "assertion_mode": "asserted",
+      "inference_method": "",
+      "claim_id": "",
+      "reviewed_by": "Benjamin P Taylor",
+      "reviewed_at": "2026-08-10",
+      "notes": "Official table of contents, volume 2, item 37. Candidate relation retained after endpoint and source validation.",
+      "plain_phrase": "is item in",
+      "public_review_label": "accepted in bibliographic first pass"
+    },
+    {
+      "id": "e16_fpcs_contents_037",
+      "source": "publication_fpcs_volume_2",
+      "target": "publication_fpcs_037",
+      "relation_type": "presents",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.98",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_fpcs_official_toc"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Official collection table of contents",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "This records documentary collection structure only. Inclusion does not by itself establish conceptual influence, agreement, importance or validity.",
+      "assertion_mode": "asserted",
+      "inference_method": "direct collection membership statement",
+      "claim_id": "",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "presents as a constituent paper",
+      "public_review_label": "source-backed contents statement"
+    },
+    {
+      "id": "e16_fpcs_contents_130",
+      "source": "corpus_foundational_papers_2024",
+      "target": "publication_fpcs_037",
+      "relation_type": "presents",
+      "relation_family": "documentary",
+      "directed": "true",
+      "dependency_kind": "",
+      "confidence": "0.98",
+      "claim_status": "accepted",
+      "source_ids": [
+        "src_fpcs_official_toc"
+      ],
+      "evidence_ids": [],
+      "source_locator": "Official collection table of contents",
+      "valid_from": "",
+      "valid_to": "",
+      "scope_conditions": "This records documentary collection structure only. Inclusion does not by itself establish conceptual influence, agreement, importance or validity.",
+      "assertion_mode": "asserted",
+      "inference_method": "direct collection membership statement",
+      "claim_id": "",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "",
+      "plain_phrase": "presents as a constituent paper",
+      "public_review_label": "source-backed contents statement"
+    }
+  ],
+  "claims": [],
+  "sources": [
+    {
+      "id": "src_fpcs_official_toc",
+      "title": "Foundational Papers in Complexity Science — official tables of contents",
+      "source_type": "publisher_table_of_contents",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://www.foundationalpapersincomplexityscience.org/tables-of-contents",
+      "date": "2024",
+      "notes": "Official item-level contents for the four-volume Santa Fe Institute Press collection. It supports the bibliographic inventory, not the substantive claims of all 89 original papers.",
+      "creators": [
+        "Santa Fe Institute Press",
+        "David C. Krakauer (editor)"
+      ],
+      "publisher": "Santa Fe Institute Press",
+      "licence": "source_terms",
+      "review_status": "checked_primary_register",
+      "last_checked": "2026-08-09",
+      "public_link_status": "public_link",
+      "doi": "",
+      "isbn": "",
+      "archived_url": "",
+      "content_hash": ""
+    },
+    {
+      "id": "src_u37_schelling_1971",
+      "title": "Dynamic Models of Segregation",
+      "source_type": "primary_text",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://doi.org/10.1080/0022250X.1971.9989794",
+      "date": "1971",
+      "notes": "The complete university-hosted primary PDF was read during the source pass. The grid rules, illustrated outcome, model variants, and limits were checked. Local PDF download timed out and its byte hash is unavailable. A later coordinator retrieval also timed out. The university URL is a reading route, not an open-licence grant. Source exposition is based on the checked article, not a claim that every later checkerboard variant uses these rules.",
+      "creators": [
+        "Thomas C. Schelling"
+      ],
+      "doi": "10.1080/0022250X.1971.9989794",
+      "isbn": "",
+      "publisher": "Journal of Mathematical Sociology",
+      "licence": "source terms unless otherwise stated",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "research_pass_needs_editor",
+      "last_checked": "2026-11-06",
+      "public_link_status": "public_link",
+      "reading_url": "https://acoustique.ec-lyon.fr/chaos/Schelling71.pdf",
+      "connection_pass": "foundational_20261106",
+      "source_locator": "pp. 143–186; model distinctions pp. 148–150; proximity examples pp. 155–164, figures 7, 9, and 11–14; later compartment and tipping models",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "access_note": "Local PDF download timed out and its byte hash is unavailable. A later coordinator retrieval also timed out. The university URL is a reading route, not an open-licence grant. Source exposition is based on the checked article, not a claim that every later checkerboard variant uses these rules."
+    }
+  ],
+  "evidence_locators": [
+    {
+      "id": "ev_u37_schelling_1971_variants",
+      "source_id": "src_u37_schelling_1971",
+      "locator": "pp. 143–150, especially pp. 148–150 and figure 1",
+      "review_status": "research_pass_needs_editor"
+    },
+    {
+      "id": "ev_u37_schelling_1971_example",
+      "source_id": "src_u37_schelling_1971",
+      "locator": "pp. 155–159, figures 7, 9, and 11",
+      "review_status": "research_pass_needs_editor"
+    },
+    {
+      "id": "ev_u37_schelling_1971_limits",
+      "source_id": "src_u37_schelling_1971",
+      "locator": "pp. 143–145 and 158–164",
+      "review_status": "research_pass_needs_editor"
+    }
+  ],
+  "reuse_note": "Preserve source attribution, scope, and review status. Source documents and evidence excerpts are excluded."
+}
