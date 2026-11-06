@@ -17,3 +17,7 @@ Source packet: documentation/research-2026-11-06-sysprac-six/. Use established s
 ## Stop
 
 One implementation and verification pass; a third pass only addresses a named failed check. Stop at a checked release, a source boundary, a material editorial decision, or the packet limit. Root coordinates final checks and publication.
+
+## Active publication dependency recovery, 6 November 2026
+
+The six-session source and reader work is complete; human editorial acceptance remains pending. Publication is awaiting a fresh checked run after a Pages build stalled during media dependency installation. Bound the media installation step, install only missing required packages, and verify ffprobe and the Pages font package. Preserve the release content, existing gates, permissions, and Pages artifact naming. Scope: .github/workflows/pages.yml, .github/workflows/validate.yml, and this packet. Check YAML and shell syntax, workflow linkage, protected source hashes, and diff whitespace; actual Ubuntu CI runs the full gates. Root coordinates the pull request, deployment, and live verification.

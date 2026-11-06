@@ -27,9 +27,24 @@ jobs:
           path: _systemsmap
           persist-credentials: false
       - name: Install media inspection dependency
+        timeout-minutes: 8
         run: |
-          sudo apt-get update -qq
-          sudo apt-get install -y --no-install-recommends ffmpeg fonts-dejavu-core
+          missing=()
+          for package in ffmpeg fonts-dejavu-core; do
+            if ! dpkg-query -W -f='${Status}\n' "$package" 2>/dev/null | grep -qx 'install ok installed'; then
+              missing+=("$package")
+            fi
+          done
+          if (( ${#missing[@]} )); then
+            echo "Installing missing packages: ${missing[*]}"
+            sudo apt-get -o Acquire::Retries=2 -o Acquire::http::Timeout=30 -o Acquire::https::Timeout=30 update
+            sudo apt-get -o Acquire::Retries=2 -o Acquire::http::Timeout=30 -o Acquire::https::Timeout=30 install -y --no-install-recommends "${missing[@]}"
+          else
+            echo 'Required media packages are already installed.'
+          fi
+          ffprobe -version
+          dpkg-query -W -f='${Status}\n' ffmpeg | grep -Fx 'install ok installed'
+          dpkg-query -W -f='${Status}\n' fonts-dejavu-core | grep -Fx 'install ok installed'
       - name: Build and validate the current release
         run: make validate
       - name: Add visit analytics to every published page
@@ -161,12 +176,27 @@ jobs:
         run: |
           npm install --prefix /tmp/practice-browser --no-save playwright@1.55.0
           /tmp/practice-browser/node_modules/.bin/playwright install --with-deps chromium
+      - name: Install live media inspection dependency
+        timeout-minutes: 8
+        run: |
+          missing=()
+          for package in ffmpeg; do
+            if ! dpkg-query -W -f='${Status}\n' "$package" 2>/dev/null | grep -qx 'install ok installed'; then
+              missing+=("$package")
+            fi
+          done
+          if (( ${#missing[@]} )); then
+            echo "Installing missing packages: ${missing[*]}"
+            sudo apt-get -o Acquire::Retries=2 -o Acquire::http::Timeout=30 -o Acquire::https::Timeout=30 update
+            sudo apt-get -o Acquire::Retries=2 -o Acquire::http::Timeout=30 -o Acquire::https::Timeout=30 install -y --no-install-recommends "${missing[@]}"
+          else
+            echo 'Required media packages are already installed.'
+          fi
+          ffprobe -version
       - name: Verify the live Encounters film and audio
         env:
           DEPLOY_COMMIT: ${{ github.sha }}
-        run: |
-          sudo apt-get install -y --no-install-recommends ffmpeg
-          python3 scripts/verify_live_encounters.py
+        run: python3 scripts/verify_live_encounters.py
       - name: Exercise the actual public pages
         env:
           NODE_PATH: /tmp/practice-browser/node_modules
