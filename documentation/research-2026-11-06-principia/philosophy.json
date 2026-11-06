@@ -1,0 +1,323 @@
+{
+  "packet": "principia-philosophy-20261106",
+  "editorial_status": "Source-located research candidates; human editorial acceptance pending",
+  "sources": [
+    {
+      "id": "src_principia_manifesto",
+      "title": "The Cybernetic Manifesto",
+      "authors": [
+        "V. Turchin",
+        "C. Joslyn"
+      ],
+      "date": "Oct 1989",
+      "publisher": "Principia Cybernetica",
+      "source_type": "primary_project_page",
+      "url": "https://pespmc1.vub.ac.be/MANIFESTO.html",
+      "locator": "Main text and displayed footer metadata",
+      "verified": "Substantive sections 1\u201321; no explicit empty or incomplete label observed",
+      "limits": "Dated project-authored account; substantive text does not establish completeness.",
+      "content_hash": ""
+    },
+    {
+      "id": "src_principia_mstt",
+      "title": "Metasystem Transition Theory",
+      "authors": [
+        "C. Joslyn",
+        "F. Heylighen",
+        "V. Turchin"
+      ],
+      "date": "Jul 7, 1997 (modified)",
+      "publisher": "Principia Cybernetica",
+      "source_type": "primary_project_page",
+      "url": "https://pespmc1.vub.ac.be/MSTT.html",
+      "locator": "Main text and displayed footer metadata",
+      "verified": "Substantive overview and background; no explicit empty or incomplete label observed",
+      "limits": "Dated project-authored account; substantive text does not establish completeness.",
+      "content_hash": ""
+    },
+    {
+      "id": "src_u38_principia_mst",
+      "title": "The Metasystem Transition",
+      "authors": [
+        "V. Turchin",
+        "C. Joslyn"
+      ],
+      "date": "Jul 19, 1999 (modified); Aug 1993 (created)",
+      "publisher": "Principia Cybernetica",
+      "source_type": "primary_project_page",
+      "url": "https://pespmc1.vub.ac.be/MST.html",
+      "locator": "Main text and displayed footer metadata",
+      "verified": "Substantive definition, examples, and evolution section; several linked child pages labelled [empty], not this page",
+      "limits": "Dated project-authored account; substantive text does not establish completeness.",
+      "content_hash": ""
+    },
+    {
+      "id": "src_u38_principia_evolcyb",
+      "title": "Evolutionary cybernetics",
+      "authors": [
+        "F. Heylighen"
+      ],
+      "date": "Mar 6, 2000",
+      "publisher": "Principia Cybernetica",
+      "source_type": "primary_project_page",
+      "url": "https://pespmc1.vub.ac.be/EVOLCYB.html",
+      "locator": "Main text and displayed footer metadata",
+      "verified": "Substantive programme and interdisciplinary comparisons; no explicit empty or incomplete label observed",
+      "limits": "Dated project-authored account; substantive text does not establish completeness.",
+      "content_hash": ""
+    },
+    {
+      "id": "src_u38_principia_ethics",
+      "title": "Ethics",
+      "authors": [
+        "F. Heylighen",
+        "V. Turchin"
+      ],
+      "date": "Oct 24, 2000 (modified); Aug 1993 (created)",
+      "publisher": "Principia Cybernetica",
+      "source_type": "primary_project_page",
+      "url": "https://pespmc1.vub.ac.be/ETHICS.html",
+      "locator": "Main text and displayed footer metadata",
+      "verified": "Substantive ethics, immortality, human development, and competition between levels; no explicit empty or incomplete label observed",
+      "limits": "Dated project-authored account; substantive text does not establish completeness.",
+      "content_hash": ""
+    },
+    {
+      "id": "src_u38_turchin_dialogue",
+      "title": "A Dialogue on Metasystem Transition",
+      "authors": [
+        "Valentin F. Turchin"
+      ],
+      "date": "12 July 1999 (PDF title page); INTRO describes work as 1995",
+      "publisher": "Principia Cybernetica",
+      "source_type": "primary_text",
+      "url": "https://pespmc1.vub.ac.be/Papers/Turchin/dialog.pdf",
+      "locator": "Printed pp. 25-26 (new control), 48-49 (social integration), and 61-62 (speculative integration and refusal); title page p. 1",
+      "verified": "Linked PDF accessed; selected passages read and pagination checked against the saved PDF. The linked HTML route failed.",
+      "limits": "Only named passages read; no whole-work claim. INTRO labels the work 1995; the linked title page is dated 12 July 1999. Speculative future claims are not observed outcomes.",
+      "content_hash": "e1654e0ab6ab84bb59b1ae193c55458959da1974d4cc004330041e4b78da1b96"
+    },
+    {
+      "id": "src_u38_heylighen_worldview",
+      "title": "Foundations and Methodology for an Evolutionary World View: a review of the Principia Cybernetica Project",
+      "authors": [
+        "Francis Heylighen"
+      ],
+      "date": "2000 (PDF title page: to appear in Foundations of Science vol. 4)",
+      "publisher": "Principia Cybernetica",
+      "source_type": "primary_text",
+      "url": "https://pespmc1.vub.ac.be/Papers/PCPworldview-FOS.pdf",
+      "locator": "Printed pp. 10-12, A constructive epistemology and An evolutionary ethics; title page p. 1",
+      "verified": "Linked PDF accessed; selected passages read and pagination checked against the saved PDF.",
+      "limits": "Only named passages read; no full-paper claim. Title page says to appear, not proof of final publication.",
+      "content_hash": "5744d26e84cc64c47cbfe9878401123b8627d6df22745e83c49ccdb38fee0bc6"
+    }
+  ],
+  "evidence_proposals": [
+    {
+      "id": "ev_u38_principia_manifesto",
+      "source_id": "src_principia_manifesto",
+      "locator": "\u00a7\u00a7 5\u20136, 18, 21",
+      "excerpt_or_summary": "Turchin and Joslyn present a new control level as a metasystem transition, and propose a future integration compatible with individual freedom; these are their philosophical and normative claims.",
+      "evidence_type": "primary_text_paraphrase",
+      "quality_tier": "A",
+      "licence": "source_terms",
+      "review_status": "research_pass_needs_editor",
+      "content_hash": "",
+      "public_evidence_status": "public"
+    },
+    {
+      "id": "ev_u38_principia_mstt",
+      "source_id": "src_principia_mstt",
+      "locator": "Opening paragraphs; Background of the theory",
+      "excerpt_or_summary": "The project names MSTT its particular philosophy, encompassing knowledge, metaphysics, evolutionary history, forecasts, and ethics, rather than only the transition mechanism.",
+      "evidence_type": "primary_text_paraphrase",
+      "quality_tier": "A",
+      "licence": "source_terms",
+      "review_status": "research_pass_needs_editor",
+      "content_hash": "",
+      "public_evidence_status": "public"
+    },
+    {
+      "id": "ev_u38_principia_mst",
+      "source_id": "src_u38_principia_mst",
+      "locator": "Opening definition and Some Examples",
+      "excerpt_or_summary": "S-prime includes S-type subsystems and an additional mechanism controlling their behaviour and production. The scale can be one, with no replication, if a control level emerges.",
+      "evidence_type": "primary_text_paraphrase",
+      "quality_tier": "A",
+      "licence": "source_terms",
+      "review_status": "research_pass_needs_editor",
+      "content_hash": "",
+      "public_evidence_status": "public"
+    },
+    {
+      "id": "ev_u38_principia_evolcyb",
+      "source_id": "src_u38_principia_evolcyb",
+      "locator": "Universal Darwinism; Cybernetics; Evolutionary cybernetics",
+      "excerpt_or_summary": "Heylighen proposes combining variation and selection with cybernetic organisation and control, and criticises observer recursion in second-order cybernetics. This is his programme statement.",
+      "evidence_type": "primary_text_paraphrase",
+      "quality_tier": "A",
+      "licence": "source_terms",
+      "review_status": "research_pass_needs_editor",
+      "content_hash": "",
+      "public_evidence_status": "public"
+    },
+    {
+      "id": "ev_u38_principia_ethics",
+      "source_id": "src_u38_principia_ethics",
+      "locator": "Evolutionary Ethics; Human Development; Competition Between Levels",
+      "excerpt_or_summary": "Heylighen and Turchin say values cannot be derived from natural facts, then develop survival and continuing evolution as commitments, and acknowledge conflicts between levels.",
+      "evidence_type": "primary_text_paraphrase",
+      "quality_tier": "A",
+      "licence": "source_terms",
+      "review_status": "research_pass_needs_editor",
+      "content_hash": "",
+      "public_evidence_status": "public"
+    },
+    {
+      "id": "ev_u38_principia_dialogue",
+      "source_id": "src_u38_turchin_dialogue",
+      "locator": "Printed pp. 25-26 and 48-49 (1-based PDF pages)",
+      "excerpt_or_summary": "Turchin defines transition through new control and, in his social example, treats integration as necessary but insufficient. His case is an interpretation rather than proof of social benefit.",
+      "evidence_type": "primary_text_paraphrase",
+      "quality_tier": "A",
+      "licence": "source_terms",
+      "review_status": "research_pass_needs_editor",
+      "content_hash": "",
+      "public_evidence_status": "public"
+    },
+    {
+      "id": "ev_u38_principia_worldview",
+      "source_id": "src_u38_heylighen_worldview",
+      "locator": "Printed pp. 10-12, A constructive epistemology; An evolutionary ethics (1-based PDF pages)",
+      "excerpt_or_summary": "Heylighen describes models as constructed for purposes and environmentally selected; he says values cannot be deduced from natural facts while adopting evolutionary continuation as an ethical purpose.",
+      "evidence_type": "primary_text_paraphrase",
+      "quality_tier": "A",
+      "licence": "source_terms",
+      "review_status": "research_pass_needs_editor",
+      "content_hash": "",
+      "public_evidence_status": "public"
+    }
+  ],
+  "nodes": [],
+  "profiles": [
+    {
+      "node_id": "tradition_evolutionary_cybernetics",
+      "title": "Evolutionary cybernetics",
+      "canonical_definition": "A programme investigating how organisation and control emerge and develop through evolutionary processes; the account here follows Principia Cybernetica.",
+      "summary": "Heylighen proposes investigating how control and goal-directed organisation emerge and develop through evolution. His page also advances a broad interdisciplinary philosophy. Its critical account of second-order cybernetics is his interpretation, not a settled history of the field.",
+      "why_it_matters": "Distinguish a research programme and its proposed mechanisms from established consensus.",
+      "key_distinctions": [
+        "The page proposes that variation and selection underlie evolutionary phenomena; this broad claim requires argument and domain-specific evidence.",
+        "A descriptive selection process does not, by itself, decide whose survival or welfare should count."
+      ],
+      "context_and_lineage": "A project-authored account, not evidence of consensus or historical influence.",
+      "historical_lineage": [],
+      "logical_antecedents": [],
+      "dependent_subsequents": [],
+      "practice_connections": [],
+      "espoused_lineages": [],
+      "observed_clusters": [],
+      "common_misreadings": [
+        "Treating a proposed mechanism or normative commitment as a settled conclusion."
+      ],
+      "open_checks": [
+        "Source-located research candidates await human editorial acceptance."
+      ],
+      "source_ids": [
+        "src_u38_principia_evolcyb",
+        "src_u38_principia_ethics",
+        "src_u38_heylighen_worldview"
+      ],
+      "evidence_ids": [
+        "ev_u38_principia_evolcyb",
+        "ev_u38_principia_ethics",
+        "ev_u38_principia_worldview"
+      ],
+      "editorial_note": "Paraphrase of attributed authors\u2019 proposals; no endorsement of forecasts or values.",
+      "review_status": "research_pass_needs_editor",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    {
+      "node_id": "concept_metasystem_transition",
+      "title": "Metasystem transition",
+      "canonical_definition": "In the Principia account, emergence of a new level of control over a system or systems.",
+      "summary": "The project describes S-prime as containing S-type subsystems and an additional control mechanism. Its scale is the number integrated; the minimum is one, when a new control level appears without replication. Turchin treats integration as necessary but insufficient in his social example.",
+      "why_it_matters": "Ask what is controlled, what new controlling mechanism appears, and what evidence demonstrates it.",
+      "key_distinctions": [
+        "Aggregation or integration alone does not establish a new control level.",
+        "The definition does not establish that an observed transition is beneficial, inevitable, or just."
+      ],
+      "context_and_lineage": "A project-authored account, not evidence of consensus or historical influence.",
+      "historical_lineage": [],
+      "logical_antecedents": [],
+      "dependent_subsequents": [],
+      "practice_connections": [],
+      "espoused_lineages": [],
+      "observed_clusters": [],
+      "common_misreadings": [
+        "Treating a proposed mechanism or normative commitment as a settled conclusion."
+      ],
+      "open_checks": [
+        "Source-located research candidates await human editorial acceptance."
+      ],
+      "source_ids": [
+        "src_u38_principia_mst",
+        "src_u38_turchin_dialogue",
+        "src_principia_manifesto"
+      ],
+      "evidence_ids": [
+        "ev_u38_principia_mst",
+        "ev_u38_principia_dialogue",
+        "ev_u38_principia_manifesto"
+      ],
+      "editorial_note": "Paraphrase of attributed authors\u2019 proposals; no endorsement of forecasts or values.",
+      "review_status": "research_pass_needs_editor",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    {
+      "node_id": "approach_family_metasystem_transition_theory",
+      "title": "Metasystem transition theory",
+      "canonical_definition": "The Principia editors\u2019 particular cybernetic philosophy, organised around the emergence of new levels of control.",
+      "summary": "MSTT extends beyond the definition of a transition: its project overview includes epistemology, metaphysics, evolutionary history, predictions, and ethics. It proposes that models are constructed by subjects or groups and selected by their environment.",
+      "why_it_matters": "Identify which part is a definition, an empirical historical interpretation, a future forecast, or a value commitment.",
+      "key_distinctions": [
+        "An example offered as a transition needs independent examination of its claimed control mechanism.",
+        "Evolutionary continuation and survival are the authors\u2019 values, not observer-neutral measures of welfare."
+      ],
+      "context_and_lineage": "A project-authored account, not evidence of consensus or historical influence.",
+      "historical_lineage": [],
+      "logical_antecedents": [],
+      "dependent_subsequents": [],
+      "practice_connections": [],
+      "espoused_lineages": [],
+      "observed_clusters": [],
+      "common_misreadings": [
+        "Treating a proposed mechanism or normative commitment as a settled conclusion."
+      ],
+      "open_checks": [
+        "Source-located research candidates await human editorial acceptance."
+      ],
+      "source_ids": [
+        "src_principia_mstt",
+        "src_u38_principia_mst",
+        "src_u38_principia_ethics",
+        "src_u38_heylighen_worldview"
+      ],
+      "evidence_ids": [
+        "ev_u38_principia_mstt",
+        "ev_u38_principia_mst",
+        "ev_u38_principia_ethics",
+        "ev_u38_principia_worldview"
+      ],
+      "editorial_note": "Paraphrase of attributed authors\u2019 proposals; no endorsement of forecasts or values.",
+      "review_status": "research_pass_needs_editor",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    }
+  ],
+  "edges": [],
+  "claims": []
+}

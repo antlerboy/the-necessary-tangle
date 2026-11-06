@@ -1,34 +1,25 @@
 # Next work
 
-Status: implemented and locally verified, 6 November 2026. Benjamin P Taylor authorised this finite four-paper packet. No further implementation is active within this packet. The actual Ubuntu workflow and deployment.json record final runner checks and publication identity separately.
+Status: implemented and locally verified, 6 November 2026. This finite Principia Cybernetica packet is complete locally; no further implementation is active. Actual Ubuntu workflow checks and deployment.json record final publication identity separately.
 
 ## Outcome and deliverable
 
-Give readers four source-located model accounts and one question-led reading route. Deliver one checked numbered content release, with mechanisms, assumptions, concrete model examples, and limits on transfer to organisations. The route is an editorial sequence, not a historical influence claim.
+Give readers a source-located account of what Principia Cybernetica implemented, proposed, and left incomplete, separating its hypertext architecture from its evolutionary philosophy. Deliver one checked numbered content release with a fixed 15-page register, two linked primary-text traces where available, corrections/development of existing records, and one bounded comparison.
 
-## Cohort and sources
+## Frozen cohort
 
-- publication_fpcs_013: Turing, 'The Chemical Basis of Morphogenesis' (1952).
-- publication_fpcs_023: Lorenz, 'Deterministic Nonperiodic Flow' (1963).
-- publication_fpcs_037: Schelling, 'Dynamic Models of Segregation' (1971).
-- publication_fpcs_055: Axelrod and Hamilton, 'The Evolution of Cooperation' (1981).
-
-At baseline bec038d6d398a0b51e763b8109e27506fed5f6b4, all four are bibliographic descriptions with no developed profile. The official collection contents source supports membership, not scientific substance. Read lawful public primary copies and record exact pages/sections/equations. Defer inaccessible items explicitly. No full copyrighted PDFs or private paths enter the public repository.
+The exact 15 primary project pages are recorded in documentation/research-2026-11-06-principia/cohort.json. Routes: INTRO, SERVER, NUTSHELL, HISTORY, MANIFESTO, MSTT, MST, EVOLCYB, SEMNET, NODEORG, LINKTYPE, ANNOHELP, COLL, ASC/INDEXASC, and ETHICS. Do not substitute inaccessible pages silently. Two linked author-primary texts are a separately declared extension; source boundaries remain explicit.
 
 ## Files and ownership
 
-Research packet: documentation/research-2026-11-06-foundational/. Source/profile inputs, evidence locators, dispositions, question-led journey, and release notes belong there. Root alone integrates shared data and release/state files. Independent researchers own disjoint private source packets until integration.
+Source/reader inputs: documentation/research-2026-11-06-principia/. Existing record targets: organisation_principia_cybernetica_project, publication_principia_cybernetica_web, concept_semantic_network, comparator_corpus_principia_cybernetica_web_dictionary, tradition_evolutionary_cybernetics, concept_metasystem_transition, and approach_family_metasystem_transition_theory. No new nodes, graph edges, or biographical dossiers. Existing membership/collaboration lines are reused. A build worker owns update 38 application/baseline/validation/browser scripts, Makefile/workflow integration, generated public projections, release metadata, and material durable state. Root coordinates and publishes. Researchers own disjoint source packets until integration.
 
-In scope: the four existing nodes/profiles; needed primary source/evidence records; one journey and reader guide; release0.37 application/baseline/validation scripts; necessary Makefile/workflow gates; generated public data, reader/library/journey pages, sitemap, release metadata, and materially changed state. Preserve identifiers and catalogue provenance. New exposition remains research pending human editorial acceptance; retain the earlier bibliographic review in the original-record ledger.
+## Constraints and checks
 
-Out of scope: generic related-to edges; intellectual influence inferred from similarity or chronology; other foundational papers; private/member/AGM/client data; source-owner-reviewed Systemic Evolution changes; general migration; accounts, books, training, correspondence, and allowance records.
+Record exact page authorship, displayed creation/revision dates, and source-declared versus observed completeness. Assess implementation claims using technical pages, not aspiration alone. Mark dated self-reports as dated, and do not test or submit annotation forms. Trace philosophical claims to their authors and separate descriptive mechanisms from normative choices; no consensus or historical influence from resemblance. Keep provenance, dictionary voices, access failures, and editorial research status visible. Human editorial acceptance is pending. Public-safe original paraphrase only, with no full source copies, private paths, account data, or source-owner-reviewed changes.
 
-## Acceptance
-
-Distinguish model, located example, and editorial organisational questions. Keep parameter conditions and variant rules visible. Do not turn a sufficient mechanism into a universal cause or a simulation into an empirical organisational law. Sources and access limits must be inspectable. No new curator approval is implied.
-
-Run full make validate or its exact ordered local equivalent plus the actual Ubuntu gate. Check generator idempotence and protected source-owner hashes. Inspect changed reader routes at desktop/mobile widths, real href navigation, and the fixed bottom-right Open updates control. Publish after checks under standing permission; verify deployment identity and live routes.
+Run full make validate or its exact ordered local equivalent plus actual Ubuntu gate. Check restoration/idempotence and protected source-owner hashes. Inspect new guide/digest/journey and developed entries at desktop/mobile widths; preserve genuine hrefs and fixed Open updates control. Publish under standing AGENTS permission after checks, then verify exact live deployment and routes.
 
 ## Stop
 
-One implementation and verification pass; a corrective pass addresses a named failure only. Stop at a checked release, primary-source boundary, or new editorial decision. Record precise completed/deferred items and limitations. Counts are not the outcome.
+One implementation and verification pass; a corrective pass addresses a named failure. Stop at a checked release, source/access boundary, packet limit, or an editorial decision. Do not claim full-site review or deployed functionality that was not tested.

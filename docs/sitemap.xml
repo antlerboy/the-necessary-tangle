@@ -376,6 +376,14 @@
     <lastmod>2026-11-06</lastmod>
   </url>
   <url>
+    <loc>https://transduction.systems/reading/knowledge-and-worldviews/</loc>
+    <lastmod>2026-11-06</lastmod>
+  </url>
+  <url>
+    <loc>https://transduction.systems/updates/2026-11-06-principia/</loc>
+    <lastmod>2026-11-06</lastmod>
+  </url>
+  <url>
     <loc>https://transduction.systems/entries/</loc>
   </url>
   <url>
@@ -595,6 +603,9 @@
     <loc>https://transduction.systems/entries/method_or_methodology_estuarine_mapping/</loc>
   </url>
   <url>
+    <loc>https://transduction.systems/entries/tradition_evolutionary_cybernetics/</loc>
+  </url>
+  <url>
     <loc>https://transduction.systems/entries/concept_explicit_semantics/</loc>
   </url>
   <url>
@@ -701,6 +712,12 @@
   </url>
   <url>
     <loc>https://transduction.systems/entries/concept_transition_meta_rules/</loc>
+  </url>
+  <url>
+    <loc>https://transduction.systems/entries/concept_metasystem_transition/</loc>
+  </url>
+  <url>
+    <loc>https://transduction.systems/entries/approach_family_metasystem_transition_theory/</loc>
   </url>
   <url>
     <loc>https://transduction.systems/entries/person_michael_c_jackson/</loc>
@@ -856,6 +873,12 @@
     <loc>https://transduction.systems/entries/publication_u31_prigogine/</loc>
   </url>
   <url>
+    <loc>https://transduction.systems/entries/organisation_principia_cybernetica_project/</loc>
+  </url>
+  <url>
+    <loc>https://transduction.systems/entries/publication_principia_cybernetica_web/</loc>
+  </url>
+  <url>
     <loc>https://transduction.systems/entries/concept_purpose/</loc>
   </url>
   <url>
@@ -890,6 +913,9 @@
   </url>
   <url>
     <loc>https://transduction.systems/entries/concept_self_organisation/</loc>
+  </url>
+  <url>
+    <loc>https://transduction.systems/entries/concept_semantic_network/</loc>
   </url>
   <url>
     <loc>https://transduction.systems/entries/tool_sensemaker/</loc>
@@ -1054,6 +1080,9 @@
     <loc>https://transduction.systems/entries/method_or_methodology_viplan/</loc>
   </url>
   <url>
+    <loc>https://transduction.systems/entries/comparator_corpus_principia_cybernetica_web_dictionary/</loc>
+  </url>
+  <url>
     <loc>https://transduction.systems/entries/person_werner_ulrich/</loc>
   </url>
   <url>
@@ -1145,5 +1174,8 @@
   </url>
   <url>
     <loc>https://transduction.systems/journeys/journey_models_and_patterns/</loc>
+  </url>
+  <url>
+    <loc>https://transduction.systems/journeys/journey_principia_knowledge_and_worldviews/</loc>
   </url>
 </urlset>

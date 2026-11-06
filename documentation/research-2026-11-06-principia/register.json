@@ -1,0 +1,277 @@
+{
+  "cohort_count": 15,
+  "pages": [
+    {
+      "number": 1,
+      "url": "https://pespmc1.vub.ac.be/INTRO.html",
+      "title": "Introduction to Principia Cybernetica",
+      "authors": [
+        "Heylighen",
+        "Joslyn",
+        "Turchin"
+      ],
+      "creation_date": "Aug 1, 1993",
+      "revision_date": "Jan 9, 2003",
+      "other_displayed_date": "",
+      "source_declared_status": "No empty marker observed; project describes work as unfinished",
+      "observed_text_status": "Substantive text",
+      "access": "accessed",
+      "disposition": "Read; retain as bounded primary source",
+      "locators": "Opening paragraphs; footer",
+      "checked_at": "2026-11-06T18:30:16.249641+00:00"
+    },
+    {
+      "number": 2,
+      "url": "https://pespmc1.vub.ac.be/SERVER.html",
+      "title": "About the Principia Cybernetica Server",
+      "authors": [
+        "F. Heylighen"
+      ],
+      "creation_date": "Oct 14, 1999",
+      "revision_date": "Mar 15, 2002",
+      "other_displayed_date": "",
+      "source_declared_status": "No empty marker observed; project describes work as unfinished",
+      "observed_text_status": "Substantive text",
+      "access": "accessed",
+      "disposition": "Read; retain as bounded primary source",
+      "locators": "Opening paragraphs; footer",
+      "checked_at": "2026-11-06T18:30:16.249641+00:00"
+    },
+    {
+      "number": 3,
+      "url": "https://pespmc1.vub.ac.be/NUTSHELL.html",
+      "title": "Overview of Principia Cybernetica",
+      "authors": [
+        "F. Heylighen",
+        "C. Joslyn",
+        "V. Turchin"
+      ],
+      "creation_date": "Aug 1991",
+      "revision_date": "Jan 16, 2001",
+      "other_displayed_date": "",
+      "source_declared_status": "No empty or incomplete marker observed on this page",
+      "observed_text_status": "Substantive text",
+      "access": "accessed",
+      "disposition": "Read; retain as bounded primary source",
+      "locators": "Tools; Structure; Practical organization; footer",
+      "checked_at": "2026-11-06T18:30:16.249641+00:00"
+    },
+    {
+      "number": 4,
+      "url": "https://pespmc1.vub.ac.be/HISTORY.html",
+      "title": "History of the Principia Cybernetica Project",
+      "authors": [
+        "Heylighen",
+        "Joslyn",
+        "Turchin"
+      ],
+      "creation_date": "Nov 1990",
+      "revision_date": "Jun 19, 1998",
+      "other_displayed_date": "",
+      "source_declared_status": "No empty or incomplete marker observed on this page",
+      "observed_text_status": "Substantive text",
+      "access": "accessed",
+      "disposition": "Read; retain as bounded primary source",
+      "locators": "Origin of the Project; (Electronic) Publications; footer",
+      "checked_at": "2026-11-06T18:30:16.249641+00:00"
+    },
+    {
+      "number": 5,
+      "url": "https://pespmc1.vub.ac.be/MANIFESTO.html",
+      "title": "The Cybernetic Manifesto",
+      "authors": [
+        "V. Turchin",
+        "C. Joslyn"
+      ],
+      "creation_date": "Not separately labelled",
+      "revision_date": "Not separately labelled",
+      "other_displayed_date": "Oct 1989",
+      "source_declared_status": "No empty or incomplete label on page observed",
+      "observed_text_status": "Substantive sections 1\u201321; no explicit empty or incomplete label observed",
+      "access": "accessed",
+      "disposition": "Read; retained within finite cohort",
+      "locators": "Main text and displayed footer metadata",
+      "checked_at": "2026-11-06"
+    },
+    {
+      "number": 6,
+      "url": "https://pespmc1.vub.ac.be/MSTT.html",
+      "title": "Metasystem Transition Theory",
+      "authors": [
+        "C. Joslyn",
+        "F. Heylighen",
+        "V. Turchin"
+      ],
+      "creation_date": "Jan 1992 (created)",
+      "revision_date": "Jul 7, 1997 (modified)",
+      "other_displayed_date": "Jul 7, 1997 (modified)",
+      "source_declared_status": "No empty or incomplete label on page observed",
+      "observed_text_status": "Substantive overview and background; no explicit empty or incomplete label observed",
+      "access": "accessed",
+      "disposition": "Read; retained within finite cohort",
+      "locators": "Main text and displayed footer metadata",
+      "checked_at": "2026-11-06"
+    },
+    {
+      "number": 7,
+      "url": "https://pespmc1.vub.ac.be/MST.html",
+      "title": "The Metasystem Transition",
+      "authors": [
+        "V. Turchin",
+        "C. Joslyn"
+      ],
+      "creation_date": "Aug 1993 (created)",
+      "revision_date": "Jul 19, 1999 (modified)",
+      "other_displayed_date": "Jul 19, 1999 (modified); Aug 1993 (created)",
+      "source_declared_status": "No empty or incomplete label on page observed",
+      "observed_text_status": "Substantive definition, examples, and evolution section; several linked child pages labelled [empty], not this page",
+      "access": "accessed",
+      "disposition": "Read; retained within finite cohort",
+      "locators": "Main text and displayed footer metadata",
+      "checked_at": "2026-11-06"
+    },
+    {
+      "number": 8,
+      "url": "https://pespmc1.vub.ac.be/EVOLCYB.html",
+      "title": "Evolutionary cybernetics",
+      "authors": [
+        "F. Heylighen"
+      ],
+      "creation_date": "Not separately labelled",
+      "revision_date": "Not separately labelled",
+      "other_displayed_date": "Mar 6, 2000",
+      "source_declared_status": "No empty or incomplete label on page observed",
+      "observed_text_status": "Substantive programme and interdisciplinary comparisons; no explicit empty or incomplete label observed",
+      "access": "accessed",
+      "disposition": "Read; retained within finite cohort",
+      "locators": "Main text and displayed footer metadata",
+      "checked_at": "2026-11-06"
+    },
+    {
+      "number": 9,
+      "url": "https://pespmc1.vub.ac.be/SEMNET.html",
+      "title": "Hypertext web as a semantic network",
+      "authors": [
+        "C. Joslyn",
+        "F. Heylighen"
+      ],
+      "creation_date": "Aug 1993",
+      "revision_date": "Oct 26, 1993",
+      "other_displayed_date": "",
+      "source_declared_status": "No empty or incomplete marker observed on this page",
+      "observed_text_status": "Substantive text",
+      "access": "accessed",
+      "disposition": "Read; retain as bounded primary source",
+      "locators": "Opening paragraphs; footer",
+      "checked_at": "2026-11-06T18:30:16.249641+00:00"
+    },
+    {
+      "number": 10,
+      "url": "https://pespmc1.vub.ac.be/NODEORG.html",
+      "title": "Node Organization",
+      "authors": [
+        "C. Joslyn",
+        "F. Heylighen"
+      ],
+      "creation_date": "Aug 1993",
+      "revision_date": "Apr 6, 2000",
+      "other_displayed_date": "",
+      "source_declared_status": "No empty or incomplete marker observed on this page",
+      "observed_text_status": "Substantive text",
+      "access": "accessed",
+      "disposition": "Read; retain as bounded primary source",
+      "locators": "Opening paragraphs; Standard Nodes; footer",
+      "checked_at": "2026-11-06T18:30:16.249641+00:00"
+    },
+    {
+      "number": 11,
+      "url": "https://pespmc1.vub.ac.be/LINKTYPE.html",
+      "title": "Links and Link Types",
+      "authors": [
+        "C. Joslyn",
+        "F. Heylighen"
+      ],
+      "creation_date": "Jan, 1991",
+      "revision_date": "Jun 29, 1995",
+      "other_displayed_date": "",
+      "source_declared_status": "No empty or incomplete marker observed on this page",
+      "observed_text_status": "Substantive text",
+      "access": "accessed",
+      "disposition": "Read; retain as bounded primary source",
+      "locators": "Opening paragraphs; footer",
+      "checked_at": "2026-11-06T18:30:16.249641+00:00"
+    },
+    {
+      "number": 12,
+      "url": "https://pespmc1.vub.ac.be/ANNOHELP.html",
+      "title": "Guidelines for making annotations",
+      "authors": [
+        "F. Heylighen"
+      ],
+      "creation_date": "Nov 27, 1995",
+      "revision_date": "Feb 5, 1996",
+      "other_displayed_date": "",
+      "source_declared_status": "No empty or incomplete marker observed on this page",
+      "observed_text_status": "Substantive text",
+      "access": "accessed",
+      "disposition": "Read; retain as bounded primary source",
+      "locators": "Opening paragraphs; Password and Choose type of annotation fields; footer",
+      "checked_at": "2026-11-06T18:30:16.249641+00:00"
+    },
+    {
+      "number": 13,
+      "url": "https://pespmc1.vub.ac.be/COLL.html",
+      "title": "Collaborators Needed",
+      "authors": [
+        "F. Heylighen",
+        "C. Joslyn"
+      ],
+      "creation_date": "Aug 1990",
+      "revision_date": "Jan 19, 1998",
+      "other_displayed_date": "",
+      "source_declared_status": "No empty or incomplete marker observed on this page",
+      "observed_text_status": "Substantive text",
+      "access": "accessed",
+      "disposition": "Read; retain as bounded primary source",
+      "locators": "Opening paragraphs; footer",
+      "checked_at": "2026-11-06T18:30:16.249641+00:00"
+    },
+    {
+      "number": 14,
+      "url": "https://pespmc1.vub.ac.be/ASC/INDEXASC.html",
+      "title": "Web Dictionary of Cybernetics and Systems",
+      "authors": [
+        "F. Heylighen"
+      ],
+      "creation_date": "Not displayed",
+      "revision_date": "Not displayed",
+      "other_displayed_date": "No creation or revision date displayed",
+      "source_declared_status": "No empty or incomplete marker observed on this page",
+      "observed_text_status": "Substantive introduction and alphabetical menu",
+      "access": "accessed",
+      "disposition": "Read; retain as bounded primary source",
+      "locators": "Author field; introductory paragraph; Defined Terms",
+      "checked_at": "2026-11-06T18:30:16.249641+00:00"
+    },
+    {
+      "number": 15,
+      "url": "https://pespmc1.vub.ac.be/ETHICS.html",
+      "title": "Ethics",
+      "authors": [
+        "F. Heylighen",
+        "V. Turchin"
+      ],
+      "creation_date": "Aug 1993 (created)",
+      "revision_date": "Oct 24, 2000 (modified)",
+      "other_displayed_date": "Oct 24, 2000 (modified); Aug 1993 (created)",
+      "source_declared_status": "No empty or incomplete label on page observed",
+      "observed_text_status": "Substantive ethics, immortality, human development, and competition between levels; no explicit empty or incomplete label observed",
+      "access": "accessed",
+      "disposition": "Read; retained within finite cohort",
+      "locators": "Main text and displayed footer metadata",
+      "checked_at": "2026-11-06"
+    }
+  ],
+  "status_rule": "Distinguish source-declared empty/incomplete from observed substantive text, menu only, and retrieval failure. Text present does not prove finished. No replacement page silently added.",
+  "coverage_note": "Fifteen specified pages only. Substantive text is not a declaration that a page, implementation, or philosophical programme is complete. Linked child pages were not silently admitted."
+}

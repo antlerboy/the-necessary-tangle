@@ -39,7 +39,7 @@ jobs:
       - name: Test practice pages before publication
         env:
           NODE_PATH: /tmp/practice-browser/node_modules
-        run: node scripts/test_events_browser.js && node scripts/test_practice_browser.js && node scripts/test_practice_presentation.js && node scripts/test_intake_browser.js && node scripts/test_maps_browser.js && node scripts/test_library_browser.js && node scripts/test_submission_review_browser.js && node scripts/test_claim_lab_browser.js && node scripts/test_weaver_browser.js && node scripts/test_update_30_browser.js && node scripts/test_update_31_browser.js && node scripts/test_update_32_browser.js && node scripts/test_update_33_browser.js && node scripts/test_update_34_browser.js && node scripts/test_update_35_browser.js && node scripts/test_saidtosomeone_browser.js && node scripts/test_isss_wiki_browser.js && node scripts/test_readable_atlas_browser.js && node scripts/test_update_36_browser.js && node scripts/test_update_37_browser.js
+        run: node scripts/test_events_browser.js && node scripts/test_practice_browser.js && node scripts/test_practice_presentation.js && node scripts/test_intake_browser.js && node scripts/test_maps_browser.js && node scripts/test_library_browser.js && node scripts/test_submission_review_browser.js && node scripts/test_claim_lab_browser.js && node scripts/test_weaver_browser.js && node scripts/test_update_30_browser.js && node scripts/test_update_31_browser.js && node scripts/test_update_32_browser.js && node scripts/test_update_33_browser.js && node scripts/test_update_34_browser.js && node scripts/test_update_35_browser.js && node scripts/test_saidtosomeone_browser.js && node scripts/test_isss_wiki_browser.js && node scripts/test_readable_atlas_browser.js && node scripts/test_update_36_browser.js && node scripts/test_update_37_browser.js && node scripts/test_update_38_browser.js
       - name: Record the exact deployed release and test summary
         env:
           DEPLOY_COMMIT: ${{ github.sha }}
@@ -82,6 +82,7 @@ jobs:
             validation/isss-wiki-browser/
             validation/update-36-browser/
             validation/update-37-browser/
+            validation/update-38-browser/
             validation/readable-atlas-browser/
             validation/update-35-browser/
           if-no-files-found: ignore
@@ -167,7 +168,7 @@ jobs:
           UPDATE_BASE_URL: https://transduction.systems
           SAID_BASE_URL: https://transduction.systems
           EVENTS_BASE_URL: https://transduction.systems
-        run: node scripts/test_events_browser.js && node scripts/test_practice_browser.js && node scripts/test_practice_presentation.js && node scripts/test_maps_browser.js && node scripts/test_library_browser.js && node scripts/test_weaver_browser.js && node scripts/test_update_30_browser.js && node scripts/test_update_31_browser.js && node scripts/test_update_32_browser.js && node scripts/test_update_33_browser.js && node scripts/test_update_34_browser.js && node scripts/test_update_35_browser.js && node scripts/test_saidtosomeone_browser.js && node scripts/test_isss_wiki_browser.js && node scripts/test_readable_atlas_browser.js && node scripts/test_update_36_browser.js && node scripts/test_update_37_browser.js
+        run: node scripts/test_events_browser.js && node scripts/test_practice_browser.js && node scripts/test_practice_presentation.js && node scripts/test_maps_browser.js && node scripts/test_library_browser.js && node scripts/test_weaver_browser.js && node scripts/test_update_30_browser.js && node scripts/test_update_31_browser.js && node scripts/test_update_32_browser.js && node scripts/test_update_33_browser.js && node scripts/test_update_34_browser.js && node scripts/test_update_35_browser.js && node scripts/test_saidtosomeone_browser.js && node scripts/test_isss_wiki_browser.js && node scripts/test_readable_atlas_browser.js && node scripts/test_update_36_browser.js && node scripts/test_update_37_browser.js && node scripts/test_update_38_browser.js
       - name: Preserve live verification evidence and downloaded pack
         if: always()
         uses: actions/upload-artifact@v4
@@ -182,6 +183,7 @@ jobs:
             validation/isss-wiki-browser/
             validation/update-36-browser/
             validation/update-37-browser/
+            validation/update-38-browser/
             validation/readable-atlas-browser/
             validation/update-35-browser/
             validation/practice-browser/*.json

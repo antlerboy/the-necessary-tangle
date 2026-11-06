@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0",
   "canonical_url": "https://transduction.systems/entries/tool_nodica/",
-  "release": "0.37",
-  "citation": "Taylor, B. P. (2026). Nodica. The Necessary Tangle, release 0.37. https://transduction.systems/entries/tool_nodica/",
+  "release": "0.38",
+  "citation": "Taylor, B. P. (2026). Nodica. The Necessary Tangle, release 0.38. https://transduction.systems/entries/tool_nodica/",
   "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
   "entry": {
     "id": "tool_nodica",
@@ -233,22 +233,31 @@
     {
       "id": "src_principia_intro",
       "title": "Introduction to Principia Cybernetica",
-      "source_type": "primary_project_page",
+      "source_type": "primary_webpage",
       "quality_tier": "A",
       "access": "public",
       "url": "https://pespmc1.vub.ac.be/INTRO.html",
-      "date": "",
-      "notes": "Primary project-authored orientation page.",
-      "creators": [],
+      "date": "Jan 9, 2003",
+      "notes": "Primary page read on 6 November 2026. Dated self-report; present-day functionality not tested.",
+      "creators": [
+        "Heylighen",
+        "Joslyn",
+        "Turchin"
+      ],
       "doi": "",
       "isbn": "",
-      "publisher": "Principia Cybernetica Project",
+      "publisher": "Principia Cybernetica",
       "licence": "source_terms",
       "archived_url": "",
       "content_hash": "",
-      "review_status": "checked",
-      "last_checked": "2026-08-10",
-      "public_link_status": "public_link"
+      "review_status": "research_pass_needs_editor",
+      "last_checked": "2026-11-06",
+      "public_link_status": "public_link",
+      "connection_pass": "principia_20261106",
+      "source_locator": "Opening paragraphs; footer",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "access_note": "Dated self-report; present-day functionality not tested."
     },
     {
       "id": "src_go_science_toolkit_2023",

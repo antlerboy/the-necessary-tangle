@@ -1,7 +1,7 @@
 # The Necessary Tangle: public knowledge file
 
 Curated by Benjamin P Taylor — https://www.antlerboy.com/
-Generated from public release 0.37 on 2026-11-06.
+Generated from public release 0.38 on 2026-11-06.
 
 A living evidence atlas of systems | cybernetics | complexity.
 Every connection must say what it means. Historical sequence, logical dependence, influence, teaching, collaboration, practical use, comparison and dispute are not interchangeable.
@@ -2609,7 +2609,7 @@ A systems scientist and cybernetician who co-developed Principia Cybernetica and
 ### Sources
 
 - The Cybernetic Manifesto — https://pespmc1.vub.ac.be/MANIFESTO.html
-- Principia Cybernetica: Metasystem Transition Theory — https://pespmc1.vub.ac.be/MSTT.html
+- Metasystem Transition Theory — https://pespmc1.vub.ac.be/MSTT.html
 - The Global Brain Group — https://pespmc1.vub.ac.be/GBRAIN-L.html
 
 ## Coaching
@@ -6060,15 +6060,55 @@ R. C. Conant and W. R. Ashby, ‘Every Good Regulator of a System Must Be a Mode
 ## Evolutionary cybernetics
 
 Type: Tradition
-Public depth: described
+Public depth: profile
 
-An evolutionary approach to cybernetics concerned with how new levels of control, adaptation and organisation arise.
+A programme investigating how organisation and control emerge and develop through evolutionary processes; the account here follows Principia Cybernetica.
+
+### Summary
+
+Heylighen proposes investigating how control and goal-directed organisation emerge and develop through evolution. His page also advances a broad interdisciplinary philosophy. Its critical account of second-order cybernetics is his interpretation, not a settled history of the field.
+
+### Why it matters
+
+Distinguish a research programme and its proposed mechanisms from established consensus.
+
+### Key distinctions
+
+- The page proposes that variation and selection underlie evolutionary phenomena; this broad claim requires argument and domain-specific evidence.
+- A descriptive selection process does not, by itself, decide whose survival or welfare should count.
+
+### Historical development
+
+[]
+
+### Ideas it depends on
+
+[]
+
+### What develops from it
+
+[]
+
+### Connections to practice
+
+[]
+
+### Common confusions
+
+- Treating a proposed mechanism or normative commitment as a settled conclusion.
+
+### Open questions and checks
+
+- Source-located research candidates await human editorial acceptance.
 
 ### Sources
 
 - Introduction to Principia Cybernetica — https://pespmc1.vub.ac.be/INTRO.html
 - The Cybernetic Manifesto — https://pespmc1.vub.ac.be/MANIFESTO.html
 - Introduction to Principia Cybernetica — https://pespmc1.vub.ac.be/INTRO.html
+- Evolutionary cybernetics — https://pespmc1.vub.ac.be/EVOLCYB.html
+- Ethics — https://pespmc1.vub.ac.be/ETHICS.html
+- Foundations and Methodology for an Evolutionary World View: a review of the Principia Cybernetica Project — https://pespmc1.vub.ac.be/Papers/PCPworldview-FOS.pdf
 
 ## Evolutionary ecology
 
@@ -6747,7 +6787,7 @@ A cybernetician and complexity researcher closely associated with the developmen
 ### Sources
 
 - Introduction to Principia Cybernetica — https://pespmc1.vub.ac.be/INTRO.html
-- Principia Cybernetica: Metasystem Transition Theory — https://pespmc1.vub.ac.be/MSTT.html
+- Metasystem Transition Theory — https://pespmc1.vub.ac.be/MSTT.html
 - The Global Brain Group — https://pespmc1.vub.ac.be/GBRAIN-L.html
 
 ## Francisco Varela
@@ -10614,25 +10654,105 @@ Metaphors organise attention by making one domain intelligible through another. 
 ## Metasystem transition
 
 Type: Concept
-Public depth: described
+Public depth: profile
 
-A transition in which a new control level forms over lower-level components, producing a new organised whole with additional capacities.
+In the Principia account, emergence of a new level of control over a system or systems.
+
+### Summary
+
+The project describes S-prime as containing S-type subsystems and an additional control mechanism. Its scale is the number integrated; the minimum is one, when a new control level appears without replication. Turchin treats integration as necessary but insufficient in his social example.
+
+### Why it matters
+
+Ask what is controlled, what new controlling mechanism appears, and what evidence demonstrates it.
+
+### Key distinctions
+
+- Aggregation or integration alone does not establish a new control level.
+- The definition does not establish that an observed transition is beneficial, inevitable, or just.
+
+### Historical development
+
+[]
+
+### Ideas it depends on
+
+[]
+
+### What develops from it
+
+[]
+
+### Connections to practice
+
+[]
+
+### Common confusions
+
+- Treating a proposed mechanism or normative commitment as a settled conclusion.
+
+### Open questions and checks
+
+- Source-located research candidates await human editorial acceptance.
 
 ### Sources
 
-- Principia Cybernetica: Metasystem Transition Theory — https://pespmc1.vub.ac.be/MSTT.html
+- Metasystem Transition Theory — https://pespmc1.vub.ac.be/MSTT.html
 - Introduction to Principia Cybernetica — https://pespmc1.vub.ac.be/INTRO.html
+- The Metasystem Transition — https://pespmc1.vub.ac.be/MST.html
+- A Dialogue on Metasystem Transition — https://pespmc1.vub.ac.be/Papers/Turchin/dialog.pdf
+- The Cybernetic Manifesto — https://pespmc1.vub.ac.be/MANIFESTO.html
 
 ## Metasystem Transition Theory
 
 Type: Approach family
-Public depth: described
+Public depth: profile
 
-A theoretical programme developed within Principia Cybernetica around the repeated emergence of higher levels of control and organisation.
+The Principia editors’ particular cybernetic philosophy, organised around the emergence of new levels of control.
+
+### Summary
+
+MSTT extends beyond the definition of a transition: its project overview includes epistemology, metaphysics, evolutionary history, predictions, and ethics. It proposes that models are constructed by subjects or groups and selected by their environment.
+
+### Why it matters
+
+Identify which part is a definition, an empirical historical interpretation, a future forecast, or a value commitment.
+
+### Key distinctions
+
+- An example offered as a transition needs independent examination of its claimed control mechanism.
+- Evolutionary continuation and survival are the authors’ values, not observer-neutral measures of welfare.
+
+### Historical development
+
+[]
+
+### Ideas it depends on
+
+[]
+
+### What develops from it
+
+[]
+
+### Connections to practice
+
+[]
+
+### Common confusions
+
+- Treating a proposed mechanism or normative commitment as a settled conclusion.
+
+### Open questions and checks
+
+- Source-located research candidates await human editorial acceptance.
 
 ### Sources
 
-- Principia Cybernetica: Metasystem Transition Theory — https://pespmc1.vub.ac.be/MSTT.html
+- Metasystem Transition Theory — https://pespmc1.vub.ac.be/MSTT.html
+- The Metasystem Transition — https://pespmc1.vub.ac.be/MST.html
+- Ethics — https://pespmc1.vub.ac.be/ETHICS.html
+- Foundations and Methodology for an Evolutionary World View: a review of the Principia Cybernetica Project — https://pespmc1.vub.ac.be/Papers/PCPworldview-FOS.pdf
 
 ## Methods of Operations Research
 
@@ -14632,27 +14752,104 @@ Inspect the passage and the stated domain before using a term in a new setting.
 ## Principia Cybernetica Project
 
 Type: Organisation
-Public depth: described
+Public depth: profile
 
-A collaborative research and publishing project that developed evolutionary cybernetics, metasystem transition theory and Principia Cybernetica Web.
+A collaborative project seeking to develop a cybernetic and evolutionary philosophy with computer support.
+
+### Summary
+
+The project history attributes the early project to Turchin and Joslyn and reports Heylighen joining the editorial board in 1990. Its overview describes a board, contributors, publications, meetings, and electronic lists. These are dated project self-reports.
+
+### Why it matters
+
+The project is an organisation and philosophical undertaking; its web is a medium and corpus, not the whole undertaking.
+
+### Key distinctions
+
+- The project is an organisation and philosophical undertaking; its web is a medium and corpus, not the whole undertaking.
+
+### Historical development
+
+[]
+
+### Ideas it depends on
+
+[]
+
+### What develops from it
+
+[]
+
+### Connections to practice
+
+[]
+
+### Common confusions
+
+[]
+
+### Open questions and checks
+
+- Human editorial acceptance remains pending.
 
 ### Sources
 
 - Introduction to Principia Cybernetica — https://pespmc1.vub.ac.be/INTRO.html
 - The Cybernetic Manifesto — https://pespmc1.vub.ac.be/MANIFESTO.html
-- Principia Cybernetica: Metasystem Transition Theory — https://pespmc1.vub.ac.be/MSTT.html
+- Metasystem Transition Theory — https://pespmc1.vub.ac.be/MSTT.html
+- History of the Principia Cybernetica Project — https://pespmc1.vub.ac.be/HISTORY.html
+- Overview of Principia Cybernetica — https://pespmc1.vub.ac.be/NUTSHELL.html
+- Collaborators Needed — https://pespmc1.vub.ac.be/COLL.html
 
 ## Principia Cybernetica Web
 
 Type: Publication
-Public depth: described
+Public depth: profile
 
-A collaboratively developed, linked hypertext knowledge network for evolutionary cybernetics and related systems ideas.
+A hypertext publication and conceptual network associated with the Principia Cybernetica Project.
+
+### Summary
+
+The project history reports a web server in July 1993 and an experimental adaptive semantic hypertext in September 1994. Its annotation guide describes a historical submission process; present operation was not tested. The server page explains that an [empty] node has a menu but no text.
+
+### Why it matters
+
+The proposed architecture, a historical experiment, and current working functionality are distinct.
+
+### Key distinctions
+
+- The proposed architecture, a historical experiment, and current working functionality are distinct.
+
+### Historical development
+
+[]
+
+### Ideas it depends on
+
+[]
+
+### What develops from it
+
+[]
+
+### Connections to practice
+
+[]
+
+### Common confusions
+
+[]
+
+### Open questions and checks
+
+- Human editorial acceptance remains pending.
 
 ### Sources
 
 - About the Principia Cybernetica Server — https://pespmc1.vub.ac.be/SERVER.html
 - Introduction to Principia Cybernetica — https://pespmc1.vub.ac.be/INTRO.html
+- History of the Principia Cybernetica Project — https://pespmc1.vub.ac.be/HISTORY.html
+- Guidelines for making annotations — https://pespmc1.vub.ac.be/ANNOHELP.html
 
 ## Principle of Emergence
 
@@ -20098,13 +20295,52 @@ Selling systems approaches means helping sponsors understand the problem the app
 ## Semantic network
 
 Type: Concept
-Public depth: described
+Public depth: profile
 
-A graph-like knowledge representation in which nodes stand for concepts or entities and links encode stated relations among them.
+A representation in which nodes are connected by relations whose types can convey meaning.
+
+### Summary
+
+Joslyn and Heylighen describe a conceptual network with multiple hierarchies and both formal and reader-interpreted meaning. Their technical pages distinguish the proposal from implementation: node types were not really implemented, collaborative status was incomplete, and only one link type was implemented at the time described.
+
+### Why it matters
+
+A proposed typed relation is not proof that its semantics were implemented.
+
+### Key distinctions
+
+- A proposed typed relation is not proof that its semantics were implemented.
+
+### Historical development
+
+[]
+
+### Ideas it depends on
+
+[]
+
+### What develops from it
+
+[]
+
+### Connections to practice
+
+[]
+
+### Common confusions
+
+[]
+
+### Open questions and checks
+
+- Human editorial acceptance remains pending.
 
 ### Sources
 
 - Introduction to Principia Cybernetica — https://pespmc1.vub.ac.be/INTRO.html
+- Hypertext web as a semantic network — https://pespmc1.vub.ac.be/SEMNET.html
+- Node Organization — https://pespmc1.vub.ac.be/NODEORG.html
+- Links and Link Types — https://pespmc1.vub.ac.be/LINKTYPE.html
 
 ## SenseMaker
 
@@ -24306,7 +24542,7 @@ A physicist, computer scientist and cybernetic philosopher whose work supplied t
 ### Sources
 
 - The Cybernetic Manifesto — https://pespmc1.vub.ac.be/MANIFESTO.html
-- Principia Cybernetica: Metasystem Transition Theory — https://pespmc1.vub.ac.be/MSTT.html
+- Metasystem Transition Theory — https://pespmc1.vub.ac.be/MSTT.html
 
 ## Value Stream Mapping
 
@@ -24967,9 +25203,45 @@ Mathematician and science administrator associated with communication theory and
 ## Web Dictionary of Cybernetics and Systems
 
 Type: Comparator corpus
-Public depth: described
+Public depth: profile
 
-A hypertext dictionary combining the ASC Glossary, Klaus Krippendorff's dictionary and Bernd Hornung's glossary, compiled and converted by Francis Heylighen with help from An Vranckx.
+An alphabetical index to a composite cybernetics and systems dictionary hosted within the Principia Cybernetica Web.
+
+### Summary
+
+The index says it combines the ASC Glossary, Krippendorff’s Dictionary, and Hornung’s Glossary with permission, and attributes definitions individually. It credits Francis Heylighen with compilation and hypertext conversion, assisted by An Vranckx.
+
+### Why it matters
+
+An index combining attributed definitions is not a single consensus vocabulary. Individual entries were not examined in this pass.
+
+### Key distinctions
+
+- An index combining attributed definitions is not a single consensus vocabulary. Individual entries were not examined in this pass.
+
+### Historical development
+
+[]
+
+### Ideas it depends on
+
+[]
+
+### What develops from it
+
+[]
+
+### Connections to practice
+
+[]
+
+### Common confusions
+
+[]
+
+### Open questions and checks
+
+- Human editorial acceptance remains pending.
 
 ### Sources
 

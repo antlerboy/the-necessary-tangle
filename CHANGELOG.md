@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.38 — 6 November 2026
+
+Seven existing entries gain source-located Principia Cybernetica profiles and an editorial reading journey. New exposition awaits editorial acceptance.
+
+
 ## 0.37 — 6 November 2026
 
 Four existing foundational-paper entries gain primary-source-located profiles and an editorial reading journey. Model rules, examples, and limits remain visible; new exposition awaits editorial acceptance. The earlier 6 November digest is retained.
