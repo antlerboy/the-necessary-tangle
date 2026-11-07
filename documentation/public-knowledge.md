@@ -1,7 +1,7 @@
 # The Necessary Tangle: public knowledge file
 
 Curated by Benjamin P Taylor — https://www.antlerboy.com/
-Generated from public release 0.40 on 2026-11-07.
+Generated from public release 0.41 on 2026-11-07.
 
 A living evidence atlas of systems | cybernetics | complexity.
 Every connection must say what it means. Historical sequence, logical dependence, influence, teaching, collaboration, practical use, comparison and dispute are not interchangeable.
@@ -6309,7 +6309,7 @@ A circular causal or informational relation in which an output or consequence af
 
 ### Summary
 
-Feedback is not merely receiving comments. It is a circular relation in which consequences return to influence what happens next. The loop may counteract change, reinforce it, oscillate, delay response or fail because no actor can use the returned information.
+Feedback is not merely receiving comments. It is a circular relation in which consequences return to influence what happens next. The loop may counteract change, reinforce it, oscillate, delay response or fail because no actor can use the returned information. A correction sign, a stable response, and acceptable performance are separate questions. Historical authors also used different boundaries for the term.
 
 ### Why it matters
 
@@ -6323,6 +6323,9 @@ Systems work often says feedback when it means reporting, evaluation, data or le
 - physical causal loop vs returned information
 - feedback mechanism vs homeostatic condition
 - measurement vs learning
+- sign of an identified correction vs stability of the complete dynamics
+- asymptotic decay vs finite acceptable-band compliance
+- one circuit account vs behaviour of a richly connected whole
 
 ### Historical development
 
@@ -6353,6 +6356,8 @@ Systems work often says feedback when it means reporting, evaluation, data or le
 - state the delay before effects become visible
 - separate balancing from reinforcing loops
 - look for loops that reward gaming rather than purpose
+- trace what returns, its timing, and what can change as a result
+- state the mechanism and conditions before inferring stability from a feedback sign
 
 ### Common confusions
 
@@ -6361,6 +6366,8 @@ Systems work often says feedback when it means reporting, evaluation, data or le
 - a dashboard is feedback even when nobody can act
 - homeostasis and feedback are synonyms
 - all loops stabilise
+- negative feedback guarantees a stable or beneficial result
+- feedback has one uncontested historical definition
 
 ### Open questions and checks
 
@@ -6379,6 +6386,7 @@ Systems work often says feedback when it means reporting, evaluation, data or le
 - Cybernetics or Control and Communication in the Animal and the Machine — https://mitpress.mit.edu/9780262537841/cybernetics-or-control-and-communication-in-the-animal-and-the-machine/
 - Organization for Physiological Homeostasis — https://doi.org/10.1152/physrev.1929.9.3.399
 - Feedback - IEEE Technology Navigator — https://technav.ieee.org/topic/feedback/
+- An Introduction to Cybernetics — https://ashby.info/Ashby-Introduction-to-Cybernetics.pdf
 
 ## Feedback Dominance Theorem
 
@@ -19169,7 +19177,7 @@ A relation among disturbances, a reguland, a regulator and acceptable outcomes i
 
 ### Summary
 
-Regulation is the work of keeping outcomes within acceptable ranges despite disturbance. It may operate through feedback, anticipation, constraints, buffering, redundancy, local autonomy or changes to the environment.
+Regulation is the work of keeping outcomes within acceptable ranges despite disturbance. It may operate through feedback, anticipation, constraints, buffering, redundancy, local autonomy or changes to the environment. Specify the essential variables, acceptable set, and disturbance conditions. Ashby distinguishes passive protection, response to a threatened disturbance, and error-based correction; an error need not imply that useful regulation has failed.
 
 ### Why it matters
 
@@ -19182,6 +19190,9 @@ Regulation is often collapsed into command and control. Ashby instead asks what 
 - acceptable range vs one fixed target
 - distributed vs central regulation
 - regulation vs optimisation
+- passive protection vs disturbance-based response vs error-based correction
+- given acceptable set vs agreement about what ought to count as acceptable
+- exact error elimination vs useful partial regulation
 
 ### Historical development
 
@@ -19211,6 +19222,8 @@ Regulation is often collapsed into command and control. Ashby instead asks what 
 - map disturbance variety before adding controls
 - ask where regulatory intelligence already sits
 - protect local discretion where it carries necessary variety
+- ask whose acceptable range is being protected and who may revise it
+- check the actual protected outcome, not merely the presence of a returned signal
 
 ### Common confusions
 
@@ -19218,6 +19231,8 @@ Regulation is often collapsed into command and control. Ashby instead asks what 
 - the regulator must be central
 - tighter control always improves regulation
 - one target captures viability
+- every regulator must wait for an error signal
+- Ashby proves exact tracking impossible in every control model
 
 ### Open questions and checks
 

@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0",
   "canonical_url": "https://transduction.systems/entries/concept_regulation/",
-  "release": "0.40",
-  "citation": "Taylor, B. P. (2026). Regulation. The Necessary Tangle, release 0.40. https://transduction.systems/entries/concept_regulation/",
+  "release": "0.41",
+  "citation": "Taylor, B. P. (2026). Regulation. The Necessary Tangle, release 0.41. https://transduction.systems/entries/concept_regulation/",
   "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
   "entry": {
     "id": "concept_regulation",
@@ -48,14 +48,17 @@
     "title": "Regulation",
     "profile_status": "evidence_deepened_research_pass",
     "canonical_definition": "A relation among disturbances, a reguland, a regulator and acceptable outcomes in which outcome variety is constrained relative to a stated goal or essential-variable range.",
-    "summary": "Regulation is the work of keeping outcomes within acceptable ranges despite disturbance. It may operate through feedback, anticipation, constraints, buffering, redundancy, local autonomy or changes to the environment.",
+    "summary": "Regulation is the work of keeping outcomes within acceptable ranges despite disturbance. It may operate through feedback, anticipation, constraints, buffering, redundancy, local autonomy or changes to the environment. Specify the essential variables, acceptable set, and disturbance conditions. Ashby distinguishes passive protection, response to a threatened disturbance, and error-based correction; an error need not imply that useful regulation has failed.",
     "why_it_matters": "Regulation is often collapsed into command and control. Ashby instead asks what variety of disturbance reaches the system, what responses are available and which outcomes count as acceptable. The regulator may be distributed rather than a boss or central unit.",
     "key_distinctions": [
       "regulation vs domination",
       "regulator vs manager",
       "acceptable range vs one fixed target",
       "distributed vs central regulation",
-      "regulation vs optimisation"
+      "regulation vs optimisation",
+      "passive protection vs disturbance-based response vs error-based correction",
+      "given acceptable set vs agreement about what ought to count as acceptable",
+      "exact error elimination vs useful partial regulation"
     ],
     "historical_lineage": [
       "physiological regulation and governor analysis predate cybernetics",
@@ -80,7 +83,9 @@
       "identify the variable that must remain viable",
       "map disturbance variety before adding controls",
       "ask where regulatory intelligence already sits",
-      "protect local discretion where it carries necessary variety"
+      "protect local discretion where it carries necessary variety",
+      "ask whose acceptable range is being protected and who may revise it",
+      "check the actual protected outcome, not merely the presence of a returned signal"
     ],
     "espoused_lineages": [
       "physiology",
@@ -93,7 +98,9 @@
       "regulation means bureaucracy",
       "the regulator must be central",
       "tighter control always improves regulation",
-      "one target captures viability"
+      "one target captures viability",
+      "every regulator must wait for an error signal",
+      "Ashby proves exact tracking impossible in every control model"
     ],
     "open_checks": [
       "legal and institutional regulation as a distinct lineage",
@@ -107,11 +114,12 @@
     "evidence_ids": [
       "ev_ashby_requisite_variety",
       "ev_conant_ashby_theorem",
-      "ev_wiener_feedback_cybernetics"
+      "ev_wiener_feedback_cybernetics",
+      "ev41_regulation_ashby_scope"
     ],
-    "last_researched": "2026-08-09",
+    "last_researched": "2026-11-07",
     "review_status": "research_pass_needs_editor",
-    "editorial_note": "Readable orientation and evidence-backed first pass. Not accepted scholarly consensus until named review is recorded."
+    "editorial_note": "Readable orientation and evidence-backed first pass. Not accepted scholarly consensus until named review is recorded. Bounded located-primary clarification and original discrete-response example; canonical definition, historical lineage, existing open checks, and human editorial acceptance remain unchanged/pending."
   },
   "connections": [
     {
@@ -1125,6 +1133,12 @@
       "id": "ev_wiener_feedback_cybernetics",
       "source_id": "src_wiener_cybernetics_1948",
       "locator": "MIT Press edition description and open-access edition; exact chapter locator pending",
+      "review_status": "research_pass_needs_editor"
+    },
+    {
+      "id": "ev41_regulation_ashby_scope",
+      "source_id": "src_ashby_intro_cybernetics_1956",
+      "locator": "§§10/4–10/7, pp197–201; §§12/1,12/3–12/6, pp219,221–224",
       "review_status": "research_pass_needs_editor"
     },
     {

@@ -1,13 +1,13 @@
 {
   "schema_version": "1.0",
-  "release": "0.40",
+  "release": "0.41",
   "record_count": 233,
   "records": [
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/publication_unfix_32_key_concepts/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). 32 Key Concepts in Systems Thinking and Complexity Theory. The Necessary Tangle, release 0.40. https://transduction.systems/entries/publication_unfix_32_key_concepts/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). 32 Key Concepts in Systems Thinking and Complexity Theory. The Necessary Tangle, release 0.41. https://transduction.systems/entries/publication_unfix_32_key_concepts/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "publication_unfix_32_key_concepts",
@@ -964,8 +964,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/bibliography_barrett_shepard_1951/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). A Bibliography of Cybernetics (Barrett and Shepard, 1951). The Necessary Tangle, release 0.40. https://transduction.systems/entries/bibliography_barrett_shepard_1951/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). A Bibliography of Cybernetics (Barrett and Shepard, 1951). The Necessary Tangle, release 0.41. https://transduction.systems/entries/bibliography_barrett_shepard_1951/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "bibliography_barrett_shepard_1951",
@@ -1204,8 +1204,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/publication_leaders_framework_decision_making/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). A Leader's Framework for Decision Making. The Necessary Tangle, release 0.40. https://transduction.systems/entries/publication_leaders_framework_decision_making/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). A Leader's Framework for Decision Making. The Necessary Tangle, release 0.41. https://transduction.systems/entries/publication_leaders_framework_decision_making/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "publication_leaders_framework_decision_making",
@@ -1412,8 +1412,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/publication_mini_primer_critical_systems_heuristics/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). A Mini-Primer of Critical Systems Heuristics. The Necessary Tangle, release 0.40. https://transduction.systems/entries/publication_mini_primer_critical_systems_heuristics/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). A Mini-Primer of Critical Systems Heuristics. The Necessary Tangle, release 0.41. https://transduction.systems/entries/publication_mini_primer_critical_systems_heuristics/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "publication_mini_primer_critical_systems_heuristics",
@@ -1597,8 +1597,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/concept_adaptation/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Adaptation. The Necessary Tangle, release 0.40. https://transduction.systems/entries/concept_adaptation/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Adaptation. The Necessary Tangle, release 0.41. https://transduction.systems/entries/concept_adaptation/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "concept_adaptation",
@@ -2865,8 +2865,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/person_alessandro_rancati/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Alessandro Rancati. The Necessary Tangle, release 0.40. https://transduction.systems/entries/person_alessandro_rancati/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Alessandro Rancati. The Necessary Tangle, release 0.41. https://transduction.systems/entries/person_alessandro_rancati/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "person_alessandro_rancati",
@@ -3015,8 +3015,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/person_alexander_bogdanov/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Alexander Bogdanov. The Necessary Tangle, release 0.40. https://transduction.systems/entries/person_alexander_bogdanov/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Alexander Bogdanov. The Necessary Tangle, release 0.41. https://transduction.systems/entries/person_alexander_bogdanov/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "person_alexander_bogdanov",
@@ -3184,8 +3184,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/person_alfonso_reyes/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Alfonso Reyes. The Necessary Tangle, release 0.40. https://transduction.systems/entries/person_alfonso_reyes/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Alfonso Reyes. The Necessary Tangle, release 0.41. https://transduction.systems/entries/person_alfonso_reyes/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "person_alfonso_reyes",
@@ -3336,8 +3336,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/person_allenna_leonard/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Allenna Leonard. The Necessary Tangle, release 0.40. https://transduction.systems/entries/person_allenna_leonard/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Allenna Leonard. The Necessary Tangle, release 0.41. https://transduction.systems/entries/person_allenna_leonard/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "person_allenna_leonard",
@@ -3650,8 +3650,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/tradition_anthro_complexity/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Anthro-complexity. The Necessary Tangle, release 0.40. https://transduction.systems/entries/tradition_anthro_complexity/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Anthro-complexity. The Necessary Tangle, release 0.41. https://transduction.systems/entries/tradition_anthro_complexity/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "tradition_anthro_complexity",
@@ -3968,8 +3968,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/person_arthur_battram/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Arthur Battram. The Necessary Tangle, release 0.40. https://transduction.systems/entries/person_arthur_battram/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Arthur Battram. The Necessary Tangle, release 0.41. https://transduction.systems/entries/person_arthur_battram/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "person_arthur_battram",
@@ -4120,8 +4120,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/publication_u31_ashby/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Ashby: selection, regulation, and variety (Challoner, 2026). The Necessary Tangle, release 0.40. https://transduction.systems/entries/publication_u31_ashby/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Ashby: selection, regulation, and variety (Challoner, 2026). The Necessary Tangle, release 0.41. https://transduction.systems/entries/publication_u31_ashby/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "publication_u31_ashby",
@@ -4518,8 +4518,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/concept_autonomy/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Autonomy. The Necessary Tangle, release 0.40. https://transduction.systems/entries/concept_autonomy/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Autonomy. The Necessary Tangle, release 0.41. https://transduction.systems/entries/concept_autonomy/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "concept_autonomy",
@@ -5219,8 +5219,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/concept_autopoiesis/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Autopoiesis. The Necessary Tangle, release 0.40. https://transduction.systems/entries/concept_autopoiesis/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Autopoiesis. The Necessary Tangle, release 0.41. https://transduction.systems/entries/concept_autopoiesis/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "concept_autopoiesis",
@@ -5530,8 +5530,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/publication_fpcs_048/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Autopoiesis: The Organization of Living Systems, Its Characterization, and a Model. The Necessary Tangle, release 0.40. https://transduction.systems/entries/publication_fpcs_048/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Autopoiesis: The Organization of Living Systems, Its Characterization, and a Model. The Necessary Tangle, release 0.41. https://transduction.systems/entries/publication_fpcs_048/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "publication_fpcs_048",
@@ -6006,8 +6006,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/person_barry_oshry/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Barry Oshry. The Necessary Tangle, release 0.40. https://transduction.systems/entries/person_barry_oshry/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Barry Oshry. The Necessary Tangle, release 0.41. https://transduction.systems/entries/person_barry_oshry/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "person_barry_oshry",
@@ -6270,8 +6270,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/concept_bateson_learning_levels/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Bateson's levels of learning. The Necessary Tangle, release 0.40. https://transduction.systems/entries/concept_bateson_learning_levels/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Bateson's levels of learning. The Necessary Tangle, release 0.41. https://transduction.systems/entries/concept_bateson_learning_levels/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "concept_bateson_learning_levels",
@@ -6538,8 +6538,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/person_benjamin_p_taylor/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Benjamin P Taylor. The Necessary Tangle, release 0.40. https://transduction.systems/entries/person_benjamin_p_taylor/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Benjamin P Taylor. The Necessary Tangle, release 0.41. https://transduction.systems/entries/person_benjamin_p_taylor/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "person_benjamin_p_taylor",
@@ -7870,8 +7870,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/publication_u31_von-bertalanffy/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Bertalanffy: organisation, openness, and equifinality (Challoner, 2026). The Necessary Tangle, release 0.40. https://transduction.systems/entries/publication_u31_von-bertalanffy/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Bertalanffy: organisation, openness, and equifinality (Challoner, 2026). The Necessary Tangle, release 0.41. https://transduction.systems/entries/publication_u31_von-bertalanffy/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "publication_u31_von-bertalanffy",
@@ -8268,8 +8268,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/publication_u31_bhaskar/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Bhaskar: mechanisms in open systems (Challoner, 2026). The Necessary Tangle, release 0.40. https://transduction.systems/entries/publication_u31_bhaskar/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Bhaskar: mechanisms in open systems (Challoner, 2026). The Necessary Tangle, release 0.41. https://transduction.systems/entries/publication_u31_bhaskar/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "publication_u31_bhaskar",
@@ -8669,8 +8669,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/concept_bifurcation/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Bifurcation. The Necessary Tangle, release 0.40. https://transduction.systems/entries/concept_bifurcation/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Bifurcation. The Necessary Tangle, release 0.41. https://transduction.systems/entries/concept_bifurcation/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "concept_bifurcation",
@@ -8839,8 +8839,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/publication_u31_bogdanov/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Bogdanov: organisation and its changing boundaries (Challoner, 2026). The Necessary Tangle, release 0.40. https://transduction.systems/entries/publication_u31_bogdanov/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Bogdanov: organisation and its changing boundaries (Challoner, 2026). The Necessary Tangle, release 0.41. https://transduction.systems/entries/publication_u31_bogdanov/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "publication_u31_bogdanov",
@@ -9237,8 +9237,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/concept_boundary/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Boundary. The Necessary Tangle, release 0.40. https://transduction.systems/entries/concept_boundary/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Boundary. The Necessary Tangle, release 0.41. https://transduction.systems/entries/concept_boundary/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "concept_boundary",
@@ -11606,8 +11606,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/concept_boundary_critique/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Boundary critique. The Necessary Tangle, release 0.40. https://transduction.systems/entries/concept_boundary_critique/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Boundary critique. The Necessary Tangle, release 0.41. https://transduction.systems/entries/concept_boundary_critique/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "concept_boundary_critique",
@@ -12807,8 +12807,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/concept_bounded_applicability/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Bounded applicability. The Necessary Tangle, release 0.40. https://transduction.systems/entries/concept_bounded_applicability/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Bounded applicability. The Necessary Tangle, release 0.41. https://transduction.systems/entries/concept_bounded_applicability/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "concept_bounded_applicability",
@@ -13179,8 +13179,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/concept_canon_formation/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Canon formation. The Necessary Tangle, release 0.40. https://transduction.systems/entries/concept_canon_formation/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Canon formation. The Necessary Tangle, release 0.41. https://transduction.systems/entries/concept_canon_formation/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "concept_canon_formation",
@@ -13429,8 +13429,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/concept_causal_powers/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Causal powers. The Necessary Tangle, release 0.40. https://transduction.systems/entries/concept_causal_powers/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Causal powers. The Necessary Tangle, release 0.41. https://transduction.systems/entries/concept_causal_powers/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "concept_causal_powers",
@@ -13599,8 +13599,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/person_chris_mowles/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Chris Mowles. The Necessary Tangle, release 0.40. https://transduction.systems/entries/person_chris_mowles/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Chris Mowles. The Necessary Tangle, release 0.41. https://transduction.systems/entries/person_chris_mowles/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "person_chris_mowles",
@@ -13897,8 +13897,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/corpus_coevolving_innovations/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Coevolving Innovations. The Necessary Tangle, release 0.40. https://transduction.systems/entries/corpus_coevolving_innovations/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Coevolving Innovations. The Necessary Tangle, release 0.41. https://transduction.systems/entries/corpus_coevolving_innovations/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "corpus_coevolving_innovations",
@@ -14122,8 +14122,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/concept_cohesion/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Cohesion. The Necessary Tangle, release 0.40. https://transduction.systems/entries/concept_cohesion/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Cohesion. The Necessary Tangle, release 0.41. https://transduction.systems/entries/concept_cohesion/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "concept_cohesion",
@@ -14652,8 +14652,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/publication_complex_acts_of_knowing/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Complex Acts of Knowing. The Necessary Tangle, release 0.40. https://transduction.systems/entries/publication_complex_acts_of_knowing/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Complex Acts of Knowing. The Necessary Tangle, release 0.41. https://transduction.systems/entries/publication_complex_acts_of_knowing/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "publication_complex_acts_of_knowing",
@@ -14829,8 +14829,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/tradition_complex_responsive_processes/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Complex responsive processes. The Necessary Tangle, release 0.40. https://transduction.systems/entries/tradition_complex_responsive_processes/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Complex responsive processes. The Necessary Tangle, release 0.41. https://transduction.systems/entries/tradition_complex_responsive_processes/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "tradition_complex_responsive_processes",
@@ -15246,8 +15246,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/publication_complexity_key_idea_business_society/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Complexity: A Key Idea for Business and Society. The Necessary Tangle, release 0.40. https://transduction.systems/entries/publication_complexity_key_idea_business_society/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Complexity: A Key Idea for Business and Society. The Necessary Tangle, release 0.41. https://transduction.systems/entries/publication_complexity_key_idea_business_society/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "publication_complexity_key_idea_business_society",
@@ -15414,8 +15414,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/law_or_principle_conant_ashby_theorem/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Conant-Ashby Theorem. The Necessary Tangle, release 0.40. https://transduction.systems/entries/law_or_principle_conant_ashby_theorem/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Conant-Ashby Theorem. The Necessary Tangle, release 0.41. https://transduction.systems/entries/law_or_principle_conant_ashby_theorem/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "law_or_principle_conant_ashby_theorem",
@@ -16207,8 +16207,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/practice_core_systems_practice_spine/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Core systems practice spine. The Necessary Tangle, release 0.40. https://transduction.systems/entries/practice_core_systems_practice_spine/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Core systems practice spine. The Necessary Tangle, release 0.41. https://transduction.systems/entries/practice_core_systems_practice_spine/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "practice_core_systems_practice_spine",
@@ -16649,8 +16649,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/method_or_methodology_critical_systems_heuristics_csh/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Critical Systems Heuristics (CSH). The Necessary Tangle, release 0.40. https://transduction.systems/entries/method_or_methodology_critical_systems_heuristics_csh/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Critical Systems Heuristics (CSH). The Necessary Tangle, release 0.41. https://transduction.systems/entries/method_or_methodology_critical_systems_heuristics_csh/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "method_or_methodology_critical_systems_heuristics_csh",
@@ -17513,8 +17513,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/publication_critical_systems_thinking_practitioners_guide/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Critical Systems Thinking: A Practitioner's Guide. The Necessary Tangle, release 0.40. https://transduction.systems/entries/publication_critical_systems_thinking_practitioners_guide/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Critical Systems Thinking: A Practitioner's Guide. The Necessary Tangle, release 0.41. https://transduction.systems/entries/publication_critical_systems_thinking_practitioners_guide/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "publication_critical_systems_thinking_practitioners_guide",
@@ -17719,8 +17719,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/method_or_methodology_cynefin_framework/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Cynefin framework. The Necessary Tangle, release 0.40. https://transduction.systems/entries/method_or_methodology_cynefin_framework/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Cynefin framework. The Necessary Tangle, release 0.41. https://transduction.systems/entries/method_or_methodology_cynefin_framework/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "method_or_methodology_cynefin_framework",
@@ -18569,8 +18569,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/corpus_cynefin_io_wiki/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Cynefin.io. The Necessary Tangle, release 0.40. https://transduction.systems/entries/corpus_cynefin_io_wiki/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Cynefin.io. The Necessary Tangle, release 0.41. https://transduction.systems/entries/corpus_cynefin_io_wiki/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "corpus_cynefin_io_wiki",
@@ -19051,8 +19051,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/publication_cynefin_weaving_sensemaking/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Cynefin: Weaving Sense-Making into the Fabric of Our World. The Necessary Tangle, release 0.40. https://transduction.systems/entries/publication_cynefin_weaving_sensemaking/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Cynefin: Weaving Sense-Making into the Fabric of Our World. The Necessary Tangle, release 0.41. https://transduction.systems/entries/publication_cynefin_weaving_sensemaking/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "publication_cynefin_weaving_sensemaking",
@@ -19231,8 +19231,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/person_cynthia_f_kurtz/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Cynthia F. Kurtz. The Necessary Tangle, release 0.40. https://transduction.systems/entries/person_cynthia_f_kurtz/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Cynthia F. Kurtz. The Necessary Tangle, release 0.41. https://transduction.systems/entries/person_cynthia_f_kurtz/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "person_cynthia_f_kurtz",
@@ -19412,8 +19412,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/person_damian_allen/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Damian Allen. The Necessary Tangle, release 0.40. https://transduction.systems/entries/person_damian_allen/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Damian Allen. The Necessary Tangle, release 0.41. https://transduction.systems/entries/person_damian_allen/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "person_damian_allen",
@@ -21170,8 +21170,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/publication_dancing_with_systems/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Dancing With Systems. The Necessary Tangle, release 0.40. https://transduction.systems/entries/publication_dancing_with_systems/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Dancing With Systems. The Necessary Tangle, release 0.41. https://transduction.systems/entries/publication_dancing_with_systems/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "publication_dancing_with_systems",
@@ -21354,8 +21354,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/person_dave_snowden/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Dave Snowden. The Necessary Tangle, release 0.40. https://transduction.systems/entries/person_dave_snowden/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Dave Snowden. The Necessary Tangle, release 0.41. https://transduction.systems/entries/person_dave_snowden/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "person_dave_snowden",
@@ -22102,8 +22102,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/corpus_dave_snowden_blog/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Dave Snowden's public blog archive. The Necessary Tangle, release 0.40. https://transduction.systems/entries/corpus_dave_snowden_blog/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Dave Snowden's public blog archive. The Necessary Tangle, release 0.41. https://transduction.systems/entries/corpus_dave_snowden_blog/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "corpus_dave_snowden_blog",
@@ -22309,8 +22309,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/person_david_ing/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). David Ing. The Necessary Tangle, release 0.40. https://transduction.systems/entries/person_david_ing/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). David Ing. The Necessary Tangle, release 0.41. https://transduction.systems/entries/person_david_ing/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "person_david_ing",
@@ -22691,8 +22691,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/person_david_l_hawk/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). David L. Hawk. The Necessary Tangle, release 0.40. https://transduction.systems/entries/person_david_l_hawk/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). David L. Hawk. The Necessary Tangle, release 0.41. https://transduction.systems/entries/person_david_l_hawk/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "person_david_l_hawk",
@@ -22852,8 +22852,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/concept_decolonial_systems_thinking/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Decolonial systems thinking. The Necessary Tangle, release 0.40. https://transduction.systems/entries/concept_decolonial_systems_thinking/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Decolonial systems thinking. The Necessary Tangle, release 0.41. https://transduction.systems/entries/concept_decolonial_systems_thinking/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "concept_decolonial_systems_thinking",
@@ -23025,8 +23025,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/framework_deep_transitions/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Deep Transitions. The Necessary Tangle, release 0.40. https://transduction.systems/entries/framework_deep_transitions/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Deep Transitions. The Necessary Tangle, release 0.41. https://transduction.systems/entries/framework_deep_transitions/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "framework_deep_transitions",
@@ -23244,8 +23244,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/publication_schot_kanger_deep_transitions_2018/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Deep transitions: Emergence, acceleration, stabilization and directionality (2018). The Necessary Tangle, release 0.40. https://transduction.systems/entries/publication_schot_kanger_deep_transitions_2018/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Deep transitions: Emergence, acceleration, stabilization and directionality (2018). The Necessary Tangle, release 0.41. https://transduction.systems/entries/publication_schot_kanger_deep_transitions_2018/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "publication_schot_kanger_deep_transitions_2018",
@@ -23582,8 +23582,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/publication_early_ashby_brain/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Design for a Brain. The Necessary Tangle, release 0.40. https://transduction.systems/entries/publication_early_ashby_brain/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Design for a Brain. The Necessary Tangle, release 0.41. https://transduction.systems/entries/publication_early_ashby_brain/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "publication_early_ashby_brain",
@@ -23840,8 +23840,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/publication_fpcs_023/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Deterministic Nonperiodic Flow. The Necessary Tangle, release 0.40. https://transduction.systems/entries/publication_fpcs_023/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Deterministic Nonperiodic Flow. The Necessary Tangle, release 0.41. https://transduction.systems/entries/publication_fpcs_023/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "publication_fpcs_023",
@@ -24177,8 +24177,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/concept_dissipative_structure/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Dissipative structure. The Necessary Tangle, release 0.40. https://transduction.systems/entries/concept_dissipative_structure/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Dissipative structure. The Necessary Tangle, release 0.41. https://transduction.systems/entries/concept_dissipative_structure/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "concept_dissipative_structure",
@@ -24404,8 +24404,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/concept_distinction/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Distinction. The Necessary Tangle, release 0.40. https://transduction.systems/entries/concept_distinction/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Distinction. The Necessary Tangle, release 0.41. https://transduction.systems/entries/concept_distinction/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "concept_distinction",
@@ -25184,8 +25184,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/method_or_methodology_distributed_ethnography/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Distributed ethnography. The Necessary Tangle, release 0.40. https://transduction.systems/entries/method_or_methodology_distributed_ethnography/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Distributed ethnography. The Necessary Tangle, release 0.41. https://transduction.systems/entries/method_or_methodology_distributed_ethnography/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "method_or_methodology_distributed_ethnography",
@@ -25441,8 +25441,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/publication_do_bees_pee/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Do Bees Pee?. The Necessary Tangle, release 0.40. https://transduction.systems/entries/publication_do_bees_pee/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Do Bees Pee?. The Necessary Tangle, release 0.41. https://transduction.systems/entries/publication_do_bees_pee/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "publication_do_bees_pee",
@@ -25612,8 +25612,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/practice_doncaster_thrive/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Doncaster Thrive. The Necessary Tangle, release 0.40. https://transduction.systems/entries/practice_doncaster_thrive/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Doncaster Thrive. The Necessary Tangle, release 0.41. https://transduction.systems/entries/practice_doncaster_thrive/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "practice_doncaster_thrive",
@@ -26204,8 +26204,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/person_donella_meadows/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Donella Meadows. The Necessary Tangle, release 0.40. https://transduction.systems/entries/person_donella_meadows/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Donella Meadows. The Necessary Tangle, release 0.41. https://transduction.systems/entries/person_donella_meadows/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "person_donella_meadows",
@@ -26475,8 +26475,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/concept_double_loop_learning/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Double-loop learning. The Necessary Tangle, release 0.40. https://transduction.systems/entries/concept_double_loop_learning/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Double-loop learning. The Necessary Tangle, release 0.41. https://transduction.systems/entries/concept_double_loop_learning/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "concept_double_loop_learning",
@@ -27286,8 +27286,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/concept_dynamic_equilibrium/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Dynamic equilibrium in tektology. The Necessary Tangle, release 0.40. https://transduction.systems/entries/concept_dynamic_equilibrium/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Dynamic equilibrium in tektology. The Necessary Tangle, release 0.41. https://transduction.systems/entries/concept_dynamic_equilibrium/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "concept_dynamic_equilibrium",
@@ -27456,8 +27456,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/publication_fpcs_037/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Dynamic Models of Segregation. The Necessary Tangle, release 0.40. https://transduction.systems/entries/publication_fpcs_037/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Dynamic Models of Segregation. The Necessary Tangle, release 0.41. https://transduction.systems/entries/publication_fpcs_037/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "publication_fpcs_037",
@@ -27766,8 +27766,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/concept_egression_degression/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Egression and degression. The Necessary Tangle, release 0.40. https://transduction.systems/entries/concept_egression_degression/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Egression and degression. The Necessary Tangle, release 0.41. https://transduction.systems/entries/concept_egression_degression/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "concept_egression_degression",
@@ -27936,8 +27936,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/concept_emergence/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Emergence. The Necessary Tangle, release 0.40. https://transduction.systems/entries/concept_emergence/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Emergence. The Necessary Tangle, release 0.41. https://transduction.systems/entries/concept_emergence/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "concept_emergence",
@@ -29528,8 +29528,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/concept_epistemic_closure/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Epistemic closure. The Necessary Tangle, release 0.40. https://transduction.systems/entries/concept_epistemic_closure/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Epistemic closure. The Necessary Tangle, release 0.41. https://transduction.systems/entries/concept_epistemic_closure/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "concept_epistemic_closure",
@@ -29754,8 +29754,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/concept_epistemic_injustice/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Epistemic injustice. The Necessary Tangle, release 0.40. https://transduction.systems/entries/concept_epistemic_injustice/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Epistemic injustice. The Necessary Tangle, release 0.41. https://transduction.systems/entries/concept_epistemic_injustice/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "concept_epistemic_injustice",
@@ -29900,8 +29900,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/concept_equifinality/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Equifinality. The Necessary Tangle, release 0.40. https://transduction.systems/entries/concept_equifinality/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Equifinality. The Necessary Tangle, release 0.41. https://transduction.systems/entries/concept_equifinality/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "concept_equifinality",
@@ -30127,8 +30127,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/person_eric_trist/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Eric L. Trist. The Necessary Tangle, release 0.40. https://transduction.systems/entries/person_eric_trist/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Eric L. Trist. The Necessary Tangle, release 0.41. https://transduction.systems/entries/person_eric_trist/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "person_eric_trist",
@@ -30314,8 +30314,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/publication_essential_balances/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Essential Balances. The Necessary Tangle, release 0.40. https://transduction.systems/entries/publication_essential_balances/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Essential Balances. The Necessary Tangle, release 0.41. https://transduction.systems/entries/publication_essential_balances/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "publication_essential_balances",
@@ -30551,8 +30551,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/concept_essential_variables/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Essential variables. The Necessary Tangle, release 0.40. https://transduction.systems/entries/concept_essential_variables/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Essential variables. The Necessary Tangle, release 0.41. https://transduction.systems/entries/concept_essential_variables/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "concept_essential_variables",
@@ -30702,8 +30702,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/method_or_methodology_estuarine_mapping/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Estuarine Mapping. The Necessary Tangle, release 0.40. https://transduction.systems/entries/method_or_methodology_estuarine_mapping/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Estuarine Mapping. The Necessary Tangle, release 0.41. https://transduction.systems/entries/method_or_methodology_estuarine_mapping/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "method_or_methodology_estuarine_mapping",
@@ -30938,8 +30938,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/tradition_evolutionary_cybernetics/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Evolutionary cybernetics. The Necessary Tangle, release 0.40. https://transduction.systems/entries/tradition_evolutionary_cybernetics/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Evolutionary cybernetics. The Necessary Tangle, release 0.41. https://transduction.systems/entries/tradition_evolutionary_cybernetics/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "tradition_evolutionary_cybernetics",
@@ -31537,8 +31537,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/concept_explicit_semantics/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Explicit semantics. The Necessary Tangle, release 0.40. https://transduction.systems/entries/concept_explicit_semantics/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Explicit semantics. The Necessary Tangle, release 0.41. https://transduction.systems/entries/concept_explicit_semantics/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "concept_explicit_semantics",
@@ -32017,8 +32017,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/concept_feedback/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Feedback. The Necessary Tangle, release 0.40. https://transduction.systems/entries/concept_feedback/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Feedback. The Necessary Tangle, release 0.41. https://transduction.systems/entries/concept_feedback/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "concept_feedback",
@@ -32078,7 +32078,7 @@
         "title": "Feedback",
         "profile_status": "evidence_deepened_research_pass",
         "canonical_definition": "A circular causal or informational relation in which an output or consequence affects later input, state or action. The sign, delay, reference condition and mechanism must be stated.",
-        "summary": "Feedback is not merely receiving comments. It is a circular relation in which consequences return to influence what happens next. The loop may counteract change, reinforce it, oscillate, delay response or fail because no actor can use the returned information.",
+        "summary": "Feedback is not merely receiving comments. It is a circular relation in which consequences return to influence what happens next. The loop may counteract change, reinforce it, oscillate, delay response or fail because no actor can use the returned information. A correction sign, a stable response, and acceptable performance are separate questions. Historical authors also used different boundaries for the term.",
         "why_it_matters": "Systems work often says feedback when it means reporting, evaluation, data or learning. Those are only feedback when they close a loop that can alter subsequent action. Sign, delay, reference condition and response capacity determine what the loop actually does.",
         "key_distinctions": [
           "negative or balancing vs positive or reinforcing feedback",
@@ -32086,7 +32086,10 @@
           "feedback signal vs capacity to respond",
           "physical causal loop vs returned information",
           "feedback mechanism vs homeostatic condition",
-          "measurement vs learning"
+          "measurement vs learning",
+          "sign of an identified correction vs stability of the complete dynamics",
+          "asymptotic decay vs finite acceptable-band compliance",
+          "one circuit account vs behaviour of a richly connected whole"
         ],
         "historical_lineage": [
           "Maxwell 1868: mathematical governor analysis as a precursor",
@@ -32112,7 +32115,9 @@
           "test whether anyone can alter action in response",
           "state the delay before effects become visible",
           "separate balancing from reinforcing loops",
-          "look for loops that reward gaming rather than purpose"
+          "look for loops that reward gaming rather than purpose",
+          "trace what returns, its timing, and what can change as a result",
+          "state the mechanism and conditions before inferring stability from a feedback sign"
         ],
         "espoused_lineages": [
           "engineering control",
@@ -32127,7 +32132,9 @@
           "positive means good and negative means bad",
           "a dashboard is feedback even when nobody can act",
           "homeostasis and feedback are synonyms",
-          "all loops stabilise"
+          "all loops stabilise",
+          "negative feedback guarantees a stable or beneficial result",
+          "feedback has one uncontested historical definition"
         ],
         "open_checks": [
           "Nyquist and Bode lineage",
@@ -32140,18 +32147,22 @@
           "src_black_feedback_1934",
           "src_rosenblueth_wiener_bigelow_1943",
           "src_wiener_cybernetics_1948",
-          "src_ieee_feedback_topic"
+          "src_ieee_feedback_topic",
+          "src_ashby_intro_cybernetics_1956"
         ],
         "evidence_ids": [
           "ev_maxwell_governors_precursor",
           "ev_black_negative_feedback",
           "ev_rwb_feedback_purpose",
           "ev_wiener_feedback_cybernetics",
-          "ev_ieee_feedback_types"
+          "ev_ieee_feedback_types",
+          "ev41_feedback_maxwell_dynamics",
+          "ev41_feedback_rwb_usage",
+          "ev41_feedback_ashby_usage"
         ],
-        "last_researched": "2026-08-09",
+        "last_researched": "2026-11-07",
         "review_status": "research_pass_needs_editor",
-        "editorial_note": "Readable orientation and evidence-backed first pass. Not accepted scholarly consensus until named review is recorded."
+        "editorial_note": "Readable orientation and evidence-backed first pass. Not accepted scholarly consensus until named review is recorded. Bounded located-primary clarification and original discrete-response example; canonical definition, historical lineage, existing open checks, and human editorial acceptance remain unchanged/pending."
       },
       "connections": [
         {
@@ -34197,6 +34208,31 @@
           "public_link_status": "public_link"
         },
         {
+          "id": "src_ashby_intro_cybernetics_1956",
+          "title": "An Introduction to Cybernetics",
+          "source_type": "primary_text",
+          "quality_tier": "A",
+          "access": "public",
+          "url": "https://ashby.info/Ashby-Introduction-to-Cybernetics.pdf",
+          "date": "1956",
+          "notes": "Primary text opened and inspected. Title page identifies the 1957 second impression of the 1956 book. Use section numbers as the stable locator: the electronic PDF places two printed pages on each PDF page. Rights statement permits educational and research distribution with its notice; this packet links and paraphrases.",
+          "creators": [
+            "W. Ross Ashby"
+          ],
+          "doi": "",
+          "isbn": "",
+          "publisher": "Chapman & Hall",
+          "licence": "archive_access_check_reuse",
+          "archived_url": "https://www.ashby.info/",
+          "content_hash": "",
+          "review_status": "passage_checked_research_pass",
+          "last_checked": "2026-10-29",
+          "public_link_status": "public_link",
+          "connection_pass": "depth_20261029",
+          "source_locator": "1957 second impression; sections 11/5–11/11, printed pp. 205–209; PDF pp. 109–111",
+          "access_note": "Use section numbers as the stable locator: the electronic PDF places two printed pages on each PDF page. Rights statement permits educational and research distribution with its notice; this packet links and paraphrases."
+        },
+        {
           "id": "src_grammar_presentation_2022",
           "title": "The Grammar of Systems - SCiO presentation",
           "source_type": "presentation",
@@ -35074,6 +35110,24 @@
           "review_status": "research_pass_needs_editor"
         },
         {
+          "id": "ev41_feedback_maxwell_dynamics",
+          "source_id": "src_maxwell_on_governors_1868",
+          "locator": "pp271–272; PDF2–3",
+          "review_status": "research_pass_needs_editor"
+        },
+        {
+          "id": "ev41_feedback_rwb_usage",
+          "source_id": "src_rosenblueth_wiener_bigelow_1943",
+          "locator": "pp19–20; PDF3–4",
+          "review_status": "research_pass_needs_editor"
+        },
+        {
+          "id": "ev41_feedback_ashby_usage",
+          "source_id": "src_ashby_intro_cybernetics_1956",
+          "locator": "§4/11, pp53–54; PDF31–32",
+          "review_status": "research_pass_needs_editor"
+        },
+        {
           "id": "ev_ieee_feedforward",
           "source_id": "src_ieee_feedforward_topic",
           "locator": "Section: What Are Feedforward Systems?",
@@ -35091,8 +35145,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/concept_feedforward/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Feedforward. The Necessary Tangle, release 0.40. https://transduction.systems/entries/concept_feedforward/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Feedforward. The Necessary Tangle, release 0.41. https://transduction.systems/entries/concept_feedforward/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "concept_feedforward",
@@ -35480,8 +35534,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/publication_flawless_consulting/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Flawless Consulting: A Guide to Getting Your Expertise Used. The Necessary Tangle, release 0.40. https://transduction.systems/entries/publication_flawless_consulting/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Flawless Consulting: A Guide to Getting Your Expertise Used. The Necessary Tangle, release 0.41. https://transduction.systems/entries/publication_flawless_consulting/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "publication_flawless_consulting",
@@ -35653,8 +35707,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/intervention_skill_fractal_enterprise_model_and_capabilities/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Fractal Enterprise Model and Capabilities. The Necessary Tangle, release 0.40. https://transduction.systems/entries/intervention_skill_fractal_enterprise_model_and_capabilities/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Fractal Enterprise Model and Capabilities. The Necessary Tangle, release 0.41. https://transduction.systems/entries/intervention_skill_fractal_enterprise_model_and_capabilities/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "intervention_skill_fractal_enterprise_model_and_capabilities",
@@ -36307,8 +36361,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/person_frank_geels/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Frank Geels. The Necessary Tangle, release 0.40. https://transduction.systems/entries/person_frank_geels/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Frank Geels. The Necessary Tangle, release 0.41. https://transduction.systems/entries/person_frank_geels/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "person_frank_geels",
@@ -36501,8 +36555,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/person_gary_s_metcalf/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Gary S. Metcalf. The Necessary Tangle, release 0.40. https://transduction.systems/entries/person_gary_s_metcalf/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Gary S. Metcalf. The Necessary Tangle, release 0.41. https://transduction.systems/entries/person_gary_s_metcalf/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "person_gary_s_metcalf",
@@ -36741,8 +36795,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/person_gerald_midgley/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Gerald Midgley. The Necessary Tangle, release 0.40. https://transduction.systems/entries/person_gerald_midgley/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Gerald Midgley. The Necessary Tangle, release 0.41. https://transduction.systems/entries/person_gerald_midgley/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "person_gerald_midgley",
@@ -37241,8 +37295,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/concept_homeostasis/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Homeostasis. The Necessary Tangle, release 0.40. https://transduction.systems/entries/concept_homeostasis/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Homeostasis. The Necessary Tangle, release 0.41. https://transduction.systems/entries/concept_homeostasis/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "concept_homeostasis",
@@ -37793,8 +37847,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/practice_human_learning_systems/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Human Learning Systems. The Necessary Tangle, release 0.40. https://transduction.systems/entries/practice_human_learning_systems/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Human Learning Systems. The Necessary Tangle, release 0.41. https://transduction.systems/entries/practice_human_learning_systems/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "practice_human_learning_systems",
@@ -38323,8 +38377,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/person_ian_i_mitroff/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Ian I. Mitroff. The Necessary Tangle, release 0.40. https://transduction.systems/entries/person_ian_i_mitroff/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Ian I. Mitroff. The Necessary Tangle, release 0.41. https://transduction.systems/entries/person_ian_i_mitroff/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "person_ian_i_mitroff",
@@ -38559,8 +38613,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/concept_identity/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Identity. The Necessary Tangle, release 0.40. https://transduction.systems/entries/concept_identity/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Identity. The Necessary Tangle, release 0.41. https://transduction.systems/entries/concept_identity/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "concept_identity",
@@ -39024,8 +39078,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/concept_information/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Information. The Necessary Tangle, release 0.40. https://transduction.systems/entries/concept_information/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Information. The Necessary Tangle, release 0.41. https://transduction.systems/entries/concept_information/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "concept_information",
@@ -40297,8 +40351,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/concept_information_coding/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Information coding. The Necessary Tangle, release 0.40. https://transduction.systems/entries/concept_information_coding/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Information coding. The Necessary Tangle, release 0.41. https://transduction.systems/entries/concept_information_coding/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "concept_information_coding",
@@ -40421,8 +40475,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/concept_information_theory/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Information theory. The Necessary Tangle, release 0.40. https://transduction.systems/entries/concept_information_theory/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Information theory. The Necessary Tangle, release 0.41. https://transduction.systems/entries/concept_information_theory/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "concept_information_theory",
@@ -41628,8 +41682,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/organisation_ifsr/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). International Federation for Systems Research. The Necessary Tangle, release 0.40. https://transduction.systems/entries/organisation_ifsr/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). International Federation for Systems Research. The Necessary Tangle, release 0.41. https://transduction.systems/entries/organisation_ifsr/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "organisation_ifsr",
@@ -41839,8 +41893,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/organisation_isss/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). International Society for the Systems Sciences. The Necessary Tangle, release 0.40. https://transduction.systems/entries/organisation_isss/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). International Society for the Systems Sciences. The Necessary Tangle, release 0.41. https://transduction.systems/entries/organisation_isss/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "organisation_isss",
@@ -42314,8 +42368,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/concept_isomorphism/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Isomorphism across systems. The Necessary Tangle, release 0.40. https://transduction.systems/entries/concept_isomorphism/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Isomorphism across systems. The Necessary Tangle, release 0.41. https://transduction.systems/entries/concept_isomorphism/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "concept_isomorphism",
@@ -42534,8 +42588,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/collection_isss_students_2026/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). ISSS student reading and resource guide. The Necessary Tangle, release 0.40. https://transduction.systems/entries/collection_isss_students_2026/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). ISSS student reading and resource guide. The Necessary Tangle, release 0.41. https://transduction.systems/entries/collection_isss_students_2026/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "collection_isss_students_2026",
@@ -42639,8 +42693,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/person_ivo_velitchkov/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Ivo Velitchkov. The Necessary Tangle, release 0.40. https://transduction.systems/entries/person_ivo_velitchkov/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Ivo Velitchkov. The Necessary Tangle, release 0.41. https://transduction.systems/entries/person_ivo_velitchkov/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "person_ivo_velitchkov",
@@ -43010,8 +43064,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/person_james_j_kay/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). James J. Kay. The Necessary Tangle, release 0.40. https://transduction.systems/entries/person_james_j_kay/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). James J. Kay. The Necessary Tangle, release 0.41. https://transduction.systems/entries/person_james_j_kay/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "person_james_j_kay",
@@ -43171,8 +43225,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/person_johan_schot/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Johan Schot. The Necessary Tangle, release 0.40. https://transduction.systems/entries/person_johan_schot/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Johan Schot. The Necessary Tangle, release 0.41. https://transduction.systems/entries/person_johan_schot/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "person_johan_schot",
@@ -43476,8 +43530,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/person_judith_rosen/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Judith Rosen. The Necessary Tangle, release 0.40. https://transduction.systems/entries/person_judith_rosen/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Judith Rosen. The Necessary Tangle, release 0.41. https://transduction.systems/entries/person_judith_rosen/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "person_judith_rosen",
@@ -43635,8 +43689,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/person_karen_shipp/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Karen Shipp. The Necessary Tangle, release 0.40. https://transduction.systems/entries/person_karen_shipp/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Karen Shipp. The Necessary Tangle, release 0.41. https://transduction.systems/entries/person_karen_shipp/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "person_karen_shipp",
@@ -43912,8 +43966,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/person_kyoichi_kijima/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Kyoichi (Jim) Kijima. The Necessary Tangle, release 0.40. https://transduction.systems/entries/person_kyoichi_kijima/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Kyoichi (Jim) Kijima. The Necessary Tangle, release 0.41. https://transduction.systems/entries/person_kyoichi_kijima/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "person_kyoichi_kijima",
@@ -44153,8 +44207,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/person_laur_kanger/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Laur Kanger. The Necessary Tangle, release 0.40. https://transduction.systems/entries/person_laur_kanger/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Laur Kanger. The Necessary Tangle, release 0.41. https://transduction.systems/entries/person_laur_kanger/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "person_laur_kanger",
@@ -44321,8 +44375,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/concept_leverage_points/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Leverage points. The Necessary Tangle, release 0.40. https://transduction.systems/entries/concept_leverage_points/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Leverage points. The Necessary Tangle, release 0.41. https://transduction.systems/entries/concept_leverage_points/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "concept_leverage_points",
@@ -44940,8 +44994,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/publication_leverage_points_meadows/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Leverage Points: Places to Intervene in a System. The Necessary Tangle, release 0.40. https://transduction.systems/entries/publication_leverage_points_meadows/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Leverage Points: Places to Intervene in a System. The Necessary Tangle, release 0.41. https://transduction.systems/entries/publication_leverage_points_meadows/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "publication_leverage_points_meadows",
@@ -45126,8 +45180,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/person_linda_booth_sweeney/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Linda Booth Sweeney. The Necessary Tangle, release 0.40. https://transduction.systems/entries/person_linda_booth_sweeney/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Linda Booth Sweeney. The Necessary Tangle, release 0.41. https://transduction.systems/entries/person_linda_booth_sweeney/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "person_linda_booth_sweeney",
@@ -45403,8 +45457,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/practice_lineage_recovery/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Lineage recovery. The Necessary Tangle, release 0.40. https://transduction.systems/entries/practice_lineage_recovery/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Lineage recovery. The Necessary Tangle, release 0.41. https://transduction.systems/entries/practice_lineage_recovery/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "practice_lineage_recovery",
@@ -45607,8 +45661,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/person_lucy_loh/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Lucy Loh. The Necessary Tangle, release 0.40. https://transduction.systems/entries/person_lucy_loh/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Lucy Loh. The Necessary Tangle, release 0.41. https://transduction.systems/entries/person_lucy_loh/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "person_lucy_loh",
@@ -45756,8 +45810,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/person_magnus_ramage/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Magnus Ramage. The Necessary Tangle, release 0.40. https://transduction.systems/entries/person_magnus_ramage/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Magnus Ramage. The Necessary Tangle, release 0.41. https://transduction.systems/entries/person_magnus_ramage/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "person_magnus_ramage",
@@ -46091,8 +46145,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/publication_managing_complexity_chaos_field_guide/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Managing complexity (and chaos) in times of crisis. The Necessary Tangle, release 0.40. https://transduction.systems/entries/publication_managing_complexity_chaos_field_guide/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Managing complexity (and chaos) in times of crisis. The Necessary Tangle, release 0.41. https://transduction.systems/entries/publication_managing_complexity_chaos_field_guide/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "publication_managing_complexity_chaos_field_guide",
@@ -46327,8 +46381,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/person_mary_e_boone/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Mary E. Boone. The Necessary Tangle, release 0.40. https://transduction.systems/entries/person_mary_e_boone/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Mary E. Boone. The Necessary Tangle, release 0.41. https://transduction.systems/entries/person_mary_e_boone/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "person_mary_e_boone",
@@ -46477,8 +46531,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/concept_material_open_system/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Materially open system. The Necessary Tangle, release 0.40. https://transduction.systems/entries/concept_material_open_system/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Materially open system. The Necessary Tangle, release 0.41. https://transduction.systems/entries/concept_material_open_system/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "concept_material_open_system",
@@ -46704,8 +46758,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/concept_transition_meta_rules/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Meta-rules in Deep Transitions. The Necessary Tangle, release 0.40. https://transduction.systems/entries/concept_transition_meta_rules/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Meta-rules in Deep Transitions. The Necessary Tangle, release 0.41. https://transduction.systems/entries/concept_transition_meta_rules/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "concept_transition_meta_rules",
@@ -46899,8 +46953,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/concept_metasystem_transition/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Metasystem transition. The Necessary Tangle, release 0.40. https://transduction.systems/entries/concept_metasystem_transition/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Metasystem transition. The Necessary Tangle, release 0.41. https://transduction.systems/entries/concept_metasystem_transition/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "concept_metasystem_transition",
@@ -47400,8 +47454,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/approach_family_metasystem_transition_theory/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Metasystem Transition Theory. The Necessary Tangle, release 0.40. https://transduction.systems/entries/approach_family_metasystem_transition_theory/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Metasystem Transition Theory. The Necessary Tangle, release 0.41. https://transduction.systems/entries/approach_family_metasystem_transition_theory/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "approach_family_metasystem_transition_theory",
@@ -47889,8 +47943,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/person_michael_c_jackson/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Michael C. Jackson. The Necessary Tangle, release 0.40. https://transduction.systems/entries/person_michael_c_jackson/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Michael C. Jackson. The Necessary Tangle, release 0.41. https://transduction.systems/entries/person_michael_c_jackson/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "person_michael_c_jackson",
@@ -48159,8 +48213,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/person_michael_lissack/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Michael Lissack. The Necessary Tangle, release 0.40. https://transduction.systems/entries/person_michael_lissack/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Michael Lissack. The Necessary Tangle, release 0.41. https://transduction.systems/entries/person_michael_lissack/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "person_michael_lissack",
@@ -48341,8 +48395,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/framework_multi_level_perspective/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Multi-level perspective on socio-technical transitions. The Necessary Tangle, release 0.40. https://transduction.systems/entries/framework_multi_level_perspective/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Multi-level perspective on socio-technical transitions. The Necessary Tangle, release 0.41. https://transduction.systems/entries/framework_multi_level_perspective/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "framework_multi_level_perspective",
@@ -48535,8 +48589,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/concept_multiple_perspectives/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Multiple perspectives. The Necessary Tangle, release 0.40. https://transduction.systems/entries/concept_multiple_perspectives/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Multiple perspectives. The Necessary Tangle, release 0.41. https://transduction.systems/entries/concept_multiple_perspectives/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "concept_multiple_perspectives",
@@ -50680,8 +50734,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/publication_murmurations_journal/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Murmurations: Journal of Transformative Systemic Practice. The Necessary Tangle, release 0.40. https://transduction.systems/entries/publication_murmurations_journal/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Murmurations: Journal of Transformative Systemic Practice. The Necessary Tangle, release 0.41. https://transduction.systems/entries/publication_murmurations_journal/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "publication_murmurations_journal",
@@ -50825,8 +50879,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/concept_natural_drift/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Natural drift. The Necessary Tangle, release 0.40. https://transduction.systems/entries/concept_natural_drift/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Natural drift. The Necessary Tangle, release 0.41. https://transduction.systems/entries/concept_natural_drift/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "concept_natural_drift",
@@ -51070,8 +51124,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/approach_family_naturalising_sense_making/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Naturalising sense-making. The Necessary Tangle, release 0.40. https://transduction.systems/entries/approach_family_naturalising_sense_making/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Naturalising sense-making. The Necessary Tangle, release 0.41. https://transduction.systems/entries/approach_family_naturalising_sense_making/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "approach_family_naturalising_sense_making",
@@ -51567,8 +51621,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/publication_navigating_complexity_battram/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Navigating Complexity. The Necessary Tangle, release 0.40. https://transduction.systems/entries/publication_navigating_complexity_battram/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Navigating Complexity. The Necessary Tangle, release 0.41. https://transduction.systems/entries/publication_navigating_complexity_battram/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "publication_navigating_complexity_battram",
@@ -51747,8 +51801,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/concept_negative_feedback/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Negative feedback. The Necessary Tangle, release 0.40. https://transduction.systems/entries/concept_negative_feedback/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Negative feedback. The Necessary Tangle, release 0.41. https://transduction.systems/entries/concept_negative_feedback/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "concept_negative_feedback",
@@ -52910,8 +52964,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/tool_nodica/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Nodica. The Necessary Tangle, release 0.40. https://transduction.systems/entries/tool_nodica/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Nodica. The Necessary Tangle, release 0.41. https://transduction.systems/entries/tool_nodica/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "tool_nodica",
@@ -53195,8 +53249,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/concept_observer/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Observer. The Necessary Tangle, release 0.40. https://transduction.systems/entries/concept_observer/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Observer. The Necessary Tangle, release 0.41. https://transduction.systems/entries/concept_observer/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "concept_observer",
@@ -54310,8 +54364,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/concept_open_causal_system/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Open causal system. The Necessary Tangle, release 0.40. https://transduction.systems/entries/concept_open_causal_system/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Open causal system. The Necessary Tangle, release 0.41. https://transduction.systems/entries/concept_open_causal_system/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "concept_open_causal_system",
@@ -54480,8 +54534,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/publication_opening_the_box/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Opening the Box. The Necessary Tangle, release 0.40. https://transduction.systems/entries/publication_opening_the_box/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Opening the Box. The Necessary Tangle, release 0.41. https://transduction.systems/entries/publication_opening_the_box/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "publication_opening_the_box",
@@ -54748,8 +54802,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/method_or_methodology_organic_systems_framework/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Organic Systems Framework. The Necessary Tangle, release 0.40. https://transduction.systems/entries/method_or_methodology_organic_systems_framework/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Organic Systems Framework. The Necessary Tangle, release 0.41. https://transduction.systems/entries/method_or_methodology_organic_systems_framework/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "method_or_methodology_organic_systems_framework",
@@ -55324,8 +55378,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/concept_organisation/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Organisation as relations. The Necessary Tangle, release 0.40. https://transduction.systems/entries/concept_organisation/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Organisation as relations. The Necessary Tangle, release 0.41. https://transduction.systems/entries/concept_organisation/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "concept_organisation",
@@ -55494,8 +55548,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/concept_organisational_recursion/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Organisational recursion. The Necessary Tangle, release 0.40. https://transduction.systems/entries/concept_organisational_recursion/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Organisational recursion. The Necessary Tangle, release 0.41. https://transduction.systems/entries/concept_organisational_recursion/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "concept_organisational_recursion",
@@ -56100,8 +56154,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/publication_organizational_systems_vsm/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Organizational Systems. The Necessary Tangle, release 0.40. https://transduction.systems/entries/publication_organizational_systems_vsm/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Organizational Systems. The Necessary Tangle, release 0.41. https://transduction.systems/entries/publication_organizational_systems_vsm/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "publication_organizational_systems_vsm",
@@ -56339,8 +56393,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/person_patrick_hoverstadt/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Patrick Hoverstadt. The Necessary Tangle, release 0.40. https://transduction.systems/entries/person_patrick_hoverstadt/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Patrick Hoverstadt. The Necessary Tangle, release 0.41. https://transduction.systems/entries/person_patrick_hoverstadt/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "person_patrick_hoverstadt",
@@ -56781,8 +56835,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/publication_pattern_manual_service_systems_thinking/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Pattern Manual for Service Systems Thinking. The Necessary Tangle, release 0.40. https://transduction.systems/entries/publication_pattern_manual_service_systems_thinking/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Pattern Manual for Service Systems Thinking. The Necessary Tangle, release 0.41. https://transduction.systems/entries/publication_pattern_manual_service_systems_thinking/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "publication_pattern_manual_service_systems_thinking",
@@ -56981,8 +57035,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/method_or_methodology_patterns_of_strategy/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Patterns of Strategy. The Necessary Tangle, release 0.40. https://transduction.systems/entries/method_or_methodology_patterns_of_strategy/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Patterns of Strategy. The Necessary Tangle, release 0.41. https://transduction.systems/entries/method_or_methodology_patterns_of_strategy/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "method_or_methodology_patterns_of_strategy",
@@ -57420,8 +57474,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/person_peter_checkland/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Peter Checkland. The Necessary Tangle, release 0.40. https://transduction.systems/entries/person_peter_checkland/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Peter Checkland. The Necessary Tangle, release 0.41. https://transduction.systems/entries/person_peter_checkland/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "person_peter_checkland",
@@ -57636,8 +57690,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/person_peter_h_jones/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Peter H. Jones. The Necessary Tangle, release 0.40. https://transduction.systems/entries/person_peter_h_jones/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Peter H. Jones. The Necessary Tangle, release 0.41. https://transduction.systems/entries/person_peter_h_jones/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "person_peter_h_jones",
@@ -57820,8 +57874,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/concept_physical_exchange/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Physical exchange with the environment. The Necessary Tangle, release 0.40. https://transduction.systems/entries/concept_physical_exchange/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Physical exchange with the environment. The Necessary Tangle, release 0.41. https://transduction.systems/entries/concept_physical_exchange/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "concept_physical_exchange",
@@ -58047,8 +58101,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/concept_positive_feedback/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Positive feedback. The Necessary Tangle, release 0.40. https://transduction.systems/entries/concept_positive_feedback/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Positive feedback. The Necessary Tangle, release 0.41. https://transduction.systems/entries/concept_positive_feedback/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "concept_positive_feedback",
@@ -59045,8 +59099,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/practice_lab_confrontation_analysis/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Practice: Confrontation Analysis: separate positions, options and credibility. The Necessary Tangle, release 0.40. https://transduction.systems/entries/practice_lab_confrontation_analysis/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Practice: Confrontation Analysis: separate positions, options and credibility. The Necessary Tangle, release 0.41. https://transduction.systems/entries/practice_lab_confrontation_analysis/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "practice_lab_confrontation_analysis",
@@ -59320,8 +59374,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/practice_lab_critical_social_learning/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Practice: Critical social learning: build a learning relationship across boundaries. The Necessary Tangle, release 0.40. https://transduction.systems/entries/practice_lab_critical_social_learning/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Practice: Critical social learning: build a learning relationship across boundaries. The Necessary Tangle, release 0.41. https://transduction.systems/entries/practice_lab_critical_social_learning/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "practice_lab_critical_social_learning",
@@ -59698,8 +59752,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/practice_lab_critical_systems_heuristics/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Practice: Critical Systems Heuristics: inspect all twelve boundary categories. The Necessary Tangle, release 0.40. https://transduction.systems/entries/practice_lab_critical_systems_heuristics/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Practice: Critical Systems Heuristics: inspect all twelve boundary categories. The Necessary Tangle, release 0.41. https://transduction.systems/entries/practice_lab_critical_systems_heuristics/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "practice_lab_critical_systems_heuristics",
@@ -59983,8 +60037,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/practice_lab_ethics_and_power/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Practice: Ethics and power: make an intervention's authority and effects explicit. The Necessary Tangle, release 0.40. https://transduction.systems/entries/practice_lab_ethics_and_power/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Practice: Ethics and power: make an intervention's authority and effects explicit. The Necessary Tangle, release 0.41. https://transduction.systems/entries/practice_lab_ethics_and_power/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "practice_lab_ethics_and_power",
@@ -60243,8 +60297,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/practice_lab_evaluation_and_reflexivity/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Practice: Evaluation and reflexivity: test the claim you are tempted to make. The Necessary Tangle, release 0.40. https://transduction.systems/entries/practice_lab_evaluation_and_reflexivity/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Practice: Evaluation and reflexivity: test the claim you are tempted to make. The Necessary Tangle, release 0.41. https://transduction.systems/entries/practice_lab_evaluation_and_reflexivity/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "practice_lab_evaluation_and_reflexivity",
@@ -60543,8 +60597,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/practice_lab_fractal_enterprise_model/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Practice: Fractal Enterprise Model: alternate processes and the assets they depend on. The Necessary Tangle, release 0.40. https://transduction.systems/entries/practice_lab_fractal_enterprise_model/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Practice: Fractal Enterprise Model: alternate processes and the assets they depend on. The Necessary Tangle, release 0.41. https://transduction.systems/entries/practice_lab_fractal_enterprise_model/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "practice_lab_fractal_enterprise_model",
@@ -60795,8 +60849,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/practice_lab_futures_and_probes/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Practice: Futures and probes: test robustness without pretending to predict. The Necessary Tangle, release 0.40. https://transduction.systems/entries/practice_lab_futures_and_probes/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Practice: Futures and probes: test robustness without pretending to predict. The Necessary Tangle, release 0.41. https://transduction.systems/entries/practice_lab_futures_and_probes/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "practice_lab_futures_and_probes",
@@ -61048,8 +61102,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/practice_lab_informed_group_dynamics/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Practice: INFORMED Group Dynamics: investigate the distinctions behind a decision. The Necessary Tangle, release 0.40. https://transduction.systems/entries/practice_lab_informed_group_dynamics/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Practice: INFORMED Group Dynamics: investigate the distinctions behind a decision. The Necessary Tangle, release 0.41. https://transduction.systems/entries/practice_lab_informed_group_dynamics/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "practice_lab_informed_group_dynamics",
@@ -61323,8 +61377,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/practice_lab_interactive_management/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Practice: Interactive Management: construct a small interpretive structural model. The Necessary Tangle, release 0.40. https://transduction.systems/entries/practice_lab_interactive_management/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Practice: Interactive Management: construct a small interpretive structural model. The Necessary Tangle, release 0.41. https://transduction.systems/entries/practice_lab_interactive_management/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "practice_lab_interactive_management",
@@ -61598,8 +61652,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/practice_lab_interactive_planning/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Practice: Interactive planning: design the service you would choose now. The Necessary Tangle, release 0.40. https://transduction.systems/entries/practice_lab_interactive_planning/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Practice: Interactive planning: design the service you would choose now. The Necessary Tangle, release 0.41. https://transduction.systems/entries/practice_lab_interactive_planning/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "practice_lab_interactive_planning",
@@ -61900,8 +61954,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/practice_lab_mosaic_transformation/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Practice: Mosaic transformation and bubble strategy: sequence changes you can sustain. The Necessary Tangle, release 0.40. https://transduction.systems/entries/practice_lab_mosaic_transformation/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Practice: Mosaic transformation and bubble strategy: sequence changes you can sustain. The Necessary Tangle, release 0.41. https://transduction.systems/entries/practice_lab_mosaic_transformation/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "practice_lab_mosaic_transformation",
@@ -62178,8 +62232,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/practice_lab_multi_methodology/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Practice: Multi-methodology: justify the move from one method to another. The Necessary Tangle, release 0.40. https://transduction.systems/entries/practice_lab_multi_methodology/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Practice: Multi-methodology: justify the move from one method to another. The Necessary Tangle, release 0.41. https://transduction.systems/entries/practice_lab_multi_methodology/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "practice_lab_multi_methodology",
@@ -62536,8 +62590,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/practice_lab_participative_inquiry/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Practice: Participative inquiry: test who your evidence leaves out. The Necessary Tangle, release 0.40. https://transduction.systems/entries/practice_lab_participative_inquiry/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Practice: Participative inquiry: test who your evidence leaves out. The Necessary Tangle, release 0.41. https://transduction.systems/entries/practice_lab_participative_inquiry/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "practice_lab_participative_inquiry",
@@ -62860,8 +62914,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/practice_lab_patterns_of_strategy/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Practice: Patterns of Strategy: model dependence, fit and timing. The Necessary Tangle, release 0.40. https://transduction.systems/entries/practice_lab_patterns_of_strategy/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Practice: Patterns of Strategy: model dependence, fit and timing. The Necessary Tangle, release 0.41. https://transduction.systems/entries/practice_lab_patterns_of_strategy/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "practice_lab_patterns_of_strategy",
@@ -63111,8 +63165,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/practice_lab_service_systems/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Practice: Service systems: follow demand and distinguish activity from resolution. The Necessary Tangle, release 0.40. https://transduction.systems/entries/practice_lab_service_systems/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Practice: Service systems: follow demand and distinguish activity from resolution. The Necessary Tangle, release 0.41. https://transduction.systems/entries/practice_lab_service_systems/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "practice_lab_service_systems",
@@ -63363,8 +63417,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/practice_lab_socio_technical_systems/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Practice: Socio-Technical Systems: redesign the work and technology together. The Necessary Tangle, release 0.40. https://transduction.systems/entries/practice_lab_socio_technical_systems/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Practice: Socio-Technical Systems: redesign the work and technology together. The Necessary Tangle, release 0.41. https://transduction.systems/entries/practice_lab_socio_technical_systems/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "practice_lab_socio_technical_systems",
@@ -63638,8 +63692,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/practice_lab_soda/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Practice: SODA: build a means-ends map without erasing disagreement. The Necessary Tangle, release 0.40. https://transduction.systems/entries/practice_lab_soda/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Practice: SODA: build a means-ends map without erasing disagreement. The Necessary Tangle, release 0.41. https://transduction.systems/entries/practice_lab_soda/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "practice_lab_soda",
@@ -63868,8 +63922,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/practice_lab_soft_systems/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Practice: Soft Systems Methodology: build a model that follows its purpose. The Necessary Tangle, release 0.40. https://transduction.systems/entries/practice_lab_soft_systems/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Practice: Soft Systems Methodology: build a model that follows its purpose. The Necessary Tangle, release 0.41. https://transduction.systems/entries/practice_lab_soft_systems/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "practice_lab_soft_systems",
@@ -64147,8 +64201,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/practice_lab_syntegration/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Practice: Syntegration: test the communication structure before the event. The Necessary Tangle, release 0.40. https://transduction.systems/entries/practice_lab_syntegration/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Practice: Syntegration: test the communication structure before the event. The Necessary Tangle, release 0.41. https://transduction.systems/entries/practice_lab_syntegration/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "practice_lab_syntegration",
@@ -64398,8 +64452,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/practice_lab_system_dynamics/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Practice: System Dynamics: build, calculate and challenge a queue model. The Necessary Tangle, release 0.40. https://transduction.systems/entries/practice_lab_system_dynamics/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Practice: System Dynamics: build, calculate and challenge a queue model. The Necessary Tangle, release 0.41. https://transduction.systems/entries/practice_lab_system_dynamics/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "practice_lab_system_dynamics",
@@ -64682,8 +64736,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/practice_lab_systemic_constellations/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Practice: Systemic constellations: use a spatial representation as a hypothesis. The Necessary Tangle, release 0.40. https://transduction.systems/entries/practice_lab_systemic_constellations/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Practice: Systemic constellations: use a spatial representation as a hypothesis. The Necessary Tangle, release 0.41. https://transduction.systems/entries/practice_lab_systemic_constellations/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "practice_lab_systemic_constellations",
@@ -64883,8 +64937,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/practice_lab_systemic_conversations/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Practice: Systemic conversations: expose inference and repair a broken commitment. The Necessary Tangle, release 0.40. https://transduction.systems/entries/practice_lab_systemic_conversations/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Practice: Systemic conversations: expose inference and repair a broken commitment. The Necessary Tangle, release 0.41. https://transduction.systems/entries/practice_lab_systemic_conversations/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "practice_lab_systemic_conversations",
@@ -65163,8 +65217,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/practice_lab_systems_concepts/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Practice: Systems concepts: make your boundary inspectable. The Necessary Tangle, release 0.40. https://transduction.systems/entries/practice_lab_systems_concepts/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Practice: Systems concepts: make your boundary inspectable. The Necessary Tangle, release 0.41. https://transduction.systems/entries/practice_lab_systems_concepts/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "practice_lab_systems_concepts",
@@ -65436,8 +65490,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/practice_lab_systems_laws/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Practice: Systems laws: test variety, feedback and local optimisation. The Necessary Tangle, release 0.40. https://transduction.systems/entries/practice_lab_systems_laws/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Practice: Systems laws: test variety, feedback and local optimisation. The Necessary Tangle, release 0.41. https://transduction.systems/entries/practice_lab_systems_laws/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "practice_lab_systems_laws",
@@ -65741,8 +65795,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/practice_lab_transposing_theory/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Practice: Transposing theory: move up to a pattern and back down. The Necessary Tangle, release 0.40. https://transduction.systems/entries/practice_lab_transposing_theory/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Practice: Transposing theory: move up to a pattern and back down. The Necessary Tangle, release 0.41. https://transduction.systems/entries/practice_lab_transposing_theory/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "practice_lab_transposing_theory",
@@ -65966,8 +66020,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/practice_lab_viable_system_model/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Practice: Viable System Model: diagnose functions and channels. The Necessary Tangle, release 0.40. https://transduction.systems/entries/practice_lab_viable_system_model/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Practice: Viable System Model: diagnose functions and channels. The Necessary Tangle, release 0.41. https://transduction.systems/entries/practice_lab_viable_system_model/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "practice_lab_viable_system_model",
@@ -66245,8 +66299,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/publication_u31_prigogine/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Prigogine: order under non-equilibrium conditions (Challoner, 2026). The Necessary Tangle, release 0.40. https://transduction.systems/entries/publication_u31_prigogine/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Prigogine: order under non-equilibrium conditions (Challoner, 2026). The Necessary Tangle, release 0.41. https://transduction.systems/entries/publication_u31_prigogine/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "publication_u31_prigogine",
@@ -66643,8 +66697,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/organisation_principia_cybernetica_project/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Principia Cybernetica Project. The Necessary Tangle, release 0.40. https://transduction.systems/entries/organisation_principia_cybernetica_project/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Principia Cybernetica Project. The Necessary Tangle, release 0.41. https://transduction.systems/entries/organisation_principia_cybernetica_project/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "organisation_principia_cybernetica_project",
@@ -67285,8 +67339,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/publication_principia_cybernetica_web/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Principia Cybernetica Web. The Necessary Tangle, release 0.40. https://transduction.systems/entries/publication_principia_cybernetica_web/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Principia Cybernetica Web. The Necessary Tangle, release 0.41. https://transduction.systems/entries/publication_principia_cybernetica_web/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "publication_principia_cybernetica_web",
@@ -67730,8 +67784,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/concept_purpose/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Purpose. The Necessary Tangle, release 0.40. https://transduction.systems/entries/concept_purpose/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Purpose. The Necessary Tangle, release 0.41. https://transduction.systems/entries/concept_purpose/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "concept_purpose",
@@ -69107,8 +69161,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/person_raul_espejo/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Raul Espejo. The Necessary Tangle, release 0.40. https://transduction.systems/entries/person_raul_espejo/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Raul Espejo. The Necessary Tangle, release 0.41. https://transduction.systems/entries/person_raul_espejo/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "person_raul_espejo",
@@ -69295,8 +69349,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/person_ray_ison/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Ray Ison. The Necessary Tangle, release 0.40. https://transduction.systems/entries/person_ray_ison/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Ray Ison. The Necessary Tangle, release 0.41. https://transduction.systems/entries/person_ray_ison/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "person_ray_ison",
@@ -69554,8 +69608,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/concept_recursion/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Recursion. The Necessary Tangle, release 0.40. https://transduction.systems/entries/concept_recursion/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Recursion. The Necessary Tangle, release 0.41. https://transduction.systems/entries/concept_recursion/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "concept_recursion",
@@ -70442,8 +70496,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/concept_regulation/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Regulation. The Necessary Tangle, release 0.40. https://transduction.systems/entries/concept_regulation/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Regulation. The Necessary Tangle, release 0.41. https://transduction.systems/entries/concept_regulation/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "concept_regulation",
@@ -70489,14 +70543,17 @@
         "title": "Regulation",
         "profile_status": "evidence_deepened_research_pass",
         "canonical_definition": "A relation among disturbances, a reguland, a regulator and acceptable outcomes in which outcome variety is constrained relative to a stated goal or essential-variable range.",
-        "summary": "Regulation is the work of keeping outcomes within acceptable ranges despite disturbance. It may operate through feedback, anticipation, constraints, buffering, redundancy, local autonomy or changes to the environment.",
+        "summary": "Regulation is the work of keeping outcomes within acceptable ranges despite disturbance. It may operate through feedback, anticipation, constraints, buffering, redundancy, local autonomy or changes to the environment. Specify the essential variables, acceptable set, and disturbance conditions. Ashby distinguishes passive protection, response to a threatened disturbance, and error-based correction; an error need not imply that useful regulation has failed.",
         "why_it_matters": "Regulation is often collapsed into command and control. Ashby instead asks what variety of disturbance reaches the system, what responses are available and which outcomes count as acceptable. The regulator may be distributed rather than a boss or central unit.",
         "key_distinctions": [
           "regulation vs domination",
           "regulator vs manager",
           "acceptable range vs one fixed target",
           "distributed vs central regulation",
-          "regulation vs optimisation"
+          "regulation vs optimisation",
+          "passive protection vs disturbance-based response vs error-based correction",
+          "given acceptable set vs agreement about what ought to count as acceptable",
+          "exact error elimination vs useful partial regulation"
         ],
         "historical_lineage": [
           "physiological regulation and governor analysis predate cybernetics",
@@ -70521,7 +70578,9 @@
           "identify the variable that must remain viable",
           "map disturbance variety before adding controls",
           "ask where regulatory intelligence already sits",
-          "protect local discretion where it carries necessary variety"
+          "protect local discretion where it carries necessary variety",
+          "ask whose acceptable range is being protected and who may revise it",
+          "check the actual protected outcome, not merely the presence of a returned signal"
         ],
         "espoused_lineages": [
           "physiology",
@@ -70534,7 +70593,9 @@
           "regulation means bureaucracy",
           "the regulator must be central",
           "tighter control always improves regulation",
-          "one target captures viability"
+          "one target captures viability",
+          "every regulator must wait for an error signal",
+          "Ashby proves exact tracking impossible in every control model"
         ],
         "open_checks": [
           "legal and institutional regulation as a distinct lineage",
@@ -70548,11 +70609,12 @@
         "evidence_ids": [
           "ev_ashby_requisite_variety",
           "ev_conant_ashby_theorem",
-          "ev_wiener_feedback_cybernetics"
+          "ev_wiener_feedback_cybernetics",
+          "ev41_regulation_ashby_scope"
         ],
-        "last_researched": "2026-08-09",
+        "last_researched": "2026-11-07",
         "review_status": "research_pass_needs_editor",
-        "editorial_note": "Readable orientation and evidence-backed first pass. Not accepted scholarly consensus until named review is recorded."
+        "editorial_note": "Readable orientation and evidence-backed first pass. Not accepted scholarly consensus until named review is recorded. Bounded located-primary clarification and original discrete-response example; canonical definition, historical lineage, existing open checks, and human editorial acceptance remain unchanged/pending."
       },
       "connections": [
         {
@@ -71569,6 +71631,12 @@
           "review_status": "research_pass_needs_editor"
         },
         {
+          "id": "ev41_regulation_ashby_scope",
+          "source_id": "src_ashby_intro_cybernetics_1956",
+          "locator": "§§10/4–10/7, pp197–201; §§12/1,12/3–12/6, pp219,221–224",
+          "review_status": "research_pass_needs_editor"
+        },
+        {
           "id": "ev35_edge_e16_grammar_crosswalk_163_1",
           "source_id": "src_conant_ashby_good_regulator_1970",
           "locator": "Theorem and proof, PDF pp. 8–9",
@@ -71610,8 +71678,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/concept_requisite_inefficiency/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Requisite inefficiency. The Necessary Tangle, release 0.40. https://transduction.systems/entries/concept_requisite_inefficiency/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Requisite inefficiency. The Necessary Tangle, release 0.41. https://transduction.systems/entries/concept_requisite_inefficiency/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "concept_requisite_inefficiency",
@@ -71821,8 +71889,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/concept_requisite_variety/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Requisite variety. The Necessary Tangle, release 0.40. https://transduction.systems/entries/concept_requisite_variety/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Requisite variety. The Necessary Tangle, release 0.41. https://transduction.systems/entries/concept_requisite_variety/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "concept_requisite_variety",
@@ -73120,8 +73188,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/person_robert_rosen/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Robert Rosen. The Necessary Tangle, release 0.40. https://transduction.systems/entries/person_robert_rosen/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Robert Rosen. The Necessary Tangle, release 0.41. https://transduction.systems/entries/person_robert_rosen/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "person_robert_rosen",
@@ -73358,8 +73426,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/person_roy_bhaskar/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Roy Bhaskar. The Necessary Tangle, release 0.40. https://transduction.systems/entries/person_roy_bhaskar/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Roy Bhaskar. The Necessary Tangle, release 0.41. https://transduction.systems/entries/person_roy_bhaskar/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "person_roy_bhaskar",
@@ -73527,8 +73595,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/publication_fpcs_010/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Science and Complexity. The Necessary Tangle, release 0.40. https://transduction.systems/entries/publication_fpcs_010/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Science and Complexity. The Necessary Tangle, release 0.41. https://transduction.systems/entries/publication_fpcs_010/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "publication_fpcs_010",
@@ -74103,8 +74171,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/organisation_scio_systems_and_complexity_in_organisation/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). SCiO — Systems and Complexity in Organisation. The Necessary Tangle, release 0.40. https://transduction.systems/entries/organisation_scio_systems_and_complexity_in_organisation/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). SCiO — Systems and Complexity in Organisation. The Necessary Tangle, release 0.41. https://transduction.systems/entries/organisation_scio_systems_and_complexity_in_organisation/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "organisation_scio_systems_and_complexity_in_organisation",
@@ -74522,8 +74590,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/concept_self_organisation/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Self-organisation. The Necessary Tangle, release 0.40. https://transduction.systems/entries/concept_self_organisation/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Self-organisation. The Necessary Tangle, release 0.41. https://transduction.systems/entries/concept_self_organisation/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "concept_self_organisation",
@@ -75879,8 +75947,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/concept_semantic_network/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Semantic network. The Necessary Tangle, release 0.40. https://transduction.systems/entries/concept_semantic_network/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Semantic network. The Necessary Tangle, release 0.41. https://transduction.systems/entries/concept_semantic_network/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "concept_semantic_network",
@@ -76262,8 +76330,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/tool_sensemaker/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). SenseMaker. The Necessary Tangle, release 0.40. https://transduction.systems/entries/tool_sensemaker/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). SenseMaker. The Necessary Tangle, release 0.41. https://transduction.systems/entries/tool_sensemaker/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "tool_sensemaker",
@@ -76576,8 +76644,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/approach_family_service_systems_thinking/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Service systems thinking. The Necessary Tangle, release 0.40. https://transduction.systems/entries/approach_family_service_systems_thinking/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Service systems thinking. The Necessary Tangle, release 0.41. https://transduction.systems/entries/approach_family_service_systems_thinking/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "approach_family_service_systems_thinking",
@@ -77078,8 +77146,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/method_or_methodology_soft_systems_methodology_ssm/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Soft Systems Methodology (SSM). The Necessary Tangle, release 0.40. https://transduction.systems/entries/method_or_methodology_soft_systems_methodology_ssm/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Soft Systems Methodology (SSM). The Necessary Tangle, release 0.41. https://transduction.systems/entries/method_or_methodology_soft_systems_methodology_ssm/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "method_or_methodology_soft_systems_methodology_ssm",
@@ -78168,8 +78236,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/person_stafford_beer/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Stafford Beer. The Necessary Tangle, release 0.40. https://transduction.systems/entries/person_stafford_beer/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Stafford Beer. The Necessary Tangle, release 0.41. https://transduction.systems/entries/person_stafford_beer/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "person_stafford_beer",
@@ -78745,8 +78813,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/publication_steps_to_ecology_of_mind/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Steps to an Ecology of Mind. The Necessary Tangle, release 0.40. https://transduction.systems/entries/publication_steps_to_ecology_of_mind/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Steps to an Ecology of Mind. The Necessary Tangle, release 0.41. https://transduction.systems/entries/publication_steps_to_ecology_of_mind/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "publication_steps_to_ecology_of_mind",
@@ -79006,8 +79074,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/concept_structural_coupling/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Structural coupling. The Necessary Tangle, release 0.40. https://transduction.systems/entries/concept_structural_coupling/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Structural coupling. The Necessary Tangle, release 0.41. https://transduction.systems/entries/concept_structural_coupling/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "concept_structural_coupling",
@@ -79476,8 +79544,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/concept_structure_agency/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Structure and agency. The Necessary Tangle, release 0.40. https://transduction.systems/entries/concept_structure_agency/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Structure and agency. The Necessary Tangle, release 0.41. https://transduction.systems/entries/concept_structure_agency/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "concept_structure_agency",
@@ -79805,8 +79873,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/concept_structurelessness/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Structurelessness. The Necessary Tangle, release 0.40. https://transduction.systems/entries/concept_structurelessness/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Structurelessness. The Necessary Tangle, release 0.41. https://transduction.systems/entries/concept_structurelessness/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "concept_structurelessness",
@@ -80001,8 +80069,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/concept_systemic_governance/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Systemic governance. The Necessary Tangle, release 0.40. https://transduction.systems/entries/concept_systemic_governance/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Systemic governance. The Necessary Tangle, release 0.41. https://transduction.systems/entries/concept_systemic_governance/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "concept_systemic_governance",
@@ -80793,8 +80861,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/method_or_methodology_systemic_intervention/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Systemic Intervention. The Necessary Tangle, release 0.40. https://transduction.systems/entries/method_or_methodology_systemic_intervention/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Systemic Intervention. The Necessary Tangle, release 0.41. https://transduction.systems/entries/method_or_methodology_systemic_intervention/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "method_or_methodology_systemic_intervention",
@@ -81689,8 +81757,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/practice_systems_methods_pack/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Systemic systems methods practice for systems practice (alpha). The Necessary Tangle, release 0.40. https://transduction.systems/entries/practice_systems_methods_pack/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Systemic systems methods practice for systems practice (alpha). The Necessary Tangle, release 0.41. https://transduction.systems/entries/practice_systems_methods_pack/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "practice_systems_methods_pack",
@@ -82569,8 +82637,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/publication_systems_approaches_making_change/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Systems Approaches to Making Change. The Necessary Tangle, release 0.40. https://transduction.systems/entries/publication_systems_approaches_making_change/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Systems Approaches to Making Change. The Necessary Tangle, release 0.41. https://transduction.systems/entries/publication_systems_approaches_making_change/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "publication_systems_approaches_making_change",
@@ -82987,8 +83055,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/approach_family_systems_change/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Systems change. The Necessary Tangle, release 0.40. https://transduction.systems/entries/approach_family_systems_change/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Systems change. The Necessary Tangle, release 0.41. https://transduction.systems/entries/approach_family_systems_change/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "approach_family_systems_change",
@@ -84260,8 +84328,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/corpus_systems_changes/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Systems Changes. The Necessary Tangle, release 0.40. https://transduction.systems/entries/corpus_systems_changes/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Systems Changes. The Necessary Tangle, release 0.41. https://transduction.systems/entries/corpus_systems_changes/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "corpus_systems_changes",
@@ -84539,8 +84607,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/approach_family_systems_changes_learning/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Systems Changes Learning. The Necessary Tangle, release 0.40. https://transduction.systems/entries/approach_family_systems_changes_learning/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Systems Changes Learning. The Necessary Tangle, release 0.41. https://transduction.systems/entries/approach_family_systems_changes_learning/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "approach_family_systems_changes_learning",
@@ -85044,8 +85112,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/practice_systems_convening/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Systems convening. The Necessary Tangle, release 0.40. https://transduction.systems/entries/practice_systems_convening/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Systems convening. The Necessary Tangle, release 0.41. https://transduction.systems/entries/practice_systems_convening/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "practice_systems_convening",
@@ -85996,8 +86064,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/knowledge_domain_systems_laws/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Systems laws. The Necessary Tangle, release 0.40. https://transduction.systems/entries/knowledge_domain_systems_laws/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Systems laws. The Necessary Tangle, release 0.41. https://transduction.systems/entries/knowledge_domain_systems_laws/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "knowledge_domain_systems_laws",
@@ -86470,8 +86538,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/approach_family_systems_leadership/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Systems leadership. The Necessary Tangle, release 0.40. https://transduction.systems/entries/approach_family_systems_leadership/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Systems leadership. The Necessary Tangle, release 0.41. https://transduction.systems/entries/approach_family_systems_leadership/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "approach_family_systems_leadership",
@@ -86915,8 +86983,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/practice_systems_lineage_documentation/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Systems lineage documentation. The Necessary Tangle, release 0.40. https://transduction.systems/entries/practice_systems_lineage_documentation/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Systems lineage documentation. The Necessary Tangle, release 0.41. https://transduction.systems/entries/practice_systems_lineage_documentation/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "practice_systems_lineage_documentation",
@@ -87266,8 +87334,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/practice_systems_practice/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Systems practice. The Necessary Tangle, release 0.40. https://transduction.systems/entries/practice_systems_practice/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Systems practice. The Necessary Tangle, release 0.41. https://transduction.systems/entries/practice_systems_practice/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "practice_systems_practice",
@@ -89576,8 +89644,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/tradition_systems_theory/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Systems theory. The Necessary Tangle, release 0.40. https://transduction.systems/entries/tradition_systems_theory/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Systems theory. The Necessary Tangle, release 0.41. https://transduction.systems/entries/tradition_systems_theory/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "tradition_systems_theory",
@@ -90049,8 +90117,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/publication_systems_thinkers_ramage_shipp/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Systems Thinkers. The Necessary Tangle, release 0.40. https://transduction.systems/entries/publication_systems_thinkers_ramage_shipp/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Systems Thinkers. The Necessary Tangle, release 0.41. https://transduction.systems/entries/publication_systems_thinkers_ramage_shipp/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "publication_systems_thinkers_ramage_shipp",
@@ -90524,8 +90592,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/publication_systems_thinking_systems_practice/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Systems Thinking, Systems Practice. The Necessary Tangle, release 0.40. https://transduction.systems/entries/publication_systems_thinking_systems_practice/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Systems Thinking, Systems Practice. The Necessary Tangle, release 0.41. https://transduction.systems/entries/publication_systems_thinking_systems_practice/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "publication_systems_thinking_systems_practice",
@@ -90760,8 +90828,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/practice_systems_weaving/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Systems weaving. The Necessary Tangle, release 0.40. https://transduction.systems/entries/practice_systems_weaving/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Systems weaving. The Necessary Tangle, release 0.41. https://transduction.systems/entries/practice_systems_weaving/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "practice_systems_weaving",
@@ -91099,8 +91167,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/concept_communication_levels/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Technical, semantic, and effectiveness questions. The Necessary Tangle, release 0.40. https://transduction.systems/entries/concept_communication_levels/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Technical, semantic, and effectiveness questions. The Necessary Tangle, release 0.41. https://transduction.systems/entries/concept_communication_levels/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "concept_communication_levels",
@@ -91224,8 +91292,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/concept_tektological_complex/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Tektological complex. The Necessary Tangle, release 0.40. https://transduction.systems/entries/concept_tektological_complex/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Tektological complex. The Necessary Tangle, release 0.41. https://transduction.systems/entries/concept_tektological_complex/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "concept_tektological_complex",
@@ -91451,8 +91519,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/publication_fpcs_013/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). The Chemical Basis of Morphogenesis. The Necessary Tangle, release 0.40. https://transduction.systems/entries/publication_fpcs_013/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). The Chemical Basis of Morphogenesis. The Necessary Tangle, release 0.41. https://transduction.systems/entries/publication_fpcs_013/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "publication_fpcs_013",
@@ -91761,8 +91829,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/publication_the_complexity_podcast/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). The Complexity Podcast. The Necessary Tangle, release 0.40. https://transduction.systems/entries/publication_the_complexity_podcast/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). The Complexity Podcast. The Necessary Tangle, release 0.41. https://transduction.systems/entries/publication_the_complexity_podcast/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "publication_the_complexity_podcast",
@@ -91962,8 +92030,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/organisation_the_cynefin_company/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). The Cynefin Company. The Necessary Tangle, release 0.40. https://transduction.systems/entries/organisation_the_cynefin_company/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). The Cynefin Company. The Necessary Tangle, release 0.41. https://transduction.systems/entries/organisation_the_cynefin_company/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "organisation_the_cynefin_company",
@@ -92296,8 +92364,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/publication_fpcs_055/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). The Evolution of Cooperation. The Necessary Tangle, release 0.40. https://transduction.systems/entries/publication_fpcs_055/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). The Evolution of Cooperation. The Necessary Tangle, release 0.41. https://transduction.systems/entries/publication_fpcs_055/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "publication_fpcs_055",
@@ -92634,8 +92702,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/publication_fractal_organisation_manual/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). The Fractal Organisation Manual. The Necessary Tangle, release 0.40. https://transduction.systems/entries/publication_fractal_organisation_manual/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). The Fractal Organisation Manual. The Necessary Tangle, release 0.41. https://transduction.systems/entries/publication_fractal_organisation_manual/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "publication_fractal_organisation_manual",
@@ -92822,8 +92890,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/publication_grammar_of_systems_ii/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). The Grammar of Systems II. The Necessary Tangle, release 0.40. https://transduction.systems/entries/publication_grammar_of_systems_ii/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). The Grammar of Systems II. The Necessary Tangle, release 0.41. https://transduction.systems/entries/publication_grammar_of_systems_ii/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "publication_grammar_of_systems_ii",
@@ -94175,8 +94243,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/publication_hidden_power_systems_thinking/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). The Hidden Power of Systems Thinking. The Necessary Tangle, release 0.40. https://transduction.systems/entries/publication_hidden_power_systems_thinking/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). The Hidden Power of Systems Thinking. The Necessary Tangle, release 0.41. https://transduction.systems/entries/publication_hidden_power_systems_thinking/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "publication_hidden_power_systems_thinking",
@@ -94415,8 +94483,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/publication_early_shannon_weaver_book/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). The Mathematical Theory of Communication. The Necessary Tangle, release 0.40. https://transduction.systems/entries/publication_early_shannon_weaver_book/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). The Mathematical Theory of Communication. The Necessary Tangle, release 0.41. https://transduction.systems/entries/publication_early_shannon_weaver_book/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "publication_early_shannon_weaver_book",
@@ -94697,8 +94765,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/publication_new_dynamics_of_strategy/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). The New Dynamics of Strategy. The Necessary Tangle, release 0.40. https://transduction.systems/entries/publication_new_dynamics_of_strategy/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). The New Dynamics of Strategy. The Necessary Tangle, release 0.41. https://transduction.systems/entries/publication_new_dynamics_of_strategy/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "publication_new_dynamics_of_strategy",
@@ -94907,8 +94975,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/publication_the_noisy_puddle/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). The Noisy Puddle. The Necessary Tangle, release 0.40. https://transduction.systems/entries/publication_the_noisy_puddle/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). The Noisy Puddle. The Necessary Tangle, release 0.41. https://transduction.systems/entries/publication_the_noisy_puddle/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "publication_the_noisy_puddle",
@@ -95150,8 +95218,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/publication_organic_systems_framework/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). The Organic Systems Framework. The Necessary Tangle, release 0.40. https://transduction.systems/entries/publication_organic_systems_framework/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). The Organic Systems Framework. The Necessary Tangle, release 0.41. https://transduction.systems/entries/publication_organic_systems_framework/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "publication_organic_systems_framework",
@@ -95335,8 +95403,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/publication_syscoi_post_28881/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). The Second Law of Technodynamics — Velitchkov (2026). The Necessary Tangle, release 0.40. https://transduction.systems/entries/publication_syscoi_post_28881/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). The Second Law of Technodynamics — Velitchkov (2026). The Necessary Tangle, release 0.41. https://transduction.systems/entries/publication_syscoi_post_28881/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "publication_syscoi_post_28881",
@@ -95607,8 +95675,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/publication_early_fano_transmission/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). The Transmission of Information. The Necessary Tangle, release 0.40. https://transduction.systems/entries/publication_early_fano_transmission/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). The Transmission of Information. The Necessary Tangle, release 0.41. https://transduction.systems/entries/publication_early_fano_transmission/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "publication_early_fano_transmission",
@@ -95894,8 +95962,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/publication_thinking_in_systems/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Thinking in Systems. The Necessary Tangle, release 0.40. https://transduction.systems/entries/publication_thinking_in_systems/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Thinking in Systems. The Necessary Tangle, release 0.41. https://transduction.systems/entries/publication_thinking_in_systems/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "publication_thinking_in_systems",
@@ -96109,8 +96177,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/person_timothy_f_h_allen/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Timothy F. H. Allen. The Necessary Tangle, release 0.40. https://transduction.systems/entries/person_timothy_f_h_allen/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Timothy F. H. Allen. The Necessary Tangle, release 0.41. https://transduction.systems/entries/person_timothy_f_h_allen/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "person_timothy_f_h_allen",
@@ -96397,8 +96465,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/person_tony_korycki/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Tony Korycki. The Necessary Tangle, release 0.40. https://transduction.systems/entries/person_tony_korycki/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Tony Korycki. The Necessary Tangle, release 0.41. https://transduction.systems/entries/person_tony_korycki/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "person_tony_korycki",
@@ -96596,8 +96664,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/publication_early_wiener_close/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Too Damn Close. The Necessary Tangle, release 0.40. https://transduction.systems/entries/publication_early_wiener_close/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Too Damn Close. The Necessary Tangle, release 0.41. https://transduction.systems/entries/publication_early_wiener_close/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "publication_early_wiener_close",
@@ -96773,8 +96841,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/concept_transduction/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Transduction. The Necessary Tangle, release 0.40. https://transduction.systems/entries/concept_transduction/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Transduction. The Necessary Tangle, release 0.41. https://transduction.systems/entries/concept_transduction/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "concept_transduction",
@@ -97558,8 +97626,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/concept_transduction_simondon/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Transduction in Simondon. The Necessary Tangle, release 0.40. https://transduction.systems/entries/concept_transduction_simondon/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Transduction in Simondon. The Necessary Tangle, release 0.41. https://transduction.systems/entries/concept_transduction_simondon/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "concept_transduction_simondon",
@@ -97826,8 +97894,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/publication_geels_schot_pathways_2007/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Typology of sociotechnical transition pathways (2007). The Necessary Tangle, release 0.40. https://transduction.systems/entries/publication_geels_schot_pathways_2007/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Typology of sociotechnical transition pathways (2007). The Necessary Tangle, release 0.41. https://transduction.systems/entries/publication_geels_schot_pathways_2007/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "publication_geels_schot_pathways_2007",
@@ -98107,8 +98175,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/concept_ultrastability/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Ultrastability. The Necessary Tangle, release 0.40. https://transduction.systems/entries/concept_ultrastability/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Ultrastability. The Necessary Tangle, release 0.41. https://transduction.systems/entries/concept_ultrastability/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "concept_ultrastability",
@@ -98427,8 +98495,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/publication_understanding_understanding/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Understanding Understanding. The Necessary Tangle, release 0.40. https://transduction.systems/entries/publication_understanding_understanding/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Understanding Understanding. The Necessary Tangle, release 0.41. https://transduction.systems/entries/publication_understanding_understanding/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "publication_understanding_understanding",
@@ -98600,8 +98668,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/theory_unified_systems_intelligence/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Unified Theory of Systems Intelligence. The Necessary Tangle, release 0.40. https://transduction.systems/entries/theory_unified_systems_intelligence/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Unified Theory of Systems Intelligence. The Necessary Tangle, release 0.41. https://transduction.systems/entries/theory_unified_systems_intelligence/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "theory_unified_systems_intelligence",
@@ -99234,8 +99302,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/concept_variety/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Variety. The Necessary Tangle, release 0.40. https://transduction.systems/entries/concept_variety/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Variety. The Necessary Tangle, release 0.41. https://transduction.systems/entries/concept_variety/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "concept_variety",
@@ -100011,8 +100079,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/concept_variety_amplification/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Variety amplification. The Necessary Tangle, release 0.40. https://transduction.systems/entries/concept_variety_amplification/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Variety amplification. The Necessary Tangle, release 0.41. https://transduction.systems/entries/concept_variety_amplification/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "concept_variety_amplification",
@@ -100466,8 +100534,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/concept_variety_attenuation/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Variety attenuation. The Necessary Tangle, release 0.40. https://transduction.systems/entries/concept_variety_attenuation/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Variety attenuation. The Necessary Tangle, release 0.41. https://transduction.systems/entries/concept_variety_attenuation/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "concept_variety_attenuation",
@@ -100920,8 +100988,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/concept_viability/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Viability. The Necessary Tangle, release 0.40. https://transduction.systems/entries/concept_viability/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Viability. The Necessary Tangle, release 0.41. https://transduction.systems/entries/concept_viability/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "concept_viability",
@@ -102062,8 +102130,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/method_or_methodology_viable_system_model_vsm/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Viable System Model (VSM). The Necessary Tangle, release 0.40. https://transduction.systems/entries/method_or_methodology_viable_system_model_vsm/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Viable System Model (VSM). The Necessary Tangle, release 0.41. https://transduction.systems/entries/method_or_methodology_viable_system_model_vsm/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "method_or_methodology_viable_system_model_vsm",
@@ -104994,8 +105062,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/method_or_methodology_viplan/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Viplan. The Necessary Tangle, release 0.40. https://transduction.systems/entries/method_or_methodology_viplan/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Viplan. The Necessary Tangle, release 0.41. https://transduction.systems/entries/method_or_methodology_viplan/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "method_or_methodology_viplan",
@@ -105208,8 +105276,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/comparator_corpus_principia_cybernetica_web_dictionary/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Web Dictionary of Cybernetics and Systems. The Necessary Tangle, release 0.40. https://transduction.systems/entries/comparator_corpus_principia_cybernetica_web_dictionary/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Web Dictionary of Cybernetics and Systems. The Necessary Tangle, release 0.41. https://transduction.systems/entries/comparator_corpus_principia_cybernetica_web_dictionary/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "comparator_corpus_principia_cybernetica_web_dictionary",
@@ -105388,8 +105456,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/person_werner_ulrich/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). Werner Ulrich. The Necessary Tangle, release 0.40. https://transduction.systems/entries/person_werner_ulrich/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). Werner Ulrich. The Necessary Tangle, release 0.41. https://transduction.systems/entries/person_werner_ulrich/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "person_werner_ulrich",
@@ -105578,8 +105646,8 @@
     {
       "schema_version": "1.0",
       "canonical_url": "https://transduction.systems/entries/publication_boundary_cannot_carry_alone/",
-      "release": "0.40",
-      "citation": "Taylor, B. P. (2026). What the boundary cannot carry alone. The Necessary Tangle, release 0.40. https://transduction.systems/entries/publication_boundary_cannot_carry_alone/",
+      "release": "0.41",
+      "citation": "Taylor, B. P. (2026). What the boundary cannot carry alone. The Necessary Tangle, release 0.41. https://transduction.systems/entries/publication_boundary_cannot_carry_alone/",
       "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
       "entry": {
         "id": "publication_boundary_cannot_carry_alone",

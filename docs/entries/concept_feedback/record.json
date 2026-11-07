@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0",
   "canonical_url": "https://transduction.systems/entries/concept_feedback/",
-  "release": "0.40",
-  "citation": "Taylor, B. P. (2026). Feedback. The Necessary Tangle, release 0.40. https://transduction.systems/entries/concept_feedback/",
+  "release": "0.41",
+  "citation": "Taylor, B. P. (2026). Feedback. The Necessary Tangle, release 0.41. https://transduction.systems/entries/concept_feedback/",
   "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
   "entry": {
     "id": "concept_feedback",
@@ -62,7 +62,7 @@
     "title": "Feedback",
     "profile_status": "evidence_deepened_research_pass",
     "canonical_definition": "A circular causal or informational relation in which an output or consequence affects later input, state or action. The sign, delay, reference condition and mechanism must be stated.",
-    "summary": "Feedback is not merely receiving comments. It is a circular relation in which consequences return to influence what happens next. The loop may counteract change, reinforce it, oscillate, delay response or fail because no actor can use the returned information.",
+    "summary": "Feedback is not merely receiving comments. It is a circular relation in which consequences return to influence what happens next. The loop may counteract change, reinforce it, oscillate, delay response or fail because no actor can use the returned information. A correction sign, a stable response, and acceptable performance are separate questions. Historical authors also used different boundaries for the term.",
     "why_it_matters": "Systems work often says feedback when it means reporting, evaluation, data or learning. Those are only feedback when they close a loop that can alter subsequent action. Sign, delay, reference condition and response capacity determine what the loop actually does.",
     "key_distinctions": [
       "negative or balancing vs positive or reinforcing feedback",
@@ -70,7 +70,10 @@
       "feedback signal vs capacity to respond",
       "physical causal loop vs returned information",
       "feedback mechanism vs homeostatic condition",
-      "measurement vs learning"
+      "measurement vs learning",
+      "sign of an identified correction vs stability of the complete dynamics",
+      "asymptotic decay vs finite acceptable-band compliance",
+      "one circuit account vs behaviour of a richly connected whole"
     ],
     "historical_lineage": [
       "Maxwell 1868: mathematical governor analysis as a precursor",
@@ -96,7 +99,9 @@
       "test whether anyone can alter action in response",
       "state the delay before effects become visible",
       "separate balancing from reinforcing loops",
-      "look for loops that reward gaming rather than purpose"
+      "look for loops that reward gaming rather than purpose",
+      "trace what returns, its timing, and what can change as a result",
+      "state the mechanism and conditions before inferring stability from a feedback sign"
     ],
     "espoused_lineages": [
       "engineering control",
@@ -111,7 +116,9 @@
       "positive means good and negative means bad",
       "a dashboard is feedback even when nobody can act",
       "homeostasis and feedback are synonyms",
-      "all loops stabilise"
+      "all loops stabilise",
+      "negative feedback guarantees a stable or beneficial result",
+      "feedback has one uncontested historical definition"
     ],
     "open_checks": [
       "Nyquist and Bode lineage",
@@ -124,18 +131,22 @@
       "src_black_feedback_1934",
       "src_rosenblueth_wiener_bigelow_1943",
       "src_wiener_cybernetics_1948",
-      "src_ieee_feedback_topic"
+      "src_ieee_feedback_topic",
+      "src_ashby_intro_cybernetics_1956"
     ],
     "evidence_ids": [
       "ev_maxwell_governors_precursor",
       "ev_black_negative_feedback",
       "ev_rwb_feedback_purpose",
       "ev_wiener_feedback_cybernetics",
-      "ev_ieee_feedback_types"
+      "ev_ieee_feedback_types",
+      "ev41_feedback_maxwell_dynamics",
+      "ev41_feedback_rwb_usage",
+      "ev41_feedback_ashby_usage"
     ],
-    "last_researched": "2026-08-09",
+    "last_researched": "2026-11-07",
     "review_status": "research_pass_needs_editor",
-    "editorial_note": "Readable orientation and evidence-backed first pass. Not accepted scholarly consensus until named review is recorded."
+    "editorial_note": "Readable orientation and evidence-backed first pass. Not accepted scholarly consensus until named review is recorded. Bounded located-primary clarification and original discrete-response example; canonical definition, historical lineage, existing open checks, and human editorial acceptance remain unchanged/pending."
   },
   "connections": [
     {
@@ -2181,6 +2192,31 @@
       "public_link_status": "public_link"
     },
     {
+      "id": "src_ashby_intro_cybernetics_1956",
+      "title": "An Introduction to Cybernetics",
+      "source_type": "primary_text",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://ashby.info/Ashby-Introduction-to-Cybernetics.pdf",
+      "date": "1956",
+      "notes": "Primary text opened and inspected. Title page identifies the 1957 second impression of the 1956 book. Use section numbers as the stable locator: the electronic PDF places two printed pages on each PDF page. Rights statement permits educational and research distribution with its notice; this packet links and paraphrases.",
+      "creators": [
+        "W. Ross Ashby"
+      ],
+      "doi": "",
+      "isbn": "",
+      "publisher": "Chapman & Hall",
+      "licence": "archive_access_check_reuse",
+      "archived_url": "https://www.ashby.info/",
+      "content_hash": "",
+      "review_status": "passage_checked_research_pass",
+      "last_checked": "2026-10-29",
+      "public_link_status": "public_link",
+      "connection_pass": "depth_20261029",
+      "source_locator": "1957 second impression; sections 11/5–11/11, printed pp. 205–209; PDF pp. 109–111",
+      "access_note": "Use section numbers as the stable locator: the electronic PDF places two printed pages on each PDF page. Rights statement permits educational and research distribution with its notice; this packet links and paraphrases."
+    },
+    {
       "id": "src_grammar_presentation_2022",
       "title": "The Grammar of Systems - SCiO presentation",
       "source_type": "presentation",
@@ -3055,6 +3091,24 @@
       "id": "ev_ieee_feedback_types",
       "source_id": "src_ieee_feedback_topic",
       "locator": "Sections: What Is Feedback?; Negative and Positive Feedback",
+      "review_status": "research_pass_needs_editor"
+    },
+    {
+      "id": "ev41_feedback_maxwell_dynamics",
+      "source_id": "src_maxwell_on_governors_1868",
+      "locator": "pp271–272; PDF2–3",
+      "review_status": "research_pass_needs_editor"
+    },
+    {
+      "id": "ev41_feedback_rwb_usage",
+      "source_id": "src_rosenblueth_wiener_bigelow_1943",
+      "locator": "pp19–20; PDF3–4",
+      "review_status": "research_pass_needs_editor"
+    },
+    {
+      "id": "ev41_feedback_ashby_usage",
+      "source_id": "src_ashby_intro_cybernetics_1956",
+      "locator": "§4/11, pp53–54; PDF31–32",
       "review_status": "research_pass_needs_editor"
     },
     {
