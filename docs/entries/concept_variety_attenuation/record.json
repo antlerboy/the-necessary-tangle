@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0",
   "canonical_url": "https://transduction.systems/entries/concept_variety_attenuation/",
-  "release": "0.39",
-  "citation": "Taylor, B. P. (2026). Variety attenuation. The Necessary Tangle, release 0.39. https://transduction.systems/entries/concept_variety_attenuation/",
+  "release": "0.40",
+  "citation": "Taylor, B. P. (2026). Variety attenuation. The Necessary Tangle, release 0.40. https://transduction.systems/entries/concept_variety_attenuation/",
   "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
   "entry": {
     "id": "concept_variety_attenuation",
@@ -49,13 +49,16 @@
     "title": "Variety attenuation",
     "profile_status": "evidence_deepened_research_pass",
     "canonical_definition": "A deliberate reduction in effective variety so that relevant disturbances, signals or choices become tractable without pretending the discarded variety never existed.",
-    "summary": "Attenuation protects a regulator from being overwhelmed. It can simplify, buffer, aggregate or redesign demand. It can also erase inconvenient people and conditions if the boundary and purpose are wrong.",
+    "summary": "Attenuation protects a regulator from being overwhelmed. It can simplify, buffer, aggregate or redesign demand. It can also erase inconvenient people and conditions if the boundary and purpose are wrong. For a stated task, a classification is sufficient only if every input assigned the same label permits the same required action. A many-to-one map can discard input detail while preserving that action; lower entropy alone supplies no such guarantee.",
     "why_it_matters": "Forms, triage, standards, thresholds and dashboards are attenuation devices. Their value depends on whether they preserve the differences needed for responsible action.",
     "key_distinctions": [
       "attenuation vs denial",
       "filtering vs distortion",
       "standardisation vs loss of requisite detail",
-      "environmental redesign vs internal processing"
+      "environmental redesign vs internal processing",
+      "loss of state information vs loss of a required action distinction",
+      "task-preserving coarsening vs an incompatible grouping",
+      "frequency-weighted uncertainty vs unequal consequences"
     ],
     "historical_lineage": [
       "Ashby's variety engineering",
@@ -95,7 +98,6 @@
       "aggregation preserves all relevant meaning"
     ],
     "open_checks": [
-      "Ashby primary passages",
       "Beer variety engineering",
       "forms and failure demand",
       "ethical attenuation"
@@ -103,16 +105,20 @@
     "source_ids": [
       "src_ashby_intro_cybernetics_1956",
       "src_taylor_vsm_lecture_2025",
-      "src_taylor_core_thinking_2026"
+      "src_taylor_core_thinking_2026",
+      "src_shannon_communication_1948"
     ],
     "evidence_ids": [
       "ev_ashby_requisite_variety",
       "ev_taylor_vsm_viability",
-      "ev_taylor_core_distinctions_boundaries"
+      "ev_taylor_core_distinctions_boundaries",
+      "ev_u40_variety_v1",
+      "ev_u40_variety_v2"
     ],
-    "last_researched": "2026-08-09",
+    "last_researched": "2026-11-07",
     "review_status": "research_pass_needs_editor",
-    "editorial_note": "Readable orientation and evidence-backed first pass. Named editorial review is still required before canonical acceptance."
+    "editorial_note": "Candidate source clarification and original finite model. Existing historical and practical claims retain their evidence limits; human editorial acceptance remains pending.",
+    "connection_pass": "variety_20261107"
   },
   "connections": [
     {
@@ -280,6 +286,32 @@
       "public_link_status": "no_public_link"
     },
     {
+      "id": "src_shannon_communication_1948",
+      "title": "A Mathematical Theory of Communication",
+      "source_type": "primary_text",
+      "quality_tier": "A",
+      "access": "public",
+      "url": "https://doi.org/10.1002/j.1538-7305.1948.tb01338.x",
+      "date": "1948",
+      "notes": "Primary text opened and inspected; reprint header identifies the original 1948 publication. This locator uses the corrected reprint's pagination. The engineering model expressly brackets semantic aspects.",
+      "creators": [
+        "Claude E. Shannon"
+      ],
+      "doi": "10.1002/j.1538-7305.1948.tb01338.x",
+      "isbn": "",
+      "publisher": "Bell System Technical Journal 27, 379–423 and 623–656",
+      "licence": "publisher_terms",
+      "archived_url": "",
+      "content_hash": "",
+      "review_status": "passage_checked_research_pass",
+      "last_checked": "2026-10-29",
+      "public_link_status": "public_link",
+      "reading_url": "https://people.math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf",
+      "connection_pass": "depth_20261029",
+      "source_locator": "Introduction, corrected reprint PDF p. 1",
+      "access_note": "This locator uses the corrected reprint's pagination. The engineering model expressly brackets semantic aspects."
+    },
+    {
       "id": "src_grammar_presentation_2022",
       "title": "The Grammar of Systems - SCiO presentation",
       "source_type": "presentation",
@@ -403,6 +435,18 @@
       "id": "ev_taylor_core_distinctions_boundaries",
       "source_id": "src_taylor_core_thinking_2026",
       "locator": "sections beginning 'systems work is not mapping the system' and 'a system boundary is not innocent'",
+      "review_status": "research_pass_needs_editor"
+    },
+    {
+      "id": "ev_u40_variety_v1",
+      "source_id": "src_ashby_intro_cybernetics_1956",
+      "locator": "§§7/6–7/7, pp124–126; PDF68–69",
+      "review_status": "research_pass_needs_editor"
+    },
+    {
+      "id": "ev_u40_variety_v2",
+      "source_id": "src_shannon_communication_1948",
+      "locator": "§6, pp10–12; Theorem2, property2, properties5–6",
       "review_status": "research_pass_needs_editor"
     }
   ],
