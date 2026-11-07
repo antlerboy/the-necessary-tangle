@@ -70,5 +70,6 @@ jobs:
             validation/update-40-browser/
             validation/update-41-browser/
             validation/update-42-browser/
+            validation/update-42-diagnostics.json
             validation/readable-atlas-browser/
           if-no-files-found: ignore

@@ -3,7 +3,7 @@
 <!-- control_inference_20261107 -->
 ## Local research candidate 0.42
 
-7 November 2026. Two existing concepts receive located evidence and question-led readers. The corrected local content was reviewed at 4a62ed808260118d0a716098d77fa17b44ad7648. A CI-only feature-branch pull request is the authorised next stage; full Ubuntu validation is pending. The candidate is unpublished, and this stage does not permit merge or deployment. Human editorial acceptance remains pending. Edition 0.41 merged at 3886a587; its source backup passed, but the Pages deployment timed out twice. The independently verified public edition remains 0.40.
+7 November 2026. Two existing concepts receive located evidence and question-led readers. The corrected local content was reviewed at 4a62ed808260118d0a716098d77fa17b44ad7648. CI-only PR 106 run 42341157810 failed the 0.42 nodes guard during make validate; browser steps did not run. The bounded diagnostic comparison has passed local review and is authorised for one PR CI run; its outcome is pending. The candidate is unpublished, and this stage does not permit merge or deployment. Human editorial acceptance remains pending. Edition 0.41 merged at 3886a587; its source backup passed, but the Pages deployment timed out twice. The independently verified public edition remains 0.40.
 <!-- /control_inference_20261107 -->
 
 
