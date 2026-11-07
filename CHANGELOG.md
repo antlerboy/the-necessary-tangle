@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.41 — 7 November 2026
+
+Two existing profiles, four located primary clarifications, and an original discrete response model. Human editorial acceptance remains pending.
+
+
 ## 0.40 — 7 November 2026
 
 Three existing variety profiles, located primary evidence, and an original finite model. Human editorial acceptance remains pending.

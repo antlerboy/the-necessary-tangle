@@ -1,7 +1,14 @@
 # Current Tangle state
 
+<!-- feedback_regulation_20261107 -->
+## Current research edition 0.41
+
+7 November 2026. Two existing profiles receive four located primary clarifications and an original discrete response model. Reader route: https://transduction.systems/reading/feedback-and-regulation/. Human editorial acceptance remains pending. Deployment identity and live checks belong to deployment.json and the Publish workflow.
+<!-- /feedback_regulation_20261107 -->
+
+
 <!-- variety_20261107 -->
-## Current research edition 0.40
+## Previous research edition 0.40
 
 7 November 2026. Three existing variety profiles receive located primary-source clarifications and a finite editorial model. Reader route: https://transduction.systems/reading/which-distinctions/. Human editorial acceptance remains pending. Deployment identity and live checks belong to deployment.json and the Publish workflow.
 <!-- /variety_20261107 -->
@@ -67,5 +74,5 @@ Edition 1.1, 29 October 2026. /saidtosomeone/ has 54 entries with exact and repo
 <!-- readable-atlas-state -->
 ## Readable atlas editions, introduced 5 November 2026
 
-The maintained public projection generates 233 developed entry pages and 30 complete reading journeys, each with a stable URL. Entries preserve recorded status, sources, passage locators, claims, and typed connections. Sourced JSON downloads omit evidence excerpts and retain attribution and licence boundaries. Practical home routes, readable indexes, interactive edition links, a stewardship page, and sitemap entries are generated from the same maintained data. These reader projections use graph release 0.40; the reader generator introduces no new claims. No independent teaching review or reviewer appointment is implied. The original implementation is recorded in documentation/estate-implementation-20261105.md; later content releases have their own evidence and publication records.
+The maintained public projection generates 233 developed entry pages and 30 complete reading journeys, each with a stable URL. Entries preserve recorded status, sources, passage locators, claims, and typed connections. Sourced JSON downloads omit evidence excerpts and retain attribution and licence boundaries. Practical home routes, readable indexes, interactive edition links, a stewardship page, and sitemap entries are generated from the same maintained data. These reader projections use graph release 0.41; the reader generator introduces no new claims. No independent teaching review or reviewer appointment is implied. The original implementation is recorded in documentation/estate-implementation-20261105.md; later content releases have their own evidence and publication records.
 <!-- /readable-atlas-state -->

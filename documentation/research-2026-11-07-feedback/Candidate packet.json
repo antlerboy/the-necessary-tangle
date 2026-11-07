@@ -1,0 +1,169 @@
+{
+  "title": "Feedback and regulation: trace the mechanism",
+  "date": "2026-11-07",
+  "status": "Located-primary candidate; not applied or published",
+  "baseline_commit": "30810a14c93a15490640e3355eb36220725b514c",
+  "cohort": [
+    "concept_feedback",
+    "concept_regulation"
+  ],
+  "sources": [
+    {
+      "id": "src_maxwell_on_governors_1868",
+      "author": "James Clerk Maxwell",
+      "title": "On Governors",
+      "date": "1868",
+      "url": "https://webhomes.maths.ed.ac.uk/~v1ranick/papers/maxwell1.pdf",
+      "locator": "Printed pp271–272; PDF2–3",
+      "inspection": "Original primary page text and both page images inspected; historical continuous mechanical governor, not the discrete teaching recurrence."
+    },
+    {
+      "id": "src_rosenblueth_wiener_bigelow_1943",
+      "author": "Arturo Rosenblueth, Norbert Wiener, and Julian Bigelow",
+      "title": "Behavior, Purpose and Teleology",
+      "date": "1943",
+      "url": "https://home.csulb.edu/~cwallis/382/readings/482/wiener.behavior.purpose.teleology.1943.pdf",
+      "locator": "Printed pp19–20; PDF3–4",
+      "inspection": "Primary text read; printed20 image inspected. Historical terminology and frequency qualification retained; no current neurological claim imported."
+    },
+    {
+      "id": "src_ashby_intro_cybernetics_1956",
+      "author": "W. Ross Ashby",
+      "title": "An Introduction to Cybernetics",
+      "date": "1956; later impression/electronic scan",
+      "url": "https://ashby.info/Ashby-Introduction-to-Cybernetics.pdf",
+      "locator": "§4/11, pp53–54, PDF31–32; §§10/4–10/7, pp197–201, PDF105–107; §§12/1,12/3–12/6, pp219,221–224, PDF117–120",
+      "inspection": "Primary prose and exact locators read. Selected renders omit some Symbol/ArialUnicode arrow/set glyphs; no diagram glyph transcription or visual verification of those glyphs is claimed."
+    }
+  ],
+  "source_facts": [
+    {
+      "id": "F1",
+      "source": "src_maxwell_on_governors_1868",
+      "locator": "pp271–272; PDF2–3",
+      "text": "Maxwell separates decaying from growing disturbances, including oscillatory cases. He describes governor adjustment becoming too strong for stable motion. His continuous mechanical analysis does not establish the thresholds of the discrete example below."
+    },
+    {
+      "id": "F2",
+      "source": "src_rosenblueth_wiener_bigelow_1943",
+      "locator": "pp19–20; PDF3–4",
+      "text": "The authors acknowledge a broader return-of-output usage, then restrict feedback to error-controlled negative feedback. Their overshoot account says inadequate damping can make feedback positive at particular frequencies. Preserve that qualification."
+    },
+    {
+      "id": "F3",
+      "source": "src_ashby_intro_cybernetics_1956",
+      "locator": "§4/11, pp53–54; PDF31–32",
+      "text": "Ashby uses feedback for mutual effects, discusses a narrower return-connection usage, and warns that circuit accounts alone do not determine the behaviour of richly interconnected wholes."
+    },
+    {
+      "id": "F4",
+      "source": "src_ashby_intro_cybernetics_1956",
+      "locator": "§§10/4–10/7, pp197–201; §§12/1,12/3–12/6, pp219,221–224",
+      "text": "Ashby specifies essential variables and acceptable states; protection may be passive or active. He distinguishes response to a threatened disturbance from error-based correction. His acceptable set is given outside the analysis; useful partial regulation can permit small errors."
+    }
+  ],
+  "profile_candidates": [
+    {
+      "node_id": "concept_feedback",
+      "baseline_profile_sha256": "fd4cf077e1d780277d96ecf3695c4873fc7ac2bcb4d8e744e5d2350e7b75a64a",
+      "proposed_profile": {
+        "node_id": "concept_feedback",
+        "title": "Feedback",
+        "profile_status": "evidence_deepened_research_pass",
+        "canonical_definition": "A circular causal or informational relation in which an output or consequence affects later input, state or action. The sign, delay, reference condition and mechanism must be stated.",
+        "summary": "Feedback is not merely receiving comments. It is a circular relation in which consequences return to influence what happens next. The loop may counteract change, reinforce it, oscillate, delay response or fail because no actor can use the returned information. A correction sign, a stable response, and acceptable performance are separate questions. Historical authors also used different boundaries for the term.",
+        "why_it_matters": "Systems work often says feedback when it means reporting, evaluation, data or learning. Those are only feedback when they close a loop that can alter subsequent action. Sign, delay, reference condition and response capacity determine what the loop actually does.",
+        "key_distinctions": "[\"negative or balancing vs positive or reinforcing feedback\", \"feedback vs feedforward\", \"feedback signal vs capacity to respond\", \"physical causal loop vs returned information\", \"feedback mechanism vs homeostatic condition\", \"measurement vs learning\", \"sign of an identified correction vs stability of the complete dynamics\", \"asymptotic decay vs finite acceptable-band compliance\", \"one circuit account vs behaviour of a richly connected whole\"]",
+        "historical_lineage": "[\"Maxwell 1868: mathematical governor analysis as a precursor\", \"Black 1934: stabilised negative-feedback amplifiers\", \"Rosenblueth, Wiener and Bigelow 1943: purposive behaviour and negative feedback\", \"Wiener 1948: cybernetic synthesis across animals and machines\"]",
+        "logical_antecedents": "[\"distinguishable input, output and state\", \"a return path through which consequences can alter later conditions\", \"time, delay and loop gain\", \"a reference or viability condition where correction is claimed\"]",
+        "dependent_subsequents": "[\"control and regulation\", \"system dynamics\", \"management cybernetics\", \"learning-loop metaphors\", \"homeostatic and adaptive models\"]",
+        "practice_connections": "[\"ask what information returns to whom\", \"test whether anyone can alter action in response\", \"state the delay before effects become visible\", \"separate balancing from reinforcing loops\", \"look for loops that reward gaming rather than purpose\", \"trace what returns, its timing, and what can change as a result\", \"state the mechanism and conditions before inferring stability from a feedback sign\"]",
+        "espoused_lineages": "[\"engineering control\", \"physiology\", \"cybernetics\", \"system dynamics\", \"organisational learning\"]",
+        "observed_clusters": "[]",
+        "common_misreadings": "[\"more feedback is always better\", \"positive means good and negative means bad\", \"a dashboard is feedback even when nobody can act\", \"homeostasis and feedback are synonyms\", \"all loops stabilise\", \"negative feedback guarantees a stable or beneficial result\", \"feedback has one uncontested historical definition\"]",
+        "open_checks": "[\"Nyquist and Bode lineage\", \"Forrester and system dynamics\", \"Bateson, Argyris and learning\", \"Beer and organisational feedback channels\"]",
+        "source_ids": "[\"src_maxwell_on_governors_1868\", \"src_black_feedback_1934\", \"src_rosenblueth_wiener_bigelow_1943\", \"src_wiener_cybernetics_1948\", \"src_ieee_feedback_topic\", \"src_ashby_intro_cybernetics_1956\"]",
+        "evidence_ids": "[\"ev_maxwell_governors_precursor\", \"ev_black_negative_feedback\", \"ev_rwb_feedback_purpose\", \"ev_wiener_feedback_cybernetics\", \"ev_ieee_feedback_types\", \"ev41_feedback_maxwell_dynamics\", \"ev41_feedback_rwb_usage\", \"ev41_feedback_ashby_usage\"]",
+        "last_researched": "2026-11-07",
+        "review_status": "research_pass_needs_editor",
+        "editorial_note": "Readable orientation and evidence-backed first pass. Not accepted scholarly consensus until named review is recorded. Bounded located-primary clarification and original discrete-response example; canonical definition, historical lineage, existing open checks, and human editorial acceptance remain unchanged/pending."
+      },
+      "new_source_fact_ids": [
+        "F1",
+        "F2",
+        "F3"
+      ],
+      "proposed_new_evidence_ids": [
+        "ev41_feedback_maxwell_dynamics",
+        "ev41_feedback_rwb_usage",
+        "ev41_feedback_ashby_usage"
+      ],
+      "remaining_checks": [
+        "Nyquist and Bode lineage",
+        "Forrester and system dynamics",
+        "Bateson, Argyris and learning",
+        "Beer and organisational feedback channels"
+      ],
+      "new_interpretation": "Practice questions and finite recurrence are original exposition, not empirical organisational findings or a universal control theorem."
+    },
+    {
+      "node_id": "concept_regulation",
+      "baseline_profile_sha256": "81786b1cd2877760855d15cb4a12719fc3ea3bf123474e5a2774b09bd728be23",
+      "proposed_profile": {
+        "node_id": "concept_regulation",
+        "title": "Regulation",
+        "profile_status": "evidence_deepened_research_pass",
+        "canonical_definition": "A relation among disturbances, a reguland, a regulator and acceptable outcomes in which outcome variety is constrained relative to a stated goal or essential-variable range.",
+        "summary": "Regulation is the work of keeping outcomes within acceptable ranges despite disturbance. It may operate through feedback, anticipation, constraints, buffering, redundancy, local autonomy or changes to the environment. Specify the essential variables, acceptable set, and disturbance conditions. Ashby distinguishes passive protection, response to a threatened disturbance, and error-based correction; an error need not imply that useful regulation has failed.",
+        "why_it_matters": "Regulation is often collapsed into command and control. Ashby instead asks what variety of disturbance reaches the system, what responses are available and which outcomes count as acceptable. The regulator may be distributed rather than a boss or central unit.",
+        "key_distinctions": "[\"regulation vs domination\", \"regulator vs manager\", \"acceptable range vs one fixed target\", \"distributed vs central regulation\", \"regulation vs optimisation\", \"passive protection vs disturbance-based response vs error-based correction\", \"given acceptable set vs agreement about what ought to count as acceptable\", \"exact error elimination vs useful partial regulation\"]",
+        "historical_lineage": "[\"physiological regulation and governor analysis predate cybernetics\", \"Wiener connected control and communication\", \"Ashby formalised regulation in terms of variety and outcomes\"]",
+        "logical_antecedents": "[\"disturbances\", \"a reguland or essential variables\", \"acceptable outcomes\", \"responses and constraints\", \"information about relevant differences\"]",
+        "dependent_subsequents": "[\"law of requisite variety\", \"good regulator theorem\", \"homeostasis\", \"management cybernetics\", \"control design\"]",
+        "practice_connections": "[\"identify the variable that must remain viable\", \"map disturbance variety before adding controls\", \"ask where regulatory intelligence already sits\", \"protect local discretion where it carries necessary variety\", \"ask whose acceptable range is being protected and who may revise it\", \"check the actual protected outcome, not merely the presence of a returned signal\"]",
+        "espoused_lineages": "[\"physiology\", \"control engineering\", \"cybernetics\", \"management cybernetics\"]",
+        "observed_clusters": "[]",
+        "common_misreadings": "[\"regulation means bureaucracy\", \"the regulator must be central\", \"tighter control always improves regulation\", \"one target captures viability\", \"every regulator must wait for an error signal\", \"Ashby proves exact tracking impossible in every control model\"]",
+        "open_checks": "[\"legal and institutional regulation as a distinct lineage\", \"distributed regulation cases\"]",
+        "source_ids": "[\"src_ashby_intro_cybernetics_1956\", \"src_conant_ashby_good_regulator_1970\", \"src_wiener_cybernetics_1948\"]",
+        "evidence_ids": "[\"ev_ashby_requisite_variety\", \"ev_conant_ashby_theorem\", \"ev_wiener_feedback_cybernetics\", \"ev41_regulation_ashby_scope\"]",
+        "last_researched": "2026-11-07",
+        "review_status": "research_pass_needs_editor",
+        "editorial_note": "Readable orientation and evidence-backed first pass. Not accepted scholarly consensus until named review is recorded. Bounded located-primary clarification and original discrete-response example; canonical definition, historical lineage, existing open checks, and human editorial acceptance remain unchanged/pending."
+      },
+      "new_source_fact_ids": [
+        "F4"
+      ],
+      "proposed_new_evidence_ids": [
+        "ev41_regulation_ashby_scope"
+      ],
+      "remaining_checks": [
+        "legal and institutional regulation as a distinct lineage",
+        "distributed regulation cases"
+      ],
+      "new_interpretation": "Practice questions and finite recurrence are original exposition, not empirical organisational findings or a universal control theorem."
+    }
+  ],
+  "scope": "Two existing profiles only. Canonical definitions, historical/practical antecedents, all old evidence, and all existing open checks retained. No new nodes, graph edges, historical influence, ownership, quantified service benefit, or completed editorial acceptance.",
+  "original_model": {
+    "path": "model/index.html",
+    "recurrence": "y[n+1] = y[n] + k(r-y[n]); e[n+1] = (1-k)e[n]",
+    "fixed_conditions": "r=0 and k fixed per run; exact immediate measurement; integrating state update; one initial displacement; no additional plant/delay dynamics, noise, saturation, or subsequent disturbance.",
+    "meaning": "This is original exposition, not an equation taken from Maxwell, Rosenblueth/Wiener/Bigelow, or Ashby. Gain and step have no calibrated organisational or physical units.",
+    "analytic_result": "From a nonzero initial error, error tends to zero exactly for0<k<2. k=0 preserves error; k=1 reaches exact zero in one step; k=2 has undamped alternation; k>2 grows in magnitude. Initial zero remains zero for every shown gain and does not prove stability.",
+    "performance_result": "An inclusive tolerance-band test includes the initial state and only the chosen finite horizon. It is separate from analytic stability. Finite JavaScript values and rounded display are disclosed.",
+    "moving_target_limit": "If r varies, e[n+1]=(1-k)e[n]+r[n+1]-r[n]; the fixed-target result alone does not establish tracking.",
+    "model_assumption_not_a_claim": "No actual queue, service, organisational response, medical mechanism, or causal field result is inferred."
+  },
+  "unresolved": [
+    "Nyquist and Bode lineage",
+    "Forrester and system dynamics",
+    "Bateson/Argyris learning",
+    "Beer organisational channels",
+    "legal/institutional regulation lineage",
+    "distributed-regulation cases",
+    "Conant/Ashby theorem not re-audited in this packet",
+    "goals, boundary, affected parties, evidence, and authority in any actual application",
+    "human editorial acceptance"
+  ]
+}
