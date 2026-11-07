@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.42 — 7 November 2026
+
+Local candidate: two existing concepts, located evidence, and two question-led readers. Publication and human editorial acceptance remain pending.
+
+
 ## 0.41 — 7 November 2026
 
 Two existing profiles, four located primary clarifications, and an original discrete response model. Human editorial acceptance remains pending.

@@ -412,6 +412,18 @@
     <lastmod>2026-11-07</lastmod>
   </url>
   <url>
+    <loc>https://transduction.systems/reading/feedforward-timing/</loc>
+    <lastmod>2026-11-07</lastmod>
+  </url>
+  <url>
+    <loc>https://transduction.systems/reading/black-box-evidence/</loc>
+    <lastmod>2026-11-07</lastmod>
+  </url>
+  <url>
+    <loc>https://transduction.systems/updates/2026-11-07-control/</loc>
+    <lastmod>2026-11-07</lastmod>
+  </url>
+  <url>
     <loc>https://transduction.systems/entries/</loc>
   </url>
   <url>
@@ -482,6 +494,9 @@
   </url>
   <url>
     <loc>https://transduction.systems/entries/concept_bifurcation/</loc>
+  </url>
+  <url>
+    <loc>https://transduction.systems/entries/concept_black_box/</loc>
   </url>
   <url>
     <loc>https://transduction.systems/entries/publication_u31_bogdanov/</loc>
