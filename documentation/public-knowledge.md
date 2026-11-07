@@ -1,7 +1,7 @@
 # The Necessary Tangle: public knowledge file
 
 Curated by Benjamin P Taylor — https://www.antlerboy.com/
-Generated from public release 0.41 on 2026-11-07.
+Generated from public release 0.42 on 2026-11-07.
 
 A living evidence atlas of systems | cybernetics | complexity.
 Every connection must say what it means. Historical sequence, logical dependence, influence, teaching, collaboration, practical use, comparison and dispute are not interchangeable.
@@ -1824,6 +1824,48 @@ Type: Concept
 Public depth: described
 
 A black box is a system treated through observable inputs, outputs and behaviour while its internal organisation remains unknown, inaccessible or deliberately bracketed. The move is selective: what counts as input, output and relevant behaviour still depends on purpose, boundary and observer.
+
+### Summary
+
+An investigation chooses inputs, outputs, and conditions to record. A finite consistent record leaves untried behaviour uncertain; even matching behaviour at a chosen interface need not identify a unique internal arrangement.
+
+### Why it matters
+
+A useful description depends on what was observed, what could be tested, and which distinctions were retained. Further tests can distinguish predictions when the relevant conditions are accessible and repeatable.
+
+### Key distinctions
+
+- tested history and untested inputs
+- matching stipulated behaviour and matching finite trials
+- observed relation and internal arrangement
+- a valid grouping and an arbitrary simplification
+
+### Historical development
+
+[]
+
+### Ideas it depends on
+
+[]
+
+### What develops from it
+
+[]
+
+### Connections to practice
+
+- Record the sequence, conditions, inputs, and outputs
+- Ask which test would distinguish competing predictions
+- Note inaccessible states and limits of grouping
+
+### Common confusions
+
+- A finite record determines every untested response
+- A matching interface uniquely identifies an internal mechanism
+
+### Open questions and checks
+
+[]
 
 ### Sources
 
@@ -6410,11 +6452,11 @@ A control or coordination relation in which information about intended condition
 
 ### Summary
 
-Feedforward acts before the result is available to be measured. It uses intention, forecast or measured disturbance to shape action in advance. It is usually strongest when combined with feedback that corrects modelling error and surprise.
+Feedforward uses intention, forecast, or a measured disturbance to shape action before its resulting output is observed. Its effectiveness depends on the model, available action, and timing. Feedback may respond to a measured deviation when the controller, action, and timing permit.
 
 ### Why it matters
 
-Waiting for failure before responding is often costly. Feedforward can prepare capacity, prevent deviation and make intentions interpretable. Its weakness is that it depends on the quality of the model, forecast and disturbance sensing.
+An early warning can make preventive action possible. A later warning may help limit consequences or support learning. Neither early information nor later measurement guarantees an adequate response.
 
 ### Key distinctions
 
@@ -6465,6 +6507,7 @@ Waiting for failure before responding is often costly. Feedforward can prepare c
 ### Sources
 
 - Feedforward systems - IEEE Technology Navigator — https://technav.ieee.org/topic/feedforward-systems/
+- Measurable Disturbances Compensation: Analysis and Tuning of Feedforward Techniques for Dead-Time Processes — https://doi.org/10.3390/pr4020012
 
 ## FEM toolkit
 

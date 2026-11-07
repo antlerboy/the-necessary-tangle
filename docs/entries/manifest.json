@@ -1,6 +1,6 @@
 {
-  "release": "0.41",
-  "entry_count": 233,
+  "release": "0.42",
+  "entry_count": 234,
   "journey_count": 30,
   "routes": [
     "/entries/",
@@ -27,6 +27,7 @@
     "/entries/publication_u31_von-bertalanffy/",
     "/entries/publication_u31_bhaskar/",
     "/entries/concept_bifurcation/",
+    "/entries/concept_black_box/",
     "/entries/publication_u31_bogdanov/",
     "/entries/concept_boundary/",
     "/entries/concept_boundary_critique/",

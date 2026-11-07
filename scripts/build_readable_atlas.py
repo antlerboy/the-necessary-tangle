@@ -129,6 +129,10 @@ def main():
         body += '<aside class="status"><h2>Review status</h2><p>Profile: ' + esc(human(profile.get('review_status') or profile.get('profile_status'))) + '. Entry: ' + esc(human(node.get('review_status'))) + '.</p>' + paragraph(profile.get('editorial_note'))
         body += '<p>Named reviewer: ' + esc(profile.get('reviewed_by') or 'not recorded for this profile') + '. Last researched: ' + esc(profile.get('last_researched') or 'not recorded') + '.</p></aside>'
         body += '<p class="actions"><a href="/#view=item&amp;id=' + esc(ident) + '">Open the interactive entry</a> · <a href="/#view=map&amp;focus=' + esc(ident) + '">Explore its map</a> · <a download href="record.json">Download the sourced record (JSON)</a></p>'
+        reader_routes = {'concept_feedforward': ('/reading/feedforward-timing/', 'When does the warning arrive?'), 'concept_black_box': ('/reading/black-box-evidence/', 'What does the record establish?')}
+        if ident in reader_routes and data.get('control_inference_20261107'):
+            url, label = reader_routes[ident]
+            body += '<p><a href="' + url + '">' + label + '</a></p>'
         for heading, key in sections:
             value = profile.get(key)
             if value:

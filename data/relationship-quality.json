@@ -1,7 +1,7 @@
 {
   "schema_version": "1.1",
   "generated": "2026-11-07",
-  "release": "0.41",
+  "release": "0.42",
   "purpose": "Machine-readable relationship-quality result after the evidence-led relationship review.",
   "contract": {
     "human_readable_rationale": "A relation has a plain phrase and either notes, scope conditions or an inference method.",
@@ -30,10 +30,10 @@
     "public_entries": 1295,
     "all_nodes": 1422,
     "all_edges": 3158,
-    "sources": 853,
+    "sources": 854,
     "claims": 140,
-    "evidence_records": 210,
-    "profiles": 233,
+    "evidence_records": 216,
+    "profiles": 234,
     "journeys": 30,
     "external_corpora_reviewed": 12,
     "internal_sources_reviewed": 18,
@@ -66,7 +66,7 @@
     },
     "sources": {
       "before": 153,
-      "after": 853
+      "after": 854
     },
     "semantic_connected_entries": {
       "before": 329,
