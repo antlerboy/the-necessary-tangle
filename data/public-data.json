@@ -9,7 +9,7 @@
     "namespace": "scc_bok",
     "node_count": 1422,
     "edge_count": 3158,
-    "source_count": 853,
+    "source_count": 859,
     "claim_count": 34,
     "evidence_count": 41,
     "profile_count": 233,
@@ -22,7 +22,7 @@
     "public_entry_count": 1295,
     "described_entry_count": 1295,
     "stub_entry_count": 0,
-    "public_link_source_count": 837,
+    "public_link_source_count": 843,
     "no_public_link_source_count": 16,
     "repository_url": "https://github.com/antlerboy/the-necessary-tangle",
     "author_role": "curator",
@@ -127,7 +127,8 @@
     "connection_pass": "september_connections_2026",
     "connection_pass_url": "https://transduction.systems/updates/2026-09-09/",
     "latest_map_review_url": "https://transduction.systems/prior-maps/coexplorer/",
-    "latest_intake_url": "https://transduction.systems/updates/2026-10-24/"
+    "latest_intake_url": "https://transduction.systems/updates/2026-10-24/",
+    "latest_syscoi_intake_url": "https://transduction.systems/library/syscoi/"
   },
   "nodes": [
     {
@@ -142640,6 +142641,288 @@
       "reviewed_by": "",
       "reviewed_at": "",
       "access_note": "The autonomy plane concerns coordination mechanisms."
+    },
+    {
+      "id": "src_syscoi_post_29386",
+      "title": "Richard S O’Rourke",
+      "source_type": "public_source",
+      "quality_tier": "B",
+      "access": "public",
+      "url": "https://stream.syscoi.com/2026/10/27/richard-s-orourke/",
+      "date": "2026-10-27",
+      "notes": "Richard S O’Rourke sets out a research programme on sustainability that brings energy and material flows into conversation with cybernetic regulation and political economy. His homepage distinguishes thermodynamic entropy from information entropy, and follows a route through Lotka, Ashby, and economic theory. Its research list separates working drafts from published work. This is the same author’s research hub already represented in the atlas; the later SysCoI post also supplies his Substack writing route.",
+      "creators": "[\"Benjamin P Taylor\"]",
+      "doi": "",
+      "isbn": "",
+      "publisher": "Systems Community of Inquiry",
+      "licence": "Linked works retain their authorship and terms",
+      "archived_url": "",
+      "content_hash": "98d4beea8bdad09fbf2b021a2cab5ce14a458a657f67949e7ab3df066a4a5bf4",
+      "review_status": "source_scoped_summary",
+      "last_checked": "2026-11-07",
+      "public_link_status": "public_link",
+      "original_urls": "[\"https://rsorourke.substack.com\",\"https://rsorourke.com\"]",
+      "canonical_aliases": "[\"https://rsorourke.com/\"]",
+      "source_role": "discovery provenance",
+      "source_locator": "Public post 29386; original outbound links; description locators in /library/syscoi/intake.json",
+      "intake_owner": "syscoi_continuous_intake",
+      "wp_site_id": 130780538,
+      "wp_post_id": 29386,
+      "wp_modified_local": "2026-10-27T06:59:39",
+      "description_sources": [
+        {
+          "url": "https://rsorourke.com/",
+          "locator": "The foundations; The programme; Research & writing",
+          "checked_at": "2026-11-07"
+        }
+      ],
+      "versions": [
+        {
+          "modified_local": "2026-10-27T06:59:39",
+          "content_sha256": "98d4beea8bdad09fbf2b021a2cab5ce14a458a657f67949e7ab3df066a4a5bf4",
+          "post_url": "https://stream.syscoi.com/2026/10/27/richard-s-orourke/",
+          "original_urls": [
+            "https://rsorourke.substack.com",
+            "https://rsorourke.com"
+          ],
+          "observed_at": "2026-11-07"
+        }
+      ]
+    },
+    {
+      "id": "src_syscoi_post_29394",
+      "title": "An Introduction to Cybernetics – TextbookLudos",
+      "source_type": "public_source",
+      "quality_tier": "B",
+      "access": "public",
+      "url": "https://stream.syscoi.com/2026/10/28/an-introduction-to-cybernetics-textbookludos/",
+      "date": "2026-10-28",
+      "notes": "The public SysCoI post names this resource ‘An Introduction to Cybernetics – TextbookLudos’ and links to the site below. The destination returned HTTP 403 when checked on 7 November 2026. Its contents, authorship, features, and coverage could not be verified; the discovery link is retained here without a descriptive account of unseen material.",
+      "creators": "[\"Benjamin P Taylor\"]",
+      "doi": "",
+      "isbn": "",
+      "publisher": "Systems Community of Inquiry",
+      "licence": "Linked works retain their authorship and terms",
+      "archived_url": "",
+      "content_hash": "8415900767eed76d4139cf0a5057e9377abaef93739691e4c3b44ced1e4939ba",
+      "review_status": "link_only_access_limited",
+      "last_checked": "2026-11-07",
+      "public_link_status": "public_link",
+      "original_urls": "[\"https://ludos.benjaming98765.chatgpt.site\"]",
+      "canonical_aliases": "[\"https://ludos.benjaming98765.chatgpt.site/\"]",
+      "source_role": "discovery provenance",
+      "source_locator": "Public post 29394; original outbound links; description locators in /library/syscoi/intake.json",
+      "intake_owner": "syscoi_continuous_intake",
+      "wp_site_id": 130780538,
+      "wp_post_id": 29394,
+      "wp_modified_local": "2026-10-28T05:56:37",
+      "description_sources": [
+        {
+          "url": "https://stream.syscoi.com/2026/10/28/an-introduction-to-cybernetics-textbookludos/",
+          "locator": "Public post title and outbound URL; destination retrieval returned HTTP 403",
+          "checked_at": "2026-11-07"
+        }
+      ],
+      "versions": [
+        {
+          "modified_local": "2026-10-28T05:56:37",
+          "content_sha256": "8415900767eed76d4139cf0a5057e9377abaef93739691e4c3b44ced1e4939ba",
+          "post_url": "https://stream.syscoi.com/2026/10/28/an-introduction-to-cybernetics-textbookludos/",
+          "original_urls": [
+            "https://ludos.benjaming98765.chatgpt.site"
+          ],
+          "observed_at": "2026-11-07"
+        }
+      ]
+    },
+    {
+      "id": "src_syscoi_post_29398",
+      "title": "Chaos to coordination: vibrating material organises itself into a single rhythm – University of Birmingham",
+      "source_type": "public_source",
+      "quality_tier": "B",
+      "access": "public",
+      "url": "https://stream.syscoi.com/2026/10/28/chaos-to-coordination-vibrating-material-organises-itself-into-a-single-rhythm-university-of-birmingham/",
+      "date": "2026-10-28",
+      "notes": "The University of Birmingham reports experiments in which active mechanical units settle into coordinated oscillation through local, non-reciprocal interactions. Initially short waves grow in scale, period, and amplitude until the material moves together. The report describes both a honeycomb assembly and an elastic ring, and calls the process wave coarsening. It provides a concrete physical example of coordination arising from designed interactions. Proposed uses in robotics remain prospective applications of the reported experiments.",
+      "creators": "[\"Benjamin P Taylor\"]",
+      "doi": "",
+      "isbn": "",
+      "publisher": "Systems Community of Inquiry",
+      "licence": "Linked works retain their authorship and terms",
+      "archived_url": "",
+      "content_hash": "ac0d26a58aca28d39b55654e8ed126fe2f6c6cd0ef6051869c82e5d0d627b217",
+      "review_status": "source_scoped_summary",
+      "last_checked": "2026-11-07",
+      "public_link_status": "public_link",
+      "original_urls": "[\"https://www.birmingham.ac.uk/news/2026/chaos-to-coordination-vibrating-material-organises-itself-into-a-single-rhythm\"]",
+      "canonical_aliases": "[\"https://birmingham.ac.uk/news/2026/chaos-to-coordination-vibrating-material-organises-itself-into-a-single-rhythm\"]",
+      "source_role": "discovery provenance",
+      "source_locator": "Public post 29398; original outbound links; description locators in /library/syscoi/intake.json",
+      "intake_owner": "syscoi_continuous_intake",
+      "wp_site_id": 130780538,
+      "wp_post_id": 29398,
+      "wp_modified_local": "2026-10-28T18:15:32",
+      "description_sources": [
+        {
+          "url": "https://www.birmingham.ac.uk/news/2026/chaos-to-coordination-vibrating-material-organises-itself-into-a-single-rhythm",
+          "locator": "14 October 2026 report; non-reciprocal interactions; 2D honeycomb material",
+          "checked_at": "2026-11-07"
+        }
+      ],
+      "versions": [
+        {
+          "modified_local": "2026-10-28T18:15:32",
+          "content_sha256": "ac0d26a58aca28d39b55654e8ed126fe2f6c6cd0ef6051869c82e5d0d627b217",
+          "post_url": "https://stream.syscoi.com/2026/10/28/chaos-to-coordination-vibrating-material-organises-itself-into-a-single-rhythm-university-of-birmingham/",
+          "original_urls": [
+            "https://www.birmingham.ac.uk/news/2026/chaos-to-coordination-vibrating-material-organises-itself-into-a-single-rhythm"
+          ],
+          "observed_at": "2026-11-07"
+        }
+      ]
+    },
+    {
+      "id": "src_syscoi_post_29411",
+      "title": "Up and Down the Ladder of Abstraction",
+      "source_type": "public_source",
+      "quality_tier": "B",
+      "access": "public",
+      "url": "https://stream.syscoi.com/2026/11/02/up-and-down-the-ladder-of-abstraction/",
+      "date": "2026-11-02",
+      "notes": "Bret Victor’s October 2011 interactive essay uses a simple car-control simulation to show how designers can move between a particular run and broader views of possible behaviour. Time and steering parameters can be varied; trajectories expose patterns that are difficult to see during real-time playback. Moving back to a concrete case tests what an abstract picture hides. The essay offers a practical approach to exploring a system when theory is insufficient to predict the consequences of design decisions.",
+      "creators": "[\"Benjamin P Taylor\"]",
+      "doi": "",
+      "isbn": "",
+      "publisher": "Systems Community of Inquiry",
+      "licence": "Linked works retain their authorship and terms",
+      "archived_url": "",
+      "content_hash": "d62cd6d10ee81777d89206c49e26ce1772a31c86f7a88e23e6db86a1dc6e88a6",
+      "review_status": "source_scoped_summary",
+      "last_checked": "2026-11-07",
+      "public_link_status": "public_link",
+      "original_urls": "[\"https://worrydream.com/LadderOfAbstraction/?utm_source=chatgpt.com\"]",
+      "canonical_aliases": "[\"https://worrydream.com/LadderOfAbstraction\"]",
+      "source_role": "discovery provenance",
+      "source_locator": "Public post 29411; original outbound links; description locators in /library/syscoi/intake.json",
+      "intake_owner": "syscoi_continuous_intake",
+      "wp_site_id": 130780538,
+      "wp_post_id": 29411,
+      "wp_modified_local": "2026-11-02T06:59:23",
+      "description_sources": [
+        {
+          "url": "https://worrydream.com/LadderOfAbstraction/",
+          "locator": "A Systematic Approach to Interactive Visualization; Controlling Time; Abstracting Over Time; Stepping Back Down",
+          "checked_at": "2026-11-07"
+        }
+      ],
+      "versions": [
+        {
+          "modified_local": "2026-11-02T06:59:23",
+          "content_sha256": "d62cd6d10ee81777d89206c49e26ce1772a31c86f7a88e23e6db86a1dc6e88a6",
+          "post_url": "https://stream.syscoi.com/2026/11/02/up-and-down-the-ladder-of-abstraction/",
+          "original_urls": [
+            "https://worrydream.com/LadderOfAbstraction/?utm_source=chatgpt.com"
+          ],
+          "observed_at": "2026-11-07"
+        }
+      ]
+    },
+    {
+      "id": "src_syscoi_post_29414",
+      "title": "Second Law Studio – The Right to Stop",
+      "source_type": "public_source",
+      "quality_tier": "B",
+      "access": "public",
+      "url": "https://stream.syscoi.com/2026/11/02/second-law-studio-the-right-to-stop/",
+      "date": "2026-11-02",
+      "notes": "Second Law Studio’s first research paper, The Right to Stop, examines Lean practices through the authority to raise evidence and change the operating model. The publisher describes unresolved evidence as epistemic work-in-progress, asking how it is noticed, admitted, assigned, and resolved when correction capacity is overloaded. It proposes operational corrigibility as a capacity for repeated correction. This description is based on the studio’s own public announcement; the paper’s full argument was not independently assessed here.",
+      "creators": "[\"Benjamin P Taylor\"]",
+      "doi": "",
+      "isbn": "",
+      "publisher": "Systems Community of Inquiry",
+      "licence": "Linked works retain their authorship and terms",
+      "archived_url": "",
+      "content_hash": "0158381e7c09af70f4c42985ae261204769c108068e5fe36af3cc223e24c1c47",
+      "review_status": "source_scoped_summary",
+      "last_checked": "2026-11-07",
+      "public_link_status": "public_link",
+      "original_urls": "[\"https://www.secondlaw.studio/#publications\"]",
+      "canonical_aliases": "[\"https://secondlaw.studio/\"]",
+      "source_role": "discovery provenance",
+      "source_locator": "Public post 29414; original outbound links; description locators in /library/syscoi/intake.json",
+      "intake_owner": "syscoi_continuous_intake",
+      "wp_site_id": 130780538,
+      "wp_post_id": 29414,
+      "wp_modified_local": "2026-11-02T07:08:29",
+      "description_sources": [
+        {
+          "url": "https://uk.linkedin.com/company/second-law-studio",
+          "locator": "Publisher announcement: Published: The Right to Stop",
+          "checked_at": "2026-11-07"
+        },
+        {
+          "url": "https://www.linkedin.com/posts/dereksmith1_the-right-to-stop-epistemic-work-in-progress-activity-7498399675318816768-pXMQ",
+          "locator": "Author’s publication announcement",
+          "checked_at": "2026-11-07"
+        }
+      ],
+      "versions": [
+        {
+          "modified_local": "2026-11-02T07:08:29",
+          "content_sha256": "0158381e7c09af70f4c42985ae261204769c108068e5fe36af3cc223e24c1c47",
+          "post_url": "https://stream.syscoi.com/2026/11/02/second-law-studio-the-right-to-stop/",
+          "original_urls": [
+            "https://www.secondlaw.studio/#publications"
+          ],
+          "observed_at": "2026-11-07"
+        }
+      ]
+    },
+    {
+      "id": "src_syscoi_post_29420",
+      "title": "Discovering network resilience formulas with symbolized reinforcement learning",
+      "source_type": "public_source",
+      "quality_tier": "B",
+      "access": "public",
+      "url": "https://stream.syscoi.com/2026/11/02/discovering-network-resilience-formulas-with-symbolized-reinforcement-learning/",
+      "date": "2026-11-02",
+      "notes": "Yu Zheng and colleagues report a method that turns learned network-attack strategies into interpretable formulas for assessing resilience. Their account considers both network structure and the dynamical states imposed on it, including the association between node degree and state. The method aims to identify components whose removal can cause a network to fail. The Nature Communications abstract is the basis of this description: the reported performance improvements belong to the authors’ evaluated settings, and do not establish a general measure for every social or organisational use of resilience.",
+      "creators": "[\"Benjamin P Taylor\"]",
+      "doi": "",
+      "isbn": "",
+      "publisher": "Systems Community of Inquiry",
+      "licence": "Linked works retain their authorship and terms",
+      "archived_url": "",
+      "content_hash": "0704b4d7dceb8fb5880e6d535e83feeac0fb397d1963fc46f5b57374b419cf09",
+      "review_status": "source_scoped_summary",
+      "last_checked": "2026-11-07",
+      "public_link_status": "public_link",
+      "original_urls": "[\"https://www.nature.com/articles/s41467-026-78269-3\"]",
+      "canonical_aliases": "[\"https://nature.com/articles/s41467-026-78269-3\"]",
+      "source_role": "discovery provenance",
+      "source_locator": "Public post 29420; original outbound links; description locators in /library/syscoi/intake.json",
+      "intake_owner": "syscoi_continuous_intake",
+      "wp_site_id": 130780538,
+      "wp_post_id": 29420,
+      "wp_modified_local": "2026-11-02T07:10:56",
+      "description_sources": [
+        {
+          "url": "https://www.nature.com/articles/s41467-026-78269-3",
+          "locator": "Abstract; authors; early-access publication statement, 19 October 2026",
+          "checked_at": "2026-11-07"
+        }
+      ],
+      "versions": [
+        {
+          "modified_local": "2026-11-02T07:10:56",
+          "content_sha256": "0704b4d7dceb8fb5880e6d535e83feeac0fb397d1963fc46f5b57374b419cf09",
+          "post_url": "https://stream.syscoi.com/2026/11/02/discovering-network-resilience-formulas-with-symbolized-reinforcement-learning/",
+          "original_urls": [
+            "https://www.nature.com/articles/s41467-026-78269-3"
+          ],
+          "observed_at": "2026-11-07"
+        }
+      ]
     }
   ],
   "evidence": [
@@ -190769,5 +191052,322 @@
     "source_packet": "documentation/research-2026-11-07-variety/",
     "reader_url": "/reading/which-distinctions/",
     "scope": "Three existing profiles; primary clarifications and original finite exposition; editorial acceptance pending."
+  },
+  "syscoi_intake": {
+    "schema_version": 1,
+    "site_id": 130780538,
+    "collection_url": "https://transduction.systems/library/syscoi/",
+    "manifest_sha256": "abcf78e381c1f9073971e1370bc7f33c1c260f6c1f05ce003f643b26637d320e",
+    "post_count": 6,
+    "resource_count": 6,
+    "reused_resource_count": 1,
+    "atlas_nodes_added": 0,
+    "graph_edges_added": 0,
+    "resources": [
+      {
+        "id": "cybernetic_reading_orourke",
+        "existing_source_ids": [
+          "src_syscoi_post_29183"
+        ],
+        "existing_catalogue_ids": [
+          "cybernetic_reading_orourke"
+        ],
+        "existing_node_ids": [
+          "publication_syscoi_post_29183"
+        ],
+        "canonical_aliases": [
+          "https://rsorourke.com/"
+        ],
+        "title": "Richard S O’Rourke",
+        "url": "https://rsorourke.com/",
+        "description": "Richard S O’Rourke sets out a research programme on sustainability that brings energy and material flows into conversation with cybernetic regulation and political economy. His homepage distinguishes thermodynamic entropy from information entropy, and follows a route through Lotka, Ashby, and economic theory. Its research list separates working drafts from published work. This is the same author’s research hub already represented in the atlas; the later SysCoI post also supplies his Substack writing route.",
+        "description_status": "source_scoped_summary",
+        "description_sources": [
+          {
+            "url": "https://rsorourke.com/",
+            "locator": "The foundations; The programme; Research & writing",
+            "checked_at": "2026-11-07"
+          }
+        ],
+        "source_authors": [
+          "Richard S O’Rourke"
+        ],
+        "post_ids": [
+          29386
+        ],
+        "source_ids": [
+          "src_syscoi_post_29386"
+        ],
+        "latest_published_gmt": "2026-10-27T11:59:39Z"
+      },
+      {
+        "id": "resource_syscoi_post_29394",
+        "existing_source_ids": [],
+        "existing_catalogue_ids": [],
+        "existing_node_ids": [],
+        "canonical_aliases": [
+          "https://ludos.benjaming98765.chatgpt.site/"
+        ],
+        "title": "An Introduction to Cybernetics – TextbookLudos",
+        "url": "https://ludos.benjaming98765.chatgpt.site/",
+        "description": "The public SysCoI post names this resource ‘An Introduction to Cybernetics – TextbookLudos’ and links to the site below. The destination returned HTTP 403 when checked on 7 November 2026. Its contents, authorship, features, and coverage could not be verified; the discovery link is retained here without a descriptive account of unseen material.",
+        "description_status": "link_only_access_limited",
+        "description_sources": [
+          {
+            "url": "https://stream.syscoi.com/2026/10/28/an-introduction-to-cybernetics-textbookludos/",
+            "locator": "Public post title and outbound URL; destination retrieval returned HTTP 403",
+            "checked_at": "2026-11-07"
+          }
+        ],
+        "source_authors": [],
+        "post_ids": [
+          29394
+        ],
+        "source_ids": [
+          "src_syscoi_post_29394"
+        ],
+        "latest_published_gmt": "2026-10-28T10:56:37Z"
+      },
+      {
+        "id": "resource_syscoi_post_29398",
+        "existing_source_ids": [],
+        "existing_catalogue_ids": [],
+        "existing_node_ids": [],
+        "canonical_aliases": [
+          "https://birmingham.ac.uk/news/2026/chaos-to-coordination-vibrating-material-organises-itself-into-a-single-rhythm"
+        ],
+        "title": "Chaos to coordination: vibrating material organises itself into a single rhythm – University of Birmingham",
+        "url": "https://www.birmingham.ac.uk/news/2026/chaos-to-coordination-vibrating-material-organises-itself-into-a-single-rhythm",
+        "description": "The University of Birmingham reports experiments in which active mechanical units settle into coordinated oscillation through local, non-reciprocal interactions. Initially short waves grow in scale, period, and amplitude until the material moves together. The report describes both a honeycomb assembly and an elastic ring, and calls the process wave coarsening. It provides a concrete physical example of coordination arising from designed interactions. Proposed uses in robotics remain prospective applications of the reported experiments.",
+        "description_status": "source_scoped_summary",
+        "description_sources": [
+          {
+            "url": "https://www.birmingham.ac.uk/news/2026/chaos-to-coordination-vibrating-material-organises-itself-into-a-single-rhythm",
+            "locator": "14 October 2026 report; non-reciprocal interactions; 2D honeycomb material",
+            "checked_at": "2026-11-07"
+          }
+        ],
+        "source_authors": [
+          "University of Birmingham"
+        ],
+        "post_ids": [
+          29398
+        ],
+        "source_ids": [
+          "src_syscoi_post_29398"
+        ],
+        "latest_published_gmt": "2026-10-28T23:15:32Z"
+      },
+      {
+        "id": "resource_syscoi_post_29411",
+        "existing_source_ids": [],
+        "existing_catalogue_ids": [],
+        "existing_node_ids": [],
+        "canonical_aliases": [
+          "https://worrydream.com/LadderOfAbstraction"
+        ],
+        "title": "Up and Down the Ladder of Abstraction",
+        "url": "https://worrydream.com/LadderOfAbstraction/",
+        "description": "Bret Victor’s October 2011 interactive essay uses a simple car-control simulation to show how designers can move between a particular run and broader views of possible behaviour. Time and steering parameters can be varied; trajectories expose patterns that are difficult to see during real-time playback. Moving back to a concrete case tests what an abstract picture hides. The essay offers a practical approach to exploring a system when theory is insufficient to predict the consequences of design decisions.",
+        "description_status": "source_scoped_summary",
+        "description_sources": [
+          {
+            "url": "https://worrydream.com/LadderOfAbstraction/",
+            "locator": "A Systematic Approach to Interactive Visualization; Controlling Time; Abstracting Over Time; Stepping Back Down",
+            "checked_at": "2026-11-07"
+          }
+        ],
+        "source_authors": [
+          "Bret Victor"
+        ],
+        "post_ids": [
+          29411
+        ],
+        "source_ids": [
+          "src_syscoi_post_29411"
+        ],
+        "latest_published_gmt": "2026-11-02T11:59:23Z"
+      },
+      {
+        "id": "resource_syscoi_post_29414",
+        "existing_source_ids": [],
+        "existing_catalogue_ids": [],
+        "existing_node_ids": [],
+        "canonical_aliases": [
+          "https://secondlaw.studio/"
+        ],
+        "title": "Second Law Studio – The Right to Stop",
+        "url": "https://www.secondlaw.studio/#publications",
+        "description": "Second Law Studio’s first research paper, The Right to Stop, examines Lean practices through the authority to raise evidence and change the operating model. The publisher describes unresolved evidence as epistemic work-in-progress, asking how it is noticed, admitted, assigned, and resolved when correction capacity is overloaded. It proposes operational corrigibility as a capacity for repeated correction. This description is based on the studio’s own public announcement; the paper’s full argument was not independently assessed here.",
+        "description_status": "source_scoped_summary",
+        "description_sources": [
+          {
+            "url": "https://uk.linkedin.com/company/second-law-studio",
+            "locator": "Publisher announcement: Published: The Right to Stop",
+            "checked_at": "2026-11-07"
+          },
+          {
+            "url": "https://www.linkedin.com/posts/dereksmith1_the-right-to-stop-epistemic-work-in-progress-activity-7498399675318816768-pXMQ",
+            "locator": "Author’s publication announcement",
+            "checked_at": "2026-11-07"
+          }
+        ],
+        "source_authors": [
+          "Derek Smith",
+          "Second Law Studio"
+        ],
+        "post_ids": [
+          29414
+        ],
+        "source_ids": [
+          "src_syscoi_post_29414"
+        ],
+        "latest_published_gmt": "2026-11-02T12:08:29Z"
+      },
+      {
+        "id": "resource_syscoi_post_29420",
+        "existing_source_ids": [],
+        "existing_catalogue_ids": [],
+        "existing_node_ids": [],
+        "canonical_aliases": [
+          "https://nature.com/articles/s41467-026-78269-3"
+        ],
+        "title": "Discovering network resilience formulas with symbolized reinforcement learning",
+        "url": "https://www.nature.com/articles/s41467-026-78269-3",
+        "description": "Yu Zheng and colleagues report a method that turns learned network-attack strategies into interpretable formulas for assessing resilience. Their account considers both network structure and the dynamical states imposed on it, including the association between node degree and state. The method aims to identify components whose removal can cause a network to fail. The Nature Communications abstract is the basis of this description: the reported performance improvements belong to the authors’ evaluated settings, and do not establish a general measure for every social or organisational use of resilience.",
+        "description_status": "source_scoped_summary",
+        "description_sources": [
+          {
+            "url": "https://www.nature.com/articles/s41467-026-78269-3",
+            "locator": "Abstract; authors; early-access publication statement, 19 October 2026",
+            "checked_at": "2026-11-07"
+          }
+        ],
+        "source_authors": [
+          "Yu Zheng",
+          "Jingtao Ding",
+          "Depeng Jin",
+          "Jianxi Gao",
+          "Yong Li"
+        ],
+        "post_ids": [
+          29420
+        ],
+        "source_ids": [
+          "src_syscoi_post_29420"
+        ],
+        "latest_published_gmt": "2026-11-02T12:10:56Z"
+      }
+    ],
+    "posts": [
+      {
+        "post_id": 29386,
+        "resource_id": "cybernetic_reading_orourke",
+        "source_id": "src_syscoi_post_29386",
+        "content_sha256": "98d4beea8bdad09fbf2b021a2cab5ce14a458a657f67949e7ab3df066a4a5bf4",
+        "modified_local": "2026-10-27T06:59:39",
+        "identity_status": "explicitly_reconciled",
+        "match_candidates": {
+          "source_ids": [
+            "src_syscoi_post_29183"
+          ],
+          "node_ids": [
+            "publication_syscoi_post_29183"
+          ],
+          "catalogue_ids": [
+            "cybernetic_reading_orourke"
+          ]
+        },
+        "existing_source_ids": [
+          "src_syscoi_post_29183"
+        ],
+        "existing_node_ids": [
+          "publication_syscoi_post_29183"
+        ],
+        "existing_catalogue_ids": [
+          "cybernetic_reading_orourke"
+        ]
+      },
+      {
+        "post_id": 29394,
+        "resource_id": "resource_syscoi_post_29394",
+        "source_id": "src_syscoi_post_29394",
+        "content_sha256": "8415900767eed76d4139cf0a5057e9377abaef93739691e4c3b44ced1e4939ba",
+        "modified_local": "2026-10-28T05:56:37",
+        "identity_status": "new_resource",
+        "match_candidates": {
+          "source_ids": [],
+          "node_ids": [],
+          "catalogue_ids": []
+        },
+        "existing_source_ids": [],
+        "existing_node_ids": [],
+        "existing_catalogue_ids": []
+      },
+      {
+        "post_id": 29398,
+        "resource_id": "resource_syscoi_post_29398",
+        "source_id": "src_syscoi_post_29398",
+        "content_sha256": "ac0d26a58aca28d39b55654e8ed126fe2f6c6cd0ef6051869c82e5d0d627b217",
+        "modified_local": "2026-10-28T18:15:32",
+        "identity_status": "new_resource",
+        "match_candidates": {
+          "source_ids": [],
+          "node_ids": [],
+          "catalogue_ids": []
+        },
+        "existing_source_ids": [],
+        "existing_node_ids": [],
+        "existing_catalogue_ids": []
+      },
+      {
+        "post_id": 29411,
+        "resource_id": "resource_syscoi_post_29411",
+        "source_id": "src_syscoi_post_29411",
+        "content_sha256": "d62cd6d10ee81777d89206c49e26ce1772a31c86f7a88e23e6db86a1dc6e88a6",
+        "modified_local": "2026-11-02T06:59:23",
+        "identity_status": "new_resource",
+        "match_candidates": {
+          "source_ids": [],
+          "node_ids": [],
+          "catalogue_ids": []
+        },
+        "existing_source_ids": [],
+        "existing_node_ids": [],
+        "existing_catalogue_ids": []
+      },
+      {
+        "post_id": 29414,
+        "resource_id": "resource_syscoi_post_29414",
+        "source_id": "src_syscoi_post_29414",
+        "content_sha256": "0158381e7c09af70f4c42985ae261204769c108068e5fe36af3cc223e24c1c47",
+        "modified_local": "2026-11-02T07:08:29",
+        "identity_status": "new_resource",
+        "match_candidates": {
+          "source_ids": [],
+          "node_ids": [],
+          "catalogue_ids": []
+        },
+        "existing_source_ids": [],
+        "existing_node_ids": [],
+        "existing_catalogue_ids": []
+      },
+      {
+        "post_id": 29420,
+        "resource_id": "resource_syscoi_post_29420",
+        "source_id": "src_syscoi_post_29420",
+        "content_sha256": "0704b4d7dceb8fb5880e6d535e83feeac0fb397d1963fc46f5b57374b419cf09",
+        "modified_local": "2026-11-02T07:10:56",
+        "identity_status": "new_resource",
+        "match_candidates": {
+          "source_ids": [],
+          "node_ids": [],
+          "catalogue_ids": []
+        },
+        "existing_source_ids": [],
+        "existing_node_ids": [],
+        "existing_catalogue_ids": []
+      }
+    ]
   }
 }
