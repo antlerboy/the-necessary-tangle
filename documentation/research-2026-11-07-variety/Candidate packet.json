@@ -1,0 +1,235 @@
+{
+  "title": "Which distinctions change the decision?",
+  "status": "Candidate primary-evidence/profile packet; not applied or published",
+  "date": "2026-11-07",
+  "cohort": [
+    "concept_variety",
+    "concept_variety_amplification",
+    "concept_variety_attenuation"
+  ],
+  "sources": [
+    {
+      "id": "src_ashby_intro_cybernetics_1956",
+      "author": "W. Ross Ashby",
+      "title": "An Introduction to Cybernetics",
+      "date": "1956; 1957 second-impression scan, 1999 electronic edition",
+      "url": "https://ashby.info/Ashby-Introduction-to-Cybernetics.pdf",
+      "locator": "§§7/6–7/8, printed pp124–127, PDF68–69; §§8/10–8/12, printed pp151–154, PDF81–83; §§14/1–14/5, printed pp265–270, PDF141–144",
+      "access": "Primary text and selected original page renders inspected. No full book/page graphics included in the public-safe candidate."
+    },
+    {
+      "id": "src_shannon_communication_1948",
+      "author": "Claude E. Shannon",
+      "title": "A Mathematical Theory of Communication",
+      "date": "1948; corrected reprint",
+      "url": "https://people.math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf",
+      "locator": "§6, PDF/printed pp10–12: Theorem2; maximum-property2; conditional-entropy properties5–6",
+      "access": "Primary paper text and formula page11 inspected. Equation signs checked visually because text extraction loses some mathematical glyphs."
+    }
+  ],
+  "source_facts": [
+    {
+      "id": "V1",
+      "source": "src_ashby_intro_cybernetics_1956",
+      "locator": "§§7/6–7/7, pp124–126; PDF68–69",
+      "text": "Ashby counts distinguishable members of a specified set and also uses their base-two logarithm. The observer’s ability to distinguish them can change that count."
+    },
+    {
+      "id": "V2",
+      "source": "src_shannon_communication_1948",
+      "locator": "§6, pp10–12; Theorem2, property2, properties5–6",
+      "text": "Shannon’s entropy weights possibilities by probability. For a fixed finite support it reaches log₂(n) at equal probabilities. Conditional entropy measures the uncertainty remaining about one variable when another is known."
+    },
+    {
+      "id": "V3",
+      "source": "src_ashby_intro_cybernetics_1956",
+      "locator": "§§14/1–14/5, pp265–270; PDF141–144",
+      "text": "Ashby explains amplifying regulation through supplementation and staged construction. Other inputs and resources enter the accounting; direct magnification is not the mechanism."
+    },
+    {
+      "id": "V4",
+      "source": "src_ashby_intro_cybernetics_1956",
+      "locator": "§§8/10–8/12, pp151–154; PDF81–83",
+      "text": "Ashby warns that variety concerns sets of possibilities. His transmission bound includes both systems’ initial variety; their state pairings also matter."
+    }
+  ],
+  "profile_candidates": [
+    {
+      "node_id": "concept_variety",
+      "baseline_profile_sha256": "a51f41368510e07cfad349bc2ad8a1879d73465972b30dd49116d3501563babe",
+      "proposed_profile": {
+        "node_id": "concept_variety",
+        "title": "Variety",
+        "profile_status": "evidence_deepened_research_pass",
+        "canonical_definition": "The number of distinguishable elements or possible states in a specified set, sometimes expressed logarithmically; the distinctions and observer must be stated.",
+        "summary": "Variety counts distinguishable possibilities. A system may have many physical states but little usable variety if the observer cannot distinguish them or the regulator cannot select among effective responses. Cardinality n, its base-two logarithm, and probability-weighted entropy answer different questions. Shannon entropy equals log₂(n) when the n possibilities are equally probable; cardinality n remains a different measure. State the set, distinctions, probabilities, and unit.",
+        "why_it_matters": "Variety turns vague talk about complexity into a question about differences that matter for regulation. It also makes the observer visible: what counts as a different state depends on purpose, sensing and classification.",
+        "key_distinctions": "[\"physical states vs distinguishable states\", \"nominal options vs usable responses\", \"variety vs diversity as a value\", \"variety vs semantic richness\", \"count vs logarithmic measure\", \"cardinality n vs log₂(n) vs Shannon entropy H\", \"a single realised case vs its specified possibility set\", \"probability-weighted uncertainty vs consequence or task adequacy\"]",
+        "historical_lineage": "[\"Ashby developed variety as a central cybernetic measure\", \"information theory provided related logarithmic tools\", \"management cybernetics applied attenuation and amplification of variety\"]",
+        "logical_antecedents": "[\"a specified set\", \"criteria of distinction\", \"an observer or measuring apparatus\", \"a purpose or regulatory question\"]",
+        "dependent_subsequents": "[\"law of requisite variety\", \"variety engineering\", \"attenuation and amplification\", \"regulatory capacity analysis\"]",
+        "practice_connections": "[\"state whose distinctions count\", \"separate the variety seen by citizens, frontline workers and management\", \"ask which options can actually change outcomes\", \"do not add reporting variety that no one can absorb\"]",
+        "espoused_lineages": "[\"cybernetics\", \"information theory\", \"management cybernetics\"]",
+        "observed_clusters": "[]",
+        "common_misreadings": "[\"variety is objective and observer-free\", \"more variety is always better\", \"variety means diversity or complexity in general\", \"every available option is usable\"]",
+        "open_checks": "[\"later variety engineering methods\"]",
+        "source_ids": "[\"src_ashby_intro_cybernetics_1956\", \"src_shannon_communication_1948\"]",
+        "evidence_ids": "[\"ev_ashby_variety_definition\", \"ev_shannon_information_theory\"]",
+        "last_researched": "2026-11-07",
+        "review_status": "research_pass_needs_editor",
+        "editorial_note": "Candidate source clarification and original finite model. Existing historical and practical claims retain their evidence limits; human editorial acceptance remains pending."
+      },
+      "new_source_fact_ids": [
+        "V1",
+        "V2",
+        "V4"
+      ],
+      "scoped_open_check_dispositions": [
+        {
+          "check": "formal relation to Shannon entropy",
+          "disposition": "Primary passage now inspected for this bounded question; not a general completion of the subject."
+        }
+      ],
+      "remaining_checks": [
+        "later variety engineering methods"
+      ],
+      "new_interpretation": "The finite worked model and application questions are new exposition, not empirical findings."
+    },
+    {
+      "node_id": "concept_variety_amplification",
+      "baseline_profile_sha256": "bdbb3459840b332362ffb921f658fc3e173d0b74fad74fa2233e0fae29bde417",
+      "proposed_profile": {
+        "node_id": "concept_variety_amplification",
+        "title": "Variety amplification",
+        "profile_status": "evidence_deepened_research_pass",
+        "canonical_definition": "A deliberate increase in effective sensing or response variety available to a regulator, channel or operational unit.",
+        "summary": "Amplification expands what a system can notice or do through capability, discretion, tools, coordination, networks and access to resources. Ashby’s staged regulatory amplification relies on supplementation. Name the additional inputs, resources, or constructed regulator and compare the same boundary and time basis. A fixed stateless relabelling of two inputs still has at most two distinct outputs.",
+        "why_it_matters": "When the environment cannot responsibly be simplified, the system must improve its repertoire. Giving people more cases without more authority or capability is workload amplification, not regulatory amplification.",
+        "key_distinctions": "[\"response variety vs activity volume\", \"capability vs options on paper\", \"sensing amplification vs response amplification\", \"local amplification vs whole-system overload\", \"regulatory amplification vs energy gain\", \"more displayed labels vs more distinguishable input/output possibilities\", \"supplemented local capacity vs the total accounting boundary\"]",
+        "historical_lineage": "[\"Ashby's variety engineering\", \"management cybernetics\", \"distributed intelligence\", \"learning and capability building\"]",
+        "logical_antecedents": "[\"variety\", \"resources\", \"knowledge and skill\", \"authority and coordination\"]",
+        "dependent_subsequents": "[\"training\", \"cross-functional teams\", \"decision support\", \"networks\", \"local discretion\"]",
+        "practice_connections": "[\"increase usable responses, not paperwork\", \"pair discretion with information and resources\", \"share variety across networks\", \"test whether amplified responses affect the relevant outcome\"]",
+        "espoused_lineages": "[\"cybernetics\", \"organisation design\", \"capability development\"]",
+        "observed_clusters": "[]",
+        "common_misreadings": "[\"more options always help\", \"training alone creates variety\", \"automation necessarily amplifies human capability\", \"central analytics replace local sensing\"]",
+        "open_checks": "[\"Beer amplification/attenuation\", \"digital tools and variety\", \"collective intelligence\"]",
+        "source_ids": "[\"src_ashby_intro_cybernetics_1956\", \"src_taylor_vsm_lecture_2025\"]",
+        "evidence_ids": "[\"ev_ashby_requisite_variety\", \"ev_taylor_vsm_viability\"]",
+        "last_researched": "2026-11-07",
+        "review_status": "research_pass_needs_editor",
+        "editorial_note": "Candidate source clarification and original finite model. Existing historical and practical claims retain their evidence limits; human editorial acceptance remains pending."
+      },
+      "new_source_fact_ids": [
+        "V3",
+        "V4"
+      ],
+      "scoped_open_check_dispositions": [
+        {
+          "check": "Ashby primary passages",
+          "disposition": "Primary passage now inspected for this bounded question; not a general completion of the subject."
+        }
+      ],
+      "remaining_checks": [
+        "Beer amplification/attenuation",
+        "digital tools and variety",
+        "collective intelligence"
+      ],
+      "new_interpretation": "The finite worked model and application questions are new exposition, not empirical findings."
+    },
+    {
+      "node_id": "concept_variety_attenuation",
+      "baseline_profile_sha256": "5427e45cdfd9f8b076f8b9866486a630aaf8483bc0a53ed8bf9426bd7d6205ea",
+      "proposed_profile": {
+        "node_id": "concept_variety_attenuation",
+        "title": "Variety attenuation",
+        "profile_status": "evidence_deepened_research_pass",
+        "canonical_definition": "A deliberate reduction in effective variety so that relevant disturbances, signals or choices become tractable without pretending the discarded variety never existed.",
+        "summary": "Attenuation protects a regulator from being overwhelmed. It can simplify, buffer, aggregate or redesign demand. It can also erase inconvenient people and conditions if the boundary and purpose are wrong. For a stated task, a classification is sufficient only if every input assigned the same label permits the same required action. A many-to-one map can discard input detail while preserving that action; lower entropy alone supplies no such guarantee.",
+        "why_it_matters": "Forms, triage, standards, thresholds and dashboards are attenuation devices. Their value depends on whether they preserve the differences needed for responsible action.",
+        "key_distinctions": "[\"attenuation vs denial\", \"filtering vs distortion\", \"standardisation vs loss of requisite detail\", \"environmental redesign vs internal processing\", \"loss of state information vs loss of a required action distinction\", \"task-preserving coarsening vs an incompatible grouping\", \"frequency-weighted uncertainty vs unequal consequences\"]",
+        "historical_lineage": "[\"Ashby's variety engineering\", \"communication channels\", \"management cybernetics\", \"service and process design\"]",
+        "logical_antecedents": "[\"variety\", \"observer and purpose\", \"channel capacity\", \"regulatory task\"]",
+        "dependent_subsequents": "[\"triage\", \"standardisation\", \"aggregation\", \"buffering\", \"exception handling\"]",
+        "practice_connections": "[\"state what variety is removed\", \"preserve routes for exceptions\", \"test who bears the discarded complexity\", \"redesign demand rather than merely hiding it\"]",
+        "espoused_lineages": "[\"cybernetics\", \"operations management\", \"information design\"]",
+        "observed_clusters": "[]",
+        "common_misreadings": "[\"less variety is always efficient\", \"standardisation is neutral\", \"what is not measured does not matter\", \"aggregation preserves all relevant meaning\"]",
+        "open_checks": "[\"Beer variety engineering\", \"forms and failure demand\", \"ethical attenuation\"]",
+        "source_ids": "[\"src_ashby_intro_cybernetics_1956\", \"src_taylor_vsm_lecture_2025\", \"src_taylor_core_thinking_2026\", \"src_shannon_communication_1948\"]",
+        "evidence_ids": "[\"ev_ashby_requisite_variety\", \"ev_taylor_vsm_viability\", \"ev_taylor_core_distinctions_boundaries\"]",
+        "last_researched": "2026-11-07",
+        "review_status": "research_pass_needs_editor",
+        "editorial_note": "Candidate source clarification and original finite model. Existing historical and practical claims retain their evidence limits; human editorial acceptance remains pending."
+      },
+      "new_source_fact_ids": [
+        "V1",
+        "V2"
+      ],
+      "scoped_open_check_dispositions": [
+        {
+          "check": "Ashby primary passages",
+          "disposition": "Primary passage now inspected for this bounded question; not a general completion of the subject."
+        }
+      ],
+      "remaining_checks": [
+        "Beer variety engineering",
+        "forms and failure demand",
+        "ethical attenuation"
+      ],
+      "new_interpretation": "The functional sufficiency criterion and examples below are new mathematical/editorial exposition, not a quotation or an attributed organisational result."
+    }
+  ],
+  "original_model": {
+    "states": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "probabilities_default": [
+      0.97,
+      0.01,
+      0.01,
+      0.01
+    ],
+    "required_actions_default": [
+      "routine",
+      "routine",
+      "callback",
+      "partner"
+    ],
+    "classifications": {
+      "full": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "poor": [
+        "A",
+        "other",
+        "other",
+        "other"
+      ],
+      "task_preserving": [
+        "routine",
+        "routine",
+        "callback",
+        "partner"
+      ]
+    },
+    "functional_criterion": "There is a downstream rule h with g=h∘f exactly when g is constant within every classification group of f.",
+    "claim_limit": "A finite stipulated example, not a service dataset, algorithm benchmark, normative loss function, or proof of organisational effectiveness.",
+    "success_measure": "Maximum probability of the required action using only the classification, under known stipulated probabilities and equal mismatch costs.",
+    "amplification_example": "A deterministic echo from two input values has two possible output patterns. Add an explicitly independent three-value input and all six joint patterns become possible; the extra distinctions are accounted for."
+  },
+  "deferrals": [
+    "Exact Beer management applications and terminology: no new primary passage established here.",
+    "Empirical effects of automation, training, collective intelligence, or demand redesign.",
+    "Historical influence or citation links between new sources: none inferred.",
+    "Canonical acceptance, shared graph changes, numbered release, and publication.",
+    "Existing0.39deployment checkpoint: no blind retry, no new hosting evidence."
+  ],
+  "public_safe_boundary": "No private paths, mail, usage, complete copyrighted texts, or page images belong in this candidate. Private source copies and recovery live separately."
+}

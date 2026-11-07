@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0",
   "canonical_url": "https://transduction.systems/entries/concept_variety_amplification/",
-  "release": "0.39",
-  "citation": "Taylor, B. P. (2026). Variety amplification. The Necessary Tangle, release 0.39. https://transduction.systems/entries/concept_variety_amplification/",
+  "release": "0.40",
+  "citation": "Taylor, B. P. (2026). Variety amplification. The Necessary Tangle, release 0.40. https://transduction.systems/entries/concept_variety_amplification/",
   "licence": "CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms",
   "entry": {
     "id": "concept_variety_amplification",
@@ -48,13 +48,16 @@
     "title": "Variety amplification",
     "profile_status": "evidence_deepened_research_pass",
     "canonical_definition": "A deliberate increase in effective sensing or response variety available to a regulator, channel or operational unit.",
-    "summary": "Amplification expands what a system can notice or do through capability, discretion, tools, coordination, networks and access to resources.",
+    "summary": "Amplification expands what a system can notice or do through capability, discretion, tools, coordination, networks and access to resources. Ashby’s staged regulatory amplification relies on supplementation. Name the additional inputs, resources, or constructed regulator and compare the same boundary and time basis. A fixed stateless relabelling of two inputs still has at most two distinct outputs.",
     "why_it_matters": "When the environment cannot responsibly be simplified, the system must improve its repertoire. Giving people more cases without more authority or capability is workload amplification, not regulatory amplification.",
     "key_distinctions": [
       "response variety vs activity volume",
       "capability vs options on paper",
       "sensing amplification vs response amplification",
-      "local amplification vs whole-system overload"
+      "local amplification vs whole-system overload",
+      "regulatory amplification vs energy gain",
+      "more displayed labels vs more distinguishable input/output possibilities",
+      "supplemented local capacity vs the total accounting boundary"
     ],
     "historical_lineage": [
       "Ashby's variety engineering",
@@ -94,7 +97,6 @@
       "central analytics replace local sensing"
     ],
     "open_checks": [
-      "Ashby primary passages",
       "Beer amplification/attenuation",
       "digital tools and variety",
       "collective intelligence"
@@ -105,11 +107,14 @@
     ],
     "evidence_ids": [
       "ev_ashby_requisite_variety",
-      "ev_taylor_vsm_viability"
+      "ev_taylor_vsm_viability",
+      "ev_u40_variety_v3",
+      "ev_u40_variety_v4"
     ],
-    "last_researched": "2026-08-09",
+    "last_researched": "2026-11-07",
     "review_status": "research_pass_needs_editor",
-    "editorial_note": "Readable orientation and evidence-backed first pass. Named editorial review is still required before canonical acceptance."
+    "editorial_note": "Candidate source clarification and original finite model. Existing historical and practical claims retain their evidence limits; human editorial acceptance remains pending.",
+    "connection_pass": "variety_20261107"
   },
   "connections": [
     {
@@ -431,6 +436,18 @@
       "id": "ev_taylor_vsm_viability",
       "source_id": "src_taylor_vsm_lecture_2025",
       "locator": "sections on viability, adaptation, identity, autonomy, cohesion and transduction",
+      "review_status": "research_pass_needs_editor"
+    },
+    {
+      "id": "ev_u40_variety_v3",
+      "source_id": "src_ashby_intro_cybernetics_1956",
+      "locator": "§§14/1–14/5, pp265–270; PDF141–144",
+      "review_status": "research_pass_needs_editor"
+    },
+    {
+      "id": "ev_u40_variety_v4",
+      "source_id": "src_ashby_intro_cybernetics_1956",
+      "locator": "§§8/10–8/12, pp151–154; PDF81–83",
       "review_status": "research_pass_needs_editor"
     }
   ],

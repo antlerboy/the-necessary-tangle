@@ -1,7 +1,7 @@
 # The Necessary Tangle: public knowledge file
 
 Curated by Benjamin P Taylor — https://www.antlerboy.com/
-Generated from public release 0.39 on 2026-11-06.
+Generated from public release 0.40 on 2026-11-07.
 
 A living evidence atlas of systems | cybernetics | complexity.
 Every connection must say what it means. Historical sequence, logical dependence, influence, teaching, collaboration, practical use, comparison and dispute are not interchangeable.
@@ -24630,7 +24630,7 @@ The number of distinguishable elements or possible states in a specified set, so
 
 ### Summary
 
-Variety counts distinguishable possibilities. A system may have many physical states but little usable variety if the observer cannot distinguish them or the regulator cannot select among effective responses.
+Variety counts distinguishable possibilities. A system may have many physical states but little usable variety if the observer cannot distinguish them or the regulator cannot select among effective responses. Cardinality n, its base-two logarithm, and probability-weighted entropy answer different questions. Shannon entropy equals log₂(n) when the n possibilities are equally probable; cardinality n remains a different measure. State the set, distinctions, probabilities, and unit.
 
 ### Why it matters
 
@@ -24643,6 +24643,9 @@ Variety turns vague talk about complexity into a question about differences that
 - variety vs diversity as a value
 - variety vs semantic richness
 - count vs logarithmic measure
+- cardinality n vs log₂(n) vs Shannon entropy H
+- a single realised case vs its specified possibility set
+- probability-weighted uncertainty vs consequence or task adequacy
 
 ### Historical development
 
@@ -24680,7 +24683,6 @@ Variety turns vague talk about complexity into a question about differences that
 
 ### Open questions and checks
 
-- formal relation to Shannon entropy
 - later variety engineering methods
 
 ### Sources
@@ -24697,7 +24699,7 @@ A deliberate increase in effective sensing or response variety available to a re
 
 ### Summary
 
-Amplification expands what a system can notice or do through capability, discretion, tools, coordination, networks and access to resources.
+Amplification expands what a system can notice or do through capability, discretion, tools, coordination, networks and access to resources. Ashby’s staged regulatory amplification relies on supplementation. Name the additional inputs, resources, or constructed regulator and compare the same boundary and time basis. A fixed stateless relabelling of two inputs still has at most two distinct outputs.
 
 ### Why it matters
 
@@ -24709,6 +24711,9 @@ When the environment cannot responsibly be simplified, the system must improve i
 - capability vs options on paper
 - sensing amplification vs response amplification
 - local amplification vs whole-system overload
+- regulatory amplification vs energy gain
+- more displayed labels vs more distinguishable input/output possibilities
+- supplemented local capacity vs the total accounting boundary
 
 ### Historical development
 
@@ -24748,7 +24753,6 @@ When the environment cannot responsibly be simplified, the system must improve i
 
 ### Open questions and checks
 
-- Ashby primary passages
 - Beer amplification/attenuation
 - digital tools and variety
 - collective intelligence
@@ -24767,7 +24771,7 @@ A deliberate reduction in effective variety so that relevant disturbances, signa
 
 ### Summary
 
-Attenuation protects a regulator from being overwhelmed. It can simplify, buffer, aggregate or redesign demand. It can also erase inconvenient people and conditions if the boundary and purpose are wrong.
+Attenuation protects a regulator from being overwhelmed. It can simplify, buffer, aggregate or redesign demand. It can also erase inconvenient people and conditions if the boundary and purpose are wrong. For a stated task, a classification is sufficient only if every input assigned the same label permits the same required action. A many-to-one map can discard input detail while preserving that action; lower entropy alone supplies no such guarantee.
 
 ### Why it matters
 
@@ -24779,6 +24783,9 @@ Forms, triage, standards, thresholds and dashboards are attenuation devices. The
 - filtering vs distortion
 - standardisation vs loss of requisite detail
 - environmental redesign vs internal processing
+- loss of state information vs loss of a required action distinction
+- task-preserving coarsening vs an incompatible grouping
+- frequency-weighted uncertainty vs unequal consequences
 
 ### Historical development
 
@@ -24818,7 +24825,6 @@ Forms, triage, standards, thresholds and dashboards are attenuation devices. The
 
 ### Open questions and checks
 
-- Ashby primary passages
 - Beer variety engineering
 - forms and failure demand
 - ethical attenuation
@@ -24828,6 +24834,7 @@ Forms, triage, standards, thresholds and dashboards are attenuation devices. The
 - An Introduction to Cybernetics — https://ashby.info/Ashby-Introduction-to-Cybernetics.pdf
 - Benjamin Taylor VSM lecture — https://antlerboy.com/library/files/talks/viable-system-model-lecture.pdf
 - Core Thinking Integration — No public link
+- A Mathematical Theory of Communication — https://doi.org/10.1002/j.1538-7305.1948.tb01338.x
 
 ## Verbal Behaviours (Rackham)
 

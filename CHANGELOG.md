@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.40 — 7 November 2026
+
+Three existing variety profiles, located primary evidence, and an original finite model. Human editorial acceptance remains pending.
+
+
 ## 0.39 — 6 November 2026
 
 Six attributed SysPrac26 accounts and an editorial guide to conditions for action. Human editorial acceptance remains pending.
