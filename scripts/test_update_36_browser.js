@@ -6,7 +6,7 @@ const path=require('node:path');
 const http=require('node:http');
 const root=path.resolve(__dirname,'../docs');
 const output=path.resolve(__dirname,'../validation/update-36-browser');
-const release='0.41';
+const release='0.42';
 const cohort='depth_20261106';
 const guide='/reading/from-observation-to-action/';
 const update='/updates/2026-11-06/';
@@ -54,7 +54,7 @@ async function main(){
   const dataResponse=await request.request.get(base+'/assets/public-data.json');
   assert.equal(dataResponse.status(),200);
   const data=await dataResponse.json();
-  assert.equal(data.meta.release,release,'Test needs generated release 0.41');
+  assert.equal(data.meta.release,release,'Test needs generated release 0.42');
   assert(data[cohort],'The new research cohort must be recorded');
   assert(data.depth_20261029,'The historical cohort remains recorded');
   const journey=data.journeys.find(row=>row.id===journeyId);

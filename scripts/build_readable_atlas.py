@@ -130,7 +130,7 @@ def main():
         body += '<p>Named reviewer: ' + esc(profile.get('reviewed_by') or 'not recorded for this profile') + '. Last researched: ' + esc(profile.get('last_researched') or 'not recorded') + '.</p></aside>'
         body += '<p class="actions"><a href="/#view=item&amp;id=' + esc(ident) + '">Open the interactive entry</a> · <a href="/#view=map&amp;focus=' + esc(ident) + '">Explore its map</a> · <a download href="record.json">Download the sourced record (JSON)</a></p>'
         reader_routes = {'concept_feedforward': ('/reading/feedforward-timing/', 'When does the warning arrive?'), 'concept_black_box': ('/reading/black-box-evidence/', 'What does the record establish?')}
-        if ident in reader_routes and release == '0.42':
+        if ident in reader_routes and data.get('control_inference_20261107'):
             url, label = reader_routes[ident]
             body += '<p><a href="' + url + '">' + label + '</a></p>'
         for heading, key in sections:

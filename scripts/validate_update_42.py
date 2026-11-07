@@ -9,6 +9,9 @@ for k,h in expected_collections.items():
 assert digest([x for x in d['profiles'] if x['node_id'] not in ('concept_feedforward','concept_black_box')])=='17c89ada34f90fc16e94ffd0c05512e35cdd994b24ebce1bfe7a98977a532eec'
 for ident in ['concept_feedforward','concept_black_box']:
  p=next(x for x in d['profiles'] if x['node_id']==ident);n=next(x for x in d['nodes'] if x['id']==ident);assert p['canonical_definition']==n['canonical_definition'];assert p['review_status']=='research_pass_needs_editor'
+box=next(x for x in d['evidence'] if x['id']=='ev42_box_limits')
+assert box['evidence_type']=='primary_text_paraphrase'
+assert box['excerpt_or_summary']=='Some states cannot be revisited at will; different internal networks can realise the same specified behaviour.'
 base=json.loads((R/'documentation/research-2026-11-07-control/feedforward/Existing feedforward baseline.json').read_text(encoding='utf-8-sig'))
 assert json.loads(next(x for x in d['profiles'] if x['node_id']=='concept_feedforward')['open_checks'])==json.loads(base['profile']['open_checks'])
 expected={'feedforward/Evidence note.md':'189d20e9ba2414f391de4bc249388e6a36ba00ce0df9272585a7c10f4feec824','feedforward/Existing feedforward baseline.json':'26a5db86dc821dcbe7e96ff110e794959437facd47a23a79c1df9da3e01015eb','feedforward/Three scenarios.md':'282efb8eccf4cf651a0e455f88c125c009e7c81de7bffadb612e944ead528d06','black-box/Evidence note.md':'f0a81bb6d09d2f51cceed684d79fba3686ae86eaf146cb75bca4bf8480ed43b3','black-box/Existing node baseline.json':'1e6e6acafeaa02f2a13025df8cc314a1c69a6460be1b4aaf3f1d391368d1006a','black-box/Reader.md':'6de35eebd37d0a08b507a06084c9d9799adff3a35b6924a2cbdf6426da14ac90'}

@@ -46,7 +46,7 @@ jobs:
       - name: Test learner interactions, mobile layout and offline access
         env:
           NODE_PATH: /tmp/practice-browser/node_modules
-        run: node scripts/test_practice_browser.js && node scripts/test_practice_presentation.js && node scripts/test_intake_browser.js && node scripts/test_maps_browser.js && node scripts/test_library_browser.js && node scripts/test_submission_review_browser.js && node scripts/test_claim_lab_browser.js && node scripts/test_weaver_browser.js && node scripts/test_update_30_browser.js && node scripts/test_update_31_browser.js && node scripts/test_update_32_browser.js && node scripts/test_update_33_browser.js && node scripts/test_saidtosomeone_browser.js && node scripts/test_isss_wiki_browser.js && node scripts/test_readable_atlas_browser.js && node scripts/test_update_36_browser.js && node scripts/test_update_37_browser.js && node scripts/test_update_38_browser.js && node scripts/test_update_39_browser.js && node scripts/test_update_40_browser.js && node scripts/test_update_41_browser.js
+        run: node scripts/test_practice_browser.js && node scripts/test_practice_presentation.js && node scripts/test_intake_browser.js && node scripts/test_maps_browser.js && node scripts/test_library_browser.js && node scripts/test_submission_review_browser.js && node scripts/test_claim_lab_browser.js && node scripts/test_weaver_browser.js && node scripts/test_update_30_browser.js && node scripts/test_update_31_browser.js && node scripts/test_update_32_browser.js && node scripts/test_update_33_browser.js && node scripts/test_saidtosomeone_browser.js && node scripts/test_isss_wiki_browser.js && node scripts/test_readable_atlas_browser.js && node scripts/test_update_36_browser.js && node scripts/test_update_37_browser.js && node scripts/test_update_38_browser.js && node scripts/test_update_39_browser.js && node scripts/test_update_40_browser.js && node scripts/test_update_41_browser.js && node scripts/test_update_42_browser.js
       - name: Preserve practice test results
         if: always()
         uses: actions/upload-artifact@v4
@@ -69,5 +69,6 @@ jobs:
             validation/update-39-browser/
             validation/update-40-browser/
             validation/update-41-browser/
+            validation/update-42-browser/
             validation/readable-atlas-browser/
           if-no-files-found: ignore
