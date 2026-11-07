@@ -21,3 +21,7 @@ One implementation and verification pass; a third pass only addresses a named fa
 ## Active publication dependency recovery, 6 November 2026
 
 The six-session source and reader work is complete; human editorial acceptance remains pending. Publication is awaiting a fresh checked run after a Pages build stalled during media dependency installation. Bound the media installation step, install only missing required packages, and verify ffprobe and the Pages font package. Preserve the release content, existing gates, permissions, and Pages artifact naming. Scope: .github/workflows/pages.yml, .github/workflows/validate.yml, and this packet. Check YAML and shell syntax, workflow linkage, protected source hashes, and diff whitespace; actual Ubuntu CI runs the full gates. Root coordinates the pull request, deployment, and live verification.
+
+## Publication deadline repair, 7 November 2026
+
+The checked 0.39 source is awaiting publication. Two Pages deployments reached syncing_files and were cancelled at the default ten-minute action deadline; a subsequent build was still downloading media dependencies at its eight-minute deadline. Allow 20 minutes for each media installation step and for the Pages action, with a 25-minute deployment job limit. This gives the observed operations more bounded time, but does not establish that either will complete. Preserve source content, existing validation and live checks, artifact naming, permissions, and protected source material. Root coordinates one checked publication attempt and records its outcome.

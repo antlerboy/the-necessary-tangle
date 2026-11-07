@@ -27,7 +27,7 @@ jobs:
           path: _systemsmap
           persist-credentials: false
       - name: Install media inspection dependency
-        timeout-minutes: 8
+        timeout-minutes: 20
         run: |
           missing=()
           for package in ffmpeg fonts-dejavu-core; do
@@ -148,6 +148,7 @@ jobs:
           path: ./docs
           include-hidden-files: true
   deploy:
+    timeout-minutes: 25
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -159,6 +160,7 @@ jobs:
         uses: actions/deploy-pages@v5
         with:
           artifact_name: ${{ needs.build.outputs.pages_artifact_name }}
+          timeout: 1200000
   verify-live:
     name: Verify the live practice pages
     runs-on: ubuntu-24.04
@@ -177,7 +179,7 @@ jobs:
           npm install --prefix /tmp/practice-browser --no-save playwright@1.55.0
           /tmp/practice-browser/node_modules/.bin/playwright install --with-deps chromium
       - name: Install live media inspection dependency
-        timeout-minutes: 8
+        timeout-minutes: 20
         run: |
           missing=()
           for package in ffmpeg; do
