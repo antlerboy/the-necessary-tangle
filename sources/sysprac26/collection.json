@@ -1,0 +1,56 @@
+{
+  "title": "SysPrac26",
+  "updated": "2026-11-09",
+  "catalogue_url": "https://www.systemspractice.org/SysPrac26-resources",
+  "conference_guide": "/reading/conditions-for-action/",
+  "conference_packet": "documentation/research-2026-11-06-sysprac-six/evidence.json",
+  "conference": [
+    {"source_id": "src_u39_s30", "summary": "Deferred organisational work, six kinds of debt, and questions about what a team needs to act."},
+    {"source_id": "src_u39_s33", "summary": "What must move with responsibility: capability, authority, relationships, and institutional memory."},
+    {"source_id": "src_u39_s34", "summary": "A proposed account of coordination control, concentrated power, and different meanings of autonomy."},
+    {"source_id": "src_u39_s35", "summary": "Autonomy, cohesion, human development, and the relationships that sustain value creation."},
+    {"source_id": "src_u39_s38", "summary": "Shared representations, their substantive meanings, and what using them communicates about identity and belonging."},
+    {"source_id": "src_u39_s41", "summary": "Exploring conditions under which a strategy might fail stakeholder goals, and exposing its dependencies."}
+  ],
+  "workshops": [
+    {
+      "id": "sysprac26_workshop_consulting_20260930",
+      "anchor": "systemic-consulting",
+      "title": "Systemic consulting: helping without taking over",
+      "advertised_title": "The consultant is in the system: a practice lab for helping without taking over",
+      "date": "2026-09-30",
+      "date_label": "30 September 2026",
+      "authors": ["Benjamin P Taylor"],
+      "url": "https://antlerboy.com/flawfulconsulting/",
+      "account_url": "https://antlerboy.com/flawfulconsulting/september-session/",
+      "announcement_url": "https://stream.syscoi.com/2026/09/22/the-consultant-is-in-the-system-a-practice-lab-for-helping-without-taking-over-benjamin-p-taylor-wednesday-30-september-2026-1215-1345-online-free/",
+      "summary": "SysPrac26 follow-up workshop on systemic consulting, responsibility, contracting, power, and learning; with a public session account and practical field guide.",
+      "paragraphs": [
+        "The September discussion explored how offering help changes a situation. It examined the pull towards expertise or compliant service, the client behind the client, and the continuing negotiation of responsibility. Internal consulting brings additional relationships: a line manager, a sponsor, and people who can authorise or obstruct the work. Authenticity and contracting for learning remained practical questions.",
+        "The accompanying field guide develops Benjamin’s consulting teaching from 2022 to 2026, drawing particularly on Peter Block and Barry Oshry. It offers contracting questions, practice situations, a learning contract, and a one-page practice map. Readers can use these resources before a conversation, with a colleague, or through an assignment."
+      ],
+      "scope": "The public thematic account describes the actual slide-free discussion. The planned triad practice was not completed. Later exercises in the field guide are teaching resources, not a record of completed workshop activity.",
+      "locator": "September session account; field guide: Start with the work in front of you, Choose a way in, and Three ways to use this guide",
+      "question": "Who can authorise or veto this work, and what will each person remain responsible for?"
+    },
+    {
+      "id": "sysprac26_workshop_relational_20261008",
+      "anchor": "relational-public-services",
+      "title": "Making relational, place-based public services ordinary",
+      "advertised_title": "The system is inside the practice: making relational, place-based public services ordinary",
+      "date": "2026-10-08",
+      "date_label": "8 October 2026",
+      "authors": ["Benjamin P Taylor"],
+      "url": "https://antlerboy.com/relational/",
+      "announcement_url": "https://stream.syscoi.com/2026/09/22/the-system-is-inside-the-practice-making-relational-place-based-public-services-ordinary-benjamin-p-taylor-thursday-8-october-2026-1230-1400-online-free/",
+      "summary": "SysPrac26 follow-up workshop on relational public services: responding to people’s lives and changing the rules, measures, resources, and authority that sustain useful practice.",
+      "paragraphs": [
+        "The workshop examined two connected tasks: improving what happens in a person’s life, and changing the conditions that allow useful practice to endure. Its public resource follows a fictional situation through service contact, records, measures, management decisions, and the next encounter. What survives each translation, what disappears, and who has to join things up?",
+        "The discussion addressed information that is recorded without changing the response, case closure without evidence that a need is resolved, and the gap between knowing what should change and having authority to change it. The developed resource includes a working tool, an infographic, and a facilitator guide for designing a learning loop and a bounded institutional experiment."
+      ],
+      "scope": "The guide distinguishes the recorded discussion from later teaching development. It does not establish that participants completed the loop-design and experiment exercises.",
+      "locator": "Public resource: workshop discussion at 50:38–52:12, 1:01:06, 1:02:10, and 1:05:40–1:07:01; working tool and facilitator guide",
+      "question": "Which recorded fact could alter the next response, and who has the authority to make that happen?"
+    }
+  ]
+}

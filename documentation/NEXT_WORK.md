@@ -1,6 +1,10 @@
 # Next work
+<!-- sysprac26-collection -->
+## Current packet: SysPrac26 collection and follow-up workshops
 
-## Current packet: feedback and regulation 0.41
+Benjamin P Taylor authorised this addition on 9 November 2026. The maintained collection is `/library/sysprac26/`: six previously published conference accounts and two public follow-up workshop resources, with eight searchable source records. The bounded packet is `sources/sysprac26/PACKET.md`. Full conference harvesting and review remain incomplete; this addition does not complete the wider corpus work in issue 96. The graph and release number are unchanged. `make validate` passed locally. The Publish workflow supplies the required desktop/mobile browser gate, deployment identity, and live verification; consult its current result and `deployment.json` before claiming a live release. No further work is authorised by this packet after these checks succeed.
+<!-- /sysprac26-collection -->
+## Previous packet: feedback and regulation 0.41
 
 Status: local candidate under review. CI, publication, and live verification are pending; human editorial acceptance remains pending. Two existing profiles, four located primary clarifications, and an original discrete model. Preserve the source packet and prior source-owner-reviewed material; no new nodes, edges, journeys, or historical influence are implied.
 
