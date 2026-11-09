@@ -95,7 +95,7 @@ async function main() {
 
       for (const workshop of workshops) {
         assert.equal(await page.locator('#' + workshop.anchor).count(), 1, 'Stable workshop anchor');
-        assert((await page.locator('body').innerText()).includes(workshop.date), workshop.date);
+        assert.equal((await page.locator('#' + workshop.anchor + ' time').textContent()).trim(), workshop.date, workshop.date);
         assert(await page.locator('a[href="' + workshop.url + '"]').first().isVisible(), workshop.url);
         const anchorLink = page.locator('a[href="#' + workshop.anchor + '"]').first();
         await keyboardFocus(page, anchorLink);
