@@ -88,11 +88,11 @@
     {
       "post_id": 29398,
       "post_url": "https://stream.syscoi.com/2026/10/28/chaos-to-coordination-vibrating-material-organises-itself-into-a-single-rhythm-university-of-birmingham/",
-      "title": "Chaos to coordination: vibrating material organises itself into a single rhythm – University of Birmingham",
+      "title": "Chaos to coordination: vibrating material organises itself into a single rhythm – University of Birmingham (2026)",
       "status": "publish",
       "password_protected": false,
       "published_gmt": "2026-10-28T23:15:32Z",
-      "modified_local": "2026-10-28T18:15:32",
+      "modified_local": "2026-11-09T16:47:22",
       "content_sha256": "ac0d26a58aca28d39b55654e8ed126fe2f6c6cd0ef6051869c82e5d0d627b217",
       "author_id": 1379014,
       "author_name": "Benjamin P Taylor",
@@ -122,23 +122,33 @@
             "https://www.birmingham.ac.uk/news/2026/chaos-to-coordination-vibrating-material-organises-itself-into-a-single-rhythm"
           ],
           "observed_at": "2026-11-07"
+        },
+        {
+          "modified_local": "2026-11-09T16:47:22",
+          "content_sha256": "ac0d26a58aca28d39b55654e8ed126fe2f6c6cd0ef6051869c82e5d0d627b217",
+          "post_url": "https://stream.syscoi.com/2026/10/28/chaos-to-coordination-vibrating-material-organises-itself-into-a-single-rhythm-university-of-birmingham/",
+          "original_urls": [
+            "https://www.birmingham.ac.uk/news/2026/chaos-to-coordination-vibrating-material-organises-itself-into-a-single-rhythm"
+          ],
+          "observed_at": "2026-11-09"
         }
       ]
     },
     {
       "post_id": 29411,
       "post_url": "https://stream.syscoi.com/2026/11/02/up-and-down-the-ladder-of-abstraction/",
-      "title": "Up and Down the Ladder of Abstraction",
+      "title": "Up and Down the Ladder of Abstraction: A Systematic Approach to Interactive Visualization – Victor (2011)",
       "status": "publish",
       "password_protected": false,
       "published_gmt": "2026-11-02T11:59:23Z",
-      "modified_local": "2026-11-02T06:59:23",
-      "content_sha256": "d62cd6d10ee81777d89206c49e26ce1772a31c86f7a88e23e6db86a1dc6e88a6",
+      "modified_local": "2026-11-09T16:47:13",
+      "content_sha256": "1dfbb950b43e0d134e2f30c005e768ef14d4d594b7b1e0c329283491b5bb9564",
       "author_id": 1379014,
       "author_name": "Benjamin P Taylor",
       "primary_url": "https://worrydream.com/LadderOfAbstraction/",
       "original_urls": [
-        "https://worrydream.com/LadderOfAbstraction/?utm_source=chatgpt.com"
+        "https://worrydream.com/LadderOfAbstraction/?utm_source=chatgpt.com",
+        "https://worrydream.com/LadderOfAbstraction/"
       ],
       "canonical_aliases": [],
       "source_authors": [
@@ -162,17 +172,26 @@
             "https://worrydream.com/LadderOfAbstraction/?utm_source=chatgpt.com"
           ],
           "observed_at": "2026-11-07"
+        },
+        {
+          "modified_local": "2026-11-09T16:47:13",
+          "content_sha256": "1dfbb950b43e0d134e2f30c005e768ef14d4d594b7b1e0c329283491b5bb9564",
+          "post_url": "https://stream.syscoi.com/2026/11/02/up-and-down-the-ladder-of-abstraction/",
+          "original_urls": [
+            "https://worrydream.com/LadderOfAbstraction/"
+          ],
+          "observed_at": "2026-11-09"
         }
       ]
     },
     {
       "post_id": 29414,
       "post_url": "https://stream.syscoi.com/2026/11/02/second-law-studio-the-right-to-stop/",
-      "title": "Second Law Studio – The Right to Stop",
+      "title": "The Right to Stop: Epistemic Work-in-Progress and Operational Corrigibility in Lean Systems – Smith",
       "status": "publish",
       "password_protected": false,
       "published_gmt": "2026-11-02T12:08:29Z",
-      "modified_local": "2026-11-02T07:08:29",
+      "modified_local": "2026-11-09T16:49:40",
       "content_sha256": "0158381e7c09af70f4c42985ae261204769c108068e5fe36af3cc223e24c1c47",
       "author_id": 1379014,
       "author_name": "Benjamin P Taylor",
@@ -208,17 +227,26 @@
             "https://www.secondlaw.studio/#publications"
           ],
           "observed_at": "2026-11-07"
+        },
+        {
+          "modified_local": "2026-11-09T16:49:40",
+          "content_sha256": "0158381e7c09af70f4c42985ae261204769c108068e5fe36af3cc223e24c1c47",
+          "post_url": "https://stream.syscoi.com/2026/11/02/second-law-studio-the-right-to-stop/",
+          "original_urls": [
+            "https://www.secondlaw.studio/#publications"
+          ],
+          "observed_at": "2026-11-09"
         }
       ]
     },
     {
       "post_id": 29420,
       "post_url": "https://stream.syscoi.com/2026/11/02/discovering-network-resilience-formulas-with-symbolized-reinforcement-learning/",
-      "title": "Discovering network resilience formulas with symbolized reinforcement learning",
+      "title": "Discovering network resilience formulas with symbolized reinforcement learning – Zheng et al. (2026)",
       "status": "publish",
       "password_protected": false,
       "published_gmt": "2026-11-02T12:10:56Z",
-      "modified_local": "2026-11-02T07:10:56",
+      "modified_local": "2026-11-09T16:48:39",
       "content_sha256": "0704b4d7dceb8fb5880e6d535e83feeac0fb397d1963fc46f5b57374b419cf09",
       "author_id": 1379014,
       "author_name": "Benjamin P Taylor",
@@ -252,6 +280,15 @@
             "https://www.nature.com/articles/s41467-026-78269-3"
           ],
           "observed_at": "2026-11-07"
+        },
+        {
+          "modified_local": "2026-11-09T16:48:39",
+          "content_sha256": "0704b4d7dceb8fb5880e6d535e83feeac0fb397d1963fc46f5b57374b419cf09",
+          "post_url": "https://stream.syscoi.com/2026/11/02/discovering-network-resilience-formulas-with-symbolized-reinforcement-learning/",
+          "original_urls": [
+            "https://www.nature.com/articles/s41467-026-78269-3"
+          ],
+          "observed_at": "2026-11-09"
         }
       ]
     }
