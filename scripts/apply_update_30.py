@@ -103,7 +103,7 @@ latest_note='<p class="release-note-inline"><strong>Updated for 0.30:</strong> 3
 t=re.sub(r'<p class="release-note-inline"><strong>Updated for [^<]+:</strong>.*?</p>',latest_note,t,count=1,flags=re.S)
 p.write_text(t)
 p=DOCS/'sitemap.xml';t=p.read_text()
-for route in ['/updates/2026-10-07/','/reading/socio-technical-transitions/']:
+for route in ['/updates/2026-10-07/','/reading/socio-technical-transitions/','/events/']:
     if 'https://transduction.systems'+route not in t:t=t.replace('</urlset>','<url><loc>https://transduction.systems'+route+'</loc><lastmod>'+DATE+'</lastmod></url></urlset>')
 t=re.sub(r'(<url><loc>https://transduction\.systems/</loc><lastmod>)[^<]+(</lastmod></url>)',r'\g<1>2026-10-08\2',t,count=1)
 t=re.sub(r'<url><loc>https://transduction\.systems/events/</loc>(?:<lastmod>[^<]+</lastmod>)?</url>','<url><loc>https://transduction.systems/events/</loc><lastmod>'+DATE+'</lastmod></url>',t,count=1)

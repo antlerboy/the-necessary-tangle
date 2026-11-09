@@ -1,0 +1,55 @@
+{
+  "id": "reading_complexity_in_eight_days_amonya",
+  "title": "Complexity in Eight Days: Master Lecture Notes: Introduction to Complexity Science",
+  "authors": [
+    "Fred Amonya"
+  ],
+  "url": "https://www.researchgate.net/publication/417397903_Complexity_in_Eight_Days",
+  "summary": "A mathematically oriented introduction to complexity science, concerned with when a description is adequate and when it needs revision.",
+  "locator": "Inspected 33-page PDF: pp. 1–4, 8, 15, 17–19, 28–29; sections 1.1, 2.2–2.3, 4.2–4.3, 6.1 and 8.4–8.5",
+  "access_and_rights": "The public ResearchGate record could not be retrieved for independent verification. The inspected PDF identifies an open course without institutional affiliation; that statement is not a licence. The work retains its author's rights and terms.",
+  "date_note": "The inspected PDF's metadata names Fred Amonya and records creation and modification on 3 November 2026. The visible text gives no date; publication date and public-record version are unverified.",
+  "inspected_copy_sha256": "38a629d6666deee832929d2e88586414a172129f57d748b4346f329f282ac2c1",
+  "connections": [
+    {
+      "target": "concept_modelling",
+      "label": "Modelling",
+      "locator": "pp. 3–4, §1.1; p. 15, §§4.2–4.3",
+      "phrase": "Choices of description and conditions of model sufficiency",
+      "scope": "Editorial reading route, not a claim of influence.",
+      "kind": "argument"
+    },
+    {
+      "target": "concept_boundary",
+      "label": "Boundary",
+      "locator": "pp. 3–4, §1.1; p. 28, §8.4",
+      "phrase": "What is included and whose opportunities count",
+      "scope": "Editorial comparison, not a developed general theory of boundaries.",
+      "kind": "argument"
+    },
+    {
+      "target": "concept_observer",
+      "label": "Observer",
+      "locator": "pp. 3–4, §1.1; p. 15, §§4.2–4.3",
+      "phrase": "Modelling judgements and the purposes of a description",
+      "scope": "Editorial comparison; the notes do not develop a cybernetic theory of the observer.",
+      "kind": "argument"
+    },
+    {
+      "target": "concept_emergence",
+      "label": "Emergence",
+      "locator": "p. 8, §§2.2–2.3; p. 19, §6.1",
+      "phrase": "Coarse-graining, closure and limits of reduction",
+      "scope": "Editorial reading route, not an asserted historical connection.",
+      "kind": "argument"
+    },
+    {
+      "target": "concept_complexity",
+      "label": "Complexity",
+      "locator": "p. 29, §8.5",
+      "phrase": "Complexity depends partly on the question asked",
+      "scope": "A source-specific account, not a universal definition.",
+      "kind": "argument"
+    }
+  ]
+}
