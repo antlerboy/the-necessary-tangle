@@ -131,7 +131,7 @@ async function main() {
       await page.screenshot({path:path.join(output, 'source-filter-' + width + '.png'), fullPage:true});
 
       for (const workshop of workshops) {
-        await visit('/library/?q=' + encodeURIComponent(workshop.query));
+        await visit('/library/?collection=SysPrac26&q=' + encodeURIComponent(workshop.query));
         await libraryReady(page);
         await sourceCount(page, 1);
         assert.equal(await page.getByRole('searchbox', {name:'Search sources'}).inputValue(), workshop.query);
