@@ -4,7 +4,9 @@ Authorised by Benjamin P Taylor on 9 November 2026. The requested outcome is a s
 
 ## Scope
 
-Add the original ResearchGate reference, an attributed reading of the inspected 33-page PDF, precise page and section locators, and editorial routes to existing concepts. Publish one companion reading page and one searchable source-register record. Preserve existing atlas graph claims, source-owner-reviewed material, and the current audience. Do not redistribute the PDF or imply a verified publication date or open licence.
+Add the original ResearchGate reference, an attributed reading of the inspected 33-page PDF, precise page and section locators, and editorial routes to existing concepts. Publish one companion reading page and one searchable source-register record. Preserve existing atlas graph claims, source-owner-reviewed material, and the current audience. Do not redistribute the PDF or imply an open licence.
+
+The 9 November metadata reconciliation checks the now-accessible public ResearchGate record, records its reported publication and author-upload date of 3 November 2026, and adds its original PDF link. Direct PDF retrieval returned HTTP 403, so the supplied copy's checksum remains separate from the unverified hosted-file identity. This update changes the source record, generator, generated guide and catalogue, and this packet and its NEXT_WORK notice only.
 
 ## Source and interpretation
 
