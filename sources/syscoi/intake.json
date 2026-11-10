@@ -291,6 +291,55 @@
           "observed_at": "2026-11-09"
         }
       ]
+    },
+    {
+      "post_id": 29454,
+      "post_url": "https://stream.syscoi.com/2026/11/10/making-things-change-a-free-illustrated-32-page-guide-to-systems-change-for-young-people-taylor-2026/",
+      "title": "Making things change – a free, illustrated, 32-page guide to systems change for young people – Taylor (2026)",
+      "status": "publish",
+      "password_protected": false,
+      "published_gmt": "2026-11-10T13:08:02Z",
+      "modified_local": "2026-11-10T08:08:02",
+      "content_sha256": "eb2ebd4d30ce019a09889b046be4810f926aa34f943f6c443c9d99138a4c0e1e",
+      "author_id": 1379014,
+      "author_name": "Benjamin P Taylor",
+      "primary_url": "https://chosenpath.wordpress.com/wp-content/uploads/2026/11/a-systems-change-guide-for-young-people-making-things-change.pdf",
+      "original_urls": [
+        "https://chosen-path.org/2026/11/10/ive-written-making-things-change-a-free-illustrated-32-page-guide-to-systems-change-for-young-people/",
+        "https://chosenpath.wordpress.com/wp-content/uploads/2026/11/a-systems-change-guide-for-young-people-making-things-change.pdf",
+        "https://www.linkedin.com/posts/antlerboy_making-things-change-ugcPost-7525816816741511168-k3OO"
+      ],
+      "canonical_aliases": [],
+      "source_authors": [
+        "Benjamin P Taylor"
+      ],
+      "description": "Benjamin P Taylor's free, illustrated 32-page working draft introduces systems change to younger readers through a fictional student whose unreliable bus leads to an attendance warning. The associated Chosen Path article explains why competing definitions of the problem, institutional rules, authority, power, and different people's experiences matter. Taylor distinguishes the wider systems, cybernetics, and complexity traditions, questions claims that deeper interventions necessarily last longer, and cautions that changing the account of a situation does not itself change timetables, funding, or rules. The guide includes diagrams, a worksheet, references, and a worked example whose results are mixed. Taylor explicitly invites criticism and practical testing.",
+      "description_status": "source_scoped_summary",
+      "description_sources": [
+        {
+          "url": "https://chosen-path.org/2026/11/10/ive-written-making-things-change-a-free-illustrated-32-page-guide-to-systems-change-for-young-people/",
+          "locator": "Article paragraphs on bus/attendance example, conceptual distinctions, mixed outcomes, and working-draft status; downloadable PDF link",
+          "checked_at": "2026-11-10"
+        },
+        {
+          "url": "https://stream.syscoi.com/2026/11/10/making-things-change-a-free-illustrated-32-page-guide-to-systems-change-for-young-people-taylor-2026/",
+          "locator": "Published SysCoI embed of Chosen Path post 5730",
+          "checked_at": "2026-11-10"
+        }
+      ],
+      "versions": [
+        {
+          "modified_local": "2026-11-10T08:08:02",
+          "content_sha256": "eb2ebd4d30ce019a09889b046be4810f926aa34f943f6c443c9d99138a4c0e1e",
+          "observed_at": "2026-11-10",
+          "post_url": "https://stream.syscoi.com/2026/11/10/making-things-change-a-free-illustrated-32-page-guide-to-systems-change-for-young-people-taylor-2026/",
+          "original_urls": [
+            "https://chosen-path.org/2026/11/10/ive-written-making-things-change-a-free-illustrated-32-page-guide-to-systems-change-for-young-people/",
+            "https://chosenpath.wordpress.com/wp-content/uploads/2026/11/a-systems-change-guide-for-young-people-making-things-change.pdf",
+            "https://www.linkedin.com/posts/antlerboy_making-things-change-ugcPost-7525816816741511168-k3OO"
+          ]
+        }
+      ]
     }
   ]
 }
