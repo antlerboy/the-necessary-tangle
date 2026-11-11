@@ -51,6 +51,10 @@ assert len(DATA['versions']) == 2 and sum(v['current'] for v in DATA['versions']
 for version in DATA['versions']:
     assert Path(version['filename']).name == version['filename']
     fetch_pdf(version)
+    for legacy_name in version.get('legacy_filenames', []):
+        assert Path(legacy_name).name == legacy_name
+        assert legacy_name not in [v['filename'] for v in DATA['versions']]
+        (FOLDER / 'files' / legacy_name).write_bytes((FOLDER / 'files' / version['filename']).read_bytes())
 
 body = '<p class="lead">' + h(DATA['summary']) + '</p><p>' + h(DATA['introduction']) + '</p>'
 body += '<section><h2>Choose an edition</h2><p>Start with the revised draft. The first draft is kept here so you can compare them.</p><div class="guide-editions">'
@@ -88,7 +92,7 @@ if TANGLE:
     catalogue['records'] = [r for r in catalogue['records'] if r['id'] != record['id']] + [record]
     catalogue['counts']['source_register_records'] = len(catalogue['records'])
     path.write_text(json.dumps(catalogue,ensure_ascii=False,separators=(',',':'))+'\n')
-    note = '\n## Guide editions: Making things change\n\nBenjamin P Taylor authorised both 32-page working drafts on 11 November 2026. The guide at /library/making-things-change/ offers v0.02 first, retains v0.01, and reuses SysCoI resource identity resource_syscoi_post_29454. No graph or release change. Source packet: sources/making-things-change/PACKET.md. The Publish workflow and deployment.json identify validation and publication.\n'
+    note = '\n## Guide editions: Making things change\n\nBenjamin P Taylor authorised both 32-page working drafts on 11 November 2026. The guide at /library/making-things-change/ offers v0.02 first, retains the first draft with resource links corrected on 11 November 2026, and reuses SysCoI resource identity resource_syscoi_post_29454. No graph or release change. Source packet: sources/making-things-change/PACKET.md. The Publish workflow and deployment.json identify validation and publication.\n'
     for relative in ['documentation/NEXT_WORK.md', 'documentation/TANGLE_STATE.md']:
         path = ROOT / relative
         text = path.read_text()

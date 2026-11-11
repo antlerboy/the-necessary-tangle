@@ -1,4 +1,18 @@
 # Next work
+<!-- guide-resource-link-correction -->
+## Current packet: correct the first guide's resource links
+
+Benjamin P Taylor authorised this correction on 11 November 2026. Replace the
+first edition of Making things change with v0.01.1 BT, restoring the external
+resource links and adding the correction date. Preserve the revised v0.02
+edition and the existing guide and source-record identities. Retain the old
+first-edition download address as an alias serving the corrected PDF. Scope:
+sources/making-things-change/guide.json, its source packet, the guide generator,
+and the existing guide download check. Acceptance: make validate, desktop/mobile
+download checks, and live checks of both editions and the legacy download. No
+graph, release, source access, or editorial responsibility changes.
+<!-- /guide-resource-link-correction -->
+
 <!-- sysprac26-collection -->
 ## Current packet: SysPrac26 collection and follow-up workshops
 

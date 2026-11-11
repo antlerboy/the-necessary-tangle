@@ -41,6 +41,11 @@ const root = path.resolve(tangle ? 'docs' : '_site');
    assert.equal(download.suggestedFilename(),version.filename);
    assert.equal(await download.failure(),null);
    assert.equal(crypto.createHash('sha256').update(fs.readFileSync(await download.path())).digest('hex'),version.sha256);
+   for (const legacyName of version.legacy_filenames || []) {
+    const response = await page.request.get(base+data.route+'files/'+encodeURIComponent(legacyName));
+    assert.equal(response.status(),200,'Legacy download is unavailable: '+legacyName);
+    assert.equal(crypto.createHash('sha256').update(await response.body()).digest('hex'),version.sha256);
+   }
   }
   if(tangle)assert.equal(await page.locator('[aria-label="Open updates"]').count(),1);
   console.log('Guide editions: desktop/mobile, exact download names, PDF hashes, and navigation checks passed');
