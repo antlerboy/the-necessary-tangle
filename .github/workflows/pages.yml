@@ -190,27 +190,36 @@ jobs:
           npm install --prefix /tmp/practice-browser --no-save playwright@1.55.0
           # Hosted runners already include Chromium libraries and DejaVu fonts.
           /tmp/practice-browser/node_modules/.bin/playwright install chromium
-      - name: Install live media inspection dependency
-        timeout-minutes: 20
+      - name: Install pinned live media inspection tools
+        timeout-minutes: 5
         run: |
-          missing=()
-          for package in ffmpeg; do
-            if ! dpkg-query -W -f='${Status}\n' "$package" 2>/dev/null | grep -qx 'install ok installed'; then
-              missing+=("$package")
-            fi
-          done
-          if (( ${#missing[@]} )); then
-            echo "Installing missing packages: ${missing[*]}"
-            sudo apt-get -o Acquire::Retries=2 -o Acquire::http::Timeout=30 -o Acquire::https::Timeout=30 update
-            sudo apt-get -o Acquire::Retries=2 -o Acquire::http::Timeout=30 -o Acquire::https::Timeout=30 install -y --no-install-recommends "${missing[@]}"
-          else
-            echo 'Required media packages are already installed.'
-          fi
-          ffprobe -version
+          # Static packages retain ffmpeg/ffprobe checks without relying on apt mirrors.
+          npm install --prefix "$RUNNER_TEMP/tangle-media" --no-save --package-lock=false ffmpeg-static@5.2.0 ffprobe-static@3.1.0
+          mkdir -p "$RUNNER_TEMP/tangle-media/bin"
+          node - <<'JS'
+          const fs = require('node:fs');
+          const path = require('node:path');
+          const root = path.join(process.env.RUNNER_TEMP, 'tangle-media');
+          const binaries = {
+            ffmpeg: require(path.join(root, 'node_modules/ffmpeg-static')),
+            ffprobe: require(path.join(root, 'node_modules/ffprobe-static')).path,
+          };
+          for (const [name, binary] of Object.entries(binaries)) {
+            fs.symlinkSync(binary, path.join(root, 'bin', name));
+          }
+          JS
+          echo "$RUNNER_TEMP/tangle-media/bin" >> "$GITHUB_PATH"
+          "$RUNNER_TEMP/tangle-media/bin/ffmpeg" -version
+          "$RUNNER_TEMP/tangle-media/bin/ffprobe" -version
       - name: Verify the live Encounters film and audio
         env:
           DEPLOY_COMMIT: ${{ github.sha }}
         run: python3 scripts/verify_live_encounters.py
+      - name: Check both live guide editions and download names
+        env:
+          NODE_PATH: /tmp/practice-browser/node_modules
+          GUIDE_BASE_URL: https://transduction.systems
+        run: node scripts/test_guide_editions.cjs
       - name: Exercise the actual public pages
         env:
           NODE_PATH: /tmp/practice-browser/node_modules
