@@ -26,41 +26,36 @@ jobs:
           ref: fb4954c7dcd80d2ddd6d5b8c62c2fee6d7893253
           path: _systemsmap
           persist-credentials: false
-      - name: Install media inspection dependency
-        timeout-minutes: 20
+      - name: Install pinned media inspection tools
+        timeout-minutes: 5
         run: |
-          # Use Canonical's public archive when the Azure mirror cannot resolve.
-          if [ -f /etc/apt/apt-mirrors.txt ]; then
-            sudo sed -i 's|http://azure.archive.ubuntu.com/ubuntu|https://archive.ubuntu.com/ubuntu|g; s|https://azure.archive.ubuntu.com/ubuntu|https://archive.ubuntu.com/ubuntu|g' /etc/apt/apt-mirrors.txt
-          fi
-          missing=()
-          for package in ffmpeg fonts-dejavu-core; do
-            if ! dpkg-query -W -f='${Status}\n' "$package" 2>/dev/null | grep -qx 'install ok installed'; then
-              missing+=("$package")
-            fi
-          done
-          if (( ${#missing[@]} )); then
-            echo "Installing missing packages: ${missing[*]}"
-            sudo apt-get -o Acquire::Retries=2 -o Acquire::http::Timeout=30 -o Acquire::https::Timeout=30 update
-            sudo apt-get -o Acquire::Retries=2 -o Acquire::http::Timeout=30 -o Acquire::https::Timeout=30 install -y --no-install-recommends "${missing[@]}"
-          else
-            echo 'Required media packages are already installed.'
-          fi
-          ffprobe -version
-          dpkg-query -W -f='${Status}\n' ffmpeg | grep -Fx 'install ok installed'
-          dpkg-query -W -f='${Status}\n' fonts-dejavu-core | grep -Fx 'install ok installed'
+          # Static packages retain ffmpeg/ffprobe checks without relying on apt mirrors.
+          npm install --prefix "$RUNNER_TEMP/tangle-media" --no-save --package-lock=false ffmpeg-static@5.2.0 ffprobe-static@3.1.0
+          mkdir -p "$RUNNER_TEMP/tangle-media/bin"
+          node - <<'JS'
+          const fs = require('node:fs');
+          const path = require('node:path');
+          const root = path.join(process.env.RUNNER_TEMP, 'tangle-media');
+          const binaries = {
+            ffmpeg: require(path.join(root, 'node_modules/ffmpeg-static')),
+            ffprobe: require(path.join(root, 'node_modules/ffprobe-static')).path,
+          };
+          for (const [name, binary] of Object.entries(binaries)) {
+            fs.symlinkSync(binary, path.join(root, 'bin', name));
+          }
+          JS
+          echo "$RUNNER_TEMP/tangle-media/bin" >> "$GITHUB_PATH"
+          "$RUNNER_TEMP/tangle-media/bin/ffmpeg" -version
+          "$RUNNER_TEMP/tangle-media/bin/ffprobe" -version
       - name: Build and validate the current release
         run: make validate
       - name: Add visit analytics to every published page
         run: python3 scripts/inject-visit-analytics.py docs
       - name: Install pinned browser test runner
         run: |
-          # Use Canonical's public archive when the Azure mirror cannot resolve.
-          if [ -f /etc/apt/apt-mirrors.txt ]; then
-            sudo sed -i 's|http://azure.archive.ubuntu.com/ubuntu|https://archive.ubuntu.com/ubuntu|g; s|https://azure.archive.ubuntu.com/ubuntu|https://archive.ubuntu.com/ubuntu|g' /etc/apt/apt-mirrors.txt
-          fi
           npm install --prefix /tmp/practice-browser --no-save playwright@1.55.0
-          /tmp/practice-browser/node_modules/.bin/playwright install --with-deps chromium
+          # Hosted runners already include Chromium libraries and DejaVu fonts.
+          /tmp/practice-browser/node_modules/.bin/playwright install chromium
       - name: Test practice pages before publication
         env:
           NODE_PATH: /tmp/practice-browser/node_modules
@@ -192,12 +187,9 @@ jobs:
         run: python3 scripts/prepare_live_practice_check.py
       - name: Install pinned browser test runner
         run: |
-          # Use Canonical's public archive when the Azure mirror cannot resolve.
-          if [ -f /etc/apt/apt-mirrors.txt ]; then
-            sudo sed -i 's|http://azure.archive.ubuntu.com/ubuntu|https://archive.ubuntu.com/ubuntu|g; s|https://azure.archive.ubuntu.com/ubuntu|https://archive.ubuntu.com/ubuntu|g' /etc/apt/apt-mirrors.txt
-          fi
           npm install --prefix /tmp/practice-browser --no-save playwright@1.55.0
-          /tmp/practice-browser/node_modules/.bin/playwright install --with-deps chromium
+          # Hosted runners already include Chromium libraries and DejaVu fonts.
+          /tmp/practice-browser/node_modules/.bin/playwright install chromium
       - name: Install live media inspection dependency
         timeout-minutes: 20
         run: |
