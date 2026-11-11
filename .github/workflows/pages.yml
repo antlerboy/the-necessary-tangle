@@ -29,6 +29,10 @@ jobs:
       - name: Install media inspection dependency
         timeout-minutes: 20
         run: |
+          # Use Canonical's public archive when the Azure mirror cannot resolve.
+          if [ -f /etc/apt/apt-mirrors.txt ]; then
+            sudo sed -i 's|http://azure.archive.ubuntu.com/ubuntu|https://archive.ubuntu.com/ubuntu|g; s|https://azure.archive.ubuntu.com/ubuntu|https://archive.ubuntu.com/ubuntu|g' /etc/apt/apt-mirrors.txt
+          fi
           missing=()
           for package in ffmpeg fonts-dejavu-core; do
             if ! dpkg-query -W -f='${Status}\n' "$package" 2>/dev/null | grep -qx 'install ok installed'; then
@@ -51,6 +55,10 @@ jobs:
         run: python3 scripts/inject-visit-analytics.py docs
       - name: Install pinned browser test runner
         run: |
+          # Use Canonical's public archive when the Azure mirror cannot resolve.
+          if [ -f /etc/apt/apt-mirrors.txt ]; then
+            sudo sed -i 's|http://azure.archive.ubuntu.com/ubuntu|https://archive.ubuntu.com/ubuntu|g; s|https://azure.archive.ubuntu.com/ubuntu|https://archive.ubuntu.com/ubuntu|g' /etc/apt/apt-mirrors.txt
+          fi
           npm install --prefix /tmp/practice-browser --no-save playwright@1.55.0
           /tmp/practice-browser/node_modules/.bin/playwright install --with-deps chromium
       - name: Test practice pages before publication
@@ -184,6 +192,10 @@ jobs:
         run: python3 scripts/prepare_live_practice_check.py
       - name: Install pinned browser test runner
         run: |
+          # Use Canonical's public archive when the Azure mirror cannot resolve.
+          if [ -f /etc/apt/apt-mirrors.txt ]; then
+            sudo sed -i 's|http://azure.archive.ubuntu.com/ubuntu|https://archive.ubuntu.com/ubuntu|g; s|https://azure.archive.ubuntu.com/ubuntu|https://archive.ubuntu.com/ubuntu|g' /etc/apt/apt-mirrors.txt
+          fi
           npm install --prefix /tmp/practice-browser --no-save playwright@1.55.0
           /tmp/practice-browser/node_modules/.bin/playwright install --with-deps chromium
       - name: Install live media inspection dependency
