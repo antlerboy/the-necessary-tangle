@@ -1,6 +1,6 @@
 .PHONY: build build-base apply-current apply-practice apply-missing-entry-reports validate serve clean
 
-build: build-base apply-current apply-practice apply-september apply-intake apply-maps apply-library apply-missing-entry-reports apply-submission-review apply-claim-lab apply-weaver apply-update-30 apply-update-31 apply-update-32 apply-update-33 apply-update-34 apply-saidtosomeone apply-update-35 apply-cybernetic-readings apply-isss-wiki apply-update-36 apply-update-37 apply-update-38 apply-update-39 apply-update-40 apply-update-41 apply-readable-atlas apply-syscoi-intake apply-complexity-eight-days apply-sysprac26
+build: build-base apply-current apply-practice apply-september apply-intake apply-maps apply-library apply-missing-entry-reports apply-submission-review apply-claim-lab apply-weaver apply-update-30 apply-update-31 apply-update-32 apply-update-33 apply-update-34 apply-saidtosomeone apply-update-35 apply-cybernetic-readings apply-isss-wiki apply-update-36 apply-update-37 apply-update-38 apply-update-39 apply-update-40 apply-update-41 apply-readable-atlas apply-syscoi-intake apply-complexity-eight-days apply-sysprac26 apply-making-things-change
 
 # Historical validators assert historical release identifiers. Rebuild that
 # baseline, run its gates, then apply and validate the current release.
@@ -223,6 +223,7 @@ validate: build-base
 	python3 scripts/validate_syscoi_intake.py
 	$(MAKE) apply-complexity-eight-days
 	$(MAKE) apply-sysprac26
+	$(MAKE) apply-making-things-change
 	python3 scripts/validate_readable_atlas.py
 	python3 scripts/validate_public.py
 
@@ -356,3 +357,7 @@ apply-complexity-eight-days:
 .PHONY: apply-sysprac26
 apply-sysprac26:
 	python3 scripts/build_sysprac26.py
+
+.PHONY: apply-making-things-change
+apply-making-things-change:
+	python3 scripts/build_making_things_change.py

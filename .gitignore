@@ -5,3 +5,4 @@ __pycache__/
 .env
 validation/*.png
 validation/*.txt
+docs/library/making-things-change/files/*.pdf

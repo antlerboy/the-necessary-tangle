@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "title": "Making things change",
+  "subtitle": "A young person’s guide to systems, power, and practical action",
+  "author": "Benjamin P Taylor",
+  "checked_on": "2026-11-11",
+  "route": "/library/making-things-change/",
+  "summary": "A free, illustrated, 32-page guide for young people who want to change something harmful, protect something valuable, or create something new. Two working drafts are available.",
+  "introduction": "An unreliable college bus and a group creating a music space give readers two fictional situations to investigate. The revised guide connects purpose, ways of seeing, action, and learning, with questions about power, authority, organisation, and evidence.",
+  "revision_note": "The second draft adds a framework for systems change, six approaches to systems leadership, and a second worked example about creating a music space. It develops the distinctions between systems approaches, the part we play in recurring patterns, and how people organise together. Both editions are working drafts, with original diagrams, exercises, a worksheet, and sources.",
+  "discussion_url": "https://chosen-path.org/2026/11/10/ive-written-making-things-change-a-free-illustrated-32-page-guide-to-systems-change-for-young-people/",
+  "linkedin_url": "https://lnkd.in/p/ejMzDxtW",
+  "versions": [
+    {
+      "id": "v0-02",
+      "version": "v0.02 BT",
+      "label": "Revised draft",
+      "date": "2026-11-10",
+      "date_label": "10 November 2026",
+      "current": true,
+      "pages": 32,
+      "filename": "2026-11-10 Making things change - a systems change guide for young people v0.02 BT.pdf",
+      "source_url": "https://chosenpath.wordpress.com/wp-content/uploads/2026/11/2026-11-10-making-things-change-a-systems-change-guide-for-young-people-v0.02-bt.pdf",
+      "sha256": "de41b69e0b5109968690da148bcfc6abc118a4ffe6a2f4928a7c4ae8b4a37eba",
+      "size_bytes": 6313203,
+      "description": "The current draft. Starts with both a transport barrier and the possibility of making music together; develops systems change, leadership, organisation, and learning."
+    },
+    {
+      "id": "v0-01",
+      "version": "v0.01 BT",
+      "label": "First draft",
+      "date": "2026-11-09",
+      "date_label": "9 November 2026",
+      "current": false,
+      "pages": 32,
+      "filename": "2026-11-09 Making things change young person’s guide v0.01 BT.pdf",
+      "source_url": "https://chosenpath.wordpress.com/wp-content/uploads/2026/11/2026-11-09-making-things-change-young-persons-guide-v0.01-bt.pdf",
+      "sha256": "2ca42022b44a78a7b7f3c4e64b76b26077a4dd66744416dc287fa5b3a9ddc363",
+      "size_bytes": 6344681,
+      "description": "The original draft, retained for comparison. Uses the fictional college bus problem to explore systems, boundaries, power, feedback, and practical action."
+    }
+  ]
+}
