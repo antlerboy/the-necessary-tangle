@@ -293,6 +293,148 @@
       ]
     },
     {
+      "post_id": 29445,
+      "post_url": "https://stream.syscoi.com/2026/11/11/vsm-simulation-pasta-lasta-lambertz-2026/",
+      "title": "VSM simulation ‘Pasta Lasta’ – Lambertz (2026)",
+      "status": "publish",
+      "password_protected": false,
+      "published_gmt": "2026-11-11T18:22:40Z",
+      "modified_local": "2026-11-11T13:22:55",
+      "content_sha256": "b40f3567877a3d065591994b5a8b09d6fd8d014d89173c89217c4408232d6018",
+      "author_id": 1379014,
+      "author_name": "Benjamin P Taylor",
+      "primary_url": "https://intelligente-organisationen.de/vsm-simulation-pasta-lasta",
+      "original_urls": [
+        "https://intelligente-organisationen.de/vsm-simulation-pasta-lasta",
+        "https://intelligente-organisationen.de/wp-content/uploads/2026/10/Pasta_Lasta_Facilitator_Handout.pdf"
+      ],
+      "canonical_aliases": [],
+      "source_authors": [
+        "Mark Lambertz",
+        "Allenna Leonard (original storyline)"
+      ],
+      "description": "Mark Lambertz's 'Pasta Lasta' is a facilitated restaurant simulation for exploring Stafford Beer's Viable System Model. Participants organise a fictional hospitality business, respond to an eventful week, and reflect using a VSM laid out on the floor. It foregrounds operational autonomy, coordination, recursion, and decisions under changing conditions. The public guide provides a facilitator handout and alternative session lengths. Lambertz explicitly credits Allenna Leonard for the original storyline.",
+      "description_status": "source_scoped_summary",
+      "description_sources": [
+        {
+          "url": "https://intelligente-organisationen.de/vsm-simulation-pasta-lasta",
+          "locator": "Learning the VSM by Running a Restaurant; credits; facilitator handout; session plan",
+          "checked_at": "2026-11-12"
+        }
+      ],
+      "versions": [
+        {
+          "modified_local": "2026-11-11T13:22:55",
+          "content_sha256": "b40f3567877a3d065591994b5a8b09d6fd8d014d89173c89217c4408232d6018",
+          "observed_at": "2026-11-12",
+          "post_url": "https://stream.syscoi.com/2026/11/11/vsm-simulation-pasta-lasta-lambertz-2026/",
+          "original_urls": [
+            "https://intelligente-organisationen.de/vsm-simulation-pasta-lasta",
+            "https://intelligente-organisationen.de/wp-content/uploads/2026/10/Pasta_Lasta_Facilitator_Handout.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "post_id": 29446,
+      "post_url": "https://stream.syscoi.com/2026/11/10/systems-of-traditional-knowledge-pluriversal-design-systems-thinking-ontario-18-november-2026-1830-est-2330-gmt-price-not-stated/",
+      "title": "Systems of Traditional Knowledge, Pluriversal Design – Systems Thinking Ontario – 18 November 2026, 18:30 EST / 23:30 GMT – price not stated",
+      "status": "publish",
+      "password_protected": false,
+      "published_gmt": "2026-11-10T21:14:17Z",
+      "modified_local": "2026-11-11T03:24:54",
+      "content_sha256": "df25741c59fa6bb9878bc56ed996e7d0f412e0517ae342c0473556b4fb84fe2b",
+      "author_id": 1379014,
+      "author_name": "Benjamin P Taylor",
+      "primary_url": "https://wiki.st-on.org/2026-11-18",
+      "original_urls": [
+        "https://guild.host/events/systems-of-traditional-si2lqm",
+        "https://wiki.st-on.org/2026-11-18"
+      ],
+      "canonical_aliases": [],
+      "source_authors": [
+        "Systems Thinking Ontario",
+        "Herman Piʻikea Clark",
+        "Roberto Pires",
+        "David Ing"
+      ],
+      "description": "Systems Thinking Ontario's 148th hybrid meeting, on 18 November 2026 at 18:30 EST / 23:30 GMT, explores Indigenous knowledge and pluriversal design. Herman Piʻikea Clark discusses Makawalu and cognitive justice; Roberto Pires considers participatory futures and plural knowledge systems; David Ing moderates. Attend at OCAD University in Toronto or online via Microsoft Teams; registration is through Guild. The listed public sources do not state a price. The event programme was verified on the organiser's wiki; the Guild registration page could not be read directly in this check.",
+      "description_status": "source_scoped_summary",
+      "description_sources": [
+        {
+          "url": "https://wiki.st-on.org/2026-11-18",
+          "locator": "148th meeting; speakers; hybrid venue; date; registration link",
+          "checked_at": "2026-11-12"
+        },
+        {
+          "url": "https://stream.syscoi.com/2026/11/10/systems-of-traditional-knowledge-pluriversal-design-systems-thinking-ontario-18-november-2026-1830-est-2330-gmt-price-not-stated/",
+          "locator": "Published post: GMT/EST start and price not stated",
+          "checked_at": "2026-11-12"
+        }
+      ],
+      "versions": [
+        {
+          "modified_local": "2026-11-11T03:24:54",
+          "content_sha256": "df25741c59fa6bb9878bc56ed996e7d0f412e0517ae342c0473556b4fb84fe2b",
+          "observed_at": "2026-11-12",
+          "post_url": "https://stream.syscoi.com/2026/11/10/systems-of-traditional-knowledge-pluriversal-design-systems-thinking-ontario-18-november-2026-1830-est-2330-gmt-price-not-stated/",
+          "original_urls": [
+            "https://guild.host/events/systems-of-traditional-si2lqm",
+            "https://wiki.st-on.org/2026-11-18"
+          ]
+        }
+      ]
+    },
+    {
+      "post_id": 29453,
+      "post_url": "https://stream.syscoi.com/2026/11/10/causal-assembly-theory-assembly-and-disassembly-as-causal-processes-challoner-2026/",
+      "title": "Causal Assembly Theory: Assembly and Disassembly as Causal Processes – Challoner (2026)",
+      "status": "publish",
+      "password_protected": false,
+      "published_gmt": "2026-11-10T20:38:58Z",
+      "modified_local": "2026-11-10T15:39:05",
+      "content_sha256": "67f3bfeabc694988b95ad243fb420524def6ffce43540ab346d42764bea87bd4",
+      "author_id": 1379014,
+      "author_name": "Benjamin P Taylor",
+      "primary_url": "https://rational-understanding.com/wp-content/uploads/2026/11/assembly-and-disassembly-as-causal-processes-vers8.pdf",
+      "original_urls": [
+        "https://rational-understanding.com/wp-content/uploads/2026/11/assembly-and-disassembly-as-causal-processes-vers8.pdf",
+        "https://rational-understanding.com/efgst/",
+        "https://rational-understanding.com/gst-course/"
+      ],
+      "canonical_aliases": [],
+      "source_authors": [
+        "John A Challoner"
+      ],
+      "description": "John A Challoner's November 2026 version-eight paper examines how physical interactions, transfers, and constraints make entities participants in systems, maintain their organisation, and contribute to assembly, change, and disassembly. His free General Systems Theory course lists related modules 92–106, building on earlier work on foundational causality. The paper and course are evolving resources; this entry links the current paper, collection, course, and earlier coverage without treating the author's theoretical claims as established results.",
+      "description_status": "source_scoped_summary",
+      "description_sources": [
+        {
+          "url": "https://rational-understanding.com/efgst/",
+          "locator": "EFGST paper collection, Latest Addition: Assembly and Disassembly as Causal Processes Vers8",
+          "checked_at": "2026-11-12"
+        },
+        {
+          "url": "https://stream.syscoi.com/2026/11/10/causal-assembly-theory-assembly-and-disassembly-as-causal-processes-challoner-2026/",
+          "locator": "Published post: paper, course modules 92–106, and earlier coverage",
+          "checked_at": "2026-11-12"
+        }
+      ],
+      "versions": [
+        {
+          "modified_local": "2026-11-10T15:39:05",
+          "content_sha256": "67f3bfeabc694988b95ad243fb420524def6ffce43540ab346d42764bea87bd4",
+          "observed_at": "2026-11-12",
+          "post_url": "https://stream.syscoi.com/2026/11/10/causal-assembly-theory-assembly-and-disassembly-as-causal-processes-challoner-2026/",
+          "original_urls": [
+            "https://rational-understanding.com/wp-content/uploads/2026/11/assembly-and-disassembly-as-causal-processes-vers8.pdf",
+            "https://rational-understanding.com/efgst/",
+            "https://rational-understanding.com/gst-course/"
+          ]
+        }
+      ]
+    },
+    {
       "post_id": 29454,
       "post_url": "https://stream.syscoi.com/2026/11/10/making-things-change-a-free-illustrated-32-page-guide-to-systems-change-for-young-people-taylor-2026/",
       "title": "Making things change – a free, illustrated, 32-page guide to systems change for young people – Taylor (2026)",
@@ -337,6 +479,154 @@
             "https://chosen-path.org/2026/11/10/ive-written-making-things-change-a-free-illustrated-32-page-guide-to-systems-change-for-young-people/",
             "https://chosenpath.wordpress.com/wp-content/uploads/2026/11/a-systems-change-guide-for-young-people-making-things-change.pdf",
             "https://www.linkedin.com/posts/antlerboy_making-things-change-ugcPost-7525816816741511168-k3OO"
+          ]
+        }
+      ]
+    },
+    {
+      "post_id": 29464,
+      "post_url": "https://stream.syscoi.com/2026/11/11/foundations-of-a-postmodern-cybernetics-based-on-kabbalah-burstein-and-negoita-2011/",
+      "title": "Foundations of a postmodern cybernetics based on Kabbalah – Burstein and Negoita (2011)",
+      "status": "publish",
+      "password_protected": false,
+      "published_gmt": "2026-11-11T13:53:03Z",
+      "modified_local": "2026-11-11T08:53:03",
+      "content_sha256": "af72247ee3595bd0892b809ccaced42d3cffbc0b057faddb1218515d2ad9b065",
+      "author_id": 1379014,
+      "author_name": "Benjamin P Taylor",
+      "primary_url": "https://doi.org/10.1108/03684921111169422",
+      "original_urls": [
+        "https://www.researchgate.net/publication/220626476_Foundations_of_a_postmodern_cybernetics_based_on_Kabbalah",
+        "https://doi.org/10.1108/03684921111169422",
+        "https://www.researchgate.net/publication/286018391_A_Kabbalah_System_Theory_Modeling_Framework_for_Knowledge_Based_Behavioral_Economics_and_Finance",
+        "https://doi.org/10.1007/978-3-319-01285-8_2"
+      ],
+      "canonical_aliases": [],
+      "source_authors": [
+        "Gabriel Burstein",
+        "Constantin Virgil Negoita"
+      ],
+      "description": "This deliberately grouped SysCoI resource covers two linked works by Gabriel Burstein and Constantin Virgil Negoita. The 2011 Kybernetes paper proposes a Kabbalah Tree of Life-based cybernetic framework for cognition, emotion, and action using feedback, hierarchical control, multi-valued logic, and category theory. Their 2014 chapter develops the proposal for knowledge-based behavioural economics and finance, drawing on system dynamics, emotional intelligence, and tacit knowledge. These are the authors' theoretical propositions, not independent proof that the framework explains or resolves societal problems.",
+      "description_status": "source_scoped_summary",
+      "description_sources": [
+        {
+          "url": "https://www.researchgate.net/publication/220626476_Foundations_of_a_postmodern_cybernetics_based_on_Kabbalah",
+          "locator": "October 2011 Kybernetes article title, authors, abstract and DOI",
+          "checked_at": "2026-11-12"
+        },
+        {
+          "url": "https://www.researchgate.net/publication/286018391_A_Kabbalah_System_Theory_Modeling_Framework_for_Knowledge_Based_Behavioral_Economics_and_Finance",
+          "locator": "November 2014 book chapter title, authors, abstract and DOI",
+          "checked_at": "2026-11-12"
+        }
+      ],
+      "versions": [
+        {
+          "modified_local": "2026-11-11T08:53:03",
+          "content_sha256": "af72247ee3595bd0892b809ccaced42d3cffbc0b057faddb1218515d2ad9b065",
+          "observed_at": "2026-11-12",
+          "post_url": "https://stream.syscoi.com/2026/11/11/foundations-of-a-postmodern-cybernetics-based-on-kabbalah-burstein-and-negoita-2011/",
+          "original_urls": [
+            "https://www.researchgate.net/publication/220626476_Foundations_of_a_postmodern_cybernetics_based_on_Kabbalah",
+            "https://doi.org/10.1108/03684921111169422",
+            "https://www.researchgate.net/publication/286018391_A_Kabbalah_System_Theory_Modeling_Framework_for_Knowledge_Based_Behavioral_Economics_and_Finance",
+            "https://doi.org/10.1007/978-3-319-01285-8_2"
+          ]
+        }
+      ]
+    },
+    {
+      "post_id": 29466,
+      "post_url": "https://stream.syscoi.com/2026/11/11/vsm-renderer-krasikov/",
+      "title": "VSM Renderer – Krasikov",
+      "status": "publish",
+      "password_protected": false,
+      "published_gmt": "2026-11-11T18:23:08Z",
+      "modified_local": "2026-11-11T13:23:08",
+      "content_sha256": "1b46df42e226c07480be880544b281e6eb526ee8883761abfec3e272d34c1492",
+      "author_id": 1379014,
+      "author_name": "Benjamin P Taylor",
+      "primary_url": "https://github.com/captador/vsm-renderer",
+      "original_urls": [
+        "https://github.com/captador/vsm-renderer",
+        "https://captador.github.io/vsm-renderer/"
+      ],
+      "canonical_aliases": [],
+      "source_authors": [
+        "Arseny Krasikov"
+      ],
+      "description": "Arseny Krasikov's VSM Renderer is an open-source TypeScript and Konva library for displaying interactive Viable System Model diagrams. The repository documents nested recursive systems, drill-down navigation, individually selectable channels, zoom and pan, and click events. Its README links a live demonstration and installation instructions. This library is related to, but distinct from, Krasikov and Mark Lambertz's VSM7 application and its earlier SysCoI walkthrough.",
+      "description_status": "source_scoped_summary",
+      "description_sources": [
+        {
+          "url": "https://github.com/captador/vsm-renderer",
+          "locator": "README: overview; demo; features; installation; EUPL-1.2 licence",
+          "checked_at": "2026-11-12"
+        },
+        {
+          "url": "https://stream.syscoi.com/2026/11/11/vsm-renderer-krasikov/",
+          "locator": "Published post distinguishing the renderer from VSM7",
+          "checked_at": "2026-11-12"
+        }
+      ],
+      "versions": [
+        {
+          "modified_local": "2026-11-11T13:23:08",
+          "content_sha256": "1b46df42e226c07480be880544b281e6eb526ee8883761abfec3e272d34c1492",
+          "observed_at": "2026-11-12",
+          "post_url": "https://stream.syscoi.com/2026/11/11/vsm-renderer-krasikov/",
+          "original_urls": [
+            "https://github.com/captador/vsm-renderer",
+            "https://captador.github.io/vsm-renderer/"
+          ]
+        }
+      ]
+    },
+    {
+      "post_id": 29469,
+      "post_url": "https://stream.syscoi.com/2026/11/11/riffs-and-rotes-overview/",
+      "title": "Riffs and Rotes • Overview",
+      "status": "publish",
+      "password_protected": false,
+      "published_gmt": "2026-11-11T22:18:06Z",
+      "modified_local": "2026-11-11T17:24:16",
+      "content_sha256": "4c02b55215adff47e278a753d6631279787ab80cbd5fa587155c763395577d7c",
+      "author_id": 10781160,
+      "author_name": "Jon Awbrey",
+      "primary_url": "https://oeis.org/wiki/Riffs_and_Rotes",
+      "original_urls": [
+        "https://oeis.org/wiki/Riffs_and_Rotes",
+        "https://mathstodon.xyz/@Inquiry/113765962017439989",
+        "https://www.researchgate.net/post/Riffs_and_Rotes_Overview"
+      ],
+      "canonical_aliases": [],
+      "source_authors": [
+        "Jon Awbrey"
+      ],
+      "description": "Jon Awbrey's public SysCoI overview introduces 'Riffs' and 'Rotes' as directed and undirected graph representations of doubly recursive prime factorizations. Using the integer 2025 as an example, the post describes expansion by prime indices to generate a distinctive combinatorial structure. Its explanation says it was adapted from a Google AI Overview; the underlying OEIS wiki returned HTTP 403 in this source check, so the mathematical exposition has not been independently checked here.",
+      "description_status": "source_scoped_summary",
+      "description_sources": [
+        {
+          "url": "https://stream.syscoi.com/2026/11/11/riffs-and-rotes-overview/",
+          "locator": "Jon Awbrey's post, Core Concept, example 2025, Resources and attribution note",
+          "checked_at": "2026-11-12"
+        },
+        {
+          "url": "https://oeis.org/wiki/Riffs_and_Rotes",
+          "locator": "Linked primary resource; HTTP 403 during direct check",
+          "checked_at": "2026-11-12"
+        }
+      ],
+      "versions": [
+        {
+          "modified_local": "2026-11-11T17:24:16",
+          "content_sha256": "4c02b55215adff47e278a753d6631279787ab80cbd5fa587155c763395577d7c",
+          "observed_at": "2026-11-12",
+          "post_url": "https://stream.syscoi.com/2026/11/11/riffs-and-rotes-overview/",
+          "original_urls": [
+            "https://oeis.org/wiki/Riffs_and_Rotes",
+            "https://mathstodon.xyz/@Inquiry/113765962017439989",
+            "https://www.researchgate.net/post/Riffs_and_Rotes_Overview"
           ]
         }
       ]
