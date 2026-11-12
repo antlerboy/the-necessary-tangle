@@ -630,6 +630,46 @@
           ]
         }
       ]
+    },
+    {
+      "post_id": 29478,
+      "post_url": "https://stream.syscoi.com/2026/11/12/scio-uk-virtual-open-meeting/",
+      "title": "SCiO UK Virtual Open Meeting",
+      "status": "publish",
+      "password_protected": false,
+      "published_gmt": "2026-11-12T10:23:07Z",
+      "modified_local": "2026-11-12T05:23:07",
+      "content_sha256": "34577666f169b948c8fa8538adbe05451b4f6badc5315d748cb257187d52eed3",
+      "author_id": 1379014,
+      "author_name": "Benjamin P Taylor",
+      "primary_url": "https://www.systemspractice.org/events/scio-uk-virtual-open-meeting-november-2026",
+      "original_urls": [
+        "https://www.systemspractice.org/events/scio-uk-virtual-open-meeting-november-2026"
+      ],
+      "canonical_aliases": [],
+      "source_authors": [
+        "SCiO UK"
+      ],
+      "description": "SCiO UK holds a free virtual open meeting on Monday 16 November 2026, 18:30–21:00 GMT, open to members and other interested practitioners. The programme includes talks by Christian Moore-Anderson on teaching, cybernetics and enactivism, and Sean Manion on the language and history of artificial intelligence. SCiO describes these meetings as opportunities to develop systems practice, exchange experience, and make connections. The event is online via Zoom, with booking from the organiser's page.",
+      "description_status": "source_scoped_summary",
+      "description_sources": [
+        {
+          "url": "https://www.systemspractice.org/events/scio-uk-virtual-open-meeting-november-2026",
+          "locator": "Date & Time; Pricing Info; Access; About this Event; Event Resources (speakers)",
+          "checked_at": "2026-11-12"
+        }
+      ],
+      "versions": [
+        {
+          "modified_local": "2026-11-12T05:23:07",
+          "content_sha256": "34577666f169b948c8fa8538adbe05451b4f6badc5315d748cb257187d52eed3",
+          "observed_at": "2026-11-12",
+          "post_url": "https://stream.syscoi.com/2026/11/12/scio-uk-virtual-open-meeting/",
+          "original_urls": [
+            "https://www.systemspractice.org/events/scio-uk-virtual-open-meeting-november-2026"
+          ]
+        }
+      ]
     }
   ]
 }
