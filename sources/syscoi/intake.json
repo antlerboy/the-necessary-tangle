@@ -589,8 +589,8 @@
       "status": "publish",
       "password_protected": false,
       "published_gmt": "2026-11-11T22:18:06Z",
-      "modified_local": "2026-11-11T17:24:16",
-      "content_sha256": "4c02b55215adff47e278a753d6631279787ab80cbd5fa587155c763395577d7c",
+      "modified_local": "2026-11-12T06:50:17",
+      "content_sha256": "6f086110e21c40f9b7370fdb375d9a48073d44318ca6830a35cf635dc3f457ed",
       "author_id": 10781160,
       "author_name": "Jon Awbrey",
       "primary_url": "https://oeis.org/wiki/Riffs_and_Rotes",
@@ -621,6 +621,17 @@
         {
           "modified_local": "2026-11-11T17:24:16",
           "content_sha256": "4c02b55215adff47e278a753d6631279787ab80cbd5fa587155c763395577d7c",
+          "observed_at": "2026-11-12",
+          "post_url": "https://stream.syscoi.com/2026/11/11/riffs-and-rotes-overview/",
+          "original_urls": [
+            "https://oeis.org/wiki/Riffs_and_Rotes",
+            "https://mathstodon.xyz/@Inquiry/113765962017439989",
+            "https://www.researchgate.net/post/Riffs_and_Rotes_Overview"
+          ]
+        },
+        {
+          "modified_local": "2026-11-12T06:50:17",
+          "content_sha256": "6f086110e21c40f9b7370fdb375d9a48073d44318ca6830a35cf635dc3f457ed",
           "observed_at": "2026-11-12",
           "post_url": "https://stream.syscoi.com/2026/11/11/riffs-and-rotes-overview/",
           "original_urls": [
@@ -667,6 +678,58 @@
           "post_url": "https://stream.syscoi.com/2026/11/12/scio-uk-virtual-open-meeting/",
           "original_urls": [
             "https://www.systemspractice.org/events/scio-uk-virtual-open-meeting-november-2026"
+          ]
+        }
+      ]
+    },
+    {
+      "post_id": 29440,
+      "post_url": "https://stream.syscoi.com/2026/11/12/the-third-story-of-the-universe-dempsey-with-heylighen-2026/",
+      "title": "The Third Story of the Universe – Dempsey with Heylighen (2026)",
+      "status": "publish",
+      "password_protected": false,
+      "published_gmt": "2026-11-12T12:35:22Z",
+      "modified_local": "2026-11-12T07:36:41",
+      "content_sha256": "9fe616949bffbaf5bac08ab4957b79d9c030f8dd8ec9629128f8660ad141de3e",
+      "author_id": 1379014,
+      "author_name": "Benjamin P Taylor",
+      "primary_url": "https://brendangrahamdempsey.substack.com/p/the-third-story",
+      "original_urls": [
+        "https://brendangrahamdempsey.substack.com/p/the-third-story",
+        "https://www.youtube.com/watch?v=qgSQZ3GaoPk",
+        "https://francisheylighen.substack.com/"
+      ],
+      "canonical_aliases": [
+        "https://www.youtube.com/watch?v=qgSQZ3GaoPk"
+      ],
+      "source_authors": [
+        "Brendan Graham Dempsey",
+        "Francis Heylighen"
+      ],
+      "description": "Brendan Graham Dempsey talks with cyberneticist Francis Heylighen in a 68-minute Metamodern Meaning episode published on 7 November 2026. Heylighen proposes a 'Third Story' of the universe based on self-organising evolution rather than a solely mechanistic account. The discussion ranges across metasystem transitions, consciousness, artificial intelligence, meaning, and the suggested relationship between increasing complexity and value. These are the speakers' proposed interpretations, not established scientific consensus. The SysCoI post groups the episode with Heylighen's separate Substack as companion reading.",
+      "description_status": "source_scoped_summary",
+      "description_sources": [
+        {
+          "url": "https://brendangrahamdempsey.substack.com/p/the-third-story",
+          "locator": "Episode description and chapter timestamps 1:20–1:08:08; 7 November 2026 publication",
+          "checked_at": "2026-11-12"
+        },
+        {
+          "url": "https://stream.syscoi.com/2026/11/12/the-third-story-of-the-universe-dempsey-with-heylighen-2026/",
+          "locator": "Public grouped SysCoI post: episode link and companion Heylighen Substack",
+          "checked_at": "2026-11-12"
+        }
+      ],
+      "versions": [
+        {
+          "modified_local": "2026-11-12T07:36:41",
+          "content_sha256": "9fe616949bffbaf5bac08ab4957b79d9c030f8dd8ec9629128f8660ad141de3e",
+          "observed_at": "2026-11-12",
+          "post_url": "https://stream.syscoi.com/2026/11/12/the-third-story-of-the-universe-dempsey-with-heylighen-2026/",
+          "original_urls": [
+            "https://brendangrahamdempsey.substack.com/p/the-third-story",
+            "https://www.youtube.com/watch?v=qgSQZ3GaoPk",
+            "https://francisheylighen.substack.com/"
           ]
         }
       ]
