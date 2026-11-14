@@ -733,6 +733,115 @@
           ]
         }
       ]
+    },
+    {
+      "post_id": 29486,
+      "post_url": "https://stream.syscoi.com/2026/11/14/disorder-promoted-stability-montanari-et-al-2026/",
+      "title": "Disorder-promoted stability – Montanari et al. (2026)",
+      "status": "publish",
+      "password_protected": false,
+      "published_gmt": "2026-11-14T12:05:54Z",
+      "modified_local": "2026-11-14T07:05:54",
+      "content_sha256": "ff14406feac73287cbe4611c7a4335f80fdb3f177d6cc99ea0cfe576857fa991",
+      "author_id": 1379014,
+      "author_name": "Benjamin P Taylor",
+      "primary_url": "https://doi.org/10.1126/science.aeg3946",
+      "original_urls": [
+        "https://www.nsf.gov/mps/updates/disorder-can-make-complex-networks-more-stable-robust",
+        "https://news.northwestern.edu/stories/2026/09/networks-could-benefit-from-more-disorder",
+        "https://doi.org/10.1126/science.aeg3946"
+      ],
+      "canonical_aliases": [
+        "https://arxiv.org/abs/2609.25226"
+      ],
+      "source_authors": [
+        "Arthur N. Montanari",
+        "Pietro Zanin",
+        "Adilson E. Motter"
+      ],
+      "description": "Arthur N. Montanari, Pietro Zanin, and Adilson E. Motter show that heterogeneity among network components or interactions can increase stability in some higher-dimensional dynamical models. The effect depends on the magnitude and location of variation, including non-reciprocal interactions, rather than on disorder being universally helpful. Their theoretical framework discusses neuronal, electrical-grid, material, and ecological networks; it does not establish a general design rule to maximise disorder.",
+      "description_status": "source_scoped_summary",
+      "description_sources": [
+        {
+          "url": "https://arxiv.org/abs/2609.25226",
+          "locator": "Research abstract and DOI; preprint of Disorder-promoted stability",
+          "checked_at": "2026-11-14"
+        },
+        {
+          "url": "https://news.northwestern.edu/stories/2026/09/networks-could-benefit-from-more-disorder",
+          "locator": "Research explanation, 17 September 2026; model types, conditions, and limits",
+          "checked_at": "2026-11-14"
+        },
+        {
+          "url": "https://stream.syscoi.com/2026/11/14/disorder-promoted-stability-montanari-et-al-2026/",
+          "locator": "Published SysCoI summary and three source links",
+          "checked_at": "2026-11-14"
+        }
+      ],
+      "versions": [
+        {
+          "modified_local": "2026-11-14T07:05:54",
+          "content_sha256": "ff14406feac73287cbe4611c7a4335f80fdb3f177d6cc99ea0cfe576857fa991",
+          "observed_at": "2026-11-14",
+          "post_url": "https://stream.syscoi.com/2026/11/14/disorder-promoted-stability-montanari-et-al-2026/",
+          "original_urls": [
+            "https://www.nsf.gov/mps/updates/disorder-can-make-complex-networks-more-stable-robust",
+            "https://news.northwestern.edu/stories/2026/09/networks-could-benefit-from-more-disorder",
+            "https://doi.org/10.1126/science.aeg3946"
+          ]
+        }
+      ]
+    },
+    {
+      "post_id": 29487,
+      "post_url": "https://stream.syscoi.com/2026/11/14/emergence-and-coexistence-of-periodic-and-unstructured-motion-in-future-avoiding-random-walks-schmaus-et-al-2026/",
+      "title": "Emergence and coexistence of periodic and unstructured motion in future-avoiding random walks – Schmaus et al. (2026)",
+      "status": "publish",
+      "password_protected": false,
+      "published_gmt": "2026-11-14T12:06:01Z",
+      "modified_local": "2026-11-14T07:06:01",
+      "content_sha256": "9058a7f836e5f55dd1a3cd94078aad7561b2785dc857b52524853c4d0b098171",
+      "author_id": 1379014,
+      "author_name": "Benjamin P Taylor",
+      "primary_url": "https://journals.aps.org/pre/abstract/10.1103/9q1j-dlw8",
+      "original_urls": [
+        "https://journals.aps.org/pre/abstract/10.1103/9q1j-dlw8",
+        "https://doi.org/10.1103/9q1j-dlw8"
+      ],
+      "canonical_aliases": [
+        "https://doi.org/10.1103/9q1j-dlw8"
+      ],
+      "source_authors": [
+        "A. Schmaus",
+        "K. Stiller",
+        "N. Molkenthin"
+      ],
+      "description": "A. Schmaus, K. Stiller, and N. Molkenthin examine mutual future-avoiding random walks, in which stochastic walkers avoid one another's planned future routes instead of their own past movements. Their analysis finds spontaneous periodic behaviour coexisting with unstructured movement and explains the onset through self-amplifying coupling. The paper proposes shared mobility as one possible interpretation, not evidence of an implemented transport service. The public abstract was readable; the complete journal article required subscription access.",
+      "description_status": "source_scoped_summary",
+      "description_sources": [
+        {
+          "url": "https://journals.aps.org/pre/abstract/10.1103/9q1j-dlw8",
+          "locator": "Phys. Rev. E 114, 044219; title, authors, 23 October 2026 publication, and public abstract; full text access restricted",
+          "checked_at": "2026-11-14"
+        },
+        {
+          "url": "https://stream.syscoi.com/2026/11/14/emergence-and-coexistence-of-periodic-and-unstructured-motion-in-future-avoiding-random-walks-schmaus-et-al-2026/",
+          "locator": "Published SysCoI summary and original paper/DOI links",
+          "checked_at": "2026-11-14"
+        }
+      ],
+      "versions": [
+        {
+          "modified_local": "2026-11-14T07:06:01",
+          "content_sha256": "9058a7f836e5f55dd1a3cd94078aad7561b2785dc857b52524853c4d0b098171",
+          "observed_at": "2026-11-14",
+          "post_url": "https://stream.syscoi.com/2026/11/14/emergence-and-coexistence-of-periodic-and-unstructured-motion-in-future-avoiding-random-walks-schmaus-et-al-2026/",
+          "original_urls": [
+            "https://journals.aps.org/pre/abstract/10.1103/9q1j-dlw8",
+            "https://doi.org/10.1103/9q1j-dlw8"
+          ]
+        }
+      ]
     }
   ]
 }
