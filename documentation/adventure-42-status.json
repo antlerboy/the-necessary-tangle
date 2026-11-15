@@ -1,8 +1,8 @@
 {
   "reader_release": "0.42",
   "graph_research_release": "0.41",
-  "phase": "reader-version-integration-corrected-awaiting-CI",
-  "updated_at": "2026-11-15T22:23:34.983051+00:00",
+  "phase": "verified-live-0.42",
+  "updated_at": "2026-11-15T23:15:36.396Z",
   "implementation": {
     "places": 14,
     "canonical_public_entries": 1295,
@@ -14,23 +14,50 @@
     "make_validate": "passed locally on 15 November 2026",
     "adventure_engine": "passed; complete expedition, all-public-pool sampling, save validation, apparatus",
     "projection": "passed; canonical public set, connection semantics, deterministic builder",
-    "browser": "pending CI; local Chromium was blocked before page creation by an environment socket restriction",
+    "browser": "passed on GitHub PR CI 43772337786; 1440px, 390px, 320px, original puzzles, save/restore, corruption and storage failure, atlas links/history, fixed Open updates dot",
     "first_CI": {
       "run_id": 43768470481,
       "full_build": "passed",
       "browser_gate": "failed at an older test treating research graph 0.41 as reader edition 0.42",
       "correction": "Historical reading tests now verify both reader and graph identities; all checks retained. Adventure browser step runs even when an earlier check fails."
+    },
+    "final_ci": {
+      "run_id": 43772337786,
+      "conclusion": "success",
+      "browser_gate": "passed; desktop 1440px, mobile 390px and 320px"
+    },
+    "main_publish": {
+      "run_id": 43772993516,
+      "build": "success",
+      "deploy": "success",
+      "live_public_checks": "success"
     }
   },
   "publication": {
-    "status": "pending",
+    "status": "verified_live",
     "branch": "work/tangle-42-adventure",
-    "requires": [
-      "CI browser gate",
-      "merge under existing publication authority",
-      "Publish workflow",
-      "independent live verification"
-    ]
+    "requires": [],
+    "completed_requirements": [
+      "CI full validation and browser gate",
+      "merge under standing publication authority",
+      "existing Pages Publish workflow",
+      "independent live deployment and reader verification"
+    ],
+    "merge_commit_sha": "ae0cd8685b6f7ed0c10c6a423d3057a1f33bcb96",
+    "pages_workflow_run_id": 43772993516,
+    "live_url": "https://transduction.systems/42/",
+    "deployment_url": "https://transduction.systems/deployment.json",
+    "deployed_at": "2026-11-15T23:10:42.104450+00:00",
+    "verified_at": "2026-11-15T23:15:36.396Z",
+    "live_manifest": {
+      "reader_release": "0.42",
+      "graph_release": "0.41",
+      "places": 14,
+      "public_entries": 1295,
+      "recorded_connections": 2799
+    },
+    "homepage_entrance": true,
+    "subsequent_status_only_commit": "recording this verified release outcome; no reader game changes"
   },
-  "next_action": "Run the existing CI browser gate; fix actual failures, publish after success, and verify the live release and deployed commit."
+  "next_action": "One-off release 0.42 is live and verified. No additional work or release promotion is authorised by this packet."
 }
