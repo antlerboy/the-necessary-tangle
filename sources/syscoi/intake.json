@@ -1059,6 +1059,71 @@
           ]
         }
       ]
+    },
+    {
+      "post_id": 29504,
+      "post_url": "https://stream.syscoi.com/2026/11/15/riffs-and-rotes-finite-partial-functions-overview/",
+      "title": "Riffs and Rotes, Finite Partial Functions • Overview",
+      "status": "publish",
+      "password_protected": false,
+      "published_gmt": "2026-11-15T21:36:21Z",
+      "modified_local": "2026-11-15T16:42:15",
+      "content_sha256": "ae719822e9518c9afc00d8b2b0d1ea7a7a90569118a62752027f7ac874a05429",
+      "author_id": 10781160,
+      "author_name": "Jon Awbrey",
+      "primary_url": "https://oeis.org/wiki/Riffs_and_Rotes",
+      "original_urls": [
+        "https://inquiryintoinquiry.wordpress.com/wp-content/uploads/2026/11/integer-factorization-finite-partial-function-2.0.png",
+        "https://oeis.org/wiki/Riffs_and_Rotes",
+        "https://www.academia.edu/community/VBRXgW",
+        "https://groups.google.com/g/cybcom/c/xWcne8BmXk4",
+        "https://groups.io/g/lawsofform/topic/riffs_and_rotes_finite/122282728",
+        "https://mathstodon.xyz/@Inquiry/117620705204765342",
+        "https://mathstodon.xyz/@Inquiry/117620756146346757",
+        "https://groups.google.com/g/seqfan/c/8KVNpH6ay6k",
+        "https://www.researchgate.net/post/Riffs_and_Rotes_Overview",
+        "https://groups.google.com/g/structural-modeling/c/2FPrTPfzncA",
+        "https://groups.google.com/g/syssciwg/c/pQMm26iW6Jw"
+      ],
+      "canonical_aliases": [],
+      "source_authors": [
+        "Jon Awbrey"
+      ],
+      "description": "Jon Awbrey's public SysCoI note presents 'Riffs' and 'Rotes' as graph structures associated with a proposed bijective encoding of finite partial functions by positive integers, derived from recursively indexed prime factorisations. It contrasts directed and undirected representations and includes an introductory mapping example and a table image. The post explicitly identifies its exposition as adapted from a Google AI Overview dated 8 November 2026; these claims should not be treated as independently validated mathematical results. The linked OEIS wiki source returned HTTP 403 at this check, so its detailed definitions and derivations could not be inspected.",
+      "description_status": "source_scoped_summary",
+      "description_sources": [
+        {
+          "url": "https://stream.syscoi.com/2026/11/15/riffs-and-rotes-finite-partial-functions-overview/",
+          "locator": "The Core Concept: From Primes to Functions; Riffs vs. Rotes; How the Mapping Works; Reference and Resource",
+          "checked_at": "2026-11-15"
+        },
+        {
+          "url": "https://oeis.org/wiki/Riffs_and_Rotes",
+          "locator": "Linked primary OEIS wiki; HTTP 403 on direct read",
+          "checked_at": "2026-11-15"
+        }
+      ],
+      "versions": [
+        {
+          "modified_local": "2026-11-15T16:42:15",
+          "content_sha256": "ae719822e9518c9afc00d8b2b0d1ea7a7a90569118a62752027f7ac874a05429",
+          "observed_at": "2026-11-15T23:02:16.235Z",
+          "post_url": "https://stream.syscoi.com/2026/11/15/riffs-and-rotes-finite-partial-functions-overview/",
+          "original_urls": [
+            "https://inquiryintoinquiry.wordpress.com/wp-content/uploads/2026/11/integer-factorization-finite-partial-function-2.0.png",
+            "https://oeis.org/wiki/Riffs_and_Rotes",
+            "https://www.academia.edu/community/VBRXgW",
+            "https://groups.google.com/g/cybcom/c/xWcne8BmXk4",
+            "https://groups.io/g/lawsofform/topic/riffs_and_rotes_finite/122282728",
+            "https://mathstodon.xyz/@Inquiry/117620705204765342",
+            "https://mathstodon.xyz/@Inquiry/117620756146346757",
+            "https://groups.google.com/g/seqfan/c/8KVNpH6ay6k",
+            "https://www.researchgate.net/post/Riffs_and_Rotes_Overview",
+            "https://groups.google.com/g/structural-modeling/c/2FPrTPfzncA",
+            "https://groups.google.com/g/syssciwg/c/pQMm26iW6Jw"
+          ]
+        }
+      ]
     }
   ]
 }
