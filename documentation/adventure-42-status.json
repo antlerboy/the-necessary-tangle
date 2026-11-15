@@ -1,0 +1,36 @@
+{
+  "reader_release": "0.42",
+  "graph_research_release": "0.41",
+  "phase": "reader-version-integration-corrected-awaiting-CI",
+  "updated_at": "2026-11-15T22:23:34.983051+00:00",
+  "implementation": {
+    "places": 14,
+    "canonical_public_entries": 1295,
+    "graph_edges_changed": false,
+    "original_fiction": true,
+    "route": "https://transduction.systems/42/"
+  },
+  "checks": {
+    "make_validate": "passed locally on 15 November 2026",
+    "adventure_engine": "passed; complete expedition, all-public-pool sampling, save validation, apparatus",
+    "projection": "passed; canonical public set, connection semantics, deterministic builder",
+    "browser": "pending CI; local Chromium was blocked before page creation by an environment socket restriction",
+    "first_CI": {
+      "run_id": 43768470481,
+      "full_build": "passed",
+      "browser_gate": "failed at an older test treating research graph 0.41 as reader edition 0.42",
+      "correction": "Historical reading tests now verify both reader and graph identities; all checks retained. Adventure browser step runs even when an earlier check fails."
+    }
+  },
+  "publication": {
+    "status": "pending",
+    "branch": "work/tangle-42-adventure",
+    "requires": [
+      "CI browser gate",
+      "merge under existing publication authority",
+      "Publish workflow",
+      "independent live verification"
+    ]
+  },
+  "next_action": "Run the existing CI browser gate; fix actual failures, publish after success, and verify the live release and deployed commit."
+}

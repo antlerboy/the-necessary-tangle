@@ -1,4 +1,14 @@
 # Current Tangle state
+<!-- adventure-42 -->
+## Reader release 0.42
+
+15 November 2026. An original text adventure at https://transduction.systems/42/
+projects the complete canonical public atlas into a searchable, source-labelled
+library. Fictional places and finite apparatus remain separate from atlas
+evidence. The graph research release remains 0.41. Deployment and actual test
+results belong to deployment.json, the Publish workflow, and the adventure
+completion record. No claim of successful publication follows from this build.
+<!-- /adventure-42 -->
 
 <!-- feedback_regulation_20261107 -->
 ## Current research edition 0.41

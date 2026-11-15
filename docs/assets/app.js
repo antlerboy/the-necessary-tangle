@@ -880,7 +880,7 @@
   }
 
   function renderHome() {
-    $('releaseBadge').textContent = `Release ${DATA.meta.release}`;
+    $('releaseBadge').textContent = `Release ${$('releaseBadge').dataset.readerRelease || DATA.meta.release}`;
     const relational = DATA.relational_depth?.aggregate || {};
     const bands = relational.connection_bands || {};
     const metrics = [

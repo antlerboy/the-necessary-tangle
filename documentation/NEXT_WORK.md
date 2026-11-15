@@ -1,4 +1,16 @@
 # Next work
+<!-- adventure-42 -->
+## Current packet: reader release 0.42
+
+Implementation authorised on 15 November 2026. The bounded executable packet is
+`sources/adventure-42/PACKET.md`. It covers the original `/42/` adventure, its
+public atlas projection, build/check integration, and release entrance. Complete
+the named gates and independently verify the live deployed revision. Standing
+publication authority in AGENTS.md applies; actual remaining state is recorded
+in `documentation/adventure-42-status.json`. Preserve all other intake and source
+obligations below.
+<!-- /adventure-42 -->
+
 <!-- guide-resource-link-correction -->
 ## Current packet: correct the first guide's resource links
 

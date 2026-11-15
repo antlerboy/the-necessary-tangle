@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en-GB" data-palette="green">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="An original text adventure through systems, cybernetics, and complexity. Release 0.42 of The Necessary Tangle, inspired by the CP/M Hitchhiker's game.">
+  <meta name="theme-color" content="#111813">
+  <title>An adventure in the Tangle | The Necessary Tangle 0.42</title>
+  <link rel="canonical" href="https://transduction.systems/42/">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="adventure.css?v=0.42">
+  <script defer src="engine.js?v=0.42"></script>
+  <script defer src="app.js?v=0.42"></script>
+</head>
+<body>
+  <a class="skip" href="#command">Skip to command</a>
+  <header class="masthead">
+    <a class="brand" href="/">THE NECESSARY TANGLE<span>systems | cybernetics | complexity</span></a>
+    <nav aria-label="Edition navigation"><a href="/">Atlas</a><a href="#instructions">How to play</a><a href="#credits">Credits</a><label for="palette">Display</label><select id="palette"><option value="green">Green</option><option value="amber">Amber</option><option value="paper">Paper</option></select></nav>
+  </header>
+  <main>
+    <div class="edition"><p>READER RELEASE 0.42</p><p>AN ADVENTURE IN THE TANGLE</p><p>1984 → 2026</p></div>
+    <div class="game-layout">
+      <section class="terminal" aria-label="Text adventure">
+        <div class="status" role="status" aria-live="polite"><span id="location">Loading the unlisted platform…</span><span id="moves">Moves: 0</span></div>
+        <div class="transcript" id="transcript" role="log" aria-live="polite" aria-relevant="additions" aria-label="Adventure transcript" tabindex="0"></div>
+        <form id="commandForm" autocomplete="off"><label for="command" class="prompt"><span aria-hidden="true">&gt;</span><span class="sr-only">Adventure command</span></label><input id="command" name="command" type="text" maxlength="200" autocapitalize="off" spellcheck="false" placeholder="Type LOOK or HELP" disabled><button type="submit" id="submit" disabled>Enter</button></form>
+        <div class="suggestions" id="suggestions" aria-label="Suggested commands"></div>
+        <nav class="exits" id="exits" aria-label="Exits from this place"></nav>
+      </section>
+      <aside class="fieldnotes" aria-label="Atlas fieldnotes">
+        <p class="eyebrow">THROUGH THE SHELVES</p>
+        <h1>An adventure in the Tangle</h1>
+        <p class="intro">An unlisted station. A ferry with three empty fittings. A country full of experiments, arguments, and peculiar machinery.</p>
+        <div id="record"><p>Public atlas records will appear here. The adventure’s places and encounters are original fiction.</p></div>
+        <div id="passage" hidden></div>
+        <p id="storageStatus" class="small">Your expedition stays in this browser. SAVE makes a manual checkpoint; RESTORE returns to it.</p>
+        <div class="utility"><button type="button" data-command="SAVE">Save</button><button type="button" data-command="RESTORE">Restore</button><button type="button" data-command="HINT">Hint</button></div>
+        <p class="small"><a href="/42/?place=library">Enter at the library</a> · <a href="/42/?place=platform">Return to the platform</a></p>
+      </aside>
+    </div>
+    <noscript><section class="help"><h2>The adventure needs JavaScript</h2><p>You can still explore the <a href="/entries/">readable atlas</a>, <a href="/journeys/">reading journeys</a>, and <a href="/reading/models-and-patterns/">mathematical models and patterns</a>.</p></section></noscript>
+    <details class="help" id="instructions"><summary>How to play</summary><p>Type commands or select the suggestions. Start with LOOK, EXAMINE an object, or a direction: NORTH, SOUTH, EAST, WEST (N, S, E, W). HELP lists the vocabulary. HINT offers progressively more explicit help. The ferry needs a compass, lamp, and chart; other places remain open while you look for them.</p><p>FIND searches the public atlas. OPEN selects a search result. FOLLOW lists actual recorded relationships; FOLLOW and a number inspects one. READ ATLAS opens a real link in the fieldnotes. IMPROBABILITY chooses from the whole canonical public collection, avoiding repeat discoveries until that pool is exhausted.</p><p>Some apparatus changes when you WAIT or operate it. You can investigate freely. SAVE records a manual checkpoint, separately from the automatic resume state. RESTORE returns to it. RESTART YES begins again and preserves the manual checkpoint until your next SAVE. READ LOG recalls your commands. Browser history, ordinary links, and opening an exit in another tab work too.</p><p>Keyboard: Enter submits, Up and Down recall your commands, and Tab reaches suggestions, exits, and sources. The display menu offers green, amber, and paper. This site sends no commands, save files, or expedition logs to a server.</p></details>
+    <details class="help" id="credits"><summary>About this edition and the original game</summary><p>This is an original adventure by The Necessary Tangle, curated by Benjamin P Taylor, with AI assistance. It takes its terminal form and spirit of exploration from the CP/M edition of The Hitchhiker’s Guide to the Galaxy, by Douglas Adams and Steve Meretzky, published by Infocom in 1984. 2026 is forty-two years later.</p><p><a href="https://ifdb.org/viewgame?id=ouv80gvsl32xlion">The original game: authors, history, and play links</a> · <a href="https://www.classic-computers.org.nz/system-80/software-manuals/manuals-Hitchhikers-Guide-to-the-Galaxy.pdf">Infocom’s original instruction manual</a>. The original game’s text and software are not reproduced here. The display colours are this edition’s choices; CP/M computers used different terminals.</p><p>Fictional rooms, objects, voices, and exits belong to the adventure. Atlas records preserve their own wording, evidence, review status, and limits. A fictional neighbour does not establish historical influence. The apparatus contains bounded original models; its technical notes say what each computes. Reader release 0.42 uses the maintained graph research release <span id="graphRelease">0.41</span>.</p><p>Original adventure text and atlas content: CC BY-SA 4.0. Software: MIT. Linked works retain their authorship and terms. <a href="/stewardship/">Stewardship and reuse</a> · <a href="/contribute/">Corrections and contributions</a>.</p></details>
+  </main>
+  <footer><a href="/">The Necessary Tangle</a><span>Curated by Benjamin P Taylor</span><a href="/updates/2026-11-15-42/">Release account</a></footer>
+  <a id="openUpdates" href="https://github.com/antlerboy/the-necessary-tangle/issues/2" aria-label="Open updates" title="Tangle feedback"></a>
+</body>
+</html>

@@ -1,0 +1,51 @@
+/* Acceptance tests exercise the adventure as played, including failure states. */
+const assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path');
+const root=path.resolve(__dirname,'..');
+const api=require('../sources/adventure-42/engine.js');
+const worlds=JSON.parse(fs.readFileSync(path.join(root,'sources/adventure-42/worlds.json'),'utf8'));
+const atlas=JSON.parse(fs.readFileSync(path.join(root,'docs/42/atlas.json'),'utf8'));
+const e=new api.Engine(worlds,atlas);
+const run=(...commands)=>commands.map(c=>e.run(c));
+assert.equal(e.state.room,'platform');
+run('LAUNCH');assert.equal(e.state.complete,false);
+run('N','TAKE COMPASS');assert(!e.state.inventory.includes('compass'));
+run('DISTURB','SET 0','WAIT');assert.equal(e.state.machine.x,6);
+run('SET 2','WAIT');assert.equal(e.state.machine.x,-6);run('WAIT');assert.equal(e.state.machine.x,6);
+run('SET 1','WAIT','TAKE COMPASS');assert(e.state.inventory.includes('compass'));
+run('S','S','OPEN INLET','WAIT','TAKE LAMP');assert(!e.state.inventory.includes('lamp'));
+run('OPEN DRAIN','WAIT','WAIT','TAKE LAMP');assert(e.state.inventory.includes('lamp'));
+run('N','E','FIND EMERGENCE');assert(e.state.results.length>0);
+run('OPEN 1');const destination=e.state.selected;run('PRINT CHART');assert.equal(e.state.destination,destination);
+run('FOLLOW');assert(e.state.relations.length>0);
+const edge=atlas.edges.find(x=>x.id===e.state.relations[0]);const followed=e.run('FOLLOW 1');
+assert.equal(followed.connection.id,edge.id);assert.equal(followed.connection.status,edge.status);
+assert.equal(e.state.selected,edge.source===destination?edge.target:edge.source);
+run('W','LAUNCH');assert(e.state.complete);assert.equal(e.state.room,'ferry');
+const chart=e.run('READ CHART');assert.equal(chart.destination.id,destination);
+const saved=e.snapshot();assert(api.validSave(saved,worlds,atlas));
+run('BACK','N','DISTURB');const restored=new api.Engine(worlds,atlas,saved);
+assert.equal(restored.state.room,'ferry');assert.equal(restored.state.machine.x,0);
+assert(!api.validSave({...saved,version:99},worlds,atlas));
+assert(!api.validSave({...saved,room:'<script>'},worlds,atlas));
+assert(!api.validSave({...saved,destination:null},worlds,atlas));
+assert(!api.validSave({...saved,machine:{...saved.machine,weather:Infinity}},worlds,atlas));
+assert(!api.validSave({version:1},worlds,atlas));
+assert.equal(new api.Engine(worlds,atlas,{version:1}).state.room,'platform');
+const visited=new Set(['platform']),queue=['platform'];while(queue.length){for(const id of Object.values(e.rooms.get(queue.shift()).exits))if(!visited.has(id)){visited.add(id);queue.push(id);}}
+// The ferry is reached by the successfully exercised LAUNCH action, not a free exit.
+visited.add(saved.room);
+assert.equal(visited.size,worlds.rooms.length,'All authored places must be reachable through exits or the completed launch');
+const randomEngine=new api.Engine(worlds,atlas);const chosen=new Set();
+for(let i=0;i<atlas.nodes.length;i++){const result=randomEngine.improbable(()=>0);assert(result.record);assert(!chosen.has(result.record.id));chosen.add(result.record.id);}
+assert.equal(chosen.size,atlas.nodes.length);randomEngine.improbable(()=>0);assert.equal(randomEngine.state.recent.length,1);
+const first=api.cells(1);assert.equal(first[1].split('1').length-1,2);assert.equal(first[1].indexOf('1'),19);
+assert.equal(api.cellStep('0'.repeat(41)),'0'.repeat(41));
+assert.deepEqual(api.cells(500),api.cells(500));
+const rk=api.rk4([1,1,1]);assert(Math.abs(rk[0]-1.0125671910736112)<1e-10);assert(Math.abs(rk[1]-1.2599177989452743)<1e-10);
+assert.equal(api.weather(0).distance,Math.abs(1.000001-1));
+assert(api.weather(50).a.every(Number.isFinite));assert(api.weather(50).distance>api.weather(0).distance);
+const other=new api.Engine(worlds,atlas);other.move('music');for(const c of ['PLAY A','PLAY A','PLAY A'])other.run(c);assert.equal(other.state.machine.repeats,3);other.run('PLAY B');assert.equal(other.state.machine.repeats,1);
+other.move('mirrors');assert(other.run('READ CATALOGUE').text.join().includes('not entered'));other.run('SIGN CATALOGUE');assert(other.run('READ CATALOGUE').text.join().includes('present visitor'));
+other.move('coast');assert(other.run('MEASURE 4').text.join().includes('Segments: 768'));
+assert(other.run('HELP').text.join().includes('RESTORE'));other.run('RESTART YES');assert.deepEqual(other.state,api.fresh());
+console.log(`Adventure engine passed: complete expedition, blocked actions, real graph passages, all ${atlas.nodes.length} random discoveries, save validation, ${worlds.rooms.length} reachable places, and finite apparatus.`);
