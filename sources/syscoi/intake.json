@@ -5,6 +5,53 @@
   "initial_publication_cutoff": "2026-10-24T00:00:00-05:00",
   "posts": [
     {
+      "post_id": 29126,
+      "post_url": "https://stream.syscoi.com/2026/10/08/warren-mcculloch-chairman-sic-of-the-macy-conferences-on-cybernetics-in-a-letter-to-the-cybernetics-group-before-the-tenth-and-final-conference-1953-discovered-and-shared-by-sean-manion/",
+      "title": "Warren McCulloch, chairman [sic] of the Macy Conferences on Cybernetics, in a letter to the cybernetics group before the tenth and final conference, 1953. Discovered and shared by Sean Manion.",
+      "status": "publish",
+      "password_protected": false,
+      "published_gmt": "2026-10-08T18:48:53Z",
+      "modified_local": "2026-11-15T09:34:57",
+      "content_sha256": "aaca240727df61b301f5a3ced7aaae20431e04fc00a9065eeb33eaadbac43134",
+      "author_id": 1379014,
+      "author_name": "Benjamin P Taylor",
+      "primary_url": "https://x.com/TheUnjournaling/status/2121843069234577814",
+      "original_urls": [
+        "https://x.com/TheUnjournaling/status/2121843069234577814",
+        "https://x.com/TheUnjournaling/status/2108201351717044689/photo/3"
+      ],
+      "canonical_aliases": [],
+      "source_authors": [
+        "Warren S. McCulloch"
+      ],
+      "description": "Warren S. McCulloch's 1953 letter to the cybernetics group, ahead of the tenth and final Macy Conference, reviews the group's attempts to develop shared understanding across fields. It moves from feedback and purposive behaviour to communication, information, logic, and the limits of agreement. The public SysCoI post was substantively expanded on 15 November 2026: scans shared by Sean Manion now support a reading transcription of all 13 manuscript pages rather than the earlier three-page excerpt. The transcriber explains how handwritten changes, gaps, historical spelling, and ambiguous revisions have been handled. This is a reading transcription, not a diplomatic edition; historical scientific and medical statements are McCulloch's, not independently verified contemporary findings.",
+      "description_status": "source_scoped_summary",
+      "description_sources": [
+        {
+          "url": "https://stream.syscoi.com/2026/10/08/warren-mcculloch-chairman-sic-of-the-macy-conferences-on-cybernetics-in-a-letter-to-the-cybernetics-group-before-the-tenth-and-final-conference-1953-discovered-and-shared-by-sean-manion/",
+          "locator": "15 November 2026 update; editorial transcription notes; pages 1–13, particularly pages 1–4 and 13",
+          "checked_at": "2026-11-15"
+        },
+        {
+          "url": "https://x.com/TheUnjournaling/status/2121843069234577814",
+          "locator": "Source identified and credited in the public SysCoI post; external X image retrieval unavailable in this execution",
+          "checked_at": "2026-11-15"
+        }
+      ],
+      "versions": [
+        {
+          "modified_local": "2026-11-15T09:34:57",
+          "content_sha256": "aaca240727df61b301f5a3ced7aaae20431e04fc00a9065eeb33eaadbac43134",
+          "observed_at": "2026-11-15T14:53:18.253Z",
+          "post_url": "https://stream.syscoi.com/2026/10/08/warren-mcculloch-chairman-sic-of-the-macy-conferences-on-cybernetics-in-a-letter-to-the-cybernetics-group-before-the-tenth-and-final-conference-1953-discovered-and-shared-by-sean-manion/",
+          "original_urls": [
+            "https://x.com/TheUnjournaling/status/2121843069234577814",
+            "https://x.com/TheUnjournaling/status/2108201351717044689/photo/3"
+          ]
+        }
+      ]
+    },
+    {
       "post_id": 29386,
       "post_url": "https://stream.syscoi.com/2026/10/27/richard-s-orourke/",
       "title": "Richard S O’Rourke",
