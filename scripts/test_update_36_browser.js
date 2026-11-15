@@ -55,6 +55,11 @@ async function main(){
   assert.equal(dataResponse.status(),200);
   const data=await dataResponse.json();
   assert.equal(data.meta.release,release,'Test needs generated release 0.41');
+  const readerResponse=await request.request.get(base+'/42/manifest.json');
+  assert.equal(readerResponse.status(),200,'Reader edition must identify its graph');
+  const readerEdition=await readerResponse.json();
+  assert.equal(readerEdition.graph_release,data.meta.release,'Reader and research graph identities must agree');
+  assert.equal(readerEdition.reader_release,'0.42','Current reader release is explicit');
   assert(data[cohort],'The new research cohort must be recorded');
   assert(data.depth_20261029,'The historical cohort remains recorded');
   const journey=data.journeys.find(row=>row.id===journeyId);
@@ -142,7 +147,7 @@ async function main(){
       routesChecked.push({route,width,javaScript:true,added_rounds_checked:[5,6],check_feedback:true});
     }
     await live.goto(base+'/');
-    assert.equal(await live.locator('#releaseBadge').innerText(),'Release '+release);
+    assert.equal(await live.locator('#releaseBadge').innerText(),'Release '+readerEdition.reader_release);
     assert(await live.locator('a[href^="'+guide+'"]').count(),'Home has real reading-guide link');
     assert(await live.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),'Home overflow '+width);
     await live.goto(base+'/#view=journeys&id='+journeyId+'&step=0');

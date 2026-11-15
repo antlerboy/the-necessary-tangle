@@ -29,6 +29,11 @@ async function main() {
   const response = await request.request.get(base + '/assets/public-data.json');
   assert.equal(response.status(), 200);
   const data = await response.json();
+  const readerResponse = await request.request.get(base + '/42/manifest.json');
+  assert.equal(readerResponse.status(), 200, 'Reader edition must identify its graph');
+  const readerEdition = await readerResponse.json();
+  assert.equal(readerEdition.graph_release, data.meta.release, 'Reader and research graph identities must agree');
+  assert.equal(readerEdition.reader_release, '0.42', 'Current reader release is explicit');
   assert(data.depth_20261029, 'The historical October cohort must remain recorded');
   const journeys = data.journeys.filter(row => row.connection_pass === 'depth_20261029');
   const profiles = data.profiles.filter(row => row.connection_pass === 'depth_20261029');
@@ -57,7 +62,7 @@ async function main() {
       checked.push({ route, width });
     }
     await page.goto(base + '/');
-    assert.equal(await page.locator('#releaseBadge').innerText(), 'Release ' + data.meta.release);
+    assert.equal(await page.locator('#releaseBadge').innerText(), 'Release ' + readerEdition.reader_release);
     assert(await page.locator('a[href^="/reading/connections/"]').count() > 0, 'Home needs a route to the deeper reading');
     for (const journey of journeys) {
       await page.goto(base + '/#view=journeys&id=' + encodeURIComponent(journey.id) + '&step=0');
