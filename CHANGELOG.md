@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.42 — 15 November 2026
+
+An original branching text adventure, inspired by the CP/M Hitchhiker’s game,
+with a complete-public-atlas library, source-labelled connections, finite
+interactive apparatus, browser-local save/restore, keyboard access, and mobile
+layout. Graph research release remains 0.41; no canonical claims are changed.
+
+
 ## 0.41 — 7 November 2026
 
 Two existing profiles, four located primary clarifications, and an original discrete response model. Human editorial acceptance remains pending.

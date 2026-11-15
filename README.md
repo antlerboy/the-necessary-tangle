@@ -1,4 +1,7 @@
 # The Necessary Tangle
+<!-- adventure-42 -->
+Reader release **0.42, 15 November 2026**: [An adventure in the Tangle](https://transduction.systems/42/). An original CP/M-inspired text adventure connected to the complete public atlas. Graph research release remains 0.41. See the Publish workflow and deployment.json for actual publication identity.
+<!-- /adventure-42 -->
 
 <!-- current-31 -->
 Current research edition: **0.41, 7 November 2026**. [Feedback and regulation](https://transduction.systems/reading/feedback-and-regulation/). Human editorial acceptance remains pending.

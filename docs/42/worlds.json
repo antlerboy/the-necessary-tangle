@@ -1,0 +1,112 @@
+{
+  "title": "The Necessary Tangle",
+  "subtitle": "An adventure in systems | cybernetics | complexity",
+  "release": "0.42",
+  "opening": [
+    "A>TANGLE",
+    "THE NECESSARY TANGLE\nRelease 0.42 / An adventure in systems | cybernetics | complexity",
+    "Your train has arrived at a station which is absent from its own timetable. The porter has gone to dispute this with the timetable.",
+    "Beyond the platform: a workshop, a hothouse, and a night ferry. Elsewhere, something is learning to play an instrument. A coastline is being measured. There are considerably more elsewheres than the timetable admits.",
+    "The ferry needs a compass, a lamp, and a chart. You have a ticket and no particular obligation to catch it. Type LOOK, HELP, or a command suggested below."
+  ],
+  "rooms": [
+    {
+      "id": "platform", "name": "The unlisted platform", "anchor": "concept_transduction",
+      "description": "The station clock has two hands and three opinions. A brass plate on the ferry lists its requirements: COMPASS, LAMP, CHART. Someone has scratched 'and a passenger' underneath. The waiting room opens onto a library; the library seems much larger from the other side.",
+      "objects": {"ticket": "THROUGH TICKET / SERVICE 42 / DESTINATION: to be entered by the passenger. The reverse is covered in a very small map of somewhere else.", "clock": "The hands agree twice a day. The third opinion has requested a separate clock.", "ferry": "A small vessel moored to the end of the platform. Its three empty fittings are clearly labelled. The ferryman has left the controls within reach.", "plate": "To leave: find the compass in the workshop, a lamp in the chemical conservatory, and a chart in the library. Then LAUNCH. The rest of the country is open meanwhile."},
+      "exits": {"north": "workshop", "east": "library", "south": "conservatory", "west": "music"},
+      "actions": ["LOOK", "EXAMINE TICKET", "NORTH", "EAST", "SOUTH", "WEST", "LAUNCH"]
+    },
+    {
+      "id": "workshop", "name": "The workshop of permissible disturbances", "anchor": "person_w_ross_ashby",
+      "description": "Four needles lean at disagreeable angles inside a glass-fronted cabinet. A compass lies behind a shutter. The cabinet has a DISTURB button, a three-position response switch, and a notebook. The notebook is open to an unusually legible page. There is a door into a garden of squares.",
+      "objects": {"cabinet": "A fictional three-setting apparatus. SET 0 leaves the correction disconnected. SET 1 counters a displacement. SET 2 overcorrects and alternates. The compass shutter opens after a displacement settles. Its behaviour is only this little game's behaviour; the source records go much further.", "notebook": "To test the settings: DISTURB, SET 0 / SET 1 / SET 2, then WAIT. You can repeat the experiment. The compass needs a settled needle, not an undisturbed one.", "compass": "A pocket compass under the cabinet shutter. TAKE COMPASS when the needle has settled.", "needles": "Their present readings are available with OBSERVE."},
+      "exits": {"south": "platform", "east": "garden", "north": "archive"},
+      "actions": ["READ NOTEBOOK", "DISTURB", "SET 1", "WAIT", "OBSERVE", "TAKE COMPASS"]
+    },
+    {
+      "id": "garden", "name": "The garden of successive rows", "anchor": "publication_fpcs_059",
+      "description": "A strip of black and white tiles runs across the ground. Each new row is made from the three tiles above it. A gardener has left a seed switch and the rule number 110. Along the far wall are several abandoned signs saying 'merely'. Beyond it stands an observatory.",
+      "objects": {"tiles": "OBSERVE prints the last six rows of a 41-cell elementary cellular automaton with fixed empty boundaries and rule 110. WAIT advances it. SEED starts a new single-cell seed; it does not move you elsewhere.", "signs": "'Merely the same rule repeated.' 'Merely a pattern.' 'Merely a calculation.' None of the signs has proved particularly good at gardening.", "seed": "The switch is labelled SEED. The current experiment is finite; its edges matter."},
+      "exits": {"west": "workshop", "east": "observatory", "south": "forest"},
+      "actions": ["OBSERVE", "WAIT", "SEED", "READ ATLAS", "EAST"]
+    },
+    {
+      "id": "conservatory", "name": "The chemical conservatory", "anchor": "concept_dissipative_structure",
+      "description": "Glass vessels occupy benches beneath a warm roof. One bench carries an elaborate reaction network; another carries a decidedly theatrical lamp. The lamp's fuel inlet and drain are both closed. A label says that its colours require a continuing supply. Through a wet doorway, a membrane is making repairs.",
+      "objects": {"lamp": "A travelling lamp powered by the conservatory's fictional flow apparatus. OPEN INLET, OPEN DRAIN, and WAIT until its colours settle into a cycle. TAKE LAMP packages it with a small fuel reservoir. This puzzle is not a simulation of chemical kinetics.", "vessels": "Changing colours, warm glass, labels with arrows. The atlas record distinguishes sustained non-equilibrium organisation from the loose use of 'order'.", "label": "Both flow paths must be open. With just an inlet, the vessel fills. With just a drain, it empties. With both closed, its colours fade."},
+      "exits": {"north": "platform", "east": "membrane", "south": "coast"},
+      "actions": ["EXAMINE LAMP", "OPEN INLET", "OPEN DRAIN", "WAIT", "TAKE LAMP"]
+    },
+    {
+      "id": "membrane", "name": "Inside the maintained boundary", "anchor": "concept_autopoiesis",
+      "description": "The room is soft, translucent, and busy replacing itself. Material enters through small openings. Some becomes machinery; some becomes the boundary through which the material enters. You cannot find an original brick. A notice requests that visitors avoid leaning on the metabolism.",
+      "objects": {"boundary": "It is being produced by the activity you are watching. EXAMINE BOUNDARY again after WAIT and a different patch has been replaced. The imagined room is a way into the biological account, not evidence that every self-repairing building is alive.", "notice": "'No original components guaranteed.' Someone has added, 'The guarantee is also being replaced.'", "openings": "An exchange of matter through a maintained boundary. The room has not sealed itself off from its surroundings."},
+      "exits": {"west": "conservatory", "north": "forest", "east": "mirrors"},
+      "actions": ["EXAMINE BOUNDARY", "WAIT", "OBSERVE", "READ ATLAS", "NORTH"]
+    },
+    {
+      "id": "music", "name": "The listening instrument", "anchor": "person_norbert_wiener",
+      "description": "An instrument occupies most of this room. It has a keyboard, a lamp, and a very attentive silence. A card invites you to PLAY A, PLAY B, or PLAY C. Repeating one note eventually stops lighting the lamp. The instrument seems more interested in what you do next than in applauding.",
+      "objects": {"instrument": "An original fictional instrument: its lamp responds to a change of note and goes dim after three repeats. PLAY A, PLAY B, PLAY C, and OBSERVE let you find out what it does. It makes no claim to reproduce a historical cybernetic artwork.", "card": "'Please play something. This request is reciprocal.'", "lamp": "Part of the instrument, rather than the travelling lamp in the conservatory."},
+      "exits": {"east": "platform", "north": "conversation", "west": "mirrors"},
+      "actions": ["PLAY A", "PLAY B", "PLAY C", "OBSERVE", "EXAMINE INSTRUMENT"]
+    },
+    {
+      "id": "archive", "name": "The room between the minutes", "anchor": "person_warren_mcculloch",
+      "description": "Names on filing cabinets lead to papers, correspondence, experiments, and arguments. Several chairs face a blackboard. A recording has stopped halfway through a disagreement. The archivist has left a card: 'A conversation has a date. An influence needs evidence.' There are no portraits above the chairs.",
+      "objects": {"card": "The encounters here are invented. READ ATLAS opens the actual record, including its sources and unfinished checks. FIND searches beyond this room. FOLLOW inspects recorded relationships. Nobody in these rooms is being impersonated as a historical witness.", "blackboard": "A circuit, a syllogism, and an unfinished question. There is room for more than one chalk handwriting.", "cabinets": "Try FIND MCCULLOCH, FIND SHANNON, FIND VARELA, or any other name in the public atlas."},
+      "exits": {"south": "workshop", "east": "conversation", "north": "library"},
+      "actions": ["READ CARD", "FIND SHANNON", "READ ATLAS", "FOLLOW", "EAST"]
+    },
+    {
+      "id": "conversation", "name": "A conversation with an empty chair", "anchor": "concept_bateson_learning_levels",
+      "description": "Three speaking tubes emerge from the wall. One reports the sequence of sounds. One asks what sort of exchange is taking place. The third keeps asking who is listening. The chair is empty until you sit in it. Your commands appear in a notebook on the table.",
+      "objects": {"chair": "SIT turns the chair towards the tubes. The room's account will then include a listener.", "notebook": "READ LOG shows the commands and places from your own expedition. It is stored in this browser, not sent to a server.", "tubes": "LISTEN reports all three fictional voices. ASK ABOUT LEARNING opens the maintained atlas search. The voices are not quotations or a simulation of Bateson."},
+      "exits": {"west": "archive", "south": "music", "east": "mirrors"},
+      "actions": ["LISTEN", "SIT", "LISTEN", "READ LOG", "READ ATLAS"]
+    },
+    {
+      "id": "observatory", "name": "The weather in two glass globes", "anchor": "concept_chaos",
+      "description": "Two glass globes contain almost identical weather. Their initial readings differ in the sixth decimal place. A crank advances both records. A folded sheet names the Lorenz equations and the integrator used here. The sheet does not promise a forecast of your journey home.",
+      "objects": {"globes": "TURN CRANK advances two Lorenz trajectories by 100 fourth-order Runge–Kutta steps of size 0.01, with sigma 10, rho 28, and beta 8/3. OBSERVE reports their separation. RESET WEATHER returns to the starting pair.", "sheet": "Initial states: (1,1,1) and (1.000001,1,1). This numerical apparatus has finite precision. Its output is an illustration, not a weather forecast or a proof about every complex system.", "crank": "TURN CRANK. You can turn it several times; the instrument stops after fifty turns to keep its finite history bounded."},
+      "exits": {"west": "garden", "south": "coast", "east": "library"},
+      "actions": ["READ SHEET", "TURN CRANK", "OBSERVE", "RESET WEATHER", "EAST"]
+    },
+    {
+      "id": "coast", "name": "The coast of smaller instruments", "anchor": "concept_fractals",
+      "description": "A surveyor has left four rulers by a folded coast. Each ruler has returned with a different length written on its handle. Inland, a forest makes a less folded horizon. Out to sea, the ferry is visible from a place where the platform ought to be.",
+      "objects": {"rulers": "MEASURE 1, MEASURE 2, MEASURE 3, or MEASURE 4 unfolds successive iterations of a Koch construction. Its segment count is 3 × 4^n and its perimeter is 3 × (4/3)^n in the game's chosen units. This is an exact construction, not a measurement of a natural coastline.", "coast": "Part coastline, part mathematical paper model. The distinction is written on the rulers. READ ATLAS opens the actual fractals entry.", "ferry": "It is still waiting at the platform. The view has not supplied it with a compass."},
+      "exits": {"north": "conservatory", "east": "forest", "west": "observatory"},
+      "actions": ["MEASURE 1", "MEASURE 4", "READ ATLAS", "EAST"]
+    },
+    {
+      "id": "forest", "name": "The wood with several histories", "anchor": "person_gregory_bateson",
+      "description": "Light falls through a canopy interrupted by old fires, recent growth, and paths made by animals. A root has lifted the edge of a map. You can read the landscape as a history, follow an exchange, or sit for a while. The small clearing ahead contains a door with no wall.",
+      "objects": {"map": "A pencilled map on which paths, food, fire, moisture, and ownership have been drawn on separate sheets. EXAMINE MAP names the sheets without declaring one to be the forest.", "root": "It has buckled the paper. The cartographer's annotations have survived less well than the tree.", "door": "An ordinary door standing between two trees. Its reverse opens into the library. No metaphor is required for turning its handle."},
+      "exits": {"north": "garden", "west": "coast", "east": "membrane", "south": "library"},
+      "actions": ["EXAMINE MAP", "SIT", "WAIT", "READ ATLAS", "SOUTH"]
+    },
+    {
+      "id": "mirrors", "name": "The room which includes its visitor", "anchor": "person_heinz_von_foerster",
+      "description": "A mirror shows this room. A smaller mirror within it shows someone examining the first. A catalogue describes the position of every object except its author. There is a pencil beside the omission. Through a doorway, someone is still waiting for a note to change.",
+      "objects": {"catalogue": "READ CATALOGUE prints an account whose author depends on whether you have SIGNed it. The catalogue is an object in this fiction; its trick does not settle a philosophical argument.", "pencil": "SIGN CATALOGUE enters 'the present visitor' in the author field. You can then read it again.", "mirror": "You can see a traveller carrying a ticket. The mirror has made no enquiry into your credentials."},
+      "exits": {"east": "music", "west": "membrane", "north": "conversation"},
+      "actions": ["READ CATALOGUE", "SIGN CATALOGUE", "READ CATALOGUE", "READ ATLAS"]
+    },
+    {
+      "id": "library", "name": "The library of actual passages", "anchor": "publication_principia_cybernetica_web",
+      "description": "Every shelf has a door in it. The index contains the public atlas, including its thinner and disputed records. An improbability lever stands beside a chart printer. The librarian has supplied unusually practical instructions: FIND something; OPEN its number; FOLLOW a recorded connection. PRINT CHART when you have chosen somewhere to go.",
+      "objects": {"index": "FIND accepts names, ideas, methods, books, or partial words. OPEN 1 opens the first actual result. FOLLOW lists the selected entry's recorded connections; FOLLOW 1 inspects the first. Sources and status travel with each record.", "lever": "IMPROBABILITY selects from every canonical public entry in the maintained atlas, without a featured-author shortlist. Recent discoveries are avoided until the eligible pool is exhausted.", "printer": "PRINT CHART produces a chart to the atlas entry currently selected. You can choose a different destination and print it again.", "shelves": "The routes through this building are authored fiction. The atlas links beyond the shelves are maintained records. A nearby fictional door does not establish an intellectual influence."},
+      "exits": {"west": "platform", "south": "archive", "east": "observatory", "north": "forest"},
+      "actions": ["FIND EMERGENCE", "OPEN 1", "FOLLOW", "READ ATLAS", "IMPROBABILITY", "PRINT CHART"]
+    },
+    {
+      "id": "ferry", "name": "A passage entered in the log", "anchor": "concept_transduction",
+      "description": "The compass settles. The lamp keeps its small circulation of colour. A chart lies under the wheel with a real atlas address written on it. Behind you, the unlisted platform has acquired an entry in your log. Ahead: your chosen destination, and all the places you have not visited. The ferry is quite content to wait while you change your mind.",
+      "objects": {"chart": "READ CHART opens your selected destination. PRINT CHART in the library can replace it. The expedition is complete; the rest of the atlas remains open.", "log": "READ LOG recalls the route you actually took. SAVE keeps a manual checkpoint. RESTART YES begins another expedition; your manual checkpoint remains until you save over it."},
+      "exits": {"back": "platform"},
+      "actions": ["READ CHART", "READ LOG", "IMPROBABILITY", "SAVE", "BACK"]
+    }
+  ]
+}

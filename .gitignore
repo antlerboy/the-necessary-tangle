@@ -6,3 +6,6 @@ __pycache__/
 validation/*.png
 validation/*.txt
 docs/library/making-things-change/files/*.pdf
+# Rebuilt from the maintained public graph by apply-adventure-42.
+docs/42/atlas.json
+validation/adventure-42-browser/

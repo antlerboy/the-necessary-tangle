@@ -64,6 +64,10 @@ jobs:
         env:
           NODE_PATH: /tmp/practice-browser/node_modules
         run: node scripts/test_guide_editions.cjs
+      - name: Test the release 0.42 adventure before publication
+        env:
+          NODE_PATH: /tmp/practice-browser/node_modules
+        run: node scripts/test_adventure_42_browser.cjs
       - name: Record the exact deployed release and test summary
         env:
           DEPLOY_COMMIT: ${{ github.sha }}
@@ -75,7 +79,7 @@ jobs:
           from pathlib import Path
           data = json.loads(Path('data/public-data.json').read_text(encoding='utf-8'))
           manifest = {'release': data['meta']['release'], 'commit': os.environ['DEPLOY_COMMIT'], 'workflow_run_id': os.environ['DEPLOY_RUN_ID'], 'deployed_at': datetime.now(timezone.utc).isoformat()}
-          manifest['reader_release'] = data['meta']['release']
+          manifest['reader_release'] = json.loads(Path('docs/42/manifest.json').read_text())['reader_release']
           Path('docs/deployment.json').write_text(json.dumps(manifest, indent=2) + '\n', encoding='utf-8')
           tests = {name: json.loads(Path(path).read_text()) for name, path in {'structure': 'validation/practice-structure.json', 'models': 'validation/practice-models.json', 'browser': 'validation/practice-browser/report.json', 'presentation': 'validation/practice-browser/presentation-report.json'}.items()}
           tests['commit'] = os.environ['DEPLOY_COMMIT']
@@ -110,6 +114,7 @@ jobs:
             validation/update-39-browser/
             validation/update-40-browser/
             validation/update-41-browser/
+            validation/adventure-42-browser/
             validation/readable-atlas-browser/
             validation/sysprac26-browser/
             validation/syscoi-intake-browser/
@@ -232,6 +237,11 @@ jobs:
           EVENTS_BASE_URL: https://transduction.systems
           SYSPRAC_BASE_URL: https://transduction.systems
         run: node scripts/test_events_browser.js && node scripts/test_practice_browser.js && node scripts/test_practice_presentation.js && node scripts/test_maps_browser.js && node scripts/test_library_browser.js && node scripts/test_weaver_browser.js && node scripts/test_update_30_browser.js && node scripts/test_update_31_browser.js && node scripts/test_update_32_browser.js && node scripts/test_update_33_browser.js && node scripts/test_update_34_browser.js && node scripts/test_update_35_browser.js && node scripts/test_saidtosomeone_browser.js && node scripts/test_isss_wiki_browser.js && node scripts/test_readable_atlas_browser.js && node scripts/test_update_36_browser.js && node scripts/test_update_37_browser.js && node scripts/test_update_38_browser.js && node scripts/test_update_39_browser.js && node scripts/test_update_40_browser.js && node scripts/test_update_41_browser.js && node scripts/test_sysprac26_browser.js
+      - name: Verify the live release 0.42 adventure
+        env:
+          NODE_PATH: /tmp/practice-browser/node_modules
+          ADVENTURE_BASE_URL: https://transduction.systems
+        run: node scripts/test_adventure_42_browser.cjs
       - name: Preserve live verification evidence and downloaded pack
         if: always()
         uses: actions/upload-artifact@v4
@@ -250,6 +260,7 @@ jobs:
             validation/update-39-browser/
             validation/update-40-browser/
             validation/update-41-browser/
+            validation/adventure-42-browser/
             validation/readable-atlas-browser/
             validation/sysprac26-browser/
             validation/update-35-browser/
