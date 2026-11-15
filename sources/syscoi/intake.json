@@ -293,99 +293,248 @@
       ]
     },
     {
-      "post_id": 29454,
-      "post_url": "https://stream.syscoi.com/2026/11/10/making-things-change-a-free-illustrated-32-page-guide-to-systems-change-for-young-people-taylor-2026/",
-      "title": "Making things change – a free, illustrated, 32-page guide to systems change for young people – Taylor (2026)",
+      "post_id": 29430,
+      "post_url": "https://stream.syscoi.com/2026/11/15/from-implicit-to-intentional-advancing-equity-in-human-learning-systems-winston-et-al-2025/",
+      "title": "From implicit to intentional: advancing equity in Human Learning Systems – Winston et al. (2025)",
       "status": "publish",
       "password_protected": false,
-      "published_gmt": "2026-11-10T13:08:02Z",
-      "modified_local": "2026-11-10T08:08:02",
-      "content_sha256": "eb2ebd4d30ce019a09889b046be4810f926aa34f943f6c443c9d99138a4c0e1e",
+      "published_gmt": "2026-11-15T08:51:14Z",
+      "modified_local": "2026-11-15T03:51:14",
+      "content_sha256": "f6508901bc8ef2847b6ec80b327cd3ac9c93fc1bb9d419cc9d913a396d84e32b",
       "author_id": 1379014,
       "author_name": "Benjamin P Taylor",
-      "primary_url": "https://chosenpath.wordpress.com/wp-content/uploads/2026/11/a-systems-change-guide-for-young-people-making-things-change.pdf",
+      "primary_url": "https://collaboratecic.com/insights-and-resources/from-implicit-to-intentional-advancing-equity-in-human-learning-systems/",
       "original_urls": [
-        "https://chosen-path.org/2026/11/10/ive-written-making-things-change-a-free-illustrated-32-page-guide-to-systems-change-for-young-people/",
-        "https://chosenpath.wordpress.com/wp-content/uploads/2026/11/a-systems-change-guide-for-young-people-making-things-change.pdf",
-        "https://www.linkedin.com/posts/antlerboy_making-things-change-ugcPost-7525816816741511168-k3OO"
+        "https://collaboratecic.com/insights-and-resources/from-implicit-to-intentional-advancing-equity-in-human-learning-systems/",
+        "https://collaboratecic.com/wp-content/uploads/2025/12/Advancing-Equity-in-Human-Learning-Systems-report-final.pdf"
       ],
       "canonical_aliases": [],
       "source_authors": [
-        "Benjamin P Taylor"
+        "Onika Winston",
+        "Gabriel Eichsteller",
+        "Malavika Murali",
+        "Naomi Diamond",
+        "Dawn Plimmer",
+        "Izzy Manners"
       ],
-      "description": "Benjamin P Taylor's free, illustrated 32-page working draft introduces systems change to younger readers through a fictional student whose unreliable bus leads to an attendance warning. The associated Chosen Path article explains why competing definitions of the problem, institutional rules, authority, power, and different people's experiences matter. Taylor distinguishes the wider systems, cybernetics, and complexity traditions, questions claims that deeper interventions necessarily last longer, and cautions that changing the account of a situation does not itself change timetables, funding, or rules. The guide includes diagrams, a worksheet, references, and a worked example whose results are mixed. Taylor explicitly invites criticism and practical testing.",
+      "description": "Onika Winston and colleagues, writing for Collaborate and ThemPra Social Pedagogy (2025), draw on five Human Learning Systems practice examples and practitioner interviews to argue that equity in relational public services requires deliberate attention to structural barriers, power, community participation, trust, reflection and the capacity to sustain learning. This is practice-informed guidance, not evidence that the same intervention will work in every locality.",
       "description_status": "source_scoped_summary",
       "description_sources": [
         {
-          "url": "https://chosen-path.org/2026/11/10/ive-written-making-things-change-a-free-illustrated-32-page-guide-to-systems-change-for-young-people/",
-          "locator": "Article paragraphs on bus/attendance example, conceptual distinctions, mixed outcomes, and working-draft status; downloadable PDF link",
-          "checked_at": "2026-11-10"
+          "url": "https://collaboratecic.com/insights-and-resources/from-implicit-to-intentional-advancing-equity-in-human-learning-systems/",
+          "locator": "Collaborate report announcement, 8 December 2025; report purpose, practice interviews and equity argument",
+          "checked_at": "2026-11-15"
         },
         {
-          "url": "https://stream.syscoi.com/2026/11/10/making-things-change-a-free-illustrated-32-page-guide-to-systems-change-for-young-people-taylor-2026/",
-          "locator": "Published SysCoI embed of Chosen Path post 5730",
-          "checked_at": "2026-11-10"
+          "url": "https://stream.syscoi.com/2026/11/15/from-implicit-to-intentional-advancing-equity-in-human-learning-systems-winston-et-al-2025/",
+          "locator": "Published SysCoI abstract and direct report/announcement links",
+          "checked_at": "2026-11-15"
         }
       ],
       "versions": [
         {
-          "modified_local": "2026-11-10T08:08:02",
-          "content_sha256": "eb2ebd4d30ce019a09889b046be4810f926aa34f943f6c443c9d99138a4c0e1e",
-          "observed_at": "2026-11-10",
-          "post_url": "https://stream.syscoi.com/2026/11/10/making-things-change-a-free-illustrated-32-page-guide-to-systems-change-for-young-people-taylor-2026/",
+          "modified_local": "2026-11-15T03:51:14",
+          "content_sha256": "f6508901bc8ef2847b6ec80b327cd3ac9c93fc1bb9d419cc9d913a396d84e32b",
+          "observed_at": "2026-11-15T11:00:24.417Z",
+          "post_url": "https://stream.syscoi.com/2026/11/15/from-implicit-to-intentional-advancing-equity-in-human-learning-systems-winston-et-al-2025/",
           "original_urls": [
-            "https://chosen-path.org/2026/11/10/ive-written-making-things-change-a-free-illustrated-32-page-guide-to-systems-change-for-young-people/",
-            "https://chosenpath.wordpress.com/wp-content/uploads/2026/11/a-systems-change-guide-for-young-people-making-things-change.pdf",
-            "https://www.linkedin.com/posts/antlerboy_making-things-change-ugcPost-7525816816741511168-k3OO"
+            "https://collaboratecic.com/insights-and-resources/from-implicit-to-intentional-advancing-equity-in-human-learning-systems/",
+            "https://collaboratecic.com/wp-content/uploads/2025/12/Advancing-Equity-in-Human-Learning-Systems-report-final.pdf"
           ]
         }
       ]
     },
     {
-      "post_id": 29453,
-      "post_url": "https://stream.syscoi.com/2026/11/10/causal-assembly-theory-assembly-and-disassembly-as-causal-processes-challoner-2026/",
-      "title": "Causal Assembly Theory: Assembly and Disassembly as Causal Processes – Challoner (2026)",
+      "post_id": 29431,
+      "post_url": "https://stream.syscoi.com/2026/11/15/pay-no-attention-to-the-model-behind-the-curtain-stark-2022/",
+      "title": "Pay No Attention to the Model Behind the Curtain – Stark (2022)",
       "status": "publish",
       "password_protected": false,
-      "published_gmt": "2026-11-10T20:38:58Z",
-      "modified_local": "2026-11-10T15:39:05",
-      "content_sha256": "67f3bfeabc694988b95ad243fb420524def6ffce43540ab346d42764bea87bd4",
+      "published_gmt": "2026-11-15T08:51:19Z",
+      "modified_local": "2026-11-15T03:51:19",
+      "content_sha256": "fe672831007c637ca9cc6da4638a8b95be1a0f2c93270520ef25c3a59ff057d9",
       "author_id": 1379014,
       "author_name": "Benjamin P Taylor",
-      "primary_url": "https://rational-understanding.com/wp-content/uploads/2026/11/assembly-and-disassembly-as-causal-processes-vers8.pdf",
+      "primary_url": "https://arxiv.org/abs/2208.11230",
       "original_urls": [
-        "https://rational-understanding.com/wp-content/uploads/2026/11/assembly-and-disassembly-as-causal-processes-vers8.pdf",
-        "https://rational-understanding.com/efgst/",
-        "https://rational-understanding.com/gst-course/"
+        "https://arxiv.org/abs/2208.11230",
+        "https://arxiv.org/pdf/2208.11230",
+        "https://doi.org/10.1007/s00024-022-03137-2"
       ],
       "canonical_aliases": [],
       "source_authors": [
-        "John A Challoner"
+        "Philip B. Stark"
       ],
-      "description": "John A Challoner's November 2026 version-eight paper examines how physical interactions, transfers, and constraints make entities participants in systems, maintain their organisation, and contribute to assembly, change, and disassembly. His free General Systems Theory course lists related modules 92–106, building on earlier work on foundational causality. The paper and course are evolving resources; this entry links the current paper, collection, course, and earlier coverage without treating the author's theoretical claims as established results.",
+      "description": "Philip B. Stark's 2022 paper criticises models used in policy when parameters and assumptions are insufficiently connected to the phenomena they purportedly describe. He challenges placing unlike costs and benefits on a common scale, treating all uncertainties as probabilities and uncritically accepting numerical estimates, using examples from earthquake risk, bird mortality near wind turbines, football penalties, academic gender bias and climate policy. The critique concerns modelling practices, not an argument that all models are invalid.",
       "description_status": "source_scoped_summary",
       "description_sources": [
         {
-          "url": "https://rational-understanding.com/efgst/",
-          "locator": "EFGST paper collection, Latest Addition: Assembly and Disassembly as Causal Processes Vers8",
+          "url": "https://arxiv.org/abs/2208.11230",
+          "locator": "arXiv abstract, author, revision history and related journal DOI (version 2, 25 August 2022)",
+          "checked_at": "2026-11-15"
+        },
+        {
+          "url": "https://stream.syscoi.com/2026/11/15/pay-no-attention-to-the-model-behind-the-curtain-stark-2022/",
+          "locator": "Published SysCoI description and original version/journal links",
+          "checked_at": "2026-11-15"
+        }
+      ],
+      "versions": [
+        {
+          "modified_local": "2026-11-15T03:51:19",
+          "content_sha256": "fe672831007c637ca9cc6da4638a8b95be1a0f2c93270520ef25c3a59ff057d9",
+          "observed_at": "2026-11-15T11:00:24.417Z",
+          "post_url": "https://stream.syscoi.com/2026/11/15/pay-no-attention-to-the-model-behind-the-curtain-stark-2022/",
+          "original_urls": [
+            "https://arxiv.org/abs/2208.11230",
+            "https://arxiv.org/pdf/2208.11230",
+            "https://doi.org/10.1007/s00024-022-03137-2"
+          ]
+        }
+      ]
+    },
+    {
+      "post_id": 29432,
+      "post_url": "https://stream.syscoi.com/2026/11/15/models-and-reality-how-did-models-divorced-from-reality-become-epistemologically-acceptable-zaman-2020/",
+      "title": "Models and Reality: How Did Models Divorced from Reality Become Epistemologically Acceptable? – Zaman (2020)",
+      "status": "publish",
+      "password_protected": false,
+      "published_gmt": "2026-11-15T08:51:23Z",
+      "modified_local": "2026-11-15T03:51:23",
+      "content_sha256": "b070ef54a62ef4ed359e04ea66448b8aaaa796b32e9ba6cf3b7e8f2f4b871bf6",
+      "author_id": 1379014,
+      "author_name": "Benjamin P Taylor",
+      "primary_url": "https://dergipark.org.tr/en/pub/ier/article/748128",
+      "original_urls": [
+        "https://dergipark.org.tr/en/pub/ier/article/748128",
+        "https://doi.org/10.33818/ier.748128",
+        "https://www.ead.org.tr/makaleler/211219.pdf"
+      ],
+      "canonical_aliases": [
+        "https://doi.org/10.33818/ier.748128"
+      ],
+      "source_authors": [
+        "Asad Zaman"
+      ],
+      "description": "Asad Zaman (2020) argues that economic models can be judged by formal coherence and conformity to optimisation or equilibrium principles without adequately testing their relationship to the world. He traces this methodological possibility to changes in philosophy of science and the separation of observable phenomena from underlying reality. The paper advances Zaman's contested characterisation of economic modelling; it is not proof that every economic model is divorced from empirical testing.",
+      "description_status": "source_scoped_summary",
+      "description_sources": [
+        {
+          "url": "https://dergipark.org.tr/en/pub/ier/article/748128",
+          "locator": "International Econometric Review 12(1), 24–49; author, DOI and public abstract",
+          "checked_at": "2026-11-15"
+        },
+        {
+          "url": "https://stream.syscoi.com/2026/11/15/models-and-reality-how-did-models-divorced-from-reality-become-epistemologically-acceptable-zaman-2020/",
+          "locator": "Published SysCoI summary, caution and open-access full-text link",
+          "checked_at": "2026-11-15"
+        }
+      ],
+      "versions": [
+        {
+          "modified_local": "2026-11-15T03:51:23",
+          "content_sha256": "b070ef54a62ef4ed359e04ea66448b8aaaa796b32e9ba6cf3b7e8f2f4b871bf6",
+          "observed_at": "2026-11-15T11:00:24.417Z",
+          "post_url": "https://stream.syscoi.com/2026/11/15/models-and-reality-how-did-models-divorced-from-reality-become-epistemologically-acceptable-zaman-2020/",
+          "original_urls": [
+            "https://dergipark.org.tr/en/pub/ier/article/748128",
+            "https://doi.org/10.33818/ier.748128",
+            "https://www.ead.org.tr/makaleler/211219.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "post_id": 29440,
+      "post_url": "https://stream.syscoi.com/2026/11/12/the-third-story-of-the-universe-dempsey-with-heylighen-2026/",
+      "title": "The Third Story of the Universe – Dempsey with Heylighen (2026)",
+      "status": "publish",
+      "password_protected": false,
+      "published_gmt": "2026-11-12T12:35:22Z",
+      "modified_local": "2026-11-12T07:36:41",
+      "content_sha256": "9fe616949bffbaf5bac08ab4957b79d9c030f8dd8ec9629128f8660ad141de3e",
+      "author_id": 1379014,
+      "author_name": "Benjamin P Taylor",
+      "primary_url": "https://brendangrahamdempsey.substack.com/p/the-third-story",
+      "original_urls": [
+        "https://brendangrahamdempsey.substack.com/p/the-third-story",
+        "https://www.youtube.com/watch?v=qgSQZ3GaoPk",
+        "https://francisheylighen.substack.com/"
+      ],
+      "canonical_aliases": [
+        "https://www.youtube.com/watch?v=qgSQZ3GaoPk"
+      ],
+      "source_authors": [
+        "Brendan Graham Dempsey",
+        "Francis Heylighen"
+      ],
+      "description": "Brendan Graham Dempsey talks with cyberneticist Francis Heylighen in a 68-minute Metamodern Meaning episode published on 7 November 2026. Heylighen proposes a 'Third Story' of the universe based on self-organising evolution rather than a solely mechanistic account. The discussion ranges across metasystem transitions, consciousness, artificial intelligence, meaning, and the suggested relationship between increasing complexity and value. These are the speakers' proposed interpretations, not established scientific consensus. The SysCoI post groups the episode with Heylighen's separate Substack as companion reading.",
+      "description_status": "source_scoped_summary",
+      "description_sources": [
+        {
+          "url": "https://brendangrahamdempsey.substack.com/p/the-third-story",
+          "locator": "Episode description and chapter timestamps 1:20–1:08:08; 7 November 2026 publication",
           "checked_at": "2026-11-12"
         },
         {
-          "url": "https://stream.syscoi.com/2026/11/10/causal-assembly-theory-assembly-and-disassembly-as-causal-processes-challoner-2026/",
-          "locator": "Published post: paper, course modules 92–106, and earlier coverage",
+          "url": "https://stream.syscoi.com/2026/11/12/the-third-story-of-the-universe-dempsey-with-heylighen-2026/",
+          "locator": "Public grouped SysCoI post: episode link and companion Heylighen Substack",
           "checked_at": "2026-11-12"
         }
       ],
       "versions": [
         {
-          "modified_local": "2026-11-10T15:39:05",
-          "content_sha256": "67f3bfeabc694988b95ad243fb420524def6ffce43540ab346d42764bea87bd4",
+          "modified_local": "2026-11-12T07:36:41",
+          "content_sha256": "9fe616949bffbaf5bac08ab4957b79d9c030f8dd8ec9629128f8660ad141de3e",
           "observed_at": "2026-11-12",
-          "post_url": "https://stream.syscoi.com/2026/11/10/causal-assembly-theory-assembly-and-disassembly-as-causal-processes-challoner-2026/",
+          "post_url": "https://stream.syscoi.com/2026/11/12/the-third-story-of-the-universe-dempsey-with-heylighen-2026/",
           "original_urls": [
-            "https://rational-understanding.com/wp-content/uploads/2026/11/assembly-and-disassembly-as-causal-processes-vers8.pdf",
-            "https://rational-understanding.com/efgst/",
-            "https://rational-understanding.com/gst-course/"
+            "https://brendangrahamdempsey.substack.com/p/the-third-story",
+            "https://www.youtube.com/watch?v=qgSQZ3GaoPk",
+            "https://francisheylighen.substack.com/"
+          ]
+        }
+      ]
+    },
+    {
+      "post_id": 29445,
+      "post_url": "https://stream.syscoi.com/2026/11/11/vsm-simulation-pasta-lasta-lambertz-2026/",
+      "title": "VSM simulation ‘Pasta Lasta’ – Lambertz (2026)",
+      "status": "publish",
+      "password_protected": false,
+      "published_gmt": "2026-11-11T18:22:40Z",
+      "modified_local": "2026-11-11T13:22:55",
+      "content_sha256": "b40f3567877a3d065591994b5a8b09d6fd8d014d89173c89217c4408232d6018",
+      "author_id": 1379014,
+      "author_name": "Benjamin P Taylor",
+      "primary_url": "https://intelligente-organisationen.de/vsm-simulation-pasta-lasta",
+      "original_urls": [
+        "https://intelligente-organisationen.de/vsm-simulation-pasta-lasta",
+        "https://intelligente-organisationen.de/wp-content/uploads/2026/10/Pasta_Lasta_Facilitator_Handout.pdf"
+      ],
+      "canonical_aliases": [],
+      "source_authors": [
+        "Mark Lambertz",
+        "Allenna Leonard (original storyline)"
+      ],
+      "description": "Mark Lambertz's 'Pasta Lasta' is a facilitated restaurant simulation for exploring Stafford Beer's Viable System Model. Participants organise a fictional hospitality business, respond to an eventful week, and reflect using a VSM laid out on the floor. It foregrounds operational autonomy, coordination, recursion, and decisions under changing conditions. The public guide provides a facilitator handout and alternative session lengths. Lambertz explicitly credits Allenna Leonard for the original storyline.",
+      "description_status": "source_scoped_summary",
+      "description_sources": [
+        {
+          "url": "https://intelligente-organisationen.de/vsm-simulation-pasta-lasta",
+          "locator": "Learning the VSM by Running a Restaurant; credits; facilitator handout; session plan",
+          "checked_at": "2026-11-12"
+        }
+      ],
+      "versions": [
+        {
+          "modified_local": "2026-11-11T13:22:55",
+          "content_sha256": "b40f3567877a3d065591994b5a8b09d6fd8d014d89173c89217c4408232d6018",
+          "observed_at": "2026-11-12",
+          "post_url": "https://stream.syscoi.com/2026/11/11/vsm-simulation-pasta-lasta-lambertz-2026/",
+          "original_urls": [
+            "https://intelligente-organisationen.de/vsm-simulation-pasta-lasta",
+            "https://intelligente-organisationen.de/wp-content/uploads/2026/10/Pasta_Lasta_Facilitator_Handout.pdf"
           ]
         }
       ]
@@ -441,6 +590,104 @@
       ]
     },
     {
+      "post_id": 29453,
+      "post_url": "https://stream.syscoi.com/2026/11/10/causal-assembly-theory-assembly-and-disassembly-as-causal-processes-challoner-2026/",
+      "title": "Causal Assembly Theory: Assembly and Disassembly as Causal Processes – Challoner (2026)",
+      "status": "publish",
+      "password_protected": false,
+      "published_gmt": "2026-11-10T20:38:58Z",
+      "modified_local": "2026-11-10T15:39:05",
+      "content_sha256": "67f3bfeabc694988b95ad243fb420524def6ffce43540ab346d42764bea87bd4",
+      "author_id": 1379014,
+      "author_name": "Benjamin P Taylor",
+      "primary_url": "https://rational-understanding.com/wp-content/uploads/2026/11/assembly-and-disassembly-as-causal-processes-vers8.pdf",
+      "original_urls": [
+        "https://rational-understanding.com/wp-content/uploads/2026/11/assembly-and-disassembly-as-causal-processes-vers8.pdf",
+        "https://rational-understanding.com/efgst/",
+        "https://rational-understanding.com/gst-course/"
+      ],
+      "canonical_aliases": [],
+      "source_authors": [
+        "John A Challoner"
+      ],
+      "description": "John A Challoner's November 2026 version-eight paper examines how physical interactions, transfers, and constraints make entities participants in systems, maintain their organisation, and contribute to assembly, change, and disassembly. His free General Systems Theory course lists related modules 92–106, building on earlier work on foundational causality. The paper and course are evolving resources; this entry links the current paper, collection, course, and earlier coverage without treating the author's theoretical claims as established results.",
+      "description_status": "source_scoped_summary",
+      "description_sources": [
+        {
+          "url": "https://rational-understanding.com/efgst/",
+          "locator": "EFGST paper collection, Latest Addition: Assembly and Disassembly as Causal Processes Vers8",
+          "checked_at": "2026-11-12"
+        },
+        {
+          "url": "https://stream.syscoi.com/2026/11/10/causal-assembly-theory-assembly-and-disassembly-as-causal-processes-challoner-2026/",
+          "locator": "Published post: paper, course modules 92–106, and earlier coverage",
+          "checked_at": "2026-11-12"
+        }
+      ],
+      "versions": [
+        {
+          "modified_local": "2026-11-10T15:39:05",
+          "content_sha256": "67f3bfeabc694988b95ad243fb420524def6ffce43540ab346d42764bea87bd4",
+          "observed_at": "2026-11-12",
+          "post_url": "https://stream.syscoi.com/2026/11/10/causal-assembly-theory-assembly-and-disassembly-as-causal-processes-challoner-2026/",
+          "original_urls": [
+            "https://rational-understanding.com/wp-content/uploads/2026/11/assembly-and-disassembly-as-causal-processes-vers8.pdf",
+            "https://rational-understanding.com/efgst/",
+            "https://rational-understanding.com/gst-course/"
+          ]
+        }
+      ]
+    },
+    {
+      "post_id": 29454,
+      "post_url": "https://stream.syscoi.com/2026/11/10/making-things-change-a-free-illustrated-32-page-guide-to-systems-change-for-young-people-taylor-2026/",
+      "title": "Making things change – a free, illustrated, 32-page guide to systems change for young people – Taylor (2026)",
+      "status": "publish",
+      "password_protected": false,
+      "published_gmt": "2026-11-10T13:08:02Z",
+      "modified_local": "2026-11-10T08:08:02",
+      "content_sha256": "eb2ebd4d30ce019a09889b046be4810f926aa34f943f6c443c9d99138a4c0e1e",
+      "author_id": 1379014,
+      "author_name": "Benjamin P Taylor",
+      "primary_url": "https://chosenpath.wordpress.com/wp-content/uploads/2026/11/a-systems-change-guide-for-young-people-making-things-change.pdf",
+      "original_urls": [
+        "https://chosen-path.org/2026/11/10/ive-written-making-things-change-a-free-illustrated-32-page-guide-to-systems-change-for-young-people/",
+        "https://chosenpath.wordpress.com/wp-content/uploads/2026/11/a-systems-change-guide-for-young-people-making-things-change.pdf",
+        "https://www.linkedin.com/posts/antlerboy_making-things-change-ugcPost-7525816816741511168-k3OO"
+      ],
+      "canonical_aliases": [],
+      "source_authors": [
+        "Benjamin P Taylor"
+      ],
+      "description": "Benjamin P Taylor's free, illustrated 32-page working draft introduces systems change to younger readers through a fictional student whose unreliable bus leads to an attendance warning. The associated Chosen Path article explains why competing definitions of the problem, institutional rules, authority, power, and different people's experiences matter. Taylor distinguishes the wider systems, cybernetics, and complexity traditions, questions claims that deeper interventions necessarily last longer, and cautions that changing the account of a situation does not itself change timetables, funding, or rules. The guide includes diagrams, a worksheet, references, and a worked example whose results are mixed. Taylor explicitly invites criticism and practical testing.",
+      "description_status": "source_scoped_summary",
+      "description_sources": [
+        {
+          "url": "https://chosen-path.org/2026/11/10/ive-written-making-things-change-a-free-illustrated-32-page-guide-to-systems-change-for-young-people/",
+          "locator": "Article paragraphs on bus/attendance example, conceptual distinctions, mixed outcomes, and working-draft status; downloadable PDF link",
+          "checked_at": "2026-11-10"
+        },
+        {
+          "url": "https://stream.syscoi.com/2026/11/10/making-things-change-a-free-illustrated-32-page-guide-to-systems-change-for-young-people-taylor-2026/",
+          "locator": "Published SysCoI embed of Chosen Path post 5730",
+          "checked_at": "2026-11-10"
+        }
+      ],
+      "versions": [
+        {
+          "modified_local": "2026-11-10T08:08:02",
+          "content_sha256": "eb2ebd4d30ce019a09889b046be4810f926aa34f943f6c443c9d99138a4c0e1e",
+          "observed_at": "2026-11-10",
+          "post_url": "https://stream.syscoi.com/2026/11/10/making-things-change-a-free-illustrated-32-page-guide-to-systems-change-for-young-people-taylor-2026/",
+          "original_urls": [
+            "https://chosen-path.org/2026/11/10/ive-written-making-things-change-a-free-illustrated-32-page-guide-to-systems-change-for-young-people/",
+            "https://chosenpath.wordpress.com/wp-content/uploads/2026/11/a-systems-change-guide-for-young-people-making-things-change.pdf",
+            "https://www.linkedin.com/posts/antlerboy_making-things-change-ugcPost-7525816816741511168-k3OO"
+          ]
+        }
+      ]
+    },
+    {
       "post_id": 29464,
       "post_url": "https://stream.syscoi.com/2026/11/11/foundations-of-a-postmodern-cybernetics-based-on-kabbalah-burstein-and-negoita-2011/",
       "title": "Foundations of a postmodern cybernetics based on Kabbalah – Burstein and Negoita (2011)",
@@ -488,49 +735,6 @@
             "https://doi.org/10.1108/03684921111169422",
             "https://www.researchgate.net/publication/286018391_A_Kabbalah_System_Theory_Modeling_Framework_for_Knowledge_Based_Behavioral_Economics_and_Finance",
             "https://doi.org/10.1007/978-3-319-01285-8_2"
-          ]
-        }
-      ]
-    },
-    {
-      "post_id": 29445,
-      "post_url": "https://stream.syscoi.com/2026/11/11/vsm-simulation-pasta-lasta-lambertz-2026/",
-      "title": "VSM simulation ‘Pasta Lasta’ – Lambertz (2026)",
-      "status": "publish",
-      "password_protected": false,
-      "published_gmt": "2026-11-11T18:22:40Z",
-      "modified_local": "2026-11-11T13:22:55",
-      "content_sha256": "b40f3567877a3d065591994b5a8b09d6fd8d014d89173c89217c4408232d6018",
-      "author_id": 1379014,
-      "author_name": "Benjamin P Taylor",
-      "primary_url": "https://intelligente-organisationen.de/vsm-simulation-pasta-lasta",
-      "original_urls": [
-        "https://intelligente-organisationen.de/vsm-simulation-pasta-lasta",
-        "https://intelligente-organisationen.de/wp-content/uploads/2026/10/Pasta_Lasta_Facilitator_Handout.pdf"
-      ],
-      "canonical_aliases": [],
-      "source_authors": [
-        "Mark Lambertz",
-        "Allenna Leonard (original storyline)"
-      ],
-      "description": "Mark Lambertz's 'Pasta Lasta' is a facilitated restaurant simulation for exploring Stafford Beer's Viable System Model. Participants organise a fictional hospitality business, respond to an eventful week, and reflect using a VSM laid out on the floor. It foregrounds operational autonomy, coordination, recursion, and decisions under changing conditions. The public guide provides a facilitator handout and alternative session lengths. Lambertz explicitly credits Allenna Leonard for the original storyline.",
-      "description_status": "source_scoped_summary",
-      "description_sources": [
-        {
-          "url": "https://intelligente-organisationen.de/vsm-simulation-pasta-lasta",
-          "locator": "Learning the VSM by Running a Restaurant; credits; facilitator handout; session plan",
-          "checked_at": "2026-11-12"
-        }
-      ],
-      "versions": [
-        {
-          "modified_local": "2026-11-11T13:22:55",
-          "content_sha256": "b40f3567877a3d065591994b5a8b09d6fd8d014d89173c89217c4408232d6018",
-          "observed_at": "2026-11-12",
-          "post_url": "https://stream.syscoi.com/2026/11/11/vsm-simulation-pasta-lasta-lambertz-2026/",
-          "original_urls": [
-            "https://intelligente-organisationen.de/vsm-simulation-pasta-lasta",
-            "https://intelligente-organisationen.de/wp-content/uploads/2026/10/Pasta_Lasta_Facilitator_Handout.pdf"
           ]
         }
       ]
@@ -696,58 +900,6 @@
           "post_url": "https://stream.syscoi.com/2026/11/12/scio-uk-virtual-open-meeting/",
           "original_urls": [
             "https://www.systemspractice.org/events/scio-uk-virtual-open-meeting-november-2026"
-          ]
-        }
-      ]
-    },
-    {
-      "post_id": 29440,
-      "post_url": "https://stream.syscoi.com/2026/11/12/the-third-story-of-the-universe-dempsey-with-heylighen-2026/",
-      "title": "The Third Story of the Universe – Dempsey with Heylighen (2026)",
-      "status": "publish",
-      "password_protected": false,
-      "published_gmt": "2026-11-12T12:35:22Z",
-      "modified_local": "2026-11-12T07:36:41",
-      "content_sha256": "9fe616949bffbaf5bac08ab4957b79d9c030f8dd8ec9629128f8660ad141de3e",
-      "author_id": 1379014,
-      "author_name": "Benjamin P Taylor",
-      "primary_url": "https://brendangrahamdempsey.substack.com/p/the-third-story",
-      "original_urls": [
-        "https://brendangrahamdempsey.substack.com/p/the-third-story",
-        "https://www.youtube.com/watch?v=qgSQZ3GaoPk",
-        "https://francisheylighen.substack.com/"
-      ],
-      "canonical_aliases": [
-        "https://www.youtube.com/watch?v=qgSQZ3GaoPk"
-      ],
-      "source_authors": [
-        "Brendan Graham Dempsey",
-        "Francis Heylighen"
-      ],
-      "description": "Brendan Graham Dempsey talks with cyberneticist Francis Heylighen in a 68-minute Metamodern Meaning episode published on 7 November 2026. Heylighen proposes a 'Third Story' of the universe based on self-organising evolution rather than a solely mechanistic account. The discussion ranges across metasystem transitions, consciousness, artificial intelligence, meaning, and the suggested relationship between increasing complexity and value. These are the speakers' proposed interpretations, not established scientific consensus. The SysCoI post groups the episode with Heylighen's separate Substack as companion reading.",
-      "description_status": "source_scoped_summary",
-      "description_sources": [
-        {
-          "url": "https://brendangrahamdempsey.substack.com/p/the-third-story",
-          "locator": "Episode description and chapter timestamps 1:20–1:08:08; 7 November 2026 publication",
-          "checked_at": "2026-11-12"
-        },
-        {
-          "url": "https://stream.syscoi.com/2026/11/12/the-third-story-of-the-universe-dempsey-with-heylighen-2026/",
-          "locator": "Public grouped SysCoI post: episode link and companion Heylighen Substack",
-          "checked_at": "2026-11-12"
-        }
-      ],
-      "versions": [
-        {
-          "modified_local": "2026-11-12T07:36:41",
-          "content_sha256": "9fe616949bffbaf5bac08ab4957b79d9c030f8dd8ec9629128f8660ad141de3e",
-          "observed_at": "2026-11-12",
-          "post_url": "https://stream.syscoi.com/2026/11/12/the-third-story-of-the-universe-dempsey-with-heylighen-2026/",
-          "original_urls": [
-            "https://brendangrahamdempsey.substack.com/p/the-third-story",
-            "https://www.youtube.com/watch?v=qgSQZ3GaoPk",
-            "https://francisheylighen.substack.com/"
           ]
         }
       ]
