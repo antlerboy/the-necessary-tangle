@@ -23,7 +23,7 @@ if '--reverse' in sys.argv:
         content = path.read_text(encoding='utf-8')
         content = re.sub(r'<!-- ' + MARK + r' -->.*?<!-- /' + MARK + r' -->\s*', '', content, flags=re.S)
         if relative == 'docs/index.html':
-            content = re.sub(r'<span id="releaseBadge"[^>]*>Release [^<]+</span>', '<span id="releaseBadge">Release 0.41</span>', content, count=1)
+            content = re.sub(r'<(?:span|a) id="releaseBadge"[^>]*>Release [^<]+</(?:span|a)>', '<span id="releaseBadge">Release 0.41</span>', content, count=1)
         path.write_text(content, encoding='utf-8')
     app = D / 'assets/app.js'
     content = app.read_text(encoding='utf-8').replace("`Release ${$('releaseBadge').dataset.readerRelease || DATA.meta.release}`", '`Release ${DATA.meta.release}`')
@@ -125,7 +125,7 @@ content = home.read_text(encoding='utf-8')
 content = re.sub(r'<!-- ' + MARK + r' -->.*?<!-- /' + MARK + r' -->\s*', '', content, flags=re.S)
 feature = '''<!-- adventure-42 --><section class="resource-pathways plain-panel wide" id="adventure-42"><p class="eyebrow">Release 0.42 · An original text adventure</p><h2><a href="/42/">A&gt;TANGLE</a></h2><p>An unlisted platform, a listening instrument, weather in two glass globes, and a library with doors in its shelves. Explore systems | cybernetics | complexity through a CP/M-inspired adventure.</p><p><a class="button primary" href="/42/">Enter the adventure</a> <a href="/updates/2026-11-15-42/">About this release</a></p></section><!-- /adventure-42 -->'''
 content = content.replace('<!-- readable-atlas-20261105 -->', feature + '<!-- readable-atlas-20261105 -->', 1)
-content = re.sub(r'<span id="releaseBadge"[^>]*>Release [^<]+</span>', '<span id="releaseBadge" data-reader-release="0.42">Release 0.42</span>', content, count=1)
+content = re.sub(r'<(?:span|a) id="releaseBadge"[^>]*>Release [^<]+</(?:span|a)>', '<a id="releaseBadge" data-reader-release="0.42" href="/versions/" aria-label="Version history, current release 0.42">Release 0.42</a>', content, count=1)
 home.write_text(content, encoding='utf-8')
 # The interface can advance independently of the maintained research graph.
 app = D / 'assets/app.js'
@@ -149,7 +149,7 @@ for route in ['/42/', '/updates/2026-11-15-42/']:
 sitemap.write_text(content, encoding='utf-8')
 
 replace_block(R / 'documentation/TANGLE_STATE.md', '## Reader release 0.42\n\n15 November 2026. An original text adventure at https://transduction.systems/42/\nprojects the complete canonical public atlas into a searchable, source-labelled\nlibrary. Fictional places and finite apparatus remain separate from atlas\nevidence. The graph research release remains 0.41. Deployment and actual test\nresults belong to deployment.json, the Publish workflow, and the adventure\ncompletion record. No claim of successful publication follows from this build.', '# Current Tangle state')
-replace_block(R / 'documentation/NEXT_WORK.md', '## Current packet: reader release 0.42\n\nImplementation authorised on 15 November 2026. The bounded executable packet is\n`sources/adventure-42/PACKET.md`. It covers the original `/42/` adventure, its\npublic atlas projection, build/check integration, and release entrance. Complete\nthe named gates and independently verify the live deployed revision. Standing\npublication authority in AGENTS.md applies; actual remaining state is recorded\nin `documentation/adventure-42-status.json`. Preserve all other intake and source\nobligations below.', '# Next work')
+replace_block(R / 'documentation/NEXT_WORK.md', '## Current packet: version history navigation\n\nOn 16 November 2026 Benjamin P Taylor authorised the version badge to open\n`/versions/`, with its v0.42 entry opening the existing `/42/` adventure. Scope:\nversion-history helper, adventure builder and generated header/history, sitemap,\nand the existing browser navigation check. Preserve release identities, source\nevidence, game state, and the fixed Open updates control. Acceptance: make\nvalidate, desktop/mobile badge → history → adventure navigation, keyboard and\nmodified-click links, and live deployment verification. The original adventure\nis already verified live in `documentation/adventure-42-status.json`; this is a\nnavigation follow-up. Preserve all other intake and source obligations below.', '# Next work')
 replace_block(R / 'README.md', 'Reader release **0.42, 15 November 2026**: [An adventure in the Tangle](https://transduction.systems/42/). An original CP/M-inspired text adventure connected to the complete public atlas. Graph research release remains 0.41. See the Publish workflow and deployment.json for actual publication identity.', '# The Necessary Tangle')
 changelog = R / 'CHANGELOG.md'
 content = changelog.read_text(encoding='utf-8')
@@ -157,4 +157,6 @@ entry = '\n\n## 0.42 — 15 November 2026\n\nAn original branching text adventur
 if '## 0.42 — 15 November 2026' not in content:
     changelog.write_text(content.replace('# Changelog', '# Changelog' + entry, 1), encoding='utf-8')
 assert (R / 'data/public-data.json').read_bytes() == raw, 'Adventure must not mutate the graph'
+from version_history import build as build_version_history
+build_version_history(R, '0.42')
 print(f'Adventure 0.42 built: {len(worlds["rooms"])} places, {len(nodes)} public entries, {len(edges)} recorded connections; graph {data["meta"]["release"]} unchanged.')

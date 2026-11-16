@@ -1,14 +1,16 @@
 # Next work
 <!-- adventure-42 -->
-## Current packet: reader release 0.42
+## Current packet: version history navigation
 
-Implementation authorised on 15 November 2026. The bounded executable packet is
-`sources/adventure-42/PACKET.md`. It covers the original `/42/` adventure, its
-public atlas projection, build/check integration, and release entrance. Complete
-the named gates and independently verify the live deployed revision. Standing
-publication authority in AGENTS.md applies; actual remaining state is recorded
-in `documentation/adventure-42-status.json`. Preserve all other intake and source
-obligations below.
+On 16 November 2026 Benjamin P Taylor authorised the version badge to open
+`/versions/`, with its v0.42 entry opening the existing `/42/` adventure. Scope:
+version-history helper, adventure builder and generated header/history, sitemap,
+and the existing browser navigation check. Preserve release identities, source
+evidence, game state, and the fixed Open updates control. Acceptance: make
+validate, desktop/mobile badge → history → adventure navigation, keyboard and
+modified-click links, and live deployment verification. The original adventure
+is already verified live in `documentation/adventure-42-status.json`; this is a
+navigation follow-up. Preserve all other intake and source obligations below.
 <!-- /adventure-42 -->
 
 <!-- guide-resource-link-correction -->
