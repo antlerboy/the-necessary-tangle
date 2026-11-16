@@ -5,53 +5,6 @@
   "initial_publication_cutoff": "2026-10-24T00:00:00-05:00",
   "posts": [
     {
-      "post_id": 29126,
-      "post_url": "https://stream.syscoi.com/2026/10/08/warren-mcculloch-chairman-sic-of-the-macy-conferences-on-cybernetics-in-a-letter-to-the-cybernetics-group-before-the-tenth-and-final-conference-1953-discovered-and-shared-by-sean-manion/",
-      "title": "Warren McCulloch, chairman [sic] of the Macy Conferences on Cybernetics, in a letter to the cybernetics group before the tenth and final conference, 1953. Discovered and shared by Sean Manion.",
-      "status": "publish",
-      "password_protected": false,
-      "published_gmt": "2026-10-08T18:48:53Z",
-      "modified_local": "2026-11-15T09:34:57",
-      "content_sha256": "aaca240727df61b301f5a3ced7aaae20431e04fc00a9065eeb33eaadbac43134",
-      "author_id": 1379014,
-      "author_name": "Benjamin P Taylor",
-      "primary_url": "https://x.com/TheUnjournaling/status/2121843069234577814",
-      "original_urls": [
-        "https://x.com/TheUnjournaling/status/2121843069234577814",
-        "https://x.com/TheUnjournaling/status/2108201351717044689/photo/3"
-      ],
-      "canonical_aliases": [],
-      "source_authors": [
-        "Warren S. McCulloch"
-      ],
-      "description": "Warren S. McCulloch's 1953 letter to the cybernetics group, ahead of the tenth and final Macy Conference, reviews the group's attempts to develop shared understanding across fields. It moves from feedback and purposive behaviour to communication, information, logic, and the limits of agreement. The public SysCoI post was substantively expanded on 15 November 2026: scans shared by Sean Manion now support a reading transcription of all 13 manuscript pages rather than the earlier three-page excerpt. The transcriber explains how handwritten changes, gaps, historical spelling, and ambiguous revisions have been handled. This is a reading transcription, not a diplomatic edition; historical scientific and medical statements are McCulloch's, not independently verified contemporary findings.",
-      "description_status": "source_scoped_summary",
-      "description_sources": [
-        {
-          "url": "https://stream.syscoi.com/2026/10/08/warren-mcculloch-chairman-sic-of-the-macy-conferences-on-cybernetics-in-a-letter-to-the-cybernetics-group-before-the-tenth-and-final-conference-1953-discovered-and-shared-by-sean-manion/",
-          "locator": "15 November 2026 update; editorial transcription notes; pages 1–13, particularly pages 1–4 and 13",
-          "checked_at": "2026-11-15"
-        },
-        {
-          "url": "https://x.com/TheUnjournaling/status/2121843069234577814",
-          "locator": "Source identified and credited in the public SysCoI post; external X image retrieval unavailable in this execution",
-          "checked_at": "2026-11-15"
-        }
-      ],
-      "versions": [
-        {
-          "modified_local": "2026-11-15T09:34:57",
-          "content_sha256": "aaca240727df61b301f5a3ced7aaae20431e04fc00a9065eeb33eaadbac43134",
-          "observed_at": "2026-11-15T14:53:18.253Z",
-          "post_url": "https://stream.syscoi.com/2026/10/08/warren-mcculloch-chairman-sic-of-the-macy-conferences-on-cybernetics-in-a-letter-to-the-cybernetics-group-before-the-tenth-and-final-conference-1953-discovered-and-shared-by-sean-manion/",
-          "original_urls": [
-            "https://x.com/TheUnjournaling/status/2121843069234577814",
-            "https://x.com/TheUnjournaling/status/2108201351717044689/photo/3"
-          ]
-        }
-      ]
-    },
-    {
       "post_id": 29386,
       "post_url": "https://stream.syscoi.com/2026/10/27/richard-s-orourke/",
       "title": "Richard S O’Rourke",
@@ -133,6 +86,56 @@
       ]
     },
     {
+      "post_id": 29411,
+      "post_url": "https://stream.syscoi.com/2026/11/02/up-and-down-the-ladder-of-abstraction/",
+      "title": "Up and Down the Ladder of Abstraction: A Systematic Approach to Interactive Visualization – Victor (2011)",
+      "status": "publish",
+      "password_protected": false,
+      "published_gmt": "2026-11-02T11:59:23Z",
+      "modified_local": "2026-11-09T16:47:13",
+      "content_sha256": "1dfbb950b43e0d134e2f30c005e768ef14d4d594b7b1e0c329283491b5bb9564",
+      "author_id": 1379014,
+      "author_name": "Benjamin P Taylor",
+      "primary_url": "https://worrydream.com/LadderOfAbstraction/",
+      "original_urls": [
+        "https://worrydream.com/LadderOfAbstraction/?utm_source=chatgpt.com",
+        "https://worrydream.com/LadderOfAbstraction/"
+      ],
+      "canonical_aliases": [],
+      "source_authors": [
+        "Bret Victor"
+      ],
+      "description": "Bret Victor’s October 2011 interactive essay uses a simple car-control simulation to show how designers can move between a particular run and broader views of possible behaviour. Time and steering parameters can be varied; trajectories expose patterns that are difficult to see during real-time playback. Moving back to a concrete case tests what an abstract picture hides. The essay offers a practical approach to exploring a system when theory is insufficient to predict the consequences of design decisions.",
+      "description_status": "source_scoped_summary",
+      "description_sources": [
+        {
+          "url": "https://worrydream.com/LadderOfAbstraction/",
+          "locator": "A Systematic Approach to Interactive Visualization; Controlling Time; Abstracting Over Time; Stepping Back Down",
+          "checked_at": "2026-11-07"
+        }
+      ],
+      "versions": [
+        {
+          "modified_local": "2026-11-02T06:59:23",
+          "content_sha256": "d62cd6d10ee81777d89206c49e26ce1772a31c86f7a88e23e6db86a1dc6e88a6",
+          "post_url": "https://stream.syscoi.com/2026/11/02/up-and-down-the-ladder-of-abstraction/",
+          "original_urls": [
+            "https://worrydream.com/LadderOfAbstraction/?utm_source=chatgpt.com"
+          ],
+          "observed_at": "2026-11-07"
+        },
+        {
+          "modified_local": "2026-11-09T16:47:13",
+          "content_sha256": "1dfbb950b43e0d134e2f30c005e768ef14d4d594b7b1e0c329283491b5bb9564",
+          "post_url": "https://stream.syscoi.com/2026/11/02/up-and-down-the-ladder-of-abstraction/",
+          "original_urls": [
+            "https://worrydream.com/LadderOfAbstraction/"
+          ],
+          "observed_at": "2026-11-09"
+        }
+      ]
+    },
+    {
       "post_id": 29398,
       "post_url": "https://stream.syscoi.com/2026/10/28/chaos-to-coordination-vibrating-material-organises-itself-into-a-single-rhythm-university-of-birmingham/",
       "title": "Chaos to coordination: vibrating material organises itself into a single rhythm – University of Birmingham (2026)",
@@ -182,50 +185,53 @@
       ]
     },
     {
-      "post_id": 29411,
-      "post_url": "https://stream.syscoi.com/2026/11/02/up-and-down-the-ladder-of-abstraction/",
-      "title": "Up and Down the Ladder of Abstraction: A Systematic Approach to Interactive Visualization – Victor (2011)",
+      "post_id": 29420,
+      "post_url": "https://stream.syscoi.com/2026/11/02/discovering-network-resilience-formulas-with-symbolized-reinforcement-learning/",
+      "title": "Discovering network resilience formulas with symbolized reinforcement learning – Zheng et al. (2026)",
       "status": "publish",
       "password_protected": false,
-      "published_gmt": "2026-11-02T11:59:23Z",
-      "modified_local": "2026-11-09T16:47:13",
-      "content_sha256": "1dfbb950b43e0d134e2f30c005e768ef14d4d594b7b1e0c329283491b5bb9564",
+      "published_gmt": "2026-11-02T12:10:56Z",
+      "modified_local": "2026-11-09T16:48:39",
+      "content_sha256": "0704b4d7dceb8fb5880e6d535e83feeac0fb397d1963fc46f5b57374b419cf09",
       "author_id": 1379014,
       "author_name": "Benjamin P Taylor",
-      "primary_url": "https://worrydream.com/LadderOfAbstraction/",
+      "primary_url": "https://www.nature.com/articles/s41467-026-78269-3",
       "original_urls": [
-        "https://worrydream.com/LadderOfAbstraction/?utm_source=chatgpt.com",
-        "https://worrydream.com/LadderOfAbstraction/"
+        "https://www.nature.com/articles/s41467-026-78269-3"
       ],
       "canonical_aliases": [],
       "source_authors": [
-        "Bret Victor"
+        "Yu Zheng",
+        "Jingtao Ding",
+        "Depeng Jin",
+        "Jianxi Gao",
+        "Yong Li"
       ],
-      "description": "Bret Victor’s October 2011 interactive essay uses a simple car-control simulation to show how designers can move between a particular run and broader views of possible behaviour. Time and steering parameters can be varied; trajectories expose patterns that are difficult to see during real-time playback. Moving back to a concrete case tests what an abstract picture hides. The essay offers a practical approach to exploring a system when theory is insufficient to predict the consequences of design decisions.",
+      "description": "Yu Zheng and colleagues report a method that turns learned network-attack strategies into interpretable formulas for assessing resilience. Their account considers both network structure and the dynamical states imposed on it, including the association between node degree and state. The method aims to identify components whose removal can cause a network to fail. The Nature Communications abstract is the basis of this description: the reported performance improvements belong to the authors’ evaluated settings, and do not establish a general measure for every social or organisational use of resilience.",
       "description_status": "source_scoped_summary",
       "description_sources": [
         {
-          "url": "https://worrydream.com/LadderOfAbstraction/",
-          "locator": "A Systematic Approach to Interactive Visualization; Controlling Time; Abstracting Over Time; Stepping Back Down",
+          "url": "https://www.nature.com/articles/s41467-026-78269-3",
+          "locator": "Abstract; authors; early-access publication statement, 19 October 2026",
           "checked_at": "2026-11-07"
         }
       ],
       "versions": [
         {
-          "modified_local": "2026-11-02T06:59:23",
-          "content_sha256": "d62cd6d10ee81777d89206c49e26ce1772a31c86f7a88e23e6db86a1dc6e88a6",
-          "post_url": "https://stream.syscoi.com/2026/11/02/up-and-down-the-ladder-of-abstraction/",
+          "modified_local": "2026-11-02T07:10:56",
+          "content_sha256": "0704b4d7dceb8fb5880e6d535e83feeac0fb397d1963fc46f5b57374b419cf09",
+          "post_url": "https://stream.syscoi.com/2026/11/02/discovering-network-resilience-formulas-with-symbolized-reinforcement-learning/",
           "original_urls": [
-            "https://worrydream.com/LadderOfAbstraction/?utm_source=chatgpt.com"
+            "https://www.nature.com/articles/s41467-026-78269-3"
           ],
           "observed_at": "2026-11-07"
         },
         {
-          "modified_local": "2026-11-09T16:47:13",
-          "content_sha256": "1dfbb950b43e0d134e2f30c005e768ef14d4d594b7b1e0c329283491b5bb9564",
-          "post_url": "https://stream.syscoi.com/2026/11/02/up-and-down-the-ladder-of-abstraction/",
+          "modified_local": "2026-11-09T16:48:39",
+          "content_sha256": "0704b4d7dceb8fb5880e6d535e83feeac0fb397d1963fc46f5b57374b419cf09",
+          "post_url": "https://stream.syscoi.com/2026/11/02/discovering-network-resilience-formulas-with-symbolized-reinforcement-learning/",
           "original_urls": [
-            "https://worrydream.com/LadderOfAbstraction/"
+            "https://www.nature.com/articles/s41467-026-78269-3"
           ],
           "observed_at": "2026-11-09"
         }
@@ -281,59 +287,6 @@
           "post_url": "https://stream.syscoi.com/2026/11/02/second-law-studio-the-right-to-stop/",
           "original_urls": [
             "https://www.secondlaw.studio/#publications"
-          ],
-          "observed_at": "2026-11-09"
-        }
-      ]
-    },
-    {
-      "post_id": 29420,
-      "post_url": "https://stream.syscoi.com/2026/11/02/discovering-network-resilience-formulas-with-symbolized-reinforcement-learning/",
-      "title": "Discovering network resilience formulas with symbolized reinforcement learning – Zheng et al. (2026)",
-      "status": "publish",
-      "password_protected": false,
-      "published_gmt": "2026-11-02T12:10:56Z",
-      "modified_local": "2026-11-09T16:48:39",
-      "content_sha256": "0704b4d7dceb8fb5880e6d535e83feeac0fb397d1963fc46f5b57374b419cf09",
-      "author_id": 1379014,
-      "author_name": "Benjamin P Taylor",
-      "primary_url": "https://www.nature.com/articles/s41467-026-78269-3",
-      "original_urls": [
-        "https://www.nature.com/articles/s41467-026-78269-3"
-      ],
-      "canonical_aliases": [],
-      "source_authors": [
-        "Yu Zheng",
-        "Jingtao Ding",
-        "Depeng Jin",
-        "Jianxi Gao",
-        "Yong Li"
-      ],
-      "description": "Yu Zheng and colleagues report a method that turns learned network-attack strategies into interpretable formulas for assessing resilience. Their account considers both network structure and the dynamical states imposed on it, including the association between node degree and state. The method aims to identify components whose removal can cause a network to fail. The Nature Communications abstract is the basis of this description: the reported performance improvements belong to the authors’ evaluated settings, and do not establish a general measure for every social or organisational use of resilience.",
-      "description_status": "source_scoped_summary",
-      "description_sources": [
-        {
-          "url": "https://www.nature.com/articles/s41467-026-78269-3",
-          "locator": "Abstract; authors; early-access publication statement, 19 October 2026",
-          "checked_at": "2026-11-07"
-        }
-      ],
-      "versions": [
-        {
-          "modified_local": "2026-11-02T07:10:56",
-          "content_sha256": "0704b4d7dceb8fb5880e6d535e83feeac0fb397d1963fc46f5b57374b419cf09",
-          "post_url": "https://stream.syscoi.com/2026/11/02/discovering-network-resilience-formulas-with-symbolized-reinforcement-learning/",
-          "original_urls": [
-            "https://www.nature.com/articles/s41467-026-78269-3"
-          ],
-          "observed_at": "2026-11-07"
-        },
-        {
-          "modified_local": "2026-11-09T16:48:39",
-          "content_sha256": "0704b4d7dceb8fb5880e6d535e83feeac0fb397d1963fc46f5b57374b419cf09",
-          "post_url": "https://stream.syscoi.com/2026/11/02/discovering-network-resilience-formulas-with-symbolized-reinforcement-learning/",
-          "original_urls": [
-            "https://www.nature.com/articles/s41467-026-78269-3"
           ],
           "observed_at": "2026-11-09"
         }
@@ -630,84 +583,6 @@
       ]
     },
     {
-      "post_id": 29469,
-      "post_url": "https://stream.syscoi.com/2026/11/11/riffs-and-rotes-overview/",
-      "title": "Riffs and Rotes • Overview",
-      "status": "publish",
-      "password_protected": false,
-      "published_gmt": "2026-11-11T22:18:06Z",
-      "modified_local": "2026-11-14T11:02:52",
-      "content_sha256": "d5b12944da4374351ea9dab0ba7464c7caa4bb93eb3a02945257cb6cb3331dae",
-      "author_id": 10781160,
-      "author_name": "Jon Awbrey",
-      "primary_url": "https://oeis.org/wiki/Riffs_and_Rotes",
-      "original_urls": [
-        "https://oeis.org/wiki/Riffs_and_Rotes",
-        "https://mathstodon.xyz/@Inquiry/113765962017439989",
-        "https://www.researchgate.net/post/Riffs_and_Rotes_Overview",
-        "https://inquiryintoinquiry.com/2025/01/01/riffs-and-rotes-happy-new-year-2025/"
-      ],
-      "canonical_aliases": [],
-      "source_authors": [
-        "Jon Awbrey"
-      ],
-      "description": "Jon Awbrey's public SysCoI overview introduces 'Riffs' and 'Rotes' as directed and undirected graph representations of doubly recursive prime factorizations. Using the integer 2025 as an example, the post describes expansion by prime indices to generate a distinctive combinatorial structure. Its explanation says it was adapted from a Google AI Overview; the underlying OEIS wiki returned HTTP 403 in this source check, so the mathematical exposition has not been independently checked here.",
-      "description_status": "source_scoped_summary",
-      "description_sources": [
-        {
-          "url": "https://stream.syscoi.com/2026/11/11/riffs-and-rotes-overview/",
-          "locator": "Jon Awbrey's post, Core Concept, example 2025, Resources and attribution note",
-          "checked_at": "2026-11-12"
-        },
-        {
-          "url": "https://oeis.org/wiki/Riffs_and_Rotes",
-          "locator": "Linked primary resource; HTTP 403 during direct check",
-          "checked_at": "2026-11-12"
-        },
-        {
-          "url": "https://stream.syscoi.com/2026/11/11/riffs-and-rotes-overview/",
-          "locator": "14 November 2026 public revision; worked 2025 factorisation example, diagram and Resources list",
-          "checked_at": "2026-11-14"
-        }
-      ],
-      "versions": [
-        {
-          "modified_local": "2026-11-11T17:24:16",
-          "content_sha256": "4c02b55215adff47e278a753d6631279787ab80cbd5fa587155c763395577d7c",
-          "observed_at": "2026-11-12",
-          "post_url": "https://stream.syscoi.com/2026/11/11/riffs-and-rotes-overview/",
-          "original_urls": [
-            "https://oeis.org/wiki/Riffs_and_Rotes",
-            "https://mathstodon.xyz/@Inquiry/113765962017439989",
-            "https://www.researchgate.net/post/Riffs_and_Rotes_Overview"
-          ]
-        },
-        {
-          "modified_local": "2026-11-12T06:50:17",
-          "content_sha256": "6f086110e21c40f9b7370fdb375d9a48073d44318ca6830a35cf635dc3f457ed",
-          "observed_at": "2026-11-12",
-          "post_url": "https://stream.syscoi.com/2026/11/11/riffs-and-rotes-overview/",
-          "original_urls": [
-            "https://oeis.org/wiki/Riffs_and_Rotes",
-            "https://mathstodon.xyz/@Inquiry/113765962017439989",
-            "https://www.researchgate.net/post/Riffs_and_Rotes_Overview"
-          ]
-        },
-        {
-          "modified_local": "2026-11-14T11:02:52",
-          "content_sha256": "d5b12944da4374351ea9dab0ba7464c7caa4bb93eb3a02945257cb6cb3331dae",
-          "observed_at": "2026-11-14T18:09:00.580Z",
-          "post_url": "https://stream.syscoi.com/2026/11/11/riffs-and-rotes-overview/",
-          "original_urls": [
-            "https://oeis.org/wiki/Riffs_and_Rotes",
-            "https://mathstodon.xyz/@Inquiry/113765962017439989",
-            "https://www.researchgate.net/post/Riffs_and_Rotes_Overview",
-            "https://inquiryintoinquiry.com/2025/01/01/riffs-and-rotes-happy-new-year-2025/"
-          ]
-        }
-      ]
-    },
-    {
       "post_id": 29478,
       "post_url": "https://stream.syscoi.com/2026/11/12/scio-uk-virtual-open-meeting/",
       "title": "SCiO UK Virtual Open Meeting",
@@ -909,6 +784,84 @@
       ]
     },
     {
+      "post_id": 29469,
+      "post_url": "https://stream.syscoi.com/2026/11/11/riffs-and-rotes-overview/",
+      "title": "Riffs and Rotes • Overview",
+      "status": "publish",
+      "password_protected": false,
+      "published_gmt": "2026-11-11T22:18:06Z",
+      "modified_local": "2026-11-14T11:02:52",
+      "content_sha256": "d5b12944da4374351ea9dab0ba7464c7caa4bb93eb3a02945257cb6cb3331dae",
+      "author_id": 10781160,
+      "author_name": "Jon Awbrey",
+      "primary_url": "https://oeis.org/wiki/Riffs_and_Rotes",
+      "original_urls": [
+        "https://oeis.org/wiki/Riffs_and_Rotes",
+        "https://mathstodon.xyz/@Inquiry/113765962017439989",
+        "https://www.researchgate.net/post/Riffs_and_Rotes_Overview",
+        "https://inquiryintoinquiry.com/2025/01/01/riffs-and-rotes-happy-new-year-2025/"
+      ],
+      "canonical_aliases": [],
+      "source_authors": [
+        "Jon Awbrey"
+      ],
+      "description": "Jon Awbrey's public SysCoI overview introduces 'Riffs' and 'Rotes' as directed and undirected graph representations of doubly recursive prime factorizations. Using the integer 2025 as an example, the post describes expansion by prime indices to generate a distinctive combinatorial structure. Its explanation says it was adapted from a Google AI Overview; the underlying OEIS wiki returned HTTP 403 in this source check, so the mathematical exposition has not been independently checked here.",
+      "description_status": "source_scoped_summary",
+      "description_sources": [
+        {
+          "url": "https://stream.syscoi.com/2026/11/11/riffs-and-rotes-overview/",
+          "locator": "Jon Awbrey's post, Core Concept, example 2025, Resources and attribution note",
+          "checked_at": "2026-11-12"
+        },
+        {
+          "url": "https://oeis.org/wiki/Riffs_and_Rotes",
+          "locator": "Linked primary resource; HTTP 403 during direct check",
+          "checked_at": "2026-11-12"
+        },
+        {
+          "url": "https://stream.syscoi.com/2026/11/11/riffs-and-rotes-overview/",
+          "locator": "14 November 2026 public revision; worked 2025 factorisation example, diagram and Resources list",
+          "checked_at": "2026-11-14"
+        }
+      ],
+      "versions": [
+        {
+          "modified_local": "2026-11-11T17:24:16",
+          "content_sha256": "4c02b55215adff47e278a753d6631279787ab80cbd5fa587155c763395577d7c",
+          "observed_at": "2026-11-12",
+          "post_url": "https://stream.syscoi.com/2026/11/11/riffs-and-rotes-overview/",
+          "original_urls": [
+            "https://oeis.org/wiki/Riffs_and_Rotes",
+            "https://mathstodon.xyz/@Inquiry/113765962017439989",
+            "https://www.researchgate.net/post/Riffs_and_Rotes_Overview"
+          ]
+        },
+        {
+          "modified_local": "2026-11-12T06:50:17",
+          "content_sha256": "6f086110e21c40f9b7370fdb375d9a48073d44318ca6830a35cf635dc3f457ed",
+          "observed_at": "2026-11-12",
+          "post_url": "https://stream.syscoi.com/2026/11/11/riffs-and-rotes-overview/",
+          "original_urls": [
+            "https://oeis.org/wiki/Riffs_and_Rotes",
+            "https://mathstodon.xyz/@Inquiry/113765962017439989",
+            "https://www.researchgate.net/post/Riffs_and_Rotes_Overview"
+          ]
+        },
+        {
+          "modified_local": "2026-11-14T11:02:52",
+          "content_sha256": "d5b12944da4374351ea9dab0ba7464c7caa4bb93eb3a02945257cb6cb3331dae",
+          "observed_at": "2026-11-14T18:09:00.580Z",
+          "post_url": "https://stream.syscoi.com/2026/11/11/riffs-and-rotes-overview/",
+          "original_urls": [
+            "https://oeis.org/wiki/Riffs_and_Rotes",
+            "https://mathstodon.xyz/@Inquiry/113765962017439989",
+            "https://www.researchgate.net/post/Riffs_and_Rotes_Overview",
+            "https://inquiryintoinquiry.com/2025/01/01/riffs-and-rotes-happy-new-year-2025/"
+          ]
+        }
+      ]
+    },
+    {
       "post_id": 29430,
       "post_url": "https://stream.syscoi.com/2026/11/15/from-implicit-to-intentional-advancing-equity-in-human-learning-systems-winston-et-al-2025/",
       "title": "From implicit to intentional: advancing equity in Human Learning Systems – Winston et al. (2025)",
@@ -1056,6 +1009,53 @@
             "https://dergipark.org.tr/en/pub/ier/article/748128",
             "https://doi.org/10.33818/ier.748128",
             "https://www.ead.org.tr/makaleler/211219.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "post_id": 29126,
+      "post_url": "https://stream.syscoi.com/2026/10/08/warren-mcculloch-chairman-sic-of-the-macy-conferences-on-cybernetics-in-a-letter-to-the-cybernetics-group-before-the-tenth-and-final-conference-1953-discovered-and-shared-by-sean-manion/",
+      "title": "Warren McCulloch, chairman [sic] of the Macy Conferences on Cybernetics, in a letter to the cybernetics group before the tenth and final conference, 1953. Discovered and shared by Sean Manion.",
+      "status": "publish",
+      "password_protected": false,
+      "published_gmt": "2026-10-08T18:48:53Z",
+      "modified_local": "2026-11-15T09:34:57",
+      "content_sha256": "aaca240727df61b301f5a3ced7aaae20431e04fc00a9065eeb33eaadbac43134",
+      "author_id": 1379014,
+      "author_name": "Benjamin P Taylor",
+      "primary_url": "https://x.com/TheUnjournaling/status/2121843069234577814",
+      "original_urls": [
+        "https://x.com/TheUnjournaling/status/2121843069234577814",
+        "https://x.com/TheUnjournaling/status/2108201351717044689/photo/3"
+      ],
+      "canonical_aliases": [],
+      "source_authors": [
+        "Warren S. McCulloch"
+      ],
+      "description": "Warren S. McCulloch's 1953 letter to the cybernetics group, ahead of the tenth and final Macy Conference, reviews the group's attempts to develop shared understanding across fields. It moves from feedback and purposive behaviour to communication, information, logic, and the limits of agreement. The public SysCoI post was substantively expanded on 15 November 2026: scans shared by Sean Manion now support a reading transcription of all 13 manuscript pages rather than the earlier three-page excerpt. The transcriber explains how handwritten changes, gaps, historical spelling, and ambiguous revisions have been handled. This is a reading transcription, not a diplomatic edition; historical scientific and medical statements are McCulloch's, not independently verified contemporary findings.",
+      "description_status": "source_scoped_summary",
+      "description_sources": [
+        {
+          "url": "https://stream.syscoi.com/2026/10/08/warren-mcculloch-chairman-sic-of-the-macy-conferences-on-cybernetics-in-a-letter-to-the-cybernetics-group-before-the-tenth-and-final-conference-1953-discovered-and-shared-by-sean-manion/",
+          "locator": "15 November 2026 update; editorial transcription notes; pages 1–13, particularly pages 1–4 and 13",
+          "checked_at": "2026-11-15"
+        },
+        {
+          "url": "https://x.com/TheUnjournaling/status/2121843069234577814",
+          "locator": "Source identified and credited in the public SysCoI post; external X image retrieval unavailable in this execution",
+          "checked_at": "2026-11-15"
+        }
+      ],
+      "versions": [
+        {
+          "modified_local": "2026-11-15T09:34:57",
+          "content_sha256": "aaca240727df61b301f5a3ced7aaae20431e04fc00a9065eeb33eaadbac43134",
+          "observed_at": "2026-11-15T14:53:18.253Z",
+          "post_url": "https://stream.syscoi.com/2026/10/08/warren-mcculloch-chairman-sic-of-the-macy-conferences-on-cybernetics-in-a-letter-to-the-cybernetics-group-before-the-tenth-and-final-conference-1953-discovered-and-shared-by-sean-manion/",
+          "original_urls": [
+            "https://x.com/TheUnjournaling/status/2121843069234577814",
+            "https://x.com/TheUnjournaling/status/2108201351717044689/photo/3"
           ]
         }
       ]
@@ -1332,6 +1332,56 @@
             "https://www.researchgate.net/profile/Fred-Amonya-2/publication/416394569_Towards_Meta-Renormalisation_The_Social_Basic/links/6ad72d3521cbf015d29fd522/Towards-Meta-Renormalisation-The-Social-Basic.pdf",
             "https://www.researchgate.net/publication/416394569_Towards_Meta-Renormalisation_The_Social_Basic",
             "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7640258"
+          ]
+        }
+      ]
+    },
+    {
+      "post_id": 29520,
+      "post_url": "https://stream.syscoi.com/2026/11/16/teaching-meaning-moore-anderson-with-raghavan-2026/",
+      "title": "Teaching Meaning – Moore-Anderson with Raghavan (2026)",
+      "status": "publish",
+      "password_protected": false,
+      "published_gmt": "2026-11-16T15:51:07Z",
+      "modified_local": "2026-11-16T10:51:07",
+      "content_sha256": "541ec5275647f61e0ac5b334f1f8a199415bfceef8c4f7457cf6afe2edc5ab70",
+      "author_id": 1379014,
+      "author_name": "Benjamin P Taylor",
+      "primary_url": "https://www.cyb3rsyn.com/p/teaching-meaning-christian-moore-anderson",
+      "original_urls": [
+        "https://www.youtube.com/watch?v=1hevoAfoWyU",
+        "https://www.cyb3rsyn.com/p/teaching-meaning-christian-moore-anderson"
+      ],
+      "canonical_aliases": [
+        "https://youtu.be/1hevoAfoWyU"
+      ],
+      "source_authors": [
+        "Christian Moore-Anderson",
+        "Laksh Raghavan"
+      ],
+      "description": "In Cyb3rSyn Labs Podcast episode 43, secondary biology teacher and author Christian Moore-Anderson speaks with host Laksh Raghavan about teaching as the development of meaning through activity, conversation and feedback, drawing on second-order cybernetics and enactivism. Raghavan's introduction of 26 July 2026 contrasts this approach with presenting knowledge as information to be transmitted and stored, and describes learning as reciprocal adjustment rather than simple delivery. The public introduction and podcast link were verified; the remainder of Raghavan's newsletter account requires a subscription. The SysCoI post also flags Moore-Anderson's 16 November appearance at a SCiO UK virtual meeting with Sean Manion; that event is context, not the identity of this podcast resource.",
+      "description_status": "source_scoped_summary",
+      "description_sources": [
+        {
+          "url": "https://www.cyb3rsyn.com/p/teaching-meaning-christian-moore-anderson",
+          "locator": "Public header, episode 43 introduction and host's reflection, 26 July 2026; remainder behind subscriber gate",
+          "checked_at": "2026-11-16"
+        },
+        {
+          "url": "https://stream.syscoi.com/2026/11/16/teaching-meaning-moore-anderson-with-raghavan-2026/",
+          "locator": "Public SysCoI introductory paragraph, YouTube embed and associated 16 November SCiO event notice",
+          "checked_at": "2026-11-16"
+        }
+      ],
+      "versions": [
+        {
+          "modified_local": "2026-11-16T10:51:07",
+          "content_sha256": "541ec5275647f61e0ac5b334f1f8a199415bfceef8c4f7457cf6afe2edc5ab70",
+          "observed_at": "2026-11-16T17:39:40Z",
+          "post_url": "https://stream.syscoi.com/2026/11/16/teaching-meaning-moore-anderson-with-raghavan-2026/",
+          "original_urls": [
+            "https://www.youtube.com/watch?v=1hevoAfoWyU",
+            "https://www.cyb3rsyn.com/p/teaching-meaning-christian-moore-anderson"
           ]
         }
       ]
