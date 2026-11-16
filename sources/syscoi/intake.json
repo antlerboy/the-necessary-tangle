@@ -1284,6 +1284,57 @@
           ]
         }
       ]
+    },
+    {
+      "post_id": 29516,
+      "post_url": "https://stream.syscoi.com/2026/11/16/towards-meta-renormalisation-the-social-basic-amonya-2026/",
+      "title": "Towards Meta-Renormalisation: The Social Basic – Amonya (2026)",
+      "status": "publish",
+      "password_protected": false,
+      "published_gmt": "2026-11-16T13:42:04Z",
+      "modified_local": "2026-11-16T08:42:04",
+      "content_sha256": "08370fc731726dec94fc5443b3d9f0065903ef135c15ee5d52f9c494300fde5f",
+      "author_id": 1379014,
+      "author_name": "Benjamin P Taylor",
+      "primary_url": "https://www.researchgate.net/publication/416394569_Towards_Meta-Renormalisation_The_Social_Basic",
+      "original_urls": [
+        "https://www.researchgate.net/profile/Fred-Amonya-2/publication/416394569_Towards_Meta-Renormalisation_The_Social_Basic/links/6ad72d3521cbf015d29fd522/Towards-Meta-Renormalisation-The-Social-Basic.pdf",
+        "https://www.researchgate.net/publication/416394569_Towards_Meta-Renormalisation_The_Social_Basic",
+        "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7640258"
+      ],
+      "canonical_aliases": [
+        "https://doi.org/10.13140/RG.2.2.10045.01762"
+      ],
+      "source_authors": [
+        "FD Amonya"
+      ],
+      "description": "FD Amonya's October 2026 nine-page preprint asks when effective descriptions of social processes remain adequate across scales once people adapt within, and alter, the conditions of future adaptation. It proposes the relationally constituted 'Social Basic' and a formal exact/approximate coarse-grained closure criterion, while distinguishing participants' operative representations from analysts' models. The public SysCoI commentary explains the mathematical test and its possible second-order cybernetic relevance, but notes that empirical scale transformations, measures, tolerances and universality results have not yet been demonstrated. The original paper's ResearchGate and SSRN reading routes were not independently accessible during this intake.",
+      "description_status": "source_scoped_summary",
+      "description_sources": [
+        {
+          "url": "https://stream.syscoi.com/2026/11/16/towards-meta-renormalisation-the-social-basic-amonya-2026/",
+          "locator": "Public SysCoI commentary, 'The paper' and related-reading sections; equations (6)-(8) and discussion of missing validation",
+          "checked_at": "2026-11-16"
+        },
+        {
+          "url": "https://www.researchgate.net/publication/416394569_Towards_Meta-Renormalisation_The_Social_Basic",
+          "locator": "Bibliographic source and full-text route linked by public SysCoI post; upstream reading could not be independently verified",
+          "checked_at": "2026-11-16"
+        }
+      ],
+      "versions": [
+        {
+          "modified_local": "2026-11-16T08:42:04",
+          "content_sha256": "08370fc731726dec94fc5443b3d9f0065903ef135c15ee5d52f9c494300fde5f",
+          "observed_at": "2026-11-16T15:24:36.698Z",
+          "post_url": "https://stream.syscoi.com/2026/11/16/towards-meta-renormalisation-the-social-basic-amonya-2026/",
+          "original_urls": [
+            "https://www.researchgate.net/profile/Fred-Amonya-2/publication/416394569_Towards_Meta-Renormalisation_The_Social_Basic/links/6ad72d3521cbf015d29fd522/Towards-Meta-Renormalisation-The-Social-Basic.pdf",
+            "https://www.researchgate.net/publication/416394569_Towards_Meta-Renormalisation_The_Social_Basic",
+            "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7640258"
+          ]
+        }
+      ]
     }
   ]
 }
