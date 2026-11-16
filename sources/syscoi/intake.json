@@ -1067,23 +1067,24 @@
       "status": "publish",
       "password_protected": false,
       "published_gmt": "2026-11-15T21:36:21Z",
-      "modified_local": "2026-11-15T16:42:15",
-      "content_sha256": "ae719822e9518c9afc00d8b2b0d1ea7a7a90569118a62752027f7ac874a05429",
+      "modified_local": "2026-11-16T02:56:43",
+      "content_sha256": "e1eeca71634a511f72c933385556d94d300cd8aeef0c8321c253d17e81b54b72",
       "author_id": 10781160,
       "author_name": "Jon Awbrey",
       "primary_url": "https://oeis.org/wiki/Riffs_and_Rotes",
       "original_urls": [
         "https://inquiryintoinquiry.wordpress.com/wp-content/uploads/2026/11/integer-factorization-finite-partial-function-2.0.png",
         "https://oeis.org/wiki/Riffs_and_Rotes",
-        "https://www.academia.edu/community/VBRXgW",
+        "https://www.academia.edu/community/LZpQgJ",
         "https://groups.google.com/g/cybcom/c/xWcne8BmXk4",
         "https://groups.io/g/lawsofform/topic/riffs_and_rotes_finite/122282728",
         "https://mathstodon.xyz/@Inquiry/117620705204765342",
         "https://mathstodon.xyz/@Inquiry/117620756146346757",
         "https://groups.google.com/g/seqfan/c/8KVNpH6ay6k",
-        "https://www.researchgate.net/post/Riffs_and_Rotes_Overview",
+        "https://www.researchgate.net/post/Riffs_and_Rotes_Finite_Partial_Functions_Overview",
         "https://groups.google.com/g/structural-modeling/c/2FPrTPfzncA",
-        "https://groups.google.com/g/syssciwg/c/pQMm26iW6Jw"
+        "https://groups.google.com/g/syssciwg/c/pQMm26iW6Jw",
+        "https://stream.syscoi.com/2026/11/15/riffs-and-rotes-finite-partial-functions-overview/"
       ],
       "canonical_aliases": [],
       "source_authors": [
@@ -1121,6 +1122,165 @@
             "https://www.researchgate.net/post/Riffs_and_Rotes_Overview",
             "https://groups.google.com/g/structural-modeling/c/2FPrTPfzncA",
             "https://groups.google.com/g/syssciwg/c/pQMm26iW6Jw"
+          ]
+        },
+        {
+          "modified_local": "2026-11-16T02:56:43",
+          "content_sha256": "e1eeca71634a511f72c933385556d94d300cd8aeef0c8321c253d17e81b54b72",
+          "observed_at": "2026-11-16T11:40:01.323Z",
+          "post_url": "https://stream.syscoi.com/2026/11/15/riffs-and-rotes-finite-partial-functions-overview/",
+          "original_urls": [
+            "https://inquiryintoinquiry.wordpress.com/wp-content/uploads/2026/11/integer-factorization-finite-partial-function-2.0.png",
+            "https://oeis.org/wiki/Riffs_and_Rotes",
+            "https://www.academia.edu/community/LZpQgJ",
+            "https://groups.google.com/g/cybcom/c/xWcne8BmXk4",
+            "https://groups.io/g/lawsofform/topic/riffs_and_rotes_finite/122282728",
+            "https://mathstodon.xyz/@Inquiry/117620705204765342",
+            "https://mathstodon.xyz/@Inquiry/117620756146346757",
+            "https://groups.google.com/g/seqfan/c/8KVNpH6ay6k",
+            "https://www.researchgate.net/post/Riffs_and_Rotes_Finite_Partial_Functions_Overview",
+            "https://groups.google.com/g/structural-modeling/c/2FPrTPfzncA",
+            "https://groups.google.com/g/syssciwg/c/pQMm26iW6Jw",
+            "https://stream.syscoi.com/2026/11/15/riffs-and-rotes-finite-partial-functions-overview/"
+          ]
+        }
+      ]
+    },
+    {
+      "post_id": 29434,
+      "post_url": "https://stream.syscoi.com/2026/11/16/facing-complexity-prediction-vs-adaptation-gershenson-2011/",
+      "title": "Facing Complexity: Prediction vs. Adaptation – Gershenson (2011)",
+      "status": "publish",
+      "password_protected": false,
+      "published_gmt": "2026-11-16T09:58:05Z",
+      "modified_local": "2026-11-16T04:58:05",
+      "content_sha256": "91fcbab6084709e98c15325a6791398be0fd787287f1617b54931893a1fb8978",
+      "author_id": 1379014,
+      "author_name": "Benjamin P Taylor",
+      "primary_url": "https://arxiv.org/abs/1112.3843",
+      "original_urls": [
+        "https://arxiv.org/abs/1112.3843"
+      ],
+      "canonical_aliases": [
+        "https://doi.org/10.48550/arXiv.1112.3843"
+      ],
+      "source_authors": [
+        "Carlos Gershenson"
+      ],
+      "description": "Carlos Gershenson's 2011 paper distinguishes optimising in sufficiently predictable problem spaces from adapting when environments are unpredictable or change rapidly. He argues that interventions can alter the problem they aim to solve, leaving previously optimised responses obsolete. This is his conceptual analysis, not a finding that forecasting or optimisation are always inappropriate.",
+      "description_status": "source_scoped_summary",
+      "description_sources": [
+        {
+          "url": "https://arxiv.org/abs/1112.3843",
+          "locator": "arXiv abstract, submission 16 December 2011; prediction, optimisation and adaptation argument",
+          "checked_at": "2026-11-16"
+        },
+        {
+          "url": "https://stream.syscoi.com/2026/11/16/facing-complexity-prediction-vs-adaptation-gershenson-2011/",
+          "locator": "Published SysCoI description and source link",
+          "checked_at": "2026-11-16"
+        }
+      ],
+      "versions": [
+        {
+          "modified_local": "2026-11-16T04:58:05",
+          "content_sha256": "91fcbab6084709e98c15325a6791398be0fd787287f1617b54931893a1fb8978",
+          "observed_at": "2026-11-16T11:40:01.323Z",
+          "post_url": "https://stream.syscoi.com/2026/11/16/facing-complexity-prediction-vs-adaptation-gershenson-2011/",
+          "original_urls": [
+            "https://arxiv.org/abs/1112.3843"
+          ]
+        }
+      ]
+    },
+    {
+      "post_id": 29435,
+      "post_url": "https://stream.syscoi.com/2026/11/16/toward-an-ontology-for-third-generation-systems-thinking-levenchuk-2023/",
+      "title": "Toward an Ontology for Third Generation Systems Thinking – Levenchuk (2023)",
+      "status": "publish",
+      "password_protected": false,
+      "published_gmt": "2026-11-16T09:58:11Z",
+      "modified_local": "2026-11-16T04:58:11",
+      "content_sha256": "cc1da528e20dbb677f2a49d1694cddce9a9870aa2ea44b8f4f0b9dea3820c9d1",
+      "author_id": 1379014,
+      "author_name": "Benjamin P Taylor",
+      "primary_url": "https://arxiv.org/abs/2310.11524",
+      "original_urls": [
+        "https://arxiv.org/abs/2310.11524"
+      ],
+      "canonical_aliases": [
+        "https://doi.org/10.48550/arXiv.2310.11524"
+      ],
+      "source_authors": [
+        "Anatoly Levenchuk"
+      ],
+      "description": "Anatoly Levenchuk's 2023 preprint describes systems thinking in terms of multilevel, nested systems, their interactions and the boundaries that distinguish them from an environment. He discusses the evolution of systems thinking and requirements for an ontology of what he calls its third generation. The generational characterisation is the author's proposal, not an established consensus.",
+      "description_status": "source_scoped_summary",
+      "description_sources": [
+        {
+          "url": "https://arxiv.org/abs/2310.11524",
+          "locator": "arXiv abstract, author and submission history, 17 October 2023",
+          "checked_at": "2026-11-16"
+        },
+        {
+          "url": "https://stream.syscoi.com/2026/11/16/toward-an-ontology-for-third-generation-systems-thinking-levenchuk-2023/",
+          "locator": "Published SysCoI abstract and source link",
+          "checked_at": "2026-11-16"
+        }
+      ],
+      "versions": [
+        {
+          "modified_local": "2026-11-16T04:58:11",
+          "content_sha256": "cc1da528e20dbb677f2a49d1694cddce9a9870aa2ea44b8f4f0b9dea3820c9d1",
+          "observed_at": "2026-11-16T11:40:01.323Z",
+          "post_url": "https://stream.syscoi.com/2026/11/16/toward-an-ontology-for-third-generation-systems-thinking-levenchuk-2023/",
+          "original_urls": [
+            "https://arxiv.org/abs/2310.11524"
+          ]
+        }
+      ]
+    },
+    {
+      "post_id": 29461,
+      "post_url": "https://stream.syscoi.com/2026/11/16/how-systems-transform-kania-2025/",
+      "title": "How systems transform – Kania (2025)",
+      "status": "publish",
+      "password_protected": false,
+      "published_gmt": "2026-11-16T09:58:17Z",
+      "modified_local": "2026-11-16T04:58:17",
+      "content_sha256": "949ed9ef2912b6d56a4c6d1f3ed6ff1a50a627f58c20e9ca0af93825a4a22e0f",
+      "author_id": 1379014,
+      "author_name": "Benjamin P Taylor",
+      "primary_url": "https://centreforexponentialchange.org/how-systems-transform/",
+      "original_urls": [
+        "https://centreforexponentialchange.org/how-systems-transform/"
+      ],
+      "canonical_aliases": [],
+      "source_authors": [
+        "John Kania"
+      ],
+      "description": "John Kania's essay for the Centre for Exponential Change (11 September 2025) sets out five practitioner beliefs about system transformation: structural changes alone are insufficient; relational healing matters; change is non-linear; bodily and psychological experience interact; and a wider account of social change is needed. The examples and claims represent the author's practitioner perspective and should not be read as independently established outcomes.",
+      "description_status": "source_scoped_summary",
+      "description_sources": [
+        {
+          "url": "https://centreforexponentialchange.org/how-systems-transform/",
+          "locator": "Essay header and five belief headings, 11 September 2025; structural, relational, trauma and non-linear change sections",
+          "checked_at": "2026-11-16"
+        },
+        {
+          "url": "https://stream.syscoi.com/2026/11/16/how-systems-transform-kania-2025/",
+          "locator": "Published SysCoI introduction and link",
+          "checked_at": "2026-11-16"
+        }
+      ],
+      "versions": [
+        {
+          "modified_local": "2026-11-16T04:58:17",
+          "content_sha256": "949ed9ef2912b6d56a4c6d1f3ed6ff1a50a627f58c20e9ca0af93825a4a22e0f",
+          "observed_at": "2026-11-16T11:40:01.323Z",
+          "post_url": "https://stream.syscoi.com/2026/11/16/how-systems-transform-kania-2025/",
+          "original_urls": [
+            "https://centreforexponentialchange.org/how-systems-transform/"
           ]
         }
       ]
