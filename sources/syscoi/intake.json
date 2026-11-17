@@ -1385,6 +1385,143 @@
           ]
         }
       ]
+    },
+    {
+      "post_id": 29522,
+      "post_url": "https://stream.syscoi.com/2026/11/17/proposed-scio-special-interest-group-systems-and-cybernetics-of-cybersecurity-hart-2026/",
+      "title": "Proposed SCiO Special Interest Group: Systems and Cybernetics of Cybersecurity – Hart (2026)",
+      "status": "publish",
+      "password_protected": false,
+      "published_gmt": "2026-11-17T08:08:48Z",
+      "modified_local": "2026-11-17T03:08:48",
+      "content_sha256": "c4d0e6142c89ac17a793c126545438cc338a164a9933fe4a2b899f0ad4b88575",
+      "author_id": 1379014,
+      "author_name": "Benjamin P Taylor",
+      "primary_url": "https://www.systemspractice.org/announcements/proposed-scio-special-interest-group-systems-and-cybernetics-cybersecurity",
+      "original_urls": [
+        "https://www.systemspractice.org/announcements/proposed-scio-special-interest-group-systems-and-cybernetics-cybersecurity"
+      ],
+      "canonical_aliases": [],
+      "source_authors": [
+        "Duncan Hart"
+      ],
+      "description": "Duncan Hart's 9 November SCiO announcement proposes a special interest group applying systems thinking and cybernetics to cybersecurity, including requisite variety, the Viable System Model, second-order observation, and governance. It invites security, systems, research and oversight practitioners to explore why controls may fail and how organisations sense threats. An initial informal online meeting is proposed, without a date. This is an invitation and an agenda for inquiry, not a report of proven results.",
+      "description_status": "source_scoped_summary",
+      "description_sources": [
+        {
+          "url": "https://www.systemspractice.org/announcements/proposed-scio-special-interest-group-systems-and-cybernetics-cybersecurity",
+          "locator": "Announcement, group questions, invitation, and proposed first meeting",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "versions": [
+        {
+          "modified_local": "2026-11-17T03:08:48",
+          "content_sha256": "c4d0e6142c89ac17a793c126545438cc338a164a9933fe4a2b899f0ad4b88575",
+          "observed_at": "2026-11-17T11:37:50.294Z",
+          "post_url": "https://stream.syscoi.com/2026/11/17/proposed-scio-special-interest-group-systems-and-cybernetics-of-cybersecurity-hart-2026/",
+          "original_urls": [
+            "https://www.systemspractice.org/announcements/proposed-scio-special-interest-group-systems-and-cybernetics-cybersecurity"
+          ]
+        }
+      ]
+    },
+    {
+      "post_id": 29523,
+      "post_url": "https://stream.syscoi.com/2026/11/17/neighbourhood-health-and-care-building-the-system-before-the-structure-42-the-systemic-review-2026/",
+      "title": "Neighbourhood Health and Care: Building the System Before the Structure – 42 The Systemic Review (2026)",
+      "status": "publish",
+      "password_protected": false,
+      "published_gmt": "2026-11-17T08:11:37Z",
+      "modified_local": "2026-11-17T03:11:37",
+      "content_sha256": "2df682e823737a84e27bb902bb3dab6955fc5c4deb724fa6313ae8fbd54f9624",
+      "author_id": 1379014,
+      "author_name": "Benjamin P Taylor",
+      "primary_url": "https://42systemicreview.org/papers/neighbourhood-health-and-care",
+      "original_urls": [
+        "https://42systemicreview.org/papers/neighbourhood-health-and-care",
+        "https://stream.syscoi.com/2026/10/13/42-the-systemic-review-a-publication-of-scio/"
+      ],
+      "canonical_aliases": [],
+      "source_authors": [
+        "42 The Systemic Review"
+      ],
+      "description": "The 1 September 2026 paper from 42 The Systemic Review, a SCiO publication, examines the shift to neighbourhood health and care in England and Wales using a systems framework, including the role of Directors of Public Health. The publisher's listing describes a framework-based assessment; SysCoI highlights whether relationships and service capabilities are being designed to work before organisational structures. Its direct full text was inaccessible in this check, so its interpretations and recommendations are not independently evaluated here.",
+      "description_status": "source_scoped_summary",
+      "description_sources": [
+        {
+          "url": "https://42systemicreview.org/",
+          "locator": "Latest Papers, paper 42-2026-009, 1 September 2026",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "url": "https://stream.syscoi.com/2026/11/17/neighbourhood-health-and-care-building-the-system-before-the-structure-42-the-systemic-review-2026/",
+          "locator": "SysCoI source summary and paper link",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "url": "https://42systemicreview.org/papers/neighbourhood-health-and-care",
+          "locator": "Direct paper URL checked; full-text retrieval unavailable",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "versions": [
+        {
+          "modified_local": "2026-11-17T03:11:37",
+          "content_sha256": "2df682e823737a84e27bb902bb3dab6955fc5c4deb724fa6313ae8fbd54f9624",
+          "observed_at": "2026-11-17T11:37:50.294Z",
+          "post_url": "https://stream.syscoi.com/2026/11/17/neighbourhood-health-and-care-building-the-system-before-the-structure-42-the-systemic-review-2026/",
+          "original_urls": [
+            "https://42systemicreview.org/papers/neighbourhood-health-and-care",
+            "https://stream.syscoi.com/2026/10/13/42-the-systemic-review-a-publication-of-scio/"
+          ]
+        }
+      ]
+    },
+    {
+      "post_id": 29524,
+      "post_url": "https://stream.syscoi.com/2026/11/17/a-good-regulator-theorem-for-embodied-agents-virgo-et-al-2025/",
+      "title": "A ‘Good Regulator Theorem’ for Embodied Agents – Virgo et al. (2025)",
+      "status": "publish",
+      "password_protected": false,
+      "published_gmt": "2026-11-17T08:13:09Z",
+      "modified_local": "2026-11-17T03:13:09",
+      "content_sha256": "3e34d2f1f694f653a5250b36219fdeef6ab04281ce9d01c5da00c865dc8cb595",
+      "author_id": 1379014,
+      "author_name": "Benjamin P Taylor",
+      "primary_url": "https://arxiv.org/html/2508.06326v2",
+      "original_urls": [
+        "https://arxiv.org/html/2508.06326v2",
+        "https://stream.syscoi.com/2023/02/22/fixing-the-good-regulator-theorem-johnswentworth/"
+      ],
+      "canonical_aliases": [],
+      "source_authors": [
+        "Nathaniel Virgo",
+        "Martin Biehl",
+        "Manuel Baltieri",
+        "Matteo Capucci"
+      ],
+      "description": "Nathaniel Virgo, Martin Biehl, Manuel Baltieri and Matteo Capucci revisit the Conant–Ashby good regulator theorem for embodied agents. Their formulation allows an observer to interpret successful regulation as belief updating about the environment: a model is attributed through an interpretation map rather than necessarily present as a literal internal representation. The model may be trivial, accommodating apparently model-free regulators. The formal treatment uses deterministic discrete-time systems, and does not establish that each effective regulator has a rich internal model.",
+      "description_status": "source_scoped_summary",
+      "description_sources": [
+        {
+          "url": "https://arxiv.org/html/2508.06326v2",
+          "locator": "Abstract, section 1 Introduction, and section 2 Coupled systems and regulation",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "versions": [
+        {
+          "modified_local": "2026-11-17T03:13:09",
+          "content_sha256": "3e34d2f1f694f653a5250b36219fdeef6ab04281ce9d01c5da00c865dc8cb595",
+          "observed_at": "2026-11-17T11:37:50.294Z",
+          "post_url": "https://stream.syscoi.com/2026/11/17/a-good-regulator-theorem-for-embodied-agents-virgo-et-al-2025/",
+          "original_urls": [
+            "https://arxiv.org/html/2508.06326v2",
+            "https://stream.syscoi.com/2023/02/22/fixing-the-good-regulator-theorem-johnswentworth/"
+          ]
+        }
+      ]
     }
   ]
 }
