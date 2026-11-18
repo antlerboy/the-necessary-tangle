@@ -1522,6 +1522,139 @@
           ]
         }
       ]
+    },
+    {
+      "post_id": 29529,
+      "post_url": "https://stream.syscoi.com/2026/11/18/critical-systems-thinking-nobody-has-the-full-picture-kemp-2026/",
+      "title": "Critical Systems Thinking – Nobody has the full picture – Kemp (2026)",
+      "status": "publish",
+      "password_protected": false,
+      "published_gmt": "2026-11-18T08:08:26Z",
+      "modified_local": "2026-11-18T03:08:26",
+      "content_sha256": "8fc215ec93bbf62fe89773e0ce8aa1d13e0310fd5b89b9c646a8ace0e856b7a2",
+      "author_id": 1379014,
+      "author_name": "Benjamin P Taylor",
+      "primary_url": "https://projectbeanstalk.blog/2026/11/13/critical-systems-thinking-nobody-has-the-full-picture/",
+      "original_urls": [
+        "https://projectbeanstalk.blog/2026/11/13/critical-systems-thinking-nobody-has-the-full-picture/"
+      ],
+      "canonical_aliases": [],
+      "source_authors": [
+        "Andrea Kemp"
+      ],
+      "description": "Andrea Kemp reflects on Critical Systems Heuristics and boundary critique in research on the voluntary, community, faith and social enterprise sector's contribution to health and place-based working. She asks whose definition of a system, whose interests and whose account of value are privileged, drawing on her experience of commissioning and community provision. She presents the approaches as promising tools for research and more inclusive deliberation, rather than reporting a completed evaluation.",
+      "description_status": "source_scoped_summary",
+      "description_sources": [
+        {
+          "url": "https://projectbeanstalk.blog/2026/11/13/critical-systems-thinking-nobody-has-the-full-picture/",
+          "locator": "Tools and Frameworks; Critical Systems Thinking; Critical Systems Heuristics; Boundary Judgements and Critique; Boundary Questions",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "versions": [
+        {
+          "modified_local": "2026-11-18T03:08:26",
+          "content_sha256": "8fc215ec93bbf62fe89773e0ce8aa1d13e0310fd5b89b9c646a8ace0e856b7a2",
+          "observed_at": "2026-11-18T10:43:21.948Z",
+          "post_url": "https://stream.syscoi.com/2026/11/18/critical-systems-thinking-nobody-has-the-full-picture-kemp-2026/",
+          "original_urls": [
+            "https://projectbeanstalk.blog/2026/11/13/critical-systems-thinking-nobody-has-the-full-picture/"
+          ]
+        }
+      ]
+    },
+    {
+      "post_id": 29530,
+      "post_url": "https://stream.syscoi.com/2026/11/18/vsm-diagnose-tool-dethloff-ordo-novus-2026/",
+      "title": "VSM-Diagnose-Tool – Dethloff / Ordo Novus (2026)",
+      "status": "publish",
+      "password_protected": false,
+      "published_gmt": "2026-11-18T08:08:30Z",
+      "modified_local": "2026-11-18T03:08:30",
+      "content_sha256": "4f320988bba71b2f3ce7902d91d7593c0405ee384df7a3db69e4376f08045f56",
+      "author_id": 1379014,
+      "author_name": "Benjamin P Taylor",
+      "primary_url": "https://ordonovus.de/vsm-diagnose-tool/",
+      "original_urls": [
+        "https://ordonovus.de/vsm-diagnose-tool/",
+        "https://www.linkedin.com/posts/conny-dethloff-6b9b0942_heute-launchen-wir-unser-vsm-diagnose-tool-share-7528188131318325248-Sf-k/"
+      ],
+      "canonical_aliases": [],
+      "source_authors": [
+        "Ordo Novus",
+        "Conny Dethloff"
+      ],
+      "description": "Ordo Novus offers a free German-language organisational diagnosis tool drawing on Stafford Beer's Viable System Model; Conny Dethloff announced its release in November 2026. The publisher describes 57 questions in eight themes, relating responses to 18 possible structural, functional and communication-channel pathologies, with a management summary and possible action areas. The suggested diagnoses are prompts for inquiry, not independently validated findings; the stated offline operation and local-data handling were not technically tested in this intake.",
+      "description_status": "source_scoped_summary",
+      "description_sources": [
+        {
+          "url": "https://ordonovus.de/vsm-diagnose-tool/",
+          "locator": "Tool introduction and product description; 57 questions and organisational VSM diagnosis",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "url": "https://stream.syscoi.com/2026/11/18/vsm-diagnose-tool-dethloff-ordo-novus-2026/",
+          "locator": "Published SysCoI description of eight themes, 18 proposed pathologies and unverified local-data/offline claims",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "versions": [
+        {
+          "modified_local": "2026-11-18T03:08:30",
+          "content_sha256": "4f320988bba71b2f3ce7902d91d7593c0405ee384df7a3db69e4376f08045f56",
+          "observed_at": "2026-11-18T10:43:21.948Z",
+          "post_url": "https://stream.syscoi.com/2026/11/18/vsm-diagnose-tool-dethloff-ordo-novus-2026/",
+          "original_urls": [
+            "https://ordonovus.de/vsm-diagnose-tool/",
+            "https://www.linkedin.com/posts/conny-dethloff-6b9b0942_heute-launchen-wir-unser-vsm-diagnose-tool-share-7528188131318325248-Sf-k/"
+          ]
+        }
+      ]
+    },
+    {
+      "post_id": 29531,
+      "post_url": "https://stream.syscoi.com/2026/11/18/the-equilibrium-of-delay-42-the-systemic-review-2026/",
+      "title": "The Equilibrium of Delay – 42 The Systemic Review (2026)",
+      "status": "publish",
+      "password_protected": false,
+      "published_gmt": "2026-11-18T08:08:35Z",
+      "modified_local": "2026-11-18T03:08:35",
+      "content_sha256": "b86c185614d71339af99e3aa35063cd41b219a11a8f3da18c744a55ce5796677",
+      "author_id": 1379014,
+      "author_name": "Benjamin P Taylor",
+      "primary_url": "https://42systemicreview.org/papers/the-equilibrium-of-delay",
+      "original_urls": [
+        "https://42systemicreview.org/papers/the-equilibrium-of-delay",
+        "https://42systemicreview.org/papers/",
+        "https://stream.syscoi.com/?p=29172"
+      ],
+      "canonical_aliases": [],
+      "canonical_resource_id": "publication_42_delay",
+      "source_authors": [
+        "42 The Systemic Review"
+      ],
+      "description": "42 The Systemic Review analyses the recurring City of Playford capital-works backlog in Australia as a stock-and-flow problem involving accumulating commitments, planning-and-design capacity, and feedback from delayed work. The paper argues that finance-based prioritisation lacks the response variety needed for different kinds of infrastructure demand, and proposes matching commitments to real delivery capacity while addressing unmet infrastructure needs. These are the publisher's systemic interpretation and proposed interventions, not findings independently validated against all underlying council evidence.",
+      "description_status": "source_scoped_summary",
+      "description_sources": [
+        {
+          "url": "https://42systemicreview.org/papers/the-equilibrium-of-delay",
+          "locator": "Executive Summary; Findings 1–5; Technical Analysis: System Framing and Method",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "versions": [
+        {
+          "modified_local": "2026-11-18T03:08:35",
+          "content_sha256": "b86c185614d71339af99e3aa35063cd41b219a11a8f3da18c744a55ce5796677",
+          "observed_at": "2026-11-18T10:43:21.948Z",
+          "post_url": "https://stream.syscoi.com/2026/11/18/the-equilibrium-of-delay-42-the-systemic-review-2026/",
+          "original_urls": [
+            "https://42systemicreview.org/papers/the-equilibrium-of-delay",
+            "https://42systemicreview.org/papers/",
+            "https://stream.syscoi.com/?p=29172"
+          ]
+        }
+      ]
     }
   ]
 }
