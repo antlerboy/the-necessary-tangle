@@ -1655,6 +1655,84 @@
           ]
         }
       ]
+    },
+    {
+      "post_id": 29533,
+      "post_url": "https://stream.syscoi.com/2026/11/18/survey-of-riffs-and-rotes-1/",
+      "title": "Survey of Riffs and Rotes • 1",
+      "status": "publish",
+      "password_protected": false,
+      "published_gmt": "2026-11-18T18:48:57Z",
+      "modified_local": "2026-11-18T13:48:57",
+      "content_sha256": "2787b18715d4827ba4a75a36f6a52eea2de17b7e5a7dd82c5cceefc885974153",
+      "author_id": 10781160,
+      "author_name": "Jon Awbrey",
+      "primary_url": "https://oeis.org/wiki/Riffs_and_Rotes",
+      "original_urls": [
+        "https://oeis.org/wiki/Riffs_and_Rotes",
+        "https://inquiryintoinquiry.com/2013/01/28/riffs-and-rotes-1/",
+        "https://inquiryintoinquiry.com/2013/03/03/riffs-and-rotes-2/",
+        "https://inquiryintoinquiry.com/2016/02/03/riffs-and-rotes-3/",
+        "https://inquiryintoinquiry.com/2019/09/16/riffs-and-rotes-4/",
+        "https://inquiryintoinquiry.com/2020/07/23/riffs-and-rotes-5/",
+        "https://inquiryintoinquiry.com/2021/01/03/riffs-and-rotes-happy-new-year-2021/",
+        "https://inquiryintoinquiry.com/2023/01/01/riffs-and-rotes-happy-new-year-2023/",
+        "https://inquiryintoinquiry.com/2024/01/02/riffs-and-rotes-happy-new-year-2024/",
+        "https://inquiryintoinquiry.com/2025/01/01/riffs-and-rotes-happy-new-year-2025/",
+        "https://inquiryintoinquiry.com/2026/01/01/riffs-and-rotes-happy-new-year-2026/",
+        "https://inquiryintoinquiry.com/2014/08/17/forest-primeval-%e2%86%92-riffs-rotes/",
+        "https://inquiryintoinquiry.com/2026/11/14/riffs-and-rotes-overview/",
+        "https://inquiryintoinquiry.com/2026/11/14/riffs-and-rotes-finite-partial-functions-overview/",
+        "https://inquiryintoinquiry.com/2021/09/05/riffs-and-rotes-59281/"
+      ],
+      "canonical_aliases": [],
+      "source_authors": [
+        "Jon Awbrey"
+      ],
+      "description": "Jon Awbrey's 'Survey of Riffs and Rotes • 1' brings together the OEIS wiki hub, five linked blog dialogues from 2013 to 2020, annual series posts, and other explorations of his Riff and Rote method. His introduction places that method in the context of generalized primes and combinatorial constructions, referring to it as an instance of his 'Make A Picture' approach. The linked OEIS wiki defines doubly recursive prime factorisation and its graph representations. This post is a reading guide to the existing material, not a new independently validated mathematical result.",
+      "description_status": "source_scoped_summary",
+      "description_sources": [
+        {
+          "url": "https://stream.syscoi.com/2026/11/18/survey-of-riffs-and-rotes-1/",
+          "locator": "Introduction; Wiki Hub; Blog Dialogs; Blog Series; Excursions; Expositions; Explorations",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "url": "https://inquiryintoinquiry.com/2013/01/28/riffs-and-rotes-1/",
+          "locator": "Opening description of generalized primes and the Riff and Rote method; posted 28 January 2013",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "url": "https://oeis.org/wiki/Riffs_and_Rotes",
+          "locator": "Idea; doubly recursive factorisations; riff and rote graph representations",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "versions": [
+        {
+          "modified_local": "2026-11-18T13:48:57",
+          "content_sha256": "2787b18715d4827ba4a75a36f6a52eea2de17b7e5a7dd82c5cceefc885974153",
+          "observed_at": "2026-11-18T22:49:23.000Z",
+          "post_url": "https://stream.syscoi.com/2026/11/18/survey-of-riffs-and-rotes-1/",
+          "original_urls": [
+            "https://oeis.org/wiki/Riffs_and_Rotes",
+            "https://inquiryintoinquiry.com/2013/01/28/riffs-and-rotes-1/",
+            "https://inquiryintoinquiry.com/2013/03/03/riffs-and-rotes-2/",
+            "https://inquiryintoinquiry.com/2016/02/03/riffs-and-rotes-3/",
+            "https://inquiryintoinquiry.com/2019/09/16/riffs-and-rotes-4/",
+            "https://inquiryintoinquiry.com/2020/07/23/riffs-and-rotes-5/",
+            "https://inquiryintoinquiry.com/2021/01/03/riffs-and-rotes-happy-new-year-2021/",
+            "https://inquiryintoinquiry.com/2023/01/01/riffs-and-rotes-happy-new-year-2023/",
+            "https://inquiryintoinquiry.com/2024/01/02/riffs-and-rotes-happy-new-year-2024/",
+            "https://inquiryintoinquiry.com/2025/01/01/riffs-and-rotes-happy-new-year-2025/",
+            "https://inquiryintoinquiry.com/2026/01/01/riffs-and-rotes-happy-new-year-2026/",
+            "https://inquiryintoinquiry.com/2014/08/17/forest-primeval-%e2%86%92-riffs-rotes/",
+            "https://inquiryintoinquiry.com/2026/11/14/riffs-and-rotes-overview/",
+            "https://inquiryintoinquiry.com/2026/11/14/riffs-and-rotes-finite-partial-functions-overview/",
+            "https://inquiryintoinquiry.com/2021/09/05/riffs-and-rotes-59281/"
+          ]
+        }
+      ]
     }
   ]
 }
