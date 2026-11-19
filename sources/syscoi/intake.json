@@ -52,6 +52,58 @@
       ]
     },
     {
+      "post_id": 29166,
+      "post_url": "https://stream.syscoi.com/2026/10/13/doing-serious-systems-thinking-means-getting-rid-of-elephants-icebergs-and-leverage-points-jackson-2026-on-linkedin/",
+      "title": "Doing Serious Systems Thinking Means Getting Rid of Elephants, Icebergs and Leverage Points – Jackson (2026) on LinkedIn",
+      "status": "publish",
+      "password_protected": false,
+      "published_gmt": "2026-10-13T17:19:14Z",
+      "modified_local": "2026-11-18T03:07:14",
+      "content_sha256": "f41539652454f536ccb83f1dcdc37cd233e1ab038b1b5faed346f8800e0b054a",
+      "author_id": 1379014,
+      "author_name": "Benjamin P Taylor",
+      "primary_url": "https://www.linkedin.com/pulse/doing-serious-systems-thinking-means-getting-rid-jackson-obe-pswoe",
+      "original_urls": [
+        "https://www.linkedin.com/pulse/doing-serious-systems-thinking-means-getting-rid-jackson-obe-pswoe",
+        "https://i2insights.org/2026/11/17/serious-systems-thinking/"
+      ],
+      "canonical_aliases": [],
+      "source_authors": [
+        "Michael C. Jackson"
+      ],
+      "description": "Michael C. Jackson criticises the blind-men-and-elephant, iceberg, and leverage-point metaphors when used to describe complex situations. He argues that they can imply an observer outside the situation, fixed boundaries or hierarchies of causes, and predictable interventions, overlooking plural perspectives, changing interactions, and recursive causation. His original LinkedIn argument appeared in October 2026. On 17 November, Integration and Implementation Insights (i2Insights) published a shorter version of the same argument with Jackson's authorship and an explicit link to the earlier edition. This public SysCoI post was updated to add that later edition; both belong to one underlying work, not separate new first-live publications.",
+      "description_status": "source_scoped_summary",
+      "description_sources": [
+        {
+          "url": "https://stream.syscoi.com/2026/10/13/doing-serious-systems-thinking-means-getting-rid-of-elephants-icebergs-and-leverage-points-jackson-2026-on-linkedin/",
+          "locator": "Original LinkedIn embed and 'Update, 17 November 2026' paragraph",
+          "checked_at": "2026-11-19"
+        },
+        {
+          "url": "https://i2insights.org/2026/11/17/serious-systems-thinking/",
+          "locator": "Elephants; Icebergs; Leverage Points; Conclusion; 'To find out more' shortened-version note",
+          "checked_at": "2026-11-19"
+        },
+        {
+          "url": "https://www.linkedin.com/pulse/doing-serious-systems-thinking-means-getting-rid-jackson-obe-pswoe",
+          "locator": "Original article; elephants, icebergs, and leverage points sections",
+          "checked_at": "2026-11-19"
+        }
+      ],
+      "versions": [
+        {
+          "modified_local": "2026-11-18T03:07:14",
+          "content_sha256": "f41539652454f536ccb83f1dcdc37cd233e1ab038b1b5faed346f8800e0b054a",
+          "observed_at": "2026-11-19T06:59:11.287Z",
+          "post_url": "https://stream.syscoi.com/2026/10/13/doing-serious-systems-thinking-means-getting-rid-of-elephants-icebergs-and-leverage-points-jackson-2026-on-linkedin/",
+          "original_urls": [
+            "https://www.linkedin.com/pulse/doing-serious-systems-thinking-means-getting-rid-jackson-obe-pswoe",
+            "https://i2insights.org/2026/11/17/serious-systems-thinking/"
+          ]
+        }
+      ]
+    },
+    {
       "post_id": 29386,
       "post_url": "https://stream.syscoi.com/2026/10/27/richard-s-orourke/",
       "title": "Richard S O’Rourke",
