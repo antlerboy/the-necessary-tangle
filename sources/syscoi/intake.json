@@ -1785,6 +1785,156 @@
           ]
         }
       ]
+    },
+    {
+      "post_id": 29539,
+      "post_url": "https://stream.syscoi.com/2026/11/19/between-the-boxes-42-the-systemic-review-2026/",
+      "title": "Between the Boxes – 42 The Systemic Review (2026)",
+      "status": "publish",
+      "password_protected": false,
+      "published_gmt": "2026-11-19T08:11:05Z",
+      "modified_local": "2026-11-19T03:11:05",
+      "content_sha256": "26c4cc1dc68dbdef090c7dd23d9a681b419dd4c5d67c65053784b0f3751fdcb1",
+      "author_id": 1379014,
+      "author_name": "Benjamin P Taylor",
+      "primary_url": "https://42systemicreview.org/papers/between-the-boxes/",
+      "original_urls": [
+        "https://42systemicreview.org/papers/between-the-boxes/",
+        "https://www.nats.aero/wp-content/uploads/2026/09/NATS-Preliminary-Investigation-Report-into-NAS-Incident-on-08-Sept-2026-Issued-16-Sept-2026.pdf",
+        "https://stream.syscoi.com/?p=29172"
+      ],
+      "canonical_aliases": [],
+      "canonical_resource_id": "src_u34_42_boxes",
+      "source_authors": [
+        "42 The Systemic Review"
+      ],
+      "description": "42 The Systemic Review's 10 September 2026 paper interprets the air-traffic-control disruption of 8 September as a problem extending beyond a bounded technical failure: schedules, aircraft and crew positions, spare capacity, and decisions by separately accountable organisations can prolong recovery. This is the publisher's systemic diagnosis, not the conclusion of the NATS investigation. The publisher's summary and the public SysCoI account were checked; the direct paper page could not be retrieved in this check, and its detailed findings have not been independently assessed.",
+      "description_status": "source_scoped_summary",
+      "description_sources": [
+        {
+          "url": "https://42systemicreview.org/",
+          "locator": "Latest Papers, 42-2026-010, Between the Boxes, 10 September 2026",
+          "checked_at": "2026-11-19"
+        },
+        {
+          "url": "https://stream.syscoi.com/2026/11/19/between-the-boxes-42-the-systemic-review-2026/",
+          "locator": "Published public introductory paragraph and original paper/NATS links; direct paper page inaccessible in this check",
+          "checked_at": "2026-11-19"
+        }
+      ],
+      "versions": [
+        {
+          "modified_local": "2026-11-19T03:11:05",
+          "content_sha256": "26c4cc1dc68dbdef090c7dd23d9a681b419dd4c5d67c65053784b0f3751fdcb1",
+          "observed_at": "2026-11-19T10:48:48.786Z",
+          "post_url": "https://stream.syscoi.com/2026/11/19/between-the-boxes-42-the-systemic-review-2026/",
+          "original_urls": [
+            "https://42systemicreview.org/papers/between-the-boxes/",
+            "https://www.nats.aero/wp-content/uploads/2026/09/NATS-Preliminary-Investigation-Report-into-NAS-Incident-on-08-Sept-2026-Issued-16-Sept-2026.pdf",
+            "https://stream.syscoi.com/?p=29172"
+          ]
+        }
+      ]
+    },
+    {
+      "post_id": 29540,
+      "post_url": "https://stream.syscoi.com/2026/11/19/spiking-control-systems-nonlinear-control-neuroscience-and-optimization-on-manifolds-incontrol-with-sepulchre-2023/",
+      "title": "Spiking control systems, nonlinear control, neuroscience and optimization on manifolds – inControl with Sepulchre (2023)",
+      "status": "publish",
+      "password_protected": false,
+      "published_gmt": "2026-11-19T08:12:52Z",
+      "modified_local": "2026-11-19T03:12:52",
+      "content_sha256": "b9c8cef18a9153b0e1f20e9e1f73210afa1fa95659d9f9c26660a9d8f0368453",
+      "author_id": 1379014,
+      "author_name": "Benjamin P Taylor",
+      "primary_url": "https://www.incontrolpodcast.com/1632769/episodes/12235167-ep9-rodolphe-sepulchre-spiking-control-systems-nonlinear-control-neuroscience-and-optimization-on-manifolds",
+      "original_urls": [
+        "https://youtu.be/pEoFYImHalU",
+        "https://www.incontrolpodcast.com/1632769/episodes/12235167-ep9-rodolphe-sepulchre-spiking-control-systems-nonlinear-control-neuroscience-and-optimization-on-manifolds"
+      ],
+      "canonical_aliases": [],
+      "source_authors": [
+        "Alberto Padoan",
+        "Rodolphe Sepulchre"
+      ],
+      "description": "Alberto Padoan's inControl podcast episode of 15 February 2023 interviews control theorist Rodolphe Sepulchre about spiking control systems, mixed feedback, event-based dynamics, dissipativity, stability, monotonicity, links to neuroscience and cybernetics, neuromorphic control, and optimisation on manifolds. The publisher supplies an 84-minute recording and chapter timings. The synopsis follows those public episode notes; the recording was not independently listened to in full.",
+      "description_status": "source_scoped_summary",
+      "description_sources": [
+        {
+          "url": "https://www.incontrolpodcast.com/1632769/episodes/12235167-ep9-rodolphe-sepulchre-spiking-control-systems-nonlinear-control-neuroscience-and-optimization-on-manifolds",
+          "locator": "Episode 9, 15 February 2023, description and chapter outline (03:54–01:20:35)",
+          "checked_at": "2026-11-19"
+        },
+        {
+          "url": "https://stream.syscoi.com/2026/11/19/spiking-control-systems-nonlinear-control-neuroscience-and-optimization-on-manifolds-incontrol-with-sepulchre-2023/",
+          "locator": "Public SysCoI summary and supplied YouTube link",
+          "checked_at": "2026-11-19"
+        }
+      ],
+      "versions": [
+        {
+          "modified_local": "2026-11-19T03:12:52",
+          "content_sha256": "b9c8cef18a9153b0e1f20e9e1f73210afa1fa95659d9f9c26660a9d8f0368453",
+          "observed_at": "2026-11-19T10:48:48.786Z",
+          "post_url": "https://stream.syscoi.com/2026/11/19/spiking-control-systems-nonlinear-control-neuroscience-and-optimization-on-manifolds-incontrol-with-sepulchre-2023/",
+          "original_urls": [
+            "https://youtu.be/pEoFYImHalU",
+            "https://www.incontrolpodcast.com/1632769/episodes/12235167-ep9-rodolphe-sepulchre-spiking-control-systems-nonlinear-control-neuroscience-and-optimization-on-manifolds"
+          ]
+        }
+      ]
+    },
+    {
+      "post_id": 29541,
+      "post_url": "https://stream.syscoi.com/2026/11/19/systems-thinking-in-and-for-public-health-a-call-for-a-broader-path-gadsby-and-wilding-2024/",
+      "title": "Systems thinking in, and for, public health: a call for a broader path – Gadsby and Wilding (2024)",
+      "status": "publish",
+      "password_protected": false,
+      "published_gmt": "2026-11-19T08:15:44Z",
+      "modified_local": "2026-11-19T03:15:44",
+      "content_sha256": "f04bdd6180eee4f9a82c74f709e199b16fa0f4d83d47c233b28276b66a925306",
+      "author_id": 1379014,
+      "author_name": "Benjamin P Taylor",
+      "primary_url": "https://academic.oup.com/heapro/article/39/4/daae086/7732163",
+      "original_urls": [
+        "https://academic.oup.com/heapro/article/39/4/daae086/7732163",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11319874/",
+        "https://doi.org/10.1093/heapro/daae086"
+      ],
+      "canonical_aliases": [
+        "https://doi.org/10.1093/heapro/daae086"
+      ],
+      "source_authors": [
+        "Erica Wirrmann Gadsby",
+        "Helen Wilding"
+      ],
+      "description": "Erica Wirrmann Gadsby and Helen Wilding argue that public-health applications of systems thinking often pursue a narrow path of improving established disease-prevention practice. Their broader path puts alleviating health inequalities at the centre and draws on a wider range of systems traditions. It changes how practitioners consider transformation, partnership, legitimacy, power, and ways of organising and knowing; it encompasses rather than abandons the narrow path. Published online in Health Promotion International on 13 August 2024, volume 39(4), daae086. This account is grounded in the authors' article and abstract, not an evaluation of demonstrated policy outcomes.",
+      "description_status": "source_scoped_summary",
+      "description_sources": [
+        {
+          "url": "https://academic.oup.com/heapro/article/39/4/daae086/7732163",
+          "locator": "Abstract; Contribution to Health Promotion; Introduction, published 13 August 2024",
+          "checked_at": "2026-11-19"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11319874/",
+          "locator": "Public full text and author affiliations",
+          "checked_at": "2026-11-19"
+        }
+      ],
+      "versions": [
+        {
+          "modified_local": "2026-11-19T03:15:44",
+          "content_sha256": "f04bdd6180eee4f9a82c74f709e199b16fa0f4d83d47c233b28276b66a925306",
+          "observed_at": "2026-11-19T10:48:48.786Z",
+          "post_url": "https://stream.syscoi.com/2026/11/19/systems-thinking-in-and-for-public-health-a-call-for-a-broader-path-gadsby-and-wilding-2024/",
+          "original_urls": [
+            "https://academic.oup.com/heapro/article/39/4/daae086/7732163",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC11319874/",
+            "https://doi.org/10.1093/heapro/daae086"
+          ]
+        }
+      ]
     }
   ]
 }
