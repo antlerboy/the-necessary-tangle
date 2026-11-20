@@ -1935,6 +1935,128 @@
           ]
         }
       ]
+    },
+    {
+      "post_id": 29545,
+      "title": "Power to Prevent: International lessons on regional funding models for prevention – Growth and Reform Network (2026)",
+      "published_gmt": "2026-11-20T08:17:36Z",
+      "modified_local": "2026-11-20T03:17:36",
+      "content_sha256": "481c8b224830a77e9b0c8c04dd57b2cc1747f6f713e1d82cc7cc9da7681c9087",
+      "primary_url": "https://growthandreform.org/resource-hub/power-to-prevent",
+      "original_urls": [
+        "https://growthandreform.org/resource-hub/power-to-prevent"
+      ],
+      "source_authors": [
+        "Growth and Reform Network"
+      ],
+      "description": "Growth and Reform Network, working with the Health Foundation, examines how regional and local public services might fund prevention when the costs, benefits, and time horizons cross organisational budgets. The report draws lessons from 11 case studies across Australia, the United States, Germany, Spain, the Netherlands, and Scotland. Its seven recommendations address shared incentives and cost/risk allocation, agreed definitions and evaluation, investment cases, flexible devolved funding, financing models, and community participation. These are comparative policy lessons and proposals; projected avoided costs still require evaluation.",
+      "description_sources": [
+        {
+          "url": "https://growthandreform.org/resource-hub/power-to-prevent",
+          "locator": "Learning from international experience; Seven recommendations for making prevention work; Turning ambition into delivery",
+          "checked_at": "2026-11-20"
+        }
+      ],
+      "post_url": "https://stream.syscoi.com/2026/11/20/power-to-prevent-international-lessons-on-regional-funding-models-for-prevention-growth-and-reform-network-2026/",
+      "status": "publish",
+      "password_protected": false,
+      "author_id": 1379014,
+      "author_name": "Benjamin P Taylor",
+      "canonical_aliases": [],
+      "description_status": "source_scoped_summary",
+      "versions": [
+        {
+          "modified_local": "2026-11-20T03:17:36",
+          "content_sha256": "481c8b224830a77e9b0c8c04dd57b2cc1747f6f713e1d82cc7cc9da7681c9087",
+          "observed_at": "2026-11-20T11:19:29.744Z",
+          "post_url": "https://stream.syscoi.com/2026/11/20/power-to-prevent-international-lessons-on-regional-funding-models-for-prevention-growth-and-reform-network-2026/",
+          "original_urls": [
+            "https://growthandreform.org/resource-hub/power-to-prevent"
+          ]
+        }
+      ]
+    },
+    {
+      "post_id": 29546,
+      "title": "We Keep Training Leaders for Problems They Cannot Solve – Claydon (2026)",
+      "published_gmt": "2026-11-20T08:17:54Z",
+      "modified_local": "2026-11-20T03:17:54",
+      "content_sha256": "55a84e2c60fd75f4466af08ef4f39044aa66f47b4682be844211b03c698308b6",
+      "primary_url": "https://richardclaydon.substack.com/p/we-keep-training-leaders-for-problems",
+      "original_urls": [
+        "https://richardclaydon.substack.com/p/we-keep-training-leaders-for-problems"
+      ],
+      "source_authors": [
+        "Richard Claydon"
+      ],
+      "description": "Richard Claydon's opening essay in the 'Who Gets to Change Things?' series uses a fictional company where a leadership-development programme produces real learning and promising cross-functional improvements but exposes an unresolved organisational-design problem. The participants cannot sustain a shared client-onboarding process without authority, resourcing, and accountability for work across existing business units. Claydon examines Lewin, Bennis, and the relationship between individual leadership capability and the collective arrangements enabling action. The cases of Ruth and Maya are constructed narrative illustrations, not measured evidence from a real programme.",
+      "description_sources": [
+        {
+          "url": "https://richardclaydon.substack.com/p/we-keep-training-leaders-for-problems",
+          "locator": "The Programme Worked; Three Tensions to Carry Forward; What Lewin Was Really Investigating; Bennis and the Problem of Changing Organisations",
+          "checked_at": "2026-11-20"
+        }
+      ],
+      "post_url": "https://stream.syscoi.com/2026/11/20/we-keep-training-leaders-for-problems-they-cannot-solve-claydon-2026/",
+      "status": "publish",
+      "password_protected": false,
+      "author_id": 1379014,
+      "author_name": "Benjamin P Taylor",
+      "canonical_aliases": [],
+      "description_status": "source_scoped_summary",
+      "versions": [
+        {
+          "modified_local": "2026-11-20T03:17:54",
+          "content_sha256": "55a84e2c60fd75f4466af08ef4f39044aa66f47b4682be844211b03c698308b6",
+          "observed_at": "2026-11-20T11:19:29.744Z",
+          "post_url": "https://stream.syscoi.com/2026/11/20/we-keep-training-leaders-for-problems-they-cannot-solve-claydon-2026/",
+          "original_urls": [
+            "https://richardclaydon.substack.com/p/we-keep-training-leaders-for-problems"
+          ]
+        }
+      ]
+    },
+    {
+      "post_id": 29547,
+      "title": "The Crisis of Regulation – 42 The Systemic Review (2026)",
+      "published_gmt": "2026-11-20T08:18:08Z",
+      "modified_local": "2026-11-20T03:18:08",
+      "content_sha256": "faa6d0841a42be01c1af80a7c21a7445ba640f614b5477bf79cf7ecfff0d94bb",
+      "primary_url": "https://42systemicreview.org/papers/crisis-of-regulation",
+      "original_urls": [
+        "https://42systemicreview.org/papers/crisis-of-regulation",
+        "https://42systemicreview.org/papers/"
+      ],
+      "source_authors": [
+        "42 The Systemic Review"
+      ],
+      "description": "The 42 Systemic Review analyses regulation as a control arrangement increasingly mismatched to the speed, complexity, and jurisdictional fragmentation of technological and economic systems. Its six findings concern regulators' inadequate models of what they regulate; changing policy goals under deregulation and growth duties; standards lag; concurrent reform churn; fragmented AI governance; and similar mismatches at several governance levels. The analysis invokes system models, requisite variety, and feedback delays. It is the publisher's systems-theory interpretation of current regulation, not an independent empirical evaluation or endorsement of any particular reform.",
+      "description_sources": [
+        {
+          "url": "https://42systemicreview.org/papers/crisis-of-regulation",
+          "locator": "Executive Summary; Findings 1–6; Technical Analysis section 1",
+          "checked_at": "2026-11-20"
+        }
+      ],
+      "post_url": "https://stream.syscoi.com/2026/11/20/the-crisis-of-regulation-42-the-systemic-review-2026/",
+      "status": "publish",
+      "password_protected": false,
+      "author_id": 1379014,
+      "author_name": "Benjamin P Taylor",
+      "canonical_aliases": [],
+      "description_status": "source_scoped_summary",
+      "versions": [
+        {
+          "modified_local": "2026-11-20T03:18:08",
+          "content_sha256": "faa6d0841a42be01c1af80a7c21a7445ba640f614b5477bf79cf7ecfff0d94bb",
+          "observed_at": "2026-11-20T11:19:29.744Z",
+          "post_url": "https://stream.syscoi.com/2026/11/20/the-crisis-of-regulation-42-the-systemic-review-2026/",
+          "original_urls": [
+            "https://42systemicreview.org/papers/crisis-of-regulation",
+            "https://42systemicreview.org/papers/"
+          ]
+        }
+      ]
     }
   ]
 }
