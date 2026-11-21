@@ -2057,6 +2057,63 @@
           ]
         }
       ]
+    },
+    {
+      "post_id": 29554,
+      "title": "Sigmund Freud • Project for a Scientific Psychology • Selection 1",
+      "published_gmt": "2026-11-21T14:20:12Z",
+      "modified_local": "2026-11-21T09:25:17",
+      "content_sha256": "9265953e541a1fa4b20d86b6b560c457fee84dec084b46812cca3bf7129255c0",
+      "primary_url": "https://inquiryintoinquiry.com/2026/11/20/sigmund-freud-project-for-a-scientific-psychology-selection-1/",
+      "original_urls": [
+        "https://inquiryintoinquiry.com/2026/11/20/sigmund-freud-project-for-a-scientific-psychology-selection-1/",
+        "https://www.academia.edu/community/LYk81K",
+        "https://groups.google.com/g/cybcom/c/QBQkJYRO80Q",
+        "https://groups.io/g/lawsofform/topic/sigmund_freud_project_for/122367984",
+        "https://www.researchgate.net/post/Sigmund_Freud_Project_for_a_Scientific_Psychology",
+        "https://groups.google.com/g/structural-modeling/c/jG7D_YnkBVw",
+        "https://groups.google.com/g/syssciwg/c/Ws8xyhMJX5Y"
+      ],
+      "source_authors": [
+        "Sigmund Freud"
+      ],
+      "description": "Jon Awbrey shares an extract from Sigmund Freud's 1895 'Project for a Scientific Psychology', titled 'The Experience of Satisfaction' (pp. 379–381 of the 1954 English-language collection). Freud describes an infant's physiological distress, relief brought about by another person's intervention, the formation of memory associations between need and satisfaction, and the possibility of wishful recollection being mistaken for perception. This is a historical theoretical text, in a later translation; it is not evidence for a contemporary neuroscientific model.",
+      "description_sources": [
+        {
+          "url": "https://inquiryintoinquiry.com/2026/11/20/sigmund-freud-project-for-a-scientific-psychology-selection-1/",
+          "locator": "The Experience of Satisfaction; bibliographic attribution following extract",
+          "checked_at": "2026-11-21"
+        },
+        {
+          "url": "https://groups.google.com/g/cybcom/c/QBQkJYRO80Q",
+          "locator": "Jon Awbrey announcement, 20 November 2026, linking his original post",
+          "checked_at": "2026-11-21"
+        }
+      ],
+      "post_url": "https://stream.syscoi.com/2026/11/21/sigmund-freud-project-for-a-scientific-psychology-selection-1/",
+      "status": "publish",
+      "password_protected": false,
+      "author_id": 10781160,
+      "author_name": "Jon Awbrey",
+      "canonical_aliases": [],
+      "description_status": "source_scoped_summary",
+      "versions": [
+        {
+          "modified_local": "2026-11-21T09:25:17",
+          "content_sha256": "9265953e541a1fa4b20d86b6b560c457fee84dec084b46812cca3bf7129255c0",
+          "observed_at": "2026-11-21T15:19:44.170Z",
+          "post_url": "https://stream.syscoi.com/2026/11/21/sigmund-freud-project-for-a-scientific-psychology-selection-1/",
+          "original_urls": [
+            "https://inquiryintoinquiry.com/2026/11/20/sigmund-freud-project-for-a-scientific-psychology-selection-1/",
+            "https://www.academia.edu/community/LYk81K",
+            "https://groups.google.com/g/cybcom/c/QBQkJYRO80Q",
+            "https://groups.io/g/lawsofform/topic/sigmund_freud_project_for/122367984",
+            "https://www.researchgate.net/post/Sigmund_Freud_Project_for_a_Scientific_Psychology",
+            "https://groups.google.com/g/structural-modeling/c/jG7D_YnkBVw",
+            "https://groups.google.com/g/syssciwg/c/Ws8xyhMJX5Y"
+          ]
+        }
+      ]
     }
   ]
 }
