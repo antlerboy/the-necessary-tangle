@@ -1,10 +1,11 @@
 .PHONY: build build-base apply-current apply-practice apply-missing-entry-reports validate serve clean
 
-build: build-base apply-current apply-practice apply-september apply-intake apply-maps apply-library apply-missing-entry-reports apply-submission-review apply-claim-lab apply-weaver apply-update-30 apply-update-31 apply-update-32 apply-update-33 apply-update-34 apply-saidtosomeone apply-update-35 apply-cybernetic-readings apply-isss-wiki apply-update-36 apply-update-37 apply-update-38 apply-update-39 apply-update-40 apply-update-41 apply-readable-atlas apply-syscoi-intake apply-complexity-eight-days apply-sysprac26 apply-making-things-change apply-adventure-42
+build: build-base apply-current apply-practice apply-september apply-intake apply-maps apply-library apply-missing-entry-reports apply-submission-review apply-claim-lab apply-weaver apply-update-30 apply-update-31 apply-update-32 apply-update-33 apply-update-34 apply-saidtosomeone apply-update-35 apply-cybernetic-readings apply-isss-wiki apply-update-36 apply-update-37 apply-update-38 apply-update-39 apply-update-40 apply-update-41 apply-readable-atlas apply-syscoi-intake apply-complexity-eight-days apply-sysprac26 apply-making-things-change apply-adventure-42 apply-reader-opening
 
 # Historical validators assert historical release identifiers. Rebuild that
 # baseline, run its gates, then apply and validate the current release.
 build-base:
+	python3 scripts/build_reader_opening.py --reverse
 	python3 scripts/build_adventure_42.py --reverse
 	python3 scripts/prepare_syscoi_intake_baseline.py
 	python3 scripts/prepare_update_41_baseline.py
@@ -229,6 +230,8 @@ validate: build-base
 	$(MAKE) apply-adventure-42
 	python3 scripts/validate_adventure_42.py
 	node scripts/test_adventure_42.cjs
+	$(MAKE) apply-reader-opening
+	python3 scripts/validate_reader_opening.py
 	python3 scripts/validate_public.py
 
 apply-missing-entry-reports:
@@ -369,3 +372,7 @@ apply-making-things-change:
 .PHONY: apply-adventure-42
 apply-adventure-42:
 	python3 scripts/build_adventure_42.py
+
+.PHONY: apply-reader-opening
+apply-reader-opening:
+	python3 scripts/build_reader_opening.py

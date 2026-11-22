@@ -32,8 +32,58 @@ def unpack(value):
         return []
 
 
+REVIEW_LABELS = {
+    'research_pass_needs_editor': 'awaiting editorial review',
+    'curator_checked_public_sources': 'the curator checked the public sources',
+    'specialist_review_not_recorded': 'no specialist review on record',
+    'independent_review_not_recorded': 'no independent review on record',
+    'source_scoped_research_pass': 'research covers the sources listed',
+    'source_scoped_ai_assisted': 'AI-assisted research on the sources listed',
+    'original_practice_material_specialist_review_not_recorded': 'original practice material, with no specialist review on record',
+    'source_scoped_report_review_complete': 'review against the sources in the report is complete',
+    'official_toc_bibliographic_first_pass': 'initial catalogue record from the published contents',
+    'official_toc_bibliographic_inventory': 'catalogued from the published contents',
+    'doncaster_lineage_source_checked': 'sources checked for the Doncaster account',
+    'first_person_lineage_source_checked': 'checked against a first-person account',
+    'official_and_interview_sources_checked': 'official records and interviews checked',
+    'official_practice_sources_checked': 'checked against the published practice materials',
+    'provisional_self_reported_unpublished': 'provisional, from an unpublished first-person account',
+    'located_public_record': 'public record located',
+    'checked': 'source checked',
+    'source_scope_checked': 'scope of the source checked',
+    'specific_access_and_content_limit_recorded': 'access and content limits documented',
+    'checked_for_doncaster_lineage': 'checked for the Doncaster account',
+    'original_material_and_source_boundary_recorded': 'original material and its scope documented',
+    'report_reviewed_against_public_sources': 'report checked against public sources',
+    'passage_checked_research_pass': 'the cited passage was checked',
+    'public_file_identity_checked': 'identity of the public file checked',
+    'source_scoped_summary': 'summary of the cited source',
+    'passage_checked': 'the cited passage was checked',
+    'candidate': 'proposed',
+    'legacy_unverified': 'earlier record awaiting verification',
+}
+
 def human(value):
-    return str(value or 'not recorded').replace('_', ' ')
+    return REVIEW_LABELS.get(value, str(value or 'no review on record').replace('_', ' '))
+
+
+
+def reader_note(note):
+    versions = {
+        'Prepared with AI assistance. Publication authorised by Benjamin P Taylor. No independent specialist review or source-provider endorsement is claimed.': 'Benjamin P Taylor authorised this AI-assisted account. There is no record of independent specialist review or endorsement by the source provider.',
+        'Developed from public primary, institutional and publisher sources. Open to correction, rival interpretation and stronger evidence.': 'Sources include original publications and records from institutions and publishers.',
+        'AI-assisted source reading. Human curator: Benjamin P Taylor. New claims remain candidates.': 'Benjamin P Taylor curates this account. AI assisted with reading the sources. New claims await review.',
+        'Developed from public primary, institutional, publisher and project sources. First-party source roles and independent evidential limits are stated explicitly.': 'The account draws on original work and on public records from publishers, institutions, and the projects themselves.',
+        'Prepared with AI assistance from the named public records and the public report. The report review is complete; open checks are future research, not missing entry work. Independent specialist review is not recorded.': 'AI assisted with a completed review of the report against the listed public records. Further questions remain open. There is no record of independent specialist review.',
+        'Developed from cited public sources. The entry remains open to correction, rival accounts and stronger evidence.': 'This account draws on the public sources listed above.',
+        'Readable orientation and evidence-backed first pass. Not accepted scholarly consensus until named review is recorded.': 'This preliminary account draws on the sources listed above. It awaits review.',
+        'Readable orientation and evidence-backed first pass. Named editorial review is still required before canonical acceptance.': 'This preliminary account awaits editorial review.',
+        'Primary passages checked for this bounded research pass. Exposition and editorial comparisons remain distinct; named editorial acceptance is not implied by publication.': 'The research checked the passages listed above. Editorial acceptance remains open.',
+        'Public account based on named sources; documentary provenance, interpretation and evaluative claims are kept distinct.': 'The account identifies its sources and distinguishes the interpretation offered here from the claims those sources make.',
+        'Source passages inspected for this account. Practice questions are editorial applications. Curator review pending.': 'The research checked the cited passages. The curator has yet to review this account. The practice questions are the atlas’s own.',
+        'Prepared with AI assistance; source-scoped first pass. Curator: Benjamin P Taylor.': 'AI assisted with the initial reading of the cited sources. Benjamin P Taylor curates the atlas.',
+    }
+    return versions.get(note, note)
 
 
 def structured(record):
@@ -126,15 +176,28 @@ def main():
         evidence_ids = list(dict.fromkeys(unpack(profile.get('evidence_ids')) + [eid for edge in attached for eid in unpack(edge.get('evidence_ids'))] + [eid for claim in claims for key in ('supporting_evidence_ids', 'contradicting_evidence_ids') for eid in unpack(claim.get(key))]))
         source_ids = list(dict.fromkeys(source_ids + [sid for edge in attached for sid in unpack(edge.get('source_ids'))] + [evidence[eid]['source_id'] for eid in evidence_ids if eid in evidence] + [sid for claim in claims for key in ('supporting_source_ids', 'contradicting_source_ids') for sid in unpack(claim.get(key))]))
         body = paragraph(definition)
-        body += '<aside class="status"><h2>Review status</h2><p>Profile: ' + esc(human(profile.get('review_status') or profile.get('profile_status'))) + '. Entry: ' + esc(human(node.get('review_status'))) + '.</p>' + paragraph(profile.get('editorial_note'))
-        body += '<p>Named reviewer: ' + esc(profile.get('reviewed_by') or 'not recorded for this profile') + '. Last researched: ' + esc(profile.get('last_researched') or 'not recorded') + '.</p></aside>'
-        body += '<p class="actions"><a href="/#view=item&amp;id=' + esc(ident) + '">Open the interactive entry</a> · <a href="/#view=map&amp;focus=' + esc(ident) + '">Explore its map</a> · <a download href="record.json">Download the sourced record (JSON)</a></p>'
+        profile_status = profile.get('review_status') or profile.get('profile_status')
+        entry_status = node.get('review_status')
+        review = '<aside id="review" class="status"><h2>Review status</h2>'
+        if profile_status == entry_status:
+            review += paragraph(human(profile_status)[:1].upper() + human(profile_status)[1:] + '.')
+        else:
+            review += paragraph('Account: ' + human(profile_status) + '. Catalogue entry: ' + human(entry_status) + '.')
+        note = profile.get('editorial_note')
+        if note:
+            review += paragraph(reader_note(note))
+        if profile.get('reviewed_by'):
+            review += paragraph('Reviewer: ' + profile['reviewed_by'] + '.')
+        if profile.get('last_researched'):
+            review += paragraph('Research date: ' + profile['last_researched'] + '.')
+        review += '</aside>'
+        body += '<p class="actions"><a href="/#view=item&amp;id=' + esc(ident) + '">Open the interactive entry</a> · <a href="/#view=map&amp;focus=' + esc(ident) + '">Explore its map</a> · <a href="#review">Review status</a> · <a download href="record.json">Download the sourced record (JSON)</a></p>'
         for heading, key in sections:
             value = profile.get(key)
             if value:
                 values = unpack(value)
                 body += '<section><h2>' + heading + '</h2>' + ('<ul>' + ''.join('<li>' + esc(v) + '</li>' for v in values) + '</ul>' if values else paragraph(value)) + '</section>'
-        body += '<section><h2>Recorded connections</h2><p>Check the wording, direction, scope, sources, and status of a connection before relying on it.</p><ul class="connections">'
+        body += '<section><h2>Recorded connections</h2><ul class="connections">'
         for edge in attached:
             other = edge['target'] if edge['source'] == ident else edge['source']
             wording = nodes[edge['source']]['label'] + ' ' + (edge.get('plain_phrase') or human(edge.get('relation_type'))) + ' ' + nodes[edge['target']]['label']
@@ -155,6 +218,7 @@ def main():
         body += '<section><h2>Sources and passage locators</h2><ul>' + ''.join(source_html(sid) for sid in source_ids) + '</ul>'
         locators = [{'id': eid, 'source_id': evidence[eid]['source_id'], 'locator': evidence[eid].get('locator', ''), 'review_status': evidence[eid].get('review_status', '')} for eid in evidence_ids if eid in evidence]
         body += '<ul>' + ''.join('<li>' + esc(sources.get(e['source_id'], {}).get('title', e['source_id'])) + ': ' + esc(e['locator'] or 'No precise locator recorded') + ' · ' + esc(human(e['review_status'])) + '</li>' for e in locators) + '</ul></section>'
+        body += review
         citation = f'Taylor, B. P. (2026). {title}. The Necessary Tangle, release {release}. {BASE}{path}'
         body += '<section><h2>Cite this entry</h2>' + paragraph(citation) + '<p>Include the release and review status when you quote or reuse this account.</p></section>'
         record = {'schema_version': '1.0', 'canonical_url': BASE + path, 'release': release, 'citation': citation, 'licence': 'CC BY-SA 4.0 for original atlas text and data; linked works retain their own terms', 'entry': node, 'profile': profile, 'connections': attached, 'claims': claims, 'sources': [sources[sid] for sid in source_ids if sid in sources], 'evidence_locators': locators, 'reuse_note': 'Preserve source attribution, scope, and review status. Source documents and evidence excerpts are excluded.'}
@@ -170,7 +234,7 @@ def main():
         path = route('journeys', journey['id'])
         urls.append(path)
         body = paragraph(journey.get('subtitle')) + paragraph(journey.get('summary'))
-        body += '<aside class="status"><p>This is an editorial reading route. Claims about influence or dependence need the evidence recorded against the relevant connection.</p></aside>'
+        body += '<aside class="status"><p>The curator chose the order of these readings. Each entry gives sources for its historical connections.</p></aside>'
         body += '<p><a href="/#view=journeys&amp;id=' + esc(journey['id']) + '&amp;step=0">Follow this journey interactively</a></p><ol class="journey">'
         for step in journey.get('steps', []):
             ident = step['node_id']
@@ -178,12 +242,12 @@ def main():
         body += '</ol>' + paragraph(f'Taylor, B. P. (2026). {journey["title"]}. The Necessary Tangle, release {release}. {BASE}{path}')
         write(path.strip('/') + '/index.html', page(journey['title'], journey.get('summary', journey['title']), path, body, release))
 
-    entry_list = '<p>These are fuller accounts of ideas, people, methods, and publications, with sources and review status.</p><p><a download href="developed-records.json">Download the developed entries (JSON)</a> · <a href="/journeys/">Choose a reading journey</a></p><ul class="entry-index">'
+    entry_list = '<p>This alphabetical index lists the atlas entries that have a full account and sources. Each title opens the account.</p><p><a download href="developed-records.json">Download the entries and their sources (JSON)</a> · <a href="/journeys/">Choose a reading journey</a></p><ul class="entry-index">'
     entry_list += ''.join('<li><a href="' + route('entries', ident) + '">' + esc(nodes[ident]['label']) + '</a> <small>· ' + esc(human(profile.get('review_status') or profile.get('profile_status'))) + '</small></li>' for ident, profile in sorted(profiles.items(), key=lambda p: nodes[p[0]]['label'].casefold())) + '</ul>'
-    write('entries/index.html', page('Developed entries', 'Systems, cybernetics, and complexity entries, with sources and review status.', '/entries/', entry_list, release))
+    write('entries/index.html', page('Atlas entries with sources', 'Systems, cybernetics, and complexity entries, with sources and review status.', '/entries/', entry_list, release))
     write('entries/developed-records.json', json.dumps({'schema_version': '1.0', 'release': release, 'record_count': len(records), 'records': records}, ensure_ascii=False, indent=2) + '\n')
-    journey_list = '<p>The journeys connect several entries around a question. Each entry links to its sources and records its review status.</p><ul>' + ''.join('<li><h2><a href="' + route('journeys', j['id']) + '">' + esc(j['title']) + '</a></h2>' + paragraph(j.get('summary')) + '</li>' for j in journeys) + '</ul>'
-    write('journeys/index.html', page('Choose a reading journey', 'Question-led reading routes through the evidence atlas.', '/journeys/', journey_list, release))
+    journey_list = '<p>Each reading list takes up a question and gives a reason for reading its entries together.</p><ul>' + ''.join('<li><h2><a href="' + route('journeys', j['id']) + '">' + esc(j['title']) + '</a></h2>' + paragraph(j.get('summary')) + '</li>' for j in journeys) + '</ul>'
+    write('journeys/index.html', page('Choose a reading journey', 'Reading lists on systems thinking, cybernetics, and complexity.', '/journeys/', journey_list, release))
     stewardship = """<p>Benjamin P Taylor curates the atlas and is responsible for its editorial decisions and publication.</p>
 <h2>Correct an entry or connection</h2>
 <p>A question, a missing source, or a specific correction can start a review. Give the URL and the statement you’re questioning. Add your proposed change, the source and passage that support it, and any limits or competing interpretations that affect the claim.</p>
@@ -222,6 +286,11 @@ def main():
     journey_action = '<div class="journey-actions">'
     if 'Read the whole journey' not in app:
         app = app.replace(journey_action, journey_action + '\n      <a class="button" href="/journeys/${encodeURIComponent(journey.id)}/">Read the whole journey</a>', 1)
+    app = app.replace("titleCase(claim.review_status)", "publicStatusLabel(claim.review_status)")
+    if 'research_pass_needs_editor:' not in app:
+        app = app.replace("      accepted: 'Accepted in this release',",
+                          "      research_pass_needs_editor: 'Awaiting editorial review',\n"
+                          "      accepted: 'Accepted in this release',", 1)
     app_path.write_text(app, encoding='utf-8')
 
     sitemap_path = DOCS / 'sitemap.xml'
@@ -229,15 +298,19 @@ def main():
     ET.register_namespace('', namespace)
     tree = ET.parse(sitemap_path)
     root = tree.getroot()
-    for item in list(root):
-        loc = item.find('{' + namespace + '}loc')
-        if loc is not None and any((loc.text or '').startswith(BASE + prefix) for prefix in ('/entries/', '/journeys/', '/stewardship/')):
-            root.remove(item)
-    for path in urls:
-        item = ET.SubElement(root, '{' + namespace + '}url')
-        ET.SubElement(item, '{' + namespace + '}loc').text = BASE + path
-    ET.indent(tree, space='  ')
-    tree.write(sitemap_path, encoding='utf-8', xml_declaration=True)
+    existing_reader_urls = [item.text for item in root.iter('{' + namespace + '}loc')
+                            if any((item.text or '').startswith(BASE + prefix)
+                                   for prefix in ('/entries/', '/journeys/', '/stewardship/'))]
+    if sorted(existing_reader_urls) != sorted(BASE + path for path in urls):
+        for item in list(root):
+            loc = item.find('{' + namespace + '}loc')
+            if loc is not None and any((loc.text or '').startswith(BASE + prefix) for prefix in ('/entries/', '/journeys/', '/stewardship/')):
+                root.remove(item)
+        for path in urls:
+            item = ET.SubElement(root, '{' + namespace + '}url')
+            ET.SubElement(item, '{' + namespace + '}loc').text = BASE + path
+        ET.indent(tree, space='  ')
+        tree.write(sitemap_path, encoding='utf-8', xml_declaration=True)
     # Retire only files previously generated by this script, never an arbitrary
     # directory supplied by an input path. Keep unrelated content untouched.
     for old_route in set(previous_routes) - set(urls):

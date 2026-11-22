@@ -179,7 +179,7 @@ css = '*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;backgro
 def page(route, title, body):
     dest = D/route.strip('/')
     dest.mkdir(parents=True, exist_ok=True)
-    content = '<!doctype html><html lang="en-GB"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>'+E(title)+' | The Necessary Tangle</title><meta name="description" content="Primary reading and inspectable connections across regulation, learning, transduction, and living organisation."><link rel="canonical" href="https://transduction.systems'+route+'"><style>'+css+'</style></head><body><nav aria-label="Main">'+link('/','Atlas')+link('/library/','Sources')+link('/learning/','Learning')+link('/updates/2026-10-29/','Latest update')+'</nav><main><p class="meta">Release 0.35 · 29 October 2026</p><h1>'+E(title)+'</h1>'+body+'</main><footer><p>Curated by '+link('https://www.antlerboy.com/','Benjamin P Taylor')+'. Primary-source research assisted by AI. Sources retain their authorship and terms. Editorial comparisons are identified where they occur.</p><p>'+link('/contribute/','Suggest a source or challenge a connection')+'</p></footer><a id="openUpdates" href="https://github.com/antlerboy/the-necessary-tangle/issues/2" aria-label="Open updates"></a></body></html>\n'
+    content = '<!doctype html><html lang="en-GB"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>'+E(title)+' | The Necessary Tangle</title><meta name="description" content="Primary reading and inspectable connections across regulation, learning, transduction, and living organisation."><link rel="canonical" href="https://transduction.systems'+route+'"><style>'+css+'</style><link rel="stylesheet" href="/assets/reader-opening.css"></head><body><nav aria-label="Main">'+link('/','Atlas')+link('/library/','Sources')+link('/learning/','Learning')+link('/updates/2026-10-29/','October 2026 edition')+'</nav><main><p class="meta">Release 0.35 · 29 October 2026</p><h1>'+E(title)+'</h1>'+body+'</main><footer><p>Curated by '+link('https://www.antlerboy.com/','Benjamin P Taylor')+'. Primary-source research assisted by AI. Sources retain their authorship and terms. Editorial comparisons are identified where they occur.</p><p>'+link('/contribute/','Suggest a source or challenge a connection')+'</p></footer><a id="openUpdates" href="https://github.com/antlerboy/the-necessary-tangle/issues/2" aria-label="Open updates"></a></body></html>\n'
     (dest/'index.html').write_text(content, encoding='utf-8')
 
 body = (S/'reading.html').read_text(encoding='utf-8')
@@ -187,16 +187,25 @@ body = (S/'reading.html').read_text(encoding='utf-8')
 body = re.sub(r'\{\{atlas:([^}]+)\}\}', lambda m: atlas(m[1]), body)
 sources = {s['id']: s for s in d['sources']}
 body = re.sub(r'\{\{source:([^}]+)\}\}', lambda m: link(sources[m[1]]['url'], sources[m[1]]['title']), body)
-body += '<section id="sources"><h2>Primary sources and passage checks</h2><p>These records identify the passages used in this release. An open copy establishes access; it does not remove copyright or turn every claim in a work into an accepted atlas statement.</p>'
+body += '<section id="sources"><h2>Primary sources and editions</h2><p>Page numbers refer to the edition linked in each note. The authors and publishers retain the rights to their works.</p>'
+edition_notes = {
+    'src_ashby_intro_cybernetics_1956': 'The archive hosts the 1957 second impression of the 1956 book. Each PDF page shows two printed pages. Section numbers identify the passage in either edition.',
+    'src_conant_ashby_good_regulator_1970': 'The page numbers above refer to the electronic transcription. Some equations in that copy have formatting errors; consult the published article for the notation.',
+    'src_u35_beer_vsm_1989': 'The Cwarel Isaf Institute published this electronic edition in 2002. Beer dated the text 1989. Appendix 2 points back to The Heart of Enterprise (1979).',
+    'src_u35_bateson_steps_1987': 'The page numbers refer to the 1987 reprint, identified on its title and copyright pages.',
+    'src_shannon_communication_1948': 'The page numbers are those of the corrected reprint. Shannon sets aside the meaning of a message to examine its transmission.',
+    'src_u35_argyris_loops_1976': 'The publisher lists the article in this issue on pp. 363–375. The separate reading copy is a third-party transcription.',
+    'src_u35_simondon_ontogenesis_2009': 'Gregory Flanders translated this text in 2009. The definition and the example of crystallisation appear on printed p. 11 (PDF p. 8).',
+    'src_u35_maturana_organisation_living_1975': 'The Biology of Cognition Lab links to the 1999 reprint. Page numbers here are from that edition of the 1975 paper.',
+    'src_u35_varela_maturana_uribe_1974': 'The University of Illinois Chicago hosts this scan. Section 3 defines autopoietic organisation. Section 9 gives the authors’ procedure for identifying it. Their model illustrates the proposal.',
+}
 for packet in packets:
     for src in packet['sources']:
-        body += '<article id="'+E(src['id'])+'"><h3>'+link(src['url'], src['title'])+'</h3><p class="source">'+E(', '.join(src.get('authors', [])))+' · '+E(src.get('date', ''))+'</p><p>'+E(src['locator'])+'</p><p>'+E(src.get('verified', ''))+'</p>'
-        if src.get('limits'):
-            body += '<p class="source">'+E(src['limits'])+'</p>'
+        body += '<article id="'+E(src['id'])+'"><h3>'+link(src['url'], src['title'])+'</h3><p class="source">'+E(', '.join(src.get('authors', [])))+' · '+E(src.get('date', ''))+'</p><p>'+E(src['locator'])+'</p><p>'+E(edition_notes[src['id']])+'</p>'
         if src.get('reading_url'):
-            body += '<p class="source">'+link(src['reading_url'], 'Inspected reading copy')+'</p>'
+            body += '<p class="source">'+link(src['reading_url'], 'Reading copy')+'</p>'
         body += '</article>'
-body += '<p>'+link('/updates/2026-10-29/evidence.json','Download the evidence packet')+'</p></section>'
+body += '<p>'+link('/updates/2026-10-29/evidence.json','Download the original research notes (JSON)')+'</p></section>'
 page('/reading/connections/', 'What crosses a boundary? Regulation, learning, and transduction', body)
 
 cards = '<div class="grid card-grid three">'

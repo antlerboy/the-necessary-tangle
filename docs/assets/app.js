@@ -267,6 +267,7 @@
 
   function publicStatusLabel(value) {
     const labels = {
+      research_pass_needs_editor: 'Awaiting editorial review',
       accepted: 'Accepted in this release',
       corroborated: 'Supported by more than one source',
       provisional: 'Provisional',
@@ -682,7 +683,7 @@
       <p>${linkifyKnownText(claim.statement, [node.id])}</p>
       <div class="badges">
         <span class="badge">${esc(publicStatusLabel(claim.status))}</span>
-        <span class="badge">${esc(titleCase(claim.review_status))}</span>
+        <span class="badge">${esc(publicStatusLabel(claim.review_status))}</span>
       </div>
     </div>`).join('');
 
