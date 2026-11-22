@@ -1,8 +1,9 @@
 const {chromium}=require('playwright');
 const assert=require('node:assert/strict'),http=require('node:http'),fs=require('node:fs'),path=require('node:path');
+const edition=require('../docs/reader-edition.json');
 const root=path.resolve(__dirname,'../docs'),out=path.resolve(__dirname,'../validation/adventure-42-browser');
 (async()=>{
-  let browser,server;const report={reader_release:'0.42',widths:[],checks:[],passed:false};
+  let browser,server;const report={adventure_release:'0.42',reader_release:edition.reader_release,widths:[],checks:[],passed:false};
   try {
     let base=(process.env.ADVENTURE_BASE_URL||'').replace(/\/$/,'');
     if(!base){server=http.createServer((req,res)=>{try{let f=path.resolve(root,'.'+decodeURIComponent(new URL(req.url,'http://local').pathname));assert(f.startsWith(root+path.sep)||f===root);if(fs.statSync(f).isDirectory())f=path.join(f,'index.html');res.setHeader('Content-Type',({'.html':'text/html; charset=utf-8','.json':'application/json','.js':'application/javascript','.css':'text/css','.svg':'image/svg+xml'})[path.extname(f)]||'application/octet-stream');res.end(fs.readFileSync(f));}catch{res.writeHead(404);res.end();}});await new Promise(r=>server.listen(0,'127.0.0.1',r));base='http://127.0.0.1:'+server.address().port;}
@@ -45,13 +46,24 @@ const root=path.resolve(__dirname,'../docs'),out=path.resolve(__dirname,'../vali
     let page=await broken.newPage();await page.goto(base+'/42/');await page.waitForFunction(()=>!document.getElementById('command').disabled);await page.getByRole('button',{name:'Restore',exact:true}).click();assert((await page.locator('#transcript').innerText()).includes('No valid manual checkpoint'));await broken.close();
     const blocked=await browser.newContext();await blocked.addInitScript(()=>{Storage.prototype.setItem=function(){throw new DOMException('Storage unavailable','QuotaExceededError');};});
     page=await blocked.newPage();await page.goto(base+'/42/');await page.waitForFunction(()=>!document.getElementById('command').disabled);await page.getByRole('button',{name:'Save',exact:true}).click();assert((await page.locator('#storageStatus').innerText()).includes('unavailable'));assert((await page.locator('#transcript').innerText()).includes('could not be saved'));await blocked.close();
-    const home=await browser.newPage();await home.goto(base+'/');assert(await home.locator('#adventure-42 a[href="/42/"]').count());await home.waitForFunction(()=>document.getElementById('releaseBadge').textContent==='Release 0.42');
+    const home=await browser.newPage();await home.goto(base+'/');assert(await home.locator('#adventure-42 a[href="/42/"]').count());await home.waitForFunction(current=>document.getElementById('releaseBadge').textContent==='Release '+current,edition.reader_release);
+    const published=await(await home.request.get(base+'/reader-edition.json')).json();assert.deepEqual(published,edition);
     for(const width of [1440,390]){
       await home.setViewportSize({width,height:960});await home.goto(base+'/');
-      const badge=home.getByRole('link',{name:'Version history, current release 0.42',exact:true});assert.equal(await badge.getAttribute('href'),'/versions/');
+      const badge=home.getByRole('link',{name:'Version history, current release '+edition.reader_release,exact:true});assert.equal(await badge.getAttribute('href'),'/versions/');
       await badge.focus();await home.keyboard.press('Enter');await home.waitForURL('**/versions/');
       assert(await home.getByRole('heading',{name:'Version history',exact:true}).isVisible());
       assert(await home.locator('.version-history article').count()>30,'History includes earlier recorded releases');
+      const current=home.locator('.version-history article').first();
+      assert.equal(await current.locator('.current').innerText(),'Current reader release');
+      assert.equal(await current.locator('h2 a').textContent(),'v'+edition.reader_release);
+      assert.equal(await current.locator('h2 a').getAttribute('href'),edition.release_url);
+      await current.locator('h2 a').click();await home.waitForURL(base+edition.release_url);
+      const reading=home.locator('a[href="'+edition.reading_url+'"]');await reading.focus();await home.keyboard.press('Enter');await home.waitForURL(base+edition.reading_url);
+      const destination=new URL(edition.reading_url,base);
+      const target=destination.hash ? home.locator(destination.hash) : home.locator('main h1');
+      assert(await target.isVisible(),'The current reading opens at its advertised destination');
+      await home.goto(base+'/versions/');
       assert.equal(await home.locator('#v0-42 h2 a').getAttribute('href'),'/42/');
       assert(await home.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),'History overflow');
       assert(await home.getByRole('link',{name:'Open updates',exact:true}).isVisible());

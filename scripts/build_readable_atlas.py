@@ -121,7 +121,7 @@ def paragraph(value):
     return '<p>' + esc(value) + '</p>' if value else ''
 
 
-def page(title, description, path, body, release):
+def page(title, description, path, body, release, edition_label='Graph research edition'):
     return f'''<!doctype html>
 <html lang="en-GB"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{esc(title)} | The Necessary Tangle</title><meta name="description" content="{esc(description[:260])}">
@@ -130,7 +130,7 @@ def page(title, description, path, body, release):
 <link rel="canonical" href="{BASE}{path}"><link rel="icon" href="/favicon.svg"><link rel="stylesheet" href="/assets/readable-atlas.css">
 </head><body class="readable-atlas"><a class="skip-link" href="#main">Skip to content</a>
 <header><a class="brand" href="/">The Necessary Tangle</a><nav aria-label="Main navigation"><a href="/entries/">Entries</a><a href="/journeys/">Reading journeys</a><a href="/systems-thinking/claim-lab/">Test a claim</a><a href="/systems-thinking/practice/">Practice</a><a href="/library/">Sources</a></nav></header>
-<main id="main"><p class="eyebrow">Readable atlas · Release {esc(release)}</p><h1>{esc(title)}</h1>{body}</main>
+<main id="main"><p class="eyebrow">{esc(edition_label)} {esc(release)}</p><h1>{esc(title)}</h1>{body}</main>
 <footer><p><a href="https://antlerboy.com/">Benjamin P Taylor</a> is responsible for the atlas’s editorial decisions. AI assists with research and publishing.</p>
 <p>Original atlas text and data: <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>. Linked works retain their authorship and terms. <a href="/stewardship/">Responsibility and maintenance</a> · <a href="/#view=contribute">Suggest a correction</a>.</p></footer>
 <a class="update-thread-dot" href="https://github.com/antlerboy/the-necessary-tangle/issues/2" target="_blank" rel="noopener" aria-label="Open updates"></a></body></html>'''

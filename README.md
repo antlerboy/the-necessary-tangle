@@ -1,4 +1,7 @@
 # The Necessary Tangle
+<!-- museum-release -->
+Current reader release **0.43, 22 November 2026**. [The museum alarm](https://transduction.systems/reading/connections/#museum-store). [Release account](https://transduction.systems/updates/2026-11-22-museum/). Graph research edition **0.41**.
+<!-- /museum-release -->
 <!-- adventure-42 -->
 Reader release **0.42, 15 November 2026**: [An adventure in the Tangle](https://transduction.systems/42/). An original CP/M-inspired text adventure connected to the complete public atlas. Graph research release remains 0.41. See the Publish workflow and deployment.json for actual publication identity.
 <!-- /adventure-42 -->

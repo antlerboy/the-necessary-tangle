@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.43 — 22 November 2026
+
+A museum alarm sends the same warning for heat and cold. The worked example links Ashby, Conant and Ashby, and Beer to the decisions facing the duty officer. Atlas entries now give the account before its review notes.
+
 ## 0.42 — 15 November 2026
 
 An original branching text adventure, inspired by the CP/M Hitchhiker’s game,

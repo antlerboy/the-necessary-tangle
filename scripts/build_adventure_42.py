@@ -125,7 +125,10 @@ content = home.read_text(encoding='utf-8')
 content = re.sub(r'<!-- ' + MARK + r' -->.*?<!-- /' + MARK + r' -->\s*', '', content, flags=re.S)
 feature = '''<!-- adventure-42 --><section class="resource-pathways plain-panel wide" id="adventure-42"><p class="eyebrow">Release 0.42 · An original text adventure</p><h2><a href="/42/">A&gt;TANGLE</a></h2><p>An unlisted platform, a listening instrument, weather in two glass globes, and a library with doors in its shelves. Explore systems | cybernetics | complexity through a CP/M-inspired adventure.</p><p><a class="button primary" href="/42/">Enter the adventure</a> <a href="/updates/2026-11-15-42/">About this release</a></p></section><!-- /adventure-42 -->'''
 content = content.replace('<!-- readable-atlas-20261105 -->', feature + '<!-- readable-atlas-20261105 -->', 1)
-content = re.sub(r'<(?:span|a) id="releaseBadge"[^>]*>Release [^<]+</(?:span|a)>', '<a id="releaseBadge" data-reader-release="0.42" href="/versions/" aria-label="Version history, current release 0.42">Release 0.42</a>', content, count=1)
+reader_release = (json.loads((D / 'reader-edition.json').read_text())['reader_release']
+                  if '<!-- reader-opening -->' in content else '0.42')
+badge = f'<a id="releaseBadge" data-reader-release="{reader_release}" href="/versions/" aria-label="Version history, current release {reader_release}">Release {reader_release}</a>'
+content = re.sub(r'<(?:span|a) id="releaseBadge"[^>]*>Release [^<]+</(?:span|a)>', badge, content, count=1)
 home.write_text(content, encoding='utf-8')
 # The interface can advance independently of the maintained research graph.
 app = D / 'assets/app.js'
@@ -158,5 +161,5 @@ if '## 0.42 — 15 November 2026' not in content:
     changelog.write_text(content.replace('# Changelog', '# Changelog' + entry, 1), encoding='utf-8')
 assert (R / 'data/public-data.json').read_bytes() == raw, 'Adventure must not mutate the graph'
 from version_history import build as build_version_history
-build_version_history(R, '0.42')
+build_version_history(R, reader_release)
 print(f'Adventure 0.42 built: {len(worlds["rooms"])} places, {len(nodes)} public entries, {len(edges)} recorded connections; graph {data["meta"]["release"]} unchanged.')

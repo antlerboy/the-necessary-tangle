@@ -45,6 +45,9 @@ data=json.loads((ROOT/'docs/assets/public-data.json').read_text())
 assert len(pack['labs'])==26
 assert data['practice_pack']['lab_count']==26
 assert data['meta']['release']==manifest['release']
+edition=json.loads(fetch('/reader-edition.json',False))
+assert edition['reader_release']==manifest['reader_release']
+assert edition['graph_release']==manifest['graph_release']==manifest['release']
 # Check the ordinary, unqualified URL as readers encounter it, not just a cache-buster.
 ordinary=json.loads(fetch('/deployment.json',False))
 assert ordinary['commit']==EXPECTED,('Ordinary URL serves another commit',ordinary)

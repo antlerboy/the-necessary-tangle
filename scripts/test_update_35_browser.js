@@ -24,16 +24,16 @@ async function main() {
     base = 'http://127.0.0.1:' + server.address().port;
   }
   fs.mkdirSync(output, { recursive: true });
-  browser = await chromium.launch();
+  browser = await chromium.launch(process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH ? {executablePath: process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH} : {});
   const request = await browser.newContext();
   const response = await request.request.get(base + '/assets/public-data.json');
   assert.equal(response.status(), 200);
   const data = await response.json();
-  const readerResponse = await request.request.get(base + '/42/manifest.json');
+  const readerResponse = await request.request.get(base + '/reader-edition.json');
   assert.equal(readerResponse.status(), 200, 'Reader edition must identify its graph');
   const readerEdition = await readerResponse.json();
   assert.equal(readerEdition.graph_release, data.meta.release, 'Reader and research graph identities must agree');
-  assert.equal(readerEdition.reader_release, '0.42', 'Current reader release is explicit');
+  assert.equal(readerEdition.reader_release, require('../docs/reader-edition.json').reader_release, 'Current reader release is explicit');
   assert(data.depth_20261029, 'The historical October cohort must remain recorded');
   const journeys = data.journeys.filter(row => row.connection_pass === 'depth_20261029');
   const profiles = data.profiles.filter(row => row.connection_pass === 'depth_20261029');

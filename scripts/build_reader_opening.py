@@ -63,6 +63,9 @@ if reading.exists():
         example = (CONTENT / 'museum.html').read_text().strip()
         text = text.replace(anchor, '<!-- reader-example -->' + example + '<!-- /reader-example -->\n' + anchor, 1)
         text = text.replace('<nav aria-label="Reading routes">', '<nav aria-label="Reading routes">' + example_link, 1)
+    original_date = '<p class="meta">Release 0.35 · 29 October 2026</p>'
+    dated_guide = '<p class="meta">Original guide · Release 0.35 · 29 October 2026. <a href="/updates/2026-11-22-museum/">Museum example · Reader release 0.43</a>.</p>'
+    text = text.replace(dated_guide, original_date) if args.reverse else text.replace(original_date, dated_guide)
     reading.write_text(text)
 
 work = ROOT / 'documentation/NEXT_WORK.md'
@@ -71,3 +74,6 @@ if not args.reverse:
     packet = '<!-- reader-opening-packet -->\n' + (CONTENT / 'packet.txt').read_text().strip() + '\n<!-- /reader-opening-packet -->\n\n'
     work_text = work_text.replace('# Next work\n', '# Next work\n' + packet, 1)
 work.write_text(work_text)
+
+from reader_edition import build as build_edition
+build_edition(ROOT, reverse=args.reverse)

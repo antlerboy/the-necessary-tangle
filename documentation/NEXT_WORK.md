@@ -2,7 +2,7 @@
 <!-- reader-opening-packet -->
 ## Current packet: museum alarm and reader copy, 22 November 2026
 
-Benjamin P Taylor requested a cold read of the public site and greater depth in the atlas. This packet revises the front page, the connections guide, and shared entry and reading-route copy. An invented museum store illustrates the different questions raised by Ashby (1956), Conant and Ashby (1970), and Beer (1989). Preserve the graph, source records, previous review decisions, historical URLs, and reader release identity. Verify the historical rebuild, source links, example fragment, review links, and mobile reading order.
+Benjamin P Taylor requested a cold read of the public site and greater depth in the atlas. This packet revises the front page, the connections guide, and shared entry and reading-route copy. An invented museum store illustrates the different questions raised by Ashby (1956), Conant and Ashby (1970), and Beer (1989). Preserve the graph, source records, previous review decisions, and historical URLs. Benjamin P Taylor asked for the museum edition to advance the public reader version. Record reader 0.43 for 22 November, preserve adventure release 0.42 and graph research 0.41, and check the badge, release history, and deployment metadata against the current reader record. Verify the historical rebuild, source links, example fragment, review links, and mobile reading order.
 <!-- /reader-opening-packet -->
 
 <!-- adventure-42 -->

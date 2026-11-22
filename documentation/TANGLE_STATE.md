@@ -1,4 +1,9 @@
 # Current Tangle state
+<!-- museum-release -->
+## Current reader release 0.43
+
+22 November 2026. [The museum alarm](https://transduction.systems/reading/connections/#museum-store) is a worked comparison of three primary sources. Entry and reading-route copy was revised. The research graph remains at 0.41. [Release account](https://transduction.systems/updates/2026-11-22-museum/).
+<!-- /museum-release -->
 <!-- adventure-42 -->
 ## Reader release 0.42
 
