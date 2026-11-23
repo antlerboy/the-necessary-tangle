@@ -2114,6 +2114,120 @@
           ]
         }
       ]
+    },
+    {
+      "post_id": 26884,
+      "post_url": "https://stream.syscoi.com/2026/02/07/laws-of-form-conference-2026-lof26-10-14-august-2026-university-of-cambridge-uk/",
+      "title": "Laws of Form Conference 2026 (LoF26), 10 – 14 August 2026, University of Cambridge,&nbsp;UK",
+      "status": "publish",
+      "password_protected": false,
+      "published_gmt": "2026-02-07T21:18:48Z",
+      "modified_local": "2026-11-23T04:29:53",
+      "content_sha256": "6da0de6cda3e0782d82db9101dc05117e0edf01430f90cdfd7f4f8644f9748f3",
+      "author_id": 1379014,
+      "author_name": "Benjamin P Taylor",
+      "primary_url": "https://lof50.com/lof26-day1",
+      "original_urls": [
+        "https://lof50.com/lof26-day1",
+        "https://lof50.com/lof26-day2",
+        "https://lof50.com/lof26-day3",
+        "https://lof50.com/lof26-day4",
+        "https://lof50.com/lof26-day5",
+        "https://lof50.com/"
+      ],
+      "canonical_aliases": [],
+      "source_authors": [
+        "Spencer-Brown Society"
+      ],
+      "description": "The Spencer-Brown Society's Laws of Form 2026 conference took place at Wolfson College, Cambridge, on 10–14 August 2026, not the Faculty of Education venue named in its original call for abstracts. The public SysCoI listing was updated on 23 November to correct that location and link the Society's five-day conference programme and presentation abstracts. The linked sessions address George Spencer-Brown's Laws of Form in mathematics, philosophy, psychology, systems, and cybernetics. The submission and registration dates still visible further down the original notice are expired historical information. The programme entries are abstracts rather than verified recordings or full papers.",
+      "description_status": "source_scoped_summary",
+      "description_sources": [
+        {
+          "url": "https://lof50.com/",
+          "locator": "LoF26 retrospective conference announcement; venue and August 2026 dates",
+          "checked_at": "2026-11-23"
+        },
+        {
+          "url": "https://lof50.com/lof26-day1",
+          "locator": "Day 1 programme and session abstracts",
+          "checked_at": "2026-11-23"
+        },
+        {
+          "url": "https://lof50.com/lof26-day3",
+          "locator": "Day 3 programme and session abstracts",
+          "checked_at": "2026-11-23"
+        },
+        {
+          "url": "https://stream.syscoi.com/2026/02/07/laws-of-form-conference-2026-lof26-10-14-august-2026-university-of-cambridge-uk/",
+          "locator": "Update dated 23 November 2026 and original historical call below",
+          "checked_at": "2026-11-23"
+        }
+      ],
+      "versions": [
+        {
+          "modified_local": "2026-11-23T04:29:53",
+          "content_sha256": "6da0de6cda3e0782d82db9101dc05117e0edf01430f90cdfd7f4f8644f9748f3",
+          "observed_at": "2026-11-23T11:32:14.205Z",
+          "post_url": "https://stream.syscoi.com/2026/02/07/laws-of-form-conference-2026-lof26-10-14-august-2026-university-of-cambridge-uk/",
+          "original_urls": [
+            "https://lof50.com/lof26-day1",
+            "https://lof50.com/lof26-day2",
+            "https://lof50.com/lof26-day3",
+            "https://lof50.com/lof26-day4",
+            "https://lof50.com/lof26-day5",
+            "https://lof50.com/"
+          ]
+        }
+      ]
+    },
+    {
+      "post_id": 29581,
+      "post_url": "https://stream.syscoi.com/2026/11/23/the-life-and-opinions-of-tristram-shandy-gentleman-orourke-2026/",
+      "title": "The Life and Opinions of Tristram Shandy, Gentleman – O’Rourke&nbsp;(2026)",
+      "status": "publish",
+      "password_protected": false,
+      "published_gmt": "2026-11-23T09:23:31Z",
+      "modified_local": "2026-11-23T04:23:31",
+      "content_sha256": "97e68e381d8cbd1467db9c4b71ca927537dc7722c51b20dc4568d0628e517fce",
+      "author_id": 1379014,
+      "author_name": "Benjamin P Taylor",
+      "primary_url": "https://rsorourke.com/posts/tristram-shandy",
+      "original_urls": [
+        "https://rsorourke.com/posts/tristram-shandy",
+        "https://rsorourke.com/",
+        "https://stream.syscoi.com/2026/10/27/richard-s-orourke/"
+      ],
+      "canonical_aliases": [],
+      "source_authors": [
+        "Richard S O’Rourke"
+      ],
+      "description": "Richard S O’Rourke's first essay in a proposed three-part series argues that much contemporary AI research has neglected the early cyberneticians' explicit problem of regulating adaptive machines. He follows Ross Ashby, Norbert Wiener, Rosenblatt, and related historical work, and examines what current debates about large language model alignment may rediscover. He treats an LLM's human operator as holding and correcting its goal, and questions histories of AI that acknowledge cybernetic precursors without naming the field. These are O’Rourke's historical interpretations and proposals, not independent verification of priority, lineage, or the technical feasibility of his suggested regulatory approach.",
+      "description_status": "source_scoped_summary",
+      "description_sources": [
+        {
+          "url": "https://rsorourke.com/posts/tristram-shandy",
+          "locator": "Opening sections; Nobel and early cybernetics discussion; the three-part series statement",
+          "checked_at": "2026-11-23"
+        },
+        {
+          "url": "https://stream.syscoi.com/2026/11/23/the-life-and-opinions-of-tristram-shandy-gentleman-orourke-2026/",
+          "locator": "Public SysCoI summary and source links",
+          "checked_at": "2026-11-23"
+        }
+      ],
+      "versions": [
+        {
+          "modified_local": "2026-11-23T04:23:31",
+          "content_sha256": "97e68e381d8cbd1467db9c4b71ca927537dc7722c51b20dc4568d0628e517fce",
+          "observed_at": "2026-11-23T11:32:14.205Z",
+          "post_url": "https://stream.syscoi.com/2026/11/23/the-life-and-opinions-of-tristram-shandy-gentleman-orourke-2026/",
+          "original_urls": [
+            "https://rsorourke.com/posts/tristram-shandy",
+            "https://rsorourke.com/",
+            "https://stream.syscoi.com/2026/10/27/richard-s-orourke/"
+          ]
+        }
+      ]
     }
   ]
 }
