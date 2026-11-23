@@ -5,6 +5,71 @@
   "initial_publication_cutoff": "2026-10-24T00:00:00-05:00",
   "posts": [
     {
+      "post_id": 26884,
+      "post_url": "https://stream.syscoi.com/2026/02/07/laws-of-form-conference-2026-lof26-10-14-august-2026-university-of-cambridge-uk/",
+      "title": "Laws of Form Conference 2026 (LoF26), 10 – 14 August 2026, University of Cambridge,&nbsp;UK",
+      "status": "publish",
+      "password_protected": false,
+      "published_gmt": "2026-02-07T21:18:48Z",
+      "modified_local": "2026-11-23T04:29:53",
+      "content_sha256": "6da0de6cda3e0782d82db9101dc05117e0edf01430f90cdfd7f4f8644f9748f3",
+      "author_id": 1379014,
+      "author_name": "Benjamin P Taylor",
+      "primary_url": "https://lof50.com/lof26-day1",
+      "original_urls": [
+        "https://lof50.com/lof26-day1",
+        "https://lof50.com/lof26-day2",
+        "https://lof50.com/lof26-day3",
+        "https://lof50.com/lof26-day4",
+        "https://lof50.com/lof26-day5",
+        "https://lof50.com/"
+      ],
+      "canonical_aliases": [],
+      "source_authors": [
+        "Spencer-Brown Society"
+      ],
+      "description": "The Spencer-Brown Society's Laws of Form 2026 conference took place at Wolfson College, Cambridge, on 10–14 August 2026, not the Faculty of Education venue named in its original call for abstracts. The public SysCoI listing was updated on 23 November to correct that location and link the Society's five-day conference programme and presentation abstracts. The linked sessions address George Spencer-Brown's Laws of Form in mathematics, philosophy, psychology, systems, and cybernetics. The submission and registration dates still visible further down the original notice are expired historical information. The programme entries are abstracts rather than verified recordings or full papers.",
+      "description_status": "source_scoped_summary",
+      "description_sources": [
+        {
+          "url": "https://lof50.com/",
+          "locator": "LoF26 retrospective conference announcement; venue and August 2026 dates",
+          "checked_at": "2026-11-23"
+        },
+        {
+          "url": "https://lof50.com/lof26-day1",
+          "locator": "Day 1 programme and session abstracts",
+          "checked_at": "2026-11-23"
+        },
+        {
+          "url": "https://lof50.com/lof26-day3",
+          "locator": "Day 3 programme and session abstracts",
+          "checked_at": "2026-11-23"
+        },
+        {
+          "url": "https://stream.syscoi.com/2026/02/07/laws-of-form-conference-2026-lof26-10-14-august-2026-university-of-cambridge-uk/",
+          "locator": "Update dated 23 November 2026 and original historical call below",
+          "checked_at": "2026-11-23"
+        }
+      ],
+      "versions": [
+        {
+          "modified_local": "2026-11-23T04:29:53",
+          "content_sha256": "6da0de6cda3e0782d82db9101dc05117e0edf01430f90cdfd7f4f8644f9748f3",
+          "observed_at": "2026-11-23T11:32:14.205Z",
+          "post_url": "https://stream.syscoi.com/2026/02/07/laws-of-form-conference-2026-lof26-10-14-august-2026-university-of-cambridge-uk/",
+          "original_urls": [
+            "https://lof50.com/lof26-day1",
+            "https://lof50.com/lof26-day2",
+            "https://lof50.com/lof26-day3",
+            "https://lof50.com/lof26-day4",
+            "https://lof50.com/lof26-day5",
+            "https://lof50.com/"
+          ]
+        }
+      ]
+    },
+    {
       "post_id": 29126,
       "post_url": "https://stream.syscoi.com/2026/10/08/warren-mcculloch-chairman-sic-of-the-macy-conferences-on-cybernetics-in-a-letter-to-the-cybernetics-group-before-the-tenth-and-final-conference-1953-discovered-and-shared-by-sean-manion/",
       "title": "Warren McCulloch, chairman [sic] of the Macy Conferences on Cybernetics, in a letter to the cybernetics group before the tenth and final conference, 1953. Discovered and shared by Sean Manion.",
@@ -2111,71 +2176,6 @@
             "https://www.researchgate.net/post/Sigmund_Freud_Project_for_a_Scientific_Psychology",
             "https://groups.google.com/g/structural-modeling/c/jG7D_YnkBVw",
             "https://groups.google.com/g/syssciwg/c/Ws8xyhMJX5Y"
-          ]
-        }
-      ]
-    },
-    {
-      "post_id": 26884,
-      "post_url": "https://stream.syscoi.com/2026/02/07/laws-of-form-conference-2026-lof26-10-14-august-2026-university-of-cambridge-uk/",
-      "title": "Laws of Form Conference 2026 (LoF26), 10 – 14 August 2026, University of Cambridge,&nbsp;UK",
-      "status": "publish",
-      "password_protected": false,
-      "published_gmt": "2026-02-07T21:18:48Z",
-      "modified_local": "2026-11-23T04:29:53",
-      "content_sha256": "6da0de6cda3e0782d82db9101dc05117e0edf01430f90cdfd7f4f8644f9748f3",
-      "author_id": 1379014,
-      "author_name": "Benjamin P Taylor",
-      "primary_url": "https://lof50.com/lof26-day1",
-      "original_urls": [
-        "https://lof50.com/lof26-day1",
-        "https://lof50.com/lof26-day2",
-        "https://lof50.com/lof26-day3",
-        "https://lof50.com/lof26-day4",
-        "https://lof50.com/lof26-day5",
-        "https://lof50.com/"
-      ],
-      "canonical_aliases": [],
-      "source_authors": [
-        "Spencer-Brown Society"
-      ],
-      "description": "The Spencer-Brown Society's Laws of Form 2026 conference took place at Wolfson College, Cambridge, on 10–14 August 2026, not the Faculty of Education venue named in its original call for abstracts. The public SysCoI listing was updated on 23 November to correct that location and link the Society's five-day conference programme and presentation abstracts. The linked sessions address George Spencer-Brown's Laws of Form in mathematics, philosophy, psychology, systems, and cybernetics. The submission and registration dates still visible further down the original notice are expired historical information. The programme entries are abstracts rather than verified recordings or full papers.",
-      "description_status": "source_scoped_summary",
-      "description_sources": [
-        {
-          "url": "https://lof50.com/",
-          "locator": "LoF26 retrospective conference announcement; venue and August 2026 dates",
-          "checked_at": "2026-11-23"
-        },
-        {
-          "url": "https://lof50.com/lof26-day1",
-          "locator": "Day 1 programme and session abstracts",
-          "checked_at": "2026-11-23"
-        },
-        {
-          "url": "https://lof50.com/lof26-day3",
-          "locator": "Day 3 programme and session abstracts",
-          "checked_at": "2026-11-23"
-        },
-        {
-          "url": "https://stream.syscoi.com/2026/02/07/laws-of-form-conference-2026-lof26-10-14-august-2026-university-of-cambridge-uk/",
-          "locator": "Update dated 23 November 2026 and original historical call below",
-          "checked_at": "2026-11-23"
-        }
-      ],
-      "versions": [
-        {
-          "modified_local": "2026-11-23T04:29:53",
-          "content_sha256": "6da0de6cda3e0782d82db9101dc05117e0edf01430f90cdfd7f4f8644f9748f3",
-          "observed_at": "2026-11-23T11:32:14.205Z",
-          "post_url": "https://stream.syscoi.com/2026/02/07/laws-of-form-conference-2026-lof26-10-14-august-2026-university-of-cambridge-uk/",
-          "original_urls": [
-            "https://lof50.com/lof26-day1",
-            "https://lof50.com/lof26-day2",
-            "https://lof50.com/lof26-day3",
-            "https://lof50.com/lof26-day4",
-            "https://lof50.com/lof26-day5",
-            "https://lof50.com/"
           ]
         }
       ]
