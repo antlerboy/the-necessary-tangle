@@ -2228,6 +2228,63 @@
           ]
         }
       ]
+    },
+    {
+      "post_id": 29584,
+      "post_url": "https://stream.syscoi.com/2026/11/23/sigmund-freud-project-for-a-scientific-psychology-selection-2-1/",
+      "title": "Sigmund Freud • Project for a Scientific Psychology • Selection 2.1",
+      "status": "publish",
+      "password_protected": false,
+      "published_gmt": "2026-11-23T16:06:38Z",
+      "modified_local": "2026-11-23T11:08:51",
+      "content_sha256": "e4cefa972c08afa4d02ecbda692ec89b388cb1240a77a24235801baac4baa21d",
+      "author_id": 10781160,
+      "author_name": "Jon Awbrey",
+      "primary_url": "https://inquiryintoinquiry.com/2026/11/23/sigmund-freud-project-for-a-scientific-psychology-selection-2-1/",
+      "original_urls": [
+        "https://inquiryintoinquiry.com/2026/11/23/sigmund-freud-project-for-a-scientific-psychology-selection-2-1/",
+        "https://www.academia.edu/community/V16Nqp",
+        "https://groups.google.com/g/cybcom/c/QBQkJYRO80Q",
+        "https://groups.io/g/lawsofform/topic/sigmund_freud_project_for/122367984",
+        "https://www.researchgate.net/post/Sigmund_Freud_Project_for_a_Scientific_Psychology",
+        "https://groups.google.com/g/structural-modeling/c/jG7D_YnkBVw",
+        "https://groups.google.com/g/syssciwg/c/Ws8xyhMJX5Y"
+      ],
+      "canonical_aliases": [],
+      "source_authors": [
+        "Sigmund Freud"
+      ],
+      "description": "Jon Awbrey reproduces an excerpt from Sigmund Freud’s 1895 ‘Project for a Scientific Psychology’, specifically the introduction of the concept of an ego (p. 384 of the 1954 English translation). Freud describes a proposed organisation of neuronal quantities arising through repeated stimulation and facilitation, distinguishing relatively persistent and changing portions of that organisation. The excerpt is historical theoretical writing, not a verified contemporary neuroscientific account.",
+      "description_status": "source_scoped_summary",
+      "description_sources": [
+        {
+          "url": "https://inquiryintoinquiry.com/2026/11/23/sigmund-freud-project-for-a-scientific-psychology-selection-2-1/",
+          "locator": "Introduction of the Concept of an ‘Ego’; excerpt and full bibliographic attribution",
+          "checked_at": "2026-11-24"
+        },
+        {
+          "url": "https://stream.syscoi.com/2026/11/23/sigmund-freud-project-for-a-scientific-psychology-selection-2-1/",
+          "locator": "Public SysCoI excerpt and attribution to Freud, p. 384; cross-post links",
+          "checked_at": "2026-11-24"
+        }
+      ],
+      "versions": [
+        {
+          "modified_local": "2026-11-23T11:08:51",
+          "content_sha256": "e4cefa972c08afa4d02ecbda692ec89b388cb1240a77a24235801baac4baa21d",
+          "observed_at": "2026-11-24T07:00:08.381Z",
+          "post_url": "https://stream.syscoi.com/2026/11/23/sigmund-freud-project-for-a-scientific-psychology-selection-2-1/",
+          "original_urls": [
+            "https://inquiryintoinquiry.com/2026/11/23/sigmund-freud-project-for-a-scientific-psychology-selection-2-1/",
+            "https://www.academia.edu/community/V16Nqp",
+            "https://groups.google.com/g/cybcom/c/QBQkJYRO80Q",
+            "https://groups.io/g/lawsofform/topic/sigmund_freud_project_for/122367984",
+            "https://www.researchgate.net/post/Sigmund_Freud_Project_for_a_Scientific_Psychology",
+            "https://groups.google.com/g/structural-modeling/c/jG7D_YnkBVw",
+            "https://groups.google.com/g/syssciwg/c/Ws8xyhMJX5Y"
+          ]
+        }
+      ]
     }
   ]
 }
