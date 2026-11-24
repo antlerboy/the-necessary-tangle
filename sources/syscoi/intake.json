@@ -2285,6 +2285,107 @@
           ]
         }
       ]
+    },
+    {
+      "post_id": 29592,
+      "post_url": "https://stream.syscoi.com/2026/11/24/still-grim-up-north-42-the-systemic-review-2026/",
+      "title": "Still Grim Up North? – 42 The Systemic Review (2026)",
+      "status": "publish",
+      "password_protected": false,
+      "published_gmt": "2026-11-24T08:41:14Z",
+      "modified_local": "2026-11-24T03:41:14",
+      "content_sha256": "7ee330707c68d498994d6992244ea65d6978e40d0887fa92c52ebadd8e1f82ad",
+      "author_id": 1379014,
+      "author_name": "Benjamin P Taylor",
+      "primary_url": "https://42systemicreview.org/papers/still-grim-up-north/",
+      "original_urls": [
+        "https://42systemicreview.org/papers/still-grim-up-north/",
+        "https://42systemicreview.org/papers/"
+      ],
+      "canonical_aliases": [],
+      "source_authors": [
+        "42 The Systemic Review (SCiO)"
+      ],
+      "description": "42 The Systemic Review applies a systems-theory diagnostic framework to the regional developmental disadvantage described in the Child of the North report. The paper argues that unequal health, education and opportunity persist through reinforcing interactions across services, households, economies and national policy, rather than isolated service failures. It proposes attention to boundaries, feedback and locally adaptive capacity; its appendix separately critiques the original report. The diagnosis is the review’s argument, not an independently verified causal evaluation.",
+      "description_status": "source_scoped_summary",
+      "description_sources": [
+        {
+          "url": "https://42systemicreview.org/papers/still-grim-up-north/",
+          "locator": "Executive Summary; Findings 1–6; Technical Analysis; Appendix B",
+          "checked_at": "2026-11-24"
+        },
+        {
+          "url": "https://stream.syscoi.com/2026/11/24/still-grim-up-north-42-the-systemic-review-2026/",
+          "locator": "Public SysCoI description and links",
+          "checked_at": "2026-11-24"
+        }
+      ],
+      "versions": [
+        {
+          "modified_local": "2026-11-24T03:41:14",
+          "content_sha256": "7ee330707c68d498994d6992244ea65d6978e40d0887fa92c52ebadd8e1f82ad",
+          "observed_at": "2026-11-24T10:57:17.656Z",
+          "post_url": "https://stream.syscoi.com/2026/11/24/still-grim-up-north-42-the-systemic-review-2026/",
+          "original_urls": [
+            "https://42systemicreview.org/papers/still-grim-up-north/",
+            "https://42systemicreview.org/papers/"
+          ]
+        }
+      ]
+    },
+    {
+      "post_id": 29593,
+      "post_url": "https://stream.syscoi.com/2026/11/24/the-ratio-club-history-and-proposed-renewal/",
+      "title": "The Ratio Club – history and proposed renewal",
+      "status": "publish",
+      "password_protected": false,
+      "published_gmt": "2026-11-24T08:47:09Z",
+      "modified_local": "2026-11-24T03:47:09",
+      "content_sha256": "0b400c73c558a03144fc9f471ba2a0a035f33e68650417e16cbbf879b175091d",
+      "author_id": 1379014,
+      "author_name": "Benjamin P Taylor",
+      "primary_url": "https://theratioclub.org/",
+      "original_urls": [
+        "https://theratioclub.org/",
+        "https://theratioclub.org/library/mcculloch-shannon",
+        "https://stream.syscoi.com/2022/10/22/the-ratio-club-a-hub-of-british-cybernetics-husbands-and-holland-2008/"
+      ],
+      "canonical_aliases": [],
+      "source_authors": [
+        "The Ratio Club website (editorial authorship not stated)"
+      ],
+      "description": "This online resource describes the interdisciplinary London Ratio Club of 1949–1958, with profiles of its members and a proposed renewal through small in-person discussions of unfinished work. Its library introduces eight surviving letters between Warren McCulloch and Claude Shannon, including their accounts of visits to Britain in 1949 and 1950, drawing on the American Philosophical Society’s McCulloch papers. The renewal is a proposal, not a confirmed programme of meetings.",
+      "description_status": "source_scoped_summary",
+      "description_sources": [
+        {
+          "url": "https://theratioclub.org/",
+          "locator": "Homepage; member profiles and proposed renewal",
+          "checked_at": "2026-11-24"
+        },
+        {
+          "url": "https://theratioclub.org/library/mcculloch-shannon",
+          "locator": "McCulloch and Shannon, 1949–1950; The other letters; Source",
+          "checked_at": "2026-11-24"
+        },
+        {
+          "url": "https://stream.syscoi.com/2026/11/24/the-ratio-club-history-and-proposed-renewal/",
+          "locator": "Public SysCoI description and links",
+          "checked_at": "2026-11-24"
+        }
+      ],
+      "versions": [
+        {
+          "modified_local": "2026-11-24T03:47:09",
+          "content_sha256": "0b400c73c558a03144fc9f471ba2a0a035f33e68650417e16cbbf879b175091d",
+          "observed_at": "2026-11-24T10:57:17.656Z",
+          "post_url": "https://stream.syscoi.com/2026/11/24/the-ratio-club-history-and-proposed-renewal/",
+          "original_urls": [
+            "https://theratioclub.org/",
+            "https://theratioclub.org/library/mcculloch-shannon",
+            "https://stream.syscoi.com/2022/10/22/the-ratio-club-a-hub-of-british-cybernetics-husbands-and-holland-2008/"
+          ]
+        }
+      ]
     }
   ]
 }
