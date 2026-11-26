@@ -11,7 +11,7 @@
   const motion = matchMedia('(prefers-reduced-motion: reduce)');
   const query = new URLSearchParams(location.search);
   const previousKey = 'necessary-tangle:last-living-mark';
-  const shouldMove = () => query.get('motion') !== 'off' && !motion.matches;
+  const shouldMove = () => query.get('motion') === 'on' || (query.get('motion') !== 'off' && !motion.matches);
   let current, marks = [], generation = 0, clickTimer;
   document.querySelectorAll('.living-mark-playback,.living-mark-toggle').forEach(element => element.remove());
 

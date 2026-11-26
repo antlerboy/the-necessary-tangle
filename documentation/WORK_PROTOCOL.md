@@ -14,7 +14,7 @@ budget decision.
 
 Before a website iteration, read the running issue body and every comment across all pages. Reconcile each distinct instruction against the current source and published behaviour; an older completion note is evidence to check, not proof that a later rebuild preserved the change. Record what is complete, what remains partial, and any missing evidence without treating inventory or signposting as completed research.
 
-Carry accepted requirements into later iterations until Benjamin explicitly changes them. The final generated homepage must keep its counts immediately below ‘Inside the atlas’ in the right-hand finder, with one `homeMetrics` element. Normal-motion logo selection and logo changes must use genuinely animated media; reduced-motion readers receive a still. Preserve click-for-another, double-click full screen, Escape to exit, and the bottom-right updates route.
+Carry accepted requirements into later iterations until Benjamin explicitly changes them. The final generated homepage must keep its counts immediately below ‘Inside the atlas’ in the right-hand finder, with one `homeMetrics` element. Normal-motion logo selection and logo changes must use genuinely animated media; reduced-motion readers receive a still by default. Preserve the explicit `?motion=on` and `?motion=off` URL choices, click-for-another, double-click full screen, Escape to exit, and the bottom-right updates route.
 
 Run the regression checks against the final build, including desktop and mobile behaviour. For a published change, verify the deployed commit and the affected live paths before reporting completion. Do not say that every instruction is resolved while a substantive instruction or research programme remains open.
 
