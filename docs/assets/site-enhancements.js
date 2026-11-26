@@ -192,6 +192,7 @@
 
   function setupLivingMarkControls() {
     const host = document.querySelector('[data-living-mark]');
+    if (host?.dataset.motionOwner === 'living-images') return;
     if (!host || host.dataset.enhanced203 === 'true') return;
     host.dataset.enhanced203 = 'true';
     host.removeAttribute('aria-hidden');

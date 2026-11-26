@@ -1,0 +1,43 @@
+{
+  "id": "feedback-observations-2026-11-26",
+  "written_on": "2026-11-26",
+  "purpose": "Refresh measurements of the maintained public graph and distinguish current counts from retained historical interpretations.",
+  "publication_contract": "The checked-in public-data baseline retains its dated historical observation report for the release replay. The final Makefile overlay computes the current report and public projections after historical validation. Read the measured-on field and method note in the deployed report; a historical baseline is not a current observation refresh.",
+  "method": {
+    "canonical_public_entries": "Nodes with public_visibility=public whose id is not redirected by canonical_redirects, using the same rule as the readable atlas.",
+    "developed_profiles": "Distinct profile.node_id values resolving to those canonical public entries; publication_level=profile is counted separately.",
+    "literal_first_pass_entries": "Canonical public nodes containing the exact lower-case substring 'first-pass entry' in the joined string values of the node record. This is a literal placeholder-wording count, not an assessment of every entry's quality.",
+    "first_pass_person_review_records": "Canonical public person nodes whose review_status contains first_pass. This is a separate bibliographic status count.",
+    "graph_metrics": "The existing apply_iteration_09.graph_metrics function resolves public endpoints and separates substantive relations from classification, evidence, documentary, and unresolved legacy lines. It does not deduce new relationships.",
+    "limits": "Dataset counts do not establish source reading, intellectual importance, scholarly agreement, human acceptance, or completion of the registered research programmes."
+  },
+  "observations": [
+    {
+      "id": "current_profile_depth_measurement",
+      "title": "A readable entry and a developed profile are different records",
+      "kind": "current measurement and scope explanation",
+      "measurement": "The current canonical public graph has {public_entries} entries and {developed_profiles} developed profile records ({profile_coverage_percent}%); {unprofiled_public_entries} canonical entries have no developed profile. Separately, {profile_label_entries} entries carry the publication-level label profile. Those labels do not create additional profile records.",
+      "interpretation": "An orientation, a publication label, and a developed account with sources are different units of work. Counting them together would overstate depth.",
+      "implication": "Choose a bounded set of entries, read the relevant sources, and develop specific accounts with locators and explicit uncertainty. Do not fill the gap with generic prose.",
+      "test": "Count canonical entries and actual profile records separately, then inspect the selected accounts and their source locators. A passing build is not editorial acceptance."
+    },
+    {
+      "id": "current_first_pass_measurement",
+      "title": "First-pass wording identifies unfinished work",
+      "kind": "current literal-text measurement and scope explanation",
+      "measurement": "{literal_first_pass_entries} canonical public records contain the literal phrase first-pass entry. A different count, {first_pass_person_review_records}, identifies bibliographic first-pass person review records. These sets use different predicates and must not be substituted for one another.",
+      "interpretation": "These markers locate recorded limitations. They do not show that every other entry has received a full reading or that each marked entry needs the same kind of work.",
+      "implication": "Carry the unresolved entries into a source-specific research packet, stating which text can be inspected and which claims remain unsupported. Keep broader corpus requests open until their own acceptance tests are met.",
+      "test": "Reproduce each predicate from the public records, inspect the resulting entry IDs, and verify any subsequent changes against the cited material. No relationships are added to improve these figures."
+    },
+    {
+      "id": "current_graph_scope_measurement",
+      "title": "Graph coverage does not establish agreement or source depth",
+      "kind": "current measurement and scope explanation",
+      "measurement": "The canonical public projection has {typed_edges} typed relation rows, including {substantive_edges} substantive rows; {substantive_connected_nodes} entries have a substantive connection and {substantive_isolated_nodes} do not. The source register contains {sources} records, including {sources_with_public_links} with public links.",
+      "interpretation": "The measurement describes this atlas and the chosen relation filters. Source registration, an available link, a source reading, and an accepted claim are distinct.",
+      "implication": "Keep relation kinds, passage locators, review status, and rival interpretations visible. Refer to the dated research packets for what was actually read and to the unfinished-work register for what remains.",
+      "test": "Recompute the projection with the stated endpoint and relation rules. Trace an asserted connection to its source and locator; do not treat adjacency, a high degree, or a source count as proof."
+    }
+  ]
+}

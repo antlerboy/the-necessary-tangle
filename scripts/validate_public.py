@@ -45,6 +45,23 @@ def norm(value: str) -> str:
     return re.sub(r"\s+", " ", re.sub(r"[^a-z0-9]+", " ", value.casefold())).strip()
 
 
+def homepage_coverage_errors(index: str) -> list[str]:
+    """Keep historical panel checks while validating the current reader opening."""
+    if '<!-- reader-opening -->' not in index:
+        return [] if 'class="hero-panel release-panel"' in index else ["This release panel is not an explicit link"]
+    opening = re.search(r'<!-- reader-opening -->(.*?)<!-- /reader-opening -->', index, re.S)
+    if opening is None:
+        return ["Current reader opening is incomplete"]
+    errors = []
+    if not re.search(r'<div class="atlas-finder">\s*<h2>Inside the atlas</h2>\s*<div class="metrics" id="homeMetrics"', opening[1]):
+        errors.append("Atlas counts must immediately follow Inside the atlas in the right-hand finder")
+    if index.count('id="homeMetrics"') != 1:
+        errors.append("The homepage must contain exactly one atlas counts element")
+    if not re.search(r'<p class="atlas-coverage-link">\s*<a href="#view=about">How entries and connections are selected</a>\s*</p>', opening[1]):
+        errors.append("Current reader coverage explanation is not an explicit About link")
+    return errors
+
+
 def main() -> int:
     errors: list[str] = []
     data = json.loads(DATA_PATH.read_text(encoding="utf-8"))
@@ -208,8 +225,7 @@ def main() -> int:
         errors.append("Public page does not use the agreed field framing")
     if "Creative Commons Attribution-ShareAlike 4.0" not in index:
         errors.append("Public page does not expose the content licence")
-    if 'class="hero-panel release-panel"' not in index:
-        errors.append("This release panel is not an explicit link")
+    errors.extend(homepage_coverage_errors(index))
 
     enhancements_css = (DOCS / "assets" / "site-enhancements.css").read_text(encoding="utf-8")
     if "text-align: left" not in enhancements_css:
