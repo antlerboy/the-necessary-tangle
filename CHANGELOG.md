@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.44 — 27 November 2026
+
+Research release 0.44 develops all 84 remaining publication records carrying the catalogue placeholder, with 168 new typed connections and located source evidence. The accounts explain the papers' mechanisms, limits, and connections. Editorial applications are identified; named human acceptance remains pending.
+
 ## 0.43 — 22 November 2026
 
 A museum alarm sends the same warning for heat and cold. The worked example links Ashby, Conant and Ashby, and Beer to the decisions facing the duty officer. Atlas entries now give the account before its review notes.

@@ -24,7 +24,9 @@ async function main() {
   }
   fs.mkdirSync(output, { recursive: true });
   browser = await chromium.launch(process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH ? { executablePath: process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH } : {});
-  const manifest = JSON.parse(fs.readFileSync(path.join(root, 'entries/manifest.json')));
+  const request = await browser.newContext();
+  const manifest = await (await request.request.get(base + '/entries/manifest.json')).json();
+  await request.close();
   const entryRoute = '/entries/concept_structural_coupling/';
   const journeyRoute = manifest.routes.find(r => r.startsWith('/journeys/') && r !== '/journeys/');
   const checked = [];

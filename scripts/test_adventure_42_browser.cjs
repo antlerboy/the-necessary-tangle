@@ -1,14 +1,15 @@
 const {chromium}=require('playwright');
 const assert=require('node:assert/strict'),http=require('node:http'),fs=require('node:fs'),path=require('node:path');
-const edition=require('../docs/reader-edition.json');
+let edition;
 const root=path.resolve(__dirname,'../docs'),out=path.resolve(__dirname,'../validation/adventure-42-browser');
 (async()=>{
-  let browser,server;const report={adventure_release:'0.42',reader_release:edition.reader_release,widths:[],checks:[],passed:false};
+  let browser,server;const report={adventure_release:'0.42',widths:[],checks:[],passed:false};
   try {
     let base=(process.env.ADVENTURE_BASE_URL||'').replace(/\/$/,'');
     if(!base){server=http.createServer((req,res)=>{try{let f=path.resolve(root,'.'+decodeURIComponent(new URL(req.url,'http://local').pathname));assert(f.startsWith(root+path.sep)||f===root);if(fs.statSync(f).isDirectory())f=path.join(f,'index.html');res.setHeader('Content-Type',({'.html':'text/html; charset=utf-8','.json':'application/json','.js':'application/javascript','.css':'text/css','.svg':'image/svg+xml'})[path.extname(f)]||'application/octet-stream');res.end(fs.readFileSync(f));}catch{res.writeHead(404);res.end();}});await new Promise(r=>server.listen(0,'127.0.0.1',r));base='http://127.0.0.1:'+server.address().port;}
     report.base=base;fs.mkdirSync(out,{recursive:true});
     browser=await chromium.launch(process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH?{executablePath:process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH}:{});
+    const metadata=await browser.newContext();edition=await(await metadata.request.get(base+'/reader-edition.json')).json();await metadata.close();report.reader_release=edition.reader_release;
     for(const width of [1440,390,320]){
       const ctx=await browser.newContext({viewport:{width,height:960},reducedMotion:'reduce'}),page=await ctx.newPage(),errors=[];
       page.on('pageerror',e=>errors.push(e.message));
