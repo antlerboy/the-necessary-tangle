@@ -60,6 +60,9 @@ for anchor in ('museum-store', 'regulation', 'learning', 'transduction', 'source
     assert guide.ids.count(anchor) == 1 and '#' + anchor in guide.links
 for key in ('heroSearch', 'surpriseMeHero', 'homeMetrics', 'quickLinks', 'alarm-title'):
     assert opening.ids.count(key) == 1
+assert re.search(r'<div class="atlas-finder">\s*<h2>Inside the atlas</h2>\s*<div class="metrics" id="homeMetrics"', home.read_text()), 'Counts must immediately follow Inside the atlas in its right-hand finder'
+assert '<!-- reader-coverage -->' not in home.read_text(), 'Do not restore the displaced lower counts card'
+assert home.read_text().split('id="homeMetrics"', 1)[1].split('</div>\n', 1)[0].count('class="metric"') == 4, 'Counts must also be readable without JavaScript'
 example = (ROOT / 'sources/reader-opening/museum.html').read_text().strip()
 assert example in reading.read_text() and '<caption>' in example
 article = Page(ROOT / 'sources/reader-opening/museum.html')

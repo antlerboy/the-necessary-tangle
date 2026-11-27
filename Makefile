@@ -1,10 +1,11 @@
 .PHONY: build build-base apply-current apply-practice apply-missing-entry-reports validate serve clean
 
-build: build-base apply-current apply-practice apply-september apply-intake apply-maps apply-library apply-missing-entry-reports apply-submission-review apply-claim-lab apply-weaver apply-update-30 apply-update-31 apply-update-32 apply-update-33 apply-update-34 apply-saidtosomeone apply-update-35 apply-cybernetic-readings apply-isss-wiki apply-update-36 apply-update-37 apply-update-38 apply-update-39 apply-update-40 apply-update-41 apply-readable-atlas apply-syscoi-intake apply-complexity-eight-days apply-sysprac26 apply-making-things-change apply-adventure-42 apply-reader-opening
+build: build-base apply-current apply-practice apply-september apply-intake apply-maps apply-library apply-missing-entry-reports apply-submission-review apply-claim-lab apply-weaver apply-update-30 apply-update-31 apply-update-32 apply-update-33 apply-update-34 apply-saidtosomeone apply-update-35 apply-cybernetic-readings apply-isss-wiki apply-update-36 apply-update-37 apply-update-38 apply-update-39 apply-update-40 apply-update-41 apply-readable-atlas apply-syscoi-intake apply-complexity-eight-days apply-sysprac26 apply-making-things-change apply-adventure-42 apply-reader-opening apply-feedback-observations
 
 # Historical validators assert historical release identifiers. Rebuild that
 # baseline, run its gates, then apply and validate the current release.
 build-base:
+	python3 scripts/reconcile_feedback_observations.py --reverse
 	python3 scripts/build_reader_opening.py --reverse
 	python3 scripts/build_adventure_42.py --reverse
 	python3 scripts/prepare_syscoi_intake_baseline.py
@@ -233,6 +234,9 @@ validate: build-base
 	$(MAKE) apply-reader-opening
 	python3 scripts/validate_reader_opening.py
 	python3 scripts/validate_public.py
+	$(MAKE) apply-feedback-observations
+	python3 scripts/reconcile_feedback_observations.py --check
+	python3 scripts/validate_public.py
 
 apply-missing-entry-reports:
 	python3 scripts/apply_missing_entry_reports_27.py
@@ -376,3 +380,7 @@ apply-adventure-42:
 .PHONY: apply-reader-opening
 apply-reader-opening:
 	python3 scripts/build_reader_opening.py
+
+.PHONY: apply-feedback-observations
+apply-feedback-observations:
+	python3 scripts/reconcile_feedback_observations.py

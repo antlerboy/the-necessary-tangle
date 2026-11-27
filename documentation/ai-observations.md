@@ -1,486 +1,442 @@
 # AI observations
 
-Generated for release `0.31` on 2026-10-08.
+Measurements recomputed 2026-11-26; graph research release 0.41 dated 2026-11-07. No research-release or review status changed.
 
-Measurements come from the generated public graph. Interpretations concern this atlas and its current source and interface choices; they are not measurements of the field itself.
+Measurements recomputed on 2026-11-26 from the maintained graph, research release 0.41 dated 2026-11-07. The three scope explanations were written on 2026-11-26; no new source research or human editorial acceptance is implied. The older observations below are retained as dated historical interpretations, not freshly verified findings.
 
-## Measured state
+## Current measured state
 
-- 1259 public entries; 212 developed profiles.
-- 2763 typed public edges; 1102 substantive edges.
-- 547 substantively connected entries and 712 substantive isolates.
-- 787 sources, of which 771 have public links.
+- 1295 canonical public entries; 233 actual developed profile records; 1062 canonical entries without one.
+- 306 publication-level profile labels, counted separately from actual profile records.
+- 84 literal first-pass-entry placeholders; separately, 107 bibliographic first-pass person review records.
+- 2824 typed public relation rows; 1136 substantive rows; 559 substantively connected entries and 736 isolates.
+- 859 source records, including 843 with public links.
 
-## Breadth has outrun depth
+[Download current measurements, definitions, and gap entry IDs](https://transduction.systems/assets/feedback-observations-current.json).
 
-**Basis:** measurement plus interpretation.
+## Current scope explanations
 
-**Measured:** The atlas has 1259 public entries and 212 developed profiles. Only 16.8% of entries have the fuller profile structure.
+### A readable entry and a developed profile are different records
 
-**Interpretation:** It is now better at showing that something belongs in the territory than at explaining what the thing means, why it matters, where it is contested and how it enters practice.
+**Measured:** The current canonical public graph has 1295 entries and 233 developed profile records (18.0%); 1062 canonical entries have no developed profile. Separately, 306 entries carry the publication-level label profile. Those labels do not create additional profile records.
 
-**Implication:** Next depth work should follow reader demand, bridge concepts and high-risk ambiguities rather than adding another undifferentiated tranche of names.
+**Interpretation:** An orientation, a publication label, and a developed account with sources are different units of work. Counting them together would overstate depth.
 
-**Test:** This observation weakens when developed profiles and item-level source coverage grow without sacrificing the breadth inventory.
+**What follows:** Choose a bounded set of entries, read the relevant sources, and develop specific accounts with locators and explicit uncertainty. Do not fill the gap with generic prose.
 
-## One interface contains two different graphs
+**Test:** Count canonical entries and actual profile records separately, then inspect the selected accounts and their source locators. A passing build is not editorial acceptance.
 
-**Basis:** measurement plus design inference.
+### First-pass wording identifies unfinished work
 
-**Measured:** There are 2763 typed public edges, but 1102 are conceptual, historical, human, practice or contestation relations. The substantive share is 39.9%.
+**Measured:** 84 canonical public records contain the literal phrase first-pass entry. A different count, 107, identifies bibliographic first-pass person review records. These sets use different predicates and must not be substituted for one another.
 
-**Interpretation:** Authorship, collection membership and other provenance lines answer different questions from influence, dependence or use. Combining them without visible layers makes bibliographic density look like intellectual agreement.
+**Interpretation:** These markers locate recorded limitations. They do not show that every other entry has received a full reading or that each marked entry needs the same kind of work.
 
-**Implication:** The interface should let readers choose conceptual, human-lineage, practice, contestation and provenance layers explicitly.
+**What follows:** Carry the unresolved entries into a source-specific research packet, stating which text can be inspected and which claims remain unsupported. Keep broader corpus requests open until their own acceptance tests are met.
 
-**Test:** Readers should be able to explain what became visible or hidden when they change layer, without learning database vocabulary first.
+**Test:** Reproduce each predicate from the public records, inspect the resulting entry IDs, and verify any subsequent changes against the cited material. No relationships are added to improve these figures.
 
-## Expertise needs relations, not biography alone
+### Graph coverage does not establish agreement or source depth
 
-**Basis:** editorial observation.
+**Measured:** The canonical public projection has 2824 typed relation rows, including 1136 substantive rows; 559 entries have a substantive connection and 736 do not. The source register contains 859 records, including 843 with public links.
 
-**Measured:** The named-coverage review separates developed, represented and research-queue states.
+**Interpretation:** The measurement describes this atlas and the chosen relation filters. Source registration, an available link, a source reading, and an accepted claim are distinct.
 
-**Interpretation:** A person's significance becomes useful in the atlas when their work, concepts, disagreements and practice consequences are connected explicitly.
+**What follows:** Keep relation kinds, passage locators, review status, and rival interpretations visible. Refer to the dated research packets for what was actually read and to the unfinished-work register for what remains.
 
-**Implication:** Do not promote requested names to developed profiles merely because they are canonical or famous.
+**Test:** Recompute the projection with the stated endpoint and relation rules. Trace an asserted connection to its source and locator; do not treat adjacency, a high degree, or a source count as proof.
 
-**Test:** Check that each developed person profile has sourced work-level and concept-level relations rather than only a short biography.
+## Historical observations
 
-## A catalogue is not a critique
+Retained from the observation report dated 2026-10-08 (release 0.31); not re-reviewed as a current finding. 
 
-**Basis:** boundary observation.
+### Breadth has outrun depth
 
-**Measured:** Release 0.18 records all 32 terms in one published unFIX synthesis but marks the shared source and bounded status.
+**Historical measurement:** The atlas has 1259 public entries and 212 developed profiles. Only 16.8% of entries have the fuller profile structure.
 
-**Interpretation:** Enumerating a framework's vocabulary does not test its definitions, ancestry, omissions or internal tensions.
+**Historical interpretation:** It is now better at showing that something belongs in the territory than at explaining what the thing means, why it matters, where it is contested and how it enters practice.
 
-**Implication:** Coverage pages should state whether a pass is inventory, interpretation, comparison or critique.
+**Proposed implication:** Next depth work should follow reader demand, bridge concepts and high-risk ambiguities rather than adding another undifferentiated tranche of names.
 
-**Test:** Confirm that the unFIX coverage page does not present the 32-item inventory as independent validation of the concepts.
+**Proposed test:** This observation weakens when developed profiles and item-level source coverage grow without sacrificing the breadth inventory.
 
-## Practice is named more often than it is connected
+### One interface contains two different graphs
 
-**Basis:** measurement plus curatorial inference.
+**Historical measurement:** There are 2763 typed public edges, but 1102 are conceptual, historical, human, practice or contestation relations. The substantive share is 39.9%.
 
-**Measured:** The isolate count is concentrated among intervention skills, laws, tools, methods and publications rather than the small conceptual core.
+**Historical interpretation:** Authorship, collection membership and other provenance lines answer different questions from influence, dependence or use. Combining them without visible layers makes bibliographic density look like intellectual agreement.
 
-**Interpretation:** The source programme has imported lists of capabilities and publications faster than it has documented how ideas are enacted, taught, combined, resisted and changed in use.
+**Proposed implication:** The interface should let readers choose conceptual, human-lineage, practice, contestation and provenance layers explicitly.
 
-**Implication:** Practice cases, practitioner journals, project histories and teaching lineages should now receive deliberate connection work.
+**Proposed test:** Readers should be able to explain what became visible or hidden when they change layer, without learning database vocabulary first.
 
-**Test:** The practice layer should develop multiple well-sourced routes between concepts, methods, settings, people and consequences.
+### Expertise needs relations, not biography alone
 
-## Auditability is not yet source diversity
+**Historical measurement:** The named-coverage review separates developed, represented and research-queue states.
 
-**Basis:** measurement plus evidential risk.
+**Historical interpretation:** A person's significance becomes useful in the atlas when their work, concepts, disagreements and practice consequences are connected explicitly.
 
-**Measured:** The most reused source is ‘Foundational Papers in Complexity Science — official tables of contents’, attached to 782 public nodes or edges.
+**Proposed implication:** Do not promote requested names to developed profiles merely because they are canonical or famous.
 
-**Interpretation:** A table of contents can establish titles, authors and collection placement. It cannot establish the meaning, influence or quality of every work it lists. Repetition of one source creates an appearance of corroboration without independent evidence.
+**Proposed test:** Check that each developed person profile has sourced work-level and concept-level relations rather than only a short biography.
 
-**Implication:** Paper-level primary records, publisher pages, DOI metadata, archives, reviews and critical accounts must replace collection-level evidence where stronger statements are made.
+### A catalogue is not a critique
 
-**Test:** Source concentration should fall as the number and independence of item-level sources rise.
+**Historical measurement:** Release 0.18 records all 32 terms in one published unFIX synthesis but marks the shared source and bounded status.
 
-## The people layer contains an identity-resolution debt
+**Historical interpretation:** Enumerating a framework's vocabulary does not test its definitions, ancestry, omissions or internal tensions.
 
-**Basis:** measurement plus data-quality risk.
+**Proposed implication:** Coverage pages should state whether a pass is inventory, interpretation, comparison or critique.
 
-**Measured:** 124 of 275 people — 45.1% — are currently represented by initial-form labels.
+**Proposed test:** Confirm that the unFIX coverage page does not present the 32-item inventory as independent validation of the concepts.
 
-**Interpretation:** Initials are enough to inventory an authorship string, but not enough to guarantee a unique person. They invite duplicate records, mistaken mergers and false career or influence connections.
+### Practice is named more often than it is connected
 
-**Implication:** Add full names, ORCID or other authority identifiers, affiliations and paper-level checks before deepening those people into intellectual profiles.
+**Historical measurement:** The isolate count is concentrated among intervention skills, laws, tools, methods and publications rather than the small conceptual core.
 
-**Test:** No initial-only person should acquire interpretive or lineage edges without successful identity resolution.
+**Historical interpretation:** The source programme has imported lists of capabilities and publications faster than it has documented how ideas are enacted, taught, combined, resisted and changed in use.
 
-## The published neighbourhoods are a historical snapshot, not the present graph
+**Proposed implication:** Practice cases, practitioner journals, project histories and teaching lineages should now receive deliberate connection work.
 
-**Basis:** measurement plus model warning.
+**Proposed test:** The practice layer should develop multiple well-sourced routes between concepts, methods, settings, people and consequences.
 
-**Measured:** Six published neighbourhoods contain 77 unique nodes, while 547 nodes are now connected; 482 connected nodes sit outside the old grouping pass.
+### Auditability is not yet source diversity
 
-**Interpretation:** An algorithmic cluster is produced by the current edges, exclusions, resolution setting and seed. It is not a natural school waiting to be discovered.
+**Historical measurement:** The most reused source is ‘Foundational Papers in Complexity Science — official tables of contents’, attached to 782 public nodes or edges.
 
-**Implication:** Recompute neighbourhoods at each suitable release, record the algorithm and version, and retain change over time rather than silently replacing one partition with another.
+**Historical interpretation:** A table of contents can establish titles, authors and collection placement. It cannot establish the meaning, influence or quality of every work it lists. Repetition of one source creates an appearance of corroboration without independent evidence.
 
-**Test:** A reader should be able to inspect why two entries share a neighbourhood and see when that grouping changed.
+**Proposed implication:** Paper-level primary records, publisher pages, DOI metadata, archives, reviews and critical accounts must replace collection-level evidence where stronger statements are made.
 
-## A few bridge concepts carry much of the atlas's traffic
+**Proposed test:** Source concentration should fall as the number and independence of item-level sources rise.
 
-**Basis:** network measurement plus editorial inference.
+### The people layer contains an identity-resolution debt
 
-**Measured:** Feedback, recursion, the Viable System Model, boundary, requisite variety and related bridge entries have markedly higher substantive degree than most of the graph.
+**Historical measurement:** 124 of 275 people — 45.1% — are currently represented by initial-form labels.
 
-**Interpretation:** The wording and omissions in those entries influence many possible routes through the atlas. They are single points of interpretive failure as well as useful orientation points.
+**Historical interpretation:** Initials are enough to inventory an authorship string, but not enough to guarantee a unique person. They invite duplicate records, mistaken mergers and false career or influence connections.
 
-**Implication:** Give bridge entries multi-source review, rival definitions, domain distinctions and explicit limits before relying on them as navigation hubs.
+**Proposed implication:** Add full names, ORCID or other authority identifiers, affiliations and paper-level checks before deepening those people into intellectual profiles.
 
-**Test:** Alternative routes and counter-accounts should reduce dependence on any one bridge without hiding genuine centrality.
+**Proposed test:** No initial-only person should acquire interpretive or lineage edges without successful identity resolution.
 
-## The gaps map the curator's attention as much as they map the field
+### The published neighbourhoods are a historical snapshot, not the present graph
 
-**Basis:** second-order observation.
+**Historical measurement:** Six published neighbourhoods contain 77 unique nodes, while 547 nodes are now connected; 482 connected nodes sit outside the old grouping pass.
 
-**Measured:** 712 entries are isolated in the substantive graph, while the largest substantive component contains 465 entries.
+**Historical interpretation:** An algorithmic cluster is produced by the current edges, exclusions, resolution setting and seed. It is not a natural school waiting to be discovered.
 
-**Interpretation:** Isolation does not mean an idea is naturally peripheral. It often means the current source set, relation vocabulary or research history has not yet made its connections visible.
+**Proposed implication:** Recompute neighbourhoods at each suitable release, record the algorithm and version, and retain change over time rather than silently replacing one partition with another.
 
-**Implication:** Treat isolates as hypotheses about missing work, not as evidence that the field itself has no connections there.
+**Proposed test:** A reader should be able to inspect why two entries share a neighbourhood and see when that grouping changed.
 
-**Test:** Source programmes from different traditions should alter which entries appear central, peripheral or absent.
+### A few bridge concepts carry much of the atlas's traffic
 
-## Automation readily overreads weak evidence
+**Historical measurement:** Feedback, recursion, the Viable System Model, boundary, requisite variety and related bridge entries have markedly higher substantive degree than most of the graph.
 
-**Basis:** publication-safety observation.
+**Historical interpretation:** The wording and omissions in those entries influence many possible routes through the atlas. They are single points of interpretive failure as well as useful orientation points.
 
-**Measured:** This release keeps source roles, claim status and open research programmes visible while using scripts to generate and validate the site.
+**Proposed implication:** Give bridge entries multi-source review, rival definitions, domain distinctions and explicit limits before relying on them as navigation hubs.
 
-**Interpretation:** Automation is good at consistency and propagation; it is also good at propagating an unjustified inference everywhere at once.
+**Proposed test:** Alternative routes and counter-accounts should reduce dependence on any one bridge without hiding genuine centrality.
 
-**Implication:** Generated breadth needs adversarial checks, source boundaries and explicit stop conditions.
+### The gaps map the curator's attention as much as they map the field
 
-**Test:** Trace a sample of generated relations back to locators and verify that no discovery source has silently become evidence for a stronger claim.
+**Historical measurement:** 712 entries are isolated in the substantive graph, while the largest substantive component contains 465 entries.
 
-## Presence is not depth
+**Historical interpretation:** Isolation does not mean an idea is naturally peripheral. It often means the current source set, relation vocabulary or research history has not yet made its connections visible.
 
-**Basis:** coverage-state observation.
+**Proposed implication:** Treat isolates as hypotheses about missing work, not as evidence that the field itself has no connections there.
 
-**Measured:** Requested names are published as developed, represented or research-queue entries rather than being forced into one apparent level of completeness.
+**Proposed test:** Source programmes from different traditions should alter which entries appear central, peripheral or absent.
 
-**Interpretation:** A searchable name is an index achievement, not evidence that the atlas explains the person's work, lineage or disputes.
+### Automation readily overreads weak evidence
 
-**Implication:** Prominence should follow sourced relational depth rather than the fact that a name win this release.
+**Historical measurement:** This release keeps source roles, claim status and open research programmes visible while using scripts to generate and validate the site.
 
-**Test:** Confirm that research-queue entries do not appear as developed profiles or acquire unsupported influence claims.
+**Historical interpretation:** Automation is good at consistency and propagation; it is also good at propagating an unjustified inference everywhere at once.
 
-## Source duplication hides claim compression
+**Proposed implication:** Generated breadth needs adversarial checks, source boundaries and explicit stop conditions.
 
-**Basis:** source-boundary observation.
+**Proposed test:** Trace a sample of generated relations back to locators and verify that no discovery source has silently become evidence for a stronger claim.
 
-**Measured:** Linda Booth Sweeney's author profile, official site and award record are stored as distinct source roles rather than duplicate records for one URL.
+### Presence is not depth
 
-**Interpretation:** One page may support several claims, but cloning it as several sources overstates independence and obscures what each citation does.
+**Historical measurement:** Requested names are published as developed, represented or research-queue entries rather than being forced into one apparent level of completeness.
 
-**Implication:** Source records should identify a distinct public route and a bounded evidential use.
+**Historical interpretation:** A searchable name is an index achievement, not evidence that the atlas explains the person's work, lineage or disputes.
 
-**Test:** Check for duplicate URLs and inspect whether each Sweeney relation cites the source that actually supports it.
+**Proposed implication:** Prominence should follow sourced relational depth rather than the fact that a name win this release.
 
-## Unfinished corpus work belongs in the public model
+**Proposed test:** Confirm that research-queue entries do not appear as developed profiles or acquire unsupported influence claims.
 
-**Basis:** programme-boundary observation.
+### Source duplication hides claim compression
 
-**Measured:** Monoskop, Foundational Papers in Complexity Science, SysCoI/model.report, the reading list and company-knowledge discovery remain separately named open programmes.
+**Historical measurement:** Linda Booth Sweeney's author profile, official site and award record are stored as distinct source roles rather than duplicate records for one URL.
 
-**Interpretation:** A bounded pass can be complete while the wider field remains unfinished; conflating the scales turns project management into an epistemic claim.
+**Historical interpretation:** One page may support several claims, but cloning it as several sources overstates independence and obscures what each citation does.
 
-**Implication:** Each future pass needs a stated corpus, method, stop condition and visible residual queue.
+**Proposed implication:** Source records should identify a distinct public route and a bounded evidential use.
 
-**Test:** Check that release notes state what was examined and leave the remainder visible rather than calling the whole programme complete.
+**Proposed test:** Check for duplicate URLs and inspect whether each Sweeney relation cites the source that actually supports it.
 
-## Canonical sources have jobs
+### Unfinished corpus work belongs in the public model
 
-**Basis:** source-role observation.
+**Historical measurement:** Monoskop, Foundational Papers in Complexity Science, SysCoI/model.report, the reading list and company-knowledge discovery remain separately named open programmes.
 
-**Measured:** The canonical source register distinguishes author archives, official organisations, primary works, publisher records and independent counterweights.
+**Historical interpretation:** A bounded pass can be complete while the wider field remains unfinished; conflating the scales turns project management into an epistemic claim.
 
-**Interpretation:** Calling a source canonical does not make it universally authoritative; it identifies the job for which it is the preferred route.
+**Proposed implication:** Each future pass needs a stated corpus, method, stop condition and visible residual queue.
 
-**Implication:** Each source record should state what it can establish and what it cannot.
+**Proposed test:** Check that release notes state what was examined and leave the remainder visible rather than calling the whole programme complete.
 
-**Test:** Sample canonical sources and verify that their registered use matches the claims that cite them.
+### Canonical sources have jobs
 
-## First-party sources need counterweight
+**Historical measurement:** The canonical source register distinguishes author archives, official organisations, primary works, publisher records and independent counterweights.
 
-**Basis:** source-balance observation.
+**Historical interpretation:** Calling a source canonical does not make it universally authoritative; it identifies the job for which it is the preferred route.
 
-**Measured:** Many profiles begin with author, institutional or publisher sources because these best establish names, dates, declared concepts and official lineages.
+**Proposed implication:** Each source record should state what it can establish and what it cannot.
 
-**Interpretation:** First-party evidence is indispensable for self-description but weak for criticism, contested influence and assessment of consequences.
+**Proposed test:** Sample canonical sources and verify that their registered use matches the claims that cite them.
 
-**Implication:** Developed entries should add independent scholarship or practitioner evidence where interpretation matters.
+### First-party sources need counterweight
 
-**Test:** Review high-connectivity profiles and identify claims resting only on the subject's own account.
+**Historical measurement:** Many profiles begin with author, institutional or publisher sources because these best establish names, dates, declared concepts and official lineages.
 
-## A reading-list item is not yet a reading
+**Historical interpretation:** First-party evidence is indispensable for self-description but weak for criticism, contested influence and assessment of consequences.
 
-**Basis:** coverage observation.
+**Proposed implication:** Developed entries should add independent scholarship or practitioner evidence where interpretation matters.
 
-**Measured:** The reading-list inventory distinguishes developed profiles, represented items and inventory-only records.
+**Proposed test:** Review high-connectivity profiles and identify claims resting only on the subject's own account.
 
-**Interpretation:** Bibliographic presence records attention and intent; it does not imply that a work has been critically read into the atlas.
+### A reading-list item is not yet a reading
 
-**Implication:** Item-level status must remain visible and the wider reading-list programme must stay explicitly partial.
+**Historical measurement:** The reading-list inventory distinguishes developed profiles, represented items and inventory-only records.
 
-**Test:** Check that inventory-only works do not inherit summaries or relations from title similarity alone.
+**Historical interpretation:** Bibliographic presence records attention and intent; it does not imply that a work has been critically read into the atlas.
 
-## Lineage needs infrastructure
+**Proposed implication:** Item-level status must remain visible and the wider reading-list programme must stay explicitly partial.
 
-**Basis:** historical observation.
+**Proposed test:** Check that inventory-only works do not inherit summaries or relations from title similarity alone.
 
-**Measured:** The David Ing and systems-in-plural routes connect people, publications, traditions and institutional settings rather than treating a lineage as a list of names.
+### Lineage needs infrastructure
 
-**Interpretation:** Intellectual transmission happens through teaching, collaboration, organisations, conferences and practice as well as citation.
+**Historical measurement:** The David Ing and systems-in-plural routes connect people, publications, traditions and institutional settings rather than treating a lineage as a list of names.
 
-**Implication:** Lineage work should model carriers and settings alongside conceptual influence.
+**Historical interpretation:** Intellectual transmission happens through teaching, collaboration, organisations, conferences and practice as well as citation.
 
-**Test:** Inspect a lineage journey and confirm that it includes at least one institutional or practice-bearing connection.
+**Proposed implication:** Lineage work should model carriers and settings alongside conceptual influence.
 
-## Core systems practice is not four tools
+**Proposed test:** Inspect a lineage journey and confirm that it includes at least one institutional or practice-bearing connection.
 
-**Basis:** practice-boundary observation.
+### Core systems practice is not four tools
 
-**Measured:** The core practice spine holds several approaches together without collapsing them into a single method sequence.
+**Historical measurement:** The core practice spine holds several approaches together without collapsing them into a single method sequence.
 
-**Interpretation:** A compact orientation can aid action while still preserving different purposes, assumptions and forms of evidence.
+**Historical interpretation:** A compact orientation can aid action while still preserving different purposes, assumptions and forms of evidence.
 
-**Implication:** Guided routes should expose choice and boundary conditions rather than imply one universal workflow.
+**Proposed implication:** Guided routes should expose choice and boundary conditions rather than imply one universal workflow.
 
-**Test:** Check whether a reader can see why two adjacent approaches would lead to different interventions in the same situation.
+**Proposed test:** Check whether a reader can see why two adjacent approaches would lead to different interventions in the same situation.
 
-## Attention is not importance
+### Attention is not importance
 
-**Basis:** second-order observation.
+**Historical measurement:** Reading lists, submitted tickets and available corpora shape which people and ideas receive depth first.
 
-**Measured:** Reading lists, submitted tickets and available corpora shape which people and ideas receive depth first.
+**Historical interpretation:** Editorial attention creates visibility and connectivity; neither is a neutral ranking of intellectual worth.
 
-**Interpretation:** Editorial attention creates visibility and connectivity; neither is a neutral ranking of intellectual worth.
+**Proposed implication:** Coverage decisions and unreviewed queues should remain visible beside graph measures.
 
-**Implication:** Coverage decisions and unreviewed queues should remain visible beside graph measures.
+**Proposed test:** Compare highly connected entries with the release history and ask whether prominence follows evidence, prior attention or both.
 
-**Test:** Compare highly connected entries with the release history and ask whether prominence follows evidence, prior attention or both.
+### Navigation changes what appears important
 
-## Navigation changes what appears important
+**Historical measurement:** The release gives every entry a full reading surface and a constellation view with one selected centre, direct relations and two-step relations.
 
-**Basis:** interface measurement plus epistemic interpretation.
+**Historical interpretation:** A centre selected for a question is not the centre of the field. Interface focus and graph degree can manufacture apparent importance.
 
-**Measured:** The release gives every entry a full reading surface and a constellation view with one selected centre, direct relations and two-step relations.
+**Proposed implication:** The map treats the selected entry as a temporary star and its orbits as question-relative positions.
 
-**Interpretation:** A centre selected for a question is not the centre of the field. Interface focus and graph degree can manufacture apparent importance.
+**Proposed test:** Change the selected entry and layer; the constellation should reorganise without presenting the new centre as canonically primary.
 
-**Implication:** The map treats the selected entry as a temporary star and its orbits as question-relative positions.
+### Links are commitments about possible movement
 
-**Test:** Change the selected entry and layer; the constellation should reorganise without presenting the new centre as canonically primary.
+**Historical measurement:** Navigational cards, search suggestions, surprise routes, map nodes, map connections and entry actions expose stable destinations.
 
-## Links are commitments about possible movement
+**Historical interpretation:** A control which looks like a link but cannot be copied, opened in a new tab or inspected conceals the structure of the atlas.
 
-**Basis:** interaction-design observation.
+**Proposed implication:** Navigation uses links; buttons are reserved for actions whose result cannot sensibly exist as a URL.
 
-**Measured:** Navigational cards, search suggestions, surprise routes, map nodes, map connections and entry actions expose stable destinations.
+**Proposed test:** Right-click or modified-click each navigational surface and confirm that its destination remains coherent in a separate tab.
 
-**Interpretation:** A control which looks like a link but cannot be copied, opened in a new tab or inspected conceals the structure of the atlas.
+### The graph is unusually useful to AI — and unusually easy for AI to overread
 
-**Implication:** Navigation uses links; buttons are reserved for actions whose result cannot sensibly exist as a URL.
+**Historical measurement:** The atlas provides typed relations, status, source IDs and explicit caveats, but depth and source granularity vary sharply across entries.
 
-**Test:** Right-click or modified-click each navigational surface and confirm that its destination remains coherent in a separate tab.
+**Historical interpretation:** Structured relation types reduce the usual language-model tendency to collapse every association into ‘related to’. The remaining danger is confident completion: turning bibliographic inclusion into influence, a provisional edge into fact, or missing data into a smooth narrative.
 
-## The graph is unusually useful to AI — and unusually easy for AI to overread
+**Proposed implication:** AI outputs should expose the exact entries, relation types and sources used; distinguish retrieval from inference; and state when the graph is silent.
 
-**Basis:** experience-based AI observation.
+**Proposed test:** A useful AI answer should become less fluent, not more, when the evidence is thin or contradictory.
 
-**Measured:** The atlas provides typed relations, status, source IDs and explicit caveats, but depth and source granularity vary sharply across entries.
+### A line on one map is not the same claim as a line on another
 
-**Interpretation:** Structured relation types reduce the usual language-model tendency to collapse every association into ‘related to’. The remaining danger is confident completion: turning bibliographic inclusion into influence, a provisional edge into fact, or missing data into a smooth narrative.
+**Historical measurement:** Release 0.20 preserves 1,320 source-reported major-influence links, 307 outward web destinations and 1,856 keyword-labelled citation signals in three separate comparator layers.
 
-**Implication:** AI outputs should expose the exact entries, relation types and sources used; distinguish retrieval from inference; and state when the graph is silent.
+**Historical interpretation:** The visual grammar of a line conceals materially different assertions: historical or conceptual influence, a route to further reading, and an aggregate bibliographic signal are not interchangeable.
 
-**Test:** A useful AI answer should become less fluent, not more, when the evidence is thin or contradictory.
+**Proposed implication:** Comparator imports must retain their source-defined relation meaning and must not be flattened into one generic relationship vocabulary.
 
-## A line on one map is not the same claim as a line on another
+**Proposed test:** A reader should be able to state what a link means, and what it does not establish, without consulting the source map's code or private development history.
 
-**Basis:** comparator-semantics observation.
+### Overlap is not agreement
 
-**Measured:** Release 0.20 preserves 1,320 source-reported major-influence links, 307 outward web destinations and 1,856 keyword-labelled citation signals in three separate comparator layers.
+**Historical measurement:** Of 650 Systemic Evolution nodes, 5 are confirmed matches, 57 are partial and 588 remain unresolved; 66 distinct atlas entries are linked through the cumulative reconciliation.
 
-**Interpretation:** The visual grammar of a line conceals materially different assertions: historical or conceptual influence, a route to further reading, and an aggregate bibliographic signal are not interchangeable.
+**Historical interpretation:** A plausible name match does not show that two maps use the same boundary, definition or historical claim. Low overlap can expose different vocabularies and purposes as readily as missing coverage.
 
-**Implication:** Comparator imports must retain their source-defined relation meaning and must not be flattened into one generic relationship vocabulary.
+**Proposed implication:** Reconciliation should preserve confirmed, partial and unresolved states instead of forcing every source node into an apparently equivalent atlas entry.
 
-**Test:** A reader should be able to state what a link means, and what it does not establish, without consulting the source map's code or private development history.
+**Proposed test:** Manually review the highest-connectivity unresolved nodes and record whether each result is identity, broader/narrower scope, a rival term or genuinely absent coverage.
 
-## Overlap is not agreement
+### Preserving every link makes disagreement inspectable
 
-**Basis:** reconciliation observation.
+**Historical measurement:** All 307 destinations in the current Castellani image map are retained, including 28 places where its visible label and destination metadata disagree.
 
-**Measured:** Of 650 Systemic Evolution nodes, 5 are confirmed matches, 57 are partial and 588 remain unresolved; 66 distinct atlas entries are linked through the cumulative reconciliation.
+**Historical interpretation:** Silently correcting or dropping awkward links would make the derivative cleaner but erase evidence about the source's present state. Complete preservation is useful precisely because it exposes what still needs checking.
 
-**Interpretation:** A plausible name match does not show that two maps use the same boundary, definition or historical claim. Low overlap can expose different vocabularies and purposes as readily as missing coverage.
+**Proposed implication:** Store the source-published value and any later correction separately; preservation must never be presented as endorsement or independent verification.
 
-**Implication:** Reconciliation should preserve confirmed, partial and unresolved states instead of forcing every source node into an apparently equivalent atlas entry.
+**Proposed test:** Audit all 307 destinations, distinguish dead links from label mismatches and substantive errors, and return confirmed corrections upstream.
 
-**Test:** Manually review the highest-connectivity unresolved nodes and record whether each result is identity, broader/narrower scope, a rival term or genuinely absent coverage.
+### Aggregation sets an evidential ceiling
 
-## Preserving every link makes disagreement inspectable
+**Historical measurement:** The counted-map projection contains 98 concepts, 89 with evidence and 1,856 aggregate signals, while publishing zero raw licensed reference strings; the private corpus and an undocumented shrink step prevent independent rerunning.
 
-**Basis:** source-fidelity observation.
+**Historical interpretation:** The aggregate can reveal concentrations worth investigating, but it cannot by itself establish direct idea-to-idea influence or allow an independent reader to reproduce the transformation.
 
-**Measured:** All 307 destinations in the current Castellani image map are retained, including 28 places where its visible label and destination metadata disagree.
+**Proposed implication:** Use the signals to prioritise source review, not as canonical relations, and recover the transformation or replace the experiment with a lawful public corpus.
 
-**Interpretation:** Silently correcting or dropping awkward links would make the derivative cleaner but erase evidence about the source's present state. Complete preservation is useful precisely because it exposes what still needs checking.
+**Proposed test:** Rerun a documented public-corpus version and compare which high-weight signals persist under different vocabularies and thresholds.
 
-**Implication:** Store the source-published value and any later correction separately; preservation must never be presented as endorsement or independent verification.
+### Release metadata is part of the evidence
 
-**Test:** Audit all 307 destinations, distinguish dead links from label mismatches and substantive errors, and return confirmed corrections upstream.
+**Historical measurement:** Reader releases 0.20.3 and 0.20.4 changed public behaviour and source routes while the canonical release field and maintained AI report still said 0.20-prior-maps-alpha.
 
-## Aggregation sets an evidential ceiling
+**Historical interpretation:** A version label is not decoration. If the visible reader and the declared release describe different states, auditability has already broken before anyone inspects a source.
 
-**Basis:** reproducibility and evidence observation.
+**Proposed implication:** Any public change which alters what a reader can see, follow or infer must advance one maintained release state and regenerate its observations.
 
-**Measured:** The counted-map projection contains 98 concepts, 89 with evidence and 1,856 aggregate signals, while publishing zero raw licensed reference strings; the private corpus and an undocumented shrink step prevent independent rerunning.
+**Proposed test:** The badge, canonical data, browser data, citation record and AI-observation report should all name the same release after deployment.
 
-**Interpretation:** The aggregate can reveal concentrations worth investigating, but it cannot by itself establish direct idea-to-idea influence or allow an independent reader to reproduce the transformation.
+### Interface clutter is an accumulation effect
 
-**Implication:** Use the signals to prioritise source review, not as canonical relations, and recover the transformation or replace the experiment with a lawful public corpus.
+**Historical measurement:** Successive reader passes added a living mark, release status, curatorship, theme control and a random Little RedQuadrant rule to the same header without redesigning the composition as a whole.
 
-**Test:** Rerun a documented public-corpus version and compare which high-weight signals persist under different vocabularies and thresholds.
+**Historical interpretation:** Each addition can be locally reasonable while their combination becomes globally noisy. The interface has exactly the same coordination problem as any other evolving system.
 
-## Release metadata is part of the evidence
+**Proposed implication:** Reader changes need composition-level review, not only feature-level acceptance. Controls should be given hierarchy, fixed spatial jobs and an explicit reason to remain above the fold.
 
-**Basis:** second-order publication observation.
+**Proposed test:** A reader should be able to identify the project, its purpose and the main navigation before noticing release administration or display controls.
 
-**Measured:** Reader releases 0.20.3 and 0.20.4 changed public behaviour and source routes while the canonical release field and maintained AI report still said 0.20-prior-maps-alpha.
+### A display layer can manufacture an isolate
 
-**Interpretation:** A version label is not decoration. If the visible reader and the declared release describe different states, auditability has already broken before anyone inspects a source.
+**Historical measurement:** Donella Meadows already had documentary authorship paths, but the default substantive map suppressed those paths and made her appear isolated until a narrow source-established Meadows-to-Leverage-Points relation was added.
 
-**Implication:** Any public change which alters what a reader can see, follow or infer must advance one maintained release state and regenerate its observations.
+**Historical interpretation:** Visible isolation can be a property of the chosen layer and relation vocabulary rather than a property of the person or idea being shown.
 
-**Test:** The badge, canonical data, browser data, citation record and AI-observation report should all name the same release after deployment.
+**Proposed implication:** Isolation counts and visual gaps must always be read with the active layer stated; documentary absence and substantive disconnection are different claims.
 
-## Interface clutter is an accumulation effect
+**Proposed test:** For a sample of apparent isolates, compare the substantive, documentary and all-relations views before treating isolation as a research finding.
 
-**Basis:** interface and systems observation.
+### A live corpus is not ingested coverage
 
-**Measured:** Successive reader passes added a living mark, release status, curatorship, theme control and a random Little RedQuadrant rule to the same header without redesigning the composition as a whole.
+**Historical measurement:** The current SCiO resource catalogue and SysBoK/Kumu routes are now linked and registered, while the catalogue has not been normalised item by item and the live Kumu node-and-link graph has not been silently promoted into the canonical atlas.
 
-**Interpretation:** Each addition can be locally reasonable while their combination becomes globally noisy. The interface has exactly the same coordination problem as any other evolving system.
+**Historical interpretation:** Knowing where the current corpus is and making it inspectable is useful work, but it is not the same achievement as reading, reconciling and evidencing every item in it.
 
-**Implication:** Reader changes need composition-level review, not only feature-level acceptance. Controls should be given hierarchy, fixed spatial jobs and an explicit reason to remain above the fold.
+**Proposed implication:** Corpus registration, item-level ingestion, reconciliation and canonical promotion should remain separate publication states.
 
-**Test:** A reader should be able to identify the project, its purpose and the main navigation before noticing release administration or display controls.
+**Proposed test:** A reader should be able to distinguish a live source route from an atlas statement independently supported by that source.
 
-## A display layer can manufacture an isolate
+### Linking a source graph is not canonising it
 
-**Basis:** graph-interface observation.
+**Historical measurement:** SysBoK-derived material now carries routes to both SCiO's project page and the live Kumu model while retaining SCiO's own work-in-progress status and its Precedents and Dependent Derivatives semantics.
 
-**Measured:** Donella Meadows already had documentary authorship paths, but the default substantive map suppressed those paths and made her appear isolated until a narrow source-established Meadows-to-Leverage-Points relation was added.
+**Historical interpretation:** Better provenance can increase access to another graph without pretending that its links have already passed the evidential tests of this one.
 
-**Interpretation:** Visible isolation can be a property of the chosen layer and relation vocabulary rather than a property of the person or idea being shown.
+**Proposed implication:** Comparator and source graphs should travel with visible credit and original relation meanings until individual claims have been reconciled.
 
-**Implication:** Isolation counts and visual gaps must always be read with the active layer stated; documentary absence and substantive disconnection are different claims.
+**Proposed test:** Inspect a SysBoK-backed item and confirm that its source graph is one click away while its relations are not automatically relabelled as canonical Tangle relations.
 
-**Test:** For a sample of apparent isolates, compare the substantive, documentary and all-relations views before treating isolation as a research finding.
+### Permission attaches to a version
 
-## A live corpus is not ingested coverage
+**Historical measurement:** Benjamin Hadorn granted the requested project-specific use scope on 26 August 2026, then reviewed and approved the exact package identified by SHA-256 on 31 August 2026.
 
-**Basis:** source-boundary observation.
+**Historical interpretation:** Permission is not a permanent adjective which can be pasted onto a changing dataset. It is a dated relationship between a grantor, a scope, conditions and an identifiable version.
 
-**Measured:** The current SCiO resource catalogue and SysBoK/Kumu routes are now linked and registered, while the catalogue has not been normalised item by item and the live Kumu node-and-link graph has not been silently promoted into the canonical atlas.
+**Proposed implication:** The source artefact, derivative, review manifest and publication decision must remain distinct records. Later graph-data changes reopen the review gate.
 
-**Interpretation:** Knowing where the current corpus is and making it inspectable is useful work, but it is not the same achievement as reading, reconciling and evidencing every item in it.
+**Proposed test:** A reader should be able to identify the exact approved package, its checksum, attribution conditions and approval date without treating silence by another copied recipient as approval.
 
-**Implication:** Corpus registration, item-level ingestion, reconciliation and canonical promotion should remain separate publication states.
+### A bibliography has an audience
 
-**Test:** A reader should be able to distinguish a live source route from an atlas statement independently supported by that source.
+**Historical measurement:** The Barrett–Shepard introduction explicitly frames its selection for social scientists and distinguishes six categories. Its bibliography pages are absent from the supplied post.
 
-## Linking a source graph is not canonising it
+**Historical interpretation:** The source explains a boundary, but cannot supply item-level coverage that is not present in the available text.
 
-**Basis:** provenance observation.
+**Proposed implication:** Catalogue the available entries and the missing pages separately.
 
-**Measured:** SysBoK-derived material now carries routes to both SCiO's project page and the live Kumu model while retaining SCiO's own work-in-progress status and its Precedents and Dependent Derivatives semantics.
+**Proposed test:** Can every claimed ingested item be found in the actual supplied material?
 
-**Interpretation:** Better provenance can increase access to another graph without pretending that its links have already passed the evidential tests of this one.
+### An awkward date belongs in the record
 
-**Implication:** Comparator and source graphs should travel with visible credit and original relation meanings until individual claims have been reconciled.
+**Historical measurement:** The short list described as 1956 includes a 1957 publication. Fano’s single entry names two reports, and Current Biography supplies no article title.
 
-**Test:** Inspect a SysBoK-backed item and confirm that its source graph is one click away while its relations are not automatically relabelled as canonical Tangle relations.
+**Historical interpretation:** Silently regularising dates or titles would replace documentary evidence with a cleaner story.
 
-## Permission attaches to a version
+**Proposed implication:** Retain source wording alongside reconciliation and review status.
 
-**Basis:** rights and provenance observation.
+**Proposed test:** Check that source entries survive even where a canonical identity remains unresolved.
 
-**Measured:** Benjamin Hadorn granted the requested project-specific use scope on 26 August 2026, then reviewed and approved the exact package identified by SHA-256 on 31 August 2026.
+### A catalogue entry is a distinct unit of work
 
-**Interpretation:** Permission is not a permanent adjective which can be pasted onto a changing dataset. It is a dated relationship between a grantor, a scope, conditions and an identifiable version.
+**Historical measurement:** The intake accounts for 48 entries, four selected-passage reviews, one archive metadata check, and one unidentified reference.
 
-**Implication:** The source artefact, derivative, review manifest and publication decision must remain distinct records. Later graph-data changes reopen the review gate.
+**Historical interpretation:** Adding searchable records increases access to material while leaving a larger close-reading task open.
 
-**Test:** A reader should be able to identify the exact approved package, its checksum, attribution conditions and approval date without treating silence by another copied recipient as approval.
+**Proposed implication:** Show review depth beside each entry and keep bibliography membership outside influence relations.
 
-## A bibliography has an audience
+**Proposed test:** Filter by evidence reviewed; verify that catalogue-only entries do not appear as fully read.
 
-**Basis:** source-boundary observation.
+### An entrance changes who can use the atlas
 
-**Measured:** The Barrett–Shepard introduction explicitly frames its selection for social scientists and distinguishes six categories. Its bibliography pages are absent from the supplied post.
+**Historical measurement:** The systems-thinking entrance presents a worked example and inquiry before exposing the larger graph. The rules are retained on a static page and removed from the atlas header.
 
-**Interpretation:** The source explains a boundary, but cannot supply item-level coverage that is not present in the available text.
+**Historical interpretation:** The route into a knowledge collection affects who can participate without prior familiarity.
 
-**Implication:** Catalogue the available entries and the missing pages separately.
+**Proposed implication:** Provide useful static content and followable links alongside richer interactive views.
 
-**Test:** Can every claimed ingested item be found in the actual supplied material?
+**Proposed test:** Read the gateway and source catalogue with JavaScript unavailable; follow each named route.
 
-## An awkward date belongs in the record
+### A checkable exercise is not accreditation
 
-**Basis:** bibliographic observation.
+**Historical measurement:** 26 original practice pages cover every core approach and theory row in the inspected public SCiO portfolio, with different depth limits.
 
-**Measured:** The short list described as 1956 includes a 1957 publication. Fano’s single entry names two reports, and Current Biography supplies no article title.
+**Historical interpretation:** Mechanical model checks can expose errors without establishing competence in organisational application.
 
-**Interpretation:** Silently regularising dates or titles would replace documentary evidence with a cleaner story.
+**Proposed implication:** Preserve attempts, revisions, scope limits and the need for observed practice.
 
-**Implication:** Retain source wording alongside reconciliation and review status.
+**Proposed test:** Can a learner distinguish a case check from a professional assessment?
 
-**Test:** Check that source entries survive even where a canonical identity remains unresolved.
+### Access, reading, and review are different forms of progress
 
-## A catalogue entry is a distinct unit of work
+**Historical measurement:** This pass read 5 complete researcher PDFs (32 pages), the 12-module OCAD pro forma, and the ISSS resource list (57 bibliographic entries). All 85 notebook comments and 14 open issues have a disposition.
 
-**Basis:** coverage observation.
+**Historical interpretation:** A longer bibliography increases discoverability. It does not show that the works have been read or that the claims have received human review. New graph claims retain candidate status.
 
-**Measured:** The intake accounts for 48 entries, four selected-passage reviews, one archive metadata check, and one unidentified reference.
+**Proposed implication:** Prioritise primary-source verification and human review where a new distinction affects practice. Do not use link or node counts as a proxy for confidence.
 
-**Interpretation:** Adding searchable records increases access to material while leaving a larger close-reading task open.
+**Proposed test:** Sample the new claims against their page locators; ask a human editor to accept, qualify, or reject them. Check whether a reader can distinguish original text, secondary reconstruction, and editorial application.
 
-**Implication:** Show review depth beside each entry and keep bibliography membership outside influence relations.
-
-**Test:** Filter by evidence reviewed; verify that catalogue-only entries do not appear as fully read.
-
-## An entrance changes who can use the atlas
-
-**Basis:** reader-design observation.
-
-**Measured:** The systems-thinking entrance presents a worked example and inquiry before exposing the larger graph. The rules are retained on a static page and removed from the atlas header.
-
-**Interpretation:** The route into a knowledge collection affects who can participate without prior familiarity.
-
-**Implication:** Provide useful static content and followable links alongside richer interactive views.
-
-**Test:** Read the gateway and source catalogue with JavaScript unavailable; follow each named route.
-
-## A checkable exercise is not accreditation
-
-**Basis:** editorial practice boundary.
-
-**Measured:** 26 original practice pages cover every core approach and theory row in the inspected public SCiO portfolio, with different depth limits.
-
-**Interpretation:** Mechanical model checks can expose errors without establishing competence in organisational application.
-
-**Implication:** Preserve attempts, revisions, scope limits and the need for observed practice.
-
-**Test:** Can a learner distinguish a case check from a professional assessment?
-
-## Access, reading, and review are different forms of progress
-
-**Basis:** editorial observation.
-
-**Measured:** This pass read 5 complete researcher PDFs (32 pages), the 12-module OCAD pro forma, and the ISSS resource list (57 bibliographic entries). All 85 notebook comments and 14 open issues have a disposition.
-
-**Interpretation:** A longer bibliography increases discoverability. It does not show that the works have been read or that the claims have received human review. New graph claims retain candidate status.
-
-**Implication:** Prioritise primary-source verification and human review where a new distinction affects practice. Do not use link or node counts as a proxy for confidence.
-
-**Test:** Sample the new claims against their page locators; ask a human editor to accept, qualify, or reject them. Check whether a reader can distinguish original text, secondary reconstruction, and editorial application.
-
-## Publication controls
-
-The detailed working risk register is kept outside the public release. The public site exposes the controls which shape publication, not a catalogue of exploitable operational weaknesses.
-
-See [publication safety and controls](publication-safety.md).

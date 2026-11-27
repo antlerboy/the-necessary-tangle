@@ -3,6 +3,7 @@
 import argparse
 import json
 import re
+from html import escape
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -16,22 +17,27 @@ controls = controls.replace('Search for an idea, person, method or law', 'Search
 controls, _, related = controls.partition('<div class="quick-links"')
 related = '<div class="quick-links"' + related
 actions = '<p class="hero-actions"><a href="#view=item&id=concept_viability&from=home" id="surpriseMeHero" class="surprise-me">Open a random entry</a> · <a href="/canon-and-lineage/">Who gets included in the atlas?</a></p>'
-opening = opening.replace('{{search}}', controls.strip()).replace('{{related}}', related.strip()).replace('{{actions}}', actions)
-coverage = '''      <!-- reader-coverage -->
-      <a class="hero-panel release-panel" href="#view=about" aria-label="About the atlas and its coverage">
-        <h2>Atlas coverage</h2>
-        <div class="metrics" id="homeMetrics"></div>
-        <span class="panel-link">How entries and connections are selected</span>
-      </a>
-      <!-- /reader-coverage -->
-'''
+data = json.loads((ROOT / 'data/public-data.json').read_text(encoding='utf-8'))
+depth = data.get('relational_depth', {}).get('aggregate', {})
+bands = depth.get('connection_bands', {})
+metrics = [
+    (data['meta']['described_entry_count'], 'readable public entries'),
+    (depth.get('reader_connected_entries', '—'), 'with reader connections'),
+    (bands.get('rich', 0) + bands.get('developing', 0), 'developing or rich'),
+    (depth.get('reader_statements', '—'), 'reader relationship statements'),
+]
+metrics_html = '<div class="metrics" id="homeMetrics" aria-label="Atlas counts">' + ''.join(
+    '<div class="metric"><strong>' + escape(str(number)) + '</strong><span>' + label + '</span></div>'
+    for number, label in metrics) + '</div>'
+opening = opening.replace('{{search}}', controls.strip()).replace('{{related}}', related.strip()).replace('{{actions}}', actions).replace('{{metrics}}', metrics_html)
 parser = argparse.ArgumentParser(description=__doc__)
 parser.add_argument('--reverse', action='store_true')
 args = parser.parse_args()
 text = HOME.read_text()
+# Retire the displaced coverage card, including when the reader opening already exists.
+text = re.sub(r'      <!-- reader-coverage -->.*?<!-- /reader-coverage -->\n', '', text, flags=re.S)
 if args.reverse:
     text = re.sub(r'      <!-- reader-opening -->.*?<!-- /reader-opening -->', lambda m: historical, text, flags=re.S)
-    text = re.sub(r'      <!-- reader-coverage -->.*?<!-- /reader-coverage -->\n', '', text, flags=re.S)
     text = text.replace(STYLESHEET + '\n', '')
 elif '<!-- reader-opening -->' in text:
     text = re.sub(r'      <!-- reader-opening -->.*?<!-- /reader-opening -->', lambda m: opening, text, flags=re.S)
@@ -39,16 +45,16 @@ else:
     if historical not in text:
         raise ValueError('Historical atlas opening has changed: reconcile its controls with the reader opening.')
     text = text.replace(historical, opening, 1)
-    before = '      <section class="author-strip">'
-    if text.count(before) != 1:
-        raise ValueError('Expected one curator section on the homepage')
-    text = text.replace(before, coverage + before, 1)
     text = text.replace('</head>', STYLESHEET + '\n</head>', 1)
 copy_edits = json.loads((CONTENT / 'interface-copy.json').read_text())
 for original, revised in copy_edits.items():
     before, after = (revised, original) if args.reverse else (original, revised)
     text = text.replace(before, after)
 HOME.write_text(text)
+if not args.reverse:
+    # The final overlay owns the mark after all historical build and map patches.
+    from build_living_mark_images import main as build_marks
+    build_marks()
 
 reading = ROOT / 'docs/reading/connections/index.html'
 if reading.exists():

@@ -45,7 +45,9 @@ def main():
     (docs / 'assets/reader-motion.js').write_text('/* Automatic image animation is owned by iteration-19.js. No playback controls. */\n')
     page = docs / 'index.html'
     text = page.read_text()
-    text = re.sub(r'(assets/(?:reader-motion|iteration-19)\.js)(?:\?v=[^"\s]+)?', r'\1?v=20260907-automatic-2', text)
+    for name in ('reader-motion', 'iteration-19', 'site-enhancements'):
+        version = hashlib.sha256((docs / 'assets' / (name + '.js')).read_bytes()).hexdigest()[:12]
+        text = re.sub(r'(assets/' + re.escape(name) + r'\.js)(?:\?v=[^"\s]+)?', lambda match: match[1] + '?v=' + version, text)
     text = re.sub(r'<style id="compact-mark-control">.*?</style>', '', text, flags=re.S)
     text = re.sub(r'<style>\.living-mark-playback\{.*?</style>', '', text, flags=re.S)
     page.write_text(text)
