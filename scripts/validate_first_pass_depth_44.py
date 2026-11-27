@@ -29,6 +29,9 @@ profiles={row['node_id']:row for row in data['profiles']}
 sources={row['id']:row for row in data['sources']}
 evidence={row['id']:row for row in data['evidence']}
 relations={row['relation_type'] for row in data['relation_types']}
+adventure=json.loads((DOCS/'42/atlas.json').read_text(encoding='utf-8'))
+assert adventure['graph_release']=='0.44'
+adventure_nodes={row['id']:row for row in adventure['nodes']}
 new_edges=[row for row in data['edges'] if row.get('connection_pass')==MARK]
 assert len(new_edges)>=84
 assert not [row['id'] for row in data['nodes'] if row.get('public_visibility')=='public' and 'first-pass entry' in ' '.join(str(x) for x in row.values()).lower()]
@@ -55,6 +58,8 @@ for entry in packet['entries']:
     record=json.loads((route/'record.json').read_text(encoding='utf-8'))
     assert record['release']=='0.44' and record['entry']['id']==nid
     assert record['profile']['summary']==profile['summary']
+    assert adventure_nodes[nid]['summary']==profile['summary']
+    assert adventure_nodes[nid]['definition']==profile['canonical_definition']
     html=(route/'index.html').read_text(encoding='utf-8')
     assert 'Sources and passage locators' in html and 'Review status' in html
     assert '<script' not in html and 'aria-label="Open updates"' in html
@@ -93,7 +98,7 @@ assert '<article id="v0-44">' in (DOCS/'versions/index.html').read_text(encoding
 # A second application must reproduce the source, records, release, and home.
 # The observation report is a separate final overlay, reversed before replay.
 subprocess.run([sys.executable,'scripts/reconcile_feedback_observations.py','--reverse'],cwd=ROOT,check=True)
-files=[ROOT/'data/public-data.json', DOCS/'index.html',DOCS/'reader-edition.json',DOCS/'entries/manifest.json',DOCS/'entries/developed-records.json',ROOT/'documentation/NEXT_WORK.md']
+files=[ROOT/'data/public-data.json', DOCS/'index.html',DOCS/'reader-edition.json',DOCS/'entries/manifest.json',DOCS/'entries/developed-records.json',DOCS/'42/atlas.json',DOCS/'42/manifest.json',ROOT/'documentation/NEXT_WORK.md']
 before={str(path):digest(path) for path in files}
 subprocess.run([sys.executable,'scripts/apply_first_pass_depth_44.py','--reverse'],cwd=ROOT,check=True)
 actual_baseline=json.loads((ROOT/'data/public-data.json').read_text(encoding='utf-8'))

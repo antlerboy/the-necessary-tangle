@@ -103,14 +103,19 @@ edges = [dict(id=e['id'], source=e['source'], target=e['target'],
               scope=e.get('scope_conditions', ''), locator=e.get('source_locator', ''),
               sources=refs(e)) for e in data['edges'] if e['source'] in ids and e['target'] in ids]
 OUT.mkdir(parents=True, exist_ok=True)
-for name in ['worlds.json', 'index.html', 'adventure.css', 'engine.js', 'app.js']:
-    shutil.copyfile(S / name, OUT / name)
+if '--atlas-only' not in sys.argv:
+    for name in ['worlds.json', 'index.html', 'adventure.css', 'engine.js', 'app.js']:
+        shutil.copyfile(S / name, OUT / name)
 dump(OUT / 'atlas.json', dict(graph_release=data['meta']['release'], nodes=nodes, edges=edges))
 dump(OUT / 'manifest.json', dict(reader_release='0.42', graph_release=data['meta']['release'], date=DATE,
                                places=len(worlds['rooms']), public_entries=len(nodes), recorded_connections=len(edges),
                                graph_sha256=hashlib.sha256(raw).hexdigest(),
                                fiction='Original authored places and encounters; not historical testimony',
                                source_packet='sources/adventure-42/'))
+
+if '--atlas-only' in sys.argv:
+    print('Refreshed the adventure library from graph release ' + data['meta']['release'] + '; fiction and interface unchanged.')
+    raise SystemExit(0)
 
 
 def replace_block(path, block, after):

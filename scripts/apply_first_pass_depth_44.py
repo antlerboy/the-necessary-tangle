@@ -11,6 +11,8 @@ import argparse
 import copy
 import json
 import re
+import subprocess
+import sys
 from html import escape
 from pathlib import Path
 
@@ -163,14 +165,15 @@ def main():
     write_relational_document(data)
     readable()
     knowledge()
+    subprocess.run([sys.executable, str(ROOT / 'scripts/build_adventure_42.py'), '--atlas-only'], check=True)
 
     summary = f"Research release 0.44 develops all 84 remaining publication records carrying the catalogue placeholder, with {counts['edges']} new typed connections and located source evidence. The accounts explain the papers' mechanisms, limits, and connections. Editorial applications are identified; named human acceptance remains pending."
-    edition = dict(reader_release=RELEASE, graph_release=RELEASE, date=DATE, title=TITLE, reading_url=ROUTE,
+    edition = dict(reader_release=RELEASE, graph_release=RELEASE, date=DATE, title=TITLE, reading_url=ROUTE + '#completed-set',
                    release_url=ROUTE, summary=summary)
     (DOCS / 'reader-edition.json').write_text(json.dumps(edition, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     rows = {node['id']: node for node in data['nodes']}
     listed = '<ol>' + ''.join('<li><a href="/entries/' + nid + '/">' + escape(rows[nid]['label']) + '</a></li>' for nid in cohort) + '</ol>'
-    body = '<p>Release 0.44 · 27 November 2026</p><p>' + escape(summary) + '</p><p>This completes the recorded publication placeholder set. The atlas’s other registered research programmes remain open.</p><p>Sources include original publications, author manuscripts, and published reprints. Each entry states its sources and passage locators. The linked works retain their own copyright and terms.</p><h2>The completed set</h2>' + listed
+    body = '<p>Release 0.44 · 27 November 2026</p><p>' + escape(summary) + '</p><p><a href="' + ROUTE + '#completed-set">Browse the 84 papers</a>.</p><p>This completes the recorded publication placeholder set. The atlas’s other registered research programmes remain open.</p><p>Sources include original publications, author manuscripts, and published reprints. Each entry states its sources and passage locators. The linked works retain their own copyright and terms.</p><h2 id="completed-set">The completed set</h2>' + listed
     destination = DOCS / ROUTE.strip('/')
     destination.mkdir(parents=True, exist_ok=True)
     (destination / 'index.html').write_text(page(TITLE, summary, ROUTE, body, RELEASE), encoding='utf-8')
