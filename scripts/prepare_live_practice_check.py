@@ -48,6 +48,9 @@ assert data['meta']['release']==manifest['release']
 edition=json.loads(fetch('/reader-edition.json',False))
 assert edition['reader_release']==manifest['reader_release']
 assert edition['graph_release']==manifest['graph_release']==manifest['release']
+# A clean checkout retains the historical rebuild baseline. Browser scenarios
+# which import this file must compare with the validated deployed edition.
+(ROOT/'docs/reader-edition.json').write_text(json.dumps(edition,indent=2)+'\n',encoding='utf-8')
 # Check the ordinary, unqualified URL as readers encounter it, not just a cache-buster.
 ordinary=json.loads(fetch('/deployment.json',False))
 assert ordinary['commit']==EXPECTED,('Ordinary URL serves another commit',ordinary)
