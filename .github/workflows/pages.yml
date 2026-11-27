@@ -73,6 +73,10 @@ jobs:
         env:
           NODE_PATH: /tmp/practice-browser/node_modules
         run: node scripts/test_home_carry_forward.cjs
+      - name: Check all 84 source-led publication entries
+        env:
+          NODE_PATH: /tmp/practice-browser/node_modules
+        run: node scripts/test_first_pass_depth_44.cjs
       - name: Record the exact deployed release and test summary
         env:
           DEPLOY_COMMIT: ${{ github.sha }}
@@ -106,6 +110,7 @@ jobs:
             validation/practice-browser/*.json
             validation/practice-browser/*.png
             validation/home-carry-forward/
+            validation/first-pass-depth-44/
             validation/intake-browser/*.json
             validation/intake-browser/*.png
             validation/maps-browser/*.json
@@ -257,6 +262,11 @@ jobs:
           NODE_PATH: /tmp/practice-browser/node_modules
           TANGLE_BASE_URL: https://transduction.systems
         run: node scripts/test_home_carry_forward.cjs
+      - name: Check all 84 live publication entries
+        env:
+          NODE_PATH: /tmp/practice-browser/node_modules
+          TANGLE_BASE_URL: https://transduction.systems
+        run: node scripts/test_first_pass_depth_44.cjs
       - name: Preserve live verification evidence and downloaded pack
         if: always()
         uses: actions/upload-artifact@v4
@@ -265,6 +275,7 @@ jobs:
           path: |
             validation/practice-live/
             validation/home-carry-forward/
+            validation/first-pass-depth-44/
             validation/library-browser/
             validation/encounters-live/
             validation/update-30-browser/

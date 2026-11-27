@@ -1,6 +1,13 @@
 # Current Tangle state
+<!-- first_pass_depth_44 -->
+## Current research and reader edition 0.44
+
+Research release 0.44 develops all 84 remaining publication records carrying the catalogue placeholder, with 168 new typed connections and located source evidence. The accounts explain the papers' mechanisms, limits, and connections. Editorial applications are identified; named human acceptance remains pending.
+
+The packet and cohort are in sources/first-pass-depth-44/packet.json. Deployment identity and live checks belong to deployment.json and the Publish workflow. Broader corpus requests remain open.
+<!-- /first_pass_depth_44 -->
 <!-- museum-release -->
-## Current reader release 0.43
+## Previous reader release 0.43
 
 22 November 2026. [The museum alarm](https://transduction.systems/reading/connections/#museum-store) is a worked comparison of three primary sources. Entry and reading-route copy was revised. The research graph remains at 0.41. [Release account](https://transduction.systems/updates/2026-11-22-museum/).
 <!-- /museum-release -->
@@ -15,8 +22,13 @@ results belong to deployment.json, the Publish workflow, and the adventure
 completion record. No claim of successful publication follows from this build.
 <!-- /adventure-42 -->
 
+<!-- guide-editions -->
+## Guide editions: Making things change
+
+Benjamin P Taylor authorised both 32-page working drafts on 11 November 2026. The guide at /library/making-things-change/ offers v0.02 first, retains the first draft with resource links corrected on 11 November 2026, and reuses SysCoI resource identity resource_syscoi_post_29454. No graph or release change. Source packet: sources/making-things-change/PACKET.md. The Publish workflow and deployment.json identify validation and publication.
+<!-- /guide-editions -->
 <!-- feedback_regulation_20261107 -->
-## Current research edition 0.41
+## Previous research edition 0.41
 
 7 November 2026. Two existing profiles receive four located primary clarifications and an original discrete response model. Reader route: https://transduction.systems/reading/feedback-and-regulation/. Human editorial acceptance remains pending. Deployment identity and live checks belong to deployment.json and the Publish workflow.
 <!-- /feedback_regulation_20261107 -->
@@ -89,5 +101,5 @@ Edition 1.1, 29 October 2026. /saidtosomeone/ has 54 entries with exact and repo
 <!-- readable-atlas-state -->
 ## Readable atlas editions, introduced 5 November 2026
 
-The maintained public projection generates 233 developed entry pages and 30 complete reading journeys, each with a stable URL. Entries preserve recorded status, sources, passage locators, claims, and typed connections. Sourced JSON downloads omit evidence excerpts and retain attribution and licence boundaries. Practical home routes, readable indexes, interactive edition links, a stewardship page, and sitemap entries are generated from the same maintained data. These reader projections use graph release 0.41; the reader generator introduces no new claims. No independent teaching review or reviewer appointment is implied. The original implementation is recorded in documentation/estate-implementation-20261105.md; later content releases have their own evidence and publication records.
+The maintained public projection generates 316 developed entry pages and 30 complete reading journeys, each with a stable URL. Entries preserve recorded status, sources, passage locators, claims, and typed connections. Sourced JSON downloads omit evidence excerpts and retain attribution and licence boundaries. Practical home routes, readable indexes, interactive edition links, a stewardship page, and sitemap entries are generated from the same maintained data. These reader projections use graph release 0.44; the reader generator introduces no new claims. No independent teaching review or reviewer appointment is implied. The original implementation is recorded in documentation/estate-implementation-20261105.md; later content releases have their own evidence and publication records.
 <!-- /readable-atlas-state -->

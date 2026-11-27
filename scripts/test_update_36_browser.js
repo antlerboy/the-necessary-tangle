@@ -6,7 +6,7 @@ const path=require('node:path');
 const http=require('node:http');
 const root=path.resolve(__dirname,'../docs');
 const output=path.resolve(__dirname,'../validation/update-36-browser');
-const release='0.41';
+let release;
 const cohort='depth_20261106';
 const guide='/reading/from-observation-to-action/';
 const update='/updates/2026-11-06/';
@@ -54,7 +54,7 @@ async function main(){
   const dataResponse=await request.request.get(base+'/assets/public-data.json');
   assert.equal(dataResponse.status(),200);
   const data=await dataResponse.json();
-  assert.equal(data.meta.release,release,'Test needs generated release 0.41');
+  release=(await(await request.request.get(base+'/reader-edition.json')).json()).graph_release;assert.equal(data.meta.release,release,'Test needs the declared graph release');
   const readerResponse=await request.request.get(base+'/reader-edition.json');
   assert.equal(readerResponse.status(),200,'Reader edition must identify its graph');
   const readerEdition=await readerResponse.json();
