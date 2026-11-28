@@ -121,15 +121,17 @@ def paragraph(value):
     return '<p>' + esc(value) + '</p>' if value else ''
 
 
-def page(title, description, path, body, release, edition_label='Graph research edition'):
+def page(title, description, path, body, release, edition_label='Graph research edition', dependency_links=False):
+    dependency_css = '<link rel="stylesheet" href="/assets/dependency-reader.css">' if dependency_links else ''
+    dependency_nav = '<a href="/dependencies/">Predecessors and dependents</a>' if dependency_links else ''
     return f'''<!doctype html>
 <html lang="en-GB"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{esc(title)} | The Necessary Tangle</title><meta name="description" content="{esc(description[:260])}">
 <meta name="author" content="Benjamin P Taylor"><meta property="og:title" content="{esc(title)}">
 <meta property="og:description" content="{esc(description[:260])}"><meta property="og:url" content="{BASE}{path}">
-<link rel="canonical" href="{BASE}{path}"><link rel="icon" href="/favicon.svg"><link rel="stylesheet" href="/assets/readable-atlas.css">
+<link rel="canonical" href="{BASE}{path}"><link rel="icon" href="/favicon.svg"><link rel="stylesheet" href="/assets/readable-atlas.css">{dependency_css}
 </head><body class="readable-atlas"><a class="skip-link" href="#main">Skip to content</a>
-<header><a class="brand" href="/">The Necessary Tangle</a><nav aria-label="Main navigation"><a href="/entries/">Entries</a><a href="/journeys/">Reading journeys</a><a href="/systems-thinking/claim-lab/">Test a claim</a><a href="/systems-thinking/practice/">Practice</a><a href="/library/">Sources</a></nav></header>
+<header><a class="brand" href="/">The Necessary Tangle</a><nav aria-label="Main navigation"><a href="/entries/">Entries</a>{dependency_nav}<a href="/journeys/">Reading journeys</a><a href="/systems-thinking/claim-lab/">Test a claim</a><a href="/systems-thinking/practice/">Practice</a><a href="/library/">Sources</a></nav></header>
 <main id="main"><p class="eyebrow">{esc(edition_label)} {esc(release)}</p><h1>{esc(title)}</h1>{body}</main>
 <footer><p><a href="https://antlerboy.com/">Benjamin P Taylor</a> is responsible for the atlas’s editorial decisions. AI assists with research and publishing.</p>
 <p>Original atlas text and data: <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>. Linked works retain their authorship and terms. <a href="/stewardship/">Responsibility and maintenance</a> · <a href="/#view=contribute">Suggest a correction</a>.</p></footer>
@@ -141,6 +143,8 @@ def main():
     previous_routes = json.loads(manifest_path.read_text(encoding='utf-8')).get('routes', []) if manifest_path.exists() else []
     data = json.loads((DOCS / 'assets/public-data.json').read_text(encoding='utf-8'))
     release = data['meta']['release']
+    from dependency_model import DependencyIndex
+    dependency_index = DependencyIndex(data) if data.get('biographies_107_45') else None
     redirects = data.get('canonical_redirects', {})
     nodes = {n['id']: n for n in data['nodes'] if n.get('public_visibility') == 'public' and redirects.get(n['id'], n['id']) == n['id']}
     profiles = {p['node_id']: p for p in data['profiles'] if p['node_id'] in nodes}
@@ -192,6 +196,8 @@ def main():
             review += paragraph('Research date: ' + profile['last_researched'] + '.')
         review += '</aside>'
         body += '<p class="actions"><a href="/#view=item&amp;id=' + esc(ident) + '">Open the interactive entry</a> · <a href="/#view=map&amp;focus=' + esc(ident) + '">Explore its map</a> · <a href="#review">Review status</a> · <a download href="record.json">Download the sourced record (JSON)</a></p>'
+        if dependency_index:
+            body += dependency_index.html(ident, node_link)
         for heading, key in sections:
             value = profile.get(key)
             if value:
@@ -227,7 +233,7 @@ def main():
         for key in ('connections', 'claims', 'sources'):
             record[key] = [structured(item) for item in record[key]]
         records.append(record)
-        write(path.strip('/') + '/index.html', page(title, definition, path, body, release))
+        write(path.strip('/') + '/index.html', page(title, definition, path, body, release, dependency_links=bool(dependency_index)))
         write(path.strip('/') + '/record.json', json.dumps(record, ensure_ascii=False, indent=2) + '\n')
 
     for journey in journeys:

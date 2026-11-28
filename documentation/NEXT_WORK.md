@@ -1,15 +1,15 @@
 # Next work
 
-# Random selection: every public entry
+<!-- biographies_107_45 -->
+## Current authorised packet: 107 biographies and the dependency reader
 
-28 November 2026. Benjamin's instruction is that random entry draws from every public entry. The previous handler admitted 565 of 1,295 canonical public entries, filtering by status, publication level, entity type, and description length.
+Release 0.45 develops or resolves all 107 original first-pass person records into 107 distinct biographical identities, with 247 new scoped connections. A predecessor-and-dependent reader separates recorded necessary dependencies from other relationships. Sources, limits, and review status remain inspectable; named editorial acceptance is pending.
 
-Include every public canonical entry, including sources, corpora, provisional records, and entries without developed profiles. Keep aliases de-duplicated and private records excluded. Avoid an immediate repeat when another entry exists. Preserve actual links, modified-click, new tabs, keyboard access, browser history, counts below Inside the atlas, and animated marks.
+The maintained graph has 1,290 canonical public entries and 423 developed profiles. Every canonical public entry remains eligible for random selection. Verified identity aliases retain their earlier routes and are de-duplicated in the pool.
 
-The previous 84-entry content release covered publication placeholders. It did not complete the wider first-pass instruction: 107 person records retain first-pass status, all without developed profiles; 105 still have explicit placeholder descriptions. Those biographies require source-led development and meaningful connections. Random selection must not hide unfinished entries.
+Publication and live verification belong to deployment.json and the Publish workflow. Preserve the 84 publication accounts from release 0.44, identity redirects, and current navigation. Human editorial acceptance, wider corpus research, and the separate moving-logo report remain open.
+<!-- /biographies_107_45 -->
 
-Acceptance: exact equality between the random pool and all canonical public entry IDs, deterministic coverage through the real click handler, representative previously excluded entry types, desktop/mobile link behaviour, current metadata, full make validate, deployment identity, and live checks.
+## Historical random-selection correction, release 0.44
 
-The 84 publication profiles remain complete within their recorded source-reading bounds. Keep the broader biography instruction open. Two new running feedback comments also remain open: the reported absence of moving logos, and easier access to necessary predecessors and dependent entries. This change does not claim to resolve either request.
-
-Publication and live verification status belong to the Publish workflow and deployment manifest. No research graph admission or human editorial acceptance is added by this navigation change.
+On 28 November 2026, the random handler was corrected from a filtered pool of 565 to all 1,295 canonical public entries then present. That audit found 107 person records without developed profiles, including 105 placeholder descriptions, and recorded the request for easier predecessor and dependent navigation. These are dated baseline measurements; release 0.45 addresses the finite biography cohort and adds the dependency view. The separate moving-logo report remains open.

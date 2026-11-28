@@ -81,6 +81,10 @@ jobs:
         env:
           NODE_PATH: /tmp/practice-browser/node_modules
         run: node scripts/test_random_entry_browser.cjs
+      - name: Check all 107 biographies and the focused dependency reader
+        env:
+          NODE_PATH: /tmp/practice-browser/node_modules
+        run: node scripts/test_dependency_model.cjs && python3 scripts/validate_dependency_reader.py && node scripts/test_dependency_reader_browser.cjs
       - name: Record the exact deployed release and test summary
         env:
           DEPLOY_COMMIT: ${{ github.sha }}
@@ -116,6 +120,8 @@ jobs:
             validation/home-carry-forward/
             validation/first-pass-depth-44/
             validation/random-entry-all/
+            validation/biographies-45/
+            validation/dependency-reader/
             validation/intake-browser/*.json
             validation/intake-browser/*.png
             validation/maps-browser/*.json
@@ -277,6 +283,12 @@ jobs:
           NODE_PATH: /tmp/practice-browser/node_modules
           TANGLE_BASE_URL: https://transduction.systems
         run: node scripts/test_random_entry_all.cjs && node scripts/test_random_entry_browser.cjs
+      - name: Check the live biographies and dependency reader
+        env:
+          NODE_PATH: /tmp/practice-browser/node_modules
+          TANGLE_BASE_URL: https://transduction.systems
+          DEPLOY_COMMIT: ${{ github.sha }}
+        run: python3 scripts/verify_biographies_live_45.py && node scripts/test_dependency_reader_browser.cjs
       - name: Preserve live verification evidence and downloaded pack
         if: always()
         uses: actions/upload-artifact@v4
@@ -287,6 +299,8 @@ jobs:
             validation/home-carry-forward/
             validation/first-pass-depth-44/
             validation/random-entry-all/
+            validation/biographies-45/
+            validation/dependency-reader/
             validation/library-browser/
             validation/encounters-live/
             validation/update-30-browser/

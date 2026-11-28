@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en-GB"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Predecessors and dependent entries | The Necessary Tangle</title>
+<meta name="description" content="Explore recorded prerequisites, dependent entries, and their sources around a focused atlas entry.">
+<link rel="canonical" href="https://transduction.systems/dependencies/"><link rel="icon" href="/favicon.svg">
+<link rel="stylesheet" href="/assets/readable-atlas.css"><link rel="stylesheet" href="/assets/dependency-reader.css?v={{release}}">
+</head><body class="readable-atlas dependency-reader"><a class="skip-link" href="#main">Skip to content</a>
+<header><a class="brand" href="/">The Necessary Tangle</a><nav aria-label="Main navigation"><a href="/entries/">Entries</a><a href="/#view=map">Map</a><a href="/journeys/">Reading journeys</a><a href="/library/">Sources</a></nav></header>
+<main id="main"><p class="eyebrow">Graph research edition {{release}}</p><h1>Predecessors and dependent entries</h1>
+<p class="dependency-intro">Choose an entry to explore its recorded prerequisites and what depends on it. Follow a neighbouring card to make it the focus.</p>
+<form id="dependency-search" class="dependency-search" role="search"><label for="dependency-query">Find an entry</label><div><input id="dependency-query" name="q" type="search" list="dependency-options" autocomplete="off" placeholder="For example, boundary or feedback"><button type="submit">Focus entry</button></div><datalist id="dependency-options"></datalist></form>
+<div id="dependency-search-results" aria-live="polite"></div>
+<div class="dependency-controls"><label>Relationships <select id="dependency-mode"><option value="necessary">Recorded prerequisites</option><option value="connections">All recorded relationships</option></select></label><label>Reach <select id="dependency-depth"><option value="1">One step</option><option value="2">Two steps</option><option value="3">Three steps</option></select></label><button id="dependency-copy" type="button">Copy this view</button><a id="dependency-reset" href="?entry=concept_feedback">Reset</a></div>
+<p id="dependency-explanation" class="dependency-explanation">Prerequisite claims have distinct meanings and their own sources, scope, and review status. Further steps show recorded chains; they do not add new claims.</p>
+<p id="dependency-status" class="dependency-status" role="status"></p>
+<div id="dependency-cycle" class="dependency-warning" hidden></div>
+<div class="dependency-columns" id="dependency-columns"><section id="dependency-predecessors" class="dependency-lane" aria-labelledby="predecessor-title"><h2 id="predecessor-title">Necessary predecessors</h2><p class="dependency-direction">Predecessor → focused entry</p><div id="predecessor-cards"></div></section>
+<section id="dependency-focus" class="dependency-focus" aria-label="Focused entry"></section>
+<section id="dependency-dependents" class="dependency-lane" aria-labelledby="dependent-title"><h2 id="dependent-title">Dependent entries</h2><p class="dependency-direction">Focused entry → dependent</p><div id="dependent-cards"></div></section></div>
+<section id="dependency-related" hidden><h2>Recorded relationships</h2><p>These retain the direction and meaning of each original statement.</p><label class="dependency-filter">Find a connected entry <input id="dependency-filter" type="search"></label><div id="related-cards" class="dependency-related-grid"></div><button id="dependency-more" type="button" hidden>Show more connections</button></section>
+<noscript><p>This focused diagram needs JavaScript. The <a href="/entries/">readable entries</a> include prerequisite lists, recorded connections, sources, and review status without JavaScript.</p></noscript>
+<section class="dependency-about"><h2>About this view</h2><p>Inspired by SCiO’s <a href="https://www.systemspractice.org/sysbok-from-scio">SysBoK concept model</a> and its <a href="https://kumu.io/koryckaa/scio-sysbok-v1#map">Precedents and Dependent Derivatives view</a>. The records here belong to The Necessary Tangle. SCiO describes its own model as incomplete and work in progress.</p><p>Only relationships classified as prerequisite claims enter the predecessor/dependent columns. The other-relationships mode includes citation, collaboration, authorship, influence, and collection structure with their recorded meanings. Proposals and disputes keep their review labels.</p></section>
+</main><footer><p>Curated by <a href="https://www.antlerboy.com/">Benjamin P Taylor</a>. AI assists with research and publishing. <a href="/stewardship/">Responsibility and maintenance</a>.</p><p>Original atlas text and data: <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>. Linked works retain their authorship and terms.</p></footer>
+<a class="update-thread-dot" href="https://github.com/antlerboy/the-necessary-tangle/issues/2" aria-label="Open updates"></a>
+<script src="/assets/public-data.js?v={{release}}"></script><script src="/assets/dependency-model.js?v={{release}}"></script><script src="/assets/dependency-reader.js?v={{release}}"></script>
+</body></html>

@@ -1,6 +1,9 @@
 # The Necessary Tangle
+<!-- biographies_107_45 -->
+Current research and reader release **0.45, 28 November 2026**. [People, predecessors, and what follows](https://transduction.systems/updates/2026-11-28-biographies-and-dependencies/). All 107 original biography records are developed or identity-resolved. Editorial review remains open.
+<!-- /biographies_107_45 -->
 <!-- first_pass_depth_44 -->
-Current research and reader release **0.44, 27 November 2026**. [84 papers, beyond the catalogue](https://transduction.systems/updates/2026-11-27-first-pass-depth/). Source-led accounts; editorial review pending.
+Previous research and reader release **0.44, 27 November 2026**. [84 papers, beyond the catalogue](https://transduction.systems/updates/2026-11-27-first-pass-depth/). Source-led accounts; editorial review pending.
 <!-- /first_pass_depth_44 -->
 <!-- museum-release -->
 Previous reader release **0.43, 22 November 2026**. [The museum alarm](https://transduction.systems/reading/connections/#museum-store). [Release account](https://transduction.systems/updates/2026-11-22-museum/). Graph research edition **0.41**.
@@ -8,7 +11,6 @@ Previous reader release **0.43, 22 November 2026**. [The museum alarm](https://t
 <!-- adventure-42 -->
 Reader release **0.42, 15 November 2026**: [An adventure in the Tangle](https://transduction.systems/42/). An original CP/M-inspired text adventure connected to the complete public atlas. Graph research release remains 0.41. See the Publish workflow and deployment.json for actual publication identity.
 <!-- /adventure-42 -->
-
 
 <!-- current-31 -->
 Previous research edition: **0.41, 7 November 2026**. [Feedback and regulation](https://transduction.systems/reading/feedback-and-regulation/). Human editorial acceptance remains pending.

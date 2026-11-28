@@ -1,11 +1,13 @@
 # Current Tangle state
-<!-- random-entry-all -->
-## Random-entry coverage correction, 28 November 2026
+<!-- biographies_107_45 -->
+## Current research and reader edition 0.45
 
-The active random-entry handler uses every canonical public entry, independent of status, publication level, entity type, and description length. The current graph has 1,295 such entries. The prior 84-entry work covered publications only; 107 person records still retain first-pass status without developed profiles, including 105 placeholder descriptions. Their source-led development remains open. The running feedback instruction must not be marked complete from the publication-only count. Deployment identity and live checks remain in the publication workflow and manifest.
-<!-- /random-entry-all -->
+Release 0.45 develops or resolves all 107 original first-pass person records into 107 distinct biographical identities, with 247 new scoped connections. A predecessor-and-dependent reader separates recorded necessary dependencies from other relationships. Sources, limits, and review status remain inspectable; named editorial acceptance is pending.
+
+All canonical public entries remain in the random pool; identity aliases are de-duplicated. Graph and reader identity, deployment, and live tests remain separately recorded. The source-owner-reviewed Systemic Evolution package is unchanged.
+<!-- /biographies_107_45 -->
 <!-- first_pass_depth_44 -->
-## Current research and reader edition 0.44
+## Previous research and reader edition 0.44
 
 Research release 0.44 develops all 84 remaining publication records carrying the catalogue placeholder, with 168 new typed connections and located source evidence. The accounts explain the papers' mechanisms, limits, and connections. Editorial applications are identified; named human acceptance remains pending.
 
@@ -106,5 +108,5 @@ Edition 1.1, 29 October 2026. /saidtosomeone/ has 54 entries with exact and repo
 <!-- readable-atlas-state -->
 ## Readable atlas editions, introduced 5 November 2026
 
-The maintained public projection generates 316 developed entry pages and 30 complete reading journeys, each with a stable URL. Entries preserve recorded status, sources, passage locators, claims, and typed connections. Sourced JSON downloads omit evidence excerpts and retain attribution and licence boundaries. Practical home routes, readable indexes, interactive edition links, a stewardship page, and sitemap entries are generated from the same maintained data. These reader projections use graph release 0.44; the reader generator introduces no new claims. No independent teaching review or reviewer appointment is implied. The original implementation is recorded in documentation/estate-implementation-20261105.md; later content releases have their own evidence and publication records.
+The maintained public projection generates 423 developed entry pages and 30 complete reading journeys, each with a stable URL. Entries preserve recorded status, sources, passage locators, claims, and typed connections. Sourced JSON downloads omit evidence excerpts and retain attribution and licence boundaries. Practical home routes, readable indexes, interactive edition links, a stewardship page, and sitemap entries are generated from the same maintained data. These reader projections use graph release 0.45; the reader generator introduces no new claims. No independent teaching review or reviewer appointment is implied. The original implementation is recorded in documentation/estate-implementation-20261105.md; later content releases have their own evidence and publication records.
 <!-- /readable-atlas-state -->

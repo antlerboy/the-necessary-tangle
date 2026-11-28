@@ -1,11 +1,13 @@
 .PHONY: build build-base apply-current apply-practice apply-missing-entry-reports validate serve clean
 
-build: build-base apply-current apply-practice apply-september apply-intake apply-maps apply-library apply-missing-entry-reports apply-submission-review apply-claim-lab apply-weaver apply-update-30 apply-update-31 apply-update-32 apply-update-33 apply-update-34 apply-saidtosomeone apply-update-35 apply-cybernetic-readings apply-isss-wiki apply-update-36 apply-update-37 apply-update-38 apply-update-39 apply-update-40 apply-update-41 apply-readable-atlas apply-syscoi-intake apply-complexity-eight-days apply-sysprac26 apply-making-things-change apply-adventure-42 apply-reader-opening apply-first-pass-depth-44 apply-feedback-observations
+build: build-base apply-current apply-practice apply-september apply-intake apply-maps apply-library apply-missing-entry-reports apply-submission-review apply-claim-lab apply-weaver apply-update-30 apply-update-31 apply-update-32 apply-update-33 apply-update-34 apply-saidtosomeone apply-update-35 apply-cybernetic-readings apply-isss-wiki apply-update-36 apply-update-37 apply-update-38 apply-update-39 apply-update-40 apply-update-41 apply-readable-atlas apply-syscoi-intake apply-complexity-eight-days apply-sysprac26 apply-making-things-change apply-adventure-42 apply-reader-opening apply-first-pass-depth-44 apply-biographies-45 apply-feedback-observations
 
 # Historical validators assert historical release identifiers. Rebuild that
 # baseline, run its gates, then apply and validate the current release.
 build-base:
 	python3 scripts/reconcile_feedback_observations.py --reverse
+	python3 scripts/build_dependency_reader.py --reverse
+	python3 scripts/apply_biographies_45.py --reverse
 	python3 scripts/apply_first_pass_depth_44.py --reverse
 	python3 scripts/build_reader_opening.py --reverse
 	python3 scripts/build_adventure_42.py --reverse
@@ -238,6 +240,11 @@ validate: build-base
 	$(MAKE) apply-first-pass-depth-44
 	python3 scripts/validate_first_pass_depth_44.py
 	python3 scripts/validate_public.py
+	$(MAKE) apply-biographies-45
+	python3 scripts/validate_biographies_45.py
+	node scripts/test_dependency_model.cjs
+	python3 scripts/validate_dependency_reader.py
+	python3 scripts/validate_public.py
 	$(MAKE) apply-feedback-observations
 	python3 scripts/reconcile_feedback_observations.py --check
 	python3 scripts/validate_public.py
@@ -392,4 +399,10 @@ apply-feedback-observations:
 .PHONY: apply-first-pass-depth-44
 apply-first-pass-depth-44:
 	python3 scripts/apply_first_pass_depth_44.py
+	node scripts/test_random_entry_all.cjs
+
+.PHONY: apply-biographies-45
+apply-biographies-45:
+	python3 scripts/apply_biographies_45.py
+	python3 scripts/build_dependency_reader.py
 	node scripts/test_random_entry_all.cjs

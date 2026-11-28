@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.45 – 28 November 2026
+
+Release 0.45 develops or resolves all 107 original first-pass person records into 107 distinct biographical identities, with 247 new scoped connections. A predecessor-and-dependent reader separates recorded necessary dependencies from other relationships. Sources, limits, and review status remain inspectable; named editorial acceptance is pending.
+
 ## 0.44 — 27 November 2026
 
 Research release 0.44 develops all 84 remaining publication records carrying the catalogue placeholder, with 168 new typed connections and located source evidence. The accounts explain the papers' mechanisms, limits, and connections. Editorial applications are identified; named human acceptance remains pending.

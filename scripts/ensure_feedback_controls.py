@@ -1,6 +1,13 @@
 """Apply page-wide feedback coverage after all public route generators."""
 from pathlib import Path
 import re
+
+def write_if_changed(path, text):
+    # Historical stages revisit every page; preserve unchanged bytes and avoid
+    # repeatedly rewriting the publication tree on synced filesystems.
+    if not path.exists() or path.read_text() != text:
+        path.write_text(text)
+
 root = Path(__file__).resolve().parents[1] / 'docs'
 css = '#openUpdates,.update-thread-dot,.iteration-dot{position:fixed!important;right:0!important;bottom:0!important;width:44px!important;height:44px!important;border:0!important;background:transparent!important;border-radius:0!important;z-index:99999;opacity:1!important;box-shadow:none!important}#openUpdates::after,.update-thread-dot::after,.iteration-dot::after{content:"";position:absolute;right:8px;bottom:8px;width:5px;height:5px;border-radius:50%;background:#862719;box-shadow:0 0 0 1px #fff}#openUpdates:focus-visible,.update-thread-dot:focus-visible,.iteration-dot:focus-visible{outline:3px solid #ffbf47!important;outline-offset:-3px}'
 css += '.feedback-choice{position:fixed;right:0;bottom:0;z-index:99999}.feedback-choice summary{list-style:none;width:44px;height:44px;cursor:pointer;position:relative}.feedback-choice summary::-webkit-details-marker{display:none}.feedback-choice summary::after{content:"";position:absolute;right:8px;bottom:8px;width:5px;height:5px;background:#862719;border-radius:50%;box-shadow:0 0 0 1px #fff}.feedback-choice summary span{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}.feedback-choice summary:focus-visible{outline:3px solid #ffbf47;outline-offset:-3px}.feedback-choice nav{position:absolute;right:8px;bottom:48px;display:grid;gap:4px;width:190px;max-width:calc(100vw - 24px);padding:8px;border:1px solid #888;border-radius:6px;background:#fff;color:#15232e;box-shadow:0 4px 18px #0003}.feedback-choice:not([open]) nav{display:none}.feedback-choice nav a{display:block;padding:12px;color:#15232e;text-decoration:underline}.feedback-choice nav a:hover,.feedback-choice nav a:focus-visible{background:#eef1f3;outline:2px solid #862719}'
@@ -24,7 +31,7 @@ for page in root.rglob('*.html'):
         text = re.sub(r'<!-- WEB_ESTATE_FEEDBACK_20260906 --><style>.*?</style>', lambda _: style, text, flags=re.S)
     else:
         text = text.replace('</head>', style + '</head>') if '</head>' in text else style + text
-    page.write_text(text)
+    write_if_changed(page, text)
     assert 'aria-label="Open updates"' in text, page
     count += 1
 # Motion is the default requested presentation; reduced-motion readers keep posters.
@@ -34,14 +41,14 @@ old = 'const candidates = usable.length > 1 ? usable.filter(mark => mark.id !== 
 new = 'const moving = reducedMotion ? [] : usable.filter(mark => mark.kind === "video");\n    const pool = moving.length ? moving : usable;\n    const candidates = pool.length > 1 ? pool.filter(mark => mark.id !== previous) : pool;'
 if old in text:
     text = text.replace(old, new).replace('|| usable[0]', '|| pool[0]')
-    script.write_text(text)
+    write_if_changed(script, text)
 print(f'Checked feedback control on {count} public HTML pages; preserved reduced-motion mark fallback.')
 
 # Give the changed selector a fresh asset URL so existing visitors receive it.
 index = root / 'index.html'
 text = index.read_text()
 text = re.sub(r'assets/iteration-19\.js\?v=[^"\s]+', 'assets/iteration-19.js?v=20260906-motion', text)
-index.write_text(text)
+write_if_changed(index, text)
 
 # Offer a route that does not require a GitHub account.
 text=index.read_text()
@@ -52,15 +59,15 @@ text=text.replace('This page sends nothing to the project. The button prepares a
 text=text.replace('<button type="submit" class="primary">Prepare GitHub issue</button>', '<button type="button" id="emailCorrection" class="primary">Email your correction</button><button type="submit">Prepare a public GitHub issue</button>')
 text=text.replace('<li>The proposal becomes a visible GitHub issue.</li>','<li>The curator reads your email or public issue.</li>')
 if 'reader-feedback.js' not in text:text=text.replace('</body>','<script defer src="assets/reader-feedback.js?v=20260906"></script></body>')
-index.write_text(text)
-(root/'assets/reader-feedback.js').write_text("""(() => {
+write_if_changed(index, text)
+write_if_changed(root/'assets/reader-feedback.js', """(() => {
  const button=document.getElementById('emailCorrection'),form=document.getElementById('contributionForm');if(!button||!form)return;
  button.addEventListener('click',()=>{if(!form.reportValidity())return;const data=new FormData(form);const labels={submission_type:'Type',entry_label:'Entry',entry_id:'Entry identifier',statement:'Proposed change',reason:'Reason',source_url:'Public source',source_citation:'Citation',evidence:'Evidence',name:'Name'};const body=Array.from(data.entries()).filter(([,v])=>String(v).trim()).map(([k,v])=>(labels[k]||k)+': '+v).join('\\n\\n');const subject='The Necessary Tangle: '+data.get('submission_type');location.href='mailto:benjamin.taylor@redquadrant.com?subject='+encodeURIComponent(subject)+'&body='+encodeURIComponent(body);document.getElementById('formStatus').textContent='Review and send the draft in your email app. If it does not open, email benjamin.taylor@redquadrant.com with your correction.';});
 })();""")
 
 # Let readers start playback when browser autoplay is paused, and pause motion explicitly.
 motion = root / 'assets/reader-motion.js'
-motion.write_text("""(() => {
+write_if_changed(motion, """(() => {
  const host=document.querySelector('[data-living-mark]'); if(!host)return;
  const button=document.createElement('button');button.type='button';button.className='living-mark-playback';button.textContent='Play mark';
  const home=host.closest('a');(home||host).insertAdjacentElement('afterend',button);
@@ -73,15 +80,15 @@ text=index.read_text()
 if 'reader-motion.js' not in text:
  text=text.replace('</body>','<script defer src="assets/reader-motion.js?v=20260906-reader"></script></body>')
  text=text.replace('</head>','<style>.living-mark-playback{font:inherit;font-size:13px;color:inherit;background:transparent;border:1px solid currentColor;border-radius:4px;padding:5px 8px;cursor:pointer}.living-mark-playback:focus-visible{outline:3px solid #ffbf47;outline-offset:3px}</style></head>')
-index.write_text(text)
+write_if_changed(index, text)
 # Normalise displayed punctuation at the final rendering layer; original sources stay intact.
 for page in root.rglob('*.html'):
  text=page.read_text().replace(' — ','; ').replace(' – ','; ').replace('—',', ').replace('–','-').replace('&mdash;',', ').replace('&ndash;','-')
- page.write_text(text)
+ write_if_changed(page, text)
 
 copy_script=root/'assets/reader-punctuation.js'
-copy_script.write_text("""(() => {const normal=s=>s.replaceAll(' \u2014 ','; ').replaceAll(' \u2013 ','; ').replaceAll('\u2014',', ').replaceAll('\u2013','-');function clean(root){if(root.nodeType===3){if(!root.parentElement?.closest('script,style,textarea,input,code,pre')){const text=normal(root.nodeValue);if(text!==root.nodeValue)root.nodeValue=text;}return;}if(root.nodeType!==1)return;for(const child of root.childNodes)clean(child);}clean(document.body);new MutationObserver(records=>{for(const record of records){if(record.type==='characterData')clean(record.target);else for(const node of record.addedNodes)clean(node);}}).observe(document.body,{subtree:true,childList:true,characterData:true});})();""")
+write_if_changed(copy_script, """(() => {const normal=s=>s.replaceAll(' \u2014 ','; ').replaceAll(' \u2013 ','; ').replaceAll('\u2014',', ').replaceAll('\u2013','-');function clean(root){if(root.nodeType===3){if(!root.parentElement?.closest('script,style,textarea,input,code,pre')){const text=normal(root.nodeValue);if(text!==root.nodeValue)root.nodeValue=text;}return;}if(root.nodeType!==1)return;for(const child of root.childNodes)clean(child);}clean(document.body);new MutationObserver(records=>{for(const record of records){if(record.type==='characterData')clean(record.target);else for(const node of record.addedNodes)clean(node);}}).observe(document.body,{subtree:true,childList:true,characterData:true});})();""")
 for page in root.rglob('*.html'):
  text=page.read_text()
  if 'reader-punctuation.js' not in text:text=text.replace('</body>','<script defer src="/assets/reader-punctuation.js?v=20260906"></script></body>')
- page.write_text(text)
+ write_if_changed(page, text)

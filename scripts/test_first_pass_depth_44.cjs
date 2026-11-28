@@ -23,6 +23,9 @@ let server,browser;
  }
  fs.mkdirSync(out,{recursive:true});
  browser=await chromium.launch({headless:true});
+ const currentEdition=await(await fetch(base+'/reader-edition.json')).json();
+ const release=currentEdition.graph_release;
+ assert.equal(currentEdition.reader_release,release,'Reader and graph editions differ');
  const results=[];
  for(const width of [1440,390]){
   const context=await browser.newContext({viewport:{width,height:900},javaScriptEnabled:false});
@@ -39,7 +42,7 @@ let server,browser;
    assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),route+' overflow '+width);
    const record=await(await context.request.get(base+route+'record.json')).json();
    assert.equal(record.entry.id,nid);
-   assert.equal(record.release,'0.44');
+   assert.equal(record.release,release);
    assert.equal(record.profile.review_status,'research_pass_needs_editor');
    assert(record.connections.some(edge=>edge.connection_pass==='first_pass_depth_44'));
    assert(record.evidence_locators.length>0);
@@ -61,10 +64,10 @@ let server,browser;
  }
  assert.deepEqual(errors,[]);
  await page.goto(base+'/versions/');
- assert((await page.locator('article').first().getAttribute('id'))==='v0-44');
+ assert.equal(await page.locator('article').first().getAttribute('id'),'v'+release.replaceAll('.','-'));
  await context.close();
- fs.writeFileSync(path.join(out,'report.json'),JSON.stringify({release:'0.44',base,entries:84,route_checks:results.length,results,passed:true},null,2)+'\n');
- console.log('0.44 browser passed: all 84 sourced routes and downloads at 390/1440, release index, interactive links, and current history.');
+ fs.writeFileSync(path.join(out,'report.json'),JSON.stringify({release,cohort_release:'0.44',base,entries:84,route_checks:results.length,results,passed:true},null,2)+'\n');
+ console.log('0.44 cohort browser passed in edition '+release+': all 84 sourced routes and downloads at 390/1440, release index, interactive links, and current history.');
 })().catch(error=>{console.error(error);process.exitCode=1}).finally(async()=>{
  if(browser)await browser.close();
  if(server){server.closeAllConnections?.();await new Promise(resolve=>server.close(resolve));}
