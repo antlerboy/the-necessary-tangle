@@ -195,7 +195,7 @@ async function checkViewport(base, width) {
   const popupPromise = context.waitForEvent('page');
   await newTabLink.click({ modifiers: [process.platform === 'darwin' ? 'Meta' : 'Control'] });
   const popup = await popupPromise;
-  await popup.waitForLoadState('load');
+  await popup.waitForURL(expectedHref, { waitUntil: 'load' });
   assert.equal(popup.url(), expectedHref, 'Modified click must open the actual focus destination');
   assert.equal(page.url(), originalHref, 'Modified click must preserve the original view');
   await popup.close();
