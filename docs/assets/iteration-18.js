@@ -5,8 +5,6 @@
   const redirects = DATA.canonical_redirects || {};
   const canonical = (id) => redirects[id] || id;
   const nodes = new Map((DATA.nodes || []).map((node) => [node.id, node]));
-  const eligibleTypes = new Set(['profile', 'described']);
-  const excludedTypes = new Set(['corpus', 'source', 'evidence', 'claim']);
   const validReturnViews = new Set(['home', 'browse', 'journeys', 'map', 'ask', 'contribute', 'about', 'ai-observations']);
 
   // Repair links produced by the earlier Surprise-me handler before the main
@@ -39,10 +37,6 @@
     return (DATA.nodes || []).filter((node) =>
       node.public_visibility === 'public'
       && canonical(node.id) === node.id
-      && node.status === 'accepted'
-      && eligibleTypes.has(node.publication_level)
-      && !excludedTypes.has(node.entity_type)
-      && String(node.description || node.canonical_definition || '').trim().length >= 80
     );
   }
 

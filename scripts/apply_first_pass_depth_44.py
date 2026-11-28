@@ -40,11 +40,11 @@ def load(path):
     return json.loads(path.read_text(encoding='utf-8'))
 
 
-def replace_marked(path, block='', anchor=None, before=False):
-    text = re.sub(r'<!-- ' + MARK + r' -->.*?<!-- /' + MARK + r' -->\n?', '', path.read_text(encoding='utf-8'), flags=re.S)
+def replace_marked(path, block='', anchor=None, before=False, marker=MARK):
+    text = re.sub(r'<!-- ' + marker + r' -->.*?<!-- /' + marker + r' -->\n?', '', path.read_text(encoding='utf-8'), flags=re.S)
     if block:
         assert anchor in text, str(path)
-        marked = '<!-- ' + MARK + ' -->\n' + block + '\n<!-- /' + MARK + ' -->\n'
+        marked = '<!-- ' + marker + ' -->\n' + block + '\n<!-- /' + marker + ' -->\n'
         text = text.replace(anchor, marked + anchor if before else anchor + marked, 1)
     path.write_text(text, encoding='utf-8')
 
@@ -75,6 +75,7 @@ def main():
             (DOCS / 'reader-edition.json').write_text((PACKET.parent / 'previous-reader-edition.json').read_text(encoding='utf-8'), encoding='utf-8')
         for name in ['README.md', 'documentation/TANGLE_STATE.md', 'documentation/NEXT_WORK.md', 'docs/updates/index.html', 'docs/index.html']:
             replace_marked(ROOT / name)
+            replace_marked(ROOT / name, marker='random-entry-all')
         return
     packet = load(PACKET)
     cohort = packet['cohort']
@@ -147,7 +148,7 @@ def main():
     data['meta'].update(release=RELEASE, generated=DATE, release_digest_url='https://transduction.systems' + ROUTE,
                         iteration_focus=TITLE, release_note='84 source-led publication profiles with scoped typed connections; editorial acceptance pending.',
                         node_count=len(data['nodes']), edge_count=len(data['edges']), source_count=len(data['sources']), profile_count=len(data['profiles']),
-                        public_entry_count=metrics['public_entries'], described_entry_count=metrics['public_entries'],
+                        public_entry_count=metrics['public_entries'], described_entry_count=metrics['public_entries'], surprise_me_eligible_count=metrics['public_entries'],
                         reader_connected_entry_count=aggregate['reader_connected_entries'], semantic_connected_entry_count=aggregate['semantic_connected_entries'],
                         unconnected_entry_count=aggregate['connection_bands'].get('unconnected', 0), semantic_gap_entry_count=metrics['public_entries'] - aggregate['semantic_connected_entries'],
                         public_link_source_count=sum(s.get('public_link_status') == 'public_link' for s in data['sources']),
@@ -185,7 +186,8 @@ def main():
     ]:
         replace_marked(ROOT / name, block, anchor)
     next_work = ROOT / 'documentation/NEXT_WORK.md'
-    next_work.write_text('# Next work\n\n<!-- ' + MARK + ' -->\n## All 84 catalogue placeholders\n\nThe source-led profiles and 168 scoped connections are implemented. There are 83 new profiles and one expanded existing profile. The publication workflow records validation, deployment identity, and live checks. Human editorial review remains open; publication does not record human acceptance.\n\nPreserve the packet in sources/first-pass-depth-44/. The next content decision is human editorial review or a separately authorised packet from the recorded research programmes. The other corpus programmes and site-specific feedback requirements remain open in their own registers. Do not infer their completion from this finite set.\n<!-- /' + MARK + ' -->\n', encoding='utf-8')
+    next_work.write_text('# Next work\n\n' + (ROOT / 'sources/random-entry-all/packet.md').read_text(encoding='utf-8'), encoding='utf-8')
+    replace_marked(ROOT / 'documentation/TANGLE_STATE.md', '## Random-entry coverage correction, 28 November 2026\n\nThe active random-entry handler uses every canonical public entry, independent of status, publication level, entity type, and description length. The current graph has 1,295 such entries. The prior 84-entry work covered publications only; 107 person records still retain first-pass status without developed profiles, including 105 placeholder descriptions. Their source-led development remains open. The running feedback instruction must not be marked complete from the publication-only count. Deployment identity and live checks remain in the publication workflow and manifest.', '# Current Tangle state\n', marker='random-entry-all')
     for name in ['README.md', 'documentation/TANGLE_STATE.md']:
         path = ROOT / name
         text = path.read_text(encoding='utf-8').replace('Current reader release **0.43', 'Previous reader release **0.43').replace('## Current reader release 0.43', '## Previous reader release 0.43').replace('## Current research edition 0.41', '## Previous research edition 0.41').replace('Current research edition: **0.41', 'Previous research edition: **0.41')
@@ -193,7 +195,8 @@ def main():
     home = DOCS / 'index.html'
     text = home.read_text(encoding='utf-8')
     text = re.sub(r'<a id="releaseBadge"[^>]*>Release [^<]+</a>', '<a id="releaseBadge" data-reader-release="0.44" href="/versions/" aria-label="Version history, current release 0.44">Release 0.44</a>', text, count=1)
-    text = re.sub(r'assets/public-data.js\?v=[^"\s]+', 'assets/public-data.js?v=0.44', text)
+    text = re.sub(r'assets/public-data.js\?v=[^"\s]+', 'assets/public-data.js?v=0.44-random-all-20261128', text)
+    text = re.sub(r'assets/iteration-18.js\?v=[^"\s]+', 'assets/iteration-18.js?v=random-all-20261128', text)
     measures = [(metrics['public_entries'], 'readable public entries'), (aggregate['reader_connected_entries'], 'with reader connections'), (aggregate['connection_bands'].get('rich', 0) + aggregate['connection_bands'].get('developing', 0), 'developing or rich'), (aggregate['reader_statements'], 'reader relationship statements')]
     pattern = r'<div class="metrics" id="homeMetrics"[^>]*>(?:\s*<div class="metric">.*?</div>){4}\s*</div>'
     match = re.search(pattern, text, flags=re.S)

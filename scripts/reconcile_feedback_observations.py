@@ -11,6 +11,7 @@ import copy
 from datetime import datetime, timezone
 import hashlib
 import json
+import re
 from pathlib import Path
 
 from apply_iteration_09 import graph_metrics
@@ -42,6 +43,9 @@ def measurements(data):
     person_first_pass = sorted(node['id'] for node in nodes.values()
                                if node.get('entity_type') == 'person'
                                and 'first_pass' in node.get('review_status', ''))
+    biographical_placeholders = sorted(node['id'] for node in nodes.values()
+                                      if node.get('entity_type') == 'person'
+                                      and re.search(r'first[\s_-]*pass', node.get('description', ''), re.I))
     metrics = graph_metrics(data)
     assert metrics['public_entries'] == len(nodes)
     assert metrics['developed_profiles'] == len(profile_ids)
@@ -51,9 +55,12 @@ def measurements(data):
         profile_label_entries=sum(node.get('publication_level') == 'profile' for node in nodes.values()),
         literal_first_pass_entries=len(first_pass),
         first_pass_person_review_records=len(person_first_pass),
+        biographical_first_pass_placeholder_descriptions=len(biographical_placeholders),
+        unprofiled_first_pass_people=len(set(person_first_pass) - profile_ids),
         total_recorded_edge_rows=len(data['edges']),
     )
     gaps = {'literal_first_pass_entry_ids': first_pass,
+            'biographical_placeholder_entry_ids': biographical_placeholders,
             'bibliographic_first_pass_person_ids': person_first_pass,
             'unprofiled_canonical_entry_ids': sorted(nodes.keys() - profile_ids)}
     return metrics, gaps
@@ -140,7 +147,8 @@ def main():
     lines = ['# AI observations', '', f"Measurements recomputed {measured_on}; graph research release {data['meta']['release']} dated {data['meta']['generated']}. No research-release or review status changed.", '', data['ai_observations']['method_note'], '', '## Current measured state', '',
              f"- {metrics['public_entries']} canonical public entries; {metrics['developed_profiles']} actual developed profile records; {metrics['unprofiled_public_entries']} canonical entries without one.",
              f"- {metrics['profile_label_entries']} publication-level profile labels, counted separately from actual profile records.",
-             f"- {metrics['literal_first_pass_entries']} literal first-pass-entry placeholders; separately, {metrics['first_pass_person_review_records']} bibliographic first-pass person review records.",
+             f"- {metrics['biographical_first_pass_placeholder_descriptions']} biographical placeholder descriptions; {metrics['first_pass_person_review_records']} person records retain first-pass status, including {metrics['unprofiled_first_pass_people']} without a developed profile.",
+             f"- The legacy exact-phrase test for ‘first-pass entry’ returns {metrics['literal_first_pass_entries']}. It does not count the biographical wording and is not an overall completion measure.",
              f"- {metrics['typed_edges']} typed public relation rows; {metrics['substantive_edges']} substantive rows; {metrics['substantive_connected_nodes']} substantively connected entries and {metrics['substantive_isolated_nodes']} isolates.",
              f"- {metrics['sources']} source records, including {metrics['sources_with_public_links']} with public links.", '', '[Download current measurements, definitions, and gap entry IDs](https://transduction.systems/assets/feedback-observations-current.json).', '', '## Current scope explanations', '']
     for item in current:
@@ -149,7 +157,7 @@ def main():
     for item in historical['observations']:
         lines += ['### ' + item['title'], '', '**Historical measurement:** ' + item.get('measurement', ''), '', '**Historical interpretation:** ' + item.get('interpretation', ''), '', '**Proposed implication:** ' + item.get('implication', ''), '', '**Proposed test:** ' + item.get('test', ''), '']
     (ROOT / 'documentation/ai-observations.md').write_text('\n'.join(lines) + '\n', encoding='utf-8')
-    print(f"Refreshed feedback observations: {metrics['public_entries']} canonical entries, {metrics['developed_profiles']} profiles, {metrics['literal_first_pass_entries']} literal placeholders; graph and review records unchanged")
+    print(f"Refreshed feedback observations: {metrics['public_entries']} canonical entries, {metrics['developed_profiles']} profiles, {metrics['biographical_first_pass_placeholder_descriptions']} biographical placeholders, {metrics['first_pass_person_review_records']} first-pass person records; legacy exact-phrase count {metrics['literal_first_pass_entries']}; graph and review records unchanged")
 
 
 if __name__ == '__main__':

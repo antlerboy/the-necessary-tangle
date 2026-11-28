@@ -1,16 +1,17 @@
 # AI observations
 
-Measurements recomputed 2026-11-26; graph research release 0.41 dated 2026-11-07. No research-release or review status changed.
+Measurements recomputed 2026-11-28; graph research release 0.44 dated 2026-11-27. No research-release or review status changed.
 
-Measurements recomputed on 2026-11-26 from the maintained graph, research release 0.41 dated 2026-11-07. The three scope explanations were written on 2026-11-26; no new source research or human editorial acceptance is implied. The older observations below are retained as dated historical interpretations, not freshly verified findings.
+Measurements recomputed on 2026-11-28 from the maintained graph, research release 0.44 dated 2026-11-27. The three scope explanations were written on 2026-11-28; no new source research or human editorial acceptance is implied. The older observations below are retained as dated historical interpretations, not freshly verified findings.
 
 ## Current measured state
 
-- 1295 canonical public entries; 233 actual developed profile records; 1062 canonical entries without one.
-- 306 publication-level profile labels, counted separately from actual profile records.
-- 84 literal first-pass-entry placeholders; separately, 107 bibliographic first-pass person review records.
-- 2824 typed public relation rows; 1136 substantive rows; 559 substantively connected entries and 736 isolates.
-- 859 source records, including 843 with public links.
+- 1295 canonical public entries; 316 actual developed profile records; 979 canonical entries without one.
+- 389 publication-level profile labels, counted separately from actual profile records.
+- 105 biographical placeholder descriptions; 107 person records retain first-pass status, including 107 without a developed profile.
+- The legacy exact-phrase test for ‘first-pass entry’ returns 0. It does not count the biographical wording and is not an overall completion measure.
+- 2992 typed public relation rows; 1302 substantive rows; 649 substantively connected entries and 646 isolates.
+- 982 source records, including 957 with public links.
 
 [Download current measurements, definitions, and gap entry IDs](https://transduction.systems/assets/feedback-observations-current.json).
 
@@ -18,7 +19,7 @@ Measurements recomputed on 2026-11-26 from the maintained graph, research releas
 
 ### A readable entry and a developed profile are different records
 
-**Measured:** The current canonical public graph has 1295 entries and 233 developed profile records (18.0%); 1062 canonical entries have no developed profile. Separately, 306 entries carry the publication-level label profile. Those labels do not create additional profile records.
+**Measured:** The current canonical public graph has 1295 entries and 316 developed profile records (24.4%); 979 canonical entries have no developed profile. Separately, 389 entries carry the publication-level label profile. Those labels do not create additional profile records.
 
 **Interpretation:** An orientation, a publication label, and a developed account with sources are different units of work. Counting them together would overstate depth.
 
@@ -26,19 +27,19 @@ Measurements recomputed on 2026-11-26 from the maintained graph, research releas
 
 **Test:** Count canonical entries and actual profile records separately, then inspect the selected accounts and their source locators. A passing build is not editorial acceptance.
 
-### First-pass wording identifies unfinished work
+### Biographical placeholders remain unfinished
 
-**Measured:** 84 canonical public records contain the literal phrase first-pass entry. A different count, 107, identifies bibliographic first-pass person review records. These sets use different predicates and must not be substituted for one another.
+**Measured:** 105 biographical descriptions still contain first-pass wording. 107 person records retain first-pass status; 107 of them have no developed profile. Separately, the legacy exact phrase first-pass entry occurs in 0 canonical records. That exact-phrase count does not measure all unfinished first-pass content.
 
-**Interpretation:** These markers locate recorded limitations. They do not show that every other entry has received a full reading or that each marked entry needs the same kind of work.
+**Interpretation:** Publication-placeholder work does not establish biographical coverage. The biographical wording, review status, and actual profile records require separate checks.
 
-**What follows:** Carry the unresolved entries into a source-specific research packet, stating which text can be inspected and which claims remain unsupported. Keep broader corpus requests open until their own acceptance tests are met.
+**What follows:** Develop the unprofiled biographies from primary sources, explaining contributions, limits, and specific connections. Keep all public entries available for random exploration.
 
-**Test:** Reproduce each predicate from the public records, inspect the resulting entry IDs, and verify any subsequent changes against the cited material. No relationships are added to improve these figures.
+**Test:** Recompute each stated predicate and inspect the resulting IDs and profiles. Check that random selection reaches every canonical public entry; an exact-phrase count is not a completion test.
 
 ### Graph coverage does not establish agreement or source depth
 
-**Measured:** The canonical public projection has 2824 typed relation rows, including 1136 substantive rows; 559 entries have a substantive connection and 736 do not. The source register contains 859 records, including 843 with public links.
+**Measured:** The canonical public projection has 2992 typed relation rows, including 1302 substantive rows; 649 entries have a substantive connection and 646 do not. The source register contains 982 records, including 957 with public links.
 
 **Interpretation:** The measurement describes this atlas and the chosen relation filters. Source registration, an available link, a source reading, and an accepted claim are distinct.
 

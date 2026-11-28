@@ -55,7 +55,7 @@ jobs:
       - name: Check all 84 source-led publication entries and homepage requirements
         env:
           NODE_PATH: /tmp/practice-browser/node_modules
-        run: node scripts/test_first_pass_depth_44.cjs && node scripts/test_home_carry_forward.cjs
+        run: node scripts/test_first_pass_depth_44.cjs && node scripts/test_home_carry_forward.cjs && node scripts/test_random_entry_browser.cjs
       - name: Preserve practice test results
         if: always()
         uses: actions/upload-artifact@v4
@@ -81,6 +81,7 @@ jobs:
             validation/adventure-42-browser/
             validation/readable-atlas-browser/
             validation/first-pass-depth-44/
+            validation/random-entry-all/
             validation/home-carry-forward/
             validation/syscoi-intake-browser/
           if-no-files-found: ignore

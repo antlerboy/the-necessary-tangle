@@ -1,4 +1,9 @@
 # Current Tangle state
+<!-- random-entry-all -->
+## Random-entry coverage correction, 28 November 2026
+
+The active random-entry handler uses every canonical public entry, independent of status, publication level, entity type, and description length. The current graph has 1,295 such entries. The prior 84-entry work covered publications only; 107 person records still retain first-pass status without developed profiles, including 105 placeholder descriptions. Their source-led development remains open. The running feedback instruction must not be marked complete from the publication-only count. Deployment identity and live checks remain in the publication workflow and manifest.
+<!-- /random-entry-all -->
 <!-- first_pass_depth_44 -->
 ## Current research and reader edition 0.44
 

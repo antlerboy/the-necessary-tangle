@@ -392,3 +392,4 @@ apply-feedback-observations:
 .PHONY: apply-first-pass-depth-44
 apply-first-pass-depth-44:
 	python3 scripts/apply_first_pass_depth_44.py
+	node scripts/test_random_entry_all.cjs
